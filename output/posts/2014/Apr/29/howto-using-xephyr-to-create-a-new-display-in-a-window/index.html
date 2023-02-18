@@ -1,0 +1,480 @@
+<!DOCTYPE html>         <!-- This is the HTML5 doctype -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>HowTo: Using Xephyr to Create a New Display in a Window - Jeff's Skinner Box</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="../../../../../favicon.ico" rel="icon">
+
+    <!-- Open Graph tags -->
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="HowTo: Using Xephyr to Create a New Display in a Window"/>
+            <meta property="og:url" content="../../../../../posts/2014/Apr/29/howto-using-xephyr-to-create-a-new-display-in-a-window/"/>
+            <meta property="og:description" content="You might want to run one X Window System desktop environment on your local computer while accessing second computer, including its own desktop environment, using the first computer’s screen and keyboard. This is known as "X nesting". Open-source clients such as Xnest and Xephyr support X nesting."/>
+
+    <!-- Bootstrap -->
+        <link href="../../../../../theme/css/bootstrap.flatly.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Font Awesome and Google Fonts -->
+    <link href="../../../../../theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
+
+    <link href="../../../../../theme/css/pygments/default.css" rel="stylesheet">
+    <link href="../../../../../theme/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../../../../../static/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="box-shadow: 5px 5px 10px #888888;">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../../../../" style="font-family: Knewave, cursive; font-size: 48px; color: #FFFFFF">
+Jeff's Skinner Box&nbsp;            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="/pages/about-me/">About Me</a></li>
+                    <li><a href="http://127.0.0.1:8080">MicroContent</a></li>
+                    <li><a href="/pages/open-notebook/">Open Notebook</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="../../../../../archives.html">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+  <!-- GitHub Ribbon - https://github.com/blog/273-github-ribbons -->
+<!-- GitHub Ribbon - https://github.com/blog/273-github-ribbons -->
+    <a href="https://github.com/jeffskinnerbox/jeffskinnerbox.github.io/tree/source" target="_blank">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a>
+</div> <!-- /.navbar -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="../../../../../posts/2014/Apr/29/howto-using-xephyr-to-create-a-new-display-in-a-window/"
+                       rel="bookmark"
+                       title="Permalink to HowTo: Using Xephyr to Create a New Display in a Window">
+                        HowTo: Using Xephyr to Create a New Display in a Window
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-04-29T22:54:00-04:00"> Tuesday&nbsp;&nbsp;&nbsp;&nbsp;April 29, 2014</time>
+    </span>
+
+
+
+&nbsp;&nbsp;&nbsp;
+<i class="fa fa-tags fa-lg"></i>
+    <a class="btn btn-default btn-xs" href="../../../../../tag/how-to/">How To</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/x-window-system/">X Window System</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/window-manager/">Window Manager</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/xnest/">Xnest</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/xephyr/">Xephyr</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>You might want to run one X Window System desktop environment on your local computer while accessing second computer,
+including its own desktop environment,
+all the while using the first computer’s screen and keyboard.
+This sounds like multiple X Servers running.
+One for the monitor and the other managing a graphics window as if it were a second monitor.
+Fortunately, X Window System provides tools to do exactly this.
+This has been done by designing a X Client to emulate an X Server that then provides display services to other clients.
+The open-source clients that do this are called <code>Xnest</code> and <code>Xephyr</code>.
+And this display within a window concept is known as "X nesting".</p>
+<h1>My Native Desktop Environment</h1>
+<p>For my X Window System, I'm running Lightweight X11 Desktop Environment (LXDE)
+which has <code>lxdm</code> as its X Display Manager (aka GUI Login Manager),
+nd uses <code>lxsession</code> as it X Session Manager,
+and the <code>Metacity</code> X Window Manager.
+In the examples below, I sometimes use other components to demonstrate the robustness of the approach.
+Specifically, I'm using the <a href="http://awesome.naquadah.org/">Awesome X Windows Manager</a>
+This can be load with the following:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo apt-get install awesome awesome-extra
+</pre></div>
+
+
+<h1>Xnest</h1>
+<p><code>Xnest</code> is a Display Server implementing the X11 display server protocol that outputs to a window,
+as apposed to a X display.
+<code>Xnest</code> is a standard part of the XFree86 and X.org X Servers,
+and provides an X Server that runs inside a standard X Window.
+In other words, <code>Xnest</code> opens a window that works like another screen in which the user can open windows, etc.
+At the X Protocol level, <code>Xnest</code> works like a X Client of the X Server hosting the window,
+and as a X Server with respect to the X Window Manager
+(i.e. applications that opens windows) within the <code>Xnest</code> session.
+Therefore, <code>Xnest</code> can be used to run a virtual desktop of another computer
+(which is running X Window) within a window.</p>
+<p><code>Xnest</code> might come pre-installed in the Ubuntu X Window System
+but it's easy to install and is <a href="http://box.matto.nl/xnest.html">easy to use</a>.
+Simply install the package.  No special configuration is require.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo apt-get install xnest
+</pre></div>
+
+
+<h3>Simple Test of Xnest</h3>
+<p>To open a window containing a new X Display (i.e. display :3) and running xclock,
+execute the following commands in an <code>xterm</code>.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>Xnest :3 -geometry 1280x1024+200+200 -name &quot;Xnest Test Window&quot; 2&gt; /dev/null &amp;
+xclock -display :3 &amp;
+</pre></div>
+
+
+<p>The options have the following purpose:</p>
+<ul>
+<li><strong>:3</strong> is your display (displays are numbered starting with 0)</li>
+<li><strong>-geometry 1280x1024+200+200</strong> sets the window size and position</li>
+<li><strong>-name "Xnest Test Window"</strong> is the title of the Xnest window</li>
+<li><strong>2&gt; /dev/null</strong> redirects trace and error messages</li>
+</ul>
+<p>In the above, there isn't a window manager.
+To include a window manager, you simple need to start one up, but again, within display :3.
+And you can tile on a <code>xterm</code> and the <code>xeye</code>.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>DISPLAY=:3 awesome &amp;
+DISPLAY=:3 xterm &amp;
+DISPLAY=:3 xeyes &amp;
+</pre></div>
+
+
+<h1>Xephyr</h1>
+<p>For this discussion, you can think of <a href="http://nims11.wordpress.com/2012/06/24/nested-x-servers-with-xephyr/"><code>Xephyr</code></a> as an improved <code>Xnest</code>.
+Also, the use of the <code>Xephyr</code> X Server instead of <code>Xnest</code> is generally recommended.
+You can install <code>Xephyr</code> with the following.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo apt-get install xserver-xephyr
+</pre></div>
+
+
+<h3>Simple Test of Xephyr</h3>
+<p>To open a <code>Xephyr</code> window with a specific size and suppress trace / error messaging,
+do the following:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>Xephyr -ac -screen 1280x1024 -br -reset -terminate 2&gt; /dev/null :3 &amp;
+</pre></div>
+
+
+<p>The options have the following purpose:</p>
+<ul>
+<li><strong>:3</strong> is your display (displays are numbered starting with 0)</li>
+<li><strong>-ac</strong> disable access control restrictions (allow you to forward X)</li>
+<li><strong>-screen 1280x1024</strong> sets the window size</li>
+<li><strong>-br</strong> set the background to black</li>
+<li><strong>-reset</strong> reset after last client exists</li>
+<li><strong>-terminate</strong> terminate <code>Xephyr</code> at server reset (does not always work)</li>
+<li><strong>2&gt; /dev/null</strong> redirects trace and error messages</li>
+</ul>
+<p>To add a <code>xterm</code> into another account and the GNOME Window Manager, you could do the following:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>Xephyr -ac -screen 1280x1024 -br -reset -terminate 2&gt; /dev/null :3 &amp;
+DISPLAY=:3.0 gnome-wm &amp;
+DISPLAY=:3.0 ssh -X jennie@desktop xterm
+</pre></div>
+
+
+<p>Or you could start a GNOME Desktop session, and this will being with it its display manager</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>Xephyr -ac -screen 1280x1024 -br -reset -terminate 2&gt; /dev/null :3 &amp;
+DISPLAY=:3 gnome-session &amp;
+DISPLAY=:3.0 ssh -XfC jennie@desktop xterm
+</pre></div>
+
+
+<p>This doesn't give you the full desktop environment.
+The best way to do this is to go thought the X Display Manager (aka GUI Login Manager).
+This is shown below in the next section.</p>
+<h3>Remote Login</h3>
+<p><code>Xephyr</code> and <code>Xnest</code> can also be used to <a href="http://techpad.co.uk/content.php?sid=72">remotely login to a desktop session</a>.
+When remotely starting a X Window System desktop,
+<a href="http://www.x.org/releases/X11R7.7/doc/libXdmcp/xdmcp.html">XDMCP (X Display Manager Control Protocol)</a> is typically used to establish
+the connection between the remote X Display Manager (XDM) daemon
+and the local X Server.
+Once the connection has been established, and the user has successfully authenticated,
+the XDM daemon launches the X client session, which is displayed on the user's workstation.</p>
+<p>XDMCP suffers from some of the same security problem as all the X Protocols,
+but unfortunately, cannot be tunnelled over SSH due to it's use of UDP.
+Attempts to use XDMCP to connect to a remote system
+via SSH will fail and an error message will be displayed.</p>
+<p>For security reasons,
+XDMCP is not enabled by default on most modern UNIX distributions.
+You will have to enable remote logins to your X Display Manager.
+To enable XDMCP on my LXDE based system,
+I configuring the file <code>/etc/lightdm/lightdm.conf</code> so it contains</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>[SeatDefaults]
+user-session=ubuntu
+autologin-user=false
+xserver-allow-tcp=true
+greeter-session=unity-greeter
+
+[XDMCPServer]
+enabled=true
+port=177
+#key=
+</pre></div>
+
+
+<p>The key enabler here is the term <code>enabled=true</code>
+(this is generally set to <code>false</code> for security purposes).</p>
+<p>Now get out of X Window and restart the lightdm with <code>sudo restart lightdm</code>
+(make sure to exit any running applications first)
+or reboot your system so the changes take effect.
+To log into into my Linux system (aka <code>desktop</code>),
+from the same system as if they are remote to each other,
+I used the following command works well.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>Xephyr :3 -ac -screen 1280x1024 -br -reset -terminate -query desktop 2&gt; /dev/null &amp;
+</pre></div>
+
+
+<p>The new option <strong>-query desktop</strong> cause <code>Xephyr</code> to contact the host computer <code>desktop</code> via XDMCP.
+A screen shot is shown below.</p>
+<p><img alt="Xephyr Screen Shot" src="../../../../../images/desktop-using-xephyr.jpg" title="Desktop image with login screen shown in a window" /></p>
+<p><strong>NOTE:</strong> When I attempted to do the same login screen (i.e. Display Manager) with <code>Xnest</code> via the command
+<code>Xnest :3 -geometry 1280x1024+200+200 -query desktop &amp;</code>
+and found that it didn't fully work.
+Appears <code>Xephyr</code> is the way to go.</p>
+<h3>Sources</h3>
+<ul>
+<li><a href="http://unix.stackexchange.com/questions/20385/windows-managers-vs-login-managers-vs-display-managers-vs-desktop-environment">Windows Managers vs Login Managers vs Display Managers vs Session Manager vs Desktop Environment</a></li>
+<li><a href="http://askubuntu.com/questions/60364/can-i-run-a-remote-x-session-in-windowed-mode">Can I run a remote X session in windowed mode?</a></li>
+<li><a href="http://x.cygwin.com/docs/ug/using-remote-session.html">Remote sessions via XDMCP</a></li>
+<li><a href="http://www.answeredubuntu.com/175902/remote_x_server_with_ssh_x#sthash.ifsk3uxx.dpbs">Remote x-server with ssh -X</a></li>
+<li><a href="http://ptspts.blogspot.com/2010/02/how-to-try-gdm-login-screen-in-many.html">How to try the GDM login screen in many resolutions</a></li>
+<li><a href="https://www.centos.org/docs/5/html/5.2/Installation_Guide/s2-trouble-remotex.html">Remote Graphical Desktops and XDMCP</a></li>
+<li><a href="http://forums.opensuse.org/showthread.php/466709-Starting-a-Remote-X-session-using-XDMCP">Starting a Remote X session using XDMCP</a></li>
+<li><a href="http://askubuntu.com/questions/11189/how-to-use-xdmcpgdm-and-xnest">How to use XDMCP+GDM and Xnest?</a></li>
+<li><a href="https://wiki.ubuntu.com/xdmcp">xdmcp</a></li>
+</ul>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3 well well-sm" id="sidebar" style="box-shadow: 5px 5px 10px #888888;">
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <div style="text-align: center;">
+                    <h3><a href="../../../../../pages/about-me/" style="font-family: Knewave, cursive; font-size: 18;">My Electronics Projects And Other Diversions</a>
+                    <a href="../../../../../pages/about-me/">
+                        <img class="img-rounded" src="../../../../../extra/frustrated-engineer.jpg" alt="Side Bar Picture" height="100%" width="100%">
+                    </a>
+                </div>
+
+            <font color=#990000>
+                <li class="list-group-item"><a href="../../../../../pages/"><h4><i class="fa fa-exclamation-triangle fa-lg"></i><span class="icon-label">Testing Zone</span></h4></a>
+                </li>
+
+                <li class="list-group-item"><a href="../../../../../drafts/"><h4><i class="fa fa-edit fa-lg"></i><span class="icon-label">Draft Articles</span></h4></a>
+                </li>
+            </font>
+
+            <li class="list-group-item"><a href="../../../../../categories.html"><h4><i class="fa fa-folder-open fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../index.html"><h4><i class="fa fa-clock-o fa-lg"></i><span class="icon-label">Recent Posts</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../pages/open-notebook/index.html"><h4><i class="fa fa-book fa-lg"></i><span class="icon-label">Open Notebook</span></h4></a>
+
+<li class="list-group-item"><h4><i class="fa fa-file-text fa-lg"></i><span class="icon-label">Site Pages</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="/pages/linux-and-python-packages-for-my-raspberry-pi/index.html" target="_blank">
+                RPi Packages
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="/tag/how-to/index.html" target="_blank">
+                How To
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="/tag/cheat-sheet/index.html" target="_blank">
+                Cheat Sheets
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-puzzle-piece fa-lg"></i><span class="icon-label">MicroContent</span></h4>
+    <ul class="list-group" id="wiki">
+        <li class="list-group-item">
+            <a href="http://127.0.0.1:8080/#Potential Projects" target="_blank">
+                Project Ideas
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://127.0.0.1:8080/#Topics for Study" target="_blank">
+                Things to Study
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-link fa-lg"></i><span class="icon-label">External Links</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://tiddlywiki.com/" target="_blank">
+                TiddlyWiki
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-group fa-lg"></i><span class="icon-label">Social Media</span></h4>
+    <ul class="list-group" id="social">
+        <li class="list-group-item"><a href="https://github.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-github"></i> Github
+        </a></li>
+        <li class="list-group-item"><a href="https://hackaday.io/jeffskinnerbox" target="_blank">
+            <i class="fa fa-hacker-news"></i> Hackaday
+        </a></li>
+        <li class="list-group-item"><a href="https://twitter.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-twitter"></i> Twitter
+        </a></li>
+        <li class="list-group-item"><a href="https://www.flickr.com/photos/104241758@N03/" target="_blank">
+            <i class="fa fa-flickr"></i> Flickr
+        </a></li>
+        <li class="list-group-item"><a href="https://delicious.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-delicious"></i> Delicious
+        </a></li>
+        <li class="list-group-item"><a href="https://www.pinterest.com/jeffskinnerbox/my-electronics-projects-and-other-diversions/" target="_blank">
+            <i class="fa fa-pinterest"></i> Pinterest
+        </a></li>
+        <li class="list-group-item"><a href="http://getpocket.com/a/queue/" target="_blank">
+            <i class="fa fa-chevron-circle-down"></i> Pocket
+        </a></li>
+        <li class="list-group-item"><a href="http://jeffskinnerbox.tumblr.com/" target="_blank">
+            <i class="fa fa-tumblr"></i> Tumblr
+        </a></li>
+        <li class="list-group-item"><a href="http://instagram.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-instagram"></i> Instagram
+        </a></li>
+        <li class="list-group-item"><a href="https://www.facebook.com/jeff.irland" target="_blank">
+            <i class="fa fa-facebook"></i> Facebook
+        </a></li>
+        <li class="list-group-item"><a href="https://linkedin.com/in/jeffreyirland" target="_blank">
+            <i class="fa fa-linkedin"></i> Linkedin
+        </a></li>
+        <li class="list-group-item"><a href="http://www.commandlinefu.com/commands/by/jeffskinnerbox" target="_blank">
+            <i class="fa fa-terminal"></i> CommandLineFu
+        </a></li>
+        <li class="list-group-item"><a href="https://disqus.com/by/jeffskinnerbox/" target="_blank">
+            <i class="fa fa-comment"></i> DISQUS
+        </a></li>
+    </ul>
+</li> 
+
+<li class="list-group-item"><h4><i class="fa fa-thumbs-up fa-lg"></i><span class="icon-label">Reposted At</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://www.eeweb.com/websites/jeffs-skinner-box" target="_blank">
+                EEWeb.com
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-gears fa-lg"></i><span class="icon-label">Admin</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="https://www.google.com/analytics/web/?hl=en#report/visitors-overview/a43272292w73270397p83408137/" target="_blank">
+                Google Analytics
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/jeffskinnerbox/jeffskinnerbox.github.io" target="_blank">
+                Web Site Source Code
+            </a>
+        </li>
+    </ul>
+</li>
+            <li class="list-group-item"><a href="../../../../../pages/this-blog-is-powered-by/index.html"><h4><i class="fa fa-rocket fa-lg"></i><span class="icon-label">This Blog Powered By</span></h4></a>
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">This Blog Powered By 
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://tiddlywiki.com/" target="_blank">TiddlyWiki</a>,
+            <a href="http://ipython.org/notebook.html" target="_blank">Python Notebook</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, And
+            <a href="/pages/this-blog-is-powered-by/index.html" target="_blank">Other Things</a>.
+            <p>
+            <a href="http://opensource.org/">
+                <img src="/images/logos/open_source_logo.png" alt="Open Source Logo" title="The Open Source Initiative (OSI) is a non-profit corporation with global scope formed to educate about and advocate for the benefits of open source, and to build bridges among different constituencies in the open source community. The OSI maintains the Open Source Definition and the list of Open Source Initiative-approved licenses." height="40px" width="40px">
+            </a>
+            <a href="http://www.oshwa.org/">
+                <img src="/images/logos/open-soruce-hardware-logo-800-px.png" alt="Open Source Hardware Logo" title="The Open Source Hardware Association aims to be the voice of the open hardware community, ensuring that technological knowledge is accessible to everyone, and encouraging the collaborative development of technology that serves education, environmental sustainability, and human welfare." height="40px" width="40px">
+            </a>
+            <small>
+                All my work on this blog is
+                <a href="http://opensource.org/licenses/MIT/" target="_blank">MIT Licensed, open, and free</a>,
+                except where indicated otherwise.
+            </small>
+            </p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../../../../theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="../../../../../theme/js/respond.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '../../../../../theme/js/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+            }
+
+            github.showRepos({
+                user: 'jeffskinnerbox',
+                count: 5,
+                skip_forks: false,
+                target: '#gh_repos'
+            });
+        });
+    </script>
+    <script src="../../../../../theme/js/github.js" type="text/javascript"></script>
+</body>
+</html>
