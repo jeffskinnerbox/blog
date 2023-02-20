@@ -13,6 +13,9 @@ Version:      0.0.0
 
 
 
+# Watch Face Design
+* [Chen Liang's Smart Arduino Watch Faces Are Built with LVGL and SquareLine Studio](https://www.hackster.io/news/chen-liang-s-smart-arduino-watch-faces-are-built-with-lvgl-and-squareline-studio-125a84c86c8f)
+
 # Bangle.js Smart Watch
 * [Bangle.js](https://banglejs.com/)
 * [Bangle.js 2](https://www.kickstarter.com/projects/gfw/banglejs-2-the-open-smart-watch)
