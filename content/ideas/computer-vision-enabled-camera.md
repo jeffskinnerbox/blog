@@ -36,3 +36,4 @@ Version:      0.0.0
 * [Compact Maple Syrup Raspberry Pi IoT smart camera](https://www.geeky-gadgets.com/maple-syrup-raspberry-pi-iot-smart-camera-16-08-2021/)
 * [Maple Syrup Pi Camera](https://www.hackster.io/ricardodeazambuja/maple-syrup-pi-camera-7962d9)
 * [Nicla Vision](https://www.sparkfun.com/products/19728)
+* [How To Roll Your Own Custom Object Detection Neural Network](https://hackaday.com/2023/02/13/how-to-roll-your-own-custom-object-detection-neural-network/)
