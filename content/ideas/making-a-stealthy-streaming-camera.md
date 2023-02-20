@@ -23,6 +23,7 @@ Version:      0.0.0
 
 * [Live Streaming Goes Pro with a Hacked Backpack](https://hackaday.com/2018/09/03/live-streaming-goes-pro-with-a-hacked-backpack/)
 * [Hundreds ‘Rickrolled’ in Mysterious Campus Prank at Cornell](https://cornellsun.com/2017/11/10/hundreds-rickrolled-in-mysterious-campus-prank-at-cornell/)
+    * [An Oral History of Rickrolling](https://getpocket.com/explore/item/an-oral-history-of-rickrolling)
 * [A Doorbell With Facial Recognition](https://medium.com/@mppise/a-doorbell-with-facial-recognition-3b132bf9605)
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
 * [Raspberry Pi Zero W Surveillance Camera](https://www.youtube.com/watch?v=rhIzfRmKHnQ)
