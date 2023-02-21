@@ -372,6 +372,7 @@ With free software that can be downloaded on the Raspberry Pi, you can obtain pi
 * [Why MEMS Microphones Are the Best Choice for Your Project](https://www.hackster.io/news/why-mems-microphones-are-the-best-choice-for-your-project-fb4c3a61f33d)
 
 # Open Source Seismometer
+* [ASK HACKADAY: INCIDENTAL EARTHQUAKE DETECTION](https://hackaday.com/2023/02/09/ask-hackaday-incidental-earthquake-detection/)
 * [Earthquake Detection On A Chip](https://hackaday.com/2019/07/06/earthquake-detection-on-a-chip/)
 * [Earthquake Detector](https://avtanski.net/projects/seismic_sensor/)
 * [Classroom seismometers could monitor earthquakes worldwide](http://physicsworld.com/cws/article/news/2014/jan/28/classroom-seismometers-could-monitor-earthquakes-worldwide)

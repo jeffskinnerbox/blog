@@ -28,6 +28,11 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 
 * [Projects by Chris Thompson](https://www.g0kla.com/index.php)
 
+* [Digital Library of Amateur Radio and Communications is a Treasure Trove](https://hackaday.com/2023/02/20/digital-library-of-amateur-radio-and-communications-is-a-treasure-trove/)
+
+
+
+
 
 
 # Baofeng RF Module: SA818

@@ -19,6 +19,14 @@ Version:      0.0.0
 * [SOCORAD32 ESP32 walkie-talkie board also supports data communication](https://www.cnx-software.com/2023/01/25/socorad32-esp32-walkie-talkie-board-also-supports-data-communication-crowdfunding/)
 
 
+# User Interface
+* [Create a modern user interface with the Tkinter Python library](https://opensource.com/article/23/2/user-interface-tkinter-python)
+
+-----
+
+
+
+
 I have been thinking about creating a walkie-talkie for my young grand-children
 such that they could talk to each other (or me!) over the Internet.
 I did some web searching and found some existing projects that came close,
