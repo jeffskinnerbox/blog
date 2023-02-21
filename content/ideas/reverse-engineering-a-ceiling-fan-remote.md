@@ -43,6 +43,7 @@ Version:      0.0.0
 * [reverse engineering static key remotes with gnuradio and rfcat](https://leonjza.github.io/blog/2016/10/02/reverse-engineering-static-key-remotes-with-gnuradio-and-rfcat/)
 * [Reverse Engineering Signals with the Universal Radio Hacker Software](http://www.rtl-sdr.com/reverse-engineering-signals-universal-radio-hacker-software/)
 * [Using MATLAB and SDR to Reverse Engineer 433MHz Messages](http://hackaday.com/2015/02/16/using-matlab-and-sdr-to-reverse-engineer-433mhz-messages/)
+* [Decoding 433 MHz Signals With Arduino & Raspberry Pi ](https://hackaday.com/2023/02/16/decoding-433-mhz-signals-with-arduino-raspberry-pi/)
 * [Your Table Is Ready, Courtesy Of HackRF](https://hackaday.com/2019/06/04/your-table-is-ready-courtesy-of-hackrf/)
 * [RF reverse engineering has become trivial — thanks to the ‘Opensource SDR’ movement](https://medium.com/@nihal.pasham/rf-reverse-engineering-has-become-trivial-thanks-to-the-opensource-sdr-movement-d1f9216f2f04)
 * [Hacking Toy RC Cars With The HackRF One](https://hackaday.com/2022/04/30/hacking-toy-rc-cars-with-the-hackrf-one/)
