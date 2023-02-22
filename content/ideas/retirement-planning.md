@@ -104,6 +104,7 @@ The SECURE 2.0 Act changes the rules covering 401(k) accounts and required minim
     * Qualifying Longevity Annuity Contracts (QLACs) upgrades
 
 * [SECURE 2.0: How Does it Affect Retirement Plans?](https://www.schwab.com/learn/story/secure-20-how-does-it-affect-retirement-plans?cmp=em-XCU)
+* [SECURE 2.0: Rethinking retirement savings](https://workplaceservices.fidelity.com/mybenefits/employerservices/navigation/librarycontent?ccsource=em_NB_1058859_LEARN_CAMPG_0122_20230222101446_T104000000_SFID_490615_Button&page=articles%2Fsecureact)
 
 # Investing
 * [Bogleheads, Baby Steps, and Other Personal Financial Strategies You Should Know](https://lifehacker.com/bogleheads-baby-steps-and-other-personal-financial-st-1848591137)
