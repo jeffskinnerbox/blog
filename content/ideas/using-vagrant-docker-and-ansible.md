@@ -2572,6 +2572,8 @@ Sources:
 * [How to Get Started With Portainer, a Web UI for Docker](https://www.cloudsavvyit.com/8911/how-to-get-started-with-portainer-a-web-ui-for-docker/)
 * [Portainer Install Ubuntu tutorial - manage your docker containers](https://www.youtube.com/watch?v=ljDI5jykjE8)
 
+* [How to Update Portainer](https://www.wundertech.net/how-to-update-portainer/)
+
 ### Step 1: Portainer Server Deployment - DONE
 Use the following Docker commands to deploy the Portainer Server.
 
