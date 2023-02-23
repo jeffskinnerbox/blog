@@ -354,6 +354,8 @@ Most dual channel oscilloscopes have an XY mode in which the timebase is replace
 * [Vector Display Introduction](https://www.nycresistor.com/2012/09/03/vector-display/)
 * [Comparing XY Mode on Analog and Digital Oscilloscopes](https://www.youtube.com/watch?v=1tTeXPmbxW0)
 
+* [Drawing Knots On An Oscilloscope Using Analog Means](https://hackaday.com/2023/02/22/drawing-knots-on-an-oscilloscope-using-analog-means/)
+
 
 
 -------
