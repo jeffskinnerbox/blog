@@ -472,3 +472,8 @@ pandas cookbook
 * [Advanced exploratory data analysis (EDA) with Python](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a)
     * [Advanced exploratory data analysis (EDA)](https://miykael.github.io/blog/2022/advanced_eda/)
 
+# AI Winter
+* [The Risk of a New AI Winter](https://clivethompson.medium.com/the-risk-of-a-new-ai-winter-332ffb4767f0)
+* [The winter, the summer and the summer dream of artificial intelligence in law](https://link.springer.com/article/10.1007/s10506-022-09309-8)
+
+
