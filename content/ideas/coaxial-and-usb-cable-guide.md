@@ -186,6 +186,7 @@ The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fi
 * [All About USB-C: Pinecil Soldering Iron](https://hackaday.com/2023/01/31/all-about-usb-c-pinecil-soldering-iron/)
 * [All About USB-C: Manufacturer Sins](https://hackaday.com/2023/02/07/all-about-usb-c-manufacturer-sins/)
 * [All About USB-C: Talking Low-Level PD](https://hackaday.com/2023/02/14/all-about-usb-c-talking-low-level-pd/)
+* [All About USB-C: Replying Low-Level PD](https://hackaday.com/2023/02/22/all-about-usb-c-replying-low-level-pd/)
 
 
 
