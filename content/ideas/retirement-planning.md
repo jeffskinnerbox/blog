@@ -147,9 +147,8 @@ The SECURE 2.0 Act changes the rules covering 401(k) accounts and required minim
     * In 2023, for people 50 and older, the catch-up contributions also rose, to $7,500 from $6,500.
 
 ## Required Minimum Distributions (RMD)
-When you reach age 70½,
-you're required to withdraw a certain amount of money from your retirement accounts each year.
-That amount is called a [required minimum distribution, or RMD][01].
+* When you reach age 70½, you're required to withdraw a certain amount of money from your retirement accounts each year.  That amount is called a [required minimum distribution, or RMD][01].
+* I belive SECURE 2.0 legislation now requires distributions to begin by April 1st of the year following the year in which you turn 72.  For me, this is April 1st of 2029.
 
 * [How Required Minimum Distributions Work!](https://www.merriman.com/investing-101/how-required-minimum-distributions-work/)
 * [Calculate your required minimum distribution (RMD)](https://digital.fidelity.com/prgw/digital/rmd/#/rmdform)
