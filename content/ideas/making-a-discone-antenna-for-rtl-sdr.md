@@ -646,6 +646,7 @@ A antenna tuner is a device used to match impedances between a transmitter and a
 * [THE YOULOOP PASSIVE LOOP ANTENNA REVIEWED ON HF RECEPTION](https://www.rtl-sdr.com/the-youloop-passive-loop-antenna-reviewed-on-hf-reception/)
 * [Antenna Pulls In AM Stations](https://hackaday.com/2020/08/19/antenna-pulls-in-am-stations/)
 * [Affordable HF Loop Antenna Reviewed](https://hackaday.com/2022/01/21/affordable-hf-loop-antenna-reviewed/)
+* [LOOP ANTENNA IS PORTABLE](https://hackaday.com/2017/02/25/loop-antenna-is-portable/)
 
 ## Yagi Antenna
 * [Lowering The Boom On Yagi Element Isolation](https://hackaday.com/2020/05/10/lowering-the-boom-on-yagi-element-isolation/)
