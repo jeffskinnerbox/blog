@@ -50,6 +50,8 @@ The importance of this job area:
 # 5G
 * [Global update on spectrum for 4G & 5G](https://www.qualcomm.com/media/documents/files/spectrum-for-4g-and-5g.pdf)
 * [What’s in the future of 5G millimeter wave?](https://www.qualcomm.com/news/onq/2021/01/14/whats-future-5g-millimeter-wave)
+* [20 radio access network (RAN) terms to know](https://www.redhat.com/architect/ran-radio-access-network-definitions)
+* [Advancing 5G with new decentralized, scalable solution](https://www.digitaljournal.com/tech-science/advancing-5g-with-new-decentralized-scalable-solution/article)
 
 
 
