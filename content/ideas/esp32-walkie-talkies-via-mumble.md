@@ -22,6 +22,19 @@ Version:      0.0.0
 # User Interface
 * [Create a modern user interface with the Tkinter Python library](https://opensource.com/article/23/2/user-interface-tkinter-python)
 
+# Management of the ESP32 Walkie Talkie
+* [ESP32 Web Updater and SPIFFS File Manager](https://hackaday.com/2023/02/17/esp32-web-updater-allows-file-system-management-and-ota-updates/)
+
+* [ESP32 WiFiManager – Easy WiFi Provisioning](https://dronebotworkshop.com/wifimanager/)
+* [WiFiManager with ESP32 - Stop Hard-coding WiFi Credentials](https://www.youtube.com/watch?v=VnfX9YJbaU8)
+
+* [PersWiFiManager](http://ryandowning.net/PersWiFiManager/examples.html)
+* [DoubleResetDetector](https://github.com/datacute/DoubleResetDetector/blob/master/examples/minimal/minimal.ino)
+
+* [WiFiManager](https://github.com/tzapu/WiFiManager/tree/development#how-it-works)
+* [Avoid Hard-Coding WiFi Credentials on Your ESP8266 Using the WiFiManager Library](https://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/)
+
+
 -----
 
 
