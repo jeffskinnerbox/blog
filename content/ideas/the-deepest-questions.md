@@ -517,6 +517,9 @@ A function is a relation that uniquely associates members of one set with member
 * [The Road to Quantum Mechanics, Part 7: The Dirac Delta Function](https://www.cantorsparadise.com/the-road-to-quantum-mechanics-part-7-the-dirac-delta-function-374540fae66e)
 * [The Road to Quantum Mechanics, Part 8: The Wave Equation](https://www.cantorsparadise.com/the-road-to-quantum-mechanics-part-8-the-wave-equation-24bdbdb9903e)
 
+* [Vectors and Covectors](https://joseph-mellor1999.medium.com/vectors-and-covectors-81b64ff6e38b)
+* [An Intro to Differential Forms](https://joseph-mellor1999.medium.com/an-intro-to-differential-forms-b3ec00d43d31)
+
 # Quantum Physics
 * [The math of how atomic nuclei stay together is surprisingly beautiful](https://www.youtube.com/watch?v=FL3ImtGcHqQ)
 
@@ -734,6 +737,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [Understanding Tensors and their Beauty](https://medium.com/@pelicanlabs/understanding-tensors-and-their-beauty-715041faed4c)
 * [Understanding Tensors and their Beauty Part II](https://medium.com/@pelicanlabs/understanding-tensors-and-their-beauty-part-ii-3dbd4876a8bd)
 * [A Light Intro To Tensors: A Framework For Defining Geometric Objects In Space](https://www.cantorsparadise.com/a-light-intro-to-tensors-49508a0a82ab)
+* [eigenchris](https://www.youtube.com/@eigenchris/videos)
 
 # Fusion Reactor
 * [No Longer 30 Years Away: Two New Major Fusion Breakthroughs](https://medium.com/predict/no-longer-30-years-away-two-new-major-fusion-breakthroughs-bcb65106a013)
