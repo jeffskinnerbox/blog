@@ -57,6 +57,7 @@ Manim is an engine for precise animations, designed for creating explanatory mat
 
 # Riemann’s Functional Equation
 * [Deriving and Understanding Riemann’s Functional Equation](https://www.cantorsparadise.com/deriving-and-understanding-riemanns-functional-equation-4eea09da6d5a)
+* [What is the Riemann Hypothesis REALLY about?](https://www.youtube.com/watch?v=e4kOh7qlsM4)
 
 # Solutions
 * [A British mathematician thinks he’s cracked a secret worth a million bucks](https://www.popsci.com/riemann-hypothesis-proof)
@@ -84,6 +85,7 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [Bernhard Riemann: The Habilitation Dissertation](https://larouchepac.com/20150610/bernhard-riemann-habilitation-dissertation)
 * [Bernhard Riemann's Habilitation Dissertation](http://lymcanada.org/wp-content/uploads/sites/2/2015/01/Riemann_Habilitation-Dissertation.pdf)
 * [Bernhard Riemann 1826-1866: Turning Points in the Conception of Mathematics](https://uberty.org/wp-content/uploads/2015/11/Detlef_Laugwitz_Bernhard_Riemann.pdf)
+* [Analytic Number Theory](https://www.youtube.com/playlist?list=PLbaA3qJlbE93DiTYMzl0XKnLn5df_QWqY)
 
 # Imaginary Numbers are Real
 * [Imaginary Numbers are Real](https://www.youtube.com/playlist?list=PLiaHhY2iBX9g6KIvZ_703G3KJXapKkNaF)
