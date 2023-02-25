@@ -259,8 +259,11 @@ such as their image but also via motion, heat, sound, or RF exhaust then may mak
 * [Step Detection System By A Way With Arduino](https://www.hackster.io/juan-salvador-aleixandre-talens/step-detection-system-by-a-way-with-arduino-bc6f3a)
 
 # Motion
+
 # Heat
 * [Grid-EYE](https://www.sparkfun.com/products/14607)
+* [SparkFun Human Presence Sensor Breakout - AK9753](https://www.sparkfun.com/products/14349)
+
 # Radar
 distance-and-proximity-measurement-sensors.md
 
