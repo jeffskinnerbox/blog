@@ -499,6 +499,9 @@ A function is a relation that uniquely associates members of one set with member
 
 * [Physicists Create a Holographic Wormhole Using a Quantum Computer](https://www.quantamagazine.org/physicists-create-a-wormhole-using-a-quantum-computer-20221130)
 
+* [Physicists Use Quantum Mechanics to Pull Energy out of Nothing](https://www.quantamagazine.org/physicists-use-quantum-mechanics-to-pull-energy-out-of-nothing-20230222/?mc_cid=539e4e1a35&mc_eid=a88c5dceda)
+* [How the Physics of Nothing Underlies Everything](https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809/)
+
 # The Universe Isn't Locally Real
 * [How Bell’s Theorem Proved ‘Spooky Action at a Distance’ Is Real](https://www.quantamagazine.org/how-bells-theorem-proved-spooky-action-at-a-distance-is-real-20210720/)
 * [Scientists make historic breakthrough in quantum entanglement](https://thredmedia.medium.com/scientists-make-historic-breakthrough-in-quantum-entanglement-f5928a2516c3)
