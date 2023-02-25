@@ -65,6 +65,7 @@ The Joule Thief Circuit is a voltage booster circuit which converts a constant l
 * [Joule Thief, No Toroid Coil - How to Build](https://www.youtube.com/watch?v=g2jMrNFV4nQ)
 
 # Toroid Design Considerations
+* [How Toroids Work](https://www.youtube.com/watch?v=Lx2g-fVe8Ds)
 * [Toroid Design Considerations](https://www.magneticsgroup.com/wp-content/uploads/2019/08/DESIGN-TOROIDS.pdf)
 * [About Toroid inductors and magnetic field containment](https://www.youtube.com/watch?v=c8YYLla2I8U)
 
