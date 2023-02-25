@@ -794,6 +794,10 @@ DSTAR, P25, Yaesu System Fusion (YSF), FCS & NXDN
 ## Moon Bounce
 * [Shoot The Moon With This Homebrew Hardline RF Divider](https://hackaday.com/2020/03/31/shoot-the-moon-with-this-homebrew-hardline-rf-divider/)
 
+## Satellite Pirates
+* [Hunting for Space Pirates](https://hackaday.com/2023/02/24/hunting-for-space-pirates/)
+* [Searching For Space Pirates On Old Military Satellites](https://www.youtube.com/watch?v=HT2i7mFpFxM)
+
 
 
 ---------
