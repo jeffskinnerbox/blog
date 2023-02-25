@@ -35,6 +35,9 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 * [Remoticon Video: How To Use Machine Learning With Microcontrollers](https://hackaday.com/2020/12/04/remoticon-video-how-to-use-machine-learning-with-microcontrollers/)
 
+# Microsoft Research
+* [Tiny Machine Learning On As Little As 2 KB Of RAM](https://hackaday.com/2023/02/24/tiny-machine-learning-on-as-little-as-2-kb-of-ram/)
+
 # Some Use Cases
 * [Embedded Machine Learning Applications with Proven ROI](https://www.edgeimpulse.com/blog/embedded-machine-learning-applications-with-proven-roi)
 
