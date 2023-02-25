@@ -44,6 +44,11 @@ Version:      0.0.0
 * [Impractical Clock Uses Tuning Fork](https://hackaday.com/2019/08/29/impractical-clock-uses-tuning-fork/)
 
 
+# Wrong Time Clocks
+* [Sneaky Clock Displays Wrong Time If It Catches You Looking](https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
+* [The Vetinari Clock](https://hackaday.com/2011/10/12/building-a-better-clock-to-drive-you-insane/)
+* [Confuse Everyone with This Crazy Clock](https://blog.tindie.com/2017/02/confuse-everyone-crazy-clock/)
+
 # Hollow Clock
 * [Hollow Clock 3 - 3D printed](https://www.youtube.com/watch?v=XCOC2zNjWCg)
 * [Hollow Clock 3](https://www.thingiverse.com/thing:5142739)
