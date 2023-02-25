@@ -332,6 +332,8 @@ The Person Sensor includes a camera and microcontroller in a tiny package, and c
 * [The Whole Package](https://www.hackster.io/news/the-whole-package-301ee0887def)
 * [Sensing a Shift in Edge ML](https://www.hackster.io/news/sensing-a-shift-in-edge-ml-b7761fa3bf5f)
 * [Meet the Person Sensor from Useful Sensors!](https://www.sparkfun.com/news/5468)
+    * [The Person Sensor](https://usefulsensors.com/person-sensor/)
+    * [Person Sensor Developer Guide](https://github.com/usefulsensors/person_sensor_docs)
     * [Auto-Lock your Screen with a Person Sensor](https://www.youtube.com/watch?v=YYvKbOyhNNk&t=1s)
     * [usefulsensors/person_sensor_docs](https://github.com/usefulsensors/person_sensor_docs)
     * [dupontgu/person-sensor-circuitpython](https://github.com/dupontgu/person-sensor-circuitpython)
