@@ -69,8 +69,14 @@ This can be done by making use of:
 * [GitHub Copilot](https://openai.com/blog/openai-codex/)
 * [OpenAI Codex](https://openai.com/blog/openai-codex/)
 
-# AI Generated Voice
+# AI Generated Text to Speech
+
+# AI Generated Text to Voice
 * [Voice Cloning](/home/jeff/blogging/content/ideas/voice-cloning.md)
+
+# AI Generate Text from Speech
+* [Playing around with Spchcat/Speechcat](https://www.youtube.com/watch?v=c6c_bJIewUU)
+    * [Spchcat](https://github.com/petewarden/spchcat)
 
 # ESP32 Voice Streaming
 * [ESP32 Voice Streamer](https://projects-raspberry.com/esp32-voice-streamer/)
