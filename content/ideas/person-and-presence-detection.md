@@ -65,6 +65,16 @@ This can be done by making use of:
 * [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
     * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
 
+# AI Generated Code
+* [GitHub Copilot](https://openai.com/blog/openai-codex/)
+* [OpenAI Codex](https://openai.com/blog/openai-codex/)
+
+# AI Generated Voice
+* [Voice Cloning](/home/jeff/blogging/content/ideas/voice-cloning.md)
+
+# ESP32 Voice Streaming
+* [ESP32 Voice Streamer](https://projects-raspberry.com/esp32-voice-streamer/)
+
 
 ----------
 
