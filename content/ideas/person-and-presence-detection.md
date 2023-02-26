@@ -61,7 +61,13 @@ This can be done by making use of:
 * [Whisper AI](https://openai.com/blog/whisper/)
 * [Stanford Webinar - GPT-3 & Beyond](https://www.youtube.com/watch?v=-lnHHWRCDGk&t=509s)
 
+# AI Generated Photographic Sense
+* [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
+    * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
+
+
 ----------
+
 
 # Capturing the Data
 
