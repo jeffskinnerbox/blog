@@ -1308,6 +1308,15 @@ https://devopscube.com/packer-tutorial-for-beginners/
 * [Networking for Docker Containers Part II: Service Discovery for Traditional Apps and Microservices](https://d2iq.com/blog/networking-docker-containers-part-ii-service-discovery-traditional-apps-microservices)
 * [Networking for Docker Containers Part III: Architectural Patterns for Service Registration, Service Discovery, and Load Balancing](https://d2iq.com/blog/networking-docker-containers-part-iii-architectural-patterns-service-registration-service-discovery-load-balancing)
 
+## Docker Volumes
+Files (and other data) stored within a Docker container does not persist if the container is deleted.
+To overcome this, Docker volumes and bind mounts can be used.
+
+* **Volumes** - Think of volumes as an external hard drive; if the internal hard drive is erased, the external hard drive still retain its own data. Volumes are stored on the host and independent of any container or image. They can be mounted to different containers as needed and, since volumes are separate from the image, they do not increase the image size.
+* **Bind Mounts** - Instead of creating a new volume, you can also mount a directory from your host to a Docker container. This is accomplished through bind mounts and is helpful when you want to store and access your a container’s files directly from your system. Compared to volumes, bind mounts have limited functionality.
+
+* [Understanding Docker Volumes](https://www.linode.com/docs/guides/understanding-docker-volumes/)
+
 ## Backup a Docker Container to Synology NAS
 This process is the same for all Docker containers but will be demoed on a Synology NAS as I feel that’s one of the easiest ways to display what’s actually happening. Summing up the process as easily as I can, when you create a docker container, you mount specific volumes (which are basically folders inside of the container) to a local storage location. On a Synology NAS, that’s generally the docker folder (where you store all your data), however, on other devices, it could be a local storage location. This folder contains all the important information for the container and is ultimately what you want to back up.
 
