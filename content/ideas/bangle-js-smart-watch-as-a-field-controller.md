@@ -15,6 +15,7 @@ Version:      0.0.0
 
 # Watch Face Design
 * [Chen Liang's Smart Arduino Watch Faces Are Built with LVGL and SquareLine Studio](https://www.hackster.io/news/chen-liang-s-smart-arduino-watch-faces-are-built-with-lvgl-and-squareline-studio-125a84c86c8f)
+* [ESP32 based device includes 1.28” TFT with Touch capability](https://linuxgizmos.com/esp32-based-device-includes-1-28-tft-with-touch-capability/)
 
 # Bangle.js Smart Watch
 * [Bangle.js](https://banglejs.com/)
