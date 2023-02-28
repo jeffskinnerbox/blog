@@ -267,9 +267,9 @@ sudo apt install tasksel
 # inspect the GUI you can install
 tasksel --list-tasks
 
-# run taskel in menu driven mode
+# run tasksel in menu driven mode
 # already-installed tasks will have an asterisk beside their name
-sudo taskel
+sudo tasksel
 
 # select the GUI you wish to install (ex. ubuntu-desktop)
 sudo tasksel install ubuntu-desktop
@@ -311,6 +311,8 @@ $ cat /etc/X11/default-display-manager
 
 # How to Switch Boot Target
 * [How to switch boot target to text or GUI in systemd Linux](https://www.cyberciti.biz/faq/switch-boot-target-to-text-gui-in-systemd-linux/)
+* [Tasksel – Easily and Quickly Install Group Softwares in Debian and Ubuntu](https://www.tecmint.com/tasksel-install-group-software-lamp-mail-dns-in-debian-ubuntu/)
+
 **Switching boot target to text**
 The procedure is as follows to change into a text mode runlevel under systemd:
 
