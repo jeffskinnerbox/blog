@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 
+* [How to automatically deploy a Pelican blog with GitLab CI & Traefik](https://simonklug.de/ci-deploy-pelican)
 
 * [Example of Personal website powered by Bootstrap, Pelican, and GitHub Pages](https://github.com/donnemartin/donnemartin.github.io)
 * [Run your blog on GitHub Pages with Python](https://opensource.com/article/19/5/run-your-blog-github-pages-python)
