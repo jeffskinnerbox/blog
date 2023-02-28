@@ -12,7 +12,8 @@ Version:      0.0.0
 -----
 
 
-I have a [Acer Chromebook 14 CB3-431][01] which was manufactured & purchased in 2017 for $275 via Amazon.
+# Install Linux on Chromebook Without ChromeOS
+I have an [Acer Chromebook 14 CB3-431][01] which was manufactured & purchased in 2017 for $275 via Amazon.
 The Acer Chromebook 14 Acer comes with a Intel Celeron N3160 processor,
 4GB LPDDR3 RAM, 32GB of SSD storage, and a very stylish aluminum enclosure.
 As far as Google is concerned, this Chromebook has passed its end-of-life date,
@@ -22,10 +23,10 @@ It has been used lightly, so it has much more life in it.
 I plan to install Linux and use it as an experimental platform
 software compatibility testing, try new tools, etc.
 I find myself reluctant to do such things on my desktop Linux system in fear of screwing up my configuration.
-I plan to setup this Chromebook with Xubuntu, and hopefully such that,
-I can do a quick OS re-install after what might be a destructive experiment.
+I plan to setup this Chromebook with Xubuntu, and hopefully,
+such that I can do a quick OS re-install after what might be a destructive experiment.
 
-# GalliumOS vs Lubuntu vs Xubuntu
+## GalliumOS vs Lubuntu vs Xubuntu
 One of the key decision is what variant of Linux do I want to use?
 I'm a long time user of Ubuntu on my desktop,
 so some version of Linux on the Debian / Ubuntu tree would make most sense.
@@ -42,7 +43,7 @@ Sources:
 * [Best Linux Distro For Chromebook](https://www.electronicshub.org/best-linux-distro-for-chromebook/)
 * [Lubuntu vs Xubuntu](https://www.educba.com/lubuntu-vs-xubuntu/)
 
-# Installing Xubuntu on Chromebook
+## Installing Xubuntu on Chromebook
 I'll be installing Xubuntu on your Chromebook by completely replacing Chrome OS.
 You'll find the tutorial below in the Sources will give you everything you need.
 The basic installation steps to doing the ChromeOS replacement with Xubuntu are:
@@ -95,7 +96,7 @@ you get a menu of the images you can boot & install.
 >**Note:** To updating Ventoy when a new version of Ventoy is released, you can update it to the USB drive.
 >All the ISO files will be unchanged.
 >Upgrade operation is in the same way with installation.
->Ventoy2Disk.sh will prompt you for update if the USB drive already installed with Ventoy.
+>`Ventoy2Disk.sh` will prompt you for update if the USB drive already installed with Ventoy.
 
 Sources:
 
@@ -127,6 +128,7 @@ If for some reason I want to replace the screw, I have them on the inside for sa
 * Reassemble the Chromebook.
 
 Sources:
+
 * [ Disabling FW Write Protection on Acer Chromebook 14 - tight screw](https://www.reddit.com/r/GalliumOS/comments/6qttgs/help_disabling_fw_write_protection_on_acer/)
 * [Acer Chromebook 14 - How to Install GaliumOS + Product Review][11]
 * [Acer Chromebook 14 Teardown](https://www.ifixit.com/Teardown/Acer+Chromebook+14+Teardown/76353)
@@ -179,7 +181,8 @@ the script will proceeded to download the appropriate ROM file.
 chose "P" on the menu to power off.
 
 Sources:
-* [HOWTO: Flash full ROM (i.e. coreboot) and install GalliumOS on Dell Chromebook 11 Candy (3120)][22]
+
+* [HOWTO: Flash full ROM (i.e. coreboot) and install GalliumOS on Dell Chromebook 11 Candy][22]
 * [MrChromebox.tech](https://mrchromebox.tech/#home)
 
 #### Step 5: Boot Chromebook into XUbuntu Using USB Flash Drive - DONE
@@ -216,7 +219,7 @@ Sources:
 -------
 
 
-# Set-up Xubuntu on Chromebook
+## Set-up Xubuntu on Chromebook
 
 * [How to Run Multiple Desktop Environments on one Linux PC](https://journalxtra.com/linux/desktop/multiple-desktops-on-one-linux-pc-now-thats-greedy/)
 * [How to switch between the CLI and GUI on a Linux server](https://www.redhat.com/sysadmin/configure-systemd-startup-targets)
@@ -227,7 +230,7 @@ Sources:
 
 
 
-# How to Start GUI on Ubuntu Linux Machine
+## How to Start GUI on Ubuntu Linux Machine
 * [Ubuntu 20.04 GUI installation](https://linuxconfig.org/ubuntu-20-04-gui-installation)
 * [How to switch boot target to text or GUI in systemd Linux](https://www.cyberciti.biz/faq/switch-boot-target-to-text-gui-in-systemd-linux/)
 * [Installing and Using Tasksel on Ubuntu 20.04](https://support.shells.net/hc/en-us/articles/1500003387442-Installing-and-Using-Tasksel-on-Ubuntu-20-04)
@@ -302,7 +305,7 @@ $ cat /etc/X11/default-display-manager
 /usr/bin/lightdm
 ```
 
-# How to Switch Boot Target
+## How to Switch Boot Target
 * [How to switch boot target to text or GUI in systemd Linux](https://www.cyberciti.biz/faq/switch-boot-target-to-text-gui-in-systemd-linux/)
 * [Tasksel – Easily and Quickly Install Group Softwares in Debian and Ubuntu](https://www.tecmint.com/tasksel-install-group-software-lamp-mail-dns-in-debian-ubuntu/)
 
@@ -349,7 +352,7 @@ sudo systemctl isolate multi-user.target
 # OR #
 sudo systemctl isolate graphical.target
 
-# To Remove GUI from Ubuntu Server
+## To Remove GUI from Ubuntu Server
 If you realize that the desktop environment is taking too much computing resources, you may remove the packages you installed previously.
 Please keep in mind that it may cause dependency issues in some cases so please make a backup of your important data or create a system snapshot.
 
@@ -366,7 +369,7 @@ sudo apt autoremove
 ```
 
 
-# Start GUI from command line
+## Start GUI from command line
 sudo systemctl isolate graphical
 
 
