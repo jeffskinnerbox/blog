@@ -5,7 +5,22 @@ Version:      0.0.0
 
 
 <div align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/bed-of-red-raspberrys.jpg" title="This is a test of using images stored on GitHub." align="center">
+</div>
+
+
+<div align="center">
 <img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+</div>
+
+
+<div align="center">
+<img src="http://dangerousprototypes.com/docs/images/d/d3/Danger-sign.png" title="These materials are very close to being complete and fit for use.  Then again, maybe not. Proceed with caution and remeber you have been warned!" align="center">
+</div>
+
+
+<div align="center">
+<img src="https://python-deprecated.readthedocs.io/en/latest/_images/logo-full.png" title="Deprecated is increasingly used as a technical term meaning 'to recommend against using something on the grounds that it is obsolete', or 'to declare some technological feature or function to be obsolescent'.  The earliest meaning of deprecate was 'to pray against, as an evil,' and soon after this first meaning it took on the additional sense 'to express disapproval of'.  Meanwhile, depreciate, the closely related word with which it is often confused, means 'to lower in value.'" align="center">
 </div>
 
 
@@ -13,10 +28,24 @@ Version:      0.0.0
 
 
 
+Try install Guacamole via Docker ...
+* [Installing Apache Guacamole through Docker](https://www.linode.com/docs/guides/installing-apache-guacamole-through-docker/)
+* [Using a Cloud Desktop on a Browser with Apache Guacamole](https://www.linode.com/docs/guides/remote-cloud-desktop-using-apache-guacamole/)
+* [Set Up Apache Guacamole Remote Desktop on Ubuntu 22.04/20.04 Server](https://www.linuxbabe.com/ubuntu/apache-guacamole-remote-desktop-ubuntu-20-04)
+
+About VNC...
+* [An Overview of VNC (Virtual Network Computing)](https://www.linode.com/docs/guides/what-is-virtual-network-computing/)
+
 Try following this for VNC ...
+* [Install VNC on Ubuntu 20.04](https://www.linode.com/docs/guides/install-vnc-on-ubuntu-20-04/)
 * [How to Install TightVNC to Access Remote Desktops in Linux](https://www.tecmint.com/install-tightvnc-access-remote-desktop-in-linux/)
 * [How to connect to a remote computer using VNC in Linux](https://www.redhat.com/sysadmin/vnc-screen-sharing-linux)
 * [How To Access Your PCs and Servers from Anywhere Using Guacamole and CloudFlare Tunnels](https://www.youtube.com/watch?v=tg1CbMEzCsc)
+
+
+
+
+
 
 
 VNC will usually run at :1 which is a different session. To run at :0, use x11vnc. Display :0 is your currently running GUI session.
@@ -25,6 +54,17 @@ Check out [x11vnc](https://github.com/LibVNC/x11vnc) if you want connect to a re
 * [How to Setup x11vnc on Ubuntu 22.04](https://linuxopsys.com/topics/setup-x11vnc-on-ubuntu)
 
 Check out your document -  /home/jeff/blogging/content/articles/howto-using-xephyr-to-create-a-new-display-in-a-window.md
+
+# Guacamole vs AnyDesk
+AnyDesk is a popular remote desktop software for Linux, Windows, BSD, macOS, and mobile platforms.
+With this tool, you can remotely access other computers using AnyDesk
+(you must provide a password for a secure connection)
+or let someone else remotely access your system
+(you have to accept the incoming connection).
+
+* [AnyDesk](https://anydesk.com/en)
+* [Install AnyDesk on Ubuntu Linux (GUI and Terminal Methods)](https://itsfoss.com/install-anydesk-ubuntu/)
+* [10 Best Remote Desktop Software Tools for Linux Users ](https://www.cendio.com/blog/10-best-remote-desktop-software-tools-for-linux-users)
 
 
 
@@ -488,6 +528,9 @@ Applications can register their profiles with UFW upon installation.
 These profiles allow UFW to manage these applications by name.
 Lets see if TigerVNC registered with UFW:
 
+Add comments to the firewall rules so that you know why the ports are set open:
+[How do you add comments on UFW firewall rule?](https://www.cyberciti.biz/faq/howto-adding-comments-to-ufw-firewall-rule/)
+
 ```bash
 # examine the list of installed ufw profiles
 $ sudo ufw app list
@@ -592,7 +635,7 @@ we will create a script to start/stop the VNC server service.
 Also, with this script, we can make auto-start VNC servers when the computer is turned on.
 To do this, we create a file with the name `/etc/systemd/system/vncserver@.service`.
 Make the modifications below so it looks like this when finished
-(this code taken from ["How to Install and Configure VNC on Ubuntu 22.04"][14]).:
+(this code taken from ["How to Install and Configure VNC on Ubuntu 22.04"][14]):
 
 ```
 [Unit]
