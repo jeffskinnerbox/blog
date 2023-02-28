@@ -345,6 +345,7 @@ See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.co
 
 * [Wind-Up Tape Measure Transformed into Portable Ham Antenna](https://hackaday.com/2022/03/30/wind-up-tape-measure-transformed-into-portable-ham-antenna/)
 * [Just How Good Is A Tape Measure Antenna Anyway?](https://hackaday.com/2022/08/14/just-how-good-is-a-tape-measure-antenna-anyway/)
+* [Antenna Hidden In Holiday Lights Skirts HOA Rules](https://hackaday.com/2023/02/27/antenna-hidden-in-holiday-lights-skirts-hoa-rules/)
 
 ## Antenna Loss
 Want to know if all your energy is flowing to your antenna?
