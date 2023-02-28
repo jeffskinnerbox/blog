@@ -92,6 +92,9 @@ Secure, free document storage from Fidelity - [FidSafe](https://www.fidsafe.com/
 
 
 
+# Tax Burden
+* [Which states have the lowest taxes?](https://usafacts.org/data-projects/states-with-lowest-tax-burden)
+
 # SECURE 2.0 Act
 The SECURE 2.0 Act changes the rules covering 401(k) accounts and required minimum distribution rules.
 
