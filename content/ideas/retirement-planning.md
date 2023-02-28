@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center">
 </div>
 
 
@@ -15,6 +15,7 @@ Version:      0.0.0
 #  Financial Planning
 * [New Year's Financial Resolutions](https://www.schwab.com/learn/story/new-years-financial-resolutions-get-your-finances-in-shape)
 * [Personal Finance Calendar for 2023](https://www.schwab.com/learn/story/personal-finance-calendar)
+* [My favorite open source tools for personal finance](https://opensource.com/article/23/2/open-source-tools-personal-finance)
 
 
 -----
