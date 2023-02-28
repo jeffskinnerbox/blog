@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 * [Hardware-in-the-Loop and Continuous Integration - how do they fit together?](https://www.elektormagazine.com/news/hardware-in-the-loop-and-continuous-integration-how-do-they-fit-together)
+* [How to automatically deploy a Pelican blog with GitLab CI & Traefik](https://simonklug.de/ci-deploy-pelican)
 
 
 # Earthly
