@@ -5,18 +5,11 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/danger-prototyping-in-progress.png" title="These materials are very close to being complete and fit for use.  Then again, maybe not.  Proceed with caution and remember you have been warned!" align="center">
 </div>
 
 
 -----
-
-
-
-* [How I use Ansible to add a feature to my Linux KDE desktop](https://opensource.com/article/23/2/linux-kde-desktop-ansible)
-
-
-
 
 
 I have a [Acer Chromebook 14 CB3-431][01] which was manufactured & purchased in 2017 for $275 via Amazon.
