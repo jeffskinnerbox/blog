@@ -5,16 +5,85 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
 -----
 
 
-* [Hardware-in-the-Loop and Continuous Integration - how do they fit together?](https://www.elektormagazine.com/news/hardware-in-the-loop-and-continuous-integration-how-do-they-fit-together)
+# CI/CD for Website (aka my blog)
 * [How to automatically deploy a Pelican blog with GitLab CI & Traefik](https://simonklug.de/ci-deploy-pelican)
+* [How I do automated accessibility testing for my website](https://opensource.com/article/23/2/automated-accessibility-testing)
+* [Example build pelican blogs with gitlab-ci](https://jugit.fz-juelich.de/docker-images/gitlabci-pelican)
 
+A while ago, I broke my [Pelican][02] website via doing an update.
+it was a routine Pelican update, but my website, like many others,
+is full of add-on things that invite failure.
+I shutdown the website, anticipating a quick fix, but now years have passed by.
+It was just too painful to fix.
+I explored other static website generators but the core problem is [dependency hell][01].
+My website tools are using my global environment of my desktop Linux system.
+Efforts to fix my website tools will compromise other things.
+In addition, all the tools I'm using made the manual
+build, validate, and deploy process complicated and error prone.
+
+So I really need to remove the dependencies on my globally installed tools
+and simplify/automate the build process.
+I figured this would be a fun opportunity to play around with Docker and CI/CD.
+Effectively, I wanted the Docker container to hold all the things that gave the website its personality,
+and the CI/CD procedure to create/validate/deploy that website,
+and I can focus exclusively on creating content using only Markdown as my authoring language.
+
+I have used Docker containers widely but never built my own Docker container,
+and this looks like just the right use case.
+I don't want to compromise on my website's look & feel,
+so just using someone else Docker container will not get me what I want.
+I need to build my own container, but I can get some "hand holding"
+from the many examples of Pelican Docker containers that others have built.
+Sources of inspiration can be found below:
+
+* [My Over-Engineered Blogging Setup](https://gdelgado.ca/my-over-engineered-blogging-setup.html#title)
+* [Explorations with Pelican](https://jameslmart.in/pelican/)
+* [Explorations with Pelican (part two)](https://jameslmart.in/pelican_part_two/)
+* [gitlabci-pelican](https://jugit.fz-juelich.de/docker-images/gitlabci-pelican)
+* [CircleCI for a Pelican static Github site](https://blog.john-pfeiffer.com/circleci-for-a-pelican-static-github-site/)
+* [Running a Pelican Blog on Docker Cloud with Let's Encrypt](https://dtucker.co.uk/blog/docker-letsencrypt-pelican/)
+
+Move to Hugo???
+
+* [Migrating from Pelican to Hugo](https://dafyddcrosby.com/pelican-to-hugo/)
+* [How I Migrate My Data Science Blog from Pelican to Hugo](https://wayofnumbers.com/p/how-i-migrate-my-data-science-blog-from-pelican-to-hugo/)
+* [Moving from Pelican to Hugo for this blog](https://bulimov.me/post/2021/02/16/pelical-to-hugo/)
+* [Migrating Blogs (Again) from Pelican to Hugo](https://arunrocks.com/moving-blogs-pelican-to-hugo/)
+* [no migration tools for Pelican on Hugo website ... what does that tell you](https://gohugo.io/tools/migrations/)
+
+
+
+[01]:https://www.techtarget.com/searchitoperations/definition/dependency-hell
+[02]:https://docs.getpelican.com/en/latest/#
+[03]:
+[04]:
+[05]:
+[06]:
+[07]:
+[08]:
+[09]:
+[10]:
+
+
+
+
+
+-----
+
+
+
+
+
+
+# CI/CD for Hardware (aka ESP8266 & ESP32)
+* [Hardware-in-the-Loop and Continuous Integration - how do they fit together?](https://www.elektormagazine.com/news/hardware-in-the-loop-and-continuous-integration-how-do-they-fit-together)
 
 # Earthly
 Earthly is a CI/CD framework that allows you to develop pipelines locally and run them anywhere. Earthly leverages containers for the execution of pipelines. This makes them self-contained, repeatable, portable, and parallel.
@@ -29,6 +98,9 @@ https://codefresh.io/pricing/
 
 # FlowForge
 * [FlowForge](https://flowforge.com/)
+
+# CircleCI
+* [CircleCI](https://circleci.com/)
 
 
 
@@ -69,7 +141,7 @@ So it is suitable to automate this CI/CD process and in most of the time it rema
 # Setup My Own Pipeline
 
 ## Concourse CI/CD
-[Concourse][01] is an open source automation system written in Go.
+[Concourse](https://concourse-ci.org/) is an open source automation system written in Go.
 It is most commonly used for CI/CD, and is built to scale to any kind of automation pipeline,
 from simple to complex.
 Concourse is very opinionated about a few things:
@@ -89,13 +161,3 @@ idempotency, immutability, declarative config, stateless workers, and reproducib
 
 
 
-[01]:https://concourse-ci.org/
-[02]:
-[03]:
-[04]:
-[05]:
-[06]:
-[07]:
-[08]:
-[09]:
-[10]:
