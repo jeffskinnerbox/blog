@@ -102,6 +102,9 @@ https://codefresh.io/pricing/
 # CircleCI
 * [CircleCI](https://circleci.com/)
 
+# GitOps
+* [Source Code Management for GitOps and CI/CD](https://dzone.com/articles/source-code-management-for-gitops-and-cicd)
+
 
 
 
