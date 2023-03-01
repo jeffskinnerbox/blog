@@ -166,8 +166,13 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 * [Income Annuities Take Risk Out of Retirement](https://www.kiplinger.com/article/retirement/T003-C032-S014-income-annuities-take-risk-out-of-retirement.html)
 
 # Break-Even Age for Taking Social Security
+* [Social Security Timing: Age 62 vs. 70](https://www.youtube.com/watch?v=jtBv1HZK0k4)
+* [5 GOOD REASONS to File for Social Security at Age 62](https://www.youtube.com/watch?v=4Gpzw5wcFo4)
 * [Social Security: Aiming for smarter payments](https://www.merrilledge.com/article/when-to-draw-social-security)
 * [How to Calculate the Break-Even Age for Taking Social Security](https://www.kiplinger.com/article/retirement/T051-C032-S014-how-to-calculate-social-security-break-even-age.html)
+
+# Working while Receiving Social Security
+* [Working while Receiving Social Security](https://www.youtube.com/watch?v=nsSViIHIm3k)
 
 # How Do You Compare
 * [Average Retirement Income, Assets, and Debt — How do you compare?](https://medium.com/crows-feet/average-retirement-assets-income-and-debt-how-do-you-compare-b529ffa9d322)
