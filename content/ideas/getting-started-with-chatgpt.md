@@ -12,6 +12,9 @@ Version:      0.0.0
 -----
 
 
+* [Game-Changing AI for the DIY Industry: GPT-4 Is Coming](https://www.makeuseof.com/game-changing-ai-for-the-diy-industry-gpt-4-is-coming/)
+
+
 # Generative Pre-trained Transformer (GPT)
 [Generative Pre-trained Transformer (GPT)](https://en.wikipedia.org/wiki/GPT-2#Generative_Pre-trained_Transformer)
 
