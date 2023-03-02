@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -17,6 +17,7 @@ Version:      0.0.0
 * [Build Your Own Smart Home Speaker With ESPHome!](https://www.youtube.com/watch?v=4DQ9iyV3G20)
 
 * [SOCORAD32 ESP32 walkie-talkie board also supports data communication](https://www.cnx-software.com/2023/01/25/socorad32-esp32-walkie-talkie-board-also-supports-data-communication-crowdfunding/)
+* [LILYGO T-TWR is an ESP32-S3 board with an SA868 Walkie-Talkie module](https://www.cnx-software.com/2023/03/01/lilygo-t-twr-is-an-esp32-s3-board-with-an-sa868-walkie-talkie-module/)
 
 
 # User Interface
