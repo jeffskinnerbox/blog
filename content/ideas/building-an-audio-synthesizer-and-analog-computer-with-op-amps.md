@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -52,6 +52,7 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [12-Note Polyphony On An Arduino Synth](https://hackaday.com/2021/02/19/12-note-polyphony-on-an-arduino-synth/)
 * [Homebrew Grain Synth Has A Rad Step Sequencer](https://hackaday.com/2021/03/19/homebrew-grain-synth-has-a-rad-step-sequencer/)
 * [Raw 10 Steps Sequencer (APC + CD4017)](https://hackaday.io/project/181120-raw-10-steps-sequencer-apc-cd4017)
+* [A More Expressive Synth Via Flexure](https://hackaday.com/2023/02/28/a-more-expressive-synth-via-flexure/)
 
 ## Sound Dubbing
 * [Classic Chip Line-Up Powers This Fun Dub Siren Synth](https://hackaday.com/2021/09/24/classic-chip-line-up-powers-this-fun-dub-siren-synth/)
