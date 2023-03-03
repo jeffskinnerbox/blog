@@ -19,6 +19,10 @@ Version:      0.0.0
     * [LoRa Edge LR1120](https://www.semtech.com/products/wireless-rf/lora-edge/lr1120)
 
 
+* [GLAMOS' Walker Is a Pocket-Sized Tool for Mapping Out LoRaWAN Network Coverage](https://www.hackster.io/news/glamos-walker-is-a-pocket-sized-tool-for-mapping-out-lorawan-network-coverage-ecfa2a56017e)
+
+
+
 
 
 # Farm Data Relay System
