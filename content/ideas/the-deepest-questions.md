@@ -543,6 +543,7 @@ uncertainty is a physical principle as well.
 
 * [The Intuition behind Heisenberg’s Uncertainty Principle](https://medium.com/intuition/the-intuition-behind-heisenbergs-uncertainty-principle-445639b374bf)
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
+* [How Heisenberg’s Uncertainty Principle Emerges From the Fourier Transform](https://www.cantorsparadise.com/wave-packets-and-how-heisenbergs-quantum-uncertainty-principle-emerges-from-the-fourier-transform-47c3e47f573b)
 * [How Quantum is the Uncertainty Principle?](https://medium.com/swlh/how-quantum-is-the-uncertainty-principle-4569eb7a9eb1)
 * [The Heisenberg Uncertainty Principle is Pure Mathematics](https://www.cantorsparadise.com/heisenbergs-uncertainty-principle-is-pure-mathematics-e14c840659e1)
 * [Conjugate Variables](https://en.wikipedia.org/wiki/Conjugate_variables)
