@@ -671,6 +671,10 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [Why squared error?](https://www.benkuhn.net/squared/)
 
 * [Bernoulli’s fallacy: statistical illogic and the crisis of modern science](https://www.youtube.com/watch?v=EIPz7SJBO6g)
+* [Bernoulli's Fallacy - Aubrey Clayton](https://www.youtube.com/watch?v=EIPz7SJBO6g)
+* [Aubrey Clayton - One Probability to Rule them All?](https://www.youtube.com/watch?v=HCG57e7Ogv8)
+* [Probability Theory: The Logic of Science, by E. T. Jaynes](https://bayes.wustl.edu/etj/prob/book.pdf)
+* [Probability Theory Lectures](https://www.youtube.com/playlist?list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_)
 
 The Frequentist View of Probability:
 Fundamentally, frequentists define probability as long-run frequency — that’s kind of why they’re referred to as frequentists. Anyway, this approach to probability requires things to be repeatable so you can observe them over and over again. For example, if you flip a fair coin a large number of times you can track the outcomes on each flip. If you had the patience to do this a large number of times, you’d see the probability of each outcome tend toward 50%. In this way, frequentist probability is considered objective.
