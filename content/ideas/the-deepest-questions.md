@@ -670,13 +670,6 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [How the Average Triumphed Over the Median](https://priceonomics.com/how-the-average-triumphed-over-the-median/)
 * [Why squared error?](https://www.benkuhn.net/squared/)
 
-* [Bernoulli’s fallacy: statistical illogic and the crisis of modern science](https://www.youtube.com/watch?v=EIPz7SJBO6g)
-* [Bernoulli's Fallacy - Aubrey Clayton](https://www.youtube.com/watch?v=EIPz7SJBO6g)
-* [Aubrey Clayton - One Probability to Rule them All?](https://www.youtube.com/watch?v=HCG57e7Ogv8)
-* [The Prosecutor's Fallacy](https://www.youtube.com/watch?v=E3VoTTR8MXM)
-* [Probability Theory: The Logic of Science, by E. T. Jaynes](https://bayes.wustl.edu/etj/prob/book.pdf)
-* [Probability Theory Lectures](https://www.youtube.com/playlist?list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_)
-
 The Frequentist View of Probability:
 Fundamentally, frequentists define probability as long-run frequency — that’s kind of why they’re referred to as frequentists. Anyway, this approach to probability requires things to be repeatable so you can observe them over and over again. For example, if you flip a fair coin a large number of times you can track the outcomes on each flip. If you had the patience to do this a large number of times, you’d see the probability of each outcome tend toward 50%. In this way, frequentist probability is considered objective.
 
@@ -684,6 +677,18 @@ The Bayesian View of Probability:
 A major advantage of Bayesian statistics is that it provides statistics that mean what you want them to mean. And the reason why is that it’s perfectly reasonable to assign probabilities to those things that frequentists consider fixed. So, whether that’s a population parameter, rate, or hypothesis, Bayesians view these entities as probabilistic. There are no strictures around repeatability and you can assign a probability to anything you want. Moreover, you can actually compute those probabilities.
 
 This may seem like a completely wild idea. Loose, even. But so long as you’re rational with how you assign a probability — and the laws of probability are obeyed — you can go nuts and assign a probability to any event you wish. At its core, Bayesian probability is about belief revision, and unlike the more objective frequentist approach, is based upon our subjective degree of belief about the truth of an outcome. This may feel somewhat arbitrary, and indeed this approach can make some quite uncomfortable with using Bayesian statistics; however, the revision of beliefs is anything but arbitrary.
+
+# Skepticism of Modern Science
+* [Bernoulli’s fallacy: statistical illogic and the crisis of modern science](https://www.youtube.com/watch?v=EIPz7SJBO6g)
+* [Bernoulli's Fallacy - Aubrey Clayton](https://www.youtube.com/watch?v=EIPz7SJBO6g)
+* [Aubrey Clayton - One Probability to Rule them All?](https://www.youtube.com/watch?v=HCG57e7Ogv8)
+* [The Prosecutor's Fallacy](https://www.youtube.com/watch?v=E3VoTTR8MXM)
+* [Probability Theory: The Logic of Science, by E. T. Jaynes](https://bayes.wustl.edu/etj/prob/book.pdf)
+* [Probability Theory Lectures](https://www.youtube.com/playlist?list=PL9v9IXDsJkktefQzX39wC2YG07vw7DsQ_)
+
+* [JREF in the Classroom: Do You Have ESP?](http://web.randi.org/uploads/3/7/3/7/37377621/jref13edmod_esp_teacher_print.pdf)
+* [Cargo Cult Science](http://calteches.library.caltech.edu/51/2/CargoCult.pdf)
+* [The Crisis of Professional Skepticism](https://mitch-horowitz-nyc.medium.com/the-crisis-of-professional-skepticism-e21a2e31ca48)
 
 # Risk
 * [This is How Easy It Is to Lie With Statistics](https://www.youtube.com/watch?v=bVG2OQp6jEQ)
