@@ -217,6 +217,7 @@ But in CVFS voltage and frequency can range over a continuum. An algorithm const
 * [Building and audio recognition system](https://www.edgeimpulse.com/blog/train-a-tiny-ml-model/)
 
 ## Special Purpose Voice Recognition Module
+* [Nicla Voice](https://www.sparkfun.com/products/21219)
 * [Voice Recognition Module - 254 Voice Commands + UART](https://www.youtube.com/watch?v=zCEYxSdYBcA)
     * http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254
     * https://www.amazon.com/Rakstore-Recognition-Compatible-Arduino-Accuracy/dp/B09D3WHHKN/
