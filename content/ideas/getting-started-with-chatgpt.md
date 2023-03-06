@@ -14,6 +14,7 @@ Version:      0.0.0
 
 * [Game-Changing AI for the DIY Industry: GPT-4 Is Coming](https://www.makeuseof.com/game-changing-ai-for-the-diy-industry-gpt-4-is-coming/)
 * [The inside story of how ChatGPT was built from the people who made it](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
+* [Can you trust ChatGPT and other LLMs in math?](https://bdtechtalks.com/2023/03/06/chatgpt-llm-mathematics/)
 
 
 # Generative Pre-trained Transformer (GPT)
