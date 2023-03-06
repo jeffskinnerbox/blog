@@ -102,6 +102,9 @@ The EON Tuner helps you find and select the best embedded machine learning model
 
 * [EON Tuner](https://docs.edgeimpulse.com/docs/eon-tuner)
 
+# Sensor Module vs. Camera Module
+* [Sensor module vs. camera module](https://www.youtube.com/watch?v=Oi4S7SwumGs)
+
 # Sensor Array / Synthetic Sensor
 The [Persistent Aquatic Living Sensors (PALS) program](https://www.darpa.mil/news-events/2018-02-02)
 envisions using the natural sensing capabilities of marine organisms to detect
