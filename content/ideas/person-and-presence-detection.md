@@ -81,6 +81,10 @@ This can be done by making use of:
 # ESP32 Voice Streaming
 * [ESP32 Voice Streamer](https://projects-raspberry.com/esp32-voice-streamer/)
 
+# Interfacing ChatGPT-3 with Microcomputers
+* [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
+* [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
+
 
 ----------
 
