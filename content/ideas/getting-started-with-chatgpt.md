@@ -32,6 +32,7 @@ Version:      0.0.0
 is a collaboration platform, providing compute for AI,
 making it easy to seamlessly and scalably launch ML compute directly from the Hub.
 
-# Interfacing Alexa and ChatGPT-3
+# Interfacing ChatGPT-3 with Microcomputers
 * [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
+* [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
 
