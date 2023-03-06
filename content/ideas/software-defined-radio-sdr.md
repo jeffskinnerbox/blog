@@ -31,8 +31,6 @@ And its packed in a Docker container.
     * [shajen / rtl-sdr-scanner-cpp](https://github.com/shajen/rtl-sdr-scanner-cpp)
 
 # PiSDR
-Ready-made SD card images for a Raspberry Pi with all the needed software installed and preconfigured. Ready to work with most SDR receivers like the RTL-SDR dongles or the Adalm Pluto.
-A SDR Linux Distro for the Raspberry Pi and other SBC. Compatible out of the box with multiple SDR.
 
 * [Software Defined Radio with Predefined Raspberry Pi SD Card Images](https://www.youtube.com/watch?v=7eNGBmVquug)
 * [PiSDR Github](https://github.com/luigifcruz/pisdr-image)
@@ -190,6 +188,8 @@ http://en.wikipedia.org/wiki/Waveform_viewer
 # YARD Stick One
 YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer from Great Scott Gadgets
 
+* [Review of the YARD Stick One Radio Dongle](https://hackaday.com/2023/03/05/review-of-the-yard-stick-one-radio-dongle/)
+    * [Review: YARD Stick One Sub-1 GHz Wireless Test Tool](https://www.elektormagazine.com/news/yard-stick-one-great-scott-gadgets-sub-1-ghz-wireless-test-tool)
 * [Hak5 1908 – How to begin hacking with the YARD Stick One](https://www.hak5.org/episodes/hak5-1908-how-to-begin-hacking-with-the-yard-stick-one)
 * [Go Play in the YARD](https://www.sparkfun.com/news/2726)
 * [Executing A Vehicle Keyless Entry Attack](https://hackaday.com/2019/03/30/executing-a-vehicle-keyless-entry-attack/)
@@ -410,6 +410,7 @@ Kalibrate-RTL
 
 [HOW TO CALIBRATE RTL-SDR USING KALIBRATE-RTL ON LINUX][70]
 [SDR calibration via GSM FCCH using Kalibrate and LTE-Cell-Scanner on RTL-SDR and HackRF](https://medium.com/@rxseger/sdr-calibration-via-gsm-fcch-using-kalibrate-and-lte-cell-scanner-on-rtl-sdr-and-hackrf-193a7fb8a3eb)
+[HackRF One SDR Transceiver: From 1 MHz to 6 GHz](https://www.elektormagazine.com/news/hack-rf-one-sdr-transceiver)
 
 
 
