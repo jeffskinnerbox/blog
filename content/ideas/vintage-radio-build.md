@@ -126,6 +126,9 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
     * [MORE POWER: POWEL CROSLEY AND THE CINCINNATI FLAMETHROWER](https://hackaday.com/2017/02/06/more-power-powel-crosley-and-the-cincinnati-flamethrower/)
 * [Building A Hundred-Year-Old Radio Transmitter](https://hackaday.com/2021/08/31/building-a-hundred-year-old-radio-transmitter/)
 
+## Radio Today
+* [What’s Going To Happen To Legacy Broadcast Bands When The Lights Go Out?](https://hackaday.com/2023/03/06/whats-going-to-happen-to-legacy-broadcast-bands-when-the-lights-go-out/#more-577431)
+
 # Spark Gap Radio
 * [We Rebuilt The Spark That Changed The World!! (ft. Blueprint)](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 * [Revolutionary Spark Gap Radio REBUILT!!](https://www.youtube.com/watch?v=7QlQ__JzKNI)
