@@ -18,6 +18,8 @@ Those public packets are named as "probe requests" and are used by smartphones t
 
 This program just listen for those "probe requests" and prints to serial port the information. For now only shows the RSSI (bigger values are near devices), the MAC address of the device and the SSID (if available) of the wifi network which is looking for.
 
+* [The Eyes Have It: Stare Down Your Lighting](https://hackaday.com/2023/03/06/the-eyes-have-it-stare-down-your-lighting/)
+
 
 
 
