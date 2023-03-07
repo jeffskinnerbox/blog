@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -25,6 +25,7 @@ Version:      0.0.0
 * [ClusterHAT Case Assembly Instructions](https://www.modmypi.com/blog/clusterhat-case-assembly-instructions)
 
 # Pi Cluster
+* [Parallel and distributed computing with Raspberry Pi clusters](https://opensource.com/article/23/3/parallel-distributed-computing-raspberry-pi-clusters)
 * [Raspberry Pi Cluster benefits and applications](https://www.geeky-gadgets.com/raspberry-pi-cluster-16-08-2021/)
 ######################## REMOVE THIS BETWEEN THE LINES #########################
 
