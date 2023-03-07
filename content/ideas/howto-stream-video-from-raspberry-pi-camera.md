@@ -563,7 +563,25 @@ For additional information, see the following:
 ## Steaming / Broadcast Options for the Raspberry Pi
 * [Broadcast Raspberry Pi camera](https://djynet.net/?p=744)
 * [Raspberry Pi Streaming video](https://www.mjoldfield.com/atelier/2013/12/raspivid.html)
+* [Live video streaming with open source Video.js](https://opensource.com/article/20/2/video-streaming-tools)
+* [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server#obs)
 
+### Restreamer
+An easy to use, Dockerized, open source video server
+with fancy user interface and FFmpeg API for free video streaming.
+
+* Stream video live to any video platform in the universe or your website!
+* Wizard helps to configurate for complex settings in everyday work.
+* Restreamer ist open-source software and free for private and commercial use.
+* [Use your Raspberry Pi as a streaming server](https://opensource.com/article/23/3/raspberry-pi-streaming-server)
+    * [datarhei](https://datarhei.com/)
+    * [Restreamer](docs.datarhei.com/restreamer/)
+    * [datarhei Core](https://docs.datarhei.com/core)
+
+
+### Open Broadcaster Software (OBS)
+* [Open source live streaming with Open Broadcaster Software](https://opensource.com/article/20/4/open-source-live-stream)
+* [How I stream video with OBS and WebSockets](https://opensource.com/article/20/6/obs-websockets-streaming)
 
 ## What Type of Streaming Do I Need?
 Use this this to help structure the content here:
