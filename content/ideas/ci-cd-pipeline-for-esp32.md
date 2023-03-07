@@ -58,6 +58,16 @@ Move to Hugo???
 * [Migrating Blogs (Again) from Pelican to Hugo](https://arunrocks.com/moving-blogs-pelican-to-hugo/)
 * [no migration tools for Pelican on Hugo website ... what does that tell you](https://gohugo.io/tools/migrations/)
 
+## Rundeck
+Rundeck is an open source software used to quickly automate manual tasks.
+Use it to create workflows consisting of commands, scripts, and APIs.
+These workflows might include software management, configurations, and scheduled events.
+Rundeck logs these activities for transparency and troubleshooting.
+
+* [Delegate common tasks with an open source automation tool](https://opensource.com/article/23/2/automate-common-tasks-rundeck)
+* [Rundeck](https://www.rundeck.com/)
+* [Rundeck: Running Docker Images](https://docs.rundeck.com/docs/administration/install/docker.html)
+
 
 
 [01]:https://www.techtarget.com/searchitoperations/definition/dependency-hell
