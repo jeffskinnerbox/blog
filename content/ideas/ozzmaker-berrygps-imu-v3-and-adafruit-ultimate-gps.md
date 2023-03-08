@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -1689,6 +1689,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [Visualizing quaternions (4d numbers) with stereographic projection](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
 
 * [Quaternions are Amazing and so is William Rowan Hamilton!](https://www.youtube.com/watch?v=CdwxpSInhvU)
+* [Quaternions](https://www.youtube.com/playlist?list=PLpzmRsG7u_gr0FO12cBWj-15_e0yqQQ1U)
 * [The rotation problem and Hamilton's discovery of quaternions I | Famous Math Problems 13a](https://www.youtube.com/watch?v=uRKZnFAR7yw)
 * [The rotation problem and Hamilton's discovery of quaternions (II) | Famous Math Problems 13b](https://www.youtube.com/watch?v=0_XoZc-A1HU)
 * [The rotation problem and Hamilton's discovery of quaternions III | Famous Math Problems 13c](https://www.youtube.com/watch?v=g22jAtg3QAk)
