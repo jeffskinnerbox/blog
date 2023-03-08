@@ -1687,6 +1687,8 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [Today’s the Day You Finally Learn Quaternions](https://hackaday.com/2022/09/05/todays-the-day-you-finally-learn-quaternions/)
 * [Fantastic Quaternions - Numberphile](https://www.youtube.com/watch?v=3BR8tK-LuB0)
 * [Visualizing quaternions (4d numbers) with stereographic projection](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
+
+* [Quaternions are Amazing and so is William Rowan Hamilton!](https://www.youtube.com/watch?v=CdwxpSInhvU)
 * [The rotation problem and Hamilton's discovery of quaternions I | Famous Math Problems 13a](https://www.youtube.com/watch?v=uRKZnFAR7yw)
 * [The rotation problem and Hamilton's discovery of quaternions (II) | Famous Math Problems 13b](https://www.youtube.com/watch?v=0_XoZc-A1HU)
 * [The rotation problem and Hamilton's discovery of quaternions III | Famous Math Problems 13c](https://www.youtube.com/watch?v=g22jAtg3QAk)
