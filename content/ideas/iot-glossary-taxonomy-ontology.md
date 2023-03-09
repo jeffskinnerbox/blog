@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -1347,6 +1347,7 @@ The standard is expected to be finalized and arrive in 2016,
 with chips and systems based on 802.11ah hitting the market as early as 2015.
 
 Source: https://en.wikipedia.org/wiki/IEEE_802.11ah
+Needs Updating With: https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-halow
 
 ## WiFi HaLow
 The WiFi Alliance  says the new standard [WiFi HaLow][22] (pronounced halo)
@@ -1376,15 +1377,20 @@ Currently at a very early stage of development this project has the goal
 of providing 4x the throughput of 802.11ac.
 
 ## WiFi 6
+
+## WiFi 6E
 * [Wi-Fi 6E becomes official—the FCC will vote on rules this month](https://arstechnica.com/gadgets/2020/04/fcc-will-vote-on-rules-for-1-2ghz-of-new-wi-fi-6e-spectrum-on-april-23/)
 * [What Is Wi-Fi 6E?](https://uk.pcmag.com/networking/131082/what-is-wi-fi-6e)
 
 # Wi-SUN
 * [Wi-SUN: the New Wireless Standard Rivaling LoRaWAN and NB-IoT in Smart Cities](https://www.allaboutcircuits.com/news/wisun-new-wireless-standard-rivaling-lorawan-nb-iot-smart-cities/)
 
+# WirePas
+
 # WirelessHART
 
 # WiGig
+* https://www.wi-fi.org/sites/default/files/public/images/Wi-Fi_HaLow_frequency_band_graphic.png
 * http://www.wi-fi.org/discover-wi-fi/wigig-certified
 * [Terragraph](https://code.facebook.com/posts/1072680049445290/introducing-facebook-s-new-terrestrial-connectivity-systems-terragraph-and-project-aries/) is a 60GHz wireless system consists of radios that are based on the WiGig standard and are designed for consumer electronics, which allowed us to create nodes that are inexpensive relative to traditional telecom infrastructure.
 
@@ -1396,6 +1402,8 @@ and office while optimizing end-to-end performance and offering the best user ex
 * [Luma](https://getluma.com/)
 * Google addresses this through a dedicated radio that scans the environment and select the best channel based on advanced algorithms, and the ability of different OnHub devices to coordinate with one another.
 * [eero](https://www.eero.com/)
+
+# Amazon Sidewalk
 
 # Wireless Sensor Networks (WSN)
 Several mesh protocols are available for sensor networking:
