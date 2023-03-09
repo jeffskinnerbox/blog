@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -250,6 +250,7 @@ by building your own coherer.
 * [Digging In The Dirt Yields Homebrew Inductors](https://hackaday.com/2020/09/13/digging-in-the-dirt-yields-homebrew-inductors/)
 * [Yet Another Inductance Measuring Scheme](http://hackaday.com/2016/09/15/yet-another-inductance-measuring-scheme/)
 * [Coil32: The freeware coil inductance calculator for radio frequency coils](https://coil32.net/)
+* [How To Make A Larger Air-Cored Inductor](https://hackaday.com/2023/03/08/how-to-make-a-larger-air-cored-inductor/)
 
 ## Diode
 * [History Of The Diode](http://hackaday.com/2016/08/15/history-of-the-diode/)
