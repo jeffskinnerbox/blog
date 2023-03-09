@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -797,6 +797,9 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [C implementation of Conway's Game of Life](https://github.com/TheLandfill/Game-of-Life--C-)
 * [epic conway's game of life](https://www.youtube.com/watch?v=C2vgICfQawE)
 * [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
+
+# P vs NP vs NP-Complete vs NP-Hard
+* [P vs NP — The Biggest Unsolved Problem in Computer Science](https://www.cantorsparadise.com/p-vs-np-the-biggest-unsolved-problem-in-computer-science-2465e14d9b9f)
 
 
 
