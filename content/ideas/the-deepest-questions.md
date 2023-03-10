@@ -504,6 +504,7 @@ A function is a relation that uniquely associates members of one set with member
 
 # The Universe Isn't Locally Real
 * [How Bell’s Theorem Proved ‘Spooky Action at a Distance’ Is Real](https://www.quantamagazine.org/how-bells-theorem-proved-spooky-action-at-a-distance-is-real-20210720/)
+* [Gamification of Bell's Theorem](https://www.youtube.com/watch?v=v7jctqKsUMA)
 * [Scientists make historic breakthrough in quantum entanglement](https://thredmedia.medium.com/scientists-make-historic-breakthrough-in-quantum-entanglement-f5928a2516c3)
     * [How Physicists Proved The Universe Isn't Locally Real - Nobel Prize in Physics 2022 EXPLAINED](https://www.youtube.com/watch?v=txlCvCSefYQ)
 * [How the illusion of an objective reality creates time travel paradoxes](https://medium.com/the-infinite-universe/how-the-illusion-of-an-objective-reality-creates-time-travel-paradoxes-f0af35e661c9)
