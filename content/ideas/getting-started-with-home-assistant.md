@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -56,6 +56,9 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 
 
+
+# Home Assistant ESP 360 Remote
+* [Home Assistant compatible “ESP 360 Remote” controls infrared and 433MHz appliances over WiFi (Crowdfunding)](https://www.cnx-software.com/2023/03/08/home-assistant-esp-360-remote-controls-infrared-and-433mhz-appliances-wifi/)
 
 # Backup Home Assistant Configuration Files
 * [Organizing My Home Assistant Configuration Files](https://hometechhacker.com/organizing-my-home-assistant-configuration-files/)
