@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -35,6 +35,7 @@ Version:      0.0.0
     * [CadQuery](http://dcowden.github.io/cadquery/) which is built on top of FreeCAD
     * Electronics Design Automation (EDA)
         * [KiCad](http://www.kicad-pcb.org/)
+        * [Flux.ai: Online PCB Design](https://www.hackster.io/videos/1372)
 * Browser Based CAD
     * [Open Source CAM Software In The Browser](https://hackaday.com/2021/03/01/open-source-cam-software-in-the-browser/)
     * [ Kiri:Moto](https://grid.space/kiri/)
