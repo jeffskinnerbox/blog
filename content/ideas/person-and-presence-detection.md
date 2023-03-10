@@ -89,6 +89,7 @@ This can be done by making use of:
 
 # Radar Sensor
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
+* [Working with MR24HPC1](https://www.hackster.io/mithun-das/working-with-mr24hpc1-281d88)
 
 
 ----------
