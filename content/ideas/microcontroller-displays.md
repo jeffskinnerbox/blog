@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -80,6 +80,8 @@ Electronic paper, as that display tech is known (E Ink is a trademarked term own
 
 * [Inky wHAT (ePaper/eInk/EPD) – Red/Black/White](https://shop.pimoroni.com/products/inky-what?variant=13590497624147)
 * [Inky Impression 5.7" (7 colour ePaper/eInk HAT)](https://shop.pimoroni.com/products/inky-impression-5-7)
+* [Pimoroni's Inky Impression Is a 5.7" Seven-Color E Ink Display for the Raspberry Pi and Compatibles](https://www.hackster.io/news/pimoroni-s-inky-impression-is-a-5-7-seven-color-e-ink-display-for-the-raspberry-pi-and-compatibles-e20b7026a9d3)
+* [Inky Frame 7.3" (Pico W Aboard)](https://shop.pimoroni.com/products/inky-frame-7-3)
 
 * [A Handy Breakout Board For E-Paper Hacking](https://hackaday.com/2022/06/15/a-handy-breakout-board-for-e-paper-hacking/)
 
@@ -95,9 +97,6 @@ You can find technical information at the [Waveshape Wiki](https://www.waveshare
 * [2.9inch e-Paper Module](https://www.waveshare.com/wiki/2.9inch_e-Paper_Module)
 * [E-Paper ESP8266 Driver Board](https://www.waveshare.com/wiki/E-Paper_ESP8266_Driver_Board)
 * [Collin's Lab: Eink, Think Ink - the full series!](https://www.youtube.com/watch?v=eipKg2pUQ_8)
-
-Move advanced products:
-* [Pimoroni's Inky Impression Is a 5.7" Seven-Color E Ink Display for the Raspberry Pi and Compatibles](https://www.hackster.io/news/pimoroni-s-inky-impression-is-a-5-7-seven-color-e-ink-display-for-the-raspberry-pi-and-compatibles-e20b7026a9d3)
 
 ### E-Paper Templates
 * [Templateize Your Timetable With EPaper Templates](https://hackaday.com/2020/12/02/templateize-your-timetable-with-epaper-templates/)
