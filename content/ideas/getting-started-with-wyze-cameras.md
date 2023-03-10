@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -47,6 +47,11 @@ and is designed for indoor use (it is not weatherproof).
 * https://www.amazon.com/gp/customer-reviews/RV54YRZNI6I6R/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B076H3SRXG
 
 # Wyze Camera V3
+
+# Wyze Camera V3 Pro
+2K Home Security with a built in spotlight and Edge AI.
+
+* [Wyze Cam v3 Pro](https://www.wyze.com/products/wyze-cam-pro)
 
 # Wyze Camera Cabling
 Extension power cable keeps your indoor or outdoor Wireless Security Camera
