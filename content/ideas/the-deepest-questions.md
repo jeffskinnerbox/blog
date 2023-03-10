@@ -693,6 +693,9 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [Reproducibility Crisis in Science? | A Scientist's Perspective](https://www.youtube.com/watch?v=h74yWYL_Z08)
 * [The Reproducibility Crisis](https://www.youtube.com/watch?v=v778svukrtU)
 
+* [Did scientists get climate change wrong?](https://www.youtube.com/watch?v=-fkCo_trbT8)
+* [The real reason some scientists downplay the risks of climate change](https://www.theguardian.com/commentisfree/2019/oct/25/the-real-reason-some-scientists-downplay-the-risks-of-climate-change)
+
 # Risk
 * [This is How Easy It Is to Lie With Statistics](https://www.youtube.com/watch?v=bVG2OQp6jEQ)
 * [How Not to Fall for Bad Statistics - with Jennifer Rogers](https://www.youtube.com/watch?v=OfVaOqLUbZA)
