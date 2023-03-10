@@ -54,6 +54,7 @@ Also see some [quotes from John von Neumann][08].
 * [George Lakoff - Is Mathematics Invented or Discovered?](https://www.youtube.com/watch?v=G_LDN1SefH8)
 * [George Lakoff The Brains Mathematics The Cognitive and Neural Foundations of Mathematics](https://www.youtube.com/watch?v=W6SkN-97XA0)
 * [The Neuroscience of Language and Thought, Dr. George Lakoff Professor of Linguistics](https://www.youtube.com/watch?v=JJP-rkilz40)
+* [3 Discoveries in Mathematics That Will Change How You See The World](https://www.youtube.com/watch?v=9UBMEww7XLU)
 
 
 # Precision
