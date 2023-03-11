@@ -37,6 +37,41 @@ A bit of online research points me to a [GalliumOS][04] vs [Lubuntu][05] vs [Xub
 Much could be said about pros/cons of each of these Linux version (see Sources below)
 but I came to Xubuntu as the best choice for me.
 
+## Remote Access / Screen Sharing
+I want to set up the Chromebook's environment to support the lightweight GUI of Xubuntu,
+that being the [Xfce Desktop Environment][12].
+You may also want to setup the Chromebook with [Virtual Network Computing (VNC)][21].
+With VNC, you can remote desktop into Linux so I can take full advantage of the desktop GUI menu system.
+There are in fact [many remote desktop software packages][32] available to choose from,
+but only small number seem to have any following in the Linux world,
+and VNC is the de-facto remote desktop protocol for Linux.
+
+VNC has two major compoents:
+
+* **VNC Server (aka Remote Server / Remote Host)** - The remote host is the computer you're connecting too.  You must configure it to allow connection requests.  These configurations include screen-sharing permissions, internal firewall rules, and possibly external firewall rules and port forwarding.
+The VNC Server will be installed on the Chromebook which is booting Xubuntu.
+It is this machine that we want to remotely log into via a VNC graphical session running in a window on the Local Client.
+* **VNC Viewer (aka Local Client / Local Host)** - The local host is the computer you're using when you want to reach out and connect to a remote host.  It must have an application to make and manage the request.
+The VNC Viewer will be installed on my Linux desktop which is booting Ubuntu.
+It is this machine that we want to view the Remote Server VNC graphical session.
+
+## Multiple VNC Servers and Clients
+I found that setting up a VNC server on Linux can be very tedious and time-consuming.
+Ubuntu has created some utilities to make it easier but it is specifically for the Ubuntu platform.
+After some experimentation, I have a preference for [X11vnc][BB]
+and but operates differently than most VNC servers.
+It it captures the X Window session on the remote by continuously polling the X server's frame buffer for changes.
+This approach  allows the user to control the remote X11 desktop (any ... KDE, GNOME, Xfce, etc.)
+as if the user were sitting in front of it.
+
+The tools I recommend for VNC service on Linux are:
+
+* **X11vnc**: Is a VNC Server that “publishes” an existing physical X display over VNC, allowing remote clients to connect with it using a VNC viewer. That is, they can see the actual running desktop windows, as if they were in front of the server.
+* **noVNC**: Is a VNC Viewer that can give you maximum flexibility. [noVNC][AA] is an open Source VNC client using HTML5 (WebSockets, Canvas), that runs well in any modern browser, including mobile browsers (iOS and Android).
+
+If you intend to install VNC for remote access / screen sharing,
+see the companion file `install-vnc-on-linux-for-remote-access-and-screen-sharing.md`.
+
 Sources:
 
 * [The 8 Best Linux Distros for Chromebooks](https://www.makeuseof.com/best-linux-distros-for-chromebooks/)
@@ -230,14 +265,6 @@ but an Ubuntu desktop will need at least 2 GB of RAM to function decently.
 Some desktop environments need more system resources (like GNOME)
 while some use fewer system resources (like Xfce, MATE etc).
 
-I want to set up the Chromebook's environment to support the lightweight GUI of Xubuntu,
-that being the [Xfce Desktop Environment][12].
-I also want to setup the Chromebook with [Virtual Network Computing (VNC)][21].
-I want to remote desktop into Linux so I can take full advantage of the desktop GUI menu system.
-There are in fact [many remote desktop software packages][32] available to choose from,
-but only small number seem to have any following in the Linux world,
-and VNC is the de-facto remote desktop protocol for Linux.
-
 There are numerous ways to install a GUI on Ubuntu 20.04.
 One of the easiest ways is with a tool called `tasksel`,
 which streamlines the process for us by automatically installing the correct
@@ -263,20 +290,6 @@ For Xubuntu, the default display manager is [lightdm][33], window manager is [xf
 >**NOTE:** Window managers are unique to [Xorg][29].
 >The equivalent of window managers on [Wayland][30] are called compositors
 >because they also act as [compositing window managers][31].
-
-In the steps that follow definitions will apply:
-
-* **VNC Server / Remote Server / Remote Host** - The remote host is the computer you're connecting too.  You must configure it to allow connection requests.  These configurations include screen-sharing permissions, internal firewall rules, and possibly external firewall rules and port forwarding.
-The VNC Server will be installed on the Chromebook which is booting Xubuntu.
-It is this machine that we want to remotely log into via a VNC graphical session running in a window on the Local Client.
-* **VNC Viewer / Local Client / Local Host** - The local host is the computer you're using when you want to reach out and connect to a remote host.  It must have an application to make and manage the request.
-The VNC Viewer will be installed on my Linux desktop which is booting Ubuntu.
-It is this machine that we want to view the Remote Server VNC graphical session.
-
-## Multiple VNC Servers and Clients
-* **Xvnc**: Is an X and VNC server at the same time. It is mainly used to run the X server on a virtual display, (in the absence of a physical one) and connect remotely to it with a VNC client/viewer.
-
-* **X11vnc**: Is a vncserver that “publishes” an existing physical X display over VNC, allowing remote clients to connect with it using a VNC viewer. That is, they can see the actual running desktop windows, as if they were in front of the server.
 
 
 Sources:
@@ -388,4 +401,6 @@ To do so execute: `sudo systemctl set-default graphical.target`.
 [33]:https://wiki.ubuntu.com/LightDM
 [34]:https://manpages.ubuntu.com/manpages/bionic/en/man1/xfwm4.1.html
 
+[AA]:https://novnc.com/info.html
+[BB]:https://en.wikipedia.org/wiki/X11vnc
 
