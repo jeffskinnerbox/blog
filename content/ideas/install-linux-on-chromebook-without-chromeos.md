@@ -26,6 +26,12 @@ I find myself reluctant to do such things on my desktop Linux system in fear of 
 I plan to setup this Chromebook with Xubuntu, and hopefully,
 such that I can do a quick OS re-install after what might be a destructive experiment.
 
+Sources:
+
+* [The 8 Best Linux Distros for Chromebooks](https://www.makeuseof.com/best-linux-distros-for-chromebooks/)
+* [Best Linux Distro For Chromebook](https://www.electronicshub.org/best-linux-distro-for-chromebook/)
+* [Lubuntu vs Xubuntu](https://www.educba.com/lubuntu-vs-xubuntu/)
+
 ## GalliumOS vs Lubuntu vs Xubuntu
 One of the key decision is what variant of Linux do I want to use?
 I'm a long time user of Ubuntu on my desktop,
@@ -72,13 +78,11 @@ The tools I recommend for VNC service on Linux are:
 If you intend to install VNC for remote access / screen sharing,
 see the companion file `install-vnc-on-linux-for-remote-access-and-screen-sharing.md`.
 
-Sources:
 
-* [The 8 Best Linux Distros for Chromebooks](https://www.makeuseof.com/best-linux-distros-for-chromebooks/)
-* [Best Linux Distro For Chromebook](https://www.electronicshub.org/best-linux-distro-for-chromebook/)
-* [Lubuntu vs Xubuntu](https://www.educba.com/lubuntu-vs-xubuntu/)
+--------
 
-## Installing Xubuntu on Chromebook
+
+# Installing Xubuntu on Chromebook
 I'll be installing Xubuntu on your Chromebook by completely replacing Chrome OS.
 You'll find the tutorial below in the Sources will give you everything you need.
 The basic installation steps to doing the ChromeOS replacement with Xubuntu are:
