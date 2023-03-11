@@ -12,7 +12,7 @@ Version:      0.0.0
 -----
 
 
-# Install Linux on Chromebook Without ChromeOS
+# Install Xubuntu on Chromebook Without ChromeOS
 I have an [Acer Chromebook 14 CB3-431][01] which was manufactured & purchased in 2017 for $275 via Amazon.
 The Acer Chromebook 14 Acer comes with a Intel Celeron N3160 processor,
 4GB LPDDR3 RAM, 32GB of SSD storage, and a very stylish aluminum enclosure.
@@ -219,65 +219,123 @@ Sources:
 -------
 
 
-## Set-up Xubuntu on Chromebook
+# Set-up Xubuntu on the Chromebook
+If you compare [Ubuntu desktop][15] with [Ubuntu server][16],
+the main difference will be the absence of GUI on the server edition.
+Ubuntu Server is basically a striped down version of Ubuntu desktop without the graphical modules.
+The graphical desktop environment consumes a lot of system resources and for this reason,
+the server operating systems do not include a desktop environment by default.
+You may use an Ubuntu server on 512 MB of RAM
+but an Ubuntu desktop will need at least 2 GB of RAM to function decently.
+Some desktop environments need more system resources (like GNOME)
+while some use fewer system resources (like Xfce, MATE etc).
 
-* [How to Run Multiple Desktop Environments on one Linux PC](https://journalxtra.com/linux/desktop/multiple-desktops-on-one-linux-pc-now-thats-greedy/)
-* [How to switch between the CLI and GUI on a Linux server](https://www.redhat.com/sysadmin/configure-systemd-startup-targets)
-* [How to Install a GUI on Ubuntu](https://www.servermania.com/kb/articles/ubuntu-server-gui/)
-* [How to Install a Desktop (GUI) on an Ubuntu Server](https://phoenixnap.com/kb/how-to-install-a-gui-on-ubuntu)
-* [How to Install a Desktop Environment/GUI in Ubuntu Server](https://www.makeuseof.com/install-desktop-environment-gui-ubuntu-server/)
+I want to set up the Chromebook's environment to support the lightweight GUI of Xubuntu,
+that being the [Xfce Desktop Environment][12].
+I also want to setup the Chromebook with [Virtual Network Computing (VNC)][21].
+I want to remote desktop into Linux so I can take full advantage of the desktop GUI menu system.
+There are in fact [many remote desktop software packages][32] available to choose from,
+but only small number seem to have any following in the Linux world,
+and VNC is the de-facto remote desktop protocol for Linux.
+
+There are numerous ways to install a GUI on Ubuntu 20.04.
+One of the easiest ways is with a tool called `tasksel`,
+which streamlines the process for us by automatically installing the correct
+display manager, window manager, desktop environment, and other package dependencies.
+
+Three major components makeup your GUI: display manager, window manager, and desktop environment
+
+* A [display manager][25] (also known as a “login manager”)
+is an application responsible for launching a display server
+and managing user authentication and login session.
+A few display managers are gdm, gdm3, lightdm, slim, kdm etc.,
+The default gdm3 is the popular display manager for GNOME desktop environment,
+however, it is a resource-intensive display manager.
+To conserve system resources, you can install lighter display managers such as lightdm, slim, etc.
+* A [window manager][28], often considered part of the desktop environment,
+controls the placement and appearance of windows within GUI or also used standalone.
+* [GNOME is the default desktop environment][26] for Ubuntu with many features and a wide community.
+Find out from here the [various desktop environments][27] you have to pick from.
+
+For Ubuntu, the default display manager is [gdm3][32], window manager + desktop envirnment is [GNOME][26].
+For Xubuntu, the default display manager is [lightdm][33], window manager is [xfwm4][34], and desktop envirnment is [Xfce][12].
+
+>**NOTE:** Window managers are unique to [Xorg][29].
+>The equivalent of window managers on [Wayland][30] are called compositors
+>because they also act as [compositing window managers][31].
+
+In the steps that follow definitions will apply:
+
+* **VNC Server / Remote Server / Remote Host** - The remote host is the computer you're connecting too.  You must configure it to allow connection requests.  These configurations include screen-sharing permissions, internal firewall rules, and possibly external firewall rules and port forwarding.
+The VNC Server will be installed on the Chromebook which is booting Xubuntu.
+It is this machine that we want to remotely log into via a VNC graphical session running in a window on the Local Client.
+* **VNC Viewer / Local Client / Local Host** - The local host is the computer you're using when you want to reach out and connect to a remote host.  It must have an application to make and manage the request.
+The VNC Viewer will be installed on my Linux desktop which is booting Ubuntu.
+It is this machine that we want to view the Remote Server VNC graphical session.
+
+## Multiple VNC Servers and Clients
+* **Xvnc**: Is an X and VNC server at the same time. It is mainly used to run the X server on a virtual display, (in the absence of a physical one) and connect remotely to it with a VNC client/viewer.
+
+* **X11vnc**: Is a vncserver that “publishes” an existing physical X display over VNC, allowing remote clients to connect with it using a VNC viewer. That is, they can see the actual running desktop windows, as if they were in front of the server.
 
 
+Sources:
 
-
-## How to Start GUI on Ubuntu Linux Machine
 * [Ubuntu 20.04 GUI installation](https://linuxconfig.org/ubuntu-20-04-gui-installation)
-* [How to switch boot target to text or GUI in systemd Linux](https://www.cyberciti.biz/faq/switch-boot-target-to-text-gui-in-systemd-linux/)
-* [Installing and Using Tasksel on Ubuntu 20.04](https://support.shells.net/hc/en-us/articles/1500003387442-Installing-and-Using-Tasksel-on-Ubuntu-20-04)
+* [How to Install a Desktop (GUI) on an Ubuntu Server](https://phoenixnap.com/kb/how-to-install-a-gui-on-ubuntu)
+* [How to switch between the CLI and GUI on a Linux server](https://www.redhat.com/sysadmin/configure-systemd-startup-targets)
 * [How to install a Desktop Environment (GUI) on Ubuntu Server](https://itsfoss.com/install-gui-ubuntu-server/)
+* [How to Run Multiple Desktop Environments on one Linux PC](https://journalxtra.com/linux/desktop/multiple-desktops-on-one-linux-pc-now-thats-greedy/)
 
-If you compare Ubuntu desktop with Ubuntu server, the main difference will be the absence of GUI, i.e. the desktop environment in the server edition. Ubuntu Server is basically a striped down version of Ubuntu desktop without the graphical modules.
-The graphical desktop environment consumes a lot of system resources and for this reason, the server operating systems do not include a desktop environment by default.
-You may use an Ubuntu server on 512 MB of RAM but an Ubuntu desktop will need at least 2 GB of RAM to function decently. That’s considered a waste of resources in the server world.
-Some desktop environments need more system resources (like GNOME) while some use fewer system resources (like Xfce, MATE etc).
+#### Step 1: Install Tasksel - DONE
+[Tasksel][24] is a Debian/Ubuntu tool that installs multiple related packages
+as a co-ordinated "task" onto your system.
+This function is similar to that of meta-packages, and in fact,
+most of the tasks available from `tasksel` are also available as meta-packages
+from the Ubuntu package managers (such as Synaptic Package Manager or KPackageKit).
+Because the package managers now have most of the tasks as meta-packages,
+`tasksel` is not installed by default on editions of Ubuntu
+(such as Desktop editions) that have package managers.
+`tasksel` is still installed by default on server editions.
 
-[Tasksel](https://help.ubuntu.com/community/Tasksel)
-is a Debian/Ubuntu tool that installs multiple related packages as a co-ordinated "task" onto your system.
-This function is similar to that of meta-packages, and, in fact, most of the tasks available from tasksel are also available as meta-packages from the Ubuntu package managers (such as Synaptic Package Manager or KPackageKit).
-Because the package managers now have most of the tasks as meta-packages, tasksel is not installed by default on editions of Ubuntu (such as Desktop editions) that have package managers. (Tasksel is still installed by default on server editions).
-
-The purpose of this tutorial is to install a desktop environment GUI on Ubuntu 20.04 Focal Fossa, whether you already have a GUI installed and wish to use a different desktop environment, or if you are only using the command line and would like access to a GUI. You can also use these instructions to install a GUI on Ubuntu Server 20.04, which doesn’t have a desktop environment installed by default. Follow along with our instructions below to install a GUI on Ubuntu 20.04 Focal Fossa Server and Desktop.
-
-There are numerous ways to install a GUI on Ubuntu 20.04. One of the easiest ways is with a tool called tasksel, which streamlines the process for us by automatically installing the correct window manager and other package dependencies.
-
-Two major components makeup your GUI: display manager and desktop environment
-
-* A [display manager](https://wiki.debian.org/DisplayManager) (also known as a “login manager”) is an application responsible for launching a display server and managing user authentication and login session. A few display managers are gdm, gdm3, lightdm, slim, kdm etc., The default gdm3 is the popular display manager for GNOME desktop environment, however, it is a resource-intensive display manager. To conserve system resources, you can install lighter display managers such as lightdm, slim, etc.,
-* Since Ubuntu 17.10, [GNOME is the default desktop environment](https://ubuntu.com/blog/whats-new-in-ubuntu-desktop-20-04-lts). With more features and a wider community. GNOME 3.36 has a lot to offer in the latest Ubuntu 20.04. Find out from here the [various desktop environments](https://www.tecmint.com/best-linux-desktop-environments/) available.
-
-**Choose a Desktop Environment**
 ```bash
+# updating the apt package index and installing the tasksel tool
 sudo apt update
 sudo apt install tasksel
 
-# inspect the GUI you can install
+# list all of the GUIs available for selection
+# in the first column of the list, u (uninstalled) means software is not installed
+# and i (installed) means software is installed
 tasksel --list-tasks
 
-# run tasksel in menu driven mode
-# already-installed tasks will have an asterisk beside their name
+# to open the tasksel user interface menu to install software applications
+# where you see an asterisk (*) without the red highlighter,
+# it means that software is already installed
 sudo tasksel
 
-# select the GUI you wish to install (ex. ubuntu-desktop)
-sudo tasksel install ubuntu-desktop
-
-# FYI - to add and remove a Tasksel package use the following syntax
+# to add / remove a tasksel package, use the following syntax
 sudo tasksel install <tasksel_name>
 sudo tasksel remove <tasksel_name>
 ```
 
-`tasksel` will now begin to download and install all of the packages required for the desktop environment you have chosen. Depending on which GUI is being installed, you may be prompted during installation on whether or not you wish to change the default window manager for the system.
+Sources:
 
-At this point, the GUI should start. You may need to select your desired desktop flavor on the login page before you login. In case the GUI is not starting at all, make sure your system boots into the graphical target. To do so execute:
+* [How To Install And Configure VNC On Ubuntu 20.04?](https://www.imaginelinux.com/install-and-configure-vnc-on-ubuntu/)
+
+#### Step 2: Install Desktop Environment Using Tasksel - DONE
+`tasksel` will download and install all of the packages required for the desktop environment.
+Depending on which GUI is being installed,
+you may be prompted during installation on whether or not you wish to change
+the default window manager for the system.
+
+```bash
+# install the default xubuntu desktop environment
+sudo tasksel install xfce-desktop
+```
+
+At this point, the GUI could be started, but we want it to start automatically.
+In case the GUI is not starting at all, make sure your system boots into the graphical target.
+To do so execute:
 
 ```bash
 # after installation, reboot your system
@@ -287,93 +345,11 @@ reboot
 sudo systemctl set-default graphical.target
 ```
 
-**Select a Display Manager**
-When installing Display Manager, the system is going to ask for a default display manager because only one can run at a time, although you can have several installed.
-
-```bash
-# make sure your system is running with the latest packages
-sudo apt update && sudo apt upgrade
-
-# install display manager
-sudo apt-get install lightdm
-
-# start the display manager and load the GUI
-sudo service lightdm start
-
-# verify the default display manager
-$ cat /etc/X11/default-display-manager
-/usr/bin/lightdm
-```
-
-## How to Switch Boot Target
-* [How to switch boot target to text or GUI in systemd Linux](https://www.cyberciti.biz/faq/switch-boot-target-to-text-gui-in-systemd-linux/)
-* [Tasksel – Easily and Quickly Install Group Softwares in Debian and Ubuntu](https://www.tecmint.com/tasksel-install-group-software-lamp-mail-dns-in-debian-ubuntu/)
-
-**Switching boot target to text**
-The procedure is as follows to change into a text mode runlevel under systemd:
-
-Open the terminal application.
-For remote Linux servers, use the ssh command.
-Find which target unit is used by default:
-systemctl get-default
-
-To change boot target to the text mode:
-sudo systemctl set-default multi-user.target
-
-Check the boot target
-systemctl get-default
-
-Reboot the system using the reboot command:
-sudo systemctl reboot
-
-**switch boot target to GUI**
-Want to revert change boot to GUI instead of console/text mode? Try:
-
-Open the Linux terminal application.
-Again, for remote Linux servers, use the ssh command.
-Find which target unit is used by default:
-systemctl get-default
-
-To change boot target to the GUI mode:
-sudo systemctl set-default graphical.target
-
-Check the boot target
-systemctl get-default
-
-Make sure you reboot the Linux box using the reboot command:
-sudo reboot
-
-**How to boot in to rescue mode**
-Run the following systemctl command
-sudo systemctl rescue
-
-We can change to a different systemd target unit in the current log in session using the CLI as follows:
-sudo systemctl isolate multi-user.target
-# OR #
-sudo systemctl isolate graphical.target
-
-## To Remove GUI from Ubuntu Server
-If you realize that the desktop environment is taking too much computing resources, you may remove the packages you installed previously.
-Please keep in mind that it may cause dependency issues in some cases so please make a backup of your important data or create a system snapshot.
-
-```bash
-# if you want to shutdown the GUI open a terminal window
-sudo service ubuntu-desktop stop
-sudo apt remove ubuntu-desktop
-sudo apt remove lightdm
-sudo apt autoremove
-sudo service lightdm stop
-
-# removing orphaned or unnecessary dependencies
-sudo apt autoremove
-```
-
-
-## Start GUI from command line
-sudo systemctl isolate graphical
-
-
-
+You may need to select your desired desktop flavor on the login page
+(aka display manager) before you login.
+In case the GUI is not starting at all,
+make sure your system boots into the graphical target.
+To do so execute: `sudo systemctl set-default graphical.target`.
 
 
 
@@ -388,24 +364,28 @@ sudo systemctl isolate graphical
 [09]:https://www.ventoy.net/en/doc_start.html
 [10]:https://xubuntu.org/download/
 [11]:https://www.youtube.com/watch?v=7Ng8D6qi6a8
-[12]:
+[12]:https://www.xfce.org/
 [13]:https://www.androidpolice.com/how-to-enter-chromeos-developer-mode/
 [14]:https://www.wikihow.com/Enable-USB-Booting-on-Chromebook
-[15]:
-[16]:
+[15]:https://ubuntu.com/blog/desktop
+[16]:https://ubuntu.com/download/server
 [17]:https://mrchromebox.tech/
 [18]:https://www.coreboot.org/users.html
 [19]:https://www.quora.com/What-is-difference-between-BIOS-UEFI-bootloader-and-firmware
 [20]:https://mrchromebox.tech/#fwscript
-[21]:
+[21]:https://www.tightvnc.com/
 [22]:https://www.reddit.com/r/GalliumOS/comments/8cydt1/howto_flash_full_rom_ie_coreboot_and_install/
-[23]:
-[24]:
-[25]:
-[26]:
-[27]:
-[28]:
-[29]:
-[30]:
+[23]:https://en.wikipedia.org/wiki/Framebuffer
+[24]:https://help.ubuntu.com/community/Tasksel
+[25]:https://wiki.debian.org/DisplayManager
+[26]:https://ubuntu.com/blog/whats-new-in-ubuntu-desktop-20-04-lts
+[27]:https://linuxconfig.org/the-8-best-ubuntu-desktop-environments-22-04-jammy-jellyfish-linux
+[28]:https://wiki.archlinux.org/title/window_manager
+[29]:https://wiki.archlinux.org/title/xorg
+[30]:https://wiki.archlinux.org/title/Wayland
+[31]:https://en.wikipedia.org/wiki/Compositing_window_manager
+[32]:https://manpages.ubuntu.com/manpages/xenial/man8/gdm3.8.html#:~:text=gdm3%20is%20the%20equivalent%20of,conf%20for%20its%20configuration.
+[33]:https://wiki.ubuntu.com/LightDM
+[34]:https://manpages.ubuntu.com/manpages/bionic/en/man1/xfwm4.1.html
 
 

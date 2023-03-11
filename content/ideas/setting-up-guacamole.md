@@ -5,26 +5,16 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/bed-of-red-raspberrys.jpg" title="This is a test of using images stored on GitHub." align="center">
-</div>
-
-
-<div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
-</div>
-
-
-<div align="center">
-<img src="http://dangerousprototypes.com/docs/images/d/d3/Danger-sign.png" title="These materials are very close to being complete and fit for use.  Then again, maybe not. Proceed with caution and remeber you have been warned!" align="center">
-</div>
-
-
-<div align="center">
-<img src="https://python-deprecated.readthedocs.io/en/latest/_images/logo-full.png" title="Deprecated is increasingly used as a technical term meaning 'to recommend against using something on the grounds that it is obsolete', or 'to declare some technological feature or function to be obsolescent'.  The earliest meaning of deprecate was 'to pray against, as an evil,' and soon after this first meaning it took on the additional sense 'to express disapproval of'.  Meanwhile, depreciate, the closely related word with which it is often confused, means 'to lower in value.'" align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
 -----
+
+
+* [How to use Apache Guacamole to create a VNC Connection](https://www.howtoforge.com/how-to-use-apache-guacamole-to-create-a-vnc-connection/)
+* [Apache Guacamole Manual](https://guacamole.apache.org/doc/gug/)
+
 
 
 
@@ -234,7 +224,7 @@ so your are not locked out.
 Now logout and then log back in, using the new account you created.
 Goto the top right-hand menu and select **Settings** > **Users** > **New User**
 and select the `guacadmin` account and disable it.
-Now do all you administrative work for Guacamole via this new login.
+Now do all your administrative work for Guacamole via this new login.
 
 #### Step 4: Guacamole Two Factor Authentication (2FA) via Cloudflare Tunnels - DONE
 Guacamole, as currently implemented above,
@@ -250,11 +240,12 @@ Click the button **New Connections**.
 Enter the following information
 (**NOTE:** many of the fields will be defaulted and left blank):
 
-|       Server Name        | Protocol |     Hostname    |  Port  | User | Password |
-|:------------------------:|:--------:|:---------------:|:------:|:----:|:--------:|
-| desktop (jeff via shell) |   SSH    |  192.168.1.200  |   22   | xxxx | xxxxxxxx |
-| pve-1 (root via shell)   |   SSH    |  192.168.1.204  |   22   | xxxx | xxxxxxxx |
-| desktop (jeff via VNC)   |   VNC    |  192.168.1.200  |  5901  | xxxx | xxxxxxxx |
+|       Server Name           | Protocol |     Hostname    |  Port  | User | Password |      Notes      |
+|:---------------------------:|:--------:|:---------------:|:------:|:----:|:--------:|:---------------:|
+| desktop (jeff via shell)    |   SSH    |  192.168.1.200  |   22   | xxxx | xxxxxxxx |                 |
+| pve-1 (root via shell)      |   SSH    |  192.168.1.204  |   22   | xxxx | xxxxxxxx |                 |
+| desktop (jeff via VNC)      |   VNC    |  192.168.1.200  |  5901  | xxxx | xxxxxxxx |                 |
+| chromebook (jeff via VNC)   |   VNC    |  192.168.1.19   |  5901  | xxxx | xxxxxxxx | not a static IP |
 
 Now go back to menu at the top right and select **Home**.
 Select you connection and you should be logged in,
@@ -323,6 +314,9 @@ The
 I followed mainly the first source below:
 
 Sources:
+* VNC vs RDP
+    * [VNC vs RDP: which remote desktop tool is the best?](https://www.realvnc.com/en/blog/vnc-vs-rdp-which-remote-desktop-tool-is-best/)
+    * [VNC vs RDP: Similarities and Differences](https://www.parallels.com/blogs/ras/vnc-vs-rdp/)
 * TigerVNC
     * [How to Install and Configure VNC on Ubuntu 22.04][14]
     * [Install VNC Server with Gnome display on Ubuntu 18.04](https://www.teknotut.com/install-vnc-server-with-gnome-display-on-ubuntu-18-04/)
@@ -337,7 +331,7 @@ Sources:
 #### Step 0: Remove VNC From Your System - DONE
 During my installation of VNC,
 I ran into problems, particularly with TigerVNC,
-and to do some remove & install operations.
+and I had  to do some remove & re-install operations.
 If you run into similar challenges do the following.
 
 To remove the VNC packages and other installation steps:
