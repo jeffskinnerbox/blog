@@ -1689,6 +1689,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [Visualizing quaternions (4d numbers) with stereographic projection](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
 
 * [Quaternions are Amazing and so is William Rowan Hamilton!](https://www.youtube.com/watch?v=CdwxpSInhvU)
+* [How Maxwell's Equations (and Quaternions) Led to Vector Analysis](https://www.youtube.com/watch?v=M12CJIuX8D4)
 * [Quaternions](https://www.youtube.com/playlist?list=PLpzmRsG7u_gr0FO12cBWj-15_e0yqQQ1U)
 * [The rotation problem and Hamilton's discovery of quaternions I | Famous Math Problems 13a](https://www.youtube.com/watch?v=uRKZnFAR7yw)
 * [The rotation problem and Hamilton's discovery of quaternions (II) | Famous Math Problems 13b](https://www.youtube.com/watch?v=0_XoZc-A1HU)
