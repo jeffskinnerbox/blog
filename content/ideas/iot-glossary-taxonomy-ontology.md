@@ -1365,6 +1365,8 @@ Generally, you’ll see faster data rates at higher power consumptions and when 
 
 The standard won’t be official until 2018, but devices will be out late 2016.
 
+* [Quectel Takes on Terrestrial and Satellite Communications Alike with New IoT-Focused Modules](https://www.hackster.io/news/quectel-takes-on-terrestrial-and-satellite-communications-alike-with-new-iot-focused-modules-6cc77d0c90b7)
+
 ## IEEE 802.11af
 In 2014, the WiFi alliance introduced 802.11af,
 a networking protocol operating in unused TV whitespace spectrum between 54 and 790 MHz.
@@ -1381,6 +1383,12 @@ of providing 4x the throughput of 802.11ac.
 ## WiFi 6E
 * [Wi-Fi 6E becomes official—the FCC will vote on rules this month](https://arstechnica.com/gadgets/2020/04/fcc-will-vote-on-rules-for-1-2ghz-of-new-wi-fi-6e-spectrum-on-april-23/)
 * [What Is Wi-Fi 6E?](https://uk.pcmag.com/networking/131082/what-is-wi-fi-6e)
+
+## WiFi 7
+WiFi 7 is the upcoming WiFi standard, also known as IEEE 802.11be Extremely High Throughput (EHT). It works across all three bands (2.4 GHz, 5 GHz, and 6 GHz) to fully utilize spectrum resources.
+WiFi 7 brings extreme data speeds, lower latencies, and increased network capacity thanks to new capabilities designed to support large numbers of users and devices in bandwidth-intensive environments.
+
+https://www.tp-link.com/us/wifi7/
 
 # Wi-SUN
 * [Wi-SUN: the New Wireless Standard Rivaling LoRaWAN and NB-IoT in Smart Cities](https://www.allaboutcircuits.com/news/wisun-new-wireless-standard-rivaling-lorawan-nb-iot-smart-cities/)
