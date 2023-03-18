@@ -1412,6 +1412,8 @@ and office while optimizing end-to-end performance and offering the best user ex
 * [eero](https://www.eero.com/)
 
 # Amazon Sidewalk
+* [Getting Started with Amazon Sidewalk](https://www.silabs.com/support/training/getting-started-with-amazon-sidewalk)
+    * [Getting Started with Amazon Sidewalk Presentation Slides](https://www.silabs.com/documents/login/presentations/tech-talks-getting-started-with-amazon-sidewalk.pdf)
 
 # Wireless Sensor Networks (WSN)
 Several mesh protocols are available for sensor networking:
