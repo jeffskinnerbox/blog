@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -43,6 +43,9 @@ Need a SMA Panel Jack connector
 * [The Electromagnetic Spectrum](http://cnx.org/content/m42444/latest/?collection=col11406/1.7)
 * [antennavis - Antenna Visualization Toolkit](http://manpages.ubuntu.com/manpages/trusty/man1/antennavis.1.html)
 * [Understanding and Using Antenna Radiation Patterns](http://www.astronwireless.com/topic-archives-antenna-radiation-patterns.asp)
+
+* [Radio Antenna Fundamentals Part 1 1947](https://www.youtube.com/watch?v=JHSPRcRgmOw&t=226s)
+* [Radio Antenna Fundamentals - Part 2 1947](https://www.youtube.com/watch?v=EtEBxY8TvuE&t=8s)
 
 The white paper [Antenna Basics][63] instructs you in the functionality of antennas
 starting with Hertz’s Antenna Model and review the fundamentals of wave propagation.
