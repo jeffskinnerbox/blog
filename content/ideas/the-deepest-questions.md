@@ -386,6 +386,7 @@ and by the way, [isn't it dead][07]?
 * [You CAN ivide by Zero!](https://medium.com/@thisscience1/you-can-divide-by-zero-ad4eac936a68)
 * [You CAN Divide by Zero! (Part 2)](https://medium.com/@thisscience1/you-can-divide-by-zero-part-2-8b7b619ee6aa)
 * [How to Divide by Zero](https://www.1dividedby0.com/)
+* [The Riemann Sphere: A world where you can divide by zero](https://www.cantorsparadise.com/the-riemann-sphere-76fe78ebe0d3)
 
 # Asymptotic Approximation
 * [The power of small things: Resurgent asymptotics](https://plus.maths.org/content/power-small-things-resurgent-asymptotics)
