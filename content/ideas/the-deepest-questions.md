@@ -422,6 +422,7 @@ A function is a relation that uniquely associates members of one set with member
 # What is Randomness?
 * [What is Random?](https://www.youtube.com/watch?v=9rIy0xY99a0)
 * [What is NOT Random?](https://www.youtube.com/watch?v=sMb00lz-IfE)
+* [Randomness is Random](https://www.youtube.com/watch?v=tP-Ipsat90c)
 * [How to Generate Pseudorandom Numbers](https://www.youtube.com/watch?v=C82JyCmtKWg)
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
 * [When Science and Philosophy meet Randomness, Determinism, and Chaos](https://towardsdatascience.com/when-science-and-philosophy-meet-randomness-determinism-and-chaos-abdb825c3114)
@@ -645,6 +646,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Five Paradoxes With Probabilities That Will Puzzle You](https://towardsdatascience.com/five-paradoxes-with-probabilities-that-will-puzzle-you-2f71201d6ee8)
 * [Five Tricky Statistics and Probability Riddles That 90% of People Fail](https://towardsdatascience.com/five-tricky-statistics-and-probability-riddles-that-90-of-people-fail-77db1eda2e15)
 * [The unresolved probability paradox that goes to the heart of scientific objectivity](https://aeon.co/videos/the-unresolved-probability-paradox-that-goes-to-the-heart-of-scientific-objectivity)
+* [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
+    * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
 
 # Universality
 * [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
@@ -681,6 +684,10 @@ The Bayesian View of Probability:
 A major advantage of Bayesian statistics is that it provides statistics that mean what you want them to mean. And the reason why is that it’s perfectly reasonable to assign probabilities to those things that frequentists consider fixed. So, whether that’s a population parameter, rate, or hypothesis, Bayesians view these entities as probabilistic. There are no strictures around repeatability and you can assign a probability to anything you want. Moreover, you can actually compute those probabilities.
 
 This may seem like a completely wild idea. Loose, even. But so long as you’re rational with how you assign a probability — and the laws of probability are obeyed — you can go nuts and assign a probability to any event you wish. At its core, Bayesian probability is about belief revision, and unlike the more objective frequentist approach, is based upon our subjective degree of belief about the truth of an outcome. This may feel somewhat arbitrary, and indeed this approach can make some quite uncomfortable with using Bayesian statistics; however, the revision of beliefs is anything but arbitrary.
+
+# Jaynes
+* [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
+    * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
 
 # Skepticism of Modern Science
 * [Bernoulli’s fallacy: statistical illogic and the crisis of modern science](https://www.youtube.com/watch?v=EIPz7SJBO6g)
