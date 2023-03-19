@@ -18,6 +18,7 @@ Version:      0.0.0
 
 
 
+
 Try install Guacamole via Docker ...
 * [Installing Apache Guacamole through Docker](https://www.linode.com/docs/guides/installing-apache-guacamole-through-docker/)
 * [Using a Cloud Desktop on a Browser with Apache Guacamole](https://www.linode.com/docs/guides/remote-cloud-desktop-using-apache-guacamole/)
@@ -244,8 +245,8 @@ Enter the following information
 |:---------------------------:|:--------:|:---------------:|:------:|:----:|:--------:|:---------------:|
 | desktop (jeff via shell)    |   SSH    |  192.168.1.200  |   22   | xxxx | xxxxxxxx |                 |
 | pve-1 (root via shell)      |   SSH    |  192.168.1.204  |   22   | xxxx | xxxxxxxx |                 |
-| desktop (jeff via VNC)      |   VNC    |  192.168.1.200  |  5901  | xxxx | xxxxxxxx |                 |
-| chromebook (jeff via VNC)   |   VNC    |  192.168.1.19   |  5901  | xxxx | xxxxxxxx | not a static IP |
+| desktop (jeff via VNC)      |   VNC    |  192.168.1.200  |  5900  | xxxx | xxxxxxxx |                 |
+| chromebook (jeff via VNC)   |   VNC    |  192.168.1.19   |  5900  | xxxx | xxxxxxxx | not a static IP |
 
 Now go back to menu at the top right and select **Home**.
 Select you connection and you should be logged in,
