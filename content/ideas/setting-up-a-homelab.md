@@ -189,6 +189,7 @@ so is it necessary to buy a special purpose firewall for your home network?
 ## Add-on Components
 
 ## Enhansed Security
+* [How to protect Linux from Hackers // My server security strategy!](https://www.youtube.com/watch?v=Bx_HkLVBz9M)
 * [Self-Hosting Security Guide for your HomeLab](https://www.youtube.com/watch?v=Cs8yOmTJNYQ)
 * [How to protect Linux from Hackers // My server security strategy!](https://www.youtube.com/watch?v=Bx_HkLVBz9M)
 * [11 Home Network Security Tips You Need To Implement Now](https://hometechhacker.com/9-home-network-security-tips/)
