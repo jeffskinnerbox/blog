@@ -31,6 +31,7 @@ Version:      0.0.0
 * [How To Make Simple RC Airplane For Simple Radio Control. DIY RC Aiplane & Arduino RC](https://www.youtube.com/watch?v=9SMyBN-B3Vo)
 * [KendinYap](https://www.youtube.com/channel/UCgjJGE17yfovAvWUzEJFENA)
 * [Parkjet](https://www.parkjets.com/)
+* [How To Make Simple RC Airplane For Simple Radio Control. DIY RC Aiplane & Arduino RC](https://www.youtube.com/watch?v=9SMyBN-B3Vo)
 
 # Propeller
 * [Toroidal Propellers Make Drones Less Annoying](https://hackaday.com/2023/01/28/toroidal-propellers-make-drones-less-annoying/)
