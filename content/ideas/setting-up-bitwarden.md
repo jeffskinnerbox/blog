@@ -12,6 +12,8 @@ Version:      0.0.0
 -----
 
 
+
+* [Migrating My Password Vault From LastPass To BitWarden](https://www.youtube.com/watch?v=pJU9pyjFLyk)
 * [Should You Store TOTP Authentication in Bitwarden?](https://www.youtube.com/watch?v=DR7wP3RN4sE)
 
 
