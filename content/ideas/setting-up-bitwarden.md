@@ -12,6 +12,10 @@ Version:      0.0.0
 -----
 
 
+* [Should You Store TOTP Authentication in Bitwarden?](https://www.youtube.com/watch?v=DR7wP3RN4sE)
+
+
+
 
 # Docker Installation of Bitwarden
 * [Take Control of AND Secure Your Passwords Using Vaultwarden on Portainer](https://www.youtube.com/watch?v=fQOqqJv1zCI)
