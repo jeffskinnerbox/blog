@@ -46,7 +46,7 @@ In 1960, [Eugene Wigner][01]
 published a now classic article on the philosophy of mathematics and of physics,
 "[The Unreasonable Effectiveness of Mathematics in the Natural Sciences][02]"
 (reprint of the original article [here][03])
-Also see some [quotes from John von Neumann][08].
+Also see some [quotes from John von Neumann][08] and [Paul Dirac's lecture on mathematical simplicity and beauty][09].
 
 * [Mathematics is the queen of Sciences](https://www.youtube.com/watch?v=8mve0UoSxTo&list=RDLV6CVjoOtA5eg&index=6)
 * [How math and science move in opposite directions](https://medium.com/@jblake17/how-math-and-science-move-in-opposite-directions-53820a836c4c)
@@ -842,5 +842,5 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 [06]:https://www.youtube.com/watch?v=zOGXvSsksSw
 [07]:https://www.youtube.com/watch?v=H0lQAcqcmSg
 [08]:https://john-muresianu.medium.com/liberal-arts-blog-john-von-neumann-1903-1957-the-simplicity-of-mathematics-and-its-ad8eb975aa8a
-[09]:
+[09]:https://www.damtp.cam.ac.uk/events/strings02/dirac/speach.html
 [10]:
