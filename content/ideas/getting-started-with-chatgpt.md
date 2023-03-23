@@ -39,3 +39,10 @@ making it easy to seamlessly and scalably launch ML compute directly from the Hu
 * [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
 * [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
 
+
+
+------
+
+
+# Brad is Google's Answer to ChatGPT
+[Brad](https://bard.google.com/)
