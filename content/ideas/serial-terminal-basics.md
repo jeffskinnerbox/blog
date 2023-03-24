@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -283,6 +283,7 @@ This post shows in detailed steps how to open a serial connection to an embedded
 * [UART Transceiver for breadboard computer](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html)
 
 * [Hacker's Guide to UART Root Shells](https://www.youtube.com/watch?v=01mw0oTHwxg)
+* [Fun With HARDWARE HACKING!!! - UART ROOT SHELLS and Finding SECRETS!](https://www.youtube.com/watch?v=Ddgdydmzqkc)
 
 # SPI Bus
 * [SPI On Embedded Linux](http://hackaday.com/2017/02/19/spi-on-embedded-linux/)
