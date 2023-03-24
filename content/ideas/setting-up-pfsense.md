@@ -105,6 +105,7 @@ Sources:
 
 # Security
 * [11 Home Network Security Tips You Need To Implement Now](https://hometechhacker.com/9-home-network-security-tips/)
+* [Proxmox: Potect your server with fail2ban](https://devopstales.github.io/linux/proxmox-fail2ban/)
 * [Secure Your Self Hosting with Fail2Ban + Nginx Proxy Manager + CloudFlare](https://www.youtube.com/watch?v=Ha8NIAOsNvo)
 * [Fail2ban Tutorial | How to Secure Your Server](https://www.youtube.com/watch?v=kgdoVeyoO2E)
 * [Ubuntu Server 18.04 Administration Guide Part 10 - Securing Applications with Fail2ban](https://www.youtube.com/watch?v=sboMT8N4ffA)
