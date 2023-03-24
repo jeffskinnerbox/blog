@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -31,6 +31,13 @@ Version:      0.0.0
 
 * [Your MicroPython Board Can Be Your Tinkering Peripheral](https://hackaday.com/2022/08/10/your-micropython-board-can-be-your-tinkering-peripheral/)
 
+
+# Hardware Options
+## CircuitBrains
+CircuitBrains Deluxe is the smallest soldererable ATSAMD51 module. Skip on all the tedious work of adding a 32-bit microcontroller to your next project. We’ve taken care of the tough work of pin mappings, power & decoupling layout, clock, flash, assembly, bootloader, and firmware. All you need to do is drop a footprint into your next PCB design project, connect your peripherals and USB connector, then solder it on and write your code.
+
+* [CircuitBrains Deluxe](https://www.crowdsupply.com/null-byte-labs/circuitbrains-deluxe)
+* https://kevinneubauer.com/
 
 
 
