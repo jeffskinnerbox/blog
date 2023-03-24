@@ -342,6 +342,7 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 * [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
 
 # Probability & Statistics
+* [Foundations of Probability](https://towardsdatascience.com/foundations-of-probability-7a792e7eea5)
 * [Math-Based Decision Making: The Secretary Problem](https://medium.com/cantors-paradise/math-based-decision-making-the-secretary-problem-a30e301d8489)
 * [The Zipf Mystery](https://www.youtube.com/watch?v=fCn8zs912OE&feature=youtu.be)
 * [3 Mathematical Laws to know as a Data Scientist](https://medium.com/datadriveninvestor/mathematical-laws-to-know-as-a-data-scientist-9e94fc96a0f9)
