@@ -39,6 +39,12 @@ making it easy to seamlessly and scalably launch ML compute directly from the Hu
 * [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
 * [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
 
+# LLaMa
+[LLaMA (Large Language Model Meta AI)](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
+a state-of-the-art foundational large language model designed to help researchers advance their work in this subfield of AI. Smaller, more performant models such as LLaMA enable others in the research community who don’t have access to large amounts of infrastructure to study these models, further democratizing access in this important, fast-changing field.
+
+* [Why LLaMa Is A Big Deal](https://hackaday.com/2023/03/22/why-llama-is-a-big-deal/)
+* [llama.cpp](https://github.com/ggerganov/llama.cpp)
 
 
 ------
