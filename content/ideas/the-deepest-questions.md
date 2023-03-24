@@ -55,6 +55,7 @@ Also see some [quotes from John von Neumann][08] and [Paul Dirac's lecture on ma
 * [George Lakoff The Brains Mathematics The Cognitive and Neural Foundations of Mathematics](https://www.youtube.com/watch?v=W6SkN-97XA0)
 * [The Neuroscience of Language and Thought, Dr. George Lakoff Professor of Linguistics](https://www.youtube.com/watch?v=JJP-rkilz40)
 * [3 Discoveries in Mathematics That Will Change How You See The World](https://www.youtube.com/watch?v=9UBMEww7XLU)
+* [On the Usefulness of Mathematics: Feynman vs Dyson](https://www.cantorsparadise.com/on-the-usefulness-of-mathematics-feynman-vs-dyson-9f750e7c53e1)
 
 
 # Precision
