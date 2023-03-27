@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -214,6 +214,13 @@ we will work around these and other limitations.
 * LEDWallCamera
     * [Add-On Makes ESP32 Camera Board Easier To Program](https://hackaday.com/2020/01/09/add-on-board-makes-esp32-camera-board-easier-to-program/)
     * [ESP32-Cam Programmer & LED Wall Effects](https://www.youtube.com/watch?v=ikhZ34WgObc)
+
+
+----
+
+
+# Stealthy Microphone / Listening Device
+* [No Wires, No Batteries - Spying Changed FOREVER! - Can I make a working Bug for Hannah Fry?](https://www.youtube.com/watch?v=GyryQltyDwA)
 
 
 ----
