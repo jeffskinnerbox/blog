@@ -26,6 +26,9 @@ Version:      0.0.0
 * [Having AI ChatGPT Generate Dockerfile and write code](https://www.youtube.com/watch?v=BgCLynRWvvI)
 * [OpenAI's ChatGPT is a MASSIVE step forward in Generative AI](https://www.youtube.com/watch?v=HTWfA7KFzoA)
 
+# ChatGPT Plugins
+* [Plugins: A Massive Upgrade That Will Change ChatGPT Forever](https://frank-andrade.medium.com/plugins-a-massive-upgrade-that-will-change-chatgpt-forever-e8dcdc8a8da9)
+
 # Copilot (OpenAI Codex)
 * [GitHub Copilot is among the first real products based on large language models](https://bdtechtalks.com/2022/07/05/github-copilot-large-language-model-product-management/)
 * [GitHub Copilot](https://github.com/features/copilot)
