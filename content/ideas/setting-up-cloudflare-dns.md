@@ -500,6 +500,8 @@ check our [DNS Checker][12].
 #### Step X: eMail Routing
 Some self hosted apps, like Bitwarden, require email settings.
 
+* [Cloudflare Email Setup (Free Professional Custom Email Setup)](https://www.youtube.com/watch?v=nNGcvz1Sc_8)
+
 * [STOP Paying for Custom Email!](https://www.youtube.com/watch?v=AT9MiUDtk4E)
 * [You can Still use Gmail SMTP to Send E-Mails in 2023 and Here's How](https://noted.lol/setup-gmail-smtp-sending-2023/)
 * [What is Mail Exchange record (MX) | Set up MX record in Office 365 | How MX record works](https://www.youtube.com/watch?v=-4nEu7dPSJk)
