@@ -221,6 +221,7 @@ we will work around these and other limitations.
 
 # Stealthy Microphone / Listening Device
 * [No Wires, No Batteries - Spying Changed FOREVER! - Can I make a working Bug for Hannah Fry?](https://www.youtube.com/watch?v=GyryQltyDwA)
+    * [Recreating One Of History’s Best Known Spy Gadgets](https://hackaday.com/2023/03/25/recreating-one-of-historys-best-known-spy-gadgets/)
 
 
 ----
