@@ -641,6 +641,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 # Probability of the Extremely Rare
 * [How to Build a Probability Microscope](https://nautil.us/issue/44/Luck/-how-to-build-a-probability-microscope)
 * [Probability: A Philosophical Perspective, Part I](https://medium.com/thesociablesolipsist/probability-a-philosophical-perspective-part-i-accb35315900)
+* [Law of truly large numbers](https://en.wikipedia.org/wiki/Law_of_truly_large_numbers)
 * [The Universe in Your Hand](https://ngoeke.medium.com/the-universe-in-your-hand-9a88ce045e37)
     * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
@@ -651,6 +652,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The unresolved probability paradox that goes to the heart of scientific objectivity](https://aeon.co/videos/the-unresolved-probability-paradox-that-goes-to-the-heart-of-scientific-objectivity)
 * [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
     * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
+
 
 # Universality
 * [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
