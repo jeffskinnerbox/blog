@@ -55,3 +55,11 @@ a state-of-the-art foundational large language model designed to help researcher
 
 # Brad is Google's Answer to ChatGPT
 [Brad](https://bard.google.com/)
+
+
+------
+
+# Practical Uses of ChatGPT in Programming
+* [9 Practical Uses of ChatGPT in Programming](https://www.makeuseof.com/chatgpt-programming-practical-uses/)
+
+
