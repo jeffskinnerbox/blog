@@ -599,7 +599,14 @@ ISO Transport on top of TCP (ITOT) - http://tools.ietf.org/html/rfc2126
 * Cellular
     * [Colibri LTE](http://www.sequans.com/press-release/sequans-introduces-colibri-lte-platform-internet-things/)
 * Satellite
-    * [ORBCOMM](http://www.orbcomm.com/)
+    * [Iridium](https://www.iridium.com/blog/what-is-satellite-iot-and-how-is-it-used/)
+    * [Orbcomm](https://www.orbcomm.com/en/partners/connectivity/iot-data-plans)
+    * [Inmarsat](https://www.inmarsat.com/en/news/latest-news/enterprise/2022/new-iot-spectrum-leasing-growth-iot-solution-providers.html)
+    * [Sateliot](https://sateliot.space/en/)
+    * [Lacuna Space](https://lacuna.space/about/)
+    * [Swarm](https://spectrum.ieee.org/swarm-takes-lora-skyhigh)
+    * [Globalstar](https://www.globalstar.com/en-us/products/iot)
+    * [CubeSat](https://spectrum.ieee.org/cubesat)
 
 ## Internet of Things (IoT)
 The concept of the “Internet of things” first emerged in the late 1990s.
