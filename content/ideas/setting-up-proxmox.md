@@ -1574,6 +1574,123 @@ The `iptables` options mean the following:
 -----
 
 
+# Proxmox Server Hardening
+Out of the box Proxmox does not have any Brute Force protection in the same way as some other virtualisation technologies do.
+As such, for our proxmox servers we wanted to increase security on the two open ports: SSH port 80 & Web Portal port 8006 (The Proxmox Web Management Portal).
+
+* [Proxmox: Potect your server with fail2ban](https://devopstales.github.io/linux/proxmox-fail2ban/)
+* [Securing Proxmox and SSH using Fail2Ban](https://www.ukhost4u.com/securing-proxmox-and-ssh-using-fail2ban/)
+* [Hardening Proxmox, some in one place](https://blog.samuel.domains/blog/security/hardening-proxmox-some-in-one-place)
+* [proxmox Serverhardening: Part 1 – rpc](https://www.fu-solutions.de/en/2022/01/ulli/administration-en/proxmox-serverhardening-part-1-rpc/)
+* [proxmox Serverhardening: Part 2 – fail2ban](https://www.fu-solutions.de/en/2022/04/ulli/administration-en/proxmox-serverhardening-part-2-fail2ban/)
+* [How to Protect Your Server With Fail2Ban in Linux](https://www.maketecheasier.com/protect-ssh-server-with-fail2ban-ubuntu/)
+* [How Fail2Ban Works to Protect Services on a Linux Server](https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server)
+* [Protect Web Servers from DDoS Attacks using Fail2ban](https://sysopstechnix.com/protect-web-servers-from-ddos-attacks-using-fail2ban/)
+
+* [Fail2NetworkBan](https://github.com/modernham/Fail2NetworkBan)
+
+* [Hardening Proxmox VE management interface with 2FA, reverse proxy and Let's Encrypt](https://loicpefferkorn.net/2020/11/hardening-proxmox-ve-management-interface-with-2fa-reverse-proxy-and-lets-encrypt/)
+
+
+# Protecting the Web Server
+Any web service endpoint exposed to the public Internet are particularly susceptible to many attacks by hackers.
+In my case, the service is a website, where malicious users and bots
+will attempt to break into the site, or shut it down,
+by repeatedly sending requests, sometimes at with higher frequency.
+I will attempt to mitigate these attacks using [Fail2ban][52]
+and [Cloudflare Web Application Firewall (WAF)][53].
+These security tools help shutdown malicious attacks on the website.
+
+# Cloudflare Web Application Firewall (WAF)
+Cloudflare runs one of the largest networks in the world
+and one of their key services is [Distributed Denial-Of-Services (DDOS)][54] attack mitigation
+Claudflare can handle most any DDOS attach automatically and without charge,
+a policy which Cloudflare calls [Unmetered Mitigation][55].
+They also provide a service called [Web Application Firewall (WAF)][56]
+
+Cloudflare appears to provide some basic WAF protection automatically,
+but you can provide some custom rules via the Cloudflare UI.
+To do so, goto the Cloudflare main menu (left-side of the screen)
+and select **Security** > **WAF**.
+It is here you can provide some limited set of [custome WAF rules][57].
+
+At this time, I have [addeded one custom rule][58]
+(**NOTE:** this is the maximum number of rules for the free plan).
+That rule will block IP addresses for 10 seconds that exceeding 150 requests within 10 seconds.
+You can add rules via the main menu by selecting
+**Security** > **WAF** and select from the tab **Rate limiting rules**.
+
+# Fail2Ban
+[Fail2ban][52] can also help protect a web server from brute force and Deny-Of-Services (DOS) attacks.
+Instead of monitoring traffic like Cloudflare,
+Fail2ban is configured to monitor the logs of a service.
+It read the logs file and try to match suspsious patterns to actions to perform.
+For example, Fail2ban analyzes the logs of the server and looks for several unsuccessful connection attempts.
+It will put in place actions that you will block the IP address or send alert email
+
+>**NOTE:**By default, action will be taken when 3 authentication failures have been detected in 10 minutes,
+>and the default ban time is for 10 minutes.
+>The default for number of authentication failures necessary to trigger a ban
+>is overridden in the SSH portion of the default configuration file
+>to allow for 6 failures before the ban takes place.
+>This is entirely configurable by the administrator in the `jail.conf` file.
+
+* [How Fail2Ban Works to Protect Services on a Linux Server](https://www.digitalocean.com/community/tutorials/how-fail2ban-works-to-protect-services-on-a-linux-server)
+* [Protect Web Servers from DDoS Attacks using Fail2ban](https://sysopstechnix.com/protect-web-servers-from-ddos-attacks-using-fail2ban/)
+
+```bash
+# scan all ports (all 65536 ports) on router lan side
+$ nmap -p- 192.168.1.1
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-22 15:16 EDT
+Nmap scan report for pfSense.jeffskinnerbox.me (192.168.1.1)
+Host is up (0.0032s latency).
+Not shown: 65532 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 202.49 seconds
+
+# get the router's extenal IP address
+curl ipecho.net/plain ; echo ""
+<ext_ip>
+
+# scan all ports (all 65536 ports) on router - from the internet
+$ nmap -p- <ext_ip>
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-22 15:29 EDT
+Nmap scan report for pool-<ext_ip>.clppva.fios.verizon.net (<ext_ip>)
+Host is up (0.0013s latency).
+Not shown: 65532 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 197.74 seconds
+
+# scan all ports (all 65536 ports) on cloudflare proxy wan side (aka internet)
+$ nmap -Pn <cloudflare_ip>
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-22 15:45 EDT
+Nmap scan report for pool-<cloudflare_ip>.clppva.fios.verizon.net (<cloudflare_ip>)
+Host is up.
+All 1000 scanned ports on pool-<cloudflare_ip>.clppva.fios.verizon.net (<cloudflare_ip>) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 201.45 seconds
+```
+
+From these set of IP scans, the only ports open are `53`, `80`, and `443` on the WAN side of my router.
+Ports `80` & `433` are used for http/https web services (specifically the pfSense admin UI),
+but since I'm using Cloudflare Tunnels for web services, I can close them.
+As to port `53`, it must remain open to support DNS services
+
+
+
+
+
+-----
+
+
 
 
 # Proxmox Cluster
@@ -1677,4 +1794,14 @@ and inject configuration settings via Cloud-Init.
 [48]:
 [49]:
 [50]:
+[51]:
+[52]:https://www.fail2ban.org/wiki/index.php/Main_Page
+[53]:https://blog.cloudflare.com/waf-for-everyone/
+[54]:https://www.akamai.com/our-thinking/ddos
+[55]:https://blog.cloudflare.com/unmetered-mitigation/
+[56]:https://blog.cloudflare.com/waf-for-everyone/
+[57]:https://developers.cloudflare.com/waf/reference/migration-guides/firewall-rules-to-custom-rules/
+[58]:https://developers.cloudflare.com/support/firewall/tools/configuring-cloudflare-rate-limiting/
+[59]:
+[60]:
 
