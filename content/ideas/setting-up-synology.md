@@ -15,6 +15,8 @@ Version:      0.0.0
 
 # Check Out
 
+* [How to Set Up Your Synology MailPlus Server](https://www.youtube.com/watch?v=tBLjJWn-WBk)
+
 * [Backup in Linux Servers - Docker Volumes, and Databases](https://www.youtube.com/watch?v=JoA6Bezgk1c)
 * [Get Docker organized for easier backups & replication. Trust me, an hour can save you days!](https://www.youtube.com/watch?v=sGtTvV0xbYg)
 
