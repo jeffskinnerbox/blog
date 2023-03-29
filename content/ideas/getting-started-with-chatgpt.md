@@ -24,6 +24,7 @@ Version:      0.0.0
 * [Building a Python Interpreter inside ChatGPT](https://levelup.gitconnected.com/building-a-python-interpreter-inside-chatgpt-49251af35fea)
 * [Having AI ChatGPT Generate Dockerfile and write code](https://www.youtube.com/watch?v=BgCLynRWvvI)
 * [OpenAI's ChatGPT is a MASSIVE step forward in Generative AI](https://www.youtube.com/watch?v=HTWfA7KFzoA)
+* [ChatGPT: 3 productivity tips for IT professionals](https://www.redhat.com/architect/chatgpt-programming-pros-cons)
 
 * [Game-Changing AI for the DIY Industry: GPT-4 Is Coming](https://www.makeuseof.com/game-changing-ai-for-the-diy-industry-gpt-4-is-coming/)
 * [GPT-4 is Amazing but Still Struggles at High School Math Competitions](https://www.cantorsparadise.com/gpt-4-is-amazing-but-still-struggles-at-high-school-math-competitions-cbc2e73738e)
