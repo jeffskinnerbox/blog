@@ -15,6 +15,7 @@ Version:      0.0.0
 
 # First, Master Python
 * [9 Things You Do That Shows You Are Not A Professional Python Developer](https://python.plainenglish.io/9-things-you-do-that-show-you-are-not-a-python-professional-b8e0681af9e3)
+* [Python — Avoid “from module import *”](https://tonylixu.medium.com/python-avoid-from-module-import-d644e837ecf3)
 
 
 
