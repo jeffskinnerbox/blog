@@ -13,6 +13,11 @@ Version:      0.0.0
 
 
 
+# First, Master Python
+* [9 Things You Do That Shows You Are Not A Professional Python Developer](https://python.plainenglish.io/9-things-you-do-that-show-you-are-not-a-python-professional-b8e0681af9e3)
+
+
+
 * [OpenMV Cam H7 - Machine Vision w/ MicroPython](https://www.kickstarter.com/projects/1798207217/openmv-cam-h7-machine-vision-w-micropython)
 * [OpenMV H7 Product Line](https://www.youtube.com/watch?v=E6SCejAeDSs)
 * [MicroPython class for OV2640 Camera](https://github.com/namato/micropython-ov2640)
