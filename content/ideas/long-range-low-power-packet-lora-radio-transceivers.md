@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 
+* [LoRaWAN with STM32 Getting Started Sries](https://www.youtube.com/watch?v=vuc6914B0KM&list=PLnMKNibPkDnHZyJtMRpWSs41CWhPouRwq)
 
 * [LoRa and The Things Network](https://mjoldfield.com/atelier/2022/07/lora-ttn.html)
 * [Building Global IoT Coverage with Semtech IC](https://www.rfidjournal.com/building-global-iot-coverage-with-semtech-ic)
