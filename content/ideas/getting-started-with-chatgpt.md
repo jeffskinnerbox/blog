@@ -47,10 +47,13 @@ making it easy to seamlessly and scalably launch ML compute directly from the Hu
 
 # LLaMa
 [LLaMA (Large Language Model Meta AI)](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
-a state-of-the-art foundational large language model designed to help researchers advance their work in this subfield of AI. Smaller, more performant models such as LLaMA enable others in the research community who don’t have access to large amounts of infrastructure to study these models, further democratizing access in this important, fast-changing field.
+a  open source code,  designed by Meta (the company formerly known as Facebook).
+This large language model designed to help researchers advance their work in this subfield of AI.
+Smaller, more performant models such as LLaMA enable others in the research community.
 
 * [Why LLaMa Is A Big Deal](https://hackaday.com/2023/03/22/why-llama-is-a-big-deal/)
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
+* [How to Run a Large Language Model on Your Raspberry Pi](https://www.makeuseof.com/raspberry-pi-large-language-model/)
 
 
 ------
