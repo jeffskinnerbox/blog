@@ -101,10 +101,16 @@ You can keeping the machine in a low-power state to save electricity.
 For example, if you want to use VNC, video conferencing, etc. while away from home,
 you have the option of waking up you machine and gain access.
 
-You'll need a always running server from which to send the WOL magic packet.
-The obvious candidate is the LAN router.
+You'll need an always running server from which to send the WOL magic packet.
+The obvious candidate foe is my LAN's router.
 I'll create a Docker container specifically designed to provide this service
 accessible via Cloudflare's tunnels capabilities.
+
+>**NOTE: Wake-on-lan is implemented as a Layer-2 protocol, and as such, it is not a Linux-specific issue.
+>Wake-on-lan is implemented by the motherboard and network card, not the operating system.
+>As a result, you will see many different methodologies to get get Wake-on-lan working.
+>The web article ["The Ultimate Guide to Wake on LAN for Windows, MacOS, and Linux"][08]
+>gives you a broad view on the many things that maybe needed to get wake-on-lan working.
 
 Sources:
 
@@ -135,6 +141,7 @@ Look for the “Supports Wake-on” section.
 As long as one of the letters listed is 'g',
 you can use magic packets for Wake-on-LAN
 (See [here][05] for what the other letters mean).
+
 To enable this option, use the following command:
 
 ```bash
@@ -188,11 +195,10 @@ $ ip address show wlx94dbc95110ca | grep -i link/ether
     link/ether 94:db:c9:51:10:ca brd ff:ff:ff:ff:ff:ff
 
 # you can now wake machines on the same network by
-# assuming a mac address of 00:22:4D:83:C1:C8 or 00:22:4D:83:C1:D7
-sudo wakeonlan 00:22:4D:83:C1:C8 00:22:4D:83:C1:D7 94:db:c9:51:10:ca
+sudo wakeonlan 00:22:4D:83:C1:C8 00:22:4D:83:C1:D7 94:DB:C9:51:10:CA
 
 # if your machine is on another network and you can reach the broadcast ip
-sudo wakeonlan -i 192.168.1.255 00:22:4D:83:C1:C8 00:22:4D:83:C1:D7 94:db:c9:51:10:ca
+sudo wakeonlan -i 192.168.1.255 00:22:4D:83:C1:C8 00:22:4D:83:C1:D7 94:DB:C9:51:10:CA
 ```
 
 For testing, lets install some tools to suspend the machine
@@ -210,7 +216,7 @@ sudo pm-hibernate        # system state is saved to disk and fully powered off
 sudo pm-suspend-hybrid   # system does everything it needs to hibernate, suspends instead of shutting down
 
 # from another machine on the same lan, send the magic packet
-sudo wakeonlan 00:22:4D:83:C1:C8 00:22:4D:83:C1:D7 94:db:c9:51:10:ca
+sudo wakeonlan 00:22:4D:83:C1:C8 00:22:4D:83:C1:D7 94:DB:C9:51:10:CA
 ```
 
 Sources:
