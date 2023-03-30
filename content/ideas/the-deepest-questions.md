@@ -191,11 +191,6 @@ An attempt to connect different "continents" of mathematics
 * [Can an infinite space have a finite area?](https://medium.com/@gabrielmfern/can-an-infinite-space-have-a-finite-area-76fc6e7f0b7c)
 * [The Painter’s Paradox and the Mystery of Gabriel’s Horn](https://www.cantorsparadise.com/the-painters-paradox-and-the-mystery-of-gabriel-s-horn-41f668b56559)
 
-## Paradoxes of Probability
-* [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
-* [The Myth of the Monty Hall Problem](https://medium.com/@danielbier/the-myth-of-the-monty-hall-problem-8735fee7e2b1)
-* [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
-
 ## Non-Standard Analysis
 * [The Thrilling Story Of Calculus](https://streetscience.net/the-thrilling-story-of-calculus/)
 * [Infinitesimals and Non Standard Analysis](https://www.youtube.com/watch?v=SoU2ePlqG5M&list=RDLVD8_BBoolMm8&index=4)
@@ -341,13 +336,6 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 # Category Theory
 * [A Sensible Introduction to Category Theory](https://www.youtube.com/watch?v=yAi3XWCBkDo)
 * [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
-
-# Probability & Statistics
-* [Foundations of Probability](https://towardsdatascience.com/foundations-of-probability-7a792e7eea5)
-* [Math-Based Decision Making: The Secretary Problem](https://medium.com/cantors-paradise/math-based-decision-making-the-secretary-problem-a30e301d8489)
-* [The Zipf Mystery](https://www.youtube.com/watch?v=fCn8zs912OE&feature=youtu.be)
-* [3 Mathematical Laws to know as a Data Scientist](https://medium.com/datadriveninvestor/mathematical-laws-to-know-as-a-data-scientist-9e94fc96a0f9)
-* [Is the multiverse dead?](https://medium.com/the-infinite-universe/is-the-multiverse-dead-7a3e4dd76e5d)
 
 # Card Tricks
 * [Amaze your friends! Astound your family!](https://plus.maths.org/content/amaze-your-friends-astound-your-family)
@@ -638,6 +626,15 @@ that he came up with the special theory of relativity in 1905 which changed our 
 # Bootstrapping
 * [Why the Laws of Physics Are Inevitable](https://www.quantamagazine.org/how-simple-rules-bootstrap-the-laws-of-physics-20191209/)
 
+# Probability & Statistics
+* [Foundations of Probability](https://towardsdatascience.com/foundations-of-probability-7a792e7eea5)
+* [Math-Based Decision Making: The Secretary Problem](https://medium.com/cantors-paradise/math-based-decision-making-the-secretary-problem-a30e301d8489)
+* [The Zipf Mystery](https://www.youtube.com/watch?v=fCn8zs912OE&feature=youtu.be)
+* [3 Mathematical Laws to know as a Data Scientist](https://medium.com/datadriveninvestor/mathematical-laws-to-know-as-a-data-scientist-9e94fc96a0f9)
+* [Is the multiverse dead?](https://medium.com/the-infinite-universe/is-the-multiverse-dead-7a3e4dd76e5d)
+
+* [Probability - Math for Machine Learning](https://www.youtube.com/watch?v=LBemXHm_Ops)
+
 # Probability of the Extremely Rare
 * [How to Build a Probability Microscope](https://nautil.us/issue/44/Luck/-how-to-build-a-probability-microscope)
 * [Probability: A Philosophical Perspective, Part I](https://medium.com/thesociablesolipsist/probability-a-philosophical-perspective-part-i-accb35315900)
@@ -647,12 +644,15 @@ that he came up with the special theory of relativity in 1905 which changed our 
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
 
 # Probability Paradoxes
+* [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
+* [The Myth of the Monty Hall Problem](https://medium.com/@danielbier/the-myth-of-the-monty-hall-problem-8735fee7e2b1)
+* [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
 * [Five Paradoxes With Probabilities That Will Puzzle You](https://towardsdatascience.com/five-paradoxes-with-probabilities-that-will-puzzle-you-2f71201d6ee8)
 * [Five Tricky Statistics and Probability Riddles That 90% of People Fail](https://towardsdatascience.com/five-tricky-statistics-and-probability-riddles-that-90-of-people-fail-77db1eda2e15)
 * [The unresolved probability paradox that goes to the heart of scientific objectivity](https://aeon.co/videos/the-unresolved-probability-paradox-that-goes-to-the-heart-of-scientific-objectivity)
+    * [The Puzzle of Grue](https://www.youtube.com/watch?v=1rUCyg4Ppso)
 * [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
     * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
-
 
 # Universality
 * [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
