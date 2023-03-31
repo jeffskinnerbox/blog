@@ -19,6 +19,7 @@ Version:      0.0.0
 
 * [Things You Should Know About Bluetooth Range](https://blog.nordicsemi.com/getconnected/things-you-should-know-about-bluetooth-range)
 * [The complete guide to Bluetooth Low Energy](https://response.nordicsemi.com/the-complete-guide-to-bluetooth-low-energy)
+* [Quuppa’s Direction Finding Experience Comes to Bluetooth](https://blog.nordicsemi.com/getconnected/quuppas-direction-finding-experience-comes-to-bluetooth)
 
 
 View these
