@@ -80,3 +80,10 @@ Smaller, more performant models such as LLaMA enable others in the research comm
 * [9 Practical Uses of ChatGPT in Programming](https://www.makeuseof.com/chatgpt-programming-practical-uses/)
 
 
+-----
+
+
+# AI Art
+* [Artificial ‘creativity’ is unstoppable. Grappling with its ethics is up to us](https://aeon.co/videos/artificial-creativity-is-unstoppable-grappling-with-its-ethics-is-up-to-us)
+
+
