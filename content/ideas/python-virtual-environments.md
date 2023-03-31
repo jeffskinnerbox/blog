@@ -14,6 +14,10 @@ Version:      0.0.0
 
 * [Packaging applications to install on other machines with Python](https://www.redhat.com/sysadmin/packaging-applications-python)
 
+* [Hypermodern Python Toolbox: Python libraries setting the standard in 2023](https://levelup.gitconnected.com/hypermodern-python-toolbox-355412944a06)
+
+
+
 
 The environment variable `PYTHONPATH` sets the search path for importing python modules,
 not for executing them like you're trying.
