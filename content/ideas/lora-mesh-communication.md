@@ -34,5 +34,13 @@ Version:      0.0.0
 # Mycelium
 * [Add Mycelium To Your Mesh Networks](https://hackaday.com/2021/10/26/add-mycelium-to-your-mesh-networks/)
 
+# LoRaMesher
+Designed to make it easy to build a LoRa network with no gateways, LoRaMesher lets nodes route traffic automatically.
+
+* [Joan Miquel Solé's LoRaMesher Builds LoRa Mesh Networks on Espressif ESP32 Microcontrollers](https://www.hackster.io/news/joan-miquel-sole-s-loramesher-builds-lora-mesh-networks-on-espressif-esp32-microcontrollers-b546e249bcd8)
+* [GitHub: LoRaMesher/LoRaMesher](https://github.com/LoRaMesher/LoRaMesher)
+
+
 
 [01]:https://www.meshtastic.org/
+
