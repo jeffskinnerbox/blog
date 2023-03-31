@@ -270,10 +270,14 @@ Can you draw the connection between
 
 Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--> Prime Numbers <--> Fundamental Theorem of Arithmetic
 
-
 # Euler’s Formula
 * [Euler’s Formula](https://medium.com/swlh/eulers-formula-11a991fc3829)
 * [Euler’s Identity](https://medium.com/swlh/eulers-identity-990b52f0d8fc)
+* [There is no mystery in Euler’s formula](https://medium.com/@miserablemiracle/there-is-no-mystery-in-eulers-formula-427d9daf49)
+
+# Group Theory and "The Monster"
+* [Group theory, abstraction, and the 196,883-dimensional monster](https://www.youtube.com/watch?v=mH0oCDa74tE)
+* [Euler's formula with introductory group theory](https://www.youtube.com/watch?v=mvmuCPvRoWQ)
 
 # Richard Feynman’s Integral Trick and Other Such Things
 * [Richard Feynman’s Integral Trick](https://medium.com/dialogue-and-discourse/richard-feynmans-integral-trick-e7afae85e25c)
@@ -802,10 +806,6 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 # Cryptography & Complexity
 * [Randomness and Kolmogorov Complexity](https://www.youtube.com/watch?v=0cHHKDAelCo)
 * [Researchers Identify ‘Master Problem’ Underlying All Cryptography](https://www.quantamagazine.org/researchers-identify-master-problem-underlying-all-cryptography-20220406)
-
-# Group Theory and "The Monster"
-* [Group theory, abstraction, and the 196,883-dimensional monster](https://www.youtube.com/watch?v=mH0oCDa74tE)
-* [Euler's formula with introductory group theory](https://www.youtube.com/watch?v=mvmuCPvRoWQ)
 
 # Animal Math
 * [A basic sense of numbers is shared by countless creatures](https://psyche.co/ideas/a-basic-sense-of-numbers-is-shared-by-countless-creatures)
