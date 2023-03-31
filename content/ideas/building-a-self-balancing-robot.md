@@ -331,3 +331,4 @@ Piddy Bot
 # Similar to Balboa
 * [Bobble-Bot Teaches Modern Real-Time Robot Control](https://hackaday.com/2019/11/07/bobble-bot-teaches-modern-real-time-robot-control/)
 * [Bobble-Bot Is a Balancing Robot Designed for Teaching ROS on a Raspberry Pi](https://www.hackster.io/news/bobble-bot-is-a-balancing-robot-designed-for-teaching-ros-on-a-raspberry-pi-1840bc62cd36)
+    * [ROS Tutorials](https://www.clearpathrobotics.com/assets/guides/kinetic/ros/index.html)
