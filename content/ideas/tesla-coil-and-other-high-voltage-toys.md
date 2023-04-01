@@ -63,6 +63,9 @@ but some people have claimed to modification it to create [20,000V][03] and even
 * [Super Simple DIY 10,000v AC Supply!](https://www.youtube.com/watch?v=OU11JRdG0fE&t=85s)
 * [High Voltage Transformer 20kV](https://www.rmcybernetics.com/shop/high-voltage/flyback-high-frequency-high-voltage-transformer-20kv)
 
+# Plasma Thruster
+* [Upgraded Plasma Thruster Is Smaller, More Powerful](https://hackaday.com/2023/03/30/upgraded-plasma-thruster-is-smaller-more-powerful/)
+
 # Tesla Coil
 Maybe I could even do some exploring of spectrum mysteries like
 [Number Stations][01] and [Tesla Spirit Radio][06]).
