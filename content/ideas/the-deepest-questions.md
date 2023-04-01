@@ -65,7 +65,13 @@ BBC Precision The Measure of All Things
 * [Heat Light and Electricity](https://www.youtube.com/watch?v=OL5_2sLqKOc)
 * [Machine Thinking](https://www.youtube.com/c/machinethinking)
 
-# What is Mathmatics?
+
+------
+
+
+# Logic & Philosophy of Mathematics
+
+## What is Mathmatics?
 * [Mathematical Concepts that All Should Understand](https://medium.com/intuition/mathematical-concepts-that-all-should-understand-bfe42d9e4af0)
 * [Mathematical Thinking: What is Mathematics](https://medium.com/@rimshaparvaiz5/mathematical-thinking-what-is-mathematics-845b1161dea0)
 * [What the simple mathematical abilities of animals can tell us about ourselves](https://arstechnica.com/science/2022/06/what-the-simple-mathematical-abilities-of-animals-can-tell-us-about-ourselves/)
@@ -74,14 +80,18 @@ BBC Precision The Measure of All Things
 * [Human mathematics and God’s mathematics](https://medium.com/@cb_67963/human-mathematics-and-gods-mathematics-682ac8e7bba)
 * [25 famous definitions of mathematics and why they can’t define it](https://medium.com/@cb_67963/25-famous-definitions-of-mathematics-and-why-they-cannot-define-it-4eabc24aab42)
 
-# Philosophy of Numbers
+## Philosophy of Numbers
 * [Do numbers EXIST? - Numberphile](https://www.youtube.com/watch?v=1EGDCh75SpQ)
 * [Philosophy of Numbers - Numberphile](https://www.youtube.com/watch?v=vA2cdHLKYB8)
 * [Zeno's Paradox - Numberphile](https://www.youtube.com/watch?v=u7Z9UnWOJNY)
 * [A Critical Introduction to Mathematical Structuralism](https://medium.com/cantors-paradise/a-critical-introduction-to-mathematical-structuralism-3cb039427647)
 * [“Is God A Mathematician” by Mario Livio](https://medium.com/cantors-paradise/is-god-a-mathematician-by-mario-livio-a7ae4beec5e2)
 
-# What is the Foundation of Mathmatics?
+## Philosophy of Probability & Statistics
+* [What Is Probability? Difficulties Understanding Probability](https://www.youtube.com/watch?v=9ApjAYTRilo)
+* [Probability Is Logic: Philosophy of Probability & Statistics Series](https://www.youtube.com/watch?v=GZRvNvH_oUg)
+
+## What is the Foundation of Mathmatics?
 * [The Map of Mathematics](https://www.quantamagazine.org/the-map-of-mathematics-20200213/)
 * [Crisis in the Foundation of Mathematics](https://www.youtube.com/watch?v=KTUVdXI2vng)
 * [What Does It Mean to Be a Number? (The Peano Axioms](https://www.youtube.com/watch?v=3gBoP8jZ1Is)
@@ -90,6 +100,10 @@ BBC Precision The Measure of All Things
 * [All the Numbers (extra footage) - Numberphile](https://www.youtube.com/watch?v=LsBQhfkw5ag)
 * [Russell's Paradox - A Ripple in the Foundations of Mathematics](https://www.youtube.com/watch?v=xauCQpnbNAM)
 * Axiom of Choice: [The most controversial axiom in mathematics and its paradoxes](https://nseverkar.medium.com/the-most-controversial-axiom-in-mathematics-and-its-paradoxes-2c0cdfd725cb)
+
+
+------
+
 
 # The Langland Program: A Grand Unified Theory of Mathematics
 An attempt to connect different "continents" of mathematics
