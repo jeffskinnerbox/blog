@@ -358,6 +358,8 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 
 # Analog is Back!
 * [Why Are Analogue Computers Really On The Rise Again?](https://thewalkingtemple.medium.com/why-are-analogue-computers-really-on-the-rise-again-4e4ffa0f15b4)
+* [The Unbelievable Zombie Comeback of Analog Computing](https://www.wired.com/story/unbelievable-zombie-comeback-analog-computing/)
+
 * [Mythic](https://cambrian-ai.com/interview-with-mike-henry-founder-and-ceo-of-mythic/)
 * [infinityQ](https://www.infinityq.tech/)
 
