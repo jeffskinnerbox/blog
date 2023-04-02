@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -123,6 +123,7 @@ ESP32-C3 is a single-core WiFi and Bluetooth 5 (LE) microcontroller SoC, based o
 ### Seeeduino XIAO
 * [Seeeduino Xiao: Specs, Price, Release & Reviews](https://all3dp.com/2/seeeduino-xiao-review-specs/)
 * [Meet the Seeeduino XIAO](https://dronebotworkshop.com/seeeduino-xiao-intro/)
+* [Seeed Studio XIAO Series: System-on-Modules (SoM) User Manual](https://files.seeedstudio.com/wiki/XIAO/Seeed-Studio-XIAO-Series-SOM-Datasheet.pdf)
 
 * [he SMALLEST ESP32 Board 🔥🔥 | Getting Started with XIAO ESP32 C3 | ESP32 Projects](https://www.youtube.com/watch?v=PZZYTYN8hjc)
 * [Seeed Studio Launches Compact RISC-V XIAO ESP32-C3 for Battery-Powered Wearable and IoT Projects](https://www.hackster.io/news/seeed-studio-launches-compact-risc-v-xiao-esp32-c3-for-battery-powered-wearable-and-iot-projects-932ba7de4fe9)
