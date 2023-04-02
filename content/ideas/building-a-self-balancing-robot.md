@@ -21,6 +21,7 @@ Consider this for radio remote control - [Pi GRRL Zero Parts Kit - Includes Pi Z
 
 # Mechanisms
 * [Ten Robot Mechanisms For Your Design Toolbox](https://hackaday.com/2020/12/25/ten-robot-mechanisms-for-your-design-toolbox/)
+* [Design Files Released for the PR2 Robot](https://hackaday.com/2023/04/02/design-files-released-for-the-pr2-robot/)
 
 # Self-Driving Vehicle
 * [Self-Driving RC Truck is a Master’s Thesis in Cybernetics and Robotics](https://hackaday.com/2020/10/31/self-driving-rc-truck-is-a-masters-thesis-in-cybernetics-and-robotics/)
