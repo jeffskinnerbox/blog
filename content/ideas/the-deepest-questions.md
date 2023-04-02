@@ -69,6 +69,9 @@ BBC Precision The Measure of All Things
 ------
 
 
+# Computation
+* [How To Understand Computational Irreducibility](https://streetscience.net/how-to-understand-the-computational-irreducibility/)
+
 # Logic & Philosophy of Mathematics
 
 ## What is Mathmatics?
@@ -660,6 +663,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The Universe in Your Hand](https://ngoeke.medium.com/the-universe-in-your-hand-9a88ce045e37)
     * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
+* [How To Perfectly Predict Improbable Events](https://streetscience.net/how-to-perfectly-predict-improbable-events/)
 
 # Probability Paradoxes
 * [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
