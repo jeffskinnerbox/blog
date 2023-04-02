@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -72,6 +72,7 @@ Version:      0.0.0
 * [Captivating Clock Puts Endangered Displays On Display](https://hackaday.com/2021/09/24/captivating-clock-puts-endangered-displays-on-display/)
 * [Nixie Tube Indicator Tells You How Many Tasks You’ve Got Left To Do](https://hackaday.com/2021/11/17/nixie-tube-indicator-tells-you-how-many-tasks-youve-got-left-to-do/)
 * [Simple But Stylish Numitron Clock Can Display Time, Date and Temperature](https://hackaday.com/2021/11/22/simple-but-stylish-numitron-clock-can-display-time-date-and-temperature/)
+* [NIXIE TUBE POWER SUPPLY](https://jmw.name/projects/flyback-converter/)
 
 # Doodle Clock
 * [Sketch the current time with this Magna Doodle clock](https://www.blogdot.tv/sketch-the-current-time-with-this-magna-doodle-clock/)
