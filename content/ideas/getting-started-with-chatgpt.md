@@ -26,8 +26,11 @@ Version:      0.0.0
 * [OpenAI's ChatGPT is a MASSIVE step forward in Generative AI](https://www.youtube.com/watch?v=HTWfA7KFzoA)
 * [ChatGPT: 3 productivity tips for IT professionals](https://www.redhat.com/architect/chatgpt-programming-pros-cons)
 
+## GPT-4
+* [Get free access to GPT-4](https://www.livemint.com/news/world/openais-gpt-4-can-be-used-free-using-this-simple-hack-follow-these-3-steps-11679738549612.html)
 * [Game-Changing AI for the DIY Industry: GPT-4 Is Coming](https://www.makeuseof.com/game-changing-ai-for-the-diy-industry-gpt-4-is-coming/)
 * [GPT-4 is Amazing but Still Struggles at High School Math Competitions](https://www.cantorsparadise.com/gpt-4-is-amazing-but-still-struggles-at-high-school-math-competitions-cbc2e73738e)
+* [GPT-4 is here. An AI researcher’s take.](https://medium.com/@paul.k.pallaghy/gpt-4-is-here-its-incredible-4d161d4b34f5)
 
 # ChatGPT Plugins
 * [Plugins: A Massive Upgrade That Will Change ChatGPT Forever](https://frank-andrade.medium.com/plugins-a-massive-upgrade-that-will-change-chatgpt-forever-e8dcdc8a8da9)
