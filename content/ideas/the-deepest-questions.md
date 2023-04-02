@@ -69,9 +69,6 @@ BBC Precision The Measure of All Things
 ------
 
 
-# Computation
-* [How To Understand Computational Irreducibility](https://streetscience.net/how-to-understand-the-computational-irreducibility/)
-
 # Logic & Philosophy of Mathematics
 
 ## What is Mathmatics?
@@ -835,8 +832,11 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [epic conway's game of life](https://www.youtube.com/watch?v=C2vgICfQawE)
 * [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
 
-# P vs NP vs NP-Complete vs NP-Hard
+# Computation - P vs NP vs NP-Complete vs NP-Hard
 * [P vs NP — The Biggest Unsolved Problem in Computer Science](https://www.cantorsparadise.com/p-vs-np-the-biggest-unsolved-problem-in-computer-science-2465e14d9b9f)
+* NP-Complete Problems: [The Secret Link Between Thousands of Unsolved Math Problems](https://www.youtube.com/watch?v=ctwX--JEzSA)
+* [How To Understand Computational Irreducibility](https://streetscience.net/how-to-understand-the-computational-irreducibility/)
+
 
 
 
