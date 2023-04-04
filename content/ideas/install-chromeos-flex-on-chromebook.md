@@ -5,23 +5,24 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/b1bc511d14cd9be5f3a5b1b2351566ca4053a307/content/images/we-do-this-not-because-it-is-easy.jpg" title="The Hackers Credo" align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/we-do-this-not-because-it-is-easy.jpg" title="U.S. President John F. Kennedy said this in his moon speech at Rice University in Houston, Texas, on September 12, 1962:
+
+ We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
 </div>
 
 
 --------
 
 
-[ChromeOS Flex](01) is also Google's play to
-[modernize school’s existing PCs and Mac devices][02`] at no additional cost.
+[ChromeOS Flex][01] is also Google's play to
+[modernize school’s existing PCs and Mac devices][02] at no additional cost.
 Google has made it easy to manage ChromeOS Flex devices alongside existing Chromebooks,
 saving schools money and bring them more solidly into the Chromebook camp.
 Google is also making a [play for the business enterprise][03] too.
 While ChromeOS Flex isn't for everyone,
 its a great replacement for the
 when your Chromebook has reached it Auto Update Expiration (AUE) date,
-and you want to continue using ChromeOS
-(but **without** Linux).
+and you want to continue using ChromeOS (but **without** Linux).
 You can continue to use a Chromebook beyond its Auto Update Expiry (AUE) date,
 but there is a security risk over time.
 Check out ["Google Confirms 5 New ‘High’ Level Security Flaws In Chrome"][25].

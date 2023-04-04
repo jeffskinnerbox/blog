@@ -5,7 +5,9 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/danger-prototyping-in-progress.png" title="These materials are very close to being complete and fit for use.  Then again, maybe not.  Proceed with caution and remember you have been warned!" align="center" width=390px height=282px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/we-do-this-not-because-it-is-easy.jpg" title="U.S. President John F. Kennedy said this in his moon speech at Rice University in Houston, Texas, on September 12, 1962:
+
+ We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
 </div>
 
 
@@ -52,7 +54,7 @@ There are in fact [many remote desktop software packages][32] available to choos
 but only small number seem to have any following in the Linux world,
 and VNC is the de-facto remote desktop protocol for Linux.
 
-VNC has two major compoents:
+VNC has two major components:
 
 * **VNC Server (aka Remote Server / Remote Host)** - The remote host is the computer you're connecting too.  You must configure it to allow connection requests.  These configurations include screen-sharing permissions, internal firewall rules, and possibly external firewall rules and port forwarding.
 The VNC Server will be installed on the Chromebook which is booting Xubuntu.
@@ -64,7 +66,7 @@ It is this machine that we want to view the Remote Server VNC graphical session.
 ## Multiple VNC Servers and Clients
 I found that setting up a VNC server on Linux can be very tedious and time-consuming.
 Ubuntu has created some utilities to make it easier but it is specifically for the Ubuntu platform.
-After some experimentation, I have a preference for [X11vnc][BB]
+After some experimentation, I have a preference for [X11vnc][56]
 and but operates differently than most VNC servers.
 It it captures the X Window session on the remote by continuously polling the X server's frame buffer for changes.
 This approach  allows the user to control the remote X11 desktop (any ... KDE, GNOME, Xfce, etc.)
@@ -73,7 +75,7 @@ as if the user were sitting in front of it.
 The tools I recommend for VNC service on Linux are:
 
 * **X11vnc**: Is a VNC Server that “publishes” an existing physical X display over VNC, allowing remote clients to connect with it using a VNC viewer. That is, they can see the actual running desktop windows, as if they were in front of the server.
-* **noVNC**: Is a VNC Viewer that can give you maximum flexibility. [noVNC][AA] is an open Source VNC client using HTML5 (WebSockets, Canvas), that runs well in any modern browser, including mobile browsers (iOS and Android).
+* **noVNC**: Is a VNC Viewer that can give you maximum flexibility. [noVNC][55] is an open Source VNC client using HTML5 (WebSockets, Canvas), that runs well in any modern browser, including mobile browsers (iOS and Android).
 
 If you intend to install VNC for remote access / screen sharing,
 see the companion file `install-vnc-on-linux-for-remote-access-and-screen-sharing.md`.
@@ -224,20 +226,20 @@ Sources:
 * [HOWTO: Flash full ROM (i.e. coreboot) and install GalliumOS on Dell Chromebook 11 Candy][22]
 * [MrChromebox.tech](https://mrchromebox.tech/#home)
 
-#### Step 5: Boot Chromebook into XUbuntu Using USB Flash Drive - DONE
+#### Step 5: Boot Chromebook into Xubuntu Using USB Flash Drive - DONE
 Now put the USB flash drive into the Chromebook and power up the system.
 The system will first boot into Ventoy where you will be given a list of images.
 Select the Xubuntu ISO, Xubuntu will be loaded, and then the image is loaded.
 The specifics of the procedure is as follows:
 
-* Turn off the Chromebook you want to run Xunbuntu
+* Turn off the Chromebook you want to run Xubuntu
 and then insert the USB installer.
 * To boot the device from the USB drive, press the power button on,
 and immediately begin repeatedly pressing Coreboot boot key, which is the `Esc` key.
 * You get a Coreboot menu and you should select "Boot Menu" and hit the "Entry" key.
 * At the next menu, select "USB:" and hit the "Entry" key.
 Ventoy gives you a list of ISO files, scroll down to select Xubuntu via "Entry" key.
-* On the next screen, select "Try or Install Xunbutu" and it should begin loading Xubuntu.
+* On the next screen, select "Try or Install Xubuntu" and it should begin loading Xubuntu.
 * When prompted, respond to the screen until you complete the installation of Xubuntu.
 Installation will take less than 20 minutes.
 
@@ -288,8 +290,8 @@ controls the placement and appearance of windows within GUI or also used standal
 * [GNOME is the default desktop environment][26] for Ubuntu with many features and a wide community.
 Find out from here the [various desktop environments][27] you have to pick from.
 
-For Ubuntu, the default display manager is [gdm3][32], window manager + desktop envirnment is [GNOME][26].
-For Xubuntu, the default display manager is [lightdm][33], window manager is [xfwm4][34], and desktop envirnment is [Xfce][12].
+For Ubuntu, the default display manager is [gdm3][32], window manager + desktop environment is [GNOME][26].
+For Xubuntu, the default display manager is [lightdm][33], window manager is [xfwm4][34], and desktop environment is [Xfce][12].
 
 >**NOTE:** Window managers are unique to [Xorg][29].
 >The equivalent of window managers on [Wayland][30] are called compositors
@@ -306,7 +308,7 @@ Sources:
 
 #### Step 1: Install Tasksel - DONE
 [Tasksel][24] is a Debian/Ubuntu tool that installs multiple related packages
-as a co-ordinated "task" onto your system.
+as a coordinated "task" onto your system.
 This function is similar to that of meta-packages, and in fact,
 most of the tasks available from `tasksel` are also available as meta-packages
 from the Ubuntu package managers (such as Synaptic Package Manager or KPackageKit).
@@ -405,6 +407,6 @@ To do so execute: `sudo systemctl set-default graphical.target`.
 [33]:https://wiki.ubuntu.com/LightDM
 [34]:https://manpages.ubuntu.com/manpages/bionic/en/man1/xfwm4.1.html
 
-[AA]:https://novnc.com/info.html
-[BB]:https://en.wikipedia.org/wiki/X11vnc
+[55]:https://novnc.com/info.html
+[56]:https://en.wikipedia.org/wiki/X11vnc
 
