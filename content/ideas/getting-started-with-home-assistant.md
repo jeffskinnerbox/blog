@@ -31,6 +31,11 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 
 
+# Matter
+* [Matter: The Future of the Smart Home?](https://hometechhacker.com/matter-the-future-of-the-smart-home/)
+
+
+
 
 # Raspberry Pi IoT Server (IoTStack)
 * [Raspberry Pi IoT Server Tutorial: InfluxDB, MQTT, Grafana, Node-RED & Docker](https://www.youtube.com/watch?v=_DO2wHI6JWQ)
