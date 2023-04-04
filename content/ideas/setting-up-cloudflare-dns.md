@@ -746,6 +746,17 @@ I don't want router (aka pfSense) exposing its UI to the Internet!
 -----
 
 
+# How Effective is Cloudflare?
+Using [Open-Source Intelligence (OSINT)][76] techniques,
+there are ways to identify the IP addresses and hosting arrangements hidden behind Cloudflare
+proxy services.
+
+* [Finding Fraudsters Who Hide Behind Cloudflare](https://www.youtube.com/watch?v=UBZBL65Dv1w)
+
+
+-----
+
+
 # Cloudflare Authentication
 At this point, your servers supported by Cloudflare Tunnels now have
 forced usage of HTTPS security (so no one can view your data traveling over the Internet),
@@ -872,7 +883,7 @@ Check out the following on Cloudflare:
 [73]:https://www.namecheap.com/support/knowledgebase/subcategory/35/registrations/
 [74]:
 [75]:
-[76]:
+[76]:https://www.recordedfuture.com/open-source-intelligence-definition
 [77]:https://tecadmin.net/authoritative-non-authoritative-dns-server/
 [78]:https://community.cloudflare.com/t/what-is-the-difference-between-proxied-and-dns-only/173310
 [79]:https://www.computerhope.com/jargon/d/dns-resolver.htm
