@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 -----
@@ -918,6 +918,7 @@ especially for recovering the exact positions of surface points.
 built on top of an underlying framework called [AliceVision][40].
 * [How to 3D Photoscan Easy and Free!](https://www.youtube.com/watch?v=k4NTf0hMjtY)
 * [Handheld 3D Scanning, Using Raspberry Pi 4 And Intel RealSense Camera](https://hackaday.com/2020/03/31/handheld-3d-scanning-using-raspberry-pi-4-and-intel-realsense-camera/)
+* [Open-Source FaceID With RealSense](https://hackaday.com/2023/04/04/open-source-faceid-with-realsense/)
 * [Scan 3D Objects with this Raspberry Pi Photogrammetry Project](https://www.tomshardware.com/news/scan-3d-objects-with-this-raspberry-pi-photogrammetry-project)
 * [Design A Custom Enclosure Using Modelling Clay And Photogrammetry](https://hackaday.com/2021/07/14/design-a-custom-enclosure-using-modelling-clay-and-photogrammetry/)
 * [3D scanning and modeling apparatus from 1861](https://hackaday.com/2022/10/02/in-a-way-3d-scanning-is-over-a-century-old/)
