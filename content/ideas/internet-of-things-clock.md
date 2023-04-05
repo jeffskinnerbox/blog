@@ -56,6 +56,9 @@ Version:      0.0.0
 * [Hollow Clock 3](https://www.thingiverse.com/thing:5142739)
 * [Faceless Clock Makes You Think Twice About How It Works](https://hackaday.com/2022/11/18/faceless-clock-makes-your-think-twice-about-how-it-works/)
 
+# Grandfather Clock
+* [3D Printed Post Modern Grandfather Clock](https://hackaday.com/2023/04/04/3d-printed-post-modern-grandfather-clock/)
+
 # LED Filament Clock
 * [A Custom Clock With LED Filament Hands](https://hackaday.com/2021/06/25/a-custom-clock-with-led-filament-hands/)
 * ["Charlotte's Web" Style LED Filament Clock](https://www.instructables.com/id/Charlottes-Web-Style-LED-Filament-Clock/)
