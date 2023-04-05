@@ -121,6 +121,8 @@ and their conversion to [PCB designs][46].
 
 * [KiCad Plugin Gives Your PCBs That Handmade Look](https://hackaday.com/2022/04/17/kicad-plugin-gives-your-pcbs-that-handmade-look/)
 
+* [Silkscreen Busy? Put Labels Inside Pads](https://hackaday.com/2023/04/04/silkscreen-busy-put-labels-inside-pads/)
+
 ## KiCad Viewer
 KiCanvas lets you view, embed, and explore KiCAD’s schematics, boards, footprints, and library symbols within your web browser. You don’t need to do any exporting, printing, or install any plugins as KiCanvas reads KiCAD files directly. KiCanvas is interactive- you can click symbols and footprints to view all the data assigned to those items in KiCAD.
 
