@@ -20,6 +20,7 @@ Version:      0.0.0
 
 
 
+
 * [9 New ESP32 Boards: Comparison and Tests](https://www.youtube.com/watch?v=mnoZYlyebBc)
 
 * [How to use ESP32 Dual Core with Arduino IDE](https://randomnerdtutorials.com/esp32-dual-core-arduino-ide/)
@@ -119,6 +120,7 @@ The new “C3” variant has a single 160 MHz RISC-V core that out-performs the 
 ESP32-C3 is a single-core WiFi and Bluetooth 5 (LE) microcontroller SoC, based on the open-source RISC-V architecture for secure IoT applications. It strikes the right balance of power, I/O capabilities and security, thus offering the optimal cost-effective solution for connected devices.
 
 * [HANDS-ON: THE RISC-V ESP32-C3 WILL BE YOUR NEW ESP8266](https://hackaday.com/2021/02/08/hands-on-the-risc-v-esp32-c3-will-be-your-new-esp8266/)
+* [Getting Started with Seeed Studio XIAO ESP32C3](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
 
 ### Seeeduino XIAO
 * [Seeeduino Xiao: Specs, Price, Release & Reviews](https://all3dp.com/2/seeeduino-xiao-review-specs/)
