@@ -91,8 +91,9 @@ is a full-service Internet of Things provider, providing the required resources 
 ----------
 
 
-
 # Adafruit Products
+* [RadioFruit 915MHz RP2040 with RFM95 LoRa](https://www.geeky-gadgets.com/radiofruit-04-04-2023/)
+    * [Adafruit's "RadioFruit" Feather RP2040 RFM95 Offers a Low-Cost, Low-Power LoRa Radio Project Base](https://www.hackster.io/news/adafruit-s-radiofruit-feather-rp2040-rfm95-offers-a-low-cost-low-power-lora-radio-project-base-36e8d4c5e39a)
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
 * [Adafruit RFM69HCW and RFM9X LoRa Packet Radio Breakouts](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/overview)
 * [RFM9X Test](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/rfm9x-test)
