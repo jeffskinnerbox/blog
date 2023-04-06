@@ -444,8 +444,15 @@ A function is a relation that uniquely associates members of one set with member
 
 # Emergence
 * [What's Strong Emergence?](https://www.youtube.com/watch?v=cgiPQrei4Xc)
+* [Two Fundamentals of Emergence: Emergent Properties and Downward Causation](https://medium.com/paul-austin-murphys-essays-on-philosophy/two-fundamentals-of-emergence-emergent-properties-and-downward-causation-f38740ea1756)
 
-# What about Chaos Theory and Emergent Properties?
+# Order Emergent from Chaos
+* [Amazing Graphs - Numberphile](https://www.youtube.com/watch?v=pAMgUB51XZA)
+* [We may now know what life is](https://medium.com/the-infinite-universe/we-may-now-know-what-life-is-9326d34a14e8)
+* [Elegant Six-Page Proof Reveals the Emergence of Random Structure](https://www.quantamagazine.org/elegant-six-page-proof-reveals-the-emergence-of-random-structure-20220425)
+* [But what is the Central Limit Theorem?](https://www.youtube.com/watch?v=zeJD6dqJ5lo)
+
+# What about Chaos Theory?
 * [Chaos Wrangled: A Simple Introduction To Chaotic Systems](https://www.cantorsparadise.com/chaos-wrangled-48162abf24df)
 * [Chaos: The Science of the Butterfly Effect](https://www.youtube.com/watch?v=fDek6cYijxI)
 * [Chaotic Balls (and other animations) - Numberphile](https://www.youtube.com/watch?v=6z4qRhpBIyA)
@@ -467,12 +474,6 @@ A function is a relation that uniquely associates members of one set with member
 
 * [Taken’s Embedding Theorem for Non-Mathematicians](https://medium.com/@thomas_lagrange/takens-embedding-theorem-for-non-mathematicians-d0022773fb7b)
 * [Why Can’t I Predict Bitcoin? Takens’ Theorem Illustrated using Neural Network Forecasting](https://medium.com/@thomas_lagrange/why-cant-i-predict-bitcoin-takens-theorem-illustrated-using-neural-network-forecasting-5e3d3ed72997)
-
-# Order Emergent from Chaos
-* [Amazing Graphs - Numberphile](https://www.youtube.com/watch?v=pAMgUB51XZA)
-* [We may now know what life is](https://medium.com/the-infinite-universe/we-may-now-know-what-life-is-9326d34a14e8)
-* [Elegant Six-Page Proof Reveals the Emergence of Random Structure](https://www.quantamagazine.org/elegant-six-page-proof-reveals-the-emergence-of-random-structure-20220425)
-* [But what is the Central Limit Theorem?](https://www.youtube.com/watch?v=zeJD6dqJ5lo)
 
 # The Hidden Structure of the Universe
 * [The Standard Model: The Most Successful Scientific Theory Ever](https://www.youtube.com/watch?v=Unl1jXFnzgo&t=5s)
