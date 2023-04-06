@@ -289,19 +289,6 @@ By running your own email server, your data is in your own hands and on your own
 * [How to use infrastructure as code](https://opensource.com/article/19/7/infrastructure-code)
 * [Homelab-Ansible](https://github.com/TechGeek01/Homelab-Ansible)
 
-# Centralized Logging
-For security reasons,
-you want to know when an unknown computer (hacker?) has connected to your network.
-You need to know when hardware or software on any computer on your network is fails.
-You should be notified of repeated login failures.
-Centralized logging and analysis can tell you all of that and potential more.
-
-* [5 Ways Centralized Logging Improves Home Network Security](https://hometechhacker.com/centralized-logging-improves-home-network-security/)
-* [How to Create a Graylog Container in Docker](https://hometechhacker.com/how-to-create-a-graylog-container-in-docker/)
-* [Centralizing Docker Logging Using Logspout and Graylog](https://hometechhacker.com/centralizing-docker-logging-using-logspout-and-graylog/)
-* [Meet Grafana LOKI, a Log Aggregation System for EVERYTHING](https://www.youtube.com/watch?v=h_GGd7HfKQ8)
-* [Grafana Loki: Like Prometheus, But for logs. - Tom Wilkie, Grafana Labs](https://www.youtube.com/watch?v=CQiawXlgabQ)
-
 
 
 -------
