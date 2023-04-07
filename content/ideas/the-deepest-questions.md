@@ -748,6 +748,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 # Math & Physics: Renormalization
 * [Renormalization: The Art of Erasing Infinity](https://www.youtube.com/watch?v=0OQ7BhlfAJY)
     * [Feynman Diagrams and Perturbation Theory: Calculating in Particle Physics](https://www.youtube.com/watch?v=BCBDclSOuxU)
+    * [How to Tame the Endless Infinities Hiding in the Heart of Particle Physics](https://www.quantamagazine.org/alien-calculus-could-save-particle-physics-from-infinities-20230406/)
 * [In the End, It All Adds Up to – 1/12](https://www.nytimes.com/2014/02/04/science/in-the-end-it-all-adds-up-to.html)
 * [Infinity or -1/12?](https://plus.maths.org/content/infinity-or-just-112?nl=0)
 * [How physicists solved the problem of infinity](https://www.youtube.com/watch?v=dkYL6G0JHtY)
