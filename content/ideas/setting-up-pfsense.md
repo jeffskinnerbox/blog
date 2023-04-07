@@ -985,6 +985,7 @@ specifically pfSense, TP-Link Switch, and on the TP-Link Access Point.
 * [UniFi AP with pfSense VLAN's](https://brendonmatheson.com/2020/03/14/unifi-ap-with-pfsense-vlans.html)
 * [Access Points and Creating WiFi VLANs Explained Using UniFi Wireless](https://www.youtube.com/watch?v=6wcbkE3TF3c)
 * [pfSense VLAN and Guest Network Setup](https://www.youtube.com/watch?v=hhPGN4UJHAM)
+* [Configuring Switches with VLANs](https://docs.netgate.com/pfsense/en/latest/recipes/switch-vlan-configuration.html)
 
 #### Step X: Establish VLANs on Omada Controller
 * [Simple Setup and Use of the TP-Link Omada EAP660 HD WiFi Access Point with VLANs | AX3600](https://www.youtube.com/watch?v=lSPIydOtOj0)
@@ -1491,9 +1492,32 @@ and when it comes up, try login use the WAN IP address
 >If you are testing from within the LAN then the router is likely detecting
 >that your using its owns public IP address and isn't forwarding the traffic to your WAN interface.
 
+```bash
+# when doing nmap from within your lan, the scan shows wan ports open
+# this does NOT give you a ture reading what is physically seen from the internet
+$ sudo nmap <external-IP-address>
+[sudo] password for jeff:
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-04-07 14:45 EDT
+Nmap scan report for pool-108-44-239-59.clppva.fios.verizon.net (108.44.239.59)
+Host is up (0.00081s latency).
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 5.22 seconds
+
+# a trustworthy test is to attempt to login via a browser outside your lan
+# using a cell phone, with wifi turned off, attempt a login use the <external-IP-address>
+```
+
+Sources:
+
 * [How to disable PfSense webConfiguration on WAN](https://stackoverflow.com/questions/66929107/how-to-disable-pfsense-webconfiguration-on-wan)
 * [Securely Managing Web-administered Devices](https://www.netgate.com/blog/securely-managing-web-administered-devices)
 * [pfSense Docs: Strict Management](https://docs.netgate.com/pfsense/en/latest/recipes/remote-firewall-administration.html#strict-management)
+* [Allowing Remote Access to the GUI](https://docs.netgate.com/pfsense/en/latest/recipes/remote-firewall-administration.html#strict-management)
 
 
 
