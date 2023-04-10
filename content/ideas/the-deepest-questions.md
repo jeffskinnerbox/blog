@@ -80,6 +80,23 @@ BBC Precision The Measure of All Things
 * [Human mathematics and God’s mathematics](https://medium.com/@cb_67963/human-mathematics-and-gods-mathematics-682ac8e7bba)
 * [25 famous definitions of mathematics and why they can’t define it](https://medium.com/@cb_67963/25-famous-definitions-of-mathematics-and-why-they-cannot-define-it-4eabc24aab42)
 
+##  Gödel’s Incompleteness Theorems
+* [The paradox at the heart of mathematics: Gödel's Incompleteness Theorem](https://www.youtube.com/watch?v=I4pQbo5MQOs)
+* [Math Has a Fatal Flaw](https://www.youtube.com/watch?v=HeQX2HjkcNo)
+* [Gödel’s Incompleteness Theorem, The Inherent Limitation Of Mathematics](https://www.cantorsparadise.com/g%C3%B6dels-incompleteness-theorem-the-inherent-limitation-of-mathematics-479b3ebef926)
+* [There's a Hole at the Bottom of Math](https://www.youtube.com/watch?v=HeQX2HjkcNo)
+* [Gödel’s First Incompleteness Theorem](https://medium.com/@laurgao/g%C3%B6dels-first-incompleteness-theorem-d41516ccd37d)
+* [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
+* [When Math Gets Impossibly Hard](https://www.quantamagazine.org/when-math-gets-impossibly-hard-20200914/)
+* [Do Gödel’s Theorems Impact Negatively on Physics?](https://www.cantorsparadise.com/do-g%C3%B6dels-theorems-impact-negatively-on-physics-ed09734b424c)
+* [Gödel's Incompleteness Theorems: An Informal Introduction to Formal Logic](https://www.youtube.com/watch?v=9GjCIU_ZHIo)
+
+## Paradoxes of Logic
+* [The Strengthened Liar and Paradoxes of Incompleteness](https://www.youtube.com/watch?v=5LWQPGjAs3M)
+* [Logic at its Limit: The Grelling-Nelson Paradox](https://www.youtube.com/watch?v=U2l-Ty5yyU4)
+* [Berry's Paradox - An Algorithm For Truth](https://www.youtube.com/watch?v=FDXf1XxCXAk)
+* [Carneades.org](https://www.youtube.com/c/carneadesofcyrene/search?query=paradox)
+
 ## Philosophy of Numbers
 * [Do numbers EXIST? - Numberphile](https://www.youtube.com/watch?v=1EGDCh75SpQ)
 * [Philosophy of Numbers - Numberphile](https://www.youtube.com/watch?v=vA2cdHLKYB8)
@@ -211,10 +228,6 @@ An attempt to connect different "continents" of mathematics
 * [How to develop a proper theory of infinitesimals I | Famous Math Problems 22a](https://www.youtube.com/watch?v=D8_BBoolMm8&list=RDLVD8_BBoolMm8&start_radio=1)
 * [Dual complex numbers and Leibniz's differentiation rules | Famous Math Problems 22b](https://www.youtube.com/watch?v=dNpjzgkYWVY)
 
-# Paradoxes of Logic
-* [Berry's Paradox - An Algorithm For Truth](https://www.youtube.com/watch?v=FDXf1XxCXAk)
-* [Carneades.org](https://www.youtube.com/c/carneadesofcyrene/search?query=paradox)
-
 # Paradoxes of Infinity
 A **paradox** is a seemingly absurd or self-contradictory statement or proposition
 that when investigated or explained may prove to be well founded or true.
@@ -244,16 +257,6 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 * [Computability and problems with Set theory](https://www.youtube.com/watch?v=Bo2w25fDLwY&list=PL55C7C83781CF4316&index=37)
 * [Insights into Mathematics](https://www.youtube.com/watch?v=WabHm1QWVCA&list=RDCMUCXl0Zbk8_rvjyLwAR-Xh9pQ&start_radio=1)
 * [Math Foundations](https://www.youtube.com/playlist?list=PL5A714C94D40392AB)
-
-#  Gödel’s Incompleteness Theorems
-* [The paradox at the heart of mathematics: Gödel's Incompleteness Theorem](https://www.youtube.com/watch?v=I4pQbo5MQOs)
-* [Math Has a Fatal Flaw](https://www.youtube.com/watch?v=HeQX2HjkcNo)
-* [Gödel’s Incompleteness Theorem, The Inherent Limitation Of Mathematics](https://www.cantorsparadise.com/g%C3%B6dels-incompleteness-theorem-the-inherent-limitation-of-mathematics-479b3ebef926)
-* [There's a Hole at the Bottom of Math](https://www.youtube.com/watch?v=HeQX2HjkcNo)
-* [Gödel’s First Incompleteness Theorem](https://medium.com/@laurgao/g%C3%B6dels-first-incompleteness-theorem-d41516ccd37d)
-* [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
-* [When Math Gets Impossibly Hard](https://www.quantamagazine.org/when-math-gets-impossibly-hard-20200914/)
-* [Do Gödel’s Theorems Impact Negatively on Physics?](https://www.cantorsparadise.com/do-g%C3%B6dels-theorems-impact-negatively-on-physics-ed09734b424c)
 
 # Strange Converance
 * [The Collatz Conjecture](https://medium.com/cantors-paradise/the-collatz-conjecture-some-shocking-results-from-180-000-iterations-7fea130d0377)
