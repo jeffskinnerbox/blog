@@ -64,6 +64,7 @@ with AI-driven models that analyze the data at resolutions of hundreds of meters
 * [ClimaCell API](https://developer.climacell.co/)
 
 # Collecting Weather Data
+* [Where Do Weather Apps Get Their Info From?](https://www.howtogeek.com/880368/where-do-weather-apps-get-their-info-from/)
 * [WeatherCollector](https://github.com/CorentinJ/WeatherCollector) - A python script to collect daily weather data from anywhere in the world within any time range
 
 # Sage
