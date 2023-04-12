@@ -340,6 +340,8 @@ Project of a clock (or other information) on ceiling in bedroom
 * [How a Split-Flap Display Works](https://www.youtube.com/watch?v=UAQJJAQSg_g)
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
 * [Splitflap](https://scottbez1.github.io/splitflap/)
+* [Split-Flap](https://splitflap.home.blog/)
+* [Split-Flap Display](https://www.printables.com/model/69464-split-flap-display)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
 * [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
 * [Dead simple split flap display](https://www.thingiverse.com/thing:2369832)
