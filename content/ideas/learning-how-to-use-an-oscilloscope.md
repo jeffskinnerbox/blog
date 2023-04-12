@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -340,6 +340,8 @@ It's ease of construction and a real-world example of a chaotic system,
 leading some to declare it ["a paradigm for chaos"][05].
 
 * [Building a Chaotic Oscillator from Common Components](https://cpldcpu.wordpress.com/2020/06/15/building-a-chaotic-oscillator/)
+* [Chaos Theory in Practice: Chua’s Circuit](https://hackaday.com/2014/12/07/chaos-theory-in-practice-chuas-circuit/)
+* [Generating Truly Random Sequences]()
 * [Chua's circuit](https://en.wikipedia.org/wiki/Chua%27s_circuit)
 * [Building Chua's Circuit](http://www.chuacircuits.com/howtobuild1.php)
 * [Robust Op Amp Realization of Chua's Circuit](http://www.physics.smu.edu/scalise/chaoscircuit.pdf)
