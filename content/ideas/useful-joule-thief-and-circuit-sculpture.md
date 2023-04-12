@@ -80,6 +80,7 @@ The Joule Thief Circuit is a voltage booster circuit which converts a constant l
 * [The Eerie Sounds Of Ioalieia: An ESP32/Valve/Analog Hybrid Circuit Sculpture](https://hackaday.com/2022/01/15/the-eerie-sounds-of-ioalieia-an-esp32-valve-analog-hybrid-circuit-sculpture/)
 * [Mohit Bhoite's KT-15 Circuit Sculpture Is Ready for a Kitchen Landing with Its 4-Bit Timer](https://www.bhoite.com/sculptures/kt-15/)
 * [TWELVE CIRCUIT SCULPTURES WE CAN’T STOP LOOKING AT](https://hackaday.com/2019/01/15/twelve-circuit-sculptures-we-cant-stop-looking-at/)
+* [A little CSK satellite for a bright workstation](https://hackaday.io/project/190199-a-little-csk-satellite-for-a-bright-workstation)
 
 # Sound
 * [Big Noise From A 555 And A Little Embroidery](https://hackaday.com/2022/09/14/big-noise-from-a-555-and-a-little-embroidery/)
