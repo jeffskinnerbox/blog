@@ -657,7 +657,11 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 * [Probability - Math for Machine Learning](https://www.youtube.com/watch?v=LBemXHm_Ops)
 
-# Probability of the Extremely Rare
+## Beating the Odds
+* [The Gambler Who Beat Roulette](https://www.bloomberg.com/features/2023-how-to-beat-roulette-gambler-figures-it-out/)
+* [The Gambler Who Cracked the Horse-Racing Code](https://www.bloomberg.com/news/features/2018-05-03/the-gambler-who-cracked-the-horse-racing-code)
+
+## Probability of the Extremely Rare
 * [How to Build a Probability Microscope](https://nautil.us/issue/44/Luck/-how-to-build-a-probability-microscope)
 * [Probability: A Philosophical Perspective, Part I](https://medium.com/thesociablesolipsist/probability-a-philosophical-perspective-part-i-accb35315900)
 * [Law of truly large numbers](https://en.wikipedia.org/wiki/Law_of_truly_large_numbers)
@@ -666,7 +670,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
 * [How To Perfectly Predict Improbable Events](https://streetscience.net/how-to-perfectly-predict-improbable-events/)
 
-# Probability Paradoxes
+## Probability Paradoxes
 * [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
 * [The Myth of the Monty Hall Problem](https://medium.com/@danielbier/the-myth-of-the-monty-hall-problem-8735fee7e2b1)
 * [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
