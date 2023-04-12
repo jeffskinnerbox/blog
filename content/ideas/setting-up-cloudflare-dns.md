@@ -561,6 +561,7 @@ Sources:
 * [Using Cloudflare Tunnels For Hosting & Certificates Without Exposing Ports On Your Firewall](https://www.youtube.com/watch?v=eojWaJQvqiw&t=5s)
 * [Remote Access: Getting Started with CloudFlare Tunnels (Domains, DNS, Tunnels)](https://www.youtube.com/watch?v=Q5dG8g4-Sx0)
 * [Using Portainer with Docker and Docker Compose](https://earthly.dev/blog/portainer-for-dcm/)
+* [How to use Cloudflare Tunnel in your Homelab (even with Traefik)](https://www.youtube.com/watch?v=yMmxw-DZ5Ec)
 
 #### Step 1: Create Cloudflare Tunnel - DONE
 The first step is establish a tunnel on Cloudflare.
