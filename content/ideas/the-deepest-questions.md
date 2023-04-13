@@ -652,6 +652,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Entropy is not disorder](https://news.fnal.gov/2013/06/entropy-is-not-disorder/)
 * [What does Entropy Measure? An Intuitive Explanation](https://towardsdatascience.com/what-does-entropy-measure-an-intuitive-explanation-a7f7e5d16421)
 * [Entropy Is Not Disorder: A Physicist’s Perspective](https://medium.com/swlh/entropy-is-not-disorder-a-physicists-perspective-c0dccfea67f1)
+* [It Took Me 10 Years to Understand Entropy, Here is What I Learned.](https://medium.com/cantors-paradise/it-took-me-10-years-to-understand-entropy-here-is-what-i-learned-b2d51e8ccd4c)
 
 # Bootstrapping
 * [Why the Laws of Physics Are Inevitable](https://www.quantamagazine.org/how-simple-rules-bootstrap-the-laws-of-physics-20191209/)
