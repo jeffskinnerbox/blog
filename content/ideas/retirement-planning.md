@@ -196,6 +196,10 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 * [How Much Money You Should Save in 2022 (Amount by Age)](https://medium.datadriveninvestor.com/how-much-money-you-should-save-in-2022-amount-by-age-811464e057e3)
 * [I’m 62, single and never had a retirement account. I have $100,000 to invest, but is it too late?](https://www.marketwatch.com/story/im-62-single-and-never-had-a-retirement-account-i-have-100-000-to-invest-but-is-it-too-late-11661552228)
 
+* [Here’s What Retirement Looks Like in America in Six Charts](https://www.wsj.com/articles/your-401-k-isnt-enough-to-invest-for-retirement-build-friendships-and-hobbies-11672269861)
+* [Here’s What a $1 Million Retirement Looks Like in America](https://www.wsj.com/articles/heres-what-a-1-million-retirement-looks-like-in-america-11671890735)
+* [Here’s What a $2 Million Retirement Looks Like in America](https://www.wsj.com/articles/heres-what-a-2-million-retirement-looks-like-in-america-11661702455)
+
 # Retirement Budget
 * [How to Create a Retirement Budget](https://money.usnews.com/money/retirement/baby-boomers/articles/how-to-create-a-retirement-budget)
 * [Retirement expenses worksheet](https://investor.vanguard.com/calculator-tools/retirement-expenses-worksheet/)
@@ -203,6 +207,7 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 * [Retirement expense worksheet](https://www08.wellsfargomedia.com/assets/pdf/financial-education/retirement-expense-worksheet.pdf)
 * [Map out your retirement budget](https://www.principal.com/individuals/build-your-knowledge/map-out-your-retirement-budget)
 * [Is a bucket strategy superior to the 4% rule?](https://www.marketwatch.com/story/is-a-bucket-strategy-superior-to-the-4-rule-11626210623)
+* [The 4% Rule for Retirement Spending Makes a Comeback](https://www.wsj.com/articles/the-4-rule-for-retirement-spending-makes-a-comeback-11670772621)
 
 # Retirement Withdrawal Strategies
 * [Updated Trinity Study for 2021 – More Withdrawal Rates!](https://thepoorswiss.com/updated-trinity-study/)
