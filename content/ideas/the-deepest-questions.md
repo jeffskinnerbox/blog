@@ -681,14 +681,18 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 ## Probability Paradoxes
 * [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
-* [The Myth of the Monty Hall Problem](https://medium.com/@danielbier/the-myth-of-the-monty-hall-problem-8735fee7e2b1)
-* [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
-* [Five Paradoxes With Probabilities That Will Puzzle You](https://towardsdatascience.com/five-paradoxes-with-probabilities-that-will-puzzle-you-2f71201d6ee8)
 * [Five Tricky Statistics and Probability Riddles That 90% of People Fail](https://towardsdatascience.com/five-tricky-statistics-and-probability-riddles-that-90-of-people-fail-77db1eda2e15)
 * [The unresolved probability paradox that goes to the heart of scientific objectivity](https://aeon.co/videos/the-unresolved-probability-paradox-that-goes-to-the-heart-of-scientific-objectivity)
     * [The Puzzle of Grue](https://www.youtube.com/watch?v=1rUCyg4Ppso)
 * [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
     * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
+
+### Monty Hall Problem
+* [The Monty Hall Problem: Dividing Statisticians since 1975](https://medium.com/@nahmed3536/the-monty-hall-problem-dividing-statisticians-since-1975-8f298875dcf)
+* [The Myth of the Monty Hall Problem](https://medium.com/@danielbier/the-myth-of-the-monty-hall-problem-8735fee7e2b1)
+* [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
+* [Don’t Switch! Why Mathematicians’ Answer to the Monty Hall Problem is Wrong](https://mail.aol.com/webmail-std/en-us/suite)
+* [Five Paradoxes With Probabilities That Will Puzzle You](https://towardsdatascience.com/five-paradoxes-with-probabilities-that-will-puzzle-you-2f71201d6ee8)
 
 # Universality
 * [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
