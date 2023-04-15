@@ -640,6 +640,10 @@ I didn't bother with any of this.
 # A Quick Guide to LiDAR
 * [A Quick Guide to LiDAR: Part 1 - Theory](https://medium.com/mlearning-ai/a-quick-guide-to-lidar-part-1-theory-7c8ff48af0b9)
 * [A Quick Guide to LiDAR: Part 2](https://medium.com/mlearning-ai/a-quick-guide-to-lidar-part-2-cd2dcd2e60fd)
+* [Lidar Types and How They Work](https://www.dfrobot.com/blog-1643.html)
+* [7 Real-World Applications of LiDAR Technology](https://www.dfrobot.com/blog-1644.html)
+* [What is the Open Source Framework for LiDAR?](https://www.dfrobot.com/blog-1647.html)
+* [FAQ about LiDAR](https://www.dfrobot.com/forum/topic/320253)
 
 ----
 
