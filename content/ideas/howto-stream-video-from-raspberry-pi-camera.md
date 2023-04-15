@@ -667,6 +667,7 @@ Like WebSockets, RTMP creates persistent connections between a server and a clie
 * [Android Streaming Live Camera Video to Web Page](http://www.androidhive.info/2014/06/android-streaming-live-camera-video-to-web-page/)
 
 ## FFmpeg
+* [FFmpeg for Screencasts and Recording](https://www.youtube.com/watch?v=VGRHzB8ANAo)
 * [How to Process Live Video Stream Using FFMPEG and OpenCV](http://blog.lemberg.co.uk/how-process-live-video-stream-using-ffmpeg-and-opencv)
 * [OTTVerse: FFmpeg](https://ottverse.com/tags/ffmpeg/)
 * [FFmpeg and how to use it wrong](https://videoblerg.wordpress.com/2017/11/10/ffmpeg-and-how-to-use-it-wrong/)
