@@ -10,6 +10,12 @@ Version:      0.0.0
 
 
 
+* [Matter Devices You Can Buy Right Now](https://hometechhacker.com/matter-devices-you-can-buy-right-now/)
+
+
+
+
+
 [Matter is a new standard for smart homes][02],
 created by Project Connected Home Over IP (aka Project Chip) in 2019
 now call the [Connectivity Standards Alliance (CSA)][01].
