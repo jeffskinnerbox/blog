@@ -12,6 +12,12 @@ Version:      0.0.0
 
 
 
+* [Unveiling BYOM and the Edge Impulse Python SDK](https://www.edgeimpulse.com/blog/unveiling-the-new-edge-impulse-python-sdk)
+
+
+
+
+
 # TinyML
 TinyML concerns us of ultra-low power machine learning technologies and approaches dealing with machine intelligence at the very edge of the cloud.
 
