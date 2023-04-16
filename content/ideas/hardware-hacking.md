@@ -5,8 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-y<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
-y<img src="https://hackaday.com/wp-content/uploads/2022/12/6aea850819a4efc5.png" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 

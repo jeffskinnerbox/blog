@@ -5,25 +5,12 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
 -----
 
-
-
-Status: draft
-Title: Home Intercom System for the Minimalists
-Date: 2100-01-01 00:00
-Category: Electronics
-Tags: VoIP, SIP, Intercom
-Slug: home-intercom-system-for-the-minimalists
-Author: Jeff Irland
-Image: DRAFT_stamp.png
-Summary: bla bla bla
-
-Search on "android as intercom" and you'll get some good ideas.
 
 # SIP Solutions
 [TP-LINK TL-PA2010KIT AV200 Nano Powerline Adapter Starter Kit,](http://www.amazon.com/TP-LINK-TL-PA2010KIT-Powerline-Adapter-Starter/dp/B00AWRUIY4/ref=sr_1_1?ie=UTF8&qid=1401505516&sr=8-1&keywords=TL-PA2010KIT)
