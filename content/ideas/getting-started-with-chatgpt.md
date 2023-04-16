@@ -25,6 +25,7 @@ Version:      0.0.0
 * [Having AI ChatGPT Generate Dockerfile and write code](https://www.youtube.com/watch?v=BgCLynRWvvI)
 * [OpenAI's ChatGPT is a MASSIVE step forward in Generative AI](https://www.youtube.com/watch?v=HTWfA7KFzoA)
 * [ChatGPT: 3 productivity tips for IT professionals](https://www.redhat.com/architect/chatgpt-programming-pros-cons)
+* [How To Create Your Own Auto-GPT AI Agent](https://www.tomshardware.com/how-to/auto-gpt-ai-agent)
 
 ## GPT-4
 * [Get free access to GPT-4](https://www.livemint.com/news/world/openais-gpt-4-can-be-used-free-using-this-simple-hack-follow-these-3-steps-11679738549612.html)
