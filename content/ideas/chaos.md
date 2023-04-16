@@ -20,3 +20,4 @@ _Chaos: When the present determines the future, but, the approximate present doe
 * [This equation will change how you see the world](https://www.youtube.com/watch?v=ovJcsL7vyrk)
 * [Chaos](https://github.com/jonnyhyman/Chaos)
 * [How Chaos Control Is Changing The World](https://www.youtube.com/watch?v=q1-cwamhwag)
+* [Chaos in Classical Mechanics: The Double-Compound-Pendulum Solved with Python](https://medium.com/@mathcube7/chaos-in-classical-mechanics-466c31099597)
