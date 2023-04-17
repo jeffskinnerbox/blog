@@ -695,6 +695,10 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
 * [Don’t Switch! Why Mathematicians’ Answer to the Monty Hall Problem is Wrong](https://ima.org.uk/4552/dont-switch-mathematicians-answer-monty-hall-problem-wrong/)
 
+### The Boy or Girl Probability Paradox
+* [This May Be The Most Counterintuitive Probability Paradox I've Ever Seen | Can you spot the error?](https://www.youtube.com/watch?v=bDZieLmya_I)
+* [The Boy or Girl Probability Paradox Resolved | It was never really a paradox](https://www.youtube.com/watch?v=ElB350w8iJo)
+
 # Universality
 * [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
 
@@ -726,6 +730,9 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [Frequentism and Bayesianism: What's the Big Deal? | SciPy 2014 | Jake VanderPlas](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [IS CHESS A GAME OF CHANCE? Classical vs Frequentist vs Bayesian Probability](https://www.youtube.com/watch?v=dejy4PPCFHY)
 
+# Bayes Search Theory
+* [Bayes Theorem and some of the mysteries it has solved](https://www.youtube.com/watch?v=82q3uYw6MuY)
+
 The Frequentist View of Probability:
 Fundamentally, frequentists define probability as long-run frequency — that’s kind of why they’re referred to as frequentists. Anyway, this approach to probability requires things to be repeatable so you can observe them over and over again. For example, if you flip a fair coin a large number of times you can track the outcomes on each flip. If you had the patience to do this a large number of times, you’d see the probability of each outcome tend toward 50%. In this way, frequentist probability is considered objective.
 
@@ -737,6 +744,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 # Jaynes
 * [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
     * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
+    * [Bertrand's Paradox - Probability | WIRELESS PHILOSOPHY](https://www.youtube.com/watch?v=xy6xXEhbGa0)
 
 # Skepticism of Modern Science
 * [Bernoulli’s fallacy: statistical illogic and the crisis of modern science](https://www.youtube.com/watch?v=EIPz7SJBO6g)
