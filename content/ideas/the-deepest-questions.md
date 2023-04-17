@@ -678,6 +678,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
     * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
 * [How To Perfectly Predict Improbable Events](https://streetscience.net/how-to-perfectly-predict-improbable-events/)
+* [Predicting catastrophic events with Didier Sornette](https://www.youtube.com/watch?v=J_vtfxJaRBg)
 
 ## Probability Paradoxes
 * [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
