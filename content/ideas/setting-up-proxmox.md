@@ -1113,6 +1113,8 @@ Illustrates how to run several Proxmox instances as a cluster with Ceph hypercon
 Complete guide on getting your cluster up and running
 * [Building a Proxmox VE Lab Part 1 Planning](https://www.servethehome.com/building-a-proxmox-ve-lab-part-1-planning/)
 * [Building a Proxmox VE Lab Part 2 Deploying](https://www.servethehome.com/building-a-proxmox-ve-lab-part-2-deploying/)
+* [LOW Power / HIGH Availability Proxmox Cluster ft. ZimaBoard](https://www.youtube.com/watch?v=JfZuZ6zE7AI)
+* [Setting Up My First Proxmox High Availability Cluster](https://www.youtube.com/watch?v=FZnVmt_DvUk)
 
 # Proxmox Backup Server
 Proxmox Backup Server is an enterprise backup solution that allows you to back up and restore virtual machines (VMs), containers, and physical hosts. Proxmox Backup Server supports incremental and deduplicated backups, which is a fancy way of saying that the storage space will be optimized and the same files won’t be stored twice. This helps to conserve hard drive space on the device running Proxmox Backup Server.
