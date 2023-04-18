@@ -700,6 +700,9 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [This May Be The Most Counterintuitive Probability Paradox I've Ever Seen | Can you spot the error?](https://www.youtube.com/watch?v=bDZieLmya_I)
 * [The Boy or Girl Probability Paradox Resolved | It was never really a paradox](https://www.youtube.com/watch?v=ElB350w8iJo)
 
+### The Sleeping Beauty Paradox
+* [185,754 People Agree With Me, 72,027 Disagree](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
+
 # Universality
 * [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
 
