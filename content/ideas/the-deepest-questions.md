@@ -440,6 +440,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
 * [When Science and Philosophy meet Randomness, Determinism, and Chaos](https://towardsdatascience.com/when-science-and-philosophy-meet-randomness-determinism-and-chaos-abdb825c3114)
 * [Is it Possible to Predict Randomness? The Double Pendulum Experiment](https://www.youtube.com/watch?v=4xViPStT5II)
+    * [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
     * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
 
 # Random Matrix Theory

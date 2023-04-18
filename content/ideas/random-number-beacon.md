@@ -5,8 +5,9 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
+
 
 
 -----
@@ -18,6 +19,7 @@ Version:      0.0.0
 * [A Brief History of Random Numbers](https://medium.freecodecamp.com/a-brief-history-of-random-numbers-9498737f5b6c)
 * [Is it Possible to Predict Randomness? The Double Pendulum Experiment](https://www.youtube.com/watch?v=4xViPStT5II)
     * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
+* [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
 
 # Hacking Analog Clock
 Can this clock be hacked so you can control its precision time source? - La Crosse Technology WT-3102B - https://www.amazon.com/dp/B00077AA4W/ref=psdc_3734871_t1_B0001PG238
