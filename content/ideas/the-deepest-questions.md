@@ -748,6 +748,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
     * [Bertrand's Paradox - Probability | WIRELESS PHILOSOPHY](https://www.youtube.com/watch?v=xy6xXEhbGa0)
 
 # Skepticism of Modern Science
+* [Is Most Published Research Wrong?](https://www.youtube.com/watch?v=42QuXLucH3Q)
 * [Bernoulli’s fallacy: statistical illogic and the crisis of modern science](https://www.youtube.com/watch?v=EIPz7SJBO6g)
 * [Bernoulli's Fallacy - Aubrey Clayton](https://www.youtube.com/watch?v=EIPz7SJBO6g)
 * [Aubrey Clayton - One Probability to Rule them All?](https://www.youtube.com/watch?v=HCG57e7Ogv8)
