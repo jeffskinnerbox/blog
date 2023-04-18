@@ -86,7 +86,7 @@ This can be done by making use of:
 # Interfacing ChatGPT-3 with Microcomputers
 * [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
 * [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
-* [How To Create Your Own Auto-GPT AI Agent](https://www.tomshardware.com/how-to/auto-gpt-ai-agent)
+* [How To Create Your Own Auto-GPT AI Agent]()
 
 # Radar Sensor
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
