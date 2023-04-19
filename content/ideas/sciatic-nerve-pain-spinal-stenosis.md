@@ -55,6 +55,7 @@ There are three likely cause of Sciatica:
 * [What is Cervical Stenosis?](https://www.youtube.com/watch?v=sK5BdbUY8LQ)
 * [Surgical Treatment For Lumbar Spinal Stenosis (Part 1)](https://www.youtube.com/watch?v=CQ45nJyu3kY&t=67s)
 * [Surgical Treatment For Lumbar Spinal Stenosis (Part 2)](https://www.youtube.com/watch?v=moLUWFuY5u8)
+* [Should You Get an MRI for Low Back Pain?](https://betterhumans.pub/should-you-get-an-mri-for-low-back-pain-2d446f7f7b48)
 
 # Lateral Hip Pain
 * [How to FIX Lateral Hip Pain..Best Stretches & Exercises for Gluteal Tendinopathy](https://www.youtube.com/watch?v=l5Me8a1Hui4)
