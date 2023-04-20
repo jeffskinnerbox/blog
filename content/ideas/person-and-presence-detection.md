@@ -58,6 +58,7 @@ This can be done by making use of:
 * [DNS DriveBy: Stealthy GPS Tracking Using Open Wi-Fi](https://www.hackster.io/alexlynd/dns-driveby-stealthy-gps-tracking-using-open-wi-fi-65730a)
 * [Stealthy GPS Tracker & Drive-by Telemetry Using Open Wi-Fi](https://alexlynd.com/Stealthy-Drive-by-GPS-Tracker-ESP8266/)
 * [GitHub for DNS-DriveBy](https://github.com/AlexLynd)
+* [GPS Module GPS NEO-6M](https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT)
 
 # Other Ideas
 * [Whisper AI](https://openai.com/blog/whisper/)
