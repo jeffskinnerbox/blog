@@ -11,6 +11,7 @@ Version:      0.0.0
 
 
 * [Matter Devices You Can Buy Right Now](https://hometechhacker.com/matter-devices-you-can-buy-right-now/)
+* [My Early Experiences With Matter Devices](https://hometechhacker.com/my-early-experiences-with-the-matter-protocol/)
 
 
 
