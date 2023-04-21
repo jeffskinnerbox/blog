@@ -35,6 +35,7 @@ This guy appears to have used Tarmo as a base and improved it
 
 * See  - /home/jeff/blogging/content/ideas/3d-printed-radio-controlled-car.md
 
+* [Tarmo4 | 3D Printed RC Car](https://www.youtube.com/watch?v=MKqQPTEXJpI)
 * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
 
 * [Excellent 3D-Printed RC Car Features Variety of Drivetrain Options](https://blog.hackster.io/excellent-3d-printed-car-features-variety-of-drivetrain-options-d8c1c552b285)
