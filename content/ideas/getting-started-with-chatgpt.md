@@ -18,6 +18,12 @@ Version:      0.0.0
 * [Will A.I. Steal All The Code And Take All The Jobs?](https://hackaday.com/2023/03/08/will-a-i-steal-all-the-code-and-take-all-the-jobs/)
 
 
+# ChatGPT Combined with Wolfram Alpha
+ChatGPT can now call on Wolfram|Alpha—and Wolfram Language as
+well—to give it what we might think of as “computational superpowers”.
+
+* [Wolfram Alpha With ChatGPT Looks Like A Killer Combo](https://hackaday.com/2023/04/17/wolfram-alpha-with-chatgpt-looks-like-a-killer-combo/)
+
 # Generative Pre-trained Transformer (GPT)
 [Generative Pre-trained Transformer (GPT)](https://en.wikipedia.org/wiki/GPT-2#Generative_Pre-trained_Transformer)
 
