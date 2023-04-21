@@ -97,7 +97,9 @@ perform regression testing, and train AI system using realistic scenarios.
 # Line Following Robot
 * [Line Following Robot Uses PID For Speed](https://hackaday.com/2021/09/18/line-following-robot-uses-pid-for-speed/)
 
-# walking Hexapot Robot
+# Walking Hexapot Robot
+* [Arduino Mega 2560 DIY hexapod robot](https://www.geeky-gadgets.com/hexapod-robot-18-04-2023/)
+    * [I Completely Scrapped My Hexapod's Code](https://www.youtube.com/watch?v=DKsyJYkdZ_o)
 * [Augie the Hexapod Robot - Hackster.io](https://www.hackster.io/james-harton/augie-the-hexapod-robot-8e5125)
 * [Capers II, a Hexapod Robot](https://www.instructables.com/id/Capers-II-a-Hexapod-Robot/)
 * [ZeroBug - DIY Hexapod Robot](https://hackaday.io/project/180534-zerobug-diy-hexapod-robot)
