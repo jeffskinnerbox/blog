@@ -196,10 +196,12 @@ An attempt to connect different "continents" of mathematics
 * [What Really Happens When You Invent Infinite Infinities?](https://thewalkingemple.medium.com/what-really-happens-when-you-invent-infinite-infinities-e6fc783226c5)
 * [Is ‘0.99999…’ Really Equal To ‘1’?](https://www.cantorsparadise.com/is-0-99999-really-equal-to-1-768bb812bd2e)
 
+* [The Banach-Tarski Paradox](https://www.cantorsparadise.com/the-banach-tarski-paradox-82bafb306e5d)
 * [The Banach–Tarski Paradox](https://www.youtube.com/watch?v=s86-Z-CbaHA)
 * [The Banach–Tarski Paradox](https://www.cantorsparadise.com/the-barnach-tarski-paradox-21a673ed5592)
 * [Banach-Tarski and the Paradox of Infinite Cloning](https://www.quantamagazine.org/how-a-mathematical-paradox-allows-infinite-cloning-20210826/)
 * [The Banach Tarski paradox - is it nonsense? | Sociology and Pure Mathematics | N J Wildberger](https://www.youtube.com/watch?v=grN-nDNQs74)
+
 * [The Sierpinski-Mazurkiewicz Paradox (is really weird)](https://www.youtube.com/watch?v=hVaDTnrwCnk)
 * [Things get weird at infinity](https://www.youtube.com/watch?v=6HybPBUNzz8)
 * [Infinity: You Can't Get There from Here](https://platonicrealms.com/minitexts/Infinity-You-Cant-Get-There-From-Here)
