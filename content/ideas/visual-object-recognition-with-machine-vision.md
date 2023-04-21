@@ -13,7 +13,6 @@ Version:      0.0.0
 
 
 
-
 * [A quick guide to using FFmpeg to convert media files](https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats?sc_cid=70160000000gz65AAA)
 * [How to Decode a QR Code by Hand](https://www.youtube.com/watch?v=KA8hDldvfv0)
 * [How to install OpenCV 4 on Ubuntu](https://www.pyimagesearch.com/2018/08/15/how-to-install-opencv-4-on-ubuntu/)
@@ -23,6 +22,11 @@ Version:      0.0.0
 
 * [Jupyter Notebook Extensions: How to get the most from the notebook environment](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 
+
+
+
+# Using Coral AI
+* [Google Just Turned the Raspberry Pi into a Supercomputer...](https://www.youtube.com/watch?v=mOY_Dbyq6OY)
 
 # DeepStack
 DeepStack is an AI server that makes it easily to build AI systems both on premise and in the cloud.
