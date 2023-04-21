@@ -2250,6 +2250,9 @@ Also: the server runs as a container, so its running on my Server network on nom
 * [Shelly Flood Sensor Review](https://hometechhacker.com/shelly-flood-sensor-review/)
 * [HOME ASSISTANT SHELLY FLOOD | Detect any leakages immediately](https://www.youtube.com/watch?v=amJcuFv2Roo)
 
+## Shelly Alternative
+* [SmaHoo Is a Discreet Device to Make Your Wall Outlets Smart](https://www.hackster.io/news/smahoo-is-a-discreet-device-to-make-your-wall-outlets-smart-01050976af3f)
+
 
 
 -----
