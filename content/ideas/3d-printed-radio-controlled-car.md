@@ -35,6 +35,8 @@ This guy appears to have used Tarmo as a base and improved it
 
 * See  - /home/jeff/blogging/content/ideas/3d-printed-radio-controlled-car.md
 
+* [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
+
 * [Excellent 3D-Printed RC Car Features Variety of Drivetrain Options](https://blog.hackster.io/excellent-3d-printed-car-features-variety-of-drivetrain-options-d8c1c552b285)
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
     * [3D Printed RC Car V3 -- Tarmo3 -- Front Parts](https://www.thingiverse.com/thing:3546277)
@@ -62,6 +64,9 @@ The first step in doing this, is to convert the Thingiverse STL files into STEP 
 
 * [Convert STL to STEP](https://blog.bantamtools.com/convert-stl-to-step)
 * [How to convert STL to STEP using FreeCAD](https://grabcad.com/tutorials/how-to-convert-stl-to-step-using-freecad)
+
+# Using LIDAR
+* [Robot Races A Little Smarter To Go Faster](https://hackaday.com/2023/04/17/robot-races-a-little-smarter-to-go-faster/)
 
 # RC Basics
 * [Introduction to Remote Control](https://www.youtube.com/playlist?list=PLYsWjANuAm4oWuE5ZDX4TAiHBv2i0Xl4m)
