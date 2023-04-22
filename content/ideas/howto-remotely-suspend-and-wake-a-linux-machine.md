@@ -9,6 +9,13 @@ Version:      0.0.0
 </div>
 
 
+# READ THIS
+* [Linux Server, Wakey, Wakey](https://hackaday.com/2023/04/21/linux-server-wakey-wakey/)
+    * [Making a Linux home server sleep on idle and wake on demand — the simple way](https://dgross.ca/blog/linux-home-server-auto-sleep/)
+
+
+
+
 When I travel, I sometimes want access to my computers on my home LAN,
 but after some period time of inactivity,
 my machines will go into a suspended or hibernation state.
