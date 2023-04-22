@@ -26,6 +26,8 @@ This guy appears to have used Tarmo as a base and improved it
 
 * [High-Speed RC Car Needs A Flight Controller](https://hackaday.com/2022/08/23/high-speed-rc-car-needs-a-flight-controller/)
 
+Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtube.com/@rcprinter/featured)
+
 
 
 
