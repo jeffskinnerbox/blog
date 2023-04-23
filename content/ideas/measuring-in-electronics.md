@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -34,6 +34,8 @@ Metrology is the scientific study of measurement
 Measuring low resistances with a standard multimeter is difficult and very inaccurate.
 
 * [Quick And Simple Milliohmmeter](https://hackaday.com/2020/11/04/quick-and-simple-milliohmmeter/)
+* [Clever Continuity Tester Tells you Where the Problem is](https://hackaday.com/2023/04/22/op-amp-contest-clever-continuity-tester-tells-you-where-the-problem-is/)
+* [Short Circuit Trace for a Buck](https://hackaday.com/2022/03/10/short-circuit-tracer-for-a-buck/)
 
 ## Kelvin Probes
 Kelvin probes are a special type of probe for making accurate resistance measurements using four wires and, in fact, the probe’s jaws are electrically isolated from each other.
