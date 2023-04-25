@@ -12,11 +12,17 @@ Version:      0.0.0
 -----
 
 
+
+
 * [5 open-source alternatives to ChatGPT](https://bdtechtalks.substack.com/p/5-open-source-alternatives-to-chatgpt)
 * [The inside story of how ChatGPT was built from the people who made it](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
 * [Can you trust ChatGPT and other LLMs in math?](https://bdtechtalks.com/2023/03/06/chatgpt-llm-mathematics/)
 * [Will A.I. Steal All The Code And Take All The Jobs?](https://hackaday.com/2023/03/08/will-a-i-steal-all-the-code-and-take-all-the-jobs/)
 
+
+
+# ChatGPT With Custom Knowledge Base
+* [How To Build Your Own Custom ChatGPT With Custom Knowledge Base](https://betterprogramming.pub/how-to-build-your-own-custom-chatgpt-with-custom-knowledge-base-4e61ad82427e)
 
 # ChatGPT Combined with Wolfram Alpha
 ChatGPT can now call on Wolfram|Alpha—and Wolfram Language as
