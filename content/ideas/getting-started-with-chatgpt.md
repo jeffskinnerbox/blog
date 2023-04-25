@@ -21,6 +21,10 @@ Version:      0.0.0
 
 
 
+# What is a Large Language Model (LLM)?
+* [Large Language Models from scratch](https://www.youtube.com/watch?v=lnA9DMvHtfI)
+* [Large Language Models: Part 2](https://www.youtube.com/watch?v=YDiSFS-yHwk)
+
 # ChatGPT With Custom Knowledge Base
 * [How To Build Your Own Custom ChatGPT With Custom Knowledge Base](https://betterprogramming.pub/how-to-build-your-own-custom-chatgpt-with-custom-knowledge-base-4e61ad82427e)
 
