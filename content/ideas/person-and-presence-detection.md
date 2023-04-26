@@ -72,6 +72,9 @@ This can be done by making use of:
 * [GitHub Copilot](https://openai.com/blog/openai-codex/)
 * [OpenAI Codex](https://openai.com/blog/openai-codex/)
 
+# Make it Speak
+* [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaay.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
+
 # AI Generated Text to Speech
 
 # AI Generated Text to Voice
