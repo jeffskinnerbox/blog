@@ -33,6 +33,8 @@ Version:      0.0.0
 
 * [How to customize your voice assistant with the voice of your choice](https://opensource.com/article/21/1/customize-voice-assistant)
 
+* [Sonatino – A Raspberry Pi Zero-sized ESP32-S3 audio board](https://www.cnx-software.com/2023/04/25/sonatino-raspberry-pi-zero-sized-esp32-s3-audio-board/)
+
 
 
 # Faust
