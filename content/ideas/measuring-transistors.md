@@ -21,6 +21,9 @@ Version:      0.0.0
 * []()
 
 
+* [FET: The Friendly Efficient Transistor](https://hackaday.com/2023/04/25/fet-the-friendly-efficient-transistor/)
+
+
 
 
 # Tags from Hackaday
