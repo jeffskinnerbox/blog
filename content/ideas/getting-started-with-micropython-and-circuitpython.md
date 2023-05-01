@@ -37,6 +37,12 @@ Version:      0.0.0
 
 * [Your MicroPython Board Can Be Your Tinkering Peripheral](https://hackaday.com/2022/08/10/your-micropython-board-can-be-your-tinkering-peripheral/)
 
+# MIP Package Manager for MicroPython
+[mip](https://docs.micropython.org/en/latest/reference/packages.html),
+the new, official lightweight package manager for MicroPython.
+
+* [How To Manage MicroPython Modules With Mip on Raspberry Pi Pico](https://www.tomshardware.com/how-to/raspberry-pi-pico-micropython-mip)
+
 
 # Hardware Options
 ## CircuitBrains
