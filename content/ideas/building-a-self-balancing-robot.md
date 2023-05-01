@@ -91,6 +91,9 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
 * [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
 
+# Rope Walking Robot
+* [Tightrope-walking powered Gyroscope](https://www.youtube.com/watch?v=XdVXrno-3B4)
+
 # Hopping Robot
 * [LEONARDO: The Hopping, Flying Bipedal Robot](https://hackaday.com/2021/10/07/leonardo-the-hopping-flying-bipedal-robot/)
 
