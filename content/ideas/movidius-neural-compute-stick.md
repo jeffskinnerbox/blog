@@ -193,6 +193,7 @@ Guidance on implementation:
 [Part 5](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-5/)
 
 * [Training the YOLOv5 Object Detector on a Custom Dataset](https://pyimagesearch.com/2022/06/20/training-the-yolov5-object-detector-on-a-custom-dataset/)
+* [Training the YOLOv8 Object Detector for OAK-D](https://pyimagesearch.com/2023/05/01/training-the-yolov8-object-detector-for-oak-d/)
 
 # Intel OpenVINO
 Intel has acquired four companies to go after the AI market:
