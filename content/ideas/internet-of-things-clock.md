@@ -76,6 +76,7 @@ Version:      0.0.0
 * [Nixie Tube Indicator Tells You How Many Tasks You’ve Got Left To Do](https://hackaday.com/2021/11/17/nixie-tube-indicator-tells-you-how-many-tasks-youve-got-left-to-do/)
 * [Simple But Stylish Numitron Clock Can Display Time, Date and Temperature](https://hackaday.com/2021/11/22/simple-but-stylish-numitron-clock-can-display-time-date-and-temperature/)
 * [NIXIE TUBE POWER SUPPLY](https://jmw.name/projects/flyback-converter/)
+* [Modern Components Enable Cheap and Compact Nixie Driver Circuit](https://hackaday.com/2023/05/02/modern-components-enable-cheap-and-compact-nixie-driver-circuit/)
 
 # Doodle Clock
 * [Sketch the current time with this Magna Doodle clock](https://www.blogdot.tv/sketch-the-current-time-with-this-magna-doodle-clock/)

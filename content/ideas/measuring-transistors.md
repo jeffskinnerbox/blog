@@ -22,6 +22,7 @@ Version:      0.0.0
 
 
 * [FET: The Friendly Efficient Transistor](https://hackaday.com/2023/04/25/fet-the-friendly-efficient-transistor/)
+* [FET: Fun Endeavors Together](https://hackaday.com/2023/05/02/fet-fun-endeavors-together/)
 
 
 
