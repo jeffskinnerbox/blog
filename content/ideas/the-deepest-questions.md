@@ -523,6 +523,11 @@ A function is a relation that uniquely associates members of one set with member
 * [Physicists Use Quantum Mechanics to Pull Energy out of Nothing](https://www.quantamagazine.org/physicists-use-quantum-mechanics-to-pull-energy-out-of-nothing-20230222/?mc_cid=539e4e1a35&mc_eid=a88c5dceda)
 * [How the Physics of Nothing Underlies Everything](https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809/)
 
+## Additivity of Probability and Quantum Mechanics
+* [When 1+1≠2: How Quantum Physics Broke the Laws of Statistics](https://towardsdatascience.com/how-quantum-physics-broke-the-laws-of-statistics-86fb8941ed2c)
+* [σ-additivity of Probability and Quantum Mechanics](https://physics.stackexchange.com/questions/139202/sigma-additivity-of-probability-and-quantum-mechanics)
+* [Quantum Logic and Probability Theory](https://plato.stanford.edu/entries/qt-quantlog/#QuanProbNuts)
+
 # The Universe Isn't Locally Real
 * [How Bell’s Theorem Proved ‘Spooky Action at a Distance’ Is Real](https://www.quantamagazine.org/how-bells-theorem-proved-spooky-action-at-a-distance-is-real-20210720/)
 * [Gamification of Bell's Theorem](https://www.youtube.com/watch?v=v7jctqKsUMA)
