@@ -256,7 +256,10 @@ http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What
 * [SDR Is At the Heart of This Soup-Can Doppler Radar Set](https://hackaday.com/2018/11/29/sdr-is-at-the-heart-of-this-soup-can-doppler-radar-set/)
 * [Bike-Mounted Synthetic-Aperture Radar Makes Detailed Images](https://hackaday.com/2019/08/15/bike-mounted-synthetic-aperture-radar-makes-detailed-images/)
 * [SDR Spectrum Grabber](http://hackaday.com/2016/11/18/cache-shortwave-signals-for-later-with-this-sdr-spectrum-grabber/)
+
 * [sdrangelove - a Qt software defined radio application](http://osmocom.org/projects/sdr/wiki/sdrangelove)
+* [SDRangel](https://www.sdrangel.org/)
+* [SDRAngel Documentation](https://rgetz.github.io/sdrangel/)
 
 # Ground-Penetrating Radar
 * [Affordable Ground-Penetrating Radar](https://hackaday.com/2020/10/22/affordable-ground-penetrating-radar/)
