@@ -24,6 +24,8 @@ Version:      0.0.0
 
 * [Improving Cheap SDR Antennas](https://hackaday.com/2021/07/19/improving-cheap-sdr-antennas/)
 
+* [Spy Radio: Antenna Considerations](https://www.youtube.com/watch?v=UPwdYnxku6E)
+
 # Satellite Weather Images
 * [Get Your Weather Images Straight From The Satellite](https://hackaday.com/2020/03/14/get-your-weather-images-straight-from-the-satellite/)
 * [R2Cloud Project](https://github.com/dernasherbrezon/r2cloud)
