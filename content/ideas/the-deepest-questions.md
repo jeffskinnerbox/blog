@@ -678,6 +678,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 ## Beating the Odds
 * [The Gambler Who Beat Roulette](https://www.bloomberg.com/features/2023-how-to-beat-roulette-gambler-figures-it-out/)
 * [The Gambler Who Cracked the Horse-Racing Code](https://www.bloomberg.com/news/features/2018-05-03/the-gambler-who-cracked-the-horse-racing-code)
+* [The Gambler's Fallacy is Really Odd](https://www.youtube.com/watch?v=XA_0OMJjkxQ)
 
 ## Probability of the Extremely Rare
 * [How to Build a Probability Microscope](https://nautil.us/issue/44/Luck/-how-to-build-a-probability-microscope)
