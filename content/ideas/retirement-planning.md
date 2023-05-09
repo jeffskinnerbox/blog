@@ -176,6 +176,7 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 
 # How Do You Compare
 * [Average Retirement Income, Assets, and Debt — How do you compare?](https://medium.com/crows-feet/average-retirement-assets-income-and-debt-how-do-you-compare-b529ffa9d322)
+* [Are you saving enough for retirement?](https://us14.campaign-archive.com/?e=f47e0c69f8&u=ff1bc9abb222ec965ded81e5e&id=a979dba2ee)
 
 # Side Hustle
 * [How To Turn A Side Hustle Into Your Dream Business](https://www.namecheap.com/blog/how-to-turn-a-side-hustle-into-your-dream-business/)
