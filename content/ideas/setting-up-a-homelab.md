@@ -859,6 +859,15 @@ establish Firewall rules, and other features you would expect of a router.
 
 
 
+# Uptime Kuma
+* [The BEST Home Server Uptime Monitoring!](https://www.youtube.com/watch?v=tIazVdhsSqQ)
+
+
+
+------
+
+
+
 #### Step X: Configure pfSense
 
 #### Step X: Wire Up The Network
