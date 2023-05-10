@@ -1,4 +1,4 @@
-<!--
+!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
@@ -2121,6 +2121,7 @@ making it a Uninterruptable Power Supply (UPS).
 
 # ZoonMinder
 * [ZoonMinder](https://zoneminder.com/)
+* [My ZoneMinder Surveillance Setup](https://hometechhacker.com/my-zoneminder-surveillance-setup/)
 
 # Nabu Casa
 Nabu Casa (built by the founder of Home Assistant),
