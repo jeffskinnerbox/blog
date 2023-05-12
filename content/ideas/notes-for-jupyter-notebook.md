@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -80,6 +80,18 @@ Version:      0.0.0
 * [Upgrading to JupyterLab on Ubuntu](https://hackersandslackers.com/upgrading-to-jupyter-lab-on-ubuntu/)
 * [JupyterLab](https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906)
 * [JupyterLab teaches Python developers magic](https://opensource.com/article/19/5/jupyterlab-python-developers-magic)
+
+
+
+----------
+
+
+
+# C On Jupyter
+* [Linux Fu: C On Jupyter](https://hackaday.com/2023/05/11/linux-fu-c-on-jupyter/)
+
+# MicroPython On Jupyter
+* [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel)
 
 
 
