@@ -64,6 +64,8 @@ BBC Precision The Measure of All Things
 * [Mass and Moles](https://www.youtube.com/watch?v=IHntDKxElAY)
 * [Heat Light and Electricity](https://www.youtube.com/watch?v=OL5_2sLqKOc)
 * [Machine Thinking](https://www.youtube.com/c/machinethinking)
+* [The Science Of Flatness](https://www.youtube.com/watch?v=OWa3F4bKJsE)
+* [The Science Of Roundness](https://www.youtube.com/watch?v=NjbvOTUSqdI)
 
 
 ------
