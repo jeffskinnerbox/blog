@@ -23,6 +23,8 @@ Version:      0.0.0
 
 * [https://github.com/features/copilot](https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html)
 
+* [Circuit Walker Sneakers pt. 1: Accelerometer Filtering w/ Tony D!](https://www.youtube.com/watch?v=zr4Pu3F-yJw)
+
 
 
 
