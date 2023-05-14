@@ -14,6 +14,7 @@ Version:      0.0.0
 
 * [Unveiling BYOM and the Edge Impulse Python SDK](https://www.edgeimpulse.com/blog/unveiling-the-new-edge-impulse-python-sdk)
 * [TinyML: An Always-On Audio Classifier using Synthetic Data](https://www.hackster.io/shahizat/tinyml-an-always-on-audio-classifier-using-synthetic-data-3e623b)
+* [TinyML Made Easy: Image Classification](https://www.hackster.io/mjrobot/tinyml-made-easy-image-classification-cb42ae)
 
 
 
