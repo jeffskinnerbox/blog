@@ -12,6 +12,7 @@ Version:      0.0.0
 
 * [Matter Devices You Can Buy Right Now](https://hometechhacker.com/matter-devices-you-can-buy-right-now/)
 * [My Early Experiences With Matter Devices](https://hometechhacker.com/my-early-experiences-with-the-matter-protocol/)
+* [Canonical's Nathan Hart Wants to Get You Started with Matter on a Raspberry Pi Running Ubuntu](https://www.hackster.io/news/canonical-s-nathan-hart-wants-to-get-you-started-with-matter-on-a-raspberry-pi-running-ubuntu-0acbd9433003)
 
 
 
