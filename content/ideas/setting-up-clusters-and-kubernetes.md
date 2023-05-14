@@ -32,6 +32,11 @@ Version:      0.0.0
 
 
 
+* [My Custom (Automated) LiM Kubernetes Cluster](https://rpi.loonix.ca/lim-cluster-set-up/)
+
+
+
+
 * [Ansible 101](https://www.youtube.com/playlist?list=PL2_OBreMn7FplshFCWYlaN2uS8et9RjNG)
 * [Kubernetes 101](https://www.youtube.com/playlist?list=PL2_OBreMn7FoYmfx27iSwocotjiikS5BD)
 * [Kubernetes explained simply, and why you should learn it!](https://www.youtube.com/watch?v=glFE28QT1HI)
