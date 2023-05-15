@@ -335,8 +335,8 @@ and can be mounted on the guest system using the VirtualBox GUI manager.
 Once mounted, the guest additions installer can be used to install the guest additions on the guest system.
 The VirtualBox Guest Additions should be installed inside a virtual machine
 after the guest operating system has been installed.
-The articale "[How to Install VirtualBox Guest Additions on Ubuntu 18.04][58]"
-eells you how to do this install.
+The article "[How to Install VirtualBox Guest Additions on Ubuntu 18.04][58]"
+tells you how to do this install.
 
 I'm not going to be using VitualBox directly,
 but instead, I'll be using VirtualBox with Vagrant.
