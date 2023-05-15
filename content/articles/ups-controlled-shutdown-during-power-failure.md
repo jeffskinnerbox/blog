@@ -111,6 +111,9 @@ UPSNAME HOME_UPS
 # Defines the type of cable connecting the UPS to your computer.
 UPSCABLE usb
 
+# Battery date - 8 characters, date battry was installed
+BATTDATE <mm/dd/yy>
+
 # the type of UPS you have
 UPSTYPE usb
 
