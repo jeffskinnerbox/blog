@@ -34,6 +34,10 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 # Matter
 * [Matter: The Future of the Smart Home?](https://hometechhacker.com/matter-the-future-of-the-smart-home/)
 
+# Security Guard Bot
+* [Home Assistant Security Guardian BOT - Part 1](https://www.youtube.com/watch?v=2BBThH_CpSE)
+* [Home Assistant BOT Configuration - Part 2](https://www.youtube.com/watch?v=EwzTobp26zs)
+* [HABot](https://github.com/PricelessToolkit/Smart-Home-Security-Guardian-Bot)
 
 
 
