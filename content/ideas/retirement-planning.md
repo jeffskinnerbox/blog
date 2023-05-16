@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 #  Financial Planning
+* [How to Make Your Own Retirement Income Plan](https://www.schwab.com/learn/story/planning-your-retirement-income-distribution)
 * [New Year's Financial Resolutions](https://www.schwab.com/learn/story/new-years-financial-resolutions-get-your-finances-in-shape)
 * [Personal Finance Calendar for 2023](https://www.schwab.com/learn/story/personal-finance-calendar)
 * [My favorite open source tools for personal finance](https://opensource.com/article/23/2/open-source-tools-personal-finance)
@@ -174,6 +175,9 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 # Working while Receiving Social Security
 * [Working while Receiving Social Security](https://www.youtube.com/watch?v=nsSViIHIm3k)
 
+# Social Security Milestones
+* [The Most Important Ages of Retirement](https://www.schwab.com/learn/story/most-important-ages-retirement)
+
 # How Do You Compare
 * [Average Retirement Income, Assets, and Debt — How do you compare?](https://medium.com/crows-feet/average-retirement-assets-income-and-debt-how-do-you-compare-b529ffa9d322)
 * [Are you saving enough for retirement?](https://us14.campaign-archive.com/?e=f47e0c69f8&u=ff1bc9abb222ec965ded81e5e&id=a979dba2ee)
@@ -182,6 +186,7 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 * [How To Turn A Side Hustle Into Your Dream Business](https://www.namecheap.com/blog/how-to-turn-a-side-hustle-into-your-dream-business/)
 
 # What Savings Do You Need to Retire
+* [Do You Have Enough for Retirement?](https://www.schwab.com/learn/story/do-you-have-enough-retirement)
 * [Do You Have Enough for Retirement?](https://www.schwab.com/resource-center/insights/content/will-you-have-enough-retirement)
 * [The 4% Rule: How Much Money Do You Need to Never Work Again?](https://moneythesimpleway.com/how-much-money-to-never-work-again/)
 * [How much do I need to retire?](https://www.fidelity.com/viewpoints/retirement/how-much-do-i-need-to-retire)
