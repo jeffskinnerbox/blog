@@ -890,6 +890,9 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * NP-Complete Problems: [The Secret Link Between Thousands of Unsolved Math Problems](https://www.youtube.com/watch?v=ctwX--JEzSA)
 * [How To Understand Computational Irreducibility](https://streetscience.net/how-to-understand-the-computational-irreducibility/)
 
+# Turing Machine
+* [Turing machines explained visually](https://www.youtube.com/watch?v=-ZS_zFg4w5k)
+
 
 
 
