@@ -638,6 +638,9 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [What is Fractional Calculus?](https://medium.com/cantors-paradise/fractional-calculus-48192f4e9c9f)
 * [What the Heck is a Half Derivative?](https://aflytle.medium.com/what-the-heck-is-a-half-derivative-14524949767b)
 * [Fractional calculus](https://medium.com/@notaredpanda/fractional-calculus-48192f4e9c9f)
+* [Fractional Calculus Demystified: Part 1 Some Intuition Explained](https://cafecitocoma.medium.com/fractional-calculus-demystified-part-1-33a0990126f)
+* [Fractional Calculus Demystified: Part 2 Riemann-Liouville Derivatives](https://cafecitocoma.medium.com/fractional-calculus-demystified-part-2-riemann-liouville-derivatives-70d9ceeab249)
+* * [Fractional Calculus Demystified: Part 3 The Caputo Derivative and The Fractional Calculus Wishlist](https://cafecitocoma.medium.com/the-caputo-derivative-and-the-fractional-calculus-wishlist-fractional-calculus-demystified-part-7ed6976bdaa2)
 
 # Discrete Calculas
 * [The Beauty and Power of Discrete Calculus](https://www.cantorsparadise.com/the-beauty-and-power-of-discrete-calculus-87931daa074)
