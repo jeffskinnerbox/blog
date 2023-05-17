@@ -446,6 +446,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Is it Possible to Predict Randomness? The Double Pendulum Experiment](https://www.youtube.com/watch?v=4xViPStT5II)
     * [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
     * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
+* [Random Sequences: Human vs Coin](https://www.youtube.com/watch?v=H2lJLXS3AYM)
 
 # Random Matrix Theory
 * [Getting started with Random Matrices: A Step-by-Step Guide](https://www.cantorsparadise.com/getting-started-with-random-matrices-a-step-by-step-guide-81e5902384e)
@@ -729,9 +730,6 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [Frequentism and Bayesianism: What's the Big Deal?](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [A Comment on Frequentist and Bayesian Statistics](https://medium.com/@dataforyou/a-comment-on-frequentist-and-bayesian-statistics-6a804fd4fba6)
 * [Bayesian Statistics with Hannah Fry](https://www.youtube.com/watch?v=7GgLSnQ48os)
-* [A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
-* [Bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
-* [Bayes’ Theorem, Clearly Explained with Visualization](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14)
 * [The Bayesian Trap](https://www.youtube.com/watch?v=R13BD8qKeTg)
 * [Bayes Theorem and some of the mysteries it has solved](https://www.youtube.com/watch?v=82q3uYw6MuY)
 * [Stats Gist List: An Irreverent Statistician’s Guide to Jargon](https://towardsdatascience.com/stats-gist-list-an-irreverent-statisticians-guide-to-jargon-be8173df090d)
@@ -747,6 +745,12 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 
 * [Frequentism and Bayesianism: What's the Big Deal? | SciPy 2014 | Jake VanderPlas](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [IS CHESS A GAME OF CHANCE? Classical vs Frequentist vs Bayesian Probability](https://www.youtube.com/watch?v=dejy4PPCFHY)
+
+## Visualizing Bayes Theorem
+* [Bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
+* [A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
+* [Bayes’ Theorem, Clearly Explained with Visualization](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14)
+* [Conditional probability explained visually (Bayes' Theorem)](https://www.youtube.com/watch?v=Zxm4Xxvzohk&list=PL87386AD236727A1B)
 
 # Bayes Search Theory
 * [Bayes Theorem and some of the mysteries it has solved](https://www.youtube.com/watch?v=82q3uYw6MuY)
