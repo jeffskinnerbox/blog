@@ -12,7 +12,7 @@ Version:      0.0.0
 -----
 
 
-
+I latter replace the 8-port [TP-Link TL-SG108E][06] (MAC Address 5C:A6:E6:17:38:98) with the 16-port [TP-Link TL-SG116E][07] (MAC Address 30:DE:4B:9E:37:CF).
 
 
 [TP-Link TL-SG108E switch][06]
@@ -88,16 +88,26 @@ Search for the MAC address via:
 # ping scan the network to assure host becomes visible and then search for the MAC address
 $ nmap -sP 192.168.1.0/24 > /dev/null ; arp -na | grep "at 5c:a6:e6"
 ? (192.168.1.21) at 5c:a6:e6:17:38:98 [ether] on eth0
+
+# OR
+# finding IPs and identifying devices on your network
+sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
+
+# OR
+# search for all the OUI's registered to tp-link
+$ nmap -sP 192.168.1.0/24 > /dev/null ; arp -na | grep -i -e "5c:a6:e6" -e "60:32:B1" \
+    -e "C0:C9:E3" -e "F8:8C:21" -e "80:EA:07" -e "E4:C3:2A" -e "90:9A:4A" -e "84:D8:1B" \
+    -e "3C:84:6A" -e "D0:37:45" -e "60:3A:7C" -e "54:A7:03" -e "B0:BE:76" -e "34:E8:94" \
+    -e "AC:84:C6" -e "94:D9:B3" -e "B0:95:8E" -e "C0:25:E9" -e "24:69:68" -e "80:89:17" -e "00:27:19"
 ```
 
 >**NOTE:** If the switch cannot receive an IP address from a DHCP server,
 >it uses the static IP address of 192.168.0.1, with a subnet mask of 255.255.255.0.
 
 With the switch plugged into the LAN,
-and assuming it receives an IP address from a DHCP server in your networkgg,
+and assuming it receives an IP address from a DHCP server in your network,
 point your browser at the IP address captured with the above scripts.
 The default login / password is `admin` / `admin`.
-(in my case, `192.168.2.16:80`, `admin`, `pfsense`)
 
 #### Step X: Update Switch Firmware - DONE
 To update the firmware,
@@ -117,7 +127,7 @@ goto the [TP-Link offical download page][10].
 [04]:
 [05]:
 [06]:https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg108e/
-[07]:
+[07]:https://www.tp-link.com/us/business-networking/easy-smart-switch/tl-sg116e/
 [08]:
 [09]:
 [10]:https://www.tp-link.com/us/support/download/tl-sg108e/v6.6/
@@ -131,4 +141,5 @@ goto the [TP-Link offical download page][10].
 [18]:
 [19]:
 [20]:
+
 

@@ -100,7 +100,7 @@ Portainer Agent      192.168.1.205:9001
         Other Boxes
 WiFi6 Access Point   192.168.1.2:80       TP-Link EAP610
 WiFi Range Extender  192.168.1.3:80       TP-Link
-Ethernet Switch      192.168.1.4:80       TP-Link TL-SG108E
+Ethernet Switch      192.168.1.4:80       TP-Link TL-SG108E or TP-Link TL-SG116E
 Philips Hue Gateway  DHCP
 SmartThings Gateway  DHCP
 
