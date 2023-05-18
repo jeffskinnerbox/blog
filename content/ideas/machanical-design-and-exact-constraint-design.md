@@ -5,7 +5,7 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="http://www.foxbyrd.com/wp-content/uploads/2018/02/file-4.jpg" title="These materials require additional work and are not ready for general use." align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -49,6 +49,8 @@ So high accuracy requires both high precision and high trueness.
 * [The Precision Upon Which Civilizations Are Built](https://hackaday.com/2018/01/23/the-precision-upon-which-civilizations-are-built/)
 * [Foundations of Mechanical Accuracy](https://archive.org/details/FoundationsOfMechanicalAccuracy/page/n1/mode/2up)
 * [How to Measure to a MILLIONTH of an Inch (The Dawn of Precision)](https://www.youtube.com/watch?v=T-xMCFOwllE)
+
+* Wire EDM - [How these impossibly thin cuts are made](https://www.youtube.com/watch?v=f9zyenX2PWk)
 
 * [The Science Of Flatness](https://www.youtube.com/watch?v=OWa3F4bKJsE)
 * [The Science Of Roundness](https://www.youtube.com/watch?v=NjbvOTUSqdI)
