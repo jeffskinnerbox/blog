@@ -666,6 +666,7 @@ fast experimentation and easy community contributions.
 Donkeycar community has built a self driving library for Python.
 
 * [Donkey Car](http://www.donkeycar.com/)
+* [How to Build a Donkey](http://docs.donkeycar.com/guide/build_hardware/)
 * [Stereo Vision and LiDAR Powered Donkey Car](https://www.hackster.io/bluetiger9/stereo-vision-and-lidar-powered-donkey-car-575769)
 * [Autonomous Rover Navigates The House With LIDAR](https://hackaday.com/2020/09/22/autonomous-rover-navigates-the-house-with-lidar/)
 * [Lidar House Looks Good, Looks All Around](https://hackaday.com/2020/12/20/lidar-house-looks-good-looks-all-around/)
