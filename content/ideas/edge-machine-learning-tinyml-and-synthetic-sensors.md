@@ -82,6 +82,7 @@ TinyML is a community of engineers focused on how best to implement machine lear
 # TinyML Boards
 * [Easy TinyML on ESP32 and Arduino](https://www.hackster.io/news/easy-tinyml-on-esp32-and-arduino-a9dbc509f26c)
 * [TinyML: Machine Learning on ESP32 with MicroPython](https://dev.to/tkeyo/tinyml-machine-learning-on-esp32-with-micropython-38a6)
+* [Exploring Machine Learning with the new XIAO ESP32S3](https://www.hackster.io/mjrobot/exploring-machine-learning-with-the-new-xiao-esp32s3-6463e5)
 
 * [SparkFun Edge Development Board - Apollo3 Blue](https://www.sparkfun.com/products/15170) - $14.95
 * [Ambiq]()
@@ -94,6 +95,9 @@ TinyML is a community of engineers focused on how best to implement machine lear
 * [Arducam Pico4ML Board – TinyML on Raspberry Pi RP2040 with QVGA Camera & Display](https://www.cnx-software.com/2021/04/13/arducam-pico4ml-board-tinyml-on-raspberry-pi-rp2040-with-qvga-camera-display/)
 * [Arducam Mega: SPI Camera for Any Microcontroller](https://www.kickstarter.com/projects/arducam/arducam-mega-spi-camera-for-any-microcontroller?ref=4vgsg1)
 * [IoT gets a machine learning boost, from edge to cloud](https://www.raspberrypi.org/blog/iot-gets-a-machine-learning-boost-from-edge-to-cloud/)
+
+# ESP32 Cam
+* [ESP32 Cam and Edge Impulse](https://github.com/edgeimpulse/example-esp32-cam)
 
 # TinyML Tools
 * [NanoEdge AI Studio](https://cartesiam.ai/)
@@ -142,9 +146,6 @@ process and distill that information, and relay it to remote end users.
 * [Why TinyML will be huge](https://thedataexchange.media/why-tinyml-will-be-huge/)
 
 * [Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc&t=329s)
-
-# ESP32 Cam
-* [ESP32 Cam and Edge Impulse](https://github.com/edgeimpulse/example-esp32-cam)
 
 # AI at the Very, Very Edge
 * [AI at the Very, Very Edge](https://www.eetimes.com/ai-at-the-very-very-edge/)
