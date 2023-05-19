@@ -12,6 +12,21 @@ Version:      0.0.0
 -----
 
 
+**Terminal:** A computer terminal is an electronic or electromechanical hardware device that can be used to enter data into and transcribe data from a computer or a computing system. The teletype was an example of an early day hardcopy terminal and predated the use of a computer screen by decades. Basically, the terminal takes input and shows text while the real work happens at the other end in a mainframe or large computer. Nowadays, when we say terminal, normally we mean terminal emulator in short.
+
+**Terminal Emulator:** A terminal emulator is a computer program that emulates a video terminal within some other display architecture. A terminal emulator inside a graphical user interface is often called a terminal window that allows the user access to a text terminal and all its applications such as command-line interfaces (CLI) and text user interface (TUI) applications. Konsole, Alacritty, kitty, Windows Terminal, Terminator are examples of modern terminal emulators.
+
+**Console:** A console is a piece of hardware, or a physical device (normally consisting of a keyboard and screen). It is the main point to access a system for maintenance or to perform some special operation. Nowadays it is used synonymously with terminal, but strictly speaking, the terminal is a remote piece of device.
+
+**Virtual Console:** A virtual console is a conceptual combination of the keyboard and display for a computer user interface. It is a feature of some Unix-like operating systems in which the system console of the computer can be used to switch between multiple virtual consoles to access unrelated user interfaces. In a Unix-like system, it is represented by the device file /dev/console or /dev/tty0.
+
+**Shell:** A shell is a computer program that exposes an operating system’s services to a human user or another program. Zsh, Bash, PowerShell, Fish Shell are all examples of shells that run inside a terminal emulator.
+
+**TTY:** A teleprinter (teletypewriter, teletype, or TTY) is an electromechanical device that can be used to send and receive typed messages through various communications channels, in both point-to-point and point-to-multipoint configurations. It is an example of an early-day hardcopy terminal and predated the use of a computer screen by decades. Nowadays, when we talk about tty, it means the software emulation of the real thing, especially in Unix-like systems. Check out this article for more details if you are interested — [The TTY demystified](http://www.linusakesson.net/programming/tty/).
+
+* [Understanding Terminal and Shell](https://alpha2phi.medium.com/understanding-terminal-and-shell-a306ec0aee65)
+* [A Brief Introduction to termios](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios/)
+
 
 
 
