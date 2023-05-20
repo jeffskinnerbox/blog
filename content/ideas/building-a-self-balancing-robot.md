@@ -126,14 +126,15 @@ perform regression testing, and train AI system using realistic scenarios.
 * [LOTP Robot Dog V2](https://hackaday.io/project/188660-lotp-robot-dog-v2)
 * [Four-legged robots are no longer a luxury: Affordable small robot dog presented](https://tech.news.am/eng/news/720/four-legged-robots-are-no-longer-a-luxury-affordable-small-robot-dog-presented.html)
 
-## Petoi Bittle
+## Petoi Bittle Robot
 * [Petoi Bittle: A Palm-sized Robot Dog for STEM and Fun](https://www.kickstarter.com/projects/petoi/bittle)
     * [sit(); Good Boy!](https://www.hackster.io/news/sit-good-boy-e0f259d88d44)
 * [Petoi Bittle - Bionic Open Source Robot Dog](https://www.seeedstudio.com/CH-Bittle-p-4833.html)
 
-# Mecanum Wheels
-* [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
-* [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1
+# Mecanum Wheel Robot
+* [Mecanum Wheel Robot Car with ESP-NOW Remote Control](https://dronebotworkshop.com/mecanum/)
+    * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
+    * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
 
 # Jumping Robot
 * [Little Jumping Bot Can Now Stick The Perfect Landing](https://hackaday.com/2020/08/02/little-jumping-bot-can-now-stick-the-perfect-landing/)

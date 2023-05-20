@@ -13,6 +13,11 @@ Version:      0.0.0
 
 
 
+# Mecanum Wheel Robot
+* [Mecanum Wheel Robot Car with ESP-NOW Remote Control](https://dronebotworkshop.com/mecanum/)
+    * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
+    * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
+
 # Remote Control / Viewing
 * [Building a Network Controlled Robot With Arduino and Raspberry Pi](https://medium.com/swlh/building-a-network-controlled-robot-with-arduino-and-raspberry-pi-77dd9134e48c)
 * [Webots: open source for simulate of robots](https://cyberbotics.com/)
