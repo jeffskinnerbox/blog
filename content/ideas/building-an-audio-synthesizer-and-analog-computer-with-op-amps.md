@@ -290,7 +290,9 @@ Doesn't seem to work???
 [eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
 
 # Op-Amps
-* [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
+* [Op-Amps – Analog Building Blocks](https://dronebotworkshop.com/op-amps/)
+    * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
+* [Op-Amps - Using Operational Amplifiers](https://www.youtube.com/watch?v=_HHxV-7alwE)
 * [EEVBlog 1436 - The TOP 5 Jellybean OPAMP's](https://www.youtube.com/watch?v=uq1DMWtjL2U)
 * [Opamp](https://www.youtube.com/watch?v=Z8JDsvfZjL8&list=PLXDK0MeyK4ZgWkzd59wLkir7ZjI7fIsFn)
 * [An Applications Guide for Op-Amps](https://www.changpuak.ch/electronics/datasheets/AN-20.pdf)
