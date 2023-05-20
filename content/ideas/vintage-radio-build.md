@@ -210,6 +210,9 @@ by building your own coherer.
 * [Semiconductors @ Home](https://hackaday.io/project/107598-semiconductors-home)
 * [Compound Microphone](https://simplifier.neocities.org/compound.html)
 
+## Vacuum Tube Lamp
+* [Building a Giant Vacuum Tube Smart Lamp](https://hackaday.com/2023/05/19/building-a-giant-vacuum-tube-smart-lamp/)
+
 ## Making a Vacuum
 * [Solving Ultra High Vacuum Leaks Has An Elementary Solution](https://hackaday.com/2021/08/16/solving-ultra-high-vacuum-leaks-has-an-elementary-solution/)
 * [An Affordable Homemade Vacuum Chamber](https://hackaday.com/2020/06/29/an-affordable-home-made-vacuum-chamber/)
