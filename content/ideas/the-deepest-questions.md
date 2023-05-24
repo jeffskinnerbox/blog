@@ -849,6 +849,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [General Relativity: How Einstein’s wrong ideas led to his greatest success](https://medium.com/the-infinite-universe/general-relativity-how-einsteins-wrong-ideas-led-to-his-greatest-success-dcfe085a417)
 
 # Tensors
+* [How Should I Depict Tensors?](https://joseph-mellor1999.medium.com/update-how-should-i-depict-tensors-c352ff0f04c2)
 * [Understanding Tensors and their Beauty](https://medium.com/@pelicanlabs/understanding-tensors-and-their-beauty-715041faed4c)
 * [Understanding Tensors and their Beauty Part II](https://medium.com/@pelicanlabs/understanding-tensors-and-their-beauty-part-ii-3dbd4876a8bd)
 * [A Light Intro To Tensors: A Framework For Defining Geometric Objects In Space](https://www.cantorsparadise.com/a-light-intro-to-tensors-49508a0a82ab)
