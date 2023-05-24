@@ -87,6 +87,8 @@ Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and 
 ## First and Esay Flying
 * [A Drone for the Rest of Us](https://hackaday.com/2022/09/29/a-drone-for-the-rest-of-us/)
 
+* [Raspberry PI Pico W Copter is Ready for Take Off](https://www.tomshardware.com/news/raspberry-pi-pico-w-copter)
+
 * [Micro Coreless Quadcopter](https://rbklabs.in/micro-coreless-quadcopter/)
     * [Frame - QX95](https://www.amazon.com/QX95-Brushed-Racing-Quadcopter-Frame/dp/B08LTNT16B)
     * [Brushed/coreless motors - 2 x CW and 2 x CCW - 8520 Coreless](https://www.amazon.com/s?k=8520+Coreless&i=toys-and-games&crid=1GJ7TRJSESA5H&sprefix=8520+coreless%2Ctoys-and-games%2C69&ref=nb_sb_noss_2)
