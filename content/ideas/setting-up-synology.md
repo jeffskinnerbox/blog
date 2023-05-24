@@ -19,6 +19,7 @@ Version:      0.0.0
 
 * [Backup in Linux Servers - Docker Volumes, and Databases](https://www.youtube.com/watch?v=JoA6Bezgk1c)
 * [Get Docker organized for easier backups & replication. Trust me, an hour can save you days!](https://www.youtube.com/watch?v=sGtTvV0xbYg)
+* [Backing up your Docker Configurations and Data](https://www.youtube.com/watch?v=wUXSLmGAtgQ)
 
 * [Synology NAS Setup & Configuration Guide!](https://www.wundertech.net/synology-nas-initial-setup-ultimate-guide/)
 * [Synology NAS Setup Guide 2022 – Part 1, Setup, Users, Updates, Remote Access And Security Settings](https://nascompares.com/guide/synology-nas-setup-guide-2022-part-1-setup-users-updates-remote-access-and-security-settings/)
