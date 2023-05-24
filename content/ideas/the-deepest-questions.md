@@ -361,6 +361,7 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 
 # Category Theory
 * [A Sensible Introduction to Category Theory](https://www.youtube.com/watch?v=yAi3XWCBkDo)
+* [Category Theory in Life - Eugenia Cheng](https://www.youtube.com/watch?v=ho7oagHeqNc)
 * [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
 
 # Card Tricks
