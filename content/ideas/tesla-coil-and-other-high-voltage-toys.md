@@ -133,6 +133,7 @@ is generally given credit for its discovery but Henri Poincare made observations
 * [Chaos Theory and the Logistic Map](https://geoffboeing.com/2015/03/chaos-theory-logistic-map/)
 * [Machine Learning’s ‘Amazing’ Ability to Predict Chaos](https://www.quantamagazine.org/machine-learnings-amazing-ability-to-predict-chaos-20180418/)
 * [The Lorenz Collection](https://chaostheorynft.medium.com/the-lorenz-collection-82375f74aac5)
+* [Analog Lorenz Attractor Computer](https://hackaday.io/project/191142-analog-lorenz-attractor-computer)
 * [Tim's Chaotic Magnets!](https://www.youtube.com/watch?v=dLiqdtOuYVY)
 * [Numerically solve and visualise the Lorenz chaotic ordinary differential equations in Python](https://medium.com/geekculture/visualizing-the-lorenz-chaotic-differential-equations-in-python-329d8ae43f33)
 

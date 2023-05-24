@@ -347,6 +347,7 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 
 * [The AI Hardware Problem](https://www.youtube.com/watch?v=owe9cPEdm7k)
 
+* [Analog Lorenz Attractor Computer](https://hackaday.io/project/191142-analog-lorenz-attractor-computer)
 
 
 * [The Mechanical Integrator - a machine that does calculus](https://www.youtube.com/watch?v=s-y_lnzWQjk)
