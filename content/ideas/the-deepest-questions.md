@@ -841,6 +841,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 
 # Uncomputable Numbers
 * [Uncomputable Numbers](https://medium.com/cantors-paradise/uncomputable-numbers-ee528830d295)
+* [These Are the Most Bizarre Numbers in the Universe](https://www.scientificamerican.com/article/these-are-the-most-bizarre-numbers-in-the-universe/)
 
 # The Universe Wants to Kill You
 * [The Universe Might End Tomorrow](https://medium.com/predict/the-universe-might-end-tomorrow-8916b0d0cee2)
