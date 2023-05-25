@@ -81,6 +81,8 @@ when the microcontroller is asleep to avoid very small but impactful currents th
     * [Charging Batteries from Solar](https://mu.microchip.com/charging-batteries-from-solar)
     * [Display charge and discharge current wide range](https://www.elektormagazine.com/labs/display-charge-and-discharge-current-wide-range)
 
+* [Run your Raspberry Pi off-grid with solar power. Here's what you need](https://www.zdnet.com/home-and-office/run-your-raspberry-pi-off-grid-with-solar-power-heres-what-you-need/)
+
 * [PiJuice Zero](https://www.crowdsupply.com/pi-supply/pijuice-zero)
 * [Solar Power Manager 5V](https://www.dfrobot.com/product-1712.html)
 * [Tracking Maximum Power Point for Solar Efficiency](https://hackaday.com/2021/09/19/tracking-maximum-power-point-for-solar-efficiency/)
