@@ -192,6 +192,13 @@ The megnetometer points to [magnetic north][11], and not [true north][12]
 # Barometer
 * [Altitude Data for Drone Navigation: A Compact Barometric Pressure Sensor and Thermometer from Bosch](https://www.allaboutcircuits.com/news/drone-altitude-bmp388-barometric-pressure-sensor-thermometer-bosch/)
 
+# Variometer
+In aviation, a variometer – also known as a rate of climb and descent indicator (RCDI),
+rate-of-climb indicator, vertical speed indicator (VSI), or vertical velocity indicator (VVI) –
+is one of the flight instruments in an aircraft used to inform the pilot of the rate of descent or climb.
+
+* [Adding Variometer Functionality To A GPS](https://hackaday.com/2023/05/25/adding-variometer-functionality-to-gps/)
+
 # Adafruit
 [10-dof-imu!](http://www.alliedelec.com/images/products/Small/70460797.jpg)
 Adafruit's 10-DOF IMU (10 Degrees of Freedom, Inertial Measurement Unit).
