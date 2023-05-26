@@ -32,6 +32,9 @@ Version:      0.0.0
 * [Large Language Models from scratch](https://www.youtube.com/watch?v=lnA9DMvHtfI)
 * [Large Language Models: Part 2](https://www.youtube.com/watch?v=YDiSFS-yHwk)
 * [How to Run a Large Language Model on Linux (and Why You Should)](https://www.makeuseof.com/run-a-large-language-model-on-linux/)
+* [What are Large Language Models](https://machinelearningmastery.com/what-are-large-language-models)
+* [Get a Taste of LLMs from GPT4All](https://machinelearningmastery.com/get-a-taste-of-llms-from-gpt4all)
+* [What Are Zero-Shot Prompting and Few-Shot Prompting](https://machinelearningmastery.com/what-are-zero-shot-prompting-and-few-shot-prompting/)
 
 # ChatGPT With Custom Knowledge Base
 * [How To Build Your Own Custom ChatGPT With Custom Knowledge Base](https://betterprogramming.pub/how-to-build-your-own-custom-chatgpt-with-custom-knowledge-base-4e61ad82427e)
