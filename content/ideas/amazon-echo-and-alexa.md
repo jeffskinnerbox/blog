@@ -491,6 +491,15 @@ Luckly, [you can turn Sidewalk off][42].
 * [Amazon Sidewalk will create entire smart neighborhoods. Here's what you should know](https://www.cnet.com/home/smart-home/amazon-sidewalk-will-create-entire-smart-neighborhoods-faq-ble-900-mhz/)
 * [How to Opt-Out of Amazon Sidewalk](https://www.howtogeek.com/702485/how-to-opt-out-of-amazon-sidewalk/)
 
+## Amazon Sidewalk360
+* [Amazon Sidewalk360](https://360.sidewalk.amazon/)
+
+Amazon Sidewalk, the shared community network helping customers stay connected to the
+people, places, and things most important to them, welcomes you to Amazon Sidewalk360.
+With Amazon Sidewalk360, you can explore our coverage maps and experience the network
+with the Amazon Sidewalk Test Kit provided to you. You can also submit a device or device component
+for Works with Amazon Sidewalk qualification, and track where you are in the qualification process.
+
 # First Alexa Skill (Ask Google)
 # Doing Google Search via Alexa
 The two leading voice assistants are Amazon’s Alexa and [Google’s Voice Assistant][04].
