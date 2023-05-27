@@ -56,6 +56,9 @@ Version:      0.0.0
 ### Quadrotor BBplane VTOL
 * [QBIT: VTOL Tailsitter Flies With Quadcopter Control Software](https://hackaday.com/2021/08/02/vtol-tailsitter-flies-with-quadcopter-control-software/)
 
+### Omnicopter
+* [SIX DEGREES OF FREEDOM OMNICOPTER WITH ARDUPILOT](https://hackaday.com/2021/01/09/six-degrees-of-freedom-omnicopter-with-ardupilot/)
+
 ### Modeling Wing Sections
 * [A Guide To 3D Printing Model Aircraft Wings](https://hackaday.com/2022/08/26/a-guide-to-3d-printing-model-aircraft-wings/)
 
