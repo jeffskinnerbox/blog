@@ -290,6 +290,8 @@ Support Enforcers and Blockers
 * [Cura 3.6 | 3D Printing Custom Supports & Suport Blockers](https://www.youtube.com/watch?v=pAJbp0EKN20)
 * [CURA - Tree Supports vs Standard Supports]()
 
+* [3D Printing Bores Without Support](https://hackaday.com/2023/05/28/3d-printing-bores-without-support/)
+
 ### Step X: Customizing Supports
 Install Custom Supports plugin by selecting the **Marketplace** button at the top right on Cura.
 
