@@ -694,6 +694,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The Universe in Your Hand](https://ngoeke.medium.com/the-universe-in-your-hand-9a88ce045e37)
     * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
     * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
+    * [Expert reveals the fascinating link between math and card shuffling](https://phys.org/news/2023-04-expert-reveals-fascinating-link-math.html)
 * [How To Perfectly Predict Improbable Events](https://streetscience.net/how-to-perfectly-predict-improbable-events/)
 * [Predicting catastrophic events with Didier Sornette](https://www.youtube.com/watch?v=J_vtfxJaRBg)
 
