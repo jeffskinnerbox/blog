@@ -160,6 +160,9 @@ A radio clock or radio-controlled clock (RCC), is a type of quartz clock or watc
 * [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 * [WWV](https://en.wikipedia.org/wiki/WWV_(radio_station))
 
+* [Railway Station Clock Brought Back To Life](https://www.youtube.com/watch?v=ZhPZBuXZctg&t=8s)
+    * [veebch/clock](https://github.com/veebch/clock)
+
 ## Network Time Protocol (NTP)
 In operation since before 1985, the Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks.
 
