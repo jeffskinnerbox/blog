@@ -47,6 +47,15 @@ https://www.computerhope.com/unix/uwhich.htm
 # Fuzzy Finder - fzf
 * [Why you should be using fzf, the command line fuzzy finder](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/)
 * [A Quick Introduction To fzf (Interactive Command-Line Fuzzy Finder)](https://www.linuxuprising.com/2021/03/a-quick-introduction-to-fzf-interactive.html)
+* [Find anything you need with fzf, the Linux fuzzy finder tool](https://www.redhat.com/sysadmin/fzf-linux-fuzzy-finder)
+
+```bash
+# install fuzzy finder
+sudo apt install fzf
+
+# interactive execution of fzf
+fzf
+```
 
 # Change Owner or Group
 
