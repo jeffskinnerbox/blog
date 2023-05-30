@@ -27,3 +27,5 @@ so built this multifunctional radio controller which can be used for pretty much
 * [Woodoonics' FuseRF Is the "Fusion" of Arduino-Compatible Dev Board and nRF24L01+ Radio Chip](https://www.hackster.io/news/woodoonics-fuserf-is-the-fusion-of-arduino-compatible-dev-board-and-nrf24l01-radio-chip-c5b785bf4860)
 
 * [ESP32 - RC Transmitter](https://www.thingiverse.com/thing:5757906)
+
+* Joystick & Buttons - [Adafruit Mini I2C Gamepad with seesaw - STEMMA QT / Qwiic](https://www.adafruit.com/product/5743)

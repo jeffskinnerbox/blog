@@ -64,6 +64,7 @@ that does not rely on infrastructure like [The Things Network (TTN)](https://www
 * [Snail Mail Notifier’s Simple Power Management To Maximize Battery Life](https://hackaday.com/2022/12/19/snail-mail-notifiers-simple-power-management-to-maximize-battery-life/)
 
 * [Handheld LoRa Joystick For Long-Range Bots](https://hackaday.com/2019/09/11/handheld-lora-joystick-for-long-range-bots/)
+* Joystick & Buttons - [Adafruit Mini I2C Gamepad with seesaw - STEMMA QT / Qwiic](https://www.adafruit.com/product/5743)
 
 * [IRC Over LoRa, For When Things Really Go South](https://hackaday.com/2020/12/12/irc-over-lora-for-when-things-really-go-south/)
 
