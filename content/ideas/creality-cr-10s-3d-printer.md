@@ -12,6 +12,10 @@ Version:      0.0.0
 
 
 
+* [How to Update the Firmware of Your 3D Printer](https://www.makeuseof.com/3d-printer-update-firmware/)
+
+
+
 # Shop Here
 * https://www.gearbest.com/3d-printers-3d-printer-kits/pp_778981.html?wid=1433363#goodsDetail
 
