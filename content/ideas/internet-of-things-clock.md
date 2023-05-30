@@ -28,6 +28,10 @@ Version:      0.0.0
 ################################## Junk ########################################
 
 
+# Swiss Railway Clock Design
+* [Mondaine](https://mondaine.com/collections/clocks?gclid=CjwKCAjwvdajBhBEEiwAeMh1UxznimxNzUIkfqNSUaTJ0SsMbIYC5gH-rNjFsH64nMYZzc8P0R8jnxoCiUwQAvD_BwE)
+* [Swiss Railway Clock: About The Iconic Design](https://expertworldtravel.com/swiss-railway-clock/)
+* [Swiss Railway Clock / SBB Bahnhofsuhr](https://www.thingiverse.com/thing:6002469)
 
 
 * [A Digital Real Time Clock](https://hackaday.io/project/180005-a-digital-real-time-clock)
