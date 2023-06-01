@@ -28,6 +28,8 @@ Version:      0.0.0
 
 
 
+
+
 # What is a Large Language Model (LLM)?
 * [Large Language Models from scratch](https://www.youtube.com/watch?v=lnA9DMvHtfI)
 * [Large Language Models: Part 2](https://www.youtube.com/watch?v=YDiSFS-yHwk)
@@ -54,6 +56,10 @@ well—to give it what we might think of as “computational superpowers”.
 * [OpenAI's ChatGPT is a MASSIVE step forward in Generative AI](https://www.youtube.com/watch?v=HTWfA7KFzoA)
 * [ChatGPT: 3 productivity tips for IT professionals](https://www.redhat.com/architect/chatgpt-programming-pros-cons)
 * [How To Create Your Own Auto-GPT AI Agent](https://www.tomshardware.com/how-to/auto-gpt-ai-agent)
+
+# Private ChatGPT
+* [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
+
 
 ## GPT-4
 * [Get free access to GPT-4](https://www.livemint.com/news/world/openais-gpt-4-can-be-used-free-using-this-simple-hack-follow-these-3-steps-11679738549612.html)
