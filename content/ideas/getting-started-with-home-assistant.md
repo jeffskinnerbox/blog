@@ -2181,6 +2181,8 @@ The standard recorder in Home Assistant sometimes gets corrupt and results in lo
 ## Smart Garage
 * [Smart Garage Control With Firebase AutoML Vision Edge and RaspberryPi](https://medium.com/firebase-developers/smart-garage-control-with-firebase-automl-vision-edge-and-raspberrypi-834fa0eaa7c6)
 * [Smart Garage Door Opener | Shelly 1 & Home Assistant](https://www.youtube.com/watch?v=rix-sO9hGSc)
+* [Make Your Own Smart Garage Door Opener for $15](https://hometechhacker.com/make-your-own-smart-garage-door-opener-for-15/)
+* [DIY Garage Door Opener w/ Security+ 2.0 GDOs](https://hometechhacker.com/diy-garage-door-opener-w-security-2-0-gdos/)
 
 ## Smart Thermostat
 * [Building a better thermostat with Home Assistant](https://opensource.com/article/18/8/build-thermostat-open-source-tools)
