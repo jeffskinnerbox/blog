@@ -47,6 +47,7 @@ Version:      0.0.0
 * [Quantum computing cheat sheet for circuit designers](https://www.eenewseurope.com/en/quantum-computing-cheat-sheet-for-circuit-designers/)
 
 # Vectors & Kets
+* [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
 * [The Language of Quantum Physics](https://medium.com/quantafy/the-language-of-quantum-physics-8f35cdf85b34)
 * [Quantum Formalism: Vectors](https://medium.com/quantafy/quantum-formalism-vectors-4284251f550a)
 * [The Eigenvalue Equation: Explained](https://medium.com/quantafy/the-eigenvalue-equation-explained-a1265321e59f)
