@@ -93,6 +93,7 @@ A cross-platform Python library for differentiable programming of quantum comput
 * [Duality Of Light Explored By Revisiting The Double-Slit Experiment](https://hackaday.com/2020/10/18/duality-of-light-explored-by-revisiting-the-double-slit-experiment/)
 
 # Towards a Demystification of Quantum Computers
+* [Quantum Computers, explained with MKBHD](https://www.youtube.com/watch?v=e3fz3dqhN44)
 * [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
 * [What Makes Quantum Computing So Hard to Explain?](https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608)
 * [Why Everything You Thought You Knew About Quantum Physics is Different - with Philip Ball](https://www.youtube.com/watch?v=q7v5NtV8v6I)
