@@ -47,6 +47,10 @@ Water leak detection by measuring the flow of water in the house
 * [DIY Hydrophone Listens In On The Deep For Cheap](https://hackaday.com/2022/02/19/diy-hydrophone-listens-in-on-the-deep-for-cheap/)
 * [Cadmus - Microphone background noise cancellation and suppression for Linux!](https://www.youtube.com/watch?v=yYibLw3gsBw)
 
+## Leak Detection via Radar
+* [Neural Network Helps With Radar Pipeline Diagnostics](https://hackaday.com/2023/05/31/neural-network-helps-with-radar-pipeline-diagnostics/)
+* [AI-assisted Pipeline Diagnostics and Inspection W/ MmWave](https://www.instructables.com/AI-assisted-Pipeline-Diagnostics-and-Inspection-W-/)
+
 # About Leesburg's Water Meters
 * [Town of Leesburg: View Your Water Usage](https://www.leesburgva.gov/departments/utilities-water-sewer/customer-services/view-your-water-usage)
 * [Using SDR to Read Your Smart Meter](https://hackaday.com/2014/02/25/using-sdr-to-read-your-smart-meter/)
