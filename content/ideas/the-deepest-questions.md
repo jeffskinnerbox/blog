@@ -495,6 +495,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Chapter 4: What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
 
 # What about Quantum Theory?
+* [Quantum Physics Explained | Wondrium Perspectives](https://www.youtube.com/watch?v=rf1Ye87GhZU)
 * [Why we need quantum fields, not just quantum particles](https://medium.com/starts-with-a-bang/why-we-need-quantum-fields-not-just-quantum-particles-c05e2260c594)
 * [Who killed Schrödinger's cat?](https://plus.maths.org/content/deadandalive)
 * [The Schrödinger Equation — 1, 2](https://medium.com/quantafy/solving-the-schr%C3%B6dinger-equation-1-2-848a5150eb05)
