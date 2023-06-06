@@ -75,6 +75,12 @@ This can be done by making use of:
 # Make it Speak
 * [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaay.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
 
+# Magic Storybook with ChatGPT
+This guide will show you how to create your own never-ending story book using a Raspberry Pi,
+a touch screen display, and ChatGPT.
+
+* [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
+
 # AI Generated Text to Speech
 
 # AI Generated Text to Voice
