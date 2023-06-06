@@ -169,6 +169,7 @@ ESP32-C5 = dual-band WiFi 6 + BLE
 
 # ESP32-C6
 ESP32-C6 = WiFi 6 + Bluetooth 5 LE
+* [Is the new Espressif ESP32-C6 a game changer?](https://www.youtube.com/watch?v=d0dkTFxa3io)
 * [ESP32-C6 WiFI 6 and Bluetooth 5 LE RISC-V SoC for IoT devices coming soon](https://www.cnx-software.com/2021/04/11/esp32-c6-wifi-6-and-bluetooth-le-risc-v-soc-for-iot-devices/)
 * [ Espressif ESP32-C6 Includes WiFi 6 And A RISC-V Core](https://hackaday.com/2021/04/11/new-part-day-espressif-esp32-c6/)
 
