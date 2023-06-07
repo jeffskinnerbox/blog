@@ -210,6 +210,8 @@ They were pretty much just displayed current coordinates including latitude, lon
 These old units are big, heavy, slow, and use a ton of power for what they do.
 Modern GPS units are light, small, cheap, and use very little power.
 
+* [Navigation: Maryland School of Sailing](https://www.youtube.com/playlist?list=PLDjZqs-Y1cMyCX3cZ5FfkXdyhywllJeJw)
+
 * [A Brief History of GPS](https://aerospace.org/article/brief-history-gps)
 * [The central place of GPS in our lives](https://plus.maths.org/content/recognising-place-gps-has-our-lives?nl=0)
 * [How Etak Paved the Way to Personal Navigation](https://hackaday.com/2018/06/29/how-etak-paved-the-way-to-personal-navigation/)
