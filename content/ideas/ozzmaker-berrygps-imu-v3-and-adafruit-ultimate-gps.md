@@ -333,6 +333,9 @@ Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%20
 
 -----
 
+# Where Am I?
+* [The Longitude Problem - Improving Navigation with the Harrison Clocks](https://www.youtube.com/watch?v=zlRxWJ_kGEA)
+
 # Choosing GPS Technology
 * [How To Choose The Right GPS Module For Your Project](https://hackaday.com/2020/08/14/how-to-choose-the-right-gps-module-for-your-project/)
 * [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
