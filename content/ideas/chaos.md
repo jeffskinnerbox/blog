@@ -24,3 +24,15 @@ _Chaos: When the present determines the future, but, the approximate present doe
 * [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
 
 * [Analog Lorenz Attractor Computer](https://hackaday.io/project/191142-analog-lorenz-attractor-computer)
+
+# Jerk Circuit
+Jerk circuit are discribed by equation involves the third derivative of x (time derivative of acceleration).
+Such type of a differential equation is called a ‘jerk’ equation.
+
+* [Chaos from Jerk Circuit](https://www.ias.ac.in/article/fulltext/reso/015/03/0257-0267)
+* [This Lighthouse Sculpture Flickers in the Rhythm of Chaos](https://hackaday.com/2023/06/06/op-amp-contest-this-lighthouse-sculpture-flickers-in-the-rhythm-of-chaos/)
+    * [Sprott’s chaotic jerk circuit](https://sprott.physics.wisc.edu/pubs/paper352.htm)
+* [The Jerkster](http://ijfritz.byethost4.com/Chaos/ch_cir2.htm)
+
+# Chaos Theory for Synthesizers
+* [Chaos Theory for Synthesizers](http://ijfritz.byethost4.com/Chaos/ch_over.htm)
