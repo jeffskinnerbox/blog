@@ -2256,6 +2256,7 @@ Also: the server runs as a container, so its running on my Server network on nom
 * [Wiring the Shelly Plus 1 Relay](https://hometechhacker.com/wiring-the-shelly-plus-1-relay/)
 * [Shelly Flood Sensor Review](https://hometechhacker.com/shelly-flood-sensor-review/)
 * [HOME ASSISTANT SHELLY FLOOD | Detect any leakages immediately](https://www.youtube.com/watch?v=amJcuFv2Roo)
+* [Shelly Button 1 Review (with Home Assistant)](https://hometechhacker.com/shelly-button-1-review-with-home-assistant/)
 
 ## Shelly Alternative
 * [SmaHoo Is a Discreet Device to Make Your Wall Outlets Smart](https://www.hackster.io/news/smahoo-is-a-discreet-device-to-make-your-wall-outlets-smart-01050976af3f)
