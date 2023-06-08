@@ -103,6 +103,16 @@ Smaller, more performant models such as LLaMA enable others in the research comm
 ------
 
 
+# Rapid Advancement By Open Source Community
+* [Revisiting Google’s AI moat after I/O 2023](https://bdtechtalks.com/2023/05/15/googles-io-2023-ai-moats/)
+* [How open-source LLMs are challenging OpenAI, Google, and Microsoft](https://bdtechtalks.com/2023/05/08/open-source-llms-moats/)
+* [Leaked Internal Google Document Claims Open Source AI Will Outcompete Google and OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)
+* [How open-source LLMs are challenging OpenAI, Google, and Microsoft](https://bdtechtalks.com/2023/05/08/open-source-llms-moats/)
+
+
+------
+
+
 # Brad is Google's Answer to ChatGPT
 [Brad](https://bard.google.com/)
 
