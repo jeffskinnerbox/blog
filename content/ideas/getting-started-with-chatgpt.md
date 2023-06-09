@@ -141,3 +141,10 @@ Smaller, more performant models such as LLaMA enable others in the research comm
 * [Artificial ‘creativity’ is unstoppable. Grappling with its ethics is up to us](https://aeon.co/videos/artificial-creativity-is-unstoppable-grappling-with-its-ethics-is-up-to-us)
 
 
+
+-----
+
+
+# The Infinite Conversation
+* [AI-Generated Philosophy Is Weirdly Profound](https://www.youtube.com/watch?v=wves5FsVUXA)
+* [The Infinite Conversation](https://infiniteconversation.com/)
