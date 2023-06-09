@@ -146,5 +146,9 @@ Smaller, more performant models such as LLaMA enable others in the research comm
 
 
 # The Infinite Conversation
+Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqui-ai/TTS)
+
+* [What an Endless Conversation with Werner Herzog Can Teach Us about AI](https://www.scientificamerican.com/article/what-an-endless-conversation-with-werner-herzog-can-teach-us-about-ai/)
 * [AI-Generated Philosophy Is Weirdly Profound](https://www.youtube.com/watch?v=wves5FsVUXA)
 * [The Infinite Conversation](https://infiniteconversation.com/)
+

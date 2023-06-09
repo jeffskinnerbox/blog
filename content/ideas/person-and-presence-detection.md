@@ -60,9 +60,17 @@ This can be done by making use of:
 * [GitHub for DNS-DriveBy](https://github.com/AlexLynd)
 * [GPS Module GPS NEO-6M](https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT)
 
-# Other Ideas
+# # Other Ideas
 * [Whisper AI](https://openai.com/blog/whisper/)
 * [Stanford Webinar - GPT-3 & Beyond](https://www.youtube.com/watch?v=-lnHHWRCDGk&t=509s)
+* [The Infinite Conversation](https://infiniteconversation.com/)
+
+# ## The Infinite Conversation
+Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqui-ai/TTS)
+
+* [What an Endless Conversation with Werner Herzog Can Teach Us about AI](https://www.scientificamerican.com/article/what-an-endless-conversation-with-werner-herzog-can-teach-us-about-ai/)
+* [AI-Generated Philosophy Is Weirdly Profound](https://www.youtube.com/watch?v=wves5FsVUXA)
+* [The Infinite Conversation](https://infiniteconversation.com/)
 
 # AI Generated Photographic Sense
 * [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
