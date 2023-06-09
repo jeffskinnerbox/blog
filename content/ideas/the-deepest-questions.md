@@ -318,6 +318,8 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 * [Mastery of Mathematics for Accomplished Non-Mathematicians](https://www.cantorsparadise.com/mastery-of-mathematics-for-accomplished-non-mathematicians-9633e085aaaa)
 * [Against Algebra](https://www.theatlantic.com/ideas/archive/2022/10/against-algebra/671643/)
 * [The Death of the Mathematics I Knew](https://sunilsingh-42118.medium.com/the-death-of-the-mathematics-i-knew-2255693c87cd)
+* [One Man's Mission to Unveil Math's Beauty](https://www.youtube.com/watch?v=TL7XhfrLF4k)
+* [Calculus at a Fifth Grade Level](https://www.youtube.com/watch?v=TzDhdvVg9_c)
 
 # Discontinuity in Physics
 * Shock Wave - [Weak Solutions of a PDE and Why They Matter](https://www.youtube.com/watch?v=zQJkve_hnHk)
