@@ -66,6 +66,7 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 * [24GHz Radar Presence Detector that Works (LD2410)](https://www.youtube.com/watch?v=dAzHXpP3FcI)
 * [24GHz mmWave Radar Sensor - Fall Detection Module](https://www.seeedstudio.com/24GHz-mmWave-Radar-Sensor-Fall-Detection-Module-p-5268.html?utm_source=mailchimp&utm_medium=edm&utm_campaign=bazaar_1223&ct=t()&mc_cid=b226a4fba5&mc_eid=376a45e4d9)
 * [24GHz mmWave Radar Sensor - Human Static Presence Module](https://www.seeedstudio.com/24GHz-mmWave-Radar-Sensor-Human-Static-Presence-Module-p-5267.html)
+* [mmWave Radar Alarm with Telegram Notifications](https://community.dfrobot.com/makelog-313113.html?tracking=64819a20b8a22)
 * [Millimeter Wave Doppler Radar (SYH24A1) - 24GHz Transceiver](https://www.seeedstudio.com/Millimeter-wave-Doppler-radar-SYH24A-p-4392.html)
 * [Microwave Sensor - 24GHz Doppler Radar Motion Sensor - MW2401TR11](https://www.seeedstudio.com/Microwave-Sensor-24GHz-Doppler-Radar-Motion-Sensor-MW2401TR11-p-4690.html)
 * [XENSIV 24GHz BGT24LTR11 radar sensor](https://www.infineon.com/cms/en/product/evaluation-boards/demo-sense2gol-pulse/)
