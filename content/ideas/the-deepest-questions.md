@@ -93,6 +93,9 @@ BBC Precision The Measure of All Things
 * [Do Gödel’s Theorems Impact Negatively on Physics?](https://www.cantorsparadise.com/do-g%C3%B6dels-theorems-impact-negatively-on-physics-ed09734b424c)
 * [Gödel's Incompleteness Theorems: An Informal Introduction to Formal Logic](https://www.youtube.com/watch?v=9GjCIU_ZHIo)
 
+## What is Logic?
+* [Logic: The Structure of Reason](https://www.youtube.com/watch?v=yJxiWmmJ3dc)
+
 ## Paradoxes of Logic
 * [The Strengthened Liar and Paradoxes of Incompleteness](https://www.youtube.com/watch?v=5LWQPGjAs3M)
 * [Logic at its Limit: The Grelling-Nelson Paradox](https://www.youtube.com/watch?v=U2l-Ty5yyU4)
