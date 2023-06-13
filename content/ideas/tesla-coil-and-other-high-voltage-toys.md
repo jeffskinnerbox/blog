@@ -65,6 +65,7 @@ but some people have claimed to modification it to create [20,000V][03] and even
 
 # Plasma Thruster
 * [Upgraded Plasma Thruster Is Smaller, More Powerful](https://hackaday.com/2023/03/30/upgraded-plasma-thruster-is-smaller-more-powerful/)
+* [High Voltage Ion Engines Take Trip on the High Seas](https://hackaday.com/2023/06/12/high-voltage-ion-engines-take-trip-on-the-high-seas/)
 
 # Tesla Coil
 Maybe I could even do some exploring of spectrum mysteries like
