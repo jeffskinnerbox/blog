@@ -453,6 +453,7 @@ A function is a relation that uniquely associates members of one set with member
     * [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
     * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
 * [Random Sequences: Human vs Coin](https://www.youtube.com/watch?v=H2lJLXS3AYM)
+* [Random Means "Unknown Cause"](https://www.wmbriggs.com/wp-content/uploads/2023/01/What-Are-All-The-Uses-For-So-Called-Random-Numbers_.mp3)
 
 # Random Matrix Theory
 * [Getting started with Random Matrices: A Step-by-Step Guide](https://www.cantorsparadise.com/getting-started-with-random-matrices-a-step-by-step-guide-81e5902384e)
@@ -467,6 +468,8 @@ A function is a relation that uniquely associates members of one set with member
 * [We may now know what life is](https://medium.com/the-infinite-universe/we-may-now-know-what-life-is-9326d34a14e8)
 * [Elegant Six-Page Proof Reveals the Emergence of Random Structure](https://www.quantamagazine.org/elegant-six-page-proof-reveals-the-emergence-of-random-structure-20220425)
 * [But what is the Central Limit Theorem?](https://www.youtube.com/watch?v=zeJD6dqJ5lo)
+* [Law of Large Numbers](https://www.probabilitycourse.com/chapter7/7_1_1_law_of_large_numbers.php)
+    * [What The Law Of Large Numbers Really Means](https://www.wmbriggs.com/post/47269/)
 
 # What about Chaos Theory?
 * [Chaos Wrangled: A Simple Introduction To Chaotic Systems](https://www.cantorsparadise.com/chaos-wrangled-48162abf24df)
