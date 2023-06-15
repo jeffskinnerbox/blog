@@ -27,6 +27,8 @@ Version:      0.0.0
 * [A Command-Line Stepper Library with All the Frills](http://hackaday.com/2017/03/05/a-command-line-stepper-library-with-all-the-frills/)
 * [Giant Stepper Motor Gets You Up to Speed on Theory](http://hackaday.com/2015/08/20/giant-stepper-motor-gets-you-up-to-speed-on-theory/)
 
+* [The New Tinymovr M5 Is a Cute Yet Powerful Brushless Motor Controller with Python, Arduino Support](https://www.hackster.io/news/the-new-tinymovr-m5-is-a-cute-yet-powerful-brushless-motor-controller-with-python-arduino-support-049180f31da9)
+
 
 
 # Faraday's Motor
