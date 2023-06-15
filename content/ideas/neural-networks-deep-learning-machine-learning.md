@@ -17,7 +17,7 @@ Version:      0.0.0
 * https://www.fast.ai/
 * Matthew Stewart Blog - https://towardsdatascience.com/@matthew_stewart
 
-AI/ML/EDA Series
+# AI/ML/EDA Series
 * [AI: Anaconda and More on Probability](https://www.opensourceforu.com/2022/12/ai-anaconda-and-more-on-probability/)
 * [AI: Introduction to Keras and Our First Data Set](https://www.opensourceforu.com/2023/01/ai-introduction-to-keras-and-our-first-data-set/)
 * [AI: Some History and a Lot More about Matrices](https://www.opensourceforu.com/2022/06/ai-some-history-and-a-lot-more-about-matrices/)
@@ -26,6 +26,14 @@ AI/ML/EDA Series
 * [Scientific Graphics Visualisation: An Introduction to Matplotlib](https://www.opensourceforu.com/2018/05/scientific-graphics-visualisation-an-introduction-to-matplotlib/)
 * [Scientific Graphics Visualisation: An Introduction to PGF/TikZ](https://www.opensourceforu.com/2018/06/scientific-graphics-visualisation-an-introduction-to-pgf-tikz/)
 * [Scientific Graphics Visualisation: An Introduction to PSTricks](https://www.opensourceforu.com/2018/07/scientific-graphics-visualisation-an-introduction-to-pstricks/)
+
+# Declarative Machine Learning Framework
+Ludwig is a declarative machine learning framework that makes it easy to define
+machine learning pipelines using a simple and flexible data-driven configuration system.
+Ludwig is suitable for a wide variety of AI tasks, and is hosted by the Linux Foundation AI & Data.
+
+* [Ludwig](https://ludwig.ai/latest/)
+
 
 
 
