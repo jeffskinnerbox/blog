@@ -93,6 +93,18 @@ Secure, free document storage from Fidelity - [FidSafe](https://www.fidsafe.com/
 
 
 
+# Will a Job Affect My Social Security?
+Your full retirement age is 66 and 4 months.
+
+You can earn up to $17,640 with no penalty.
+Your benefits are reduced by $1 for every $2 earned over the limit.
+For example, if your retirement job pays $20,000 a year and your Social Security payout is $12,000 a year,
+that payout would fall by $1,480 (about 12%) to $10,520.
+It is still generally advisable to work longer -- and hold off on receiving social security benefits as long as you can.
+You can wait as late as age 70.
+
+* [Source](https://www.surveygizmo.com/s3/4861322/Will-My-Retirement-Job-Affect-Social-Security)
+
 # Tax Burden
 * [Which states have the lowest taxes?](https://usafacts.org/data-projects/states-with-lowest-tax-burden)
 
