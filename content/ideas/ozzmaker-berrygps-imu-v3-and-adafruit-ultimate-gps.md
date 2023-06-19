@@ -392,6 +392,7 @@ Real Time Kinematic (RTK)
     * [GPS-RTK Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide)
 * [EYE ON NPI - u-blox C099-F9P Application Board for ZED-F9P GNSS RTK Module](https://www.youtube.com/watch?v=RXyBcWh85DM)
 * [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
+* [Crowd Supply: RTK Rover](https://www.crowdsupply.com/hyfix/rtk-rover)
 
 ## GPS-PPK
 Post Processing Kinematic (PPK)
