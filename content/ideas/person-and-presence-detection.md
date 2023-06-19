@@ -343,6 +343,14 @@ A volume unit (VU) meter or standard volume indicator (SVI) is a device displayi
 
 * [Presence detection with Raspberry Pi, Home Assistant and Monitor](https://www.youtube.com/watch?v=-uRq4L6bxrI&feature=youtu.be)
 
+# Bluetooth Beacon Detection - ESPresence
+An ESP32 based presence detection node for use with the Home Assistant mqtt_room component for localized device presence detection.
+
+* [ESPresence](https://espresense.com/)
+* [ESPresence](https://github.com/ESPresense/ESPresense)
+* [I put this in EVERY room! Smart room detection](https://www.youtube.com/watch?v=s7kyqpq4Ev4)
+* [Home Assistant Integration](https://espresense.com/home_assistant)
+
 
 
 
