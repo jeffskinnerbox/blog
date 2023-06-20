@@ -23,6 +23,9 @@ Version:      0.0.0
 
 
 
+# SDR Console
+* [SDR Console](https://www.sdr-radio.com/console)
+
 # Full Bandwidth SDR Scanner
 Here is a RTL SDR Scanner project which allows full bandwidth recording using either an RTL SDR or Hack RF.
 And its packed in a Docker container.
@@ -267,6 +270,9 @@ http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What
 
 # Ground-Penetrating Radar
 * [Affordable Ground-Penetrating Radar](https://hackaday.com/2020/10/22/affordable-ground-penetrating-radar/)
+
+# Detecting Meteors With SDR
+* [Detecting Meteors With SDR](https://hackaday.com/2023/06/18/detecting-meteors-with-sdr/)
 
 
 
