@@ -45,8 +45,13 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 
 * See  - /home/jeff/blogging/content/ideas/3d-printed-radio-controlled-car.md
 
-* [Tarmo4 | 3D Printed RC Car](https://www.youtube.com/watch?v=MKqQPTEXJpI)
+
 * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
+    * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
+    * [Tarmo5 Build, First Run and Initial Impressions](https://www.youtube.com/watch?v=heEsQMkIaAc)
+    * Based on the Tarmo5: [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
+
+* [Tarmo4 | 3D Printed RC Car](https://www.youtube.com/watch?v=MKqQPTEXJpI)
 
 * [Excellent 3D-Printed RC Car Features Variety of Drivetrain Options](https://blog.hackster.io/excellent-3d-printed-car-features-variety-of-drivetrain-options-d8c1c552b285)
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
