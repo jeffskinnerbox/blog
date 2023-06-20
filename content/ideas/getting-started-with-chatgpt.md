@@ -99,6 +99,11 @@ Smaller, more performant models such as LLaMA enable others in the research comm
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
 * [How to Run a Large Language Model on Your Raspberry Pi](https://www.makeuseof.com/raspberry-pi-large-language-model/)
 
+# Jupyter AI
+It adds a native chat UI, magic commands to send prompts to ChatGPT, and generates entire notebooks from a text prompt.
+
+* [Jupyter AI: The AI Extension for Jupyter Lab](https://artificialcorner.com/jupyter-ai-the-ai-extension-for-jupyter-lab-c4c3be5444fe)
+
 
 ------
 
