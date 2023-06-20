@@ -12,6 +12,11 @@ Version:      0.0.0
 -----
 
 
+Consider using [Adafruit STEMMA Audio Amp - Mono 2.5W Class D - PAM8302](https://www.adafruit.com/product/5647)
+
+
+
+
 * [Lithium-Ion Battery Circuitry Is Simple](https://hackaday.com/2022/10/10/lithium-ion-battery-circuitry-is-simple/)
 
 * [Build Your Own Smart Home Speaker With ESPHome!](https://www.youtube.com/watch?v=4DQ9iyV3G20)
