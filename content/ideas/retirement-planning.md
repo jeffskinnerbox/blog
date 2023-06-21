@@ -200,6 +200,8 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 # What Savings Do You Need to Retire
 The typical advice is to replace 70% to 90% of your annual pre-retirement income through savings and Social Security.
 
+* [Retirement Savings: Here’s How Much Cash Baby Boomers Need To Retire in the Next 5 Years](https://www.gobankingrates.com/retirement/planning/retirement-savings-heres-how-much-cash-baby-boomers-need-to-retire-in-the-next-5-years/?item=1232919amp/)
+
 * [Do You Have Enough for Retirement?](https://www.schwab.com/learn/story/do-you-have-enough-retirement)
 * [Do You Have Enough for Retirement?](https://www.schwab.com/resource-center/insights/content/will-you-have-enough-retirement)
 * [The 4% Rule: How Much Money Do You Need to Never Work Again?](https://moneythesimpleway.com/how-much-money-to-never-work-again/)
