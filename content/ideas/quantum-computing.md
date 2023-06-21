@@ -13,6 +13,13 @@ Version:      0.0.0
 
 
 
+* [Quantum Computing for Beginners](https://dev.to/taradev/series/23332)
+    * [A Beginner's Guide to Starting Your Journey in Quantum Computing](https://dev.to/taradev/a-beginners-guide-to-starting-your-journey-in-quantum-computing-300o)
+    * [Open source as a path to learning Quantum Computing](https://dev.to/taradev/open-source-as-a-path-to-learning-quantum-computing-4dkb)
+
+
+
+
 * [Richard Feynman paper on “Simulating Physics with Computers”](http://physics.whu.edu.cn/dfiles/wenjian/1_00_QIC_Feynman.pdf)
 
 * [Hello Many Worlds in Seven Quantum Languages](https://ionq.com/posts/june-24-2021-hello-many-worlds)
