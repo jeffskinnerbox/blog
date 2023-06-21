@@ -116,4 +116,6 @@ the current knowledge before an experiment is performed.
 * [Prior And Posterior - Intro to Statistics](https://www.youtube.com/watch?v=o2Tpws5C2Eg)
 * [How Bayes Theorem works](https://www.youtube.com/watch?v=5NMxiOGL39M)
 
+# Bayes Theorem
+* [Computational Physics with Python: Bayes Theorem](https://medium.com/@_monitsharma/computational-physics-with-python-bayes-theorem-fdeb3af01f7)
 
