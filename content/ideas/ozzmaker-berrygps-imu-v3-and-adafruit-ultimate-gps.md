@@ -472,6 +472,7 @@ in positional measurement precision resulting from sub-optimal satellite geometr
 * [Python Libraries for GIS and Mapping](https://gisgeography.com/python-libraries-gis-mapping/)
 * [Python3 GPS Client Tools](https://confluence.clazzes.org/display/PYTOOLS/Python3+GPS+Client+Tools)
 * [The Heat Of The Moments – Location Visualization In Python](https://hackaday.com/2019/12/05/the-heat-of-the-moments-location-visualization-in-python/)
+* [WebGIS Development in 2023: A Guide to the Tools and Technologies I Use for Building Advanced Geospatial Applications](https://medium.com/@ramizsami/webgis-development-in-2023-a-guide-to-the-tools-and-technologies-i-use-for-building-advanced-9bd3277b10dd)
 
 ## GNSS-SDR
 [GNSS-SDR][64] is and open source Global Navigation Satellite Systems software-defined receiver.
