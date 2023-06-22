@@ -225,6 +225,7 @@ I chose Raspbian Lite
 
 
 
+* [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
 * [Creating a Raspberry Pi-Based Beowulf Cluster](http://kau.diva-portal.org/smash/get/diva2:1110319/FULLTEXT02.pdf)
 * [Now running Proxmox on a Raspberry Pi 4 cluster](https://www.reddit.com/r/Proxmox/comments/n4d7ev/now_running_proxmox_on_a_raspberry_pi_4_cluster/)
 * [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)

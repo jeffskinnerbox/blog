@@ -12,6 +12,8 @@ Version:      0.0.0
 -----
 
 
+* [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
+
 
 # Proxmox
 Proxmox Virtual Environment (Proxmox VE)
