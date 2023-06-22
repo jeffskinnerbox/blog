@@ -251,6 +251,7 @@ A form of assistance provided to devices trying to obtain a Global Navigation Sa
 * [Using SPACE SHUTTLE Software in Model Rockets](https://www.youtube.com/watch?v=EHfsZGN3cYo)
 * [FreeCAD Takes Off With A Rocket Design Workbench](https://hackaday.com/2021/04/02/freecad-takes-off-with-a-rocket-design-workbench/)
 * [BPS.Space Succesfully Lands A Model Rocket](https://hackaday.com/2022/08/05/bps-space-succesfully-lands-a-model-rocket/)
+* [How To Land A Model Rocket Vertically](https://hackaday.com/2023/06/21/how-to-land-a-model-rocket-vertically/)
 * [Did I Make the World's Smallest Rocket Flight Computer?](https://www.youtube.com/watch?v=5TTcbMv5tDc)
 
 # Serial Studio
