@@ -345,6 +345,7 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 * [Pi hiding in prime regularities](https://www.youtube.com/watch?v=NaL_Cb42WyY)
 * [The Most Unusual Ways Pi Shows Up In Mathematics | Can You Explain These?](https://www.youtube.com/watch?v=nxq9BtIcjDM)
 * [Why Does Pi Show up in the Normal Distribution?](https://towardsdatascience.com/why-does-pi-show-up-in-the-normal-distribution-a10baf4a71f1)
+* [Pi Can Be Expressed Only Using The Numbers 1 and 2](https://keith-mcnulty.medium.com/pi-can-be-expressed-only-using-the-numbers-1-and-2-cae495649f7c)
 
 ## Calculating the Nth Digit of Pi
 * [Calculating Pi to 10 Trillion Digits](https://hackaday.com/2011/11/28/calculating-pi-to-10-trillion-digits-the-last-number-is-5/)
