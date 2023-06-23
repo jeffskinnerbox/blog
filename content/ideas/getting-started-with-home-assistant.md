@@ -2250,13 +2250,14 @@ Also: the server runs as a container, so its running on my Server network on nom
 
 ## Shelly
 * https://www.thesmarthomehookup.com/?s=shelly
-* [Shelly 1 Switch Tricks - True 3-Way, Long Press Actions, 2 switches, Automations w/ Tasmota Firmware](https://w
+* [Shelly 1 Switch Tricks - True 3-Way, Long Press Actions, 2 switches, Automations w/ Tasmota Firmware](https://www.youtube.com/watch?v=mSENAY9_AlI)
 * [Smart Home Dimming with The Shelly Dimmer 2](https://hometechhacker.com/smart-home-dimming-with-the-shelly-dimmer-2/)
 * [Shelly Plus 1 Review: Better Than the Original?](https://hometechhacker.com/shelly-plus-1-review-better-than-the-original/)
 * [Wiring the Shelly Plus 1 Relay](https://hometechhacker.com/wiring-the-shelly-plus-1-relay/)
 * [Shelly Flood Sensor Review](https://hometechhacker.com/shelly-flood-sensor-review/)
 * [HOME ASSISTANT SHELLY FLOOD | Detect any leakages immediately](https://www.youtube.com/watch?v=amJcuFv2Roo)
 * [Shelly Button 1 Review (with Home Assistant)](https://hometechhacker.com/shelly-button-1-review-with-home-assistant/)
+* [A Smart Home Powered With Shelly Products](https://hometechhacker.com/a-smarthome-powered-with-shelly-products/)
 
 ## Shelly Alternative
 * [SmaHoo Is a Discreet Device to Make Your Wall Outlets Smart](https://www.hackster.io/news/smahoo-is-a-discreet-device-to-make-your-wall-outlets-smart-01050976af3f)
