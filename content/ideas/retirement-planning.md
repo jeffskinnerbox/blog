@@ -186,6 +186,7 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 
 # Working while Receiving Social Security
 * [Working while Receiving Social Security](https://www.youtube.com/watch?v=nsSViIHIm3k)
+* [How Many Hours Can You Work and Still Collect Social Security?](https://www.gobankingrates.com/retirement/social-security/how-many-hours-can-you-work-and-still-collect-social-security/)
 
 # Social Security Milestones
 * [The Most Important Ages of Retirement](https://www.schwab.com/learn/story/most-important-ages-retirement)
@@ -201,6 +202,8 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 The typical advice is to replace 70% to 90% of your annual pre-retirement income through savings and Social Security.
 
 * [Retirement Savings: Here’s How Much Cash Baby Boomers Need To Retire in the Next 5 Years](https://www.gobankingrates.com/retirement/planning/retirement-savings-heres-how-much-cash-baby-boomers-need-to-retire-in-the-next-5-years/?item=1232919amp/)
+* [Retirement Savings: Experts Say This Magic Number Is the Key — and It’s Not $1 Million](https://www.gobankingrates.com/retirement/planning/retirement-savings-experts-magic-number-key/)
+* [Retirement Savings: Here’s How Much Cash Baby Boomers Need To Retire in the Next 5 Years](https://www.gobankingrates.com/retirement/planning/retirement-savings-heres-how-much-cash-baby-boomers-need-to-retire-in-the-next-5-years/?utm_term=related_link_3&utm_campaign=1233705&utm_source=aol.com&utm_content=6&utm_medium=rss)
 
 * [Do You Have Enough for Retirement?](https://www.schwab.com/learn/story/do-you-have-enough-retirement)
 * [Do You Have Enough for Retirement?](https://www.schwab.com/resource-center/insights/content/will-you-have-enough-retirement)
