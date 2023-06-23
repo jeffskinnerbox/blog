@@ -235,8 +235,12 @@ Modern GPS units are light, small, cheap, and use very little power.
 ## Space Navigation
 * [Star Trackers: Telling Up From Down In Any Space](https://hackaday.com/2020/04/02/star-trackers-telling-up-from-down-in-any-space/)
 
+## Search and Rescue Satellite Aided Tracking (SARSAT)
+* [The Voice of GPS](https://hackaday.com/2023/06/23/the-voice-of-gps/)
+* [Receiving voice transmissions from GPS satellites || Satellite reception pt.10](https://www.youtube.com/watch?v=U_pCHTeamn8)
+
 ## Automatic Identification System AIS)
-##  Automatic Transmitter Identification System (ATIS)
+## Automatic Transmitter Identification System (ATIS)
 * https://en.wikipedia.org/wiki/Automatic_identification_system
 * https://en.wikipedia.org/wiki/Automatic_Transmitter_Identification_System_(marine)
 
