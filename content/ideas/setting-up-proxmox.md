@@ -12,6 +12,7 @@ Version:      0.0.0
 -----
 
 
+* [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
 * [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
 
 
