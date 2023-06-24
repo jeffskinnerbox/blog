@@ -665,6 +665,10 @@ A antenna tuner is a device used to match impedances between a transmitter and a
 A helical antenna is an antenna in which a conductor connected to ground plane, is wound into a helical shape. The
 helix is the simplest antenna which generates circular polarized waves.
 
+* [Building a 2.4 GHz WiFi helical antenna](https://www.youtube.com/watch?v=xp6B3nVEFCI)
+    * [Helical antenna calculator](https://sgcderek.github.io/tools/helix-calc.html)
+    * [helix-antenna-scaffold](https://github.com/sgcderek/helix-antenna-scaffold)
+
 ## Extending WiFi Range
 * [Uni-Directional WIFI Range Extender](https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/)
 * [ESP32 WiFi Hits 10KM with a Little Help](https://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/#more-252084)
