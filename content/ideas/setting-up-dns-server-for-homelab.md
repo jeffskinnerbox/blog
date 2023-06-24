@@ -30,3 +30,7 @@ Squid & SquidGuard
 * [A Brief Review of AdGuard Home: Definition, Benefits](https://www.sunnyvalley.io/docs/network-security-tutorials/what-is-adguard-home)
 * [pfSense pfBlockerNG vs Pihole Pros and Cons](https://www.virtualizationhowto.com/2022/04/pfsense-pfblockerng-vs-pihole-pros-and-cons/)
 * [How to Block Ads On All Your Devices With pfSense, Squid & SquidGuard](https://www.privacyaffairs.com/block-ads-with-pfsense/)
+
+
+# Securing DNS
+* [Raspberry Pi DNS-Over-HTTPS (DoH) for Pi-Hole](https://pimylifeup.com/rapberry-pi-dns-over-https/)
