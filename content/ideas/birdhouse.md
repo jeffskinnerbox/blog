@@ -24,5 +24,5 @@ Version:      0.0.0
 * [Recognising Bird Sounds With A Microcontroller](https://hackaday.com/2021/07/06/recognising-bird-sounds-with-a-microcontroller/)
 * [Identify Bird Sounds With BirdNET-Pi on Raspberry Pi](https://www.makeuseof.com/identify-bird-sounds-birdnet-raspberry-pi/)
 * [Neural Network Identifies Bird Calls, Even On Your Pi](https://hackaday.com/2022/06/25/neural-network-identifies-bird-calls-even-on-your-pi/)
-
+* [Raspberry Pi Project Detects and Recognizes Bird Calls](https://www.tomshardware.com/news/raspberry-pi-bird-calls-with-birdnet-pi)
 
