@@ -39,6 +39,12 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 * [Getting to the Heart of a Baofeng](https://hackaday.com/2022/11/15/getting-to-the-heart-of-a-baofeng/)
     * [We use Baofeng's "heart" for Our Projects (SA818, DRA818)](https://www.youtube.com/watch?v=CIeT4SWneeo)
 
+# Quansheng UV K5 Radio
+* [Easy Modifications For Inexpensive Radios](https://hackaday.com/2023/06/23/easy-modifications-for-inexpensive-radios/)
+* [Exploring the Experimental Firmware for Quansheng UV K5 Radio](https://quansheng-radio.blogspot.com/2023/06/exploring-experimental-firmware-for.html)
+
+
+
 
 
 
