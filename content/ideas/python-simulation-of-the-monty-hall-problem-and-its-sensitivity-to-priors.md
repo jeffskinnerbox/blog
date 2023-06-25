@@ -119,3 +119,5 @@ the current knowledge before an experiment is performed.
 # Bayes Theorem
 * [Computational Physics with Python: Bayes Theorem](https://medium.com/@_monitsharma/computational-physics-with-python-bayes-theorem-fdeb3af01f7)
 
+# Two-Child Problem
+* [The Probability Paradox: The Mind-Boggling Two-Child Problem Explained](https://medium.com/intuition/the-probability-paradox-the-mind-boggling-two-child-problem-explained-fcdeed38f5b1)
