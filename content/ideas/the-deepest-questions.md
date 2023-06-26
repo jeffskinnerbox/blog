@@ -472,6 +472,7 @@ A function is a relation that uniquely associates members of one set with member
 * [We may now know what life is](https://medium.com/the-infinite-universe/we-may-now-know-what-life-is-9326d34a14e8)
 * [Elegant Six-Page Proof Reveals the Emergence of Random Structure](https://www.quantamagazine.org/elegant-six-page-proof-reveals-the-emergence-of-random-structure-20220425)
 * [But what is the Central Limit Theorem?](https://www.youtube.com/watch?v=zeJD6dqJ5lo)
+    * [Proof of the Central Limit Theorem](https://medium.com/@oguo/proof-of-the-central-limit-theorem-214813be6e2c)
 * [Law of Large Numbers](https://www.probabilitycourse.com/chapter7/7_1_1_law_of_large_numbers.php)
     * [What The Law Of Large Numbers Really Means](https://www.wmbriggs.com/post/47269/)
 
