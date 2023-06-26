@@ -125,6 +125,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [2022 FPV Contest: The LOTP Robot Dog](https://hackaday.com/2022/12/21/2022-fpv-contest-the-lotp-robot-dog/)
 * [LOTP Robot Dog V2](https://hackaday.io/project/188660-lotp-robot-dog-v2)
 * [Four-legged robots are no longer a luxury: Affordable small robot dog presented](https://tech.news.am/eng/news/720/four-legged-robots-are-no-longer-a-luxury-affordable-small-robot-dog-presented.html)
+* [Robodog Goes Free Thanks To Unofficial SDK](https://hackaday.com/2023/06/24/robodog-goes-free-thanks-to-unofficial-sdk/)
 
 ## Petoi Bittle Robot
 * [Petoi Bittle: A Palm-sized Robot Dog for STEM and Fun](https://www.kickstarter.com/projects/petoi/bittle)
