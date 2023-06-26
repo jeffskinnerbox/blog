@@ -23,6 +23,10 @@ Version:      0.0.0
 
 * [#337 LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU)
 * [We build a Global LoRa Mesh Network (MeshCom, Meshtastic)](https://www.youtube.com/watch?v=7OYDr4HPGgo)
+* [Meshtastic Mesh Networking Project Combines ESP32, LoRa and GPS Radio](https://www.cnx-software.com/2020/03/11/meshtastic-mesh-networking-project-combines-esp32-lora-and-gps-radio/)
+* [Meshtastic: A Hiking, Skiing, GPS Mesh Communicator](https://www.hackster.io/punkgeek/meshtastic-a-hiking-skiing-gps-mesh-communicator-84f999)
+* [Meshtastic For The Greater Good](https://hackaday.com/2023/06/26/meshtastic-for-the-greater-good/)
+* [LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU&feature=youtu.be)
 
 # Austin Mesh
 * [Austin Mesh](https://austinmesh.org/)

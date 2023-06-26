@@ -219,9 +219,6 @@ is a full-service Internet of Things provider, providing the required resources 
 * [TTGO LoRa Mesh Chat Device](https://www.hackster.io/scottpowell69/ttgo-lora-mesh-chat-device-37913c)
 * [LoRa Mesh Radio](https://www.instructables.com/id/LoRa-Mesh-Radio/)
 * [LoRa Mesh Network With Off-the-Shelf Hardware](https://hackaday.com/2020/02/26/lora-mesh-network-with-off-the-shelf-hardware/)
-* [Meshtastic Mesh Networking Project Combines ESP32, LoRa and GPS Radio](https://www.cnx-software.com/2020/03/11/meshtastic-mesh-networking-project-combines-esp32-lora-and-gps-radio/)
-* [Meshtastic: A Hiking, Skiing, GPS Mesh Communicator](https://www.hackster.io/punkgeek/meshtastic-a-hiking-skiing-gps-mesh-communicator-84f999)
-* [LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU&feature=youtu.be)
 * [Join Your Own Private LoRa Mesh Network](https://hackaday.com/2020/07/30/join-your-own-private-lora-mesh-network/)
 
 # LoRaWAN Security
