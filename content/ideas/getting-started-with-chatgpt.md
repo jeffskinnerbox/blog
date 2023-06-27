@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 * [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
+* [What runs ChatGPT? Inside Microsoft's AI supercomputer](https://www.youtube.com/watch?v=Rk3nTUfRZmo)
 
 
 
