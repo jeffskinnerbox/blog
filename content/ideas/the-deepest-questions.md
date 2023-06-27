@@ -507,6 +507,9 @@ A function is a relation that uniquely associates members of one set with member
 * [Chapter 3: The Cosmologist Who Dreams in the Universe’s Dark Threads](https://www.quantamagazine.org/harvard-cosmologist-cora-dvorkin-dreams-in-dark-matter-20201105/)
 * [Chapter 4: What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
 
+# Shaky Foundation of Cosmology
+* [The shaky foundations of cosmology | Bjørn Ekeberg](https://www.youtube.com/watch?v=XmzulJsGtZ4)
+
 # What about Quantum Theory?
 * [Quantum Physics Explained | Wondrium Perspectives](https://www.youtube.com/watch?v=rf1Ye87GhZU)
 * [Why we need quantum fields, not just quantum particles](https://medium.com/starts-with-a-bang/why-we-need-quantum-fields-not-just-quantum-particles-c05e2260c594)
