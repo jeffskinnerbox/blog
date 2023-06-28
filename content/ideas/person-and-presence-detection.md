@@ -82,6 +82,9 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 
 # Make it Speak
 * [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaay.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
+* [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
+    * [Piper](https://rhasspy.github.io/piper-samples/)
+    * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
 
 # Magic Storybook with ChatGPT
 This guide will show you how to create your own never-ending story book using a Raspberry Pi,

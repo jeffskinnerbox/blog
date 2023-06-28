@@ -1927,6 +1927,9 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [Home Automation Covers Everything](https://hackaday.com/2020/07/13/home-automation-covers-everything/)
 
 ### Home Assistend Voice & Voice Commands
+* [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
+    * [Piper](https://rhasspy.github.io/piper-samples/)
+    * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
 * [Local Voice Control With Home Assistant Just Got Easier!](https://www.youtube.com/watch?v=BLJR_v3IFwk)
 * [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
 * [HAL 9000 Becomes a Helpful Voice Assistant](https://hackaday.com/2022/05/24/hal-9000-becomes-a-helpful-voice-assista/)
