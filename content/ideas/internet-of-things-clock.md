@@ -404,6 +404,7 @@ It means all communications between your browser and the website are encrypted.
 * [Espressif IoT Development Framework (ESP-IDF)](https://docs.espressif.com/projects/esp-idf/en/latest/index.html)
 * [Secure Boot](https://docs.espressif.com/projects/esp-idf/en/latest/security/secure-boot.html)
 * [Flash Encryption](https://docs.espressif.com/projects/esp-idf/en/latest/security/flash-encryption.html)
+* [Use UEFI Secure Boot NOW!](https://www.youtube.com/watch?v=Mqh9o8YY2dg)
 
 
 
