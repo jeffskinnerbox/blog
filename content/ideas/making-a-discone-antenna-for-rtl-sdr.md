@@ -668,6 +668,7 @@ helix is the simplest antenna which generates circular polarized waves.
 * [Building a 2.4 GHz WiFi helical antenna](https://www.youtube.com/watch?v=xp6B3nVEFCI)
     * [Helical antenna calculator](https://sgcderek.github.io/tools/helix-calc.html)
     * [helix-antenna-scaffold](https://github.com/sgcderek/helix-antenna-scaffold)
+    * [Field Testing a Home Made WiFi antenna](https://hackaday.com/2023/06/28/field-testing-a-home-made-wifi-antenna/)
 
 ## Extending WiFi Range
 * [Uni-Directional WIFI Range Extender](https://hackaday.com/2019/08/01/boost-your-wifi-range-with-cookware/)
