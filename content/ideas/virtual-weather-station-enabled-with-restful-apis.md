@@ -428,6 +428,7 @@ that can send notifications within minutes of an earthquake.
 * [Ionizing Radiation Detector For Safer Foraging](https://blog.tindie.com/2021/06/ionizing-radiation-detector-for-safer-foraging/)
 * [Flexible Radiation Monitoring System Speaks LoRa and WiFi](https://hackaday.com/2022/09/10/flexible-radiation-monitoring-system-speaks-lora-and-wifi/)
 * [An Open Source Firmware For Cheap Geiger Counters](https://hackaday.com/2023/06/24/an-open-source-firmware-for-cheap-geiger-counters/)
+* [Raspberry Pi Radiation Monitor Goes Wireless With Pico W](https://www.tomshardware.com/news/raspberry-pi-radiation-monitor-goes-wireless-with-pico-w)
 
 # Spectrophotometer
 * [Spot Adulterated Olive Oil With This Spectrophotometer](https://hackaday.com/2019/08/31/spot-adulterated-olive-oil-with-this-spectrophotometer/)
