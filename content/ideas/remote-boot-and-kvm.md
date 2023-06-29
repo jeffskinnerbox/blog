@@ -17,6 +17,7 @@ Version:      0.0.0
 # TinyPilot
 A modern, open-source Keyboard, Video, Mouse (KVM) over IP.
 
+* [What's New in TinyPilot's June 2023 Update](https://tinypilotkvm.com/blog/whats-new-in-2023-06)
 * [TinyPilot](https://tinypilotkvm.com/)
 * [What's New in TinyPilot's May 2022 Update](https://tinypilotkvm.com/blog/whats-new-in-2022-05)
 * [What's New in TinyPilot's October 2022 Update](https://tinypilotkvm.com/blog/whats-new-in-2022-10)
