@@ -459,6 +459,12 @@ A [radiosonde][10] is a battery-powered telemetry instrument carried into the at
 * [Radiosonders: Getting Data from Upstairs](https://hackaday.com/2017/12/08/radiosondes/)
 * [A Tracker For Radio Sondes](https://hackaday.com/2020/12/27/a-tracker-for-radio-sondes/)
 
+# Allsky Meteor Surveillance
+Use Raspberry Pi hardware to capture mesmerizing time-lapse images of the heavens
+
+* [Create Your Own AllSky Camera (UPDATED!)](https://www.youtube.com/watch?v=7TGpGz5SeVI)
+* [Roll Your Own All-Sky, Raspberry Pi Camera](https://spectrum.ieee.org/all-sky-camera)
+
 
 
 [01]:https://nodejs.org/
