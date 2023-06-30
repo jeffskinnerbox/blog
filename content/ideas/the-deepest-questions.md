@@ -358,6 +358,7 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 * [A Brilliant Limit](https://www.youtube.com/watch?v=89d5f8WUf1Y)
 * [Transcendental Numbers](https://www.cantorsparadise.com/transcendental-numbers-9d4bbe6507cb)
 * [Where Transcendental Numbers Hide in Everyday Math](https://www.quantamagazine.org/where-transcendental-numbers-hide-in-everyday-math-20211027/)
+* [How Math Achieved Transcendence](https://www.quantamagazine.org/recounting-the-history-of-maths-transcendental-numbers-20230627/?mc_cid=a5d4ed3a48&mc_eid=a88c5dceda)
 
 # Laplace & Fourier Transforms
 * [The Intuition behind the Laplace Transform](https://medium.com/the-breakthrough/the-intuition-behind-the-laplace-transform-8432c3bceb37)
