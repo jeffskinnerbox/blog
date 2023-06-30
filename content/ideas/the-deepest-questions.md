@@ -544,6 +544,9 @@ A function is a relation that uniquely associates members of one set with member
 * [Physicists Use Quantum Mechanics to Pull Energy out of Nothing](https://www.quantamagazine.org/physicists-use-quantum-mechanics-to-pull-energy-out-of-nothing-20230222/?mc_cid=539e4e1a35&mc_eid=a88c5dceda)
 * [How the Physics of Nothing Underlies Everything](https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809/)
 
+# Delayed Choice Quantum Eraser Experiment
+* [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
+
 ## Second Law of Quantum Complexity
 * [Can a New Law of Physics Explain a Black Hole Paradox?](https://www.youtube.com/watch?v=yLOHdW7dLug)
 
