@@ -861,6 +861,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [The Fascinating Mystery of Systems with Many Length Scales](https://medium.com/cantors-paradise/the-fascinating-mystery-of-systems-with-many-lengths-24ec663e7d1b)
 
 # Quantum Entanglement
+* [Untangling entanglement](https://aeon.co/essays/our-simple-magic-free-recipe-for-quantum-entanglement?utm_source=Aeon+Newsletter&utm_campaign=4e81f927d4-EMAIL_CAMPAIGN_2023_06_30&utm_medium=email&utm_term=0_-b43a9ed933-%5BLIST_EMAIL_ID%5D)
 * [A new perspective on quantum entanglement](https://medium.com/the-infinite-universe/a-new-perspective-on-quantum-entanglement-3dbcde93ffdb)
 * [Is the multiverse dead?](https://medium.com/the-infinite-universe/is-the-multiverse-dead-7a3e4dd76e5d)
 
