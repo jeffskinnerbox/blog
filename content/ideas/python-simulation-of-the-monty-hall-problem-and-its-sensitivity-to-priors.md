@@ -12,6 +12,14 @@ Version:      0.0.0
 --------
 
 
+
+* [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
+* [Untangling entanglement](https://aeon.co/essays/our-simple-magic-free-recipe-for-quantum-entanglement?utm_source=Aeon+Newsletter&utm_campaign=4e81f927d4-EMAIL_CAMPAIGN_2023_06_30&utm_medium=email&utm_term=0_-b43a9ed933-%5BLIST_EMAIL_ID%5D)
+* [collider bias](https://www.google.com/search?q=collider+bias&oq=collider+bias&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCjM2MjI1MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1)
+* [Causality: What is Causality?](https://www.youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU)
+
+
+
 So what is probibility and what does it mean to be random?
 I want to explain and demonstrate these seemingly simple concepts to show how they are not so simple,
 and how they are a source of much confusion & deception.
