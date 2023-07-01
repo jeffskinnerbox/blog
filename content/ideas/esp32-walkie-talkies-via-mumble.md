@@ -539,6 +539,16 @@ The idea is to extend the walkie-talkie's coverage to the enire Internet
 --------
 
 
+# Other Similar Platforms
+* [ESP32-S3 board features 2.8-inch display, Blackberry-like keyboard, and optional LoRaWAN connectivity](https://www.cnx-software.com/2023/06/30/esp32-s3-board-features-2-8-inch-display-blackberry-like-keyboard-lorawan/)
+    * [LILYGO® T-Deck ESP32-S3 LoRa Module 2.8 inch LCD Development Board LoRaWAN Long Range 433MHz 868MHz 915MHz With WIFI Bluetooth](https://www.aliexpress.us/item/3256805505920840.html?aff_fcid=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&tt=CPS_NORMAL&aff_fsk=_Dd8eYNx&aff_platform=shareComponent-detail&sk=_Dd8eYNx&aff_trace_key=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&terminal_id=68305b5097854f1caa43b9878a24fa29&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt)
+    * [LilyGO T-Deck](https://github.com/Xinyuan-LilyGO/T-Deck/tree/master)
+
+
+
+--------
+
+
 
 ## External Antenna
 * [#291 External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU)
