@@ -16,6 +16,8 @@ Version:      0.0.0
 
 * [6 Must-Have Security Gadgets That Fit in Your Pocket](https://www.youtube.com/watch?v=FQXlVaAPS20)
 
+* [Security Onion](https://securityonionsolutions.com/)
+
 
 
 * [Rob Braxman Tech](https://www.youtube.com/channel/UCYVU6rModlGxvJbszCclGGw)
