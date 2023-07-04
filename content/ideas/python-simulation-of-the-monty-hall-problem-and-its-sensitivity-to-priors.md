@@ -145,3 +145,8 @@ You may assume for this question:
 What if you knew one of the children was female?
 What if order of the childern was known?
 
+# Prisoner’s Puzzle
+* [A Fascinating Prisoner’s Puzzle](https://www.cantorsparadise.com/a-fascinating-prisoners-puzzle-be874032f43e)
+* [Impossible Escape?](http://datagenetics.com/blog/december12014/index.html)
+* [The almost impossible chessboard puzzle](https://www.youtube.com/watch?v=as7Gkm7Y7h4)
+
