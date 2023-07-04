@@ -128,4 +128,20 @@ the current knowledge before an experiment is performed.
 * [Computational Physics with Python: Bayes Theorem](https://medium.com/@_monitsharma/computational-physics-with-python-bayes-theorem-fdeb3af01f7)
 
 # Two-Child Problem
+Suppose a friend of yours has two children,
+but you cannot remember their genders.
+One day, he implies that one of the children is male.
+Now here’s the question:
+What is the probability that the other child is female?
+
+You may assume for this question:
+
+* Only options are male/female
+* Order is not important
+
 * [The Probability Paradox: The Mind-Boggling Two-Child Problem Explained](https://medium.com/intuition/the-probability-paradox-the-mind-boggling-two-child-problem-explained-fcdeed38f5b1)
+* [Cheeky probability problems to irritate your friends](https://medium.com/tales-to-infinity/a-fiendish-little-probability-problem-4404dbd3629)
+
+What if you knew one of the children was female?
+What if order of the childern was known?
+
