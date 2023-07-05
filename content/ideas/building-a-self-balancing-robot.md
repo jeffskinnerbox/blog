@@ -200,6 +200,7 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 * [Levitation By Sound](https://hackaday.com/2021/08/02/levitation-by-sound/)
 * [Phased Array Levitation Is Science In Action](https://hackaday.com/2021/08/18/phased-array-levitation-is-science-in-action/)
 * [Bend It Like (Sonar) Beacon With A Phased Array](https://hackaday.com/2022/02/23/bend-it-like-sonar-beacon-with-a-phased-array/)
+* [3D Audio Imaging With A Phased Array Microphone](https://hackaday.com/2023/07/04/3d-audio-imaging-with-a-phased-array-microphone/)
 * [Anti-Gravitator](https://www.thingiverse.com/thing:943091)
 * [Ultra Simple Magnetic Levitator](http://hackaday.com/2016/11/05/ultra-simple-magnetic-levitator/)
 * [Magnetic Levitation](https://learn.sparkfun.com/tutorials/magnetic-levitation)
