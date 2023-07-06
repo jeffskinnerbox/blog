@@ -79,9 +79,11 @@ Version:      0.0.0
 * [Probabilistic Computation](https://betanalpha.github.io/assets/case_studies/probabilistic_computation.html)
 
 
-# PennyLane
-A cross-platform Python library for differentiable programming of quantum computers. Train a quantum computer the same way as a neural network.
+# Free Quantum Computing Platforms
+A cross-platform Python library for differentiable programming of quantum computers.
+Train a quantum computer the same way as a neural network.
 
+* [A Quick Look at Free Platforms and Libraries for Quantum Machine Learning](https://www.opensourceforu.com/2023/07/a-quick-look-at-free-platforms-and-libraries-for-quantum-machine-learning/)
 * [PennyLane](https://pennylane.ai/)
 
 
