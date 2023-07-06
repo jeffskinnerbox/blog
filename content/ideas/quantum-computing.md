@@ -111,6 +111,7 @@ A cross-platform Python library for differentiable programming of quantum comput
 # Phononic Quantum Computer
 * [Scientists Just Showed How to Make a Quantum Computer Using Sound Waves](https://singularityhub.com/2023/06/09/scientists-just-showed-how-quantum-computers-could-be-based-on-sound-waves/)
 * [Pritzker Molecular Engineering Researchers ‘Split’ Phonons – or Sound – in Step Toward New Type of Quantum Computer](https://www.hpcwire.com/off-the-wire/pritzker-molecular-engineering-researchers-split-phonons-or-sound-in-step-toward-new-type-of-quantum-computer/)
+* [How splitting sound might lead to a new kind of quantum computer](https://theconversation.com/how-splitting-sound-might-lead-to-a-new-kind-of-quantum-computer-207974)
 
 # Making a Quantum Computer
 * [Making a Quantum Computer at Home](https://okezuebell.medium.com/making-a-quantum-computer-at-home-bc59afe72d7d)
