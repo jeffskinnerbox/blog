@@ -60,12 +60,12 @@ This can be done by making use of:
 * [GitHub for DNS-DriveBy](https://github.com/AlexLynd)
 * [GPS Module GPS NEO-6M](https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT)
 
-# # Other Ideas
+## Other Ideas
 * [Whisper AI](https://openai.com/blog/whisper/)
 * [Stanford Webinar - GPT-3 & Beyond](https://www.youtube.com/watch?v=-lnHHWRCDGk&t=509s)
 * [The Infinite Conversation](https://infiniteconversation.com/)
 
-# ## The Infinite Conversation
+### The Infinite Conversation
 Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqui-ai/TTS)
 
 * [What an Endless Conversation with Werner Herzog Can Teach Us about AI](https://www.scientificamerican.com/article/what-an-endless-conversation-with-werner-herzog-can-teach-us-about-ai/)
@@ -85,6 +85,7 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
     * [Piper](https://rhasspy.github.io/piper-samples/)
     * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
+* [Animatronic Alexa Gives Amazon’s Echo a Face](https://hackaday.com/2023/07/05/animatronic-alexa-gives-amazons-echo-a-face/)
 
 # Magic Storybook with ChatGPT
 This guide will show you how to create your own never-ending story book using a Raspberry Pi,
