@@ -115,6 +115,31 @@ Monty is not likely to want to give away too many cars because of the cost to hi
 What if Monty randomly picked a door to open, including the door with a car?
 What if Monty only told you which door has a goat, did not show you, and Monty has some probability of lying?
 
+# The Monty Fall Problem
+As before, you are faced with three doors.
+Two of them hide a goat, one of them hides a car,
+and you have to pick one of them.
+You win whatever is behind that door.
+Let’s say you pick door 2.
+
+The host then walks past the doors,
+trips over his own foot,
+and accidentally opens another door, say door 1.
+It turns out there is a goat behind door 1.
+
+“Oops,” the host says.“My bad.
+But now that you know there is a goat behind door 1,
+would you like to switch to door 3?”
+
+Is it in your best interest to switch?
+
+* [How to Solve the Monty Fall Problem](https://medium.com/street-science/how-to-solve-the-monty-fall-problem-ed68d78d8795)
+
+
+--------
+
+
+
 # The Prior
 What Is Prior Probability?
 Prior probability, often simply called "the prior" in Bayesian statistics, is the probability of an event before new data is collected.
