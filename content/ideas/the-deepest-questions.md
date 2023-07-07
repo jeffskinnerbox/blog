@@ -510,6 +510,7 @@ A function is a relation that uniquely associates members of one set with member
 
 # Shaky Foundation of Cosmology
 * [The shaky foundations of cosmology | Bjørn Ekeberg](https://www.youtube.com/watch?v=XmzulJsGtZ4)
+* [Are We Living in a Quantum Sandwich?](https://www.youtube.com/watch?v=7v3Y7vs3avc)
 
 # What about Quantum Theory?
 * [Quantum Physics Explained | Wondrium Perspectives](https://www.youtube.com/watch?v=rf1Ye87GhZU)
