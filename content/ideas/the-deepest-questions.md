@@ -105,6 +105,7 @@ BBC Precision The Measure of All Things
 * [Zeno's Paradox - Numberphile](https://www.youtube.com/watch?v=u7Z9UnWOJNY)
 * [A Critical Introduction to Mathematical Structuralism](https://medium.com/cantors-paradise/a-critical-introduction-to-mathematical-structuralism-3cb039427647)
 * [“Is God A Mathematician” by Mario Livio](https://medium.com/cantors-paradise/is-god-a-mathematician-by-mario-livio-a7ae4beec5e2)
+* [Why all numbers are imaginary](https://medium.com/@rosk.abed/why-all-numbers-are-imaginary-3b88eda407e6)
 
 ## Philosophy of Probability & Statistics
 * [What Is Probability? Difficulties Understanding Probability](https://www.youtube.com/watch?v=9ApjAYTRilo)
