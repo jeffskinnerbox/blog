@@ -544,7 +544,8 @@ A function is a relation that uniquely associates members of one set with member
 * [How the Physics of Nothing Underlies Everything](https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809/)
 
 * [Superdeterminism may have solved the quantum measurement problem](https://medium.com/the-infinite-universe/superdeterminism-may-have-solved-the-quantum-measurement-problem-beb36fa099f9)
-*[Untangling entanglement](https://aeon.co/essays/our-simple-magic-free-recipe-for-quantum-entanglement?utm_source=Aeon+Newsletter&utm_campaign=4e81f927d4-EMAIL_CAMPAIGN_2023_06_30&utm_medium=email&utm_term=0_-b43a9ed933-%5BLIST_EMAIL_ID%5D)
+* [Untangling entanglement](https://aeon.co/essays/our-simple-magic-free-recipe-for-quantum-entanglement?utm_source=Aeon+Newsletter&utm_campaign=4e81f927d4-EMAIL_CAMPAIGN_2023_06_30&utm_medium=email&utm_term=0_-b43a9ed933-%5BLIST_EMAIL_ID%5D)
+* [Physics Mistranslated: Spooky Action at a Distance](https://medium.com/physics-as-a-foreign-language/physics-mistranslated-fa83efdfa314)
 
 Is the mysteries of quantum physics like the "Necktie Paradox"?
 * [How to Resolve the Necktie Paradox](https://www.cantorsparadise.com/how-to-resolve-the-necktie-paradox-3501770e25a6)
