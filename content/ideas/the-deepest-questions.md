@@ -28,9 +28,6 @@ Version:      0.0.0
 * [What Does x¹⁰⁰ + y¹⁰⁰ = 1 Look Like?](https://barryleung.medium.com/what-does-x%C2%B9%E2%81%B0%E2%81%B0-y%C2%B9%E2%81%B0%E2%81%B0-1-look-like-fd2719e7028a)
 
 
-Is the mysteries of quantum physics like the "Necktie Paradox"?
-* [How to Resolve the Necktie Paradox](https://www.cantorsparadise.com/how-to-resolve-the-necktie-paradox-3501770e25a6)
-* [This Is Why You Should Switch Envelopes](https://www.cantorsparadise.com/this-is-why-you-should-switch-envelopes-d07067c24686)
 
 
 Fundamental Theorem of Arithmetic
@@ -545,6 +542,13 @@ A function is a relation that uniquely associates members of one set with member
 
 * [Physicists Use Quantum Mechanics to Pull Energy out of Nothing](https://www.quantamagazine.org/physicists-use-quantum-mechanics-to-pull-energy-out-of-nothing-20230222/?mc_cid=539e4e1a35&mc_eid=a88c5dceda)
 * [How the Physics of Nothing Underlies Everything](https://www.quantamagazine.org/how-the-physics-of-nothing-underlies-everything-20220809/)
+
+* [Superdeterminism may have solved the quantum measurement problem](https://medium.com/the-infinite-universe/superdeterminism-may-have-solved-the-quantum-measurement-problem-beb36fa099f9)
+*[Untangling entanglement](https://aeon.co/essays/our-simple-magic-free-recipe-for-quantum-entanglement?utm_source=Aeon+Newsletter&utm_campaign=4e81f927d4-EMAIL_CAMPAIGN_2023_06_30&utm_medium=email&utm_term=0_-b43a9ed933-%5BLIST_EMAIL_ID%5D)
+
+Is the mysteries of quantum physics like the "Necktie Paradox"?
+* [How to Resolve the Necktie Paradox](https://www.cantorsparadise.com/how-to-resolve-the-necktie-paradox-3501770e25a6)
+* [This Is Why You Should Switch Envelopes](https://www.cantorsparadise.com/this-is-why-you-should-switch-envelopes-d07067c24686)
 
 # Delayed Choice Quantum Eraser Experiment
 * [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
