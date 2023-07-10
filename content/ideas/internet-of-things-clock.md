@@ -127,6 +127,7 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [The Grasshopper Escapement - Best One Yet!](https://www.youtube.com/shorts/MBuEOo8tsDQ)
 * [Slide Clock](https://www.instructables.com/Slide-Clock/)
 * [Clock-of-Clocks Adds Light-Pipe Hands For Beauty And Function](https://hackaday.com/2021/03/19/clock-of-clocks-adds-light-pipe-hands-for-beauty-and-function/)
+* [Clock Escapement Uses Rolling Balls](https://hackaday.com/2023/07/09/clock-escapement-uses-rolling-balls/)
 
 # Ferrofliud Clock
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
