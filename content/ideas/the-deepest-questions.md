@@ -27,6 +27,33 @@ Version:      0.0.0
 * [The most beautiful function in Math: Sinc](https://www.youtube.com/watch?v=CGsvq_eAJYo)
 * [What Does x¹⁰⁰ + y¹⁰⁰ = 1 Look Like?](https://barryleung.medium.com/what-does-x%C2%B9%E2%81%B0%E2%81%B0-y%C2%B9%E2%81%B0%E2%81%B0-1-look-like-fd2719e7028a)
 
+# 2022 Nobel Prize in Physics
+Showed no sign of hidden variable, and therfore, outcomes are determine only by act of measurement.
+What it has shown is that quantum mechanics, as well as all of physics, is non-local.
+
+The universe is not locally real.
+Our universe cannot be real, meaning that not a single one of its properties was assigned from creation.
+Instead, it is in a constant superposition state (like the balls in our example) until we interact with it.
+
+Likewise, the universe cannot be local.
+Being local means only the surrounding spatial and temporal neighbourhoods of a given particle can affect them.
+Yet, quantum proves long-distance interactions are possible.
+
+That being said, we still don’t know which of those properties is actually false or even if both are.
+All we know is they can’t simultaneously be true.
+
+
+* [Why Did Quantum Entanglement Win the Nobel Prize in Physics?](https://www.youtube.com/watch?v=US7fEkBsy4A)
+* [Why is quantum mechanics non-local? (I wish someone had told me this 20 years ago)](https://www.youtube.com/watch?v=hpkgPJo_z6Y)
+* [Quantum Entanglement Explained - How does it really work?](https://www.youtube.com/watch?v=unb_yoj1Usk)
+* **Important:** [What the Nobel prize gets wrong about quantum mechanics](https://iai.tv/articles/einstein-god-and-spooky-action-at-a-distance-auid-2255)
+* **Important:** [Bohr, Einstein and Bell: what the 2022 Nobel Prize for Physics tells us about quantum mechanics](https://physicsworld.com/a/bohr-einstein-and-bell-what-the-2022-nobel-prize-for-physics-tells-us-about-quantum-mechanics/)
+* **Important:** [The Universe Is Not Real – 2022 Nobel Prize](https://www.balkanhotspot.org/universe-not-real-quantum-mechanics/)
+* [Does God play dice? A Note on the 2022 Nobel Prize in Physics](https://www.theweek.in/news/sci-tech/2022/10/14/does-god-play-dice--a-note-on-the-2022-nobel-prize-in-physics.html)
+* [Scientifc Background on the Nobel Prize in Physics 2022](https://www.nobelprize.org/uploads/2022/10/advanced-physicsprize2022.pdf)
+* [The worst Nobel Prizes ever awarded in science (and one in literature)](https://bigthink.com/the-past/worst-nobel-prizes-science/)
+
+
 
 
 
