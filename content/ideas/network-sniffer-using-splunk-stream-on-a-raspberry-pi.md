@@ -17,6 +17,9 @@ Version:      0.0.0
 
 * [power monitoring with Splunk](https://www.hurricanelabs.com/blog/the-coffee-report-splunk-iot-and-coffee)
 
+* [Homelab Learning: Building a Security Operations Center with Splunk](https://medium.com/@emhedge/homelab-learning-building-a-security-operations-center-with-splunk-fe4f2cfd534e)
+* [From Zero to Splunk: How to Install Splunk on a Linux VM in Minutes](https://hurricanelabs.com/splunk-tutorials/from-zero-to-splunk-how-to-install-splunk-on-a-linux-vm-in-minutes/)
+
 
 
 # What is Splunk? Splunking?
