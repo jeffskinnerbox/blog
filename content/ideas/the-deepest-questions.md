@@ -43,6 +43,7 @@ That being said, we still don’t know which of those properties is actually fal
 All we know is they can’t simultaneously be true.
 
 
+* [On Quantum Entanglement](https://medium.com/@harshit.11235/on-quantum-entanglement-df66b4f3141)
 * [Why Did Quantum Entanglement Win the Nobel Prize in Physics?](https://www.youtube.com/watch?v=US7fEkBsy4A)
 * [Why is quantum mechanics non-local? (I wish someone had told me this 20 years ago)](https://www.youtube.com/watch?v=hpkgPJo_z6Y)
 * [Quantum Entanglement Explained - How does it really work?](https://www.youtube.com/watch?v=unb_yoj1Usk)
@@ -52,6 +53,13 @@ All we know is they can’t simultaneously be true.
 * [Does God play dice? A Note on the 2022 Nobel Prize in Physics](https://www.theweek.in/news/sci-tech/2022/10/14/does-god-play-dice--a-note-on-the-2022-nobel-prize-in-physics.html)
 * [Scientifc Background on the Nobel Prize in Physics 2022](https://www.nobelprize.org/uploads/2022/10/advanced-physicsprize2022.pdf)
 * [The worst Nobel Prizes ever awarded in science (and one in literature)](https://bigthink.com/the-past/worst-nobel-prizes-science/)
+
+## Quantum Physics Confusion
+It is often said, nobody understands quantum physics ... not true.
+The problem is, nobody understands quantum **physicists** muddling of the topic.
+
+* [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
+
 
 
 
