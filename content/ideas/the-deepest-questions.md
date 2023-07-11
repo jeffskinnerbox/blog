@@ -28,8 +28,14 @@ Version:      0.0.0
 * [What Does x¹⁰⁰ + y¹⁰⁰ = 1 Look Like?](https://barryleung.medium.com/what-does-x%C2%B9%E2%81%B0%E2%81%B0-y%C2%B9%E2%81%B0%E2%81%B0-1-look-like-fd2719e7028a)
 
 # 2022 Nobel Prize in Physics
-Showed no sign of hidden variable, and therfore, outcomes are determine only by act of measurement.
+Bell Test and its proof of entanglement.
+([Bell’s Theorem: The End of Hidden Variables?](https://medium.com/quantum-untangled/bells-theorem-the-end-of-hidden-variables-43defb2fe0b9))
+Showed no sign of hidden variable, and therefore, outcomes are determine only by act of measurement.
 What it has shown is that quantum mechanics, as well as all of physics, is non-local.
+
+* **Realism:** The idea that nature exists independently of whether somebody is witnessing it or not.
+* **Locality:** The principle that nature is directly influenced only by its immediate surroundings,
+in other words, no information or cause can be transmitted faster than the speed of light.
 
 The universe is not locally real.
 Our universe cannot be real, meaning that not a single one of its properties was assigned from creation.
@@ -44,6 +50,10 @@ All we know is they can’t simultaneously be true.
 
 
 * [On Quantum Entanglement](https://medium.com/@harshit.11235/on-quantum-entanglement-df66b4f3141)
+* [Bell’s Theorem: The End of Hidden Variables?](https://medium.com/quantum-untangled/bells-theorem-the-end-of-hidden-variables-43defb2fe0b9)
+* [Bell's Theorem: The Quantum Venn Diagram Paradox](https://www.youtube.com/watch?v=zcqZHYo7ONs)
+* [Bell's Inequality: The weirdest theorem in the world | Nobel Prize 2022](https://www.youtube.com/watch?v=9OM0jSTeeBg)
+    * [Demonstrate the violation of the CHSH inequality with the Estimator primitive](https://qiskit.org/ecosystem/ibm-runtime/tutorials/chsh_with_estimator.html)
 * [Why Did Quantum Entanglement Win the Nobel Prize in Physics?](https://www.youtube.com/watch?v=US7fEkBsy4A)
 * [Why is quantum mechanics non-local? (I wish someone had told me this 20 years ago)](https://www.youtube.com/watch?v=hpkgPJo_z6Y)
 * [Quantum Entanglement Explained - How does it really work?](https://www.youtube.com/watch?v=unb_yoj1Usk)
