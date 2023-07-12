@@ -62,14 +62,6 @@ Version:      0.0.0
 
 
 
-# Quantum  Computing Books / Tutorials
-* [A free Quantum Computing Tutorial](https://medium.com/@vinven7/a-free-quantum-computing-tutorial-d13a099c91ca)
-* [Hands-On Quantum Machine Learning With Python](https://leanpub.com/pyqml-vol1)
-* [Hands-On Quantum Machine Learning With Python Volume 2](https://www.kickstarter.com/projects/pyqml/hands-on-quantum-machine-learning-with-python-volume-2)
-* [Towards Solving Optimization Problems With A Quantum Computer](https://pyqml.substack.com/p/towards-solving-optimization-problems)
-* [Quantum Machine Learning: An Advanced End-to-End Project](https://medium.com/@SPX701/quantum-machine-learning-an-advanced-end-to-end-guide-3316c542226d)
-
-
 
 
 # Probabilistic Computing
@@ -118,8 +110,6 @@ Train a quantum computer the same way as a neural network.
 # Making a Quantum Computer
 * [Making a Quantum Computer at Home](https://okezuebell.medium.com/making-a-quantum-computer-at-home-bc59afe72d7d)
 
-# Tutorials on Quantum Computing
-
 ## Simple Simulator
 * [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
 
@@ -127,13 +117,13 @@ Train a quantum computer the same way as a neural network.
 Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuits and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
 
-* [Qiskit](https://qiskit.org/learn)
+* [Qiskit Textbook](https://qiskit.org/learn)
 * [Qiskit Videos](https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A)
 * [Quantum Computer Coin Flips in Python Are Pure Fun](https://towardsdatascience.com/flip-a-coin-on-a-real-quantum-computer-in-python-df51e5f2367b)
 * [Quantum Computing With QISKit](https://hackaday.com/2019/04/02/quantum-computing-with-qiskit/)
 * [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
 * [Using Qiskit with IBM QX to generate quantum circuits](https://hub.packtpub.com/using-qiskit-with-ibm-qx-to-generate-quantum-circuits-tutorial/)
-* [Learn Quantum Computation using Qiskit](https://community.qiskit.org/textbook/)
+* [Harshit Gupta series of article](https://medium.com/@harshit.11235)
 
 * IBM Quantum Challenge: Spring 2023
     * [Lab 1](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-1-fd80c4b5cda1)
@@ -162,14 +152,24 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 # Tutorials on Quantum Physics
 * [Before You Start On Quantum Mechanics, Learn This](https://www.youtube.com/watch?v=Nd4b0_vJZUk)
-* [How does quantum computing work?](https://plus.maths.org/content/how-does-quantum-commuting-work)
-* [Quantum computing: Some (not so) gruesome details](https://plus.maths.org/content/really-how-do-quantum-computers-work)
-* [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
-    * [Fermilab scientists publish quantum computing course for high school students](https://news.fnal.gov/2020/06/fermilab-scientists-publish-quantum-computing-course-for-high-school-students/)
+* [Quantum Mechanics](https://www.youtube.com/playlist?list=PL193BC0532FE7B02C)
 * [Our quantum problem](http://aeon.co/magazine/science/our-quantum-reality-problem/)
 * [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 * [encyclopedia of quantum information](http://www.quantiki.org/wiki/Main_Page)
 * [Online course trains students in the bizarre world of quantum computing](https://www.livescience.com/quantum-computing-students-online-course.html)
+
+# Tutorials / Books on Quantum Computing
+* [How does quantum computing work?](https://plus.maths.org/content/how-does-quantum-commuting-work)
+* [Quantum computing: Some (not so) gruesome details](https://plus.maths.org/content/really-how-do-quantum-computers-work)
+* [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
+    * [Fermilab scientists publish quantum computing course for high school students](https://news.fnal.gov/2020/06/fermilab-scientists-publish-quantum-computing-course-for-high-school-students/)
+* [A free Quantum Computing Tutorial](https://medium.com/@vinven7/a-free-quantum-computing-tutorial-d13a099c91ca)
+* [Hands-On Quantum Machine Learning With Python](https://leanpub.com/pyqml-vol1)
+* [Hands-On Quantum Machine Learning With Python Volume 2](https://www.kickstarter.com/projects/pyqml/hands-on-quantum-machine-learning-with-python-volume-2)
+* [Towards Solving Optimization Problems With A Quantum Computer](https://pyqml.substack.com/p/towards-solving-optimization-problems)
+* [Quantum Machine Learning: An Advanced End-to-End Project](https://medium.com/@SPX701/quantum-machine-learning-an-advanced-end-to-end-guide-3316c542226d)
+* [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
+
 
 
 # IBM Q
