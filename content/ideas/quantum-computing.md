@@ -123,7 +123,12 @@ Qiskit accelerates the development of quantum applications by providing the comp
 * [Quantum Computing With QISKit](https://hackaday.com/2019/04/02/quantum-computing-with-qiskit/)
 * [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
 * [Using Qiskit with IBM QX to generate quantum circuits](https://hub.packtpub.com/using-qiskit-with-ibm-qx-to-generate-quantum-circuits-tutorial/)
+
 * [Harshit Gupta series of article](https://medium.com/@harshit.11235)
+* [Quantum Untangled](https://medium.com/quantum-untangled)
+
+* [Programming for Quantum Computing Pt. 1: NumPy](https://medium.com/quantum-untangled/programming-for-quantum-computing-pt-1-numpy-d3e0c5a843ef)
+* [Programming for Quantum Computing Pt. 2: Qiskit](https://medium.com/quantum-untangled/programming-for-quantum-computing-pt-2-qiskit-53a4c05be281)
 
 * IBM Quantum Challenge: Spring 2023
     * [Lab 1](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-1-fd80c4b5cda1)
