@@ -63,6 +63,26 @@ Version:      0.0.0
 
 
 
+# How or What is a Quantum Computer Computing?
+
+Does this tell us enough about the distinction between the classical & quantum computing?
+
+| Classical Computing | Quantum Computing  |
+|:--------------------|:-------------------|
+| discrete number of states (zero & one), calcuations with binary bit | infinite, continuious range of states (complex vectors), calculation with qbits |
+| power increase 1-to-1 rleative to number of transistors | power increases expodentially relative to number of qbits |
+| high error rates and must operate at ultra-low tempatures | low error rates and operate at room tempature |
+| well suited for most everyday computational needs | best suited for optiomization problems, simulations, and data analysis |
+| calculations are deterministic (same input creates the same result) | calculations are probalistic (same input creates multiple outputs) |
+| operations are define by boolien algrabra | operatons are defined by linear algrabra over Hilbert Space |
+| circuits are defined by classical physics | circuits are defined by quantum physics |
+
+* [Quantum Computing vs. Classical Computing: Which One Should You Use?](https://levelup.gitconnected.com/quantum-computing-vs-classical-computing-which-one-should-you-use-efab33a09c2f)
+* [Quantum and Classical Computing: Key Differences to Understand](https://www.quantumcomputinginc.com/blog/quantum-and-classical-key-differences/)
+* [Conventional Computing vs Quantum Computing](https://www.geeksforgeeks.org/conventional-computing-vs-quantum-computing/)
+
+
+
 
 # Probabilistic Computing
 * [Waiting for Quantum Computing? Try Probabilistic Computing](https://spectrum.ieee.org/computing/hardware/waiting-for-quantum-computing-try-probabilistic-computing)
