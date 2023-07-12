@@ -50,6 +50,7 @@ All we know is they can’t simultaneously be true.
 
 
 * [On Quantum Entanglement](https://medium.com/@harshit.11235/on-quantum-entanglement-df66b4f3141)
+* [What Is Entanglement and Why Is It Important?](https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement)
 * [Bell’s Theorem: The End of Hidden Variables?](https://medium.com/quantum-untangled/bells-theorem-the-end-of-hidden-variables-43defb2fe0b9)
 * [Bell's Theorem: The Quantum Venn Diagram Paradox](https://www.youtube.com/watch?v=zcqZHYo7ONs)
 * [Bell's Inequality: The weirdest theorem in the world | Nobel Prize 2022](https://www.youtube.com/watch?v=9OM0jSTeeBg)
