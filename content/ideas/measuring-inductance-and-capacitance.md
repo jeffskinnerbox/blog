@@ -101,6 +101,10 @@ Inductance is usually measured in units called millihenrys or microhenrys. It is
 * [Simple Sensitive IB Metal Detector with 2xNE555](https://hackaday.io/project/182607-simple-sensitive-ib-metal-detector-with-2xne555)
 * [Induction Balance Metal Detector](https://www.yumpu.com/en/document/read/11524600/induction-balance-metal-detector-geotech)
 
+# Decoupling Capacitors
+* [Proper Decoupling Capacitors](https://hackaday.com/2023/07/12/proper-decoupling-capacitors/)
+* [Decoupling Capacitors Are Crucial in PCB Design](https://www.engineering.com/story/decoupling-capacitors-are-crucial-in-pcb-design)
+
 
 
 [01]:https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction
