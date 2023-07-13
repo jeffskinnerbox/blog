@@ -53,11 +53,14 @@ Version:      0.0.0
 * [Build your own quantum computer with Google's latest 'simulator'](https://www.engadget.com/build-your-own-quantum-computer-with-googles-latest-simulator-124513737.html)
 * [Quantum computing cheat sheet for circuit designers](https://www.eenewseurope.com/en/quantum-computing-cheat-sheet-for-circuit-designers/)
 
-# Vectors & Kets
+# Vectors & Kets / Dirac Notation
 * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
 * [The Language of Quantum Physics](https://medium.com/quantafy/the-language-of-quantum-physics-8f35cdf85b34)
 * [Quantum Formalism: Vectors](https://medium.com/quantafy/quantum-formalism-vectors-4284251f550a)
 * [The Eigenvalue Equation: Explained](https://medium.com/quantafy/the-eigenvalue-equation-explained-a1265321e59f)
+
+* [Bra-Ket Notation](https://www.mathsisfun.com/physics/bra-ket-notation.html)
+* [Linear Algebra In Dirac Notation](https://quantum.phys.cmu.edu/CQT/chaps/cqt03.pdf)
 
 
 
@@ -169,6 +172,10 @@ Qiskit accelerates the development of quantum applications by providing the comp
 * [You don't know how Quantum Computers work](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
 * [Quantum computing for the determined](https://www.youtube.com/watch?v=X2q1PuI2RFI&list=PL1826E60FD05B44E4)
 
+## Quantum Country / CNOT
+* [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
+* [CNOT: Introduction to Quantum Computing](https://cnot.io/)
+
 ## QuTiP
 QuTiP is open-source software for simulating the dynamics of open quantum systems.
 
@@ -193,7 +200,11 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [Hands-On Quantum Machine Learning With Python Volume 2](https://www.kickstarter.com/projects/pyqml/hands-on-quantum-machine-learning-with-python-volume-2)
 * [Towards Solving Optimization Problems With A Quantum Computer](https://pyqml.substack.com/p/towards-solving-optimization-problems)
 * [Quantum Machine Learning: An Advanced End-to-End Project](https://medium.com/@SPX701/quantum-machine-learning-an-advanced-end-to-end-guide-3316c542226d)
-* [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
+
+* [Introduction to Quantum Computing](https://csferrie.medium.com/introduction-to-quantum-computing-df9e1182a831)
+    * [Resources for Quantum Computing](https://csferrie.medium.com/introduction-to-quantum-computing-619068d48667)
+    * [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
+    * [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
 
 
 
@@ -219,3 +230,4 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 # Classic Physics Analogs for Quantum Systems
 * [The Amazing Physics Of The Wilberforce Pendulum](https://www.youtube.com/watch?v=M0Zjl_tMOZg)
+

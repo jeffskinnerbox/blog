@@ -71,11 +71,15 @@ All we know is they can’t simultaneously be true.
 It is often said, nobody understands quantum physics ... not true.
 The problem is, nobody understands quantum **physicists** muddled description of the topic.
 
-* [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
-* [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
-* [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
-* [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
-* [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
+* Quantum Physics
+    * [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
+    * [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
+    * [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
+* Quantum Computing
+    * [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
+    * [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
+    * [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
+    * [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
 
 
 
