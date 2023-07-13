@@ -61,15 +61,21 @@ All we know is they can’t simultaneously be true.
 * **Important:** [What the Nobel prize gets wrong about quantum mechanics](https://iai.tv/articles/einstein-god-and-spooky-action-at-a-distance-auid-2255)
 * **Important:** [Bohr, Einstein and Bell: what the 2022 Nobel Prize for Physics tells us about quantum mechanics](https://physicsworld.com/a/bohr-einstein-and-bell-what-the-2022-nobel-prize-for-physics-tells-us-about-quantum-mechanics/)
 * **Important:** [The Universe Is Not Real – 2022 Nobel Prize](https://www.balkanhotspot.org/universe-not-real-quantum-mechanics/)
+* [The 2022 Nobel Prize in Physics is a fitting end to “spooky” entanglement](https://csferrie.medium.com/the-2022-nobel-prize-in-physics-is-a-fitting-end-to-spooky-entanglement-2c118aebec4b)
 * [Does God play dice? A Note on the 2022 Nobel Prize in Physics](https://www.theweek.in/news/sci-tech/2022/10/14/does-god-play-dice--a-note-on-the-2022-nobel-prize-in-physics.html)
 * [Scientifc Background on the Nobel Prize in Physics 2022](https://www.nobelprize.org/uploads/2022/10/advanced-physicsprize2022.pdf)
 * [The worst Nobel Prizes ever awarded in science (and one in literature)](https://bigthink.com/the-past/worst-nobel-prizes-science/)
 
+
 ## Quantum Physics Confusion
 It is often said, nobody understands quantum physics ... not true.
-The problem is, nobody understands quantum **physicists** muddling of the topic.
+The problem is, nobody understands quantum **physicists** muddled description of the topic.
 
 * [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
+* [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
+* [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
+* [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
+* [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
 
 
 
