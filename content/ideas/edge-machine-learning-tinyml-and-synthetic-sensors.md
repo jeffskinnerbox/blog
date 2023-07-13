@@ -43,6 +43,8 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 * [Remoticon Video: How To Use Machine Learning With Microcontrollers](https://hackaday.com/2020/12/04/remoticon-video-how-to-use-machine-learning-with-microcontrollers/)
 
+* [From Light to Insight: EdgeML powered by Indoor Solar Cells](https://www.hackster.io/507966/from-light-to-insight-edgeml-powered-by-indoor-solar-cells-df9cd3)
+
 # Microsoft Research
 * [Tiny Machine Learning On As Little As 2 KB Of RAM](https://hackaday.com/2023/02/24/tiny-machine-learning-on-as-little-as-2-kb-of-ram/)
 

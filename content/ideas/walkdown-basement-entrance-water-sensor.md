@@ -27,6 +27,8 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 * [Detect the Drain Blockage with Tiny ML + LoRa](https://www.hackster.io/vitaminCC/detect-the-drain-blockage-with-tiny-ml-lora-6d8957)
 
+* [From Light to Insight: EdgeML powered by Indoor Solar Cells](https://www.hackster.io/507966/from-light-to-insight-edgeml-powered-by-indoor-solar-cells-df9cd3)
+
 * [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
 * [Solar Wifi Weather Station (v2.0)](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fwww.danilolarizza.com%2Fstazione-meteo-solare-wifi-v2-0%2F&edit-text=&act=url)
 * [Improved Outdoor Solar Harvester Now Handles All The Parts](https://hackaday.com/2019/11/19/improved-outdoor-solar-harvester-now-handles-all-the-parts/)
