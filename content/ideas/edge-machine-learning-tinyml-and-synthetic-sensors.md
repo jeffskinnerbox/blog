@@ -15,6 +15,7 @@ Version:      0.0.0
 * [Unveiling BYOM and the Edge Impulse Python SDK](https://www.edgeimpulse.com/blog/unveiling-the-new-edge-impulse-python-sdk)
 * [TinyML: An Always-On Audio Classifier using Synthetic Data](https://www.hackster.io/shahizat/tinyml-an-always-on-audio-classifier-using-synthetic-data-3e623b)
 * [TinyML Made Easy: Image Classification](https://www.hackster.io/mjrobot/tinyml-made-easy-image-classification-cb42ae)
+* [TinyML computer vision is turning into reality with microNPUs (µNPUs)](https://www.embedded.com/tinyml-computer-vision-is-turning-into-reality-with-micronpus-%C2%B5npus/)
 
 
 
@@ -42,8 +43,6 @@ TinyML is a community of engineers focused on how best to implement machine lear
 * [Free Online Resources To Get A Comprehensive Understanding Of TinyML](https://analyticsindiamag.com/free-online-resources-to-get-a-comprehensive-understanding-of-tinyml/)
 
 * [Remoticon Video: How To Use Machine Learning With Microcontrollers](https://hackaday.com/2020/12/04/remoticon-video-how-to-use-machine-learning-with-microcontrollers/)
-
-* [From Light to Insight: EdgeML powered by Indoor Solar Cells](https://www.hackster.io/507966/from-light-to-insight-edgeml-powered-by-indoor-solar-cells-df9cd3)
 
 # Microsoft Research
 * [Tiny Machine Learning On As Little As 2 KB Of RAM](https://hackaday.com/2023/02/24/tiny-machine-learning-on-as-little-as-2-kb-of-ram/)
