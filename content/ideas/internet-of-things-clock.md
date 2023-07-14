@@ -49,6 +49,11 @@ Version:      0.0.0
 
 * [Watch Time Slide By With This Electromechanical Clock](https://hackaday.com/2023/02/27/watch-time-slide-by-with-this-electromechanical-clock/)
 
+# Vector Clock
+* [How does your computer know what time it is and why will it break your distributed systems?](https://distributed-computing-musings.com/2023/03/how-does-your-computer-know-what-time-it-is-and-why-will-it-break-your-distributed-systems/)
+* [Lamport Logical Clock: One after the another. But not together](https://distributed-computing-musings.com/2023/04/lamport-clock-one-after-the-another-but-not-together/)
+* [Vector Clocks: So what time is it?](https://distributed-computing-musings.com/2023/04/vector-clocks-so-what-time-is-it/)
+
 
 # Wrong Time Clocks
 * [Sneaky Clock Displays Wrong Time If It Catches You Looking](https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
