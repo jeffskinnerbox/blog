@@ -43,10 +43,6 @@ Water leak detection by measuring the flow of water in the house
 * [Leak Alertor 6000 Installation: Basic](https://www.youtube.com/watch?v=5-jOwc5k7XU)
 * [Leak Alertor 6000 Alerts](https://www.youtube.com/watch?v=TQRy27VDVYU)
 
-## Leak Sound Detection
-* [DIY Hydrophone Listens In On The Deep For Cheap](https://hackaday.com/2022/02/19/diy-hydrophone-listens-in-on-the-deep-for-cheap/)
-* [Cadmus - Microphone background noise cancellation and suppression for Linux!](https://www.youtube.com/watch?v=yYibLw3gsBw)
-
 ## Leak Detection via Radar
 * [Neural Network Helps With Radar Pipeline Diagnostics](https://hackaday.com/2023/05/31/neural-network-helps-with-radar-pipeline-diagnostics/)
 * [AI-assisted Pipeline Diagnostics and Inspection W/ MmWave](https://www.instructables.com/AI-assisted-Pipeline-Diagnostics-and-Inspection-W-/)
@@ -71,6 +67,11 @@ Water leak detection by measuring the flow of water in the house
     * [The Evolution of the AquaPing Design](https://www.crowdsupply.com/microphonon/aquaping/updates/the-evolution-of-the-aquaping-design)
     * [The AquaPing is not a flow meter: statistics and noise mitigation](https://www.crowdsupply.com/microphonon/aquaping/updates/the-aquaping-is-not-a-flow-meter-statistics-and-noise-mitigation)
 * [MicroPhonon](https://microphonon.com/)
+
+## Leak Sound Detection
+* [DIY Hydrophone Listens In On The Deep For Cheap](https://hackaday.com/2022/02/19/diy-hydrophone-listens-in-on-the-deep-for-cheap/)
+* [Cadmus - Microphone background noise cancellation and suppression for Linux!](https://www.youtube.com/watch?v=yYibLw3gsBw)
+* [Listening to Bats As They Search For Food](https://hackaday.com/2023/07/14/listening-to-bats-as-they-search-for-food/)
 
 ## Microphone Types
 Dynamic Microphone
@@ -197,7 +198,7 @@ Use a Electret Microphone + Amplifier Board and ESP32 to stream audio over WiFi 
 
 
 
-[01]:http://techcrunch.com/2015/09/15/fluid-is-a-smart-water-meter-for-your-home)
+[01]:http://techcrunch.com/2015/09/15/fluid-is-a-smart-water-meter-for-your-home
 [02]:https://hackaday.io/project/1460-remote-water-consumption-display
 [03]:https://hackaday.io/project/4648-analogio-a-full-stack-iot-platform/log/23608-measuring-water-consumption
 [04]:http://www.waterheroinc.com/
