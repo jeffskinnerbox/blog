@@ -53,6 +53,21 @@ Version:      0.0.0
 * [Build your own quantum computer with Google's latest 'simulator'](https://www.engadget.com/build-your-own-quantum-computer-with-googles-latest-simulator-124513737.html)
 * [Quantum computing cheat sheet for circuit designers](https://www.eenewseurope.com/en/quantum-computing-cheat-sheet-for-circuit-designers/)
 
+# Quantum Computing Categories
+Quantum computing is divided into two categories:
+Quantum Annealers and Logic Gate Based Quantum Computers.
+These two different types of quantum computers have two different purposes
+and use very different systems and hardware.
+
+## Quantum Annealers (Adiabatic Quantum Computing)
+* [Quantum Annealers: Solving The World's Optimization Problems](https://www.linkedin.com/pulse/quantum-annealers-solving-worlds-optimization-problems-brianna-gopaul/)
+
+## Logic Gate Based Quantum Computers
+
+
+
+
+
 # Vectors & Kets / Dirac Notation
 * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
 * [The Language of Quantum Physics](https://medium.com/quantafy/the-language-of-quantum-physics-8f35cdf85b34)
