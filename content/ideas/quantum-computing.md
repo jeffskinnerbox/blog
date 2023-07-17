@@ -53,6 +53,15 @@ Version:      0.0.0
 * [Build your own quantum computer with Google's latest 'simulator'](https://www.engadget.com/build-your-own-quantum-computer-with-googles-latest-simulator-124513737.html)
 * [Quantum computing cheat sheet for circuit designers](https://www.eenewseurope.com/en/quantum-computing-cheat-sheet-for-circuit-designers/)
 
+# Why Quantum Computing?
+As physicist Charlie Bennett describes the [relationship between quantum and classical computers](https://www.youtube.com/watch?v=rslt-LwtDK4)
+
+>A classical computer is a quantum computer ... so we shouldn't be asking about "where do quantum speedups come from?"
+>We should say, "well, all computers are quantum. ... Where do classical slowdowns come from?"
+
+* [Unconventional Computing](https://www.youtube.com/watch?v=szTtg302Hic&list=PLC7a8fNahjQ8IkiD5f7blIYrro9oeIfJU&index=9)
+* [Quantum Programming - Part 1](https://www.youtube.com/watch?v=2Eswqed8agg)
+
 # Quantum Computing Categories
 Quantum computing is divided into two categories:
 Quantum Annealers and Logic Gate Based Quantum Computers.
@@ -200,12 +209,14 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 # Tutorials on Quantum Physics
 * [Before You Start On Quantum Mechanics, Learn This](https://www.youtube.com/watch?v=Nd4b0_vJZUk)
 * [Quantum Mechanics](https://www.youtube.com/playlist?list=PL193BC0532FE7B02C)
+* [Quantum Computing](https://www.youtube.com/playlist?list=PLd6LlmQSrtAH6-M2YZVbHYHt4kwo1bpuo)
 * [Our quantum problem](http://aeon.co/magazine/science/our-quantum-reality-problem/)
 * [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 * [encyclopedia of quantum information](http://www.quantiki.org/wiki/Main_Page)
 * [Online course trains students in the bizarre world of quantum computing](https://www.livescience.com/quantum-computing-students-online-course.html)
 
 # Tutorials / Books on Quantum Computing
+
 * [How does quantum computing work?](https://plus.maths.org/content/how-does-quantum-commuting-work)
 * [Quantum computing: Some (not so) gruesome details](https://plus.maths.org/content/really-how-do-quantum-computers-work)
 * [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
