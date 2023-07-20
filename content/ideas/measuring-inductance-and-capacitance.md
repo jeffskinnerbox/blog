@@ -17,6 +17,8 @@ Version:      0.0.0
 * [How to Measure Inductance](https://www.wikihow.com/Measure-Inductance)
 * [The Design of Phase-Locked-Loop Circuit for Precision Capacitance Micrometer](https://www.matec-conferences.org/articles/matecconf/pdf/2016/31/matecconf_iciea2016_12006.pdf)
 
+* [Practical Inductors in LTSpice](https://hackaday.com/2023/07/18/practical-inductors-in-ltspice/)
+
 * [Electronics tutorial - Ferrite and Magnetic permeability](https://www.youtube.com/watch?v=-EqmJx4rJTc)
 
 * [Types of Capacitor](https://www.electronics-tutorials.ws/capacitor/cap_2.html)
