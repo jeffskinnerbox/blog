@@ -187,6 +187,7 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 # Working while Receiving Social Security
 * [Working while Receiving Social Security](https://www.youtube.com/watch?v=nsSViIHIm3k)
 * [How Many Hours Can You Work and Still Collect Social Security?](https://www.gobankingrates.com/retirement/social-security/how-many-hours-can-you-work-and-still-collect-social-security/)
+* [Working in Retirement: Social Security and Medicare](https://www.schwab.com/learn/story/working-retirement-how-does-it-affect-social-security-and-medicare)
 
 # Social Security Milestones
 * [The Most Important Ages of Retirement](https://www.schwab.com/learn/story/most-important-ages-retirement)
