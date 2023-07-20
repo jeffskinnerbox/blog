@@ -184,6 +184,9 @@ Qiskit accelerates the development of quantum applications by providing the comp
     * [Lab 4](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-4-541a7e0e6478)
     * [Lab 5](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-5-6d932eb1922)
 
+### Qiskit Metal
+* [Qiskit Metal | Quantum Device Design](https://www.qiskit.org/metal/)
+
 ## Quirk
 * [Quantum Searching in Your Browser](https://hackaday.com/2018/02/07/quantum-searching-in-your-browser/)
 * [Quantum Weirdness in Your Browser](https://hackaday.com/2018/01/24/quantum-weirdness-in-your-browser/)
