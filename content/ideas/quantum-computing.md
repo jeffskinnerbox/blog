@@ -170,6 +170,7 @@ Train a quantum computer the same way as a neural network.
 Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuits and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
 
+* [Getting Started with Qiskit (explained by a software developer, not a quantum physicist)](https://medium.com/queen-of-qiskit/getting-started-with-qiskit-explained-by-a-software-developer-not-a-quantum-physicist-b8ba820685e5)
 * [Qiskit Textbook](https://qiskit.org/learn)
 * [Qiskit Videos](https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A)
 * [Quantum Computer Coin Flips in Python Are Pure Fun](https://towardsdatascience.com/flip-a-coin-on-a-real-quantum-computer-in-python-df51e5f2367b)
