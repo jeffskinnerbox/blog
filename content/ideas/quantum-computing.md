@@ -53,6 +53,10 @@ Version:      0.0.0
 * [Build your own quantum computer with Google's latest 'simulator'](https://www.engadget.com/build-your-own-quantum-computer-with-googles-latest-simulator-124513737.html)
 * [Quantum computing cheat sheet for circuit designers](https://www.eenewseurope.com/en/quantum-computing-cheat-sheet-for-circuit-designers/)
 
+
+
+
+
 # Why Quantum Computing?
 As physicist Charlie Bennett describes the [relationship between quantum and classical computers](https://www.youtube.com/watch?v=rslt-LwtDK4)
 
@@ -61,6 +65,8 @@ As physicist Charlie Bennett describes the [relationship between quantum and cla
 
 * [Unconventional Computing](https://www.youtube.com/watch?v=szTtg302Hic&list=PLC7a8fNahjQ8IkiD5f7blIYrro9oeIfJU&index=9)
 * [Quantum Programming - Part 1](https://www.youtube.com/watch?v=2Eswqed8agg)
+* [Quantum Parallelism: When to use a quantum computer](https://pyqml.medium.com/quantum-parallelism-fe1c58db53bd)
+* [The Unvarnished Truth About What Quantum Computing Really Is](https://pyqml.medium.com/the-unvarnished-truth-about-what-quantum-computing-really-is-526e517df5a2)
 
 # Quantum Computing Categories
 Quantum computing is divided into two categories:
