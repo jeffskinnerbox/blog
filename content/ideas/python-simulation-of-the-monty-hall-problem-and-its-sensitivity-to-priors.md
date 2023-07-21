@@ -20,6 +20,8 @@ Version:      0.0.0
 
 
 
+
+
 So what is probibility and what does it mean to be random?
 I want to explain and demonstrate these seemingly simple concepts to show how they are not so simple,
 and how they are a source of much confusion & deception.
@@ -174,4 +176,8 @@ What if order of the childern was known?
 * [A Fascinating Prisoner’s Puzzle](https://www.cantorsparadise.com/a-fascinating-prisoners-puzzle-be874032f43e)
 * [Impossible Escape?](http://datagenetics.com/blog/december12014/index.html)
 * [The almost impossible chessboard puzzle](https://www.youtube.com/watch?v=as7Gkm7Y7h4)
+
+# P-Value
+* [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
+
 
