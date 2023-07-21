@@ -83,10 +83,6 @@ You can converts waypoints, tracks, and routes between popular GPS receivers suc
 It also has powerful manipulation tools for such data. such as filtering duplicates points or simplifying tracks.
 From there, [using 200 lines of Python](https://github.com/bunnie/watchmap) ([here](https://www.bunniestudios.com/blog/?p=5863)), you can plot the GPS data on a map and display it as a webpage.
 
-# P-GPS Mode
-Predicted GPS (P-GPS) is a form of assistance that reduces the Time to First Fix (TTFF), the time needed by a GNSS module to estimate its position.
-A form of assistance provided to devices trying to obtain a Global Navigation Satellite System (GNSS) fix, where the device can download up to two weeks of predicted satellite Ephemerides data. It enables devices to determine the exact orbital location of the satellite without connecting to the network every two hours with a trade-off of reduced accuracy of the calculated position over time. It is available through nRF Cloud.
-
 * [nRF Cloud P-GPS](https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/libraries/networking/nrf_cloud_pgps.html)
 * [nRF Cloud](https://nrfcloud.com/#/)
 * [Autonomous Drone Dodges Obstacles Without GPS](https://hackaday.com/2021/11/03/autonomous-drone-dodges-obstacles-without-gps/)
@@ -103,7 +99,7 @@ A form of assistance provided to devices trying to obtain a Global Navigation Sa
 # DashCam
 Combining the GPS location information onto a video stream
 
- [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
+* [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
 * [How to Build a Raspberry Pi Body Camera](https://www.tomshardware.com/how-to/raspberry-pi-body-camera)
 * [Building a Blockchain Police Bodycam PoC for $25](https://www.digitalmarketnews.com/building-a-blockchain-police-bodycam-poc-for-25/)
 * [Building A Dashcam With The Raspberry Pi Zero W](https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w)
@@ -206,7 +202,7 @@ Sources:
 When GPS was first released to consumers,
 it wasn’t even in the hands or understanding of most people.
 It was used for pretty unique and esoteric stuff, with a simple GPS receivers.
-They were pretty much just displayed current coordinates including latitude, longitude, and altitude- not much else.
+They were pretty much just displayed current coordinates including latitude, longitude, and altitude - not much else.
 These old units are big, heavy, slow, and use a ton of power for what they do.
 Modern GPS units are light, small, cheap, and use very little power.
 
@@ -226,26 +222,12 @@ Modern GPS units are light, small, cheap, and use very little power.
 * [Can Maths Tell Us Where We Are?](https://www.youtube.com/watch?v=XJlVPlvkzdk)
 * [SPECIAL TOPICS 2 - GPS](https://www.youtube.com/watch?v=16xHIBmul_o&list=PLX2gX-ftPVXXGdn_8m2HCIJS7CfKMCwol)
 
-# Decoding GPS Signals
-* [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
+##  Maps & Coordinate Systems
+* [Latitude, Longitude and Coordinate System Grids](https://gisgeography.com/latitude-longitude-coordinates/)
+* [Marble](https://marble.kde.org/index.php)
 
 ## Time and Navigation
 * [Time and Navigation](https://timeandnavigation.si.edu/)
-
-## Space Navigation
-* [Star Trackers: Telling Up From Down In Any Space](https://hackaday.com/2020/04/02/star-trackers-telling-up-from-down-in-any-space/)
-
-## Search and Rescue Satellite Aided Tracking (SARSAT)
-* [The Voice of GPS](https://hackaday.com/2023/06/23/the-voice-of-gps/)
-* [Receiving voice transmissions from GPS satellites || Satellite reception pt.10](https://www.youtube.com/watch?v=U_pCHTeamn8)
-
-## Automatic Identification System AIS)
-## Automatic Transmitter Identification System (ATIS)
-* https://en.wikipedia.org/wiki/Automatic_identification_system
-* https://en.wikipedia.org/wiki/Automatic_Transmitter_Identification_System_(marine)
-
-## Direction Finding
-* [Where’s That Radio? A Brief History Of Direction Finding](https://hackaday.com/2021/08/19/wheres-that-radio-a-brief-history-of-direction-finding/)
 
 ## Dead Reckoning (DR)
 Dead Reckoning is the process of determining current position by
@@ -259,6 +241,27 @@ and IMU allows higher precision and more accurate readings in between GNSS data 
 * http://www.furuno.com/en/gnss/technical/tec_dead
 * [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
 * [Basics of 6DOF and 9DOF sensor fusion](https://www.embeddedcomputing.com/technology/analog-and-power/basics-of-6dof-and-9dof-sensor-fusion)
+
+## Space Navigation
+* [Star Trackers: Telling Up From Down In Any Space](https://hackaday.com/2020/04/02/star-trackers-telling-up-from-down-in-any-space/)
+
+# Where Am I?
+* [The Longitude Problem - Improving Navigation with the Harrison Clocks](https://www.youtube.com/watch?v=zlRxWJ_kGEA)
+
+## Direction Finding
+* [Where’s That Radio? A Brief History Of Direction Finding](https://hackaday.com/2021/08/19/wheres-that-radio-a-brief-history-of-direction-finding/)
+
+# Decoding GPS Signals
+* [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
+
+## Search and Rescue Satellite Aided Tracking (SARSAT)
+* [The Voice of GPS](https://hackaday.com/2023/06/23/the-voice-of-gps/)
+* [Receiving voice transmissions from GPS satellites || Satellite reception pt.10](https://www.youtube.com/watch?v=U_pCHTeamn8)
+
+## Automatic Identification System (AIS)
+## Automatic Transmitter Identification System (ATIS)
+* https://en.wikipedia.org/wiki/Automatic_identification_system
+* https://en.wikipedia.org/wiki/Automatic_Transmitter_Identification_System_(marine)
 
 ## Global Navigation Satellite Systems (GNSS)
 Global Navigation Satellite Systems (GNSS) is the acronym that encompasses
@@ -287,6 +290,24 @@ A GPS device is designed to delivering fourteen numbers:
 and error estimates for each of these seven values.
 The `gpsd` daemon's job is to deliver these numbers to user applications with minimum fuss.
 This is a "TPV" — time-position-velocity report. A GPS is a TPV oracle.
+
+## What are GPS L1, L2, and L5 Frequencies?
+Global Positioning System (GPS) satellites circle the Earth twice a day in very precise orbits. They continuously transmit signals that allow GPS receivers on the ground to calculate their location, speed, and direction.
+
+GPS first began operations with two signals, L1 and L2. L1 operates at a frequency of 1575.42 MHz, whereas L2 operates at a frequency of 1227.60 MHz. These GPS signals include two ranging codes: P (Y) or Precision code and C/A (Carrier Acquisition) code. The first code is only for civilian usage, while the second is only for military use. These ranges codes are used to calculate the distance to the satellite as well as to uniquely identify the navigation message.
+
+Although the GPS system has nearly reached its full operational capabilities, modernization and implementation of a new GPS system have recently begun due to increased demand for better service and technological improvements. The insertion of L5 GPS signals is part of the US Department of Defense’s modernization activities.
+
+Now there are three civilian GPS frequencies: L1 at 1575.42 MHz, L2 at 1227.60 MHz, and L5 at 1176.45 MHz. Each frequency has unique properties that make it better suited for certain types of applications. For example, L1 frequency is used to track GPS satellite location, L2 frequency is used to track the health of the GPS satellites and the L5 frequency is used to improve accuracy for civilian use such as aircraft precision approach guidance.
+
+* [Everything You Need To Know About GPS L1, L2, and L5 Frequencies](https://gisresources.com/everything-you-need-to-know-about-gps-l1-l2-and-l5-frequencies/)
+* [A Pure L5 Mobile Receiver](https://insidegnss.com/a-pure-l5-mobile-receiver/)
+
+## What is Virtual Reference Station (VSR)?
+* [What is Virtual Reference Station?](https://gisresources.com/what-is-virtual-reference-station/)
+* [How VSR Works?](https://gisresources.com/how-vrs-work/)
+* [Challenges and Benefits of VRS](https://gisresources.com/challenges-and-benefits-of-vrs/)
+* [Errors can be Reduced in VRS](https://gisresources.com/errors-can-be-reduced-in-vrs_page-virtual-reference-station/)
 
 ## What is GPS NMEA Data?
 [NMEA is a standard data format][34] supported by all GPS manufacturers,
@@ -339,8 +360,7 @@ Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%20
 
 -----
 
-# Where Am I?
-* [The Longitude Problem - Improving Navigation with the Harrison Clocks](https://www.youtube.com/watch?v=zlRxWJ_kGEA)
+
 
 # Choosing GPS Technology
 * [How To Choose The Right GPS Module For Your Project](https://hackaday.com/2020/08/14/how-to-choose-the-right-gps-module-for-your-project/)
@@ -356,19 +376,90 @@ Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%20
 * http://www.furuno.com/en/gnss/technical/
 * [GPS Visualizer's coordinate calculators & distance tools](http://www.gpsvisualizer.com/calculators)
 
-## gpsd - Daemon for GPS Reciver
-* [gpsd](https://en.wikipedia.org/wiki/Gpsd)
-* [gpsd manpage](https://manpages.debian.org/testing/gpsd/gpsd.8.en.html)
-* [Tutorial – gpsd](https://www.linux-magazine.com/Issues/2018/210/Tutorial-gpsd#article_f2)
+## GPS Assisatance
+### P-GPS Mode
+Predicted GPS (P-GPS) is a form of assistance that reduces the Time to First Fix (TTFF), the time needed by a GNSS module to estimate its position.
+A form of assistance provided to devices trying to obtain a Global Navigation Satellite System (GNSS) fix, where the device can download up to two weeks of predicted satellite Ephemerides data. It enables devices to determine the exact orbital location of the satellite without connecting to the network every two hours with a trade-off of reduced accuracy of the calculated position over time. It is available through nRF Cloud.
 
-## GPS Connection
-Network based correction methods (GPS-RTK and GPS-PPP)
-can provide GPS fixes to centimeter level accuracy under ideal conditions. However, these solutions are very sensitive to the environment — such as bridges, trees, and buildings. It is well established that the way to overcome this challenge and improve precisions GPS reliability is to use high-accuracy IMU aiding at a low-level in the position solution.
-
-## AGPS
+### AGPS
 * [A-GPS vs. GPS](http://www.diffen.com/difference/A-GPS_vs_GPS)
 
-## Differential Global Positioning Systems (DGPS)
+## GNSS Correction
+Unaided, GNSS-based positioning is subject to a variety of errors
+that limit achievable accuracies to several meters.
+These errors are caused primarily by
+
+* satellite clock drift
+* slight deviations from the predicted orbits
+* signal delays incurred in the charged ionosphere and the troposphere
+
+GNSS correction services use a variety of techniques, delivery mechanisms, and core technologies
+to overcome these errors and achieve decimeter or even centimeter-level positioning accuracy.
+
+* [What is Correction Data?](https://www.sparkfun.com/news/7138)
+* [PPP-RTK GNSS correction services (PointPerfect)](https://www.u-blox.com/en/technologies/ppp-rtk-gnss-correction-services-pointperfect)
+* [Precise Point Positioning (PPP)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/precise-point-positioning-ppp/)
+
+### GNSS + INS (Inertial Navigation System)
+GNSS/INS is the use of GNSS satellite signals to correct or calibrate a solution from an inertial navigation system (INS).
+The GPS gives an absolute drift-free position value that can be used to reset the INS solution or can be blended with it by use of a mathematical algorithm, such as a Kalman filter. The angular orientation of the unit can be inferred from the series of position updates from the GPS. The change in the error in position relative to the GPS can be used to estimate the unknown angle error.
+
+The benefits of using GPS with an INS are that the INS may be calibrated by the GPS signals and that the INS can provide position and angle updates at a quicker rate than GPS. For high dynamic vehicles, such as missiles and aircraft, INS fills in the gaps between GPS positions. Additionally, GPS may lose its signal and the INS can continue to compute the position and angle during the period of lost GPS signal. The two systems are complementary and are often employed together.
+
+### Real-Time Kinematic (RTK) GNSS Correction Services
+Conventional Real-Time Kinematic (RTK) GNSS correction services
+determine the magnitude of the GNSS errors by observing the satellite signals
+from one or several fixed reference points called GNSS base stations.
+They then use IP-based communication to transfer the lump sum of all observed errors,
+to the end user called the GNSS rover.
+
+RTK-based solutions require two-way communication between the GNSS receiver
+and the GNSS correction service provider and achieve centimeter-level positioning accuracy in ten to twenty seconds.
+Also, the GNSS rover must remain within a roughly 30 kilometer radius from the nearest base station.
+
+### Precise Point Positioning (PPP) GNSS Correction Services
+PPP is a positioning technique that removes or models GNSS system errors,
+that remains valid across vast geographical expanses,
+to provide a high level of position accuracy from a single receiver.
+A PPP solution depends on GNSS satellite clock and orbit corrections,
+generated from a network of global reference stations.
+Once the corrections are calculated, they are delivered to the end user via satellite or over the Internet.
+These corrections are used by the receiver,
+resulting in decimetre-level or better positioning with no base station required.
+
+Because it only requires unidirectional communication (IP-based or via satellite L-band),
+the service can be delivered to any number of users.
+Conventional PPP high precision positioning can take three minutes to half an hour
+to deliver a position estimate with below 10 centimeter accuracy,
+making it a viable solution for static applications, such as surveying,
+but a poor fit for more dynamic ones, such as drones, micromobility, precision agriculture, and others.
+
+### State Space Representation (SSR) / PPP-RTK GNSS Correction Services
+Network based correction methods (GPS-RTK and GPS-PPP)
+can provide GPS fixes to centimeter level accuracy under ideal conditions.
+However, these solutions are very sensitive to the environment — such as bridges, trees, and buildings.
+The triditional / well established way to overcome this challenge
+and improve precision GPS reliability is to use high-accuracy IMU aiding at a low-level in the position solution.
+
+In recent years, these established approaches to determining GNSS corrections
+have been combined into PPP-RTK GNSS corrections services
+(sometimes also referred to as state space representation (SSR) correction services)
+that deliver the best of both worlds:
+combining accuracy close to that of RTK and quick initialization times with the broadcast nature of PPP.
+
+Like PPP-based solutions, PPP-RTK GBSS rely on a model of GNSS errors with broad geographical validity
+and broadcast the different GNSS error components (or states) using one-way communication.
+The GNSS receivers then compute the GNSS corrections for their specific location.
+Additional statistical information can further support the algorithms used by the GNSS receiver L5 channel.
+
+The benefits are:
+
+* PPP-RTK-enabled GNSS receivers can deliver centimeter-level positioning within seconds
+* A single GNSS correction data stream can be concurrently broadcast to any number of GNSS receivers
+* Redundant IP and satellite-based communications increase the reliability and availability of the service
+* Continental coverage enables a seamless positioning experience
+
+### Differential Global Positioning Systems (DGPS)
 [DGPS (Differential GPS)][35] is essentially a system to provide positional corrections to GPS signals.
 DGPS is designed to be more accurate than GPS.
 DGPS are enhancements to the GPS which provide improved location accuracy,
@@ -378,7 +469,7 @@ DGPS uses a fixed, known position to adjust real time GPS signals to eliminate [
 The stationary GPS receiver needs to be with 100km of the roving GPS receiver.
 DGPS corrections improve the accuracy of position data only.
 DGPS has no effect on results that are based on speed data.
-DGPS accarcy will be effected by the distance between the transmitter & rover,
+DGPS accuracy will be effected by the distance between the transmitter & rover,
 and ionosphere, troposphere and multipath conditions.
 
 * [How Does DGPS (Differential GPS) Work?](https://racelogic.support/01VBOX_Automotive/01General_Information/Knowledge_Base/How_Does_DGPS_(Differential_GPS)_Work%3F)
@@ -386,9 +477,30 @@ and ionosphere, troposphere and multipath conditions.
 * [How Not To Build Your Own DGPS Base Station](https://hackaday.com/2018/03/30/fail-of-the-week-how-not-to-build-your-own-dgps-base-station/)
 * [Differential GPS Explained](https://www.esri.com/news/arcuser/0103/differential1of2.html)
 
+## DGNSS
+Differential Global Navigation Satellite System (DGNSS),
+is an enhancement to GNSS that was developed to correct these errors and inaccuracies in the GNSS system,
+allowing for more accurate positioning information.
+The advantage of DGNSS is that it is useful over a longer baseline
+(distance between a base station and rover receivers), and a DGNSS is less expensive.
+The technology required to achieve the higher accuracy of RTK performance
+makes the cost of an RTK-capable receiver higher than one that is DGNSS-capable only.
+
+## GPS-PPK / Post Processing Kinematic (PPK)
+Post-Processed Kinetic (PPK) can be used with a traditional, non-RTK GPS chip
+and perfrom the after the positioning data has been collected.
+
+* [PPK Or RTK – Which is best?](https://coptrz.com/ppk-or-rtk-which-is-best/)
+
 ## GPS-RTK
 Real Time Kinematic (RTK)
 
+An excellent hands on introduction to GPS-RTK is [RTK Overview](http://rtkexplorer.com/rtk-overview/)
+including the software tools [RTKLIB](https://www.rtklib.com/) and [RTKNAVI](https://rtknavi.com/).
+
+* [How RTK works](https://www.youtube.com/watch?v=ieearzWTCZw)
+* [Different Methods of Setting up the RTK Base](https://www.youtube.com/watch?v=p7L-3E-OM-c)
+* [WHAT IS NTRIP?](https://www.agsgis.com/What-is-NTRIP_b_42.html)
 * [Real-Time Kinematic (RTK)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/real-time-kinematic-rtk/)
 * [SparkFun GPS-RTK2 Board](https://www.sparkfun.com/products/15136)
 * [SparkFun GPS-RTK Board - NEO-M8P-2](https://www.sparkfun.com/products/15005)
@@ -398,21 +510,18 @@ Real Time Kinematic (RTK)
 * [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
 * [Crowd Supply: RTK Rover](https://www.crowdsupply.com/hyfix/rtk-rover)
 
-## GPS-PPK
-Post Processing Kinematic (PPK)
-
-* [PPK Or RTK – Which is best?](https://coptrz.com/ppk-or-rtk-which-is-best/)
-
-### Ground Control Points (GCP)
-Ground Control Points (GCPs) are defined as points on the surface of the earth of known location used to geo-reference Landsat Level-1 data. GCPs are updated as needed to continually improve Landsat data. GCPs can be downloaded and used as reference data.
-
-* [Ground Control Points](https://www.usgs.gov/landsat-missions/ground-control-points)
 
 ### Networked Transport of RTCM via Internet Protocol (NTRIP)
 Networked Transport of RTCM via Internet Protocol (NTRIP)
 is a protocol used for streaming corrections over the Internet from a base station to a rover to achieve cm-level accuracy.
 
+The Radio Technical Commission for Maritime Services (RTCM) is an international non-profit scientific, professional and educational organization.
+Of particular interest is Special Committee (SC) 104 on Differential Global Navigation Satellite Systems (DGNSS) which defines the transmission standard for the correction information which is used by the various VERIPOS services. The standard typically used by the service providers in the offshore industry is 'RTCM recommended Standards for Differential GNSS Service (RTCM Paper 136-2001/SC104-STD)'.
+
 RTCM (aka RTCM SC-104) is a communication protocol for sending differential GPS (DGPS) to a GPS receiver from a secondary source like a radio receiver. The standard is named for the Special Committee 104 (SC 104) of the [Radio Technical Commission for Maritime Services (RTCM)][73] that created it.
+
+* Reference for Global Navigation Satellite Systems: [Navipedia](https://gssc.esa.int/navipedia/index.php?title=Main_Page)
+* [RTK Standards](https://gssc.esa.int/navipedia/index.php/RTK_Standards)
 
 * [What is NTRIP](https://support.pix4d.com/hc/en-us/articles/4633640503709-What-is-NTRIP)
 * [What Is NTRIP and How to Use It for RTK with Reach](https://blog.emlid.com/what-is-ntrip-and-how-to-use-it-for-rtk-with-reach/)
@@ -424,17 +533,19 @@ RTCM SC-104 is a standard that defines the data structure for differential corre
 * https://www.e-education.psu.edu/geog862/node/1838
 
 ### SNIP
-SNIP is a Networked Transport of RTCM via Internet Protocol (NTRIP) Caster application that combines user-friendly software with an active data-pushing feature to bring you all the benefits of NTRIP technology.
+SNIP is a Networked Transport of RTCM via Internet Protocol (NTRIP) Caster application
+that combines user-friendly software with an active data-pushing feature to bring you all the benefits of NTRIP technology.
 
 * [SNIP](https://www.use-snip.com/)
+
+Many of the various low cost L1-only uBlox chips, including the 6T and 8 series (as well as the latest F9P)
+can be used for traditional RTK navigation and positioning.
+
+*[Using RTCM2 with uBlox GNSS](https://www.use-snip.com/kb/knowledge-base/using-rtcm2-with-ublox-gnss/)
 
 ## Real-Time Kinematic vs. Differential GPS
 * [Real-Time Kinematic and Differential GPS](https://www.e-education.psu.edu/geog862/node/1828)
 
-### Precise Point Positioning (PPP)
-PPP is a positioning technique that removes or models GNSS system errors to provide a high level of position accuracy from a single receiver. A PPP solution depends on GNSS satellite clock and orbit corrections, generated from a network of global reference stations. Once the corrections are calculated, they are delivered to the end user via satellite or over the Internet. These corrections are used by the receiver, resulting in decimetre-level or better positioning with no base station required.
-
-* [Precise Point Positioning (PPP)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/precise-point-positioning-ppp/)
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
@@ -445,6 +556,10 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [What’s More Accurate than a GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
     * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
 
+### Ground Control Points (GCP)
+Ground Control Points (GCPs) are defined as points on the surface of the earth of known location used to geo-reference Landsat Level-1 data. GCPs are updated as needed to continually improve Landsat data. GCPs can be downloaded and used as reference data.
+
+* [Ground Control Points](https://www.usgs.gov/landsat-missions/ground-control-points)
 ## GPS Time Coordinate System
 The [World Geodetic System 1984][38] [(WGS84)][67]
 (also known as WGS 1984, EPSG:4326)
@@ -465,12 +580,6 @@ is a term used in GPS navigation to specify the error
 in positional measurement precision resulting from sub-optimal satellite geometry.
 
 * [GPS Position accuracy and how to tell if you have a good fix?](https://ozzmaker.com/gps-position-accuracy-and-how-to-tell-if-you-have-a-good-fix/)
-
-##  Coordinate Systems
-* [Latitude, Longitude and Coordinate System Grids](https://gisgeography.com/latitude-longitude-coordinates/)
-
-## Maps
-* [Marble](https://marble.kde.org/index.php)
 
 ## Python Libraries for GIS and Mapping
 * [Python Libraries for GIS and Mapping](https://gisgeography.com/python-libraries-gis-mapping/)
@@ -547,11 +656,59 @@ GPX files store three types of data:
 * Route - Includes a list of track points, which are waypoints for turn or stage points, that lead to a destination.
 * Track - Includes a list of points that describe a path.
 
+## SPARTN Data Format
+The Secure Position Augmentation for Real-Time Navigation (SPARTN) format is an industry-driven standard for communication of
+GNSS high accuracy correction data between service providers and end users.
+
+* [SPARTN](https://www.spartnformat.org/)
+
 
 ----
 
 
-# Enable the USB Gadget Support
+# u-blox Products
+ZED-F9 is a family of multi-band GPS-RTK recievers, covering all four GNSS constellations (GPS, GLONASSS, Galileo, BeiDou),
+achieving centimeter accuracy with low energy consumption.
+These devices use u-blox's PointPerfict GNSS cloud-based correction data and derived from a local RTK base station or NTRIP remote base station.
+These devices also support L5 multi-band
+
+multi-GNSS systems can access more than one range of frequencies from a single constellation or different constellations.
+multi-band GPS systems and can provide much greater stability and improved accuracy for both standard and autonomous navigation.
+
+RTK technology has enabled precise, centimeter-level accuracy for GPS positioning.
+It works by utilizing a ground-based, fixed, and pre-surveyed sensor to send corrections to the rover system.
+This is a bit like setting your hand on something stable to get your bearings after spinning around a few turns.
+An issue with RTK is the “fix” time a single band RTK system takes.
+This means the device will need to wait for 1, 2, or even 5+ minutes sometimes
+for the device to catch enough signal from the GPS constellation in order to
+have enough usable data to start the vehicle.
+That’s far too long for many people and applications.
+The single-band receiver can only detect information on the L1 frequency
+which significantly limits the speed these devices can get a fix on the precise location
+and may affect the accuracy of the information.
+By contrast, multi-GNSS systems can process several different frequency bands,
+which can reduce RTK initialization and fix solutions to a considerable degree,
+typical within a few seconds.
+
+ZED-F9P Module
+* ZED-F9P-02B: u-blox F9 high precision GNSS module with Satellite Based Augmentation System (SBAS) - $200 for unit 1 at DigiKey
+* ZED-F9P-04B: u-blox high precision GNSS module with Secure Position Augmentation for Real Time Navigation (SPARTN) and Centimetre-level Augmentation Services (CLAS) for Japan - $200 for unit 1 at DigiKey
+* ZED-F9P-15B: u-blox high precision GNSS module with L1/L5 (aka Multi-Band GNSS) - $129 for unit 1 at DigiKey
+    * https://gisresources.com/everything-you-need-to-know-about-gps-l1-l2-and-l5-frequencies/
+    * https://www.u-blox.com/en/press-releases/u-blox-announces-first-timing-solutions-based-l1-and-l5-gnss-signals
+* [ZED-F9P Use Cases](https://www.sparkfun.com/rtk)
+
+
+* [A first look at the u-blox ZED-F9P dual frequency receiver](https://rtklibexplorer.wordpress.com/2018/11/30/a-first-look-at-the-u-blox-zed-f9p-dual-frequency-receiver/)
+* [u-blox Precise Positioning](https://www.youtube.com/watch?v=NalwVqdcENk)
+*[ZED-F9P Module](https://www.u-blox.com/en/product/zed-f9p-module)
+
+
+----
+
+
+
+# Enable Raspberry Pi USB Gadget Support
 With USB Gadget support,
 you can plug your Pi directly into your PC and get to it without any 3rd party software
 and the Pi can use a separate wireless network such as your phone.
@@ -561,7 +718,7 @@ This helps create a setup that’s friendly for travel and requires very little 
 
 
 # Raspberry Pi Zero Setup
-I have set up all all my Raspberry Pi's as [headless devices][01].
+I have set up all my Raspberry Pi's as [headless devices][01].
 For one thing, I want to SSH into my devices so I don't want
 or need a monitor/keyboard.
 The real trick on going headless is doing the initial setup of the device
@@ -1168,6 +1325,7 @@ The OzzMaker products website list several useful postings concerning the BerryG
     * [BerryGPS Data logger using a BerryGPS][29]
     * [Navigating with Navit on the Raspberry Pi][33]
     * [Use u-Center graphical interface to control GPS](http://ozzmaker.com/using-u-center-to-connect-to-a-raspberry-pi-with-an-attached-berrygps-imu-gsm/)
+    * [Getting Started with U-Center for u-blox](https://learn.sparkfun.com/tutorials/getting-started-with-u-center-for-u-blox/all)
     * [Using python with a GPS receiver on a Raspberry Pi](http://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/)
     * [Real-time GPS tracking with a Raspberry Pi](http://ozzmaker.com/real-time-gps-tracking-with-a-raspberry-pi/)
     * [How to save GPS data to a file using Python](http://ozzmaker.com/how-to-save-gps-data-to-a-file-using-python/)
@@ -1367,6 +1525,12 @@ do the following (but not now!):
 sudo systemctl enable gpsd.socket
 sudo systemctl start gpsd.socket
 ```
+
+For more on the GPS reciver daemon, see the following sources:
+
+* [gpsd](https://en.wikipedia.org/wiki/Gpsd)
+* [gpsd manpage](https://manpages.debian.org/testing/gpsd/gpsd.8.en.html)
+* [Tutorial – gpsd](https://www.linux-magazine.com/Issues/2018/210/Tutorial-gpsd#article_f2)
 
 ### Step 5: Using the gpsd Daemon - DONE
 You can also run the following command to manually start `gpsd`:
