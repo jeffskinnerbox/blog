@@ -60,6 +60,9 @@ Version:      0.0.0
 
 
 
+# Quantum Computing Origins
+* [Feynman’s Three Papers Related to Quantum Computing](https://jackkrupansky.medium.com/feynmans-three-papers-related-to-quantum-computing-dd6f9847e6ad)
+
 # Why Quantum Computing?
 As physicist Charlie Bennett describes the [relationship between quantum and classical computers](https://www.youtube.com/watch?v=rslt-LwtDK4)
 
@@ -72,6 +75,16 @@ As physicist Charlie Bennett describes the [relationship between quantum and cla
 * [The Unvarnished Truth About What Quantum Computing Really Is](https://pyqml.medium.com/the-unvarnished-truth-about-what-quantum-computing-really-is-526e517df5a2)
 * [Quantum Instruction Set - Computerphile](https://www.youtube.com/watch?v=ZN0lhYU1f5Q)
 * [Current State of Quantum Computing - Computerphile](https://www.youtube.com/watch?v=PN7mPYcWFKg)
+
+# Negative Probability
+The probability axioms require that P(E)≥0 for every event E, and that the probability P(Ω) of the entire sample space is 1. So a system with negative probability, or probabilities greater than 1, does not satisfy the axioms of being a probability space.
+
+In probability theory, probabilities are always non-negative. Therefore, a negative probability does not have a mathematical meaning. Probabilities are used to quantify the likelihood of an event occurring and are always between 0 and 1, with 0 indicating that an event is impossible and 1 indicating that an event is certain.
+
+But in quantum mechanics, you do have negative probabilities. However events with negative probabilities can never be observable. Although technically not a probability relaxing the axioms to allow negative probabilities is extremely useful in the quantum world. They have a name: QuasiProbabilities.
+In quantum mechanics,
+you are operating with a 2-norm probability. In this case, we are generalize probability so that instead of  P(x)+P(not x)=1 for an event x, we have  P(x)2+P(not x)2=1. Then P(x) can be negative, or complex.
+
 
 # Quantum Computing Categories
 Quantum computing is divided into two categories:
