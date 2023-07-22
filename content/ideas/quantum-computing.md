@@ -54,6 +54,7 @@ Version:      0.0.0
 * [University of Maryland: Quantum Atlas](https://quantumatlas.umd.edu/)
 * [Build your own quantum computer with Google's latest 'simulator'](https://www.engadget.com/build-your-own-quantum-computer-with-googles-latest-simulator-124513737.html)
 * [Quantum computing cheat sheet for circuit designers](https://www.eenewseurope.com/en/quantum-computing-cheat-sheet-for-circuit-designers/)
+* [Quantum Computing](https://www.youtube.com/playlist?list=PLzH6n4zXucko55y-YFE4ng1CLiui_3DUr)
 
 
 
