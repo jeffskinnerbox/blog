@@ -167,6 +167,7 @@ consider joining the [Time Nuts email list](https://lists.febo.com/mailman/listi
 ## Terrestrial Radio Time Signals
 A radio clock or radio-controlled clock (RCC), is a type of quartz clock or watch that is automatically synchronized to a time code transmitted by a radio transmitter connected to a time standard such as an atomic clock. Such a clock may be synchronized to the time sent by a single transmitter, such as many national or regional time transmitters, or may use the multiple transmitters used by satellite navigation systems such as Global Positioning System
 
+* [Turning a Quartz Clock Module Into a Time Reference](https://hackaday.com/2023/07/21/turning-a-quartz-clock-module-into-a-time-reference/)
 * [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 * [WWV](https://en.wikipedia.org/wiki/WWV_(radio_station))
 
