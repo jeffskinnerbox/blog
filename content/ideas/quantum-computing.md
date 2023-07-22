@@ -16,6 +16,8 @@ Version:      0.0.0
 * [Quantum Computing for Beginners](https://dev.to/taradev/series/23332)
     * [A Beginner's Guide to Starting Your Journey in Quantum Computing](https://dev.to/taradev/a-beginners-guide-to-starting-your-journey-in-quantum-computing-300o)
     * [Open source as a path to learning Quantum Computing](https://dev.to/taradev/open-source-as-a-path-to-learning-quantum-computing-4dkb)
+    * [Universal Quantum Computer](https://www.youtube.com/watch?v=z5-XI__LfT8&t=107s)
+    * [Quantum Computing for Computer Scientists](https://www.youtube.com/watch?v=F_Riqjdh2oM&list=PLD7HFcN7LXRcKEiyRxdTDVRaMZQDhojhb)
 
 
 
@@ -67,6 +69,8 @@ As physicist Charlie Bennett describes the [relationship between quantum and cla
 * [Quantum Programming - Part 1](https://www.youtube.com/watch?v=2Eswqed8agg)
 * [Quantum Parallelism: When to use a quantum computer](https://pyqml.medium.com/quantum-parallelism-fe1c58db53bd)
 * [The Unvarnished Truth About What Quantum Computing Really Is](https://pyqml.medium.com/the-unvarnished-truth-about-what-quantum-computing-really-is-526e517df5a2)
+* [Quantum Instruction Set - Computerphile](https://www.youtube.com/watch?v=ZN0lhYU1f5Q)
+* [Current State of Quantum Computing - Computerphile](https://www.youtube.com/watch?v=PN7mPYcWFKg)
 
 # Quantum Computing Categories
 Quantum computing is divided into two categories:
@@ -232,6 +236,7 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
     * [Fermilab scientists publish quantum computing course for high school students](https://news.fnal.gov/2020/06/fermilab-scientists-publish-quantum-computing-course-for-high-school-students/)
 * [A free Quantum Computing Tutorial](https://medium.com/@vinven7/a-free-quantum-computing-tutorial-d13a099c91ca)
+* [Quantum Machine Learning](https://www.youtube.com/watch?v=xgA4Dx_7q34&list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
 * [Hands-On Quantum Machine Learning With Python](https://leanpub.com/pyqml-vol1)
 * [Hands-On Quantum Machine Learning With Python Volume 2](https://www.kickstarter.com/projects/pyqml/hands-on-quantum-machine-learning-with-python-volume-2)
 * [Towards Solving Optimization Problems With A Quantum Computer](https://pyqml.substack.com/p/towards-solving-optimization-problems)
@@ -241,6 +246,10 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
     * [Resources for Quantum Computing](https://csferrie.medium.com/introduction-to-quantum-computing-619068d48667)
     * [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
     * [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
+
+* [Qiskit Textbook](https://qiskit.org/learn/)
+    * [Understanding Quantum Information and Computation](https://www.youtube.com/watch?v=0Av89fZenSY&list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&index=2)
+    * [Getting started with Qiskit](https://www.youtube.com/watch?v=P5cGeDKOIP0&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
 
 
 
