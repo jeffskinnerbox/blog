@@ -81,6 +81,11 @@ As physicist Charlie Bennett describes the [relationship between quantum and cla
 * [Quantum Instruction Set - Computerphile](https://www.youtube.com/watch?v=ZN0lhYU1f5Q)
 * [Current State of Quantum Computing - Computerphile](https://www.youtube.com/watch?v=PN7mPYcWFKg)
 
+# Why are Quantum Computing so Fast?
+Is this why or is it bull shit?
+* [](https://medium.com/@hasnainistz/quantum-computing-why-it-is-so-fast-ddc93f3dffdc)
+* [What Is Entanglement and Why Is It Important?](https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement)
+
 # Negative Probability
 The probability axioms require that P(E)≥0 for every event E, and that the probability P(Ω) of the entire sample space is 1. So a system with negative probability, or probabilities greater than 1, does not satisfy the axioms of being a probability space.
 
