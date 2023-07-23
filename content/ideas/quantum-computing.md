@@ -58,6 +58,11 @@ Version:      0.0.0
 
 
 
+# Scott Aaronson's Course "Quantum Computing Since Democritus"
+* [PHYS771 Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/default.html)
+* [Quantum Computing since Democritus](https://www.amazon.com/Quantum-Computing-since-Democritus-ebook/dp/B00B4V6IZK/)
+
+
 
 
 # Quantum Computing Origins
@@ -84,6 +89,9 @@ In probability theory, probabilities are always non-negative. Therefore, a negat
 But in quantum mechanics, you do have negative probabilities. However events with negative probabilities can never be observable. Although technically not a probability relaxing the axioms to allow negative probabilities is extremely useful in the quantum world. They have a name: QuasiProbabilities.
 In quantum mechanics,
 you are operating with a 2-norm probability. In this case, we are generalize probability so that instead of  P(x)+P(not x)=1 for an event x, we have  P(x)2+P(not x)2=1. Then P(x) can be negative, or complex.
+
+* [Can Probabilities Be Negative? – What this question teaches us about quantum theory](https://www.youtube.com/watch?v=std9EBbtOC0)
+    * Quantum theory is about information, and about how probabilities behave when information is fundamentally inaccessible to observers.
 
 
 # Quantum Computing Categories
