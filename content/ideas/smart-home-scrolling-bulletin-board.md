@@ -99,6 +99,8 @@ Native Informational Features
 * ["Perfect Paul" is Stephen Hawking's voice](https://www.wired.com/2015/01/intel-gave-stephen-hawking-voice/)
 * [eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
 
+* [Text-to-Speech Model Can Do Music, Background Noises, and Sound Effects](https://hackaday.com/2023/07/24/text-to-speech-model-can-do-music-background-noises-and-sound-effects/)
+
 ## Other Options
 * [RPi Python Library Has Retro Chiptunes And Speech Covered](https://hackaday.com/2021/09/09/rpi-python-library-has-retro-chiptunes-and-speech-covered/)
 * Check out your document - /home/jeff/blogging/content/articles/speech-synthesis-on-the-raspberry-pi.md
