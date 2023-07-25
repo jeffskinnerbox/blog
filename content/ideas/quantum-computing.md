@@ -273,6 +273,7 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [Quantum Machine Learning](https://www.youtube.com/watch?v=xgA4Dx_7q34&list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
 * [Hands-On Quantum Machine Learning With Python](https://leanpub.com/pyqml-vol1)
 * [Hands-On Quantum Machine Learning With Python Volume 2](https://www.kickstarter.com/projects/pyqml/hands-on-quantum-machine-learning-with-python-volume-2)
+* [Hands-On Quantum Machine Learning With Python](https://pyqml.substack.com/)
 * [Towards Solving Optimization Problems With A Quantum Computer](https://pyqml.substack.com/p/towards-solving-optimization-problems)
 * [Quantum Machine Learning: An Advanced End-to-End Project](https://medium.com/@SPX701/quantum-machine-learning-an-advanced-end-to-end-guide-3316c542226d)
 
