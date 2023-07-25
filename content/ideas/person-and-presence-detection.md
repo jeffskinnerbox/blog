@@ -87,6 +87,11 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
     * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
 * [Animatronic Alexa Gives Amazon’s Echo a Face](https://hackaday.com/2023/07/05/animatronic-alexa-gives-amazons-echo-a-face/)
 
+## Make it Speak to Home Assistant
+* [More Voice More Voice More Voice (Local Control)](https://www.mostlychris.com/more-voice-more-voice-more-voice/)
+    * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
+* [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
+
 # Magic Storybook with ChatGPT
 This guide will show you how to create your own never-ending story book using a Raspberry Pi,
 a touch screen display, and ChatGPT.

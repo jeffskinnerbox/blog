@@ -40,6 +40,12 @@ Consider using [Adafruit STEMMA Audio Amp - Mono 2.5W Class D - PAM8302](https:/
 * [WiFiManager](https://github.com/tzapu/WiFiManager/tree/development#how-it-works)
 * [Avoid Hard-Coding WiFi Credentials on Your ESP8266 Using the WiFiManager Library](https://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/)
 
+# Make it Speak to Home Assistant
+* [More Voice More Voice More Voice (Local Control)](https://www.mostlychris.com/more-voice-more-voice-more-voice/)
+    * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
+* [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
+
+
 
 -----
 
