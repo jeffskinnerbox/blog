@@ -58,6 +58,13 @@ Version:      0.0.0
 
 
 
+
+
+# IBM Quantum Developer Certification
+Seems like it is nolonger offered
+* [Learn More About the IBM Quantum Developer Certification — And How to Take it For Free](https://medium.com/qiskit/learn-more-about-the-ibm-quantum-developer-certification-and-how-to-take-it-for-free-d237f9765dc5)
+
+
 # Scott Aaronson's Course "Quantum Computing Since Democritus"
 * [PHYS771 Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/default.html)
 * [Quantum Computing since Democritus](https://www.amazon.com/Quantum-Computing-since-Democritus-ebook/dp/B00B4V6IZK/)
