@@ -853,6 +853,10 @@ establish Firewall rules, and other features you would expect of a router.
 * [NetBox - Open Source Network Design and Mapping Software from homelab to network engineers](https://www.youtube.com/watch?v=sHvMyRHA7sY)
 * [NetBox Documentation](https://docs.netbox.dev/en/stable/)
 
+# HomeBox
+* [HomeBox](https://hay-kot.github.io/homebox/)
+* [Keep Track of Your Belongings by Self-Hosting HomeBox on Raspberry Pi](https://www.makeuseof.com/raspberry-pi-homebox-track-belongings-self-hosting/)
+
 
 
 ------
