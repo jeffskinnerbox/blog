@@ -12,8 +12,6 @@ Version:      0.0.0
 -----
 
 
-
-
 # Background
 * [Batteries? What For?](https://www.sparkfun.com/news/2913)
 * [A Quick History of the Battery](http://hackaday.com/2016/10/29/a-quick-history-of-the-battery/)
@@ -24,6 +22,7 @@ Version:      0.0.0
 * [Lithium-Ion Shipping and Travel Regulations: What You Need to Know](https://www.allaboutcircuits.com/news/lithium-ion-shipping-and-travel-regulations-what-you-need-to-know/?utm_source=All+About+Circuits+Members&utm_campaign=2e59b3d647-EMAIL_CAMPAIGN_2017_04_06&utm_medium=email&utm_term=0_2565529c4b-2e59b3d647-270523833/)
 * [Battery management training](http://www.ti.com/power-management/battery-management/support-training.html)
 * [Coin Cells: The Mythical Milliamp-Hour](https://hackaday.com/2017/12/22/coin-cells-the-mythical-milliamp-hour/)
+* [A Deep Dive On Battery Life](https://hackaday.com/2023/07/28/a-deep-dive-on-battery-life/)
 
 * [n Exhaustive Guide To Building 18650 Packs](https://hackaday.com/2019/06/12/an-exhaustive-guide-to-building-18650-packs/)
 
