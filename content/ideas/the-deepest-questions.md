@@ -757,6 +757,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Entropy And Heat: The Hidden Connection Behind Time Flow](https://streetscience.net/entropy-and-heat-the-hidden-connection-behind-time-flow/)
 * [Entropy: How To Actually Measure Uncertainty](https://medium.com/street-science/entropy-how-to-actually-measure-uncertainty-dd1bd7d56235)
 
+* [Chaos In Perception: The Subjective Nature Of Entropy](https://streetscience.net/chaos-in-perception-the-subjective-nature-of-entropy/)
+
 ## Entropy as Disorder (Not)
 * [What, Exactly, is Entropy?](https://www.cantorsparadise.com/what-exactly-is-entropy-2a0e2fc067f8)
 * [Why do Oil and Water Separate?](https://medium.com/science-pathways/why-do-oil-and-water-separate-7a80e2a3e04d)
