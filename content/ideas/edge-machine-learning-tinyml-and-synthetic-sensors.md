@@ -12,6 +12,9 @@ Version:      0.0.0
 
 
 
+* [Remi El-Ouazzane: ‘A Tsunami of TinyML Devices is Coming’](https://www.eetimes.com/remi-el-ouazzane-a-tsunami-of-tinyml-devices-is-coming/)
+
+
 * [Unveiling BYOM and the Edge Impulse Python SDK](https://www.edgeimpulse.com/blog/unveiling-the-new-edge-impulse-python-sdk)
 * [TinyML: An Always-On Audio Classifier using Synthetic Data](https://www.hackster.io/shahizat/tinyml-an-always-on-audio-classifier-using-synthetic-data-3e623b)
 * [TinyML Made Easy: Image Classification](https://www.hackster.io/mjrobot/tinyml-made-easy-image-classification-cb42ae)
@@ -79,6 +82,9 @@ TinyML is a community of engineers focused on how best to implement machine lear
 # App Framework for ML
 * [Turn Python Scripts into Beautiful ML Tools](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace)
 * [Streamlit](https://www.streamlit.io/)
+
+# Performance Benchnark Suite
+* [MLPerf™ Inference Benchmark Suite](https://github.com/mlcommons/inference)
 
 # TinyML Boards
 * [Easy TinyML on ESP32 and Arduino](https://www.hackster.io/news/easy-tinyml-on-esp32-and-arduino-a9dbc509f26c)
