@@ -358,6 +358,8 @@ Most dual channel oscilloscopes have an XY mode in which the timebase is replace
 
 * [Drawing Knots On An Oscilloscope Using Analog Means](https://hackaday.com/2023/02/22/drawing-knots-on-an-oscilloscope-using-analog-means/)
 
+* [The Right Equipment Makes a Difference for Digital Oscilloscope Music](https://hackaday.com/2023/07/29/the-right-equipment-makes-a-difference-for-digital-oscilloscope-music/)
+
 
 
 -------
