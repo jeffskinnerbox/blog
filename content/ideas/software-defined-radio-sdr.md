@@ -14,12 +14,26 @@ Version:      0.0.0
 
 
 
+
 * [2020 / 2021 SDR Guide](https://www.youtube.com/playlist?list=PLe5ZKeM2hRBJ2G_Gvt1JnBxqtjHMMej3q)
 
 * [10 Common Mistakes Made With Software Defined Radio](https://www.youtube.com/watch?v=ORFYJuCo6jg)
 
 * [Defcon 21 - All Your RFz Are Belong to Me - Hacking the Wireless World with Software Defined Radio](https://www.youtube.com/watch?v=ZuNOD3XWp4A)
 * [Selecting the right software defined radio solution for your application](https://www.embedded.com/selecting-the-right-software-defined-radio-solution-for-your-application/)
+
+
+
+
+
+
+
+# SDR Software Environment
+* [Software Defined Radio with Predefined Raspberry Pi SD Card Images](https://www.youtube.com/watch?v=7eNGBmVquug)
+
+
+
+
 
 
 
