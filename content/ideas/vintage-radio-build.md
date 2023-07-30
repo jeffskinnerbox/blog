@@ -148,6 +148,7 @@ Specifically, check out:
 * [Triode Vacuum Tube: History & Physics](https://www.youtube.com/watch?v=0Smj2nHo9zA)
 * [Reginald Fessenden & the Physics of the First Radio Broadcast](https://www.youtube.com/watch?v=RYHaihLhBvc)
 * [The Arc Transmitter (Poulsen Arc) and the Titanic](https://www.youtube.com/watch?v=hrmx_TKNvyc)
+* [Integrated Thermionic™ - The Tube Making Series](https://www.youtube.com/playlist?list=PLeOnyq_8yCvZBgrU2GZOqf6MbModeM5PF)
 
 You too can
 [rediscovering the magic of wireless communication](http://ashishrd.blogspot.de/2015/11/rediscovering-magic-of-wireless.html)
