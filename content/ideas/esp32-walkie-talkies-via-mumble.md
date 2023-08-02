@@ -45,6 +45,11 @@ Consider using [Adafruit STEMMA Audio Amp - Mono 2.5W Class D - PAM8302](https:/
     * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
 
+# Other Walkie-Talkie Designs
+* [Make a 500m Range #Walkie-Talkie in easiest way (part 1)](https://www.youtube.com/watch?v=fMFVc4c8yE4)
+* [This is your #Walkie-Talkie #Transmitter & #Receiver !! (Part 2)](https://www.youtube.com/watch?v=jBUp8tYlQfM)
+* [Easiest way to Make a Without Coil Walkie Talkie](https://www.youtube.com/watch?v=dDEH0JEmJ6Q)
+
 
 
 -----
