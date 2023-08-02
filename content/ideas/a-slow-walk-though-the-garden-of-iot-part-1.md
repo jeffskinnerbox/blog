@@ -34,6 +34,16 @@ Read more: http://www.programmableweb.com/api/keylemon#ixzz37atW6GGC
 Follow us: @ProgrammableWeb on Twitter | ProgrammableWeb on Facebook
 
 
+# IoT and Context
+Without context, IoT is just about harvisting data.
+Context is what give IoT technology its real value.
+The process of transforming IoT data into this thing of value can be called ‘contextualisation’.
+
+* [A new taxonomy for the Internet of Things](https://transformainsights.com/blog/new-taxonomy-internet-of-things)
+* [A new taxonomy for IoT reveals new roles and opportunities](https://transformainsights.com/research/reports/new-taxonomy-iot)
+* [Why Does IoT Need to Be Delivered as a Managed Service?](https://www.iotforall.com/why-does-iot-need-to-be-delivered-as-a-managed-service)
+* [Today’s challenges are an opportunity for Governance, Risk and Compliance (GRC) platforms](https://transformainsights.com/research/reports/today-challenges-governance-risk-compliance)
+
 # AWS IoT
 * [Amazon Web Services](https://aws.amazon.com/)
 * [AWS IoT](http://aws.amazon.com/iot/)
