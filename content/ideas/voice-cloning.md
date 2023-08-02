@@ -61,3 +61,8 @@ Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, m
 * [Open AI’s Whisper is Amazing!](https://www.youtube.com/watch?v=OCBZtgQGt1I)
 * [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper)
 
+# Piper - Open Source Text-to-Speech & Voice Cloning
+* [Piper is our new voice for the Open Home](https://building.open-home.io/piper-is-our-new-voice-for-the-open-home/)
+* [Raspberry Pi | Local TTS | High Quality | Faster Realtime with Piper TTS](https://www.youtube.com/watch?v=rjq5eZoWWSo)
+* [Create your AI digital voice clone locally with Piper TTS | Tutorial](https://www.youtube.com/watch?v=b_we_jma220)
+

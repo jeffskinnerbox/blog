@@ -1936,6 +1936,11 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [How I added JARVIS to Home Assistant powered Smart Home](https://www.youtube.com/watch?v=Ys9xlo3Rq4E)
     * [Time to Come Clean About Jarvis](https://www.youtube.com/watch?v=p2skApFQWGE)
 
+### Piper - Open Source Text-to-Speech & Voice Cloning
+* [Piper is our new voice for the Open Home](https://building.open-home.io/piper-is-our-new-voice-for-the-open-home/)
+* [Raspberry Pi | Local TTS | High Quality | Faster Realtime with Piper TTS](https://www.youtube.com/watch?v=rjq5eZoWWSo)
+* [Create your AI digital voice clone locally with Piper TTS | Tutorial](https://www.youtube.com/watch?v=b_we_jma220)
+
 #### Home Assistant Tutorials
 * [Home Assistant Tutorials](https://www.youtube.com/playlist?list=PLLydq6ff7NvJ1ioQSVRCt2FJK9EFzRKWr)
 * [Smart Home Makers](https://www.youtube.com/channel/UCa-_T4_g4T_11YMlxn80LaQ)
