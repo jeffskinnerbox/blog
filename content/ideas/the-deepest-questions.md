@@ -148,6 +148,7 @@ BBC Precision The Measure of All Things
 
 ## What is Logic?
 * [Logic: The Structure of Reason](https://www.youtube.com/watch?v=yJxiWmmJ3dc)
+* [The story of mathematical proof – with John Stillwell](https://www.youtube.com/watch?v=S1AEWuCFq6A)
 
 ## Paradoxes of Logic
 * [The Strengthened Liar and Paradoxes of Incompleteness](https://www.youtube.com/watch?v=5LWQPGjAs3M)
