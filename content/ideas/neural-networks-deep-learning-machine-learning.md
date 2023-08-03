@@ -107,6 +107,13 @@ can be used to forecast future probabilities with an acceptable level of reliabi
     * [Applied Deep Learning - Part 3: Autoencoders](https://towardsdatascience.com/applied-deep-learning-part-3-autoencoders-1c083af4d798)
     * [Applied Deep Learning - Part 4: Convolutional Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)
 
+# Liquid Neural Networks (LLN)
+Liquid neural networks are a class of AI algorithms that can learn to stay adaptable even after training. Liquid neural networks are inspired by how brain cells communicate with each other. They are robust to perturbations, they do not need to be large to generate interesting behavior, and show promise in learning necessary skills from data to perform well beyond their training data. Liquid neural networks have the potential to alleviate many sociotechnical challenges of large-scale machine learning systems, such as interpretability, accountability, fairness, and carbon footprint.
+
+* [Liquid Neural Networks, A New Idea That Allows AI To Learn Even After Training](https://www.youtube.com/watch?v=0FNkrjVIcuk)
+* [Liquid Neural Networks | Ramin Hasani | TEDxMIT](https://www.youtube.com/watch?v=RI35E5ewBuI)
+* [Adaptable Aviators: future of autonomous navigation Liquid networks | Ramin Hasani | TEDxMIT Salon](https://www.youtube.com/watch?v=2BoxhZUi01Y&list=RDLVRI35E5ewBuI&index=2)
+
 # Neural Ordinary Differential Equations (ODE)
 * [Neural Differential Equations](https://www.youtube.com/watch?v=AD3K8j12EIE&feature=youtu.be)
 * [Neural ODEs: breakdown of another deep learning breakthrough](https://towardsdatascience.com/neural-odes-breakdown-of-another-deep-learning-breakthrough-3e78c7213795)
