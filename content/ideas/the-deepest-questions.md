@@ -852,6 +852,11 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [Bayes’ Theorem, Clearly Explained with Visualization](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14)
 * [Conditional probability explained visually (Bayes' Theorem)](https://www.youtube.com/watch?v=Zxm4Xxvzohk&list=PL87386AD236727A1B)
 
+# Causal & Bayesian Inferening / Probabilistic Programming
+* [Causal Inference - EXPLAINED](https://www.youtube.com/watch?v=Od6oAz1Op2k)
+* [Causal Inference in Python](https://www.oreilly.com/library/view/causal-inference-in/9781098140243/)
+* [Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference](https://www.amazon.com/dp/B016060UHA/)
+
 # Bayes Search Theory
 * [Bayes Theorem and some of the mysteries it has solved](https://www.youtube.com/watch?v=82q3uYw6MuY)
 
