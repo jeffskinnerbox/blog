@@ -187,6 +187,7 @@ The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fi
 * [All About USB-C: Manufacturer Sins](https://hackaday.com/2023/02/07/all-about-usb-c-manufacturer-sins/)
 * [All About USB-C: Talking Low-Level PD](https://hackaday.com/2023/02/14/all-about-usb-c-talking-low-level-pd/)
 * [All About USB-C: Replying Low-Level PD](https://hackaday.com/2023/02/22/all-about-usb-c-replying-low-level-pd/)
+* [All About USB-C: Example Circuits](https://hackaday.com/2023/08/07/all-about-usb-c-example-circuits/)
 
 
 
