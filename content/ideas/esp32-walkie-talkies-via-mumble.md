@@ -119,7 +119,7 @@ To make and test two ESP32 Walkie-Talkie, I used the following materials:
 * ESP32 - [TinyS2 (ESP32-S2 Board)][06] has onboard LiPo charging, 4MBs of flash, 320K SRAM & 2MB PSRAM, 700mA output 3.3V regulator, and 17 GPIO broken out, its a ESP32-S2 development board in the TinyPICO format
 * I2S Microphone - [Adafruit SPH0645LM4H][10] I2S MEMS Microphone Breakout (potential alternative is [DAOKI INMP441][16])
 * Audio Speaker - 4 Ohm / 3 Watts full range [audio speaker][07]
-* Audio Amplifier - [Adafruit MAX98357A][08] 3W Class D Amplifier takes standard I2S digital audio input, decodes it into analog, and amplifies to support a speaker (alternative is the [MakerHawk MAX98357][17])
+* Audio Amplifier - [Adafruit MAX98357A][08] (or [this][47] form factor) 3W Class D Amplifier takes standard I2S digital audio input, decodes it into analog, and amplifies to support a speaker (alternative is the [MakerHawk MAX98357][17])
 * On/Off Switch - [Adafruit SPDT slide switch][14] suitable for breadboard and perfboard projects
 * Press-to-Talk Switch - Large, round [tactile button momentary switch][15] suitable for breadboard and perfboard projects
 * Battery -
@@ -680,7 +680,7 @@ The `mumble` server is named `murmur`.
 [44]:https://www.youtube.com/watch?v=m-MPBjScNRk
 [45]:https://www.youtube.com/watch?v=lgDu88Y411o
 [46]:https://www.youtube.com/watch?v=6NsBN42B80Q
-[47]:
+[47]:https://www.adafruit.com/product/5770
 [48]:
 [49]:
 [50]:
