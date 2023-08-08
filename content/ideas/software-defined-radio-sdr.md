@@ -102,6 +102,15 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 # Shielding
 * [Shielding a Cheap RTL-SDR Stick](https://hackaday.com/2022/06/29/shielding-a-cheap-rtl-sdr-stick/)
 
+# Cross-Platform & Open-Source SDR
+* SDRPlusPlus (SDR++)
+    * [SDR++ Multi-Platform SERVER](https://www.youtube.com/watch?v=Umr8OA62AKA)
+    * [GitHub: AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus)
+* CubicSDR
+    * [CubicSDR](https://cubicsdr.com/)
+* Gqrx SDR
+    * [Gqrx SDR](https://gqrx.dk/)
+
 
 
 ################################################################################
