@@ -619,6 +619,9 @@ The `mumble` server is named `murmur`.
 # Antenna Improvements
 * [NEW PI ZERO GAINS UNAPPROVED ANTENNAS YET AGAIN](https://hackaday.com/2021/12/13/new-pi-zero-gains-unapproved-antennas-yet-again/)
 
+# Open-Source Cell Phone
+* [Open-Source Cell Phone Based On ESP32](https://hackaday.com/2023/08/03/open-source-cell-phone-based-on-esp32/)
+
 
 
 
