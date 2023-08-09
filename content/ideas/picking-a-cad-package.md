@@ -69,6 +69,7 @@ Upverter is a modular, web-based tool that does it all — PCB design, schematic
 ### Convert EasyEDA Design to KiCad
 * [Introducing: EasyEDA 2 KiCad](https://urish.medium.com/introducing-easyeda-2-kicad-37489da1dfa7)
 * [Convert EasyEDA Files To KiCad EDA](https://wokwi.com/easyeda2kicad)
+* [Easyeda2KiCad: Never Draw a Footprint Again](https://hackaday.com/2023/08/08/easyeda2kicad-never-draw-a-footprint-again/)
 
 ## Flexable PCB
 * [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/Main/SiliconeDevices)
