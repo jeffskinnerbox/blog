@@ -87,7 +87,6 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 * [PiJuice Zero](https://www.crowdsupply.com/pi-supply/pijuice-zero)
 * [Solar Power Manager 5V](https://www.dfrobot.com/product-1712.html)
-* [Tracking Maximum Power Point for Solar Efficiency](https://hackaday.com/2021/09/19/tracking-maximum-power-point-for-solar-efficiency/)
 
 # Wind Power
 * [3D PRINTED PORTABLE WIND TURBINE](https://hackaday.io/project/185070-3d-printed-portable-wind-turbine)
@@ -103,6 +102,8 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [How to make a Solar Power Bank with Folding Panels](https://www.youtube.com/watch?v=lgxu_lZoDxI)
 
 * [TRACKING: OPTIMIZING SOLAR PANELS](https://hackaday.com/2022/08/03/maximum-power-point-tracking-optimizing-solar-panels/)
+* [Tracking Maximum Power Point for Solar Efficiency](https://hackaday.com/2021/09/19/tracking-maximum-power-point-for-solar-efficiency/)
+* [2023 Hackaday Prize: A Reinvented Solar Tracker](https://hackaday.com/2023/08/09/2023-hackaday-prize-a-reinvented-solar-tracker/)
 
 * [3W Solar Panel 138X160](https://www.seeedstudio.com/3W-Solar-Panel-138X160.html)
 * [LiPo Rider Pro](https://www.seeedstudio.com/LiPo-Rider-Pro.html)
