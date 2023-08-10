@@ -12,8 +12,11 @@ Version:      0.0.0
 -----
 
 
-Consider using [Adafruit STEMMA Audio Amp - Mono 2.5W Class D - PAM8302](https://www.adafruit.com/product/5647)
-
+Consider using and reading ...
+* [Adafruit STEMMA Audio Amp - Mono 2.5W Class D - PAM8302](https://www.adafruit.com/product/5647)
+* [Simple MP3 Audio Playback With Raspberry Pi Pico](https://embeddedcomputing.com/technology/processing/interface-io/simple-mp3-audio-playback-with-raspberry-pi-pico)
+* [I2S Volume Control With Raspberry Pi Pico and CircuitPython](https://embeddedcomputing.com/technology/open-source/i2s-volume-control-with-raspberry-pi-pico-and-circuitpython)
+* [Raspberry Pi Pico Audio Line Out Via PCM5102A I2S Breakout](https://embeddedcomputing.com/technology/open-source/development-kits/raspberry-pi-pico-audio-line-out-via-pcm5102a-i2s-breakout)
 
 
 
