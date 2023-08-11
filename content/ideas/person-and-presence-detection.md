@@ -64,6 +64,7 @@ This can be done by making use of:
 * [Whisper AI](https://openai.com/blog/whisper/)
 * [Stanford Webinar - GPT-3 & Beyond](https://www.youtube.com/watch?v=-lnHHWRCDGk&t=509s)
 * [The Infinite Conversation](https://infiniteconversation.com/)
+* [Why we should worry less about ‘sentient’ AIs and more about what we’re teaching them](https://aeon.co/videos/why-we-should-worry-less-about-sentient-ais-and-more-about-what-were-teaching-them)
 
 ### The Infinite Conversation
 Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqui-ai/TTS)
