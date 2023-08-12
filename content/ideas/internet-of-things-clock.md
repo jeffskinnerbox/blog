@@ -277,6 +277,13 @@ Once in the detailed view, simply click the center again to return to the analog
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
+* [Using GPS with PPS to synchronize clocks over the network](https://www.youtube.com/watch?v=7aTZ66ZL6Dk)
+* [Nanosecond clock sync with a Raspberry Pi](https://www.youtube.com/watch?v=RvnG-ywF6_s&feature=youtu.be)
+* [GPS-Disciplined NTP Server on Raspberry Pi 4](https://www.youtube.com/watch?v=NFSogtVp0Xo)
+* [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
+* [The most accurate Raspberry Pi atomic clock IN THE WORLD!](https://www.youtube.com/watch?v=tU0xC1ynaT8)
+* [Open Time Server](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server)
+
 * [What’s More Accurate Than A GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
     * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
 * [Why do GPS receivers have a 1 PPS output?](https://electronics.stackexchange.com/questions/30750/why-do-gps-receivers-have-a-1-pps-output)
