@@ -713,6 +713,13 @@ The [APRS (Automatic Packet Reporting System)][10] is a worldwide digital commun
 * [Configure an amateur radio gateway with a Raspberry Pi](https://opensource.com/article/18/3/how-configure-aprs-igate-raspberry-pi)
 * [Turn a Cheap Ham Radio Into An APRS & WinLink Transceiver - Mobilinkd tnc3](https://www.youtube.com/watch?v=QfJHLJoyW9I)
 
+## Ham Chat
+* [VARAC CHAT CLIENT FOR VARA HF - BETTER THAN FT8!](https://www.youtube.com/watch?v=Dw12-MguZd4)
+* [The Best Digital RagChew Mode for HF? Absolutely!](https://www.youtube.com/watch?v=uypGp88VJmk)
+
+## Ham Radio For Prepping
+* [Ham Radio for Preppers](https://www.youtube.com/playlist?list=PLsqj8T5TJFcy6vSK2r07qutP9FxmAmi3O)
+
 ### Digital Repeater
 "Digipeater" is short for "Digital Repeater"; a repeater for packet data rather than voice. Unlike the standard voice repeater that receives on one frequency and retransmits what it hears simultaneously on another frequency, the usual digipeater is a single frequency device. It receives a packet of data, stores it in internal memory and then a moment later retransmits it on the SAME frequency.
 
