@@ -439,6 +439,7 @@ that can send notifications within minutes of an earthquake.
 * [Pi-based Spectrometer Gets An Upgrade](https://hackaday.com/2022/10/29/pi-based-spectrometer-gets-an-upgrade/)
 
 # NOAA Weather Satellite Data
+* [Raspberry Pi NOAA Satellite Receiver: A Comprehensive Guide](https://nnn.ng/faq/34215/)
 * [Instructions for Building a Portable Double Cross Antenna: Great for NOAA/Meteor Weather Satellites](http://www.rtl-sdr.com/instructions-for-building-a-double-cross-antenna-great-for-noaameteor-weather-satellites/)
 * [Receive Weather Satellite Images With Software-Defined Radio](http://mattg.co.uk/words/noaa_sdr/)
 * [Downloading Satellite Images via FM Radio](http://hackaday.com/2015/08/02/downloading-satellite-images-via-fm-radio/)
