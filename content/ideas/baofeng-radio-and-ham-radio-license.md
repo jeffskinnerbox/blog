@@ -16,7 +16,7 @@ Version:      0.0.0
 
 
 
-
+* [Loudoun Amateur Radio Group](https://k4lrg.org/)
 
 
 * [TV GOING THE DISTANCE: PROPAGATION](http://hackaday.com/2015/11/18/tv-going-the-distance-propagation/)
@@ -463,6 +463,7 @@ and founded the American Radio Relay League (ARRL).
 
 # Ham Radio Basics
 * [Ham Radio Basics For Beginners](https://www.youtube.com/playlist?list=PLsqj8T5TJFcxE-n-pW5RVWbEtmvIZSC6g)
+* [Ham Radio For Preppers](https://www.youtube.com/playlist?list=PLsqj8T5TJFcy6vSK2r07qutP9FxmAmi3O)
 
 # Studying for Ham Radio License
 * [Ham Radio License Process, Tips, Tricks & Proven Strategy To Pass Your Test - MADE SIMPLE](https://www.youtube.com/watch?v=sil8lMibS00&list=PLsqj8T5TJFcxE-n-pW5RVWbEtmvIZSC6g&index=2)
