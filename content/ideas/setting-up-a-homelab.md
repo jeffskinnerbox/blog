@@ -9,6 +9,7 @@ Version:      0.0.0
 </div>
 
 
+
 -----
 
 
@@ -30,6 +31,7 @@ layer on the additional hardware & software pieces to fill it out further.
 
 Sources:
 
+* [My Overkill Home Network - Complete Details 2023](https://blog.networkprofile.org/my-home-network-complete-details-2023/)
 * [What is a HomeLab and How Do I Get Started?](https://www.youtube.com/watch?v=gPGf4Y8nQqM)
 * [How to set up a homelab from hardware to firewall](https://opensource.com/article/19/3/home-lab)
 * [Build your own router, and homelab along the way](https://fsanmartin.co/build-your-own-router-and-homelab-along-the-way/)
