@@ -188,11 +188,6 @@ PTP is typically used in applications that require precise timing but lack acces
 * [New Part Day: Raspberry Pi Hat for IEEE1588 Precision Time Protocol](https://hackaday.com/2021/08/16/new-part-day-raspberry-pi-hat-for-ieee1588-precision-time-protocol/)
 * [WhiteRabbit System](https://white-rabbit.web.cern.ch/)
 
-## GPS Time Source
-* [Portable GPS Time Server Powered by the ESP8266](https://hackaday.com/2021/07/25/portable-gps-time-server-powered-by-the-esp8266/)
-* [Accurate Time on Your Pi, the Extreme Way](https://hackaday.com/2019/06/26/accurate-time-on-your-pi-the-extreme-way/)
-* [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-
 ## Getting a stratum 1 Server in Your Home (Grandmaster Clock)
 Grandmaster clocks receive UTC-based time information from an external time reference, most commonly a GNSS satellite source. The GNSS-receiver and a PTP engine deliver a PTP service over Ethernet ports. This is then distributed downstream to other clocks.
 
@@ -273,6 +268,10 @@ Once in the detailed view, simply click the center again to return to the analog
 
 ## GPS Stratum 1 NTP Server
 * [ESP82266 + GPS STRATUM 1 NTP SERVER](https://www.hackster.io/Absolutelyautomation/esp8266-based-wireless-ntp-server-b77926)
+* [Portable GPS Time Server Powered by the ESP8266](https://hackaday.com/2021/07/25/portable-gps-time-server-powered-by-the-esp8266/)
+* [Accurate Time on Your Pi, the Extreme Way](https://hackaday.com/2019/06/26/accurate-time-on-your-pi-the-extreme-way/)
+* [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+* [GPS Raspberry Pi NTP Server](https://blog.networkprofile.org/gps-backed-local-ntp-server/)
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
