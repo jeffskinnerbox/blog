@@ -461,7 +461,11 @@ and founded the American Radio Relay League (ARRL).
 * [The $50 Ham: A Simple WSPR Beacon](https://hackaday.com/2021/04/15/the-50-ham-a-simple-wspr-beacon/)
 * [WSPR Desktop Transmitter 80m to 10m - Version 2](https://www.youtube.com/watch?v=eDKFO0mDFBY)
 
+# Ham Radio Basics
+* [Ham Radio Basics For Beginners](https://www.youtube.com/playlist?list=PLsqj8T5TJFcxE-n-pW5RVWbEtmvIZSC6g)
+
 # Studying for Ham Radio License
+* [Ham Radio License Process, Tips, Tricks & Proven Strategy To Pass Your Test - MADE SIMPLE](https://www.youtube.com/watch?v=sil8lMibS00&list=PLsqj8T5TJFcxE-n-pW5RVWbEtmvIZSC6g&index=2)
 * [Signal Stuff](https://signalstuff.com/)
 * [HAMSTUDY](https://hamstudy.org/)
 * [ARRL Ham Radio License Support Page](http://www.arrl.org/ham-radio-license-manual)
