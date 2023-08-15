@@ -372,16 +372,16 @@ any interface not listed there will remain under NetworkManager control.
     across network connections, using TCP or UDP protocol.
     It is designed to be a reliable "back-end" tool that can
     be used directly or easily driven by other programs and scripts.
-    * [`ncat`][23] is a feature-packed networking utility which reads and writes
+    * [`ncat`][23] is a feature-packed networking utility which reads and writes data
+    across network connections, a much-improved re-implementation of`netcat`, with two big improvement.
+    `ncat` will work with IPv4 & IPv6, and allows for multiple simultaneous connections.
     * [`socat`][67] is as the cat command which transfers data between two locations rather
     than from a file to standard output.  You can grab data from a network socket, named pipe,
     or even setup a general virtual network interface as one end point.
     * [`wscat`][68] allows you to connect directly to a websocket server
     and receive/send data in a terminal like environment.
-    * [`blucat`](http://blucat.sourceforge.net/blucat/) is netcat for Bluetooth
+    * [`blucat`](http://blucat.sourceforge.net/blucat/) is `netcat` for Bluetooth
     data across networks from the command line.
-    Ncat was written a much-improved reimplementation of `netcat`.
-    `ncat` will work with IPv4, IPv6, and has many potential uses.
 
 * **Terminal Access**
     * [`telnet`][24] ([teletype network][85]) is a computer protocol that provides
@@ -2112,6 +2112,30 @@ Address:	192.168.1.1#53
 Name:	desktop.fios-router.home
 Address: 192.168.1.13
 ```
+
+## Check for Open Port on a Remote System
+```bash
+# find the external ip address of you router/firewall
+$ my_ip
+192.168.1.200
+62.76.23.228   - external IP address
+
+$ netcat -z -v -w10 62.76.23.228 80
+Connection to 62.76.23.228 80 port [tcp/http] succeeded!
+```
+
+The options used above are:
+
+* **`-z`** zero-I/O mode which is used for scanning
+* **`-v`** for verbose output
+* **`-w10`** timeout wait seconds
+
+As you can see, the connection succeeded.
+This means that port 22 is open.
+If the connection fails, then you will get an error message of “failed: Connection refused”.
+
+
+
 
 -----
 
