@@ -248,6 +248,9 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 # Paying Off Mortgage Before Retirement
 * [Should You Pay Off a Mortgage Before You Retire?](https://www.schwab.com/resource-center/insights/content/should-you-pay-off-your-mortgage-early-before-you-retire)
 
+# Taxes in Retirement
+* [Managing Taxes in Retirement](https://www.schwab.com/learn/story/managing-taxes-retirement)
+
 
 -----
 
