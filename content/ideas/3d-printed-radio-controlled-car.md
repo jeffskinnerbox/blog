@@ -638,6 +638,7 @@ I didn't bother with any of this.
 * [How To: Install Traxxas Telemetry Expander System into Your Rustler](http://www.competitionx.com/news-feed/how-to-install-traxxas-telemetry-expander-system-into-your-rustler/)
 * [Bringing Pro-Level Data Recording To RC Racing](https://hackaday.com/2019/08/04/bringing-pro-level-data-recording-to-rc-racing/)
 * [Testing SkyRC GPS Speed Run Meter & Data Logger](https://www.youtube.com/watch?v=Peh78u-0qyI)
+* [Exploring OpenTelemetry Capabilities](https://dzone.com/articles/exploring-opentelemetry-capabilities)
 
 ## ESP32 Long-Range
 * [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
