@@ -790,6 +790,11 @@ DSTAR, P25, Yaesu System Fusion (YSF), FCS & NXDN
 
 * [Ham Radio Digital Modes Comparison - DMR, DSTAR or YSF? P25 or NXDN?](https://www.youtube.com/watch?v=oBYjPkXJFa8)
 
+## Digital Modes
+* [Digital Data Modes](http://www.arrl.org/digital-data-modes)
+* [Why are digital data modes so difficult? - DigiRig + Baofeng + Linux (Part I)](https://www.youtube.com/watch?v=hL-TrpGzEkg)
+* [Digital Modes Series](https://www.youtube.com/playlist?list=PLZpc6PnzmzmEVE4u_8K9svKc1-CHi4tUC)
+
 
 ---------
 
