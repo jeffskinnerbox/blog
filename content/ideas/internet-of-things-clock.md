@@ -188,12 +188,6 @@ PTP is typically used in applications that require precise timing but lack acces
 * [New Part Day: Raspberry Pi Hat for IEEE1588 Precision Time Protocol](https://hackaday.com/2021/08/16/new-part-day-raspberry-pi-hat-for-ieee1588-precision-time-protocol/)
 * [WhiteRabbit System](https://white-rabbit.web.cern.ch/)
 
-## Getting a stratum 1 Server in Your Home (Grandmaster Clock)
-Grandmaster clocks receive UTC-based time information from an external time reference, most commonly a GNSS satellite source. The GNSS-receiver and a PTP engine deliver a PTP service over Ethernet ports. This is then distributed downstream to other clocks.
-
-* [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
-* [Building a Stratum 1 Time Server for 16 bit DOS](https://www.brutman.com/DOS_Time_Server/DOS_Time_Server.html)
-
 
 
 ## Galileo Escapement Mechanism
@@ -266,12 +260,18 @@ Once in the detailed view, simply click the center again to return to the analog
 # Speaking Clocks
 * [Retrotechtacular: The Speaking Clock Goes Silent](https://hackaday.com/2019/10/30/retrotechtacular-the-speaking-clock-goes-silent/)
 
-## GPS Stratum 1 NTP Server
+## Getting a GPS Stratum 1 Server in Your Home (Grandmaster Clock)
+Grandmaster clocks receive UTC-based time information from an external time reference, most commonly a GNSS satellite source. The GNSS-receiver and a PTP engine deliver a PTP service over Ethernet ports. This is then distributed downstream to other clocks.
+
+* [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
+* [Building a Stratum 1 Time Server for 16 bit DOS](https://www.brutman.com/DOS_Time_Server/DOS_Time_Server.html)
+
 * [ESP82266 + GPS STRATUM 1 NTP SERVER](https://www.hackster.io/Absolutelyautomation/esp8266-based-wireless-ntp-server-b77926)
 * [Portable GPS Time Server Powered by the ESP8266](https://hackaday.com/2021/07/25/portable-gps-time-server-powered-by-the-esp8266/)
 * [Accurate Time on Your Pi, the Extreme Way](https://hackaday.com/2019/06/26/accurate-time-on-your-pi-the-extreme-way/)
 * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 * [GPS Raspberry Pi NTP Server](https://blog.networkprofile.org/gps-backed-local-ntp-server/)
+* [Chrony NTP Service / Local Server and Client](https://www.youtube.com/watch?v=jxHP0Vycdaw)
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
@@ -279,7 +279,6 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [Using GPS with PPS to synchronize clocks over the network](https://www.youtube.com/watch?v=7aTZ66ZL6Dk)
 * [Nanosecond clock sync with a Raspberry Pi](https://www.youtube.com/watch?v=RvnG-ywF6_s&feature=youtu.be)
 * [GPS-Disciplined NTP Server on Raspberry Pi 4](https://www.youtube.com/watch?v=NFSogtVp0Xo)
-* [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
 * [The most accurate Raspberry Pi atomic clock IN THE WORLD!](https://www.youtube.com/watch?v=tU0xC1ynaT8)
 * [Open Time Server](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server)
 
@@ -291,6 +290,10 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 
 * [NTP Server Gets Time From Space](https://hackaday.com/2022/01/20/ntp-server-gets-time-from-space/)
     * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+    * [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
+    * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
+    * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+    * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
 
 * [A GPS Frequency Standard For When The Timing Has To Be Right](https://hackaday.com/2022/06/29/a-gps-frequency-standard-for-when-the-timing-has-to-be-right/)
 
