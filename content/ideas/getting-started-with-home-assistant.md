@@ -2256,6 +2256,15 @@ Also: the server runs as a container, so its running on my Server network on nom
 ## Sonoff
 * [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
 
+### Sonoff S40 Lite Zigbee Smart Plug
+I [purchased a SONOFF S40 Lite Zigbee Smart Plug][47]
+rated at 15A and claims to work with the Samsung SmartThings and Amazon Echo Plus (which is also a Zigbee hub).
+I purchased mainly to to provide another Zigbee node for my most remote Zigbee devices in my basement.
+My hope is that this line powered Sonoff device, strategically placed,
+will provide a better connectivity for basement devices struggling to provide a reliable connect.
+
+The Sonoff device is administered by the [eWeLink phone app][48].
+
 ## Shelly
 * https://www.thesmarthomehookup.com/?s=shelly
 * [Shelly 1 Switch Tricks - True 3-Way, Long Press Actions, 2 switches, Automations w/ Tasmota Firmware](https://www.youtube.com/watch?v=mSENAY9_AlI)
@@ -2413,8 +2422,8 @@ It also supports GPUs and EdgeTPU hardware acceleration.
 [44]:https://gparted.org/
 [45]:https://docs.docker.com/engine/install/debian/
 [46]:https://www.home-assistant.io/installation/
-[47]:
-[48]:
+[47]:https://www.amazon.com/dp/B09LV53X62
+[48]:https://play.google.com/store/apps/details?id=com.coolkit&hl=en_US&gl=US
 [49]:
 [50]:https://github.com/custom-components/remote_homeassistant
 [51]:https://www.canadarobotix.com/blogs/how-to/how-to-tell-which-raspberry-pi-4-ram-size-do-i-have
