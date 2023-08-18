@@ -24,6 +24,10 @@ Version:      0.0.0
 
 
 
+* Lattest RTL-SDR Blog Dongle - [RTL-SDR Blog V4 dongle launched with Rafeal R828D tuner chip](https://www.cnx-software.com/2023/08/17/rtl-sdr-blog-v4-dongle-launched-with-rafeal-r828d-tuner-chip/)
+
+
+
 
 
 
@@ -241,8 +245,6 @@ YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer fro
 * [RF Monitor](https://eartoearoak.com/software/rf-monitor)
 * [Radio Communication Analysis using RfCat](https://www.inguardians.com/2017/03/18/radio-communication-analysis-using-rfcat/)
 * [RFCrack - A Software Defined Radio Attack Tool - KitPloit - PenTest & Hacking Tools for your CyberSecurity Kit](https://www.kitploit.com/2018/01/rfcrack-software-defined-radio-attack.html)
-
-* []()
 
 # Lows Noise Amplifier (LNA)
 [Why use a Preamp?](http://www.radioforeveryone.com/p/why-use-preamp.html)
