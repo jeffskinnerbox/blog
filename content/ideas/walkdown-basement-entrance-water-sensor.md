@@ -34,6 +34,7 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [Improved Outdoor Solar Harvester Now Handles All The Parts](https://hackaday.com/2019/11/19/improved-outdoor-solar-harvester-now-handles-all-the-parts/)
 * [Solar powered Bluetooth Thermometer with Supercap](https://hackaday.io/project/177910-solar-powered-bluetooth-thermometer-with-supercap)
 * [Solar-Harvesting ESP32 Camera Is Waterproof, Repeatable](https://hackaday.com/2022/08/14/hackaday-prize-2022-solar-harvesting-esp32-camera-is-waterproof-repeatable/)
+* [Tristam R.'s ESP32-CAM-Powered Home Assistant Doorbell Keeps Guests' Privacy Preserved](https://www.hackster.io/news/tristam-r-s-esp32-cam-powered-home-assistant-doorbell-keeps-guests-privacy-preserved-32805b6a34e4)
 
 
 * [Wireless Water Detector Hooks Up To Home Assistant |](https://hackaday.com/2022/09/22/wireless-water-detector-hooks-up-to-home-assistant/)

@@ -2313,6 +2313,7 @@ Bust you use the cloud service
 
 * [ESP32-CAM Video Streaming Web Server (works with Home Assistant)](https://randomnerdtutorials.com/esp32-cam-video-streaming-web-server-camera-home-assistant/)
 * [ESP32-Cam Does Time Lapse](https://hackaday.com/2020/01/28/esp32-cam-does-time-lapse/)
+* [Tristam R.'s ESP32-CAM-Powered Home Assistant Doorbell Keeps Guests' Privacy Preserved](https://www.hackster.io/news/tristam-r-s-esp32-cam-powered-home-assistant-doorbell-keeps-guests-privacy-preserved-32805b6a34e4)
 
 # MotionEye
 * [motionEye in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=0JdnJj_dTL4&feature=youtu.be)

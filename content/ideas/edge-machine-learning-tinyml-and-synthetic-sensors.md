@@ -105,6 +105,7 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 # ESP32 Cam
 * [ESP32 Cam and Edge Impulse](https://github.com/edgeimpulse/example-esp32-cam)
+* [Tristam R.'s ESP32-CAM-Powered Home Assistant Doorbell Keeps Guests' Privacy Preserved](https://www.hackster.io/news/tristam-r-s-esp32-cam-powered-home-assistant-doorbell-keeps-guests-privacy-preserved-32805b6a34e4)
 
 # TinyML Tools
 * [NanoEdge AI Studio](https://cartesiam.ai/)

@@ -53,6 +53,7 @@ Version:      0.0.0
 * [ESP32 Trail Camera Goes The Distance On AA Batteries](https://hackaday.com/2020/05/18/esp32-trail-camera-goes-the-distance-on-aa-batteries/)
 * [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://randomnerdtutorials.com/esp32-cam-video-streaming-face-recognition-arduino-ide/)
 * [Low-cost Video Streaming With A Webcam And Raspberry Pi](https://hackaday.com/2016/11/25/low-cost-video-streaming-with-a-webcam-and-raspberry-pi/)
+* [Tristam R.'s ESP32-CAM-Powered Home Assistant Doorbell Keeps Guests' Privacy Preserved](https://www.hackster.io/news/tristam-r-s-esp32-cam-powered-home-assistant-doorbell-keeps-guests-privacy-preserved-32805b6a34e4)
 
 * [Official TensorFlow Lite Micro Support Comes to the ESP32](https://www.hackster.io/news/official-tensorflow-lite-micro-support-comes-to-the-esp32-9708fb6a760f)
 * [Announcing TensorFlow Lite Micro support on the ESP32](https://blog.tensorflow.org/2020/08/announcing-tensorflow-lite-micro-esp32.html)

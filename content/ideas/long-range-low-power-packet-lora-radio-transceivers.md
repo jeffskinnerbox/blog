@@ -1438,6 +1438,7 @@ arduino-timer                	1.0.0     	sketchbook
 # ESP32-CAM
 * [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://www.youtube.com/watch?v=MicAM_A0_lU)
 * [Wireless Security Camera in a matchbox](https://www.hackster.io/akarsh98/wireless-security-camera-in-a-matchbox-42f8d6)
+* [Tristam R.'s ESP32-CAM-Powered Home Assistant Doorbell Keeps Guests' Privacy Preserved](https://www.hackster.io/news/tristam-r-s-esp32-cam-powered-home-assistant-doorbell-keeps-guests-privacy-preserved-32805b6a34e4)
 
 # ESP32-EYE
 * [SP-WHO is a face detection and recognition development framework designed for AIoT applications](https://www.espressif.com/en/products/hardware/esp-eye/overview)
