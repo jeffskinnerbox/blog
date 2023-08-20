@@ -17,6 +17,8 @@ Version:      0.0.0
 
 
 * [Loudoun Amateur Radio Group](https://k4lrg.org/)
+* [RepeaterBook: Loudoun County, Virginia](https://www.repeaterbook.com/repeaters/location_search.php?type=county&state_id=51&loc=Loudoun)
+
 
 
 * [TV GOING THE DISTANCE: PROPAGATION](http://hackaday.com/2015/11/18/tv-going-the-distance-propagation/)
