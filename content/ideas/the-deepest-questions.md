@@ -986,6 +986,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 # Cryptography & Complexity
 * [Randomness and Kolmogorov Complexity](https://www.youtube.com/watch?v=0cHHKDAelCo)
 * [Researchers Identify ‘Master Problem’ Underlying All Cryptography](https://www.quantamagazine.org/researchers-identify-master-problem-underlying-all-cryptography-20220406)
+* [Complexity Theory’s 50-Year Journey to the Limits of Knowledge](https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/)
 
 # Animal Math
 * [A basic sense of numbers is shared by countless creatures](https://psyche.co/ideas/a-basic-sense-of-numbers-is-shared-by-countless-creatures)
