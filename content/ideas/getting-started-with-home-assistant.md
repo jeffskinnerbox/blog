@@ -2357,6 +2357,8 @@ DeepStack runs on the docker platform and can be used from any programming langu
 * [Blue Iris + Deepstack BUILT IN! Full Walk Through - Go from beginner to expert in one video](https://www.youtube.com/watch?v=nLH9GEcdb9Y)
 * [MORE Object Detection with Home Assistant - Deepstack install and configuration](https://www.youtube.com/watch?v=vMdpLiAB9dI)
 
+* [Frigate on a Proxmox LXC](https://www.youtube.com/watch?v=DmbFq5dMsFo)
+
 # DOODS
 Dedicated Open Object Detection Service (DOODS)
 is a REST service that detects objects in images or video streams.
