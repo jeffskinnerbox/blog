@@ -121,6 +121,7 @@ field-programmable gate arrays (FPGAs) and other processors or hardware accelera
 * [Introduction to OpenCV AI Kit (OAK)](https://pyimagesearch.com/2022/11/28/introduction-to-opencv-ai-kit-oak/)
 * [Arducam OAK Solutions](https://www.arducam.com/oak-opencv-ai-kit-camera/)
 * [Introduction to OAK-D and DepthAI](https://learnopencv.com/introduction-to-opencv-ai-kit-and-depthai/)
+* [People Counter on OAK](https://pyimagesearch.com/2023/08/21/people-counter-on-oak/)
 
 # Streaming Video
 Streaming a USB camera and the Pi camera module are fundamentally different operations; the Pi camera module is handled by the GPU which gets to draw directly on the HDMI/composite output if it wants to (in other words the CPU doesn't even need to "see" the frames). The USB bus doesn't get to do that so you have to grab frames from the USB camera and render them on-screen (i.e. it takes CPU time to render the video output)
@@ -161,6 +162,7 @@ Streaming a USB camera and the Pi camera module are fundamentally different oper
 * [Head Counter](https://github.com/yquemener/HeadCounter)
 * [PEOPLE COUNTING SYSTEM USING RASPBERRY PI WITH OPENCV ](http://www.ijream.org/papers/IJREAMV02I01894.pdf)
 * [People-Counter](https://github.com/LukashenkoEvgeniy/People-Counter)
+* [People Counter on OAK](https://pyimagesearch.com/2023/08/21/people-counter-on-oak/)
 
 Test Videos
 * https://github.com/LukashenkoEvgeniy/People-Counter/blob/master/test2.mp4
