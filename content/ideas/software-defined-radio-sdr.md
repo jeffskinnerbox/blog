@@ -912,6 +912,9 @@ So rich example of GNURadio being used"
 * [Listening To A Flashlight — Lunar Flashlight](https://hackaday.com/2023/01/23/listening-to-a-flashlight-lunar-flashlight/)
 * [Daniel Estévez: Scientific & Technical Amateur Radio — Home of EA4GPZ / M0HXM](https://destevez.net/)
 
+### LoRa Transceiver
+* [gr-lora_sdr – A GNU Radio SDR implementation of a LoRa transceiver](https://www.cnx-software.com/2023/08/23/gr-lora_sdr-a-gnu-radio-sdr-implementation-of-a-lora-transceiver/)
+
 ### gr-limesdr
 Package includes GNU Radio blocks for various LimeSDR boards.
 * [Gr-limesdr Plugin for GNURadio](https://wiki.myriadrf.org/Gr-limesdr_Plugin_for_GNURadio)
