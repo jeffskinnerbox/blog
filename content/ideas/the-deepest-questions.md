@@ -278,6 +278,8 @@ An attempt to connect different "continents" of mathematics
 * [What Really Happens When You Invent Infinite Infinities?](https://streetscience.net/what-really-happens-when-you-invent-infinite-infinities/)
 * [Mathematician Explains Infinity in 5 Levels of Difficulty](https://www.youtube.com/watch?v=Vp570S6Plt8)
 
+* [Rethinking the real line](https://www.youtube.com/watch?v=uFWJuZQLKJs)
+
 ## Counting to Infinity
 * [How To Actually Count To Infinity?](https://medium.com/street-science/how-to-actually-count-to-infinity-966e5220e413)
 
@@ -428,6 +430,9 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 * [The Grammar of Mathematics](https://www.cantorsparadise.com/the-grammar-of-mathematics-7c8bb957ea86)
 
 # Category Theory
+"Mathmatics is the art of giving the same name to different things." ... Henir Poincare
+
+* [The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra](https://www.youtube.com/watch?v=FQYOpD7tv30)
 * [A Sensible Introduction to Category Theory](https://www.youtube.com/watch?v=yAi3XWCBkDo)
 * [Category Theory in Life - Eugenia Cheng](https://www.youtube.com/watch?v=ho7oagHeqNc)
 * [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
