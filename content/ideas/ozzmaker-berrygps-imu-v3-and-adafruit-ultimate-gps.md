@@ -9,7 +9,84 @@ Version:      0.0.0
 </div>
 
 
+
 -----
+
+Read this for it good discription of GNSS & NMEA messages
+* [Global Positioning Basics](https://www.youtube.com/watch?v=kUUNY-gWT6U&list=PLxCxJVCmDz7oZ05xk2eG27APw5xmEeZaU)
+* [Global Positioning Basics - 6 NMEA Messaging Protocol](https://www.youtube.com/watch?v=2f96rrnE0FU)
+* [ANSI C Basic Lightweight NMEA Parser for GPS](https://www.beyondlogic.org/ansi-c-basic-lightweight-nmea-parser-for-gps/)
+* [NMEA 2000 Explained - A Simple Intro](https://www.csselectronics.com/pages/nmea-2000-n2k-intro-tutorial)
+
+# Table of Contents
+* Background
+    * [Navigation Technologies](#background-navigation-technologies)
+    * [GNSS Technologies](#global-navigation-satellite-systems-gnss)
+* BerryGPS Setup
+    * [Setup for Raspbery Pi Zero](#raspberry-pi-zero-setup)
+    * [Setup for OzzMaker's BerryGPS](#setup-for-ozzmakers-berrygps)
+    * [Setup for OzzMaker's IMU](#setup-for-ozzmakers-imu)
+* Ultimate GPS Setup
+    * [Setup for Adafruit's Ultimate GPS](#setup-for-adafruits-ultimate-gps)
+* GNSS Tools
+`xgps`, `xgpsspeed`, `cgps`, `lcdgps`, `gegps` via `man xgps`.
+pip install gps
+pip install pynmea2
+sudo apt -y install gpsd-clients gpsd
+sudo apt -y install python-gps gnuplot
+You will find more information about `xgps`, `xgpsspeed`, `cgps`, `lcdgps`, `gegps` via `man xgps`.
+`xgps`, `cgps`, `gpsmon`, `gegps`, `gpsprof`, `gunplot`, `xgpsspeed`, `xgpx`
+`gpscat`,  `gpspipe`, `gpxlogger`
+
+# Linux GNSS Tools
+* [A Beginner’s Guide To Using gpsd (GPS Devices) In Linux](https://kickstartembedded.com/2022/07/23/a-beginners-guide-to-using-gpsd-in-linux/)
+* [Tutorial – gpsd](https://www.linux-magazine.com/Issues/2018/210/Tutorial-gpsd)
+* [Getting GPS to work on a Raspberry PI](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
+
+## gpsd Daemon
+`gpsd` is a service daemon that monitors one or more Global Navigation Satellite Systems (GNSS)
+or Automatic Identification System (AIS) receivers
+attached to a host computer through serial or USB ports.
+All data on the location/course/velocity of the sensor is available
+to be queried on TCP port 2947 of the host computer.
+
+```bash
+# displays current GNSS position/time/velocity information
+cgps
+#OR
+cgps -s          # -s flag is there to tell the command not to write raw data to the screen
+
+# watches packets coming from a GPS and displays them along with diagnostic information
+gpsmon
+#OR
+gpsmon -n        # -n forces gpsmon to request NMEA0183 packets instead of the raw datastream from gpsd
+
+# At its simplest, gpspipe takes a parameter that tells it which format to use and just dumps the stream from gpsd to the standard output
+# You could use gpspipe to send all the information to a file and keep track of a trip or a run
+gpspipe -r       # stream raw NMEA sentences to the terminal
+#OR
+gpspipe -w       # stream json formatted gpsd sentences to the terminal
+```
+
+For `cgps`, the 3D FIX section tells you it has enough data for a 3D fix on your location (i.e. altitude).
+The Err lines tell you the error in your position.
+If you leave it running you should see the Err values change every second or so.
+
+# Generate NMEA Data
+A drawing tool for generating GPS logs in NMEA format.
+Also can inport NMEA files for displaying.
+
+* [NMEA Generator](https://www.nmeagen.org/)
+
+
+
+
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
 
 
 
@@ -25,20 +102,14 @@ Version:      0.0.0
 
 * [Circuit Walker Sneakers pt. 1: Accelerometer Filtering w/ Tony D!](https://www.youtube.com/watch?v=zr4Pu3F-yJw)
 
+* [Maidenhead Locator System (aka Grid Squares)](https://www.karhukoti.com/Maidenhead-Grid-Square-Locator/)
+
 
 
 
 # GPS / Map Display Servers
 * [Traccar](https://www.traccar.org/)
 * [Linxup GPS Fleet Tracker, Vehicle Tracker, and Monitoring System with Real-Time Location GPS Tracking Reports](https://www.amazon.com/dp/B006TZGJDC/ref=syn_sd_offsite_desktop_128)
-
-
-
-
-
-
-################################################################################
-
 
 
 
@@ -119,12 +190,10 @@ Combining the GPS location information onto a video stream
 * [Wio terminal GPS](https://www.hackster.io/SeeedStudio/wio-terminal-gps-ad70e2)
 * [LoRa GPS Tracker with Wio Terminal](https://www.hackster.io/idreams/lora-gps-tracker-with-wio-terminal-5d8647)
 
-# Background Reading
-* [An introduction to inertial navigation](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf)
-* [Quantum Atomic Interferometer For Precision Motion Sensing](https://hackaday.com/2021/12/28/quantum-atomic-interferometer-for-precision-motion-sensing/)
 
 
-##############################################################################
+-----
+
 
 
 # Investigate This For Ideas
@@ -138,20 +207,20 @@ I investigate here two GPS solutions for the Raspberry Pi:
 * [Adafruit's Ultimate GPS][41] which uses the [MediaTek MTK3339 chipset][42]
 * Sparkfun
 * [Ozzmaker's BerryGPS-IMU V3][20] which uses the [uBlox CAM-M8][70]
-but also has [IMU sensor LSM9DS1][68] [Barometric Sensor BMP280][69]
+but also has [IMU sensor LSM9DS1][68] and [Barometric Sensor BMP280][69]
 
 | Features                        | MediaTek MTK3339 |   uBlox CAM-M8   |
 |:--------------------------------|:----------------:|:----------------:|
-| **Power Consumption**           | | |
-|   Acquisition                   | 25 mW | |
-|   Tracking                      | 18 mW | |
-| **Current Consumption (@3.3V)** | | |
-|   Acquisition                   | 25 mA | 26 mA |
-|   Tracking                      | 20 mA | 23 mA |
-| **Sensitivity**                 | | |
-|   Acquisition (cold start)      | -148 dBm | -148 dBm |
-|   Acquisition (hot start)       | -163 dBm | -156 dBm |
-|   Tracking                      | -165 dBm | -164 dBm |
+| **Power Consumption**           |                  |                  |
+|   Acquisition                   | 25 mW            |                  |
+|   Tracking                      | 18 mW            |                  |
+| **Current Consumption (@3.3V)** |                  |                  |
+|   Acquisition                   | 25 mA            | 26 mA            |
+|   Tracking                      | 20 mA            | 23 mA            |
+| **Sensitivity**                 |                  |                  |
+|   Acquisition (cold start)      | -148 dBm         | -148 dBm         |
+|   Acquisition (hot start)       | -163 dBm         | -156 dBm         |
+|   Tracking                      | -165 dBm         | -164 dBm         |
 
 
 | Features                        | MediaTek MTK3339 |   uBlox CAM-M8   |
@@ -161,6 +230,18 @@ Sources:
 * [MT3339 All-in-One GNSS Datasheet](https://d86o2zu8ugzlg.cloudfront.net/mediatek-craft/documents/mt3339/MT3339_Datasheet.pdf)
 * [u-blox M8 Concurrent GNSS Antenna Modules](https://www.u-blox.com/sites/default/files/CAM-M8-FW3_DataSheet_%28UBX-15031574%29.pdf)
 
+# BerryGPS First Fix
+When you see most of the NMEA data is empty (repeated ',' present),
+the GPS is trying to obtain a fix.
+On first power up, it can take your GPS module awhile to get a fix.
+It could be longer than 10 minutes in some situations,
+it all depends on interference and if your GPS has clear access to the sky.
+see https://ozzmaker.com/wp-content/uploads/2016/08/NMEA-data0.png
+
+When you GPS has been up and running for awhile and has a fix,
+all the GPS data is provided.
+Also, if your GPS has a fix, you would also see green flashing LED in the middle of the BerryGPS board.
+see https://ozzmak.com/wp-content/uploads/2016/08/NMEA-data1.png
 
 # Other GPS / GNSS Modules
 * [Gravity: GNSS Positioning Module - I2C&UART](https://www.dfrobot.com/product-2651.html?tracking=63da1e73804b0)
@@ -207,6 +288,9 @@ These old units are big, heavy, slow, and use a ton of power for what they do.
 Modern GPS units are light, small, cheap, and use very little power.
 
 * [Navigation: Maryland School of Sailing](https://www.youtube.com/playlist?list=PLDjZqs-Y1cMyCX3cZ5FfkXdyhywllJeJw)
+
+* [An introduction to inertial navigation](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-696.pdf)
+* [Quantum Atomic Interferometer For Precision Motion Sensing](https://hackaday.com/2021/12/28/quantum-atomic-interferometer-for-precision-motion-sensing/)
 
 * [A Brief History of GPS](https://aerospace.org/article/brief-history-gps)
 * [The central place of GPS in our lives](https://plus.maths.org/content/recognising-place-gps-has-our-lives?nl=0)
@@ -263,13 +347,19 @@ and IMU allows higher precision and more accurate readings in between GNSS data 
 * https://en.wikipedia.org/wiki/Automatic_identification_system
 * https://en.wikipedia.org/wiki/Automatic_Transmitter_Identification_System_(marine)
 
-## Global Navigation Satellite Systems (GNSS)
+
+
+-----
+
+
+
+# Global Navigation Satellite Systems (GNSS)
 Global Navigation Satellite Systems (GNSS) is the acronym that encompasses
 those systems that allow users to compute their position based on
 signals transmitted by satellites, world-wide.
 The obvious example is GPS,
 but this term also includes other systems such as
-[GLONASS][61], [Galileo][62] and [BeiDou][63].
+Russia's [GLONASS][61], Eroupean Union's [Galileo][62], China's [BeiDou][63], India's [IRNSS/NavIC][91], and Japans [QZSS][92].
 
 GPS provides positioning of an object to the earth.
 It uses timely signals generated by satellites revolving around the earth.
@@ -279,39 +369,91 @@ Four satellites are used for getting the precise position, this process is known
 GPS technology uses standalone receivers, where the location is directly calculated. This technique is prone to errors such as uncorrected satellite clock errors, orbital parameter satellite error, ionospheric and tropospheric delays, multipath errors, geometric errors and datum selection errors. To reduce these errors new technologies are evolved. GPS can gain nominal accuracy of 10-15 meters.
 
 ## Global Positioning System (GPS) Background Information
-The Global Positioning System (GPS) allows users to accurately determine
-the location of objects on or above the surface of the Earth.
+The Global Positioning System (GPS) is a satellite-based radio navigation system
+started by the Department of Defense in 1973 and is operated today by the United States Space Force.
+GPS is available for free to anybody with a device that can receive transmissions from the many GPS satellites.
+GPS allows users to accurately determine the location of objects on or above the surface of the Earth.
 Most GPS receivers transmit [National Marine Electronics Association (NMEA)][60]
 sentences that provide information that includes latitude and longitude,
 altitude, time, bearing, speed, and a great many other variables at 9600 baud.
 
-A GPS device is designed to delivering fourteen numbers:
-(x, y, z) coordiantes, vilocity along theses coordinats (vx, vy, vz), time,
-and error estimates for each of these seven values.
-The `gpsd` daemon's job is to deliver these numbers to user applications with minimum fuss.
-This is a "TPV" — time-position-velocity report. A GPS is a TPV oracle.
+Low cost, consumer grade GPS devices often have an accuracy of about five to 10 meters (~30 ft.),
+so it’s not really useful for determining the distance between objects in close proximity.
+Expensive industrial systems have an accuracy range measured in centimeters.
+But, if you want to know where on the planet you are in a general sense,
+(for example, maritime navigation or monitoring the movement of buses around a city’s streets)
+a low cost, consumer grade GPS device is well suited to such a purpose.
 
-## What are GPS L1, L2, and L5 Frequencies?
-Global Positioning System (GPS) satellites circle the Earth twice a day in very precise orbits. They continuously transmit signals that allow GPS receivers on the ground to calculate their location, speed, and direction.
+GPS data has its roots in military and defense activities such as ensuring missile accuracy.
+Over time, as the military adopted other technologies,
+GPS was repurposed for civilian uses typically associated with surveying and map cartography.
+In general, GPS data describes a device’s location in terms of longitude, latitude, altitude,
+and the time that the transmission was received.
+GPS data is transmitted in a variety of formats,
+but essentially the information reports where and when you are on the planet.
 
-GPS first began operations with two signals, L1 and L2. L1 operates at a frequency of 1575.42 MHz, whereas L2 operates at a frequency of 1227.60 MHz. These GPS signals include two ranging codes: P (Y) or Precision code and C/A (Carrier Acquisition) code. The first code is only for civilian usage, while the second is only for military use. These ranges codes are used to calculate the distance to the satellite as well as to uniquely identify the navigation message.
+### GPS Data Format
+location data is received by a listening GPS device from a GPS satellite as radio waves.
+The GPS listening device converts the binary stream into lines of text.
+Each line is comma-delimited to identify unique data items.
+In GPS parlance, a delimited line is called a sentence and some examples are below:
 
-Although the GPS system has nearly reached its full operational capabilities, modernization and implementation of a new GPS system have recently begun due to increased demand for better service and technological improvements. The insertion of L5 GPS signals is part of the US Department of Defense’s modernization activities.
+```
+$GPRMC,044840.00,A,3401.21044,N,11824.67722,W,0.165,,010621,,,D*60
+$GPVTG,,T,,M,0.165,N,0.306,K,D*21
+$GPGGA,044840.00,3401.21044,N,11824.67722,W,2,07,1.34,29.5,M,-32.9,M,,0000*56
+$GPGSA,A,3,21,32,46,27,08,22,10,,,,,,3.07,1.34,2.76*0F
+$GPGSV,3,1,12,01,18,319,17,08,27,257,20,10,44,068,33,18,00,142,*73
+$GPGSV,3,2,12,21,39,313,23,22,20,296,14,23,16,089,,27,22,221,32*7A
+$GPGSV,3,3,12,31,28,168,20,32,70,025,31,46,49,199,30,51,49,161,*7E
+$GPGLL,3401.21044,N,11824.67722,W,044840.00,A,D*7F
+```
 
-Now there are three civilian GPS frequencies: L1 at 1575.42 MHz, L2 at 1227.60 MHz, and L5 at 1176.45 MHz. Each frequency has unique properties that make it better suited for certain types of applications. For example, L1 frequency is used to track GPS satellite location, L2 frequency is used to track the health of the GPS satellites and the L5 frequency is used to improve accuracy for civilian use such as aircraft precision approach guidance.
+There are 60 different formats for GPS sentences.
+However, today only a handful of them are in general use.
+The more common GPS sentence formats are:
 
-* [Everything You Need To Know About GPS L1, L2, and L5 Frequencies](https://gisresources.com/everything-you-need-to-know-about-gps-l1-l2-and-l5-frequencies/)
-* [A Pure L5 Mobile Receiver](https://insidegnss.com/a-pure-l5-mobile-receiver/)
+* [GPGGA][80]: Global positioning system fix data (time, position, fix type data)
+* [GPGLL][81]: Geographic position, latitude, longitude
+* [GPVTG][82]: Course and speed information relative to the ground
+* [GPRMC][83]: Time, date, position, course, and speed data
+* [GPGSA][84]: GPS receiver operating mode, satellites used in the position solution, and DOP values.
+* [GPGSV][85]: The number of GPS satellites in view, satellite ID numbers, elevation, azimuth, and SNR values.
 
-## What is Virtual Reference Station (VSR)?
-* [What is Virtual Reference Station?](https://gisresources.com/what-is-virtual-reference-station/)
-* [How VSR Works?](https://gisresources.com/how-vrs-work/)
-* [Challenges and Benefits of VRS](https://gisresources.com/challenges-and-benefits-of-vrs/)
-* [Errors can be Reduced in VRS](https://gisresources.com/errors-can-be-reduced-in-vrs_page-virtual-reference-station/)
+### Beware of Data Format Misinterpretation
+When it comes to GPS, there are a few formats for reporting latitude and longitude.
+The difference in the formats will affect how you process incoming data.
+Maritime navigation typically uses earth location expressed in degrees / minutes /seconds.
+Fore example:
+
+* Latitude of 38° 52' 44.941" N is 38 degrees, 52 minutes, 44.941 seconds, North
+* Longitude of 76° 58' 54.521" W is 76 degrees, 58 minutes, 54.521 seconds, West
+
+Over time a decimal format became more prevalent, and the above example becomes:
+
+* Latitude 38.879150390625
+* Longitude -76.9818115234375
+
+When a location is North of the equator,
+it has a positive number for its location; South has a negative value.
+When a location is East of the prime meridian in Greenwich, England, it has a positive number.
+Locations West of the prime meridian have a negative number.
+
+The lat & long of GPS sentance is in a `ddmm.mmmm` and `dddmm.mmmm` formats
+In the `ddmm.mmmm` and `dddmm.mmmm` formats the `dd` and `ddd` digits indicate degrees.
+The `mm.mmmm` digits indicate the minute and fraction of a minute.
+You need to be very careful in making the conversions
+and its best to use the standard conversion libraries provied by Python and other languages.
 
 ## What is GPS NMEA Data?
 [NMEA is a standard data format][34] supported by all GPS manufacturers,
 much like ASCII is the standard for digital computer characters in the computer world.
+NMEA stands for National Marine Electronics Association,
+and in addition to GPS receivers, it’s also used by
+[echo sounder][86], [sonar][87], [anemometer][88], [gyrocompass][89], and [autopilot][90] devices.
+
+NMEA sentences are basically comma-delimited sentences that convey
+various essential information for accurately obtaining the location of the system.
 The purpose of NMEA is to give equipment users the ability to mix and match hardware and software.
 NMEA-formatted GPS data also makes life easier for software developers
 so they can write software for a wide variety of GPS receivers
@@ -323,16 +465,20 @@ Different kinds of GPS receivers with different capabilities will have
 different types of NMEA messages with different capabilities.
 And there is no physical or data link layer standard for NMEA.
 NMEA data can be transmitted via different types of communications interfaces
-such as RS-232, USB, Bluetooth, Wi-Fi, UHF, and many others.
+such as RS-232, USB, Bluetooth, WiFi, UHF, and many others.
 
-For details on the NMEA message structure,
-check out the article ["What Exactly Is GPS NMEA Data?"][34].
+For details on the NMEA message structure, check out the articles:
 
-NMEA data - http://www.gpsinformation.org/dale/nmea.htm#PGRMM
-Online NEMA tools - http://freenmea.net/
-NMEA 0183 Interface Standard - https://www.nmea.org/content/STANDARDS/NMEA_0183_Standard
-NMEA 0183 - https://en.wikipedia.org/wiki/NMEA_0183
-NMEA 2000 - https://en.wikipedia.org/wiki/NMEA_2000
+* [NMEA Sentence Decoding](http://www.shantek.net/gps/NMEA_SentenceDecoding.html)
+* [GPS - NMEA sentence information](http://aprs.gids.nl/nmea/)
+* [What Exactly Is GPS NMEA Data?][34]
+* [An architect's guide to GPS and GPS data formats](https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats)
+* [NMEA Solution Output Format](https://anavs.com/knowledgebase/nmea-format/)
+* [NMEA data](http://www.gpsinformation.org/dale/nmea.htm#PGRMM)
+* [Online NEMA tools](http://freenmea.net/)
+* [NMEA 0183 Interface Standard](https://www.nmea.org/content/STANDARDS/NMEA_0183_Standard)
+* [NMEA 0183](https://en.wikipedia.org/wiki/NMEA_0183)
+* [NMEA 2000](https://en.wikipedia.org/wiki/NMEA_2000)
 
 The raw GPS data being produced are called [NMEA sentences][48].
 You'll notice there are a few different kinds of NMEA sentences,
@@ -355,6 +501,24 @@ Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%20
 
 ## Using Starlink Network
 * [GPS? With Starlink, We Don’t Need It Any More!](https://hackaday.com/2021/10/10/gps-with-starlink-we-dont-need-it-any-more/)
+
+## What are GPS L1, L2, and L5 Frequencies?
+Global Positioning System (GPS) satellites circle the Earth twice a day in very precise orbits. They continuously transmit signals that allow GPS receivers on the ground to calculate their location, speed, and direction.
+
+GPS first began operations with two signals, L1 and L2. L1 operates at a frequency of 1575.42 MHz, whereas L2 operates at a frequency of 1227.60 MHz. These GPS signals include two ranging codes: P (Y) or Precision code and C/A (Carrier Acquisition) code. The first code is only for civilian usage, while the second is only for military use. These ranges codes are used to calculate the distance to the satellite as well as to uniquely identify the navigation message.
+
+Although the GPS system has nearly reached its full operational capabilities, modernization and implementation of a new GPS system have recently begun due to increased demand for better service and technological improvements. The insertion of L5 GPS signals is part of the US Department of Defense’s modernization activities.
+
+Now there are three civilian GPS frequencies: L1 at 1575.42 MHz, L2 at 1227.60 MHz, and L5 at 1176.45 MHz. Each frequency has unique properties that make it better suited for certain types of applications. For example, L1 frequency is used to track GPS satellite location, L2 frequency is used to track the health of the GPS satellites and the L5 frequency is used to improve accuracy for civilian use such as aircraft precision approach guidance.
+
+* [Everything You Need To Know About GPS L1, L2, and L5 Frequencies](https://gisresources.com/everything-you-need-to-know-about-gps-l1-l2-and-l5-frequencies/)
+* [A Pure L5 Mobile Receiver](https://insidegnss.com/a-pure-l5-mobile-receiver/)
+
+## What is Virtual Reference Station (VSR)?
+* [What is Virtual Reference Station?](https://gisresources.com/what-is-virtual-reference-station/)
+* [How VSR Works?](https://gisresources.com/how-vrs-work/)
+* [Challenges and Benefits of VRS](https://gisresources.com/challenges-and-benefits-of-vrs/)
+* [Errors can be Reduced in VRS](https://gisresources.com/errors-can-be-reduced-in-vrs_page-virtual-reference-station/)
 
 
 
@@ -618,15 +782,6 @@ braking distance, heading, slip angle, lap times, position, cornering forces and
 ----
 
 
-
-# Verizon Location Technology Services
-* [Location for Developers](https://location.verizon.com/)
-
-
-
-----
-
-
 # Time Keeping
 * [Stratum-1-Microserver HOWTO](https://www.ntpsec.org/white-papers/stratum-1-microserver-howto/)
 * [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
@@ -701,20 +856,13 @@ ZED-F9P Module
 
 * [A first look at the u-blox ZED-F9P dual frequency receiver](https://rtklibexplorer.wordpress.com/2018/11/30/a-first-look-at-the-u-blox-zed-f9p-dual-frequency-receiver/)
 * [u-blox Precise Positioning](https://www.youtube.com/watch?v=NalwVqdcENk)
-*[ZED-F9P Module](https://www.u-blox.com/en/product/zed-f9p-module)
+* [ZED-F9P Module](https://www.u-blox.com/en/product/zed-f9p-module)
+* [SparkFun GNSS Combo Breakout](https://www.sparkfun.com/products/22560)
+
 
 
 ----
 
-
-
-# Enable Raspberry Pi USB Gadget Support
-With USB Gadget support,
-you can plug your Pi directly into your PC and get to it without any 3rd party software
-and the Pi can use a separate wireless network such as your phone.
-This helps create a setup that’s friendly for travel and requires very little cost.
-
-* [enable the USB Gadget support on the Raspberry Pi Zero W](https://back7.co/home/weekend-project-portable-pi-zero-usb-gadget)
 
 
 # Raspberry Pi Zero Setup
@@ -736,7 +884,14 @@ like any Raspberry Pi for WiFi connectivity.
 This can be done by following "Step 3: Configure your WiFi" within
 ["HowTo: Set-Up the Raspberry Pi as a Headless Device"][25].
 
-### Step 1: Download Raspberry Pi Image - DONE
+With USB Gadget support,
+you can plug your Pi directly into your PC and get to it without any 3rd party software
+and the Pi can use a separate wireless network such as your phone.
+This helps create a setup that’s friendly for travel and requires very little cost.
+
+* [enable the USB Gadget support on the Raspberry Pi Zero W](https://back7.co/home/weekend-project-portable-pi-zero-usb-gadget)
+
+#### Step 1: Download Raspberry Pi Image - DONE
 Before you can load a copy of the latest Raspberry Pi image onto your micro SD Card,
 you must first download the official Raspberry Pi operating system, [Raspbian][13]
 (in my case, the version is [Stretch][11]).
@@ -764,7 +919,7 @@ Archive:  2019-09-26-raspbian-buster-lite.zip
   inflating: 2019-09-26-raspbian-buster-lite.img
 ```
 
-### Step 2: Write Raspberry Pi Image to SD Card - DONE
+#### Step 2: Write Raspberry Pi Image to SD Card - DONE
 Next using Linux, you have copied the Raspbian image onto the SD card mounted to your system.
 I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][14] to create my SD Card.
 Make sure to [choose a reputable SD Card][15] from [here][24], don't go cheap.
@@ -880,7 +1035,7 @@ We’re going to set up the network interfaces next.
 >[Adafruit has good description on how to use a console cable][17]
 >and the how to [enable the UART for the console][18].
 
-### Step 3: Setup Networking - DONE
+#### Step 3: Setup Networking - DONE
 We now we need to setup
 the hostname and networking features for the Raspberry Pi.
 We do this by creating this file in
@@ -972,7 +1127,7 @@ network={
 }
 ```
 
-### Step 4: Setup Hostname - DONE
+#### Step 4: Setup Hostname - DONE
 If you want to change the hostname, do the following:
 
 ```bash
@@ -980,7 +1135,7 @@ sudo sed -i 's/raspberrypi/berrygps/' /media/jeff/rootfs/etc/hosts
 sudo sed -i 's/raspberrypi/berrygps/' /media/jeff/rootfs/etc/hostname
 ```
 
-### Step 5: Enable SSH on Raspberry Pi - DONE
+#### Step 5: Enable SSH on Raspberry Pi - DONE
 SSH is disabled by default in Raspberry Pi,
 hence you’ll have to enable it when you turn on the Pi after a fresh installation of Raspbian.
 SSH can be enabled by placing a file named `ssh`, without any extension,
@@ -1087,7 +1242,7 @@ $ arp -a | grep -e 00:1f:1f -e 00:50:fc -e 00:0e:2e -e 00:00:b4 -e 08:be:ac -e 7
 
 So, we can now log into the Raspberry Pi via `ssh -X pi@berrygps` or `ssh -X pi@b192.168.1.230`.
 
-### Step 7: Update Linux Packages - DONE
+#### Step 7: Update Linux Packages - DONE
 On the Raspberry Pi, update the Linux packages.
 
 ```bash
@@ -1098,7 +1253,7 @@ sudo apt-get -y update && sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 ```
 
-### Step 8: Configure the Raspberry Pi
+#### Step 8: Configure the Raspberry Pi - DONE
 You could now run the `sudo raspi-config`
 (see [raspi-config documentation][10] and [here][08])
 This is an interactive script that allowing you to configured multiple devices settings.
@@ -1123,7 +1278,7 @@ sudo timedatectl set-timezone "America/New_York"
 sudo shutdown -r now
 ```
 
-### Step 9: Updating Firmware for Raspberry Pi - DONE
+#### Step 9: Updating Firmware for Raspberry Pi - DONE
 After a successful upgrade and reboot,
 use `hostnamectl` and `vcgencmd` if you wish to see your current Raspbian version
 and firmware version.
@@ -1180,7 +1335,7 @@ sudo BRANCH=next rpi-update
 sudo shutdown -r now
 ```
 
-### Step 10: Development Package Installs - DONE
+#### Step 10: Development Package Installs - DONE
 While the Raspberry Pi comes with a fairly robust set of Linux packages,
 it could use some beefing up for most uses.
 For example, while the distribution is likely to already have some Python packages installed,
@@ -1227,7 +1382,7 @@ sudo apt-get -y install build-essential i2c-tools libssl-dev
 sudo apt-get -y install avahi-daemon
 ```
 
-### Step 11: Load Personal Tools - DONE
+#### Step 11: Load Personal Tools - DONE
 Now that all the Linux packages have been loaded,
 time to install my personal tools on the device.
 
@@ -1267,7 +1422,7 @@ xauth generate :0 . trusted
 xauth add ${HOST}:0 . `xxd -l 16 -p /dev/urandom`
 ```
 
-### Step 12: Setup Python Development Environment - DONE
+#### Step 12: Setup Python Development Environment - DONE
 Now create a Python Virtual Environment to support the Python tools that will be used.
 
 ```bash
@@ -1341,15 +1496,16 @@ The OzzMaker products website list several useful postings concerning the BerryG
     * [How to Create an Inclinometer using a Raspberry Pi and an IMU](http://ozzmaker.com/inclinometer-using-raspberry-pi-imu/)
     * [Raspberry Pi Digital Spirit Level]()
 
-### Step 1: Physical Assembly of the BerryGPS-IMU - DONE
+#### Step 1: Physical Assembly of the BerryGPS-IMU - DONE
 Consult the post ["BerryGPS and BerryGPS-IMU Quick Start Guide"][22]
 to understand how to assemble the unit.
 
-### Step 2: Disable Serial Console - DONE
+#### Step 2: Disable Serial Console - DONE
 BerryGPS uses the serial port assigned to console on the Raspberry Pi,
-so we need to disable the console and make use of it its pins.
+so we need to disable the console and make use of its pins for GPS NMEA messages.
 On RPi Zero, console is assign `/dev/ttyAMA0` and
-`dev/serial0` is assigned as an alias to console.
+`/dev/serial0` is assigned as an alias to console.
+We'll free up `/dev/serial0` for GPS use.
 
 ```bash
 # current tty assignment for console
@@ -1358,19 +1514,19 @@ lrwxrwxrwx 1 root root       7 Dec 27 15:11 /dev/serial0 -> ttyAMA0
 crw--w---- 1 root tty  204, 64 Dec 27  2019 /dev/ttyAMA0
 
 # serial console needs to be disabled and then the serial port enabled
-# select 'interfacing options' -> Serial -> No -> Yes and then Yes to reboot
+# select 'interfacing options' -> Serial Port -> No -> Yes and then Yes to reboot
 sudo raspi-config               # execute in interactive mode
 
 # reboot the rpi
 sudo shutdown -r now
 
-# new assignment of console (tty1)
+# verify new assignment of console (tty1)
 $ cat /boot/cmdline.txt
 console=tty1 root=PARTUUID=6c586e13-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
 ```
 
-### Step 3: Quick Viewing of GPS Data - DONE
-Now it time see if we got things working
+#### Step 3: Verify You Can View GPS Data - DONE
+Now it time to see if we got things working
 by looking raw GPS data, [NMEA sentences][02], from device `/dev/serial0`.
 NMEA sentences contain all the requered GPS data (e.g longatute, latitude, number of statilites, etc.).
 There is are several ways to see this data:
@@ -1384,7 +1540,7 @@ screen /dev/serial0 9600,cs8
 
 # or using the ttyAMA0 device
 cat /dev/ttyAMA0
-screen /dev/ttyAMA2 9600,cs8
+screen /dev/ttyAMA0 9600,cs8
 ```
 
 Every second or two, any of the satellites picked up by the GPS chip puts out some information,
@@ -1396,90 +1552,74 @@ but there is a [good online reference][02].
 
 If your [GPS has a fix][03], you would also see the green LED flash on the BerryGPS
 and the NMEA data will have almost all the comma delimited spaces filled in.
-If you have no fix, then no green LED and most of the NMEA data is empty.
+If you have no fix, then no green LED and most of the NMEA data is empty.gg
 On first power up, it can take your GPS module 10 minutes to get a fix in some situations.
 
-### Step X: Manually Parsing NMEA Sentences
-The python script below accesses GPS data by connecting directly to the serial interface.
-It filters on `$GPRMC` NMEA sentences and then splits the attributes into different variables.
 
-```python
-import serial
 
-port = "/dev/serial0"
+-------
 
-def parseGPS(data):
-#    print "raw:", data #prints raw data
-    if data[0:6] == "$GPRMC":
-        sdata = data.split(",")
-        if sdata[2] == 'V':
-            print "no satellite data available"
-            return
-        print "---Parsing GPRMC---",
-        time = sdata[1][0:2] + ":" + sdata[1][2:4] + ":" + sdata[1][4:6]
-        lat = decode(sdata[3]) #latitude
-        dirLat = sdata[4]      #latitude direction N/S
-        lon = decode(sdata[5]) #longitute
-        dirLon = sdata[6]      #longitude direction E/W
-        speed = sdata[7]       #Speed in knots
-        trCourse = sdata[8]    #True course
-        date = sdata[9][0:2] + "/" + sdata[9][2:4] + "/" + sdata[9][4:6]#date
 
-        print "time : %s, latitude : %s(%s), longitude : %s(%s), speed : %s, True Course : %s, Date : %s" %  (time,lat,dirLat,lon,dirLon,speed,trCourse,date)
 
-def decode(coord):
-    #Converts DDDMM.MMMMM > DD deg MM.MMMMM min
-    x = coord.split(".")
-    head = x[0]
-    tail = x[1]
-    deg = head[0:-2]
-    min = head[-2:]
-    return deg + " deg " + min + "." + tail + " min"
+# Sharing GPS Data Locally & Over Network
+Many applications may wish to use location GPS data simultaneously.
+Another complicating factor is that there are several incompatible GNSS protocols for delivering location information,
+including flavors of NMEA-0183, Rockwell and SiRF binary protocols, AIS, and others.
+To solve these problems,
+`gpsd` is a service daemon that can monitor a locally attached GPS receiver of any type
+and provides the data via an Internet Protocol (IP) network to
+potentially multiple client applications in a server-client application architecture.
+This network interface provides a standardized data format for multiple concurrent client applications, such as Kismet or GPS navigation software.
 
-print "Receiving GPS data"
-ser = serial.Serial(port, baudrate = 9600, timeout = 0.5)
-while True:
-   data = ser.readline()
-   parseGPS(data)
-```
+`gpsd` provides data to port 2947 where `systemd` is listening.
+By default in Debian this port is local only,
+any external requests for GPS data ios blocked.
+I want to get `gpsd` to accept incoming requests over the network on port 2947
+and stream the GPS NMEA data.
 
-Source:
+I'll be install `gpsd` but I will not be using the default installation where the daemon starts automatically.
+Starting with the Raspberry Pi OS releases “Jessie”,
+it require disabling a service that `gpsd` installs (see [here][102]).
+This service has `systemd` listen on a local socket and run `gpsd` when clients connect to it,
+however it will also interfere with other `gpsd` instances that are manually run,
+and in general apears to cause problems using a GPS device.
+Some sources ([here][103] and [here][104]) appear to claim that an installation from source will fix the issue
+but seems like too much work for my needs.
 
-* [Using python with a GPS receiver on a Raspberry Pi](https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/)
+I want to create a simple client/server connection is between two devices
+(the GPS device `berrygps` and my desktop linux `desktop`).
+`berrygps` (IP address `192.168.1.151`) acts as a server, aka the listener,
+waiting for a TCP/IP connection to a port where GPS data will be streaming out.
+The `desktop` (IP address `192.168.1.200`) acts as a client, aka the connector,
+who connects to a port via TCP/IP to consume the streaming GPS data.
+It is claimed that you can do this natively with `gpsd`,
+but because I will **not** be using `gpsd` with automatic start,
+I'll show another way with `netcat`.
 
-### Step X: Using `pynmea2` to Parse NMEA Sentences
-Here again, this python script accesses the GPS data by connecting directly to the serial interface.
-It filters on `$GPGGA` NMEA sentences and then uses `pynmea2` to parse the data.
-(`pynmea2` can be installed with: `pip install pynmea2`)
+## Sharing GPS Data Locally
 
-```python
-import serial
-import pynmea2
-
-port = "/dev/serial0"
-
-def parseGPS(str):
-    if str.find('GGA') > 0:
-        msg = pynmea2.parse(str)
-        print "Timestamp: %s -- Lat: %s %s -- Lon: %s %s -- Altitude: %s %s -- Satellites: %s" % (msg.timestamp,msg.lat,msg.lat_dir,msg.lon,msg.lon_dir,msg.altitude,msg.altitude_units,msg.num_sats)
-
-serialPort = serial.Serial(port, baudrate = 9600, timeout = 0.5)
-while True:
-    str = serialPort.readline()
-    parseGPS(str)
-```
-
-Source:
-
-* [Using python with a GPS receiver on a Raspberry Pi](https://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/)
-* [Using PySerial, PyNMEA2, and Raspberry Pi to log NMEA output](https://fishandwhistle.net/post/2016/using-pyserial-pynmea2-and-raspberry-pi-to-log-nmea-output/)
-
-### Step 4: Install gpsd Daemon - DONE
+#### Step X: Install `gpsd` Daemon and Tools - DONE DONE
 The Linux utility [`gpsd`][04] is a daemon that receives data from a GPS receiver,
 acts as a layer between your applications and the actual GPS hardware,
 parsing errors, and providing a more readable, well-defined interfaces to any GPS module.
-`gspd` provides the NMEA data back to multiple applications such
-[`gpsmon`][05], [`cgps`][06], and [gpsprof][09].
+All the GPS data on the location/course/velocity is available
+to be queried on TCP port 2947 of the Linux computer hosting the GPS sensor.
+
+Companion libraries of tools called `gpsd-clients`, `libgps-dev`, and `libgps`,
+provide the NMEA data back to multiple applications such as:
+
+* [`xgps`][94] - This is a simple client for `gpsd` with an X interface. It displays current GNSS position/time/velocity information and (for GNSS receivers that support the feature) the locations of accessible satellites.
+* [`gpsmon`][05] - This watches packets coming from a GPS and displays them along with diagnostic information. It supports commands that can be used to tweak GPS settings in various ways; some are device-independent, some vary with the GPS chipset type.
+* [`cgps`][06] - This is a client resembling `xgps`, but without the pictorial satellite display and able to run on a serial terminal or terminal emulator.
+* [`gegps`][95] - This program collects fixes from gpsd and feeds them to a running instance of Google Earth for live location tracking.
+* [`lcdgps`][95] - A client that passes `gpsd` data to [`lcdproc`][93], turning your car computer into a very expensive and nearly feature-free GPS receiver. Currently assumes a 4x40 LCD and writes data formatted to fit that size screen. Also displays 4- or 6-character Maidenhead grid square output.
+* [`gpsprof`][09] - This performs accuracy, latency, skyview, and time drift profiling on a GPS. It emits to standard output a GNUPLOT program that draws one of several illustrative graphs. It can also be told to emit the raw profile data.
+* [`xgpsspeed`][95] - This is a speedometer that uses position information from the GPS.
+* [`gegps`][95] - This program collects fixes from `gpsd` and feeds them to a running instance of Google Earth for live location tracking.
+* [`gpscat`][96] - Program for logging and packetizing GPS data streams. It takes input from a specified file or serial device (presumed to have a GPS attached) and reports to standard output.
+* [`gpspipe`][97] - A tool to connect to gpsd and output the received sentences to stdout. This makes the program useful as a pipe from gpsd to another program or file.
+* [`gpxlogger`][98] - This program collects fixes from `gpsd` and logs them to standard output in GPX (a XML profile for track logging).
+* [`gpsfake`][100] - This program is a test harness for `gpsd` and its clients. It opens a pty (pseudo-TTY), launches a `gpsd` instance that thinks the slave side of the pty is its GNSS device, and repeatedly feeds the contents of one or more test logfiles through the master side to the GNSS receiver. So you would record the log from a real GNSS receiver with `gpspipe -R > gps.log` and later use `gpsfake` to replay it during testing without GNSS receiver.
 
 Be default, `gpsd` is configured to start at boot and run in the background as a daemon.
 While a daemon service has its uses, it can get in our way.
@@ -1487,157 +1627,156 @@ Therefore, at this time, the daemon service will be turned off.
 Also, we need to edit the `gpsd` config file so that `gpsd` uses the correct serial device.
 
 ```bash
-# install, gpsd, gpsmon and cgps
-sudo apt-get -y install gpsd-clients gpsd
+# install, gpsd, gpsmon, cgps, etc
+sudo apt -y install gpsd gpsd-clients libgps-dev
 
 # install gpsprof
-sudo apt-get -y install python-gps gnuplot
+sudo apt -y install python-gps gnuplot
 
 # supporting libraries
-sudo apt-get -y install pkg-config libcairo2-dev gcc python3-dev libgirepository1.0-dev
+sudo apt -y install pkg-config libcairo2-dev gcc python3-dev libgirepository1.0-dev
 sudo pip3 install gobject PyGObject
 
-# disable the gpsd systemd service
-sudo systemctl stop gpsd.socket
-sudo systemctl disable gpsd.socket
+# the gpsd daemon will automatically start boot time but lets disable this features
+sudo systemctl stop gpsd gpsd.socket
+sudo systemctl disable gpsd gpsd.socket
 
 # check the status of the gpsd systemd service
-$ sudo systemctl status gpsd.socket
-● gpsd.socket - GPS (Global Positioning System) Daemon Sockets
-   Loaded: loaded (/lib/systemd/system/gpsd.socket; disabled; vendor preset: enabled)
-   Active: inactive (dead)
-   Listen: /var/run/gpsd.sock (Stream)
-           [::1]:2947 (Stream)
-           127.0.0.1:2947 (Stream)
+systemctl status gpsd gpsd.socket
 
-# updated gpsd configuration
-sudo sed -i 's/DEVICES=\"\"/DEVICES=\"\/dev\/serial0\"/' /etc/default/gpsd
+# updated gpsd configuration file
+#sudo sed -i 's/DEVICES=\"\"/DEVICES=\"\/dev\/serial0\"/' /etc/default/gpsd
 
 # reboot the rpi
+#sudo shutdown -r now
+```
+
+You can start the `gpsd` manually and test out some tools via the following:
+
+```bash
+# start the gpsd daemon
+# note: option `-N` doesn't daemonize bur run in foreground in stead. This switch is mainly useful for debugging
+sudo gpsd /dev/serial0 -F /var/run/gpsd.sock
+
+# check to see if gpsd is running
+ps aux | grep gpsd
+
+# display current GNSS position/time/velocity information,
+# and for GNSS receivers that support the feature) the locations of accessible satellites
+cgps
+# OR
+# watch packets coming from a GPS and displays them along with diagnostic information
+gpsmon
+# OR
+# connect to gpsd and output the received NMEA sentences to stdout
+# this program useful as a pipe from gpsd to another program or file
+#    -r = output raw NMEA sentences
+#    -R = causes super-raw (gps binary) data to be output
+#    -d = causes gpspipe to run as a daemon
+#    -l = causes gpspipe to sleep for ten seconds before attempting to connect to gpsd
+#    -o = output to file
+gpspipe -r
+# OR
+# perform accuracy, latency, skyview, and time drift profiling on a GPS
+gpsprof -n 10
+gpsprof -n 50 | gnuplot -persist
+# OR
+# for logging and packetizing GPS data streams, take input from a specified file
+# file or serial device (presumed to have a GPS attached) and reports to standard output
+gpscat /dev/serial0
+
+# stop the gpsd daemon
+sudo killall gpsd
+```
+
+#### Step X: Remove `gpsd` Daemon and Tools - DONE NOT DONE
+If for any reason you need to completely remove the `gpsd` daemon
+and its supporting packages, configuration file, etc.,
+do the following:
+
+```bash
+# stop and disable any gpsd service that might be running
+sudo systemctl stop gpsd gpsd.socket
+sudo systemctl disable gpsd gpsd.socket
+sudo killall gpsd
+
+# remove the packages and any configuration files for them
+sudo apt remove --purge gpsd gpsd-clients libgps-dev
+
+# removes orphaned packages, i.e. packages installed as dependency, but nolong needed by any package
+sudo apt autoremove
+
+# restart the pi
 sudo shutdown -r now
 ```
 
-Should you ever want to enable the default `gpsd` systemd service,
-do the following (but not now!):
+
+
+-------
+
+
+
+## Share GPS Data Remotely
+See the article ["nc Command (Netcat) with Examples"][74] for insight on how this is done.
+
+#### Step X: Using gpsd to Supply NMEA to Remote Machine - DONE
+First establish the server and then connect the client to the server, as shown below:
 
 ```bash
-# enable the default gpsd systemd daemon service
-sudo systemctl enable gpsd.socket
-sudo systemctl start gpsd.socket
-```
-
-For more on the GPS reciver daemon, see the following sources:
-
-* [gpsd](https://en.wikipedia.org/wiki/Gpsd)
-* [gpsd manpage](https://manpages.debian.org/testing/gpsd/gpsd.8.en.html)
-* [Tutorial – gpsd](https://www.linux-magazine.com/Issues/2018/210/Tutorial-gpsd#article_f2)
-
-### Step 5: Using the gpsd Daemon - DONE
-You can also run the following command to manually start `gpsd`:
-
-```bash
-# manual start gpsd daemon
-#   -F    create a control socket for device addition and removal commands
+# if not already running, start the gpsd daemon
+# note: option `-N` doesn't daemonize bur run in foreground in stead. This switch is mainly useful for debugging
 sudo gpsd /dev/serial0 -F /var/run/gpsd.sock
 
-# to run gpsd in the foregorund (not as a daemon)
-#   -N    don't daemonize; run in foreground. This switch is mainly useful for debugging
-sudo gpsd -N /dev/serial0 -F /var/run/gpsd.sock
+# on the server, establish the streaming gps NMEA data on port 1499 (or any unoccupied port)
+gpspipe -r | netcat -lkv 1499       # executed on 'berrygps', ip 192.168.1.151
 
-# to kill this daemon
-sudo killall gpsd
-
-# start gpsd daemon and allow socket connect to remote host
-#   -G    allows you to connect from a non-localhost
-sudo gpsd -G /dev/serial0 -F /var/run/gpsd.sock
+# on the client, consume the streaming gps and send to stdout
+netcat -v 192.168.1.151 1499        # executed on the client, 'desktop'
+# - or -
+netcat -v berrygps 1499             # executed on the client, 'desktop'
 ```
 
-The `-G` option allows you to connect from a non-localhost.
-For example, via `telnet BlueRPi.local 2947`.
-Not needed if you are connecting via terminal or `ssh`.
+This works fine when you have one client,
+but **what if you have multipe clients** that wish to consume the same streaming GPS data?
+For this, you can use another tool called [`ncat`][75].
+Do the following:
 
-### Step 6: Viewing GPS Data - DONE
-There are number of freely available tools which we can used to view meaningful information
+```bash
+# on the server, establish the streaming gps NMEA data on port 1499 (any unoccupied port)
+gpspipe -r | ncat -lkv 1499         # executed on 'berrygps', ip 192.168.1.151
+
+# on the client, consume the streaming gps and send to stdout
+netcat -v 192.168.1.151 1499        # executed on the client, 'desktop'
+# - or -
+netcat -v berrygps 1499             # executed on the client, 'desktop'
+```
+
+#### Step X: Viewing GPS Data on Remote Machine
+Since the NMEA data supplied to the remote machine is **not** native `gpsd` output
+destine for gps-tools (i.e. its missing setup data),
+you can't use tools like `cgps`, `gpsmon`, etc.
+Never the less, are number of freely available Python scripts and tools
+which we can used to view meaningful information
 from the GPS unit, like longitude, latitude and ground speed.
-These tools where included in the install step above.
-You will find moe information about
-`xgps`, `xgpsspeed`, `cgps`, `lcdgps`, `gegps` via `man xgps`.
-
-First, manually start the GPS deamon via `sudo gpsd /dev/serial0 -F /var/run/gpsd.sock`,
-then try out the following commmands.
 
 ```bash
-# cgps is a client resembling xgps, but without the pictorial satellite display running in serial terminal
-cgps
-cgps -s       #  surpress displaying the data coming from the daemon
-
-# watches packets coming from a GPS and displays them along with diagnostic information
-# -n forces gpsmon to request NMEA0183 packets instead of the raw datastream from gpsd
-gpsmon -n
-
-# collects fixes from gpsd and feeds them to a running instance of Google Earth for live location tracking
-gegps
-```
-
-`gpsprof` performs accuracy, latency, and time drift profiling on a GPS.
-It emits to standard output a GNUPLOT scatter graph.
-The command below will take 100 samples from BerryGPS and display them in a graph
-using `gnuplot`:
-
-```bash
-gpsprof | gnuplot -persist          # plot 100 data points
-gpsprof -n 300 > gpsprof.plot       # dump 300 data points ready to be ploted via gnuplot
-gpsprof -n 300 -d gpsprof.data      # dump 300 data points without gnuplot code
-```
-
-Some tools will require X Windows server,
-which can be running on something other than the Raspberry Pi
-(using the `-G` option):
-
-```bash
-# X displays current GPS position/time/velocity and the locations of accessible satellites
-xgps
-
-# speedometer that uses position information from the GPS
-xgpsspeed
-```
-
->**NOTE:** For `xgpx` and `xgpsspeed`,
->I had issues with Python and couldn't get these to work.
-
-### Step 7: Piping GPS Data - DONE
-When gpsd is running, you will not be able to see the raw NMEA data via `cat /dev/serial0`
-as the serial device will show as busy.
-To get around this, you can use `gpscat` and `gpspipe` to view this data while `gpsd` is running.
-
-```bash
-# this will give you output like 'sudo screen /dev/serial0 9600'
-sudo gpscat -s 9600 /dev/serial0
-
-# gpspipe is a tool to connect to gpsd and output the received sentences to stdout
-#    -r = Output raw NMEA sentences
-#    -R = causes super-raw (gps binary) data to be output
-#    -d = Causes gpspipe to run as a daemon
-#    -l = Causes gpspipe to sleep for ten seconds before attempting to connect to gpsd
-#    -o = Output to file
-gpspipe -r /dev/serial0
+netcat -v 192.168.1.151 1499 | ./nmea-parser.py
 ```
 
 
-### Step X: gpxlogger
-gpxlogger — Tool to connect to gpsd and generate a GPX file - https://www.mankier.com/1/gpxlogger
+----
 
-GPX, or GPS Exchange Format, is an XML schema designed as a common GPS data format for software applications. It can be used to describe waypoints, tracks, and routes. The format is open and can be used without the need to pay license fees.
 
-GPX Viewer - Tracks, Routes & Waypoints - https://play.google.com/store/apps/details?id=com.vecturagames.android.app.gpxviewer&hl=en_US
 
-GPS Visualizer - https://www.gpsvisualizer.com/
+# Setup for OzzMaker's IMU
+
 
 
 -----
 
 
-# Setup fo Adafruit's Ultimate GPS
+
+# Setup for Adafruit's Ultimate GPS
 [!ultimate-gps](https://cdn-learn.adafruit.com/assets/assets/000/003/714/medium640/raspberry_pi_gps_pi_usbconnection2.jpg?1396801034)
 I also purchased [Adafruit's Ultimate GPS][41] which uses the [MediaTek MTK3339 chipset][42].
 This is a high-quality GPS module that can track up to 22 satellites concurrently,
@@ -1694,14 +1833,14 @@ and the newly launched (started in 2005) L2 GPS band.
 
 For information about NMEA sentence that cover antenna status - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ultimate-gps.pdf
 
-### Step 1: GPS Module Pinouts - DONE
+#### Step 1: GPS Module Pinouts - DONE
 [Adafruit's tutorial][45] provides an excellent description of the GPS module pins
 and how to connect the console cable and external antenna
 can be found in the tutorial "[Adafruit Ultimate GPS on the Raspberry Pi][47]".
 
 [!gps-module-pinout](https://cdn-learn.adafruit.com/assets/assets/000/003/713/medium640/raspberry_pi_UltimateGPS_bb.png?1396801027)
 
-### Step 2: Setup Console Cable - DONE
+#### Step 2: Setup Console Cable - DONE
 Once you plug the console cable into the RPi,
 the adapter should show up as a device file `/dev/ttyUSBX`
 (where the 'X' will be '0', '1', '2', etc. depending on what other `ttyUSB` adapters are present.
@@ -1760,7 +1899,7 @@ The module will automatically detect an external active antenna is attached and 
 >The are not engineered for for repeated connections/disconnections.
 >Once you attach a uFL adapter, it is best to just let remain on the module.
 
-### Step 3: Installing the GPS Daemon (gpsd) - DONE
+#### Step 3: Installing the GPS Daemon (gpsd) - DONE
 The Raspberry Pi is successfully receiving the serial data that the GPS module provides
 but its very cryptic.
 There is a daemon that properly parsing the raw GPS data called `gpsd`.
@@ -1770,20 +1909,20 @@ parsing errors, and providing a more readable, well-defined interfaces to any GP
 At this point,
 you can use the same procedure (Steps 4 onward) used for the OzzMaker BerryGPS device.
 
-### Step X: Changing Baud Rate of GPS Module
+#### Step X: Changing Baud Rate of GPS Module
 * [How to change the baud rate and update rate of MTK GPS module](https://hobbyking.com/media/file/201626144X19082X53.pdf)
 * [MediaTek MTK33X9 GPS Chipset Command Generator](https://forum.micropython.org/viewtopic.php?t=726)
 * [MTK NMEA PROPRIETARY COMMAND](https://www.pitlab.com/autopitlot/doc/MTK_commands.pdf)
 * [PMTK command packet](http://www.pvelectronics.co.uk/PA6B/PA6B_commands.pdf)
 
-### Step X: Battery Backup
+#### Step X: Battery Backup
 * https://learn.adafruit.com/adafruit-ultimate-gps/battery-backup
 * [How to trade-off location accuracy against battery life in cellular IoT asset trackers](https://blog.nordicsemi.com/getconnected/how-to-trade-off-location-accuracy-against-battery-life-in-cellular-iot-asset-trackers)
 
-### Step X: Built In Logging
+#### Step X: Built In Logging
 * https://learn.adafruit.com/adafruit-ultimate-gps/built-in-logging
 
-### Step X: Using Raspberry Pi UART Instead of USB
+#### Step X: Using Raspberry Pi UART Instead of USB
 * https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all#using-uart-instead-of-usb
 
 
@@ -1948,10 +2087,41 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 [71]:https://gisgeography.com/horizontal-datum/
 [72]:https://gisgeography.com/vertical-datum/
 [73]:https://www.rtcm.org/
-[74]:
-[75]:
+[74]:https://phoenixnap.com/kb/nc-command
+[75]:https://man7.org/linux/man-pages/man1/ncat.1.html
 [76]:https://en.wikipedia.org/wiki/Organizationally_unique_identifier
 [77]:http://standards.ieee.org/develop/regauth/oui/public.html
 [78]:https://standards.ieee.org/products-services/regauth/oui/index.html
 [79]:https://coderseye.com/how-to-clear-arp-cache-on-linux-or-unix/
+[80]:https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats#GPGGA
+[81]:https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats#GPGLL
+[82]:https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats#GPVTG
+[83]:https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats#GPRMC
+[84]:https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats#GPGSA
+[85]:https://www.redhat.com/architect/architects-guide-gps-and-gps-data-formats#GPGSV
+[86]:https://en.wikipedia.org/wiki/Echo_sounding
+[87]:https://en.wikipedia.org/wiki/Sonar
+[88]:https://en.wikipedia.org/wiki/Anemometer
+[89]:https://en.wikipedia.org/wiki/Gyrocompass
+[90]:https://en.wikipedia.org/wiki/Autopilot
+[91]:https://www.isro.gov.in/irnss-programme
+[92]:https://qzss.go.jp/en/
+[93]:http://lcdproc.omnipotent.net/
+[94]:https://www.mankier.com/1/xgps
+[95]:https://manpages.debian.org/testing/gpsd-clients/gegps.1.en.html
+[96]:https://gpsd.gitlab.io/gpsd/gpscat.html
+[97]:https://manpages.ubuntu.com/manpages/lunar/en/man1/gpspipe.1.html
+[98]:https://manpages.ubuntu.com/manpages/jammy/man1/gpxlogger.1.html
+[99]:https://gpsd.gitlab.io/gpsd/troubleshooting.html
+[100]:https://man.archlinux.org/man/gpsfake.1.en
+[101]:https://systemd.io/
+[102]:https://learn.adafruit.com/adafruit-ultimate-gps-hat-for-raspberry-pi/use-gpsd
+[103]:https://www.satsignal.eu/raspberry-pi/UpdatingGPSD.html#64
+[104]:https://forums.raspberrypi.com/viewtopic.php?t=138711
+[105]:
+[106]:
+[107]:
+[108]:
+[109]:
+[110]:
 
