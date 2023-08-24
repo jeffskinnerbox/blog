@@ -430,7 +430,8 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 * [The Grammar of Mathematics](https://www.cantorsparadise.com/the-grammar-of-mathematics-7c8bb957ea86)
 
 # Category Theory
-"Mathmatics is the art of giving the same name to different things." ... Henir Poincare
+"Mathematics is the art of giving the same name to different things." ... Henir Poincare
+Category Theory is the abstraction of composition.
 
 * [The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra](https://www.youtube.com/watch?v=FQYOpD7tv30)
 * [A Sensible Introduction to Category Theory](https://www.youtube.com/watch?v=yAi3XWCBkDo)
