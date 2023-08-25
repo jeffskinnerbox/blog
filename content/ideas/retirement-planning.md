@@ -206,6 +206,7 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 * [Retirement Savings: Experts Say This Magic Number Is the Key — and It’s Not $1 Million](https://www.gobankingrates.com/retirement/planning/retirement-savings-experts-magic-number-key/)
 * [Retirement Savings: Here’s How Much Cash Baby Boomers Need To Retire in the Next 5 Years](https://www.gobankingrates.com/retirement/planning/retirement-savings-heres-how-much-cash-baby-boomers-need-to-retire-in-the-next-5-years/?utm_term=related_link_3&utm_campaign=1233705&utm_source=aol.com&utm_content=6&utm_medium=rss)
 
+* [How Much Is Enough?](https://agefriendly.org/articles/how-much-is-enough)
 * [Do You Have Enough for Retirement?](https://www.schwab.com/learn/story/do-you-have-enough-retirement)
 * [Do You Have Enough for Retirement?](https://www.schwab.com/resource-center/insights/content/will-you-have-enough-retirement)
 * [The 4% Rule: How Much Money Do You Need to Never Work Again?](https://moneythesimpleway.com/how-much-money-to-never-work-again/)
