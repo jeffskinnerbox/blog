@@ -18,6 +18,7 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 
 
+* [My 8 Favorite Home Assistant Integrations](https://hometechhacker.com/my-8-favorite-home-assistant-integrations/)
 * [9 Hurdles of Home Assistant I Had to Overcome](https://www.youtube.com/watch?v=3nwr7tasnLE)
 * [Migrate Your Home Assistant Server From microSD Card to SSD](https://www.makeuseof.com/home-assistant-migrate-from-sd-card-to-ssd/)
 * [Find Missing Entities in Home Assistant](https://www.mostlychris.com/find-missing-entities-in-home-assistant/?ref=mostlychris-newsletter)
