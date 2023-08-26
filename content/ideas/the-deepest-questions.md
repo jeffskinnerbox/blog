@@ -652,7 +652,10 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 * [Vectors and Covectors](https://joseph-mellor1999.medium.com/vectors-and-covectors-81b64ff6e38b)
 * [An Intro to Differential Forms](https://joseph-mellor1999.medium.com/an-intro-to-differential-forms-b3ec00d43d31)
 
-# Quantum Physics
+# Quantum Physics and Our View of the Material World
+* [We are not empty](https://aeon.co/essays/why-the-empty-atom-picture-misunderstands-quantum-theory)
+* [Calculate but don’t shut up](https://aeon.co/essays/shut-up-and-calculate-does-a-disservice-to-quantum-mechanics)
+* [Minding matter](https://aeon.co/essays/materialism-alone-cannot-explain-the-riddle-of-consciousness)
 * [The math of how atomic nuclei stay together is surprisingly beautiful](https://www.youtube.com/watch?v=FL3ImtGcHqQ)
 
 # Quantum Computing
