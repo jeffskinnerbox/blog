@@ -74,6 +74,10 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
 * [Working with MR24HPC1](https://www.hackster.io/mithun-das/working-with-mr24hpc1-281d88)
 
+### CM324 Microwave Module
+* [Doppler Speed Sensor Puts FFT and AGC to Work](https://hackaday.com/2023/08/24/doppler-speed-sensor-puts-fft-and-agc-to-work/)
+* [Making the Electronics for a 24GHz Doppler Sensor](https://www.limpkin.fr/index.php?post/2017/02/22/Making-the-Electronics-for-a-24GHz-Doppler-Motion-Sensor)
+
 ## 122GHz Radar
 * [Machining Waveguides For 122 GHz Operation Is Delicate Work](https://hackaday.com/2022/02/12/machining-waveguides-for-122-ghz-operation-is-delicate-work/)
 
