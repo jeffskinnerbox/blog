@@ -389,6 +389,7 @@ With free software that can be downloaded on the Raspberry Pi, you can obtain pi
 * [Raspberry Shake - The Personal Seismograph](http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/12810/Raspberry-Shake--The-Personal-Seismograph.aspx)
 * [Raspberry Shake - Home Earthquake Monitor (RS1D)](https://www.sparkfun.com/products/14835)
 * [BUILD A SEISMOGRAPH WITH RASPBERRY SHAKE](https://www.blogdot.tv/build-a-seismograph-with-raspberry-shake/)
+* [Raspberry Shake HAT brings earthquake monitoring to the Raspberry Pi SBC](https://www.cnx-software.com/2023/08/25/raspberry-shake-hat-brings-earthquake-monitoring-to-the-raspberry-pi-sbc/)
 * [Raspberry Pi-powered boom sensor: Detect earthquakes, H-bombs, SpaceX launches](http://www.zdnet.com/article/raspberry-pi-powered-boom-sensor-detect-earthquakes-h-bombs-spacex-launches/)
 * [Watch Earthquake Roll Across A Continent In Seismograph Visualization Video](https://hackaday.com/2019/07/22/watch-earthquake-roll-across-a-continent-in-seismograph-visualization-video/)
 * [Simple Seismic Sensor Makes Earthquake Detection Personal](https://hackaday.com/2019/10/28/simple-seismic-sensor-makes-earthquake-detection-personal/)
