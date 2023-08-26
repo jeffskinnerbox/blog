@@ -627,6 +627,9 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 ## Second Law of Quantum Complexity
 * [Can a New Law of Physics Explain a Black Hole Paradox?](https://www.youtube.com/watch?v=yLOHdW7dLug)
 
+## Hilbet Space
+* [What's a Hilbert space? A visual introduction *updated audio*](https://www.youtube.com/watch?v=fkQ_W6J19W8)
+
 ## Additivity of Probability and Quantum Mechanics
 * [When 1+1≠2: How Quantum Physics Broke the Laws of Statistics](https://towardsdatascience.com/how-quantum-physics-broke-the-laws-of-statistics-86fb8941ed2c)
 * [σ-additivity of Probability and Quantum Mechanics](https://physics.stackexchange.com/questions/139202/sigma-additivity-of-probability-and-quantum-mechanics)
