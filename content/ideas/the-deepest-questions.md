@@ -872,10 +872,13 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 # Bayes Search Theory
 * [Bayes Theorem and some of the mysteries it has solved](https://www.youtube.com/watch?v=82q3uYw6MuY)
 
-The Frequentist View of Probability:
+**Propensity View of Probability:**
+The propensity theory of probability is a probability interpretation in which the probability is thought of as a physical propensity, disposition, or tendency of a given type of situation to yield an outcome of a certain kind, or to yield a long-run relative frequency of such an outcome.
+
+**The Frequentist View of Probability:**
 Fundamentally, frequentists define probability as long-run frequency — that’s kind of why they’re referred to as frequentists. Anyway, this approach to probability requires things to be repeatable so you can observe them over and over again. For example, if you flip a fair coin a large number of times you can track the outcomes on each flip. If you had the patience to do this a large number of times, you’d see the probability of each outcome tend toward 50%. In this way, frequentist probability is considered objective.
 
-The Bayesian View of Probability:
+**The Bayesian View of Probability:**
 A major advantage of Bayesian statistics is that it provides statistics that mean what you want them to mean. And the reason why is that it’s perfectly reasonable to assign probabilities to those things that frequentists consider fixed. So, whether that’s a population parameter, rate, or hypothesis, Bayesians view these entities as probabilistic. There are no strictures around repeatability and you can assign a probability to anything you want. Moreover, you can actually compute those probabilities.
 
 This may seem like a completely wild idea. Loose, even. But so long as you’re rational with how you assign a probability — and the laws of probability are obeyed — you can go nuts and assign a probability to any event you wish. At its core, Bayesian probability is about belief revision, and unlike the more objective frequentist approach, is based upon our subjective degree of belief about the truth of an outcome. This may feel somewhat arbitrary, and indeed this approach can make some quite uncomfortable with using Bayesian statistics; however, the revision of beliefs is anything but arbitrary.
