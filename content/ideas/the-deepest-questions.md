@@ -335,6 +335,9 @@ An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - 
 * [The Journey to Define Dimension](https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/)
 * [Newton's Fractal (which Newton knew nothing about)](https://www.youtube.com/watch?v=-RdOwhmqP5s)
 
+# Prime Numbers
+* [Lehmer Factor Stencils: A paper factoring machine before computers](https://www.youtube.com/watch?v=QzohwKT6TNA)
+
 # Euler’s Number
 * [What's so special about Euler's number e?](https://www.youtube.com/watch?v=m2MIpDrF7Es)
 * [All the Ways of Defining e | Is Euler's Number Geometric? -- Part 1](https://www.youtube.com/watch?v=rbmUqseGOOM)
