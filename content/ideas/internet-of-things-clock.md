@@ -49,6 +49,9 @@ Version:      0.0.0
 
 * [Watch Time Slide By With This Electromechanical Clock](https://hackaday.com/2023/02/27/watch-time-slide-by-with-this-electromechanical-clock/)
 
+# Why a 12-Hour Clock?
+* [Why Do We Really Use The 12-Hour Clock?](https://streetscience.net/why-do-we-really-use-the-12-hour-clock/)
+
 # Vector Clock
 * [How does your computer know what time it is and why will it break your distributed systems?](https://distributed-computing-musings.com/2023/03/how-does-your-computer-know-what-time-it-is-and-why-will-it-break-your-distributed-systems/)
 * [Lamport Logical Clock: One after the another. But not together](https://distributed-computing-musings.com/2023/04/lamport-clock-one-after-the-another-but-not-together/)
