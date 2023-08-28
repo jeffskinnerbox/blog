@@ -117,6 +117,8 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 * [Leaked Internal Google Document Claims Open Source AI Will Outcompete Google and OpenAI](https://www.semianalysis.com/p/google-we-have-no-moat-and-neither)
 * [How open-source LLMs are challenging OpenAI, Google, and Microsoft](https://bdtechtalks.com/2023/05/08/open-source-llms-moats/)
 
+* [A look at open-source alternatives to ChatGPT](https://bdtechtalks.com/2023/04/17/open-source-chatgpt-alternatives/)
+
 
 ------
 
