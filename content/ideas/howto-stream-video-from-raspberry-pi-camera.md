@@ -680,6 +680,8 @@ Like WebSockets, RTMP creates persistent connections between a server and a clie
 * [A quick guide to using FFmpeg to convert media files](https://opensource.com/article/17/6/ffmpeg-convert-media-file-formats?sc_cid=70160000000gz65AAA)
 * [ffmpeg documentation](https://www.ffmpeg.org/documentation.html)
 
+* [Explore FFmpeg From The Comfort Of Your Browser](https://hackaday.com/2023/08/27/explore-ffmpeg-from-the-comfort-of-your-browser/)
+
 ## Streaming RTMP with crtmpserver and ffmpeg
 `crtmpserver` is a high performance streaming platform
 
