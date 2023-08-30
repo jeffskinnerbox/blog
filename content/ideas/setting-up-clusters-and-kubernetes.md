@@ -1,4 +1,4 @@
-<!--
+!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
@@ -31,6 +31,8 @@ Version:      0.0.0
 
 
 
+
+* [7 Raspberry Pi Cluster Projects You Should Try](https://www.makeuseof.com/raspberry-pi-cluster-projects-you-should-try/)
 
 * [My Custom (Automated) LiM Kubernetes Cluster](https://rpi.loonix.ca/lim-cluster-set-up/)
 
