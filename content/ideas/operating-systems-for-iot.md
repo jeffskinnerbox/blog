@@ -17,6 +17,7 @@ Version:      0.0.0
 There has been some recent announcements about operating systems specifically designed for IoT.
 Most notably
 
+* [10 IoT Operating Systems You Should Know About in 2023](https://www.analyticsinsight.net/10-iot-operating-systems-you-should-know-about-in-2023/)
 * [9 Open Source Operating Systems for the Internet of Things](http://www.datamation.com/mobile-wireless/slideshows/9-open-source-operating-systems-for-the-internet-of-things.html)
 * [Open Source Operating Systems for IoT](https://www.linux.com/news/open-source-operating-systems-iot)
 
