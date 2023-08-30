@@ -16,6 +16,7 @@ Version:      0.0.0
 
 * [Build your own Raspberry Pi weather station with weather forecast and ESP32 wireless sensors](https://www.haraldkreuzer.net/en/news/build-your-own-raspberry-pi-weather-station-weather-forecast-and-esp32-wireless-sensors)
 * [Forget Dark Sky — Build Your Own DIY Weather App](https://onezero.medium.com/forget-dark-sky-build-your-own-diy-weather-app-126809c2091c)
+* [Long Range weather station](https://hackaday.io/project/191652-long-range-weather-station)
 
 I have been considered purchasing or building my own home weather station for my backyard.
 I would make it part of my larger plan to instrument my home for automation and monitoring.
