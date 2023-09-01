@@ -114,6 +114,7 @@ Also can inport NMEA files for displaying.
 
 
 * [GPS Basics](https://learn.sparkfun.com/tutorials/gps-basics)
+* [How GPS Works, And How It Got Better Than The Designers Ever Imagined](https://www.youtube.com/watch?v=qJ7ZAUjsycY)
 * [GPS Tracking Comparisons](https://www.sparkfun.com/tutorials/169)
 * [Building a GPS System](https://www.sparkfun.com/gps)
 * [Building A GPS With Bug Eyes And Ancient Wisdom](https://hackaday.com/2019/09/06/building-a-gps-with-bug-eyes-and-ancient-wisdom/)
