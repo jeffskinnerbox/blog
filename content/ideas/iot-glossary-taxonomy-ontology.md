@@ -1273,6 +1273,11 @@ NGMN Alliance or Next Generation Mobile Networks Alliance define 5G network requ
 * https://www.webpronews.com/5g-affirmed/
 * https://www.rcrwireless.com/20161026/qualcomm_5g/qualcomm_5g_use_cases/5g-new-radio-nr-will-create-a-unified-air-interface
 
+### DECT-2020 NR / DECT NR+
+While 4G provided a platform for cellular IoT, 5G is the first radio standard defined with truly massive IoT in mind. DECT New Radio (NR)+ (originally called ‘DECT-2020 NR’) is the world’s first non-cellular wireless technology to become a full 5G standard (under ITU’s 2020 International Mobile Telecoms 5G document).
+
+* [Massive IoT – doing 10 times more with 10 times less](https://www.rcrwireless.com/20230829/internet-of-things/massive-iot-doing-10-times-more-with-10-times-less-reader-forum)
+
 ## Category 0 LTE (LTE Cat-0)
 M2M had been talked about as a possible application for LTE,
 but there was a major issue with the complexity of the system.
