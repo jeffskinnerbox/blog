@@ -61,6 +61,11 @@ well—to give it what we might think of as “computational superpowers”.
 # Private ChatGPT
 * [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
 
+# simpleaichat
+Python package for easily interfacing with chat apps like ChatGPT and GPT-4 with robust features and minimal code complexity.
+
+* [A Hacker-Friendly Software Package For Your Next AI Project](https://hackaday.com/2023/08/31/a-hacker-friendly-software-package-for-your-next-ai-project/)
+
 # Magic Storybook with ChatGPT
 This guide will show you how to create your own never-ending story book using a Raspberry Pi,
 a touch screen display, and ChatGPT.
