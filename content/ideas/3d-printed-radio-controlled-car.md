@@ -49,7 +49,9 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
     * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
     * [Tarmo5 Build, First Run and Initial Impressions](https://www.youtube.com/watch?v=heEsQMkIaAc)
-    * Based on the Tarmo5: [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
+* Based on the Tarmo5 - But Maybe Better!
+    * [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
+    * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
 
 * [Tarmo4 | 3D Printed RC Car](https://www.youtube.com/watch?v=MKqQPTEXJpI)
 
@@ -387,6 +389,8 @@ The Hobbypower 60A SL V2 ESC is programmable with [HobbyWing LED Program Card][1
 * [Glue Your R/C Tires Like a Pro](https://www.youtube.com/watch?v=6pTghcWoNUo)
 * [Adam Drake explains how to clean and glue Pro-Line tires](https://www.youtube.com/watch?v=AseHzskElek)
 * [HOW TO BREAK IN TIRES || Tire prep methods explained](https://www.youtube.com/watch?v=BqxmfrW2KDM)
+
+* [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
 
 # RC Suspension Tuning
 * [RC Suspension Tuning Guide](http://www.competitionx.com/rc-tuning-guide/)
