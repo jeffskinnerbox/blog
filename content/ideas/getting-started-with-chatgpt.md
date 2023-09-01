@@ -61,6 +61,9 @@ well—to give it what we might think of as “computational superpowers”.
 # Private ChatGPT
 * [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
 
+# Shell-AI: Your Intelligent Command-Line Companion
+* [AI Assistant Translates Your Every Request For The Command Line](https://hackaday.com/2023/08/30/ai-assistant-translates-your-every-request-for-the-command-line/)
+
 # simpleaichat
 Python package for easily interfacing with chat apps like ChatGPT and GPT-4 with robust features and minimal code complexity.
 
