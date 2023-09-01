@@ -31,8 +31,12 @@ It was patented 2 years later and the patent expired in 1987.
 * https://m8051.blogspot.com/2011/09/bread-board-tips-and-tricks-beginner-to.html
 * https://www.robotroom.com/Breadboard-Hints-And-Tips.html
 
+* [Retro Gadgets: The 1974 Breadboard Project](https://hackaday.com/2023/08/29/retro-gadgets-the-1974-breadboard-project/)
 * [Ben Eater’s Breadboarding Tips](https://hackaday.com/2021/01/05/ben-eaters-breadboarding-tips/)
 * [Techniques and Strategies for Building Electronic Circuits](https://www.youtube.com/watch?v=vq968AFgPhg)
+
+# Breadboard Parasitics Capacitance
+* [Solderless Breadboard Parasitics](https://hackaday.com/2016/01/19/solderless-breadboard-parasitics/)
 
 # LEDs
 * [LEDs for use with solderless breadboard](https://skippy.org.uk/leds-for-use-with-solderless-breadboard/)
