@@ -743,6 +743,11 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Pixel: a biography](https://aeon.co/essays/a-biography-of-the-pixel-the-elementary-particle-of-pictures)
 * [Why Pure Information Gives Off Heat](https://www.youtube.com/watch?v=XY-mbr-aAZE)
 
+* [Episode 1: Gambling with Secrets (Cryptography)](https://www.youtube.com/playlist?list=PLB4D701646DAF0817)
+* [Episode 2: Information Theory](https://www.youtube.com/watch?v=69-YUSazuic&list=PLbg3ZX2pWlgKDVFNwn9B63UhYJVIerzHL)
+* [Episode 3: Computer Science](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgI_ej6ZhGd45-cPoWLZD9pT)
+* [The Great Papers: Information Theory](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgJOTf5YXNq-rdXXuUkJTXHm)
+
 # Fractional Calculus and Gamma Function
 * [What Lies Between a Function and Its Derivative? | Fractional Calculus](https://www.youtube.com/watch?v=2dwQUUDt5Is)
 * [What is Fractional Calculus?](https://medium.com/cantors-paradise/fractional-calculus-48192f4e9c9f)
