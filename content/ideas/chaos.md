@@ -36,3 +36,33 @@ Such type of a differential equation is called a ‘jerk’ equation.
 
 # Chaos Theory for Synthesizers
 * [Chaos Theory for Synthesizers](http://ijfritz.byethost4.com/Chaos/ch_over.htm)
+
+# "Period Three Implies Chaos" Theory
+The theorem refers to period in the sense of function iterations,
+**not** in the sense of translation like sin(x) = sin(x + 2*pi).
+It applies to particular points, not to the function as a whole.
+
+In dynamical systems, period refers to getting the same result,
+not when you shift a function, but when you apply it to itself.
+A point x has period n under a function f if applying the function n times gives you x back,
+but applying it any less than n times does not.
+For example:
+
+* the function f(x) = –x has period 2 for non-zero x, and period 1 for x = 0.
+* Period three specifically means f( f( f(x) ) ) = x but x ≠ f(x) and x ≠ f( f(x) ).
+
+Note that this is a property of x, not a property of f per se.
+That is, it is a property of f that one such x exists,
+but it’s not true of all points.
+
+The thorey states that f is a continuous function from some interval I to itself,
+it cannot be the case that all points have period 3.
+If one point has period 3, then some other point must have period 4, 5, etc. too infinity.
+And there are some points that are not periodic,
+but every point in some interval I, non-periodic points are arbitrarily close to a point that is periodic.
+That is, the periodic points are dense in the interval.
+
+* [Why are periodic systems so unpredictable?](https://www.youtube.com/watch?v=NCuiwCM-AQ8)
+* [Period Three Implies Chaos](https://www.its.caltech.edu/~matilde/LiYorke.pdf)
+* [Period three implies chaos](https://www.johndcook.com/blog/2021/04/09/period-three-implies-chaos/)
+
