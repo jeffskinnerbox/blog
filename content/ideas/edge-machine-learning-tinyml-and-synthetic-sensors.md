@@ -14,6 +14,8 @@ Version:      0.0.0
 
 * [Remi El-Ouazzane: ‘A Tsunami of TinyML Devices is Coming’](https://www.eetimes.com/remi-el-ouazzane-a-tsunami-of-tinyml-devices-is-coming/)
 
+* [Getting Started with Docker for Machine Learning](https://pyimagesearch.com/2023/09/04/getting-started-with-docker-for-machine-learning/)
+
 
 * [Unveiling BYOM and the Edge Impulse Python SDK](https://www.edgeimpulse.com/blog/unveiling-the-new-edge-impulse-python-sdk)
 * [TinyML: An Always-On Audio Classifier using Synthetic Data](https://www.hackster.io/shahizat/tinyml-an-always-on-audio-classifier-using-synthetic-data-3e623b)
