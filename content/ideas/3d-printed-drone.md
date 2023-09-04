@@ -80,6 +80,11 @@ Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and 
 * [Carbon Aeronautics](https://www.youtube.com/@carbonaeronautics/videos)
 * [GitHub: Carbon Aeronautics](https://github.com/CarbonAeronautics?tab=repositories)
 
+## Tiny Whoop Micro Drone
+* [Building a Tiny Whoop Micro Drone](https://oscarliang.com/building-tiny-whoop-micro-drone/)
+* [TINY WHOOP TUTORIALS](https://www.tinywhoop.com/pages/tutorials)
+* [How to Build a Tiny Whoop! a Super Fast Micro FPV Quadcopter](https://www.instructables.com/How-to-Build-a-Tiny-Whoop-a-Super-Fast-Micro-Fpv-Q/)
+
 ## Ryze Tech Tello
 * [Ryze Tech Tello](https://www.ryzerobotics.com/tello)
 * [Ryze Tech Tello](https://www.amazon.com/gp/product/B07BDHJJTH/)
