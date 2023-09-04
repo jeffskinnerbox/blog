@@ -19,7 +19,9 @@ Version:      0.0.0
 * [Train Your Machine Learning Models on Google’s GPUs for Free — Forever](https://hackernoon.com/train-your-machine-learning-models-on-googles-gpus-for-free-forever-a41bd309d6ad)
 * [Google Colab Free GPU Tutorial](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)
 * [FloydHub is Heroku for Deep Learning](https://www.floydhub.com/)
+
 * [GPU architecture types explained](https://rastergrid.com/blog/gpu-tech/2021/07/gpu-architecture-types-explained/)
+* [Here’s Why GPU's are Deep Learning’s Best Friend](https://hackaday.com/2023/09/03/heres-why-gpus-are-deep-learnings-best-friend/)
 
 
 
