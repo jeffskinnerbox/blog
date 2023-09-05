@@ -313,6 +313,7 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 * [the five kinds of paradox](https://www.youtube.com/watch?v=ppX7Qjbe6BM)
 
 # Continuum Hypothesis
+* [Cardinality of the Continuum](https://www.youtube.com/watch?v=iaUwNuaSLUk)
 * [Continuum hypothesis](https://en.wikipedia.org/wiki/Continuum_hypothesis)
 * [The Continuum Hypothesis, explained](https://www.cantorsparadise.com/the-continuum-hypothesis-explained-e4dc95ebe669)
 An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - [Cantor's Paradox](https://www.youtube.com/watch?v=WIrdyu9WquQ)
