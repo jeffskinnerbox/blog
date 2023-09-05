@@ -18,6 +18,9 @@ Version:      0.0.0
 * [Vibrosight Hears When You are Sleeping. It Knows When You’re Awake.](https://hackaday.com/2018/10/22/vibrosight-hears-when-you-are-sleeping-it-knows-when-youre-awake/)
 * [Enhancing my ordinary IP security cameras with AI](https://harizanov.com/2018/03/enhancing-my-ordinary-security-cameras-with-ai/)
 
+* [Useful Sensors' Tiny Code Reader Is a Privacy-Centric Low-Cost Scanner for 2D QR Codes](https://www.hackster.io/news/useful-sensors-tiny-code-reader-is-a-privacy-centric-low-cost-scanner-for-2d-qr-codes-104d9229e8c7)
+    * [Tiny Code Reader from Useful Sensors](https://www.adafruit.com/product/5744)
+
 
 
 
