@@ -12,6 +12,13 @@ Version:      0.0.0
 
 -----
 
+
+
+* [SparkFun VR IMU Breakout - BNO086 (Qwiic)](https://www.sparkfun.com/products/22857)
+
+
+
+
 Read this for it good discription of GNSS & NMEA messages
 * [Global Positioning Basics](https://www.youtube.com/watch?v=kUUNY-gWT6U&list=PLxCxJVCmDz7oZ05xk2eG27APw5xmEeZaU)
 * [Global Positioning Basics - 6 NMEA Messaging Protocol](https://www.youtube.com/watch?v=2f96rrnE0FU)
