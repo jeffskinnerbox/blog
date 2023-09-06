@@ -13,11 +13,27 @@ Version:      0.0.0
 
 
 
+Quantum Computing
 * [Quantum Computing for Beginners](https://dev.to/taradev/series/23332)
-    * [A Beginner's Guide to Starting Your Journey in Quantum Computing](https://dev.to/taradev/a-beginners-guide-to-starting-your-journey-in-quantum-computing-300o)
-    * [Open source as a path to learning Quantum Computing](https://dev.to/taradev/open-source-as-a-path-to-learning-quantum-computing-4dkb)
-    * [Universal Quantum Computer](https://www.youtube.com/watch?v=z5-XI__LfT8&t=107s)
-    * [Quantum Computing for Computer Scientists](https://www.youtube.com/watch?v=F_Riqjdh2oM&list=PLD7HFcN7LXRcKEiyRxdTDVRaMZQDhojhb)
+* [A Beginner's Guide to Starting Your Journey in Quantum Computing](https://dev.to/taradev/a-beginners-guide-to-starting-your-journey-in-quantum-computing-300o)
+* [Open source as a path to learning Quantum Computing](https://dev.to/taradev/open-source-as-a-path-to-learning-quantum-computing-4dkb)
+* [Universal Quantum Computer](https://www.youtube.com/watch?v=z5-XI__LfT8&t=107s)
+* [Quantum Computing for Computer Scientists](https://www.youtube.com/watch?v=F_Riqjdh2oM&list=PLD7HFcN7LXRcKEiyRxdTDVRaMZQDhojhb)
+* [Quantum Computing](https://www.youtube.com/playlist?list=PLxP0p--aBHmIe--9rczWe4AZmw03e2bz0)
+
+
+How Does a Quantum Computer Work?
+* [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
+* [Quantum Computers: How They Work and What Can They Do?](https://www.youtube.com/watch?v=6eJVVCO6GRM)
+* [You don't know how Quantum Computers work!](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
+* [Bits, Gates, and Matrices | Quantum Computing Part 1](https://www.youtube.com/watch?v=5z-Fesb7b40)
+* [Quantum Computing](https://www.youtube.com/playlist?list=PLV4qsET9ZdOR-pf6ZMJZx2auIZScXhCaW)
+* [How does a COMPUTER CPU actually WORK?](https://www.youtube.com/watch?v=EsDyGfh8bnM)
+* [The Insane Mechanism of a Quantum Computer?](https://www.youtube.com/watch?v=RCj_BJ6BddM)
+* [Single qubit and its logic gates](https://www.youtube.com/watch?v=rD_fH7O-D5Y)
+* [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
+* [The Mathematics of Quantum Computers](https://www.youtube.com/watch?v=IrbJYsep45E)
+* [Building the Bits and Qubits](https://www.youtube.com/watch?v=F8U1d2Hqark)
 
 
 
