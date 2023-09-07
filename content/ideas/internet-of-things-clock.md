@@ -71,6 +71,9 @@ Version:      0.0.0
 # Grandfather Clock
 * [3D Printed Post Modern Grandfather Clock](https://hackaday.com/2023/04/04/3d-printed-post-modern-grandfather-clock/)
 
+# Clock Escape Mechanisms
+* [How I Designed A 3D Printed Clock that ACTUALLY WORKS](https://www.youtube.com/watch?v=yfNFbE0ahi0)
+
 # LED Filament Clock
 * [A Custom Clock With LED Filament Hands](https://hackaday.com/2021/06/25/a-custom-clock-with-led-filament-hands/)
 * ["Charlotte's Web" Style LED Filament Clock](https://www.instructables.com/id/Charlottes-Web-Style-LED-Filament-Clock/)
