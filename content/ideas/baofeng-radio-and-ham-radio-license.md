@@ -351,9 +351,11 @@ See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.co
 * [Directional Antenna 3-Way](https://hackaday.com/2022/01/21/directional-antenna-3-way/)
 * [A Receive Antenna Switcher With An Espressif Brain](https://hackaday.com/2022/05/21/a-receive-antenna-switcher-with-an-espressif-brain/)
 
+## Tape Measure Antenna
 * [Wind-Up Tape Measure Transformed into Portable Ham Antenna](https://hackaday.com/2022/03/30/wind-up-tape-measure-transformed-into-portable-ham-antenna/)
 * [Just How Good Is A Tape Measure Antenna Anyway?](https://hackaday.com/2022/08/14/just-how-good-is-a-tape-measure-antenna-anyway/)
 * [Antenna Hidden In Holiday Lights Skirts HOA Rules](https://hackaday.com/2023/02/27/antenna-hidden-in-holiday-lights-skirts-hoa-rules/)
+* [It’s Numbers All The Way Down With This Tape Measure Number Station Antenna](https://hackaday.com/2023/09/06/its-numbers-all-the-way-down-with-this-tape-measure-number-station-antenna/)
 
 ## Antenna Loss
 Want to know if all your energy is flowing to your antenna?
