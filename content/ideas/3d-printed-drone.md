@@ -201,6 +201,8 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [The world’s smallest autonomous racing drone](https://robohub.org/the-worlds-smallest-autonomous-racing-drone/)
 * [Paparazzi UAV](http://wiki.paparazziuav.org/wiki/Main_Page)
 * [ArduPilot](https://ardupilot.org/index.php)
+* [Building a Self-Driving Go Kart](https://www.youtube.com/watch?v=PYFKGDfunfY)
+    * [Tesla go-kart upgraded with self-driving autopilot](https://www.geeky-gadgets.com/self-driving-autopilot-go-cart/)
 
 ## PX4 Open Source Autopilot
 * [PX4 Open Source Autopilot](https://px4.io/)
