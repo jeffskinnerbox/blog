@@ -309,6 +309,7 @@ such as their image but also via motion, heat, sound, or RF exhaust then may mak
     * [This New Sensor Is A GAME CHANGER For Your Smart Home!](https://www.youtube.com/watch?v=Leru0rCS8b0)
     * [4 EASY Presence Detection Setups in Home Assistant](https://www.youtube.com/watch?v=Lu0hunynWJY)
     * [mmWave Radar - Human Presence Detection (9m)](https://www.dfrobot.com/product-2282.html)
+    * [mmWave Human Detection Sensor](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
     * [I'm Making My Own Smart Home Motion Sensor!?](https://www.youtube.com/watch?v=boWsjJlgzag)
 
 * [The BEST Smart Home Room Presence Detection I've Tried!](https://www.youtube.com/watch?v=p7C2QvmsM8M)
