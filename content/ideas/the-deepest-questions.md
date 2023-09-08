@@ -567,6 +567,7 @@ A function is a relation that uniquely associates members of one set with member
 
 * [Taken’s Embedding Theorem for Non-Mathematicians](https://medium.com/@thomas_lagrange/takens-embedding-theorem-for-non-mathematicians-d0022773fb7b)
 * [Why Can’t I Predict Bitcoin? Takens’ Theorem Illustrated using Neural Network Forecasting](https://medium.com/@thomas_lagrange/why-cant-i-predict-bitcoin-takens-theorem-illustrated-using-neural-network-forecasting-5e3d3ed72997)
+* [Chaos theory and geometry: can they predict our world?](https://www.youtube.com/watch?v=RkiEV47KPX4)
 
 # The Hidden Structure of the Universe
 * [The Standard Model: The Most Successful Scientific Theory Ever](https://www.youtube.com/watch?v=Unl1jXFnzgo&t=5s)

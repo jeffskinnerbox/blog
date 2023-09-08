@@ -24,6 +24,11 @@ _Chaos: When the present determines the future, but, the approximate present doe
 
 * [Analog Lorenz Attractor Computer](https://hackaday.io/project/191142-analog-lorenz-attractor-computer)
 
+# 1st Example of Chaos
+* Edward Lorenz and the butterfly effect - He first observed the phenomenon as early as 1961
+* Henri Poincaré - In his research on the three-body problem, Poincaré became the first person to discover a chaotic deterministic system.
+* Gravitation - See Simon Tardivel 4 body animation of gravitation at the 54:26 time mark - [Chaos theory and geometry: can they predict our world?](https://www.youtube.com/watch?v=RkiEV47KPX4)
+
 # Jerk Circuit
 Jerk circuit are discribed by equation involves the third derivative of x (time derivative of acceleration).
 Such type of a differential equation is called a ‘jerk’ equation.
