@@ -1030,6 +1030,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 
 # Turing Machine
 * [Turing machines explained visually](https://www.youtube.com/watch?v=-ZS_zFg4w5k)
+* [Alan Turing and the Power of Negative Thinking](https://www.quantamagazine.org/alan-turing-and-the-power-of-negative-thinking-20230905/)
 
 
 
