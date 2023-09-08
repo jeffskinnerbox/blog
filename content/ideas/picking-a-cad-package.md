@@ -13,6 +13,11 @@ Version:      0.0.0
 
 
 
+* [CircutHub](https://circuithub.com/)
+* [ScreamingCircuits](https://www.screamingcircuits.com/)
+
+
+
 
 # Made To Spec: The Coming Age Of Prototyping As A Service
 * [Made To Spec: The Coming Age Of Prototyping As A Service](https://hackaday.com/2021/12/08/made-to-spec-the-coming-age-of-prototyping-as-a-service/)
