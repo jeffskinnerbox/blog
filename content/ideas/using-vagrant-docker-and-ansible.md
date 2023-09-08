@@ -24,6 +24,7 @@ Ansible Semaphore is a web interface for running ansible playbooks.
 you do not need to change your playbooks to start using it.
 ansible semaphore designed for devops, has access controls to assure secure deployment and configuration.
 
+* [This web UI for Ansible is so damn useful!](https://www.youtube.com/watch?v=NyOSoLn5T5U&t=180s)
 * [ansible semaphore](https://www.ansible-semaphore.com/)
 * [using ansible semaphore instead of ansible tower](https://medium.com/@farzadhabibii98/using-ansible-semaphore-instead-of-ansible-tower-e9d997b82041)
 * [how to put a gui on ansible, using semaphore](https://thenewstack.io/how-to-put-a-gui-on-ansible-using-semaphore/)
