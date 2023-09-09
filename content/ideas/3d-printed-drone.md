@@ -73,6 +73,7 @@ Version:      0.0.0
 
 
 # DIY Drones
+* [Brushed Micro Quad Parts List](https://oscarliang.com/brushed-micro-quad-parts-list/)
 * [How to Build a Drone](https://dronenodes.com/how-to-build-a-drone/)
 * [How to Build a Drone | A DIY Guide](https://dojofordrones.com/build-a-drone/)
 * [How to design Complete Drone Overview](https://grabcad.com/tutorials/how-to-design-complete-drone-overview)
