@@ -73,8 +73,11 @@ Version:      0.0.0
 
 
 # DIY Drones
+* [How to Build a Drone](https://dronenodes.com/how-to-build-a-drone/)
+* [How to Build a Drone | A DIY Guide](https://dojofordrones.com/build-a-drone/)
 * [How to design Complete Drone Overview](https://grabcad.com/tutorials/how-to-design-complete-drone-overview)
 * [The Top 6 Frames to 3D Print for Your DIY Drone](https://www.makeuseof.com/top-frames-to-3d-print-for-diy-drone/)
+* [DIY drone: Learn How to Build Your Own Quadcopter Drone](https://interestingengineering.com/innovation/diy-drone-learn-how-to-build-your-own-quadcopter-drone)
 
 Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and drone enthusiasts.
 * [Carbon Aeronautics](https://www.youtube.com/@carbonaeronautics/videos)
@@ -84,6 +87,11 @@ Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and 
 * [Building a Tiny Whoop Micro Drone](https://oscarliang.com/building-tiny-whoop-micro-drone/)
 * [TINY WHOOP TUTORIALS](https://www.tinywhoop.com/pages/tutorials)
 * [How to Build a Tiny Whoop! a Super Fast Micro FPV Quadcopter](https://www.instructables.com/How-to-Build-a-Tiny-Whoop-a-Super-Fast-Micro-Fpv-Q/)
+* [Whoopee – Inductrix “Tiny Whoop” Frame for 8.5mm Motors](https://oscarliang.com/whoopee-micro-frame/)
+* [Whoopee - Tiny Whoop alike frame for 8.5mm Motors](https://www.thingiverse.com/thing:1700311)
+
+## Combat Quadcopter (Battle Mode)
+* [Battle Drones](https://www.amazon.com/s?k=battle+drones&crid=3ELYIU54LX2MJ&sprefix=battle+drone%2Caps%2C151&ref=nb_sb_ss_ts-doa-p_1_12)
 
 ## Ryze Tech Tello
 * [Ryze Tech Tello](https://www.ryzerobotics.com/tello)
