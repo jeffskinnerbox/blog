@@ -296,6 +296,8 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 
 * [NTP Server Gets Time From Space](https://hackaday.com/2022/01/20/ntp-server-gets-time-from-space/)
     * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+        * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
+        * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
     * [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
     * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
     * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
