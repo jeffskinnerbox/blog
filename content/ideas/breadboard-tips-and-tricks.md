@@ -70,6 +70,13 @@ Dupont Wire
 Male and Female Headers Connector
 Break Away Single Row Round Headers Machine Pin Female
 
+# Crimping JST & Dupont Connectors
+* [Dupont Connector Kit](https://www.amazon.com/Dupont-Connector-Kit-Connectors-Plusivo/dp/B078RRPRQZ)
+* [JST-XH Connector Kit](https://www.amazon.com/GeeBat-460pcs-Connector-Housing-Adapter/dp/B01MCZE2HM)
+* [Ratcheting Crimper Tool Kit for Dupont and JST-XH Connectors](https://www.amazon.com/Qibaok-Crimping-Ratcheting-Connectors-0-1-0-5mm%C2%B2/dp/B07ZK5F8HP)
+
+* [How to Crimp JST & Dupont Connectors](https://www.youtube.com/watch?v=A8TIqNG7Yfk)
+
 
 
 
