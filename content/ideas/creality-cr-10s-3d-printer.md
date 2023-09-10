@@ -690,7 +690,6 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [3D Printer AI: UP Squared/Movidius/OctoPrint to Catch Errors](https://www.hackster.io/bltrobotics/3d-printer-ai-up-squared-movidius-octoprint-to-catch-errors-9dfe7b)
 * [PRINTED IT: LOGITECH C270 CONVERSION](https://hackaday.com/2018/09/04/printed-it-logitech-c270-conversion/)
 * [Monitor Your 3D Printer with Node-RED and Tasker](https://hackaday.com/2019/03/27/monitor-your-3d-printer-with-node-red-and-tasker/)
-* [OCTOPRINT TOUCHSCREEN: ALL YOU NEED TO KNOW](https://all3dp.com/2/octoprint-touchscreen-tutorial/)
 
 * [The Spaghetti Detective](https://thespaghettidetective.com)
 * [Finding Plastic Spaghetti with Machine Learning](https://hackaday.com/2019/03/29/finding-plastic-spaghetti-with-machine-learning/)
@@ -725,6 +724,10 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 ## OctoPrint Add-on
 * [How to Create the Best 3D Printing Time-Lapse Videos With Octolapse](https://www.makeuseof.com/how-to-create-3d-printing-time-lapse-videos/)
 * [How to Build a Wireless Printer Monitor for OctoPrint 3D Printers](https://www.makeuseof.com/how-to-build-a-wireless-printer-monitor/)
+
+### OctoDash
+* [OCTOPRINT TOUCHSCREEN: ALL YOU NEED TO KNOW](https://all3dp.com/2/octoprint-touchscreen-tutorial/)
+* [How to Build a Touchscreen Control Panel for a 3D Printer](https://www.makeuseof.com/3d-printer-raspberry-pi-touchscreen-control-panel/)
 
 ## OctoPrint Alternative
 * [Repetier Server: How to Set One Up](https://all3dp.com/2/repetier-server-install-set-up/)
