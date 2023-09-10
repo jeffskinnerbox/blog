@@ -166,7 +166,6 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [Making Autonomous Racing Drones Lean And Mean](https://hackaday.com/2019/05/31/making-autonomous-racing-drones-lean-and-mean/)
 * [Drone Theory 101: Part 1. The basics, and how an fpv quadcopter functions!](https://www.youtube.com/watch?v=K05UwsiqZ_E)
 * [Build Your Own Selfie Drone With Computer Vision](https://hackaday.com/2019/06/30/build-your-own-selfie-drone-with-computer-vision/)
-* [Micro 105 FPV Quadcopter](https://www.thingiverse.com/thing:1221911)
 * [Quadcopter With Tensegrity Shell Takes A Beating And Gets Back Up](https://hackaday.com/2020/11/05/quadcopter-with-tensegrity-shell-takes-a-beating-and-gets-back-up/)
 
 ## Mini-Drone
@@ -185,6 +184,9 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [STORM Racing Drone (SRD6-GPS / NAZA V2)](http://www.helipal.com/storm-racing-drone-gps-rtf-naza-v2.html)
 * [Flies Like A Quadcopter, But This Drone Design Has Only One Propeller](https://hackaday.com/2020/11/02/flies-like-a-quadcopter-but-this-drone-design-has-only-one-propeller/)
 * [How to Build an FPV Drone (under $150)!](https://www.instructables.com/How-to-Build-an-FPV-Drone-under-150/)
+
+* [Micro 105 FPV Quadcopter](https://www.thingiverse.com/thing:1221911)
+* [Micro 105 FPV Quadcopter - 3D Printed](https://www.instructables.com/Micro-105-FPV-Quadcopter-3D-Printed/)
 
 * [Crazyflie 2.1](https://www.seeedstudio.com/crazyflie-V2-1-p-2894.html)
 * [Crazyflie 2.1](https://www.bitcraze.io/products/crazyflie-2-1/)
@@ -235,6 +237,11 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 * [Radio Control Joby Aircraft Uses Six Tiltrotors To Fly](https://hackaday.com/2022/01/29/radio-control-joby-aircraft-uses-six-tiltrotors-to-fly/)
 
 * [Special Lecture: F-22 Flight Controls](https://www.youtube.com/watch?v=n068fel-W9I)
+
+* [Cleanflight](https://cleanflight.com/)
+    * [Cleanflight - open source firmware for flight controllers](https://www.instructables.com/Micro-105-FPV-Quadcopter-3D-Printed/)
+    * [Cleanflight - Configurator](https://chrome.google.com/webstore/detail/cleanflight-configurator/enacoimjcgeinfnnnpajinjgmkahmfgb)
+    * [GitHub: cleanflight/cleanflight](https://github.com/cleanflight/cleanflight)
 
 # Flight Computer
 * [The Difference Between a Drone Flight Controller and Flight Computer](https://www.youtube.com/watch?v=PlKeFj5teo4)
