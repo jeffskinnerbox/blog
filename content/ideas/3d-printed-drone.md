@@ -91,6 +91,8 @@ Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and 
 * [Whoopee – Inductrix “Tiny Whoop” Frame for 8.5mm Motors](https://oscarliang.com/whoopee-micro-frame/)
 * [Whoopee - Tiny Whoop alike frame for 8.5mm Motors](https://www.thingiverse.com/thing:1700311)
 
+* [Micro Quadcopter 3D Prints](https://www.thingiverse.com/thing:1221911/remixes)
+
 ## Combat Quadcopter (Battle Mode)
 * [Battle Drones](https://www.amazon.com/s?k=battle+drones&crid=3ELYIU54LX2MJ&sprefix=battle+drone%2Caps%2C151&ref=nb_sb_ss_ts-doa-p_1_12)
 
