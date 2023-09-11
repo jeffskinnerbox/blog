@@ -87,3 +87,8 @@ The Joule Thief Circuit is a voltage booster circuit which converts a constant l
 
 # Touch Switch
 * [TTP223 Brings Simple Touch Controls To A LED Lamp](https://hackaday.com/2022/10/04/ttp223-brings-simple-touch-controls-to-a-led-lamp/)
+
+# Switch Mode Power Supply
+* [What is a Switch Mode Power Supply?](https://www.jameco.com/Jameco/Blog/what-is-switch-mode-power-supply.html)
+
+
