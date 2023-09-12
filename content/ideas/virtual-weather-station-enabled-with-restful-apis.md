@@ -439,6 +439,7 @@ that can send notifications within minutes of an earthquake.
 * [Pi-Based Spectrometer Puts The Complexity In The Software](https://hackaday.com/2021/04/23/pi-based-spectrometer-puts-the-complexity-in-the-software/)
 * [Spectrometer Detects Chemicals By Zapping Samples With A Laser Beam](https://hackaday.com/2022/02/19/spectrometer-detects-chemicals-by-zapping-samples-with-a-laser-beam/)
 * [Pi-based Spectrometer Gets An Upgrade](https://hackaday.com/2022/10/29/pi-based-spectrometer-gets-an-upgrade/)
+* [Guillermo Perez Guillen's Raspberry Pi Spectrometer Puts the Power of Light at Your Fingertips](https://www.hackster.io/news/guillermo-perez-guillen-s-raspberry-pi-spectrometer-puts-the-power-of-light-at-your-fingertips-33cbbfd35373)
 
 # NOAA Weather Satellite Data
 * [Raspberry Pi NOAA Satellite Receiver: A Comprehensive Guide](https://nnn.ng/faq/34215/)
