@@ -1032,6 +1032,29 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [Turing machines explained visually](https://www.youtube.com/watch?v=-ZS_zFg4w5k)
 * [Alan Turing and the Power of Negative Thinking](https://www.quantamagazine.org/alan-turing-and-the-power-of-negative-thinking-20230905/)
 
+# Study of Complexity / Complex Systems
+Agent-based models are computer simulations used to study the interactions between people, things, places, and time. They are stochastic models built from the bottom up meaning individual agents (often people in epidemiology) are assigned certain attributes.
+The agents are programmed to behave and interact with other agents and the environment in certain ways. These interactions produce emergent effects that may differ from effects of individual agents. Agent-based modeling differs from traditional, regression-based methods in that, like systems dynamics modeling, it allows for the exploration of complex systems that display non-independence of individuals and feedback loops in causal mechanisms. It is not limited to observed data and can be used to model the counterfactual or experiments that may be impossible or unethical to conduct in the real world.
+
+* [Think Complexity](https://greenteapress.com/complexity/thinkcomplexity.pdf)
+* [Complexity: A Guided Tour](https://www.amazon.com/Complexity-Guided-Tour-Melanie-Mitchell/dp/0199798109)
+    * [Complexity a Guided Tour](https://www.youtube.com/watch?v=GYChwJq0310&list=RDLVGYChwJq0310&start_radio=1)
+    * [Introduction To Complexity](https://www.youtube.com/watch?v=Eo5oQ9Psmg8&list=PLF0b3ThojznRyDQlitfUTzXEXwLNNE-mI)
+* [Complexity Explorer](https://www.complexityexplorer.org/)
+    * [Complexity Explorer](https://www.youtube.com/@ComplexityExplorer/featured)
+
+## Computational Complexity Theory
+* [Undergrad Complexity Theory at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
+
+## Agent-Based Modeling (ABM) Tools
+* [Simulation of Complex Systems](https://www.youtube.com/playlist?list=PLXmFpdlLypcDl6AjqgLv76vJq1ihmKe2q)
+* [GAMA Platform](https://gama-platform.org/)
+* [Agents.jl](https://juliadynamics.github.io/Agents.jl/stable/)
+* [MASON]()
+* [NetLogo](https://www.netlogoweb.org/) - one of the places where Logo's turtle went to live
+    * [Agent-based Coding in NetLogo](https://www.youtube.com/playlist?list=PLyAqVr5CJPzsCIyapaXKw8z-UyeQ_ctNa)
+* [Mesa](https://mesa.readthedocs.io/en/stable/)
+
 
 
 
