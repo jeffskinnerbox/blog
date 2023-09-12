@@ -451,12 +451,34 @@ giving you a [pulse coded modulated (PCM)][28] signal
 [I2S or Inter-IC Sound][30] (pronounced "eye-squared-ess"),
 is an electrical serial bus interface standard used for connecting digital audio devices together.
 It is used to communicate PCM audio data between integrated circuits in an electronic device.
-This appraoch resulting in simpler receiver amplifier to convert back to audio, called a [class D amplifier][32].
+This approach resulting in simpler receiver amplifier to convert back to audio, called a [class D amplifier][32].
 No binary words are created to represent the analog signal,
 resulting in no need for [analog to digital conversion (ADC)][29]!
 
 Sources:
 * [ESP32 Audio Input - INMP441 and SPH0645 MEMS I2S Breakout Boards](https://www.youtube.com/watch?v=3g7l5bm7fZ8&list=PL5vDt5AALlRfGVUv2x7riDMIOX34udtKD&index=16)
+
+#### Step X: Breadboard the Class D Amplifier
+I purchased from Amazon the [Degraw DIY Speaker Kit][60].
+This kit contains a [Dual-Channel PAM8403 5 Volt Class D Digital Audio Stereo Amplifier][61] + two [4 Ohm 3 watt Speakers][62].
+This 30×22×16mm module can be powered by three AA batteries, or a USB Cell phone charger, or a rechargeable cell phone charge pack.
+This module and speaker combination will allow me to test the ESP32's [I2S or Inter-IC Sound][30]
+functionality with confidence that I have a working amplifier.
+
+I purchased from Amazon the [Mini MP3 Player Audio Module][63] integrates with decoding module,
+which supports common audio formats such as MP3, WAV, and WMA.
+Besides, it also supports TF card with FAT16, FAT32 file system.
+
+I purchased from Amazon the [Micro SD TF Card Adater Reader Module 6Pin SPI Interface Driver Module][64]
+for reading & writing through the file system and the SPI interface driver.
+This requires 5V VCC power.
+The description of this item makes it seem like it will work with a 3v3 microcontroller, but it won't. The voltage regulator steps down 5v signals to 3v3 before going into the sd card, that's all it means. But if your signals are already at 3v3 going into this adapter, the level shifter/regulator seems to drop it too much to work.
+
+[60]:https://www.amazon.com/dp/B07CRVRG83
+[61]:https://www.amazon.com/HiLetgo-Amplifier-Dual-Channel-Amplifiers-Potentiometer/dp/B01DKAI51M
+[62]:https://www.amazon.com/CQRobot-Speaker-Interface-Electronic-Projects/dp/B0822XCPT8?th=1
+[63]:https://www.amazon.com/gp/product/B07Y2YKYRS?th=1
+[64]:https://www.amazon.com/gp/product/B07BJ2P6X6/
 
 #### Step X: Breadboard the Microphone and Amplifier
 Next lets make sure we can get the I2S microphone and [class D amplifier][32] working together nicely.
@@ -690,4 +712,6 @@ The `mumble` server is named `murmur`.
 [48]:
 [49]:
 [50]:
+
+[60]:
 
