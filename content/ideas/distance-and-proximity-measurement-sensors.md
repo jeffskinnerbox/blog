@@ -47,6 +47,7 @@ Version:      0.0.0
 * [STMicro Unveils the "Camera-Like" FlightSense VL53L7CX Distance Sensor, with 90 Degree FoV](https://www.hackster.io/news/stmicro-unveils-the-camera-like-flightsense-vl53l7cx-distance-sensor-with-90-degree-fov-0a70e0e93d37)
     * [STM32duino VL53L7CX](https://reference.arduino.cc/reference/en/libraries/stm32duino-vl53l7cx/)
     * [GitHub: stm32duino/VL53L7CX](https://github.com/stm32duino/VL53L7CX)
+* [RGB-D 3D ToF Sensor Camera (Supports ROS1 and ROS2)](https://www.dfrobot.com/product-2740.html?tracking=650189d06634f)
 
 # Walking Speed
 * [Measuring Walking Speed Wirelessly](http://hackaday.com/2017/05/10/measuring-walking-speed-wirelessly/)
