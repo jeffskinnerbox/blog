@@ -455,6 +455,7 @@ To decode all this, here are additional, much more technical answer To “What I
 * [11 Myths About LoRaWAN](https://www.electronicdesign.com/industrial-automation/11-myths-about-lorawan)
 
 * [Ground breaking world record! LoRaWAN packet received at 702 km (436 miles) distance](https://www.thethingsnetwork.org/article/ground-breaking-world-record-lorawan-packet-received-at-702-km-436-miles-distance)
+* [Another Record Breaking Transmission for LoRaWAN](https://www.hackster.io/news/another-record-breaking-transmission-for-lorawan-0cca5f6cd032)
 * [High Power LoRa And Tropospheric Reflection Experiments](https://hackaday.com/2020/03/21/high-power-lora-and-tropospheric-reflection-experiments/)
 
 Most of tests performed by Semtech and other companies
