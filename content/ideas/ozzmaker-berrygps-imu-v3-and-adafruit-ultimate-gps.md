@@ -330,7 +330,9 @@ You can calculates speed and heading through the use of an internal inertial mea
 The addition of an wheel ticks
 and IMU allows higher precision and more accurate readings in between GNSS data refreshes.
 
-* http://www.furuno.com/en/gnss/technical/tec_dead
+* [What is Dead Reckoning (DR)?](http://www.furuno.com/en/gnss/technical/tec_dead)
+* [The GENIUS of Inertial Navigation Systems Explained](https://www.youtube.com/watch?v=Pq_PDaYclAw)
+* [LN-3 inertial navigation system](https://en.wikipedia.org/wiki/LN-3_inertial_navigation_system)
 * [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
 * [Basics of 6DOF and 9DOF sensor fusion](https://www.embeddedcomputing.com/technology/analog-and-power/basics-of-6dof-and-9dof-sensor-fusion)
 
