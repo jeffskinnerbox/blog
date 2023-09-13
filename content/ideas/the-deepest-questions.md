@@ -1044,6 +1044,14 @@ The agents are programmed to behave and interact with other agents and the envir
     * [Complexity Explorer](https://www.youtube.com/@ComplexityExplorer/featured)
 
 ## Computational Complexity Theory
+The strongest working definition for computation comes via the (strong) Church-Turing Thesis.
+This states that every possible physically realizable model of computation is no more powerful than a Turing Machine.
+If you believe that this is true, then although we may have lots of way to express things,
+ultimately we can reduce every computation to a Turing Machine,
+hence giving a definition of computation as "anything we can reduce to a Turing Machine".
+
+* [What is Computation?](https://dl.acm.org/doi/pdf/10.1145/1880066.1880067)
+* [What is computation?](https://iopscience.iop.org/book/mono/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1)
 * [Undergrad Complexity Theory at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
 
 ## Agent-Based Modeling (ABM) Tools
