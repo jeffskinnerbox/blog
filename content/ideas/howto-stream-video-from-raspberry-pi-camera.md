@@ -1798,6 +1798,7 @@ Some of the alternatives that I investigate are documented here.
 * [Build a Webcam Communication App using WebRTC](https://blog.bitsrc.io/build-a-webcam-communication-app-using-webrtc-9737384e84be)
 * [Private Home Surveillance with the WebRTC DataChannel](https://webrtchacks.com/private-home-surveillance-with-the-webrtc-datachannel/)
 * [Accelerated Computer Vision inside a WebRTC Media Server with Intel OWT](https://webrtchacks.com/accelerated-computer-vision-inside-a-webrtc-media-server-with-intel-owt/)
+* [Janus vs. MediaSoup: The Ultimate Guide To Choosing Your WebRTC Server](https://dzone.com/articles/janus-vs-mediasoup-the-ultimate-guide-to-choosing)
 
 [!webrtc](https://webrtc.org/assets/images/webrtc-logo-vert-retro-255x305.png)
 [WebRTC][71] is an open source project that provides browsers and mobile applications
