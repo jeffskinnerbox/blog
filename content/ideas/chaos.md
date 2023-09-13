@@ -25,8 +25,8 @@ _Chaos: When the present determines the future, but, the approximate present doe
 * [Analog Lorenz Attractor Computer](https://hackaday.io/project/191142-analog-lorenz-attractor-computer)
 
 # 1st Example of Chaos
-* Edward Lorenz and the butterfly effect - He first observed the phenomenon as early as 1961
 * Henri Poincaré - In his research on the three-body problem, Poincaré became the first person to discover a chaotic deterministic system.
+* Edward Lorenz and the butterfly effect - He first observed the phenomenon as early as 1961
 * Gravitation - See Simon Tardivel 4 body animation of gravitation at the 54:26 time mark - [Chaos theory and geometry: can they predict our world?](https://www.youtube.com/watch?v=RkiEV47KPX4)
 
 # Jerk Circuit
@@ -72,3 +72,4 @@ That is, the periodic points are dense in the interval.
 
 # Chaos Control
 * [How Chaos Control Is Changing The World](https://www.youtube.com/watch?v=q1-cwamhwag)
+
