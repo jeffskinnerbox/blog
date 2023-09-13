@@ -532,6 +532,9 @@ A function is a relation that uniquely associates members of one set with member
 * [Getting started with Random Matrices: A Step-by-Step Guide](https://www.cantorsparadise.com/getting-started-with-random-matrices-a-step-by-step-guide-81e5902384e)
 * [Random Matrices in Unexpected Places: Atomic Nuclei, Chaotic Billiards, Riemann Zeta](https://www.youtube.com/watch?v=Y4mnlIvVJEs)
 
+# Random Algorithm
+* [How Randomness Improves Algorithms](https://www.quantamagazine.org/how-randomness-improves-algorithms-20230403/)
+
 # Emergence
 * [What's Strong Emergence?](https://www.youtube.com/watch?v=cgiPQrei4Xc)
 * [Two Fundamentals of Emergence: Emergent Properties and Downward Causation](https://medium.com/paul-austin-murphys-essays-on-philosophy/two-fundamentals-of-emergence-emergent-properties-and-downward-causation-f38740ea1756)
@@ -1052,7 +1055,9 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
 
 * [What is Computation?](https://dl.acm.org/doi/pdf/10.1145/1880066.1880067)
 * [What is computation?](https://iopscience.iop.org/book/mono/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1)
+
 * [Undergrad Complexity Theory at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
+* [COMP3010 Lecture Videos](https://www.youtube.com/playlist?list=PLMDZqACtfCkMK0bTUuyJpxXdcC5KSKt5a)
 
 ## Agent-Based Modeling (ABM) Tools
 * [Simulation of Complex Systems](https://www.youtube.com/playlist?list=PLXmFpdlLypcDl6AjqgLv76vJq1ihmKe2q)
