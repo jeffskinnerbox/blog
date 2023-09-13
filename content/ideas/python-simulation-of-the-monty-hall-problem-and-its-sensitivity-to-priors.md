@@ -172,6 +172,11 @@ You may assume for this question:
 What if you knew one of the children was female?
 What if order of the childern was known?
 
+# Sleeping Beauty Problem
+* [193,340 People Agree With Me, 85,660 Disagree](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
+* [Sleeping Beauty Paradox - Numberphile](https://www.youtube.com/watch?v=cW27QJYNXtU)
+* [Self-locating belief and the Sleeping Beauty problem](https://www.princeton.edu/~adame/papers/sleeping/sleeping.pdf)
+
 # Prisoner’s Puzzle
 * [A Fascinating Prisoner’s Puzzle](https://www.cantorsparadise.com/a-fascinating-prisoners-puzzle-be874032f43e)
 * [Impossible Escape?](http://datagenetics.com/blog/december12014/index.html)
