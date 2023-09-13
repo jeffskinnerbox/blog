@@ -2467,9 +2467,11 @@ bla bla bla
 * [MQTT client library for ESP8266](https://github.com/tuanpmt/esp_mqtt)
 * [Squash Your ESP-8266 Bugs with ESP-gdbstub](http://hackaday.com/2015/12/12/squash-your-esp-8266-bugs-with-esp-gdbstub/)
 * [FreeRTOS-based framework for ESP8266 WiFi-enabled microcontrollers](https://github.com/SuperHouse/esp-open-rtos)
-* [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
 * [Websocket Client and Server for ESP-8266](https://github.com/morrissinger/ESP8266-Websocket)
     * [ESP8266+Websocket server RGB LED controller](http://www.instructables.com/id/Esp8266Websockets-RGB-LED-controller/?ALLSTEPS)
+
+* [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
+* [Zephyr 3.4: An RTOS of a Different Stripe](https://www.electronicdesign.com/technologies/embedded/software/article/21273429/electronic-design-zephyr-34-an-rtos-of-a-different-stripe)
 
 # Hacking the ESP8266
 * [Your ESP8266 Needs More Memory](http://hackaday.com/2016/07/16/your-esp8266-needs-more-memory/)

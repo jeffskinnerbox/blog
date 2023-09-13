@@ -73,14 +73,16 @@ https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board
 * [FreeRTOS](mavweb.mnsu.edu/hen/lec/FreeRTOS-TaskManagement_p1.pptx)
 * [Running the RTOS on a ARM Cortex-M Core](http://www.freertos.org/RTOS-Cortex-M3-M4.html)
 * [Using FreeRTOS multi-tasking in Arduino](https://www.hackster.io/feilipu/using-freertos-multi-tasking-in-arduino-ebc3cc)
-* [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
-* [The Zephyr Project Welcomes Adafruit Industries to its Open Source Ecosystem](https://blog.adafruit.com/2020/03/02/the-zephyr-project-welcomes-adafruit-industries-to-its-open-source-ecosystem-zephyriot-zephyriot-linuxfoundation-linux-adafruit/)
 * [NuttX Real-Time Operating System](http://www.nuttx.org/)
 * [What is the NuttX RTOS and why should you care?](https://www.embedded.com/electronics-blogs/say-what-/4458729/What-is-the-NuttX-RTOS-and-why-should-you-care-)
 * [New Verizon Developer Toolkit Makes IoT Projects Easy for Amazon Web Services Users](https://iotbusinessnews.com/2018/11/30/27014-new-verizon-developer-toolkit-makes-iot-projects-easy-for-amazon-web-services-users/)
 * [Real-Time OS Basics: Picking The Right RTOS When You Need One](https://hackaday.com/2021/02/24/real-time-os-basics-picking-the-right-rtos-when-you-need-one/)
 
 * [Shawn Hymel Presents: Introduction to RTOS](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
+
+* [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
+* [The Zephyr Project Welcomes Adafruit Industries to its Open Source Ecosystem](https://blog.adafruit.com/2020/03/02/the-zephyr-project-welcomes-adafruit-industries-to-its-open-source-ecosystem-zephyriot-zephyriot-linuxfoundation-linux-adafruit/)
+* [Zephyr 3.4: An RTOS of a Different Stripe](https://www.electronicdesign.com/technologies/embedded/software/article/21273429/electronic-design-zephyr-34-an-rtos-of-a-different-stripe)
 
 # OTA
 * [Over the Air Updates for Your Arduino](https://hackaday.com/2018/01/18/over-the-air-updates-for-your-arduino/)
