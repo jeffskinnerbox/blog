@@ -709,6 +709,7 @@ Self Driving Cars
 * [Self Driving Cars S1E2 ALVINN](https://www.youtube.com/watch?v=H0igiP6Hg1k)
 * [Self Driving Cars S1E3 AI Failure?](https://www.youtube.com/watch?v=yaYER2M8dcs)
 * [Self Driving Cars S1E4 RALPH](https://www.youtube.com/watch?v=DIAKL0s4Mzs)
+* [I RACED My Self-Driving RC Car](https://www.youtube.com/watch?v=zuyOdaQ2xuw)
 
 # DeepPiCar
 * [DeepPiCar — Part 1: How to Build a Deep Learning, Self Driving Robotic Car on a Shoestring Budget](https://towardsdatascience.com/deeppicar-part-1-102e03c83f2c)
