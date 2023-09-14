@@ -147,7 +147,7 @@ Rx-only on 65-108 MHz (commercial FM radio),
 Tx & Rx on 136-174 MHz (VHF 2 meter band),
 and Tx & Rx on 400-520 MHz (UHF 70 centimeter band).
 Notice that the GMRS/FRS bands (462.5625-462.7250 MHz) are not supported by the Baofeng.
-At the request fo the FCC,
+At the request of the FCC,
 the new Baofeng UV-5R radios (radio issued since approx April 2021) are "locked",
 but there is a whay to unlock them.
 
@@ -156,6 +156,8 @@ To unlock the Baofeng UV-5R, follow the steps in this [video][22].
 **I got "COPING" not "FACTORY" as the screen message.**
 
 To test
+
+* [Baofeng's New UV-5R GMRS Radio - FCC Legal GMRS Version Of the Baofeng UV-5R - FCC Part 95 Approved](https://www.youtube.com/watch?v=xEV4K3vr4Pk)
 
 Sources:
 
