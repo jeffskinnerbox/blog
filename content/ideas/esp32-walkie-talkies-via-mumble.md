@@ -17,6 +17,10 @@ Consider using and reading ...
 * [Simple MP3 Audio Playback With Raspberry Pi Pico](https://embeddedcomputing.com/technology/processing/interface-io/simple-mp3-audio-playback-with-raspberry-pi-pico)
 * [I2S Volume Control With Raspberry Pi Pico and CircuitPython](https://embeddedcomputing.com/technology/open-source/i2s-volume-control-with-raspberry-pi-pico-and-circuitpython)
 * [Raspberry Pi Pico Audio Line Out Via PCM5102A I2S Breakout](https://embeddedcomputing.com/technology/open-source/development-kits/raspberry-pi-pico-audio-line-out-via-pcm5102a-i2s-breakout)
+* [Home Assistant Voice Remote](https://www.youtube.com/watch?v=EeUG3Si9fZk)
+* [ESP32 Battery Life Tips](https://www.youtube.com/watch?v=4EZYYPmQnJY)
+
+
 
 
 

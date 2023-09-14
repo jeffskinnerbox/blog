@@ -1937,6 +1937,12 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [How I added JARVIS to Home Assistant powered Smart Home](https://www.youtube.com/watch?v=Ys9xlo3Rq4E)
     * [Time to Come Clean About Jarvis](https://www.youtube.com/watch?v=p2skApFQWGE)
 
+* [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
+* [I turned my ATOM Echo into a Private Voice Assistant for Home Assistant](https://peyanski.com/atom-echo-as-private-voice-assistant/)
+    * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
+* FLASHING THE ATOM ECHO - [$13 voice remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
+* [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
+
 ### Piper - Open Source Text-to-Speech & Voice Cloning
 * [Piper is our new voice for the Open Home](https://building.open-home.io/piper-is-our-new-voice-for-the-open-home/)
 * [Raspberry Pi | Local TTS | High Quality | Faster Realtime with Piper TTS](https://www.youtube.com/watch?v=rjq5eZoWWSo)
