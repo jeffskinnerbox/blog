@@ -41,3 +41,8 @@ Some examples of this are:
 
 # Packet Radio
 * [Direwolf](https://packet-radio.net/direwolf/)
+
+# GMRS Radio
+* [How To Program A GMRS Radio To Use A Repeater - GMRS Repeater Channel Programming For GMRS Radios](https://www.youtube.com/watch?v=kEyBqTJIkY4)
+    * [myGMRS.com - General Mobile Radio Service repeater directory and online community](https://mygmrs.com/)
+

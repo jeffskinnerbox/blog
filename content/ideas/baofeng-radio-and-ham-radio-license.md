@@ -564,6 +564,8 @@ Contrast with
 * [The ‘Best’ Radio for FRS/GMRS](https://codegreenprep.com/2013/04/the-best-radio-for-frsgmrs/)
 * [The New (2017) FRS and GMRS Radio Frequencies](https://codegreenprep.com/category/social/comms/)
 * [How To Get A GMRS License – Easy Guide To GMRS Licensing On The FCC Website](https://www.notarubicon.com/how-to-get-a-gmrs-license-easy-guide-to-gmrs-licensing-on-the-fcc-website/)
+* [How To Program A GMRS Radio To Use A Repeater - GMRS Repeater Channel Programming For GMRS Radios](https://www.youtube.com/watch?v=kEyBqTJIkY4)
+    * [myGMRS.com - General Mobile Radio Service repeater directory and online community](https://mygmrs.com/)
 
 ## How To Get A GMRS License
 It can be harder to find and fill out the forms for a GMRS license
