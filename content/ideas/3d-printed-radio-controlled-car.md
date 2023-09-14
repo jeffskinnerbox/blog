@@ -62,6 +62,8 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
     * [3D Printed RC Car v3 -- Tarmo3 -- Rear Parts](https://www.thingiverse.com/thing:3545173)
     * [BOM](https://docs.google.com/spreadsheets/d/10gS0H6_ADVWPt2O_ZIXLfmCgJAxFySBps5DkU6ocSow/edit#gid=0)
 
+* [3D Printed RC Car is Geared For Speed](https://hackaday.com/2023/09/13/3d-printed-rc-car-is-geared-for-speed/)
+
 
 * [combine multiple .STL files to create a re-mix object](https://www.youtube.com/watch?v=sUe-Lnioagk)
 * [FreeCAD Assembly Tutorial](https://www.youtube.com/watch?v=mnkecA9S7kc)
