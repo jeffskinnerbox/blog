@@ -13,6 +13,8 @@ Version:      0.0.0
 
 
 
+# M5Stack Atom Echo
+
 # Home Assistant Integration
 * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [I turned my ATOM Echo into a Private Voice Assistant for Home Assistant](https://peyanski.com/atom-echo-as-private-voice-assistant/)
@@ -30,6 +32,8 @@ Version:      0.0.0
 * [Home Assistant Voice Remote](https://www.youtube.com/watch?v=EeUG3Si9fZk)
 * [ESP32 Battery Life Tips](https://www.youtube.com/watch?v=4EZYYPmQnJY)
 * [ESP32 Deep Sleep, RTC Memory, "Secret" LoLin Pins](https://www.youtube.com/watch?v=r75MrWIVIw4)
+
+
 
 [08]:https://www.adafruit.com/product/3006
 [17]:https://www.amazon.com/gp/product/B07PS653CD
