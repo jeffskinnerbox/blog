@@ -311,11 +311,6 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [KindleBerry Pi](http://www.ponnuki.net/2012/09/kindleberry-pi/)
 * [A Jailbreak For Every Kindle](http://hackaday.com/2016/07/09/a-jailbreak-for-every-kindle/)
 
-# Satellite Weather Images
-With free software that can be downloaded on the Raspberry Pi, you can obtain pictures of Earth from satellites orbiting above. Along with images, you can also receive telemetry data and satellite statuses. The R2Cloud Project was created by a hobbyist and is maintained on GitHub.
-
-* [R2Cloud Project](https://github.com/dernasherbrezon/r2cloud)
-
 # Air Particulate Pollution
 * [Measuring Particulate Pollution With The ESP32](https://hackaday.com/2019/08/29/measuring-particulate-pollution-with-the-esp32/)
 * [Measuring Air Quality Using Mobile Sensors for the Masses](https://hackaday.com/2021/12/13/measuring-air-quality-using-mobile-sensors-for-the-masses/)
@@ -453,6 +448,12 @@ that can send notifications within minutes of an earthquake.
 * [GNUradio decoders for different satellites](https://github.com/daniestevez/gr-satellites)
 * [L Band Satellite Antennas Revealed](https://hackaday.com/2019/08/04/l-band-satellite-antennas-revealed/)
 * [Satellite Ground Station Upcycles Trash](https://hackaday.com/2021/04/03/satellite-ground-station-upcycles-trash/)
+
+# Satellite Weather Images
+With free software that can be downloaded on the Raspberry Pi, you can obtain pictures of Earth from satellites orbiting above. Along with images, you can also receive telemetry data and satellite statuses. The R2Cloud Project was created by a hobbyist and is maintained on GitHub.
+
+* [How To Get Live Satellite Images Directly From Space](https://www.youtube.com/watch?v=icADyjm3PBE)
+* [R2Cloud Project](https://github.com/dernasherbrezon/r2cloud)
 
 # Weather Alerts
 * [Weather Websites: IEMbot](https://www.edwardjensen.net/dispatches/weather-websites-iembot/6412/)

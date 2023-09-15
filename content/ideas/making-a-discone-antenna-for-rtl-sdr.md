@@ -29,6 +29,7 @@ Version:      0.0.0
 # Satellite Weather Images
 * [Get Your Weather Images Straight From The Satellite](https://hackaday.com/2020/03/14/get-your-weather-images-straight-from-the-satellite/)
 * [R2Cloud Project](https://github.com/dernasherbrezon/r2cloud)
+* [How To Get Live Satellite Images Directly From Space](https://www.youtube.com/watch?v=icADyjm3PBE)
 
 # Satellite Antenna
 * [Mini Satellite-Antenna Rotator](https://www.sarcnet.org/rotator-mk1.html)
