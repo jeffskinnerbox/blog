@@ -190,9 +190,31 @@ In operation since before 1985, the Network Time Protocol (NTP) is a networking 
 The Precision Time Protocol (PTP) is a protocol used to synchronize clocks throughout a computer network. On a local area network, it achieves clock accuracy in the sub-microsecond range, making it suitable for measurement and control systems.
 PTP is typically used in applications that require precise timing but lack access to satellite navigation signals.
 
+| Characteristics | Network Time Protocol (NTP) | Precision Time Protocol (PTP) |
+|:-----:|:-----:|:-----:|
+| Accuracy | < 10 milliseconds (measured in microseconds) | < 10milliseconds (measured in nanoseconds) |
+| Push/Pull Model | NTP client "pulls" ftime from NTP server | PTP Grandmaster clock "pushes" time to other PTP clocks|
+| Typical Use Cases |Network clients (e.g. PC), Network Monitoring, IoT Devices, Cloud Computing | Industrial Automation, Audio/Video Broadcasting, Financial Trading |
+
+* [Network Time Protocol (NTP) - Computerphile](https://www.youtube.com/watch?v=BAo5C2qbLq8)
+* [NTP vs PTP: Which is the Best Time Sync Protocol](https://www.youtube.com/watch?v=lOUqOEkDT5I)
+* [NTP vs. PTP: How Do You Get Accuracy?](https://www.youtube.com/watch?v=wPGRXQYDAyQ)
+* [How Computers Synchronize Their Clocks - NTP and PTP Explained](https://www.youtube.com/watch?v=WX5E8x3pYqg)
+* [Understanding Precision Time Protocol (PTP)](https://www.youtube.com/watch?v=-8DQ6jqTiQM)
 * [It's About Time (PTP and synchronizing clocks)](https://www.youtube.com/watch?v=RvnG-ywF6_s)
+* [Precision Time Protocol (PTP) and Packet Timestamping in Linux - Antoine Tenart, Bootlin](https://www.youtube.com/watch?v=puFSz3M3P4g)
 * [New Part Day: Raspberry Pi Hat for IEEE1588 Precision Time Protocol](https://hackaday.com/2021/08/16/new-part-day-raspberry-pi-hat-for-ieee1588-precision-time-protocol/)
+* [Precision Time Protocol (PTP) Clock Types](https://www.youtube.com/watch?v=rbb9DcIGLKY)
+* [PTP Master Class Webinar Series](https://www.youtube.com/playlist?list=PLn2Bxb_6boyRZyXRxrYwc1k_W1eaKhheh)
+* [The NTP algorithm](https://www.youtube.com/watch?v=_Kuxmu7WkD8)
+
+## White Rabbit Technology
+White Rabbit (WR) is a technology born at CERN which achieves sub-nanosecond
+accuracy in Ethernet based networks. It allows easy deployments of scalable and
+reliable networks with high accuracy synchronization requirements.
+
 * [WhiteRabbit System](https://white-rabbit.web.cern.ch/)
+* [White Rabbit technology](https://psec.uchicago.edu/library/White_Rabbit/francisco_7S-WR_training_slides.pdf)
 
 
 
@@ -255,7 +277,11 @@ Once in the detailed view, simply click the center again to return to the analog
 * [Raspberry Pi ‘WeatherClock’ shows you the hour’s forecast](https://www.raspberrypi.org/blog/raspberry-pi-weatherclock-shows-you-the-hours-forecast/)
 
 # Dealing with Daylight Savings Time
+# ESP32 NTP & PTP
+* [Atomic Clock Sync: ESP32 NTP Magic in Just 2 Lines of Code!](https://www.youtube.com/watch?v=K7HHSdpa9t0)
 * [Tricks to get NTP time for the ESP32 and the ESP8266 incl. Summer- and Daylight Saving time](https://www.youtube.com/watch?v=r2UAmBLBBRM&feature=youtu.be)
+* [High Precision NTP Client for the ESP32](https://www.lectrobox.com/projects/esp32-ntp/)
+* [Network Time Protocol On The ESP32](https://hackaday.com/2022/05/16/network-time-protocol-on-the-esp32/)
 
 # Master/Slave Clock Systems
 * https://en.wikipedia.org/wiki/Master_clock
@@ -272,6 +298,7 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 * [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
 * [Building a Stratum 1 Time Server for 16 bit DOS](https://www.brutman.com/DOS_Time_Server/DOS_Time_Server.html)
 
+* [Build a Stratum 1 Time Server Using a Raspberry Pi Pico](https://www.youtube.com/watch?v=pyVCHX4H7bM)
 * [ESP82266 + GPS STRATUM 1 NTP SERVER](https://www.hackster.io/Absolutelyautomation/esp8266-based-wireless-ntp-server-b77926)
 * [Portable GPS Time Server Powered by the ESP8266](https://hackaday.com/2021/07/25/portable-gps-time-server-powered-by-the-esp8266/)
 * [Accurate Time on Your Pi, the Extreme Way](https://hackaday.com/2019/06/26/accurate-time-on-your-pi-the-extreme-way/)
@@ -282,7 +309,6 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
-* [Using GPS with PPS to synchronize clocks over the network](https://www.youtube.com/watch?v=7aTZ66ZL6Dk)
 * [Nanosecond clock sync with a Raspberry Pi](https://www.youtube.com/watch?v=RvnG-ywF6_s&feature=youtu.be)
 * [GPS-Disciplined NTP Server on Raspberry Pi 4](https://www.youtube.com/watch?v=NFSogtVp0Xo)
 * [The most accurate Raspberry Pi atomic clock IN THE WORLD!](https://www.youtube.com/watch?v=tU0xC1ynaT8)
@@ -304,6 +330,10 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
     * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
 
 * [A GPS Frequency Standard For When The Timing Has To Be Right](https://hackaday.com/2022/06/29/a-gps-frequency-standard-for-when-the-timing-has-to-be-right/)
+
+### Synchronize Clocks With PPS
+* [Using GPS with PPS to synchronize clocks over the network](https://www.youtube.com/watch?v=7aTZ66ZL6Dk)
+* [Sync your project with GPS 1PPS](https://www.youtube.com/watch?v=GAtL5sFmlQg)
 
 ################################################################################
 
@@ -336,9 +366,12 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [HowTo: Electronics – Build seven segment LED digit called “pxlDigit” from WS2812 LEDs](https://nerdiy.de/en/howto-elektronik-sieben-segment-ziffer-pxldigit-aus-ws2812-leds-bauen/)
 * [Mechanical Seven-Segment Display, Smaller and Better Than the Original](https://hackaday.com/2021/02/04/mechanical-seven-segment-display-smaller-and-better-than-the-original/)
 * [Edge-Lit 7-Segments Clock The New Normal](https://hackaday.com/2020/04/14/edge-lit-7-segments-clock-the-new-normal/)
+
 * [A WHOLE LOT OF STEPPER MOTORS MAKE THE MOST GRACEFUL 7-SEGMENT DISPLAYS](https://hackaday.com/2021/08/11/a-whole-lot-of-stepper-motors-make-the-most-graceful-7-segment-displays/)
 * [Silent Stepper Motors Make Electromechanical Clock Fit For a Living Room](https://hackaday.com/2022/03/10/silent-stepper-motors-make-electromechanical-clock-fit-for-a-living-room/)
 * [Large 2ft 7 Segment Servo Motor Clock](http://www.brettoliver.org.uk/servo_clock/servo_clock.htm)
+* [GIANT Modular 7 Segment Display - Easy DIY Guide](https://www.youtube.com/watch?v=pyFtAkwqVZ4)
+* [Supersize Seven Segment Display](https://www.youtube.com/playlist?list=PL5vDt5AALlRfL94OlxlUywtr1JFbjoQK_)
 
 ## Big Display
 **Big**
