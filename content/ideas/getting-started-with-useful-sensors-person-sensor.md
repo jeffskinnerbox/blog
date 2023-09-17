@@ -21,6 +21,7 @@ Version:      0.0.0
 
 * [Useful Sensors' Tiny Code Reader Is a Privacy-Centric Low-Cost Scanner for 2D QR Codes](https://www.hackster.io/news/useful-sensors-tiny-code-reader-is-a-privacy-centric-low-cost-scanner-for-2d-qr-codes-104d9229e8c7)
     * [Tiny Code Reader from Useful Sensors](https://www.adafruit.com/product/5744)
+    * [Useful Sensors Tiny Code Reader](https://www.sparkfun.com/products/23352)
 
 
 
