@@ -14,6 +14,7 @@ Version:      0.0.0
 
 * [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
 * [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
+* [Eleven of the Best Open Source Hypervisor Technologies](https://informationsecuritybuzz.com/eleven-of-the-best-open-source-hypervisor-technologies/)
 
 
 # Proxmox
