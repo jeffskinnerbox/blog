@@ -28,6 +28,8 @@ I find myself reluctant to do such things on my desktop Linux system in fear of 
 I plan to setup this Chromebook with Xubuntu, and hopefully,
 such that I can do a quick OS re-install after what might be a destructive experiment.
 
+>**NEWS FLASH:** On Sept 14, 2023, Google announced that ["Chromebooks will get 10 years of automatic updates"](https://blog.google/outreach-initiatives/education/automatic-update-extension-chromebook/)
+
 Sources:
 
 * [The 8 Best Linux Distros for Chromebooks](https://www.makeuseof.com/best-linux-distros-for-chromebooks/)

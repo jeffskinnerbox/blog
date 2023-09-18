@@ -21,6 +21,8 @@ check out ["How to install ChromeOS Flex on a Chromebook"](https://www.androidpo
 repurpose the Chromebook hardware with Linux **without** ChromeOS,
 check out  ["How To: Install Ubuntu on Chromebook and REMOVE ChromeOS"](https://dbtechreviews.com/2018/09/how-to-install-ubuntu-on-chromebook-and-remove-chromeos/)
 
+>**NEWS FLASH:** On Sept 14, 2023, Google announced that ["Chromebooks will get 10 years of automatic updates"](https://blog.google/outreach-initiatives/education/automatic-update-extension-chromebook/)
+
 
 -----
 

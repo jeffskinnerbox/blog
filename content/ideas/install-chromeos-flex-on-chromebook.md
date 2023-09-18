@@ -27,6 +27,8 @@ You can continue to use a Chromebook beyond its Auto Update Expiry (AUE) date,
 but there is a security risk over time.
 Check out ["Google Confirms 5 New ‘High’ Level Security Flaws In Chrome"][25].
 
+>**NEWS FLASH:** On Sept 14, 2023, Google announced that "[Chromebooks will get 10 years of automatic updates][26]"
+
 # ChromeOS Flex Installation
 I purchased in 2015 for $300 via Amazon a [Toshiba CB35-B3340 13.3-Inch Chromebook 2][06].
 It has 64-bit Intel Celeron N2840 Processor (with Intel HD Graphics for Intel Atom® Processor Z3700),
@@ -263,4 +265,5 @@ Sources:
 [23]:https://www.theregister.com/2022/07/14/chrome_os_flex_launched/
 [24]:https://www.androidpolice.com/chrome-os-flex-what-it-is-and-why-you-should-use-it/
 [25]:https://www.forbes.com/sites/gordonkelly/2021/09/02/google-chrome-warning-high-security-hacks-threats-upgrade-chrome-now/?sh=5873d05745f8
+[26]:https://blog.google/outreach-initiatives/education/automatic-update-extension-chromebook/
 
