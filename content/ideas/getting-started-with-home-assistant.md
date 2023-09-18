@@ -159,6 +159,7 @@ and confidence in selecting Home Assistant as my platform of choose:
     * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
     * [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
 * Home Automation Ideas
+    * [My Top 5 Automations in Home Assistant](https://www.mostlychris.com/my-top-5-automations/)
     * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
     * [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
     and it's companion: [video](https://www.youtube.com/watch?v=F-mEA5RN_yo)
