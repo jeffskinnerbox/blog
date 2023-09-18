@@ -1396,6 +1396,7 @@ A great way for home users to use it is for secure remote access to their home n
 In many cases, it can more securely replace your port forwarding needs.
 
 * [How to install OpenVPN on pfSense: Ultimate Beginner Guide](https://www.ceos3c.com/pfsense/openvpn-on-pfsense/)
+* [How to setup your own OpenVPN server in pfSense](https://www.bleepingcomputer.com/vpn/guides/openvpn-server-pfsense/)
 * [OpenVPN Remote Access Configuration Example](https://docs.netgate.com/pfsense/en/latest/recipes/openvpn-ra.html)
 * [Tutorial: pfsense OpenVPN Configuration For Remote Users 2020](https://www.youtube.com/watch?v=PgielyUFGeQ)
 * [5 Best VPNs for pfSense: Configure & Secure Your Home/Office Network!](https://www.technadu.com/best-vpn-for-pfsense/342509/)
