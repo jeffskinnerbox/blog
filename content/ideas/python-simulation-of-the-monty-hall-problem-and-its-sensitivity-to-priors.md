@@ -171,6 +171,19 @@ You may assume for this question:
 
 What if you knew one of the children was female?
 What if order of the childern was known?
+What if you knew one of the children's name?
+What if you knew one of the children's day of week they where born?
+* [This May Be The Most Counterintuitive Probability Paradox I've Ever Seen | Can you spot the error?](https://www.youtube.com/watch?v=bDZieLmya_I)
+* [Boy or Girl paradox](https://en.wikipedia.org/wiki/Boy_or_Girl_paradox)
+
+# Coin Flipping Paradox
+* [The coin flip conundrum - Po-Shen Loh](https://www.youtube.com/watch?v=IAiNqQi30-Y)
+* [Counter-Intuitive Probability. Coin Flips To HH Versus HT Are Not The Same!](https://www.youtube.com/watch?v=--mxW3jDlGk)
+* [Coin Flipping Paradox](https://www.youtube.com/watch?v=F1ccNKQx4fk)
+* [A Coin-Tossing Conundrum](https://arxiv.org/pdf/1710.01298.pdf)
+
+# The Friendship Paradox
+* [The Friendship Paradox](https://www.youtube.com/watch?v=GEjhO65FYks)
 
 # Sleeping Beauty Problem
 * [193,340 People Agree With Me, 85,660 Disagree](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
