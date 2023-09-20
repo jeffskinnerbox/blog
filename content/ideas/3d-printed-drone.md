@@ -47,6 +47,9 @@ Version:      0.0.0
 * [Super-Maneuverable RC VTOL F-35 Parkjet](https://www.youtube.com/watch?v=Ds-ODWydxeY)
 * [The Real Life Sci-Fi of Vertical Take-Off Planes](https://www.youtube.com/watch?v=4GfqB7P6uAE)
 
+### F-22 Raptor
+* [Making a RC Airplane using Cardboard | Homemade F-22 Raptor](https://www.youtube.com/watch?v=iQsswBpzjpo)
+
 ### Tri-Mode VTOL
 * [Winged Drone Gets Forward Flight Capability](https://hackaday.com/2022/10/02/winged-drone-gets-forward-flight-capability/)
 
