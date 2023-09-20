@@ -203,6 +203,7 @@ The flyback transformer circuit was invented as a means of controlling the horiz
 * [A Miniature Power Supply for High Voltage Hacking](https://hackaday.com/2020/08/23/a-miniature-power-supply-for-high-voltage-hacking/)
 
 **Build This - Voltage Multiplier Starter Project**
+* [Let's build a voltage multiplier!](https://www.youtube.com/watch?v=4alV5LzHLE4)
 * [DIY Desktop Lightning Tower (USB rechargeable!](https://www.youtube.com/watch?v=YYKlfFYTl-8)
 * [Cockcroft-Walton Multiplier](https://www.youtube.com/watch?v=ep3D_LC2UzU)
 * [Let's build a voltage multiplier!](https://www.youtube.com/watch?v=4alV5LzHLE4&t=29s)
