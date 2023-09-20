@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 
+* [Rutgers University Confirmed: Meshtastic and LoRa are dangerous](https://www.youtube.com/watch?v=EAQI2ZSmxPU)
 * [LoRa based Connectivity Everywhere - Thomas Telkamp (Lacuna Space)](https://www.youtube.com/watch?v=3769Xc46eUY)
 * [Controlling Things Over a LoRa Mesh](https://www.hackster.io/scottpowell69/controlling-things-over-a-lora-mesh-2ea623)
 * [Building A Communications Grid With LoRaType](https://hackaday.com/2023/03/13/building-a-communications-grid-with-loratype/)
