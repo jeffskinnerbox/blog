@@ -174,6 +174,7 @@ What if order of the childern was known?
 What if you knew one of the children's name?
 What if you knew one of the children's day of week they where born?
 * [This May Be The Most Counterintuitive Probability Paradox I've Ever Seen | Can you spot the error?](https://www.youtube.com/watch?v=bDZieLmya_I)
+* [he Boy or Girl Probability Paradox Resolved | It was never really a paradox](https://www.youtube.com/watch?v=ElB350w8iJo)
 * [Boy or Girl paradox](https://en.wikipedia.org/wiki/Boy_or_Girl_paradox)
 
 # Coin Flipping Paradox
