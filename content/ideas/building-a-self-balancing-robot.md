@@ -174,6 +174,8 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Create Large Scale Domino Art With A Robot](https://hackaday.com/2021/07/29/create-large-scale-domino-art-with-a-robot/)
 
 # Inverted Pendulum
+* [What is a PID Controller? | DigiKey](https://www.youtube.com/watch?v=tFVAaUcOm4I)
+* [How to Tune a PID Controller for an Inverted Pendulum](https://www.youtube.com/watch?v=hRnofMxEf3Q)
 * [Inverted Pendulum For The Control Enthusiast](https://hackaday.com/2018/05/20/inverted-pendulum-for-the-control-enthusiast/)
 * [Open-Source inverted pendulum](https://hackaday.io/project/167290-open-source-inverted-pendulum)
 * [Ball Balancing Wheel Puts A Spin On Inverted Pendulums](https://hackaday.com/2021/07/20/ball-balancing-wheel-puts-a-spin-on-inverted-pendulums/)
