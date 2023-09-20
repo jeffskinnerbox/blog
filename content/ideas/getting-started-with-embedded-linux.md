@@ -78,6 +78,9 @@ a piece of software that brings both RISC-V and x86 to limited-spec platforms.
 * [TinyEMU](https://bellard.org/tinyemu/)
 * [It’s Linux. On An ESP32](https://hackaday.com/2022/07/14/its-linux-on-an-esp32/)
 
+## Linux on ESP32-S3
+* [Run Linux on ESP32 - how to run the Linux kernel on an ESP32](https://www.youtube.com/watch?v=5oKeVyxgwzk)
+
 ## Bootloader
 [uboot][29] which is a popular [bootloader][30] that
 supports multiple architectures (ARM, MIPS, AVR32, Nios, Microblaze, 68K and x86)
