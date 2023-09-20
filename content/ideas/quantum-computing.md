@@ -13,7 +13,15 @@ Version:      0.0.0
 
 
 
-Quantum Computing
+# What is Computation?
+What do computes do? - Perform computation, by using knowledge, under your direction.  These directions are algorithms.
+Types of knowledge? - Declarative Knowledge which are statement of facts. Imperative Knowledge which is a recipe or "sequence of steps" or "how-to".
+What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) flow of control that specifies when each step is executed, (3) a means of determining when to stop.
+
+* [What is Computation?](https://www.youtube.com/results?search_query=What+is+Computation%3F) - start at 7 minutes
+
+
+# Quantum Computing
 * [Quantum Computing for Beginners](https://dev.to/taradev/series/23332)
 * [A Beginner's Guide to Starting Your Journey in Quantum Computing](https://dev.to/taradev/a-beginners-guide-to-starting-your-journey-in-quantum-computing-300o)
 * [Open source as a path to learning Quantum Computing](https://dev.to/taradev/open-source-as-a-path-to-learning-quantum-computing-4dkb)
@@ -22,7 +30,7 @@ Quantum Computing
 * [Quantum Computing](https://www.youtube.com/playlist?list=PLxP0p--aBHmIe--9rczWe4AZmw03e2bz0)
 
 
-How Does a Quantum Computer Work?
+# How Does a Quantum Computer Work?
 * [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
 * [Quantum Computers: How They Work and What Can They Do?](https://www.youtube.com/watch?v=6eJVVCO6GRM)
 * [You don't know how Quantum Computers work!](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
