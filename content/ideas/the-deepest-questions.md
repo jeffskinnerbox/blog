@@ -178,6 +178,9 @@ BBC Precision The Measure of All Things
 * [Russell's Paradox - A Ripple in the Foundations of Mathematics](https://www.youtube.com/watch?v=xauCQpnbNAM)
 * Axiom of Choice: [The most controversial axiom in mathematics and its paradoxes](https://nseverkar.medium.com/the-most-controversial-axiom-in-mathematics-and-its-paradoxes-2c0cdfd725cb)
 
+## What are number systems?
+* [Number Systems Invented to Solve the Hardest Problem - History of Rings | Ring Theory E0](https://www.youtube.com/watch?v=M-9_rZfVQVE)
+
 ## What is Physics? What is a Proper Physical Theory?
 * [Tim Maudlin: Ontological Clarity, Electromagnetism and the Aharanov-Bohm Effect (EmQM17)](https://www.youtube.com/watch?v=LUE01tjDAb8)
 
