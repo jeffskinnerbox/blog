@@ -111,10 +111,15 @@ Sources:
     * [ESP32 Walkie-Talkie using UDP Broadcast and ESP-NOW][42]
     * [atomic14 / esp32-walkie-talkie][09]
     * [atomic14 / esp32_audio][43]
+    * [ESP32 Walkie Talkie - Part 1 - Fusion 360 case design][48]
 * Getting Sound Out of ESP32
     * [ESP32 Sound - Working with I2S][44]
     * [ESP32 Audio Output Using I2S and built-in Digital to Analogue Converters (DACs)][45]
     * [ESP32 Audio][20]
+* Arduino Audio Tools
+    * [#419 ESP32 Audio Tutorial with lots of examples][50]
+* Using MicroPhyon
+    * [MicroPython I2S Audio with the ESP32][49]
 * ESP-NOW
     * [#172 Hidden: ESP32 and ESP8266 point-to-point (ESP-Now): Fast and efficient. Comparison with LoRa][46]
 
@@ -224,6 +229,76 @@ In my case, I had revision P5!
 The instructions for the ESP32 Walkie Talkie calls for the use of the [TinyS2 (ESP32-S2 Board)][06].
 To start my initial development,
 I chose to use the [NodeMCU-32S][41] (aka NodeMCU ESP-WROOM-32) which is better documented.
+
+
+
+-----
+
+
+
+# Arduino Audio Tools
+I cam accross the Arduino Audio Tools project, specifiaclly via [this video][50],
+after I was deep into investigating the repurposing [atomic14's][04] [esp32 based walkie-talkie][01].
+I was impressed by the Audio Tools ease of use, use of Streams, large number of features, and [design goals][51].
+
+Stream is the base class that Serial inherits. Serial is a type of Stream but there are other types of Stream as well.
+write is different from print in one important way: write sends things as raw bytes and print sends things as ASCII. So, if I Serial.print(255), the Arduino will actually send out 3 bytes, the ASCII codes for all three digits.
+
+Sources:
+
+* [#419 ESP32 Audio Tutorial with lots of examples][50]
+* [GitHub: pschatzmann/arduino-audio-tools](https://github.com/pschatzmann/arduino-audio-tools)
+* [Audio Tools Wiki](https://github.com/pschatzmann/arduino-audio-tools/wiki/Introduction)
+
+#### Step 1: Installation in Arduino IDE - DONE
+You can download the AudioTools library as a zip file,
+or you can `git clone` this project into the Arduino libraries folder:
+
+```bash
+# install AudioTools in the arduino library
+cd  ~/Arduino/libraries/
+git clone https://github.com/pschatzmann/arduino-audio-tools.git
+```
+
+I perfer this install method because you can easily update it to the latest
+version just by executing the `git pull` command in the project folder `~/Arduino/libraries/arduino-audio-tools`.
+
+#### Step X: Test AudioTools with Examples
+Within the above installed library you'll find many example implementation
+within `~/Arduino/libraries/arduino-audio-tools/examples`.
+I focused on the following examples:
+
+* `.../examples-stream/streams-generator-serial` - test of basic library functionality,
+generated sine wave, convert to CSV format, send to the serial output
+* `.../examples-stream/streams-generator-analog` - test for the ESP32 analog input sent to I2S output,
+internally generated sine wave should produce a clean tone
+* `.../examples-stream/streams-url_mp3-analog` - test of streaming from URL to analog output,
+a [simple mp3 streaming audio player][52] streaming BBC World Service to the analog output pins
+
+Just copy the examples into you test directory
+Below is a specific description for in general what I needed to do for all the examples:
+
+```bash
+# move to your test directory
+
+# copy your test program
+cp -r ~/Arduino/libraries/arduino-audio-tools/examples/examples-stream/streams-generator-serial/ .
+
+# move into directory you just created via the above copy
+cd streams-generator-serial/
+
+# copy your standard esp32 makefile into the directory (make sure makefile is set for the right type of esp32)
+cp ../../Makefile .
+
+# plug usb cable into the esp32 and run your make
+make
+```
+
+
+#### Step X:
+#### Step X:
+#### Step X:
+
 
 
 
@@ -453,7 +528,16 @@ the clock and word-select pins at a high frequency and read out the data from th
 giving you a [pulse coded modulated (PCM)][28] signal
 (specifically a [pulse width modulated][33] signal).
 [I2S or Inter-IC Sound][30] (pronounced "eye-squared-ess"),
-is an electrical serial bus interface standard used for connecting digital audio devices together.
+is an electrical serial bus interface standard,
+introduced by Philips in 1986,
+used for connecting digital audio devices together.
+I2S has three signals, and an optional forth, to do its job:
+
+* Continuious Serial Clock (SCK) and also called "Bit Clock" (BCLK)
+* Word select (WS) and also called "Left-Right Clock" (LRCLK) or "Frame Sync" (FS)
+* Serial Data (SD) sometimes called SDATA, SDIN, SDOUT, DACDAT, ADCDAT
+* Aditional signal: Master Clock (MCLK) (256 times WS)
+
 It is used to communicate PCM audio data between integrated circuits in an electronic device.
 This approach resulting in simpler receiver amplifier to convert back to audio, called a [class D amplifier][32].
 No binary words are created to represent the analog signal,
@@ -713,9 +797,17 @@ The `mumble` server is named `murmur`.
 [45]:https://www.youtube.com/watch?v=lgDu88Y411o
 [46]:https://www.youtube.com/watch?v=6NsBN42B80Q
 [47]:https://www.adafruit.com/product/5770
-[48]:
-[49]:
-[50]:
-
+[48]:https://www.youtube.com/watch?v=MilQztrItbA&list=PL5vDt5AALlRdyy0JPfn894z5WzduzAiKi&index=1
+[49]:https://www.youtube.com/watch?v=UXt27kOokh0&list=PL5vDt5AALlRdMpeFUZo2dFimy6QLcWG7a&index=1
+[50]:https://www.youtube.com/watch?v=a936wNgtcRA
+[51]:https://github.com/pschatzmann/arduino-audio-tools/wiki/Design-Goals
+[52]:https://www.pschatzmann.ch/home/2021/10/14/a-simple-streaming-mp3-player/
+[53]:
+[54]:
+[55]:
+[56]:
+[57]:
+[58]:
+[59]:
 [60]:
 

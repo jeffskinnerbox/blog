@@ -126,6 +126,7 @@ ESP32-C3 is a single-core WiFi and Bluetooth 5 (LE) microcontroller SoC, based o
 * [Seeeduino Xiao: Specs, Price, Release & Reviews](https://all3dp.com/2/seeeduino-xiao-review-specs/)
 * [Meet the Seeeduino XIAO](https://dronebotworkshop.com/seeeduino-xiao-intro/)
 * [Seeed Studio XIAO Series: System-on-Modules (SoM) User Manual](https://files.seeedstudio.com/wiki/XIAO/Seeed-Studio-XIAO-Series-SOM-Datasheet.pdf)
+* [IO Expander for XIAO - 16 extra IO, 2 power output, 1 Grove IIC bus port, solder-friendly, configurable IIC address, allowed dual expansion boards working simultaneously](https://www.seeedstudio.com/GPIO-Expander-for-XIAO-p-5795.html)
 
 * [he SMALLEST ESP32 Board 🔥🔥 | Getting Started with XIAO ESP32 C3 | ESP32 Projects](https://www.youtube.com/watch?v=PZZYTYN8hjc)
 * [Seeed Studio Launches Compact RISC-V XIAO ESP32-C3 for Battery-Powered Wearable and IoT Projects](https://www.hackster.io/news/seeed-studio-launches-compact-risc-v-xiao-esp32-c3-for-battery-powered-wearable-and-iot-projects-932ba7de4fe9)
