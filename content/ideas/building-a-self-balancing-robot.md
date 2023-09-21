@@ -91,6 +91,11 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
 * [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
 
+# Pet Robot
+* [3D Printed Robot Wants To Be Your Pet](https://hackaday.com/2023/09/21/3d-printed-robot-wants-to-be-your-pet/)
+    * [Meet Snoopy the pet robot!](https://makerspet.com/blog/meet-snoopy-pet-robot-model/)
+    * [Kaia.ai](https://kaia.ai/)
+
 # Rope Walking Robot
 * [Tightrope-walking powered Gyroscope](https://www.youtube.com/watch?v=XdVXrno-3B4)
 
@@ -343,3 +348,5 @@ Piddy Bot
 * [Bobble-Bot Teaches Modern Real-Time Robot Control](https://hackaday.com/2019/11/07/bobble-bot-teaches-modern-real-time-robot-control/)
 * [Bobble-Bot Is a Balancing Robot Designed for Teaching ROS on a Raspberry Pi](https://www.hackster.io/news/bobble-bot-is-a-balancing-robot-designed-for-teaching-ros-on-a-raspberry-pi-1840bc62cd36)
     * [ROS Tutorials](https://www.clearpathrobotics.com/assets/guides/kinetic/ros/index.html)
+
+
