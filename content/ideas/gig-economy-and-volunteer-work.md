@@ -45,5 +45,10 @@ Version:      0.0.0
 * [Loudoun Computer Science Initiative](http://loudouncodes.org/)
 * [Ask Hackaday: Repair Café Or Not?](https://hackaday.com/2022/05/03/ask-hackaday-repair-cafe-or-not/)
 
+## STEM Education
+* [Academies of Loudoun (AOL)](https://www.lcps.org/AOL)
+    * [Clubs & Activities](https://www.lcps.org/site/Default.aspx?PageType=1&SiteID=18349&ChannelID=25532&DirectoryType=6)
+
 # Other Peoples Experiences
 * [My Third Year as a Solo Developer](https://mtlynch.io/solo-developer-year-3/)
+
