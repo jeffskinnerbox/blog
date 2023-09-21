@@ -20,6 +20,13 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 
 * [What is Computation?](https://www.youtube.com/results?search_query=What+is+Computation%3F) - start at 7 minutes
 
+# What is Quantum Computation?
+Using Scratch
+* [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
+* [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
+* [Scratch Quantum Computer](https://scratch.mit.edu/projects/875118011/editor/)
+
+* [Learning About Quantum States](https://www.youtube.com/playlist?list=PLm3J0oaFux3biM7DgkmjSWAikhgQm6xbv)
 
 # Quantum Computing
 * [Quantum Computing for Beginners](https://dev.to/taradev/series/23332)
@@ -42,6 +49,50 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 * [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
 * [The Mathematics of Quantum Computers](https://www.youtube.com/watch?v=IrbJYsep45E)
 * [Building the Bits and Qubits](https://www.youtube.com/watch?v=F8U1d2Hqark)
+
+# How or What is a Quantum Computer Computing?
+
+Does this tell us enough about the distinction between the classical & quantum computing?
+
+| Classical Computing | Quantum Computing  |
+|:--------------------|:-------------------|
+| discrete number of states (zero & one), calcuations with binary bit | infinite, continuious range of states (complex vectors), calculation with qbits |
+| power increase 1-to-1 rleative to number of transistors | power increases expodentially relative to number of qbits |
+| high error rates and must operate at ultra-low tempatures | low error rates and operate at room tempature |
+| well suited for most everyday computational needs | best suited for optiomization problems, simulations, and data analysis |
+| calculations are deterministic (same input creates the same result) | calculations are probalistic (same input creates multiple outputs) |
+| operations are define by boolien algrabra | operatons are defined by linear algrabra over Hilbert Space |
+| circuits are defined by classical physics | circuits are defined by quantum physics |
+
+* [Quantum Computing vs. Classical Computing: Which One Should You Use?](https://levelup.gitconnected.com/quantum-computing-vs-classical-computing-which-one-should-you-use-efab33a09c2f)
+* [Quantum and Classical Computing: Key Differences to Understand](https://www.quantumcomputinginc.com/blog/quantum-and-classical-key-differences/)
+* [Conventional Computing vs Quantum Computing](https://www.geeksforgeeks.org/conventional-computing-vs-quantum-computing/)
+
+| Super Computing | Quantum Computing  |
+|:----------------|:-------------------|
+| Supercomputing is defined as the processing of highly complex problems using the very large and concentrated compute resources of supercomputer | Quantum computing is defined as the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. |
+| Supercomputers are used for supercomputing. | While quantum computer are used for Quantum computing. |
+| It enables problem solving and data analysis more easily and simply. | It performs calculations based on the probability |
+| They plays a significant role in providing national security and knowledge in scientific discovery. | While, quantum computers is still a work in progress. |
+| Supercomputer is a system that operates at a high compute to I/O ratio and delivers a very large number of effective computing cycles per second. | Quantum computer is a computer aimed at utilizing new quantum algorithms to accelerate digital computation. |
+| Common applications of supercomputing are simulation and modeling of physical phenomena such as climate change, explosions, etc. | There is no real world applications of Quantum computing. |
+| It is something that connects people, organizations, products and technologies. | Whereas, these are about changing the notion of computation itself. |
+
+
+
+
+# Probabilistic Computing
+Probabilistic computing is a field of computer science and artificial intelligence that focuses on the study and implementation of probabilistic algorithms, models, and methods for computation. It aims to build systems that can reason about and handle uncertainty, making probabilistic predictions about the world and making decisions based on those predictions.
+
+* Probabilistic computing is motivated by the fact that real-world problems often involve uncertain and incomplete information. In these cases, it is often more appropriate to represent knowledge as probabilities rather than definite truths. By using probabilistic models, computers can learn from data, make predictions, and solve problems in uncertain environments.
+* Some of the key concepts in probabilistic computing include Bayesian networks, Markov models, Monte Carlo methods, and probabilistic programming languages. These tools and techniques allow computers to perform tasks such as uncertainty quantification, probabilistic inference, and decision-making under uncertainty.
+* Probabilistic computing has a wide range of applications, including machine learning, robotics, computer vision, natural language processing, and cognitive computing. In recent years, the field has seen significant advances, driven by the increasing availability of large amounts of data and the development of powerful computational tools.
+
+* [Waiting for Quantum Computing? Try Probabilistic Computing](https://spectrum.ieee.org/computing/hardware/waiting-for-quantum-computing-try-probabilistic-computing)
+* [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/)
+* [WHAT IS PROBABILISTIC COMPUTING?](https://www.lonja.de/what-is-probabilistic-computing/)
+* [Probabilistic Computation](https://betanalpha.github.io/assets/case_studies/probabilistic_computation.html)
+
 
 
 
@@ -164,34 +215,6 @@ and use very different systems and hardware.
 
 
 
-# How or What is a Quantum Computer Computing?
-
-Does this tell us enough about the distinction between the classical & quantum computing?
-
-| Classical Computing | Quantum Computing  |
-|:--------------------|:-------------------|
-| discrete number of states (zero & one), calcuations with binary bit | infinite, continuious range of states (complex vectors), calculation with qbits |
-| power increase 1-to-1 rleative to number of transistors | power increases expodentially relative to number of qbits |
-| high error rates and must operate at ultra-low tempatures | low error rates and operate at room tempature |
-| well suited for most everyday computational needs | best suited for optiomization problems, simulations, and data analysis |
-| calculations are deterministic (same input creates the same result) | calculations are probalistic (same input creates multiple outputs) |
-| operations are define by boolien algrabra | operatons are defined by linear algrabra over Hilbert Space |
-| circuits are defined by classical physics | circuits are defined by quantum physics |
-
-* [Quantum Computing vs. Classical Computing: Which One Should You Use?](https://levelup.gitconnected.com/quantum-computing-vs-classical-computing-which-one-should-you-use-efab33a09c2f)
-* [Quantum and Classical Computing: Key Differences to Understand](https://www.quantumcomputinginc.com/blog/quantum-and-classical-key-differences/)
-* [Conventional Computing vs Quantum Computing](https://www.geeksforgeeks.org/conventional-computing-vs-quantum-computing/)
-
-
-
-
-# Probabilistic Computing
-* [Waiting for Quantum Computing? Try Probabilistic Computing](https://spectrum.ieee.org/computing/hardware/waiting-for-quantum-computing-try-probabilistic-computing)
-* [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/)
-* [WHAT IS PROBABILISTIC COMPUTING?](https://www.lonja.de/what-is-probabilistic-computing/)
-* [Probabilistic Computation](https://betanalpha.github.io/assets/case_studies/probabilistic_computation.html)
-
-
 # Free Quantum Computing Platforms
 A cross-platform Python library for differentiable programming of quantum computers.
 Train a quantum computer the same way as a neural network.
@@ -238,6 +261,7 @@ Train a quantum computer the same way as a neural network.
 Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuits and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
 
+* [Getting started with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
 * [Getting Started with Qiskit (explained by a software developer, not a quantum physicist)](https://medium.com/queen-of-qiskit/getting-started-with-qiskit-explained-by-a-software-developer-not-a-quantum-physicist-b8ba820685e5)
 * [Qiskit Textbook](https://qiskit.org/learn)
 * [Qiskit Videos](https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A)
