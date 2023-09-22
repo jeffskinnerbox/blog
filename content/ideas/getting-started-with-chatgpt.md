@@ -14,7 +14,6 @@ Version:      0.0.0
 
 
 
-* [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
 * [What runs ChatGPT? Inside Microsoft's AI supercomputer](https://www.youtube.com/watch?v=Rk3nTUfRZmo)
 
 
@@ -40,6 +39,8 @@ Version:      0.0.0
 * [What Are Zero-Shot Prompting and Few-Shot Prompting](https://machinelearningmastery.com/what-are-zero-shot-prompting-and-few-shot-prompting/)
 
 # ChatGPT With Custom Knowledge Base
+* [Using ChatGPT with YOUR OWN Data. This is magical. (LangChain OpenAI API)](https://www.youtube.com/watch?v=9AXP7tCI9PI)
+* [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
 * [How To Build Your Own Custom ChatGPT With Custom Knowledge Base](https://betterprogramming.pub/how-to-build-your-own-custom-chatgpt-with-custom-knowledge-base-4e61ad82427e)
 
 # ChatGPT Combined with Wolfram Alpha
