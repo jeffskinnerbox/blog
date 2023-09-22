@@ -93,18 +93,6 @@ Secure, free document storage from Fidelity - [FidSafe](https://www.fidsafe.com/
 
 
 
-# Will a Job Affect My Social Security?
-Your full retirement age is 66 and 4 months.
-
-You can earn up to $17,640 with no penalty.
-Your benefits are reduced by $1 for every $2 earned over the limit.
-For example, if your retirement job pays $20,000 a year and your Social Security payout is $12,000 a year,
-that payout would fall by $1,480 (about 12%) to $10,520.
-It is still generally advisable to work longer -- and hold off on receiving social security benefits as long as you can.
-You can wait as late as age 70.
-
-* [Source](https://www.surveygizmo.com/s3/4861322/Will-My-Retirement-Job-Affect-Social-Security)
-
 # Tax Burden
 * [Which states have the lowest taxes?](https://usafacts.org/data-projects/states-with-lowest-tax-burden)
 
@@ -178,19 +166,44 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 
 * [Income Annuities Take Risk Out of Retirement](https://www.kiplinger.com/article/retirement/T003-C032-S014-income-annuities-take-risk-out-of-retirement.html)
 
-# Break-Even Age for Taking Social Security
+
+
+
+
+# Social Security
+
+## Break-Even Age for Taking Social Security
+* [When to Start Social Security](https://retirementjobs.com/career-advice/When-to-Start-Social-Security)
 * [Social Security Timing: Age 62 vs. 70](https://www.youtube.com/watch?v=jtBv1HZK0k4)
 * [5 GOOD REASONS to File for Social Security at Age 62](https://www.youtube.com/watch?v=4Gpzw5wcFo4)
 * [Social Security: Aiming for smarter payments](https://www.merrilledge.com/article/when-to-draw-social-security)
 * [How to Calculate the Break-Even Age for Taking Social Security](https://www.kiplinger.com/article/retirement/T051-C032-S014-how-to-calculate-social-security-break-even-age.html)
 
-# Working while Receiving Social Security
+## Working while Receiving Social Security
 * [Working while Receiving Social Security](https://www.youtube.com/watch?v=nsSViIHIm3k)
 * [How Many Hours Can You Work and Still Collect Social Security?](https://www.gobankingrates.com/retirement/social-security/how-many-hours-can-you-work-and-still-collect-social-security/)
 * [Working in Retirement: Social Security and Medicare](https://www.schwab.com/learn/story/working-retirement-how-does-it-affect-social-security-and-medicare)
 
-# Social Security Milestones
+## Social Security Milestones
 * [The Most Important Ages of Retirement](https://www.schwab.com/learn/story/most-important-ages-retirement)
+
+# Will a Job Affect My Social Security?
+Your full retirement age is 66 and 4 months.
+
+You can earn up to $17,640 with no penalty.
+Your benefits are reduced by $1 for every $2 earned over the limit.
+For example, if your retirement job pays $20,000 a year and your Social Security payout is $12,000 a year,
+that payout would fall by $1,480 (about 12%) to $10,520.
+It is still generally advisable to work longer -- and hold off on receiving social security benefits as long as you can.
+You can wait as late as age 70.
+
+* [Source](https://www.surveygizmo.com/s3/4861322/Will-My-Retirement-Job-Affect-Social-Security)
+
+
+
+
+## What Savings Do You Need to Retire
+The typical advice is to replace 70% to 90% of your annual pre-retirement income through savings and Social Security.
 
 # How Do You Compare
 * [Average Retirement Income, Assets, and Debt — How do you compare?](https://medium.com/crows-feet/average-retirement-assets-income-and-debt-how-do-you-compare-b529ffa9d322)
@@ -198,9 +211,6 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 
 # Side Hustle
 * [How To Turn A Side Hustle Into Your Dream Business](https://www.namecheap.com/blog/how-to-turn-a-side-hustle-into-your-dream-business/)
-
-# What Savings Do You Need to Retire
-The typical advice is to replace 70% to 90% of your annual pre-retirement income through savings and Social Security.
 
 * [Retirement Savings: Here’s How Much Cash Baby Boomers Need To Retire in the Next 5 Years](https://www.gobankingrates.com/retirement/planning/retirement-savings-heres-how-much-cash-baby-boomers-need-to-retire-in-the-next-5-years/?item=1232919amp/)
 * [Retirement Savings: Experts Say This Magic Number Is the Key — and It’s Not $1 Million](https://www.gobankingrates.com/retirement/planning/retirement-savings-experts-magic-number-key/)
