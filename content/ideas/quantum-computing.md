@@ -18,8 +18,16 @@ The key sentence: *This is an elementary-level introduction to quantum computing
 Never the less, if you read the course description and syllabus further,
 this course appears to contain much of the material and approach that has disappointed me in the past.
 
+# Origin Story
+* Richard Feynman
+    * [Simulating Physics with Computers](https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf)
+    * [Simulating Physics with Computers: Presented by Pinchas Birnbaum and Eran Tromer](https://www.wisdom.weizmann.ac.il/~naor/COURSE/feynman-simulating.pdf)
+    * [Quantum Machanical Computers](http://www.quantum-dynamic.eu/doc/feynman85_qmc_optics_letters.pdf)
+    * [Richard Feynman: Simulating Physics with Computers](https://www.researchgate.net/publication/254705307_RICHARD_FEYNMAN_SIMULATING_PHYSICS_WITH_COMPUTERS)
+    * [A Summary of Feynman's "Simulating Physics with Computers"](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Quantum_Tutorials_(Rioux)/08%3A_Quantum_Teleportation/8.42%3A_A_Summary_of_Feynman's_Simulating_Physics_with_Computers)
+
 # Preparatory Mathematics and Quantum Mechanics for Quantum Computing
-* Mathematics (Linear Algebra, Probibility)
+* Mathematics (Linear Algebra, Probability)
     * [Preliminary Mathematics for Quantum Computing](https://www.cs.tufts.edu/comp/150QCS/Premath.pdf)
 * Quantum Mechanics
     * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
