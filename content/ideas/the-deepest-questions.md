@@ -181,6 +181,7 @@ BBC Precision The Measure of All Things
 ## What are number systems?
 * [What is a Number System?](https://web.ma.utexas.edu/users/mks/326K04/what.html)
 * [Number Systems Invented to Solve the Hardest Problem - History of Rings | Ring Theory E0](https://www.youtube.com/watch?v=M-9_rZfVQVE)
+* [Straightedge and Compass Construction](https://en.wikipedia.org/wiki/Straightedge_and_compass_construction)
 
 ## What is Physics? What is a Proper Physical Theory?
 * [Tim Maudlin: Ontological Clarity, Electromagnetism and the Aharanov-Bohm Effect (EmQM17)](https://www.youtube.com/watch?v=LUE01tjDAb8)
