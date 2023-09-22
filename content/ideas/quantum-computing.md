@@ -13,6 +13,13 @@ Version:      0.0.0
 
 
 
+# Preparatory Mathematics and Quantum Mechanics for Quantum Computing
+* Mathematics
+    * [Preliminary Mathematics for Quantum Computing](https://www.cs.tufts.edu/comp/150QCS/Premath.pdf)
+* Quantum Mechanics
+    * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
+    * [Quantum mechanics essentials: Everything you need for quantum computation](https://www.youtube.com/watch?v=28ABEInFxBQ)
+
 # What is Computation?
 What do computes do? - Perform computation, by using knowledge, under your direction.  These directions are algorithms.
 Types of knowledge? - Declarative Knowledge which are statement of facts. Imperative Knowledge which is a recipe or "sequence of steps" or "how-to".

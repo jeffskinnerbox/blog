@@ -179,6 +179,7 @@ BBC Precision The Measure of All Things
 * Axiom of Choice: [The most controversial axiom in mathematics and its paradoxes](https://nseverkar.medium.com/the-most-controversial-axiom-in-mathematics-and-its-paradoxes-2c0cdfd725cb)
 
 ## What are number systems?
+* [What is a Number System?](https://web.ma.utexas.edu/users/mks/326K04/what.html)
 * [Number Systems Invented to Solve the Hardest Problem - History of Rings | Ring Theory E0](https://www.youtube.com/watch?v=M-9_rZfVQVE)
 
 ## What is Physics? What is a Proper Physical Theory?
