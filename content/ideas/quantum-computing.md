@@ -9,31 +9,55 @@ Version:      0.0.0
 </div>
 
 
+
 -----
 
 
+I found the word to describe what I was looking for in the description of the Tufts University's course [CS 150: Quantum Computer Science](https://www.cs.tufts.edu/comp/150QCS/).
+The key sentence: *This is an elementary-level introduction to quantum computing through the computer science lens.*
+Never the less, if you read the course description and syllabus further,
+this course appears to contain much of the material and approach that has disappointed me in the past.
 
 # Preparatory Mathematics and Quantum Mechanics for Quantum Computing
-* Mathematics
+* Mathematics (Linear Algebra, Probibility)
     * [Preliminary Mathematics for Quantum Computing](https://www.cs.tufts.edu/comp/150QCS/Premath.pdf)
 * Quantum Mechanics
     * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
     * [Quantum mechanics essentials: Everything you need for quantum computation](https://www.youtube.com/watch?v=28ABEInFxBQ)
+* Computer Science
+    * [Undergrad Complexity at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
+    * [Great Ideas in Theoretical Computer Science at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3aafQm568blS9blxtA_EWQv)
+    * [CS Theory Toolkit at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX)
 
 # What is Computation?
-What do computes do? - Perform computation, by using knowledge, under your direction.  These directions are algorithms.
+What is computation? - The rigorous study of manipulation of information / data.
+What is Computer Science? - Computer Science is the science of computation.
+What do computes do? - Perform computation, by using knowledge, under your direction. These directions are algorithms.
 Types of knowledge? - Declarative Knowledge which are statement of facts. Imperative Knowledge which is a recipe or "sequence of steps" or "how-to".
 What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) flow of control that specifies when each step is executed, (3) a means of determining when to stop.
 
 * [What is Computation?](https://www.youtube.com/results?search_query=What+is+Computation%3F) - start at 7 minutes
 
 # What is Quantum Computation?
-Using Scratch
-* [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
-* [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
-* [Scratch Quantum Computer](https://scratch.mit.edu/projects/875118011/editor/)
+* [The Quantum Computing Advantage](https://www.youtube.com/watch?v=PXQ-sh07eBw)
+* Using Scratch: [Scratch Quantum Computer](https://scratch.mit.edu/projects/875118011/editor/)
+    * [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
+    * [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
 
-* [Learning About Quantum States](https://www.youtube.com/playlist?list=PLm3J0oaFux3biM7DgkmjSWAikhgQm6xbv)
+# Is Quantum Computing Really Probabilistic Computing?
+In a quantum computation, we are not controlling probabilities but amplitudes, which can be positive, negative, or even imaginary. This makes it possible to extract the solution by canceling out the amplitudes of the other bit vectors. This phenomenon is called interference.
+
+* [What is Probabilistic Computing, and how does it work?](https://medium.com/digital-architecture-lab/what-is-probabilistic-computing-and-how-does-it-work-1efea7d780c9)
+* [Probability vs quantum computing](https://www.linkedin.com/pulse/probability-vs-quantum-computing-david-radcliffe/)
+
+
+
+
+
+-----
+
+
+
 
 # Quantum Computing
 * [Quantum Computing for Beginners](https://dev.to/taradev/series/23332)
@@ -43,6 +67,8 @@ Using Scratch
 * [Quantum Computing for Computer Scientists](https://www.youtube.com/watch?v=F_Riqjdh2oM&list=PLD7HFcN7LXRcKEiyRxdTDVRaMZQDhojhb)
 * [Quantum Computing](https://www.youtube.com/playlist?list=PLxP0p--aBHmIe--9rczWe4AZmw03e2bz0)
 
+* [Learning About Quantum States](https://www.youtube.com/playlist?list=PLm3J0oaFux3biM7DgkmjSWAikhgQm6xbv)
+* [Quantum Computation and Information at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz)
 
 # How Does a Quantum Computer Work?
 * [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
