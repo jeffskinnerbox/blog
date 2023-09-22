@@ -239,6 +239,12 @@ An attempt to connect different "continents" of mathematics
 # Symmetry
 * [The Mathematics of Symmetry](https://www.youtube.com/watch?v=YBhqFs6VkxY)
 
+## Modular Forms
+German mathematician Martin Eichler said
+"There are five fundamental operations in mathematics: Addition, subtraction, multiplication, division and modular forms."
+
+* [Behold Modular Forms, the ‘Fifth Fundamental Operation’ of Math](https://www.quantamagazine.org/behold-modular-forms-the-fifth-fundamental-operation-of-math-20230921/?mc_cid=732b2ea229&mc_eid=a88c5dceda)
+
 # The Infinite and Infinitesimal
 * [Things get weird at infinity](https://www.youtube.com/watch?v=6HybPBUNzz8)
 * [Infinities and Skepticism in Mathematics: Steve Patterson interviews N J Wildberger](https://www.youtube.com/watch?v=E_dGqavx5AU)
