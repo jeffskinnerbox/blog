@@ -28,6 +28,16 @@ Version:      0.0.0
 ################################## Junk ########################################
 
 
+
+
+# Can You Simplify With This Approach?
+* [Atomic Clock Sync: ESP32 NTP Magic in Just 2 Lines of Code!](https://www.youtube.com/watch?v=K7HHSdpa9t0)
+
+
+
+
+
+
 # Swiss Railway Clock Design
 * [Mondaine](https://mondaine.com/collections/clocks?gclid=CjwKCAjwvdajBhBEEiwAeMh1UxznimxNzUIkfqNSUaTJ0SsMbIYC5gH-rNjFsH64nMYZzc8P0R8jnxoCiUwQAvD_BwE)
 * [Swiss Railway Clock: About The Iconic Design](https://expertworldtravel.com/swiss-railway-clock/)
