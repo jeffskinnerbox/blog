@@ -60,6 +60,10 @@ This can be done by making use of:
 * [GitHub for DNS-DriveBy](https://github.com/AlexLynd)
 * [GPS Module GPS NEO-6M](https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT)
 
+# Streaming Video & Audio - ESP32 TV
+* [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
+    * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
+
 ## Other Ideas
 * [Whisper AI](https://openai.com/blog/whisper/)
 * [The WhisperFrame Generates Art From Conversations](https://morehavoc.com/2023/09/17/whisperframe.html)
