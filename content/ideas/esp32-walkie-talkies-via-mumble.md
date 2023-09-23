@@ -123,6 +123,11 @@ Sources:
 * ESP-NOW
     * [#172 Hidden: ESP32 and ESP8266 point-to-point (ESP-Now): Fast and efficient. Comparison with LoRa][46]
 
+Good sources for audio examples:
+* [Phil Schatzmann: Machine Sound](https://www.pschatzmann.ch/home/category/machine-sound/)
+* [ESP32 Sound - Working with I2S](https://www.youtube.com/watch?v=m-MPBjScNRk)
+* [Atomic14: Audio Input](https://www.atomic14.com/tag/audio-input.html)
+
 ## ESP32 Walkie-Talkie: Bill of Materials (BOM)
 To make and test two ESP32 Walkie-Talkie, I used the following materials:
 
