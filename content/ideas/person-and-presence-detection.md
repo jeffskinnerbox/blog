@@ -62,6 +62,7 @@ This can be done by making use of:
 
 ## Other Ideas
 * [Whisper AI](https://openai.com/blog/whisper/)
+* [The WhisperFrame Generates Art From Conversations](https://morehavoc.com/2023/09/17/whisperframe.html)
 * [Stanford Webinar - GPT-3 & Beyond](https://www.youtube.com/watch?v=-lnHHWRCDGk&t=509s)
 * [The Infinite Conversation](https://infiniteconversation.com/)
 * [Why we should worry less about ‘sentient’ AIs and more about what we’re teaching them](https://aeon.co/videos/why-we-should-worry-less-about-sentient-ais-and-more-about-what-were-teaching-them)
@@ -82,7 +83,7 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [OpenAI Codex](https://openai.com/blog/openai-codex/)
 
 # Make it Speak
-* [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaay.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
+* [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaday.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
     * [Piper](https://rhasspy.github.io/piper-samples/)
     * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
