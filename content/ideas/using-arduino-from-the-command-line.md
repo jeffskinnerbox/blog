@@ -134,7 +134,6 @@ Sources
 ```bash
 # to find the path to the arduino ide
 whereis arduino
-readlink $(whereis arduino | awk '{ print $2 }')
 
 # copy your executable
 cp -r ~/bin/arduino ~/tmp/arduino
@@ -150,6 +149,9 @@ rm ~/bin/arduino
 # remove the entire arduino ide directory
 cd ~
 rm -r -f ~/src/arduino
+
+# remove any appimage you have for arduino ide
+rm -r -f ~/bin/arduino-ide*.AppImage
 ```
 
 #### Step 2: Installing Arduino IDE - DONE
@@ -175,12 +177,9 @@ a new version if one is available.)
 # download the software - arduino-ide_2.0.3_Linux_64bit.zip
 # from https://www.arduino.cc/en/software
 
-# uncompress the zip file
-#cd ~/Downloads
-#wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.3_Linux_64bit.zip
-#unzip arduino-ide_2.0.3_Linux_64bit.zip
+# download the appimage file
 cd ~/bin
-wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.0.3_Linux_64bit.AppImage
+wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.2.1_Linux_64bit.AppImage
 ```
 
 Before we can launch the Arduino IDE,
@@ -195,7 +194,11 @@ This is done by:
 Now make it executable from your `bin`:
 
 ```bash
-ln -s ~/src/arduino/arduino-ide_2.0.3_Linux_64bit.AppImage* ~/bin/arduino
+# make the appimage executable
+chmod ug+x arduino-*.AppImage
+
+# make it executable as 'arduino'
+ln -s /home/jeff/bin/arduino-ide_2.2.1_Linux_64bit.AppImage /home/jeff/bin/arduino
 ```
 
 #### Step 3: Quick Test - DONE
@@ -307,7 +310,9 @@ any other version that may be in your `$PATH`.
 ```bash
 # check the version of arduino-cli your using
 $ arduino-cli version
-arduino-cli Version: 0.8.0 Commit: 64c501d
+arduino-cli  Version: 0.29.0 Commit: 76251df9 Date: 2022-11-17T09:21:40Z
+A new release of Arduino CLI is available: 0.29.0 → 0.34.2
+https://arduino.github.io/arduino-cli/latest/installation/#latest-packages
 
 # remove executable in your PATH
 sudo rm -rf ~/bin/arduino-cli /usr/bin/arduino-cli /usr/local/bin/arduino-cli
@@ -478,6 +483,7 @@ arduino-cli core update-index
 
 Next, Follow these steps in your Arduino IDE:
 
+* execute `arduino` on the commandline
 * Goto **File** > **Preferences**
 * Enter the following into the **Additional Board Manager URLs** field:
     * `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json,
@@ -509,11 +515,15 @@ since its not within my $PATH
 The fix is the following:
 
 ```bash
-# check the esptool is executable
-$ ls -l ~/.arduino15/packages/esp32/tools/esptool_py/4.2.1/esptool*
+# remove any old symbolic link to esptool
+rm -f -f ~/bin/esptool
+
+# check the newly install esptool is executable
+$ ls -l ~/.arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool*
+chmod ug+x ~/.arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool.py
 
 # create a symbolic link to the esptool executable
-$ ln -s ~/.arduino15/packages/esp32/tools/esptool_py/4.2.1/esptool.py ~/bin/esptool
+ln -s ~/.arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool.py ~/bin/esptool
 
 # test you can now reach it
 $ esptool
