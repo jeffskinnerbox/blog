@@ -12,6 +12,11 @@ Version:      0.0.0
 -----
 
 
+
+* [Simple IoT Telegram Notifications & Commanding, Node-RED & Telegram Integration](https://www.youtube.com/watch?v=bGzOImDQlo0)
+
+
+
 # Raspberry Pi IoT Server
 * [Raspberry Pi IoT Server Tutorial: InfluxDB, MQTT, Grafana, Node-RED & Docker](https://www.youtube.com/watch?v=_DO2wHI6JWQ)
 * [#295 Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc: IOTstack](https://www.youtube.com/watch?v=a6mjt8tWUws)
