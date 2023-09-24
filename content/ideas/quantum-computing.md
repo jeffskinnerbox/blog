@@ -61,6 +61,15 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 * [What is Probabilistic Computing, and how does it work?](https://medium.com/digital-architecture-lab/what-is-probabilistic-computing-and-how-does-it-work-1efea7d780c9)
 * [Probability vs quantum computing](https://www.linkedin.com/pulse/probability-vs-quantum-computing-david-radcliffe/)
 
+# Learning to Live With Quantum Weirdness
+* [Understanding Quantum Mechanics](https://www.youtube.com/watch?v=Wsjgtp9XZxo&list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL)
+
+# Quantum Mechanics & Chaos
+* [Chaos: The real problem with quantum mechanics](https://www.youtube.com/watch?v=LJzKLTavk-w&t=10s)
+* [Chaos and the semiclassical limit of quantum mechanics (is the moon there when somebody looks?)](https://michaelberryphysics.files.wordpress.com/2013/07/berry337.pdf)
+* [Quantum Hyperion](https://www.preposterousuniverse.com/blog/2008/10/23/quantum-hyperion/)
+* [Quantum Chaos](https://www.scientificamerican.com/article/quantum-chaos-subatomic-worlds/)
+
 
 
 
