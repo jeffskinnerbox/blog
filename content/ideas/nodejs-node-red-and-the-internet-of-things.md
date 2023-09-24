@@ -28,6 +28,13 @@ Version:      0.0.0
     * [Node-RED](https://nodered.org/)
 
 
+# FlowForge / FlowFuse
+FlowForge is changing its name to FlowFuse
+* [FlowForge](https://www.youtube.com/watch?v=K4xw09DbSdI)
+
+
+
+
 
 
 Overall, you can be pretty underwhelmed by some of the implementations for the Internet of Things.
