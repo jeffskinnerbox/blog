@@ -307,6 +307,7 @@ Doesn't seem to work???
 * [Know Audio: Amplifier Nuts And Bolts](https://hackaday.com/2021/08/24/know-audio-amplifier-nuts-and-bolts/)
 * [From Nanoamps To Gigahertz: The World’s Most Extreme Op-Amps](https://hackaday.com/2022/01/06/from-nanoamps-to-gigahertz-the-worlds-most-extreme-op-amps/)
 * [How To Spot A Fake Op-Amp](https://hackaday.com/2022/02/05/how-to-spot-a-fake-op-amp/)
+* [AD827 Fast Opamp](https://www.youtube.com/watch?v=vVwu9b_ZXho)
 
 * [Homemade Operational Amplifier](https://hackaday.io/project/176860-homemade-operational-amplifier)
 * [Op-Amp Challenge: MOSFETs Make This Discrete Op Amp Tick](https://hackaday.com/2023/05/20/op-amp-challenge-mosfets-make-this-discrete-op-amp-tick/)
