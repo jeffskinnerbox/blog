@@ -82,6 +82,7 @@ Version:      0.0.0
 * [How to design Complete Drone Overview](https://grabcad.com/tutorials/how-to-design-complete-drone-overview)
 * [The Top 6 Frames to 3D Print for Your DIY Drone](https://www.makeuseof.com/top-frames-to-3d-print-for-diy-drone/)
 * [DIY drone: Learn How to Build Your Own Quadcopter Drone](https://interestingengineering.com/innovation/diy-drone-learn-how-to-build-your-own-quadcopter-drone)
+* [Exploring Ground-Effect With A Quadcopter](https://hackaday.com/2023/09/23/exploring-ground-effect-with-a-quadcopter/)
 
 Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and drone enthusiasts.
 * [Carbon Aeronautics](https://www.youtube.com/@carbonaeronautics/videos)
