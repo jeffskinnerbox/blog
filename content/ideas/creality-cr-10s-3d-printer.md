@@ -600,6 +600,7 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 # PLA Smoothing
 * [PLA Smoothing 3D Prints with 3D Gloop!](https://www.youtube.com/watch?v=vQc5TBPF8uw)
 * [3D Print Finishing By Spraying Glazing Putty](https://hackaday.com/2022/05/10/3d-print-finishing-by-spraying-glazing-putty/)
+* [Powder Your Prints For Baby-Smoothness](https://hackaday.com/2023/09/24/powder-your-prints-for-baby-smoothness/)
 
 # Gluing PLA
 [Locally Sourced: PLA Adhesive](https://hackaday.com/2018/02/07/locally-sourced-pla-adhesive/)
