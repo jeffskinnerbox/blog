@@ -71,6 +71,24 @@ Open-source intelligence is the collection and analysis of data gathered from op
 
 
 
+# About Zero Trust Authentication
+Zero Trust Authentication is a brand-new concept that seeks to revolutionise how we think about the relationship between authentication and security. It was developed in response to the failure of traditional authentication methods.
+
+The traditional approach to security was to establish a perimeter around the network and trust users and devices within that perimeter.
+
+However, the shift to the cloud coupled with new hybrid and remote working models means users are working and accessing resources from anywhere. As a result, the perimeter-based model has failed.
+
+With a zero trust approach, there is no network-based perimeter, and no implicit trust is granted. Instead, each user and each device need to prove it is trustworthy, therefore, Zero Trust Authentication is a core element of any complete zero trust strategy.
+
+* [Zero Trust Authentication: 7 key principles of the new security concept](https://www.innovationnewsnetwork.com/zero-trust-authentication-7-key-principles-new-security-concept/37607/)
+
+# IoT Endpoint Security
+* [Unlocking IoT Endpoint Security in 2023: What You Need to Know](https://securityboulevard.com/2023/09/unlocking-iot-endpoint-security-in-2023-what-you-need-to-know/)
+
+
+
+
+
 https://www.symantec.com/page.jsp%3Fid%3D1024-bit-migration-faq
 
 https://en.wikipedia.org/wiki/Public_key_certificate
