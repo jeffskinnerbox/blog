@@ -153,6 +153,8 @@ Wood fills.
 * [Carbon Fiber Reinforced PLA](https://www.matterhackers.com/store/c/Carbon%20Fiber%20Reinforced%20PLA)
 * [Hatchbox CARBON FIBER PLA FILAMENT - 1.75MM, 1KG SPOOL](https://www.hatchbox3d.com/products/3d-pla-1kg1-75-carbon)
 
+* [Carbon Fiber with 3D Printing](https://hackaday.com/2023/09/25/carbon-fiber-with-3d-printing/)
+
 ## Transparent 3D Prints
 * [Transparent 3D Prints](https://www.youtube.com/watch?v=92C10-n21Po)
 
