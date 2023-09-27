@@ -25,6 +25,7 @@ Version:      0.0.0
 
 
 
+* [OpenMV CAM RT1062 board for Machine Vision with MicroPython](https://linuxgizmos.com/openmv-cam-rt1062-board-for-machine-vision-with-python/)
 * [OpenMV Cam H7 - Machine Vision w/ MicroPython](https://www.kickstarter.com/projects/1798207217/openmv-cam-h7-machine-vision-w-micropython)
 * [OpenMV H7 Product Line](https://www.youtube.com/watch?v=E6SCejAeDSs)
 * [MicroPython class for OV2640 Camera](https://github.com/namato/micropython-ov2640)

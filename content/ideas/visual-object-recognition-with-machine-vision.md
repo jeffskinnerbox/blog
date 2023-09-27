@@ -484,6 +484,7 @@ and connecting it to a desktop or laptop computer.
 
 # OpenMV Cam M7 / H7
 * https://openmv.io/
+* [OpenMV CAM RT1062 board for Machine Vision with MicroPython](https://linuxgizmos.com/openmv-cam-rt1062-board-for-machine-vision-with-python/)
 * [OpenMV Cam M7](https://www.sparkfun.com/products/14185)
 * [OpenMV Cam M7](https://openmv.io/products/openmv-cam-m7)
 * [OpenMV Videos](https://www.youtube.com/channel/UCk43Dxy_qcwwYyLsP6EWatQ)
