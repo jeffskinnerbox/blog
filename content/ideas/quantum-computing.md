@@ -310,6 +310,13 @@ Train a quantum computer the same way as a neural network.
 ## Simple Simulator
 * [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
 
+## Cirq
+Cirq is an open source framework for programming quantum computers.
+Cirq is a Python software library for writing, manipulating, and optimizing quantum circuits, and then running them on quantum computers and quantum simulators. Cirq provides useful abstractions for dealing with today’s noisy intermediate-scale quantum computers, where details of the hardware are vital to achieving state-of-the-art results.
+
+* [Cirq](https://quantumai.google/cirq)
+* [Google Quantum AI](https://quantumai.google)
+
 ## Qiskit
 Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuits and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
