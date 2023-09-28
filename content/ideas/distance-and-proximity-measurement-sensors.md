@@ -49,6 +49,8 @@ Version:      0.0.0
     * [GitHub: stm32duino/VL53L7CX](https://github.com/stm32duino/VL53L7CX)
 * [RGB-D 3D ToF Sensor Camera (Supports ROS1 and ROS2)](https://www.dfrobot.com/product-2740.html?tracking=650189d06634f)
 
+* [Mini Laser Distance Range Sensor (4m, I2C, IP67)](https://www.dfrobot.com/product-2727.html)
+
 # Walking Speed
 * [Measuring Walking Speed Wirelessly](http://hackaday.com/2017/05/10/measuring-walking-speed-wirelessly/)
 
