@@ -471,6 +471,8 @@ The philosophical methods include questioning, critical discussion, rational arg
 So [what is Philosophy][04], [why do you need to know about it][05], [is it at all useful][06],
 and by the way, [isn't it dead][07]?
 
+* [The 8 Greatest Philosophical Theories You Need to Know](https://www.youtube.com/watch?v=WxMrwPmgSqc)
+
 * [Carneades.org](https://carneades.org/)
 * [Youtube: Carneades.org](https://www.youtube.com/user/carneadesofcyrene)
 * [Wireless Philosophy](https://www.youtube.com/channel/UCpvhlSLzg2LT89FNUuN-Sig)
