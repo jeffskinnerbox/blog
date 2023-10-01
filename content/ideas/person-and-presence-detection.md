@@ -63,6 +63,7 @@ This can be done by making use of:
 # Streaming Video & Audio - ESP32 TV
 * [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
     * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
+    * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
     * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
 
 ## Other Ideas
