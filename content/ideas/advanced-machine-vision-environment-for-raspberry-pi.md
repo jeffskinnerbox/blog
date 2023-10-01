@@ -143,6 +143,7 @@ and you can purchase it [on Tindie][90].
 * config.txt - Overclocking options - https://www.raspberrypi.org/documentation/configuration/config-txt/overclocking.md
 * [Overclock Your Raspberry Pi The Right Way](https://hackaday.com/2018/01/16/__trashed-5/)
 * [How to Overclock Any Raspberry Pi](https://www.tomshardware.com/how-to/overclock-any-raspberry-pi)
+* [Raspberry Pi 5 became 25% faster by changing some numbers in the configuration file](https://technewsspace.com/raspberry-pi-5-became-25-faster-by-changing-some-numbers-in-the-configuration-file/)
 
 # Embedded Learning Library (ELL)
 The Microsoft's [Embedded Learning Library (ELL)][03]
