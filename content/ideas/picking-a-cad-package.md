@@ -41,6 +41,7 @@ Version:      0.0.0
     * Electronics Design Automation (EDA)
         * [KiCad](http://www.kicad-pcb.org/)
         * [Flux.ai: Online PCB Design](https://www.hackster.io/videos/1372)
+        * [LibrePCB](https://librepcb.org/)
 * Browser Based CAD
     * [Open Source CAM Software In The Browser](https://hackaday.com/2021/03/01/open-source-cam-software-in-the-browser/)
     * [ Kiri:Moto](https://grid.space/kiri/)
@@ -81,6 +82,7 @@ Upverter is a modular, web-based tool that does it all — PCB design, schematic
 * [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/uploads/Main/SiliconeDevices/SiliconeDevices.pdf)
 
 ## LibrePCB
+* [Review: LibrePCB Hits Version 1.0](https://hackaday.com/2023/10/03/review-librepcb-hits-version-1-0/)
 * [LibrePCB](https://librepcb.org/)
 * [Review: Testdriving LibrePCB Shows That It’s Growing Up Fast](https://hackaday.com/2020/01/22/review-testdriving-librepcb-shows-that-its-growing-up-fast/)
 * [Introduction to LibrePCB A new, powerful and intuitive EDA tool for everyone](https://www.youtube.com/watch?v=vu-h5y6tK34&t=10s)
