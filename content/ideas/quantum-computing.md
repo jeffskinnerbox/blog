@@ -318,13 +318,14 @@ Cirq is a Python software library for writing, manipulating, and optimizing quan
 * [Google Quantum AI](https://quantumai.google)
 
 ## Qiskit
-Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuits and application modules.
+Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuitsZZ and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
 
 * [Getting started with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
 * [Getting Started with Qiskit (explained by a software developer, not a quantum physicist)](https://medium.com/queen-of-qiskit/getting-started-with-qiskit-explained-by-a-software-developer-not-a-quantum-physicist-b8ba820685e5)
 * [Qiskit Textbook](https://qiskit.org/learn)
 * [Qiskit Videos](https://www.youtube.com/channel/UClBNq7mCMf5xm8baE_VMl3A)
+* [A guide to the Qiskit circuit library](https://medium.com/qiskit/a-guide-to-the-qiskit-circuit-library-36ee0f189956)
 * [Quantum Computer Coin Flips in Python Are Pure Fun](https://towardsdatascience.com/flip-a-coin-on-a-real-quantum-computer-in-python-df51e5f2367b)
 * [Quantum Computing With QISKit](https://hackaday.com/2019/04/02/quantum-computing-with-qiskit/)
 * [Coding with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-Vvp2xg9-POLJhQwtVktlYGbY)
