@@ -254,6 +254,32 @@ Sources:
 * [#419 ESP32 Audio Tutorial with lots of examples][50]
 * [GitHub: pschatzmann/arduino-audio-tools](https://github.com/pschatzmann/arduino-audio-tools)
 * [Audio Tools Wiki](https://github.com/pschatzmann/arduino-audio-tools/wiki/Introduction)
+* [ArduinoAudioTools: Playing Movies ?](https://www.pschatzmann.ch/home/2023/05/06/arduinoaudiotools-playing-movies/)
+
+## What are C++ Streams?
+One of the standout features of C++ is its built-in support of streams.
+In C++, a stream refers to a sequence of characters that are transferred between
+the program and I/O devices.
+So stream classes in C++ facilitate input and output operations on files and other I/O devices;
+between the CPU and external devices.
+These classes have specific features to handle program input and output,
+making it easier to write portable code that can be used across multiple platforms.
+
+The four essential C++ stream classes:
+
+* `istream` is a general purpose input stream.
+* `ostream` is a general purpose output stream.
+* `ifstream` is an input file stream. It is a special kind of an istream that reads in data from a data file.
+* `ofstream` is an output file stream. It is a special kind of ostream that writes data out to a data file.
+
+C++ makes heavy use of a concept called inheritance,
+in which some classes inherit the properties of previously written classes.
+Audio Tools make use of `istream` and `ostream` as base classes to create classes with
+properties useful for handling audio data from dwevices.
+
+Sources
+
+* [Introduction to C / C++ Programming File I/O](https://www.cs.uic.edu/~jbell/CourseNotes/CPlus/FileIO.html)
 
 #### Step 1: Installation in Arduino IDE - DONE
 You can download the AudioTools library as a zip file,

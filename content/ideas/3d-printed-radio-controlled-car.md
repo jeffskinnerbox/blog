@@ -8,6 +8,13 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/we-do-this-not-because-it-is-easy.jpg" title="U.S. President John F. Kennedy said this in his moon speech at Rice University in Houston, Texas, on September 12, 1962:
+
+ We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
+</div>
+
+
 
 -----
 
@@ -46,6 +53,9 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 * See  - /home/jeff/blogging/content/ideas/3d-printed-radio-controlled-car.md
 
 
+# Tarmo By Engineering Nonsense
+
+## Tarmo5
 * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
     * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
     * [Tarmo5 Build, First Run and Initial Impressions](https://www.youtube.com/watch?v=heEsQMkIaAc)
@@ -53,8 +63,13 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
     * [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
     * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
 
+## Tormo4
 * [Tarmo4 | 3D Printed RC Car](https://www.youtube.com/watch?v=MKqQPTEXJpI)
+* [3D Printing an RC Car for the First Time](https://www.youtube.com/watch?v=8MLCOW4ptQk)
+* [Tarmo4 RC Project By Engineering Nonsense](https://docs.google.com/document/d/1hfrpDU1DQm6QKrioJsxxcMdq8ormYTlwAHaiswDuSHI/edit?pli=1)
+* [Tarmo4 Review! - Should you build a 3d printed 4wd rc performance racer?](https://www.youtube.com/watch?v=WWiT4WwrUeU)
 
+## Tormo3
 * [Excellent 3D-Printed RC Car Features Variety of Drivetrain Options](https://blog.hackster.io/excellent-3d-printed-car-features-variety-of-drivetrain-options-d8c1c552b285)
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
     * [3D Printed RC Car V3 -- Tarmo3 -- Front Parts](https://www.thingiverse.com/thing:3546277)
@@ -62,7 +77,20 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
     * [3D Printed RC Car v3 -- Tarmo3 -- Rear Parts](https://www.thingiverse.com/thing:3545173)
     * [BOM](https://docs.google.com/spreadsheets/d/10gS0H6_ADVWPt2O_ZIXLfmCgJAxFySBps5DkU6ocSow/edit#gid=0)
 
+# Robak
+* [Robak 2 | DIY RC Car | Build](https://www.youtube.com/watch?v=374VbFoaV5E)
+* [Robak 2 - 3D Printed 4WD RC Car](https://www.youtube.com/watch?v=F26V_r6WmN0)
+* [Robak 2 Testing and Upgrades](https://www.youtube.com/watch?v=ExpsfckmUg4&t=25s)
+
+# Other
 * [3D Printed RC Car is Geared For Speed](https://hackaday.com/2023/09/13/3d-printed-rc-car-is-geared-for-speed/)
+* Raptor II [thehardwareguy](https://www.youtube.com/playlist?list=PLP1rv37BojTfHLcvD_9Ldd9X99ocz9ZQP)
+* [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA&t=324s)
+
+
+
+
+
 
 
 * [combine multiple .STL files to create a re-mix object](https://www.youtube.com/watch?v=sUe-Lnioagk)
