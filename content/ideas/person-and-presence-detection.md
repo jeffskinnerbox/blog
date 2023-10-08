@@ -105,6 +105,7 @@ This guide will show you how to create your own never-ending story book using a 
 a touch screen display, and ChatGPT.
 
 * [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
+* M5Stack’s M5Dial – [An ESP32-S3 smart rotary knob with a touchscreen display](https://www.cnx-software.com/2023/10/08/m5dial-an-esp32-s3-smart-rotary-knob-with-a-touchscreen-display/)
 
 # AI Generated Text to Speech
 
