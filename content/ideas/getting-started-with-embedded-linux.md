@@ -34,6 +34,13 @@ Version:      0.0.0
 
 # Potential Tools for Embedded Linux
 
+## SerenityOS
+A graphical Unix-like operating system for desktop computers!
+SerenityOS is a love letter to '90s user interfaces with a custom Unix-like core. It flatters with sincerity by stealing beautiful ideas from various other systems.
+Roughly speaking, the goal is a marriage between the aesthetic of late-1990s productivity software and the power-user accessibility of late-2000s *nix.
+
+* [SerenityOS](https://serenityos.org/)
+
 ## Newlib
 Newlib is a C library intended for use on embedded systems. It is a conglomeration of several library parts, all under free software licenses that make them easily usable on embedded products.
 
