@@ -113,6 +113,9 @@ is a full-service Internet of Things provider, providing the required resources 
 # SmartFun
 * [SparkFun LoRa Thing Plus - ExpLoRaBLE](https://www.sparkfun.com/products/17506)
 
+# ESP32-based LoRaWan Gateway
+* [ESP32-based LoRaWan Gateway Module with 1.8” LCD](https://linuxgizmos.com/esp32-based-lorawan-gateway-module-with-1-8-lcd/)
+
 # Long Range Mode for ESP32
 * [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
 * [Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A)
