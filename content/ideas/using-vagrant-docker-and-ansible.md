@@ -33,6 +33,9 @@ ansible semaphore designed for devops, has access controls to assure secure depl
 * [simple ci/cd on ansible semaphore ui](https://dev.to/fiftin/simple-cicd-on-ansible-semaphore-4k17)
 
 
+* [Ansible by Example](https://dzone.com/articles/ansible-boots-kubernetes)
+
+
 
 
 
