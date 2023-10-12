@@ -68,6 +68,8 @@ Picolibc is library offering standard C library APIs that targets small embedded
 
 ## μClinux
 * [μClinux](https://en.wikipedia.org/wiki/%CE%9CClinux)
+* [Tiny Linux On A No-MMU RISC-V Microcontroller](https://hackaday.com/2023/10/11/tiny-linux-on-a-no-mmu-risc-v-microcontroller/)
+    * [789 KB Linux Without MMU on RISC-V](https://popovicu.com/posts/789-kb-linux-without-mmu-riscv/)
 
 ## X1501 Pico SoM
 * [X1501 Pico SoM – MIPS, Linux in a 16x16mm module](https://www.cnx-software.com/2022/06/06/x1501-pico-som-mips-linux-in-a-16x16mm-module/)
@@ -87,6 +89,7 @@ a piece of software that brings both RISC-V and x86 to limited-spec platforms.
 
 ## Linux on ESP32-S3
 * [Run Linux on ESP32 - how to run the Linux kernel on an ESP32](https://www.youtube.com/watch?v=5oKeVyxgwzk)
+* [GitHub: xhackerustc/uc-rv32ima](https://github.com/xhackerustc/uc-rv32ima)
 
 ## Bootloader
 [uboot][29] which is a popular [bootloader][30] that
