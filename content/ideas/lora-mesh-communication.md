@@ -29,6 +29,16 @@ Version:      0.0.0
 * [Meshtastic For The Greater Good](https://hackaday.com/2023/06/26/meshtastic-for-the-greater-good/)
 * [LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU&feature=youtu.be)
 
+# Meshtastic Tracking
+setting up an Owntracks service, and then tying it to Meshtastic for off-Internet usability. The backbone that makes this work is MQTT.
+
+* [Meshtastic And Owntracks To Kick Your Google Habit](https://hackaday.com/2023/10/11/meshtastic-and-owntracks-to-kick-your-google-habit/)
+    * [GitHub: jp-bennett/owntracks-meshtastic](https://github.com/jp-bennett/owntracks-meshtastic)
+    * [Meshtastic](https://meshtastic.org/)
+    * [Owntracks](https://owntracks.org/)
+    * [Owntracks Reorder](https://github.com/owntracks/recorder)
+    * [Owntracks Frontend](https://github.com/owntracks/frontend)
+
 # Austin Mesh
 * [Austin Mesh](https://austinmesh.org/)
 * [AustinMesh.org solar powered Meshtastic network](https://www.youtube.com/watch?v=XXbdW5C9r9g)
