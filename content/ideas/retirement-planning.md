@@ -172,6 +172,30 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 
 # Social Security
 
+## Taxes on Social Security
+You will pay tax on only 85% of your Social Security benefits, based on Internal Revenue Service (IRS) rules.
+If you:
+
+* **file a federal tax return as an "individual"** and your combined income is
+    * between $25,000 and $34,000, you may have to pay income tax on up to 50 percent of your benefits.
+    * more than $34,000, up to 85 percent of your benefits may be taxable.
+* **file a joint return**, and you and your spouse have a combined income that is
+    * between $32,000 and $44,000, you may have to pay income tax on up to 50 percent of your benefits.
+    * more than $44,000, up to 85 percent of your benefits may be taxable.
+* **are married and file a separate tax return**, you probably will pay taxes on your benefits.
+
+Each January, you will receive a Social Security Benefit Statement (Form SSA-1099) showing the amount of benefits you received in the previous year. You can use this Benefit Statement when you complete your federal income tax return to find out if your benefits are subject to tax.
+
+If you do have to pay taxes on your Social Security benefits, you can make quarterly estimated tax payments to the IRS or choose to have federal taxes withheld from your benefits.
+
+Social Security can potentially be subject to tax regardless of your age. While you may have heard at some point that Social Security is no longer taxable after 70 or some other age, this isn't the case. In reality, Social Security is taxed at any age if your income exceeds a certain level.
+
+* [Income Taxes And Your Social Security Benefit](https://www.ssa.gov/benefits/retirement/planner/taxes.html)
+* [Taxes on Social Security: 2 ways to save](https://www.fidelity.com/viewpoints/retirement/taxes-on-social-security)
+* [Social Security Is Taxable? How to Minimize Taxes](https://www.schwab.com/learn/story/social-security-is-taxable-how-to-minimize-taxes)
+* [7 Things to Know About Social Security and Taxes](https://www.aarp.org/retirement/social-security/info-2023/social-security-taxes.html)
+* [When You Need to Pay Taxes on Social Security](https://money.usnews.com/money/retirement/social-security/articles/when-you-need-to-pay-taxes-on-social-security)
+
 ## Break-Even Age for Taking Social Security
 * [When to Start Social Security](https://retirementjobs.com/career-advice/When-to-Start-Social-Security)
 * [Social Security Timing: Age 62 vs. 70](https://www.youtube.com/watch?v=jtBv1HZK0k4)
