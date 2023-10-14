@@ -15,6 +15,7 @@ Version:      0.0.0
 
 * [CircutHub](https://circuithub.com/)
 * [ScreamingCircuits](https://www.screamingcircuits.com/)
+* [Comparing hobby PCB vendors](https://lcamtuf.substack.com/p/comparing-hobby-pcb-vendors)
 
 
 
