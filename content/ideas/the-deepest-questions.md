@@ -466,6 +466,7 @@ proved by Carl Friedrich Gauss in 1827, that concerns the curvature of surfaces.
 
 * [Conceptualizing the Christoffel Symbols: An Adventure in Curvilinear Coordinates](https://www.youtube.com/watch?v=TvFvL_sMg4g)
 * [The Meaning of the Metric Tensor](https://www.youtube.com/watch?v=Dn0ZZRVuJcU)
+* [The Spacetime Metric](https://www.youtube.com/watch?v=neiJ1SLMrfM)
 
 
 
