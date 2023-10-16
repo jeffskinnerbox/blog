@@ -25,6 +25,8 @@ Read this for it good discription of GNSS & NMEA messages
 * [ANSI C Basic Lightweight NMEA Parser for GPS](https://www.beyondlogic.org/ansi-c-basic-lightweight-nmea-parser-for-gps/)
 * [NMEA 2000 Explained - A Simple Intro](https://www.csselectronics.com/pages/nmea-2000-n2k-intro-tutorial)
 
+* [How To Make GPS Tracker](https://cellularnews.com/mobile-accessories/how-to-make-gps-tracker/)
+
 # Table of Contents
 * Background
     * [Navigation Technologies](#background-navigation-technologies)
