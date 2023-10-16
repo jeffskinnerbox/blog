@@ -125,6 +125,7 @@ The Riemann Hypothesis is one of the [Millennium Prize Problems](http://www.clay
 
 Best explanation of the Riemann hypothesis
 
+* [A Million Dollar Math Problem … You Just Might Solve !!](https://www.youtube.com/watch?v=WQxAQrDeAL8)
 * [Solve This Equation To Win A Million Dollars](https://medium.com/cantors-paradise/solve-this-equation-to-win-a-million-dollars-ca5b3754e2da)
 * [How I Learned to Love and Fear the Riemann Hypothesis](https://www.quantamagazine.org/how-i-learned-to-love-and-fear-the-riemann-hypothesis-20210104/)
 * [What is the Riemann Hypothesis?](https://www.youtube.com/watch?v=v9nyNBLCPks&feature=youtu.be)
