@@ -464,6 +464,9 @@ proved by Carl Friedrich Gauss in 1827, that concerns the curvature of surfaces.
 * [The Most Remarkable Theorem Part II (Theorema Egregium)](https://www.youtube.com/watch?v=iTZKKh9_CT8)
 * [The Most Remarkable Theorem Part III (Theorema Egregium)](https://www.youtube.com/watch?v=T6bss84vhkw)
 
+* [Conceptualizing the Christoffel Symbols: An Adventure in Curvilinear Coordinates](https://www.youtube.com/watch?v=TvFvL_sMg4g)
+* [The Meaning of the Metric Tensor](https://www.youtube.com/watch?v=Dn0ZZRVuJcU)
+
 
 
 ----
