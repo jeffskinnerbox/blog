@@ -456,6 +456,14 @@ Category Theory is the abstraction of composition.
 # Card Tricks
 * [Amaze your friends! Astound your family!](https://plus.maths.org/content/amaze-your-friends-astound-your-family)
 
+# Theorema Egregium
+Gauss's Theorema Egregium (Latin for "Remarkable Theorem") is a major result of differential geometry,
+proved by Carl Friedrich Gauss in 1827, that concerns the curvature of surfaces.
+
+* [The Most Remarkable Theorem Part I (Theorema Egregium)](https://www.youtube.com/watch?v=SOgB27E5CDE)
+* [The Most Remarkable Theorem Part II (Theorema Egregium)](https://www.youtube.com/watch?v=iTZKKh9_CT8)
+* [The Most Remarkable Theorem Part III (Theorema Egregium)](https://www.youtube.com/watch?v=T6bss84vhkw)
+
 
 
 ----
