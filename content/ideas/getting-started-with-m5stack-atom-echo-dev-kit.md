@@ -43,6 +43,7 @@ Key steps include:
     * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
 * FLASHING THE ATOM ECHO - [$13 voice remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
 * [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
+* [Hands-Free Control with Wake Words](https://www.mostlychris.com/hands-free-control-with-wake-words/)
 
 # Battern Version of "ATOM Echo"
 * Adafruit Feather v2 ESP32 board
