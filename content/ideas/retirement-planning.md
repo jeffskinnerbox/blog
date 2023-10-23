@@ -159,6 +159,9 @@ The SECURE 2.0 Act changes the rules covering 401(k) accounts and required minim
 * [Calculate your required minimum distribution (RMD)](https://digital.fidelity.com/prgw/digital/rmd/#/rmdform)
 * [The Best Way to Withdraw From Your Retirement Accounts](https://articles.smartasset.com/best-way-to-withdraw/index.html)
 
+# Fixed Income Investments
+* [CD or Treasury? Five Factors to Consider](https://www.schwab.com/learn/story/cd-or-treasury-five-factors-to-consider)
+
 # Deferred Income Annuity
 The concept behind income annuities is that the buyer deposits a lump sum or series of payments with an insurer.
 In return, the insurer guarantees to pay you a stream of income in the future.
