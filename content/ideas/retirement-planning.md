@@ -295,6 +295,7 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 
 
 # Will and Estate Planning
+* [A simple checklist to plan for your old age, today](https://www.vox.com/even-better/23911624/elder-care-aging-power-of-attorney-will-estate-planning)
 
 Create a will & estate plan and Revocable Living Trusts
 https://workplaceservices.fidelity.com/mybenefits/wellness/app/topic?topicId=createawillandestate&recommendation=WillEstatePlanning&client=000038032
