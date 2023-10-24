@@ -17,6 +17,8 @@ Version:      0.0.0
 * [Smith Chart Basics + VNA Paperclip Test](https://www.youtube.com/watch?v=lUkPjqOoJQU)
 * [DIY VNA CALIBRATION STANDARDS](https://jmw.name/projects/vna-standards/)
 
+* [Vector Network Analyzer Demo And Teardown](https://hackaday.com/2023/10/18/vector-network-analyzer-demo-and-teardown/)
+
 
 * [NanoVNA SAA2 Version 2 Vector Network Analyzer - Ham Radio Antenna Analyzer](https://www.youtube.com/watch?v=4pAuEQl4uoM)
 * [NanoVNA comparison measuring a duplexer - NanoVNA-H4 and SAA-2N](https://www.youtube.com/watch?v=GipCVEsiqXc)
