@@ -15,6 +15,8 @@ Version:      0.0.0
 
 
 
+* [Learning About Capacitors by Rolling Your Own Electrolytics](https://hackaday.com/2023/10/24/learning-about-capacitors-by-rolling-your-own-electrolytics/)
+
 * [DIY simple Arduino Autorange capacitance meter](https://hackaday.io/project/174205-diy-simple-arduino-autorange-capacitance-meter)
 
 * [How to choose the right capacitor type for a circuit?! || Film vs. Ceramic vs. Electrolytic](https://www.youtube.com/watch?v=2v8zBj7_sxg&feature=youtu.be)
