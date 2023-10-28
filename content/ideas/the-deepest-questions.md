@@ -48,6 +48,7 @@ Yet, quantum proves long-distance interactions are possible.
 That being said, we still don’t know which of those properties is actually false or even if both are.
 All we know is they can’t simultaneously be true.
 
+* [The Hunt for Real Randomness - Scott Aaronson Interview on The Filter with Matt Asher Episode #22](https://www.youtube.com/watch?v=hqrQ6D6SkAA)
 
 * [On Quantum Entanglement](https://medium.com/@harshit.11235/on-quantum-entanglement-df66b4f3141)
 * [What Is Entanglement and Why Is It Important?](https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement)
@@ -552,6 +553,9 @@ A function is a relation that uniquely associates members of one set with member
     * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
 * [Random Sequences: Human vs Coin](https://www.youtube.com/watch?v=H2lJLXS3AYM)
 * [Random Means "Unknown Cause"](https://www.wmbriggs.com/wp-content/uploads/2023/01/What-Are-All-The-Uses-For-So-Called-Random-Numbers_.mp3)
+
+# Quantum Randomness
+* [The Hunt for Real Randomness - Scott Aaronson Interview on The Filter with Matt Asher Episode #22](https://www.youtube.com/watch?v=hqrQ6D6SkAA)
 
 # Random Matrix Theory
 * [Getting started with Random Matrices: A Step-by-Step Guide](https://www.cantorsparadise.com/getting-started-with-random-matrices-a-step-by-step-guide-81e5902384e)
