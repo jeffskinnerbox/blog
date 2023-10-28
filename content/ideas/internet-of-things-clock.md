@@ -139,6 +139,7 @@ mechanical clocks for the best accuracy and precision in time-keeping.
     * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
 * [riaxial Tourbillon Clock (Astronomia) by A26](https://www.thingiverse.com/thing:3061474)
 * [A Mind Blowing Mechanical Work Of Art - 3D Printed Tri-Axial Tourbillon](https://www.youtube.com/watch?v=j4Cfn5iATys)
+* [3D Printed Gear Clock with Geneva Mechanism](https://www.youtube.com/watch?v=XTgeFkigeLo)
 
 * [How Earth Moves](https://www.youtube.com/watch?v=IJhgZBn-LHg&feature=youtu.be)
 * [Time Zone Map](https://www.timeanddate.com/time/map/)
