@@ -15,6 +15,11 @@ Version:      0.0.0
 **ExpressLRS v3.3.0 is out now! Check it out on GitHub.** - https://github.com/ExpressLRS/ExpressLRS
 **EdgeTX "Providence" v2.9.1** - https://buddy.edgetx.org/#/flash
 
+Review this again - [A Complete Guide to Flashing and Setting Up ExpressLRS](https://oscarliang.com/setup-expresslrs-2-4ghz/)
+
+
+
+
 
 
 After much much online research and grinding of my teeth,
@@ -37,6 +42,7 @@ I used the following articles and videos to help make the selection of the Radio
 * [Affordable FPV Controllers That DON’T SUCK!](https://www.youtube.com/watch?v=Az5G4nq8F3M)
 * [Cheap vs. Expensive FPV Controllers - What's the Difference?](https://www.youtube.com/watch?v=SrN6ps4NM10)
 * [2023 BEST Radios for Fpv Drones - BUYER'S GUIDE](https://www.youtube.com/watch?v=KOYla-wqFYg)
+* [Radiomaster Boxer Max ELRS - The Best Gets Better](https://www.youtube.com/watch?v=r1kwoq1jxIg)
 
 # Buttons, Switches, and Knobs
 * **SYS** -
@@ -135,6 +141,7 @@ I'm using the online tool.
 
 [EdgeTX](https://edgetx.org/)
 [EdgeTX User Manual](https://edgetx.gitbook.io/edgetx-user-manual/)
+[ExpressLRS Quick Start: Typical Updating Steps - Simplest EdgeTX Updating Procedure](https://www.expresslrs.org/quick-start/transmitters/updating/#via-etx-passthrough:~:text=Simplest%20EdgeTX%20Updating%20Procedure)
 
 I followed the [EdgeTX User Manual](https://edgetx.gitbook.io/edgetx-user-manual/) instructions located [here](https://edgetx.gitbook.io/edgetx-user-manual/edgetx-user-manual/installing-and-updating-edgetx/update-from-opentx-to-edgetx-1)
 You can also use the methods outline in the article "[How to Update EdgeTX in your Radio (flashing to the latest version or migrate from OpenTX)](https://oscarliang.com/flash-edgetx/)".
@@ -155,31 +162,47 @@ You can also use the methods outline in the article "[How to Update EdgeTX in yo
 If this doesn't work (and it didn't for me ... Appears to be Linux permissions problems),
 you can update the SD card directly using this process ([explained here](https://oscarliang.com/flash-edgetx/#How-to-Migrate-from-OpenTX-to-EdgeTX)):
 
-* On the [EdgeTX Buddy](https://buddy.edgetx.org/#/flash) site, download the `.bin` file by clicking on the **Download .bin** button at the bottom of the page.
-* With your Boxer radio powered on, plug your radio into your computer via USB.
-* When prompted by your radio for the USB mode, select **USB Storage**.
-* On you computer, copy the `.bin` file to the `FIRMWARE` directory on the Boxer.
-* Now on the Boxer enter the `FIRMWARE` directory, via **SYS** > press **Page Down** (2/7) to **FIRMWARE**.
-* Highlight the `.bin` file you copied over and do a long press on the scroll button.  Select **Flash bootloader**.
-* Power off the Boxer.  Now push both yaw/roll trim buttons inward (see [this description](https://oscarliang.com/flash-edgetx/#Flash-EdgeTX-firmware-in-the-radio)).  Then press and hold the power button.
-* Power down the Boxer and then power backup.  Check if the firmware has been updated by **SYS** > press **Page Down** (7/7) > **VERSION**.
+1. On the [EdgeTX Buddy](https://buddy.edgetx.org/#/flash) site, download the `.bin` file by clicking on the **Download .bin** button at the bottom of the page.
+2. With your Boxer radio powered on, plug your radio into your computer via USB.
+3. When prompted by your radio for the USB mode, select **USB Storage**.
+4. On you computer, copy the `.bin` file to the `FIRMWARE` directory on the Boxer.
+5. Now on the Boxer enter the `FIRMWARE` directory, via **SYS** > press **Page Down** (2/7) to **FIRMWARE**.
+6. Highlight the `.bin` file you copied over and do a long press on the scroll button.  Select **Flash bootloader**.
+7. Power off the Boxer.  Now push both yaw/roll trim buttons inward (see [this description](https://oscarliang.com/flash-edgetx/#Flash-EdgeTX-firmware-in-the-radio)).  Then press and hold the power button.
+8. Power down the Boxer and then power backup.  Check if the firmware has been updated by **SYS** > press **Page Down** (7/7) > **VERSION**.
 
 Sources:
 * [EdgeTX Buddy • How-to Install EdgeTX via Web Browser](https://www.youtube.com/watch?v=zvakNqu_5Ec)
 * [How to Update EdgeTX in your Radio (flashing to the latest version or migrate from OpenTX)](https://oscarliang.com/flash-edgetx/)
 * [EdgeTX Bootloader Masterclass • Learn How to Flash Your Radio Like the Pros](https://www.youtube.com/watch?v=LItyAkJlcdU)
 
-#### Step 3: Calibrate Boxer Gimbals
-Power on the Boxer and enter **SYS** > **Page Down** (6/7) to **HARDWARE**
+#### Step 3: Calibrate Boxer Gimbals - DONE
+Calibration of your drone’s gimbal is important to ensure all gimbal motors are functioning properly and there is no restricted movement for the gimbal.
+Calibartion allows the gimbal processor to check the motion range of each axis, determine & set the correct offsets required to centre the sticks on each axis.
 
+I followed the calibration methodology in the sources below.
+To get going, power on the Boxer and enter **SYS** > **Page Up** (6/7) to **HARDWARE** > highlight **Calibration** and click the scroll bar.
+
+* [You're calibrating your gimbals wrong (solves Tango 2 THROTTLE warning)](https://www.youtube.com/watch?v=I6n_Ak860lA)
 * [RadioMaster Boxer | Gimbal Calibration](https://www.youtube.com/watch?v=NvyQfvWZ6M4)
+* [$130 for the gimbals alone?! Yup. RadioMaster AG01 all metal CNC gimbals for TX16S](https://www.youtube.com/watch?v=NU0F5BXIb4E)
 
 
 
 -----
 
 
-# Update ExpressLRS
+
+# Update ExpressLRS on Radiomaster Boxer
+The steps below are for installing ExpressLRS within the RadioMaster Boxer,
+both the Lua Script and the firmware.
+This is done with the aid of the `expresslrs-configurator` program.
+
+I'll also include here the updating of the ExpressLRS firmware on the receiver.
+Strictly speaking, this isn't related to the RadioMaster Boxer, but I include it here for completeness.
+
+Sources:
+* [How to Setup Radiomaster Boxer | Upgrades, Tips and Tricks][11]
 * [GitHub: ExpressLRS](https://github.com/ExpressLRS)
 * [ExpressLRS: Quick Start][10]
 
@@ -187,18 +210,19 @@ Power on the Boxer and enter **SYS** > **Page Down** (6/7) to **HARDWARE**
 >**NOTE:** The procedure below is for an Internal ExpressLRS module Boxer transmitter (ExpressRLS built into the radio),
 >**not** the External ExpressRLS Module (plugs into the back of the Boxer radio).
 
-The definitive source for this procedure is the [ExpressLRS Quick Start][10] webpage.
+The definitive source for this procedure is the
+["How to Setup Radiomaster Boxer | Upgrades, Tips and Tricks"][11] article
+and the ["ExpressLRS Quick Start"][10] webpage.
 
+Other sources:
 * [Intro to Express LRS • For ELRS Novices](https://www.youtube.com/watch?v=AdgBoYJNI0M)
 * [A Complete Guide to Flashing and Setting Up ExpressLRS](https://oscarliang.com/setup-expresslrs-2-4ghz/)
 * [Easiest Way To Flash and Bind ExpressLRS!](https://www.youtube.com/watch?v=MFFUsN9ZHSU&t=13s)
 * [ExpressLRS definitive getting started guide][09]
-* [How-To Upgrade OpenTX to EdgeTX 2.9.x • DO NOT FLASH Before You Watch This Video](https://www.youtube.com/watch?v=NYbOLLoV-GA)
 
 #### Step 1: Download and Install ExpressLRS Configurator - DONE
-Download the latest [ExpressLRS Configuator](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases),
-in my case it version 1.6.0.
-I'm using Linux, so my install goes as follows (install notes are [here](https://github.com/ExpressLRS/ExpressLRS-Configurator#linux)):
+Download the latest [ExpressLRS Configuator][13], in my case it version 1.6.0.
+I'm using Linux, so my install goes as follows (install notes are [here][14]:
 
 ```bash
 # download the .deb file for the Configurator
@@ -219,21 +243,54 @@ If you wish to remove the `expresslrs-configurator`, do the following:
 sudo dpkg -r expresslrs-configurator
 ```
 
-#### Step 2: Install ExpressLRS Lua Script - DONE
+#### Step 2: Update ExpressLRS Lua Script - DONE
 This step makes sure your Boxer radio has the latest ExpressRLS Lua script installed.
-You do this by using the ExpressRLS utility `expresslrs-configurator`.
+This script isn't expected to change frequently,
+but this may need to be updated at some point in the future, like major point releases.
+
+You update the ExpressRLS Lua script by using the ExpressRLS utility `expresslrs-configurator`.
 Execute `expresslrs-configurator` and fill out the form using your Boxer as the target.
-You need to follow the procedures outlined from 8.33 min to 11:59 min in the video [here][09].
+You need to follow the procedures outlined from 8:33 min to 11:59 min in the video [here][09].
+
+I did this and installed the Lua script for ExpressLRS v3.3.0.
+This Lua file was called `elrsV3.lua`.
+
+#### Step 3: Update ExpressLRS Internal Module Fimware - DONE
+There are three methods to update the ExpressLRS firmware on the Boxer.
+For the Roadmaster Boxer, which has EdgeTX and an Internal ExpressLRS Module,
+you can use the EdgeTXPassthrough method.
+
+You need to follow the procedures outlined in the ExpressRLS Quick Start documentation located [here][12].
+To summarize these steps:
+
+1. First, you must make sure the USB-VCR is in CLI mode. You can check this via **SYS** > **Page Down** to HARDWARE page (6/7) > Scroll down to "USB-VCP" and it should be in **CLI** mode.
+2. Use the USB-C port on the top of the Boxer, plugin a cable to you desktop computer.
+3. You will be prompted to make a selection. Select **USB Serials (VCP)**.
+4. On you desktop computer (Linux), check whether the Radio is being recognized correctly.  Execut the command `lsusb | grep -i stm` and you should get a message that says, in part,  `STMicroelectronics Virtual COM Port`.
+5. On you desktop computer, execute the `expresslrs-configurator` script.
+6. Firmware Version: In the congfigurator, choose the latest firmware Release
+7. Target: Select **RadioMaster 2.4 GHz** as the device category, and **RadioMaster Boxer Internal 2.4GHz TX** as the device.
+8. Flashing Method: Select **EdgeTXPassthrough** as your flashing method.
+9. Regulatory Domains: Configure your regulatory domain **REGULATORY_DOMAIN_ISM_2400** (for FCC)
+10. Binding Phrase Setup: Enter your **BINDING_PHRASE** (I use my name).
+11. Click the **Flash** button. Wait for the process to finish. A Green Success bar will show up in the ExpressLRS Configurator.
+12. Unplug your Radio from USB. Check if the ExpressRLS firmware got updated via **SYS** > select **ExpressLRS** >
+scroll to the bottom and under **[BIND]** you should see the ExpressLRS version number (3.3.0 in my case) followed by "ISM2G4".
 
 Sources:
-* [ExpressLRS definitive getting started guide][09]
+* [ExpressRLS Quick Start:a Typical Updating Steps](https://www.expresslrs.org/quick-start/transmitters/updating/)
 * [Finally! Quick Set Up For ExpressLRS! How To Wire, Flash, & Program Your ELRS Radio & Receiver!](https://www.youtube.com/watch?v=XJDtHMifkl8)
 
 
 
+------
 
 
-# Flash ExpressLRS Module (aka Receiver / Flight Controller)
+
+# Update ExpressLRS on Quadcopter Reciever
+
+## Flash ExpressLRS Receiver (aka Receiver / Flight Controller)
+* [ExpressLRS definitive getting started guide][09]
 * starting at 2:40 minutes - [How To Setup Radiomaster Boxer ExpressLRS in 5 Minutes](https://www.youtube.com/watch?v=biY5iH1Wz7I)
 * [Easiest Way To Flash and Bind ExpressLRS!](https://www.youtube.com/watch?v=MFFUsN9ZHSU)
 * [BETAFPV ELRS Recovery Dongle | Quick & Easy Way to Unbrick Your Receiver](https://www.youtube.com/watch?v=HHZ3abmm5Zs)
@@ -243,6 +300,12 @@ Sources:
 # Binding Phrase
 * [How To Bind Any & ALL Whoop & Micro Drones To ELRS !! Your Complete Set-Up Guide !! ExpressLRS](https://www.youtube.com/watch?v=X4IzcO16Dxo)
     * [ExpressLRS: SPI Receivers](https://www.expresslrs.org/hardware/spi-receivers/)
+* go to 13:04 minutes - [Build an FPV drone in 2023 - Part 7 - Bind the ELRS Receiver](https://www.youtube.com/watch?v=Dz7bdXWKC1Q)
+
+#### Step X: xxx
+#### Step X: xxx
+#### Step X: xxx
+#### Step X: xxx
 
 
 
@@ -255,7 +318,66 @@ Boxer ELRS units are equipped with an internal ELRS module, capable of providing
 output. In non-extreme circumstances, 100mW output at 500Hz update rate is recommended, as higher
 RF output and update rates may significantly reduce battery life and generate excessive heat.
 
+## EdgeTX Companion
+EdgeTX Companion is a computer program that allows you to connect to your
+EdgeTx radio via USB and perform backups, modifications, etc. using your laptop/desktop.
+It has some great features that allow you to set up quadcopter, plane, etc.
+and actually simulate the controls to see whether everything is correct.
+If it is, you can then write that setup to your radio’s SD card via the USB connection.
+
+* [Looking for EdgeTX Companion? See this link](https://edgetx.org/getedgetx/)
+* [EdgeTX Companion v2.8: Complete Start to Finish Intro](https://www.youtube.com/watch?v=DpwbyMruoF8)
+* [Companion User Manual](https://edgetx.gitbook.io/edgetx-user-manual/edgetx-companion/companion-user-manual)
+
+#### Step X: Download EdgeTX Companion
+Download EdgeTX Companion for Linux can be done at [this site][20].
+
+```bash
+# dsownload the edgetx companion zip file and unzip
+cd ~/Downloads/EdgeTX-Companion
+wget https://github.com/EdgeTX/edgetx/releases/download/v2.9.1/edgetx-cpn-linux-v2.9.1.zip
+unzip edgetx-cpn-linux-v2.9.1.zip
+
+# copy the appimage to some place in your path abd make it executable
+cp ~/Downloads/EdgeTX-Companion/EdgeTx_Companion_2.9.1-x86_64.AppImage ~/bin
+chmod ug+x ~/bin/EdgeTx_Companion_2.9.1-x86_64.AppImage
+```
+
+Now create the following file `~/.local/share/applications/edgext-companion.desktop`
+and make it executable:
+
+```bash
+#!/usr/bin/env xdg-open
+
+# Creating a Custom Application Launcher in Ubuntu 22 - https://www.dgendill.com/posts/technology/2023-04-23-ubuntu22-custom-shortcuts-appliation-launchers.html
+# How to create a desktop shortcut to a website - https://askubuntu.com/questions/1269788/how-to-create-a-desktop-shortcut-to-a-website
+# How to create desktop shortcut launcher on Ubuntu 22.04 Jammy Jellyfish Linux - https://linuxconfig.org/how-to-create-desktop-shortcut-launcher-on-ubuntu-22-04-jammy-jellyfish-linux #How do I create a new application launcher in Ubuntu 22.04?
+# How do I create a new application launcher in Ubuntu 22.04? - https://askubuntu.com/questions/1428517/how-do-i-create-a-new-application-launcher-in-ubuntu-22-04
+
+# https://edgetx.org/getedgetx
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=EdgeTX Companion
+Exec=/home/jeff/bin/EdgeTx_Companion_2.9.1-x86_64.AppImage
+Icon=/home/jeff/Downloads/edgetx-logo.png
+Categories=Application;IDE;
+Comment=Perform EdgeTX backups, modifications, etc. using your laptop/desktop
+```
+
+[20]:https://edgetx.org/getedgetx/
+
+## Create Backup of Boxer Configuration
+* [EdgeTX Companion: Backup an EdgeTX radio in under a minute](https://www.youtube.com/watch?v=D24JtWshVpc)
+
 ## Create a Model
+A model refers to a configuration or template used in a radio-controlled device,
+such as a model sailplane or drone.
+It includes various settings and options that define the behavior and characteristics of the device.
+Models can be created, managed, and labeled in the Manage Models screen.
+https://edgetx.gitbook.io/edgetx-user-manual/edgetx-user-manual/user-manual-for-color-screen-radios/select-model
+
 * [How To Setup Radiomaster Boxer ExpressLRS in 5 Minutes](https://www.youtube.com/watch?v=biY5iH1Wz7I)
 
 ## Telemetry Screens
@@ -268,6 +390,9 @@ RF output and update rates may significantly reduce battery life and generate ex
 * [How to Log Telemetry Data in EdgeTX/OpenTX Radios (GPS Coordinates, LQ, RSSI, Voltage etc)](https://oscarliang.com/log-telemetry/)
 * [EdgeTX Setting Up Telemetry Data Logging to your Radio](https://www.youtube.com/watch?v=SsbnONkErbc)
 * [How to Log Telemetry Data in EdgeTX/OpenTX Radios (GPS Coordinates, LQ, RSSI, Voltage etc)](https://www.fpvcrazy.net/2023/02/11/how-to-log-telemetry-data-in-edgetx-opentx-radios-gps-coordinates-lq-rssi-voltage-etc/)
+
+## Throttle Lock
+* [Throttle Lock for Radiomaster Boxer with EdgeTX: My NEW FAVORITE!](https://www.youtube.com/watch?v=zLcB24e8ZEc)
 
 
 -----
@@ -291,26 +416,9 @@ TOOLS menu. Scroll down to [Bind] and press enter.
 
 
 
-# Betaflight Tuning
 
 
 
-
-
-
------
-
-
-
-
-
-
-# FPV Simulators
-Orqa FPV.Skydive
-VelociDrone FPV Racing Simulator
-LiftOff
-
-* [Best PC FPV Simulator // WE TRIED THEM ALL](https://www.youtube.com/watch?v=I7lUTEJM62g)
 
 ### Whats the Difference between ELRS vs 4-in-1 vs MPM CC2500?
 In the RadioMaster lineup, you can get 3 different modules: Ranger, Micro, Nano.
@@ -325,7 +433,7 @@ https://forum.flitetest.com/index.php?threads/whats-the-difference-between-4in1-
 | Amiccom                | A7105     |   FlySky, FlySky AFHDS2A, Hubsan              |
 | Nordic Semiconductor   | NR24L01   |   HiSky, Syma, ASSAN, and most Chinese models |
 
-[pascallanger/DIY-Multiprotocol-TX-Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module)
+* [pascallanger/DIY-Multiprotocol-TX-Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module)
 
 ## Radio Control Operating Systems
 EdgeTX -
@@ -353,17 +461,6 @@ I got several ideas from these sources about changes I would like to consider:
 * [2023 Ultimate Guide to Tiny Whoops: Are you using the right stuff?](https://www.youtube.com/watch?v=lgeeR8TiuP0)
 * [Best Tiny Whoop Drones & Parts](https://www.fpvknowitall.com/fpv-shopping-list-tiny-whoop/)
 
-Specific ideas I want to try:
-
-* Throttle Expo - [Adjusting Throttle Curve in Betaflight and EdgeTX: Tips for Smoother Throttle Control](https://oscarliang.com/throttle-curve/)
-* Motor limiting - [Throttle Limit in Betaflight 3.4: Longer flights and cooler motors](https://flexrc.com/2018/07/12/throttle-limit-in-betaflight-3-4-longer-flights-and-cooler-motors/)
-* More powerful motors - try 2600KV to 3200KV motors
-* Singularity 5.8 VTX Antenna (Ultra-Short) - [TinyWhoop Store](https://www.tinywhoop.com/collections/antennas/products/singularity-rhcp-20mm-ufl-vtx-antenna)
-* Crash Recovery - [Winning Whoop racers use Betaflight crash_recovery. Should you?](https://www.youtube.com/watch?v=5YyxIft9wKM&t=8s) vs Angle Mode - [Betaflight Angle Mode is about to get AWESOME! You can try it TODAY](https://www.youtube.com/watch?v=ILeLo1lWjBk)
-* Turtle Mode - [How to setup TURTLE MODE in BETAFLIGHT 2022 (Tutorial)](https://www.youtube.com/watch?v=jibqPPc4I9o)
-    * [This EdgeTX "custom curve" makes turtle mode even better!](https://www.youtube.com/watch?v=22ueY-bvGnI)
-
-* [How to Setup Radiomaster Boxer | Upgrades, Tips and Tricks](https://oscarliang.com/setup-radiomaster-boxer/)
 
 
 
@@ -378,10 +475,10 @@ Specific ideas I want to try:
 [08]:https://www.expresslrs.org/quick-start/getting-started/
 [09]:https://www.youtube.com/watch?v=J3Hg2f7RL1A
 [10]:https://www.expresslrs.org/quick-start/getting-started/
-[11]:
-[12]:
-[13]:
-[14]:
+[11]:https://oscarliang.com/setup-radiomaster-boxer/#Updating-Internal-ExpressLRS-Module
+[12]:https://www.expresslrs.org/quick-start/transmitters/updating/#via-etx-passthrough
+[13]:https://github.com/ExpressLRS/ExpressLRS-Configurator/releases
+[14]:https://github.com/ExpressLRS/ExpressLRS-Configurator#linux
 [15]:
 [16]:
 [17]:
