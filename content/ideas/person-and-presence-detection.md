@@ -309,6 +309,9 @@ To understand how DNS data exfiltration works, check out the following:
 The objective is to detect the presence of a person by multiple sensory clues
 such as their image but also via motion, heat, sound, or RF exhaust then may make.
 
+* [Human Here? My First Presence Sensor](https://www.mostlychris.com/am-i-here-my-first-presence-sensor/)
+    * [Linptech Presence Sensor ES1](https://www.amazon.com/Linptech-Presence-Automation-Compatible-Assistant/dp/B0C7C6L66J)
+
 * [Presence Detection In Home Assistant Using ESPHome And ESP32](https://www.youtube.com/watch?v=endqy0G6Dks)
 
 * [Set up Human Presence detection with LD2410B and Home Assistant in minutes](https://www.youtube.com/watch?v=G6IEc2XYzbc)
