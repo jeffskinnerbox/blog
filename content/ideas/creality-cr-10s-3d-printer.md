@@ -820,7 +820,10 @@ CR10S version of [Display Case Foot](https://www.thingiverse.com/thing:2841111) 
 [CR10-S Filement Runout Sensor with Teflon Tube extension for thing #2972904](https://www.thingiverse.com/thing:2976186)
 [Ender 3 Filament Roller Guide](https://www.thingiverse.com/make:705306)
 
-* Cable clip -
+* Filament Slicer
+[A Simple And Effective 3D Filament Splicer](https://hackaday.com/2023/10/27/a-simple-and-effective-3d-filament-splicer/)
+
+* Cable Clip -
 Aluminum Extrusion - 2020 T Slot
 20 Series T-Slotted Aluminum Extrusion with Four Open T-Slots
 20mm x 20mm metric 20 series square T-slot profile with four open T-slots, one on each 20mm face.
