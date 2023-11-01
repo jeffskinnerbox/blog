@@ -195,6 +195,7 @@ Social Security can potentially be subject to tax regardless of your age. While 
 
 * [Income Taxes And Your Social Security Benefit](https://www.ssa.gov/benefits/retirement/planner/taxes.html)
 * [Taxes on Social Security: 2 ways to save](https://www.fidelity.com/viewpoints/retirement/taxes-on-social-security)
+* [Social Security Tax Torpedo](https://www.fidelity.com/learning-center/personal-finance/social-security-tax-torpedo-and-hidden-taxes)
 * [Social Security Is Taxable? How to Minimize Taxes](https://www.schwab.com/learn/story/social-security-is-taxable-how-to-minimize-taxes)
 * [7 Things to Know About Social Security and Taxes](https://www.aarp.org/retirement/social-security/info-2023/social-security-taxes.html)
 * [When You Need to Pay Taxes on Social Security](https://money.usnews.com/money/retirement/social-security/articles/when-you-need-to-pay-taxes-on-social-security)
@@ -295,7 +296,7 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 
 
 # Will and Estate Planning
-* [A simple checklist to plan for your old age, today](https://www.vox.com/even-better/23911624/elder-care-aging-power-of-attorney-will-estate-planning)
+[A simple checklist to plan for your old age, today](https://www.vox.com/even-better/23911624/elder-care-aging-power-of-attorney-will-estate-planning)
 
 Create a will & estate plan and Revocable Living Trusts
 https://workplaceservices.fidelity.com/mybenefits/wellness/app/topic?topicId=createawillandestate&recommendation=WillEstatePlanning&client=000038032
