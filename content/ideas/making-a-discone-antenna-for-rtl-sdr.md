@@ -655,12 +655,13 @@ A antenna tuner is a device used to match impedances between a transmitter and a
 * [LOOP ANTENNA IS PORTABLE](https://hackaday.com/2017/02/25/loop-antenna-is-portable/)
 
 ## Yagi Antenna
+* [On Point: The Yagi Antenna](https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/)
 * [Lowering The Boom On Yagi Element Isolation](https://hackaday.com/2020/05/10/lowering-the-boom-on-yagi-element-isolation/)
 * [On Point: The Yagi Antenna](https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/)
 * [VHF/UHF Yagi Antenna Quick Designer](https://k7mem.com/Ant_Yagi_VHF_Quick.html)
-* [On Point: The Yagi Antenna](https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/)
 * [#1456 PCB Yagi antenna for 2.4GHz](https://www.youtube.com/watch?v=JusiGUt5Ovg)
 * [#1459 PCB Yagi antenna for 2.45GHz (part 1 of 2)](https://www.youtube.com/watch?v=I-5qf60oCKQ)
+* [Pocketable Yagi Antenna Really Shoots For Distance](https://hackaday.com/2023/11/02/pocketable-yagi-antenna-really-shoots-for-distance/)
 
 ## Helical Antenna
 A helical antenna is an antenna in which a conductor connected to ground plane, is wound into a helical shape. The
