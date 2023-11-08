@@ -201,6 +201,8 @@ USB PD Trigger
 USB PD Trigger Module
 Programmable Power Supply (PPS) mode
 
+* [What is Programmable Power Supply (PPS) Fast Charging?](https://www.belkin.com/support-article/?articleNum=318878)
+
 * [PPS For All: Directly charging lithium-ion batteries with a USB-C PD tester](https://ripitapart.com/2022/12/31/directly-charging-li-ion-batteries-with-a-usb-c-pd-tester/)
 
 * [USB Power Delivery and Type-C](https://www.st.com/content/ccc/resource/sales_and_marketing/presentation/product_presentation/group0/5a/b1/8e/6c/2b/0d/46/3c/Apec/files/APEC_2016_USB_Power.pdf/_jcr_content/translations/en.APEC_2016_USB_Power.pdf)
@@ -214,8 +216,19 @@ Programmable Power Supply (PPS) mode
 
 * [Mike Rankin Wants to Make USB-C PD as Easy as 1-2-3, with His ESP32-Based USB-C PD Trigger Board!](https://www.hackster.io/news/mike-rankin-wants-to-make-usb-c-pd-as-easy-as-1-2-3-with-his-esp32-based-usb-c-pd-trigger-board-39be1086d8b1)
 
-# USB Power Delivery (USB PD)
+## Programmable Power Supply (PPS)
+Programmable Power Supply (PPS) is a standard that refers to the advanced charging technology for USB-C® devices.  It can modify in real time the voltage and current by feeding maximum power based on a device's charging status.
+The USB Implementers Forum (USB-IF), a nonprofit group that supports the marketing and promotion of the Universal Serial Bus (USB), added PPS Fast Charging to the USB PD 3.0 standard in 2017.  This allows data to be exchanged every 10 seconds, making a dynamic adjustment to the output voltage and current based on the condition of the receiving device's specifications
+PPS' main advantage over other standards is its capability to lower conversion loss during charging.  This means that less heat is generated, which lengthens the device battery's lifespan.
+
+## USB-C Power Delivery (PD)
+USB-C Power Delivery (PD) is a fast charging technology, supported by certain iOS/Apple® and Android™/Google™/Samsung® devices, that delivers much higher levels of power than standard charging.  With up to 100W of power available, USB-C PD can even charge larger devices, like tablets and laptops.  All you need is the right wall charger and USB-C cable – and leave those heavy laptop power cables at home.
+PPS and PD protocols work together where the former can renegotiate non-standard currents and voltages between the device and the charger.
 * [USB Power Delivery explained: What you need to know about ubiquitous charging](https://www.androidauthority.com/usb-power-delivery-806266/)
+
+## Quick Charge (QC)
+This technology powers your devices faster than conventional charging, allowing you to spend less time connected to outlets.  As one of the most widely used of the fast charging technologies, Quick Charge is already in many of your favorite smartphones.  If your smartphone is Quick Charge 3.0-compatible, you can charge up to 80% in just 35 minutes.
+Quick Charge 4+ is expected to work with USB Power Delivery, enabling Quick Charge accessories to fast charge a wider array of devices.  On the other hand, Quick Charge 5 is the latest in Quick Charge standards and can recharge smartphones up to 50% in just 5 minutes.
 
 ## USB PD 2.0 vs. USB PD 3.0
 * [What's the Difference: USB PD 2.0 vs. USB PD 3.0](https://satechi.net/blogs/news/whats-the-difference-usb-pd-2-0-vs-usb-pd-3-0)
@@ -232,6 +245,18 @@ Apple devices typically use PD, but most Android use QC.
 If you live in a world of mixed devies, you’ll probably want a device that does both.
 
 * [PD 3.0 vs QC 3.0 – What’s the Difference?](https://nerdtechy.com/pd-3-qc-3-difference)
+
+
+
+------
+
+
+
+# My Chargers
+[Amazon Basics 30W One-Port USB-C Wall Charger](https://www.amazon.com/dp/B087MFL8DM?th=1)
+with Power Delivery PD for Tablets & Phones (iPhone 15/14/13/12/11/X, iPad, Samsung, and more)
+is **not** a PPS.
+Its a PD 3.0 with a power deliver of up to 30W (5V @ 3A, 9V @ 3A, 15V @ 2A, 20V @ 1.5A)
 
 ## Instructions for Use of ZY12PDN
 * https://www.amazon.com/AITRIP-Charging-Trigger-Detector-Terminal/dp/B098WPSMV9
