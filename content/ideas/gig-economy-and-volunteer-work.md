@@ -46,6 +46,7 @@ Version:      0.0.0
 * [Ask Hackaday: Repair Café Or Not?](https://hackaday.com/2022/05/03/ask-hackaday-repair-cafe-or-not/)
 
 ## STEM Education
+* [Drones in School](https://www.dronesinschool.com/)
 * [Academies of Loudoun (AOL)](https://www.lcps.org/AOL)
     * [Clubs & Activities](https://www.lcps.org/site/Default.aspx?PageType=1&SiteID=18349&ChannelID=25532&DirectoryType=6)
 
