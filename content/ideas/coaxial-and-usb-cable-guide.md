@@ -231,6 +231,8 @@ This technology powers your devices faster than conventional charging, allowing 
 Quick Charge 4+ is expected to work with USB Power Delivery, enabling Quick Charge accessories to fast charge a wider array of devices.  On the other hand, Quick Charge 5 is the latest in Quick Charge standards and can recharge smartphones up to 50% in just 5 minutes.
 
 ## USB PD 2.0 vs. USB PD 3.0
+USB-C Power Delivery 3.0 (PD3.0) introduces a new Programmable Power Supply (PPS) mode, which allows a device to negotiate any supply of 3.3-21 V in 20 mV steps, and up to 5 A of current in 50 mA steps.
+
 * [What's the Difference: USB PD 2.0 vs. USB PD 3.0](https://satechi.net/blogs/news/whats-the-difference-usb-pd-2-0-vs-usb-pd-3-0)
 
 ## What's the difference between PD and QC?
@@ -245,6 +247,11 @@ Apple devices typically use PD, but most Android use QC.
 If you live in a world of mixed devies, you’ll probably want a device that does both.
 
 * [PD 3.0 vs QC 3.0 – What’s the Difference?](https://nerdtechy.com/pd-3-qc-3-difference)
+
+## USB Cable Differeances
+* [This is the difference between a $5 USB-C cable and a $129 USB-C cable](https://www.androidauthority.com/usb-c-cable-difference-between-cheap-expensive-3378193/)
+* [Understanding different types of USB cables](https://www.androidauthority.com/different-types-of-usb-cables-804432/)
+* [How long can a USB cable be?](https://www.androidauthority.com/how-long-can-a-usb-cable-be-3244520/)
 
 
 
