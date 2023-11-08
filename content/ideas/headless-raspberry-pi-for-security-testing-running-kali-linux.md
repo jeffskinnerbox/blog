@@ -43,6 +43,8 @@ Designed by Pavel Zhovner, Flipper is a portable, practical pentesting platform 
 It is able to operate in a number of tailored modes, giving you a range of application specific approaches
 to the walled gardens you are trying to gain access to.
 
+What can it do ... see this [Flipper Zero: Truth or Hype?](https://www.youtube.com/watch?v=44O-FNvj8Aw)
+
 * [Flipper](https://flipperzero.one/)
 * [Flipper: A Portable Phreaking Platform That Fits in Your Pocket!](https://www.hackster.io/news/flipper-a-portable-phreaking-platform-that-fits-in-your-pocket-1ac111854562)
 * [Flipper Zero/One — Tamagotchi for Hackers](https://hackaday.io/project/170875/logs)
