@@ -76,6 +76,12 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
     * [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
     * [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
+* Quantum Mechanics
+    * [Bra-Ket Notation and How to Use It](https://www.youtube.com/watch?v=mAZSmzv_asU&t=72s)
+    * [Lecture: Mathematics for Physicists](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKTnpE0yhCcXyQrHu5KtGeX)
+    * [Lecture: Electrodynamics](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLrAOWX3F3oNXQUEAyWEIIF)
+    * [Lecture: Quantum Mechanics I](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLMZ-I4YRwIQK0FbCkztJbZ)
+    * [Lecture: Quantum Mechanics II](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKVPjPv_aV3XMITKaRuB7bf)
 * Quantum Computing
     * [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
     * [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
