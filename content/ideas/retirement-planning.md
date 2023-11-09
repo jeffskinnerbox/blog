@@ -357,6 +357,7 @@ Once your money is in the Roth IRA, you’ll enjoy all of the tax benefits that 
 
 
 # Medicare
+* [6 key Medicare questions](https://www.fidelity.com/viewpoints/retirement/understanding-medicare-options)
 * [What Are My Options for Medicare Open Enrollment?](https://agefriendly.org/articles/what-are-my-options-for-medicare-open-enrollment)
 
 
