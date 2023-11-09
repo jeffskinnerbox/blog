@@ -109,6 +109,20 @@ Version:      0.0.0
 
 
 
+# Python Magic Methods
+Python was not initially built on OOP principles, but evolved into it, and is dynamically typed.
+In a true OOP languagea (e.g. Smalltalk), you need cross-cutting features on unrelated objects.
+In Python, these are specially-named methods: methods that the runtime interprets in a certain way but that you need to know about. You can call them magic methods.
+
+* [Python "magic" methods - part 1](https://blog.frankel.ch/python-magic-methods/1/)
+* [Python "magic" methods - part 2](https://blog.frankel.ch/python-magic-methods/2/)
+
+
+
+----------
+
+
+
 # Installing Jupyter Notebook
 I want a interactive and feature rich environment for doing my OpenCV work,
 and I found that in [Jupyter Notebook][55].
