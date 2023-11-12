@@ -688,6 +688,19 @@ Unless of course, you do this install while in a virtual environment.
 
 
 
+--------
+
+
+
+# Python Debugger
+* [Roll Your Own Python Debugger](https://hackaday.com/2023/11/11/roll-your-own-python-debugger/)
+    * [pdb — The Python Debugger](https://docs.python.org/3/library/pdb.html)
+    * [Let’s create a Python Debugger together: Part 1](https://mostlynerdless.de/blog/2023/09/20/lets-create-a-python-debugger-together-part-1/)
+    * [Let’s create a Python Debugger together: Part 2](https://mostlynerdless.de/blog/2023/10/06/lets-create-a-python-debugger-together-part-2/)
+    * [Let’s create a Python Debugger together: Part 3](https://mostlynerdless.de/blog/2023/11/06/lets-create-a-python-debugger-together-part-3-refactoring/)
+
+
+
 [01]:https://pypi.python.org/pypi/virtualenv
 [02]:https://bitbucket.org/dhellmann/virtualenvwrapper
 [03]:https://github.com/pyenv/pyenv
