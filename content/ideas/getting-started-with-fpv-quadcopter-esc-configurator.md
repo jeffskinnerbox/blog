@@ -16,6 +16,13 @@ Review this again -  [Betaflight Basics: Setting Up Your Motors & ESCs in Betafl
 [I'm flashing BlueJay to all my BLHeli S ESC's and you should too](https://www.youtube.com/watch?v=yEDhnBUFQNI)
 [ESC-Configurator: BlueJay Firmware Issues, Motor Not Spinning & Music 🎵 (Mobula 6 Setup)](https://www.youtube.com/watch?v=7HfyztXcnP0)
 [How to use ESC Configurator to flash Bluejay Firmware to Blheli-S ESC](https://www.youtube.com/watch?v=FskVQbtNVSQ)
+[How to Flash Bluejay Firmware to BLHeli_S ESC](https://oscarliang.com/bluejay-blheli-s/)
+[How to Connect, Flash and Configure BLHeli_S ESCs](https://oscarliang.com/connect-flash-blheli-s-esc/)
+[Best ESC for FPV Drones: Comprehensive Electronic Speed Controller Buyer’s Guide](https://oscarliang.com/esc/)
+[ESC Firmware and Protocols Overview](https://oscarliang.com/esc-firmware-protocols/)
+
+
+
 
 
 [ESC-Configurator][01] is an experimental web app to configure ESC firmware online.

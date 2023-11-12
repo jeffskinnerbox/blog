@@ -20,6 +20,33 @@ Version:      0.0.0
 
 
 
+# Great Sources of FPV Quadcopter Information
+* Chris Rosser's [website](https://www.cncdrones.com/) and [videos](https://www.youtube.com/@ChrisRosser) and [AOS Labs](https://www.aos-rc.com/aos-labs) for drone engineering, testing, & physics
+* [MiniQuad Test Bench](https://www.miniquadtestbench.com/) for motor and ESC testing
+* Joshua Bardwell's [website](https://www.fpvknowitall.com/) and [videos](https://www.youtube.com/@JoshuaBardwell)
+* Oscar Liang's [website](https://oscarliang.com/) and [videos](https://www.youtube.com/@OscarLiang1)
+* [rotorbuilds](https://rotorbuilds.com/)
+* [Drone Nodes](https://dronenodes.com/how-to-build-a-drone/)
+* [Pilot Institute](https://pilotinstitute.com/)
+* Mark Spatz's [UAV Tech](https://www.youtube.com/@uavtech)
+* [Brushless Whoop](https://brushlesswhoop.com/)
+* [FPV Freedom Coalition](https://fpvfc.org/) for UAV regulatory matters with the FAA and other government organizations
+* [FPV Racing Drone](https://fpvracingdrone.org/)
+
+# Great Sources of Aviation Information
+* [SKYbrary](https://skybrary.aero/) is a wiki created by the European Organisation for the Safety of Air Navigation, International Civil Aviation Organization, and the Flight Safety Foundation to create a comprehensive source of aviation safety information freely available online.
+
+# Federal (FAA) Drone Laws
+# State of Virginia Drone Laws
+* [Drone Laws in Virginia (2023)](https://uavcoach.com/drone-laws-virginia/)
+* [The 4 Best Places to Fly a Drone Near Washington, D.C. (2023)](https://uavcoach.com/where-to-fly-drone/washington-dc/)
+* [Drone Laws in Virginia](https://drone-laws.com/drone-laws-in-virginia/)
+
+
+
+
+
+
 I got the itch to build & fly my own FPV quadcopter.
 This itch came on me after I first built (and I continue to rebuild) a RC Car, which was in large part 3D printed.
 It safe to say that my real desire was to 3D print & build a quadcopter,
@@ -31,22 +58,27 @@ that just tuning a quadcopter flight controller for flight, learning how to fly 
 and then fly the drone with minimal crashes will be a significant challenge in itself.
 I needed a way to pickup some basic skills without over committing myself in time, effort, and money.
 
-The FPV quadcopter community have effectively solved this problem with the "[Tiny Whoop][15]".
-This style of quadcopters are small enough to fly indoors safely but agile enough to be fast & aerobatic in the outdoors.
-The have shrouded propellers so you can fly around people safely and can absorb many crashes.
+To address this, I choose to purchase a pre-built [Tiny Whoop][13] (also see [here][15]).
+A Tiny Whoop is a small indoor FPV quadcopter featuring 31-40mm propellers,
+protective propeller guards (some times constructed as prop ducts).
 There are several tiny whoop sizes,
 typically measure in prop size (31mm, 2 prop up to 45mm, 3 prop)
 and/or frame size (65mm to 80mm), and/or weight (28g to 34g),
 and/or battery size (usually operate on 1S or 2S LiPo batteries).
 
-An added benefit of the tiny whoops is their light weight.
+Tiny Whoops are easy-to-control FPV drones are perfect for indoor flying
+but can also be flown outdoors when there is little wind.
+Their ducts and light weight ensure safety and reduce damage upon crashes,
+but agile enough to be fast & aerobatic in the outdoors.
+
+An added benefit of the tiny whoops is their limited regulatory requirment because of their light weight.
 The latest FAA rules requires all [Unmanned Aircraft Systems (UAS)][17] to be [FAA registered][18]
 and equiped with [RemoteID][16] for any aircraft of 250 grams or more.
 Tiny whoops are well under the 250g threshold.
 Never the less, the rule for **operating** any UAS in the National Airspace System (NAS) is [14 CFR Part 107][07],
 referred to as the Small UAS Rule.
 The bottomline is that while my tiny whoop doesn't require a RemoteID nor FAA registration,
-I must take The [Recreational UAS Safety Test (TRUST)][04] and carry proof of test passage when flying.
+you must take the [Recreational UAS Safety Test (TRUST)][04] and carry proof of test passage when flying.
 
 >**NOTE:** To understand what FAA rules apply to a light weight tiny whoop,
 >the FAA has an online tool "[What Kind of Drone Flyer Are You?][08]"
@@ -56,7 +88,7 @@ I must take The [Recreational UAS Safety Test (TRUST)][04] and carry proof of te
 More sources of inspiration:
 * [Beginner’s Guide to Drones](https://www.droneblog.com/start/)
 * [How To Get Started With FPV Drone – The Ultimate Beginner’s Guide](https://oscarliang.com/fpv-drone-guide/)
-* [The Best Tiny Whoops and Accessories | Micro Indoor FPV Drones](https://oscarliang.com/best-tiny-whoop/)
+* [The Best Tiny Whoops and Accessories | Micro Indoor FPV Drones][13]
 
 ## My Quadcopter Selection
 Tiny whoop's are often operated indoors,
@@ -69,7 +101,7 @@ If indoor racing is your objective, than a 65mm tiny whoop
 My main focus is on outdoor use, so more power and maneuverability is my goal.
 I choose a slightly larger and more powerful quadcopter,
 the [BetaFPV 80mm Meteor75 Pro 1S][24]
-([checkout this video][21] and this [review][23]).
+([checkout this video][41] and this [review][23]).
 It has analog FPV video system ([C03 FPV camera](https://betafpv.com/products/c03-fpv-micro-camera),
 [M03 5.8GHz 350mW VTX](https://betafpv.com/products/m03-25-350mw-5-8g-vtx)),
 [45mm 3-Blade 1.5mm shaft propellers](https://betafpv.com/collections/40mm-propellers/products/gemfan-45mm-2-blade-3-blade-propellers-1-5mm-shaft-4pcs?variant=40100902273158),
@@ -79,7 +111,12 @@ It has analog FPV video system ([C03 FPV camera](https://betafpv.com/products/c0
 [ExpressRLS controlled](https://www.expresslrs.org/),
 whoop quadcopter kit from [BetaFPV](https://betafpv.com/).
 
-* [The Best Tiny Whoops and Accessories | Micro Indoor FPV Drones](https://oscarliang.com/best-tiny-whoop/)
+>**NOTE:*** The above is with an analog VTX, which make sense
+>since you need a light weight camera system which can work with a 1S battery.
+>You could go with a digital camera system from the [WalkSnail Avatar Mini VTX][35].
+>Check out [this video][36] for an evaluation.
+
+* [The Best Tiny Whoops and Accessories | Micro Indoor FPV Drones][13]
 * [BetaFpv Meteor75 Pro HD Whoop - Really Honest Review](https://www.youtube.com/watch?v=wKRGyDbm56w)
 * [The World's Lightest 75mm Whoop is AMAZING!](https://www.youtube.com/watch?v=0P3PREMKdDc)
 * [Making Whoops FLY BETTER | w/ the BETAfpv Meteor 75 PRO](https://www.youtube.com/watch?v=pfDMKg0XJ14)
@@ -109,6 +146,8 @@ This might inform me on what I ultimate want from my goggles,
 but in any event, I'm taking the time to make sure I fell good about what how I'm spending my money.
 
 ## Anticipated Tuning and Modifications
+Learn how to fly before doing Betaflight tuning.  The default values in Betaflight should be good enough for initial learnings about flying.
+
 I got several ideas from these sources about changes I would like to consider:
 
 * [2023 Ultimate Guide to Tiny Whoops: Are you using the right stuff?](https://www.youtube.com/watch?v=lgeeR8TiuP0)
@@ -117,6 +156,7 @@ I got several ideas from these sources about changes I would like to consider:
 Specific ideas I want to try:
 
 * Throttle Expo - [Adjusting Throttle Curve in Betaflight and EdgeTX: Tips for Smoother Throttle Control](https://oscarliang.com/throttle-curve/)
+* [Betaflight OpenTX Throttle Scaling | TAME YOUR 2S TINY WHOOP](https://www.youtube.com/watch?v=K7t6U_2dLlk)
 * Rates - [I turned BF rates to max and learned something profounds](https://www.youtube.com/watch?v=nJ-V7EAnpig)
 * Motor limiting - [Throttle Limit in Betaflight 3.4: Longer flights and cooler motors](https://flexrc.com/2018/07/12/throttle-limit-in-betaflight-3-4-longer-flights-and-cooler-motors/)
 * [Angle vs Acro Tiny Whoops In 2023](https://www.youtube.com/watch?v=MTIx3tyqz6U)
@@ -143,6 +183,108 @@ BetaFPV also provides on the [F4 1S 5A AIO Brushless Flight Controller (aka BETA
 
 * Built-in ExpressLRS 2.4G receiver, which can be updated via WiFi or Betaflight serial passthrough.
 * Built-in an 8MB flash memory chip dedicated to Blackbox logging, useful for tuning and troubleshooting.
+
+## Backup Everything
+In this section, I will outline how to do a complete backup to protect yourself from a catastrophic data or software lose of
+your radio controller, flight controller, electronic speed controller, or your goggles.
+In reallity, only thoses things you have created/configure in the radio controller and flight controller will be saved.
+Any platform level software can always be download from the cloud.
+
+#### Step 1: Backup Transmitter (Radiomaster Boxer) - DONE
+My [Radiomaster Boxer][26] transmitter has a [EdgeTX][27] operating system with a [ExpressLRS][28] radio.
+[EdgeTX Companion][29] is a computer program that allows you to connect to your
+EdgeTx radio via USB and perform backups, modifications, etc. using your laptop/desktop.
+We'll use it here to do a backup:
+
+1. Turn on RadioMaster Boxer **before** connecting it with a USB cable
+2. Connect your desktop computer to the RadioMaster Boxer via USB-C port on top
+3. Make sure you are in USB mode, that is, select **USB Storage (SD)** in the Boxer menu. This makes Boxer appears as a hard drive on your computer
+4. Using the EdgeTX Companion, select the button in the left-hand menu that is titled **Read Models and Settings From Radio**.
+Save the Models & Settings on your computer (e.g. directory `~/FPV-Flying/Backups/RadioMaster-Boxer/`)
+via the **Save** button the the top menu with an identifiable name (e.g. `EdgeTX-settings-backup-10-30-2023.etx`)
+5.Using the EdgeTX Companion, select the button in the left-hand menu that is titled **Read Firmware From Radio**.
+Save the firmware on your computer via the **Save** button with an identifiable name (e.g. `EdgeTX-firmware-backup-10-30-2023.bin`)
+**Doesn't Work Because of `dfu-util` Problem** - May not be needed if you copy the SD-Card as shown below.
+6. As an extra measure, using your file management tool, copy the entire SD-card from the Boxer to you backup folder.
+
+Sources:
+* [EdgeTX Companion: Backup an EdgeTX radio in under a minute](https://www.youtube.com/watch?v=D24JtWshVpc)
+* [EdgeTX Companion Backup & Restore Models & Radio Settings](https://www.youtube.com/watch?v=vW7N0DmKqLw)
+* [Looking for EdgeTX Companion? See this link](https://edgetx.org/getedgetx/)
+
+#### Step 2: Backup Flight Controller (FC) - DONE
+[Betaflight Configurator][14] can help with the backup of the flight controllers (FC) firmware and settings.
+
+1. Via a USB cable, connect your flight controller to you desktop computer.
+2. Start Betaflight Configurator via icon in the lanucher (or on the commandline via `/opt/betaflight/betaflight-configurator/`).
+3. Click on the large **Connect** button on the top right.
+3. On the left side menu column of Betaflight Configurator, select the **Presets** icon, which, looks like a magic wand.
+4. To backup the FC configuration, go to the **Presets** tab.
+There you have the button **Save backup**.
+Press this button and place the backup file in `~/FPV-Flying/Backups/Meteor75-Pro/`.
+(**NOTE:** The result is the same as entering `diff all` in **CLI**).
+
+To restore this configuration, simply use the **Load backup** button on the  **Presets** tab.
+
+If you need to restore the FC firmware,
+you can us Betaflight Configurator to retreve and restore it.
+You'll need the version number and that can be found in the configuration file you just backed up.
+To get the Betaflight firmware version number, just do the following:
+
+```bash
+# get the firmware version number
+grep -i betaflight BTFL_cli_backup_*.txt
+```
+
+To restore this firmware, click the large **Update Firmware** button on the top right and follow the instructions.
+
+Sources:
+* [How to Backup & Restore Betaflight Configuration](https://oscarliang.com/backup-restore-betaflight-config/)
+* [Use Diff not Dump! (Betaflight)](https://oscarliang.com/use-diff-not-dump-betaflight/)
+* [Betaflight CLI | How to Restore Rotor Riot Settings](https://www.youtube.com/watch?v=D4AjJi8sUhM)
+
+#### Step 3: Backup Quadcopter Radio (ExpressLRS) - DONE
+There is really **no way to backup the ExpressLRS radio software** on the quadcopter.
+The best you can do is reflash it with the version you have installed.
+So **what is shown here is the reflashing process**.
+
+I'm going to show the procedure for my [BetaFPV 80mm Meteor75 Pro 1S][24].
+For a different quadcopter, the setup will change, particullary in the **Target** section:
+
+1. Plug ina a USB cable from your flight controller to your computer, but do **NOT** connect to betaflight configurator.
+Instant execute the ExpressLRS Configurator via icon in the lanucher (or on the commandline via `expresslrs-configurator`).
+2. Make sure your on the **OFFICAL RELEASES** tab.
+3. Within the **Firmware version** section, pick from the menu the release you wish to use ("3.3.0" in my case).
+**NOTE: The both your quadcopter and the controller radio must be using the same version.**
+4. Within **TARGET** **Device category** select "BETAFPV 2.4GHz" from the menu.
+5. Within **TARGET** **Device** select "BETAFPV 2.4GHz AIO RX" from the menu.
+1. Within **Flashing Method** section, use the **BetaflightPassthrough** option in ExpressLRS Configurator.
+1. Within the **Device options** section, select **Standard mode**.
+Check **REGULATORY_DOMAIN_ISM_2400**, **BINDING_PHRASE** (I use my name as the binding phrase), and **LOCK_ON_FIRST_CONNECTION**.
+**NOTE: The both your quadcopter and the controller radio must be using the same binding phrase.**
+1. Within the **Actions** section, select the serial device driver that your quadcopter has been assigned (typically `/dev/ttyACM0`).
+1. Click the **FLASH** button.
+
+Sources:
+* [ExpressLRS definitive getting started guide](https://www.youtube.com/watch?v=J3Hg2f7RL1A)
+
+#### Step 4: Backup Radiomaster Boxer Radio (ExpressLRS) - DONE (sort-of)
+Like the quadcopter,
+there is really **no way to backup the ExpressLRS radio software** on the Radiomaster Boxer radio.
+You'll use the same reflashing proceedure outline above except you'll be using
+**RadioMaster 2.4 GHZ** and **RadioMaster Boxer Internal 2.4GHz TX** in the **Target** section.
+
+#### Step 5: Backup Electronic Speed Controller (ESC) - DONE (sort-of)
+Like the ExpressLRS examples, there is really **no way to backup the ECS software** on the quadcopter.
+The best you can do is reflash the ESC with the [ESC-Configurator][33].
+
+#### Step 6: Backup Goggles
+
+
+
+------
+
+
 
 #### Step X: Charge Batteries
 Make sure to charge a sutable 1S LiPo battery (regular or high voltage).
@@ -215,6 +357,13 @@ Sources:
 
 #### Step X: Further Tuning
 * [Making Whoops FLY BETTER | w/ the BETAfpv Meteor 75 PRO](https://www.youtube.com/watch?v=pfDMKg0XJ14)
+* [How to use Blackbox in Betaflight FPV Drones](https://oscarliang.com/blackbox/)
+* Setup & Tuning of the Quadcopter Flight Controller - [BetaFlight][19]
+* Tune Metero75 Pro - see 11:30 minute mark - [BetaFpv Meteor75 Pro HD Whoop - Really Honest Review](https://www.youtube.com/watch?v=wKRGyDbm56w)
+* [Making Whoops FLY BETTER | w/ the BETAfpv Meteor 75 PRO](https://www.youtube.com/watch?v=pfDMKg0XJ14)
+* [2023 Ultimate Guide to Tiny Whoops: Are you using the right stuff?](https://www.youtube.com/watch?v=lgeeR8TiuP0)
+* [Best Tiny Whoop Drones & Parts](https://www.fpvknowitall.com/fpv-shopping-list-tiny-whoop/)
+
 
 
 -----
@@ -226,6 +375,7 @@ Check out how to do a build
 * [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
 * [How I REALLY configure my own quadcopter](https://www.youtube.com/watch?v=fC_EbT2J_m8)
 
+## Tiny Whoop
 * 65mm Tiny Whoops - the classic FPV quadcopter used for indoor racing.
     * Build Video - [DIY - Build a Micro Racing FPV Drone for $120 / in 2023](https://www.youtube.com/watch?v=0K-GTuGI6AI)
     * [802 19000kv Motors](https://www.amazon.com/19000KV-Brushless-Motors-SE0802-Snapper7/dp/B07J9QHJXF)
@@ -236,21 +386,24 @@ Check out how to do a build
     * [BETAFPV BT2.0 Connector 55mm 22AWG](https://www.amazon.com/dp/B081C5RLJ9?th=1)
     * [AIO FPV video camera+transmitter+antenna combo](https://www.amazon.com/AKK-200mW-Switchable-600TVL-Camera/dp/B072V1F8V3/)
 * 75mm Happymodel Mobula7 Whoop - [Review: Happymodel Mobula7 1S BNF Whoop](https://oscarliang.com/mobula7-1s-whoop/)
+
+## Cinewhoop
+[What is a CineWhoop?](https://www.youtube.com/watch?v=lXhyc_qYT2Y)
+Cinewhoops are drones specifically designed for capturing chrisp, stable, high-definition video that DJI drones can’t capture. They are small, stable and much safer than your 5” FPV drone. They usually run 3” propellers that are protected in ducts that give them more lift
+
 * 160mm 3" Ducted Prop Shendrones CineWhoop - Cinewhoops are quadcopters specifically designed for capturing chrisp and stable video. They are smaller and safer than your 5” FPV quadcopter. They usually run 3” propellers that are protected in ducts that give them more lift and ability to hover in place.
 * NewBeDrone Acrobee65 B06V4
     * [First-ever micro FPV drone with diversity ExpressLRS built in // NEWBEEDRONE ACROBEE65 BLV4](https://www.youtube.com/watch?v=UYo9ljCmBzc)
-* [5" Freestyle AOS5](https://www.youtube.com/watch?v=1Ok_0Z0WIvU)
-
-
-### What Are Cinewhoops?
-[What is a CineWhoop?](https://www.youtube.com/watch?v=lXhyc_qYT2Y)
-Cinewhoops are drones specifically designed for capturing chrisp, stable, high-definition video that DJI drones can’t capture. They are small, stable and much safer than your 5” FPV drone. They usually run 3” propellers that are protected in ducts that give them more lift
 
 * [What is a CineWhoop?](https://www.youtube.com/watch?v=lXhyc_qYT2Y)
 * [Which is the Best Cinewhoop?](https://oscarliang.com/cinewhoop/)
 * [Cinewhoops](https://dronenodes.com/cinewhoop-cinematic-fpv-drones/)
 * [REVIEW: Renegade FPV's 'Slammed' Shendrones Squirt! - BEST Cinewhoop Drone of 2022!](https://www.youtube.com/watch?v=uu3r5VIPnhQ)
+
+BumbleBee 3"
 * [iFlight BumbleBee HD V3 3" Cinewhoop Frame Kit](https://www.getfpv.com/iflight-bumblebee-hd-v3-3-cinewhoop-frame-kit.html)
+
+SHEN SQUIRT V2 3"
 * [SHEN DRONES SQUIRT V2 3" CINEWHOOP FRAME - CARBON & HARDWARE ONLY (DUCTS SOLD SEPARATELY) - CHOOSE VERSION](https://pyrodrone.com/products/shen-drones-squirt-v2-3-cinewhoop-frame-carbon-hardware-only-ducts-sold-separately-choose-version)
 * [Shen Drones Squirt V2 3" Cinewhoop w/ Ducts, Variable Angle Hero 7/8 Mount - Analog/DJI](https://www.getfpv.com/shen-drones-squirt-v2-3-cinewhoop-w-variable-angle-hero-7-8-mount-analog-dji.html)
 * [Thingiverse: Shendrones Squirt Parts](https://www.thingiverse.com/search?q=Shendrones+Squirt&page=1&type=things&sort=relevant)
@@ -259,8 +412,27 @@ Cinewhoops are drones specifically designed for capturing chrisp, stable, high-d
 * [How To Build a Cinewhoop | Squirt V2.1 FPV Drone](https://www.youtube.com/watch?v=QHZHjqiaLZU)
 * [How to build a CINEWHOOP (ducted HD FPV drone) feat. Shendrones Squirt V2 - BUILD LOG](https://www.youtube.com/watch?v=1dMOtOmZGeA)
 
+SkyLite 3"
+* [The SkyLite - A 3-inch Whoop BEAST! - BUILD](https://www.youtube.com/watch?v=UZWrUi-SWCM)
+
+* [Aggressive Micro CineWhoop // BetaFPV Pavo20 // 3s Power](https://www.youtube.com/watch?v=6AUUo19ABg0)
+
 ### How Ducts Work?
+* [How ducting a propeller increases efficiency and thrust](https://www.youtube.com/watch?v=Cew5JF8q6eY)
 * [How Cinewhoop ducts work and when you should use them](https://www.youtube.com/watch?v=7f2DZIC8a1k)
+
+* [Ducts - more thrust and efficiency?](https://www.youtube.com/watch?v=DuQekK0bUGg)
+* [Tuned Ducts are Good](https://www.youtube.com/watch?v=p_EFiy1hUL0)
+* [This is why DUCT DESIGN matters for CINEWHOOPS and other ducted quads (Taycan vs Megabee vs custom)](https://www.youtube.com/watch?v=J1_WdRgjaOI)
+* [Inductrix ducts - are they just prop guards?](https://www.youtube.com/watch?v=hPUVrRqhyMk&t=6s)
+
+## 3" Freestyle
+* [FPV Drone Build And Flight // Walksnail Avatar 3.5” Freestyle](https://www.youtube.com/watch?v=nWSUM62x0lg)
+
+## 5" Freestyle
+* [5" Freestyle AOS5](https://www.youtube.com/watch?v=1Ok_0Z0WIvU)
+* [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
+    * Build Video - [Beginner DIY FPV Drone Kit - QAV-S 2 Joshua Bardwell SE 5” - HD Ready](https://www.getfpv.com/beginner-diy-fpv-drone-kit-qav-s-2-joshua-bardwell-se-5-hd-ready.html)
 
 
 -----
@@ -272,20 +444,6 @@ Cinewhoops are drones specifically designed for capturing chrisp, stable, high-d
 
  EdgeTX - EdgeTX is an open-source firmware for remote control transmitters used in hobbyist RC (radio-controlled) flying and other activities. It is highly customizable, allowing users to configure their transmitters and adjust settings to suit their individual preferences and specific needs.
  Crossfire - [TBS Crossfire Beginner Guide (2023 Update)](https://www.youtube.com/watch?v=Ypn71lIu8l8)
-
-
-
-# Great Sources of FPV Quadcopter Information
-* Chris Rosser's [website](https://www.cncdrones.com/) and [videos](https://www.youtube.com/@ChrisRosser) and [AOS Labs](https://www.aos-rc.com/aos-labs) for drone engineering, testing, & physics
-* [MiniQuad Test Bench](https://www.miniquadtestbench.com/) for motor and ESC testing
-* Joshua Bardwell's [website](https://www.fpvknowitall.com/) and [videos](https://www.youtube.com/@JoshuaBardwell)
-* Oscar Liang's [website](https://oscarliang.com/) and [videos](https://www.youtube.com/@OscarLiang1)
-* [rotorbuilds](https://rotorbuilds.com/)
-* [Drone Nodes](https://dronenodes.com/how-to-build-a-drone/)
-* [Pilot Institute](https://pilotinstitute.com/)
-* [UAV Tech](https://www.youtube.com/@uavtech)
-* [Brushless Whoop](https://brushlesswhoop.com/)
-* FPV Freedom Coalition
 
 
 
@@ -309,6 +467,7 @@ Pyrodrone
 RaceDayQuads
 OscarLiang
 [rotobuilds: FPV Part list and Build Logs](https://rotorbuilds.com/)
+[New Bee Drone Store](https://newbeedrone.com/)
 
 # Radio Transmitter / Controller
 Sometimes called a radio transmitter, or just radio, or just transmitter, or just controller.
@@ -326,94 +485,6 @@ Radiomaster - RadioMaster TX16S - $200 / RadioMaster TX12 - $100
 * [Affordable FPV Controllers That DON’T SUCK!](https://www.youtube.com/watch?v=Az5G4nq8F3M)
 * [Cheap vs. Expensive FPV Controllers - What's the Difference?](https://www.youtube.com/watch?v=SrN6ps4NM10)
 * [2023 BEST Radios for Fpv Drones - BUYER'S GUIDE](https://www.youtube.com/watch?v=KOYla-wqFYg)
-
-# FPV Goggles
-Analog is the oldest, most affordable, and most prevalent technology, it’s available in 5.8GHz, 2.4GHz and 1.2/1.3GHz. In contrast, digital technology, which offers superior image quality, is newer and gaining popularity. Digital is expected to become mainstream in the near future.
-This decades-old technology is not proprietary to any specific company, allowing anyone to create components for the system. Consequently, it is the most widely available system on the market.
-Until mid-2019, analog was the only FPV option. There are dozens of cameras, video transmitters, and goggles from multiple manufacturers, all compatible with each other. Analog is the most affordable way to enter the world of FPV.
-
-Price for an analog FPV solution:
-* Camera: $15 – $40
-* Video Transmitter (VTX): $15 – $40
-* FPV Goggles: $80 – $500
-
-Currently there are three digital FPV systems available for FPV drones, all of them are 5.8GHz systems, and none of the them are cross-compatible with each other as they are all proprietary systems.
-Currently the available digital FPV system are: DJI, HDZero and Walksnail Avatar
-
-
-FPS Systems Available
-* Analog - analog camera, good for micro quads since light and low power consumption
-* DJI V2 & DJI O3 - typically too heavy & power hungry for small quads
-* Walksnail (FatShark Dominator)
-    * [Walksnail Goggles X For Avatar HD - All In One FPV With Some Compromises!](https://www.youtube.com/watch?v=ti3zyavDOow)
-    * [Future-Proof Digital FPV - Walksnail Goggles X](https://www.youtube.com/watch?v=-TlAkSeTkfU)
-* HDZero - HDZero camera, you can use to upgrade analog goggles
-* Orqa FPV Pilot
-    * [Orqa FPV Pilot from Fatshark Attitude V6, Worth It?](https://www.youtube.com/watch?v=tU1pb8TPh14)
-* Fat Shark Attitude V6
-* Skyzone Cobra X V2 5.8GHz FPV Goggles - https://oscarliang.com/skyzone-cobra-s-x-fpv-goggles/
-    * [Skyzone Cobra X is the best FPV box goggle you can buy, PERIOD](https://www.youtube.com/watch?v=72UtCqu2wvg)
-    * [Best Beginner Fpv Goggles for 2021 - SKYZONE COBRA X - REVIEW & RESULTS 🏆](https://www.youtube.com/watch?v=6uq0o-uGOsk)
-* Skyzone Sky02O
-    * [Skyzone Sky02O is the cheapest OLED FPV goggle you can buy](https://www.youtube.com/watch?v=wyloV-tnlqo&t=18s)
-* Skyzone 04X
-    * [Skyzone 04X Review - The Best For Analog & HDZero For Now](https://www.youtube.com/watch?v=wzc8U-jnxmI)
-* Other
-    * [How to fly FPV with transparent (AR) glasses](https://www.youtube.com/watch?v=FFz3P1EQRlg)
-
-* [How to FPV Volume 2: Open your eyes to RC // The Basics and Setup of FPV Goggles](https://www.youtube.com/watch?v=KAn8UINDpQg)
-* [Choosing the Best VTX (Video Transmitter) for FPV Drones – The Ultimate Beginner Guide](https://oscarliang.com/video-transmitter/)
-* [Ultimate FPV Goggles Guide: Find the Best FPV Headset for Every FPV System](https://oscarliang.com/fpv-goggles/#Digital-vs-Analog-Choosing-Your-Ideal-FPV-System)
-* [Which FPV System Should You Buy in 2023? Analog, DJI, HDZero, Walksnail Avatar](https://oscarliang.com/fpv-system/)
-* [Ranking DJI 03 vs HD-Zero, WalkSnail, Analog from WORST to BEST](https://www.youtube.com/watch?v=nxMSTc8lZ38)
-* [Best FPV Goggle 2023 Buyer's Guide // DJI v. HDZERO v. WALKSNAIL v. ANALOG](https://www.youtube.com/watch?v=TMOeIQ4VRX4&t=77s)
-* [HDZero vs Analog vs DJI - Penetration & Image Quality Test - small bando](https://www.youtube.com/watch?v=cdA7dYMcdmo)
-* [Cheap vs. Expensive FPV Goggles - What's the Difference??](https://www.youtube.com/watch?v=oOEbygcWk-w)
-* [The best FPV goggle for almost everybody (except DJI) // HDZERO GOGGLE REVIEW](https://www.youtube.com/watch?v=TPnGVad9Cm8)
-* [ImmersionRC PowerPlay DVR - better than using the FatShark DVR?](https://www.youtube.com/watch?v=Vyr_1_ylpu4)
-* [HDZero Goggles ExpressLRS Backpack - I Love This](https://www.youtube.com/watch?v=pWKLjAM8rvE) - must use Betaflight 4.4.x
-
-### Is a Ham Radio License Needed When Flying FPV?
-The short answer is yes, you need at least a Level 1: Technician License to operate FPV drones legally. The vast majority of FPV VTX (video) systems operate in the 5.8 MHz ham radio bands, between 5650mhz to 5925mhz. These frequencies are governed by FCC Part 97 (aka ham radio, amateur radio).
-
-Anything that broadcasts a radio signal in the United States must follow the rules of the Federal Communications Commission (FCC).  According to the FCC there are basically two ways to operate equipment such as our FPV video transmitters (VTX) within the RF spectrum allocated for such use.
-
-1. The first way is to use equipment that is certified by the FCC under part 15 which means the company who created it has submitted it to the FCC for approval and the FCC agrees that the equipment meets all the standards, transmits at appropriate power levels, does not cause interference, and so on.
-2. The second way to comply with the FCC rules is to have an amateur radio operators license.  In that case you have proven that you understand the FCC rules, you know how to operate radio broadcasting equipment, and you can be trusted to operate hardware that has the potential to cause interference to others.  This license then gives you permission to use these devices within appropriate power levels on frequencies within the US amateur allocations.
-
-Except in a few cases, none of the modern FPV video transmitters has an FCC part 15 certificate.  Therefore the person operating the equipment must have a Technicians level ham license in order to operate it.  This is why you see a warning on all the major FPV stores in the US when you try to purchase a VTX from their website.  They are letting you know that it is YOUR responsibility to follow the regulations and know how to use this equipment properly.
-
-In what is commonly referred to as the 5.8ghz range that a typical FPV VTX operates, a technicians level ham license allows you to use the frequencies from 5650mhz to 5925mhz.
-Also be aware that many video transmitters will allow you to use frequencies outside that range.
-
-Take a look at [this chart](https://fpvfc.org/fpv-frequency-chart) for a visual representation of the various FPV VTX bands, frequencies, and how they fall in the amateur range.
-
-* [Is a Ham Radio License Needed When Flying FPV?](https://fpvfc.org/ham-license)
-* [Why Do You Need A Ham Radio License for Flying FPV Drones?](https://hamradioprep.com/fpv-drones-using-a-ham-radio-license/)
-* [HAM Radio License for FPV – All You Need to Know](https://myracingdrone.com/ham-radio-license-for-fpv-drone/)
-
-## SKYZONE
-* SKYZONE KY04X $529 - [Skyzone 04X Review - The Best For Analog & HDZero For Now](https://www.youtube.com/watch?v=wzc8U-jnxmI)
-    * [SkyzoneFPV Steadyview Fusion Board V3.3 🧮 // Did They Fix Mix Mode?](https://www.youtube.com/watch?v=ocFtdzqnmqI)
-* SKYZONE SKY04O $429 - [SKYZONE SKY04O FPV Goggle with OLED Screen and 60FPS DVR Steadyview Receiver](https://www.skyzonefpv.com/products/skyzone-sky04o-fpv-goggle-with-oled-screen-and-60fps-dvr-steadyview-receiver)
-* SKYZONE Ground Station - [Skyzone Steadyview X Review](https://www.youtube.com/watch?v=IMRyGvRCT2o)
-
-## HDZero
-* [How Does Bardwell Rank Digital Systems For FPV? DJI Walksnail and HDZero! - FPV Questions](https://www.youtube.com/watch?v=3adrx4sM5oU)
-* [HDZero Goggle + Walksnail VRX = Avatar Goggles? Definitely worth testing](https://www.youtube.com/watch?v=0MhXD9zEdqM)
-* [HDZero FPV Goggles Review - Best FPV Goggle Available Today?](https://www.youtube.com/watch?v=HTBcYi6Zokw)
-* [$495 for HDZero Goggles, They Are Seriously IMPRESSIVE!](https://www.youtube.com/watch?v=ajCuxmh_Opc)
-* [This Goggle WINS Drone Racing // HDZero Goggles + Nano90 Camera Full Review + Testing](https://www.youtube.com/watch?v=GW6gNMK7Ah0)
-* [HDZero Goggle Review](https://atxairborne.com/hdzero/hdzero-goggle/hdzero-goggle-review/)
-    * [Recommended Accessories for the HDZero Goggle](https://atxairborne.com/hdzero/hdzero-goggle/recommended-accessories-for-the-hdzero-goggle/)
-* [HDZero Goggles with the Walksnail VRX! : 60fps and 100fps Test](https://www.youtube.com/watch?v=at11dEuJyGo)
-
-
-
-# VR Headset
-* [Open Source VR Headset For $200](https://hackaday.com/2020/09/13/open-source-vr-headset-for-200/)
-* [AKK 5.8G RC832 Mini FPV Receiver Double-Screen Display for FPV Quadcopter Drone](https://www.amazon.com/gp/product/B01FXFZ0NS)
-* [AKK A2 5.8Ghz 200mW FPV Transmitter Raceband 600TVL 1/4 Cmos Mini FPV Micro AIO Camera with Clover Antenna for FPV Drone](https://www.amazon.com/gp/product/B06VSW41LN)
 
 # Optical Flow LIDAR Sensor
 This is a sensor to enable position hold and altitude hold on a drone.
@@ -580,6 +651,7 @@ https://www.google.com/search?q=5+inch+class+drone&sca_esv=568551326&sxsrf=AM9Hk
 Others prefer to jump right in to the 5" FPV racing quadcopters class and build their own.
 * [Building the Ultimate 5-inch FPV Freestyle Drone](https://www.youtube.com/watch?v=XB6b0HrDGeA)
 * [How to Build 5inch Freestyle FPV Drone in 2022 - For Professionals](https://www.youtube.com/watch?v=9mcIlWwHPJI)
+* [Build a 6s Freestyle FPV drone for $200](https://www.youtube.com/watch?v=ZaBlsTkxKIM)
 
 ### What Are Cinewhoops?
 [What is a CineWhoop?](https://www.youtube.com/watch?v=lXhyc_qYT2Y)
@@ -633,7 +705,7 @@ Toothpick class quads are ultra-light weights that have an AUW of under 100g.
 
 # Where can I Find Local FRIA Sites?
 Where can I find a [FAA-Recognized Identification Areas (FRIAs)][11] sites?
-While the FAA promises to maintain a [list of FAA approved FRIA sites][22], they appear to be struggling to keep it up to date.
+While the FAA promises to maintain a [list of FAA approved FRIA sites][42], they appear to be struggling to keep it up to date.
 A potentially better alternative is to search the [AMA's list of FRIA Sites](https://www.modelaircraft.org/fria-flying-sites)
 (or using "search" at [AMA Club Flying Site](https://www.modelaircraft.org/club-finder)).
 Another possibility are school based organizations like [STEM+C sites](https://stemplusc.org/stemc-cbo/)
@@ -643,9 +715,21 @@ Make sure all your aircraft over 250gm have you name, AMA number,and FAA number 
 visible on the outside  of your aircraft, and obey the 400 ft altitude limit for flying within the
 Washington DC area and the National Capital Region Special Flight Rules Area (SFRA).
 
-* [Loudoun County Aeromodelers Association (LCAA)](https://www.modelaircraft.org/club/loudoun-county-aeromodelers-association)
+* [Loudoun County Aeromodelers Association (LCAA)](https://lcaa.org/)
+    * [Loudoun County Aeromodelers Association (LCAA)](https://www.modelaircraft.org/club/loudoun-county-aeromodelers-association)
+    * [Loudoun County Aeromodelers Association - Banshee Reeks Nature Preserve](https://www.modelaircraft.org/site/loudoun-county-aeromodelers-association-banshee-reeks-nature-preserve)
+* [Ida Lee Park, Leesburg VA](https://www.leesburgva.gov/departments/parks-recreation/town-parks/uas-and-rocket-flights)
 * [DCRC Club](https://www.modelaircraft.org/club/dcrc-club)
 * [Plane Crazy R/Cers](https://www.modelaircraft.org/club/plane-crazy-rcers)
+
+* [Leesburg Executive Airport: Drone Flight Notification](https://www.leesburgva.gov/departments/airport/contact-airport-staff/drone-flight-notification)
+
+## Where Can I Find a Local FPV Community?
+[MultiGP](https://www.multigp.com/)
+is the World's largest Drone Racing League & FPV Community.
+MultiGP chapters welcome all pilots regardless of their skill levvel.
+
+[Northern Virginia Radio Control](https://www.multigp.com/chapters/view/?chapter=Northern-Virginia-Radio-Control)
 
 
 
@@ -920,12 +1004,6 @@ The FAA uses the term "[No Drone Zone][10]" to help people identify areas where 
 * [Street League](https://streetleague.io/)
 * [Tiny Whoop][15]
 
-## Where Can I Find a Local FPV Community?
-[MultiGP](https://www.multigp.com/)
-is the World's largest Drone Racing League & FPV Community.
-MultiGP chapters welcome all pilots regardless of their skill levvel.
-
-[Northern Virginia Radio Control](https://www.multigp.com/chapters/view/?chapter=Northern-Virginia-Radio-Control)
 
 ## 4S or 6S Battries?
 * [Using LiPo Batteries for FPV Drones: A Beginner’s Guide with Top Product Recommendations](https://oscarliang.com/lipo-battery-guide/)
@@ -1079,6 +1157,12 @@ you can use the tiny plunger to push the motor shaft down and pop the prop right
 
 * [The Tiny Whoop Prop Popper: An Unnecessarily Long Review by FPV Skittles](https://www.youtube.com/watch?v=7rejExxi7Z8)
 * [How to remove the props on a Tiny Whoop?](https://www.youtube.com/watch?v=nOmlCog9d54)
+
+## Propeller Propwash
+[Propwash][34] is the airflow generated by an aircraft's propeller,
+which can have significant effects on the performance of the aircraft, particularly during takeoff and landing.
+
+* [What causes Propwash and how Betaflight Dynamic Idle can help!](https://www.youtube.com/watch?v=CAMcRbQh3xM)
 
 # RC Link Protocol
 * [ExpressLRS: Open Source, Low Latency, Long Range RC Protocol](https://hackaday.com/2021/01/19/expresslrs-open-source-low-latency-long-range-rc-protocol/)
@@ -1320,33 +1404,6 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 
 
 
----------
-
-
-
-# How to Start FPV Flying
-* [New to FPV drones? DONT do these things unless you want to cry // Beginner tips for success](https://www.youtube.com/watch?v=s51q5eEQu0s)
-    1. Start out in a simulator since you are going to crash a lot.
-    2. Master race gates before you do acrobatic flying.
-    3. Learn how to fly in Acro Mode (aka Manual Mode and Rate Mode) not in Self-Level Mode (aka Angle Mode and Horizon Mode) [Acro Mode vs. Self-Level Mode](https://oscarliang.com/rate-acro-horizon-flight-mode-level/)
-    4. Never let your goggles lens see the Sun
-    5. When you get a new quadcopter, always check your prop directions in Betaflight
-    6. When you get a quadcopter, use the FC install before flashing and always have a backup
-    7. Never tune your FC until you have some experience with multiple quadcopters
-    8. When building a quadcopter, always use a meter to check for shorts and always use a smoke stopper
-    9. Always take your props off when working on the Bench
-    10. Always do a per flight check before doing a flight
-    11. If there are other pilots in the air, do not plug your quad in until you validate your on a unique video channel
-    12. Stand-off about 15 feet from other pilots to reduce interfernace
-    13. Don't jump on the hype train.  Don't hype something that some other person you like is hyping it.  Look for concrete facts & evidence.
-    14. Don't get discouraged. The learning curve is long and things get broken. Fall in love with the journey and not just the destination. You will have set-back.
-
-
-# Learning How to Fly
-* [Tutorials: Flying your drone (TRAIN INSANE)](https://www.youtube.com/playlist?list=PL4gEajIi4pj4ZoncJk1d-6Oj2v_fY8x3Y)
-
-
-
 [01]:https://www.digitaltrends.com/cool-tech/history-of-drones/
 [02]:https://thedroneracingleague.com/learn-more/
 [03]:https://en.wikipedia.org/wiki/Theory_of_operation
@@ -1359,32 +1416,34 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 [10]:https://www.faa.gov/uas/resources/community_engagement/no_drone_zone
 [11]:https://www.faa.gov/uas/getting_started/remote_id/fria
 [12]:https://www.faa.gov/uas/recreationalfliers/faa-recognized-community-based-organizations
-[13]:
-[14]:
+[13]:https://oscarliang.com/best-tiny-whoop/
+[14]:https://github.com/betaflight/betaflight-configurator/releases
 [15]:https://www.tinywhoop.com/
 [16]:https://www.faa.gov/uas/getting_started/remote_id
 [17]:https://www.faa.gov/uas
 [18]:https://www.faa.gov/uas/getting_started/register_drone
 [19]:https://betaflight.com/
 [20]:https://www.techtarget.com/whatis/definition/first-person-view-FPV
-[21]:https://www.youtube.com/watch?v=P6UDOajLE8E
-[22]:https://udds-faa.opendata.arcgis.com/datasets/faa::recreational-flyer-fixed-sites/about
+[21]:
+[22]:
 [23]:https://www.firstquadcopter.com/reviews/betafpv-meteor75-pro/
 [24]:https://betafpv.com/collections/brushless-series-except-hd/products/meteor75-pro-brushless-whoop-quadcopter
 [25]:https://betafpv.com/collections/brushless-flight-controller/products/f4-1s-5a-aio-brushless-flight-controller-elrs-2-4g
-[26]:
-[27]:
-[28]:
-[29]:
+[26]:https://www.radiomasterrc.com/collections/boxer-1/products/boxer-radio-controller-m2
+[27]:https://edgetx.org/
+[28]:https://www.expresslrs.org/
+[29]:https://www.youtube.com/watch?v=DpwbyMruoF8
 [30]:https://support.betafpv.com/hc/en-us
 [31]:https://betafpv.com/collections/batt-1s/products/bt2-0-550mah-1s-battery-4pcs
 [32]:https://viflydrone.com/products/vifly-whoopstor-6-ports-1s-battery-storage-charger-discharger
-[33]:
-[34]:
-[35]:
-[36]:
+[33]:https://esc-configurator.com/
+[34]:https://skybrary.aero/articles/prop-wash
+[35]:https://caddxfpv.com/products/walksnail-avatar-hd-mini-1s-kit
+[36]:https://www.youtube.com/watch?v=IgLeACodBk4
 [37]:
 [38]:
 [39]:
 [40]:
+[41]:https://www.youtube.com/watch?v=P6UDOajLE8E
+[42]:https://udds-faa.opendata.arcgis.com/datasets/faa::recreational-flyer-fixed-sites/about
 

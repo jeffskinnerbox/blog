@@ -17,6 +17,10 @@ Version:      0.0.0
 
 Review this again - [A Complete Guide to Flashing and Setting Up ExpressLRS](https://oscarliang.com/setup-expresslrs-2-4ghz/)
 
+The software foundation of EdgeTX is OpenTX.  Same is true for EdgeTX Companion.
+This video shows you how to setup your models via EdgeTX Companion.
+[How to install OpenTX Companion and set up your first model](https://www.youtube.com/watch?v=iwndEhssna8)
+
 
 
 
@@ -95,9 +99,10 @@ charged voltage of 4.10V. Charging the incorrect type of battery may damage the 
 If using Li-ion, ensure the cells are not protected and are button-top cells.
 Please check the voltage and condition of the battery regularly and never charge unattended. Always charge
 
-ANTENNA: Install the provided antenna in the top of the radio BEFORE installing batteries and turning on the
-radio. DO NOT operate the radio without the antenna installed and the internal RF module powered on. Doing
-so will damage the internal RF module and will not be covered under warranty.
+>**NOTE ANTENNA:** Install the provided antenna in the top of the radio BEFORE
+>installing batteries and turning on the radio.
+>**DO NOT** operate the radio without the antenna installed and the internal RF module powered on.
+>Doing so will damage the internal RF module and will not be covered under warranty.
 
 #### Step 1: Power Up the Boxer - DONE
 Press the power button and hold until all four boxes appear on the screen.
@@ -325,11 +330,15 @@ It has some great features that allow you to set up quadcopter, plane, etc.
 and actually simulate the controls to see whether everything is correct.
 If it is, you can then write that setup to your radio’s SD card via the USB connection.
 
+Sources:
+* start at 13:08 minutes - [EdgeTX Companion is Here! Watch this first](https://www.youtube.com/watch?v=VAEiwWaNEas)
 * [Looking for EdgeTX Companion? See this link](https://edgetx.org/getedgetx/)
 * [EdgeTX Companion v2.8: Complete Start to Finish Intro](https://www.youtube.com/watch?v=DpwbyMruoF8)
 * [Companion User Manual](https://edgetx.gitbook.io/edgetx-user-manual/edgetx-companion/companion-user-manual)
+* [RadioMaster Boxer](https://www.youtube.com/playlist?list=PLHSMllXIT6nbZI13nYcbGslWFXwYfi9Le)
+* [OpenTx Tutorial • Beginner Series](https://www.youtube.com/playlist?list=PLy3TC1ILJYTjqDXFB84oXVWZG14zyMYYt)
 
-#### Step X: Download EdgeTX Companion
+#### Step X: Download EdgeTX Companion - DONE
 Download EdgeTX Companion for Linux can be done at [this site][20].
 
 ```bash
@@ -342,17 +351,19 @@ unzip edgetx-cpn-linux-v2.9.1.zip
 cp ~/Downloads/EdgeTX-Companion/EdgeTx_Companion_2.9.1-x86_64.AppImage ~/bin
 chmod ug+x ~/bin/EdgeTx_Companion_2.9.1-x86_64.AppImage
 ```
-
-Now create the following file `~/.local/share/applications/edgext-companion.desktop`
+start at 13:08 minutes -start at 13:08 minutes -
+Now create the following file `~/.local/share/applications/edgetx-companion.desktop`
 and make it executable:
 
 ```bash
-#!/usr/bin/env xdg-open
+##!/usr/bin/env xdg-open
 
 # Creating a Custom Application Launcher in Ubuntu 22 - https://www.dgendill.com/posts/technology/2023-04-23-ubuntu22-custom-shortcuts-appliation-launchers.html
 # How to create a desktop shortcut to a website - https://askubuntu.com/questions/1269788/how-to-create-a-desktop-shortcut-to-a-website
 # How to create desktop shortcut launcher on Ubuntu 22.04 Jammy Jellyfish Linux - https://linuxconfig.org/how-to-create-desktop-shortcut-launcher-on-ubuntu-22-04-jammy-jellyfish-linux #How do I create a new application launcher in Ubuntu 22.04?
 # How do I create a new application launcher in Ubuntu 22.04? - https://askubuntu.com/questions/1428517/how-do-i-create-a-new-application-launcher-in-ubuntu-22-04
+# Fix "Add to Favorites" for custom apps in Ubuntu - https://averagelinuxuser.com/ubuntu_custom_launcher_dock/
+# Registering AppImage Files as a desktop app - https://askubuntu.com/questions/902672/registering-appimage-files-as-a-desktop-app
 
 # https://edgetx.org/getedgetx
 [Desktop Entry]
@@ -361,15 +372,83 @@ Terminal=false
 Type=Application
 Name=EdgeTX Companion
 Exec=/home/jeff/bin/EdgeTx_Companion_2.9.1-x86_64.AppImage
-Icon=/home/jeff/Downloads/edgetx-logo.png
+Icon=/home/jeff/.local/share/applications/edgetx-logo.png
 Categories=Application;IDE;
 Comment=Perform EdgeTX backups, modifications, etc. using your laptop/desktop
 ```
 
-[20]:https://edgetx.org/getedgetx/
+#### Step X: Create Backup of Boxer Configuration - DONE but did not work
+As you make changes to you EdgeTX configuration, keeping a backup of your EdgeTX firmware and settings is essential.
+You can use EdgeTX Companion to very easily save copies of EdgeTX radio settings and firmware.
 
-## Create Backup of Boxer Configuration
+To do backups, EdgeTX Companion make use of the Device Firmware Upgrade Utilities ([`dfu-util`][21]).
+Make sure to install it first as shown below:
+
+```bash
+# install the required backup utilities
+sudo apt install dfu-util
+
+# add the following UDEV rule to the file /etc/udev/rules.d/77-mm-usb-device-blacklist.rules
+# required for dfu-util - https://github.com/redbear/Duo/blob/master/docs/dfu-util_installation_guide.md
+ATTRS{idProduct}=="d058", ATTRS{idVendor}=="2b04", MODE="664", GROUP="plugdev"
+```
+
+If you can't open the DFU device or some other error, reboot and try again.
+
+Now to do the backup, follow these steps:
+
+1. Turn on RadioMaster Boxer **before** connecting it with a USB cable
+2. Connect the RadioMaster Boxer to your computer with USB cable
+3. Make sure you are in USB mode, that is, select **USB Storage (SD)** in the Boxer menu. This makes Boxer appears as a hard drive on your computer
+4 Using the EdgeTX Companion, select the button in the left-hand menu that is titled **Read Models and Settings From Radio**.
+Save the Models & Settings on your computer via the **Save** button the the top menu with an identifiable name (e.g. `EdgeTX-settings-backup-10-30-23.etx`)
+* Using the EdgeTX Companion, select the button in the left-hand menu that is titled **Read Firmware From Radio**.
+Save the firmware on your computer via the **Save** button with an identifiable name (e.g. `EdgeTX-firmware-backup-10-30-23.bin`)
+
+Sources:
 * [EdgeTX Companion: Backup an EdgeTX radio in under a minute](https://www.youtube.com/watch?v=D24JtWshVpc)
+* [EdgeTX Companion Backup & Restore Models & Radio Settings](https://www.youtube.com/watch?v=vW7N0DmKqLw)
+* [dfu-util Installation Documentation](https://github.com/redbear/Duo/blob/master/docs/dfu-util_installation_guide.md)
+
+#### Step X: Create Backup of Boxer Configuration - DONE
+As you make changes to you EdgeTX configuration, keeping a backup of your EdgeTX firmware and settings is essential.
+To do this, use this proceddure:
+
+1. With your radio powered on, plug your radio into your computer via USB.
+2. When prompted by your Boxer radio for the USB mode, select **USB Storage**.
+3. Press **SYS** > **Page Down** (2/7) > **Backup**
+4. With your computer, copy the entire contents of your SD card to a safe place on your computer. You can use these files again if you need to roll back the update.
+
+#### Step X: Fillout EdgeTX Companion Profile
+Using the **Gear** (aka Settings), fillout the **Profile** tab in EdgeTX Companion.
+
+
+
+---------
+
+
+
+# EdgeTX Snippets
+These short wrtite-up and videos conceerning "how-to" for some common needs on EdgeTx
+* [EdgeTX Snippets](https://www.youtube.com/playlist?list=PLy3TC1ILJYTjWBv9HIpj_Eb5yA_W9Neua)
+
+#### Step X: Built-In Curves and Custom Curves
+* [Adjusting Throttle Curve in Betaflight and EdgeTX: Tips for Smoother Throttle Control](https://oscarliang.com/throttle-curve/)
+* [MODEL CURVES screen explanation : How to use curves](https://www.apollomaniacs.com/ipod/howto_ar_drone_opentx_radio_bind_model_curvemenu_en.htm)
+* [Custom Curves](https://rcdiy.ca/opentx-transmitter-firmware/model-menus/custom-curves/)
+* [Curves - EdgeTX User Manual](https://edgetx.gitbook.io/edgetx-user-manual/b-and-w-radios/model-select/curves)
+* [EdgeTX Snippet • Built-In Curves vs Custom Curves](https://www.youtube.com/watch?v=cJuvl3mHxt8)
+* [EdgeTX Snippet • Learn About Weights and Expo](https://www.youtube.com/watch?v=jL8Jbd53-3E)
+
+#### Step X: Control Screen Brightness via Knob
+* [Screen brightness on a knob? // EDGETX GLOBAL FUNCTIONS HOW-TO](https://www.youtube.com/watch?v=CSWXkPCldP8)
+
+
+
+---------
+
+
+
 
 ## Create a Model
 A model refers to a configuration or template used in a radio-controlled device,
@@ -378,6 +457,7 @@ It includes various settings and options that define the behavior and characteri
 Models can be created, managed, and labeled in the Manage Models screen.
 https://edgetx.gitbook.io/edgetx-user-manual/edgetx-user-manual/user-manual-for-color-screen-radios/select-model
 
+Sources:
 * [How To Setup Radiomaster Boxer ExpressLRS in 5 Minutes](https://www.youtube.com/watch?v=biY5iH1Wz7I)
 
 ## Telemetry Screens
@@ -393,6 +473,11 @@ https://edgetx.gitbook.io/edgetx-user-manual/edgetx-user-manual/user-manual-for-
 
 ## Throttle Lock
 * [Throttle Lock for Radiomaster Boxer with EdgeTX: My NEW FAVORITE!](https://www.youtube.com/watch?v=zLcB24e8ZEc)
+
+## Throttle Scaling
+* [Betaflight OpenTX Throttle Scaling | TAME YOUR 2S TINY WHOOP](https://www.youtube.com/watch?v=K7t6U_2dLlk)
+* [Betaflight Rates tuning. How to make your quad feel right for the way you like to fly](https://www.youtube.com/watch?v=RneayCxDN4A&t=14s)
+* [Adjusting Throttle Curve in Betaflight and EdgeTX: Tips for Smoother Throttle Control](https://oscarliang.com/throttle-curve/)
 
 
 -----
@@ -484,5 +569,15 @@ I got several ideas from these sources about changes I would like to consider:
 [17]:
 [18]:
 [19]:
-[20]:
+[20]:https://edgetx.org/getedgetx/
+[21]:https://dfu-util.sourceforge.net/
+[22]:
+[23]:
+[24]:
+[25]:
+[26]:
+[27]:
+[28]:
+[29]:
+[30]:
 

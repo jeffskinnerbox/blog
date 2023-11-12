@@ -173,6 +173,14 @@ Also be aware that many video transmitters will allow you to use frequencies out
 
 Take a look at [this chart](https://fpvfc.org/fpv-frequency-chart) for a visual representation of the various FPV VTX bands, frequencies, and how they fall in the amateur range.
 
+In summary, the use and operation of FPV analog & digital VTX 5.8GHz product in the USA,
+and many other countries, requires a license and some countries may forbid its use entirely.
+In the USA, you will need a "HAM" amateur radio license.
+Make sure to [learn more about HAM licenses][03], and [find a HAM license exam session in your area][04].
+**It is your responsibility to ensure that the use of this product meets the requirements imposed by your government's rules and regulations for RF devices.**
+
+
+
 * [Is a Ham Radio License Needed When Flying FPV?](https://fpvfc.org/ham-license)
 * [Why Do You Need A Ham Radio License for Flying FPV Drones?](https://hamradioprep.com/fpv-drones-using-a-ham-radio-license/)
 * [HAM Radio License for FPV – All You Need to Know](https://myracingdrone.com/ham-radio-license-for-fpv-drone/)
@@ -200,6 +208,31 @@ Using a ground station is a great way to improve your FPV feed.
 * [FPV Ground Station Setup & Overview + Testing](https://www.youtube.com/watch?v=j4l6KQfhtUM)
 * [BUILD AN FPV GROUNDSTATION - MY SETUP](https://www.youtube.com/watch?v=S2wnS1T5haY)
 * [My Analog FPV Ground Station](https://www.youtube.com/watch?v=F2AFC-iG6sU)
+* [OpenIPC FPV news will blow your mind! Tests with ExpressLRS and INAV](https://www.youtube.com/watch?v=3IhKBH3aWdE)
+
+## SKYZONE SteadyView X 5.8Ghz Receiver Module
+[Steadyview X][10] is the upgrade V3.3 version of steadyview receiver.
+this receiver merge two signals to one, avoid image tearing and rolling in multi-path environment,
+make image more stable and clear in challenging condition.
+This video reciver has an [IPS screen][11] and [shuttle wheel][12],
+use can the shuttle wheel to set the recieved channel.
+This SteadyView X receiver also comes as a ground station KIT (i.e. not to be fitted on your goggles),
+so it can be use with a monitor or goggles which have an analog audio/visual input port (aka AV IN, 3.5mm with 4 Conductor TRRS/3).
+The kit also comes with 1 patch and 1 omi antenna.
+
+Also, the Steadyview X have an [ELRS backpack build in][13].
+User can use the [ELRS backpack][14] on the Steadview receiver,
+along with ELRS transmitter (aka controller), to synchronize the VTX & VRX
+to the same 5.8GHz channel.
+You can see how this is done via [ExpressLRS ESP Backpack documentation][14]
+and [this video for RadioMaster Boxer][15].
+
+* [Skyzone Steadyview X Review](https://www.youtube.com/watch?v=IMRyGvRCT2o)
+* [NEW! Skyzone SteadyView X GroundStation Module: Analogue FPV is alive and well!](https://www.youtube.com/watch?v=OWhsxzaGRKI)
+* [My Analog FPV Ground Station](https://www.youtube.com/watch?v=F2AFC-iG6sU)
+* [ELRS Backpack: Use Radio to Change VTX and HDZero Goggle Channel Simultaneously][15]
+* [RapidFIRE Killer? SkyZone SteadyView X Ground-Station - Overview & Side By Side Comparison](https://www.youtube.com/watch?v=AW6FxBitkcw)
+* [New Fusion V3.3 Board for Skyzone Steadyview/RapidMix Module Fixes Dark Rolling Issues](https://oscarliang.com/skyzone-steadyview-module-fusion-v3-3/)
 
 ## Antenna Tracker
 * [Eagle Tree Antenna Tracker Tutorial](https://www.rcgroups.com/forums/showthread.php?2520717-Eagle-Tree-Antenna-Tracker-Tutorial-RCGroups-FPV-Video-Review)
@@ -208,12 +241,22 @@ Using a ground station is a great way to improve your FPV feed.
 
 [01]:https://caddxfpv.com/products/walksnail-avatar-hd-goggles-x
 [02]:https://caddxfpv.com/
-[03]:
-[04]:
+[03]:https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service
+[04]:https://www.arrl.org/find-an-amateur-radio-license-exam-session
 [05]:
 [06]:
 [07]:
 [08]:
 [09]:
-[10]:
+[10]:https://www.skyzonefpv.com/products/skyzone-steadyview-x-5-8ghz-ips-screen-receiver-module
+[11]:https://www.hp.com/au-en/shop/tech-takes/post/what-is-an-ips-monitor
+[12]:https://en.wikipedia.org/wiki/Jog_dial
+[13]:https://cdn.shopifycdn.net/s/files/1/0597/9668/4956/files/SteadyView_ELRS_USER_Manual_V1.0.pdf
+[14]:https://www.expresslrs.org/hardware/backpack/esp-backpack/
+[15]:https://www.youtube.com/watch?v=ISzX80aK9T0
+[16]:
+[17]:
+[18]:
+[19]:
+[20]:
 
