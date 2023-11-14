@@ -700,6 +700,7 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
     * [Spaghetti Detective Users Boiled By Security Gaffe](https://hackaday.com/2021/08/20/spaghetti-detective-users-boiled-by-security-gaffe__trashed/)
 
 ## OctoPrint
+* [How To Install Octoprint On A Raspberry Pi](https://www.slashgear.com/1444547/how-to-install-octoprint-raspberry-pi/)
 * [How to Set Up OctoPrint on Raspberry Pi 4](https://all3dp.com/2/octoprint-raspberry-pi-4-tutorial/)
 * [How to Remote Monitor your 3D Printer with Raspberry Pi](https://www.tomshardware.com/how-to/monitor-3D-printer-raspberry-pi)
 * [Cura OctoPrint Connection: What Is It & How to Install It](https://all3dp.com/2/cura-octoprint-plugin-connection/)
