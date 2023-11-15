@@ -192,6 +192,10 @@ Probabilistic computing is a field of computer science and artificial intelligen
 Seems like it is nolonger offered
 * [Learn More About the IBM Quantum Developer Certification — And How to Take it For Free](https://medium.com/qiskit/learn-more-about-the-ibm-quantum-developer-certification-and-how-to-take-it-for-free-d237f9765dc5)
 
+* [Quantum Computing for Dummies: New guide helps beginners run quantum algorithms on IBM’s quantum computers over the cloud](https://spectrum.ieee.org/quantum-computing-for-dummies)
+    * [Quantum Algorithm Implementations for Beginners](https://dl.acm.org/doi/10.1145/3517340)
+    * [GitHub: lanl/quantum_algorithms](https://github.com/lanl/quantum_algorithms)
+
 
 # Scott Aaronson's Course "Quantum Computing Since Democritus"
 * [PHYS771 Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/default.html)
