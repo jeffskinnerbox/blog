@@ -195,6 +195,8 @@ Seems like it is nolonger offered
 * [Quantum Computing for Dummies: New guide helps beginners run quantum algorithms on IBM’s quantum computers over the cloud](https://spectrum.ieee.org/quantum-computing-for-dummies)
     * [Quantum Algorithm Implementations for Beginners](https://dl.acm.org/doi/10.1145/3517340)
     * [GitHub: lanl/quantum_algorithms](https://github.com/lanl/quantum_algorithms)
+    * [Quantum Glasses](https://github.com/Jayshah25/Quantum-Glasses) package is a GUI app designed to help users visualize the effects of single-qubit quantum gates via interactive [Bloch Sphere](https://learn.qiskit.org/course/ch-states/representing-qubit-states#bloch-sphere) simulations.
+    * [Quantum Computing Tutorials (Visual) for Beginners](https://www.youtube.com/playlist?list=PLJk_IGUjQllfCDHYmFNfaCoUgXImxmZIA)
 
 
 # Scott Aaronson's Course "Quantum Computing Since Democritus"
