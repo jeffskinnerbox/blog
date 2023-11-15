@@ -196,6 +196,7 @@ Seems like it is nolonger offered
     * [Quantum Algorithm Implementations for Beginners](https://dl.acm.org/doi/10.1145/3517340)
     * [GitHub: lanl/quantum_algorithms](https://github.com/lanl/quantum_algorithms)
     * [Quantum Glasses](https://github.com/Jayshah25/Quantum-Glasses) package is a GUI app designed to help users visualize the effects of single-qubit quantum gates via interactive [Bloch Sphere](https://learn.qiskit.org/course/ch-states/representing-qubit-states#bloch-sphere) simulations.
+    * [Quantum Glasses (Member of IBM Qiskit Ecosystem) | Quantum Computing explained](https://www.youtube.com/watch?v=wCrdbL5taj0)
     * [Quantum Computing Tutorials (Visual) for Beginners](https://www.youtube.com/playlist?list=PLJk_IGUjQllfCDHYmFNfaCoUgXImxmZIA)
 
 
