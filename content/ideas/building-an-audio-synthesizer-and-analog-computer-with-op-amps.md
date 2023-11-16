@@ -55,6 +55,7 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [Homebrew Grain Synth Has A Rad Step Sequencer](https://hackaday.com/2021/03/19/homebrew-grain-synth-has-a-rad-step-sequencer/)
 * [Raw 10 Steps Sequencer (APC + CD4017)](https://hackaday.io/project/181120-raw-10-steps-sequencer-apc-cd4017)
 * [A More Expressive Synth Via Flexure](https://hackaday.com/2023/02/28/a-more-expressive-synth-via-flexure/)
+* [Generating Music with AI: Combining Markov Chains with an 8-Step MIDI Sequencer](https://chariscat.wordpress.com/2021/02/14/generating-music-with-ai-combining-markov-chains-with-an-8-step-midi-sequencer/)
 
 ## Sound Dubbing
 * [Classic Chip Line-Up Powers This Fun Dub Siren Synth](https://hackaday.com/2021/09/24/classic-chip-line-up-powers-this-fun-dub-siren-synth/)
