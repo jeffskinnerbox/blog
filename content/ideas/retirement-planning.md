@@ -362,6 +362,16 @@ Once your money is in the Roth IRA, you’ll enjoy all of the tax benefits that 
 
 
 
+-------
+
+
+* [The Debt Can’t be Repaid - So What will Happen Instead?](https://www.youtube.com/watch?v=qn9YkwX0Hew)
+
+
+-------
+
+
+
 [01]:https://www.fidelity.com/building-savings/learn-about-iras/required-minimum-distributions/overview
 [02]:
 [03]:
