@@ -663,6 +663,7 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 
 # Delayed Choice Quantum Eraser Experiment
 * [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
+* [Boy, Was I Wrong! How the Delayed Choice Quantum Eraser Really works](https://www.youtube.com/watch?v=s5yON4Gs3D0)
 
 ## Second Law of Quantum Complexity
 * [Can a New Law of Physics Explain a Black Hole Paradox?](https://www.youtube.com/watch?v=yLOHdW7dLug)
@@ -729,6 +730,7 @@ uncertainty is a physical principle as well.
 * [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4)
 
 # Quantum Field Theory (QFT) & Mathematics
+* [Quantum Fields: The Most Beautiful Theory in Physics!](https://www.youtube.com/watch?v=eoStndCzFhg)
 * [The Mystery at the Heart of Physics That Only Math Can Solve](https://www.quantamagazine.org/the-mystery-at-the-heart-of-physics-that-only-math-can-solve-20210610/)
 
 # Quantum Quantization
