@@ -344,6 +344,7 @@ See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.co
 * [BaoFeng Antenna Side By Side Comparison](https://www.youtube.com/watch?v=YUG_LgQFF6w)
 
 ## Custom Made Antenna
+* [Umbrella Antenna Protects You From Rain, But Not The Way You Think](https://hackaday.com/2023/11/16/umbrella-antenna-protects-you-from-rain-but-not-the-way-you-think/)
 * [This Packable Ham Radio Antenna is Made from Nothing But Tape](https://hackaday.com/2023/10/13/this-packable-ham-radio-antenna-is-made-from-nothing-but-tape/)
 * [3D Printer Makes Ham Antenna Portable](https://hackaday.com/2021/02/09/3d-printer-makes-ham-antenna-portable/)
 * [The $50 Ham: A Cheap Antenna For The HF Bands](https://hackaday.com/2021/01/19/the-50-ham-a-cheap-antenna-for-the-hf-bands/)
