@@ -154,8 +154,11 @@ BBC Precision The Measure of All Things
 * [Gödel's Incompleteness Theorems: An Informal Introduction to Formal Logic](https://www.youtube.com/watch?v=9GjCIU_ZHIo)
 
 ## What is Logic?
+Some have thought that logic will one day be completed and all its problems solved. Now we know it is an endless task.
+
 * [Logic: The Structure of Reason](https://www.youtube.com/watch?v=yJxiWmmJ3dc)
 * [The story of mathematical proof – with John Stillwell](https://www.youtube.com/watch?v=S1AEWuCFq6A)
+* [The patterns of reality](https://aeon.co/essays/more-than-argument-logic-is-the-very-structure-of-reality)
 
 ## Paradoxes of Logic
 * [The Strengthened Liar and Paradoxes of Incompleteness](https://www.youtube.com/watch?v=5LWQPGjAs3M)
