@@ -186,6 +186,7 @@ Some have thought that logic will one day be completed and all its problems solv
 * [All the Numbers - Numberphile](https://www.youtube.com/watch?v=5TkIe60y2GI)
 * [All the Numbers (extra footage) - Numberphile](https://www.youtube.com/watch?v=LsBQhfkw5ag)
 * [Russell's Paradox - A Ripple in the Foundations of Mathematics](https://www.youtube.com/watch?v=xauCQpnbNAM)
+* [Russell's Paradox - a simple explanation of a profound problem](https://www.youtube.com/watch?v=ymGt7I4Yn3k)
 * Axiom of Choice: [The most controversial axiom in mathematics and its paradoxes](https://nseverkar.medium.com/the-most-controversial-axiom-in-mathematics-and-its-paradoxes-2c0cdfd725cb)
 
 ## What are number systems?
