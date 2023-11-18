@@ -39,6 +39,9 @@ this course appears to contain much of the material and approach that has disapp
     * [Undergrad Complexity at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
     * [Great Ideas in Theoretical Computer Science at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3aafQm568blS9blxtA_EWQv)
     * [CS Theory Toolkit at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX)
+* Understanding Quantum Computing
+    * [Quantum Computing Book Recommendations](https://www.youtube.com/watch?v=xpSevVullcQ)
+    * [Quantum Book Recommendations Part 2!](https://www.youtube.com/watch?v=rbcNQB7VMtI)
 
 # What is Computation?
 What is computation? - The rigorous study of manipulation of information / data.
@@ -203,6 +206,7 @@ Seems like it is nolonger offered
 # Scott Aaronson's Course "Quantum Computing Since Democritus"
 * [PHYS771 Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/default.html)
 * [Quantum Computing since Democritus](https://www.amazon.com/Quantum-Computing-since-Democritus-ebook/dp/B00B4V6IZK/)
+* [What Makes Quantum Computing So Hard to Explain?](https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608)
 
 
 # Quantumpedia
