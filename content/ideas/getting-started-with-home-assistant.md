@@ -2345,6 +2345,9 @@ All processing is performed locally on your own hardware, and your camera feeds 
 >the DVR connects to an analog CCTV system via a coaxial cable,
 >while the NVR connects to an IP camera system over an Ethernet or WiFi connection.
 
+* [Remote Frigate in Docker with Home Assistant Integration](https://www.youtube.com/watch?v=fu4nHA5veps)
+* [Frigate NVR Updates](https://www.mostlychris.com/frigate-nvr-updates/)
+
 * [How to Use Home Assistant as a Network Video Recorder](https://www.makeuseof.com/how-to-use-home-assistant-as-nvr-network-video-recorder/)
 * [Frigate](https://frigate.video/)
 * [AI Home Security Cameras with Frigate and Home Assistant](https://www.youtube.com/playlist?list=PL4ed4sZb-R__prUUj5Bsx-cyCmECLJiiD)
