@@ -1,7 +1,9 @@
-ohttps://hackaday.io/project/193251-3d-printed-arduino-halloween-dcor!--
+<!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
+
+
 
 
 <div align="center">
@@ -51,7 +53,7 @@ I got the itch to build & fly my own FPV quadcopter.
 This itch came on me after I first built (and I continue to rebuild) a RC Car, which was in large part 3D printed.
 It safe to say that my real desire was to 3D print & build a quadcopter,
 but I felt it was too big of a first project.
-The RC Car project is now done (well ... not completely but it's time to move on),
+The RC Car project is now done (well...not completely but it's time to move on),
 I wanted to turn my attention to the quadcopter.
 I looked into 3D printed the quadcopter plans but quickly concluded
 that just tuning a quadcopter flight controller for flight, learning how to fly it myself,
@@ -70,14 +72,16 @@ Tiny Whoops are easy-to-control FPV drones are perfect for indoor flying
 but can also be flown outdoors when there is little wind.
 Their ducts and light weight ensure safety and reduce damage upon crashes,
 but agile enough to be fast & aerobatic in the outdoors.
+I dare say that every serious FPV pilot has at least one Tiny Whoop at home,
+with which he flies around indoors in winter.
 
-An added benefit of the tiny whoops is their limited regulatory requirment because of their light weight.
+An added benefit of the tiny whoops is their limited regulatory requirement because of their light weight.
 The latest FAA rules requires all [Unmanned Aircraft Systems (UAS)][17] to be [FAA registered][18]
-and equiped with [RemoteID][16] for any aircraft of 250 grams or more.
+and equipped with [RemoteID][16] for any aircraft of 250 grams or more.
 Tiny whoops are well under the 250g threshold.
 Never the less, the rule for **operating** any UAS in the National Airspace System (NAS) is [14 CFR Part 107][07],
 referred to as the Small UAS Rule.
-The bottomline is that while my tiny whoop doesn't require a RemoteID nor FAA registration,
+The bottom line is that while my tiny whoop doesn't require a RemoteID nor FAA registration,
 you must take the [Recreational UAS Safety Test (TRUST)][04] and carry proof of test passage when flying.
 
 >**NOTE:** To understand what FAA rules apply to a light weight tiny whoop,
@@ -89,6 +93,27 @@ More sources of inspiration:
 * [Beginner’s Guide to Drones](https://www.droneblog.com/start/)
 * [How To Get Started With FPV Drone – The Ultimate Beginner’s Guide](https://oscarliang.com/fpv-drone-guide/)
 * [The Best Tiny Whoops and Accessories | Micro Indoor FPV Drones][13]
+
+## What does PNP, BNF, RTF, and ARF Mean?
+When you start shopping for FPV quadcopter equipment (e.x. Banggood, Amazon),
+you will sometime encounter these abbreviations next to the product: PNP, BNF, RTF, ARF.
+What this means and what exactly it means will be clarified here.
+
+* **PNP – Plug and Play:**
+Plug and Play actually sound quite good,
+since in the computer world it means that we simply have to connect a device
+and use it directly without having to install any other drivers.
+In the FPV world it means something different.
+Here it is a fully assemble FPV quadcopter, but lacks a LiPo battery and a Receiver.
+You must paid attention to the protocol of the FPV video and remote control!
+Also, “Plug and Play” is mostly should not be taken literally, hands on work will be required,
+you might even need to do some soldering.
+* **BNF – Bind and Fly:**
+* **RTF – Ready to Fly:**
+* **ARF – Almost Ready to Fly:**
+
+Sources:
+* [PNP, BNF, RTF AND ARF](https://fpvracingdrone.org/from-a-to-z/pnp-bnf-rtf-arf/)
 
 ## My Quadcopter Selection
 Tiny whoop's are often operated indoors,
@@ -104,7 +129,7 @@ the [BetaFPV 80mm Meteor75 Pro 1S][24]
 ([checkout this video][41] and this [review][23]).
 It has analog FPV video system ([C03 FPV camera](https://betafpv.com/products/c03-fpv-micro-camera),
 [M03 5.8GHz 350mW VTX](https://betafpv.com/products/m03-25-350mw-5-8g-vtx)),
-[45mm 3-Blade 1.5mm shaft propellers](https://betafpv.com/collections/40mm-propellers/products/gemfan-45mm-2-blade-3-blade-propellers-1-5mm-shaft-4pcs?variant=40100902273158),
+[45mm (1.77 inches) 3-Blade 1.5mm shaft propellers](https://betafpv.com/collections/40mm-propellers/products/gemfan-45mm-2-blade-3-blade-propellers-1-5mm-shaft-4pcs?variant=40100902273158),
 [BT 2.0 550mAh 1S LiPo battery](https://betafpv.com/collections/new-arrivals/products/bt2-0-550mah-1s-battery-4pcs),
 [F4 1S 5A AIO Brushless Flight Controller (aka BETAFPVF411)][25],
 [22000KV 1102 brushless motors](https://betafpv.com/collections/brushless-motors/products/1102-13500kv-brushless-motors?variant=40162473902214),
@@ -132,10 +157,10 @@ Primarily, this includes:
     * [ExpressLRS](https://www.expresslrs.org/)
 * Power for the Radio Controller - [Battery for RadioMaster Boxer](https://www.radiomasterrc.com/products/21700-5000mah-battery-for-tx16s-mkii)
 * Power for the Quadcopter - [BetaFPV 550mAh 1S LiPo Batteries](https://www.getfpv.com/betafpv-550mah-1s-lipo-hv-battery-4pcs-bt2-0.html)
-* Charger for Quadcopter Battries - [1S Battery Storage Charger and Discharger](https://viflydrone.com/products/vifly-whoopstor-6-ports-1s-battery-storage-charger-discharger)
-* Setup & Tuning of the Quadcopter Flight Controller - [BetaFlight][19]
-* Tune Metero75 Pro - see 11:30 minute mark - [BetaFpv Meteor75 Pro HD Whoop - Really Honest Review](https://www.youtube.com/watch?v=wKRGyDbm56w)
-* [Making Whoops FLY BETTER | w/ the BETAfpv Meteor 75 PRO](https://www.youtube.com/watch?v=pfDMKg0XJ14)
+* Charger for Quadcopter Batteries - [1S Battery Storage Charger and Discharger](https://viflydrone.com/products/vifly-whoopstor-6-ports-1s-battery-storage-charger-discharger)
+* Setup & Tuning of the Quadcopter Flight Controller - [Betaflight][19]
+* Tune Metero75 Pro - see 11:30 minute mark - [BetaFPV Meteor75 Pro HD Whoop - Really Honest Review](https://www.youtube.com/watch?v=wKRGyDbm56w)
+* [Making Whoops FLY BETTER | w/ the BETAFPV Meteor 75 PRO](https://www.youtube.com/watch?v=pfDMKg0XJ14)
 
 Conspicuously absent from this list are goggles ... "What's the point of [first person video (FPV)][20]", you say?!
 There are hard choose and compromises that must be made with the selection of goggles.
@@ -164,8 +189,6 @@ Specific ideas I want to try:
 * More powerful motors - try 2600KV to 3200KV motors
 * Singularity 5.8 VTX Antenna (Ultra-Short) - [TinyWhoop Store](https://www.tinywhoop.com/collections/antennas/products/singularity-rhcp-20mm-ufl-vtx-antenna)
 * Crash Recovery - [Winning Whoop racers use Betaflight crash_recovery. Should you?](https://www.youtube.com/watch?v=5YyxIft9wKM&t=8s) vs Angle Mode - [Betaflight Angle Mode is about to get AWESOME! You can try it TODAY](https://www.youtube.com/watch?v=ILeLo1lWjBk)
-* Turtle Mode - [How to setup TURTLE MODE in BETAFLIGHT 2022 (Tutorial)](https://www.youtube.com/watch?v=jibqPPc4I9o)
-    * [This EdgeTX "custom curve" makes turtle mode even better!](https://www.youtube.com/watch?v=22ueY-bvGnI)
 * GPS Sensor
     * [Upgrade your drone GPS now! M10 receivers are here!](https://www.youtube.com/watch?v=eBzQLVYOy9Y)
     * [Flywoo GM10 Mini V3 GPS - M10 For Under $20](https://www.youtube.com/watch?v=uXH0ToYuCcs)
@@ -187,11 +210,11 @@ BetaFPV also provides on the [F4 1S 5A AIO Brushless Flight Controller (aka BETA
 ## Backup Everything
 In this section, I will outline how to do a complete backup to protect yourself from a catastrophic data or software lose of
 your radio controller, flight controller, electronic speed controller, or your goggles.
-In reallity, only thoses things you have created/configure in the radio controller and flight controller will be saved.
+In reality, only theses things you have created/configure in the radio controller and flight controller will be saved.
 Any platform level software can always be download from the cloud.
 
-#### Step 1: Backup Transmitter (Radiomaster Boxer) - DONE
-My [Radiomaster Boxer][26] transmitter has a [EdgeTX][27] operating system with a [ExpressLRS][28] radio.
+#### Step 1: Backup Transmitter (RadioMaster Boxer) - DONE
+My [RadioMaster Boxer][26] transmitter has a [EdgeTX][27] operating system with a [ExpressLRS][28] radio.
 [EdgeTX Companion][29] is a computer program that allows you to connect to your
 EdgeTx radio via USB and perform backups, modifications, etc. using your laptop/desktop.
 We'll use it here to do a backup:
@@ -224,7 +247,7 @@ There you have the button **Save backup**.
 Press this button and place the backup file in `~/FPV-Flying/Backups/Meteor75-Pro/`.
 (**NOTE:** The result is the same as entering `diff all` in **CLI**).
 
-To restore this configuration, simply use the **Load backup** button on the  **Presets** tab.
+To restore this configuration, simply use the **Load backup** button on the **Presets** tab.
 
 If you need to restore the FC firmware,
 you can us Betaflight Configurator to retreve and restore it.
@@ -268,9 +291,9 @@ Check **REGULATORY_DOMAIN_ISM_2400**, **BINDING_PHRASE** (I use my name as the b
 Sources:
 * [ExpressLRS definitive getting started guide](https://www.youtube.com/watch?v=J3Hg2f7RL1A)
 
-#### Step 4: Backup Radiomaster Boxer Radio (ExpressLRS) - DONE (sort-of)
+#### Step 4: Backup RadioMaster Boxer Radio (ExpressLRS) - DONE (sort-of)
 Like the quadcopter,
-there is really **no way to backup the ExpressLRS radio software** on the Radiomaster Boxer radio.
+there is really **no way to backup the ExpressLRS radio software** on the RadioMaster Boxer radio.
 You'll use the same reflashing proceedure outline above except you'll be using
 **RadioMaster 2.4 GHZ** and **RadioMaster Boxer Internal 2.4GHz TX** in the **Target** section.
 
@@ -286,7 +309,7 @@ The best you can do is reflash the ESC with the [ESC-Configurator][33].
 
 
 
-#### Step X: Charge Batteries
+#### Step X: Charge Batteries - DONE
 Make sure to charge a sutable 1S LiPo battery (regular or high voltage).
 I'm using [BetaFPV's BT2.0 550mAh 1S Batteries][31], a high voltage battery, on the Meteor75 Pro.
 
@@ -358,7 +381,7 @@ Sources:
 #### Step X: Further Tuning
 * [Making Whoops FLY BETTER | w/ the BETAfpv Meteor 75 PRO](https://www.youtube.com/watch?v=pfDMKg0XJ14)
 * [How to use Blackbox in Betaflight FPV Drones](https://oscarliang.com/blackbox/)
-* Setup & Tuning of the Quadcopter Flight Controller - [BetaFlight][19]
+* Setup & Tuning of the Quadcopter Flight Controller - [Betaflight][19]
 * Tune Metero75 Pro - see 11:30 minute mark - [BetaFpv Meteor75 Pro HD Whoop - Really Honest Review](https://www.youtube.com/watch?v=wKRGyDbm56w)
 * [Making Whoops FLY BETTER | w/ the BETAfpv Meteor 75 PRO](https://www.youtube.com/watch?v=pfDMKg0XJ14)
 * [2023 Ultimate Guide to Tiny Whoops: Are you using the right stuff?](https://www.youtube.com/watch?v=lgeeR8TiuP0)
@@ -374,6 +397,7 @@ Sources:
 Check out how to do a build
 * [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
 * [How I REALLY configure my own quadcopter](https://www.youtube.com/watch?v=fC_EbT2J_m8)
+* [6 Ways to RUIN Your FPV Drone!](https://www.youtube.com/watch?v=Z5qyrMmWzrE)
 
 ## Tiny Whoop
 * 65mm Tiny Whoops - the classic FPV quadcopter used for indoor racing.
@@ -417,6 +441,10 @@ SkyLite 3"
 
 * [Aggressive Micro CineWhoop // BetaFPV Pavo20 // 3s Power](https://www.youtube.com/watch?v=6AUUo19ABg0)
 
+### Antenna Selection
+* [The Ultimate Guide to Choosing and Using FPV Antennas for FPV Drone](https://oscarliang.com/best-fpv-antenna/)
+* [Lumenier Axii Micro | BEST ANTENNA FOR MICRO QUADS / TINY WHOOP](https://www.youtube.com/watch?v=bI-8loHq9MY)
+
 ### How Ducts Work?
 * [How ducting a propeller increases efficiency and thrust](https://www.youtube.com/watch?v=Cew5JF8q6eY)
 * [How Cinewhoop ducts work and when you should use them](https://www.youtube.com/watch?v=7f2DZIC8a1k)
@@ -429,10 +457,15 @@ SkyLite 3"
 ## 3" Freestyle
 * [FPV Drone Build And Flight // Walksnail Avatar 3.5” Freestyle](https://www.youtube.com/watch?v=nWSUM62x0lg)
 
+## 3" Racer
+
 ## 5" Freestyle
 * [5" Freestyle AOS5](https://www.youtube.com/watch?v=1Ok_0Z0WIvU)
 * [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
     * Build Video - [Beginner DIY FPV Drone Kit - QAV-S 2 Joshua Bardwell SE 5” - HD Ready](https://www.getfpv.com/beginner-diy-fpv-drone-kit-qav-s-2-joshua-bardwell-se-5-hd-ready.html)
+
+## 5" Racer
+This is the “standard size” for FPV racing drones.
 
 
 -----
@@ -449,7 +482,7 @@ SkyLite 3"
 
 
 
-# Beginers Guide FPV Drone
+# Beginner's Guide FPV Drone
 * [Getting Started with FPV](https://fpvfc.org/getting-started-with-fpv)
 * [How to Start Flying FPV DRONES in 2023](https://www.youtube.com/watch?v=GdkeR-66Ock)
 * [The Idiot's Guide to Making a DIY Drone! (I am the Idiot)](https://www.youtube.com/watch?v=DeSDjjicGWY)
@@ -472,9 +505,9 @@ OscarLiang
 # Radio Transmitter / Controller
 Sometimes called a radio transmitter, or just radio, or just transmitter, or just controller.
 RadioMaster Boxer - $160
-Radiomaster - RadioMaster TX16S - $200 / RadioMaster TX12 - $100
+RadioMaster - RadioMaster TX16S - $200 / RadioMaster TX12 - $100
 
-* [How to Setup Radiomaster Boxer | Upgrades, Tips and Tricks](https://oscarliang.com/setup-radiomaster-boxer/)
+* [How to Setup RadioMaster Boxer | Upgrades, Tips and Tricks](https://oscarliang.com/setup-radiomaster-boxer/)
 
 * [Choosing the Best Radio Transmitter for Your FPV Drone: A Beginner’s Guide](https://oscarliang.com/radio-transmitter/)
 * In 2022 - [How To Buy Your First FPV Controller](https://www.youtube.com/watch?v=wpZ8xKIaNgs)
@@ -484,7 +517,7 @@ Radiomaster - RadioMaster TX16S - $200 / RadioMaster TX12 - $100
 
 * [Affordable FPV Controllers That DON’T SUCK!](https://www.youtube.com/watch?v=Az5G4nq8F3M)
 * [Cheap vs. Expensive FPV Controllers - What's the Difference?](https://www.youtube.com/watch?v=SrN6ps4NM10)
-* [2023 BEST Radios for Fpv Drones - BUYER'S GUIDE](https://www.youtube.com/watch?v=KOYla-wqFYg)
+* [2023 BEST Radios for FPV Drones - BUYER'S GUIDE](https://www.youtube.com/watch?v=KOYla-wqFYg)
 
 # Optical Flow LIDAR Sensor
 This is a sensor to enable position hold and altitude hold on a drone.
@@ -510,6 +543,7 @@ Goggles ----------------- Reciever --------------------- Transmitter -----------
 * RX Protocols – communication between radio receiver (RX) and flight controller (FC)
 * ESC Protocols – communication between FC and ESC
 
+* [What does IBUS, SBUS, PPM, PWM mean? (2021) Receiver Protocols Explained for FPV Drone Beginners](https://www.youtube.com/watch?v=y7T4hBqOwxM)
 * [FPV Protocols Explained (CRSF, SBUS, DSHOT, ACCST, PPM, PWM and more)](https://oscarliang.com/rc-protocols/)
 * [GitHub: pascallanger/DIY-Multiprotocol-TX-Module](https://github.com/pascallanger/DIY-Multiprotocol-TX-Module)
 
@@ -525,10 +559,10 @@ and what their differences are.
 * ACCST - one of the first and showing its age
 * ACCESS - FrSky ecosystem only
 * FrSky R9 - 900MHz, FrSky ecosystem only, but R9 hardware will run ExpressLRS
-* TBS Crossfire - 900MHz and up to 2 Watts, outsanding range, stable and good performance but not the best latency
-* Ghost - 2.4 GHz, you can trade-off range & latency, TBS Crossfile range is superior
+* TBS Crossfire - 900MHz and up to 2 Watts, outstanding range, stable and good performance but not the best latency
+* Ghost - 2.4 GHz, you can trade-off range & latency, TBS Crossfire range is superior
 * TBS Tracer - 2.4 GHz, TBS competitive response to Ghost, excellent latency at the expense of range so great for racers
-* [ExpresLRS](https://www.expresslrs.org/) - 900 MHz & 2.4 GHz, best combination of range & latency
+* [ExpressLRS](https://www.expresslrs.org/) - 900 MHz & 2.4 GHz, best combination of range & latency
 
 Sources:
 * [Crossfire vs. Tracer vs. Ghost vs. ExpressLRS vs. R9 vs. ACCESS vs. ACCST | RC control link shootout](https://www.youtube.com/watch?v=a8cy5BK5SbU)
@@ -539,7 +573,7 @@ Sources:
 
 ExpressLRS vs FrSky
 
-ExpressLRS is an open source,  high perfromance, low lantancy long range link.
+ExpressLRS is an open source,  high performance, low latency long range link.
 
 * [Intro to Express LRS • For ELRS Novices](https://www.youtube.com/watch?v=AdgBoYJNI0M)
 * [ExpressLRS Facts You Need To Know](https://www.youtube.com/watch?v=DUzgdlZrH2g)
@@ -737,7 +771,7 @@ MultiGP chapters welcome all pilots regardless of their skill levvel.
 
 
 
-# FAA Requlations / Where Can I Fly?
+# FAA Regulations / Where Can I Fly?
 The legal flying space and FAA direction can be confusing, and frankly, are evolving.
 
 ## What About FAA Registration?
@@ -858,7 +892,7 @@ To pass the TRUST exam, you need to understand recreational flying requirements.
 Visit the FAA's Recreational Flyers page to [learn about rules for recreational flyers][06].
 Download the FAA's B4UFLY mobile app for more recreational drone flying resources.
 
-* [TRUST Exam: Pilot Institue](https://trust.pilotinstitute.com/)
+* [TRUST Exam: Pilot Institute](https://trust.pilotinstitute.com/)
 
 ### Drone FAA Registration
 Regulations DO apply to ALL model aircraft, even those under .55 pounds.
@@ -932,7 +966,7 @@ Recreational pilots must know where they are flying with respect to authorized a
 Download the FAA's B4UFLY mobile app
 Download the FAA's B4UFLY mobile app for more recreational drone flying resources.
 
-* [Safety Guidelines for Recrational Fliers](https://ftca.flitetest.com/safety-guidelines/)
+* [Safety Guidelines for Recreational Fliers](https://ftca.flitetest.com/safety-guidelines/)
 
 * [FAA’s UAS Data Delivery System](https://udds-faa.opendata.arcgis.com/)
 * [See FAA UAS Data on a Map](https://faa.maps.arcgis.com/apps/webappviewer/index.html?id=9c2e4406710048e19806ebf6a06754ad)
@@ -1068,7 +1102,7 @@ what topic / skills do you need to master before or during the build?
         * Power Wiring
     * Controller
         * Handheld Radio Transmitter
-        * Quad Radio Reciever
+        * Quad Radio Receiver
 * First Person Viewing (FPV)
     * Video Radio Receiver (VRX)
     * Video Radio Transmitter (VTX)
@@ -1085,7 +1119,7 @@ what topic / skills do you need to master before or during the build?
     * Autopilot - https://ardupilot.org/copter/docs/common-autopilots.html
     * Optical Flow LIDAR Sensor
     * Lost Drone Buzzer
-    * Gimbal & Stabilization
+    * Gimbals & Stabilization
     * Global Positioning Sensor
     * Directional Antenna
     * Smart Return Home
@@ -1125,7 +1159,7 @@ what topic / skills do you need to master before or during the build?
     * [Propellers  - 2 x CW and 2 x CCW - 55mm]()
     * [1S lipo battery - 600mAh 25C]()
     * [Radio Receiver - FlySky FS-A8S](https://www.aliexpress.us/item/3256804292515470.html)
-    * [BetaFlight][19]
+    * [Betaflight][19]
 
 # EACHINE E58 WiFi FPV Quadcopter
 * [EACHINE E58 WIFI FPV With 2MP Wide Angle Camera High Hold Mode Foldable RC Drone Quadcopter RTF](https://www.eachine.com/de/EACHINE-E58-WIFI-FPV-With-2MP-Wide-Angle-Camera-High-Hold-Mode-Foldable-RC-Drone-Quadcopter-RTF-p-1045.html)
@@ -1155,8 +1189,10 @@ A lot of the time this is enough to loosen the prop from the shaft,
 but for propellers that have a hole thru the top,
 you can use the tiny plunger to push the motor shaft down and pop the prop right off!
 
+* [How to install quadcopter props correctly BEGINNERS WATCH THIS NOW!](https://www.youtube.com/watch?v=nc1QG_Njo7Y)
 * [The Tiny Whoop Prop Popper: An Unnecessarily Long Review by FPV Skittles](https://www.youtube.com/watch?v=7rejExxi7Z8)
 * [How to remove the props on a Tiny Whoop?](https://www.youtube.com/watch?v=nOmlCog9d54)
+* [Geelang Gemfan Prop remover for T-mount props. Remove those stubborn props without damage](https://www.youtube.com/watch?app=desktop&v=LXbhpxPSuqw)
 
 ## Propeller Propwash
 [Propwash][34] is the airflow generated by an aircraft's propeller,
@@ -1289,7 +1325,7 @@ ESC - Configurator, a utility designed to simplify updating and configuring of y
 * [Flight Controller and Flight Computer](https://www.youtube.com/results?search_query=Flight+Controller+and+Flight+Computer)
 * [Drone Simulation and Control](https://www.youtube.com/playlist?list=PLn8PRpmsu08oOLBVYYIwwN_nvuyUqEjrj)
 
-## Automomous Flight and Obstacle Avoidance
+## Autonomous Flight and Obstacle Avoidance
 Predicted GPS (P-GPS) is a form of assistance that reduces the Time to First Fix (TTFF), the time needed by a GNSS module to estimate its position.
 A form of assistance provided to devices trying to obtain a Global Navigation Satellite System (GNSS) fix, where the device can download up to two weeks of predicted satellite Ephemerides data. It enables devices to determine the exact orbital location of the satellite without connecting to the network every two hours with a trade-off of reduced accuracy of the calculated position over time. It is available through nRF Cloud.
 
@@ -1353,7 +1389,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
     * [Project AIR: Rubber Band Plane](https://store.projectair.co.uk/products/rubber-band-plane)
 
 ### Simple Airplane
-* [How To Make Simple RC Airplane For Simple Radio Control. DIY RC Aiplane & Arduino RC](https://www.youtube.com/watch?v=9SMyBN-B3Vo)
+* [How To Make Simple RC Airplane For Simple Radio Control. DIY RC Airplane & Arduino RC](https://www.youtube.com/watch?v=9SMyBN-B3Vo)
 * [Cheap and Simple Radio Control Making for RC Models. DIY RC 5-Channel](https://www.youtube.com/watch?v=ExtHHmFACKk)
 * [How To Make RC Trainer Airplane. DIY Model Airplane For Beginners](https://www.youtube.com/watch?v=LzZ4Oqk_J1Y)
 * [KendinYap](https://www.youtube.com/channel/UCgjJGE17yfovAvWUzEJFENA)
@@ -1393,7 +1429,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [Three-Stage Thrust Vectoring Model Rocket With Tiny Flight Computers](https://hackaday.com/2021/09/05/three-stage-thrust-vectoring-rocket/)
 * [Using SPACE SHUTTLE Software in Model Rockets](https://www.youtube.com/watch?v=EHfsZGN3cYo)
 * [FreeCAD Takes Off With A Rocket Design Workbench](https://hackaday.com/2021/04/02/freecad-takes-off-with-a-rocket-design-workbench/)
-* [BPS.Space Succesfully Lands A Model Rocket](https://hackaday.com/2022/08/05/bps-space-succesfully-lands-a-model-rocket/)
+* [BPS.Space Successfully Lands A Model Rocket](https://hackaday.com/2022/08/05/bps-space-succesfully-lands-a-model-rocket/)
 * [How To Land A Model Rocket Vertically](https://hackaday.com/2023/06/21/how-to-land-a-model-rocket-vertically/)
 * [Did I Make the World's Smallest Rocket Flight Computer?](https://www.youtube.com/watch?v=5TTcbMv5tDc)
 

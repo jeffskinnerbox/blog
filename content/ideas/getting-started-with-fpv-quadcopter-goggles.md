@@ -42,6 +42,7 @@ Protocols in FPV can be divided into 3 groups:
 FPV goggles provide a first person video (FPV) image of your flying experiance and come in two technology categories: analog and digital.
 Analog is the oldest, most affordable, and most prevalent technology, it’s available in 5.8GHz, 2.4GHz and 1.2/1.3GHz.
 In contrast, digital technology, which offers superior image quality, is newer and gaining popularity.
+How long before digital replaces analog FPV ... [who knows][08].
 
 The decades-old analog technology is not proprietary to any specific company,
 allowing anyone to create components for the system.
@@ -105,6 +106,7 @@ Sources:
 * [Best FPV Goggle 2023 Buyer's Guide // DJI v. HDZERO v. WALKSNAIL v. ANALOG](https://www.youtube.com/watch?v=TMOeIQ4VRX4&t=77s)
 * [Cheap vs. Expensive FPV Goggles - What's the Difference??](https://www.youtube.com/watch?v=oOEbygcWk-w)
 * [The best FPV goggle for almost everybody (except DJI) // HDZERO GOGGLE REVIEW](https://www.youtube.com/watch?v=TPnGVad9Cm8)
+* [How Long Will It Be Until Analog Is No Longer Used For FPV? Digital Cost?][08]
 
 # My Choose: Walksnail Avatar
 I agonized over the decision of going with a digital video solution but not pricing myself out of the flexibility of analog solutions.
@@ -130,6 +132,31 @@ To top it off, CaddxFPV appears be planning reciver module upgrades instead of w
 One thing that I think is missing from these goggle is DVR.
 There is no way of recording video on the Walksnail Avatar HD Goggles X, unless you use the HDMI output port.
 <-- NOT SURE THIS IS TRUE ... there is a SD-Card slot
+
+* Product Features
+    * Weight 290g
+    * OLED screen 1920x1080
+    * Field of view (FOV) 50°
+    * Adjustable focus range of +2 to -6 diopter
+    * Power 7-26V (aka 2S-6S) via XT60 to DC 5.5*2.1mm power cord
+    * Inter-pupillary distance (IPD) mechanical range 57mm-72mm
+    * Infrared Sensing to turn the screen on/off
+    * Digital H.265 video encoding 1080p/100fps, 1080p/60fps, 720p/100fps, 720p/60fps
+    * Supports 8 video channels (5.725-5.850GHz) with a range of 4km
+    * Receiving module can be replaced (minimizing upgrade costs)
+    * HDMI input to support external video transmitters (digital video)
+    * HDMI output to external display devices to share your flight footage (digital video)
+    * AV in via 3.5mm with 4 conductor TRRS/3 port (analog video)
+    * Digital video recording (DVR) to SD card (supports 256G)
+    * 4 [Left-hand circular polarized (LHCP)][06] stubby antennas ([2dBi gain][05])
+* Product Options
+    * Front cover supports DIY community
+    * Lenses can be replaced
+    * Built-in Gyro (in development)
+    * Built-in Bluetooth/WiFi module (in development) for firmware upgrade, phone apps, live viewing, etc.
+
+>**NOTE:** Because of the goggles antennas are left-hand polarized (LHCP),
+>[you should make sure to use LHCP antenna on your quadcopter][07], or if you can't, a linear polirized antenna.
 
 ## Video Transmitter (VTX): Walksnail Avatar
 * [Is this the best Digital FPV System? Walksnail Avatar V2 is here!](https://www.youtube.com/watch?v=d0VoBp9-sn4)
@@ -218,6 +245,7 @@ This video reciver has an [IPS screen][11] and [shuttle wheel][12],
 use can the shuttle wheel to set the recieved channel.
 This SteadyView X receiver also comes as a ground station KIT (i.e. not to be fitted on your goggles),
 so it can be use with a monitor or goggles which have an analog audio/visual input port (aka AV IN, 3.5mm with 4 Conductor TRRS/3).
+For powering the unit, it supports a voltage range of 7-26V (aka 2S-6S) via XT60 to Barrel connector power cable.
 The kit also comes with 1 patch and 1 omi antenna.
 
 Also, the Steadyview X have an [ELRS backpack build in][13].
@@ -243,10 +271,10 @@ and [this video for RadioMaster Boxer][15].
 [02]:https://caddxfpv.com/
 [03]:https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service
 [04]:https://www.arrl.org/find-an-amateur-radio-license-exam-session
-[05]:
-[06]:
-[07]:
-[08]:
+[05]:https://antennatestlab.com/antenna-education-tutorials/what-is-antenna-gain-dbi-scale
+[06]:https://www.youtube.com/watch?v=mbHl3DgnN4k
+[07]:https://www.drone24hours.com/uncategorized/what-is-the-difference-between-rhcp-and-LHCP-antenna/?lang=en
+[08]:https://www.youtube.com/watch?v=JhxRcoPvkG8
 [09]:
 [10]:https://www.skyzonefpv.com/products/skyzone-steadyview-x-5-8ghz-ips-screen-receiver-module
 [11]:https://www.hp.com/au-en/shop/tech-takes/post/what-is-an-ips-monitor

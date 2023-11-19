@@ -23,6 +23,7 @@ Review this again - [Betaflight 4.3 Complete Walkthrough](https://www.youtube.co
 [Betaflight 4.3 EASY Setup Guide -- PRESETS FAST!](https://www.youtube.com/watch?v=znyiaN5dSxc)
 [Betaflight FPV Drone Tuning In 10 Simple Steps](https://oscarliang.com/fpv-drone-tuning/)
 [How to Setup RPM Filters in Betaflight: Unlock Smooth FPV Flight Performance](https://oscarliang.com/rpm-filter/)
+[How to Tune Stick Response](https://www.youtube.com/watch?v=KnvONsC0dHU)
 
 
 
@@ -128,11 +129,15 @@ Sources:
 * [Betaflight 4.3 Complete Walkthrough](https://www.youtube.com/watch?v=LkBWRiEGKTI&list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE)
 * [BF4.3 Complete Tuning Guide](https://www.youtube.com/watch?v=Ro4YMCLJ1dU&list=PLFPBjpbd5xKRnjNpYMep7MxovfhMBIzxP)
 * [Betaflight 4.3 Rates Tuning: Rates are even more important than PIDs for flight feel in 4.3](https://www.youtube.com/watch?v=_WqKaJ79HGU)
+* [Betaflight 4.3.x Release](https://www.youtube.com/playlist?list=PLcYNkvInloJHTrzHe5vaucUEOL41Raqcl)
 
 * [Betaflight 4.4 Tuning Guide + Tips and Tricks for the BEST tune!](https://www.youtube.com/watch?v=sNAV4gx_gBY)
 * [New Betaflight 4.4 features I'm actually excited about (get it yourself today!)](https://www.youtube.com/watch?v=YzE0V4GFzTw)
 * [Betaflight 4.4 Features DISAPPEAR ... because of Cloud Build?](https://www.youtube.com/watch?v=YmTq68M-NkU)
 * [Why Betaflight 4.4 GPS Sucks, and How To Fix It](https://www.youtube.com/watch?v=5fBDqeAoqvI)
+
+* [Betaflight 4.3 Setup for Whoops](https://www.youtube.com/watch?v=xdcPO6NIUnc)
+* [Calibrate & Trim Betaflight Tiny Whoop Accelerometer | HOW TO FIX ANGLE MODE](https://www.youtube.com/watch?v=otJNzZrE-yk)
 
 ### Betaflight Configurator
 [Betaflight Configurator][06] is a crossplatform (i.e. Windows, Mac, Linux) configuration tool for the Betaflight flight control system.
@@ -251,24 +256,19 @@ In Self- level mode, the flight controller can take over as soon as the pilot ta
 On the other hand, in Acro-mode, if the pilot takes their hands off the transmitter's sticks, the drone only continues its flight in the same orientation. This is why the pilot needs to hang tight and make constant adjustments.
 
 ## Self-Leveling Modes: Angle & Horizon
+These are self-stabilization mode (Self-Leveling Modes) that  means the drone returns to horizon again after every stick input. So, unfortunately, no looping or flip is possible because there is always a maximum tilt angle.
+
 
 ### Angle Mode
 Angle mode is a self-level mode that has to do with the tilt of your drone. Here, you need to learn how to properly move your roll/pitch stick to its top position.
+
+So that you can still fly flips and loops with self-stabilization, there is an interim solution, the Horizon Mode.
 
 In that way, the aircraft only reaches the maximum angle that it's allowed to tilt (generally 45 degrees, yet it is adjustable) while also ensuring it won't flip over.
 
 As the stick reaches the centre once again, your drone will return to its initial position. Having this much control over your drone is ideal when shooting in tighter places.
 
-### Horizon Mode
-Unlike Angle mode, you can do flips and rolls when the stick is at full deflection in Horizon mode. Though, when the pilot's hand leaves the controller, the craft level remains the same.
-
-Doing flips in Horizon mode is not fully acrobatic and is sort of like a toy-grade push button flip.
-
-When using both Angle and Horizon mode, you might run into a problem - they might be missing in the modes tab. This is because the accelerometer is disabled within Betaflight. Some people disable ACC because they only fly in Acro mode.
-
-Disabling ACC will save some workload on the processor. There is a checkbox to enable/disable the accelerometer in the Configuration tab.
-
-### Acro Mode
+## Acro Mode
 Here's where things get a bit more complicated. As it is fully manual, Acro mode is the "ultimate flight mode" for freestyle flying and drone racing.
 
 Levelling the aircraft falls entirely in your hands because letting go of the stick means its roll and pitch position remains the same. Constant adjustments are needed to keep the drone from crashing.
@@ -279,8 +279,32 @@ That means if you push your pitch stick forward and hold it there, the drone wil
 
 Returning to its level position requires moving the stick in the opposite direction.
 
+Acro mode uses the RC sticks to control the angular velocity of the copter in each axis. Release the sticks and the vehicle will maintain its current attitude and will not return to level (attitude hold). Acro mode is useful for aerobatics such as flips or rolls, or FPV when smooth and fast control is desired.
+
+Acro mode is where the flight controller changes the flight path of the drone with the help of the acceleration sensor.
+
 You might notice that Acro mode isn't available as an option in the modes tab, and that's because Acro mode is automatically enabled as soon as you arm the quadcopter.
 
+Here the acceleration sensor is switched off, and the drone is only held stable by the gyroscope. This means that if you’ve made a direction over the stick and let go of it, the drone will stay in exactly that position or inclination. So if you press to the left and tilt the drone to the left and then just let go of the stick stay the drone will tilt to the left and continue flying to the left.
+this is the only way to fly loops and flips and the like in one fluid movement. In addition, you always have the same angle for the curve as long as the stick is in the center. To the left and right are only corrections of the flight curve, the racer does not start to leave his curve track on his own.
+
+### Horizon Mode
+The Horizon Mode (or Stability Mode) allows me to have the drone roll or yaw more than the maximum angle of inclination. This means that as long as I can move the stick forwards or sideways hold down the drone keeps turning. As soon as I let go of the stick, the drone starts to raise itself again.
+
+Unlike Angle mode, you can do flips and rolls when the stick is at full deflection in Horizon mode. Though, when the pilot's hand leaves the controller, the craft level remains the same.
+
+Doing flips in Horizon mode is not fully acrobatic and is sort of like a toy-grade push button flip.
+
+When using both Angle and Horizon mode, you might run into a problem - they might be missing in the modes tab. This is because the accelerometer is disabled within Betaflight. Some people disable ACC because they only fly in Acro mode.
+
+Disabling ACC will save some workload on the processor. There is a checkbox to enable/disable the accelerometer in the Configuration tab.
+
+### Should I Fly Acro Mode?
+For beginners, Self-Leveling or Horizon Mode may sound quite seductive.
+But the self-stabilization causes an extremely unsteady behavior when you attempt any loops or acrbatic flying.
+It may sound a bit strange for beginners, but the Acro Mode flies (as soon as you master it)
+much quieter and more beautiful than anything else,
+where the flight controller changes the flight path of the drone with the help of the acceleration sensor.
 
 -------
 
@@ -407,6 +431,10 @@ This is demonstrated at 7:46 minutes on the video
 ["iNav Drone Complete Tutorial - Part 6 - Calibrate Compass and Accelerometer"][32]
 and in [iNav's "Controls.md" documentation][33].
 
+Now do this -
+* [How to stop your drone drifting and calibrate the accelerometer!](https://www.youtube.com/watch?v=Z5IduP4HDfU)
+* [Perfect Accelerometer Calibration](https://www.youtube.com/watch?v=jyP-U78P29Y)
+
 #### Step 4: Check Motor Order - DONE
 Go to the **Motors** tab to make sure the motors are properly ordered and spin in the right direction.
 See 3:44 minutes of the video ["Betaflight 4.3 EASY Setup Guide -- PRESETS FAST!"](https://www.youtube.com/watch?v=znyiaN5dSxc)
@@ -430,8 +458,9 @@ Using Betaflight, go to the **Motors** tab and click on **Motor direction**
 
 If you **cannot** make the change via Betaflight,
 you can either swap the motor wires, or simply change a setting in the ESC configurator without soldering.
-To use the non-soldering way, you'll need to do it via [ESC Configurator](https://esc-configurator.com/)
+To use the non-soldering way, you'll need to do it via [ESC Configurator](https://esc-configurator.com/).
 
+Sources:
 * [ESC Configurator](https://esc-configurator.com/)
 * [Bluejay ESC Firmware][05]
 * [How to Change Motor Direction in an FPV Drone?](https://oscarliang.com/change-motor-spin-direction-quadcopter/)
@@ -444,8 +473,8 @@ for instruction on what must be done.
 #### Step X: Setup Your Betaflight Modes
 * [Betaflight Modes Explained and How to Setup](https://oscarliang.com/betaflight-modes/)
 
-#### Step X: Setup Turtle Mode (Flip Over After Crash)
-Turtle mode allows a user to attempt to flip the quadcopter upright, if inverted,
+#### Step X: Setup Turtle Mode (Flip Over After Crash) - DONE
+Turtle mode (now called “Flip Over After Crash” in Betaflight) allows a user to attempt to flip the quadcopter upright, if inverted,
 by reversing the direction of adjacent pairs of motors
 and producing thrust to un-invert the vehicle after a crash.
 Once in this mode, moving the roll and/or pitch stick of the transmitter away from center
@@ -454,31 +483,143 @@ increasing thrust to maximum at full stick throw.
 The user can quickly jab the transmitter stick to attempt to flip the vehicle upright.
 Once flipped upright, exit the mode for normal operation to resume.
 
-The procedure for Turtle Mode is:
+The procedurely, Turtle mode cannot be entered unless throttle is zero.
+Upon entry to turtle mode the motors stay disarmed, but the notfiy LEDs flash.
+Raising the throttle, the motors arm, and motors spin. Lowering throttle to zero disarms the motors.
+Motors spin only when throttle is raised.
 
-1. Turtle mode cannot be entered unless throttle is zero
-2. Upon entry to turtle mode the motors stay disarmed, but the notfiy LEDs flash
-3. Raising the throttle, the motors arm, and motors spin. Lowering throttle to zero disarms the motors.
-4. Motors spin only when throttle is raised
+>**NOTE:** [DShot][34] capable ESCs are required for this mode to function,
+>allowing the DShot reverse command to be sent to the ESCs.
+>`SERVO_DSHOT_ESC` must be set to “1” also to allow DShot commands to be sent.
+
+To setup Turtle mode:
+1. In Betaflight Configurator, **Motors** tab, select DShot protocol (DShot150, 300 and 600 all support turtle mode).
+1. Goto the **Configuration** tab, set “Maximum Arm Angle” (Arming) to 180.
+1. On Betaflights **Modes** tab, assign a switch on your radio to “Flip Over After Crash”. ( **NOTE:** “Flip Over After Crash” option would be missing and won’t appear until you have selected DShot Protocol.)
 
 How to Use Turtle Mode?
-1. When the quadcopter is flipped over, set "SA" switch to **Disarmed**
+1. When the quadcopter is flipped over, set "SA" switch to **Disarmed** and set throttle to zero.
 2. Turn on Turtle mode via the "SD" switch, then set "SA" to **Armed** it (motors should NOT spin, yet)
 3. Use your roll stick, the motors will start to spin and flip the quadcopter over; the longer you hold the roll stick, the more thrust it will generate
 4. Once turned over, disarm immediately and turn off turtle mode
 5. Now arm the quad again to take off
 
->Pre-arm is a safety feature that prevents the drone from accidentally being armed with just one arm switch. You can set pre-arm to a switch and your quad will only arm if that switch is on. After arming, the pre-arm mode can be switched off, so a momentary switch is great for this.
+You might want to practice using Turtle mode on a flat surface, clear of people.
+It might also help to get your quadcopter out of a tree if it gets stuck.
+**DO NOT** overuse and force it if you can’t turn the quad over, it could burn out the motors and ESC’s.
 
-[DShot][34] capable ESCs are required for this mode to function,
-allowing the DShot reverse command to be sent to the ESCs.
+Do you want to try this? ....
+* [Edge TX Tricks - Double Arm to Turtle Mode on Jumper T-Pro](https://www.youtube.com/watch?v=3XmtHtgUxH0)
+* [This EdgeTX "custom curve" makes turtle mode even better!](https://www.youtube.com/watch?v=22ueY-bvGnI)
+* [activate OpenTX turtle mode with a momentary switch.](https://www.youtube.com/watch?v=g5bbTd8bK58)
 
 Sources:
+* [OpenTx Quick Tip – Setting Up Flip Over After Crash (Turtle) Mode](https://www.youtube.com/watch?v=Nuf3YptbjXw)
 * [How to Setup Turtle Mode (Flip Over After Crash in Betaflight)](https://oscarliang.com/setup-turtle-mode-flip-over-after-crash/)
 * [How to setup TURTLE MODE in BETAFLIGHT 2022 (Tutorial)](https://www.youtube.com/watch?v=jibqPPc4I9o)
+* [This EdgeTX "custom curve" makes turtle mode even better!](https://www.youtube.com/watch?v=22ueY-bvGnI)
 * [This "custom curve" makes turtle mode even better!](https://www.youtube.com/watch?v=22ueY-bvGnI)
 * [Test Your Motors With Turtle Mode](https://www.youtube.com/watch?v=OhF-yngHRe4)
+
+#### Step X: Dshot Motor Beeper to Help Find Quadcopter
+* [Just The Tip - Ep 01 - Dshot Motor Beeper](https://www.youtube.com/watch?v=zWR0B7xqwMg)
+
+#### Step X: Making Custom Voice Tracks & Sounds
+I'm going to use [Audacity][16] to record the sound files that we'll install in EdgeTX.
+I'll use a text-to-speech website called [TTS Demo][17] to create the spoken words that I need.
+
+To install Audacity on my Ubuntu system, I used Snap using the procedure below:
+
+```bash
+# install snap
+sudo apt update
+sudo apt install snapd
+
+# install audacity
+sudo snap install audacity
+```
+
+Now follow the procedure in the source material, and you can create custom voice tracks for EdgeTX.
+
+Sources:
+* [OpenTX – Making Custom Sounds](https://www.youtube.com/watch?v=DqF7HUsFrnE)
+
+#### Step X: Set Crash Recovery
 * Crash Recovery - [Winning Whoop racers use Betaflight crash_recovery. Should you?](https://www.youtube.com/watch?v=5YyxIft9wKM&t=8s) vs Angle Mode - [Betaflight Angle Mode is about to get AWESOME! You can try it TODAY](https://www.youtube.com/watch?v=ILeLo1lWjBk)
+
+#### Step X: Set Beeper On
+* [Betaflight Modes Explained and How to Setup](https://oscarliang.com/betaflight-modes/)
+* [Buzzer for Quadcopters](https://oscarliang.com/buzzer-quadcopters/)
+* [Using ESC Beacon (Motor) as Lost Model Alarm](https://oscarliang.com/esc-beacon-lost-model-alarm/)
+
+#### Step X: Set AirMode On or Off?
+While called a "mode", its not really a flight mode, its a feature.
+
+You'll find the AirMode feature in Betaflight's **Configuration** tab in hte **Other Features** section.
+If you turn it on, then you can't turn it off while flying.
+The result will be bouncing while landing and sticking to objects (e.g. walls) when you crash.
+You can generally turn off AirMode if your not doing flips and rolls; which you are not if your in the early learning to fly stage.
+So we will turn Air Mode off in Betaflight **Configurator** tab.
+
+You'll also see setings for the AirMode feature in the Betaflight **Modes** tab.
+Here we will enable Air Mode for Angle & Horizon Modes, but turned off when in Acro Mode.
+This is explained in - [Why does my quadcopter bounce around on landing?](https://www.youtube.com/watch?v=5NIQguIzO94)
+
+An alternative approach is given here - [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
+
+Sources:
+* What is Air Mode?
+    * [Simple Explanation of Airmode](https://www.youtube.com/watch?v=hHl-83FSyD8)
+    * [AIR MODE Flight Demo FPV - What is Air Mode? Air Mode VS Acro?? Airmode Explained](https://www.youtube.com/watch?v=HQ3ceM5LTEA)
+    * [Betaflight Airmode](https://oscarliang.com/betaflight-airmode/)
+* Stop Bouncing Landings & Sticking to the Wall
+    * [Why does my quadcopter bounce around on landing?](https://www.youtube.com/watch?v=5NIQguIzO94)
+    * [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4)
+    * [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
+* AirMode vs Idle Up
+    * [What is Airmode? | BETAFLIGHT WITH AIR MODE EXPLAINED](https://www.youtube.com/watch?v=d2nRrVENEYM)
+    * [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4)
+
+
+* [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
+* [Using Air Mode AND Idle Up?](https://www.youtube.com/watch?v=-oUFIwSRMtM&t=5s)
+* [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4&t=21s)
+* [EdgeTX Landing (or perching) mode - disable Air mode with a momentary switch and re-enable on throttle up](https://www.reddit.com/r/fpv/comments/11j1nvg/edgetx_landing_or_perching_mode_disable_air_mode/)
+
+
+## AirMode vs Idle Up
+Idle Up proceeded Air Mode in Betaflight.
+
+Idle Up is set up in the transmitter to asure that the throttle is down at zero level is not completely stopping the motors so you retain flight control.
+
+Air Mode is set in the flight controller (Betaflight) increases command authority at low throttle. You can lower you throttle as far as you wish.
+
+
+* [What does NOT work in Angle Mode](https://www.youtube.com/watch?v=AI_-v30j58Q)
+
+* Part 1 - [Air Mode vs Idle Up - what's the difference?](https://www.youtube.com/watch?v=zkTqc2CF3-g)
+* Part 2 - [Using Air Mode AND Idle Up?](https://www.youtube.com/watch?v=-oUFIwSRMtM)
+
+* [Behind the Scenes - FPV Airmode Off](https://www.youtube.com/watch?v=KW1Ysb5BqGo)
+
+* [Throttle IDLE UP Step by Step! Setup | AIRMODE 👎| Ethix](https://www.youtube.com/watch?v=oMQidtp0F0k)
+* [Idle up for Betaflight (Full tutorial version)](https://www.youtube.com/watch?v=jYhmNwDT-qI)
+
+* [Betaflight 4.2 Low Throttle Instability How To Fix](https://www.youtube.com/watch?v=TeYMJy23vK4)
+
+## Dynamic Idle (aka Dynamic Notch ??) Bug
+[Propwash][12] is the airflow generated by an aircraft's propeller,
+which can have significant effects on the performance of the aircraft, particularly during takeoff and landing.
+
+* [What causes Propwash and how Betaflight Dynamic Idle can help!](https://www.youtube.com/watch?v=CAMcRbQh3xM)
+* [Betaflight 4.4 Potential Dynamic Idle Bug](https://www.youtube.com/watch?v=97Hk2nTWHsY)
+
+#### Step X: Set-up Betaflight Lau Script
+* [Everybody should be using these FPV Lua Scripts](https://www.youtube.com/watch?v=RCS72GVR0gs)
+* [Setup Betaflight LUA Script on OpenTX Radios](https://oscarliang.com/setup-betaflight-lua-script/)
+* [Betaflight LUA • How-To Change Betaflight Settings From Your Radio • No Bluetooth/Wifi Required](https://www.youtube.com/watch?v=mEpbO9tD62k)
+
+#### Step X: 3-Position Switch for Acro / Angle / Horizon Modes
 
 
 
@@ -549,36 +690,6 @@ Angle mode uses a earth coordinate system.
 * [Betaflight Angle Mode is about to get AWESOME! You can try it TODAY](https://www.youtube.com/watch?v=ILeLo1lWjBk)
 * [Angle vs Acro Tiny Whoops In 2023](https://www.youtube.com/watch?v=MTIx3tyqz6U&t=70s)
 
-## AirMode vs Idle Up
-Idle Up proceeded Air Mode in Betaflight.
-
-Idle Up is set up in the transmitter to asure that the throttle is down at zero level is not completely stopping the motors so you retain flight control.
-
-Air Mode is set in the flight controller (Betaflight) increases command authority at low throttle. You can lower you throttle as far as you wish.
-
-* [What is Airmode? | BETAFLIGHT WITH AIR MODE EXPLAINED](https://www.youtube.com/watch?v=d2nRrVENEYM)
-* [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4)
-
-* [What does NOT work in Angle Mode](https://www.youtube.com/watch?v=AI_-v30j58Q)
-
-* Part 1 - [Air Mode vs Idle Up - what's the difference?](https://www.youtube.com/watch?v=zkTqc2CF3-g)
-* Part 2 - [Using Air Mode AND Idle Up?](https://www.youtube.com/watch?v=-oUFIwSRMtM)
-
-* [Behind the Scenes - FPV Airmode Off](https://www.youtube.com/watch?v=KW1Ysb5BqGo)
-* [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc)
-
-* [Throttle IDLE UP Step by Step! Setup | AIRMODE 👎| Ethix](https://www.youtube.com/watch?v=oMQidtp0F0k)
-* [Idle up for Betaflight (Full tutorial version)](https://www.youtube.com/watch?v=jYhmNwDT-qI)
-
-* [Betaflight 4.2 Low Throttle Instability How To Fix](https://www.youtube.com/watch?v=TeYMJy23vK4)
-
-## Dynamic Idle (aka Dynamic Notch ??) Bug
-[Propwash][12] is the airflow generated by an aircraft's propeller,
-which can have significant effects on the performance of the aircraft, particularly during takeoff and landing.
-
-* [What causes Propwash and how Betaflight Dynamic Idle can help!](https://www.youtube.com/watch?v=CAMcRbQh3xM)
-* [Betaflight 4.4 Potential Dynamic Idle Bug](https://www.youtube.com/watch?v=97Hk2nTWHsY)
-
 ## Learning & Tuning for a Newbee
 * [How To Get Started With FPV Drone – The Ultimate Beginner’s Guide](https://oscarliang.com/fpv-drone-guide/)
 * [Learn How to Fly FPV Drones – Tips and Practice](https://oscarliang.com/learn-flying-fpv-multirotors/)
@@ -643,32 +754,45 @@ Here are the seven that could be causing this issue:
 * [Calibrate & Trim Betaflight Tiny Whoop Accelerometer | HOW TO FIX ANGLE MODE](https://www.youtube.com/watch?v=otJNzZrE-yk)
 
 #### Step X: PID Tuning / Rate Profile Settings
+**Important** ...
+* [Find YOUR perfect rates! With science!](https://www.youtube.com/watch?v=Ql62iRkLX3s)
+* [I turned BF rates to max and learned something profound](https://www.youtube.com/watch?v=nJ-V7EAnpig&t=660s)
+* [Betaflight Rates tuning. How to make your quad feel right for the way you like to fly.](https://www.youtube.com/watch?v=RneayCxDN4A&t=354s)
+* [Betaflight 4.3 Rates Tuning: Rates are even more important than PIDs for flight feel in 4.3](https://www.youtube.com/watch?v=_WqKaJ79HGU)
+* [Betaflight 4.2 what are ACTUAL RATES and how to convert them](https://www.youtube.com/watch?v=m3A9xgRmcws)
+
 Rate profile name: Indoor
 
 Rate Type: Actual
 
-(these are Betaflight defaults)
+These are Betaflight defaults rates for the :
 | Stick | Center Sensityity | Max Rate | Expo |
 |:------|:-----------------:|:--------:|:----:|
-| Roll  |       70          |    670   | 0.00 |
-| Pitch |       70          |    670   | 0.00 |
-| Yaw   |       70          |    670   | 0.00 |
+| Roll  |        70         |    670   | 0.00 |
+| Pitch |        70         |    670   | 0.00 |
+| Yaw   |        70         |    670   | 0.00 |
 
-Throttle Limit: SCALE  (Betaflight default is OFF)
-Throttle Limit %: 70   (Betaflight default is 100)
-Throttle MID: 0.25     (Betaflight default is 0.50)
-Throttle EXPO: 0.75    (Betaflight default is 0.00)
+These are my latest Betaflight rates:
+| Stick | Center Sensityity | Max Rate | Expo |
+|:------|:-----------------:|:--------:|:----:|
+| Roll  |        70         |    620   | 0.50 |
+| Pitch |        70         |    490   | 0.35 |
+| Yaw   |        70         |    380   | 0.20 |
+
+**Try this** at 1:36 minute - [These Actual Rates are Actually Butter: Finding the Right Actual Rates For You](https://www.youtube.com/watch?v=_aBU--FWH94)
+
+These will give me more sensitivity in the throttle:
+| Throttle Setting | My Value | Default |
+|:-----------------|:--------:|:-------:|
+| Throttle Limit   |   SCALE  |   OFF   |
+| Throttle Limit % |    80    |   100   |
+| Throttle MID     |   0.25   |  0.50   |
+| Throttle EXPO    |   0.75   |  0.00   |
 
 Sources:
 * [Betaflight OpenTX Throttle Scaling | TAME YOUR 2S TINY WHOOP](https://www.youtube.com/watch?v=K7t6U_2dLlk)
 * [Betaflight Rates tuning. How to make your quad feel right for the way you like to fly](https://www.youtube.com/watch?v=RneayCxDN4A&t=14s)
 * [Adjusting Throttle Curve in Betaflight and EdgeTX: Tips for Smoother Throttle Control](https://oscarliang.com/throttle-curve/)
-
-### Step X: Set AirMode
-* [AIR MODE Flight Demo FPV - What is Air Mode? Air Mode VS Acro?? Airmode Explained](https://www.youtube.com/watch?v=HQ3ceM5LTEA)
-* [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
-* [Using Air Mode AND Idle Up?](https://www.youtube.com/watch?v=-oUFIwSRMtM&t=5s)
-* [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4&t=21s)
 
 
 
@@ -688,6 +812,9 @@ Sources:
 
 
 ## Backup Flight Control Configuration
+Within Betaflight, go to the **Presets** tab.
+
+Source:
 * [How to Backup & Restore Betaflight Configuration](https://oscarliang.com/backup-restore-betaflight-config/)
 
 
@@ -697,6 +824,9 @@ Sources:
 
 
 # GPS Sensor
+* [Just The Tip - Ep 03 - My Betaflight 4.2 / 4.3 GPS Rescue Setup & Settings - How To Set Any Quad](https://www.youtube.com/watch?v=5BCYAbUFfeU)
+* [Just The Tip - Ep 04 - OpenTX / EdgeTX Secrets Revealed - Min Sats Alert & Display GPS Coordinates!](https://www.youtube.com/watch?v=Bnz-Sa3MtXU)
+
 * [Upgrade your drone GPS now! M10 receivers are here!](https://www.youtube.com/watch?v=eBzQLVYOy9Y)
 * [Flywoo GM10 Mini V3 GPS - M10 For Under $20](https://www.youtube.com/watch?v=uXH0ToYuCcs)
 * [Betaflight GPS Rescue Configuration (my best settings)](https://www.youtube.com/watch?v=-bYavyTRvx8)
@@ -719,6 +849,8 @@ Sources:
 [13]:https://oscarliang.com/vtx-control/#:~:text=SmartAudio%20is%20a%20protocol%20between,settings%20remotely%20is%20so%20easy.
 [14]:https://en.wikipedia.org/wiki/Proportional%E2%80%93integral%E2%80%93derivative_controller
 [15]:https://oscarliang.com/fc-firmware/
+[16]:https://www.audacityteam.org/
+[17]:https://ttsdemo.com/
 
 [20]:https://store.steampowered.com/
 

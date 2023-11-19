@@ -48,6 +48,19 @@ I used the following articles and videos to help make the selection of the Radio
 * [2023 BEST Radios for Fpv Drones - BUYER'S GUIDE](https://www.youtube.com/watch?v=KOYla-wqFYg)
 * [Radiomaster Boxer Max ELRS - The Best Gets Better](https://www.youtube.com/watch?v=r1kwoq1jxIg)
 
+## Should I Use Mode 1 or Mode 2?
+Mode 1 or Mode 2 has only indirectly to do with your quadcopter,
+it is more about the radio.
+It tells you about the position of the throttle stick.
+The difference: In mode 1 the throttle is on the right side,
+in mode 2 the throttle is controlled with the left hand (both the up/down axis).
+By far, Mode 2 is the most prevailent, at least if for Europe or the USA.
+In Australia and other regions, it can also be that you find more Mode 1 pilots.
+**Use Mode 2, so throttle is on your left hand.**
+
+Sources:
+* [MODE 1 VS. MODE 2](https://fpvracingdrone.org/from-a-to-z/mode-1-vs-mode-2/)
+
 # Buttons, Switches, and Knobs
 * **SYS** -
 * **RTN** -
@@ -429,8 +442,29 @@ Using the **Gear** (aka Settings), fillout the **Profile** tab in EdgeTX Compani
 
 
 # EdgeTX Snippets
-These short wrtite-up and videos conceerning "how-to" for some common needs on EdgeTx
+These short write-up and videos concerning "how-to" for some common needs on EdgeTx
 * [EdgeTX Snippets](https://www.youtube.com/playlist?list=PLy3TC1ILJYTjWBv9HIpj_Eb5yA_W9Neua)
+
+#### Step X: Create Audible Low Battery Alert
+Using one logical switch and one special function,
+you can implement an audio alert for low battery on the quadcopter.
+
+On the EdgeTX Conpanion Tool:
+* **Logical Switches** tab (I used `L01` logical switch)
+    * **Function** is `a<x`
+    * **V1** is `Batt`
+    * **V2** is `3.7V`
+    * **AND Switch** is `----`
+    * **Duration** is `0.0`
+    * **Delay** is `5.0`
+* **Special Functions** tab:
+    * **Switch** is `L01`
+    * **Action** is `Play Value`
+    * **Parameters** is`Batt`
+    * `Repeat 10s`
+
+Sources:
+* goto 4:25 minutes - [Just The Tip - Ep 05 - OpenTX / EdgeTX Secrets Revealed - Audible Low Battery Alerts!](https://www.youtube.com/watch?v=0DrPrh-HwE0)
 
 #### Step X: Built-In Curves and Custom Curves
 * [Adjusting Throttle Curve in Betaflight and EdgeTX: Tips for Smoother Throttle Control](https://oscarliang.com/throttle-curve/)
@@ -442,6 +476,16 @@ These short wrtite-up and videos conceerning "how-to" for some common needs on E
 
 #### Step X: Control Screen Brightness via Knob
 * [Screen brightness on a knob? // EDGETX GLOBAL FUNCTIONS HOW-TO](https://www.youtube.com/watch?v=CSWXkPCldP8)
+
+#### Step X: 6-Position Buttons
+* [Tutorial: Using 6-Position Buttons on Radiomaster Boxer to Change VTX Channel](https://www.youtube.com/watch?v=L95xTSwAehg)
+
+#### Step X: Using Trim Switches for Angle Mode
+In angle mode your quadcopter continuously drifts, it is likely that your gyroscope / acelarometer requires some trim.
+
+Sources:
+* [It's finally ok to use your trim switches // EDGETX HOW-TO](https://www.youtube.com/watch?v=36dYW2X0-4w)
+* [Your trim switches are useless. Let's fix that. (OpenTX n-position switch from momentary tutorial)](https://www.youtube.com/watch?v=wa43z6XohW4)
 
 
 

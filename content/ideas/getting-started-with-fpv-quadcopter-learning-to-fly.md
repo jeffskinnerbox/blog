@@ -18,21 +18,22 @@ Version:      0.0.0
 * [New to FPV drones? DONT do these things unless you want to cry // Beginner tips for success](https://www.youtube.com/watch?v=s51q5eEQu0s)
     1. Start out in a simulator since you are going to crash a lot.
     2. Master race gates before you do acrobatic flying.
-    3. Learn how to fly in Acro Mode (aka Manual Mode and Rate Mode) not in Self-Level Mode (aka Angle Mode and Horizon Mode) [Acro Mode vs. Self-Level Mode](https://oscarliang.com/rate-acro-horizon-flight-mode-level/)
-    4. Never let your goggles lens see the Sun
-    5. When you get a new quadcopter, always check your prop directions in Betaflight
-    6. When you get a quadcopter, use the FC install before flashing and always have a backup
-    7. Never tune your FC until you have some experience with multiple quadcopters
-    8. When building a quadcopter, always use a meter to check for shorts and always use a smoke stopper
-    9. Always take your props off when working on the Bench
-    10. Always do a per flight check before doing a flight
-    11. If there are other pilots in the air, do not plug your quad in until you validate your on a unique video channel
-    12. Stand-off about 15 feet from other pilots to reduce interfernace
+    3. Learn how to fly in Acro Mode (aka Manual Mode and Rate Mode) not in Self-Level Mode (aka Angle Mode and Horizon Mode) [Acro Mode vs. Self-Level Mode](https://oscarliang.com/rate-acro-horizon-flight-mode-level/).
+    4. Never let your goggles lens see the sun.
+    5. When you get a new quadcopter, always check your prop directions in Betaflight.
+    6. When you get a quadcopter, use the FC install before flashing and always have a backup.
+    7. Never tune your FC until you have some experience with multiple quadcopters.
+    8. When building a quadcopter, always use a meter to check for shorts and always use a smoke stopper.
+    9. Always take your props off when working on the bench.
+    10. Always do a per flight check before doing a flight.
+    11. If there are other pilots in the air, do not plug your quad in until you validate your on a unique video channel.
+    12. Stand-off about 15 feet from other pilots to reduce interference.
     13. Don't jump on the hype train.  Don't hype something that some other person you like is hyping it.  Look for concrete facts & evidence.
     14. Don't get discouraged. The learning curve is long and things get broken. Fall in love with the journey and not just the destination. You will have set-back.
 
 
 # Learning How to Fly
+* [Learn to fly an FPV drone (for total beginners)](https://www.youtube.com/playlist?list=PLwoDb7WF6c8lCKhQOTy-Vb9LfW0VAIrTP)
 
 Sources:
 * [Betaflight Modes Series - Acro Mode for Beginners](https://www.dronecamps.com/single-post/betaflight-modes-series-acro-mode-for-beginners)
@@ -41,6 +42,10 @@ Sources:
 * [Learning FPV Drone Freestyle (In One Week!)](https://www.youtube.com/watch?v=GlCgarOgtiY)
 * [Tutorials: Flying your drone (TRAIN INSANE)](https://www.youtube.com/playlist?list=PL4gEajIi4pj4ZoncJk1d-6Oj2v_fY8x3Y)
 * [Learn To Fly FPV In Under 24 Hours!](https://www.youtube.com/watch?v=Ou5i9zdyqn0)
+* [How To 10 FPV Freestyle Tricks | LEARN THESE FIRST](https://www.youtube.com/watch?v=0EqJ9C8KuTQ&t=161s)
+* [LEARN TO FLY - FPV Drone Flight Training](https://www.youtube.com/playlist?list=PLDnffNsiQx6NOi1kWyyX3F8Lrpxo3jQPV)
+* [FPV Tutorials](https://www.youtube.com/playlist?list=PLQgLVCpLOfkEhqcBVXYY3a3xEeTNusBfu)
+* [How To Fly FPV](https://www.youtube.com/playlist?list=PLQgLVCpLOfkF7zU8FLHqxdRpmDn0C5c7g)
 
 ## Does Simulator Practice Help With Real Flying?
 * [Drone Simulator Practice To Real Life Flying? | Cinematic FPV](https://www.youtube.com/watch?v=GFrOZKnYBek)
@@ -50,7 +55,7 @@ Before you start:
 * Become instictly aware of the location & activation you arm/disarm swicth
 
 1. [Hovering](https://www.youtube.com/watch?v=gzDReOBx-l0&t=260s)
-[ Landing](https://www.youtube.com/watch?v=3-3BvdjGsVw&t=600s)
+1. [Landing](https://www.youtube.com/watch?v=3-3BvdjGsVw&t=600s)
 2. [Forward fight]()
 3. [Left turns]()
 4. [Right turn]()
@@ -60,9 +65,13 @@ Before you start:
 8. [Flips]()
 9. [Tight cornering](https://www.youtube.com/watch?v=OkFJCzRciu8)
 
+* [These 3 Tips Will Make You A Better Pilot - Help for Drone Beginners](https://www.youtube.com/watch?v=Qco1fqtjPkI)
+* [Lessons I've Learned - FPV Flight - Budget Basher - Mamba F405](https://www.youtube.com/watch?v=pyf2V7eTgBs)
 * [15 Beginner Drone Maneuvers (Sharpen Your Skills)](https://www.youtube.com/watch?v=O0ydRf3e5iM)
 * [FPV Trick Tutorials!](https://www.youtube.com/playlist?list=PLBlZ_AJ8LoaNWUhWPM2Owwjqkzhht0dR3)
 * [How-to Fly an FPV Quadcopter / Drone - ALL VIDEOS](https://www.youtube.com/playlist?list=PLXWuhwtHmw1w9G6j3P1Y2ZLRiiLqmFe2B)
+* [Quadcopter Tricks Tutorial (Intermediate / Advanced)](https://www.youtube.com/playlist?list=PLwoDb7WF6c8mT1TB0iKaiUWRUVoT0Kk8O)
+* [top 10 Tips for DURABLE FPV Drones!](https://www.youtube.com/watch?v=jcjrMhbhUb4)
 
 
 
@@ -110,6 +119,8 @@ and a modern system to play games unstoppably.
 First, go to the [Stream cloud store][20] and create an account.
 You can do this via the login button at the top right.
 
+For Linux, do this:
+
 ```bash
 # add the multiverse repository, which is a repository that includes non-free software titles
 sudo add-apt-repository multiverse
@@ -131,14 +142,25 @@ then select "Play Game" or "Add to Library".
 in my case `/home/jeff/.steam`.
 3. On the Steam client, click the button **Play Now**.
 
+For MacOS, do this:
+
+1. In a web browser, go to `store.steampowered.com`.
+2. Click **Install Steam** at the top of the page, then on the next page, click the **INSTALL STEAM** button that has an Apple logo on it.
+3. If the installer doesn’t launch automatically when it has finished download, go to your `Downloads` folder and double-click it
+(Tip: you can get to your downloads folder quickly by clicking the show downloads button in your browser’s toolbar).
+4. When the disk image mounts and opens, drag the Steam icon to your `Applications` folder.
+
 * [How to install Steam on any Ubuntu-based Linux distro so you can play a world of games](https://www.zdnet.com/article/how-to-install-steam-on-any-ubuntu-based-linux-distribution-so-you-can-play-a-world-of-games/)
 * [How to Install Steam on Linux and Play Your Favorite Games](https://geekflare.com/install-steam-on-linux/)
+* [How to download Steam on Mac](https://macpaw.com/how-to/download-steam-mac)
 
 #### Step 1: Install VelociDrone - DONE
 Go to [Velocidrone's Shopping site](https://www.velocidrone.com/shop) register yourself.
 Once you are completely registed, you can purchase the VelociDrone License and Micro Class Quads packages.
 At the completion of the purchase, you can go to the [Download tab](https://www.velocidrone.com/account/my_licenses)
 to download a MacOS, or Linux, or Windows package.
+
+For Linux, do this:
 
 ```bash
 # unzip the velocidrone zip file
@@ -148,6 +170,9 @@ unzip velocidrone.zip
 # execute the launcher
 Launcher
 ```
+
+For MacOS, do this:
+
 
 * [Read video description as there is a quicker solution - "app cannot be opened" error](https://www.youtube.com/watch?v=i9TtoOJjGpU)
 * [How to install the FPV simulator velocidrone on ubuntu 19.04](https://www.youtube.com/watch?v=uJNUkxgnex0)
