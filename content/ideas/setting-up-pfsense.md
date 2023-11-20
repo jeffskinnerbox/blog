@@ -14,6 +14,11 @@ Version:      0.0.0
 
 
 # Configure pfSense, Virtualized on Proxmox, Hosted on Protectli Vault
+
+For pfSense, the specific RAM requirements can vary depending on the
+network size, usage, and additional services running on pfSense.
+The [minimum RAM requirements for pfSense on a home network is 2GB](https://robots.net/tech/how-much-ram-for-pfsense/).
+
 * [Configure pfsense w/Protectli](https://www.youtube.com/watch?v=a70fUC8ZHTA)
 * [How to Setup a Hardware Firewall Mini PC | pfSense 2.5 Beginners Guide](https://www.youtube.com/watch?v=qu7YR7e8xJA)
 
