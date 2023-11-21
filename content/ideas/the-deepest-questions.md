@@ -82,6 +82,7 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [Lecture: Electrodynamics](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLrAOWX3F3oNXQUEAyWEIIF)
     * [Lecture: Quantum Mechanics I](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLMZ-I4YRwIQK0FbCkztJbZ)
     * [Lecture: Quantum Mechanics II](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKVPjPv_aV3XMITKaRuB7bf)
+    * [MIT 8.04 Quantum Physics I, Spring 2016](https://www.youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G)
 * Quantum Computing
     * [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
     * [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
