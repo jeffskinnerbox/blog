@@ -370,6 +370,7 @@ Most dual channel oscilloscopes have an XY mode in which the timebase is replace
 * [HOW TO CONTROL YOUR INSTRUMENTS FROM A COMPUTER: IT’S EASIER THAN YOU THINK](https://hackaday.com/2016/11/16/how-to-control-your-instruments-from-a-computer-its-easier-than-you-think/)
 * [CONTROLLING YOUR INSTRUMENTS FROM A COMPUTER: DOING SOMETHING USEFUL](https://hackaday.com/2016/11/29/controlling-your-instruments-from-a-computer-doing-something-useful/)
 * [Ollie: Voice control for oscilloscopes](https://github.com/jmwilson/ollie)
+* [How To Talk To Your Scope](https://hackaday.com/2023/11/21/how-to-talk-to-your-scope/)
 
 # LabView
 * [What is LabVIEW?](https://www.youtube.com/watch?v=P8y3tKJQadEG)
