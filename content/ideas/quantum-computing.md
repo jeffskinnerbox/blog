@@ -73,6 +73,8 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 * [Quantum Hyperion](https://www.preposterousuniverse.com/blog/2008/10/23/quantum-hyperion/)
 * [Quantum Chaos](https://www.scientificamerican.com/article/quantum-chaos-subatomic-worlds/)
 
+* [Fluid dynamics feels natural once you start with quantum mechanics](https://www.youtube.com/playlist?list=PLMoTR49uj6ld32zLVWmcGXaW7w2ey7Vh4)
+
 
 
 
