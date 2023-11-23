@@ -31,6 +31,9 @@ Version:      0.0.0
 # FlowForge / FlowFuse
 FlowForge is changing its name to FlowFuse
 * [FlowForge](https://www.youtube.com/watch?v=K4xw09DbSdI)
+* [FlowForge](https://flowfuse.com/)
+* [Installing the FlowFuse Edge Agent on the Raspberry Pi 5 for Node-RED](https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/installing-the-flowfuse-edge-agent-on-the-raspberry-pi-5-for-node-red-2023-11/)
+    * [Install the FlowFuse Edge Agent on the Raspberry Pi 5](https://flowfuse.com/blog/2023/11/raspberry-pi-5-flowfuse-edge-agent/)
 
 
 
