@@ -53,6 +53,15 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 * [What is Computation?](https://www.youtube.com/results?search_query=What+is+Computation%3F) - start at 7 minutes
 * [Analog vs Digital vs Quantum, Explained - Learn Science of Data, Waves, Bits, Qubits and more!](https://www.youtube.com/watch?v=ZMkLPvOVkNo)
 
+# What is Neuromorphic Computing?
+* [The AI Hardware Problem](https://www.youtube.com/watch?v=owe9cPEdm7k)
+* [Neuromorphic Computing-How The Brain-Inspired Technology | Neuromorphic Artificial Intelligence |](https://www.youtube.com/watch?v=u9pulFlavIM)
+
+## What is Spike Neuromorphic Computing?
+Spiking Neural Networks are neural networks that replicate the neuronal-firing mechanisms of the brain and thus possess many capabilities of the brain e.g. energy efficiency and Spatio-temporal data processing.
+
+* [Mike Davies: Realizing the Promise of Spiking Neuromorphic Hardware](https://www.youtube.com/watch?v=jhQgElvtb1s)
+
 # What is Quantum Computation?
 * [The Quantum Computing Advantage](https://www.youtube.com/watch?v=PXQ-sh07eBw)
 * Using Scratch: [Scratch Quantum Computer](https://scratch.mit.edu/projects/875118011/editor/)
