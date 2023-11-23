@@ -330,6 +330,7 @@ Doesn't seem to work???
  The first such batch will go into production in the next two to three weeks and we expect delivery in February 2022
 If we get more than 100 orders (we already have about 15 orders in our queue) additional batches of 100 THATs will be ordered subsequently. These will then become available (with a grain of salt regarding parts procurement etc.) in April/May 2022.
 
+* [Analog computing will take over 30 billion devices by 2040. Wtf does that mean? | Hard Reset](https://www.youtube.com/watch?v=6AgkTdQXFTY)
 * [WHY ALGORITHMS SUCK AND ANALOG COMPUTERS ARE THE FUTURE](https://blog.degruyter.com/algorithms-suck-analog-computers-future/)
 * [Forget Digital Computing, You Need An Analog Computer](https://hackaday.com/2021/10/03/forget-digital-computing-you-need-an-analog-computer/)
 * [Building an Analog Computer with Op-Amps](https://www.youtube.com/playlist?list=PL_R4uxT5thflWVbSWtl-rx5_C_q0RxjyV)
@@ -372,6 +373,10 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 * [Mythic](https://cambrian-ai.com/interview-with-mike-henry-founder-and-ceo-of-mythic/)
 * [infinityQ](https://www.infinityq.tech/)
 
+
+# Building an Analog Computer
+* [Building an Analog Computer with Op Amps](https://www.youtube.com/playlist?list=PL_R4uxT5thflWVbSWtl-rx5_C_q0RxjyV)
+* [Electrical Engineering, Analog, Digital Design Videos](https://www.youtube.com/playlist?list=PLrwXF7N522y4c7c-8KBjrwd7IyaZfWxyt)
 
 
 ------
