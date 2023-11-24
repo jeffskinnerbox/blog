@@ -553,6 +553,7 @@ A function is a relation that uniquely associates members of one set with member
 * [What are complex numbers](https://medium.com/@zsolt.gkiss/there-is-no-such-thing-as-1-4848b7e2380)
 
 # What is Randomness?
+* [The Incredible Story Of Randomness](https://www.youtube.com/watch?v=iT20A4KQxyM)
 * [What is Random?](https://www.youtube.com/watch?v=9rIy0xY99a0)
 * [What is NOT Random?](https://www.youtube.com/watch?v=sMb00lz-IfE)
 * [Randomness is Random](https://www.youtube.com/watch?v=tP-Ipsat90c)
