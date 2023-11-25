@@ -27,6 +27,8 @@ Indoor positioning is one of the application for optical motion capture systems.
     * [Open Source Motion Capture for Autonomous Drones](https://joshuabird.com/blog/post/mocap-drones)
     * [GitHub: jyjblrd/Mocap-Drones](https://github.com/jyjblrd/Mocap-Drones)
 
+* [You can build autonomous drones with computer vision, deep learning, and OpenCV](https://pyimagesearch.com/autonomous-drones-with-computer-vision-and-opencv/)
+
 * [Tracking Drone Flight PATH via Video, Using Cameras We Can Get](https://hackaday.com/2020/11/13/tracking-drone-flight-path-via-video-using-cameras-we-can-get/)
 * [Using Motion Capture System as indoor GPS](https://discuss.ardupilot.org/t/using-motion-capture-system-as-indoor-gps/78882)
 * [The development of indoor positioning aerial robot based on motion capture system](https://ieeexplore.ieee.org/document/7840347)
