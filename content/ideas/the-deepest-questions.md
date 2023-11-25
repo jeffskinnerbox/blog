@@ -464,6 +464,9 @@ Category Theory is the abstraction of composition.
 * [A Sensible Introduction to Category Theory](https://www.youtube.com/watch?v=yAi3XWCBkDo)
 * [Category Theory in Life - Eugenia Cheng](https://www.youtube.com/watch?v=ho7oagHeqNc)
 * [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
+* [What A General Diagonal Argument Looks Like (Category Theory)](https://www.youtube.com/watch?v=dwNxVpbEVcc)
+
+* [The First Real Application of Category Theory](https://www.youtube.com/watch?v=Njx2ed8RGis)
 
 # Card Tricks
 * [Amaze your friends! Astound your family!](https://plus.maths.org/content/amaze-your-friends-astound-your-family)
