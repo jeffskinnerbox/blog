@@ -69,6 +69,7 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
 
 # What is Quantum Computation?
 * [The Quantum Computing Advantage](https://www.youtube.com/watch?v=PXQ-sh07eBw)
+* [Scott Aaronson on Computational Complexity Theory and Quantum Computers](https://www.youtube.com/watch?v=0jrybODBUpA)
 * Using Scratch: [Scratch Quantum Computer](https://scratch.mit.edu/projects/875118011/editor/)
     * [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
     * [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
