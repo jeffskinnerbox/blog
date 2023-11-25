@@ -11,7 +11,7 @@ Version:      0.0.0
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/we-do-this-not-because-it-is-easy.jpg" title="U.S. President John F. Kennedy said this in his moon speech at Rice University in Houston, Texas, on September 12, 1962:
 
- We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
+We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
 </div>
 
 
@@ -552,6 +552,9 @@ Sources:
 * [Buzzer for Quadcopters](https://oscarliang.com/buzzer-quadcopters/)
 * [Using ESC Beacon (Motor) as Lost Model Alarm](https://oscarliang.com/esc-beacon-lost-model-alarm/)
 
+#### Step X: 3-Position Switch for Acro / Angle / Horizon Modes
+[Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
+
 #### Step X: Set AirMode On or Off?
 While called a "mode", its not really a flight mode, its a feature.
 
@@ -618,9 +621,6 @@ which can have significant effects on the performance of the aircraft, particula
 * [Everybody should be using these FPV Lua Scripts](https://www.youtube.com/watch?v=RCS72GVR0gs)
 * [Setup Betaflight LUA Script on OpenTX Radios](https://oscarliang.com/setup-betaflight-lua-script/)
 * [Betaflight LUA • How-To Change Betaflight Settings From Your Radio • No Bluetooth/Wifi Required](https://www.youtube.com/watch?v=mEpbO9tD62k)
-
-#### Step X: 3-Position Switch for Acro / Angle / Horizon Modes
-
 
 
 -----

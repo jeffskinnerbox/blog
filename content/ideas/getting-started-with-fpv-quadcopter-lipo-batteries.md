@@ -155,7 +155,7 @@ And if you have a wide range of battery types you are using,
 it can store up to 10 different battery charging profiles.
 
 * [Tenergy TB-6B manual](https://system.na2.netsuite.com/core/media/media.nl?id=1036221&c=671216&h=41002c9378503e4db96c&_xt=.pdf)
-
+* [iMAX B6 Pro: How to Safely Charge Your Batteries // Quick Tip](https://www.youtube.com/watch?v=MeAlEUb_vgg)
 * [Understanding RC Battery Chargers by Horizon Hobby](https://www.youtube.com/watch?v=MLfILtFVE_Q)
 * [The 4 Best LiPo Chargers for the Money – Reviews 2019](http://www.mechanicalcaveman.com/best-lipo-charger-review-for-the-money-rc-lithium-polymer-battery/)
 

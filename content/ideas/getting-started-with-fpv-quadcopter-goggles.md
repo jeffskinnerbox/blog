@@ -15,12 +15,14 @@ Version:      0.0.0
 Protocols in FPV can be divided into 3 groups:
 
 ```
+<-- In Your Hands --><----------------------- On The Quadcopter ------------------------------------>
 +-------+            +----------+           +-------------------+            +-----+        +-------+
 | Radio |------------| Receiver |-----------| Flight Controller |------------| ESC |--------| Motor |
 +-------+            +----------+           +-------------------+            +-----+        +-------+
          TX Protocols            RX Protocols                    ESC Protocols
 
 
+<----------- In Your Hands ------------><-------------------- On The Quadcopter -------------------->
 +---------+                 +----------+                     +-------------+               +--------+
 | Goggles |<----------------| Reciever |<--------------------| Transmitter |<--------------| Camera |
 +---------+                 +----------+                     +-------------+               +--------+
@@ -88,7 +90,7 @@ Pros & Cons of Digital Solutions:
     * Camera + Video Transmitter (VTX): $100 – $230
     * FPV Goggles (VRX): $240 – $650
 
-It appears to me that, if your budget allows for it, go digital!
+So it appears to me that, if your budget allows for it, go digital!
 The superior image quality provides an immersive FPV experience that analog just can’t match,
 and the digital product manufactures are innovating & investing where analog is not.
 Analog has lower latency (maybe important for a racer),
@@ -107,6 +109,49 @@ Sources:
 * [Cheap vs. Expensive FPV Goggles - What's the Difference??](https://www.youtube.com/watch?v=oOEbygcWk-w)
 * [The best FPV goggle for almost everybody (except DJI) // HDZERO GOGGLE REVIEW](https://www.youtube.com/watch?v=TPnGVad9Cm8)
 * [How Long Will It Be Until Analog Is No Longer Used For FPV? Digital Cost?][08]
+
+# Is a Ham Radio License Needed When Flying FPV?
+The short answer is yes, you need at least a Level 1: [Technician License][21] to operate FPV drones legally.
+The vast majority of FPV VTX (video) systems operate in the 5.8 MHz ham radio bands, between 5650MHz to 5925MHz.
+These frequencies are governed by [FCC Part 97][22] (aka ham radio, amateur radio).
+Take a look at [this chart][28] for a visual representation
+of the various FPV VTX bands, frequencies, and how they fall in the amateur range.
+
+Anything that broadcasts a radio signal in the United States must follow the rules of the Federal Communications Commission (FCC).
+According to the FCC there are basically two ways to operate equipment,
+such as our FPV video transmitters (VTX), within the RF spectrum allocated for such use.
+
+1. The first way is to use equipment that is certified by the FCC under part 15,
+which means the company who created it has submitted it to the FCC for approval
+and the FCC agrees that the equipment meets all the standards,
+transmits at appropriate power levels, does not cause interference, and so on.
+2. The second way to comply with the FCC rules is to have an amateur radio operators license.
+In that case you have proven that you understand the FCC rules,
+you know how to operate radio broadcasting equipment,
+and you can be trusted to operate hardware that has the potential to cause interference to others.
+This license then gives you permission to use these devices within appropriate power levels
+on frequencies within the US amateur allocations.
+
+Except in a few cases, none of the modern FPV video transmitters has an FCC part 15 certificate.
+Therefore the person operating the equipment must have a Technicians level ham license in order to operate it.
+This is why you see a warning on all the major FPV stores in the US when you try to purchase a VTX from their website.
+They are letting you know that it is YOUR responsibility to follow the regulations and know how to use this equipment properly.
+
+The FCC has determined that video links used as a part of an RC system are considered telecommand devices.
+FCC HAM radio compliant FPV transmitters have a 1 watt limit for amateur devices being used for telecommand.
+Devices over 1 watt output should not be used for telecommand of model aircraft.
+
+In summary, the use and operation of FPV analog & digital VTX 5.8GHz product in the USA,
+and many other countries, requires a license and some countries may forbid its use entirely.
+In the USA, you will need a "HAM" amateur radio license.
+Make sure to [learn more about HAM licenses][17], and [find a HAM license exam session in your area][18].
+**It is your responsibility to ensure that the use of this product meets the requirements imposed by your government's rules and regulations for RF devices.**
+
+* [Is a Ham Radio License Needed When Flying FPV?](https://fpvfc.org/ham-license)
+* [Why Do You Need A Ham Radio License for Flying FPV Drones?](https://hamradioprep.com/fpv-drones-using-a-ham-radio-license/)
+* [The Different Frequencies for FPV](https://oscarliang.com/fpv-frequency/)
+* [5.8GHz FPV Channels & Frequency Chart (Analogue & Digital)](https://oscarliang.com/fpv-channels/)
+* [HAM Radio License for FPV – All You Need to Know](https://myracingdrone.com/ham-radio-license-for-fpv-drone/)
 
 # My Choose: Walksnail Avatar
 I agonized over the decision of going with a digital video solution but not pricing myself out of the flexibility of analog solutions.
@@ -185,35 +230,6 @@ Sunlight can cause damage to your OLED screen.
 # FPV Video Channels
 * [5.8GHz FPV Channels & Frequency Chart (Analogue & Digital)](https://oscarliang.com/fpv-channels/)
 
-### Is a Ham Radio License Needed When Flying FPV?
-The short answer is yes, you need at least a Level 1: Technician License to operate FPV drones legally. The vast majority of FPV VTX (video) systems operate in the 5.8 MHz ham radio bands, between 5650mhz to 5925mhz. These frequencies are governed by FCC Part 97 (aka ham radio, amateur radio).
-
-Anything that broadcasts a radio signal in the United States must follow the rules of the Federal Communications Commission (FCC).  According to the FCC there are basically two ways to operate equipment such as our FPV video transmitters (VTX) within the RF spectrum allocated for such use.
-
-1. The first way is to use equipment that is certified by the FCC under part 15 which means the company who created it has submitted it to the FCC for approval and the FCC agrees that the equipment meets all the standards, transmits at appropriate power levels, does not cause interference, and so on.
-2. The second way to comply with the FCC rules is to have an amateur radio operators license.  In that case you have proven that you understand the FCC rules, you know how to operate radio broadcasting equipment, and you can be trusted to operate hardware that has the potential to cause interference to others.  This license then gives you permission to use these devices within appropriate power levels on frequencies within the US amateur allocations.
-
-Except in a few cases, none of the modern FPV video transmitters has an FCC part 15 certificate.  Therefore the person operating the equipment must have a Technicians level ham license in order to operate it.  This is why you see a warning on all the major FPV stores in the US when you try to purchase a VTX from their website.  They are letting you know that it is YOUR responsibility to follow the regulations and know how to use this equipment properly.
-
-In what is commonly referred to as the 5.8ghz range that a typical FPV VTX operates, a technicians level ham license allows you to use the frequencies from 5650mhz to 5925mhz.
-Also be aware that many video transmitters will allow you to use frequencies outside that range.
-
-Take a look at [this chart](https://fpvfc.org/fpv-frequency-chart) for a visual representation of the various FPV VTX bands, frequencies, and how they fall in the amateur range.
-
-In summary, the use and operation of FPV analog & digital VTX 5.8GHz product in the USA,
-and many other countries, requires a license and some countries may forbid its use entirely.
-In the USA, you will need a "HAM" amateur radio license.
-Make sure to [learn more about HAM licenses][03], and [find a HAM license exam session in your area][04].
-**It is your responsibility to ensure that the use of this product meets the requirements imposed by your government's rules and regulations for RF devices.**
-
-
-
-* [Is a Ham Radio License Needed When Flying FPV?](https://fpvfc.org/ham-license)
-* [Why Do You Need A Ham Radio License for Flying FPV Drones?](https://hamradioprep.com/fpv-drones-using-a-ham-radio-license/)
-* [HAM Radio License for FPV – All You Need to Know](https://myracingdrone.com/ham-radio-license-for-fpv-drone/)
-
-
-
 # VR Headset
 * [Open Source VR Headset For $200](https://hackaday.com/2020/09/13/open-source-vr-headset-for-200/)
 * [AKK 5.8G RC832 Mini FPV Receiver Double-Screen Display for FPV Quadcopter Drone](https://www.amazon.com/gp/product/B01FXFZ0NS)
@@ -227,7 +243,9 @@ Make sure to [learn more about HAM licenses][03], and [find a HAM license exam s
 
 # FPV Ground Station
 Using a ground station is a great way to improve your FPV feed.
+I purchased the [SkyZone SteadyView X 5.8GHz receiver module as a ground station][10].
 
+Sources:
 * [NEW! Skyzone SteadyView X GroundStation Module: Analogue FPV is alive and well!](https://www.youtube.com/watch?v=OWhsxzaGRKI)
 * [Skyzone Steadyview X Review](https://www.youtube.com/watch?v=IMRyGvRCT2o)
 * [RapidFIRE Killer? SkyZone SteadyView X Ground-Station - Overview & Side By Side Comparison](https://www.youtube.com/watch?v=AW6FxBitkcw)
@@ -239,7 +257,7 @@ Using a ground station is a great way to improve your FPV feed.
 
 ## SKYZONE SteadyView X 5.8Ghz Receiver Module
 [Steadyview X][10] is the upgrade V3.3 version of steadyview receiver.
-this receiver merge two signals to one, avoid image tearing and rolling in multi-path environment,
+This receiver merge two signals to one, avoid image tearing and rolling in multi-path environment,
 make image more stable and clear in challenging condition.
 This video reciver has an [IPS screen][11] and [shuttle wheel][12],
 use can the shuttle wheel to set the recieved channel.
@@ -255,6 +273,24 @@ to the same 5.8GHz channel.
 You can see how this is done via [ExpressLRS ESP Backpack documentation][14]
 and [this video for RadioMaster Boxer][15].
 
+The SkyZone reciver operates in the frequency range of 5.3 to 6GHz within 6 bands and 8 channels in each band,
+as shown below:
+
+| BAND/CH |  CH 1 |  CH2  |  CH3  |  CH4  |  CH5  |  CH6  |  CH7  |  CH8  |
+|:-------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|    A    | 5865M | 5845M | 5825M | 5805M | 5785M | 5765M | 5745M | 5725M |
+|    B    | 5733M | 5752M | 5771M | 5790M | 5809M | 5828M | 5847M | 5866M |
+|    E    | 5705M | 5685M | 5665M | 5645M | 5885M | 5905M | 5925M | 5945M |
+|    F    | 5740M | 5760M | 5780M | 5800M | 5820M | 5840M | 5860M | 5880M |
+|    R    | 5658M | 5695M | 5732M | 5769M | 5806M | 5843M | 5880M | 5917M |
+|    L    | 5362M | 5399M | 5436M | 5473M | 5510M | 5547M | 5584M | 5621M |
+
+
+Read more: https://manuals.plus/skyzone/steadyview-x-high-performance-receiver-manual#ixzz8Jp0IhZC8
+
+You can find the SteadyView+ELRS user manual and the SKY04X firmware [here][09].
+
+Sources:
 * [Skyzone Steadyview X Review](https://www.youtube.com/watch?v=IMRyGvRCT2o)
 * [NEW! Skyzone SteadyView X GroundStation Module: Analogue FPV is alive and well!](https://www.youtube.com/watch?v=OWhsxzaGRKI)
 * [My Analog FPV Ground Station](https://www.youtube.com/watch?v=F2AFC-iG6sU)
@@ -275,7 +311,7 @@ and [this video for RadioMaster Boxer][15].
 [06]:https://www.youtube.com/watch?v=mbHl3DgnN4k
 [07]:https://www.drone24hours.com/uncategorized/what-is-the-difference-between-rhcp-and-LHCP-antenna/?lang=en
 [08]:https://www.youtube.com/watch?v=JhxRcoPvkG8
-[09]:
+[09]:https://www.skyzonefpv.com/pages/download
 [10]:https://www.skyzonefpv.com/products/skyzone-steadyview-x-5-8ghz-ips-screen-receiver-module
 [11]:https://www.hp.com/au-en/shop/tech-takes/post/what-is-an-ips-monitor
 [12]:https://en.wikipedia.org/wiki/Jog_dial
@@ -283,8 +319,18 @@ and [this video for RadioMaster Boxer][15].
 [14]:https://www.expresslrs.org/hardware/backpack/esp-backpack/
 [15]:https://www.youtube.com/watch?v=ISzX80aK9T0
 [16]:
-[17]:
-[18]:
+[17]:https://www.arrl.org/ham-radio-licenses
+[18]:https://hamradioprep.com/find-an-exam-near-you/
 [19]:
 [20]:
+[21]:https://www.arrl.org/getting-your-technician-license
+[22]:https://www.arrl.org/part-97-text
+[23]:
+[24]:
+[25]:
+[26]:
+[27]:
+[28]:https://fpvfc.org/fpv-frequency-chart
+[29]:
+[30]:
 

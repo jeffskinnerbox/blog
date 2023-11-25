@@ -4,8 +4,6 @@ Version:      0.0.0
 -->
 
 
-
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
@@ -13,7 +11,7 @@ Version:      0.0.0
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/we-do-this-not-because-it-is-easy.jpg" title="U.S. President John F. Kennedy said this in his moon speech at Rice University in Houston, Texas, on September 12, 1962:
 
- We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
+We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
 </div>
 
 
@@ -38,11 +36,30 @@ Version:      0.0.0
 # Great Sources of Aviation Information
 * [SKYbrary](https://skybrary.aero/) is a wiki created by the European Organisation for the Safety of Air Navigation, International Civil Aviation Organization, and the Flight Safety Foundation to create a comprehensive source of aviation safety information freely available online.
 
-# Federal (FAA) Drone Laws
-# State of Virginia Drone Laws
-* [Drone Laws in Virginia (2023)](https://uavcoach.com/drone-laws-virginia/)
-* [The 4 Best Places to Fly a Drone Near Washington, D.C. (2023)](https://uavcoach.com/where-to-fly-drone/washington-dc/)
-* [Drone Laws in Virginia](https://drone-laws.com/drone-laws-in-virginia/)
+# Where Can I Learn About Building a Drone?
+* [How I REALLY configure my own quadcopter](https://www.youtube.com/watch?v=fC_EbT2J_m8)
+* [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
+
+* [How to Build a Drone | A DIY Guide](https://dojofordrones.com/build-a-drone/)
+* [How to Build a Drone](https://dronenodes.com/how-to-build-a-drone/)
+* [DIY drone: Learn How to Build Your Own Quadcopter Drone](https://interestingengineering.com/innovation/diy-drone-learn-how-to-build-your-own-quadcopter-drone)
+* [How to design Complete Drone Overview](https://grabcad.com/tutorials/how-to-design-complete-drone-overview)
+* [Street League: Build Guide](https://streetleague.io/build-guide/)
+
+* [The Top 6 Frames to 3D Print for Your DIY Drone](https://www.makeuseof.com/top-frames-to-3d-print-for-diy-drone/)
+* [Brushed Micro Quad Parts List](https://oscarliang.com/brushed-micro-quad-parts-list/)
+* [Exploring Ground-Effect With A Quadcopter](https://hackaday.com/2023/09/23/exploring-ground-effect-with-a-quadcopter/)
+
+* [Rotor Riot](https://rotorriot.com/)
+
+* [Ultimate Beginners Guide to Building A FPV Freestyle Drone](https://www.youtube.com/watch?v=5ed6y2rgaq8)
+* [How to make Fpv drone at home](https://www.youtube.com/watch?v=iZD_fAE8kZ8)
+
+* [How to Start Flying FPV DRONES in 2023](https://www.youtube.com/watch?v=GdkeR-66Ock)
+* [How To Build Budget Cinematic FPV Drone 2020](https://www.youtube.com/playlist?list=PLoPtpxJIxgnZ8oxpQ3GyTiOGzH-QLWnzn)
+* [ULTIMATE FPV Freestyle Drone Build - 2023 Step by Step](https://www.youtube.com/watch?v=6THiVUfn38Q)
+
+* [FPV Tools and Materials for Building Drones and Fixed Wings](https://oscarliang.com/fpv-tools/)
 
 
 
@@ -399,6 +416,10 @@ Check out how to do a build
 * [How I REALLY configure my own quadcopter](https://www.youtube.com/watch?v=fC_EbT2J_m8)
 * [6 Ways to RUIN Your FPV Drone!](https://www.youtube.com/watch?v=Z5qyrMmWzrE)
 
+Check out where to buying
+* [AOS RC](https://www.aos-rc.com/)
+* [CNC Drones](https://www.cncdrones.com/)
+
 ## Tiny Whoop
 * 65mm Tiny Whoops - the classic FPV quadcopter used for indoor racing.
     * Build Video - [DIY - Build a Micro Racing FPV Drone for $120 / in 2023](https://www.youtube.com/watch?v=0K-GTuGI6AI)
@@ -465,6 +486,10 @@ SkyLite 3"
     * Build Video - [Beginner DIY FPV Drone Kit - QAV-S 2 Joshua Bardwell SE 5” - HD Ready](https://www.getfpv.com/beginner-diy-fpv-drone-kit-qav-s-2-joshua-bardwell-se-5-hd-ready.html)
 
 ## 5" Racer
+FPV Multi-Rotor Racing Classes:
+* Micro/150mm Class (measured as the farthest diagonal distance between two motorshafts)
+* 250mm Class (measured as the farthest diagonal distance between two motorshafts)
+
 This is the “standard size” for FPV racing drones.
 
 
@@ -729,301 +754,6 @@ Toothpick class quads are ultra-light weights that have an AUW of under 100g.
 
 
 
-# FPV Advocacy Groups
-* [Academy Of Model Aeronautics (AMA)](https://www.modelaircraft.org/) - AMA is a nonprofit community of enthusiasts who come together to celebrate model aviation.
-* [FPV Freedom Coalition](https://fpvfc.org/) - The FPV Freedom Coalition was created to advocate for recreational FPV pilots through education and safety guidelines to protect our access to ample airspace. Through this, we protect the ability of FPV pilots to fly and to do so safely, armed with the knowledge that they need to interact with the general public in a positive and respectful way. Together, we seek to unite the community into a single voice through which our concerns and needs can be heard.
-* [Flite Test Community Association (FTCA)](https://ftca.flitetest.com/) - FTCA is designed to be the hub where the people identifying with the community can rally together to promote the future of model aviation. Our vision is simple, we want to bring hope for the future of the hobby.
-* [Pilot Institute](https://pilotinstitute.com/) - The Pilot Institute have helped over 250,000 people become airplane and drone pilots. Their courses are designed by industry experts to help you pass FAA tests for s starting a drone business or learning to fly.
-
-* [Should you join the AMA? What about the FPV Freedom Coalition (Dave Messina Interview)](https://www.youtube.com/watch?v=4SQgqLSpNEM)
-
-# Where can I Find Local FRIA Sites?
-Where can I find a [FAA-Recognized Identification Areas (FRIAs)][11] sites?
-While the FAA promises to maintain a [list of FAA approved FRIA sites][42], they appear to be struggling to keep it up to date.
-A potentially better alternative is to search the [AMA's list of FRIA Sites](https://www.modelaircraft.org/fria-flying-sites)
-(or using "search" at [AMA Club Flying Site](https://www.modelaircraft.org/club-finder)).
-Another possibility are school based organizations like [STEM+C sites](https://stemplusc.org/stemc-cbo/)
-
-# What Are My Local FRIA Sites?
-Make sure all your aircraft over 250gm have you name, AMA number,and FAA number are
-visible on the outside  of your aircraft, and obey the 400 ft altitude limit for flying within the
-Washington DC area and the National Capital Region Special Flight Rules Area (SFRA).
-
-* [Loudoun County Aeromodelers Association (LCAA)](https://lcaa.org/)
-    * [Loudoun County Aeromodelers Association (LCAA)](https://www.modelaircraft.org/club/loudoun-county-aeromodelers-association)
-    * [Loudoun County Aeromodelers Association - Banshee Reeks Nature Preserve](https://www.modelaircraft.org/site/loudoun-county-aeromodelers-association-banshee-reeks-nature-preserve)
-* [Ida Lee Park, Leesburg VA](https://www.leesburgva.gov/departments/parks-recreation/town-parks/uas-and-rocket-flights)
-* [DCRC Club](https://www.modelaircraft.org/club/dcrc-club)
-* [Plane Crazy R/Cers](https://www.modelaircraft.org/club/plane-crazy-rcers)
-
-* [Leesburg Executive Airport: Drone Flight Notification](https://www.leesburgva.gov/departments/airport/contact-airport-staff/drone-flight-notification)
-
-## Where Can I Find a Local FPV Community?
-[MultiGP](https://www.multigp.com/)
-is the World's largest Drone Racing League & FPV Community.
-MultiGP chapters welcome all pilots regardless of their skill levvel.
-
-[Northern Virginia Radio Control](https://www.multigp.com/chapters/view/?chapter=Northern-Virginia-Radio-Control)
-
-
-
--------
-
-
-
-# FAA Regulations / Where Can I Fly?
-The legal flying space and FAA direction can be confusing, and frankly, are evolving.
-
-## What About FAA Registration?
-Anyone flying a drone is responsible for flying within FAA guidelines and regulations.
-That means it is up to you as a drone pilot to know the Rules of the Sky, and where it is and is not safe to fly.
-
-There are 3 ways how drone pilots can operate their aircraft:
-
-1. Operate a Standard Remote ID Drone. Such a drone has built-in Broadcast Remote ID functionality and can transmit identification and location information of the drone and control station according to the FAA requirements.
-2. Pilots of other drones, older or custom, must use a Broadcast Remote ID device attached to the drone chassis or one that comes in the form of an upgrade integrated with the drone. These drones must be operated within a visual line of contact with their pilots (VLOS) and transmit Broadcast Remote ID according to FAA requirements.
-3. UAS operations without Remote ID equipment are only allowed at [FAA-Recognized Identification Areas (FRIAs)][11]. Community-based organizations or schools run these areas.
-
-No FAA or Remote ID Registration
-
-You must use the paper (N-number) registration process if:
-* recreational drones/unmanned aircraft that weigh 0.55 pounds (250 grams) or more and all drones flying under Part 107.
-
-* [Getting Started: Congratulations on your new drone!](https://www.faa.gov/uas/getting_started)
-* [Federal Aviation Administration (FAA): FAADroneZone][09]
-* [Mobile App: B4UFLY by Aloft](https://play.google.com/store/apps/details?id=gov.faa.b4ufly2&form=MY01SV&OCID=MY01SV)
-* [Web App: B4UFLY by Aloft](https://b4ufly.aloft.ai)
-* [Mobile App: Drone Scanner](https://play.google.com/store/apps/details?id=cz.dronetag.dronescanner&hl=en_US&gl=US)
-* [First Person View Freedon Coalition (FPVFC)](https://fpvfc.org/)
-Dronescanner
-OpenDroneID
-
-## What About Global Registration?
-This database is comprised of a country directory with summaries and/or links to national drone laws. The objective is to provide humanitarian and non-humanitarian actors with a database of relevant national regulations, additional resources, and links to original regulatory documents to ensure that drones are deployed safely and in compliance with national regulations.
-* [Global Drone Regulations Database](https://droneregulations.info/)
-
-## What is Remote ID?
-* [What is Remote ID?](https://drone-remote-id.com/)
-* [RemoteID: Fight It? Ignore It? Comply with it?! Turns out it doesn't matter.](https://www.youtube.com/watch?v=Kt_uEgF5ikE&t=0s)
-* [TOP 18 Remote ID for Drones Questions ANSWERED -LIVE with the FAA](https://www.youtube.com/watch?v=_GkvNlRYtqc)
-
-* [A RemoteID module. Made by RC pilots. For RC pilots // FLITE TEST EZ ID](https://www.youtube.com/watch?v=l-gT53DdNHE)
-
-In the USA, March 16, 2024 (originally September 16, 2023):
-All drone pilots must meet the operating requirements of Part 89. For most, this will mean:
-Flying a drone with Remote ID capability (Standard Remote ID Drone)
-Equipping a non-Standard Remote ID drone with an Remote ID broadcast module (add-on device)
-Flying within FRIA (learn more about FRIA here)
-
-The only exception is using non-commercial drones below 249 grams (0.55 lb). Remote ID for these “small” drones is only required if the drone is operated under rules that require registration, such as Part 107.
-
-### Can I Build My Own Remote ID?
-* [RemoteID Cloaking Device How-To! Spoofer generates fake RemoteID signatures!](https://www.youtube.com/watch?v=Q8jn_6EmYxE)
-* [RIDS - Remote ID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer)
-
-### What Must Be Done for FAA Compliance?
-If you drone is less than 0.55 pounds, there are no regulations.
-However, in order to fly drone over 0.55 pounds, there are FAA rules you must complie with.
-The rule for operating unmanned aircraft systems (UAS) or drones under 55 pounds
-in the National Airspace System (NAS) is [14 CFR Part 107][07],
-referred to as the Small UAS Rule.
-To understand what FAA rules apply to your drone,
-the FAA has an online tool "[What Kind of Drone Flyer Are You?][08]"
-This tool points me to "[Fly under the rules for Recreational Flyers and Community Based Organizations][06]".
-
-However, if you want to fly a drone for purely recreational purposes,
-there is a limited statutory exception ("carve out") that provides a basic set of requirements.
-What must you do:
-
-* **Take the TRUST exam** -
-You must obtain a Remote Pilot Certificate (TRUST) from the FAA.
-This certificate demonstrates that you understand the regulations, operating requirements, and procedures for safely flying drones.
-* **Register your drone** -
-* **Use Remote ID** -
-* **Use the B4UFLY mobile app** -
-
-https://www.youtube.com/watch?v=DmUryg09OKQ
-Rule 1: Fly Strictly for Recreational Purposes (4:11)
-Rule 2: Community Based Organization Guidelines (6:11)
-Rule 3: Maintain Visual Line of Sight (7:06)
-Rule 4: Do Not Interfere (8:21)
-Rule 5/6: Get Authorization (8:54)
-Rule 7: TRUST Certification (10:01)
-Rule 8: Register Your Drone (11:06) .................... free registration stickers - https://pilotinstitute.com/free/
-Rule 9: Don't Do Dangerous Operations (12:23)
-
-That is it.
-Below are some of details to address these three tasks.
-
-### What is B4UFLY?
-B4UFLY can notify a drone pilot if the FAA has restrict access to certain volumes of airspace
-where drones or other aircraft are not permitted to fly without special permission.
-Drone pilots should be familiar with:
-
-* **Prohibited Areas** Prohibited area. A prohibited area is airspace within which no person may operate an aircraft without the permission of the using agency.
-* **Restricted Areas** A restricted area is airspace within which the flight of aircraft, while not wholly prohibited, is subject to restriction. Restricted areas are designated when determined necessary to confine or segregate activities considered hazardous to nonparticipating aircraft.
-* **Temporary Flight Restrictions (TFRs)** TFRs are defined areas of airspace where the FAA limits aircraft operations because of:
-    * Temporary hazardous conditions, such as a wildfire, hurricane, or chemical spill.
-    * A security-related event, such as the United Nations General Assembly.
-    * Other special situations, like VIP movement.
-
-* [Operating Restrictions](https://www.faa.gov/uas/getting_started/where_can_i_fly/airspace_restrictions/tfr)
-* [Web App: B4UFLY by Aloft](https://b4ufly.aloft.ai)
-* [B4UFLY Check the Map Episode 1: Drone Operations Near Small Airports in Uncontrolled Airspace](https://www.youtube.com/watch?v=74hO2IgijG0)
-* [B4UFLY Check the Map Episode 2 Beginner’s Guide to Getting Your Drone Off the Ground On Demand](https://www.youtube.com/watch?v=DmUryg09OKQ)
-* [B4UFLY Check the Map Part 3: Restricted Airspaces Webinar On-Demand](https://www.youtube.com/watch?v=XZ_oMYGr7Uo)
-* [B4UFLY & LAANC Tutorials](https://www.youtube.com/watch?v=bEFuIpC9lTk&list=PLghwttwDCA46RbCv6Ry_KU0Y5hmc4v4Hg)
-
-### What is LAANC?
-* [LAANC Made Easy - How obtain authorization to fly drones in FAA controlled airspace](https://www.youtube.com/watch?v=dT6dwhw7aZs)
-### What is Notify & Fly?
-
-### The Recreational UAS Safety Test (TRUST)
-Anyone flying their drone in the United States for recreational reasons needs to
-pass [The Recreational UAS Safety Test (TRUST)][04] exam to legally fly.
-The exam is online, takes about 30 minutes, and is free of charge.
-You must download and print your certificate immediately upon finishing.
-There are multiple [approved Test Administrators][05] to provide TRUST as an online test.
-While flying and asked by law enforcement officers,
-you must present a copy of your certificate.
-If you lose your certificate, you will need to re-take the TRUST exam.
-
-To pass the TRUST exam, you need to understand recreational flying requirements.
-Visit the FAA's Recreational Flyers page to [learn about rules for recreational flyers][06].
-Download the FAA's B4UFLY mobile app for more recreational drone flying resources.
-
-* [TRUST Exam: Pilot Institute](https://trust.pilotinstitute.com/)
-
-### Drone FAA Registration
-Regulations DO apply to ALL model aircraft, even those under .55 pounds.
-There is no lower weight limit exemption.
-If your drone is between .55 pounds (250 grams) and 55 pounds (25 kilograms),
-you must register your drone through the [FAA's Drone Zone][09],
-and the registration number must be present on the outside of your drone.
-
-.............. free registration stickers - https://pilotinstitute.com/free/
-
-### Commercial Drone Pilot Require Part 107 Certification
-You do not need a drone license when you fly your drone strictly for fun as a hobby, recreational use (no side jobs or in-kind work allowed).
-You’ll need an FAA-issued Part 107 Certificate to start piloting commercial drone flights for work or business.
-In order to fly your drone under the FAA 's Small UAS Rule (Part 107), you must obtain a Remote Pilot Certificate from the FAA . This certificate demonstrates that you understand the regulations, operating requirements, and procedures for safely flying drones
-
-* [Drone License: A Step-by-Step Guide to FAA Part 107 Certification for U.S. Commercial Drone Pilots](https://uavcoach.com/drone-certification/)
-* [Part 107 Made Easy.](https://pilotinstitute.com/course/part-107-remote-pilot/)
-
-### Remote ID Rules for Home-Built FPV Drones
-A person designing or producing a Standard Remote ID drone or broadcast module for operation in U.S. airspace must show that they have met the requirements of the Remote ID rule by following an FAA-accepted Means of Compliance (MOC). A Means of Compliance describes the methods by which the person complies with the performance-based requirements for Remote ID.
-* [Remote ID for Industry and Standards Bodies](https://www.faa.gov/uas/getting_started/remote_id/industry)
-
-_Also, producers of a kit that contains all of the parts and instructions necessary for a drone must meet the production requirements of the Remote ID rule and submit a Declaration of Compliance. The person that puts together a "kit" drone does not need to submit a Declaration of Compliance if they are building it for their own recreation or education but must still meet the operational requirements of the Remote ID rule when flying it._
-
-* [Remote ID Modules for Drones: Everything You Need to Know](https://pilotinstitute.com/remote-id-modules/)
-* [OpenDroneID](https://ardupilot.org/dev/docs/opendroneid.html#opendroneid)
-* [Remote ID Rules for Home-Built FPV Drones](https://pilotinstitute.com/homebuilt-remote-id-rules/)
-* [Is your drone flight Remote ID compliant? 4 ways to know](https://www.thedronegirl.com/2023/04/21/is-your-drone-flight-remote-id-compliant/)
-* [Google Search: Remote ID](https://www.google.com/search?q=+Remote+ID+Module&sca_esv=568076549&cs=1&sxsrf=AM9HkKmzZTlBfmSs4bjfXsZBGrqlIx961g%3A1695743424389&ei=wP0SZcWaF9PU5NoP7Z-RyAU&ved=0ahUKEwjF-sLD0MiBAxVTKlkFHe1PBFkQ4dUDCBA&uact=5&oq=+Remote+ID+Module&gs_lp=Egxnd3Mtd2l6LXNlcnAiESBSZW1vdGUgSUQgTW9kdWxlMgoQABiKBRixAxhDMggQABiKBRiRAjIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAESLsSUPALWPALcAF4AZABAJgBVqABVqoBATG4AQPIAQD4AQHCAgoQABhHGNYEGLAD4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp)
-* [Google Search: how to make your own Remote ID](https://www.google.com/search?q=how+to+make+your+own+Remote+ID&sca_esv=568238426&sxsrf=AM9HkKn2gtL2zWHy-Ob4L0lT-aOoPXRa9A%3A1695662165457&ei=VcARZd67G7DQ5NoPsZ-MoAo&ved=0ahUKEwieup_oocaBAxUwKFkFHbEPA6QQ4dUDCBA&uact=5&oq=how+to+make+your+own+Remote+ID&gs_lp=Egxnd3Mtd2l6LXNlcnAiHmhvdyB0byBtYWtlIHlvdXIgb3duIFJlbW90ZSBJRDIIECEYoAEYwwRInTZQyAxY-zJwAXgBkAEAmAGRAaAB3w2qAQQxOC4zuAEDyAEA-AEBwgIHECMYsAMYJ8ICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIOEAAY5AIY1gQYsAPYAQHCAhYQLhiKBRjHARjRAxjIAxiwAxhD2AECwgITEC4YigUY5QQYyAMYsAMYQ9gBAsICBxAjGLACGCfCAgcQABgNGIAEwgIGEAAYBxgewgIFEAAYgATCAgYQABgIGB7CAgQQABgewgIIEAAYCBgHGB7CAgYQABgeGA3CAggQABgIGB4YDcICChAAGAgYHhgNGArCAggQABiKBRiGA8ICBRAAGKIEwgIIEAAYiQUYogTCAgoQIRigARjDBBgK4gMEGAAgQYgGAZAGE7oGBggBEAEYCboGBggCEAEYCA&sclient=gws-wiz-serp)
-
-## Where can I Fly?
-FAA rules apply to the entire National Airspace System -- there is no such thing as "unregulated" airspace. Drone operators should be familiar with the difference between controlled and uncontrolled airspace, and where you can legally fly. Controlled airspace is found around some airports and at certain altitudes where air traffic controllers are actively communicating with, directing, and separating all air traffic. Other airspace is considered uncontrolled in the sense that air traffic controllers are not directing air traffic within its limits.
-
-In general, you can only fly your drone in uncontrolled airspace below 400 feet above the ground (AGL).
-
-* [Where Can I Fly?](https://www.faa.gov/uas/getting_started/where_can_i_fly)
-* [No Drone Zone](https://www.faa.gov/uas/resources/community_engagement/no_drone_zone)
-* [Airspace 101 – Rules of the Sky](https://www.faa.gov/uas/getting_started/where_can_i_fly/airspace_101)
-* [B4UFLY App](https://www.faa.gov/uas/getting_started/b4ufly)
-
-If your drone doesn't have Remote ID capabilities, you’re not out of flying options completely.
-You can fly a drone without Remote ID capabilities in a [FAA-Recognized Identification Area (FRIA)][11].
-These are geographic areas (typically open fields and fairgrounds) that are recognized by the FAA where unmanned aircraft not equipped with Remote ID are still allowed to fly.
-hese tend to be sites like fields owned by flying clubs, model aircraft groups or universities, so link up with a local group to help request more sites.
-The FAA has a map through ArcGIS that can be a bit cumbersome to navigate. But, if you click the layer tab and select the boxes for “Recreational Flyer Fixed Sites,” they display quite nicely.
-https://faa.maps.arcgis.com/apps/webappviewer/index.html?id=9c2e4406710048e19806ebf6a06754ad
-
-FRIA applications are limited to [FAA-Recognized Community Based Organizations][12] educational institutions like primary and secondary schools, trade schools, colleges, universities,
-and non-profit groups that are 501(c) or 501(a) in the Internal Revenue Code.
-
-I live in the Washington DC area and the National Capital Region is governed by a Special Flight Rules Area (SFRA).
-Specifically a 30-mile radius of Ronald Reagan Washington National Airport,
-which restricts all flights in the greater DC area.
-The airspace around Washington, D.C. is more restricted than in any other part of the country. Rules put in place after the 9/11 attacks establish "national defense airspace" over the area and limit aircraft operations to those with an FAA and Transportation Security Administration authorization. Violators face stiff fines and criminal penalties.
-
-The the DC area SFRA is divided into a 15-mile radius inner ring and a 30-mile radius outer ring.
-Specifically, the FAA state.... [DC Area Prohibited & Restricted Airspace](https://www.faa.gov/uas/resources/community_engagement/no_drone_zone/dc)
-
-1. Flying an unmanned aircraft within the 15-mile radius inner ring is prohibited without specific FAA authorization.
-2. Flying a drone for recreational or non-recreational use between 15 and 30 miles from Washington, D.C. is allowed under these operating conditions:
-    * Aircraft must weigh less than 55 lbs. (including any attachments such as a camera)
-    * Aircraft must be registered and marked
-    * Fly below 400 ft.
-    * Fly within visual line-of-sight
-    * Fly in clear weather conditions
-    * Never fly near other aircraft
-
-## How Do I Assure Where and How I'm Flying is Safe and Allowed?
-Recreational pilots must know where they are flying with respect to authorized airspace.
-Download the FAA's B4UFLY mobile app
-Download the FAA's B4UFLY mobile app for more recreational drone flying resources.
-
-* [Safety Guidelines for Recreational Fliers](https://ftca.flitetest.com/safety-guidelines/)
-
-* [FAA’s UAS Data Delivery System](https://udds-faa.opendata.arcgis.com/)
-* [See FAA UAS Data on a Map](https://faa.maps.arcgis.com/apps/webappviewer/index.html?id=9c2e4406710048e19806ebf6a06754ad)
-    * UAS Flight Restrictions are shown as red polygons. UAS Flight Restrictions apply to all UAS flight operations, and remain in effect 24 hours a day, 7 days a week.
-
-Fly at or below 400 feet in Class G (uncontrolled) airspace.
-Note: Anyone flying a drone in the U.S. National Airspace System (NAS) is responsible for flying within the FAA guidelines and regulations. That means it is up to you as a drone pilot to know the rules: Where Can I Fly?
-
-Class G airspace (uncontrolled) is that portion of airspace that has not been designated as Class A, Class B, Class C, Class D, or Class E airspace. Rules governing VFR flight have been adopted to assist the pilot in meeting the responsibility to see and avoid other aircraft.
-Class Golf (Class G) airspace is the uncontrolled "govern free" airspace which is void from Air Traffic Control (ATC) jurisdiction
-Class G airspace supports both Instrument Flight Rules (IFR) and Visual Flight Rules (VFR) operations within
-https://www.cfinotebook.net/notebook/national-airspace-system/class-golf-airspace
-https://www.cfinotebook.net/notebook/national-airspace-system/national-airspace-system
-
-[Leesburg VA airport has a Class E airspace](https://www.federalregister.gov/documents/2014/01/03/2013-31062/establishment-of-class-e-airspace-leesburg-va).
-Leesburg is also within the [DC Area Prohibited & Restricted Airspace](https://www.faa.gov/uas/resources/community_engagement/no_drone_zone/dc)
-but outside the 15-mile radius inner ring that prohibits drone flying without specific FAA authorization
-You can fly a drone in the Class G airspace around the Leesburg airport.
-Only airports located in Class A, B, C, D, & E2 controlled airspace require LAANC authorizations to operate near or around.
-Read more about Class E airspace [here](https://www.aloft.ai/blog/class-e-airspace-and-laanc/).
-
-[Leesburg Appeals to FAA on Remote Tower Shutdown](https://www.loudounnow.com/news/leesburg-appeals-to-faa-on-remote-tower-shutdown/article_fb867388-c33d-11ed-a97a-efa712d08176.html)
-
-* [Can I fly my drone near small airports in Class G uncontrolled airspace?](https://www.aloft.ai/blog/can-i-fly-my-drone-near-small-airports-in-class-g-uncontrolled-airspace/)
-
-## What is a No Drone Zone?
-The FAA uses the term "[No Drone Zone][10]" to help people identify areas where they cannot operate a drone or unmanned aircraft system (UAS). The operating restrictions for a No Drone Zone are specific to a particular location. You can find out if there are airspace restrictions where you are planning to fly using the B4UFLY mobile app.
-
-## Where Can I Learn About Building a Drone?
-* [How I REALLY configure my own quadcopter](https://www.youtube.com/watch?v=fC_EbT2J_m8)
-* [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
-
-* [How to Build a Drone | A DIY Guide](https://dojofordrones.com/build-a-drone/)
-* [How to Build a Drone](https://dronenodes.com/how-to-build-a-drone/)
-* [DIY drone: Learn How to Build Your Own Quadcopter Drone](https://interestingengineering.com/innovation/diy-drone-learn-how-to-build-your-own-quadcopter-drone)
-* [How to design Complete Drone Overview](https://grabcad.com/tutorials/how-to-design-complete-drone-overview)
-* [Street League: Build Guide](https://streetleague.io/build-guide/)
-
-* [The Top 6 Frames to 3D Print for Your DIY Drone](https://www.makeuseof.com/top-frames-to-3d-print-for-diy-drone/)
-* [Brushed Micro Quad Parts List](https://oscarliang.com/brushed-micro-quad-parts-list/)
-* [Exploring Ground-Effect With A Quadcopter](https://hackaday.com/2023/09/23/exploring-ground-effect-with-a-quadcopter/)
-
-* [Rotor Riot](https://rotorriot.com/)
-
-* [Ultimate Beginners Guide to Building A FPV Freestyle Drone](https://www.youtube.com/watch?v=5ed6y2rgaq8)
-* [How to make Fpv drone at home](https://www.youtube.com/watch?v=iZD_fAE8kZ8)
-
-* [How to Start Flying FPV DRONES in 2023](https://www.youtube.com/watch?v=GdkeR-66Ock)
-* [How To Build Budget Cinematic FPV Drone 2020](https://www.youtube.com/playlist?list=PLoPtpxJIxgnZ8oxpQ3GyTiOGzH-QLWnzn)
-* [ULTIMATE FPV Freestyle Drone Build - 2023 Step by Step](https://www.youtube.com/watch?v=6THiVUfn38Q)
-
-* [FPV Tools and Materials for Building Drones and Fixed Wings](https://oscarliang.com/fpv-tools/)
-
-
-
-
-
 ## Where Can I Learn About Flying a Drone?
 * [Drone Programming With Python Course | 3 Hours | Including x4 Projects (2021)](https://www.youtube.com/watch?v=LmEcyQnfpDA)
 * [Learn Multirotors From First Principles](https://hackaday.com/2021/04/11/learn-multirotors-from-first-principles/)
@@ -1032,11 +762,6 @@ The FAA uses the term "[No Drone Zone][10]" to help people identify areas where 
 * [FPV Freedom Coalition](https://fpvfc.org/)
 * [FPV Trick Tutorials!](https://www.youtube.com/watch?v=QnQH5U-XTpU&list=PLBlZ_AJ8LoaNWUhWPM2Owwjqkzhht0dR3)
 * [How To 10 FPV Freestyle Tricks | LEARN THESE FIRST](https://www.youtube.com/watch?v=0EqJ9C8KuTQ)
-
-## Where Can I Drone Flying Community?
-* [Flite Test Community Association (FTCA)](https://ftca.flitetest.com/)
-* [Street League](https://streetleague.io/)
-* [Tiny Whoop][15]
 
 
 ## 4S or 6S Battries?
@@ -1202,9 +927,6 @@ which can have significant effects on the performance of the aircraft, particula
 
 # RC Link Protocol
 * [ExpressLRS: Open Source, Low Latency, Long Range RC Protocol](https://hackaday.com/2021/01/19/expresslrs-open-source-low-latency-long-range-rc-protocol/)
-
-# Regulations / FAA Rules
-* [Federal Aviation Administration Announces Major Drone Rule Changes](https://hackaday.com/2020/12/29/federal-aviation-administration-announces-major-drone-rule-changes/)
 
 # Drones
 * [8 open source drone projects](https://opensource.com/article/18/2/drone-projects)
@@ -1444,14 +1166,14 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 [02]:https://thedroneracingleague.com/learn-more/
 [03]:https://en.wikipedia.org/wiki/Theory_of_operation
 [04]:https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates
-[05]:https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates#TAs
+[05]:
 [06]:https://www.faa.gov/uas/recreational_flyers
 [07]:https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107
 [08]:https://www.faa.gov/uas/getting_started/user_identification_tool
-[09]:https://faadronezone-access.faa.gov/#/
-[10]:https://www.faa.gov/uas/resources/community_engagement/no_drone_zone
-[11]:https://www.faa.gov/uas/getting_started/remote_id/fria
-[12]:https://www.faa.gov/uas/recreationalfliers/faa-recognized-community-based-organizations
+[09]:
+[10]:
+[11]:
+[12]:
 [13]:https://oscarliang.com/best-tiny-whoop/
 [14]:https://github.com/betaflight/betaflight-configurator/releases
 [15]:https://www.tinywhoop.com/
