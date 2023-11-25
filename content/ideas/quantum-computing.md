@@ -62,6 +62,11 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
 
 * [Mike Davies: Realizing the Promise of Spiking Neuromorphic Hardware](https://www.youtube.com/watch?v=jhQgElvtb1s)
 
+## Computable and Not-Computable
+* [The Boundary of Computation](https://www.youtube.com/watch?v=kmAc1nDizu0)
+    * [The Most Difficult Program to Compute? - Computerphile](https://www.youtube.com/watch?v=i7sm9dzFtEI)
+    * [Busy Beaver Turing Machines - Computerphile](https://www.youtube.com/watch?v=CE8UhcyJS0I)
+
 # What is Quantum Computation?
 * [The Quantum Computing Advantage](https://www.youtube.com/watch?v=PXQ-sh07eBw)
 * Using Scratch: [Scratch Quantum Computer](https://scratch.mit.edu/projects/875118011/editor/)
