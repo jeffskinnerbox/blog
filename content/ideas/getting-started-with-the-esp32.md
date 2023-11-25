@@ -258,6 +258,7 @@ and to create IoT applications.
     * [ESP32 RTOS SDK API Reference](https://github.com/espressif/ESP31_RTOS_SDK/tree/master/documents)
     * [ESP32 Other Resources (Espressif/Documentation)](https://espressif.com/en/products/hardware/esp32/resources)
     * [ESP32 Other Resources (esp32.net)](http://esp32.net/)
+    * [ESP32 Used As Wireless CAN Bus Reader](https://hackaday.com/2023/11/22/esp32-used-as-wireless-can-bus-reader/)
 
 # Toolchain
 The Espressif Internet Development Framework (ESP-IDF) is core development tool-chain for the ESP32 chip. It includes the compiler, programming tools and various software components that enable software development on the chip.
