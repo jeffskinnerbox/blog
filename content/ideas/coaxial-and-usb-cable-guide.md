@@ -226,6 +226,12 @@ USB-C Power Delivery (PD) is a fast charging technology, supported by certain iO
 PPS and PD protocols work together where the former can renegotiate non-standard currents and voltages between the device and the charger.
 * [USB Power Delivery explained: What you need to know about ubiquitous charging](https://www.androidauthority.com/usb-power-delivery-806266/)
 
+# USB-C PD Sniffer
+USB-C cables need to actively tell both ends what their capabilities are, which turns an otherwise passive device into a hidden chip in a passive looking cable.
+This device "sniffs out" what are the power delivery (PD) capabilities of the USB-C cable.
+
+* [Freshening Up Google’s USB-C PD Sniffer](https://hackaday.com/2023/11/22/freshening-up-googles-usb-c-pd-sniffer/)
+
 ## Quick Charge (QC)
 This technology powers your devices faster than conventional charging, allowing you to spend less time connected to outlets.  As one of the most widely used of the fast charging technologies, Quick Charge is already in many of your favorite smartphones.  If your smartphone is Quick Charge 3.0-compatible, you can charge up to 80% in just 35 minutes.
 Quick Charge 4+ is expected to work with USB Power Delivery, enabling Quick Charge accessories to fast charge a wider array of devices.  On the other hand, Quick Charge 5 is the latest in Quick Charge standards and can recharge smartphones up to 50% in just 5 minutes.
