@@ -51,6 +51,11 @@ Version:      0.0.0
 
 * [Mini Laser Distance Range Sensor (4m, I2C, IP67)](https://www.dfrobot.com/product-2727.html)
 
+## Getting More Out of Time of Flight Distance Sensors
+* [Unlocking the Performance of Proximity Sensors by Utilizing Transient Histograms](https://www.youtube.com/watch?v=vJdfpmd6OE0)
+    * [Unlocking the Performance of Proximity Sensors by Utilizing Transient Histograms](https://cpsiff.github.io/unlocking_proximity_sensors/index.html)
+    * [Github: uwgraphics/ProximityPlanarRecovery](https://github.com/uwgraphics/ProximityPlanarRecovery)
+
 # Walking Speed
 * [Measuring Walking Speed Wirelessly](http://hackaday.com/2017/05/10/measuring-walking-speed-wirelessly/)
 
