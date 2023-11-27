@@ -27,6 +27,16 @@ Version:      0.0.0
 * [The most beautiful function in Math: Sinc](https://www.youtube.com/watch?v=CGsvq_eAJYo)
 * [What Does x¹⁰⁰ + y¹⁰⁰ = 1 Look Like?](https://barryleung.medium.com/what-does-x%C2%B9%E2%81%B0%E2%81%B0-y%C2%B9%E2%81%B0%E2%81%B0-1-look-like-fd2719e7028a)
 
+
+
+
+
+
+
+# What is Proof
+* [Scott Aaronson "On the Nature of Proof"](https://www.youtube.com/watch?v=tpOHKaocMuM)
+* [The story of mathematical proof – with John Stillwell](https://www.youtube.com/watch?v=S1AEWuCFq6A)
+
 # 2022 Nobel Prize in Physics
 Bell Test and its proof of entanglement.
 ([Bell’s Theorem: The End of Hidden Variables?](https://medium.com/quantum-untangled/bells-theorem-the-end-of-hidden-variables-43defb2fe0b9))
@@ -556,6 +566,7 @@ A function is a relation that uniquely associates members of one set with member
 * [What are complex numbers](https://medium.com/@zsolt.gkiss/there-is-no-such-thing-as-1-4848b7e2380)
 
 # What is Randomness?
+* [Professor Avi Wigderson on a computational theory of randomness](https://www.youtube.com/watch?v=ZzsFb-6wvoE)
 * [The Incredible Story Of Randomness](https://www.youtube.com/watch?v=iT20A4KQxyM)
 * [What is Random?](https://www.youtube.com/watch?v=9rIy0xY99a0)
 * [What is NOT Random?](https://www.youtube.com/watch?v=sMb00lz-IfE)
@@ -1078,6 +1089,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
     * [DNA computing](https://en.wikipedia.org/wiki/DNA_computing)
 
 # Computation - P vs NP vs NP-Complete vs NP-Hard
+* [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE)
 * [P vs NP — The Biggest Unsolved Problem in Computer Science](https://www.cantorsparadise.com/p-vs-np-the-biggest-unsolved-problem-in-computer-science-2465e14d9b9f)
 * NP-Complete Problems: [The Secret Link Between Thousands of Unsolved Math Problems](https://www.youtube.com/watch?v=ctwX--JEzSA)
 * [How To Understand Computational Irreducibility](https://streetscience.net/how-to-understand-the-computational-irreducibility/)
