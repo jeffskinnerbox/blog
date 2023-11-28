@@ -40,6 +40,7 @@ Sources:
 * [How to Home Lab](https://www.dlford.io/tag/home-lab/)
 * [Building a Homelab VM Server (2020 Edition)](https://mtlynch.io/building-a-vm-homelab/)
 * [The Homelab Wiki](https://thehomelab.wiki/)
+* [Which Server Rack Is Suitable For A Home Lab?](https://robots.net/tech/which-server-rack-is-suitable-for-a-home-lab/)
 
 
 ## Components of a Homelab
