@@ -2342,12 +2342,36 @@ to make use of the Ansible Playbook:
 ```bash
 ```
 
+### Step X: Ansible Configuration Settings
+Ansible supports several sources for configuring its behavior (see [here](https://docs.ansible.com/ansible/latest/reference_appendices/config.html))
+The `ansible-config` utility allows users to see all the configuration settings available,
+their defaults, how to set them and where their current value comes from.
+See [`ansible-config` man page](https://docs.ansible.com/ansible/latest/cli/ansible-config.html#ansible-config) for more information.
+
+The Ansible configuration file can be placed in multiple location but I recommend `$HOME`.
+As a starting point for you own configuration file,
+You can generate a fully commented-out example `$HOME/.ansible.cfg` file via the following:
+
+```bash
+# you can generate a fully commented-out file via the following
+ansible-config init --disabled > $HOME/.ansible.cfg
+
+# you can also have a more complete file that includes existing plugins
+ansible-config init --disabled -t all > $HOME/.ansible.cfg
+
+# set your environment in you shell configuration
+export ANSIBLE_CONFIG=$HOME/.ansible.cfg
+
+# for security
+chmod go-rwx $HOME/.ansible.cfg
+```
+
 ### Step X: Creating Hosts File
 Ansible needs to know your remote server names or IP address.
-This information is stored in a file called `hosts` and often refered to as your "inventory".
+This information is stored in a file called `hosts` and often referred to as your "inventory".
 The default file is `/etc/ansible/hosts`.
 You can edit this one or create a new one in your `$HOME` directory,
-or better yet, place the `hosts` file in your projects directory referance it
+or better yet, place the `hosts` file in your projects directory reference it
 on the command-line when running ansible.
 
 ### Step X: Update and Reboot
