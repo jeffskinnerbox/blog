@@ -31,6 +31,9 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 * [moving ALL of my Automations from Home Assistant to Node Red Ep1 - Presence Detection](https://www.youtube.com/watch?v=xvQr6n31A4s)
 
 
+# Picking Devices for Home Assistant Integration
+* [How to judge devices for your home](https://building.open-home.io/how-to-judge-devices-for-your-home/)
+* [Home Assistant Integrations](https://www.home-assistant.io/integrations#all)
 
 # Matter
 * [Matter: The Future of the Smart Home?](https://hometechhacker.com/matter-the-future-of-the-smart-home/)
