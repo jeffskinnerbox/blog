@@ -822,6 +822,9 @@ indefinitely in the field through the use of solar power.
 a [A 4G Rover and the Benefits of a Shakedown Mission](https://hackaday.com/2019/09/12/a-4g-rover-and-the-benefits-of-a-shakedown-mission/)
 * [TKIRV - Solar Powered Internet Rover](https://www.youtube.com/watch?v=J98U8cKF3cg&list=PLsc633rxag69uRwJf9E7wGeM3jIIy6vtt)
 
+## Screw-propelled Robot
+* [3D Printed Screw-propelled Robot With Video Feed](https://www.instructables.com/3D-Printed-Screw-propelled-Robot-With-Video-Feed/)
+
 ## Other Car's
 * [Review: SunFounder Smart Video Car Kit for Raspberry Pi](https://www.elektormagazine.com/news/review-sunfounder-smart-video-car-kit-for-raspberry-pi/18054)
 * [This Two-Wheeled RC Car Is Rather Quick](https://hackaday.com/2019/05/16/this-two-wheeled-rc-car-is-rather-quick/)
