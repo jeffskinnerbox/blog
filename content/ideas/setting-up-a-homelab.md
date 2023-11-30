@@ -14,6 +14,10 @@ Version:      0.0.0
 
 
 
+* [Best Practices for pfSense Firewall Rules](https://hometechhacker.com/best-practices-for-pfsense-firewall-rules/)
+
+
+
 # What is a Homelab?
 I, like many, want to experiment with different computer & networking technologies.
 This would include creating my own web server, NAS storage, private cloud services,
@@ -216,8 +220,8 @@ Analyze behaviors, respond to attacks & share signals across the community.
 * [Pi Alert - Open Source, Self Hosted, Network Device Change Notification and Intrusion Detection](https://www.youtube.com/watch?v=oKl3WFQloE4)
 * [Pi-Alert - Network Device Change Notifications](https://shownotes.opensourceisawesome.com/pi-alert-network-device-change-notifications/)
 
-#### Step X: Ad Blocking
-Checkout setting-up-pi-hole.md
+#### Step X: Ad Blockine
+Clheckout setting-up-pi-hole.md
 
 #### Step X: Setting Up WireHole
 WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
@@ -250,6 +254,7 @@ Check out `$HOME/src/homer-dashboard`
 
 ### Recommended pfSense Settings
 * [pfSense Configuration Recommendations](https://protectli.com/kb/pfsense-configuration-recommendations/)
+* [Best Practices for pfSense Firewall Rules](https://hometechhacker.com/best-practices-for-pfsense-firewall-rules/)
 
 ### Guacamole
 * [access EVERYTHING from your web browser!! (Linux and Windows Desktop, SSH) // Guacamole Install](https://www.youtube.com/watch?v=gsvS2M5knOw)

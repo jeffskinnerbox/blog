@@ -22,6 +22,7 @@ The [minimum RAM requirements for pfSense on a home network is 2GB](https://robo
 * [Configure pfsense w/Protectli](https://www.youtube.com/watch?v=a70fUC8ZHTA)
 * [How to Setup a Hardware Firewall Mini PC | pfSense 2.5 Beginners Guide](https://www.youtube.com/watch?v=qu7YR7e8xJA)
 
+* [Best Practices for pfSense Firewall Rules](https://hometechhacker.com/best-practices-for-pfsense-firewall-rules/)
 * [How To Install And Configure pfSense Firewall Pt1](https://www.youtube.com/watch?v=DVTNqzt9IFo)
 * [How To Install And Configure pfSense Firewall Pt2](https://www.youtube.com/watch?v=HCIkg3nbPvM&t=2s)
 
