@@ -99,6 +99,7 @@ Nice Design
 * [Weather Station with ePaper and Raspberry Pi](Weather Station with ePaper and Raspberry Pi)
 * [Weather Pyramid](https://hackaday.io/project/153208-weather-pyramid)
 * [ESP8266 Weather Station - with Wind and Rain Sensors](https://tysonpower.de/blog/esp8266-weather-station)
+* [Capacitive Rainmeter Measures The Sky Water Just Fine](https://hackaday.com/2023/11/28/capacitive-rainmeter-measures-the-sky-water-just-fine/)
 * [Weather Station Is A Tutorial in Low Power Design](https://hackaday.com/2018/11/04/weather-station-is-a-tutorial-in-low-power-design/)
 * [The Cult Of Really Low-Power Circuits: Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
 * [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
