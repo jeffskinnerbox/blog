@@ -22,6 +22,8 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 
 * [Radar Sensors from $3 to over $100: Which one is Best?](https://www.youtube.com/watch?v=s-GzUTyIH9c)
 
+* [RoomSense IQ](https://www.crowdsupply.com/roomsense-labs/roomsense-iq)
+
 
 
 
