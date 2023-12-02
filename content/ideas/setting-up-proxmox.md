@@ -15,6 +15,8 @@ Version:      0.0.0
 * [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
 * [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
 * [Eleven of the Best Open Source Hypervisor Technologies](https://informationsecuritybuzz.com/eleven-of-the-best-open-source-hypervisor-technologies/)
+* [Proxmox VE 8.1 Brings SDN and More for its Popular Virtualization Platform](https://www.servethehome.com/proxmox-ve-8-1-brings-sdn-and-more-for-its-popular-virtualization-platform/)
+* [Proxmox Backup Server 3.1 Released](https://www.storagereview.com/news/proxmox-backup-server-3-1-released)
 
 
 # Proxmox
