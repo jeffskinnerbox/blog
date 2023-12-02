@@ -1090,6 +1090,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 
 # Computation - P vs NP vs NP-Complete vs NP-Hard
 * [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE)
+* [P vs. NP - The Greatest Unsolved Problem in Computer Science](https://www.youtube.com/watch?v=pQsdygaYcE4)
 * [P vs NP — The Biggest Unsolved Problem in Computer Science](https://www.cantorsparadise.com/p-vs-np-the-biggest-unsolved-problem-in-computer-science-2465e14d9b9f)
 * NP-Complete Problems: [The Secret Link Between Thousands of Unsolved Math Problems](https://www.youtube.com/watch?v=ctwX--JEzSA)
 * [How To Understand Computational Irreducibility](https://streetscience.net/how-to-understand-the-computational-irreducibility/)
