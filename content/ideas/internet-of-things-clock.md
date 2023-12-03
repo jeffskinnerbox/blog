@@ -32,6 +32,11 @@ Version:      0.0.0
 
 # Can You Simplify With This Approach?
 * [Atomic Clock Sync: ESP32 NTP Magic in Just 2 Lines of Code!](https://www.youtube.com/watch?v=K7HHSdpa9t0)
+* [Arduino Nano ESP32 LED matrix precision clock](https://www.hackster.io/marcozonca/arduino-nano-esp32-led-matrix-precision-clock-fd1b6)
+* [Self-Setting Big Clock Build with Nano ESP32 and MicroPython](https://www.hackster.io/doug-domke/self-setting-big-clock-build-with-nano-esp32-and-micropython-45153e)
+
+
+
 
 
 
