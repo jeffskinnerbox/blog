@@ -1946,6 +1946,7 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
     * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
 * FLASHING THE ATOM ECHO - [$13 voice remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
 * [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
+* [Custom Voice Control Sentences in Home Assistant](https://www.mostlychris.com/custom-voice-control-sentences-in-home-assistant/)
 
 ### Piper - Open Source Text-to-Speech & Voice Cloning
 * [Piper is our new voice for the Open Home](https://building.open-home.io/piper-is-our-new-voice-for-the-open-home/)
