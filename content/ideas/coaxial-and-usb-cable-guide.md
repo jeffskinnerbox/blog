@@ -189,6 +189,9 @@ The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fi
 * [All About USB-C: Replying Low-Level PD](https://hackaday.com/2023/02/22/all-about-usb-c-replying-low-level-pd/)
 * [All About USB-C: Example Circuits](https://hackaday.com/2023/08/07/all-about-usb-c-example-circuits/)
 
+* [USB-C For Hackers: Build Your Own PSU](https://hackaday.com/2023/10/12/usb-c-for-hackers-build-your-own-psu/)
+* [USB-C For Hackers: Program Your Own PSU](https://hackaday.com/2023/12/04/usb-c-for-hackers-program-your-own-psu/)
+
 
 
 -----
