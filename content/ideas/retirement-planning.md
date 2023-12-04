@@ -22,31 +22,6 @@ Version:      0.0.0
 -----
 
 
-# Estate Planning
-* [8 Things You Need for an Estate Plan at Any Age](https://money.usnews.com/money/personal-finance/family-finance/articles/things-you-need-for-an-estate-plan-at-any-age)
-* [Best Online Will Makers](https://www.thebalancemoney.com/best-online-will-makers-4580500)
-
-## Up-to-Date Beneficiary Designations
-Beneficiaries are up to date on 401(k) retirement funds, insurance, etc.
-
-## Health Care Proxy
-
-## A Living Will
-
-## Durable Power of Attorney
-
-## A Will
-
-## Guardian for Your Children
-Not needed.
-
-## A trust for Extra Control
-
-## A plan for Long-Term Care
-
-
-
------
 
 
 
@@ -295,22 +270,8 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 
 
 
-# Will and Estate Planning
-[A simple checklist to plan for your old age, today](https://www.vox.com/even-better/23911624/elder-care-aging-power-of-attorney-will-estate-planning)
+# Work on Financial Plans
 
-Create a will & estate plan and Revocable Living Trusts
-https://workplaceservices.fidelity.com/mybenefits/wellness/app/topic?topicId=createawillandestate&recommendation=WillEstatePlanning&client=000038032
-
-Revocable Living Trusts - https://www.nolo.com/legal-encyclopedia/revocable-living-trusts.html
-[Selecting a Trust to Suit Your Needs](https://www.schwab.com/resource-center/insights/content/selecting-trust-to-suit-your-needs)
-
-The 8 Best Online Will Makers of 2020 - https://www.thebalance.com/best-online-will-makers-4580500
-Quicken WillMaker - https://store.nolo.com/products/quicken-willmaker-plus-wqp.html
-
-
-Work on Financial Plans
-
-Create a will and estate plan - https://workplaceservices.fidelity.com/mybenefits/wellness/navigation/WellnessTopic?topicId=createawillandestate&recommendation=WillEstatePlanning&ccsource=em_NB_1058859_FW_ALL_NOV_18_20181205181630_T211000000
 
 Retirement Savings Calculator - https://www.kiplinger.com/tool/retirement/T047-S001-retirement-savings-calculator-how-much-money-do-i/index.php?rid=PROD-LINKS<https://urldefense.proofpoint.com/v2/url?u=https-3A__www.kiplinger.com_tool_retirement_T047-2DS001-2Dretirement-2Dsavings-2Dcalculator-2Dhow-2Dmuch-2Dmoney-2Ddo-2Di_index.php-3Frid-3DPROD-2DLINKS&d=DwMCaQ&c=udBTRvFvXC5Dhqg7UHpJlPps3mZ3LRxpb6__0PomBTQ&r=h5RBDFOA3V8qyRUoM2oWfvRCxVO0meCW7JYdDpWvPQs&m=VuC-D1yQ7VgI3rmbHugvsyWn6NtIvwCpyRSwdtCp4YQ&s=WEbf2Ct-m4VCXcEiwm3jtIt1ANeWJ1Jbqg2036RPcyw&e=>
 
