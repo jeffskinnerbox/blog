@@ -1358,11 +1358,25 @@ But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https:/
 
 
 
+
 ----
 
 
+
+# Learning Ansible
+Ansible 101 introduces Ansible for Linux server administration, based on the best-selling book, Ansible for DevOps.
+
+* [Ansible 101 - with Jeff Geerling](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)
+    * [Ansible for DevOps: Server and configuration management for humans](https://www.ansiblefordevops.com/)
+        * [Ansible for DevOps: Errata and Changes](https://www.ansiblefordevops.com/errata)
+
 * [Ansible Documentation](https://docs.ansible.com/)
 * [Ansible GitHub](https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html)
+
+
+
+----
+
 
 
 

@@ -492,6 +492,9 @@ FPV Multi-Rotor Racing Classes:
 
 This is the “standard size” for FPV racing drones.
 
+## Ardupilot
+* [FPV pslot tries Pixhawk for the first time // Introduction to PX4 & Ardupilot](https://www.youtube.com/watch?v=LKpMfl6EHOQ)
+* [PX4 Development Kit - X500 v2](https://holybro.com/collections/x500-kits/products/px4-development-kit-x500-v2)
 
 -----
 

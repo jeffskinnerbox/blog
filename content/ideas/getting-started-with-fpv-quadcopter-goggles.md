@@ -12,6 +12,19 @@ Version:      0.0.0
 -----
 
 
+
+
+* [Caddx Goggles X Questions Firmware & HDMI - Its Just Not Good Enough](https://www.youtube.com/watch?v=sjQYSTWbrqQ)
+
+
+
+
+
+# How Does FPV Video Work?
+* [How Analog Video works in FPV!](https://www.youtube.com/watch?v=szJOUXineYw)
+* [FPV Video Systems](https://www.youtube.com/playlist?list=PLFPBjpbd5xKT14YIDasgjmaefic4Qcd2R)
+* [Explained: How FPV technology works - ANALOG](https://www.youtube.com/watch?v=8x9z36z_wvA)
+
 Protocols in FPV can be divided into 3 groups:
 
 ```
@@ -100,6 +113,7 @@ To address this, key feature to look for within digital goggles is support of an
 
 Sources:
 * [Walksnail Goggles X For Avatar HD - All In One FPV With Some Compromises!](https://www.youtube.com/watch?v=ti3zyavDOow)
+* [Is Walksnail Goggles X Your Ultimate FPV Goggle?](https://www.youtube.com/watch?v=9PXz_zB8qfY)
 * [Avatar Goggles X: Latency Test, Flight Footage and Review](https://www.youtube.com/watch?v=giQUHcDA1cY)
 * [Which FPV System Should You Buy in 2024? Analog, DJI, HDZero, Walksnail Avatar](https://oscarliang.com/fpv-system/)
 * [Choosing the Best VTX (Video Transmitter) for FPV Drones – The Ultimate Beginner Guide](https://oscarliang.com/video-transmitter/)
@@ -208,8 +222,16 @@ There is no way of recording video on the Walksnail Avatar HD Goggles X, unless 
 
 ## On Screen Display (OSD)
 
+### Race Mode
+* [Walksnail Avatar for Racing? Nano V3 VTX Review](https://www.youtube.com/watch?v=Qn2wejRJWcY)
+* [RACE MODE for Walksnail Avatar: Image Quality and Latency Testing](https://www.youtube.com/watch?v=O9iuNx8eXss)
+
 ### OLED Sunlight Damage
 Sunlight can cause damage to your OLED screen.
+
+
+### Avatar HD Latancy
+* [Digital FPV Latency & Frame Delivery - DJI - HDZero - Avatar HD - A Lot To Understand.](https://www.youtube.com/watch?v=d7gfLaCHU2w)
 
 
 
@@ -217,9 +239,6 @@ Sunlight can cause damage to your OLED screen.
 
 
 
-# How Does FPV Video Work?
-* [How Analog Video works in FPV!](https://www.youtube.com/watch?v=szJOUXineYw)
-* [Explained: How FPV technology works - ANALOG](https://www.youtube.com/watch?v=8x9z36z_wvA)
 
 
 

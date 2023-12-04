@@ -14,6 +14,10 @@ Version:      0.0.0
 
 
 
+# Things to Carry With You
+* [Are you flying under the Recreational Flyer Exemption? - Must be pure recreational, without purpose](https://cdn.fs.teachablecdn.com/UqWFGjGQSnC1y5JmGB1H)
+* [What Community Based Organization (CBO) safety guidelines aryou flying under? - FliteTest](https://cdn.fs.teachablecdn.com/UqWFGjGQSnC1y5JmGB1H)
+
 # How to Start FPV Flying
 * [New to FPV drones? DONT do these things unless you want to cry // Beginner tips for success](https://www.youtube.com/watch?v=s51q5eEQu0s)
     1. Start out in a simulator since you are going to crash a lot.
@@ -34,6 +38,7 @@ Version:      0.0.0
 
 # Learning How to Fly
 * [Learn to fly an FPV drone (for total beginners)](https://www.youtube.com/playlist?list=PLwoDb7WF6c8lCKhQOTy-Vb9LfW0VAIrTP)
+* [How-to Fly an FPV Quadcopter / Drone - ALL VIDEOS](https://www.youtube.com/playlist?list=PLXWuhwtHmw1w9G6j3P1Y2ZLRiiLqmFe2B)
 
 Sources:
 * [Betaflight Modes Series - Acro Mode for Beginners](https://www.dronecamps.com/single-post/betaflight-modes-series-acro-mode-for-beginners)
