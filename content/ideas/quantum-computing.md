@@ -225,6 +225,7 @@ Seems like it is nolonger offered
 * [PHYS771 Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/default.html)
 * [Quantum Computing since Democritus](https://www.amazon.com/Quantum-Computing-since-Democritus-ebook/dp/B00B4V6IZK/)
 * [What Makes Quantum Computing So Hard to Explain?](https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608)
+* [Ricoh Printers: Intelligent Model](https://www.youtube.com/watch?v=saWCyZupO4U)
 
 
 # Quantumpedia
