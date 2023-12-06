@@ -550,6 +550,7 @@ Sources:
 #### Step X: Set Beeper On
 * [Betaflight Modes Explained and How to Setup](https://oscarliang.com/betaflight-modes/)
 * [Buzzer for Quadcopters](https://oscarliang.com/buzzer-quadcopters/)
+* [Adding a Buzzer to the HGLRC Sector 5D](https://www.youtube.com/watch?v=mq1qKOL7H28)
 * [Using ESC Beacon (Motor) as Lost Model Alarm](https://oscarliang.com/esc-beacon-lost-model-alarm/)
 
 #### Step X: 3-Position Switch for Acro / Angle / Horizon Modes

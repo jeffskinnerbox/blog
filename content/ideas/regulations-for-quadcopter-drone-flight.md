@@ -423,6 +423,10 @@ Aerial Armor's Aeroscope drone detection system is potential view of what the fu
 * [How your drone is detected and tracked: Is this Remote ID?](https://www.youtube.com/watch?v=wB55Gq0X-rQ)
 
 ### Can I Build My Own Remote ID?
+* [How to add RemoteID to an FPV drone (it's simpler than I thought)](https://www.youtube.com/watch?v=dnkbGljGG10)
+    * [A RemoteID module. Made by RC pilots. For RC pilots // FLITE TEST EZ ID](https://www.youtube.com/watch?v=l-gT53DdNHE)
+    * [FliteTest EZ ID](https://www.youtube.com/watch?v=eh3p5s44vKE) - $109 and works with the [FliteTest app](https://www.youtube.com/watch?v=Eb07pHEhGDo&t=11s)
+    * [FT EZ ID](https://store.flitetest.com/ft-ez-id/)
 * [RemoteID Cloaking Device How-To! Spoofer generates fake RemoteID signatures!](https://www.youtube.com/watch?v=Q8jn_6EmYxE)
 * [RIDS - Remote ID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer)
 
