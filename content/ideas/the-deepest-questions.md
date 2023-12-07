@@ -130,6 +130,10 @@ Also see some [quotes from John von Neumann][08] and [Paul Dirac's lecture on ma
 
 
 # Precision
+[Joseph Whitworth](https://en.wikipedia.org/wiki/Joseph_Whitworth)
+popularised a method of producing accurate flat surfaces during the 1830s,
+using engineer's blue and scraping techniques on three trial surfaces.
+
 BBC Precision The Measure of All Things
 * [Time and Distance](https://www.youtube.com/watch?v=g81opjVDAaA)
 * [Mass and Moles](https://www.youtube.com/watch?v=IHntDKxElAY)
@@ -137,7 +141,6 @@ BBC Precision The Measure of All Things
 * [Machine Thinking](https://www.youtube.com/c/machinethinking)
 * [The Science Of Flatness](https://www.youtube.com/watch?v=OWa3F4bKJsE)
 * [The Science Of Roundness](https://www.youtube.com/watch?v=NjbvOTUSqdI)
-
 
 ------
 
