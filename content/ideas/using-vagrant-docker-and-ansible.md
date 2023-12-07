@@ -939,7 +939,7 @@ end
 ## Vagrant Command-Line Interface
 To list all the `vagrant` commands available:
 
-```
+```bash
 # list all the vagrant commands
 $ vagrant list-commands
 Below is a listing of all available Vagrant commands and a brief
@@ -1771,7 +1771,7 @@ and are executed to configure it.
 Playbooks are written in YAML.
 An example playbook may look like this:
 
-```
+```yaml
 - name: Common tasks
   hosts: webservers
   become: true
@@ -1816,7 +1816,7 @@ An example situation where handlers are useful is when
 a task modifies a configuration file of some service, MySQL for example.
 In order for changes to take effect, the service needs to be restarted.
 
-```
+```yaml
 - name: change mysq max_connections
   copy: src=edited_my.cnf dest=/etc/my.cnf
   notify:
@@ -1840,7 +1840,7 @@ in the playbook, in inventory file, in special files reserved for variables,
 they can be set at runtime on CLI, or they can be automatically collected.
 In order to use variables in playbooks, you need to surround them with curly braces:
 
-```
+```yaml
 - name: Common tasks
   hosts: db_servers
   become: true
@@ -1859,7 +1859,7 @@ When the playbook is executed, name of the variable will be substituted with its
 
 Variables can also be combined:
 
-```
+```yaml
 vars:
   file_name: my_app.zip
   server_name: http://myhost.com
@@ -1872,7 +1872,7 @@ This is achieved by using the “register” keyword in a task.
 An example shown below will create a new variable named “logged_in_user“
 from the output of “whoami” command:
 
-```
+```yaml
 - name get current logged in user
   command: whoami
   register: logged_in_user
@@ -1944,7 +1944,7 @@ The `hosts` file is our inventory.
 This defines the list of hosts machines,
 together with their group membership and login credentials.
 
-```
+```bash
 File: hosts
 -----------
 
@@ -1955,7 +1955,7 @@ xxx.xxx.xxx.xxx ansible_ssh_user=bencer
 ### modules Directory
 If you need to download any 3rd party modules:
 
-```
+```bash
 $ mkdir galaxy
 $ ansible-galaxy install --roles-path=./modules/roles jdauphant.NGINX
 $ ansible-galaxy install --roles-path=./modules/roles debops.php5
@@ -2086,7 +2086,13 @@ Ansible playbook "push_ssh_keys.yaml" - https://opensource.com/article/17/7/auto
 * [Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule)
 
 #### Ansible and Gathering Facts
-Ansible has the ability to gather all kinds of facts about the target system. This can consume a significant amount of time if you have a large number of hosts. In my experience, it can take 1 to 2 seconds per host, and possibly longer; however, there are benefits to fact gathering.
+Ansible facts are data gathered about target nodes (host nodes to be configured) and returned back to controller nodes.
+Ansible facts are stored in JSON format and are used to make important decisions about tasks based on their statistics.
+Facts are in an `ansible_facts` variable, which is managed by Ansible Engine.
+Ansible facts play a major role in syncing with hosts in accordance with real-time data.
+
+Ansible facts are data gathering can consume a significant amount of time if you have a large number of hosts.
+Never the less, there are benefits to fact gathering.
 Consider the following playbook used for turning off the ability for users to log in with a password as the root user:
 https://opensource.com/article/17/7/automate-sysadmin-ansible
 
