@@ -12,6 +12,7 @@ Version:      0.0.0
 -----
 
 
+* [Why You Should NOT Buy An FPV Drone... (And Why You Should)](https://www.youtube.com/watch?v=dYcIK0dB3YU)
 
 
 # Things to Carry With You
