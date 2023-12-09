@@ -351,6 +351,7 @@ Cirq is a Python software library for writing, manipulating, and optimizing quan
 Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuitsZZ and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
 
+* [How To Use A Quantum Computer - Quantum Computing Tutorial](https://www.youtube.com/watch?v=AoiI507OpEY&list=PLI4lUS6saNgVnzkGCauWSU0FOnZH7VW8x)
 * [Getting started with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
 * [Getting Started with Qiskit (explained by a software developer, not a quantum physicist)](https://medium.com/queen-of-qiskit/getting-started-with-qiskit-explained-by-a-software-developer-not-a-quantum-physicist-b8ba820685e5)
 * [Qiskit Textbook](https://qiskit.org/learn)
@@ -430,7 +431,6 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [Qiskit Textbook](https://qiskit.org/learn/)
     * [Understanding Quantum Information and Computation](https://www.youtube.com/watch?v=0Av89fZenSY&list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&index=2)
     * [Getting started with Qiskit](https://www.youtube.com/watch?v=P5cGeDKOIP0&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
-
 
 
 # IBM Q
