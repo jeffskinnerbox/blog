@@ -684,6 +684,11 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 * [How to Resolve the Necktie Paradox](https://www.cantorsparadise.com/how-to-resolve-the-necktie-paradox-3501770e25a6)
 * [This Is Why You Should Switch Envelopes](https://www.cantorsparadise.com/this-is-why-you-should-switch-envelopes-d07067c24686)
 
+# Foundational Quantum Mechanics Experiments & Theories
+* [History of Quantum Mechanics](https://en.wikipedia.org/wiki/History_of_quantum_mechanics)
+    * [Old Quantum Theory](https://en.wikipedia.org/wiki/Old_quantum_theory)
+* [Stern–Gerlach Experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)
+
 # Delayed Choice Quantum Eraser Experiment
 * [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
 * [Boy, Was I Wrong! How the Delayed Choice Quantum Eraser Really works](https://www.youtube.com/watch?v=s5yON4Gs3D0)
