@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 * [Caddx Goggles X Questions Firmware & HDMI - Its Just Not Good Enough](https://www.youtube.com/watch?v=sjQYSTWbrqQ)
+* [Caddx Walksnail Goggles X FPV Goggles Antenna Ports - What Transmits & Receives](https://www.youtube.com/watch?v=8Wa_XjQBKqs)
 
 
 
