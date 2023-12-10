@@ -687,7 +687,8 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 # Foundational Quantum Mechanics Experiments & Theories
 * [History of Quantum Mechanics](https://en.wikipedia.org/wiki/History_of_quantum_mechanics)
     * [Old Quantum Theory](https://en.wikipedia.org/wiki/Old_quantum_theory)
-* [Stern–Gerlach Experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)
+    * [The (Often) Overlooked Experiment That Revealed the Quantum World](https://www.quantamagazine.org/the-often-overlooked-experiment-that-revealed-the-quantum-world-20231205)
+    * [Stern–Gerlach Experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)
 
 # Delayed Choice Quantum Eraser Experiment
 * [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
