@@ -20,6 +20,9 @@ Consider using and reading ...
 * [Home Assistant Voice Remote](https://www.youtube.com/watch?v=EeUG3Si9fZk)
 * [ESP32 Battery Life Tips](https://www.youtube.com/watch?v=4EZYYPmQnJY)
 
+* [DIY Walkie-Talkie Based on ESP-NOW](https://www.elektormagazine.com/articles/diy-walkie-talkie-based-on-esp-now)
+    * [Walkie-Talkie with ESP-NOW](https://www.elektormagazine.com/labs/walkie-talkie-with-esp-now)
+
 
 
 
