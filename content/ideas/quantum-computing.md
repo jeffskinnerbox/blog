@@ -267,6 +267,7 @@ In quantum mechanics,
 you are operating with a 2-norm probability. In this case, we are generalize probability so that instead of P(x)+P(not x)=1 for an event x, we have  P(x)2+P(not x)2=1. Then P(x) can be negative, or complex.
 
 * [Can Probabilities Be Negative? – What this question teaches us about quantum theory](https://www.youtube.com/watch?v=std9EBbtOC0)
+* [Can Probability be Negative? | Quantum Mechanics | Quantum Computing](https://www.youtube.com/watch?v=ZCrjRCwjPbw)
     * Quantum theory is about information, and about how probabilities behave when information is fundamentally inaccessible to observers.
 
 
