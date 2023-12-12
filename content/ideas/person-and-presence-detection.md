@@ -66,6 +66,7 @@ This can be done by making use of:
     * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
     * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
     * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
+* [Mini ESP32 TV](https://www.thingiverse.com/thing:6330378)
 
 ## Other Ideas
 * [Whisper AI](https://openai.com/blog/whisper/)
