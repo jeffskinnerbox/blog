@@ -40,8 +40,9 @@ Can this clock be hacked so you can control its precision time source? - La Cros
 [public ntp time server for everyone](http://www.pool.ntp.org/en/)
 
 # WWVB
-[Radio Station WWVB](https://www.nist.gov/pml/time-and-frequency-division/radio-stations/wwvb)
-[μWWVB: A Tiny WWVB Station](http://www.anishathalye.com/2016/12/26/micro-wwvb/)
+* [Radio Station WWVB](https://www.nist.gov/pml/time-and-frequency-division/radio-stations/wwvb)
+* [μWWVB: A Tiny WWVB Station](http://www.anishathalye.com/2016/12/26/micro-wwvb/)
+* [Radio Station WWV: All Time, All The Time](https://hackaday.com/2023/12/13/radio-station-wwv-all-time-all-the-time/)
 
 # Number Stations
 * [History of numbers stations](http://hackaday.com/2015/10/29/secret-radio-stations-by-the-numbers/)
