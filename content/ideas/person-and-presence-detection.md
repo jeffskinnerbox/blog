@@ -66,6 +66,8 @@ This can be done by making use of:
     * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
     * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
     * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
+    * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
+    * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
 * [Mini ESP32 TV](https://www.thingiverse.com/thing:6330378)
 
 ## Other Ideas
