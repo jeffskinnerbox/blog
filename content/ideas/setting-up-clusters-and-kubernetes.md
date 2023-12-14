@@ -259,6 +259,7 @@ I chose Raspbian Lite
 * [Building a Raspberry Pi cluster with MicroK8s](https://ubuntu.com/blog/building-a-raspberry-pi-cluster-with-microk8s)
 * [How to build a Raspberry Pi Kubernetes cluster using MicroK8s](https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#1-overview)
 
+* [K8s Cluster with Ansible](https://dzone.com/articles/ansible-boots-kubernetes)
 * [Provisioning your Raspberry Pi-4 Cluster with Ansible](https://shantanoo-desai.github.io/posts/technology/edge_cluster_provisioning_ansible/)
 * [Ansible - Raspberry Pi Kubernetes Cluster](https://everythingshouldbevirtual.com/automation/containers/ansible-raspberry-pi-kubernetes-cluster/)
 * [Raspberry Pi Cluster Part 1: Provisioning with Ansible and temperature monitoring using Prometheus and Grafana](https://www.dinofizzotti.com/blog/2020-04-10-raspberry-pi-cluster-part-1-provisioning-with-ansible-and-temperature-monitoring-using-prometheus-and-grafana/)
