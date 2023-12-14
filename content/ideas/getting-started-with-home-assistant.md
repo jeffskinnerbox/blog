@@ -1809,11 +1809,14 @@ Source:
 
 
 
+# Home Assistant on Using Ansible
+* [Using Ansible to configure a Raspberry Pi (Home Assistant, LIRC, 433Utils, Z-Wave, etc.)](https://chester.me/archives/2019/04/using-ansible-to-configure-a-raspberry-pi-home-assistant-lirc-433utils-zwave-etc/)
+* [Ansible Role: Docker for ARM](https://github.com/geerlingguy/ansible-role-docker_arm)
+
 # Home Assistant on Docker
 * [Installing Docker, Home Assistant and Portainer on Ubuntu Linux](https://www.homeautomationguy.io/home-assistant-tips/installing-docker-home-assistant-and-portainer-on-ubuntu-linux/)
 Installing Docker and Home Assistant Container YouTube video: [Installing Docker and Home Assistant Container](https://youtu.be/S-itdbqwj4I)
 * [Living without add-ons on Home Assistant Container](https://www.youtube.com/watch?v=DV_OD4OPKno)
-* [Ansible Role: Docker for ARM](https://github.com/geerlingguy/ansible-role-docker_arm)
 From [How to build your own Raspberry Pi Kubernetes Cluster](https://www.youtube.com/watch?v=B2wAJ5FLOYw)
 
 * [Home Assistant install with docker-compose](https://iotechonline.com/home-assistant-install-with-docker-compose/)
