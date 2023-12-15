@@ -23,7 +23,10 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 * [Resemblyzer](https://github.com/resemble-ai/Resemblyzer)
 * [Resemble](https://www.resemble.ai/)
 
-
+# Coqui.ai Voice Cloning for Text-to-Speech
+* [Local voice cloning with 6 seconds audio | Coqui XTTS on Windows](https://www.youtube.com/watch?v=HJB17HW4M9o)
+    * [XTTS: Taking TTS to the Next Level](https://coqui.ai/blog/tts/xtts_taking_tts_to_the_next_level)
+    * [Hugging Face: coqui/XTTS-v2](https://huggingface.co/coqui/XTTS-v2)
 
 
 
