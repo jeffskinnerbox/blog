@@ -151,6 +151,8 @@ $ cat /proc/sys/kernel/random/entropy_avail
 
 * [Puzzlingly Simple Tutorial On GPS Time Corrected Clock](http://hackaday.com/2016/08/08/puzzlingly-simple-tutorial-on-gps-time-corrected-clock/)
 
+* [Popcorn Noise - A Miracle?](https://www.youtube.com/watch?v=JgGz5ieQsGs)
+
 # How Random Is Random
 * [Randomness and Kolmogorov Complexity](https://www.youtube.com/watch?v=0cHHKDAelCo)
 * [How Random Is Random?](https://hackaday.com/2019/10/10/how-random-is-random/)
