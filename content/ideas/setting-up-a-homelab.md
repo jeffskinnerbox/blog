@@ -14,6 +14,12 @@ Version:      0.0.0
 
 
 
+* [What is a HomeLab and Why Build One?](https://www.virtualizationhowto.com/2023/08/what-is-a-homelab-and-why-build-one/)
+* [Docker Swarm vs Kubernetes: Home Lab Comparison](https://www.virtualizationhowto.com/2023/08/docker-swarm-vs-kubernetes-home-lab-comparison/)
+* [K3s vs K8s: The Best Kubernetes Home Lab Distribution](https://www.virtualizationhowto.com/2023/07/k3s-vs-k8s-the-best-kubernetes-home-lab-distribution/)
+
+
+
 * [Best Practices for pfSense Firewall Rules](https://hometechhacker.com/best-practices-for-pfsense-firewall-rules/)
 
 
