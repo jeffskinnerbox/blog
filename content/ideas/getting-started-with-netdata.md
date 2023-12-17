@@ -16,6 +16,9 @@ Version:      0.0.0
 Netdata - `localhost:19999`
 
 
+* [Proxmox + NetData for Better Insights and Notifications](https://dbtechreviews.com/2023/12/06/proxmox-real-time-monitoring-ne/)
+
+
 # Real-Time Performance Monitoring with Netdata
 [Netdata][01] is a distributed, real-time, performance and health monitoring for systems and applications.
 It is a monitoring agent you install on all your systems and containers,
