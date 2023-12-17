@@ -18,7 +18,7 @@ The key sentence: *This is an elementary-level introduction to quantum computing
 Never the less, if you read the course description and syllabus further,
 this course appears to contain much of the material and approach that has disappointed me in the past.
 
-# Origin Story
+# Origin Stories
 * Richard Feynman
     * [Simulating Physics with Computers](https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf)
     * [Simulating Physics with Computers: Presented by Pinchas Birnbaum and Eran Tromer](https://www.wisdom.weizmann.ac.il/~naor/COURSE/feynman-simulating.pdf)
@@ -456,4 +456,20 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 # Classic Physics Analogs for Quantum Systems
 * [The Amazing Physics Of The Wilberforce Pendulum](https://www.youtube.com/watch?v=M0Zjl_tMOZg)
+
+# ZX Calculus
+The ZX-calculus is a rigorous graphical language for reasoning about linear maps between qubits,
+which are represented as string diagrams called ZX-diagrams.
+
+* Calculus: A particular method or system of calculation or reasoning.
+* Linear Map: Mapping C → W between two vector spaces that preserves the operations of vector addition and scalar multiplication.
+
+[Quantum in Pictures: A New Way to Understand the Quantum World](https://www.amazon.com/Quantum-Pictures-New-Understand-World/dp/1739214714/)
+[Picturing Quantum Processes](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X)
+[ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX](https://www.amazon.com/ZX-Quantum-Py-beginners-Computing-ZX-Calculus/dp/B0B1RD2Z84/)
+[Categories for Quantum Theory](https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613)
+
+[The ZX-calculus](https://zxcalculus.com/)
+[pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
+[QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
 
