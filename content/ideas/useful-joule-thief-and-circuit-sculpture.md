@@ -46,6 +46,10 @@ The Joule Thief Circuit is a voltage booster circuit which converts a constant l
 * [Thief of Joules](http://cachivacheselectronicos.blogspot.com/2015/04/test-ladron-de-jouls-primer-proyecto-en.html)
 
 # Transistor Selection
+Any small generic NPN transistors should work as long as you bias it right.
+However, an NPN will work best as you are performing switching work, rather than amplifying work to get the 'HV' pulse out of the transformer. The more turns you put into the transformer the bigger the power spike you'll get out of it, but the longer it will take to charge. Also, I'd guess that technically there will be both a minimum # and maximum # of turns you could use before the thing pretty much wouldn't work right due to timing/frequency issues.
+2N3904, BC547B, 2SC2500, BC337, 2N2222, 2N4401 or other NPN. Vceo= 30 V, P= 0.625 W.
+
 * [How To Find a Transistor Replacement](https://www.youtube.com/watch?v=jtcgoWtwK6E)
 
 # High Voltage Joule Thief
