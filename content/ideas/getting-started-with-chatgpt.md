@@ -99,6 +99,7 @@ making it easy to seamlessly and scalably launch ML compute directly from the Hu
 * [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
 * [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
 * [Miniature ChatGPT Voice Assistant based on XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_speech2chatgpt/)
+* [ESP32 Voice Assistant with ChatGPT: Your Personal AI Companion](https://www.youtube.com/watch?v=IvAAw93e-9E)
 
 # LLaMa
 [LLaMA (Large Language Model Meta AI)](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
