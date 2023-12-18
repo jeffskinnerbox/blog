@@ -51,6 +51,7 @@ Types of knowledge? - Declarative Knowledge which are statement of facts. Impera
 What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) flow of control that specifies when each step is executed, (3) a means of determining when to stop.
 
 * [What is Computation?](https://www.youtube.com/results?search_query=What+is+Computation%3F) - start at 7 minutes
+* [Was There Life Before Computers?](https://www.nicolamarras.it/Was-There-Life-Before-Computer-en.pdf)
 * [Analog vs Digital vs Quantum, Explained - Learn Science of Data, Waves, Bits, Qubits and more!](https://www.youtube.com/watch?v=ZMkLPvOVkNo)
 
 # What is Neuromorphic Computing?
