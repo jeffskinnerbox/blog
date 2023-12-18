@@ -465,12 +465,13 @@ which are represented as string diagrams called ZX-diagrams.
 * Calculus: A particular method or system of calculation or reasoning.
 * Linear Map: Mapping C → W between two vector spaces that preserves the operations of vector addition and scalar multiplication.
 
-[Quantum in Pictures: A New Way to Understand the Quantum World](https://www.amazon.com/Quantum-Pictures-New-Understand-World/dp/1739214714/)
-[Picturing Quantum Processes](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X)
-[ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX](https://www.amazon.com/ZX-Quantum-Py-beginners-Computing-ZX-Calculus/dp/B0B1RD2Z84/)
-[Categories for Quantum Theory](https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613)
+* [Quantum in Pictures: A New Way to Understand the Quantum World](https://www.amazon.com/Quantum-Pictures-New-Understand-World/dp/1739214714/)
+* [Picturing Quantum Processes](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X)
+* [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX](https://www.amazon.com/ZX-Quantum-Py-beginners-Computing-ZX-Calculus/dp/B0B1RD2Z84/)
+* [Categories for Quantum Theory](https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613)
 
-[The ZX-calculus](https://zxcalculus.com/)
-[pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
-[QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
+* [Bob Coecke: From Quantum in Pictures to Quantum AI | QHack 2023](https://www.youtube.com/watch?v=5694S6hceJE)
+* [The ZX-calculus](https://zxcalculus.com/)
+* [pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
+* [QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
 
