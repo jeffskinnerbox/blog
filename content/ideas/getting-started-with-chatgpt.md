@@ -71,11 +71,12 @@ Python package for easily interfacing with chat apps like ChatGPT and GPT-4 with
 * [A Hacker-Friendly Software Package For Your Next AI Project](https://hackaday.com/2023/08/31/a-hacker-friendly-software-package-for-your-next-ai-project/)
 
 # Magic Storybook with ChatGPT
-This guide will show you how to create your own never-ending story book using a Raspberry Pi,
-a touch screen display, and ChatGPT.
+These guide will show you how to create:
 
-* [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
-
+* Your own never-ending story book using a Raspberry Pi, a touch screen display, and ChatGPT
+    * [Chat with ChatGPT through Arduino GIGA R1 Display Shield](https://www.hackster.io/shahizat/chat-with-chatgpt-through-arduino-giga-r1-display-shield-22e0ee)
+* harnesses the power of the Arduino platform to bridge the gap between human input and AI-powered responses.
+    * [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
 
 ## GPT-4
 * [Get free access to GPT-4](https://www.livemint.com/news/world/openais-gpt-4-can-be-used-free-using-this-simple-hack-follow-these-3-steps-11679738549612.html)
