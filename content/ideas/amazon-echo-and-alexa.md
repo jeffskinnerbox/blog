@@ -18,6 +18,9 @@ Version:      0.0.0
 # Alexa Guard
 * [Alexa Guard Overview & Integration w/Home Assistant](https://hometechhacker.com/alexa-guard-overview-integration-w-home-assistant/)
 
+# DIY Voice Command for Alexa (without Echo)
+* [We can create a voice command system!](https://www.youtube.com/watch?v=3XbnzfBjmZk)
+
 # Special Purpose Voice Recognition Module
 * [Voice Recognition Module - 254 Voice Commands + UART](https://www.youtube.com/watch?v=zCEYxSdYBcA)
     * http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254
