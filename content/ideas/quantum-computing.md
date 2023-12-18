@@ -475,3 +475,8 @@ which are represented as string diagrams called ZX-diagrams.
 * [pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
 * [QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
 
+# Tensor Diagram / Tensor Networks
+Tensor network theory is a branch of mathematics that deals with the representation of high-dimensional tensors. Tensors are mathematical objects that generalize matrices to higher dimensions. Tensor network theory provides a way to represent these high-dimensional objects using a lower-dimensional network. This theory has applications in machine learning, where it can be used to represent high-dimensional data.
+
+* [Tensor Network](https://tensornetwork.org/)
+
