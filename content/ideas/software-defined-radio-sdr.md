@@ -950,6 +950,7 @@ Like GNU Radio, LuaRadio is a flow graph signal processing framework, but [diffe
 * http://luaradio.io/docs/comparison-gnuradio.html
 
 ## SDRPlay
+* [SDR Connect - A New Multi-Platform SDR Software From SDRplay](https://www.youtube.com/watch?v=TCI7kgRyL4M) <--- runs on Linux
 * [Your First GNU Radio Receiver With SDRPlay](https://hackaday.com/2015/11/12/your-first-gnu-radio-receiver-with-sdrplay/)
 * [SDRPlay RSPDX Radio Receiver Review and Demonstration](https://www.youtube.com/watch?v=G1b2R-6-z3o)
 
