@@ -15,6 +15,10 @@ Version:      0.0.0
 
 
 
+# Start Here ?
+* [Roll Your Own SDR](https://hackaday.com/2023/12/16/roll-your-own-sdr/)
+
+
 * [2020 / 2021 SDR Guide](https://www.youtube.com/playlist?list=PLe5ZKeM2hRBJ2G_Gvt1JnBxqtjHMMej3q)
 
 * [10 Common Mistakes Made With Software Defined Radio](https://www.youtube.com/watch?v=ORFYJuCo6jg)
