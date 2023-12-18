@@ -1,3 +1,4 @@
+#
 <
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -1383,6 +1384,11 @@ Ansible 101 introduces Ansible for Linux server administration, based on the bes
 ##################### REPLACE WITH ~/src/ansible/README.md #####################
 # Ansible
 
+
+Ansible has a great deal of terminology.
+The Ansible documentation has glossary that could prove to be helpful.
+* [Ansible Glossary](https://docs.ansible.com/ansible/latest/reference_appendices/glossary.html)
+
 * [How to use Ansible to patch systems and install applications](https://opensource.com/article/18/3/ansible-patch-systems)
 * [A sysadmin's guide to Ansible: How to simplify tasks](https://opensource.com/article/18/7/sysadmin-tasks-ansible)
 
@@ -1897,6 +1903,18 @@ Unlike Python, however, YAML doesn’t allow literal tab characters for indentat
 
 ### Lint Tools
 
+* [Disabling checks for a specific line](https://yamllint.readthedocs.io/en/stable/disable_with_comments.html)
+* [Disabling checks for all (or part of) the file](https://yamllint.readthedocs.io/en/stable/disable_with_comments.html#disabling-checks-for-all-or-part-of-the-file)
+
+although not recommend, to disabled all rules for a specific line:
+
+```yamllint
+# yamllint disable-line
+-  {    all : rules ,are disabled   for this line}
+
+too long of a line .......  yamllint disable-line rule:line-length
+```
+
 **`yamllint`**
 * A linter for YAML files - `sudo apt-get install yamllint`
 * [A linter for YAML files](https://github.com/adrienverge/yamllint)
@@ -2074,7 +2092,8 @@ which is used to verify that a server is ready to receive commands:
 
 ```bash
 # ping all machines in the inventory
-ansible all -m ping
+ansible -i inventory all -m ping
+ansible -i 192.168.1.79, all --module-name ping --user pi --ask-pass
 ```
 
 This will result in Ansible attempting to log in via SSH to all of the servers in your inventory.
@@ -2085,16 +2104,68 @@ Ansible playbook "push_ssh_keys.yaml" - https://opensource.com/article/17/7/auto
 #### Testing Ansible Roles
 * [Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule)
 
+#### Ansible and Executing Remote Commands
+Sometimes, all you need is to execute commands
+directly on target hosts as you would on a bash shell.
+Ansible shell module comes in handy to do this.
+By default, the shell module uses the `/bin/sh` shell to run commands,
+although you can configure it to use other shells.
+
+>**NOTE:** Unlike the shell module,
+>the command module is not affected the remote user’s shell environment.
+
+>**NOTE: Since commands are not executed on the shell,
+>the command module does not support environment variables,
+>pipes and other operators such as `>` , `<` , `&`, `;` and `| |`.
+>With shell module, piping, redirection and variables are fully supported.
+>Thus, the shell module provides more flexibility.
+
+```bash
+# check if your targets are live on the network
+ansible -i inventory all --module-name ping
+ansible -i inventory all --module-name shell --args "ping"
+
+# print condense output
+$ ansible -i inventory all --module-name ping --one-line
+test-pi | SUCCESS => {"changed": false,"ping": "pong"}
+
+# check the uptime of all the target hosts
+ansible -i 192.168.1.79, all --module-name shell --args "uptime -p" --user pi --ask-pass
+ansible -i inventory test-pi --module-name shell --args "uptime -p"
+```
+
+Sources:
+* [Getting Started With Ansible Ad Hoc Commands](https://ostechnix.com/ansible-ad-hoc-commands/)
+* [How to Run Remote Commands with Ansible Shell Module](https://www.cherryservers.com/blog/how-to-run-remote-commands-with-ansible-shell-module)
+
 #### Ansible and Gathering Facts
 Ansible facts are data gathered about target nodes (host nodes to be configured) and returned back to controller nodes.
+The information can be an IP address, operating system, filesystem and more.
+This information gathering is taken care of by the "setup" module.
+
 Ansible facts are stored in JSON format and are used to make important decisions about tasks based on their statistics.
 Facts are in an `ansible_facts` variable, which is managed by Ansible Engine.
 Ansible facts play a major role in syncing with hosts in accordance with real-time data.
 
-Ansible facts are data gathering can consume a significant amount of time if you have a large number of hosts.
-Never the less, there are benefits to fact gathering.
-Consider the following playbook used for turning off the ability for users to log in with a password as the root user:
-https://opensource.com/article/17/7/automate-sysadmin-ansible
+```bash
+# for remote server not managed by ansible
+ansible -i 192.168.1.79, all --module-name setup --user pi --ask-pass
+
+# filter the gathered facts
+ansible -i 192.168.1.79, all --module-name setup --args "filter=ansible_all_ipv4_addresses,ansible_default_ipv4,ansible_distribution*" --user pi --ask-pass
+
+# if you have an inventory established and ssh keys installed for ansible
+ansible -i inventory test-pi --module-name setup
+ansible -i inventory test-pi --module-name gather_facts
+
+# writing the facts to a file
+ansible -i inventory test-pi --module-name setup --tree /home/ansible/facts      # write permision problem
+```
+
+Sources:
+* [Explaining Ansible Facts With Examples](https://ostechnix.com/ansible-facts/)
+* [Ansible Facts](https://www.educba.com/ansible-facts/)
+* [An introduction to Ansible facts](https://www.redhat.com/sysadmin/playing-ansible-facts)
 
 ## Install Ansible
 One of the beauties of Ansible is that it will not add a database,
@@ -2905,6 +2976,23 @@ This will install Nginx on each server!
 
 # Ansible Snippets
 https://html5hive.org/ansible-quickies-useful-code-snippets/
+
+# Ansible Callback Plugin
+Callback plugins enable adding new behaviors to Ansible when responding to events.
+Using the YAML callback plugin,
+you can reformat Ansibles error message output to make it more readable.
+To use it, edit your `ansible.cfg`and add the following lines under the `[defaults]` section:
+
+```yaml
+# use the YAML callback plugin, for documenation: `ansible-doc -t callback yaml`
+stdout_callback = yaml
+
+# use the stdout_callback when running ad-hoc commands
+bin_ansible_callbacks = True
+```
+
+* [Use Ansible's YAML callback plugin for a better CLI experience](https://www.jeffgeerling.com/blog/2018/use-ansibles-yaml-callback-plugin-better-cli-experience)
+* [Formatting stdout in a debug task of Ansible](https://stackoverflow.com/questions/50009505/formatting-stdout-in-a-debug-task-of-ansible)
 
 # Testing Ansible Roles
 * [Testing Ansible Roles with Travis CI on GitHub](https://www.jeffgeerling.com/blog/testing-ansible-roles-travis-ci-github)
