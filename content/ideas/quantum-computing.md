@@ -336,18 +336,17 @@ Train a quantum computer the same way as a neural network.
 * [Pritzker Molecular Engineering Researchers ‘Split’ Phonons – or Sound – in Step Toward New Type of Quantum Computer](https://www.hpcwire.com/off-the-wire/pritzker-molecular-engineering-researchers-split-phonons-or-sound-in-step-toward-new-type-of-quantum-computer/)
 * [How splitting sound might lead to a new kind of quantum computer](https://theconversation.com/how-splitting-sound-might-lead-to-a-new-kind-of-quantum-computer-207974)
 
-# Making a Quantum Computer
-* [Making a Quantum Computer at Home](https://okezuebell.medium.com/making-a-quantum-computer-at-home-bc59afe72d7d)
 
-## Simple Simulator
-* [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
 
-## Cirq
-Cirq is an open source framework for programming quantum computers.
-Cirq is a Python software library for writing, manipulating, and optimizing quantum circuits, and then running them on quantum computers and quantum simulators. Cirq provides useful abstractions for dealing with today’s noisy intermediate-scale quantum computers, where details of the hardware are vital to achieving state-of-the-art results.
 
-* [Cirq](https://quantumai.google/cirq)
-* [Google Quantum AI](https://quantumai.google)
+# Quantum Programming Languages
+* Python: Used to write quantum algorithms, Python is supported by numerous quantum computing frameworks, such as Ocean and Qiskit.
+* Ocean: A set of quantum computing tools written in Python that include tools for simulating quantum computers, developing and executing quantum circuits, and running quantum algorithms.
+* Qiskit: An open-source quantum computing framework that’s also written in Python, Qiskit offers tools to enable you to create and execute quantum circuits, simulate quantum computers, and run quantum algorithms.
+* Q#: Developed by Microsoft, this quantum computing programming language is used to write quantum algorithms. It also integrates with Visual Studio and other Microsoft development tools.
+* Cirq: Developed by Google, Cirq is used to write quantum algorithms. It works with Google’s quantum computing framework
+
+## Ocean
 
 ## Qiskit
 Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuitsZZ and application modules.
@@ -380,6 +379,15 @@ Qiskit accelerates the development of quantum applications by providing the comp
 ### Qiskit Metal
 * [Qiskit Metal | Quantum Device Design](https://www.qiskit.org/metal/)
 
+## Q#
+
+## Cirq
+Cirq is an open source framework for programming quantum computers.
+Cirq is a Python software library for writing, manipulating, and optimizing quantum circuits, and then running them on quantum computers and quantum simulators. Cirq provides useful abstractions for dealing with today’s noisy intermediate-scale quantum computers, where details of the hardware are vital to achieving state-of-the-art results.
+
+* [Cirq](https://quantumai.google/cirq)
+* [Google Quantum AI](https://quantumai.google)
+
 ## Quirk
 * [Quantum Searching in Your Browser](https://hackaday.com/2018/02/07/quantum-searching-in-your-browser/)
 * [Quantum Weirdness in Your Browser](https://hackaday.com/2018/01/24/quantum-weirdness-in-your-browser/)
@@ -391,6 +399,16 @@ Qiskit accelerates the development of quantum applications by providing the comp
 * [Building the Bits and Qubits](https://www.youtube.com/watch?v=F8U1d2Hqark)
 * [You don't know how Quantum Computers work](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
 * [Quantum computing for the determined](https://www.youtube.com/watch?v=X2q1PuI2RFI&list=PL1826E60FD05B44E4)
+
+
+
+
+# Making a Quantum Computer
+* [Making a Quantum Computer at Home](https://okezuebell.medium.com/making-a-quantum-computer-at-home-bc59afe72d7d)
+
+## Simple Simulator
+* [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
+
 
 ## Quantum Country / CNOT
 * [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
