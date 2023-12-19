@@ -416,6 +416,7 @@ The
 * [How to calibrate a Vector Network Analyzer, VNA](https://www.electronics-notes.com/articles/test-methods/rf-vector-network-analyzer-vna/how-to-calibrate-vna.php)
 * [Why a VNA needs to be calibrated | how to calibrate a nanoVNA](https://www.youtube.com/watch?v=x-tbvAbh9jk)
 * [NanoVNA Port Extension using the Electrical Delay setting](https://www.youtube.com/watch?v=bEPUePy_buM)
+* [Calibrating a VNA the Proper Way](https://hackaday.com/2021/05/08/calibrating-a-vna-the-proper-way/)
 
 
 
