@@ -276,6 +276,7 @@ Depending on the probe and the circuit, the probe loading may cause unwanted sid
 * [Demystifying RCRC and RC Probes](https://www.keysight.com/us/en/assets/7018-04792/application-notes/5992-0694.pdf)
 
 * [The Secret Life of Oscilloscope Probes](http://www.dfad.com.au/links/THE%20SECRET%20WORLD%20OF%20PROBES%20OCt09.pdf)
+* [How an Oscilloscope Probe Works, and other Stories](https://hackaday.com/2017/03/15/how-an-oscilloscope-probe-works-and-other-stories/)
 * [Oscilloscope Probes: What You Need to Know](https://www.youtube.com/watch?app=desktop&v=XQlPSFqhG08)
 * [EEVblog #1367 - 5 Types of Oscilloscope Passive Probes COMPARED](https://www.youtube.com/watch?v=rzo4Ntxqu1E&feature=youtu.be)
 * [Oscilloscope Current Probe for RF](https://www.elektormagazine.com/labs/oscilloscope-current-probe-for-rf)
