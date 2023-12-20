@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 Zero Trust Architecture is the practice of designing systems based on the principle of never trust, always verify, as opposed to the traditional trust, but verify principle . It has become quite a popular buzz word of late, in light of all the recent successful cyber attacks, compromising vast amounts of user data.
+* [A Roadmap to Zero Trust Architecture](https://assets.ctfassets.net/slt3lc6tev37/9jyDLdW3VXPGwChDCCnrx/18edf82b3d4a36595e51c16ed5c62816/Zero-Trust-Roadmap-WP.pdf)
 * [Zero Trust Hosting and Reverse Proxy via Cloudflare, SWAG and Authelia](https://www.linuxserver.io/blog/zero-trust-hosting-and-reverse-proxy-via-cloudflare-swag-and-authelia)
 * [Say Goodbye to Reverse Proxy and Hello to Cloudflare Tunnels](https://noted.lol/say-goodbye-to-reverse-proxy-and-hello-to-cloudflare-tunnels/)
 * [You should NOT use Cloudflare Tunnel (if you do this...)](https://www.youtube.com/watch?v=oqy3krzmSMA)
