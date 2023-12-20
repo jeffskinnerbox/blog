@@ -132,6 +132,8 @@ a touch screen display, and ChatGPT.
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
 * [mmWave Radar Alarm with Telegram Notifications](https://community.dfrobot.com/makelog-313113.html?tracking=64819a20b8a22)
 * [Working with MR24HPC1](https://www.hackster.io/mithun-das/working-with-mr24hpc1-281d88)
+* [Seeed Studio mmWave sensor kit – Part 1: unboxing and first impression with ESPHome and Home Assistant](https://www.cnx-software.com/2023/12/19/seeed-studio-mmwave-sensor-kit-unboxing-esphome-home-assistant/)
+    * [Seeed Studio mmWave Human Detection Sensor Kit](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
 
 
 ----------
