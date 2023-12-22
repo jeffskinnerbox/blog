@@ -12,6 +12,16 @@ Version:      0.0.0
 -----
 
 
+
+
+Consider MicroPython / CircuitPython ...
+* [Programming a NodeMCU with MicroPython: I2C Bus Part 1 (MPU6050 IMU)](https://www.youtube.com/watch?v=2ufkfd-oFrY)
+* [Programming an ESP32 NodeMCU with MicroPython](https://www.youtube.com/playlist?list=PL4Dmmk1VXA5p1_b0cCsIU2uM5nR47Whn4)
+* [Programming a NodeMCU with MicroPython](https://www.youtube.com/playlist?list=PL4Dmmk1VXA5rJDidEu4hcXum2EL7qVyo9)
+
+
+
+
 Consider using and reading ...
 * [Adafruit STEMMA Audio Amp - Mono 2.5W Class D - PAM8302](https://www.adafruit.com/product/5647)
 * [Simple MP3 Audio Playback With Raspberry Pi Pico](https://embeddedcomputing.com/technology/processing/interface-io/simple-mp3-audio-playback-with-raspberry-pi-pico)
