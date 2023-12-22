@@ -13,6 +13,9 @@ Version:      0.0.0
 
 
 
+* [Displays We Love Hacking: SPI and I2C](https://hackaday.com/2023/12/21/displays-we-love-hacking-spi-and-i2c/)
+
+
 
 # Display Types
 
