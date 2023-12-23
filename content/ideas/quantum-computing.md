@@ -43,6 +43,9 @@ this course appears to contain much of the material and approach that has disapp
     * [Quantum Computing Book Recommendations](https://www.youtube.com/watch?v=xpSevVullcQ)
     * [Quantum Book Recommendations Part 2!](https://www.youtube.com/watch?v=rbcNQB7VMtI)
 
+# Skepticism
+* [Quantum Computing’s Hard, Cold Reality Check](https://spectrum.ieee.org/quantum-computing-skeptics)
+
 # What is Computation?
 What is computation? - The rigorous study of manipulation of information / data.
 What is Computer Science? - Computer Science is the science of computation.
