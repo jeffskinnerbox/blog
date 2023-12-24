@@ -587,6 +587,24 @@ with all the Python code on the chip.
 This code is preserved between reboots,
 eliminating accidental loss of your code while developing.
 
+For many boards, when CircuitPython finishes installing,
+or you plug a CircuitPython board into your computer with CircuitPython already installed,
+the board shows up on your computer as a USB drive called `CIRCUITPY`.
+This will happen with boards that natively support USB.
+The `CIRCUITPY` drive is where your code and the necessary libraries and files will live
+and you can treat it much like any USB drive.
+
+But some boards, specifically the ones that don't support native USB,
+cannot present a `CIRCUITPY` drive.
+This includes boards using ESP32 or ESP32-C3 microcontrollers.
+On these boards, there are alternative ways to transfer and edit files.
+You can use the Thonny or Mu editor, or use the `ampy` tool.
+
+Here's what you have to know about using CircuitPython **without native USB support**:
+
+* No disk drive `CIRCUITPY` for drag-n-drop file moving, files must be moved via a special tool such as `ampy` that 'types' the file in for you via the REPL
+* You only get a REPL connection! No HID keyboard/mouse or other USB interface
+
 Sources:
 * [CircuitPython vs MicroPython: Key Differences][05]
 * [Time to Say Goodbye to Arduino and Go On to Micropython/ Adafruit Circuitpython?][07]
@@ -594,6 +612,7 @@ Sources:
 * [Drag And Drop Files On Select Arduino Boards ](https://hackaday.com/2019/05/29/drag-and-drop-files-on-select-arduino-boards/)
 * [CircuitPython Libraries on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/)
 * [Experimenting with ESP32 & ESP8266 microcontrollers](https://medium.com/@makvoid/experimenting-with-esp32-esp8266-microcontrollers-1a6e27ef15ca)
+* [The CIRCUITPY Drive](https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive)
 
 #### Step 1: Download CircuitPython Firmware
 The first thing you'll want to do is download the most recent version of CircuitPython.
@@ -869,7 +888,94 @@ Sources:
 * [CircuitPython Libraries (code)][34]
 * [CircuitPython Libraries (doc)][35]
 
-#### Step X: CircuitPython Pin to Board Pin Mapping
+#### Step X: What CircuitPython Modules are Support on my Board?
+Not every CircuitPython module is available for every board due to size constraints or hardware limitations.
+So how do you find out what modules are available for your board?
+There are two options for this.
+You can check the [support matrix][37], and search for your board by name.
+Or, you can use the REPL.
+Plug in your board, connect to the serial console and enter the REPL.
+Example below:
+
+```python
+# start a terminal session with your board
+screen /dev/ttyUSB0 115200,cs8cls
+
+# execuse a module listing
+>>> help("modules")
+__future__        canio             mdns              struct
+__main__          collections       memorymap         supervisor
+_asyncio          countio           microcontroller   synthio
+_pixelmap         digitalio         micropython       sys
+adafruit_bus_device                 displayio         msgpack           terminalio
+adafruit_bus_device.i2c_device      dualbank          neopixel_write    time
+adafruit_bus_device.spi_device      errno             nvm               touchio
+adafruit_pixelbuf espidf            onewireio         traceback
+aesio             espnow            os                ulab
+alarm             espulp            ps2io             ulab.numpy
+analogbufio       fontio            pulseio           ulab.numpy.fft
+analogio          framebufferio     pwmio             ulab.numpy.linalg
+array             frequencyio       rainbowio         ulab.scipy
+atexit            gc                random            ulab.scipy.linalg
+audiobusio        getpass           re                ulab.scipy.optimize
+audiocore         hashlib           rotaryio          ulab.scipy.signal
+audiomixer        i2cperipheral     rtc               ulab.scipy.special
+binascii          i2ctarget         sdcardio          ulab.utils
+bitbangio         io                select            uselect
+bitmaptools       ipaddress         sharpdisplay      vectorio
+board             json              socketpool        watchdog
+builtins          keypad            ssl               wifi
+busio             math              storage           zlib
+Plus any modules on the filesystem
+>>>
+
+# to find out more about a specific module
+>>> help("modules.wifi")
+object modules.wifi is of type str
+  encode -- <function>
+  find -- <function>
+  rfind -- <function>
+  index -- <function>
+  rindex -- <function>
+  join -- <function>
+  split -- <function>
+  splitlines -- <function>
+  rsplit -- <function>
+  startswith -- <function>
+  endswith -- <function>
+  strip -- <function>
+  lstrip -- <function>
+  rstrip -- <function>
+  format -- <function>
+  replace -- <function>
+  count -- <function>
+  partition -- <function>
+  rpartition -- <function>
+  center -- <function>
+  lower -- <function>
+  upper -- <function>
+  isspace -- <function>
+  isalpha -- <function>
+  isdigit -- <function>
+  isupper -- <function>
+  islower -- <function>
+>>>
+```
+
+Of course, you could also get this information via `ampy` like this:
+
+```bash
+# execuse a module listing
+echo "help('modules')" > junk ; ampy --port /dev/ttyUSB0 run junk
+
+# to find out more about a specific module
+echo "help('modules.wifi')" > junk ; ampy --port /dev/ttyUSB0 run junk
+```
+
+Sources:
+* [CircuitPython Pins and Modules](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules#circuitpython-built-in-modules-3082671)
+
+#### Step X: CircuitPython Pin to Board Pin Mapping - DONE
 This section will cover how to access your board's pins using CircuitPython,
 We need a way to determine all available CircuitPython pin names mapping to board-specific pins.
 This could be done via writen documentation but CircuitPython can provide some help.
@@ -896,7 +1002,7 @@ SCL', 'SDA', 'SPI', 'TX', 'TX0', 'TX2', 'UART', 'VN', 'VP', 'board_id']
 ```
 
 To get the CircuitPython to board pin mapping,
-execute the script below ([source of script][36]):
+we will need to execute the script below ([source of script][36]):
 
 ```python
 # SPDX-FileCopyrightText: 2020 anecdata for Adafruit Industries
@@ -906,7 +1012,9 @@ execute the script below ([source of script][36]):
 #
 # SPDX-License-Identifier: MIT
 
-"""CircuitPython Essentials Pin Map Script"""
+""" CircuitPython Pin Map Script: This script will list the mapping of physical board pins
+    to what those pins can be called in a CircuitPython script. """
+
 import microcontroller
 import board
 try:
@@ -932,11 +1040,14 @@ for pins in sorted(board_pins):
     print(pins)
 ```
 
-Place this script in the file `pin-mapping.py`, upload it to the ESP32 device
-and observer the pin mapping (not that CircuitPython may have more than one name for a pin):
+Place this script in the file `pin-mapping.py`, upload it to the ESP32 device,
+and observer the pin mapping (**NOTE** that CircuitPython may have more than one name for a pin):
 
 ```bash
-# upload but do not execute file code.py
+# check type of board, flash size, etc.
+esptool.py --port /dev/ttyUSB0 flash_id
+
+# upload and execute file pin-mapping.py
 $ ampy --port /dev/ttyUSB0 run pin-mapping.py
 board.D1 board.RX0 (GPIO1)
 board.D12 (GPIO12)
@@ -965,8 +1076,15 @@ board.VN (GPIO39)
 board.VP (GPIO36)
 ```
 
+Each line represents a single physical pin.
+Find the line containing the pin name that's labeled on the physical board (aka GPIO),
+and you'll find the other names available, used by CircuitPython,for that pin.
+For example, there is a GPIO pin numbered `18` (above shown as `(GPIO18)`).
+het line is `board.D18 board.SCK (GPIO18)`.
+This means that you can access GPIO pin numbered `18` in CircuitPython using both `board.D18` and `board.SCK`.
+
 Sources:
-* [CircuitPython Pins and Modules](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules)
+* [CircuitPython Pins and Modules](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules#circuitpython-pins-3082637)
 
 #### Step X: Setting up Web Workflow for CircuitPython
 [Workflows](https://docs.circuitpython.org/en/latest/docs/workflows.html) are the process used to
@@ -1113,6 +1231,10 @@ You'll be able to use all of AdaFruit device drivers for
 sensors, led controllers, motor drivers, HATs, bonnets, etc.
 Nearly all of these use I2C or SPI!
 
+* [Adafruit MCP2221A Breakout - General Purpose USB to GPIO ADC I2C](https://learn.adafruit.com/products/4471/guides)
+* [Adafruit MCP2221A Breakout - General Purpose USB to GPIO ADC I2C - Stemma QT / Qwiic](https://www.adafruit.com/product/4471)
+* [CircuitPython Libraries and Jupyter Notebook on any Computer with MCP2221](https://learn.adafruit.com/jupyter-on-any-computer-with-circuitpython-libraries-and-mcp2221)
+
 Sources:
 * [Adafruit-Blinka][31]
 * [Installing Blinka on Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
@@ -1120,6 +1242,15 @@ Sources:
 
 #### Step X: Mix Both MicroPython & CircuitPython Code
 * [Mix Both MicroPython & CircuitPython Code In The Same File On A Raspberry Pi Pico With Blinka](https://www.youtube.com/watch?v=l254lxm78I4)
+
+#### Step X: MicroPython & CircuitPython Coding Examples
+An extensive list of great CircuitPython and MicroPython projects can be found here.
+Great source for test projects and ideas.
+
+* [Awesome MicroPython](https://awesome-micropython.com/)
+    * [GitHub: mcauser/awesome-micropython](https://github.com/mcauser/awesome-micropython)
+* [Awesome CircuitPython](https://circuitpython.org/awesome)
+    * [GitHub: adafruit/awesome-circuitpython](https://github.com/adafruit/awesome-circuitpython)
 
 
 
@@ -1140,6 +1271,10 @@ Sources:
 ## Jupyter MicroPython Kernel
 The Jupyter Notebook community have created a kernel to interact
 with a MicroPython ESP8266 or ESP32 over its serial REPL.
+
+* [CircuitPython Libraries and Jupyter Notebook on any Computer with MCP2221](https://learn.adafruit.com/jupyter-on-any-computer-with-circuitpython-libraries-and-mcp2221)
+* [MicroPython on ESP Using Jupyter Notebook](https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9)
+* [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel/)
 
 
 # ESP32 + MicroPython
@@ -1235,7 +1370,7 @@ For extra libraries, a clone or archive of micropython/micropython-lib (git clon
 [34]:https://circuitpython.org/libraries
 [35]:https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
 [36]:https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules#what-are-all-the-available-names-3082670
-[37]:
+[37]:https://docs.circuitpython.org/en/latest/shared-bindings/support_matrix.html
 [38]:
 [39]:
 [40]:

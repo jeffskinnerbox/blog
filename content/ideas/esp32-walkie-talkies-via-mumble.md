@@ -383,7 +383,7 @@ Specifically, I'm **not** using [PlatformIO][35], as atomic14 did,
 but instead I'm using [Arduino IDE version 2.0.1][40], [Ardunio-CLI][36] and [Makefile][37].
 You'll see how I did this via the Makefile below:
 
-```
+```makefile
 #-------------------------------------------------------------------------------
 #
 # Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
