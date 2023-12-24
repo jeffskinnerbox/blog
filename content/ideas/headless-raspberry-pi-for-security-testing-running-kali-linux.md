@@ -17,6 +17,10 @@ Version:      0.0.0
 * [Kali Linux 2021.2 released: Kaboxer, Kali-Tweaks, new tools, and more!](https://www.helpnetsecurity.com/2021/06/02/kali-linux-2021-2-released/)
 * [Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
 * [Hands-On: Kali Linux on the Raspberry Pi 4](https://www.zdnet.com/article/hands-on-kali-linux-on-the-raspberry-pi-4/)
+* [A Step-by-Step Guide to Install Kali Linux on Raspberry Pi 5](https://thesecmaster.com/a-step-by-step-guide-to-install-kali-linux-on-raspberry-pi-5/)
+
+
+
 
 # Hacking Lab
 * [create the ULTIMATE hacking lab in 5min!! (Docker Containers STREAMING Kali Linux to your browser)](https://www.youtube.com/watch?v=U7e-mcJdZok)
