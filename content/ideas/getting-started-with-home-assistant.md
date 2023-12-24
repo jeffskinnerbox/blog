@@ -33,6 +33,7 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 # Picking Devices for Home Assistant Integration
 * [How to judge devices for your home](https://building.open-home.io/how-to-judge-devices-for-your-home/)
+* [Raspberry Pis, RTL-SDR and Home Automation](https://medium.com/@k0ryk/raspberry-pis-rtl-sdr-and-home-automation-9477359ac9cf)
 * [Home Assistant Integrations](https://www.home-assistant.io/integrations#all)
 
 # Matter
@@ -42,6 +43,15 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 * [Home Assistant Security Guardian BOT - Part 1](https://www.youtube.com/watch?v=2BBThH_CpSE)
 * [Home Assistant BOT Configuration - Part 2](https://www.youtube.com/watch?v=EwzTobp26zs)
 * [HABot](https://github.com/PricelessToolkit/Smart-Home-Security-Guardian-Bot)
+
+# rtl_433 Home Assistant add-ons
+"Raspberry Pi Pivot" offers step-by-step instructions to set up your Rasbian install with rtl_433.
+A follow on article show how to integrate this into Home Assistant.
+
+* [Raspberry Pi Pivot](https://medium.com/@k0ryk/raspberry-pi-pivot-419071210040)
+* [Raspberry Pis, RTL-SDR and Home Automation](https://medium.com/@k0ryk/raspberry-pis-rtl-sdr-and-home-automation-9477359ac9cf)
+* [RaspiTX Makes Dumb Devices Smart](https://medium.com/@k0ryk/raspitx-makes-dumb-devices-smart-d1f1a1de6feb)
+* [GitHub: pbkhrv/rtl_433-hass-addons](https://github.com/pbkhrv/rtl_433-hass-addons)
 
 
 
