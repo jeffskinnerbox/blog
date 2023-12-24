@@ -41,6 +41,17 @@ Version:      0.0.0
 
 
 
+# Demystifying SDR Hacking
+* [Demystifying SDR Hacking: A Deep Dive into Wireless Protocols](https://kishoreramk.medium.com/)
+    * [Part 1](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-1-db748b9171ca)
+    * [Part 2](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-2-72dd42e9a92f)
+    * [Part 3](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-3-4f66413c71d2)
+    * [Part 4](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-4-0eac58db6a58)
+    * [Part 5](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-5-778259475ece)
+    * [Part 6](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-6-296a84d18ba7)
+
+
+
 
 
 
