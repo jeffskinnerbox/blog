@@ -18,7 +18,10 @@ Model Year: 2018
 2.2GHz 6-Core Intel i7
 16G of Memory
 
-[macOS User Guide](https://support.apple.com/guide/mac-help/welcome/13.0/mac)
+* [My Mac sets up itself—with Ansible!](https://www.youtube.com/watch?v=1VhPVu5EK5o)
+    * [Mac setup and configuration via Ansible](https://github.com/geerlingguy/mac-dev-playbook)
+
+* [macOS User Guide](https://support.apple.com/guide/mac-help/welcome/13.0/mac)
 
 # Install Chrome Browser
 
