@@ -1099,6 +1099,8 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
     * [DNA computing](https://en.wikipedia.org/wiki/DNA_computing)
 
 # Computation - P vs NP vs NP-Complete vs NP-Hard
+* [P vs. NP and the Computational Complexity Zoo](https://www.youtube.com/watch?v=YX40hbAHx3s)
+* [P vs. NP: Computer Science's Greatest Unsolved Problem](https://www.youtube.com/watch?v=pQsdygaYcE4)
 * [P vs. NP | Complexity Theory Explained Visually](https://www.youtube.com/watch?v=rK3xcRYLWeg)
 * [NP-COMPLETENESS - The Secret Link Between Thousands of Unsolved Math Problems](https://www.youtube.com/watch?si=FNRVmadSYZ9eflMu&v=ctwX--JEzSA&feature=youtu.be)
 * [Beyond Computation: The P vs NP Problem - Michael Sipser](https://www.youtube.com/watch?v=msp2y_Y5MLE)
