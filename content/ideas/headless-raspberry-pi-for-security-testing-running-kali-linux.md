@@ -109,12 +109,13 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 * [Is My Password Safe? Practices for People Who Know Better](http://hackaday.com/2017/04/07/is-my-password-safe/)
 * [How to Find Passwords Using Wireshark](http://www.instructables.com/id/How-to-Find-Passwords-Using-Wireshark/)
 
-# Kit Kat Klock
+# Kit-Cat Clock Build
 * [How to Build a Hacking Raspberry Pi](https://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
 
 * [Kit-Cat Klock](https://kit-cat.com/)
 * [Kit-Cat](http://www.canadianclockco.com/kit-cat-clocks)
 * [Small Kit-Cat Clock in Black](https://www.amazon.com/Kitty-Cat-Klock-Classic-Black/dp/B00GNJ9I5K/ref=asc_df_B00GNJ9I5K/?tag=hyprod-20&linkCode=df0&hvadid=191970712264&hvpos=1o1&hvnetw=g&hvrand=12606860438882738637&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9007586&hvtargid=pla-300946248453&psc=1)
+* [This Clock's Eyes Follow You](https://www.youtube.com/watch?v=_Q_u6tILufY)
 
 # USB Attach Platform
 [Top 10 Gadgets Every White & Black Hat Hacker Use & Needs In Their Toolkit](https://www.youtube.com/watch?v=uVnMy1qtJWc)
