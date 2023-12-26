@@ -22,6 +22,7 @@ Version:      0.0.0
 * [A Dangerous Demonstration Of The Power Of Radio](https://hackaday.com/2020/04/16/a-dangerous-demonstration-of-the-power-of-radio/)
 
 # Early Radio Types
+* [How to make the world's easiest Radio ! Do it yourself at home!](https://www.youtube.com/watch?v=w18z059DzOU)
 * [Antique Wireless Association (AWA)](https://www.antiquewireless.org/homepage/)
 * [Antique Wireless Museum](https://www.youtube.com/channel/UCX55peBhzeX1qps_VYXdLBA)
 * [History of Radio](https://en.wikipedia.org/wiki/History_of_radio)
