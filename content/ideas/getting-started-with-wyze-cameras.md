@@ -276,6 +276,25 @@ Set up
 
 
 
+-----
+
+
+
+# Open IP Camera Firmware (OpenIPC)
+* [OpenIPC](https://openipc.org/) Alternative IP Camera firmware from an open community
+* [GitHub: OpenIPC](https://github.com/OpenIPC)
+* [OpenIPC community](https://www.youtube.com/@openipc)
+
+# Digital FPV using OpenIPC and WFB-NG
+* [Introducing OpenIPC, the cheapest digital long range FPV system in the world](https://www.youtube.com/watch?v=Z_41Dko-Iok)
+* [MarioFPV](https://www.youtube.com/@mariofpv) Video tutorials and test flights related to FPV drones and RC planes.
+* [LDO EP426 - w/ Special Guest MARIOFPV of OpenIPC](https://www.youtube.com/watch?v=af1LuUxZ5dY)
+* [ WiFi in Raw Mode (WFB-ng)](https://github.com/svpcom/wfb-ng)
+* [Video Streaming Data-link using WiFi in Raw Mode (WFB-ng)](https://docs.px4.io/main/en/companion_computer/video_streaming_wfb_ng_wifi.html)
+
+
+
+
 [01]:https://wyzelabs.zendesk.com/hc/en-us/articles/360030110891-Wyze-Cam-Setup-Guide
 [02]:https://www.cnet.com/news/best-home-security-cameras-of-the-year-wyze-arlo-and-more/
 [03]:https://wyzelabs.zendesk.com/hc/en-us/articles/360031488091-How-to-Format-your-microSD-card
