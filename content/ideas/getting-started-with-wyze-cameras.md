@@ -133,7 +133,22 @@ Sources:
 * [OFFICIAL RTSP Support! Use Wyze cams with any NVR | Smart Home | Home Assistant](https://www.youtube.com/watch?v=YPiHs44i0TA)
 * [How to Set Up Wyze Official RTSP Firmware : Use Wyze Cams with Network DVRs!](https://www.youtube.com/watch?v=e0SgzWwt7yI)
 
-# How to install the RTSP Firmware
+
+
+-----
+
+
+
+# Home Surveillance Using Wyze Cams
+Sources:
+* [Turn any Wyze Cam into IP cam with Docker](https://www.youtube.com/watch?v=l2S6XIj0iE0)
+* [Easily Get Wyze Cam Into Any App // Wyze Docker Bridge](https://www.youtube.com/watch?v=YZVJ1yvdobE)
+* [Wyze RTSP Via Docker ! How to set it up on Synology - No Hacks Subscription or Firmware Required!](https://www.youtube.com/watch?v=lFJyWpa1bo0)
+
+* [Home Surveillance Using Wyze Cams (Part 1)](https://www.youtube.com/watch?v=0tHQq2uiUO0)
+* [Home Surveillance Using Wyze Cams (Part 2)](https://www.youtube.com/watch?v=yJjgrBPhhdk)
+
+## How to install the RTSP Firmware
 Real Time Streaming Protocol (RTSP) is a standard network protocol designed to establish and control media sessions between endpoints.
 
 Installation procedures are documented [here][05].
@@ -141,7 +156,7 @@ You can transfer the `demo.bin` file to the same microSD card your using to capt
 
 RTSP Access
    user name: jirland
-   password: zippitydo
+   password: <password>
    URL: rtsp://jirland:zippitydo@192.168.1.80/live
 
 ```bash
