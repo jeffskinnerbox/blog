@@ -157,6 +157,15 @@ Does this tell us enough about the distinction between the classical & quantum c
 | It is something that connects people, organizations, products and technologies. | Whereas, these are about changing the notion of computation itself. |
 
 
+# Homemade Quantum Computer
+All you'll need is:
+   * a weak red laser pointer (the type in cat toys are generally safe)
+   *  polarizing film or polarizing filter. If you have polaroid glasses or certain camera ND filters you may already have this. Otherwise it's available on amazon
+   *  half waveplate (the plastic thing) is this one: https://www.edmundoptics.co.uk/f/poly... (λ/2 Retarder Film (WP280))
+   *  You don't need calcite, but if you want to play with it, you can find it on etsy usually. Look for a sample that's exceptionally clear
+
+* [What can my homemade quantum computer do?](https://www.youtube.com/watch?v=tHfGucHtLqo)
+* [I made a (useless) quantum computer at home](https://www.youtube.com/watch?v=muoIG732fQA)
 
 
 # Probabilistic Computing
