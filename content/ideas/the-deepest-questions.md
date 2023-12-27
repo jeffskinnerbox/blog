@@ -1094,6 +1094,9 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [epic conway's game of life](https://www.youtube.com/watch?v=C2vgICfQawE)
 * [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
 
+# Very Hard Computational Problems
+* Reachability Problem / Vector Addition System (VAS): [An Easy-Sounding Problem Yields Numbers Too Big for Our Universe](https://www.quantamagazine.org/an-easy-sounding-problem-yields-numbers-too-big-for-our-universe-20231204/)
+
 # What Does Computing Mean?
 * [Liquid Computer Made From DNA Comprises Billions of Circuits](https://www.sciencealert.com/liquid-computer-made-from-dna-comprises-billions-of-circuits)
     * [DNA computing](https://en.wikipedia.org/wiki/DNA_computing)
