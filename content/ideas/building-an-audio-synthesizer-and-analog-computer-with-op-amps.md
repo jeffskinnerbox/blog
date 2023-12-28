@@ -321,7 +321,12 @@ Doesn't seem to work???
 
 
 # Analog Computer
+An analog computer is a physical system configured so that it is governed by equations identical to the ones you want to solve. You impose initial conditions corresponding to those in the system you want to investigate and then allow the variables in the analog computer to evolve with time. This result provides the solution to the relevant equations.
+
 ![analog-computer](https://dzone.com/storage/temp/12682364-connection-netwok.jpg)
+
+* [Try This Brand New Analog Computer](https://spectrum.ieee.org/try-this-new-analog-computer)
+* [NOT YOUR FATHER’S ANALOG COMPUTER](https://spectrum.ieee.org/not-your-fathers-analog-computer)
 
 * [The Analog Thing](https://the-analog-thing.org/)
 * [THE ANALOG THING – First Steps](https://the-analog-thing.org/THAT_First_Steps.pdf)
