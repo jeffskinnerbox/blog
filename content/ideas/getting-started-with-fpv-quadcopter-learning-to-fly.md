@@ -14,6 +14,8 @@ Version:      0.0.0
 
 * [Why You Should NOT Buy An FPV Drone... (And Why You Should)](https://www.youtube.com/watch?v=dYcIK0dB3YU)
 
+* [FPV Jargon Buster - Acronyms and Slang Explained](https://www.dronetrest.com/t/fpv-jargon-buster-acronyms-and-slang-explained/9867)
+
 
 # Things to Carry With You
 * [Are you flying under the Recreational Flyer Exemption? - Must be pure recreational, without purpose](https://cdn.fs.teachablecdn.com/UqWFGjGQSnC1y5JmGB1H)

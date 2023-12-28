@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 * [Caddx Goggles X Questions Firmware & HDMI - Its Just Not Good Enough](https://www.youtube.com/watch?v=sjQYSTWbrqQ)
+    * [Caddx Avatar HD Goggles X Update - How To & Discussion](https://www.youtube.com/watch?v=EhOi91cIbQ0)
 * [Caddx Walksnail Goggles X FPV Goggles Antenna Ports - What Transmits & Receives](https://www.youtube.com/watch?v=8Wa_XjQBKqs)
 
 
@@ -113,6 +114,7 @@ At the same time, analog is comparatively in expensive and will always have a us
 To address this, key feature to look for within digital goggles is support of analog video transmitters, and some can!
 
 Sources:
+* [Review: Walksnail Avatar Goggles X – Enhanced Versatility, User Experience and Future-proofing](https://oscarliang.com/walksnail-avatar-goggles-x/)
 * [Walksnail Goggles X For Avatar HD - All In One FPV With Some Compromises!](https://www.youtube.com/watch?v=ti3zyavDOow)
 * [Is Walksnail Goggles X Your Ultimate FPV Goggle?](https://www.youtube.com/watch?v=9PXz_zB8qfY)
 * [Avatar Goggles X: Latency Test, Flight Footage and Review](https://www.youtube.com/watch?v=giQUHcDA1cY)
@@ -323,6 +325,78 @@ Sources:
 
 
 
+------
+
+
+
+
+------
+
+
+
+# Quick Start: Walksnail Avatar HD Goggles X
+The [Walksnail.app][19] website and the instruction that come with the Goggle X provide the best information sources:
+
+* [Quick Start Guide: Walksnail Avatar HD Goggles X - version 1.1](https://drive.google.com/file/d/1cHqAo9fJaTjIRYDzmEljbj7aH-69VpwK/view)
+* [All WalkSnail & FatShark Avatar Firmware Releases](https://walksnail.app/firmware)
+* [Caddx Avatar HD Goggles X Update - How To & Discussion](https://www.youtube.com/watch?v=EhOi91cIbQ0)
+
+[OscarLiang.com][16] provides a very detailed outline on how to setup the Walksnail product line.
+While necicsarily specific to the Avatar HD Goggles X, the procedures are informative:
+
+* [How to Setup Walksnail Avatar Digital HD FPV System](https://oscarliang.com/setup-avatar-fpv-system/#How-to-Update-Firmware-on-GogglesVRX)
+
+## How to Check Firmware Version on Goggles X
+
+## How to Update Firmware on Goggles X
+Here’s the summary:
+
+Download the upgrade firmware with a file name like this: AvatarX_Gnd_X.X.X.img (X.X.X is the version number). Copy it to the root directory of the SD card. Make sure NOT to change the file name.
+Insert SD card back in the goggles, and plug in the battery to power them on.
+When you see the home screen, press and hold the link button on the Goggles for 8 seconds, and the Goggles should automatically restart and start beeping. (Do not power off during the upgrade.
+The firmware update can take around 5 to 10 minutes, when complete, the beeping should stop and the goggles will reboot.
+
+
+
+Flashing Firmware
+You can download firmware files from one of these sites:
+
+Official releases: https://caddxfpv.com/pages/download
+Latest/Beta releases: https://avatar-firmware.d3vl.com/
+Fatshark’s own download site: https://fatshark.helpscoutdocs.com/article/174-dominator-with-avatarhd
+There are 4 firmware files, for different devices:
+
+Avatar_Sky is for the VTX
+Avatar_Gnd is for the Avatar/Fatshark Dominator HD goggles
+AvatarSE_Gnd is for the VRX module
+AvatarMini_Gnd is for the Fatshark Recon HD goggles
+Make sure to power your goggles and VTX with a fully charged battery as the update can take up to 10 minutes. Powering down during update might brick your devices.
+
+Fatshark Dominator HD goggles can flash the Avatar Goggles firmware (that’s what I’ve been doing and no issue so far), and according to many comments I’ve read online they are basically the same goggles just different in colors.
+
+The Avatar Mini Gnd is for Fatshark Recon HD Goggles.
+
+
+
+Download Avatar_Gnd_xx.xx.x.IMG
+Take the SD card out of the goggles and insert it into your computer
+Put the Avatar_Gnd_xx.xx.x.img file to the root directory of the SD card
+Eject the SD card and put it it back into the Avatar goggles
+Power up the goggles and wait until you see the Standby screen
+Push and hold the Link button for 8-10 seconds. The headset screen will go black indicating the start of the update process
+The update will take a few minutes
+During the update, the goggles will beep. This is normal. DO NOT turn off the headset until the update is finished
+When the update is complete, the beeping will stop and the headset will boot back up to the Standby screen
+
+## Flight Video Recording
+Cross-platform tool for rendering the flight controller On Screen Display (OSD) and SubRip Subtitle (SRT) data from the Walksnail Avatar HD FPV system on top of the goggle or VRX recording
+
+* [Add Walksnail OSD To Your Flight Video after Your Flight!](https://www.youtube.com/watch?v=eI3lojDyZ8U)
+* [GitHub: avsaase/walksnail-osd-tool](https://github.com/avsaase/walksnail-osd-tool)
+* [What is an SRT File and How do I Make One?](https://www.youtube.com/watch?app=desktop&v=2Z1sxaLehdI)
+
+
+
 [01]:https://caddxfpv.com/products/walksnail-avatar-hd-goggles-x
 [02]:https://caddxfpv.com/
 [03]:https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service
@@ -338,10 +412,10 @@ Sources:
 [13]:https://cdn.shopifycdn.net/s/files/1/0597/9668/4956/files/SteadyView_ELRS_USER_Manual_V1.0.pdf
 [14]:https://www.expresslrs.org/hardware/backpack/esp-backpack/
 [15]:https://www.youtube.com/watch?v=ISzX80aK9T0
-[16]:
+[16]:https://oscarliang.com/
 [17]:https://www.arrl.org/ham-radio-licenses
 [18]:https://hamradioprep.com/find-an-exam-near-you/
-[19]:
+[19]:https://walksnail.app/
 [20]:
 [21]:https://www.arrl.org/getting-your-technician-license
 [22]:https://www.arrl.org/part-97-text

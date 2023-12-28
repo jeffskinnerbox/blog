@@ -50,6 +50,8 @@ Sources:
 
 # Selecting and Caring for LiPo Batteries
 * [A Guide to Understanding LiPo Batteries](https://www.rogershobbycenter.com/lipoguide)
+* [LiPo 3S Battery 101: All About LiPo 3S Batteries](https://www.batteryequivalents.com/lipo-3s-battery-101-all-about-lipo-3s-batteries.html)
+* [LiPo Battery Charge Rate Calculator](https://www.hopptbattery.com/a-quick-guide-of-manufacturing-options-for-wearables-4/)
 
 ## How are LiPo Batteries Identified
 There are four main ratings that you need to be aware of on a LiPo battery.
@@ -526,6 +528,22 @@ but the LED indicator turns off and starts beeping in abnormal situation (aka th
 
 
 
+------
+
+
+
+# CellMeter
+I also purchased a [Cellmeter 8 Digital Battery Capacity Checker][13] from Amazon in October of 2023.
+This device support battery types LiPo, LiFe, Li-ion, NiCd, NiMH
+It measure battery cell voltages, total voltages, lowest cell voltage, highest cell voltage,
+voltage gap between highest cell voltage and lowest cell voltage, remaining battery capacity (%).
+
+Sources:
+* [How to Use the CellMeter 8](https://www.youtube.com/watch?v=xAI3VjOPfN4)
+* [DRASTICALLY REDUCE your storage charge time. Cellmeter 8. Tech Tuesday](https://www.youtube.com/watch?v=rWcpb_nSEqM)
+
+
+
 [01]:https://en.wikipedia.org/wiki/Lithium-ion_battery
 [02]:https://en.wikipedia.org/wiki/Lithium_polymer_battery
 [03]:https://robocraze.com/blogs/post/lithium-ion-vs-lithium-polymer-battery
@@ -533,10 +551,12 @@ but the LED indicator turns off and starts beeping in abnormal situation (aka th
 [05]:https://en.wikipedia.org/wiki/Specific_energy
 [06]:https://en.wikipedia.org/wiki/Memory_effect
 [07]:https://en.wikipedia.org/wiki/Self-discharge
-
-[50]:http://www.tenergy.com/01321
-[51]:https://www.amazon.com/iFlight-Stopper-Short-Circuit-Protection-Inspecting/dp/B08MT4YKJY
-[52]:https://en.wikipedia.org/wiki/Thermal_runaway
+[08]:
+[09]:https://en.wikipedia.org/wiki/Dynamic_braking
+[10]:https://en.wikipedia.org/wiki/Electronic_speed_control
+[11]:https://www.hobbypartz.com/07e-hobbywing-led-programcard.html
+[12]:https://www.amazon.com/gp/product/B071777MG2/
+[13]:https://www.amazon.com/gp/product/B08K8WZ828/?th=1
 
 [27]:https://www.amazon.com/gp/product/B00466PKE0/ref=ppx_yo_dt_b_asin_title_o08_s01
 [28]:https://www.thesmartconsumer.com/best-lipo-charger
@@ -547,10 +567,10 @@ but the LED indicator turns off and starts beeping in abnormal situation (aka th
 [33]:https://betafpv.com/collections/batt-1s/products/bt2-0-550mah-1s-battery-4pcs
 [34]:https://viflydrone.com/products/vifly-whoopstor-6-ports-1s-battery-storage-charger-discharger
 
-[09]:https://en.wikipedia.org/wiki/Dynamic_braking
-[10]:https://en.wikipedia.org/wiki/Electronic_speed_control
-[11]:https://www.hobbypartz.com/07e-hobbywing-led-programcard.html
-[12]:https://www.amazon.com/gp/product/B071777MG2/
+[50]:http://www.tenergy.com/01321
+[51]:https://www.amazon.com/iFlight-Stopper-Short-Circuit-Protection-Inspecting/dp/B08MT4YKJY
+[52]:https://en.wikipedia.org/wiki/Thermal_runaway
+
 
 
 

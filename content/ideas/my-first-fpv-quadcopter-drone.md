@@ -19,6 +19,10 @@ We choose to go to the moon.  We choose to go to the moon in this decade and do 
 
 
 
+* [FPV Jargon Buster - Acronyms and Slang Explained](https://www.dronetrest.com/t/fpv-jargon-buster-acronyms-and-slang-explained/9867)
+
+
+
 
 # Great Sources of FPV Quadcopter Information
 * Chris Rosser's [website](https://www.cncdrones.com/) and [videos](https://www.youtube.com/@ChrisRosser) and [AOS Labs](https://www.aos-rc.com/aos-labs) for drone engineering, testing, & physics
