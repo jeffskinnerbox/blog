@@ -333,6 +333,7 @@ Train a quantum computer the same way as a neural network.
 * [episode 5: the collapse of the wavefunction](https://medium.com/carre4/towards-a-demystification-of-quantum-mechanics-91bcada12348)
 * [The Karpinsky Interpretation of Quantum Mechanics](https://medium.com/@john_99387/the-karpinsky-interpretation-of-quantum-mechanics-7013db304c4d)
 * [Duality Of Light Explored By Revisiting The Double-Slit Experiment](https://hackaday.com/2020/10/18/duality-of-light-explored-by-revisiting-the-double-slit-experiment/)
+* [The 9 Experiments That Will Change Your View of Light (And Blow Your Mind)](https://www.youtube.com/watch?v=QqY8fY0TqaQ)
 
 # Towards a Demystification of Quantum Computers
 * [Quantum Computers, explained with MKBHD](https://www.youtube.com/watch?v=e3fz3dqhN44)
