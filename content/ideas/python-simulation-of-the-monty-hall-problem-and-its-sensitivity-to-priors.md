@@ -195,6 +195,7 @@ What if you knew one of the children's day of week they where born?
 * [A Fascinating Prisoner’s Puzzle](https://www.cantorsparadise.com/a-fascinating-prisoners-puzzle-be874032f43e)
 * [Impossible Escape?](http://datagenetics.com/blog/december12014/index.html)
 * [The almost impossible chessboard puzzle](https://www.youtube.com/watch?v=as7Gkm7Y7h4)
+* [What The Prisoner's Dilemma Reveals About Life, The Universe, and Everything](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 # P-Value
 * [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
