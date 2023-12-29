@@ -49,3 +49,9 @@ Measure the latency of a video-output/video-capture combination.
 * [GitHub: svpcom/latency-clock](https://github.com/svpcom/latency-clock)
 * [High-Resolution Timer](https://openipc.org/tools/high-resolution-timer)
 
+# OpenHD
+OpenHD is a suite of software designed for long-range video transmission, telemetry, and RC control. While we originally designed it with hobbyist drones in mind, it can be adapted to a wide range of other applications as well.
+* [OpenHD](https://openhdfpv.org/)
+* [GitHub: OpenHD/OpenHD](https://github.com/OpenHD/OpenHD)
+* [OpenHD vs Alternatives](https://openhd.gitbook.io/open-hd/general/openhd-vs-alternatives)
+
