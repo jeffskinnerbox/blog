@@ -141,8 +141,8 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 # delete the install script
 rm -rf ~/miniconda3/miniconda.sh
 
-# add a conda initialize to your bash
-~/miniconda3/bin/conda init bash
+# add a conda initialize to your bash   <-- DO NOT run `conda init bash` if you plan to use `~/.dotfile` since it already contains the changes needed for `~/.bashrc`
+#~/miniconda3/bin/conda init bash
 
 # verify the installation
 conda list
