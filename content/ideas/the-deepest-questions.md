@@ -1078,6 +1078,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [What Are Electrons REALLY Doing In A Wire? Quantum Physics and High School Myths](https://www.youtube.com/watch?v=KGJqykotjog)
 * [How Wrong Is VERITASIUM? A Lamp and Power Line Story](https://www.youtube.com/watch?v=iph500cPK28)
 * [I bought 1000 meters of wire to settle a physics debate](https://www.youtube.com/watch?v=2Vrhk5OjBP8)
+* [Deep Dive Historical Response to Veritasium’s DC Electricity Video](https://www.youtube.com/watch?v=MyzhyhN2038)
 
 # Cryptography & Complexity
 * [Randomness and Kolmogorov Complexity](https://www.youtube.com/watch?v=0cHHKDAelCo)
