@@ -21,6 +21,8 @@ Version:      0.0.0
 * [OpenIPC Community](https://opencollective.com/openipc)
 
 * [The OpenIPC build part 1: What is OpenIPC, and what am I using to build it?](https://www.youtube.com/watch?v=1CDIukf8AJw)
+* [Introducing OpenIPC SSC338Q-IMX415, the World’s Cheapest 120fps Digital FPV System](https://youtu.be/tXwiZFD6-yc?si=-c8HQ-oiGNX4hWdX )
+* [OpenIPC FPV - NVR Ground Station](https://youtu.be/vSJiUanWA9I?si=tHdtHiIp7RQkbYjc)
 
 # Digital FPV using OpenIPC and WFB-NG
 * [Introducing OpenIPC, the cheapest digital long range FPV system in the world](https://www.youtube.com/watch?v=Z_41Dko-Iok)
