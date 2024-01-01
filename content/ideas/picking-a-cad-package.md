@@ -174,6 +174,9 @@ to check the integrity of circuit designs and to predict circuit behavior.
 * [TI And Cadence Make PSpice Free](https://hackaday.com/2020/09/20/ti-and-cadence-make-pspice-free/)
 * [PSpice for TI](https://e2e.ti.com/blogs_/b/analogwire/archive/2020/09/14/how-to-simulate-complex-analog-power-and-signal-chain-circuits-with-pspice-for-ti)
 
+### QSpice
+* [Qorvo’s QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice/)
+
 ### Xyce
 * [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
 * [Xyce](https://xyce.sandia.gov/)
