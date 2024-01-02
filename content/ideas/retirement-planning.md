@@ -157,6 +157,7 @@ The best strategy to claim Social Security retirement benefits as a spouse is to
 * [How Are Social Security Spousal Benefits Calculated?](https://www.investopedia.com/ask/answers/081915/how-are-spousal-benefits-calculated-social-security.asp)
 * [Do You Qualify for Social Security Spouse’s Benefits?](https://blog.ssa.gov/do-you-qualify-for-social-security-spouses-benefits/)
 * [When should I apply for Social Security?](https://www.fidelity.com/retirement-planning/estimate-social-security-benefits)
+* [Retire at 62, 67, 70? 8 Ways To Avoid Mistakes](https://www.youtube.com/watch?v=VNyFKBbT2uM)
 * [Social Security spousal benefits: Here’s what spouses can get](https://www.bankrate.com/retirement/social-security-spousal-benefits/)
 * [Social Security Spouse's Benefit Estimates](https://www.ssa.gov/myaccount/spousal-benefits.html)
 
