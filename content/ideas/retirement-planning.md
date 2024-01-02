@@ -150,6 +150,16 @@ That’s why it’s known as a deferred income annuity (or a longevity annuity).
 
 # Social Security
 
+## Social Security Spouse's Benefit Estimates
+The spousal benefit can be as much as half of the worker's "primary insurance amount," depending on the spouse's age at retirement. If the spouse begins receiving benefits before "normal (or full) retirement age," the spouse will receive a reduced benefit.
+The best strategy to claim Social Security retirement benefits as a spouse is to wait until you reach normal retirement age, 65 to 67, depending on birth year
+
+* [How Are Social Security Spousal Benefits Calculated?](https://www.investopedia.com/ask/answers/081915/how-are-spousal-benefits-calculated-social-security.asp)
+* [Do You Qualify for Social Security Spouse’s Benefits?](https://blog.ssa.gov/do-you-qualify-for-social-security-spouses-benefits/)
+* [When should I apply for Social Security?](https://www.fidelity.com/retirement-planning/estimate-social-security-benefits)
+* [Social Security spousal benefits: Here’s what spouses can get](https://www.bankrate.com/retirement/social-security-spousal-benefits/)
+* [Social Security Spouse's Benefit Estimates](https://www.ssa.gov/myaccount/spousal-benefits.html)
+
 ## Taxes on Social Security
 You will pay tax on only 85% of your Social Security benefits, based on Internal Revenue Service (IRS) rules.
 If you:
