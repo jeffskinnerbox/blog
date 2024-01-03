@@ -127,6 +127,8 @@ Also can inport NMEA files for displaying.
 * [GPS Tracking Comparisons](https://www.sparkfun.com/tutorials/169)
 * [Building a GPS System](https://www.sparkfun.com/gps)
 * [Building A GPS With Bug Eyes And Ancient Wisdom](https://hackaday.com/2019/09/06/building-a-gps-with-bug-eyes-and-ancient-wisdom/)
+* [Building A GPS Receiver From The Ground Up](https://hackaday.com/2024/01/02/building-a-gps-receiver-from-the-ground-up/)
+    * [GitHub: leaningktower/Analog-GPS-data-receiver](https://github.com/leaningktower/Analog-GPS-data-receiver)
 
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [Product Showcase: SparkFun GNSS Receiver MAX-M10S](https://www.youtube.com/watch?v=Yh8pLKs7aaY)
