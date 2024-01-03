@@ -125,19 +125,22 @@ Betaflight firmware was at version 4.4.2 (my [80mm Meteor75 Pro 1S][04] quadcopt
 and the flight controller was the [F4 1S 5A AIO Brushless Flight Controller (aka BETAFPVF411)][05].
 
 Sources:
-* [NEW Betaflight 4.3 - Full Setup & Walkthrough](https://www.youtube.com/watch?v=udOHBCORSrE)
-* [Betaflight 4.3 Complete Walkthrough](https://www.youtube.com/watch?v=LkBWRiEGKTI&list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE)
-* [BF4.3 Complete Tuning Guide](https://www.youtube.com/watch?v=Ro4YMCLJ1dU&list=PLFPBjpbd5xKRnjNpYMep7MxovfhMBIzxP)
-* [Betaflight 4.3 Rates Tuning: Rates are even more important than PIDs for flight feel in 4.3](https://www.youtube.com/watch?v=_WqKaJ79HGU)
-* [Betaflight 4.3.x Release](https://www.youtube.com/playlist?list=PLcYNkvInloJHTrzHe5vaucUEOL41Raqcl)
-
-* [Betaflight 4.4 Tuning Guide + Tips and Tricks for the BEST tune!](https://www.youtube.com/watch?v=sNAV4gx_gBY)
-* [New Betaflight 4.4 features I'm actually excited about (get it yourself today!)](https://www.youtube.com/watch?v=YzE0V4GFzTw)
-* [Betaflight 4.4 Features DISAPPEAR ... because of Cloud Build?](https://www.youtube.com/watch?v=YmTq68M-NkU)
-* [Why Betaflight 4.4 GPS Sucks, and How To Fix It](https://www.youtube.com/watch?v=5fBDqeAoqvI)
-
-* [Betaflight 4.3 Setup for Whoops](https://www.youtube.com/watch?v=xdcPO6NIUnc)
-* [Calibrate & Trim Betaflight Tiny Whoop Accelerometer | HOW TO FIX ANGLE MODE](https://www.youtube.com/watch?v=otJNzZrE-yk)
+* Betaflight 4.3
+    * [NEW Betaflight 4.3 - Full Setup & Walkthrough](https://www.youtube.com/watch?v=udOHBCORSrE)
+    * [Betaflight 4.3 Complete Walkthrough](https://www.youtube.com/watch?v=LkBWRiEGKTI&list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE)
+    * [BF4.3 Complete Tuning Guide](https://www.youtube.com/watch?v=Ro4YMCLJ1dU&list=PLFPBjpbd5xKRnjNpYMep7MxovfhMBIzxP)
+    * [Betaflight 4.3 Rates Tuning: Rates are even more important than PIDs for flight feel in 4.3](https://www.youtube.com/watch?v=_WqKaJ79HGU)
+    * [Betaflight 4.3.x Release](https://www.youtube.com/playlist?list=PLcYNkvInloJHTrzHe5vaucUEOL41Raqcl)
+    * [Betaflight 4.3 Setup for Whoops](https://www.youtube.com/watch?v=xdcPO6NIUnc)
+* Betaflight 4.4
+    * [Betaflight 4.4 Tuning Guide + Tips and Tricks for the BEST tune!](https://www.youtube.com/watch?v=sNAV4gx_gBY)
+    * [New Betaflight 4.4 features I'm actually excited about (get it yourself today!)](https://www.youtube.com/watch?v=YzE0V4GFzTw)
+    * [Betaflight 4.4 Features DISAPPEAR ... because of Cloud Build?](https://www.youtube.com/watch?v=YmTq68M-NkU)
+    * [Why Betaflight 4.4 GPS Sucks, and How To Fix It](https://www.youtube.com/watch?v=5fBDqeAoqvI)
+* Betaflight 4.5
+    * [These Betaflight 4.5 Features Are Worth Upgrading For!](https://www.youtube.com/watch?v=FMbBfef_R-g)
+* General
+    * [Calibrate & Trim Betaflight Tiny Whoop Accelerometer | HOW TO FIX ANGLE MODE](https://www.youtube.com/watch?v=otJNzZrE-yk)
 
 ### Betaflight Configurator
 [Betaflight Configurator][06] is a crossplatform (i.e. Windows, Mac, Linux) configuration tool for the Betaflight flight control system.
