@@ -53,6 +53,7 @@ You may want a realistic photo renderings of your 3D CAD models.
 * [Photorender Your 3D Models](https://hackaday.com/2021/03/15/photorender-your-3d-models/)
 * [THIS IS NOT REAL: LIFELIKE RENDERINGS FROM EAGLE FILES](https://hackaday.com/2012/06/05/this-is-not-real-lifelike-renderings-from-eagle-files/)
 * [REMOTICON VIDEO: KICAD TO BLENDER PCB RENDERS](https://hackaday.com/2020/12/23/remoticon-video-kicad-to-blender-pcb-renders/)
+* [From KiCad to Blender for a Stunning Render](https://hackaday.com/2024/01/03/from-kicad-to-blender-for-a-stunning-render/)
 
 # Electronics Design Automation (EDA)
 Electronic design automation (also referred to as electronic computer-aided design)
