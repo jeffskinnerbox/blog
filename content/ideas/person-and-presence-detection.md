@@ -70,6 +70,9 @@ This can be done by making use of:
     * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
 * [Mini ESP32 TV](https://www.thingiverse.com/thing:6330378)
 * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
+* [The Most Adorable Little Raspberry Pi Computer You’ve Seen All Year](https://www.hackster.io/news/the-most-adorable-little-raspberry-pi-computer-you-ve-seen-all-year-b8501e237b53)
+    * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
+    * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
 
 ## Other Ideas
 * [Whisper AI](https://openai.com/blog/whisper/)
