@@ -12,6 +12,13 @@ Version:      0.0.0
 ----
 
 
+* [19 Home Automation Ideas For Your Smarthome](https://hometechhacker.com/home-automation-ideas-smarthome/)
+
+
+
+
+
+
 [Sweet Hom 3D](https://www.sweethome3d.com/) is a free interior design application
 which helps you draw the plan of your house, arrange furniture on it and visit the results in 3D.
 
