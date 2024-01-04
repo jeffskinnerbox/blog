@@ -173,3 +173,15 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [AI-Generated Philosophy Is Weirdly Profound](https://www.youtube.com/watch?v=wves5FsVUXA)
 * [The Infinite Conversation](https://infiniteconversation.com/)
 
+
+
+-----
+
+
+
+# GPT-4 Vision / Visual Language Models (VLM)
+* [What to know about open-source alternatives to GPT-4 Vision](https://bdtechtalks.com/2024/01/04/gpt-4-vision-open-source-alternatives/)
+* [GitHub: haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA/tree/main)
+* [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/)
+
+
