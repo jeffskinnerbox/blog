@@ -323,6 +323,10 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 * [GPS Raspberry Pi NTP Server](https://blog.networkprofile.org/gps-backed-local-ntp-server/)
 * [Chrony NTP Service / Local Server and Client](https://www.youtube.com/watch?v=jxHP0Vycdaw)
 
+### Pi Zero Platform for Grandmaster Clock
+* [Sipeed's Longan Pi 3H Packs Full-Size Ports Into a Raspberry Pi Zero Footprint](https://www.hackster.io/news/sipeed-s-longan-pi-3h-packs-full-size-ports-into-a-raspberry-pi-zero-footprint-eec86d9e3ce8)
+* [Orange Pi Zero 2W 4GB with Expansion Board Allwinner H618 LPDDR4 Quad Core CPU 64 Bit Single Board Computer](https://www.amazon.com/Expansion-Allwinner-Computer-Frequency-Bluetooth/dp/B0CHS8CKYD?th=1)
+
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
