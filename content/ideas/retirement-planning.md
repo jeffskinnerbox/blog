@@ -251,6 +251,12 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 * [Here’s What a $1 Million Retirement Looks Like in America](https://www.wsj.com/articles/heres-what-a-1-million-retirement-looks-like-in-america-11671890735)
 * [Here’s What a $2 Million Retirement Looks Like in America](https://www.wsj.com/articles/heres-what-a-2-million-retirement-looks-like-in-america-11661702455)
 
+# Healthcare Costs
+According to Fidelity’s annual retiree health care cost estimate, a single 65-year-old could need about $157,500 after taxes to cover their health care expenses in retirement, and a couple could need $315,000.
+
+* [The 'wealth transfer' from boomers won't save Gen X and millennials](https://www.nbcnews.com/business/consumer/generational-wealth-transfer-baby-boomers-cant-save-gen-x-millennials-rcna128099)
+* [How to plan for rising health care costs](https://www.fidelity.com/viewpoints/personal-finance/plan-for-rising-health-care-costs)
+
 # Retirement Budget
 * [How to Create a Retirement Budget](https://money.usnews.com/money/retirement/baby-boomers/articles/how-to-create-a-retirement-budget)
 * [Retirement expenses worksheet](https://investor.vanguard.com/calculator-tools/retirement-expenses-worksheet/)
