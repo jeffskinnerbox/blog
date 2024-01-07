@@ -51,7 +51,7 @@ This can be done by making use of:
     * [EarthCam](https://www.earthcam.com/)
 * [Door Viewer Peephole](https://www.amazon.com/Viewer-Peephole-220-degree-Rotating-Privacy/dp/B07DVT97QW)
 
-* [The Watcher](https://en.wikipedia.org/wiki/The_Watcher_(2022_TV_series)
+* [The Watcher](https://en.wikipedia.org/wiki/The_Watcher_(2022_TV_series))
 
 # DNS DriveBy
 * [AlexLynd / ProbeHunter](https://github.com/AlexLynd/ProbeHunter)
