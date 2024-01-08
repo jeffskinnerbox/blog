@@ -27,7 +27,8 @@ on the [Connection Machine](https://en.wikipedia.org/wiki/Connection_Machine) in
 
 While the Connection Machine only [lives in museums today](https://tamikothiel.com/cm/),
 its design (both its computation architecture and physical form) has had an interesting impact.
-See ["The Design of the Connection Machine"](https://www.tamikothiel.com/theory/cm_txts/index.html).
+See ["The Design of the Connection Machine"](https://www.tamikothiel.com/theory/cm_txts/index.html)
+and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD-UYbm8Ksg&t=26s).
 
 * Richard Feynman
     * [Simulating Physics with Computers](https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf)
