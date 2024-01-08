@@ -555,6 +555,10 @@ So what is inside big iron?
 Take a look at this [[tear down of a $250,000 1991 vintage IBM 9121 TCM Processor module|https://www.youtube.com/watch?v=xQ3oJlt4GrI&feature=youtu.be]]
 from a System/390 ES9000 Enterprise Server mainframe computer.
 Check out the [[history of NASA's supercomputers|https://www.youtube.com/watch?v=t5ArVnTp_Kg]].
+By the way, Roy Longbottom has a website titled "[[Cray 1 Supercomputer Performance Comparisons With Home Computers Phones and
+Tablets|http://www.roylongbottom.org.uk/Cray%201%20Supercomputer%20Performance%20Comparisons%20With%20Home%20Computers%20Phones%20and%20Tablets.htm]]".
+There he states: _"In 1978, the Cray-1 supercomputer cost $7 million, weighed 10,500 pounds and had a 115 kilowatt power supply. It was, by far, the fastest computer in the world. ...
+The Raspberry Pi costs around $70 (CPU board, case, power supply, SD Card), weighs a few ounces, uses a five watt power supply and is more than 4.5 times faster than the Cray 1."_
 
 While it still lives among us, you could argue that in this wireless world
 [[Ethernet technology is retro-technology at the age of 40+ years|https://hackaday.com/2020/10/19/ethernet-at-40-from-a-napkin-sketch-to-multi-gigabit-links/]].
