@@ -19,6 +19,16 @@ Never the less, if you read the course description and syllabus further,
 this course appears to contain much of the material and approach that has disappointed me in the past.
 
 # Origin Stories
+Richard Feynman wrote his famous paper titled "Simulating Physics with Computers" concerning the need for quantum computing in May of 1981.
+I often wonder why he had an interest in computation.
+The web article ["Richard Feynman and The Connection Machine"](https://longnow.org/essays/richard-feynman-and-connection-machine/)
+concerning his work at [Thinking Machines Corporation](https://en.wikipedia.org/wiki/Thinking_Machines_Corporation)
+on the [Connection Machine](https://en.wikipedia.org/wiki/Connection_Machine) in the 1980's sheds some light on how and why.
+
+While the Connection Machine only [lives in museums today](https://tamikothiel.com/cm/),
+its design (both its computation architecture and physical form) has had an interesting impact.
+See ["The Design of the Connection Machine"](https://www.tamikothiel.com/theory/cm_txts/index.html).
+
 * Richard Feynman
     * [Simulating Physics with Computers](https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf)
     * [Simulating Physics with Computers: Presented by Pinchas Birnbaum and Eran Tromer](https://www.wisdom.weizmann.ac.il/~naor/COURSE/feynman-simulating.pdf)
