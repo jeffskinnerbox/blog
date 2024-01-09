@@ -18,6 +18,7 @@ Version:      0.0.0
     * [Caddx Avatar HD Goggles X Update - How To & Discussion](https://www.youtube.com/watch?v=EhOi91cIbQ0)
 * [Caddx Walksnail Goggles X FPV Goggles Antenna Ports - What Transmits & Receives](https://www.youtube.com/watch?v=8Wa_XjQBKqs)
 * [CaddX FPV Goggles X Overheating Explored - What Is Going On?](https://www.youtube.com/watch?v=CCBAy7WU5jc)
+    * [Goggles X New Firmware Update - Did The Fix The Thermal Issue ?](https://www.youtube.com/watch?v=NNnGt994mt4)
 * [Caddx Walksnail Goggles X - Analog input problem](https://www.youtube.com/watch?v=EgTJesEsdgw)
 
 

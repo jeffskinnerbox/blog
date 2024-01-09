@@ -11,7 +11,27 @@ Version:      0.0.0
 
 -----
 
+
+
 * [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+
+
+# What About Anaconda?
+* [Anaconda](https://www.anaconda.com/distribution/)
+* [Anaconda Python Tutorial: Everything You Need to Know](https://dzone.com/articles/python-anaconda-tutorial-everything-you-need-to-kn)
+* [Getting started with Anaconda Python for data science](https://opensource.com/article/18/4/getting-started-anaconda-python)
+* [How To Install the Anaconda Python Distribution on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04)
+    * [How to Install Anaconda on Ubuntu 18.04 17.04 16.04](https://www.youtube.com/watch?v=UbzZtzLxxo0)
+
+* [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
+* [Installing anaconda over existing python system?](https://stackoverflow.com/questions/34906338/installing-anaconda-over-existing-python-system)
+* [Jupyter Standalone Might Just Be Better Than Anaconda](https://towardsdatascience.com/jupyter-standalone-might-just-be-better-than-anaconda-53104da05eee)
+* []()
+* []()
+
+
+
+
 
 
 Although Python applications can be made of a single file,
@@ -120,7 +140,7 @@ and use Pip for package version management.
 Sources:
 * [Environments, Conda, Pip, aaaaah!: Managing Python environments without a headache](https://towardsdatascience.com/environments-conda-pip-aaaaah-d2503877884c)
 
-# Installation of Your Python Environment
+# Installation of Your Python Environment - DONE
 The following steps install Miniconda.
 Not only will Miniconda will be installed but your `bash` shell environment
 (specifically the files `.bashrc` or `.bash_profile`)
@@ -130,22 +150,25 @@ Also, if the environment variable $PYTHONPATH is set, you will get a warning lik
 
 ```bash
 # create a directory to install miniconda in
-mkdir -p ~/miniconda3
+mkdir -p ~/.miniconda3
 
 # download latest miniconda version
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/.miniconda3/miniconda.sh
 
 # run the install script
-bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+bash ~/.miniconda3/miniconda.sh -b -u -p ~/.miniconda3
 
 # delete the install script
-rm -rf ~/miniconda3/miniconda.sh
+rm -rf ~/.miniconda3/miniconda.sh
 
 # add a conda initialize to your bash   <-- DO NOT run `conda init bash` if you plan to use `~/.dotfile` since it already contains the changes needed for `~/.bashrc`
-#~/miniconda3/bin/conda init bash
+#~/.miniconda3/bin/conda init bash
 
-# verify the installation
+# verify the installation by listing the contents of the install
 conda list
+
+# list the envirnments established (should only be 'base')
+conda env list
 ```
 
 Following the steps above, restart the terminal and Miniconda is ready to go.
@@ -158,7 +181,7 @@ conda env export > environment.yml
 
 # locate miniconda directory and delete it
 ls ~ | grep miniconda
-rm -rf ~/miniconda3
+rm -rf ~/.miniconda3
 
 # remove conda configuration files (optional)
 rm -rf ~/.condarc ~/.conda
@@ -173,7 +196,7 @@ Sources:
 * [How to Uninstall Miniconda on Linux: A Guide](https://saturncloud.io/blog/how-to-uninstall-miniconda-on-linux-a-guide/)
 
 # Typical Workflow
-#### Step 1: Create and Activate Environment - DONE
+#### Step 1: Create and Activate Environment
 The typical workflow for a Python project is to create an environment for each project or task,
 just to keep things separate.
 You create an environment using `conda`:
@@ -227,7 +250,7 @@ exporting the environment on the source device, then importing it on the target 
 
 ```bash
 # export the environment by activate it first
-conda activate test:way
+conda activate test
 conda env export > environment.yml
 
 # import the environment on the target device
@@ -251,7 +274,7 @@ conda deactivate
 conda env remove --name test
 ```
 
-What is deleted is in the directory `~/miniconda3/envs/<env_name>`
+What is deleted is in the directory `~/.miniconda3/envs/<env_name>`
 It does not delete any of the Python development you have done.
 
 In some cases, you may encounter a corrupted Conda environment where the above command doesn't work.

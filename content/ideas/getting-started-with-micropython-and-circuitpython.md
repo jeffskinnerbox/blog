@@ -19,9 +19,22 @@ Version:      0.0.0
 
 
 
-# First, Master Python
+# First, Learn & Master Python
 * [9 Things You Do That Shows You Are Not A Professional Python Developer](https://python.plainenglish.io/9-things-you-do-that-show-you-are-not-a-python-professional-b8e0681af9e3)
 * [Python — Avoid “from module import *”](https://tonylixu.medium.com/python-avoid-from-module-import-d644e837ecf3)
+
+* [Python 10 minutes a day](https://python-10-minutes-a-day.rocks/)
+* [Real Python](https://realpython.com/)
+* [The Python Tutorial](https://docs.python.org/3/tutorial/)
+* [Introduction to Conda for (Data) Scientists](https://edcarp.github.io/introduction-to-conda-for-data-scientists/)
+
+* [Adafruit CircuitPython API Reference](https://docs.circuitpython.org/en/latest/docs/)
+* [Todbot's CircuitPython Tricks](https://learn.adafruit.com/todbot-circuitpython-tricks)
+* [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials)
+* [Module Support Matrix - Which Modules Are Available on Which Boards](https://docs.circuitpython.org/en/latest/shared-bindings/support_matrix.html)
+* [Circuit Python Tutorials](https://www.youtube.com/watch?v=eU1e6xPvZEU&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&index=1)
+
+
 
 
 
@@ -118,6 +131,23 @@ Learning CircuitPython won't detract your possibilities in quickly adopting Micr
 Sources:
 * [What’s the difference between CPython, MicroPython, & CircuitPython anyway?](https://picockpit.com/raspberry-pi/whats-the-difference-between-micropython-circuitpython-cpython-anyway/)
 * [CircuitPython vs MicroPython | Orlando Python](https://www.youtube.com/watch?v=5eS3DUxRRqM)
+* [Getting Started with MicroPython](https://python.plainenglish.io/getting-started-with-micropython-c09dd0bbe33c)
+* [Getting Started with MicroPython on ESP32 – Hello World, GPIO, and WiFi](https://www.cnx-software.com/2017/10/16/esp32-micropython-tutorials/)
+
+## CircuitPython and CircuitPython Libraries
+There is an important difference between CircuitPython and CircuitPython Libraries:
+
+* **CircuitPython** is a microprocessor specific implementation of Python written in C.
+It includes chip-specific code that controls the hardware peripherals on the microcontroller,
+including things like USB, I2C, SPI, GPIO pins,
+and all the rest of the hardware features the chip provides.
+This is something standard Python provides minimal or no support.
+Here is the [main CircuitPython guide][48].
+* **CircuitPython Libraries** is a sensor & breakout specific code written in Python,
+using the CircuitPython hardware API,
+using the modules provided by CircuitPython to control the
+sensors and interact with various breakout boards.
+Check out the [Adafruit CircuitPython Library Bundle][49].
 
 ## Python's Read-Eval-Print-Loop (REPL)
 All these vesion of Python use the [read–eval–print loop (REPL)][09] paridigm,
@@ -151,6 +181,274 @@ Sources:
 * [Is Python's GIL the software world's biggest blunder?](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/Is-Pythons-GIL-the-software-worlds-biggest-blunder)
 
 
+
+
+
+
+
+
+
+
+
+
+-----
+
+
+
+# Setting up Web Workflow for CircuitPython
+[Workflows](https://docs.circuitpython.org/en/latest/docs/workflows.html) are the process used to
+(1) manipulate files on the CircuitPython device and
+(2) interact with the serial connection to CircuitPython.
+CircuitPython supports workflows for USB, BLE, and Web connectivity.
+
+Web workflow is enabled when a file named `settings.toml` is added to the
+root folder of the CircuitPython file system.
+This file contains local WiFi info and other settings.
+
+* [Setting up Web Workflow](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow)
+* [MicroPython — OTA Updates and GitHub, a match made in heaven](https://medium.com/@ronald.dehuysser/micropython-ota-updates-and-github-a-match-made-in-heaven-45fde670d4eb)
+    * [How to add Over-the-Air updates to your MicroPython projects](https://www.youtube.com/watch?v=f1widOJYQDc)
+* [micropython-ota: Micropython library for upgrading code over-the-air (OTA)](https://pypi.org/project/micropython-ota/)
+* [ESP32 MicroPython Tutorial with Raspberry Pi](https://www.youtube.com/watch?v=w15-EQASP_Y)
+* [ESP32 / ESP8266 MicroPython: Running scripts from a computer](https://techtutorialsx.com/2017/06/03/esp32-esp8266-micropython-running-scripts-from-a-computer/)
+
+#### Step X: CircuitPython Supported Bootloads
+A bootloader is an application whose primary purpose is to allow the systems software
+that has to be updated without using any specialized hardware such as a JTAG programmer.
+The bootloader (1) manages the system's establishment of the new system image,
+(2) receives new program information externally via some communication means
+and writes that information to the program memory of the processor.
+
+USB Flashing Format (UF2) Bootloader
+Adafruit SAMD21 (M0) and SAMD51 (M4) boards feature an improved bootloader that makes it easier than ever to flash different code onto the microcontroller.
+Instead of needing drivers or a separate program for flashing (e.g. `esptool.py`, `avrdude`), one can simply drag a file onto a removable drive.
+The [format of the file](https://github.com/Microsoft/uf2) extra information to help the bootloader know where the data goes.
+
+Direct Firmware Update (DFU) Bootloader
+STM Bootloader
+
+Sources:
+* [Non-UF2 Installation](https://learn.adafruit.com/welcome-to-circuitpython/non-uf2-installation)
+* [Installing CircuitPython on ESP32](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/installing-circuitpython)
+* [UF2 Bootloader Details](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details)
+
+#### Step X: CircuitPython's Recommended Editors
+For CircutiPython, we should consider adding additional tool,
+the [Mu Editor][33] and/or [Thonny IDE][27].
+
+##### Install Mu
+Mu is a vey simple editor create specifically for beginner Python programmers.
+
+```bash
+# download the AppImage
+cd ~/Downloads
+mkdir mu-editor
+cd mu-editor
+wget https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.tar
+
+# make sure you have the right permmisions ... you in the dialout group
+$ groups jeff
+jeff : jeff adm dialout cdrom sudo dip plugdev lpadmin lxd sambashare vboxusers
+
+# untar the AppImage
+tar -xf MuEditor-Linux-1.2.0-x86_64.tar
+
+# install dependencies
+sudo apt install libfuse2
+
+# move the mu-editor executable to you bin and create symbolic links to it
+cp Mu_Editor-1.2.0-x86_64.AppImage ~/bin
+ln --symbolic ~/bin/Mu_Editor-1.2.0-x86_64.AppImage ~/bin/mu-editor
+ln --symbolic ~/bin/Mu_Editor-1.2.0-x86_64.AppImage ~/bin/mu
+
+# what version of mu-editor is loaded
+# see mu-editor title bar
+1.2.0
+```
+
+Now explore how to use Mu by following the following video:
+* [CircuitPython Tutorial](https://www.youtube.com/watch?v=opes_7Uf49U)
+
+##### Install Thonny
+Thonny is a more porwerful than Mu in that its an IDE.
+
+```bash
+#install thonny
+pip3 install thonny
+
+# identify where thonny was installed
+$ whereis thonny
+thonny: /home/jeff/.local/bin/thonny
+
+# what version of thonny is loaded
+# see main menu > Help > About Thonny
+4.1.4
+```
+
+Now explore how to use Thonny by following the following video:
+* [Programming an ESP32 NodeMCU with MicroPython: Setup with Thonny](https://www.youtube.com/watch?v=BzAo48cFhS8)
+* [Getting Started with Raspberry Pi Pico W and CircuitPython](https://www.youtube.com/watch?v=56N_8FI_WLU)
+
+```bash
+# erease the entire flash on the esp32
+esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+
+# flash the firmware starting at address 0x0 (different for micropython)
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin
+```
+
+If it becomes necessary to uninstall Thonny,
+use the following procedure:
+
+```bash
+# uninstall thonny
+pip3 unisntall thonny
+```
+
+Sources:
+* [Recommended Editor](https://learn.adafruit.com/welcome-to-circuitpython/recommended-editors)
+* [How to Install and Use Thonny Python IDE on Linux](https://www.tecmint.com/thonny-python-ide/)
+* [Programming an ESP32 NodeMCU with MicroPython: Setup with Thonny](https://www.youtube.com/watch?v=BzAo48cFhS8)
+* [How to install Mu on Linux](https://codewith.mu/en/howto/1.2/install_linux)
+
+#### Step X: CircuitPython's Use of Serial Console
+
+Sources:
+* [Connecting to the Serial Console](https://learn.adafruit.com/welcome-to-circuitpython/kattni-connecting-to-the-serial-console)
+
+#### Step X: CircuitPython's Use of CIRCUITPY Drive
+CIRCUITPY Drive - https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive
+It is important to remember that the ESP32 lacks native USB support and therefore no CIRCUITPY folder will show up. Loading CircuitPython firmware and getting wifi setup is done over a serial connection instead of a folder.
+Because of this, the process for getting things setup on the ESP32 is different and more involved than other boards. So we're giving it some special attention.
+
+For boards lacking native USB, like the ESP32 and ESP32-C3, no folder will show up after pressing reset. If CircuitPython firmware was loaded, the REPL can be accessed over a serial COM port.
+
+For other boards, like ESP32-S2, -S3, etc., a BOOT folder should show up. A CircuitPython UF2 file can now be copied over to the BOOT folder, after which the CIRCUITPY folder should then show up.
+
+## Step X: Setting up Web Workflow for CircuitPython
+[Workflows](https://docs.circuitpython.org/en/latest/docs/workflows.html) are the process used to
+(1) manipulate files on the CircuitPython device and
+(2) interact with the serial connection to CircuitPython.
+CircuitPython supports workflows for USB, BLE, and Web connectivity.
+
+Web workflow is enabled when a file named `settings.toml` is added to the
+root folder of the CircuitPython file system.
+This file contains local WiFi info and other settings.
+
+* [Setting up Web Workflow](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow)
+
+#### Step X: CircuitPython Supported Bootloads
+A bootloader is an application whose primary purpose is to allow the systems software
+that has to be updated without using any specialized hardware such as a JTAG programmer.
+The bootloader (1) manages the system's establishment of the new system image,
+(2) receives new program information externally via some communication means
+and writes that information to the program memory of the processor.
+
+USB Flashing Format (UF2) Bootloader
+Adafruit SAMD21 (M0) and SAMD51 (M4) boards feature an improved bootloader that makes it easier than ever to flash different code onto the microcontroller.
+Instead of needing drivers or a separate program for flashing (e.g. `esptool.py`, `avrdude`), one can simply drag a file onto a removable drive.
+The [format of the file](https://github.com/Microsoft/uf2) extra information to help the bootloader know where the data goes.
+
+Direct Firmware Update (DFU) Bootloader
+STM Bootloader
+
+Sources:
+* [Non-UF2 Installation](https://learn.adafruit.com/welcome-to-circuitpython/non-uf2-installation)
+* [Installing CircuitPython on ESP32](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/installing-circuitpython)
+* [UF2 Bootloader Details](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details)
+
+#### Step X: CircuitPython's Recommended Editors
+For CircutiPython, we should consider adding additional tool,
+the [Mu Editor][33] and/or [Thonny IDE][27].
+
+##### Install Mu
+Mu is a vey simple editor create specifically for beginner Python programmers.
+
+```bash
+# download the AppImage
+cd ~/Downloads
+mkdir mu-editor
+cd mu-editor
+wget https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.tar
+
+# make sure you have the right permmisions ... you in the dialout group
+$ groups jeff
+jeff : jeff adm dialout cdrom sudo dip plugdev lpadmin lxd sambashare vboxusers
+
+# untar the AppImage
+tar -xf MuEditor-Linux-1.2.0-x86_64.tar
+
+# install dependencies
+sudo apt install libfuse2
+
+# move the mu-editor executable to you bin and create symbolic links to it
+cp Mu_Editor-1.2.0-x86_64.AppImage ~/bin
+ln --symbolic ~/bin/Mu_Editor-1.2.0-x86_64.AppImage ~/bin/mu-editor
+ln --symbolic ~/bin/Mu_Editor-1.2.0-x86_64.AppImage ~/bin/mu
+
+# what version of mu-editor is loaded
+# see mu-editor title bar
+1.2.0
+```
+
+Now explore how to use Mu by following the following video:
+* [CircuitPython Tutorial](https://www.youtube.com/watch?v=opes_7Uf49U)
+
+##### Install Thonny
+Thonny is a more porwerful than Mu in that its an IDE.
+
+```bash
+#install thonny
+pip3 install thonny
+
+# identify where thonny was installed
+$ whereis thonny
+thonny: /home/jeff/.local/bin/thonny
+
+# what version of thonny is loaded
+# see main menu > Help > About Thonny
+4.1.4
+```
+
+Now explore how to use Thonny by following the following video:
+* [Programming an ESP32 NodeMCU with MicroPython: Setup with Thonny](https://www.youtube.com/watch?v=BzAo48cFhS8)
+* [Getting Started with Raspberry Pi Pico W and CircuitPython](https://www.youtube.com/watch?v=56N_8FI_WLU)
+
+```bash
+# erease the entire flash on the esp32
+esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
+
+# flash the firmware starting at address 0x0 (different for micropython)
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin
+```
+
+If it becomes necessary to uninstall Thonny,
+use the following procedure:
+
+```bash
+# uninstall thonny
+pip3 unisntall thonny
+```
+
+Sources:
+* [Recommended Editor](https://learn.adafruit.com/welcome-to-circuitpython/recommended-editors)
+* [How to Install and Use Thonny Python IDE on Linux](https://www.tecmint.com/thonny-python-ide/)
+* [Programming an ESP32 NodeMCU with MicroPython: Setup with Thonny](https://www.youtube.com/watch?v=BzAo48cFhS8)
+* [How to install Mu on Linux](https://codewith.mu/en/howto/1.2/install_linux)
+
+#### Step X: CircuitPython's Use of Serial Console
+
+Sources:
+* [Connecting to the Serial Console](https://learn.adafruit.com/welcome-to-circuitpython/kattni-connecting-to-the-serial-console)
+
+#### Step X: CircuitPython's Use of CIRCUITPY Drive
+CIRCUITPY Drive - https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive
+It is important to remember that the ESP32 lacks native USB support and therefore no CIRCUITPY folder will show up. Loading CircuitPython firmware and getting wifi setup is done over a serial connection instead of a folder.
+Because of this, the process for getting things setup on the ESP32 is different and more involved than other boards. So we're giving it some special attention.
+
+For boards lacking native USB, like the ESP32 and ESP32-C3, no folder will show up after pressing reset. If CircuitPython firmware was loaded, the REPL can be accessed over a serial COM port.
+
+For other boards, like ESP32-S2, -S3, etc., a BOOT folder should show up. A CircuitPython UF2 file can now be copied over to the BOOT folder, after which the CIRCUITPY folder should then show up.
 
 
 
@@ -202,6 +500,8 @@ Have the manual/pin diagram of your board at hand to find correspondence between
 For example pins that are connected to external SPI flash should not be used,
 and a board may only expose a certain selection of pins.
 
+## MicroPython Firmware Installation
+
 #### Step 1: Download MicroPython Firmware - DONE
 Flashing of firnware will vary from MCU board to MCU board.
 For any given ESP board, there is only one firmware package to download
@@ -217,33 +517,25 @@ but it is best to use the pre-built binary which you can
 >In my case, I'm using the standard & non-spiram firmware.
 >Also other options are available, like OTA support, so choose wisely to conserve memory.
 
-Here is what I did:
+Here is what I did with **MicoPython**:
 
 ```bash
 # make a directory for store firmware bin files
 mkdir ~/Downloads/micropython
 cd ~/Downloads/micropython
 
-# get the esp32 firmware you wish to use, in my case latest generic and another with OTA added
-wget https://micropython.org/resources/firmware/ESP32_GENERIC-20231005-v1.21.0.bin
-wget https://micropython.org/resources/firmware/ESP32_GENERIC-OTA-20231005-v1.21.0.bin
+# micropython - get the esp32 firmware you wish to use, multiple possibilities listed here
+wget https://micropython.org/resources/firmware/ESP32_GENERIC-20231005-v1.21.0.bin        # for HiLetgo ESP-WROOM32 - https://micropython.org/download/ESP32_GENERIC/
 ```
 
 #### Step 2: Install Your MicroPython Flashing Tool - DONE
 The binary files just downloaded need to be flashed to the ESP32.
 Firmware flashing on the ESP32 (and for ESP8266) board is done using the [`esptool.py` program][20].
-To install the latest version of `esptool.py`:
 
-```bash
-# install the latest version of esptool.py
-sudo apt install python-pip
-sudo pip install --upgrade pip
-sudo pip install esptool --upgrade
-```
-In my case, I choose to use my existing version of `esptool.py`
-I have been using for all my C++ based coding for the ESP processors.
-That version is found here:
+In my case, I choose to use my version of `esptool.py`
+that I have been doing for all my C++ coding for the ESP processors found here:
 `~/.arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool.py`.
+It wasn't necessary to use this version but just a convenience.
 
 #### Step 3: Install Utility to Manipulate Files via USB - DONE
 The MicroPython tool [`ampy`][08] is a simple command line tool to manipulate files
@@ -413,7 +705,9 @@ Leaving...
 Hard resetting via RTS pin...
 ```
 
-### Step 5: Validate MicroPython Firmware is Working - DONE
+## Validation of the CircuitPython Installs
+
+#### Step 1: Validate MicroPython Firmware is Working - DONE
 Once you have the firmware installed,
 you can access the REPL (aka Python prompt) over the ESP32 USB connection
 (or over UART0 depending on your board) via a serial terminal.
@@ -486,7 +780,7 @@ Plus any modules on the filesystem
 >>>
 ```
 
-#### Step 6: Validate MicroPython REPL Operation - DONE
+#### Step 2: Validate MicroPython REPL Operation - DONE
 After termination the above `screen` session (since we need the `/dev/ttyUSB0` device),
 perfrm these operations:
 
@@ -510,25 +804,49 @@ Using `screen /dev/ttyUSB0 115200,cs8cls` again,
 type the Python script below into the REPL prompt:
 
 ```python
-def do_connect():
-    import network
+""" CircuitPython WiFi Startup Script: Scan for WiFi networks, prompt the user
+    for SSID & password, initiate a WiFi connection to the device, and then
+    do a ping test to google.com for validate you have a connection.
 
-    ssid = input('What is your WiFi SSID?\n')
-    password = input('What is your WiFi password?\n')
+    Source: https://gist.github.com/todbot/7534740779cd64a2ce636d14ecb6e5af
+            https://learn.adafruit.com/iot-led-sign/circuitpython-internet-test """
 
-    wlan = network.WLAN(network.STA_IF)
-    wlan.active(True)
+import wifi
+import ipaddress
 
-    if not wlan.isconnected():
-        print('connecting to network...')
-        wlan.connect(ssid, password)
-        while not wlan.isconnected():
-            pass
+# scanning for wifi networks
+print('\n\nScanning for available WiFi networks...')
+print('{:^24s}{:^5s}{:^10s}{:^55s}'.format('SSID', 'RSSI', 'Channels', 'Autentication Mode'))
+for ap in wifi.radio.start_scanning_networks():
+    print('{:<24s}{:<5d}{:^10d}{:^55s}'.format(ap.ssid, ap.rssi, ap.channel, str(ap.authmode)))
+wifi.radio.stop_scanning_networks()
 
-    print('network config:', wlan.ifconfig())
+# request wifi network you wish to join
+ssid = input('\nWhat is your WiFi SSID: ')
+password = input('What is your WiFi password: ')
+
+# join your requested network
+print("\nAttempting to join requested network...")
+wifi.radio.connect(ssid, password)
+print("IP address: ", wifi.radio.ipv4_address)
+
+# check if you are connected by doing a ping
+print('\nPerforming ping test...')
+ping_ip = ipaddress.IPv4Address("8.8.8.8")
+ping = wifi.radio.ping(ip = ping_ip)
+
+# retry ping once more if it timed out
+if ping is None:
+    ping = wifi.radio.ping(ip = ping_ip)
+
+if ping is None:
+    print("Couldn't ping 'google.com' successfully")
+else:
+    # convert seconds to milliseconds
+    print(f"Pinging 'google.com' took: {ping * 1000} ms")
 ```
 
-You could also copy the above program into a file (`junk.py`)
+You could also copy the above program into a file (`code.py`)
 and upload it to the ESP32:
 
 ```bash
@@ -536,15 +854,21 @@ and upload it to the ESP32:
 $ ampy --port /dev/ttyUSB0 ls -l
 /boot.py - 139 bytes
 
-# upload file junk.py
-ampy --port /dev/ttyUSB0 put junk.py
+# upload file code.py
+ampy --port /dev/ttyUSB0 put code.py
 
-# upload but do not execute file junk.py
-ampy --port /dev/ttyUSB0 run --no-output junk.py
+# upload but do not execute file code.py
+ampy --port /dev/ttyUSB0 run --no-output code.py
 
-# contents of file system after upload (unchanged)
+# contents of file system after upload
 $ ampy --port /dev/ttyUSB0 ls -l
-/boot.py - 139 bytes
+/.Trashes - 0 bytes
+/.fseventsd - 0 bytes
+/.metadata_never_index - 0 bytes
+/boot_out.txt - 121 bytes
+/code.py - 1570 bytes
+/lib - 0 bytes
+/settings.toml - 0 bytes
 
 # serial terminal into the esp32
 screen /dev/ttyUSB0 115200,cs8cls
@@ -566,21 +890,22 @@ and the requests module for th HTTP requests.
 # Test Drive of CircuitPython
 Adafruit has embraced MicroPython, extended it, and calls their version [CircuitPython][04].
 So CircuitPython is a derivative of MicroPython,
-but Adafruit's objective is to simplify things for the novice
+but Adafruit's objective is to simplify things for the novice user,
 so they changes a few things to make the language easier to learn and use.
 Adafruit has also created its own MicroPython/CircuitPython compatible hardware.
 The video's below help explain the differences
 and Adafruit's [documentation][06] go into the details.
 
-A nice feature of CircuitPython is its compatability with Raspberry Pi.
-AdaFruit provides a special library called [adafruit_blinka][31]
-to provide the layer that translates the CircuitPython hardware API
-to whatever library the Linux board provides, such as the Raspberry Pi Python [RPi.GPIO library][32].
+A nice feature of CircuitPython is its compatability with Linux.
+AdaFruit provides a special library called [Adafruit-Blinka][31]
+that supplies CircuitPython APIs for non-CircuitPython versions of Python, such as CPython, on Linux and MicroPython.
+Adafruit-Blinka provide the layer that translates the CircuitPython hardware API
+to whatever relivent library the Linux board provides, such as the Raspberry Pi Python [RPi.GPIO library][32].
 The upshot is that any code we have for CircuitPython will be instantly
-and easily runnable on Linux computers like Raspberry Pi.
+and easily runnable on Linux computers like Raspberry Pi, Ubuntu, etc.
 
 Maybe the single most important difference might be
-Adafruit/CircuitPython's support of SAMD microcontroller chip's on their boards.
+CircuitPython's support of SAMD microcontroller chip's on their boards.
 This chip give you native USB connectivity,
 so a serial connection to the board will give you access to a filesystem
 with all the Python code on the chip.
@@ -614,7 +939,9 @@ Sources:
 * [Experimenting with ESP32 & ESP8266 microcontrollers](https://medium.com/@makvoid/experimenting-with-esp32-esp8266-microcontrollers-1a6e27ef15ca)
 * [The CIRCUITPY Drive](https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive)
 
-#### Step 1: Download CircuitPython Firmware
+## CircuitPython Firmware Installation
+
+#### Step 1: Download CircuitPython Firmware - DONE
 The first thing you'll want to do is download the most recent version of CircuitPython.
 Some boards from AdaFruit and others com pre-installed with CircuitPython,
 so make sure you're running the latest version!
@@ -634,22 +961,58 @@ Here is what I did:
 mkdir ~/Downloads/circuitpython
 cd ~/Downloads/circuitpython
 
-# get the esp32 firmware you wish to use
-wget https://downloads.circuitpython.org/bin/doit_esp32_devkit_v1/en_US/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin
+# micropython - get the esp32 firmware you wish to use, multiple possibilities listed here
+wget https://downloads.circuitpython.org/bin/doit_esp32_devkit_v1/en_US/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin            # for DOIT ESP32 Development Board - https://circuitpython.org/board/doit_esp32_devkit_v1/
+wget https://downloads.circuitpython.org/bin/seeed_xiao_esp32c3/en_US/adafruit-circuitpython-seeed_xiao_esp32c3-en_US-8.2.9.bin                # for Seeed Studio XIAO ESP32C3 - https://circuitpython.org/board/seeed_xiao_esp32c3/
+wget https://downloads.circuitpython.org/bin/unexpectedmaker_tinys2/en_US/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-8.2.9.bin        # for Unexpected Maker TinyS2 - https://circuitpython.org/board/unexpectedmaker_tinys2/
+wget https://downloads.circuitpython.org/bin/unexpectedmaker_feathers3/en_US/adafruit-circuitpython-unexpectedmaker_feathers3-en_US-8.2.9.bin  # for Unexpected Maker FeatherS3 - https://circuitpython.org/board/unexpectedmaker_feathers3/
+wget https://downloads.circuitpython.org/bin/adafruit_kb2040/en_US/adafruit-circuitpython-adafruit_kb2040-en_US-8.2.9.uf2                      # for Adafruit KB2040 - https://circuitpython.org/board/adafruit_kb2040/
+wget https://downloads.circuitpython.org/bin/adafruit_kb2040/en_US/adafruit-circuitpython-qtpy_m0-en_US-8.2.9.uf2                              # for Adafruit QT PY - https://circuitpython.org/board/qtpy_m0/
 ```
+
+I'm particularly interested in exploring the CircuitPython MCPs
+[Adafruit KB2040][38], [Unexpected Maker FeatherS3][39], [Unexpected Maker TinyS2][40], and [Seeed Studio XIAO ESP32C3][42].
+All have builtin audio modules that I hope to use in an audio project
+(Adafruit KB2040 has `audiobusio`, `audiocore`, `audiomixer`, `audiomp3`, `audiopwmio`,
+and Unexpected Maker FeatherS3 & Unexpected Maker TinyS2 have `audiobusio`, `audiocore`, `audiomixer`,
+and Seeed Studio XIAO ESP32C3 having only `audiocore`, `audiomixer`).
+My project also requires WiFi, and unfortunately, the most "audio-capable" MCP (Adafruit KB2040) doesn't have it.
+The [Adafruit QT PY][44] is a "just for fun" tiny board.
 
 Sources:
 * [Installing CircuitPython](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython)
 
 #### Step 2: Install Your CircuitPython Flashing Tool - DONE
-The binary files just downloaded need to be flashed to the ESP32.
-This is done using the same tool as MicroPython, and document above,
+The binary files just downloaded need to be flashed to the ESP32 or RP2040.
+For the ESP32, this is done using the same tool as MicroPython, and document above,
 the [`esptool.py` program][20].
-For me, that version is found here:
-`~/.arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool.py`.
+
+In my case, I choose to load the latest version of `esptool.py`
+into a [Miniconda environment][41] to be specifically used for CircuitPython work.
+So first, I create a special environment for my CircuitPython coding:
+
+```bash
+# create an environment using conda
+#    a single ‘=’ we tell conda to use the latest version in the Python 3 release tree, at the moment this is version 3.11.5
+#    if you would like to use a specific version, use tow equal signs like '=='
+conda create --name circuitpython python=3.11.5
+```
+
+Next, we acivate the Miniconda environment and install `esptool.py`:
+
+```bash
+# activate the new environment
+conda activate circuitpython
+
+# install the latest version of esptool.py
+pip install esptool
+```
+
+>**NOTE:** The options used on the `esptool.py` commandline is different for CircuitPython.
+>You flash the firmware starting at a different memory address.
 
 #### Step 3: Install Utility to Manipulate Files via USB - DONE
-Unlike other CircuitPython boards,
+For the ESP-WROOM-32, unlike other CircuitPython boards,
 an extra drive called `CIRCUITPY` won’t appear attached to your device where you can easily drag and drop files.
 For this feature to work, the MCU must have native USB connectivity,
 something the ESP-WROOM-32 does not have.
@@ -660,19 +1023,21 @@ and run code on a MicroPython (or CircuitPython) board over its serial connectio
 With `ampy` you can send files from your computer to the board's file system,
 download files from a board to your computer,
 and send a Python script to a board to be executed.
+I'll install `adafruit-ampy` into the CircuitPython Conda environment:
 
 ```bash
 # install ampy under python 3.x
-pip3 install adafruit-ampy
+pip install adafruit-ampy
 ```
 
-#### Step 4: Flash CircuitPython Firmware to ESP32 - DONE
+#### Step 4: Flash CircuitPython Firmware to DOIT ESP32 Development Board - DONE
 Now connect your Linux box with your ESP32.
 For most ESP32 boards, the ESP32 board will be give device `/dev/ttyUSB0`.
 You program your esp32 board using the [`esptool.py` program][20].
 If you are putting MicroPython on your board for the first time,
-then you should first erase the entire flash using the `esptool.py`
-(located at `~/.arduino15/packages/esp32/tools/esptool_py/4.5.1/esptool.py`):
+then you should first erase the entire flash using the `esptool.py`.
+
+For the ESP-WROOM-32, the process goes like this:
 
 ```bash
 # check type of board, flash size, etc.
@@ -682,144 +1047,184 @@ esptool.py --port /dev/ttyUSB0 flash_id
 esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 
 # flash the firmware starting at address 0x0 (different for micropython)
-esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin
+esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin     # for DOIT ESP32 Development Board - https://circuitpython.org/board/doit_esp32_devkit_v1/
 ```
 
-If these two step are successful, the output should be similar to the listing above for MicroPython.
+Using `screen /dev/ttyUSB0 115200,cs8cls`, check out if you get the REPL.
+If the steps above are successful, the output should be similar to the listing above for MicroPython.
 
-### Step 5: Validate CircuitPython Firmware is Working - DONE
-Once you have the firmware installed,
-you can access the REPL (aka Python prompt) over the ESP32 USB connection
-(or over UART0 depending on your board) via a serial terminal.
-The USB serial connection **default baudrate is 115200**.
-
-Now make a terminal connection to the the ESP32 and use the `help()`
-command to validate the firmware is working:
+#### Step 5: Flash CircuitPython Firmware to XIAO ESP32C3 Boards - DONE
+For the Seeed Studio XIAO ESP32C3 board, we do the following:
 
 ```bash
-# serial terminal into the esp32
-screen /dev/ttyUSB0 115200,cs8cls
+# check type of board, flash size, etc.
+esptool.py --port /dev/ttyACM0 flash_id
 
-# test out the python REPL
+# erease the entire flash on the esp32
+esptool.py --chip esp32-C3 --port /dev/ttyACM0 erase_flash
 
->>> help()
-Welcome to Adafruit CircuitPython 8.2.9!
+# flash the firmware starting at address 0x0 (different for micropython)
+esptool.py --chip esp32-C3 --port /dev/ttyACM0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-seeed_xiao_esp32c3-en_US-8.2.9.bin       # for Seeed Studio XIAO ESP32C3 - https://circuitpython.org/board/seeed_xiao_esp32c3/
+```
 
-Visit circuitpython.org for more information.
+Using `screen /dev/ttyACM0 115200,cs8cls`, check out if you get the REPL.
 
-To list built-in modules type `help("modules")`.
->>>
+#### Step 6: Flash CircuitPython Firmware to Unexpected Maker Boards - DONE
+For the Unexpected Maker boards TinyS2 and FeatherS3,
+you need to first put the board into bootloader mode
+(document in the section titled "[Install, Repair, or Update UF2 Bootloader][40]" and [here][43]).
+You do this via this method:
 
-# list of available modules
->>> help('modules')
-__future__        canio             mdns              struct
-__main__          collections       memorymap         supervisor
-_asyncio          countio           microcontroller   synthio
-_pixelmap         digitalio         micropython       sys
-adafruit_bus_device                 displayio         msgpack           terminalio
-adafruit_bus_device.i2c_device      dualbank          neopixel_write    time
-adafruit_bus_device.spi_device      errno             nvm               touchio
-adafruit_pixelbuf espidf            onewireio         traceback
-aesio             espnow            os                ulab
-alarm             espulp            ps2io             ulab.numpy
-analogbufio       fontio            pulseio           ulab.numpy.fft
-analogio          framebufferio     pwmio             ulab.numpy.linalg
-array             frequencyio       rainbowio         ulab.scipy
-atexit            gc                random            ulab.scipy.linalg
-audiobusio        getpass           re                ulab.scipy.optimize
-audiocore         hashlib           rotaryio          ulab.scipy.signal
-audiomixer        i2cperipheral     rtc               ulab.scipy.special
-binascii          i2ctarget         sdcardio          ulab.utils
-bitbangio         io                select            uselect
-bitmaptools       ipaddress         sharpdisplay      vectorio
-board             json              socketpool        watchdog
-builtins          keypad            ssl               wifi
-busio             math              storage           zlib
-Plus any modules on the filesystem
->>>```
+1. Plug board into a USB port on your computer using a data/sync cable
+2. Press and hold down the BOOT or 0 button
+3. Press and release the RESET or RST button
+4. Release the BOOT button.
 
-#### Step 6: Validate CircuitPython REPL Operation
-After termination the above `screen` session (since we need the `/dev/ttyUSB0` device),
-perfrm these operations:
+Then do the following steps:
+
+```bash
+# check type of board, flash size, etc.
+esptool.py --port /dev/ttyACM0 flash_id                                        # works for both boards
+
+# erease the entire flash on the esp32
+esptool.py --chip esp32-S2 --port /dev/ttyACM0 erase_flash                     # for Unexpected Maker TinyS2 - https://circuitpython.org/board/unexpectedmaker_tinys2/
+esptool.py --chip esp32-S3 --port /dev/ttyACM0 erase_flash                     # for Unexpected Maker FeatherS3 - https://circuitpython.org/board/unexpectedmaker_feathers3/
+
+
+# flash the firmware starting at address 0x0 (different for micropython)
+esptool.py --chip esp32-S2 --port /dev/ttyACM0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-unexpectedmaker_tinys2-en_US-8.2.9.bin     # for Unexpected Maker TinyS2 - https://circuitpython.org/board/unexpectedmaker_tinys2/
+esptool.py --chip esp32-S3 --port /dev/ttyACM0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-unexpectedmaker_feathers3-en_US-8.2.9.bin  # for Unexpected Maker FeatherS3 - https://circuitpython.org/board/unexpectedmaker_feathers3/
+```
+
+>**NOTE:** The TinyS2 and FeatherS3 are designed with a LiPo battery charging circuit.
+>The two LEDs near the USB-C port are for red 5V power indicator and the orange LED is the battery charge status.
+>I suspect the rapid blinking of the orange LED indicates the battery is not charging or dead.
+
+#### Step 7: Flash CircuitPython Firmware to Adafruit KB2040 Board - DONE
+Unlike the cases above, this time we are going to make full use of the USB that device provides drive
+(procedure taken from [here][46]).
+(**NOTE:** We could have done this for the above Unexpected Maker boards,
+but because they had ESP32 chips, we could make use of the `esptool.py` instead.)
+
+Here are the steps to follow:
+
+1. Plug board into a USB port on your computer using a data/sync cable
+2. Press and hold down the BOOT or BOOTSEL button
+3. Press and release the RESET or RST button
+4. Continue to hold the BOOT/BOOTSEL button until the `RPI-RP2` drive appear. Rselease the BOOT button.
+5. Drag the `adafruit-circuitpython-adafruit_kb2040-en_US-8.2.9.uf2` file to the `RPI-RP2` drive.
+
+The file will be upload, the board will reboot, and the `CIRCUTPY` drive will appear ready to go!
+**NOTE:** You may need to power cycle the board to get it operating properly.
+
+#### Step 8: Flash CircuitPython Firmware to Adafruit QT PY Board - DONE
+Flashing the QT PY board is similar to the KB2040, but this board has only one button for reset (RST),
+and as a result, the procedure is a little different (procedure taken from [here][45]):
+
+1. Plug board into a USB port on your computer using a data/sync cable
+2. Double-click the small RST (reset) button, and you will see the NeoPixel RGB LED turn green.
+4. You will see a new disk drive appear called `QTPY_BOOT`.
+5. Drag the `adafruit-circuitpython-qtpy_m0-en_US-8.2.9.uf2` file to the `QTPY_BOOT` drive.
+
+The file will be upload, the board will reboot, and the `CIRCUTPY` drive will appear ready to go!
+**NOTE:** You may need to power cycle the board to get it operating properly.
+
+## Validation of the CircuitPython Installs
+
+#### Step 1: Validate CircuitPython `ampy` Tool
+Before you connect with device via the USB connection using a serial terminal,
+lets checkout the device with `ampy`:
 
 ```bash
 # list the files on the esp32 recursively and in long format
-$ ampy --port /dev/ttyUSB0 ls -r -l
-/.Trashes - 0 bytes
-/.fseventsd/no_log - 0 bytes
-/.metadata_never_index - 0 bytes
-/boot_out.txt - 121 bytes
-/code.py - 22 bytes
-/lib - 0 bytes
-/settings.toml - 0 bytes
-
-# lets load a junk file
-ls > junk
-ampy --port /dev/ttyUSB0 put junk
-
-# now view what files we got
-$ ampy --port /dev/ttyUSB0 ls -l
-/.Trashes - 0 bytes
-/.fseventsd - 0 bytes
-/.metadata_never_index - 0 bytes
-/boot_out.txt - 121 bytes
-/code.py - 22 bytes
-/junk - 65 bytes
-/lib - 0 bytes
-/settings.toml - 0 bytes
+ampy --port /dev/ttyACM0 ls -r -
 ```
 
-Below is a useful function for connecting the ESP32 to your local WiFi network.
-Using `screen /dev/ttyUSB0 115200,cs8cls` again,
-type the Python script below into the REPL prompt:
-
-```python
-def do_connect():
-    import network
-
-    ssid = input('What is your WiFi SSID?\n')
-    password = input('What is your WiFi password?\n')
-
-    wlan = network.WLAN(network.STA_IF)
-    wlan.active(True)
-
-    if not wlan.isconnected():
-        print('connecting to network...')
-        wlan.connect(ssid, password)
-        while not wlan.isconnected():
-            pass
-
-    print('network config:', wlan.ifconfig())
-```
-
-You could also copy the above program into a file (`junk.py`)
-and upload it to the ESP32:
+#### Step 2: Validate CircuitPython Firmware is Working - DONE
+Once you have the firmware installed,
+you can access the REPL (aka Python prompt) over USB connection, via a serial terminal.
+The USB serial connection **default baudrate is 115200**.
+You can use `screen /dev/ttyACM0 115200,cs8cls`.
 
 ```bash
-# contents of file system (assume you rebooted the ESP32)
-$ ampy --port /dev/ttyUSB0 ls -l
-/boot.py - 139 bytes
-
-# upload file junk.py
-ampy --port /dev/ttyUSB0 put junk.py
-
-# upload but do not execute file junk.py
-ampy --port /dev/ttyUSB0 run --no-output junk.py
-
-# contents of file system after upload (unchanged)
-$ ampy --port /dev/ttyUSB0 ls -l
-/boot.py - 139 bytes
-
 # serial terminal into the esp32
-screen /dev/ttyUSB0 115200,cs8cls
-
-# execute the upload at the REPL prompt
-do_connect()
+screen /dev/ttyACM0 115200,cs8cls
 ```
 
-Once the network is established,
-the socket module can be used to create a TCP/UDP sockets
-and the requests module for th HTTP requests.
+```python
+# test out the python REPL
+help()
+
+# list of available modules
+help('modules')
+
+# find out more about a specific module
+help('modules.audiocore')
+```
+
+#### Step 3: Validate CircuitPython REPL Operation - DONE
+Below is a useful function for getting the mapping
+of CircuitPython pin names to board physical pins ([source of script][36]).
+Using a text editor, copy the code block below into a file called `pin-mapping.py`:
+
+```python
+# SPDX-FileCopyrightText: 2020 anecdata for Adafruit Industries
+# SPDX-FileCopyrightText: 2021 Neradoc for Adafruit Industries
+# SPDX-FileCopyrightText: 2021-2023 Kattni Rembor for Adafruit Industries
+# SPDX-FileCopyrightText: 2023 Dan Halbert for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+""" CircuitPython Pin Map Script: This script will list the mapping of physical
+    board pins to what those pins can be called in a CircuitPython script. """
+
+import microcontroller
+import board
+try:
+    import cyw43  # raspberrypi
+except ImportError:
+    cyw43 = None
+
+board_pins = []
+for pin in dir(microcontroller.pin):
+    if (isinstance(getattr(microcontroller.pin, pin), microcontroller.Pin) or
+        (cyw43 and isinstance(getattr(microcontroller.pin, pin), cyw43.CywPin))):
+        pins = []
+        for alias in dir(board):
+            if getattr(board, alias) is getattr(microcontroller.pin, pin):
+                pins.append(f"board.{alias}")
+        # Add the original GPIO name, in parentheses.
+        if pins:
+            # Only include pins that are in board.
+            pins.append(f"({str(pin)})")
+            board_pins.append(" ".join(pins))
+
+for pins in sorted(board_pins):
+    print(pins)
+```
+
+Below is another useful function.
+It can be used for connecting a WiFi capable device to your local WiFi network.
+Using a text editor, copy the code block into `.../CIRCUITPY/code.py`.
+
+```python
+```
+
+You execute these script remotely via the following command in your Linux machine:
+
+```bash
+# list the  circuitpython pin names to physical pin numbers
+ampy --port /dev/ttyACM0 run pin-mapping.py
+
+# initiate a wifi connect between the circuitpython device and you wifi access point
+ampy --port /dev/ttyACM0 run start-wifi.py
+```
+
+Now drag this file into the `CIRCUTPY` drive
+or upload via `ampy --port /dev/ttyACM0 put code.py`.
+
+Using the serial terminal `screen /dev/ttyACM0 115200,cs8cls`
+inspect the execute on the device.
 
 
 
@@ -829,7 +1234,15 @@ and the requests module for th HTTP requests.
 
 
 
-#### Step X: Using CircuitPython Libraries
+
+
+
+
+-------
+
+
+
+# Using CircuitPython Libraries
 In order to use some common libraries that are not included in CircuitPython firmware you installed,
 libraries like `datetime`, `requests`,
 you’ll have to download the library bundle provided by CircuitPython.
@@ -975,7 +1388,7 @@ echo "help('modules.wifi')" > junk ; ampy --port /dev/ttyUSB0 run junk
 Sources:
 * [CircuitPython Pins and Modules](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules#circuitpython-built-in-modules-3082671)
 
-#### Step X: CircuitPython Pin to Board Pin Mapping - DONE
+#### Step X: CircuitPython Pin to Board Pin Mapping
 This section will cover how to access your board's pins using CircuitPython,
 We need a way to determine all available CircuitPython pin names mapping to board-specific pins.
 This could be done via writen documentation but CircuitPython can provide some help.
@@ -1086,172 +1499,6 @@ This means that you can access GPIO pin numbered `18` in CircuitPython using bot
 Sources:
 * [CircuitPython Pins and Modules](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules#circuitpython-pins-3082637)
 
-#### Step X: Setting up Web Workflow for CircuitPython
-[Workflows](https://docs.circuitpython.org/en/latest/docs/workflows.html) are the process used to
-(1) manipulate files on the CircuitPython device and
-(2) interact with the serial connection to CircuitPython.
-CircuitPython supports workflows for USB, BLE, and Web connectivity.
-
-Web workflow is enabled when a file named `settings.toml` is added to the
-root folder of the CircuitPython file system.
-This file contains local WiFi info and other settings.
-
-* [Setting up Web Workflow](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow)
-
-#### Step X: CircuitPython Supported Bootloads
-A bootloader is an application whose primary purpose is to allow the systems software
-that has to be updated without using any specialized hardware such as a JTAG programmer.
-The bootloader (1) manages the system's establishment of the new system image,
-(2) receives new program information externally via some communication means
-and writes that information to the program memory of the processor.
-
-USB Flashing Format (UF2) Bootloader
-Adafruit SAMD21 (M0) and SAMD51 (M4) boards feature an improved bootloader that makes it easier than ever to flash different code onto the microcontroller.
-Instead of needing drivers or a separate program for flashing (e.g. `esptool.py`, `avrdude`), one can simply drag a file onto a removable drive.
-The [format of the file](https://github.com/Microsoft/uf2) extra information to help the bootloader know where the data goes.
-
-Direct Firmware Update (DFU) Bootloader
-STM Bootloader
-
-Sources:
-* [Non-UF2 Installation](https://learn.adafruit.com/welcome-to-circuitpython/non-uf2-installation)
-* [Installing CircuitPython on ESP32](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/installing-circuitpython)
-* [UF2 Bootloader Details](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/uf2-bootloader-details)
-
-#### Step X: CircuitPython's Recommended Editors
-For CircutiPython, we should consider adding additional tool,
-the [Mu Editor][33] and/or [Thonny IDE][27].
-
-##### Install Mu
-Mu is a vey simple editor create specifically for beginner Python programmers.
-
-```bash
-# download the AppImage
-cd ~/Downloads
-mkdir mu-editor
-cd mu-editor
-wget https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.tar
-
-# make sure you have the right permmisions ... you in the dialout group
-$ groups jeff
-jeff : jeff adm dialout cdrom sudo dip plugdev lpadmin lxd sambashare vboxusers
-
-# untar the AppImage
-tar -xf MuEditor-Linux-1.2.0-x86_64.tar
-
-# install dependencies
-sudo apt install libfuse2
-
-# move the mu-editor executable to you bin and create symbolic links to it
-cp Mu_Editor-1.2.0-x86_64.AppImage ~/bin
-ln --symbolic ~/bin/Mu_Editor-1.2.0-x86_64.AppImage ~/bin/mu-editor
-ln --symbolic ~/bin/Mu_Editor-1.2.0-x86_64.AppImage ~/bin/mu
-
-# what version of mu-editor is loaded
-# see mu-editor title bar
-1.2.0
-```
-
-Now explore how to use Mu by following the following video:
-* [CircuitPython Tutorial](https://www.youtube.com/watch?v=opes_7Uf49U)
-
-##### Install Thonny
-Thonny is a more porwerful than Mu in that its an IDE.
-
-```bash
-#install thonny
-pip3 install thonny
-
-# identify where thonny was installed
-$ whereis thonny
-thonny: /home/jeff/.local/bin/thonny
-
-# what version of thonny is loaded
-# see main menu > Help > About Thonny
-4.1.4
-```
-
-Now explore how to use Thonny by following the following video:
-* [Programming an ESP32 NodeMCU with MicroPython: Setup with Thonny](https://www.youtube.com/watch?v=BzAo48cFhS8)
-* [Getting Started with Raspberry Pi Pico W and CircuitPython](https://www.youtube.com/watch?v=56N_8FI_WLU)
-
-```bash
-# erease the entire flash on the esp32
-esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
-
-# flash the firmware starting at address 0x0 (different for micropython)
-esptool.py --chip esp32 --port /dev/ttyUSB0 --baud 460800 write_flash -z 0x0 ~/Downloads/circuitpython/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin
-```
-
-If it becomes necessary to uninstall Thonny,
-use the following procedure:
-
-```bash
-# uninstall thonny
-pip3 unisntall thonny
-```
-
-Sources:
-* [Recommended Editor](https://learn.adafruit.com/welcome-to-circuitpython/recommended-editors)
-* [How to Install and Use Thonny Python IDE on Linux](https://www.tecmint.com/thonny-python-ide/)
-* [Programming an ESP32 NodeMCU with MicroPython: Setup with Thonny](https://www.youtube.com/watch?v=BzAo48cFhS8)
-* [How to install Mu on Linux](https://codewith.mu/en/howto/1.2/install_linux)
-
-#### Step X: CircuitPython's Use of Serial Console
-
-Sources:
-* [Connecting to the Serial Console](https://learn.adafruit.com/welcome-to-circuitpython/kattni-connecting-to-the-serial-console)
-
-#### Step X: CircuitPython's Use of CIRCUITPY Drive
-CIRCUITPY Drive - https://learn.adafruit.com/welcome-to-circuitpython/the-circuitpy-drive
-It is important to remember that the ESP32 lacks native USB support and therefore no CIRCUITPY folder will show up. Loading CircuitPython firmware and getting wifi setup is done over a serial connection instead of a folder.
-Because of this, the process for getting things setup on the ESP32 is different and more involved than other boards. So we're giving it some special attention.
-
-For boards lacking native USB, like the ESP32 and ESP32-C3, no folder will show up after pressing reset. If CircuitPython firmware was loaded, the REPL can be accessed over a serial COM port.
-
-For other boards, like ESP32-S2, -S3, etc., a BOOT folder should show up. A CircuitPython UF2 file can now be copied over to the BOOT folder, after which the CIRCUITPY folder should then show up.
-
-#### Step X: Install CircuitPython's Adafruit_Blinka
-CircuitPython runs on microcontroller boards
-using a variety of chips, such as the MicroChip SAMD21 SAMD51,
-the Raspberry Pi RP2040, the Nordic nRF52840, and the Espressif ESP32-S2 and ESP32-S3.
-They are all microcontrollers with hardware peripherals like SPI, I2C, ADCs etc.
-But sometimes you want to do more than a microcontroller can do,
-like HDMI video output, or camera capture, or serving up a website,
-or just something that takes more memory and computing than a microcontroller.
-
-To address this, Adafruit added a software layer where you can use
-CircuitPython hardware control capabilities with CPython (aka "regular Python")
-There is a special library called [adafruit_blinka][31]
-that provides a layer that translates the CircuitPython hardware API to whatever library the Linux board provides.
-
-The upshot is that most code we write for CircuitPython will be instantly
-and easily runnable on Linux computers like Raspberry Pi.
-You'll be able to use all of AdaFruit device drivers for
-sensors, led controllers, motor drivers, HATs, bonnets, etc.
-Nearly all of these use I2C or SPI!
-
-* [Adafruit MCP2221A Breakout - General Purpose USB to GPIO ADC I2C](https://learn.adafruit.com/products/4471/guides)
-* [Adafruit MCP2221A Breakout - General Purpose USB to GPIO ADC I2C - Stemma QT / Qwiic](https://www.adafruit.com/product/4471)
-* [CircuitPython Libraries and Jupyter Notebook on any Computer with MCP2221](https://learn.adafruit.com/jupyter-on-any-computer-with-circuitpython-libraries-and-mcp2221)
-
-Sources:
-* [Adafruit-Blinka][31]
-* [Installing Blinka on Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
-* [CircuitPython Libraries on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
-
-#### Step X: Mix Both MicroPython & CircuitPython Code
-* [Mix Both MicroPython & CircuitPython Code In The Same File On A Raspberry Pi Pico With Blinka](https://www.youtube.com/watch?v=l254lxm78I4)
-
-#### Step X: MicroPython & CircuitPython Coding Examples
-An extensive list of great CircuitPython and MicroPython projects can be found here.
-Great source for test projects and ideas.
-
-* [Awesome MicroPython](https://awesome-micropython.com/)
-    * [GitHub: mcauser/awesome-micropython](https://github.com/mcauser/awesome-micropython)
-* [Awesome CircuitPython](https://circuitpython.org/awesome)
-    * [GitHub: adafruit/awesome-circuitpython](https://github.com/adafruit/awesome-circuitpython)
-
 
 
 
@@ -1265,37 +1512,6 @@ Great source for test projects and ideas.
 ------
 
 
-# Tools
-
-
-## Jupyter MicroPython Kernel
-The Jupyter Notebook community have created a kernel to interact
-with a MicroPython ESP8266 or ESP32 over its serial REPL.
-
-* [CircuitPython Libraries and Jupyter Notebook on any Computer with MCP2221](https://learn.adafruit.com/jupyter-on-any-computer-with-circuitpython-libraries-and-mcp2221)
-* [MicroPython on ESP Using Jupyter Notebook](https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9)
-* [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel/)
-
-
-# ESP32 + MicroPython
-I want to set up and program an ESP32 device running MicroPython.
-
-What you'll need:
-
-* **Serial Terminal** - such at `screen` or `miniterm` (via `python3 -m serial.tools.miniterm`).
-* **Python v3.6.x** For extra libraries need by the microcontroller,
-clone the micropython/micropython-lib (git clone https://github.com/micropython/micropython-lib)
-For extra libraries, a clone or archive of micropython/micropython-lib (git clone https://github.com/micropython/micropython-lib)
-* **esptool (version 2.2 or newer)** to flash the board
-* **adafruit-ampy** - to manage files on the board
-
-
-
-### Step X: Install Additional Tools
-
-
-* [ESP32 MicroPython Tutorial with Raspberry Pi](https://www.youtube.com/watch?v=w15-EQASP_Y)
-* [ESP32 / ESP8266 MicroPython: Running scripts from a computer](https://techtutorialsx.com/2017/06/03/esp32-esp8266-micropython-running-scripts-from-a-computer/)
 
 #### Jupyter
 * [MicroPython Jupyter notebook kernel with Tony D! @micropython @ProjectJupyter](https://www.youtube.com/watch?v=UFc0pR2ehiw&feature=youtu.be)
@@ -1314,6 +1530,14 @@ For extra libraries, a clone or archive of micropython/micropython-lib (git clon
 `mpy-repl-tool` is a package available on pypi with micropython tools
 * [Welcome to mpy-REPL-Tool’s documentation!](https://mpy-repl-tool.readthedocs.io/en/latest/)
 
+## Jupyter MicroPython Kernel
+The Jupyter Notebook community have created a kernel to interact
+with a MicroPython ESP8266 or ESP32 over its serial REPL.
+
+* [MicroPython on ESP Using Jupyter Notebook](https://towardsdatascience.com/micropython-on-esp-using-jupyter-6f366ff5ed9)
+* [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel/)
+* [CircuitPython Libraries and Jupyter Notebook on any Computer with MCP2221](https://learn.adafruit.com/jupyter-on-any-computer-with-circuitpython-libraries-and-mcp2221)
+
 
 
 
@@ -1322,13 +1546,138 @@ For extra libraries, a clone or archive of micropython/micropython-lib (git clon
 
 
 
-# Examples
-* [Getting Started with MicroPython](https://python.plainenglish.io/getting-started-with-micropython-c09dd0bbe33c)
-* [Getting Started with MicroPython on ESP32 – Hello World, GPIO, and WiFi](https://www.cnx-software.com/2017/10/16/esp32-micropython-tutorials/)
-* [Micro Python on ESP32 (HUZZAH32)](https://wolfpaulus.com/embedded/micro-python-esp32/)
-* [MicroPython Programming Tutorial: Getting Started with the ESP32 Thing](https://learn.sparkfun.com/tutorials/micropython-programming-tutorial-getting-started-with-the-esp32-thing/all)
-* [MicroPython on an ESP32 Board With Integrated SSD1306 OLED Display (WEMOS/Lolin)](https://www.instructables.com/id/MicroPython-on-an-ESP32-Board-With-Integrated-SSD1/)
-* [MicroPython — OTA Updates and GitHub, a match made in heaven](https://medium.com/@ronald.dehuysser/micropython-ota-updates-and-github-a-match-made-in-heaven-45fde670d4eb)
+
+
+
+
+
+
+
+
+# Installing CircuitPython Libraries and Adafruit_Blinka
+CircuitPython runs on microcontroller boards
+using a variety of chips, such as the MicroChip SAMD21 SAMD51,
+the Raspberry Pi RP2040, the Nordic nRF52840, and the Espressif ESP32-S2 and ESP32-S3.
+They are all microcontrollers with hardware peripherals like SPI, I2C, ADCs etc.
+But sometimes you want to do more than a microcontroller can do,
+like HDMI video output, or camera capture, or serving up a website,
+or just something that takes more memory and computing than a microcontroller.
+
+To address this, Adafruit added a software layer where you can use
+CircuitPython hardware control capabilities with CPython (aka "regular Python")
+There is a special Python to CircuitPython Libraries interface layer called [adafruit_blinka][31]
+that provides a layer that translates the CircuitPython hardware API to whatever library the Linux board provides.
+CircuitPython firmware is **NOT** used when using Blinka.
+
+![CircuitPython Libraries on Personal Computers](https://cdn-learn.adafruit.com/assets/assets/000/085/901/medium640/sensors_usb_to_mcp2221.png?1576619527)
+
+The upshot is that most code we write for CircuitPython will be instantly
+and easily runnable on Linux computers like Raspberry Pi.
+You'll be able to use all of AdaFruit device drivers for
+sensors, led controllers, motor drivers, HATs, bonnets, etc.
+Nearly all of these use I2C or SPI!
+
+* [Adafruit MCP2221A Breakout - General Purpose USB to GPIO ADC I2C](https://learn.adafruit.com/products/4471/guides)
+* [Adafruit MCP2221A Breakout - General Purpose USB to GPIO ADC I2C - Stemma QT / Qwiic][51]
+* [CircuitPython Libraries and Jupyter Notebook on any Computer with MCP2221](https://learn.adafruit.com/jupyter-on-any-computer-with-circuitpython-libraries-and-mcp2221)
+
+Sources:
+* [Adafruit-Blinka][31]
+* [Installing Blinka on Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
+* [CircuitPython Libraries on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
+
+## Adafruit Blinka
+Blinka is a software library that emulates the parts of CircuitPython that control hardware.
+Blinka provides non-CircuitPython implementations for CircuitPython modules
+like `board`, `busio`, `digitalio`, and other native CircuitPython modules.
+This enables you to write Python code that looks like CircuitPython and uses CircuitPython libraries,
+without having CircuitPython underneath.
+
+There are [multiple ways to use Blinka][52]:
+
+* Linux based Single Board Computers, for example a Raspberry Pi
+* Desktop Computers (Windows, MacOS, Linux) + using specialized USB adapters (e.g. [Adafruit MCP2221][51])
+* Boards running MicroPython
+
+## USB to I2C/UART with MCP2221
+If you are using a microcontroller that can run CircuitPython,
+then you will most likely have the low level hardware interfaces needed to access
+the many sensors and other breakout boards - I2C, SPI, and GPIO.
+If you using a desktop type processor, your generally out-of-luck when it comes to electrically interfacing these board & sensors.
+
+The [tiny microprocessor MCP2221][47] can be used to connect I²C sensors and breakout boards
+to your desktop PC running Windows, Mac OSX, or Linux.
+It give you a simple way to get I2C, GPIO, ADC, and DAC support on any PC with USB.
+The MCP2221 is similar to a USB-to-serial converter chips but adds a GPIO and I2C interface as well.
+The MCP2221 is a USB-to-UART/I2C serial converter
+which enables USB connectivity in applications that have a UART and I²C interfaces.
+The MCP2221 not only supports I2C communications,
+but also allows for general purpose digital input/output (GPIO) for things like buttons and LEDs,
+analog to digital conversion (ADC), and digital to analog (DAC).
+
+>**NOTE:** Adafruit uses MCP2221 & MCP2221A chips,
+>but the difference are not relevant for using Blinka or CircuitPython libraries
+>and you can use either version of the chip!
+
+>**NOTE:** The [Adafruit MCP2221][51] is very similar to the [Adafruit FT232H][50].
+>The MCP2221 just makes different trade offs relative to the FT232H,
+>the biggest being no hardware SPI support on the MCP2221.
+>But you do gain ADC & DAC support and it's much cheaper than the FT232H.
+
+## Installing CircuitPython Libraries
+* https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-mcp2221/running-circuitpython-code-without-circuitpython#installing-circuitpython-libraries-3143514
+
+### Linux Single-Board Computers (e.g. Raspberry Pi)
+
+### Desktop Computers Using MCP2221
+* Jupter Notebook with MCP2221 - [CircuitPython Libraries and Jupyter Notebook on any Computer with MCP2221](https://learn.adafruit.com/jupyter-on-any-computer-with-circuitpython-libraries-and-mcp2221)
+* Google Docs Logging with MCP2221 - [Google Docs Sensor Logging From Your PC](https://learn.adafruit.com/gdocs-sensor-logging-from-your-pc)
+
+### MicroPython
+
+
+
+------
+
+
+
+# Mix Both MicroPython & CircuitPython Code
+* [Mix Both MicroPython & CircuitPython Code In The Same File On A Raspberry Pi Pico With Blinka](https://www.youtube.com/watch?v=l254lxm78I4)
+
+# MicroPython & CircuitPython Coding Examples
+An extensive list of great CircuitPython and MicroPython projects can be found here.
+Great source for test projects and ideas.
+
+* [Awesome MicroPython](https://awesome-micropython.com/)
+    * [GitHub: mcauser/awesome-micropython](https://github.com/mcauser/awesome-micropython)
+* [Awesome CircuitPython](https://circuitpython.org/awesome)
+    * [GitHub: adafruit/awesome-circuitpython](https://github.com/adafruit/awesome-circuitpython)
+* [CircuitPython Tricks](https://github.com/todbot/circuitpython-tricks/tree/main)
+
+
+
+
+
+
+
+
+
+
+
+------
+
+
+
+
+
+
+
+
+
+------
+
+
+
 
 
 
@@ -1371,7 +1720,27 @@ For extra libraries, a clone or archive of micropython/micropython-lib (git clon
 [35]:https://learn.adafruit.com/welcome-to-circuitpython/circuitpython-libraries
 [36]:https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules#what-are-all-the-available-names-3082670
 [37]:https://docs.circuitpython.org/en/latest/shared-bindings/support_matrix.html
-[38]:
-[39]:
-[40]:
+[38]:https://circuitpython.org/board/adafruit_kb2040/
+[39]:https://circuitpython.org/board/unexpectedmaker_feathers3/
+[40]:https://circuitpython.org/board/unexpectedmaker_tinys2/
+[41]:https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/02-working-with-environments/index.html
+[42]:https://circuitpython.org/board/seeed_xiao_esp32c3/
+[43]:https://help.unexpectedmaker.com/index.php/knowledge-base/how-to-out-your-board-into-uf2-bootloader-mode/
+[44]:https://circuitpython.org/board/qtpy_m0/
+[45]:https://learn.adafruit.com/adafruit-qt-py/circuitpython
+[46]:https://learn.adafruit.com/adafruit-kb2040/circuitpython
+[47]:https://www.microchip.com/en-us/product/mcp2221
+[48]:https://learn.adafruit.com/welcome-to-circuitpython
+[49]:https://github.com/adafruit/Adafruit_CircuitPython_Bundle
+[50]:https://www.adafruit.com/product/2264
+[51]:https://www.adafruit.com/product/4471
+[52]:https://learn.adafruit.com/circuitpython-libraries-on-any-computer-with-mcp2221/running-circuitpython-code-without-circuitpython#adafruit-blinka-a-circuitpython-compatibility-library-3149413
+[53]:
+[54]:
+[55]:
+[56]:
+[57]:
+[58]:
+[59]:
+[60]:
 
