@@ -87,6 +87,8 @@ Virtually all modern radio receivers use the superheterodyne principle.
 * [Elenco AM/FM Radio Kit - Superheterodyne Designed to AM and FM Broadcasts](https://www.amazon.com/gp/product/B008515U1U)
 * [Arduino Becomes Superhet with a Little Help From Friends](https://hackaday.com/2021/10/10/arduino-becomes-superhet-with-a-little-help-from-friends/)
 
+* [A Very 21st Century Receiver For A Very 20th Century Band](https://hackaday.com/2024/01/09/a-very-21st-century-receiver-for-a-very-20th-century-band/)
+
 # Crystal Radio
 ![lost-knowladge](http://i0.wp.com/cdn.makezine.com/uploads/2009/02/lk_banner2.jpg?resize=189%2C207)
 A crystal radio is basically a high Q resonator tied to an antenna and an envelope detector.
