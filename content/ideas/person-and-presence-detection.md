@@ -65,6 +65,7 @@ This can be done by making use of:
     * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
     * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
     * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
+    * [ESP32-TV Version 3](https://atomic14.substack.com/p/esp32-tv-version-3)
     * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
     * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
     * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
