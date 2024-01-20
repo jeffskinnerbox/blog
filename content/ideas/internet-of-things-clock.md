@@ -326,6 +326,7 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 ### Pi Zero Platform for Grandmaster Clock
 * [Sipeed's Longan Pi 3H Packs Full-Size Ports Into a Raspberry Pi Zero Footprint](https://www.hackster.io/news/sipeed-s-longan-pi-3h-packs-full-size-ports-into-a-raspberry-pi-zero-footprint-eec86d9e3ce8)
 * [Orange Pi Zero 2W 4GB with Expansion Board Allwinner H618 LPDDR4 Quad Core CPU 64 Bit Single Board Computer](https://www.amazon.com/Expansion-Allwinner-Computer-Frequency-Bluetooth/dp/B0CHS8CKYD?th=1)
+* [NanoPi R2S Plus dual GbE SBC and router gets 32GB flash, USB-C debug port, M.2 socket for WiFi](https://www.cnx-software.com/2024/01/06/nanopi-r2s-plus-dual-gbe-sbc-router-32gb-flash-usb-c-debug-port-m2-wifi/)
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
