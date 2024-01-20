@@ -418,6 +418,7 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 
 # A Mathematician's Lament
 * [A Mathematician's Lament by Paul Lockhart](https://www.youtube.com/watch?v=mYGhwTy4B_M)
+* [A Mathematician's Lament by Paul Lockhart](http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf)
 * [A Mathematician's Lament by Paul Lockhart](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf)
 * [Mastery of Mathematics for Accomplished Non-Mathematicians](https://www.cantorsparadise.com/mastery-of-mathematics-for-accomplished-non-mathematicians-9633e085aaaa)
 * [Against Algebra](https://www.theatlantic.com/ideas/archive/2022/10/against-algebra/671643/)
