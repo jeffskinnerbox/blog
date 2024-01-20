@@ -66,6 +66,8 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Open Source Openwheel](https://hackaday.com/2022/01/03/diy-onewheel-on-the-cheap/)
 * [A Simple 3D Printed Rover Design](https://hackaday.com/2022/02/10/a-simple-3d-printed-rover-design/)
 
+* [SunFounder PiCar-X 2.0 review – A Raspberry Pi 4 AI robot car programmable with Blockly or Python](https://www.cnx-software.com/2024/01/11/sunfounder-picar-x-2-0-review-raspberry-pi-4-ai-robot-car-blockly-python/)
+
 # Walking Robot
 * [Tiny ESP32 Strider Walks The Walk](https://hackaday.com/2021/09/06/tiny-esp32-strider-walks-the-walk/)
 * [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
