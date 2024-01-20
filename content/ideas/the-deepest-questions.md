@@ -1097,9 +1097,13 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 # Conway's Game of Life
 * [Conway's Game of Life](http://pi.math.cornell.edu/~lipa/mec/lesson6.html)
 * [Game of Life](https://playgameoflife.com/)
-* [C implementation of Conway's Game of Life](https://github.com/TheLandfill/Game-of-Life--C-)
+* [ConwayLife.com](https://conwaylife.com/)
 * [epic conway's game of life](https://www.youtube.com/watch?v=C2vgICfQawE)
 * [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
+* [Math’s ‘Game of Life’ Reveals Long-Sought Repeating Patterns](https://www.quantamagazine.org/maths-game-of-life-reveals-long-sought-repeating-patterns-20240118)
+
+* [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
+* [C implementation of Conway's Game of Life](https://github.com/TheLandfill/Game-of-Life--C-)
 
 # Very Hard Computational Problems
 * Reachability Problem / Vector Addition System (VAS): [An Easy-Sounding Problem Yields Numbers Too Big for Our Universe](https://www.quantamagazine.org/an-easy-sounding-problem-yields-numbers-too-big-for-our-universe-20231204/)
