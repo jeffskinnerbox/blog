@@ -106,6 +106,10 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 
 * [Fluid dynamics feels natural once you start with quantum mechanics](https://www.youtube.com/playlist?list=PLMoTR49uj6ld32zLVWmcGXaW7w2ey7Vh4)
 
+# When Will Quantum Computing Be Useful
+* [Quantum computing: What leaders need to know now](https://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now)
+    * [The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it won’t)](https://arxiv.org/pdf/2310.15505.pdf)
+
 
 
 
