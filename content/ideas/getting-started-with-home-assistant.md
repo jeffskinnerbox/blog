@@ -1875,6 +1875,7 @@ a Proxmox web interface will be available to configure everything else.
 Sources:
 
 * [Installing Proxmox 7 on Raspberry Pi 4 with PiMox](https://raspberrypiprojects.com/installing-proxmox-7-on-raspberry-pi-4-with-pimox/)
+* [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
 * [How to run PVE 7 on a Raspberry Pi](https://forum.proxmox.com/threads/how-to-run-pve-7-on-a-raspberry-pi.95658/)
 * [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
 
