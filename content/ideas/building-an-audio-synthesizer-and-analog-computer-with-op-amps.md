@@ -389,6 +389,7 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 
 
 # Spintronics
+* [Computer Logic Spins with No Electricity](https://hackaday.com/2024/01/21/computer-logic-spins-with-no-electricity/)
 * [Spintronics](https://store.upperstory.com/collections/spintronics)
 * [Mechanical circuits: electronics without electricity](https://www.youtube.com/watch?v=QrkiJZKJfpY)
 

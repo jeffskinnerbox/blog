@@ -66,6 +66,7 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 
 * [What is Computation?](https://www.youtube.com/results?search_query=What+is+Computation%3F) - start at 7 minutes
 * [Was There Life Before Computers?](https://www.nicolamarras.it/Was-There-Life-Before-Computer-en.pdf)
+* [Mechanical circuits: electronics without electricity](https://www.youtube.com/watch?v=QrkiJZKJfpY)
 * [Analog vs Digital vs Quantum, Explained - Learn Science of Data, Waves, Bits, Qubits and more!](https://www.youtube.com/watch?v=ZMkLPvOVkNo)
 
 # What is Neuromorphic Computing?
