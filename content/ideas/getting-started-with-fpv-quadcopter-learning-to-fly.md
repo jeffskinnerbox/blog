@@ -55,12 +55,16 @@ Sources:
 * [FPV Tutorials](https://www.youtube.com/playlist?list=PLQgLVCpLOfkEhqcBVXYY3a3xEeTNusBfu)
 * [How To Fly FPV](https://www.youtube.com/playlist?list=PLQgLVCpLOfkF7zU8FLHqxdRpmDn0C5c7g)
 
+## Throttle & Momentum Control
+* [5 SIMPLE Tips To Improve FPV Drone THROTTLE CONTROL! // PropabilityFPV](https://www.youtube.com/watch?v=oRjNpWf3HE4)
+* [Improve your THROTTLE and MOMENTUM CONTROL using this REWIND drill for your FPV Freestyle Drone!](https://www.youtube.com/watch?v=oRjNpWf3HE4)
+
 ## Does Simulator Practice Help With Real Flying?
 * [Drone Simulator Practice To Real Life Flying? | Cinematic FPV](https://www.youtube.com/watch?v=GFrOZKnYBek)
 
 Before you start:
 * Set your camera angle to about 5 degrees for beginners but more advance flyers will be at 15 to 30 degrees (racer will be even more)
-* Become instictly aware of the location & activation you arm/disarm swicth
+* Become instinctly aware of the location & activation you arm/disarm switch
 
 1. [Hovering](https://www.youtube.com/watch?v=gzDReOBx-l0&t=260s)
 1. [Landing](https://www.youtube.com/watch?v=3-3BvdjGsVw&t=600s)
