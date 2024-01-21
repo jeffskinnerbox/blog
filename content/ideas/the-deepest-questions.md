@@ -1102,8 +1102,10 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
 * [Math’s ‘Game of Life’ Reveals Long-Sought Repeating Patterns](https://www.quantamagazine.org/maths-game-of-life-reveals-long-sought-repeating-patterns-20240118)
 
+## Software for Game of Life
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 * [C implementation of Conway's Game of Life](https://github.com/TheLandfill/Game-of-Life--C-)
+* [SIMD in Pure Python](https://www.da.vidbuchanan.co.uk/blog/python-swar.html)
 
 # Very Hard Computational Problems
 * Reachability Problem / Vector Addition System (VAS): [An Easy-Sounding Problem Yields Numbers Too Big for Our Universe](https://www.quantamagazine.org/an-easy-sounding-problem-yields-numbers-too-big-for-our-universe-20231204/)
