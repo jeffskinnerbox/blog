@@ -31,6 +31,8 @@ Version:      0.0.0
 * [Meshtastic For The Greater Good](https://hackaday.com/2023/06/26/meshtastic-for-the-greater-good/)
 * [LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU&feature=youtu.be)
 
+* [Garden Light Turned Mesh Network Node](https://hackaday.com/2024/01/21/garden-light-turned-mesh-network-node/)
+
 # Meshtastic Tracking
 setting up an Owntracks service, and then tying it to Meshtastic for off-Internet usability. The backbone that makes this work is MQTT.
 
