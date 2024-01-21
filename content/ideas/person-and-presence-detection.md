@@ -341,6 +341,7 @@ such as their image but also via motion, heat, sound, or RF exhaust then may mak
     * [Everything Presence One - Official Case](https://www.printables.com/model/302846-everything-presence-one-official-case)
     * [My Smart Home Presence Sensor Is Finally Here!](https://www.youtube.com/watch?v=cH5sJFk_2wo&t=6s)
     * [This Smart Home Sensor Blew My Mind! 🤯 mmWave](https://www.youtube.com/watch?v=jVjrgQSWlLI)
+    * [I Made A More Affordable Smart Home Presence Sensor](https://www.youtube.com/watch?v=wCwMNSeLRcw)
 
 
 * [Person Detection with TensorFlow and Arduino](https://www.hackster.io/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
