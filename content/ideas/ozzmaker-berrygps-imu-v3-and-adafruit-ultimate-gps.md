@@ -576,6 +576,7 @@ to overcome these errors and achieve decimeter or even centimeter-level position
 
 * [What is Correction Data?](https://www.sparkfun.com/news/7138)
 * [PPP-RTK GNSS correction services (PointPerfect)](https://www.u-blox.com/en/technologies/ppp-rtk-gnss-correction-services-pointperfect)
+* [u-blox using a Raspberry Pi to improve GNSS positioning services](https://blog.adafruit.com/2024/01/16/u-blox-using-a-raspberry-pi-to-improve-gnss-positioning-services/)
 * [Precise Point Positioning (PPP)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/precise-point-positioning-ppp/)
 
 ### GNSS + INS (Inertial Navigation System)
@@ -838,7 +839,7 @@ GNSS high accuracy correction data between service providers and end users.
 # u-blox Products
 ZED-F9 is a family of multi-band GPS-RTK recievers, covering all four GNSS constellations (GPS, GLONASSS, Galileo, BeiDou),
 achieving centimeter accuracy with low energy consumption.
-These devices use u-blox's PointPerfict GNSS cloud-based correction data and derived from a local RTK base station or NTRIP remote base station.
+These devices use u-blox's PointPerfect GNSS cloud-based correction data and derived from a local RTK base station or NTRIP remote base station.
 These devices also support L5 multi-band
 
 multi-GNSS systems can access more than one range of frequencies from a single constellation or different constellations.
