@@ -217,6 +217,7 @@ Probabilistic computing is a field of computer science and artificial intelligen
 * [Quantum computing for the very curious](https://quantum.country/qcvc)
 * [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
 
+* [how to teach yourself physics](https://www.youtube.com/watch?v=Cw97Tj5zxvA)
 * [How to learn Quantum Mechanics on your own (a self-study guide)](https://www.youtube.com/watch?v=Rs572Cf4zkk&feature=youtu.be)
 * [Quantum Computing: Untangling the Hype](https://www.youtube.com/watch?v=wE1OCXvaDtc)
 
