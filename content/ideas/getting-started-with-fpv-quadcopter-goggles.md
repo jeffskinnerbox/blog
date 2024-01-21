@@ -20,6 +20,7 @@ Version:      0.0.0
 * [CaddX FPV Goggles X Overheating Explored - What Is Going On?](https://www.youtube.com/watch?v=CCBAy7WU5jc)
     * [Goggles X New Firmware Update - Did The Fix The Thermal Issue ?](https://www.youtube.com/watch?v=NNnGt994mt4)
 * [Caddx Walksnail Goggles X - Analog input problem](https://www.youtube.com/watch?v=EgTJesEsdgw)
+    * [Caddx Walksnail Goggles X - Analog input update](https://www.youtube.com/watch?v=X3f7bJE8qpI)
 
 
 
