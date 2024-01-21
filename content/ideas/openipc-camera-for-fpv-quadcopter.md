@@ -31,6 +31,7 @@ Version:      0.0.0
 * [ WiFi in Raw Mode (WFB-ng)](https://github.com/svpcom/wfb-ng)
 * [Video Streaming Data-link using WiFi in Raw Mode (WFB-ng)](https://docs.px4.io/main/en/companion_computer/video_streaming_wfb_ng_wifi.html)
 * [From Wifibroadcast to WFB-NG: The New Era of Open-Source FPV Systems](https://blog.unmanned.tech/open-source-hd-fpv-whats-the-current-state/)
+* [Introducing World’s Lightest 120fps OpenIPC FPV Camera](https://www.youtube.com/watch?v=zOlGxy5lYkA)
 
 * Camera - [openipc wiki has a list of compatable cameras for FPV](https://github.com/OpenIPC/wiki/blob/master/en/guide-supported-devices.md)
 and a a bit dated example [ntroducing OpenIPC SSC338Q-IMX415, the World’s Cheapest 120fps Digital FPV System](https://www.youtube.com/watch?v=tXwiZFD6-yc)
