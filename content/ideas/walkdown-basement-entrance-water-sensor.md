@@ -79,6 +79,14 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [5 Hacks to Prolong your ESPaper’s Battery Run-Time](https://thingpulse.com/5-hacks-prolong-espapers-battery-run-time/)
 
 
+
+# Design Guide for Energy Harvesting
+* [A Powerful Design Guide](https://www.hackster.io/news/a-powerful-design-guide-42ac9054e9af)
+* [Self-powered sensor automatically harvests magnetic energy](https://news.mit.edu/2024/self-powered-sensor-harvests-magnetic-energy-0118)
+* [An Energy Management Design Guide for Self-Powered Sensors](https://ieeexplore.ieee.org/document/10341273)
+
+
+
 # Solar Power
 * [Charging Batteries from Solar Energy](https://www.elektormagazine.com/news/charging-batteries-from-solar)
     * [Charging Batteries from Solar](https://mu.microchip.com/charging-batteries-from-solar)
