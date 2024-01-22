@@ -647,6 +647,11 @@ A function is a relation that uniquely associates members of one set with member
 * [The shaky foundations of cosmology | Bjørn Ekeberg](https://www.youtube.com/watch?v=XmzulJsGtZ4)
 * [Are We Living in a Quantum Sandwich?](https://www.youtube.com/watch?v=7v3Y7vs3avc)
 
+# Stellar Corpses
+* [Stellar Corpses](https://www.youtube.com/watch?v=n1FhudqXgvI)
+* [A Detailed Breakdown of Core Collapse Supernovae](https://www.youtube.com/watch?v=Yt-SBT7nNfU)
+* [Astro Alchemy: Where Rare Elements Come From](https://www.youtube.com/watch?v=3pzjYXBFWz0)
+
 # What about Quantum Theory?
 * [Quantum Physics Explained | Wondrium Perspectives](https://www.youtube.com/watch?v=rf1Ye87GhZU)
 * [Why we need quantum fields, not just quantum particles](https://medium.com/starts-with-a-bang/why-we-need-quantum-fields-not-just-quantum-particles-c05e2260c594)
