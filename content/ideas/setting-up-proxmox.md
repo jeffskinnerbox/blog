@@ -184,6 +184,15 @@ when should I virtualize, containerize, or bare metal?
 
 * [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
 
+# LastPass & Proxmox
+I found that I couldn't login to Proxmox at times.
+Proxmox simply would not move byond the login screen, as if I entered nothing at all.
+This appears to be a conflict between Proxmox and LastPass.
+The work around was to use Incognito mode in my Chrome browser.
+
+* [Unable to log in on PVE servers with Firefox since update to 7.4-3](https://forum.proxmox.com/threads/unable-to-log-in-on-pve-servers-with-firefox-since-update-to-7-4-3.125557/)
+* [Google Chrome Incognito Guide | Private Browsing Tutorial](https://www.youtube.com/watch?v=5wJKbyOe0qE)
+
 
 
 -----
