@@ -20,6 +20,8 @@ What should I do with them?
 * [How to build a Raspberry Pi retrogaming emulation console](https://www.pcworld.com/article/406449/how-to-build-a-raspberry-pi-retrogaming-emulation-console.html)
 * [RetroPie](https://retropie.org.uk/docs/)
 * [Host a Mumble Server](https://www.mumble.info/)
+* [Setup a Meshastic Network Node](https://hackaday.com/2024/01/21/garden-light-turned-mesh-network-node/)
+* [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
 # Novel Cases for Old Raspberry Pi 3
 
