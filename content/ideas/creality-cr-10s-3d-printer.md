@@ -685,6 +685,13 @@ You can improve this by using [stepper motor vibration dampers][36].
 
 * [Free Upgrades for CR-10](https://www.youtube.com/watch?v=faJ7ngEst8g&feature=youtu.be)
 
+## Replacing Bowden Tube and Nozzle
+
+* [How to Replace a Bowden Tube on Ender 3 Pro 3D Printer](https://www.youtube.com/watch?v=aaFyUoYZnVQ)
+* [How to Replace a Nozzle on a 3D Printer](https://www.youtube.com/watch?v=oiEQ8cxVcKc)
+* [Changing Nozzles & Bowden Tubes](https://www.youtube.com/watch?v=FRzsGttNMyk)
+* [How to Clean a 3d Printer Nozzle Correctly - Useful Tips To Save Money](https://www.youtube.com/watch?v=OmXlaqN3uog)
+
 # Monitoring Your Print
 Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halts-and-catches-fire-analysis-finds-a-surprising-culprit/
 
