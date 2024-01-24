@@ -2744,7 +2744,7 @@ however it does provide additional functionality if used:
 
 ```bash
 # install the portainer container
-sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent
+sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
 ```
 
 # Install Some Containers
@@ -2799,8 +2799,43 @@ sudo docker ps -a -s
 ### Step X: Update Your Docker Container
 You can update you Docker containers via the commandline,
 but Portainer provides a intuitive browser UI to do the same.
-Check out the video
-["Use Portainer to update your Docker Containers while they are running. No command line needed."][65].
+Check out the videos below
+
+* [Use Portainer to update your Docker Containers while they are running. No command line needed.](https://www.youtube.com/watch?v=Eme2TlR7Z7E)
+* [How To Update Docker Container automatically with nearly zero downtime](https://www.youtube.com/watch?v=5lP_pdjcVMo)
+
+## Install Watchtower
+With [Watchtower][65] you can automate the updating of your running containerized apps.
+Watchtower will pull down your new image,
+gracefully shut down your existing container,
+and restart it with the same options that were used when it was deployed initially.
+These updates can be scheduled or done on demand.
+
+Sources:
+* [Watchtower Documentation][65]
+* [How To Update Docker Container automatically with nearly zero downtime](https://www.youtube.com/watch?v=5lP_pdjcVMo)
+    * [How To Update Docker Container automatically with nearly zero downtime](https://github.com/christianlempa/videos/tree/main/watchtower-tutorial)
+* [Watchtower: The Docker Container That Automatically Updates Your Images](https://www.youtube.com/watch?v=DNfMuDLDq7k)
+* [How to Update Docker Containers using Watchtower with Portainer](https://www.youtube.com/watch?v=mS0ylPhwQDU)
+
+#### Step X: xxx
+#### Step X: xxx
+#### Step X: xxx
+#### Step X: xxx
+
+## Install HashiCorp Vault
+Secure, store, and tightly control access to tokens, passwords, certificates, and encryption keys for protecting secrets and other sensitive data using a UI, CLI, or HTTP API.
+
+Sources:
+* [The 4 Primary Vault Use Cases](https://www.youtube.com/watch?v=XcDCQSkyhbA)
+* [Introduction to HashiCorp Vault with Armon Dadgar](https://www.youtube.com/watch?v=VYfl-DpZ5wM&t=8s)
+* [HashiCorp Vault](https://www.vaultproject.io/)
+* [Integrate with Docker](https://developer.hashicorp.com/hcp/docs/vault-secrets/integrations/docker)
+
+#### Step X: xxx
+#### Step X: xxx
+#### Step X: xxx
+#### Step X: xxx
 
 
 
@@ -3063,7 +3098,7 @@ bin_ansible_callbacks = True
 [62]:https://docs.docker.com/compose/
 [63]:https://github.com/docker/compose/releases
 [64]:https://docs.portainer.io/v/ce-2.9/admin/upgrade/docker
-[65]:https://www.youtube.com/watch?v=Eme2TlR7Z7E
+[65]:https://containrrr.dev/watchtower/
 [66]:
 [67]:
 [68]:
