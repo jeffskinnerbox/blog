@@ -117,8 +117,9 @@ The SECURE 2.0 Act changes the rules covering 401(k) accounts and required minim
 # Retirement Planning
 * [Fidelity Retirement Decision Guide](https://digital.fidelity.com/stgw/digital/planning/retirement/retirement-decision-guide/entry/)
 
-# Spend Safely in Retirement Strategy
-* [Simple Strategy to Spend Safely in Retirement](https://getpocket.com/explore/item/simple-strategy-to-spend-safely-in-retirement)
+# How can I make my retirement savings last?
+For a high degree of confidence that you can cover a consistent amount of expenses in retirement (i.e., it should work 90% of the time), aim to withdraw no more than 4% to 5% of your savings in the first year of retirement, and then adjust the amount every year for inflation.
+* [How can I make my retirement savings last?](https://www.fidelity.com/viewpoints/retirement/how-long-will-savings-last)
 
 # 401(k)
 * [Big changes are coming to your 401(k). Here’s what you need to know](https://www.cnn.com/2022/04/06/investing/retirement-savings-401k-investing-roth-ira/index.html)
