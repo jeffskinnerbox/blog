@@ -90,6 +90,10 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
     * [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
     * [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
 
+# What is Quantum Advantage?
+* [Scientists figure out how to surpass ‘quantum advantage’ with binary computers](https://cointelegraph.com/news/scientists-surpass-quantum-advantage-binary-computers)
+* [Quantum Advantage in Learning from Experiments](https://blog.research.google/2022/06/quantum-advantage-in-learning-from.html)
+
 # Is Quantum Computing Really Probabilistic Computing?
 In a quantum computation, we are not controlling probabilities but amplitudes, which can be positive, negative, or even imaginary. This makes it possible to extract the solution by canceling out the amplitudes of the other bit vectors. This phenomenon is called interference.
 
