@@ -427,9 +427,10 @@ To get more insight and calm my fears, I used the following artical to educate m
     * [Gisselquist Technology's Projects List](http://zipcpu.com/projects.html)
     * [Driving a VGA Display?! Getting started with an FPGA! (TinyFPGA)](https://www.youtube.com/watch?v=ZNunxg7o8l0)
     * [A simple GPU on a TinyFPGA BX](https://github.com/matt-kimball/toygpu)
-    * [TinyFPGA BX Mandelbrot Generator](https://github.com/martin2250/tinyfpga-mandelbrot)
     * [FPGA Ethernet Cores](https://www.fpga-cores.com/)
     * [Building a Simple Logic PLL](https://zipcpu.com/dsp/2017/12/14/logic-pll.html)
+    * [TinyFPGA BX Mandelbrot Generator](https://github.com/martin2250/tinyfpga-mandelbrot)
+        * [The Quest to Decode the Mandelbrot Set, Math’s Famed Fractal](https://www.quantamagazine.org/the-quest-to-decode-the-mandelbrot-set-maths-famed-fractal-20240126/)
 
 
 * [FPGA tutorials](https://hackaday.io/list/160076-fpga-tutorials)
