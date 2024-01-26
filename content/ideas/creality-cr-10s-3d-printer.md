@@ -686,6 +686,8 @@ You can improve this by using [stepper motor vibration dampers][36].
 * [Free Upgrades for CR-10](https://www.youtube.com/watch?v=faJ7ngEst8g&feature=youtu.be)
 
 ## Replacing Bowden Tube and Nozzle
+On January 26, 2024, I replaced the orginal Bowden Tube and Nozzle with the
+[Creality Upgrade 3D Printer Kit with Capricorn Premium XS Bowden Tubing](https://www.amazon.com/dp/B08G8MGLBX).
 
 * [How to Replace a Bowden Tube on Ender 3 Pro 3D Printer](https://www.youtube.com/watch?v=aaFyUoYZnVQ)
 * [How to Replace a Nozzle on a 3D Printer](https://www.youtube.com/watch?v=oiEQ8cxVcKc)
