@@ -69,6 +69,12 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 * [Mechanical circuits: electronics without electricity](https://www.youtube.com/watch?v=QrkiJZKJfpY)
 * [Analog vs Digital vs Quantum, Explained - Learn Science of Data, Waves, Bits, Qubits and more!](https://www.youtube.com/watch?v=ZMkLPvOVkNo)
 
+# Examples of Computing Machines
+* [The Babbage Engine](https://www.computerhistory.org/babbage/)
+* [Digi-Comp I](https://mindsontoys.com/kits.htm?dc1_main.htm)
+* [Lego Mechanical Computer](https://www.drmoron.org/posts/mechanical-computer/)
+* [Mechanical Implementation of a Turing Machine](http://rubens.ens-lyon.fr/)
+
 # What is Neuromorphic Computing?
 * [The AI Hardware Problem](https://www.youtube.com/watch?v=owe9cPEdm7k)
 * [Neuromorphic Computing-How The Brain-Inspired Technology | Neuromorphic Artificial Intelligence |](https://www.youtube.com/watch?v=u9pulFlavIM)
