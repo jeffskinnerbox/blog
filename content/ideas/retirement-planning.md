@@ -237,7 +237,6 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 * [The 4% Rule: How Much Money Do You Need to Never Work Again?](https://moneythesimpleway.com/how-much-money-to-never-work-again/)
 * [How much do I need to retire?](https://www.fidelity.com/viewpoints/retirement/how-much-do-i-need-to-retire)
 * [The Trinity Study And Portfolio Success Rates (Updated To 2018)](https://www.forbes.com/sites/wadepfau/2018/01/16/the-trinity-study-and-portfolio-success-rates-updated-to-2018/?sh=688fa70b6860)
-* [How Long Does it Realistically Take to Save a Million Dollars?](https://medium.com/money-the-simple-way/how-long-does-it-realistically-take-to-save-a-million-dollars-5f83a6c8b921)
 * [How Much You Should Have Saved for Retirement By Age](https://article.smartasset.com/retirement-savings-by-age/)
 * [How Much Do I Need to Retire?](https://www.investopedia.com/retirement/how-much-you-should-have-saved-age/)
 * [How much do you really need to save for retirement?](https://www.merrilledge.com/article/how-much-do-you-really-need-to-save-for-retirement)
@@ -251,6 +250,13 @@ The typical advice is to replace 70% to 90% of your annual pre-retirement income
 * [Here’s What Retirement Looks Like in America in Six Charts](https://www.wsj.com/articles/your-401-k-isnt-enough-to-invest-for-retirement-build-friendships-and-hobbies-11672269861)
 * [Here’s What a $1 Million Retirement Looks Like in America](https://www.wsj.com/articles/heres-what-a-1-million-retirement-looks-like-in-america-11671890735)
 * [Here’s What a $2 Million Retirement Looks Like in America](https://www.wsj.com/articles/heres-what-a-2-million-retirement-looks-like-in-america-11661702455)
+
+# Retire With a Million Bucks
+Around 10% of retirees have $1 million or more in savings. The majority of retirees, however, have far less saved.
+The Federal Reserve data shows that 65 to 74-year-olds have a median of $164,000 in their retirement accounts while those 75 and older have $83,000 saved for retirement.
+* [Study: This Many Americans Actually Retire With a Million Bucks](https://www.aol.com/finance/many-americans-retire-million-dollars-140019727.html)
+    * [Average Retirement Savings: How Do You Compare?](https://smartasset.com/retirement/average-retirement-savings-are-you-normal)
+* [How Long Does it Realistically Take to Save a Million Dollars?](https://medium.com/money-the-simple-way/how-long-does-it-realistically-take-to-save-a-million-dollars-5f83a6c8b921)
 
 # Healthcare Costs
 According to Fidelity’s annual retiree health care cost estimate, a single 65-year-old could need about $157,500 after taxes to cover their health care expenses in retirement, and a couple could need $315,000.
