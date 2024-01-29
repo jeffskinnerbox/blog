@@ -12,6 +12,11 @@ Version:      0.0.0
 -----
 
 
+# Learning Python
+* [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
+
+
+
 # DIY Python Debugger
 * [Let’s create a Python Debugger together: Part 1](https://mostlynerdless.de/blog/2023/09/20/lets-create-a-python-debugger-together-part-1/)
 * [Let’s create a Python Debugger together: Part 2](https://mostlynerdless.de/blog/2023/10/06/lets-create-a-python-debugger-together-part-2/)
