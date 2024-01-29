@@ -260,6 +260,11 @@ Seems like it is nolonger offered
     * [Quantum Glasses (Member of IBM Qiskit Ecosystem) | Quantum Computing explained](https://www.youtube.com/watch?v=wCrdbL5taj0)
     * [Quantum Computing Tutorials (Visual) for Beginners](https://www.youtube.com/playlist?list=PLJk_IGUjQllfCDHYmFNfaCoUgXImxmZIA)
 
+# Some Potential Useful Quantum Algorithm
+Quantum Fourier Transform - central to many quantum algorithms
+Shor’s Algorithm - factoring large numbers
+Grover’s Algorithm - find a specific item in a database of N items in roughly sqrt(N) operations, classical algorithms require N operations
+Harrow-Hassidim-Lloyd (HHL) Algorithm - solving linear equations
 
 # Scott Aaronson's Course "Quantum Computing Since Democritus"
 * [PHYS771 Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/default.html)
