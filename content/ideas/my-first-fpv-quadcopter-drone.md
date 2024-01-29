@@ -777,7 +777,12 @@ Toothpick class quads are ultra-light weights that have an AUW of under 100g.
 * [Choosing Between a 4S and 6S FPV Drone? #shorts](https://www.youtube.com/shorts/Cv7yHN4IRWw)
 
 ### My Choose
+Raspberry Pi drone or
 Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and drone enthusiasts.
+
+* [Navio2: Autopilot HAT for Raspberry Pi Powered by ArduPilot and ROS](https://navio2.hipi.io/)
+* [PXFMini Flight Controller Shield for Pi Zero Drones](https://dojofordrones.com/pxfmini/)
+
 * [Carbon Aeronautics](https://www.youtube.com/@carbonaeronautics/videos)
 * [GitHub: Carbon Aeronautics](https://github.com/CarbonAeronautics?tab=repositorie)
 * [Cheap and Simple Radio Control Making for RC Models. DIY RC 4-Channel](https://www.youtube.com/watch?v=bD7rQbnSbek)
