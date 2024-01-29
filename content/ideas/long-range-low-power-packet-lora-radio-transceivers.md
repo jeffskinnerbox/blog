@@ -679,6 +679,7 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 * [Deploy a Basics Station LoRa gateway with TTN and balena](https://www.balena.io/blog/deploy-a-basics-station-lora-gateway-with-ttn-and-balena/)
 ### Single Channel Gateway
 ### Roll Your Own
+* [Raspberry Pi friendly LoRaWAN Module for long-range wireless comms](https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/raspberry-pi-friendly-lorawan-module-for-long-range-wireless-comms-2024-01/)
 * [Elecrow launches LoRaWAN Gateway module for Raspberry Pi](https://linuxgizmos.com/elecrow-launches-lorawan-module-for-raspberry-pi/)
 * [Sparklines For Your ESP32 Projects](https://hackaday.com/2020/06/06/sparklines-for-your-esp32-projects/)
 * [SparkFun LoRa Gateway - 1-Channel (ESP32)](https://www.sparkfun.com/products/15006)
