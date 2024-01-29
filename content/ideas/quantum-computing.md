@@ -543,3 +543,7 @@ Tensor network theory is a branch of mathematics that deals with the representat
 
 * [Tensor Network](https://tensornetwork.org/)
 
+## Tensor Network Algorithm Out Perfroming Quantum Computer
+* [A Moving Target for Quantum Advantage](https://physics.aps.org/articles/v17/13)
+    * [Efficient Tensor Network Simulation of IBM’s Eagle Kicked Ising Experiment](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010308)
+
