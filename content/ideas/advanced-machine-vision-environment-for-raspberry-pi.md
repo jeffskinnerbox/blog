@@ -13,6 +13,9 @@ Version:      0.0.0
 
 
 
+* [Raspberry Pi 5 review: The first Pi that can truly serve as a desktop](https://www.expertreviews.co.uk/raspberry-pi-foundation/raspberry-pi-5-review)
+
+
 * [How we made TensorFlow run on a Raspberry Pi using Rust](https://medium.com/snips-ai/how-we-made-tensorflow-run-on-a-raspberry-pi-using-rust-7478f7a31329)
 * [TensorFlow for Poets](https://petewarden.com/2016/02/28/tensorflow-for-poets/)
     * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
