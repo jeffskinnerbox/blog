@@ -1138,6 +1138,17 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 Agent-based models are computer simulations used to study the interactions between people, things, places, and time. They are stochastic models built from the bottom up meaning individual agents (often people in epidemiology) are assigned certain attributes.
 The agents are programmed to behave and interact with other agents and the environment in certain ways. These interactions produce emergent effects that may differ from effects of individual agents. Agent-based modeling differs from traditional, regression-based methods in that, like systems dynamics modeling, it allows for the exploration of complex systems that display non-independence of individuals and feedback loops in causal mechanisms. It is not limited to observed data and can be used to model the counterfactual or experiments that may be impossible or unethical to conduct in the real world.
 
+The study of Complex Systems considers the ability of individual components of a large system to work together to give rise to dramatic and diverse behaviour. Complex emergent phenomena are often not predicted by an understanding of the behaviour of the constituent parts underlying them, i.e.
+* one water molecule is not fluid
+* one gold atom is not metallic
+* one neuron is not conscious
+* one amino acid molecule is not alive
+* one fish is not a school
+* one trader is not a market
+In other words, the emergent properties of complex systems are considered to be greater than the sum of their parts.
+
+In physics, magnetism of everyday materials emerges from the spontaneous alignment of the magnetic moment of billions of electrons. Similarly, phenomena such as superconductivity and superfluidity emerge from the cooperative flow of electrons and atoms, respectively, at temperatures close to absolute zero. On a much larger scale, the structure of the universe emerges from the gravitational attraction of matter.
+
 * [Think Complexity](https://greenteapress.com/complexity/thinkcomplexity.pdf)
 * [Complexity: A Guided Tour](https://www.amazon.com/Complexity-Guided-Tour-Melanie-Mitchell/dp/0199798109)
     * [Complexity a Guided Tour](https://www.youtube.com/watch?v=GYChwJq0310&list=RDLVGYChwJq0310&start_radio=1)
