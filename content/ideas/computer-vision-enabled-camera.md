@@ -14,6 +14,11 @@ Version:      0.0.0
 
 
 
+* [Arducam PiNSIGHT – A 4 TOPS AI camera board for the Raspberry Pi 5](https://www.cnx-software.com/2024/01/27/arducam-pinsight-4-tops-ai-camera-board-for-the-raspberry-pi-5/)
+
+
+
+
 # OpenCV Enabled
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
 * [OpenCV remote (web-based) stream processing](https://github.com/ECI-Robotics/opencv_remote_streaming_processing)
