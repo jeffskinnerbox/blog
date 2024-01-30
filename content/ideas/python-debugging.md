@@ -15,7 +15,12 @@ Version:      0.0.0
 # Learning Python
 * [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
 
+# Debugging Tools & Techniques
+* [Syntax Error #11: Debugging Python](https://www.syntaxerror.tech/syntax-error-11-debugging-python/)
 
+# Python's Built-in Debugger pdb
+* [Python Debugging With pdb: Overview](https://realpython.com/lessons/python-debugging-pdb-overview/)
+* [Python Debugging With pdb](https://realpython.com/courses/python-debugging-pdb/)
 
 # DIY Python Debugger
 * [Let’s create a Python Debugger together: Part 1](https://mostlynerdless.de/blog/2023/09/20/lets-create-a-python-debugger-together-part-1/)
@@ -24,10 +29,6 @@ Version:      0.0.0
 * [Let’s create a Python Debugger together: Part 4 (Python 3.12 edition)](https://mostlynerdless.de/blog/2023/11/10/lets-create-a-python-debugger-together-part-4-python-3-12-edition/)
 * [Let’s create a Python Debugger together: Tiny Addendum (exec and __name__)](https://mostlynerdless.de/blog/2023/11/14/lets-create-a-python-debugger-together-tiny-addendum-exec-and-__name__/)
 * [Let’s create a Python Debugger together: PyData Talk](https://mostlynerdless.de/blog/2023/11/17/lets-create-a-python-debugger-together-pydata-talk/)
-
-# Python's Built-in Debugger pdb
-* [Python Debugging With pdb: Overview](https://realpython.com/lessons/python-debugging-pdb-overview/)
-* [Python Debugging With pdb](https://realpython.com/courses/python-debugging-pdb/)
 
 # Testing Strategies & Tools
 * [Debugging](https://realpython.com/lessons/debugging/)
