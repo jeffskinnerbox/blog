@@ -16,6 +16,13 @@ Version:      0.0.0
 
 
 
+* [3D Printing: Speed is so Hot Right Now](https://hackaday.com/2024/01/29/3d-printering-speed-is-so-hot-right-now/)
+    * [Marlin Firmware](https://marlinfw.org/)
+    * [Klipper](https://www.klipper3d.org)
+    * [Fluidd](https://docs.fluidd.xyz/)
+
+
+
 # Shop Here
 * https://www.gearbest.com/3d-printers-3d-printer-kits/pp_778981.html?wid=1433363#goodsDetail
 
