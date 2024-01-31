@@ -110,6 +110,7 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 * [Understanding Quantum Mechanics](https://www.youtube.com/watch?v=Wsjgtp9XZxo&list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL)
 
 # Quantum Mechanics & Chaos
+* [Quantum computing in the 21st Century – with David Jamieson](https://www.youtube.com/watch?v=zxml8UQSwC0)
 * [Chaos: The real problem with quantum mechanics](https://www.youtube.com/watch?v=LJzKLTavk-w&t=10s)
 * [Chaos and the semiclassical limit of quantum mechanics (is the moon there when somebody looks?)](https://michaelberryphysics.files.wordpress.com/2013/07/berry337.pdf)
 * [Quantum Hyperion](https://www.preposterousuniverse.com/blog/2008/10/23/quantum-hyperion/)
@@ -396,6 +397,8 @@ Train a quantum computer the same way as a neural network.
 ## Qiskit
 Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuitsZZ and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
+
+* [The Qiskit blog is moving!](https://www.ibm.com/quantum/blog)
 
 * [How To Use A Quantum Computer - Quantum Computing Tutorial](https://www.youtube.com/watch?v=AoiI507OpEY&list=PLI4lUS6saNgVnzkGCauWSU0FOnZH7VW8x)
 * [Getting started with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
