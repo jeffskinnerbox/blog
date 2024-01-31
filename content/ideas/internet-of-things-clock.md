@@ -122,6 +122,7 @@ In current usage, horology refers mainly to the study of mechanical time-keeping
 while chronometry more broadly includes electronic devices that have largely supplanted
 mechanical clocks for the best accuracy and precision in time-keeping.
 
+* [Can you 3D Print a Mechanical Clock?](https://www.youtube.com/watch?v=yfNFbE0ahi0)
 * [Cool 3D Printed Mechanical Clock | Tourbillon Mechanica (FDM Version) Assembly Guide](https://www.youtube.com/watch?v=E9prY3ky6Bo)
 * [Horology](https://en.wikipedia.org/wiki/Horology)
 * [tourbillon](https://en.wikipedia.org/wiki/Tourbillon)
