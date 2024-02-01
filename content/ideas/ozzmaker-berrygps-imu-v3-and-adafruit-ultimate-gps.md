@@ -29,6 +29,7 @@ Read this for it good discription of GNSS & NMEA messages
 
 # Table of Contents
 * Background
+    * [Polynesian Wayfinding](https://hackaday.com/2024/02/01/polynesian-wayfinding-traditions-let-humans-roam-the-pacific-ocean/)
     * [Navigation Technologies](#background-navigation-technologies)
     * [GNSS Technologies](#global-navigation-satellite-systems-gnss)
 * BerryGPS Setup
@@ -796,17 +797,6 @@ braking distance, heading, slip angle, lap times, position, cornering forces and
 
 ----
 
-
-# Time Keeping
-* [Stratum-1-Microserver HOWTO](https://www.ntpsec.org/white-papers/stratum-1-microserver-howto/)
-* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-* [Why You Should Consider Moving From NTP to NTPsec](https://medium.com/linode-cube/why-you-should-consider-moving-from-ntp-to-ntpsec-edab616b6740)
-* [Setting the computer time using GPS](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
-* [5 minute guide to making a GPS Locked Stratum 1 NTP Server with a Raspberry Pi](https://ava.upuaut.net/?p=951)
-* [A GPS Frequency Standard For When The Timing Has To Be Right](https://hackaday.com/2022/06/29/a-gps-frequency-standard-for-when-the-timing-has-to-be-right/)
-
-
-----
 
 
 # GPS Data Formats
