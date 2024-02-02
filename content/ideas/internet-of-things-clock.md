@@ -12,20 +12,7 @@ Version:      0.0.0
 -----
 
 
-
-
-################################## Junk ########################################
-* [Sleepy Pi 2](https://spellfoundry.com/product/sleepy-pi-2/)
-* [Installing the Arduino IDE including ESP8266 support](http://www.sensorsiot.org/installing-the-arduino-ide-including-esp8266-support/)
-* [Build An Internet-Connected Alarm Clock With An Arduino](http://www.lifehacker.com.au/2014/08/build-an-internet-connected-alarm-clock-with-an-arduino/)
-* [Build a clock for your entertainment center with a Raspberry Pi](https://opensource.com/article/17/7/raspberry-pi-clock?utm_medium=Email&utm_campaign=editorspicks&sc_cid=701f2000000tpYdAAI)
-* [Arduino Clock Jots Down The Time, In UV](https://hackaday.com/2018/03/22/arduino-clock-jots-down-the-time-in-uv/)
-* [Analog Meters Become a Clock for Father’s Day](https://hackaday.com/2018/06/22/analog-meters-become-a-clock-for-fathers-day/)
-* [GETTING STARTED WITH THE ESP8266 AND DHT22 SENSOR](https://www.losant.com/blog/getting-started-with-the-esp8266-and-dht22-sensor)
-
-* [Here's how to get a more accurate RTC clock set from an NTP time server](https://forum.arduino.cc/index.php?topic=526792.0)
-* [NTPtimeESP](https://github.com/SensorsIot/NTPtimeESP)
-################################## Junk ########################################
+large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/docs/grandmaster-clock-for-your-home-gps-stratum-1-server.md`.
 
 
 
@@ -111,52 +98,6 @@ Version:      0.0.0
 # Doodle Clock
 * [Sketch the current time with this Magna Doodle clock](https://www.blogdot.tv/sketch-the-current-time-with-this-magna-doodle-clock/)
 
-# History of Time
-* [A revolution in time](https://aeon.co/essays/when-time-became-regular-and-universal-it-changed-history)
-* [The First Clock In America Failed, And It Helped Revolutionize Physics](https://medium.com/starts-with-a-bang/the-first-clock-in-america-failed-and-it-helped-revolutionize-physics-223f8ab845d9)
-* [Why Don't We Have Metric Time?](https://www.youtube.com/watch?v=kUIYI34CdkE)
-
-# Horology
-Horology is the study of the measurement of time.
-In current usage, horology refers mainly to the study of mechanical time-keeping devices,
-while chronometry more broadly includes electronic devices that have largely supplanted
-mechanical clocks for the best accuracy and precision in time-keeping.
-
-* [Can you 3D Print a Mechanical Clock?](https://www.youtube.com/watch?v=yfNFbE0ahi0)
-* [Cool 3D Printed Mechanical Clock | Tourbillon Mechanica (FDM Version) Assembly Guide](https://www.youtube.com/watch?v=E9prY3ky6Bo)
-* [Horology](https://en.wikipedia.org/wiki/Horology)
-* [tourbillon](https://en.wikipedia.org/wiki/Tourbillon)
-* [Jaeger-LeCoultre: Tourbillon watches explained by Jeff Kingston](https://www.youtube.com/watch?v=u7sE3L-V36E)
-* [Gyrotourbillion Blesses The Eyes, Hard to Say](https://hackaday.com/2018/06/30/gyrotourbillion-blesses-the-eyes-hard-to-say/)
-* [Gyrotourbillon - printed 3D](https://www.youtube.com/watch?v=DDE_oqEuyxM&feature=youtu.be)
-* [Gyrotourbillon](https://www.thingiverse.com/thing:2820444)
-* [Spiral Exhaust Movement](https://cults3d.com/en/3d-model/various/mouvement-echappement-spiral)
-* [3D-printed Watch with Tourbillon](https://www.thingiverse.com/thing:1249221)
-    * [3D-printed Watch with Tourbillon - How it's made](https://www.youtube.com/watch?v=Go8woPGOggg&app=desktop)
-* [The Clockwerk 3D-Printed Triple-Axis Tourbillon by Adam Wrigley](https://www.youtube.com/watch?v=8KMbHNoY5zc)
-* [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/thing:328569)
-* [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/make:704836)
-* [3D Printed Astronomia Tourbillon Triaxial Clock](https://www.youtube.com/watch?v=KbnkVxV7Tj0)
-* [3D-Printed Tourbillon Demo Keeps the Time with Style](https://hackaday.com/2019/02/04/3d-printed-tourbillon-demo-keeps-the-time-with-style/)
-* [3D Print a Working Tourbillon Clock](https://makezine.com/projects/3d-printed-tourbillon-clock/)
-* [Hawk Eye is a 3D Printed Triple-Axis Tourbillon](https://all3dp.com/hawk-eye-is-a-3d-printed-triple-axis-tourbillon/)
-* [3D Printed Tourbillon Mechanical Clock](https://www.youtube.com/watch?v=4DHofJbkiFo&feature=youtu.be)
-* [3D-Print Triaxial Tourbillon Clock](https://www.thingiverse.com/thing:3415296/)
-    * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
-* [riaxial Tourbillon Clock (Astronomia) by A26](https://www.thingiverse.com/thing:3061474)
-* [A Mind Blowing Mechanical Work Of Art - 3D Printed Tri-Axial Tourbillon](https://www.youtube.com/watch?v=j4Cfn5iATys)
-* [3D Printed Gear Clock with Geneva Mechanism](https://www.youtube.com/watch?v=XTgeFkigeLo)
-
-* [How Earth Moves](https://www.youtube.com/watch?v=IJhgZBn-LHg&feature=youtu.be)
-* [Time Zone Map](https://www.timeanddate.com/time/map/)
-* [The Largely Untold Story Of How One Guy In California Keeps The World’s Computers On The Right Time Zone. (Well, Sort Of)](https://onezero.medium.com/the-largely-untold-story-of-how-one-guy-in-california-keeps-the-worlds-computers-on-the-right-time-a97a5493bf73)
-* [Clock (Dual Ulysse Escapement)](https://www.thingiverse.com/thing:3078909)
-* [3D printed mechanical Clock with Anchor Escapement (STL files) by ToScH](https://www.thingiverse.com/thing:329975)
-* [The Grasshopper Escapement - Best One Yet!](https://www.youtube.com/shorts/MBuEOo8tsDQ)
-* [Slide Clock](https://www.instructables.com/Slide-Clock/)
-* [Clock-of-Clocks Adds Light-Pipe Hands For Beauty And Function](https://hackaday.com/2021/03/19/clock-of-clocks-adds-light-pipe-hands-for-beauty-and-function/)
-* [Clock Escapement Uses Rolling Balls](https://hackaday.com/2023/07/09/clock-escapement-uses-rolling-balls/)
-
 # Ferrofliud Clock
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
 * [Unorthodox “Ferrolic” clock displays the time with magnets and ferrofluid](https://www.digitaltrends.com/cool-tech/ferrolic-ferrofluid-clock/)
@@ -174,65 +115,6 @@ mechanical clocks for the best accuracy and precision in time-keeping.
 * [The Geared Head of Feelings](https://www.thingiverse.com/thing:2670124)
 
 
-
-
-
-# Precision Time Keeping
-If interested in precision timing in general,
-consider joining the [Time Nuts email list](https://lists.febo.com/mailman/listinfo/time-nuts_lists.febo.com).
-
-* [100 Year Old Atomic Clock](https://hackaday.com/2019/09/25/100-year-old-atomic-clock/)
-* [Cesium Clock Teardown, Or Quantum Physics Playground](https://hackaday.com/2020/03/25/cesium-clock-teardown-or-quantum-physics-playground/)
-* [Move Over Cesium Clock, Optical Clocks are Taking Over](https://hackaday.com/2021/03/26/move-over-cesium-clock-optical-clocks-are-taking-over/)
-* [How to get Precise Timing and Frequency to our Lab. From Crystals, TCXO, OCXO to GPSDO, BG7TBL](https://www.youtube.com/watch?v=a393cqhdZpM&feature=youtu.be)
-* [LEO BODNAR GPSDO With the Adalm Pluto SDR](https://www.youtube.com/watch?v=o2IeXpsOQig)
-
-## Terrestrial Radio Time Signals
-A radio clock or radio-controlled clock (RCC), is a type of quartz clock or watch that is automatically synchronized to a time code transmitted by a radio transmitter connected to a time standard such as an atomic clock. Such a clock may be synchronized to the time sent by a single transmitter, such as many national or regional time transmitters, or may use the multiple transmitters used by satellite navigation systems such as Global Positioning System
-
-* [Turning a Quartz Clock Module Into a Time Reference](https://hackaday.com/2023/07/21/turning-a-quartz-clock-module-into-a-time-reference/)
-* [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
-* [WWV](https://en.wikipedia.org/wiki/WWV_(radio_station))
-* [Radio Station WWV: All Time, All The Time](https://hackaday.com/2023/12/13/radio-station-wwv-all-time-all-the-time/)
-
-* [Railway Station Clock Brought Back To Life](https://www.youtube.com/watch?v=ZhPZBuXZctg&t=8s)
-    * [veebch/clock](https://github.com/veebch/clock)
-
-## Network Time Protocol (NTP)
-In operation since before 1985, the Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks.
-
-* [Accurate Time Keeping on your PC using NTP](https://www.satsignal.eu/software/ntp.htm)
-* [Network Time Protocol On The ESP32](https://hackaday.com/2022/05/16/network-time-protocol-on-the-esp32/)
-
-## Precision Time Protocol (PTP)
-The Precision Time Protocol (PTP) is a protocol used to synchronize clocks throughout a computer network. On a local area network, it achieves clock accuracy in the sub-microsecond range, making it suitable for measurement and control systems.
-PTP is typically used in applications that require precise timing but lack access to satellite navigation signals.
-
-| Characteristics | Network Time Protocol (NTP) | Precision Time Protocol (PTP) |
-|:-----:|:-----:|:-----:|
-| Accuracy | < 10 milliseconds (measured in microseconds) | < 10milliseconds (measured in nanoseconds) |
-| Push/Pull Model | NTP client "pulls" ftime from NTP server | PTP Grandmaster clock "pushes" time to other PTP clocks|
-| Typical Use Cases |Network clients (e.g. PC), Network Monitoring, IoT Devices, Cloud Computing | Industrial Automation, Audio/Video Broadcasting, Financial Trading |
-
-* [Network Time Protocol (NTP) - Computerphile](https://www.youtube.com/watch?v=BAo5C2qbLq8)
-* [NTP vs PTP: Which is the Best Time Sync Protocol](https://www.youtube.com/watch?v=lOUqOEkDT5I)
-* [NTP vs. PTP: How Do You Get Accuracy?](https://www.youtube.com/watch?v=wPGRXQYDAyQ)
-* [How Computers Synchronize Their Clocks - NTP and PTP Explained](https://www.youtube.com/watch?v=WX5E8x3pYqg)
-* [Understanding Precision Time Protocol (PTP)](https://www.youtube.com/watch?v=-8DQ6jqTiQM)
-* [It's About Time (PTP and synchronizing clocks)](https://www.youtube.com/watch?v=RvnG-ywF6_s)
-* [Precision Time Protocol (PTP) and Packet Timestamping in Linux - Antoine Tenart, Bootlin](https://www.youtube.com/watch?v=puFSz3M3P4g)
-* [New Part Day: Raspberry Pi Hat for IEEE1588 Precision Time Protocol](https://hackaday.com/2021/08/16/new-part-day-raspberry-pi-hat-for-ieee1588-precision-time-protocol/)
-* [Precision Time Protocol (PTP) Clock Types](https://www.youtube.com/watch?v=rbb9DcIGLKY)
-* [PTP Master Class Webinar Series](https://www.youtube.com/playlist?list=PLn2Bxb_6boyRZyXRxrYwc1k_W1eaKhheh)
-* [The NTP algorithm](https://www.youtube.com/watch?v=_Kuxmu7WkD8)
-
-## White Rabbit Technology
-White Rabbit (WR) is a technology born at CERN which achieves sub-nanosecond
-accuracy in Ethernet based networks. It allows easy deployments of scalable and
-reliable networks with high accuracy synchronization requirements.
-
-* [WhiteRabbit System](https://white-rabbit.web.cern.ch/)
-* [White Rabbit technology](https://psec.uchicago.edu/library/White_Rabbit/francisco_7S-WR_training_slides.pdf)
 
 
 
@@ -256,33 +138,6 @@ and where the amount is then measured.
 
 * [Steampunk Clepsydra](https://www.instructables.com/id/Steampunk-Clepsydra-Water-Thief-Clock/)
 
-## John Harrison Clock
-* [The Clock That Changed the World (BBC History of the World)](https://www.youtube.com/watch?v=T-g27KS0yiY&feature=youtu.be)
-
-# Getting and Keeping Time
-* [Super-Accurate (1ms/yr) GPS-Corrected RTC Clock - *without* Internet NTP](https://forum.arduino.cc/t/super-accurate-1ms-yr-gps-corrected-rtc-clock-without-internet-ntp/640518)
-* ["Connect" to an atomic clock in space! GPS, DCF77](http://hackaday.io/project/1353)
-* [NIST-F1 Cesium Fountain Atomic Clock](https://www.nist.gov/pml/time-and-frequency-division/primary-standard-nist-f1)
-* [WWV Radio Station](http://en.wikipedia.org/wiki/WWV_%28radio_station%29)
-    * [NIST Radio Stations]()
-* [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
-
-# Unix Time
-* [Epic Clock Clocks The Unix Epoch](https://hackaday.com/2018/09/18/epic-clock-clocks-the-unix-epoch/)
-* [End of Time (Unix) - Numberphile](https://www.youtube.com/watch?v=QJQ691PTKsA&feature=youtu.be)
-
-# Time from Mains Frequency
-* [Is Your Clock Tied to Mains Frequency?](https://hackaday.com/2018/03/29/ask-hackaday-is-your-clock-tied-to-mains-frequency/)
-* [Accurately Track Your Mains Frequency](https://hackaday.com/2022/02/15/accurately-track-your-mains-frequency/)
-
-# Time from Radio Stations
-* [WHAT WILL YOU DO IF WWVB GOES SILENT?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
-
-# Time from FM Radio
-Radio Data System (RDS) is a communications protocol standard for embedding small amounts of digital information in conventional FM radio broadcasts. RDS standardizes several types of information transmitted, including time, station identification, and program information.
-* [Working With I2S-Compatible FM Tuners](https://hackaday.com/2022/12/23/working-with-i2s-compatible-fm-tuners/)
-* [I2S output FM Tuner with RDS](https://hackaday.io/project/188624-i2s-output-fm-tuner-with-rds)
-
 # Ham Radio Clock
 * [Ham Clock Raspberry Pi](https://dl1gkk.com/ham-clock-raspberry-pi/)
 
@@ -305,29 +160,6 @@ Once in the detailed view, simply click the center again to return to the analog
 * https://en.wikipedia.org/wiki/Master_clock
 * https://en.wikipedia.org/wiki/Slave_clock
 * [ESP32 Becomes Modern Controller For A 1960s Clock](https://hackaday.com/2020/09/30/esp32-becomes-modern-controller-for-a-1960s-clock/)
-
-
-# Speaking Clocks
-* [Retrotechtacular: The Speaking Clock Goes Silent](https://hackaday.com/2019/10/30/retrotechtacular-the-speaking-clock-goes-silent/)
-
-## Getting a GPS Stratum 1 Server in Your Home (Grandmaster Clock)
-Grandmaster clocks receive UTC-based time information from an external time reference, most commonly a GNSS satellite source. The GNSS-receiver and a PTP engine deliver a PTP service over Ethernet ports. This is then distributed downstream to other clocks.
-
-* [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
-* [Building a Stratum 1 Time Server for 16 bit DOS](https://www.brutman.com/DOS_Time_Server/DOS_Time_Server.html)
-
-* [Build a Stratum 1 Time Server Using a Raspberry Pi Pico](https://www.youtube.com/watch?v=pyVCHX4H7bM)
-* [ESP82266 + GPS STRATUM 1 NTP SERVER](https://www.hackster.io/Absolutelyautomation/esp8266-based-wireless-ntp-server-b77926)
-* [Portable GPS Time Server Powered by the ESP8266](https://hackaday.com/2021/07/25/portable-gps-time-server-powered-by-the-esp8266/)
-* [Accurate Time on Your Pi, the Extreme Way](https://hackaday.com/2019/06/26/accurate-time-on-your-pi-the-extreme-way/)
-* [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-* [GPS Raspberry Pi NTP Server](https://blog.networkprofile.org/gps-backed-local-ntp-server/)
-* [Chrony NTP Service / Local Server and Client](https://www.youtube.com/watch?v=jxHP0Vycdaw)
-
-### Pi Zero Platform for Grandmaster Clock
-* [Sipeed's Longan Pi 3H Packs Full-Size Ports Into a Raspberry Pi Zero Footprint](https://www.hackster.io/news/sipeed-s-longan-pi-3h-packs-full-size-ports-into-a-raspberry-pi-zero-footprint-eec86d9e3ce8)
-* [Orange Pi Zero 2W 4GB with Expansion Board Allwinner H618 LPDDR4 Quad Core CPU 64 Bit Single Board Computer](https://www.amazon.com/Expansion-Allwinner-Computer-Frequency-Bluetooth/dp/B0CHS8CKYD?th=1)
-* [NanoPi R2S Plus dual GbE SBC and router gets 32GB flash, USB-C debug port, M.2 socket for WiFi](https://www.cnx-software.com/2024/01/06/nanopi-r2s-plus-dual-gbe-sbc-router-32gb-flash-usb-c-debug-port-m2-wifi/)
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
@@ -365,13 +197,6 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [This Incredible High-Speed Ticker Board Mimics Your Motion](https://gizmodo.com/5927488/this-incredible-high-speed-ticker-board-mimics-your-motion)
 
 ################################################################################
-
-# Keeping Time
-* [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time)
-* [Railway time](https://en.wikipedia.org/wiki/Railway_time)
-* [Ruth Belville](https://en.wikipedia.org/wiki/Ruth_Belville)
-* [Greenwich Time Signal](https://en.wikipedia.org/wiki/Greenwich_Time_Signal)
-* [Greenwich Time Signal - the 'pips'](https://www.bbc.com/historyofthebbc/anniversaries/february/the-pips)
 
 # Clock Projects Websites
 * [brettoliver.org.uk](http://brettoliver.org.uk/)
@@ -469,7 +294,51 @@ Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall
 * [Raspberry Pi Pico Atomic Clock Keeps Super Accurate Time](https://www.tomshardware.com/news/raspberry-pi-pico-atomic-clock)
 * [An Astronomical Mechanical Clock, In More Ways Than One](https://hackaday.com/2022/01/02/an-astronomical-mechanical-clock-in-more-ways-than-one/)
 
+* [Can you 3D Print a Mechanical Clock?](https://www.youtube.com/watch?v=yfNFbE0ahi0)
+* [Cool 3D Printed Mechanical Clock | Tourbillon Mechanica (FDM Version) Assembly Guide](https://www.youtube.com/watch?v=E9prY3ky6Bo)
+* [Horology](https://en.wikipedia.org/wiki/Horology)
+* [tourbillon](https://en.wikipedia.org/wiki/Tourbillon)
+* [Jaeger-LeCoultre: Tourbillon watches explained by Jeff Kingston](https://www.youtube.com/watch?v=u7sE3L-V36E)
+* [Gyrotourbillion Blesses The Eyes, Hard to Say](https://hackaday.com/2018/06/30/gyrotourbillion-blesses-the-eyes-hard-to-say/)
+* [Gyrotourbillon - printed 3D](https://www.youtube.com/watch?v=DDE_oqEuyxM&feature=youtu.be)
+* [Gyrotourbillon](https://www.thingiverse.com/thing:2820444)
+* [Spiral Exhaust Movement](https://cults3d.com/en/3d-model/various/mouvement-echappement-spiral)
+* [3D-printed Watch with Tourbillon](https://www.thingiverse.com/thing:1249221)
+    * [3D-printed Watch with Tourbillon - How it's made](https://www.youtube.com/watch?v=Go8woPGOggg&app=desktop)
+* [The Clockwerk 3D-Printed Triple-Axis Tourbillon by Adam Wrigley](https://www.youtube.com/watch?v=8KMbHNoY5zc)
+* [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/thing:328569)
+* [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/make:704836)
+* [3D Printed Astronomia Tourbillon Triaxial Clock](https://www.youtube.com/watch?v=KbnkVxV7Tj0)
+* [3D-Printed Tourbillon Demo Keeps the Time with Style](https://hackaday.com/2019/02/04/3d-printed-tourbillon-demo-keeps-the-time-with-style/)
+* [3D Print a Working Tourbillon Clock](https://makezine.com/projects/3d-printed-tourbillon-clock/)
+* [Hawk Eye is a 3D Printed Triple-Axis Tourbillon](https://all3dp.com/hawk-eye-is-a-3d-printed-triple-axis-tourbillon/)
+* [3D Printed Tourbillon Mechanical Clock](https://www.youtube.com/watch?v=4DHofJbkiFo&feature=youtu.be)
+* [3D-Print Triaxial Tourbillon Clock](https://www.thingiverse.com/thing:3415296/)
+    * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
+* [riaxial Tourbillon Clock (Astronomia) by A26](https://www.thingiverse.com/thing:3061474)
+* [A Mind Blowing Mechanical Work Of Art - 3D Printed Tri-Axial Tourbillon](https://www.youtube.com/watch?v=j4Cfn5iATys)
+* [3D Printed Gear Clock with Geneva Mechanism](https://www.youtube.com/watch?v=XTgeFkigeLo)
+
+* [How Earth Moves](https://www.youtube.com/watch?v=IJhgZBn-LHg&feature=youtu.be)
+* [Time Zone Map](https://www.timeanddate.com/time/map/)
+* [The Largely Untold Story Of How One Guy In California Keeps The World’s Computers On The Right Time Zone. (Well, Sort Of)](https://onezero.medium.com/the-largely-untold-story-of-how-one-guy-in-california-keeps-the-worlds-computers-on-the-right-time-a97a5493bf73)
+* [Clock (Dual Ulysse Escapement)](https://www.thingiverse.com/thing:3078909)
+* [3D printed mechanical Clock with Anchor Escapement (STL files) by ToScH](https://www.thingiverse.com/thing:329975)
+* [The Grasshopper Escapement - Best One Yet!](https://www.youtube.com/shorts/MBuEOo8tsDQ)
+* [Slide Clock](https://www.instructables.com/Slide-Clock/)
+* [Clock-of-Clocks Adds Light-Pipe Hands For Beauty And Function](https://hackaday.com/2021/03/19/clock-of-clocks-adds-light-pipe-hands-for-beauty-and-function/)
+* [Clock Escapement Uses Rolling Balls](https://hackaday.com/2023/07/09/clock-escapement-uses-rolling-balls/)
+
+
+
+
+
+
 ################################################################################
+
+
+
+
 
 # Security
 Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP,
@@ -485,130 +354,6 @@ It means all communications between your browser and the website are encrypted.
 * [Secure Boot](https://docs.espressif.com/projects/esp-idf/en/latest/security/secure-boot.html)
 * [Flash Encryption](https://docs.espressif.com/projects/esp-idf/en/latest/security/flash-encryption.html)
 * [Use UEFI Secure Boot NOW!](https://www.youtube.com/watch?v=Mqh9o8YY2dg)
-
-
-
-# Atomic Clock
-* [Who decides how long a second is?](https://www.youtube.com/watch?v=4I5Q3UXkGd0)
-
-# Time from GPS
-* [Building a GPS Time Server with the Raspberry Pi 3](http://unixwiz.net/techtips/raspberry-pi3-gps-time.html)
-* [Portable GPS Time Server Powered By The ESP8266](https://hackaday.com/2021/07/25/portable-gps-time-server-powered-by-the-esp8266/)
-* [Setting the computer time using GPS](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
-* [5 minute guide to making a GPS Locked Stratum 1 NTP Server with a Raspberry Pi](https://ava.upuaut.net/?p=951)
-
-* [Time synchronization with a Garmin GPS](https://www.lammertbies.nl/comm/info/gps-time)
-* [GPS Times, Atomic Clock Frequencies, and the Increasing Accuracy of GPS](https://www.allaboutcircuits.com/technical-articles/gps-times-atomic-clock-frequencies-increasing-accuracy-of-gps/)
-* [Make a GPS Clock With Arduino](https://www.allaboutcircuits.com/projects/how-to-make-a-gps-clock-with-arduino/)
-* [Self-adjusting clock with e-display](https://hackaday.io/project/164955-self-adjusting-clock-with-e-display)
-
-A small GPS breakout board suitable for a clock: [Adafruit Mini GPS PA1010D - UART and I2C - STEMMA QT](https://www.adafruit.com/product/4415)
-* [Qwiic GPS Clock](https://www.sparkfun.com/news/3368)
-
-## Build a Stratum 1 NTP Time Server
-http://www.brettoliver.org.uk/GPS_Time_Server/GPS_Time_Server.htm
-Clock Strata
-NTP uses a hierarchical, semi-layered system of time sources. Each level of this hierarchy is termed a stratum and is assigned a number starting with zero for the reference clock at the top.
-A server synchronized to a stratum n server runs at stratum n + 1.
-The number represents the distance from the reference clock and is used to prevent cyclical dependencies in the hierarchy.
-Stratum is not always an indication of quality or reliability; it is common to find stratum 3 time sources that are higher quality than other stratum 2 time sources.[a] A brief description of strata 0, 1, 2 and 3 is provided below.
-
-Stratum 0
-These are high-precision timekeeping devices such as atomic clocks, GNSS (including GPS) or other radio clocks.
-They generate a very accurate pulse per second signal that triggers an interrupt and timestamp on a connected computer.
-Stratum 0 devices are also known as reference clocks.
-NTP servers cannot advertise themselves as stratum 0.
-A stratum field set to 0 in NTP packet indicates an unspecified stratum.
-
-Stratum 1
-These are computers whose system time is synchronized to within a few microseconds of their attached stratum 0 devices.
-Attachments can be direct, GPS or DCF77 etc.
-Stratum 1 servers may peer with other stratum 1 servers for sanity check and backup. They are also referred to as primary time servers.
-
-Stratum 2
-These are computers that are synchronized over a network to stratum 1 servers.
-Often a stratum 2 computer queries several stratum 1 servers.
-Stratum 2 computers may also peer with other stratum 2 computers to provide more stable and robust time for all devices in the peer group.
-
-Stratum 3
-These are computers that are synchronized to stratum 2 servers.
-They employ the same algorithms for peering and data sampling as stratum 2, and can themselves act as servers for stratum 4 computers, and so on.
-The upper limit for stratum is 15; stratum 16 is used to indicate that a device is unsynchronized.
-The NTP algorithms on each computer interact to construct a Bellman-Ford shortest-path spanning tree, to minimize the accumulated round-trip delay to the stratum 1 servers for all the clients
-
-* [Stratum 1 GPS ESP8266 NTP WIFI Time Server](http://www.brettoliver.org.uk/GPS_Time_Server/GPS_Time_Server.htm)
-* [NIST-F1, a Cesium Fountain Atomic Clock, is the nation's primary time and frequency standard](https://www.nist.gov/pml/time-and-frequency-division/primary-standard-nist-f1)
-* [Build Your Own Stratum 1 NTP Time Server with a Raspberry Pi and U-blox NEO-6M](https://www.hackster.io/news/build-your-own-stratum-1-ntp-time-server-with-a-raspberry-pi-and-u-blox-neo-6m-6ce68bcd5752)
-* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-* [02 Webinar II || GPS & IMU - GPS Time to UTC Epoch Time](https://www.youtube.com/watch?v=24sUlOs8ZGQ&feature=youtu.be&list=PLOafHcC21SxBcup78ZfsHowsVFfHLP-tf)
-* [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
-* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-* [Stratum-1-Microserver HOWTO](https://www.ntpsec.org/white-papers/stratum-1-microserver-howto/)
-* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-* [Why You Should Consider Moving From NTP to NTPsec](https://medium.com/linode-cube/why-you-should-consider-moving-from-ntp-to-ntpsec-edab616b6740)
-
-* [The most accurate Raspberry Pi atomic click IN THE WORLD!](https://www.youtube.com/watch?v=tU0xC1ynaT8&list=RDCMUCR-DXc1voovS8nhAvccRZhg&start_radio=1)
-
-# Probems with Ubuntu Time Keeping
-With the introduction of systemd,
-you have a conflict between `systemd` and `ntpd` attempts to keep time.
-So depending on your installation, time keeping will also stop working (i.e. time will drift)
-if "ntp", "openntpd", "chrony" and/or VirtualBox Services are installed.
-
-So as long as your using VirtualBox, appears there will be a problem with keeping accurate time.
-Until this is fixed, periodical execution of the command `sudo ntpdate time.nist.gov`
-will update the clocks time.
-
-```bash
-# time synchronization status
-$ timedatectl status
-               Local time: Tue 2020-05-26 21:03:31 EDT
-           Universal time: Wed 2020-05-27 01:03:31 UTC
-                 RTC time: Wed 2020-05-27 00:58:32
-                Time zone: America/New_York (EDT, -0400)
-System clock synchronized: no
-              NTP service: inactive
-          RTC in local TZ: no
-
-# notice 'system clock synchronized' is off
-# turn it on
-timedatectl set-ntp on
-
-# time synchronization status will not turn on
-$ timedatectl status
-               Local time: Tue 2020-05-26 21:03:31 EDT
-           Universal time: Wed 2020-05-27 01:03:31 UTC
-                 RTC time: Wed 2020-05-27 00:58:32
-                Time zone: America/New_York (EDT, -0400)
-System clock synchronized: no
-              NTP service: inactive
-          RTC in local TZ: no
-
-# systemd status shows problem
-$ sudo systemctl status systemd-timesyncd.service
-● systemd-timesyncd.service - Network Time Synchronization
-   Loaded: loaded (/lib/systemd/system/systemd-timesyncd.service; enabled; vendor preset: enabled)
-  Drop-In: /lib/systemd/system/systemd-timesyncd.service.d
-           └─disable-with-time-daemon.conf
-   Active: inactive (dead)
-Condition: start condition failed at Tue 2020-05-26 21:08:59 EDT; 16s ago
-           └─ ConditionFileIsExecutable=!/usr/sbin/VBoxService was not met
-     Docs: man:systemd-timesyncd.service(8)
-
-May 26 19:55:32 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
-May 26 20:33:36 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
-May 26 20:40:55 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
-May 26 21:05:56 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
-May 26 21:08:18 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
-May 26 21:08:49 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
-May 26 21:08:59 desktop systemd[1]: Condition check resulted in Network Time Synchronization being skipped.
-```
-
-Source:
-
-* [How to enable automatic date and time on Ubuntu 19.10?](https://askubuntu.com/questions/1198863/how-to-enable-automatic-date-and-time-on-ubuntu-19-10)
-* [Can't sync time to network server on Ubuntu 19.10](https://askubuntu.com/questions/1203038/cant-sync-time-to-network-server-on-ubuntu-19-10)
-* [How to sync time on Ubuntu 20.04 Focal Fossa Linux](https://linuxconfig.org/how-to-sync-time-on-ubuntu-20-04-focal-fossa-linux)
 
 
 ----

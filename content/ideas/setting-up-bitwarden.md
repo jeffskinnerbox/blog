@@ -12,6 +12,51 @@ Version:      0.0.0
 -----
 
 
+[Bitwarden][01]
+Started with the Free Personal Plan but plan to move to the Premium Plan ($10 billed annually) if goes well.
+
+
+# Migrating from LastPass to Bitwarden
+Easiest way to make your move to Bitwarden be to export from Lastpass,
+and then import that file into Bitwarden.
+The Bitwarden website has a [good guide on how to do this migration][03]
+but mainly followed the process outlined [here][02] and [here][04].
+
+First export the Lastpass vault to CSV file. You can do this from the LP browser extension. Then import the CSV into Bitwarden. That takes care of all passwords. If u have any file attachments in LP make sure to copy those over manually. At this point you can start the process of updating all your passwords using BW. When you finish and double / triple chek that everything had transferred successfully, you can delete your LP account
+
+* [Migrating from LastPass to Bitwarden. Bye LastPass][02]
+* [Import Data from LastPass][03]
+
+# Saving New Login to Bitwarden Vault
+Bitwarden has two methods for saving passwords:
+
+1. Manual entry before account creation
+2. Autosave banner after account creation
+
+* [Two methods for saving a new account login to your Bitwarden vault](https://bitwarden.com/blog/two-methods-for-saving-a-new-account-login-to-your-bitwarden-vault/)
+
+
+
+[01]:https://bitwarden.com/
+[02]:https://www.prajwaldesai.com/migrating-from-lastpass-to-bitwarden/
+[03]:https://bitwarden.com/help/import-from-lastpass/
+[04]:https://www.youtube.com/watch?v=RB3exDydjiM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * [Migrating My Password Vault From LastPass To BitWarden](https://www.youtube.com/watch?v=pJU9pyjFLyk)
 * [Should You Store TOTP Authentication in Bitwarden?](https://www.youtube.com/watch?v=DR7wP3RN4sE)

@@ -13,20 +13,78 @@ Version:      0.0.0
 
 
 See for more ideas ... `/home/jeff/blogging/content/ideas/person-and-presence-detection.md`
+...................... `/home/jeff/cad/intel-286-pc/README.md`
+...................... `/home/jeff/blogging/content/ideas/ozzmaker-berrygps-imu-v3-and-adafruit-ultimate-gps.md`
+...................... `/home/jeff/blogging/content/ideas/internet-of-things-clock.md`
 
 
 
 
-
-I have a several Raspberry Pi 3's that are not being used.
+I have a one [Raspberry Pi 2 Model B][01] (32-bit, 900MHz quad-core ARM Cortex-A7 CPU, 1GB RAM)
+and several [Raspberry Pi 3 Model B+][02] (64-bit, 1.4GHz quad-core Cortex-A53 CPU, 1GB RAM, WiFi & Bluetooth 4.2)
+that are not being used.
 What should I do with them?
 
-* [Create a Grandmaster Clock](https://www.oscilloquartz.com/en/products-and-services/technology/what-are-grandmaster-clocks)
+**DOS**
+* [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
+
+**Retro-Gaming**
+* [Install Batocera On The Raspberry Pi 4 Full Setup Guide - Retro Gaming Goodness!](https://www.youtube.com/watch?v=5Jr-0UjgC8I)
+* [RetroPie 4.8 Setup and Install Guide for the Raspberry Pi](https://www.youtube.com/watch?v=-1d_alZNmwU)
+* [Retropie vs Recalbox vs Lakka vs Batocera - Best OS for Retro-gaming](https://www.youtube.com/watch?v=lqdz089kY3s)
 * [How to build a Raspberry Pi retrogaming emulation console](https://www.pcworld.com/article/406449/how-to-build-a-raspberry-pi-retrogaming-emulation-console.html)
+* [How to emulate games on your Raspberry Pi](https://www.xda-developers.com/emulate-games-raspberry-pi/)
+* [Batocera.linux](https://batocera.org/)
 * [RetroPie](https://retropie.org.uk/docs/)
+* [Recalbox]()
+
+**Walkie-Talkie Server**
 * [Host a Mumble Server](https://www.mumble.info/)
+
+**Meshastic Server**
 * [Setup a Meshastic Network Node](https://hackaday.com/2024/01/21/garden-light-turned-mesh-network-node/)
+
+** Eye Candy**
 * [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+
+**Streaming**
+* [Kodi](https://kodi.tv/)
+
+**Peripherals**
+* [remote control](https://www.amazon.com/Favormates-Wireless-Keyboard-Infrared-Raspberry/dp/B01N0SUUZS)
+
+**Grandmaster Clock**
+* [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
+* [Create a Grandmaster Clock](https://www.oscilloquartz.com/en/products-and-services/technology/what-are-grandmaster-clocks)
+* [Grandmaster Clocks](https://novotech.com/products/timing/grandmaster-clocks.html)
+* [Stratum-1-Microserver HOWTO](https://www.ntpsec.org/white-papers/stratum-1-microserver-howto/)
+* [The Raspberry Pi as a Stratum-1 NTP Server](http://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+* [Why You Should Consider Moving From NTP to NTPsec](https://medium.com/linode-cube/why-you-should-consider-moving-from-ntp-to-ntpsec-edab616b6740)
+* [Setting the computer time using GPS](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
+* [5 minute guide to making a GPS Locked Stratum 1 NTP Server with a Raspberry Pi](https://ava.upuaut.net/?p=951)
+* [A GPS Frequency Standard For When The Timing Has To Be Right](https://hackaday.com/2022/06/29/a-gps-frequency-standard-for-when-the-timing-has-to-be-right/)
+**Getting a GPS Stratum 1 Server in Your Home (Grandmaster Clock)**
+Grandmaster clocks receive UTC-based time information from an external time reference, most commonly a GNSS satellite source. The GNSS-receiver and a PTP engine deliver a PTP service over Ethernet ports. This is then distributed downstream to other clocks.
+
+* [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
+* [Building a Stratum 1 Time Server for 16 bit DOS](https://www.brutman.com/DOS_Time_Server/DOS_Time_Server.html)
+
+* [Build a Stratum 1 Time Server Using a Raspberry Pi Pico](https://www.youtube.com/watch?v=pyVCHX4H7bM)
+* [ESP82266 + GPS STRATUM 1 NTP SERVER](https://www.hackster.io/Absolutelyautomation/esp8266-based-wireless-ntp-server-b77926)
+* [Portable GPS Time Server Powered by the ESP8266](https://hackaday.com/2021/07/25/portable-gps-time-server-powered-by-the-esp8266/)
+* [Accurate Time on Your Pi, the Extreme Way](https://hackaday.com/2019/06/26/accurate-time-on-your-pi-the-extreme-way/)
+* [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+* [GPS Raspberry Pi NTP Server](https://blog.networkprofile.org/gps-backed-local-ntp-server/)
+* [Chrony NTP Service / Local Server and Client](https://www.youtube.com/watch?v=jxHP0Vycdaw)
+
+* [NTP Server Gets Time From Space](https://hackaday.com/2022/01/20/ntp-server-gets-time-from-space/)
+    * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+        * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
+        * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
+    * [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
+    * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
+    * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+    * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
 
 # Novel Cases for Old Raspberry Pi 3
 
@@ -86,4 +144,16 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 * [Radxa Zero 3W](https://www.youtube.com/watch?v=BaH4BBij5N4)
 * [Sipeed's Longan Pi 3H Packs Full-Size Ports Into a Raspberry Pi Zero Footprint](https://www.hackster.io/news/sipeed-s-longan-pi-3h-packs-full-size-ports-into-a-raspberry-pi-zero-footprint-eec86d9e3ce8)
 * [Orange Pi Zero 2W 4GB with Expansion Board Allwinner H618 LPDDR4 Quad Core CPU 64 Bit Single Board Computer](https://www.amazon.com/Expansion-Allwinner-Computer-Frequency-Bluetooth/dp/B0CHS8CKYD?th=1)
+
+
+[01]:https://www.raspberrypi.com/products/raspberry-pi-2-model-b/
+[02]:https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/
+[03]:
+[04]:
+[05]:
+[06]:
+[07]:
+[08]:
+[09]:
+[10]:
 
