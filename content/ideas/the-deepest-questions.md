@@ -1133,6 +1133,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 
 # Turing Machine
 * [Turing machines explained visually](https://www.youtube.com/watch?v=-ZS_zFg4w5k)
+* [The Most Important Machine That Was Never Built](https://www.quantamagazine.org/alan-turings-most-important-machine-was-never-built-20230503/)
 * [Alan Turing and the Power of Negative Thinking](https://www.quantamagazine.org/alan-turing-and-the-power-of-negative-thinking-20230905/)
 
 # Study of Complexity / Complex Systems
