@@ -13,6 +13,14 @@ Version:      0.0.0
 
 
 
+# Pi-Cast KVM
+* [Pi-Cast KVM](https://pi-cast.com/getting-started/)
+* [Non-KVM Applications for Pi-Cast KVM](https://www.crowdsupply.com/hackergadgets/pi-cast-kvm/updates/non-kvm-applications-for-pi-cast-kvm)
+
+
+-----
+
+
 
 # TinyPilot
 A modern, open-source Keyboard, Video, Mouse (KVM) over IP.
