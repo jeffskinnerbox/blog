@@ -424,6 +424,15 @@ Qiskit accelerates the development of quantum applications by providing the comp
     * [Lab 4](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-4-541a7e0e6478)
     * [Lab 5](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-5-6d932eb1922)
 
+### Qiskit + Raspberry Pi
+* Qrasp (Quantum RASPberry PI)
+    * [Qrasp — Quantum on a Raspberry Pi](https://medium.com/qiskit/qrasp-a-wee-quantum-computer-74ef7f927b1e)
+    * [GitHub: ordmoj/qrasp](https://github.com/ordmoj/qrasp)
+* RasQberry
+    * [RasQberry: Quantum Computing is the Coolest Project for Raspberry Pi](https://medium.com/qiskit/rasqberry-quantum-computing-is-the-coolest-project-for-raspberry-pi-3f64bec5a133)
+* Other
+    * [GitHub: KPRoche/quantum-raspberry-tie](https://github.com/KPRoche/quantum-raspberry-tie)
+
 ### Qiskit Metal
 * [Qiskit Metal | Quantum Device Design](https://www.qiskit.org/metal/)
 
@@ -478,12 +487,20 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [Online course trains students in the bizarre world of quantum computing](https://www.livescience.com/quantum-computing-students-online-course.html)
 
 # Tutorials / Books on Quantum Computing
+* [Qiskit Blog](https://medium.com/@qiskit)
+* [NEW Qiskit Blog](https://www.ibm.com/quantum/blog)
+* [IBM Quantum Learning](https://learning.quantum.ibm.com/)
+
+* [Qiskit Textbook](https://qiskit.org/learn/)
+    * [Understanding Quantum Information and Computation](https://www.youtube.com/watch?v=0Av89fZenSY&list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&index=2)
+    * [Getting started with Qiskit](https://www.youtube.com/watch?v=P5cGeDKOIP0&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
 
 * [How does quantum computing work?](https://plus.maths.org/content/how-does-quantum-commuting-work)
 * [Quantum computing: Some (not so) gruesome details](https://plus.maths.org/content/really-how-do-quantum-computers-work)
 * [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
     * [Fermilab scientists publish quantum computing course for high school students](https://news.fnal.gov/2020/06/fermilab-scientists-publish-quantum-computing-course-for-high-school-students/)
 * [A free Quantum Computing Tutorial](https://medium.com/@vinven7/a-free-quantum-computing-tutorial-d13a099c91ca)
+* [Learn Quantum Computing With These Seven Projects](https://medium.com/qiskit/learn-quantum-computing-with-these-seven-projects-7478d90d125a)
 * [Quantum Machine Learning](https://www.youtube.com/watch?v=xgA4Dx_7q34&list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
 * [Hands-On Quantum Machine Learning With Python](https://leanpub.com/pyqml-vol1)
 * [Hands-On Quantum Machine Learning With Python Volume 2](https://www.kickstarter.com/projects/pyqml/hands-on-quantum-machine-learning-with-python-volume-2)
@@ -495,10 +512,6 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
     * [Resources for Quantum Computing](https://csferrie.medium.com/introduction-to-quantum-computing-619068d48667)
     * [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
     * [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
-
-* [Qiskit Textbook](https://qiskit.org/learn/)
-    * [Understanding Quantum Information and Computation](https://www.youtube.com/watch?v=0Av89fZenSY&list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&index=2)
-    * [Getting started with Qiskit](https://www.youtube.com/watch?v=P5cGeDKOIP0&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
 
 
 # IBM Q
