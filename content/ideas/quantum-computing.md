@@ -202,6 +202,7 @@ Probabilistic computing is a field of computer science and artificial intelligen
 * Some of the key concepts in probabilistic computing include Bayesian networks, Markov models, Monte Carlo methods, and probabilistic programming languages. These tools and techniques allow computers to perform tasks such as uncertainty quantification, probabilistic inference, and decision-making under uncertainty.
 * Probabilistic computing has a wide range of applications, including machine learning, robotics, computer vision, natural language processing, and cognitive computing. In recent years, the field has seen significant advances, driven by the increasing availability of large amounts of data and the development of powerful computational tools.
 
+* [How Randomness Improves Algorithms](https://www.quantamagazine.org/how-randomness-improves-algorithms-20230403/)
 * [Waiting for Quantum Computing? Try Probabilistic Computing](https://spectrum.ieee.org/computing/hardware/waiting-for-quantum-computing-try-probabilistic-computing)
 * [MIT Probabilistic Computing Project](http://probcomp.csail.mit.edu/)
 * [WHAT IS PROBABILISTIC COMPUTING?](https://www.lonja.de/what-is-probabilistic-computing/)
