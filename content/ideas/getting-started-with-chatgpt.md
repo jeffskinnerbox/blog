@@ -24,10 +24,6 @@ Version:      0.0.0
 * [Will A.I. Steal All The Code And Take All The Jobs?](https://hackaday.com/2023/03/08/will-a-i-steal-all-the-code-and-take-all-the-jobs/)
 * [ChatGPT Rules the World… or, at Least, the Home](https://hackaday.com/2023/05/22/chatgpt-rules-the-world-or-at-least-the-home/)
 
-* [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, mamba-gpt)](https://www.dfrobot.com/blog-13498.html?tracking=6594dccfd2dcd)
-* [I Ran Advanced LLMs on the Raspberry Pi 5!](https://www.youtube.com/watch?v=Y2ldwg8xsgE)
-* [Running a ChatGPT-Like LLM on the Raspberry Pi 5](https://www.hackster.io/shahizat/running-a-chatgpt-like-llm-on-the-raspberry-pi-5-fd67f9)
-
 
 
 

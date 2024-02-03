@@ -42,3 +42,4 @@ Version:      0.0.0
 * [Maple Syrup Pi Camera](https://www.hackster.io/ricardodeazambuja/maple-syrup-pi-camera-7962d9)
 * [Nicla Vision](https://www.sparkfun.com/products/19728)
 * [How To Roll Your Own Custom Object Detection Neural Network](https://hackaday.com/2023/02/13/how-to-roll-your-own-custom-object-detection-neural-network/)
+
