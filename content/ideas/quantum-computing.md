@@ -18,6 +18,25 @@ The key sentence: *This is an elementary-level introduction to quantum computing
 Never the less, if you read the course description and syllabus further,
 this course appears to contain much of the material and approach that has disappointed me in the past.
 
+>They say that superposition means “both at once,” so that a quantum bit, or qubit, is just a bit that can be “both 0 and 1 at the same time,” while a classical bit can be only one or the other. They go on to say that a quantum computer would achieve its speed by using qubits to try all possible solutions in superposition — that is, at the same time, or in parallel.
+>This is what I’ve come to think of as the fundamental misstep of quantum computing popularization, the one that leads to all the rest.
+>What superposition really means is “complex linear combination.” Here, we mean “complex” not in the sense of “complicated” but in the sense of a real plus an imaginary number, while “linear combination” means we add together different multiples of states. So a qubit is a bit that has a complex number called an amplitude attached to the possibility that it’s 0, and a different amplitude attached to the possibility that it’s 1. These amplitudes are closely related to probabilities, in that the further some outcome’s amplitude is from zero, the larger the chance of seeing that outcome; more precisely, the probability equals the distance squared.
+>Compounding the difficulty is that, if you want to talk honestly about quantum computing, then you also need the conceptual vocabulary of theoretical computer science. I’m often asked how many times faster a quantum computer will be than today’s computers. A million times? A billion?
+>This question misses the point of quantum computers, which is to achieve better “scaling behavior,” or running time as a function of n, the number of bits of input data. This could mean taking a problem where the best classical algorithm needs a number of steps that grows exponentially with n, and solving it using a number of steps that grows only as n2. In such cases, for small n, solving the problem with a quantum computer will actually be slower and more expensive than solving it classically. It’s only as n grows that the quantum speedup first appears and then eventually comes to dominate.
+>Note that, after explaining all this, I still haven’t said a word about the practical difficulty of building quantum computers. The problem, in a word, is decoherence, which means unwanted interaction between a quantum computer and its environment — nearby electric fields, warm objects, and other things that can record information about the qubits. This can result in premature “measurement” of the qubits, which collapses them down to classical bits that are either definitely 0 or definitely 1.
+>Once someone understands these concepts, I’d say they’re ready to start reading — or possibly even writing — an article on the latest claimed advance in quantum computing. They’ll know which questions to ask in the constant struggle to distinguish reality from hype. Understanding this stuff really is possible — after all, it isn’t rocket science; it’s just quantum computing!
+>[Scott Aaronson, What Makes Quantum Computing So Hard to Explain?](https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608)
+
+
+Barriers to getting your head around quantum computing:
+* the language & concepts used in quantum physics and how it obscures you understanding
+* the mathematics of vector spaces / tensors / Bra–ket notation / probability / complex numbers and how it relates to the physics & computation
+* what does it mean to "compute"
+* computational complexity theory
+* the concept of randomness and how it can aid in computation
+* What are the type of problems suitable for a quantum computer? - The fact that quantum computers can solve any problems that classical computers can, but quantum and classical computers really are a category apart — that even in a world where classical computers succeed beyond all realistic dreams, quantum computers would still stand beyond them. ([Raz and Tal’s paper](https://eccc.weizmann.ac.il/report/2018/107/)). The work of Raz and Tal’s provides an ironclad assurance that quantum computers exist in a different computational realm than classical computers (at least relative to an oracle). Even in a world where P equals NP — one where the traveling salesman problem is as simple as finding a best-fit line on a spreadsheet — Raz and Tal’s proof demonstrates that there would still be problems only quantum computers could solve.
+* “Even if P were equal to NP, even making that strong assumption,” said Fortnow, “that’s not going to be enough to capture quantum computing.”
+
 # Origin Stories
 Richard Feynman wrote his famous paper titled "Simulating Physics with Computers" concerning the need for quantum computing in May of 1981.
 I often wonder why he had an interest in computation.
@@ -68,6 +87,10 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 * [Was There Life Before Computers?](https://www.nicolamarras.it/Was-There-Life-Before-Computer-en.pdf)
 * [Mechanical circuits: electronics without electricity](https://www.youtube.com/watch?v=QrkiJZKJfpY)
 * [Analog vs Digital vs Quantum, Explained - Learn Science of Data, Waves, Bits, Qubits and more!](https://www.youtube.com/watch?v=ZMkLPvOVkNo)
+
+# What is Computational Complexity?
+* [A Short Guide to Hard Problems](https://www.quantamagazine.org/a-short-guide-to-hard-problems-20180716/)
+* [Finally, a Problem That Only Quantum Computers Will Ever Be Able to Solve](https://www.quantamagazine.org/finally-a-problem-that-only-quantum-computers-will-ever-be-able-to-solve-20180621/)
 
 # Examples of Computing Machines
 * [The Babbage Engine](https://www.computerhistory.org/babbage/)
@@ -252,7 +275,7 @@ Probabilistic computing is a field of computer science and artificial intelligen
 
 
 # IBM Quantum Developer Certification
-Seems like it is nolonger offered
+Seems like it is no longer offered
 * [Learn More About the IBM Quantum Developer Certification — And How to Take it For Free](https://medium.com/qiskit/learn-more-about-the-ibm-quantum-developer-certification-and-how-to-take-it-for-free-d237f9765dc5)
 
 * [Quantum Computing for Dummies: New guide helps beginners run quantum algorithms on IBM’s quantum computers over the cloud](https://spectrum.ieee.org/quantum-computing-for-dummies)
@@ -267,6 +290,11 @@ Quantum Fourier Transform - central to many quantum algorithms
 Shor’s Algorithm - factoring large numbers
 Grover’s Algorithm - find a specific item in a database of N items in roughly sqrt(N) operations, classical algorithms require N operations
 Harrow-Hassidim-Lloyd (HHL) Algorithm - solving linear equations
+
+## Shor’s Algorithm
+* [Thirty Years Later, a Speed Boost for Quantum Factoring](https://www.quantamagazine.org/thirty-years-later-a-speed-boost-for-quantum-factoring-20231017)
+* [How Quantum Computers Will Correct Their Errors](https://www.quantamagazine.org/how-quantum-computers-will-correct-their-errors-20211116)
+* [New Codes Could Make Quantum Computing 10 Times More Efficient](https://www.quantamagazine.org/new-codes-could-make-quantum-computing-10-times-more-efficient-20230825/)
 
 # Scott Aaronson's Course "Quantum Computing Since Democritus"
 * [PHYS771 Quantum Computing Since Democritus](https://www.scottaaronson.com/democritus/default.html)
@@ -303,6 +331,9 @@ As physicist Charlie Bennett describes the [relationship between quantum and cla
 Is this why or is it bull shit?
 * [](https://medium.com/@hasnainistz/quantum-computing-why-it-is-so-fast-ddc93f3dffdc)
 * [What Is Entanglement and Why Is It Important?](https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement)
+
+# Quantum Error Correction
+* [How Quantum Computers Will Correct Their Errors](https://www.quantamagazine.org/how-quantum-computers-will-correct-their-errors-20211116)
 
 # Negative Probability
 The probability axioms require that P(E)≥0 for every event E, and that the probability P(Ω) of the entire sample space is 1. So a system with negative probability, or probabilities greater than 1, does not satisfy the axioms of being a probability space.
