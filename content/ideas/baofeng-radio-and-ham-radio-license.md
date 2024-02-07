@@ -18,6 +18,7 @@ Version:      0.0.0
 
 * [Loudoun Amateur Radio Group](https://k4lrg.org/)
 * [RepeaterBook: Loudoun County, Virginia](https://www.repeaterbook.com/repeaters/location_search.php?type=county&state_id=51&loc=Loudoun)
+*  Internet-backed recording and playback device for two-way radios - [Boondock Echo](https://www.crowdsupply.com/boondock-technologies/boondock-echo)
 
 
 
