@@ -12,6 +12,36 @@ Version:      0.0.0
 -----
 
 
+# Home Network Best Practices
+## Best Practices for pfSense Firewall Rules
+* [Best Practices for pfSense Firewall Rules](https://hometechhacker.com/best-practices-for-pfsense-firewall-rules/)
+
+### Network Segmentation
+| Device         | Group             |
+|----------------|-------------------|
+| Work PC        | Work              |
+| Smart TV       | Media             |
+| Speakers       | Media             |
+| Door Camera    | Operational       |
+| Coffee Maker   | Operational       |
+| File Server    | Personal-Wired    |
+| Personal PC 1  | Personal-Wired    |
+| Personal PC 2  | Personal-Wired    |
+| Personal PC 3  | Personal-Wired    |
+| Phone          | Personal-Wireless |
+| Tablet         | Personal-Wireless |
+| Water Sensors  | Internet of Things|
+
+### Network VLANs
+| Network         | VLAN / Nickname | Group             | Connectivity | # of Devices |
+|-----------------|-----------------|-------------------|--------------|--------------|
+| 192.168.1.0/24  | 1 / Wired       | Personal-Wired    | Wired        |       4      |
+| 192.168.2.0/24  | 2 / Work        | Sensitive         | Wired        |       1      |
+| 192.168.3.0/24  | 3 / Wireless    | Operational+Media | Wireless     |       4      |
+| 192.168.4.0/24  | 4 / Guest       | Guest             | Wireless     |       ?      |
+
+
+
 
 # Configure pfSense, Virtualized on Proxmox, Hosted on Protectli Vault
 
