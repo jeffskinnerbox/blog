@@ -841,6 +841,9 @@ You find the install methodology documented [here][42]
 and the specific instructions for my installation can be found here:
 `~/src/docker-containers/mymeda`.
 
+# Plex - Music Streaming to Echo - DONE
+See `/home/jeff/blogging/content/ideas/desktop-fresh-install-of-ubuntu.md`.
+
 
 
 -----

@@ -99,6 +99,9 @@ Whatever you type, Alexa will speak.
 * [Forcing Amazon Alexa Compatible Stuff to Speak to Google Assistant](https://hackaday.com/2019/01/01/forcing-amazon-alexa-compatible-stuff-to-speak-to-google-assistant/)
 
 
+------
+
+
 # Music in the Workshop
 Years ago, in my basement workshop, I put a stereo speakers + amplifier
 (an earlier version of the [Denon D-M41DAB][32])
@@ -117,7 +120,7 @@ when I'm peaceful secluded in the Workshop.
 I was considering creating an intercom system for the workshop,
 but the [Alexa voice calling and messaging feature][30] provides all that I need.
 
-# Music Streaming to Echo
+## My Media: Music Streaming to Echo
 I want to play music from my computer library stream it to my Amazon Echo (aka Alexa).
 In late 2017 I could do this with music I purchased from Amazon or I manually uploaded.
 But in 2018, Amazon Music stop allowing users to upload their own music,
@@ -210,6 +213,90 @@ Alexa, ask My Media to read the book ???
 Alexa, skip / next
 Alexa, stop
 ```
+
+## Plex: Music Streaming to Echo
+[Plex][43] gives you one place to find and access all the music & video media on your own server,
+including and on-demand Movies & Shows or live TV, so you can enjoy it all in one app, on any device.
+To set up your own personal media server,
+
+1. Install & run the [Plex Media Server][44] on a computer, such as my Synology NAS.
+2. [Add media libraries][47] by type of content and let Plex do the rest—cataloging.
+It will adding artwork and info—it’s all automatic.
+3. Install and open one of them many [Plex app][45] on virtually any device, such as a smartphone,
+tablet, smart TV, streaming device, game console, personal computer, or any browser.
+I'm using the [Plex app for Alexa][46] so I can play music on my Amazon Echo.
+
+To have Plex play your music files on an Amazon Echo,
+you’ll need a media server device that is always on, can run Plex Media Server,
+and be accessible from the Internet on one of its ports.
+But first, lets drag & drop folders into Synology NAS
+but you must take these steps to enable drag & drop:
+
+1. On the Synology NAS, within **File Station** right-click on the target folder.
+2. Select the **Settings** button near the top of the window.
+3. Select **Enable smart drag and drop** and then click **Save**
+
+To enable Plex with the library of music you created:
+
+1. Enter Plex's brownser UI and select **MORE** > **Synology NAS** from the menu on the left side.
+2. Click the **MANAGE LIBRARIES** button at the center of the screen.
+3. Click the **ADD LIBRARY** button at the top left.
+4. In the "Add Library" pop-up window, select **Music** and enter the name of the folder as "Music".
+5. Click **NEXT** > **BROWSE FOR MEDIA FOLDER**, then select **volume1** then **PlexMediaServer**, then **Music**.
+6. Click **ADD LIBRARY** and validate you can play music by going to the Home page.
+
+To play music on you on your Amazon Echo,
+enable the [Plex app for Alexa][46] by following these instructions [here][48] and [here][49]:
+
+1. Allow your Plex Media Server to be remotely accessed by the Echo selecting the wrench (aka "settings") in the corner.
+2. Now select within the menu on the left-bottom **Remote Access** > **Settings** > **Server** > **Remote Access** in Plex Web App.
+Check the box **Manually specify public port**, using port `32400`.
+3. Using [this procedure][50], update your pfSense router firewall rules.
+4. Click on the **Enable** button in the Alexa skill via ["Plex app for Alexa"][46] webpage.
+5. Now set your server by saying to the Echo "Alexa, Ask Plex to change my server".
+Alexa will respond back and state your server is "Synology NAS".
+6. Test you Plex connection by asking "Alexa, Ask Plex to play music"
+
+
+```bash
+# the port must be in the listening state to be open
+
+# check on your desktop (linux)
+ssh jeff-admin@192.168.1.200
+netstat -aon | grep 32400
+
+# check on your synology nas (linux)
+ssh jeff-admin@192.168.1.201
+netstat -aon | grep 32400
+
+# check on your gateway router (pfsense)
+# on pfsense ui, goto Diagnostics > Test Port and use host = 192.168.1.201 and port = 32400
+
+# check on your gateway router (pfsense)
+#ssh admin@192.168.1.1
+sockstat -aon | grep 32400
+```
+
+To ask Plex to play music on you Echo, use these phrases:
+* Alexa, ask Plex to play music
+* Alexa, ask Plex to play music by Bob Marley
+* Alexa, ask Plex to pause
+* Alexa, ask Plex to stop
+
+Sources:
+* [Adding Music Media From Folders][47]
+* [How to Setup Plex Media Server On A Synology NAS](https://www.youtube.com/watch?v=1pt375GGAsE)
+* [How to play music you own on an Amazon Echo](https://www.techhive.com/article/583189/how-to-play-music-you-own-on-an-amazon-echo.html)
+* [Getting Started with Alexa Voice Control][48]
+* [Plex Media Server Setup Guide – Complete Beginners Guide](https://troypoint.com/plex-media-server-setup-guide/)
+* [Building A Music Server Using Plex Media Server | Part III](https://www.youtube.com/watch?v=UBiZzNMrU1Y)
+* [How to Port Forward in pfSense][50]
+
+## Plex: Video & Music Chromecasting
+* [How to Cast Plex to Chromecast and Google Home](https://www.youtube.com/watch?v=1FkDya3cD08)
+
+------
+
 
 # Amazon Echo "How To Do"
 ## How to access the Amazon Echo from the Web
@@ -622,14 +709,14 @@ open phone apps, and [more][20].
 [40]:https://www.cnet.com/home/smart-home/amazon-sidewalk-launches-june-8-with-support-for-tile-trackers/
 [41]:https://www.cnet.com/home/smart-home/amazon-sidewalk-has-automatically-switched-on-in-your-alexa-app/
 [42]:https://www.cnet.com/home/smart-home/how-to-switch-off-amazon-sidewalk-in-the-alexa-app/
-[43]:
-[44]:
-[45]:
-[46]:
-[47]:
-[48]:
-[49]:
-[50]:
+[43]:https://www.plex.tv/
+[44]:https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux
+[45]:https://play.google.com/store/apps/details?id=com.plexapp.android&hl=en_US&gl=US
+[46]:https://www.amazon.com/dp/B01NBB1INY
+[47]:https://support.plex.tv/articles/200265296-adding-music-media-from-folders/
+[48]:https://support.plex.tv/articles/115000320808-getting-started-with-alexa-voice-control/
+[49]:https://support.plex.tv/articles/200931138-troubleshooting-remote-access/
+[50]:https://www.wundertech.net/pfsense-port-forwarding-setup-guide/
 [51]:
 [52]:
 [53]:http://jasperproject.github.io/
