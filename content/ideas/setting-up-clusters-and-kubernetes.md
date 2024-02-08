@@ -34,6 +34,11 @@ Version:      0.0.0
 
 
 
+# Raspberry Pi Docker Swarm Cluster
+* [Docker Swarm](https://www.kevsrobots.com/blog/docker-swarm.html)
+* [DOCKER SWARM ON RASPBERRY PI 5](https://www.kevsrobots.com/learn/docker_swarm/)
+* [Creating a Supercomputer with a Raspberry Pi 5 Cluster and Docker Swarm!](https://www.youtube.com/watch?v=tDENgLiJSh0)
+
 * [7 Raspberry Pi Cluster Projects You Should Try](https://www.makeuseof.com/raspberry-pi-cluster-projects-you-should-try/)
 
 * [My Custom (Automated) LiM Kubernetes Cluster](https://rpi.loonix.ca/lim-cluster-set-up/)
