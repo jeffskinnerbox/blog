@@ -28,6 +28,15 @@ Version:      0.0.0
 
 
 
+# Ollama
+Ollama is a streamlined tool for running open-source LLMs locally
+Olama is an offline AI that performs similarly to ChatGPT. Olama is designed to function entirely offline and locally, which implies you can engage in text-based conversations, share codes, photos or documents and receive an interactive responses without a grain of your data being compromised.
+
+* [OLLAMA - LOCAL CHATGPT ON PI 5](https://www.kevsrobots.com/blog/ollama)
+* [Ollama](https://ollama.ai/)
+* [LangChain](https://python.langchain.com/docs/get_started/introduction)
+* [Olama: The Future of Open Source Projects](https://eightify.app/summary/computer-science-and-technology/olama-the-future-of-open-source-projects)
+
 # What is a Large Language Model (LLM)?
 * [Large Language Models from scratch](https://www.youtube.com/watch?v=lnA9DMvHtfI)
 * [Large Language Models: Part 2](https://www.youtube.com/watch?v=YDiSFS-yHwk)
