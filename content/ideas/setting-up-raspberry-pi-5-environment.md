@@ -12,11 +12,40 @@ Version:      0.0.0
 -----
 
 
+On Feburary 1st, I ordered  in late January a **Pi 5 + active cooler + GNSS add on Module for Seeed Studio XIAO** via Seeed Studio.  Expect delivery mid-March.
+Other things to consider:
+* Tensor Processing Unit (TPU)
+* NVMe SSD
 
+
+
+* [Raspberry Pi 5 review: A huge upgrade for the tiny single-board computer](https://www.pcworld.com/article/2219346/raspberry-pi-5-review.html)
 * [Raspberry Pi 5 review: The first Pi that can truly serve as a desktop](https://www.expertreviews.co.uk/raspberry-pi-foundation/raspberry-pi-5-review)
+* [Raspberry Pi 5 vs N100 PC (featuring Ubuntu 23.10)](https://www.youtube.com/watch?v=hekzpSH25lk)
 
 * [A Step-by-Step Guide to Install Kali Linux on Raspberry Pi 5](https://thesecmaster.com/a-step-by-step-guide-to-install-kali-linux-on-raspberry-pi-5/)
 
+# Raspberry Pi Benchmark Tools
+* [FINALLY! NVMe SSDs on the Raspberry Pi](https://www.youtube.com/watch?v=EXWu4SUsaY8)
+* [Pi Benchmarks](https://pibenchmarks.com/)
+
+```bash
+# to run the benchmark paste/type
+sudo curl https://raw.githubusercontent.com/TheRemote/PiBenchmarks/master/Storage.sh | sudo bash
+
+# benchmark suite which allows you to quickly get an impression of system performance
+# https://www.howtoforge.com/how-to-benchmark-your-system-cpu-file-io-mysql-with-sysbench
+# https://www.phoronix-test-suite.com/
+
+# cpu benchmark
+sysbench cpu --cpu-max-prime=20000 --threads=4 --time=0 --events=10000 run
+
+# file io benchmark
+sysbench --test=fileio --file-total-size=150G prepare    # create a test file that is much bigger than your RAM (because otherwise, the system will use RAM for caching which tampers with the benchmark results) - 150GB is a good value
+.
+.
+.
+```
 
 # Overclocking
 * [Raspberry Pi 5 became 25% faster by changing some numbers in the configuration file](https://technewsspace.com/raspberry-pi-5-became-25-faster-by-changing-some-numbers-in-the-configuration-file/)
@@ -29,7 +58,22 @@ Version:      0.0.0
 * [Overclock Your Raspberry Pi The Right Way](https://hackaday.com/2018/01/16/__trashed-5/)
 * [How to Overclock Any Raspberry Pi](https://www.tomshardware.com/how-to/overclock-any-raspberry-pi)
 
+# Proxmox Server
+* [Is the Raspberry Pi5 the better Proxmox Server?](https://www.youtube.com/watch?v=Qit-3upR6iA)
+
 # Large Language Model (LLM)
 * [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, mamba-gpt)](https://www.dfrobot.com/blog-13498.html?tracking=6594dccfd2dcd)
 * [I Ran Advanced LLMs on the Raspberry Pi 5!](https://www.youtube.com/watch?v=Y2ldwg8xsgE)
 * [Running a ChatGPT-Like LLM on the Raspberry Pi 5](https://www.hackster.io/shahizat/running-a-chatgpt-like-llm-on-the-raspberry-pi-5-fd67f9)
+
+# Tensor Processing Unit (TPU)
+* [Coral USB Accelerator](https://www.amazon.com/dp/B07S214S5Y)
+* [AI on a Pi? Believe it!](https://www.youtube.com/watch?v=so8_h0EKPWU)
+* [GET STARTED WITH CORAL AND RASPBERRY PI](https://www.okdo.com/getting-started/get-started-with-google-coral-and-raspberry-pi/)
+* [M.2 E-Key Wi-Fi 7 HAT for Raspberry Pi 5 also supports Google TPU](https://www.cnx-software.com/2024/02/02/m2-e-key-wifi-7-hat-for-raspberry-pi-5-google-tpu/)
+
+# NVMe SSD
+* [FINALLY! NVMe SSDs on the Raspberry Pi](https://www.youtube.com/watch?v=EXWu4SUsaY8)
+* [Raspberry Pi 5 M.2 HatDrive!](https://www.youtube.com/watch?v=B9OwWnAftb4)
+* [Raspberry Pi 5 with 2TB NVME SSD Geekworm Shield](https://www.youtube.com/watch?v=IUxP31rNRY4)
+
