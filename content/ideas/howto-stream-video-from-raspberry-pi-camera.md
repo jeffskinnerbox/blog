@@ -13,6 +13,10 @@ Version:      0.0.0
 
 
 
+* [Raspberry Pi Streaming Camera](https://www.hardill.me.uk/wordpress/2020/05/18/raspberry-pi-streaming-camera/)
+* [Raspberry Pi Zero Gadgets](https://www.hardill.me.uk/wordpress/2017/01/23/raspberry-pi-zero-gadgets/)
+* [Pi4 USB-C Gadget](https://www.hardill.me.uk/wordpress/2019/11/02/pi4-usb-c-gadget/)
+
 * Consider using [OpenFaaS](https://www.openfaas.com/)
 * [Bash Functions as a Service](https://medium.com/swlh/bash-functions-as-a-service-b4033bc1ee97)
 
