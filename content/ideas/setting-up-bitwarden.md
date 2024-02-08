@@ -15,6 +15,9 @@ Version:      0.0.0
 [Bitwarden][01]
 Started with the Free Personal Plan but plan to move to the Premium Plan ($10 billed annually) if goes well.
 
+* [The best password managers you can buy](https://www.zdnet.com/article/best-password-manager/)
+* [How to protect and secure your password manager](https://www.zdnet.com/article/how-to-protect-and-secure-your-password-manager/)
+
 
 # Migrating from LastPass to Bitwarden
 Easiest way to make your move to Bitwarden be to export from Lastpass,
