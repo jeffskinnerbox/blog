@@ -24,7 +24,16 @@ Version:      0.0.0
 * [Will A.I. Steal All The Code And Take All The Jobs?](https://hackaday.com/2023/03/08/will-a-i-steal-all-the-code-and-take-all-the-jobs/)
 * [ChatGPT Rules the World… or, at Least, the Home](https://hackaday.com/2023/05/22/chatgpt-rules-the-world-or-at-least-the-home/)
 
+# LLaVA: Large Language and Vision Assistant
+* [Very small vision language model!!! (MoonDream V1)](https://www.youtube.com/watch?v=1b9erAtYr9A)
+* [00% Local Tiny AI Vision Language Model (1.6B) - Very Impressive!!](https://www.youtube.com/watch?v=oDGQrOlmC1s)
 
+# Local Low Latency Speech to Speech
+* [Local Low Latency Speech to Speech - Mistral 7B + OpenVoice / Whisper | Open Source AI](https://www.youtube.com/watch?v=0k8wUfU7n4Q)
+
+
+
+--------
 
 
 
@@ -36,6 +45,13 @@ Olama is an offline AI that performs similarly to ChatGPT. Olama is designed to 
 * [Ollama](https://ollama.ai/)
 * [LangChain](https://python.langchain.com/docs/get_started/introduction)
 * [Olama: The Future of Open Source Projects](https://eightify.app/summary/computer-science-and-technology/olama-the-future-of-open-source-projects)
+* [Private AI Revolution: Setting Up Ollama with WebUI on Raspberry Pi 5!](https://www.youtube.com/watch?v=jJKbYj8mIy8&t=53s)
+
+
+
+--------
+
+
 
 # What is a Large Language Model (LLM)?
 * [Large Language Models from scratch](https://www.youtube.com/watch?v=lnA9DMvHtfI)
