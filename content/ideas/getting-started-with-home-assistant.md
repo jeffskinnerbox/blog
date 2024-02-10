@@ -60,6 +60,12 @@ A follow on article show how to integrate this into Home Assistant.
 * [RaspiTX Makes Dumb Devices Smart](https://medium.com/@k0ryk/raspitx-makes-dumb-devices-smart-d1f1a1de6feb)
 * [GitHub: pbkhrv/rtl_433-hass-addons](https://github.com/pbkhrv/rtl_433-hass-addons)
 
+# Wyoming Voice Satellite
+Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM audio).
+* [Build the Wyoming Voice Satellite With ChatGPT and a Raspberry Pi To Replace Alexa & Google FOREVER!](https://www.youtube.com/watch?v=eTKgc0YDCwE)
+* [Wyoming Voice Satellite Tutorial](https://github.com/rhasspy/wyoming-satellite/blob/master/docs/tutorial_2mic.md)
+* [Wyoming Protocol](https://github.com/rhasspy/wyoming)
+
 
 
 # Raspberry Pi IoT Server (IoTStack)
