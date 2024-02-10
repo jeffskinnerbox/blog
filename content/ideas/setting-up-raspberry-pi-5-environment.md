@@ -67,10 +67,14 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 * [Running a ChatGPT-Like LLM on the Raspberry Pi 5](https://www.hackster.io/shahizat/running-a-chatgpt-like-llm-on-the-raspberry-pi-5-fd67f9)
 
 # Tensor Processing Unit (TPU)
+* [Local AI Just Got Easy (and Cheap)](https://www.youtube.com/watch?v=mdOEaNV8NXw)
 * [Coral USB Accelerator](https://www.amazon.com/dp/B07S214S5Y)
 * [AI on a Pi? Believe it!](https://www.youtube.com/watch?v=so8_h0EKPWU)
 * [GET STARTED WITH CORAL AND RASPBERRY PI](https://www.okdo.com/getting-started/get-started-with-google-coral-and-raspberry-pi/)
 * [M.2 E-Key Wi-Fi 7 HAT for Raspberry Pi 5 also supports Google TPU](https://www.cnx-software.com/2024/02/02/m2-e-key-wifi-7-hat-for-raspberry-pi-5-google-tpu/)
+
+* Coral USB TPU 👉 https://amzn.to/3vUkUJH
+* Coral PCIe TPU 👉 https://amzn.to/3vLKfVW
 
 # NVMe SSD
 * [FINALLY! NVMe SSDs on the Raspberry Pi](https://www.youtube.com/watch?v=EXWu4SUsaY8)
