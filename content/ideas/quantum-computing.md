@@ -13,6 +13,16 @@ Version:      0.0.0
 -----
 
 
+
+* [Quantum Computing Since Democritus, by Scott Aaronson](https://www.amazon.com/dp/0521199565)
+* [Introduction to Classical and Quantum Computing, by Dr Thomas G Wong](https://www.amazon.com/dp/B09QP2ML3P)
+* [Quantum in Pictures: A New Way to Understand the Quantum World Paperback, by Bob Coecke, Stefano Gogioso](https://www.amazon.com/dp/1739214714)
+
+* [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX, by Mahnoor Fatima, Subhojit Halder, Maria Fernanda, Jyoti Faujdar](https://www.amazon.com/dp/B0B1RD2Z84/)
+* [Picturing Quantum Processes: A First Course in Quantum Theory and Diagrammatic Reasoning, by Bob Coecke, Aleks Kissinger](https://www.amazon.com/dp/110710422X)
+* [Introduction to the Theory of Computation, by Michael Sipser](https://www.amazon.com/dp/0357670582)
+
+
 I found the word to describe what I was looking for in the description of the Tufts University's course [CS 150: Quantum Computer Science](https://www.cs.tufts.edu/comp/150QCS/).
 The key sentence: *This is an elementary-level introduction to quantum computing through the computer science lens.*
 Never the less, if you read the course description and syllabus further,
@@ -55,6 +65,25 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
     * [Quantum Machanical Computers](http://www.quantum-dynamic.eu/doc/feynman85_qmc_optics_letters.pdf)
     * [Richard Feynman: Simulating Physics with Computers](https://www.researchgate.net/publication/254705307_RICHARD_FEYNMAN_SIMULATING_PHYSICS_WITH_COMPUTERS)
     * [A Summary of Feynman's "Simulating Physics with Computers"](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Quantum_Tutorials_(Rioux)/08%3A_Quantum_Teleportation/8.42%3A_A_Summary_of_Feynman's_Simulating_Physics_with_Computers)
+
+
+------
+
+
+# Quantum Computing Pedagogy
+Pedagogy is the method and practice of teaching, especially as an academic subject or theoretical concept.
+As education researchers gain a broader understanding of how students learn quantum mechanics, new pedagogical and technical resources are being developed to facilitate student learning.
+
+## ScienceAtHome Quantum Tools
+* [ScienceAtHome Quantum Tools](https://www.scienceathome.org/quantum/tools/)
+
+## QEngine
+QEngine is our software library for quantum simulation and - optimization.
+* [QEngine](https://www.quatomic.com/)
+
+
+------
+
 
 # Preparatory Mathematics and Quantum Mechanics for Quantum Computing
 * Mathematics (Linear Algebra, Probability)
@@ -490,6 +519,7 @@ Cirq is a Python software library for writing, manipulating, and optimizing quan
 * [Building the Bits and Qubits](https://www.youtube.com/watch?v=F8U1d2Hqark)
 * [You don't know how Quantum Computers work](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
 * [Quantum computing for the determined](https://www.youtube.com/watch?v=X2q1PuI2RFI&list=PL1826E60FD05B44E4)
+
 
 
 
