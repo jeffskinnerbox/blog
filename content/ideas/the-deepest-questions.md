@@ -170,6 +170,7 @@ BBC Precision The Measure of All Things
 * [When Math Gets Impossibly Hard](https://www.quantamagazine.org/when-math-gets-impossibly-hard-20200914/)
 * [Do Gödel’s Theorems Impact Negatively on Physics?](https://www.cantorsparadise.com/do-g%C3%B6dels-theorems-impact-negatively-on-physics-ed09734b424c)
 * [Gödel's Incompleteness Theorems: An Informal Introduction to Formal Logic](https://www.youtube.com/watch?v=9GjCIU_ZHIo)
+* [Maths, like quantum physics, has observer problems](https://iai.tv/articles/math-like-quantum-physics-has-observer-problems-ed-frenkel-auid-2733)
 
 ## What is Logic?
 Some have thought that logic will one day be completed and all its problems solved. Now we know it is an endless task.
