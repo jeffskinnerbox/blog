@@ -14,6 +14,11 @@ Version:      0.0.0
 
 
 
+ _"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
+... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
+
+
+
 * [Quantum Computing Since Democritus, by Scott Aaronson](https://www.amazon.com/dp/0521199565)
 * [Introduction to Classical and Quantum Computing, by Dr Thomas G Wong](https://www.amazon.com/dp/B09QP2ML3P)
 * [Quantum in Pictures: A New Way to Understand the Quantum World Paperback, by Bob Coecke, Stefano Gogioso](https://www.amazon.com/dp/1739214714)
