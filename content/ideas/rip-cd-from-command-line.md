@@ -13,6 +13,34 @@ Version:      0.0.0
 
 
 
+# RipperX
+[RipperX][30] is a GTK program to rip CD audio tracks and encode them to the Ogg, MP3, or FLAC formats. It's goal is to be easy to use, requiring only a few mouse clicks to convert an entire album. It supports CDDB lookups for album and track information.
+
+```bash
+# install ripperX
+sudo apt install ripperx
+
+# lame is a program used to create mp3 file
+sudo apt install lame
+```
+
+Place a CD in the drive and execute `ripperx`.
+Click the **Config** button, then the **CDDB** tab, and enter the [following information][31]:
+
+* **URL:** gnudb.gnudb.org/~cddb/cddb.cgi
+* **Port:** 80
+* **Check:** Use HTTP
+* **Proxy Server:** proxy.gnudb.org
+* **Proxy Port:** 3128
+
+
+
+-----
+
+
+
+
+
 
 * [Convert your CD to mp3 with Sound Juicer](http://www.rooot.net/en/geek-stuff/linux/26-cd-to-mp3-sound-juicer.html)
 * [How I digitized my CD collection with open source tools](https://opensource.com/article/21/4/digitize-cd-open-source-tools)
@@ -298,4 +326,6 @@ http://gadgetweb.de/linux/cd-ripping-with-lame-cdda2wav-and-cddb-data.html
 [27]:
 [28]:
 [29]:
-[30]:
+[30]:https://manpages.ubuntu.com/manpages/mantic/man1/ripperX.1.html
+[31]:https://sourceforge.net/p/ripperx/discussion/3070/thread/b53008a345/
+
