@@ -13,6 +13,9 @@ Version:      0.0.0
 
 
 
+* [Hands On: Bus Pirate 5](https://hackaday.com/2024/02/12/hands-on-bus-pirate-5/)
+
+
 * [Hands-On: GreatFET Is An Embedded Tool That Does It All](https://hackaday.com/2019/07/02/hands-on-greatfet-is-an-embedded-tool-that-does-it-all/)
 * [An Exercise In Firmware Dumping With The GreatFET](https://hackaday.com/2021/06/04/an-exercise-in-firmware-dumping-with-the-greatfet/)
 * [Taking A Deep Dive Into SPI](https://hackaday.com/2021/09/16/taking-a-deep-dive-into-spi/)
