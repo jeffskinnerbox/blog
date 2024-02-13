@@ -1716,6 +1716,28 @@ As to port `53`, it must remain open to support DNS services
 
 
 
+
+-----
+
+
+
+# Proxmox Template with Cloud Image and Cloud Init
+Cloud Images are small images that are certified cloud ready that have Cloud Init preinstalled and ready to accept a Cloud Config
+
+* **Cloud Images -
+[Ubuntu Cloud Images](https://cloud-images.ubuntu.com/) pre-configured with Cloud Init
+* **Cloud Templates -
+* **Cloud Init - Cloud images are operating system templates and every instance starts out as an identical clone of every other instance. It is the user data that gives every cloud instance its personality and cloud-init is the tool that applies user data to your instances automatically.
+You use cloud-init to configure:
+(1) Setting a default locale, (2) Setting the hostname, (3) Generating and setting up SSH private keys, (4) Setting up ephemeral mount points
+
+* [Use Proxmox Cloud-Init to Deploy Your Virtual Machines!](https://www.youtube.com/watch?v=Kv6-_--y5CM)
+* [Perfect Proxmox Template with Cloud Image and Cloud Init](https://www.youtube.com/watch?v=shiIi38cJe4)
+* [Setting up Cloud-INIT VM inside Proxmox | Proxmox Home Server Series | Proxmox Home Lab](https://www.youtube.com/watch?v=KweBabVHmYU)
+* [Ubuntu Cloud-Init Technology](https://www.youtube.com/watch?v=-zL3BdbKyGY)
+
+
+
 -----
 
 
