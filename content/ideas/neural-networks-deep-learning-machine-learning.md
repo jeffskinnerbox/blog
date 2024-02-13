@@ -13,6 +13,21 @@ Version:      0.0.0
 
 
 
+**THE BOOK TO BUY?**
+The book ["Understanding Deep Learning" by Simon J. D. Prince](https://www.amazon.com/Understanding-Deep-Learning-Simon-Prince-ebook/dp/B0BXKH8XY6/)
+is notable not only for focusing primarily on the concepts behind Deep Learning
+but also in that it can be either purchased as a hardcover from MIT Press
+or downloaded for free from the [Understanding Deep Learning website](https://udlbook.github.io/udlbook/).
+If you intend to use it for coursework, a separate instructor answer booklet and other resources can be purchased,
+but student resources like Python notebooks are also freely available.
+
+
+
+
+
+
+
+
 * [Deep Learning Framework Power Scores 2018](https://towardsdatascience.com/deep-learning-framework-power-scores-2018-23607ddf297a)
 * https://www.fast.ai/
 * Matthew Stewart Blog - https://towardsdatascience.com/@matthew_stewart
