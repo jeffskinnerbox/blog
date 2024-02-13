@@ -2386,6 +2386,17 @@ All processing is performed locally on your own hardware, and your camera feeds 
 * [Frigate NVR with Docker and Home Assistant](https://www.mostlychris.com/frigate-nvr-with-docker-and-home-assistant/?ref=mostlychris-newsletter)
 * [Frigate NVR in Home Assistant for Automation and Notifications based on Object Detection](https://www.youtube.com/watch?v=43E5bxuaVj4)
 
+# Scrypted
+* [Scrypted](https://www.scrypted.app/)
+* [Meet Scrypted - Stream ANY Camera to ANY Home Hub](https://www.youtube.com/watch?v=x1xsFRQYSv0)
+* [Scrypted Tutorials](https://www.youtube.com/playlist?list=PLLp4dzLbaS41C-v4BbVq6ys1x1pKiVQky)
+* [Ditch Your Ring Subscription with Frigate and Scrypted](https://www.youtube.com/watch?v=wk2lJMTNIc8)
+
+# Wyze Docker Bridge
+* [Turn your Wyze Camera into an IP camera using Wyze bridge](https://www.youtube.com/watch?v=l1znZIN1fj0)
+* [Easily Get Wyze Cam Into Any App // Wyze Docker Bridge](https://www.youtube.com/watch?v=YZVJ1yvdobE)
+* [Turn any Wyze Cam into IP cam with Docker](https://www.youtube.com/watch?v=l2S6XIj0iE0)
+
 # DeepStack
 DeepStack is an AI server that makes it easily to build AI systems both on premise and in the cloud.
 DeepStack is device and language agnostic.
