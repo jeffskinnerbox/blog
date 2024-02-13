@@ -217,7 +217,19 @@ Alexa, stop
 ## Plex: Music Streaming to Echo
 [Plex][43] gives you one place to find and access all the music & video media on your own server,
 including and on-demand Movies & Shows or live TV, so you can enjoy it all in one app, on any device.
-To set up your own personal media server,
+
+Sources:
+* [Adding Music Media From Folders][47]
+* [How to Setup Plex Media Server On A Synology NAS](https://www.youtube.com/watch?v=1pt375GGAsE)
+* [How to play music you own on an Amazon Echo](https://www.techhive.com/article/583189/how-to-play-music-you-own-on-an-amazon-echo.html)
+* [Getting Started with Alexa Voice Control][48]
+* [Plex Media Server Setup Guide – Complete Beginners Guide](https://troypoint.com/plex-media-server-setup-guide/)
+* [Building A Music Server Using Plex Media Server | Part III](https://www.youtube.com/watch?v=UBiZzNMrU1Y)
+* [How to Port Forward in pfSense][50]
+* [Plex Pass - Do You REALLY Need to Pay for Plex?][61]
+
+#### Step 1
+To set up your own personal media server, you start here:
 
 1. Install & run the [Plex Media Server][44] on a computer, such as my Synology NAS.
 2. [Add media libraries][47] by type of content and let Plex do the rest—cataloging.
@@ -226,6 +238,7 @@ It will adding artwork and info—it’s all automatic.
 tablet, smart TV, streaming device, game console, personal computer, or any browser.
 I'm using the [Plex app for Alexa][46] so I can play music on my Amazon Echo.
 
+#### Step 2
 To have Plex play your music files on an Amazon Echo,
 you’ll need a media server device that is always on, can run Plex Media Server,
 and be accessible from the Internet on one of its ports.
@@ -236,6 +249,7 @@ but you must take these steps to enable drag & drop:
 2. Select the **Settings** button near the top of the window.
 3. Select **Enable smart drag and drop** and then click **Save**
 
+#### Step 3
 To enable Plex with the library of music you created:
 
 1. Enter Plex's brownser UI and select **MORE** > **Synology NAS** from the menu on the left side.
@@ -245,6 +259,7 @@ To enable Plex with the library of music you created:
 5. Click **NEXT** > **BROWSE FOR MEDIA FOLDER**, then select **volume1** then **PlexMediaServer**, then **Music**.
 6. Click **ADD LIBRARY** and validate you can play music by going to the Home page.
 
+#### Step 4
 To play music on you on your Amazon Echo,
 enable the [Plex app for Alexa][46] by following these instructions [here][48] and [here][49]:
 
@@ -256,7 +271,7 @@ Check the box **Manually specify public port**, using port `32400`.
 5. Now set your server by saying to the Echo "Alexa, Ask Plex to change my server".
 Alexa will respond back and state your server is "Synology NAS".
 6. Test you Plex connection by asking "Alexa, Ask Plex to play music"
-
+Check you ports as shown below.
 
 ```bash
 # the port must be in the listening state to be open
@@ -277,23 +292,33 @@ netstat -aon | grep 32400
 sockstat -aon | grep 32400
 ```
 
+#### Step 5
+To add additional users to your Plex server,
+you'll need activate a Plex Pass subscription and create the managed account:
+
+1. To support additional users and access [home functions][51],
+you need to establish your [Plex Home][59] via purchase a [Plex Pass][52]
+([Top 5 differences between Plex and Plex Pass][60]).
+2.
+
+* [Plex: Managed Accounts](https://support.plex.tv/articles/203948776-managed-users/)
+* [Example Plex Home Setup](https://support.plex.tv/articles/204234313-example-plex-home-setup/)
+
 To ask Plex to play music on you Echo, use these phrases:
 * Alexa, ask Plex to play music
 * Alexa, ask Plex to play music by Bob Marley
 * Alexa, ask Plex to pause
 * Alexa, ask Plex to stop
 
-Sources:
-* [Adding Music Media From Folders][47]
-* [How to Setup Plex Media Server On A Synology NAS](https://www.youtube.com/watch?v=1pt375GGAsE)
-* [How to play music you own on an Amazon Echo](https://www.techhive.com/article/583189/how-to-play-music-you-own-on-an-amazon-echo.html)
-* [Getting Started with Alexa Voice Control][48]
-* [Plex Media Server Setup Guide – Complete Beginners Guide](https://troypoint.com/plex-media-server-setup-guide/)
-* [Building A Music Server Using Plex Media Server | Part III](https://www.youtube.com/watch?v=UBiZzNMrU1Y)
-* [How to Port Forward in pfSense][50]
+## Plex: Live TV & DVR
+* [The Ultimate Guide to Configuring Live TV & DVR with Plex!](https://www.youtube.com/watch?v=Q5okoyPewyU)
+    * [Build your own DVR with Plex Server! #plex #homeserver #antenna](https://www.youtube.com/watch?v=0HxtccUFtm8)
+    * [HDHomeRun FLEX 4K & PLEX DVR](https://www.youtube.com/watch?v=YFnEuATA2Nk)
+* [How to Cast Plex
 
 ## Plex: Video & Music Chromecasting
 * [How to Cast Plex to Chromecast and Google Home](https://www.youtube.com/watch?v=1FkDya3cD08)
+
 
 ------
 
@@ -717,13 +742,24 @@ open phone apps, and [more][20].
 [48]:https://support.plex.tv/articles/115000320808-getting-started-with-alexa-voice-control/
 [49]:https://support.plex.tv/articles/200931138-troubleshooting-remote-access/
 [50]:https://www.wundertech.net/pfsense-port-forwarding-setup-guide/
-[51]:
-[52]:
+[51]:https://support.plex.tv/articles/categories/features/plex-home/
+[52]:https://www.plex.tv/plex-pass/
 [53]:http://jasperproject.github.io/
 [54]:http://www.apple.com/ios/siri/
 [55]:http://changingjasper.blogspot.com/2014/06/making-jasper-use-at-speech-api.html
 [56]:http://developer.att.com/apis/speech
 [57]:http://jibbigo.com/
 [58]:http://hackaday.com/2015/08/04/amazons-ai-escapes-its-hardware-prison/
-[59]:
-[60]:
+[59]:https://support.plex.tv/articles/203815766-what-is-plex-home/
+[60]:https://www.youtube.com/watch?v=nTPBwdqSNdQ
+[61]:https://www.youtube.com/watch?v=6u9uOL5hXKI
+[62]:
+[63]:
+[64]:
+[65]:
+[66]:
+[67]:
+[68]:
+[69]:
+[70]:
+
