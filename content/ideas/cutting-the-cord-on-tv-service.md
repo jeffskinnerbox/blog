@@ -45,3 +45,10 @@ Next Generation TV, or NextGen TV, and also called ATSC 3.0
 * [All ATSC 3 TV Tuners will EXPIRE & More DRM News](https://www.youtube.com/watch?v=e1vTpSJHVyo)
     * Digital rights management (DRM) is the use of technology to control access to copyrighted material. It also enables copyright holders and content creators to manage what users can do with their content, such as how many devices they can access media on and whether they can share it.
 
+## Electronic Programming Guide (EPG)
+Electronic programming guides (EPGs) and interactive programming guides (IPGs) are menu-based systems that provide users of television, radio and other media applications with continuously updated menus that display scheduling information for current and upcoming broadcast programming (most commonly, TV listings).
+
+## Antenna
+To determine you distance from TV towers, see [AntennaWeb](https://www.antennaweb.org/)
+
+
