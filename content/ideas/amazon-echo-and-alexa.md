@@ -314,7 +314,7 @@ To ask Plex to play music on you Echo, use these phrases:
 * [The Ultimate Guide to Configuring Live TV & DVR with Plex!](https://www.youtube.com/watch?v=Q5okoyPewyU)
     * [Build your own DVR with Plex Server! #plex #homeserver #antenna](https://www.youtube.com/watch?v=0HxtccUFtm8)
     * [HDHomeRun FLEX 4K & PLEX DVR](https://www.youtube.com/watch?v=YFnEuATA2Nk)
-* [How to Cast Plex
+* [How to Cast Plex to Chromecast and Google Home](https://www.youtube.com/watch?v=1FkDya3cD08)
 
 ## Plex: Video & Music Chromecasting
 * [How to Cast Plex to Chromecast and Google Home](https://www.youtube.com/watch?v=1FkDya3cD08)
