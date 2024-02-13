@@ -16,10 +16,12 @@ Version:      0.0.0
 
 
 
+# Klipper 3D
 * [3D Printing: Speed is so Hot Right Now](https://hackaday.com/2024/01/29/3d-printering-speed-is-so-hot-right-now/)
     * [Marlin Firmware](https://marlinfw.org/)
     * [Klipper](https://www.klipper3d.org)
     * [Fluidd](https://docs.fluidd.xyz/)
+* [How To Install Klipper 3D Printing Firmware On Raspberry Pi](https://www.slashgear.com/1512011/how-to-install-flipper-3d-printing-firmware-raspberry-pi/)
 
 
 
