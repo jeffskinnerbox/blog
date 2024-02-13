@@ -415,6 +415,7 @@ However there are still some things you can listen to:
 ## P25 Police Scanner via SDR
 * [Trunking Police Scanning with SDRTrunk](https://hackaday.com/2020/07/28/trunking-police-scanning-with-sdrtrunk/)
 * [SDR As A Police And Fire Radio Scanner](https://hackaday.com/2013/04/25/sdr-as-a-police-and-fire-radio-scanner/)
+* [Pi 5 And SDR Team Up For A Digital Scanner You Can Actually Afford](https://hackaday.com/2024/02/10/pi-5-and-sdr-team-up-for-a-digital-scanner-you-can-actually-afford/)
 
 ## OpenMHz
 Using a cheap Software Defined Radio (SDR) and platforms like GNURadio,
