@@ -19,9 +19,9 @@ Version:      0.0.0
 
 
 
-* [Quantum Computing Since Democritus, by Scott Aaronson](https://www.amazon.com/dp/0521199565)
+* [Quantum Computing Since Democritus, by Scott Aaronson](https://www.amazon.com/dp/0521199565) - DONE
 * [Introduction to Classical and Quantum Computing, by Dr Thomas G Wong](https://www.amazon.com/dp/B09QP2ML3P)
-* [Quantum in Pictures: A New Way to Understand the Quantum World Paperback, by Bob Coecke, Stefano Gogioso](https://www.amazon.com/dp/1739214714)
+* [Quantum in Pictures: A New Way to Understand the Quantum World Paperback, by Bob Coecke, Stefano Gogioso](https://www.amazon.com/dp/1739214714) - IN PROGRESS
 
 * [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX, by Mahnoor Fatima, Subhojit Halder, Maria Fernanda, Jyoti Faujdar](https://www.amazon.com/dp/B0B1RD2Z84/)
 * [Picturing Quantum Processes: A First Course in Quantum Theory and Diagrammatic Reasoning, by Bob Coecke, Aleks Kissinger](https://www.amazon.com/dp/110710422X)
@@ -96,8 +96,8 @@ QEngine is our software library for quantum simulation and - optimization.
     * [Linear algebra for Quantum Mechanics](https://www.youtube.com/watch?v=FF05fXg03A0)
     * [Preliminary Mathematics for Quantum Computing](https://www.cs.tufts.edu/comp/150QCS/Premath.pdf)
 * Quantum Mechanics
-    * [The math trick that revolutionized physics](https://www.youtube.com/watch?v=gXeAp_lyj9s)
-    * [Fundamentals of Quantum Physics - Brant Carlson](https://www.youtube.com/playlist?list=PLNZRbvSM6olzbOKl-JtNSZdLiroAhhpE7)
+    * [The math trick that revolutionized physics](https://www.youtube.com/watch?v=gXeAp_lyj9s) - DONE
+    * [Fundamentals of Quantum Physics - Brant Carlson](https://www.youtube.com/playlist?list=PLNZRbvSM6olzbOKl-JtNSZdLiroAhhpE7) - IN PROGRESS
     * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
     * [Quantum mechanics essentials: Everything you need for quantum computation](https://www.youtube.com/watch?v=28ABEInFxBQ)
     * [Understanding Quantum Mechanics](https://www.youtube.com/watch?v=Wsjgtp9XZxo&list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL)
@@ -463,10 +463,10 @@ Train a quantum computer the same way as a neural network.
 ## Ocean
 
 ## Qiskit
-Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuitsZZ and application modules.
+Qiskit [kiss-kit] is an open source SDK for working with quantum computers at the level of pulses, circuits, and application modules.
 Qiskit accelerates the development of quantum applications by providing the complete set of tools needed for interacting withquantum systems and simulators.
 
-* [The Qiskit blog is moving!](https://www.ibm.com/quantum/blog)
+* [Qiskit is the open-source toolkit for useful quantum](https://www.ibm.com/qiskit)
 
 * [How To Use A Quantum Computer - Quantum Computing Tutorial](https://www.youtube.com/watch?v=AoiI507OpEY&list=PLI4lUS6saNgVnzkGCauWSU0FOnZH7VW8x)
 * [Getting started with Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
