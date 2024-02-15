@@ -111,6 +111,16 @@ Native Informational Features
 
 
 
+# Alternative Physical Design of Display
+* [AI-Powered Bumper Sticker Provides Context-Sensitive Urban Camouflage](https://hackaday.com/2024/02/14/ai-powered-bumper-sticker-provides-context-sensitive-urban-camouflage/)
+* [GitHub: PegorK/smahtSticker](https://github.com/PegorK/smahtSticker/tree/main)
+
+
+
+-------
+
+
+
 # Physical Design of Display
 Thing to watchout for:
 * Watch the wire lengths. Long wires are fine when testing one of two modules on a protoboard, but when chaining more than 10 of these MAX7219 modules, the noise/distorsion introduced by the wires is enough to corrupt the data arriving at the last modules.
