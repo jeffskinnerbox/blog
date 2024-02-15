@@ -228,7 +228,7 @@ Sources:
 * [How to Port Forward in pfSense][50]
 * [Plex Pass - Do You REALLY Need to Pay for Plex?][61]
 
-#### Step 1
+#### Step 1: Install Plex
 To set up your own personal media server, you start here:
 
 1. Install & run the [Plex Media Server][44] on a computer, such as my Synology NAS.
@@ -238,7 +238,6 @@ It will adding artwork and info—it’s all automatic.
 tablet, smart TV, streaming device, game console, personal computer, or any browser.
 I'm using the [Plex app for Alexa][46] so I can play music on my Amazon Echo.
 
-#### Step 2
 To have Plex play your music files on an Amazon Echo,
 you’ll need a media server device that is always on, can run Plex Media Server,
 and be accessible from the Internet on one of its ports.
@@ -249,7 +248,7 @@ but you must take these steps to enable drag & drop:
 2. Select the **Settings** button near the top of the window.
 3. Select **Enable smart drag and drop** and then click **Save**
 
-#### Step 3
+#### Step 2: Move Music to Plex Library
 To enable Plex with the library of music you created:
 
 1. Enter Plex's brownser UI and select **MORE** > **Synology NAS** from the menu on the left side.
@@ -259,7 +258,7 @@ To enable Plex with the library of music you created:
 5. Click **NEXT** > **BROWSE FOR MEDIA FOLDER**, then select **volume1** then **PlexMediaServer**, then **Music**.
 6. Click **ADD LIBRARY** and validate you can play music by going to the Home page.
 
-#### Step 4
+#### Step 3: Enable Alexa Plex Skill
 To play music on you on your Amazon Echo,
 enable the [Plex app for Alexa][46] by following these instructions [here][48] and [here][49]:
 
@@ -292,7 +291,7 @@ netstat -aon | grep 32400
 sockstat -aon | grep 32400
 ```
 
-#### Step 5
+#### Step 4: Activate a Plex Pass
 To add additional users to your Plex server,
 you'll need activate a Plex Pass subscription and create the managed account:
 
@@ -309,6 +308,15 @@ To ask Plex to play music on you Echo, use these phrases:
 * Alexa, ask Plex to play music by Bob Marley
 * Alexa, ask Plex to pause
 * Alexa, ask Plex to stop
+
+#### Step 5: Protect Your Privacy
+Lately, Plex has establish some questionable privacy policy and your going to want to turn them off.
+
+* On the [Privacy Preferences][62] page, **uncheck** the box next to the line "Send playback data to Plex"
+* On the [Email Preferences][63] page, **uncheck** anything you don't want to be bother with.
+
+Sources:
+* [Disable These Plex Settings Now | Plex is Collecting Your Private Info & Sharing Your Watch Data](https://www.youtube.com/watch?v=g9GhWo0WPoQ)
 
 ## Plex: Live TV & DVR
 * [The Ultimate Guide to Configuring Live TV & DVR with Plex!](https://www.youtube.com/watch?v=Q5okoyPewyU)
@@ -753,8 +761,8 @@ open phone apps, and [more][20].
 [59]:https://support.plex.tv/articles/203815766-what-is-plex-home/
 [60]:https://www.youtube.com/watch?v=nTPBwdqSNdQ
 [61]:https://www.youtube.com/watch?v=6u9uOL5hXKI
-[62]:
-[63]:
+[62]:https://www.plex.tv/about/privacy-legal/privacy-preferences/#opd
+[63]:https://www.plex.tv/email-preferences/
 [64]:
 [65]:
 [66]:
