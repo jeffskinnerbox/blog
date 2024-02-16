@@ -479,6 +479,11 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 "Mathematics is the art of giving the same name to different things." ... Henir Poincare
 Category Theory is the abstraction of composition.
 
+Category theorists also work on better understanding and explaining challenging problems in physics, engineering, natural language processing and more, in addition to computer science.
+In 2004, Professor Samson Abramsky and Bob Coecke, from the Oxford University Computing Laboratory (now the Computer Science Department), applied category theory to quantum mechanics, to create the new field of categorical quantum mechanics. They explicitly set out to “recast” the mathematics of “quantum mechanics, due to von Neumann”, picking up the baton passed on, over 70 years earlier, when von Neumann expressed his dissatisfaction, particularly with Hilbert space formalism. Abramsky and Coecke’s new formalism, which is as rigorous as von Neumann’s standard system, was designed as a pictorial method for reasoning about quantum processes.
+In the years following the introduction of categorical quantum mechanics, Coecke worked with other collaborators to develop and refine the approach, for example in papers with Ross Duncan, A Graphical Calculus for Quantum Observables¹⁵ and with Eric Oliver Paquette and Dusko Pavlovic, Classical and Quantum Structuralism¹⁶, which introduced to the world new elements of graphical notation, including in a variety of instances, an element called a “spider”.
+ZX-calculus was formally introduced in a 2009 paper by Bob Coecke (now the Chief Scientist at Quantinuum, a world leader in quantum computing) and Dr Ross Duncan (now Head of Software at Quantinuum) as an intuitive and diagrammatical way of expressing the properties of quantum particles, based on the principles of categorical quantum mechanics.
+
 * [The Mathematician's Weapon | An Introduction to Category Theory, Abstraction and Algebra](https://www.youtube.com/watch?v=FQYOpD7tv30)
 * [A Sensible Introduction to Category Theory](https://www.youtube.com/watch?v=yAi3XWCBkDo)
 * [Category Theory in Life - Eugenia Cheng](https://www.youtube.com/watch?v=ho7oagHeqNc)

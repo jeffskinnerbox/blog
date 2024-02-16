@@ -28,6 +28,7 @@ Version:      0.0.0
 * [Introduction to the Theory of Computation, by Michael Sipser](https://www.amazon.com/dp/0357670582)
 
 
+
 I found the word to describe what I was looking for in the description of the Tufts University's course [CS 150: Quantum Computer Science](https://www.cs.tufts.edu/comp/150QCS/).
 The key sentence: *This is an elementary-level introduction to quantum computing through the computer science lens.*
 Never the less, if you read the course description and syllabus further,
@@ -44,13 +45,21 @@ this course appears to contain much of the material and approach that has disapp
 
 
 Barriers to getting your head around quantum computing:
-* the language & concepts used in quantum physics and how it obscures you understanding
+* Nobel prize winner Alan Aspect on quantum physics “Quantum phenomena do not occur in a Hilbert space, they occur in a laboratory,” meaning it’s not enough to have a mathematical model of quantum mechanics — we also need the physical experiments and a physical interpretation.
+* Quantum theory is often regarded as challenging to learn and teach, with advanced mathematical prerequisites ranging from complex numbers and probability theory to matrix multiplication, vector space algebra and symbolic manipulation within the Hilbert space formalism. It is traditionally considered an advanced undergraduate or graduate-level subject.
+* What is Hilbert space and why is it such a big deal in quantum physics? - https://medium.com/predict/hilbert-space-explained-cc33de334979
+* the language & concepts used in quantum physics and how it obscures your understanding
 * the mathematics of vector spaces / tensors / Bra–ket notation / probability / complex numbers and how it relates to the physics & computation
+* Governments and organisations around the world stress the need to train young people, and make stakeholders aware of and familiar with quantum computing & technologies. ... BUT HOW!
 * what does it mean to "compute"
 * computational complexity theory
 * the concept of randomness and how it can aid in computation
 * What are the type of problems suitable for a quantum computer? - The fact that quantum computers can solve any problems that classical computers can, but quantum and classical computers really are a category apart — that even in a world where classical computers succeed beyond all realistic dreams, quantum computers would still stand beyond them. ([Raz and Tal’s paper](https://eccc.weizmann.ac.il/report/2018/107/)). The work of Raz and Tal’s provides an ironclad assurance that quantum computers exist in a different computational realm than classical computers (at least relative to an oracle). Even in a world where P equals NP — one where the traveling salesman problem is as simple as finding a best-fit line on a spreadsheet — Raz and Tal’s proof demonstrates that there would still be problems only quantum computers could solve.
 * “Even if P were equal to NP, even making that strong assumption,” said Fortnow, “that’s not going to be enough to capture quantum computing.”
+
+# Quantum Hype
+* [Guest Post: The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/2024/01/17/guest-post-the-unexaggerated-magic-of-quantum/)
+* [Guest Post: The Unexaggerated Magic Of Quantum – Part II](https://thequantuminsider.com/2024/02/15/guest-post-the-unexaggerated-magic-of-quantum-part-ii/)
 
 # Origin Stories
 Richard Feynman wrote his famous paper titled "Simulating Physics with Computers" concerning the need for quantum computing in May of 1981.
@@ -525,6 +534,10 @@ Cirq is a Python software library for writing, manipulating, and optimizing quan
 * [You don't know how Quantum Computers work](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
 * [Quantum computing for the determined](https://www.youtube.com/watch?v=X2q1PuI2RFI&list=PL1826E60FD05B44E4)
 
+# TKET
+TKET is an advanced software development kit for the creation and execution of programs for gate-based quantum computers.
+
+* [TKET](https://www.quantinuum.com/developers/tket)
 
 
 
@@ -606,22 +619,37 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 # Classic Physics Analogs for Quantum Systems
 * [The Amazing Physics Of The Wilberforce Pendulum](https://www.youtube.com/watch?v=M0Zjl_tMOZg)
 
-# ZX Calculus
-The ZX-calculus is a rigorous graphical language for reasoning about linear maps between qubits,
-which are represented as string diagrams called ZX-diagrams.
+# Hilbert Space
+Hilbert Space is an indispensable tools in the theories of partial differential equations, quantum mechanics, Fourier analysis (which includes applications to signal processing and heat transfer), control theory, machine learning, and ergodic theory (which forms the mathematical underpinning of thermodynamics).
+The term “Hilbert space” is often reserved for an infinite-dimensional inner product space having the property that it is complete or closed. However, the term is often used nowadays, in a way that includes finite-dimensional spaces, which automatically satisfy the condition of completeness.
+
+* [Hilbert Space Explained](https://medium.com/predict/hilbert-space-explained-cc33de334979)
+* [Hilbert Space](https://medium.com/@brcsomnath/hilbert-space-7a36e3badac2)
+
+# ZX Calculus / Quantum in Pictures
+The ZX-calculus is a rigorous graphical language for reasoning about linear maps between qubits, which are represented as string diagrams called ZX-diagrams.
+ZX-calculus is a set of rewrite rules that allows you to distill quantum circuits into a reduced form; ie. You optimize a quantum circuit allowing for it to be more easily run.
+
+ZXW calculus is an extension of ZX calculus. ZXW calculus was developed by Quantinuum scientists as they work on a series of foundational problems relating to quantum computing and compositional intelligence.
 
 * Calculus: A particular method or system of calculation or reasoning.
 * Linear Map: Mapping C → W between two vector spaces that preserves the operations of vector addition and scalar multiplication.
 
-* [Quantum in Pictures: A New Way to Understand the Quantum World](https://www.amazon.com/Quantum-Pictures-New-Understand-World/dp/1739214714/)
-* [Picturing Quantum Processes](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X)
-* [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX](https://www.amazon.com/ZX-Quantum-Py-beginners-Computing-ZX-Calculus/dp/B0B1RD2Z84/)
-* [Categories for Quantum Theory](https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613)
-
 * [Bob Coecke: From Quantum in Pictures to Quantum AI | QHack 2023](https://www.youtube.com/watch?v=5694S6hceJE)
+
+* [Quantum in Pictures](https://www.quantinuum.com/news/quantum-in-pictures)
+    * [Everyone can learn quantum now, even at a cutting-edge level…and we have the test scores to prove it!](https://medium.com/quantinuum/everyone-can-learn-quantum-now-even-at-a-cutting-edge-level-and-we-have-the-test-scores-to-prove-49e7fdc5c509)
+    * [Quantum in Pictures: A New Way to Understand the Quantum World](https://www.amazon.com/Quantum-Pictures-New-Understand-World/dp/1739214714/)
+    * [Picturing Quantum Processes](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X)
 * [The ZX-calculus](https://zxcalculus.com/)
-* [pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
-* [QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
+    * [How ZX-calculus reveals the logic and processes of quantum mechanics to everyone](https://medium.com/quantinuum/how-zx-calculus-reveals-the-logic-and-processes-of-quantum-mechanics-to-everyone-944fc3bbbb2c)
+    * [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX](https://www.amazon.com/ZX-Quantum-Py-beginners-Computing-ZX-Calculus/dp/B0B1RD2Z84/)
+    * [Categories for Quantum Theory](https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613)
+    * [pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
+    * [QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
+    * [Kindergarden quantum mechanics graduates ...or how I learned to stop gluing LEGO together and love the ZX-calculus](https://www.sciencedirect.com/science/article/abs/pii/S0304397521004308)
+* Tools
+    * [ZXLive - An Interactive GUI for the ZX Calculus - Razin A. Shaikh](https://www.youtube.com/watch?v=J--c2q-KOc8)
 
 # Tensor Diagram / Tensor Networks
 Tensor network theory is a branch of mathematics that deals with the representation of high-dimensional tensors. Tensors are mathematical objects that generalize matrices to higher dimensions. Tensor network theory provides a way to represent these high-dimensional objects using a lower-dimensional network. This theory has applications in machine learning, where it can be used to represent high-dimensional data.
