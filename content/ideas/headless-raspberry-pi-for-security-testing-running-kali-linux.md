@@ -55,6 +55,8 @@ What can it do ... see this [Flipper Zero: Truth or Hype?](https://www.youtube.c
 * [Flipper Zero Blasts Past Funding Goal And Into Our Hearts](https://hackaday.com/2020/09/02/flipper-zero-blasts-past-funding-goal-and-into-our-hearts/)
 * [How the Flipper Zero Hacker Multitool Gets Made and Tested](https://hackaday.com/2021/07/24/how-the-flipper-zero-hacker-multitool-gets-made-and-tested/)
 
+* [The M1, a Flipper Zero alternative](https://www.hackster.io/news/flipping-out-for-the-m1-b86efae35a31)
+
 * [Automated Tools For WiFi Cracking](https://hackaday.com/2020/09/30/automated-tools-for-wifi-cracking/)
 
 # NFC Tools
