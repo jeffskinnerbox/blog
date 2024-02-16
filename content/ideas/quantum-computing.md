@@ -58,7 +58,7 @@ Barriers to getting your head around quantum computing:
 * “Even if P were equal to NP, even making that strong assumption,” said Fortnow, “that’s not going to be enough to capture quantum computing.”
 
 # Quantum Hype
-* [The Limits of Quantum, by Scott Aaronson](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf)
+* [The Limits of Quantum Computers, by Scott Aaronson](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf)
 * [Guest Post: The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/2024/01/17/guest-post-the-unexaggerated-magic-of-quantum/)
 * [Guest Post: The Unexaggerated Magic Of Quantum – Part II](https://thequantuminsider.com/2024/02/15/guest-post-the-unexaggerated-magic-of-quantum-part-ii/)
 
