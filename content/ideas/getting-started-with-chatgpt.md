@@ -207,5 +207,6 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [What to know about open-source alternatives to GPT-4 Vision](https://bdtechtalks.com/2024/01/04/gpt-4-vision-open-source-alternatives/)
 * [GitHub: haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA/tree/main)
 * [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/)
+* [A Weekend AI Project: Making a Visual Assistant for People with Vision Impairments](https://towardsdatascience.com/a-weekend-ai-project-making-a-visual-assistant-for-people-with-vision-impairments-df0b9f0b8c23)
 
 
