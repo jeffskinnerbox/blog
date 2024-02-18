@@ -607,6 +607,7 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 
 # PLA Waterproofing
 * [Truck Bed Liners Improve 3D Prints](https://hackaday.com/2021/02/14/truck-bed-liners-improve-3d-prints/)
+* [Extreme Waterproof 3D Prints](https://hackaday.com/2024/02/18/extreme-waterproof-3d-prints/)
 
 # PLA Smoothing
 * [PLA Smoothing 3D Prints with 3D Gloop!](https://www.youtube.com/watch?v=vQc5TBPF8uw)
