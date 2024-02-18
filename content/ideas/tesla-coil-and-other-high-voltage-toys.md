@@ -106,6 +106,9 @@ A counterpoise is a conductor or system of conductors used an earth or ground su
 An electronic oscillator is an electronic circuit that produces a periodic, oscillating electronic signal, often a sine wave or a square wave.
 Oscillators convert direct current (DC) from a power supply to an alternating current (AC) signal.
 
+## Twin-Tee Oscillator
+* [#380: Circuit Fun: Twin-Tee Oscillator - low distortion op amp sine waves](https://www.youtube.com/watch?v=KFVVozlXoOk)
+
 ## Tank Circuit
 
 ## Relaxation Oscillator
