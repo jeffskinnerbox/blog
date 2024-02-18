@@ -85,6 +85,7 @@ Proxmox Training / Tutorials
     * [How to Virtualize Your Home Router / Firewall Using efSense](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
     * [Using Nginx Proxy Manager with pfSense, Proxmox, and Docker](https://www.youtube.com/watch?v=6aaSjwJhOog)
     * [your home router SUCKS!! (use pfSense instead)](https://www.youtube.com/watch?v=lUzSsX4T4WQ)
+    * [How To Create VLANs in Proxmox For a Single NIC](https://www.youtube.com/watch?v=ljq6wlzn4qo)
     * [Proxmox VLAN Configuration: Linux Bridge Tagging, Management IP, and Virtual Machines](https://www.youtube.com/watch?v=stQzK0p59Fc)
     * [2020 Getting started with pfsense 2.4 Tutorial: Network Setup, VLANs, Features & Packages](https://www.youtube.com/watch?v=fsdm5uc_LsU)
     * [How to Virtualize Your Home Router / Firewall Using pfSense](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
