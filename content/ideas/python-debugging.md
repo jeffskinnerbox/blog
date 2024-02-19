@@ -12,6 +12,13 @@ Version:      0.0.0
 -----
 
 
+
+* [Python 10 minutes a day](https://python-10-minutes-a-day.rocks/)
+* [Real Python Learning Paths](https://realpython.com/learning-paths/)
+* [Python Engineer](https://www.python-engineer.com/posts/)
+* [mCoding](https://www.youtube.com/@mCoding)
+
+
 # Learning Python
 * [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
 
@@ -39,4 +46,52 @@ Version:      0.0.0
 * [Python's assert: Debug and Test Your Code Like a Pro](https://realpython.com/python-assert-statement/)
 * [4 Techniques for Testing Python Command-Line (CLI) Apps](https://realpython.com/python-cli-testing/)
 * [Debugging Code With Decorators](https://realpython.com/lessons/debugging-code-decorators/)
+
+
+
+-------
+
+
+
+# How Python Works
+* [How Python Works](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
+
+# Python Idioms (Idiomatic Python)
+* Being Pythonic
+    * [You should put this in all your Python scripts | if __name__ == '__main__': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+    * [A forbidden Python technique to put ANYTHING in a dict or set](https://www.youtube.com/watch?v=NpdNDTncxwA)
+    * [__new__ vs __init__ in Python](https://www.youtube.com/watch?v=-zsV0_QrfTw)
+* Newbe Bad Habits
+    * [25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
+    * [21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
+
+# Python Objects
+* Magic Methods
+    * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
+* Classes
+    * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
+    * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
+    * [Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
+* Descriptors
+    * [8 things in Python you didn't realize are descriptors](https://www.youtube.com/watch?v=mMbVs17Vmo4)
+* Decorators
+* Pointers
+    * [unique_ptr: C++'s simplest smart pointer](https://www.youtube.com/watch?v=AmjoK55h68Y)
+* Strings
+    * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
+    * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
+
+# Python Best Practices
+* Speedup
+    * [Unlocking your CPU cores in Python (multiprocessing)](https://www.youtube.com/watch?v=X7vBbelRXn0)
+    * [The Fastest Way to Loop in Python - An Unfortunate Truth](https://www.youtube.com/watch?v=Qgevy75co8c)
+    * [The Python Global Interpreter Lock - Explained](https://www.youtube.com/watch?v=XVcRQ6T9RHo)
+    * [Intro to async Python | Writing a Web Crawler](https://www.youtube.com/watch?v=ftmdDlwMwwQ)
+* Performance Profiling
+    * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
+* Logging
+    * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
+* Unit Testing
+* Automated Testing
+    * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
