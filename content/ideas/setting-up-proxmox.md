@@ -12,6 +12,10 @@ Version:      0.0.0
 -----
 
 
+* [Getting into Proxmox](https://www.youtube.com/playlist?list=PLhMI0SExGwfADAlk-rmC-IG_JcYz175NX)
+* [Low Power Cluster - Small, Efficient, BUT Powerful!](https://www.youtube.com/watch?v=8DeG3qO-HIA)
+* [10 Watt HA Proxmox Cluster ft. ZimaBoard](https://www.youtube.com/watch?v=JfZuZ6zE7AI)
+
 * [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
 * [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
 * [Eleven of the Best Open Source Hypervisor Technologies](https://informationsecuritybuzz.com/eleven-of-the-best-open-source-hypervisor-technologies/)
