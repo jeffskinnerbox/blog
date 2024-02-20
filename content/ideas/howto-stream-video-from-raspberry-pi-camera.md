@@ -1789,6 +1789,7 @@ Some of the alternatives that I investigate are documented here.
 
 ### WebRTC
 * [WebRTC — The technology that powers Google Meet/Hangout, Facebook Messenger and Discord](https://medium.com/swlh/webrtc-the-technology-that-powers-google-meet-hangout-facebook-messenger-and-discord-cb926973d786)
+* [All the ways to send a video file over WebRTC](https://webrtchacks.com/all-the-ways-to-send-a-video-file-over-webrtc/)
 * [WebRTC Fundementals](https://telecom.altanai.com/webrtc/)
 * [WebRTC Welcome, Overview, and Update](https://www.youtube.com/watch?v=b217XBGsiZ8&list=PL4_h-ulX5eNf-ZShwxvzd6jTyFagwjh0C&index=1)
 * [Building a Raspberry Pi 2 WebRTC camera](https://www.rs-online.com/designspark/building-a-raspberry-pi-2-webrtc-camera)
