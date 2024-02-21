@@ -113,6 +113,7 @@ QEngine is our software library for quantum simulation and - optimization.
     * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
     * [Quantum mechanics essentials: Everything you need for quantum computation](https://www.youtube.com/watch?v=28ABEInFxBQ)
     * [Understanding Quantum Mechanics](https://www.youtube.com/watch?v=Wsjgtp9XZxo&list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL)
+    * [Quantum Physics Full Course | Quantum Mechanics Course](https://www.youtube.com/watch?v=hyctIDPRSqY)
 * Computer Science
     * [Undergrad Complexity at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
     * [Great Ideas in Theoretical Computer Science at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3aafQm568blS9blxtA_EWQv)
