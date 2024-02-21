@@ -1078,6 +1078,10 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [A Light Intro To Tensors: A Framework For Defining Geometric Objects In Space](https://www.cantorsparadise.com/a-light-intro-to-tensors-49508a0a82ab)
 * [eigenchris](https://www.youtube.com/@eigenchris/videos)
 
+* [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
+    * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
+* [A Tensor Description of Surfaces and Curves](https://grinfeld.org/books/A-Tensor-Description-Of-Surfaces-And-Curves/)
+
 # Fusion Reactor
 * [No Longer 30 Years Away: Two New Major Fusion Breakthroughs](https://medium.com/predict/no-longer-30-years-away-two-new-major-fusion-breakthroughs-bcb65106a013)
 
