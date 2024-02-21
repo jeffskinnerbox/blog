@@ -13,6 +13,10 @@ Version:      0.0.0
 -----
 
 
+* [i automated my home lab (and CLOUD) with Ansible](https://www.youtube.com/watch?v=6rpTjEpvUtc)
+* [Automate your Docker deployments with Ansible](https://www.youtube.com/watch?v=CQk9AOPh5pw)
+
+
 
 # Using Vagrant, Docker, and Ansible
 
@@ -35,6 +39,8 @@ ansible semaphore designed for devops, has access controls to assure secure depl
 
 
 * [Ansible by Example](https://dzone.com/articles/ansible-boots-kubernetes)
+
+
 
 
 
