@@ -29,6 +29,17 @@ Version:      0.0.0
 * []()
 * []()
 
+# Ephemeral Environments
+Ephemeral - something that lasts for a very short time
+An ephemeral environment is an environment meant to last for a limited amount of time
+ephemeral environments are supposed to be created, used for a limited period, and then discarded. Because of this, they’re also known as ‘on-demand environments’, ‘dynamic environments’, ‘temporary environments’, ‘sandbox environments’, or ‘short-lived environments’.
+For example, they could be as short as the lifecycle of a CI/CD pipeline, or they could last for a few weeks (the length of a sprint).
+
+* [What Are Ephemeral Environments? + How to Deploy and Use Them Efficiently](https://www.bunnyshell.com/blog/what-are-ephemeral-environment/)
+* [Nix Shell](https://nixos.org/)
+    * [Say Goodbye to Containers - Ephemeral Environments with Nix Shell](https://www.youtube.com/watch?v=0ulldVwZiKA)
+    * [How Nix-Shell Saved Our Team’s Sanity](https://medium.com/att-israel/how-nix-shell-saved-our-teams-sanity-a22fe6668d0e)
+
 
 
 
@@ -298,3 +309,4 @@ Sources:
 [09]:https://pypi.org/project/pip/
 [10]:https://mamba.readthedocs.io/en/latest/
 [11]:https://bash.cyberciti.biz/guide/Shebang
+
