@@ -21,8 +21,10 @@ _Chaos: When the present determines the future, but, the approximate present doe
 * [Chaos](https://github.com/jonnyhyman/Chaos)
 * [Chaos in Classical Mechanics: The Double-Compound-Pendulum Solved with Python](https://medium.com/@mathcube7/chaos-in-classical-mechanics-466c31099597)
 * [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
+* [Simulating the Double Pendulum in Python || Physics with Python](https://www.youtube.com/watch?v=Hc8_QO2dZU4)
 
 * [Analog Lorenz Attractor Computer](https://hackaday.io/project/191142-analog-lorenz-attractor-computer)
+* [Simulating Chaos Theory in Python || Lorenz Attractor & The butterfly effect!](https://www.youtube.com/watch?v=GdNjTJZnTmM)
 
 # 1st Example of Chaos
 * Henri Poincaré - In his research on the three-body problem, Poincaré became the first person to discover a chaotic deterministic system.
