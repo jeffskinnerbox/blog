@@ -29,6 +29,8 @@ What should I do with them?
 * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
 
 **Retro-Gaming**
+* [MINI “GAMING PC” NAILS THE LOOK, STREAMS THE GAMES](https://hackaday.com/2020/06/29/mini-gaming-pc-nails-the-look-streams-the-games/)
+
 * [Install Batocera On The Raspberry Pi 4 Full Setup Guide - Retro Gaming Goodness!](https://www.youtube.com/watch?v=5Jr-0UjgC8I)
 * [RetroPie 4.8 Setup and Install Guide for the Raspberry Pi](https://www.youtube.com/watch?v=-1d_alZNmwU)
 * [Retropie vs Recalbox vs Lakka vs Batocera - Best OS for Retro-gaming](https://www.youtube.com/watch?v=lqdz089kY3s)
@@ -46,6 +48,9 @@ What should I do with them?
 
 ** Eye Candy**
 * [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
+* [You can now generate AI art on your TV with a Raspberry Pi](https://www.xda-developers.com/raspberry-pi-generate-ai-art-for-tv/)
+    * [Lumina - AI Art Generator for Your TV](https://www.youtube.com/watch?v=_6vqaukuWoY&t=4s)
+    * [GitHub: DevMiser/Lumina](https://github.com/DevMiser/Lumina)
 
 **Streaming**
 * [Kodi](https://kodi.tv/)
@@ -54,6 +59,30 @@ What should I do with them?
 * [remote control](https://www.amazon.com/Favormates-Wireless-Keyboard-Infrared-Raspberry/dp/B01N0SUUZS)
 
 **Grandmaster Clock**
+* [Precision Clock](https://www.youtube.com/watch?v=SNqm5T5syTM)
+
+**GPS Pulse Per Second (PPS)**
+* [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
+    * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+
+* [Using GPS with PPS to synchronize clocks over the network](https://www.youtube.com/watch?v=7aTZ66ZL6Dk)
+* [Sync your project with GPS 1PPS](https://www.youtube.com/watch?v=GAtL5sFmlQg)
+
+* [NTP Server Gets Time From Space](https://hackaday.com/2022/01/20/ntp-server-gets-time-from-space/)
+    * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+        * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
+        * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
+    * [Setup a Ubuntu NTP Server Using Chrony](https://www.youtube.com/watch?v=-xA__4G1tl8)
+    * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
+    * [Raspberry Pi NTP Server](https://www.youtube.com/watch?v=QQzYb5Jxhio)
+    * [How To Create NTP Server Using RaspberryPi](https://www.youtube.com/watch?v=V87_FMLLMWE)
+    * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+    * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
+
+**GPS Disciplined Oscillator (GPSDO) Project**
+* [Developing a GPSDO from scratch](https://www.youtube.com/playlist?list=PL5WDcBjA0p6EVu4tH0w3Kwrl06OxpuZ5s)
+
+* [Nanosecond clock sync with a Raspberry Pi](https://www.youtube.com/watch?v=RvnG-ywF6_s)
 * [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
 * [Create a Grandmaster Clock](https://www.oscilloquartz.com/en/products-and-services/technology/what-are-grandmaster-clocks)
 * [Grandmaster Clocks](https://novotech.com/products/timing/grandmaster-clocks.html)
@@ -76,15 +105,6 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
 * [GPS Raspberry Pi NTP Server](https://blog.networkprofile.org/gps-backed-local-ntp-server/)
 * [Chrony NTP Service / Local Server and Client](https://www.youtube.com/watch?v=jxHP0Vycdaw)
-
-* [NTP Server Gets Time From Space](https://hackaday.com/2022/01/20/ntp-server-gets-time-from-space/)
-    * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
-        * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
-        * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
-    * [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
-    * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
-    * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-    * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
 
 # Novel Cases for Old Raspberry Pi 3
 
@@ -131,6 +151,7 @@ A Connection Machine (CM) is a member of a series of massively parallel supercom
 * [Richard Feynman and The Connection Machine](https://longnow.org/essays/richard-feynman-and-connection-machine/)
 * [External design of CM-1 and CM-2 model](https://upload.wikimedia.org/wikipedia/commons/9/96/Computer_Museum_of_America_%2851%29.jpg)
 * [Little Desktop Connection Machine](https://learn.adafruit.com/little-connection-machine?embeds=allow)
+    * [3D Printing](https://learn.adafruit.com/little-connection-machine/3d-printing)
 
 
 ------
@@ -144,6 +165,12 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 * [Radxa Zero 3W](https://www.youtube.com/watch?v=BaH4BBij5N4)
 * [Sipeed's Longan Pi 3H Packs Full-Size Ports Into a Raspberry Pi Zero Footprint](https://www.hackster.io/news/sipeed-s-longan-pi-3h-packs-full-size-ports-into-a-raspberry-pi-zero-footprint-eec86d9e3ce8)
 * [Orange Pi Zero 2W 4GB with Expansion Board Allwinner H618 LPDDR4 Quad Core CPU 64 Bit Single Board Computer](https://www.amazon.com/Expansion-Allwinner-Computer-Frequency-Bluetooth/dp/B0CHS8CKYD?th=1)
+
+# Time Synchronization in Embedded Systems
+* [Time Synchronization in Embedded Systems, overview of gPTP (Precision Time Protocol)](https://www.youtube.com/watch?v=ZrujSridNpQ)
+* [Sync time in MicroPython - Tutorial](https://www.youtube.com/watch?v=eF8nKRV2GVs)
+
+
 
 
 [01]:https://www.raspberrypi.com/products/raspberry-pi-2-model-b/
