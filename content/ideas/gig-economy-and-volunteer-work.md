@@ -51,6 +51,7 @@ Version:      0.0.0
 * [Drones in School](https://www.dronesinschool.com/)
 * [Academies of Loudoun (AOL)](https://www.lcps.org/AOL)
     * [Clubs & Activities](https://www.lcps.org/site/Default.aspx?PageType=1&SiteID=18349&ChannelID=25532&DirectoryType=6)
+* [F1 in Schools](https://www.f1inschoolsna.org/)
 
 # Other Peoples Experiences
 * [My Third Year as a Solo Developer](https://mtlynch.io/solo-developer-year-3/)
