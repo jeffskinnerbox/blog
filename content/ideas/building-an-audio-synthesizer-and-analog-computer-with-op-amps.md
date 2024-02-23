@@ -313,6 +313,7 @@ Doesn't seem to work???
 
 * [Homemade Operational Amplifier](https://hackaday.io/project/176860-homemade-operational-amplifier)
 * [Op-Amp Challenge: MOSFETs Make This Discrete Op Amp Tick](https://hackaday.com/2023/05/20/op-amp-challenge-mosfets-make-this-discrete-op-amp-tick/)
+* [Op-Amp Drag Race Turns Out Poorly for 741](https://hackaday.com/2024/02/23/op-amp-drag-race-turns-out-poorly-for-741/)
 
 ## OpAmps and LTSpice
 * [Introduction to Operational Amplifiers with LTSpice](https://learn.sparkfun.com/tutorials/introduction-to-operational-amplifiers-with-ltspice)
