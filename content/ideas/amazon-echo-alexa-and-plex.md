@@ -304,7 +304,11 @@ you need to establish your [Plex Home][59] via purchase a [Plex Pass][52]
 * [Example Plex Home Setup](https://support.plex.tv/articles/204234313-example-plex-home-setup/)
 
 To ask Plex to play music on you Echo, use these phrases:
-* Alexa, ask Plex to play music
+
+* Alexa, ask Plex to recommend me something
+* Alexa, ask Plex to play blues music
+
+* Alexa, ask Plex to play some music
 * Alexa, ask Plex to play music by Bob Marley
 * Alexa, ask Plex to pause
 * Alexa, ask Plex to stop
