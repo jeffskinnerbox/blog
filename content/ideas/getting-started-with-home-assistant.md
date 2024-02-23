@@ -14,6 +14,8 @@ Version:      0.0.0
 
 * [19 Home Automation Ideas For Your Smarthome](https://hometechhacker.com/home-automation-ideas-smarthome/)
 
+* [The TRUTH About Home Assistant Vs SmartThings](https://www.youtube.com/watch?v=cSzuWKsyuKI)
+* [Why I'm Ditching Samsung SmartThings (And Redoing My Smart Home)](https://www.youtube.com/watch?v=BOx8in5ab60)
 
 
 
