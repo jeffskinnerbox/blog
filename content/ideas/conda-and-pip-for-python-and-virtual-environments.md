@@ -191,7 +191,7 @@ To uninstall Miniconda, you follow these steps:
 conda env export > environment.yml
 
 # locate miniconda directory and delete it
-ls ~ | grep miniconda
+ls -a ~ | grep miniconda
 rm -rf ~/.miniconda3
 
 # remove conda configuration files (optional)
