@@ -12,6 +12,10 @@ Version:      0.0.0
 ----
 
 
+* [Docker and Home Automation](https://www.youtube.com/playlist?list=PL4ed4sZb-R_8dJmakzfBywx1zL9HrFEOy)
+
+
+
 * [19 Home Automation Ideas For Your Smarthome](https://hometechhacker.com/home-automation-ideas-smarthome/)
 
 * [The TRUTH About Home Assistant Vs SmartThings](https://www.youtube.com/watch?v=cSzuWKsyuKI)
