@@ -310,6 +310,7 @@ To ask Plex to play music on you Echo, use these phrases:
 
 * Alexa, ask Plex to play some music
 * Alexa, ask Plex to play music by Bob Marley
+* Alexa, ask Plex to play the album Desire by Bob Dylan
 * Alexa, ask Plex to pause
 * Alexa, ask Plex to stop
 
