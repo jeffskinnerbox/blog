@@ -50,7 +50,8 @@ Version:      0.0.0
     * [Part 5](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-5-778259475ece)
     * [Part 6](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-6-296a84d18ba7)
 
-
+# SDRConnect
+* [SDRConnect Overview - December 2023](https://www.youtube.com/watch?v=GjmYPq2Pa9g)
 
 
 
