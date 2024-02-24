@@ -701,7 +701,9 @@ The idea is to extend the walkie-talkie's coverage to the enire Internet
     * [MumbleChannelESP](https://github.com/revilo196/MumbleChannelESP)
     * [libmumble_client](https://github.com/janhenke/libmumble_client)
     * [mumlib2 - simple Mumble client library](https://github.com/Mixaill/mumlib2)
-
+* Mumble as an Intercom
+    * [Hearing Dinnercall While Gaming in the Basement (Raspberry Pi Home Intercom)](https://www.youtube.com/watch?v=zKLotxUrmRc)
+    * [Plumble - Mumble VOIP](https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient)
 
 
 --------
