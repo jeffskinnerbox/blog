@@ -23,6 +23,7 @@ There are many merits for centralized logging;
 * It’s also good for maintenance and troubleshooting.
 You can receive alerts when certain events occur or search through log history to try and pinpoint issues.
 
+* [Remote logging for easier Raspberry Pi debugging](https://www.dzombak.com/blog/2023/12/Remote-logging-for-easier-Raspberry-Pi-debugging.html)
 * [Centralizing Docker Logging Using Logspout and Graylog](https://hometechhacker.com/centralizing-docker-logging-using-logspout-and-graylog/)
 * [How to Create a Graylog Container in Docker](https://hometechhacker.com/how-to-create-a-graylog-container-in-docker/)
 * [5 Ways Centralized Logging Improves Home Network Security](https://hometechhacker.com/centralized-logging-improves-home-network-security/)
