@@ -34,6 +34,21 @@ Version:      0.0.0
 
 
 
+
+
+# Project to Test the Cluster: Enigma Machine Brute Force Decryption
+* [The Ultimate Hack: Using a Raspberry Pi 5 Cluster to Break the Enigma Code](https://www.youtube.com/watch?v=cIq2AEbYotA)
+    * [py-enigma 0.1](https://pypi.org/project/py-enigma/)
+    * [PyEnigma Documentation](https://py-enigma.readthedocs.io/en/latest/reference.html)
+    * [OctaPi: brute-force Enigma](https://projects.raspberrypi.org/en/projects/octapi-brute-force-enigma/6)
+    * [Breaking the Enigma Code in Python with MCMC (Marvel themed)](https://towardsdatascience.com/breaking-the-enigma-code-in-python-with-mcmc-marvel-themed-9ceb358dd8ae)
+
+
+
+
+
+
+
 # Raspberry Pi Docker Swarm Cluster
 * [Docker Swarm](https://www.kevsrobots.com/blog/docker-swarm.html)
 * [DOCKER SWARM ON RASPBERRY PI 5](https://www.kevsrobots.com/learn/docker_swarm/)
