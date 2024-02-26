@@ -24,6 +24,9 @@ The Joule Thief Circuit is a voltage booster circuit which converts a constant l
 
 
 
+* [Easy Joule Thief Circuit](https://www.instructables.com/Easy-Joule-Thief-Circuit/)
+* [Easy Joule Thief Soldering Project](https://www.instructables.com/Easy-Joule-Thief-Soldering-Project-1/)
+* [19 Projects tagged with "Joule thief"](https://hackaday.io/projects?tag=Joule%20thief)
 
 * [Joule Thief PCB: Power from "dead" batteries!](https://www.hackster.io/glowascii/joule-thief-pcb-power-from-dead-batteries-651d67)
 * [Joule Thief LED Tea Light Adapter](https://www.hackster.io/glowascii/joule-thief-led-tea-light-adapter-c7c11c)
