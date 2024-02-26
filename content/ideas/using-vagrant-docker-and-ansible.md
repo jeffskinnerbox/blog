@@ -2810,6 +2810,45 @@ Check out the videos below
 * [Use Portainer to update your Docker Containers while they are running. No command line needed.](https://www.youtube.com/watch?v=Eme2TlR7Z7E)
 * [How To Update Docker Container automatically with nearly zero downtime](https://www.youtube.com/watch?v=5lP_pdjcVMo)
 
+
+
+--------
+
+
+
+
+## Thoughts on Better Docker Volume Management
+Volumes are a mechanism for storing data outside containers. All volumes are managed by Docker and stored in a dedicated directory on your host, usually /var/lib/docker/volumes for Linux systems.
+
+I have been wondering if there is any kind of best practice for structuring the volumes for the containers
+(more specifically, the config and data volumes).
+At the moment I am using the home directory,
+and just have a folder for each container, with each service's volumes.
+For each docker stack or individual service, I'll also have a subdirectory and store there all volume data.
+This allows for easy backups and is very organized.
+
+I want to structured mine so that I'd be able to back up all containers easily
+and also switch around containers in various compose stacks without having to change volume locations.
+Something like this:
+
+```
+/opt/docker
+  /stack1
+    docker-compose.yml
+  /stack2
+    docker-compose.yml
+  /volumes
+    /container1
+    /container2
+```
+
+But it might make more sense to include these volumes in something like this `/home/user/data/docker/volumes`.
+
+* [Top Tips and Use Cases for Managing Your Volumes](https://www.docker.com/blog/top-tips-and-use-cases-for-managing-your-volumes/)
+* [How to move Docker's data directory from /var/lib](https://www.dzombak.com/blog/2024/01/How-to-move-Docker-s-data-directory-from-var-lib.html)
+
+
+
 ## Install Watchtower
 With [Watchtower][65] you can automate the updating of your running containerized apps.
 Watchtower will pull down your new image,
@@ -2824,7 +2863,6 @@ Sources:
 * [Watchtower: The Docker Container That Automatically Updates Your Images](https://www.youtube.com/watch?v=DNfMuDLDq7k)
 * [How to Update Docker Containers using Watchtower with Portainer](https://www.youtube.com/watch?v=mS0ylPhwQDU)
 
-#### Step X: xxx
 #### Step X: xxx
 #### Step X: xxx
 #### Step X: xxx
