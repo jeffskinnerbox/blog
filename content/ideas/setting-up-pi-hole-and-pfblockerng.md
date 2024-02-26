@@ -15,6 +15,7 @@ Version:      0.0.0
 
 * [PiHole on Docker and Kubernetes (I almost gave up)](https://www.youtube.com/watch?v=NRe2-vye3ik)
 * [High Availability Pi-Hole? Yes please!](https://www.youtube.com/watch?v=IFVYe3riDRA&list=RDCMUCOk-gHyjcWZNj3Br4oxwh0A&index=8)
+* [Setting up a secondary Pi-Hole on my home network](https://www.dzombak.com/blog/2024/02/Setting-up-a-secondary-Pi-Hole-on-my-home-network.html)
 * [You're running Pi-Hole wrong! Setting up your own Recursive DNS Server!](https://www.youtube.com/watch?v=FnFtWsZ8IP0)
 
 * [Make the FBI happy: install an ad blocker](https://medium.com/enrique-dans/make-the-fbi-happy-install-an-ad-blocker-c6f3ba2ef3a2)
