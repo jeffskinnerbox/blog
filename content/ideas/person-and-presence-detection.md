@@ -142,6 +142,10 @@ a touch screen display, and ChatGPT.
 * [Seeed Studio mmWave sensor kit – Part 1: unboxing and first impression with ESPHome and Home Assistant](https://www.cnx-software.com/2023/12/19/seeed-studio-mmwave-sensor-kit-unboxing-esphome-home-assistant/)
     * [Seeed Studio mmWave Human Detection Sensor Kit](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
 
+# Tiny Motion Detection Alarm
+* [Tiny Motion Detection Alarm Does The Trick](https://hackaday.com/2024/02/24/tiny-motion-detection-alarm-does-the-trick/)
+    * [Tiny Motion Detection Alarm](https://www.instructables.com/Tiny-Motion-Detection-Alarm/)
+
 
 ----------
 
