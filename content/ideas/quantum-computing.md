@@ -103,6 +103,7 @@ QEngine is our software library for quantum simulation and - optimization.
 # Preparatory Mathematics and Quantum Mechanics for Quantum Computing
 * Mathematics (Linear Algebra, Probability)
     * [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=2)
+    * [Matrix Algebra for Engineers](https://www.youtube.com/playlist?list=PLkZjai-2Jcxlg-Z1roB0pUwFU-P58tvOx)
     * [Linear algebra for Quantum Mechanics](https://www.youtube.com/watch?v=FF05fXg03A0)
     * [Preliminary Mathematics for Quantum Computing](https://www.cs.tufts.edu/comp/150QCS/Premath.pdf)
     * [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
