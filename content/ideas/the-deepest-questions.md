@@ -83,6 +83,7 @@ It is often said, nobody understands quantum physics ... not true.
 The problem is, nobody understands quantum **physicists** muddled description of the topic.
 
 * Summary
+    * [Introduction to Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
     * [Physical Principles Underpinning Quantum Computing](https://www.eetimes.eu/physical-principles-underpinning-quantum-computing/)
     * [From Bits to Qubits: Mathematical Representation of Quantum Gates](https://www.eetimes.eu/from-bits-to-qubits-mathematical-representation-of-quantum-gates/)
 * Quantum Physics
