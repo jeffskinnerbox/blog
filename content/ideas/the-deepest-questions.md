@@ -855,6 +855,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Quantum Calculus](https://www.quantumcalculus.org/)
 
 # Entropy
+* [Memorising Graham’s Number Creates Black Holes | Entropy](https://www.youtube.com/watch?v=DK2FmPygUU4)
 * [Entropy, explained](https://towardsdatascience.com/entropy-explained-7fedb2ecefc6)
 * [What, Exactly, is Entropy?](https://medium.com/cantors-paradise/what-exactly-is-entropy-2a0e2fc067f8)
 * [A better description of entropy](https://www.youtube.com/watch?v=w2iTCm0xpDc)
