@@ -111,6 +111,7 @@ QEngine is our software library for quantum simulation and - optimization.
         * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
     * [Tensor Calculus](https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_)
 * Quantum Mechanics
+    * [The Maths of Quantum Mechanics in 13 Minutes | Functional Operators and Fourier Transforms](https://www.youtube.com/watch?v=thRKIYr9LwQ&list=PL748m8SU9Q0cwbh4YDrZCgcNTXVZHwRBc&index=5)
     * [The math trick that revolutionized physics](https://www.youtube.com/watch?v=gXeAp_lyj9s) - DONE
     * [Fundamentals of Quantum Physics - Brant Carlson](https://www.youtube.com/playlist?list=PLNZRbvSM6olzbOKl-JtNSZdLiroAhhpE7) - IN PROGRESS
     * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
