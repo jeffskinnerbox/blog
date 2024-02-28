@@ -18,6 +18,9 @@ Version:      0.0.0
 * [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 
+# What About Pip?
+* [Python Basics Exercises: Installing Packages With pip](https://realpython.com/courses/basics-exercises-install-packages-with-pip/)
+
 # What About Anaconda?
 * [Anaconda](https://www.anaconda.com/distribution/)
 * [Anaconda Python Tutorial: Everything You Need to Know](https://dzone.com/articles/python-anaconda-tutorial-everything-you-need-to-kn)
