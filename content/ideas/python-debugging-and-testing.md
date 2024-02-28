@@ -97,3 +97,18 @@ Version:      0.0.0
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
+
+
+-------
+
+
+# Python Text Formatting
+Rich is a Python library for rich text and beautiful formatting in the terminal.
+The Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more — out of the box.
+
+* [Rich’s documentation](https://rich.readthedocs.io/en/latest/#)
+    * [pip install rich](https://pypi.org/project/rich/)
+    * [GitHub: Textualize/rich](https://github.com/Textualize/rich)
+    * [Pretty terminal output with Python and Rich](https://calmcode.io/course/rich/introduction)
+    * [The Python Rich Package: Unleash the Power of Console Text](https://realpython.com/python-rich-package/)
+
