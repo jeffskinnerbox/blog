@@ -204,6 +204,7 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 # Time Display
 
 ## 7-Segment Display
+* [Mechanical Seven Segment Display](https://www.printables.com/model/771318-mechanical-seven-segment-display)
 * [One Stepper Plus a Whole Bunch of Magnets Equals a Unique Seven-Segment Display](https://hackaday.com/2022/03/05/one-stepper-plus-a-whole-bunch-of-magnets-equals-a-unique-seven-segment-display/)
 * [Large Pi-based Thermometer and Clock](https://learn.adafruit.com/large-pi-based-thermometer-and-clock/overview)
 * [1.2" 4-Digit 7-Segment Display w/I2C Backpack](https://www.adafruit.com/product/1270)
