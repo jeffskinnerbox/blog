@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 # Reaction Wheel Balancing
+* [Balancing cube](https://willempennings.nl/balancing-cube/)
 * [Building Reaction Wheels With Python And LEGO](https://hackaday.com/2022/04/27/building-reaction-wheels-with-python-and-lego/)
 * [Balance Wheel](http://hackaday.io/project/4267-balance-wheel)
 * [Stick Balances Itself With Reaction Wheels](http://hackaday.com/2016/08/11/stick-balances-itself-with-reaction-wheels/)
