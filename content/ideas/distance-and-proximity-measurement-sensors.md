@@ -38,7 +38,10 @@ Version:      0.0.0
 * [IR distance sensor includes cable (20cm-150cm)](https://www.adafruit.com/product/1031)
 
 # Time of Flight Distance Sensor
+ToF = time-of-flight
+dToF = direct time-of-flight
 * [ST’s newest time-of-flight sensor sounds almost like science fiction](https://electronics360.globalspec.com/article/19948/st-s-newest-time-of-flight-sensor-sounds-almost-like-science-fiction)
+* [SparkFun Qwiic Mini dToF Imager - TMF8820](https://www.sparkfun.com/products/19218)
 * [VL6180X ToF sensor](https://www.adafruit.com/product/3316)
 * [VL53L0X ToF sensor](https://www.adafruit.com/product/3317)
 * [VL53L5CX 8x8 Time of Flight (ToF) Array Sensor Breakout](https://shop.pimoroni.com/products/vl53l5cx-time-of-flight-tof-sensor-breakout?variant=39972903059539)
