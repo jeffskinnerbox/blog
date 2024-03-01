@@ -20,7 +20,13 @@ The joule thief can operate with very low voltages, this means it can work with 
 
 The Joule Thief Circuit is a voltage booster circuit which converts a constant low voltage input into a periodic output of a higher voltage.
 
+A joule thief is nothing but a primitive switching regulator. There is nothing about it's design that restricts it to a single 1.5V cell. Most use a 1.5V cell for size reasons. And because a single 1.5V cell, at 1V, can easily be boosted to 3+ volts to power a white or other 3+ Vf leds.
+I've used a joule thief self osscilating circuit with 2 AA to power an LED for months without issues, with a random ferrite ring and Telco wire. Nothing optimized.
+If the cell is full, the oscillating circuit gets saturated faster and less energy is needed to boost it to saturation. It will simply last longer.
+[Joule thief - Why only single celled?](https://electronics.stackexchange.com/questions/319797/joule-thief-why-only-single-celled)
+
 [two versions of the joule thief](https://blog.zakkemble.net/joule-thief/)
+[How to Build a Joule Thief & Steal Battery Power](https://www.arrow.com/en/research-and-events/articles/how-to-build-a-joule-thief-and-steal-battery-power)
 
 
 
@@ -30,6 +36,7 @@ The Joule Thief Circuit is a voltage booster circuit which converts a constant l
 
 * [Joule Thief PCB: Power from "dead" batteries!](https://www.hackster.io/glowascii/joule-thief-pcb-power-from-dead-batteries-651d67)
 * [Joule Thief LED Tea Light Adapter](https://www.hackster.io/glowascii/joule-thief-led-tea-light-adapter-c7c11c)
+* [1.5 to 9V Converter Uses Supercharged Joule Thief PCB](https://rustybolt.info/wordpress/?p=7643)
 
 
 
