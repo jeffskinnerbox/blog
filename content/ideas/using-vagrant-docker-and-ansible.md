@@ -2798,6 +2798,23 @@ sudo docker run -d -p 9001:9001 --name portainer-agent --restart=always -v /var/
 sudo docker ps -a -s
 ```
 
+```yaml
+# docker compose file for portainer agent
+
+version: '3.8'
+
+services:
+  portainer-agent:
+    image: portainer/agent:latest
+    container_name: portainer-agent
+    restart: unless-stopped
+    ports:
+      - '9001:9001'
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/lib/docker/volumes:/var/lib/docker/volumes
+```
+
 >**NOTE:** Check out the video
 >"[Pi-Hosted : Upgrading Portainer and Updating Containers Part 6][59]"
 >for a script to do the above steps.
