@@ -396,6 +396,12 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [WATCH EARTHQUAKE ROLL ACROSS A CONTINENT IN SEISMOGRAPH VISUALIZATION VIDEO](https://hackaday.com/2019/07/22/watch-earthquake-roll-across-a-continent-in-seismograph-visualization-video/)
 * [Raspberry Pi Plots World Wide Earthquakes](https://hackaday.com/2021/10/05/raspberry-pi-plots-world-wide-earthquakes/)
 
+# Geophone vs Seismometers
+Compared with geophones, seismometers are more suitable for extremely small ground motion detection, as they cover a larger frequency band, including the frequency range below their natural frequency, normally from 0.01 to 50 Hz. For conventional geophones, the frequency band falls into the range of 1–15 Hz.
+
+* [DIY Geophone Build Performs Well](https://hackaday.com/2024/03/02/diy-geophone-build-performs-well/)
+    * [DIY Extremly Sensitive and cheap Geophone sensor](https://hackaday.io/project/194956-diy-extremly-sensitive-and-cheap-geophone-sensor)
+
 # Sensing The Earth’s Wobble
 * [Sensing The Earth’s Wobble In Time](https://hackaday.com/2020/10/08/sensing-the-earths-wobble-in-time/)
 
