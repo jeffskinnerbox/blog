@@ -15,6 +15,9 @@ Version:      0.0.0
 
 * [CREATE CHEAP PHILIPS HUE COMPATIBLE DEVICES](http://hackaday.com/2017/03/01/create-cheap-philips-hue-compatible-devices/)
 
+* [The Best Smart Home Hub For You (2023)](https://hometechhacker.com/the-best-smart-home-hub-for-you-2022/)
+    * [Aeotec Smart Home Hub](https://www.amazon.com/dp/B08TWDNQ5Q)- Works as a SmartThings Hub, Z-Wave, Zigbee, Matter Gateway, Compatible with Alexa, Google Assistant, WiFi
+
 ----
 
 * [Compare 12 Smart Plugs that Work With Alexa + WiFi vs. Z-wave Review](https://www.youtube.com/watch?v=9m5oAbnU19c)
