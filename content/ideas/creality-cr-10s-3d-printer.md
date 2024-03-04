@@ -22,6 +22,7 @@ Version:      0.0.0
     * [Klipper](https://www.klipper3d.org)
     * [Fluidd](https://docs.fluidd.xyz/)
 * [How To Install Klipper 3D Printing Firmware On Raspberry Pi](https://www.slashgear.com/1512011/how-to-install-flipper-3d-printing-firmware-raspberry-pi/)
+* [Review of BIGTREETECH Pad 7 Klipper pad with Creality Ender-3 Pro S1 3D printer](https://www.cnx-software.com/2023/05/29/review-of-bigtreetech-pad-7-klipper-pad-with-creality-ender-3-pro-s1-3d-printer/)
 
 
 
