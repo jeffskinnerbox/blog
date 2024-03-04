@@ -197,6 +197,7 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 # When Will Quantum Computing Be Useful
 * [Quantum computing: What leaders need to know now](https://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now)
     * [The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it won’t)](https://arxiv.org/pdf/2310.15505.pdf)
+* [Google launches $5m prize to find actual uses for quantum computers](https://www.newscientist.com/article/2420137-google-launches-5m-prize-to-find-actual-uses-for-quantum-computers/)
 
 
 
