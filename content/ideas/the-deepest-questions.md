@@ -929,7 +929,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The Boy or Girl Probability Paradox Resolved | It was never really a paradox](https://www.youtube.com/watch?v=ElB350w8iJo)
 
 ### The Sleeping Beauty Paradox
-* [185,754 People Agree With Me, 72,027 Disagree](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
+* [The Most Controversial Problem in Philosophy](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
 
 # Universality
 * [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
