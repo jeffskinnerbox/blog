@@ -67,6 +67,7 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 * [Running a ChatGPT-Like LLM on the Raspberry Pi 5](https://www.hackster.io/shahizat/running-a-chatgpt-like-llm-on-the-raspberry-pi-5-fd67f9)
 
 # Tensor Processing Unit (TPU)
+* [Pineberry Pi Unveils New Raspberry Pi 5 HAT Add-Ons with AI Acceleration, 2.5-gig Ethernet, and More](https://www.hackster.io/news/pineberry-pi-unveils-new-raspberry-pi-5-hat-add-ons-with-ai-acceleration-2-5-gig-ethernet-and-more-1316e932d903)
 * [Local AI Just Got Easy (and Cheap)](https://www.youtube.com/watch?v=mdOEaNV8NXw)
 * [Coral USB Accelerator](https://www.amazon.com/dp/B07S214S5Y)
 * [AI on a Pi? Believe it!](https://www.youtube.com/watch?v=so8_h0EKPWU)
