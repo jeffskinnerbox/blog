@@ -351,6 +351,9 @@ leading some to declare it ["a paradigm for chaos"][05].
 ## Vector Display / X-Y Mode
 Most dual channel oscilloscopes have an XY mode in which the timebase is replaced by the second channel, so instead of a constant sweep frequency the two inputs to be plotted relative to each other.
 
+* [STM32 Draws on Scope: Rendering 3D Graphics On An Oscilloscope](https://hackaday.com/2024/03/10/stm32-draws-on-scope/)
+    * [GetHub: Rendering 3D Graphics On An Oscilloscope](https://github.com/lowbyteproductions/3d-oscilloscope-renderer)
+
 * turned his oscilloscope into a vector display - [WATCH VIDEO ON A OSCILLOSCOPE WITH AN ESP32](https://hackaday.com/2017/12/23/watch-video-on-a-oscilloscope-with-an-esp32/)
 * [Scopetrex Is A Game Console… For Your Oscilloscope!](https://hackaday.com/2020/05/07/scopetrex-is-a-game-console-for-your-oscilloscope/)
 * [Oscilloscope mushrooms on the Rigol DS1054Z](https://www.youtube.com/watch?v=NK5tK6SBO-c)
