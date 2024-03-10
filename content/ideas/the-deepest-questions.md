@@ -666,6 +666,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Who killed Schrödinger's cat?](https://plus.maths.org/content/deadandalive)
 * [The Schrödinger Equation — 1, 2](https://medium.com/quantafy/solving-the-schr%C3%B6dinger-equation-1-2-848a5150eb05)
 * [Schrödinger’s Equation: Explained](https://medium.com/quantafy/the-most-important-equation-of-quantum-physics-33a630ce9a0d)
+* [The True Meaning of Schrödinger's Equation](https://www.youtube.com/watch?v=LFC2HsT6Bh4)
 * [The Origins of the Schrödinger Equation](https://www.cantorsparadise.com/the-origins-of-the-schr%C3%B6dinger-equation-47bdfddced17)
 * [A brief history of quantum field theory](https://plus.maths.org/content/brief-history-quantum-field-theory)
 * [A Brief History of Quantum Mechanics - with Sean Carroll](https://www.youtube.com/watch?v=5hVmeOCJjOU)
