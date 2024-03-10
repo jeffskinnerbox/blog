@@ -65,6 +65,8 @@ Version:      0.0.0
 * [Kubernetes 101](https://www.youtube.com/playlist?list=PL2_OBreMn7FoYmfx27iSwocotjiikS5BD)
 * [Kubernetes explained simply, and why you should learn it!](https://www.youtube.com/watch?v=glFE28QT1HI)
 
+* [Build a Kubernetes cluster using K3s via Ansible](https://github.com/k3s-io/k3s-ansible/tree/master)
+
 
 ## Learning Hadoop
 * [How to get started with Hadoop](http://bigdatastudio.com/tag/best-way-to-learn-hadoop)
@@ -276,6 +278,7 @@ I chose Raspbian Lite
 # K8S, K3S, Microk8s
 
 # Setting Up the Cluster
+* [Ansible 101 - on a Cluster of Raspberry Pi 2s](https://www.jeffgeerling.com/blog/ansible-101-cluster-raspberry-pi-2s)
 
 * [Building a Raspberry Pi cluster with MicroK8s](https://ubuntu.com/blog/building-a-raspberry-pi-cluster-with-microk8s)
 * [How to build a Raspberry Pi Kubernetes cluster using MicroK8s](https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#1-overview)
