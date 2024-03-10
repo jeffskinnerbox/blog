@@ -60,3 +60,8 @@ A time-domain reflectometer (TDR) is an electronic instrument used to determine 
 It can be used to characterize and locate faults in metallic cables  It can also be used to locate discontinuities in a connector, printed circuit board, or any other electrical path.
 
 * [Dead Simple Time-Domain Reflectometry with just a Battery and an Oscilloscope](https://hackaday.com/2020/12/14/dead-simple-time-domain-reflectometry-with-just-a-battery-and-an-oscilloscope/)
+
+# Octopus Component IV Curve Tracer
+* [Octopus Component IV Curve Tracer](https://www.youtube.com/watch?v=3RjBFEKmt-g)
+* [Revolutionize Troubleshooting: Build Your Own Circuit Tester](https://www.hackster.io/diyguyChris/revolutionize-troubleshooting-build-your-own-circuit-tester-fa6aa9)
+
