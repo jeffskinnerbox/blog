@@ -49,6 +49,7 @@ and became available in the 1920's with the opening of
 Marconi's first broadcast station in Chelmsford.
 
 * [The Complete Guide on How to Build a Crystal Radio—Plus How They Work](https://steampunk.wonderhowto.com/how-to/complete-guide-build-crystal-radio-plus-they-work-0141117/)
+* [Crystal Radios: No Batteries? No Problem!](https://www.youtube.com/watch?v=6HqgWcTnWTk)
 
 ### Zinc Negative Resistance Oscillator
 * [Making A Crystodyne Radio With Zinc Oxide And Cat’s Whiskers](https://hackaday.com/2024/03/05/making-a-crystodyne-radio-with-zinc-oxide-and-cats-whiskers/)
