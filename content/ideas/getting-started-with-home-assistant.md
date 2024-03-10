@@ -2382,6 +2382,8 @@ All processing is performed locally on your own hardware, and your camera feeds 
 >the DVR connects to an analog CCTV system via a coaxial cable,
 >while the NVR connects to an IP camera system over an Ethernet or WiFi connection.
 
+* [Synology Surveillance Station](https://www.synology.com/en-global/surveillance)
+
 * [Remote Frigate in Docker with Home Assistant Integration](https://www.youtube.com/watch?v=fu4nHA5veps)
 * [Frigate NVR Updates](https://www.mostlychris.com/frigate-nvr-updates/)
 
