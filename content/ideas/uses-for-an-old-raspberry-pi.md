@@ -123,6 +123,8 @@ See `/home/jeff/cad/intel-286-pc/README.md`.
 * [Mint condition trashpicked 19" color TV (Toshiba C771T)](https://www.youtube.com/watch?v=igwRNYgOA_A)
 * [Fantastic Mr David](https://fantasticmrdavid.com.au/work/retrotv)
 
+* [Making a Cat TV with Raspberry Pi](https://blog.adafruit.com/2024/03/07/making-a-cat-tv-with-raspberry-pi-raspberrypi-raspberry_pi-bekathwia/)
+
 TV programs from 1978 ...
 * [Did TV suck in 1978? TV Guide's Fall Preview 1978](https://www.youtube.com/watch?v=1DqjrPGntFw)
 * [Youtube search](https://www.youtube.com/results?search_query=tv+from+1978)
