@@ -209,6 +209,12 @@ An eFPGA is just the core, without the analog I/O, which can be integrated into 
 
  * [KnowHow - Technical Resource for Hardware Design and Verification Languages](https://www.doulos.com/knowhow/)
 
+# cocotb
+[cocotb](https://www.cocotb.org/) is an open source coroutine-based cosimulation testbench environment for verifying VHDL and SystemVerilog RTL using Python.
+* [Make Verification Fun Again with Python and cocotb](https://www.youtube.com/watch?v=8bnlovlUpGo)
+* [Getting Started with Cocotb for absolute idiots](https://hardwareteams.com/docs/fpga-asic/cocotb/getting-started/)
+* [learncocotb.com](https://learncocotb.com/)
+
 # Other
 * [Bringing FPGA Development To The Masses](https://hackaday.com/2019/07/05/bringing-fpga-development-to-the-masses/)
 * [Cheap FPGA Board Roundup](https://hackaday.com/2018/08/20/cheap-fpga-board-roundup/)
