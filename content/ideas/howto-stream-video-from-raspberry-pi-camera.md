@@ -238,6 +238,7 @@ v4l2-ctl --device /dev/video0 --list-formats-ext
 * http://picamera.readthedocs.io/en/release-1.10/api.html
 * Recording to a network stream - http://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-to-a-network-stream
 * [How To Use Picamera2 to Take Photos With Raspberry Pi](https://www.tomshardware.com/how-to/use-picamera2-take-photos-with-raspberry-pi)
+* [How to Control your Raspberry Pi Camera using a web UI](https://www.tomshardware.com/raspberry-pi/how-to-control-your-raspberry-pi-camera-using-a-web-ui)
 * [How To Create a Bluetooth Raspberry Pi Camera Trigger](https://www.tomshardware.com/how-to/bluetooth-raspberry-pi-camera-trigger)
 
 ## Adding a Camera to the Raspberry Pi

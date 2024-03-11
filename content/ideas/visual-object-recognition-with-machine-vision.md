@@ -549,6 +549,8 @@ SimpleCV is great for simple machine projects and hobbies but don't expect high 
 * [Using the Raspberry Pi camera module with SimpleCV](http://openlabtools.eng.cam.ac.uk/Resources/Imaging/RPiCamera/)
 * https://www.youtube.com/watch?v=UZSm7Q2bZoc
 * [How To Use Picamera2 to Take Photos With Raspberry Pi](https://www.tomshardware.com/how-to/use-picamera2-take-photos-with-raspberry-pi)
+* [How to Control your Raspberry Pi Camera using a web UI](https://www.tomshardware.com/raspberry-pi/how-to-control-your-raspberry-pi-camera-using-a-web-ui)
+* [How To Create a Bluetooth Raspberry Pi Camera Trigger](https://www.tomshardware.com/how-to/bluetooth-raspberry-pi-camera-trigger)
 
 # Installing OpenCV and Jupyter on a Raspberry Pi - DONE
 [!opencv-logo](http://opencv.org/assets/theme/logo.png)
