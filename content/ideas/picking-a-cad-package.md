@@ -101,6 +101,7 @@ and their conversion to [PCB designs][46].
 * [Easy - KiCad Symbol, Footprint and 3D Model!](https://atomic14.substack.com/p/easy-kicad-symbol-footprint-and-3d)
     * [Easy - KiCad Symbol, Footprint and 3D Model!](https://www.youtube.com/watch?v=inf5ETqLLGA)
 * [Kicad schematics and PCB Python scripting](https://www.youtube.com/watch?v=EP1GtsZ2VfM)
+* [Share Your Projects: KiCad Automations And Pretty Renders](https://hackaday.com/2024/03/11/share-your-projects-kicad-automations-and-pretty-renders/)
 
 * [KiCad 7.0.0 Download Now Available!](https://www.hackster.io/news/kicad-7-0-0-download-now-available-4b4257f4e9a9)
 * [Feeling the KiCad 6 Electricity](https://hackaday.com/2021/02/04/feeling-the-kicad-6-electricity/)
