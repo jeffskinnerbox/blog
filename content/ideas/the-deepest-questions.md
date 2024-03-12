@@ -214,6 +214,12 @@ Some have thought that logic will one day be completed and all its problems solv
 * [Number Systems Invented to Solve the Hardest Problem - History of Rings | Ring Theory E0](https://www.youtube.com/watch?v=M-9_rZfVQVE)
 * [Straightedge and Compass Construction](https://en.wikipedia.org/wiki/Straightedge_and_compass_construction)
 
+### Anumeric People
+An adjective, concerning people, culture, or language, not having or using numerals or numbers;
+Being numberless: The only words in their anumeric language that are somewhat quantitative have a meaning similar to “a few” or “some.”
+
+* [‘Anumeric’ People: What Happens When a Language Has No Words for Numbers?](https://getpocket.com/explore/item/anumeric-people-what-happens-when-a-language-has-no-words-for-numbers)
+
 ## What is Physics? What is a Proper Physical Theory?
 * [Tim Maudlin: Ontological Clarity, Electromagnetism and the Aharanov-Bohm Effect (EmQM17)](https://www.youtube.com/watch?v=LUE01tjDAb8)
 
