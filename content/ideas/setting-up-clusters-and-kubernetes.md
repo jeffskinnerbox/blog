@@ -279,6 +279,7 @@ I chose Raspbian Lite
 
 # Setting Up the Cluster
 * [Ansible 101 - on a Cluster of Raspberry Pi 2s](https://www.jeffgeerling.com/blog/ansible-101-cluster-raspberry-pi-2s)
+* [A Raspberry Pi based ‘Bramble’ Cluster for Docker Swarm](https://glasstty.com/a-raspberry-pi-based-bramble-cluster-for-docker-swarm/)
 
 * [Building a Raspberry Pi cluster with MicroK8s](https://ubuntu.com/blog/building-a-raspberry-pi-cluster-with-microk8s)
 * [How to build a Raspberry Pi Kubernetes cluster using MicroK8s](https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#1-overview)
