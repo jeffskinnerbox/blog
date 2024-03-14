@@ -112,3 +112,11 @@ The Rich API makes it easy to add color and style to terminal output. Rich can a
     * [Pretty terminal output with Python and Rich](https://calmcode.io/course/rich/introduction)
     * [The Python Rich Package: Unleash the Power of Console Text](https://realpython.com/python-rich-package/)
 
+
+-------
+
+
+
+* [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
+* [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
+
