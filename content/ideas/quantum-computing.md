@@ -200,6 +200,8 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
     * [The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it won’t)](https://arxiv.org/pdf/2310.15505.pdf)
 * [Google launches $5m prize to find actual uses for quantum computers](https://www.newscientist.com/article/2420137-google-launches-5m-prize-to-find-actual-uses-for-quantum-computers/)
 
+* [Physicists Finally Find a Problem That Only Quantum Computers Can Do](https://www.quantamagazine.org/physicists-finally-find-a-problem-only-quantum-computers-can-do-20240312/)
+
 
 
 
