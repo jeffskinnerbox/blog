@@ -48,6 +48,8 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 ```
 
 # Overclocking
+* [In honor of Pi day, here's how to supercharge your Raspberry Pi 5](https://www.pocket-lint.com/how-to-speed-up-and-overclock-raspberry-pi-5-install-ssd/)
+
 * [Raspberry Pi 5 became 25% faster by changing some numbers in the configuration file](https://technewsspace.com/raspberry-pi-5-became-25-faster-by-changing-some-numbers-in-the-configuration-file/)
 * [How to overclock a Raspberry Pi 5 to 3GHz and beyond](https://www.geeky-gadgets.com/how-to-overclock-a-raspberry-pi-5/)
 * [Don't buy a Raspberry Pi 5 without also buying this amazing accessory](https://www.zdnet.com/home-and-office/dont-buy-a-raspberry-pi-5-without-also-buying-this-amazing-accessory/)
