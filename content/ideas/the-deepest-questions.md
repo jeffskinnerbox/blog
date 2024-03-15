@@ -89,6 +89,7 @@ The problem is, nobody understands quantum **physicists** muddled description of
 * History of Modern Physics
     * [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
     * [History for Physics: Quantum Foundations](https://www.youtube.com/playlist?list=PLtIs3eEC6pzLiBewygZYyvrkplX5iXoiG)
+    * [Adam Becker on the Curious History of Quantum Mechanics](https://www.youtube.com/watch?v=em7dkYZTetE)
 * Quantum Physics
     * [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
     * [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
