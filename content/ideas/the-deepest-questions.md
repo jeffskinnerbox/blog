@@ -81,7 +81,6 @@ All we know is they can’t simultaneously be true.
 ## Quantum Physics Confusion: How to Learn This Stuff
 It is often said, nobody understands quantum physics ... not true.
 The problem is, nobody understands quantum **physicists** muddled description of the topic.
-
 * Summary
     * [Introduction to Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
     * [Physical Principles Underpinning Quantum Computing](https://www.eetimes.eu/physical-principles-underpinning-quantum-computing/)
@@ -90,6 +89,8 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
     * [History for Physics: Quantum Foundations](https://www.youtube.com/playlist?list=PLtIs3eEC6pzLiBewygZYyvrkplX5iXoiG)
     * [Adam Becker on the Curious History of Quantum Mechanics](https://www.youtube.com/watch?v=em7dkYZTetE)
+    * [Adam Becker, "The Trouble with Quantum Physics, and Why It Matters"](https://www.youtube.com/watch?v=HUEDWhYaESw)
+    * [Adam Becker - "'Not Merely False, but Foolish': The History of Bell’s Two Theorems"](https://www.youtube.com/watch?v=TUyp2uC6VJc)
 * Quantum Physics
     * [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
     * [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
