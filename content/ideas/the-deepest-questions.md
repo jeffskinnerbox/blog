@@ -248,6 +248,7 @@ An attempt to connect different "continents" of mathematics
 * [The unreasonable effectiveness of complex numbers in discrete math](https://www.youtube.com/watch?v=bOXCLR3Wric)
 
 * [Complex numbers are essential in quantum theory, experiments reveal](https://physicsworld.com/a/complex-numbers-are-essential-in-quantum-theory-experiments-reveal)
+* [Why do Electrical Engineers use imaginary numbers in circuit analysis?](https://www.youtube.com/watch?v=FCNHN7B9iDM)
 
 * [Infinity in Numbers — Leonhard Euler](https://www.cantorsparadise.com/the-pursuit-of-truth-and-beauty-in-a-timeless-universe-part-1-baca94d9e587)
 * [The Most Beautiful Equation in the World And the Geometry of Numbers](https://www.cantorsparadise.com/the-most-beautiful-equation-in-the-world-5ab6e49c363)
