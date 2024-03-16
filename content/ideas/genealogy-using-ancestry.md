@@ -15,5 +15,16 @@ Version:      0.0.0
 * [Convert GEDCOM To Spreadsheet - Without Technical Knowhow](https://www.youtube.com/watch?v=crJ04yZvlZg)
 * [Ancestry Trees](https://www.youtube.com/playlist?list=PLWkZi-fU7i-zxt0AEwSW2EeFU77QcLstY)
 
+
+
+
+# Ancestry 'How To'
+The following are things you should do ...
+
+* [Turning Matches On or Off](https://support.ancestry.com/s/article/Choosing-not-to-be-Listed-as-an-AncestryDNA-Match)
+* [Linking a Tree to AncestryDNA® Results](https://support.ancestry.com/s/article/Linking-an-AncestryDNA-Test-to-a-Tree)
+
+* [Connect with Other Ancestry Members ft. Crista Cowan #Shorts | Ancestry](https://www.youtube.com/watch?v=x9ypuDOJ5fs)
+
 * [Ancestry: Requesting a Download of Your Account Data](https://support.ancestry.com/s/article/Requesting-a-Download-of-Your-Account-Data?language=en_US)
 
