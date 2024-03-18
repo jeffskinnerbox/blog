@@ -22,6 +22,8 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 * [Arduino Nano ESP32 LED matrix precision clock](https://www.hackster.io/marcozonca/arduino-nano-esp32-led-matrix-precision-clock-fd1b6)
 * [Self-Setting Big Clock Build with Nano ESP32 and MicroPython](https://www.hackster.io/doug-domke/self-setting-big-clock-build-with-nano-esp32-and-micropython-45153e)
 
+* [SeitanClock - NTP clock based on ESP 12F (ESP8266)](https://github.com/Seitanas/SeitanClock)
+
 
 
 
