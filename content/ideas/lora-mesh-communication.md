@@ -19,6 +19,12 @@ Version:      0.0.0
 * [Controlling Things Over a LoRa Mesh](https://www.hackster.io/scottpowell69/controlling-things-over-a-lora-mesh-2ea623)
 * [Building A Communications Grid With LoRaType](https://hackaday.com/2023/03/13/building-a-communications-grid-with-loratype/)
 
+# Reticulum
+Reticulum is the cryptography-based networking stack for building local and wide-area networks with readily available hardware. Reticulum can continue to operate even in adverse conditions with very high latency and extremely low bandwidth.
+
+* [RNODE: A Portable Unrestricted Digital Radio](https://hackaday.com/2024/03/18/rnode-a-portable-unrestricted-digital-radio/)
+* [Using RNodes With Amateur Radio Software](https://unsigned.io/guides/2020_05_03_using_rnodes_with_amateur_radio_software.html)
+
 # Meshtastic
 [Meshtastic][01] is a project that lets you use inexpensive ($30 ish) GPS radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.
 
