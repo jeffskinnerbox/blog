@@ -55,6 +55,8 @@ Can this clock be hacked so you can control its precision time source? - La Cros
 * [Spy Stations](https://www.youtube.com/user/insmaorg/videos)
 * [The Secret Government Radio Signals I Heard Today!](https://www.youtube.com/watch?v=kvkSXuOfpSQ)
 
+* [CREATING A NUMBERS STATION OF YOUR VERY OWN](https://hackaday.com/2024/03/17/creating-a-numbers-station-of-your-very-own/)
+
 ## United States Number Stations
 * [The USA's Numbers Station Was Traced To This Secret Facility](https://www.youtube.com/watch?v=EbtpE0VbndI)
     * [38°31'09.8"N 77°47'06.2"W  / 38.519391, -77.785059](https://www.google.com/maps/place/38%C2%B031'09.8%22N+77%C2%B047'06.2%22W/@38.519391,-77.787253,1045m/data=!3m2!1e3!4b1!4m14!1m7!3m6!1s0x89b684c17f30a1a5:0x74e5c8347557f464!2sRemington,+VA!3b1!8m2!3d38.5337354!4d-77.8083266!3m5!1s0x0:0x9def07ec514f17a6!7e2!8m2!3d38.5193911!4d-77.7850589)
