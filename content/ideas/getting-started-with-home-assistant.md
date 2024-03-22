@@ -2028,7 +2028,7 @@ Lovelace is the Home Assistant frontend/UI and can be customize to fit your need
 * **Custom UI Cards** - Lovelace allows people to build custom cards on top of it, which you can easily add to your instance.
 * **Alternative Dashboards** -
 
-* [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
+* [Home Assistant Demo](https://demo.home-assistant.io/)
 * [Setting up Home Assistant Lovelace UI](https://www.youtube.com/watch?t=652&v=QEtX0uboxQA&feature=youtu.be)
 * [EASY Lovelace Mobile Dashboard](https://youtu.be/5y6rhwr5Y8c)
 * [Creating a Beautiful Home Assistant Mobile Dashboard Easily](https://www.youtube.com/watch?v=gouMnPxYHDc)
