@@ -2040,6 +2040,8 @@ Lovelace is the Home Assistant frontend/UI and can be customize to fit your need
 * [How to Add Custom Panels in Home Assistant](https://www.digiblur.com/2020/12/how-to-add-custom-panels-in-home.html)
 * [Customize Your Dashboard with CUSTOM BUTTON CARDS in Home Assistant](https://www.youtube.com/watch?v=SEyrcLq8pRo)
 
+* [Making an E-paper Dashboard with ESPHome](https://www.youtube.com/watch?v=qJuF58CjwIA)
+
 # Home Asssistant Control of Media
 * [Home Assistant Media Dashboard - Control Media Center in ONE app](https://www.youtube.com/watch?v=b0GjA_rNxZ8)
 
