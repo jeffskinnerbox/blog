@@ -384,6 +384,8 @@ This database is comprised of a country directory with summaries and/or links to
 
 ## What is Remote ID?
 * [It's Here to Stay - Remote ID](https://www.youtube.com/watch?v=DaAwNsViA-A)
+* [How to update your Remote ID registration on the FAA DroneZone](https://www.youtube.com/watch?v=y-NPOopp93g)
+* [CHEAPEST and SMALLEST FAA Remote ID Module for Drones - Holy Stone HSRID01](https://www.youtube.com/watch?v=CY4syImI9xg)
 
 * [What is Remote ID?](https://drone-remote-id.com/)
 * [RemoteID: Fight It? Ignore It? Comply with it?! Turns out it doesn't matter.](https://www.youtube.com/watch?v=Kt_uEgF5ikE&t=0s)
