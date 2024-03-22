@@ -1981,6 +1981,8 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
 * [Custom Voice Control Sentences in Home Assistant](https://www.mostlychris.com/custom-voice-control-sentences-in-home-assistant/)
 
+* [Your Voice Assistant Doesn’t Have To Be Cloudy](https://hackaday.com/2024/03/21/your-voice-assistant-doesnt-have-to-be-cloudy/)
+
 ### Piper - Open Source Text-to-Speech & Voice Cloning
 * [Piper is our new voice for the Open Home](https://building.open-home.io/piper-is-our-new-voice-for-the-open-home/)
 * [Raspberry Pi | Local TTS | High Quality | Faster Realtime with Piper TTS](https://www.youtube.com/watch?v=rjq5eZoWWSo)
