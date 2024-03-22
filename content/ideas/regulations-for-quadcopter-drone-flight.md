@@ -383,6 +383,8 @@ This database is comprised of a country directory with summaries and/or links to
 * [Global Drone Regulations Database](https://droneregulations.info/)
 
 ## What is Remote ID?
+* [It's Here to Stay - Remote ID](https://www.youtube.com/watch?v=DaAwNsViA-A)
+
 * [What is Remote ID?](https://drone-remote-id.com/)
 * [RemoteID: Fight It? Ignore It? Comply with it?! Turns out it doesn't matter.](https://www.youtube.com/watch?v=Kt_uEgF5ikE&t=0s)
 * [TOP 18 Remote ID for Drones Questions ANSWERED -LIVE with the FAA](https://www.youtube.com/watch?v=_GkvNlRYtqc)
