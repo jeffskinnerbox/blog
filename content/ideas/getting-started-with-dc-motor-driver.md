@@ -179,6 +179,10 @@ often a dedicated module designed specifically for use with servomotors.
 * [Wrangling RC Servos Becoming a Hassle? Try Serial Bus Servos!](https://hackaday.com/2018/07/05/wrangling-rc-servos-becoming-a-hassle-try-serial-bus-servos/)
 * [Teaching A DC Servo Motor To Act Like A Stepper](https://hackaday.com/2022/01/01/teaching-a-dc-servo-motor-to-act-like-a-stepper/)
 
+# Precision Control of Servo Motor
+* [Vastly Improved Servo Control, Now Without Motor Surgery](https://hackaday.com/2024/03/21/vastly-improved-servo-control-now-without-motor-surgery/)
+    * [GitHub: adamb314 / ServoProject](https://github.com/adamb314/ServoProject)
+
 
 -----
 
