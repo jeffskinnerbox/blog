@@ -30,6 +30,7 @@ What should I do with them?
 
 **Retro-Gaming**
 * [MINI “GAMING PC” NAILS THE LOOK, STREAMS THE GAMES](https://hackaday.com/2020/06/29/mini-gaming-pc-nails-the-look-streams-the-games/)
+* [How to install Steam on Raspberry Pi](https://www.xda-developers.com/install-steam-on-raspberry-pi/)
 
 * [Install Batocera On The Raspberry Pi 4 Full Setup Guide - Retro Gaming Goodness!](https://www.youtube.com/watch?v=5Jr-0UjgC8I)
 * [RetroPie 4.8 Setup and Install Guide for the Raspberry Pi](https://www.youtube.com/watch?v=-1d_alZNmwU)
@@ -154,6 +155,10 @@ A Connection Machine (CM) is a member of a series of massively parallel supercom
 * [External design of CM-1 and CM-2 model](https://upload.wikimedia.org/wikipedia/commons/9/96/Computer_Museum_of_America_%2851%29.jpg)
 * [Little Desktop Connection Machine](https://learn.adafruit.com/little-connection-machine?embeds=allow)
     * [3D Printing](https://learn.adafruit.com/little-connection-machine/3d-printing)
+
+## Macintosh Plus
+Full size Macintosh Plus !!
+* [Entirely accurate 3D-printed Mac Plus built in these 29 painstaking steps](https://arstechnica.com/gadgets/2024/03/3d-printed-mac-replica-is-a-maker-masterwork-inside-an-entirely-accurate-shell/)
 
 
 ------
