@@ -111,6 +111,9 @@ QEngine is our software library for quantum simulation and - optimization.
     * [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
         * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
     * [Tensor Calculus](https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_)
+* Quantum Physics
+    * DONE - [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
+    * [Quantum Physics](https://www.youtube.com/watch?v=qtIsYbYdzCI&list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
 * Quantum Mechanics
     * [The Maths of Quantum Mechanics in 13 Minutes | Functional Operators and Fourier Transforms](https://www.youtube.com/watch?v=thRKIYr9LwQ&list=PL748m8SU9Q0cwbh4YDrZCgcNTXVZHwRBc&index=5)
     * [The math trick that revolutionized physics](https://www.youtube.com/watch?v=gXeAp_lyj9s) - DONE
