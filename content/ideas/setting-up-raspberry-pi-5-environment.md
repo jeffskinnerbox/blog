@@ -19,6 +19,7 @@ Other things to consider:
 
 
 
+* [My Raspberry Pi 5 is a delight, and I'm excited about all its future uses](https://www.pocket-lint.com/raspberry-pi-5-review/)
 * [Raspberry Pi 5 review: A huge upgrade for the tiny single-board computer](https://www.pcworld.com/article/2219346/raspberry-pi-5-review.html)
 * [Raspberry Pi 5 review: The first Pi that can truly serve as a desktop](https://www.expertreviews.co.uk/raspberry-pi-foundation/raspberry-pi-5-review)
 * [Raspberry Pi 5 vs N100 PC (featuring Ubuntu 23.10)](https://www.youtube.com/watch?v=hekzpSH25lk)
