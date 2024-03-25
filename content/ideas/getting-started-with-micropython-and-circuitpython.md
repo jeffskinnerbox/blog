@@ -237,7 +237,7 @@ For CircutiPython, we should consider adding additional tool,
 the [Mu Editor][33] and/or [Thonny IDE][27].
 
 ##### Install Mu
-Mu is a vey simple editor create specifically for beginner Python programmers.
+Mu is a very simple editor create specifically for beginner Python programmers.
 
 ```bash
 # download the AppImage
@@ -961,6 +961,7 @@ Here is what I did:
 mkdir ~/Downloads/circuitpython
 cd ~/Downloads/circuitpython
 
+# find all the circuitpython libaries at https://circuitpython.org/downloads
 # micropython - get the esp32 firmware you wish to use, multiple possibilities listed here
 wget https://downloads.circuitpython.org/bin/doit_esp32_devkit_v1/en_US/adafruit-circuitpython-doit_esp32_devkit_v1-en_US-8.2.9.bin            # for DOIT ESP32 Development Board - https://circuitpython.org/board/doit_esp32_devkit_v1/
 wget https://downloads.circuitpython.org/bin/seeed_xiao_esp32c3/en_US/adafruit-circuitpython-seeed_xiao_esp32c3-en_US-8.2.9.bin                # for Seeed Studio XIAO ESP32C3 - https://circuitpython.org/board/seeed_xiao_esp32c3/
