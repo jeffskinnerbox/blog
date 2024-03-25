@@ -116,6 +116,16 @@ The Rich API makes it easy to add color and style to terminal output. Rich can a
 -------
 
 
+# Check for Issues with Dependencies
+[`deptry`](https://deptry.com/) is a command line tool to check for issues with dependencies in a Python project, such as unused or missing dependencies.
+It supports the following types of projects:
+
+* Projects that use [Poetry](https://python-poetry.org/) and a corresponding pyproject.toml file
+* Projects that use [PDM](https://pdm-project.org/latest/) and a corresponding pyproject.toml file
+* Projects that use any package manager that strictly follows [PEP 621](https://peps.python.org/pep-0621/) dependency specification
+* Projects that use a `requirements.txt` file according to the [pip](https://pip.pypa.io/en/stable/user_guide/) standards
+
+
 
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 * [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
