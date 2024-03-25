@@ -219,18 +219,14 @@ E.164
 
 * Similar Products
     * [Basic 3-Channel Intercom System Set](http://www.gadgetshack.com/three-channel-basic-wired-intercom-system.html)
-    * []()
 * Inexpensive WiFi Chips
     * [Atmel Announces SmartConnect WiFi Modules](http://hackaday.com/2014/03/01/atmel-announces-smartconnect-wifi-modules/)
     * [A breakout board for a tiny WiFi chip](http://hackaday.com/2013/01/27/a-breakout-board-for-a-tiny-wifi-chip/)
     * [Finally, TI is producing simple, cheap WiFi modules](http://hackaday.com/2013/01/12/finally-ti-is-producing-simple-cheap-wifi-modules/)
-    * []()
 * Getting Started
     * [How VoIP Works](http://computer.howstuffworks.com/ip-telephony.htm)
     * [SIP Introduction](http://www.iptel.org/sip/intro)
     * [SIP: More Than You Ever Wanted To Know About](http://www.iptel.org/files/sip_tutorial.pdf)
-    * []()
-    * []()
 * HowTo Guides on Build your own VoIP System
     * [VoIP HOWTO: Asterisk, SIP, FreePBX, and geekery](http://axfp.org/voip-howto-asterisk-sip-freepbx-and-geekery/)
     * [Build your own VoIP System – Part 1: The Basics](http://www.sipwise.com/news/technical/byov-services-1/)
@@ -241,8 +237,11 @@ E.164
     * [How to Build Your Own Home Phone Server](http://www.maximumpc.com/article/how-tos/how_build_your_own_home_phone_server)
     * [Incredible PBX for RasPBX](http://www.raspberry-asterisk.org/)
     * [The Perfect Stocking Stuffer: Incredible PBX for the Raspberry Pi Gets a Facelift](http://nerdvittles.com/?p=8178)
-    * []()
-    * []()
+* Rotary Phone Support
+    * [A Dial Phone SIPs Asterisk](https://hackaday.com/2024/03/24/a-dial-phone-sips-asterisk/)
+    * [Grandstream GS-HT802](https://www.grandstream.com/products/gateways-and-atas/analog-telephone-adaptors/product/ht802)
+    * [Twillo](https://pages.twilio.com/twilio-brand-sales-namer-1) - Twilio Inc. is an American cloud communications company based in San Francisco, California, which provides programmable communication tools for making and receiving phone calls, sending and receiving text messages, and performing other communication functions using its web service APIs.
+        * [Twilio Elastic Sip Trunking](https://www.twilio.com/en-us/sip-trunking)
 * SIP VoIP Client (aka SoftPhone, Video Conferencing, and/or Instant Messenger Application)
     * [SIP Phones](http://www.pernau.at/kd/voip/bookmarks-sip-phones.html)
     * [Linphone](http://www.linphone.org/)
@@ -250,7 +249,6 @@ E.164
     * [Jitsi - audio/video and chat communicator](https://jitsi.org/)
     * [SFLphone](http://sflphone.org/)
     * [Blink](http://icanblink.com/)
-    * []()
 * SIP Proxy / Server
     * [OpenSIPS](http://www.opensips.org/)
     * [Open Source VoIP Software](http://www.voip-info.org/wiki/view/Open+Source+VOIP+Software)
@@ -258,30 +256,20 @@ E.164
     * [Kamailio - an Open Source SIP Server](http://www.kamailio.org/w/)
         * [Run your own Skype-like service in less than one hour](http://kb.asipto.com/kamailio:skype-like-service-in-less-than-one-hour)
     * [GNU SIP Witch](http://www.gnu.org/software/sipwitch/)
-    * []()
-    * []()
 * Command Line SIP VoIP Client
     * [Linphonec and linphonecsh](http://www.linphone.org/eng/documentation/guide/linphonecsh-control.html)
     * [pjsua - command line SIP soft phone](http://www.pjsip.org/pjsua.htm)
-    * []()
-    * []()
 * Free SIP Service
     * [SIP2SIP](www.sip2sip.info/)
         * [Phone Number for Sip2Sip](http://www.flynumber.com/virtual-number/Sip2Sip-ITSP)
         * [AG Project](http://www.ag-projects.com/services-products-211/276?task=view)
     * [IPKall Signup](http://phone.ipkall.com/)
     * [Linphone free SIP service](http://www.linphone.org/eng/linphone/register-a-linphone-account.html)
-    * []()
-    * []()
 * SIP / VoIP Software Library
     * [PJSIP](http://www.pjsip.org)
-    * []()
-    * []()
 * Voice Chat Application for Gaming
     * [TeamSpeak (not open source / not free)](http://www.teamspeak.com/)
     * [Mumble](http://mumble.sourceforge.net/)
-    * []()
-    * []()
 * Intercom Speaker
     * [Kinyo ArtDio True USB VoIP Conference Speaker with Integrated Microphone](http://www.amazon.com/72-SS100-Conference-Speaker-Integrated-Microphone/dp/B00ASHRVFC)
         * [Also see for $9.19](http://www.pokernationusa.com/artduor-true-usb-voip-conference-speaker-with-integrated-microphone.html?source=googleps)
@@ -289,21 +277,16 @@ E.164
     * [USRobotics USB Internet Speakerphone (USR9610)](http://www.amazon.com/USRobotics-USB-Internet-Speakerphone-USR9610/dp/B000E6IL10/ref=sr_1_fkmr0_1?s=electronics&ie=UTF8&qid=1392151839&sr=1-1-fkmr0&keywords=US+Robotics+USR809610+USB+VoIP+Internet+Speakerphone)
         * [USRobotics USB Internet Speakerphone - Quick Installation Guide](http://support.usr.com/support/9610/9610-files/9610-na-ig.pdf)
     * [mVox USB Speakerphone](http://www.amazon.com/mVox-MV100-USB-Speakerphone/dp/B0007W2E64/ref=pd_sim_sbs_e_1)
-    * []()
-    * []()
 * USB to WiFi Bridge (How can I connect any USB device to my computer wirelessly?)
     * [TP-Link TL-WN822N 300 Mbps Wireless N USB Adapter](http://www.amazon.com/dp/B00416Q5KI/?tag=googhydr-20&hvadid=34600705728&hvpos=1o1&hvexid=&hvnetw=g&hvrand=25551089692659868&hvpone=&hvptwo=&hvqmt=b&hvdev=t&ref=pd_sl_7pmo06p6a5_b)
     * [OpenWRT on TP-Link TL-WR703N](http://wiki.openwrt.org/toh/tp-link/tl-wr703n)
     * [Edimax EW-7811Un 150 Mbps Wireless 11n Nano Size USB Adapter](http://www.amazon.com/Edimax-EW-7811Un-Wireless-Adapter-Wizard/dp/B003MTTJOY/ref=pd_bxgy_pc_text_y)
     * [Wireless USB Hub and Adapter Kit](http://www.iogear.com/product/GUWH204KIT/?ClickID=c7nlv4zxefsezzi7f7qz7f4k74aiianllzxz)
-    * []()
 * Books, Tutorials, Specifications, etc.
     * [Multimedia Service Platform](http://www.ag-projects.com/)
     * [VoIP Hacks: Tips & Tools for Internet Telephony](http://www.amazon.com/VoIP-Hacks-Tools-Internet-Telephony-ebook/dp/B002SR2QJG/ref=sr_1_1?ie=UTF8&qid=1392153828&sr=8-1&keywords=VoIP+Hacks%3A+Tips+%26+Tools+for+Internet+Telephony)
     * [Detail Flow Chart for SIP Call](http://www.in2eps.com/fo-sip/tk-fo-sip-ex3261.html)
     * [Description of Voice Over IP Protocols](http://www.protocols.com/pbook/VoIPFamily.htm)
-    * []()
-    * []()
 
 
 
