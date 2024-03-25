@@ -31,6 +31,9 @@ Version:      0.0.0
 * [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
 
 * [Nicla Vision](https://www.sparkfun.com/products/19728)
+    * [Getting Started With Arduino Nicla Vision](https://www.okdo.com/getting-started/get-started-with-arduino-nicla-vision/)
+    * [Nicla Voice](https://www.sparkfun.com/products/21219)
+    * [Nicla Sense ME](https://www.sparkfun.com/products/19727)
 
 
 
