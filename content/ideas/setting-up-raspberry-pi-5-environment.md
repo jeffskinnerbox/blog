@@ -12,10 +12,32 @@ Version:      0.0.0
 -----
 
 
-On Feburary 1st, I ordered  in late January a **Pi 5 + active cooler + GNSS add on Module for Seeed Studio XIAO** via Seeed Studio.  Expect delivery mid-March.
-Other things to consider:
-* Tensor Processing Unit (TPU)
-* NVMe SSD
+|:-----------------------------------------------|:-------------------|:------:|
+| [Raspberry Pi 5 / 8GB RAM][01]                 | [Seeed Studio][AA] |  $ 80  |
+| [Raspberry Pi Active Cooler][02]               | [Seeed Studio][BB] |  $  5  |
+| [Tensor Processing Unit (TPU)][03]             | [Amazon][CC]       |  $ 89  |
+| [Coral M.2 Accelerator with Dual Edge TPU][04] | [Amazon][DD]       |  $ 85  |
+| M.2 NVMe SSD                                   |                    |        |
+| 27W USB-C Power Supply                         |                    |        |
+|                                                |                    |        |
+|                                                |                    |        |
+
+[01]:https://www.raspberrypi.com/products/raspberry-pi-5/
+[02]:https://www.raspberrypi.com/products/active-cooler/
+[03]:https://cloud.google.com/tpu/docs/intro-to-tpu
+[04]:https://pi3g.com/products/machine-learning/google-coral/coral-m-2-accelerator-with-dual-edge-tpu/
+[05]:
+
+[AA]:https://www.seeedstudio.com/Raspberry-Pi-5-8GB-p-5810.html
+[BB]:https://www.seeedstudio.com/Raspberry-Pi-Active-Cooler-p-5813.html
+[CC]:https://www.amazon.com/dp/B07S214S5Y
+[DD]:https://www.amazon.com/dp/B08KTSGN7F/
+
+
+
+
+
+
 
 
 
