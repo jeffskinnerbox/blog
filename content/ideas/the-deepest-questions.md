@@ -968,6 +968,7 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 
 * [Bayesian Vs. Frequentist Statistics](https://www.youtube.com/watch?v=CfIJjKEmrd4)
 * [P-Values Explained](https://www.youtube.com/watch?v=scSqDj0regU)
+* [Probability Is Not Frequentist, Nor Math, Nor Real, Nor Subjective](https://www.wmbriggs.com/post/51043/)
 
 * [How Did These Everyday Statistical Concepts Happen to Be the Way They Are?](https://medium.com/codex/how-did-these-everyday-statistical-concepts-happen-to-be-the-way-they-are-24cc9085d066)
 * [How the Average Triumphed Over the Median](https://priceonomics.com/how-the-average-triumphed-over-the-median/)

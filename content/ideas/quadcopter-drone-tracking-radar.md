@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # John Kraft's Phaser
+* [Build Your Own Radar](https://www.youtube.com/playlist?list=PLxC4LYGYcMqmPDEr8E8AlktQPcuHx4izm)
 * [Build Your Own Drone Tracking Radar: Part 1](https://www.youtube.com/watch?v=igrN_wd_g74)
     * [GitHub: jonkraft/PhaserRadarLabs](https://github.com/jonkraft/PhaserRadarLabs)
     * [Phased Array (Phaser) Development Platform](https://www.analog.com/en/design-center/reference-designs/circuits-from-the-lab/cn0566.html)
@@ -26,4 +27,6 @@ MIT Lincoln Laboratory offers this 3-week course in the design, fabrication, and
 # Learning Materials
 * [Small and Short-Range Radar Systems](https://www.barnesandnoble.com/w/small-and-short-range-radar-systems-gregory-l-charvat/1125881986)
 
+# Drone Tracking
+* [Drone Tracking 5.8 GHz FMCW Radar System (2020 IEEE AP-S SDC Presentation)](https://www.youtube.com/watch?v=WgrIyNBx-kM)
 
