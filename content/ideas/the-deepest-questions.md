@@ -976,6 +976,7 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 
 * [Frequentism and Bayesianism: What's the Big Deal? | SciPy 2014 | Jake VanderPlas](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [IS CHESS A GAME OF CHANCE? Classical vs Frequentist vs Bayesian Probability](https://www.youtube.com/watch?v=dejy4PPCFHY)
+* [In Continued Defense Of Non-Frequentist Probabilities](https://www.astralcodexten.com/p/in-continued-defense-of-non-frequentist)
 
 ## Visualizing Bayes Theorem
 * [Bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
