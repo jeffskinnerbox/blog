@@ -21,7 +21,18 @@ Version:      0.0.0
 # What About Pip?
 * [Python Basics Exercises: Installing Packages With pip](https://realpython.com/courses/basics-exercises-install-packages-with-pip/)
 
-# What About Anaconda?
+# What is the Difference Between Miniconda and Anaconda?
+The main difference between Anaconda and Miniconda lies in their size and the number of pre-installed packages. Anaconda is larger and comes with a vast array of pre-installed packages, while Miniconda is smaller and only includes Conda and Python.
+
+Anaconda is a free and open-source distribution of Python and R programming languages. It’s widely used in scientific computing, data science, machine learning, and related fields. Anaconda simplifies package management and deployment, making it easier for you to manage your Python environment.
+Anaconda comes with over 1,500 pre-installed packages, including popular ones like NumPy, Pandas, and Matplotlib. It also includes Conda, a powerful package manager and environment manager.
+While Python is a versatile programming language that can be used for a wide range of applications, Anaconda provides a more specialized environment for machine learning and data science, with pre-installed packages and a package manager that make it easier to manage dependencies and resolve conflicts between packages.
+
+Miniconda is a smaller, “minimal” version of Anaconda. It includes only Conda and Python, without any additional packages pre-installed.
+Miniconda is lightweight and quick to install, making it a great choice if you’re working with limited disk space or only need specific packages.
+
+* [Anaconda vs. Miniconda: A Guide for Data Scientists](https://saturncloud.io/blog/anaconda-vs-miniconda-a-guide-for-data-scientists/)
+
 * [Anaconda](https://www.anaconda.com/distribution/)
 * [Anaconda Python Tutorial: Everything You Need to Know](https://dzone.com/articles/python-anaconda-tutorial-everything-you-need-to-kn)
 * [Getting started with Anaconda Python for data science](https://opensource.com/article/18/4/getting-started-anaconda-python)
@@ -33,6 +44,9 @@ Version:      0.0.0
 * [Jupyter Standalone Might Just Be Better Than Anaconda](https://towardsdatascience.com/jupyter-standalone-might-just-be-better-than-anaconda-53104da05eee)
 * []()
 * []()
+
+# What About Anaconda and Raspberry Pi?
+* [Installing Anaconda Python Distribution on Raspberry Pi](https://www.youtube.com/watch?v=fYPr43YhTMM&t=185s)
 
 # Ephemeral Environments
 Ephemeral - something that lasts for a very short time
