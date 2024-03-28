@@ -8,6 +8,7 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+
 -----
 
 
@@ -23,6 +24,11 @@ Version:      0.0.0
     * [Fluidd](https://docs.fluidd.xyz/)
 * [How To Install Klipper 3D Printing Firmware On Raspberry Pi](https://www.slashgear.com/1512011/how-to-install-flipper-3d-printing-firmware-raspberry-pi/)
 * [Review of BIGTREETECH Pad 7 Klipper pad with Creality Ender-3 Pro S1 3D printer](https://www.cnx-software.com/2023/05/29/review-of-bigtreetech-pad-7-klipper-pad-with-creality-ender-3-pro-s1-3d-printer/)
+* [Klipper: Macros – Simply Explained](https://all3dp.com/2/klipper-macros-simply-explained/)
+* [Mainsail](https://docs.mainsail.xyz/)
+* [Moonraker](https://moonraker.readthedocs.io/en/latest/)
+
+* [AI & 3D Printing: The Latest Experiments](https://all3dp.com/2/ai-3d-printing-3d-printer/)
 
 
 
