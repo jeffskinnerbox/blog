@@ -12,6 +12,13 @@ Version:      0.0.0
 -----
 
 
+* [The Best Raspberry pi 5 Case Is here! Argon NEO 5 BRED Hands On](https://www.youtube.com/watch?v=4FQFgsnKvYM)
+    * [Argon NEO 5 BRED for Raspberry Pi 5](https://www.amazon.com/Argon-NEO-BRED-Raspberry-Pi/dp/B0CP3MGMTD)
+* [Unleash the power of the Raspberry Pi 5 - 1TB NVME and Argon ONE NVME case](https://www.youtube.com/watch?v=kmgTrwNmZV8)
+    * [Argon ONE V3 M.2 NVME PCIE Case](https://argon40.com/products/argon-one-v3-m-2-nvme-case)
+    * [Argon NEO 5 M.2 NVME PCIE Case for Raspberry Pi 5](https://argon40.com/products/argon-neo-5-m-2-nvme-for-raspberry-pi-5)
+
+
 |:-----------------------------------------------|:-------------------|:------:|
 | [Raspberry Pi 5 / 8GB RAM][01]                 | [Seeed Studio][AA] |  $ 80  |
 | [Raspberry Pi Active Cooler][02]               | [Seeed Studio][BB] |  $  5  |
@@ -104,8 +111,13 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 * Coral USB TPU 👉 https://amzn.to/3vUkUJH
 * Coral PCIe TPU 👉 https://amzn.to/3vLKfVW
 
+* [Coral: Hardware & Software](https://coral.ai/)
+
 # NVMe SSD
 * [FINALLY! NVMe SSDs on the Raspberry Pi](https://www.youtube.com/watch?v=EXWu4SUsaY8)
 * [Raspberry Pi 5 M.2 HatDrive!](https://www.youtube.com/watch?v=B9OwWnAftb4)
 * [Raspberry Pi 5 with 2TB NVME SSD Geekworm Shield](https://www.youtube.com/watch?v=IUxP31rNRY4)
+
+# TensorFlow
+* [Install TensorFlow on Raspberry 64 OS](https://qengineering.eu/install-tensorflow-on-raspberry-64-os.html)
 
