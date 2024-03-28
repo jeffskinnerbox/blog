@@ -124,6 +124,7 @@ See `/home/jeff/cad/intel-286-pc/README.md`.
 * [Mint condition trashpicked 19" color TV (Toshiba C771T)](https://www.youtube.com/watch?v=igwRNYgOA_A)
 * [Fantastic Mr David](https://fantasticmrdavid.com.au/work/retrotv)
 
+* [Cat TV with Raspberry Pi](https://beckystern.com/2024/03/03/cat-tv-with-raspberry-pi/)
 * [Making a Cat TV with Raspberry Pi](https://blog.adafruit.com/2024/03/07/making-a-cat-tv-with-raspberry-pi-raspberrypi-raspberry_pi-bekathwia/)
 
 TV programs from 1978 ...
