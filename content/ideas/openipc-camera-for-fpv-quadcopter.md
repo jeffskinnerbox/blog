@@ -43,6 +43,11 @@ and see [World’s Cheapest VRX with H265 compatible with all goggles! OpenIPC F
 and see [Introducing OpenIPC VRX Ground Station, the cheapest digital long range FPV system in the world](https://www.youtube.com/watch?v=aXJQIoBKjVE)
 * OSD - [Mavlink OSD and video player for wfb-ng](https://github.com/svpcom/wfb-ng-osd)
 
+## OpenIPC on Radxa Zero 3w
+* [Introducing OpenIPC Radxa Zero 3w - World’s Smallest 120fps VRX Video Tutorial Part 1](https://www.youtube.com/watch?v=vAt1kez--YA)
+* [Radxa Zero 3W: Raspberry Pi Zero 2 W alternative debuts with faster chip, up to 8 GB RAM](https://www.notebookcheck.net/Radxa-Zero-3W-Raspberry-Pi-Zero-2-W-alternative-debuts-with-faster-chip-up-to-8-GB-RAM.763526.0.html)
+* [Radxa Zero 3W](https://www.youtube.com/watch?v=BaH4BBij5N4) also sold as the Rock Zero 3W, and see [Orange Pi Zero 2W](https://www.youtube.com/watch?v=4o1TT0B42hs)
+
 # QGroundControl (QGC)
 * ["Getting Started" guide for QGroundControl (Planning a Mission)](https://www.youtube.com/watch?v=0d23O_RUOmI)
 * [OpenIPC FPV - Prepare GroundStation: Ubuntu + QGroundControl](https://www.youtube.com/watch?v=JMtRAsOm0Dc&t=1s)
