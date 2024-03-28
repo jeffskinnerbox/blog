@@ -12,6 +12,18 @@ Version:      0.0.0
 -----
 
 
+# LoLRa Project
+The LoLRa Project is a firmware-only LoRa transmission open-source project that works without a Semtech radio and instead relies on an I2S or SPI interface (so not exactly bit-banging) to transmit data with microcontrollers such as WCH CH32V003, or Espressif Systems ESP8266 and ESP32-S2 microcontrollers.
+
+* [LoLRa project – Transmitting LoRa packets without radio using CH32V003, ESP8266, or ESP32-S2 MCU](https://www.cnx-software.com/2024/03/28/lolra-project-transmitting-lora-packet-without-radio-using-ch32v003-esp8266-or-esp32-s2-mcu/)
+    * [How I broadcast LoRa packets WITHOUT a radio](https://www.youtube.com/watch?v=eIdHBDSQHyw)
+    * [GitHub: cnlohr/lolra](https://github.com/cnlohr/lolra)
+
+
+
+
+--------
+
 
 
 * [LoRa and The Things Network](https://mjoldfield.com/atelier/2022/07/lora-ttn.html)
@@ -23,7 +35,6 @@ Version:      0.0.0
 * [LoRaWAN with STM32 Getting Started Sries](https://www.youtube.com/watch?v=vuc6914B0KM&list=PLnMKNibPkDnHZyJtMRpWSs41CWhPouRwq)
 * [GLAMOS' Walker Is a Pocket-Sized Tool for Mapping Out LoRaWAN Network Coverage](https://www.hackster.io/news/glamos-walker-is-a-pocket-sized-tool-for-mapping-out-lorawan-network-coverage-ecfa2a56017e)
 * [Getting Started with LoRaWAN](https://www.dfrobot.com/blog-1656.html?tracking=64659bc71d293)
-* []()
 * [What is Lorawan Gateway?](https://wiki.dfrobot.com/What_is_Lorawan_Gateway)
 
 
@@ -75,6 +86,7 @@ that does not rely on infrastructure like [The Things Network (TTN)](https://www
 ## 	LoRaWAN Local Network
 * [Building A Local Network With LoRaWAN](https://hackaday.com/2022/10/22/building-a-local-network-with-lorawan/)
 * [ChirpStack, open-source LoRaWAN® Network Server](https://www.chirpstack.io/)
+
 
 
 --------
