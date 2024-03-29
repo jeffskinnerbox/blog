@@ -1274,6 +1274,7 @@ This part will measure eCO2 (equivalent calculated carbon-dioxide) concentration
 * [WiFi Sniffer as a Human detector](https://github.com/SensorsIot/Wi-Fi-Sniffer-as-a-Human-detector)
 * [Detect When a Device Is Nearby with the ESP8266 Friend Detector](https://null-byte.wonderhowto.com/how-to/detect-when-device-is-nearby-with-esp8266-friend-detector-0188642/)
 * [Making a DIY thermal camera based on a Raspberry Pi](https://habr.com/en/post/441050/)
+* [Mike Rankin's Compact Thermal Camera Packs a High-Performance Parallel Display in a Tiny Footprint](https://www.hackster.io/news/mike-rankin-s-compact-thermal-camera-packs-a-high-performance-parallel-display-in-a-tiny-footprint-1bb341d76bc7?mc_cid=d1f39994b8&mc_eid=9036129d51)
 
 
 
