@@ -394,6 +394,7 @@ Is this why or is it bull shit?
 
 # Quantum Error Correction
 * [How Quantum Computers Will Correct Their Errors](https://www.quantamagazine.org/how-quantum-computers-will-correct-their-errors-20211116)
+* [The Best Qubits for Quantum Computing Might Just Be Atoms](https://www.quantamagazine.org/the-best-qubits-for-quantum-computing-might-just-be-atoms-20240325/)
 
 # Negative Probability
 The probability axioms require that P(E)≥0 for every event E, and that the probability P(Ω) of the entire sample space is 1. So a system with negative probability, or probabilities greater than 1, does not satisfy the axioms of being a probability space.
