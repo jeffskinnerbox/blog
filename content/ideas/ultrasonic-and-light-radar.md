@@ -59,6 +59,13 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 * [Acconeer](https://www.acconeer.com/products)
 * [DesignCore RS-2944A mmWave Radar Sensor Eval Kit](https://linuxgizmos.com/d3s-production-intent-embedded-platform-with-radar-sensing-capabilities/)
 
+## Pulsed Coherent Radar Sensor
+Pulsed Coherent Radar Sensor isn't limited to surface detection; it can see through walls, cabinets, and even pockets (depending on the material), making it perfect for unique applications. Measure distances with millimeter precision, detect motion, the speed of an object, or even gestures!
+
+* [SparkFun Pulsed Coherent Radar Sensor - Acconeer XM125 (Qwiic)](https://www.sparkfun.com/products/24540)
+    * [Acconeer Exploration Tool](https://github.com/acconeer/acconeer-python-exploration)
+    * [Acconeer XM125 Hookup Guide](https://docs.sparkfun.com/SparkFun_Qwiic_Pulsed_Radar_Sensor_XM125/introduction/)
+
 # Ultrasonic Sonar
 * [Ultrasonic Sonar Detects Hidden Objects](https://hackaday.com/2021/04/02/ultrasonic-sonar-detects-hidden-objects/)
 * [Ultrasonic RAdar System (URAS): Arduino and Virtual Reality for a light-free mapping of indoor environments](http://www.ieeeprojectmadurai.in/Emp%20basepaper%202017-2018/Ultrasonic%20RAdar%20System%20(URAS)%20Arduino%20and%20Virtual.pdf)
