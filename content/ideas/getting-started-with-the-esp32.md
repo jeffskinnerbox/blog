@@ -121,6 +121,7 @@ ESP32-C3 is a single-core WiFi and Bluetooth 5 (LE) microcontroller SoC, based o
 
 * [HANDS-ON: THE RISC-V ESP32-C3 WILL BE YOUR NEW ESP8266](https://hackaday.com/2021/02/08/hands-on-the-risc-v-esp32-c3-will-be-your-new-esp8266/)
 * [Getting Started with Seeed Studio XIAO ESP32C3](https://wiki.seeedstudio.com/XIAO_ESP32C3_Getting_Started/)
+* [Seeed Unveils the Compact Matter-Ready XIAO ESP32C6 Dev Board](https://www.hackster.io/news/seeed-unveils-the-compact-matter-ready-xiao-esp32c6-dev-board-a43f5912dd2c)
 
 ### Seeeduino XIAO
 * [Seeeduino Xiao: Specs, Price, Release & Reviews](https://all3dp.com/2/seeeduino-xiao-review-specs/)
