@@ -882,7 +882,9 @@ what topic / skills do you need to master before or during the build?
 * [SRD-1 - 3D Printed Drone (Arduino + Raspberry)](https://www.element14.com/community/community/project14/attackofthedrones/blog/2021/05/25/srd-1-open-source-3d-printed-drone)
 
 ### ESP32 Drone
+* [ESPcopter: A Fully Customizable Drone](https://hackaday.com/2019/09/25/espcopter-a-fully-customizable-drone/)
 * [ESP32 Drone](https://hackaday.io/project/188578-esp32-drone)
+* [ESP-Drone: Building an ESP32-Based Quadcopter For Not Much Cash](https://hackaday.com/2024/03/31/esp-drone-building-an-esp32-based-quadcopter-for-not-much-cash/)
 
 ## First and Esay Flying
 * [A Drone for the Rest of Us](https://hackaday.com/2022/09/29/a-drone-for-the-rest-of-us/)
