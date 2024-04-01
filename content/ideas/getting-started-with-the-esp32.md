@@ -13,6 +13,11 @@ Version:      0.0.0
 
 
 
+# Choosing an ESP32
+* [ESP32 Guide 2024 | Choosing and Using an ESP32 Board](https://www.youtube.com/watch?v=u5unB24lhC4)
+
+
+
 # IMPORTANT - ESP32 Bluetooth Vulnerability
 * [Bluetooth Vulnerability: Arbitrary Code Execution On The ESP32, Among Others](https://hackaday.com/2021/09/23/bluetooth-vulnerability-arbitrary-code-execution-on-the-esp32-among-others/)
 
