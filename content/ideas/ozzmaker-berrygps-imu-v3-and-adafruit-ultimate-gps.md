@@ -1461,8 +1461,8 @@ deactivate
 # Setup for OzzMaker's BerryGPS
 
 Sources:
-    * [BerryGPS setup Guide for Raspberry PI][23]
-    * [BerryGPS and BerryGPS-IMU Quick Start Guide][22]
+* [BerryGPS setup Guide for Raspberry PI][23]
+* [BerryGPS and BerryGPS-IMU Quick Start Guide][22]
 
 
 
@@ -1602,6 +1602,11 @@ but because I will **not** be using `gpsd` with automatic start,
 I'll show another way with `netcat`.
 
 ## Sharing GPS Data Locally
+There are a number of ways to configure the Raspbery Pi for reciveing GPS data
+(for example, see [here][23] and [here][102]).
+I'm going to install the `gpsd` daemon, make it manageble from `systemctl`
+but choose to disable it and invoke it manually.
+This way, I have the option to fall back to `systemctl` management and have `gpsd` start at boot time.
 
 #### Step X: Install `gpsd` Daemon and Tools - DONE DONE
 The Linux utility [`gpsd`][04] is a daemon that receives data from a GPS receiver,
@@ -1650,10 +1655,10 @@ sudo systemctl disable gpsd gpsd.socket
 systemctl status gpsd gpsd.socket
 
 # updated gpsd configuration file
-#sudo sed -i 's/DEVICES=\"\"/DEVICES=\"\/dev\/serial0\"/' /etc/default/gpsd
+sudo sed -i 's/DEVICES=\"\"/DEVICES=\"\/dev\/serial0\"/' /etc/default/gpsd
 
 # reboot the rpi
-#sudo shutdown -r now
+sudo shutdown -r now
 ```
 
 You can start the `gpsd` manually and test out some tools via the following:
@@ -1669,6 +1674,9 @@ ps aux | grep gpsd
 # display current GNSS position/time/velocity information,
 # and for GNSS receivers that support the feature) the locations of accessible satellites
 cgps
+# OR
+# surpress scrolling NEMA messages on the screen
+cgps -s
 # OR
 # watch packets coming from a GPS and displays them along with diagnostic information
 gpsmon
