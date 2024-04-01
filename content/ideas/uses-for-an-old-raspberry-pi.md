@@ -178,6 +178,13 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 * [Time Synchronization in Embedded Systems, overview of gPTP (Precision Time Protocol)](https://www.youtube.com/watch?v=ZrujSridNpQ)
 * [Sync time in MicroPython - Tutorial](https://www.youtube.com/watch?v=eF8nKRV2GVs)
 
+# Telescope
+This is a working miniature observatory. It uses a Raspberry Pi computer for the brains, a Raspberry Pi RP2040 based microcontroller to control the movement, and the Raspberry Pi Hi Quality camera as the telescope.
+* [Pi-lomar - 3D Printed Working Miniature Observatory Using Raspberry Pi](https://www.instructables.com/Pi-lomar-3D-Printed-Working-Miniature-Observatory-/)
+
+
+
+------
 
 
 
