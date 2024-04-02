@@ -92,6 +92,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [DIY hobby servos quadruped robot](https://hackaday.io/project/171456-diy-hobby-servos-quadruped-robot)
 * [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
 * [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
+* [Fire Up The 3D Printer and Build Yourself a Spiderbot](https://hackaday.com/2024/04/01/fire-up-the-3d-printer-and-build-yourself-a-spiderbot/)
 
 # Pet Robot
 * [3D Printed Robot Wants To Be Your Pet](https://hackaday.com/2023/09/21/3d-printed-robot-wants-to-be-your-pet/)
