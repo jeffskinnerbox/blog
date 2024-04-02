@@ -631,6 +631,7 @@ A function is a relation that uniquely associates members of one set with member
 # What is Time
 * [Arrows of Time](https://www.quantamagazine.org/what-is-time-a-history-of-physics-biology-clocks-and-culture-20200504/)
 * [Does Time Really Flow? New Clues Come From a Century-Old Approach to Math](https://www.quantamagazine.org/does-time-really-flow-new-clues-come-from-a-century-old-approach-to-math-20200407/)
+* [Time’s Arrow Traced to Quantum Source](https://www.quantamagazine.org/quantum-entanglement-drives-the-arrow-of-time-scientists-say-20140416/)
 * [The New Thermodynamic Understanding of Clocks](https://www.quantamagazine.org/the-new-science-of-clocks-prompts-questions-about-the-nature-of-time-20210831/)
 
 # Thermodynamics and Machine Learning
