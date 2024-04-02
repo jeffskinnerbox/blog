@@ -219,10 +219,10 @@ Alexa, stop
 including and on-demand Movies & Shows or live TV, so you can enjoy it all in one app, on any device.
 
 Sources:
+* [Getting Started with Alexa Voice Control][48]
 * [Adding Music Media From Folders][47]
 * [How to Setup Plex Media Server On A Synology NAS](https://www.youtube.com/watch?v=1pt375GGAsE)
 * [How to play music you own on an Amazon Echo](https://www.techhive.com/article/583189/how-to-play-music-you-own-on-an-amazon-echo.html)
-* [Getting Started with Alexa Voice Control][48]
 * [Plex Media Server Setup Guide – Complete Beginners Guide](https://troypoint.com/plex-media-server-setup-guide/)
 * [Building A Music Server Using Plex Media Server | Part III](https://www.youtube.com/watch?v=UBiZzNMrU1Y)
 * [How to Port Forward in pfSense][50]
