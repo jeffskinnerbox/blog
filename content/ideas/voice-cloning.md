@@ -56,6 +56,7 @@ A volume unit (VU) meter or standard volume indicator (SVI) is a device displayi
 Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.
 
 * [Audacity](https://www.audacityteam.org/)
+* [Free AI Audio Tools You Won't Believe Exist](https://www.youtube.com/watch?v=COIS94vlffI)
 
 * [How to customize your voice assistant with the voice of your choice](https://opensource.com/article/21/1/customize-voice-assistant)
 
