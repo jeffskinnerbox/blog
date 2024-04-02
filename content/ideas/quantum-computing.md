@@ -480,10 +480,14 @@ Train a quantum computer the same way as a neural network.
 
 # Quantum Programming Languages
 * Python: Used to write quantum algorithms, Python is supported by numerous quantum computing frameworks, such as Ocean and Qiskit.
+* QuTiP: An open-source software for simulating the dynamics of open quantum systems. The QuTiP library depends on the excellent Numpy, Scipy, and Cython numerical packages.
 * Ocean: A set of quantum computing tools written in Python that include tools for simulating quantum computers, developing and executing quantum circuits, and running quantum algorithms.
 * Qiskit: An open-source quantum computing framework that’s also written in Python, Qiskit offers tools to enable you to create and execute quantum circuits, simulate quantum computers, and run quantum algorithms.
 * Q#: Developed by Microsoft, this quantum computing programming language is used to write quantum algorithms. It also integrates with Visual Studio and other Microsoft development tools.
 * Cirq: Developed by Google, Cirq is used to write quantum algorithms. It works with Google’s quantum computing framework
+
+## QuTiP
+* [Quantum Toolbox in Python (QuTiP)](https://qutip.org/)
 
 ## Ocean
 
