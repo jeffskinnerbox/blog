@@ -13,6 +13,8 @@ Version:      0.0.0
 
 As [Bohr said](https://www.goodreads.com/quotes/1293013-physics-is-not-about-how-the-world-is-it-is),
 “Physics is not about how the world is; it is about what we can say about the world.”
+[Christopher Fuchs describes physics as](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
+“a dynamic interplay between storytelling and equation writing. Neither one stands alone, not even at the end of the day.”
 The way I would put it .... The sciences are the stories we tell ourselves to orient us and structure our understanding of the world.  It's a mythos.
 
 # Some Interesting Websites
@@ -114,7 +116,8 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
 
 # Interpretation of Quantum Mechanics
-Quantum interpretations generally fall into two categories: psi-ontological and psi-epistemic.
+[Quantum interpretations](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics)
+generally fall into two categories: psi-ontological and psi-epistemic.
 
 * **Psi-ontological interpretation (aka ontic interpretation)** view the quantum state as real and existing independently of the observer.
     *  Many Worlds Interpretation (MWI)
@@ -132,6 +135,8 @@ QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechan
         * [Ancient physics: How Democritus predicted the atom](https://bigthink.com/hard-science/ancient-physics-democritus-predicted-atom/)
         * No. 1 - [Max Planck and how the dramatic birth of quantum physics changed the world](https://bigthink.com/13-8/max-planck-birth-quantum-physics/)
         * No. 2 -[Quantum jumps: How Niels Bohr’s idea changed the world](https://bigthink.com/13-8/quantum-jumps-niels-bohr-atom/)
+        * [The Einstein-Bohr legacy: can we ever figure out what quantum theory means?](https://bigthink.com/13-8/einstein-bohr-weirdness-quantum-mechanics/)
+        * [The Overlooked Experiment That Revealed the Quantum World](https://nautil.us/the-overlooked-experiment-that-revealed-the-quantum-world-482910/)
     * Particles and Waves
         * No. 3 - [The paradox of light goes beyond wave-particle duality](https://bigthink.com/13-8/quantum-nature-of-light/)
         * No. 4 - [Not just light: Everything is a wave, including you](https://bigthink.com/13-8/wave-particle-duality-matter/)
@@ -143,13 +148,16 @@ QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechan
         * No. 8 - [Einstein’s quantum ghost is here to stay](https://bigthink.com/13-8/einstein-quantum-ghost/)
         * No. 9 - [Could a hidden variable explain the weirdness of quantum physics?](https://bigthink.com/13-8/quantum-entanglement-hidden-variable/)
         * No. 10 -[The weirdness of quantum mechanics forces scientists to confront philosophy](https://bigthink.com/13-8/quantum-mechanics-philosophy/)
+    * Quantum Fields, Etc.
+        * [Why we need quantum fields, not just quantum particles](https://bigthink.com/starts-with-a-bang/quantum-fields-quantum-particles/)
+        * [10 quantum myths that need to be busted](https://bigthink.com/starts-with-a-bang/10-quantum-myths/)
     * QBism / Quantum Bayesianism
-        * [The Einstein-Bohr legacy: can we ever figure out what quantum theory means?](https://bigthink.com/13-8/einstein-bohr-weirdness-quantum-mechanics/)
+        * [A Private View of Quantum Reality](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
         * [What reality does quantum theory describe? QBism has a radical answer](https://bigthink.com/13-8/qbism-quantum-reality/)
         * [The “blind spot” in science that’s fueling a crisis of meaning](https://bigthink.com/13-8/why-science-must-contend-with-human-experience/)
-* ?
-1. [“QBism”: The most radical interpretation of quantum mechanics ever](https://bigthink.com/13-8/qbism-quantum-physics/)
-2. [QBism and the philosophical crisis of quantum mechanics](https://bigthink.com/13-8/qbism-philosophical-crisis-quantum-mechanics/)
+        * [“QBism”: The most radical interpretation of quantum mechanics ever](https://bigthink.com/13-8/qbism-quantum-physics/)
+        * [QBism and the philosophical crisis of quantum mechanics](https://bigthink.com/13-8/qbism-philosophical-crisis-quantum-mechanics/)
+
 
 
 
