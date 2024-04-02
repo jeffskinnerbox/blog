@@ -1165,6 +1165,10 @@ When the time comes to upgrade Youtube-dl use:
 
 >**NOTE:** `*.mp4` happens to be the default file output format for `youtube-dl`.
 
+>**NOTE:** There is a alternative to `youtube-dl` called [`yt-dlp`][49].
+>`yt-dlp` is a feature-rich command-line audio/video downloader with support for thousands of sites.
+>Check out ["How to Use YT-DLP: The Complete Guide (2024)"][48].
+
 #### Step X: Install VLC Media Player - DONE
 The default video media player on Ubuntu appears to be poor.
 Lets replace with a better tool, the [VLC media player][08].
@@ -1839,6 +1843,6 @@ Source:
 [45]:http://www.cyberciti.biz/faq/howto-change-rename-user-name-id/
 [46]:https://www.amazon.com/bizmodeller-My-Media/dp/B06XPP135L
 [47]:https://ostechnix.com/virtualbox-guru-meditation-critical-error-in-linux/
-[48]:
-[49]:
+[48]:https://www.rapidseedbox.com/blog/yt-dlp-complete-guide
+[49]:https://github.com/yt-dlp/yt-dlp
 [50]:
