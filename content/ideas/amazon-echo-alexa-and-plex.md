@@ -270,12 +270,12 @@ Check the box **Manually specify public port**, using port `32400`.
 5. Now set your server by saying to the Echo "Alexa, Ask Plex to change my server".
 Alexa will respond back and state your server is "Synology NAS".
 6. Test you Plex connection by asking "Alexa, Ask Plex to play music"
-Check you ports as shown below.
+7. You can also check you ports as shown below:
 
 ```bash
 # the port must be in the listening state to be open
 
-# check on your desktop (linux)
+# check on your desktop (linux)  <-- I don't think this is needed
 ssh jeff-admin@192.168.1.200
 netstat -aon | grep 32400
 
@@ -287,7 +287,7 @@ netstat -aon | grep 32400
 # on pfsense ui, goto Diagnostics > Test Port and use host = 192.168.1.201 and port = 32400
 
 # check on your gateway router (pfsense)
-#ssh admin@192.168.1.1
+ssh admin@192.168.1.1
 sockstat -aon | grep 32400
 ```
 
