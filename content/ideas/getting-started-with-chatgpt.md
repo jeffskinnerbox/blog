@@ -41,6 +41,8 @@ Version:      0.0.0
 Ollama is a streamlined tool for running open-source LLMs locally
 Olama is an offline AI that performs similarly to ChatGPT. Olama is designed to function entirely offline and locally, which implies you can engage in text-based conversations, share codes, photos or documents and receive an interactive responses without a grain of your data being compromised.
 
+* [Homelab Series - Setting up a Self Hosted Offline ChatGPT like chatbot - LlamaGPT](https://www.youtube.com/watch?v=-6EKYvVgVOU)
+
 * [OLLAMA - LOCAL CHATGPT ON PI 5](https://www.kevsrobots.com/blog/ollama)
 * [Ollama](https://ollama.ai/)
 * [LangChain](https://python.langchain.com/docs/get_started/introduction)
