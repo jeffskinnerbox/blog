@@ -78,6 +78,9 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [Max deep sleep for ESP8266](https://thingpulse.com/max-deep-sleep-for-esp8266/)
 * [5 Hacks to Prolong your ESPaper’s Battery Run-Time](https://thingpulse.com/5-hacks-prolong-espapers-battery-run-time/)
 
+# Solar Powered Raspberry Pi Zero
+* [PhotonPower Zero For Effortless Solar Pi Zero Projects](https://hackaday.com/2024/04/02/photonpower-zero-for-effortless-solar-pi-zero-projects/)
+
 
 
 # Design Guide for Energy Harvesting
