@@ -16,7 +16,7 @@ Version:      0.0.0
 
 * [MESHTASTIC JUST KEEPS BLOWING MY MIND!!!](https://www.youtube.com/watch?v=-9PXRBBqfxU)
 * [Getting Started with Meshtastic](https://www.youtube.com/playlist?list=PLshzThxhw4O5JTOACGHzYSSd3soDhoXKK)
-
+<sup>
 
 
 * [Rutgers University Confirmed: Meshtastic and LoRa are dangerous](https://www.youtube.com/watch?v=EAQI2ZSmxPU)
