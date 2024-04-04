@@ -43,6 +43,9 @@ Reticulum is the cryptography-based networking stack for building local and wide
 
 * [Garden Light Turned Mesh Network Node](https://hackaday.com/2024/01/21/garden-light-turned-mesh-network-node/)
 
+# Meshtastic Relay
+* [A Long-Range Meshtastic Relay](https://hackaday.com/2024/04/03/long-range-meshtastic-relay/)
+
 # Meshtastic Tracking
 setting up an Owntracks service, and then tying it to Meshtastic for off-Internet usability. The backbone that makes this work is MQTT.
 
