@@ -14,6 +14,11 @@ Version:      0.0.0
 
 
 
+* [MESHTASTIC JUST KEEPS BLOWING MY MIND!!!](https://www.youtube.com/watch?v=-9PXRBBqfxU)
+* [Getting Started with Meshtastic](https://www.youtube.com/playlist?list=PLshzThxhw4O5JTOACGHzYSSd3soDhoXKK)
+
+
+
 * [Rutgers University Confirmed: Meshtastic and LoRa are dangerous](https://www.youtube.com/watch?v=EAQI2ZSmxPU)
 * [LoRa based Connectivity Everywhere - Thomas Telkamp (Lacuna Space)](https://www.youtube.com/watch?v=3769Xc46eUY)
 * [Controlling Things Over a LoRa Mesh](https://www.hackster.io/scottpowell69/controlling-things-over-a-lora-mesh-2ea623)
