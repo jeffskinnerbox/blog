@@ -158,8 +158,12 @@ A Connection Machine (CM) is a member of a series of massively parallel supercom
     * [3D Printing](https://learn.adafruit.com/little-connection-machine/3d-printing)
 
 ## Macintosh Plus
-Full size Macintosh Plus !!
-* [Entirely accurate 3D-printed Mac Plus built in these 29 painstaking steps](https://arstechnica.com/gadgets/2024/03/3d-printed-mac-replica-is-a-maker-masterwork-inside-an-entirely-accurate-shell/)
+* [Updated Tiny Mac From a Raspberry Pi Zero](https://www.thingiverse.com/thing:5216238)
+    * [Making a Tiny Mac From a Raspberry Pi Zero](https://www.instructables.com/Making-a-Tiny-Mac-From-a-Raspberry-Pi-Zero/)
+    * [Emulate a Classic Macintosh Today! Basilisk II Tutorial!](https://www.youtube.com/watch?v=QSWWZ4hkvVk)
+
+* Full size Macintosh Plus !! - [Entirely accurate 3D-printed Mac Plus built in these 29 painstaking steps](https://arstechnica.com/gadgets/2024/03/3d-printed-mac-replica-is-a-maker-masterwork-inside-an-entirely-accurate-shell/)
+
 
 
 ------
@@ -181,6 +185,15 @@ Grandmaster clocks receive UTC-based time information from an external time refe
 # Telescope
 This is a working miniature observatory. It uses a Raspberry Pi computer for the brains, a Raspberry Pi RP2040 based microcontroller to control the movement, and the Raspberry Pi Hi Quality camera as the telescope.
 * [Pi-lomar - 3D Printed Working Miniature Observatory Using Raspberry Pi](https://www.instructables.com/Pi-lomar-3D-Printed-Working-Miniature-Observatory-/)
+
+# Print Server
+If you have an old printer, like I do, why not transform it into a wireless printer that works with any device on your network?
+you'll need a Wi-Fi-enabled Raspberry Pi such as the Raspberry Pi Zero W or its successor, the Raspberry Pi Zero 2 W. You'll also need a USB cable to attach the printer to the Raspberry Pi. For initializing the server, you'll need CUPS (Common Unix Printing System), which allows you to print to both local and network printers.
+
+* [Use a Raspberry PI Zero W as a Wireless Print Server](https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/use-a-raspberry-pi-zero-w-as-a-wireless-print-server)
+* [CUPS and Raspberry Pi AirPrinting](https://www.developer.com/mobile/cups-and-raspberry-pi-airprinting/)
+* [How to Turn a Printer into a Wireless Printer with Raspberry Pi](https://www.youtube.com/watch?v=hdwqQjDjMzU)
+* [Create your own Canon Printer server with Raspberry Pi](https://www.youtube.com/watch?v=3powPeY5_-k)
 
 
 
