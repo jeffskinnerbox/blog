@@ -14,9 +14,14 @@ Version:      0.0.0
 
 
 
+* [Meshtastic Native on the Raspberry Pi](https://www.youtube.com/watch?v=6UwWQSTCr_I)
+    * [SX1262 LoRaWAN Node Module Expansion Board for Raspberry Pi](https://www.waveshare.com/sx1262-lorawan-hat.htm)
 * [MESHTASTIC JUST KEEPS BLOWING MY MIND!!!](https://www.youtube.com/watch?v=-9PXRBBqfxU)
 * [Getting Started with Meshtastic](https://www.youtube.com/playlist?list=PLshzThxhw4O5JTOACGHzYSSd3soDhoXKK)
-<sup>
+
+
+
+
 
 
 * [Rutgers University Confirmed: Meshtastic and LoRa are dangerous](https://www.youtube.com/watch?v=EAQI2ZSmxPU)
