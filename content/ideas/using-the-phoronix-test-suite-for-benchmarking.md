@@ -198,8 +198,11 @@ See 'sysbench <testname> help' for a list of options for each test.
 ````
 
 #### Step 2: Test Preperation
+* reboot system
+* 'turn-off' any periodic background processes
+* execute test without browser, etc. running.  Just have a terminal open to run the tests.
 
-#### Step 3: Peform CPU Performance Testing
+#### Step 3: Perform CPU Performance Testing
 We are looking for the CPU testing to follow these guidelines:
 
 1. CPU Test (Single Thread)
@@ -217,6 +220,10 @@ We are looking for the CPU testing to follow these guidelines:
 # test the cpu using a single and multiple threads
 sysbench cpu run
 sysbench cpu --threads=4 run
+
+
+sysbench cpu run > sysbench-cpu-1-thread
+sysbench cpu --threads=4 run > sysbench-cpu-4-thread
 ```
 
 #### Step 4: Peform Memory Performance Testing
@@ -241,6 +248,13 @@ sysbench memory --memory-oper=read --threads=4 run
 # test the memory write speed using a single and multiple threads
 sysbench memory --memory-block-size=1K --memory-total-size=10G --memory-oper=write run
 sysbench memory --memory-block-size=1K --memory-total-size=10G --memory-oper=write --threads=4 run
+
+
+sysbench memory --memory-oper=read run > sysbench-read-1-thread
+sysbench memory --memory-oper=read --threads=4 run > sysbench-read-4-thread
+
+sysbench memory --memory-block-size=1K --memory-total-size=10G --memory-oper=write run > sysbench-write-1-thread
+sysbench memory --memory-block-size=1K --memory-total-size=10G --memory-oper=write --threads=4 run > sysbench-write-4-thread
 ```
 
 #### Step 5: Peform File I/O Performance Testing
@@ -250,6 +264,9 @@ sysbench memory --memory-block-size=1K --memory-total-size=10G --memory-oper=wri
 sysbench fileio --file-num=128 --file-total-size=2G --file-rw-ratio=1.5 --file-test-mode=seqwr run
 sysbench fileio --threads=4 run
 
+
+sysbench fileio --file-num=128 --file-total-size=2G --file-rw-ratio=1.5 --file-test-mode=seqwr run > sysbench-fileio-1-thread
+sysbench fileio --file-num=128 --file-total-size=2G --file-rw-ratio=1.5 --file-test-mode=seqwr --threads=4 run > sysbench-fileio-4-thread
 ```
 
 
