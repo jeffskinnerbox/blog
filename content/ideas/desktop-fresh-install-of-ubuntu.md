@@ -139,43 +139,52 @@ Source:
 #### Step 1: Supporting Packages - DONE
 ```bash
 # install packages for general use
-sudo apt-get -y install trash-cli gnome-terminal git jq
+sudo apt -y install trash-cli gnome-terminal git jq vim wmctrl curl
 
 # install basic networking tools
-apt-get -y install net-tools nmap traceroute arp-scan netdiscover
+sudo apt -y install net-tools nmap traceroute arp-scan netdiscover
 
 # packages which let apt get packages over HTTPS
-apt -y install apt-transport-https ca-certificates curl software-properties-common
+sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
 
 # install packages for for creation of raid
-sudo apt-get -y install smartmontools mdadm
+sudo apt -y install smartmontools mdadm
 ```
 
 Next we will update the packages on your system
 and install codecs for proprietary files with restricted copyright
 (MP3, AVI, MPEG, Microsoft fonts) and Adobe Flash Player.
 
+>**NOTE:** During `sudo apt-get update && sudo apt-get dist-upgrade` below, I got the message:
+>*Warning: os-prober will be executed to detect other bootable partitions.
+>Its output will be used to detect bootable binaries on them and create new boot entries.
+>Found Ubuntu 23.10 (23.10) on `/dev/sdb6` Adding boot menu entry for UEFI Firmware Settings ...*
+>I got a similar message during `sudo apt-get -y install smartmontools mdadm`.
+>
+>It appears the upgrade triggered the preparation of the OS to support RAID,
+>and I benefited from this when I move my RAID hard drive onto this fresh install.
+
 ```bash
 # update the packages on your system
-sudo apt-get update && sudo apt-get dist-upgrade
+sudo apt update && sudo apt dist-upgrade
 
 # install codecs for proprietary files with restricted copyright
-sudo apt-get install ubuntu-restricted-extras
+sudo apt install ubuntu-restricted-extras
 
 # tools need for video card install
 sudo apt install hwinfo
 
 # install the spice client for use with proxmox
 # NOTE: kvm conflicts with virtualbox
-sudo apt-get install qemu-kvm virt-viewer
+#sudo apt-get install qemu-kvm virt-viewer
 ```
-
->**NOTE:** KVM and VitualBox **do not** play nice together.
->[VirtualBox will throw a Guru Meditation error][47] if KVM is installed.
 
 You can't use Virtualbox alongside KVM,
 choose one or the other, since they hypervisors fight over control.
 you can temporally disable KVM or VirtualBox modules and then re-enable them when you want.
+
+>**NOTE:** KVM and VitualBox **do not** play nice together.
+>[VirtualBox will throw a Guru Meditation error][47] if KVM is installed.
 
 ```bash
 # are kvm and virtualbox modules installed
@@ -195,25 +204,51 @@ sudo rmmod kvm-intel kvm
 ```
 
 #### Step 2: Google Chrome
+My go-to browser is Chrome and you can install it on Ubuntu from [here][50].
+
 ```bash
 # download the latest Google Chrome .deb package
+mkdir tmp
+cd tmp
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 # installing packages on Ubuntu
 sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
 
-In the Activities search bar type “Google Chrome” and click on the icon to launch the application.
-Pin the icon to the favorites.
+Installing Chrome will also add the repository to your package manager.
+Use the following command to keep Chrome up to date on your system.
+
+```bash
+# to update chrome, use the following
+sudo apt install google-chrome-stable
+```
+
+If you decide that you’d like to remove Chrome from your system in the future,
+use the following command to uninstall the web browser.
+
+```bash
+# use the following to remove chrome
+sudo apt purge google-chrome-stable
+```
 
 #### Step 3: Your Tools
-```bash
-# install required packages
-sudo apt-get -y install wmctrl vim vim-gkt3 curl
+There are several sources for [NeoVim][51],
+but I have found that [Snap][] has one of the most up to date versions.
+I installed NeoVim via the Snap Store using this method:
 
-# install bash and vim configuration files
-https://github.com/jeffskinnerbox/.bash/blob/master/setup_dotbash.sh
-https://github.com/jeffskinnerbox/.vim/blob/master/setup_dotvim.sh
+```bash
+# neovim nightly & stable are available on the snap store
+
+# stable builds for i386 architecture - latest/stable v0.9.4
+sudo snap install nvim --classic
+
+# to update snap package for neovim
+sudo snap refresh nvim
+
+# check the nvim version
+$ nvim --version | grep NVIM
+NVIM v0.9.4
 ```
 
 
@@ -1845,4 +1880,15 @@ Source:
 [47]:https://ostechnix.com/virtualbox-guru-meditation-critical-error-in-linux/
 [48]:https://www.rapidseedbox.com/blog/yt-dlp-complete-guide
 [49]:https://github.com/yt-dlp/yt-dlp
-[50]:
+[50]:https://dl.google.com/linux
+[51]:https://neovim.io
+[52]:
+[53]:
+[54]:
+[55]:
+[56]:
+[57]:
+[58]:
+[59]:
+[60]:
+
