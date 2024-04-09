@@ -143,6 +143,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 * [We Rebuilt The Spark That Changed The World!! (ft. Blueprint)](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 * [Revolutionary Spark Gap Radio REBUILT!!](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 * [Making a Spark-Gap Transmitter](https://www.youtube.com/watch?v=SnKKj2bonAI&feature=youtu.be)
+* [DIY: Spark Gap Transmitter (Damped Harmonic Oscillator)](https://www.youtube.com/watch?v=XmdbGtGgbU0)
 
 # Coherer
 The [coherer](https://en.wikipedia.org/wiki/Coherer)
