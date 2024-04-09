@@ -424,6 +424,10 @@ The
 
 
 
+# Dip Meter
+* [Understand Your Tools: Finger Exercises](https://hackaday.com/2024/04/06/understand-your-tools-finger-exercises/)
+* [A nanoVNA as a Dip Meter](https://hackaday.com/2024/04/03/a-nanovna-as-a-dip-meter/)
+
 # Impedance Matching
 * [Impedance Matching with QUCS Studio and VNA](https://hexandflex.com/2020/01/11/impedance-matching-with-qucs-studio-and-vna/)
 * [Impedance Matching and Smith Chart Impedance](https://www.maximintegrated.com/en/design/technical-documents/tutorials/7/742.html)
