@@ -22,6 +22,8 @@ Dual Edge TPU: Double Power, Same Slot
 * [AI on a Pi? Believe it!](https://www.youtube.com/watch?v=so8_h0EKPWU&t=634s)
 * [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
 
+* [Testing Cytron MAKERDISK M.2 NVMe SSDs on Raspberry Pi 5 with GEEKWORM X1001 and Waveshare M.2 PCIe HAT+](https://www.cnx-software.com/2024/04/07/review-cytron-makerdisk-nvme-ssd-raspberry-pi-5-geekworm-x1001-waveshare-m2-pcie-hat/)
+
 
 |:-----------------------------------------------|:-------------------|:------:|
 | [Raspberry Pi 5 / 8GB RAM][01]                 | [Seeed Studio][AA] |  $ 80  |
