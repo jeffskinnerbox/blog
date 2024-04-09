@@ -2,7 +2,7 @@
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
-
+Dual Edge TPU: Double Power, Same Slot
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
@@ -17,6 +17,10 @@ Version:      0.0.0
 * [Unleash the power of the Raspberry Pi 5 - 1TB NVME and Argon ONE NVME case](https://www.youtube.com/watch?v=kmgTrwNmZV8)
     * [Argon ONE V3 M.2 NVME PCIE Case](https://argon40.com/products/argon-one-v3-m-2-nvme-case)
     * [Argon NEO 5 M.2 NVME PCIE Case for Raspberry Pi 5](https://argon40.com/products/argon-neo-5-m-2-nvme-for-raspberry-pi-5)
+
+* [Dual Edge TPU: Double Power, Same Slot](https://www.youtube.com/watch?v=W-LlUe_EXjg)
+* [AI on a Pi? Believe it!](https://www.youtube.com/watch?v=so8_h0EKPWU&t=634s)
+* [CPU vs GPU vs TPU vs DPU vs QPU](https://www.youtube.com/watch?v=r5NQecwZs1A)
 
 
 |:-----------------------------------------------|:-------------------|:------:|
