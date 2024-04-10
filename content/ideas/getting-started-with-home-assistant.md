@@ -75,6 +75,11 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 * [Wyoming Voice Satellite Tutorial](https://github.com/rhasspy/wyoming-satellite/blob/master/docs/tutorial_2mic.md)
 * [Wyoming Protocol](https://github.com/rhasspy/wyoming)
 
+# Mopidy
+* [Smart Home Whole Audio Part 1](https://www.youtube.com/watch?v=0YnSwYFpzDA)
+* [Smart Home Whole Audio Part 2](https://www.youtube.com/watch?v=eQC6nTzvCbU)
+* [Mopidy](https://mopidy.com/)
+
 
 
 # Raspberry Pi IoT Server (IoTStack)
