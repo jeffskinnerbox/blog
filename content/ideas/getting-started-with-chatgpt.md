@@ -49,6 +49,7 @@ Olama is an offline AI that performs similarly to ChatGPT. Olama is designed to 
 * [Homelab Series - Setting up a Self Hosted Offline ChatGPT like chatbot - LlamaGPT](https://www.youtube.com/watch?v=-6EKYvVgVOU)
 * [OLLAMA - LOCAL CHATGPT ON PI 5](https://www.kevsrobots.com/blog/ollama)
 * [Ollama - Self-Hosted AI Chat with Llama 2, Code Llama and More in Docker](https://noted.lol/ollama/)
+* [You can run LLMs locally on your Raspberry Pi using Ollama - here's how to do it](https://www.xda-developers.com/run-llms-on-raspberry-pi/)
 
 
 
