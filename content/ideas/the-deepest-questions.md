@@ -530,7 +530,10 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 # Laplace & Fourier Transforms
 * [The Intuition behind the Laplace Transform](https://medium.com/the-breakthrough/the-intuition-behind-the-laplace-transform-8432c3bceb37)
 * [The Laplace Transform: A Generalized Fourier Transform](https://www.youtube.com/watch?v=7UvtU75NXTg)
+* [Demystifying the Fourier Transform](https://www.youtube.com/playlist?list=PLWMUMyAolbNvV1JbXNqeuwP4DYKMiK1Qh)
 * [The Music of Mathematics: A friendly introduction to Fourier series](https://www.cantorsparadise.com/the-music-of-mathematics-bccab42fdaec)
+* [How Heisenberg’s Uncertainty Principle Emerges From the Fourier Transform](https://www.cantorsparadise.com/wave-packets-and-how-heisenbergs-quantum-uncertainty-principle-emerges-from-the-fourier-transform-47c3e47f573b)
+* [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4)
 
 # Mathematical Notation
 * [Triangle of Power](https://www.youtube.com/watch?v=sULa9Lc4pck)
@@ -832,11 +835,11 @@ uncertainty is a physical principle as well.
 * [The Intuition behind Heisenberg’s Uncertainty Principle](https://medium.com/intuition/the-intuition-behind-heisenbergs-uncertainty-principle-445639b374bf)
 * [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
 * [How Heisenberg’s Uncertainty Principle Emerges From the Fourier Transform](https://www.cantorsparadise.com/wave-packets-and-how-heisenbergs-quantum-uncertainty-principle-emerges-from-the-fourier-transform-47c3e47f573b)
+* [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4)
 * [How Quantum is the Uncertainty Principle?](https://medium.com/swlh/how-quantum-is-the-uncertainty-principle-4569eb7a9eb1)
 * [The Heisenberg Uncertainty Principle is Pure Mathematics](https://www.cantorsparadise.com/heisenbergs-uncertainty-principle-is-pure-mathematics-e14c840659e1)
 * [Conjugate Variables](https://en.wikipedia.org/wiki/Conjugate_variables)
 * [Some light quantum mechanics (with minutephysics)](https://www.youtube.com/watch?v=MzRCDLre1b4)
-* [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4)
 
 # Quantum Field Theory (QFT) & Mathematics
 * [Quantum Fields: The Most Beautiful Theory in Physics!](https://www.youtube.com/watch?v=eoStndCzFhg)
