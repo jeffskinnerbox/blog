@@ -14,6 +14,9 @@ Version:      0.0.0
 
 
 
+As a first step, do the examples here - [Sound with ESP32 – I2S Protocol](https://dronebotworkshop.com/esp32-i2s/)
+
+
 Consider MicroPython / CircuitPython ...
 * [Programming a NodeMCU with MicroPython: I2C Bus Part 1 (MPU6050 IMU)](https://www.youtube.com/watch?v=2ufkfd-oFrY)
 * [Programming an ESP32 NodeMCU with MicroPython](https://www.youtube.com/playlist?list=PL4Dmmk1VXA5p1_b0cCsIU2uM5nR47Whn4)
