@@ -105,6 +105,8 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [OpenAI Codex](https://openai.com/blog/openai-codex/)
 
 # Make it Speak
+* [ESP Audio DevKits](https://www.espressif.com/en/products/devkits/esp-audio-devkits)
+
 * [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaday.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
     * [Piper](https://rhasspy.github.io/piper-samples/)
