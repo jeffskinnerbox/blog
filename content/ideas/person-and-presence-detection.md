@@ -43,6 +43,9 @@ This can be done by making use of:
 * use DNS exfiltration (e.g. DNS DriveBy) to avoid any need for Internet connection
 * etc
 
+* [The Watcher](https://en.wikipedia.org/wiki/The_Watcher_(2022_TV_series))
+
+* [Seeed Studio: Watcher](https://www.seeedstudio.com/watcher)
 * [The Watchman](https://www.hackster.io/taunoerik/the-watchman-dd1f4e)
 
 * [Virtual Peephole](https://www.hackster.io/carolinebuttet/virtual-peephole-355c1c)
@@ -50,8 +53,6 @@ This can be done by making use of:
     * [Insecam](http://www.insecam.org/)
     * [EarthCam](https://www.earthcam.com/)
 * [Door Viewer Peephole](https://www.amazon.com/Viewer-Peephole-220-degree-Rotating-Privacy/dp/B07DVT97QW)
-
-* [The Watcher](https://en.wikipedia.org/wiki/The_Watcher_(2022_TV_series))
 
 # Thermal Camera
 * [Making a DIY thermal camera based on a Raspberry Pi](https://habr.com/en/post/441050/)
