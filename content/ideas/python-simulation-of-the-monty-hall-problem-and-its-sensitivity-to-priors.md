@@ -201,3 +201,17 @@ What if you knew one of the children's day of week they where born?
 * [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
 
 
+
+------
+
+
+
+# Python Simulations
+
+## 3D Animations
+* [Web VPython](https://www.glowscript.org/)
+    * [Web VPython Road Test](https://rjallain.medium.com/web-vpython-road-test-808a69cac916)
+
+## Physics
+* [Dot Physics](https://www.youtube.com/@DotPhysics)
+
