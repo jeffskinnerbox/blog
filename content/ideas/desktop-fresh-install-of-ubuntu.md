@@ -15,11 +15,17 @@ Version:      0.0.0
 # Background
 I first establish my Linux desktop environment in 2013 with Ubuntu 13.04.
 I repeatedly upgraded desktop, generally twice a year, with the latest release.
-It is now 2022 and Ubuntu 22.04 is available for another upgrade.
-After these 8+ years, obtain a smooth / flawless upgrades is very unlikely.
+When the year 2022 came around, Ubuntu 22.04 is available for another upgrade.
+After these 9+ years, obtaining a smooth / flawless upgrades is very unlikely.
 I have to face the fact that my Ubuntu system is a bit messed up,
 and despite trying numerous ways to fix it,
 the easiest way out seems to be to reinstall Ubuntu.
+So I did just that in 2022 and these notes were written to help document that procedure.
+
+It is now 2024, and I'm replacing my Linux hardware ... motherboard, CPU, memory, and SSD for the operating system are all being upgraded.
+The only thing not being replace are the hard drives, and its contents, for my user `/home` directories.
+These directories are on a pair of 1T RAID hard drives containing all that I have created.
+I plan to move these drives, without any changes, to my new hardware environment with a fresh Ubuntu OS install.
 
 Below is how I did the Ubuntu fresh install.
 No rocket science hear, in fact, its just repeat what may have been done years ago.
@@ -37,9 +43,12 @@ This gave me confidence that I could survive a single disk failure
 to a fresh install (it did not ... most likely because I don't understand Linux's RAID tools).
 I survived this because I had also automated backups of my `/home` directory,
 taken every 4 hours.
-
 The backed up version of `/home` has all my files and all the configuration files
 (e.g. [`.bash`][05], [`.vim`][06], [`.conky`][07], etc.), for my working environment.
+
+This 2024 upgrade has gone smoother the Ubuntu install spotted the RADI disks
+and made the appropriate OS modifications,
+making the reestablishment of the `/home` directory happen easily.
 
 
 
@@ -47,22 +56,31 @@ The backed up version of `/home` has all my files and all the configuration file
 
 
 
-# Install Ubuntu 22.04
+# Install Ubuntu 23.10 - DONE
 First, [download Ubuntu from its website][01].
 Once you have got the ISO image, it’s time to [create a live USB][02] from it,
 and [perform the install][03].
 
-With version 22.04, Ubuntu switches to the Wayland display server by default once again.
+**NOTE:** With version 22.04, Ubuntu switches to the Wayland display server by default once again.
+Wayland continues to be used in Ubuntu 23.10.
 
-* [Here are the New Features in Ubuntu 22.04 LTS Jammy Jellyfish](https://itsfoss.com/ubuntu-22-04-release-features/)
+**NOTE:** Once the Ubuntu OS is installed,
+your likely going to need terminal access to perfrom the operations listed below.
+On Ubuntu, you can popup a terminal via the keyboard sequance of `Cntl+Alt+T`.
 
+**NOTE:** If you wan to see the console messages created during the boot,
+press the `F1` key.
+
+**NOTE:** If for any reason you to access the motherboard for things like
+BIOS setting, drive boot order, modification of suspend state, etc.,
+you can do this by pressing the `Del` (aka Delete key) during a reboot.
 
 
 -----
 
 
 
-# Add a Fail-Safe User Account
+#  Establish Fail-Safe User Account - DONE
 To assure I have a [fail-safe][41] measure to recover from human errors,
 I'll create a user account, with root privileges,
 just in case I screw-up the establishment of the `/home`
@@ -91,12 +109,15 @@ A quick and easy way to add a user is by invoke the command:
 >If you want to delete the user and its home directory and mail spool,
 >use the `--remove-home` flag: `sudo deluser --remove-home username>`.
 
-#### Create Fail-Safe Account - DONE
+Source:
+* [How to Add and Delete Users on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-18-04)
+
+#### Step 1: Create User Account - DONE
 This fail-safe user account's home directory will reside on
-the `/dev/sda` disk under the `/mnt` directory
+the disk where the operating system resides under the `/mnt` directory
 and be in the same group as my user account.
-The `/dev/sda` device is the safe place to reside because we'll be messing
-with the other drives and they could get corrupted.
+The `/mnt` directory is the safe place to reside because we'll be messing
+with the other drives and if they could get corrupted, we can use this account.
 
 ```bash
 # add the user
@@ -106,6 +127,7 @@ sudo adduser --home /mnt/jeff-admin --ingroup jeff jeff-admin
 sudo usermod -aG sudo jeff-admin
 ```
 
+#### Step 2: Delete User Account
 Once this "fresh install" process is completed,
 there is little need for this special user account.
 At that time, you can delete this account via:
@@ -125,8 +147,7 @@ sudo rm -rf /mnt/jeff-admin
 sudo visudo
 ```
 
-Source:
-* [How to Add and Delete Users on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-18-04)
+**Don't do this step now but return to it when all the work is completed.**
 
 
 
@@ -134,7 +155,11 @@ Source:
 
 
 
-# Install Prerequisite Packages
+# Install Your Favorate Tools
+As I work throught this installation process,
+I'm going to want to use all my firmular tools,
+tools like Gnome Terminal, Curl, Chrome browser, NeoVim, etc.
+Lets get these installed.
 
 #### Step 1: Supporting Packages - DONE
 ```bash
@@ -145,7 +170,7 @@ sudo apt -y install trash-cli gnome-terminal git jq vim wmctrl curl
 sudo apt -y install net-tools nmap traceroute arp-scan netdiscover
 
 # packages which let apt get packages over HTTPS
-sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
+sudo apt -y install apt-trans port-https ca-certificates curl software-properties-common
 
 # install packages for for creation of raid
 sudo apt -y install smartmontools mdadm
@@ -203,7 +228,7 @@ ps aux | grep kvm
 sudo rmmod kvm-intel kvm
 ```
 
-#### Step 2: Google Chrome
+#### Step 2: Google Chrome - DONE
 My go-to browser is Chrome and you can install it on Ubuntu from [here][50].
 
 ```bash
@@ -232,9 +257,9 @@ use the following command to uninstall the web browser.
 sudo apt purge google-chrome-stable
 ```
 
-#### Step 3: Your Tools
+#### Step 3: NeoVim - DONE
 There are several sources for [NeoVim][51],
-but I have found that [Snap][] has one of the most up to date versions.
+but I have found that [Snap][54] has one of the most up to date versions.
 I installed NeoVim via the Snap Store using this method:
 
 ```bash
@@ -251,266 +276,167 @@ $ nvim --version | grep NVIM
 NVIM v0.9.4
 ```
 
+On a fresh install of NeoVim,
+if you open `nvim` and enter the following command [`:checkhealth`][52] in Command mode
+you'll get a lengthy report with some lines containing warnings and errors.
+Let's fix these problems.
 
+First off, make sure you have installed Neovim version 0.9 or greater (and we have done so).
+Also install [Nerd Fonts][53] but this comes with the `/home` directory we mounted from the old computer.
+A key thing to do is fix copy & paste by installing the appropriate clipboard:
 
------
-
-
-
-* [How To Manage RAID Arrays with mdadm on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-manage-raid-arrays-with-mdadm-on-ubuntu-16-04)
-* [HOWTO: Repair a broken Ext4 Superblock in Ubuntu](https://linuxexpresso.wordpress.com/2010/03/31/repair-a-broken-ext4-superblock-in-ubuntu/)
-# Mount RAID Drives
-First, you'll need to find what disks you have install,
-regardless if they are mounted or not.
-You can do this with the `fdisk` command and via the `/etc/fstab` file.
-
-#### Step 1: Gather Data - DONE
 ```bash
-# list all the drives install on the computer
-$ sudo fdisk -l | grep Disk | grep -v loop | grep -v dos
-Disk /dev/sda: 119.24 GiB, 128035676160 bytes, 250069680 sectors
-Disk model: Samsung SSD 840
-Disk identifier: 0x0008f01d
-Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1SB1
-Disk identifier: 0xe9fd17be
-Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1CH1
-Disk identifier: 0xe9fd17be
+# if your using X Window's X11 protocol
+sudo apt install xsel
 
-# we are interested in sdb and sdc
-$ sudo fdisk -l /dev/sdb /dev/sdc
-Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1SB1
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-Disklabel type: dos
-Disk identifier: 0xe9fd17be
-
-Device     Boot Start        End    Sectors   Size Id Type
-/dev/sdb1        2048 1953525167 1953523120 931.5G 83 Linux
-
-
-Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1CH1
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-Disklabel type: dos
-Disk identifier: 0xe9fd17be
-
-Device     Boot Start        End    Sectors   Size Id Type
-/dev/sdc1        2048 1953525167 1953523120 931.5G 83 Linux
+# if your using X Window's Wayland protocol
+sudo apt install wl-clipboard
 ```
 
-We know that the multi-partitioned drive `/dev/sda` was used to load the Ubuntu OS.
-Therefore, the drives `/dev/sdb` and `/dev/sdc` are the drives we are interested creating the RAID.
-We also know the serial number of the oldest drive in the RAID is `Z1D3N7RY`
-(see `solving-raid-disk-failure.md`).
-Let's list the serial numbers on the drives:
+To fix complaints about lack of Python, Node.js, `ripgrep` support,
+you need to install Python, Node.js, and other tools.
+This should be already established on the `/home` drive.
+Note that I'm using Miniconda for my Python envirnment
+you must activate the `base` envirnment, if not already done via your shell.
 
 ```bash
-# get the serial number of the sdb drive
-$ sudo smartctl -i /dev/sdb1 | grep -E "Serial|Model"
-Model Family:     Seagate Barracuda 7200.14 (AF)
-Device Model:     ST1000DM003-1SB102
-Serial Number:    W9ANL1XX
+# activate you python envirnment
+conda activate base
 
-# get the serial number of the sdc drive
-jeff@desktop: ~ $ sudo smartctl -i /dev/sdc1 | grep -E "Serial|Model"
-Model Family:     Seagate Barracuda 7200.14 (AF)
-Device Model:     ST1000DM003-1CH162
-Serial Number:    Z1D3N7RY
-```
+# neovim python support
+pip install pynvim
 
-#### Step 2: Create The Array - DONE
->**NOTE:** I was unable to successfully assemble the disks into a function RAID One array.
->As a result, I resorted to creating a fresh array and I will restore the files from my backups.
+# neovim node support
+npm i -g neovim        # install failed for some reason
 
-To create an empty RAID 1 array with `/dev/sdb` and `dev/sdc`
-
-```bash
-# create the raid one array
-sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
-```
-
-The mdadm tool will start to mirror the drives.
-This can take some time to complete, but you can monitor the progress of the mirroring by checking the /proc/mdstat file:
-
-```bash
-# monitor the progress of the mirroring
-$ cat /proc/mdstat
-Personalities : [raid1]
-md0 : active raid1 sdc[1] sdb[0]
-      976630464 blocks super 1.2 [2/2] [UU]
-      [=>...................]  resync =  9.4% (92582784/976630464) finish=90.4min speed=162962K/sec
-      bitmap: 8/8 pages [32KB], 65536KB chunk
-
-unused devices: <none>
-```
-
->**NOTE:** To stop a RAID array, assuming its **not mount**, you `sudo mdadm --stop /dev/md0`.
->If mounted, then do `sudo umount /mnt/md0 && sudo mdadm --stop /dev/md0`.
-
-Once this array creation process completes,
-you can create a filesystem on the array:
-
-```bash
-# validate the setup
-sudo mdadm --detail /dev/md0
-
-# create a filesystem on the array
-$ sudo mkfs.ext4 -F /dev/md0
-mke2fs 1.46.5 (30-Dec-2021)
-Creating filesystem with 244157616 4k blocks and 61046784 inodes
-Filesystem UUID: 126e8dc9-e13c-440f-bb02-dc266378329f
-Superblock backups stored on blocks:
-	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
-	4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968,
-	102400000, 214990848
-
-Allocating group tables: done
-Writing inode tables: done
-Creating journal (262144 blocks): done
-Writing superblocks and filesystem accounting information: done
-```
-
-#### Step 3: Mount The RAID Array - DONE
-We want to mount the array as the `/home` directory for the Ubuntu OS.
-This is where all the Ubuntu user accounts are located.
-To do this, we'll need to move all the existing data out of `/home`.
-That should only be the directory for the `jeff` account.
-
-For Ubuntu, it seems it is also necessary to update the `/etc/mdadm/mdadm.conf` file.
-If this is not done, the RAID device will not be mounted when you reboot the system.
-The solution is to run the following command on your system,
-once the RAID drive has been configured:
-
-```bash
-# check the final status of the raid array
-sudo mdadm -D /dev/md0
-
-# move data out of home directory
-sudo mkdir /mnt/jeff-admin/tmp
-sudo cp -R /home/* /mnt/jeff-admin/tmp
-
-# clean out /home directory to prepare for the mounting of the raid array
-sudo trash /home/jeff
-
-# mount the raid array filesystem
-sudo mount /dev/md0 /home
-```
-
-#### Step 4: Saving the Array Layout - DONE
-To make sure that the array is reassembled automatically at boot:
-
-1. update the `/etc/mdadm/mdadm.conf` file with the arrays configuration
-2. update the `initramfs`, or initial RAM file system, so that the array will be available during the early boot process
-3. add the new filesystem mount options to the /`etc/fstab` file for automatic mounting at boot
-
-```bash
-# automatically scan the active array and append
-sudo cp /etc/mdadm/mdadm.conf /etc/mdadm/mdadm.conf_backup
-sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
-
-# update initial RAM file system
-$ sudo update-initramfs -u
-update-initramfs: Generating /boot/initrd.img-5.15.0-27-generic
-
-# automatic mount array at boot
-echo '/dev/md0 /home ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
-
-# inspect /etc/fstab
-$ cat /etc/fstab
-# /etc/fstab: static file system information.
-#
-# Use 'blkid' to print the universally unique identifier for a
-# device; this may be used with UUID= as a more robust way to name devices
-# that works even if disks are added and removed. See fstab(5).
-#
-# <file system> <mount point>   <type>  <options>       <dump>  <pass>
-# / was on /dev/sda6 during installation
-UUID=65e559c7-e595-4ab6-89a1-7b27d071bc3d /   ext4  errors=remount-ro  0  1
-# /boot/efi was on /dev/sda3 during installation
-UUID=CACF-2C59  /boot/efi       vfat    umask=0077                     0  1
-/swapfile       none            swap    sw                             0  0
-/dev/md0        /home           ext4    defaults,nofail,discard        0  0
-```
-
-Now test if the RAID array gets auto-mounted by doing a reboot.
-
-```bash
-# do a reboot
-sudo shutdown -r now
-
-# check if the raid has been mounted on /home
-$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           1.6G  2.0M  1.6G   1% /run
-/dev/sda6       109G   14G   90G  14% /
-tmpfs           7.8G     0  7.8G   0% /dev/shm
-tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-/dev/md0        916G   28K  870G   1% /home
-/dev/sda3       512M  5.3M  507M   2% /boot/efi
-tmpfs           1.6G   96K  1.6G   1% /run/user/1001
-```
-
-#### Step 5: Load Backup to /home - DONE
-* [Backup and Restore Your Linux System with rsync](https://averagelinuxuser.com/backup-and-restore-your-linux-system-with-rsync/)
-
-Basically, these three options needed to preserve all the attributes of your files.
-Owner attributes or permissions will not be modified during the backup process.
-
-* `-a` - archive mode
-* `-A` - preserve Access Control List
-* `-X` - preserve extended attributes
-
-* --delete - this option allows you to make an incremental backup. That means, if it is not your first backup, it will backup only the difference between your source and the destination. So, it will backup only new files and modified files and it will also delete all the files in the backup which were deleted on your system. Be careful with this option.
-* --dry-run - This option simulates the backup. Useful to test its execution.
-
-```bash
-# do a dry-run test
-sudo rsync --dry-run -aAXv --exclude="lost+found" /media/jeff-admin/c484e1d5-5e9d-4f95-bca9-de500fa3d44e/daily.0/desktop/home/ /home/
-
-# do the restoration for real
-sudo rsync -aAXv --exclude="lost+found" /media/jeff-admin/c484e1d5-5e9d-4f95-bca9-de500fa3d44e/daily.0/desktop/home/ /home/
-
-# filesystem status
-$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           1.6G  2.1M  1.6G   1% /run
-/dev/sda6       109G   14G   90G  14% /
-tmpfs           7.8G  400M  7.4G   6% /dev/shm
-tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-/dev/md0        916G  410G  460G  48% /home
-/dev/sda3       512M  5.3M  507M   2% /boot/efi
-tmpfs           1.6G  4.7M  1.6G   1% /run/user/1000
-```
-
-#### Step 6: Establish Additional Logins - DONE
-With the loading of backup files to `/home`,
-Some additional home directories have been established for the users:
-`jennie` and `backup_user`.
-
-```bash
-# create the required logins: user login
-sudo adduser --home /home/jennie jennie
-
-# make a group id for the backup user
-sudo groupadd -g 400 backup_user
-
-# create the required logins: user without a login
-sudo adduser --home /home/backup_user --disabled-login --disabled-password --uid 400 --gid 400 backup_user
-
-# to check if all is well
-cat /etc/passwd
+# ripgrep (executable is called `rg`) is need by for telescope
+sudo apt install ripgrep
 ```
 
 
 
 -----
 
+
+
+# Setup Dual Monitor
+My installation of the new motherboard and Ubuntu had no problem supporting one of the two monitors I'm using.
+Now its time to bring the second monitor up and working.
+
+Sources:
+
+* [How do dual monitors work?](https://www.youtube.com/watch?v=rjNCWK_MfZs)
+* [How to Use Onboard Graphics for Second Monitor](https://www.youtube.com/watch?v=8iT1pgPo-1E)
+* [How to Setup Dual Monitor | Windows | Linux | MAC](https://www.technowifi.com/how-to/how-to-setup-dual-monitor/)
+* [Raspberry Pi Adds Second Laptop Monitor](https://hackaday.com/2023/03/15/raspberry-pi-adds-second-laptop-monitor/#more-581185)
+* [A Primer on Screen Blanking Under Xorg](https://shallowsky.com/linux/x-screen-blanking.html)
+* [xscreensaver - extensible screen saver and screen locking framework](https://manpages.ubuntu.com/manpages/xenial/man1/xscreensaver.1.html)
+
+## Procedure Used in 2022 - DONE, NOT
+With my 2022 refresh of my Linux desktop computer,
+I upgrading to a dual monitor configuration.
+To do this,  I did the following:
+
+1. Purchase another monitor display equivalent to my existing display
+([32" LG 32GN50T-B Monitor Ultragear FHD SYNC][28]) and a [dual monitor stand][29].
+2. Purchase a video card ([MSI Geforce 210][26] / [N210-MD1G/D3][27]) to drive the second monitor screen.
+3. Need to modify BIOS on [motherboard (Intel Desktop Board DZ77GA-70K)][25] to support dual monitor.
+4. Within Ubuntu on the **Settings** > **Displays** app, I'll need to configure the two displays
+5. Set the brightness, color setting, etc. on the two displays to be visually equivalent.
+
+#### Step 1: Wayland or X11 Display Manager - DONE, NOT
+I read on the web that Wayland doesn't work well with a dual monitor setup, at least at in 2022.
+I no long belive this is the case.
+In 2022, to avoid this challenge, I choose to continue to use X11.
+
+You can check for the display manager that you’re using with this command:
+
+```bash
+# check for type of display server (wayland / X11)
+$ echo $XDG_SESSION_TYPE
+wayland
+```
+
+You can also switch between Xorg (aka X11) and Wayland when you login.
+You find a bottom at the lower right hand corner of the login screen.
+The video "[How to Switch Between Xorg and Wayland in Ubuntu 20.04 18.04][21]"
+shows how this is done.
+
+Sources:
+* [36C3 ChaosWest: X11 and Wayland: A tale of two implementations](https://www.youtube.com/watch?v=b8OY4VtYx1s)
+* [WAYLAND: what is it, and is it ready for daily use?](https://www.youtube.com/watch?v=g1BoZnekkyM)
+* [Wayland Is The Future Of Linux, What About Now?](https://www.youtube.com/watch?v=lm2aireP-wc)
+
+#### Step 2: Modify BIOS on Motherboard - DONE, NOT
+To enable multiple display, you first must enable it on the computer's motherboard.
+In my case with the Intel DZ77GA-70K motherboard, I had to goto
+**Advance Settings** > **Devices & Peripherals** > **Video**.
+
+* For **Integrated Graphics Device** set to **Enable if Primary**
+* For **Primary Video Adaptor** set to **Int Graphics (IGD)**
+
+Sources:
+* [Intel DZ77GA-70K Visual BIOS Overview](https://www.youtube.com/watch?v=dpZr2khbPWQ)
+* [How To Enable Motherboard HDMI Port for Multiple Monitors - Use Graphics Card & Integrated Graphics](https://www.youtube.com/watch?v=_Ftk8jQhsqE)
+* [How to clear CMOS on DZ77Ga-70k?](https://community.intel.com/t5/Intel-Desktop-Boards/How-to-clear-CMOS-on-DZ77Ga-70k/m-p/199753)
+* [Bios Setup Configuration Jumper Settings - Intel DZ77GA-70K Specification](https://www.manualslib.com/manual/440805/Intel-Dz77ga-70k.html?page=64)
+
+#### Step 3: Install Monitors and Video Card - DONE, NOT
+I followed the install procedures that came with the devices.
+It was basically "plug & play".
+
+I did not install any special driver for the video card.
+You find may references on the web about installing [Linux Nvidia drivers][30],
+and may stories about things going wrong.
+Try using the video card without new drivers first;
+its likely good enough unless your a gamer.
+
+#### Step 4: Configure Ubuntu for Multiple Displays - DONE, NOT
+Within Ubuntu on the **Settings* > **Displays** app,
+you'll need to configure the two displays.
+This requires some playing around for what you prefers.
+It's easy to do but [this website][31] might help.
+
+Also, you'll want the two displays to be visually equivalent.
+This involves setting the brightness, color setting, etc. to be the same on both displays.
+For my displays, this required using [this feature][32].
+
+>**NOTE:** Some of the information on the Web can be confusing concerning dual monitor.
+>Ubuntu 22.04 has a different [Gnome Tweaks][18] and [Settings][19] apps
+>from previous version, so documentation can be misleading.
+
+Sources:
+
+* [Connect another monitor to your computer](https://help.ubuntu.com/stable/ubuntu-help/display-dual-monitors.html)
+* [How to install Tweak Tool on Ubuntu 22.04 LTS Jammy Jellyfish Linux](https://linuxconfig.org/how-to-install-tweak-tool-on-ubuntu-22-04-lts-jammy-jellyfish-linux)
+* [Ubuntu 20.04: Workspaces and Multiple Monitors](https://www.thegygers.com/2020/07/30/ubuntu-20-04-workspaces-and-multiple-monitors/)
+* [Switch workspace on dual monitor 22.04](https://askubuntu.com/questions/1403554/switch-workspace-on-dual-monitor-22-04)
+* [Ubuntu: How to set each workspace to a separate monitor](https://superuser.com/questions/13096/ubuntu-how-to-set-each-workspace-to-a-separate-monitor)
+* [How To Configure Your Monitors With Xrandr in Linux](https://linuxconfig.org/how-to-configure-your-monitors-with-xrandr-in-linux)
+
+## Procedure Used in 2024 - DONE
+In 2024, I have been using two moniors for sometime, with Wayland, and the video card works fine.
+All that needs to be done is set the motherboard and Ubuntu for dual monitors.
+
+#### Step 1: Modify BIOS on Motherboard - DONE
+My new motherboard is the [MSI PRO Z690-A ProSeries][55]
+and I continued to use the old video card ([MSI Geforce 210][26] / [N210-MD1G/D3][27])
+to drive the second monitor screen.
+
+I set the BIOS of the motherboard to initial graphics adapter would be the CPUs Intgrated Graphics Device (IGD).
+I found that multi-monitor support was activated by default, but enable this if not.
+
+Sources:
+* [MSI PRO Z690-A ProSeries: Manual & Documents][56]
+
+#### Step 2: Configure Ubuntu for Multiple Displays - DONE
+Within Ubuntu on the **Settings* > **Displays** app,
+you'll need to configure the two displays.
+This requires some playing around for what you prefers.
+It's easy to do but [this website][31] might help.
+
+
+-----
 
 
 
@@ -551,8 +477,14 @@ Sources:
 * [Ubuntu 22.04 network configuration](https://linuxconfig.org/ubuntu-22-04-network-configuration)
 * [Netplan network configuration tutorial for beginners][13]
 * [How to switch back networking to /etc/network/interfaces on Ubuntu 20.04 Focal Fossa Linux](https://linuxconfig.org/how-to-switch-back-networking-to-etc-network-interfaces-on-ubuntu-20-04-focal-fossa-linux)
+* [How to configure networking with Netplan on Ubuntu](https://vitux.com/how-to-configure-networking-with-netplan-on-ubuntu/)
+* [Have a Plan for Netplan](https://www.linuxjournal.com/content/have-plan-netplan)
+* [Ubuntu netplan gateway4 has been deprecated](https://tizutech.com/ubuntu-netplan-gateway4-has-been-deprecated/)
+* [Netplan reference](https://netplan.io/reference/)
+* [Netplan configuration examples](https://netplan.io/examples/)
+* [How to Configure Netplan Network? – LAB Examples](https://getlabsdone.com/how-to-configure-netplan-network/)
 
-#### Step X: Check How is Your Network Being Managed - DONE
+#### Step 1: Check How is Your Network Being Managed - DONE
 To see how your network is being managed,
 first you must know if you're system is initializing with `systemd`
 or the older `init` as it's first process.
@@ -619,12 +551,13 @@ Sources
 
 * [Am I running NetworkManager or networkd?](https://askubuntu.com/questions/1031439/am-i-running-networkmanager-or-networkd)
 
-#### Step 1: Configuring Your Ethernet Connection - DONE
+#### Step 2: Configuring Your Ethernet Connection - DONE
 All of the above is a bit overwhelming.
 I just want to do some basic configuration of my networks.
 The install of Ubuntu defaulted to DHCP Ethernet connection with no WiFi.
 I want to change this so the Ethernet is a static IP
-and WiFi is also operational using DHCP.
+and WiFi is also operational using DHCP
+(assuming the motherboard supports WiFI, in my case it does not).
 
 You can make these updates with `Settings` app in the Ubuntu desktop toolbar.
 I used the settings below:
@@ -637,11 +570,13 @@ Net Mask    255.255.255.0
 DNS         192.168.1.1, 1.1.1.1, 1.0.0.1
 ```
 
-#### Step 2: Configuring Your WiFi Connection - DONE
+Make sure to reboot when completed and validate the change.
+
+#### Step X: Configuring Your WiFi Connection - DONE, NOT
 Again using the `Settings` app in the Ubuntu desktop toolbar,
 configure your WiFi for a DHCP connection.
 
-#### Step X: Configure Your Network via Netpaln
+#### Step X: Configure Your Network via Netplan - DONE, NOT
 
 ```yaml
 #
@@ -698,7 +633,7 @@ network:
         addresses: [192.168.1.1, 8.8.8.8, 8.8.4.4]
 ```
 
-#### Step X: Test and Apply Your Network Configuration
+#### Step X: Test and Apply Your Network Configuration - DONE, NOT
 * **`netplan try`** is used to try a configuration,
 and optionally roll it back if the user doesn’t confirm it after a certain amount of time.
 The default timeout is of 120 seconds but it can be changed using the --timeout option.
@@ -726,8 +661,7 @@ To run debug, use the following command
 sudo netplan apply --debug
 ```
 
-
-#### Step X: Restart the Network Service
+#### Step X: Restart the Network Service - DONE, NOT
 Once all the configurations are successfully applied,
 restart the Network-Manager service by running the following command:
 
@@ -742,128 +676,1096 @@ sudo systemctl restart system-networkd
 ip address
 ```
 
-#### Rename Interface
-* [ubuntu 22.04 persistent network interface names](https://www.google.com/search?q=ubuntu+22.04+persistent+network+interface+names&sxsrf=ALiCzsYPpufekZV53gZk1KxELS1wlUxmRQ%3A1653143932949&ei=fPmIYu_KOYzWytMP2O-JwAQ&ved=0ahUKEwjv-IqH6fD3AhUMq3IEHdh3AkgQ4dUDCA4&uact=5&oq=ubuntu+22.04+persistent+network+interface+names&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgjELACECdKBAhBGABKBAhGGABQsQpYgh5g9iFoAnABeACAATyIAdoCkgEBN5gBAKABAcgBCMABAQ&sclient=gws-wiz)
-* [How to rename a network interface in 20.04](https://askubuntu.com/questions/1317036/how-to-rename-a-network-interface-in-20-04)
-* [A sysadmin's guide to network interface configuration files](https://opensource.com/article/22/8/network-configuration-files)
-
-
-
-* [How to configure networking with Netplan on Ubuntu](https://vitux.com/how-to-configure-networking-with-netplan-on-ubuntu/)
-* [Have a Plan for Netplan](https://www.linuxjournal.com/content/have-plan-netplan)
-* [Ubuntu netplan gateway4 has been deprecated](https://tizutech.com/ubuntu-netplan-gateway4-has-been-deprecated/)
-* [Netplan reference](https://netplan.io/reference/)
-* [Netplan configuration examples](https://netplan.io/examples/)
-* [How to Configure Netplan Network? – LAB Examples](https://getlabsdone.com/how-to-configure-netplan-network/)
 
 
 -----
 
 
 
-# Setup Dual Monitor
-With this refresh of my Linux desktop computer,
-I'm upgrading to a dual monitor configuration.
-To do this, I'll need to
-
-1. Purchase another monitor display equivalent to my existing display
-([32" LG 32GN50T-B Monitor Ultragear FHD SYNC][28]) and a [dual monitor stand][29].
-2. Purchase a video card ([MSI Geforce 210][26] / [N210-MD1G/D3][27]) to drive the second monitor screen.
-3. Need to modify BIOS on [motherboard (Intel Desktop Board DZ77GA-70K)][25] to support dual monitor.
-4. Within Ubuntu on the **Settings* > **Displays** app, I'll need to configure the two displays
-5. Set the brightness, color setting, etc. on the two displays to be visually equivalent.
-
-Alternatives ...
-* [Raspberry Pi Adds Second Laptop Monitor](https://hackaday.com/2023/03/15/raspberry-pi-adds-second-laptop-monitor/#more-581185)
+# Mount NFS, SSDs, and RAID Drive
+First, you'll need to find what disks you have install,
+regardless if they are mounted or not.
+You can do this with the `fdisk` command and via the `/etc/fstab` file.
 
 Sources:
+* [How To Manage RAID Arrays with mdadm on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-manage-raid-arrays-with-mdadm-on-ubuntu-16-04)
+* [HOWTO: Repair a broken Ext4 Superblock in Ubuntu](https://linuxexpresso.wordpress.com/2010/03/31/repair-a-broken-ext4-superblock-in-ubuntu/)
 
-* [How do dual monitors work?](https://www.youtube.com/watch?v=rjNCWK_MfZs)
-* [How to Use Onboard Graphics for Second Monitor](https://www.youtube.com/watch?v=8iT1pgPo-1E)
-* [How to Setup Dual Monitor | Windows | Linux | MAC](https://www.technowifi.com/how-to/how-to-setup-dual-monitor/)
+# v---------------- OUT OF DATE ------------------ OUT OF DATE ----------------v
 
-#### Step 1: Wayland or X11 Display Manager - DONE
-I read on the web that Wayland doesn't work well with a dual monitor setup, at least at this time.
-To avoid this challenge, I choose to continue to use X11.
+## Procedure Used in 2022 - DONE, NOT
+The RAID installation methodology I used in 2022 wasn't assisted by the Ubuntu installation script.
+Below is an outline of my 2022 RAID installation steps.
+See further down the (simpler) methodology used in 2024.
 
-You can check for the display manager that you’re using with this command:
-
+#### Step 1: Gather Data - DONE, NOT
 ```bash
-# check for type of display server (wayland / X11)
-$ echo $XDG_SESSION_TYPE
-wayland
+# list all the drives install on the computer
+$ sudo fdisk -l | grep Disk | grep -v loop | grep -v dos
+Disk /dev/sda: 119.24 GiB, 128035676160 bytes, 250069680 sectors
+Disk model: Samsung SSD 840
+Disk identifier: 0x0008f01d
+Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1SB1
+Disk identifier: 0xe9fd17be
+Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1CH1
+Disk identifier: 0xe9fd17be
+
+# we are interested in sdb and sdc
+$ sudo fdisk -l /dev/sdb /dev/sdc
+Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1SB1
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0xe9fd17be
+
+Device     Boot Start        End    Sectors   Size Id Type
+/dev/sdb1        2048 1953525167 1953523120 931.5G 83 Linux
+
+
+Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1CH1
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0xe9fd17be
+
+Device     Boot Start        End    Sectors   Size Id Type
+/dev/sdc1        2048 1953525167 1953523120 931.5G 83 Linux
 ```
 
-You can also switch between Xorg (aka X11) and Wayland when you login.
-You find a bottom at the lower right hand corner of the login screen.
-The video "[How to Switch Between Xorg and Wayland in Ubuntu 20.04 18.04][21]"
-shows how this is done.
+We know that the multi-partitioned drive `/dev/sda` was used to load the Ubuntu OS.
+Therefore, the drives `/dev/sdb` and `/dev/sdc` are the drives we are interested creating the RAID.
+We also know the serial number of the oldest drive in the RAID is `Z1D3N7RY`
+(see `solving-raid-disk-failure.md`).
+Let's list the serial numbers on the drives:
+
+```bash
+# get the serial number of the sdb drive
+$ sudo smartctl -i /dev/sdb1 | grep -E "Serial|Model"
+Model Family:     Seagate Barracuda 7200.14 (AF)
+Device Model:     ST1000DM003-1SB102
+Serial Number:    W9ANL1XX
+
+# get the serial number of the sdc drive
+jeff@desktop: ~ $ sudo smartctl -i /dev/sdc1 | grep -E "Serial|Model"
+Model Family:     Seagate Barracuda 7200.14 (AF)
+Device Model:     ST1000DM003-1CH162
+Serial Number:    Z1D3N7RY
+```
+
+#### Step 2: Create The Array - DONE, NOT
+>**NOTE:** I was unable to successfully assemble the disks into a function RAID One array.
+>As a result, I resorted to creating a fresh array and I will restore the files from my backups.
+
+To create an empty RAID 1 array with `/dev/sdb` and `dev/sdc`
+
+```bash
+# create the raid one array
+sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
+```
+
+The mdadm tool will start to mirror the drives.
+This can take some time to complete, but you can monitor the progress of the mirroring by checking the /proc/mdstat file:
+
+```bash
+# monitor the progress of the mirroring
+$ cat /proc/mdstat
+Personalities : [raid1]
+md0 : active raid1 sdc[1] sdb[0]
+      976630464 blocks super 1.2 [2/2] [UU]
+      [=>...................]  resync =  9.4% (92582784/976630464) finish=90.4min speed=162962K/sec
+      bitmap: 8/8 pages [32KB], 65536KB chunk
+
+unused devices: <none>
+```
+
+>**NOTE:** To stop a RAID array, assuming its **not mount**, you `sudo mdadm --stop /dev/md0`.
+>If mounted, then do `sudo umount /mnt/md0 && sudo mdadm --stop /dev/md0`.
+
+Once this array creation process completes,
+you can create a filesystem on the array:
+
+```bash
+# validate the setup
+sudo mdadm --detail /dev/md0
+
+# create a filesystem on the array
+$ sudo mkfs.ext4 -F /dev/md0
+mke2fs 1.46.5 (30-Dec-2021)
+Creating filesystem with 244157616 4k blocks and 61046784 inodes
+Filesystem UUID: 126e8dc9-e13c-440f-bb02-dc266378329f
+Superblock backups stored on blocks:
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
+	4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968,
+	102400000, 214990848
+
+Allocating group tables: done
+Writing inode tables: done
+Creating journal (262144 blocks): done
+Writing superblocks and filesystem accounting information: done
+```
+
+#### Step 3: Mount The RAID Array - DONE, NOT
+We want to mount the array as the `/home` directory for the Ubuntu OS.
+This is where all the Ubuntu user accounts are located.
+To do this, we'll need to move all the existing data out of `/home`.
+That should only be the directory for the `jeff` account.
+
+For Ubuntu, it seems it is also necessary to update the `/etc/mdadm/mdadm.conf` file.
+If this is not done, the RAID device will not be mounted when you reboot the system.
+The solution is to run the following command on your system,
+once the RAID drive has been configured:
+
+```bash
+# check the final status of the raid array
+sudo mdadm -D /dev/md0
+
+# move data out of home directory
+sudo mkdir /mnt/jeff-admin/tmp
+sudo cp -R /home/* /mnt/jeff-admin/tmp
+
+# clean out /home directory to prepare for the mounting of the raid array
+sudo trash /home/jeff
+
+# mount the raid array filesystem
+sudo mount /dev/md0 /home
+```
+
+#### Step 4: Saving the Array Layout - DONE, NOT
+To make sure that the array is reassembled automatically at boot:
+
+1. update the `/etc/mdadm/mdadm.conf` file with the arrays configuration
+2. update the `initramfs`, or initial RAM file system, so that the array will be available during the early boot process
+3. add the new filesystem mount options to the /`etc/fstab` file for automatic mounting at boot
+
+```bash
+# automatically scan the active array and append
+sudo cp /etc/mdadm/mdadm.conf /etc/mdadm/mdadm.conf_backup
+sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
+perminatly
+# update initial RAM file system
+$ sudo update-initramfs -u
+update-initramfs: Generating /boot/initrd.img-5.15.0-27-generic
+
+# automatic mount array at boot
+echo '/dev/md0 /home ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
+
+# inspect /etc/fstab
+$ cat /etc/fstab
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda6 during installation
+UUID=65e559c7-e595-4ab6-89a1-7b27d071bc3d /   ext4  errors=remount-ro  0  1
+# /boot/efi was on /dev/sda3 during installation
+UUID=CACF-2C59  /boot/efi       vfat    umask=0077                     0  1
+/swapfile       none            swap    sw                             0  0
+/dev/md0        /home           ext4    defaults,nofail,discard        0  0
+```
+
+Now test if the RAID array gets auto-mounted by doing a reboot.
+
+```bash
+# do a reboot
+sudo shutdown -r now
+
+# check if the raid has been mounted on /home
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.0M  1.6G   1% /run
+/dev/sda6       109G   14G   90G  14% /
+tmpfs           7.8G     0  7.8G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/md0        916G   28K  870G   1% /home
+/dev/sda3       512M  5.3M  507M   2% /boot/efi
+tmpfs           1.6G   96K  1.6G   1% /run/user/1001
+
+# check raid configuration and health
+$ sudo mdadm --detail /dev/md0
+/dev/md0:
+           Version : 1.2
+     Creation Time : Tue May  3 22:07:00 2022
+        Raid Level : raid1
+        Array Size : 976630464 (931.39 GiB 1000.07 GB)
+     Used Dev Size : 976630464 (931.39 GiB 1000.07 GB)
+      Raid Devices : 2
+     Total Devices : 2
+       Persistence : Superblock is persistent
+
+     Intent Bitmap : Internal
+
+       Update Time : Fri Apr 12 13:12:10 2024
+             State : active
+    Active Devices : 2
+   Working Devices : 2
+    Failed Devices : 0
+     Spare Devices : 0
+
+Consistency Policy : bitmap
+
+              Name : desktop:0  (local to host desktop)
+              UUID : 56ea45a5:da6e9b9b:99224085:1941111a
+            Events : 2459477
+
+    Number   Major   Minor   RaidDevice State
+       0       8       32        0      active sync   /dev/sdc
+       1       8        0        1      active sync   /dev/sda
+```
+
+All looks good!
+
+Source:
+* [How to check RAID configuration in Linux](https://www.cyberciti.biz/faq/how-to-check-raid-configuration-in-linux/)
+
+#### Step 5: Load Backup to /home - DONE, NOT
+* [Backup and Restore Your Linux System with rsync](https://averagelinuxuser.com/backup-and-restore-your-linux-system-with-rsync/)
+
+Basically, these three options needed to preserve all the attributes of your files.
+Owner attributes or permissions will not be modified during the backup process.
+
+* `-a` - archive mode
+* `-A` - preserve Access Control List
+* `-X` - preserve extended attributes
+
+* --delete - this option allows you to make an incremental backup. That means, if it is not your first backup, it will backup only the difference between your source and the destination. So, it will backup only new files and modified files and it will also delete all the files in the backup which were deleted on your system. Be careful with this option.
+* --dry-run - This option simulates the backup. Useful to test its execution.
+
+```bash
+# do a dry-run test
+sudo rsync --dry-run -aAXv --exclude="lost+found" /media/jeff-admin/c484e1d5-5e9d-4f95-bca9-de500fa3d44e/daily.0/desktop/home/ /home/
+
+# do the restoration for real
+sudo rsync -aAXv --exclude="lost+found" /media/jeff-admin/c484e1d5-5e9d-4f95-bca9-de500fa3d44e/daily.0/desktop/home/ /home/
+
+# filesystem status
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.1M  1.6G   1% /run
+/dev/sda6       109G   14G   90G  14% /
+tmpfs           7.8G  400M  7.4G   6% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/md0        916G  410G  460G  48% /home
+/dev/sda3       512M  5.3M  507M   2% /boot/efi
+tmpfs           1.6G  4.7M  1.6G   1% /run/user/1000
+```
+
+#### Step 6: Establish Additional Logins - DONE, NOT
+With the loading of backup files to `/home`,
+Some additional home directories have been established for the users:
+`jennie` and `backup_user`.
+
+```bash
+# create the required logins: user login
+sudo adduser --home /home/jennie jennie
+
+# make a group id for the backup user
+sudo groupadd -g 400 backup_user
+
+# create the required logins: user without a login
+sudo adduser --home /home/backup_user --disabled-login --disabled-password --uid 400 --gid 400 backup_user
+
+# to check if all is well
+cat /etc/passwd
+```
+
+# ^---------------- OUT OF DATE ------------------ OUT OF DATE ----------------^
+
+
+## Procedure Used in 2024 - DONE
+The procedure I used in 2024 was much easier since the Ubuntu install script
+detected that I had some RAID disks and it condition the operating install to prepare for the RAID install.
+The steps below document how this RAD activation went so that my
+`/home` directory could be seamlessly ported to the new hardware.
+
+#### Step 1: Gather Data - DONE
+I want to mount my RAID drive and the Ubuntu install said that it sensed the RAID instance.
+less gather some more information:
+
+```bash
+# gather some facts about the drives avalable mounted or unmouted
+$ sudo fdisk -l | grep Disk | grep -v loop | grep -v dos
+Disk /dev/nvme0n1: 465.76 GiB, 500107862016 bytes, 976773168 sectors
+Disk model: CT500P3PSSD8
+Disklabel type: gpt
+Disk identifier: 185E6172-8674-4D1B-9E24-816F168E112F
+Disk /dev/sda: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1CH1
+Disk identifier: 0xe9fd17be
+Disk /dev/sdb: 119.24 GiB, 128035676160 bytes, 250069680 sectors
+Disk model: Samsung SSD 840
+Disk identifier: 0x0008f01d
+Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1SB1
+Disk identifier: 0xe9fd17be
+Disk /dev/md0: 931.39 GiB, 1000069595136 bytes, 1953260928 sectors
+```
+
+This tells us ...
+* `/dev/nvme0n1` - This is the 500G NVME M.2 SSD drive and used to boot my new computer, only 221G partision is being sensed and the other particions are not.
+* `/dev/sda` - This is one of the 1T RAID drives used for my old computers `/home/jeff`.
+* `/dev/sdb` - This is my old computer's Samsung SSD I used for booting my old computer
+* `/dev/sdc` - This is one of the 1T RAID drives used for my old computers `/home/jeff`.
+* `/dev/md0` - This this is the RAID drive version used for my old computers `/home/jeff`.
+
+I want to restablish the `/dev/md0 RAID` (made fron `/dev/sda` & `/dev/sdc`),
+mount it as `/home/jeff`, and mount `/dev/sdb` it as `/old_computer` so I can temprarally access it if I wish too.
+
+Now gathering some more information:
+
+```bash
+$ sudo fdisk -l /dev/sda /dev/sdc
+Disk /dev/sda: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1CH1
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0xe9fd17be
+
+Device     Boot Start        End    Sectors   Size Id Type
+/dev/sda1        2048 1953525167 1953523120 931.5G 83 Linux
+
+
+Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
+Disk model: ST1000DM003-1SB1
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0xe9fd17be
+
+Device     Boot Start        End    Sectors   Size Id Type
+/dev/sdc1        2048 1953525167 1953523120 931.5G 83 Linux
+```
+
+```bash
+$ sudo fdisk -l /dev/md0
+Disk /dev/md0: 931.39 GiB, 1000069595136 bytes, 1953260928 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+```
+
+#### Step 2: Temporary Mount of RAID - DONE
+Sensing that everything was ready for the RAID to be mounted,
+I temporarily mounted the RAID with
+and measure the amount of data it contained just to see if all was well:
+
+```bash
+# temporarily mount the raid drive
+sudo mount /dev/md0 /mnt/jeff-admin
+
+# measure the data on the raid drive to see if you have any access problems
+du -h /mnt/jeff-admin
+```
+
+All seems well so next I will permanently mounting the RAID drive by updating the /`etc/fstab` file.
+
+#### Step 3: Mount RAID at Boot Time - DONE
+To make sure that the array is reassembled automatically at boot,
+I'm going to add the new filesystem mount options to the /`etc/fstab` file.
+
+```bash
+# make a backup of your working fstab
+sudo cp /etc/fstab /etc/fstab.bak
+
+# inject command to automatic mount array at boot
+echo '/dev/md0 /home ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
+
+# inspect /etc/fstab
+$ cat /etc/fstab
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/nvme0n1p2 during curtin installation
+/dev/disk/by-uuid/711cf65d-d8e2-4b88-8df2-7a2f9380d889 / ext4 defaults 0 1
+# / was on /dev/nvme0n1p3 during curtin installation
+/dev/disk/by-uuid/0bd118bd-c18f-4231-9184-29bebc0cbdca / ext4 defaults 0 1
+# /boot/efi was on /dev/nvme0n1p1 during curtin installation
+/dev/disk/by-uuid/0919-A14F /boot/efi vfat defaults 0 1
+/swap.img	none	swap	sw	0	0
+/dev/md0 /home ext4 defaults,nofail,discard 0 0
+```
+
+We can use [`sudo blkid -o list` or `blkid --uuid <device>`][59]
+to identify the device name and UUID:
+
+```bash
+# mount = /   - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+$ blkid --uuid 711cf65d-d8e2-4b88-8df2-7a2f9380d889
+/dev/nvme0n1p2
+
+# mount = /   - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+$ blkid --uuid 0bd118bd-c18f-4231-9184-29bebc0cbdca
+/dev/nvme0n1p3
+
+# mount = /boot/efi  - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+$ blkid --uuid 0919-A14F
+/dev/nvme0n1p1
+```
+
+Now if you do a `df -h`, and compare, you'll see a problem here.
+The device `/dev/nvme0n1p2` (aka uuid = `711cf65d-d8e2-4b88-8df2-7a2f9380d889`)
+never gets monuted.
+I believe this is because both `/dev/nvme0n1p2` and `/dev/nvme0n1p3` used the same mount point `/`.
+I'm going to make the mount point for `/dev/nvme0n1p2` be `/home2`.
+Also, my old Samsung SSD drive, left installed just in case I hade boot problems,
+was temporally mounted on `/media/jeff`.
+
+I want to fix all this, so here is my approach:
+
+1. We need to remove the existing `/home` directory so the `/etc/fstab` can mount the drive in its place.
+I'll replace the contents of `/home` with the backup login I created earlier.
+2. Change mount point of  `/dev/nvme0n1p2` to `/home2`.
+3. For my backup process (addressed later) crate a mount for my Synology DS220+ NAS.
+4. Make sure to create to create all mount point in the `/etc/fstab` file
+
+```bash
+# move the /home directory to a safe place
+mkdir /mnt/jeff-admin/tmp
+mv /home /mnt/jeff-admin/tmp
+
+# to get a complete list of disk drives uuid
+sudo blkid -o list
+
+# create the new mount points and validate its access rights
+sudo mkdir /home2
+ls -l / | grep home
+``
+# create the new mount points and validate its access rights
+sudo mkdir /old_computer
+ls -l / | grep old_computer
+```
+
+Here is the `/etc/fstab` file I install:
+
+```bash
+#                   <file system>                         <mount point>   <type>   <options>               <dump>  <pass>
+# was /dev/nvme0n1p1 during installation - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+/dev/disk/by-uuid/0919-A14F                                 /boot/efi      vfat     defaults                  0       1
+
+# was /dev/nvme0n1p2 during installation - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+/dev/disk/by-uuid/711cf65d-d8e2-4b88-8df2-7a2f9380d889      /home2         ext4     defaults                  0       1
+
+# was /dev/nvme0n1p3 during installation - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+/dev/disk/by-uuid/0bd118bd-c18f-4231-9184-29bebc0cbdca      /              ext4     defaults                  0       1
+
+# was /swap.img during installation
+swap.img                                                    none           swap        sw                     0       0
+
+# was /dev/md0 RAID disk formed from /dev/sda and /dev/sdc during installation - Seagate 1TB HDD (model ST1000DM003)
+#/dev/disk/by_uuid/126e8dc9-e13c-440f-bb02-dc266378329f      /home          ext4     defaults,nofail,discard   0       0   # <-- doesn't seem to work
+/dev/md0                                                    /home          ext4     defaults,nofail,discard   0       0
+
+# was /dev/sdb6 during installation - Samsung Electronics 840 Pro Series 2.5-Inch 128GB SSD
+/dev/disk/by-uuid/65e559c7-e595-4ab6-89a1-7b27d071bc3d      /old_computer  ext4     defaults                  0       1
+```
+
+Now test if the RAID array `/dev/md0` and the unmounted partition `/dev/nvme0n1p2`
+gets auto-mounted by doing a rebooting.
+
+```bash
+# do a reboot
+sudo shutdown -r now
+
+# check the filesystem
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           3.2G  2.4M  3.2G   1% /run
+efivarfs        256K   97K  155K  39% /sys/firmware/efi/efivars
+/dev/nvme0n1p3  211G   19G  181G  10% /
+tmpfs            16G     0   16G   0% /dev/shm
+tmpfs           5.0M   16K  5.0M   1% /run/lock
+/dev/sdb6       109G   41G   63G  40% /old_computer
+/dev/nvme0n1p2  246G   28K  233G   1% /home2
+/dev/nvme0n1p1  1.1G  6.1M  1.1G   1% /boot/efi
+/dev/md0        916G  467G  403G  54% /home
+tmpfs           3.2G   96K  3.2G   1% /run/user/1000
+```
+
+The above shows all is well now.
+
+#### Step 4: Set Up a NFS Mount - DONE
+NFS is a distributed file system protocol that allows you to mount remote directories on your server.
+This lets you manage storage space in a different location and write to that space from multiple clients.
+We have two servers in our architecture, with one sharing part of its filesystem (Synology NAS) with the other (`desktop`).
+Each of these should have a non-root user with sudo privileges,
+a firewall set up with UFW, and private networking if it’s available to you.
+I'll refer to the server that shares its directories as the **host** and the server that mounts these directories as the **client**.
+
+On the **host** you must have installed the `nfs-kernel-server` package,
+which should already have been done when NFS was activated on the Synology NAS.
+We will now focus on the **client** server.
+
+>**NOTE:** I'm mounting the **host** (aka Synology NAS) on the directory `/home2/nfs/synology-nas`.
+>I'm choosing a file system that doesn't involve my OS root directery (aka `/`).
+>I'm do this becasue in the past, when I have had device mounting problems,
+>I would end up filling my root directory with files and causing my OS to crash.
+>By using `/home2` when have these problems, I fill up a file system but the OS continues without crashing.
+
+Lets install on the **client** required software and test that NFS is working between
+the **cxlient** (aka `desktop`) and the **host** (aka Synology NAS):
+
+```bash
+# install the required nfs client utilities
+sudo apt install nfs-common
+```
+
+```bash
+# make a mount point for the nas filesystem and set permissions
+sudo mkdir -pv /home2/nfs/synology-nas
+
+# mount the nas filesystem on you desktop linux
+sudo mount 192.168.1.201:/volume1/NetBackup/desktop /home2/nfs/synology-nas
+
+# test if you can see the remote directories contents (must have some files there)
+$ sudo ls /home2/nfs/synology-nas/
+test-file.txt
+
+$ sudo touch /home2/nfs/synology-nas/test-file-2.txt
+$ sudo ls /home2/nfs/synology-nas/
+test-file-2.txt  test-file.txt
+
+# unmount the file system
+sudo umount /home2/nfs/synology-nas
+
+# if the above doesn't work, unmount the file system via this
+# also do a reboot to clean-up any mess from the '--force --lazy'
+sudo umount --force --lazy /home2/nfs/synology-nas
+sudo reboot
+```
+
+If the above is working properly, let make this mounting occure at boot time
+so we can schedule regular backups via `cron` (done in a later step).
+Places the following code within `/etc/fstab`:
+
+```bash
+#                   <file system>                         <mount point>                  <type>    <options>               <dump>  <pass>
+# was /dev/nvme0n1p1 during installation - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+/dev/disk/by-uuid/0919-A14F                                 /boot/efi                     vfat     defaults                  0       1
+
+# was /dev/nvme0n1p2 during installation - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+/dev/disk/by-uuid/711cf65d-d8e2-4b88-8df2-7a2f9380d889      /home2                        ext4     defaults                  0       1
+
+# was /dev/nvme0n1p3 during installation - Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD
+/dev/disk/by-uuid/0bd118bd-c18f-4231-9184-29bebc0cbdca      /                             ext4     defaults                  0       1
+
+# was /swap.img during installation
+swap.img                                                    none                          swap     sw                        0       0
+
+# was /dev/md0 RAID disk formed from /dev/sda and /dev/sdc during installation - Seagate 1TB HDD (model ST1000DM003)
+#/dev/disk/by_uuid/126e8dc9-e13c-440f-bb02-dc266378329f      /home                         ext4    defaults,nofail,discard   0       0   # <-- doesn't seem to work
+/dev/md0                                                    /home                         ext4     defaults,nofail,discard   0       0
+
+# was /dev/sdb6 during installation - Samsung Electronics 840 Pro Series 2.5-Inch 128GB SSD
+/dev/disk/by-uuid/65e559c7-e595-4ab6-89a1-7b27d071bc3d      /old_computer                 ext4     defaults                  0       1
+
+# mount of rsync/rsnapshot backup site - Synology DS220+ NAS
+192.168.1.201:/volume1/NetBackup                            /home2/nfs/synology-nas       nfs      rw,sync                   0       0
+```
+
+#### Step 5: Final Check of All Mounts - DONE
+Now test if the NFS link to the Synology NAS gets auto-mounted by doing a rebooting.
+
+```bash
+# do a reboot
+sudo shutdown -r now
+
+# check the filesystem
+$ df -h
+Filesystem                                Size  Used Avail Use% Mounted on
+tmpfs                                     3.2G  2.4M  3.2G   1% /run
+efivarfs                                  256K   97K  155K  39% /sys/firmware/efi/efivars
+/dev/nvme0n1p3                            211G   19G  181G  10% /
+tmpfs                                      16G  203M   16G   2% /dev/shm
+tmpfs                                     5.0M   16K  5.0M   1% /run/lock
+/dev/nvme0n1p2                            246G   36K  233G   1% /home2
+/dev/sdb6                                 109G   41G   63G  40% /old_computer
+/dev/nvme0n1p1                            1.1G  6.1M  1.1G   1% /boot/efi
+/dev/md0                                  916G  467G  403G  54% /home
+192.168.1.201:/volume1/NetBackup          7.0T  128G  6.9T   2% /home2/nfs/synology-nas
+tmpfs                                     3.2G   92K  3.2G   1% /run/user/1000
+
+# test if you can see the remote directories contents (must have some files there)
+$ sudo ls /home2/nfs/synology-nas/
+test-file-2.txt  test-file.txt
+```
+
+The above shows NFS is working and the `/home` directory appears to mount as a RAID.
+Lets inspect the RAID for its health status:
+
+```bash
+# do a reboot
+sudo shutdown -r now
+
+# check if the raid has been mounted on /home
+$ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.0M  1.6G   1% /run
+/dev/sda6       109G   14G   90G  14% /
+tmpfs           7.8G     0  7.8G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/md0        916G   28K  870G   1% /home
+/dev/sda3       512M  5.3M  507M   2% /boot/efi
+tmpfs           1.6G   96K  1.6G   1% /run/user/1001
+
+# check raid configuration and health
+$ sudo mdadm --detail /dev/md0
+/dev/md0:
+           Version : 1.2
+     Creation Time : Tue May  3 22:07:00 2022
+        Raid Level : raid1
+        Array Size : 976630464 (931.39 GiB 1000.07 GB)
+     Used Dev Size : 976630464 (931.39 GiB 1000.07 GB)
+      Raid Devices : 2
+     Total Devices : 2
+       Persistence : Superblock is persistent
+
+     Intent Bitmap : Internal
+
+       Update Time : Fri Apr 12 13:12:10 2024
+             State : active
+    Active Devices : 2
+   Working Devices : 2
+    Failed Devices : 0
+     Spare Devices : 0
+
+Consistency Policy : bitmap
+
+              Name : desktop:0  (local to host desktop)
+              UUID : 56ea45a5:da6e9b9b:99224085:1941111a
+            Events : 2459477
+
+    Number   Major   Minor   RaidDevice State
+       0       8       32        0      active sync   /dev/sdc
+       1       8        0        1      active sync   /dev/sda
+```
+
+All looks good!
 
 Sources:
-* [36C3 ChaosWest: X11 and Wayland: A tale of two implementations](https://www.youtube.com/watch?v=b8OY4VtYx1s)
-* [WAYLAND: what is it, and is it ready for daily use?](https://www.youtube.com/watch?v=g1BoZnekkyM)
-* [Wayland Is The Future Of Linux, What About Now?](https://www.youtube.com/watch?v=lm2aireP-wc)
+* [How to check RAID configuration in Linux](https://www.cyberciti.biz/faq/how-to-check-raid-configuration-in-linux/)
+* [How To Set Up an NFS Mount on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
+* [How to Use NFS to Mount Synology to Linux as a Storage Space?](https://linuxhint.com/nfs-mount-synology-linux/)
 
-#### Step 2: Modify BIOS on Motherboard - DONE
-To enable multiple display, you first must enable it on the computer's motherboard.
-In my case with the Intel DZ77GA-70K motherboard, I had to goto
-**Advance Settings** > **Devices & Peripherals** > **Video**.
 
-* For **Integrated Graphics Device** set to **Enable if Primary**
-* For **Primary Video Adaptor** set to **Int Graphics (IGD)**
+
+--------
+
+
+
+# Restart Rsnapshot Backup Processing
+To get your backup work again,
+you should read the document
+`/home/jeff/blogging/content/articles/network-backups-via-rsync-and-rsnapshot.md`.
+
+A large fraction of this work is done for you by reclaiming and mounting
+the `/home` directory (done in an earlier step)
+and using the scripts within `/home/bachup_user/bin`.
+
+In summary, the steps you need to perform, using the documentation above as your guide:
+
+1. You'll need to to install `rsync`, `rsnapshot`, and related software.
+2. Make changes to `full-backup.sh` so the `DESTINATION` point to your storage location.
+3. Modify the `/etc/rsnapshot.conf` to reflect you implementation of the backup.
+4. Do your first backups manually as a test and set the foundation for the `cron` automation.
+5. To get automated backups running, update the `crontab` file for the user `backup_user` and restart it.
+
+#### Step 1: Install Required Backup Software - DONE
+The installation of required software for backups has been already done early,
+but just  in case you missed it:
+
+```bash
+# install rsync, grsync, and rsnapshot
+sudo apt install rsync grsync rsnapshot
+```
+
+#### Step 2: Make Changes to `full-backup.sh` - DONE
+The environment variable `DESTINATION` in `/home/backup_user/bin/full-backup.sh`
+needs to be changed to `DESTINATION="/home2/nfs/synology-nas/desktop/full-backup/$DIR"`.
+
+#### Step 3: Make Changes to `nsnapshot.conf` - DONE
+You need to create a configuration file `/etc/nsnapshot.conf`.
+This configuration file should look like this:
+
+```
+#################################################
+# rsnapshot.conf - rsnapshot configuration file #
+#################################################
+#                                               #
+# PLEASE BE AWARE OF THE FOLLOWING RULE:        #
+#                                               #
+# This file requires tabs between elements      #
+#                                               #
+#################################################
+
+#######################
+# CONFIG FILE VERSION #
+#######################
+
+config_version	1.2
+
+
+# location where backups will be stored
+snapshot_root	/home2/nfs/synology-nas/desktop
+
+# rsync command executed on the remote system
+cmd_rsync	/usr/bin/rsync
+
+# incremental backup rules
+retain		hourly	6
+retain		daily	7
+retain		weekly	4
+retain		monthly	3
+
+# rsnapshot's log file
+logfile	/var/log/rsnapshot.log
+
+# All rsync commands have at least these options set.
+rsync_short_args	-aev
+rsync_long_args	--delete --numeric-ids --relative --delete-excluded
+
+# ssh args passed
+ssh_args	-i /home/backup_user/.ssh/id_rsa
+
+# systems to be backed up, what high level directory name is to be used
+# and the additional arguments to pass to rsync
+backup	/	desktop/	exclude_file=/home/backup_user/rsync-exclude-desktop
+#backup	backup_user@RedRPi:/	RedRPi/	exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
+#backup	backup_user@BlackRPi:/	BlackRPi/	exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
+#backup	Sara@SaraPC:/	SaraPC/	exclude_file=/home/backup_user/rsync-exclude-windows,+rsync_long_args=--fake-super
+```
+
+>**NOTE:** The configuration file requires tabs between elements
+>and all directories require a trailing slash.
+>Just open the configuration file using a text editor such as `vim` or `nvim` ... but be careful.
+>Many editors are set to convert any tabs entered by the user to spaces.
+>This can be a source of great confusion and frustration!
+
+#### Step 4: Perform Some Manual Backups - DONE
+To validate that your `rsnapshot` and its configuration files are set-up properly,
+execute the commands `sudo /usr/bin/rsnapshot hourly`.
+Because its the first instance of making a backup,
+its likely to run for several hours, but that is OK.
+Its import to run it manually like this since, once its automated via `cron`,
+long running backups could overlap in time.
+
+```bash
+# execute your first backup manual - this will run a long time (626 GB took 4.5 hours)
+sudo /usr/bin/rsnapshot hourly
+```
+
+At a later time, take a snapshot of a full backup for you long term records.
+
+```bash
+# take a full backup
+sudo /home/backup_user/bin/full-backup.sh
+```
+
+#### Step 5: Automating (Scheduling) Backups via `crontab` - DONE
+Linux [cron][57] is used to schedule commands to be executed periodically.
+You can setup commands or scripts, which will be repeatedly run at a set time.
+
+>**NOTE:** The cron service (daemon) runs in the background and constantly checks the `/etc/crontab` file,
+>and `/etc/cron.*/` directories.
+>It also checks the `/var/spool/cron/` directory.
+>Review the article [CronHowTo][58] to see how you can schedule and run tasks
+>in the background automatically at regular intervals using `crontab` files.
+>Crontab ( **cron** **tab**le ) is a file which contains the schedule of cron entries to be run and at specified times.
+
+How to use `cron`:
+
+* To use `cron` for tasks meant to run only for your user profile,
+add entries to your own user's `crontab` file.
+To edit the `crontab` file: `crontab -e`. To list `crontab` contents: `crontab -l`.
+* Commands that normally run with superuser privileges should be added to the root `crontab`.
+To edit the root `crontab` file: `sudo crontab -e`. To list `crontab` contents: `sudo crontab -l`.
+* To perform these operation as <user>, do the following: `sudo crontab -u <user> -e` and  `sudo crontab -u <user> -l`.
+* you can load the content of a file into `cron` by doing the following: `crontab <file>`
+
+For our application, the `backup_user` account we established is for backup `cron` job.
+You can use `sudo crontab -l` to list the contents of crontab.
+To update it, use `crontab -e` and enter the following:
+
+```bash
+# create a `crontab` for user `backup_user`
+sudo crontab -u backup_user -e
+
+# copy the text below into the `crontab`
+```
+
+```
+# Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+# Version:      1.5.0
+
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+#
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').#
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+#
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+#
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+#
+# Instead of the first five fields, one of eight special strings may be applied:
+# string         meaning
+# ------         -------
+# @reboot        Run once, at startup.
+# @yearly        Run once a year, "0 0 1 1 *".
+# @annually      (same as @yearly)
+# @monthly       Run once a month, "0 0 1 * *".
+# @weekly        Run once a week, "0 0 * * 0".
+# @daily         Run once a day, "0 0 * * *".
+# @midnight      (same as @daily)
+# @hourly        Run once an hour, "0 * * * *".
+#
+# Examples
+# @reboot <command> #Runs at boot
+# @yearly <command> #Runs once a year [0 0 1 1 *]
+#
+#
+#
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+#     +------------- minutes (0 - 59)
+#     |      +----------- hour (0 - 23)
+#     |      |          +--------- day of month (1 - 31)
+#     |      |          |         +------- month (1 - 12)
+#     |      |          |         |         +----- day of week (0 - 6) (Sunday = 0)
+#     |      |          |         |         |            +--- command to be executed
+#     |      |          |         |         |            |
+#     |      |          |         |         |            |
+#     m      h         dom       mon       dow
+#   minute  hour  day-of-month  month   day-of-week   command
+      0     */4         *         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh hourly
+     30      2          *         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh daily
+     30     10          *         *         6         /home/backup_user/bin/rsnapshot-wrapper.sh weekly
+     30     14          1         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh monthly
+```
+
+For `crontab` execute of the backup process,
+I created a wrapper script and placed it in `/home/backup_user/bin/rsnapshot-wrapper.sh`.
+
+Check on the validity of what you created and restart `cron` to make sure the changes are in effect:
+
+```bash
+# validate you work
+sudo crontab -u backup_user -l
+
+# also validate here - this is where a user's crontab is stored
+sudo cat /var/spool/cron/crontabs/backup_user
+
+# restart cron to make sure the changes you made are put into effect
+sudo service cron restart
+```
 
 Sources:
-* [Intel DZ77GA-70K Visual BIOS Overview](https://www.youtube.com/watch?v=dpZr2khbPWQ)
-* [How To Enable Motherboard HDMI Port for Multiple Monitors - Use Graphics Card & Integrated Graphics](https://www.youtube.com/watch?v=_Ftk8jQhsqE)
-* [How to clear CMOS on DZ77Ga-70k?](https://community.intel.com/t5/Intel-Desktop-Boards/How-to-clear-CMOS-on-DZ77Ga-70k/m-p/199753)
-* [Bios Setup Configuration Jumper Settings - Intel DZ77GA-70K Specification](https://www.manualslib.com/manual/440805/Intel-Dz77ga-70k.html?page=64)
+* [CronHowTo][58]
+* [List Cron Jobs on Linux](https://www.linode.com/docs/guides/how-to-list-cron-jobs/)
+* [Cron Vs Anacron: How to Schedule Jobs Using Anacron on Linux](https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux/)
+* [Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation)
 
-#### Step 3: Install Monitors and Video Card - DONE
-I followed the install procedures that came with the devices.
-It was basically "plug & play".
 
-I did not install any special driver for the video card.
-You find may references on the web about installing [Linux Nvidia drivers][30],
-and may stories about things going wrong.
-Try using the video card without new drivers first;
-its likely good enough unless your a gamer.
 
-#### Step 4: Configure Ubuntu for Multiple Displays - DONE
-Within Ubuntu on the **Settings* > **Displays** app,
-you'll need to configure the two displays.
-This requires some playing around for what you prefers.
-It's easy to do but [this website][31] might help.
+----
 
-Also, you'll want the two displays to be visually equivalent.
-This involves setting the brightness, color setting, etc. to be the same on both displays.
-For my displays, this required using [this feature][32].
 
->**NOTE:** Some of the information on the Web can be confusing concerning dual monitor.
->Ubuntu 22.04 has a different [Gnome Tweaks][18] and [Settings][19] apps
->from previous version, so documentation can be misleading.
+
+# Development Tools: Docker & Portainer
+**Docker** is a popular application that simplifies the process of managing application processes in containers.
+Containers let you run your applications in resource-isolated processes.
+They’re similar to virtual machines, but containers are more portable,
+more resource-friendly, and more dependent on the host operating system.
+
+For applications depending on several services,
+orchestrating all the containers to start up, communicate,
+and shut down together can quickly become unwieldy.
+**Docker Compose** is a tool that allows you to run multi-container
+application environments based on definitions set in a YAML file.
+It uses service definitions to build fully customizable environments
+with multiple containers that can share networks and data volumes.
+
+Adopting container orchestration platforms like Kubernetes can be hard.
+**[Portainer][39]** is a popular Docker UI that helps you visualise your
+containers, images, volumes and networks.
+Portainer helps you centrally configure, manage and secure containerized environments,
+regardless of where they are hosted.
+It helps you take control of the Docker resources on your machine, avoiding lengthy terminal commands.
+
+>**NOTE:** By default, the docker command can only be run the root user
+>or by a user in the docker group, which is automatically created during Docker’s installation process.
 
 Sources:
 
-* [Connect another monitor to your computer](https://help.ubuntu.com/stable/ubuntu-help/display-dual-monitors.html)
-* [How to install Tweak Tool on Ubuntu 22.04 LTS Jammy Jellyfish Linux](https://linuxconfig.org/how-to-install-tweak-tool-on-ubuntu-22-04-lts-jammy-jellyfish-linux)
-* [Ubuntu 20.04: Workspaces and Multiple Monitors](https://www.thegygers.com/2020/07/30/ubuntu-20-04-workspaces-and-multiple-monitors/)
-* [Switch workspace on dual monitor 22.04](https://askubuntu.com/questions/1403554/switch-workspace-on-dual-monitor-22-04)
-* [Ubuntu: How to set each workspace to a separate monitor](https://superuser.com/questions/13096/ubuntu-how-to-set-each-workspace-to-a-separate-monitor)
-* [How To Configure Your Monitors With Xrandr in Linux](https://linuxconfig.org/how-to-configure-your-monitors-with-xrandr-in-linux)
+* [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+* [Install the Compose plugin](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
+* [How to Install Portainer on Ubuntu](https://www.wundertech.net/portainer-on-ubuntu/)
+* [nstall Portainer CE with Docker on Linux](https://docs.portainer.io/start/install-ce/server/docker/linux)
 
-#### Step 5: Get Screen Blanking Working
-Should we go back to Wayland?
+## Docker Engine & Docker Compose
 
-* [A Primer on Screen Blanking Under Xorg](https://shallowsky.com/linux/x-screen-blanking.html)
-* [xscreensaver - extensible screen saver and screen locking framework](https://manpages.ubuntu.com/manpages/xenial/man1/xscreensaver.1.html)
+#### Step 1: Install Docker - DONE
+To ensure we get the latest version,
+we’ll install Docker from the official Docker repository.
+To do that, we’ll add a new package source,
+add the GPG key from Docker to ensure the downloads are valid,
+and then install the package.
 
+```bash
+# before you can install docker engine, you need to uninstall any conflicting packages
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt remove $pkg; done
+
+# clean up any existing data
+rm /var/lib/docker/*
+
+# update your existing list of packages
+sudo apt update
+
+# install a few prerequisite packages which let apt use packages over https
+sudo apt install apt-transport-https ca-certificates curl gnupg software-properties-common
+
+# add docker's official gpg key
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# add the docker repository to apt sources
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# check to make sure you are about to install from docker repo or ubuntu repo
+apt-cache policy docker-ce
+```
+
+From the above last command,
+you'll see the installation will be from the Docker repository for Ubuntu 23.10.
+Now lets install Docker:
+
+```bash
+# install docker packages
+sudo apt install docker-ce
+
+# check to see if docker is running
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# docker should be running, but make sure
+sudo service docker start
+
+# verify that the docker engine installation is successful running
+sudo docker run hello-world
+```
+
+#### Step 2: Upgrade Docker - DONE
+Docker will be automatically by Ubuntu from the official Ubuntu repository for Docker.
+
+#### Step 3: Install Docker Compose - DONE
+To ensure we get the latest version,
+we’ll install Docker Compose from the official Docker repository.
+To do that, we’ll add a new package source,
+add the GPG key from Docker to ensure the downloads are valid,
+and then install the package.
+
+```bash
+# download docker compose
+sudo apt update
+sudo apt install docker-compose-plugin
+
+# verify that the installation was successful
+docker compose version
+```
+
+#### Step 4: Upgrade Docker Compose - DONE
+Docker Compose will be automatically by Ubuntu from the official Ubuntu repository for Docker.
+
+## Portainer
+Portainer gives users a way to manage their Docker containers,
+accross multiple sites, through a web interface.
+Portainer also gives you the ability to use stacks,
+which is an easy way to create new containers and allows them to be created using a docker-compose format.
+
+**NOTE:** Instructions below must be performed on Ubuntu 22.04 or greater.
+
+#### Step 1: Install Portainer - DONE
+Before you install Portainer on Ubuntu,
+you must ensure that you have Docker installed on Ubuntu first.
+
+```bash
+# create the volume for storing persistent data
+sudo docker volume create portainer_data
+
+# install the portainer container (ports 8000 is for agents and 9000 for web ui)
+sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+# check if portainer is running
+sudo docker ps -a -s
+
+# log into portainer  and setup your password, etc.
+#google-chrome https://localhost:9443   # <-- for https
+google-chrome https://localhost:9000   # <-- for https
+```
+
+Now using your browser, log into portainer via this URL: `localhost:9000`.
+
+#### Step 2: Upgrading Portainer - DONE, NOT
+To [upgrade to the latest version of Portainer Server][40],
+you must do it from the commandline.
+Use the following commands to stop Portainer, then remove the old version,
+and finally do a new install of Portainer.
+
+```bash
+# stop and remove the portainer container
+sudo docker stop portainer
+sudo docker rm portainer
+
+# pull down the latest version of portainer
+sudo docker pull portainer/portainer-ce:latest
+
+# reinstall portainer
+sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+```
+
+You may want to also upgrade the Portainer Agent and this must be done separately:
+
+```bash
+# stop and remove the portainer agent container
+sudo docker stop portainer_agent
+sudo docker rm portainer_agent
+
+# pull nd start the updated version of the image
+sudo docker pull portainer/agent:latest
+sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
+```
 
 
 -----
 
 
 
-# MyMedia - Music Streaming to Echo - DONE
+# MyMedia - Music Streaming to Echo
 I like to play music from my computer library stream it to my Amazon Echo (aka Alexa).
 To do this, I choose to use [My Media for Alexa][20].
 It cost only $5.50/year, and [My Media Alexa Skill](https://www.amazon.com/bizmodeller-My-Media/dp/B06XPP135L)
@@ -876,7 +1778,7 @@ You find the install methodology documented [here][42]
 and the specific instructions for my installation can be found here:
 `~/src/docker-containers/mymeda`.
 
-# Plex - Music Streaming to Echo - DONE
+# Plex - Music Streaming to Echo
 See `/home/jeff/blogging/content/ideas/desktop-fresh-install-of-ubuntu.md`.
 
 
@@ -885,13 +1787,13 @@ See `/home/jeff/blogging/content/ideas/desktop-fresh-install-of-ubuntu.md`.
 
 
 
-# Apache Web Server - Infrastructure to Support WebPages
+# Apache Web Server - Infrastructure to Support WebPages - DONE, NOT
 The Apache HTTP server is the most widely-used web server in the world.
 There are a variety of reasons may choose to install the Apache Web Server.
 You can use it for testing HTTP server for testing,
 or host your own blog or wiki using static web pages, as I plan to do.
 
-#### Step 1: Installing Apache - DONE
+#### Step 1: Installing Apache - DONE, NOT
 ```bash
 # installing apache
 sudo apt update
@@ -908,7 +1810,7 @@ $ hostname -I
 192.168.1.200 192.168.1.27 172.20.0.1 172.17.0.1 172.18.0.1
 ```
 
-#### Step X: Adjust the Firewall - DONE
+#### Step X: Adjust the Firewall - DONE, NOT
 Before using Apache as an external facing webserver,
 it’s necessary to modify the firewall settings to allow outside access to the default web ports.
 If you followed the installation process above,
@@ -960,7 +1862,7 @@ Apache                     ALLOW       Anywhere
 Apache (v6)                ALLOW       Anywhere (v6)
 ```
 
-#### Step X: Setting Up Virtual Hosts
+#### Step X: Setting Up Virtual Hosts - DONE, NOT
 Apache can run multiple websites on a single server,
 each of which can be customized and configured independently.
 The basic unit that describes a site or a domain is called a virtual host.
@@ -980,65 +1882,157 @@ Source:
 
 
 
-# Fix Desktop Backup Tools
-
-## Restart Synology Backup Processing
+# Establish Synology Backup Processing
 I'm using a Synology small office NAS to perfrom hourly backup of my Linux desktop system.
 Its a 2-bay [DiskStation DS220+][38] and much of its operation is not impacted by my
 refresh of the Ubuntu OS.
-Never the less, there is some house keeping to be done.
 
-#### Step X: Validate / Create Backup User - DONE
+What does have to be done is the reastablishment of my rsync/rsnapshot tools & process.
+I was using a USB attached drive in the past but now moving to the Synology NAS as a shared drive.
+I'm not using Active Backup for Business since its not currently supported on my version of Ubuntu.
+
+Sources:
+* /home/jeff/blogging/content/articles/network-backups-via-rsync-and-rsnapshot.md
+* /home/jeff/src/synology-nas/backup-tool/README.md
+* [How I configured my Synology NAS and Linux to use rsync for backups](https://obsolete29.com/posts/2022/04/30/how-i-configured-my-synology-nas-and-linux-to-use-rsync-for-backups/)
+* [How do I back up data from a Linux device to my Synology NAS via rsync?](https://kb.synology.com/en-global/DSM/tutorial/How_to_back_up_Linux_computer_to_Synology_NAS)
+* [Backup a Linux PC to a Synology NAS using Rsync!](https://www.wundertech.net/how-to-backup-a-linux-pc-to-a-synology-nas-using-rsync/)
+* [How to Use rsync on Synology NAS](https://linuxhint.com/use-rsync-synology-nas/)
+* [Backup and Restore Your Linux System with rsync](https://averagelinuxuser.com/backup-and-restore-your-linux-system-with-rsync/)
+
+#### Step 1: Install Required Software - DONE
+Rsync should already be installed on most Linux system.
+You can install it, and the [grsync][04] & [rsnapshot][08] tools, using this command:
+
+```bash
+# install rsync, grsync, and rsnapshot
+sudo apt install rsync grsync rsnapshot
+```
+
+For the backup process, I need to move files from the **client** (`desktop`) to the **host** (Synology NAS).
+I can do this via the [Network File System (NFS)][EE] or SMB
+(call [Samba][FF] on Linux and is a free software re-implementation of the [SMB networking protocol][GG]).
+The article "[NFS vs SAMBA vs CIFS][HH]" and "[NFS vs SMB – Which one to choose?][II]" pointed me to NFS as my solution.
+First, make sure NFS is activated on the Synology NAS (procedures outlined [here][JJ]),
+but you also need a NFS client on the source.
+
+The NFS Client is my Ubuntu desktop Linux box,
+and I configured it with these commands:
+
+```bash
+# install the required nfs client utilities
+sudo apt install nfs-common
+```
+
+We'll configure the NFS envirnment and our backup tools in a later step.
+
+[EE]:https://www.atera.com/blog/what-is-nfs-understanding-the-network-file-system/
+[FF]:https://en.wikipedia.org/wiki/Samba_(software)
+[GG]:https://en.wikipedia.org/wiki/Server_Message_Block
+[HH]:https://linuxconfig.org/nfs-vs-samba-vs-cifs
+[II]:https://bobcares.com/blog/nfs-vs-smb/
+[JJ]:https://linuxhint.com/nfs-mount-synology-linux/
+
+#### Step 1: Create Backup User and Validate - DONE
 On the Linux desktop, you need to assure there is a `backup_user` login,
 with a UID of less that 500,
 which will run the rsync / rsnapshot utilities
 and have `ssh` authentication keys.
 
 >**NOTE:** I choose a UID of 400 so that the `backup_user`
->would not appear on the Ubuntu login screen list.
->To hide a user from the Ubuntu login screen list,
+>would not appear on the Ubuntu/Debian login screen list.
+>To hide a user from the Ubuntu/Debian login screen list,
 >you should be able to add the name to the hidden-users
 >list in the file `/etc/lightdm/users.conf`, but there is a [problem][45].
 >The is an alternative, and that is to choose a UID value less than 500
 >(See the "minimum-uid" in `/etc/lightdm/users.conf`).
 
 ```bash
-# validate that backup_user login exist with uid of 400
-cat /etc/passwd | grep backup_user
+# validate that the backup_user home directory still exist, contains scripts, and has user ID of 400
+ls -la /home/backup_user
 
-# validate that backup_user has a home directory with required tools
-$ lsa /home/backup_user/
-bin/     .config/  .ssh/       .bash_history  .bashrc   rsync-exclude-desktop  rsync-exclude-windows  .viminfo
-.cache/  .local/   backup.log  .bash_logout   .profile  rsync-exclude-RPi      .selected_editor
+# validate that backup_user login doesn't currently exist
+cat /etc/passwd | grep backup_user
 ```
 
-#### Step X: Add backup_user to sudo list - DONE
+#### Step 2: Create Backup User - DONE
+On the Linux desktop, you need to assure there is a `backup_user` login,
+that login has a UID of 400, and it has the approprate SSH keys and filesystem access.
+The `backup_user` is not root, and therefore, the utilities it uses for backups
+(`rsync` and `rsnapshot`)
+can't freely move through the whole directory system, write files, and such.
+Using the [`visudo`][43] command,
+we'll need to edit the [`/etc/sudoers`][44] file by adding the approprate line items.
+
+Lets first create the `backup_user` account on `desktop`:
+
+```bash
+# create the backup_user account
+$ sudo adduser backup_user -u 400
+[sudo] password for jeff:
+info: Adding user 'backup_user' ...
+info: Adding new group 'backup_user' (400) ...
+info: Adding new user 'backup_user' (400) with group `backup_user (400)' ...
+useradd warning: backup_user's uid 400 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+warn: The home directory '/home/backup_user' already exists.  Not touching this directory.
+warn: Warning: The home directory '/home/backup_user' does not belong to the user you are currently creating.
+New password:
+Retype new password:
+passwd: password updated successfully
+Changing the user information for backup_user
+Enter the new value, or press ENTER for the default
+	Full Name []: backup_user
+	Room Number []:
+	Work Phone []:
+	Home Phone []:
+	Other []:
+Is the information correct? [Y/n] Y
+info: Adding new user 'backup_user' to supplemental / extra groups 'users' ...
+info: Adding user 'backup_user' to group 'users' ...
+
+# make sure everything has the proper owenrship
+sudo chown backup_user:backup_user /home/backup_user
+sudo chown backup_user:backup_user /home/backup_user/*
+sudo chown backup_user:backup_user /home/backup_user/.*
+
+# if a public ssh key doesn't already exist, create one
+sudo su backup_user
+cd ~
+ssh-keygen -N "" -f ~/.ssh/id_rsa
+exit
+```
+
+#### Step 3: Add backup_user to sudo List - DONE
 The `backup_user` is not root, and therefore, the utilities it uses for backups
 (`rsync` and `rsnapshot`)
 can't freely move through the whole directory system , write files, and such.
-Again using the [`visudo`][43] command,
-edit the [`/etc/sudoers`][44] file by adding the following
+Using the [`visudo`][43] command,
+edit the [`/etc/sudoers`][44] file by adding the apropriate
 to the bottom of the file.
 
-```bash
-# start the edit process and do the edits below
-sudo visudo /etc/sudoers
-
-# allows this user to not need a password to sudo the specified command(s)
-backup_user    ALL=NOPASSWD:    /usr/bin/rsync
-backup_user    ALL=NOPASSWD:    /usr/bin/rsnapshot
-```
-
-Now check your work:
+A [better approach][50] is to put be to put the access rules for the backup_user account in a single file.
+In this case, put the rules below in a file call `backup_user` in a directory `/etc/sudoers.d/`.
 
 ```bash
-# check if your edits took hold
-$ sudo cat /etc/sudoers | grep backup
+# create the target file and exit
+sudo vi /etc/sudoers.d/backup_user
+
+# add the following - allows this user to not need a password to sudo the specified command(s)
 backup_user    ALL=NOPASSWD:    /usr/bin/rsync
 backup_user    ALL=NOPASSWD:    /usr/bin/rsnapshot
+
+# make sure root owns this file
+$ ls -l /etc/sudoers.d/backup_user
+-rw-r--r-- 1 root root 186 Apr 10 21:44 /etc/sudoers.d/backup_user
 ```
 
-#### Step X: Increased Security of backup_user Account - DONE
+>**NOTE:** Why is there this `/etc/sudoers.d/` directory?
+>Changes made to files in `/etc/sudoers.d/` remain in place if you upgrade the system.
+>This can prevent user lockouts when the system is upgraded.
+>Ubuntu/Debian tends to like this behavior.
+>Other distributions are using this layout as well.
+
+#### Step 4: Increased Security of backup_user Account - DONE
 The final step is to lock all this down.
 To increase the security of the overall scheme,
 on the remote systems and on the local system,
@@ -1051,11 +2045,8 @@ sudo passwd --delete backup_user
 sudo usermod -s /bin/false backup_user
 ```
 
-#### Step X: Start Synology Backup Process - DONE
-You should be able to now restart your Synology backup NAS device.
-Check that backups are created.
-
-#### Step X: Restart Rsnapshot Backup Processing - DONE
+# v#################### REMOVE TEXT BETWEEN THESE LINES #######################v
+#### Step X: Restart Rsnapshot Backup Processing
 To get your backup work again,
 you should read the document
 `/home/jeff/blogging/content/articles/network-backups-via-rsync-and-rsnapshot.md`.
@@ -1070,15 +2061,181 @@ The steps you need to perform, using the documentation as your guide:
 4. To get automated backups running, update the `crontab` file for the
 user `backup_user` (if needed), and restart it.
 
+#### Step X: Scheduling (Automating) Backups in `crontab`
+Linux [cron][57] is used to schedule commands to be executed periodically.
+You can setup commands or scripts, which will be repeatedly run at a set time.
+
+>**NOTE:** The cron service (daemon) runs in the background and constantly checks the `/etc/crontab` file,
+>and `/etc/cron.*/` directories.
+>It also checks the `/var/spool/cron/` directory.
+>Review the article [CronHowTo][58] to see how you can schedule and run tasks
+>in the background automatically at regular intervals using `crontab` files.
+>Crontab ( **cron** **tab**le ) is a file which contains the schedule of cron entries to be run and at specified times.
+
+
+Under the `backup_user` account I established the Cron job for the backups.
+You can use `sudo crontab -l` to list the contents of crontab.
+To update it, use `crontab -e` and enter the following:
+
+```bash
+# Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+# Version:      1.5.0
+
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+#
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').#
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+#
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+#
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+#
+# Instead of the first five fields, one of eight special strings may be applied:
+# string         meaning
+# ------         -------
+# @reboot        Run once, at startup.
+# @yearly        Run once a year, "0 0 1 1 *".
+# @annually      (same as @yearly)
+# @monthly       Run once a month, "0 0 1 * *".
+# @weekly        Run once a week, "0 0 * * 0".
+# @daily         Run once a day, "0 0 * * *".
+# @midnight      (same as @daily)
+# @hourly        Run once an hour, "0 * * * *".
+#
+# Examples
+# @reboot <command> #Runs at boot
+# @yearly <command> #Runs once a year [0 0 1 1 *]
+#
+#
+#
+# For more information see the manual pages of crontab(5) and cron(8)
+#
+#     +------------- minutes (0 - 59)
+#     |      +----------- hour (0 - 23)
+#     |      |          +--------- day of month (1 - 31)
+#     |      |          |         +------- month (1 - 12)
+#     |      |          |         |         +----- day of week (0 - 6) (Sunday = 0)
+#     |      |          |         |         |            +--- command to be executed
+#     |      |          |         |         |            |
+#     |      |          |         |         |            |
+#     m      h         dom       mon       dow
+#   minute  hour  day-of-month  month   day-of-week   command
+      0     */4         *         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh hourly
+     30      2          *         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh daily
+     30     10          *         *         6         /home/backup_user/bin/rsnapshot-wrapper.sh weekly
+     30     14          1         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh monthly
+```
+
+Also, restart cron to make sure the changes are in effect:
+
+```bash
+# restart cron to make sure the changes are in effect
+sudo service cron restart
+```
+
+
+
+For `crontab`, I created a wrapper script and placed it in `/home/backup_user/bin/rsnapshot-wrapper.sh`.
+# ^#################### REMOVE TEXT BETWEEN THESE LINES #######################^
+
 
 
 -----
 
 
 
+# v#################### REMOVE TEXT BETWEEN THESE LINES #######################v
+-----
+
+**Active Backup for Business has LIMITED support for Linux** - see 5:10 minute mark on [Synology Active Backup Demo & Review 2023](https://youtu.be/kWTeOdZtmGw?si=3bzF8x49tqTSYpRo )
+
+# Setup of Synology NAS: Replications & Backups
+I'm using a Synology small office NAS to perfrom hourly backup of my Linux desktop system.
+Its a 2-bay [DiskStation DS220+][AA] and much of its operation is not impacted by my
+refresh of the Ubuntu OS but I will document the full setup process here
+since I want to make sure its set right.
+
+Next, some definitions:
+
+* Data **Backup** involves making a copy or copies of data
+and storing them off-site, with assured safety, in case the original is lost or damaged.
+It done in case of a major outage, it minimizes but doesn't prevent some data loss,
+and typically requires a lengthy amount of time to restore.
+* Data **Replication** is the act of copying data and then moving data to a site
+where it can be stored and restored rapidly,
+at least much more rapid than a data Backup.
+It is done in case of minor or isolated data loss,
+it can be done in such a way that data loss is very small or none at all,
+and restoration can be done within minutes.
+
+At the heart of Synology backup & replication methodology is the concept of a **Snapshot**.
+A snapshot leverages the DMS [Btrfs file system][BB] to create point-in-time copies of files.
+
+I'll be use [Active Backup for Business][CC] for data replication.
+I'll use [Hyperbackup][DD] for data backup.
+
+[AA]:https://www.makeuseof.com/tag/2-methods-to-clone-your-linux-hard-drive/
+[BB]:https://www.synology.com/en-global/dsm/Btrfs
+[CC]:https://www.synology.com/en-us/dsm/feature/active_backup_business
+[DD]:https://www.synology.com/en-us/dsm/feature/hyper_backup
+
+Sources:
+
+* [Synology Active Backup for Business setup and testing](https://www.youtube.com/watch?v=rUQAJRc5Amo)
+
+#### Step 1: Download, Install, and Activate Active Backup
+I'm going to assume this is done, but if not, just follow the methdology in the sources above.
+
+#### Step 2: Setup Active Backup Agent
+We need to install an agent on the system we are backing up to participate in the Synology backup process.
+To install this agent on your Linux `desktop` system, do the followiong:
+
+1. Within the Synology NAS, click on the **Active Backup for Business** Icons
+2. On the left-hand menu, select **Physical Server** > the tab **Linux** > button **Add Device**
+3. A window will display, and since I'll be connecting via IP address on my LAN, I go to the **Settings page** for a certificate.
+You may already have an active certificate or you might want to update an existing one.
+4. Continue to the next window and download the **deb x64** onto `desktop` and do the install via `unzip` the download,
+execut `sudo ./install.run` and then .... ERROR!!
+
+```
+Errors were encountered while processing:
+ synosnap
+ * failed to install snapshot driver
+**********************************************************************
+* Your kernel version is 6.5.0-27-generic, and the latest supported kernel version for the Synology Active Backup for Business Agent is 5.13
+* Please check if your distro / kernel version is supported in detail at
+* https://kb.synology.com/en-us/DSM/help/ActiveBackup/activebackup_business_requireandlimit
+**********************************************************************
+```
+
+I'm using the following
+* Ubuntu 23.10
+* DSM 7.2.1
+* Active Backup 2.6.2
+
+see latest status here - https://kb.synology.com/en-us/DSM/help/ActiveBackup/activebackup_business_requireandlimit?version=7
+
+#### Step 3:
+#### Step 4:
+#### Step 5:
+
+
+-----
+# ^#################### REMOVE TEXT BETWEEN THESE LINES #######################^
+
+
+
 # Fix Desktop Environment
 
-#### Step X: Re-Establish Desktop Layout - DONE
+#### Step X: Re-Establish Desktop Layout
 Install GNOME Extensions, GNOME Tweaks tool, and other such things using the following commands:
 
 ```bash
@@ -1103,7 +2260,7 @@ Sources:
 * [Gnome Tweaks 40 No Longer Manage Extensions, Use This Tool Instead](https://ubuntuhandbook.org/index.php/2021/05/gnome-tweaks-40-no-longer-manage-extensions/)
 * [How to Use GNOME Shell Extensions](https://itsfoss.com/gnome-shell-extensions/)
 
-#### Step X: Get Conky Working - DONE
+#### Step X: Get Conky Working
 Conky is a light-weight system monitor for X Window that displays any information on your desktop.
 It is highly configurable as it is able to monitor literally any aspect of your system
 from hard-drive temperature through number of users logged in to currently played music song.
@@ -1161,7 +2318,7 @@ Sources:
 * [How To: Configuring Conky](http://lusule.wordpress.com/2008/08/07/how-to-4/)
 
 
-#### Step X: Downloading Video Files - DONE
+#### Step X: Downloading Video Files
 If your interested in capturing a YouTube video,
 there is a very easy approach give in this video: [How to Download youtube videos on Ubuntu linux][14].
 Unfortunately, appears YouTube has caught on, and this no longer works.
@@ -1204,7 +2361,7 @@ When the time comes to upgrade Youtube-dl use:
 >`yt-dlp` is a feature-rich command-line audio/video downloader with support for thousands of sites.
 >Check out ["How to Use YT-DLP: The Complete Guide (2024)"][48].
 
-#### Step X: Install VLC Media Player - DONE
+#### Step X: Install VLC Media Player
 The default video media player on Ubuntu appears to be poor.
 Lets replace with a better tool, the [VLC media player][08].
 
@@ -1272,7 +2429,7 @@ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-
 ```
 ####################### REMOVE TEXT BETWEEN THESE LINES ########################
 
-#### Step 1: Install VirtualBox - DONE
+#### Step 1: Install VirtualBox
 Often the default Ubuntu repositories do not have the latest versions of the software,
 so instead, you chose to install from Oracle’s package repositories.
 Unfortunately, Virtualbox doesn't support Ubuntu 22.04 at this time and my efforts
@@ -1289,7 +2446,7 @@ $ VBoxManage -version
 6.1.32_Ubuntur149290
 ```
 
-#### Step 2: Install VirtualBox Extension Pack - DONE
+#### Step 2: Install VirtualBox Extension Pack
 Now we'll install the VirtualBox Extension Pack.
 It adds additional tools like USB 2.0 and 3.0, Remote Desktop, and encryption.
 Make sure to use the latest version from the [Oracle website][23].
@@ -1306,7 +2463,7 @@ sudo apt-get install virtualbox-ext-pack
 
 # Development Tools: Vagrant
 
-#### Step 1: Install Vagrant - DONE
+#### Step 1: Install Vagrant
 At the time of writing this post,
 the latest stable version of Vagrant is version 2.2.18.
 You can check the [Vagrant Download page][24] to see if a newer version is available to use instead.
@@ -1326,7 +2483,7 @@ $ vagrant --version
 Vagrant 2.2.19
 ```
 
-#### Step 2: Installing Vagrant's VirtualBox Guest Addition - DONE
+#### Step 2: Installing Vagrant's VirtualBox Guest Addition
 Along with the Vagrant install,
 it is essentially to installed and keep updated the Guest Addition package.
 Keeping the tools update is problematic enough,
@@ -1384,7 +2541,7 @@ or via a Pyhton's `pip` package management system (as done will be done here).
 
 Some good videos for learning Ansible can be found [here][37].
 
-#### Step 1: Installing Ansible - DONE
+#### Step 1: Installing Ansible
 I'm using the preferred method of Python Package Manager (`pip`)
 since it installs the most current version of Ansible:
 
@@ -1459,7 +2616,7 @@ pip uninstall ansible
 >  python version = 2.7.14 (default, Sep 23 2017, 22:06:14) [GCC 7.2.0]
 >```
 
-#### Step 2: Install Docker Extension - DONE
+#### Step 2: Install Docker Extension
 To manage Docker containers on remote machines,
 you need to install the Docker Ansible-Galaxy extension for Ansible:
 
@@ -1471,7 +2628,7 @@ ansible-galaxy collection install community.docker
 $ ls ~/.ansible/collections/ansible_collections/community
 ```
 
-#### Step 3: Set Your Ansible Path - DONE
+#### Step 3: Set Your Ansible Path
 Now configure your environmental variable `ANSIBLE_ROLES_PATH`.
 This path is where Ansible Galaxy will save every role you install
 and where Ansible will look when resolving the imports from your playbook.
@@ -1487,7 +2644,7 @@ I put put the following in my `.bashrc` file:
 # using default path ANSIBLE_ROLES_PATH="$HOME/.ansible"
 ```
 
-#### Step 4: Installing Vim Plugin for Ansible - DONE
+#### Step 4: Installing Vim Plugin for Ansible
 The Vim plugin, `ansible-vim` is a syntax plugin for Ansible 2.x,
 it supports YAML playbooks, Jinja2 templates, and Ansible's hosts files.
 
@@ -1504,7 +2661,7 @@ ansible-galaxy install geerlingguy.dotfiles ---roles-path=./
 ```
 
 ####################### REMOVE TEXT BETWEEN THESE LINES ########################
-#### Step 6: Create Your Remote Hosts - DONE
+#### Step 6: Create Your Remote Hosts
 The Ansible host computers could exist anywhere as long as they are reachable via SSH.
 For this exercise, I'm going to assume the host is on my Ansible server
 as Vagrant instances.
@@ -1531,11 +2688,10 @@ vagrant ssh
 ```
 ####################### REMOVE TEXT BETWEEN THESE LINES ########################
 
-#### Step 6: Set Up SSH Keys - DONE
+#### Step 6: Set Up SSH Keys
 Ansible primarily communicates with client computers through SSH.
 While it has the ability to handle password-based SSH authentication,
 using SSH keys can help to keep things simple.
-Check [here][39] if you need more information concerning SSH and its keys.
 
 For our example here, where we are creating our Ansible hosts as Vagrant instances,
 this setup and exchange of SSH keys isn't necessary.
@@ -1583,171 +2739,6 @@ and do the following:
 * [Ansible and Docker: the Best Combination for an Efficient Software Product Management](https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90)
 * [ANSIBLE — DOCKER WITH PORTAINER ON UBUNTU SERVER INSTALLATION](https://medium.com/@dmarko484/ansible-docker-with-portainer-on-ubuntu-server-installation-45a69e07785c)
 * [Automate Docker with Ansible deployments - The Digital Life](https://www.the-digital-life.com/deploy-docker-with-ansible/)
-
-
-
-
-----
-
-
-
-# Development Tools: Docker & Portainer
-**Docker** is a popular application that simplifies the process of managing application processes in containers.
-Containers let you run your applications in resource-isolated processes.
-They’re similar to virtual machines, but containers are more portable,
-more resource-friendly, and more dependent on the host operating system.
-
-For applications depending on several services,
-orchestrating all the containers to start up, communicate,
-and shut down together can quickly become unwieldy.
-**Docker Compose** is a tool that allows you to run multi-container
-application environments based on definitions set in a YAML file.
-It uses service definitions to build fully customizable environments
-with multiple containers that can share networks and data volumes.
-
-Adopting container orchestration platforms like Kubernetes can be hard.
-**[Portainer][61]** is a popular Docker UI that helps you visualise your
-containers, images, volumes and networks.
-Portainer helps you centrally configure, manage and secure containerized environments,
-regardless of where they are hosted.
-It helps you take control of the Docker resources on your machine, avoiding lengthy terminal commands.
-
->**NOTE:** By default, the docker command can only be run the root user
->or by a user in the docker group, which is automatically created during Docker’s installation process.
-
-Sources:
-
-* [How To Install and Use Docker on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
-* [How To Install and Use Docker Compose on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04)
-* [Deploying Portainer CE in Docker](https://documentation.portainer.io/v2.0/deploy/ceinstalldocker/)
-* [How to Install Portainer Docker UI Manager on Ubuntu 20.04 | 18.04 | 16.04](https://docs.fuga.cloud/how-to-install-portainer-docker-ui-manager-on-ubuntu-20.04-18.04-16.04)
-* [How to Install Portainer 2.0 on your Docker](https://www.letscloud.io/community/how-to-install-portainer)
-
-## Docker
-
-#### Step X: Install Docker - DONE
-To ensure we get the latest version,
-we’ll install Docker from the official Docker repository.
-To do that, we’ll add a new package source,
-add the GPG key from Docker to ensure the downloads are valid,
-and then install the package.
-
-```bash
-# update your existing list of packages
-sudo apt update
-
-# install a few prerequisite packages which let apt use packages over https
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-
-# add the GPG key for the official Docker repository
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-
-# add docker repository to apt sources
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-# update your list of packages
-sudo apt update
-
-# check to make sure you are about to install from
-# the docker repo instead of the default Ubuntu repo
-apt-cache policy docker-ce
-```
-
-From the above last command,
-you'll see the installation will be from the Docker repository for Ubuntu 22.04 (jammy).
-Now lets install Docker:
-
-```bash
-# install docker
-sudo apt install docker-ce
-
-# check to see if docker is running
-sudo systemctl status docker
-```
-
-#### Step X: Upgrade Docker
-Docker will be automatically by Ubuntu from the official Docker repository.
-
-## Docker Compose
-
-#### Step X: Install Docker Compose - DONE
-To ensure we get the latest version,
-we’ll install Docker Compose from the official Docker repository.
-To do that, we’ll add a new package source,
-add the GPG key from Docker to ensure the downloads are valid,
-and then install the package.
-
-First, we must confirm the latest version available for Docker Compose by check its [releases page][39].
-At the time of this writing, the most **current stable version is 2.5.0**.
-
-```bash
-# download docker compose
-mkdir -p ~/.docker/cli-plugins/
-curl -SL https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
-
-# set the correct permissions
-chmod +x ~/.docker/cli-plugins/docker-compose
-
-# verify that the installation was successful
-docker compose version
-```
-
-#### Step X: Upgrade Docker Compose
-You'll need to upgrade Docker Compose from time-to-time via:
-
-```bash
-# download docker compose
-mkdir -p ~/.docker/cli-plugins/
-curl -SL https://github.com/docker/compose/releases/download/v2.5.0/docker-compose-linux-x86_64 -o ~/.docker/cli-plugins/docker-compose
-```
-
-## Portainer
-
-#### Step X: Install Portainer - DONE
-Use the following Docker commands to deploy the Portainer Server.
-
-```bash
-# create the volume for storing persistent data
-sudo docker volume create portainer_data
-
-# install the portainer container (ports 8000 is for agents and 9000 for web ui)
-sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-
-# check if portainer is running
-sudo docker ps -a -s
-```
-
-Now using your browser, log into portainer via this URL: `localhost:9000`.
-
-#### Step X: Upgrading Portainer
-To [upgrade to the latest version of Portainer Server][40],
-you must do it from the commandline.
-Use the following commands to stop Portainer, then remove the old version,
-and finally do a new install of Portainer.
-
-```bash
-# stop and remove the portainer container
-sudo docker stop portainer
-sudo docker rm portainer
-
-# pull down the latest version of portainer
-sudo docker pull portainer/portainer-ce:latest
-
-# reinstall portainer
-sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
-```
-
-You may want to also upgrade the Portainer Agent and this must be done separately:
-
-```bash
-# stop and remove the portainer agent container
-sudo docker stop portainer_agent
-sudo docker rm portainer_agent
-
-# pull nd start the updated version of the image
-sudo docker pull portainer/agent:latest
-sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
-```
 
 
 
@@ -1803,7 +2794,7 @@ google-chrome http://localhost:19999
 ------
 
 
-# Setup Markdown to PDF / HTML Tools - DONE
+# Setup Markdown to PDF / HTML Tools
 You can create a PDF or HTML file from a Markdown formatted text file
 using a single command line in Ubuntu
 
@@ -1828,6 +2819,11 @@ Source:
 
 
 ------
+
+#### Rename Interface
+* [ubuntu 22.04 persistent network interface names](https://www.google.com/search?q=ubuntu+22.04+persistent+network+interface+names&sxsrf=ALiCzsYPpufekZV53gZk1KxELS1wlUxmRQ%3A1653143932949&ei=fPmIYu_KOYzWytMP2O-JwAQ&ved=0ahUKEwjv-IqH6fD3AhUMq3IEHdh3AkgQ4dUDCA4&uact=5&oq=ubuntu+22.04+persistent+network+interface+names&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgjELACECdKBAhBGABKBAhGGABQsQpYgh5g9iFoAnABeACAATyIAdoCkgEBN5gBAKABAcgBCMABAQ&sclient=gws-wiz)
+* [How to rename a network interface in 20.04](https://askubuntu.com/questions/1317036/how-to-rename-a-network-interface-in-20-04)
+* [A sysadmin's guide to network interface configuration files](https://opensource.com/article/22/8/network-configuration-files)
 
 
 
@@ -1869,7 +2865,7 @@ Source:
 [36]:https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-22-04
 [37]:https://serversforhackers.com/c/ansible-installation-and-basics
 [38]:https://www.synology.com/en-us/products/DS220+
-[39]:https://github.com/docker/compose/releases
+[39]:https://www.portainer.io/
 [40]:https://docs.portainer.io/v/ce-2.9/admin/upgrade/docker
 [41]:https://en.wikipedia.org/wiki/Fail-safe
 [42]:https://www.mymediaalexa.com/home/docker#download
@@ -1882,13 +2878,23 @@ Source:
 [49]:https://github.com/yt-dlp/yt-dlp
 [50]:https://dl.google.com/linux
 [51]:https://neovim.io
-[52]:
-[53]:
-[54]:
-[55]:
-[56]:
-[57]:
-[58]:
-[59]:
+[52]:http://vimcasts.org/episodes/neovim-checkhealth/
+[53]:https://www.geekbits.io/how-to-install-nerd-fonts-on-linux/
+[54]:https://ubuntu.com/core/services/guide/snaps-intro
+[55]:https://www.amazon.com/dp/B09KKYS967
+[56]:https://www.msi.com/Motherboard/PRO-Z690-A/support#manual
+[57]:http://en.wikipedia.org/wiki/Cron
+[58]:https://help.ubuntu.com/community/CronHowto
+[59]:https://unix.stackexchange.com/questions/638633/is-there-a-way-to-retrieve-uuid-information-of-an-unmounted-hard-drive
 [60]:
+[61]:
+[62]:
+[63]:
+[64]:
+[65]:
+[66]:
+[67]:
+[68]:
+[69]:
+[70]:
 
