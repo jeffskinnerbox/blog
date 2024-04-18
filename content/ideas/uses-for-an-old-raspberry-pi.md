@@ -27,6 +27,7 @@ What should I do with them?
 
 **DOS**
 * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
+* [Lakka 5.0 makes it even easier to play retro games on your Raspberry Pi (It includes a new DOSBox core)](https://www.xda-developers.com/lakka-5-retro-games-raspberry-pi/)
 
 **Retro-Gaming**
 * [MINI “GAMING PC” NAILS THE LOOK, STREAMS THE GAMES](https://hackaday.com/2020/06/29/mini-gaming-pc-nails-the-look-streams-the-games/)
