@@ -1621,28 +1621,32 @@ Sources:
 * [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 * [Install the Compose plugin](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
 * [How to Install Portainer on Ubuntu](https://www.wundertech.net/portainer-on-ubuntu/)
-* [nstall Portainer CE with Docker on Linux](https://docs.portainer.io/start/install-ce/server/docker/linux)
+* [Install Portainer CE with Docker on Linux](https://docs.portainer.io/start/install-ce/server/docker/linux)
 
 ## Docker Engine & Docker Compose
 
 #### Step 1: Install Docker - DONE
-To ensure we get the latest version,
-we’ll install Docker from the official Docker repository.
-To do that, we’ll add a new package source,
-add the GPG key from Docker to ensure the downloads are valid,
-and then install the package.
+Ubuntu is my go-to Linux OS and installing on Ubuntu is fairly straight-forward.
+I'll used the installation scripts below.
+This involves adding a new package source,
+adding the GPG key from Docker to ensure the downloads are valid,
+and then install the Docker package.
+
+While not the absolute latest Docker version,
+I’ll install Docker from the Dockers official Ubuntu repository,
+instead of Docker's generic repository.
 
 ```bash
-# before you can install docker engine, you need to uninstall any conflicting packages
+# before you can install docker engine, you need to uninstall any previous installed conflicting packages
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt remove $pkg; done
 
-# clean up any existing data
+# clean up any existing docker related data
 rm /var/lib/docker/*
 
-# update your existing list of packages
+# update your existing list of ubunutu packages
 sudo apt update
 
-# install a few prerequisite packages which let apt use packages over https
+# install a few prerequisite packages
 sudo apt install apt-transport-https ca-certificates curl gnupg software-properties-common
 
 # add docker's official gpg key
@@ -1662,7 +1666,7 @@ apt-cache policy docker-ce
 ```
 
 From the above last command,
-you'll see the installation will be from the Docker repository for Ubuntu 23.10.
+you'll see the installation will be from the Docker repository for what ever version of Ubuntu you are running.
 Now lets install Docker:
 
 ```bash
@@ -1680,7 +1684,7 @@ sudo docker run hello-world
 ```
 
 #### Step 2: Upgrade Docker - DONE
-Docker will be automatically by Ubuntu from the official Ubuntu repository for Docker.
+Docker and Docker Compose will be automatically upgraded by Ubuntu from the official Ubuntu repository for Docker.
 
 #### Step 3: Install Docker Compose - DONE
 To ensure we get the latest version,
@@ -1694,7 +1698,7 @@ and then install the package.
 sudo apt update
 sudo apt install docker-compose-plugin
 
-# verify that the installation was successful
+# verify that the installation of docker compose was successful
 docker compose version
 ```
 
@@ -1723,9 +1727,9 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name portainer --res
 # check if portainer is running
 sudo docker ps -a -s
 
-# log into portainer  and setup your password, etc.
-#google-chrome https://localhost:9443   # <-- for https
-google-chrome https://localhost:9000   # <-- for https
+# log into portainer and setup your password, etc.
+#google-chrome https://localhost:9443   # <-- for https access
+google-chrome https://localhost:9000   # <-- for https access
 ```
 
 Now using your browser, log into portainer via this URL: `localhost:9000`.
@@ -2259,6 +2263,20 @@ Sources:
 * [Customize the Ubuntu Dock with dconf-editor](https://www.youtube.com/watch?v=uiAtZiYZao8)
 * [Gnome Tweaks 40 No Longer Manage Extensions, Use This Tool Instead](https://ubuntuhandbook.org/index.php/2021/05/gnome-tweaks-40-no-longer-manage-extensions/)
 * [How to Use GNOME Shell Extensions](https://itsfoss.com/gnome-shell-extensions/)
+
+#### Step X: Disable Auto-Suspend in Linux
+I'm using a based `rsnapshot` script in `cron` to schedule frequent backups of my filesystem.
+These backups take place every 4 hours (12am, 4am, 8am, 12pm, 4pm, 8pm)
+with daily, weekly, and monthly summarizations of those backups taking place at diferent point of the day
+The challege I'm having is my computer will go into a suspend state when its not use for some time period.
+
+The easiest ways to disable auto-suspend on your computer is via the GUI Settings.
+In Ubuntu, and similar distributions, you just navigating to **Settings** > **Power**.
+Click on **Automatic Suspend** and toggle the two setting options so that your computer
+does not automatically suspend when on battery power or plugged in.
+
+Sources:
+* [How to Disable Auto-Suspend in Linux](https://www.makeuseof.com/disable-auto-suspend-in-linux/)
 
 #### Step X: Get Conky Working
 Conky is a light-weight system monitor for X Window that displays any information on your desktop.
