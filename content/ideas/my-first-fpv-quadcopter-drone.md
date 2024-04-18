@@ -466,6 +466,9 @@ SkyLite 3"
 
 * [Aggressive Micro CineWhoop // BetaFPV Pavo20 // 3s Power](https://www.youtube.com/watch?v=6AUUo19ABg0)
 
+Raspberry Pi
+* [Raspberry Pi Zero 2 FPV Cinewhoop Drone](https://hackaday.io/project/194074-raspberry-pi-zero-2-fpv-cinewhoop-drone)
+
 ### Antenna Selection
 * [The Ultimate Guide to Choosing and Using FPV Antennas for FPV Drone](https://oscarliang.com/best-fpv-antenna/)
 * [Lumenier Axii Micro | BEST ANTENNA FOR MICRO QUADS / TINY WHOOP](https://www.youtube.com/watch?v=bI-8loHq9MY)
