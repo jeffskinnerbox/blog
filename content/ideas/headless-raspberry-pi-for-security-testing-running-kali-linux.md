@@ -22,6 +22,9 @@ Version:      0.0.0
 
 
 
+# Firewall Bypassing
+* [Firewall Basic Bypassing Techniques With Nmap and Hping3](https://dzone.com/articles/firewall-bypassing-techniques-with-nmap-and-hping3)
+
 # Hacking Lab
 * [create the ULTIMATE hacking lab in 5min!! (Docker Containers STREAMING Kali Linux to your browser)](https://www.youtube.com/watch?v=U7e-mcJdZok)
 * [how to build a HACKING lab (to become a hacker)](https://www.youtube.com/watch?v=mvsiuLzpx2E)
