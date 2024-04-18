@@ -1008,6 +1008,7 @@ Other Tools
 * [The Great Ohio Key Fob Mystery, Or “Honey, I Jammed The Neighborhood!”](https://hackaday.com/2019/05/15/the-great-ohio-key-fob-mystery-or-honey-i-jammed-the-neighborhood/)
 
 # Radio Astronomy / Radio Telescope
+* [Getting Started With Radio Astronomy](https://hackaday.com/2024/04/17/getting-started-with-radio-astronomy/)
 * [A Miniature Radio Telescope In Every Backyard](https://hackaday.com/2019/10/22/a-miniature-radio-telescope-in-every-backyard/)
 * [SpaceAusScope Team Listens To The Galaxy](https://hackaday.com/2020/12/23/spaceausscope-team-listens-to-the-galaxy/)
 * [Explore The Cosmos With This DIY Digital Telescope](https://hackaday.com/2021/03/05/explore-the-cosmos-with-this-diy-digital-telescope/)
