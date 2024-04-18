@@ -9,7 +9,8 @@ Version:      0.0.0
 </div>
 
 
------
+
+--------
 
 
 
@@ -30,6 +31,14 @@ Version:      0.0.0
 
 # Local Low Latency Speech to Speech
 * [Local Low Latency Speech to Speech - Mistral 7B + OpenVoice / Whisper | Open Source AI](https://www.youtube.com/watch?v=0k8wUfU7n4Q)
+
+# VoiceGPT
+VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to answer your questions. You speak the requests, and VoiceGPT responds with realistic, synthesized speech.
+* [VoiceGPT](https://www.voice-gpt.ai/)
+* [VoiceGPT](https://voicegpt.net/)
+* [GitHub: nickbild/voice_chatgpt](https://github.com/nickbild/voice_chatgpt)
+* [World's Easiest GPT-like Voice Assistant](https://www.youtube.com/watch?v=LTn2SPZw1mw)
+* [ChatGPT + Raspberry Pi - A ChatGPT powered Raspberry Pi chatbot](https://www.youtube.com/watch?v=lHxFFn04L10)
 
 
 
