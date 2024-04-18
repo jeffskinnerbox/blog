@@ -807,6 +807,8 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 * [The Road to Quantum Mechanics, Part 7: The Dirac Delta Function](https://www.cantorsparadise.com/the-road-to-quantum-mechanics-part-7-the-dirac-delta-function-374540fae66e)
 * [The Road to Quantum Mechanics, Part 8: The Wave Equation](https://www.cantorsparadise.com/the-road-to-quantum-mechanics-part-8-the-wave-equation-24bdbdb9903e)
 
+* [Deriving the Dirac Equation](https://www.youtube.com/watch?v=CbYFanAGsSM)
+
 * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
 * [Vectors and Covectors](https://joseph-mellor1999.medium.com/vectors-and-covectors-81b64ff6e38b)
 * [An Intro to Differential Forms](https://joseph-mellor1999.medium.com/an-intro-to-differential-forms-b3ec00d43d31)
