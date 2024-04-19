@@ -16,6 +16,8 @@ Version:      0.0.0
 * Bernoulli's Fallacy: Statistical Illogic and the Crisis of Modern Science, by Aubrey Clayton
 * Practical Uncertainty: Useful Ideas in Decision-Making, Risk, Randomness & AI, by Hossein Pishro-Nik
 
+* Statistical Rethinking: A Bayesian Course with Examples in R and Stan, by Richard McElreath - https://xcelab.net/rm/statistical-rethinking/
+
 
 # Drama in Statistics & Science
 Most people encounter Bayesian statistics after learning classical, aka Frequentist, statistics.
@@ -61,6 +63,7 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [How To Update Your Beliefs Systematically - Bayes’ Theorem](https://www.youtube.com/watch?v=R13BD8qKeTg)
 * [Bayes theorem, the geometry of changing beliefs](https://www.youtube.com/watch?v=HZGCoVF3YvM)
 * [Death by Statistics](https://kamounlab.medium.com/death-by-statistics-e4fd7a17318)
+* [How Learning Ten Equations Can Improve Your Life - David Sumpter](https://www.youtube.com/watch?v=ExCP0p7gQPU)
 
 * [Bayesian Vs. Frequentist Statistics](https://www.youtube.com/watch?v=CfIJjKEmrd4)
 * [P-Values Explained](https://www.youtube.com/watch?v=scSqDj0regU)
@@ -73,6 +76,8 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [Frequentism and Bayesianism: What's the Big Deal? | SciPy 2014 | Jake VanderPlas](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [IS CHESS A GAME OF CHANCE? Classical vs Frequentist vs Bayesian Probability](https://www.youtube.com/watch?v=dejy4PPCFHY)
 * [In Continued Defense Of Non-Frequentist Probabilities](https://www.astralcodexten.com/p/in-continued-defense-of-non-frequentist)
+
+* [Why we don't teach, and why we should and could teach, Bayesian methods -- Mark Andrews (NTU)](https://www.youtube.com/watch?v=PtLGnNvMC2o)
 
 ## Visualizing Bayes Theorem
 * [Bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
@@ -94,4 +99,6 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
     * [Bertrand's Paradox - Probability | WIRELESS PHILOSOPHY](https://www.youtube.com/watch?v=xy6xXEhbGa0)
 * [Probability Theory: The Logic of Science, by E. T. Jaynes](https://bayes.wustl.edu/etj/prob/book.pdf)
 
+# Markov Chain Monte Carlo (MCMC)
+* [Why do we need MCMC and how does it work? -- Ben Lambert (Oxford)](https://www.youtube.com/watch?v=7H7IvSSty0k)
 
