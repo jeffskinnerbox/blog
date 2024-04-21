@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 
+
 * [Antenna Basics: Radiation Patterns, Permittivity, Directivity, and Gain](http://www.allaboutcircuits.com/technical-articles/antenna-basics-field-radiation-patterns-permittivity-directivity-gain/)
 * [Radio Antenna Mismatching: VSWR Explained](https://hackaday.com/2018/08/17/radio-antenna-mismatching-vswr-explained/)
 
@@ -26,6 +27,16 @@ Version:      0.0.0
 
 * [Spy Radio: Antenna Considerations](https://www.youtube.com/watch?v=UPwdYnxku6E)
 
+
+
+
+# RTL-SDR on Mac OS
+Nice starter project.
+This project talks though the signal processing behind the GNU Radio flowgraph for receiving and demodulating FM radio broadcast signals.
+
+* [RTL-SDR on Mac OS Part 1: Install & Setup](https://www.hackster.io/whitney-knitter/rtl-sdr-on-mac-os-part-1-install-setup-4d23da)
+* [RTL-SDR on Mac OS Part 2: FM Radio Receiver DSP](https://www.hackster.io/whitney-knitter/rtl-sdr-on-mac-os-part-2-fm-radio-receiver-dsp-1b7385)
+
 # Satellite Weather Images
 * [Get Your Weather Images Straight From The Satellite](https://hackaday.com/2020/03/14/get-your-weather-images-straight-from-the-satellite/)
 * [R2Cloud Project](https://github.com/dernasherbrezon/r2cloud)
@@ -33,6 +44,7 @@ Version:      0.0.0
 
 # Satellite Antenna
 * [Mini Satellite-Antenna Rotator](https://www.sarcnet.org/rotator-mk1.html)
+
 
 
 
