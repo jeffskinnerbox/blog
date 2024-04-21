@@ -558,6 +558,10 @@ That said, may additional features are available and worth exploring
 
 Sources:
 
+* [Access Your Self Hosted Services WITHOUT Port Forwarding](https://www.youtube.com/watch?v=VrV0udRUi8A)
+* [Cloudflare Tunnels: Getting Started with Domains, DNS, and Tunnels](https://www.youtube.com/watch?v=Q5dG8g4-Sx0)
+* [Restrict Access to Your Cloudflare Tunnel Applications](https://www.youtube.com/watch?v=65FdHRs0axE)
+
 * [Cloudflare Tunnel: Expose Your Home Network to the Internet Securely](https://theitbros.com/cloudflare-tunnel/)
 * [EXPOSE your home network to the INTERNET!! (it's safe)](https://www.youtube.com/watch?v=ey4u7OUAF3c)
 * [Using Cloudflare Tunnels For Hosting & Certificates Without Exposing Ports On Your Firewall](https://www.youtube.com/watch?v=eojWaJQvqiw&t=5s)
