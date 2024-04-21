@@ -139,11 +139,15 @@ making it easy to seamlessly and scalably launch ML compute directly from the Hu
 * [Miniature ChatGPT Voice Assistant based on XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_speech2chatgpt/)
 * [ESP32 Voice Assistant with ChatGPT: Your Personal AI Companion](https://www.youtube.com/watch?v=IvAAw93e-9E)
 
-# LLaMa
+# LLaMA
 [LLaMA (Large Language Model Meta AI)](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
-a  open source code,  designed by Meta (the company formerly known as Facebook).
+a  open source code, designed by Meta (the company formerly known as Facebook).
 This large language model designed to help researchers advance their work in this subfield of AI.
 Smaller, more performant models such as LLaMA enable others in the research community.
+
+* [LLaMA 3 Tested!! Yes, It’s REALLY That GREAT](https://www.youtube.com/watch?v=0AaNT7XO41I)
+* [Build Anything with Llama 3 Agents, Here’s How](https://www.youtube.com/watch?v=i-txsBoTJtI)
+* [Llama 3 - 8B & 70B Deep Dive](https://www.youtube.com/watch?v=8Ul_0jddTU4)
 
 * [Why LLaMa Is A Big Deal](https://hackaday.com/2023/03/22/why-llama-is-a-big-deal/)
 * [llama.cpp](https://github.com/ggerganov/llama.cpp)
