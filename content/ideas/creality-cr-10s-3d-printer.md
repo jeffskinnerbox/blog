@@ -782,6 +782,9 @@ Creality WiFi Box is there answer to OctoPrint.
 * [A Modular Mounting System Via 3D Printing](https://hackaday.com/2019/03/01/a-modular-mounting-system-via-3d-printing/)
 * [PrintRite Uses TensorFlow To Avoid Printing Catastrophies](https://hackaday.com/2019/03/03/printrite-uses-tensorflow-to-avoid-printing-catastrophies/)
 
+* [3D Printer Streaming Solution Unlocks Webcam Features](https://hackaday.com/2024/04/20/3d-printer-streaming-solution-unlocks-webcam-features/)
+    * [Making the Ideal 3d Printer Montioring Live-Stream](https://reticulated.net/posts/making-the-ideal-3d-printer-montioring-live-stream/)
+
 # Creality CR-10 Calibration, Settings, and First Print
 * [The Best Print Settings for the Creality CR10 - CURA & Simplify3d](https://www.youtube.com/watch?v=UQKagjjnx0Y)
 * [Creality CR-10 Calibration, Settings, and First Print!](https://www.youtube.com/watch?v=zucqDIkX0kY)
