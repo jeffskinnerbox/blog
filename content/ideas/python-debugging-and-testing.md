@@ -97,6 +97,10 @@ Version:      0.0.0
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
+# How to Write Pythonic Code
+Pythonic describes code that doesn’t just get the syntax right but uses the language in the way it’s intended to be used. Here’s how to optimize your Python code.
+* [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
+
 
 
 -------
