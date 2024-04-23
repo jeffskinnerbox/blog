@@ -10,8 +10,11 @@ Version:      0.0.0
 
 
 # READ THIS
+* [Start PCs from remote (Wake on LAN, WOL) for Windows and Linux](https://www.youtube.com/watch?v=4Jf2T45tfEU)
 * [Linux Server, Wakey, Wakey](https://hackaday.com/2023/04/21/linux-server-wakey-wakey/)
     * [Making a Linux home server sleep on idle and wake on demand — the simple way](https://dgross.ca/blog/linux-home-server-auto-sleep/)
+* [Proxmox Backup Auto-Shutdown](https://www.apalrd.net/posts/2024/pbs_hibernate/)
+    * [Wake On LAN (on Proxmox VE machine)](https://drive.google.com/file/d/1J6_nwx4Vq8mptJZknghhs8p9OPZ4NhGP/view)
 
 
 
