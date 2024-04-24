@@ -276,6 +276,15 @@ I selected **Other** > **Creality 10**.
 
 ### Step X: Cura Settings for Creality CR-10S
 
+This series if focused on showing you everything you need to know to allow you print perfect prints with your 3D printer using Ulitmaker Cura 5 software.
+* [Ultimaker Cura 5 Tutorials](https://www.youtube.com/playlist?list=PLv65CP2QM2rG0eX2ZhAyA0_A8nbQV9V29)
+    * [How to Use Ultimaker Cura 5: A Beginner's Guide 2023][66]
+    * [3D Printing Perfection: Fine-Tune Top and Bottom Settings in Ultimaker Cura 5](https://www.youtube.com/watch?v=OygRJrpTNC8)
+    * [Getting the Right Flow: Ultimaker Cura 5 Flow Rate Settings](https://www.youtube.com/watch?v=ARsczJrNJb8)
+    * [Maximizing Bed Adhesion with Ultimaker Cura’s Skirts, Brims, and Rafts](https://www.youtube.com/watch?v=bruKY-L5eu8)
+    * [Cura 5 Quality Settings 101: The Ultimate Guide to Great 3D Prints!](https://www.youtube.com/watch?v=vkItGhXxDGw)
+    * [3D Printing Perfection: Things You Must Check Before Every Cura 5 Print](https://www.youtube.com/watch?v=HV5XA0oR9c4)
+
 Try this profile
 * [Improved Cura 4.4 Profiles for Creality Ender 3](https://www.youtube.com/watch?v=CUpKUHUeteY)
 * [Manage Cura profiles](https://ultimaker.com/en/resources/52032-manage-profiles)
