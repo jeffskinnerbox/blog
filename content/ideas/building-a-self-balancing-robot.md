@@ -49,6 +49,9 @@ perform regression testing, and train AI system using realistic scenarios.
 * [AI robot wrestling with open source](https://opensource.com/article/23/2/ai-robot-wrestling-open-source)
 
 # Rolling Robot
+* [I built a rover using a Raspberry Pi & Arduino](https://www.youtube.com/watch?v=IoCaTgmUSvc)
+    * [Stair Climbing Rover Assembly](https://www.youtube.com/watch?v=bXdt8hng2WM)
+    * [DTU RoboCup 2022 - Wild Willy - First run with onboard camera overlay](https://www.youtube.com/watch?v=GkBlQkr3NZU)
 * [camera stabilized self balance robot](https://hackaday.io/project/184423-worlds-first-camera-stabilized-self-balance-robot)
 * [Six Wheels (En)rolling: Mars Rovers Going To School](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
 * [AlphaBot2 robot building kit for Raspberry Pi 3 Model B](https://www.seeedstudio.com/AlphaBot2-robot-building-kit-for-Raspberry-Pi-3-Model-B-p-2937.html)
