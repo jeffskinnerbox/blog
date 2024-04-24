@@ -965,6 +965,7 @@ which can have significant effects on the performance of the aircraft, particula
 * [3D Printed Racing Drone - Will It Survive?](https://www.youtube.com/watch?v=vjvlB7RjnYI)
 * [ESPcopter: A Fully Customizable Drone](https://hackaday.com/2019/09/25/espcopter-a-fully-customizable-drone/)
 * [Tiny Drones Navigate Like Real Bugs](https://hackaday.com/2019/11/06/tiny-dones-navigate-like-real-bugs/)
+* [Tiny DIY FPV Drone](https://www.hackster.io/news/tiny-diy-fpv-drone-9c29b5ad1535)
 * [The Ball-Drone Project](https://hackaday.io/project/169823-the-ball-drone-project)
 * [STORM Racing Drone (SRD6-GPS / NAZA V2)](http://www.helipal.com/storm-racing-drone-gps-rtf-naza-v2.html)
 * [Flies Like A Quadcopter, But This Drone Design Has Only One Propeller](https://hackaday.com/2020/11/02/flies-like-a-quadcopter-but-this-drone-design-has-only-one-propeller/)
