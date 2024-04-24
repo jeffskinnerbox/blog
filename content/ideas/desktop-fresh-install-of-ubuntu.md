@@ -76,6 +76,7 @@ BIOS setting, drive boot order, modification of suspend state, etc.,
 you can do this by pressing the `Del` (aka Delete key) during a reboot.
 
 
+
 -----
 
 
@@ -440,7 +441,7 @@ It's easy to do but [this website][31] might help.
 
 
 
-# Set-Up Networking
+# Set-Up Networking - DONE
 It appears the virtualization of network devices and applications,
 the world of Linux networking has evolved into a confusing mess.
 There is currently (at least) four approaches to networks in Linux:
@@ -682,7 +683,7 @@ ip address
 
 
 
-# Mount NFS, SSDs, and RAID Drive
+# Mount NFS, SSDs, and RAID Drive - DONE
 First, you'll need to find what disks you have install,
 regardless if they are mounted or not.
 You can do this with the `fdisk` command and via the `/etc/fstab` file.
@@ -690,295 +691,6 @@ You can do this with the `fdisk` command and via the `/etc/fstab` file.
 Sources:
 * [How To Manage RAID Arrays with mdadm on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-manage-raid-arrays-with-mdadm-on-ubuntu-16-04)
 * [HOWTO: Repair a broken Ext4 Superblock in Ubuntu](https://linuxexpresso.wordpress.com/2010/03/31/repair-a-broken-ext4-superblock-in-ubuntu/)
-
-# v---------------- OUT OF DATE ------------------ OUT OF DATE ----------------v
-
-## Procedure Used in 2022 - DONE, NOT
-The RAID installation methodology I used in 2022 wasn't assisted by the Ubuntu installation script.
-Below is an outline of my 2022 RAID installation steps.
-See further down the (simpler) methodology used in 2024.
-
-#### Step 1: Gather Data - DONE, NOT
-```bash
-# list all the drives install on the computer
-$ sudo fdisk -l | grep Disk | grep -v loop | grep -v dos
-Disk /dev/sda: 119.24 GiB, 128035676160 bytes, 250069680 sectors
-Disk model: Samsung SSD 840
-Disk identifier: 0x0008f01d
-Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1SB1
-Disk identifier: 0xe9fd17be
-Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1CH1
-Disk identifier: 0xe9fd17be
-
-# we are interested in sdb and sdc
-$ sudo fdisk -l /dev/sdb /dev/sdc
-Disk /dev/sdb: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1SB1
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-Disklabel type: dos
-Disk identifier: 0xe9fd17be
-
-Device     Boot Start        End    Sectors   Size Id Type
-/dev/sdb1        2048 1953525167 1953523120 931.5G 83 Linux
-
-
-Disk /dev/sdc: 931.51 GiB, 1000204886016 bytes, 1953525168 sectors
-Disk model: ST1000DM003-1CH1
-Units: sectors of 1 * 512 = 512 bytes
-Sector size (logical/physical): 512 bytes / 4096 bytes
-I/O size (minimum/optimal): 4096 bytes / 4096 bytes
-Disklabel type: dos
-Disk identifier: 0xe9fd17be
-
-Device     Boot Start        End    Sectors   Size Id Type
-/dev/sdc1        2048 1953525167 1953523120 931.5G 83 Linux
-```
-
-We know that the multi-partitioned drive `/dev/sda` was used to load the Ubuntu OS.
-Therefore, the drives `/dev/sdb` and `/dev/sdc` are the drives we are interested creating the RAID.
-We also know the serial number of the oldest drive in the RAID is `Z1D3N7RY`
-(see `solving-raid-disk-failure.md`).
-Let's list the serial numbers on the drives:
-
-```bash
-# get the serial number of the sdb drive
-$ sudo smartctl -i /dev/sdb1 | grep -E "Serial|Model"
-Model Family:     Seagate Barracuda 7200.14 (AF)
-Device Model:     ST1000DM003-1SB102
-Serial Number:    W9ANL1XX
-
-# get the serial number of the sdc drive
-jeff@desktop: ~ $ sudo smartctl -i /dev/sdc1 | grep -E "Serial|Model"
-Model Family:     Seagate Barracuda 7200.14 (AF)
-Device Model:     ST1000DM003-1CH162
-Serial Number:    Z1D3N7RY
-```
-
-#### Step 2: Create The Array - DONE, NOT
->**NOTE:** I was unable to successfully assemble the disks into a function RAID One array.
->As a result, I resorted to creating a fresh array and I will restore the files from my backups.
-
-To create an empty RAID 1 array with `/dev/sdb` and `dev/sdc`
-
-```bash
-# create the raid one array
-sudo mdadm --create --verbose /dev/md0 --level=1 --raid-devices=2 /dev/sdb /dev/sdc
-```
-
-The mdadm tool will start to mirror the drives.
-This can take some time to complete, but you can monitor the progress of the mirroring by checking the /proc/mdstat file:
-
-```bash
-# monitor the progress of the mirroring
-$ cat /proc/mdstat
-Personalities : [raid1]
-md0 : active raid1 sdc[1] sdb[0]
-      976630464 blocks super 1.2 [2/2] [UU]
-      [=>...................]  resync =  9.4% (92582784/976630464) finish=90.4min speed=162962K/sec
-      bitmap: 8/8 pages [32KB], 65536KB chunk
-
-unused devices: <none>
-```
-
->**NOTE:** To stop a RAID array, assuming its **not mount**, you `sudo mdadm --stop /dev/md0`.
->If mounted, then do `sudo umount /mnt/md0 && sudo mdadm --stop /dev/md0`.
-
-Once this array creation process completes,
-you can create a filesystem on the array:
-
-```bash
-# validate the setup
-sudo mdadm --detail /dev/md0
-
-# create a filesystem on the array
-$ sudo mkfs.ext4 -F /dev/md0
-mke2fs 1.46.5 (30-Dec-2021)
-Creating filesystem with 244157616 4k blocks and 61046784 inodes
-Filesystem UUID: 126e8dc9-e13c-440f-bb02-dc266378329f
-Superblock backups stored on blocks:
-	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208,
-	4096000, 7962624, 11239424, 20480000, 23887872, 71663616, 78675968,
-	102400000, 214990848
-
-Allocating group tables: done
-Writing inode tables: done
-Creating journal (262144 blocks): done
-Writing superblocks and filesystem accounting information: done
-```
-
-#### Step 3: Mount The RAID Array - DONE, NOT
-We want to mount the array as the `/home` directory for the Ubuntu OS.
-This is where all the Ubuntu user accounts are located.
-To do this, we'll need to move all the existing data out of `/home`.
-That should only be the directory for the `jeff` account.
-
-For Ubuntu, it seems it is also necessary to update the `/etc/mdadm/mdadm.conf` file.
-If this is not done, the RAID device will not be mounted when you reboot the system.
-The solution is to run the following command on your system,
-once the RAID drive has been configured:
-
-```bash
-# check the final status of the raid array
-sudo mdadm -D /dev/md0
-
-# move data out of home directory
-sudo mkdir /mnt/jeff-admin/tmp
-sudo cp -R /home/* /mnt/jeff-admin/tmp
-
-# clean out /home directory to prepare for the mounting of the raid array
-sudo trash /home/jeff
-
-# mount the raid array filesystem
-sudo mount /dev/md0 /home
-```
-
-#### Step 4: Saving the Array Layout - DONE, NOT
-To make sure that the array is reassembled automatically at boot:
-
-1. update the `/etc/mdadm/mdadm.conf` file with the arrays configuration
-2. update the `initramfs`, or initial RAM file system, so that the array will be available during the early boot process
-3. add the new filesystem mount options to the /`etc/fstab` file for automatic mounting at boot
-
-```bash
-# automatically scan the active array and append
-sudo cp /etc/mdadm/mdadm.conf /etc/mdadm/mdadm.conf_backup
-sudo mdadm --detail --scan | sudo tee -a /etc/mdadm/mdadm.conf
-perminatly
-# update initial RAM file system
-$ sudo update-initramfs -u
-update-initramfs: Generating /boot/initrd.img-5.15.0-27-generic
-
-# automatic mount array at boot
-echo '/dev/md0 /home ext4 defaults,nofail,discard 0 0' | sudo tee -a /etc/fstab
-
-# inspect /etc/fstab
-$ cat /etc/fstab
-# /etc/fstab: static file system information.
-#
-# Use 'blkid' to print the universally unique identifier for a
-# device; this may be used with UUID= as a more robust way to name devices
-# that works even if disks are added and removed. See fstab(5).
-#
-# <file system> <mount point>   <type>  <options>       <dump>  <pass>
-# / was on /dev/sda6 during installation
-UUID=65e559c7-e595-4ab6-89a1-7b27d071bc3d /   ext4  errors=remount-ro  0  1
-# /boot/efi was on /dev/sda3 during installation
-UUID=CACF-2C59  /boot/efi       vfat    umask=0077                     0  1
-/swapfile       none            swap    sw                             0  0
-/dev/md0        /home           ext4    defaults,nofail,discard        0  0
-```
-
-Now test if the RAID array gets auto-mounted by doing a reboot.
-
-```bash
-# do a reboot
-sudo shutdown -r now
-
-# check if the raid has been mounted on /home
-$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           1.6G  2.0M  1.6G   1% /run
-/dev/sda6       109G   14G   90G  14% /
-tmpfs           7.8G     0  7.8G   0% /dev/shm
-tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-/dev/md0        916G   28K  870G   1% /home
-/dev/sda3       512M  5.3M  507M   2% /boot/efi
-tmpfs           1.6G   96K  1.6G   1% /run/user/1001
-
-# check raid configuration and health
-$ sudo mdadm --detail /dev/md0
-/dev/md0:
-           Version : 1.2
-     Creation Time : Tue May  3 22:07:00 2022
-        Raid Level : raid1
-        Array Size : 976630464 (931.39 GiB 1000.07 GB)
-     Used Dev Size : 976630464 (931.39 GiB 1000.07 GB)
-      Raid Devices : 2
-     Total Devices : 2
-       Persistence : Superblock is persistent
-
-     Intent Bitmap : Internal
-
-       Update Time : Fri Apr 12 13:12:10 2024
-             State : active
-    Active Devices : 2
-   Working Devices : 2
-    Failed Devices : 0
-     Spare Devices : 0
-
-Consistency Policy : bitmap
-
-              Name : desktop:0  (local to host desktop)
-              UUID : 56ea45a5:da6e9b9b:99224085:1941111a
-            Events : 2459477
-
-    Number   Major   Minor   RaidDevice State
-       0       8       32        0      active sync   /dev/sdc
-       1       8        0        1      active sync   /dev/sda
-```
-
-All looks good!
-
-Source:
-* [How to check RAID configuration in Linux](https://www.cyberciti.biz/faq/how-to-check-raid-configuration-in-linux/)
-
-#### Step 5: Load Backup to /home - DONE, NOT
-* [Backup and Restore Your Linux System with rsync](https://averagelinuxuser.com/backup-and-restore-your-linux-system-with-rsync/)
-
-Basically, these three options needed to preserve all the attributes of your files.
-Owner attributes or permissions will not be modified during the backup process.
-
-* `-a` - archive mode
-* `-A` - preserve Access Control List
-* `-X` - preserve extended attributes
-
-* --delete - this option allows you to make an incremental backup. That means, if it is not your first backup, it will backup only the difference between your source and the destination. So, it will backup only new files and modified files and it will also delete all the files in the backup which were deleted on your system. Be careful with this option.
-* --dry-run - This option simulates the backup. Useful to test its execution.
-
-```bash
-# do a dry-run test
-sudo rsync --dry-run -aAXv --exclude="lost+found" /media/jeff-admin/c484e1d5-5e9d-4f95-bca9-de500fa3d44e/daily.0/desktop/home/ /home/
-
-# do the restoration for real
-sudo rsync -aAXv --exclude="lost+found" /media/jeff-admin/c484e1d5-5e9d-4f95-bca9-de500fa3d44e/daily.0/desktop/home/ /home/
-
-# filesystem status
-$ df -h
-Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           1.6G  2.1M  1.6G   1% /run
-/dev/sda6       109G   14G   90G  14% /
-tmpfs           7.8G  400M  7.4G   6% /dev/shm
-tmpfs           5.0M  4.0K  5.0M   1% /run/lock
-/dev/md0        916G  410G  460G  48% /home
-/dev/sda3       512M  5.3M  507M   2% /boot/efi
-tmpfs           1.6G  4.7M  1.6G   1% /run/user/1000
-```
-
-#### Step 6: Establish Additional Logins - DONE, NOT
-With the loading of backup files to `/home`,
-Some additional home directories have been established for the users:
-`jennie` and `backup_user`.
-
-```bash
-# create the required logins: user login
-sudo adduser --home /home/jennie jennie
-
-# make a group id for the backup user
-sudo groupadd -g 400 backup_user
-
-# create the required logins: user without a login
-sudo adduser --home /home/backup_user --disabled-login --disabled-password --uid 400 --gid 400 backup_user
-
-# to check if all is well
-cat /etc/passwd
-```
-
-# ^---------------- OUT OF DATE ------------------ OUT OF DATE ----------------^
-
 
 ## Procedure Used in 2024 - DONE
 The procedure I used in 2024 was much easier since the Ubuntu install script
@@ -1367,7 +1079,7 @@ Sources:
 
 
 
-# Restart Rsnapshot Backup Processing
+# Restart Rsnapshot Backup Processing - DONE
 To get your backup work again,
 you should read the document
 `/home/jeff/blogging/content/articles/network-backups-via-rsync-and-rsnapshot.md`.
@@ -1592,7 +1304,58 @@ Sources:
 
 
 
-# Development Tools: Docker & Portainer
+# Get Printer Working - DONE
+
+Sources:
+* [Use a Raspberry PI Zero W as a Wireless Print Server](https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/use-a-raspberry-pi-zero-w-as-a-wireless-print-server)
+* [CUPS and Raspberry Pi AirPrinting](https://www.developer.com/mobile/cups-and-raspberry-pi-airprinting/)
+* [How to Turn a Printer into a Wireless Printer with Raspberry Pi](https://www.youtube.com/watch?v=hdwqQjDjMzU)
+* [Create your own Canon Printer server with Raspberry Pi](https://www.youtube.com/watch?v=3powPeY5_-k)
+* [Turn your USB Printer into a Wireless Printer! 2019](https://www.youtube.com/watch?v=4g9vnk28480)
+* [Turn USB Printer to WiFi Printer for $15 | Convert Any USB Printer Wireless](https://www.youtube.com/watch?v=P3XRi-CD1a0)
+
+#### Step 1: Install and Configure CUPS on Print Server - DONE
+On many Linux  installations,
+support for printers via CUPS is pre-configured and is an active service after a freash install.
+To check if CUPS is active, use the following command:
+
+```bash
+# check the operational status of cups
+systemctl status cups
+```
+
+If you find CUPS active, then you can go to the next step,
+but if not, do teh installation below:
+
+```bash
+# install some prerequisite software
+sudo apt install -y build-essential git autoconf libtool
+
+# install some of your developer tools
+
+# install cups and its libraries
+sudo apt install -y cups libcups2-dev libcupsimage2-dev
+```
+
+#### Step 2: Configure CUPS - DONE
+Getting a printer working can involve the
+editing of the file `/etc/cups/cupsd.conf` and other such manual operations.
+The better approach for most any printer you have is to just plugin the printer
+into the computer and let CUPS sense it and do it automatic configuration.
+That is what I did with my [HP LaserJet P2045][60].
+The using the GUI, I went to **Settings** > **Printers** and did any fine tuning
+required (but nothing was required).
+
+>**NOTE:** If the print does not automatically sense the printer,
+>using the GUI go to  **Settings** > **Printers** > select the **Add Printer...** button.
+
+
+
+----
+
+
+
+# Development Tools: Docker & Portainer - DONE
 **Docker** is a popular application that simplifies the process of managing application processes in containers.
 Containers let you run your applications in resource-isolated processes.
 They’re similar to virtual machines, but containers are more portable,
@@ -1763,6 +1526,144 @@ sudo docker rm portainer_agent
 sudo docker pull portainer/agent:latest
 sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
 ```
+
+#### Step 3: Refresh Portainer Stacks - DONE
+Using your [GitHub repository for your HomeLab Portainer Stacks][61],
+redeploy your stacks to you `desktop` computer.
+
+
+
+-----
+
+
+
+# 3D Printer Slicer - UltiMaker Cura
+[UltiMaker Cura][62] is free, very popular 3D printing software, a slicer, that can be fine-tune 400+ settings.
+3D printing slicer software essentially acts as the middleman between the 3D model and printer.
+
+Sources:
+* [UltiMaker Cura 5.7.0][62]
+* [How to Use Ultimaker Cura 5: A Beginner's Guide 2023][66]
+
+#### Step 1: Install Cura - DONE
+The installation method chosen by UltiMaker is the [AppImage][63] method.
+Not my favorite install method but [things are getting better][65], and most importantly,
+UltiMaker doesn't give you a choose if you want the latest version.
+You'll find Ubuntu does maintain a repository for Cura but is way out of date.
+
+You need to install [FUSE 2][64] to make AppImages work in Ubuntu 23.04+.
+You do not need to add a PPA or compile anything; the `libfuse2` package is available
+in the Ubuntu Universe repo (enabled by default usually).
+
+```bash
+# you need to install libfuse2 in ubuntu
+sudo apt install libfuse2
+
+# download the AppImage
+cd ~/bin
+wget https://github.com/Ultimaker/Cura/releases/download/5.7.0/UltiMaker-Cura-5.7.0-linux-X64.AppImage
+
+# make sure the appimage is executable
+chmod a+x UltiMaker-Cura-5.7.0-linux-X64.AppImage
+
+# make a more friendly symbolic link to the executable
+ln -s UltiMaker-Cura-5.7.0-linux-X64.AppImage cura
+```
+
+Now you have to execute Cura for the first time so it can configure itself.
+This configuration step will take about a minute so don't prematurely quit this process.
+
+```bash
+# configure cura
+cura
+```
+
+#### Step 2: Configure Cura - DONE
+To find your Cura configuration file, select the tab **Help** > **Show Configuration Folder**.
+It will display `~/.config/cura/5.7`.
+When you install Cura, it should find your old configuration file and use it.
+That is what happen whne I installed Cura, so there is nothing to do here.
+
+
+#### Step 3: Adding a Custom Cura Icon to the Side Bar (aka Desktop Entry Files)
+When using AppImage instead of Ubuntu's package management,
+the new application will not automatically integrate with the Ubuntu desktop.
+So there will not be any Cura Icon in the side bar.
+
+To remedy this, I'm going to manual create one.
+I followed the procedure outline in the Sources below.
+
+
+```bash
+# applications desktop configuration is stored here
+ls ~/.local/share/applications
+
+# move icon into directory
+sudo cp ~/Downloads/logo.png ~/.local/share/applications/cura-logo.png
+```
+
+Create your configuration for cura button on the side bar
+by placing in the following text in the file `~/.local/share/applications/cura.desktop`:
+
+```bash
+#!/usr/bin/env xdg-open
+
+# Guide to Desktop Entry Files in Linux - https://www.baeldung.com/linux/desktop-entry-files
+# Creating a Custom Application Launcher in Ubuntu 22 - https://www.dgendill.com/posts/technology/2023-04-23-ubuntu22-custom-shortcuts-appliation-launchers.html
+# How to create a desktop shortcut to a website - https://askubuntu.com/questions/1269788/how-to-create-a-desktop-shortcut-to-a-website
+# How to create desktop shortcut launcher on Ubuntu 22.04 Jammy Jellyfish Linux - https://linuxconfig.org/how-to-create-desktop-shortcut-launcher-on-ubuntu-22-04-jammy-jellyfish-linux #How do I create a new application launcher in Ubuntu 22.04?
+# How do I create a new application launcher in Ubuntu 22.04? - https://askubuntu.com/questions/1428517/how-do-i-create-a-new-application-launcher-in-ubuntu-22-04
+# Fix "Add to Favorites" for custom apps in Ubuntu - https://averagelinuxuser.com/ubuntu_custom_launcher_dock/
+# Registering AppImage Files as a desktop app - https://askubuntu.com/questions/902672/registering-appimage-files-as-a-desktop-app
+
+# https://ultimaker.com/software/ultimaker-cura/
+[Desktop Entry]
+Version=5.7.0
+Terminal=false
+Type=Application
+Name=Cura
+Exec=/home/jeff/bin/cura
+Icon=/home/jeff/local/share/applications/cura-logo.png
+Categories=Application;IDE;
+Comment=3D printing software / slicer
+```
+
+Now make the file executable:
+
+```bash
+# file must be executable
+chmod a+x ~/.local/share/applications/cura.desktop
+```
+
+Sources:
+* [Guide to Desktop Entry Files in Linux](https://www.baeldung.com/linux/desktop-entry-files)
+* [Creating a Custom Application Launcher in Ubuntu 22](https://www.dgendill.com/posts/technology/2023-04-23-ubuntu22-custom-shortcuts-appliation-launchers.html)
+* [How to create a desktop shortcut to a website](https://askubuntu.com/questions/1269788/how-to-create-a-desktop-shortcut-to-a-website)
+* [How to create desktop shortcut launcher on Ubuntu 22.04 Jammy Jellyfish Linux](https://linuxconfig.org/how-to-create-desktop-shortcut-launcher-on-ubuntu-22-04-jammy-jellyfish-linux)
+* [How do I create a new application launcher in Ubuntu 22.04?](https://askubuntu.com/questions/1428517/how-do-i-create-a-new-application-launcher-in-ubuntu-22-04)
+* [Fix "Add to Favorites" for custom apps in Ubuntu](https://averagelinuxuser.com/ubuntu_custom_launcher_dock/)
+* [Registering AppImage Files as a desktop app](https://askubuntu.com/questions/902672/registering-appimage-files-as-a-desktop-app)
+* [Adding a Custom Application to the Side Bar (Ubuntu 20.04)](https://www.youtube.com/watch?app=desktop&v=RUX8OYi81Y8)
+
+#### Step 4: Check Your Print Settings
+
+Sources:
+
+This series if focused on showing you everything you need to know to allow you print perfect prints with your 3D printer using Ulitmaker Cura 5 software.
+* [Ultimaker Cura 5 Tutorials](https://www.youtube.com/playlist?list=PLv65CP2QM2rG0eX2ZhAyA0_A8nbQV9V29)
+    * [How to Use Ultimaker Cura 5: A Beginner's Guide 2023][66]
+    * [3D Printing Perfection: Fine-Tune Top and Bottom Settings in Ultimaker Cura 5](https://www.youtube.com/watch?v=OygRJrpTNC8)
+    * [Getting the Right Flow: Ultimaker Cura 5 Flow Rate Settings](https://www.youtube.com/watch?v=ARsczJrNJb8)
+    * [Maximizing Bed Adhesion with Ultimaker Cura’s Skirts, Brims, and Rafts](https://www.youtube.com/watch?v=bruKY-L5eu8)
+    * [Cura 5 Quality Settings 101: The Ultimate Guide to Great 3D Prints!](https://www.youtube.com/watch?v=vkItGhXxDGw)
+    * [3D Printing Perfection: Things You Must Check Before Every Cura 5 Print](https://www.youtube.com/watch?v=HV5XA0oR9c4)
+
+
+-----
+
+
+# Setup Thunderbird
+
 
 
 -----
@@ -2904,13 +2805,13 @@ Source:
 [57]:http://en.wikipedia.org/wiki/Cron
 [58]:https://help.ubuntu.com/community/CronHowto
 [59]:https://unix.stackexchange.com/questions/638633/is-there-a-way-to-retrieve-uuid-information-of-an-unmounted-hard-drive
-[60]:
-[61]:
-[62]:
-[63]:
-[64]:
-[65]:
-[66]:
+[60]:https://support.hp.com/us-en/product/details/hp-laserjet-p2035-printer-series/3662025
+[61]:https://github.com/jeffskinnerbox/homelab-portainer-stacks/tree/main/stacks/desktop
+[62]:https://ultimaker.com/software/ultimaker-cura/
+[63]:https://appimage.org/
+[64]:https://www.omgubuntu.co.uk/2023/04/appimages-libfuse2-ubuntu-23-04
+[65]:https://www.youtube.com/watch?v=jaYZqc7Luag
+[66]:https://www.youtube.com/watch?v=qHJSz4V7DJk
 [67]:
 [68]:
 [69]:
