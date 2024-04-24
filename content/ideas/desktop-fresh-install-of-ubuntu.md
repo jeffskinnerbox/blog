@@ -1650,6 +1650,7 @@ Sources:
 Sources:
 
 This series if focused on showing you everything you need to know to allow you print perfect prints with your 3D printer using Ulitmaker Cura 5 software.
+* [Cura Slicer Tutorials](https://www.youtube.com/playlist?list=PLv65CP2QM2rFHMu6OGJVkwC3ictFhB00n)
 * [Ultimaker Cura 5 Tutorials](https://www.youtube.com/playlist?list=PLv65CP2QM2rG0eX2ZhAyA0_A8nbQV9V29)
     * [How to Use Ultimaker Cura 5: A Beginner's Guide 2023][66]
     * [3D Printing Perfection: Fine-Tune Top and Bottom Settings in Ultimaker Cura 5](https://www.youtube.com/watch?v=OygRJrpTNC8)
