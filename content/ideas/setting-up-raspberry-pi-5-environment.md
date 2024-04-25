@@ -2,7 +2,6 @@
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
-Dual Edge TPU: Double Power, Same Slot
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
@@ -34,6 +33,11 @@ Dual Edge TPU: Double Power, Same Slot
 | 27W USB-C Power Supply                         |                    |        |
 |                                                |                    |        |
 |                                                |                    |        |
+
+# How to Boot From SSD
+* [Testing Cytron MAKERDISK M.2 NVMe SSDs on Raspberry Pi 5 with GEEKWORM X1001 and Waveshare M.2 PCIe HAT+](https://www.cnx-software.com/2024/04/07/review-cytron-makerdisk-nvme-ssd-raspberry-pi-5-geekworm-x1001-waveshare-m2-pcie-hat/)
+
+
 
 [01]:https://www.raspberrypi.com/products/raspberry-pi-5/
 [02]:https://www.raspberrypi.com/products/active-cooler/
