@@ -89,6 +89,7 @@ However, an NPN will work best as you are performing switching work, rather than
 
 
 # Circuit Sculpture
+* [Cumin Lander](https://www.hackster.io/mohit/cumin-lander-9d9784)
 * [Test Your Capacity for Circuit Sculpture with Flashing Lights](https://hackaday.com/2022/12/30/test-your-capacity-for-circuit-sculpture-with-flashing-lights/)
 * [Kinetic Sculpture Achieves Balance Through Machine Learning](https://hackaday.com/2018/10/26/kinetic-sculpture-achieves-balance-through-machine-learning/)
 * [The Eerie Sounds Of Ioalieia: An ESP32/Valve/Analog Hybrid Circuit Sculpture](https://hackaday.com/2022/01/15/the-eerie-sounds-of-ioalieia-an-esp32-valve-analog-hybrid-circuit-sculpture/)
