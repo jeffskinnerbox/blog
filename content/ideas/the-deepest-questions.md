@@ -110,6 +110,11 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [Lecture: Quantum Mechanics I](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLMZ-I4YRwIQK0FbCkztJbZ)
     * [Lecture: Quantum Mechanics II](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKVPjPv_aV3XMITKaRuB7bf)
     * [MIT 8.04 Quantum Physics I, Spring 2016](https://www.youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G)
+* Computational Quantum Physics
+    * [A Computational Introduction to Quantum Physics](https://www.amazon.com/Computational-Introduction-Quantum-Physics/dp/1009389637)
+        * [Preview](https://www.google.com/books/edition/A_Computational_Introduction_to_Quantum/Kv_5EAAAQBAJ?hl=en&gbpv=1&printsec=frontcover)
+    * [An Awesome List of Quantum Computational Related Things](https://github.com/hsavit1/Awesome-Quantum-Computation)
+    * [An Interactive Introduction To Quantum Computing](https://davidbkemp.github.io/QuantumComputingArticle/)
 * Quantum Computing
     * [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
     * [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
