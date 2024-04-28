@@ -2263,6 +2263,7 @@ Passive Bluetooth presence detection of beacons, cell phones, and other Bluetoot
 * [Setup a Basic Room Presence Sensor in Home Assistant](https://www.youtube.com/watch?v=Vjd6nJF0SLE)
 * [How I Setup Presence Detection in Home Assistant](https://www.youtube.com/watch?v=1J776MtLuH4)
 * [Multisensor For Home Assistant](https://apolloautomation.com/products/multisensor-mk1)
+* [Apollo Automation MSR-1 Presence and More Sensor](https://www.mostlychris.com/apollo-automation-msr-1-presence-and-more-sensor/)
 
 
 

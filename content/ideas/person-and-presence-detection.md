@@ -348,6 +348,7 @@ such as their image but also via motion, heat, sound, or RF exhaust then may mak
 
 * [Presence Detection In Home Assistant Using ESPHome And ESP32](https://www.youtube.com/watch?v=endqy0G6Dks)
 * [Multisensor For Home Assistant](https://apolloautomation.com/products/multisensor-mk1)
+* [Apollo Automation MSR-1 Presence and More Sensor](https://www.mostlychris.com/apollo-automation-msr-1-presence-and-more-sensor/)
 
 * [Set up Human Presence detection with LD2410B and Home Assistant in minutes](https://www.youtube.com/watch?v=G6IEc2XYzbc)
 
