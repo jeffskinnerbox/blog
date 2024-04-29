@@ -692,6 +692,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Law of Large Numbers](https://www.probabilitycourse.com/chapter7/7_1_1_law_of_large_numbers.php)
     * [What The Law Of Large Numbers Really Means](https://www.wmbriggs.com/post/47269/)
     * [Unraveling the Law of Large Numbers](https://towardsdatascience.com/unraveling-the-law-of-large-numbers-e36a3219acb2)
+    * [The Law of Large Numbers - Explained](https://www.youtube.com/watch?v=ycuPP72_DVU&t=69s)
 
 # What about Chaos Theory?
 * [Chaos Wrangled: A Simple Introduction To Chaotic Systems](https://www.cantorsparadise.com/chaos-wrangled-48162abf24df)
