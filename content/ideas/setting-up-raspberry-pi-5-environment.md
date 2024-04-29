@@ -11,6 +11,11 @@ Version:      0.0.0
 -----
 
 
+* [Raspberry Pi 5. Major eeprom update 17/04/2024. Network install & more](https://www.youtube.com/watch?v=prqzOg-GC40)
+* [Ubuntu 24.04 LTS Raspberry Pi 5. NVMe install Fix](https://www.youtube.com/watch?v=2qkqCB8x2nM)
+
+
+
 * [The Best Raspberry pi 5 Case Is here! Argon NEO 5 BRED Hands On](https://www.youtube.com/watch?v=4FQFgsnKvYM)
     * [Argon NEO 5 BRED for Raspberry Pi 5](https://www.amazon.com/Argon-NEO-BRED-Raspberry-Pi/dp/B0CP3MGMTD)
 * [Unleash the power of the Raspberry Pi 5 - 1TB NVME and Argon ONE NVME case](https://www.youtube.com/watch?v=kmgTrwNmZV8)
