@@ -174,6 +174,16 @@ Wood fills.
 ## Transparent 3D Prints
 * [Transparent 3D Prints](https://www.youtube.com/watch?v=92C10-n21Po)
 
+# Calibration Towers
+* [CURA: Temp, Flow, Retraction, & Speed Tower - What, How, and WHY to use them, for better 3D Printing](https://www.youtube.com/watch?v=lrlb3vjd4MY)
+## Temperature Towers
+* [How to Make Temp Towers in Cura: Get Your Temperature Settings Right](https://www.youtube.com/watch?v=N4Yt4tmFxho)
+* [BETTER PRINT QUALITY! Temperature towers with CURA](https://www.youtube.com/watch?v=K3MmzvUl13I)
+## Retraction Towers
+## Speed Towers
+## Flow Towers
+
+
 # CR-10S Software
 There is a fair deal of versatility in terms of software compatibility as well. Just like its preceding model, the CR-10S too leaves a lot of room to experiment with different 3D printing software. Some of the top choices for this 3D printer can be the:
 
@@ -1074,3 +1084,14 @@ that can be seen clearly only when back lit with a light source.
 [68]:https://all3dp.com/2/is-pla-food-safe-what-you-really-need-to-know/
 [69]:https://all3dp.com/2/is-pla-biodegradable-what-you-really-need-to-know/
 [70]:
+[71]:
+[72]:
+[73]:
+[74]:
+[75]:
+[76]:
+[77]:
+[78]:
+[79]:
+[80]:
+
