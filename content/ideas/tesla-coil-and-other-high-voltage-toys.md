@@ -247,6 +247,7 @@ Nikola Tesla wanted to beam power without wires.
 * [Tesla Coil Arc Plasma Loudspeaker](https://www.amazon.com/gp/product/B0794X4PPD)
 * [Unreal Bluetooth Plasma Speaker (3D printed)](https://www.youtube.com/watch?v=yO9Igd3MyWs)
 * [Build Your Own Class-E Musical Tesla Coil](https://hackaday.com/2024/04/26/build-your-own-class-e-musical-tesla-coil/)
+* [Short review of small music Tesla Coil with Bluetooth](https://www.hackster.io/mircemk/short-review-of-small-music-tesla-coil-with-bluetooth-dc0b0b)
 
 
 * [Handheld TESLA COIL GUN at 28,000fps - Smarter Every Day 162](https://www.youtube.com/watch?v=_fTC_Ud_k3U)
