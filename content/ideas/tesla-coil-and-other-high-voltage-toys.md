@@ -43,6 +43,7 @@ Version:      0.0.0
 * [Gemini Demo Video - Large Bipolar Tesla Coil](https://www.youtube.com/watch?v=sQDcE4my9zw)
 * https://www.youtube.com/user/thegeekgroup/search?query=tesla
 
+
 # History
 * [History of the Tesla coil](https://en.wikipedia.org/wiki/History_of_the_Tesla_coil)
 * [How Does a Tesla Coil Work? A Historical Deep Dive](https://www.youtube.com/watch?v=IN9jb3fzZd0&t=131s)
@@ -245,6 +246,7 @@ Nikola Tesla wanted to beam power without wires.
 
 * [Tesla Coil Arc Plasma Loudspeaker](https://www.amazon.com/gp/product/B0794X4PPD)
 * [Unreal Bluetooth Plasma Speaker (3D printed)](https://www.youtube.com/watch?v=yO9Igd3MyWs)
+* [Build Your Own Class-E Musical Tesla Coil](https://hackaday.com/2024/04/26/build-your-own-class-e-musical-tesla-coil/)
 
 
 * [Handheld TESLA COIL GUN at 28,000fps - Smarter Every Day 162](https://www.youtube.com/watch?v=_fTC_Ud_k3U)
