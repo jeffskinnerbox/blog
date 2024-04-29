@@ -129,6 +129,7 @@ QEngine is our software library for quantum simulation and - optimization.
 * Understanding Quantum Computing
     * [Quantum Computing Book Recommendations](https://www.youtube.com/watch?v=xpSevVullcQ)
     * [Quantum Book Recommendations Part 2!](https://www.youtube.com/watch?v=rbcNQB7VMtI)
+    * [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
 
 # Skepticism
 * [Quantum Computing’s Hard, Cold Reality Check](https://spectrum.ieee.org/quantum-computing-skeptics)
