@@ -15,6 +15,8 @@ Version:      0.0.0
 
 
 
+* [Hopper Chat: Chatbot (LLM) based voice assistance and smart speaker](https://github.com/ShawnHymel/hopper-chat)
+
 * [What runs ChatGPT? Inside Microsoft's AI supercomputer](https://www.youtube.com/watch?v=Rk3nTUfRZmo)
 
 
@@ -59,6 +61,7 @@ Olama is an offline AI that performs similarly to ChatGPT. Olama is designed to 
 * [OLLAMA - LOCAL CHATGPT ON PI 5](https://www.kevsrobots.com/blog/ollama)
 * [Ollama - Self-Hosted AI Chat with Llama 2, Code Llama and More in Docker](https://noted.lol/ollama/)
 * [You can run LLMs locally on your Raspberry Pi using Ollama - here's how to do it](https://www.xda-developers.com/run-llms-on-raspberry-pi/)
+
 
 
 
