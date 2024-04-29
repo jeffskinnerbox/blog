@@ -90,7 +90,8 @@ well—to give it what we might think of as “computational superpowers”.
 * [Wolfram Alpha With ChatGPT Looks Like A Killer Combo](https://hackaday.com/2023/04/17/wolfram-alpha-with-chatgpt-looks-like-a-killer-combo/)
 
 # Generative Pre-trained Transformer (GPT)
-[Generative Pre-trained Transformer (GPT)](https://en.wikipedia.org/wiki/GPT-2#Generative_Pre-trained_Transformer)
+* [Generative Pre-trained Transformer (GPT)](https://en.wikipedia.org/wiki/GPT-2#Generative_Pre-trained_Transformer)
+* [Train A GPT-2 LLM, Using Only Pure C Code](https://hackaday.com/2024/04/28/train-a-gpt-2-llm-using-only-pure-c-code/)
 
 # ChatGPT
 * [Building a Python Interpreter inside ChatGPT](https://levelup.gitconnected.com/building-a-python-interpreter-inside-chatgpt-49251af35fea)
