@@ -931,6 +931,13 @@ So rich example of GNURadio being used"
 * [Listening To A Flashlight — Lunar Flashlight](https://hackaday.com/2023/01/23/listening-to-a-flashlight-lunar-flashlight/)
 * [Daniel Estévez: Scientific & Technical Amateur Radio — Home of EA4GPZ / M0HXM](https://destevez.net/)
 
+### Gypsum
+gypsum is a homebrew GPS receiver written in Python.
+gypsum turns any commodity SDR into a GPS receiver.
+
+* [Gypsum: A Software-Defined GPS Receiver](https://axleos.com/building-a-gps-receiver-part-1-hearing-whispers/)
+* [GitHub: codyd51/gypsum](https://github.com/codyd51/gypsum)
+
 ### LoRa Transceiver
 * [gr-lora_sdr – A GNU Radio SDR implementation of a LoRa transceiver](https://www.cnx-software.com/2023/08/23/gr-lora_sdr-a-gnu-radio-sdr-implementation-of-a-lora-transceiver/)
 
