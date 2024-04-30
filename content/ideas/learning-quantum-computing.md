@@ -27,6 +27,8 @@ Version:      0.0.0
 * [Picturing Quantum Processes: A First Course in Quantum Theory and Diagrammatic Reasoning, by Bob Coecke, Aleks Kissinger](https://www.amazon.com/dp/110710422X)
 * [Introduction to the Theory of Computation, by Michael Sipser](https://www.amazon.com/dp/0357670582)
 
+* [The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/?s=The+Unexaggerated+Magic+Of+Quantum)
+
 
 
 I found the word to describe what I was looking for in the description of the Tufts University's course [CS 150: Quantum Computer Science](https://www.cs.tufts.edu/comp/150QCS/).
@@ -80,6 +82,10 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
     * [Quantum Machanical Computers](http://www.quantum-dynamic.eu/doc/feynman85_qmc_optics_letters.pdf)
     * [Richard Feynman: Simulating Physics with Computers](https://www.researchgate.net/publication/254705307_RICHARD_FEYNMAN_SIMULATING_PHYSICS_WITH_COMPUTERS)
     * [A Summary of Feynman's "Simulating Physics with Computers"](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Quantum_Tutorials_(Rioux)/08%3A_Quantum_Teleportation/8.42%3A_A_Summary_of_Feynman's_Simulating_Physics_with_Computers)
+
+# Port of Los Angeles Pier 300
+* [SavantX: Logistics Optimization at the Port of Los Angeles](https://www.dwavesys.com/media/y3hl22va/dwave_port_of_la_case_story_v7.pdf)
+* [Logistics Optimization with Quantum: Port of Los Angeles](https://www.youtube.com/watch?v=jA7iopqDm94)
 
 
 ------
