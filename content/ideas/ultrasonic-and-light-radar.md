@@ -56,6 +56,7 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 * [HFS-DC06 - DC 5V 5.8G 5.8GHz Microwave Radar Sensor Switch Module ISM Waveband Sensing 12m HFS-DC06 No Interference](https://www.aliexpress.com/item/5-8GHz-Microwave-Radar-Sensor-Module-ISM-Waveband-DC-5V-39-22-11mm-Installation-Height-2/32735312800.html)
 * [SK-600 - AC 220V-240V 5.8GHz Microwave Radar Sensor Body Motion HF Detector Light Switch](https://www.banggood.com/SK-600-AC-220V-240V-5_8GHz-Microwave-Radar-Sensor-Body-Motion-HF-Detector-Light-Switch-p-1023364.html)
 * [Keep An Eye On The Neighborhood With This Passive Radar](https://hackaday.com/2019/11/08/keep-an-eye-on-the-neighborhood-with-this-passive-radar/)
+* [DIY Passive Radar System Verifies ADS-B Transmissions](https://hackaday.com/2024/04/29/diy-passive-radar-system-verifies-ads-b-transmissions/)
 * [Acconeer](https://www.acconeer.com/products)
 * [DesignCore RS-2944A mmWave Radar Sensor Eval Kit](https://linuxgizmos.com/d3s-production-intent-embedded-platform-with-radar-sensing-capabilities/)
 

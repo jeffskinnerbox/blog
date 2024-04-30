@@ -83,6 +83,7 @@ dToF = direct time-of-flight
 * [HFS-DC06 - DC 5V 5.8G 5.8GHz Microwave Radar Sensor Switch Module ISM Waveband Sensing 12m HFS-DC06 No Interference](https://www.aliexpress.com/item/5-8GHz-Microwave-Radar-Sensor-Module-ISM-Waveband-DC-5V-39-22-11mm-Installation-Height-2/32735312800.html)
 * [SK-600 - AC 220V-240V 5.8GHz Microwave Radar Sensor Body Motion HF Detector Light Switch](https://www.banggood.com/SK-600-AC-220V-240V-5_8GHz-Microwave-Radar-Sensor-Body-Motion-HF-Detector-Light-Switch-p-1023364.html)
 * [Keep An Eye On The Neighborhood With This Passive Radar](https://hackaday.com/2019/11/08/keep-an-eye-on-the-neighborhood-with-this-passive-radar/)
+* [DIY Passive Radar System Verifies ADS-B Transmissions](https://hackaday.com/2024/04/29/diy-passive-radar-system-verifies-ads-b-transmissions/)
 * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor)
 * [Acconeer](https://www.acconeer.com/products)
 * [SparkFun Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic) - SEN-18993](https://www.sparkfun.com/products/18993)
