@@ -29,6 +29,7 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 
 
 # # Type of Radar Sensors
+* [LiDAR, Radar, and PCR: What's The Difference?](https://www.sparkfun.com/news/10536)
 * [How to choose Radar Sensors (Tutorial). Incl. PIR and LIDAR](https://www.youtube.com/watch?v=PNbAM9IhfBE)
 * [Linear Array Solid LiDAR (25-300mm)](https://www.dfrobot.com/product-2645.html)
 * [#135 Radar Sensors / Switches: Comparison and Tests](https://www.youtube.com/watch?v=9WiJJgIi3W0&t=712s)
