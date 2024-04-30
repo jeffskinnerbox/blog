@@ -793,6 +793,7 @@ Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and 
 * [How To Make Drone With Hand-made Radio Control. DIY Drone](https://www.youtube.com/watch?v=yFBvC_zRie)
 * [DIY 6 Channels Radio Control For Models. How To Make İt](https://www.youtube.com/watch?v=pjBnFZGfsjI)
 
+* [Tiny Arduino Drone Even Has An FPV Camera](https://hackaday.com/2024/04/29/tiny-arduino-drone-even-has-an-fpv-camera/)
 * [Making a Long Range Remote Control. DIY 1 to 8-Channel Arduino RC PART-1](https://www.youtube.com/watch?v=jtXkYjStimo)
 * [Making a 2400 meters LONG RANGE 8-Channel & Digital Trim Radio Control For RC Models. PART-2](https://www.youtube.com/watch?v=RSDfMaanKXM)
 
