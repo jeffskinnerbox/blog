@@ -19,6 +19,22 @@ Version:      0.0.0
 * [mCoding](https://www.youtube.com/@mCoding)
 
 
+
+
+# Python Development Environment
+* [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
+* [How To Use Docker To Make Local Development A Breeze](https://www.youtube.com/watch?v=zkMRWDQV4Tg)
+* [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
+* [Setting A Dockerized Python Environment — The Elegant Way](https://towardsdatascience.com/setting-a-dockerized-python-environment-the-elegant-way-f716ef85571d)
+
+* [Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1/)
+* [Containerized Python Development – Part 2](https://www.docker.com/blog/containerized-python-development-part-2/)
+* [Containerized Python Development – Part 3](https://www.docker.com/blog/containerized-python-development-part-3/)
+
+
+
+
+
 # Learning Python
 * [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
 
