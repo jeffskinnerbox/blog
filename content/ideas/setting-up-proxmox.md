@@ -19,8 +19,29 @@ Version:      0.0.0
 * [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
 * [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
 * [Eleven of the Best Open Source Hypervisor Technologies](https://informationsecuritybuzz.com/eleven-of-the-best-open-source-hypervisor-technologies/)
+
+
+
+
+
+
+
+# Upgrade from Proxmox 7 to 8
+* [Upgrade from 7 to 8](https://pve.proxmox.com/wiki/Upgrade_from_7_to_8)
 * [Proxmox VE 8.1 Brings SDN and More for its Popular Virtualization Platform](https://www.servethehome.com/proxmox-ve-8-1-brings-sdn-and-more-for-its-popular-virtualization-platform/)
+* [Proxmox VE 8.1 Brings Software-Defined Networking and Secure Boot](https://www.storagereview.com/news/proxmox-ve-8-1-brings-software-defined-networking-and-secure-boot)
+* [Upgrade Proxmox VE Version 7 to Version 8: The Complete Step-by-Step Guide](https://www.youtube.com/watch?v=i5cmx-mcUVA)
+* https://pve.proxmox.com/wiki/Upgrade_from_7_to_8
+* https://www.servethehome.com/proxmox-ve-8-0-is-out-upgrading-linux-and-more/
+* https://www.virtualizationhowto.com/2023/06/proxmox-8-new-features-and-home-lab-upgrade-instructions/
+* Proxmox Backup Server Version 3.0 Now Available
+    * https://www.storagereview.com/news/proxmox-backup-server-version-3-0-now-available
+    * https://www.proxmox.com/en/news/listid-1/mailid-200-proxmox-backup-server-3-0-available?tmpl=component&tmpl=component
 * [Proxmox Backup Server 3.1 Released](https://www.storagereview.com/news/proxmox-backup-server-3-1-released)
+
+
+
+
 
 
 # Proxmox
