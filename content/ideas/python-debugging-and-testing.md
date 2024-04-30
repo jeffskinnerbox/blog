@@ -22,6 +22,8 @@ Version:      0.0.0
 
 
 # Python Development Environment
+* [Setting Up a Great Python Dev Environment with Docker](https://dev.to/njoguu/setting-up-a-great-python-dev-environment-with-docker-2b01)
+    * [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
 * [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
 * [How To Use Docker To Make Local Development A Breeze](https://www.youtube.com/watch?v=zkMRWDQV4Tg)
 * [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
