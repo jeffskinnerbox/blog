@@ -87,8 +87,15 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
 * [SavantX: Logistics Optimization at the Port of Los Angeles](https://www.dwavesys.com/media/y3hl22va/dwave_port_of_la_case_story_v7.pdf)
 * [Logistics Optimization with Quantum: Port of Los Angeles](https://www.youtube.com/watch?v=jA7iopqDm94)
 
+# Thermodynamic Computing
+* [A Vision to Compute like Nature: Thermodynamically](https://cacm.acm.org/opinion/a-vision-to-compute-like-nature/)
+* [Extropic](https://www.extropic.ai/future)
+    * [Thermodynamic Computing: Better than Quantum? | Guillaume Verdon and Trevor McCourt, Extropic](https://www.youtube.com/watch?v=OwDWOtFNsKQ)
+
+
 
 ------
+
 
 
 # Quantum Computing Pedagogy
