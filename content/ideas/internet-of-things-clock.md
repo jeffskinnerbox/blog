@@ -269,6 +269,7 @@ Project of a clock (or other information) on ceiling in bedroom
 * [Recreating an old-school mechanical split-flap display with Arduino](https://www.blogdot.tv/recreating-an-old-school-mechanical-split-flap-display-with-arduino/)
 * [Steppers And ESP32 Make This Retro-Modern Flip-Clock Tick](https://hackaday.com/2021/10/02/steppers-and-esp32-make-this-retro-modern-flip-clock-tick/)
 * [Split Flap Display Tells Us The Word](https://hackaday.com/2022/03/02/split-flap-display-tells-us-the-word/)
+* [Yet Another Flap Clock](https://www.instructables.com/Yet-Another-Flap-Clock/)
 
 * [A Flip Clock That Flips Up, Not Down](https://hackaday.com/2021/11/24/a-flip-clock-that-flips-up-not-down/)
 
