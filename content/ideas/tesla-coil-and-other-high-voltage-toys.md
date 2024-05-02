@@ -243,12 +243,13 @@ Nikola Tesla wanted to beam power without wires.
 * [DIY 50,000 Volt Arc Lighter Powered Tesla Coil (ft. Integza)](https://www.youtube.com/watch?v=4GRyxuRIPPo)
 * [DIY 100,000 Volt Arc Lighter Impulse Generator](https://www.youtube.com/watch?v=6c0Zyxn7rrI)
 
-
 * [Tesla Coil Arc Plasma Loudspeaker](https://www.amazon.com/gp/product/B0794X4PPD)
 * [Unreal Bluetooth Plasma Speaker (3D printed)](https://www.youtube.com/watch?v=yO9Igd3MyWs)
-* [Build Your Own Class-E Musical Tesla Coil](https://hackaday.com/2024/04/26/build-your-own-class-e-musical-tesla-coil/)
 * [Short review of small music Tesla Coil with Bluetooth](https://www.hackster.io/mircemk/short-review-of-small-music-tesla-coil-with-bluetooth-dc0b0b)
 
+* [Build Your Own Class-E Musical Tesla Coil](https://hackaday.com/2024/04/26/build-your-own-class-e-musical-tesla-coil/)
+* [Cheap Musical Tesla Coil Put Through Its Paces](https://hackaday.com/2024/05/01/cheap-musical-tesla-coil-put-through-its-paces/)
+* [Voltage Multiplier (Mini Musical Tesla Coil #2)](https://www.youtube.com/watch?v=dYxKypbso1c)
 
 * [Handheld TESLA COIL GUN at 28,000fps - Smarter Every Day 162](https://www.youtube.com/watch?v=_fTC_Ud_k3U)
 * [Vacuum Tube Tesla Coil Does Fascinating Stunts](http://blog.modernmechanix.com/vacuum-tube-tesla-coil-does-fascinating-stunts/)
@@ -304,7 +305,6 @@ A voltage multiplier is an electrical circuit that converts AC electrical power 
 
 Voltage multipliers can be used to generate a few volts to millions of volts for purposes such as high-energy physics experiments and lightning safety testing.
 
-* [Voltage Multiplier (Mini Musical Tesla Coil #2)](https://www.youtube.com/watch?v=dYxKypbso1c)
 
 ## Marx Generator
 * [Marx generator](https://en.wikipedia.org/wiki/Marx_generator)
