@@ -1164,6 +1164,7 @@ Proxmox Backup Server is an enterprise backup solution that allows you to back u
 
 Proxmox Backup Server can be run in a Proxmox host, though it’s probably a good idea to install it on bare metal on a separate server (or at least a separate Proxmox server). This way, you have your Proxmox hypervisor backing up to your Proxmox Backup Server.
 
+* [Backup Proxmox VE VMs Quickly and Easily](https://www.servethehome.com/backup-proxmox-ve-vms-quickly-and-easily/)
 * [Getting Started With Proxmox Backup Server](https://ostechnix.com/getting-started-with-proxmox-backup-server/)
 * [How To Install Proxmox Backup Server Step by Step](https://ostechnix.com/install-proxmox-backup-server/)
 * [How to Set Up Proxmox Backup Server](https://www.wundertech.net/how-to-set-up-proxmox-backup-server/)
