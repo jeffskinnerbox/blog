@@ -163,6 +163,7 @@ QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechan
         * [The “blind spot” in science that’s fueling a crisis of meaning](https://bigthink.com/13-8/why-science-must-contend-with-human-experience/)
         * [“QBism”: The most radical interpretation of quantum mechanics ever](https://bigthink.com/13-8/qbism-quantum-physics/)
         * [QBism and the philosophical crisis of quantum mechanics](https://bigthink.com/13-8/qbism-philosophical-crisis-quantum-mechanics/)
+        * [QBism: The simplest interpretation of quantum physics](https://bigthink.com/13-8/qbism-simplest-explanation-of-quantum-physics/)
 
 
 
