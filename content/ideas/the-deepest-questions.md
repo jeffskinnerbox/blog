@@ -904,6 +904,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
 
 # Information
+* [Nyquist - the amazing 1928 BREAKTHROUGH which showed every communication channel has a capacity](https://www.youtube.com/watch?v=BT_mWQjO-bo)
+* [Shannon-Nyquist Sampling Theorem](https://www.youtube.com/watch?v=FcXZ28BX-xE)
 * [Intro to Information Theory | Digital Communication | Information Technology](https://www.youtube.com/watch?v=_PG-jJKB_do)
 * [How Shannon Entropy Imposes Fundamental Limits on Communication](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/)
 * [How Claude Shannon Invented the Future](https://www.quantamagazine.org/how-claude-shannons-information-theory-invented-the-future-20201222/)
