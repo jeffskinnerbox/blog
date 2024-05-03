@@ -91,6 +91,8 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
 * [A Vision to Compute like Nature: Thermodynamically](https://cacm.acm.org/opinion/a-vision-to-compute-like-nature/)
 * [Extropic](https://www.extropic.ai/future)
     * [Thermodynamic Computing: Better than Quantum? | Guillaume Verdon and Trevor McCourt, Extropic](https://www.youtube.com/watch?v=OwDWOtFNsKQ)
+    * [The Next Era of Computing | Extropic](https://www.youtube.com/watch?v=fyVudfvYNKo)
+    * [Guillaume Verdon: Why Accelerate](https://www.youtube.com/watch?v=QjVOfM2EBnE)
 
 
 
