@@ -74,6 +74,10 @@ Version:      0.0.0
 # How Python Works
 * [How Python Works](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
 
+# How to Write Pythonic Code
+Pythonic describes code that doesn’t just get the syntax right but uses the language in the way it’s intended to be used. Here’s how to optimize your Python code.
+* [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
+
 # Python Idioms (Idiomatic Python)
 * Being Pythonic
     * [You should put this in all your Python scripts | if __name__ == '__main__': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
@@ -115,13 +119,25 @@ Version:      0.0.0
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
-# How to Write Pythonic Code
-Pythonic describes code that doesn’t just get the syntax right but uses the language in the way it’s intended to be used. Here’s how to optimize your Python code.
-* [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
+# Python Modules
+* Itertools - Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop. Such data structures are also known as iterables. This module incorporates functions that utilize computational resources efficiently.
+    * [What are itertools in Python?](https://www.educative.io/answers/what-are-itertools-in-python)
+    * [Python Itertools](https://www.geeksforgeeks.org/python-itertools/)
+    * [The FULL Guide To Itertools For Python Developers](https://www.youtube.com/watch?v=baZpqVmR488)
 
 
 
 -------
+
+
+
+# Python Graphical User Interfaces (GUI)
+* [Python GUI's With TKinter](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV)
+
+
+
+-------
+
 
 
 # Python Text Formatting
@@ -136,6 +152,7 @@ The Rich API makes it easy to add color and style to terminal output. Rich can a
 
 
 -------
+
 
 
 # Check for Issues with Dependencies
