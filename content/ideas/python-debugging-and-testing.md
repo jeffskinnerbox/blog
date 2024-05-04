@@ -22,11 +22,18 @@ Version:      0.0.0
 
 
 # Python Development Environment
+If you have more than one Python project,
+your going to want to setup separate development environments.
+The very act of setting up these environments and maintaining them can be laborious,
+even with the aid of Python's virtual environment tools.
+And if your sharing a project with teammates,
+you have to coordinate the environments across space & time.
+A good remedy for this can be containerization of your Python development environment.
+
 * [Setting Up a Great Python Dev Environment with Docker](https://dev.to/njoguu/setting-up-a-great-python-dev-environment-with-docker-2b01)
     * [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
 * [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
 * [How To Use Docker To Make Local Development A Breeze](https://www.youtube.com/watch?v=zkMRWDQV4Tg)
-* [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
 * [Setting A Dockerized Python Environment — The Elegant Way](https://towardsdatascience.com/setting-a-dockerized-python-environment-the-elegant-way-f716ef85571d)
 
 * [Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1/)
