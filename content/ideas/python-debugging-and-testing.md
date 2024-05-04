@@ -81,6 +81,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 # Python Idioms (Idiomatic Python)
 * Being Pythonic
     * [You should put this in all your Python scripts | if __name__ == '__main__': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+    * [5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
     * [A forbidden Python technique to put ANYTHING in a dict or set](https://www.youtube.com/watch?v=NpdNDTncxwA)
     * [__new__ vs __init__ in Python](https://www.youtube.com/watch?v=-zsV0_QrfTw)
 * Newbe Bad Habits
@@ -115,9 +116,39 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
     * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
 * Logging
     * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
+    * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
 * Unit Testing
+    * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
+
+# Python Static Analysis Tools
+As projects grow in complexity, ensuring code quality and security becomes paramount.
+There are many Python static analysis tools to choose from, but these are most helpful:
+
+* [`black`](https://pypi.org/project/black/) uncompromising Python code formatter.
+It saves you from the minutiae of hand-formatting and freedom from nagging about formatting.
+Install `black` with `pip install black`.
+(**NOTE:** If you want to format Jupyter Notebooks, install with `pip install "black[jupyter]"`.)
+* [`mypy`](https://mypy-lang.org/) is a a static type checking tool.
+You can freely mix static and dynamic typing within a program,
+within a module or within an expression.
+No need to give up dynamic typing — use static typing when it makes sense.
+Install `mypy` with `pip install mypy`.
+* [`flake8`](https://pypi.org/project/flake8/) is a bundle of
+[`pyflakes`](https://pypi.org/project/pyflakes/), [`pycodestyle`](https://pypi.org/project/pycodestyle/),
+and [`mccabe`](https://pypi.org/project/mccabe/).
+It is faster than Pylint largely because Flake8 only examines the syntax tree of each file individually.
+Install `flake8` with `pip install flake8`.
+* [`pylint`](https://www.pylint.org/)  is a static code analyzer for Python 2 or 3.
+Pylint analyses your code without actually running it.
+It checks for errors, enforces a coding standard, looks for [code smells](https://en.wikipedia.org/wiki/Code_smell),
+and can make suggestions about how the code could be refactored.
+Its follows the [PEP 8 style guide for Python code](https://peps.python.org/pep-0008/)
+Install `pylint` with `pip install pylint`.
+
+* [A Guide to Popular Python Static Analysis Tools](https://blog.codacy.com/python-static-analysis-tools)
+* [Python Linter Comparison 2022: Pylint vs Pyflakes vs Flake8 vs autopep8 vs Bandit vs Prospector vs Pylama vs Pyroma vs Black vs Mypy vs Radon vs mccabe](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)
 
 # Python Modules
 * Itertools - Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop. Such data structures are also known as iterables. This module incorporates functions that utilize computational resources efficiently.
