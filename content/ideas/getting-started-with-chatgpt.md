@@ -42,6 +42,9 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 * [World's Easiest GPT-like Voice Assistant](https://www.youtube.com/watch?v=LTn2SPZw1mw)
 * [ChatGPT + Raspberry Pi - A ChatGPT powered Raspberry Pi chatbot](https://www.youtube.com/watch?v=lHxFFn04L10)
 
+# Speech Recognition, LLM, and Text-to-Speech
+* [Interactive Animatronic GLaDOS](https://www.hackster.io/davesarmoury/interactive-animatronic-glados-8b4238)
+
 
 
 --------
