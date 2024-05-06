@@ -46,6 +46,11 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 * [Interactive Animatronic GLaDOS](https://www.hackster.io/davesarmoury/interactive-animatronic-glados-8b4238)
 
 
+# ChatGPT on the Command-Line
+* Simple yet effective command line client for chatting with ChatGPT using the official API - [GitHub: marcolardera/chatgpt-cli](https://github.com/marcolardera/chatgpt-cli)
+* A command line tool for interacting with DALL-E models - [GitHub: marcolardera/dall-e-cli](https://github.com/marcolardera/dall-e-cli)
+
+
 
 --------
 
