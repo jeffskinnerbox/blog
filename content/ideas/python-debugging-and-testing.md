@@ -98,6 +98,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 # Python Objects
 * Magic Methods
     * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
+    * [Understanding Python’s Iteration and Membership: A Guide to __contains__ and __iter__ Magic Methods](https://www.kdnuggets.com/understanding-pythons-iteration-and-membership-a-guide-to-__contains__-and-__iter__-magic-methods)
 * Classes
     * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
     * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
@@ -126,8 +127,43 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
     * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
 * Unit Testing
     * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
+    * [pytest Framework](https://docs.pytest.org/)
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
+
+# Python Import Statement
+The Python `import` statement lets you read (aka copy) a module into your code.
+A module, sometimes called packages, is any file that contains
+classes, functions, and values that you can reference from your program.
+In short, Python modules are `.py` files that contain Python code.
+
+We could import the Python `time` module and make use of the `sleep()` function via the following code:
+
+```python
+import time
+
+time.sleep(3)
+```
+
+The above `import` statement allows you to import all the functions from a module into your code.
+Often, though, you’ll only want to import a few functions, or just one.
+that can be done via:
+
+```python
+from random import choice
+
+fruits = ["Apple", "Pear", "Banana"]
+print(choice(fruits))
+```
+
+The default name given to modules in your code is the name of the module.
+However, you can override the default module name using the `as` keyword.
+
+```python
+import tkinter as tk
+
+window = tk.Tk()
+```
 
 # Python Static Analysis Tools
 As projects grow in complexity, ensuring code quality and security becomes paramount.
@@ -169,8 +205,19 @@ Install `pylint` with `pip install pylint`.
 
 
 
+# Build a Python Command-Line App
+* [Build a Command-Line App with Python in 7 Easy Steps](https://www.kdnuggets.com/build-a-command-line-app-with-python-in-7-easy-steps)
+* [A Simple Command-Line TO-DO List App](https://github.com/balapriyac/python-projects/tree/main/command-line-app)
+
+
+
+-------
+
+
+
 # Python Graphical User Interfaces (GUI)
 * [Python GUI's With TKinter](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV)
+* [My Example](https://github.com/jeffskinnerbox/ll-tracker/blob/master/tkrdecoder.py)
 
 
 
