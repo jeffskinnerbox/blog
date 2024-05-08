@@ -33,6 +33,10 @@ Try following this for VNC ...
 * [How to connect to a remote computer using VNC in Linux](https://www.redhat.com/sysadmin/vnc-screen-sharing-linux)
 * [How To Access Your PCs and Servers from Anywhere Using Guacamole and CloudFlare Tunnels](https://www.youtube.com/watch?v=tg1CbMEzCsc)
 
+for Raspberry Pi ....
+* [Raspberry Pi Now Has an Official Remote Desktop Client](https://www.howtogeek.com/raspberry-pi-connect-remote-access-desktop/)
+* [Raspberry Pi Solves Remote Headless Connection Headaches with the Browser-Based Raspberry Pi Connect](https://www.hackster.io/news/raspberry-pi-solves-remote-headless-connection-headaches-with-the-browser-based-raspberry-pi-connect-d65ca044f423)
+
 
 
 
