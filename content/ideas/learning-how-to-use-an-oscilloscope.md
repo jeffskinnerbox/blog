@@ -276,6 +276,8 @@ Depending on the probe and the circuit, the probe loading may cause unwanted sid
 
 * [Demystifying RCRC and RC Probes](https://www.keysight.com/us/en/assets/7018-04792/application-notes/5992-0694.pdf)
 
+* [Non Contact Scope Probe Costs Nearly Nothing](https://hackaday.com/2024/05/06/non-contact-scope-probe-costs-nearly-nothing/)
+
 * [The Secret Life of Oscilloscope Probes](http://www.dfad.com.au/links/THE%20SECRET%20WORLD%20OF%20PROBES%20OCt09.pdf)
 * [How an Oscilloscope Probe Works, and other Stories](https://hackaday.com/2017/03/15/how-an-oscilloscope-probe-works-and-other-stories/)
 * [Oscilloscope Probes: What You Need to Know](https://www.youtube.com/watch?app=desktop&v=XQlPSFqhG08)
