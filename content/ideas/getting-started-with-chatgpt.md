@@ -47,6 +47,7 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 
 
 # ChatGPT on the Command-Line
+* [ChatGPT CLI: Transform Your Command-Line Interface Into ChatGPT](https://www.kdnuggets.com/2023/07/chatgpt-cli-transform-commandline-interface-chatgpt.html)
 * Simple yet effective command line client for chatting with ChatGPT using the official API - [GitHub: marcolardera/chatgpt-cli](https://github.com/marcolardera/chatgpt-cli)
 * A command line tool for interacting with DALL-E models - [GitHub: marcolardera/dall-e-cli](https://github.com/marcolardera/dall-e-cli)
 
