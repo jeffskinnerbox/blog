@@ -141,6 +141,7 @@ a touch screen display, and ChatGPT.
 
 # AI Generated Text to Voice
 * [Voice Cloning](/home/jeff/blogging/content/ideas/voice-cloning.md)
+* [myvox.ai - AI artist voice model](https://myvox.ai/)
 
 # AI Generate Text from Speech
 * [Playing around with Spchcat/Speechcat](https://www.youtube.com/watch?v=c6c_bJIewUU)
