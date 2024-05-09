@@ -254,6 +254,9 @@ I chose Raspbian Lite
 
 
 
+# Proxmox Cluster
+* [More POWER for my HomeLab! // Proxmox Cluster](https://www.youtube.com/watch?v=IhEE_QlI1MU)
+* [Install Proxmox 8 on Raspberry Pi OS](https://www.youtube.com/watch?v=VILBY-xZD8E)
 * [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
 * [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
 * [Creating a Raspberry Pi-Based Beowulf Cluster](http://kau.diva-portal.org/smash/get/diva2:1110319/FULLTEXT02.pdf)
@@ -261,6 +264,7 @@ I chose Raspbian Lite
 * [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
 * [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
 * [Virtual Machines on the Raspberry Pi!: VMWare ESXi on Raspberry Pi 4](https://medium.com/@arsalan.sahab/virtual-machines-on-the-raspberry-pi-3292ce60acdb)
+
 
 # Kubernetes
 
