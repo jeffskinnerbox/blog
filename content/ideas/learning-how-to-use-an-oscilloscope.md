@@ -270,6 +270,11 @@ The concept is similar in use to [vernier calipers][04] which have a primary sca
 # Measuring RF Cable Impedance
 * [Finding RF Cable Impedance](https://hackaday.com/2020/05/24/finding-rf-cable-impedance/)
 
+# Transistor Curve Tracer
+* [Simple Transistor Curve Tracer for Oscilloscopes.](https://www.youtube.com/watch?v=V5UJiaRwV88)
+    * [Simple but effective Transistor Curve Tracer circuit](https://www.eddybergman.com/2017/06/simple-but-effective-transistor-curve.html#google_vignette)
+    * [Transistor Curve Tracer](https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-09/page/n37/mode/2up)
+
 # Oscilloscope Probes
 An ideal oscilloscope probe would provide an exact copy of the signal you are probing. But in the real world, your probe becomes a part of the circuit under test because the probes and accessories attached to your device under test cause probe loading to the circuit.
 Depending on the probe and the circuit, the probe loading may cause unwanted side effects such as overshooting, ringing, and DC offset problems in the time domain.
