@@ -229,7 +229,73 @@ ps aux | grep kvm
 sudo rmmod kvm-intel kvm
 ```
 
-#### Step 2: Google Chrome - DONE
+#### Step 2: Install Miniconda for Python Work - DONE
+[Python][67] is such a success in large part because of its very active community
+in which people share their awesome solutions.
+Unfortunately, there is a price.
+[Python packages][68] you used get updated with a better way to solve their problem.
+These changes can be breaking changes for the code you have written.
+
+There are several ways to deal with this issue and I have choosen to manage it by using
+[Miniconda][70], a much smaller base installation than [Anaconda][69],
+but with the ability to scale up to the whole Anaconda distribution, if you chose to do so.
+The Miniconda Python system requires ~400MB of disk space, where Anaconda requires ~3GB of disk space
+
+The following steps install Miniconda.
+Not only will Miniconda will be installed but your `bash` shell environment
+(specifically the files `.bashrc` or `.bash_profile`)
+will be updated to include Miniconda in the `$PATH`.
+Also, if the environment variable `$PYTHONPATH` is set, you will get a warning like
+"_please verify that your $PYTHONPATH only points to directories of packages that are compatible with the Python interpreter in Miniconda3_"
+
+```bash
+# create a directory to install miniconda in
+mkdir -p ~/.miniconda3
+
+# download latest miniconda version
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/.miniconda3/miniconda.sh
+
+# run the install script
+bash ~/.miniconda3/miniconda.sh -b -u -p ~/.miniconda3
+
+# delete the install script
+rm -rf ~/.miniconda3/miniconda.sh
+
+# add a conda initialize to your bash   <-- DO NOT run `conda init bash` if you plan to use `~/.dotfile` since it already contains the changes needed for `~/.bashrc`
+#~/.miniconda3/bin/conda init bash
+
+# verify the installation by listing the contents of the install
+conda list
+
+# list the envirnments established (should only be 'base')
+conda env list
+```
+
+Following the steps above, restart the terminal and Miniconda is ready to go.
+
+To uninstall Miniconda, you follow these steps:
+
+```bash
+# backup any important data and python environments
+conda env export > environment.yml
+
+# locate miniconda directory and delete it
+ls -a ~ | grep miniconda
+rm -rf ~/.miniconda3
+
+# remove conda configuration files (optional)
+rm -rf ~/.condarc ~/.conda
+
+# open file editor and remove miniconda path from .bashrc or .bash_profile
+#    open the file in a text editor, find the line that contain
+#    references to miniconda and remove them
+```
+
+Sources:
+* [Install Miniconda on Linux from the command line in 5 steps](https://javedhassans.medium.com/install-miniconda-on-linux-from-the-command-line-in-5-steps-403912b3f378)
+* [How to Uninstall Miniconda on Linux: A Guide](https://saturncloud.io/blog/how-to-uninstall-miniconda-on-linux-a-guide/)
+
+#### Step 3: Google Chrome - DONE
 My go-to browser is Chrome and you can install it on Ubuntu from [here][50].
 
 ```bash
@@ -258,7 +324,7 @@ use the following command to uninstall the web browser.
 sudo apt purge google-chrome-stable
 ```
 
-#### Step 3: NeoVim - DONE
+#### Step 4: NeoVim - DONE
 There are several sources for [NeoVim][51],
 but I have found that [Snap][54] has one of the most up to date versions.
 I installed NeoVim via the Snap Store using this method:
@@ -297,7 +363,7 @@ sudo apt install wl-clipboard
 To fix complaints about lack of Python, Node.js, `ripgrep` support,
 you need to install Python, Node.js, and other tools.
 This should be already established on the `/home` drive.
-Note that I'm using Miniconda for my Python envirnment
+**Note** that I'm using Miniconda for my Python envirnment
 you must activate the `base` envirnment, if not already done via your shell.
 
 ```bash
@@ -941,7 +1007,7 @@ sudo apt install nfs-common
 sudo mkdir -pv /home2/nfs/synology-nas
 
 # mount the nas filesystem on you desktop linux
-sudo mount 192.168.1.201:/volume1/NetBackup/desktop /home2/nfs/synology-nas
+sudo mount 192.168.1.201:/volume1/NetBackup /home2/nfs/synology-nas
 
 # test if you can see the remote directories contents (must have some files there)
 $ sudo ls /home2/nfs/synology-nas/
@@ -1660,10 +1726,179 @@ This series if focused on showing you everything you need to know to allow you p
     * [3D Printing Perfection: Things You Must Check Before Every Cura 5 Print](https://www.youtube.com/watch?v=HV5XA0oR9c4)
 
 
+
 -----
 
 
+
+# Install
+
+
+-----
+
+
+
 # Setup Thunderbird
+
+
+
+-----
+
+
+
+# Setup Uninterruptible Power Supplies (UPS)
+I purchased a [uninterruptible power supply][67],
+specifically the [APC Back-UPS NS 1080][68],
+to smooth out the power dips that are far too frequent in my home.
+I need to get this operational again.
+
+Linux has a software daemon called [`apcupsd`][69] (the name stands for APC UPS Daemon)
+that allows the computer to interact with (almost all recent)
+[American Power Conversion Corp (APC)][70] UPS'.
+During a power failure, `apcupsd` informs users about the loss of utility power
+and that a shutdown may occur.
+If utility power is not restored,
+a system shutdown will follow when the battery is exhausted, a specified timeout expires,
+a specified battery charge percentage is reached,
+or a specified battery runtime
+(based on internal UPS calculations and determined by power consumption rates) expires.
+If the utility power is restored before one of the these shutdown conditions is met,
+`apcupsd` will inform users of this and the shutdown will generally be cancelled.
+
+[67]:http://en.wikipedia.org/wiki/Uninterruptible_power_supply
+[68]:https://www.apc.com/us/en/product/BN1080G/apc-powersaving-backups-pro-ns-1080va/
+[69]:http://en.wikipedia.org/wiki/Apcupsd
+[70]:http://www.apc.com/
+[71]:https://help.ubuntu.com/community/apcupsd
+[72]:http://linux.die.net/man/8/chkconfig
+[73]:http://www.apcupsd.com/manual/manual.html#apcupsd-status-logging
+
+## UPS Installation
+For my UPS,
+the  `apcupsd` daemon will be communicating with the UPS via a USB connection.
+To make sure that your USB subsystem can see the UPS,
+plug in the UPS and connect the USB cable to your computer.
+Then just run `lsusb` from a shell prompt (see below, output included):
+
+```bash
+# the lsusb command can show you the hubs connected to your system
+$ lsusb | grep American
+Bus 001 Device 007: ID 051d:0002 American Power Conversion Uninterruptible Power Supply
+```
+
+#### Step 1: Install `apcupsd` - DONE
+The `apcupsd` daemon is easy to install
+and is well documented at "[apcupsd - Official Ubuntu Documentation][71]".
+If you want to see the stats of the UPS through the browser,
+you can also install `apcupsd-cgi` package.
+
+```bash
+# install the apcupsd daemon and browser package
+sudo apt install apcupsd apcupsd-cgi
+```
+
+Next you edit the `apcupsd` configuration file `/etc/apcupsd/apcupsd.conf`.
+Here are the modifications I made to this file:
+
+```bash
+# UPS name, max 8 characters
+UPSNAME HOME_UPS
+
+# Defines the type of cable connecting the UPS to your computer.
+UPSCABLE usb
+
+# Battery date - 8 characters, date battry was installed
+BATTDATE <mm/dd/yy>
+
+# the type of UPS you have
+UPSTYPE usb
+
+# with a usb type UPS apcupsd can autodetect the device,
+# so you should comment out the DEVICE setting
+#DEVICE /dev/ttyS0
+
+# UPS should do a self test every two weeks
+SELFTEST 336
+```
+
+Now you must edit the file `/etc/default/apcupsd`.
+
+```bash
+# Defaults for apcupsd initscript
+
+# Apcupsd-devel internal configuration
+APCACCESS=/sbin/apcaccess
+ISCONFIGURED=yes
+```
+
+#### Step 2: Starting Things Up - DONE
+To start/stop the `apcupsd` daemon manually, just execute this command:
+
+```bash
+# start the apcupsd daemon
+sudo /etc/init.d/apcupsd start
+
+# to check if the demon is in fact running
+ps aux | grep --invert-match grep | grep apcupsd
+
+# stop the apcupsd daemon
+sudo /etc/init.d/apcupsd stop
+```
+
+The UPS daemon can be manual started/stopped, but also,
+the command `/etc/init.d/apcupsd` is automatically invoked at system startup and shutdown
+and is governed by the [`chkconfig`][72] procedures.
+
+To get a snapshot of the UPS's status, run the command `apcaccess status`.
+
+See the output below:
+
+```bash
+# UPS status check
+$ sudo apcaccess status
+
+APC      : 001,017,0422
+DATE     : 2024-04-26 12:50:06 -0400
+HOSTNAME : desktop
+VERSION  : 3.14.14 (31 May 2016) debian
+CABLE    : USB Cable
+DRIVER   : USB UPS Driver
+UPSMODE  : Stand Alone
+STARTTIME: 2024-04-26 12:36:43 -0400
+STATUS   : COMMLOST
+MBATTCHG : 5 Percent
+MINTIMEL : 3 Minutes
+MAXTIME  : 0 Seconds
+NUMXFERS : 0
+TONBATT  : 0 Seconds
+CUMONBATT: 0 Seconds
+XOFFBATT : N/A
+STATFLAG : 0x05000100
+END APC  : 2024-04-26 12:57:46 -0400
+```
+
+This shows that the UPS daemon is configured to do the following thing:
+
+| Parameter | Value | Description |
+|:----------------- |:--------------:|:--------------- |
+| MBATTCHG | 5% | If the battery charge percentage (BCHARGE) drops below this value, apcupsd will shutdown your system. Value is set in the configuration file (BATTERYLEVEL). |
+| MINTIMEL | 3 Min | apcupsd will shutdown your system if the remaining runtime equals or is below this point.  Value is set in the configuration file (MINUTES). |
+| MAXTIME  | 0 Sec | apcupsd will shutdown your system if the time on batteries exceeds this value.  A value of zero disables the feature. Value is set in the configuration file (TIMEOUT). |
+
+These parameters say something about how the UPS is perfroming
+(see [apcupsd Status Logging][73] section in the apcupsd User Manual):
+
+| Parameter | Value | Description |
+|:----------------- |:--------------:|:--------------- |
+| STARTTIME | time stamp | The time/date that `apcupsd` was started (ex. 2015-02-07 10:59:39 -0500). |
+| STATUS   | ONLINE | The current status of the UPS (ONLINE, ONBATT, etc.) |
+| LINEV    | 121.0 V | The current line voltage as returned by the UPS. |
+| LOADPCT  |  20.0% | The percentage of load capacity as estimated by the UPS. |
+| BCHARGE  | 100.0% | The percentage charge on the batteries. |
+| TIMELEFT |  36.1 | The remaining runtime left, in minutes on batteries as estimated by the UPS. |
+| LOTRANS  | 088.0 V | The line voltage below which the UPS will switch to batteries. |
+| HITRANS  | 142.0 V | The line voltage above which the UPS will switch to batteries. |
+| SELFTEST | NO | The results of the last self test, and may have the following values: OK - self test indicates good battery, BT - self test failed due to insufficient battery capacity, NG - self test failed due to overload, NO - No results (i.e. no self test performed in the last 5 minutes) |
 
 
 
@@ -1951,203 +2186,21 @@ sudo passwd --delete backup_user
 sudo usermod -s /bin/false backup_user
 ```
 
-# v#################### REMOVE TEXT BETWEEN THESE LINES #######################v
-#### Step X: Restart Rsnapshot Backup Processing
-To get your backup work again,
-you should read the document
-`/home/jeff/blogging/content/articles/network-backups-via-rsync-and-rsnapshot.md`.
-A large fraction of this work is done for you by reclaiming the `/home` directory
-and using the scripts within `/home/bachup_user/bin`.
-The steps you need to perform, using the documentation as your guide:
-
-1. You'll need to to install `rsync` and related software.
-2. Update the `/etc/fstab` file to mount the external drive.
-3. Mount the drive and do your fist backup, as document, manually
-(i.e. `sudo rsnapshot hourly`).
-4. To get automated backups running, update the `crontab` file for the
-user `backup_user` (if needed), and restart it.
-
-#### Step X: Scheduling (Automating) Backups in `crontab`
-Linux [cron][57] is used to schedule commands to be executed periodically.
-You can setup commands or scripts, which will be repeatedly run at a set time.
-
->**NOTE:** The cron service (daemon) runs in the background and constantly checks the `/etc/crontab` file,
->and `/etc/cron.*/` directories.
->It also checks the `/var/spool/cron/` directory.
->Review the article [CronHowTo][58] to see how you can schedule and run tasks
->in the background automatically at regular intervals using `crontab` files.
->Crontab ( **cron** **tab**le ) is a file which contains the schedule of cron entries to be run and at specified times.
-
-
-Under the `backup_user` account I established the Cron job for the backups.
-You can use `sudo crontab -l` to list the contents of crontab.
-To update it, use `crontab -e` and enter the following:
-
-```bash
-# Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
-# Version:      1.5.0
-
-# Each task to run has to be defined through a single line
-# indicating with different fields when the task will be run
-# and what command to run for the task
-#
-# To define the time you can provide concrete values for
-# minute (m), hour (h), day of month (dom), month (mon),
-# and day of week (dow) or use '*' in these fields (for 'any').#
-# Notice that tasks will be started based on the cron's system
-# daemon's notion of time and timezones.
-#
-# Output of the crontab jobs (including errors) is sent through
-# email to the user the crontab file belongs to (unless redirected).
-#
-# For example, you can run a backup of all your user accounts
-# at 5 a.m every week with:
-# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
-#
-# Instead of the first five fields, one of eight special strings may be applied:
-# string         meaning
-# ------         -------
-# @reboot        Run once, at startup.
-# @yearly        Run once a year, "0 0 1 1 *".
-# @annually      (same as @yearly)
-# @monthly       Run once a month, "0 0 1 * *".
-# @weekly        Run once a week, "0 0 * * 0".
-# @daily         Run once a day, "0 0 * * *".
-# @midnight      (same as @daily)
-# @hourly        Run once an hour, "0 * * * *".
-#
-# Examples
-# @reboot <command> #Runs at boot
-# @yearly <command> #Runs once a year [0 0 1 1 *]
-#
-#
-#
-# For more information see the manual pages of crontab(5) and cron(8)
-#
-#     +------------- minutes (0 - 59)
-#     |      +----------- hour (0 - 23)
-#     |      |          +--------- day of month (1 - 31)
-#     |      |          |         +------- month (1 - 12)
-#     |      |          |         |         +----- day of week (0 - 6) (Sunday = 0)
-#     |      |          |         |         |            +--- command to be executed
-#     |      |          |         |         |            |
-#     |      |          |         |         |            |
-#     m      h         dom       mon       dow
-#   minute  hour  day-of-month  month   day-of-week   command
-      0     */4         *         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh hourly
-     30      2          *         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh daily
-     30     10          *         *         6         /home/backup_user/bin/rsnapshot-wrapper.sh weekly
-     30     14          1         *         *         /home/backup_user/bin/rsnapshot-wrapper.sh monthly
-```
-
-Also, restart cron to make sure the changes are in effect:
-
-```bash
-# restart cron to make sure the changes are in effect
-sudo service cron restart
-```
-
-
-
-For `crontab`, I created a wrapper script and placed it in `/home/backup_user/bin/rsnapshot-wrapper.sh`.
-# ^#################### REMOVE TEXT BETWEEN THESE LINES #######################^
-
 
 
 -----
-
-
-
-# v#################### REMOVE TEXT BETWEEN THESE LINES #######################v
------
-
-**Active Backup for Business has LIMITED support for Linux** - see 5:10 minute mark on [Synology Active Backup Demo & Review 2023](https://youtu.be/kWTeOdZtmGw?si=3bzF8x49tqTSYpRo )
-
-# Setup of Synology NAS: Replications & Backups
-I'm using a Synology small office NAS to perfrom hourly backup of my Linux desktop system.
-Its a 2-bay [DiskStation DS220+][AA] and much of its operation is not impacted by my
-refresh of the Ubuntu OS but I will document the full setup process here
-since I want to make sure its set right.
-
-Next, some definitions:
-
-* Data **Backup** involves making a copy or copies of data
-and storing them off-site, with assured safety, in case the original is lost or damaged.
-It done in case of a major outage, it minimizes but doesn't prevent some data loss,
-and typically requires a lengthy amount of time to restore.
-* Data **Replication** is the act of copying data and then moving data to a site
-where it can be stored and restored rapidly,
-at least much more rapid than a data Backup.
-It is done in case of minor or isolated data loss,
-it can be done in such a way that data loss is very small or none at all,
-and restoration can be done within minutes.
-
-At the heart of Synology backup & replication methodology is the concept of a **Snapshot**.
-A snapshot leverages the DMS [Btrfs file system][BB] to create point-in-time copies of files.
-
-I'll be use [Active Backup for Business][CC] for data replication.
-I'll use [Hyperbackup][DD] for data backup.
-
-[AA]:https://www.makeuseof.com/tag/2-methods-to-clone-your-linux-hard-drive/
-[BB]:https://www.synology.com/en-global/dsm/Btrfs
-[CC]:https://www.synology.com/en-us/dsm/feature/active_backup_business
-[DD]:https://www.synology.com/en-us/dsm/feature/hyper_backup
-
-Sources:
-
-* [Synology Active Backup for Business setup and testing](https://www.youtube.com/watch?v=rUQAJRc5Amo)
-
-#### Step 1: Download, Install, and Activate Active Backup
-I'm going to assume this is done, but if not, just follow the methdology in the sources above.
-
-#### Step 2: Setup Active Backup Agent
-We need to install an agent on the system we are backing up to participate in the Synology backup process.
-To install this agent on your Linux `desktop` system, do the followiong:
-
-1. Within the Synology NAS, click on the **Active Backup for Business** Icons
-2. On the left-hand menu, select **Physical Server** > the tab **Linux** > button **Add Device**
-3. A window will display, and since I'll be connecting via IP address on my LAN, I go to the **Settings page** for a certificate.
-You may already have an active certificate or you might want to update an existing one.
-4. Continue to the next window and download the **deb x64** onto `desktop` and do the install via `unzip` the download,
-execut `sudo ./install.run` and then .... ERROR!!
-
-```
-Errors were encountered while processing:
- synosnap
- * failed to install snapshot driver
-**********************************************************************
-* Your kernel version is 6.5.0-27-generic, and the latest supported kernel version for the Synology Active Backup for Business Agent is 5.13
-* Please check if your distro / kernel version is supported in detail at
-* https://kb.synology.com/en-us/DSM/help/ActiveBackup/activebackup_business_requireandlimit
-**********************************************************************
-```
-
-I'm using the following
-* Ubuntu 23.10
-* DSM 7.2.1
-* Active Backup 2.6.2
-
-see latest status here - https://kb.synology.com/en-us/DSM/help/ActiveBackup/activebackup_business_requireandlimit?version=7
-
-#### Step 3:
-#### Step 4:
-#### Step 5:
-
-
------
-# ^#################### REMOVE TEXT BETWEEN THESE LINES #######################^
 
 
 
 # Fix Desktop Environment
 
-#### Step X: Re-Establish Desktop Layout
+#### Step 1: Re-Establish Desktop Layout - DONE
 Install GNOME Extensions, GNOME Tweaks tool, and other such things using the following commands:
 
 ```bash
 # gnome extension - gnome shell integration
 # first, go to here - https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep
-sudo apt-get install chrome-gnome-shell
+sudo apt install chrome-gnome-shell
 sudo apt install gnome-shell-extensions
 
 # install gnome tweaks tool
@@ -2166,7 +2219,7 @@ Sources:
 * [Gnome Tweaks 40 No Longer Manage Extensions, Use This Tool Instead](https://ubuntuhandbook.org/index.php/2021/05/gnome-tweaks-40-no-longer-manage-extensions/)
 * [How to Use GNOME Shell Extensions](https://itsfoss.com/gnome-shell-extensions/)
 
-#### Step X: Disable Auto-Suspend in Linux
+#### Step 2: Disable Auto-Suspend in Linux - DONE
 I'm using a based `rsnapshot` script in `cron` to schedule frequent backups of my filesystem.
 These backups take place every 4 hours (12am, 4am, 8am, 12pm, 4pm, 8pm)
 with daily, weekly, and monthly summarizations of those backups taking place at diferent point of the day
@@ -2180,23 +2233,66 @@ does not automatically suspend when on battery power or plugged in.
 Sources:
 * [How to Disable Auto-Suspend in Linux](https://www.makeuseof.com/disable-auto-suspend-in-linux/)
 
-#### Step X: Get Conky Working
+#### Step 3: Get Conky Working - DONE
 Conky is a light-weight system monitor for X Window that displays any information on your desktop.
 It is highly configurable as it is able to monitor literally any aspect of your system
 from hard-drive temperature through number of users logged in to currently played music song.
 
 ```bash
 # install conky
-sudo apt-get -y install conky-all
+sudo apt install conky-all
 
-# install your version of the .conkyrc file
-git clone https://github.com/jeffskinnerbox/.conky.git
+# hardware monitoring tools to check temperature
+sudo apt install lm-sensors
 
-# to test, launch conky using your $HOME directory conky resource fil
+# install your version of the .conkyrc file (along with all your other dotfiles)
+git clone https://github.com/jeffskinnerbox/.dotfiles.git
+
+# launch conky using test resource file
+conky -c ~/.dotfiles/pkg-conky/src/conky-test
+
+# to test, launch conky using your $HOME directory conky resource file
 conky
+```
 
-# launch conky using another resource file
-conky -c /home/jeff/.conky/src/conky-test
+The `lm-sensors` package taps into the tempature sensors within CPUs, GPUs, SSDs, and some cards.
+Here is a listing of what the command `sensors` can provide:
+
+```bash
+# list tempature sensor
+$ sensors
+coretemp-isa-0000
+Adapter: ISA adapter
+Package id 0:  +29.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 0:        +25.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 4:        +24.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 8:        +26.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 12:       +25.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 16:       +25.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 20:       +25.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 28:       +24.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 29:       +24.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 30:       +24.0°C  (high = +80.0°C, crit = +100.0°C)
+Core 31:       +24.0°C  (high = +80.0°C, crit = +100.0°C)
+
+acpitz-acpi-0
+Adapter: ACPI interface
+temp1:        +27.8°C  (crit = +105.0°C)
+
+nouveau-pci-0100
+Adapter: PCI adapter
+GPU core:    900.00 mV (min =  +0.85 V, max =  +1.00 V)
+temp1:        +40.0°C  (high = +95.0°C, hyst =  +3.0°C)
+                       (crit = +105.0°C, hyst =  +5.0°C)
+                       (emerg = +135.0°C, hyst =  +5.0°C)
+
+nvme-pci-0200
+Adapter: PCI adapter
+Composite:    +34.9°C  (low  =  -0.1°C, high = +84.8°C)
+                       (crit = +94.8°C)
+Sensor 1:     +34.9°C  (low  = -273.1°C, high = +65261.8°C)
+Sensor 2:     +44.9°C  (low  = -273.1°C, high = +65261.8°C)
+Sensor 8:     +34.9°C  (low  = -273.1°C, high = +65261.8°C)
 ```
 
 By default, Conky monitors the `eth0` & `wlan0` network interface,
@@ -2206,9 +2302,9 @@ You can get your network interface via this command:
 
 ```bash
 # list network interfaces that are up & working
-$ ip address | grep '^[0-9]' | grep 'state UP'
-2: eno1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
-4: wlx94dbc95110ca: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+$ ip address | grep '^[0-9]' | grep 'state UP' | grep 'qlen'
+2: enp4s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+3: wlx94dbc95110ca: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
 ```
 
 I also added the parameter `xinerama_head = 1` to the `.conkyrc` file
@@ -2237,8 +2333,7 @@ Sources:
 * [How to Configure the Conky System Monitor](http://mylinuxramblings.wordpress.com/2010/03/23/how-to-configure-the-conky-system-monitor/)
 * [How To: Configuring Conky](http://lusule.wordpress.com/2008/08/07/how-to-4/)
 
-
-#### Step X: Downloading Video Files
+#### Step 4: Downloading Video Files - DONE
 If your interested in capturing a YouTube video,
 there is a very easy approach give in this video: [How to Download youtube videos on Ubuntu linux][14].
 Unfortunately, appears YouTube has caught on, and this no longer works.
@@ -2255,17 +2350,17 @@ but Google Video, Photobucket, Facebook, Yahoo, and many more similar sites.
 (or let the program itself automatically download higher quality video)
 download user specified list, and much more.
 
+**Note** that `youtube-dl` is a Python script.
+I'm using Miniconda for my Python envirnment and
+you must activate the `base` envirnment, if not already done via your shell.
+
 To install it, do the following:
 
 ```bash
-# download youtube-dl using curl and move it to the usr bin folder as a program
-sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+# work within miniconda envirnment
+conda activate base
 
-# alter the permissions (read and execute)
-sudo chmod a+rx /usr/local/bin/youtube-dl
-
-# install the Python 3 pip package which is used to upgrade youtube-dl
-sudo apt install python3-pip
+# install with the Python 3 pip package which is used to upgrade youtube-dl
 pip3 install --upgrade youtube-dl
 
 # youtube-dl sometimes makes use of ffmpeg
@@ -2281,7 +2376,7 @@ When the time comes to upgrade Youtube-dl use:
 >`yt-dlp` is a feature-rich command-line audio/video downloader with support for thousands of sites.
 >Check out ["How to Use YT-DLP: The Complete Guide (2024)"][48].
 
-#### Step X: Install VLC Media Player
+#### Step 5: Install VLC Media Player - DONE
 The default video media player on Ubuntu appears to be poor.
 Lets replace with a better tool, the [VLC media player][08].
 
@@ -2299,6 +2394,31 @@ selecting **Default Applications** and update the **Video** menu.
 >Choose **Open With** and there you can select **VLC media player**
 >and the option **Set as default** (bottom right).
 
+#### Step 6: Play Sound Initiated by Login - DONE
+My experiance with computers dates back to well before the use of
+[broadband connections][73], before the Internet, to [Arpanet][71].
+I remember well the sound of a successful login with a [dialup modem][72].
+I want to hear that sound again here when I login.
+
+1. Click on the **Activity** button at the top-left of the dispaly
+2. Type in the **Search** field **Startup Applications** and select the popup botton-box
+3. Edit **Play a Sound** and include the following command **`paplay /home/jeff/Sound/dialup-modem-handshake.ogg`**.
+
+You need to make sure the utility `paplay` is installed.
+Do the following:
+
+```bash
+# install paplay
+sudo apt install pulseaudio-utils
+
+# test paplay
+paplay /home/jeff/Sound/dialup-modem-handshake.ogg
+```
+
+Sources:
+* [The sound of the dialup, pictured](https://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html)
+* [How to make application run at Startup in Ubuntu?](https://byteshiva.medium.com/how-to-make-application-run-at-startup-in-ubuntu-6fca4a459bc8)
+
 
 
 -----
@@ -2308,46 +2428,6 @@ selecting **Default Applications** and update the **Video** menu.
 # Development Tools: VirtualBox
 I chose to installing VirtualBox from Oracle’s package repositories and
 used the website "[How to Install VirtualBox on Ubuntu][22]" as my guide.
-
-####################### REMOVE TEXT BETWEEN THESE LINES ########################
-#### Step 1: Install VirtualBox
-Often the default Ubuntu repositories do not have the latest versions of the software,
-so instead, I chose to install from Oracle’s package repositories.
-This process is more in-depth but installs the most recent version of VirtualBox.
-
-```bash
-# update the apt database
-sudo apt-get update
-
-# required packages for the install
-sudo apt-get install software–properties–common
-
-# download and install gpg keys for virtualbox repository
-wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-
-# add the virtualbox repository
-#echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
-echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian eoan contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
-
-# install virtualbox
-sudo apt-get update
-sudo apt-get install virtualbox–6.1
-```
-
-#### Step 2: Install VirtualBox Extension Pack
-Now we'll install the VirtualBox Extension Pack.
-It adds additional tools like USB 2.0 and 3.0, Remote Desktop, and encryption.
-Make sure to use the latest version from the [Oracle website][23].
-
-```bash
-# download virtualbox extension pack
-wget https://download.virtualbox.org/virtualbox/6.1.34/Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-extpack
-
-# import virtualbox extension pack
-sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-extpack
-```
-####################### REMOVE TEXT BETWEEN THESE LINES ########################
 
 #### Step 1: Install VirtualBox
 Often the default Ubuntu repositories do not have the latest versions of the software,
@@ -2440,6 +2520,168 @@ vagrant plugin update vagrant-vbguest
 # to repair your plugins if broken
 vagrant plugin repair vagrant-vbguest
 ```
+
+
+-----
+
+
+
+# Development Tools: Arduino
+For someone like myself, who is at home with Linux as my OS and Vim as my editor,
+using the [Arduino IDE][74] for Arduino coding is a step back into the stone age.
+If you are used to doing these things yourself and controlling the organization of your code
+then the Arduino IDE does some really arbitrary and annoying things.
+
+What follows is how I installed the [Arduino IDE][74], the [Arduino CLI][75]
+and used it with [GNU Make (aka Makefile)][76].
+Doing this, I can create an all command line (or nearly all)
+software development experance while still leveraging the popularity of the Arduino IDE platform.
+
+[74]:https://www.arduino.cc/en/main/software
+[75]:https://github.com/arduino/arduino-cli
+[76]:https://www.gnu.org/software/make/
+
+#### Step 1: Uninstall Old Arduino IDE - DONE
+If you upgrading your Arduino IDE,
+the first thing you want to do is uninstall the old version.
+The Arduino IDE package comes with an uninstall script but it doesn't do a complete removal
+of all the configuration files and modifications you have likely make over time.
+You'll need to save and then reinstall those things you have added.
+The procedure below should do the trick.
+
+Copy any of your sketch and personal libraries you may wish to keep.
+Don't worry about public libraries since they can be reinstalled from sources.
+
+Sources
+* [Uninstall Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE)
+
+```bash
+# to find the path to the arduino ide
+$ whereis arduino
+arduino: /home/jeff/bin/arduino
+
+# copy your executable
+cp -r ~/bin/arduino ~/tmp/arduino
+
+# remove the arduino ide confguration files
+trash ~/.arduinoIDE
+
+# remove any appimage you have for arduino ide
+trash -r -f ~/bin/arduino-ide*.AppImage
+
+# remove the cli version of arduino
+trash ~/bin/arduino-cli ~/bin/arduino
+```
+
+#### Step 2: Installing Arduino IDE - DONE
+You could install the Arduino IDE via the Ubuntu Software Center and search for Arduino,
+but likely to be an older Arduino IDE version.
+Alternatively, you can install as an AppImage file.
+The newest version of the Arduino can be downloaded from the [Arduino download page][74].
+(**NOTE:** Using this method Arduino software won't automatically be updated,
+so you should check Arduino website every few months and download
+a new version if one is available.)
+
+```bash
+# download the software - arduino-ide_2.3.2_Linux_64bit.zip
+# from https://www.arduino.cc/en/software
+
+# download the appimage file
+cd ~/bin
+wget https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.2_Linux_64bit.AppImage
+```
+
+Before we can launch the Arduino IDE,
+we need to first make it an executable file.
+This is done by:
+
+* right-click the file,
+* choose **Properties**,
+* select **Permissions** tab,
+* tick the **Allow executing file as program** box.
+
+Now make it executable from your `bin`:
+
+```bash
+# make the appimage executable
+cd ~/bin
+chmod ug+x arduino-*.AppImage
+
+# make it executable as 'arduino'
+ln -s /home/jeff/bin/arduino-ide_2.3.2_Linux_64bit.AppImage /home/jeff/bin/arduino
+```
+
+Source:
+* [Downloading and installing the Arduino IDE 2.0](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
+
+#### Step 3: Quick Test - DONE
+Lets do a quick check on the install:
+
+```bash
+# execute arduino ide
+cd ~
+arduino
+
+# or
+arduino &>/dev/null &
+```
+
+This will also create the directories `$HOME/Arduino` to hold your sketchbook
+and the directories `$HOME/.arduino15` and  `$HOME/.arduinoIDE`
+
+When the Arduino Software IDE is properly installed you can execute
+the IDE via the command `arduino &>/dev/null &` or the desktop icon.
+
+>**NOTE:** It might happen that when you upload a sketch
+>(after you have selected your board and serial port),
+>you get an error Error opening serial port.
+>If you get this error, you need to [set serial port permission][75].
+
+#### Step 4: Setup Your Arduino IDE Preferences - DONE
+Normally, running the `arduino` command starts the IDE,
+optionally loading any `.ino` files specified on the commandline.
+Also, it normally puts all your Arduino sketches and project libraries within
+a common directory defaulting to `$HOME/Arduino`.
+Lets change this location:
+
+1. Create the directory `$HOME/src/arduino/sketchbooks`
+2. Start the Arduino IDE, select the menu button **File** > **Preferences**
+3. Change the "Sketchbook location" to `$HOME/src/arduino/sketchbooks`
+(make sure you do this via the **Browse** button) and save it.
+4. Restart the Arduino and the directory will be prepared automatically for you
+
+>**NOTE:** Some preferences, but not all,
+>can be controlled from the Preferences dialog within the Arduino environment (see [here][76]).
+>More preferences can be edited directly in the file `$HOME/.arduino15/preferences.txt`
+>but only edit when the Arduino IDE is **not** running.
+
+#### Step 5: Remove Old Sketch Directory - DONE
+When you create your fist sketch,
+the new `sketchbook` directory create above will have a subdirectory `libraries`.
+`$HOME/src/arduino/sketchbooks/libraries` is where all your libraries will go
+(both downloads and personal ones you create).
+Now that your sketches and libraries have a new location,
+make sure to remove the default location created during the Arduino IDE install:
+
+```bash
+# remove the old sketchbook location
+rm -r -f ~/Arduino
+```
+
+>**NOTE:** Improperly installing libraries can be a major source of confusion within the Arduino world.
+>Check out Adafruit's "[All About Arduino Libraries][18]" for their proper care and feeding.
+
+#### Step 6: Move Back Saved Sketches - DONE
+If you you saved any sketch from a previous install,
+you can simply copy them into the `$HOME/src/arduino/sketchbooks` directory.
+For example:
+
+```bash
+# copy your old sketches into you new sketchbook
+cp -r ~/tmp/sketchbooks ~/src/arduino
+```
+
+
 
 
 -----
@@ -2813,8 +3055,18 @@ Source:
 [64]:https://www.omgubuntu.co.uk/2023/04/appimages-libfuse2-ubuntu-23-04
 [65]:https://www.youtube.com/watch?v=jaYZqc7Luag
 [66]:https://www.youtube.com/watch?v=qHJSz4V7DJk
-[67]:
-[68]:
-[69]:
-[70]:
+[67]:https://www.python.org/
+[68]:https://pypi.org/
+[69]:https://www.anaconda.com/download
+[70]:https://docs.conda.io/projects/miniconda/en/latest/
+[71]:https://en.wikipedia.org/wiki/ARPANET
+[72]:https://en.wikipedia.org/wiki/Dial-up_Internet_access
+[73]:https://en.wikipedia.org/wiki/Broadband
+[74]:https://www.arduino.cc/en/software
+[75]:https://www.arduino.cc/en/Guide/Linux
+[76]:https://www.arduino.cc/en/hacking/preferences
+[77]:
+[78]:
+[79]:
+[80]:
 

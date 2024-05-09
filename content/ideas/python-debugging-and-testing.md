@@ -189,9 +189,15 @@ It checks for errors, enforces a coding standard, looks for [code smells](https:
 and can make suggestions about how the code could be refactored.
 Its follows the [PEP 8 style guide for Python code](https://peps.python.org/pep-0008/)
 Install `pylint` with `pip install pylint`.
+* [`ruff`](https://docs.astral.sh/ruff/) aims to be orders of magnitude faster than
+alternative tools while integrating more functionality behind a single, common interface.
+Its objective is to replace `black`, `flake8`, `pylint`, and more.
+Install `ruff` with `pip install ruff`.
 
 * [A Guide to Popular Python Static Analysis Tools](https://blog.codacy.com/python-static-analysis-tools)
 * [Python Linter Comparison 2022: Pylint vs Pyflakes vs Flake8 vs autopep8 vs Bandit vs Prospector vs Pylama vs Pyroma vs Black vs Mypy vs Radon vs mccabe](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)
+* [Why Pylint is both useful and unusable, and how you can use it](https://pythonspeed.com/articles/pylint/)
+* [Goodbye to Flake8 and PyLint: faster linting with Ruff](https://pythonspeed.com/articles/pylint-flake8-ruff/)
 
 # Python Modules
 * Itertools - Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop. Such data structures are also known as iterables. This module incorporates functions that utilize computational resources efficiently.
