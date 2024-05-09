@@ -39,6 +39,12 @@ Version:      0.0.0
     * https://www.proxmox.com/en/news/listid-1/mailid-200-proxmox-backup-server-3-0-available?tmpl=component&tmpl=component
 * [Proxmox Backup Server 3.1 Released](https://www.storagereview.com/news/proxmox-backup-server-3-1-released)
 
+# New Proxmox Installs
+* [5 Things I Would Do On Fresh Install Of ProxMox](https://www.youtube.com/watch?v=xD9Xyt2mdSI)
+* [Proxmox 10 tweaks you need to know](https://www.youtube.com/watch?v=bo33EQk9CCM)
+* [Speed Up Your Proxmox Deployment With This Simple Trick](https://www.youtube.com/watch?v=WYmdoTPTusk)
+* [Docker on Proxmox LXC 🚀 Zero Bloat and Pure Performance!](https://www.youtube.com/watch?v=-ZSQdJ62r-Q)
+* [Software-Defined Network (SDN) Setup in Proxmox](https://www.youtube.com/watch?v=gYSxGCiLeto)
 
 
 
