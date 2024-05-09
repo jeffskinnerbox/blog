@@ -340,6 +340,7 @@ and IMU allows higher precision and more accurate readings in between GNSS data 
 * [LN-3 inertial navigation system](https://en.wikipedia.org/wiki/LN-3_inertial_navigation_system)
 * [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
 * [Basics of 6DOF and 9DOF sensor fusion](https://www.embeddedcomputing.com/technology/analog-and-power/basics-of-6dof-and-9dof-sensor-fusion)
+* [ESP32 precision GPS receiver (incl. RTK-GPS Tutorial). How to earn money with it (DePIN)](https://www.youtube.com/watch?v=Oc1LBFDj2MA)
 
 ## Space Navigation
 * [Star Trackers: Telling Up From Down In Any Space](https://hackaday.com/2020/04/02/star-trackers-telling-up-from-down-in-any-space/)
