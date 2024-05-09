@@ -15,6 +15,8 @@ Version:      0.0.0
 # PyTorch
 * [PyTorch VS TensorFlow In 2022](https://medium.com/mlearning-ai/pytorch-vs-tensorflow-in-2022-9a7106b1f606)
 * [Python Deep Learning: PyTorch vs Tensorflow](https://realpython.com/courses/deep-learning-pytorch-tensorflow/)
+* [PyTorch vs TensorFlow for Your Python Deep Learning Project](https://realpython.com/pytorch-vs-tensorflow/)
+
 
 
 -----
