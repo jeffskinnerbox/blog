@@ -625,6 +625,10 @@ and by the way, [isn't it dead][07]?
 * [Stokes' phenomenon: An asymptotic adventure continued](https://plus.maths.org/content/stokes-phenomenon-asymptotic-adventure-continued)
 * [Navier-Stokes Equations](https://www.grc.nasa.gov/WWW/k-12/airplane/nseqs.html)
 
+# Navier-Stokes Equations
+* [A Brief History of the Navier-Stokes Equations](https://www.youtube.com/watch?v=g-5bi7dxHP4)
+* [Mathematics of Turbulent Flows: A Million Dollar Problem! by Edriss S Titi](https://www.youtube.com/watch?v=VH4oawCiHPU)
+
 # Impulse
 A function is a relation that uniquely associates members of one set with members of another set. More formally, a function from A to B is an object f such that every a in A is uniquely associated with an object f(a) in B. A function is therefore a many-to-one (or sometimes one-to-one) relation.
 
