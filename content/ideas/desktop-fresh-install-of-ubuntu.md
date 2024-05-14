@@ -165,7 +165,7 @@ Lets get these installed.
 #### Step 1: Supporting Packages - DONE
 ```bash
 # install packages for general use
-sudo apt -y install trash-cli gnome-terminal git jq vim wmctrl curl
+sudo apt -y install trash-cli gnome-terminal git jq vim tmux wmctrl curl stow xclip
 
 # install basic networking tools
 sudo apt -y install net-tools nmap traceroute arp-scan netdiscover
@@ -229,7 +229,32 @@ ps aux | grep kvm
 sudo rmmod kvm-intel kvm
 ```
 
-#### Step 2: Install Miniconda for Python Work - DONE
+#### Step 2: Install Your `.dotfiles` - DONE
+Within my GitHub, I maintain my dotfiles and the mainteance tool that I use is `stow`.
+Let's pull down the latest `.dotfiles` reposaitory and an install anything required:
+
+```bash
+# make sure you have install your version of the .dotfiles
+cd $HOME
+git clone https://github.com/jeffskinnerbox/.dotfiles.git
+
+# put into you '.bashrc' file the environment variable for the path to `.config` directory
+export XDG_CONFIG_HOME=$HOME/.config
+
+# stow all your dotfile package - aka create your symlinks for your configuration files
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-X
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-i3
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-vim
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-tmux
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-bash
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-conky
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-screen
+stow --dir=$HOME/.dotfiles --target=$XDG_CONFIG_HOME --stow pkg-nvim
+stow --dir=$HOME/.dotfiles --target=$XDG_CONFIG_HOME --stow pkg-yamllint
+stow --dir=$HOME/.dotfiles --target=$XDG_CONFIG_HOME --stow pkg-ansible-lint
+```
+
+#### Step 3: Install Miniconda for Python Work - DONE
 [Python][67] is such a success in large part because of its very active community
 in which people share their awesome solutions.
 Unfortunately, there is a price.
@@ -295,7 +320,7 @@ Sources:
 * [Install Miniconda on Linux from the command line in 5 steps](https://javedhassans.medium.com/install-miniconda-on-linux-from-the-command-line-in-5-steps-403912b3f378)
 * [How to Uninstall Miniconda on Linux: A Guide](https://saturncloud.io/blog/how-to-uninstall-miniconda-on-linux-a-guide/)
 
-#### Step 3: Google Chrome - DONE
+#### Step 4: Google Chrome - DONE
 My go-to browser is Chrome and you can install it on Ubuntu from [here][50].
 
 ```bash
@@ -324,7 +349,7 @@ use the following command to uninstall the web browser.
 sudo apt purge google-chrome-stable
 ```
 
-#### Step 4: NeoVim - DONE
+#### Step 5: NeoVim - DONE
 There are several sources for [NeoVim][51],
 but I have found that [Snap][54] has one of the most up to date versions.
 I installed NeoVim via the Snap Store using this method:
@@ -353,6 +378,10 @@ Also install [Nerd Fonts][53] but this comes with the `/home` directory we mount
 A key thing to do is fix copy & paste by installing the appropriate clipboard:
 
 ```bash
+# check for type of display server you are running (wayland / X11)
+$ echo $XDG_SESSION_TYPE
+wayland
+
 # if your using X Window's X11 protocol
 sudo apt install xsel
 
@@ -380,6 +409,40 @@ npm i -g neovim        # install failed for some reason
 sudo apt install ripgrep
 ```
 
+#### Step 6: Tmux - DONE
+The [Tmux Plugin Manager][77] (also known as `tpm`)
+is designed to automatically manage the `tmux` plugins
+and those plugins are [listed here][78].
+By adding few lines into your `.tmux.conf` file,
+you can easily activate plugins and extend the power of tmux beyond its default offering.
+
+First, make sure you have install the all the reqired `.dotfiles` and it `.tmux`:
+
+```bash
+# install your version of the .tmux.conf file (along with all your other dotfiles)
+git clone https://github.com/jeffskinnerbox/.dotfiles.git
+
+# install the files via 'stow'
+stow --dir=$HOME/.dotfiles --target=$HOME --stow pkg-tmux
+
+# install xclip and wl-clipboard utilities to support cut&paste
+sudo apt install wl-clipboard xclip
+``````
+
+Execute `tmux`, and once it is up & running,
+enter `<perfix> I` (my `<prefix>` is `ctrl-s`)
+to install all the plugins listed in the configuration file.
+Next, exit and restart `tmux`.
+
+If this appears to run fine, install your personalized configuration file that support your workflow.
+Mine is found at `~/.dotfiles/tmux-pkg/tmux.conf`.
+
+```bash
+# create link to tmux configuration file (the modern way to manage dot files)
+mkdir -p $XDG_CONFIG_HOME/tmux
+trash $XDG_CONFIG_HOME/tmux/tmux.conf
+ln -s ~/.dotfiles/tmux-pkg/tmux.conf $XDG_CONFIG_HOME/tmux/tmux.conf
+```
 
 
 -----
@@ -3065,8 +3128,8 @@ Source:
 [74]:https://www.arduino.cc/en/software
 [75]:https://www.arduino.cc/en/Guide/Linux
 [76]:https://www.arduino.cc/en/hacking/preferences
-[77]:
-[78]:
+[77]:https://github.com/tmux-plugins/tpm
+[78]:https://github.com/tmux-plugins/list
 [79]:
 [80]:
 
