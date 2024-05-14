@@ -45,6 +45,7 @@ Version:      0.0.0
 * [Speed Up Your Proxmox Deployment With This Simple Trick](https://www.youtube.com/watch?v=WYmdoTPTusk)
 * [Docker on Proxmox LXC 🚀 Zero Bloat and Pure Performance!](https://www.youtube.com/watch?v=-ZSQdJ62r-Q)
 * [Software-Defined Network (SDN) Setup in Proxmox](https://www.youtube.com/watch?v=gYSxGCiLeto)
+* [The correct way to install Docker in Proxmox using a unique feature LXC Containers](https://www.youtube.com/watch?v=s_rm8mpSGcY)
 
 
 
