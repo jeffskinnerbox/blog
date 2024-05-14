@@ -205,6 +205,9 @@ Install `ruff` with `pip install ruff`.
     * [Python Itertools](https://www.geeksforgeeks.org/python-itertools/)
     * [The FULL Guide To Itertools For Python Developers](https://www.youtube.com/watch?v=baZpqVmR488)
 
+# Role of Underscore
+* [Role of Underscore(_) in Python Tutorial](https://www.datacamp.com/tutorial/role-underscore-python)
+
 
 
 -------
