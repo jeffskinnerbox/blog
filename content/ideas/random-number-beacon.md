@@ -87,6 +87,7 @@ Can this clock be hacked so you can control its precision time source? - La Cros
 * [Entropy](https://en.wikipedia.org/wiki/Entropy_(computing))
 * [A Gentle Introduction to Information Entropy](https://machinelearningmastery.com/what-is-information-entropy/)
 * [The Misunderstood Nature of Entropy](https://www.youtube.com/watch?v=kfffy12uQ7g&feature=youtu.be)
+* [The Most Misunderstood Concept in Physics](https://www.youtube.com/watch?v=DxL2HoqLbyA)
 * [Reversing Entropy with Maxwell's Demon](https://www.youtube.com/watch?v=KR23aMjIHIY)
 * [Randomness in Linux](http://juho.tykkala.fi/Randomness-in-Linux)
 * [Watch the amount of entropy your system has](https://www.reddit.com/r/linux/comments/2hu9za/watch_the_amount_of_entropy_your_system_has/)
