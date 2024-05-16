@@ -64,6 +64,12 @@ A good remedy for this can be containerization of your Python development enviro
 * [Let’s create a Python Debugger together: Tiny Addendum (exec and __name__)](https://mostlynerdless.de/blog/2023/11/14/lets-create-a-python-debugger-together-tiny-addendum-exec-and-__name__/)
 * [Let’s create a Python Debugger together: PyData Talk](https://mostlynerdless.de/blog/2023/11/17/lets-create-a-python-debugger-together-pydata-talk/)
 
+# Manhole
+Manhole is in-process service that will accept unix domain socket connections and present the stacktraces for all threads and an interactive prompt. It can either work as a python daemon thread waiting for connections at all times or a signal handler (stopping your application and waiting for a connection).
+* [Manhole](https://pypi.org/project/manhole/)
+* [Manhole Documentation](https://python-manhole.readthedocs.io/en/stable/)
+* [A Python prompt into a running process: debugging with Manhole](https://pythonspeed.com/articles/live-debugging-python/)
+
 # Testing Strategies & Tools
 * [Debugging](https://realpython.com/lessons/debugging/)
 * [Jupyter Notebook Debugging](https://realpython.com/lessons/jupyter-debugging/)
@@ -72,6 +78,16 @@ A good remedy for this can be containerization of your Python development enviro
 * [4 Techniques for Testing Python Command-Line (CLI) Apps](https://realpython.com/python-cli-testing/)
 * [Debugging Code With Decorators](https://realpython.com/lessons/debugging-code-decorators/)
 * [pytest tricks: parametrize twice](https://calmcode.io/course/pytest-tricks/parametrize-twice)
+
+
+
+-------
+
+
+
+# Python C Extensions
+* [Building a Python C Extension Module](https://realpython.com/build-python-c-extension-module/)
+* [When C extensions crash: easier debugging for your Python application](https://pythonspeed.com/articles/python-c-extension-crashes/)
 
 
 
@@ -126,6 +142,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * Logging
     * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
     * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
+    * [Eliot: Logging that tells you why it happened](https://eliot.readthedocs.io/en/stable/)
 * Unit Testing
     * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
     * [pytest Framework](https://docs.pytest.org/)
