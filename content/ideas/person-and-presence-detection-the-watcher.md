@@ -473,6 +473,9 @@ The Person Sensor includes a camera and microcontroller in a tiny package, and c
         * [usefulsensors/person_sensor_docs](https://github.com/usefulsensors/person_sensor_docs)
         * [dupontgu/person-sensor-circuitpython](https://github.com/dupontgu/person-sensor-circuitpython)
 
+## Images
+* [How Image-Generating AI of Stable Diffusion Works](https://hackaday.com/2022/10/24/how-the-art-generating-ai-of-stable-diffusion-works/)
+
 
 ## Sensing WiFi and BLE Devices
 * [Tracking people via WiFi (even when not connected)](https://www.crc.id.au/tracking-people-via-wifi-even-when-not-connected/)
