@@ -313,6 +313,8 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Movidius launches a $79 deep-learning USB stick](https://techcrunch.com/2017/07/20/movidius-launches-a-79-deep-learning-usb-stick/?ncid=mobilenavtrend)
 
 # Tutorials
+* [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+
 * [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
 * [Lex Fridman Lectures on Deep Learning](https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA)
 

@@ -15,6 +15,10 @@ Version:      0.0.0
 
 
 
+* [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
+    * [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+
+
 * [Hopper Chat: Chatbot (LLM) based voice assistance and smart speaker](https://github.com/ShawnHymel/hopper-chat)
 
 * [What runs ChatGPT? Inside Microsoft's AI supercomputer](https://www.youtube.com/watch?v=Rk3nTUfRZmo)
