@@ -14,7 +14,6 @@ Version:      0.0.0
 
 
 
-* [How to make a print server with a Raspberry Pi](https://www.xda-developers.com/how-to-make-a-print-server-with-a-raspberry-pi/)
 
 
 
@@ -48,8 +47,9 @@ the Raspberry Pi print server must be connected to the same LAN that the print r
 This connection can be via wired Ethernet or wireless WiFi connection,
 as long as its into the same network that the Wireless Access Point or Wireless Router serves.
 
+* [How to make a print server with a Raspberry Pi](https://www.xda-developers.com/how-to-make-a-print-server-with-a-raspberry-pi/)
 
-#### Step 1: Download OS for Raspberry PI Zero 2 W
+#### Step 1: Download OS for Raspberry PI Zero 2 W - DONE
 I'm installing the [Raspberry PI OS Lite (64-bit)][01] on a 8GB SD Cards using the [Raspberry PI Imager][02]
 (in my case, the version is [Raspberry Pi OS with desktop (Debian version 12 / bookworm) from March 15, 2024][03]).
 
@@ -61,20 +61,20 @@ cd ~/Downloads/ISO-Images/RPi-OS/
 wget https://downloads.raspberrypi.com/raspios_lite_arm64/images/raspios_lite_arm64-2024-03-15/2024-03-15-raspios-bookworm-arm64-lite.img.xz
 
 # validate file is uncorrupted via check of digital signature
-$ sha256sum
+$ sha256sum 2024-03-15-raspios-bookworm-arm64-lite.img
+58a3ec57402c86332e67789a6b8f149aeeb4e7bb0a16c9388a66ea6e07012e45  2024-03-15-raspios-bookworm-arm64-lite.img.xz
 
 # uncompress to get the raspberry pi os image file
-unxz
+unxz *.xz
 ```
 
-
-#### Step 3: Write Raspberry Pi Image to SD Card
+#### Step 2: Write Raspberry Pi Image to SD Card - DONE
 Next using Linux, you have copied the Raspberry Pi OS image onto the SD card mounted to your system.
-I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][14] to create my SD Card.
-Make sure to [choose a reputable SD Card][15] from [here][10], don't go cheap.
+I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][13] to create my SD Card.
+Make sure to [choose a reputable SD Card][09] from [here][10], don't go cheap.
 
 To create you SD-Card image of Raspberry Pi OS,
-install and use the [Raspberry Pi Imager (`rpi-imager`)](https://www.raspberrypi.com/software/),
+install and use the [Raspberry Pi Imager (`rpi-imager`)][14],
 as shown below:
 
 ```bash
@@ -90,7 +90,7 @@ Next, you do the following:
 * For **Operating System** select your image you downloaded (i.e. **Use custom** at the bottom of the page)
 * For **Storage** you select the device containing the SD card you wish to write the image
 * Now select the **"Gear"** icon and do the following:
-    * Set host name (`ntp-server`)
+    * Set host name (`print-server`)
     * enable SSH using password authentication
     * set your username and password (`pi` and `raspberry`)
     * set your time zone (`New York`)
@@ -103,65 +103,107 @@ Next, you do the following:
 >[Raspberry Pi SD-Card imager][34] to get SSH access on first boot instead of
 >using the trick of placing a file name `ssh` in the `/boot` directory of the Raspberry Pi.
 
-#### Step 4: Booting From the SD-Card
+#### Step 3: Booting From the SD-Card - DONE
 Install into your Raspberry Pi the SD Card created earlier,
 connect an Ethernet cable from you LAN,
 and then install power cable and/or press the power switch.
 
 Once the RPi boots up,
-you can [find your Raspberry P on your network][12] using [`netdiscover`][31].
+you can [find your Raspberry P on your network][12] using [`netdiscover`][11].
 It may take 2 to 3 minutes before you get a response from the Raspberry Pi.
 
 ```bash
 # actively scan the network for all live hosts and then passively scan indefinitely
 # to obtain the ip address of your raspberry pi
-$ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24 | grep Raspberry
- 0.0.0.0         b8:27:eb:fa:14:96      1      60  Raspberry Pi Foundation
- 192.168.1.175   b8:27:eb:fa:14:96      1      60  Raspberry Pi Foundation
+$ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24 | grep -E 'Raspberry|Unknown vendor'
+ 192.168.1.204   aa:f0:69:db:c2:b2      1      60  Unknown vendor
+ 192.168.1.1     62:f4:76:50:c1:da      1      60  Unknown vendor
+ 192.168.1.120   2e:97:fd:48:e9:db      1      60  Unknown vendor
+ 192.168.1.122   9a:d2:7f:f5:71:80      1      60  Unknown vendor
+ 192.168.1.186   2c:cf:67:26:cf:40      1      60  Unknown vendor
 ```
 
-Now using the IP address (`192.168.1.175` in my case) you found for the RPi via `netdiscover`,
+Now using the IP address (`192.168.1.186` in my case) you found for the RPi via `netdiscover`,
 in the next steps we can provides the Raspberry Pi with additional SSH access keys,
 enabling us to automate the update of the OS via Ansible.
 
-#### Step 5: Query Hardware/Software Versions
+#### Step 5: Query Hardware/Software Versions - DONE
 To find out what version of Raspberry Pi hardware and software your are now running,
 execute the following command:
 
 ```bash
 # login to the raspberry pi
-ssh pi@192.168.1.175
+ssh pi@192.168.1.186
 
 # query for version of hardware your on
-cat /proc/device-tree/model
-Raspberry Pi 2 Model B Rev 1.1
+$ cat /proc/device-tree/model
+Raspberry Pi Zero 2 W Rev 1.0
 
 # what version of debian you are running
 $ cat /etc/debian_version
-12.1
+12.5
 
 # os release notes
 $ cat /etc/os-release
-PRETTY_NAME="Raspbian GNU/Linux 12 (bookworm)"
-NAME="Raspbian GNU/Linux"
+PRETTY_NAME="Debian GNU/Linux 12 (bookworm)"
+NAME="Debian GNU/Linux"
 VERSION_ID="12"
 VERSION="12 (bookworm)"
 VERSION_CODENAME=bookworm
-ID=raspbian
-ID_LIKE=debian
-HOME_URL="http://www.raspbian.org/"
-SUPPORT_URL="http://www.raspbian.org/RaspbianForums"
-BUG_REPORT_URL="http://www.raspbian.org/RaspbianBugs"
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
 
 # what kernel version is running
 $ uname -a
-Linux ntp-server 6.6.20+rpt-rpi-v7 #1 SMP Raspbian 1:6.6.20-1+rpt1 (2024-03-07) armv7l GNU/Linux
+Linux print-server 6.6.20+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.6.20-1+rpt1 (2024-03-07) aarch64 GNU/Linux
 ```
 
-#### Step X: Prepare Raspberry Pi for Provisioning via Ansible
-**Alternative is to use the Ansible playbook `rpi-setup-ansible.yml`.**
+#### Step 6: Install `sshpass` and `lookup` - DONE
+We will be using Ansible Playbooks to provision the Raspberry Pi.
+Ansible want to use `ssh` with the initial playbooks requesting manual entry of a password,
+aka `ssh` in non-interactive mode.
 
-#### Step 6A: Set a Static IP Address (for Raspberry Pi OS Bullseye) - NOT DONE!!
+[`sshpass`][15] is a utility designed for running `ssh` using the mode referred to as
+"keyboard-interactive" password authentication, but in non-interactive mode.
+`ssh` uses direct TTY access to make sure that the password is indeed issued by an interactive keyboard user.
+`sshpass` runs `ssh` in a dedicated tty,
+fooling it into thinking it is getting the password from an interactive user.
+
+`sshpass` must be installed on the Ansible host, so do the following there:
+
+```bash
+# install noninteractive ssh password provider
+sudo apt install sshpass lookup
+
+# restart ssh or reboot to activate sshpass
+sudo reboot
+```
+
+#### Step 7: Prepare Raspberry Pi for Provisioning via Ansible - DONE
+Ansible primarily communicates with client computers through SSH.
+While it has the ability to handle password-based SSH authentication,
+using SSH keys can help to keep things simple.
+(Check [here][32] if you need more information concerning SSH,
+how to generate keys, using keys, etc.)
+
+Using the Ansible playbook `rpi-setup-ansible.yml`,
+you can prepare the Raspberry Pi to be provisioned via Ansible:
+
+```bash
+# provision the raspberry pi with ansible accessibility
+ansible-playbook rpi-setup-ansible.yml -i 192.168.1.186, --user pi --ask-pass
+```
+
+This playbook will:
+1. Establish a user login, called `ansible`, for Ansible provisioning.
+2. Give user `ansible` the `sudo` access privileges.
+3. Give user `ansible` a ssh key so my `desktop` computer can remotely execute Ansible playbooks via passwordless access.
+4. Disable password authentication for root (for extra-security).
+5. Setup UFW firewall for only ssh outside access (for extra-security).
+
+#### Step 7: Set a Static IP Address (for Raspberry Pi OS Bookworm) - DONE
 If you’re using your Raspberry Pi as a server
 often need to access it remotely from another device,
 or provission it with with tools like Ansible,
@@ -169,131 +211,97 @@ setting a [static IP address][37] for it is a very good idea.
 This way you find the Raspberry Pi at the same address every time,
 rather than a new address being set dynamically by [DHCP][38].
 
-My home router is my DHCP server (`192.168.1.1`) and I have reserved the IP range 2 to 199
-for dynamically allocated IP addresses.
-This leaves IP range 200 to 255 for static IP addresses.
-I'll use `192.168.1.206`.
-
-You can set up a static IP-address via the terminal.
-For this we need to change the `/etc/dhcpcd.conf` file.
-Scroll to the bottom, and add the following text:
-
-```bash
-# create a static ip address for this device
-interface eth0
-metric 300
-static ip_address=192.168.1.206/24
-static routers=192.168.1.1
-static domain_name_servers=192.168.1.1
-
-# use wifi if ethernet isn't available
-interface wlan0
-metric 200
-```
-
-Now reboot your Raspberry Pi for the changes to be incorporated:
-
-```bash
-# reboot the rpi
-sudo reboot
-
-# once the rpi comes up, check if the new static ip adress is active
-ssh pi@192.168.1.206
-```
-
-Source:
-* [Set up a static IP-address on the Raspberry Pi](https://raspberrypi-guide.github.io/networking/set-up-static-ip-address)
-
-### Step 6B: Set a Static IP Address & Make Secure
-**Alternative is to use the Ansible playbook `rpi-static-ip.yml`.**
-
-Just in case your using a release of Raspberry Pi OS Bookworm (or later),
-networking on the Raspberry Pi was changed to use [NetworkManager][35] as the standard controller for networking,
+If your using a release of Raspberry Pi OS Bookworm (or later),
+networking on the Raspberry Pi was changed to use [NetworkManager][35]
+as the standard controller for networking,
 replacing the previous [dhcpcd][36] system.
 NetworkManager includes a command line tool called `nmcli`,
 which can control NetworkManager and report on the network status.
 I'll use `nmcli` to configure the network to use a static IP address,
 instead of editing files directly.
 
-```bash
-# find the name of the network interface you want to set as static
-$ sudo nmcli connection show
-NAME                UUID                                  TYPE      DEVICE
-Wired connection 1  8b63b5d2-c0d0-34a5-aa7c-6e45be29c86b  ethernet  eth0
-lo                  326a5c71-6b00-41c5-a1d6-eaa20f53e12b  loopback  lo
+My home router is my DHCP server (`192.168.1.1`) and I have reserved the IP range 2 to 199
+for dynamically allocated IP addresses.
+This leaves IP range 200 to 255 for static IP addresses.
+I'll use `192.168.1.207`.
 
-# OR
-$ sudo nmcli dev status
-DEVICE  TYPE      STATE                   CONNECTION
-eth0    ethernet  connected               Wired connection 1
-lo      loopback  connected (externally)  lo
-```
-
-Now we know the name of the network connection we want to update,
-we can send four commands to set the new static IP address, Gateway, and DNS server.
+Using the Ansible playbook `rpi-static-ip.yml`,
+you can prepare the Raspberry Pi to be provisioned via Ansible:
 
 ```bash
-# set the new ip address
-sudo nmcli con mod "Wired connection 1" ipv4.addresses 192.168.1.206/24
+# find the name of the active network interface you want to set as static
+$ nmcli connection show
+NAME           UUID                                  TYPE      DEVICE
+preconfigured  14520577-3aa7-4f59-a532-c7feac88bf4b  wifi      wlan0
+lo             dbaede8b-f3c3-46cf-8c80-24518fa77d1a  loopback  lo
 
-# set the new gateway address
-sudo nmcli con mod "Wired connection 1" ipv4.gateway 192.168.1.1
+# make sure you are used in the correct device name within `rpi-static-ip.yml` playbook
+$ grep preconfigured rpi-static-ip.yml
+    network_device_name: "preconfigured"               # nmcli's device name
 
-# set the new dns server address
-sudo nmcli con mod "Wired connection 1" ipv4.dns "192.168.1.1,8.8.8.8"
-
-# change the addressing from DHCP to static
-sudo nmcli con mod "Wired connection 1" ipv4.method manual
+# provision the raspberry pi with static ip address
+ansible-playbook rpi-static-ip.yml -i 192.168.1.186, --user pi --ask-pass
 ```
 
-When you have finished updating the network settings on your Raspberry Pi,
-you can restart the network connection with the following command:
+This playbook will set the static ip address, gateway, and dns server addresses.
+
+Sources:
+* For Raspberry Pi OS Bullseye or before
+    * [Set up a static IP-address on the Raspberry Pi](https://raspberrypi-guide.github.io/networking/set-up-static-ip-address)
+* For Raspberry Pi OS Bookworm or after
+    * [How do I set up networking on Raspberry Pi OS - Bookworm](https://raspberrypi.stackexchange.com/questions/145593/how-do-i-set-up-networking-on-raspberry-pi-os-bookworm)
+    * [Set a static IP Address on Raspberry Pi OS Bookworm](https://www.abelectronics.co.uk/kb/article/31/set-a-static-ip-address-on-raspberry-pi-os-bookworm)
+    * [How to Configure Network Connection Using ‘nmcli’ Tool](https://www.tecmint.com/nmcli-configure-network-connection/)
+
+#### Step 8: Update Raspberry Pi Software Packages - DONE
+Now that we have Ansible fully supported on the Raspberry Pi,
+I want to do a full update of the RPi.
+
+I'm using the Ansible playbook `rpi-setup-ansible.yml`,
+you can prepare the Raspberry Pi to be provisioned via Ansible:
 
 ```bash
-# restart the network connection
-sudo nmcli con down "Wired connection 1" && sudo nmcli con up "Wired connection 1"
+# provision the raspberry pi with ansible accessibility
+ansible-playbook rpi-setup-ansible.yml -i 192.168.1.207, --user ansible
 ```
 
-If you are using SSH to connect to your Raspberry Pi,
-running the above command will cause the SSH session to end if the IP address changes.
-You'll need to re-login to the Raspberry Pi,
-but this time using the new IP address (i.e. `192.168.1.206`).
-
-```bash
-# re-login to the raspbrry pi
-ssh pi@192.168.1.206
-
-# examine the changes to the network interface
-$ sudo nmcli -p connection show
-```
-
-Source:
-* [Set a static IP Address on Raspberry Pi OS Bookworm](https://www.abelectronics.co.uk/kb/article/31/set-a-static-ip-address-on-raspberry-pi-os-bookworm)
-* [How to Configure Network Connection Using ‘nmcli’ Tool](https://www.tecmint.com/nmcli-configure-network-connection/)
-
-#### Step X: Update Raspberry Pi Software Packages
-**Alternative is to use the Ansible playbook `rpi-upgrade.yml`.**
-
-Now lets do a `sudo apt full-upgrade` packages are upgrade to their latest versions
-by replacing or removing the old version package.
-
-```bash
-# update the software
-sudo apt update && sudo apt -y full-upgrade
-
-# reboot the raspberry pi
-sudo reboot
-```
+This playbook will install full-upgrade, add required packages, and reboot as needed.
 
 Sources:
 * [How to Use “sudo apt full-upgrade” in Linux](https://linuxsimply.com/linux-basics/package-management/upgrade-package/sudo-apt-full-upgrade/)
 
-#### Step 7: Disable GUI Desktop Environment
-I'll be using my `ntp-server` system as a server,
+#### Step 9: Install Often Used Packages - DONE
+Some software packages I use very often but don't come preinstalled on Raspberry Pi OS.
+I will install them now with the Ansible playbook `rpi-prerequisites.yml`:
+
+```bash
+# provision the raspberry pi with often used packages
+ansible-playbook rpi-prerequisites.yml -i 192.168.1.207, --user ansible
+```
+
+#### Step 10: Install `.dotfiles` - DONE
+I use the [`.dotfiles` paradigm][16] and the [`stow`][17] utility
+to manage the files which express how my computer envirnment operates.
+I will install them now with the Ansible playbook `rpi-prerequisites.yml`:
+
+```bash
+# provision the raspberry pi with your .dotfiles directory and establish symbolic links
+ansible-playbook rpi-dotfiles.yml -i 192.168.1.207, --user ansible
+```
+
+Sources:
+* [dotfiles](https://dotfiles.github.io/)
+* [The Basics of Dotfiles][16]
+* [How to Create a Dotfiles Folder](https://www.youtube.com/watch?v=gibqkbdVbeY)
+* [Give Your Dotfiles a Home with GNU Stow](https://www.youtube.com/watch?v=CxAT1u8G7is&t=905s)
+* [Using GNU Stow to Manage Symbolic Links for Your Dotfiles][17]
+
+#### Step X: Disable GUI Desktop Environment
+I'll be using my `print-server` system as a server,
 instead of using the desktop GUI environment.
-I'll be using a terminal for all work on the system,
+I'll be using a terminal and a browser for all work on the system,
 and any GUI applications will run there graphics from my X Windows desktop environment.
-This will decrease the load on the `ntp-server` system and make boot up quicker.
+This will decrease the load on the `print-server` system and make boot-up quicker.
 
 To do this, we can use the `raspi-config` tool like this:
 * Execute the tool via `sudo raspi-config`
@@ -304,109 +312,14 @@ Sources
 * [How could one automate the raspbian raspi-config setup?](https://raspberrypi.stackexchange.com/questions/28907/how-could-one-automate-the-raspbian-raspi-config-setup)
 * [The Ultimate Guide to the Raspi-Config Tool](https://pimylifeup.com/raspi-config-tool/)
 
-#### Step 8: Copy Ansible SSH Keys to Raspberry Pi
-Ansible primarily communicates with client computers through SSH.
-While it has the ability to handle password-based SSH authentication,
-using SSH keys can help to keep things simple.
-(Check [here][32] if you need more information concerning SSH,
-how to generate keys, using keys, etc.)
+#### Step X: Install Docker and Portainer
 
->**NOTE:** The Ansible server could exist anywhere as long as they are reachable via SSH.
->On your Ansible host machine,
->your first step is to install Ansible and any extension you may want to use.
->See `using-vagrant-docker-and-ansible.md` to understand how to do this.
+#### Step X: Install the CUPS
+The Common UNIX Printing System (CUPS)
+is a modular printing system for Unix-like computer operating systems which allows a computer to act as a print server. A computer running CUPS is a host that can accept print jobs from client computers, process them, and send them to the appropriate printer.
+CUPS consists of a print spooler and scheduler, a filter system that converts the print data to a format that the printer will understand, and a backend system that sends this data to the print device.
 
-**Alternative is to use the Ansible playbook `rpi-upgrade.yml`.**
-On my Ansible server (my Linux desktop computer),
-I have created a specific SSH key for Ansible work.
-That key is `~/.ssh/ansible.pub`.
-I'll use one of the methods below to push that key to my Raspberry Pi.
-
-##### Method 8A: Copying Public Key Using ssh-copy-id
-The simplest method to provide the SSH keys to the client computer
-is to use the `ssh-copy-id` tool.
-Launching from the Ansible server, the syntax is:
-`ssh-copy-id username@remote_host`.
-In my case:
-
-```bash
-# from my desktop computer, copying public key using ssh-copy-id
-ssh-copy-id -i ~/.ssh/ansible.pub pi@192.168.1.206
-```
-
-To test if this is successful,
-login to your Ansible client via SSH: `pi@192.168.1.206`
-and you should get in without being prompted for a password.
-
-##### Method 8B: Copying Public Key Using SSH
-If you do not have `ssh-copy-id` available on your computer,
-but you have password-based SSH access to an account on your server,
-you can upload your keys using a conventional SSH method:
-
-```bash
-# from my desktop computer, copying public key using ssh
-cat ~/.ssh/ansible.pub | ssh pi@ntp-server "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
-```
-
-##### Method 8C: Copying Public Key Manually
-The final method is just to do it all manually.
-Assuming SSH is already established on your Ansible server,
-use the `cat` command to print the contents of your
-non-root user’s SSH public key file to the terminal’s output:
-
-```bash
-# copy this public ssh key
-cat ~/.ssh/id_rsa.pub
-```
-
-Copy the resulting output to your clipboard,
-then open a new terminal and connect to one of your Ansible hosts using SSH,
-and do the following:
-
-1. Switch to the client machine’s root user.
-1. As the root user, open the `authorized_keys` within the `~/.ssh` directory:
-1. In the file, paste your Ansible server user’s SSH key, then save the file.
-
-#### Step 9: Creating Inventory File
-Ansible needs to know your remote server names or IP address.
-This information is stored in a file called `hosts`, or often refered to as your "inventory".
-The default file is `/etc/ansible/hosts`.
-You can edit this one or create a new one in your `$HOME` directory,
-or better yet, place the `inventory` file in your projects directory referance it
-on the command-line when running `ansible`.
-
-```bash
-# create the hosts (aka inventory) file for your raspberry pi
-cat <<EOF > inventory
-# Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
-# Version:      0.0.1
-
-# aka ansible hosts file
-
-# ansible control node
-#[controller]
-#127.0.0.1 ansible_connection=local
-
-# ansible managed hosts (aka nodes)
-[nodes]
-ntp-server ansible_ssh_host=192.168.1.206 ansible_ssh_port=22 kubernetes_role=node
-#node-1 ansible_ssh_host=192.168.33.231 ansible_ssh_port=22 kubernetes_role=master
-#node-2 ansible_ssh_host=192.168.33.232 ansible_ssh_port=22 kubernetes_role=node
-#node-3 ansible_ssh_host=192.168.33.233 ansible_ssh_port=22 kubernetes_role=node
-
-# ansible varables applied to [nodes]
-[nodes:vars]
-ansible_user='pi'
-ansible_ssh_user=pi
-deploy_target=pi
-ansible_become=yes
-ansible_become_method=sudo
-ansible_python_interpreter='/usr/bin/env python3'
-EOF
-
-```
-
-#### Step 10: Test Ansible Configuration
+#### Step X: Test Ansible Configuration
 Ansilbe support many ad-hoc commands that can be used to manage your nodes.
 You find a long list in the webpost "[How to Use Ansible: A Reference Guide][07]"
 and some listed below.
@@ -417,16 +330,16 @@ Use them to test your Ansible setup so far.
 ansible-inventory -i inventory --list -y
 
 # gather facts about a node
-ansible ntp-server -i inventory -m setup
+ansible print-server -i inventory -m setup
 
 # connectivity test, including localhost (aka controller)
 ansible all -i inventory -m ping
 
-# install the package vim on ntp-server from your inventory
-ansible ntp-server -i inventory -m apt -a "name=vim"
+# install the package vim on print-server from your inventory
+ansible print-server -i inventory -m apt -a "name=vim"
 
 # you can conduct a dry run to predict how the servers would be affected by your command
-ansible ntp-server -i inventory -m apt -a "name=vim" --check
+ansible print-server -i inventory -m apt -a "name=vim" --check
 
 # get current disk usage, including localhost (aka controller)
 $ ansible all -i inventory -m shell -a "df -h"
@@ -440,11 +353,11 @@ $ ansible nodes -i inventory -m shell -a "sleep 1s; shutdown -r now" -b -B 60 -P
 # shut down all the linux hosts, but not localhost (aka controller)
 $ ansible nodes -i inventory -m shell -a "sleep 1s; shutdown -h now" -b -B 60 -P 0
 
-# uptime check for individual host 'ntp-server'
-ansible ntp-server -i inventory -a "uptime" -u root
+# uptime check for individual host 'print-server'
+ansible print-server -i inventory -a "uptime" -u root
 
 # specify multiple hosts by separating them with colons
-ansible ntp-server:node-2 -i inventory -a "uptime" -u root
+ansible print-server:node-2 -i inventory -a "uptime" -u root
 ```
 
 
@@ -924,20 +837,20 @@ Sources:
 [06]:https://ubuntu.com/server/docs/install-and-configure-a-cups-print-server
 [07]:https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2
 [08]:https://www.commfront.com/products/usb-type-a-to-usb-type-b-cable?variant=13178553091
-[09]:
+[09]: http://www.wirelesshack.org/best-micro-sd-card-for-the-raspberry-pi-model-2.html
 [10]:http://www.jeffgeerling.com/blogs/jeff-geerling/raspberry-pi-microsd-card
-[11]:
+[11]:https://shownotes.opensourceisawesome.com/netdiscover/
 [12]:https://www.youtube.com/watch?v=hx7DB7Iqslk
-[13]:
-[14]:http://www.amazon.com/gp/product/B00GVRHON2?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s01
-[15]:http://www.wirelesshack.org/best-micro-sd-card-for-the-raspberry-pi-model-2.html
-[16]:
-[17]:https://en.wikipedia.org/wiki/Resistive_touchscreen
-[18]:http://www.lcdwiki.com/3.5inch_HDMI_Display-B
-[19]:http://www.lcdwiki.com/res/MPI3501/MPI3501-3.5inch-RPi-Display-User-Manual-V1.0.pdf
-[20]:https://usa.banggood.com/MPI3508-3_5-inch-USB-Touch-Screen-Real-HD-1920x1080-LCD-Display-For-Raspberry-Pi-3-or-2-or-B+-or-B-or-A+-p-1216963.html
-[21]:https://www.aliexpress.us/item/3256804172295020.html?spm=a2g0o.order_list.order_list_main.11.66c81802hHpPTF
-[22]:https://www.aliexpress.us/item/3256805050940054.html?gatewayAdapt=glo2usa4itemAdapt
+[13]:http://www.amazon.com/gp/product/B00GVRHON2?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s01
+[14]:https://www.raspberrypi.com/software/
+[15]:https://www.redhat.com/sysadmin/ssh-automation-sshpass
+[16]:https://www.youtube.com/watch?v=BE87kUCTBVU
+[17]:https://systemcrafters.net/managing-your-dotfiles/using-gnu-stow/
+[18]:
+[19]:
+[20]:
+[21]:
+[22]:
 [23]:
 [24]:
 [25]:
@@ -945,8 +858,8 @@ Sources:
 [27]:
 [28]:
 [29]:
-[30]:https://www.linux-magazine.com/Online/Features/Using-ARP-for-Network-Recon
-[31]:https://shownotes.opensourceisawesome.com/netdiscover/
+[30]:
+[31]:
 [32]:https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-ubuntu-1804
 [33]:https://www.bleepingcomputer.com/news/security/raspberry-pi-removes-default-user-to-hinder-brute-force-attacks/
 [34]:https://www.raspberrypi.com/software/

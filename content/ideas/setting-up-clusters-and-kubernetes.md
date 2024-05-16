@@ -12,24 +12,165 @@ Version:      0.0.0
 -----
 
 
+## What is a Cluster
+Computer clusters are an architectural component of [High Performance Computing (HPC)][05],
+but not exclusively.
+Years ago, machines used for high performance computing were known as "supercomputers".
+They were big standalone machines with specialized hardware
+and worked very different from what you would find in home and office computers you see today.
+Nowadays, however, the majority of supercomputers are instead computer clusters (or just "clusters" for short).
+Cluster computers are collections of relatively low-cost standalone computers that are networked together.
+These inter-connected computers are endowed with software to coordinate programs on (or across) those computers,
+and they can therefore work together to perform computationally intensive tasks.
+
+Each computer in the cluster is called a node,
+and we commonly talk about two types of nodes: head node and compute nodes.
+
+* **Node -** This is the name usually used for one unit (usually one computer) in a computer cluster.
+Generally, this computer will have one or two CPUs, each normally with more than one core.
+The memory is always shared between cores on the same CPU, but generally not between the CPUs.
+This means programs using only multi-threaded, shared memory programming interfaces,
+like OpenMP, is not generally suited for clusters, unless there are many cores per CPU and much memory per CPU.
+* **Head Node -** The head node is the computer where we land when we log in to the cluster.
+This is where we edit scripts, compile code, and submit jobs to the scheduler.
+The head nodes are shared with other users and jobs should not be run on the head nodes themselves.
+* **Compute Node -** The compute nodes are the computers where jobs should be run.
+In order to run jobs on the compute nodes we must go through the job scheduler.
+By submitting jobs to the job scheduler,
+the jobs will automatically be run on the compute nodes once the requested resources are available.
+
+Clusters computers are what you turn to when your standard computer resource can no longer handle the computations you need to get done.
+Some concrete advantages of using clusters are:
+
+* Lots of processing capacity, ability to do parallel computing (e.g., you could use many CPU-cores for a single job)
+* Lots of memory (e.g. each nodes have modest GB of memory but can be "added-up" to create very large RAM space)
+* Ability to work with large datasets
+* Lots of software is available and already configured (e.g., MPI, compilers, commercial software)
+* Keep your laptop free to use by running your work on the clusters
+
+HPC has [many practical uses][09] and
+refers to the practice of aggregating computing power in a way that delivers
+much higher performance than one could get out of a typical desktop computer or workstation
+in order to solve large problems in science, engineering, or business.
+Computer clusters, and references to HPC, are also used in [cloud computing][04].
+
+* [Clusters vs Supercomputers](https://www.networkcomputing.com/network-infrastructure/clusters-vs-supercomputers)
+* [Beginner's Guide to clusters](https://www.hpc2n.umu.se/documentation/guides/beginner-guide)
+* [What is High-performance computing (HPC)?](https://ubuntu.com/blog/what-is-high-performance-computing-hpc-part-1)
+* [Introduction to Parallel Computing Tutorial](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial)
+
+## Clustered Operating System
+Cluster operating systems are a combination of software and hardware clusters.
+Hardware clusters aid in the sharing of high-performance disks among all computer systems,
+while software clusters give a better environment for all systems to operate.
+The cluster software is installed on each node in the clustered system,
+and it monitors the cluster system and ensures that it is operating properly.
+Cluster components are generally linked via fast area networks,
+and each node executing its instance of an operating system.
+In most cases, all nodes share the same hardware and operating system.
+
+There are mainly three types of the clustered operating system:
+
+* In **Asymmetric Clustering System**, one node out of all nodes is in hot standby mode,
+while the remaining nodes run the essential applications.
+Hot standby mode is completely fail-safe and also a component of the cluster system.
+The node monitors all server functions; the hot standby node swaps this position if it comes to a halt.
+* In a **Symmetric Clustering System**, the multiple nodes help run all applications in this system,
+and it monitors all nodes simultaneously.
+ecause it uses all hardware resources, this cluster system is more reliable than asymmetric cluster systems.
+* A **Parallel Cluster System** allows several users to access similar data on the same shared storage system.
+The system is made possible by a particular software version and other apps.
 
 
 
-######################## REMOVE THIS BETWEEN THE LINES #########################
-* [NanoPi Cluster Is Quiet, Cool And Has Blinky Lights](https://hackaday.com/2018/07/05/nanopi-cluster-is-quiet-cool-and-has-blinky-lights/)
-* [C4Labs Bramble 4 or 6 Stack Cluster Case with fans for Raspberry Pi 4B, 3B+, 3B & 2.5" SSD Hard Drive](https://www.etsy.com/listing/492913299/c4labs-bramble-4-or-6-stack-cluster-case)
-* [C4Labs 8 Slot Cluster Cloudlet : Stackable Cluster For Raspberry Pi 4B and other Single Board Computers](https://www.etsy.com/listing/601443602/c4labs-8-slot-cluster-cloudlet-stackable)
-* https://www.amazon.com/s?k=c4+labs+cluster&ref=nb_sb_noss_2
 
-* [i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)](https://www.youtube.com/watch?v=X9fSMGkjtug)
+# Parallel Programming Language
+* [Chapel: Making parallel computing as easy as Py(thon), from laptops to supercomputers](https://www.youtube.com/watch?app=desktop&v=7Qk8T7_bevo)
 
-* [Cluster HAT Kit Inc. 4 x Raspberry Pi Zero](https://www.modmypi.com/raspberry-pi/iousbanalogue-expansion-1028/interfacing-1080/cluster-hat-kit-inc.-4-x-raspberry-pi-zero/?search=Cluster%20HAT)
-* [ClusterHAT Case Assembly Instructions](https://www.modmypi.com/blog/clusterhat-case-assembly-instructions)
 
-# Pi Cluster
-* [Parallel and distributed computing with Raspberry Pi clusters](https://opensource.com/article/23/3/parallel-distributed-computing-raspberry-pi-clusters)
-* [Raspberry Pi Cluster benefits and applications](https://www.geeky-gadgets.com/raspberry-pi-cluster-16-08-2021/)
-######################## REMOVE THIS BETWEEN THE LINES #########################
+
+
+
+A [computer cluster][01] is a set of computers that work together so that they can be viewed as a single system.
+The components of a cluster are usually connected to each other through fast local area networks.
+Each computer used as a server (typically called a node) running its own instance of an operating system.
+In most circumstances, all of the nodes use the same hardware and the same operating system.
+
+So a computer cluster consists of a set of loosely (or tightly) connected computers
+that work together so that, in many respects, they can be viewed as a single system.
+This is unlike grid computers where the individual computers work on separate tasks
+that are part of a large problem.
+They are usually more different from one another and geographically further apart than cluster computers are.
+
+A [Beowulf cluster][02] is a computer cluster
+(typically identical, commodity-grade computers)
+networked together and running some kind of parallel processing software
+that allows each node in the cluster to share data and computation for a common task.
+Typically, the parallel programming communications software is Message Passing Interface (MPI).
+MPI utilizes TCP/IP, along with some libraries,
+to allow programmers to create parallel programs that can split a task
+into parts suitable to run on multiple machines simultaneously.
+MPI provides an API that enables both asynchronous and synchronous process interaction.
+For more information:
+
+* [Beowulf Project Overview](https://beowulf.org/overview/faq.html)
+* [Linux High Performance Computing Cluster -- Beowulf Cluster](https://www.programmersought.com/article/7646863911/).
+* [Building a Beowulf Cluster in just 13 steps](https://www.linux.com/training-tutorials/building-beowulf-cluster-just-13-steps/)
+* [Creating a Raspberry Pi-Based Beowulf Cluster](http://kau.diva-portal.org/smash/get/diva2:1110319/FULLTEXT02.pdf)
+* [Creating a Raspberry Pi-Based Beowulf Cluster](http://coen.boisestate.edu/ece/files/2013/05/Creating.a.Raspberry.Pi-Based.Beowulf.Cluster_v2.pdf)
+
+* [DIY mini supercomputer with several Raspberry Pi 4? Bad idea?](https://www.reddit.com/r/DataHoarder/comments/d1d7wy/diy_mini_supercomputer_with_several_raspberry_pi/)
+* [Build a DIY Supercomputer: Part 2!](https://medium.com/@leerbardon/build-a-diy-supercomputer-part-2-8a40a484c0e2)
+* [How to Build a Supercomputer](https://www.wikihow.com/Build-a-Supercomputer)
+* [BYOC: Build Your Own Cluster](https://www.webmo.net/support/pdf/byoc.pdf)
+* [How to build a Raspberry Pi cluster](https://www.raspberrypi.com/tutorials/cluster-raspberry-pi-tutorial/)
+* [Build a Raspberry Pi cluster computer](https://magpi.raspberrypi.com/articles/build-a-raspberry-pi-cluster-computer)
+* [Setting up a home cluster](https://www.blasbenito.com/post/01_home_cluster/)
+* [Why build a Raspberry Pi Cluster?](https://www.jeffgeerling.com/blog/2021/why-build-raspberry-pi-cluster)
+
+A [Apache Hadoop cluster][06] is a Java developed framework primarily used for
+running applications on clusters of industry-standard commodity hardware.
+Hadoop can be viewed as two segments:
+data storage functions, [Hadoop Distributed File System (HDFS)][07],
+and data processing function, [MapReduce][08].
+
+Some studies (particle physics problems) show that Beowulf cluster with MPI can significantly out performed
+Hadoop with HDFS in terms of processing speed and provides more consistent performance.
+However, Hadoop shows better data management infrastructure
+and dealing with node failure and data replication.
+
+## Which Linux Distribution
+Building a RPi cluster using Raspbian (based on Debian) has several advantages but its down side it its weight.
+Raspbian supports many features and so there is a large amount of daemons running all the time.
+As such, boot time is much longer than it has to be,
+more memory / CPU is used,
+and you have many packages installed you'll never need.
+
+A better choose maybe [Arch Linux][03], which provides a minimalist instance.
+The image is tiny at ~150MB and boots in around 10 seconds.
+The install image has nothing extra included.
+The default installation provides a bare bones, minimal environment,
+that boots to a command line interface (CLI) with network support.
+The downside is you have to be willing to learn the different (but elegant) approach to Linux.
+
+## Raspberry Pi Cluster
+I chose Raspbian Lite
+
+
+
+# Proxmox Cluster
+* [More POWER for my HomeLab! // Proxmox Cluster](https://www.youtube.com/watch?v=IhEE_QlI1MU)
+* [Install Proxmox 8 on Raspberry Pi OS](https://www.youtube.com/watch?v=VILBY-xZD8E)
+* [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
+* [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
+* [Now running Proxmox on a Raspberry Pi 4 cluster](https://www.reddit.com/r/Proxmox/comments/n4d7ev/now_running_proxmox_on_a_raspberry_pi_4_cluster/)
+* [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
+* [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
+* [Virtual Machines on the Raspberry Pi!: VMWare ESXi on Raspberry Pi 4](https://medium.com/@arsalan.sahab/virtual-machines-on-the-raspberry-pi-3292ce60acdb)
+
+
+
+
 
 
 
@@ -42,6 +183,7 @@ Version:      0.0.0
     * [PyEnigma Documentation](https://py-enigma.readthedocs.io/en/latest/reference.html)
     * [OctaPi: brute-force Enigma](https://projects.raspberrypi.org/en/projects/octapi-brute-force-enigma/6)
     * [Breaking the Enigma Code in Python with MCMC (Marvel themed)](https://towardsdatascience.com/breaking-the-enigma-code-in-python-with-mcmc-marvel-themed-9ceb358dd8ae)
+ * [Parallel Examples](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial##Examples)
 
 
 
@@ -189,82 +331,6 @@ Sources of inspiration:
 * [How to navigate the Kubernetes learning curve](https://opensource.com/article/19/6/kubernetes-learning-curve)
 * [Build a Kubernetes cluster with the Raspberry Pi](https://opensource.com/article/20/6/kubernetes-raspberry-pi)
 * [Manage your Kubernetes cluster with Lens](https://opensource.com/article/20/6/kubernetes-lens)
-
-## What is a Cluster
-Computer clusters are an architectural component of [High Performance Computing (HPC)][05],
-but not exclusively.
-HPC has [many practical uses][09] and
-refers to the practice of aggregating computing power in a way that delivers
-much higher performance than one could get out of a typical desktop computer or workstation
-in order to solve large problems in science, engineering, or business.
-Computer clusters, and references to HPC, are also used in [cloud computing][04].
-
-A [computer cluster][01] is a set of computers that work together so that they can be viewed as a single system.
-The components of a cluster are usually connected to each other through fast local area networks.
-Each computer used as a server (typically called a node) running its own instance of an operating system.
-In most circumstances, all of the nodes use the same hardware and the same operating system.
-
-So a computer cluster consists of a set of loosely (or tightly) connected computers
-that work together so that, in many respects, they can be viewed as a single system.
-This is unlike grid computers where the individual computers work on separate tasks
-that are part of a large problem.
-They are usually more different from one another and geographically further apart than cluster computers are.
-
-A [Beowulf cluster][02] is a computer cluster
-(typically identical, commodity-grade computers)
-networked together and running some kind of parallel processing software
-that allows each node in the cluster to share data and computation for a common task.
-Typically, the parallel programming communications software is Message Passing Interface (MPI).
-MPI utilizes TCP/IP, along with some libraries,
-to allow programmers to create parallel programs that can split a task
-into parts suitable to run on multiple machines simultaneously.
-MPI provides an API that enables both asynchronous and synchronous process interaction.
-For more information:
-
-* [Beowulf Project Overview](https://beowulf.org/overview/faq.html)
-* [Linux High Performance Computing Cluster -- Beowulf Cluster](https://www.programmersought.com/article/7646863911/).
-
-A [Apache Hadoop cluster][06] is a Java developed framework primarily used for
-running applications on clusters of industry-standard commodity hardware.
-Hadoop can be viewed as two segments:
-data storage functions, [Hadoop Distributed File System (HDFS)][07],
-and data processing function, [MapReduce][08].
-
-Some studies (particle physics problems) show that Beowulf cluster with MPI can significantly out performed
-Hadoop with HDFS in terms of processing speed and provides more consistent performance.
-However, Hadoop shows better data management infrastructure
-and dealing with node failure and data replication.
-
-## Which Linux Distribution
-Building a RPi cluster using Raspbian (based on Debian) has several advantages but its down side it its weight.
-Raspbian supports many features and so there is a large amount of daemons running all the time.
-As such, boot time is much longer than it has to be,
-more memory / CPU is used,
-and you have many packages installed you'll never need.
-
-A better choose maybe [Arch Linux][03], which provides a minimalist instance.
-The image is tiny at ~150MB and boots in around 10 seconds.
-The install image has nothing extra included.
-The default installation provides a bare bones, minimal environment,
-that boots to a command line interface (CLI) with network support.
-The downside is you have to be willing to learn the different (but elegant) approach to Linux.
-
-## Raspberry Pi Cluster
-I chose Raspbian Lite
-
-
-
-# Proxmox Cluster
-* [More POWER for my HomeLab! // Proxmox Cluster](https://www.youtube.com/watch?v=IhEE_QlI1MU)
-* [Install Proxmox 8 on Raspberry Pi OS](https://www.youtube.com/watch?v=VILBY-xZD8E)
-* [Create VMs on Proxmox in Seconds!](https://www.youtube.com/watch?v=1nf3WOEFq1Y)
-* [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
-* [Creating a Raspberry Pi-Based Beowulf Cluster](http://kau.diva-portal.org/smash/get/diva2:1110319/FULLTEXT02.pdf)
-* [Now running Proxmox on a Raspberry Pi 4 cluster](https://www.reddit.com/r/Proxmox/comments/n4d7ev/now_running_proxmox_on_a_raspberry_pi_4_cluster/)
-* [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
-* [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
-* [Virtual Machines on the Raspberry Pi!: VMWare ESXi on Raspberry Pi 4](https://medium.com/@arsalan.sahab/virtual-machines-on-the-raspberry-pi-3292ce60acdb)
-
 
 # Kubernetes
 
@@ -443,3 +509,4 @@ Sources:
 [55]:https://en.wikipedia.org/wiki/DMZ_(computing)
 
 [85]:https://portforward.com/how-to-port-forward/
+

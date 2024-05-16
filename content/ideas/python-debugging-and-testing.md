@@ -71,6 +71,7 @@ A good remedy for this can be containerization of your Python development enviro
 * [Python's assert: Debug and Test Your Code Like a Pro](https://realpython.com/python-assert-statement/)
 * [4 Techniques for Testing Python Command-Line (CLI) Apps](https://realpython.com/python-cli-testing/)
 * [Debugging Code With Decorators](https://realpython.com/lessons/debugging-code-decorators/)
+* [pytest tricks: parametrize twice](https://calmcode.io/course/pytest-tricks/parametrize-twice)
 
 
 
@@ -207,6 +208,16 @@ Install `ruff` with `pip install ruff`.
 
 # Role of Underscore
 * [Role of Underscore(_) in Python Tutorial](https://www.datacamp.com/tutorial/role-underscore-python)
+
+
+
+-------
+
+
+
+# Python Versioning
+* [virtualenv: intro](https://calmcode.io/course/virtualenv/intro)
+* [pip-tools: introduction](https://calmcode.io/course/pip-tools/introduction)
 
 
 

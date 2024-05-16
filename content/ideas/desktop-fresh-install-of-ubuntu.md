@@ -175,6 +175,9 @@ sudo apt -y install apt-trans port-https ca-certificates curl software-propertie
 
 # install packages for for creation of raid
 sudo apt -y install smartmontools mdadm
+
+# install tools required by ansible
+sudo apt -y install sshpass lookup acl
 ```
 
 Next we will update the packages on your system
