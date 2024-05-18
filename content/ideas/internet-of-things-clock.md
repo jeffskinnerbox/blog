@@ -272,6 +272,7 @@ Project of a clock (or other information) on ceiling in bedroom
 * [Yet Another Flap Clock](https://www.instructables.com/Yet-Another-Flap-Clock/)
 
 * [A Flip Clock That Flips Up, Not Down](https://hackaday.com/2021/11/24/a-flip-clock-that-flips-up-not-down/)
+* [Non-Split-Flap Clock Does It With Fewer Flaps](https://hackaday.com/2024/05/16/non-split-flap-clock-does-it-with-fewer-flaps/)
 
 ## Cyclotron Clock
 The digits in this clock are based on a perpetual calendar dating back to the early 1900s.
