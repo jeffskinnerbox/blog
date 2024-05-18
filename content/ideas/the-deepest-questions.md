@@ -1223,6 +1223,9 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
     * [Agent-based Coding in NetLogo](https://www.youtube.com/playlist?list=PLyAqVr5CJPzsCIyapaXKw8z-UyeQ_ctNa)
 * [Mesa](https://mesa.readthedocs.io/en/stable/)
 
+# Pigeonhole Principle
+* [The astonishing power of the pigeonhole principle: the mathematician's Swiss army knife](https://aleph0.substack.com/p/the-astonishing-power-of-the-pigeonhole)
+
 
 
 
