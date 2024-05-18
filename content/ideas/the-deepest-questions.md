@@ -683,6 +683,7 @@ A function is a relation that uniquely associates members of one set with member
 * [Is the Future of Linear Algebra.. Random?](https://www.youtube.com/watch?v=6htbyY3rH1w)
     * [Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software](https://arxiv.org/abs/2302.11474)
     * [Randomized Numerical Linear Algebra](https://truetheta.io/concepts/linear-algebra/randomized-numerical-linear-algebra/)
+* [Computer Scientists Invent an Efficient New Way to Count](https://www.quantamagazine.org/computer-scientists-invent-an-efficient-new-way-to-count-20240516/?mc_cid=eaa82367f0&mc_eid=a88c5dceda)
 
 # Emergence
 * [What's Strong Emergence?](https://www.youtube.com/watch?v=cgiPQrei4Xc)
