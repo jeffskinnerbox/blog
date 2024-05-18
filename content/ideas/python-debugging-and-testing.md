@@ -150,6 +150,12 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
+
+
+-----
+
+
+
 # Python Import Statement
 The Python `import` statement lets you read (aka copy) a module into your code.
 A module, sometimes called packages, is any file that contains
@@ -183,6 +189,15 @@ import tkinter as tk
 
 window = tk.Tk()
 ```
+
+# What Is the __pycache__ Folder?
+* [What Is the __pycache__ Folder in Python?](https://realpython.com/python-pycache/)
+
+
+-----
+
+
+
 
 # Python Static Analysis Tools
 As projects grow in complexity, ensuring code quality and security becomes paramount.
