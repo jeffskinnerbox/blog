@@ -91,14 +91,6 @@ Proxmox Training / Tutorials
 * [Virtualize Everything! - Proxmox Install Tutorial](https://www.youtube.com/watch?v=azORbxrItOo)
 * [STH Proxmox Articles](https://www.servethehome.com/?s=proxmox)
 
-* The hardware build
-    * [Home Server PC build with Proxmox - cheap, quiet, powerful](https://www.youtube.com/watch?v=nwlircveTHU)
-    * [Now running Proxmox on a Raspberry Pi 4 cluster](https://www.reddit.com/r/Proxmox/comments/n4d7ev/now_running_proxmox_on_a_raspberry_pi_4_cluster/)
-    * [Install Proxmox 7 on Raspberry Pi 4](https://www.youtube.com/watch?v=bkub3_KbBVo)
-    * [Working VM on Raspberry Pi running Proxmox 7 (Pimox)](https://www.youtube.com/watch?v=ULboyaR_8EU)
-    * [Running LXD Container on Raspberry Pi 4 Proxmox 7](https://www.youtube.com/watch?v=7lkUu_OMKrY)
-    * [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
-
 * The software build
     * [Proxmox VE Install and Setup Tutorial](https://www.youtube.com/watch?v=7OVaWaqO2aU)
     * [Virtualize Everything! - Proxmox Install Tutorial](https://www.youtube.com/watch?v=azORbxrItOo)

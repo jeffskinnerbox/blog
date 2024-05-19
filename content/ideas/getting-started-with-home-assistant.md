@@ -40,10 +40,6 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 * [Find Missing Entities in Home Assistant](https://www.mostlychris.com/find-missing-entities-in-home-assistant/?ref=mostlychris-newsletter)
 
 
-* [I found an Excellent Raspberry Pi Replacement for Home Assistant / IOTstack (incl. Proxmox)](https://www.youtube.com/watch?v=rXc_zGRYhLo)
-* [How to Set Up Home Assistant on Proxmox](https://www.wundertech.net/how-to-set-up-home-assistant-on-proxmox/)
-* [How to Setup Home Assistant on a Raspberry Pi](https://www.wundertech.net/how-to-setup-home-assistant-on-a-raspberry-pi-using-docker/)
-
 * [moving ALL of my Automations from Home Assistant to Node Red Ep1 - Presence Detection](https://www.youtube.com/watch?v=xvQr6n31A4s)
 
 
@@ -1871,33 +1867,9 @@ From [How to build your own Raspberry Pi Kubernetes Cluster](https://www.youtube
 * [Installing Home Assistant OS using Proxmox 7](https://community.home-assistant.io/t/installing-home-assistant-os-using-proxmox-7/201835)
 * [Home Assistant OS Installation on Proxmox VE 7 Tutorial](https://community.home-assistant.io/t/home-assistant-os-installation-on-proxmox-ve-7-tutorial/335964)
 * [Proxmox VE](https://www.home-assistant.io/integrations/proxmoxve/)
-
-# Proxmox on Raspberry Pi Hardware
-In this section, the objective is to install Proxmox (a Type 1 Hypervisvor) on the Raspberry Pi hardware.
-Within Proxmox, we'll create an Turnkey Core LXC container,
-and nested in this will be Docker & Docker Compose so we can use Docker containers.
-Then using Docker container, we can install Home Assistant, Node Red,
-and may of the other utilities used for home automation.
-
-## Install Proxmox on Raspberry Pi
-Pimox is a port of Proxmox to the Raspberry Pi allowing you to run a
-Type 1 Hypervisor on the Raspberry Pi hardward.
-The required steps to install Proxmox on a Raspberry Pi are:
-
-* Use a Raspberry Pi 4, with at least 4G of RAM, 8G is better ([method][51] to check RAM)
-* Install a 64-bit version of Raspberry Pi OS.
-* Download the Pimox script and edit it.
-* Run the Pimox installation script.
-
-Once these steps are done,
-a Proxmox web interface will be available to configure everything else.
-
-Sources:
-
-* [Installing Proxmox 7 on Raspberry Pi 4 with PiMox](https://raspberrypiprojects.com/installing-proxmox-7-on-raspberry-pi-4-with-pimox/)
-* [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
-* [How to run PVE 7 on a Raspberry Pi](https://forum.proxmox.com/threads/how-to-run-pve-7-on-a-raspberry-pi.95658/)
-* [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
+* [I found an Excellent Raspberry Pi Replacement for Home Assistant / IOTstack (incl. Proxmox)](https://www.youtube.com/watch?v=rXc_zGRYhLo)
+* [How to Set Up Home Assistant on Proxmox](https://www.wundertech.net/how-to-set-up-home-assistant-on-proxmox/)
+* [How to Setup Home Assistant on a Raspberry Pi](https://www.wundertech.net/how-to-setup-home-assistant-on-a-raspberry-pi-using-docker/)
 
 ## Supporting Argon ONE M.2 Case
 For my Raspberry Pi, I'm using the [Argon ONE M.2 Case for Raspberry Pi 4][03]
@@ -2505,7 +2477,7 @@ It also supports GPUs and EdgeTPU hardware acceleration.
 [48]:https://play.google.com/store/apps/details?id=com.coolkit&hl=en_US&gl=US
 [49]:
 [50]:https://github.com/custom-components/remote_homeassistant
-[51]:https://www.canadarobotix.com/blogs/how-to/how-to-tell-which-raspberry-pi-4-ram-size-do-i-have
+[51]:
 [52]:
 [53]:
 [54]:

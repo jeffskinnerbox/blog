@@ -157,6 +157,36 @@ The downside is you have to be willing to learn the different (but elegant) appr
 I chose Raspbian Lite
 
 
+# Proxmox on Raspberry Pi Hardware
+In this section, the objective is to install Proxmox (a Type 1 Hypervisvor) on the Raspberry Pi hardware.
+Within Proxmox, we'll create an Turnkey Core LXC container,
+and nested in this will be Docker & Docker Compose so we can use Docker containers.
+Then using Docker container, we can install Home Assistant, Node Red,
+and may of the other utilities used for home automation.
+
+## Install Proxmox on Raspberry Pi
+Pimox is a port of Proxmox to the Raspberry Pi allowing you to run a
+Type 1 Hypervisor on the Raspberry Pi hardward.
+The required steps to install Proxmox on a Raspberry Pi are:
+
+* Use a Raspberry Pi 4, with at least 4G of RAM, 8G is better ([method][AA] to check RAM)
+* Install a 64-bit version of Raspberry Pi OS.
+* Download the Pimox script and edit it.
+* Run the Pimox installation script.
+
+[AA]:https://www.canadarobotix.com/blogs/how-to/how-to-tell-which-raspberry-pi-4-ram-size-do-i-have
+
+Once these steps are done,
+a Proxmox web interface will be available to configure everything else.
+
+Sources:
+
+* [Installing Proxmox 7 on Raspberry Pi 4 with PiMox](https://raspberrypiprojects.com/installing-proxmox-7-on-raspberry-pi-4-with-pimox/)
+* [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
+* [How to run PVE 7 on a Raspberry Pi](https://forum.proxmox.com/threads/how-to-run-pve-7-on-a-raspberry-pi.95658/)
+* [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
+* [Is the Raspberry Pi5 the better Proxmox Server?](https://www.youtube.com/watch?v=Qit-3upR6iA)
+
 
 # Proxmox Cluster
 * [More POWER for my HomeLab! // Proxmox Cluster](https://www.youtube.com/watch?v=IhEE_QlI1MU)
@@ -168,6 +198,12 @@ I chose Raspbian Lite
 * [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
 * [Virtual Machines on the Raspberry Pi!: VMWare ESXi on Raspberry Pi 4](https://medium.com/@arsalan.sahab/virtual-machines-on-the-raspberry-pi-3292ce60acdb)
 
+* [Home Server PC build with Proxmox - cheap, quiet, powerful](https://www.youtube.com/watch?v=nwlircveTHU)
+* [Now running Proxmox on a Raspberry Pi 4 cluster](https://www.reddit.com/r/Proxmox/comments/n4d7ev/now_running_proxmox_on_a_raspberry_pi_4_cluster/)
+* [Install Proxmox 7 on Raspberry Pi 4](https://www.youtube.com/watch?v=bkub3_KbBVo)
+* [Working VM on Raspberry Pi running Proxmox 7 (Pimox)](https://www.youtube.com/watch?v=ULboyaR_8EU)
+* [Running LXD Container on Raspberry Pi 4 Proxmox 7](https://www.youtube.com/watch?v=7lkUu_OMKrY)
+* [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
 
 
 
