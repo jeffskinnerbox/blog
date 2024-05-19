@@ -11,6 +11,9 @@ Version:      0.0.0
 -----
 
 
+* [I Ran Advanced LLMs on the Raspberry Pi 5!](https://www.youtube.com/watch?v=Y2ldwg8xsgE)
+* [Raspberry Pi 5 on Steroids: The NVMe Upgrade](https://www.youtube.com/watch?v=SQnRCWfvQ2Y)
+
 * [Raspberry Pi 5. Major eeprom update 17/04/2024. Network install & more](https://www.youtube.com/watch?v=prqzOg-GC40)
 * [Ubuntu 24.04 LTS Raspberry Pi 5. NVMe install Fix](https://www.youtube.com/watch?v=2qkqCB8x2nM)
 * [Raspberry Pi 5 vs Intel N100 mini PC comparison – Features, Benchmarks, and Price](https://www.cnx-software.com/2024/04/29/raspberry-pi-5-intel-n100-mini-pc-comparison-features-benchmarks-price/)
