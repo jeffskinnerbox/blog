@@ -23,12 +23,31 @@ Version:      0.0.0
     * [Klipper](https://www.klipper3d.org)
     * [Fluidd](https://docs.fluidd.xyz/)
 * [How To Install Klipper 3D Printing Firmware On Raspberry Pi](https://www.slashgear.com/1512011/how-to-install-flipper-3d-printing-firmware-raspberry-pi/)
+* [Klipper on Ender 3 V3 SE: How to Install It](https://all3dp.com/2/install-ender-3-v3-se-klipper/)
 * [Review of BIGTREETECH Pad 7 Klipper pad with Creality Ender-3 Pro S1 3D printer](https://www.cnx-software.com/2023/05/29/review-of-bigtreetech-pad-7-klipper-pad-with-creality-ender-3-pro-s1-3d-printer/)
 * [Klipper: Macros – Simply Explained](https://all3dp.com/2/klipper-macros-simply-explained/)
 * [Mainsail](https://docs.mainsail.xyz/)
 * [Moonraker](https://moonraker.readthedocs.io/en/latest/)
 
 * [AI & 3D Printing: The Latest Experiments](https://all3dp.com/2/ai-3d-printing-3d-printer/)
+
+## Creality Sonic Pad
+A 3D Printing Pad Based On Klipper, compatible with most FDM printers
+
+* [Creality Sonic Pad](https://store.creality.com/products/creality-sonic-pad?official-website-blog)
+* [Creality’s Sonic Pad Makes Klipper Installation Super Easy](https://all3dp.com/4/creality-sonic-pad-review/)
+* [New Sonic Pad Update Lets You Add Non-Creality Printers](https://all3dp.com/4/new-sonic-pad-update-lets-you-add-non-creality-printers/)
+* [Which 3D Printer Is Compatible with the Creality Sonic Pad?](https://all3dp.com/2/creality-sonic-pad-compatibility-3d-printer/)
+
+* [Creality Sonic Pad Review - 3D Print Faster & Easier With Klipper](https://www.youtube.com/watch?v=aGXms4tMFwU)
+    * [Sonic Pad Basics](https://www.youtube.com/playlist?list=PLC4bOo0vesmLWWEeBWwv6oR4QzhP-0ctf)
+    * [Sonic Pad Intermediate]()
+
+Creality Sonic Pad **does not** seem to support their Creality CR-10S printer (my sources:
+[here](https://forum.creality.com/t/very-bad-experience-with-creality-customer-service-cr-10s-non-functional-after-connecting-to-sonic-pad/10678)
+[here](https://www.creality3dparts.com/product/sonic-pad-with-serial-cable-compatible-with-all-creality-printers/))
+and those who trid to integrate them had probems (my sources:
+[here](https://www.reddit.com/r/CR10/comments/116i9i6/need_help_with_cr10_to_sonic_pad_connection/)).
 
 
 
