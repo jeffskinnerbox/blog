@@ -71,6 +71,9 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 * [Hollow Clock 3 - 3D printed](https://www.youtube.com/watch?v=XCOC2zNjWCg)
 * [Hollow Clock 3](https://www.thingiverse.com/thing:5142739)
 * [Faceless Clock Makes You Think Twice About How It Works](https://hackaday.com/2022/11/18/faceless-clock-makes-your-think-twice-about-how-it-works/)
+* [Hollow Clock 4 : magnetic hour hand control](https://www.youtube.com/watch?v=hRpLiRoMx34)
+    * [Hollow Clock 4](https://www.instructables.com/Hollow-Clock-4/)
+    * [Hollow Clock 4](https://www.thingiverse.com/thing:5636482)
 
 # Grandfather Clock
 * [3D Printed Post Modern Grandfather Clock](https://hackaday.com/2023/04/04/3d-printed-post-modern-grandfather-clock/)
@@ -334,6 +337,7 @@ Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall
 * [Slide Clock](https://www.instructables.com/Slide-Clock/)
 * [Clock-of-Clocks Adds Light-Pipe Hands For Beauty And Function](https://hackaday.com/2021/03/19/clock-of-clocks-adds-light-pipe-hands-for-beauty-and-function/)
 * [Clock Escapement Uses Rolling Balls](https://hackaday.com/2023/07/09/clock-escapement-uses-rolling-balls/)
+* [Digital Crazy Hours and Minutes - WiFi Sync Clock](https://www.youtube.com/watch?v=Csl_7pzzR9I)
 
 
 
