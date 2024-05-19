@@ -335,6 +335,7 @@ Sources:
 
 # Field Monitor: FPV Monitor Shares Flights in Real Time
 * [How to Make a 7" DIY Field Monitor for $40!](https://www.youtube.com/watch?v=xn7F37SM8t)
+* [Raspberry Pi FPV monitor shares drone flights in real time](https://www.msn.com/en-us/news/technology/raspberry-pi-fpv-monitor-shares-drone-flights-in-real-time/ar-BB1lN5CX)
 * [Raspberry Pi FPV monitor shares drone flights in real time](https://www.tomshardware.com/raspberry-pi/raspberry-pi-fpv-monitor-shares-drone-flights-in-real-time)
     * [BUILDING DIGIVIEW FPV Monitor - Apr-8-2024](https://www.youtube.com/watch?v=3cmDLvn4n60)
 
