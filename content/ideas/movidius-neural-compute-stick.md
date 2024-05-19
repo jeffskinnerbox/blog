@@ -154,6 +154,7 @@ and applications written for the Neural Compute Stick to the NCS community.
 ################################################################################
 Guidance on implementation:
 * [MobileNets on Intel® Movidius™ Neural Compute Stick and Raspberry Pi 3](https://software.intel.com/en-us/articles/mobilenets-on-intel-movidius-neural-compute-stick-and-raspberry-pi-3)
+* [Deploying MobileNet on Microcontrollers](https://www.hackster.io/news/deploying-mobilenet-on-microcontrollers-31f2623ab383)
 * [Getting started with the Intel Movidius Neural Compute Stick](https://www.pyimagesearch.com/2018/02/12/getting-started-with-the-intel-movidius-neural-compute-stick/)
 * [Real-time object detection on the Raspberry Pi with the Movidius NCS](https://www.pyimagesearch.com/2018/02/19/real-time-object-detection-on-the-raspberry-pi-with-the-movidius-ncs/)
 * [Movidius™ NC SDK 1.07.07 (with Raspberry Pi support)](https://ncsforum.movidius.com/discussion/118/movidius-nc-sdk-1-07-07-with-raspberry-pi-support)

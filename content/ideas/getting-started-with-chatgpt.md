@@ -31,6 +31,11 @@ Version:      0.0.0
 * [Will A.I. Steal All The Code And Take All The Jobs?](https://hackaday.com/2023/03/08/will-a-i-steal-all-the-code-and-take-all-the-jobs/)
 * [ChatGPT Rules the World… or, at Least, the Home](https://hackaday.com/2023/05/22/chatgpt-rules-the-world-or-at-least-the-home/)
 
+# MobileNet
+* [Deploying MobileNet on Microcontrollers](https://www.hackster.io/news/deploying-mobilenet-on-microcontrollers-31f2623ab383)
+* [MobileNet for Microcontrollers](https://eloquentarduino.com/posts/micro-mobilenet)
+* [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
+
 # LLaVA: Large Language and Vision Assistant
 * [Very small vision language model!!! (MoonDream V1)](https://www.youtube.com/watch?v=1b9erAtYr9A)
 * [00% Local Tiny AI Vision Language Model (1.6B) - Very Impressive!!](https://www.youtube.com/watch?v=oDGQrOlmC1s)

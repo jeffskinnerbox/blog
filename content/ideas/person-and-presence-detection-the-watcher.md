@@ -1,4 +1,4 @@
-<!--
+!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
@@ -55,6 +55,8 @@ This can be done by making use of:
 * [Door Viewer Peephole](https://www.amazon.com/Viewer-Peephole-220-degree-Rotating-Privacy/dp/B07DVT97QW)
 
 * [Robotic AI Bear using ChatGPT](https://learn.adafruit.com/robotic-ai-bear-using-chatgpt)
+
+* [Eloquent Arduino: I help you integrate Machine Learning and Computer Vision into your processes and products.](https://eloquentarduino.com/)
 
 # Thermal Camera
 * [Making a DIY thermal camera based on a Raspberry Pi](https://habr.com/en/post/441050/)
