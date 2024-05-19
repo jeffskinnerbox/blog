@@ -328,6 +328,7 @@ Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall
 * [3D Printed Gear Clock with Geneva Mechanism](https://www.youtube.com/watch?v=XTgeFkigeLo)
 * [POV Digital Clock Is the Literal Sands of Time](https://hackaday.com/2024/05/09/pov-digital-clock-is-the-literal-sands-of-time/)
 * [LEGO Mindstorms Digital Desk Clock (early version)](https://www.youtube.com/watch?v=Ol5JYbCdf2A)
+* [LEGO Ideas: Mechanical Flip Clock](https://www.youtube.com/watch?v=f20X0adLF3o)
 
 * [How Earth Moves](https://www.youtube.com/watch?v=IJhgZBn-LHg&feature=youtu.be)
 * [Time Zone Map](https://www.timeanddate.com/time/map/)
