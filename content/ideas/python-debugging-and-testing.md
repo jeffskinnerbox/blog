@@ -21,7 +21,7 @@ Version:      0.0.0
 
 
 
-# Python Development Environment
+# Python Development Environment / Dev Containerized Environment
 If you have more than one Python project,
 your going to want to setup separate development environments.
 The very act of setting up these environments and maintaining them can be laborious,
@@ -40,6 +40,18 @@ A good remedy for this can be containerization of your Python development enviro
 * [Containerized Python Development – Part 1](https://www.docker.com/blog/containerized-python-development-part-1/)
 * [Containerized Python Development – Part 2](https://www.docker.com/blog/containerized-python-development-part-2/)
 * [Containerized Python Development – Part 3](https://www.docker.com/blog/containerized-python-development-part-3/)
+
+* [Development Containers](https://containers.dev/)
+    * [Dev Containers for shareable dev environments](https://www.youtube.com/watch?v=jTNP0UUMmfs)
+    * [Dev Containers Overview](https://www.youtube.com/playlist?list=PLj6YeMhvp2S7FFvNDj7ks7ndm0u69Ufrs)
+
+Nvim & Dev Contaner
+* [Using Devcontainers to set up your development environment](https://dev.to/caduribeiro/using-devcontainers-to-set-up-your-development-environment-5fbp)
+    * [Running Neovim with Devcontainers](https://dev.to/caduribeiro/running-neovim-with-devcontainers-2imn)
+* [Devcontainer for Software Development (with NeoVim)](https://www.youtube.com/watch?v=FzINeQ92g3w)
+* [Devcontainer support for Neovim](https://www.ensarsarajcic.com/blog/nvim-dev-container-intro/)
+    * [Codeberg: esensar/nvim-dev-container](https://codeberg.org/esensar/nvim-dev-container)
+* [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
 
 
 
