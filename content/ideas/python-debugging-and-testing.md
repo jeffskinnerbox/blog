@@ -161,6 +161,8 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * Unit Testing
     * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
     * [pytest Framework](https://docs.pytest.org/)
+* Infrastructure Testing
+    * [Testinfra](https://testinfra.readthedocs.io/en/latest/)
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
