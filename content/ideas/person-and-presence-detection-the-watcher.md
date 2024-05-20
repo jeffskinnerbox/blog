@@ -75,6 +75,10 @@ This can be done by making use of:
 # CreepDetector
 # * [CreepDetector: Detect Stalkers with Wardriving!](https://github.com/AlexLynd/CreepDetector)
 
+# Describe Images
+* [A New Vision for Voice Assistants](https://www.hackster.io/news/a-new-vision-for-voice-assistants-d4afd776a9fe)
+    * [GitHub: nkasmanoff/pi-card](https://github.com/nkasmanoff/pi-card)
+
 # Streaming Video & Audio - ESP32 TV
 * [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
     * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
