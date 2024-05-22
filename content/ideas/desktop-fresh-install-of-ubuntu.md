@@ -2973,6 +2973,32 @@ and do the following:
 ----
 
 
+# Install Guacamole
+
+```bash
+# check the status of the ufw firewall
+sudo ufw status
+
+# enable the firewall
+sudo ufw enable
+
+# check the status
+$ sudo ufw status verbose
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW IN    Anywhere
+22/tcp (v6)                ALLOW IN    Anywhere (v6)
+```
+
+
+----
+
+
 
 # Development Tools: Install Docker Containers
 
