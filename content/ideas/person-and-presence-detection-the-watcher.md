@@ -485,8 +485,11 @@ The Person Sensor includes a camera and microcontroller in a tiny package, and c
         * [usefulsensors/person_sensor_docs](https://github.com/usefulsensors/person_sensor_docs)
         * [dupontgu/person-sensor-circuitpython](https://github.com/dupontgu/person-sensor-circuitpython)
 
-## Images
+## Create Images
 * [How Image-Generating AI of Stable Diffusion Works](https://hackaday.com/2022/10/24/how-the-art-generating-ai-of-stable-diffusion-works/)
+* [Building the Worlds First Etch-a-Sketch Camera!](https://www.youtube.com/watch?v=iQhhutAanu0)
+    * [Etch-A-Sketch Camera Is Open Source](https://hackaday.com/2024/05/20/etch-a-sketch-camera-is-open-source/)
+    * [Every Flavor Etch-A-Sketch Camera](https://hackaday.io/project/196151-every-flavor-etch-a-sketch-camera)
 
 
 ## Sensing WiFi and BLE Devices
