@@ -162,6 +162,10 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
     * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
     * [pytest Framework](https://docs.pytest.org/)
 * Infrastructure Testing
+    * [Infrastructure testing with Testinfra](https://philpep.org/blog/infrastructure-testing-with-testinfra/)
+    * [Using Testinfra with Ansible to verify server state](https://opensource.com/article/19/5/using-testinfra-ansible-verify-server-state)
+    * [testinfra/pytest delights](https://medium.com/@george.shuklin/testinfra-pytest-delights-3e0a7d5c84d2)
+    * [Choosing between testinfra and Ansible for tests](https://medium.com/opsops/choosing-between-testinfra-and-ansible-for-tests-e52a9329b3ec)
     * [Testinfra](https://testinfra.readthedocs.io/en/latest/)
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
