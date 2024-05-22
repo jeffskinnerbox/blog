@@ -286,6 +286,7 @@ Install `ruff` with `pip install ruff`.
 
 # Python Graphical User Interfaces (GUI)
 * [Python GUI's With TKinter](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV)
+* [Building a Python GUI Application With Tkinter](https://realpython.com/courses/building-gui-application-tkinter/)
 * [My Example](https://github.com/jeffskinnerbox/ll-tracker/blob/master/tkrdecoder.py)
 
 

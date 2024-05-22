@@ -50,6 +50,7 @@ Consider using and reading ...
 
 # User Interface
 * [Create a modern user interface with the Tkinter Python library](https://opensource.com/article/23/2/user-interface-tkinter-python)
+* [Building a Python GUI Application With Tkinter](https://realpython.com/courses/building-gui-application-tkinter/)
 
 # Management of the ESP32 Walkie Talkie
 * [ESP32 Web Updater and SPIFFS File Manager](https://hackaday.com/2023/02/17/esp32-web-updater-allows-file-system-management-and-ota-updates/)
