@@ -13,9 +13,27 @@ Version:      0.0.0
 
 
 
+
+
+
+# Klipper on Creality CR-10S
+* [klipper on my raspberry pi 3 controlling my CR-10](https://www.thingiverse.com/groups/creality-cr-10/forums/general/topic:26335)
+* [Is it worth to install klipper on my creality cr10s pro v2?](https://www.reddit.com/r/klippers/comments/108aocp/is_it_worth_to_install_klipper_on_my_creality/)
+* [Klipper connection to CR10S](https://forum.repetier.com/discussion/6068/klipper-connection-to-cr10s)
+* [How to convert to Klipper firmware: 8 bit CR-10 step by step](https://www.youtube.com/watch?v=3DWqJeXK7yc)
+* [CR-10S 4 Config](https://github.com/Klipper3d/klipper/issues/724)
+
 * [How to Update the Firmware of Your 3D Printer](https://www.makeuseof.com/3d-printer-update-firmware/)
+* [Creality CR-10 Firmware](https://support.th3dstudio.com/helpcenter/creality-cr-10-s4-firmware/)
+* [CREALITY CR-10/CR-10S FIRMWARE – V4.2.7 BOARD](https://support.th3dstudio.com/helpcenter/creality-cr-10-cr-10s-firmware-v4-2-7-board/)
+* [Install Klipper on ANY 3d printer - Part 1 - Intro and the Basics](https://www.youtube.com/watch?v=gfpovViNu0U)
+* [Install Klipper on ANY 3d printer - Part 2 - Create a config from scratch](https://www.youtube.com/watch?v=QYG0PJIvqCI)
+* [config/printer-creality-cr10s-2017.cfg](https://github.com/Klipper3d/klipper/blob/master/config/printer-creality-cr10s-2017.cfg)
 
-
+# Klipper vs Marlin
+* [Klipper vs Marlin which one is right for you](https://www.youtube.com/watch?v=4cxgucVzjQg)
+* [Here's what you need to know, if you have a Klipper printer](https://www.youtube.com/watch?v=2nH6lfZ-WvU)
+* [Fluidd vs Mainsail Comparison 2022 | 3D Printer Klipper Help](https://www.youtube.com/watch?v=BHVVcjtWTyA)
 
 # Klipper 3D
 * [3D Printing: Speed is so Hot Right Now](https://hackaday.com/2024/01/29/3d-printering-speed-is-so-hot-right-now/)
@@ -28,6 +46,12 @@ Version:      0.0.0
 * [Klipper: Macros – Simply Explained](https://all3dp.com/2/klipper-macros-simply-explained/)
 * [Mainsail](https://docs.mainsail.xyz/)
 * [Moonraker](https://moonraker.readthedocs.io/en/latest/)
+* [KlipperScreen](https://klipperscreen.readthedocs.io/en/latest/)
+* [OctoKlipper](https://plugins.octoprint.org/plugins/klipper/)
+
+* [Klipper macros! The basics](https://www.youtube.com/watch?v=sOiIekjXCjs)
+* [Optimizing Cura to work with Klipper](https://www.youtube.com/watch?v=_Xqm1zod1yo)
+* [The 10 Upgrades I Install on EVERY Klipper 3D Printer](https://www.youtube.com/watch?v=h6g8DoTc7ys)
 
 * [AI & 3D Printing: The Latest Experiments](https://all3dp.com/2/ai-3d-printing-3d-printer/)
 
@@ -49,6 +73,8 @@ Creality Sonic Pad **does not** seem to support their Creality CR-10S printer (m
 and those who trid to integrate them had probems (my sources:
 [here](https://www.reddit.com/r/CR10/comments/116i9i6/need_help_with_cr10_to_sonic_pad_connection/)).
 
+## KUSBA: Klipper USB Accelerometer
+* [KUSBA: Klipper USB Accelerometer](https://www.amazon.com/Isiks-Tech-KUSBA-Klipper-Accelerometer/dp/B0C734JL4Z)
 
 
 # Shop Here
