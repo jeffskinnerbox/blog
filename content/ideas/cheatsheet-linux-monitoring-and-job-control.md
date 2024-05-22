@@ -148,6 +148,7 @@ According to the [sudo website][12]:
 the ability to run some commands as root or another user while providing an
 audit trail of the commands and their arguments."
 
+* [Linux Fu: The Root Cause](https://hackaday.com/2024/05/21/linux-fu-the-root-cause/)
 * [Linux su vs sudo: what's the difference?](https://opensource.com/article/22/6/linux-su-vs-sudo-sysadmin)
 * [5 reasons to use sudo on Linux](https://opensource.com/article/22/5/use-sudo-linux)
 * [What you probably didn’t know about sudo](https://opensource.com/article/19/10/know-about-sudo)
