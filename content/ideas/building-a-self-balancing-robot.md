@@ -71,6 +71,16 @@ perform regression testing, and train AI system using realistic scenarios.
 
 * [SunFounder PiCar-X 2.0 review – A Raspberry Pi 4 AI robot car programmable with Blockly or Python](https://www.cnx-software.com/2024/01/11/sunfounder-picar-x-2-0-review-raspberry-pi-4-ai-robot-car-blockly-python/)
 
+# Dimebots
+Dimebots are a collection of autonomous and self-contained micro-robots
+that are as small as a dime and weigh less than a nickel,
+making Dimebots some of the smallest robots in the world.
+
+* [Meet the Dimebots: Self-Contained Micro-bots the Size of a Dime](https://www.hackster.io/news/meet-the-dimebots-self-contained-micro-bots-the-size-of-a-dime-4eafb608c0f9)
+    * [DimeBots](https://dimebots.pages.dev/)
+    * [GitHub: dimebots/dimebots](https://github.com/dimebots/dimebots)
+
+
 # Walking Robot
 * [Tiny ESP32 Strider Walks The Walk](https://hackaday.com/2021/09/06/tiny-esp32-strider-walks-the-walk/)
 * [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
