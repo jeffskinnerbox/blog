@@ -63,6 +63,10 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [Robot Car Follows Wherever You Go](http://hackaday.com/2017/07/20/robot-car-follows-wherever-you-go/)
 
 #### Distance Sensor
+* [Make A Super Cute LiDAR Measurement Module](https://hackaday.com/2024/06/02/make-a-super-cute-lidar-measurement-module/)
+    * [Ultra Compact LiDAR Distance Meter/Range Finder](https://www.instructables.com/Tiny-LiDAR-Laser-Range-Finder/)
+    * [Inside a VL53L0X](https://hackaday.io/project/25571-mappydot/log/63298-inside-a-vl53l0x)
+
 * [An Explainer on the Different Types of LiDAR Devices](https://www.crowdsupply.com/onion/tau-lidar-camera/updates/an-explainer-on-the-different-types-of-lidar-devices)
 * [best distance sensor for robots](http://www.teraranger.com/products/teraranger-one/)
 * [Linear Array Solid LiDAR (25-300mm)](https://www.dfrobot.com/product-2645.html)
