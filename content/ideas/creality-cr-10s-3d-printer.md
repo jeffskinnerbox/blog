@@ -28,7 +28,9 @@ Version:      0.0.0
 * [CREALITY CR-10/CR-10S FIRMWARE – V4.2.7 BOARD](https://support.th3dstudio.com/helpcenter/creality-cr-10-cr-10s-firmware-v4-2-7-board/)
 * [Install Klipper on ANY 3d printer - Part 1 - Intro and the Basics](https://www.youtube.com/watch?v=gfpovViNu0U)
 * [Install Klipper on ANY 3d printer - Part 2 - Create a config from scratch](https://www.youtube.com/watch?v=QYG0PJIvqCI)
+* [Install Klipper on ANY 3d printer - Part 3 - Adding New Features](https://www.youtube.com/watch?v=X-NUu-7HrO4)
 * [config/printer-creality-cr10s-2017.cfg](https://github.com/Klipper3d/klipper/blob/master/config/printer-creality-cr10s-2017.cfg)
+* [Never adjust your 3D Printer Z Offset again with Klipper and a plugin](https://www.youtube.com/watch?v=oQYHFecsTto)
 
 # Klipper vs Marlin
 * [Klipper vs Marlin which one is right for you](https://www.youtube.com/watch?v=4cxgucVzjQg)
@@ -185,6 +187,7 @@ And [this article][69] state "The process of biodegradation and its duration is 
 PLA biodegrades because its origins are natural and microorganisms can feed on it to turn it into compost ...
 In ordinary room-conditions, PLA will endure for hundreds of years."
 
+* [3D Prints - 7 Years Outside](https://www.youtube.com/watch?v=XLtxo6naLfY)
 * [How to make food-grade 3D printed models](https://blog.prusaprinters.org/how-to-make-food-grade-3d-printed-models_40666/)
 
 With any filament there's some settings you will have to tweak to get the best performance out of it.
@@ -446,6 +449,9 @@ sudo ppa-purge ppa:thopiekar/cura
 
 ### Surface Finish: Fuzzy Skin and Ironing
 * [Cura Fuzzy Skin and Ironing on 3D Prints](https://www.youtube.com/watch?v=gh5wC4Ti95s)
+
+### Surface Finish: Mirrored Surface
+* [How does a "first surface" mirror work? (2^15 sub special!)](https://www.youtube.com/watch?v=SCuUQOTehqw)
 
 ## Calibration Cube
 Calibration cubes are simple geometric shapes (usually cubes, hence the name)
@@ -1022,6 +1028,10 @@ built on top of an underlying framework called [AliceVision][40].
 * [Scan 3D Objects with this Raspberry Pi Photogrammetry Project](https://www.tomshardware.com/news/scan-3d-objects-with-this-raspberry-pi-photogrammetry-project)
 * [Design A Custom Enclosure Using Modelling Clay And Photogrammetry](https://hackaday.com/2021/07/14/design-a-custom-enclosure-using-modelling-clay-and-photogrammetry/)
 * [3D scanning and modeling apparatus from 1861](https://hackaday.com/2022/10/02/in-a-way-3d-scanning-is-over-a-century-old/)
+
+# 3D Printed Inlay Lettering
+* [Simple and quick method of adding white lettering to your 3D printed parts](https://www.youtube.com/watch?v=-p1HtEEaOKY)
+* [3D Print Inlay Lettering](https://www.youtube.com/watch?v=W2f5lI1R6dg)
 
 # Photo Rendering of 3D Models
 You may want a realistic photo renderings of your 3D CAD models.

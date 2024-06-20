@@ -195,7 +195,11 @@ rm -rf ~/.miniconda3/miniconda.sh
 #~/.miniconda3/bin/conda init bash
 
 # verify the installation by listing the contents of the install
-conda list
+$ conda env list
+# conda environments:
+#
+base                  *  /home/jeff/.miniconda3
+circuitpython            /home/jeff/.miniconda3/envs/circuitpython
 
 # list the envirnments established (should only be 'base')
 conda env list
@@ -207,7 +211,9 @@ To uninstall Miniconda, you follow these steps:
 
 ```bash
 # backup any important data and python environments
-conda env export > environment.yml
+conda env list
+conda env export --name base > environment_base.yml
+conda env export --name circuitpython > environment_circuitpython.yml
 
 # locate miniconda directory and delete it
 ls -a ~ | grep miniconda

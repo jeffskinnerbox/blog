@@ -20,7 +20,9 @@ This program just listen for those "probe requests" and prints to serial port th
 
 * [The Eyes Have It: Stare Down Your Lighting](https://hackaday.com/2023/03/06/the-eyes-have-it-stare-down-your-lighting/)
 
-
+* [Make a homemade AI home assistant](https://www.raspberrypi.com/news/make-a-homemade-ai-home-assistant/)
+    * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
+    * [GPT Home](https://github.com/judahpaul16/gpt-home)
 
 
 
@@ -55,8 +57,10 @@ This can be done by making use of:
 * [Door Viewer Peephole](https://www.amazon.com/Viewer-Peephole-220-degree-Rotating-Privacy/dp/B07DVT97QW)
 
 * [Robotic AI Bear using ChatGPT](https://learn.adafruit.com/robotic-ai-bear-using-chatgpt)
+* [This ChatGPT-powered robot koala bear is giving me serious Five Nights at Freddy's vibes](https://www.pcgamer.com/hardware/this-chatgpt-powered-robot-koala-bear-is-giving-me-serious-five-nights-at-freddys-vibes/)
 
 * [Eloquent Arduino: I help you integrate Machine Learning and Computer Vision into your processes and products.](https://eloquentarduino.com/)
+
 
 # Thermal Camera
 * [Making a DIY thermal camera based on a Raspberry Pi](https://habr.com/en/post/441050/)
@@ -150,6 +154,10 @@ a touch screen display, and ChatGPT.
 * M5Stack’s M5Dial – [An ESP32-S3 smart rotary knob with a touchscreen display](https://www.cnx-software.com/2023/10/08/m5dial-an-esp32-s3-smart-rotary-knob-with-a-touchscreen-display/)
 
 # AI Generated Text to Speech
+* [Coqui TTS](https://github.com/coqui-ai/TTS)
+* [Single Word Speech Recognition with CircuitPython and TinyML](https://ashishware.com/2024/05/20/pipicospeech/)
+* [Speech Recognition Using CircuitPython](https://github.com/code2k13/pipico_speech_recognition)
+* [Leveraging GPT-4o and NVIDIA TAO to train TinyML models for microcontrollers using Edge Impulse](https://www.cnx-software.com/2024/05/30/leveraging-gpt-4o-and-nvidia-tao-to-train-tinyml-models-for-microcontrollers-using-edge-impulse/)
 
 # AI Generated Text to Voice
 * [Voice Cloning](/home/jeff/blogging/content/ideas/voice-cloning.md)

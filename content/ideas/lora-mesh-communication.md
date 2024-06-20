@@ -14,6 +14,9 @@ Version:      0.0.0
 
 
 
+* [WisBlock Meshtastic Starter Kit](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit?variant=43683420438726)
+
+
 * [Meshtastic Native on the Raspberry Pi](https://www.youtube.com/watch?v=6UwWQSTCr_I)
     * [SX1262 LoRaWAN Node Module Expansion Board for Raspberry Pi](https://www.waveshare.com/sx1262-lorawan-hat.htm)
 * [MESHTASTIC JUST KEEPS BLOWING MY MIND!!!](https://www.youtube.com/watch?v=-9PXRBBqfxU)
@@ -54,6 +57,7 @@ Reticulum is the cryptography-based networking stack for building local and wide
 * [Garden Light Turned Mesh Network Node](https://hackaday.com/2024/01/21/garden-light-turned-mesh-network-node/)
 
 # Meshtastic Relay
+* [Build Long-Range IoT Applications Fast With Meshtastic](https://spectrum.ieee.org/build-iot-apps-with-meshtastic)
 * [A Long-Range Meshtastic Relay](https://hackaday.com/2024/04/03/long-range-meshtastic-relay/)
 
 # Meshtastic Tracking

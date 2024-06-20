@@ -55,6 +55,16 @@ sudo apt install fzf
 
 # interactive execution of fzf
 fzf
+
+# you could use fzf to obtain the file name and pass it to vim
+vim $(fzf)
+
+# you could use it to copy the file to a different location
+cp $(fzf) ~/.config/pipewire
+
+# use `bat` to preview files, call `fzf` using the `--preview` command line flag
+sudo apt install bacula-console-qt
+fzf --preview 'bat --color=always {}'
 ```
 
 # Change Owner or Group

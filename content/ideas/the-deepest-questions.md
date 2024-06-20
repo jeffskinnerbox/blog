@@ -121,6 +121,11 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
     * [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
 
+# Epistemology
+Epistemology is the philosophical study of the nature, origin, and limits of human knowledge.
+
+* [Sunday Discussion, Part 1: Epistemology Camp 2024](https://www.youtube.com/watch?v=hrq21kiDlGE&t=11s)
+
 # Interpretation of Quantum Mechanics
 [Quantum interpretations](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics)
 generally fall into two categories: psi-ontological and psi-epistemic.
@@ -188,6 +193,7 @@ Also see some [quotes from John von Neumann][08] and [Paul Dirac's lecture on ma
 * [How math and science move in opposite directions](https://medium.com/@jblake17/how-math-and-science-move-in-opposite-directions-53820a836c4c)
 * [Is Mathematics Invented or Discovered? | Episode 409 | Closer To Truth](https://www.youtube.com/watch?v=6CVjoOtA5eg)
 * [George Lakoff - Is Mathematics Invented or Discovered?](https://www.youtube.com/watch?v=G_LDN1SefH8)
+* [The Greatest Mystery Of Math: Invented or Discovered?](https://www.youtube.com/watch?v=74nJ7fRM924)
 * [George Lakoff The Brains Mathematics The Cognitive and Neural Foundations of Mathematics](https://www.youtube.com/watch?v=W6SkN-97XA0)
 * [The Neuroscience of Language and Thought, Dr. George Lakoff Professor of Linguistics](https://www.youtube.com/watch?v=JJP-rkilz40)
 * [3 Discoveries in Mathematics That Will Change How You See The World](https://www.youtube.com/watch?v=9UBMEww7XLU)
@@ -538,6 +544,7 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 * [The Intuition behind the Laplace Transform](https://medium.com/the-breakthrough/the-intuition-behind-the-laplace-transform-8432c3bceb37)
 * [The Laplace Transform: A Generalized Fourier Transform](https://www.youtube.com/watch?v=7UvtU75NXTg)
 * [Demystifying the Fourier Transform](https://www.youtube.com/playlist?list=PLWMUMyAolbNvV1JbXNqeuwP4DYKMiK1Qh)
+* [From the Circle to Epicycles (Part 1) - An animated introduction to Fourier Series](https://www.andreinc.net/2024/04/24/from-the-circle-to-epicycles)
 * [The Music of Mathematics: A friendly introduction to Fourier series](https://www.cantorsparadise.com/the-music-of-mathematics-bccab42fdaec)
 * [How Heisenberg’s Uncertainty Principle Emerges From the Fourier Transform](https://www.cantorsparadise.com/wave-packets-and-how-heisenbergs-quantum-uncertainty-principle-emerges-from-the-fourier-transform-47c3e47f573b)
 * [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4)
@@ -670,6 +677,7 @@ A function is a relation that uniquely associates members of one set with member
     * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
 * [Random Sequences: Human vs Coin](https://www.youtube.com/watch?v=H2lJLXS3AYM)
 * [Random Means "Unknown Cause"](https://www.wmbriggs.com/wp-content/uploads/2023/01/What-Are-All-The-Uses-For-So-Called-Random-Numbers_.mp3)
+* [Deconstructing Randomness as Chaos and Entanglement in Disguise](https://medium.com/intuitionmachine/there-is-no-randomness-only-chaos-and-complexity-c92f6dccd7ab)
 
 # Quantum Randomness
 * [The Hunt for Real Randomness - Scott Aaronson Interview on The Filter with Matt Asher Episode #22](https://www.youtube.com/watch?v=hqrQ6D6SkAA)
@@ -684,6 +692,8 @@ A function is a relation that uniquely associates members of one set with member
     * [Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software](https://arxiv.org/abs/2302.11474)
     * [Randomized Numerical Linear Algebra](https://truetheta.io/concepts/linear-algebra/randomized-numerical-linear-algebra/)
 * [Computer Scientists Invent an Efficient New Way to Count](https://www.quantamagazine.org/computer-scientists-invent-an-efficient-new-way-to-count-20240516/?mc_cid=eaa82367f0&mc_eid=a88c5dceda)
+
+* [The Strategic Benefits of Randomized Decision-Making](https://hbr.org/2023/09/the-strategic-benefits-of-randomized-decision-making)
 
 # Emergence
 * [What's Strong Emergence?](https://www.youtube.com/watch?v=cgiPQrei4Xc)

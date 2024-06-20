@@ -56,6 +56,9 @@ Version:      0.0.0
 
 
 
+# "Toy" SDR for Learning
+* [Pico SDR](https://blog.porucha.net/2024/pico-sdr/) - Building a software-defined radio with just a Raspberry Pi Pico, two passive components and an antenna.
+* [Jan Dvořák's Software-Defined Radio Is Built From a Raspberry Pi Pico — And Very Little Else](https://www.hackster.io/news/jan-dvorak-s-software-defined-radio-is-built-from-a-raspberry-pi-pico-and-very-little-else-332a12e6f216)
 
 # SDR Console
 * [SDR Console](https://www.sdr-radio.com/console)

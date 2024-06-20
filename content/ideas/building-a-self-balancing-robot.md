@@ -263,6 +263,7 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 * [Ping Pong Robot](https://www.youtube.com/watch?v=W9WpuameZ0Q&t=49s)
 
 ## Ball Balancing
+* [I built a Ball Balancing Robot](https://www.youtube.com/watch?v=KnYSuQEBGHc)
 * [High-Style Ball Balancing Platform](https://hackaday.com/2019/02/02/high-style-ball-balancing-platform/)
 * [Ball Balancing PID System: 6 Steps (with Pictures)](https://www.instructables.com/id/Ball-Balancing-PID-System/)
 * [Ping-Pong Ball Makes Great PID Example](https://hackaday.com/2019/07/31/ping-pong-ball-makes-great-pid-example/)

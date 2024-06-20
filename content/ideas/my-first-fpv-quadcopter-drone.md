@@ -894,6 +894,7 @@ what topic / skills do you need to master before or during the build?
 * [A Drone for the Rest of Us](https://hackaday.com/2022/09/29/a-drone-for-the-rest-of-us/)
 
 * [Raspberry PI Pico W Copter is Ready for Take Off](https://www.tomshardware.com/news/raspberry-pi-pico-w-copter)
+* [PiWings 2.0 is a tiny drone based on Raspberry Pi Pico and ESP8266 WiFi module (Crowdfunding)](https://www.cnx-software.com/2024/06/07/piwings-2-0-tiny-drone-based-on-raspberry-pi-pico-and-esp8266-wifi-module/)
 
 * [Micro Coreless Quadcopter](https://rbklabs.in/micro-coreless-quadcopter/)
     * [Frame - QX95](https://www.amazon.com/QX95-Brushed-Racing-Quadcopter-Frame/dp/B08LTNT16B)
@@ -1138,6 +1139,10 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 
 ### F-22 Raptor
 * [Making a RC Airplane using Cardboard | Homemade F-22 Raptor](https://www.youtube.com/watch?v=iQsswBpzjpo)
+* [BATJET 50MM EDF!](https://cults3d.com/en/3d-model/gadget/batjet-50mm-edf)
+
+### Batwing
+* [Keep the skies over your backyard safe with this cool DIY Batwing RC plane](https://www.xda-developers.com/diy-batwing-rc-plane/)
 
 ## VTOL Airplanes
 

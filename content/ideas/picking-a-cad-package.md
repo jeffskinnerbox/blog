@@ -494,6 +494,7 @@ wget https://www.thingiverse.com/download:1545313 -O nuts_and_bolts_v1.95.scad
 
 # Gears and Threads in OpenSCAD
 * [Generating Nice Threads In OpenSCAD](https://hackaday.io/page/5252-generating-nice-threads-in-openscad)
+* [Studying The Finer Points Of 3D Printed Gears](https://hackaday.com/2024/06/12/studying-the-finer-points-of-3d-printed-gears/)
 
 ------
 

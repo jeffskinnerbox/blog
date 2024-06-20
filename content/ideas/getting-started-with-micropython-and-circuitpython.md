@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 * [The Past, Present, and Future of CircuitPython](https://hackaday.com/2023/08/01/the-past-present-and-future-of-circuitpython/)
+* [Getting Started with CircuitPython on XIAO RP2040](https://www.youtube.com/watch?v=KDb5SQzsGb0)
 
 
 
@@ -33,6 +34,19 @@ Version:      0.0.0
 * [CircuitPython Essentials](https://learn.adafruit.com/circuitpython-essentials)
 * [Module Support Matrix - Which Modules Are Available on Which Boards](https://docs.circuitpython.org/en/latest/shared-bindings/support_matrix.html)
 * [Circuit Python Tutorials](https://www.youtube.com/watch?v=eU1e6xPvZEU&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&index=1)
+
+
+# You Can Integrate with C
+* [MicroPython and C Play Together Better](https://hackaday.com/2019/08/31/micropython-and-c-play-together-better/)
+* [Micropython API to *any* C library!](https://blog.lvgl.io/2019-08-05/micropython-pure-display-driver#micropython-api-to-any-c-library)
+
+#  Asymmetric Multiprocessing (AMP) / OpenAMP
+With MicroPython v1.23, there is now support for Asymmetric Multiprocessing (AMP) on multi-core microcontrollers, based on the industry standard OpenAMP framework.
+This enables Arduino users to run both an Arduino sketch and a MicroPython program simultaneously on multi-core modules and to communicate between the two
+
+* [OpenAMP Runs MicroPython and Arduino Code on Same Dual-Core Microcontroller](https://www.hackster.io/news/openamp-runs-micropython-and-arduino-code-on-same-dual-core-microcontroller-f7a1806dec79)
+
+
 
 
 

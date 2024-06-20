@@ -11,6 +11,16 @@ Version:      0.0.0
 -----
 
 
+
+* [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5](https://www.hackster.io/news/benchmarking-tensorflow-and-tensorflow-lite-on-raspberry-pi-5-b9156d58a6a2)
+
+
+
+* [Google Just Turned the RPi into a Supercomputer...](https://www.youtube.com/watch?v=mOY_Dbyq6OY)
+* [Using Ollama to Run Local LLMs on the Raspberry Pi 5](https://www.youtube.com/watch?v=ewXANEIC8pY)
+
+
+
 * [I Ran Advanced LLMs on the Raspberry Pi 5!](https://www.youtube.com/watch?v=Y2ldwg8xsgE)
 * [Raspberry Pi 5 on Steroids: The NVMe Upgrade](https://www.youtube.com/watch?v=SQnRCWfvQ2Y)
 
@@ -43,8 +53,16 @@ Version:      0.0.0
 |                                                |                    |        |
 |                                                |                    |        |
 
+# How to Boot From USB
+* [How To Boot A Raspberry Pi From A USB Drive](https://www.slashgear.com/1588415/how-to-boot-raspberry-pi-from-usb-drive/)
+
 # How to Boot From SSD
 * [Testing Cytron MAKERDISK M.2 NVMe SSDs on Raspberry Pi 5 with GEEKWORM X1001 and Waveshare M.2 PCIe HAT+](https://www.cnx-software.com/2024/04/07/review-cytron-makerdisk-nvme-ssd-raspberry-pi-5-geekworm-x1001-waveshare-m2-pcie-hat/)
+
+# Coral Alternatives
+* [I Built a CoPilot+ AI PC (without Windows)](https://www.youtube.com/watch?v=HgIMJbN0DS0)
+* [Raspberry Pi AI Kit Brings AI Inferencing to Single Board Computers](https://www.coolthings.com/raspberry-pi-ai-kit-machine-learning-add-on-vision-based-ai/)
+* [Raspberry Pi Embraces AI With Hailo Collaboration](https://www.techrepublic.com/article/raspberry-pi-ipo-hailo-ai/)
 
 
 

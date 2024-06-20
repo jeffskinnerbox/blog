@@ -173,6 +173,12 @@ Guidance on implementation:
 * [FOMO is a TinyML neural network for real-time object detection](https://bdtechtalks.com/2022/04/18/fomo-tinyml-object-detection/)
 
 # You Only Look Once (YOLO)
+* [A Comprehensive and Detailed Introduction to YOLOv8](https://www.dfrobot.com/blog-13844.html?tracking=666ab8940c8ae)
+* [Object Tracking with YOLOv8 and Python](https://pyimagesearch.com/2024/06/17/object-tracking-with-yolov8-and-python/)
+* [Training the YOLOv8 Object Detector for OAK-D](https://pyimagesearch.com/2023/05/01/training-the-yolov8-object-detector-for-oak-d/)
+* [Deploying YOLOv8 on Raspberry Pi Zero 2W for Real-Time Bee Counting at the Hive Entrance](https://www.hackster.io/518000/buzztech-machine-learning-at-the-edge-07c951)
+* [Run YOLOv8 on LattePanda Mu (Intel N100 Processor) with OpenVINO](https://www.lattepanda.com/blog-323173.html)
+
 * [Introduction to the YOLO Family](https://pyimagesearch.com/2022/04/04/introduction-to-the-yolo-family/)
 * [YOLOv5 Controversy — Is YOLOv5 Real?](https://medium.com/@riteshkanjee/yolov5-controversy-is-yolov5-real-20e048bebb08)
 
@@ -194,7 +200,7 @@ Guidance on implementation:
 [Part 5](https://blog.paperspace.com/how-to-implement-a-yolo-v3-object-detector-from-scratch-in-pytorch-part-5/)
 
 * [Training the YOLOv5 Object Detector on a Custom Dataset](https://pyimagesearch.com/2022/06/20/training-the-yolov5-object-detector-on-a-custom-dataset/)
-* [Training the YOLOv8 Object Detector for OAK-D](https://pyimagesearch.com/2023/05/01/training-the-yolov8-object-detector-for-oak-d/)
+
 
 # Intel OpenVINO
 Intel has acquired four companies to go after the AI market:

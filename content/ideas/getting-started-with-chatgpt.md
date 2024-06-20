@@ -38,7 +38,7 @@ Version:      0.0.0
 
 # LLaVA: Large Language and Vision Assistant
 * [Very small vision language model!!! (MoonDream V1)](https://www.youtube.com/watch?v=1b9erAtYr9A)
-* [00% Local Tiny AI Vision Language Model (1.6B) - Very Impressive!!](https://www.youtube.com/watch?v=oDGQrOlmC1s)
+* [100% Local Tiny AI Vision Language Model (1.6B) - Very Impressive!!](https://www.youtube.com/watch?v=oDGQrOlmC1s)
 
 # Local Low Latency Speech to Speech
 * [Local Low Latency Speech to Speech - Mistral 7B + OpenVoice / Whisper | Open Source AI](https://www.youtube.com/watch?v=0k8wUfU7n4Q)
@@ -53,12 +53,27 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 
 # Speech Recognition, LLM, and Text-to-Speech
 * [Interactive Animatronic GLaDOS](https://www.hackster.io/davesarmoury/interactive-animatronic-glados-8b4238)
+* [How to install the best open source TTS (text to speech model) -- ChatTTS and fix tone solution](https://www.lattepanda.com/blog-323172.html?tracking=66614bd3d49b5)
+
+# Edge Impulse LLM / Low Latency & Low Cost
+* [Bringing Large Language Models to the Edge with GPT-4o and NVIDIA TAO](https://www.edgeimpulse.com/blog/llm-knowledge-distillation-gpt-4o/)
+    * [Using GPT-4o to train a 2,000,000x smaller model (that runs directly on device)](https://www.youtube.com/watch?v=Jou0aRgGiis&t=4s)
 
 
 # ChatGPT on the Command-Line
 * [ChatGPT CLI: Transform Your Command-Line Interface Into ChatGPT](https://www.kdnuggets.com/2023/07/chatgpt-cli-transform-commandline-interface-chatgpt.html)
 * Simple yet effective command line client for chatting with ChatGPT using the official API - [GitHub: marcolardera/chatgpt-cli](https://github.com/marcolardera/chatgpt-cli)
 * A command line tool for interacting with DALL-E models - [GitHub: marcolardera/dall-e-cli](https://github.com/marcolardera/dall-e-cli)
+
+
+
+--------
+
+
+
+# Making Movies
+* [What If The Matrix was Made in the 1950s?](https://hackaday.com/2024/06/09/what-if/)
+    * [How AI Makes New Movies That Look Old - 1950's Super Panavision 70 Tutorial](https://www.youtube.com/watch?v=VIBwC2rB3nA)
 
 
 
@@ -76,6 +91,7 @@ Tutorial
 * [Harnessing Power at the Edge: An Introduction to Local Large Language Models](https://pyimagesearch.com/2024/05/13/harnessing-power-at-the-edge-an-introduction-to-local-large-language-models/)
 * [Inside Look: Exploring Ollama for On-Device AI](https://pyimagesearch.com/2024/05/20/inside-look-exploring-ollama-for-on-device-ai/)
 
+* [Beginner’s Guide to Building LLM Apps with Python](https://www.kdnuggets.com/beginners-guide-to-building-llm-apps-with-python)
 * [LangChain](https://python.langchain.com/docs/get_started/introduction)
 * [Olama: The Future of Open Source Projects](https://eightify.app/summary/computer-science-and-technology/olama-the-future-of-open-source-projects)
 * [Private AI Revolution: Setting Up Ollama with WebUI on Raspberry Pi 5!](https://www.youtube.com/watch?v=jJKbYj8mIy8&t=53s)
@@ -84,6 +100,12 @@ Tutorial
 * [OLLAMA - LOCAL CHATGPT ON PI 5](https://www.kevsrobots.com/blog/ollama)
 * [Ollama - Self-Hosted AI Chat with Llama 2, Code Llama and More in Docker](https://noted.lol/ollama/)
 * [You can run LLMs locally on your Raspberry Pi using Ollama - here's how to do it](https://www.xda-developers.com/run-llms-on-raspberry-pi/)
+
+# Llamafile
+llamafile lets you distribute and run LLMs with a single file.
+Our goal is to make open LLMs much more accessible to both developers and end users.
+
+* [Llamafile, the easiest way of running a multimodal LLM locally on your PC](https://ashishware.com/2024/01/05/Llamafile/)
 
 
 
@@ -126,9 +148,6 @@ well—to give it what we might think of as “computational superpowers”.
 # Private ChatGPT
 * [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
 
-# Shell-AI: Your Intelligent Command-Line Companion
-* [AI Assistant Translates Your Every Request For The Command Line](https://hackaday.com/2023/08/30/ai-assistant-translates-your-every-request-for-the-command-line/)
-
 # simpleaichat
 Python package for easily interfacing with chat apps like ChatGPT and GPT-4 with robust features and minimal code complexity.
 
@@ -165,6 +184,11 @@ making it easy to seamlessly and scalably launch ML compute directly from the Hu
 * [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
 * [Miniature ChatGPT Voice Assistant based on XIAO ESP32S3](https://wiki.seeedstudio.com/xiao_esp32s3_speech2chatgpt/)
 * [ESP32 Voice Assistant with ChatGPT: Your Personal AI Companion](https://www.youtube.com/watch?v=IvAAw93e-9E)
+* [AI Assistant Translates Your Every Request For The Command Line](https://hackaday.com/2023/08/30/ai-assistant-translates-your-every-request-for-the-command-line/)
+* [Make a homemade AI home assistant](https://www.raspberrypi.com/news/make-a-homemade-ai-home-assistant/)
+    * [AI Everywhere. Recent experiments with Generative AI at Home & Work](https://www.theshepreport.com/p/ai-everywhere-recent-experiments)
+    * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
+    * [GPT Home](https://github.com/judahpaul16/gpt-home)
 
 # LLaMA
 [LLaMA (Large Language Model Meta AI)](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/)
@@ -241,6 +265,8 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [What an Endless Conversation with Werner Herzog Can Teach Us about AI](https://www.scientificamerican.com/article/what-an-endless-conversation-with-werner-herzog-can-teach-us-about-ai/)
 * [AI-Generated Philosophy Is Weirdly Profound](https://www.youtube.com/watch?v=wves5FsVUXA)
 * [The Infinite Conversation](https://infiniteconversation.com/)
+
+* [Little Shop of Conversations: Talk to anything using AI](https://www.redpepper.land/blog/little-shop-of-conversations-talk-to-plants-using-ai)
 
 
 

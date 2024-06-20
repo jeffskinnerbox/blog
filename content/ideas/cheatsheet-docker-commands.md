@@ -14,6 +14,8 @@ Version:      0.0.0
 
 
 * [Docker Series](https://earthly.dev/blog/series/docker/)
+* [Docker 101](https://nerdyarticles.com/docker-101/)
+* [Intro to Docker](https://hackaday.com/2018/09/05/intro-to-docker-why-and-how-to-use-containers-on-any-system/)
 
 
 

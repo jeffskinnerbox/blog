@@ -408,6 +408,9 @@ LXI, or LAN eXtensions for Instrumentation is a modern control standard for conn
 * [GlScopeClient: A Permissively-Licensed Remote Oscilloscope Utility](https://hackaday.com/2019/05/30/glscopeclient-a-permissively-licensed-remote-oscilloscope-utility/)
 * [alk to your scope, and it obey](https://hackaday.com/2019/03/03/talk-to-your-scope-and-it-will-obey/)
 
+# Scope Test Board
+* [A Scope Test Tool You Can Build With Just a Pico](https://hackaday.com/2024/05/31/a-scope-test-tool-you-can-build-with-just-a-pico/)
+
 
 
 [01]:https://hackaday.com/2018/09/11/the-pre-crt-oscilloscope/

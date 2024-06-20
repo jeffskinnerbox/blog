@@ -46,6 +46,7 @@ Version:      0.0.0
 
 This guy appears to have used Tarmo as a base and improved it
 * [How To 3D Print Gears Like a Boss](https://www.youtube.com/watch?v=JMgXu1rFDJ0)
+* [Studying The Finer Points Of 3D Printed Gears](https://hackaday.com/2024/06/12/studying-the-finer-points-of-3d-printed-gears/)
 
 * [High-Speed RC Car Needs A Flight Controller](https://hackaday.com/2022/08/23/high-speed-rc-car-needs-a-flight-controller/)
 

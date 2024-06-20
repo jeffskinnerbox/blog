@@ -48,6 +48,7 @@ Version:      0.0.0
 * [DIY Dashcam: Build a Car Security Camera](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/)
 
 # ESP32-CAM or ESP32-EYE 0r esp32-eye + Omnivision camera or T-Camera ESP-S3
+* [ESPCAM- XIAO Powered DIY Camera](https://www.hackster.io/Arnov_Sharma_makes/espcam-xiao-powered-diy-camera-1e93d1)
 * [OpenCV Running on a Tiny Microcontroller](https://hackaday.com/2022/05/19/opencv-running-on-tiny-microcontroller/)
 * [How to make a small, low-cost, remote accessible security camera with an ESP32](https://www.nabto.com/esp32/)
 * [Matchbox-Sized P2P Remote Accessible Camera with ESP32](https://www.hackster.io/crgregersen/matchbox-sized-p2p-remote-accessible-camera-with-esp32-a41126)

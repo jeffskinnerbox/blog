@@ -444,6 +444,11 @@ that can send notifications within minutes of an earthquake.
 * [Spectrometer Detects Chemicals By Zapping Samples With A Laser Beam](https://hackaday.com/2022/02/19/spectrometer-detects-chemicals-by-zapping-samples-with-a-laser-beam/)
 * [Pi-based Spectrometer Gets An Upgrade](https://hackaday.com/2022/10/29/pi-based-spectrometer-gets-an-upgrade/)
 * [Guillermo Perez Guillen's Raspberry Pi Spectrometer Puts the Power of Light at Your Fingertips](https://www.hackster.io/news/guillermo-perez-guillen-s-raspberry-pi-spectrometer-puts-the-power-of-light-at-your-fingertips-33cbbfd35373)
+* [Gamma Ray Spectroscopy the Pomelo Way](https://hackaday.com/2024/06/05/gamma-ray-spectroscopy-the-pomelo-way/)
+
+# Cosmic Ray Detector
+* [Cosmic Pi - a low cost distributed cosmic ray detector, based on Raspberry Pi](https://ohwr.org/project/cosmic-pi/-/wikis/home)
+    * [Cosmic Pi low cost cosmic ray detector project](https://github.com/CosmicPi)
 
 # NOAA Weather Satellite Data
 * [Raspberry Pi NOAA Satellite Receiver: A Comprehensive Guide](https://nnn.ng/faq/34215/)

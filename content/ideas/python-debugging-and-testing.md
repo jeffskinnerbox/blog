@@ -17,6 +17,7 @@ Version:      0.0.0
 * [Real Python Learning Paths](https://realpython.com/learning-paths/)
 * [Python Engineer](https://www.python-engineer.com/posts/)
 * [mCoding](https://www.youtube.com/@mCoding)
+* [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
 
 
 
@@ -61,11 +62,23 @@ Nvim & Dev Contaner
 
 # Learning Python
 * [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
+* [Python Morsels](https://www.pythonmorsels.com/)
+
+# Sometimes the Problem is Your Environment
+* [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
 
 # Debugging Tools & Techniques
 * [Syntax Error #11: Debugging Python](https://www.syntaxerror.tech/syntax-error-11-debugging-python/)
 * [Debugging 101: Replace print() with icecream ic()](https://www.youtube.com/watch?v=JJ9zZ8cyaEk)
 * [Debug Your Python Code Efficiently with IceCream Package: 10 Advanced Examples to Replace Print Statements](https://medium.com/@danielwume/debug-your-python-code-efficiently-with-icecream-package-10-advanced-examples-to-replace-print-820fef801cb0)
+
+* [Testing with Python (part 1): the basics](https://www.bitecode.dev/p/testing-with-python-part-1-the-basics)
+* [Testing with Python (part 2): moving to pytest](https://www.bitecode.dev/p/testing-with-python-part-2-moving)
+* [Testing with Python (part 3): pytest setup](https://www.bitecode.dev/p/testing-with-python-part-3-pytest)
+* [Testing with Python (part 4): why and what to test?](https://www.bitecode.dev/p/testing-with-python-part-4-why-and)
+* [Testing with Python (part 5): the different types of tests](https://www.bitecode.dev/p/testing-with-python-part-5-the-different)
+* [Testing with Python (part 6): Fake it...](https://www.bitecode.dev/p/testing-with-python-part-6-fake-it)
+* [Testing with Python (part 7): ...until you make it](https://www.bitecode.dev/p/testing-with-python-part-7-until)
 
 # Python's Built-in Debugger pdb
 * [Python Debugging With pdb: Overview](https://realpython.com/lessons/python-debugging-pdb-overview/)
@@ -103,6 +116,7 @@ Manhole is in-process service that will accept unix domain socket connections an
 # Python C Extensions
 * [Building a Python C Extension Module](https://realpython.com/build-python-c-extension-module/)
 * [When C extensions crash: easier debugging for your Python application](https://pythonspeed.com/articles/python-c-extension-crashes/)
+* [Multi-stage builds #1: Smaller images for compiled code](https://pythonspeed.com/articles/smaller-python-docker-images/)
 
 
 
@@ -131,6 +145,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * Magic Methods
     * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
     * [Understanding Python’s Iteration and Membership: A Guide to __contains__ and __iter__ Magic Methods](https://www.kdnuggets.com/understanding-pythons-iteration-and-membership-a-guide-to-__contains__-and-__iter__-magic-methods)
+    * [Efficient Iterations With Python Iterators and Iterables](https://realpython.com/courses/efficient-iterations-iterators-iterables/)
 * Classes
     * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
     * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
@@ -145,6 +160,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * Strings
     * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
     * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
+    * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
 
 # Python Best Practices
 * Speedup
@@ -252,6 +268,7 @@ Install `ruff` with `pip install ruff`.
 * [Python Linter Comparison 2022: Pylint vs Pyflakes vs Flake8 vs autopep8 vs Bandit vs Prospector vs Pylama vs Pyroma vs Black vs Mypy vs Radon vs mccabe](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)
 * [Why Pylint is both useful and unusable, and how you can use it](https://pythonspeed.com/articles/pylint/)
 * [Goodbye to Flake8 and PyLint: faster linting with Ruff](https://pythonspeed.com/articles/pylint-flake8-ruff/)
+* [Ruff: A Modern Python Linter for Error-Free and Maintainable Code](https://realpython.com/preview/ruff-python/)
 
 # Python Modules
 * Itertools - Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop. Such data structures are also known as iterables. This module incorporates functions that utilize computational resources efficiently.
@@ -281,6 +298,7 @@ Install `ruff` with `pip install ruff`.
 # Build a Python Command-Line App
 * [Build a Command-Line App with Python in 7 Easy Steps](https://www.kdnuggets.com/build-a-command-line-app-with-python-in-7-easy-steps)
 * [A Simple Command-Line TO-DO List App](https://github.com/balapriyac/python-projects/tree/main/command-line-app)
+* [Build a Command-Line To-Do App With Python and Typer](https://realpython.com/python-typer-cli/)
 
 
 
@@ -291,6 +309,7 @@ Install `ruff` with `pip install ruff`.
 # Python Graphical User Interfaces (GUI)
 * [Python GUI's With TKinter](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV)
 * [Building a Python GUI Application With Tkinter](https://realpython.com/courses/building-gui-application-tkinter/)
+* [Modern Tkinter Design With CustomTkinter](https://www.youtube.com/playlist?list=PLfZw_tZWahjxJl81b1S-vYQwHs_9ZT77f)
 * [My Example](https://github.com/jeffskinnerbox/ll-tracker/blob/master/tkrdecoder.py)
 
 
@@ -325,6 +344,7 @@ It supports the following types of projects:
 
 
 
+* [Make a 2D Side-Scroller Game With PyGame](https://realpython.com/courses/pygame-primer/)
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 * [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
 

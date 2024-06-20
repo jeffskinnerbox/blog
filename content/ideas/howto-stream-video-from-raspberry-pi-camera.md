@@ -896,6 +896,7 @@ gst-launch-1.0 videotestsrc pattern=snow ! autovideosink
 * Smooth playback of adaptive video streams on Raspberry Pi with gst-mmal - https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2016/John%20Sadler%20-%20Smooth%20video%20on%20Raspberry%20Pi%20with%20gst-mmal%20(Lightning%20Talk).pdf
 * [HackspaceHat part 1: WebRTC, Janus and Gstreamer](https://planb.nicecupoftea.org/2015/07/28/hackspacehat-part-1-webrtc-janus-and-gstreamer/)
 * [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
+* [WebRTC Plumbing with GStreamer](https://webrtchacks.com/webrtc-plumbing-with-gstreamer/)
 
 Now using gst-launch-1.0 which promises less latancy
 
