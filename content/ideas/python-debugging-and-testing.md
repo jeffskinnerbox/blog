@@ -299,6 +299,7 @@ Install `ruff` with `pip install ruff`.
 * [Build a Command-Line App with Python in 7 Easy Steps](https://www.kdnuggets.com/build-a-command-line-app-with-python-in-7-easy-steps)
 * [A Simple Command-Line TO-DO List App](https://github.com/balapriyac/python-projects/tree/main/command-line-app)
 * [Build a Command-Line To-Do App With Python and Typer](https://realpython.com/python-typer-cli/)
+* [Manage Your To-Do Lists Using Python and Django](https://realpython.com/django-todo-lists𝒈/)
 
 
 
