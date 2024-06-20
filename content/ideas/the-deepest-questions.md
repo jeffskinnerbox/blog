@@ -164,6 +164,8 @@ QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechan
         * [10 quantum myths that need to be busted](https://bigthink.com/starts-with-a-bang/10-quantum-myths/)
     * QBism / Quantum Bayesianism
         * [A Private View of Quantum Reality](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
+        * [QBism and the Philosophers](https://www.youtube.com/watch?v=I2w-BtI01sA)
+        * [Chris Timpson - "QBism, Ontology, and Explanation"](https://www.youtube.com/watch?v=6g96Yly67mg)
         * [What reality does quantum theory describe? QBism has a radical answer](https://bigthink.com/13-8/qbism-quantum-reality/)
         * [The “blind spot” in science that’s fueling a crisis of meaning](https://bigthink.com/13-8/why-science-must-contend-with-human-experience/)
         * [“QBism”: The most radical interpretation of quantum mechanics ever](https://bigthink.com/13-8/qbism-quantum-physics/)
