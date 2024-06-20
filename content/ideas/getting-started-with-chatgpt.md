@@ -160,6 +160,8 @@ These guide will show you how to create:
     * [Chat with ChatGPT through Arduino GIGA R1 Display Shield](https://www.hackster.io/shahizat/chat-with-chatgpt-through-arduino-giga-r1-display-shield-22e0ee)
 * harnesses the power of the Arduino platform to bridge the gap between human input and AI-powered responses.
     * [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
+* [Make an AI device to tell you bedtime stories](https://www.raspberrypi.com/news/make-an-ai-device-to-tell-you-bedtime-stories/)
+    * [Fably Homepage](https://stefanom.github.io/fably/)
 
 ## GPT-4
 * [Get free access to GPT-4](https://www.livemint.com/news/world/openais-gpt-4-can-be-used-free-using-this-simple-hack-follow-these-3-steps-11679738549612.html)
