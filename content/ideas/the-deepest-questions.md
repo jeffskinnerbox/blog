@@ -42,6 +42,7 @@ The way I would put it .... The sciences are the stories we tell ourselves to or
 # What is Proof
 * [Scott Aaronson "On the Nature of Proof"](https://www.youtube.com/watch?v=tpOHKaocMuM)
 * [The story of mathematical proof – with John Stillwell](https://www.youtube.com/watch?v=S1AEWuCFq6A)
+* [How the Square Root of 2 Became a Number](https://www.quantamagazine.org/how-the-square-root-of-2-became-a-number-20240621/)
 
 # 2022 Nobel Prize in Physics
 Bell Test and its proof of entanglement.
