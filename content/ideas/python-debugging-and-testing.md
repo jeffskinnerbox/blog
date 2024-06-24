@@ -116,7 +116,10 @@ Manhole is in-process service that will accept unix domain socket connections an
 # Python C Extensions
 * [Building a Python C Extension Module](https://realpython.com/build-python-c-extension-module/)
 * [When C extensions crash: easier debugging for your Python application](https://pythonspeed.com/articles/python-c-extension-crashes/)
+* [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
 * [Multi-stage builds #1: Smaller images for compiled code](https://pythonspeed.com/articles/smaller-python-docker-images/)
+* [Multi-stage builds #2: Python specifics](https://pythonspeed.com/articles/multi-stage-docker-python/)
+* [Multi-stage builds #3: Speeding up your builds](https://pythonspeed.com/articles/faster-multi-stage-builds/)
 
 
 
