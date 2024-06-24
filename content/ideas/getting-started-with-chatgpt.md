@@ -71,6 +71,16 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 
 
 
+# Other LLM Like ChatGPT
+## Anthropic
+* [Claude 3.5 Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet)
+
+
+
+--------
+
+
+
 # Making Movies
 * [What If The Matrix was Made in the 1950s?](https://hackaday.com/2024/06/09/what-if/)
     * [How AI Makes New Movies That Look Old - 1950's Super Panavision 70 Tutorial](https://www.youtube.com/watch?v=VIBwC2rB3nA)
