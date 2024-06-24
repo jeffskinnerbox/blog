@@ -13,6 +13,10 @@ Version:      0.0.0
 
 
 
+* [This Raspberry Pi rover bot is named Floyd and is super sassy, thanks to Chat GPT](https://www.tomshardware.com/raspberry-pi/this-raspberry-pi-rover-bot-is-named-floyd-and-is-super-sassy-thanks-to-chat-gpt)
+
+
+
 Should you **delete** entry in TiddleWiki, "Self Balancing Robots" when you publish this
 
 Consider this for radio remote control - [Pi GRRL Zero Parts Kit - Includes Pi Zero W](https://www.adafruit.com/product/3161)
