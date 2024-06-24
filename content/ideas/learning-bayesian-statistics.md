@@ -39,7 +39,10 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 
 
 
+* [All About that Bayes: Probability, Statistics, and the Quest to Quantify Uncertainty](https://www.youtube.com/watch?v=eDMGDhyDxuY)
+* [Frequentism and Bayesianism: What's the Big Deal?](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [Understanding Bayesian Statistics Without Frequentist Language -- Richard McElreath (MPI)](https://www.youtube.com/watch?v=oHWNexYPFTY)
+* [Everything wrong with statistics (and how to fix it)](https://www.youtube.com/watch?v=be2wuOaglFY)
 
 
 
