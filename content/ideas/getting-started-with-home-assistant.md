@@ -2310,6 +2310,8 @@ The Sonoff device is administered by the [eWeLink phone app][48].
 
 ## Shelly Alternative
 * [SmaHoo Is a Discreet Device to Make Your Wall Outlets Smart](https://www.hackster.io/news/smahoo-is-a-discreet-device-to-make-your-wall-outlets-smart-01050976af3f)
+* [Zooz ZEN55: Get Smart Alerts from Dumb Smoke/CO Detectors](https://www.mostlychris.com/get-smart-alerts-from-dumb-smoke-co-detectors/)
+    * [Zooz](https://www.getzooz.com/)
 
 
 
