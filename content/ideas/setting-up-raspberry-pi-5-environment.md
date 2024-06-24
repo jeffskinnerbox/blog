@@ -15,6 +15,8 @@ Version:      0.0.0
 * [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5](https://www.hackster.io/news/benchmarking-tensorflow-and-tensorflow-lite-on-raspberry-pi-5-b9156d58a6a2)
 
 
+* [Running Large Language Models on Raspberry Pi at the Edge](https://www.hackster.io/mjrobot/running-large-language-models-on-raspberry-pi-at-the-edge-63bb11)
+
 
 * [Google Just Turned the RPi into a Supercomputer...](https://www.youtube.com/watch?v=mOY_Dbyq6OY)
 * [Using Ollama to Run Local LLMs on the Raspberry Pi 5](https://www.youtube.com/watch?v=ewXANEIC8pY)
