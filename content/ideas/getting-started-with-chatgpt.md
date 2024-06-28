@@ -13,6 +13,11 @@ Version:      0.0.0
 --------
 
 
+* Apple: [Apple Intelligence](https://www.apple.com/apple-intelligence/)
+* Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
+* Google: [Gemini](https://gemini.google.com/app)
+* OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
+* Anthropic: [Claude](https://claude.ai/login)
 
 
 * [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
