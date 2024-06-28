@@ -71,6 +71,7 @@ Nvim & Dev Contaner
 * [Syntax Error #11: Debugging Python](https://www.syntaxerror.tech/syntax-error-11-debugging-python/)
 * [Debugging 101: Replace print() with icecream ic()](https://www.youtube.com/watch?v=JJ9zZ8cyaEk)
 * [Debug Your Python Code Efficiently with IceCream Package: 10 Advanced Examples to Replace Print Statements](https://medium.com/@danielwume/debug-your-python-code-efficiently-with-icecream-package-10-advanced-examples-to-replace-print-820fef801cb0)
+* [Understanding the Python Mock Object Library](https://realpython.com/python-mock-library/)
 
 * [Testing with Python (part 1): the basics](https://www.bitecode.dev/p/testing-with-python-part-1-the-basics)
 * [Testing with Python (part 2): moving to pytest](https://www.bitecode.dev/p/testing-with-python-part-2-moving)
