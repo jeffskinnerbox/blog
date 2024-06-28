@@ -574,6 +574,7 @@ This is done via the four wheels (aka tramming wheels) on the bottom of the bed.
 >to the table your working on.
 >Leveling is about making the bed parallel with the effects of gravity.
 
+* [3D Printering: Adaptive Bed Leveling](https://hackaday.com/2024/06/26/3dprintering-adaptive-bed-leveling/)
 * [Best method for 3D printer bed levelling](https://www.youtube.com/watch?v=RZRY6kunAvs)
 * [Force Sensitive Resistor Takes The Pain Out Of Bed Leveling](https://hackaday.com/2019/09/01/force-sensitive-resistor-takes-the-pain-out-of-bed-leveling/)
 
