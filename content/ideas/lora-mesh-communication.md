@@ -21,6 +21,7 @@ Version:      0.0.0
     * [SX1262 LoRaWAN Node Module Expansion Board for Raspberry Pi](https://www.waveshare.com/sx1262-lorawan-hat.htm)
 * [MESHTASTIC JUST KEEPS BLOWING MY MIND!!!](https://www.youtube.com/watch?v=-9PXRBBqfxU)
 * [Getting Started with Meshtastic](https://www.youtube.com/playlist?list=PLshzThxhw4O5JTOACGHzYSSd3soDhoXKK)
+* [DECODING MESHTASTIC WITH GNU RADIO](https://hackaday.com/2024/06/26/decoding-meshtastic-with-gnu-radio/)
 
 
 
