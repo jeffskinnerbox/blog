@@ -17,6 +17,7 @@ Version:      0.0.0
 * Practical Uncertainty: Useful Ideas in Decision-Making, Risk, Randomness & AI, by Hossein Pishro-Nik
 
 * Statistical Rethinking: A Bayesian Course with Examples in R and Stan, by Richard McElreath - https://xcelab.net/rm/statistical-rethinking/
+* Bayesian Data Analysis, by Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin - http://www.stat.columbia.edu/~gelman/book/
 
 
 # Drama in Statistics & Science
