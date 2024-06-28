@@ -279,6 +279,8 @@ Install `ruff` with `pip install ruff`.
     * [What are itertools in Python?](https://www.educative.io/answers/what-are-itertools-in-python)
     * [Python Itertools](https://www.geeksforgeeks.org/python-itertools/)
     * [The FULL Guide To Itertools For Python Developers](https://www.youtube.com/watch?v=baZpqVmR488)
+    * [Looping in Python](https://www.pythonmorsels.com/screencasts/looping/)
+    * [How to loop with indexes in Python](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
 
 # Role of Underscore
 * [Role of Underscore(_) in Python Tutorial](https://www.datacamp.com/tutorial/role-underscore-python)
