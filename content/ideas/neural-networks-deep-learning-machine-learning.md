@@ -201,6 +201,7 @@ Liquid neural networks are a class of AI algorithms that can learn to stay adapt
 * [Results for Standard Classification and Regression Machine Learning Datasets](https://machinelearningmastery.com/results-for-standard-classification-and-regression-machine-learning-datasets/)
 * [BDD100K: A Large-scale Diverse Driving Video Database](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
 
+* [Sometimes it can really be useful to draw your own dataset - drawdata.py](https://calmcode.io/shorts/drawdata.py)
 * [5 Free Datasets to Start Your Machine Learning Projects](https://machinelearningmastery.com/5-free-datasets-start-your-machine-learning-projects/)
 * [OSINT At Home #9 – My Top 4 Free Satellite Imagery Sources](https://www.youtube.com/watch?v=OONjbRAR-TM)
 * [GovTrack](https://www.govtrack.us)
