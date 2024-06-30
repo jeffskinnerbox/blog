@@ -131,11 +131,16 @@ Manhole is in-process service that will accept unix domain socket connections an
 # How Python Works
 * [How Python Works](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
 
-# How to Write Pythonic Code
+## How to Write Pythonic Code
 Pythonic describes code that doesn’t just get the syntax right but uses the language in the way it’s intended to be used. Here’s how to optimize your Python code.
 * [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
 
-# Python Idioms (Idiomatic Python)
+## Python's Built-in Functions
+Python has many built-in functions that you can use directly without importing anything. These functions cover a wide variety of common programming tasks that include performing math operations, working with built-in data types, processing iterables of data, handling input and output in your programs, working with scopes, and more.
+
+* [Python's Built-in Functions: A Complete Exploration](https://realpython.com/preview/python-built-in-functio/)
+
+## Python Idioms (Idiomatic Python)
 * Being Pythonic
     * [You should put this in all your Python scripts | if __name__ == '__main__': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
     * [5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
@@ -145,7 +150,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
     * [25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
     * [21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 
-# Python Objects
+## Python Objects
 * Magic Methods
     * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
     * [Understanding Python’s Iteration and Membership: A Guide to __contains__ and __iter__ Magic Methods](https://www.kdnuggets.com/understanding-pythons-iteration-and-membership-a-guide-to-__contains__-and-__iter__-magic-methods)
@@ -166,7 +171,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
     * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
     * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
 
-# Python Best Practices
+## Python Best Practices
 * Speedup
     * [Unlocking your CPU cores in Python (multiprocessing)](https://www.youtube.com/watch?v=X7vBbelRXn0)
     * [The Fastest Way to Loop in Python - An Unfortunate Truth](https://www.youtube.com/watch?v=Qgevy75co8c)
