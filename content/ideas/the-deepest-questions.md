@@ -122,6 +122,22 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
     * [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
 
+# Schrödinger's Cat / Elitzur–Vaidman Bomb Tester
+The [Elitzur–Vaidman Bomb Tester](https://en.wikipedia.org/wiki/Elitzur%E2%80%93Vaidman_bomb_tester)
+is a quantum mechanics thought experiment that uses interaction-free measurements
+to verify that a bomb is functional without having to detonate it.
+It was conceived in 1993 and real-world experiments have confirmed that their theoretical method works as predicted.
+In 2023, Physicists from the Massachusetts Institute of Technology (MIT) have successfully recreated
+the [Elitzur–Vaidman Bomb Tester within a completely classical system](https://davidson.weizmann.ac.il/en/online/sciencenews/quantum-insights-thought-experiment-reality).
+This means we can observ a quantum effect in a system derived from everyday classical physics.
+This achievement intensifies the question: **What truly separates the quantum from the classical?**
+
+* [ Quantum Insights: From Thought Experiment to Reality](https://davidson.weizmann.ac.il/en/online/sciencenews/quantum-insights-thought-experiment-reality)
+* [Quantum wonders: The Elitzur-Vaidman bomb-tester](https://www.newscientist.com/article/mg20627596-400-quantum-wonders-the-elitzur-vaidman-bomb-tester/)
+* [Elitzur -Vaidman bomb experiment](https://medium.com/srm-astrophilia/elitzur-vaidman-bomb-experiment-207da83a6a1b)
+* [A Mathematical Exploration of the Elitzur-Vaidman Bomb Experiment in Quantum Mechanics](https://medium.com/quantum-mysteries/a-mathematical-exploration-of-the-elitzur-vaidman-bomb-experiment-in-quantum-mechanics-c817c8f9c8f8)
+* [Avshalom Elitzur: The Genius Behind the Bomb Testing Experiment](https://www.youtube.com/watch?v=G5PLbJQbqS8)
+
 # Epistemology
 Epistemology is the philosophical study of the nature, origin, and limits of human knowledge.
 
