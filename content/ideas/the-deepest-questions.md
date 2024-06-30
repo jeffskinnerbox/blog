@@ -122,6 +122,12 @@ The problem is, nobody understands quantum **physicists** muddled description of
     * [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
     * [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
 
+# Stern-Gerlach Experiment
+The Stern-Gerlach Experiment was the breakthrough that showed us the world of quantum physics.
+
+* [The Forgotten Experiment That Proved Quantum Mechanics](https://www.youtube.com/watch?v=kgO_EEjpQHI)
+* [The Overlooked Experiment That Revealed the Quantum World](https://nautil.us/the-overlooked-experiment-that-revealed-the-quantum-world-482910/)
+
 # Schrödinger's Cat / Elitzur–Vaidman Bomb Tester
 The [Elitzur–Vaidman Bomb Tester](https://en.wikipedia.org/wiki/Elitzur%E2%80%93Vaidman_bomb_tester)
 is a quantum mechanics thought experiment that uses interaction-free measurements
@@ -137,6 +143,12 @@ This achievement intensifies the question: **What truly separates the quantum fr
 * [Elitzur -Vaidman bomb experiment](https://medium.com/srm-astrophilia/elitzur-vaidman-bomb-experiment-207da83a6a1b)
 * [A Mathematical Exploration of the Elitzur-Vaidman Bomb Experiment in Quantum Mechanics](https://medium.com/quantum-mysteries/a-mathematical-exploration-of-the-elitzur-vaidman-bomb-experiment-in-quantum-mechanics-c817c8f9c8f8)
 * [Avshalom Elitzur: The Genius Behind the Bomb Testing Experiment](https://www.youtube.com/watch?v=G5PLbJQbqS8)
+
+* [Physicists Discover Surprising Quantum-Like Behavior in Tiny Bouncing Droplets](https://www.sciencealert.com/physicists-discover-surprising-quantum-like-behavior-in-tiny-bouncing-droplets)
+* [Interaction-free measurement](https://en.wikipedia.org/wiki/Interaction-free_measurement)
+
+* [Why is quantum mechanics weird? The bomb experiment](https://www.youtube.com/watch?v=RhIf3Q_m0FQ)
+    * [Sabine Hossenfelder on the Elitzur-Vaidman bomb tester thought experiment](https://www.reddit.com/r/QuantumPhysics/comments/1b74hog/sabine_hossenfelder_on_the_elitzurvaidman_bomb/)
 
 # Epistemology
 Epistemology is the philosophical study of the nature, origin, and limits of human knowledge.
@@ -1285,3 +1297,5 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
 [08]:https://john-muresianu.medium.com/liberal-arts-blog-john-von-neumann-1903-1957-the-simplicity-of-mathematics-and-its-ad8eb975aa8a
 [09]:https://www.damtp.cam.ac.uk/events/strings02/dirac/speach.html
 [10]:
+
+<!-- vim: ts=4 sts=4 sw=4 et                                                    -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
