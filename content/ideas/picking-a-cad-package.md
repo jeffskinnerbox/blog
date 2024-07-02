@@ -243,6 +243,7 @@ import designs from other CAD software application for use or modification on yo
 * [FreeCAD Vs SolveSpace](https://hackaday.com/2020/07/16/freecad-vs-solvespace/)
 * [FreeCAD TechDraw Workbench Tutorial](https://hackaday.com/2019/12/03/freecad-techdraw-workbench-tutorial/)
 * [FreeCAD Parametrics Made Simple](https://hackaday.com/2020/10/09/freecad-parametrics-made-simple/)
+* [FreeCAD Foray: Shells For All Our PCBs](https://hackaday.com/2024/07/01/freecad-foray-shells-for-all-our-pcbs/)
 
 ### FreeCAD + CadQuery
 Like OpenSCAD, [FreeCAD][09] is a parametric modeler.
