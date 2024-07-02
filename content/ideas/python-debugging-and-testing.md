@@ -19,6 +19,8 @@ Version:      0.0.0
 * [mCoding](https://www.youtube.com/@mCoding)
 * [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
 
+* [Creating Great README Files for Your Python Projects](https://realpython.com/readme-python-project/)
+
 
 
 
