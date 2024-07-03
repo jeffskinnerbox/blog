@@ -243,6 +243,7 @@ BBC Precision The Measure of All Things
 * [Machine Thinking](https://www.youtube.com/c/machinethinking)
 * [The Science Of Flatness](https://www.youtube.com/watch?v=OWa3F4bKJsE)
 * [The Science Of Roundness](https://www.youtube.com/watch?v=NjbvOTUSqdI)
+* [Retrotechtacular: The Tools And Dies That Made Mass Production Possible](https://hackaday.com/2024/07/03/retrotechtacular-the-tools-and-dies-which-made-mass-production-possible/)
 
 ------
 
