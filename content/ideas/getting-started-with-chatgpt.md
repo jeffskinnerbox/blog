@@ -20,6 +20,7 @@ Version:      0.0.0
 * Anthropic: [Claude](https://claude.ai/login)
 
 
+* [Peering Into The Black Box of Large Language Models](https://hackaday.com/2024/07/03/peering-into-the-black-box-of-large-language-models/)
 * [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
     * [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
