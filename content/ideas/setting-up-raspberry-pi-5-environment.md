@@ -12,6 +12,11 @@ Version:      0.0.0
 
 
 
+* [A Weekend AI Project: Object Detection with YOLO on PC and Raspberry Pi](https://towardsdatascience.com/a-weekend-ai-project-object-detection-with-yolo-on-pc-and-raspberry-pi-0653e01032c1)
+
+
+
+
 * [Benchmarking TensorFlow and TensorFlow Lite on Raspberry Pi 5](https://www.hackster.io/news/benchmarking-tensorflow-and-tensorflow-lite-on-raspberry-pi-5-b9156d58a6a2)
 
 
