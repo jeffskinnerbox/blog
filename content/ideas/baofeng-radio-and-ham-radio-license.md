@@ -46,6 +46,7 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 * [Easy Modifications For Inexpensive Radios](https://hackaday.com/2023/06/23/easy-modifications-for-inexpensive-radios/)
 * [Exploring the Experimental Firmware for Quansheng UV K5 Radio](https://quansheng-radio.blogspot.com/2023/06/exploring-experimental-firmware-for.html)
 * [Open HT Surgery Gives Cheap Transceiver All-Band Capabilities](https://hackaday.com/2024/03/22/open-ht-surgery-gives-cheap-transceiver-all-band-capabilities/)
+* [Hacking A Quansheng Handheld To Transmit Digital Modes](https://hackaday.com/2024/07/05/hacking-a-quansheng-handheld-to-transmit-digital-modes/)
 
 
 
