@@ -188,6 +188,8 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
 * [The Boundary of Computation](https://www.youtube.com/watch?v=kmAc1nDizu0)
     * [The Most Difficult Program to Compute? - Computerphile](https://www.youtube.com/watch?v=i7sm9dzFtEI)
     * [Busy Beaver Turing Machines - Computerphile](https://www.youtube.com/watch?v=CE8UhcyJS0I)
+    * [With Fifth Busy Beaver, Researchers Approach Computation’s Limits](https://www.quantamagazine.org/amateur-mathematicians-find-fifth-busy-beaver-turing-machine-20240702/)
+        * [The Busy Beaver Challenge](https://bbchallenge.org/)
 
 # What is Quantum Computation?
 * [The Quantum Computing Advantage](https://www.youtube.com/watch?v=PXQ-sh07eBw)
