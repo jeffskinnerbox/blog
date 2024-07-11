@@ -1,3 +1,6 @@
+<!-- vim: ts=2 sts=2 sw=2 et                                                    -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
+<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD035 MD041              -- for the lintter 'markdownlint', disable these linting rule -->
+
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -41,6 +44,7 @@ We choose to go to the moon.  We choose to go to the moon in this decade and do 
 * [SKYbrary](https://skybrary.aero/) is a wiki created by the European Organisation for the Safety of Air Navigation, International Civil Aviation Organization, and the Flight Safety Foundation to create a comprehensive source of aviation safety information freely available online.
 
 # Where Can I Learn About Building a Drone?
+
 * [How I REALLY configure my own quadcopter](https://www.youtube.com/watch?v=fC_EbT2J_m8)
 * [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
 
@@ -111,6 +115,7 @@ you must take the [Recreational UAS Safety Test (TRUST)][04] and carry proof of 
 >This concerns the rules for recreational flying above the 250 gram threshold.
 
 More sources of inspiration:
+
 * [Beginner’s Guide to Drones](https://www.droneblog.com/start/)
 * [How To Get Started With FPV Drone – The Ultimate Beginner’s Guide](https://oscarliang.com/fpv-drone-guide/)
 * [The Best Tiny Whoops and Accessories | Micro Indoor FPV Drones][13]
@@ -134,6 +139,7 @@ you might even need to do some soldering.
 * **ARF – Almost Ready to Fly:**
 
 Sources:
+
 * [PNP, BNF, RTF AND ARF](https://fpvracingdrone.org/from-a-to-z/pnp-bnf-rtf-arf/)
 
 ## My Quadcopter Selection
@@ -1178,6 +1184,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [FreeCAD Takes Off With A Rocket Design Workbench](https://hackaday.com/2021/04/02/freecad-takes-off-with-a-rocket-design-workbench/)
 * [BPS.Space Successfully Lands A Model Rocket](https://hackaday.com/2022/08/05/bps-space-succesfully-lands-a-model-rocket/)
 * [How To Land A Model Rocket Vertically](https://hackaday.com/2023/06/21/how-to-land-a-model-rocket-vertically/)
+* [Model Rocket Nails Vertical Landing After Three-Year Effort](https://hackaday.com/2024/07/10/model-rocket-nails-vertical-landing-after-three-year-effort/)
 * [Did I Make the World's Smallest Rocket Flight Computer?](https://www.youtube.com/watch?v=5TTcbMv5tDc)
 
 * [GPS Guided Parachutes For High Altitude Balloons](https://hackaday.com/2021/01/07/gps-guided-parachutes-for-high-altitude-balloons/)
