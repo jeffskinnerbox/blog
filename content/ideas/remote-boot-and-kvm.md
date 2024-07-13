@@ -1,3 +1,6 @@
+<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
+<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
+
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -12,8 +15,17 @@ Version:      0.0.0
 -----
 
 
+# Sipeed NanoKVM
+
+* [$20+ NanoKVM is a tiny low-power RISC-V KVM over IP solution](https://www.cnx-software.com/2024/07/08/20-nanokvm-is-a-tiny-low-power-risc-v-kvm-over-ip-solution/)
+* [NanoKVM Wiki](https://wiki.sipeed.com/hardware/zh/kvm/NanoKVM/1_intro.html)
+
+
+-----
+
 
 # Pi-Cast KVM
+
 * [Pi-Cast KVM](https://pi-cast.com/getting-started/)
 * [Non-KVM Applications for Pi-Cast KVM](https://www.crowdsupply.com/hackergadgets/pi-cast-kvm/updates/non-kvm-applications-for-pi-cast-kvm)
 
@@ -34,6 +46,7 @@ A modern, open-source Keyboard, Video, Mouse (KVM) over IP.
 * [TinyPilot Voyager 2a](https://tinypilotkvm.com/product/tinypilot-voyager2a)
 
 # Keyboard, Video, Mouse (KVM)
+
 * [IPMI EVERYWHERE! w/The Pi-KVM](https://www.youtube.com/watch?v=LwsznhIBPMc)
 * [The TinyPilot KVM - An open-source network KVM](https://www.youtube.com/watch?v=0aGbglFZi8g&list=RDCMUCxQKHvKbmSzGMvUrVtJYnUA&index=12)
 * [DIY Raspberry Pi KVM-Over-IP Under $60 with Pi-KVM](https://www.youtube.com/watch?v=plP9Y1likRg&list=RDCMUCrjKdwxaQMSV_NDywgKXVmw&index=2)
@@ -56,14 +69,17 @@ A modern, open-source Keyboard, Video, Mouse (KVM) over IP.
 * [Pi-KVM v4: The Ultimate Remote Access!](https://www.youtube.com/watch?v=2HqbQdZUEmY)
 
 # KVM USB/HDMI Switch
+
 * [USB 3.0 KVM Switch HDMI 4K 60Hz 4-Port CEC SPDIF L/R Extractor- USB Peripheral Hub For Keyboard Mouse eac Printer Scanner Windows,1080p 120Hz 144Hz HDMI Auto Switch 4x1 HDCP PASS,IR Remote IR Ext. Mic](https://www.amazon.com/4-Port-Switch-USB2-0-SPDIF-Breakout/dp/B082D7YJH6)
 
 # USB Power/Data Y Split Cable
+
 * [Making an USB power/data Y split cable for PiKVM](https://www.youtube.com/watch?v=uLuBuQUF61o)
-*  [PiKVM USB/PWR Splitter for RPI4](https://www.youtube.com/watch?v=4Od5MjBHbhY) - https://www.aliexpress.com/item/1005003793429781.html
+* [PiKVM USB/PWR Splitter for RPI4](https://www.youtube.com/watch?v=4Od5MjBHbhY) - https://www.aliexpress.com/item/1005003793429781.html
 
 
 # ATX Signals
+
 * [Pi-Cast Adds ATX Signalling To KVM](https://hackaday.com/2022/12/29/pi-cast-adds-atx-signalling-to-kvm/)
 
 
