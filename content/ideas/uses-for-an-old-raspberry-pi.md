@@ -1,3 +1,6 @@
+<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
+<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
+
 <--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -134,6 +137,7 @@ TV programs from 1978 ...
 
 ### Streaming Video & Audio - ESP32 TV
 * [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
+    * [Adafruit PyPortal - CircuitPython Powered Internet Display](https://www.adafruit.com/product/4116)
     * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
     * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
     * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)

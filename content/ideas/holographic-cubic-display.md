@@ -1,0 +1,5 @@
+- [Tiny Holo Cubic Display](https://www.youtube.com/watch?v=RQGz9suElo8)
+- [AliExpress: projection transparent small TV](https://www.aliexpress.us/item/3256804147141407.html)
+- [Holo DIY Kit](https://fiber-punk.com/products/fiberpunk-stl-preview-holocubic-diy-kit)
+- [GitHub: peng-zhihui/HoloCubic](https://github.com/peng-zhihui/HoloCubic)
+- [GitHub: fiberpunk1/Holo](https://github.com/fiberpunk1/Holo)
