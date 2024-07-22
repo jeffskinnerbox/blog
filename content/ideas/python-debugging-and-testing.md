@@ -86,6 +86,8 @@ Nvim & Dev Contaner
 
 - An Innovative MicroPython / CircuitPython IDE for Web and Mobile - [GitHub: vshymanskyy/ViperIDE](https://github.com/vshymanskyy/ViperIDE)
 
+* [How to write code for your Raspberry Pi Pico in your web browser with ViperIDE](https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/how-to-write-code-for-your-raspberry-pi-pico-in-your-web-browser-with-viperide)
+
 # DIY Python Debugger
 
 - [Let’s create a Python Debugger together: Part 1](https://mostlynerdless.de/blog/2023/09/20/lets-create-a-python-debugger-together-part-1/)
