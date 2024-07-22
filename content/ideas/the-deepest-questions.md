@@ -292,6 +292,18 @@ Some have thought that logic will one day be completed and all its problems solv
 
 - [What Is Probability? Difficulties Understanding Probability](https://www.youtube.com/watch?v=9ApjAYTRilo)
 - [Probability Is Logic: Philosophy of Probability & Statistics Series](https://www.youtube.com/watch?v=GZRvNvH_oUg)
+- [The better way to do statistics](https://www.youtube.com/watch?v=3jP4H0kjtng)
+
+## Metropolis–Hastings Algorithm
+
+In statistics and statistical physics, the Metropolis–Hastings algorithm is a
+Markov chain Monte Carlo (MCMC) method for obtaining a sequence of random samples
+from a probability distribution from which direct sampling is difficult.
+
+Through the use of random processes, this algorithm offers an efficient way to
+stumble toward answers to problems that are too complicated to solve exactly.
+
+- [The algorithm that (eventually) revolutionized statistics](https://www.youtube.com/watch?v=Jr1GdNI3Vfo)
 
 ## What is the Foundation of Mathmatics?
 
