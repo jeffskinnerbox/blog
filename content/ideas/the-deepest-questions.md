@@ -761,6 +761,7 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 - [Random Sequences: Human vs Coin](https://www.youtube.com/watch?v=H2lJLXS3AYM)
 - [Random Means "Unknown Cause"](https://www.wmbriggs.com/wp-content/uploads/2023/01/What-Are-All-The-Uses-For-So-Called-Random-Numbers_.mp3)
 - [Deconstructing Randomness as Chaos and Entanglement in Disguise](https://medium.com/intuitionmachine/there-is-no-randomness-only-chaos-and-complexity-c92f6dccd7ab)
+- [Why Computers Can’t Generate Randomness And how the outside world helps](https://slate.com/technology/2022/06/bridle-ways-of-being-excerpt-computer-randomness.html)
 
 # Quantum Randomness
 
@@ -797,6 +798,17 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
   - [What The Law Of Large Numbers Really Means](https://www.wmbriggs.com/post/47269/)
   - [Unraveling the Law of Large Numbers](https://towardsdatascience.com/unraveling-the-law-of-large-numbers-e36a3219acb2)
   - [The Law of Large Numbers - Explained](https://www.youtube.com/watch?v=ycuPP72_DVU&t=69s)
+
+## Ramsey Theory
+
+Frank Ramsey theorem stated that if a system is large enough,
+then no matter how disordered it might be,
+it’s always bound to exhibit some sort of regular structure.
+Order inevitably emerges from chaos; patterns are unavoidable.
+Ramsey theory is the study of when this happens —
+in sets of numbers, in collections of vertices and edges called graphs, and in other systems.
+
+- [A Simple Visual Proof of a Powerful Idea](https://www.quantamagazine.org/a-simple-visual-proof-of-a-powerful-idea-20170413/)
 
 # What about Chaos Theory?
 
