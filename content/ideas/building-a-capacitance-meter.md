@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -22,11 +22,14 @@ Version:      0.0.0
 * [How to choose the right capacitor type for a circuit?! || Film vs. Ceramic vs. Electrolytic](https://www.youtube.com/watch?v=2v8zBj7_sxg&feature=youtu.be)
 * [Experiences With Capacitor Failure](https://hackaday.com/2019/04/12/ask-hackaday-experiences-with-capacitor-failure/)
 
+
 # Ideas for Meter Face
+
 * [Digital VU Meter with Analog Physics](https://hackaday.io/project/181004-digital-vu-meter-with-analog-physics)
 * [Improving OLED VU Meters With A Little Physics](https://hackaday.com/2021/08/09/improving-oled-vu-meters-with-a-little-physics/)
 * [Analog VU Meter - I2C OLED SH1106 - OLEDMeter Animation](https://forum.arduino.cc/index.php)
 * [Round LCDs Put To Work In Rack Mount Gauge Cluster](https://hackaday.com/2022/05/13/round-lcds-put-to-work-in-rack-mount-gauge-cluster/)
+
 
 # Capacitor Repair
 In older electronics capacitors are one of the more common causes of problems.
