@@ -7,7 +7,7 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
----
+---------------
 
 - [Python 10 minutes a day](https://python-10-minutes-a-day.rocks/)
 - [Real Python Learning Paths](https://realpython.com/learning-paths/)
@@ -17,8 +17,8 @@ Version:      0.0.0
 
 - [Creating Great README Files for Your Python Projects](https://realpython.com/readme-python-project/)
 
-# Python Development Environment / Dev Containerized Environment
 
+# Python Development Environment / Dev Containerized Environment
 If you have more than one Python project,
 your going to want to setup separate development environments.
 The very act of setting up these environments and maintaining them can be laborious,
@@ -51,16 +51,19 @@ Nvim & Dev Contaner
   - [Codeberg: esensar/nvim-dev-container](https://codeberg.org/esensar/nvim-dev-container)
 - [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
 
----
+---------------
+
 
 # Learning Python
 
 - [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
 - [Python Morsels](https://www.pythonmorsels.com/)
 
+
 # Sometimes the Problem is Your Environment
 
 - [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
+
 
 # Debugging Tools & Techniques
 
@@ -77,16 +80,19 @@ Nvim & Dev Contaner
 - [Testing with Python (part 6): Fake it...](https://www.bitecode.dev/p/testing-with-python-part-6-fake-it)
 - [Testing with Python (part 7): ...until you make it](https://www.bitecode.dev/p/testing-with-python-part-7-until)
 
+
 # Python's Built-in Debugger pdb
 
 - [Python Debugging With pdb: Overview](https://realpython.com/lessons/python-debugging-pdb-overview/)
 - [Python Debugging With pdb](https://realpython.com/courses/python-debugging-pdb/)
 
+
 # ViperIDE
 
 - An Innovative MicroPython / CircuitPython IDE for Web and Mobile - [GitHub: vshymanskyy/ViperIDE](https://github.com/vshymanskyy/ViperIDE)
 
-* [How to write code for your Raspberry Pi Pico in your web browser with ViperIDE](https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/how-to-write-code-for-your-raspberry-pi-pico-in-your-web-browser-with-viperide)
+- [How to write code for your Raspberry Pi Pico in your web browser with ViperIDE](https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/how-to-write-code-for-your-raspberry-pi-pico-in-your-web-browser-with-viperide)
+
 
 # DIY Python Debugger
 
@@ -97,13 +103,14 @@ Nvim & Dev Contaner
 - [Let’s create a Python Debugger together: Tiny Addendum (exec and **name**)](https://mostlynerdless.de/blog/2023/11/14/lets-create-a-python-debugger-together-tiny-addendum-exec-and-__name__/)
 - [Let’s create a Python Debugger together: PyData Talk](https://mostlynerdless.de/blog/2023/11/17/lets-create-a-python-debugger-together-pydata-talk/)
 
-# Manhole
 
+# Manhole
 Manhole is in-process service that will accept unix domain socket connections and present the stacktraces for all threads and an interactive prompt. It can either work as a python daemon thread waiting for connections at all times or a signal handler (stopping your application and waiting for a connection).
 
 - [Manhole](https://pypi.org/project/manhole/)
 - [Manhole Documentation](https://python-manhole.readthedocs.io/en/stable/)
 - [A Python prompt into a running process: debugging with Manhole](https://pythonspeed.com/articles/live-debugging-python/)
+
 
 # Testing Strategies & Tools
 
@@ -115,7 +122,8 @@ Manhole is in-process service that will accept unix domain socket connections an
 - [Debugging Code With Decorators](https://realpython.com/lessons/debugging-code-decorators/)
 - [pytest tricks: parametrize twice](https://calmcode.io/course/pytest-tricks/parametrize-twice)
 
----
+---------------
+
 
 # Python C Extensions
 
@@ -126,11 +134,13 @@ Manhole is in-process service that will accept unix domain socket connections an
 - [Multi-stage builds #2: Python specifics](https://pythonspeed.com/articles/multi-stage-docker-python/)
 - [Multi-stage builds #3: Speeding up your builds](https://pythonspeed.com/articles/faster-multi-stage-builds/)
 
----
+---------------
+
 
 # How Python Works
 
 - [How Python Works](https://www.youtube.com/playlist?list=PLJ_usHaf3fgNFfY4CN6-A3zYplVVqnbv2)
+
 
 ## How to Write Pythonic Code
 
@@ -138,11 +148,14 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 
 - [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
 
-## Python's Built-in Functions
 
-Python has many built-in functions that you can use directly without importing anything. These functions cover a wide variety of common programming tasks that include performing math operations, working with built-in data types, processing iterables of data, handling input and output in your programs, working with scopes, and more.
+## Python's Built-in Functions
+Python has many built-in functions that you can use directly without importing anything.
+These functions cover a wide variety of common programming tasks that include performing math operations,
+working with built-in data types, processing iterables of data, handling input and output in your programs, working with scopes, and more.
 
 - [Python's Built-in Functions: A Complete Exploration](https://realpython.com/preview/python-built-in-functio/)
+
 
 ## Python Idioms (Idiomatic Python)
 
@@ -154,6 +167,7 @@ Python has many built-in functions that you can use directly without importing a
 - Newbe Bad Habits
   - [25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
   - [21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
+
 
 ## Python Objects
 
@@ -176,6 +190,7 @@ Python has many built-in functions that you can use directly without importing a
   - [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
   - [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
   - [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
+
 
 ## Python Best Practices
 
@@ -202,7 +217,8 @@ Python has many built-in functions that you can use directly without importing a
 - Automated Testing
   - [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
----
+---------------
+
 
 # Python Import Statement
 
@@ -239,11 +255,13 @@ import tkinter as tk
 window = tk.Tk()
 ```
 
+
 # What Is the **pycache** Folder?
 
 - [What Is the **pycache** Folder in Python?](https://realpython.com/python-pycache/)
 
----
+---------------
+
 
 # Python Static Analysis Tools
 
@@ -281,9 +299,11 @@ There are many Python static analysis tools to choose from, but these are most h
 - [Goodbye to Flake8 and PyLint: faster linting with Ruff](https://pythonspeed.com/articles/pylint-flake8-ruff/)
 - [Ruff: A Modern Python Linter for Error-Free and Maintainable Code](https://realpython.com/preview/ruff-python/)
 
+
 # Python Modules
 
 - Itertools - Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop. Such data structures are also known as iterables. This module incorporates functions that utilize computational resources efficiently.
+  - [itertools — Functions creating iterators for efficient looping](https://docs.python.org/3/library/itertools.html)
   - [What are itertools in Python?](https://www.educative.io/answers/what-are-itertools-in-python)
   - [Python Itertools](https://www.geeksforgeeks.org/python-itertools/)
   - [The FULL Guide To Itertools For Python Developers](https://www.youtube.com/watch?v=baZpqVmR488)
@@ -291,18 +311,21 @@ There are many Python static analysis tools to choose from, but these are most h
   - [How to loop with indexes in Python](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
   - [The Iterator Protocol](https://www.pythonmorsels.com/iterator-protocol/)
 
+
 # Role of Underscore
 
 - [Role of Underscore(\_) in Python Tutorial](https://www.datacamp.com/tutorial/role-underscore-python)
 
----
+---------------
+
 
 # Python Versioning
 
 - [virtualenv: intro](https://calmcode.io/course/virtualenv/intro)
 - [pip-tools: introduction](https://calmcode.io/course/pip-tools/introduction)
 
----
+---------------
+
 
 # Build a Python Command-Line App
 
@@ -311,7 +334,8 @@ There are many Python static analysis tools to choose from, but these are most h
 - [Build a Command-Line To-Do App With Python and Typer](https://realpython.com/python-typer-cli/)
 - [Manage Your To-Do Lists Using Python and Django](https://realpython.com/django-todo-lists𝒈/)
 
----
+---------------
+
 
 # Python Graphical User Interfaces (GUI)
 
@@ -320,7 +344,8 @@ There are many Python static analysis tools to choose from, but these are most h
 - [Modern Tkinter Design With CustomTkinter](https://www.youtube.com/playlist?list=PLfZw_tZWahjxJl81b1S-vYQwHs_9ZT77f)
 - [My Example](https://github.com/jeffskinnerbox/ll-tracker/blob/master/tkrdecoder.py)
 
----
+---------------
+
 
 # Python Text Formatting
 
@@ -333,7 +358,8 @@ The Rich API makes it easy to add color and style to terminal output. Rich can a
   - [Pretty terminal output with Python and Rich](https://calmcode.io/course/rich/introduction)
   - [The Python Rich Package: Unleash the Power of Console Text](https://realpython.com/python-rich-package/)
 
----
+---------------
+
 
 # Check for Issues with Dependencies
 
