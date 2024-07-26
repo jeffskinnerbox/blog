@@ -7,13 +7,14 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
----
+---------------
 
 As [Bohr said](https://www.goodreads.com/quotes/1293013-physics-is-not-about-how-the-world-is-it-is),
 “Physics is not about how the world is; it is about what we can say about the world.”
 [Christopher Fuchs describes physics as](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
 “a dynamic interplay between storytelling and equation writing. Neither one stands alone, not even at the end of the day.”
 The way I would put it .... The sciences are the stories we tell ourselves to orient us and structure our understanding of the world. It's a mythos.
+
 
 # Some Interesting Websites
 
@@ -22,16 +23,18 @@ The way I would put it .... The sciences are the stories we tell ourselves to or
 - []()
 - []()
 
----
+---------------
 
 - [The most beautiful function in Math: Sinc](https://www.youtube.com/watch?v=CGsvq_eAJYo)
 - [What Does x¹⁰⁰ + y¹⁰⁰ = 1 Look Like?](https://barryleung.medium.com/what-does-x%C2%B9%E2%81%B0%E2%81%B0-y%C2%B9%E2%81%B0%E2%81%B0-1-look-like-fd2719e7028a)
+
 
 # What is Proof
 
 - [Scott Aaronson "On the Nature of Proof"](https://www.youtube.com/watch?v=tpOHKaocMuM)
 - [The story of mathematical proof – with John Stillwell](https://www.youtube.com/watch?v=S1AEWuCFq6A)
 - [How the Square Root of 2 Became a Number](https://www.quantamagazine.org/how-the-square-root-of-2-became-a-number-20240621/)
+
 
 # 2022 Nobel Prize in Physics
 
@@ -74,6 +77,7 @@ All we know is they can’t simultaneously be true.
 - [Scientifc Background on the Nobel Prize in Physics 2022](https://www.nobelprize.org/uploads/2022/10/advanced-physicsprize2022.pdf)
 - [The worst Nobel Prizes ever awarded in science (and one in literature)](https://bigthink.com/the-past/worst-nobel-prizes-science/)
 
+
 ## Quantum Physics Confusion: How to Learn This Stuff
 
 It is often said, nobody understands quantum physics ... not true.
@@ -112,12 +116,14 @@ The problem is, nobody understands quantum **physicists** muddled description of
   - [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
   - [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
 
+
 # Stern-Gerlach Experiment
 
 The Stern-Gerlach Experiment was the breakthrough that showed us the world of quantum physics.
 
 - [The Forgotten Experiment That Proved Quantum Mechanics](https://www.youtube.com/watch?v=kgO_EEjpQHI)
 - [The Overlooked Experiment That Revealed the Quantum World](https://nautil.us/the-overlooked-experiment-that-revealed-the-quantum-world-482910/)
+
 
 # Schrödinger's Cat / Elitzur–Vaidman Bomb Tester
 
@@ -130,7 +136,7 @@ the [Elitzur–Vaidman Bomb Tester within a completely classical system](https:/
 This means we can observ a quantum effect in a system derived from everyday classical physics.
 This achievement intensifies the question: **What truly separates the quantum from the classical?**
 
-- [ Quantum Insights: From Thought Experiment to Reality](https://davidson.weizmann.ac.il/en/online/sciencenews/quantum-insights-thought-experiment-reality)
+- [Quantum Insights: From Thought Experiment to Reality](https://davidson.weizmann.ac.il/en/online/sciencenews/quantum-insights-thought-experiment-reality)
 - [Quantum wonders: The Elitzur-Vaidman bomb-tester](https://www.newscientist.com/article/mg20627596-400-quantum-wonders-the-elitzur-vaidman-bomb-tester/)
 - [Elitzur -Vaidman bomb experiment](https://medium.com/srm-astrophilia/elitzur-vaidman-bomb-experiment-207da83a6a1b)
 - [A Mathematical Exploration of the Elitzur-Vaidman Bomb Experiment in Quantum Mechanics](https://medium.com/quantum-mysteries/a-mathematical-exploration-of-the-elitzur-vaidman-bomb-experiment-in-quantum-mechanics-c817c8f9c8f8)
@@ -142,11 +148,13 @@ This achievement intensifies the question: **What truly separates the quantum fr
 - [Why is quantum mechanics weird? The bomb experiment](https://www.youtube.com/watch?v=RhIf3Q_m0FQ)
   - [Sabine Hossenfelder on the Elitzur-Vaidman bomb tester thought experiment](https://www.reddit.com/r/QuantumPhysics/comments/1b74hog/sabine_hossenfelder_on_the_elitzurvaidman_bomb/)
 
+
 # Epistemology
 
 Epistemology is the philosophical study of the nature, origin, and limits of human knowledge.
 
 - [Sunday Discussion, Part 1: Epistemology Camp 2024](https://www.youtube.com/watch?v=hrq21kiDlGE&t=11s)
+
 
 # Interpretation of Quantum Mechanics
 
@@ -160,6 +168,7 @@ generally fall into two categories: psi-ontological and psi-epistemic.
   - QBism
 
 No matter which interpretation you choose, there is a philosophical price to be paid.
+
 
 ## QBism (Quantum Bayesianism)
 
@@ -221,6 +230,7 @@ Also see some [quotes from John von Neumann][08] and [Paul Dirac's lecture on ma
 - [3 Discoveries in Mathematics That Will Change How You See The World](https://www.youtube.com/watch?v=9UBMEww7XLU)
 - [On the Usefulness of Mathematics: Feynman vs Dyson](https://www.cantorsparadise.com/on-the-usefulness-of-mathematics-feynman-vs-dyson-9f750e7c53e1)
 
+
 # Precision
 
 [Joseph Whitworth](https://en.wikipedia.org/wiki/Joseph_Whitworth)
@@ -237,9 +247,11 @@ BBC Precision The Measure of All Things
 - [The Science Of Roundness](https://www.youtube.com/watch?v=NjbvOTUSqdI)
 - [Retrotechtacular: The Tools And Dies That Made Mass Production Possible](https://hackaday.com/2024/07/03/retrotechtacular-the-tools-and-dies-which-made-mass-production-possible/)
 
----
+---------------
+
 
 # Logic & Philosophy of Mathematics
+
 
 ## What is Mathmatics?
 
@@ -250,6 +262,7 @@ BBC Precision The Measure of All Things
 - [22 Amazing Math Tools That Everyone Should Know But Only Very Few Know](https://ali.medium.com/22-amazing-math-tools-that-everyone-should-know-but-only-very-few-know-8c04c87aa2ef)
 - [Human mathematics and God’s mathematics](https://medium.com/@cb_67963/human-mathematics-and-gods-mathematics-682ac8e7bba)
 - [25 famous definitions of mathematics and why they can’t define it](https://medium.com/@cb_67963/25-famous-definitions-of-mathematics-and-why-they-cannot-define-it-4eabc24aab42)
+
 
 ## Gödel’s Incompleteness Theorems
 
@@ -264,6 +277,7 @@ BBC Precision The Measure of All Things
 - [Gödel's Incompleteness Theorems: An Informal Introduction to Formal Logic](https://www.youtube.com/watch?v=9GjCIU_ZHIo)
 - [Maths, like quantum physics, has observer problems](https://iai.tv/articles/math-like-quantum-physics-has-observer-problems-ed-frenkel-auid-2733)
 
+
 ## What is Logic?
 
 Some have thought that logic will one day be completed and all its problems solved. Now we know it is an endless task.
@@ -272,12 +286,14 @@ Some have thought that logic will one day be completed and all its problems solv
 - [The story of mathematical proof – with John Stillwell](https://www.youtube.com/watch?v=S1AEWuCFq6A)
 - [The patterns of reality](https://aeon.co/essays/more-than-argument-logic-is-the-very-structure-of-reality)
 
+
 ## Paradoxes of Logic
 
 - [The Strengthened Liar and Paradoxes of Incompleteness](https://www.youtube.com/watch?v=5LWQPGjAs3M)
 - [Logic at its Limit: The Grelling-Nelson Paradox](https://www.youtube.com/watch?v=U2l-Ty5yyU4)
 - [Berry's Paradox - An Algorithm For Truth](https://www.youtube.com/watch?v=FDXf1XxCXAk)
 - [Carneades.org](https://www.youtube.com/c/carneadesofcyrene/search?query=paradox)
+
 
 ## Philosophy of Numbers
 
@@ -288,11 +304,13 @@ Some have thought that logic will one day be completed and all its problems solv
 - [“Is God A Mathematician” by Mario Livio](https://medium.com/cantors-paradise/is-god-a-mathematician-by-mario-livio-a7ae4beec5e2)
 - [Why all numbers are imaginary](https://medium.com/@rosk.abed/why-all-numbers-are-imaginary-3b88eda407e6)
 
+
 ## Philosophy of Probability & Statistics
 
 - [What Is Probability? Difficulties Understanding Probability](https://www.youtube.com/watch?v=9ApjAYTRilo)
 - [Probability Is Logic: Philosophy of Probability & Statistics Series](https://www.youtube.com/watch?v=GZRvNvH_oUg)
 - [The better way to do statistics](https://www.youtube.com/watch?v=3jP4H0kjtng)
+
 
 ## Metropolis–Hastings Algorithm
 
@@ -304,6 +322,8 @@ Through the use of random processes, this algorithm offers an efficient way to
 stumble toward answers to problems that are too complicated to solve exactly.
 
 - [The algorithm that (eventually) revolutionized statistics](https://www.youtube.com/watch?v=Jr1GdNI3Vfo)
+- [A Simple Solution for Really Hard Problems: Monte Carlo Simulation](https://www.youtube.com/watch?v=slbZ-SLpIgg)
+
 
 ## What is the Foundation of Mathmatics?
 
@@ -317,11 +337,13 @@ stumble toward answers to problems that are too complicated to solve exactly.
 - [Russell's Paradox - a simple explanation of a profound problem](https://www.youtube.com/watch?v=ymGt7I4Yn3k)
 - Axiom of Choice: [The most controversial axiom in mathematics and its paradoxes](https://nseverkar.medium.com/the-most-controversial-axiom-in-mathematics-and-its-paradoxes-2c0cdfd725cb)
 
+
 ## What are number systems?
 
 - [What is a Number System?](https://web.ma.utexas.edu/users/mks/326K04/what.html)
 - [Number Systems Invented to Solve the Hardest Problem - History of Rings | Ring Theory E0](https://www.youtube.com/watch?v=M-9_rZfVQVE)
 - [Straightedge and Compass Construction](https://en.wikipedia.org/wiki/Straightedge_and_compass_construction)
+
 
 ### Anumeric People
 
@@ -330,11 +352,13 @@ Being numberless: The only words in their anumeric language that are somewhat qu
 
 - [‘Anumeric’ People: What Happens When a Language Has No Words for Numbers?](https://getpocket.com/explore/item/anumeric-people-what-happens-when-a-language-has-no-words-for-numbers)
 
+
 ## What is Physics? What is a Proper Physical Theory?
 
 - [Tim Maudlin: Ontological Clarity, Electromagnetism and the Aharanov-Bohm Effect (EmQM17)](https://www.youtube.com/watch?v=LUE01tjDAb8)
 
----
+---------------
+
 
 # The Langland Program: A Grand Unified Theory of Mathematics
 
@@ -346,6 +370,7 @@ An attempt to connect different "continents" of mathematics
   - [constructive mathematics](<https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)>)
   - [predicative mathematics]()
 - [Masterclass - Edward Frenkel: Mathematics, The Language of Nature](https://www.youtube.com/playlist?list=PL0ocSIkChBRG74s9WyYPE_ouKy20jORFo)
+
 
 # Unreasonable Usefulness of Complex Numbers
 
@@ -374,6 +399,7 @@ An attempt to connect different "continents" of mathematics
 - [The biggest ideas in the Universe - with Sean Carroll](https://www.youtube.com/watch?v=cPgXeeBmPNQ)
 - [Where did the Universe come from? – with Geraint Lewis](https://www.youtube.com/watch?v=BiwhCucM470)
 
+
 # Principle of Least Action (Stationary Action Principle)
 
 - [History of one important physics problem (Brachistocrone)](https://medium.com/@mehdioglu97/history-of-one-important-physics-problem-brachistocrone-eeeeeb30efdf)
@@ -383,13 +409,16 @@ An attempt to connect different "continents" of mathematics
 - [An Introduction to Lagrangians and the Principle of Stationary Action](https://medium.com/@nawaffalbalushi/an-introduction-to-the-calculus-of-variations-and-the-principle-of-stationary-action-efe82d38473)
 - [Generalized Coordinates, Constraints, and D’Alembert’s Principle](https://mohammad-yasir.medium.com/generalized-coordinates-constraints-dalemberts-principle-lagrangian-6c65abb09c07)
 
+
 # Euler-Lagrange Equation
 
 - [God’s Own Equation Solved with Python](https://medium.com/math-simplified/gods-own-equation-solved-with-python-ccd2d09b968c)
 
+
 # Symmetry
 
 - [The Mathematics of Symmetry](https://www.youtube.com/watch?v=YBhqFs6VkxY)
+
 
 ## Modular Forms
 
@@ -397,6 +426,7 @@ German mathematician Martin Eichler said
 "There are five fundamental operations in mathematics: Addition, subtraction, multiplication, division and modular forms."
 
 - [Behold Modular Forms, the ‘Fifth Fundamental Operation’ of Math](https://www.quantamagazine.org/behold-modular-forms-the-fifth-fundamental-operation-of-math-20230921/?mc_cid=732b2ea229&mc_eid=a88c5dceda)
+
 
 # The Infinite and Infinitesimal
 
@@ -445,9 +475,11 @@ German mathematician Martin Eichler said
 
 - [Rethinking the real line](https://www.youtube.com/watch?v=uFWJuZQLKJs)
 
+
 ## Counting to Infinity
 
 - [How To Actually Count To Infinity?](https://medium.com/street-science/how-to-actually-count-to-infinity-966e5220e413)
+
 
 ## Gabriel's Horn
 
@@ -456,12 +488,14 @@ German mathematician Martin Eichler said
 - [Can an infinite space have a finite area?](https://medium.com/@gabrielmfern/can-an-infinite-space-have-a-finite-area-76fc6e7f0b7c)
 - [The Painter’s Paradox and the Mystery of Gabriel’s Horn](https://www.cantorsparadise.com/the-painters-paradox-and-the-mystery-of-gabriel-s-horn-41f668b56559)
 
+
 ## Non-Standard Analysis
 
 - [The Thrilling Story Of Calculus](https://streetscience.net/the-thrilling-story-of-calculus/)
 - [Infinitesimals and Non Standard Analysis](https://www.youtube.com/watch?v=SoU2ePlqG5M&list=RDLVD8_BBoolMm8&index=4)
 - [How to develop a proper theory of infinitesimals I | Famous Math Problems 22a](https://www.youtube.com/watch?v=D8_BBoolMm8&list=RDLVD8_BBoolMm8&start_radio=1)
 - [Dual complex numbers and Leibniz's differentiation rules | Famous Math Problems 22b](https://www.youtube.com/watch?v=dNpjzgkYWVY)
+
 
 # Paradoxes of Infinity
 
@@ -478,9 +512,11 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 - [Aristotle's Wheel Paradox - To Infinity and Beyond](https://www.youtube.com/watch?v=mrVg9GM5h7Q&feature=youtu.be)
 - [How Big are All Infinities Combined? (Cantor's Paradox)](https://www.youtube.com/watch?v=TbeA1rhV0D0)
 
+
 # What is a Paradox?
 
 - [the five kinds of paradox](https://www.youtube.com/watch?v=ppX7Qjbe6BM)
+
 
 # Continuum Hypothesis
 
@@ -488,6 +524,7 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 - [Continuum hypothesis](https://en.wikipedia.org/wiki/Continuum_hypothesis)
 - [The Continuum Hypothesis, explained](https://www.cantorsparadise.com/the-continuum-hypothesis-explained-e4dc95ebe669)
   An explanation of the basics of Cantor's paradox and the Continuum Hypothesis - [Cantor's Paradox](https://www.youtube.com/watch?v=WIrdyu9WquQ)
+
 
 # Does Infinity Exist?
 
@@ -498,11 +535,13 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 - [Insights into Mathematics](https://www.youtube.com/watch?v=WabHm1QWVCA&list=RDCMUCXl0Zbk8_rvjyLwAR-Xh9pQ&start_radio=1)
 - [Math Foundations](https://www.youtube.com/playlist?list=PL5A714C94D40392AB)
 
+
 # Strange Converance
 
 - [The Collatz Conjecture](https://medium.com/cantors-paradise/the-collatz-conjecture-some-shocking-results-from-180-000-iterations-7fea130d0377)
 - [The Simple Math Problem We Still Can’t Solve](https://www.quantamagazine.org/why-mathematicians-still-cant-solve-the-collatz-conjecture-20200922/)
 - [Mathematician Proves Huge Result on ‘Dangerous’ Problem](https://www.quantamagazine.org/mathematician-terence-tao-and-the-collatz-conjecture-20191211/)
+
 
 # Fractals
 
@@ -510,9 +549,11 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 - [The Journey to Define Dimension](https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/)
 - [Newton's Fractal (which Newton knew nothing about)](https://www.youtube.com/watch?v=-RdOwhmqP5s)
 
+
 # Prime Numbers
 
 - [Lehmer Factor Stencils: A paper factoring machine before computers](https://www.youtube.com/watch?v=QzohwKT6TNA)
+
 
 # Euler’s Number
 
@@ -535,16 +576,19 @@ Can you draw the connection between
 
 Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--> Prime Numbers <--> Fundamental Theorem of Arithmetic
 
+
 # Euler’s Formula
 
 - [Euler’s Formula](https://medium.com/swlh/eulers-formula-11a991fc3829)
 - [Euler’s Identity](https://medium.com/swlh/eulers-identity-990b52f0d8fc)
 - [There is no mystery in Euler’s formula](https://medium.com/@miserablemiracle/there-is-no-mystery-in-eulers-formula-427d9daf49)
 
+
 # Group Theory and "The Monster"
 
 - [Group theory, abstraction, and the 196,883-dimensional monster](https://www.youtube.com/watch?v=mH0oCDa74tE)
 - [Euler's formula with introductory group theory](https://www.youtube.com/watch?v=mvmuCPvRoWQ)
+
 
 # Richard Feynman’s Integral Trick and Other Such Things
 
@@ -558,6 +602,7 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 
 - [3 Paradoxes That Gave Us Calculus](https://www.youtube.com/watch?v=EbHqtENNnSY)
 - [This Is the Calculus They Won't Teach You](https://www.youtube.com/watch?v=5M2RWtD4EzI)
+
 
 # A Mathematician's Lament
 
@@ -573,13 +618,16 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
   - [Math Education Rant](https://www.youtube.com/watch?v=bpi3Lk615GA)
   - [Just a rant: Math](https://www.youtube.com/watch?v=RFbuW7Z3HP0)
 
+
 # Discontinuity in Physics
 
 - Shock Wave - [Weak Solutions of a PDE and Why They Matter](https://www.youtube.com/watch?v=zQJkve_hnHk)
 
-# Mathematics Difficulties with Real Numbers, Limits, etc.
+
+# Mathematics Difficulties with Real Numbers, Limits, etc
 
 See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/playlist?list=PL5A714C94D40392AB)
+
 
 # Finding Pi in Unusual Places
 
@@ -599,10 +647,12 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 - [Why Does Pi Show up in the Normal Distribution?](https://towardsdatascience.com/why-does-pi-show-up-in-the-normal-distribution-a10baf4a71f1)
 - [Pi Can Be Expressed Only Using The Numbers 1 and 2](https://keith-mcnulty.medium.com/pi-can-be-expressed-only-using-the-numbers-1-and-2-cae495649f7c)
 
+
 ## Calculating the Nth Digit of Pi
 
 - [Calculating Pi to 10 Trillion Digits](https://hackaday.com/2011/11/28/calculating-pi-to-10-trillion-digits-the-last-number-is-5/)
 - [Simple Arduino Build Lets You Keep An Eye On Pi](https://hackaday.com/2022/03/15/simple-arduino-build-lets-you-keep-an-eye-on-pi/)
+
 
 # Finding e in Unusual Places
 
@@ -610,6 +660,7 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 - [Transcendental Numbers](https://www.cantorsparadise.com/transcendental-numbers-9d4bbe6507cb)
 - [Where Transcendental Numbers Hide in Everyday Math](https://www.quantamagazine.org/where-transcendental-numbers-hide-in-everyday-math-20211027/)
 - [How Math Achieved Transcendence](https://www.quantamagazine.org/recounting-the-history-of-maths-transcendental-numbers-20230627/?mc_cid=a5d4ed3a48&mc_eid=a88c5dceda)
+
 
 # Laplace & Fourier Transforms
 
@@ -621,10 +672,12 @@ See videos 82 - 123 at [Wildberber Math Foundations](https://www.youtube.com/pla
 - [How Heisenberg’s Uncertainty Principle Emerges From the Fourier Transform](https://www.cantorsparadise.com/wave-packets-and-how-heisenbergs-quantum-uncertainty-principle-emerges-from-the-fourier-transform-47c3e47f573b)
 - [The more general uncertainty principle, regarding Fourier transforms](https://www.youtube.com/watch?v=MBnnXbOM5S4)
 
+
 # Mathematical Notation
 
 - [Triangle of Power](https://www.youtube.com/watch?v=sULa9Lc4pck)
 - [The Grammar of Mathematics](https://www.cantorsparadise.com/the-grammar-of-mathematics-7c8bb957ea86)
+
 
 # Category Theory
 
@@ -644,9 +697,11 @@ ZX-calculus was formally introduced in a 2009 paper by Bob Coecke (now the Chief
 
 - [The First Real Application of Category Theory](https://www.youtube.com/watch?v=Njx2ed8RGis)
 
+
 # Card Tricks
 
 - [Amaze your friends! Astound your family!](https://plus.maths.org/content/amaze-your-friends-astound-your-family)
+
 
 # Theorema Egregium
 
@@ -661,7 +716,8 @@ proved by Carl Friedrich Gauss in 1827, that concerns the curvature of surfaces.
 - [The Meaning of the Metric Tensor](https://www.youtube.com/watch?v=Dn0ZZRVuJcU)
 - [The Spacetime Metric](https://www.youtube.com/watch?v=neiJ1SLMrfM)
 
----
+---------------
+
 
 # Philosophy
 
@@ -679,11 +735,13 @@ and by the way, [isn't it dead][07]?
 - [Youtube: Carneades.org](https://www.youtube.com/user/carneadesofcyrene)
 - [Wireless Philosophy](https://www.youtube.com/channel/UCpvhlSLzg2LT89FNUuN-Sig)
 
+
 # Truth
 
 - [Post-Truth: Why Facts Don't Matter Anymore](https://www.youtube.com/watch?v=dvk2PQNcg8w)
 - [There is No Algorithm for Truth - with Tom Scott](https://www.youtube.com/watch?v=leX541Dr2rU)
 - [This is How Easy It Is to Lie With Statistics](https://www.youtube.com/watch?v=bVG2OQp6jEQ)
+
 
 # Very, Very Large Numbers
 
@@ -695,12 +753,14 @@ and by the way, [isn't it dead][07]?
 - [What Is Beyond The Edge?](https://www.youtube.com/watch?v=_IkaetPoBZM)
 - [Mysterious numbers: unlocking the secrets of the Universe - with Tony Padilla](https://www.youtube.com/watch?v=I3N6otveloQ)
 
+
 # Divide By Zero
 
 - [You CAN ivide by Zero!](https://medium.com/@thisscience1/you-can-divide-by-zero-ad4eac936a68)
 - [You CAN Divide by Zero! (Part 2)](https://medium.com/@thisscience1/you-can-divide-by-zero-part-2-8b7b619ee6aa)
 - [How to Divide by Zero](https://www.1dividedby0.com/)
 - [The Riemann Sphere: A world where you can divide by zero](https://www.cantorsparadise.com/the-riemann-sphere-76fe78ebe0d3)
+
 
 # Asymptotic Approximation
 
@@ -709,10 +769,12 @@ and by the way, [isn't it dead][07]?
 - [Stokes' phenomenon: An asymptotic adventure continued](https://plus.maths.org/content/stokes-phenomenon-asymptotic-adventure-continued)
 - [Navier-Stokes Equations](https://www.grc.nasa.gov/WWW/k-12/airplane/nseqs.html)
 
+
 # Navier-Stokes Equations
 
 - [A Brief History of the Navier-Stokes Equations](https://www.youtube.com/watch?v=g-5bi7dxHP4)
 - [Mathematics of Turbulent Flows: A Million Dollar Problem! by Edriss S Titi](https://www.youtube.com/watch?v=VH4oawCiHPU)
+
 
 # Impulse
 
@@ -728,6 +790,7 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 - [A Teaser on Green’s Functions](https://medium.com/@mathcube7/a-teaser-on-greens-functions-a2b5fc4643)
 - [The Road to Quantum Mechanics, Part 7: The Dirac Delta Function](https://www.cantorsparadise.com/the-road-to-quantum-mechanics-part-7-the-dirac-delta-function-374540fae66e)
 
+
 # What is Time
 
 - [Arrows of Time](https://www.quantamagazine.org/what-is-time-a-history-of-physics-biology-clocks-and-culture-20200504/)
@@ -735,15 +798,18 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 - [Time’s Arrow Traced to Quantum Source](https://www.quantamagazine.org/quantum-entanglement-drives-the-arrow-of-time-scientists-say-20140416/)
 - [The New Thermodynamic Understanding of Clocks](https://www.quantamagazine.org/the-new-science-of-clocks-prompts-questions-about-the-nature-of-time-20210831/)
 
+
 # Thermodynamics and Machine Learning
 
 - [The Meaning Behind Logistic Classification, from Physics](https://towardsdatascience.com/the-meaning-behind-logistic-classification-from-physics-291774fda579)
 - [A Physicist’s View: The Thermodynamics of Machine Learning](https://towardsdatascience.com/a-physicists-view-of-machine-learning-the-thermodynamics-of-machine-learning-6a3ab00e46f1)
 - [The Meaning Behind Logistic Classification, from Physics](https://towardsdatascience.com/the-meaning-behind-logistic-classification-from-physics-291774fda579)
 
+
 # What are Complex Numbers?
 
 - [What are complex numbers](https://medium.com/@zsolt.gkiss/there-is-no-such-thing-as-1-4848b7e2380)
+
 
 # What is Randomness?
 
@@ -763,14 +829,17 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 - [Deconstructing Randomness as Chaos and Entanglement in Disguise](https://medium.com/intuitionmachine/there-is-no-randomness-only-chaos-and-complexity-c92f6dccd7ab)
 - [Why Computers Can’t Generate Randomness And how the outside world helps](https://slate.com/technology/2022/06/bridle-ways-of-being-excerpt-computer-randomness.html)
 
+
 # Quantum Randomness
 
 - [The Hunt for Real Randomness - Scott Aaronson Interview on The Filter with Matt Asher Episode #22](https://www.youtube.com/watch?v=hqrQ6D6SkAA)
+
 
 # Random Matrix Theory
 
 - [Getting started with Random Matrices: A Step-by-Step Guide](https://www.cantorsparadise.com/getting-started-with-random-matrices-a-step-by-step-guide-81e5902384e)
 - [Random Matrices in Unexpected Places: Atomic Nuclei, Chaotic Billiards, Riemann Zeta](https://www.youtube.com/watch?v=Y4mnlIvVJEs)
+
 
 # Random Algorithm
 
@@ -782,10 +851,12 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 
 - [The Strategic Benefits of Randomized Decision-Making](https://hbr.org/2023/09/the-strategic-benefits-of-randomized-decision-making)
 
+
 # Emergence
 
 - [What's Strong Emergence?](https://www.youtube.com/watch?v=cgiPQrei4Xc)
 - [Two Fundamentals of Emergence: Emergent Properties and Downward Causation](https://medium.com/paul-austin-murphys-essays-on-philosophy/two-fundamentals-of-emergence-emergent-properties-and-downward-causation-f38740ea1756)
+
 
 # Order Emergent from Chaos
 
@@ -799,6 +870,7 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
   - [Unraveling the Law of Large Numbers](https://towardsdatascience.com/unraveling-the-law-of-large-numbers-e36a3219acb2)
   - [The Law of Large Numbers - Explained](https://www.youtube.com/watch?v=ycuPP72_DVU&t=69s)
 
+
 ## Ramsey Theory
 
 Frank Ramsey theorem stated that if a system is large enough,
@@ -809,6 +881,7 @@ Ramsey theory is the study of when this happens —
 in sets of numbers, in collections of vertices and edges called graphs, and in other systems.
 
 - [A Simple Visual Proof of a Powerful Idea](https://www.quantamagazine.org/a-simple-visual-proof-of-a-powerful-idea-20170413/)
+
 
 # What about Chaos Theory?
 
@@ -836,6 +909,7 @@ in sets of numbers, in collections of vertices and edges called graphs, and in o
 - [Why Can’t I Predict Bitcoin? Takens’ Theorem Illustrated using Neural Network Forecasting](https://medium.com/@thomas_lagrange/why-cant-i-predict-bitcoin-takens-theorem-illustrated-using-neural-network-forecasting-5e3d3ed72997)
 - [Chaos theory and geometry: can they predict our world?](https://www.youtube.com/watch?v=RkiEV47KPX4)
 
+
 # The Hidden Structure of the Universe
 
 - [The Standard Model: The Most Successful Scientific Theory Ever](https://www.youtube.com/watch?v=Unl1jXFnzgo&t=5s)
@@ -845,16 +919,19 @@ in sets of numbers, in collections of vertices and edges called graphs, and in o
 - [Chapter 3: The Cosmologist Who Dreams in the Universe’s Dark Threads](https://www.quantamagazine.org/harvard-cosmologist-cora-dvorkin-dreams-in-dark-matter-20201105/)
 - [Chapter 4: What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
 
+
 # Shaky Foundation of Cosmology
 
 - [The shaky foundations of cosmology | Bjørn Ekeberg](https://www.youtube.com/watch?v=XmzulJsGtZ4)
 - [Are We Living in a Quantum Sandwich?](https://www.youtube.com/watch?v=7v3Y7vs3avc)
+
 
 # Stellar Corpses
 
 - [Stellar Corpses](https://www.youtube.com/watch?v=n1FhudqXgvI)
 - [A Detailed Breakdown of Core Collapse Supernovae](https://www.youtube.com/watch?v=Yt-SBT7nNfU)
 - [Astro Alchemy: Where Rare Elements Come From](https://www.youtube.com/watch?v=3pzjYXBFWz0)
+
 
 # What about Quantum Theory?
 
@@ -901,6 +978,7 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 - [How to Resolve the Necktie Paradox](https://www.cantorsparadise.com/how-to-resolve-the-necktie-paradox-3501770e25a6)
 - [This Is Why You Should Switch Envelopes](https://www.cantorsparadise.com/this-is-why-you-should-switch-envelopes-d07067c24686)
 
+
 # Foundational Quantum Mechanics Experiments & Theories
 
 - [History of Quantum Mechanics](https://en.wikipedia.org/wiki/History_of_quantum_mechanics)
@@ -908,24 +986,29 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
   - [The (Often) Overlooked Experiment That Revealed the Quantum World](https://www.quantamagazine.org/the-often-overlooked-experiment-that-revealed-the-quantum-world-20231205)
   - [Stern–Gerlach Experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)
 
+
 # Delayed Choice Quantum Eraser Experiment
 
 - [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
 - [Boy, Was I Wrong! How the Delayed Choice Quantum Eraser Really works](https://www.youtube.com/watch?v=s5yON4Gs3D0)
 
+
 ## Second Law of Quantum Complexity
 
 - [Can a New Law of Physics Explain a Black Hole Paradox?](https://www.youtube.com/watch?v=yLOHdW7dLug)
 
+
 ## Hilbet Space
 
 - [What's a Hilbert space? A visual introduction _updated audio_](https://www.youtube.com/watch?v=fkQ_W6J19W8)
+
 
 ## Additivity of Probability and Quantum Mechanics
 
 - [When 1+1≠2: How Quantum Physics Broke the Laws of Statistics](https://towardsdatascience.com/how-quantum-physics-broke-the-laws-of-statistics-86fb8941ed2c)
 - [σ-additivity of Probability and Quantum Mechanics](https://physics.stackexchange.com/questions/139202/sigma-additivity-of-probability-and-quantum-mechanics)
 - [Quantum Logic and Probability Theory](https://plato.stanford.edu/entries/qt-quantlog/#QuanProbNuts)
+
 
 # The Universe Isn't Locally Real
 
@@ -934,6 +1017,7 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 - [Scientists make historic breakthrough in quantum entanglement](https://thredmedia.medium.com/scientists-make-historic-breakthrough-in-quantum-entanglement-f5928a2516c3)
   - [How Physicists Proved The Universe Isn't Locally Real - Nobel Prize in Physics 2022 EXPLAINED](https://www.youtube.com/watch?v=txlCvCSefYQ)
 - [How the illusion of an objective reality creates time travel paradoxes](https://medium.com/the-infinite-universe/how-the-illusion-of-an-objective-reality-creates-time-travel-paradoxes-f0af35e661c9)
+
 
 # The Road to Quantum Mechanics
 
@@ -954,12 +1038,14 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 - [Vectors and Covectors](https://joseph-mellor1999.medium.com/vectors-and-covectors-81b64ff6e38b)
 - [An Intro to Differential Forms](https://joseph-mellor1999.medium.com/an-intro-to-differential-forms-b3ec00d43d31)
 
+
 # Quantum Physics and Our View of the Material World
 
 - [We are not empty](https://aeon.co/essays/why-the-empty-atom-picture-misunderstands-quantum-theory)
 - [Calculate but don’t shut up](https://aeon.co/essays/shut-up-and-calculate-does-a-disservice-to-quantum-mechanics)
 - [Minding matter](https://aeon.co/essays/materialism-alone-cannot-explain-the-riddle-of-consciousness)
 - [The math of how atomic nuclei stay together is surprisingly beautiful](https://www.youtube.com/watch?v=FL3ImtGcHqQ)
+
 
 # Quantum Computing
 
@@ -968,11 +1054,13 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 - [EEVblog #1316 - Quantum Computing for Electrical Engineers](https://www.youtube.com/watch?v=nOQhdgY8aBM)
 - [Long Version: Quantum Computing with Andrea Morello](https://www.youtube.com/watch?v=jDW9bWSepB0)
 
+
 # Probabilistic Computing
 
 - [WHAT IS PROBABILISTIC COMPUTING?](https://www.lonja.de/what-is-probabilistic-computing/)
 - [Deterministic, probabilistic, and quantum computation](https://www.youtube.com/watch?v=v6-tQj--yoI)
 - [Purdue’s probabilistic computer solves some quantum queries without needing extreme cold](https://www.fierceelectronics.com/electronics/purdue-s-probabilistic-computer-solves-some-quantum-queries-without-needing-extreme-1)
+
 
 # Heisenberg Uncertainty Principle
 
@@ -988,14 +1076,17 @@ uncertainty is a physical principle as well.
 - [Conjugate Variables](https://en.wikipedia.org/wiki/Conjugate_variables)
 - [Some light quantum mechanics (with minutephysics)](https://www.youtube.com/watch?v=MzRCDLre1b4)
 
+
 # Quantum Field Theory (QFT) & Mathematics
 
 - [Quantum Fields: The Most Beautiful Theory in Physics!](https://www.youtube.com/watch?v=eoStndCzFhg)
 - [The Mystery at the Heart of Physics That Only Math Can Solve](https://www.quantamagazine.org/the-mystery-at-the-heart-of-physics-that-only-math-can-solve-20210610/)
 
+
 # Quantum Quantization
 
 - [This Nobel prize winner’s little known technique may lead to a quantum theory of gravity](https://medium.com/the-infinite-universe/this-nobel-prize-winners-little-known-technique-may-lead-to-a-quantum-theory-of-gravity-caa2f90d5bb1)
+
 
 # The Speed of Light
 
@@ -1018,6 +1109,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Why Nothing Can Move Faster than the Speed of Light](https://medium.com/@RebelScience/why-nothing-can-move-faster-than-the-speed-of-light-a83edd71e941)
 - [How to Actually Understand Time Dilation](https://medium.com/street-science/how-to-actually-understand-time-dilation-3aadd495c657)
 
+
 # Fine-Structure Constant
 
 - [The Most Important Number in the Universe - Ask a Spaceman!](https://www.youtube.com/watch?v=kNjkBeQ-OAw)
@@ -1030,19 +1122,23 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [10 Interesting Mathematical Constants That Changed the World](https://mathladyhazel.medium.com/10-interesting-mathematical-constants-that-changed-the-world-d35cd7a27c1)
 - [Finally… Logic is revealed behind the Golden Ratio, Pi and the Fine-structure constant](https://weslong.medium.com/finally-logic-is-revealed-behind-the-golden-ratio-pi-and-the-fine-structure-constant-b8559c81e192)
 
+
 # Constructor Theory
 
 - [Constructor theory might be revolutionary but what can you do with it?](https://medium.com/the-infinite-universe/constructor-theory-may-not-be-the-science-revolution-it-claims-to-be-347ac51311e)
 - [Will Constructor Theory REWRITE Physics?](https://www.youtube.com/watch?v=hYc97J2MZIo)
 - [Physicists Rewrite the Fundamental Law That Leads to Disorder](https://www.quantamagazine.org/physicists-trace-the-rise-in-entropy-to-quantum-information-20220526)
 
+
 # Quantum Fluctuations
 
 - [Quantum Fluctuations Were Experimentally Proven Way Back In 1947](https://medium.com/starts-with-a-bang/quantum-fluctuations-were-experimentally-proven-way-back-in-1947-35952514e5eb)
 
+
 # What about String Theory?
 
 - [Why String Theory Is Both A Dream And A Nightmare](https://medium.com/starts-with-a-bang/why-string-theory-is-both-a-dream-and-a-nightmare-20f47fe6e99a)
+
 
 # Information
 
@@ -1060,6 +1156,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Episode 3: Computer Science](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgI_ej6ZhGd45-cPoWLZD9pT)
 - [The Great Papers: Information Theory](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgJOTf5YXNq-rdXXuUkJTXHm)
 
+
 # Fractional Calculus and Gamma Function
 
 - [What Lies Between a Function and Its Derivative? | Fractional Calculus](https://www.youtube.com/watch?v=2dwQUUDt5Is)
@@ -1070,14 +1167,17 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Fractional Calculus Demystified: Part 2 Riemann-Liouville Derivatives](https://cafecitocoma.medium.com/fractional-calculus-demystified-part-2-riemann-liouville-derivatives-70d9ceeab249)
   - [Fractional Calculus Demystified: Part 3 The Caputo Derivative and The Fractional Calculus Wishlist](https://cafecitocoma.medium.com/the-caputo-derivative-and-the-fractional-calculus-wishlist-fractional-calculus-demystified-part-7ed6976bdaa2)
 
+
 # Space Filling Curves
 
 - [The Shocking Peano Curve](https://www.cantorsparadise.com/the-shocking-peano-curve-26ccbf69ec6d)
+
 
 # Discrete Calculas
 
 - [The Beauty and Power of Discrete Calculus](https://www.cantorsparadise.com/the-beauty-and-power-of-discrete-calculus-87931daa074)
 - [Quantum Calculus](https://www.quantumcalculus.org/)
+
 
 # Entropy
 
@@ -1098,6 +1198,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 - [Chaos In Perception: The Subjective Nature Of Entropy](https://streetscience.net/chaos-in-perception-the-subjective-nature-of-entropy/)
 
+
 ## Entropy as Disorder (Not)
 
 - [What, Exactly, is Entropy?](https://www.cantorsparadise.com/what-exactly-is-entropy-2a0e2fc067f8)
@@ -1107,9 +1208,11 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Entropy Is Not Disorder: A Physicist’s Perspective](https://medium.com/swlh/entropy-is-not-disorder-a-physicists-perspective-c0dccfea67f1)
 - [It Took Me 10 Years to Understand Entropy, Here is What I Learned.](https://medium.com/cantors-paradise/it-took-me-10-years-to-understand-entropy-here-is-what-i-learned-b2d51e8ccd4c)
 
+
 # Bootstrapping
 
 - [Why the Laws of Physics Are Inevitable](https://www.quantamagazine.org/how-simple-rules-bootstrap-the-laws-of-physics-20191209/)
+
 
 # Probability & Statistics
 
@@ -1121,11 +1224,13 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 - [Probability - Math for Machine Learning](https://www.youtube.com/watch?v=LBemXHm_Ops)
 
+
 ## Beating the Odds
 
 - [The Gambler Who Beat Roulette](https://www.bloomberg.com/features/2023-how-to-beat-roulette-gambler-figures-it-out/)
 - [The Gambler Who Cracked the Horse-Racing Code](https://www.bloomberg.com/news/features/2018-05-03/the-gambler-who-cracked-the-horse-racing-code)
 - [The Gambler's Fallacy is Really Odd](https://www.youtube.com/watch?v=XA_0OMJjkxQ)
+
 
 ## Probability of the Extremely Rare
 
@@ -1141,6 +1246,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [How To Perfectly Predict Improbable Events](https://streetscience.net/how-to-perfectly-predict-improbable-events/)
 - [Predicting catastrophic events with Didier Sornette](https://www.youtube.com/watch?v=J_vtfxJaRBg)
 
+
 ## Probability Paradoxes
 
 - [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
@@ -1151,6 +1257,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
   - [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
 - [Five Paradoxes With Probabilities That Will Puzzle You](https://towardsdatascience.com/five-paradoxes-with-probabilities-that-will-puzzle-you-2f71201d6ee8)
 
+
 ### Monty Hall Problem
 
 - [The Monty Hall Problem: Dividing Statisticians since 1975](https://medium.com/@nahmed3536/the-monty-hall-problem-dividing-statisticians-since-1975-8f298875dcf)
@@ -1158,18 +1265,22 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
 - [Don’t Switch! Why Mathematicians’ Answer to the Monty Hall Problem is Wrong](https://ima.org.uk/4552/dont-switch-mathematicians-answer-monty-hall-problem-wrong/)
 
+
 ### The Boy or Girl Probability Paradox
 
 - [This May Be The Most Counterintuitive Probability Paradox I've Ever Seen | Can you spot the error?](https://www.youtube.com/watch?v=bDZieLmya_I)
 - [The Boy or Girl Probability Paradox Resolved | It was never really a paradox](https://www.youtube.com/watch?v=ElB350w8iJo)
 
+
 ### The Sleeping Beauty Paradox
 
 - [The Most Controversial Problem in Philosophy](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
 
+
 # Universality
 
 - [What Is Universality?](https://www.youtube.com/watch?v=HrtJ3SRQF4E)
+
 
 # Skepticism of Modern Science
 
@@ -1191,6 +1302,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Did scientists get climate change wrong?](https://www.youtube.com/watch?v=-fkCo_trbT8)
 - [The real reason some scientists downplay the risks of climate change](https://www.theguardian.com/commentisfree/2019/oct/25/the-real-reason-some-scientists-downplay-the-risks-of-climate-change)
 
+
 # Risk
 
 - [This is How Easy It Is to Lie With Statistics](https://www.youtube.com/watch?v=bVG2OQp6jEQ)
@@ -1198,14 +1310,17 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [How To Lie With Statistics](https://www.youtube.com/watch?v=dy1-iBh0N0M)
 - [Spurious Correlations](https://www.tylervigen.com/spurious-correlations)
 
+
 # Other Ideas
 
 - [Fixed Points](https://www.youtube.com/watch?v=csInNn6pfT4)
 - [The Art of Code - Dylan Beattie](https://www.youtube.com/watch?v=6avJHaC3C2U)
 
+
 # The Future of Programming
 
 - ["Uncle" Bob Martin - "The Future of Programming"](https://www.youtube.com/watch?v=ecIWPzGEbFc)
+
 
 # Math & Physics: Renormalization
 
@@ -1227,19 +1342,23 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [How Renormalization Saved Particle Physics](https://www.quantamagazine.org/how-renormalization-saved-particle-physics-20200917/)
 - [Strange Numbers Found in Particle Collisions](https://www.quantamagazine.org/strange-numbers-found-in-particle-collisions-20161115/)
 
+
 # Nothingness
 
 - [The Four Different Meanings Of ‘Nothing’ To A Scientist](https://medium.com/starts-with-a-bang/the-four-different-meanings-of-nothing-to-a-scientist-283d9ad185fd)
 - [70 year old quantum prediction comes true, as something is created from nothing](https://medium.com/starts-with-a-bang/70-year-old-quantum-prediction-comes-true-as-something-is-created-from-nothing-d80e95f3cdf2)
+
 
 # Hard Problems
 
 - [Computer Scientists Break Traveling Salesperson Record](https://www.quantamagazine.org/computer-scientists-break-traveling-salesperson-record-20201008/)
 - [Taking a Crack at the Traveling Salesman Problem](https://hackaday.com/2020/10/21/taking-a-crack-at-the-traveling-salesman-problem/)
 
+
 # Critical Phenomena
 
 - [The Fascinating Mystery of Systems with Many Length Scales](https://medium.com/cantors-paradise/the-fascinating-mystery-of-systems-with-many-lengths-24ec663e7d1b)
+
 
 # Quantum Entanglement
 
@@ -1247,23 +1366,28 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [A new perspective on quantum entanglement](https://medium.com/the-infinite-universe/a-new-perspective-on-quantum-entanglement-3dbcde93ffdb)
 - [Is the multiverse dead?](https://medium.com/the-infinite-universe/is-the-multiverse-dead-7a3e4dd76e5d)
 
+
 # What Is a Particle?
 
 - [What Is a Particle?](https://www.quantamagazine.org/what-is-a-particle-20201112/)
 - [Quantum Field Theory: What is a particle?](https://www.youtube.com/watch?v=QPAxzr6ihu8)
+
 
 # Uncomputable Numbers
 
 - [Uncomputable Numbers](https://medium.com/cantors-paradise/uncomputable-numbers-ee528830d295)
 - [These Are the Most Bizarre Numbers in the Universe](https://www.scientificamerican.com/article/these-are-the-most-bizarre-numbers-in-the-universe/)
 
+
 # The Universe Wants to Kill You
 
 - [The Universe Might End Tomorrow](https://medium.com/predict/the-universe-might-end-tomorrow-8916b0d0cee2)
 
+
 # Relativity
 
 - [General Relativity: How Einstein’s wrong ideas led to his greatest success](https://medium.com/the-infinite-universe/general-relativity-how-einsteins-wrong-ideas-led-to-his-greatest-success-dcfe085a417)
+
 
 # Tensors
 
@@ -1277,9 +1401,11 @@ that he came up with the special theory of relativity in 1905 which changed our 
   - [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
 - [A Tensor Description of Surfaces and Curves](https://grinfeld.org/books/A-Tensor-Description-Of-Surfaces-And-Curves/)
 
+
 # Fusion Reactor
 
 - [No Longer 30 Years Away: Two New Major Fusion Breakthroughs](https://medium.com/predict/no-longer-30-years-away-two-new-major-fusion-breakthroughs-bcb65106a013)
+
 
 # The Big Misconception About Electricity
 
@@ -1302,15 +1428,18 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [I bought 1000 meters of wire to settle a physics debate](https://www.youtube.com/watch?v=2Vrhk5OjBP8)
 - [Deep Dive Historical Response to Veritasium’s DC Electricity Video](https://www.youtube.com/watch?v=MyzhyhN2038)
 
+
 # Cryptography & Complexity
 
 - [Randomness and Kolmogorov Complexity](https://www.youtube.com/watch?v=0cHHKDAelCo)
 - [Researchers Identify ‘Master Problem’ Underlying All Cryptography](https://www.quantamagazine.org/researchers-identify-master-problem-underlying-all-cryptography-20220406)
 - [Complexity Theory’s 50-Year Journey to the Limits of Knowledge](https://www.quantamagazine.org/complexity-theorys-50-year-journey-to-the-limits-of-knowledge-20230817/)
 
+
 # Animal Math
 
 - [A basic sense of numbers is shared by countless creatures](https://psyche.co/ideas/a-basic-sense-of-numbers-is-shared-by-countless-creatures)
+
 
 # Conway's Game of Life
 
@@ -1321,20 +1450,24 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Let’s BUILD a COMPUTER in CONWAY's GAME of LIFE ⠠⠵](https://www.youtube.com/watch?v=Kk2MH9O4pXY)
 - [Math’s ‘Game of Life’ Reveals Long-Sought Repeating Patterns](https://www.quantamagazine.org/maths-game-of-life-reveals-long-sought-repeating-patterns-20240118)
 
+
 ## Software for Game of Life
 
 - [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 - [C implementation of Conway's Game of Life](https://github.com/TheLandfill/Game-of-Life--C-)
 - [SIMD in Pure Python](https://www.da.vidbuchanan.co.uk/blog/python-swar.html)
 
+
 # Very Hard Computational Problems
 
 - Reachability Problem / Vector Addition System (VAS): [An Easy-Sounding Problem Yields Numbers Too Big for Our Universe](https://www.quantamagazine.org/an-easy-sounding-problem-yields-numbers-too-big-for-our-universe-20231204/)
+
 
 # What Does Computing Mean?
 
 - [Liquid Computer Made From DNA Comprises Billions of Circuits](https://www.sciencealert.com/liquid-computer-made-from-dna-comprises-billions-of-circuits)
   - [DNA computing](https://en.wikipedia.org/wiki/DNA_computing)
+
 
 # Computation - P vs NP vs NP-Complete vs NP-Hard
 
@@ -1348,11 +1481,13 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - NP-Complete Problems: [The Secret Link Between Thousands of Unsolved Math Problems](https://www.youtube.com/watch?v=ctwX--JEzSA)
 - [How To Understand Computational Irreducibility](https://streetscience.net/how-to-understand-the-computational-irreducibility/)
 
+
 # Turing Machine
 
 - [Turing machines explained visually](https://www.youtube.com/watch?v=-ZS_zFg4w5k)
 - [The Most Important Machine That Was Never Built](https://www.quantamagazine.org/alan-turings-most-important-machine-was-never-built-20230503/)
 - [Alan Turing and the Power of Negative Thinking](https://www.quantamagazine.org/alan-turing-and-the-power-of-negative-thinking-20230905/)
+
 
 # Study of Complexity / Complex Systems
 
@@ -1378,6 +1513,7 @@ In physics, magnetism of everyday materials emerges from the spontaneous alignme
 - [Complexity Explorer](https://www.complexityexplorer.org/)
   - [Complexity Explorer](https://www.youtube.com/@ComplexityExplorer/featured)
 
+
 ## Computational Complexity Theory
 
 The strongest working definition for computation comes via the (strong) Church-Turing Thesis.
@@ -1392,6 +1528,7 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
 - [Undergrad Complexity Theory at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
 - [COMP3010 Lecture Videos](https://www.youtube.com/playlist?list=PLMDZqACtfCkMK0bTUuyJpxXdcC5KSKt5a)
 
+
 ## Agent-Based Modeling (ABM) Tools
 
 - [Simulation of Complex Systems](https://www.youtube.com/playlist?list=PLXmFpdlLypcDl6AjqgLv76vJq1ihmKe2q)
@@ -1402,11 +1539,13 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
   - [Agent-based Coding in NetLogo](https://www.youtube.com/playlist?list=PLyAqVr5CJPzsCIyapaXKw8z-UyeQ_ctNa)
 - [Mesa](https://mesa.readthedocs.io/en/stable/)
 
+
 # Pigeonhole Principle
 
 - [The astonishing power of the pigeonhole principle: the mathematician's Swiss army knife](https://aleph0.substack.com/p/the-astonishing-power-of-the-pigeonhole)
 
----
+---------------
+
 
 # Max Headroom
 
