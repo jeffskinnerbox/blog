@@ -1406,6 +1406,11 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 
 # The Big Misconception About Electricity
+Maxwell's great paper of 1865 , ["A Dynamical Theory of the Electromagnetic Field"](https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field)
+was stated in 20 equations that we rarely see today.
+
+- [A Dynamical Theory of the Electromagnetic Field](https://royalsocietypublishing.org/doi/epdf/10.1098/rstl.1865.0008)
+- [Longair Malcolm 2015‘…a paper …I hold to be great guns’: a commentary on Maxwell (1865) ‘A dynamical theory of the electromagnetic field’](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2014.0473)
 
 - [The Big Misconception About Electricity](https://www.youtube.com/watch?v=bHIhgxav9LY)
 - [How Electricity Actually Works](https://www.youtube.com/watch?v=oI_X2cMHNe0)
@@ -1425,6 +1430,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [How Wrong Is VERITASIUM? A Lamp and Power Line Story](https://www.youtube.com/watch?v=iph500cPK28)
 - [I bought 1000 meters of wire to settle a physics debate](https://www.youtube.com/watch?v=2Vrhk5OjBP8)
 - [Deep Dive Historical Response to Veritasium’s DC Electricity Video](https://www.youtube.com/watch?v=MyzhyhN2038)
+
 
 
 # Cryptography & Complexity
