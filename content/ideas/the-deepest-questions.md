@@ -158,6 +158,8 @@ Epistemology is the philosophical study of the nature, origin, and limits of hum
 
 # Interpretation of Quantum Mechanics
 
+- [From Schrödinger’s Cat to Thomistic Ontology](https://philos-sophia.org/schrodingers-cat-thomistic-ontology/)
+
 [Quantum interpretations](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics)
 generally fall into two categories: psi-ontological and psi-epistemic.
 
