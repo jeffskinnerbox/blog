@@ -391,7 +391,6 @@ An attempt to connect different "continents" of mathematics
 - [Infinity in Numbers — Leonhard Euler](https://www.cantorsparadise.com/the-pursuit-of-truth-and-beauty-in-a-timeless-universe-part-1-baca94d9e587)
 - [The Most Beautiful Equation in the World And the Geometry of Numbers](https://www.cantorsparadise.com/the-most-beautiful-equation-in-the-world-5ab6e49c363)
 - [The Beautiful Gamma Function and the Genius Who Discovered It](https://www.cantorsparadise.com/the-beautiful-gamma-function-and-the-genius-who-discovered-it-8778437565dc)
-- [Exploring a Different Kind of Calculus](https://www.cantorsparadise.com/exploring-a-different-kind-of-calculus-23204e02d545)
 
 - [Why is Zero Factorial 1?](https://medium.com/math-simplified/why-is-zero-factorial-1-83cb340fe883)
 - [How to Take the Factorial of Any Number](https://www.youtube.com/watch?v=v_HeaeUUOnc)
@@ -471,7 +470,6 @@ German mathematician Martin Eichler said
 - [Secret History: Part 1 Georg Cantor's Mystical Philosophy of Infinity](https://www.youtube.com/watch?v=L26Ioa3WAtc&list=RDQM0DRQbISDFMk&start_radio=1)
 - [Secret History: Georg Cantor, Plato, the Many and the One...](https://www.youtube.com/watch?v=ejnMdfFbj7k&list=RDQM0DRQbISDFMk&index=2)
 - [A Song About Georg Cantor](https://www.youtube.com/watch?v=QUP5Z4Fb5k4)
-- [The Thrilling Story Of Calculus](https://streetscience.net/the-thrilling-story-of-calculus/)
 - [What Really Happens When You Invent Infinite Infinities?](https://streetscience.net/what-really-happens-when-you-invent-infinite-infinities/)
 - [Mathematician Explains Infinity in 5 Levels of Difficulty](https://www.youtube.com/watch?v=Vp570S6Plt8)
 
@@ -483,20 +481,43 @@ German mathematician Martin Eichler said
 - [How To Actually Count To Infinity?](https://medium.com/street-science/how-to-actually-count-to-infinity-966e5220e413)
 
 
-## Gabriel's Horn
+## Gabriel's Horn and Space Filling Curves
 
 - [Gabriel's Horn Paradox - Numberphile](https://www.youtube.com/watch?v=yZOi9HH5ueU)
 - [The Painter’s Paradox](https://medium.com/nerd-for-tech/the-painters-paradox-fc0bd1d0e4e7)
 - [Can an infinite space have a finite area?](https://medium.com/@gabrielmfern/can-an-infinite-space-have-a-finite-area-76fc6e7f0b7c)
 - [The Painter’s Paradox and the Mystery of Gabriel’s Horn](https://www.cantorsparadise.com/the-painters-paradox-and-the-mystery-of-gabriel-s-horn-41f668b56559)
+- [The Shocking Peano Curve](https://www.cantorsparadise.com/the-shocking-peano-curve-26ccbf69ec6d)
 
 
-## Non-Standard Analysis
+## Calculus & Non-Standard Analysis
 
+- [The Emergence of Calculus: A Mathematical Journey of Human Thought](https://ali.medium.com/the-emergence-of-calculus-a-mathematical-journey-of-human-thought-c7531bdefb90)
 - [The Thrilling Story Of Calculus](https://streetscience.net/the-thrilling-story-of-calculus/)
+- [3 Paradoxes That Gave Us Calculus](https://www.youtube.com/watch?v=EbHqtENNnSY)
+- [This Is the Calculus They Won't Teach You](https://www.youtube.com/watch?v=5M2RWtD4EzI)
+- [Exploring a Different Kind of Calculus](https://www.cantorsparadise.com/exploring-a-different-kind-of-calculus-23204e02d545)
 - [Infinitesimals and Non Standard Analysis](https://www.youtube.com/watch?v=SoU2ePlqG5M&list=RDLVD8_BBoolMm8&index=4)
 - [How to develop a proper theory of infinitesimals I | Famous Math Problems 22a](https://www.youtube.com/watch?v=D8_BBoolMm8&list=RDLVD8_BBoolMm8&start_radio=1)
 - [Dual complex numbers and Leibniz's differentiation rules | Famous Math Problems 22b](https://www.youtube.com/watch?v=dNpjzgkYWVY)
+
+
+# Discrete Calculas
+
+- [The Beauty and Power of Discrete Calculus](https://www.cantorsparadise.com/the-beauty-and-power-of-discrete-calculus-87931daa074)
+- [Quantum Calculus](https://www.quantumcalculus.org/)
+
+
+# Fractional Calculus and Gamma Function
+
+- [What Lies Between a Function and Its Derivative? | Fractional Calculus](https://www.youtube.com/watch?v=2dwQUUDt5Is)
+- [What is Fractional Calculus?](https://medium.com/cantors-paradise/fractional-calculus-48192f4e9c9f)
+- [What the Heck is a Half Derivative?](https://aflytle.medium.com/what-the-heck-is-a-half-derivative-14524949767b)
+- [Fractional calculus](https://medium.com/@notaredpanda/fractional-calculus-48192f4e9c9f)
+- [Fractional Calculus Demystified: Part 1 Some Intuition Explained](https://cafecitocoma.medium.com/fractional-calculus-demystified-part-1-33a0990126f)
+- [Fractional Calculus Demystified: Part 2 Riemann-Liouville Derivatives](https://cafecitocoma.medium.com/fractional-calculus-demystified-part-2-riemann-liouville-derivatives-70d9ceeab249)
+- [Fractional Calculus Demystified: Part 3 The Caputo Derivative and The Fractional Calculus Wishlist](https://cafecitocoma.medium.com/the-caputo-derivative-and-the-fractional-calculus-wishlist-fractional-calculus-demystified-part-7ed6976bdaa2)
+
 
 
 # Paradoxes of Infinity
@@ -601,9 +622,6 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 - [Hamming, "You and Your Research" (June 6, 1995)](https://www.youtube.com/watch?v=a1zDuOPkMSw)
 - [How Richard Feynman Reinvented Quantum Theory](https://medium.com/cantors-paradise/how-richard-feynman-reinvented-quantum-theory-68395f213cb0)
 - [How Our Reality May Be a Sum of All Possible Realities](https://www.quantamagazine.org/how-our-reality-may-be-a-sum-of-all-possible-realities-20230206/)
-
-- [3 Paradoxes That Gave Us Calculus](https://www.youtube.com/watch?v=EbHqtENNnSY)
-- [This Is the Calculus They Won't Teach You](https://www.youtube.com/watch?v=5M2RWtD4EzI)
 
 
 # A Mathematician's Lament
@@ -1157,28 +1175,6 @@ that he came up with the special theory of relativity in 1905 which changed our 
 - [Episode 2: Information Theory](https://www.youtube.com/watch?v=69-YUSazuic&list=PLbg3ZX2pWlgKDVFNwn9B63UhYJVIerzHL)
 - [Episode 3: Computer Science](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgI_ej6ZhGd45-cPoWLZD9pT)
 - [The Great Papers: Information Theory](https://www.youtube.com/playlist?list=PLbg3ZX2pWlgJOTf5YXNq-rdXXuUkJTXHm)
-
-
-# Fractional Calculus and Gamma Function
-
-- [What Lies Between a Function and Its Derivative? | Fractional Calculus](https://www.youtube.com/watch?v=2dwQUUDt5Is)
-- [What is Fractional Calculus?](https://medium.com/cantors-paradise/fractional-calculus-48192f4e9c9f)
-- [What the Heck is a Half Derivative?](https://aflytle.medium.com/what-the-heck-is-a-half-derivative-14524949767b)
-- [Fractional calculus](https://medium.com/@notaredpanda/fractional-calculus-48192f4e9c9f)
-- [Fractional Calculus Demystified: Part 1 Some Intuition Explained](https://cafecitocoma.medium.com/fractional-calculus-demystified-part-1-33a0990126f)
-- [Fractional Calculus Demystified: Part 2 Riemann-Liouville Derivatives](https://cafecitocoma.medium.com/fractional-calculus-demystified-part-2-riemann-liouville-derivatives-70d9ceeab249)
-  - [Fractional Calculus Demystified: Part 3 The Caputo Derivative and The Fractional Calculus Wishlist](https://cafecitocoma.medium.com/the-caputo-derivative-and-the-fractional-calculus-wishlist-fractional-calculus-demystified-part-7ed6976bdaa2)
-
-
-# Space Filling Curves
-
-- [The Shocking Peano Curve](https://www.cantorsparadise.com/the-shocking-peano-curve-26ccbf69ec6d)
-
-
-# Discrete Calculas
-
-- [The Beauty and Power of Discrete Calculus](https://www.cantorsparadise.com/the-beauty-and-power-of-discrete-calculus-87931daa074)
-- [Quantum Calculus](https://www.quantumcalculus.org/)
 
 
 # Entropy
