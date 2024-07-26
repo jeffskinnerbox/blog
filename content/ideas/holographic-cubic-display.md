@@ -53,9 +53,7 @@ In principle, it is possible to make a hologram for any type of wave.
 * **Beam Splitter**
 * A **Volumetric Display** device is a display device that forms a visual representation of an object in three physical dimensions,
 as opposed to the planar image of traditional screens that simulate depth through a number of different visual effects.
-
-
-Spectroscopic Prism
+* **Spectroscopic Prism**
 
 
 # Hardware
