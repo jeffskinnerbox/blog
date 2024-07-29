@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/docs/grandmaster-clock-for-your-home-gps-stratum-1-server.md`.
@@ -18,6 +18,7 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 
 
 # Can You Simplify With This Approach?
+
 * [Atomic Clock Sync: ESP32 NTP Magic in Just 2 Lines of Code!](https://www.youtube.com/watch?v=K7HHSdpa9t0)
 * [Arduino Nano ESP32 LED matrix precision clock](https://www.hackster.io/marcozonca/arduino-nano-esp32-led-matrix-precision-clock-fd1b6)
 * [Self-Setting Big Clock Build with Nano ESP32 and MicroPython](https://www.hackster.io/doug-domke/self-setting-big-clock-build-with-nano-esp32-and-micropython-45153e)
@@ -33,6 +34,7 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 
 
 # Swiss Railway Clock Design
+
 * [Mondaine](https://mondaine.com/collections/clocks?gclid=CjwKCAjwvdajBhBEEiwAeMh1UxznimxNzUIkfqNSUaTJ0SsMbIYC5gH-rNjFsH64nMYZzc8P0R8jnxoCiUwQAvD_BwE)
 * [Swiss Railway Clock: About The Iconic Design](https://expertworldtravel.com/swiss-railway-clock/)
 * [Swiss Railway Clock / SBB Bahnhofsuhr](https://www.thingiverse.com/thing:6002469)
@@ -53,42 +55,58 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 
 * [Watch Time Slide By With This Electromechanical Clock](https://hackaday.com/2023/02/27/watch-time-slide-by-with-this-electromechanical-clock/)
 
+
 # Why a 12-Hour Clock?
+
 * [Why Do We Really Use The 12-Hour Clock?](https://streetscience.net/why-do-we-really-use-the-12-hour-clock/)
 
+
 # Vector Clock
+
 * [How does your computer know what time it is and why will it break your distributed systems?](https://distributed-computing-musings.com/2023/03/how-does-your-computer-know-what-time-it-is-and-why-will-it-break-your-distributed-systems/)
 * [Lamport Logical Clock: One after the another. But not together](https://distributed-computing-musings.com/2023/04/lamport-clock-one-after-the-another-but-not-together/)
 * [Vector Clocks: So what time is it?](https://distributed-computing-musings.com/2023/04/vector-clocks-so-what-time-is-it/)
 
 
 # Wrong Time Clocks
+
 * [Sneaky Clock Displays Wrong Time If It Catches You Looking](https://hackaday.com/2023/02/23/sneaky-clock-displays-wrong-time-if-it-catches-you-looking/)
 * [The Vetinari Clock](https://hackaday.com/2011/10/12/building-a-better-clock-to-drive-you-insane/)
 * [Confuse Everyone with This Crazy Clock](https://blog.tindie.com/2017/02/confuse-everyone-crazy-clock/)
 
+
 # Hollow Clock
+
 * [Hollow Clock 3 - 3D printed](https://www.youtube.com/watch?v=XCOC2zNjWCg)
 * [Hollow Clock 3](https://www.thingiverse.com/thing:5142739)
 * [Faceless Clock Makes You Think Twice About How It Works](https://hackaday.com/2022/11/18/faceless-clock-makes-your-think-twice-about-how-it-works/)
 * [Hollow Clock 4 : magnetic hour hand control](https://www.youtube.com/watch?v=hRpLiRoMx34)
-    * [Hollow Clock 4](https://www.instructables.com/Hollow-Clock-4/)
-    * [Hollow Clock 4](https://www.thingiverse.com/thing:5636482)
+  * [Hollow Clock 4](https://www.instructables.com/Hollow-Clock-4/)
+  * [Hollow Clock 4](https://www.thingiverse.com/thing:5636482)
+
 
 # Grandfather Clock
+
 * [3D Printed Post Modern Grandfather Clock](https://hackaday.com/2023/04/04/3d-printed-post-modern-grandfather-clock/)
 
+
 # Clock Escape Mechanisms
+
 * [How I Designed A 3D Printed Clock that ACTUALLY WORKS](https://www.youtube.com/watch?v=yfNFbE0ahi0)
 
+
 # LED Filament Clock
+
+* [Constant Current Circuit for Flexible Filament LEDs Using Cytron Maker Nano RP2040 With PWM Brightness Control](https://www.instructables.com/Constant-Current-Circuit-for-Flexible-Filament-LED/)
 * [A Custom Clock With LED Filament Hands](https://hackaday.com/2021/06/25/a-custom-clock-with-led-filament-hands/)
 * ["Charlotte's Web" Style LED Filament Clock](https://www.instructables.com/id/Charlottes-Web-Style-LED-Filament-Clock/)
 * [Old LED Light Bulbs Give Up Filaments for Spider Web Clock](https://hackaday.com/2018/08/01/old-led-light-bulbs-give-up-filaments-for-spider-web-clock/)
 * [LED filament based seven-segment displays](https://hackaday.io/project/182655-led-filament-based-seven-segment-displays)
 * [LED Filaments Make a Retro Clock Without Any Retro Parts](https://hackaday.com/2022/04/05/led-filaments-make-a-retro-clock-without-any-retro-parts/)
 
+
 # Nixie Tube Clock
+
 * ["Lixie", an LED alternative to the Nixie Tube](https://hackaday.io/project/18633-lixie-an-led-alternative-to-the-nixie-tube)
 * [Think IN18s Are Cool? Get A Load Of This Must-Have Custom Nixie Tube](https://hackaday.com/2019/10/02/think-in18s-are-cool-get-a-load-of-this-must-have-custom-nixie-tube/)
 * [EL Wire Neon Nixie Style Clock](https://www.instructables.com/id/EL-Wire-Neon-Nixie-Style-Clock/)
@@ -100,10 +118,14 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 * [NIXIE TUBE POWER SUPPLY](https://jmw.name/projects/flyback-converter/)
 * [Modern Components Enable Cheap and Compact Nixie Driver Circuit](https://hackaday.com/2023/05/02/modern-components-enable-cheap-and-compact-nixie-driver-circuit/)
 
+
 # Doodle Clock
+
 * [Sketch the current time with this Magna Doodle clock](https://www.blogdot.tv/sketch-the-current-time-with-this-magna-doodle-clock/)
 
+
 # Ferrofliud Clock
+
 * [Ferrofluid Clock Display](https://hackaday.io/project/167056-fetch-a-ferrofluid-display)
 * [Unorthodox “Ferrolic” clock displays the time with magnets and ferrofluid](https://www.digitaltrends.com/cool-tech/ferrolic-ferrofluid-clock/)
 * [Rhei Liquid Display Clock](http://www.dudeiwantthat.com/gear/gadgets/rhei-liquid-display-clock.asp)
@@ -112,7 +134,9 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 * [Can This Collaboration Replace Bulky Electromagnets in Ferrofluid Displays with PCB Magnets?](https://www.hackster.io/news/can-this-collaboration-replace-bulky-electromagnets-in-ferrofluid-displays-with-pcb-magnets-cab6888a3615)
 * [Iron Nitrides: Powerful Magnets Without The Rare Earth Elements](https://hackaday.com/2022/09/01/iron-nitrides-powerful-magnets-without-the-rare-earth-elements/)
 
+
 # E-Paper
+
 * [DISPLIO - WiFi display that tracks what’s important to you](https://www.kickstarter.com/projects/914874115/displio-wifi-display-that-tracks-whats-important-t)
 * [E-Paper Clock Displays Things In A Battery-Friendly Manner](https://hackaday.com/2022/05/15/e-paper-clock-displays-things-in-a-battery-friendly-manner/)
 * [E-Paper Clock](https://www.instructables.com/E-Paper-Clock/)
@@ -131,10 +155,13 @@ It was the earliest design of a pendulum clock.
 * [3D Printed Galileo Pendulum](https://www.youtube.com/watch?v=8g-rlaZNAjU)
 * [Galileo Wooden Escapement Mechanism](https://www.instructables.com/id/Galileo-Wooden-Escapement-Mechanism/)
 * [An Atomic Pendulum Clock Accurate Enough For CERN](https://hackaday.com/2023/01/28/an-atomic-pendulum-clock-accurate-enough-for-cern/)
-    * [Elektročas HH3 - the most accurate pendulum clock on the planet](https://dvaluch.web.cern.ch/hh3/)
+  * [Elektročas HH3 - the most accurate pendulum clock on the planet](https://dvaluch.web.cern.ch/hh3/)
+
 
 ## Ping Pong Ball Clock
+
 * [MAKE YOUR OWN PIXEL CLOCK USING PING PONG BALLS AND LEDS!](https://www.yankodesign.com/2021/01/08/make-your-own-pixel-clock-using-leds-and-ping-pong-balls/)
+
 
 ## Clepsydra Clock
 A water clock or clepsydra is any timepiece by which time is measured by
@@ -143,8 +170,11 @@ and where the amount is then measured.
 
 * [Steampunk Clepsydra](https://www.instructables.com/id/Steampunk-Clepsydra-Water-Thief-Clock/)
 
+
 # Ham Radio Clock
+
 * [Ham Clock Raspberry Pi](https://dl1gkk.com/ham-clock-raspberry-pi/)
+
 
 # Weather Clock
 An digital analog clock but instead of showing the hours, the clock shows the weather at that hour of the day.
@@ -154,17 +184,24 @@ Once in the detailed view, simply click the center again to return to the analog
 
 * [Raspberry Pi ‘WeatherClock’ shows you the hour’s forecast](https://www.raspberrypi.org/blog/raspberry-pi-weatherclock-shows-you-the-hours-forecast/)
 
+
 # Dealing with Daylight Savings Time
+
+
 # ESP32 NTP & PTP
+
 * [Atomic Clock Sync: ESP32 NTP Magic in Just 2 Lines of Code!](https://www.youtube.com/watch?v=K7HHSdpa9t0)
 * [Tricks to get NTP time for the ESP32 and the ESP8266 incl. Summer- and Daylight Saving time](https://www.youtube.com/watch?v=r2UAmBLBBRM&feature=youtu.be)
 * [High Precision NTP Client for the ESP32](https://www.lectrobox.com/projects/esp32-ntp/)
 * [Network Time Protocol On The ESP32](https://hackaday.com/2022/05/16/network-time-protocol-on-the-esp32/)
 
+
 # Master/Slave Clock Systems
-* https://en.wikipedia.org/wiki/Master_clock
-* https://en.wikipedia.org/wiki/Slave_clock
+
+* <https://en.wikipedia.org/wiki/Master_clock>
+* <https://en.wikipedia.org/wiki/Slave_clock>
 * [ESP32 Becomes Modern Controller For A 1960s Clock](https://hackaday.com/2020/09/30/esp32-becomes-modern-controller-for-a-1960s-clock/)
+
 
 ## Pulse Per Second (PPS) Signal from the GPS
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
@@ -175,40 +212,49 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [Open Time Server](https://github.com/opencomputeproject/Time-Appliance-Project/tree/master/Open-Time-Server)
 
 * [What’s More Accurate Than A GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
-    * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
+  * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
 * [Why do GPS receivers have a 1 PPS output?](https://electronics.stackexchange.com/questions/30750/why-do-gps-receivers-have-a-1-pps-output)
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [PPS (Pulse per Second) ...simple as that!](https://www.linkedin.com/pulse/pps-pulse-per-second-simple-deepak-kaira/)
 
 * [NTP Server Gets Time From Space](https://hackaday.com/2022/01/20/ntp-server-gets-time-from-space/)
-    * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
-        * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
-        * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
-    * [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
-    * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
-    * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-    * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
+  * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+    * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
+    * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
+  * [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
+  * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
+  * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+  * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
 
 * [A GPS Frequency Standard For When The Timing Has To Be Right](https://hackaday.com/2022/06/29/a-gps-frequency-standard-for-when-the-timing-has-to-be-right/)
 
+
 ### Synchronize Clocks With PPS
+
 * [Using GPS with PPS to synchronize clocks over the network](https://www.youtube.com/watch?v=7aTZ66ZL6Dk)
 * [Sync your project with GPS 1PPS](https://www.youtube.com/watch?v=GAtL5sFmlQg)
 
 ################################################################################
 
+
 # Clock + Ticker Board
+
 * [Morphing Digital Clock Will Show You A Good Time](https://hackaday.com/2018/07/10/morphing-digital-clock-will-show-you-a-good-time/)
 * [This Incredible High-Speed Ticker Board Mimics Your Motion](https://gizmodo.com/5927488/this-incredible-high-speed-ticker-board-mimics-your-motion)
 
 ################################################################################
 
+
 # Clock Projects Websites
+
 * [brettoliver.org.uk](http://brettoliver.org.uk/)
+
 
 # Time Display
 
+
 ## 7-Segment Display
+
 * [Mechanical Seven Segment Display](https://www.printables.com/model/771318-mechanical-seven-segment-display)
 * [One Stepper Plus a Whole Bunch of Magnets Equals a Unique Seven-Segment Display](https://hackaday.com/2022/03/05/one-stepper-plus-a-whole-bunch-of-magnets-equals-a-unique-seven-segment-display/)
 * [Large Pi-based Thermometer and Clock](https://learn.adafruit.com/large-pi-based-thermometer-and-clock/overview)
@@ -227,19 +273,25 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 * [GIANT Modular 7 Segment Display - Easy DIY Guide](https://www.youtube.com/watch?v=pyFtAkwqVZ4)
 * [Supersize Seven Segment Display](https://www.youtube.com/playlist?list=PL5vDt5AALlRfL94OlxlUywtr1JFbjoQK_)
 
+
 ## Big Display
 **Big**
+
 * [DIY Big Digital Clock](https://ivanmiranda.com/pages/diy-big-digital-clock)
-    * [DIY 7 Segment Digital Clock](https://www.youtube.com/watch?v=1aNHF5tcTpw)
+  * [DIY 7 Segment Digital Clock](https://www.youtube.com/watch?v=1aNHF5tcTpw)
 
 **Bigger**
+
 * [Big Workshop Clock Is 3D Printing Done Right](https://hackaday.com/2020/11/01/big-workshop-clock-is-3d-printing-done-right/)
-    * [GIANT 3D PRINTED LED CLOCK](https://www.youtube.com/watch?v=4z82I-032zs)
+  * [GIANT 3D PRINTED LED CLOCK](https://www.youtube.com/watch?v=4z82I-032zs)
 
 * [Build a Super-sized Expandable Seven Segment Display](https://www.instructables.com/How-to-Build-a-Super-sized-Expandable-Seven-Segmen/)
 
+
 ## Rotating Numbers Clock
+
 * [A Nested Gear Clock](https://hackaday.com/2021/12/12/a-nested-gear-clock/)
+
 
 ## Projecting Time on Ceiling
 Project of a clock (or other information) on ceiling in bedroom
@@ -252,10 +304,14 @@ Project of a clock (or other information) on ceiling in bedroom
 * [Laser Projector Relies On Steppers Rather Than Galvanometers](https://hackaday.com/2022/11/02/laser-project-relies-on-steppers-rather-than-galvanometers/)
 * [Portable ESP32 RGB Lasershow Has All The Trimmings](https://hackaday.com/2022/11/21/portable-esp32-rgb-lasershow-has-all-the-trimmings/)
 
+
 ## Keeping Time via 60Hz Mains Power
+
 * [Phase-locked Inverter](https://mitxela.com/projects/phase-locked_inverter)
 
+
 ## Split-Flap Display (aka flip-clock)
+
 * [How a Split-Flap Display Works](https://www.youtube.com/watch?v=UAQJJAQSg_g)
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
 * [Splitflap](https://scottbez1.github.io/splitflap/)
@@ -277,6 +333,7 @@ Project of a clock (or other information) on ceiling in bedroom
 * [A Flip Clock That Flips Up, Not Down](https://hackaday.com/2021/11/24/a-flip-clock-that-flips-up-not-down/)
 * [Non-Split-Flap Clock Does It With Fewer Flaps](https://hackaday.com/2024/05/16/non-split-flap-clock-does-it-with-fewer-flaps/)
 
+
 ## Cyclotron Clock
 The digits in this clock are based on a perpetual calendar dating back to the early 1900s.
 
@@ -284,13 +341,18 @@ The digits in this clock are based on a perpetual calendar dating back to the ea
 * [Cyclotron Clock](http://www.brettoliver.org.uk/Cyclotron_Clock/Cyclotron_Clock.htm)
 * [Cyclotron Clock](https://www.thingiverse.com/thing:5436145)
 
+
 ## Twister Clocks
+
 * [Be Mesmerized By The Latest Time Twister](https://hackaday.com/2021/12/18/be-mesmerized-by-the-latest-time-twister/)
 
+
 ## Math Clock
-Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall+clock
+Make a Math Wall Clock using e-Paper - <https://www.google.com/search?q=math+wall+clock>
+
 
 ## Other
+
 * [Knitting Clock Makes You a Scarf for Next Year](https://hackaday.com/2023/01/23/knitting-clock-makes-you-a-scarf-for-next-year/)
 * [Tiny Bubbles In The Clock](https://hackaday.com/2019/12/20/tiny-bubbles-in-the-clock/)
 * [Do You Know Where Your Children Are? Check The Weasley Clock](https://hackaday.com/2020/07/29/do-you-know-where-your-children-are-check-the-weasley-clock/)
@@ -312,7 +374,7 @@ Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall
 * [Gyrotourbillon](https://www.thingiverse.com/thing:2820444)
 * [Spiral Exhaust Movement](https://cults3d.com/en/3d-model/various/mouvement-echappement-spiral)
 * [3D-printed Watch with Tourbillon](https://www.thingiverse.com/thing:1249221)
-    * [3D-printed Watch with Tourbillon - How it's made](https://www.youtube.com/watch?v=Go8woPGOggg&app=desktop)
+  * [3D-printed Watch with Tourbillon - How it's made](https://www.youtube.com/watch?v=Go8woPGOggg&app=desktop)
 * [The Clockwerk 3D-Printed Triple-Axis Tourbillon by Adam Wrigley](https://www.youtube.com/watch?v=8KMbHNoY5zc)
 * [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/thing:328569)
 * [3D printed mechanical Clock with Anchor Escapement](https://www.thingiverse.com/make:704836)
@@ -322,7 +384,7 @@ Make a Math Wall Clock using e-Paper - https://www.google.com/search?q=math+wall
 * [Hawk Eye is a 3D Printed Triple-Axis Tourbillon](https://all3dp.com/hawk-eye-is-a-3d-printed-triple-axis-tourbillon/)
 * [3D Printed Tourbillon Mechanical Clock](https://www.youtube.com/watch?v=4DHofJbkiFo&feature=youtu.be)
 * [3D-Print Triaxial Tourbillon Clock](https://www.thingiverse.com/thing:3415296/)
-    * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
+  * [Jacob & Co. Astronomia Tourbillon Tutorial Video](https://www.youtube.com/watch?v=N861ozj7QYU)
 * [riaxial Tourbillon Clock (Astronomia) by A26](https://www.thingiverse.com/thing:3061474)
 * [A Mind Blowing Mechanical Work Of Art - 3D Printed Tri-Axial Tourbillon](https://www.youtube.com/watch?v=j4Cfn5iATys)
 * [3D Printed Gear Clock with Geneva Mechanism](https://www.youtube.com/watch?v=XTgeFkigeLo)
@@ -368,20 +430,26 @@ It means all communications between your browser and the website are encrypted.
 * [Use UEFI Secure Boot NOW!](https://www.youtube.com/watch?v=Mqh9o8YY2dg)
 
 
-----
+---------------
+
 
 # Objectives
+
 * Clock with hidden functionality (e.g. fan controller)
 * Periodic blackout periods for WiFi access (aka turn off WiFi radio to save power)
 * Clock should run for as long as possible unplugged, other functions turned off
 * [Using the ESP8266 to build the Internet of Things](https://www.youtube.com/watch?v=CjeDkmm0w_w&app=desktop)
 
+
 # Getting and Keeping Time
+
 * ["Connect" to an atomic clock in space! GPS, DCF77](http://hackaday.io/project/1353)
 * [WWV Radio Station](http://en.wikipedia.org/wiki/WWV_%28radio_station%29)
 * [What Will You Do If WWVB Goes Silent?](https://hackaday.com/2018/08/20/what-will-you-do-if-wwvb-goes-silent/)
 
+
 # Network Time Protocol (NTP)
+
 * [Introduction to NTP](https://www.akadia.com/services/ntp_synchronize.html)
 Sometimes, knowing the time of day or having prcise timing signal is a prime concern.
 For example, imagine a relay that has to be activated at a certain time or
@@ -403,6 +471,7 @@ In this manner clients can synchronize to servers regardless of location and tim
 >closely related to GMT (Greenwich Mean Time).
 >UTC does not vary, it is the same world wide.
 
+
 ## NTP Architecture
 NTP uses a hierarchical architecture.
 Each level in the hierarchy is known as a stratum.
@@ -418,6 +487,7 @@ Stratum 1: These are computers that directly get the time from stratum 0 devices
 Stratum 2: These are computers that synchronize their time with stratum 1 computers, presumably over a network.
 Stratum 3 ... 15: These computers synchronize with other computers that are closer to the time sources. Stratum 15 is the maximum used; if you can't be within 15 hops of a primary source then you are not considered to be synchronized.
 
+
 ## How NTP Works?
 NTP can operate in a number of ways.
 The most common configuration is to operate in client-server mode.
@@ -428,6 +498,7 @@ The basic working principle is as follows:
 1. In response to this request the NTP server sends a time stamp packet.
 1. A time stamp packet contains multiple information like UNIX timestamp, accuracy, delay or timezone.
 1. A client can then parse out current date & time values.
+
 
 ## NTP Server
 The NTP acronym stands for [Network Time Protocol][07],
@@ -469,9 +540,9 @@ This will lessen the chance that the signal is not routed up to a geostationary 
 
 Public server examples:
 
-* Global; www.pool.ntp.org/zone/@
-* Asia; www.pool.ntp.org/zone/asia
-* Iran; www.pool.ntp.org/zone/ir
+* Global; <www.pool.ntp.org/zone/@>
+* Asia; <www.pool.ntp.org/zone/asia>
+* Iran; <www.pool.ntp.org/zone/ir>
 
 Typically, the URL will be something like x.asia.pool.ntp.org where x = 0,1,2 or 3.
 
@@ -479,7 +550,9 @@ Even Google has gotten into the NTP server,
 with their claim to fame being [leap-smeared time][54].
 They use this technology to smoothly handle leap seconds with no disruptive events.
 
+
 ## Real Time Clock (RTC)
+
 * [Choosing The Right RTC For Your Project](https://hackaday.com/2020/09/30/choosing-the-right-rtc-for-your-project/)
 
 A [real time clock (RTC)][06] is basically just like a watch.
@@ -513,15 +586,18 @@ is a synchronous, master/slave, packet switched serial computer bus.
 I2C is a serial protocol for two-wire interface to connect low-speed devices.
 [Adafruit has a elementary introduction to I2C][10].
 
+
 ## Internal Clock
 A lot of project site tell you to use an RTC for time related projects,
 but in this Internet connected age, I don't think they really add value.
 The [internal clock of a ESP8266 will drift only 1 or 2 seconds per day][52],
 and therefore, if you sync your clock  daily with NTP, you should be fine for most any use.
 
-----
+---------------
+
 
 # ESP8266 Clock (Using NTP and without RTC)
+
 * [HackerBoxes 0008: Clockwork](https://www.instructables.com/id/HackerBoxes-0008-Clockwork/)
 * [Exact Time without RTC Module for the ESP8266: NTP Time](https://www.youtube.com/watch?v=qzkNXhubWLg)
 * [ESP8266 NTP CLOCK](https://www.nutsvolts.com/magazine/article/June2016_ESP8266-NTP-Clock)
@@ -543,6 +619,7 @@ and when combined this with his approach for
 [scheduling a daily task][24] and use of [RTC memory][25],
 you get a very interesting platform.
 
+
 # Over-The-Air (OTA) Firmware Updates
 OTA updates are critically important to developers with connected devices.
 I'm going to list several best practices developers should keep in mind with implementing their OTA solution.
@@ -562,11 +639,13 @@ It’s also a good idea to ensure that the bootloader is built into a chain of t
 A chain-of-trust is a sequence of events that occur while booting the device that ensures each link in the chain is trusted software. For example, I’ve been working with the Cypress PSoC 64 secure MCU’s recently and these parts come shipped from the factory with a hardware-based root-of-trust to authenticate that the MCU came from a secure source. That Root-of-Trust (RoT) is then transferred to a developer, who programs a secure bootloader and security policies onto the device. During the boot sequence, the RoT verifying the integrity and authenticity of the bootloader, which then verifies the integrity and authenticity of any second stage bootloader or software which then verifies the authenticity and integrity of the application. The application then verifies the authenticity and integrity of its data, keys, operational parameters and so on.
 This sequence creates a Chain-Of-Trust which is needed and used by firmware OTA updates. When the new firmware request is made, the application must decrypt the image and verify that authenticity and integrity of the new firmware is intact. That new firmware can then only be used if the Chain-Of-Trust can successfully make its way through each link in the chain. The bottom line, a developer and the end user know that when the system boots successfully that the new firmware is legitimate.
 
+
 ## Establish Arduino IDE Development Environment
 In this section, my objective is to get my coding environment,
 the Arduino IDE, up in running for my ESP8266 platform.
 I'll use a simple program (temperature + humidity sensor read via One-Wire)
 to test things out.
+
 
 ### Step 1: Download and Install Arduino IDE - DONE
 You can download the Arduino IDE from the [Arduino software website][35].
@@ -605,6 +684,7 @@ the IDE via the command `arduino &>/dev/null &`.
 >so you should check Arduino website every few months and download
 >a new version if one is available.
 
+
 ### Step 2: Start Arduino IDE and Set Preferences - DONE
 Next well start the IDE and set our preferences:
 
@@ -612,6 +692,7 @@ Next well start the IDE and set our preferences:
 2. Open the preferences window from the Arduino IDE.
 Go to **File** > **Preferences**
 3. On the pop-up, make your **Sketchbook location:** `/home/jeff/src/arduino-Nov-5-2018/sketch-folder`.
+
 
 ### Step 3: Load Needed Libraries - DONE
 The ESP8266 addon for the Arduino IDE
@@ -626,7 +707,7 @@ Here are the abbreviated installation steps:
 1. Start the Arduino Software IDE via the command `arduino &>/dev/null &`.
 2. Open the preferences window from the Arduino IDE.
 Go to **File** > **Preferences**
-3. Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into
+3. Enter <http://arduino.esp8266.com/stable/package_esp8266com_index.json> into
 the **Additional Board Manager URLs** field as shown in the figure below. Then, click the **OK** button.
 (**NOTE:** If you already have a URL in there, and want to keep it,
 you can separate multiple URLs by placing a comma between them.)
@@ -634,11 +715,12 @@ you can separate multiple URLs by placing a comma between them.)
 There should be a couple new entries in addition to the standard Arduino boards.
 Look for ESP8266. Click on that entry, then select **Install**.
 5. While your at it, you should repeat steps 2,3 & 4 for the ESP32 (see [arduino-esp32 GitHub][40]).
-These libraries are located at https://dl.espressif.com/dl/package_esp32_index.json
+These libraries are located at <https://dl.espressif.com/dl/package_esp32_index.json>
 
 For the code below, we'll also need two additional libraries.
 You can do this via **Tools** > **Manage Libraries...** > enter "Adafruit Unified Sensors" and install.
 Repeat with the filter "DHT sensor" and select "DHT sensor by Adafruit".
+
 
 ### Step 4: Wire-up a ESP8266 - DONE
 In my case, I'm using the [NodeMCU DevKit][34]
@@ -648,6 +730,7 @@ manufactured by [HiLetgo][27] and easily obtainable via
 Follow the wiring diagram found on the Losant website,
 "[Getting Started with ESP8266 and DHT22 Sensor][41]"
 and you'll find more information at "[DHT11, DHT22 and AM2302 Sensors][33]".
+
 
 ### Step 5: Load ESP8266 with Software - DONE
 With the ESP8266 libraries installed,
@@ -663,7 +746,8 @@ Typically, this will be `/dev/ttyUSB0`.
 3. Download the code to the ESP8266 via the arrow icon.
 4. Select the serial monitor icon on the top right to see the data
 
------
+---------------
+
 
 # Establish ESP8266/ESP32/Arduino Makefile Development Environment
 One of the main reasons why the Arduino boards and the IDE are very popular
@@ -690,7 +774,9 @@ The [Esp8266-Arduino-Makefile README.md file][72] provides the only documentatio
 but knowing about and reading the documentation for the [Arduino-Makefile][65] is a big help.
 What follows was taken from those sources.
 
+
 ## Esp8266-Arduino-Makefile
+
 
 ### Step 1: Install Esp8266-Arduino-Makefile
 
@@ -712,6 +798,7 @@ chmod +x esp32-install.sh && ./esp32-install.sh
 
 >**NOTE:** I believe you can update the esp8266/esp32 tools and libraries by
 >simply rerunning the scripts `./esp8266-install.sh` and `./esp32-install.sh`.
+
 
 ### Step 2: Test Your Install
 Now lets test the install.
@@ -739,6 +826,7 @@ make
 make clean
 ```
 
+
 ### Step 3: Usage of Esp8266-Arduino-Makefile
 You can now create your Makefile for your project.
 The approach is very similar to when using [Arduino-Makefile][65].
@@ -762,6 +850,7 @@ See [here][73] for additional examples.
 See below for how to run the make tool on the Makefile.
 
 The types of boards supported
+
 * ~/src/arduino-esp-makefile/esp32-1.0.0/boards.txt
 * ~/src/arduino-esp-makefile/esp8266-2.4.2/boards.txt
 
@@ -923,6 +1012,7 @@ make -f ~/src/makeEspArduino/makeEspArduino.mk flash
 make -f ~/src/makeEspArduino/makeEspArduino.mk flash_fs
 ```
 
+
 ### Step 2: Test the Installation
 Next we'll verify the installation with a quick test.
 Attach a ESP8266 or ESP32 board and execute the following commands:
@@ -943,6 +1033,7 @@ If all goes well, the make tool will create a large number of temporary
 The `.o` object files will be linked together to create an executable in [ELF format][69],
 and then flash the ESP via the `esptool`.
 
+
 ### Step X: Building a Project
 You can now use the makefile `~/src/makeEspArduino/makeEspArduino.mk`
 to build your own sketches or any of the examples in the ESP/Arduino environment.
@@ -961,10 +1052,10 @@ ROOT := $(THIS_DIR)/..
 
 # if makeEspArduino doesn't pickup a library or header, put it here
 LIBS = $(ESP_LIBS)/SPI \
-	$(ESP_LIBS)/Wire \
-	$(ESP_LIBS)/ESP8266WiFi \
-	$(ESP_LIBS)/ESP8266WebServer \
-	$(ESP_LIBS)/DNSServer
+ $(ESP_LIBS)/Wire \
+ $(ESP_LIBS)/ESP8266WiFi \
+ $(ESP_LIBS)/ESP8266WebServer \
+ $(ESP_LIBS)/DNSServer
 LIBS += $(ARDUINO_LIBS)/PersWiFiManager
 
 CHIP = esp8266       # allowed values are 'esp8266', 'esp32', and 'generic'
@@ -979,16 +1070,25 @@ FLASH_DEF=4M3M
 include /home/jeff/src/makeEspArduino/makeEspArduino.mk
 ```
 
-### Step X: Building a SPIFFS Filesystem
-### Step X: Building an Object File Library
-### Step X:
-### Step X:
 
-----
+### Step X: Building a SPIFFS Filesystem
+
+
+### Step X: Building an Object File Library
+
+
+### Step X
+
+
+### Step X
+
+---------------
+
 
 ## Get Clock Display Working
 Before creating the software logic for the clock,
 lets get the physical wiring established and test it.
+
 
 ### Step X: Load Needed Boards - DONE
 Within the Ardiuno IDE,
@@ -1000,6 +1100,7 @@ An alternative is is to use the Arduino command line tool, `arduino-cli`,
 via the command: `arduino-cli core install esp8266:esp8266`
 (Use `arduino-cli core install esp32:esp32` for the ESP32 boards).
 
+
 ### Step 1: Load Needed Libraries - DONE
 As you did earlier when setting up your development envirnment, within the Ardiuno IDE,
 navigate to the Board Manager by going to **Tools** > **Manage Libraries...**.
@@ -1010,10 +1111,12 @@ Alternatively, you can use the Arduino command line tool,
 `arduino-cli lib install "arduino-timer" "Adafruit GFX Library" "Adafruit LED Backpack Library" "Time" "Timezone"`.
 `arduino-cli lib install "DoubleResetDetect"`.
 
+
 ### Step 2: Assembling 7-Segment Display - DONE
 I purchased a large 7-segment display from Adafruit ([display][32] + [backpack][31]) for the clock face.
 Adafruit provides [detail instructions][30] on how to do the assembly of the components.
 Follow these instructions for assembly.
+
 
 ### Step 3: Wiring the 7-Segment Display - DONE
 With the physical assembly done, its time to wire the display to the ESP8266.
@@ -1080,6 +1183,7 @@ void loop() {
 }
 ```
 
+
 ## Get Clock Software Logic Working
 When using a real-time clock (RTC), you need to provide hardware and logic
 to allow manual adjustment of the time.
@@ -1100,6 +1204,7 @@ Two libraries are key to make this happen:
 
 * [Arduino Time Library][49] - Here you will find basic time management functions.  It can be used used with: a Real Time Clock, internet NTP time service, GPS time data, and Serial time messages from a computer for time synchronization.
 * [Arduino Timezone Library][50] - This library works with Arduino Time Library to convert UTC time to a particular time zone and includes support for Daylight Saving Time.
+
 
 ### Step X: Installing Arduino Library from GitHub - DONE
 There are many Arduino libraries supported natively by the Arduino IDE.
@@ -1127,7 +1232,9 @@ wget https://github.com/JChristensen/Timezone/archive/master.zip -O Timezone.zip
 
 Then perform step 3 & 4 above.
 
+
 ### Step X: Install NTP Client and Test - DONE
+
 * [Tricks to get local NTP time for the ESP32 and the ESP8266 incl. Summer- and Daylight Saving time](https://www.youtube.com/watch?v=r2UAmBLBBRM&t=86s)
 
 Following the article ["ESP8266 - NTP Client and Daylight Saving Time"][48] as a guide,
@@ -1138,11 +1245,16 @@ for getting the correct time information,
 but now lets move onto other required functions.
 
 Other ideas
-* https://github.com/stelgenhof/NTPClient
-* https://github.com/esp8266/Arduino/blob/master/libraries/esp8266/examples/NTP-TZ-DST/NTP-TZ-DST.ino
 
-### Step X:
-### Step X:
+* <https://github.com/stelgenhof/NTPClient>
+* <https://github.com/esp8266/Arduino/blob/master/libraries/esp8266/examples/NTP-TZ-DST/NTP-TZ-DST.ino>
+
+
+### Step X
+
+
+### Step X
+
 
 ## Get Timer Interrupt Drive Actions Working
 In the above section, we generated updates to the clock display by
@@ -1158,11 +1270,14 @@ The [arduino-timer library][53] is part of the Ardunio IDE site of libraries,
 and is a simple non-blocking timer library for calling functions **in / at / every** specified units of time.
 It supports millis, micros, time rollover, and compile time configurable number of tasks.
 
+
 ### Step X: Install arduino-timer
 For the code below, we'll also need an additional library.
 You can do this via **Tools** > **Manage Libraries...** > enter "arduino-timer" and install.
 
+
 ### Step X: Test arduino-timer
+
 ```cpp
 #include <timer.h>
 
@@ -1201,16 +1316,21 @@ void loop() {
 }
 ```
 
-### Step X:
+
+### Step X
+
 
 ## Create the NTP Driven Clock
 Now its time to combine the code fragments for the clock display, NTP client, and interrupt timers
 to create the foundation for a ESP8266 driven clock.
 
-----
+---------------
+
 
 # MQTT
+
 * [Arduino Client for MQTT](https://pubsubclient.knolleary.net/index.html)
+
 
 ## Step X: Install Required Arduino IDE Libraries - DONE
 For the code below, we'll also need an additional library.
@@ -1220,19 +1340,25 @@ Better yet, use the Arduino command line tool:
 `arduino-cli lib install "PubSubClient"`
 (run `arduino-cli lib list` to see the status of the install).
 
+
 ## Step X: Test Library Install and Your Broker
 Before proceeding to my ntp-clock code,
 I want to make sure the library is properly installed and working with my targeted MQTT broker.
 To do this, I used on of the examples that comes with the Adafruit MQTT Library.
 I choose [this example code][78].
 
-## Step X:
-## Step X:
-## Step X:
+
+## Step X
+
+
+## Step X
+
+
+## Step X
 
 
 
-----
+---------------
 
 
 
@@ -1248,17 +1374,18 @@ Finally, add a AM/PM indicator on the clock face.
 
 
 
-----
+---------------
 
 
 # Over The Air (OTA) Programming
+
 * [ESP8266 Over The Air (OTA) Programming Without Reset Using Arduino IDE (Mac OSX and Windows)](https://www.youtube.com/watch?v=3aB85PuOQhY&t=20s)
 * [OTA ESP32 GUI Makes Updates Simple](https://hackaday.com/2020/06/23/ota-esp32-gui-makes-updates-simple/)
 * [Library Makes ESP Over the Air Updates Easy](https://hackaday.com/2019/03/21/library-makes-esp-over-the-air-updates-easy/)
 * [Enginursday: Updating an ESP32 over BLE](https://www.sparkfun.com/news/3325)
 
 
-----
+---------------
 
 
 
@@ -1268,18 +1395,19 @@ Finally, add a AM/PM indicator on the clock face.
 # SGP30 Air Quality Sensor
 This part will measure eCO2 (equivalent calculated carbon-dioxide) concentration within a range of 400 to 60,000 parts per million (ppm), and TVOC (Total Volatile Organic Compound) concentration within a range of 0 to 60,000 parts per billion (ppb).
 
-* https://www.adafruit.com/product/3709
-* https://www.adafruit.com/product/3660
+* <https://www.adafruit.com/product/3709>
+* <https://www.adafruit.com/product/3660>
 * [air quality index (AQI)](https://en.wikipedia.org/wiki/Air_quality_index)
 * [Building A Full-Fat Air Quality Monitor](https://hackaday.com/2019/09/03/building-a-full-fat-air-quality-monitor/)
 
 
 
-----
+---------------
 
 
 
 # Checkout More Sensors
+
 * [WiFi Sniffer as a Human detector](https://github.com/SensorsIot/Wi-Fi-Sniffer-as-a-Human-detector)
 * [Detect When a Device Is Nearby with the ESP8266 Friend Detector](https://null-byte.wonderhowto.com/how-to/detect-when-device-is-nearby-with-esp8266-friend-detector-0188642/)
 * [Making a DIY thermal camera based on a Raspberry Pi](https://habr.com/en/post/441050/)
@@ -1287,7 +1415,7 @@ This part will measure eCO2 (equivalent calculated carbon-dioxide) concentration
 
 
 
-----
+---------------
 
 
 
@@ -1306,6 +1434,7 @@ you can also use it as an altimeter from 0ft to 30Kft (±1 meter accuracy)!
 * [Create A Simple ESP8266 Weather Station With BME280](https://lastminuteengineers.com/bme280-esp8266-weather-station/)
 * [MAKING A SIMPLE WEATHER WEB SERVER USING ESP8266 AND BME280](http://embedded-lab.com/blog/making-simple-weather-web-server-using-esp8266-bme280/)
 
+
 ### Step 1: Load Needed Libraries - DONE
 As you did earlier when setting up your development envirnment, within the Ardiuno IDE,
 navigate to the Board Manager by going to **Tools** > **Manage Libraries...**.
@@ -1315,19 +1444,25 @@ Click on this entry, then select **Install**.
 Alternatively, you can use the Arduino command line tool,
 `arduino-cli lib install "Adafruit BME280 Library" "Adafruit Unified Sensor"`.
 
+
 ### Step X: Wiring BME280 Sensor to ESP8266 NodeMCU
 The BME280 module has a two-wire I2C interface for communication.
 The default I2C address of the BME280 module is `0x76`
 (it can be changed to `0x77` with [this procedure][82]).
 The operating voltage of the BME280 module is from 3.3V to 5V.
 
-### Step X:
-### Step X:
-### Step X:
+
+### Step X
+
+
+### Step X
+
+
+### Step X
 
 
 
-----
+---------------
 
 
 
@@ -1347,6 +1482,7 @@ is a light-weight file system for microcontrollers with an SPI flash chip.
 It was designed for SPI flash devices on constrained embedded microprocessor systems with little RAM.
 
 >**NOTE:**
+>
 >* Currently, SPIFFS does not support directories.
 >It produces a flat structure.
 >For example, if SPIFFS is mounted under `/spiffs`,
@@ -1494,6 +1630,7 @@ Where:
      (required)  spiffs image file
 ```
 
+
 ### Step X: Preparing Filesystem with `mkspiffs`
 `mkspiffs` is a tool to build and unpack SPIFFS images.
 The images can be built on you development computer and uploaded during flashing.
@@ -1518,7 +1655,7 @@ So I created a directory called `data`,
 and created in that directory a file with the information my project needed.
 The file I used (`info.json`) is:
 
-```
+```json
 {
     "personal": {
         "first-name": "Jeff",
@@ -1542,6 +1679,7 @@ The file I used (`info.json`) is:
     }
 }
 ```
+
 So for `ntp-clock`, I did the following:
 
 ```bash
@@ -1560,11 +1698,12 @@ python esptool.py --chip esp8266 --port /dev/ttyUSB0 --baud 115200 write_flash -
 
 
 
-----
+---------------
 
 
 
 ## Support Functions
+
 * [WiFiManager with ESP32 - Stop Hard-coding WiFi Credentials](https://www.youtube.com/watch?v=VnfX9YJbaU8)
 
 * [PersWiFiManager](http://ryandowning.net/PersWiFiManager/examples.html)
@@ -1595,6 +1734,7 @@ It is also more memory efficient, as it does not have to dynamically build the p
 and can serve it from [SPIFFS][62] (flash file system created independent of compiler)
 rather than [PROGMEM][61] (compile time flash loading).
 
+
 ### Step X: SPIFFSReadServer Web Server
 [SPIFFSReadServer](http://ryandowning.net/SPIFFSReadServer/)
 is a SPI Flash File System (SPIFFS) server extension of the
@@ -1614,13 +1754,17 @@ regardless of WiFi connection status.
 While AP mode, any browser can connect to the WiFi network to provide configure data,
 or general, access the device as a webserver.
 
+
 ### Step X: Server Web Page Within SPIFFS
+
 * [ESP8266 Storing Wi-Fi Settings In Flash Auto-Switch AP/Station Modes](https://www.youtube.com/watch?v=lyoBWH92svk&feature=youtu.be)
 
+
 ### Step X: Double-Reset to Initialize
-* https://www.instructables.com/id/Morphing-Digital-Clock/
-* https://github.com/hwiguna/HariFun_166_Morphing_Clock/blob/Shared/Latest/MorphingClock/NTPClient.cpp
-* part of the arduino library - https://github.com/jenscski/DoubleResetDetect
+
+* <https://www.instructables.com/id/Morphing-Digital-Clock/>
+* <https://github.com/hwiguna/HariFun_166_Morphing_Clock/blob/Shared/Latest/MorphingClock/NTPClient.cpp>
+* part of the arduino library - <https://github.com/jenscski/DoubleResetDetect>
 
 * [Create A Simple ESP8266 NodeMCU Web Server In Arduino IDE](https://lastminuteengineers.com/creating-esp8266-web-server-arduino-ide/)
 
@@ -1661,8 +1805,8 @@ OTA (Over the Air) update is the process of loading the firmware to ESP module u
 
 * [Library Makes ESP Over the Air Updates Easy](https://hackaday.com/2019/03/21/library-makes-esp-over-the-air-updates-easy/)
 * [ESP8266 - Pushing OTA Upgrades](http://smallbits.marshall-tribe.net/blog/2016/05/29/esp8266-pushing-ota-upgrades)
-* https://www.youtube.com/watch?v=o05sBDfaFO8&index=9&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE
-* https://mongoose-os.com/docs/libraries/remote_management/rpc-service-ota.html
+* <https://www.youtube.com/watch?v=o05sBDfaFO8&index=9&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE>
+* <https://mongoose-os.com/docs/libraries/remote_management/rpc-service-ota.html>
 * [Self-updating OTA firmware for ESP8266](https://www.bakke.online/index.php/2017/06/02/self-updating-ota-firmware-for-esp8266/)
 * [ESP8266 Arduino Core: OTA Update](http://esp8266.github.io/Arduino/versions/2.0.0/doc/ota_updates/ota_updates.html)
 * [ESP8266 OTA Updates with Arduino IDE | Over the Air](https://randomnerdtutorials.com/esp8266-ota-updates-with-arduino-ide-over-the-air/)
@@ -1670,24 +1814,33 @@ OTA (Over the Air) update is the process of loading the firmware to ESP module u
 * [Over The Air Updates](https://tttapa.github.io/ESP8266/Chap13%20-%20OTA.html)
 * [ESP8266 Over The Air (OTA) Programming Without Reset Using Arduino IDE](https://www.youtube.com/watch?v=3aB85PuOQhY&feature=youtu.be)
 
-### Step X:
-### Step X:
-### Step X:
+
+### Step X
+
+
+### Step X
+
+
+### Step X
+
 
 ### Step X: Cryptography
+
 * [PRACTICAL IOT CRYPTOGRAPHY ON THE ESPRESSIF ESP8266](https://hackaday.com/2017/06/20/practical-iot-cryptography-on-the-espressif-esp8266/)
 
 
 
-----
+---------------
 
 
 
 
 # Aggressively Low Power with the ESP8266
+
 * [MAKING THE ESP8266 LOW-POWERED WITH DEEP SLEEP](https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep)
 * [Aggressively Low Power with the ESP8266](https://www.youtube.com/watch?v=I3lJWcRSlUA)
 * [Hidden: ESP32 and ESP8266 point-to-point (ESP-Now): Fast and efficient. Comparison with LoRa](https://www.youtube.com/watch?v=6NsBN42B80Q)
+
 
 # Final Code for NTP-Clock
 
@@ -1697,9 +1850,11 @@ If we miss the first NTP response, timeUNIX will be zero. If that's the case, we
 
 We also need to run the server and OTA functions to handle HTTP and OTA requests.
 
-----
+---------------
+
 
 # Raspberry Pi Clock
+
 * [How To Set Up Time Synchronization on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-time-synchronization-on-ubuntu-16-04)
 * [Setting up the Real-Time Clock on Raspbian Jessie or Stretch](https://spellfoundry.com/sleepy-pi/setting-up-the-real-time-clock-on-raspbian-jessie/)
 * [Large Pi-based Thermometer and Clock](https://learn.adafruit.com/large-pi-based-thermometer-and-clock/overview)
@@ -1709,6 +1864,7 @@ Primary sources:
 * [Adding a Real Time Clock to Raspberry Pi](https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/overview)
 * [Raspberry Pi: Adding a Real-Time Clock on Raspbian Jessie](https://kd8twg.net/2015/10/29/adding-a-real-time-clock-on-raspbian-jessie/#.W9-n_cvYrhN)
 * [Setting up the Real-Time Clock on Raspbian Jessie or Stretch](https://spellfoundry.com/sleepy-pi/setting-up-the-real-time-clock-on-raspbian-jessie/)
+
 
 ## Power Consumption
 | Configuration                       | Current Draw | Power     |
@@ -1721,8 +1877,10 @@ Primary sources:
 | ESP8266 only | | |
 | ESP8266 + 1.2" 7-Segment Display   | | |
 
+
 # Raspberry Pi Low Power Operation
- * [Raspberry Pi Zero - Conserve power and reduce draw to 80mA](https://www.jeffgeerling.com/blogs/jeff-geerling/raspberry-pi-zero-conserve-energy)
+
+* [Raspberry Pi Zero - Conserve power and reduce draw to 80mA](https://www.jeffgeerling.com/blogs/jeff-geerling/raspberry-pi-zero-conserve-energy)
 * [Reducing power consumption of a raspberry Pi](https://bitwizard.nl/wiki/Reducing_power_consumption_of_a_raspberry_Pi)
 * [How to reduce power consumption](https://manual.raspberryshake.org/power.html)
 * [Raspberry Pi Zero - Conserve power and reduce draw to 30mA](https://declara.com/content/61XZQx25)
@@ -1731,17 +1889,22 @@ Primary sources:
 * [Raspberry Pi2 – Power and Performance Measurement](https://raspi.tv/2015/raspberry-pi2-power-and-performance-measurement)
 * [Ethernet disabling in raspberry pi](https://stackoverflow.com/questions/23487728/ethernet-disabling-in-raspberry-pi)
 
+
 # Measuring Raspberry Pi Power Consumption
+
 * [Measuring the power consumption of the Raspberry P](https://www.youtube.com/watch?v=qG87WmS-Z4Q)
 * [PowerJive USB Voltage/Amps Power Meter Tester Multimeter](https://www.amazon.com/PowerJive-Voltage-Multimeter-chargers-capacity/dp/B013FANC9W)
 * [How to Monitor Your USB Device Power Usage and Output](https://www.howtogeek.com/228869/how-to-monitor-your-usb-device-power-usage-and-output/)
 
 * [UM34C](https://www.amazon.com/gp/product/B07DMNDT96/)
-* Guide Video: https://www.youtube.com/watch?v=3yhHX96h-jg User manual and Android APP download link: http://www.mediafire.com/folder/5c877rc21tp1p/UM34
+* Guide Video: <https://www.youtube.com/watch?v=3yhHX96h-jg> User manual and Android APP download link: <http://www.mediafire.com/folder/5c877rc21tp1p/UM34>
+
 
 # Raspberry Pi Power Saving
 
+
 ## Power Off WiFi and BT
+
 * [Powering off WiFi and BT on RPiZW](https://www.raspberrypi.org/forums/viewtopic.php?t=186247)
 * [Automatically Reconnecting WiFi on a RaspberryPi](http://alexba.in/blog/2015/01/14/automatically-reconnecting-wifi-on-a-raspberrypi/)
 * [Airplane mode and rfkill](https://lwn.net/Articles/677839/)
@@ -1794,6 +1957,7 @@ Wiring the Adafruit DS1207 RTC to the RPi simple:
 1. Connect GND on the RTC to the GND pin of the RPi
 1. Connect SDA on the RTC to the SDA pin of the RPi
 1. Connect SCL on the RTC to the SCL pin of the RPi
+
 
 ## Step 2: Set Up & Test I2C - DONE
 You'll need to set up the Raspberry Pi of I2C, and to do so,
@@ -1867,6 +2031,7 @@ NTP synchronized: yes
 Notice the line "RTC time: n/a".
 This is telling you that the RTC isn't setup yet.
 
+
 ### Step 3: Detect the RTC Device - DONE
 As stated above, the RTC isn't working with the Raspberry Pi yet.
 To add support for the RTC, you must adding a [device tree overlay][14]
@@ -1919,6 +2084,7 @@ NTP synchronized: no
 
 Now the "RTC time:" line has a value, so we know the RTC time is being read by the RPi.
 
+
 ### Step 4: Disable the Fake Hardware Clock - DONE
 On Linux machines that don't have a RTC unit,
 `fake-hwclock` is a set of scripts to save the kernel's current clock periodically,
@@ -1951,7 +2117,9 @@ sudo update-rc.d -f fake-hwclock remove
 sudo systemctl disable fake-hwclock
 ```
 
+
 ### Step 5: Enable NTP - DONE
+
 * [Creating a Linux service with systemd](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
 When you ran the command `timedatectl status` above,
 you saw "NTP enabled" is set to "no".
@@ -2000,6 +2168,7 @@ $ ntpq -p
 -ns2.vradns.com. 189.130.244.205  2 u   20   64   37   74.942   55.085  50.186
 ```
 
+
 ### Step 5: Enable the Hardware Clock - DONE
 Now with the fake-hwclock off,
 you can start the original 'hardware clock' script.
@@ -2015,7 +2184,9 @@ Run `sudo vi /lib/udev/hwclock-set` and comment out these three lines:
 
 Last thing to do is a `sudo reboot`.
 
+
 ### Step 6: Sync Raspberry Pi Time from RTC
+
 * [Setting up the Real-Time Clock on Raspbian Jessie or Stretch](https://spellfoundry.com/sleepy-pi/setting-up-the-real-time-clock-on-raspbian-jessie/)
 
 When you first plug in the RTC module,
@@ -2058,7 +2229,9 @@ $ sudo hwclock -r
 Fri 09 Nov 2018 03:49:46 UTC  -0.409448 seconds
 ```
 
+
 ### Step X: Reading & Writing to the RTC
+
 
 ### Step X: Set Your Time Zone
 The Raspberry Pi will default to the UTC time zone,
@@ -2097,17 +2270,18 @@ information about [Daylight Savings Time (DST)][13].
 
 
 
-----
+---------------
 
 
 
 # Adding Scanning and Tracking Features
+
 * [Use an ESP8266 Beacon Spammer to Track Smartphone Users](https://null-byte.wonderhowto.com/how-to/use-esp8266-beacon-spammer-track-smartphone-users-0187599/)
 * [Scan, Fake & Attack Wi-Fi Networks with the ESP8266-Based WiFi Deauther](https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/)
 
 
 
-----
+---------------
 
 
 
