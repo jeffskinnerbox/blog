@@ -78,6 +78,8 @@ monty_hall_simulation(10000)
 - [The Myth of the Monty Hall Problem](https://medium.com/@danielbier/the-myth-of-the-monty-hall-problem-8735fee7e2b1)
 - [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
 - [Don’t Switch! Why Mathematicians’ Answer to the Monty Hall Problem is Wrong](https://ima.org.uk/4552/dont-switch-mathematicians-answer-monty-hall-problem-wrong/)
+- [What Happened to the World’s Smartest Woman After She Solved a Math Question?](https://ali.medium.com/what-happened-to-the-worlds-smartest-woman-after-she-solved-a-math-question-019943967383)
+- [Marilyn vos Savant](https://en.wikipedia.org/wiki/Marilyn_vos_Savant)
 
 ### Monty Hall Problem ... stated Differently
 
@@ -152,7 +154,8 @@ the current knowledge before an experiment is performed.
 
 - [Computational Physics with Python: Bayes Theorem](https://medium.com/@_monitsharma/computational-physics-with-python-bayes-theorem-fdeb3af01f7)
 
-# Two-Child Problem
+# Two-Child Problem (aka Boy or Girl Paradox)
+
 
 Suppose a friend of yours has two children,
 but you cannot remember their genders.
