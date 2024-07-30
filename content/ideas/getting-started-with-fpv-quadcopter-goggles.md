@@ -1,5 +1,5 @@
 !--
-M:qaaintaineraintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+M:qaaintaineraintainer:   <jeffskinnerbox@yahoo.com> / <www.jeffskinnerbox.me>
 Version:      0.0.0
 -->
 
@@ -15,18 +15,19 @@ Version:      0.0.0
 
 
 * [Caddx Goggles X Questions Firmware & HDMI - Its Just Not Good Enough](https://www.youtube.com/watch?v=sjQYSTWbrqQ)
-    * [Caddx Avatar HD Goggles X Update - How To & Discussion](https://www.youtube.com/watch?v=EhOi91cIbQ0)
+  * [Caddx Avatar HD Goggles X Update - How To & Discussion](https://www.youtube.com/watch?v=EhOi91cIbQ0)
 * [Caddx Walksnail Goggles X FPV Goggles Antenna Ports - What Transmits & Receives](https://www.youtube.com/watch?v=8Wa_XjQBKqs)
 * [CaddX FPV Goggles X Overheating Explored - What Is Going On?](https://www.youtube.com/watch?v=CCBAy7WU5jc)
-    * [Goggles X New Firmware Update - Did The Fix The Thermal Issue ?](https://www.youtube.com/watch?v=NNnGt994mt4)
+  * [Goggles X New Firmware Update - Did The Fix The Thermal Issue ?](https://www.youtube.com/watch?v=NNnGt994mt4)
 * [Caddx Walksnail Goggles X - Analog input problem](https://www.youtube.com/watch?v=EgTJesEsdgw)
-    * [Caddx Walksnail Goggles X - Analog input update](https://www.youtube.com/watch?v=X3f7bJE8qpI)
+  * [Caddx Walksnail Goggles X - Analog input update](https://www.youtube.com/watch?v=X3f7bJE8qpI)
 
 
 
 
 
 # How Does FPV Video Work?
+
 * [How Analog Video works in FPV!](https://www.youtube.com/watch?v=szJOUXineYw)
 * [FPV Video Systems](https://www.youtube.com/playlist?list=PLFPBjpbd5xKT14YIDasgjmaefic4Qcd2R)
 * [Explained: How FPV technology works - ANALOG](https://www.youtube.com/watch?v=8x9z36z_wvA)
@@ -73,20 +74,21 @@ There are dozens of cameras, video transmitters, and goggles from multiple manuf
 Analog is the most affordable way to enter the world of FPV.
 
 Pros & Cons of Analog Solutions:
+
 * Pros
-    * Affordable
-    * Widely available
-    * Consistent and low latency
-    * A vast selection of hardware (camera, VTX, goggles) from various manufacturers, you are not locked into a single brand
-    * Various feature sets and price points
+  * Affordable
+  * Widely available
+  * Consistent and low latency
+  * A vast selection of hardware (camera, VTX, goggles) from various manufacturers, you are not locked into a single brand
+  * Various feature sets and price points
 * Cons
-    * Low image quality, akin to watching a 1970s TV with poor signal
-    * More sensitive to interference and electrical noise
-    * Variable hardware quality due to the vast number of manufacturers
+  * Low image quality, akin to watching a 1970s TV with poor signal
+  * More sensitive to interference and electrical noise
+  * Variable hardware quality due to the vast number of manufacturers
 * Price for typical analog FPV solution
-    * Camera: $15 – $40
-    * Video Transmitter (VTX): $15 – $40
-    * FPV Goggles (VRX): $80 – $500
+  * Camera: $15 – $40
+  * Video Transmitter (VTX): $15 – $40
+  * FPV Goggles (VRX): $80 – $500
 
 Currently there are three digital FPV systems available for FPV drones.
 All of them are 5.8GHz systems, and none of the them are cross-compatible with each other as they are all proprietary systems.
@@ -95,19 +97,20 @@ Despite this and because of its superior technical characteristics,
 digital is expected to become mainstream in the near future.
 
 Pros & Cons of Digital Solutions:
+
 * Pros
-    * Superior image quality compared to analog
-    * More robust against interference than analog
-    * Typically FPV goggles support AV input for analog systems
-    * Appears to be the future of FPV flying
+  * Superior image quality compared to analog
+  * More robust against interference than analog
+  * Typically FPV goggles support AV input for analog systems
+  * Appears to be the future of FPV flying
 * Cons
-    * More expensive than analog systems (currently)
-    * You are locked into provider ecosystem
-    * Variable latency, not ideal for racing but less of an issue for freestyle and cruising
-    * Few nexpensive & small video transmitter, unsuitable for small FPV drones
+  * More expensive than analog systems (currently)
+  * You are locked into provider ecosystem
+  * Variable latency, not ideal for racing but less of an issue for freestyle and cruising
+  * Few nexpensive & small video transmitter, unsuitable for small FPV drones
 * Price for typical digital FPV solution
-    * Camera + Video Transmitter (VTX): $100 – $230
-    * FPV Goggles (VRX): $240 – $650
+  * Camera + Video Transmitter (VTX): $100 – $230
+  * FPV Goggles (VRX): $240 – $650
 
 So it appears to me that, if your budget allows for it, go digital!
 The superior image quality provides an immersive FPV experience that analog just can’t match,
@@ -118,6 +121,7 @@ At the same time, analog is comparatively in expensive and will always have a us
 To address this, key feature to look for within digital goggles is support of analog video transmitters, and some can!
 
 Sources:
+
 * [Review: Walksnail Avatar Goggles X – Enhanced Versatility, User Experience and Future-proofing](https://oscarliang.com/walksnail-avatar-goggles-x/)
 * [Walksnail Goggles X For Avatar HD - All In One FPV With Some Compromises!](https://www.youtube.com/watch?v=ti3zyavDOow)
 * [Is Walksnail Goggles X Your Ultimate FPV Goggle?](https://www.youtube.com/watch?v=9PXz_zB8qfY)
@@ -130,6 +134,7 @@ Sources:
 * [Cheap vs. Expensive FPV Goggles - What's the Difference??](https://www.youtube.com/watch?v=oOEbygcWk-w)
 * [The best FPV goggle for almost everybody (except DJI) // HDZERO GOGGLE REVIEW](https://www.youtube.com/watch?v=TPnGVad9Cm8)
 * [How Long Will It Be Until Analog Is No Longer Used For FPV? Digital Cost?][08]
+
 
 # Is a Ham Radio License Needed When Flying FPV?
 The short answer is yes, you need at least a Level 1: [Technician License][21] to operate FPV drones legally.
@@ -174,6 +179,7 @@ Make sure to [learn more about HAM licenses][17], and [find a HAM license exam s
 * [5.8GHz FPV Channels & Frequency Chart (Analogue & Digital)](https://oscarliang.com/fpv-channels/)
 * [HAM Radio License for FPV – All You Need to Know](https://myracingdrone.com/ham-radio-license-for-fpv-drone/)
 
+
 # My Choose: Walksnail Avatar
 I agonized over the decision of going with a digital video solution but not pricing myself out of the flexibility of analog solutions.
 I even consider buying an inexpensive analog solution for now and upgrade to digital at a later date.
@@ -182,9 +188,11 @@ Then the [Walksnail Avatar HD Goggles X][01] by [CaddxFPV][02] came up on my rad
 These goggles, which came on the market in the year of my search (2023), seem to have it all.
 
 Sources:
+
 * [Walksnail Goggles X For Avatar HD - All In One FPV With Some Compromises!](https://www.youtube.com/watch?v=ti3zyavDOow)
 * [Future-Proof Digital FPV - Walksnail Goggles X](https://www.youtube.com/watch?v=-TlAkSeTkfU)
 * [Walksnail Avatar HD Goggles X](https://caddxfpv.com/collections/walksnail-avatar-hd-goggles-x/products/walksnail-avatar-hd-goggles-x)
+
 
 ## Video Reciever (VRX): Walksnail Avatar HD Goggles X
 My choose of FPV goggles were the [Walksnail Avatar HD Goggles X][01].
@@ -200,44 +208,51 @@ There is no way of recording video on the Walksnail Avatar HD Goggles X, unless 
 <-- NOT SURE THIS IS TRUE ... there is a SD-Card slot
 
 * Product Features
-    * Weight 290g
-    * OLED screen 1920x1080
-    * Field of view (FOV) 50°
-    * Adjustable focus range of +2 to -6 diopter
-    * Power 7-26V (aka 2S-6S) via XT60 to DC 5.5*2.1mm power cord
-    * Inter-pupillary distance (IPD) mechanical range 57mm-72mm
-    * Infrared Sensing to turn the screen on/off
-    * Digital H.265 video encoding 1080p/100fps, 1080p/60fps, 720p/100fps, 720p/60fps
-    * Supports 8 video channels (5.725-5.850GHz) with a range of 4km
-    * Receiving module can be replaced (minimizing upgrade costs)
-    * HDMI input to support external video transmitters (digital video)
-    * HDMI output to external display devices to share your flight footage (digital video)
-    * AV in via 3.5mm with 4 conductor TRRS/3 port (analog video)
-    * Digital video recording (DVR) to SD card (supports 256G)
-    * 4 [Left-hand circular polarized (LHCP)][06] stubby antennas ([2dBi gain][05])
+  * Weight 290g
+  * OLED screen 1920x1080
+  * Field of view (FOV) 50°
+  * Adjustable focus range of +2 to -6 diopter
+  * Power 7-26V (aka 2S-6S) via XT60 to DC 5.5*2.1mm power cord
+  * Inter-pupillary distance (IPD) mechanical range 57mm-72mm
+  * Infrared Sensing to turn the screen on/off
+  * Digital H.265 video encoding 1080p/100fps, 1080p/60fps, 720p/100fps, 720p/60fps
+  * Supports 8 video channels (5.725-5.850GHz) with a range of 4km
+  * Receiving module can be replaced (minimizing upgrade costs)
+  * HDMI input to support external video transmitters (digital video)
+  * HDMI output to external display devices to share your flight footage (digital video)
+  * AV in via 3.5mm with 4 conductor TRRS/3 port (analog video)
+  * Digital video recording (DVR) to SD card (supports 256G)
+  * 4 [Left-hand circular polarized (LHCP)][06] stubby antennas ([2dBi gain][05])
 * Product Options
-    * Front cover supports DIY community
-    * Lenses can be replaced
-    * Built-in Gyro (in development)
-    * Built-in Bluetooth/WiFi module (in development) for firmware upgrade, phone apps, live viewing, etc.
+  * Front cover supports DIY community
+  * Lenses can be replaced
+  * Built-in Gyro (in development)
+  * Built-in Bluetooth/WiFi module (in development) for firmware upgrade, phone apps, live viewing, etc.
 
 >**NOTE:** Because of the goggles antennas are left-hand polarized (LHCP),
 >[you should make sure to use LHCP antenna on your quadcopter][07], or if you can't, a linear polirized antenna.
 
+
 ## Video Transmitter (VTX): Walksnail Avatar
+
 * [Is this the best Digital FPV System? Walksnail Avatar V2 is here!](https://www.youtube.com/watch?v=d0VoBp9-sn4)
+
 
 ## On Screen Display (OSD)
 
+
 ### Race Mode
+
 * [Walksnail Avatar for Racing? Nano V3 VTX Review](https://www.youtube.com/watch?v=Qn2wejRJWcY)
 * [RACE MODE for Walksnail Avatar: Image Quality and Latency Testing](https://www.youtube.com/watch?v=O9iuNx8eXss)
+
 
 ### OLED Sunlight Damage
 Sunlight can cause damage to your OLED screen.
 
 
 ### Avatar HD Latancy
+
 * [Digital FPV Latency & Frame Delivery - DJI - HDZero - Avatar HD - A Lot To Understand.](https://www.youtube.com/watch?v=d7gfLaCHU2w)
 
 
@@ -254,9 +269,12 @@ Sunlight can cause damage to your OLED screen.
 
 
 # FPV Video Channels
+
 * [5.8GHz FPV Channels & Frequency Chart (Analogue & Digital)](https://oscarliang.com/fpv-channels/)
 
+
 # VR Headset
+
 * [Open Source VR Headset For $200](https://hackaday.com/2020/09/13/open-source-vr-headset-for-200/)
 * [AKK 5.8G RC832 Mini FPV Receiver Double-Screen Display for FPV Quadcopter Drone](https://www.amazon.com/gp/product/B01FXFZ0NS)
 * [AKK A2 5.8Ghz 200mW FPV Transmitter Raceband 600TVL 1/4 Cmos Mini FPV Micro AIO Camera with Clover Antenna for FPV Drone](https://www.amazon.com/gp/product/B06VSW41LN)
@@ -272,6 +290,7 @@ Using a ground station is a great way to improve your FPV feed.
 I purchased the [SkyZone SteadyView X 5.8GHz receiver module as a ground station][10].
 
 Sources:
+
 * [NEW! Skyzone SteadyView X GroundStation Module: Analogue FPV is alive and well!](https://www.youtube.com/watch?v=OWhsxzaGRKI)
 * [Skyzone Steadyview X Review](https://www.youtube.com/watch?v=IMRyGvRCT2o)
 * [RapidFIRE Killer? SkyZone SteadyView X Ground-Station - Overview & Side By Side Comparison](https://www.youtube.com/watch?v=AW6FxBitkcw)
@@ -280,6 +299,7 @@ Sources:
 * [BUILD AN FPV GROUNDSTATION - MY SETUP](https://www.youtube.com/watch?v=S2wnS1T5haY)
 * [My Analog FPV Ground Station](https://www.youtube.com/watch?v=F2AFC-iG6sU)
 * [OpenIPC FPV news will blow your mind! Tests with ExpressLRS and INAV](https://www.youtube.com/watch?v=3IhKBH3aWdE)
+
 
 ## SKYZONE SteadyView X 5.8Ghz Receiver Module
 [Steadyview X][10] is the upgrade V3.3 version of steadyview receiver.
@@ -312,11 +332,12 @@ as shown below:
 |    L    | 5362M | 5399M | 5436M | 5473M | 5510M | 5547M | 5584M | 5621M |
 
 
-Read more: https://manuals.plus/skyzone/steadyview-x-high-performance-receiver-manual#ixzz8Jp0IhZC8
+Read more: <https://manuals.plus/skyzone/steadyview-x-high-performance-receiver-manual#ixzz8Jp0IhZC8>
 
 You can find the SteadyView+ELRS user manual and the SKY04X firmware [here][09].
 
 Sources:
+
 * [Skyzone Steadyview X Review](https://www.youtube.com/watch?v=IMRyGvRCT2o)
 * [NEW! Skyzone SteadyView X GroundStation Module: Analogue FPV is alive and well!](https://www.youtube.com/watch?v=OWhsxzaGRKI)
 * [My Analog FPV Ground Station](https://www.youtube.com/watch?v=F2AFC-iG6sU)
@@ -324,7 +345,9 @@ Sources:
 * [RapidFIRE Killer? SkyZone SteadyView X Ground-Station - Overview & Side By Side Comparison](https://www.youtube.com/watch?v=AW6FxBitkcw)
 * [New Fusion V3.3 Board for Skyzone Steadyview/RapidMix Module Fixes Dark Rolling Issues](https://oscarliang.com/skyzone-steadyview-module-fusion-v3-3/)
 
+
 ## Antenna Tracker
+
 * [Eagle Tree Antenna Tracker Tutorial](https://www.rcgroups.com/forums/showthread.php?2520717-Eagle-Tree-Antenna-Tracker-Tutorial-RCGroups-FPV-Video-Review)
 
 
@@ -334,10 +357,11 @@ Sources:
 
 
 # Field Monitor: FPV Monitor Shares Flights in Real Time
+
 * [How to Make a 7" DIY Field Monitor for $40!](https://www.youtube.com/watch?v=xn7F37SM8t)
 * [Raspberry Pi FPV monitor shares drone flights in real time](https://www.msn.com/en-us/news/technology/raspberry-pi-fpv-monitor-shares-drone-flights-in-real-time/ar-BB1lN5CX)
 * [Raspberry Pi FPV monitor shares drone flights in real time](https://www.tomshardware.com/raspberry-pi/raspberry-pi-fpv-monitor-shares-drone-flights-in-real-time)
-    * [BUILDING DIGIVIEW FPV Monitor - Apr-8-2024](https://www.youtube.com/watch?v=3cmDLvn4n60)
+  * [BUILDING DIGIVIEW FPV Monitor - Apr-8-2024](https://www.youtube.com/watch?v=3cmDLvn4n60)
 
 
 
@@ -357,7 +381,9 @@ While necicsarily specific to the Avatar HD Goggles X, the procedures are inform
 
 * [How to Setup Walksnail Avatar Digital HD FPV System](https://oscarliang.com/setup-avatar-fpv-system/#How-to-Update-Firmware-on-GogglesVRX)
 
+
 ## How to Check Firmware Version on Goggles X
+
 
 ## How to Update Firmware on Goggles X
 Here’s the summary:
@@ -372,9 +398,9 @@ The firmware update can take around 5 to 10 minutes, when complete, the beeping 
 Flashing Firmware
 You can download firmware files from one of these sites:
 
-Official releases: https://caddxfpv.com/pages/download
-Latest/Beta releases: https://avatar-firmware.d3vl.com/
-Fatshark’s own download site: https://fatshark.helpscoutdocs.com/article/174-dominator-with-avatarhd
+Official releases: <https://caddxfpv.com/pages/download>
+Latest/Beta releases: <https://avatar-firmware.d3vl.com/>
+Fatshark’s own download site: <https://fatshark.helpscoutdocs.com/article/174-dominator-with-avatarhd>
 There are 4 firmware files, for different devices:
 
 Avatar_Sky is for the VTX
@@ -399,6 +425,7 @@ The update will take a few minutes
 During the update, the goggles will beep. This is normal. DO NOT turn off the headset until the update is finished
 When the update is complete, the beeping will stop and the headset will boot back up to the Standby screen
 
+
 ## Flight Video Recording
 Cross-platform tool for rendering the flight controller On Screen Display (OSD) and SubRip Subtitle (SRT) data from the Walksnail Avatar HD FPV system on top of the goggle or VRX recording
 
@@ -410,8 +437,6 @@ Cross-platform tool for rendering the flight controller On Screen Display (OSD) 
 
 [01]:https://caddxfpv.com/products/walksnail-avatar-hd-goggles-x
 [02]:https://caddxfpv.com/
-[03]:https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service
-[04]:https://www.arrl.org/find-an-amateur-radio-license-exam-session
 [05]:https://antennatestlab.com/antenna-education-tutorials/what-is-antenna-gain-dbi-scale
 [06]:https://www.youtube.com/watch?v=mbHl3DgnN4k
 [07]:https://www.drone24hours.com/uncategorized/what-is-the-difference-between-rhcp-and-LHCP-antenna/?lang=en
