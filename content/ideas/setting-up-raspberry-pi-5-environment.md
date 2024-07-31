@@ -42,10 +42,10 @@ Version:      0.0.0
 - [Testing Cytron MAKERDISK M.2 NVMe SSDs on Raspberry Pi 5 with GEEKWORM X1001 and Waveshare M.2 PCIe HAT+](https://www.cnx-software.com/2024/04/07/review-cytron-makerdisk-nvme-ssd-raspberry-pi-5-geekworm-x1001-waveshare-m2-pcie-hat/)
 
 |:-----------------------------------------------|:-------------------|:------:|
-| [Raspberry Pi 5 / 8GB RAM][01] | [Seeed Studio][AA] | $ 80 |
-| [Raspberry Pi Active Cooler][02] | [Seeed Studio][BB] | $ 5 |
-| [Tensor Processing Unit (TPU)][03] | [Amazon][CC] | $ 89 |
-| [Coral M.2 Accelerator with Dual Edge TPU][04] | [Amazon][DD] | $ 85 |
+| [Raspberry Pi 5 / 8GB RAM][01] | [Seeed Studio][05] | $ 80 |
+| [Raspberry Pi Active Cooler][02] | [Seeed Studio][06] | $ 5 |
+| [Tensor Processing Unit (TPU)][03] | [Amazon][07] | $ 89 |
+| [Coral M.2 Accelerator with Dual Edge TPU][04] | [Amazon][08] | $ 85 |
 | M.2 NVMe SSD | | |
 | 27W USB-C Power Supply | | |
 | | | |
@@ -65,17 +65,6 @@ Version:      0.0.0
 - [Raspberry Pi AI Kit Brings AI Inferencing to Single Board Computers](https://www.coolthings.com/raspberry-pi-ai-kit-machine-learning-add-on-vision-based-ai/)
 - [Raspberry Pi Embraces AI With Hailo Collaboration](https://www.techrepublic.com/article/raspberry-pi-ipo-hailo-ai/)
 
-[01]: https://www.raspberrypi.com/products/raspberry-pi-5/
-[02]: https://www.raspberrypi.com/products/active-cooler/
-[03]: https://cloud.google.com/tpu/docs/intro-to-tpu
-[04]: https://pi3g.com/products/machine-learning/google-coral/coral-m-2-accelerator-with-dual-edge-tpu/
-
-[05]:
-
-[AA]: https://www.seeedstudio.com/Raspberry-Pi-5-8GB-p-5810.html
-[BB]: https://www.seeedstudio.com/Raspberry-Pi-Active-Cooler-p-5813.html
-[CC]: https://www.amazon.com/dp/B07S214S5Y
-[DD]: https://www.amazon.com/dp/B08KTSGN7F/
 
 - [My Raspberry Pi 5 is a delight, and I'm excited about all its future uses](https://www.pocket-lint.com/raspberry-pi-5-review/)
 - [Raspberry Pi 5 review: A huge upgrade for the tiny single-board computer](https://www.pcworld.com/article/2219346/raspberry-pi-5-review.html)
@@ -129,6 +118,7 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 
 # Large Language Model (LLM)
 
+- [he Only Guide You Need to Fine-Tune Llama 3 or Any Other Open Source Model](https://www.unite.ai/the-only-guide-you-need-to-fine-tune-llama-3-or-any-other-open-source-model/)
 - [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, mamba-gpt)](https://www.dfrobot.com/blog-13498.html?tracking=6594dccfd2dcd)
 - [I Ran Advanced LLMs on the Raspberry Pi 5!](https://www.youtube.com/watch?v=Y2ldwg8xsgE)
 - [Running a ChatGPT-Like LLM on the Raspberry Pi 5](https://www.hackster.io/shahizat/running-a-chatgpt-like-llm-on-the-raspberry-pi-5-fd67f9)
@@ -142,8 +132,8 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 - [GET STARTED WITH CORAL AND RASPBERRY PI](https://www.okdo.com/getting-started/get-started-with-google-coral-and-raspberry-pi/)
 - [M.2 E-Key Wi-Fi 7 HAT for Raspberry Pi 5 also supports Google TPU](https://www.cnx-software.com/2024/02/02/m2-e-key-wifi-7-hat-for-raspberry-pi-5-google-tpu/)
 
-- Coral USB TPU 👉 https://amzn.to/3vUkUJH
-- Coral PCIe TPU 👉 https://amzn.to/3vLKfVW
+- Coral USB TPU 👉 <https://amzn.to/3vUkUJH>
+- Coral PCIe TPU 👉 <https://amzn.to/3vLKfVW>
 
 - [Coral: Hardware & Software](https://coral.ai/)
 
@@ -156,3 +146,16 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 # TensorFlow
 
 - [Install TensorFlow on Raspberry 64 OS](https://qengineering.eu/install-tensorflow-on-raspberry-64-os.html)
+
+
+<!-- for some reason this is being deleted, so for now, I'm protesting it within these comments
+[01]:https://www.raspberrypi.com/products/raspberry-pi-5/
+[02]:https://www.raspberrypi.com/products/active-cooler/
+[03]:https://cloud.google.com/tpu/docs/intro-to-tpu
+[04]:https://pi3g.com/products/machine-learning/google-coral/coral-m-2-accelerator-with-dual-edge-tpu/
+[05]:https://www.seeedstudio.com/Raspberry-Pi-5-8GB-p-5810.html
+[06]:https://www.seeedstudio.com/Raspberry-Pi-Active-Cooler-p-5813.html
+[07]:https://www.amazon.com/dp/B07S214S5Y
+[08]:https://www.amazon.com/dp/B08KTSGN7F/
+-->
+
