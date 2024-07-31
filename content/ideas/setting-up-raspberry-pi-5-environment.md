@@ -98,6 +98,7 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 
 # Overclocking
 
+- [Raspberry Pi 5 hits world-record 3.4 GHz with thermoelectric cooling and firmware tweaks](https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-hits-world-record-34-ghz-with-thermoelectric-cooling-and-firmware-tweaks)
 - [In honor of Pi day, here's how to supercharge your Raspberry Pi 5](https://www.pocket-lint.com/how-to-speed-up-and-overclock-raspberry-pi-5-install-ssd/)
 - [How to overclock the Raspberry Pi 5 beyond 3 GHz!](https://www.tomshardware.com/raspberry-pi/how-to-overclock-the-raspberry-pi-5-beyond-3-ghz)
 - [The Raspberry Pi 5's 3GHz Limit Is Lifted, Thanks to a "Very Not At All Recommended" Firmware](https://www.hackster.io/news/the-raspberry-pi-5-s-3ghz-limit-is-lifted-thanks-to-a-very-not-at-all-recommended-firmware-328e7bbcaab5)
