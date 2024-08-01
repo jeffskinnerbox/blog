@@ -462,6 +462,7 @@ such as their image but also via motion, heat, sound, or RF exhaust then may mak
   * [My Smart Home Presence Sensor Is Finally Here!](https://www.youtube.com/watch?v=cH5sJFk_2wo&t=6s)
   * [This Smart Home Sensor Blew My Mind! 🤯 mmWave](https://www.youtube.com/watch?v=jVjrgQSWlLI)
   * [I Made A More Affordable Smart Home Presence Sensor](https://www.youtube.com/watch?v=wCwMNSeLRcw)
+  * [Diy Presence Sensor](https://www.youtube.com/watch?v=P8RO9gjs_h4)
 
 
 * [Person Detection with TensorFlow and Arduino](https://www.hackster.io/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
