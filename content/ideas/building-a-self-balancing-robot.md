@@ -64,7 +64,6 @@ perform regression testing, and train AI system using realistic scenarios.
 * [I built a rover using a Raspberry Pi & Arduino](https://www.youtube.com/watch?v=IoCaTgmUSvc)
   * [Stair Climbing Rover Assembly](https://www.youtube.com/watch?v=bXdt8hng2WM)
   * [DTU RoboCup 2022 - Wild Willy - First run with onboard camera overlay](https://www.youtube.com/watch?v=GkBlQkr3NZU)
-* [camera stabilized self balance robot](https://hackaday.io/project/184423-worlds-first-camera-stabilized-self-balance-robot)
 * [Six Wheels (En)rolling: Mars Rovers Going To School](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
 * [AlphaBot2 robot building kit for Raspberry Pi 3 Model B](https://www.seeedstudio.com/AlphaBot2-robot-building-kit-for-Raspberry-Pi-3-Model-B-p-2937.html)
 * [Six Wheels Mars Rover](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
@@ -97,9 +96,9 @@ making Dimebots some of the smallest robots in the world.
 # Walking Robot
 
 * [Tiny ESP32 Strider Walks The Walk](https://hackaday.com/2021/09/06/tiny-esp32-strider-walks-the-walk/)
+* [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
 * [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
 * [Train Your Robot to Walk with a Neural Network](https://hackaday.com/2016/12/11/train-your-robot-to-walk-with-a-neural-network/)
-* [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
 * [Watch the Snappy, Insect-like Moves of this DIY Quadruped Robot](https://hackaday.com/2018/09/30/watch-the-snappy-insect-like-moves-of-this-diy-quadruped-robot/)
 * [Walbi, the Walking Biped](https://www.hackster.io/the-inner-geek/walbi-the-walking-biped-8feacd)
 * [Welcome Our New Insect Overlords With Arduino-Powered Ant Bot](https://hackaday.com/2018/12/17/welcome-our-new-insect-overlords-with-arduino-powered-ant-bot/)
@@ -207,6 +206,7 @@ making Dimebots some of the smallest robots in the world.
 * [Little FPV Bot Keeps It Simple With An ESP32](https://hackaday.com/2019/02/11/little-fpv-bot-keeps-it-simple-with-an-esp32/)
 * [Pan/Tilt2 Servo Motor Kit for Pixy2 - Dual Axis Robotic Camera Mount](https://www.seeedstudio.com/Pan-Tilt2-Servo-Motor-Kit-for-Pixy2-Dual-Axis-Robotic-Camera-Mount-p-3161.html)
 * [Robot Can’t Take Its Eyes Off The Bottle](https://hackaday.com/2019/01/25/robot-cant-take-its-eyes-off-the-bottle/)
+* [camera stabilized self balance robot](https://hackaday.io/project/184423-worlds-first-camera-stabilized-self-balance-robot)
 
 
 # Balancing Bot
@@ -306,6 +306,8 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 
 * [Drawing Robot Creates Portraits Using Pen, Paper And Algorithms](https://hackaday.com/2021/10/25/drawing-robot-creates-portraits-using-pen-paper-and-algorithms/)
 
+---------------
+
 
 # Ball Bouncing / Ball Balancing / Ball Tossing
 
@@ -338,6 +340,9 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
 
 * [An Interesting Circular Stewart Platform](https://hackaday.com/2022/06/10/an-interesting-circular-stewart-platform/)
 * [Stewart Platform Keeps Its Eye on the Ball](https://hackaday.com/2023/01/04/stewart-platform-keeps-its-eye-on-the-ball/)
+
+
+---------------
 
 
 # Poppy
