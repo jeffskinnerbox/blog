@@ -19,6 +19,12 @@ Version:      0.0.0
 
 
 
+# Playcar
+
+* [An RC Car that's easy to build & fun to play with](https://comfyspace.tech/build/playcar/)
+* [An RC Tracked Robot, Without The Pain](https://hackaday.com/2024/07/28/an-rc-tracked-robot-without-the-pain/)
+
+
 # 3D Printed Wheels
 
 * [Street Wheels for Longboard](https://www.thingiverse.com/thing:2939320)
