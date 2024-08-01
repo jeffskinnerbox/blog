@@ -27,9 +27,6 @@ The way I would put it .... The sciences are the stories we tell ourselves to or
 # Some Interesting Websites
 
 - [StreetScience](https://thewalkingtemple.medium.com/)
-- []()
-- []()
-- []()
 
 ---------------
 
@@ -129,6 +126,7 @@ The problem is, nobody understands quantum **physicists** muddled description of
 
 The Stern-Gerlach Experiment was the breakthrough that showed us the world of quantum physics.
 
+- [This Experiment Proved Quantum Mechanics](https://www.youtube.com/watch?v=kgO_EEjpQHI)
 - [The Forgotten Experiment That Proved Quantum Mechanics](https://www.youtube.com/watch?v=kgO_EEjpQHI)
 - [The Overlooked Experiment That Revealed the Quantum World](https://nautil.us/the-overlooked-experiment-that-revealed-the-quantum-world-482910/)
 
@@ -1099,6 +1097,7 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 Uncertainty is a purely mathematical phenomenon but because quantum systems realize some of this mathematical theory,
 uncertainty is a physical principle as well.
 
+- [I Misunderstood Heisenberg's Uncertainty Principle... Until Now!](https://www.youtube.com/watch?v=6TXvaWX5OFk)
 - [The Intuition behind Heisenberg’s Uncertainty Principle](https://medium.com/intuition/the-intuition-behind-heisenbergs-uncertainty-principle-445639b374bf)
 - [Uncertainty principle? It's not about quantum](https://www.youtube.com/watch?v=MBnnXbOM5S4&feature=em-subs_digest)
 - [How Heisenberg’s Uncertainty Principle Emerges From the Fourier Transform](https://www.cantorsparadise.com/wave-packets-and-how-heisenbergs-quantum-uncertainty-principle-emerges-from-the-fourier-transform-47c3e47f573b)
