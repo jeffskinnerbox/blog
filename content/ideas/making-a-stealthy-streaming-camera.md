@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -23,7 +23,7 @@ Version:      0.0.0
 
 * [Live Streaming Goes Pro with a Hacked Backpack](https://hackaday.com/2018/09/03/live-streaming-goes-pro-with-a-hacked-backpack/)
 * [Hundreds ‘Rickrolled’ in Mysterious Campus Prank at Cornell](https://cornellsun.com/2017/11/10/hundreds-rickrolled-in-mysterious-campus-prank-at-cornell/)
-    * [An Oral History of Rickrolling](https://getpocket.com/explore/item/an-oral-history-of-rickrolling)
+  * [An Oral History of Rickrolling](https://getpocket.com/explore/item/an-oral-history-of-rickrolling)
 * [A Doorbell With Facial Recognition](https://medium.com/@mppise/a-doorbell-with-facial-recognition-3b132bf9605)
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
 * [Raspberry Pi Zero W Surveillance Camera](https://www.youtube.com/watch?v=rhIzfRmKHnQ)
@@ -31,23 +31,29 @@ Version:      0.0.0
 * [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
 
 * [Nicla Vision](https://www.sparkfun.com/products/19728)
-    * [Getting Started With Arduino Nicla Vision](https://www.okdo.com/getting-started/get-started-with-arduino-nicla-vision/)
-    * [Nicla Voice](https://www.sparkfun.com/products/21219)
-    * [Nicla Sense ME](https://www.sparkfun.com/products/19727)
+  * [Getting Started With Arduino Nicla Vision](https://www.okdo.com/getting-started/get-started-with-arduino-nicla-vision/)
+  * [Bringing Big AI to Tiny Devices](https://www.hackster.io/news/bringing-big-ai-to-tiny-devices-64a40641413c)
+  * [Nicla Voice](https://www.sparkfun.com/products/21219)
+  * [Nicla Sense ME](https://www.sparkfun.com/products/19727)
 
 
 
 
 # How Do CMOS Sensors Work
+
 * [Dawn of the First Digital Camera](https://hackaday.com/2018/08/13/dawn-of-the-first-digital-camera/)
 * [Basics: How Image Sensors Work](https://www.youtube.com/watch?v=Csiv7-7ps40)
 
+
 # Motion Activation
+
 * [How to make a DIY home alarm system with a raspberry pi and a webcam](https://medium.com/@Cvrsor/how-to-make-a-diy-home-alarm-system-with-a-raspberry-pi-and-a-webcam-2d5a2d61da3d)
 * [Building a Motion Activated Security Camera with the Raspberry Pi Zero](https://www.bouvet.no/bouvet-deler/utbrudd/building-a-motion-activated-security-camera-with-the-raspberry-pi-zero)
 * [DIY Dashcam: Build a Car Security Camera](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/)
 
+
 # ESP32-CAM or ESP32-EYE 0r esp32-eye + Omnivision camera or T-Camera ESP-S3
+
 * [ESPCAM- XIAO Powered DIY Camera](https://www.hackster.io/Arnov_Sharma_makes/espcam-xiao-powered-diy-camera-1e93d1)
 * [OpenCV Running on a Tiny Microcontroller](https://hackaday.com/2022/05/19/opencv-running-on-tiny-microcontroller/)
 * [How to make a small, low-cost, remote accessible security camera with an ESP32](https://www.nabto.com/esp32/)
@@ -65,40 +71,54 @@ Version:      0.0.0
 * [LILYGO Launches ESP32-S3-Based T-Camera S3 for TinyML Computer Vision Projects](https://www.hackster.io/news/lilygo-launches-esp32-s3-based-t-camera-s3-for-tinyml-computer-vision-projects-47d1a46249ec)
 * [T-Camera S3 – An ESP32-S3 board with camera, display, PIR motion sensor, and microphone](https://www.cnx-software.com/2022/12/20/t-camera-s3-an-esp32-s3-board-with-camera-display-pir-motion-sensor-and-microphone/)
 
+
 ## Solar Harvesting WiFi ESP32 Camera
+
 * [Solar-Harvesting ESP32 Camera Is Waterproof, Repeatable](https://hackaday.com/2022/08/14/hackaday-prize-2022-solar-harvesting-esp32-camera-is-waterproof-repeatable/)
 * [Solar harvesting Wi-Fi camera](https://hackaday.io/project/186782-solar-harvesting-wi-fi-camera)
 
+
 # Tiny Spy Audio Transmitter
+
 * [Tiny Transmitter Brings Out the Spy Inside You](https://hackaday.com/2018/05/18/tiny-transmitter-brings-out-the-spy-inside-you/)
 * [ANALOG VIDEO TRANSMITTER](https://electronoobs.com/eng_circuitos_tut63.php)
 
+
 # Calling Home
+
 * [PR-Holonet: Disaster Area Emergency Comms](https://hackaday.io/project/140426-pr-holonet-disaster-area-emergency-comms)
 * [RockBLOCK Mk2 - Iridium SatComm Module](https://www.sparkfun.com/products/13745)
 * [Satellite communication with RockBLOCK](http://www.makersnake.com/rockblock/)
 
+
 # DashCam
+
 * [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
 * [How to Build a Raspberry Pi Body Camera](https://www.tomshardware.com/how-to/raspberry-pi-body-camera)
 * [Building a Blockchain Police Bodycam PoC for $25](https://www.digitalmarketnews.com/building-a-blockchain-police-bodycam-poc-for-25/)
 * [Building A Dashcam With The Raspberry Pi Zero W](https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w)
 * [DIY Dashcam: Build a Car Security Camera](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/)
 
+
 # ShowMeWebCam
+
 * [Showmewebcam Raspberry Pi 0 + High Quality Camera = High-quality USB Webcam!](https://awesomeopensource.com/project/showmewebcam/showmewebcam)
 * [Raspberry Pi Zero Webcam with ShowMeWebCam SD card image](https://www.youtube.com/watch?v=nH2G16YoBT4&feature=youtu.be)
 * [Build a Better USB Webcam!](https://www.youtube.com/watch?v=x_4XuQ0JgQo)
 * [Raspberry Pi High Quality Camera setup for low-latency Video Conferencing](http://www.davidhunt.ie/raspberry-pi-high-quality-camera-setup-for-low-latency-video-conferencing/)
 * [Raspberry Pi Zero with Pi Camera as USB Webcam](http://www.davidhunt.ie/raspberry-pi-zero-with-pi-camera-as-usb-webcam/)
 
+
 # Raspberry Pi HQ Camera
+
 * [USB Webcams Out Of Stock? Make One With A Raspberry Pi And HQ Camera Module](https://hackaday.com/2020/11/30/usb-webcams-out-of-stock-make-one-with-a-raspberry-pi-and-hq-camera-module/)
 * [Minimalist Raspberry Pi Zero W HQ camera case](https://www.geeky-gadgets.com/raspberry-pi-camera-case-19-02-2021/)
 * [Raspberry Pi HQ Camera Module Review and Image Segmentation Demo](https://www.youtube.com/watch?v=L08PTNVsZOk)
 * [A Pi Camera To Be Proud Of](https://hackaday.com/2022/08/28/a-pi-camera-to-be-proud-of/)
 
+
 # Hide Your Camera as a Passive Camera
+
 * [RUHAcam](https://magpi.raspberrypi.org/articles/ruhacam)
 
 
@@ -199,17 +219,19 @@ we will work around these and other limitations.
 * [How To Use Picamera2 to Take Photos With Raspberry Pi](https://www.tomshardware.com/how-to/use-picamera2-take-photos-with-raspberry-pi)
 * [How To Create a Bluetooth Raspberry Pi Camera Trigger](https://www.tomshardware.com/how-to/bluetooth-raspberry-pi-camera-trigger)
 
-----
+---------------
+
 
 # First, An Instant Camera / WebCam
+
 * [ESP8266 (WiFi) + Camera Tutorial CODE with trigBoard & ArduCam](https://www.youtube.com/watch?v=0VgLEP1ktcg&feature=youtu.be)
 * [ESP8266 Wi-Fi Instant Camera is a Simple Shooter](https://hackaday.com/2018/11/13/esp8266-wi-fi-instant-camera-is-a-simple-shooter/)
 * [ESP32 Trail Camera Goes The Distance On AA Batteries](https://hackaday.com/2020/05/18/esp32-trail-camera-goes-the-distance-on-aa-batteries/)
 * [ESP32 / 8266 WiFi instant Camera](https://hackaday.io/project/162256-esp32-8266-wifi-instant-camera)
 * [ESP8266 / ESP32 WiFi Powered Digital Camera](https://github.com/Heltec-Aaron-Lee/FS2) is a digital "Polaroid" that uploads the photo instantly to the cloud.
 * [Cheap ESP32 Webcam](https://hackaday.com/2019/02/02/cheap-esp32-webcam/)
-    * [A $9 Fully Open Source Streaming Webcam with No Soldering!](https://www.hackster.io/punkgeek/a-9-fully-open-source-streaming-webcam-with-no-soldering-c4b7c6)
-    * [How can I display an RTSP video stream in a web page](https://stackoverflow.com/questions/2245040/how-can-i-display-an-rtsp-video-stream-in-a-web-page)
+  * [A $9 Fully Open Source Streaming Webcam with No Soldering!](https://www.hackster.io/punkgeek/a-9-fully-open-source-streaming-webcam-with-no-soldering-c4b7c6)
+  * [How can I display an RTSP video stream in a web page](https://stackoverflow.com/questions/2245040/how-can-i-display-an-rtsp-video-stream-in-a-web-page)
 * [ESP32 with Camera and TFT Display](https://www.youtube.com/watch?v=v_8XifFcpaI&list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
 * [ESP-Eye: First Look (ESP32 Face Recognition)](https://www.youtube.com/watch?v=_JwMuvFVMsM&feature=youtu.be)
 * [#285 ESP32 Cameras: Comparison and Test (OV2640) and I2S MEMS microphone test](https://www.youtube.com/watch?v=5IhhyJjjCxo)
@@ -217,19 +239,20 @@ we will work around these and other limitations.
 * [ESP32 Camera Mini Series](https://www.youtube.com/playlist?list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
 * [Grove - Vision AI Module with Himax HX6537-A processor, thumb-size AI-powered OV2640 camera sensor, support Yolo V5 and Edge Impulse, easy-to-use](https://www.seeedstudio.com/Grove-Vision-AI-Module-p-5457.html)
 * LEDWallCamera
-    * [Add-On Makes ESP32 Camera Board Easier To Program](https://hackaday.com/2020/01/09/add-on-board-makes-esp32-camera-board-easier-to-program/)
-    * [ESP32-Cam Programmer & LED Wall Effects](https://www.youtube.com/watch?v=ikhZ34WgObc)
+  * [Add-On Makes ESP32 Camera Board Easier To Program](https://hackaday.com/2020/01/09/add-on-board-makes-esp32-camera-board-easier-to-program/)
+  * [ESP32-Cam Programmer & LED Wall Effects](https://www.youtube.com/watch?v=ikhZ34WgObc)
 
 
-----
+---------------
 
 
 # Stealthy Microphone / Listening Device
+
 * [No Wires, No Batteries - Spying Changed FOREVER! - Can I make a working Bug for Hannah Fry?](https://www.youtube.com/watch?v=GyryQltyDwA)
-    * [Recreating One Of History’s Best Known Spy Gadgets](https://hackaday.com/2023/03/25/recreating-one-of-historys-best-known-spy-gadgets/)
+  * [Recreating One Of History’s Best Known Spy Gadgets](https://hackaday.com/2023/03/25/recreating-one-of-historys-best-known-spy-gadgets/)
 
 
-----
+---------------
 
 
 
@@ -308,6 +331,7 @@ unidirectional long-distance communication or low-overhead data transmission.
 
 * [ESP32 WiFi Range Testing - 10km using Directional Antenna](https://www.youtube.com/watch?v=yCLb2eItDyE)
 * [unidirectional long-distance communication](https://github.com/Jeija/esp32free80211)
+
 
 # Auto-Connect to Open WiFi Network
 [!open-wifi](http://true-random.com/homepage/projects/wifi/free_wifi.jpg)
@@ -392,10 +416,13 @@ Now bring interface down/up and check status.
 Execute `sudo ifconfig wlan0 down && sudo ifconfig wlan0 up && sudo wpa_cli -i wlan0 status`
 and look for `wpa_state=COMPLETED`.
 
+
 # Auto-Connect to Public WiFi Network
+
 * [How to get free wifi on public networks](https://medium.freecodecamp.com/free-wifi-on-public-networks-daf716cebc80#.hesy8hhz6)
-    * [FreeWifi](https://github.com/kylemcdonald/FreeWifi)
-    * [SpoofMAC](https://github.com/feross/SpoofMAC)
+  * [FreeWifi](https://github.com/kylemcdonald/FreeWifi)
+  * [SpoofMAC](https://github.com/feross/SpoofMAC)
+
 
 ## Physical Web Space
 A Physical Web Space, is a website which follows you around wherever you go.
@@ -407,14 +434,18 @@ It also acts as a captive portal, redirecting all (well, most) requests to the l
 
 * [MY PHYSICAL WEB SPACE](https://www.instructables.com/id/My-Physical-Web-Space/)
 * [Setting up a Raspberry Pi Captive Portal](https://pimylifeup.com/raspberry-pi-captive-portal/)
-* [Building	a Raspberry	Pi Captive Portal Wi‐Fi	Hotspot](http://cybersecurityguy.com/Building_a_Raspberry_Pi_Captive_Portal_Wi-Fi_Hotspot.pdf)
+* [Building a Raspberry Pi Captive Portal Wi‐Fi Hotspot](http://cybersecurityguy.com/Building_a_Raspberry_Pi_Captive_Portal_Wi-Fi_Hotspot.pdf)
+
 
 ## Domain Name Server (DNS)
+
 * [Introduction to the Domain Name System (DNS)](https://opensource.com/article/17/4/introduction-domain-name-system-dns)
 * [Build your own DNS name server on Linux](https://opensource.com/article/17/4/build-your-own-name-server)
 * [dnsd: DNS encoder, decoder, and server](https://github.com/ansuz/modern-dnsd)
 
+
 ## Telemetry over Opportunistic WiFi Links
+
 * [How DNS Tunneling Works](http://inside-out.xyz/technology/how-dns-tunneling-works.html)
 * [DNS Tunneling: Getting The Data Out Over Other Peoples’ WiFi](http://hackaday.com/2016/08/07/getting-the-data-out-over-other-peoples-wifi/)
 * [TOWL - Telemetry over Opportunistic WiFi Links](http://www.phreakmonkey.com/2016/08/towl-telemetry-over-opportunistic-wifi.html)
@@ -424,11 +455,15 @@ It also acts as a captive portal, redirecting all (well, most) requests to the l
 * [Tunneling Data and Commands Over DNS to Bypass Firewalls](https://zeltser.com/c2-dns-tunneling/)
 * [PowerShell DNS Command & Control with dnscat2-powershell](http://www.blackhillsinfosec.com/?p=5578)
 
+
 ## Augment Reality
+
 * [AR.js: Efficient Augmented Reality for the Web](https://uploadvr.com/ar-js-efficient-augmented-reality-for-the-web/)
-    * [Efficient Augmented Reality for the Web - 60fps on mobile!](https://github.com/jeromeetienne/ar.js)
+  * [Efficient Augmented Reality for the Web - 60fps on mobile!](https://github.com/jeromeetienne/ar.js)
+
 
 # Camera Robot
+
 * [ZeroBot - Raspberry Pi Zero FPV Robot](https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot)
 * [Little FPV Bot Keeps It Simple With An ESP32](https://hackaday.com/2019/02/11/little-fpv-bot-keeps-it-simple-with-an-esp32/)
 
