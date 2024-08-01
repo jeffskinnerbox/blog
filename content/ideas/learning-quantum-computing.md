@@ -293,6 +293,7 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 - [Introduction to Grover’s Algorithm](https://www.geeksforgeeks.org/introduction-to-grovers-algorithm/)
 - [Grover's Algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm)
 - [Grover's Algorithm | Understanding Quantum Information & Computation: Lesson 08](https://www.youtube.com/watch?v=hnpjC8WQVrQ&t=73s)
+- [A Visual Introduction to Grover's Algorithm and Reflections](https://www.youtube.com/watch?v=c30KrWjHaw4)
 
 - [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
 - [Quantum Computers: How They Work and What Can They Do?](https://www.youtube.com/watch?v=6eJVVCO6GRM)
@@ -413,7 +414,14 @@ Seems like it is no longer offered
   - [Quantum Computing Tutorials (Visual) for Beginners](https://www.youtube.com/playlist?list=PLJk_IGUjQllfCDHYmFNfaCoUgXImxmZIA)
 
 
+# History of Quantum Computing
+
+- [The History of Quantum Computing](https://www.youtube.com/playlist?list=PLOFEBzvs-VvpNNq221OCZzCZjHadM2NHR)
+
+
 # Some Potential Useful Quantum Algorithm
+
+- [Introducing Quantum Algorithms with Konstantin Lakic](https://www.youtube.com/playlist?list=PLl0eQOWl7mnUTNF7KlDJVI3PUgyaXQUHS)
 
 Quantum Fourier Transform - central to many quantum algorithms
 Shor’s Algorithm - factoring large numbers
