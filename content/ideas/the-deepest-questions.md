@@ -1,3 +1,11 @@
+<!-- vim:ts=2:sw=2:sts=2:et:ai:ft=markdown:                                     -- modeline = vim:tabstop=2:shiftwidth=2:softtabstop=2:expandtab:autoindent:filetype=markdown: - See [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
+
+<!-- markdownlint-disable MD001 MD012 MD033 MD041 MD045 -->
+<!-- markdownlint-configure-file { "line-length": { "line_length": 300 } } -->
+<!-- markdownlint-configure-file { "hr-style": { "style": "---------------", } } -->
+<!-- markdownlint-configure-file { "blanks-around-headings": { "lines_above": 2, "lines_below": 0, } } -->
+<!-- see [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
+
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -173,8 +181,12 @@ No matter which interpretation you choose, there is a philosophical price to be 
 
 
 ## QBism (Quantum Bayesianism)
-
 QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechanics, emphasizing the role of the observer and measurements, contrary to classical physics' objective worldview.
+
+- [QBism: The New Theory That Shatters Our View of Reality](https://www.youtube.com/watch?v=yABPvDJ6Zgs)
+
+
+## History of Quantum Mechanics
 
 - [A brief history of quantum mechanics](https://bigthink.com/collections/brief-history-quantum-mechanics/)
   - Early Days
