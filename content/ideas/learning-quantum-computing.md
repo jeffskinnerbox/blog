@@ -1,3 +1,11 @@
+<!-- vim:ts=2:sw=2:sts=2:et:ai:ft=markdown:                                     -- modeline = vim:tabstop=2:shiftwidth=2:softtabstop=2:expandtab:autoindent:filetype=markdown: - See [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
+
+<!-- markdownlint-disable MD001 MD012 MD033 MD041 MD045 -->
+<!-- markdownlint-configure-file { "line-length": { "line_length": 300 } } -->
+<!-- markdownlint-configure-file { "hr-style": { "style": "---------------", } } -->
+<!-- markdownlint-configure-file { "blanks-around-headings": { "lines_above": 2, "lines_below": 0, } } -->
+<!-- see [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
+
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -7,7 +15,7 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
----
+---------------
 
 _"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
 ... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
@@ -40,7 +48,7 @@ Barriers to getting your head around quantum computing:
 
 - Nobel prize winner Alan Aspect on quantum physics “Quantum phenomena do not occur in a Hilbert space, they occur in a laboratory,” meaning it’s not enough to have a mathematical model of quantum mechanics — we also need the physical experiments and a physical interpretation.
 - Quantum theory is often regarded as challenging to learn and teach, with advanced mathematical prerequisites ranging from complex numbers and probability theory to matrix multiplication, vector space algebra and symbolic manipulation within the Hilbert space formalism. It is traditionally considered an advanced undergraduate or graduate-level subject.
-- What is Hilbert space and why is it such a big deal in quantum physics? - https://medium.com/predict/hilbert-space-explained-cc33de334979
+- What is Hilbert space and why is it such a big deal in quantum physics? - <https://medium.com/predict/hilbert-space-explained-cc33de334979>
 - the language & concepts used in quantum physics and how it obscures your understanding
 - the mathematics of vector spaces / tensors / Bra–ket notation / probability / complex numbers and how it relates to the physics & computation
 - Governments and organisations around the world stress the need to train young people, and make stakeholders aware of and familiar with quantum computing & technologies. ... BUT HOW!
@@ -49,6 +57,7 @@ Barriers to getting your head around quantum computing:
 - the concept of randomness and how it can aid in computation
 - What are the type of problems suitable for a quantum computer? - The fact that quantum computers can solve any problems that classical computers can, but quantum and classical computers really are a category apart — that even in a world where classical computers succeed beyond all realistic dreams, quantum computers would still stand beyond them. ([Raz and Tal’s paper](https://eccc.weizmann.ac.il/report/2018/107/)). The work of Raz and Tal’s provides an ironclad assurance that quantum computers exist in a different computational realm than classical computers (at least relative to an oracle). Even in a world where P equals NP — one where the traveling salesman problem is as simple as finding a best-fit line on a spreadsheet — Raz and Tal’s proof demonstrates that there would still be problems only quantum computers could solve.
 - “Even if P were equal to NP, even making that strong assumption,” said Fortnow, “that’s not going to be enough to capture quantum computing.”
+
 
 # Quantum Hype
 
@@ -59,6 +68,7 @@ Barriers to getting your head around quantum computing:
   - [Guest Post: The Unexaggerated Magic Of Quantum – Part III](https://thequantuminsider.com/2024/03/13/guest-post-the-unexaggerated-magic-of-quantum-part-iii/)
   - [Guest Post: The Unexaggerated Magic Of Quantum – Part IV](https://thequantuminsider.com/2024/04/24/guest-post-the-unexaggerated-magic-of-quantum-part-iv/)
   - [Guest Post: The Unexaggerated Magic Of Quantum – Part V Special Quantum Artificial Intelligence Edition](https://thequantuminsider.com/2024/05/24/guest-post-the-unexaggerated-magic-of-quantum-part-v-special-quantum-artificial-intelligence-edition/)
+
 
 # Origin Stories
 
@@ -80,10 +90,12 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
   - [Richard Feynman: Simulating Physics with Computers](https://www.researchgate.net/publication/254705307_RICHARD_FEYNMAN_SIMULATING_PHYSICS_WITH_COMPUTERS)
   - [A Summary of Feynman's "Simulating Physics with Computers"](<https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Quantum_Tutorials_(Rioux)/08%3A_Quantum_Teleportation/8.42%3A_A_Summary_of_Feynman's_Simulating_Physics_with_Computers>)
 
+
 # Port of Los Angeles Pier 300
 
 - [SavantX: Logistics Optimization at the Port of Los Angeles](https://www.dwavesys.com/media/y3hl22va/dwave_port_of_la_case_story_v7.pdf)
 - [Logistics Optimization with Quantum: Port of Los Angeles](https://www.youtube.com/watch?v=jA7iopqDm94)
+
 
 # Thermodynamic Computing
 
@@ -93,16 +105,19 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
   - [The Next Era of Computing | Extropic](https://www.youtube.com/watch?v=fyVudfvYNKo)
   - [Guillaume Verdon: Why Accelerate](https://www.youtube.com/watch?v=QjVOfM2EBnE)
 
----
+---------------
+
 
 # Quantum Computing Pedagogy
 
 Pedagogy is the method and practice of teaching, especially as an academic subject or theoretical concept.
 As education researchers gain a broader understanding of how students learn quantum mechanics, new pedagogical and technical resources are being developed to facilitate student learning.
 
+
 ## ScienceAtHome Quantum Tools
 
 - [ScienceAtHome Quantum Tools](https://www.scienceathome.org/quantum/tools/)
+
 
 ## QEngine
 
@@ -110,7 +125,8 @@ QEngine is our software library for quantum simulation and - optimization.
 
 - [QEngine](https://www.quatomic.com/)
 
----
+---------------
+
 
 # Preparatory Mathematics and Quantum Mechanics for Quantum Computing
 
@@ -144,9 +160,11 @@ QEngine is our software library for quantum simulation and - optimization.
   - [Quantum Book Recommendations Part 2!](https://www.youtube.com/watch?v=rbcNQB7VMtI)
   - [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
 
+
 # Skepticism
 
 - [Quantum Computing’s Hard, Cold Reality Check](https://spectrum.ieee.org/quantum-computing-skeptics)
+
 
 # What is Computation?
 
@@ -161,10 +179,12 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 - [Mechanical circuits: electronics without electricity](https://www.youtube.com/watch?v=QrkiJZKJfpY)
 - [Analog vs Digital vs Quantum, Explained - Learn Science of Data, Waves, Bits, Qubits and more!](https://www.youtube.com/watch?v=ZMkLPvOVkNo)
 
+
 # What is Computational Complexity?
 
 - [A Short Guide to Hard Problems](https://www.quantamagazine.org/a-short-guide-to-hard-problems-20180716/)
 - [Finally, a Problem That Only Quantum Computers Will Ever Be Able to Solve](https://www.quantamagazine.org/finally-a-problem-that-only-quantum-computers-will-ever-be-able-to-solve-20180621/)
+
 
 # Examples of Computing Machines
 
@@ -173,16 +193,19 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 - [Lego Mechanical Computer](https://www.drmoron.org/posts/mechanical-computer/)
 - [Mechanical Implementation of a Turing Machine](http://rubens.ens-lyon.fr/)
 
+
 # What is Neuromorphic Computing?
 
 - [The AI Hardware Problem](https://www.youtube.com/watch?v=owe9cPEdm7k)
 - [Neuromorphic Computing-How The Brain-Inspired Technology | Neuromorphic Artificial Intelligence |](https://www.youtube.com/watch?v=u9pulFlavIM)
+
 
 ## What is Spike Neuromorphic Computing?
 
 Spiking Neural Networks are neural networks that replicate the neuronal-firing mechanisms of the brain and thus possess many capabilities of the brain e.g. energy efficiency and Spatio-temporal data processing.
 
 - [Mike Davies: Realizing the Promise of Spiking Neuromorphic Hardware](https://www.youtube.com/watch?v=jhQgElvtb1s)
+
 
 ## Computable and Not-Computable
 
@@ -192,6 +215,7 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
   - [With Fifth Busy Beaver, Researchers Approach Computation’s Limits](https://www.quantamagazine.org/amateur-mathematicians-find-fifth-busy-beaver-turing-machine-20240702/)
     - [The Busy Beaver Challenge](https://bbchallenge.org/)
 
+
 # What is Quantum Computation?
 
 - [The Quantum Computing Advantage](https://www.youtube.com/watch?v=PXQ-sh07eBw)
@@ -200,15 +224,18 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
   - [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
   - [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
 
+
 ## Control Flow in Quantum Programming
 
 - [A blueprint for making quantum computers easier to program](https://news.mit.edu/2024/mit-researchers-propose-blueprint-how-make-quantum-computers-easier-program-0416)
   - [Quantum Control Machine: The Limits of Control Flow in Quantum Programming](https://arxiv.org/pdf/2304.15000.pdf)
 
+
 # What is Quantum Advantage?
 
 - [Scientists figure out how to surpass ‘quantum advantage’ with binary computers](https://cointelegraph.com/news/scientists-surpass-quantum-advantage-binary-computers)
 - [Quantum Advantage in Learning from Experiments](https://blog.research.google/2022/06/quantum-advantage-in-learning-from.html)
+
 
 # Is Quantum Computing Really Probabilistic Computing?
 
@@ -217,9 +244,11 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 - [What is Probabilistic Computing, and how does it work?](https://medium.com/digital-architecture-lab/what-is-probabilistic-computing-and-how-does-it-work-1efea7d780c9)
 - [Probability vs quantum computing](https://www.linkedin.com/pulse/probability-vs-quantum-computing-david-radcliffe/)
 
+
 # Learning to Live With Quantum Weirdness
 
 - [Understanding Quantum Mechanics](https://www.youtube.com/watch?v=Wsjgtp9XZxo&list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL)
+
 
 # Quantum Mechanics & Chaos
 
@@ -231,6 +260,7 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 
 - [Fluid dynamics feels natural once you start with quantum mechanics](https://www.youtube.com/playlist?list=PLMoTR49uj6ld32zLVWmcGXaW7w2ey7Vh4)
 
+
 # When Will Quantum Computing Be Useful
 
 - [Quantum computing: What leaders need to know now](https://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now)
@@ -239,7 +269,8 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 
 - [Physicists Finally Find a Problem That Only Quantum Computers Can Do](https://www.quantamagazine.org/physicists-finally-find-a-problem-only-quantum-computers-can-do-20240312/)
 
----
+---------------
+
 
 # Quantum Computing
 
@@ -253,7 +284,15 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 - [Learning About Quantum States](https://www.youtube.com/playlist?list=PLm3J0oaFux3biM7DgkmjSWAikhgQm6xbv)
 - [Quantum Computation and Information at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5qLskC6xQ24JpMwOAeJz)
 
+
 # How Does a Quantum Computer Work?
+
+- [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4)
+- [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
+
+- [Introduction to Grover’s Algorithm](https://www.geeksforgeeks.org/introduction-to-grovers-algorithm/)
+- [Grover's Algorithm](https://en.wikipedia.org/wiki/Grover%27s_algorithm)
+- [Grover's Algorithm | Understanding Quantum Information & Computation: Lesson 08](https://www.youtube.com/watch?v=hnpjC8WQVrQ&t=73s)
 
 - [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
 - [Quantum Computers: How They Work and What Can They Do?](https://www.youtube.com/watch?v=6eJVVCO6GRM)
@@ -266,6 +305,7 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 - [The Quantum Computing Speed Boost Is NOT What You Think](https://www.youtube.com/watch?v=KdK391DqONc)
 - [The Mathematics of Quantum Computers](https://www.youtube.com/watch?v=IrbJYsep45E)
 - [Building the Bits and Qubits](https://www.youtube.com/watch?v=F8U1d2Hqark)
+
 
 # How or What is a Quantum Computer Computing?
 
@@ -295,17 +335,19 @@ Does this tell us enough about the distinction between the classical & quantum c
 | Common applications of supercomputing are simulation and modeling of physical phenomena such as climate change, explosions, etc.                  | There is no real world applications of Quantum computing.                                                                              |
 | It is something that connects people, organizations, products and technologies.                                                                   | Whereas, these are about changing the notion of computation itself.                                                                    |
 
+
 # Homemade Quantum Computer
 
 All you'll need is:
 
 - a weak red laser pointer (the type in cat toys are generally safe)
 - polarizing film or polarizing filter. If you have polaroid glasses or certain camera ND filters you may already have this. Otherwise it's available on amazon
-- half waveplate (the plastic thing) is this one: https://www.edmundoptics.co.uk/f/poly... (λ/2 Retarder Film (WP280))
+- half waveplate (the plastic thing) is this one: <https://www.edmundoptics.co.uk/f/poly>... (λ/2 Retarder Film (WP280))
 - You don't need calcite, but if you want to play with it, you can find it on etsy usually. Look for a sample that's exceptionally clear
 
 - [What can my homemade quantum computer do?](https://www.youtube.com/watch?v=tHfGucHtLqo)
 - [I made a (useless) quantum computer at home](https://www.youtube.com/watch?v=muoIG732fQA)
+
 
 # Probabilistic Computing
 
@@ -356,6 +398,7 @@ Probabilistic computing is a field of computer science and artificial intelligen
 - [Quantum computing cheat sheet for circuit designers](https://www.eenewseurope.com/en/quantum-computing-cheat-sheet-for-circuit-designers/)
 - [Quantum Computing](https://www.youtube.com/playlist?list=PLzH6n4zXucko55y-YFE4ng1CLiui_3DUr)
 
+
 # IBM Quantum Developer Certification
 
 Seems like it is no longer offered
@@ -369,6 +412,7 @@ Seems like it is no longer offered
   - [Quantum Glasses (Member of IBM Qiskit Ecosystem) | Quantum Computing explained](https://www.youtube.com/watch?v=wCrdbL5taj0)
   - [Quantum Computing Tutorials (Visual) for Beginners](https://www.youtube.com/playlist?list=PLJk_IGUjQllfCDHYmFNfaCoUgXImxmZIA)
 
+
 # Some Potential Useful Quantum Algorithm
 
 Quantum Fourier Transform - central to many quantum algorithms
@@ -376,11 +420,13 @@ Shor’s Algorithm - factoring large numbers
 Grover’s Algorithm - find a specific item in a database of N items in roughly sqrt(N) operations, classical algorithms require N operations
 Harrow-Hassidim-Lloyd (HHL) Algorithm - solving linear equations
 
+
 ## Shor’s Algorithm
 
 - [Thirty Years Later, a Speed Boost for Quantum Factoring](https://www.quantamagazine.org/thirty-years-later-a-speed-boost-for-quantum-factoring-20231017)
 - [How Quantum Computers Will Correct Their Errors](https://www.quantamagazine.org/how-quantum-computers-will-correct-their-errors-20211116)
 - [New Codes Could Make Quantum Computing 10 Times More Efficient](https://www.quantamagazine.org/new-codes-could-make-quantum-computing-10-times-more-efficient-20230825/)
+
 
 # Scott Aaronson's Course "Quantum Computing Since Democritus"
 
@@ -389,16 +435,19 @@ Harrow-Hassidim-Lloyd (HHL) Algorithm - solving linear equations
 - [What Makes Quantum Computing So Hard to Explain?](https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608)
 - [Ricoh Printers: Intelligent Model](https://www.youtube.com/watch?v=saWCyZupO4U)
 
+
 # Quantumpedia
 
 Quantumpedia is a comprehensive online encyclopedia on quantum computing, founded by Louis Chen, an IBM Q Researcher and PhD candidate at Imperial College.
 
 - [Quantumpedia](https://quantumpedia.uk/lists)
 
+
 # Quantum Computing Origins
 
 - [A Brief History of Quantum Computing](https://quantumpedia.uk/a-brief-history-of-quantum-computing-e0bbd05893d0)
 - [Feynman’s Three Papers Related to Quantum Computing](https://jackkrupansky.medium.com/feynmans-three-papers-related-to-quantum-computing-dd6f9847e6ad)
+
 
 # Why Quantum Computing?
 
@@ -414,6 +463,7 @@ As physicist Charlie Bennett describes the [relationship between quantum and cla
 - [Quantum Instruction Set - Computerphile](https://www.youtube.com/watch?v=ZN0lhYU1f5Q)
 - [Current State of Quantum Computing - Computerphile](https://www.youtube.com/watch?v=PN7mPYcWFKg)
 
+
 # Why are Quantum Computing so Fast?
 
 Is this why or is it bull shit?
@@ -421,10 +471,12 @@ Is this why or is it bull shit?
 - [](https://medium.com/@hasnainistz/quantum-computing-why-it-is-so-fast-ddc93f3dffdc)
 - [What Is Entanglement and Why Is It Important?](https://scienceexchange.caltech.edu/topics/quantum-science-explained/entanglement)
 
+
 # Quantum Error Correction
 
 - [How Quantum Computers Will Correct Their Errors](https://www.quantamagazine.org/how-quantum-computers-will-correct-their-errors-20211116)
 - [The Best Qubits for Quantum Computing Might Just Be Atoms](https://www.quantamagazine.org/the-best-qubits-for-quantum-computing-might-just-be-atoms-20240325/)
+
 
 # Negative Probability
 
@@ -440,6 +492,7 @@ you are operating with a 2-norm probability. In this case, we are generalize pro
 - [Can Probability be Negative? | Quantum Mechanics | Quantum Computing](https://www.youtube.com/watch?v=ZCrjRCwjPbw)
   - Quantum theory is about information, and about how probabilities behave when information is fundamentally inaccessible to observers.
 
+
 # Quantum Computing Categories
 
 Quantum computing is divided into two categories:
@@ -447,11 +500,14 @@ Quantum Annealers and Logic Gate Based Quantum Computers.
 These two different types of quantum computers have two different purposes
 and use very different systems and hardware.
 
+
 ## Quantum Annealers (Adiabatic Quantum Computing)
 
 - [Quantum Annealers: Solving The World's Optimization Problems](https://www.linkedin.com/pulse/quantum-annealers-solving-worlds-optimization-problems-brianna-gopaul/)
 
+
 ## Logic Gate Based Quantum Computers
+
 
 # Vectors & Kets / Dirac Notation
 
@@ -463,6 +519,7 @@ and use very different systems and hardware.
 - [Bra-Ket Notation](https://www.mathsisfun.com/physics/bra-ket-notation.html)
 - [Linear Algebra In Dirac Notation](https://quantum.phys.cmu.edu/CQT/chaps/cqt03.pdf)
 
+
 # Free Quantum Computing Platforms
 
 A cross-platform Python library for differentiable programming of quantum computers.
@@ -471,9 +528,11 @@ Train a quantum computer the same way as a neural network.
 - [A Quick Look at Free Platforms and Libraries for Quantum Machine Learning](https://www.opensourceforu.com/2023/07/a-quick-look-at-free-platforms-and-libraries-for-quantum-machine-learning/)
 - [PennyLane](https://pennylane.ai/)
 
+
 # Google Quantum AI
 
 - [Google Quantum AI](https://quantumai.google/)
+
 
 # Towards a Demystification of Quantum Mechanics
 
@@ -486,6 +545,7 @@ Train a quantum computer the same way as a neural network.
 - [Duality Of Light Explored By Revisiting The Double-Slit Experiment](https://hackaday.com/2020/10/18/duality-of-light-explored-by-revisiting-the-double-slit-experiment/)
 - [The 9 Experiments That Will Change Your View of Light (And Blow Your Mind)](https://www.youtube.com/watch?v=QqY8fY0TqaQ)
 
+
 # Towards a Demystification of Quantum Computers
 
 - [Quantum Computers, explained with MKBHD](https://www.youtube.com/watch?v=e3fz3dqhN44)
@@ -496,11 +556,13 @@ Train a quantum computer the same way as a neural network.
 - [Q-CTRL: Black Opal](https://q-ctrl.com/products/black-opal/)
 - [The Quantum Atlas](https://quantumatlas.umd.edu/)
 
+
 # Phononic Quantum Computer
 
 - [Scientists Just Showed How to Make a Quantum Computer Using Sound Waves](https://singularityhub.com/2023/06/09/scientists-just-showed-how-quantum-computers-could-be-based-on-sound-waves/)
 - [Pritzker Molecular Engineering Researchers ‘Split’ Phonons – or Sound – in Step Toward New Type of Quantum Computer](https://www.hpcwire.com/off-the-wire/pritzker-molecular-engineering-researchers-split-phonons-or-sound-in-step-toward-new-type-of-quantum-computer/)
 - [How splitting sound might lead to a new kind of quantum computer](https://theconversation.com/how-splitting-sound-might-lead-to-a-new-kind-of-quantum-computer-207974)
+
 
 # Quantum Programming Languages
 
@@ -511,11 +573,14 @@ Train a quantum computer the same way as a neural network.
 - Q#: Developed by Microsoft, this quantum computing programming language is used to write quantum algorithms. It also integrates with Visual Studio and other Microsoft development tools.
 - Cirq: Developed by Google, Cirq is used to write quantum algorithms. It works with Google’s quantum computing framework
 
+
 ## QuTiP
 
 - [Quantum Toolbox in Python (QuTiP)](https://qutip.org/)
 
+
 ## Ocean
+
 
 ## Qiskit
 
@@ -548,6 +613,7 @@ Qiskit accelerates the development of quantum applications by providing the comp
   - [Lab 4](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-4-541a7e0e6478)
   - [Lab 5](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-5-6d932eb1922)
 
+
 ### Qiskit + Raspberry Pi
 
 - Qrasp (Quantum RASPberry PI)
@@ -558,11 +624,14 @@ Qiskit accelerates the development of quantum applications by providing the comp
 - Other
   - [GitHub: KPRoche/quantum-raspberry-tie](https://github.com/KPRoche/quantum-raspberry-tie)
 
+
 ### Qiskit Metal
 
 - [Qiskit Metal | Quantum Device Design](https://www.qiskit.org/metal/)
 
-## Q#
+
+## Q #
+
 
 ## Cirq
 
@@ -571,6 +640,7 @@ Cirq is a Python software library for writing, manipulating, and optimizing quan
 
 - [Cirq](https://quantumai.google/cirq)
 - [Google Quantum AI](https://quantumai.google)
+
 
 ## Quirk
 
@@ -585,24 +655,29 @@ Cirq is a Python software library for writing, manipulating, and optimizing quan
 - [You don't know how Quantum Computers work](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
 - [Quantum computing for the determined](https://www.youtube.com/watch?v=X2q1PuI2RFI&list=PL1826E60FD05B44E4)
 
+
 # TKET
 
 TKET is an advanced software development kit for the creation and execution of programs for gate-based quantum computers.
 
 - [TKET](https://www.quantinuum.com/developers/tket)
 
+
 # Making a Quantum Computer
 
 - [Making a Quantum Computer at Home](https://okezuebell.medium.com/making-a-quantum-computer-at-home-bc59afe72d7d)
+
 
 ## Simple Simulator
 
 - [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
 
+
 ## Quantum Country / CNOT
 
 - [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
 - [CNOT: Introduction to Quantum Computing](https://cnot.io/)
+
 
 ## QuTiP
 
@@ -610,6 +685,7 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 - [Taking Python to the Next Level](http://www.linuxjournal.com/content/taking-python-next-level)
 - [QuTiP](http://qutip.org/)
+
 
 # Tutorials on Quantum Physics
 
@@ -620,6 +696,7 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 - [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
 - [encyclopedia of quantum information](http://www.quantiki.org/wiki/Main_Page)
 - [Online course trains students in the bizarre world of quantum computing](https://www.livescience.com/quantum-computing-students-online-course.html)
+
 
 # Tutorials / Books on Quantum Computing
 
@@ -650,11 +727,13 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
   - [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
   - [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
 
+
 # IBM Q
 
 - [IBM A Experience Documentation: Beginners Guide](https://quantumexperience.ng.bluemix.net/qx/tutorial?sectionId=beginners-guide&page=introduction)
 - [IBM Q Experience](https://quantumexperience.ng.bluemix.net/qx/experience)
 - [IBM Q announces a host of new tools geared towards making quantum computing more accessible](https://www.neowin.net/news/ibm-q-announces-a-host-of-new-tools-geared-towards-making-quantum-computing-more-accessible)
+
 
 # Quantum Computing Simulation
 
@@ -666,17 +745,21 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 - [Quantum computer emulated by a classical system](http://phys.org/news/2015-05-quantum-emulated-classical.html)
 - [Our new Quantum Virtual Machine will accelerate research and help people learn quantum computing](https://blog.google/technology/research/our-new-quantum-virtual-machine-will-accelerate-research-and-help-people-learn-quantum-computing/)
 
+
 # Quantum Communication
 
 - [Quantum Communications in Your Browser](https://hackaday.com/2018/01/31/quantum-communications-in-your-browser/)
+
 
 # Build Your Own Quantum Computer
 
 - [36C3: Build Your Own Quantum Computer At Home](https://hackaday.com/2019/12/30/36c3-build-your-own-quantum-computer-at-home/)
 
+
 # Classic Physics Analogs for Quantum Systems
 
 - [The Amazing Physics Of The Wilberforce Pendulum](https://www.youtube.com/watch?v=M0Zjl_tMOZg)
+
 
 # Hilbert Space
 
@@ -685,6 +768,7 @@ The term “Hilbert space” is often reserved for an infinite-dimensional inner
 
 - [Hilbert Space Explained](https://medium.com/predict/hilbert-space-explained-cc33de334979)
 - [Hilbert Space](https://medium.com/@brcsomnath/hilbert-space-7a36e3badac2)
+
 
 # ZX Calculus / Quantum in Pictures
 
@@ -712,11 +796,13 @@ ZXW calculus is an extension of ZX calculus. ZXW calculus was developed by Quant
 - Tools
   - [ZXLive - An Interactive GUI for the ZX Calculus - Razin A. Shaikh](https://www.youtube.com/watch?v=J--c2q-KOc8)
 
+
 # Tensor Diagram / Tensor Networks
 
 Tensor network theory is a branch of mathematics that deals with the representation of high-dimensional tensors. Tensors are mathematical objects that generalize matrices to higher dimensions. Tensor network theory provides a way to represent these high-dimensional objects using a lower-dimensional network. This theory has applications in machine learning, where it can be used to represent high-dimensional data.
 
 - [Tensor Network](https://tensornetwork.org/)
+
 
 ## Tensor Network Algorithm Out Perfroming Quantum Computer
 
