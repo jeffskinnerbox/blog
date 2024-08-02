@@ -1565,6 +1565,8 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
 # The Black-Scholes/Merton Equation
 
 - [The Trillion Dollar Equation](https://www.youtube.com/watch?v=A5w-dEgIU1M)
+- [The Math Equation That Beat Wall Street | Jim Simons vs. EMH](https://www.youtube.com/watch?v=LWxHj_eAS1I)
+- [Why the Medallion Fund is the Greatest Money-Making Machine of All Time](https://ofdollarsanddata.com/medallion-fund/)
 
 ---------------
 
