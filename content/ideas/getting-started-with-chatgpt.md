@@ -1,3 +1,11 @@
+<!-- vim:ts=2:sw=2:sts=2:et:ai:ft=markdown:                                     -- modeline = vim:tabstop=2:shiftwidth=2:softtabstop=2:expandtab:autoindent:filetype=markdown: - See [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
+
+<!-- markdownlint-disable MD001 MD012 MD033 MD041 MD045 -->
+<!-- markdownlint-configure-file { "line-length": { "line_length": 300 } } -->
+<!-- markdownlint-configure-file { "hr-style": { "style": "---------------", } } -->
+<!-- markdownlint-configure-file { "blanks-around-headings": { "lines_above": 2, "lines_below": 0, } } -->
+<!-- see [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
+
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -68,6 +76,7 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 
 # Edge Impulse LLM / Low Latency & Low Cost
 
+- [GenAI for the Edge: Harness the Power of LLMs on Edge Devices](https://www.youtube.com/watch?v=DLMdk1oXNes)
 - [Bringing Large Language Models to the Edge with GPT-4o and NVIDIA TAO](https://www.edgeimpulse.com/blog/llm-knowledge-distillation-gpt-4o/)
   - [Using GPT-4o to train a 2,000,000x smaller model (that runs directly on device)](https://www.youtube.com/watch?v=Jou0aRgGiis&t=4s)
 
