@@ -1561,6 +1561,11 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
 
 - [The astonishing power of the pigeonhole principle: the mathematician's Swiss army knife](https://aleph0.substack.com/p/the-astonishing-power-of-the-pigeonhole)
 
+
+# The Black-Scholes/Merton Equation
+
+- [The Trillion Dollar Equation](https://www.youtube.com/watch?v=A5w-dEgIU1M)
+
 ---------------
 
 
