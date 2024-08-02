@@ -98,6 +98,7 @@ The problem is, nobody understands quantum **physicists** muddled description of
   - [Adam Becker on the Curious History of Quantum Mechanics](https://www.youtube.com/watch?v=em7dkYZTetE)
   - [Adam Becker, "The Trouble with Quantum Physics, and Why It Matters"](https://www.youtube.com/watch?v=HUEDWhYaESw)
   - [Adam Becker - "'Not Merely False, but Foolish': The History of Bell’s Two Theorems"](https://www.youtube.com/watch?v=TUyp2uC6VJc)
+  - [‘Metaphysical Experiments’ Probe Our Hidden Assumptions About Reality](https://www.quantamagazine.org/metaphysical-experiments-test-hidden-assumptions-about-reality-20240730/)
 - Quantum Physics
   - [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
   - [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
@@ -216,6 +217,7 @@ QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechan
     - [“QBism”: The most radical interpretation of quantum mechanics ever](https://bigthink.com/13-8/qbism-quantum-physics/)
     - [QBism and the philosophical crisis of quantum mechanics](https://bigthink.com/13-8/qbism-philosophical-crisis-quantum-mechanics/)
     - [QBism: The simplest interpretation of quantum physics](https://bigthink.com/13-8/qbism-simplest-explanation-of-quantum-physics/)
+    - [QuEn 2023: QBism/Enactivism with Chris Fuchs, Ezequiel Di Paolo and Hanne De Jaegher](https://www.youtube.com/watch?v=eOUYKj4xFkM)
   - What Is Wrong With Physics?
     - [The Biggest Question Physicists Aren’t Asking](https://www.youtube.com/watch?v=iVyl8pGd44I)
       - [Inductica.org](https://inductica.org/)
