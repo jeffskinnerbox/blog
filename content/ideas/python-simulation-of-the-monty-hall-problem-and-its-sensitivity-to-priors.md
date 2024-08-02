@@ -200,6 +200,7 @@ What if you knew one of the children's day of week they where born?
 - [193,340 People Agree With Me, 85,660 Disagree](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
 - [Sleeping Beauty Paradox - Numberphile](https://www.youtube.com/watch?v=cW27QJYNXtU)
 - [Self-locating belief and the Sleeping Beauty problem](https://www.princeton.edu/~adame/papers/sleeping/sleeping.pdf)
+- [The Most Controversial Problem in Philosophy](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
 
 # Prisoner’s Puzzle
 
