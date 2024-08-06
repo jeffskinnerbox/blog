@@ -104,6 +104,7 @@ The problem is, nobody understands quantum **physicists** muddled description of
   - [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
   - [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
   - [What Is (Almost) Everything Made Of?](https://www.youtube.com/watch?v=UYW1lKNVI90)
+  - [Quantum Physics](https://www.youtube.com/playlist?list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
 - Quantum Mechanics
   - [Bra-Ket Notation and How to Use It](https://www.youtube.com/watch?v=mAZSmzv_asU&t=72s)
   - [Lecture: Mathematics for Physicists](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKTnpE0yhCcXyQrHu5KtGeX)
