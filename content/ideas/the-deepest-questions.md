@@ -727,9 +727,10 @@ ZX-calculus was formally introduced in a 2009 paper by Bob Coecke (now the Chief
 - [A Sensible Introduction to Category Theory](https://www.youtube.com/watch?v=yAi3XWCBkDo)
 - [Category Theory in Life - Eugenia Cheng](https://www.youtube.com/watch?v=ho7oagHeqNc)
 - [Category Theory: The Math Behind Mathematics](https://medium.com/cantors-paradise/category-theory-the-math-behind-mathematics-7143af49f0ae)
-- [What A General Diagonal Argument Looks Like (Category Theory)](https://www.youtube.com/watch?v=dwNxVpbEVcc)
+- [Category Theory is Impossible Without These 6 Things](https://www.youtube.com/watch?v=mKixqJ9xnRM)
 
 - [The First Real Application of Category Theory](https://www.youtube.com/watch?v=Njx2ed8RGis)
+- [What A General Diagonal Argument Looks Like (Category Theory)](https://www.youtube.com/watch?v=dwNxVpbEVcc)
 
 
 # Card Tricks
