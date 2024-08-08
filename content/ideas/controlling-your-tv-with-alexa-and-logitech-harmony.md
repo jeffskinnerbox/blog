@@ -1,6 +1,3 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -38,6 +35,7 @@ and flicking the right switch. And I can do it from anywhere in the house.
 
 - [AWShome - Home automation using RPi + Alexa + IoT](https://www.hackster.io/awshome/awshome-home-automation-using-rpi-alexa-iot-a3d3dc?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
 
+
 # Logitech Harmony Support
 
 - [Logitech Harmony Support](https://support.myharmony.com/en-us/?utm_source=support.myharmony.com&utm_medium=header&utm_campaign=support%20homepage)
@@ -48,7 +46,9 @@ FireEye’s Mandiant Red Team recently discovered vulnerabilities present on the
 
 - [Harmony Hub Hacked and Patched](https://hackaday.com/2018/05/07/harmony-hub-hacked-and-patched/)
 
+
 # Logitech Companion (formerly Home Control, Smart Control)
+
 
 # Alexa Smart Home
 
@@ -72,9 +72,11 @@ Amazon calls the ["Alexa Smart Home"][23].
 
 - [Understanding the Smart Home Skill API](https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/overviews/understanding-the-smart-home-skill-api?mkt_tok=eyJpIjoiTmpKaE1UVmhPV00wTWpBMiIsInQiOiI4VEhrcHU4RGtERkl6VlBRaU85WXNodlhPTXZ4VzdRNGdjRWFkalZDNXljUmNOT0FPVktKYm5PaUpvc1pxOENUVW1WYzlqWGhpS3FaUUVTYTJOQlFpK3B0NThNK3lWZGF6UGRneTY1elVwcz0ifQ%3D%3D)
 
+
 # Amazon Alexa App
 
 - [Amazon Alexa App Basics](https://www.amazon.com/gp/help/customer/display.html?nodeId=201549940)
+
 
 # Controling your Logitech Harmony Hub
 
@@ -123,14 +125,17 @@ and going to the ["Your Skills" site][02].
 "Alexa, tell Harmony to turn on the Movie"
 "Alexa, tell Harmony to turn on the DVD Player"
 
+
 # TV Bling
 
 - [Amazon Echo with inexpensive Colour LEDs and Philips Hue Bridge](https://www.youtube.com/watch?v=VNfa9X5Sq1Q)
+
 
 # Coding the Amazon Echo (Alexa)
 
 - [An introduction to using the Alexa Skills Kit and AWS to Build Voice Driven Experiences](https://www.youtube.com/watch?v=y06VbVvHoYQ)
 - [How to create custom Alexa skills from scratch with AWS Lambda](https://www.youtube.com/watch?v=zt9WdE5kR6g)
+
 
 # Alexa Control of Logitech Harmony Hub
 
@@ -138,6 +143,7 @@ You can turn off **ALL** your Harmony activities by directly addressing your Har
 by its proper device name (as found in Yonomi),
 for example: “Alexa, turn off {Harmony Hub}”.
 You can always rename your Harmony Hub in the Yonomi app to make things simpler too, for example “TV” or “Television”.
+
 
 # Yonomi
 

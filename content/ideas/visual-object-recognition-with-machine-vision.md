@@ -1,6 +1,3 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -21,9 +18,11 @@ Version:      0.0.0
 
 - [Jupyter Notebook Extensions: How to get the most from the notebook environment](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 
+
 # Using Coral AI
 
 - [Google Just Turned the Raspberry Pi into a Supercomputer...](https://www.youtube.com/watch?v=mOY_Dbyq6OY)
+
 
 # DeepStack
 
@@ -39,6 +38,7 @@ DeepStack runs on the docker platform and can be used from any programming langu
 - [Blue Iris + Deepstack BUILT IN! Full Walk Through - Go from beginner to expert in one video](https://www.youtube.com/watch?v=nLH9GEcdb9Y)
 - [MORE Object Detection with Home Assistant - Deepstack install and configuration](https://www.youtube.com/watch?v=vMdpLiAB9dI)
 
+
 # ImageAI
 
 ImageAI is an easy to use Computer Vision Python library that empowers developers
@@ -47,30 +47,33 @@ features into their new and existing applications and systems.
 
 - [Train Image Recognition AI with 5 lines of code](https://towardsdatascience.com/train-image-recognition-ai-with-5-lines-of-code-8ed0bdd8d9ba)
 
+
 # Machine Vision
 
-https://www.visiononline.org/vision-resources-details.cfm/vision-resources/Computer-Vision-vs-Machine-Vision/content_id/4585
+<https://www.visiononline.org/vision-resources-details.cfm/vision-resources/Computer-Vision-vs-Machine-Vision/content_id/4585>
 Machine vision traditionally refers to the use of computer vision in an industrial or practical application or process where it is necessary to execute a certain function or outcome based on the image analysis done by the vision system. The vision system uses software to identify pre-programmed features. The system can be used to trigger a variety of set “actions” based on the findings.
 
 Computer vision refers in broad terms to the capture and automation of image analysis with an emphasis on the image analysis function across a wide range of theoretical and practical applications.
 
 It’s a nice board but why would I use instead of a Raspberry Pi + OpenCV + Python?
 
+
 # Some Concepts
+
 
 ## Color
 
 - [Color Spaces: The Model at the End of the Rainbow](https://hackaday.com/2018/03/30/color-spaces-the-model-at-the-end-of-the-rainbow/)
 - [RGB LEDs: How to Master Gamma and Hue for Perfect Brightness](https://hackaday.com/2016/08/23/rgb-leds-how-to-master-gamma-and-hue-for-perfect-brightness/)
 - [List of color spaces and their uses](https://en.wikipedia.org/wiki/List_of_color_spaces_and_their_uses)
-  color space - https://en.wikipedia.org/wiki/Color_space
-- CAM - https://en.wikipedia.org/wiki/Color_appearance_model
-- CIE - https://en.wikipedia.org/wiki/International_Commission_on_Illumination
-- YUV - https://en.wikipedia.org/wiki/YUV
-- and ther are many others (see https://en.wikipedia.org/wiki/Color_space)
+  color space - <https://en.wikipedia.org/wiki/Color_space>
+- CAM - <https://en.wikipedia.org/wiki/Color_appearance_model>
+- CIE - <https://en.wikipedia.org/wiki/International_Commission_on_Illumination>
+- YUV - <https://en.wikipedia.org/wiki/YUV>
+- and ther are many others (see <https://en.wikipedia.org/wiki/Color_space>)
 
-Computer display standard - https://en.wikipedia.org/wiki/Computer_display_standard
-Graphics Display Resolution - https://en.wikipedia.org/wiki/Graphics_display_resolution
+Computer display standard - <https://en.wikipedia.org/wiki/Computer_display_standard>
+Graphics Display Resolution - <https://en.wikipedia.org/wiki/Graphics_display_resolution>
 
 - SXGA (1280 x 1024): up to 15 fps (frames/second)
 - VGA (640 x 480): up to 30 fps
@@ -80,37 +83,44 @@ Graphics Display Resolution - https://en.wikipedia.org/wiki/Graphics_display_res
 - QQVGA (160 x 120): up to 60 fps
 - QQCIF (88 x 72): up to 120 fps
 
-Portable Network Graphics - https://en.wikipedia.org/wiki/Portable_Network_Graphics#Pixel_format
-Raster graphics - https://en.wikipedia.org/wiki/Raster_graphics
-Digital Video - https://en.wikipedia.org/wiki/Digital_video
+Portable Network Graphics - <https://en.wikipedia.org/wiki/Portable_Network_Graphics#Pixel_format>
+Raster graphics - <https://en.wikipedia.org/wiki/Raster_graphics>
+Digital Video - <https://en.wikipedia.org/wiki/Digital_video>
+
 
 ## Computer's Monitor Calibration
 
 [How Do I Calibrate My Computer's Monitor for the Best Picture?](https://lifehacker.com/5882632/how-do-i-calibrate-my-computers-monitor-for-the-best-picture)
 
+
 ## Video and TV
 
-National Television System Committee (NTSC) and Phase Alternating Line (PAL) - https://www.youtube.com/watch?v=3GJUM6pCpew&app=desktop
-https://www.youtube.com/watch?v=Z6KAbNvUMXQ
+National Television System Committee (NTSC) and Phase Alternating Line (PAL) - <https://www.youtube.com/watch?v=3GJUM6pCpew&app=desktop>
+<https://www.youtube.com/watch?v=Z6KAbNvUMXQ>
+
 
 ## Best Frame Rate
 
-Best Frame Rate - https://www.youtube.com/watch?v=-vyxdm5aIOk
-The History of Frame Rate for Film - https://www.youtube.com/watch?v=mjYjFEp9Yx0
+Best Frame Rate - <https://www.youtube.com/watch?v=-vyxdm5aIOk>
+The History of Frame Rate for Film - <https://www.youtube.com/watch?v=mjYjFEp9Yx0>
+
 
 ## Aspect Ratio
 
-The History of Aspect Ratio - https://www.youtube.com/watch?v=3CgrMsjGk7k
+The History of Aspect Ratio - <https://www.youtube.com/watch?v=3CgrMsjGk7k>
+
 
 # Lens and Focal Length
 
-The History and Science of Lenses - https://www.youtube.com/watch?v=1YIvvXxsR5Y&list=PLrMEncyd64BdPt-iWyxiAdo19tYm7myf1&index=15
-The Properties of Camera Lenses - https://www.youtube.com/watch?v=CGGUXAMliqM
-Focusing on Depth of Field and Lens Equivalents - https://www.youtube.com/watch?v=lte9pa3RtUk
+The History and Science of Lenses - <https://www.youtube.com/watch?v=1YIvvXxsR5Y&list=PLrMEncyd64BdPt-iWyxiAdo19tYm7myf1&index=15>
+The Properties of Camera Lenses - <https://www.youtube.com/watch?v=CGGUXAMliqM>
+Focusing on Depth of Field and Lens Equivalents - <https://www.youtube.com/watch?v=lte9pa3RtUk>
+
 
 # Color Temperature
 
-Color Temperature - https://www.youtube.com/watch?v=3HnhIRPLWsM
+Color Temperature - <https://www.youtube.com/watch?v=3HnhIRPLWsM>
+
 
 # OpenCV
 
@@ -127,12 +137,14 @@ field-programmable gate arrays (FPGAs) and other processors or hardware accelera
 
 - [Computer Vision with Raspberry Pi and the Camera Pi module](https://www.open-electronics.org/computer-vision-with-raspberry-pi-and-the-camera-pi-module/)
 
+
 ## OpenCV AI Kit (OAK)
 
 - [Introduction to OpenCV AI Kit (OAK)](https://pyimagesearch.com/2022/11/28/introduction-to-opencv-ai-kit-oak/)
 - [Arducam OAK Solutions](https://www.arducam.com/oak-opencv-ai-kit-camera/)
 - [Introduction to OAK-D and DepthAI](https://learnopencv.com/introduction-to-opencv-ai-kit-and-depthai/)
 - [People Counter on OAK](https://pyimagesearch.com/2023/08/21/people-counter-on-oak/)
+
 
 # Streaming Video
 
@@ -143,6 +155,7 @@ Streaming a USB camera and the Pi camera module are fundamentally different oper
 - [How to Operate Your Spycams with ZoneMinder on Linux (part 1)](http://www.linux.com/learn/tutorials/762058-how-to-operate-your-spycams-with-zoneminder-on-linux-part-1-)
 - [Wifibroadcast – Analog-like transmission of live video data](https://befinitiv.wordpress.com/wifibroadcast-analog-like-transmission-of-live-video-data/)
 
+
 # Object Recognition
 
 - [Google Cloud Platform Vision API](https://cloud.google.com/vision/docs/getting-started?utm_source=product-announcement&utm_medium=email&utm_campaign=2016-02-Vision-API&utm_content=NoFT)
@@ -151,9 +164,11 @@ Streaming a USB camera and the Pi camera module are fundamentally different oper
 - [Clarifai](https://www.clarifai.com/)
 - [How to Make Your Web App Smarter with Image Recognition](https://www.sitepoint.com/how-to-make-your-web-app-smarter-with-image-recognition/)
 
+
 # VMX
 
 [VMX Project: Computer Vision for Everyone](https://www.kickstarter.com/projects/visionai/vmx-project-computer-vision-for-everyone/posts/722323)
+
 
 # CMUcam5 Pixy
 
@@ -164,6 +179,7 @@ Streaming a USB camera and the Pi camera module are fundamentally different oper
   - [Purchase, Documentation, Blog for Pixy CMUcam5 Image Sensor](http://www.robotshop.com/en/pixy-cmucam5-image-sensor.html?gclid=CjwKEAjw4s2wBRDSnr2jwZenlkgSJABvFcwQ0n_E5O0wzL8XCC-tkLf5ijS3VCQqgGtUxnjqsU6ZKBoCPAfw_wcB)
   - [Face Detector](http://www.cmucam.org/projects/cmucam3/wiki/Viola-jones)
   - [vision.ai Github](https://github.com/VISIONAI)
+
 
 # People Counting with OpenCV
 
@@ -176,14 +192,14 @@ Streaming a USB camera and the Pi camera module are fundamentally different oper
 - [Basic motion detection and tracking with Python and OpenCV](http://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/)
 - [Counting in Extremely Dense Crowd Images](http://crcv.ucf.edu/projects/crowdCounting/index.php)
 - [Head Counter](https://github.com/yquemener/HeadCounter)
-- [PEOPLE COUNTING SYSTEM USING RASPBERRY PI WITH OPENCV ](http://www.ijream.org/papers/IJREAMV02I01894.pdf)
+- [PEOPLE COUNTING SYSTEM USING RASPBERRY PI WITH OPENCV](http://www.ijream.org/papers/IJREAMV02I01894.pdf)
 - [People-Counter](https://github.com/LukashenkoEvgeniy/People-Counter)
 - [People Counter on OAK](https://pyimagesearch.com/2023/08/21/people-counter-on-oak/)
 
 Test Videos
 
-- https://github.com/LukashenkoEvgeniy/People-Counter/blob/master/test2.mp4
-- https://github.com/WatershedArts/Footfall/tree/master/images
+- <https://github.com/LukashenkoEvgeniy/People-Counter/blob/master/test2.mp4>
+- <https://github.com/WatershedArts/Footfall/tree/master/images>
 
 Test Images
 Lena Söderberg "lady in straw hat"
@@ -200,6 +216,7 @@ Lena Söderberg "lady in straw hat"
 - [A Nude ‘Playboy’ Photo Has Been a Mainstay in Testing Tech for Decades](https://onezero.medium.com/a-nude-playboy-photo-has-been-a-mainstay-in-testing-tech-for-decades-b8cdb434dce1)
 - [Lena – the origin about the de facto test image](https://datafireball.com/2016/09/24/lena-the-origin-about-the-de-facto-test-image/)
 - [The USC-SIPI Image Database](http://sipi.usc.edu/database/database.php?volume=misc&image=12#top)
+
 
 # JeVois
 
@@ -283,11 +300,13 @@ some of the tools created via that research, such as:
 - [iLab Neuromorphic Vision C++ Toolkit (iNVT)](http://ilab.usc.edu/toolkit/)
 - [iLab Neuromorphic Robotics Toolkit (NRT)](http://nrtkit.org/)
 
+
 ## Step 0: Register on JeVois Tech Zone
 
 Register on [JeVois Tech Zone][12].
 This will put you on the email list
 and allow you to seek help from the community of JeVois users.
+
 
 ## Step 1: Download MicroSD Card Image - DONE
 
@@ -315,6 +334,7 @@ $ sha1sum jevois-image-1.0d-8G.img
 $ cat jevois-image-1.0d-8G.md5
 843fee34a765d3b2735b19d7922f8af3  jevois-image-1.0d-8G.img
 ```
+
 
 ## Step 2: Write Image to MicroSD Card - DONE
 
@@ -348,6 +368,7 @@ diff -s jevois-image-1.0d-8G.img copy-from-sd-card.img
 # unmount the sd card reader
 sudo umount /dev/sdj
 ```
+
 
 ## Step 3: Connecting JeVois to Power and Linux Host - DONE
 
@@ -422,6 +443,7 @@ The pixel format supported by JeVois are
 ffplay /dev/video1 -vf hflip -pixel_format yuyv422 -video_size 640x480
 ```
 
+
 ## Step 4: JeVois Installed Machine Vision Algorithms
 
 The above puts JeVois into one of the machine vision algorithms included and ready to run.
@@ -467,6 +489,7 @@ but they have been turned off to allow compatibility with Mac host computers.)
 
 A vision processing mode in JeVois is determined by the combination of pixel format, image resolution, and frame rate. You can play with all these parameters in your camera software to trigger different modes. For example, in the default JeVois disk image, 320x240@60fps in MJPEG format uses the PassThrough vision module (no processing, just output the raw captured images after compressing them to MJPEG) while 320x240@60fps in YUYV format uses the SaveVideo module (which can capture and save video to the microSD card).
 
+
 ## Step X: Connecting to JeVois Via USB Serial Interface
 
 You can interface with JeVois via the commandline using
@@ -488,6 +511,7 @@ It may try to initialize JeVois as a modem that can dial out over telephone line
 JeVois should ignore this but this may interfere with CLI commands until `ModemManager` gives up.
 You may want to stop this via `sudo killall ModemManager` (it will come back on next reboot).
 
+
 ## Step X: Using MicroSD Card on Desktop Computer
 
 Modifying the contents of your MicroSD card,
@@ -496,9 +520,10 @@ or to get video files that were recorded by JeVois,
 can be achieved by taking the MicroSD card out of your JeVois camera
 and connecting it to a desktop or laptop computer.
 
-- http://jevois.org/doc/MicroSD.html
+- <http://jevois.org/doc/MicroSD.html>
 
 - [Front Door Camera Sends Automatic Alerts By Text](https://hackaday.com/2019/01/21/front-door-camera-sends-automatic-alerts-by-text/)
+
 
 # Cloud Vision APIs
 
@@ -509,9 +534,10 @@ and connecting it to a desktop or laptop computer.
 - [Microsoft Azure Video API](https://azure.microsoft.com/en-us/services/cognitive-services/video-api/)
 - [wildlife camera](https://hackaday.com/tag/wildlife-camera/)
 
+
 # OpenMV Cam M7 / H7
 
-- https://openmv.io/
+- <https://openmv.io/>
 - [OpenMV CAM RT1062 board for Machine Vision with MicroPython](https://linuxgizmos.com/openmv-cam-rt1062-board-for-machine-vision-with-python/)
 - [OpenMV Cam M7](https://www.sparkfun.com/products/14185)
 - [OpenMV Cam M7](https://openmv.io/products/openmv-cam-m7)
@@ -522,20 +548,23 @@ and connecting it to a desktop or laptop computer.
 - [Deep Learning at the Edge on an Arm Cortex-Powered Camera Board](https://blog.hackster.io/deep-learning-at-the-edge-on-an-arm-cortex-powered-camera-board-3ca16eb60ef7)
 - [Kwabena Agyeman talks about the OpenMV Design](https://www.youtube.com/watch?v=NAAbJfIO8yM&t=109s)
 
+
 ## Edge Impulse
 
 - Deploying an Image Classification Model to the OpenMV Camera
+
 
 # Arducam
 
 - [ArduCAM now Supports ESP8266 Arduino Board with WIFI Websocket Camera Demo](http://www.arducam.com/arducam-supports-esp8266-arduino-board-wifi-websocket-camera-demo/)
 - [The GotchaCAM Portable DIY Wifi Camera Based Travel and Home Security and Surveillance System](http://www.arducam.com/)
 - [GitHub for ArduCAM](https://github.com/ArduCAM)
-- http://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/
+- <http://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/>
   - [more information](https://www.youtube.com/watch?v=yCLb2eItDyE)
 - [Arducam Pico4ML Board – TinyML on Raspberry Pi RP2040 with QVGA Camera & Display](https://www.cnx-software.com/2021/04/13/arducam-pico4ml-board-tinyml-on-raspberry-pi-rp2040-with-qvga-camera-display/)
 - [Eric N. Shows How OpenCV Can Squeeze Onto an Espressif ESP32, Using Joachim Burket's Shrunken Fork](https://www.hackster.io/news/eric-n-shows-how-opencv-can-squeeze-onto-an-espressif-esp32-using-joachim-burket-s-shrunken-fork-8c73520a6b81)
 - [Arducam Mega: SPI Camera for Any Microcontroller](https://www.kickstarter.com/projects/arducam/arducam-mega-spi-camera-for-any-microcontroller?ref=4vgsg1)
+
 
 # Rapberry Pi Camera Module vs USB Camera
 
@@ -560,10 +589,11 @@ The [Raspberry Pi's VideoCore GPU provides][40] 24 GFLOPS of computation
 and supports OpenGL ES 1.1, OpenGL ES 2.0, hardware-accelerated OpenVG 1.1, Open EGL,
 OpenMAX and 1080p30 H.264 high-profile decode.
 
-General-purpose computing on graphics processing units (GPGPU, rarely GPGP) is the use of a graphics processing unit (GPU), which typically handles computation only for computer graphics, to perform computation in applications traditionally handled by the central processing unit (CPU) - https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units
+General-purpose computing on graphics processing units (GPGPU, rarely GPGP) is the use of a graphics processing unit (GPU), which typically handles computation only for computer graphics, to perform computation in applications traditionally handled by the central processing unit (CPU) - <https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units>
 
-- RPI-3: Performance issue on FFmpeg with mmal support - https://raspberrypi.stackexchange.com/questions/66923/rpi-3-performance-issue-on-ffmpeg-with-mmal-support
-- Smooth playback of adaptive video streams on Raspberry Pi with gst-mmal - https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2016/John%20Sadler%20-%20Smooth%20video%20on%20Raspberry%20Pi%20with%20gst-mmal%20(Lightning%20Talk).pdf
+- RPI-3: Performance issue on FFmpeg with mmal support - <https://raspberrypi.stackexchange.com/questions/66923/rpi-3-performance-issue-on-ffmpeg-with-mmal-support>
+- Smooth playback of adaptive video streams on Raspberry Pi with gst-mmal - <https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2016/John%20Sadler%20-%20Smooth%20video%20on%20Raspberry%20Pi%20with%20gst-mmal%20(Lightning%20Talk).pdf>
+
 
 # SimpleCV vs OpenCV
 
@@ -578,10 +608,11 @@ There is a book available that is quite detailed "Practical computer vision with
 SimpleCV is great for simple machine projects and hobbies but don't expect high performance, its all in python for a start and so there is a performance penalty just on that
 
 - [Using the Raspberry Pi camera module with SimpleCV](http://openlabtools.eng.cam.ac.uk/Resources/Imaging/RPiCamera/)
-- https://www.youtube.com/watch?v=UZSm7Q2bZoc
+- <https://www.youtube.com/watch?v=UZSm7Q2bZoc>
 - [How To Use Picamera2 to Take Photos With Raspberry Pi](https://www.tomshardware.com/how-to/use-picamera2-take-photos-with-raspberry-pi)
 - [How to Control your Raspberry Pi Camera using a web UI](https://www.tomshardware.com/raspberry-pi/how-to-control-your-raspberry-pi-camera-using-a-web-ui)
 - [How To Create a Bluetooth Raspberry Pi Camera Trigger](https://www.tomshardware.com/how-to/bluetooth-raspberry-pi-camera-trigger)
+
 
 # Installing OpenCV and Jupyter on a Raspberry Pi - DONE
 
@@ -597,6 +628,7 @@ My sources of insperation for the steps below are from:
 - [Raspbian Stretch: Install OpenCV 3 + Python on your Raspberry Pi](http://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
 - [Installing OpenCV on your Raspberry Pi Zero](http://www.pyimagesearch.com/2015/12/14/installing-opencv-on-your-raspberry-pi-zero/)
 - [Best resources for learning OpenCV (Python and C++)](http://jacksimpson.co/best-resources-for-learning-opencv-python-and-c/)
+
 
 ## Step 0: Disk Space - DONE
 
@@ -627,6 +659,7 @@ sudo apt-get autoremove
 In addition, once you have successfully compiled OpenCV,
 you can delete the source directory,
 as outlined in Step 6 below.
+
 
 ## Step 1: Install OpenCV Dependencies - DONE
 
@@ -672,6 +705,7 @@ sudo apt-get install python3-venv
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
 ```
 
+
 ## Step 2: Install OpenCV from Source Code - DONE
 
 Lets grab the [latest version of OpenCV][41] from GitHub and install it.
@@ -693,6 +727,7 @@ unzip opencv_contrib.zip
 # remove zip files
 rm opencv.zip opencv_contrib.zip
 ```
+
 
 ## Step 3: Setup Python Environment - DONE
 
@@ -744,6 +779,7 @@ only this particular environment’s settings and packages.
 > If you use Python 3 on your machine outside of an environment,
 > you will need to use the python3 and pip3 commands exclusively.
 
+
 ## Step 4: Installing NumPy on your Raspberry Pi - DONE
 
 You should now be in the `cv_env` virtual environment and it should be activated
@@ -757,6 +793,7 @@ cd ~/src/cv_env
 source ~/src/cv_env/bin/activate
 pip install numpy
 ```
+
 
 ## Step 5: Compile and Install OpenCV - DONE
 
@@ -818,6 +855,7 @@ cd ~/src/cv_env/lib/python3.5/site-packages/
 ln -s /usr/local/lib/python3.5/site-packages/cv2.so cv2.so
 ```
 
+
 ## Step 6: Test OpenCV 3 Install - DONE
 
 To validate the install of OpenCV and its binding with Python3,
@@ -841,6 +879,7 @@ on Raspberry Pi 3 + Python 3.5 environment.
 Once your absolutely sure OpenCV has been successfully installed,
 you can remove both the `~/src/opencv-3.3.0` and `~/src/opencv_contrib-3.3.0`
 directories to free up a bunch of space on your disk.
+
 
 ## Step 7: Test the Camera and Install Required Python Module - DONE
 
@@ -875,6 +914,7 @@ but we need the array sub-module so that we can utilize OpenCV.
 With our Python bindings, OpenCV represents images as NumPy arrays
 and the array sub-module enables this.
 
+
 ## Step 8: Uploading Test Data - DONE
 
 OpenCV is all about processing visual images,
@@ -905,6 +945,7 @@ scp ~/Downloads/Lenna.jpg pi@BlueRPi:~/src/cv_env/images
 # load videos to the raspberry pi
 scp ~/Downloads/All-is-Full-of-Love-by-Bjork.mp4 pi@BlueRPi:~/src/cv_env/videos
 ```
+
 
 # Install Jupyter Notebook
 
@@ -995,11 +1036,12 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 - [Running a notebook server](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 - [Jupyter Notebook on remote server](https://coderwall.com/p/y1rwfw/jupyter-notebook-on-remote-server)
 
+
 # Face Detection Using node-opencv
 
 [node-opencv][42] is OpenCv's bindings for Node.js.
 
-- https://github.com/drejkim/pyenv-opencv/blob/master/detection.py
+- <https://github.com/drejkim/pyenv-opencv/blob/master/detection.py>
 - [node-opencv GitHub](https://github.com/peterbraden/node-opencv)
 - [node-opencv documentation](http://peterbraden.github.io/node-opencv/)
 - [Real-time face detection using OpenCV, Node.js, and WebSockets](http://drejkim.com/blog/2014/12/02/real-time-face-detection-using-opencv-nodejs-and-websockets/)
@@ -1015,11 +1057,13 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 
 ################################################################################
 
+
 # Networked Birdhouse
 
 - [Networked Solar Birdhouses Deep in the Woods](http://hackaday.com/2016/05/20/making-solar-powered-networked-birdhouses-putting-them-in-the-middle-of-the-woods/)
 - [BirdNET - The Easiest Way To Identify Birds By Sound](https://birdnet.cornell.edu/)
 - [The Words of the Birds - Leveraging AI to Detect Songbirds](https://www.splunk.com/en_us/blog/machine-learning/the-words-of-the-birds-leveraging-ai-to-detect-songbirds.html)
+
 
 # motion
 
@@ -1034,14 +1078,17 @@ but the articles "[How to Operate Linux Spycams With Motion][118]" and
 - [TURN THAT PI ZERO INTO A STREAMING CAMERA, STEP-BY-STEP](https://hackaday.com/tag/wi-fi-camera/)
 - [Raspberry Pi Security System Part 1: The camera](https://hackmypi.com/PiCamPart1.php)
 
+
 # Camera Human Recognition
 
 - [Building a Motion Activated Security Camera with the Raspberry Pi Zero](http://hackaday.com/2017/02/06/motion-detecting-camera-recognizes-humans-using-the-cloud/)
 - [Smarten up your Pi Zero Web Camera with Image Analysis and Amazon Web Services (Part 1)](https://utbrudd.bouvet.no/2017/01/10/smarten-up-your-pi-zero-web-camera-with-image-analysis-and-amazon-web-services-part-1/)
 
+
 # Other
 
 - [IoT IP camera teardown and getting root password](http://jelmertiete.com/2016/03/14/IoT-IP-camera-teardown-and-getting-root-password/)
+
 
 # Installing OpenCV and Jupyter on Ubuntu
 
@@ -1152,7 +1199,6 @@ sudo mv cv2.cpython-35m-x86_64-linux-gnu.so cv2.so
 ```
 
 [01]: http://jevois.org/
-[02]: http://hackaday.com/2017/05/17/jevois-machine-vision-camera-nails-demo-mode/
 [03]: https://en.wikipedia.org/wiki/Graphics_processing_unit
 [04]: http://www.gsmarena.com/allwinner_a33_is_a_4_chipset_with_quadcore_cortexa7_processor-news-9173.php
 [05]: http://hackaday.com/2017/05/17/jevois-machine-vision-camera-nails-demo-mode/
@@ -1193,7 +1239,6 @@ sudo mv cv2.cpython-35m-x86_64-linux-gnu.so cv2.so
 [40]: http://elinux.org/Raspberry_Pi_VideoCore_APIs#Built-in_Sample_Programs
 [41]: https://github.com/opencv/opencv
 [42]: https://www.npmjs.com/package/opencv
-[43]: http://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
 [44]: https://www.adafruit.com/product/3099
 [45]: https://en.wikipedia.org/wiki/Graphics_processing_unit
 [46]: https://rg3.github.io/youtube-dl/download.html

@@ -1,6 +1,3 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -11,6 +8,7 @@ Version:      0.0.0
 </div>
 
 ---
+
 
 # Start Here ?
 
@@ -25,9 +23,11 @@ Version:      0.0.0
 
 - Lattest RTL-SDR Blog Dongle - [RTL-SDR Blog V4 dongle launched with Rafeal R828D tuner chip](https://www.cnx-software.com/2023/08/17/rtl-sdr-blog-v4-dongle-launched-with-rafeal-r828d-tuner-chip/)
 
+
 # SDR Software Environment
 
 - [Software Defined Radio with Predefined Raspberry Pi SD Card Images](https://www.youtube.com/watch?v=7eNGBmVquug)
+
 
 # Demystifying SDR Hacking
 
@@ -39,18 +39,22 @@ Version:      0.0.0
   - [Part 5](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-5-778259475ece)
   - [Part 6](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-6-296a84d18ba7)
 
+
 # SDRConnect
 
 - [SDRConnect Overview - December 2023](https://www.youtube.com/watch?v=GjmYPq2Pa9g)
+
 
 # "Toy" SDR for Learning
 
 - [Pico SDR](https://blog.porucha.net/2024/pico-sdr/) - Building a software-defined radio with just a Raspberry Pi Pico, two passive components and an antenna.
 - [Jan Dvořák's Software-Defined Radio Is Built From a Raspberry Pi Pico — And Very Little Else](https://www.hackster.io/news/jan-dvorak-s-software-defined-radio-is-built-from-a-raspberry-pi-pico-and-very-little-else-332a12e6f216)
 
+
 # SDR Console
 
 - [SDR Console](https://www.sdr-radio.com/console)
+
 
 # Full Bandwidth SDR Scanner
 
@@ -61,11 +65,13 @@ And its packed in a Docker container.
   - [RTL SDR Scanner - FULL Bandwidth Recording With WEB UI](https://www.youtube.com/watch?v=YzQ2N0VkKvE)
   - [shajen / rtl-sdr-scanner-cpp](https://github.com/shajen/rtl-sdr-scanner-cpp)
 
+
 # PiSDR
 
 - [Software Defined Radio with Predefined Raspberry Pi SD Card Images](https://www.youtube.com/watch?v=7eNGBmVquug)
 - [PiSDR Github](https://github.com/luigifcruz/pisdr-image)
 - [PISDR READY TO USE SDR RASPBIAN IMAGE UPDATED TO V4.0](https://www.rtl-sdr.com/pisdr-ready-to-use-sdr-raspbian-image-updated-to-v4-0/)
+
 
 # DragonOS LTS
 
@@ -78,9 +84,11 @@ DragonOS is a Debian Linux based operating system which comes with many open sou
 - [Receive Analog Video Radio Signals From Scratch](https://hackaday.com/2020/05/31/receive-analog-video-radio-signals-from-scratch/)
 - [cemaxecuter](https://www.youtube.com/channel/UC9U2kaqhE716J2WNSTcOghg)
 
+
 # radioconda
 
 - [radioconda](https://github.com/ryanvolz/radioconda)
+
 
 # Universal Radio Hacker (URH)
 
@@ -90,18 +98,22 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 - [Universal Radio Hacker: A Suite for Analyzing and Attacking Stateful Wireless Protocols](https://www.usenix.org/conference/woot18/presentation/pohl)
 - [GitHub: jopohl/urh](https://github.com/jopohl/urh)
 
+
 # FISSURE - The RF Framework
 
 - [INTRODUCING FISSURE: A TOOLBOX FOR THE RF HACKER](https://hackaday.com/2022/08/27/introducing-fissure-a-toolbox-for-the-rf-hacker/)
 - [GitHub: ainfosec/FISSURE](https://github.com/ainfosec/FISSURE)
 
+
 # SigDigger
 
 - [SigDigger - A free digital signal analyzer](https://batchdrake.github.io/SigDigger/)
 
+
 # CaribouLite RPi HAT
 
 - [CaribouLite RPi HAT open-source SDR Raspberry Pi HAT tunes up to 6 GHz](https://www.cnx-software.com/2021/11/29/cariboulite-rpi-hat-open-source-sdr-raspberry-pi-hat-tunes-up-to-6-ghz/)
+
 
 # Documentation and Tutorals
 
@@ -115,15 +127,18 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 - [GNU Radio Documentation](https://www.gnuradio.org/docs/)
 - [MAKING IT RAIN WITH SOFTWARE DEFINED RADIO](https://spuriousemissions.com/making-it-rain-with-software-defined-radio/)
 
+
 # Web Enabled SDR
 
 - [Using Software Defined Radio Without SDR Hardware - WebSDR](https://www.youtube.com/watch?v=zfO5JeSe-dE)
 - [WebSDR](http://websdr.org/)
 - [KiwiSDR](http://kiwisdr.com/public/)
 
+
 # Shielding
 
 - [Shielding a Cheap RTL-SDR Stick](https://hackaday.com/2022/06/29/shielding-a-cheap-rtl-sdr-stick/)
+
 
 # Cross-Platform & Open-Source SDR
 
@@ -136,6 +151,7 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
   - [Gqrx SDR](https://gqrx.dk/)
 
 ################################################################################
+
 
 # sdr-i-q-record-format
 
@@ -161,6 +177,7 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 - [Signals Everywhere](https://signalseverywhere.com/)
 - [Strange Signals? Sigidwiki!](https://hackaday.com/2015/09/11/strange-signals-sigidwiki/)
 
+
 # Fourier Transforms
 
 - [Fourier Explained: 3Blue1Brown Style!](https://hackaday.com/2019/07/13/fourier-explained-3blue1brown-style/)
@@ -168,15 +185,18 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 - [Interactive Demo Shows the Power of Fourier Transforms](https://hackaday-com.go-vip.co/2019/04/10/interactive-demo-shows-the-power-of-fourier-transforms/)
 - [Accelerating Fourier transforms using the Raspberry Pi's GPU](http://www.raspberrypi.org/archives/5934)
 
+
 # Virtual Software Defined Radio
 
 - [Virtual Software Defined Radio](https://hackaday.com/2020/08/07/virtual-software-defined-radio/)
 
 ################################################################################
 
+
 # sdr background
 
 ################################################################################
+
 
 # Background and Definitions
 
@@ -192,6 +212,7 @@ with a nother signal (called the [modulating][37] signal) that typically contain
 
 WAV files are used as they have become a de-facto standard supported by the most common SDR software. The maximum size of a single file is 2GB.
 
+
 ## Fundamental digital modulation methods
 
 The most fundamental digital modulation techniques are based on [keying][40]:
@@ -205,10 +226,11 @@ In QAM, an inphase signal (or I, with one example being a cosine waveform) and a
 
 - [RF Modulation: Crash Course For Hackers](https://hackaday.com/2020/01/28/rf-modulation-crash-course-for-hackers/)
 
+
 ## Modulator and detector principles of operation
 
 PSK and ASK, and sometimes also FSK, are often generated and detected using the principle of QAM.
-The I and Q signals can be combined into a [complex-valued][46] signal _I+jQ_ (where *j* is the [imaginary unit][47]).
+The I and Q signals can be combined into a [complex-valued][46] signal _I+jQ_ (where _j_ is the [imaginary unit][47]).
 The resulting so called [equivalent lowpass signal][48] or [equivalent baseband signal][49]
 is a complex-valued representation of the [real-valued][50] modulated physical signal
 (the so-called [passband signal][51] or [RF signal][52]).
@@ -221,25 +243,30 @@ is a complex-valued representation of the [real-valued][50] modulated physical s
 - [If The I And Q Of Software Defined Radio Are Your Nemesis, Read On][45]
 - [What’s Your IQ – About Quadrature Signals…](https://www.tek.com/blog/quadrature-iq-signals-explained)
 
+
 ## Waveform Viewer
 
 A waveform viewer is a software tool for viewing a signals waveform.
-http://en.wikipedia.org/wiki/Waveform_viewer
+<http://en.wikipedia.org/wiki/Waveform_viewer>
 
 ################################################################################
+
 
 # SDR Hardware and Software Tools
 
 ################################################################################
+
 
 # The Verboten Band
 
 - [Why Your Scanner Has A Hole In It](https://hackaday.com/2020/12/19/why-your-scanner-has-a-hole-in-it/)
 - [The Verboten Band](https://computer.rip/2020-11-28%20the%20verboten%20band.html)
 
+
 # SineStick
 
 [SineStick](https://hackaday.io/project/166672-sinestick)
+
 
 # YARD Stick One
 
@@ -250,9 +277,10 @@ YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer fro
 - [Hak5 1908 – How to begin hacking with the YARD Stick One](https://www.hak5.org/episodes/hak5-1908-how-to-begin-hacking-with-the-yard-stick-one)
 - [Go Play in the YARD](https://www.sparkfun.com/news/2726)
 - [Executing A Vehicle Keyless Entry Attack](https://hackaday.com/2019/03/30/executing-a-vehicle-keyless-entry-attack/)
-- https://www.amazon.com/YARD-Stick-One-wireless-controlled/dp/B01N3TR4AA/ref=sr_1_fkmr0_1
-- https://www.sparkfun.com/products/14777
-- https://greatscottgadgets.com/yardstickone/
+- <https://www.amazon.com/YARD-Stick-One-wireless-controlled/dp/B01N3TR4AA/ref=sr_1_fkmr0_1>
+- <https://www.sparkfun.com/products/14777>
+- <https://greatscottgadgets.com/yardstickone/>
+
 
 # Hacking with RFCat
 
@@ -261,9 +289,11 @@ YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer fro
 - [HACKING RADIO CONTROLLED OUTLETS](https://hackaday.com/tag/rfcat/)
 - [Radio Communication Analysis using RfCat](https://www.inguardians.com/2017/03/18/radio-communication-analysis-using-rfcat/)
 
+
 # Hacking with RFCrack
 
-- [RFCrack - A Software Defined Radio Attack Tool - KitPloit - PenTest & Hacking Tools for your CyberSecurity Kit ](https://www.kitploit.com/2018/01/rfcrack-software-defined-radio-attack.html)
+- [RFCrack - A Software Defined Radio Attack Tool - KitPloit - PenTest & Hacking Tools for your CyberSecurity Kit](https://www.kitploit.com/2018/01/rfcrack-software-defined-radio-attack.html)
+
 
 # RTL-SDR Tools
 
@@ -271,6 +301,7 @@ YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer fro
 - [RF Monitor](https://eartoearoak.com/software/rf-monitor)
 - [Radio Communication Analysis using RfCat](https://www.inguardians.com/2017/03/18/radio-communication-analysis-using-rfcat/)
 - [RFCrack - A Software Defined Radio Attack Tool - KitPloit - PenTest & Hacking Tools for your CyberSecurity Kit](https://www.kitploit.com/2018/01/rfcrack-software-defined-radio-attack.html)
+
 
 # Lows Noise Amplifier (LNA)
 
@@ -282,6 +313,7 @@ YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer fro
 - [INSMA 0.1-2000MHz RF Wideband Amplifier 30dB low-noise LNA Broadband Module Receiver](https://www.amazon.com/INSMA-0-1-2000MHz-Amplifier-low-noise-Broadband/dp/B01D5RRT0I/ref=sr_1_2?s=electronics&ie=UTF8&qid=1483585185&sr=1-2&keywords=lna)
 - [A Low-Noise Amplifier to Quantify Resistor Noise](https://hackaday.com/2023/04/16/a-low-noise-amplifier-to-quantify-resistor-noise/)
 
+
 ## Bias Tee
 
 Bias-T is nothing more than a simple diplexer.
@@ -289,7 +321,8 @@ Bias-T is nothing more than a simple diplexer.
 - [DIY Bias-T](http://lna4all.blogspot.com/2014/11/diy-bias-t.html)
 - [RTL-SDR Bias Tee Hack](http://www.rtl-sdr.com/rtl-sdr-bias-tee-hack/)
 
-http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What-are-these-things
+<http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What-are-these-things>
+
 
 ## Upconverter
 
@@ -297,11 +330,13 @@ http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What
 
 - [Ham It Up v1.3 - RF Upconverter For Software Defined Radio](http://www.nooelec.com/store/ham-it-up.html)
 
+
 # Installing GNU Radio
 
 - [AI Listens to Radio](https://hackaday.com/2018/02/17/ai-listens-to-radio/)
 - [Deep Learning Meets DSP: OFDM Signal Detection](https://blog.kickview.com/deep-learning-meets-dsp-ofdm-signal-detection/)
 - [Neural Network Learn SDR Ham Radio](https://hackaday.com/2017/12/16/neural-network-learns-sdr-ham-radio/)
+
 
 # Improving the Quality of the Antenna
 
@@ -311,6 +346,7 @@ http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What
 - [D.I.Y. Discone for RTLSDR][64]
 - [Understanding Antenna Specifications and Operation](http://www.digikey.com/en/articles/techzone/2011/mar/understanding-antenna-specifications-and-operation)
 - [Home Made Coat Hanger Discone][71]
+
 
 # RTL-SDR Based Tools
 
@@ -328,9 +364,11 @@ http://forums.solidsignal.com/showthread.php/167-Diplexer-Splitter-Combiner-What
 - [SDRangel](https://www.sdrangel.org/)
 - [SDRAngel Documentation](https://rgetz.github.io/sdrangel/)
 
+
 # Ground-Penetrating Radar
 
 - [Affordable Ground-Penetrating Radar](https://hackaday.com/2020/10/22/affordable-ground-penetrating-radar/)
+
 
 # Detecting Meteors With SDR
 
@@ -363,13 +401,16 @@ Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-glo
 
 - [hardware devices for cheap SDR receivers](https://github.com/IgrikXD/Easy-SDR)
 
+
 # Enclosure
 
-- [Printed It: Custom Enclosure Generator ](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
+- [Printed It: Custom Enclosure Generator](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
+
 
 # Meter Reading
 
 - [Monitoring Home Power Consumption for less than $25](https://blog.kroy.io/monitoring-home-power-consumption-for-less-than-25/)
+
 
 # Frequency Stabilization
 
@@ -385,9 +426,11 @@ Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-glo
 
 ################################################################################
 
+
 # Getting Started with the RTL-SDR
 
 ################################################################################
+
 
 # Selecting a RTL-SDR
 
@@ -410,10 +453,12 @@ Another excellent source is [Radio for Everyone][60].
 - [The Hobbyist's Guide to the RTL-SDR: Really Cheap Software Defined Radio](https://www.amazon.com/gp/product/B00KCDF1QI/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KCDF1QI&linkCode=as2&tag=book0674-20&linkId=RSP53QLYXP4IS32X)
 - [RTL_SDR for Linux Quick Start Guide](http://www.rtl-sdr.com/a-good-quickstart-guide-for-rtl-sdr-linux-users/)
 
+
 # Setup
 
 - [New Linux RTL-SDR Driver with Fully Exposed Controls](http://www.rtl-sdr.com/new-linux-rtl-sdr-driver-with-fully-exposed-controls/)
 - [Raspberry Pi SDR](http://hackaday.com/2017/01/27/raspberry-pi-sdr/)
+
 
 # Tuning the RTL-SDR for Optimal Use
 
@@ -424,6 +469,7 @@ You'll find that the dongle is limited by the following:
 - sample rate you can obtain
 - bandwidth of the device
 - A/D bit resolution
+
 
 ## Determining Your Dongles Frequency Off-Set
 
@@ -469,7 +515,7 @@ kal -s GSM900 --> channel 991 --> kal -c 991 --> 928.4MHz   7.793 ppm, -1.91
 kal -s GSM900 --> channel 998 --> kal -c 998 --> 929.8MHz   1.712 ppm, 2.508 ppm
 ```
 
-Baried with in the http://superkuh.com/
+Baried with in the <http://superkuh.com/>
 
 frequency offset
 
@@ -493,10 +539,12 @@ Improving Your SDR Radio
 - [Improving a software defined radio with a few bits of wire][73]
 - [RTL-SDR Improvement Tips][74]
 
+
 # SIGINT / Signal Classification
 
 - [Name That Unknown RF Signal With A Little FFT Magic](https://hackaday.com/2020/02/11/name-that-unknown-rf-signal-with-a-little-fft-magic/)
 - [The Most Important Algorithm Of All Time](https://www.youtube.com/watch?v=nmgFG7PUHfo)
+
 
 # SIGINT / Spectrum Monitoring
 
@@ -535,9 +583,11 @@ and now even has a script to allow you to start it automatically.
 
 ################################################################################
 
+
 # SDR Projects
 
 ################################################################################
+
 
 # Projects
 
@@ -545,6 +595,7 @@ and now even has a script to allow you to start it automatically.
 - [Building A LoRa PHY With SDR](http://hackaday.com/2016/11/18/building-a-lora-phy-with-sdr/)
 - [WSPR reception setup using RTL-SDR dongle V3](https://docs.google.com/document/d/10_xEGW_tdC7LhA-5_UE7ZmgMfPv4ySvz6DQrv02X4ek/mobilebasic)
 - [RTL-SDR Tutorial: GPS Decoding and Plotting](http://www.rtl-sdr.com/rtl-sdr-tutorial-gps-decoding-plotting/)
+
 
 # Radio Telescope
 
@@ -558,16 +609,19 @@ and now even has a script to allow you to start it automatically.
 - [Probe The Galaxy On A Shoestring With This DIY Hydrogen-Line Telescope](https://hackaday.com/2019/09/29/probe-the-galaxy-on-a-shoestring-with-this-diy-hydrogen-line-telescope/)
 - [A Miniature Radio Telescope In Every Backyard](https://hackaday.com/2019/10/22/a-miniature-radio-telescope-in-every-backyard/)
 
+
 # Video Monitors Side-Channel Attack
 
-- [ TEMPEST Comes To GNU Radio](https://hackaday.com/2020/05/14/tempest-comes-to-gnu-radio/)
+- [TEMPEST Comes To GNU Radio](https://hackaday.com/2020/05/14/tempest-comes-to-gnu-radio/)
 - [TempestSDR](https://github.com/martinmarinov/TempestSDR)
 - [Espionage by Electromagnetic Emissions](https://iie.fing.edu.uy/investigacion/grupos/artes/es/proyectos/espionaje-por-emisiones-electromagneticas/)
+
 
 # Other SDR Tools
 
 - [Global Radio Direction Finding in Your Browser](https://hackaday.com/2018/07/16/global-radio-direction-finding-in-your-browser/)
 - [Building An SDR Lab With Wheels](https://hackaday.com/2018/07/27/building-an-sdr-lab-with-wheels/)
+
 
 # SDR Transmitter
 
@@ -576,6 +630,7 @@ Transmit radio signals using just a serial port
 - [Your USB Serial Adapter Just Became a SDR](https://hackaday.com/2018/12/06/your-usb-serial-adapter-just-became-a-sdr/)
 - [RF transmitter for Raspberry Pi](https://www.rtl-sdr.com/rpitx-v2-released-easily-record-and-replay-with-rtl-sdr-and-a-raspberry-pi/)
 - [SDR Transmitting Gets The Power](https://hackaday.com/2020/08/29/sdr-transmitting-gets-the-power/)
+
 
 # Weather Ballons
 
@@ -613,13 +668,14 @@ Transmit radio signals using just a serial port
 - [Deep Learning Meets DSP: OFDM Signal Detection](https://blog.kickview.com/deep-learning-meets-dsp-ofdm-signal-detection/)
 - [THE UNCERTAIN FUTURE OF HAM RADIO](https://spectrum.ieee.org/ham-radio)
 
-- [Printed It: Custom Enclosure Generator ](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
+- [Printed It: Custom Enclosure Generator](https://hackaday.com/2018/03/02/printed-it-custom-enclosure-generator/)
 
 - [liquidsdr.org](http://liquidsdr.org/) is home to liquid-dsp,
   a free and open-source signal processing library for software-defined radios written in C.
 
-- [ Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
+- [Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
 - [Deepwave Digital: Making Sense of Signals](http://on-demand.gputechconf.com/gtc/2018/video/S8375/)
+
 
 # Sthingray
 
@@ -628,16 +684,17 @@ Transmit radio signals using just a serial port
 
 ################################################################################
 
+
 # limeSDR open source software defined radio
 
 ################################################################################
 
-LimeSDR install - https://wiki.myriadrf.org/index.php?search=LimeSDR+install&go=Go
-LimeSDR-USB User Guide - https://wiki.myriadrf.org/LimeSDR-USB_User_Guide
-LimeSDR-USB Quick Test - https://wiki.myriadrf.org/LimeSDR-USB_Quick_Test
-LimeSDR Quick Start - https://wiki.myriadrf.org/LimeSDR_Quick_Start
-LimeSDR Workshop - https://wiki.myriadrf.org/LimeSDR_Workshop
-Getting Started with LimeSDR-USB and LimeSuiteGUI - https://wiki.myriadrf.org/Getting_Started_with_LimeSDR-USB_and_LimeSuiteGUI
+LimeSDR install - <https://wiki.myriadrf.org/index.php?search=LimeSDR+install&go=Go>
+LimeSDR-USB User Guide - <https://wiki.myriadrf.org/LimeSDR-USB_User_Guide>
+LimeSDR-USB Quick Test - <https://wiki.myriadrf.org/LimeSDR-USB_Quick_Test>
+LimeSDR Quick Start - <https://wiki.myriadrf.org/LimeSDR_Quick_Start>
+LimeSDR Workshop - <https://wiki.myriadrf.org/LimeSDR_Workshop>
+Getting Started with LimeSDR-USB and LimeSuiteGUI - <https://wiki.myriadrf.org/Getting_Started_with_LimeSDR-USB_and_LimeSuiteGUI>
 
 Quick/dirty way to get LimeSDR working with Gnuradio
 
@@ -710,12 +767,14 @@ and expensive proprietary devices.
 - **Operating System:** Snappy Ubuntu Core (Linux), running on USB-connected host system
 - **Dimensions:** 100 mm x 60 mm
 
+
 # Documentation
 
 - [LimeSDR-USB User Guide](http://wiki.myriadrf.org/LimeSDR-USB_User_Guide)
 - [LimeMicro:LMS7002M Datasheet](https://wiki.myriadrf.org/LimeMicro:LMS7002M_Datasheet)
 - [Altera's Cyclone IV FPGA](https://www.altera.com/products/fpga/cyclone-series/cyclone-iv/overview.html)
 - [Cyclone IV Device Handbook](https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/hb/cyclone-iv/cyclone4-handbook.pdf)
+
 
 # Who is Lime Microsystems
 
@@ -783,7 +842,8 @@ and link into the Internet to provide fast connectivity inside the home or small
 The challenge in designing an RF chip for these applications
 but for cellular systems that are different around the world.
 
-https://www.youtube.com/watch?v=8IrO4mg2ToA
+<https://www.youtube.com/watch?v=8IrO4mg2ToA>
+
 
 # Myriad RF
 
@@ -791,6 +851,7 @@ Lime is a supporter of [MyriadRF][10],
 a low cost universal radio platform, based on flexible and programmable integrated circuits.
 The MyriadRF websit states,
 "Myriad RF is a family of open source hardware and software projects for wireless communications, and a community that is working to make wireless innovation accessible to as many people as possible."
+
 
 # LimeNet
 
@@ -807,6 +868,7 @@ The platforms also run an Intel i7-7500U dual-core CPU running at 2.7/3.5 GHz.
 
 - [LimeNET Micro radio platform for self-contained wireless networks](https://www.geeky-gadgets.com/limenet-micro-radio-platform-19-10-2018/)
 
+
 # LimeSDR Application Ecosystem
 
 Appears [Josh Blum][14] (a major [contributor to several SDR tools][17])
@@ -814,22 +876,24 @@ played a [major role][15] in the [LimeSuite software][16],
 making sure that LimeSDR is well supported by SDR software tools/platfroms,
 and to provide some example demonstrations.
 
-- https://myriadrf.org/blog/limesdr-application-ecosystem/
+- <https://myriadrf.org/blog/limesdr-application-ecosystem/>
 
-Ubuntu App Stores - https://www.crowdsupply.com/lime-micro/limesdr/updates/ubuntu-app-store-progress?utm_source=LimeSDR+supporters&utm_campaign=cc95a5e8d2-EMAIL_CAMPAIGN_2017_05_16&utm_medium=email&utm_term=0_1e5a81cd57-cc95a5e8d2-112302893
+Ubuntu App Stores - <https://www.crowdsupply.com/lime-micro/limesdr/updates/ubuntu-app-store-progress?utm_source=LimeSDR+supporters&utm_campaign=cc95a5e8d2-EMAIL_CAMPAIGN_2017_05_16&utm_medium=email&utm_term=0_1e5a81cd57-cc95a5e8d2-112302893>
 In order to make it possible to browse and search the available apps without having to first configure an app-enabled system, two websites have been set up:
 
-- https://limenet.limemicro.com/
-- https://limesdr.limemicro.com/
+- <https://limenet.limemicro.com/>
+- <https://limesdr.limemicro.com/>
+
 
 ## LMS Suite Software
 
 The board’s host driver architecture, meanwhile, supports both the SoapySDR and UHD APIs. The firmware supports advanced features liked timed TX bursts and RX sample timestamps, “as required for use with GSM and other time-sensitive protocols,” says the project. The LimeSDR’s host driver is built on a “Lime Suite” low level library that handles programming and calibration of the LMS7002M FPRF transceiver, among other gnarly internal communications.
 
 - [Lime Suite 20.07.1 Released](https://www.crowdsupply.com/lime-micro/limesdr/updates/lime-suite-20-07-1-released)
-- http://wiki.myriadrf.org/LMS_Suite
-- https://myriadrf.org/projects/lime-suite/
-- https://myriadrf.org/blog/limesuite-driver-architecture/
+- <http://wiki.myriadrf.org/LMS_Suite>
+- <https://myriadrf.org/projects/lime-suite/>
+- <https://myriadrf.org/blog/limesuite-driver-architecture/>
+
 
 ## SoapySDR
 
@@ -840,7 +904,8 @@ so it can be supported by SoapySDR or GrOsmoSDR.
 This provides support for programming environments like
 the Pothos framework, GNU Radio, GQRX, and CubicSDR.
 
-https://github.com/pothosware/SoapySDR/wiki
+<https://github.com/pothosware/SoapySDR/wiki>
+
 
 ## Snappy Ubuntu Core
 
@@ -888,7 +953,7 @@ So the hardware requirements are not quite as low as something as OpenWRT,
 but still lower than what you’d expect from Ubuntu,
 so you could use an old laptop or PC as a development platform.
 
-- starting at https://developer.ubuntu.com/en/snappy/
+- starting at <https://developer.ubuntu.com/en/snappy/>
 - [Canonical’s Snap: The Good, the Bad and the Ugly](https://thenewstack.io/canonicals-snap-great-good-bad-ugly/)
 - [What’s the Deal with SNAP Packages?](https://hackaday.com/2020/06/24/whats-the-deal-with-snap-packages/)
 - [Ubuntu Core 16 Enables Snappy IoT](http://m.electronicdesign.com/dev-tools/ubuntu-core-16-enables-snappy-iot)
@@ -908,6 +973,7 @@ so you could use an old laptop or PC as a development platform.
 
 ---
 
+
 # Digital Radio Broadcasting Using LimeSDR and ODR Tools
 
 Digital Radio Broadcasting Using LimeSDR and ODR Tools
@@ -919,9 +985,11 @@ Digital Radio Broadcasting Using LimeSDR and ODR Tools
 
 ---
 
+
 ## PySDR
 
 - [PySDR: A Guide to SDR and DSP using Python](https://pysdr.org/index.html)
+
 
 ## GNURadio
 
@@ -939,13 +1007,14 @@ from the [2012 ARRL TAPR DCC](https://www.tapr.org/conf_dcc2012.html).
 - [GNU Radio Workshop](http://ntms.org/files/MUD2019/MUD_GNR.pdf)
 - [SDR and GNU Radio for Microwave](http://ntms.org/files/CowtownHamfestJan2019/CowtownHamfest_Jan2019_SDR_GNU_Radio_BobN5BRG.pdf)
 
-* [FM radio RDS data extraction with RFtap and Wireshark](https://blog.adafruit.com/2024/07/16/fm-radio-rds-data-extraction-with-rftap-and-wireshark/)
+- [FM radio RDS data extraction with RFtap and Wireshark](https://blog.adafruit.com/2024/07/16/fm-radio-rds-data-extraction-with-rftap-and-wireshark/)
   - [What is RFtap?](https://rftap.github.io/)
 
 So rich example of GNURadio being used"
 
 - [Listening To A Flashlight — Lunar Flashlight](https://hackaday.com/2023/01/23/listening-to-a-flashlight-lunar-flashlight/)
 - [Daniel Estévez: Scientific & Technical Amateur Radio — Home of EA4GPZ / M0HXM](https://destevez.net/)
+
 
 ### Gypsum
 
@@ -955,9 +1024,11 @@ gypsum turns any commodity SDR into a GPS receiver.
 - [Gypsum: A Software-Defined GPS Receiver](https://axleos.com/building-a-gps-receiver-part-1-hearing-whispers/)
 - [GitHub: codyd51/gypsum](https://github.com/codyd51/gypsum)
 
+
 ### LoRa Transceiver
 
 - [gr-lora_sdr – A GNU Radio SDR implementation of a LoRa transceiver](https://www.cnx-software.com/2023/08/23/gr-lora_sdr-a-gnu-radio-sdr-implementation-of-a-lora-transceiver/)
+
 
 ### gr-limesdr
 
@@ -965,6 +1036,7 @@ Package includes GNU Radio blocks for various LimeSDR boards.
 
 - [Gr-limesdr Plugin for GNURadio](https://wiki.myriadrf.org/Gr-limesdr_Plugin_for_GNURadio)
 - [gr-limesdr Plugin for GNURadio](https://github.com/myriadrf/gr-limesdr)
+
 
 ## Pothos
 
@@ -976,11 +1048,12 @@ as well as a fully-functional graphical topology designer.
 [Pothos SDR][13] is a development environment for Windows,
 making it easier for Windows users to design and develop for SDR hardware.
 
-- http://www.joshknows.com/projects
-- http://www.pothosware.com/
+- <http://www.joshknows.com/projects>
+- <http://www.pothosware.com/>
 - [Pothos features summary page](https://github.com/pothosware/pothos/wiki/Features)
 - [Using the RTL-SDR in the Pothos Dataflow Processing Platform](http://www.rtl-sdr.com/using-rtl-sdr-pothos-dataflow-processing-platform/)
 - [Sniffing ANT-FS with an RTL-SDR and MMDS Downconverter in Pothos](http://www.rtl-sdr.com/sniffing-ant-fs-with-an-rtl-sdr-and-mmds-downconverter-in-pothos/)
+
 
 ## LuaRadio
 
@@ -990,16 +1063,18 @@ Like GNU Radio, LuaRadio is a flow graph signal processing framework, but [diffe
 - [LuaRadio Gives Insight Into SDR](https://hackaday.com/2019/12/24/luaradio-gives-insight-into-sdr/)
 - [LimeSDR LuaRadio support and Arch Linux package](https://myriadrf.org/blog/limesdr-luaradio-support-arch-linux-package/)
 
-- http://luaradio.io/docs/reference-manual.html
-- http://luaradio.io/examples/rtlsdr-wbfm-mono.html
-- http://luaradio.io/docs/embedding-luaradio.html
-- http://luaradio.io/docs/comparison-gnuradio.html
+- <http://luaradio.io/docs/reference-manual.html>
+- <http://luaradio.io/examples/rtlsdr-wbfm-mono.html>
+- <http://luaradio.io/docs/embedding-luaradio.html>
+- <http://luaradio.io/docs/comparison-gnuradio.html>
+
 
 ## SDRPlay
 
 - [SDR Connect - A New Multi-Platform SDR Software From SDRplay](https://www.youtube.com/watch?v=TCI7kgRyL4M) <--- runs on Linux
 - [Your First GNU Radio Receiver With SDRPlay](https://hackaday.com/2015/11/12/your-first-gnu-radio-receiver-with-sdrplay/)
 - [SDRPlay RSPDX Radio Receiver Review and Demonstration](https://www.youtube.com/watch?v=G1b2R-6-z3o)
+
 
 # Snap packages for LimeSDR
 
@@ -1008,11 +1083,13 @@ Like GNU Radio, LuaRadio is a flow graph signal processing framework, but [diffe
 - [Appliance builder guide: webcam](https://developer.ubuntu.com/en/snappy/guides/appliance-builder-guide-webcam/)
 - [Ubuntu Snappy Core 16 Release Candidate 2 Out Now with Raspberry Pi 3 Fixes](http://news.softpedia.com/news/ubuntu-snappy-core-16-release-candidate-2-out-now-with-raspberry-pi-3-fixes-509736.shtml)
 
+
 # Digital Signal Processing
 
 - [three-part tutorial on using Octave](http://hackaday.com/2016/06/30/tutorial-on-signal-processing-in-linux-with-octave/)
-- [ MATLAB under Linux](https://help.ubuntu.com/community/MATLAB)
+- [MATLAB under Linux](https://help.ubuntu.com/community/MATLAB)
 - Scilab, Freemat, Sage, and Spyder
+
 
 # LimeSDR Projects
 
@@ -1037,9 +1114,11 @@ Other Tools
 - [Amazon EC2 F1 Instances](https://aws.amazon.com/ec2/instance-types/f1/) are a compute instance with field programmable gate arrays (FPGAs) that you can program to create custom hardware accelerations for your application.
   ##############################
 
+
 # Be Careful
 
 - [The Great Ohio Key Fob Mystery, Or “Honey, I Jammed The Neighborhood!”](https://hackaday.com/2019/05/15/the-great-ohio-key-fob-mystery-or-honey-i-jammed-the-neighborhood/)
+
 
 # Radio Astronomy / Radio Telescope
 
@@ -1047,6 +1126,7 @@ Other Tools
 - [A Miniature Radio Telescope In Every Backyard](https://hackaday.com/2019/10/22/a-miniature-radio-telescope-in-every-backyard/)
 - [SpaceAusScope Team Listens To The Galaxy](https://hackaday.com/2020/12/23/spaceausscope-team-listens-to-the-galaxy/)
 - [Explore The Cosmos With This DIY Digital Telescope](https://hackaday.com/2021/03/05/explore-the-cosmos-with-this-diy-digital-telescope/)
+
 
 # Spectrum Painting / Spectrogram
 
@@ -1059,6 +1139,7 @@ Other Tools
 ---
 
 ---
+
 
 # Step X: LimeSDR Hardware Installation
 
@@ -1080,7 +1161,7 @@ You use [U.FL to SMA 'pigtail' cables][36] to connect RF ports to external anten
 | TX1_2 | Channel 1 TX: secondary (all frequencies) |
 | TX2_2 | Channel 2 TX: secondary (all frequencies) |
 
-> **NOTE:** in all cases, optimal receive performance is obtained by using the _\_H and _\_L ports
+> **NOTE:** in all cases, optimal receive performance is obtained by using the _\_H and_\_L ports
 > within the frequency bands listed.
 > Secondary transmit ports for each channel, where available,
 > can be used with power amplifiers covering different bands or for loopback and other tasks.
@@ -1089,10 +1170,11 @@ You use [U.FL to SMA 'pigtail' cables][36] to connect RF ports to external anten
 > to which you have connected antennas.
 > The LimeSDR does not automatically sense if an antenna is connected to a port or not.
 
-LimeSDR HF Performance - https://wiki.myriadrf.org/LimeSDR_HF_Performance
+LimeSDR HF Performance - <https://wiki.myriadrf.org/LimeSDR_HF_Performance>
 
 I purchase an [aluminum alloy enclosure][34]
 for the LimeSDR radio.
+
 
 # Packaging Project
 
@@ -1101,6 +1183,7 @@ maintains packages (software/firmware) of hardware drivers and SDR frameworks su
 along with key dependencies and applications.
 These packages are not specific to LimeSDR abut in fact include packages
 for other hardware platforms (e.g. RTL SDR, Hack RF, etc.)
+
 
 ## Step X: Install Required PPAs
 
@@ -1115,6 +1198,7 @@ sudo add-apt-repository -y ppa:myriadrf/drivers
 sudo add-apt-repository -y ppa:myriadrf/gnuradio
 sudo apt-get update
 ```
+
 
 # Step X: Install Lime Suite and SoapySDR
 
@@ -1146,13 +1230,14 @@ sudo apt-get install soapysdr-tools soapysdr-module-lms7
 #sudo apt-get install soapysdr soapysdr-module-lms7
 ```
 
+
 # Step X: Install GNU Radio
 
 The GNU Radio PPA hosts packages for GNU Radio and several popular GNU Radio packages
 VOLK (Vector-Optimized Library of Kernels) is a sub-project of GNU Radio.
 
 GR-LimeSDR Plugin for GNURadio
-ee here for usage documentation - https://wiki.myriadrf.org/Gr-limesdr_Plugin_for_GNURadio
+ee here for usage documentation - <https://wiki.myriadrf.org/Gr-limesdr_Plugin_for_GNURadio>
 
 ```bash
 # install gnu radio and volk
@@ -1163,11 +1248,12 @@ sudo apt-get install libvolk1-bin libvolk1-dev   # VOLK 1.3
 sudo apt-get install gr-limesdr
 ```
 
+
 # LimeSDR Made Simple
 
-https://wiki.myriadrf.org/LimeSDR_Workshop
-https://wiki.myriadrf.org/LimeSDR_Made_Simple
-https://wiki.myriadrf.org/index.php?search=LimeSDR+install&go=Go
+<https://wiki.myriadrf.org/LimeSDR_Workshop>
+<https://wiki.myriadrf.org/LimeSDR_Made_Simple>
+<https://wiki.myriadrf.org/index.php?search=LimeSDR+install&go=Go>
 
 [01]: https://www.crowdsupply.com/lime-micro
 [02]: http://www.eetimes.com/author.asp?doc_id=1320986

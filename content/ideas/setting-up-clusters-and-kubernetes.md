@@ -1,7 +1,4 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
-!--
+<!--
 Maintainer: jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version: 0.0.0
 -->
@@ -13,6 +10,7 @@ Version: 0.0.0
 ---
 
 - [Wanna build a Raspberry Pi 5 cluster?](https://www.raspberrypi.com/news/wanna-build-a-raspberry-pi-5-cluster/)
+
 
 ## What is a Cluster
 
@@ -62,6 +60,7 @@ Computer clusters, and references to HPC, are also used in [cloud computing][04]
 - [What is High-performance computing (HPC)?](https://ubuntu.com/blog/what-is-high-performance-computing-hpc-part-1)
 - [Introduction to Parallel Computing Tutorial](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial)
 
+
 ## Clustered Operating System
 
 Cluster operating systems are a combination of software and hardware clusters.
@@ -84,6 +83,7 @@ There are mainly three types of the clustered operating system:
   ecause it uses all hardware resources, this cluster system is more reliable than asymmetric cluster systems.
 - A **Parallel Cluster System** allows several users to access similar data on the same shared storage system.
   The system is made possible by a particular software version and other apps.
+
 
 # Parallel Programming Language
 
@@ -137,6 +137,7 @@ Hadoop with HDFS in terms of processing speed and provides more consistent perfo
 However, Hadoop shows better data management infrastructure
 and dealing with node failure and data replication.
 
+
 ## Which Linux Distribution
 
 Building a RPi cluster using Raspbian (based on Debian) has several advantages but its down side it its weight.
@@ -152,9 +153,11 @@ The default installation provides a bare bones, minimal environment,
 that boots to a command line interface (CLI) with network support.
 The downside is you have to be willing to learn the different (but elegant) approach to Linux.
 
+
 ## Raspberry Pi Cluster
 
 I chose Raspbian Lite
+
 
 # Proxmox on Raspberry Pi Hardware
 
@@ -163,6 +166,7 @@ Within Proxmox, we'll create an Turnkey Core LXC container,
 and nested in this will be Docker & Docker Compose so we can use Docker containers.
 Then using Docker container, we can install Home Assistant, Node Red,
 and may of the other utilities used for home automation.
+
 
 ## Install Proxmox on Raspberry Pi
 
@@ -188,6 +192,7 @@ Sources:
 - [RASPBERRY PI: INSTALLING PROXMOX VE 7 ON THE PI 4](https://pycvala.de/blog/raspberry-pi/raspberry-pi-installing-proxmox-ve-7-on-the-pi-4/)
 - [Is the Raspberry Pi5 the better Proxmox Server?](https://www.youtube.com/watch?v=Qit-3upR6iA)
 
+
 # Proxmox Cluster
 
 - [More POWER for my HomeLab! // Proxmox Cluster](https://www.youtube.com/watch?v=IhEE_QlI1MU)
@@ -206,6 +211,7 @@ Sources:
 - [Running LXD Container on Raspberry Pi 4 Proxmox 7](https://www.youtube.com/watch?v=7lkUu_OMKrY)
 - [Installing Proxmox 8.1 virtualization platform on a Raspberry Pi 5](https://www.geeky-gadgets.com/installing-proxmox-8-raspberry-pi-5/)
 
+
 # Project to Test the Cluster: Enigma Machine Brute Force Decryption
 
 - [The Ultimate Hack: Using a Raspberry Pi 5 Cluster to Break the Enigma Code](https://www.youtube.com/watch?v=cIq2AEbYotA)
@@ -214,6 +220,7 @@ Sources:
   - [OctaPi: brute-force Enigma](https://projects.raspberrypi.org/en/projects/octapi-brute-force-enigma/6)
   - [Breaking the Enigma Code in Python with MCMC (Marvel themed)](https://towardsdatascience.com/breaking-the-enigma-code-in-python-with-mcmc-marvel-themed-9ceb358dd8ae)
 - [Parallel Examples](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial##Examples)
+
 
 # Raspberry Pi Docker Swarm Cluster
 
@@ -231,11 +238,13 @@ Sources:
 
 - [Build a Kubernetes cluster using K3s via Ansible](https://github.com/k3s-io/k3s-ansible/tree/master)
 
+
 ## Learning Hadoop
 
 - [How to get started with Hadoop](http://bigdatastudio.com/tag/best-way-to-learn-hadoop)
 - [How can I learn Hadoop?](http://bigdatastudio.com/hadoop)
 - [Hadoop Tutorials: Real Life Use Cases in the Sandbox](http://hortonworks.com/blog/hadoop-tutorials-real-life-use-cases-in-the-sandbox)
+
 
 ## Using AWS
 
@@ -243,11 +252,13 @@ Sources:
 - [How Do I Get Started with the AWS Free Usage Tier?](http://docs.aws.amazon.com/gettingstarted/latest/awsgsg-intro/gsg-aws-free-tier.html)
 - [Installing aws-cli, the New AWS Command Line Tool](http://alestic.com/2013/08/awscli)
 
+
 # Using Google Kubernetes
 
 - [Ansible for Kubernetes Examples](https://github.com/geerlingguy/ansible-for-kubernetes)
 - [Self-hosting Kubernetes on your Raspberry Pi](https://blog.alexellis.io/self-hosting-kubernetes-on-your-raspberry-pi/)
 - [Cluster computing on the Raspberry Pi with Kubernetes](https://opensource.com/life/16/2/build-a-kubernetes-cloud-with-raspberry-pi)
+
 
 ## Using Raspberry Pi for Hadoop Cluster
 
@@ -267,12 +278,14 @@ Sources:
 
 - [Everyone can have a Cray-1 supercomputer with this Raspberry Pi DIY guide](https://www.datacenterdynamics.com/en/news/everyone-can-have-a-cray-1-supercomputer-with-this-raspberry-pi-diy-guide/)
 
+
 # What Version of RPi DO I Have?
 
 - [Raspberry Pi OS "Bullseye" Launches, Brings Speed Boost to the Latest Raspberry Pi 4 Models](https://www.hackster.io/news/raspberry-pi-os-bullseye-launches-brings-speed-boost-to-the-latest-raspberry-pi-4-models-b86becec3ae6)
 - [How to know which Raspberry do you have](https://oastic.com/posts/how-to-know-which-raspberry-do-you-have/)
   - [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
   - [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
+
 
 ## Using Raspberry Pi Zero for Hadoop Cluster
 
@@ -281,17 +294,21 @@ Sources:
 - Raspberry Pi Zero Cluster "Supercomputer" [Part 1](https://youtu.be/HsIFWk_QHoc) and [Part 2](https://youtu.be/ddrTDCdlYDE)
 - [EEVblog #934 - Raspberry Pi Supercomputer Cluster PART 1](https://www.youtube.com/watch?v=KI7YLXhovb8&feature=em-uploademail)
 
+
 ## ESP32 Cluster
 
 - [Build Your Own Supercomputer With ESP32s](https://hackaday.com/2018/04/17/build-your-own-supercomputer-with-esp32s/)
+
 
 ## Spark
 
 - [Spark Or Hadoop: Which Is The Best Big Data Framework?](https://www.linkedin.com/pulse/spark-hadoop-which-best-big-data-framework-chaaranpall-lambba?trk=eml-b2_content_ecosystem_digest-recommended_articles-103-null&midToken=AQFNblHgIt9-6A&fromEmail=fromEmail&ut=0pSjPikaB8JD81)
 
+
 ## Distributed Processing Tools
 
 - [Jubatus is a distributed processing framework and streaming machine learning library](http://jubat.us/en/)
+
 
 ## Other Tools
 
@@ -300,9 +317,11 @@ Sources:
 - [Backup, Restore, Customize and Clone your Raspberry Pi SD Cards (tutorial)](http://sysmatt.blogspot.com/2014/08/backup-restore-customize-and-clone-your.html)
 - [distributed server with RPi](https://hackaday.io/project/1002-distributed-server-with-rpi)
 
+
 # Virtual Clusters (vcluster)
 
 - [vcluster](https://www.vcluster.com/)
+
 
 # Infrastructure as Code
 
@@ -319,10 +338,12 @@ and motivation for the multiple infrastructure tools.
 
 The complexity of application stacks keeps going up
 
+
 ## HomeLab
 
 Maybe you want to experiment with different technologies,
 create development environments, or have your own private cloud.
+
 
 # Background
 
@@ -331,7 +352,7 @@ Jeff Geerling
 
 The CRAY-1 was rated at 160 MIPS and weighted 5.5 tons ran at 80MHz 115KW of power. The stock (no overclocking) Raspberry Pi C 2040 MIPS (Linpack) and weights 42 grams
 
-- https://www.tomshardware.com/reviews/raspberry-pi-4-overclock-2-ghz,6254.html
+- <https://www.tomshardware.com/reviews/raspberry-pi-4-overclock-2-ghz,6254.html>
 
 Hands on learning about private clouds, clusters, Linux networking, Docker, Kubernetes, Helm, load balancer, OpenFaaS
 parallel programming with python MPI
@@ -357,13 +378,16 @@ Sources of inspiration:
 - [Build a Kubernetes cluster with the Raspberry Pi](https://opensource.com/article/20/6/kubernetes-raspberry-pi)
 - [Manage your Kubernetes cluster with Lens](https://opensource.com/article/20/6/kubernetes-lens)
 
+
 # Kubernetes
+
 
 ## Kubernetes and MPI
 
 - [Kubernetes and MPI](https://stackoverflow.com/questions/38093438/kubernetes-and-mpi)
 - [Scaling Kubernetes to 7,500 Nodes](https://openai.com/blog/scaling-kubernetes-to-7500-nodes/)
 - See how to install MPI - [Building a Beowulf Cluster in just 13 steps](https://www.linux.com/training-tutorials/building-beowulf-cluster-just-13-steps/)
+
 
 # MPI for Python
 
@@ -372,7 +396,9 @@ Sources of inspiration:
 - [MPI for Python: Tutorial](https://mpi4py.readthedocs.io/en/stable/tutorial.html)
 - [Easy Parallel Computing with IPython](https://andrewmellor.co.uk/blog/articles/2015/04/30/easy-parallel/)
 
+
 # K8S, K3S, Microk8s
+
 
 # Setting Up the Cluster
 
@@ -399,7 +425,9 @@ Sources of inspiration:
 
 ---
 
+
 # My Cluster
+
 
 ## Cluster Hardware Configuration
 
@@ -412,17 +440,22 @@ Quantity Unit Cost Item
 6 $ 2 [6 inch USB-C to USB-A Charging Cable](https://www.amazon.com/Durable-Charging-Station-Compatible-Samsung/dp/B08PYJ1N9L/ref=sr_1_1_sspa)
 Total $559
 
+
 ## Cluster Software Configuration
+
 
 ### Step 1: Physical Design
 
+
 ### Step X: Raspberry Pi OS Image
+
 
 ### Step X: Find the Devices
 
 How you approach this will entirely depend on how your network is configured,
 and what tools is available to you.
 I would advise listening to the episode by operat0r called hpr3090 :: Locating Computers on a Enterprise Network for some great tips on how to do this.
+
 
 ### Step X: Turn Off Swap
 
@@ -441,6 +474,7 @@ dphys-swapfile uninstall
 update-rc.d -f dphys-swapfile remove
 ```
 
+
 ### Step X: Install Docker
 
 From [How to build your own Raspberry Pi Kubernetes Cluster](https://www.youtube.com/watch?v=B2wAJ5FLOYw)
@@ -448,6 +482,7 @@ at about 18 minutes
 
 - [Setting up a Raspberry Pi Kubernetes Cluster with Ubuntu 20.04](https://www.youtube.com/watch?v=qv3_gLvjITk)
 - [Build a Kubernetes cluster with the Raspberry Pi](https://opensource.com/article/20/6/kubernetes-raspberry-pi)
+
 
 ### Step X: Installing Kubernetes
 
@@ -459,6 +494,7 @@ at about 21 minutes
 
 - [i built a Raspberry Pi SUPER COMPUTER!! // ft. Kubernetes (k3s cluster w/ Rancher)](https://www.youtube.com/watch?v=X9fSMGkjtug)
 
+
 ### Step X: Install Lens
 
 - [Manage your Kubernetes cluster with Lens](https://opensource.com/article/20/6/kubernetes-lens)
@@ -467,12 +503,14 @@ at about 21 minutes
 - [The definitive pronunciation guide for kubectl](https://opensource.com/article/18/12/kubectl-definitive-pronunciation-guide)
 - [Kubernetes namespaces for beginners](https://opensource.com/article/19/12/kubernetes-namespaces)
 
+
 ### Step X: Install Monitoring
 
 Internet Monitoring: Installs Prometheus and Grafana, along with a few Docker containers to monitor your Internet connection with Speedtest.net speedtests and HTTP tests so you can see uptime, ping stats, and speedtest results over time.
 
 - [Monitor your Internet with a Raspberry Pi](https://www.jeffgeerling.com/blog/2021/monitor-your-internet-raspberry-pi)
 - [Setting up a Pi for remote Internet connection monitoring](https://www.jeffgeerling.com/blog/2021/setting-pi-remote-internet-connection-monitoring)
+
 
 #### Munin
 
@@ -486,14 +524,17 @@ Once data is collected from nodes, it is processed by the master and various gra
 - [Ansible Role: Munin](https://github.com/geerlingguy/ansible-role-munin)
 - [Ansible Role: Munin Node](https://github.com/geerlingguy/ansible-role-munin-node)
 
+
 #### Nagios
 
 - [Nagios](https://www.nagios.org/downloads/)
+
 
 # DMZ
 
 - [Is the DMZ Dead? Not Quite](https://www.pcmag.com/news/is-the-dmz-dead-not-quite)
 - [4 DMZ Best Practices to Shield You From Attackers](https://securityboulevard.com/2019/11/4-dmz-best-practices-to-shield-you-from-attackers-2/)
+
 
 ## Port Forwarding or DMZ
 

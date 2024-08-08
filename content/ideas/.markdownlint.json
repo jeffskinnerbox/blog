@@ -1,4 +1,4 @@
-// vim: set ts=4 sw=4 sts=4 et ai:                                              -- modeline, equvalent to 'vim: set tabstop=4 shiftwidth=4 softtabstop=4 expandtab autoindent filetype=json:'
+// vim: set ts=4 sw=4 sts=4 et ai:                                              modeline, equvalent to 'vim: set tabstop=4 shiftwidth=4 softtabstop=4 expandtab autoindent filetype=json:'
 
 // I'm using `DavidAnson/markdownlint` as my NeoVim plugin for markdown file linting & formatting.
 // If present in the current folder, this file `.markdownlint.json` will be used
@@ -37,11 +37,4 @@
   "MD045": false,                        // MD045/no-alt-text : Images should have alternate text (alt text) : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md045.md
 }
 
-
-// equvalent configuration for rules embedded within markdown file
-//     <!-- markdownlint-disable MD001 MD012 MD033 MD041 MD045 -->
-//     <!-- markdownlint-configure-file { "line-length": { "line_length": 300 } } -->
-//     <!-- markdownlint-configure-file { "hr-style": { "style": "---------------", } } -->
-//     <!-- markdownlint-configure-file { "blanks-around-headings": { "lines_above": 2, "lines_below": 0, } } -->
-//     <!-- see [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
 

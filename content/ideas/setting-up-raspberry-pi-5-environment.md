@@ -1,6 +1,3 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -51,13 +48,16 @@ Version:      0.0.0
 | | | |
 | | | |
 
+
 # How to Boot From USB
 
 - [How To Boot A Raspberry Pi From A USB Drive](https://www.slashgear.com/1588415/how-to-boot-raspberry-pi-from-usb-drive/)
 
+
 # How to Boot From SSD
 
 - [Testing Cytron MAKERDISK M.2 NVMe SSDs on Raspberry Pi 5 with GEEKWORM X1001 and Waveshare M.2 PCIe HAT+](https://www.cnx-software.com/2024/04/07/review-cytron-makerdisk-nvme-ssd-raspberry-pi-5-geekworm-x1001-waveshare-m2-pcie-hat/)
+
 
 # Coral Alternatives
 
@@ -72,6 +72,7 @@ Version:      0.0.0
 - [Raspberry Pi 5 vs N100 PC (featuring Ubuntu 23.10)](https://www.youtube.com/watch?v=hekzpSH25lk)
 
 - [A Step-by-Step Guide to Install Kali Linux on Raspberry Pi 5](https://thesecmaster.com/a-step-by-step-guide-to-install-kali-linux-on-raspberry-pi-5/)
+
 
 # Raspberry Pi Benchmark Tools
 
@@ -96,6 +97,7 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 .
 ```
 
+
 # Overclocking
 
 - [Raspberry Pi 5 hits world-record 3.4 GHz with thermoelectric cooling and firmware tweaks](https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-hits-world-record-34-ghz-with-thermoelectric-cooling-and-firmware-tweaks)
@@ -113,9 +115,11 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 - [Overclock Your Raspberry Pi The Right Way](https://hackaday.com/2018/01/16/__trashed-5/)
 - [How to Overclock Any Raspberry Pi](https://www.tomshardware.com/how-to/overclock-any-raspberry-pi)
 
+
 # Proxmox Server
 
 - [Is the Raspberry Pi5 the better Proxmox Server?](https://www.youtube.com/watch?v=Qit-3upR6iA)
+
 
 # Large Language Model (LLM)
 
@@ -123,6 +127,7 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 - [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, mamba-gpt)](https://www.dfrobot.com/blog-13498.html?tracking=6594dccfd2dcd)
 - [I Ran Advanced LLMs on the Raspberry Pi 5!](https://www.youtube.com/watch?v=Y2ldwg8xsgE)
 - [Running a ChatGPT-Like LLM on the Raspberry Pi 5](https://www.hackster.io/shahizat/running-a-chatgpt-like-llm-on-the-raspberry-pi-5-fd67f9)
+
 
 # Tensor Processing Unit (TPU)
 
@@ -138,11 +143,13 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 
 - [Coral: Hardware & Software](https://coral.ai/)
 
+
 # NVMe SSD
 
 - [FINALLY! NVMe SSDs on the Raspberry Pi](https://www.youtube.com/watch?v=EXWu4SUsaY8)
 - [Raspberry Pi 5 M.2 HatDrive!](https://www.youtube.com/watch?v=B9OwWnAftb4)
 - [Raspberry Pi 5 with 2TB NVME SSD Geekworm Shield](https://www.youtube.com/watch?v=IUxP31rNRY4)
+
 
 # TensorFlow
 

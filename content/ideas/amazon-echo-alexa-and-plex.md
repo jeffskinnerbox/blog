@@ -1,6 +1,3 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -10,24 +7,27 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
----
+---------------
 
 - [I’m Dumping Alexa, but I’m Letting Her Stay as a Roommate](https://www.reviewgeek.com/114351/im-dumping-alexa-but-im-letting-her-stay-as-a-roommate/)
+
 
 # Alexa Guard
 
 - [Alexa Guard Overview & Integration w/Home Assistant](https://hometechhacker.com/alexa-guard-overview-integration-w-home-assistant/)
 
+
 # DIY Voice Command for Alexa (without Echo)
 
 - [We can create a voice command system!](https://www.youtube.com/watch?v=3XbnzfBjmZk)
+
 
 # Special Purpose Voice Recognition Module
 
 - [Voice Recognition Module - 254 Voice Commands + UART](https://www.youtube.com/watch?v=zCEYxSdYBcA)
 
-  - http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254
-  - https://www.amazon.com/Rakstore-Recognition-Compatible-Arduino-Accuracy/dp/B09D3WHHKN/
+  - <http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254>
+  - <https://www.amazon.com/Rakstore-Recognition-Compatible-Arduino-Accuracy/dp/B09D3WHHKN/>
 
 - [Echo Show 10](https://www.amazon.com/dp/B07VHZ41L8)
 
@@ -55,6 +55,7 @@ Version:      0.0.0
 - [New Alexa Skills Kit Developer Console (Beta) Streamlines Development Process](https://developer.amazon.com/blogs/alexa/post/ea373bd3-cd80-4b09-b243-2b986d2922a0/new-alexa-skills-kit-developer-console-beta-streamlines-development-process)
 - [Flask-Ask: A New Python Framework for Rapid Alexa Skills Kit Development](https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/Flask-Ask-A-New-Python-Framework-for-Rapid-Alexa-Skills-Kit-Development)
 
+
 # Conversational User Experience Platform
 
 - [api.ai](https://api.ai/)
@@ -73,28 +74,34 @@ Version:      0.0.0
 
 - [ReSpeaker 2 Mics Pi HAT for Alexa Voice Service, Google Assistant](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html?utm_source=mailchimp&utm_medium=edm&utm_campaign=new_0606)
 
+
 # YouTube Integrations
 
 - [How To Stream YouTube Music To Amazon Echo Device](https://www.reelnreel.com/how-to-stream-youtube-music-to-amazon-echo-device-868567/)
 - [Alexa YouTube Tutorial: How to Search & Play Videos on YouTube with Alexa](https://www.kodifiretvstick.com/alexa-youtube/)
+
 
 # Z-Wave Integrations
 
 - [Compare 12 Smart Plugs that Work With Alexa + WiFi vs. Z-wave Review](https://www.youtube.com/watch?v=9m5oAbnU19c)
 - [Alexa Z-Wave Integration: COMPLETE Setup Guide to Voice Control Z-Wave with Alexa (Using Wink Hub 1)](https://www.youtube.com/watch?v=hv0kzzcC740)
 
+
 # Storyline
 
 - [With Storyline, Anyone Can Create Engaging Alexa Skills with Zero Coding](https://developer.amazon.com/blogs/alexa/post/5efb20bc-961f-4575-b8cf-9d087e8bdffd/storyline-spotlight%20)
 - [Storyline - Create Alexa skills without coding](https://getstoryline.com/)
 
+
 # Weather
 
 - [How to Get Better Weather Forecasts on Amazon Echo](https://www.makeuseof.com/tag/weather-forecasts-echo-alexa/)
 
+
 # Announcements
 
 Try "Alexa, announce that dinner is ready."
+
 
 # Text to Voice
 
@@ -105,11 +112,13 @@ Whatever you type, Alexa will speak.
 - [Text To Voice](https://www.amazon.com/TopVoiceApps-com-Text-To-Voice/dp/B07GSYW3S7)
 - [Alexa Announce Feature - Text to Speach via Alexa now a possability?](https://community.home-assistant.io/t/alexa-announce-feature-text-to-speach-via-alexa-now-a-possability/52067)
 
+
 # Alexa and Google Assistant Working Together
 
 - [Forcing Amazon Alexa Compatible Stuff to Speak to Google Assistant](https://hackaday.com/2019/01/01/forcing-amazon-alexa-compatible-stuff-to-speak-to-google-assistant/)
 
----
+---------------
+
 
 # Music in the Workshop
 
@@ -130,6 +139,7 @@ when I'm peaceful secluded in the Workshop.
 I was considering creating an intercom system for the workshop,
 but the [Alexa voice calling and messaging feature][30] provides all that I need.
 
+
 ## My Media: Music Streaming to Echo
 
 I want to play music from my computer library stream it to my Amazon Echo (aka Alexa).
@@ -144,6 +154,7 @@ unless you purchased the songs directly through Amazon’s digital store.
 - [Secret To Playing Your Own Music On Amazon Echo](https://www.youtube.com/watch?v=iM2YVKHVTX4&vl=en)
 - [My Media for Alexa](http://mymediaalexa.com/)
 - [My Media Alexa Skill](https://www.amazon.com/bizmodeller-My-Media/dp/B06XPP135L)
+
 
 ## My Media Alexa
 
@@ -226,6 +237,7 @@ Alexa, skip / next
 Alexa, stop
 ```
 
+
 ## Plex: Music Streaming to Echo
 
 [Plex][43] gives you one place to find and access all the music & video media on your own server,
@@ -241,6 +253,7 @@ Sources:
 - [Building A Music Server Using Plex Media Server | Part III](https://www.youtube.com/watch?v=UBiZzNMrU1Y)
 - [How to Port Forward in pfSense][50]
 - [Plex Pass - Do You REALLY Need to Pay for Plex?][61]
+
 
 #### Step 1: Install Plex
 
@@ -263,6 +276,7 @@ but you must take these steps to enable drag & drop:
 2. Select the **Settings** button near the top of the window.
 3. Select **Enable smart drag and drop** and then click **Save**
 
+
 #### Step 2: Move Music to Plex Library
 
 To enable Plex with the library of music you created:
@@ -273,6 +287,7 @@ To enable Plex with the library of music you created:
 4. In the "Add Library" pop-up window, select **Music** and enter the name of the folder as "Music".
 5. Click **NEXT** > **BROWSE FOR MEDIA FOLDER**, then select **volume1** then **PlexMediaServer**, then **Music**.
 6. Click **ADD LIBRARY** and validate you can play music by going to the Home page.
+
 
 #### Step 3: Enable Alexa Plex Skill
 
@@ -308,6 +323,7 @@ ssh admin@192.168.1.1
 sockstat -aon | grep 32400
 ```
 
+
 #### Step 4: Activate a Plex Pass
 
 To add additional users to your Plex server,
@@ -332,6 +348,7 @@ To ask Plex to play music on you Echo, use these phrases:
 - Alexa, ask Plex to pause
 - Alexa, ask Plex to stop
 
+
 #### Step 5: Protect Your Privacy
 
 Lately, Plex has establish some questionable privacy policy and your going to want to turn them off.
@@ -343,6 +360,7 @@ Sources:
 
 - [Disable These Plex Settings Now | Plex is Collecting Your Private Info & Sharing Your Watch Data](https://www.youtube.com/watch?v=g9GhWo0WPoQ)
 
+
 ## Plex: Live TV & DVR
 
 - [The Ultimate Guide to Configuring Live TV & DVR with Plex!](https://www.youtube.com/watch?v=Q5okoyPewyU)
@@ -350,13 +368,16 @@ Sources:
   - [HDHomeRun FLEX 4K & PLEX DVR](https://www.youtube.com/watch?v=YFnEuATA2Nk)
 - [How to Cast Plex to Chromecast and Google Home](https://www.youtube.com/watch?v=1FkDya3cD08)
 
+
 ## Plex: Video & Music Chromecasting
 
 - [How to Cast Plex to Chromecast and Google Home](https://www.youtube.com/watch?v=1FkDya3cD08)
 
----
+---------------
+
 
 # Amazon Echo "How To Do"
+
 
 ## How to access the Amazon Echo from the Web
 
@@ -365,11 +386,13 @@ Even though you need to do the original Echo setup from an iOS or Android app
 you can also access many of the Echo's settings from the web.
 Point your browser to [echo.amazon.com](http://echo.amazon.com).
 
+
 ## How to stop the Amazon Echo from listening for its wake word
 
 If you want the device to go completely radio silent and respond to absolutely nothing,
 even by accident, there's a mute button on the top of the can.
 Press it and a red ring will highlight and Alexa will stay mute until you press the button again.
+
 
 ## How to control the Amazon Echo from a different Amazon account
 
@@ -382,11 +405,13 @@ To switch profiles, say either "Alexa, switch profile"
 and it will move to the next profile or "Alexa,
 switch to David's profile" and it will switch to the profile you just named.
 
+
 ## How to get the Amazon Echo to repeat an answer
 
 If you didn't hear the answer to your question quickly enough,
 Alexa is happy to repeat it.
 Simply say "Alexa, can you repeat that?" and it will.
+
 
 ## How do I find new Alexa features
 
@@ -395,18 +420,22 @@ Whenever Amazon adds something new,
 they program an explanation into Alexa
 and she’ll give you all the details by just asking that question.
 
+
 ## You can make the Amazon Echo read you a Kindle book
 
 you can ask Alexa to read Kindle books in your library. Alexa reads books purchased from the Kindle Store, borrowed from the Kindle Owners' Lending Library or Kindle Unlimited, or shared with you using Family Library.
 Just say Alexa, read "[Kindle book title]."
 
+
 ## How to Connect Your Amazon Echo to IFTTT
 
 [How to Connect Your Amazon Echo to IFTTT](http://www.tomsguide.com/us/amazon-echo-ifttt-how-to,review-3366.html)
 
+
 ## How to Pair Your Smartphone to Your Amazon Echo
 
 [How to Pair Your Smartphone to Your Amazon Echo](http://www.howtogeek.com/237233/how-to-pair-your-smartphone-to-your-amazon-echo/)
+
 
 ## How to Create a Notification
 
@@ -416,26 +445,31 @@ Unfortunately, Alexa doesn't support this but [Jasper does](http://jasperproject
 
 There are notification features for Amazon shopping via [Alexa Shopping Notifications](https://www.amazon.com/alexashopping/notification)
 
+
 ## Amazon Echo Alexa and Node-RED
 
 - [Amazon Echo Alexa Skills Kit integration with Node-RED](https://nathan.chantrell.net/20160328/amazon-echo-alexa-skills-kit-integration-with-node-red/)
 - [Alexa Node Red and SSL](http://tech.scargill.net/alexa-node-red-and-ssl/)
 
----
+---------------
+
 
 # Quick Start
 
 - [Alexa, What’s for Lunch?](https://iot-for-all.com/alexa-whats-for-lunch-fb02062e54b9#.srij2ojnh)
 - [Getting Started with the Alexa Voice Service](https://developer.amazon.com/public/solutions/alexa/alexa-voice-service/getting-started-with-the-alexa-voice-service)
 
+
 # Alexa Skill Blueprints
 
 - [Now Anyone Can Create Their Own Personalized Alexa Skill in Just Minutes](http://phx.corporate-ir.net/phoenix.zhtml?c=176060&p=irol-newsArticle&ID=2343493)
+
 
 # Streaming Music
 
 - [Pair Your Mobile Device with Echo](https://www.amazon.com/gp/help/customer/display.html?nodeId=201549660)
 - [Ways to Listen to Music & Media on Alexa](https://www.amazon.com/gp/help/customer/display.html?nodeId=201549700)
+
 
 # Alexa Calling & Messaging
 
@@ -461,6 +495,7 @@ Simply say “Alexa, send a message” and a voice recording of your message
 will be delivered to your contact’s Echo device and Alexa app.
 If your contact doesn’t yet own an Echo device, they can download the free Alexa app to send and receive Alexa messages.
 
+
 # Connect Smart Home Devices
 
 Alexa now supports motion and contact sensors connected to a SmartThings Hub.
@@ -473,6 +508,7 @@ then link the SmartThings skill using the Alexa app.
 - [Connect Smart Home Devices to Alexa with Smart Home Skills](https://www.amazon.com/gp/help/customer/display.html?nodeId=201749240&ref_=pe_1840220_351054240_sub_aucc_mx_crm_083118_sensors)
 - [Create Alexa Routines for Smart Devices](https://www.amazon.com/gp/help/customer/display.html?nodeId=202200080&ref_=pe_1840220_351054240_sub_aucc_mx_crm_083118_routine)
 
+
 # Amazon Echo How To
 
 - [New Alexa Skills Kit Template: Step-by-Step Guide to Build a Fact Skill](https://developer.amazon.com/public/community/post/Tx3DVGG0K0TPUGQ/New-Alexa-Skills-Kit-Template-Step-by-Step-Guide-to-Build-a-Fact-Skill)
@@ -483,11 +519,13 @@ then link the SmartThings skill using the Alexa app.
 - [Using Alexa Skills Kit and AWS IoT to Voice Control Connected Devices](https://developer.amazon.com/public/community/post/Tx3828JHC7O9GZ9/Using-Alexa-Skills-Kit-and-AWS-IoT-to-Voice-Control-Connected-Devices?mkt_tok=eyJpIjoiWmpFNE9XVTBaRFpoWXpNNSIsInQiOiJNYUc3NHZDUm1cL08xUjhZSXdSMkU4WHptbXNPRzlQc1lCbVdORVBcL2M3dmllXC9LU1wvVml5Yk1QN21sait1ZkVDYm5NXC9wZVAwbjZ4RWwxVUM1ZVlJVnFXajc1cldnYm1hSXZtZzdZbU9UdnhFPSJ9)
 - [Using Amazon Echo (Alexa) as an Interface for the IoT](http://blog.buildinginternetofthings.com/2015/06/25/using-amazon-echo-alexa-as-an-interface-for-the-iot/)
 
+
 # Video Skills
 
 - [Amazon Enables Video Providers to Control Content with the Video Skill API - a New Addition to the Alexa Skills Kit](https://developer.amazon.com/blogs/alexa/post/858c3303-eb07-4faf-a095-57436b4f8a13/amazon-enables-video-providers-to-control-content-with-the-video-skill-api-a-new-addition-to-the-alexa-skills-kit?mkt_tok=eyJpIjoiWW1FM1lXVmpOamRqWVRKayIsInQiOiI3bHdDa21hUEhcLzh0aGpRQkNTbG5nTk9PRFNCcWNQSVFiZEdnbm45ZlFyMTFQZG9mSnhJdHkwTkE2QXJNV3VRVzlPblBYXC8rUmxFMWVOWUhMVEw5djZKcDExXC9hQXJIa0RieEhDbVpvdTFLNGRTQit1dXFEcml0NXBTdDdqNmtxZyJ9)
 - [Introducing the Video Skill API](https://developer.amazon.com/alexa-skills-kit/video-content?mkt_tok=eyJpIjoiWW1FM1lXVmpOamRqWVRKayIsInQiOiI3bHdDa21hUEhcLzh0aGpRQkNTbG5nTk9PRFNCcWNQSVFiZEdnbm45ZlFyMTFQZG9mSnhJdHkwTkE2QXJNV3VRVzlPblBYXC8rUmxFMWVOWUhMVEw5djZKcDExXC9hQXJIa0RieEhDbVpvdTFLNGRTQit1dXFEcml0NXBTdDdqNmtxZyJ9)
 - [How to Control Your Content with the Video Skill API](https://developer.amazon.com/blogs/alexa/post/1314314b-9b98-4501-9032-f72c000a59b5/how-to-control-your-content-with-the-video-skill-api?mkt_tok=eyJpIjoiWW1FM1lXVmpOamRqWVRKayIsInQiOiI3bHdDa21hUEhcLzh0aGpRQkNTbG5nTk9PRFNCcWNQSVFiZEdnbm45ZlFyMTFQZG9mSnhJdHkwTkE2QXJNV3VRVzlPblBYXC8rUmxFMWVOWUhMVEw5djZKcDExXC9hQXJIa0RieEhDbVpvdTFLNGRTQit1dXFEcml0NXBTdDdqNmtxZyJ9)
+
 
 # Amazon Echo
 
@@ -499,10 +537,12 @@ then link the SmartThings skill using the Alexa app.
 - [How to Add Alexa to a Raspberry Pi](https://medium.com/iotforall/how-to-add-alexa-to-a-raspberry-pi-6cedfe15662e)
 - [Voice Control RGB LED](https://www.hackster.io/pirumpi/voice-control-rgb-led-dd0ba5?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
 
+
 # Amazon Echo Tools
 
 - [Echosim.io – a new online community tool for developers that simulates the look and feel of an Amazon Echo](https://developer.amazon.com/public/community/post/Tx3BB1JHNS1TDTS/Introducing-Echosim-io-A-New-Online-Tool-Built-by-the-Community-for-the-Communit?mkt_tok=eyJpIjoiWmpobU1HSTVOMlkxTkdSaSIsInQiOiJWYXlMZk9SNVNYTitxQlQzaXE5VWVtalwvZ2FYMjVyODBNY2NtVXFuUjZHYXlXXC85R0dkRFFOUHlENEF2SEpnbUZ2XC80RkROU3JrRjZYd2srXC9uY1FOMDI3QldiN05OeStrTDNjS1hLYk1SRlk9In0%3D)
 - [Look Under the Hood with Echosim’s New Developer Console](https://developer.amazon.com/blogs/alexa/post/02a31ed6-2c5e-4eab-ad5c-d969f91c7499/look-under-the-hood-with-echosim-s-new-developer-console?utm_source=Hackster.io+newsletter&utm_campaign=f2166f6fa8-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-f2166f6fa8-140225889&mc_cid=f2166f6fa8&mc_eid=9036129d51)
+
 
 # Amazon Alexa Voice Services
 
@@ -514,11 +554,13 @@ then link the SmartThings skill using the Alexa app.
 - [Introduction to Voice Design with Amazon's Alexa](https://www.udemy.com/amazonalexa/?mkt_tok=3RkMMJWWfF9wsRokvqjLZKXonjHpfsX66e4vWKK2lMI%2F0ER3fOvrPUfGjI4CSsNnI%2BSLDwEYGJlv6SgFSrfFMapt17gOUhk%3D)
 - [4 Must-Have Design Patterns for Engaging Voice-First User Interfaces](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/guide/AlexaVUIGUI-V4.pdf)
 
+
 # Amazon Alexa App Services
 
 - [Providing Home Cards for the Amazon Alexa App](https://developer.amazon.com/appsandservices/solutions/alexa/alexa-skills-kit/docs/providing-home-cards-for-the-amazon-alexa-app?mkt_tok=3RkMMJWWfF9wsRokvavJZKXonjHpfsX66e4vWKK2lMI%2F0ER3fOvrPUfGjI4FTcViI%2BSLDwEYGJlv6SgFSrfFMapt17gOUhk%3D#Creating%20a%20Home%20Card%20to%20Display%20Text%20and%20an%20Image)
 - [Easy Alexa (or Echo) Control of your ESP8266 Huzzah](https://learn.adafruit.com/easy-alexa-or-echo-control-of-your-esp8266-huzzah)
 - [Talking To A Lamp - Alexa Controlled ESP8266](http://hackaday.com/2017/07/22/talking-to-a-lamp/)
+
 
 # Make You Own Amazon Alexa Device
 
@@ -527,13 +569,16 @@ then link the SmartThings skill using the Alexa app.
 - [Amazon shows you how to make an Echo with Raspberry Pi](http://www.engadget.com/2016/03/25/amazon-shows-you-how-to-make-an-echo-with-raspberry-pi/)
 - [Project: Raspberry Pi + Alexa Voice Service](https://github.com/amzn/alexa-avs-raspberry-pi)
 
+
 # Almond - The Open, Privacy-Preserving Virtual Assistant
 
 \*[Almond](https://almond.stanford.edu/)
 
+
 # Voice Controlled Workbench
 
 - [You Speak, Your Scope Obeys](http://hackaday.com/2016/03/29/you-speak-your-scope-obeys/)
+
 
 # Role-Your-Own Echo
 
@@ -548,16 +593,19 @@ then link the SmartThings skill using the Alexa app.
 - [Raspi Alexa Skills - Rest API](https://www.hackster.io/steckdev/raspi-alexa-skills-rest-api-071868?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
 - [Turn Your Pringles Can into an Amazon Echo](http://blog.nextthing.co/turn-your-pringles-can-into-an-amazon-echo-with-c-h-i-p/)
 
+
 # Mycroft
 
 - [Awesome Stuff: A Voice-Operated Household Assistant](https://www.techdirt.com/blog/innovation/articles/20150829/07551832101/awesome-stuff-voice-operated-household-assistant.shtml)
 - [Mycroft: An Open Source Artificial Intelligence For Everyone](https://www.kickstarter.com/projects/aiforeveryone/mycroft-an-open-source-artificial-intelligence-for?ref=card)
 - [Mycroft: A.I. for everyone](https://mycroft.ai/)
 
+
 # ESP8266
 
 - [Easy Alexa (or Echo) Control of your ESP8266 Huzzah](https://learn.adafruit.com/easy-alexa-or-echo-control-of-your-esp8266-huzzah)
 - [Alexa, Make My ESP8266 Do Something](http://hackaday.com/2016/11/23/alexa-make-my-esp8266-do-something/)
+
 
 # Setting Up Your Echo or Echo Dot
 
@@ -576,10 +624,12 @@ The basic steps are:
    (Select Main Menu > Smart Home > Your Groups).
    In my case, all the bulbs in my Living Room where put in the group "Living Room".
 
+
 # Managing Alexa
 
 Your can manage your Alexa instance vi the [Alexa smart phone app][09],
 or you can use the equivalent [Amazon Alexa web site][10].
+
 
 # How to Add Skills to Alexa
 
@@ -595,6 +645,7 @@ you’ll get a message saying that the Skill has been successfully added and lin
 From there, you can go back to the main screen of the Alexa app.
 
 - [Announcing New Alexa Skill Builder (Beta), a Tool for Creating Skills](https://developer.amazon.com/blogs/alexa/post/02d828b6-3144-46ea-9b4c-5ed2cbfadb9c/announcing-new-alexa-skill-builder-beta-a-tool-for-creating-skills?mkt_tok=eyJpIjoiTVdKa1pHTmxaREV4TjJabCIsInQiOiJYVlwvZjc1cGR1N1hiMXVaQUg1Vjd2WGdLYWdWeVluM3dNZTdoMUU2elpXVGFNOXFnWWFvV2swenN4VXc5OUFsNXZZTjh5ZG02RUxQRlRlaW9sUFZEM2lqMXM3KzlORTlwWkdCVFJDY1d0MmcydllZbExqaEFINXQ1TmQ2ZE1YQVkifQ%3D%3D)
+
 
 # AT&T Speech API
 
@@ -632,12 +683,14 @@ interesting Internet-enabled speech application using this API.
 
 [eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
 
+
 # Implementing Alexa Skills
 
 To implement a Home Skill there are several parts that need to created.
-see the text here - https://www.hardill.me.uk/wordpress/2016/11/05/alexa-home-skill-for-node-red/
+see the text here - <https://www.hardill.me.uk/wordpress/2016/11/05/alexa-home-skill-for-node-red/>
 
-This is a sample skill written in JavaScript that demonstrates how to use device ID and the API endpoint values to make a request to the Alexa Device Address API - https://github.com/alexa/skill-sample-node-device-address-api?mkt_tok=eyJpIjoiTjJabFltSmlaakF6WVRjeCIsInQiOiI4RjZvd3dka25pUU5PRXFnTFVTZ0FhdnNJeEJrWXY4RGdsR1Y5SEJFanFrMEtvZTk0K216UTEzZXJHMng2YlhDVHBDd3dwbmt2NG8ybE4rcE1VWEFEQ1ZQU3hVRUE0eTY5MjdWaWxIcGhPMG5cL0xoNWhPMEZKYXFaWGFBc1JrODMifQ==
+This is a sample skill written in JavaScript that demonstrates how to use device ID and the API endpoint values to make a request to the Alexa Device Address API - <https://github.com/alexa/skill-sample-node-device-address-api?mkt_tok=eyJpIjoiTjJabFltSmlaakF6WVRjeCIsInQiOiI4RjZvd3dka25pUU5PRXFnTFVTZ0FhdnNJeEJrWXY4RGdsR1Y5SEJFanFrMEtvZTk0K216UTEzZXJHMng2YlhDVHBDd3dwbmt2NG8ybE4rcE1VWEFEQ1ZQU3hVRUE0eTY5MjdWaWxIcGhPMG5cL0xoNWhPMEZKYXFaWGFBc1JrODMifQ==>
+
 
 # Sidewalk
 
@@ -672,6 +725,7 @@ Luckly, [you can turn Sidewalk off][42].
 - [Amazon Sidewalk will create entire smart neighborhoods. Here's what you should know](https://www.cnet.com/home/smart-home/amazon-sidewalk-will-create-entire-smart-neighborhoods-faq-ble-900-mhz/)
 - [How to Opt-Out of Amazon Sidewalk](https://www.howtogeek.com/702485/how-to-opt-out-of-amazon-sidewalk/)
 
+
 ## Amazon Sidewalk360
 
 - [Amazon Sidewalk360](https://360.sidewalk.amazon/)
@@ -682,7 +736,9 @@ With Amazon Sidewalk360, you can explore our coverage maps and experience the ne
 with the Amazon Sidewalk Test Kit provided to you. You can also submit a device or device component
 for Works with Amazon Sidewalk qualification, and track where you are in the qualification process.
 
+
 # First Alexa Skill (Ask Google)
+
 
 # Doing Google Search via Alexa
 
@@ -709,12 +765,14 @@ that you need to enter into various forms.
 - [Install ‘Ask Google’ Alexa Skill](http://alexamods.com/guide-install-ask-google-alexa-skill/)
 - [How to Publish an Alexa Skill: from beginning to end](https://www.hackster.io/daquilnp/how-to-publish-an-alexa-skill-from-beginning-to-end-82167c?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
 
+
 # Node-RED and Amazon Echo
 
 This node allows you to hook up Node-RED to react to your Amazon Echo.
 
 - [ALEXA HOME SKILL FOR NODE-RED](https://www.hardill.me.uk/wordpress/2016/11/05/alexa-home-skill-for-node-red/)
 - [node-red-contrib-alexa-home-skill]()
+
 
 # Google Home with Assistant
 
@@ -780,7 +838,6 @@ open phone apps, and [more][20].
 [19]: http://www.pocket-lint.com/news/140393-google-assistant-is-coming-to-a-nougat-or-marshmallow-handset-near-you
 [20]: http://www.pocket-lint.com/news/137722-what-is-google-assistant-how-does-it-work-and-which-devices-offer-it
 [21]: http://trendblog.net/okay-google-not-working-fix/
-[22]: https://www.cnet.com/how-to/amazon-echo-things-alexa-can-do-that-google-home-cant/
 [23]: https://assistant.google.com/platforms/phones/
 [24]: https://developers.google.com/actions/develop/conversation
 [25]: https://www.forbes.com/sites/jaymcgregor/2016/12/30/amazons-alexa-vs-google-assistant-24-questions-1-winner/#6e43541c2316

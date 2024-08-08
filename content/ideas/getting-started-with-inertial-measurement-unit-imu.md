@@ -1,6 +1,3 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -11,6 +8,7 @@ Version:      0.0.0
 </div>
 
 ---
+
 
 # Bosch BNO055 Absolute Position Sensor Tutorial
 
@@ -44,6 +42,7 @@ Version:      0.0.0
 - [Stable Orientation – Digital IMU 6DOF + Arduino](http://bildr.org/2012/03/stable-orientation-digital-imu-6dof-arduino/)
 - [FreeIMU: an Open Hardware Framework for Orientation and Motion Sensing](http://www.varesano.net/projects/hardware/FreeIMU)
 
+
 # Kalman Filter
 
 - [The Curious Case of Kalman Filters](https://medium.com/@krunalkshirsagar/the-curious-case-of-kalman-filters-f29c3d17b121)
@@ -68,15 +67,18 @@ Version:      0.0.0
 
 - [Particle Filter : A hero in the world of Non-Linearity and Non-Gaussian](https://towardsdatascience.com/particle-filter-a-hero-in-the-world-of-non-linearity-and-non-gaussian-6d8947f4a3dc)
 
+
 # Extended Kalman Filter
 
 - [Extended Kalman Filter: Why do we need an Extended Version?](https://towardsdatascience.com/extended-kalman-filter-43e52b16757d)
 - [Kalman Filter Interview](https://towardsdatascience.com/kalman-filter-interview-bdc39f3e6cf3)
 - [Robot localization with Kalman-Filters and landmarks](https://medium.com/@jannik.zuern/robot-localization-with-kalman-filters-and-landmarks-cf97fa44e80b)
 
+
 # Unsented Kalman Filter
 
 - [Making Sense of Sensing in Self Driving Cars: Understanding key fundamentals of Unscented Kalman Filters](https://medium.com/kredo-ai-engineering/making-sense-of-sensing-in-self-driving-cars-3d469c6e5e33)
+
 
 # Partical Filter
 
@@ -85,6 +87,7 @@ Version:      0.0.0
 Example Code
 
 - [SparkFun](https://www.sparkfun.com/products/11028)
+
 
 # Simultaneous Localization and Mapping (SLAM)
 
@@ -112,6 +115,7 @@ Comparison of five Inertial Measurement Unit (IMU)
 - [SparkFun Triple Axis Digital Accelerometer Breakout - ADXL313 (Qwiic)](https://www.sparkfun.com/products/17241) - You **DO NOT** have this
 - [Learn how to use the LIS3DH accelerometer with CircuitPython!](https://learn.adafruit.com/circuitpython-hardware-lis3dh-accelerometer)
 - [DIY Gimbal For The Raspberry Pi Camera](https://hackaday.com/2019/08/19/diy-gimbal-for-the-raspberry-pi-camera/)
+
 
 # What Is an Inertial Measurement Unit?
 
@@ -158,9 +162,11 @@ Accelerometers cannot measure yaw. To explain it simply, yaw is when the acceler
 
 [Here is an excellent tutorial about accelerometers and gyros.](https://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)
 
+
 # How to Select an IMU?
 
 - [According to Pete: IMU 101](https://www.sparkfun.com/news/2814)
+
 
 # Gyroscopes
 
@@ -170,14 +176,17 @@ Accelerometers cannot measure yaw. To explain it simply, yaw is when the acceler
 - [How MEMS Accelerometer Gyroscope Magnetometer Work](https://www.youtube.com/watch?v=eqZgxR6eRjo)
 - [Fancy Gyroscopes Are Key To Radio-Free Navigation](https://hackaday.com/2023/11/01/fancy-gyroscopes-are-key-to-radio-free-navigation/)
 
+
 ## Gimbal Lock
 
 - [How to Fix Gimbal Lock in N-Dimensions](https://medium.com/@omar4ur/how-to-fix-gimbal-lock-in-n-dimensions-f2f7baec2b5e)
+
 
 # Accelerometer
 
 - [Accelerometer Basics](https://learn.sparkfun.com/tutorials/accelerometer-basics)
 - [Accelerometer & Gyro Tutorial](http://www.instructables.com/id/Accelerometer-Gyro-Tutorial/)
+
 
 # Magnetometer
 
@@ -196,9 +205,11 @@ and not an absolution measure of direction.
 The megnetometer points to [magnetic north][11], and not [true north][12]
 (The difference between them is called [magnetic declination][13]).
 
+
 # Barometer
 
 - [Altitude Data for Drone Navigation: A Compact Barometric Pressure Sensor and Thermometer from Bosch](https://www.allaboutcircuits.com/news/drone-altitude-bmp388-barometric-pressure-sensor-thermometer-bosch/)
+
 
 # Variometer
 
@@ -207,6 +218,7 @@ rate-of-climb indicator, vertical speed indicator (VSI), or vertical velocity in
 is one of the flight instruments in an aircraft used to inform the pilot of the rate of descent or climb.
 
 - [Adding Variometer Functionality To A GPS](https://hackaday.com/2023/05/25/adding-variometer-functionality-to-gps/)
+
 
 # Adafruit
 
@@ -234,13 +246,15 @@ Adifruit's 3-DOF
 
 What about [Adafruit 9-DOF Absolute Orientation IMU Fusion Breakout - BNO055](https://www.adafruit.com/product/2472)
 
+
 # SparkFun
 
 [SAMD21][07] - Atmel’s SAMD21, is an Arduino-compatible, 32-bit ARM Cortex-M0+ microcontroller (used on the [SparkFun SAMD21 Mini Breakout][08])
 [MPU-9250][06] - 3-axis accelerometer (up to +/-16g), a 3-axis magnetometer (up to +/- 4.8 gauss), and a 3-axis gyroscope (up to +/-2000 dps) on a single chip
 [LIS3DH][14] - 3-axis accelerometer (up to +/-16g), free-fall detection, motion detection
 
-9DoF Razor IMU M0 Hookup Guide - https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=1.26368125.1191625809.1473465375
+9DoF Razor IMU M0 Hookup Guide - <https://learn.sparkfun.com/tutorials/9dof-razor-imu-m0-hookup-guide?_ga=1.26368125.1191625809.1473465375>
+
 
 # Sensor Fusion
 
@@ -274,9 +288,11 @@ when these sources were used individually.
 - [ARDUINO MPU 6050 – BEST IMU SENSOR TUTORIAL](http://diyhacking.com/arduino-mpu-6050-imu-sensor-tutorial/)
 - [Measure angles with the MPU-6050 accelerometer](https://www.youtube.com/watch?v=7VW_XVbtu9k)
 
+
 # Connecting with the Board
 
 All of the sensors on the Adafruit 10DOF breakout board communicate via a two-pin I2C bus.
+
 
 # Inter-Integrated Circuit (I2C)
 

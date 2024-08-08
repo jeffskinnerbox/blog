@@ -1,6 +1,3 @@
-<!-- vim: ts=2 sts=2 sw=2 et                                                            -- this is called a 'modeline' - [Modeline magic](https://vim.fandom.com/wiki/Modeline_magic), [Tab settings in Vim](https://arisweedler.medium.com/tab-settings-in-vim-1ea0863c5990) -->
-<!-- markdownlint-disable-file MD007 MD012 MD013 MD022 MD033 MD035 MD041 MD045          -- for the linter 'markdownlint', disable these linting rule, See [Markdownlint Documentation](https://docs.superoffice.com/contribute/markdown-guide/markdownlint.html) -->
-
 <!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
@@ -12,14 +9,17 @@ Version:      0.0.0
 
 ---
 
+
 # Understanding Modulation
 
 - [the mysteries of RF modulation](https://hackaday.com/2019/01/22/understanding-modulated-rf-with-w2aew/)
 - [FM Signal Detection The Pulse-Counting Way](https://hackaday.com/2019/08/28/fm-signal-detection-the-pulse-counting-way/)
 
+
 # The Power of Radio
 
 - [A Dangerous Demonstration Of The Power Of Radio](https://hackaday.com/2020/04/16/a-dangerous-demonstration-of-the-power-of-radio/)
+
 
 # Early Radio Types
 
@@ -32,6 +32,7 @@ Version:      0.0.0
 - [EVERYONE SHOULD BUILD AT LEAST ONE REGENERATIVE RADIO RECEIVER](https://hackaday.com/2017/02/01/everyone-should-build-at-least-one-regenerative-radio-receiver/)
 - [Receiver Architectures: Fundamentals and Properties](http://ece.tamu.edu/~s-sanchez/665%20Lect%202-Receiver-Topologies%202009.pdf)
 
+
 # 1920's Commercial Radio
 
 - [Tuning in to Radio in the 1920s](https://www.youtube.com/watch?v=aASTjjFGzPg)
@@ -42,9 +43,11 @@ Version:      0.0.0
 - [The Radio and Movie Industry in the 1920's](https://www.youtube.com/watch?v=5LAROfDTBXY)
 - [Nov 2, 1920: First Commercial Radio Broadcast in the U.S.](https://www.youtube.com/watch?v=HC_mgp6BJtU)
 
+
 # National Radio Quiet Zone
 
 - [All Quiet On The West Virginia Border: The National Radio Quiet Zone](https://hackaday.com/2016/04/13/all-quiet-on-the-west-virginia-border-the-national-radio-quiet-zone/)
+
 
 ## Crystal Radio
 
@@ -55,6 +58,7 @@ Marconi's first broadcast station in Chelmsford.
 - [The Complete Guide on How to Build a Crystal Radio—Plus How They Work](https://steampunk.wonderhowto.com/how-to/complete-guide-build-crystal-radio-plus-they-work-0141117/)
 - [Crystal Radios: No Batteries? No Problem!](https://www.youtube.com/watch?v=6HqgWcTnWTk)
 
+
 ### Zinc Negative Resistance Oscillator
 
 - [Making A Crystodyne Radio With Zinc Oxide And Cat’s Whiskers](https://hackaday.com/2024/03/05/making-a-crystodyne-radio-with-zinc-oxide-and-cats-whiskers/)
@@ -63,14 +67,17 @@ Marconi's first broadcast station in Chelmsford.
   - ["Oscillating Crystals", by Oleg Losev, January 1925 issue of Radio News, page 1167](https://www.worldradiohistory.com/Archive-Radio-News/20s/Radio-News-1925-01-R.pdf)
   - [Negative resistance](https://en.wikipedia.org/wiki/Negative_resistance)
 
+
 ## Impedance Detector
 
 - [Plate detector (radio)](<https://en.wikipedia.org/wiki/Plate_detector_(radio)>)
 - [JFET-based infinite impedance detector for AM-demodulation](https://baltic-lab.com/2023/02/jfet-based-infinite-impedance-detector-for-am-demodulation/)
 
+
 ## Zero Power Radio
 
 - [A Single-Resistor Radio Transmitter, Thanks To The Power Of Noise](https://hackaday.com/2023/01/27/a-single-resistor-radio-transmitter-thanks-to-the-power-of-noise/)
+
 
 ## Tuned Radio Frequency Receiver
 
@@ -83,8 +90,9 @@ the tuning mechanisms of all stages being linked together,
 and operated by just one control knob.
 By the mid 1930s, it was replaced by the superheterodyne receiver.
 
-- https://en.wikipedia.org/wiki/Tuned_radio_frequency_receiver
+- <https://en.wikipedia.org/wiki/Tuned_radio_frequency_receiver>
 - [Alexanderson alternator](https://hackaday.com/2016/06/26/get-set-for-saq-on-alexanderson-day-with-these-active-antennas/)
+
 
 ## Superheterodyne Receiver
 
@@ -94,7 +102,7 @@ which can be more conveniently processed than the original carrier frequency.
 It was invented Edwin Armstrong in 1918.
 Virtually all modern radio receivers use the superheterodyne principle.
 
-- https://en.wikipedia.org/wiki/Superheterodyne_receiver
+- <https://en.wikipedia.org/wiki/Superheterodyne_receiver>
 - [The Superheterodyne Radio: No really, that's its name](https://www.youtube.com/watch?v=hz_mMLhUinw)
 - [Superheterodyne Radios Explained/](https://hackaday.com/2019/01/02/superheterodyne-radios-explained/)
 - [SIMPLE SUPERHETERODYNE SW RECEIVER HARKS BACK ALMOST 100 YEARS](https://hackaday.com/2015/03/08/simple-superheterodyne-sw-receiver-harks-back-almost-100-years/)
@@ -104,6 +112,7 @@ Virtually all modern radio receivers use the superheterodyne principle.
 - [Arduino Becomes Superhet with a Little Help From Friends](https://hackaday.com/2021/10/10/arduino-becomes-superhet-with-a-little-help-from-friends/)
 
 - [A Very 21st Century Receiver For A Very 20th Century Band](https://hackaday.com/2024/01/09/a-very-21st-century-receiver-for-a-very-20th-century-band/)
+
 
 # Crystal Radio
 
@@ -127,14 +136,17 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 [The Xtal Set Society](https://www.midnightscience.net/)
 [Antique Wireless Association](http://www.antiquewireless.org/)
 
+
 # Clandestine Miniature Receiver
 
 - [Crystal Radios / Fox Hole Radios: For me, it all started here](http://www.n6cc.com/crystal-radios-it-started-here)
 - [Acorn Receiver](https://cryptomuseum.com/spy/oranje/acorn.htm)
 
+
 # High-Impedance Earphone
 
 - [Cheap DIY High Impedance Earphones](https://hackaday.com/2020/12/03/cheap-diy-high-impedance-earphones/)
+
 
 # History
 
@@ -149,9 +161,11 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
   - [MORE POWER: POWEL CROSLEY AND THE CINCINNATI FLAMETHROWER](https://hackaday.com/2017/02/06/more-power-powel-crosley-and-the-cincinnati-flamethrower/)
 - [Building A Hundred-Year-Old Radio Transmitter](https://hackaday.com/2021/08/31/building-a-hundred-year-old-radio-transmitter/)
 
+
 ## Radio Today
 
 - [What’s Going To Happen To Legacy Broadcast Bands When The Lights Go Out?](https://hackaday.com/2023/03/06/whats-going-to-happen-to-legacy-broadcast-bands-when-the-lights-go-out/#more-577431)
+
 
 # Spark Gap Radio
 
@@ -159,6 +173,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 - [Revolutionary Spark Gap Radio REBUILT!!](https://www.youtube.com/watch?v=7QlQ__JzKNI)
 - [Making a Spark-Gap Transmitter](https://www.youtube.com/watch?v=SnKKj2bonAI&feature=youtu.be)
 - [DIY: Spark Gap Transmitter (Damped Harmonic Oscillator)](https://www.youtube.com/watch?v=XmdbGtGgbU0)
+
 
 # Coherer
 
@@ -186,6 +201,7 @@ by building your own coherer.
 
 - [Tuning Into Atomic Radio: Quantum Technique Unlocks Laser-Based Radio Reception](https://hackaday.com/2019/07/17/tuning-into-atomic-radio-quantum-technique-unlocks-laser-based-radio-reception/#more-365114)
 
+
 # Transmitter
 
 - [How to make the world's easiest Radio ! Do it yourself at home!](https://www.youtube.com/watch?v=w18z059DzOU)
@@ -203,6 +219,7 @@ by building your own coherer.
 - [A One-Transistor Ham Transmitter Anyone Can Build](https://hackaday.com/2021/01/20/a-one-transistor-ham-transmitter-anyone-can-build/)
 - [Getting On The Air With A 10-Minute-ish Ham Transmitter](https://hackaday.com/2021/03/11/getting-on-the-air-with-a-10-minute-ish-ham-transmitter/)
 
+
 # Receiver
 
 - [Alfred P. Morgan: A Generation’s Radio Hacker](http://hackaday.com/2015/12/11/alfred-p-morgan-a-generations-radio-hacker/)
@@ -217,9 +234,11 @@ by building your own coherer.
 - [The Simplest Microwave Receiver](https://hackaday.com/2020/06/07/the-simplest-microwave-receiver/)
 - [Regen Receiver With Few Parts](https://hackaday.com/2021/08/30/regen-receiver-with-few-parts/)
 
+
 # Transceiver
 
 - [Just How Simple Can A Transceiver Be?](https://hackaday.com/2019/11/09/just-how-simple-can-a-transceiver-be/)
+
 
 # Building Radios and Components from Sketch
 
@@ -242,9 +261,11 @@ by building your own coherer.
 - [Semiconductors @ Home](https://hackaday.io/project/107598-semiconductors-home)
 - [Compound Microphone](https://simplifier.neocities.org/compound.html)
 
+
 ## Vacuum Tube Lamp
 
 - [Building a Giant Vacuum Tube Smart Lamp](https://hackaday.com/2023/05/19/building-a-giant-vacuum-tube-smart-lamp/)
+
 
 ## Making a Vacuum
 
@@ -252,14 +273,17 @@ by building your own coherer.
 - [An Affordable Homemade Vacuum Chamber](https://hackaday.com/2020/06/29/an-affordable-home-made-vacuum-chamber/)
 - [Air-tight vs. Vacuum-tight](https://www.youtube.com/watch?v=VD69crOFx10)
 
+
 ## Nixie Tubes
 
 - [Think IN18s Are Cool? Get A Load Of This Must-Have Custom Nixie Tube](https://hackaday.com/2019/10/02/think-in18s-are-cool-get-a-load-of-this-must-have-custom-nixie-tube/)
 - [Homemade Nixie Tubes](https://hackaday.com/2013/11/07/homemade-nixie-tubes/)
 
+
 ## Making Batteries
 
 - [Replace An AA Battery With Paper](https://hackaday.com/2022/08/08/replace-an-aa-battery-with-paper/)
+
 
 ## Capacitors
 
@@ -285,6 +309,7 @@ by building your own coherer.
 - [How to choose the right capacitor type for a circuit?! || Film vs. Ceramic vs. Electrolytic](https://www.youtube.com/watch?v=2v8zBj7_sxg&feature=youtu.be)
 - [Experiences With Capacitor Failure](https://hackaday.com/2019/04/12/ask-hackaday-experiences-with-capacitor-failure/)
 
+
 ## Inductor
 
 - [How INDUCTOR's work & How to make your own](https://www.youtube.com/watch?app=desktop&v=d-E12DlzGGc)
@@ -293,6 +318,7 @@ by building your own coherer.
 - [Coil32: The freeware coil inductance calculator for radio frequency coils](https://coil32.net/)
 - [How To Make A Larger Air-Cored Inductor](https://hackaday.com/2023/03/08/how-to-make-a-larger-air-cored-inductor/)
 
+
 ## Diode
 
 - [History Of The Diode](http://hackaday.com/2016/08/15/history-of-the-diode/)
@@ -300,19 +326,23 @@ by building your own coherer.
 - [Homemade Zinc Oxide Rectifier Diode](http://sparkbangbuzz.com/zinc-oxide-diode/zinc-oxide-diode.htm)
 - [Home Made Diodes From Copper Oxide](http://hackaday.com/2016/05/01/home-made-diodes-from-copper-oxide/)
 
+
 ## Transistor
 
 - [Do You Know Rufus Turner?](https://hackaday.com/2016/02/15/do-you-know-rufus-turner/)
+
 
 # Flame Components
 
 - [Flame Triodes Don’t Need Any Vacuum](http://hackaday.com/2016/05/26/flame-triodes-dont-need-any-vacuum/)
 - [Flame Triode With Gain](http://www.sparkbangbuzz.com/flame-amp/flameamp.htm)
 
+
 # Resistors
 
 - [What is There to Know About Resistors?](http://hackaday.com/2016/09/06/what-is-there-to-know-about-resistors/)
 - [Resistance in Motion: What You Should Know About Variable Resistors](http://hackaday.com/2016/09/16/resistance-in-motion-everything-you-should-know-about-variable-resistors/)
+
 
 # Other
 
@@ -337,26 +367,32 @@ by building your own coherer.
   - [Making a Transistor Radio](https://www.worldradiohistory.com/BOOKSHELF-ARH/Technology/Making-a-Transistor-Radio-Ladybird%20Books-1972.pdf)
   - [Making a Transistor Radio](https://archive.org/details/MakingATransistorRadio-LadybirdBook/mode/1up)
 
+
 ## Fusor
 
 - [Home Made Farnsworth Fusor](http://hackaday.com/2016/03/26/home-made-farnsworth-fusor/)
 - [PLASMA CHANNEL SHOWS OFF A REMARKABLY STYLISH FUSOR](https://hackaday.com/2022/10/27/plasma-channel-shows-off-a-remarkably-stylish-fusor/)
 
+
 # Audio Amplifiers
 
 - [Amplifier Classes](https://www.electronics-tutorials.ws/amplifier/amplifier-classes.html)
+
 
 ## Class A Amplifiers
 
 - [Class A Amplifiers, Virtually](https://hackaday.com/2022/03/09/class-a-amplifiers-virtually/)
 
+
 ## Class D Digital Audio Amplifier
 
 - [MAKE WEARABLE AND IOT AUDIO EFFORTLESS WITH A PLUG'N'PLAY CLASS D AMPLIFIER](https://www.maximintegrated.com/en/design/technical-documents/design-solutions/7/7334.html)
 
+
 ## Q-Multiplier
 
 - [Q Multiplier — Er… Multiplies Q](https://hackaday.com/2021/01/18/q-multiplier-er-multiplies-q/)
+
 
 # All-Band Receiver
 
