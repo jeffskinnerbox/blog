@@ -18,4 +18,5 @@ Version:      0.0.0
 * [I Made an Entire Game from Particle Physics](https://www.youtube.com/watch?v=WQYIExVFRaY)
 
 * [Pezzza's Work](https://www.youtube.com/@PezzzasWork)
+* [Verlet Integration and Cloth Physics Simulation](https://pikuma.com/blog/verlet-integration-2d-cloth-physics-simulation)
 
