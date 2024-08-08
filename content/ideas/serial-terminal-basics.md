@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 **Terminal:** A computer terminal is an electronic or electromechanical hardware device that can be used to enter data into and transcribe data from a computer or a computing system. The teletype was an example of an early day hardcopy terminal and predated the use of a computer screen by decades. Basically, the terminal takes input and shows text while the real work happens at the other end in a mainframe or large computer. Nowadays, when we say terminal, normally we mean terminal emulator in short.
@@ -60,13 +60,16 @@ HyperTerminal - HyperTerminal is the defacto terminal program for any Windows OS
 PuTTY
 Screen
 microcom
-GTKTerm - `sudo apt install gtkterm` (https://github.com/Jeija/gtkterm)
-tio - https://github.com/tio/tio
+GTKTerm - `sudo apt install gtkterm` (<https://github.com/Jeija/gtkterm>)
+tio - <https://github.com/tio/tio>
+
 
 # Character Encoding
+
 * [Baudot code](https://en.wikipedia.org/wiki/Baudot_code) aka International Telegraph Alphabet No. 1 or ITA1
 * [Baudot–Murray code]() aka International Telegraph Alphabet No. 2 (ITA2)
 * [ASCII](https://en.wikipedia.org/wiki/ASCII)
+
 
 # TTY
 The `tty` command gets its name from a device from the late 1800s known as
@@ -77,12 +80,14 @@ It appeared in Unix in 1971, and is part of Linux and Unix-like operating system
 * [The TTY demystified](http://www.linusakesson.net/programming/tty/)
 
 
-------
+---------------
 
 
 # Background
+
 * [What is the difference between Terminal, Console, Shell, and Command Line?](https://askubuntu.com/questions/506510/what-is-the-difference-between-terminal-console-shell-and-command-line)
 * [Linux Terminal and Console Explained For Beginners](https://www.linuxbabe.com/command-line/linux-terminal)
+
 
 # Computer Terminal
 A computer terminal is an electronic or electromechanical hardware device that is used for entering data into, and displaying data from, a computer or a computing system.
@@ -91,11 +96,12 @@ Early user terminals connected to computers were electromechanical teleprinters/
 The DEC VT05 was an early example of a hardware based virtual teletype,
 a predecessor to the famous DEC VT100.
 The DEC VT100 became the gold standard for serial terminals in the early years of computers.
+
 * [VT05](https://en.wikipedia.org/wiki/VT05)
 * [VT100](https://en.wikipedia.org/wiki/VT100)
 * [DEC VT Terminal Product Line](https://www.landley.net/history/mirror/dec/vt_history)
 
-* https://en.wikipedia.org/wiki/Computer_terminal
+* <https://en.wikipedia.org/wiki/Computer_terminal>
 * [Building A 3270 Terminal Controller](https://hackaday.com/2020/05/28/building-a-3270-terminal-controller/)
 
 Linux and other Unix-like operating systems such as macOS,
@@ -103,11 +109,19 @@ the terminal window and applications such as [xterm](https://en.wikipedia.org/wi
 examples of virtual teletypes, but these are emulated entirely in software.
 They are called pseudo-teletypes, which is shortened to pts.
 
+
 # Types of Serial Port
 serial port lines (CTS, RTS, DTR, DSR, RI, CD)
+
+
 ## RJ45
+
+
 ## DB-9
+
+
 ## RS-232
+
 
 # Serial Interface
 Along with the parallel port, the COM port, or serial port,
@@ -137,6 +151,7 @@ Then there’s Ethernet and USB and other higher-speed serial interfaces like Fi
 
 * [Сomprehensive guide of serial port specification](https://www.virtual-serial-port.org/article/what-is-serial-port/)
 
+
 # RS-232 and RS-485
 Two of the oldest serial interfaces are RS-232 and RS-485.
 These legacy interfaces aren’t obsolete or discontinued, though.
@@ -149,13 +164,17 @@ Both are still alive and well in many applications.
 * [Hacker Dictionary: RS-485 Will Go The Distance](https://hackaday.com/2022/04/05/hacker-dictionary-rs-485-will-go-the-distance/)
 * [The Virtue of Wires in the Age of Wireless](https://hackaday.com/2022/04/09/the-virtue-of-wires-in-the-age-of-wireless/)
 
+
 ## Modbus vs RS485
 RS485 is a serial data transmission standard widely used in industrial implementations. The Modbus protocol is commonly used when implementing RS485 communication.
 
 * [Modbus vs RS485](https://www.virtual-serial-port.org/articles/modbus-vs-rs485/#:~:text=RS485%20is%20a%20serial%20data,by%20transmitting%20with%20ASCII%20characters)
 
+
 # Computer Serial Port
-* http://www.labbookpages.co.uk/electronics/serialPort.html
+
+* <http://www.labbookpages.co.uk/electronics/serialPort.html>
+
 
 # Change Terminal Characteristics With stty
 The stty utility shall set or report on terminal I/O characteristics for the device.
@@ -171,17 +190,17 @@ For example, if you accidentally issue a bad command
 and all of a sudden nothing shows up on the screen
 or if you have general gibberish showing up on the screen,
 `stty sane` may return your terminal session to sanity.
-See - https://www.cyberciti.biz/tips/bash-fix-the-display.html
+See - <https://www.cyberciti.biz/tips/bash-fix-the-display.html>
 
-* https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/
-* http://pubs.opengroup.org/onlinepubs/007904975/utilities/stty.html
-* http://linux.101hacks.com/unix/stty/
-* http://www.commandlinefu.com/commands/using/stty
-* http://osr507doc.xinuos.com/en/HANDBOOK/serial_line_operation_changing.html
+* <https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios-termios3-and-stty/>
+* <http://pubs.opengroup.org/onlinepubs/007904975/utilities/stty.html>
+* <http://linux.101hacks.com/unix/stty/>
+* <http://www.commandlinefu.com/commands/using/stty>
+* <http://osr507doc.xinuos.com/en/HANDBOOK/serial_line_operation_changing.html>
 * [How to change the color of your Linux terminal](https://opensource.com/article/19/9/linux-terminal-colors)
 
 
------
+---------------
 
 
 
@@ -204,6 +223,7 @@ This can be a pain but `minicom` is an alternative that can provide local echo.
 
 * [An introduction to GNU Screen](https://opensource.com/article/17/3/introduction-gnu-screen)
 * [Linux tips for using GNU Screen](https://opensource.com/article/21/4/gnu-screen-cheat-sheet)
+
 
 # Minicom
 Minicom is a terminal program, intended for use with a modem, that
@@ -242,6 +262,7 @@ Now Press Esc to go back to main menu,
 and then save your configuration as default or you could save with a name.
 For example cisco, now every time you would like to use the same configuration just type sudo minicom cisco.
 
+
 ## Local Echo
 >Local echo is a computer modem feature and terminal option that allows the modem to display keyboard commands and transmitted data on the screen as it is being entered into the computer or received by the modem.
 
@@ -249,17 +270,18 @@ For some situations you will not have local echo of characters you type in.
 To fix this, you can add it with `CTRL-A E` to turn on local echo
 and `CTRL-A A` to append a linefeed to CR terminated ASCII arriving at the serial port.
 
-* https://superuser.com/questions/752098/local-echo-using-screen-to-connect-to-a-serial-terminal
+* <https://superuser.com/questions/752098/local-echo-using-screen-to-connect-to-a-serial-terminal>
 
 
-You will see the minicom configuration utility ... http://processors.wiki.ti.com/index.php/Setting_up_Minicom_in_Ubuntu
+You will see the minicom configuration utility ... <http://processors.wiki.ti.com/index.php/Setting_up_Minicom_in_Ubuntu>
 
 * [Using Minicom the serial terminal emulator](https://www.acmesystems.it/minicom)
-* http://lachlanmiskin.com/blog/2012/08/03/using-minicom-to-interface-with-serial-devices-on-linux/
+* <http://lachlanmiskin.com/blog/2012/08/03/using-minicom-to-interface-with-serial-devices-on-linux/>
 * [Minicom User Guide](http://www.shop.ngxtechnologies.com/download/jtag/minicom_User_Guide.pdf)
 * [Minicom-tutorial](http://derrekito.github.io/Minicom-tutorial/)
 
 [Null modem](https://en.wikipedia.org/wiki/Null_modem)
+
 
 ## st - Simple Terminal
 st is a simple terminal implementation for X.
@@ -273,12 +295,18 @@ On the other hand, most modern computers lack a hardware serial port,
 and replaced with a USB serial interface.
 This post shows in detailed steps how to open a serial connection to an embedded device on Windows (Vista, XP), Linux and Mac OS X.
 
+
 # What is meant by serial communication?
+
+
 # Serial Connection
+
 * [PROTOCOLS: UART - I2C - SPI - Serial communications](https://www.youtube.com/watch?v=IyGwvGzrqp8&feature=youtu.be)
 * [Serial Communication](https://learn.sparkfun.com/tutorials/serial-communication)
 
+
 # Understanding UART
+
 * [how does UART work??? (explained clearly)](https://www.youtube.com/watch?v=V6m2skVlsQI&feature=youtu.be)
 * [How to Communicate with UART](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
 * [Arduino for Production! How to Communicate with UART - Tutorials for the AVR Microcontroller](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
@@ -300,11 +328,16 @@ This post shows in detailed steps how to open a serial connection to an embedded
 * [Hacker's Guide to UART Root Shells](https://www.youtube.com/watch?v=01mw0oTHwxg)
 * [Fun With HARDWARE HACKING!!! - UART ROOT SHELLS and Finding SECRETS!](https://www.youtube.com/watch?v=Ddgdydmzqkc)
 
+
 # SPI Bus
+
 * [SPI On Embedded Linux](http://hackaday.com/2017/02/19/spi-on-embedded-linux/)
 * [What Could Go Wrong: SPI](http://hackaday.com/2016/07/01/what-could-go-wrong-spi/)
 
+
 # I2C Bus
+
+* [I2C For Hackers: The Basics](https://hackaday.com/2024/08/07/i2c-for-hackers-the-basics/)
 * [Introduction to the I2C Bus](http://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2c-bus/)
 * [An Introduction to Differential I²C](http://hackaday.com/2017/03/31/an-introduction-to-differential-i%C2%B2c/)
 * [Introduction to the I2C Bus](https://www.youtube.com/watch?v=oRTq8HI4UGs&feature=youtu.be)
@@ -314,6 +347,7 @@ This post shows in detailed steps how to open a serial connection to an embedded
 * [Bus Pirate Commandeers I2C](http://hackaday.com/2017/02/07/bus-pirate-commandeers-i2c/)
 * [Using I²C Sensors With Any Linux Via USB And IIO](https://hackaday.com/2022/12/01/using-i%c2%b2c-sensors-with-any-linux-via-usb-and-iio/)
 
+
 # Universal Serial Bus (USB)
 USB (universal serial bus) is an industry standard covering cables, connectors and protocols;
 and is pretty ubiquitous among tech products these days.
@@ -322,6 +356,7 @@ and is pretty ubiquitous among tech products these days.
 * [Why Does USB Keep Changing?](https://www.youtube.com/watch?v=36CKsP9YQ1E)
 * [USB Reverse Engineering: Down the rabbit hole](http://devalias.net/devalias/2018/05/13/usb-reverse-engineering-down-the-rabbit-hole/)
 * [USB Reverse Engineering: A Universal Guide](https://hackaday.com/2018/05/25/usb-reverse-engineering-a-universal-guide/)
+
 
 # Bit Banging
 In circuit designing,
@@ -340,10 +375,13 @@ or no hardware changes required.
 
 * [a tiny software UART TX for the AVR ATtiny](https://marcelmg.github.io/software_uart/)
 
+
 # Serial Port
+
 
 # What is the Tx and Rx?
 TX and RX are abbreviations for Transmit and Receive, respectively. Note that these metrics are referenced to the server being monitored; Transmit FROM this server, and Receive TO this server.
+
 
 # Modems
 The term "AT Commands" come from Hayes modem control commands that were used by the Hayes smart modems.
@@ -358,6 +396,7 @@ along with other extended AT commands.
 * [Serial Programming/Modems and AT Commands](https://en.wikibooks.org/wiki/Serial_Programming/Modems_and_AT_Commands)
 * [A brief history of USB, what it replaced, and what has failed to replace it](http://arstechnica.com/gadgets/2015/11/a-brief-history-of-usb-what-it-replaced-and-what-has-failed-to-replace-it-2/)
 * [How A Dial-up Modem Handshake Works](https://hackaday.com/2013/01/31/how-a-dial-up-modem-handshake-works/)
+
 
 # Terminal
 Back when computers where big, bulky, and took up entire rooms,
@@ -377,23 +416,28 @@ but it has come to refer to any type of text terminal.
 
 * [Top 7 open source terminal emulators](https://opensource.com/life/15/11/top-open-source-terminal-emulators?sc_cid=70160000001206EAAQ)
 
+
 ## Ncurses and Terminfo
+
 * [Linux Fu: Controlling the Terminal](https://hackaday.com/2018/11/28/linux-fu-controlling-the-terminal/#more-334438)
+
 
 # What is a Console?
 The device `/dev/console` is used to send messages to the console.
 The console where system messages appear is described as the "logical console",
 which can also be the keyboard and monitor that are attached to the system.
 
-http://www.tldp.org/HOWTO/Remote-Serial-Console-HOWTO/intro-what.html
+<http://www.tldp.org/HOWTO/Remote-Serial-Console-HOWTO/intro-what.html>
+
 
 ## Why Use a Serial Console?
 The advantages of a serial USB cable are that you won’t need extra keyboards,
 mouse or external displays attached.
 You don’t even need an extra power supply.
 
-http://www.tldp.org/HOWTO/Remote-Serial-Console-HOWTO/intro-why.html
+<http://www.tldp.org/HOWTO/Remote-Serial-Console-HOWTO/intro-why.html>
 [Setting up a serial console](https://www.howtoforge.com/setting_up_a_serial_console)
+
 
 ## Console Access to Raspberry Pi
 [!sereial-cable](https://cdn-shop.adafruit.com/970x728/954-02.jpg)
@@ -508,6 +552,7 @@ There is a screen on:
 # kill the desired screen session
 $ screen -X -S 11505.pts-1.desktop quit
 ```
+
 Type RETURN twice when you are ready to go back to interactive mode.
 
 **NOTE:** If any of this doesn't work, make sure you have the serial console correctly configured.
@@ -520,26 +565,34 @@ Consult the websites [RPi Serial Connection][73] and
 [How to connect Raspberry pi to Ubuntu via USB Cable][74]
 for additional insights.
 
+
 # Bus Pirate
-http://dangerousprototypes.com/docs/Bus_Pirate
+<http://dangerousprototypes.com/docs/Bus_Pirate>
+
 
 # μArt
-https://www.crowdsupply.com/pylo/muart
+<https://www.crowdsupply.com/pylo/muart>
+
 
 # USB to TTL Serial
+
 * [USB to TTL Serial Cable - Debug / Console Cable](https://www.adafruit.com/product/954)
 * [FTDI Serial TTL-232 USB Cable](https://www.adafruit.com/product/70)
 * [USB/Serial Converter - FT232RL](https://www.adafruit.com/product/18)
 * [Using FTDI Chips With Python](https://hackaday.com/2018/12/19/using-ftdi-chips-with-python/)
 
+
 # Browser Based Serial Terminals
+
 * [Web Serial Terminal Means It’s Always Hacking Time](https://hackaday.com/2022/03/21/web-serial-terminal-means-its-always-hacking-time/)
+
 
 # Adam74
 Adam74 is a small ASCII terminal intended for hobbyist 8-bit computers.
 
 * [Adam74](https://www.engineersneedart.com/adam74/adam74.html)
 * [Adam74](https://github.com/EngineersNeedArt/Adam74)
+
 
 # Serial Line Sniffer
 If you wanted to snoop on a piece of serial gear, you attachment a scope or logic analyzer,
