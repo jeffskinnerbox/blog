@@ -67,6 +67,7 @@ Nvim & Dev Contaner
 
 # Debugging Tools & Techniques
 
+- [breakpoint: debugging in Python](https://www.pythonmorsels.com/debugging-with-breakpoint/)
 - [Syntax Error #11: Debugging Python](https://www.syntaxerror.tech/syntax-error-11-debugging-python/)
 - [Debugging 101: Replace print() with icecream ic()](https://www.youtube.com/watch?v=JJ9zZ8cyaEk)
 - [Debug Your Python Code Efficiently with IceCream Package: 10 Advanced Examples to Replace Print Statements](https://medium.com/@danielwume/debug-your-python-code-efficiently-with-icecream-package-10-advanced-examples-to-replace-print-820fef801cb0)
