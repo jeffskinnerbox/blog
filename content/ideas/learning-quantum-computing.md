@@ -585,6 +585,7 @@ What advantage does it give that can't be provided by other quantum computer sim
 - [Quantum Tic-Tac-Toe](https://vickynititi.itch.io/quantum-tic-tac-toe)
 - [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](https://pubs.aip.org/aapt/ajp/article-abstract/74/11/962/864424/Quantum-tic-tac-toe-A-teaching-metaphor-for?redirectedFrom=fulltex)
 - [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](hhttps://perruchenautomne.eu/wordpress/wp-content/uploads/2015/05/QT3-AJP-10-20-06.pdf)
+- [Quantum Tic‐Tac‐Toe: A Game of Entanglement](https://mathwithbaddrawings.com/wp-content/uploads/2020/10/Game-19-Quantum-Tic-Tac-Toe.pdf)
 
 
 # Quantum Programming Languages
