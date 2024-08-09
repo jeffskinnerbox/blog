@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -42,15 +42,18 @@ Faust (Functional Audio Stream) is a functional programming language for sound s
 
 * [Faust](https://faust.grame.fr/index.html)
 
+
 # VCV Rack
+
 * [VCV Rack: The Eurorack Simulator](https://vcvrack.com/)
 * [Remoticon Video: Intro to Modern Synthesis Using VCV Rack](https://hackaday.com/2020/12/15/remoticon-video-intro-to-modern-synthesis-using-vcv-rack/)
+
 
 # Audio Sequencer
 A music sequencer (or audio sequencer or simply sequencer) is a device or application software that can record, edit, or play back music, by handling note and performance information in several forms, typically CV/Gate, MIDI, or Open Sound Control (OSC), and possibly audio and automation data for DAWs and plug-ins
 
 * [This $20 synthesizer sounds very nice indeed](https://www.youtube.com/watch?v=FjLcPNhzAwo)
-    * [Synthetech](https://www.youtube.com/channel/UCtlJGGQGuSFxayNWko_KhAg)
+  * [Synthetech](https://www.youtube.com/channel/UCtlJGGQGuSFxayNWko_KhAg)
 
 * [Adding MIDI To A Mini Synth Is Easy As Pi](https://hackaday.com/2020/09/21/adding-midi-to-a-mini-synth-is-easy-as-pi/)
 * [A Superstar Sequencer from Sixty Four Pixels!](https://blog.tindie.com/2020/09/a-superstar-sequencer-from-sixty-four-pixels/)
@@ -60,20 +63,29 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [Raw 10 Steps Sequencer (APC + CD4017)](https://hackaday.io/project/181120-raw-10-steps-sequencer-apc-cd4017)
 * [A More Expressive Synth Via Flexure](https://hackaday.com/2023/02/28/a-more-expressive-synth-via-flexure/)
 * [Generating Music with AI: Combining Markov Chains with an 8-Step MIDI Sequencer](https://chariscat.wordpress.com/2021/02/14/generating-music-with-ai-combining-markov-chains-with-an-8-step-midi-sequencer/)
+* [Tulip is a Micropython Synth Workstation, in an ESP32](https://hackaday.com/2024/08/08/tulip-is-a-micropython-synth-workstation-in-an-esp32)
+
 
 ## Sound Dubbing
+
 * [Classic Chip Line-Up Powers This Fun Dub Siren Synth](https://hackaday.com/2021/09/24/classic-chip-line-up-powers-this-fun-dub-siren-synth/)
 
+
 # ADC and DAC
+
 * [RTFM: ADCs And DACs](https://hackaday.com/2019/10/16/rtfm-adcs-and-dacs/)
 
+
 # Audio Systems
+
 * [Teensy Audio Library, Delay Line Demo](https://www.youtube.com/watch?v=d80d1HWy5_s&feature=emb_title)
 * [Teensy Audio Library](https://www.pjrc.com/teensy/td_libs_Audio.html)
 * [A Synth Of Your Own, For Not A Lot](https://hackaday.com/2020/12/20/a-synth-of-your-own-for-not-a-lot/)
 * [DIY Synth VCO](https://www.youtube.com/playlist?list=PLHeL0JWdJLvTuGCyC3qvx0RM39YvopVQN)
 
+
 # Single-Op-Amp Voltage-Controlled Oscillator (VCO)
+
 * [Single-Op-Amp Voltage-Controlled Oscillator (VCO)](https://www.youtube.com/watch?v=WF2dYZ9JKko)
 * [LOGIC NOISE: 4046 VOLTAGE-CONTROLLED OSCILLATOR, PART ONE](https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/)
 
@@ -81,6 +93,7 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 
 
 ## Music and Sound Waves
+
 * [Art Ludwig's Sound Page](http://www.silcom.com/~aludwig/)
 * [The Kraakdoos — Musical Abuser of an Ancient OpAmp](http://hackaday.com/2015/09/03/the-kraakdoos-musical-abuser-of-an-ancient-opamp/)
 * The Sound on Sound (SOS) series of articles on [sound synthesis](http://www.soundonsound.com/sos/allsynthsecrets.htm)
@@ -88,12 +101,15 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [The Fart Box, A Synthesizer Not Quite Like Others](https://hackaday.com/2020/03/21/the-fart-box-a-synthesizer-not-quite-like-others/)
 * [Music from Outer Space: Your Synth-DIY Headquarters](http://musicfromouterspace.com/)
 * [Glacial Soundscapes with Evolving Drone Tones!](https://blog.tindie.com/2020/07/glacial-soundscapes-with-evolving-drone-tones/)
-* [MicroSynth Mixes All-Analog Fun With A Little Business ](https://hackaday.com/2021/09/30/microsynth-mixes-all-analog-fun-with-a-little-business/)
-* [ Exquisite Ray Gun Has Sound Effects](https://hackaday.com/2021/10/07/halloween-build-exquisite-ray-gun-has-sound-effects/)
+* [MicroSynth Mixes All-Analog Fun With A Little Business](https://hackaday.com/2021/09/30/microsynth-mixes-all-analog-fun-with-a-little-business/)
+* [Exquisite Ray Gun Has Sound Effects](https://hackaday.com/2021/10/07/halloween-build-exquisite-ray-gun-has-sound-effects/)
 * [The Eerie Sounds Of Ioalieia: An ESP32/Valve/Analog Hybrid Circuit Sculpture](https://hackaday.com/2022/01/15/the-eerie-sounds-of-ioalieia-an-esp32-valve-analog-hybrid-circuit-sculpture/)
 
+
 # Sound Classification
+
 * [Sound Classification using Deep Learning](https://medium.com/@mikesmales/sound-classification-using-deep-learning-8bc2aa1990b7)
+
 
 ## Audio Codec
 An audio codec (or just [codec][17]) is a device or computer program capable of
@@ -123,6 +139,7 @@ The full range of human hearing is between 20 Hz and 20 kHz.
 The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][24],
  needs to be 40 kHz for maximum fidelity.
 
+
 ## WAV vs. AIFF vs. MP3 File Formats
 | Filename Extension | Name | Format Type | Description | Encoding |
 | ------- | ------- | ------- | ------- | ------- |
@@ -147,15 +164,19 @@ The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][2
 * [What’s Your IQ – About Quadrature Signals][11]
 * [DSP Spreadsheet: IQ Diagrams](https://hackaday.com/2019/11/15/dsp-spreadsheet-iq-diagrams/)
 
+
 ### Quadrature Signals
 Quadrature signals, also called IQ signals, IQ data or IQ samples, are often used in RF applications. They form the basis of complex RF signal modulation and demodulation, both in hardware and in software, as well as in complex signal analysis.
 
 A pair of periodic signals are said to be in “quadrature” when they differ in phase by 90 degrees. The “in-phase” or reference signal is referred to as “I,” and the signal that is shifted by 90 degrees (the signal in quadrature) is called “Q.” What does this mean and why do we care?
 
+
 ### Nyquist–Shannon Theorem
+
 * [The Nyquist–Shannon Theorem: Understanding Sampled Systems](https://www.allaboutcircuits.com/technical-articles/nyquist-shannon-theorem-understanding-sampled-systems/)
 * [The Nyquist–Shannon Theorem in the Frequency Domain](https://www.allaboutcircuits.com/technical-articles/understanding-sampled-systems-the-nyquistshannon-theorem-in-the-frequency-domain/)
 * [The Nyquist–Shannon Sampling Theorem: Exceeding the Nyquist Rate](https://www.allaboutcircuits.com/technical-articles/the-nyquistshannon-sampling-theorem-exceeding-the-nyquist-rate/)
+
 
 ## Converting Formats
 A huge variety of file formats are used to store and distribute digital audio. The most commonly used for compressed audio is mp3, and the most common format for raw audio (uncompressed) is .wav.  But there are many other audio formats, and you likely want to be able to convert between the various formats.
@@ -172,19 +193,24 @@ If you want to convert between different compressed audio formats, generally the
 * [Convert Audio Files From Many Formats In Ubuntu Linux With Sound Converter][08]
 * [Wavbreake][09]
 
+
 ## Direct-Digital Synthesis (DDS)
 [Direct-digital synthesis (DDS)](http://hackaday.com/2016/02/12/embed-with-elliot-audio-playback-with-direct-digital-synthesis/)
 is a sample-playback technique that is useful for adding a little bit of audio
 to your projects without additional hardware.
 
+
 ## Sound via Data Streaming to UART
+
 * [Digital Audio For Microcontrollers Doesn’t Come Much Simpler Than A WART](https://hackaday.com/2021/07/11/digital-audio-for-microcontrollers-doesnt-come-much-simpler-than-a-wart/)
 
+
 # Audio Syntesizer
+
 * [A Fully Open Source Raspberry Pi Synthesizer](https://hackaday.com/2018/06/08/a-fully-open-source-raspberry-pi-synthesizer/)
 * [Google’s AI-Powered Synthesizer](https://www.theverge.com/circuitbreaker/2018/3/13/17114760/google-nsynth-super-ai-touchscreen-synth)
 * [Synthberry Pi standalone Pure Data Raspberry Pi synthesiser](https://www.geeky-gadgets.com/raspberry-pi-synthesiser-14-02-2020/)
-* https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/
+* <https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/>
 * [Autonomous Electro-musical Devices](https://hackaday.com/2016/04/27/autonomous-electro-musical-devices/)
 * [ESP32 IS THE BRAINS BEHIND THIS ART INSTALLATION](https://hackaday.com/2021/08/22/esp32-is-the-brains-behind-this-art-installation/)
 
@@ -192,22 +218,32 @@ to your projects without additional hardware.
 
 * [Abacus Synthesizer Really Adds Up](https://hackaday.com/2022/06/15/abacus-synthesizer-really-adds-up/)
 
+
 # Low Frequency Oscillation (LFO)
+
 * [BLM Mini Digital LFO](https://www.tindie.com/products/bluelantern/blm-mini-digital-lfo/)
 
-## ...And Now For Something Different...
+
+## ...And Now For Something Different
+
 * [VOC - 25](https://www.lovehulten.com/voc25.html)
 
+
 ## Digital Audio Editor
+
 * [Audacity](http://audacity.sourceforge.net/)
+
 
 ## Waveform Viewer
 A waveform viewer is a software tool for viewing a signals waveform.
-http://en.wikipedia.org/wiki/Waveform_viewer
+<http://en.wikipedia.org/wiki/Waveform_viewer>
 [Browser-based audio waveform visualisation](http://waveform.prototyping.bbc.co.uk/)
 
+
 ## Equalizer
+
 * [Equalize Your Listening With HiFiScan](https://hackaday.com/2022/09/12/equalize-your-listening-with-hifiscan/)
+
 
 ## Capturing Still Images and Streamming Video from WebCam
 You can capture still images and videos with the webcam using `cheese` or `memcoder`.
@@ -218,6 +254,7 @@ These work on Unbuntu:
 
 [luvcview](http://www.mattfischer.com/blog/?tag=luvcview)
 [How to build and run MJPG-Streamer on the Raspberry Pi](http://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi)
+
 
 ## Downloading Video Files
 If your interested in capturing a YouTube video,
@@ -271,6 +308,7 @@ youtube-dl -k -x --audio-format wav http://www.youtube.com/watch?v=nOMX3deeW6Q
 
 > Did you do the above example? You want more floppy drive music?  Of Course you do!  Check out [Gigawipf][16].
 
+
 ## Ripping Audio From Video
 While `youtube-dl` can extract the audio from a video that is on the web,
 what if the file is already downloaded?
@@ -279,14 +317,19 @@ what if the file is already downloaded?
 
 Doesn't seem to work???
 
+
 ## Audio Source Seperation
+
 * [How To Implement the Audio Source Separation Function](https://dzone.com/articles/how-to-implement-the-audio-source-separation-funct)
+
 
 ## Capturing Audio and Video Using VoIP
 [Capture audio and video using VoIP](http://www.tuxradar.com/answers/614)
 [Weekend Project: Record From Skype Calls and Other Apps on Linux](https://www.linux.com/learn/tutorials/367395-weekend-project-record-from-skype-calls-and-other-apps-on-linux)
 
+
 ## MP3 ID3 Tag Information
+
 * [mp3info - MP3 technical info viewer and ID3 tag editor](http://manpages.ubuntu.com/manpages/gutsy/man1/mp3info.1.html)
 * [Update music info with public database data](http://www.commandlinefu.com/commands/view/13626/update-music-info-with-public-database-data)
 * []()
@@ -294,10 +337,12 @@ Doesn't seem to work???
 
 [eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
 
+
 # Op-Amps
+
 * [Op-Amps – Analog Building Blocks](https://dronebotworkshop.com/op-amps/)
-    * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
-    * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
+  * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
+  * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
 * [Op-Amps - Using Operational Amplifiers](https://www.youtube.com/watch?v=_HHxV-7alwE)
 * [EEVBlog 1436 - The TOP 5 Jellybean OPAMP's](https://www.youtube.com/watch?v=uq1DMWtjL2U)
 * [Opamp](https://www.youtube.com/watch?v=Z8JDsvfZjL8&list=PLXDK0MeyK4ZgWkzd59wLkir7ZjI7fIsFn)
@@ -319,11 +364,13 @@ Doesn't seem to work???
 * [Op-Amp Challenge: MOSFETs Make This Discrete Op Amp Tick](https://hackaday.com/2023/05/20/op-amp-challenge-mosfets-make-this-discrete-op-amp-tick/)
 * [Op-Amp Drag Race Turns Out Poorly for 741](https://hackaday.com/2024/02/23/op-amp-drag-race-turns-out-poorly-for-741/)
 
+
 ## OpAmps and LTSpice
+
 * [Introduction to Operational Amplifiers with LTSpice](https://learn.sparkfun.com/tutorials/introduction-to-operational-amplifiers-with-ltspice)
 
 
-----
+---------------
 
 
 # Analog Computer
@@ -370,6 +417,7 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 
 
 # History
+
 * [Secrets From A 1969 Analog Computer](https://hackaday.com/2019/09/23/secrets-from-a-1969-analog-computer/)
 * [Not Your Father’s Analog Computer](https://spectrum.ieee.org/computing/hardware/not-your-fathers-analog-computer)
 * [Analog Computer History](https://www.youtube.com/playlist?list=PLXKU-M8l-XDFEdM2lAXR7Ndi55lbC34qM)
@@ -377,7 +425,9 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 * [The Most Powerful Computers You've Never Heard Of](https://www.youtube.com/watch?v=IgF3OX8nT0w)
 * [We're Building Computers Wrong](https://www.youtube.com/watch?v=GVsUOuSjvcg&t=9s)
 
-# Analog is Back!
+
+# Analog is Back
+
 * [Why Are Analogue Computers Really On The Rise Again?](https://thewalkingtemple.medium.com/why-are-analogue-computers-really-on-the-rise-again-4e4ffa0f15b4)
 * [The Unbelievable Zombie Comeback of Analog Computing](https://www.wired.com/story/unbelievable-zombie-comeback-analog-computing/)
 
@@ -386,15 +436,17 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 
 
 # Building an Analog Computer
+
 * [Building an Analog Computer with Op Amps](https://www.youtube.com/playlist?list=PL_R4uxT5thflWVbSWtl-rx5_C_q0RxjyV)
 * [Electrical Engineering, Analog, Digital Design Videos](https://www.youtube.com/playlist?list=PLrwXF7N522y4c7c-8KBjrwd7IyaZfWxyt)
 
 
-------
+---------------
 
 
 
 # Spintronics
+
 * [Computer Logic Spins with No Electricity](https://hackaday.com/2024/01/21/computer-logic-spins-with-no-electricity/)
 * [Spintronics](https://store.upperstory.com/collections/spintronics)
 * [Mechanical circuits: electronics without electricity](https://www.youtube.com/watch?v=QrkiJZKJfpY)
