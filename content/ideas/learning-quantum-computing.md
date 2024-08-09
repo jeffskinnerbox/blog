@@ -581,7 +581,10 @@ What advantage does it give that can't be provided by other quantum computer sim
 
 
 # Quantum Games
+
 - [Quantum Tic-Tac-Toe](https://vickynititi.itch.io/quantum-tic-tac-toe)
+- [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](https://pubs.aip.org/aapt/ajp/article-abstract/74/11/962/864424/Quantum-tic-tac-toe-A-teaching-metaphor-for?redirectedFrom=fulltex)
+- [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](hhttps://perruchenautomne.eu/wordpress/wp-content/uploads/2015/05/QT3-AJP-10-20-06.pdf)
 
 
 # Quantum Programming Languages
@@ -632,6 +635,11 @@ Qiskit accelerates the development of quantum applications by providing the comp
   - [Lab 3](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-3-9b92e3152bfc)
   - [Lab 4](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-4-541a7e0e6478)
   - [Lab 5](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-5-6d932eb1922)
+
+
+### QWorld QEducation
+[QEducation](https://qworld.net/qeducation/) is the department of QWorld working on for educational and related activities
+and makes use of IBM's Qiskit.
 
 
 ### Qiskit + Raspberry Pi
@@ -692,11 +700,6 @@ TKET is an advanced software development kit for the creation and execution of p
 
 - [Simple Quantum Computing in 150 Lines of Python](https://hackaday.com/2018/04/10/simple-quantum-computing-in-150-lines-of-python/)
 
-
-## Quantum Country / CNOT
-
-- [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
-- [CNOT: Introduction to Quantum Computing](https://cnot.io/)
 
 
 ## QuTiP
