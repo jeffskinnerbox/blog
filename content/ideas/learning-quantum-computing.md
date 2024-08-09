@@ -61,6 +61,8 @@ Barriers to getting your head around quantum computing:
   - [Guest Post: The Unexaggerated Magic Of Quantum – Part IV](https://thequantuminsider.com/2024/04/24/guest-post-the-unexaggerated-magic-of-quantum-part-iv/)
   - [Guest Post: The Unexaggerated Magic Of Quantum – Part V Special Quantum Artificial Intelligence Edition](https://thequantuminsider.com/2024/05/24/guest-post-the-unexaggerated-magic-of-quantum-part-v-special-quantum-artificial-intelligence-edition/)
 
+- [Quantum Computing in the NISQ era and beyond](https://quantum-journal.org/papers/q-2018-08-06-79/pdf/)
+
 
 # Origin Stories
 
@@ -97,25 +99,92 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
   - [The Next Era of Computing | Extropic](https://www.youtube.com/watch?v=fyVudfvYNKo)
   - [Guillaume Verdon: Why Accelerate](https://www.youtube.com/watch?v=QjVOfM2EBnE)
 
+
 ---------------
 
 
-# Quantum Computing Pedagogy
+# Building a Visceral Understanding of Quantum Phenomena
+How does a person develop a viseral understanding of quantum computing?
+
+>Cambridge Dictionary definition: **Visceral** - based on deep feeling and emotional reactions rather than on reason or thought.
+>So **Visceral Understanding** is a deep feeling or gut instinct that comes from strong emotions rather than logic or reason.
+
+
+## Quantum Gamification
+- [Making Quantum Games: QJam2024](https://qworld.net/qjam2024/)
+
+
+### Quantum Tic-Tac-Toe
+
+- [Quantum Tic-Tac-Toe](https://vickynititi.itch.io/quantum-tic-tac-toe)
+- [Quantum tic-tac-toe](https://en.wikipedia.org/wiki/Quantum_tic-tac-toe)
+- [Quantum Tic Tac Toe](https://quantum-ttt.herokuapp.com/)
+- [Quantum Tic Tac Toe](https://dbroemme.itch.io/quantum-tic-tac-toe)
+
+- [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](https://pubs.aip.org/aapt/ajp/article-abstract/74/11/962/864424/Quantum-tic-tac-toe-A-teaching-metaphor-for?redirectedFrom=fulltex)
+- [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](hhttps://perruchenautomne.eu/wordpress/wp-content/uploads/2015/05/QT3-AJP-10-20-06.pdf)
+- [Quantum Tic‐Tac‐Toe: A Game of Entanglement](https://mathwithbaddrawings.com/wp-content/uploads/2020/10/Game-19-Quantum-Tic-Tac-Toe.pdf)
+- [Introducing a new game: Quantum TiqTaqToe](https://quantumfrontiers.com/2019/07/15/tiqtaqtoe/)
+- [Quantum Tic Tac Toe](https://physlab.org/wp-content/uploads/2023/05/QuantumTicTacToe_23100002_Fin.pdf)
+- [Quantum Tic-Tac-Toe: the best game you’ve never played, or have you?](https://darren-broemmer.medium.com/quantum-tic-tac-toe-the-best-game-youve-never-played-or-have-you-d689cd110b64)
+
+ formulate a quantum strategy which allows a quantum player to consistently win over a classical player, with a certain probability. This result can be seen as another proof of the superior computational power of a quantum system with respect to a classical one.
+
+- [Quantum Tic-Tac-Toe: A Genuine Probabilistic Approach](https://academic.timwylie.com/17CSCI4341/quantum_tictactoe.pdf)
+- [Quantum Tic Tac Toe Reinforcement Learning](https://www.youtube.com/watch?v=WXiUDKCsXa0)
+
+
+### Qbit Factory
+
+- [Qbit Factory](https://www.qubitfactory.io/)
+- [GitHub: awslabs/the-qubit-factory](https://github.com/awslabs/the-qubit-factory/wiki)
+- [Building a Visceral Understanding of Quantum Phenomena](https://quantumfrontiers.com/)
+- [Exploring Gamification in Quantum Computing: The Qubit Factory](https://arxiv.org/pdf/2406.11995)
+
+
+### Quirk
+
+- [How to use Quirk - Toy Quantum Circuit Simulator](https://www.youtube.com/watch?v=aloFwlBUwsQ)
+- [Welcome to Quirk](https://algassert.com/quirk)
+
+- [Quantum Searching in Your Browser](https://hackaday.com/2018/02/07/quantum-searching-in-your-browser/)
+- [Quantum Weirdness in Your Browser](https://hackaday.com/2018/01/24/quantum-weirdness-in-your-browser/)
+- [Craig Gidney's quantum circuit simulator: Quirk](http://algassert.com/quirk)
+- [How to use Quirk - Toy Quantum Circuit Simulator](https://www.youtube.com/watch?v=aloFwlBUwsQ)
+- [Quantum Computers Animated](https://www.youtube.com/watch?v=T2DXrs0OpHU)
+- [Quantum Computers Explained – Limits of Human Technology](https://www.youtube.com/watch?v=JhHMJCUmq28)
+- [The Mathematics of Quantum Computers](https://www.youtube.com/watch?v=IrbJYsep45E)
+- [Building the Bits and Qubits](https://www.youtube.com/watch?v=F8U1d2Hqark)
+- [You don't know how Quantum Computers work](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
+- [Quantum computing for the determined](https://www.youtube.com/watch?v=X2q1PuI2RFI&list=PL1826E60FD05B44E4)
+
+
+#### The Qbit Game
+
+- [The Qbit Game](https://quantumai.google/education/thequbitgame)
+- [The Qubit Game by Google](https://q12education.org/wp-content/uploads/2024/04/Google-Qubit-Game-Activity-Guide.pdf)
+
+
+---------------
+
+
+## Quantum Computing Pedagogy
 
 Pedagogy is the method and practice of teaching, especially as an academic subject or theoretical concept.
 As education researchers gain a broader understanding of how students learn quantum mechanics, new pedagogical and technical resources are being developed to facilitate student learning.
 
 
-## ScienceAtHome Quantum Tools
+### ScienceAtHome Quantum Tools
 
 - [ScienceAtHome Quantum Tools](https://www.scienceathome.org/quantum/tools/)
 
 
-## QEngine
+### QEngine
 
 QEngine is our software library for quantum simulation and - optimization.
 
 - [QEngine](https://www.quatomic.com/)
+
 
 ---------------
 
@@ -580,14 +649,6 @@ What advantage does it give that can't be provided by other quantum computer sim
 - [Quokka: Your Personal Quantum Computer](https://www.kickstarter.com/projects/chrisferrie/quokka-your-personal-quantum-computer)
 
 
-# Quantum Games
-
-- [Quantum Tic-Tac-Toe](https://vickynititi.itch.io/quantum-tic-tac-toe)
-- [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](https://pubs.aip.org/aapt/ajp/article-abstract/74/11/962/864424/Quantum-tic-tac-toe-A-teaching-metaphor-for?redirectedFrom=fulltex)
-- [Quantum tic-tac-toe: A teaching metaphor for superposition in quantum mechanics](hhttps://perruchenautomne.eu/wordpress/wp-content/uploads/2015/05/QT3-AJP-10-20-06.pdf)
-- [Quantum Tic‐Tac‐Toe: A Game of Entanglement](https://mathwithbaddrawings.com/wp-content/uploads/2020/10/Game-19-Quantum-Tic-Tac-Toe.pdf)
-
-
 # Quantum Programming Languages
 
 - Python: Used to write quantum algorithms, Python is supported by numerous quantum computing frameworks, such as Ocean and Qiskit.
@@ -671,20 +732,6 @@ Cirq is a Python software library for writing, manipulating, and optimizing quan
 - [Google Quantum AI](https://quantumai.google)
 
 
-## Quirk
-
-- [Quantum Searching in Your Browser](https://hackaday.com/2018/02/07/quantum-searching-in-your-browser/)
-- [Quantum Weirdness in Your Browser](https://hackaday.com/2018/01/24/quantum-weirdness-in-your-browser/)
-- [Craig Gidney's quantum circuit simulator: Quirk](http://algassert.com/quirk)
-- [How to use Quirk - Toy Quantum Circuit Simulator](https://www.youtube.com/watch?v=aloFwlBUwsQ)
-- [Quantum Computers Animated](https://www.youtube.com/watch?v=T2DXrs0OpHU)
-- [Quantum Computers Explained – Limits of Human Technology](https://www.youtube.com/watch?v=JhHMJCUmq28)
-- [The Mathematics of Quantum Computers](https://www.youtube.com/watch?v=IrbJYsep45E)
-- [Building the Bits and Qubits](https://www.youtube.com/watch?v=F8U1d2Hqark)
-- [You don't know how Quantum Computers work](https://www.youtube.com/watch?v=ZoT82NDpcvQ)
-- [Quantum computing for the determined](https://www.youtube.com/watch?v=X2q1PuI2RFI&list=PL1826E60FD05B44E4)
-
-
 # TKET
 
 TKET is an advanced software development kit for the creation and execution of programs for gate-based quantum computers.
@@ -761,6 +808,9 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 # Quantum Computing Simulation
 
+- [Quantum Simulation Explained in 9 Slides](https://www.youtube.com/watch?v=kD370qyxTyw)
+  - [Qiskit](https://www.youtube.com/qiskit)
+  - [The Variational Quantum Eigensolver — Programming on Quantum Computers — Coding with Qiskit S2E4](https://www.youtube.com/watch?v=Z-A6G0WVI9w)
 - [List of Quantum Computing Simulators](https://www.quantiki.org/wiki/list-qc-simulators)
 - [Taste the future -- try out a cloud-based quantum computer](http://betanews.com/2013/09/06/taste-the-future-try-out-a-cloud-based-quantum-computer/)
 - [jQuantum - Quantum Computer Simulator](http://jquantum.sourceforge.net/)
