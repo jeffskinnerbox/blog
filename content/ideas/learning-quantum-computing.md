@@ -564,6 +564,26 @@ Train a quantum computer the same way as a neural network.
 - [How splitting sound might lead to a new kind of quantum computer](https://theconversation.com/how-splitting-sound-might-lead-to-a-new-kind-of-quantum-computer-207974)
 
 
+# Quokka
+[Eigensystems](https://www.eigensystems.com.au/), a quantum computing educational startup
+(created by [Chris Ferrie](https://www.youtube.com/watch?v=3DhbSsoFc0g)),
+has created a quantum computer emulator, the Quokka.
+Its designed to be an indistinguishable emulation of a 30-qubit fault-tolerant quantum computer.
+Quokka is an emulation of future quantum computers.
+Unlike other quantum simulators, which allow you to inspect the internal state of the quantum information,
+a “real” future quantum computer would not allow such capability.
+
+But "why" the Quokka device?
+What advantage does it give that can't be provided by other quantum computer simulators?
+
+- [Quokka: the little device set to democratize quantum computing](https://interestingengineering.com/podcast/lexicon/ep-53-quokka-the-little-device-set-to-democratize-quantum-computing)
+- [Quokka: Your Personal Quantum Computer](https://www.kickstarter.com/projects/chrisferrie/quokka-your-personal-quantum-computer)
+
+
+# Quantum Games
+- [Quantum Tic-Tac-Toe](https://vickynititi.itch.io/quantum-tic-tac-toe)
+
+
 # Quantum Programming Languages
 
 - Python: Used to write quantum algorithms, Python is supported by numerous quantum computing frameworks, such as Ocean and Qiskit.
@@ -808,3 +828,5 @@ Tensor network theory is a branch of mathematics that deals with the representat
 
 - [A Moving Target for Quantum Advantage](https://physics.aps.org/articles/v17/13)
   - [Efficient Tensor Network Simulation of IBM’s Eagle Kicked Ising Experiment](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010308)
+
+
