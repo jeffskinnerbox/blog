@@ -332,8 +332,6 @@ Doesn't seem to work???
 
 * [mp3info - MP3 technical info viewer and ID3 tag editor](http://manpages.ubuntu.com/manpages/gutsy/man1/mp3info.1.html)
 * [Update music info with public database data](http://www.commandlinefu.com/commands/view/13626/update-music-info-with-public-database-data)
-* []()
-* []()
 
 [eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
 
@@ -341,6 +339,7 @@ Doesn't seem to work???
 # Op-Amps
 
 * [The Operational Amplifier - From Abstraction to Reality](https://www.youtube.com/playlist?list=PLu9wn21AYbaHVeWIdGNiLYFwbgOZsyjwK)
+* [Op-Amp (Operational Amplifier)](https://www.youtube.com/playlist?list=PLwjK_iyK4LLDBB1E9MFbxGCEnmMMOAXOH)
 * [Op-Amps – Analog Building Blocks](https://dronebotworkshop.com/op-amps/)
   * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
   * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
