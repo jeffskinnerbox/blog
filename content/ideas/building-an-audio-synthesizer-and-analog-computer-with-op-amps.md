@@ -340,6 +340,7 @@ Doesn't seem to work???
 
 # Op-Amps
 
+* [The Operational Amplifier - From Abstraction to Reality](https://www.youtube.com/playlist?list=PLu9wn21AYbaHVeWIdGNiLYFwbgOZsyjwK)
 * [Op-Amps – Analog Building Blocks](https://dronebotworkshop.com/op-amps/)
   * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
   * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
