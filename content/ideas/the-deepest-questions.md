@@ -177,6 +177,7 @@ No matter which interpretation you choose, there is a philosophical price to be 
 QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechanics, emphasizing the role of the observer and measurements, contrary to classical physics' objective worldview.
 
 - [QBism: The New Theory That Shatters Our View of Reality](https://www.youtube.com/watch?v=yABPvDJ6Zgs)
+- [Chris Fuchs "QBism, What next?"](https://www.youtube.com/watch?v=YGOWbaRY1J0)
 
 
 ## History of Quantum Mechanics
