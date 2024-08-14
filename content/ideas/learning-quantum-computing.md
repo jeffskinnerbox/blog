@@ -20,6 +20,9 @@ _“The mathematics of quantum physics fits on a postcard. But there are thousan
 _"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
 ... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
 
+
+
+
 * [Quantum Computing Since Democritus, by Scott Aaronson](https://www.amazon.com/dp/0521199565) - DONE
 * [Introduction to Classical and Quantum Computing, by Dr Thomas G Wong](https://www.amazon.com/dp/B09QP2ML3P)
 * [Quantum in Pictures: A New Way to Understand the Quantum World Paperback, by Bob Coecke, Stefano Gogioso](https://www.amazon.com/dp/1739214714) - IN PROGRESS
@@ -57,6 +60,22 @@ Barriers to getting your head around quantum computing:
 * the concept of randomness and how it can aid in computation
 * What are the type of problems suitable for a quantum computer? - The fact that quantum computers can solve any problems that classical computers can, but quantum and classical computers really are a category apart — that even in a world where classical computers succeed beyond all realistic dreams, quantum computers would still stand beyond them. ([Raz and Tal’s paper](https://eccc.weizmann.ac.il/report/2018/107/)). The work of Raz and Tal’s provides an ironclad assurance that quantum computers exist in a different computational realm than classical computers (at least relative to an oracle). Even in a world where P equals NP — one where the traveling salesman problem is as simple as finding a best-fit line on a spreadsheet — Raz and Tal’s proof demonstrates that there would still be problems only quantum computers could solve.
 * “Even if P were equal to NP, even making that strong assumption,” said Fortnow, “that’s not going to be enough to capture quantum computing.”
+
+
+# Quantum Analogies
+The reason we like analogies is essentially because we don’t have to do work to build a model in our brain to understand something. A good analogy allows us to map something complex onto models we already did the work to build in our brain. This is great when it works.
+But, quantum mechanics just doesn’t map into anything in the normal human experience. It is a new concept that must be built up from zero for each person that learns it.
+
+* [Quantum Analogies](https://www.vlatkovedral.com/quantum-analogies/)
+* [Quantum Computing: Some Analogies](https://cronokirby.com/posts/2021/07/quantum_computing_analogies/)
+* [Quantum entanglement is tough to dumb down, but this analogy can help detangle it](https://aeon.co/videos/quantum-entanglement-is-tough-to-dumb-down-but-this-analogy-can-help-detangle-it)
+* [Understanding Quantum Computing](https://www.microwavejournal.com/articles/34557-understanding-quantum-computing)
+* [Quantum entanglement vs classical analogy](https://physics.stackexchange.com/questions/12286/quantum-entanglement-vs-classical-analogy)
+
+
+# Quantum Mechanics with Real Numbers
+
+* [Quantum mechanics with real numbers: entanglement, superselection rules and gauges](https://arxiv.org/pdf/2308.05473)
 
 
 # Quantum Hype
