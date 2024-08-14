@@ -93,6 +93,7 @@ The problem is, nobody understands quantum **physicists** muddled description of
   - [Adam Becker - "'Not Merely False, but Foolish': The History of Bell’s Two Theorems"](https://www.youtube.com/watch?v=TUyp2uC6VJc)
   - [‘Metaphysical Experiments’ Probe Our Hidden Assumptions About Reality](https://www.quantamagazine.org/metaphysical-experiments-test-hidden-assumptions-about-reality-20240730/)
 - Quantum Physics
+  - [Sample of a First Year 'Quantum Ideas' short option lecture](https://www.youtube.com/watch?v=JOlOWyVMTxs)
   - [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
   - [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
   - [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
