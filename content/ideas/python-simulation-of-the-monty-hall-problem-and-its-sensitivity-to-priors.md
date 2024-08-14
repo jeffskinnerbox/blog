@@ -7,7 +7,7 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
----
+---------------
 
 - [We may question the universe into existence](https://medium.com/the-infinite-universe/we-may-question-the-universe-into-existence-8100c83edf34)
 - [Untangling entanglement](https://aeon.co/essays/our-simple-magic-free-recipe-for-quantum-entanglement?utm_source=Aeon+Newsletter&utm_campaign=4e81f927d4-EMAIL_CAMPAIGN_2023_06_30&utm_medium=email&utm_term=0_-b43a9ed933-%5BLIST_EMAIL_ID%5D)
@@ -141,7 +141,7 @@ Is it in your best interest to switch?
 
 - [How to Solve the Monty Fall Problem](https://medium.com/street-science/how-to-solve-the-monty-fall-problem-ed68d78d8795)
 
----
+---------------
 
 
 # The Prior
@@ -198,6 +198,8 @@ What if you knew one of the children's day of week they where born?
 - [Counter-Intuitive Probability. Coin Flips To HH Versus HT Are Not The Same!](https://www.youtube.com/watch?v=--mxW3jDlGk)
 - [Coin Flipping Paradox](https://www.youtube.com/watch?v=F1ccNKQx4fk)
 - [A Coin-Tossing Conundrum](https://arxiv.org/pdf/1710.01298.pdf)
+- [Probability is just...really weird](https://www.youtube.com/watch?v=zczGnnM05TQ)
+- [The Coin Flip Game that Stumped Twitter: Alice HH vs Bob HT](https://www.youtube.com/watch?v=BAiuFOwhAWw)
 
 
 # The Friendship Paradox
@@ -225,7 +227,7 @@ What if you knew one of the children's day of week they where born?
 
 - [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
 
----
+---------------
 
 
 # Python Simulations
