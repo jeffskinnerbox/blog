@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 # Networked Birdhouse
+
 * [Networked Solar Birdhouses Deep in the Woods](http://hackaday.com/2016/05/20/making-solar-powered-networked-birdhouses-putting-them-in-the-middle-of-the-woods/)
 * [Solar-Powered TinyML Bird Feeder!](https://www.hackster.io/justinelutz/solar-powered-tinyml-bird-feeder-142f61)
 * [BirdNET - The Easiest Way To Identify Birds By Sound](https://birdnet.cornell.edu/)
