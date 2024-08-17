@@ -83,6 +83,7 @@ But, quantum mechanics just doesn’t map into anything in the normal human expe
 # Quantum Hype
 
 * [The Limits of Quantum Computers, by Scott Aaronson](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf)
+* [Scott Aaronson | Quantum Computing: Dismantling the Hype | The Cartesian Cafe with Timothy Nguyen](https://youtu.be/qs0D9sdbKPU?si=PoNJvb6b0mhGfECe)
 * [The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/?s=The+Unexaggerated+Magic+Of+Quantum)
     * [Guest Post: The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/2024/01/17/guest-post-the-unexaggerated-magic-of-quantum/)
     * [Guest Post: The Unexaggerated Magic Of Quantum – Part II](https://thequantuminsider.com/2024/02/15/guest-post-the-unexaggerated-magic-of-quantum-part-ii/)
