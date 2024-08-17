@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -33,7 +33,9 @@ Version:      0.0.0
 
 
 # MultiChain
+
 * [Open platform for blockchain applications](http://www.multichain.com/)
+
 
 # IOTA
 IOTA is a transactional settlement and data transfer layer for the Internet of Things.
@@ -42,19 +44,27 @@ which overcomes the inefficiencies of current Blockchain designs
 and introduces a new way of reaching consensus in a decentralized peer-to-peer system.
 
 * [IOTA](https://www.iotatoken.com/)
-* [IOTA Ecosystem ](https://ecosystem.iota.org/)
+* [IOTA Ecosystem](https://ecosystem.iota.org/)
     * [SensorHub](https://ecosystem.iota.org/projects/sensorhub)
     * [SensorNode](https://ecosystem.iota.org/projects/sensornode)
 * [The IOTA Lightwallet](https://medium.com/iotatangle/the-iota-lightwallet-c8c738d7192b#.ygww6pded)
 * [Introducing Masked Authenticated Messaging](https://blog.iota.org/introducing-masked-authenticated-messaging-e55c1822d50e)
+
 
 # Guardtime
 VZ Working With them.
 
 * [Guardtime](https://guardtime.com/)
 
+
 # Blockchain Implementations
-https://enterprisersproject.com/article/2017/6/blockchain-3-big-implications-your-company?sc_cid=70160000000gz6FAAQ
+<https://enterprisersproject.com/article/2017/6/blockchain-3-big-implications-your-company?sc_cid=70160000000gz6FAAQ>
+
+
 ## Cryptocurrency Transactions
+
+
 ## Transactions Between Organizations
+
+
 ## Workflow Within Organizations
