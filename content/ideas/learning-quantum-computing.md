@@ -20,6 +20,8 @@ _“The mathematics of quantum physics fits on a postcard. But there are thousan
 _"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
 ... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
 
+_"The Talk" by Zach Weinersmith & Scott Aaronson_ - <https://www.smbc-comics.com/comic/the-talk-3>
+
 
 
 
