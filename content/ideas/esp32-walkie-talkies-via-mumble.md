@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -18,14 +18,15 @@ As a first step, do the examples here - [Sound with ESP32 – I2S Protocol](http
 
 
 Consider MicroPython / CircuitPython ...
+
 * [Programming a NodeMCU with MicroPython: I2C Bus Part 1 (MPU6050 IMU)](https://www.youtube.com/watch?v=2ufkfd-oFrY)
 * [Programming an ESP32 NodeMCU with MicroPython](https://www.youtube.com/playlist?list=PL4Dmmk1VXA5p1_b0cCsIU2uM5nR47Whn4)
 * [Programming a NodeMCU with MicroPython](https://www.youtube.com/playlist?list=PL4Dmmk1VXA5rJDidEu4hcXum2EL7qVyo9)
 
 
 
-
 Consider using and reading ...
+
 * [Adafruit STEMMA Audio Amp - Mono 2.5W Class D - PAM8302](https://www.adafruit.com/product/5647)
 * [Simple MP3 Audio Playback With Raspberry Pi Pico](https://embeddedcomputing.com/technology/processing/interface-io/simple-mp3-audio-playback-with-raspberry-pi-pico)
 * [I2S Volume Control With Raspberry Pi Pico and CircuitPython](https://embeddedcomputing.com/technology/open-source/i2s-volume-control-with-raspberry-pi-pico-and-circuitpython)
@@ -49,10 +50,13 @@ Consider using and reading ...
 
 
 # User Interface
+
 * [Create a modern user interface with the Tkinter Python library](https://opensource.com/article/23/2/user-interface-tkinter-python)
 * [Building a Python GUI Application With Tkinter](https://realpython.com/courses/building-gui-application-tkinter/)
 
+
 # Management of the ESP32 Walkie Talkie
+
 * [ESP32 Web Updater and SPIFFS File Manager](https://hackaday.com/2023/02/17/esp32-web-updater-allows-file-system-management-and-ota-updates/)
 
 * [ESP32 WiFiManager – Easy WiFi Provisioning](https://dronebotworkshop.com/wifimanager/)
@@ -64,19 +68,23 @@ Consider using and reading ...
 * [WiFiManager](https://github.com/tzapu/WiFiManager/tree/development#how-it-works)
 * [Avoid Hard-Coding WiFi Credentials on Your ESP8266 Using the WiFiManager Library](https://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/)
 
+
 # Make it Speak to Home Assistant
+
 * [More Voice More Voice More Voice (Local Control)](https://www.mostlychris.com/more-voice-more-voice-more-voice/)
     * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
 
+
 # Other Walkie-Talkie Designs
+
 * [Make a 500m Range #Walkie-Talkie in easiest way (part 1)](https://www.youtube.com/watch?v=fMFVc4c8yE4)
 * [This is your #Walkie-Talkie #Transmitter & #Receiver !! (Part 2)](https://www.youtube.com/watch?v=jBUp8tYlQfM)
 * [Easiest way to Make a Without Coil Walkie Talkie](https://www.youtube.com/watch?v=dDEH0JEmJ6Q)
 
 
 
------
+---------------
 
 
 
@@ -110,7 +118,7 @@ since the design is getting more complex.
 
 
 
------
+---------------
 
 
 
@@ -141,15 +149,18 @@ Sources:
     * [#172 Hidden: ESP32 and ESP8266 point-to-point (ESP-Now): Fast and efficient. Comparison with LoRa][46]
 
 Good sources for audio examples:
+
 * [Phil Schatzmann: Machine Sound](https://www.pschatzmann.ch/home/category/machine-sound/)
 * [ESP32 Sound - Working with I2S](https://www.youtube.com/watch?v=m-MPBjScNRk)
 * [Atomic14: Audio Input](https://www.atomic14.com/tag/audio-input.html)
+
 
 ## ESP32 Walkie-Talkie: Bill of Materials (BOM)
 To make and test two ESP32 Walkie-Talkie, I used the following materials:
 
 | Item | Quantity | Description |
 |:-----|:--------:|:------------|
+
 * ESP32 - [TinyS2 (ESP32-S2 Board)][06] has onboard LiPo charging, 4MBs of flash, 320K SRAM & 2MB PSRAM, 700mA output 3.3V regulator, and 17 GPIO broken out, its a ESP32-S2 development board in the TinyPICO format
 * I2S Microphone - [Adafruit SPH0645LM4H][10] I2S MEMS Microphone Breakout (potential alternative is [DAOKI INMP441][16])
 * Audio Speaker - 4 Ohm / 3 Watts full range [audio speaker][07]
@@ -161,6 +172,7 @@ To make and test two ESP32 Walkie-Talkie, I used the following materials:
 * Custom PCB - A custom PCB was used to keep things organized and compact.  It was designed on [EsayEDS][11] and the schematic diagram / PCB layout are stored on [OSHWLab][12].  The PCB boards were manufactured by [PCBWay][13], but you can no long order the boards directly from them.  I needed to resubmit the OSHWLab PCB layout to PCBWay.
 
 * [First KiCad board from an EasyEDA user](https://www.youtube.com/watch?v=RMPezTH0cck)
+
 
 # ESP32-S2
 ESP32-S2 only has a single 32-bit Xtensa core, reduced RAM and ROM,
@@ -174,6 +186,7 @@ These tradeoffs mean the S2 draws significantly less power consumption, especial
 * [ESP32-S2 board targets battery-powered applications with 30uA deep sleep power consumption](https://www.cnx-software.com/2020/10/28/esp32-s2-board-targets-battery-powered-applications-with-30ua-deep-sleep-power-consumption/)
 * [Test of Battery operated ESP32 Boards (Olimex, TinyPICO, EzSBC, TTGO)](https://www.youtube.com/watch?v=ajt7vtgKNNM)
 * [ESP32-S2 New Arduino USB Functionality: Cool Combination with WiFi](https://www.youtube.com/watch?v=XnqDEV21BSA)
+
 
 ## TinyPICO
 TinyPICO is the world’s smallest, fully-featured ESP32 development board, designed to unlock the power of the ESP32’s dual-core 240MHz processor and internet connectivity, in a package smaller than your thumb!
@@ -205,11 +218,14 @@ Unexpected Maker have created some helper functions for you in our TinyPICO Micr
 * [Max deep sleep for ESP8266](https://thingpulse.com/max-deep-sleep-for-esp8266/)
 * [5 Hacks to Prolong your ESPaper’s Battery Run-Time](https://thingpulse.com/5-hacks-prolong-espapers-battery-run-time/)
 
-###TinyPICO V2
+
+### TinyPICO V2
 It's size is 18mm x 32mm, ESP32 PICO D4, 32Bit Dual Core 240Mhz, 2.4GHz WiFi - 802.11b/g/n, Bluetooth BLE 4.2, 4MB SPI FLash, 4MB Extra PSRAM, 14x GPIO broken out.
 
-###TinyPICO V3
+
+### TinyPICO V3
 It's size is 18mm x 35mm, ESP32 PICO D4, 32Bit Dual Core 240Mhz, 2.4GHz WiFi - 802.11b/g/n, Bluetooth BLE 4.2, 4MB SPI FLash, 4MB Extra PSRAM, 14x GPIO broken out.
+
 
 ### TinyPICO V3 with u.FL Connector
 This TinyPICO V3 has no antenna but comes with a iu.FL connector instead
@@ -218,6 +234,7 @@ so you can attach an external antenna of your choice.
 * [TinyPICO V3 with u.FL connector](https://unexpectedmaker.com/)
 * [TinyPICO V3 with u.FL connector](https://www.tindie.com/products/seonr/tinypico-v3/)
 * [TinyPICO V3 USB-C u.FL](https://shop.pimoroni.com/products/tinypico-v3?variant=40313120456787)
+
 
 ## TinyS2
 This is the ESP32-S2 development board in the TinyPICO format!
@@ -235,6 +252,7 @@ So instead of initialising the SPI bus using the defaults, you have to instead e
 
 * [TinyS2](https://unexpectedmaker.com/tinys2)
 
+
 ### TinyS2 Pin Out
 There are at least 3 revisions (P1, P2, P3) of the [TinyS2 (ESP32-S2 Board)][06],
 resulting in [two slightly different default GPIO for the SPI pins][34].
@@ -247,6 +265,7 @@ In my case, I had revision P5!
 
 [TinyS2 Pin Out (Revision P3 or later)](https://images.squarespace-cdn.com/content/v1/5a8cc639a803bbfaa029615a/83545830-8ac4-4a12-85fb-9eb13fef4036/TinyS2_V1_P3_pinout_extended.jpg?format=1000w)
 
+
 ### NodeMCU-32S
 The instructions for the ESP32 Walkie Talkie calls for the use of the [TinyS2 (ESP32-S2 Board)][06].
 To start my initial development,
@@ -254,7 +273,7 @@ I chose to use the [NodeMCU-32S][41] (aka NodeMCU ESP-WROOM-32) which is better 
 
 
 
------
+---------------
 
 
 
@@ -272,6 +291,7 @@ Sources:
 * [GitHub: pschatzmann/arduino-audio-tools](https://github.com/pschatzmann/arduino-audio-tools)
 * [Audio Tools Wiki](https://github.com/pschatzmann/arduino-audio-tools/wiki/Introduction)
 * [ArduinoAudioTools: Playing Movies ?](https://www.pschatzmann.ch/home/2023/05/06/arduinoaudiotools-playing-movies/)
+
 
 ## What are C++ Streams?
 One of the standout features of C++ is its built-in support of streams.
@@ -298,6 +318,7 @@ Sources
 
 * [Introduction to C / C++ Programming File I/O](https://www.cs.uic.edu/~jbell/CourseNotes/CPlus/FileIO.html)
 
+
 #### Step 1: Installation in Arduino IDE - DONE
 You can download the AudioTools library as a zip file,
 or you can `git clone` this project into the Arduino libraries folder:
@@ -310,6 +331,7 @@ git clone https://github.com/pschatzmann/arduino-audio-tools.git
 
 I perfer this install method because you can easily update it to the latest
 version just by executing the `git pull` command in the project folder `~/Arduino/libraries/arduino-audio-tools`.
+
 
 #### Step X: Test AudioTools with Examples
 Within the above installed library you'll find many example implementation
@@ -343,14 +365,18 @@ make
 ```
 
 
-#### Step X:
-#### Step X:
-#### Step X:
+#### Step X
+
+
+#### Step X
+
+
+#### Step X
 
 
 
 
------
+---------------
 
 
 
@@ -501,49 +527,49 @@ all: build upload                               # build and then upload via usb
 all-ota: build upload-ota                       # build and then upload via ota
 
 help:
-	@echo ' '
-	@echo 'Makefile for' $(PROG)
-	@echo ' '
-	@echo 'Usage:'
-	@echo '   make              create all files and flash device via usb'
-	@echo '   make all          create all files and flash device via usb'
-	@echo '   make all-ota      create all files and flash device via ota'
-	@echo '   make build        compile the code and create the *.elf file'
-	@echo '   make upload       create the *.bin file and flash device via usb'
-	@echo '   make upload-ota   create the *.bin file and flash device via ota'
-	@echo '   make erase        erease the entire flash from the device and exit'
-	@echo '   make size         print the flash size within the device and exit'
-	@echo '   make clean        delete *.bin, *.elf, *.hex files'
-	@echo '   make help         print this help message and exit'
-	@echo ' '
-	@echo 'Pass the option "--debug" to enable trace messaging (e.g. make --debug build)'
-	@echo ' '
+ @echo ' '
+ @echo 'Makefile for' $(PROG)
+ @echo ' '
+ @echo 'Usage:'
+ @echo '   make              create all files and flash device via usb'
+ @echo '   make all          create all files and flash device via usb'
+ @echo '   make all-ota      create all files and flash device via ota'
+ @echo '   make build        compile the code and create the *.elf file'
+ @echo '   make upload       create the *.bin file and flash device via usb'
+ @echo '   make upload-ota   create the *.bin file and flash device via ota'
+ @echo '   make erase        erease the entire flash from the device and exit'
+ @echo '   make size         print the flash size within the device and exit'
+ @echo '   make clean        delete *.bin, *.elf, *.hex files'
+ @echo '   make help         print this help message and exit'
+ @echo ' '
+ @echo 'Pass the option "--debug" to enable trace messaging (e.g. make --debug build)'
+ @echo ' '
 
 build:                                          # build the binary executable
-	$(CC) $(CC_FLAGS) $(CURDIR)
+ $(CC) $(CC_FLAGS) $(CURDIR)
 
 upload:                                         # flash the binary executable via usb
-	$(UPLOAD_USB) $(UPLOAD_USB_FLAGS) $(DURDIR)
+ $(UPLOAD_USB) $(UPLOAD_USB_FLAGS) $(DURDIR)
 
 upload-ota:                                     # flash the binary executable via ota
-	@echo VAR = $(VAR)
-	@echo OTAIP = $(OTAIP)
-	@echo OTAPASS = $(OTAPASS)
-	@echo OTAPORT = $(OTAPORT)
-	@echo OTAHOSTNAME = $(OTAHOSTNAME)
-	@echo UPLOAD_OTA_FLAGS = $(UPLOAD_OTA_FLAGS)
-	$(CURDIR)/answerbot $(OTAIP) 23             # using telnet, reboot the device to do OTA
-	sleep 10                                    # wait until device is ready for OTA start
-	$(UPLOAD_OTA) $(UPLOAD_OTA_FLAGS)
+ @echo VAR = $(VAR)
+ @echo OTAIP = $(OTAIP)
+ @echo OTAPASS = $(OTAPASS)
+ @echo OTAPORT = $(OTAPORT)
+ @echo OTAHOSTNAME = $(OTAHOSTNAME)
+ @echo UPLOAD_OTA_FLAGS = $(UPLOAD_OTA_FLAGS)
+ $(CURDIR)/answerbot $(OTAIP) 23             # using telnet, reboot the device to do OTA
+ sleep 10                                    # wait until device is ready for OTA start
+ $(UPLOAD_OTA) $(UPLOAD_OTA_FLAGS)
 
 erase:                                          # erase the entire flash
-	$(ESPTOOL) erase_flash --port $(PORT)
+ $(ESPTOOL) erase_flash --port $(PORT)
 
 size:                                           # determine the flash size
-	$(ESPTOOL) flash_id --port $(PORT)
+ $(ESPTOOL) flash_id --port $(PORT)
 
 clean:                                          # delete all binaries and object files
-	rm -r --force $(BUILD) *.bin *.elf *.hex
+ rm -r --force $(BUILD) *.bin *.elf *.hex
 ```
 
 I modified the code until I got a clean compile.
@@ -558,8 +584,10 @@ At this point, I'll set aside this code and focus on assembling and testing the 
 # Series of Test Builds
 referance the list of sites in the "# My Walkie-Talkie Build Approach" section above
 
+
 #### Step X: Breadboard the Microphone
 Would this be of interest:
+
 * [SparkFun Analog MEMS Microphone Breakout - VM2020](https://www.sparkfun.com/products/21537)
 
 For my microphone, I chose the [Adafruit SPH0645LM4H][10] I2S MEMS Microphone.
@@ -592,7 +620,9 @@ No binary words are created to represent the analog signal,
 resulting in no need for [analog to digital conversion (ADC)][29]!
 
 Sources:
+
 * [ESP32 Audio Input - INMP441 and SPH0645 MEMS I2S Breakout Boards](https://www.youtube.com/watch?v=3g7l5bm7fZ8&list=PL5vDt5AALlRfGVUv2x7riDMIOX34udtKD&index=16)
+
 
 #### Step X: Breadboard the Class D Amplifier
 I purchased from Amazon the [Degraw DIY Speaker Kit][60].
@@ -616,18 +646,22 @@ The description of this item makes it seem like it will work with a 3v3 microcon
 [63]:https://www.amazon.com/gp/product/B07Y2YKYRS?th=1
 [64]:https://www.amazon.com/gp/product/B07BJ2P6X6/
 
+
 #### Step X: Breadboard the Microphone and Amplifier
 Next lets make sure we can get the I2S microphone and [class D amplifier][32] working together nicely.
 Generally we
 
 Sources:
+
 * [#419 ESP32 Audio Tutorial with lots of examples](https://www.youtube.com/watch?v=a936wNgtcRA)
 * [ESP32 Audio Output with I2S DMA and the MAX98357A Class D Amplifier](https://www.youtube.com/watch?v=At8PDQ3g7FQ&list=PL5vDt5AALlRfGVUv2x7riDMIOX34udtKD&index=17)
 * [ESP32 Audio DMA Settings Explained - dma_buf_len and dma_buf_count](https://www.youtube.com/watch?v=ejyt-kWmys8&list=PL5vDt5AALlRfGVUv2x7riDMIOX34udtKD&index=7)
 
+
 #### Step X: Breadboard the Microphone, Amplifier, and ESP32
 
 Sources:
+
 * [I2S Audio general](https://www.youtube.com/playlist?list=PLpyo4J4M9YqJLh0B8YXNB0zza0uWIeguO)
     * [ESP32 – Intro to I2S Part 1](https://www.xtronical.com/i2s-ep1/)
     * [I2S on ESP3 – Part 2, WAV’s](https://www.xtronical.com/i2s-ep2/)
@@ -638,16 +672,31 @@ Sources:
 * [ESP32 Audio Input Using I2S and Internal ADC](https://www.youtube.com/watch?v=pPh3_ciEmzs&list=PL5vDt5AALlRfGVUv2x7riDMIOX34udtKD&index=16)
 * [Sound with ESP32 – I2S Protocol](https://dronebotworkshop.com/esp32-i2s/)
 
-#### Step X:
-#### Step X:
-#### Step X:
-#### Step X:
+
+#### Step X
+
+
+#### Step X
+
+
+#### Step X
+
+
+#### Step X
+
+
 #### Step X: ESP-NOW
+
 * [ESP NOW - Peer to Peer ESP32 Communications](https://dronebotworkshop.com/esp-now/)
 * [ESP-NOW | Getting Started With ESP8266 Including Demo Sketches](https://www.youtube.com/watch?v=_cNAsTB5JpM)
 * [ESPNOW for beginners!](https://www.youtube.com/watch?v=Ydi0M3Xd_vs)
-#### Step X:
+
+
+#### Step X
+
+
 #### Step X: WiFiManager
+
 * [ESP32 WiFiManager – Easy WiFi Provisioning](https://dronebotworkshop.com/wifimanager/)
 * [WiFiManager with ESP32 - Stop Hard-coding WiFi Credentials](https://www.youtube.com/watch?v=VnfX9YJbaU8)
 
@@ -656,14 +705,18 @@ Sources:
 
 * [WiFiManager](https://github.com/tzapu/WiFiManager/tree/development#how-it-works)
 * [Avoid Hard-Coding WiFi Credentials on Your ESP8266 Using the WiFiManager Library](https://www.instructables.com/id/Avoid-Hard-Coding-WiFi-Credentials-on-Your-ESP8266/)
-#### Step X:
+
+
+#### Step X
+
 
 #### What About MicroPython
+
 * [MicroPython I2S Audio with the ESP32](https://www.youtube.com/watch?v=UXt27kOokh0&list=PL5vDt5AALlRfGVUv2x7riDMIOX34udtKD&index=5)
 
 
 
---------
+---------------
 
 
 
@@ -680,19 +733,19 @@ utilizing static config and GPIO for status LEDs and a button for push to talk
 
 * [Raspberry Pi Walkie Talkies](https://github.com/rydercalmdown/pi_walkie_talkie)
 
-ReSpeaker 2-Mic Pi HAT: https://www.amazon.com/KEYESTUDIO-ReSpeaker-2-Mic-V1-0-Raspberry/dp/B07H3T8SQY
+ReSpeaker 2-Mic Pi HAT: <https://www.amazon.com/KEYESTUDIO-ReSpeaker-2-Mic-V1-0-Raspberry/dp/B07H3T8SQY>
 Raspberry Pi Zero W
-Loudspeakers: https://www.amazon.com/gp/product/B0738NLFTG/
-              https://www.amazon.com/MakerHawk-Full-Range-Advertising-Separating-JST-PH2-0mm-2/dp/B07FTB281F/
-TalkiePi project: https://github.com/dchote/talkiepi
+Loudspeakers: <https://www.amazon.com/gp/product/B0738NLFTG/>
+              <https://www.amazon.com/MakerHawk-Full-Range-Advertising-Separating-JST-PH2-0mm-2/dp/B07FTB281F/>
+TalkiePi project: <https://github.com/dchote/talkiepi>
 Setup instructions:
-    * https://github.com/CustomMachines/talkiepi
-    * https://github.com/mnoonan296/talkiepi
-    * https://github.com/MarcusWolschon/RasPi_stage_intercom
+    *<https://github.com/CustomMachines/talkiepi>
+    * <https://github.com/mnoonan296/talkiepi>
+    * <https://github.com/MarcusWolschon/RasPi_stage_intercom>
 
 
 
---------
+---------------
 
 
 
@@ -710,36 +763,43 @@ The idea is to extend the walkie-talkie's coverage to the enire Internet
     * [Plumble - Mumble VOIP](https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient)
 
 
---------
+---------------
 
 
 # Other Similar Platforms
+
+* [LILYGO T-Deck Plus is a $70 handheld with GPS, LoRa, and a BlackBerry keyboard](https://liliputing.com/lilygo-t-deck-plus-is-a-70-handheld-with-gps-lora-and-a-blackberry-keyboard/)
 * [ESP32-S3 board features 2.8-inch display, Blackberry-like keyboard, and optional LoRaWAN connectivity](https://www.cnx-software.com/2023/06/30/esp32-s3-board-features-2-8-inch-display-blackberry-like-keyboard-lorawan/)
     * [LILYGO® T-Deck ESP32-S3 LoRa Module 2.8 inch LCD Development Board LoRaWAN Long Range 433MHz 868MHz 915MHz With WIFI Bluetooth](https://www.aliexpress.us/item/3256805505920840.html?aff_fcid=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&tt=CPS_NORMAL&aff_fsk=_Dd8eYNx&aff_platform=shareComponent-detail&sk=_Dd8eYNx&aff_trace_key=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&terminal_id=68305b5097854f1caa43b9878a24fa29&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt)
     * [LilyGO T-Deck](https://github.com/Xinyuan-LilyGO/T-Deck/tree/master)
 
 
 
---------
+---------------
 
 
 
 ## External Antenna
+
 * [#291 External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU)
 * [Suggested: #291 External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=PUppoaePi3A&list=RDCMUCu7_D0o48KbfhpEohoP7YSQ&index=2)
 * [#368 How to build performing antennas for LoRa, WiFi, 433MHz, Airplanes etc.(NanoVNA, MMANA-GAL)](https://www.youtube.com/watch?v=6cVYsHCLKq8)
 * [#191 Optimizing Antennas using a cheap N1201SA VNA (Vector Impedance Analyzer), LoRa, Review](https://www.youtube.com/watch?v=ZpKoLvqOWyc)
 
+
 # Extending Range of ESP32
+
 * [#291 External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&t=0s)
 * [#292 Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A)
 
+
 # Jami
+
 * [Jami - An Open Source, Peer-to-Peer, Audio, Video, Conferencing, Chat, and Screen Sharing System](https://www.youtube.com/watch?v=2Wi99K33qrw)
 
 
 
-------
+---------------
 
 
 
@@ -754,35 +814,45 @@ Its a free and open-source platform with end-to-end encryption to protect the da
 * [talKKonnect - A Headless Mumble Client/Transceiver/Walkie Talkie/Intercom/Gateway for Single Board Computers, PCs or Virtual Environments (IP Radio/IP PTT)](https://github.com/talkkonnect/talkkonnect)
 
 Mumble
-    * https://www.mumble.com/
+    *<https://www.mumble.com/>
     * [Mumble][21]
-    * [Mumble Push To Talk](https://www.mumble.com/support/mumble-server-push-to-talk.php)
-    * Build your own Raspberry Pi Mumble Server: https://pimylifeup.com/raspberry-pi-mumble-server/
-Free Mumble Server (iMumble): https://www.imumble.nl/
+    *[Mumble Push To Talk](https://www.mumble.com/support/mumble-server-push-to-talk.php)
+    * Build your own Raspberry Pi Mumble Server: <https://pimylifeup.com/raspberry-pi-mumble-server/>
+Free Mumble Server (iMumble): <https://www.imumble.nl/>
+
 
 ## Mumble Server
 The `mumble` server is named `murmur`.
 
+
 ### Mumble Server in Docker Container
+
 * [Complete mumble server using Docker-compose](https://raddinox.com/complete-mumble-server-using-docker)
 
+
 ## Mumble Client
+
 * [Tutorial: How to setup & use Mumble VoIP Client](https://www.youtube.com/watch?v=t8VbE478kaw)
 * [Android: Mumla - Mumble VoIP](https://play.google.com/store/apps/details?id=se.lublin.mumla)
 * [General-purpose mumble client library written in python, for writing mumble bots](https://github.com/frymaster/mumbleclient)
 
+
 ## Via Ham Radio
+
 * [Remote Ham Radio Rig | Mumble Server not RigPi](https://www.youtube.com/watch?v=DBfyQRvOmag)
 
 
-------
+---------------
 
 
 
 # Antenna Improvements
+
 * [NEW PI ZERO GAINS UNAPPROVED ANTENNAS YET AGAIN](https://hackaday.com/2021/12/13/new-pi-zero-gains-unapproved-antennas-yet-again/)
 
+
 # Open-Source Cell Phone
+
 * [Open-Source Cell Phone Based On ESP32](https://hackaday.com/2023/08/03/open-source-cell-phone-based-on-esp32/)
 
 
@@ -792,6 +862,7 @@ The `mumble` server is named `murmur`.
 
 
 # WiFi Repeater (aka WiFi NAT Router)
+
 * [18650 Brings ESP8266 WiFi Repeater Along For The Ride](https://hackaday.com/2021/04/08/18650-brings-esp8266-wifi-repeater-along-for-the-ride/)
 * [esp_wifi_repeater](https://github.com/martin-ger/esp_wifi_repeater)
 * [ESP32 NAT Router](https://github.com/martin-ger/esp32_nat_router)
