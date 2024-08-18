@@ -332,7 +332,7 @@ There are many Python static analysis tools to choose from, but these are most h
 ---------------
 
 
-# Build a Python Command-Line App
+# Build a Python Command-Line ToDo App
 
 * [Build a Command-Line App with Python in 7 Easy Steps](https://www.kdnuggets.com/build-a-command-line-app-with-python-in-7-easy-steps)
 * [A Simple Command-Line TO-DO List App](https://github.com/balapriyac/python-projects/tree/main/command-line-app)
