@@ -40,8 +40,9 @@ Version:      0.0.0
 # Mecanum Wheel Robot
 
 * [Mecanum Wheel Robot Car with ESP-NOW Remote Control](https://dronebotworkshop.com/mecanum/)
-  * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
-  * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
+    * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
+    * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
+    * [Inside The Mecanum Wheel](https://hackaday.com/2024/08/11/inside-the-mecanum-wheel/)
 * [Unihiker Remote Control](https://community.dfrobot.com/makelog-314402.html)
 
 
@@ -59,7 +60,7 @@ Version:      0.0.0
 # Latest Version
 
 * [The Evolution of a 3D Printed Off-Road R/C Car](https://hackaday.com/2020/04/09/the-evolution-of-a-3d-printed-off-road-r-c-car/)
-  * [Tarmo4 RC Project](https://docs.google.com/document/d/1hfrpDU1DQm6QKrioJsxxcMdq8ormYTlwAHaiswDuSHI/edit#heading=h.flrf7kcrqwuu)
+    * [Tarmo4 RC Project](https://docs.google.com/document/d/1hfrpDU1DQm6QKrioJsxxcMdq8ormYTlwAHaiswDuSHI/edit#heading=h.flrf7kcrqwuu)
 
 This guy appears to have used Tarmo as a base and improved it
 
@@ -86,11 +87,11 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 ## Tarmo5
 
 * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
-  * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
-  * [Tarmo5 Build, First Run and Initial Impressions](https://www.youtube.com/watch?v=heEsQMkIaAc)
+    * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
+    * [Tarmo5 Build, First Run and Initial Impressions](https://www.youtube.com/watch?v=heEsQMkIaAc)
 * Based on the Tarmo5 - But Maybe Better!
-  * [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
-  * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
+    * [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
+    * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
 
 
 ## Tormo4
@@ -105,10 +106,10 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 
 * [Excellent 3D-Printed RC Car Features Variety of Drivetrain Options](https://blog.hackster.io/excellent-3d-printed-car-features-variety-of-drivetrain-options-d8c1c552b285)
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
-  * [3D Printed RC Car V3 -- Tarmo3 -- Front Parts](https://www.thingiverse.com/thing:3546277)
-  * [3D Printed RC Car V3 -- Tarmo3 -- Drivetrain](https://www.thingiverse.com/thing:3547058)
-  * [3D Printed RC Car v3 -- Tarmo3 -- Rear Parts](https://www.thingiverse.com/thing:3545173)
-  * [BOM](https://docs.google.com/spreadsheets/d/10gS0H6_ADVWPt2O_ZIXLfmCgJAxFySBps5DkU6ocSow/edit#gid=0)
+    * [3D Printed RC Car V3 -- Tarmo3 -- Front Parts](https://www.thingiverse.com/thing:3546277)
+    * [3D Printed RC Car V3 -- Tarmo3 -- Drivetrain](https://www.thingiverse.com/thing:3547058)
+    * [3D Printed RC Car v3 -- Tarmo3 -- Rear Parts](https://www.thingiverse.com/thing:3545173)
+    * [BOM](https://docs.google.com/spreadsheets/d/10gS0H6_ADVWPt2O_ZIXLfmCgJAxFySBps5DkU6ocSow/edit#gid=0)
 
 
 # Robak
@@ -454,19 +455,19 @@ It has a built in BEC who's output is 6V/1.5A to power the radio transmitter.
 >This ESC has a builtin BEC to deliver power to the radio system.
 
 * Racing Features
-  * It has three running modes: Racing mode (Forward), Forward/Backward mode, and Rock Crawler mode.
-  * Proportional ABS brake function with 4 steps of maximum brake force adjustment,
+    * It has three running modes: Racing mode (Forward), Forward/Backward mode, and Rock Crawler mode.
+    * Proportional ABS brake function with 4 steps of maximum brake force adjustment,
     8 steps of drag-brake force adjustment and 4 steps of initial brake force adjustment.
-  * It has 9 start modes (Also called "Punch" ) from "Soft" to "Very aggressive".
+    * It has 9 start modes (Also called "Punch" ) from "Soft" to "Very aggressive".
 
 * Protection Featues
-  * Multiple protection features: Low voltage cut-off protection for lithium or nickel battery,
+    * Multiple protection features: Low voltage cut-off protection for lithium or nickel battery,
     Over-heat protection, throttle signal loss protection, motor blocked protection.
 
 * Programming Feature
-  * With 8 steps of timing adjustment to get the best compatibility with various of motors.
-  * Easily program with only one button and compatible with pocket-sized program card.
-  * The ESC is USB supported. The firmware of the ESC can be updated through
+    * With 8 steps of timing adjustment to get the best compatibility with various of motors.
+    * Easily program with only one button and compatible with pocket-sized program card.
+    * The ESC is USB supported. The firmware of the ESC can be updated through
     an USB adapter on the Advanced LCD Program Box (Optional device).
 
 * [An Open Source ESC For Brushless Motors](https://hackaday.com/2019/05/15/an-open-source-esc-for-brushless-motors/)
@@ -854,18 +855,18 @@ Self Driving Cars
 * [Self Driving Cars S1E3 AI Failure?](https://www.youtube.com/watch?v=yaYER2M8dcs)
 * [Self Driving Cars S1E4 RALPH](https://www.youtube.com/watch?v=DIAKL0s4Mzs)
 * [I RACED My Self-Driving RC Car](https://www.youtube.com/watch?v=zuyOdaQ2xuw)
-  * [I Made a Self Driving FPV RC Car](https://www.youtube.com/watch?v=k1tdeXjaJpk)
-  * [Building the FASTEST Self Driving RC Car](https://www.youtube.com/watch?v=R87Qlq_wSY8)
+    * [I Made a Self Driving FPV RC Car](https://www.youtube.com/watch?v=k1tdeXjaJpk)
+    * [Building the FASTEST Self Driving RC Car](https://www.youtube.com/watch?v=R87Qlq_wSY8)
 
 
 # DeepPiCar
 
 * [DeepPiCar — Part 1: How to Build a Deep Learning, Self Driving Robotic Car on a Shoestring Budget](https://towardsdatascience.com/deeppicar-part-1-102e03c83f2c)
-  * Part 2: Raspberry Pi Setup and PiCar Assembly
-  * Part 3: Make PiCar See and Think
-  * Part 4: Autonomous Lane Navigation via OpenCV
-  * Part 5: Autonomous Lane Navigation via Deep Learning
-  * Part 6: Traffic Sign and Pedestrian Detection and Handling
+    * Part 2: Raspberry Pi Setup and PiCar Assembly
+    * Part 3: Make PiCar See and Think
+    * Part 4: Autonomous Lane Navigation via OpenCV
+    * Part 5: Autonomous Lane Navigation via Deep Learning
+    * Part 6: Traffic Sign and Pedestrian Detection and Handling
 
 
 # Tiny Car
@@ -903,7 +904,7 @@ and pieces such as C-hubs, steering blocks, rear hub carriers and axle nuts.
 ## Course Work
 
 * [MIT 6.S094: Deep Learning for Self-Driving Cars](https://selfdrivingcars.mit.edu/)
-  * <https://github.com/marcotav/deepcars>
+    * <https://github.com/marcotav/deepcars>
 
 
 ## Autonomous RC Car
