@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -23,6 +23,9 @@ Version:      0.0.0
 * [Getting Started with Meshtastic](https://www.youtube.com/playlist?list=PLshzThxhw4O5JTOACGHzYSSd3soDhoXKK)
 * [DECODING MESHTASTIC WITH GNU RADIO](https://hackaday.com/2024/06/26/decoding-meshtastic-with-gnu-radio/)
 
+* [Cell Phone Replacement?](https://blog.adafruit.com/2024/08/18/cell-phone-replacement/)
+    * [LoRa v32 from Heltec Everything You Need to Know](https://medium.com/@timothydmoody/lora-v32-from-heltec-everything-you-need-to-know-def4d36fdfaf)
+
 
 
 
@@ -33,11 +36,13 @@ Version:      0.0.0
 * [Controlling Things Over a LoRa Mesh](https://www.hackster.io/scottpowell69/controlling-things-over-a-lora-mesh-2ea623)
 * [Building A Communications Grid With LoRaType](https://hackaday.com/2023/03/13/building-a-communications-grid-with-loratype/)
 
+
 # Reticulum
 Reticulum is the cryptography-based networking stack for building local and wide-area networks with readily available hardware. Reticulum can continue to operate even in adverse conditions with very high latency and extremely low bandwidth.
 
 * [RNODE: A Portable Unrestricted Digital Radio](https://hackaday.com/2024/03/18/rnode-a-portable-unrestricted-digital-radio/)
 * [Using RNodes With Amateur Radio Software](https://unsigned.io/guides/2020_05_03_using_rnodes_with_amateur_radio_software.html)
+
 
 # Meshtastic
 [Meshtastic][01] is a project that lets you use inexpensive ($30 ish) GPS radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.
@@ -57,9 +62,12 @@ Reticulum is the cryptography-based networking stack for building local and wide
 
 * [Garden Light Turned Mesh Network Node](https://hackaday.com/2024/01/21/garden-light-turned-mesh-network-node/)
 
+
 # Meshtastic Relay
+
 * [Build Long-Range IoT Applications Fast With Meshtastic](https://spectrum.ieee.org/build-iot-apps-with-meshtastic)
 * [A Long-Range Meshtastic Relay](https://hackaday.com/2024/04/03/long-range-meshtastic-relay/)
+
 
 # Meshtastic Tracking
 setting up an Owntracks service, and then tying it to Meshtastic for off-Internet usability. The backbone that makes this work is MQTT.
@@ -71,15 +79,22 @@ setting up an Owntracks service, and then tying it to Meshtastic for off-Interne
     * [Owntracks Reorder](https://github.com/owntracks/recorder)
     * [Owntracks Frontend](https://github.com/owntracks/frontend)
 
+
 # Austin Mesh
+
 * [Austin Mesh](https://austinmesh.org/)
 * [AustinMesh.org solar powered Meshtastic network](https://www.youtube.com/watch?v=XXbdW5C9r9g)
 
+
 # QMesh
+
 * [QMESH: LORA MESH NETWORKED VOICE COMMUNICATIONS](https://hackaday.com/2021/06/06/qmesh-lora-mesh-networked-voice-communications/)
 
+
 # Mycelium
+
 * [Add Mycelium To Your Mesh Networks](https://hackaday.com/2021/10/26/add-mycelium-to-your-mesh-networks/)
+
 
 # LoRaMesher
 Designed to make it easy to build a LoRa network with no gateways, LoRaMesher lets nodes route traffic automatically.
@@ -87,7 +102,9 @@ Designed to make it easy to build a LoRa network with no gateways, LoRaMesher le
 * [Joan Miquel Solé's LoRaMesher Builds LoRa Mesh Networks on Espressif ESP32 Microcontrollers](https://www.hackster.io/news/joan-miquel-sole-s-loramesher-builds-lora-mesh-networks-on-espressif-esp32-microcontrollers-b546e249bcd8)
 * [GitHub: LoRaMesher/LoRaMesher](https://github.com/LoRaMesher/LoRaMesher)
 
+
 # RadioChat
+
 * [RadioChat is a Simple LoRa Interface Over WiFi](https://hackaday.com/2023/12/25/radiochat-is-a-simple-lora-interface-over-wifi/)
 * [RadioLib: Universal wireless communication library for embedded devices](https://github.com/jgromes/RadioLib/tree/master)
     * [RadioLib Documentation](https://jgromes.github.io/RadioLib/)
