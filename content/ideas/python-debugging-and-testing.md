@@ -332,12 +332,14 @@ There are many Python static analysis tools to choose from, but these are most h
 ---------------
 
 
-# Build a Python Command-Line ToDo App
+# Build a Python Command-Line App
+Example programs that make heavy use of Python's commandline utilities.
 
 * [Build a Command-Line App with Python in 7 Easy Steps](https://www.kdnuggets.com/build-a-command-line-app-with-python-in-7-easy-steps)
 * [A Simple Command-Line TO-DO List App](https://github.com/balapriyac/python-projects/tree/main/command-line-app)
 * [Build a Command-Line To-Do App With Python and Typer](https://realpython.com/python-typer-cli/)
-* [Manage Your To-Do Lists Using Python and Django](https://realpython.com/django-todo-lists𝒈/)
+* [Manage Your To-Do Lists Using Python and Django](https://realpython.com/django-todo-lists/)
+
 
 *--------------
 
