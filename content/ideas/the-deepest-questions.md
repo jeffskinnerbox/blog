@@ -34,6 +34,21 @@ The way I would put it .... The sciences are the stories we tell ourselves to or
 * [How the Square Root of 2 Became a Number](https://www.quantamagazine.org/how-the-square-root-of-2-became-a-number-20240621/)
 
 
+---------------
+
+
+# Self Study Topics
+* [How to self study pure math - a step-by-step guide](https://www.youtube.com/watch?v=byNaO_zn2fI)
+* [How to self-study topology on your own!](https://aleph0.substack.com/p/how-to-self-study-topology-on-your)
+
+* [We Need To Talk About Self-Studying Mathematics](https://www.youtube.com/watch?v=cwTJxkdRzH8)
+* [On Mathematical Maturity (1) Thomas Garrity](https://www.youtube.com/watch?v=zHU1xH6Ogs4)
+* [On Mathematical Maturity (2) Thomas Garrity](https://www.youtube.com/watch?v=4HFyWC-YtIk)
+
+
+---------------
+
+
 # 2022 Nobel Prize in Physics
 
 Bell Test and its proof of entanglement.

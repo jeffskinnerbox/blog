@@ -13,12 +13,12 @@ Version:      0.0.0
 
 ---------------
 
-_"Perhaps the only thing harder than building a quantum computer is explaining how it works."_ ... Adam Bluestein, Fast Company
+_"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
+... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
 
 _“The mathematics of quantum physics fits on a postcard. But there are thousands of pages of popular science trying to make that mathematics into a rewarding analogy. That property of quantum mechanics to resist analogy carries through to the computer.”_ ... Peter Shadboldt, PsiQuantum
 
-_"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
-... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
+_"Perhaps the only thing harder than building a quantum computer is explaining how it works."_ ... Adam Bluestein, Fast Company
 
 _"The Talk" by Zach Weinersmith & Scott Aaronson_ - <https://www.smbc-comics.com/comic/the-talk-3>
 
@@ -34,6 +34,7 @@ _"The Talk" by Zach Weinersmith & Scott Aaronson_ - <https://www.smbc-comics.com
 * [Introduction to the Theory of Computation, by Michael Sipser](https://www.amazon.com/dp/0357670582)
 
 * [The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/?s=The+Unexaggerated+Magic+Of+Quantum)
+* [Quantum Computing in ELI5 terms](https://qubitninja.substack.com/p/quantum-computing-eli5)
 
 I found the word to describe what I was looking for in the description of the Tufts University's course [CS 150: Quantum Computer Science](https://www.cs.tufts.edu/comp/150QCS/).
 The key sentence: _This is an elementary-level introduction to quantum computing through the computer science lens._
@@ -236,6 +237,16 @@ As education researchers gain a broader understanding of how students learn quan
 QEngine is our software library for quantum simulation and - optimization.
 
 * [QEngine](https://www.quatomic.com/)
+
+
+### Learning Quantum Computing Concepts
+
+* Quantum Computing Concepts
+    * [IBM Quantum Learning](https://learning.quantum.ibm.com/)
+    * [Black Opal](https://black.q-ctrl.com/)
+* Quantum Algorithms Development
+    * [IBM Quantum Documentation](https://docs.quantum.ibm.com/)
+    * [Penny Lane](https://pennylane.ai/qml/)
 
 
 ---------------
