@@ -24,7 +24,7 @@ The way I would put it .... The sciences are the stories we tell ourselves to or
 ---------------
 
 * [The most beautiful function in Math: Sinc](https://www.youtube.com/watch?v=CGsvq_eAJYo)
-* [What Does x¹⁰⁰ + y¹⁰⁰ = 1 Look Like?](https://barryleung.medium.com/what-does-x%C2%B9%E2%81%B0%E2%81%B0-y%C2%B9%E2%81%B0%E2%81%B0-1-look-like-fd2719e7028a)
+* [What Does x¹⁰⁰ + y¹⁰⁰ = 1 Look Like?](https://mathematicaldonuts.substack.com/p/what-does-x-y-1-look-like)
 
 
 # What is Proof
