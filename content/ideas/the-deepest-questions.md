@@ -200,6 +200,7 @@ QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechan
 
 * [A brief history of quantum mechanics](https://bigthink.com/collections/brief-history-quantum-mechanics/)
     - Early Days
+        * [Classical Mechanics and Relativity lecture playlist](https://www.youtube.com/playlist?list=PLotxEOxVaaoKDo2GFPZsg04p3OnlwYBkR)
         * [Ancient physics: How Democritus predicted the atom](https://bigthink.com/hard-science/ancient-physics-democritus-predicted-atom/)
         * No. 1 - [Max Planck and how the dramatic birth of quantum physics changed the world](https://bigthink.com/13-8/max-planck-birth-quantum-physics/)
         * No. 2 -[Quantum jumps: How Niels Bohr’s idea changed the world](https://bigthink.com/13-8/quantum-jumps-niels-bohr-atom/)
