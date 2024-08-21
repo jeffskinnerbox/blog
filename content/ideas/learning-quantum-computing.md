@@ -1,4 +1,4 @@
-<!--
+<ch!--
 Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
@@ -185,6 +185,12 @@ How does a person develop a viseral understanding of quantum computing?
 
 * [Quantum Tic-Tac-Toe: A Genuine Probabilistic Approach](https://academic.timwylie.com/17CSCI4341/quantum_tictactoe.pdf)
 * [Quantum Tic Tac Toe Reinforcement Learning](https://www.youtube.com/watch?v=WXiUDKCsXa0)
+
+### Quantum Mechanics Toys
+* [For Some Reason, These Quantum Mechanics Toys Didn’t Catch On](https://spectrum.ieee.org/for-some-reason-these-quantum-mechanics-toys-didnt-catch-on)
+    * [Playing with Quantum Toys: Julian Schwinger’s Measurement Algebra and the Material Culture of Quantum Mechanics Pedagogy at Harvard in the 1960s](https://link.springer.com/epdf/10.1007/s00016-018-0213-3?sharing_token=gXaCU8sTKZDz9CD74pHysve4RwlQNchNByi7wbcMAY6Qp8JObREiurDKlz9hr9xVlcI2yDj0ksf3Q2AQ4u_5cE3RbNMLJ_VW55jnhIIAUcXmDue2Id6rteXlgC8XR3pvN5K6jYRUbaMvjoQhkNb4heBvWeO1o3ArIWPDJfGmgGI%3D)
+    * [PLAYING WITH QUANTUM TOYS: Introducing the history of quantum mechanics with historical objects](https://agenda.centrofermi.it/event/17/contributions/47/attachments/29/30/Jean-Francois_Gauvin_-_Playing_Quantum_Toys_Rome_1.pdf)
+    * [Playing with Science History – Jean-François Gauvin](https://www.parsingscience.org/2018/10/30/jean-francois-gauvin/)
 
 
 ### Qbit Factory
