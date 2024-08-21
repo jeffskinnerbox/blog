@@ -325,6 +325,7 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 * [Digi-Comp I](https://mindsontoys.com/kits.htm?dc1_main.htm)
 * [Lego Mechanical Computer](https://www.drmoron.org/posts/mechanical-computer/)
 * [Mechanical Implementation of a Turing Machine](http://rubens.ens-lyon.fr/)
+* [Lord Kelvin and His Analog Computer](https://spectrum.ieee.org/tide-predictions)
 
 
 # What is Neuromorphic Computing?
