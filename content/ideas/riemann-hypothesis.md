@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -39,28 +39,38 @@ Manim is an engine for precise animations, designed for creating explanatory mat
 
 * [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
 
+
 ## ManimCommunity
+
 * [How to Create Mathematical Animations like 3Blue1Brown Using Python](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1)
 * [ManimCommunity](https://github.com/ManimCommunity)
 * [Manim Documentation](https://docs.manim.community/en/stable/index.html#)
 
 
 # Prime Number Types & Theories
+
 * [A Primer on Prime Numbers](https://www2.palomar.edu/pages/math/files/2018/02/A-Primer-on-Prime-Numbers.pdf)
 * [Another Look at Prime Numbers](https://betterexplained.com/articles/another-look-at-prime-numbers/)
 
+
 # Consequences of the Riemann Hypothesis
-* https://en.wikipedia.org/wiki/Riemann_hypothesis#Consequences
+
+* <https://en.wikipedia.org/wiki/Riemann_hypothesis#Consequences>
 * [Factorials, prime numbers, and the Riemann Hypothesis](https://www.youtube.com/watch?v=oVaSA_b938U)
 * [On the Number of Primes Less Than a Given Magnitude](https://en.wikipedia.org/wiki/On_the_Number_of_Primes_Less_Than_a_Given_Magnitude)
 * [Marcus du Sautoy | Prime Numbers -The Atoms of Maths | 2009](https://www.youtube.com/watch?v=dSpQICz86-M)
 
+
 # Riemann’s Functional Equation
+
 * [Deriving and Understanding Riemann’s Functional Equation](https://www.cantorsparadise.com/deriving-and-understanding-riemanns-functional-equation-4eea09da6d5a)
 * [What is the Riemann Hypothesis REALLY about?](https://www.youtube.com/watch?v=e4kOh7qlsM4)
 
+
 # Solutions
+
 * [A British mathematician thinks he’s cracked a secret worth a million bucks](https://www.popsci.com/riemann-hypothesis-proof)
+
 
 # The Unreasonable Effectiveness of Mathematics
 ["The Unreasonable Effectiveness of Mathematics in the Natural Sciences"](hhttps://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)
@@ -77,7 +87,9 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [The (Imaginary) Numbers at the Edge of Reality](https://www.quantamagazine.org/the-imaginary-numbers-at-the-edge-of-reality-20181025/)
 * [Mathematics as thought](https://aeon.co/essays/the-secret-intellectual-history-of-mathematics)
 
+
 # Bernhard Riemann's Habilitation Dissertation
+
 * [The Riemann Hypothesis, Explained](https://www.youtube.com/watch?v=zlm1aajH6gY)
 * [What is the Riemann Hypothesis?](https://www.youtube.com/watch?v=v9nyNBLCPks)
 * [The Pattern to Prime Numbers?](https://www.youtube.com/watch?v=dktH8hJadyU)
@@ -87,11 +99,15 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [Bernhard Riemann 1826-1866: Turning Points in the Conception of Mathematics](https://uberty.org/wp-content/uploads/2015/11/Detlef_Laugwitz_Bernhard_Riemann.pdf)
 * [Analytic Number Theory](https://www.youtube.com/playlist?list=PLbaA3qJlbE93DiTYMzl0XKnLn5df_QWqY)
 
+
 # Imaginary Numbers are Real
+
 * [Imaginary Numbers are Real](https://www.youtube.com/playlist?list=PLiaHhY2iBX9g6KIvZ_703G3KJXapKkNaF)
 * [Analysis of a Complex Kind](https://www.youtube.com/playlist?list=PLi7yHjesblV0sSfZzWdSUXGO683n_nJdQ)
 
+
 # Visualizing Complex Functions
+
 * [Imaginary Numbers Are Real - Part 10: Complex Functions](https://www.youtube.com/watch?v=pNp8Qf20-sA&index=11&list=PLiaHhY2iBX9g6KIvZ_703G3KJXapKkNaF&t=0s)
 * [Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 * [Domain coloring](https://en.wikipedia.org/wiki/Domain_coloring)
@@ -105,13 +121,18 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [Riemann zeta function visualization](https://github.com/empet/Math)
 * [Computer Visualization of the Riemann Zeta Function](https://hal.archives-ouvertes.fr/hal-01441140/document)
 
+
 # Zero
+
 * [Zero is nothing but a number](https://medium.com/however-mathematics/zero-is-nothing-but-a-number-a435698bf50c)
 * [A huge conflict: What is zero raised to the power of zero?](https://medium.com/however-mathematics/a-huge-conflict-what-is-zero-raised-to-the-power-of-zero-80298dc1995)
 
+
 # What is the Importance of Prime Numbers?
+
 * [Why do we need to know about prime numbers with millions of digits?](http://theconversation.com/why-do-we-need-to-know-about-prime-numbers-with-millions-of-digits-89878)
 * [The Insect That Discovered the Prime Numbers](https://www.cantorsparadise.com/the-insect-that-discovered-the-prime-numbers-ec20c2a6e5da)
+
 
 # Primes and Cryptography
 The most popular example I know comes from Cryptography, where many systems rely on problems in number theory, where primes have an important role (since primes are in a sense the "building blocks" of numbers).
@@ -119,6 +140,7 @@ The most popular example I know comes from Cryptography, where many systems rely
 Take for example the RSA encryption system: All arithmetic is done modulo n, with n=pq and p,q large primes. Decryption in this system relies on computing Euler's phi function, φ(n), which is hard to compute (hence the system is hard to break) unless you know the prime factorization of n (which is also hard to compute unless you know it upfront). Hence you need a method to generate primes (the Miller-Rabin primality checking algorithm is usually used here) and then you construct n by multiplying the primes you have found.
 
 * [Why Euler’s Formula for Primes could disrupt the World](https://towardsdatascience.com/why-eulers-formula-for-primes-could-disrupt-the-world-edc41bd3ba5b)
+
 
 # What is the Riemann Hypothesis?
 The Riemann Hypothesis is one of the [Millennium Prize Problems](http://www.claymath.org/millennium-problems/millennium-prize-problems).
@@ -162,11 +184,13 @@ These include
 * Goldbach's conjecture, that every even integer greater than 2 can be expressed as the sum of two primes
 * twin prime conjecture, that there are infinitely many pairs of primes having just one even number between them.
 
-* http://www.claymath.org/millennium-problems/riemann-hypothesis
+* <http://www.claymath.org/millennium-problems/riemann-hypothesis>
 * [Riemann's 1859 Manuscript](http://www.claymath.org/publications/riemanns-1859-manuscript)
 * [The Riemann Hypothesis: FAQ and resources](http://empslocal.ex.ac.uk/people/staff/mrwatkin//zeta/riemannhyp.htm#q6)
 
+
 # Why is the Riemann Hypothesis so Important?
+
 
 ## Physics
 Researchers have discovered a deep connection between the Riemann hypothesis and the physical
@@ -178,6 +202,7 @@ Researchers have discovered a deep connection between the Riemann hypothesis and
 * [Quantum Gravity, Timelessness and Complex Numbers](https://towardsdatascience.com/quantum-gravity-timelessness-and-complex-numbers-855b403e0c2f)
 * [Mysteries of Infinity](https://www.cantorsparadise.com/mysteries-of-infinity-2d69c2b14304)
 
+
 # Some Facts About Prime Numbers
 Univerisity of Tennessee hosts
 [The Prime Pages: prime number research, records, and resources](http://primes.utm.edu/)
@@ -186,9 +211,11 @@ A prime number is a positive whole number greater than one which is divisible on
 
 2 is the only even prime – all other even numbers are divisible by 2
 
-1 is neither prime nor composite by convention - http://primes.utm.edu/notes/faq/one.html
+1 is neither prime nor composite by convention - <http://primes.utm.edu/notes/faq/one.html>
+
 
 # Prime Spiral
+
 * [Why do prime numbers make these spirals?](https://www.youtube.com/watch?v=EK32jo7i5LQ)
 * [Prime Spirals - Numberphile](https://www.youtube.com/watch?v=iFuR97YcSLM)
 * [Ulam spiral or prime spiral](https://en.wikipedia.org/wiki/Ulam_spiral)
@@ -196,13 +223,18 @@ A prime number is a positive whole number greater than one which is divisible on
 * [Unexpected Beauty in Primes](https://medium.com/cantors-paradise/unexpected-beauty-in-primes-b347fe0511b2)
 * [The Prime Numbers Cross: Hint of a Deeper Pattern?](https://medium.com/@riccardo.disipio/the-prime-numbers-cross-hint-of-a-deeper-pattern-2110c348f03b)
 
+
 # Generating Primes
-* https://en.wikipedia.org/wiki/Generating_primes
-* https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+
+* <https://en.wikipedia.org/wiki/Generating_primes>
+* <https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes>
+
 
 # Twin Primes Conjector
+
 * [Twin Prime Conjecture - Numberphile](https://www.youtube.com/watch?v=QKHKD8bRAro)
 * [Gaps between Primes (extra footage) - Numberphile](https://www.youtube.com/watch?v=D4_sNKoO-RA)
+
 
 ## Fundamental theorem of Arithmetic
 The fundamental theorem of arithmetic (FTA),
@@ -213,6 +245,7 @@ or is the product of a unique combination of prime numbers.
 * [Fundamental Theorem of Arithmetic](https://brilliant.org/wiki/fundamental-theorem-of-arithmetic/)
 * [Real numbers - What is Fundamental theorem of Arithmetic?](https://www.youtube.com/watch?v=aaIKlXNblw4&app=desktop)
 
+
 ## Prime Number Theorem
 Prime Number Theorm, sometimes called the Dirichlet prime number theorem,
 states that for any two positive coprime integers a and d, there are
@@ -221,7 +254,9 @@ infinitely many primes of the form a + nd, where n is a non-negative integer.
 * [Primes are like Weeds (PNT) - Numberphile](https://www.youtube.com/watch?v=l8ezziaEeNE)
 * [Prime Number Theorem (little extra bit)](https://www.youtube.com/watch?v=TMRZYSQGAcw)
 
+
 # Analytic Continuation
+
 * [Analytic Continuation and the Zeta Function](https://www.youtube.com/watch?v=CjSKmcWRFzE)
 * [Visualizing the Riemann zeta function and analytic continuation](https://www.youtube.com/watch?v=sD0NjbwqlYw)
 * [Riemann Hypothesis - Numberphile](https://www.youtube.com/watch?v=d6c6uIyieoo)
