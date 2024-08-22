@@ -1,4 +1,4 @@
-<ch!--
+<!--
 Maintainer:   <jeffskinnerbox@yahoo.com> / <www.jeffskinnerbox.me>
 Version:      0.0.0
 -->
@@ -193,6 +193,17 @@ How does a person develop a viseral understanding of quantum computing?
     * [Playing with Quantum Toys: Julian Schwinger’s Measurement Algebra and the Material Culture of Quantum Mechanics Pedagogy at Harvard in the 1960s](https://link.springer.com/epdf/10.1007/s00016-018-0213-3?sharing_token=gXaCU8sTKZDz9CD74pHysve4RwlQNchNByi7wbcMAY6Qp8JObREiurDKlz9hr9xVlcI2yDj0ksf3Q2AQ4u_5cE3RbNMLJ_VW55jnhIIAUcXmDue2Id6rteXlgC8XR3pvN5K6jYRUbaMvjoQhkNb4heBvWeO1o3ArIWPDJfGmgGI%3D)
     * [PLAYING WITH QUANTUM TOYS: Introducing the history of quantum mechanics with historical objects](https://agenda.centrofermi.it/event/17/contributions/47/attachments/29/30/Jean-Francois_Gauvin_-_Playing_Quantum_Toys_Rome_1.pdf)
     * [Playing with Science History – Jean-François Gauvin](https://www.parsingscience.org/2018/10/30/jean-francois-gauvin/)
+
+The Pauli Cubes appear to be working with the same principles that this "Homemade Quantum Computer" is using.
+All you'll need is:
+
+* a weak red laser pointer (the type in cat toys are generally safe)
+* polarizing film or polarizing filter. If you have polaroid glasses or certain camera ND filters you may already have this. Otherwise it's available on amazon
+* half waveplate (the plastic thing) is this one: <https://www.edmundoptics.co.uk/f/poly>... (λ/2 Retarder Film (WP280))
+* You don't need calcite, but if you want to play with it, you can find it on etsy usually. Look for a sample that's exceptionally clear
+
+* [I made a (useless) quantum computer at home](https://www.youtube.com/watch?v=muoIG732fQA)
+* [What can my homemade quantum computer do?](https://www.youtube.com/watch?v=tHfGucHtLqo)
 
 
 ### Qbit Factory
@@ -471,19 +482,6 @@ Does this tell us enough about the distinction between the classical & quantum c
 | Supercomputer is a system that operates at a high compute to I/O ratio and delivers a very large number of effective computing cycles per second. | Quantum computer is a computer aimed at utilizing new quantum algorithms to accelerate digital computation.                            |
 | Common applications of supercomputing are simulation and modeling of physical phenomena such as climate change, explosions, etc.                  | There is no real world applications of Quantum computing.                                                                              |
 | It is something that connects people, organizations, products and technologies.                                                                   | Whereas, these are about changing the notion of computation itself.                                                                    |
-
-
-# Homemade Quantum Computer
-
-All you'll need is:
-
-* a weak red laser pointer (the type in cat toys are generally safe)
-* polarizing film or polarizing filter. If you have polaroid glasses or certain camera ND filters you may already have this. Otherwise it's available on amazon
-* half waveplate (the plastic thing) is this one: <https://www.edmundoptics.co.uk/f/poly>... (λ/2 Retarder Film (WP280))
-* You don't need calcite, but if you want to play with it, you can find it on etsy usually. Look for a sample that's exceptionally clear
-
-* [What can my homemade quantum computer do?](https://www.youtube.com/watch?v=tHfGucHtLqo)
-* [I made a (useless) quantum computer at home](https://www.youtube.com/watch?v=muoIG732fQA)
 
 
 # Probabilistic Computing
