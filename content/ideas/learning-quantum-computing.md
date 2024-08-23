@@ -189,6 +189,16 @@ How does a person develop a viseral understanding of quantum computing?
 * [Quantum Tic Tac Toe Reinforcement Learning](https://www.youtube.com/watch?v=WXiUDKCsXa0)
 
 
+### Coin Flip Game
+
+* [A beginner's guide to quantum computing | Shohini Ghose](https://www.youtube.com/watch?v=QuR969uMICM)
+    * [How can quantum computing win 97% of times in coin flipping experiment?](https://quantumcomputing.stackexchange.com/questions/5273/how-can-quantum-computing-win-97-of-times-in-coin-flipping-experiment/5277#5277)
+    * [Hello Quantum: Taking your first steps into quantum computation](https://medium.com/qiskit/hello-quantum-2c1c00fe830c)
+    * [Quantum Coding Tutorial | How To Win a Quantum Coin Flip](https://www.youtube.com/watch?v=9nHNHgGGivM)
+    * [Playing with a Quantum Computer](https://arxiv.org/pdf/2108.06271)
+    * [Quantum Coin Toss](https://www.maplesoft.com/applications/download.aspx?id=154938/Quantum_Coin_Toss.pdf)
+
+
 ### Quantum Mechanics Toys / Pauli Cubes
 
 * [For Some Reason, These Quantum Mechanics Toys Didn’t Catch On](https://spectrum.ieee.org/for-some-reason-these-quantum-mechanics-toys-didnt-catch-on)
@@ -263,6 +273,7 @@ QEngine is our software library for quantum simulation and - optimization.
 ### Learning Quantum Computing Concepts
 
 * Quantum Computing Concepts
+    * [Quantum Computing Course – Math and Theory for Beginners](https://www.youtube.com/watch?v=tsbCSkvHhMo)
     * [IBM Quantum Learning](https://learning.quantum.ibm.com/)
     * [Black Opal](https://black.q-ctrl.com/)
 * Quantum Algorithms Development
