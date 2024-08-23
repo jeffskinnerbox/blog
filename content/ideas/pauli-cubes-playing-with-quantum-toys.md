@@ -11,6 +11,20 @@ Version:      0.0.0
 * [Inside a Quantum Computer! with Andrea Morello (Part 1 of 2)](https://www.youtube.com/watch?v=k_QeSOIDiEM)
 * [UNSW Quantum Computer Lab Visit - Part 2](https://www.youtube.com/watch?v=yT0Znr0Et4w)
 
+* [How To Code A Quantum Computer](https://www.youtube.com/watch?v=JOJ5zihcd6Q)
+* [I Coded a Real Quantum Computer](https://www.youtube.com/watch?v=Gl9GVLW451s)
+* [Quantum Computing Coding Tutorial (Step by step)](https://www.youtube.com/watch?v=WifWdbXjG00)
+* [Intro to quantum software development](https://www.youtube.com/watch?v=YjQ0umULc2g)
+
+* [Single qubit and its logic gates](https://www.youtube.com/watch?v=rD_fH7O-D5Y)
+* [Quantum Computing](https://www.youtube.com/playlist?list=PLWt5FuzgdX4nLn__pXyUBB5Gbwu7L-G5K)
+
+
+
+# DIY Quantum Computer
+
+* [DIY budget quantum computer](https://www.youtube.com/watch?v=FoCvgGrsfyE)
+* [How To Build A Quantum Computer](https://www.youtube.com/watch?v=N06hC1GL1ns)
 
 ---------------
 
@@ -40,6 +54,8 @@ All you'll need is:
 * [Understanding Waveplates and Retarders](https://www.edmundoptics.com/knowledge-center/application-notes/optics/understanding-waveplates/)
 * [Polarizer – How it Works: Visible Light Linear Polarizers](https://www.apioptics.com/about-api/resources/visible-light-linear-polarizer/)
 
+* [Quantum entanglement of optical photons: the first experiment, 1964–67](https://www.frontiersin.org/journals/quantum-science-and-technology/articles/10.3389/frqst.2024.1451239/full)
+
 
 ---------------
 
@@ -52,11 +68,11 @@ Here is the full list, based on Papaliolios’s own drawings:
 
 * Unpolarized clear plastic
 * Linear polarizer (0 degree) - <https://www.amazon.com/Polarization-Polarizer-Educational-Physics-Polarized/dp/B06XWXRB75/>
-* Linear polarizer (45 degrees)
-* Halfwave plate—retarder (fast axis 0 degree)
-* Halfwave plate—retarder (fast axis 45 degrees)
-* Quarterwave plate—retarder (fast axis 0 degree)
-* Quarterwave plate—retarder (fast axis 90 degrees)
+* Linear polarizer (45 degrees) - <https://www.amazon.com/Polarization-Polarizer-Educational-Physics-Polarized/dp/B06XWXRB75/>
+* Halfwave plate—retarder (fast axis 0 degree) - <https://www.edmundoptics.com/f/polymer-retarder-film/14827/#>
+* Halfwave plate—retarder (fast axis 45 degrees) - <https://www.edmundoptics.com/f/polymer-retarder-film/14827/#>
+* Quarterwave plate—retarder (fast axis 0 degree) - <https://www.edmundoptics.com/f/polymer-retarder-film/14827/#>
+* Quarterwave plate—retarder (fast axis 90 degrees) - <https://www.edmundoptics.com/f/polymer-retarder-film/14827/#>
 
 * [Waveplate](https://en.wikipedia.org/wiki/Waveplate) aka Retarder
 * [Polarization Optics Tutorial: Polarizers, Waveplates, Rotators, and Lyot Filters](https://wiki.jlab.org/ciswiki/images/9/91/Polarization_Tutorial.pdf)
