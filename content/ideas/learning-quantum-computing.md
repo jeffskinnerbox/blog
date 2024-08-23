@@ -722,6 +722,7 @@ What advantage does it give that can't be provided by other quantum computer sim
 
 * [Quokka: the little device set to democratize quantum computing](https://interestingengineering.com/podcast/lexicon/ep-53-quokka-the-little-device-set-to-democratize-quantum-computing)
 * [Quokka: Your Personal Quantum Computer](https://www.kickstarter.com/projects/chrisferrie/quokka-your-personal-quantum-computer)
+* ["Quokka: Quantum Computing in the Palm of Your Hand" by Chris Ferrie](https://www.youtube.com/watch?v=sziZoUB04zc)
 
 
 # Quantum Programming Languages
