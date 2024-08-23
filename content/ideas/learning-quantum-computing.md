@@ -204,6 +204,8 @@ How does a person develop a viseral understanding of quantum computing?
 
 * [Quantum Economics and Finance](https://www.youtube.com/playlist?list=PLXQuDqjDYq23fUB_zyX6-wJYVeHlfreyM)
 
+### Card Game: Find the Ace
+* [Quantum computing explained with a deck of cards | Dario Gil, IBM Research](https://www.youtube.com/watch?v=yy6TV9Dntlw)
 
 ### Quantum Mechanics Toys / Pauli Cubes
 
