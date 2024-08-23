@@ -197,6 +197,12 @@ How does a person develop a viseral understanding of quantum computing?
     * [Quantum Coding Tutorial | How To Win a Quantum Coin Flip](https://www.youtube.com/watch?v=9nHNHgGGivM)
     * [Playing with a Quantum Computer](https://arxiv.org/pdf/2108.06271)
     * [Quantum Coin Toss](https://www.maplesoft.com/applications/download.aspx?id=154938/Quantum_Coin_Toss.pdf)
+    * [QEF06 - The Penny Flip Game](https://www.youtube.com/watch?v=oXdlpj2IrRU)
+
+
+### Quantum Economics and Finance
+
+* [Quantum Economics and Finance](https://www.youtube.com/playlist?list=PLXQuDqjDYq23fUB_zyX6-wJYVeHlfreyM)
 
 
 ### Quantum Mechanics Toys / Pauli Cubes
