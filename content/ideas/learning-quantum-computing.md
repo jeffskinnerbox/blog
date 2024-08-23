@@ -341,6 +341,9 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 * [Lego Mechanical Computer](https://www.drmoron.org/posts/mechanical-computer/)
 * [Mechanical Implementation of a Turing Machine](http://rubens.ens-lyon.fr/)
 * [Lord Kelvin and His Analog Computer](https://spectrum.ieee.org/tide-predictions)
+* [Manchester Differerential Analyser](https://en.wikipedia.org/wiki/Differential_analyser)
+    * [Are Thinking Machines Possible?](https://medium.com/thought-thinkers/are-thinking-machines-possible-ea8e2e0f9dc1)
+    * [Machine Solves Mathematical Problems](https://meccano.us/documents/anon_1934b.pdf)
 
 
 # What is Neuromorphic Computing?
