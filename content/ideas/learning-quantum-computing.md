@@ -22,6 +22,8 @@ _"Perhaps the only thing harder than building a quantum computer is explaining h
 
 _"The Talk" by Zach Weinersmith & Scott Aaronson_ - <https://www.smbc-comics.com/comic/the-talk-3>
 
+_"...the gyroscope that I bought when I was eight ... seems mysterious or paradoxical in the context of common experience that excludes gyroscopes ... a paradox may remain if the intuition cannot reach out to connect with it."_
+[What is Entanglement? Stretching Your Mind to Understand Quantum Entanglement](https://thequantuminsider.com/2024/08/22/what-is-entanglement-stretching-your-mind-to-understand-quantum-entanglement-a-guest-post-by-carl-kocher/)
 
 
 
