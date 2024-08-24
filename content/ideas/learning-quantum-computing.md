@@ -192,20 +192,28 @@ How does a person develop a viseral understanding of quantum computing?
 ### Coin Flip Game
 
 * [A beginner's guide to quantum computing | Shohini Ghose](https://www.youtube.com/watch?v=QuR969uMICM)
+    * [A beginner's guide to quantum computing | Shohini Ghose | Summary and Q&A](https://glasp.co/youtube/QuR969uMICM)
+* [Quantum Computing With an Example of Coin](https://www.youtube.com/watch?v=Rjx_11oHYT4)
+* [QEF06 - The Penny Flip Game](https://www.youtube.com/watch?v=oXdlpj2IrRU)
     * [How can quantum computing win 97% of times in coin flipping experiment?](https://quantumcomputing.stackexchange.com/questions/5273/how-can-quantum-computing-win-97-of-times-in-coin-flipping-experiment/5277#5277)
     * [Hello Quantum: Taking your first steps into quantum computation](https://medium.com/qiskit/hello-quantum-2c1c00fe830c)
     * [Quantum Coding Tutorial | How To Win a Quantum Coin Flip](https://www.youtube.com/watch?v=9nHNHgGGivM)
     * [Playing with a Quantum Computer](https://arxiv.org/pdf/2108.06271)
     * [Quantum Coin Toss](https://www.maplesoft.com/applications/download.aspx?id=154938/Quantum_Coin_Toss.pdf)
     * [QEF06 - The Penny Flip Game](https://www.youtube.com/watch?v=oXdlpj2IrRU)
+    * [I created a quantum mini-game!](https://medium.com/@PhilNadeau/i-created-a-quantum-mini-game-fc4299a75758)
+    * [Qiskit for Beginners: Create and Play A game of Quantum Coin Flip](https://medium.com/@v.tiwari/qiskit-for-beginners-create-and-play-a-game-of-quantum-coin-flip-ebcc4fb75711)
 
 
 ### Quantum Economics and Finance
 
 * [Quantum Economics and Finance](https://www.youtube.com/playlist?list=PLXQuDqjDYq23fUB_zyX6-wJYVeHlfreyM)
 
+
 ### Card Game: Find the Ace
+
 * [Quantum computing explained with a deck of cards | Dario Gil, IBM Research](https://www.youtube.com/watch?v=yy6TV9Dntlw)
+
 
 ### Quantum Mechanics Toys / Pauli Cubes
 
@@ -515,6 +523,12 @@ Probabilistic computing is a field of computer science and artificial intelligen
 * Probabilistic computing is motivated by the fact that real-world problems often involve uncertain and incomplete information. In these cases, it is often more appropriate to represent knowledge as probabilities rather than definite truths. By using probabilistic models, computers can learn from data, make predictions, and solve problems in uncertain environments.
 * Some of the key concepts in probabilistic computing include Bayesian networks, Markov models, Monte Carlo methods, and probabilistic programming languages. These tools and techniques allow computers to perform tasks such as uncertainty quantification, probabilistic inference, and decision-making under uncertainty.
 * Probabilistic computing has a wide range of applications, including machine learning, robotics, computer vision, natural language processing, and cognitive computing. In recent years, the field has seen significant advances, driven by the increasing availability of large amounts of data and the development of powerful computational tools.
+
+
+---------------
+
+
+# Learning Quantum Physics & Quantum Computing
 
 * [How Randomness Improves Algorithms](https://www.quantamagazine.org/how-randomness-improves-algorithms-20230403/)
 * [Waiting for Quantum Computing? Try Probabilistic Computing](https://spectrum.ieee.org/computing/hardware/waiting-for-quantum-computing-try-probabilistic-computing)
