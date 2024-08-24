@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
-----
+---------------
 
 
 # Background
@@ -52,7 +52,7 @@ making the reestablishment of the `/home` directory happen easily.
 
 
 
------
+---------------
 
 
 
@@ -77,7 +77,7 @@ you can do this by pressing the `Del` (aka Delete key) during a reboot.
 
 
 
------
+---------------
 
 
 
@@ -152,7 +152,7 @@ sudo visudo
 
 
 
------
+---------------
 
 
 
@@ -448,7 +448,7 @@ ln -s ~/.dotfiles/tmux-pkg/tmux.conf $XDG_CONFIG_HOME/tmux/tmux.conf
 ```
 
 
------
+---------------
 
 
 
@@ -569,7 +569,7 @@ This requires some playing around for what you prefers.
 It's easy to do but [this website][31] might help.
 
 
------
+---------------
 
 
 
@@ -811,7 +811,7 @@ ip address
 
 
 
------
+---------------
 
 
 
@@ -1207,7 +1207,7 @@ Sources:
 
 
 
---------
+---------------
 
 
 
@@ -1432,7 +1432,7 @@ Sources:
 
 
 
-----
+---------------
 
 
 
@@ -1483,7 +1483,7 @@ required (but nothing was required).
 
 
 
-----
+---------------
 
 
 
@@ -1665,7 +1665,7 @@ redeploy your stacks to you `desktop` computer.
 
 
 
------
+---------------
 
 
 
@@ -1793,14 +1793,14 @@ This series if focused on showing you everything you need to know to allow you p
 
 
 
------
+---------------
 
 
 
 # Install
 
 
------
+---------------
 
 
 
@@ -1808,7 +1808,7 @@ This series if focused on showing you everything you need to know to allow you p
 
 
 
------
+---------------
 
 
 
@@ -1968,7 +1968,7 @@ These parameters say something about how the UPS is perfroming
 
 
 
------
+---------------
 
 
 
@@ -1990,7 +1990,7 @@ See `/home/jeff/blogging/content/ideas/desktop-fresh-install-of-ubuntu.md`.
 
 
 
------
+---------------
 
 
 
@@ -2085,7 +2085,7 @@ Source:
 
 
 
------
+---------------
 
 
 
@@ -2254,7 +2254,7 @@ sudo usermod -s /bin/false backup_user
 
 
 
------
+---------------
 
 
 
@@ -2487,7 +2487,7 @@ Sources:
 
 
 
------
+---------------
 
 
 
@@ -2523,7 +2523,7 @@ sudo apt-get install virtualbox-ext-pack
 ```
 
 
------
+---------------
 
 
 
@@ -2588,7 +2588,7 @@ vagrant plugin repair vagrant-vbguest
 ```
 
 
------
+---------------
 
 
 
@@ -2750,7 +2750,7 @@ cp -r ~/tmp/sketchbooks ~/src/arduino
 
 
 
------
+---------------
 
 
 
@@ -2970,7 +2970,7 @@ and do the following:
 
 
 
-----
+---------------
 
 
 # Install Guacamole
@@ -2996,7 +2996,7 @@ To                         Action      From
 ```
 
 
-----
+---------------
 
 
 
@@ -3045,7 +3045,7 @@ google-chrome http://localhost:19999
 
 
 
-------
+---------------
 
 
 # Setup Markdown to PDF / HTML Tools
@@ -3072,7 +3072,7 @@ Source:
 
 
 
-------
+---------------
 
 #### Rename Interface
 * [ubuntu 22.04 persistent network interface names](https://www.google.com/search?q=ubuntu+22.04+persistent+network+interface+names&sxsrf=ALiCzsYPpufekZV53gZk1KxELS1wlUxmRQ%3A1653143932949&ei=fPmIYu_KOYzWytMP2O-JwAQ&ved=0ahUKEwjv-IqH6fD3AhUMq3IEHdh3AkgQ4dUDCA4&uact=5&oq=ubuntu+22.04+persistent+network+interface+names&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgjELACECdKBAhBGABKBAhGGABQsQpYgh5g9iFoAnABeACAATyIAdoCkgEBN5gBAKABAcgBCMABAQ&sclient=gws-wiz)

@@ -766,9 +766,12 @@ What advantage does it give that can't be provided by other quantum computer sim
 * Python: Used to write quantum algorithms, Python is supported by numerous quantum computing frameworks, such as Ocean and Qiskit.
 * QuTiP: An open-source software for simulating the dynamics of open quantum systems. The QuTiP library depends on the excellent Numpy, Scipy, and Cython numerical packages.
 * Ocean: A set of quantum computing tools written in Python that include tools for simulating quantum computers, developing and executing quantum circuits, and running quantum algorithms.
-* Qiskit: An open-source quantum computing framework that’s also written in Python, Qiskit offers tools to enable you to create and execute quantum circuits, simulate quantum computers, and run quantum algorithms.
+* Qiskit: An open-source quantum computing framework that’s also written in Python, Qiskit offers tools to enable you to create and execute quantum circuits, simulate quantum computers, and run quantum algorithms. Qiskit can be installed on Windows7 or higher, Linux, and macOS 10.12.6 or later operating systems. Install - <https://qiskit.org/documentation/install.html>
 * Q#: Developed by Microsoft, this quantum computing programming language is used to write quantum algorithms. It also integrates with Visual Studio and other Microsoft development tools.
-* Cirq: Developed by Google, Cirq is used to write quantum algorithms. It works with Google’s quantum computing framework
+* Cirq: Developed by Google, Cirq is used to write quantum algorithms. It works with Google’s quantum computing framework. Cirq can be installed on Linux, Mac OS X and Windows operating systems, as well as on the Docker. Install -  <https://cirq.readthedocs.io/en/stable/install.html>
+* QDK: QDK has four ways to work: develop with Q# command line applications, develop with Q# Jupyter Notebooks, develop with Q# and Python - Enables you to combine Python and Q# and develop with Q# and .NET. Install - <https://docs.microsoft.com/en-us/quantum/quickstarts/>
+* Silq: Silq can be installed on Linux, macOS and Windows. Install - <https://silq.ethz.ch/install>
+* Strawberry Fields: Strawberry Fields is a full-stack Python library for designing, optimizing, and utilizing photonic quantum computers. Install - <https://strawberryfields.readthedocs.io/en/stable/_static/install.html>
 
 
 ## QuTiP
