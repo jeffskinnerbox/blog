@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -39,6 +39,7 @@ Version:      0.0.0
 # ESP8266 Tools
 * [Scan, Fake & Attack Wi-Fi Networks with the ESP8266-Based WiFi Deauther](https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/)
 * [Detect When a Device Is Nearby with the ESP8266 Friend Detector](https://null-byte.wonderhowto.com/how-to/detect-when-device-is-nearby-with-esp8266-friend-detector-0188642/)
+* [Detect & Classify Wi-Fi Jamming Packets with the NodeMCU](https://null-byte.wonderhowto.com/how-to/detect-classify-wi-fi-jamming-packets-with-nodemcu-0188668/)
 * [Inconspicuously Sniff Wi-Fi Data Packets Using an ESP8266](https://null-byte.wonderhowto.com/how-to/inconspicuously-sniff-wi-fi-data-packets-using-esp8266-0192829/)
 
 # Network Implant
@@ -368,7 +369,7 @@ Most wireless adapters built into your laptop are designed for standard applicat
 If we can't inject packets into the AP (in Aircrack-ng, this is the function of Aireplay-ng),
 then it really limits what we do from a penetration testing prospective.
 
-----
+---------------
 
 # Kali Penetration Testing Tools
 A penetration test, aka pen test, is an authorized simulated cyberattack on a computer system,
@@ -1037,7 +1038,7 @@ Check out the post ["VNC to access Kali Linux on Raspberry Pi"][46]
 and ["How to Configure a VNC Server to Use an SSH Tunnel on Ubuntu 14.04 LTS"][47]
 to address these things.
 
-----
+---------------
 
 ## Personalize Kali Platform
 Need to install my personal tools to feel at home.
@@ -1335,7 +1336,7 @@ UrBackup is an easy to setup open source client/server backup system, that throu
 * https://techblog.jeppson.org/2017/06/backup-systems-urbackup/
 * https://forums.freenas.org/index.php?threads/install-urbackup-in-a-jail.22117/
 
-----
+---------------
 
 # Kali Linux VMware, and VirtualBox Image
 * [Download Kali Linux VMware and VirtualBox Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/)
@@ -1377,7 +1378,7 @@ apt-get clean && apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
 apt-get -y autoremove
 ```
 
-----
+---------------
 
 # Some Hacking Examples
 * [Why Every Hacker Should Know & Use Linux](https://null-byte.wonderhowto.com/forum/why-every-hacker-should-know-use-linux-0151287/)
