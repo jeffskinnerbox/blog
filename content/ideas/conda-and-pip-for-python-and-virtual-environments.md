@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -18,8 +18,15 @@ Version:      0.0.0
 * [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 
+# What is pipx?
+
+* [Why You Should Install Python Apps With pipx (and How to Get Started)](https://www.howtogeek.com/install-python-apps-with-pipx/)
+
+
 # What About Pip?
+
 * [Python Basics Exercises: Installing Packages With pip](https://realpython.com/courses/basics-exercises-install-packages-with-pip/)
+
 
 # What is the Difference Between Miniconda and Anaconda?
 The main difference between Anaconda and Miniconda lies in their size and the number of pre-installed packages. Anaconda is larger and comes with a vast array of pre-installed packages, while Miniconda is smaller and only includes Conda and Python.
@@ -42,11 +49,12 @@ Miniconda is lightweight and quick to install, making it a great choice if you�
 * [Conda: Myths and Misconceptions](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/)
 * [Installing anaconda over existing python system?](https://stackoverflow.com/questions/34906338/installing-anaconda-over-existing-python-system)
 * [Jupyter Standalone Might Just Be Better Than Anaconda](https://towardsdatascience.com/jupyter-standalone-might-just-be-better-than-anaconda-53104da05eee)
-* []()
-* []()
+
 
 # What About Anaconda and Raspberry Pi?
+
 * [Installing Anaconda Python Distribution on Raspberry Pi](https://www.youtube.com/watch?v=fYPr43YhTMM&t=185s)
+
 
 # Ephemeral Environments
 Ephemeral - something that lasts for a very short time
@@ -92,8 +100,10 @@ Packages can conflict with each other and be dependent on specific version of Py
 From the [official documents][05]:
 "A virtual environment (also called a venv) is a Python environment such that the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and (by default) any libraries installed in a “system” Python, i.e. one which is installed as part of your operating system."
 
+
 ## What is an Environment
 In the world of Python, an environment is a folder (directory) which contains everything that a Python project (application) needs in order to run in an organised, isolated fashion. When it is initiated, it automatically comes with its own Python interpreter - a copy of the one used to create it - alongside its very own pip.
+
 
 ## Virtual Environments
 Python has its own way of downloading, storing, and resolving packages (or modules).
@@ -110,6 +120,7 @@ containing the Python interpreter and a copy of pip.
 Afterwards, in order to work with it, we need to either specify the location of that interpreter
 or us its `activate` command.
 
+
 ## Virtualenv and Shebang
 It is important to use [shebang][11] `#!/usr/bin/env python` within Python executable scripts.
 It runs `env`, which will look for the default python for that environment.
@@ -117,6 +128,7 @@ Therefore, your script will use the right path to you Python modules
 and **not** `$PYTHONPATH` set for you login.
 
 * [How to activate a Python virtual environment from a script file](https://www.a2hosting.com/kb/developer-corner/python/activating-a-python-virtual-environment-from-a-script-file)
+
 
 ## Leave Your Native Python Alone
 Linux has many Python programs as part of it suite of tools.
@@ -168,7 +180,9 @@ use Conda for Python version management and virtual environment management,
 and use Pip for package version management.
 
 Sources:
+
 * [Environments, Conda, Pip, aaaaah!: Managing Python environments without a headache](https://towardsdatascience.com/environments-conda-pip-aaaaah-d2503877884c)
+
 
 # Installation of Your Python Environment - DONE
 The following steps install Miniconda.
@@ -228,10 +242,14 @@ rm -rf ~/.condarc ~/.conda
 ```
 
 Sources:
+
 * [Install Miniconda on Linux from the command line in 5 steps](https://javedhassans.medium.com/install-miniconda-on-linux-from-the-command-line-in-5-steps-403912b3f378)
 * [How to Uninstall Miniconda on Linux: A Guide](https://saturncloud.io/blog/how-to-uninstall-miniconda-on-linux-a-guide/)
 
+
 # Typical Workflow
+
+
 #### Step 1: Create and Activate Environment
 The typical workflow for a Python project is to create an environment for each project or task,
 just to keep things separate.
@@ -274,11 +292,14 @@ To deactivate an active environment, do the following
 conda deactivate
 ```
 
+
 #### Step X: Install Desired Packages
+
 ```bash
 # pip should already be installed but lets make sure
 conda install pip
 ```
+
 
 #### Step X: Transfer a Conda Environment to Another Device
 Transferring a Conda environment to another device involves
@@ -292,8 +313,10 @@ conda env export > environment.yml
 # import the environment on the target device
 conda env create -f environment.yml
 ```
+
 pyder
 This will create a new environment with the same name and packages as the original.
+
 
 #### Step X: Remove/Delete Conda Environment
 The command used to remove a Conda environment is `conda env remove --name <env_name>`,
@@ -317,6 +340,7 @@ In some cases, you may encounter a corrupted Conda environment where the above c
 In such cases, you can manually delete the environment by removing its directory from the `envs` folder in your Conda installation.
 
 Sources:
+
 * [How to Remove Conda Environment: Best Practices & Commands](https://docs.kanaries.net/topics/Python/conda-remove-environment)
 
 
