@@ -9,15 +9,18 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 # Reading List
+
 * Bernoulli's Fallacy: Statistical Illogic and the Crisis of Modern Science, by Aubrey Clayton
 * Practical Uncertainty: Useful Ideas in Decision-Making, Risk, Randomness & AI, by Hossein Pishro-Nik
 
-* Statistical Rethinking: A Bayesian Course with Examples in R and Stan, by Richard McElreath - https://xcelab.net/rm/statistical-rethinking/
-* Bayesian Data Analysis, by Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin - http://www.stat.columbia.edu/~gelman/book/
+* Statistical Rethinking: A Bayesian Course with Examples in R and Stan, by Richard McElreath - <https://xcelab.net/rm/statistical-rethinking/>
+* Bayesian Data Analysis, by Andrew Gelman, John Carlin, Hal Stern, David Dunson, Aki Vehtari, and Donald Rubin - <http://www.stat.columbia.edu/~gelman/book/>
+
+* [10 Free Must-Read Books on Foundational Statistics & Probability](https://www.statology.org/10-free-must-read-books-on-foundational-statistics-probability/)
 
 
 # Drama in Statistics & Science
@@ -83,26 +86,36 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 
 * [Why we don't teach, and why we should and could teach, Bayesian methods -- Mark Andrews (NTU)](https://www.youtube.com/watch?v=PtLGnNvMC2o)
 
+
 ## Visualizing Bayes Theorem
+
 * [Bayes theorem](https://www.youtube.com/watch?v=HZGCoVF3YvM)
 * [A visual guide to Bayesian thinking](https://www.youtube.com/watch?v=BrK7X_XlGB8)
 * [Bayes’ Theorem, Clearly Explained with Visualization](https://towardsdatascience.com/bayes-theorem-clearly-explained-with-visualization-5083ea5e9b14)
 * [Conditional probability explained visually (Bayes' Theorem)](https://www.youtube.com/watch?v=Zxm4Xxvzohk&list=PL87386AD236727A1B)
 
+
 # Causal & Bayesian Inferening / Probabilistic Programming
+
 * [Causal Inference - EXPLAINED](https://www.youtube.com/watch?v=Od6oAz1Op2k)
 * [Causal Inference in Python](https://www.oreilly.com/library/view/causal-inference-in/9781098140243/)
 * [Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference](https://www.amazon.com/dp/B016060UHA/)
 
+
 # Bayes Search Theory
+
 * [Bayes Theorem and some of the mysteries it has solved](https://www.youtube.com/watch?v=82q3uYw6MuY)
 
+
 # Jaynes
+
 * [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
     * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
     * [Bertrand's Paradox - Probability | WIRELESS PHILOSOPHY](https://www.youtube.com/watch?v=xy6xXEhbGa0)
 * [Probability Theory: The Logic of Science, by E. T. Jaynes](https://bayes.wustl.edu/etj/prob/book.pdf)
 
+
 # Markov Chain Monte Carlo (MCMC)
+
 * [Why do we need MCMC and how does it work? -- Ben Lambert (Oxford)](https://www.youtube.com/watch?v=7H7IvSSty0k)
 
