@@ -26,8 +26,8 @@ Version:      0.0.0
 
 - [Voice Recognition Module - 254 Voice Commands + UART](https://www.youtube.com/watch?v=zCEYxSdYBcA)
 
-  - <http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254>
-  - <https://www.amazon.com/Rakstore-Recognition-Compatible-Arduino-Accuracy/dp/B09D3WHHKN/>
+    - <http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254>
+    - <https://www.amazon.com/Rakstore-Recognition-Compatible-Arduino-Accuracy/dp/B09D3WHHKN/>
 
 - [Echo Show 10](https://www.amazon.com/dp/B07VHZ41L8)
 
@@ -47,9 +47,9 @@ Version:      0.0.0
 
 - [How to Make Scavenger Hunts More Fun with Artificial Intelligence](https://medium.freecodecamp.com/how-to-make-scavenger-hunts-more-fun-with-artificial-intelligence-74a184f3db33)
 
-  - [Amazon Polly - Turn text into lifelike speech using deep learning](https://aws.amazon.com/polly/)
-  - [Amazon Rekognitions - Deep learning-based image recognition Search, verify, and organize millions of images](https://aws.amazon.com/rekognition/)
-  - [Delegate Dialog Directive Sample Project](https://github.com/alexa/alexa-cookbook/tree/master/handling-responses/dialog-directive-delegate)
+    - [Amazon Polly - Turn text into lifelike speech using deep learning](https://aws.amazon.com/polly/)
+    - [Amazon Rekognitions - Deep learning-based image recognition Search, verify, and organize millions of images](https://aws.amazon.com/rekognition/)
+    - [Delegate Dialog Directive Sample Project](https://github.com/alexa/alexa-cookbook/tree/master/handling-responses/dialog-directive-delegate)
 
 - [How To Prototype an Alexa Skill in Two Minutes](https://www.iotforall.com/alexa-skill-test-prototype/amp/)
 - [New Alexa Skills Kit Developer Console (Beta) Streamlines Development Process](https://developer.amazon.com/blogs/alexa/post/ea373bd3-cd80-4b09-b243-2b986d2922a0/new-alexa-skills-kit-developer-console-beta-streamlines-development-process)
@@ -364,8 +364,8 @@ Sources:
 ## Plex: Live TV & DVR
 
 - [The Ultimate Guide to Configuring Live TV & DVR with Plex!](https://www.youtube.com/watch?v=Q5okoyPewyU)
-  - [Build your own DVR with Plex Server! #plex #homeserver #antenna](https://www.youtube.com/watch?v=0HxtccUFtm8)
-  - [HDHomeRun FLEX 4K & PLEX DVR](https://www.youtube.com/watch?v=YFnEuATA2Nk)
+    - [Build your own DVR with Plex Server! #plex #homeserver #antenna](https://www.youtube.com/watch?v=0HxtccUFtm8)
+    - [HDHomeRun FLEX 4K & PLEX DVR](https://www.youtube.com/watch?v=YFnEuATA2Nk)
 - [How to Cast Plex to Chromecast and Google Home](https://www.youtube.com/watch?v=1FkDya3cD08)
 
 
@@ -589,7 +589,7 @@ then link the SmartThings skill using the Alexa app.
 - [myva-Home (Voice controlled home automation)](https://www.hackster.io/smerkousdavid/myva-home-voice-controlled-home-automation-f4cfe3?utm_source=Hackster.io+newsletter&utm_campaign=73ff92e8f5-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-73ff92e8f5-140225889)
 - [Build a Raspberry Pi-Powered DIY Amazon Echo](http://lifehacker.com/build-a-raspberry-pi-powered-diy-amazon-echo-1762678229)
 - [Build Your Own Amazon Echo Using a RPI and ReSpeaker HAT](https://www.hackster.io/idreams/build-your-own-amazon-echo-using-a-rpi-and-respeaker-hat-7f44a0?utm_source=mailchimp&utm_medium=edm&utm_campaign=new_0704)
-  - [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html)
+    - [ReSpeaker 2-Mics Pi HAT](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html)
 - [Raspi Alexa Skills - Rest API](https://www.hackster.io/steckdev/raspi-alexa-skills-rest-api-071868?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
 - [Turn Your Pringles Can into an Amazon Echo](http://blog.nextthing.co/turn-your-pringles-can-into-an-amazon-echo-with-c-h-i-p/)
 

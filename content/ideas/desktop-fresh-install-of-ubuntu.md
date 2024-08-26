@@ -500,6 +500,42 @@ Sources:
 * [WAYLAND: what is it, and is it ready for daily use?](https://www.youtube.com/watch?v=g1BoZnekkyM)
 * [Wayland Is The Future Of Linux, What About Now?](https://www.youtube.com/watch?v=lm2aireP-wc)
 
+The Ubuntu 24.04 releases feature the Wayland as its default display server.
+This change is significant because it replaces the traditional Xorg Server,
+which was the longstanding default before Wayland.
+This change did appear to give me support problems with my MSI Geforce 210 graphics card.
+I did the following to make X11 the default at boot time:
+
+#### Step 1A: Choosing X11 or Wayland - DONE
+**NOTES For 2024 Upgrade to Ubuntu 24.04**
+Wayland is not shown as an option on the login screen
+(or the cog icon of the login screen doesn't show at all).
+I did the following to fix this:
+
+1. Edit the `/etc/gdm3/custom.conf` file
+2. Ensure that `WaylandEnable=true` is set in that file and make sure that it's uncommented (does not start with a #)
+3. Reboot the system
+
+Source:
+* [NVIDIA Ubuntu Driver Guide](https://github.com/oddmario/NVIDIA-Ubuntu-Driver-Guide?tab=readme-ov-file#wayland-is-not-shown-as-an-option-on-the-login-screen-or-the-cog-icon-of-the-login-screen-doesnt-show-at-all)
+
+#### Step 1B: Replace Nvidia Drivers - DONE, NOT
+**NOTES For 2024 Upgrade to Ubuntu 24.04**
+An alternative to using X11, and there for use the Ubuntu 24.04 default of Wayland,
+is to install new Nvidia drivers.
+From what I have read online,
+it appears driver files with "NVIDIA driver 555.*.*" in their name is what is needed.
+I choose not to install them at this time, but it will be required at some future date.
+
+So you don't have to use Wayland in Ubuntu 24.04,
+but it is the default desktop session for NVIDIA users with the
+official NVIDIA Linux graphics driver in Ubuntu 24.10.
+
+Sources:
+* [How to Check NVIDIA Driver Version on Linux](https://linuxconfig.org/how-to-check-nvidia-driver-version-on-your-linux-system)
+* [How to install Nvidia drivers on Ubuntu](https://www.xda-developers.com/how-to-install-nvidia-drivers-on-ubuntu/)
+* [Ubuntu 24.10 Now Defaults To Wayland On NVIDIA](https://www.phoronix.com/news/Ubuntu-24.10-GDM-Wayland-NVIDIA)
+
 #### Step 2: Modify BIOS on Motherboard - DONE, NOT
 To enable multiple display, you first must enable it on the computer's motherboard.
 In my case with the Intel DZ77GA-70K motherboard, I had to goto
