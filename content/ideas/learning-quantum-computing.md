@@ -142,6 +142,19 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
 * [Top 10: Quantum Computing Companies](https://technologymagazine.com/top10/top-10-quantum-computing-companies)
 
 
+# Hybrid Quantum Computing
+“Hybrid quantum computing” is the preferred industry term for a simple idea: a quantum computer and a classical computer working together to solve a problem.
+In a sense, this describes all of quantum computing: we rely on classical computers for almost every aspect of running a quantum computer.
+In practice, though, when we talk about “hybrid” computation, we mean an approach that takes the form of a back-and-forth collaboration where different aspects of a problem are passed between the quantum and classical tools best suited for each stage.
+For example,  [Variational Quantum Eigensolver (VQE) algorithm](https://towardsdatascience.com/the-variational-quantum-eigensolver-explained-adcbc9659c3a),
+a hybrid algorithm useful in a variety of chemistry applications, as an example. VQE can be used to calculate the “ground state”—the most chemically stable configuration—of a molecule by iteratively calculating the energy of a given configuration and comparing it to previously calculated energies classically, changing the inputs until an optimal answer is achieved.
+
+* The Many Faces of Hybrid Classical-Quantum Computing
+    * [Part 1: Basics and Cloud Vendors](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing/)
+    * [Part 2: Colocation, High Performance Computers, and Co-Design](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing-part-2/)
+    * [Part 3: The primary algorithms VQA, VQE and QAOA](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing-part-3/)
+
+
 # Optical Computing / Photonic Computing
 
 * [What Is Optical Computing | Photonic Computing Explained (Light Speed Computing)](https://www.youtube.com/watch?v=UWMEKex6nYA)
