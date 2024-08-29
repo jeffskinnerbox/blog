@@ -255,6 +255,12 @@ Sources:
 - [Plex Pass - Do You REALLY Need to Pay for Plex?][61]
 
 
+### Plexamp
+- [Meet Plexamp](https://www.plex.tv/plexamp/)
+- [Plexamp: A Comprehensive Guide to the Music Streaming Service](https://musconv.com/plexamp-a-comprehensive-guide/)
+- [How to Install and Run Plexamp on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-plexamp/)
+
+
 #### Step 1: Install Plex
 
 To set up your own personal media server, you start here:
