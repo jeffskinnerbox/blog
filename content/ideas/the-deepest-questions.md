@@ -1425,6 +1425,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [eigenchris](https://www.youtube.com/@eigenchris/videos)
 * [The Meaning of the Metric Tensor](https://www.youtube.com/watch?v=Dn0ZZRVuJcU)
 
+* [Tensors and Vectors - 2023](https://www.youtube.com/playlist?list=PL2n-gxsZ_8LBC0zhYvDjPF8eF8PvygM2T)
+
 * [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
     * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
 * [A Tensor Description of Surfaces and Curves](https://grinfeld.org/books/A-Tensor-Description-Of-Surfaces-And-Curves/)
