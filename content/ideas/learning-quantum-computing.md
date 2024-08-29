@@ -137,6 +137,11 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
 
 
 
+# Types of Quantum Computers
+
+* [Top 10: Quantum Computing Companies](https://technologymagazine.com/top10/top-10-quantum-computing-companies)
+
+
 # Optical Computing / Photonic Computing
 
 * [What Is Optical Computing | Photonic Computing Explained (Light Speed Computing)](https://www.youtube.com/watch?v=UWMEKex6nYA)
