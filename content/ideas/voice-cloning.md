@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -23,7 +23,9 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 * [Resemblyzer](https://github.com/resemble-ai/Resemblyzer)
 * [Resemble](https://www.resemble.ai/)
 
+
 # Coqui.ai Voice Cloning for Text-to-Speech
+
 * [Local voice cloning with 6 seconds audio | Coqui XTTS on Windows](https://www.youtube.com/watch?v=HJB17HW4M9o)
     * [XTTS: Taking TTS to the Next Level](https://coqui.ai/blog/tts/xtts_taking_tts_to_the_next_level)
     * [Hugging Face: coqui/XTTS-v2](https://huggingface.co/coqui/XTTS-v2)
@@ -31,6 +33,8 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 
 
 * Use IBM's [Watson to turn speech to text](https://www.ibm.com/cloud/watson-speech-to-text)
+* [Offline Speech-to-Text on Raspberry Pi 5](https://www.crowdsupply.com/anavi-technology/anavi-dev-mic/updates/video-tutorial-offline-speech-to-text-on-raspberry-pi-5-with-anavi-dev-mic)
+    * [Offline Speech-to-Text on Raspberry Pi 5 with Python3 and OpenAI Whisper ASR](https://www.youtube.com/watch?v=XzCWIGtRq4g)
 
 * [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
 
@@ -46,11 +50,13 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 
 * [Why are language models everywhere?](https://towardsdatascience.com/why-are-language-models-everywhere-36d9961dd9e1)
 
+
 # Volume Unit (VU) Meter
 A volume unit (VU) meter or standard volume indicator (SVI) is a device displaying a representation of the signal level in audio equipment.
 
 * [The VU Meter And How It Got That Way](https://hackaday.com/2018/08/09/the-vu-meter-and-how-it-got-that-way/)
 * [Round LCDs Put To Work In Rack Mount Gauge Cluster](https://hackaday.com/2022/05/13/round-lcds-put-to-work-in-rack-mount-gauge-cluster/)
+
 
 # Audacity
 Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.
@@ -60,12 +66,16 @@ Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, m
 
 * [How to customize your voice assistant with the voice of your choice](https://opensource.com/article/21/1/customize-voice-assistant)
 
+
 # Voice Recognition
+
 * [OpenAI Hears You Whisper](https://hackaday.com/2022/09/22/openai-hears-you-whisper/)
 * [Open AI’s Whisper is Amazing!](https://www.youtube.com/watch?v=OCBZtgQGt1I)
 * [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper)
 
+
 # Piper - Open Source Text-to-Speech & Voice Cloning
+
 * [Piper is our new voice for the Open Home](https://building.open-home.io/piper-is-our-new-voice-for-the-open-home/)
 * [Raspberry Pi | Local TTS | High Quality | Faster Realtime with Piper TTS](https://www.youtube.com/watch?v=rjq5eZoWWSo)
 * [Create your AI digital voice clone locally with Piper TTS | Tutorial](https://www.youtube.com/watch?v=b_we_jma220)

@@ -679,9 +679,10 @@ Here I'm going to exercise the AT&T Speech API outside of Jasper just to demonst
 With a little imagination, you should see how it can turn a Raspberry Pi into an
 interesting Internet-enabled speech application using this API.
 
-[Jasper Documentation](http://jasperproject.github.io/documentation/)
-
-[eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
+- [Jasper Documentation](http://jasperproject.github.io/documentation/)
+- [eSpeak](https://en.wikipedia.org/wiki/ESpeak) is a compact open source software speech synthesizer for Linux, Windows, and other platforms
+- [Offline Speech-to-Text on Raspberry Pi 5](https://www.crowdsupply.com/anavi-technology/anavi-dev-mic/updates/video-tutorial-offline-speech-to-text-on-raspberry-pi-5-with-anavi-dev-mic)
+    - [Offline Speech-to-Text on Raspberry Pi 5 with Python3 and OpenAI Whisper ASR](https://www.youtube.com/watch?v=XzCWIGtRq4g)
 
 
 # Implementing Alexa Skills

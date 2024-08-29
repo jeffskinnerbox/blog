@@ -57,16 +57,18 @@ I just need something we can try out to see if an idea is worth developing furth
 Then there is the topic of a dashboard and notifications to provide status to me.
 
 * Scrolling Dashboard
-  * Make it a device connected with Home Assistant - /home/jeff/blogging/content/ideas/getting-started-with-home-assistant.md
+    * Make it a device connected with Home Assistant - /home/jeff/blogging/content/ideas/getting-started-with-home-assistant.md
 * Alexa / Google
-  * Include a speaker and Google Assistant - /home/jeff/blogging/content/ideas/google-aiy-projects.md
+    * Include a speaker and Google Assistant - /home/jeff/blogging/content/ideas/google-aiy-projects.md
 * Telegram
 * Speaker
-  * Use a speaker, send it text-to-speach - /home/jeff/blogging/content/articles/speech-synthesis-on-the-raspberry-pi.md
-  * Use IBM's [Watson to turn speech to text](https://www.ibm.com/cloud/watson-speech-to-text)
-  * [Build Your Own Smart Home Speaker With ESPHome!](https://www.youtube.com/watch?v=4DQ9iyV3G20)
-  * Clone a voice pattern to use with speaker - /home/jeff/blogging/content/ideas/voice-cloning.md
-  * Make the speaker into an intercom via Mumble - /home/jeff/blogging/content/ideas/raspberry-pi-zero-walkie-talkies-via-mumble.m
+    * Use a speaker, send it text-to-speach - /home/jeff/blogging/content/articles/speech-synthesis-on-the-raspberry-pi.md
+    * Use IBM's [Watson to turn speech to text](https://www.ibm.com/cloud/watson-speech-to-text)
+    * [Offline Speech-to-Text on Raspberry Pi 5](https://www.crowdsupply.com/anavi-technology/anavi-dev-mic/updates/video-tutorial-offline-speech-to-text-on-raspberry-pi-5-with-anavi-dev-mic)
+        * [Offline Speech-to-Text on Raspberry Pi 5 with Python3 and OpenAI Whisper ASR](https://www.youtube.com/watch?v=XzCWIGtRq4g)
+    * [Build Your Own Smart Home Speaker With ESPHome!](https://www.youtube.com/watch?v=4DQ9iyV3G20)
+    * Clone a voice pattern to use with speaker - /home/jeff/blogging/content/ideas/voice-cloning.md
+    * Make the speaker into an intercom via Mumble - /home/jeff/blogging/content/ideas/raspberry-pi-zero-walkie-talkies-via-mumble.m
 
 Native Informational Features
 
@@ -241,9 +243,9 @@ Text sprites Examples
 * [ESPRotary](https://github.com/LennartHennigs/ESPRotary)
 
 * [A Tiny Knob Keeps You In Control](https://hackaday.com/2024/08/11/a-tiny-knob-keeps-you-in-control/)
-  * [ATtiny85 TinyKnob](https://hackaday.io/project/171754-attiny85-tinyknob)
-  * [CH32X033 USB Knob:Rotary Encoder with USB Interface and NeoPixels](https://hackaday.io/project/195160-ch32x033-usb-knob)
-  * [CH32V003 USB Joystick: Simple Joystick with USB Interface](https://hackaday.io/project/196635-ch32v003-usb-joystick)
+    * [ATtiny85 TinyKnob](https://hackaday.io/project/171754-attiny85-tinyknob)
+    * [CH32X033 USB Knob:Rotary Encoder with USB Interface and NeoPixels](https://hackaday.io/project/195160-ch32x033-usb-knob)
+    * [CH32V003 USB Joystick: Simple Joystick with USB Interface](https://hackaday.io/project/196635-ch32v003-usb-joystick)
 
 
 ## Voltage Supervisor
@@ -297,15 +299,15 @@ Example builds
 * Connecting a 16x32 RGB LED Matrix Panel to a Raspberry Pi [Part 1](https://learn.adafruit.com/connecting-a-16x32-rgb-led-matrix-panel-to-a-raspberry-pi/overview) and [Part 2](https://learn.adafruit.com/16x32-rgb-display-with-raspberry-pi-part-2)
 * [Morphing Digital Clock](https://www.instructables.com/id/Morphing-Digital-Clock/)
 * [The Ultimate Bitcoin Tracker](https://hackaday.io/project/163647-the-ultimate-bitcoin-tracker)
-  * [Arduino Tutorial #21 - MAX7219 LED Matrix Display Walkthrough & Test Code - Scrolling Text Code](https://www.youtube.com/watch?v=hH-m0LL_ZAs&feature=youtu.be)
+    * [Arduino Tutorial #21 - MAX7219 LED Matrix Display Walkthrough & Test Code - Scrolling Text Code](https://www.youtube.com/watch?v=hH-m0LL_ZAs&feature=youtu.be)
 * [Arduino Scrolling Text Bar Tutorial](https://www.youtube.com/watch?v=_SC4VdLBVHY)
 
 
 * [Build a giant scrolling LED text display for about $15 per foot](https://www.youtube.com/watch?v=k-SYMPO8-f8)
-  * [Bigger is better: Build an Arduino-powered monster scrolling LED sign for about $15 a foot](https://wp.josh.com/2016/05/20/huge-scrolling-arduino-led-sign/)
-  * [Parallel Processing Arduino Style – Make Massive NeoPixel Displays With Nanoscale Concurrent Computing](https://wp.josh.com/2016/05/04/parallel-processing-arduino-style-make-massive-neopixel-displays-with-nanoscale-concurrent-computing/)
-  * [Build a giant scrolling LED text display for about $15 per foot](https://www.youtube.com/watch?v=k-SYMPO8-f8&t=3s)
-  * [ALITOVE 12V WS2812B Individually Addressable RGB LED Strip Light, 5m 300 LEDs AL2815 Programmable LED Pixels Light Strip, Signal Break-Point Continuous Transmission, Not Waterproof White PCB](https://www.amazon.com/ALITOVE-Individually-Addressable-Programmable-Transmission/dp/B07D48W1J7/ref=pd_day0_hl_201_6)
+    * [Bigger is better: Build an Arduino-powered monster scrolling LED sign for about $15 a foot](https://wp.josh.com/2016/05/20/huge-scrolling-arduino-led-sign/)
+    * [Parallel Processing Arduino Style – Make Massive NeoPixel Displays With Nanoscale Concurrent Computing](https://wp.josh.com/2016/05/04/parallel-processing-arduino-style-make-massive-neopixel-displays-with-nanoscale-concurrent-computing/)
+    * [Build a giant scrolling LED text display for about $15 per foot](https://www.youtube.com/watch?v=k-SYMPO8-f8&t=3s)
+    * [ALITOVE 12V WS2812B Individually Addressable RGB LED Strip Light, 5m 300 LEDs AL2815 Programmable LED Pixels Light Strip, Signal Break-Point Continuous Transmission, Not Waterproof White PCB](https://www.amazon.com/ALITOVE-Individually-Addressable-Programmable-Transmission/dp/B07D48W1J7/ref=pd_day0_hl_201_6)
 
 * [Samsung’s Family Hub refrigerator](https://news.samsung.com/global/the-new-family-hub-is-the-heart-of-the-connected-home)
 
@@ -322,7 +324,7 @@ Example builds
 # Telegram Bot with Alexa/Echo
 
 * [Alexa skill that connects Amazon Echo with Telegram Messenger](https://devpost.com/software/my-telegrams)
-  * [My Telegrams Explained](https://www.youtube.com/watch?v=1j1FhkBDjSo&feature=youtu.be)
+    * [My Telegrams Explained](https://www.youtube.com/watch?v=1j1FhkBDjSo&feature=youtu.be)
 * [My Telegrams](https://www.amazon.com/dp/B07GR5LD6M)
 * [Talking Telegram with the ESP8266](https://hackaday.com/2019/02/21/talking-telegram-with-the-esp8266/)
 * [Quick And Dirty: Operate An Intercom Via Telegram](https://hackaday.com/2019/12/02/quick-and-dirty-operate-an-intercom-via-telegram/)
