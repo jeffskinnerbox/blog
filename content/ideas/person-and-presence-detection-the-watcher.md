@@ -21,8 +21,8 @@ This program just listen for those "probe requests" and prints to serial port th
 * [The Eyes Have It: Stare Down Your Lighting](https://hackaday.com/2023/03/06/the-eyes-have-it-stare-down-your-lighting/)
 
 * [Make a homemade AI home assistant](https://www.raspberrypi.com/news/make-a-homemade-ai-home-assistant/)
-  * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
-  * [GPT Home](https://github.com/judahpaul16/gpt-home)
+    * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
+    * [GPT Home](https://github.com/judahpaul16/gpt-home)
 
 
 
@@ -50,8 +50,8 @@ This can be done by making use of:
 
 * [Virtual Peephole](https://www.hackster.io/carolinebuttet/virtual-peephole-355c1c)
 * [Virtual Peephole](https://projecthub.arduino.cc/carolinebuttet/848e2c2e-bbe4-4bee-aa08-9e84c9c7c05e)
-  * [Insecam](http://www.insecam.org/)
-  * [EarthCam](https://www.earthcam.com/)
+    * [Insecam](http://www.insecam.org/)
+    * [EarthCam](https://www.earthcam.com/)
 * [Door Viewer Peephole](https://www.amazon.com/Viewer-Peephole-220-degree-Rotating-Privacy/dp/B07DVT97QW)
 
 * [Robotic AI Bear using ChatGPT](https://learn.adafruit.com/robotic-ai-bear-using-chatgpt)
@@ -63,9 +63,9 @@ This can be done by making use of:
 ## Seeed Studio: SenseCAP Watcher
 
 * [Seeed Studio: Watcher](https://www.seeedstudio.com/watcher)
-  * [Getting Started with Watcher Series](https://wiki.seeedstudio.com/getting_started_with_watcher_main_page/)
-  * [As a Grove sensor](https://wiki.seeedstudio.com/watcher_as_grove/)
-  * [SenseCAP Watcher Wiki Center](https://wiki.seeedstudio.com/watcher/)
+    * [Getting Started with Watcher Series](https://wiki.seeedstudio.com/getting_started_with_watcher_main_page/)
+    * [As a Grove sensor](https://wiki.seeedstudio.com/watcher_as_grove/)
+    * [SenseCAP Watcher Wiki Center](https://wiki.seeedstudio.com/watcher/)
 * [The Watchman](https://www.hackster.io/taunoerik/the-watchman-dd1f4e)
 
 
@@ -84,7 +84,7 @@ This can be done by making use of:
 * [GPS Module GPS NEO-6M](https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT)
 
 * [DNS DriveBy: Stealthy GPS Tracking & Reconnaissance through Open WiFi](https://dnsdriveby.com/)
-  * [DNSDriveBy Anonymously Track GPS Locations](https://www.youtube.com/watch?v=UExRw2dLHnc)
+    * [DNSDriveBy Anonymously Track GPS Locations](https://www.youtube.com/watch?v=UExRw2dLHnc)
 
 
 # CreepDetector
@@ -96,26 +96,26 @@ This can be done by making use of:
 # Describe Images
 
 * [A New Vision for Voice Assistants](https://www.hackster.io/news/a-new-vision-for-voice-assistants-d4afd776a9fe)
-  * [GitHub: nkasmanoff/pi-card](https://github.com/nkasmanoff/pi-card)
+    * [GitHub: nkasmanoff/pi-card](https://github.com/nkasmanoff/pi-card)
 
 
 # Streaming Video & Audio - ESP32 TV
 
 * [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
-  * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
-  * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
-  * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
-  * [ESP32-TV Version 3](https://atomic14.substack.com/p/esp32-tv-version-3)
-  * [ESP32-TV Version 3 - Is it done?](https://www.youtube.com/watch?v=2NLblyCvJBU)
-  * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
-  * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
-  * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
+    * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
+    * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
+    * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
+    * [ESP32-TV Version 3](https://atomic14.substack.com/p/esp32-tv-version-3)
+    * [ESP32-TV Version 3 - Is it done?](https://www.youtube.com/watch?v=2NLblyCvJBU)
+    * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
+    * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
+    * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
 * [Mini ESP32 TV](https://www.thingiverse.com/thing:6330378)
-  * [ESP32 Mini TV Tutorial Build](https://www.youtube.com/watch?v=0K-EbKkWLTA)
+    * [ESP32 Mini TV Tutorial Build](https://www.youtube.com/watch?v=0K-EbKkWLTA)
 * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
 * [The Most Adorable Little Raspberry Pi Computer You’ve Seen All Year](https://www.hackster.io/news/the-most-adorable-little-raspberry-pi-computer-you-ve-seen-all-year-b8501e237b53)
-  * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
-  * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
+    * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
+    * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
 
 
 ## Other Ideas
@@ -138,7 +138,7 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 # AI Generated Photographic Sense
 
 * [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
-  * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
+    * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
 
 
 # AI Generated Code
@@ -153,8 +153,8 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 
 * [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaday.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
-  * [Piper](https://rhasspy.github.io/piper-samples/)
-  * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
+    * [Piper](https://rhasspy.github.io/piper-samples/)
+    * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
 * [Animatronic Alexa Gives Amazon’s Echo a Face](https://hackaday.com/2023/07/05/animatronic-alexa-gives-amazons-echo-a-face/)
 
 
@@ -162,16 +162,16 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 Convert an IKEA RIBBA 5×7" picture frame into an ePaper dashboard for a Home Assistant smarthome.
 
 * [Nerdiy's 3D-Printed Framework Turns an IKEA RIBBA Into a Seeed XIAO ESP32C3-Powered ePaper Dashboard](https://www.hackster.io/news/nerdiy-s-3d-printed-framework-turns-an-ikea-ribba-into-a-seeed-xiao-esp32c3-powered-epaper-dashboard-3d09f96f7936)
-  * [Ikea Ribba eInk frame insert for 5″x7″ picture frames - 3D printable - STL files](https://nerdiy.de/en/product-2/eink-frame-insert-suitable-for-ikea-ribba-5x7-picture-frame-3d-printable-stl-files/)
-  * [eInk Frame Insert suitable for Ikea Ribba 5″x7″ picture frame](https://github.com/Nerdiyde/ESPHomeSnippets/tree/main/Snippets/eInk_frame_insert_ribba_5inchX7inch)
-  * [RIBBA Frame 5x7"](https://www.ikea.com/us/en/p/ribba-frame-black-50378448/)
-  * [Americanflat 5x7 Picture Frame in Black](https://www.amazon.com/Americanflat-Picture-Frame-Black-Built/dp/B0CMC9232L/)
+    * [Ikea Ribba eInk frame insert for 5″x7″ picture frames - 3D printable - STL files](https://nerdiy.de/en/product-2/eink-frame-insert-suitable-for-ikea-ribba-5x7-picture-frame-3d-printable-stl-files/)
+    * [eInk Frame Insert suitable for Ikea Ribba 5″x7″ picture frame](https://github.com/Nerdiyde/ESPHomeSnippets/tree/main/Snippets/eInk_frame_insert_ribba_5inchX7inch)
+    * [RIBBA Frame 5x7"](https://www.ikea.com/us/en/p/ribba-frame-black-50378448/)
+    * [Americanflat 5x7 Picture Frame in Black](https://www.amazon.com/Americanflat-Picture-Frame-Black-Built/dp/B0CMC9232L/)
 
 
 ## Make it Speak to Home Assistant
 
 * [More Voice More Voice More Voice (Local Control)](https://www.mostlychris.com/more-voice-more-voice-more-voice/)
-  * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
+    * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
 
 
@@ -201,7 +201,7 @@ a touch screen display, and ChatGPT.
 # AI Generate Text from Speech
 
 * [Playing around with Spchcat/Speechcat](https://www.youtube.com/watch?v=c6c_bJIewUU)
-  * [Spchcat](https://github.com/petewarden/spchcat)
+    * [Spchcat](https://github.com/petewarden/spchcat)
 
 
 # ESP32 Voice Streaming
@@ -228,13 +228,13 @@ a touch screen display, and ChatGPT.
 * [mmWave Radar Alarm with Telegram Notifications](https://community.dfrobot.com/makelog-313113.html?tracking=64819a20b8a22)
 * [Working with MR24HPC1](https://www.hackster.io/mithun-das/working-with-mr24hpc1-281d88)
 * [Seeed Studio mmWave sensor kit – Part 1: unboxing and first impression with ESPHome and Home Assistant](https://www.cnx-software.com/2023/12/19/seeed-studio-mmwave-sensor-kit-unboxing-esphome-home-assistant/)
-  * [Seeed Studio mmWave Human Detection Sensor Kit](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
+    * [Seeed Studio mmWave Human Detection Sensor Kit](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
 
 
 # Tiny Motion Detection Alarm
 
 * [Tiny Motion Detection Alarm Does The Trick](https://hackaday.com/2024/02/24/tiny-motion-detection-alarm-does-the-trick/)
-  * [Tiny Motion Detection Alarm](https://www.instructables.com/Tiny-Motion-Detection-Alarm/)
+    * [Tiny Motion Detection Alarm](https://www.instructables.com/Tiny-Motion-Detection-Alarm/)
 
 
 ---------------
@@ -430,36 +430,41 @@ The objective is to detect the presence of a person by multiple sensory clues
 such as their image but also via motion, heat, sound, or RF exhaust then may make.
 
 * [Human Here? My First Presence Sensor](https://www.mostlychris.com/am-i-here-my-first-presence-sensor/)
-  * [Linptech Presence Sensor ES1](https://www.amazon.com/Linptech-Presence-Automation-Compatible-Assistant/dp/B0C7C6L66J)
+    * [Linptech Presence Sensor ES1](https://www.amazon.com/Linptech-Presence-Automation-Compatible-Assistant/dp/B0C7C6L66J)
 
 * [Presence Detection In Home Assistant Using ESPHome And ESP32](https://www.youtube.com/watch?v=endqy0G6Dks)
 * [Multisensor For Home Assistant](https://apolloautomation.com/products/multisensor-mk1)
 * [Apollo Automation MSR-1 Presence and More Sensor](https://www.mostlychris.com/apollo-automation-msr-1-presence-and-more-sensor/)
 
-* [Set up Human Presence detection with LD2410B and Home Assistant in minutes](https://www.youtube.com/watch?v=G6IEc2XYzbc)
-
 * [Building My Perfect Smart Home Presence Detection Sensor!](https://www.youtube.com/watch?v=Viqvx7hMMJs)
-  * [I Built My Own Presence Detection Sensor!](https://www.youtube.com/watch?v=VEqWlOeJ2YA)
-  * [This New Sensor Is A GAME CHANGER For Your Smart Home!](https://www.youtube.com/watch?v=Leru0rCS8b0)
-  * [4 EASY Presence Detection Setups in Home Assistant](https://www.youtube.com/watch?v=Lu0hunynWJY)
-  * [mmWave Radar - Human Presence Detection (9m)](https://www.dfrobot.com/product-2282.html)
-  * [mmWave Human Detection Sensor](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
-  * [I'm Making My Own Smart Home Motion Sensor!?](https://www.youtube.com/watch?v=boWsjJlgzag)
+    * [I Built My Own Presence Detection Sensor!](https://www.youtube.com/watch?v=VEqWlOeJ2YA)
+    * [This New Sensor Is A GAME CHANGER For Your Smart Home!](https://www.youtube.com/watch?v=Leru0rCS8b0)
+    * [4 EASY Presence Detection Setups in Home Assistant](https://www.youtube.com/watch?v=Lu0hunynWJY)
+    * [mmWave Radar - Human Presence Detection (9m)](https://www.dfrobot.com/product-2282.html)
+    * [mmWave Human Detection Sensor](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
+    * [I'm Making My Own Smart Home Motion Sensor!?](https://www.youtube.com/watch?v=boWsjJlgzag)
 
 * [The BEST Smart Home Room Presence Detection I've Tried!](https://www.youtube.com/watch?v=p7C2QvmsM8M)
 
 * [Everything Presence One](https://shop.everythingsmart.io/en-us)
-  * [Everything Presence One](https://github.com/EverythingSmartHome/everything-presence-one)
-  * [Everything Presence One - Official Case](https://www.printables.com/model/302846-everything-presence-one-official-case)
-  * [My Smart Home Presence Sensor Is Finally Here!](https://www.youtube.com/watch?v=cH5sJFk_2wo&t=6s)
-  * [This Smart Home Sensor Blew My Mind! 🤯 mmWave](https://www.youtube.com/watch?v=jVjrgQSWlLI)
-  * [I Made A More Affordable Smart Home Presence Sensor](https://www.youtube.com/watch?v=wCwMNSeLRcw)
-  * [Diy Presence Sensor](https://www.youtube.com/watch?v=P8RO9gjs_h4)
+    * [Everything Presence One](https://github.com/EverythingSmartHome/everything-presence-one)
+    * [Everything Presence One - Official Case](https://www.printables.com/model/302846-everything-presence-one-official-case)
+    * [My Smart Home Presence Sensor Is Finally Here!](https://www.youtube.com/watch?v=cH5sJFk_2wo&t=6s)
+    * [This Smart Home Sensor Blew My Mind! 🤯 mmWave](https://www.youtube.com/watch?v=jVjrgQSWlLI)
+    * [I Made A More Affordable Smart Home Presence Sensor](https://www.youtube.com/watch?v=wCwMNSeLRcw)
+    * [Diy Presence Sensor](https://www.youtube.com/watch?v=P8RO9gjs_h4)
 
 
 * [Person Detection with TensorFlow and Arduino](https://www.hackster.io/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
 * [TensorFlow Object Detection with Home-Assistant](https://www.hackster.io/robin-cole/tensorflow-object-detection-with-home-assistant-7cc04b)
 * [Step Detection System By A Way With Arduino](https://www.hackster.io/juan-salvador-aleixandre-talens/step-detection-system-by-a-way-with-arduino-bc6f3a)
+
+
+# LD2410B Radar Sensor
+
+* [Set up Human Presence detection with LD2410B and Home Assistant in minutes](https://www.youtube.com/watch?v=G6IEc2XYzbc)
+* [Adding Human Detection To Home Automation](https://hackaday.com/2024/08/29/adding-human-detection-to-home-automation/)
+    * [mmWave Human Presence Sensor: LD2410B](https://www.youtube.com/watch?v=yFOymsoxdIg)
 
 
 # Motion
@@ -562,20 +567,20 @@ The Person Sensor includes a camera and microcontroller in a tiny package, and c
 * [The Whole Package](https://www.hackster.io/news/the-whole-package-301ee0887def)
 * [Sensing a Shift in Edge ML](https://www.hackster.io/news/sensing-a-shift-in-edge-ml-b7761fa3bf5f)
 * [Former Googler creates Tiny ML sensor startup](https://staceyoniot.com/former-googler-creates-tiny-ml-sensor-startup/)
-  * [Meet the Person Sensor from Useful Sensors!](https://www.sparkfun.com/news/5468)
-    * [The Person Sensor](https://usefulsensors.com/person-sensor/)
-    * [Person Sensor Developer Guide](https://github.com/usefulsensors/person_sensor_docs)
-    * [Auto-Lock your Screen with a Person Sensor](https://www.youtube.com/watch?v=YYvKbOyhNNk&t=1s)
-    * [usefulsensors/person_sensor_docs](https://github.com/usefulsensors/person_sensor_docs)
-    * [dupontgu/person-sensor-circuitpython](https://github.com/dupontgu/person-sensor-circuitpython)
+    * [Meet the Person Sensor from Useful Sensors!](https://www.sparkfun.com/news/5468)
+        * [The Person Sensor](https://usefulsensors.com/person-sensor/)
+        * [Person Sensor Developer Guide](https://github.com/usefulsensors/person_sensor_docs)
+        * [Auto-Lock your Screen with a Person Sensor](https://www.youtube.com/watch?v=YYvKbOyhNNk&t=1s)
+        * [usefulsensors/person_sensor_docs](https://github.com/usefulsensors/person_sensor_docs)
+        * [dupontgu/person-sensor-circuitpython](https://github.com/dupontgu/person-sensor-circuitpython)
 
 
 ## Create Images
 
 * [How Image-Generating AI of Stable Diffusion Works](https://hackaday.com/2022/10/24/how-the-art-generating-ai-of-stable-diffusion-works/)
 * [Building the Worlds First Etch-a-Sketch Camera!](https://www.youtube.com/watch?v=iQhhutAanu0)
-  * [Etch-A-Sketch Camera Is Open Source](https://hackaday.com/2024/05/20/etch-a-sketch-camera-is-open-source/)
-  * [Every Flavor Etch-A-Sketch Camera](https://hackaday.io/project/196151-every-flavor-etch-a-sketch-camera)
+    * [Etch-A-Sketch Camera Is Open Source](https://hackaday.com/2024/05/20/etch-a-sketch-camera-is-open-source/)
+    * [Every Flavor Etch-A-Sketch Camera](https://hackaday.io/project/196151-every-flavor-etch-a-sketch-camera)
 
 
 ## Sensing WiFi and BLE Devices
@@ -609,9 +614,9 @@ Gets GPS UTC Time, Logs all this to SD card and displays the information
 * [ESP8266 Friend Detector](https://www.hackster.io/ricardooliveira/esp8266-friend-detector-12542e)
 * [Wi-Fi Sniffer as Sensor for Humans](https://www.youtube.com/watch?v=fmhjtzmLrg8)
 * [Remote Wifi Sniffing Station with an ESP8266](https://www.youtube.com/watch?v=_GQMZg_5FPE)
-  * [ETHERNET CONTROLLER DISCOVERED IN THE ESP8266](https://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
-  * [espthernet](https://github.com/cnlohr/espthernet)
-  * <https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0>
+    * [ETHERNET CONTROLLER DISCOVERED IN THE ESP8266](https://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
+    * [espthernet](https://github.com/cnlohr/espthernet)
+    * <https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0>
 
 ---------------
 
@@ -646,7 +651,7 @@ The device will continuously record its location, even when disconnected from th
 
 * [Location using ESP8266 | Geolocation Without GPS Module](https://electronicsforu.com/electronics-projects/gps-geolocation-using-esp8266-projects)
 * A consolidated location and information of wireless networks world-wide to a central database: [Wireless Geographic Logging Engine (WiGLE)](https://en.wikipedia.org/wiki/WiGLE)
-  * [WiGLE.net](https://wigle.net/)
+    * [WiGLE.net](https://wigle.net/)
 
 
 # Bluetooth
@@ -682,11 +687,11 @@ This chip includes a GPS processor, WiFi scanner, and a Lora radio
 
 * [WiFinder](https://github.com/mpescimoro/wi-finder)
 * [whereami](https://github.com/kootenpv/whereami)
-  * [wherearehue](https://github.com/DeastinY/wherearehue)
+    * [wherearehue](https://github.com/DeastinY/wherearehue)
 * multiple object tracker projects on github
-  * <https://github.com/search?q=topic%3Agps-tracker&type=Repositories>
-  * <https://github.com/search?q=topic%3Awifi-fingerprints&type=Repositories>
-  * <https://github.com/search?q=topic%3Alocation-services&type=Repositories>
+    * <https://github.com/search?q=topic%3Agps-tracker&type=Repositories>
+    * <https://github.com/search?q=topic%3Awifi-fingerprints&type=Repositories>
+    * <https://github.com/search?q=topic%3Alocation-services&type=Repositories>
 
 
 ### Framework for Internal Navigation and Discovery (FIND)
@@ -715,7 +720,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 
 * [Show me your SSID’s, I’ll Tell Who You Are!](https://blog.rootshell.be/2012/01/12/show-me-your-ssids-ill-tell-who-you-are/)
 * Build movement-aware applications: [HyperTrack](https://www.hypertrack.com/)
-  * [HyperTrack Documentation](https://docs.hypertrack.com/)
+    * [HyperTrack Documentation](https://docs.hypertrack.com/)
 
 ---------------
 
