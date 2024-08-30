@@ -89,10 +89,10 @@ All we know is they can’t simultaneously be true.
 * [Does God play dice? A Note on the 2022 Nobel Prize in Physics](https://www.theweek.in/news/sci-tech/2022/10/14/does-god-play-dice--a-note-on-the-2022-nobel-prize-in-physics.html)
 * [Scientifc Background on the Nobel Prize in Physics 2022](https://www.nobelprize.org/uploads/2022/10/advanced-physicsprize2022.pdf)
 * [The worst Nobel Prizes ever awarded in science (and one in literature)](https://bigthink.com/the-past/worst-nobel-prizes-science/)
+* [Computer Scientists Prove That Heat Destroys Quantum Entanglement](https://www.quantamagazine.org/computer-scientists-prove-that-heat-destroys-entanglement-20240828/)
 
 
 ## Quantum Physics Confusion: How to Learn This Stuff
-
 It is often said, nobody understands quantum physics ... not true.
 The problem is, nobody understands quantum **physicists** muddled description of the topic.
 

@@ -13,14 +13,18 @@ Version:      0.0.0
 
 ---------------
 
+
+# The MindBbending Complexity of Quantum Computing
 _"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
 ... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
 
 _“The mathematics of quantum physics fits on a postcard. But there are thousands of pages of popular science trying to make that mathematics into a rewarding analogy. That property of quantum mechanics to resist analogy carries through to the computer.”_ ... Peter Shadboldt, PsiQuantum
 
-_"Perhaps the only thing harder than building a quantum computer is explaining how it works."_ ... Adam Bluestein, Fast Company
+_"Perhaps the only thing harder than building a quantum computer is explaining how it works."_ ... Adam Bluestein, Fast Company - <https://rjaywhitejr.com/this-startup-is-building-the-countrys-most-powerful-quantum-computer-on-chicagos-south-side/>
 
 _"The Talk" by Zach Weinersmith & Scott Aaronson_ - <https://www.smbc-comics.com/comic/the-talk-3>
+
+_"If you think you understand quantum mechanics, then you don’t understand quantum mechanics.”_ ... Richard Feynman
 
 _"...the gyroscope that I bought when I was eight ... seems mysterious or paradoxical in the context of common experience that excludes gyroscopes ... a paradox may remain if the intuition cannot reach out to connect with it."_
 [What is Entanglement? Stretching Your Mind to Understand Quantum Entanglement](https://thequantuminsider.com/2024/08/22/what-is-entanglement-stretching-your-mind-to-understand-quantum-entanglement-a-guest-post-by-carl-kocher/)
