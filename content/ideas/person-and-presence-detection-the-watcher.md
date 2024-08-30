@@ -224,6 +224,7 @@ a touch screen display, and ChatGPT.
 
 # Radar Sensor
 
+* [Best mmWave Presence Sensors for Home Assistant!](https://www.youtube.com/watch?v=Kt1FpRM8R18&t=2239s)
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
 * [mmWave Radar Alarm with Telegram Notifications](https://community.dfrobot.com/makelog-313113.html?tracking=64819a20b8a22)
 * [Working with MR24HPC1](https://www.hackster.io/mithun-das/working-with-mr24hpc1-281d88)
