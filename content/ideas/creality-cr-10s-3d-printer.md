@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -17,6 +17,7 @@ Version:      0.0.0
 
 
 # Klipper on Creality CR-10S
+
 * [klipper on my raspberry pi 3 controlling my CR-10](https://www.thingiverse.com/groups/creality-cr-10/forums/general/topic:26335)
 * [Is it worth to install klipper on my creality cr10s pro v2?](https://www.reddit.com/r/klippers/comments/108aocp/is_it_worth_to_install_klipper_on_my_creality/)
 * [Klipper connection to CR10S](https://forum.repetier.com/discussion/6068/klipper-connection-to-cr10s)
@@ -32,12 +33,16 @@ Version:      0.0.0
 * [config/printer-creality-cr10s-2017.cfg](https://github.com/Klipper3d/klipper/blob/master/config/printer-creality-cr10s-2017.cfg)
 * [Never adjust your 3D Printer Z Offset again with Klipper and a plugin](https://www.youtube.com/watch?v=oQYHFecsTto)
 
+
 # Klipper vs Marlin
+
 * [Klipper vs Marlin which one is right for you](https://www.youtube.com/watch?v=4cxgucVzjQg)
 * [Here's what you need to know, if you have a Klipper printer](https://www.youtube.com/watch?v=2nH6lfZ-WvU)
 * [Fluidd vs Mainsail Comparison 2022 | 3D Printer Klipper Help](https://www.youtube.com/watch?v=BHVVcjtWTyA)
 
+
 # Klipper 3D
+
 * [3D Printing: Speed is so Hot Right Now](https://hackaday.com/2024/01/29/3d-printering-speed-is-so-hot-right-now/)
     * [Marlin Firmware](https://marlinfw.org/)
     * [Klipper](https://www.klipper3d.org)
@@ -57,6 +62,7 @@ Version:      0.0.0
 
 * [AI & 3D Printing: The Latest Experiments](https://all3dp.com/2/ai-3d-printing-3d-printer/)
 
+
 ## Creality Sonic Pad
 A 3D Printing Pad Based On Klipper, compatible with most FDM printers
 
@@ -75,17 +81,24 @@ Creality Sonic Pad **does not** seem to support their Creality CR-10S printer (m
 and those who trid to integrate them had probems (my sources:
 [here](https://www.reddit.com/r/CR10/comments/116i9i6/need_help_with_cr10_to_sonic_pad_connection/)).
 
+
 ## KUSBA: Klipper USB Accelerometer
+
 * [KUSBA: Klipper USB Accelerometer](https://www.amazon.com/Isiks-Tech-KUSBA-Klipper-Accelerometer/dp/B0C734JL4Z)
 
 
 # Shop Here
-* https://www.gearbest.com/3d-printers-3d-printer-kits/pp_778981.html?wid=1433363#goodsDetail
+
+* <https://www.gearbest.com/3d-printers-3d-printer-kits/pp_778981.html?wid=1433363#goodsDetail>
+
 
 # Search Here
-* https://www.google.com/search?q=Creality3D+CR+-+10S&source=lnms&tbm=shop&sa=X&ved=0ahUKEwirq_PUzOPeAhVqTd8KHaSQBDkQ_AUIDigB&biw=1421&bih=996
+
+* <https://www.google.com/search?q=Creality3D+CR+-+10S&source=lnms&tbm=shop&sa=X&ved=0ahUKEwirq_PUzOPeAhVqTd8KHaSQBDkQ_AUIDigB&biw=1421&bih=996>
+
 
 # History of 3D Printing
+
 * [Remembering Sanjay Mortimer, Pioneer And Visionary In 3D Printing](https://hackaday.com/2021/12/01/remembering-sanjay-mortimer-pioneer-and-visionary-in-3d-printing/)
 
 Reference Shapeways cost vs 3D-Printing yourself
@@ -141,8 +154,11 @@ The following reviews helped me make this choose:
 * [Creality3D CR-10S Upgraded - Review, Print comparison, Pros & Cons](https://www.youtube.com/watch?v=Fhvb9LA9ug0)
 * [Creality CR-10S Review: Is It Better Than the CR-10?](https://www.androidtipster.com/creality-3d-cr-10s-review-upgrade-version-vs-cr-10/)
 
+
 # Design Principles
+
 * [Books You Should Read: Exact Constraint: Machine Design Using Kinematic Principles](https://hackaday.com/2019/09/11/books-you-should-read-exact-constraint-machine-design-using-kinematic-principles/)
+
 
 # 3D vs. 2.5D Printing
 3D printers by in large print in a planer fashion,
@@ -153,8 +169,11 @@ that can eliminate the steps often seen on shallow surfaces.
 * [Achieve true 3D printing with non planar slicing](https://www.youtube.com/watch?v=gmePlcU0TRw)
 * [How’s That 2.5D Printer Working For You?](https://hackaday.com/2019/09/09/hows-that-2-5d-printer-working-for-you/)
 
+
 # Resin vs Filament Printing
+
 * [3D Printering: Will A Resin Printer Retire Your Filament-based One?](https://hackaday.com/2020/04/30/3d-printering-will-a-resin-printer-retire-your-filament-based-one/)
+
 
 # Barriers to Entry
 One of the biggest reasons there isn’t a 3D printer in every home yet has nothing to do with price or availability.
@@ -162,14 +181,15 @@ It’s the fact that if you want to design and print your own objects,
 you need to know how to use relatively complex 3D modelling software.
 
 * [Makerbot Printshop iOS App](https://www.youtube.com/watch?v=l8d5BW3hwe8)
-* https://www.makerbot.com/stories/news/makerbot-printshop-1-5-bring-your-drawings-to-life-with-shape-maker/
+* <https://www.makerbot.com/stories/news/makerbot-printshop-1-5-bring-your-drawings-to-life-with-shape-maker/>
+
 
 # Filament
 Which filament to use can be an important decisions you make.
 I choose [Hatchbox][44] because of its availability on Amazon, reasonable price, wide color verity,
 but mainly [it get great reviews][43].
 
-* https://hackaday.com/2018/09/12/pla-the-plastic-that-grows/
+* <https://hackaday.com/2018/09/12/pla-the-plastic-that-grows/>
 
 You have to use 1.75mm filament with the CR-10.
 It's possible to use other sizes, but not without heavy modification.
@@ -201,7 +221,7 @@ with a wider range of materials such as the:
 * **ABS -** (Acrylonitrile Butadiene Styrene) is another commonly used 3D printer material. Best used for making durable parts that need to withstand higher temperatures. In comparison to PLA filament, ABS plastic is less "brittle" and more "ductile."
 * **PETG -** Polyethylene Terephthalate Glycol (PETG) is a water clear material and designed to be very 'easy to use' in a range of applications. It's a thermoplastic polymer created through the copolymerisation of PET and ethylene glycol.
  This filament is an extra tough 3D print material. This is an extreme high strength filament and can achieve very sturdy and strong prints. It has very low shrinkage, making this perfect for larger flat surfaces.
- * **TPU -** Thermoplastic polyurethane belongs to a class of polyurethane plastics having many important properties such as elasticity, transparency, and resistance to grease, oil, and abrasion. It is unique due to its extremely flexible nature. Technically speaking, TPUs are made up of thermoplastic elastomers.
+* **TPU -** Thermoplastic polyurethane belongs to a class of polyurethane plastics having many important properties such as elasticity, transparency, and resistance to grease, oil, and abrasion. It is unique due to its extremely flexible nature. Technically speaking, TPUs are made up of thermoplastic elastomers.
 * **PC -** Polycarbonate is a strong, durable, and tough material. It's a naturally transparent thermoplastic with high impact resistance and excellent heat resistance.
 Copper and
 Wood fills.
@@ -213,22 +233,37 @@ Wood fills.
 * [Plastics: PETG](https://hackaday.com/2019/01/29/plastics-petg/)
 * [Bringing High Temperature 3D Printing To The Masses](https://hackaday.com/2020/10/28/bringing-high-temperature-3d-printing-to-the-masses/)
 
+
 # Carbon Fiber Reinforced PLA
+
 * [Carbon Fiber Reinforced PLA](https://www.matterhackers.com/store/c/Carbon%20Fiber%20Reinforced%20PLA)
 * [Hatchbox CARBON FIBER PLA FILAMENT - 1.75MM, 1KG SPOOL](https://www.hatchbox3d.com/products/3d-pla-1kg1-75-carbon)
 
 * [Carbon Fiber with 3D Printing](https://hackaday.com/2023/09/25/carbon-fiber-with-3d-printing/)
 
+
 ## Transparent 3D Prints
+
 * [Transparent 3D Prints](https://www.youtube.com/watch?v=92C10-n21Po)
 
+
 # Calibration Towers
+
 * [CURA: Temp, Flow, Retraction, & Speed Tower - What, How, and WHY to use them, for better 3D Printing](https://www.youtube.com/watch?v=lrlb3vjd4MY)
+
+
 ## Temperature Towers
+
 * [How to Make Temp Towers in Cura: Get Your Temperature Settings Right](https://www.youtube.com/watch?v=N4Yt4tmFxho)
 * [BETTER PRINT QUALITY! Temperature towers with CURA](https://www.youtube.com/watch?v=K3MmzvUl13I)
+
+
 ## Retraction Towers
+
+
 ## Speed Towers
+
+
 ## Flow Towers
 
 
@@ -241,6 +276,7 @@ Simplify3d
 Slic3r and
 Cura Software
 
+
 # 3D Printer Projects Downloads
 Free and for fee STL files from community of Makers and Designers.
 
@@ -249,6 +285,7 @@ but all that CAD can be time consuming so why not use something that is already 
 The challege now becomes searching for the perfict design,
 and [good serach tools really don't exist yet][66].
 
+
 ## For Fee 3D Models
 There are [quite a few different ways 3D models get sold online][65],
 and typically your paying for a license to use the model rather than purchasing it outright.
@@ -256,7 +293,9 @@ and typically your paying for a license to use the model rather than purchasing 
 * [3D Printering: The World Of Non-Free 3D Models Is Buyer Beware](https://hackaday.com/2020/08/26/3d-printering-the-world-of-non-free-3d-models-is-buyer-beware/)
 * [3D Printering: The Search For Better Search](https://hackaday.com/2019/09/05/3d-printering-the-search-for-better-search/#more-373259)
 
+
 ## Free 3D Models
+
 * [35 Websites to Download Free STL Models for 3D Printers](https://www.hongkiat.com/blog/download-free-stl-3d-models/)
 * [THE BEST SITES TO DOWNLOAD FREE STL FILES, 3D MODELS AND 3D PRINTABLE FILES FOR 3D PRINTING](https://www.aniwaa.com/best-sites-download-free-stl-files-3d-models-and-3d-printable-files-3d-printing/)
 
@@ -273,7 +312,7 @@ and typically your paying for a license to use the model rather than purchasing 
 
 
 
------
+---------------
 
 
 
@@ -285,6 +324,7 @@ but there’s an instrumental piece to the puzzle right in between those two poi
 3D printing slicer prepares the selected model for your 3D printer by generating g-code,
 which is a widely used numerical control (NC) programming language.
 There is a [large number of slicing software out there][45], many of which are free.
+
 
 ## Cura
 The very first slicer I used was Ultimaker's [Cura][47],
@@ -305,11 +345,15 @@ Installation is very simple, just follow the [online install instructions][47].
 * [Rarely Adjusted Slicer Setting Makes A Difference](https://hackaday.com/2019/11/02/rarely-adjusted-slicer-setting-makes-a-difference/)
 * [Click on - Click off - Supports in Cura 4.8](https://www.youtube.com/watch?app=desktop&v=owgUmQao2ME)
 
+
 ## Roll Your Own Slicer
+
 * [Smoothieboard Gets An Ambitious Update For V2](https://hackaday.com/2019/09/12/smoothieboard-gets-an-ambitious-update-for-v2/)
+
 
 ### Step X: Install and Configure Cura - DONE
 Cura is an open source 3D printer slicing application.
+
 * [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
 * [Cura 4.8 - Is this the best Cura Ever?](https://www.youtube.com/watch?v=965tR7AuVJs&feature=youtu.be)
 
@@ -332,8 +376,10 @@ Next, start-up Cura via the commandline with `cura`.
 You'll get prompted to add information about your 3D printer.
 I selected **Other** > **Creality 10**.
 
+
 ### Step X: Cura Settings for Creality CR-10S
 Try this profile
+
 * [Improved Cura 4.4 Profiles for Creality Ender 3](https://www.youtube.com/watch?v=CUpKUHUeteY)
 * [Manage Cura profiles](https://ultimaker.com/en/resources/52032-manage-profiles)
     * [exporting cura profile]()
@@ -346,12 +392,15 @@ Try this profile
 * [3 Cura Slicer Setting Tricks For Beginner](https://www.youtube.com/watch?v=su_m5zV9rvA&feature=youtu.be)
 
 Check here for tuned setting for CR-10 on github
+
 * [Creawesome Mod! Installation, troubleshooting and is it for you?](https://www.youtube.com/watch?v=27WTCvR7zvM)
 * [Creawesome Mod tested on Ender 3, Ender 5 and CR-10S Pro](https://www.youtube.com/watch?v=fB6h5n4FseM)
 * [Creawsome mod for CURA 4.0](https://www.youtube.com/watch?v=mOn-VNqg2ac)
 
+
 ### Step X: First Layer Print
 [Cura Slicer Secret for Perfect 1st Layer Prints](https://www.youtube.com/watch?v=pAFDEn3wGYo)
+
 
 ### Step X: Skirts, Brims, Rafts and Supports
 A raft is a platform printed under a print to ad print bed adhesion.i
@@ -372,20 +421,25 @@ Support Enforcers and Blockers
 * [3D Printing Bores Without Support](https://hackaday.com/2023/05/28/3d-printing-bores-without-support/)
 * [Manual Supports for 3D Printing](https://hackaday.com/2024/04/21/manual-supports-for-3d-printing/)
 
+
 ### Step X: Customizing Supports
 Install Custom Supports plugin by selecting the **Marketplace** button at the top right on Cura.
 
 * [Customizing Supports in Ultimaker Cura](https://www.youtube.com/watch?v=6TPFbqZqmWA)
 * [3D Printing Support Structures: All You Need To Know](https://all3dp.com/1/3d-printing-support-structures/)
 
+
 ### Step X:Clean Up 3D Prints
+
 * [How to Clean Up 3d Prints](https://www.youtube.com/watch?v=TR2DYi6B5YQ)
+
 
 ### Step X: Operating Cura
 These videos will go over some basic features that will help you to use the Cura program better.
 
 * [Cura Setup For Creality Cr-10 & Cr-10S](https://www.youtube.com/watch?v=omSYmte-aNU)
 * [Cura 3D Slicer For Beginners! In Depth Tutorial](https://www.youtube.com/watch?v=eUNTlb5pEWA)
+
 
 ## Step X: Selecting Your Test Print - DONE
 I'm going to use [3DBenchy][04] as my first test print.
@@ -417,6 +471,7 @@ and the forth was a [parametric butt hinge][54].
 * [XYZ 20mm Calibration Cube](https://www.thingiverse.com/thing:1278865)
 * [Level Test](https://www.thingiverse.com/thing:2987803)
 
+
 ## Step X: Removing Cura Package and the PPA
 I installed Cura via a PPA and is expected to have the latest and greatest version of Cura.
 But this PPA, like many PPAs, is managed by a single developer for personal or limited use.
@@ -442,16 +497,25 @@ sudo apt install ppa-purge
 sudo ppa-purge ppa:thopiekar/cura
 ```
 
+
 ## Experimental Features
+
+
 ### Adaptive Layers
+
 * [Ultimaker Cura: Adaptive Layers (3D Universe)](https://www.youtube.com/watch?v=T68ILZ1aLQQ)
 * [Cura - Experimenting with Adaptive Layering!](https://www.youtube.com/watch?v=W_GIyr6cRtM)
 
+
 ### Surface Finish: Fuzzy Skin and Ironing
+
 * [Cura Fuzzy Skin and Ironing on 3D Prints](https://www.youtube.com/watch?v=gh5wC4Ti95s)
 
+
 ### Surface Finish: Mirrored Surface
+
 * [How does a "first surface" mirror work? (2^15 sub special!)](https://www.youtube.com/watch?v=SCuUQOTehqw)
+
 
 ## Calibration Cube
 Calibration cubes are simple geometric shapes (usually cubes, hence the name)
@@ -465,6 +529,7 @@ that help you fine-tune your 3D printer’s settings. They enable you to achieve
 * [Classic Calibration Cube](https://www.thingiverse.com/thing:1278865)
 * [Cali Cat - The Calibration Cat](https://www.thingiverse.com/thing:1545913)
 
+
 ## 3D Print Trouble Shooting
 Its a certainty that your prints will have some imperfections
 and you'll want to improve the quality of your 3D printed parts.
@@ -475,11 +540,12 @@ and you'll want to improve the quality of your 3D printed parts.
 * [Common 3D Printing Questions](https://makeshaper.com/common-3d-printing-questions/)
 
 3D Printing Troubleshooting Guide
+
 * [Layer Separation](https://www.youtube.com/watch?v=mgG7kMRMsLE)
 * [Warping](https://www.youtube.com/watch?v=rj0wpGE3uzc&list=PLfzz3f4EgsrRoSc7CIS6mZv88O2H8s44b)
 
 
------
+---------------
 
 
 
@@ -487,7 +553,10 @@ and you'll want to improve the quality of your 3D printed parts.
 [Slic3r][46] is one of the most widely used open source slicers.
 It's best suited for the more advanced users with its large number of features and options.
 
+
 ### Installing Slic3r
+
+
 #### Step X: Installing Slic3r
 If you installed Slic3r via the Ubuntu package manager,
 you'll get code that dates back to 2015 but classified as "stable".
@@ -507,6 +576,7 @@ tar -xvjf slic3r-1.3.0-linux-x64.tar.bz2
 cd Slic3r
 ./Slic3r
 ```
+
 From here you just follow the Slic3r Configuration Assistant
 (If this wizard doesn't popup, select button **Help** > **Configuration Assistant...**).
 Enter the following information:
@@ -538,6 +608,7 @@ cura is upgraded several times a year.
 * [Slic3r](https://slic3r.org/)
 * [3D Printering: The Past and Future of Prusa’s Slicer](https://hackaday.com/2019/05/24/3d-printering-the-past-and-future-of-prusas-slicer/)
 
+
 #### Step X: Removing Unneeded Support Materials
 Support Enforcers and Blockers
 
@@ -545,14 +616,19 @@ Support Enforcers and Blockers
 
 
 ## Other
+
 * [3DSlicer](https://www.slicer.org/)
 * [SuperSlicer](https://hackaday.com/2021/10/26/superslicer-reviewed-another-3dp-slicer/)
 
+
 ## Pathio
+
 * [PathIO](https://pathio.xyz/)
 * [Pathio: New 3D Slicer from E3D](https://hackaday.com/2019/02/24/pathio-new-3d-slicer-from-e3d/)
 
+
 # Nozzle Size
+
 * [Everything about nozzles with a different diameter](https://www.prusaprinters.org/everything-about-nozzles-with-a-different-diameter/)
 * [How to replace the extruder nozzle](https://www.youtube.com/watch?v=txt6sxV6X88)
 * [3D Printer Nozzle Comparison Guide](https://www.matterhackers.com/news/3d-printer-nozzle-comparison-guide)
@@ -560,8 +636,11 @@ Support Enforcers and Blockers
 * [3D Print ridiculously fast with this terrible mod - 1mm nozzle on the Raise N2+](https://www.youtube.com/watch?v=4Hwc-wbihUs)
 * [0.4mm nozzles just became obsolete](https://www.youtube.com/watch?v=WgXM2zPusXo&t=3s)
 
+
 # Extrusion Width
+
 * [Extrusion Width - The magic parameter for strong 3D prints?](https://www.youtube.com/watch?v=9YaJ0wSKKHA)
+
 
 # Bed Leveling
 You need to level the bed to assure your hotend is equidistant every where it travels on the bed.
@@ -581,11 +660,15 @@ This is done via the four wheels (aka tramming wheels) on the bottom of the bed.
 * [Homemade Probe for 3D Printer: $3](https://hackaday.com/2022/02/11/homemade-probe-for-3d-printer-3/)
 * [BLTouch](https://www.amazon.com/s?k=bltouch&gclid=Cj0KCQiA0p2QBhDvARIsAACSOOOrF_07eCux5dSu_nj_MeAiFl8xLilcORIlO1xQJAG069upaUKE6NsaAjzcEALw_wcB&hvadid=580996256111&hvdev=c&hvlocphy=9007586&hvnetw=g&hvqmt=e&hvrand=1609714309671921903&hvtargid=kwd-55848809213&hydadcr=19239_13386063&tag=googhydr-20&ref=pd_sl_66v9xeymt0_e)
 
+
 # Print Nozzle
+
 * [Use your CR-10 the right way: BIG parts with a BIG nozzle!](https://www.youtube.com/watch?v=ChaqTSzrYjI)
 * [The Importance of Replacing Nozzles](https://www.youtube.com/watch?v=aR2Dg_9aU6Y&feature=youtu.be)
 
+
 # Cleaning or Replacing the Print Nozzle
+
 * [Creality CR-10 3d Printer Nozzle Replace (Tutorial)](https://www.youtube.com/watch?v=Yhu3SahbN44)
 * [CR-10S Unclogging The Nozzle](https://www.youtube.com/watch?v=qUJgMbY6QMo)
 * [Creality Cr-10|cr-10S Nozzle Replacement](https://www.youtube.com/watch?v=7y_EtbvISh8)
@@ -597,19 +680,26 @@ move the z-axis via Prepare >  Move axis >
 heat nozzle 225
 push in the fillement an then pull it out
 
+
 # Changing Filaments
 
 * [Changing Filament Mid Print On The CR 10](https://www.youtube.com/watch?v=ILK232-Tjmo)
 * [Changing Filament - Creality CR-10 3D Printer](https://www.youtube.com/watch?v=1yOT_Cyip1k)
 * [How to Change Filament - 2 Different Ways: Beginners Guide](https://www.youtube.com/watch?v=Od3W-asW3FY)
 
+
 # 3D Printer File Formats
+
 * [4 Most Common 3D Printer File Formats in 2019](https://all3dp.com/3d-printing-file-formats/)
 
+
 # InFill
+
 * [Gradient Infill Puts More Plastic Where You Want It](https://hackaday.com/2020/01/20/gradient-infill-puts-more-plastic-where-you-want-it/)
 
+
 # 3D Printing File Formats
+
 
 ## Stereolithography (STL) File
 [STL is a file format][06]
@@ -621,6 +711,7 @@ An STL file describes a raw, unstructured triangulated surface.
 
 * [STL File Format (3D Printing) – Simply Explained](https://all3dp.com/what-is-stl-file-format-extension-3d-printing/)
 
+
 ## 3D Manufacturing Format (3MF) File
 The STL file format doesn’t contain any scale, color or material information.
 There is no validation, it’s just a bunch of triangles,
@@ -631,7 +722,9 @@ It’s good enough most of the time, but isn’t there a better file format?
 * [3MF file format and why it’s great](https://blog.prusaprinters.org/3mf-file-format-and-why-its-great/)
 * [Josef Prusa Wants You To Change File Formats](https://hackaday.com/2019/11/01/josef-prusa-wants-you-to-change-file-formats/)
 
+
 ## Additive Manufacturing File (AMF)
+
 
 # G-code File
 [G-code][42] is a language
@@ -642,6 +735,7 @@ computer-aided manufacturing and control automated machine tools
 Your 3D printer's g-code is automatically generated by a slicing program such as Cura.
 Because there are hundreds or thousands of movements involved in producing a 3D print,
 the g-code can be hundreds of pages long.
+
 
 # Bed Adhesive
 Getting the first layer to adhere to the 3D print bed is critically important.
@@ -657,36 +751,49 @@ and clean up is also very easy.
 You just run your glass print bed under some tap water.
 Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 
+
 # Assembly and First Print
+
 * [Creality CR-10 Calibration, Settings, and First Print!](https://www.youtube.com/watch?v=zucqDIkX0kY)
 * [Creality CR-10: How To Get The Perfect First Layer](https://www.youtube.com/watch?v=xH26U2asLL4)
 
 * [Creality CR-10 3D Printer Review – Part 1: Unboxing, Setup, and First Prints](https://www.cnx-software.com/2017/04/04/creality-cr-10-3d-printer-review-part-1-unboxing-setup-and-first-prints/)
 * [Creality CR-10 3D Printer Review – Part 2: Tips & Tricks, Octoprint, and Craftware](https://www.cnx-software.com/2017/05/05/creality-cr-10-3d-printer-review-part-2-tips-tricks-octoprint-and-craftware/)
 
+
 # Prefix G-Code
+
 * [Creality CR10 – GCode to Clean Nozzle Before Printing!](http://diy3dtech.com/creality-cr10-gcode-to-clean-nozzle-before-printing/)
 * [Nozzle Cleaning G-Code!](http://diy3dtech.com/nozzle-cleaning-g-code/)
 
 * [G-Code to STL – How to Convert G-Code Back to STL](https://all3dp.com/2/g-code-to-stl-how-to-convert-g-code-back-to-stl/)
 * [STL to STEP – How to Convert STL Files to STEP](https://all3dp.com/2/stl-to-step-how-to-convert-stl-files-to-step/)
 
+
 # GCode Post-Processor
+
 * [This GCode Post-Processor Squeezes Lines Into Arcs](https://hackaday.com/2020/11/03/this-gcode-post-processor-squeezes-lines-into-arcs/)
 
+
 # PLA Waterproofing
+
 * [Truck Bed Liners Improve 3D Prints](https://hackaday.com/2021/02/14/truck-bed-liners-improve-3d-prints/)
 * [Extreme Waterproof 3D Prints](https://hackaday.com/2024/02/18/extreme-waterproof-3d-prints/)
 
+
 # PLA Smoothing
+
 * [PLA Smoothing 3D Prints with 3D Gloop!](https://www.youtube.com/watch?v=vQc5TBPF8uw)
 * [3D Print Finishing By Spraying Glazing Putty](https://hackaday.com/2022/05/10/3d-print-finishing-by-spraying-glazing-putty/)
 * [Powder Your Prints For Baby-Smoothness](https://hackaday.com/2023/09/24/powder-your-prints-for-baby-smoothness/)
 
+
 # Gluing PLA
 [Locally Sourced: PLA Adhesive](https://hackaday.com/2018/02/07/locally-sourced-pla-adhesive/)
 
+
 # Adding Inlay Labels
+
 * [Brighten Up Your Prints With This Nail Polish Approach](https://hackaday.com/2022/03/14/brighten-up-your-prints-with-this-nail-polish-approach/)
 
 
@@ -703,6 +810,7 @@ and [dual Z-axis leading screw rods][15].
 * [Let’s Prototype! This Filament End Needs 80 Decibels](https://hackaday.com/2017/01/27/lets-prototype-this-filament-end-needs-80-decibels/)
 
 Sources:
+
 * [Paid Upgrades for the CR-10](https://www.youtube.com/watch?v=sJdMfjJWZ7g)
 * [Creality CR-10 upgrades of all kinds the best of the best](https://www.youtube.com/watch?v=HB6Zr1sauSc)
 * [Silence the CR 10](https://www.youtube.com/watch?v=VX2dLhtDcBg)
@@ -714,8 +822,9 @@ Sources:
 * [Thingiverse: CR-10 Mods](https://www.thingiverse.com/UncleJessy/collections/cr-10-mods)
 * [Creality CR-10 tool holder](https://www.thingiverse.com/thing:2253349)
 * [Creality CR-10 Caliper Mount for Bed Level/Tramming](https://www.thingiverse.com/thing:2524480)
-* https://www.thingiverse.com/AnonymousCarter/collections/cr-10
+* <https://www.thingiverse.com/AnonymousCarter/collections/cr-10>
 * [CR-10S Before and After Noise Mods](https://www.youtube.com/watch?v=Jxmjpc5NfwM)
+
 
 ## Upgrades
 Like many 3d printers, my glass bed is not perfectly flat
@@ -748,6 +857,7 @@ Many recommend anti-backlash device on the Z-axis leadscrew.
 An anti-backlash device is used to 'soaked up' this gap when you change directions.
 The [T8 Anti-Backlash Spring Loaded Nut][31] is one such device.
 
+
 ## Add-Ons
 The Creality CR-10S can be noisy, which is annoying in its own way,
 but noise is also a symptom of vibration which can impact your print.
@@ -759,10 +869,11 @@ and these [M3 T-nuts][34] for mounting the feet.
 Stepper motors are a source of vibration while printing and can negatively effect the print.
 You can improve this by using [stepper motor vibration dampers][36].
 
-* Filament Guide - https://www.thingiverse.com/make:639276
-* Cable Chain - https://www.thingiverse.com/thing:2920060
+* Filament Guide - <https://www.thingiverse.com/make:639276>
+* Cable Chain - <https://www.thingiverse.com/thing:2920060>
 
 * [Free Upgrades for CR-10](https://www.youtube.com/watch?v=faJ7ngEst8g&feature=youtu.be)
+
 
 ## Replacing Bowden Tube and Nozzle
 On January 26, 2024, I replaced the orginal Bowden Tube and Nozzle with the
@@ -773,8 +884,9 @@ On January 26, 2024, I replaced the orginal Bowden Tube and Nozzle with the
 * [Changing Nozzles & Bowden Tubes](https://www.youtube.com/watch?v=FRzsGttNMyk)
 * [How to Clean a 3d Printer Nozzle Correctly - Useful Tips To Save Money](https://www.youtube.com/watch?v=OmXlaqN3uog)
 
+
 # Monitoring Your Print
-Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halts-and-catches-fire-analysis-finds-a-surprising-culprit/
+Why monitor your 3D printer .... <https://hackaday.com/2018/03/18/3d-printer-halts-and-catches-fire-analysis-finds-a-surprising-culprit/>
 
 * [Test For 3D Printer Runaway](https://hackaday.com/2021/09/01/test-for-3d-printer-runaway/)
 
@@ -787,7 +899,9 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Spaghetti Detective](https://www.thespaghettidetective.com/)
     * [Spaghetti Detective Users Boiled By Security Gaffe](https://hackaday.com/2021/08/20/spaghetti-detective-users-boiled-by-security-gaffe__trashed/)
 
+
 ## OctoPrint
+
 * [How To Install Octoprint On A Raspberry Pi](https://www.slashgear.com/1444547/how-to-install-octoprint-raspberry-pi/)
 * [How to Set Up OctoPrint on Raspberry Pi 4](https://all3dp.com/2/octoprint-raspberry-pi-4-tutorial/)
 * [How to Remote Monitor your 3D Printer with Raspberry Pi](https://www.tomshardware.com/how-to/monitor-3D-printer-raspberry-pi)
@@ -813,16 +927,23 @@ Why monitor your 3D printer .... https://hackaday.com/2018/03/18/3d-printer-halt
 * [Octolapse](https://hackaday.com/2018/07/02/coolest-way-to-watch-3d-printing-lights-camera-octolapse/)
 * [OctoRemote: How to Use OctoPrint on Android](https://all3dp.com/2/octoprint-android-octoremote-simply-explained/)
 
+
 ## OctoPrint Add-on
+
 * [How to Create the Best 3D Printing Time-Lapse Videos With Octolapse](https://www.makeuseof.com/how-to-create-3d-printing-time-lapse-videos/)
 * [How to Build a Wireless Printer Monitor for OctoPrint 3D Printers](https://www.makeuseof.com/how-to-build-a-wireless-printer-monitor/)
 
+
 ### OctoDash
+
 * [OCTOPRINT TOUCHSCREEN: ALL YOU NEED TO KNOW](https://all3dp.com/2/octoprint-touchscreen-tutorial/)
 * [How to Build a Touchscreen Control Panel for a 3D Printer](https://www.makeuseof.com/3d-printer-raspberry-pi-touchscreen-control-panel/)
 
+
 ## OctoPrint Alternative
+
 * [Repetier Server: How to Set One Up](https://all3dp.com/2/repetier-server-install-set-up/)
+
 
 ## Creality WiFi Box
 Creality WiFi Box is there answer to OctoPrint.
@@ -831,10 +952,14 @@ Creality WiFi Box is there answer to OctoPrint.
 * [Creality WIFI Box tested: Budget Octoprint alternative?](https://www.youtube.com/watch?v=SBr0ArgDztc)
 * [Teardown: Creality Wi-Fi Box](https://hackaday.com/2020/12/28/teardown-creality-wifi-box/)
 
+
 ### Save Energy
+
 * [Save Energy by automating your 3D-printer (Raspberry safe shutdown, OctoPrint, Sonoff)](https://www.youtube.com/watch?v=WR0WdTBQJGo&feature=youtu.be)
 
+
 ### Camera Mount
+
 * [ARTICULATING RASPBERRY PI CAMERA MOUNT](https://cults3d.com/en/3d-model/tool/articulating-raspberry-pi-camera-mount-for-prusa-mk3)
 * [Light the Bed for Camera: HexaSpot Lamp v1](https://www.thingiverse.com/thing:3605128)
 * [Adding 3D Printer Power And Light Control To OctoPrint](https://hackaday.com/2018/09/15/adding-3d-printer-power-and-light-control-to-octoprint/)
@@ -847,21 +972,28 @@ Creality WiFi Box is there answer to OctoPrint.
 * [3D Printer Streaming Solution Unlocks Webcam Features](https://hackaday.com/2024/04/20/3d-printer-streaming-solution-unlocks-webcam-features/)
     * [Making the Ideal 3d Printer Montioring Live-Stream](https://reticulated.net/posts/making-the-ideal-3d-printer-montioring-live-stream/)
 
+
 # Creality CR-10 Calibration, Settings, and First Print
+
 * [The Best Print Settings for the Creality CR10 - CURA & Simplify3d](https://www.youtube.com/watch?v=UQKagjjnx0Y)
 * [Creality CR-10 Calibration, Settings, and First Print!](https://www.youtube.com/watch?v=zucqDIkX0kY)
 
+
 # Quite Things Down
+
 * [CR-10S Before and After Noise Mods](https://www.youtube.com/watch?v=Jxmjpc5NfwM)
 * [3 Ways to Silence your CR-10](https://www.youtube.com/watch?v=Vlta31wswAE)
 
 
------
+---------------
 
 
 Also checkout for ideas: [3d-printed-things/my-cr10s/](https://github.com/jantman/3d-printed-things/tree/master/my-cr10s)
 
+
 # Kitting to Make the Creality CR-10S Standalone
+
+
 # My Modifications to the Creality CR-10S
 I found a great list of modifications for the Creality CR-10S.
 You can see them in the video [Creality CR-10S Mods and Review][57]
@@ -874,15 +1006,16 @@ Modifications that I made
 (in this order because I want to use the print during the modifications):
 
 * Taller feet for the CR10S to provide room for the electronics
-- [CR-10 Racquetball Feet](https://www.thingiverse.com/thing:3370949) - DONE
+* [CR-10 Racquetball Feet](https://www.thingiverse.com/thing:3370949) - DONE
+
 * I needed to disassemble the electronics box gone,
 so I mounted the filament spool on the top of the printer
-- [CR-10 Spool Mount](https://www.thingiverse.com/thing:2740042) - DONE
+* [CR-10 Spool Mount](https://www.thingiverse.com/thing:2740042) - DONE
 [CR10 Spool Frame Mount](https://www.thingiverse.com/thing:2641586)
 
 * With these modifications, you'll need a
 [SD Card extension](https://www.amazon.com/gp/product/B01D9JIUU0/ref=as_li_ss_tl)
-- [SD Card extension holder](https://www.thingiverse.com/thing:3115238) - DONE
+* [SD Card extension holder](https://www.thingiverse.com/thing:3115238) - DONE
 
 * The power supply needs to be mounted under the printer -
 two [Power Supply Mount](https://www.thingiverse.com/thing:2841111) - DONE
@@ -955,15 +1088,17 @@ candidates for the list above
 
 
 
------
+---------------
 
 
 
 # Starting
+
 * [Things you should know about PLA](https://www.youtube.com/watch?v=unmvWkfpmRE)
 * [3D Printing: 13 Things I Wish I Knew When I Got Started](https://www.youtube.com/watch?v=Sqh3FM12KVg)
 * [5 3D Printing Mistakes you WILL make - and how to avoid them! 3D Printing 101](https://www.youtube.com/watch?v=aWg1nG2AbA8)
 * [Lessons Learned From A 1-Day RTL-SDR Enclosure Project](https://hackaday.com/2018/12/14/lessons-learned-from-a-1-day-rtl-sdr-enclosure-project/)
+
 
 # Enclosure for Printer
 Often times an enclosure is necessary to keep the ambient heat around the printer stable (please reference How To Build An Enclosure For Your 3D Printer).
@@ -971,14 +1106,22 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 * [How To Build An Enclosure For Your 3D Printer](https://www.matterhackers.com/news/how-to-build-a-3d-printer-enclosure)
 * [Designing 3D Printing-Friendly enclosures](https://www.3dhubs.com/blog/cad-modeling-1-enclosures)
 
+
 # Print Speed
+
 * [3D Print parts TWICE as fast with simple slicer tweaks. 3DP101](https://www.youtube.com/watch?v=3kW9SnK4LKc)
 
+
 # Clog Detection
+
 * [Bolt-On Clog Detection For Your 3D Printer](https://hackaday.com/2020/05/19/bolt-on-clog-detection-for-your-3d-printer/)
 
+
 # Projects
+
+
 ## Split-Flap Display
+
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
 * [Splitflap](https://scottbez1.github.io/splitflap/)
 * [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
@@ -989,27 +1132,36 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 * [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
 * [This DIY Split-Flap Display Does Both Time And Weather](https://hackaday.com/2021/04/29/this-diy-split-flap-display-does-both-time-and-weather/)
 
+
 ## Radio Controlled Car
+
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
 * [DIY Arduino based RC Transmitter](https://www.youtube.com/watch?v=-BDCmwNssiw&app=desktop)
 * [Arduino RC Transmitter For Homebrew Projects](https://hackaday.com/2019/01/15/arduino-rc-transmitter-for-homebrew-projects/)
 * [Joy Bonnet Pack without Soldering - Includes Pi Zero WH](https://www.adafruit.com/product/4085)
 
+
 ## Add Metal Threads to Your 3D Prints
+
 * [Add Metal Threads to Your 3D Prints - Make Them Functional!: 4 Steps (with Pictures)](https://www.instructables.com/id/Add-Metal-Threads-to-Your-3D-Prints-Make-Them-Func/)
 * [Adding Screw Threads to 3D Printed Parts](https://formlabs.com/blog/adding-screw-threads-3d-printed-parts/)
 * [Threading 3D Printed Parts: How To Use Heat-Set Inserts](https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/)
 * [Custom Tool Helps Hakko Set Threaded Inserts](https://hackaday.com/2020/10/05/custom-tool-helps-hakko-set-threaded-inserts/)
 
+
 ### Testing Threaded Inserts
+
 * [Threaded Inserts in 3D Prints - How strong are they?](https://www.youtube.com/watch?v=iR6OBlSzp7I)
 * [Threaded Inserts for 3D Prints - Cheap VS Expensive](https://www.youtube.com/watch?v=G-UF4tv3Hvc)
 * [Threading 3D Printed Parts: How To Use Heat-Set Inserts](https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/)
     * [Four Ways to Tackle Threaded Inserts for Plastics](https://www.ptonline.com/articles/four-ways-to-tackle-threaded-inserts-for-plastics)
     * [Using Heat Set Inserts](https://markforged.com/blog/heat-set-inserts/)
 
+
 # CNC
+
 * [Get Moving with New Software from OpenBuilds](https://hackaday.com/2019/03/23/get-moving-with-new-software-from-openbuilds/)
+
 
 # 3D Prints from Photogrammetry
 [Photogrammetry][37] is the art and science of making measurements from photographs,
@@ -1030,18 +1182,24 @@ built on top of an underlying framework called [AliceVision][40].
 * [Design A Custom Enclosure Using Modelling Clay And Photogrammetry](https://hackaday.com/2021/07/14/design-a-custom-enclosure-using-modelling-clay-and-photogrammetry/)
 * [3D scanning and modeling apparatus from 1861](https://hackaday.com/2022/10/02/in-a-way-3d-scanning-is-over-a-century-old/)
 
+
 # 3D Printed Inlay Lettering
+
 * [Simple and quick method of adding white lettering to your 3D printed parts](https://www.youtube.com/watch?v=-p1HtEEaOKY)
 * [3D Print Inlay Lettering](https://www.youtube.com/watch?v=W2f5lI1R6dg)
+
 
 # Photo Rendering of 3D Models
 You may want a realistic photo renderings of your 3D CAD models.
 
 * [Photorender Your 3D Models](https://hackaday.com/2021/03/15/photorender-your-3d-models/)
 
+
 ## OpenScan
+
 * [OpenScan](https://en.openscan.eu/)
 * [OpenScan YouTube](https://www.youtube.com/channel/UCG3IgwSIFFlc77Luf9VVlYw)
+
 
 # 3D Lithophane
 A lithophane is an etched or molded artwork in very thin translucent porcelain
@@ -1050,22 +1208,31 @@ that can be seen clearly only when back lit with a light source.
 * [How To Make a 3D Printed Lithopane / Lithophane](https://www.youtube.com/watch?v=feL0OMZwZoo&app=desktop)
 * [HUGE 3D Printed Spherical Lithophane Globe](https://www.youtube.com/watch?v=YjkP1BcwLNI&app=desktop)
 
+
 # Super Size Print
 [LuBan][55] is a software tool used to split giant 3D models into manageable chunks that could be printed.
 
 * [LuBan: Easy Way To Make Large 3D Prints!](https://www.inov3d.net/luban)
 
+
 # Multicolor Printing
+
 * [MICROSCOPE-INSPIRED TOOLCHANGER SPINS MULTICOLOR 3D PRINTS](https://hackaday.com/2019/05/15/microscope-inspired-toolchanger-spins-multicolor-3d-prints/)
 
+
 # Single Filiment Multicolor Gradient Printing
+
 * [DIY Color Gradient Filament](https://www.youtube.com/watch?v=3AAUj9pV3rM)
 * [Make Your Own Color Gradient 3D Printing Filament](https://hackaday.com/2022/09/30/make-your-own-color-gradient-3d-printing-filament/)
 
+
 # Press Fit Parts
+
 * [Adding Crush Ribs To 3D Printed Parts For A Better Press Fit](https://hackaday.com/2020/10/15/adding-crush-ribs-to-3d-printed-parts-for-a-better-press-fit/)
 
+
 # Metal Plated Plastic
+
 * [Metal Plating Plastic Or Metal Parts](https://hackaday.com/2021/01/01/metal-plating-plastic-or-metal-parts/)
 
 
