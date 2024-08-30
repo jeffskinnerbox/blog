@@ -2097,6 +2097,7 @@ Lovelace is the Home Assistant frontend/UI and can be customize to fit your need
 * [Grid Cards in Home Assistant // Build your own AWESOME dashboard with 9 different types of cards!](https://www.youtube.com/watch?app=desktop&v=I96fN7uQ9PY)
 * [How to Add Custom Panels in Home Assistant](https://www.digiblur.com/2020/12/how-to-add-custom-panels-in-home.html)
 * [Customize Your Dashboard with CUSTOM BUTTON CARDS in Home Assistant](https://www.youtube.com/watch?v=SEyrcLq8pRo)
+* [The ULTIMATE Smart Home Control Panel!](https://www.youtube.com/watch?v=cdZO4NFFWDk)
 
 * [Making an E-paper Dashboard with ESPHome](https://www.youtube.com/watch?v=qJuF58CjwIA)
 
