@@ -162,6 +162,7 @@ This achievement intensifies the question: **What truly separates the quantum fr
 * [Physicists Discover Surprising Quantum-Like Behavior in Tiny Bouncing Droplets](https://www.sciencealert.com/physicists-discover-surprising-quantum-like-behavior-in-tiny-bouncing-droplets)
 * [Interaction-free measurement](https://en.wikipedia.org/wiki/Interaction-free_measurement)
 
+* [This Experiment is weirder than Double Slit](https://www.youtube.com/watch?v=DNKp4QWc0Ys)
 * [Why is quantum mechanics weird? The bomb experiment](https://www.youtube.com/watch?v=RhIf3Q_m0FQ)
     * [Sabine Hossenfelder on the Elitzur-Vaidman bomb tester thought experiment](https://www.reddit.com/r/QuantumPhysics/comments/1b74hog/sabine_hossenfelder_on_the_elitzurvaidman_bomb/)
 

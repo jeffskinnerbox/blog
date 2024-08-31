@@ -310,7 +310,10 @@ QEngine is our software library for quantum simulation and - optimization.
 
 ### Learning Quantum Computing Concepts
 
+* Quantum Information Science
+    * Quantum information science is a field that combines the principles of quantum mechanics with information theory to study the processing, analysis, and transmission of information. It covers both theoretical and experimental aspects of quantum physics, including the limits of what can be achieved with quantum information. The term quantum information theory is sometimes used, but it does not include experimental research and can be confused with a subfield of quantum information science that deals with the processing of quantum information.
 * Quantum Computing Concepts
+    * [Quantum Computing Report: Education](https://quantumcomputingreport.com/education/)
     * [Quantum Computing Course – Math and Theory for Beginners](https://www.youtube.com/watch?v=tsbCSkvHhMo)
     * [IBM Quantum Learning](https://learning.quantum.ibm.com/)
     * [Black Opal](https://black.q-ctrl.com/)
