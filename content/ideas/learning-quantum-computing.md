@@ -33,7 +33,7 @@ _"...the gyroscope that I bought when I was eight ... seems mysterious or parado
 
 * [Quantum Computing Since Democritus, by Scott Aaronson](https://www.amazon.com/dp/0521199565) - DONE
 * [Introduction to Classical and Quantum Computing, by Dr Thomas G Wong](https://www.amazon.com/dp/B09QP2ML3P)
-* [Quantum in Pictures: A New Way to Understand the Quantum World Paperback, by Bob Coecke, Stefano Gogioso](https://www.amazon.com/dp/1739214714) - IN PROGRESS
+* [Quantum in Pictures: A New Way to Understand the Quantum World Paperback, by Bob Coecke, Stefano Gogioso](https://www.amazon.com/dp/1739214714)
 
 * [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX, by Mahnoor Fatima, Subhojit Halder, Maria Fernanda, Jyoti Faujdar](https://www.amazon.com/dp/B0B1RD2Z84/)
 * [Picturing Quantum Processes: A First Course in Quantum Theory and Diagrammatic Reasoning, by Bob Coecke, Aleks Kissinger](https://www.amazon.com/dp/110710422X)
@@ -55,6 +55,11 @@ this course appears to contain much of the material and approach that has disapp
 > Note that, after explaining all this, I still haven’t said a word about the practical difficulty of building quantum computers. The problem, in a word, is decoherence, which means unwanted interaction between a quantum computer and its environment — nearby electric fields, warm objects, and other things that can record information about the qubits. This can result in premature “measurement” of the qubits, which collapses them down to classical bits that are either definitely 0 or definitely 1.
 > Once someone understands these concepts, I’d say they’re ready to start reading — or possibly even writing — an article on the latest claimed advance in quantum computing. They’ll know which questions to ask in the constant struggle to distinguish reality from hype. Understanding this stuff really is possible — after all, it isn’t rocket science; it’s just quantum computing!
 > [Scott Aaronson, What Makes Quantum Computing So Hard to Explain?](https://www.quantamagazine.org/why-is-quantum-computing-so-hard-to-explain-20210608)
+  
+> I’m rather at odds with Aaronson, however, is in his identification of superposition as being the key conceptual stumbling block when it comes to getting a grip on quantum computing. In “The Talk” he describes superposition as “…a complex linear combination of a 0 state and a 1 state.
+> ... superposition is a cornerstone concept in classical physics; it’s an effect that’s at play in the big, bad, macroscopic world around us on a daily basis, not just something confined to the sub-microscopic quantum realm. I am at pains to stress this to the undergraduates taking.
+> The Quantum World — so much of quantum mechanics is Fourier analysis, i.e. the mathematical physics of waves, in disguise. And that most definitely includes superposition. For one thing, every time a musical instrument sounds a note we’re hearing superposition in action.
+> [Philip Moriarty, Superposition without the superstition](https://muircheartblog.wpcomstaging.com/category/quantumworld/)
 
 Barriers to getting your head around quantum computing:
 
@@ -85,6 +90,17 @@ But, quantum mechanics just doesn’t map into anything in the normal human expe
 # Quantum Mechanics with Real Numbers
 
 * [Quantum mechanics with real numbers: entanglement, superselection rules and gauges](https://arxiv.org/pdf/2308.05473)
+
+
+# The Born Rule
+The Born rule is a postulate of quantum mechanics,
+formulated and published by Max Born in July, 1926.
+In its simplest form, it states that the probability density of finding a system in a given state,
+when measured, is proportional to the normalized square of the amplitude of the system's wavefunction at that state.
+
+* [Mysterious Quantum Rule Reconstructed From Scratch](https://www.quantamagazine.org/the-born-rule-has-been-derived-from-simple-physical-principles-20190213/)
+* [The Born rule and its interpretation](https://www.math.ru.nl/~landsman/Born.pdf)
+* [Quantum Theory Rebuilt From Simple Physical Principles](https://www.quantamagazine.org/quantum-theory-rebuilt-from-simple-physical-principles-20170830/)
 
 
 # Quantum Hype
@@ -344,6 +360,7 @@ QEngine is our software library for quantum simulation and - optimization.
         * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
         * [Superposition without the superstition](https://muircheartblog.wpcomstaging.com/2021/10/26/superposition-without-the-superstition/)
             * [Superposition in Quantum Computers - Computerphile](https://www.youtube.com/watch?v=kv-YXKRUheQ)
+        * [Quantum Sense](https://www.youtube.com/@quantumsensechannel)
     * Matrix Mechanics
 * Mathematics of Quantum Computing
     * [How Binary Works, and the Power of Abstraction](https://www.youtube.com/watch?v=PMpNhbMjDj0)
