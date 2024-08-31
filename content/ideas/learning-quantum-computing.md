@@ -336,11 +336,29 @@ QEngine is our software library for quantum simulation and - optimization.
         * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
     * [Tensor Calculus](https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_)
     * [Tensors and Vectors - 2023](https://www.youtube.com/playlist?list=PL2n-gxsZ_8LBC0zhYvDjPF8eF8PvygM2T)
+* Mathematics of Quantum Mechanics
+    * Wave Mechanics
+        * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
+        * [Superposition without the superstition](https://muircheartblog.wpcomstaging.com/2021/10/26/superposition-without-the-superstition/)
+            * [Superposition in Quantum Computers - Computerphile](https://www.youtube.com/watch?v=kv-YXKRUheQ)
+    * Matrix Mechanics
+* Mathematics of Quantum Computing
+    * [How Binary Works, and the Power of Abstraction](https://www.youtube.com/watch?v=PMpNhbMjDj0)
+    * [Quantum Computing](https://www.youtube.com/playlist?list=PLV4qsET9ZdOR-pf6ZMJZx2auIZScXhCaW)
+    * [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
+    * [Quantum Computing](https://www.youtube.com/playlist?list=PLxP0p--aBHmIe--9rczWe4AZmw03e2bz0)
+    * ["A Course in Quantum Computing (for the Community College)" by Michael Loceff](https://lapastillaroja.net/wp-content/uploads/2016/09/Intro_to_QC_Vol_1_Loceff.pdf)
+        * [Intro to Quantum Computing](https://www.youtube.com/playlist?list=PLMnoxczUtKqWpKZTwpRBHrif_y-xENTfx)
+    * [Quantum Computing as a High School Module](https://arxiv.org/abs/1905.00282)
+        * [Introduction to Quantum Computing with Google Quantum AI (For High School Students & Above)](https://www.qubitbyqubit.org/course-info)
 * Concept and Theories in Physical Science
     * [Harvard Project Physics](https://archive.org/details/projectphysicscollection)
 * Quantum Physics
     * DONE - [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
     * [Quantum Physics](https://www.youtube.com/watch?v=qtIsYbYdzCI&list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
+    * [PHYS2001: The Quantum World (Autumn Semester)](https://www.youtube.com/playlist?list=PLvFIOQxlmteUlzUrXKWYL2HoRX6jKdb-J)
+        * [The Quantum World lecture notes](https://muircheartblog.wpcomstaging.com/wp-content/uploads/2020/11/QuantumWorldNotes_2020.pdf)
+        * [The Quantum World -- Supplementary](https://www.youtube.com/playlist?list=PLvFIOQxlmteUUyVslyRQB08SyqGik4t2T)
 * Quantum Mechanics
     * [The Maths of Quantum Mechanics in 13 Minutes | Functional Operators and Fourier Transforms](https://www.youtube.com/watch?v=thRKIYr9LwQ&list=PL748m8SU9Q0cwbh4YDrZCgcNTXVZHwRBc&index=5)
     * [The math trick that revolutionized physics](https://www.youtube.com/watch?v=gXeAp_lyj9s) - DONE
