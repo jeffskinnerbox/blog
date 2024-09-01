@@ -7,7 +7,7 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
----
+---------------
 
 
 # Understanding Modulation
@@ -62,10 +62,10 @@ Marconi's first broadcast station in Chelmsford.
 ### Zinc Negative Resistance Oscillator
 
 - [Making A Crystodyne Radio With Zinc Oxide And Cat’s Whiskers](https://hackaday.com/2024/03/05/making-a-crystodyne-radio-with-zinc-oxide-and-cats-whiskers/)
-  - [The quantum tunneling transmitter](https://ashishrd.com/2024/02/24/the-quantum-tunneling-transmitter/)
-  - [Zinc Negative Resistance Crystal Oscillators](http://sparkbangbuzz.com/zinc-osc-2/zinc-osc3.htm)
-  - ["Oscillating Crystals", by Oleg Losev, January 1925 issue of Radio News, page 1167](https://www.worldradiohistory.com/Archive-Radio-News/20s/Radio-News-1925-01-R.pdf)
-  - [Negative resistance](https://en.wikipedia.org/wiki/Negative_resistance)
+    - [The quantum tunneling transmitter](https://ashishrd.com/2024/02/24/the-quantum-tunneling-transmitter/)
+    - [Zinc Negative Resistance Crystal Oscillators](http://sparkbangbuzz.com/zinc-osc-2/zinc-osc3.htm)
+    - ["Oscillating Crystals", by Oleg Losev, January 1925 issue of Radio News, page 1167](https://www.worldradiohistory.com/Archive-Radio-News/20s/Radio-News-1925-01-R.pdf)
+    - [Negative resistance](https://en.wikipedia.org/wiki/Negative_resistance)
 
 
 ## Impedance Detector
@@ -158,7 +158,7 @@ The primary receiver used on the Titanic’s Marconi station was basically a 3-s
 - [Simple Radios](https://scitoys.com/scitoys/scitoys/radio/radio.html)
 - [Edwin Armstrong’s Battle For FM Radio](https://hackaday.com/2018/07/24/edwin-armstrongs-battle-for-fm-radio/)
 - [Crosley VIII and XJ](https://www.youtube.com/watch?v=lY44V_BH_DA)
-  - [MORE POWER: POWEL CROSLEY AND THE CINCINNATI FLAMETHROWER](https://hackaday.com/2017/02/06/more-power-powel-crosley-and-the-cincinnati-flamethrower/)
+    - [MORE POWER: POWEL CROSLEY AND THE CINCINNATI FLAMETHROWER](https://hackaday.com/2017/02/06/more-power-powel-crosley-and-the-cincinnati-flamethrower/)
 - [Building A Hundred-Year-Old Radio Transmitter](https://hackaday.com/2021/08/31/building-a-hundred-year-old-radio-transmitter/)
 
 
@@ -330,6 +330,7 @@ by building your own coherer.
 ## Transistor
 
 - [Do You Know Rufus Turner?](https://hackaday.com/2016/02/15/do-you-know-rufus-turner/)
+- [Make Your Own Point Contact Transistor](https://hackaday.com/2024/08/31/make-your-own-point-contact-transistor)
 
 
 # Flame Components
@@ -364,8 +365,8 @@ by building your own coherer.
 - [Old Textbooks Galore](https://hackaday.com/2021/06/04/old-textbooks-galore/)
 
 - [Books You Should Read: Making a Transistor Radio](https://hackaday.com/2017/02/03/books-you-should-read-making-a-transistor-radio/)
-  - [Making a Transistor Radio](https://www.worldradiohistory.com/BOOKSHELF-ARH/Technology/Making-a-Transistor-Radio-Ladybird%20Books-1972.pdf)
-  - [Making a Transistor Radio](https://archive.org/details/MakingATransistorRadio-LadybirdBook/mode/1up)
+    - [Making a Transistor Radio](https://www.worldradiohistory.com/BOOKSHELF-ARH/Technology/Making-a-Transistor-Radio-Ladybird%20Books-1972.pdf)
+    - [Making a Transistor Radio](https://archive.org/details/MakingATransistorRadio-LadybirdBook/mode/1up)
 
 
 ## Fusor
