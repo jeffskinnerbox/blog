@@ -123,6 +123,8 @@ Manhole is in-process service that will accept unix domain socket connections an
 * [4 Techniques for Testing Python Command-Line (CLI) Apps](https://realpython.com/python-cli-testing/)
 * [Debugging Code With Decorators](https://realpython.com/lessons/debugging-code-decorators/)
 * [pytest tricks: parametrize twice](https://calmcode.io/course/pytest-tricks/parametrize-twice)
+* [Welcome to pytest-benchmark’s documentation!](https://pytest-benchmark.readthedocs.io/en/latest/)
+
 
 ---------------
 
