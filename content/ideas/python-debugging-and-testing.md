@@ -184,6 +184,7 @@ working with built-in data types, processing iterables of data, handling input a
     * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
     * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
     * [Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
+    * [Lists vs Tuples in Python](https://realpython.com/python-lists-tuples/)
 * Descriptors
     * [8 things in Python you didn't realize are descriptors](https://www.youtube.com/watch?v=mMbVs17Vmo4)
 * Generators
