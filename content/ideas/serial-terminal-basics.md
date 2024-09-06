@@ -338,6 +338,8 @@ This post shows in detailed steps how to open a serial connection to an embedded
 # I2C Bus
 
 * [I2C For Hackers: The Basics](https://hackaday.com/2024/08/07/i2c-for-hackers-the-basics/)
+* [I2C For Hackers: Digging Deeper](https://hackaday.com/2024/09/05/i2c-for-hackers-digging-deeper/)
+
 * [Introduction to the I2C Bus](http://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2c-bus/)
 * [An Introduction to Differential I²C](http://hackaday.com/2017/03/31/an-introduction-to-differential-i%C2%B2c/)
 * [Introduction to the I2C Bus](https://www.youtube.com/watch?v=oRTq8HI4UGs&feature=youtu.be)
