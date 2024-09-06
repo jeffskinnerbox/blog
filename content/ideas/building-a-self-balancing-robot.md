@@ -119,6 +119,7 @@ making Dimebots some of the smallest robots in the world.
 * [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
 * [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
 * [Fire Up The 3D Printer and Build Yourself a Spiderbot](https://hackaday.com/2024/04/01/fire-up-the-3d-printer-and-build-yourself-a-spiderbot/)
+* [SMARS Spider Mod Robot - With WiFi and Voice Control](https://www.hackster.io/dmitrywat/smars-spider-mod-robot-with-wifi-and-voice-control-fb38e7)
 
 
 # Pet Robot
