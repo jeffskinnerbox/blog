@@ -223,6 +223,37 @@ What if you knew one of the children's day of week they where born?
 - [What The Prisoner's Dilemma Reveals About Life, The Universe, and Everything](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
 
+# Red & Green Ball / A Random Choice Gives You Information
+You are given an urn containing 100 balls; n of them are red, and 100-n are green,
+where n is chosen uniformly at random in [0, 100].
+You take a random ball out of the urn, it’s red and it is discard.
+For next ball you pick (out of the 99 remaining), is it more likely to be read or green, or are the two colors equally likely?
+
+One thing I find revealing is that the urn
+problem is completely sensitive to the fact that
+the number of red balls is chosen according to
+what’s called a uniform distribution [that is,
+by picking out of a hat]. Choosing a red ball
+tells you that you’re probably living in a red
+world, but only because I set the problem up
+that way.
+
+If you choose the colors of the balls according
+to a binomial distribution — where you choose
+each ball’s color by flipping a coin — then
+knowing the first ball is red gives no
+information about the next ball. It’s easy to
+modify the starting distribution so that you
+get any of the three possible answers — red,
+green or equally likely. And since tweaking the
+distribution completely changes the answer,
+that suggests that your intuition has to be very
+sensitive to the setup of the problem.
+
+- [Perplexing the Web, One Probability Puzzle at a Time](https://www.quantamagazine.org/perplexing-the-web-one-probability-puzzle-at-a-time-20240829/)
+    - [Daniel Litt' Probibility Puzzle](https://x.com/littmath/status/1751648838501224790)
+
+
 # P-Value
 
 - [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
@@ -236,7 +267,7 @@ What if you knew one of the children's day of week they where born?
 ## 3D Animations
 
 - [Web VPython](https://www.glowscript.org/)
-  - [Web VPython Road Test](https://rjallain.medium.com/web-vpython-road-test-808a69cac916)
+    - [Web VPython Road Test](https://rjallain.medium.com/web-vpython-road-test-808a69cac916)
 
 
 ## Physics
