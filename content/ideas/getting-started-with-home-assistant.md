@@ -93,7 +93,7 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 * [Raspberry Pi IoT Server Tutorial: InfluxDB, MQTT, Grafana, Node-RED & Docker](https://www.youtube.com/watch?v=_DO2wHI6JWQ)
 * [Set up a minimal server on a Raspberry Pi](https://opensource.com/article/21/1/minimal-server-raspberry-pi)
 * [Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc.](https://www.youtube.com/watch?v=a6mjt8tWUws&feature=youtu.be)
-  * [IOTstack](https://sensorsiot.github.io/IOTstack/)
+    * [IOTstack](https://sensorsiot.github.io/IOTstack/)
 * [Raspberry Pi 4 8GB & USB Boot](https://www.youtube.com/watch?v=2zrwjGcyM5s)
 
 * [Node-RED Tutorials](https://www.youtube.com/playlist?list=PLKYvTRORAnx6a9tETvF95o35mykuysuOw)
@@ -117,6 +117,7 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 # Home Assistant ESP 360 Remote
 
 * [Home Assistant compatible “ESP 360 Remote” controls infrared and 433MHz appliances over WiFi (Crowdfunding)](https://www.cnx-software.com/2023/03/08/home-assistant-esp-360-remote-controls-infrared-and-433mhz-appliances-wifi/)
+* [Velleman Infrared Remote Checker Kit (Solder Assembly Required) by Whadda](https://www.jameco.com/z/WSHA137-Velleman-Velleman-Infrared-Remote-Checker-Kit-Solder-Assembly-Required-by-Whadda_2355047.html)
 
 
 # Backup Home Assistant Configuration Files
@@ -202,31 +203,31 @@ Read these articles gave me the insight, pointers,
 and confidence in selecting Home Assistant as my platform of choose:
 
 * Pros/Cons of Home Assistant
-  * [5 Reasons Not to Build a Smart Home on home Assistant](https://www.youtube.com/watch?v=g48pwCIAQEk)
-  * [The realities of Home Assistant after using it for months](https://www.youtube.com/watch?v=RevpNnVWHlY)
-  * [3 Things No One Will Tell You About Home Assistant](https://www.youtube.com/watch?v=WGiFUpiYjEE&feature=youtu.be)
-  * [Home Assistant vs OpenHAB - Which one is better?](https://www.youtube.com/watch?v=A4jrE_MtRWc)
-  * [Why I use Home Assistant for open source home automation](https://opensource.com/article/20/11/home-assistant)
-  * [Cloud control vs local control: What to choose for your home automation](https://opensource.com/article/20/11/cloud-vs-local-home-automation)
-  * [How to choose a wireless protocol for home automation](https://opensource.com/article/20/11/wireless-protocol-home-automation)
-  * [Set up Home Assistant to manage your open source smart home](https://opensource.com/article/20/12/home-assistant)
-  * [Integrate devices and add-ons into your home automation setup](https://opensource.com/article/21/2/home-automation-addons)
-  * [How to set up custom sensors in Home Assistant](https://opensource.com/article/21/2/home-assistant-custom-sensors)
-  * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
-  * [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
+    * [5 Reasons Not to Build a Smart Home on home Assistant](https://www.youtube.com/watch?v=g48pwCIAQEk)
+    * [The realities of Home Assistant after using it for months](https://www.youtube.com/watch?v=RevpNnVWHlY)
+    * [3 Things No One Will Tell You About Home Assistant](https://www.youtube.com/watch?v=WGiFUpiYjEE&feature=youtu.be)
+    * [Home Assistant vs OpenHAB - Which one is better?](https://www.youtube.com/watch?v=A4jrE_MtRWc)
+    * [Why I use Home Assistant for open source home automation](https://opensource.com/article/20/11/home-assistant)
+    * [Cloud control vs local control: What to choose for your home automation](https://opensource.com/article/20/11/cloud-vs-local-home-automation)
+    * [How to choose a wireless protocol for home automation](https://opensource.com/article/20/11/wireless-protocol-home-automation)
+    * [Set up Home Assistant to manage your open source smart home](https://opensource.com/article/20/12/home-assistant)
+    * [Integrate devices and add-ons into your home automation setup](https://opensource.com/article/21/2/home-automation-addons)
+    * [How to set up custom sensors in Home Assistant](https://opensource.com/article/21/2/home-assistant-custom-sensors)
+    * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
+    * [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
 * Home Automation Ideas
-  * [My Top 5 Automations in Home Assistant](https://www.mostlychris.com/my-top-5-automations/)
-  * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
-  * [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
+    * [My Top 5 Automations in Home Assistant](https://www.mostlychris.com/my-top-5-automations/)
+    * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
+    * [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
     and it's companion: [video](https://www.youtube.com/watch?v=F-mEA5RN_yo)
-  * [25 Home Automation Ideas: Ultimate Smart Home Tour (volume 2)](https://smarthomesolver.com/reviews/25-smart-home-automation-ideas-volume-2/)
-  * [Ranking All My Smart Home Products and Projects. SMART HOME TOUR.](https://www.youtube.com/watch?v=n0dfuj60aaI&feature=youtu.be)
+    * [25 Home Automation Ideas: Ultimate Smart Home Tour (volume 2)](https://smarthomesolver.com/reviews/25-smart-home-automation-ideas-volume-2/)
+    * [Ranking All My Smart Home Products and Projects. SMART HOME TOUR.](https://www.youtube.com/watch?v=n0dfuj60aaI&feature=youtu.be)
     and it's companion: [video](https://www.youtube.com/watch?v=jDaRPsvvcz4)
 * Informative YouTubers focusing on home automation:
-  * [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ)
-  * [Everything Smart Home](https://www.youtube.com/channel/UCrVLgIniVg6jW38uVqDRIiQ)
-  * [SuperHouseTV](https://www.youtube.com/user/SuperHouseTV)
-  * [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw)
+    * [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ)
+    * [Everything Smart Home](https://www.youtube.com/channel/UCrVLgIniVg6jW38uVqDRIiQ)
+    * [SuperHouseTV](https://www.youtube.com/user/SuperHouseTV)
+    * [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw)
 
 
 
@@ -831,10 +832,10 @@ The Argon ONE M.2 Case has a multi-function power button which operates as follo
 
 * If the power is currently OFF, a short press turns the power ON.
 * If the power is currently ON, there are these press options:
-  * double–tap for reboot
-  * <3 second, nothing happens
-  * >=3 seconds for soft shutdown and power cut
-  * >=5 seconds for forced shutdown
+    * double–tap for reboot
+    * <3 second, nothing happens
+    * >=3 seconds for soft shutdown and power cut
+    * >=5 seconds for forced shutdown
 
 The default software setting automatically assumes that after a power failure,
 you want the power to remain off.
@@ -2015,17 +2016,17 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 ### Home Assistend Voice & Voice Commands
 
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
-  * [Piper](https://rhasspy.github.io/piper-samples/)
-  * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
+    * [Piper](https://rhasspy.github.io/piper-samples/)
+    * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
 * [Local Voice Control With Home Assistant Just Got Easier!](https://www.youtube.com/watch?v=BLJR_v3IFwk)
 * [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
 * [HAL 9000 Becomes a Helpful Voice Assistant](https://hackaday.com/2022/05/24/hal-9000-becomes-a-helpful-voice-assista/)
 * [How I added JARVIS to Home Assistant powered Smart Home](https://www.youtube.com/watch?v=Ys9xlo3Rq4E)
-  * [Time to Come Clean About Jarvis](https://www.youtube.com/watch?v=p2skApFQWGE)
+    * [Time to Come Clean About Jarvis](https://www.youtube.com/watch?v=p2skApFQWGE)
 
 * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [I turned my ATOM Echo into a Private Voice Assistant for Home Assistant](https://peyanski.com/atom-echo-as-private-voice-assistant/)
-  * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
+    * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
 * FLASHING THE ATOM ECHO - [$13 voice remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
 * [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
 * [Custom Voice Control Sentences in Home Assistant](https://www.mostlychris.com/custom-voice-control-sentences-in-home-assistant/)
@@ -2051,11 +2052,11 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 
 * Device
 * Entity
-  * ID
-  * Name
-  * Icon
-  * State
-  * Attribute
+    * ID
+    * Name
+    * Icon
+    * State
+    * Attribute
 * Service
 * Automation
 * [Home Assistant Concepts Explained Device, Entity, Service, Automation](https://www.youtube.com/watch?v=reQxGZfnewQ)
@@ -2158,8 +2159,8 @@ There Home Assistant add-on called [Remote Home Assistant][50] that makes this e
 
 * [Raspberry Pi OS "Bullseye" Launches, Brings Speed Boost to the Latest Raspberry Pi 4 Models](https://www.hackster.io/news/raspberry-pi-os-bullseye-launches-brings-speed-boost-to-the-latest-raspberry-pi-4-models-b86becec3ae6)
 * [How to know which Raspberry do you have](https://oastic.com/posts/how-to-know-which-raspberry-do-you-have/)
-  * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
-  * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
+    * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
+    * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
 
 
 # Alexa Button
@@ -2456,7 +2457,7 @@ The Sonoff device is administered by the [eWeLink phone app][48].
 
 * [SmaHoo Is a Discreet Device to Make Your Wall Outlets Smart](https://www.hackster.io/news/smahoo-is-a-discreet-device-to-make-your-wall-outlets-smart-01050976af3f)
 * [Zooz ZEN55: Get Smart Alerts from Dumb Smoke/CO Detectors](https://www.mostlychris.com/get-smart-alerts-from-dumb-smoke-co-detectors/)
-  * [Zooz](https://www.getzooz.com/)
+    * [Zooz](https://www.getzooz.com/)
 
 
 

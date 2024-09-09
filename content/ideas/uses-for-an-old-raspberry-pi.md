@@ -67,6 +67,7 @@ What should I do with them?
 # Peripherals
 
 * [remote control](https://www.amazon.com/Favormates-Wireless-Keyboard-Infrared-Raspberry/dp/B01N0SUUZS)
+* [Velleman Infrared Remote Checker Kit (Solder Assembly Required) by Whadda](https://www.jameco.com/z/WSHA137-Velleman-Velleman-Infrared-Remote-Checker-Kit-Solder-Assembly-Required-by-Whadda_2355047.html)
 
 
 # Grandmaster Clock
