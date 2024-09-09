@@ -137,6 +137,8 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 
 # AI Generated Photographic Sense
 
+* [Level Up Your Desk with the Gen AI Photo Frame](https://ashishware.com/2024/02/10/gen_ai_photo_frame/)
+    * [GitHub: code2k13/GenAIPhotoFrame](https://github.com/code2k13/GenAIPhotoFrame)
 * [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
     * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
 
