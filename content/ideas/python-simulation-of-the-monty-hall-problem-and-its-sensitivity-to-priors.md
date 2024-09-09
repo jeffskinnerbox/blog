@@ -141,7 +141,10 @@ Is it in your best interest to switch?
 
 - [How to Solve the Monty Fall Problem](https://medium.com/street-science/how-to-solve-the-monty-fall-problem-ed68d78d8795)
 
+
+
 ---------------
+
 
 
 # The Prior
@@ -190,6 +193,10 @@ What if you knew one of the children's day of week they where born?
 # Boy or Girl Paradox With Cards or Coins
 
 - [Just 3 questions/puzzles that seem obvious but aren't](https://www.youtube.com/watch?v=YCRxwClpUGk)
+
+
+# Bertrand’s Box Paradox
+- [How To Make Sense Of Bertrand’s Box Paradox?](https://streetscience.net/how-to-make-sense-of-bertrands-box-paradox/)
 
 
 # Coin Flipping Paradox
