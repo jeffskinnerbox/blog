@@ -13,6 +13,20 @@ Version:      0.0.0
 
 
 
+# a Docker Image for Conda Application
+When you’re building a Docker image for a Conda-based application, you’ll need to activate a Conda environment.
+Unfortunately, activating Conda environments is a bit complex, and interacts badly with the way Dockerfiles works.
+So how do you activate a Conda environment in a Dockerfile?
+
+* [Activating a Conda environment in your Dockerfile](https://pythonspeed.com/articles/activate-conda-dockerfile/)
+* [Production-ready Docker packaging for Python developers](https://pythonspeed.com/docker/)
+
+
+
+---------------
+
+
+
 **Add information about Conda-Lock.  See README.md in the root directory.**
 
 * [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
