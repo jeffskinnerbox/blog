@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Background
+
 * [Batteries? What For?](https://www.sparkfun.com/news/2913)
 * [A Quick History of the Battery](http://hackaday.com/2016/10/29/a-quick-history-of-the-battery/)
 * [Understanding Advanced Batteries and Energy Storage – Part I](http://investorintel.com/technology-metals-intel/understanding-advanced-batteries-energy-storage-part/)
@@ -33,6 +34,7 @@ Version:      0.0.0
 * [Li-ion Battery Low-Level Intricacies Explained Excellently](https://hackaday.com/2021/12/21/li-ion-battery-low-level-intricacies-explained-excellently/)
 
 All About Batteries
+
 * [Part 1: Introduction](https://www.eetimes.com/author.asp?section_id=36&doc_id=1320292)
 * [Part 2: Specifications & Terminology]()
 * [Part 3: Lead-Acid Batteries]()
@@ -46,10 +48,14 @@ All About Batteries
 * [Part 11: Lithium Sulfur (LiS)]()
 * [Part 12: Lithium Titanate (LTO)](https://www.eetimes.com/author.asp?section_id=36&doc_id=1325358)
 
+
 # Lead Acid Battery
+
 * [Car Batteries: More Than Just Wet Lead](https://hackaday.com/2022/12/01/car-batteries-more-than-just-wet-lead/)
 
+
 # Choosing Battery Technology
+
 * [Battery Basics – Choosing a Battery for Your Project](http://hackaday.com/2014/12/16/battery-basics-choosing-a-battery-for-your-project/)
 * [An Obsessively Thorough Battery (and more) Showdown](http://hackaday.com/2014/09/05/an-obsessively-thorough-battery-and-more-showdown/)
 * [Choosing The Right Battery For Your Electric Vehicle Build](https://hackaday.com/2020/01/07/choosing-the-right-battery-for-your-electric-vehicle-build/)
@@ -66,32 +72,43 @@ All About Batteries
 
 * [Are LiFePO Batteries better? How to Use them For Small Projects](https://www.youtube.com/watch?v=eiyBavjQ1Rk)
 
+
 # UPS Solutions
+
 * [Emergency Power Based on Cordless Drill Batteries](http://hackaday.com/2015/01/31/emergency-power-based-on-cordless-drill-batteries/)
 * [UPS PIco - Uninterruptible Power Supply with Peripherals and I2C control Interface](http://www.rpiblog.com/2015/01/ups-pico-uninterruptible-power-supply.html)
 * [Ultimate Battery Backup Mod](http://hackaday.com/2016/03/05/ultimate-battery-backup-mod/)
 * [A Super UPS For The Pi](https://hackaday.com/2020/11/05/a-super-ups-for-the-pi/)
 * [UPS HAT For Raspberry Pi offers real-time monitoring](https://linuxgizmos.com/ups-hat-for-raspberry-pi-offers-real-time-monitoring/)
 
+
 # Raspberry Pi Battery Power
+
 * [Battery Backup For The Raspberry Pi](http://hackaday.com/2016/03/17/battery-backup-for-the-raspberry-pi/)
 
+
 ## DC/DC Boost Converter
+
 * [Buck converter vs. linear voltage regulator - practical comparison](https://www.youtube.com/watch?v=giGRrODKJSE)
 * [A PRIMER ON BUCK (AND BOOST) CONVERTERS](http://hackaday.com/2015/01/24/a-primer-on-buck-and-boost-converters/)
 * [Buck Converter Efficiency](https://hackaday.com/2018/06/02/buck-converter-efficiency/)
 * [Selecting a DC/DC Converter for Maximum Battery Life in Pulsed-Load Applications](http://www.ti.com/lit/an/slva740/slva740.pdf)
 * [AVR Microcontroller Doubles Up As A Switching Regulator](https://hackaday.com/2021/01/09/avr-microcontroller-doubles-up-as-a-switching-regulator/)
 * [A PRIMER ON BUCK (AND BOOST) CONVERTERS](https://hackaday.com/2015/01/24/a-primer-on-buck-and-boost-converters/)
-* https://www.adafruit.com/products/1903
-* https://www.adafruit.com/products/2030
+* <https://www.adafruit.com/products/1903>
+* <https://www.adafruit.com/products/2030>
+
 
 # Solid State Battery
+
 * [Murata To Deliver Solid State Batteries To Market In The Fall](https://hackaday.com/2021/08/03/murata-to-deliver-solid-state-batteries-to-market-in-the-fall/)
 
+
 # LiPo Charger Board
+
 * [This True Hardware Hack Supercharges Your ATtiny MCU, or Alternatively, Gives Your Batteries Brains!](https://www.hackster.io/news/this-true-hardware-hack-supercharges-your-attiny-mcu-or-alternatively-gives-your-batteries-brains-97d747bfa7c7)
 * [TP4056 - Battery Charging Board](https://www.amazon.com/HiLetgo-Lithium-Battery-Charging-Protect/dp/B00LTQU2RK/ref=asc_df_B00LTQU2RK)
+
 
 # Measuring LiPo Charge Level
 Battery-powered projects require you to monitor your battery's life.
@@ -129,10 +146,13 @@ but have a much lower total cost of ownership and environmental impact,
 as they can be recharged inexpensively many times before they need replacing.
 
 Definitions
-C-Rating - http://batteryuniversity.com/learn/article/what_is_the_c_rate
+C-Rating - <http://batteryuniversity.com/learn/article/what_is_the_c_rate>
+
 
 # Magnesium Water-Activated Batteries
+
 * [Thank Magnesium For Water-Activated Batteries](https://hackaday.com/2022/10/04/thank-magnesium-for-water-activated-batteries/)
+
 
 # Alkaline Batteries
 [Alkaline batteries][05] are a type of primary cell and highly popular for everyday home and indurtial use.
@@ -144,6 +164,7 @@ varying from 1.1 to 1.3 V.
 * The fully discharged cell has a remaining voltage in the range of 0.8 to 1.0 V.
 * Shelf Life: 5 years for alkaline batteries
 
+
 # Rechargeable Alkaline Batteries
 [Rechargeable Alkaline battery (RAM)][02] are available.
 Their main advantage over other rechargeable batteries is their ability to hold a charge
@@ -153,23 +174,26 @@ longer than NiCd and NiMH batteries, which self-discharge.
 Their major disadvantage is that they have a limited number of charging cycles,
 particularly if they undergo a deep discharge.
 
+
 # Nickel-Metal Hydride Batteries
 A [Nickel–Metal Hydride battery (NiMH or Ni–MH)][01], is a type of rechargeable battery.
 
 * Shelf Life: self-discharge rate is over 30% per month for common NiMH batteries
 dropping to about 2% to 3% per month for low self-discharge NiMH batteries
 
-https://en.wikipedia.org/wiki/Memory_effect
+<https://en.wikipedia.org/wiki/Memory_effect>
+
 
 # Lithium-ion Batteries
+
 * [Lithium-Ion Batteries Are Your Friends](https://hackaday.com/2022/09/06/lithium-ion-batteries-are-your-friends/)
 * [Lithium-Ion Batteries Are Easy To Find](https://hackaday.com/2022/10/03/lithium-ion-batteries-are-easy-to-find/)
 * [Li-Ion & LiPoly Batteries](https://learn.adafruit.com/li-ion-and-lipoly-batteries)
 * [Better Battery Management Through Chemistry](https://hackaday.com/2019/10/07/better-battery-management-through-chemistry/#more-377655)
 * [Protect Your Batteries Before You Wreck Your Batteries](https://hackaday.com/2019/10/30/protect-your-batteries-before-you-wreck-your-batteries/)
-
-http://batteryuniversity.com/learn/article/types_of_lithium_ion
-http://www.digikey.com/en/articles/techzone/2012/sep/a-designers-guide-to-lithium-battery-charging
+* [Lithium-Ion Battery Hotswapping, Polarity, Holders](https://hackaday.com/2024/09/11/lithium-ion-battery-hotswapping-polarity-holders/)
+<http://batteryuniversity.com/learn/article/types_of_lithium_ion>
+<http://www.digikey.com/en/articles/techzone/2012/sep/a-designers-guide-to-lithium-battery-charging>
 
 * [Chemistry Nobel Goes to Lithium Battery Innovators](https://www.quantamagazine.org/chemistry-nobel-goes-to-lithium-battery-innovators-20191009/)
 
@@ -185,9 +209,12 @@ Lithium-ion polymer cells tend to be thin rectangles in a silvery bag.
 They are soft-shelled and have an easy to damage casing.
 They often weigh a little less and come in smaller capacity.
 
+
 # Lithium Sulfur Batteries
+
 * [#65 How to use Lifepo4 Batteries (Tutorial)](https://www.youtube.com/watch?v=DicVZfW5YL0)
 * [Lithium Sulfur Batteries Slated For Takeoff](https://hackaday.com/2020/08/23/lithium-sulfur-batteries-slated-for-takeoff/)
+
 
 # Cold Environment - Lithium Iron Phosphate
 LiPo cells must not be charged in freezing temperatures (apart from certain special low temp products), else the cell can rapidly be destroyed due to lithium metal deposition at the anode. Also you need to be careful charging them, especially when they’re heavily discharged, as they are easily damaged without the proper treatment. LiPo cells operate based on chemical principles – lithium ions literally have to move around inside the structure, and eventually the battery will wear out.
@@ -196,11 +223,14 @@ Supercapacitors have the advantage of very long life (but sometimes, they do lea
 
 Other battery chemistries are available, such as Lithium Iron Phosphate which can tolerate the cold.
 
+
 # LiFePO Batteries
+
 * [#64 What is the Ideal Battery Technology to Power 3.3V Devices like the ESP8266?](https://www.youtube.com/watch?v=heD1zw3bMhw)
 * [#65 How to use Lifepo4 Batteries (Tutorial)](https://www.youtube.com/watch?v=DicVZfW5YL0)
 * [Are LiFePO Batteries better? How to Use them For Small Projects](https://www.youtube.com/watch?v=eiyBavjQ1Rk)
 * [#400 The Best Power Source for ESP32/ ESP8266 Projects](https://www.youtube.com/watch?v=FrCgQgahzsI)
+
 
 ## Voltages
 Depending on the design and chemistry of your lithium cell,
@@ -223,6 +253,7 @@ They tend to be cylinder lithium ion's used for laptop batteries, and lights.
 Make sure when you're buying batteries and chargers to match them up!
 Overcharging a 3.6V battery by attaching it to a 4.2V battery charger
 can at the very least permanently damage your battery and at worst cause a fire!
+
 
 ## Protective Circuity
 Lithium ion/polymer batteries are extremely power dense.
@@ -257,9 +288,11 @@ This is not often not an issue as long as the charge rate is reasonable.
 
 * [Lithium-Ion Battery Circuitry Is Simple](https://hackaday.com/2022/10/10/lithium-ion-battery-circuitry-is-simple/)
 
+
 ## Power Capability
-https://www.youtube.com/watch?v=R8hTQXqURB4
-https://learn.adafruit.com/all-about-batteries/power-capacity-and-power-capability
+<https://www.youtube.com/watch?v=R8hTQXqURB4>
+<https://learn.adafruit.com/all-about-batteries/power-capacity-and-power-capability>
+
 
 ## RC Type Batteries
 The about discription is for regular/normal lithium ion batteries
@@ -279,11 +312,12 @@ They are often less expensive because there is no protection circuitry.
 * LiPo cell depends on its chemistry and varies from about 2.7-3.0 V (discharged) to about 4.20-4.35 V (fully charged)
 * Shelf Life: self discharge of 2% to 3% per month
 
+
 ## LiIon/LiPoly Charging
-http://www.instructables.com/id/Li-ion-battery-charging/
-http://www.powerstream.com/li.htm
-https://www.adafruit.com/products/259
-https://learn.adafruit.com/li-ion-and-lipoly-batteries
+<http://www.instructables.com/id/Li-ion-battery-charging/>
+<http://www.powerstream.com/li.htm>
+<https://www.adafruit.com/products/259>
+<https://learn.adafruit.com/li-ion-and-lipoly-batteries>
 
 [charger!](https://cdn-shop.adafruit.com/970x728/259-01.jpg)
 The [Adafruit Lithium Ion and Lithium Polymer battery charger][09] is based on the [MCP73833 chip][08].
@@ -304,12 +338,15 @@ low charge rates and indoors where the temperature is around 25 degrees C.
 If you want to charge your batteries at high rates (above 0.5C) or outdoors,
 you should get a temperature-based charging solution.
 
-Anear 60W 6 Port Desktop USB Charging Hub - https://www.amazon.com/gp/product/B011LSGMT2/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
-http://www.innootech.com/anear-60w-6-port-desktop-usb-charging-hub-high-speed-with-powersmart-technology-wall-travel-charger-compatible-with-iphone-6-6-plus-ipad-air-2-mini-3-samsung-galaxy-s6-s6-edge-and-more.html
+Anear 60W 6 Port Desktop USB Charging Hub - <https://www.amazon.com/gp/product/B011LSGMT2/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1>
+<http://www.innootech.com/anear-60w-6-port-desktop-usb-charging-hub-high-speed-with-powersmart-technology-wall-travel-charger-compatible-with-iphone-6-6-plus-ipad-air-2-mini-3-samsung-galaxy-s6-s6-edge-and-more.html>
 
 For LiPo battery packs with cells connected in series, a specialised charger may monitor the charge on a per-cell basis so that all cells are brought to the same state of charge (SOC).
 
+
 ## Building a Lithium Ion Battery Charger
+
+
 ## Repurposing Lithium Ion Cells
 You may want to reuse lithium-ion batteries from discarded equipment.
 These cells are often charged inside the equipment
@@ -318,6 +355,7 @@ It is fairly easy to build a charger for used (or new) lithium-ion cells
 and Maxim has app note 5681 on this topic:
 [LITHIUM-ION BATTERY RECYCLING MADE EASY](https://www.maximintegrated.com/en/design/technical-documents/app-notes/5/5681.html)
 
+
 # DC/DC Boost Converter
 A [boost converter][18] (step-up converter) is a DC-to-DC power converter steps up voltage
 from its input (supply) to its output (load).
@@ -325,15 +363,17 @@ It is a class of [switched-mode power supply (SMPS)][16]
 containing at least two semiconductors (a diode and a transistor)
 and at least one energy storage element, a capacitor, inductor, or the two in combination.
 
-* https://www.adafruit.com/products/2030
+* <https://www.adafruit.com/products/2030>
 * [DIY Boost Converter || How to step up DC voltage efficiently](https://www.youtube.com/watch?v=QnUhjnbZ0T8)
 * [Creating a Boost Converter WITHOUT a Microcontroller](https://www.youtube.com/watch?v=5R_QCurh_iM)
+
 
 # DC/DC Buck Converter
 A [buck converter][17] (step-down converter) is a DC-to-DC power converter
 which steps down voltage (while stepping up current) from its input (supply) to its output (load).
 
-https://www.crowdsupply.com/electronut-labs/snapvcc
+<https://www.crowdsupply.com/electronut-labs/snapvcc>
+
 
 # Uninterruptable Power Supply (UPS)
 Adafruit's [PowerBoost 1000C Charger][19] is a DC/DC boost converter module
@@ -344,7 +384,9 @@ So it will automatically switch over to the USB power when available,
 instead of continuously charging/draining the battery,
 making it a Uninterruptable Power Supply (UPS).
 
+
 # How to Prolong Battery Life
+
 * [Elevating Self Discharge](https://batteryuniversity.com/learn/article/elevating_self_discharge)
 * [Battery Life Optimization in IoT devices with the Multi-Channel Power Probe](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_application/application_notes/1td07/1TD07_1e_BatteryLife_IoT~1.pdf)
 * [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
@@ -352,6 +394,7 @@ making it a Uninterruptable Power Supply (UPS).
 * [The Importance of Average Power Consumption to Battery Life](https://blog.nordicsemi.com/getconnected/the-importance-of-average-power-consumption-to-battery-life)
 * [Improve battery life in Ultra Low Power wireless applications](https://blog.nordicsemi.com/getconnected/improve-battery-life-in-ultra-low-power-wireless-applications)
 * [Power Profiler Kit II](https://blog.nordicsemi.com/getconnected/power-profiler-kit-ii-brings-greater-insight-to-wireless-power-consumption)
+
 
 ## Self Discharge
 Much attention can be paid to extending battery life through the use of
@@ -368,8 +411,9 @@ are preferred for long-term deployments due to their
 high energy density, high capacity, high voltage (3.6 V),
 and an incredibly low annual self-discharge rate that permits up to 40-year battery life.
 
-* http://www.tadiranbat.com/pulsesplus.html
-* https://www.amazon.com/Professional-Lithium-Batteries-3-6-Volts/dp/B074QMH2DZ/ref=sr_1_1_sspa
+* <http://www.tadiranbat.com/pulsesplus.html>
+* <https://www.amazon.com/Professional-Lithium-Batteries-3-6-Volts/dp/B074QMH2DZ/ref=sr_1_1_sspa>
+
 
 # Smart Battery System
 Smart Battery System (SBS) is a specification for managing a smart battery, usually for a portable computer. It allows operating systems to perform power management operations via a smart battery charger based on remaining estimated run times by determining accurate state of charge readings.
@@ -377,6 +421,7 @@ Smart Battery System (SBS) is a specification for managing a smart battery, usua
 * [PackProbe Reports Laptop Battery Health](https://hackaday.com/2019/06/26/packprobe-reports-laptop-battery-health/)
 * [build a dedicated SMBus scanner](https://hackaday.com/2016/09/03/tour-de-force-battery-hacking/)
 * [Turn Off Those Batteries With Their Protection Chip](https://hackaday.com/2020/04/05/turn-off-those-batteries-with-their-protection-chip/)
+
 
 # Battery Degradation
 A useful why to think about a batterys degradation or age
@@ -386,10 +431,13 @@ A useful battery has predictable behavior; it can supply a constant amount of po
 
 * [Predicting Battery Degradation with a Trinket M0 and Python Software Algorithms](https://www.allaboutcircuits.com/projects/how-to-build-battery-age-prediction-using-software-algorithms)
 
+
 # Graphene Battery
+
 * [Samsung's New Graphene Battery](https://www.youtube.com/watch?v=Go2g_BNpG_Y)
 * [Major Breakthrough: Graphene Batteries FINALLY Hit the Market](https://www.youtube.com/watch?v=dnE1nO6o-do)
 * [Incredibly Fast Graphene Battery Powerbank](https://www.youtube.com/watch?v=uIMegpibt1M)
+
 
 # Supercapacitors
 Supercapacitors are definitely not the same as batteries, we all know that. They tend to have a very low operating voltage, and due to their operating principle of storing charge on parallel plates, their discharge curve is quite unfriendly for modern microcontroller devices. Energy storage efficiency per unit volume is also low compared with modern lithium polymer (LiPo) batteries so all in all they don’t look all that useful for many of our projects. However, as [Andreas Spiess’] latest video demonstrates, they do have some redeeming features that might make them useful for certain embedded applications.
@@ -426,11 +474,15 @@ you need to place them in series, which brings a bunch of other variables into p
 * [Solar harvesting into supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
 * [A Solar Supercap Power Supply To Keep Your Projects Running](https://hackaday.com/2022/10/27/a-solar-supercap-power-supply-to-keep-your-projects-running/)
 
+
 # DYI Battery and Supercapacitors
+
 * [Ionic liquids for energy storage and conversion - DIY](https://www.youtube.com/watch?v=ARaWq5YMbeY)
 * [Make Your Own Nuclear Battery](https://hackaday.com/2016/12/01/make-your-own-nuclear-battery/)
 
+
 # Wireless Power Harvesting
+
 * [5G as a wireless power grid](https://www.nature.com/articles/s41598-020-79500-x)
 
 
