@@ -15,6 +15,7 @@ Version:      0.0.0
 # Hackaday Series by: Al Williams
 
 * [3D Printering: Klipper, The Free 3D Printer Upgrade](https://hackaday.com/2024/08/29/3d-printering-klipper-the-free-3d-printer-upgrade/)
+* [3D Printering: Switch And Klip(per)](https://hackaday.com/2024/09/04/3d-printering-switch-and-klipper/)
 
 
 
