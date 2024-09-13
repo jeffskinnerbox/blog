@@ -15,7 +15,7 @@ We choose to go to the moon.  We choose to go to the moon in this decade and do 
 </div>
 
 
------
+---------------
 
 
 
@@ -229,7 +229,7 @@ Specific ideas I want to try:
 
 
 
------
+---------------
 
 
 # Prepare Quadcopter for First Flight
@@ -347,7 +347,7 @@ The best you can do is reflash the ESC with the [ESC-Configurator][33].
 
 
 
-------
+---------------
 
 
 
@@ -440,7 +440,7 @@ Sources:
 
 
 
------
+---------------
 
 
 
@@ -555,7 +555,7 @@ This is the “standard size” for FPV racing drones.
 * [FPV pslot tries Pixhawk for the first time // Introduction to PX4 & Ardupilot](https://www.youtube.com/watch?v=LKpMfl6EHOQ)
 * [PX4 Development Kit - X500 v2](https://holybro.com/collections/x500-kits/products/px4-development-kit-x500-v2)
 
------
+---------------
 
 
 
@@ -841,7 +841,7 @@ Toothpick class quads are ultra-light weights that have an AUW of under 100g.
 
 
 
--------
+---------------
 
 
 
@@ -892,7 +892,7 @@ Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and 
 
 
 
------
+---------------
 
 
 
@@ -902,7 +902,7 @@ Seeing how a quadcopter is built and understanding why its built that way, can b
 Below you will find several video that do just this.
 
 
------
+---------------
 
 
 
@@ -1256,7 +1256,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 
 
 
----------
+---------------
 
 
 
@@ -1337,7 +1337,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 
 
 
----------
+---------------
 
 
 

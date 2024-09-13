@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 Review this again -  [Betaflight Basics: Setting Up Your Motors & ESCs in Betaflight and BLHeli Suite](https://www.youtube.com/watch?v=mMn4IoVVuGc)
@@ -31,6 +31,7 @@ Currently the following firmware are supported:
 [BLHeli_S](https://github.com/bitdump/BLHeli),
 [Bluejay](https://github.com/bird-sanctuary/bluejay),
 [AM32](https://github.com/AlkaMotors/AM32-MultiRotor-ESC-firmware).
+
 
 ## So What is an ESC?
 Electronic Speed Controllers (ESC) are responsible for controlling the speed of motors in an FPV drone.
@@ -55,6 +56,7 @@ It truly brings the performance to the level of the more expensive BLHeli_32 ESC
 
 * [Best ESC for FPV Drones: Comprehensive Electronic Speed Controller Buyer’s Guide](https://oscarliang.com/esc/)
 * [ESC Firmware and Protocols Overview](https://oscarliang.com/esc-firmware-protocols/)
+
 
 # Install ESC-Configurator
 [ESC-Configurator][01] is a website but I want to also execute it from the Ubuntu/Gnome launcher.

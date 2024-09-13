@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 * [Why You Should NOT Buy An FPV Drone... (And Why You Should)](https://www.youtube.com/watch?v=dYcIK0dB3YU)
@@ -18,10 +18,13 @@ Version:      0.0.0
 
 
 # Things to Carry With You
+
 * [Are you flying under the Recreational Flyer Exemption? - Must be pure recreational, without purpose](https://cdn.fs.teachablecdn.com/UqWFGjGQSnC1y5JmGB1H)
 * [What Community Based Organization (CBO) safety guidelines aryou flying under? - FliteTest](https://cdn.fs.teachablecdn.com/UqWFGjGQSnC1y5JmGB1H)
 
+
 # How to Start FPV Flying
+
 * [New to FPV drones? DONT do these things unless you want to cry // Beginner tips for success](https://www.youtube.com/watch?v=s51q5eEQu0s)
     1. Start out in a simulator since you are going to crash a lot.
     2. Master race gates before you do acrobatic flying.
@@ -40,10 +43,12 @@ Version:      0.0.0
 
 
 # Learning How to Fly
+
 * [Learn to fly an FPV drone (for total beginners)](https://www.youtube.com/playlist?list=PLwoDb7WF6c8lCKhQOTy-Vb9LfW0VAIrTP)
 * [How-to Fly an FPV Quadcopter / Drone - ALL VIDEOS](https://www.youtube.com/playlist?list=PLXWuhwtHmw1w9G6j3P1Y2ZLRiiLqmFe2B)
 
 Sources:
+
 * [Betaflight Modes Series - Acro Mode for Beginners](https://www.dronecamps.com/single-post/betaflight-modes-series-acro-mode-for-beginners)
 * [8 FPV maneuvers for beginners](https://www.youtube.com/watch?v=gzDReOBx-l0)
 * [Learn FPV Basics from an EXPERT - KEN HERON](https://www.youtube.com/watch?v=EmI9jT3zr9A)
@@ -55,14 +60,19 @@ Sources:
 * [FPV Tutorials](https://www.youtube.com/playlist?list=PLQgLVCpLOfkEhqcBVXYY3a3xEeTNusBfu)
 * [How To Fly FPV](https://www.youtube.com/playlist?list=PLQgLVCpLOfkF7zU8FLHqxdRpmDn0C5c7g)
 
+
 ## Throttle & Momentum Control
+
 * [5 SIMPLE Tips To Improve FPV Drone THROTTLE CONTROL! // PropabilityFPV](https://www.youtube.com/watch?v=oRjNpWf3HE4)
 * [Improve your THROTTLE and MOMENTUM CONTROL using this REWIND drill for your FPV Freestyle Drone!](https://www.youtube.com/watch?v=oRjNpWf3HE4)
 
+
 ## Does Simulator Practice Help With Real Flying?
+
 * [Drone Simulator Practice To Real Life Flying? | Cinematic FPV](https://www.youtube.com/watch?v=GFrOZKnYBek)
 
 Before you start:
+
 * Set your camera angle to about 5 degrees for beginners but more advance flyers will be at 15 to 30 degrees (racer will be even more)
 * Become instinctly aware of the location & activation you arm/disarm switch
 
@@ -87,7 +97,7 @@ Before you start:
 
 
 
----------
+---------------
 
 
 
@@ -113,6 +123,7 @@ This version fixes a latance bug.
 
 * [CurryKitten FPV Simulator](https://store.steampowered.com/app/1331330/CurryKitten_FPV_Simulator/)
 
+
 ## What is Steam?
 [Steam][20] is an online platform where you can download and play thousands of games on Linux,
 and also discuss them with the community.
@@ -126,6 +137,7 @@ making an automatic update, in-game voice chat, and sharing games among friends.
 Steam works on Windows, TV, mobile, Linux, and MacBook devices.
 To use it, you just need a broadband connection to achieve a high-speed internet connection
 and a modern system to play games unstoppably.
+
 
 #### Step X: Install Steam - DONE ... NOT
 First, go to the [Stream cloud store][20] and create an account.
@@ -166,6 +178,7 @@ For MacOS, do this:
 * [How to Install Steam on Linux and Play Your Favorite Games](https://geekflare.com/install-steam-on-linux/)
 * [How to download Steam on Mac](https://macpaw.com/how-to/download-steam-mac)
 
+
 #### Step 1: Install VelociDrone - DONE
 Go to [Velocidrone's Shopping site](https://www.velocidrone.com/shop) register yourself.
 Once you are completely registed, you can purchase the VelociDrone License and Micro Class Quads packages.
@@ -190,7 +203,9 @@ For MacOS, do this:
 * [How to install the FPV simulator velocidrone on ubuntu 19.04](https://www.youtube.com/watch?v=uJNUkxgnex0)
 * [Can I install VelociDrone on more than one computer?](https://www.velocidrone.com/eula#:~:text=Regardless%20of%20the%20type%20or,other%20medium%20on%20another%20computer.)
 
+
 #### Step 2: Select Your Quadcopter VelociDrone
+
 
 #### Step 2: Controller Setup in VelociDrone
 

@@ -10,7 +10,7 @@ Version:      0.0.0
 
 
 
------
+---------------
 
 
 Review this again -  [LIPO BATTERY USER GUIDE](https://hobbytechtoys.com.au/pages/lipo-battery-user-guide)
@@ -44,14 +44,18 @@ The bottomline, for hobbies and most consumer electronics, LiPo batteries are sa
 have a longer life, charge faster, but can be twice as expensive as Li-ion batteries.
 
 Sources:
+
 * [Lithium Ion vs. Lithium Polymer Batteries – Which Is Better?](https://blog.ravpower.com/2017/06/lithium-ion-vs-lithium-polymer-batteries/)
 * [Lithium-Ion vs Lithium Polymer Battery][03]
 * [Lithium-ion vs Lithium-Polymer Batteries](https://www.linkedin.com/pulse/lithium-ion-vs-lithium-polymer-batteries-sumit-vashista/)
 
+
 # Selecting and Caring for LiPo Batteries
+
 * [A Guide to Understanding LiPo Batteries](https://www.rogershobbycenter.com/lipoguide)
 * [LiPo 3S Battery 101: All About LiPo 3S Batteries](https://www.batteryequivalents.com/lipo-3s-battery-101-all-about-lipo-3s-batteries.html)
 * [LiPo Battery Charge Rate Calculator](https://www.hopptbattery.com/a-quick-guide-of-manufacturing-options-for-wearables-4/)
+
 
 ## How are LiPo Batteries Identified
 There are four main ratings that you need to be aware of on a LiPo battery.
@@ -84,6 +88,7 @@ The safest charge rate for our LiPo batteries is 3C, or 3 x capacity of battery 
 >as we will discuss in detail later, is 3.0V/cell.
 >3.7V is pretty much in the middle, and that is the nominal charge of the cell.
 
+
 ### The Parameter's Practical Meaning
 **Voltage** directly influences the RPM of the electric motor (brushless motors are rated by kV, which means 'RPM per Volt').
 So if you have a brushless motor with a rating of 3,500kV,
@@ -108,6 +113,7 @@ never charge your LiPo batteries unattended!
 There is always the potential for fire when using or charging a LiPo batteries.
 Another safety precaution is to charge the LiPo in a fire-resistant container.
 
+
 ## How to Charge LiPo Battery
 Lithium polymer (LiPo) batteries are a wonder of the modern age
 and have revolutionized the hobby of flying RC planes.
@@ -128,21 +134,27 @@ However, more and more LiPo batteries are coming out these days that advertise f
 like the example battery we had in the previous section.
 
 Sources:
+
 * [Understanding RC Batteries By Horizon Hobby](https://www.youtube.com/watch?v=PaPpRaJrzyI)
 * [All about lipos for RC models](https://www.youtube.com/watch?v=ZJHlJYDJohc)
 * [How to Charge LiPo Battery](https://robocraze.com/blogs/post/how-to-charge-lipo-battery)
 * [HobbyTech Toys: LiPo Battery User Giude](https://hobbytechtoys.com.au/pages/lipo-battery-user-guide)
 
+
 ### Parallel vs. Series Charging
 
+
 ### How to Make Your Batterys Last Longer and When to Throw Them Out
+
 * [Is Your LiPo Safe To Charge | WHEN TO THROW IT OUT](https://www.youtube.com/watch?v=l43Kx0OxpKI)
 * [LiPo Battery Basics: How to Make Them Last Longer!](https://www.youtube.com/watch?v=94t0_uEmtg0)
+
 
 ### Balance Charger
 A balance charger (or balancer) does this by monitoring the individual cell voltages in a pack through a connector on the pack (called a balance connector) and adjusting their rate of charge accordingly. When such a balancer is built into a charger, the charger is known as a Balance Charger or Balancing Charger.
 
 * [The most over-looked lipo charger spec: Balance Current](https://www.youtube.com/watch?v=XEIWdZHXK1c)
+
 
 ### Battery Charger
 I purchased the [Tenergy TB-6B 50W Balancing Charger][50]
@@ -160,6 +172,7 @@ it can store up to 10 different battery charging profiles.
 * [iMAX B6 Pro: How to Safely Charge Your Batteries // Quick Tip](https://www.youtube.com/watch?v=MeAlEUb_vgg)
 * [Understanding RC Battery Chargers by Horizon Hobby](https://www.youtube.com/watch?v=MLfILtFVE_Q)
 * [The 4 Best LiPo Chargers for the Money – Reviews 2019](http://www.mechanicalcaveman.com/best-lipo-charger-review-for-the-money-rc-lithium-polymer-battery/)
+
 
 ## Battery Charger
 For charging the LiPo battery,
@@ -180,6 +193,7 @@ consider the following videos:
 
 * [Top 5 causes of Lipo Battery Fires - Lipo charging mistakes](https://www.youtube.com/watch?v=LIWUYSDWjfk)
 * [Lessons In Li-Ion Safety](https://hackaday.com/2019/11/13/lessons-in-li-ion-safety/)
+
 
 ## 1S Whoop Battery Charger
 ViFLY WhoopStor 3is a 6 port charger and dis-charger specifically for 1S whoop batteries.
@@ -215,6 +229,7 @@ I'm using [BetaFPV's BT2.0 550mAh 1S Batteries][33], a high voltage battery, on 
 
 I'm using the [VIFLY WhoopStor 3 1S LiPo Battery Storage Charger and Discharger][34].
 Setting that you should use are:
+
 * Storage Charge for regular LiPo: 3.80V
 * Storage Charge for high voltage LiPo: 3.85V
 * Full Charge for regular LiPo: 4.20V
@@ -225,6 +240,7 @@ Setting that you should use are:
 >Discharging a LiPo cell lower than 3.0V causes a usually permanent degradation of the cell's ability to absorb and retain a charge.
 
 Sources:
+
 * [BetaFPV's BT2.0 550mAh 1S Batteries][33]
 * [Vifly Whoopstor 3 1s Battery Storage Charger And Discharger - Review And Demo](https://www.youtube.com/watch?v=PXdE8ZXIqd4)
 * [The BEST 1S Charger Just Got BETTER - VIFLY WhoopStor 3 Review](https://www.youtube.com/watch?v=5qgU6P_DOBs)
@@ -242,12 +258,17 @@ and they're accurate without any calibration!
 * [Correctly Measure Battery Level - MAX17048 (ESP32 + Arduino series)](https://www.youtube.com/watch?v=mhmD-QA6kf0)
 * [Adafruit MAX17048 LiPoly / LiIon Fuel Gauge and Battery Monitor](https://learn.adafruit.com/adafruit-max17048-lipoly-liion-fuel-gauge-and-battery-monitor)
 
+
 # Battery Safety
 
+
 ## LiPo Storage
+
 * [How long can you leave your lipos fully charged without damaging them?](https://www.youtube.com/watch?v=Y9jAU1KL8oc)
 
+
 ## LiPo Battery Storage Bag
+
 * [Hobbymate Lipo Safety Bag Review and Test](https://www.youtube.com/watch?v=dSnYDvj3BDs)
 
 LiPo batteries will be permanently damaged if the voltage of any cell drops below 3.0 volts.
@@ -257,6 +278,7 @@ LiPo batteries will be permanently damaged if the voltage of any cell drops belo
 
 
 # Best battries
+
 * [These are the best Whoop battery. It's not even close](https://www.youtube.com/watch?v=0j_xoeO1Las)
 
 
@@ -269,6 +291,7 @@ LiPo batteries will be permanently damaged if the voltage of any cell drops belo
 
 
 # Background
+
 * [Batteries? What For?](https://www.sparkfun.com/news/2913)
 * [A Quick History of the Battery](http://hackaday.com/2016/10/29/a-quick-history-of-the-battery/)
 * [Understanding Advanced Batteries and Energy Storage – Part I](http://investorintel.com/technology-metals-intel/understanding-advanced-batteries-energy-storage-part/)
@@ -288,21 +311,24 @@ LiPo batteries will be permanently damaged if the voltage of any cell drops belo
 
 * [Li-ion Battery Low-Level Intricacies Explained Excellently](https://hackaday.com/2021/12/21/li-ion-battery-low-level-intricacies-explained-excellently/)
 
+
 # Lithium-ion Batteries
+
 * [Lithium-Ion Batteries Are Your Friends](https://hackaday.com/2022/09/06/lithium-ion-batteries-are-your-friends/)
 * [Lithium-Ion Batteries Are Easy To Find](https://hackaday.com/2022/10/03/lithium-ion-batteries-are-easy-to-find/)
 * [Li-Ion & LiPoly Batteries](https://learn.adafruit.com/li-ion-and-lipoly-batteries)
 * [Better Battery Management Through Chemistry](https://hackaday.com/2019/10/07/better-battery-management-through-chemistry/#more-377655)
 * [Protect Your Batteries Before You Wreck Your Batteries](https://hackaday.com/2019/10/30/protect-your-batteries-before-you-wreck-your-batteries/)
 
-http://batteryuniversity.com/learn/article/types_of_lithium_ion
-http://www.digikey.com/en/articles/techzone/2012/sep/a-designers-guide-to-lithium-battery-charging
+<http://batteryuniversity.com/learn/article/types_of_lithium_ion>
+<http://www.digikey.com/en/articles/techzone/2012/sep/a-designers-guide-to-lithium-battery-charging>
 
 * [Chemistry Nobel Goes to Lithium Battery Innovators](https://www.quantamagazine.org/chemistry-nobel-goes-to-lithium-battery-innovators-20191009/)
 
 
 
 # Choosing Battery Technology
+
 * [Battery Basics – Choosing a Battery for Your Project](http://hackaday.com/2014/12/16/battery-basics-choosing-a-battery-for-your-project/)
 * [An Obsessively Thorough Battery (and more) Showdown](http://hackaday.com/2014/09/05/an-obsessively-thorough-battery-and-more-showdown/)
 * [Choosing The Right Battery For Your Electric Vehicle Build](https://hackaday.com/2020/01/07/choosing-the-right-battery-for-your-electric-vehicle-build/)
@@ -321,6 +347,7 @@ http://www.digikey.com/en/articles/techzone/2012/sep/a-designers-guide-to-lithiu
 
 
 # LiPo Charger Board
+
 * [This True Hardware Hack Supercharges Your ATtiny MCU, or Alternatively, Gives Your Batteries Brains!](https://www.hackster.io/news/this-true-hardware-hack-supercharges-your-attiny-mcu-or-alternatively-gives-your-batteries-brains-97d747bfa7c7)
 * [TP4056 - Battery Charging Board](https://www.amazon.com/HiLetgo-Lithium-Battery-Charging-Protect/dp/B00LTQU2RK/ref=asc_df_B00LTQU2RK)
 
@@ -376,6 +403,7 @@ The voltage rating for each ESC is clearly stated in the specifications.
 * [RC Basics - Understanding Electronic Speed Controllers (ESC)](https://www.youtube.com/watch?v=OZNxbxL7cdc)
 * [An Open Source ESC For Brushless Motors](https://hackaday.com/2019/05/15/an-open-source-esc-for-brushless-motors/)
 
+
 ## Hobbypower 60A SL V2 ESC
 I used the recommended [Hobbypower 60A SL V2 ESC][12]
 which suports 2-3 cells LiPo
@@ -405,9 +433,9 @@ It has a built in BEC who's output is 6V/1.5A to power the radio transmitter.
 * [An Open Source ESC For Brushless Motors](https://hackaday.com/2019/05/15/an-open-source-esc-for-brushless-motors/)
 * [Battle Tested Current Limiter for Cheap DC Motor Controllers](https://hackaday.com/2019/05/11/battle-tested-current-limiter-for-cheap-dc-motor-controllers/)
 
-Hobbypower 60A SL V2 Brushless Speed Controller ESC - https://www.amazon.com/gp/product/B071777MG2/
-http://www.rcuniverse.com/forum/rc-electric-off-road-trucks-buggies-truggies-more-147/11640199-60a-sl-brushless-esc.html
-http://www.hobbywing.com/products/enpdf/EzRun60A.pdf
+Hobbypower 60A SL V2 Brushless Speed Controller ESC - <https://www.amazon.com/gp/product/B071777MG2/>
+<http://www.rcuniverse.com/forum/rc-electric-off-road-trucks-buggies-truggies-more-147/11640199-60a-sl-brushless-esc.html>
+<http://www.hobbywing.com/products/enpdf/EzRun60A.pdf>
 
 
 
@@ -423,11 +451,14 @@ Supercapacitors have the advantage of very long life (but sometimes, they do lea
 
 Other battery chemistries are available, such as Lithium Iron Phosphate which can tolerate the cold.
 
+
 # LiFePO Batteries
+
 * [#64 What is the Ideal Battery Technology to Power 3.3V Devices like the ESP8266?](https://www.youtube.com/watch?v=heD1zw3bMhw)
 * [#65 How to use Lifepo4 Batteries (Tutorial)](https://www.youtube.com/watch?v=DicVZfW5YL0)
 * [Are LiFePO Batteries better? How to Use them For Small Projects](https://www.youtube.com/watch?v=eiyBavjQ1Rk)
 * [#400 The Best Power Source for ESP32/ ESP8266 Projects](https://www.youtube.com/watch?v=FrCgQgahzsI)
+
 
 ## Voltages
 Depending on the design and chemistry of your lithium cell,
@@ -451,6 +482,7 @@ Make sure when you're buying batteries and chargers to match them up!
 Overcharging a 3.6V battery by attaching it to a 4.2V battery charger
 can at the very least permanently damage your battery and at worst cause a fire!
 
+
 ## Protective Circuity
 Lithium ion/polymer batteries are extremely power dense.
 This makes them great for reducing size and weight of projects.
@@ -473,6 +505,7 @@ This is very common for lipoly cells and generally provide the following protect
 
 
 # How to Prolong Battery Life
+
 * [Elevating Self Discharge](https://batteryuniversity.com/learn/article/elevating_self_discharge)
 * [Battery Life Optimization in IoT devices with the Multi-Channel Power Probe](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_application/application_notes/1td07/1TD07_1e_BatteryLife_IoT~1.pdf)
 * [Power consumption explained](https://blog.nordicsemi.com/getconnected/power-consumption-explained)
@@ -480,6 +513,7 @@ This is very common for lipoly cells and generally provide the following protect
 * [The Importance of Average Power Consumption to Battery Life](https://blog.nordicsemi.com/getconnected/the-importance-of-average-power-consumption-to-battery-life)
 * [Improve battery life in Ultra Low Power wireless applications](https://blog.nordicsemi.com/getconnected/improve-battery-life-in-ultra-low-power-wireless-applications)
 * [Power Profiler Kit II](https://blog.nordicsemi.com/getconnected/power-profiler-kit-ii-brings-greater-insight-to-wireless-power-consumption)
+
 
 ## Self Discharge
 Much attention can be paid to extending battery life through the use of
@@ -496,8 +530,9 @@ are preferred for long-term deployments due to their
 high energy density, high capacity, high voltage (3.6 V),
 and an incredibly low annual self-discharge rate that permits up to 40-year battery life.
 
-* http://www.tadiranbat.com/pulsesplus.html
-* https://www.amazon.com/Professional-Lithium-Batteries-3-6-Volts/dp/B074QMH2DZ/ref=sr_1_1_sspa
+* <http://www.tadiranbat.com/pulsesplus.html>
+* <https://www.amazon.com/Professional-Lithium-Batteries-3-6-Volts/dp/B074QMH2DZ/ref=sr_1_1_sspa>
+
 
 # Smart Battery System
 Smart Battery System (SBS) is a specification for managing a smart battery, usually for a portable computer. It allows operating systems to perform power management operations via a smart battery charger based on remaining estimated run times by determining accurate state of charge readings.
@@ -506,6 +541,7 @@ Smart Battery System (SBS) is a specification for managing a smart battery, usua
 * [build a dedicated SMBus scanner](https://hackaday.com/2016/09/03/tour-de-force-battery-hacking/)
 * [Turn Off Those Batteries With Their Protection Chip](https://hackaday.com/2020/04/05/turn-off-those-batteries-with-their-protection-chip/)
 
+
 # Battery Degradation
 A useful why to think about a batterys degradation or age
 in terms of present capacity versus original (new) capacity.
@@ -513,6 +549,7 @@ in terms of present capacity versus original (new) capacity.
 A useful battery has predictable behavior; it can supply a constant amount of power, for a predictable amount of time, within a narrow voltage range. The ‘capacity’ or ‘C rating’ for batteries is probably the most useful parameter to express this.
 
 * [Predicting Battery Degradation with a Trinket M0 and Python Software Algorithms](https://www.allaboutcircuits.com/projects/how-to-build-battery-age-prediction-using-software-algorithms)
+
 
 ## Smoke Stopper / ShortSaver
 The [Flight XT30/ XT60 Smoke Stopper][51]
@@ -528,7 +565,7 @@ but the LED indicator turns off and starts beeping in abnormal situation (aka th
 
 
 
-------
+---------------
 
 
 
@@ -539,6 +576,7 @@ It measure battery cell voltages, total voltages, lowest cell voltage, highest c
 voltage gap between highest cell voltage and lowest cell voltage, remaining battery capacity (%).
 
 Sources:
+
 * [How to Use the CellMeter 8](https://www.youtube.com/watch?v=xAI3VjOPfN4)
 * [DRASTICALLY REDUCE your storage charge time. Cellmeter 8. Tech Tuesday](https://www.youtube.com/watch?v=rWcpb_nSEqM)
 
@@ -554,7 +592,6 @@ Sources:
 [08]:
 [09]:https://en.wikipedia.org/wiki/Dynamic_braking
 [10]:https://en.wikipedia.org/wiki/Electronic_speed_control
-[11]:https://www.hobbypartz.com/07e-hobbywing-led-programcard.html
 [12]:https://www.amazon.com/gp/product/B071777MG2/
 [13]:https://www.amazon.com/gp/product/B08K8WZ828/?th=1
 
