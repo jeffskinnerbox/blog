@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -112,7 +112,7 @@ For both iterations, there are visible light and infrared versions.
 * [Vision Campus](https://www.youtube.com/playlist?list=PLULhsSsX_9ge4g9maUkFGGLaG5S8_CiAC)
 *  Camera Hardware - https://picamera.readthedocs.io/en/release-1.13/fov.html
 
-----
+---------------
 
 # Cameras
 
@@ -133,7 +133,7 @@ color space - https://en.wikipedia.org/wiki/Color_space
 * [The fundamentals of understanding color theory](https://99designs.com/blog/tips/the-7-step-guide-to-understanding-color-theory/)
 * [YUV Color Encoding](https://en.wikipedia.org/wiki/YUV)
 
-----
+---------------
 
 # Video on Linux and Raspberry Pi
 
@@ -309,7 +309,7 @@ Or can do something more sophisticated like stream video to a web browser
 via the Python package [`pistreaming`][58]
 or with [`OpenCV`][59], or via [`motion`][60].
 
-----
+---------------
 
 ## Video Frameworks
 
@@ -329,7 +329,7 @@ or with [`OpenCV`][59], or via [`motion`][60].
 * [Tutorials for Raspberry Pi](https://www.linux-projects.org/uv4l/tutorials/)
 * [Real-time HTTP/HTTPS Streaming Server with the native uv4l-server module](https://www.linux-projects.org/uv4l/tutorials/streaming-server/)
 
-----
+---------------
 
 ## Video Players
 * hello_video - https://learn.adafruit.com/raspberry-pi-video-looper/hello-video
@@ -379,7 +379,7 @@ Sending traffic from one (or multiple) sources to a group of receivers is called
 * [Multicast Explained](https://www.tldp.org/HOWTO/Multicast-HOWTO-2.html)
 * [UDP Unicast and Multicast Streaming Video using the Beaglebone Black](http://derekmolloy.ie/udp-video-streaming-beaglebone-black/)
 
-----
+---------------
 
 # Video Formats
 
@@ -433,7 +433,7 @@ https://www.videolan.org/developers/x264.html
 * convert a video with ffmpeg
 * HandBrake - https://handbrake.fr/downloads.php
 
-----
+---------------
 
 ## What is a Codec?
 Most of the video you'll come across is compressed,
@@ -469,7 +469,7 @@ The main difference between different containers is not only the codecs they sup
 
 * [Comparison of video container formats](https://en.wikipedia.org/wiki/Comparison_of_video_container_formats)
 
-----
+---------------
 
 # Video Streaming
 
@@ -563,7 +563,7 @@ For additional information, see the following:
 * at home using BlueRpi, I'm getting
 * See /home/jeff/blogging/content/ideas/network-speed-testing.md
 
-----
+---------------
 
 ## Steaming / Broadcast Options for the Raspberry Pi
 * [Broadcast Raspberry Pi camera](https://djynet.net/?p=744)
@@ -692,7 +692,7 @@ Like WebSockets, RTMP creates persistent connections between a server and a clie
 
 * [crtmpserver + ffmpeg](https://telecom.altanai.com/2016/06/19/crtmpserver-ffmpeg/)
 
-----
+---------------
 
 # Video Streaming Method
 In the subsequent sections, I plan to show several methods for streaming video.
@@ -951,9 +951,9 @@ gst-launch-1.0 -v udpsrc port=5000 caps='application/x-rtp, media=(string)video,
 ffmpeg -i test.mp4 \
     -vcodec mpeg2video -pix_fmt yuv420p -me_method epzs -threads 4 \
     -r 29.97 -g 45 -bf 2 -trellis 2 -cmp 2 -subcmp 2 -s 704x396 -b 2500k -bt 300k \
-    -acodec mp2 -ac 2 -ab 192k -ar 44100  \    
-    -async 1  \    
-    -y \     
+    -acodec mp2 -ac 2 -ab 192k -ar 44100  \
+    -async 1  \
+    -y \
     -f vob output.mpg
 
 ffmpeg -i /dev/video0 -vcodec mpeg2video -pix_fmt yuv420p -me_method epzs -threads 4 -r 29.97 -g 45 -bf 2 -trellis 2 -cmp 2 -subcmp 2 -s 704x396 -b 2500k -bt 300k -acodec mp2 -ac 2 -ab 192k -ar 44100 -async 1 -y -f vob output.mpg
@@ -980,7 +980,7 @@ nc -l -p 5000 | mplayer -cache 1024 -
 
 ###############################################################################
 
------
+---------------
 
 # A Tour of Video Stream Techniques Using Raspberry Pi
 * https://en.wikipedia.org/wiki/Netcat
@@ -1806,6 +1806,8 @@ Some of the alternatives that I investigate are documented here.
 * [Private Home Surveillance with the WebRTC DataChannel](https://webrtchacks.com/private-home-surveillance-with-the-webrtc-datachannel/)
 * [Accelerated Computer Vision inside a WebRTC Media Server with Intel OWT](https://webrtchacks.com/accelerated-computer-vision-inside-a-webrtc-media-server-with-intel-owt/)
 * [Janus vs. MediaSoup: The Ultimate Guide To Choosing Your WebRTC Server](https://dzone.com/articles/janus-vs-mediasoup-the-ultimate-guide-to-choosing)
+
+* [Someone made a $30 Raspberry Pi live camera, and you can too](https://www.xda-developers.com/30-raspberry-pi-live-camera/)
 
 [!webrtc](https://webrtc.org/assets/images/webrtc-logo-vert-retro-255x305.png)
 [WebRTC][71] is an open source project that provides browsers and mobile applications
