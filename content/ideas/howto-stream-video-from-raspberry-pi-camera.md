@@ -1790,6 +1790,9 @@ On the other hand, changing anyone of my assumtions could make it a poor choose.
 Some of the alternatives that I investigate are documented here.
 
 ### WebRTC
+* [Someone made a $30 Raspberry Pi live camera, and you can too](https://www.xda-developers.com/30-raspberry-pi-live-camera/)
+* [Tzu Huan Tai's WebRTC Camera Stack Turns a Raspberry Pi Zero 2 W Into a Low-Latency Streamer](https://www.hackster.io/news/tzu-huan-tai-s-webrtc-camera-stack-turns-a-raspberry-pi-zero-2-w-into-a-low-latency-streamer-30a49006f181)
+
 * [WebRTC — The technology that powers Google Meet/Hangout, Facebook Messenger and Discord](https://medium.com/swlh/webrtc-the-technology-that-powers-google-meet-hangout-facebook-messenger-and-discord-cb926973d786)
 * [All the ways to send a video file over WebRTC](https://webrtchacks.com/all-the-ways-to-send-a-video-file-over-webrtc/)
 * [WebRTC Fundementals](https://telecom.altanai.com/webrtc/)
@@ -1806,8 +1809,6 @@ Some of the alternatives that I investigate are documented here.
 * [Private Home Surveillance with the WebRTC DataChannel](https://webrtchacks.com/private-home-surveillance-with-the-webrtc-datachannel/)
 * [Accelerated Computer Vision inside a WebRTC Media Server with Intel OWT](https://webrtchacks.com/accelerated-computer-vision-inside-a-webrtc-media-server-with-intel-owt/)
 * [Janus vs. MediaSoup: The Ultimate Guide To Choosing Your WebRTC Server](https://dzone.com/articles/janus-vs-mediasoup-the-ultimate-guide-to-choosing)
-
-* [Someone made a $30 Raspberry Pi live camera, and you can too](https://www.xda-developers.com/30-raspberry-pi-live-camera/)
 
 [!webrtc](https://webrtc.org/assets/images/webrtc-logo-vert-retro-255x305.png)
 [WebRTC][71] is an open source project that provides browsers and mobile applications
