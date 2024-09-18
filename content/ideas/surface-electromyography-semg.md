@@ -9,9 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
-
-
+---------------
 
 
 # Electromyography (EMG)
@@ -38,3 +36,5 @@ when these cells are electrically or neurologically activated.
 * [Universal Bio-Electrical Signal Amplifier Makes Reading Body Signals Easy](https://hackaday.com/2021/08/26/universal-bio-electrical-signal-amplifier-makes-reading-body-signals-easy/)
 
 * [PsyLink An Open Source Neural Interface For Non-Invasive EMG](https://hackaday.com/2022/01/07/psylink-an-open-source-neural-interface-for-non-invasive-emg/)
+
+* [Latest PiEEG Shield Now Offers 16 Channels](https://hackaday.com/2024/09/17/latest-pieeg-shield-now-offers-16-channels/)
