@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -29,10 +29,12 @@ but student resources like Python notebooks are also freely available.
 
 
 * [Deep Learning Framework Power Scores 2018](https://towardsdatascience.com/deep-learning-framework-power-scores-2018-23607ddf297a)
-* https://www.fast.ai/
-* Matthew Stewart Blog - https://towardsdatascience.com/@matthew_stewart
+* <https://www.fast.ai/>
+* Matthew Stewart Blog - <https://towardsdatascience.com/@matthew_stewart>
+
 
 # AI/ML/EDA Series
+
 * [AI: Anaconda and More on Probability](https://www.opensourceforu.com/2022/12/ai-anaconda-and-more-on-probability/)
 * [AI: Introduction to Keras and Our First Data Set](https://www.opensourceforu.com/2023/01/ai-introduction-to-keras-and-our-first-data-set/)
 * [AI: Some History and a Lot More about Matrices](https://www.opensourceforu.com/2022/06/ai-some-history-and-a-lot-more-about-matrices/)
@@ -42,7 +44,8 @@ but student resources like Python notebooks are also freely available.
 * [Scientific Graphics Visualisation: An Introduction to PGF/TikZ](https://www.opensourceforu.com/2018/06/scientific-graphics-visualisation-an-introduction-to-pgf-tikz/)
 * [Scientific Graphics Visualisation: An Introduction to PSTricks](https://www.opensourceforu.com/2018/07/scientific-graphics-visualisation-an-introduction-to-pstricks/)
 
-# Declarative Machine Learning Framework
+
+# Declarative Machine Learning Framewor
 Ludwig is a declarative machine learning framework that makes it easy to define
 machine learning pipelines using a simple and flexible data-driven configuration system.
 Ludwig is suitable for a wide variety of AI tasks, and is hosted by the Linux Foundation AI & Data.
@@ -54,9 +57,11 @@ Ludwig is suitable for a wide variety of AI tasks, and is hosted by the Linux Fo
 
 
 # Definitions
-http://searchbusinessanalytics.techtarget.com/definition/deep-learning
+<http://searchbusinessanalytics.techtarget.com/definition/deep-learning>
+
 
 ## Artificial Intelligence
+
 * **Artificial Intelligence (AI)** is the simulation of human intelligence processes by machines,
 especially computer systems.
 These processes include learning (the acquisition of information and rules for using the information),
@@ -77,7 +82,9 @@ their performance based on experience, just as humans do.
 * **speech recognition** uses artificial intelligence (AI) technologies
 * **machine vision** uses artificial intelligence (AI) technologies
 
+
 ## Data Mining
+
 * **Data mining** is sorting through data to identify patterns and establish relationships.
 Data mining parameters include:
     * Association - looking for patterns where one event is connected to another event
@@ -94,7 +101,9 @@ a variable that can be measured for an individual or other entity to predict fut
 Multiple predictors are combined into a predictive model, which, when subjected to analysis,
 can be used to forecast future probabilities with an acceptable level of reliability.
 
+
 # History of AI and Machine Learning
+
 * [Artificial Intelligence, the History and Future - with Chris Bishop](https://www.youtube.com/watch?v=8FHBh_OmdsM)
 * [Neural Networks: You’ve Got It So Easy](https://hackaday.com/2017/04/24/neural-networks-youve-got-it-so-easy/)
 * [Artificial Intelligence, the History and Future - with Chris Bishop](https://www.youtube.com/watch?v=8FHBh_OmdsM)
@@ -105,10 +114,14 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Power & Limits of Deep Learning](https://www.youtube.com/watch?v=0tEhw5t6rhc)
 * [Deep Learning for Image Recognition: why it’s challenging, where we’ve been, and what’s next](https://towardsdatascience.com/deep-learning-for-image-classification-why-its-challenging-where-we-ve-been-and-what-s-next-93b56948fcef)
 
+
 # Testing Neural Network Models
+
 * [How to rapidly test dozens of deep learning models in Python](https://towardsdatascience.com/how-to-rapidly-test-dozens-of-deep-learning-models-in-python-cb839b518531)
 
+
 # Neural Networks
+
 * [But what *is* a Neural Network? | Deep learning, chapter 1](https://www.youtube.com/watch?v=aircAruvnKk)
 * [Gradient descent, how neural networks learn | Deep learning, chapter 2](https://www.youtube.com/watch?v=IHZwWFHWa-w)
 * [What is backpropagation and what is it actually doing? | Deep learning, chapter 3](https://www.youtube.com/watch?v=Ilg3gGewQ5U)
@@ -122,14 +135,22 @@ can be used to forecast future probabilities with an acceptable level of reliabi
     * [Applied Deep Learning - Part 3: Autoencoders](https://towardsdatascience.com/applied-deep-learning-part-3-autoencoders-1c083af4d798)
     * [Applied Deep Learning - Part 4: Convolutional Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)
 
+
 # Liquid Neural Networks (LLN)
-Liquid neural networks are a class of AI algorithms that can learn to stay adaptable even after training. Liquid neural networks are inspired by how brain cells communicate with each other. They are robust to perturbations, they do not need to be large to generate interesting behavior, and show promise in learning necessary skills from data to perform well beyond their training data. Liquid neural networks have the potential to alleviate many sociotechnical challenges of large-scale machine learning systems, such as interpretability, accountability, fairness, and carbon footprint.
+Liquid neural networks are a class of AI algorithms that can learn to stay adaptable even after training.
+Liquid neural networks are inspired by how brain cells communicate with each other.
+They are robust to perturbations, they do not need to be large to generate interesting behavior
+and show promise in learning necessary skills from data to perform well beyond their training data.
+Liquid neural networks have the potential to alleviate many sociotechnical challenges of large-scale machine learning systems,
+such as interpretability, accountability, fairness, and carbon footprint.
 
 * [Liquid Neural Networks, A New Idea That Allows AI To Learn Even After Training](https://www.youtube.com/watch?v=0FNkrjVIcuk)
 * [Liquid Neural Networks | Ramin Hasani | TEDxMIT](https://www.youtube.com/watch?v=RI35E5ewBuI)
 * [Adaptable Aviators: future of autonomous navigation Liquid networks | Ramin Hasani | TEDxMIT Salon](https://www.youtube.com/watch?v=2BoxhZUi01Y&list=RDLVRI35E5ewBuI&index=2)
 
+
 # Neural Ordinary Differential Equations (ODE)
+
 * [Neural Differential Equations](https://www.youtube.com/watch?v=AD3K8j12EIE&feature=youtu.be)
 * [Neural ODEs: breakdown of another deep learning breakthrough](https://towardsdatascience.com/neural-odes-breakdown-of-another-deep-learning-breakthrough-3e78c7213795)
 * [Understanding Neural ODE's](https://jontysinai.github.io/jekyll/update/2019/01/18/understanding-neural-odes.html)
@@ -143,15 +164,23 @@ Liquid neural networks are a class of AI algorithms that can learn to stay adapt
 * [Deep Learning’s mathematics](https://medium.com/swlh/deep-learnings-mathematics-f52b3c4d2576)
 * [Simple Guide to Hyperparameter Tuning in Neural Networks](https://towardsdatascience.com/simple-guide-to-hyperparameter-tuning-in-neural-networks-3fe03dad8594)
 
+
 # Cheat Sheets
+
 * [Deep Learning Cheat Sheet](https://hackernoon.com/deep-learning-cheat-sheet-25421411e460#.nrskk2iyy)
 * [Cheat Sheets for AI, Neural Networks, Machine Learning, Deep Learning & Big Data](https://becominghuman.ai/cheat-sheets-for-ai-neural-networks-machine-learning-deep-learning-big-data-678c51b4b463)
 
+
 # Machine Learning
+
 * [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
 * [Learning AI/ML: The Hard Way](https://dzone.com/articles/learning-ai-ml-the-hard-way)
+* [Ten Myths About Machine Learning](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3#.cd074sawz)
+* [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?slide=id.g168a3288f7_0_58)
+
 
 # Deep Learning
+
 * [What is Deep Learning?](https://machinelearningmastery.com/what-is-deep-learning/)
 * [From classic AI techniques to Deep Reinforcement Learning](https://towardsdatascience.com/from-classic-ai-techniques-to-deep-learning-753d20cf8578)
 * [Why AlphaGo Zero is a Quantum Leap Forward in Deep Learning](https://medium.com/intuitionmachine/the-strange-loop-in-alphago-zeros-self-play-6e3274fcdd9f)
@@ -164,22 +193,24 @@ Liquid neural networks are a class of AI algorithms that can learn to stay adapt
 * [Deep Learning CNN’s in Tensorflow with GPUs](https://hackernoon.com/deep-learning-cnns-in-tensorflow-with-gpus-cba6efe0acc2)
 * [Secret Sauce behind the beauty of Deep Learning: Beginners guide to Activation Functions](https://medium.com/towards-data-science/secret-sauce-behind-the-beauty-of-deep-learning-beginners-guide-to-activation-functions-a8e23a57d046)
 
+
 # Interpretation of Machine Learning Model
+
 * [The Importance of Human Interpretable Machine Learning](https://towardsdatascience.com/human-interpretable-machine-learning-part-1-the-need-and-importance-of-model-interpretation-2ed758f5f476)
 * [Model Interpretation Strategies](https://towardsdatascience.com/explainable-artificial-intelligence-part-2-model-interpretation-strategies-75d4afa6b739)
 * [Hands-on Machine Learning Model Interpretation](https://towardsdatascience.com/explainable-artificial-intelligence-part-3-hands-on-machine-learning-model-interpretation-e8ebe5afc608)
 * [This New Google Technique Help Us Understand How Neural Networks are Thinking](https://towardsdatascience.com/this-new-google-technique-help-us-understand-how-neural-networks-are-thinking-229f783300)
 * [Game Theory to Interpret Machine Learning Models and Predictions — The Ultimate Guide](https://towardsdatascience.com/the-ultimate-guide-using-game-theory-to-interpret-machine-learning-c384cbb6929)
 
+
 # Face Technology
+
 * [A Practical Guide To Using Face Technology (Part I)](https://www.iotforall.com/practical-guide-face-technology-part-1/)
 * [Face Technology in Business: A Practical Guide to Using Face Technology (Part II)](https://medium.com/iotforall/face-technology-in-business-1d322bedfb09)
 
-# Machine Learning
-* [Ten Myths About Machine Learning](https://medium.com/@pedromdd/ten-myths-about-machine-learning-d888b48334a3#.cd074sawz)
-* [Machine Learning 101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/preview?slide=id.g168a3288f7_0_58)
 
 # Tools and Books
+
 * [interactive learning tools that can help you understand different machine learning algorithms](https://www.mladdict.com/)
 * [Deep Learning - Software](http://deeplearning.net/software_links/)
 * [Caffe](http://caffe.berkeleyvision.org/)
@@ -192,11 +223,15 @@ Liquid neural networks are a class of AI algorithms that can learn to stay adapt
 * [Neural Networks: You’ve Got It So Easy](http://hackaday.com/2017/04/24/neural-networks-youve-got-it-so-easy/)
 * [Uber Has Been Quietly Assembling One of the Most Impressive Open Source Deep Learning Stacks in the Market](https://towardsdatascience.com/uber-has-been-quietly-assembling-one-of-the-most-impressive-open-source-deep-learning-stacks-in-b645656ddddb)
 
+
 # Open Source Intelligence (OSINT)
+
 * [Open Source Intelligence (OSINT)](https://www.csoonline.com/article/3445357/what-is-osint-top-open-source-intelligence-tools.html)
 * [Open Source Intelligence (OSINT): Top Tools and Techniques](https://www.upguard.com/blog/open-source-intelligence)
 
+
 # Data Sets / Datasets / data set
+
 * [15 Amazing Deep Learning Project Ideas to Boost Your Resume](https://medium.com/projectpro/15-amazing-deep-learning-project-ideas-to-boost-your-resume-28782ed1d62f)
 * [Results for Standard Classification and Regression Machine Learning Datasets](https://machinelearningmastery.com/results-for-standard-classification-and-regression-machine-learning-datasets/)
 * [BDD100K: A Large-scale Diverse Driving Video Database](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
@@ -234,30 +269,44 @@ Liquid neural networks are a class of AI algorithms that can learn to stay adapt
 * [Labled Morse Code Transmissions](http://www.arrl.org/code-practice-files)
     * [Training a Computer to Listen and Decode Morse Code](http://ag1le.blogspot.com/2019/02/training-computer-to-listen-and-decode.html)
 
+
 # Data Set Format
+
 * [Introducing TensorFlow Datasets](https://medium.com/tensorflow/introducing-tensorflow-datasets-c7f01f7e19f3)
 
+
 # Robtics
+
 * [Train Your Robot To Walk with a Neural Network](http://hackaday.com/2016/12/11/train-your-robot-to-walk-with-a-neural-network/)
 
+
 # Speech Generation
+
 * [Talking Neural Nets](http://hackaday.com/2016/12/03/talking-neural-nets/)
 * [DeepMind’s WaveNet project](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
 * [Can you tell which sentence was spoken with Google AI? New audio samples are tough to distinguish from humans](https://www.beckershospitalreview.com/artificial-intelligence/can-you-tell-which-sentence-was-spoken-with-google-ai-new-audio-samples-are-tough-to-distinguish-from-humans.html)
 
+
 # Development Hardware
+
 * [Jetson TX1](https://blogs.nvidia.com/blog/2016/07/07/deep-learning-cats-lawn/)
 * [Neural Network Learns SDR Ham Radio](https://hackaday.com/2017/12/16/neural-network-learns-sdr-ham-radio/)
 
+
 # Vison APIs
+
 * [Comparing the Top Five Computer Vision APIs](https://goberoi.com/comparing-the-top-five-computer-vision-apis-98e3e3d7c647#.l6bo3x90t)
 * [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision#imagenet-classification)
 
+
 # Natural Language APIs
+
 * [These Five Platforms Will Make Your Bots Language-Intelligent](https://chatbotsmagazine.com/these-five-platforms-will-make-your-bots-language-intelligent-634556750abd#.etccobz7x)
 * [WaveNet: A Generative Model for Raw Audio](https://deepmind.com/blog/wavenet-generative-model-raw-audio/)
 
+
 # Machine Learning Classifications
+
 * [The Neural Network Zoo](http://www.asimovinstitute.org/neural-network-zoo/?utm_source=mybridge&utm_medium=email&utm_campaign=read_more)
 * [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * [Foundations for Machine Learning and Data Science for Developers](https://drive.google.com/file/d/0BzipSlf0e7yCMzc0QlVuLXE2d1k/view?usp=sharing)
@@ -265,15 +314,21 @@ Liquid neural networks are a class of AI algorithms that can learn to stay adapt
 * [DeepMind’s PathNet: A Modular Deep Learning Architecture for AGI](https://medium.com/intuitionmachine/pathnet-a-modular-deep-learning-architecture-for-agi-5302fcf53273#.v3t0suymk)
 * [Deep Learning is Non-Equilibrium Information Dynamics](https://medium.com/intuitionmachine/deep-learning-is-non-equilibrium-information-dynamics-b00baa16b135#.glraw0bp9)
 
+
 # Artistic Use of Deep Learning
+
 * [This is What Happens When Deep Learning Neural Networks Hallucinate](http://thenewstack.io/deep-learning-neural-networks-google-deep-dream/)
 * [How to Fake It As an Artist with Docker, AWS and Deep Learning](https://medium.com/@lherrera/how-to-fake-it-as-an-artist-with-docker-aws-and-deep-learning-6d42f4acd890#.1i12c7jnf)
 
+
 # Design
+
 * [How to choose the number of hidden layers and nodes in a feedforward neural network?](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw)
 * [Neural Network Architectures](https://towardsdatascience.com/neural-network-architectures-156e5bad51ba)
 
+
 # Perceptrons
+
 * [Perceptron: The Artificial Neuron (An Essential Upgrade To The McCulloch-Pitts Neuron)](https://towardsdatascience.com/perceptron-the-artificial-neuron-4d8c70d5cc8d)
 * [Perceptron Learning Algorithm: A Graphical Explanation Of Why It Works](https://towardsdatascience.com/perceptron-learning-algorithm-d5db0deab975)
 * [Machine Learning: Foundations](http://hackaday.com/2016/11/02/machine-learning-foundations/#more-228331)
@@ -288,6 +343,7 @@ Liquid neural networks are a class of AI algorithms that can learn to stay adapt
     * [Neural Networks from Scratch with Python Code and Math in Detail— I](https://medium.com/towards-artificial-intelligence/building-neural-networks-from-scratch-with-python-code-and-math-in-detail-i-536fae5d7bbf)
     * [Neural Network from Scratch in Python](https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65)
     * [Neural Network from Scratch in Python](https://nnfs.io/)
+
 
 # Embedded Learning Library (ELL)
 Microsoft has released the [Embedded Learning Library (ELL)](https://github.com/Microsoft/ELL),
@@ -311,10 +367,14 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [How we made TensorFlow run on a Raspberry Pi using Rust](https://medium.com/snips-ai/how-we-made-tensorflow-run-on-a-raspberry-pi-using-rust-7478f7a31329)
 * [TensorFlow: Tutorials and Articles](https://dzone.com/articles/tensorflow-tutorials)
 
+
 # Movidius
+
 * [Movidius launches a $79 deep-learning USB stick](https://techcrunch.com/2017/07/20/movidius-launches-a-79-deep-learning-usb-stick/?ncid=mobilenavtrend)
 
+
 # Tutorials
+
 * [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
 * [Machine Learning for Beginners: An Introduction to Neural Networks](https://victorzhou.com/blog/intro-to-neural-networks/)
@@ -366,7 +426,7 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * Up to Speed on Deep Learning
     * [June Update](https://medium.com/the-mission/up-to-speed-on-deep-learning-june-update-bb0f17ccaf0b#.e0wr5tqwh)
     * [July Update, Part 2](https://medium.com/the-mission/up-to-speed-on-deep-learning-july-update-part-2-baacc835d8ab#.yw03l0iax)
-* [An introduction to TensorFlow ](https://opensource.com/article/17/11/intro-tensorflow?utm_medium=Email&utm_campaign=weekly&sc_cid=701f2000000tmCPAAY)
+* [An introduction to TensorFlow](https://opensource.com/article/17/11/intro-tensorflow?utm_medium=Email&utm_campaign=weekly&sc_cid=701f2000000tmCPAAY)
 * [9 Things You Should Know About TensorFlow](https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995)
 * [Getting Started with TensorFlow: A Machine Learning Tutorial](https://www.toptal.com/machine-learning/tensorflow-machine-learning-tutorial)
 * [From Solving Equations to Deep Learning: A TensorFlow Python Tutorial](https://www.toptal.com/machine-learning/tensorflow-python-tutorial)
@@ -414,35 +474,49 @@ There is also an open source initiative like this call [The Fido Project](http:/
     * [Mysteries of Neural Networks Part II: Preventing Deep Neural Network from Overfitting](https://towardsdatascience.com/preventing-deep-neural-network-from-overfitting-953458db800a)
     * [Mysteries of Neural Networks Part III: Let’s code a Neural Network in plain NumPy](https://towardsdatascience.com/lets-code-a-neural-network-in-plain-numpy-ae7e74410795)
 
+
 # Whisper Voice Recognition
+
 * [OpenAI Hears You Whisper](https://hackaday.com/2022/09/22/openai-hears-you-whisper/)
 * [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper)
 * [Here’s A Plain C/C++ Implementation Of AI Speech Recognition, So Get Hackin’](https://hackaday.com/2022/11/27/heres-a-plain-c-c-implementation-of-ai-speech-recognition-so-get-hackin/)
 
+
 # OpenCV
+
 * [Configuring Ubuntu for deep learning with Python](https://www.pyimagesearch.com/2017/09/25/configuring-ubuntu-for-deep-learning-with-python/)
 * [Deep learning on the Raspberry Pi with OpenCV](https://www.pyimagesearch.com/2017/10/02/deep-learning-on-the-raspberry-pi-with-opencv/)
 
+
 ## OpenCV AI Kit (OAK)
+
 * [Introduction to OpenCV AI Kit (OAK)](https://pyimagesearch.com/2022/11/28/introduction-to-opencv-ai-kit-oak/)
 * [Arducam OAK Solutions](https://www.arducam.com/oak-opencv-ai-kit-camera/)
 * [Introduction to OAK-D and DepthAI](https://learnopencv.com/introduction-to-opencv-ai-kit-and-depthai/)
 * [OAK-D: Understanding and Running Neural Network Inference with DepthAI API](https://pyimagesearch.com/2022/12/19/oak-d-understanding-and-running-neural-network-inference-with-depthai-api/)
 
+
 # CUDA
+
 * [CUDA IS LIKE OWNING A SUPERCOMPUTER](https://hackaday.com/2018/03/19/cuda-is-like-owning-a-supercomputer/)
 * [Setting up Ubuntu 16.04 + CUDA + GPU for deep learning with Python](https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/)
 * [Train Your Machine Learning Models on Google’s GPUs for Free — Forever](https://hackernoon.com/train-your-machine-learning-models-on-googles-gpus-for-free-forever-a41bd309d6ad)
 * [Google Colab Free GPU Tutorial](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d)
 
+
 # Types of Neural Networks
+
 * [Main Types of Neural Networks and its Applications — Tutorial](https://medium.com/towards-artificial-intelligence/main-types-of-neural-networks-and-its-applications-tutorial-734480d7ec8e)
 
+
 # MNIST
+
 * [MNIST For ML Beginners](https://www.tensorflow.org/tutorials/mnist/beginners/#mnist-for-ml-beginners)
 * [Deep MNIST for Experts with TensorFlow](https://www.tensorflow.org/tutorials/mnist/pros/)
 
+
 # Understanding Convolutional Neural Networks
+
 * [How Convolutional Neural Networks Work](https://brohrer.github.io/how_convolutional_neural_networks_work.html)
 * [Convolutional Neural Networks from the ground up](https://towardsdatascience.com/convolutional-neural-networks-from-the-ground-up-c67bb41454e1)
 * [The best explanation of Convolutional Neural Networks on the Internet!](https://medium.com/technologymadeeasy/the-best-explanation-of-convolutional-neural-networks-on-the-internet-fbb8b1ad5df8#.ecveser6x)
@@ -456,7 +530,9 @@ There is also an open source initiative like this call [The Fido Project](http:/
     * [Rohan & Lenny #3: Recurrent Neural Networks & LSTMs](https://ayearofai.com/rohan-lenny-3-recurrent-neural-networks-10300100899b)
     * [Illustrated Guide to LSTM’s and GRU’s: A step by step explanation](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
 
+
 # Reinforcement Learning
+
 * [An introduction to Reinforcement Learning](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419)
 * [A Deep Dive into Reinforcement Learning](https://www.toptal.com/machine-learning/deep-dive-into-reinforcement-learning)
 * [Introduction to Various Reinforcement Learning Algorithms. Part I (Q-Learning, SARSA, DQN, DDPG)](https://towardsdatascience.com/introduction-to-various-reinforcement-learning-algorithms-i-q-learning-sarsa-dqn-ddpg-72a5e0cb6287)
@@ -467,7 +543,9 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Part 6: Partial Observability and Deep Recurrent Q-Networks](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-6-partial-observability-and-deep-recurrent-q-68463e9aeefc#.a5wt34bxf)
 * [OpenAI Gym - toolkit for developing and comparing reinforcement learning algorithms](https://gym.openai.com/)
 
+
 # Capsule Networks
+
 * [Capsule Networks Are Shaking up AI — Here’s How to Use Them](https://hackernoon.com/capsule-networks-are-shaking-up-ai-heres-how-to-use-them-c233a0971952)
 * [Understanding Capsule Networks — AI’s Alluring New Architecture](https://medium.freecodecamp.org/understanding-capsule-networks-ais-alluring-new-architecture-bdb228173ddc)
 
@@ -478,35 +556,48 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [How computers are learning to be creative](http://www.ted.com/talks/blaise_aguera_y_arcas_how_computers_are_learning_to_be_creative?utm_source=newsletter_weekly_2016-07-02&utm_campaign=newsletter_weekly&utm_medium=email&utm_content=top_left_image)
 * [Artificial Intelligence Is Far From Matching Humans, Panel Says](http://www.nytimes.com/2016/05/26/technology/artificial-intelligence-is-far-from-matching-humans-panel-says.html?utm_source=pocket&utm_medium=email&utm_campaign=pockethits&_r=1)
 
+
 # Restricted Boltzmann Machines
+
 * [Deep Learning meets Physics: Restricted Boltzmann Machines Part I](https://towardsdatascience.com/deep-learning-meets-physics-restricted-boltzmann-machines-part-i-6df5c4918c15)
 * [Deep Learning meets Physics: Restricted Boltzmann Machines Part II](https://towardsdatascience.com/deep-learning-meets-physics-restricted-boltzmann-machines-part-ii-4b159dce1ffb)
 
+
 # Generative Adversarial Networks (GAN)
+
 * [Introduction to Turing Learning and GANs](https://towardsdatascience.com/comprehensive-introduction-to-turing-learning-and-gans-part-1-81f6d02e644d)
 * [Create Data from Random Noise with Generative Adversarial Networks](https://www.toptal.com/machine-learning/generative-adversarial-networks)
 * [Generating Digits and Sounds with Artificial Neural Nets](https://towardsdatascience.com/generating-digits-and-sounds-with-artificial-neural-nets-ca1270d8445f)
 * [Deep Dream Generator](https://deepdreamgenerator.com/)
 
+
 # Chatbot
+
 * [The Complete Beginner’s Guide To Chatbots](https://chatbotsmagazine.com/the-complete-beginner-s-guide-to-chatbots-8280b7b906ca#.d3yd7zv3e)
 * [Contextual Chat-bots with Tensorflow](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077)
 
+
 # Tensors
+
 * [What the HECK is a Tensor?!?](https://www.youtube.com/watch?v=bpG3gqDM80w)
 * [How Tensors Advance Human Technology](https://medium.com/@philjama/how-tensors-advance-human-technology-3831bff0906#.48fcqkrsm)
 * [Tensor Calculus and the Calculus of Moving Surfaces](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
+
 
 # Data Wrangling
 extract, transform and load
 exploratory data analysis
 pandas cookbook
+
+* [From Data to Insights: A Beginner’s Journey in Exploratory Data Analysis](https://machinelearningmastery.com/from-data-to-insights-a-beginners-journey-in-exploratory-data-analysis/)
 * [A comprehensive introduction to data wrangling](https://www.springboard.com/blog/data-wrangling/)
 * [Exploratory Data Analysis using Python — A Case Study](https://blog.jovian.ai/exploratory-data-analysis-using-python-a-case-study-78aa34e5922e)
 * [Advanced exploratory data analysis (EDA) with Python](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a)
     * [Advanced exploratory data analysis (EDA)](https://miykael.github.io/blog/2022/advanced_eda/)
 
+
 # AI Winter
+
 * [The Risk of a New AI Winter](https://clivethompson.medium.com/the-risk-of-a-new-ai-winter-332ffb4767f0)
 * [The winter, the summer and the summer dream of artificial intelligence in law](https://link.springer.com/article/10.1007/s10506-022-09309-8)
 
