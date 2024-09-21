@@ -10,7 +10,122 @@ Version:      0.0.0
 
 
 
------
+---------------
+
+
+
+# Sept 8, 2024 - Info for FIOS TV One Service
+
+
+# Is it Time to Cut My Ties to Cable?
+
+* [5 top alternatives to cable TV for 2024: How to cut the cord — and your monthly costs](https://www.aol.com/alternatives-to-cable-tv-172032210.html)
+* [Alternatives to FIOS TV](https://www.bogleheads.org/forum/viewtopic.php?t=409419)
+* [Best Internet Providers Of September 2024](https://www.forbes.com/home-improvement/internet/best-internet-providers/)
+
+
+View an estimate of your 10/12/24 bill here - <https://www.verizon.com/foryourhome/billview/pages/SOCFBEDetailInfo.aspx?mon=%2FtgDvdcsI2Y7HA0u9ebXoQ%3D%3D&detail=fbe&emailseqid=627809159>
+
+| Services Ordered                       | Monthly Amount  | Notes   |
+|:---------------------------------------|----------------:|:--------|
+| Triple Play                            | $214.99         | includes Verizon Freedom Essentials (aka residential phone), Fios TV Ultimate HD (full TV package), Fios Gigabit Connection (940/880 Mbps Internet) |
+| Max (aka HBO)                          | $15.00          |         |
+| Inside Wire Maintenance                | $15.00          |         |
+| Ultimate Employee Free TV              | -$60.00         |         |
+| Ultimate Employee Speed Discount       | -$30.00         |         |
+| Advanced DVR Service Discount          | -$10.00         |         |
+| Fios Router - G3100                    | $0.00           | negotiated this to zero since they wouldn't support my personal router |
+| Multi-Room DVR Enhanced Service        | $20.00          | Fios Video Media Server - VMS4100ATV |
+| 3 Fios TV Connections                  | $30.00          | aka Verizon Stream TV, aka Fios TV One Mini, aka Fios TV+, aka Set Top Box |
+|                                        |                 |         |
+| Estimated Monthly Subtotal             | $194.99         |         |
+| Taxes, Fees and Other Verizon Charges  | $21.93          |         |
+|                                        |                 |         |
+| **Estimated Monthly Total**            | **$216.92**     |         |
+
+
+# Install Fios TV One
+
+
+## My Configuration
+
+* Fios Router - G3100
+* Fios Video Media Server - VMS4100ATV
+* Verizon Stream TV (aka Fios TV One Mini) (aka Fios TV+) Set Top Box -
+
+
+## Double NAT or Not
+Enable DHCP with start address of `192.168.1.10` and final address of `192.168.1.199`.
+
+Sources
+
+* [Double NAT vs. Single NAT: How to Best Handle an (ISP-Provided) Gateway, or an Existing Router, When Upgrading](https://dongknows.com/double-nat-vs-single-nat/)
+
+
+## Guest and IoT SSID/Networks
+Guest WiFi is not intended to be a security measure for guest on your network orIoT devices.
+It has little to do with security at all.
+A Guest WiFi network is a fancy name for a virtual SSID that's, by default,
+isolated from the primary one.
+Device isolation is the keyword here.
+A device connected to a router's Guest WiFi, by design, has access to the Internet and nothing else.
+It's not part of the router's primary network and, therefore,
+can't reach your local resources, such as your shared folders or network printer.
+The value here is that you don't need to offer your primary WiFi network's password
+to them work still giving them access to the Internet.
+
+Note that many routers have the option to allow the Guest WiFi network intranet access.
+With that turned on, the isolation is no longer in effect.
+The Guest network now works the same as the primary network.
+
+Verizon/Fios created the IoT SSID for the sole purpose of accommodating devices that only have a 2.4GHz wireless controller,
+and it does not intend to provide an isolated network.
+With the IoT SSID enabled, you could leave the Self-Organizing Network on the main wireless radios on.
+To achieve network isolation, you need to use the Guest wireless network,
+which is also on 2.4GHz.
+Guest wireless network is on VLAN 10 and this VLAN is trunked to all ports of the router.
+
+Sources:
+
+* [Guest Wi-Fi Network Explained: What It Is and How It Has Little to Do with the Security of IoT Devices](https://dongknows.com/guest-wi-fi-networking-and-iot-devices/)
+* [CR1000B - IoT Configuration questions](https://community.verizon.com/t5/Fios-Internet-and-High-Speed/CR1000B-IoT-Configuration-questions/m-p/1731486)
+* [IOT Network Segregation from Primary Network](https://community.verizon.com/t5/Fios-Internet-and-High-Speed/IOT-Network-Segregation-from-Primary-Network/m-p/1715794)
+
+
+
+
+
+
+* [Verizon Fios Self-Install Video](https://www.youtube.com/watch?v=Yt_hXyFHKdw)
+* [Fios Router G3100 USER GUIDE](https://www.verizon.com/content/dam/verizon/support/consumer/documents/internet/fios-router-user-guide.pdf)
+* [Introducing Fios TV One. Experience TV at its best.](https://www.verizon.com/about/news/introducing-fios-tv-one-experience-tv-its-best)
+* [Using your own router with Verizon Fios](https://community.verizon.com/t5/Knowledge-Hub-Popular-Articles/Using-your-own-router-with-Verizon-Fios/ta-p/1696146)
+* [PSA: You can no longer use your own router with the newest Fios TV standard equipment](https://www.reddit.com/r/Fios/comments/18g4khm/psa_you_can_no_longer_use_your_own_router_with/)
+* [Fios TV One with Own Router](https://www.reddit.com/r/Fios/comments/wzxr77/fios_tv_one_with_own_router/)
+
+* [3 reasons you should you be using VLANs on your home network](https://www.msn.com/en-us/money/other/3-reasons-you-should-you-be-using-vlans-on-your-home-network/ar-AA1qbmy3)
+
+* [How To Set Up Amazon Echo, Alexa Voice Controls and Fios TV Service](https://www.verizon.com/support/residential/tv/equipment/alexa.html)
+
+* [Avoided the double-NAT](https://www.reddit.com/r/Fios/comments/1atvwpb/avoided_the_doublenat/)
+* [Removing Double NAT from FIOS Network](https://www.reddit.com/r/Fios/comments/k2tfr3/removing_double_nat_from_fios_network/)
+    * [What are the tradeoffs between the various router configurations](https://www.dslreports.com/faq/16077)
+    * [Replacing the Actiontec (part 4): LAN-to-LAN keeps all devices on one network](https://www.dslreports.com/faq/15993)
+
+* [How To Add A Router to Verizon 5G Home Internet Gateway - ASK-NCQ1338 And Asus Aimesh RT-AC88U](https://www.youtube.com/watch?v=GKbBI38MML8)
+
+* [FIOS TV with my own router](https://www.reddit.com/r/Fios/comments/1b8vq3m/fios_tv_with_my_own_router/)
+
+
+* [Fios TV One](https://www.verizon.com/home/fios-tv/dvr/)
+* [Fios TV Voice Remote](https://www.verizon.com/support/residential/tv/equipment/remote-control/voice-remote)
+* [How To Set Up Amazon Echo, Alexa Voice Controls and Fios TV Service](https://www.verizon.com/support/residential/tv/equipment/alexa.html)
+
+
+
+
+
+---------------
 
 
 
@@ -73,11 +188,13 @@ Here are the components I plan to establish.
     * Kubernetes Cluster
     * Infrastructure as Code (IaC)
 
+
 ## Domains
 Type    Name                IP Address
 A       jeffskinnerbox.me   72.86.37.26
 CNAME   www                 @
 CNAME   bitwarden           @
+
 
 ## Physical Design & Network Addressing
 My vision for the physical design will be
@@ -108,13 +225,14 @@ Portainer Agent      192.168.1.203:9001
         Clear Case Raspberry Pi 3 - 192.168.1.205 (static)
 test-pi              192.168.1.205
 Home Assistant       192.168.1.205:8123
-Portainer Agent      192.168.1.205:9001
+Portainer Agent      192.168.1.205:900or 1
 
         Other Boxes
 NTP Server           192.168.1.206        Raspberry Pi 2 Model B Rev 1.1
 WiFi6 Access Point   192.168.1.2:80       TP-Link EAP610
 WiFi Range Extender  192.168.1.3:80       TP-Link
-Ethernet Switch      192.168.1.4:80       TP-Link TL-SG108E or TP-Link TL-SG116E
+Ethernet Switch      192.168.1.4:80       TP-Link TL-SG116E - on TV & IoT network
+Ethernet Switch      192.168.1.5:80       TP-Link TL-SG108E - on personal network
 Philips Hue Gateway  DHCP
 SmartThings Gateway  DHCP
 
@@ -170,12 +288,15 @@ SmartThings Gateway  DHCP
      *********************************************
 
 
-          Key
--------------------------
- X   DHCP Issued IP Address
+             Key
+------------------------------
+ X     DHCP Issued IP Address
+ ???   To Be Determined
 ```
 
+
 ## Foundational Components
+
 
 ### Full Feature Router + Firewall
 You already have a firewall built into your existing router,
@@ -184,10 +305,14 @@ so is it necessary to buy a special purpose firewall for your home network?
 * [Do You Need to Get a Hardware Firewall?](https://www.youtube.com/watch?v=4k2ZMUzfiBU)
 * [Do I Need a Firewall for My Home Network?](https://www.youtube.com/watch?v=oGMbnk_vMUE)
 
+
 ### Virtualization Server
+
 * [Budget Proxmox Server for Homelabs](https://www.storagereview.com/review/budget-proxmox-server-for-homelabs)
 
+
 ### VLAN
+
 * [What are VLANs? -- the simplest explanation](https://www.youtube.com/watch?v=MmwF1oHOvmg)
 * [VLAN vs Subnet: What Are Their Differences?](https://www.fiber-optic-transceiver-module.com/vlan-vs-subnet.html)
 * [Native VLAN - the DEFINITIVE illustration](https://www.youtube.com/watch?v=Fmq1E1Qr2W4)
@@ -196,13 +321,18 @@ so is it necessary to buy a special purpose firewall for your home network?
 * [Configuring VLANs with pfSense on Proxmox](https://notdodo.medium.com/a-poor-mans-proxmox-vlan-configuration-9f562fff0eef)
 * [VLANs with Proxmox and pfSense](https://www.laroberto.com/vlans-with-proxmox-and-pfsense/)
 
+
 ### Reverse Proxy
+
 * [Best for Homelab? Traefik vs Nginx Proxy Manager](https://www.youtube.com/watch?v=scrtJ1U4wJU)
 * [How to Home Lab: Part 4 - NGINX Reverse Proxy](https://www.dlford.io/nginx-reverse-proxy-how-to-home-lab-part-4/)
 
+
 ## Add-on Components
 
+
 ## Enhansed Security
+
 * [How to protect Linux from Hackers // My server security strategy!](https://www.youtube.com/watch?v=Bx_HkLVBz9M)
 * [Self-Hosting Security Guide for your HomeLab](https://www.youtube.com/watch?v=Cs8yOmTJNYQ)
 * [How to protect Linux from Hackers // My server security strategy!](https://www.youtube.com/watch?v=Bx_HkLVBz9M)
@@ -219,6 +349,7 @@ so is it necessary to buy a special purpose firewall for your home network?
 * [CloudFlare - FREE Additional Security For Your Home Server!](https://www.youtube.com/watch?v=m-RYTu-Qq3A)
 * [How I survived a DDoS attack](https://www.youtube.com/watch?v=VPcYMgTYQs0)
 
+
 #### Step X: Itrusion Protection System (IPS)
 CrowdSec is a free, open-source, and collaborative Itrusion Protection System (IPS).
 Analyze behaviors, respond to attacks & share signals across the community.
@@ -227,8 +358,10 @@ Analyze behaviors, respond to attacks & share signals across the community.
 * [Pi Alert - Open Source, Self Hosted, Network Device Change Notification and Intrusion Detection](https://www.youtube.com/watch?v=oKl3WFQloE4)
 * [Pi-Alert - Network Device Change Notifications](https://shownotes.opensourceisawesome.com/pi-alert-network-device-change-notifications/)
 
+
 #### Step X: Ad Blockine
 Clheckout setting-up-pi-hole.md
+
 
 #### Step X: Setting Up WireHole
 WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
@@ -236,7 +369,9 @@ WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose 
 * [WireHole: WireGuard, Pi-Hole and Unbound in Docker](https://www.youtube.com/watch?v=DOJ39lyx6Js)
 * [Create Your New Reality With Wirehole And Other Awesome Automation Tools](https://hackernoon.com/create-your-new-reality-with-wirehole-and-other-awesome-automation-tools-viq3tbb)
 
+
 #### Step X: Setting Up VPN
+
 * [Cloudflare Access](https://dash.teams.cloudflare.com/2dbf9ab9f674a117b229f8c02d0cd234/onboarding)
 * [Cloudflare Tunnel Setup Guide - Self-Hosting for EVERYONE](https://www.youtube.com/watch?v=hrwoKO7LMzk)
 * [Free Cloudflare Tunnel To Home Assistant: Full Tutorial!](https://www.youtube.com/watch?v=4svVZGRMrsM)
@@ -253,20 +388,26 @@ WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose 
 * [Make Your Own VPN Pt.2 – Use It Correctly! Netflix, Torrenting, Wireguard, etc.](https://www.youtube.com/watch?v=5Tls2LRKh-c)
 * [Set Up Your Own VPN at Home With Raspberry Pi! (noob-friendly)](https://www.youtube.com/watch?v=rtUl7BfCNMY)
 
+
 ### Homelab Dashboard with Homer
 Check out `$HOME/src/homer-dashboard`
 
 
 ## Optional Components
 
+
 ### Recommended pfSense Settings
+
 * [pfSense Configuration Recommendations](https://protectli.com/kb/pfsense-configuration-recommendations/)
 * [Best Practices for pfSense Firewall Rules](https://hometechhacker.com/best-practices-for-pfsense-firewall-rules/)
 
+
 ### Guacamole
+
 * [access EVERYTHING from your web browser!! (Linux and Windows Desktop, SSH) // Guacamole Install](https://www.youtube.com/watch?v=gsvS2M5knOw)
 * [Meet Guacamole, Your Remote Access Gateway](https://www.youtube.com/watch?v=LWdxhZyHT_8)
 * [Pi-Hosted : Manually Installing Guacamole on Portainer Part 3](https://www.youtube.com/watch?v=cKAhnf8X1lo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=3)
+
 
 ### Clonezilla (Disk Cloning)
 Clonezilla is a partition and disk imaging/cloning program similar to True Image® or Norton Ghost®.
@@ -278,14 +419,17 @@ It helps you to do system deployment, bare metal backup and recovery.
 * [Using rsync to sync Clonezilla backup images to NAS (Synology DS920+)](https://www.youtube.com/watch?v=VpNlnkZRwT4)
 * [Clonezilla LAN backup (over SSH): Linux host to Synology NAS](https://www.youtube.com/watch?v=cfMspUjk9ms)
 
+
 ### Duplicati
 Duplicati is a backup client that securely stores encrypted, incremental, compressed remote backups of local files on cloud storage services and remote file servers. Duplicati supports not only various online backup services like OneDrive,[1] Amazon S3, Backblaze, Rackspace Cloud Files, Tahoe LAFS, and Google Drive, but also any servers that support SSH/SFTP, WebDAV, or FTP.
 
 * [Duplicati a Set it and Forget it backup tool for local and remote backups of your system!](https://www.youtube.com/watch?v=N1NRvg4KaDE)
 * [Setup Duplicati on Synology](https://www.youtube.com/watch?v=YVUvLZpKhQ0)
 
+
 ### eMail Server
 By running your own email server, your data is in your own hands and on your own hardware, with no oversight from shadowy corporate entities.
+
 * [Make Your Own Raspberry Pi Email Server](https://www.makeuseof.com/make-your-own-raspberry-pi-email-server/)
 * [Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/edge/)
     * [Mail Server](https://geek-cookbook.funkypenguin.co.nz/recipes/mail/)
@@ -293,20 +437,26 @@ By running your own email server, your data is in your own hands and on your own
 
 
 ### eMail Spam Blocker
+
 * [Spamgourmet](https://www.spamgourmet.com/index.pl)
 
+
 ### Remote Access to Your Home Lab
+
 * [How to Home Lab: Part 5 - Secure SSH Remote Access](https://www.dlford.io/secure-ssh-access-how-to-home-lab-part-5/)
+
 
 ### Kubernetes Cluster
 
+
 ### Infrastructure as Code (IaC)
+
 * [How to use infrastructure as code](https://opensource.com/article/19/7/infrastructure-code)
 * [Homelab-Ansible](https://github.com/TechGeek01/Homelab-Ansible)
 
 
 
--------
+---------------
 
 
 
@@ -317,10 +467,12 @@ that operates over a fiber-optic communications network.
 
 * [Verizon FiOS FAQ](http://www.dslreports.com/faq/verizonfios)
 
+
 # FiOS Optical Network Terminal (ONT)
 At you house, the FiOS [Optical Network Terminal (ONT)][11] splits-out & converts
 the optical fiber connection to Ethernet for Internet service, twisted pair wiring for phone service,
 and coaxial cable for TV service.
+
 
 # What is MoCA?
 MoCA stands for Multimedia over Coaxial Alliance.
@@ -339,7 +491,7 @@ My service provider use the MoCA connection to route control messages to my cabl
 
 
 
--------
+---------------
 
 
 
@@ -372,6 +524,7 @@ I should replace it with the next generation, WiFi 6, via a standalone access po
 Oh by the way, if I eliminate my ISPs router,
 I then become responsible for keeping my ISP provided phone & TV service working via [MoCA][30].
 Needless to say, I like a challenge and new things to learn.
+
 
 ## Cost & Value of Router Replacement
 The estimate cost of the replacement router configuration is:
@@ -406,6 +559,7 @@ the many IoT device I wish to support.
 most notable the IoT device,
 onto seperate virtual networks giving me additional security.
 
+
 ## First, Do a Proof of Concept
 The first question you have to ask,
 is all this possible, particularly can you not disrupt your phone & TV service?
@@ -421,7 +575,7 @@ and had a configuration that was like my home.
 
 
 
--------
+---------------
 
 
 
@@ -476,7 +630,9 @@ Sources:
 * [Replace Fios Router with Your Router](https://www.arhea.net/posts/2020-01-012-fios-own-router.html)
 * [pfSense and Verizon FiOS](https://www.ianmf.com/2020/02/17/pfsense-and-verizon-fios/)
 
+
 ## Preparation
+
 
 #### Step X: Measure Internet Speed - DONE
 Lets baseline the speed of my current Internet connection.
@@ -506,7 +662,9 @@ Upload: 641.70 Mbit/s
 ```
 
 Sources:
+
 * [How to Run a Speed Test on pfSense](https://www.wundertech.net/how-to-run-a-speed-test-on-pfsense/)
+
 
 #### Step X: Gather Current Router Configuration - DONE
 Before starting, you need to collect information about how you home network is currently configured.
@@ -538,8 +696,8 @@ I translated this information to mean
 
 ```
                                   WAN            LAN
-Device            Protocol    External Port  Internal Port	Note / Description
-Living-Room-SetTop  TCP          35003           7547    	This must be connected to the main DVR in the home.
+Device            Protocol    External Port  Internal Port Note / Description
+Living-Room-SetTop  TCP          35003           7547     This must be connected to the main DVR in the home.
 1-SetTop            TCP          35002           7547
 2-SetTop            TCP          35001           7547
 3-SetTop            TCP          35000           7547
@@ -620,6 +778,7 @@ $ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
  192.168.1.84    26:49:94:3d:68:d0      1      60  Unknown vendor
 ```
 
+
 #### Step X: Change LAN IP TCP/IP Subnet - DONE
 My FiOS router is creating a home IP network using the private subnet `192.168.1.0`.
 When I establish my new router, I don't want to have to resent all my currently active devices.
@@ -640,6 +799,7 @@ Enable DHCP with start address of `192.168.1.10` and final address of `192.168.1
 3. **Reboot pfSense:**
 Now reboot pfSense to make sure changes take effect via **5) Reboot system**.
 
+
 #### Step X: Release DHCP Lease - DONE
 Prior to swapping out your FiOS router for the new one,
 you'll need to release the DHCP lease on the FiOS router.
@@ -652,6 +812,7 @@ Scroll down and click **Release** right of "DHCP Lease" and click **Apply**.
 Disconnect the Ethernet cable of the FiOS router immediately to prevent it from re-requesting a DHCP lease.
 Next you immediately plug the Ethernet cable into the WAN port of your new router and power it on.
 Your new router should obtain a fresh DHCP lease and be connected immediately.
+
 
 #### Step X: Move Ethernet Connections to Switch - DONE
 Next, we have to perform some hardwire (aka Ethernet) re-configuration
@@ -667,7 +828,9 @@ The re-configuration required are:
 to the  pfSense LAN (aka TP-Link TL-SG108E switch).
 This will allow your hardwared home devices obtain their IP address from the pfSense router.
 
+
 #### Step X: configure Proxmox and PfSense VM so that all network requests go through PfSense
+
 * [Management interface to internal network](https://forum.proxmox.com/threads/management-interface-to-internal-network.73862/)
 * [How to configure Proxmox and PfSense VM so that all network requests go through PfSense](https://forum.proxmox.com/threads/how-to-configure-proxmox-and-pfsense-vm-so-that-all-network-requests-go-through-pfsense.64021/)
 * [How to Change Primary Proxmox VE IP Address](https://www.servethehome.com/how-to-change-primary-proxmox-ve-ip-address/)
@@ -684,6 +847,7 @@ This will allow your hardwared home devices obtain their IP address from the pfS
     * [Proxmox + pfSense on one public IP](https://blog.kton.me/post/152460845498/proxmox-pfsense-on-one-public-ip)
 
 * [Physical or Virtual? A Silent 4x 2.5GbE Proxmox VE pfSense and OPNsense Box](https://www.youtube.com/watch?v=IJhlqb4iGn4)
+
 
 #### Step X: Measure Internet Speed
 Lets do another Internet speed test using `speedtest-cli`,
@@ -704,6 +868,7 @@ Sun 29 May 2022 10:19:11 AM EDT
 Download: 93.43 Mbit/s
 Upload: 95.03 Mbit/s
 ```
+
 
 #### Step X: Checking Ethernet Cables
 For my Ethernet networking,
@@ -730,6 +895,7 @@ but it might be worth it to future proof your network.
 * [Cat5 vs. Cat6 Ethernet Cables: What's Best for You?](https://www.cdw.com/content/cdw/en/articles/hardware/cat5-vs-cat6-ethernet-cables.html)
 * [What are the differences between CAT5 and CAT6 cables?](https://cablesys.com/updates/differences-between-cat5-cat6-cables/)
 
+
 #### Step X: Get TV Service Working
 If you have FiOS TV, your new router should be able to reach the Internet.
 However, you'll notice that your TV service will have some issues,
@@ -744,6 +910,7 @@ Simply connect the Coax cable from your FiOS router to the MoCA adapter,
 and then connect an Ethernet cable between MoCA adapter's Ethernet port and a LAN port on your new router.
 Reboot the set top boxes after the MoCA adapter has been connected and ensure they function as intended.
 
+
 #### Step X: Return FiOS Router to Verizon
 Once you elect to go with your own router,
 you have 30 days to return your FiOS router to Verizon,
@@ -753,12 +920,15 @@ And get a receipt from the store confirming that your equipment has been returne
 
 
 
------
+---------------
 
 
 
 # Current Configuration
+
+
 # Test Configuration
+
 ```
 ============= Router Setup =============
 
@@ -793,11 +963,12 @@ And get a receipt from the store confirming that your equipment has been returne
  X   DHCP Issued IP Address
 ```
 
+
 # Target Configuration
 
 
 
------
+---------------
 
 
 
@@ -812,9 +983,12 @@ Sources:
 * [How and Why I Built a Virtual Router](https://hometechhacker.com/how-why-i-built-virtual-router/)
 * [Planning Your pfSense Router Install and Configuration](https://hometechhacker.com/planning-your-pfsense-router-install-and-configuration/)
 
+
 ## Install Proxmox on Protectli Vault
 Follow the procedures in `setting-up-proxmox.md`.
+
 * [Proxmox VE on the Vault](https://protectli.com/kb/proxmox-ve-on-the-vault/)
+
 
 ## Install pfSense
 Follow the procedures in `setting-up-pfsense.md`.
@@ -822,6 +996,7 @@ Follow the procedures in `setting-up-pfsense.md`.
 * [your home router SUCKS!! (use pfSense instead)](https://www.youtube.com/watch?v=lUzSsX4T4WQ)
 * [pfSense CE on the Vault](https://protectli.com/kb/how-to-install-pfsense-ce-2-4-on-the-vault-2/)
 * [NIC port numbering and naming](https://protectli.com/kb/nic-port-numbering-and-naming/)
+
 
 ## Configure Switch
 For my switch, I purchased the [TP-Link TL-SG108E Version 6.6][06].
@@ -835,6 +1010,7 @@ at [TP-Link's download site][08].
 
 
 ## Configure Protectli Vault
+
 
 #### Step X: Configuring Optional Ports
 Here we will covers how to enable the Protectli Vault's optional ports in pfSense.
@@ -850,53 +1026,60 @@ establish Firewall rules, and other features you would expect of a router.
 
 
 
-------
+---------------
 
 
 
 # Remote Access of Homelab
+
 * [Proxmox remote access – Here’s how to secure it](https://bobcares.com/blog/proxmox-remote-access/)
 
 
 
-------
+---------------
 
 
 
 # NetBox
+
 * [Installing NetBox 10 minutes! WHAAAAAT?!?](https://www.youtube.com/watch?v=uHMXZpXpDvc)
 * [NetBox - Open Source Network Design and Mapping Software from homelab to network engineers](https://www.youtube.com/watch?v=sHvMyRHA7sY)
 * [NetBox Documentation](https://docs.netbox.dev/en/stable/)
 
+
 # HomeBox
+
 * [HomeBox](https://hay-kot.github.io/homebox/)
 * [Keep Track of Your Belongings by Self-Hosting HomeBox on Raspberry Pi](https://www.makeuseof.com/raspberry-pi-homebox-track-belongings-self-hosting/)
 
 
 
-------
+---------------
 
 
 
 # Uptime Kuma
+
 * [The BEST Home Server Uptime Monitoring!](https://www.youtube.com/watch?v=tIazVdhsSqQ)
 * [Monitor Self-Hosted Websites and Projects on Raspberry Pi With Uptime Kuma](https://www.makeuseof.com/raspberry-pi-monitor-self-hosted-websites-projects-uptime-kuma/)
 
 
 
-------
+---------------
 
 
 
 #### Step X: Configure pfSense
 
+
 #### Step X: Wire Up The Network
+
 
 #### Step X: Configure Port Forwarding
 
 
 
---------
+---------------
 
 
 

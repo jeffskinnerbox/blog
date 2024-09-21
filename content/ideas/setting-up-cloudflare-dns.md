@@ -9,14 +9,16 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 Zero Trust Architecture is the practice of designing systems based on the principle of never trust, always verify, as opposed to the traditional trust, but verify principle . It has become quite a popular buzz word of late, in light of all the recent successful cyber attacks, compromising vast amounts of user data.
+
 * [A Roadmap to Zero Trust Architecture](https://assets.ctfassets.net/slt3lc6tev37/9jyDLdW3VXPGwChDCCnrx/18edf82b3d4a36595e51c16ed5c62816/Zero-Trust-Roadmap-WP.pdf)
 * [Zero Trust Hosting and Reverse Proxy via Cloudflare, SWAG and Authelia](https://www.linuxserver.io/blog/zero-trust-hosting-and-reverse-proxy-via-cloudflare-swag-and-authelia)
 * [Say Goodbye to Reverse Proxy and Hello to Cloudflare Tunnels](https://noted.lol/say-goodbye-to-reverse-proxy-and-hello-to-cloudflare-tunnels/)
 * [You should NOT use Cloudflare Tunnel (if you do this...)](https://www.youtube.com/watch?v=oqy3krzmSMA)
+* [Restrict Access to Your Cloudflare Tunnel Applications](https://www.youtube.com/watch?v=65FdHRs0axE)
 
 
 Cloudflare is most well-known as a [Content Delivery Network (CDN)][02],
@@ -39,6 +41,7 @@ eliminating the need for me to punch holes in router firewall (typically ports 8
 
 (check this out via `nslookup` with and without the Cloudflare proxie turned on).
 A DNS lookup of an unproxied (grey-clouded) Cloudflare subdomain returns the IP address that you have entered for the record. Unproxied traffic goes directly to your origin server and does not receive any of the benefits of using Cloudflare.
+
 
 # Cloudflare Tunnels
 Cloudflare Tunnel exposes applications running on your local network without
@@ -73,6 +76,7 @@ Why do this, see "[How I survived a DDoS attack][11]".
 * [Home Assistant Remote Access with Cloudflare Argo Tunnel](https://www.mostlychris.com/home-assistant-remote-access-with-cloudflare-argo-tunnel/)
     * [Using the Cloudflared Add-On](https://www.mostlychris.com/using-the-cloudflared-add-on/?ref=mostlychris-newsletter)
 
+
 ## XXX
 Cloudflare Tunnel exposes applications running on your local web server on any network with an internet connection without manually adding DNS records or configuring a firewall or router.
 
@@ -82,8 +86,12 @@ Cloudflare Tunnel provides you with a secure way to connect your resources to Cl
 [Remote Access: Getting Started with CloudFlare Tunnels (Domains, DNS, Tunnels)](https://www.youtube.com/watch?v=Q5dG8g4-Sx0)
 
 
+## Allowing Private Subnet Traffic to Connect to the Internet
 
------
+* [Is possible run webserver behind nat with some cloudflare service?](https://community.cloudflare.com/t/is-possible-run-webserver-behind-nat-with-some-cloudflare-service/615497)
+* [Cloudflare Tunnel Setup Guide - Self-Hosting for EVERYONE](https://www.youtube.com/watch?v=hrwoKO7LMzk)
+
+---------------
 
 
 # Domain Name Services (DNS)
@@ -104,11 +112,15 @@ The DNS Resolver in pfSense® software utilizes unbound, which is a validating, 
 * [Set up DNSSEC and DNS over TCP on pfSense](https://www.youtube.com/watch?v=Z3-E90VEIbY)
 * [Boost your home network with DNS caching on the edge](https://opensource.com/article/22/3/dns-caching-edge)
 
+
 ## DNS Redirect
+
 * [2020 pfSense 2.4 DNS Redirect Tutorial: Completely control DNS on your network](https://www.youtube.com/watch?v=2g0VoMrJA5c)
 * [Netgate Docs: Redirecting Client DNS Requests](https://docs.netgate.com/pfsense/en/latest/recipes/dns-redirect.html)
 
+
 ## Setup DNS Resolver in PfSense
+
 * [pfSense and DNS | Your ISP tracks EVERY SITE you visit!](https://www.youtube.com/watch?v=-uzNMospB5I)
 * [How To Setup Your Own DNS Resolver in PfSense](https://www.youtube.com/watch?v=zgrrrwDpyZc)
 
@@ -128,7 +140,9 @@ I used the steps below to set up DDNS on pfSense and using my DNS provider, Clou
 * [How to Set Up DDNS on pfSense using Cloudflare | QUICK TUTORIAL](https://www.youtube.com/watch?v=8GYs61ThGBM)
 * [DDNS on a Raspberry Pi using the Cloudflare API (Dynamic DNS)](https://www.youtube.com/watch?v=rI-XxnyWFnM)
 
+
 #### Step X: Cloudflare Dynamic DNS (DDNS)
+
 * [DDNS on a Raspberry Pi using the Cloudflare API (Dynamic DNS)](https://www.youtube.com/watch?v=rI-XxnyWFnM)
 * [CloudFlare DDNS - Update CloudFlare with Your Dynamic IP Address](https://www.youtube.com/watch?v=Nf7m3h11y-s)
 
@@ -136,16 +150,20 @@ I used the steps below to set up DDNS on pfSense and using my DNS provider, Clou
 
 
 # Setting Up Your DNS on Cloudflare
+
 * [Cloudflare: A Complete Guide, Features & Walkthrough (2021)](https://www.youtube.com/watch?v=BlhbsHrmcDc&t=739s)
 * [How to Transfer a Domain from GoDaddy to Cloudflare (Use Cloudflare as Your Domain Registrar!)](https://www.youtube.com/watch?v=81LtL2ZvD38)
 * [How To Transfer Domain From Namecheap To CloudFlare Instantly](https://www.youtube.com/watch?v=2HhNFSsxFfM&t=300s)
 * [How to set up DNS records for your domain in Cloudflare account](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-cloudflare-account/)
 
+
 # Installing NGINX Proxy Manager While Using CloudFlare DNS
+
 * [Secure Your Domain with NGINX Proxy Manager and CloudFlare (Including Uptime Kuma Demonstration)](https://www.youtube.com/watch?v=rj7DZdWMK2k)
 
 
 # Securing Your Connections
+
 * [What is DNS over TLS? Everything you need to know](https://www.thesslstore.com/blog/what-is-dns-over-tls/)
 * [What is HTTP Strict Transport Security (HSTS)?](https://www.thesslstore.com/blog/what-is-hypertext-strict-transport-security-hsts/)
 * [DNSSEC](https://support.dnsimple.com/articles/dnssec/)
@@ -162,10 +180,13 @@ and select "Settings" at the bottom of the page.
 * [Anatomy of a Linux DNS Lookup – Part IV](https://zwischenzugs.com/2018/08/06/anatomy-of-a-linux-dns-lookup-part-iv/)
 * [Anatomy of a Linux DNS Lookup – Part V – Two Debug Nightmares](https://zwischenzugs.com/2018/09/13/anatomy-of-a-linux-dns-lookup-part-v-two-debug-nightmares/)
 
+
 ### dig
 To get DNS speed and IP adderss, use:
+
 * `dig @princess.ns.cloudflare.com google.com`
 * `dig @darwin.ns.cloudflare.com hub.tutsplus.com`
+
 
 ### nslookup
 `nslookup` examples
@@ -173,25 +194,25 @@ To get DNS speed and IP adderss, use:
 ```bash
 # find the domain name from its ip addess
 $ nslookup 162.159.38.17
-17.38.159.162.in-addr.arpa	name = princess.ns.cloudflare.com.
+17.38.159.162.in-addr.arpa name = princess.ns.cloudflare.com.
 
 # find the ip address from the domain name
 $ nslookup princess.ns.cloudflare.com
-Server:		127.0.0.53
-Address:	127.0.0.53#53
+Server:  127.0.0.53
+Address: 127.0.0.53#53
 
 Non-authoritative answer:
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 162.159.38.17
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 108.162.194.17
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 172.64.34.17
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 2a06:98c1:50::ac40:2211
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 2803:f800:50::6ca2:c211
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 2606:4700:50::a29f:2611
 ```
 
@@ -208,33 +229,33 @@ and `nslookup` will respond back with the name of the authoritative name server.
 ```bash
 # get soa record so you can get an authoritative response
 $ nslookup -type=soa jeffskinnerbox.me
-Server:		127.0.0.53
-Address:	127.0.0.53#53
+Server:  127.0.0.53
+Address: 127.0.0.53#53
 
 Non-authoritative answer:
 jeffskinnerbox.me
-	origin = darwin.ns.cloudflare.com
-	mail addr = dns.cloudflare.com
-	serial = 2264853868
-	refresh = 10000
-	retry = 2400
-	expire = 604800
-	minimum = 3600
+ origin = darwin.ns.cloudflare.com
+ mail addr = dns.cloudflare.com
+ serial = 2264853868
+ refresh = 10000
+ retry = 2400
+ expire = 604800
+ minimum = 3600
 
 Authoritative answers can be found from:
 
 # now query the authority (aka 'origin')
 $ nslookup jeffskinnerbox.me darwin.ns.cloudflare.com
-Server:		darwin.ns.cloudflare.com
-Address:	173.245.59.151#53
+Server:  darwin.ns.cloudflare.com
+Address: 173.245.59.151#53
 
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 104.21.61.243
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 172.67.217.38
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::ac43:d926
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::6815:3df3
 ```
 
@@ -245,20 +266,22 @@ To get the "real" A RECORD, you turn-off the [Cloudflare Proxied service][78].
 ```bash
 # now query the authority but with cloudflare proxied turned-off
 $ nslookup jeffskinnerbox.me darwin.ns.cloudflare.com
-Server:		darwin.ns.cloudflare.com
-Address:	172.64.33.151#53
+Server:  darwin.ns.cloudflare.com
+Address: 172.64.33.151#53
 
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 108.44.239.214
 ```
 
 Sources:
+
 * [Find IP Address of a Domain, Server or Website](https://www.site24x7.com/find-ip-address-of-web-site.html)
 * [Find DNS records for a domain name](https://www.nslookup.io/)
 * [How to use Nslookup to check DNS Records](https://activedirectorypro.com/use-nslookup-check-dns-records/#tips)
 * [How to use Nslookup to check DNS Records](https://activedirectorypro.com/use-nslookup-check-dns-records/)
 * [How to Use Nslookup Command with Examples](https://www.meridianoutpost.com/resources/articles/command-line/nslookup.php)
 * [How to Find DNS (Domain Name Server) Records on Linux Using the nslookup Command](https://www.2daygeek.com/nslookup-command-check-find-dns-records-lookup-linux/)
+
 
 ### Flush DNS Cashe
 It’s important to sometimes [flush the DNS server cache][86].
@@ -313,17 +336,17 @@ $ systemd-resolve --status | grep -1 'DNS Server'
 
 # note the address for dns data is 127.0.0.53
 $ nslookup jeffskinnerbox.me
-Server:		127.0.0.53
-Address:	127.0.0.53#53
+Server:  127.0.0.53
+Address: 127.0.0.53#53
 
 Non-authoritative answer:
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 172.67.217.38
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 104.21.61.243
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::6815:3df3
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::ac43:d926
 
 # is the dns resolver running
@@ -370,9 +393,10 @@ rm -rf ./nginx/cache/*     # assumes the cache is accessable as a volume
 
 * [How to purge the Nginx cache](https://bluegrid.io/edu/how-to-purge-the-nginx-cache/)
 * [How to purge Nginx Proxy Cache in Linux CentOS](https://www.ryadel.com/en/nginx-purge-proxy-cache-delete-invalidate-linux-centos-7/)
-You can disable the caching via the Nginx Proxy Manager UI, but it appears to be broken - https://gitub.com/jc21/nginx-proxy-manager/issues/389
+You can disable the caching via the Nginx Proxy Manager UI, but it appears to be broken - <https://gitub.com/jc21/nginx-proxy-manager/issues/389>
 
 Source:
+
 * [How to Find Out What DNS Server Am I Using?](https://techwiser.com/check-your-dns-server/)
 * [How to Flush DNS Cache](https://www.hostinger.com/tutorials/how-to-flush-dns)
 * [How to flush the DNS cache on Linux](https://www.techrepublic.com/article/how-to-flush-the-dns-cache-on-linux/)
@@ -381,7 +405,7 @@ Source:
 
 
 
--------
+---------------
 
 
 
@@ -411,6 +435,7 @@ For information, here is a [review of Namecheap][69].
 To register a domain on Namecheap,
 just follow the registration process document [here][73].
 
+
 #### Step 2: Adding Your Domain to Cloudflare - DONE
 Go to [Cloudflare and create an account][21].
 When you start your account,
@@ -429,10 +454,12 @@ Thus all attacks at that domain will DDoS Cloudflare and not you host directly.
 Non-proxied means all traffic goes directly to your own IP without Cloudflare being a safety net in front.
 
 Sources:
+
 * [How to set up DNS records for your domain in Cloudflare account](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-cloudflare-account/)
 * [Creating a Cloudflare account and adding a website](https://support.cloudflare.com/hc/en-us/articles/201720164#h_8ea0d664-3af3-4623-ae2d-052f98b10090)
 * [Adding your domain to Cloudflare](https://community.cloudflare.com/t/step-1-adding-your-domain-to-cloudflare/64309)
 * [Managing DNS records in Cloudflare](https://support.cloudflare.com/hc/en-us/articles/360019093151)
+
 
 #### Step X: Setup Dynamic DNS (DDNS)
 If you have a static external IP address,
@@ -472,7 +499,7 @@ I used the steps below to set up DDNS on pfSense and using my DNS provider, Clou
 
 
 
--------
+---------------
 
 
 
@@ -499,6 +526,7 @@ check our [DNS Checker][12].
 * [How to Setup Cloudflare DNS (2022 update)](https://www.youtube.com/watch?v=XQKkb84EjNQ)
 * [How To Set Up Cloudflare | Ultimate Tutorial](https://www.youtube.com/watch?v=f1EoQygkJ0E)
 
+
 #### Step X: eMail Routing
 Some self hosted apps, like Bitwarden, require email settings.
 
@@ -513,6 +541,7 @@ Some self hosted apps, like Bitwarden, require email settings.
 * [Getting started with Cloudflare DNS: Adding MX records to Cloudflare](https://www.youtube.com/watch?v=6qsxs03V3X8)
 * [Cloudflare Email Routing](https://developers.cloudflare.com/email-routing/)
 
+
 #### Step X: Cloudflare Restricted Access
 Cloudflare can leverage a 3rd party identity providers for restricting access to your CloudFlare Tunnels.
 We'll look at both GitHub and Google.
@@ -525,7 +554,7 @@ In a future video we make take a look at Authelia as well, but not in this video
 
 
 
------
+---------------
 
 
 
@@ -541,7 +570,7 @@ You can deploy a dynamic front-end website that is fast and deployed directly fr
 
 
 
------
+---------------
 
 
 
@@ -568,6 +597,7 @@ Sources:
 * [Remote Access: Getting Started with CloudFlare Tunnels (Domains, DNS, Tunnels)](https://www.youtube.com/watch?v=Q5dG8g4-Sx0)
 * [Using Portainer with Docker and Docker Compose](https://earthly.dev/blog/portainer-for-dcm/)
 * [How to use Cloudflare Tunnel in your Homelab (even with Traefik)](https://www.youtube.com/watch?v=yMmxw-DZ5Ec)
+
 
 #### Step 1: Create Cloudflare Tunnel - DONE
 The first step is establish a tunnel on Cloudflare.
@@ -600,6 +630,7 @@ I choose **Docker** and it provide me the Docker Shell script to load the daemon
 * Copy the tunnel token since it will be needed when establishing the daemon on your target server
 * (i.e. `firewall-router`).
 
+
 #### Step 2: Create the Public Hostname - DONE
 Next, we'll identify the subdomain (aka public hostname) and associate it with the appropriate URL.
 
@@ -621,6 +652,7 @@ In my case, that is the following:
 |:-------------:|:---------:|:-----------------:|:----:|:------------------:|
 | router-tunnel |    blob   | jeffskinnerbox.me | HTTP |  192.168.1.200:80  |
 | router-tunnel |    guac   | jeffskinnerbox.me | HTTP | 192.168.1.204:8194 |
+
 
 #### Step 3: Install the Cloudflare Daemon - DONE
 We now  that we have the tunnel and subdomains provisioned on Cloudflare,
@@ -671,6 +703,7 @@ You should get Connector ID information on the page,
 the Cloudflare Tunnel should be running on Portainer,
 and your can move on to routing your first service to it via the **Next** button.
 
+
 #### Step 4: Check the DNS Records and Test - DONE
 Cloudflare needs to add the relevant `CNAME` records for your subdomain.
 This is done automatically.
@@ -688,6 +721,7 @@ google-chrome blog.jeffskinnerbox.me
 >**NOTE:** Its important to perfrom this test outside your LAN.
 >It is possible that your LAN router will route the request
 >successfully without reaching out to DNS.
+
 
 #### Step 5: Close All Ports - DONE
 One of the major benefits of Cloudflare Tunnels is that you have a secure (aka encripted)
@@ -750,7 +784,7 @@ google-chrome 71.171.85.67:80
 I don't want router (aka pfSense) exposing its UI to the Internet!
 
 
------
+---------------
 
 
 # How Effective is Cloudflare?
@@ -761,7 +795,7 @@ proxy services.
 * [Finding Fraudsters Who Hide Behind Cloudflare](https://www.youtube.com/watch?v=UBZBL65Dv1w)
 
 
------
+---------------
 
 
 # Cloudflare Authentication
@@ -775,6 +809,7 @@ But there is something missing and that is authentication by something other tha
 We could use an [authentication][05] & [authorization][06] apps such as [Authelia][04],
 but here too, Cloudflare has something to offer.
 
+
 # Cloudflare Access vs Authelia
 Some would say
 authelia is rather pointless with cloudflare access. If you are using cloudflare tunnels, you might as well use Access which will give you the 'login' like page similar to authelia's portal page. And also no reason to use a reverse proxy too like traefik That is what tunnels is.. Either use traefik and authelia together OR use cloudflare tunnels with access.
@@ -786,10 +821,11 @@ authelia is rather pointless with cloudflare access. If you are using cloudflare
 * [Say Goodbye to Reverse Proxy and Hello to Cloudflare Tunnels](https://noted.lol/say-goodbye-to-reverse-proxy-and-hello-to-cloudflare-tunnels/)
 
 
------
+---------------
 
 
 # Additional Cloudflare Features
+
 
 #### Step X: Cloudflare's 1.1.1.1 for Families
 Cloudflare claims its mission is to make a [more private and safe Internet experiance][26].
@@ -816,10 +852,11 @@ You choose which setting you want depending on which IP address you configure.
 
 
 
--------
+---------------
 
 
 Check out the following on Cloudflare:
+
 * [Cloudflare Products](https://developers.cloudflare.com/products/)
 * [Cloudflare Zero Trust](https://one.dash.cloudflare.com/2dbf9ab9f674a117b229f8c02d0cd234/home/quick-start)
 * [Cloudflare Pages](https://developers.cloudflare.com/pages/)
@@ -858,7 +895,6 @@ Check out the following on Cloudflare:
 [22]:https://www.cloudflare.com/hpg/
 [23]:https://blog.cloudflare.com/announcing-the-results-of-the-1-1-1-1-public-dns-resolver-privacy-examination/
 [24]:https://blog.cloudflare.com/introducing-1-1-1-1-for-families/
-[25]:https://www.amazon.com/Verizon-Fios-Updated-Version-Internet/dp/B07QM33Y51
 [26]:https://blog.cloudflare.com/announcing-1111/
 [27]:
 [28]:
