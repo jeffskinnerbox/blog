@@ -9,8 +9,10 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
+
+* [The definitive guide to troubleshooting common network issues in Proxmox](https://www.xda-developers.com/troubleshoot-network-issues-in-proxmox/)
 
 * [Getting into Proxmox](https://www.youtube.com/playlist?list=PLhMI0SExGwfADAlk-rmC-IG_JcYz175NX)
 * [Low Power Cluster - Small, Efficient, BUT Powerful!](https://www.youtube.com/watch?v=8DeG3qO-HIA)
@@ -221,7 +223,7 @@ The work around was to use Incognito mode in my Chrome browser.
 
 
 
------
+---------------
 
 
 
@@ -283,7 +285,7 @@ The default install of Proxmox does not contain the required packages for Open v
 * [Proxmox Configure Open vSwitch](https://codingpackets.com/blog/proxmox-configure-open-vswitch/)
 
 
------
+---------------
 
 
 
@@ -877,7 +879,7 @@ Is this needed? Doesn't the Bridge do this?
 * [Better Monitoring For Proxmox - Easy, Free And Awesome!](https://www.youtube.com/watch?v=fYl5poBJtE4)
 
 
------
+---------------
 
 
 
@@ -902,7 +904,7 @@ To remove a VM from Poxmox, do the following:
 
 
 
------
+---------------
 
 
 
@@ -930,7 +932,7 @@ as illustrated in the example below.
 
 
 
------
+---------------
 
 
 
@@ -1118,7 +1120,7 @@ Source:
 
 
 
------
+---------------
 
 
 # Docker Container for Uptime Kuma
@@ -1126,7 +1128,7 @@ Source:
 
 
 
------
+---------------
 
 
 
@@ -1136,7 +1138,7 @@ Source:
 
 
 
------
+---------------
 
 
 
@@ -1182,7 +1184,7 @@ Proxmox Backup Server can be run in a Proxmox host, though it’s probably a goo
 
 
 
------
+---------------
 
 
 
@@ -1288,7 +1290,7 @@ If you need these features, it makes sense to switch to Open vSwitch.
 
 
 
------
+---------------
 
 
 
@@ -1616,7 +1618,7 @@ The `iptables` options mean the following:
 
 
 
------
+---------------
 
 
 # Proxmox Server Hardening
@@ -1733,7 +1735,7 @@ As to port `53`, it must remain open to support DNS services
 
 
 
------
+---------------
 
 
 
@@ -1744,7 +1746,7 @@ As to port `53`, it must remain open to support DNS services
 
 
 
------
+---------------
 
 
 
@@ -1765,7 +1767,7 @@ You use cloud-init to configure:
 
 
 
------
+---------------
 
 
 
@@ -1778,7 +1780,7 @@ and inject configuration settings via Cloud-Init.
 
 
 
------
+---------------
 
 
 
@@ -1786,7 +1788,7 @@ and inject configuration settings via Cloud-Init.
 * [Proxmox VE E-mail Notifications are Important](https://www.servethehome.com/proxmox-ve-e-mail-notifications-are-important/)
 
 
------
+---------------
 
 
 
@@ -1794,14 +1796,14 @@ and inject configuration settings via Cloud-Init.
 * [How To Revert a Proxmox Kernel Update](https://engineerworkshop.com/blog/how-to-revert-a-proxmox-kernel-update/)
 
 
------
+---------------
 
 
 # Move Proxmox Containers And VMs
 * [How To Move Proxmox Containers And VMs To Different Disk](https://ostechnix.com/move-proxmox-containers-vms-to-different-disk/)
 
 
------
+---------------
 
 
 
