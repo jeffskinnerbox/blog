@@ -60,6 +60,7 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 * [Statistics: Are you Bayesian or Frequentist?](https://towardsdatascience.com/statistics-are-you-bayesian-or-frequentist-4943f953f21b)
 * [Is the multiverse dead?](https://medium.com/the-infinite-universe/is-the-multiverse-dead-7a3e4dd76e5d)
 * [Frequentism and Bayesianism: What's the Big Deal?](https://www.youtube.com/watch?v=KhAUfqhLakw)
+* [The biggest beef in statistics explained](https://www.youtube.com/watch?v=8wVq5aGzSqY)
 * [A Comment on Frequentist and Bayesian Statistics](https://medium.com/@dataforyou/a-comment-on-frequentist-and-bayesian-statistics-6a804fd4fba6)
 * [Bayesian Statistics with Hannah Fry](https://www.youtube.com/watch?v=7GgLSnQ48os)
 * [The Bayesian Trap](https://www.youtube.com/watch?v=R13BD8qKeTg)
