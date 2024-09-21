@@ -21,6 +21,8 @@ or downloaded for free from the [Understanding Deep Learning website](https://ud
 If you intend to use it for coursework, a separate instructor answer booklet and other resources can be purchased,
 but student resources like Python notebooks are also freely available.
 
+* [10 GitHub Repositories for Deep Learning Enthusiasts](https://www.kdnuggets.com/10-github-repositories-for-deep-learning-enthusiasts)
+
 
 
 
