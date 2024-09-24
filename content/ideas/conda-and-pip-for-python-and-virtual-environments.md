@@ -141,6 +141,7 @@ It runs `env`, which will look for the default python for that environment.
 Therefore, your script will use the right path to you Python modules
 and **not** `$PYTHONPATH` set for you login.
 
+* [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 * [How to activate a Python virtual environment from a script file](https://www.a2hosting.com/kb/developer-corner/python/activating-a-python-virtual-environment-from-a-script-file)
 
 
