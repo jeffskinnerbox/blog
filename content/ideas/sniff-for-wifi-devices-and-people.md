@@ -9,12 +9,13 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
 
 * [Dope Scope - A directional WiFi Sniffing device that fits in the palm of your hand](http://warcollar.com/products/dopescope.html)
+* [CatSniffer](https://github.com/ElectronicCats/CatSniffer)
 
 * [ESP8266 Sniffer](https://www.hackster.io/kosme/esp8266-sniffer-9e4770)
 * [Inconspicuously Sniff Wi-Fi Data Packets Using an ESP8266](https://null-byte.wonderhowto.com/how-to/inconspicuously-sniff-wi-fi-data-packets-using-esp8266-0192829/)
@@ -35,13 +36,18 @@ Version:      0.0.0
 ## WiFi Deauthentication Attack
 A [WiFi deauthentication attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack)
 is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.
+
 * [Pocket-Sized Deauther Could Definitely Get You In Trouble](https://hackaday.com/2019/04/04/pocket-sized-deauther-could-definitely-get-you-in-trouble/)
 * [Great Badge Concept: A “Geiger Counter” For WiFi Deauthentication Frames](https://hackaday.com/2020/06/20/great-badge-concept-a-geiger-counter-for-wifi-deauthentication-frames/)
 
+
 # Wireshark
+
 * [Wireshark HTTPS Decryption](https://hackaday.com/2022/03/22/wireshark-https-decryption/)
 
+
 ## Connect ESP to Wireshark
+
 * [ArduinoPcap](https://github.com/spacehuhn/ArduinoPcap)
 * [Sniffing WiFi with ESP32 & ESP8266 in Wireshark](https://www.youtube.com/watch?v=3Ac6X6ZBQ0g)
 
@@ -79,19 +85,21 @@ Every time a scan is happening a log file is written in internal flash for you t
 
 
 
----------
+---------------
 
 
 
 # War Driver
+
 * [Your Secret Weapon for Wireless Networks - Wardriver](https://www.youtube.com/watch?v=JfqwOo0DCBM)
 
 
----------
+---------------
 
 
 
 ## WiFi Scanning
+
 * [Why do WiFi devices broadcast?](https://security.stackexchange.com/questions/152007/why-do-wifi-devices-broadcast)
 
 
@@ -139,6 +147,7 @@ WiFi scanners doing a passive scan would need to
 and extract additional information from specialized frame headers
 that are used by the WiFi driver to pass information to user-space applications.
 
+
 ## WiFi Modes
 A WiFi network device always operates in one
 (or for some special hardware, multiple modes as in AP+STA or WDS with AP Mode)
@@ -152,6 +161,7 @@ of the six modes that 802.11 wireless cards can operate in:
 1. Monitor - passively read packets, no packets are transmitted
 
 Strictly speaking, Infrastructure Mode is not a device mode but a concept.
+
 
 ## WiFi Monitor and Promiscuous Modes
 The Ethernet and WiFi data is broadcasted to all who wish to listen on a wire or in the air
@@ -212,6 +222,7 @@ sudo iwconfig wlan0 mode monitor
 sudo ifconfig wlan0 up
 ```
 
+
 ## Probe Requests Sniffing
 First, you use this as a “presence detection” mechanism.
 You can track the presence of people in a specific area.
@@ -226,7 +237,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 
 
 
------------
+---------------
 
 
 
@@ -245,6 +256,7 @@ The packet capture done by a network sniffer has several benefits, including:
 * Detect peaks and valleys in the bandwidth usage
 * Analyze the performance of your network
 
+
 # WiFi Sniffer as Sensor for Humans
 Based on the principle that a WiFi device is constantly pinging for known Access Points or known devices,
 this code captures those packages and prints the MAC address of the origin device.
@@ -255,5 +267,5 @@ this code captures those packages and prints the MAC address of the origin devic
 * [Remote Wifi Sniffing Station with an ESP8266](https://www.youtube.com/watch?v=_GQMZg_5FPE)
     * [ETHERNET CONTROLLER DISCOVERED IN THE ESP8266](https://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
     * [espthernet](https://github.com/cnlohr/espthernet)
-    * https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0uction to the Kismet packet sniffer](https://www.linux.com/news/introduction-kismet-packet-sniffer
+    * <https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0uction> to the Kismet packet sniffer](<https://www.linux.com/news/introduction-kismet-packet-sniffer>
 * [HakByte: Create a $15 WarDriving Rig to Log WiFi Data w/ the ESP8266](https://www.youtube.com/watch?v=ITRwyr7KOnc)
