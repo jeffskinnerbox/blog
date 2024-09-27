@@ -10,7 +10,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -38,16 +38,23 @@ UniFi Dream Machine Pro from Ubiquiti [the UniFi Dream Machine Pro....the nerdie
 
 * [Is it normal to get hundreds of break-in attempts per day?](https://serverfault.com/questions/244614/is-it-normal-to-get-hundreds-of-break-in-attempts-per-day)
 
+
 # Privacy From Big Tech
+
 * [Google Watches ALL Your Devices! How to Stop It.](https://www.youtube.com/watch?v=LLfoGAHrlQk)
 
+
 # For the Truely Paranoid
+
 * [Linux for the Paranoid Does the Work for You](https://hackaday.com/2021/12/22/linux-for-the-paranoid-does-the-work-for-you/)
 * [Kodachi is the operating system for those who value privacy but don't want to learn Linux](https://www.techrepublic.com/article/kodachi-is-the-operating-system-for-those-who-value-privacy-but-dont-want-to-learn-linux/)
 * [Tools for Online Privacy](https://www.fourmilab.ch/documents/online_privacy/)
 
+
 # Use of Virtual Machines
+
 * [Amazing Privacy Ideas with KVM Virtual Machines](https://www.youtube.com/watch?v=NIdu4haRWx0)
+
 
 # Doxing
 Doxing is search for and publish private or identifying information about (a particular individual) on the internet, typically with malicious intent.
@@ -55,19 +62,45 @@ Doxing is search for and publish private or identifying information about (a par
 * [Dox Anyone](https://null-byte.wonderhowto.com/how-to/dox-anyone-0160998/)
 * [How to Dox Yourself on the Internet](https://open.nytimes.com/how-to-dox-yourself-on-the-internet-d2892b4c5954)
 
+
 # Open-Source Intelligence (OSINT)
 Open-source intelligence is the collection and analysis of data gathered from open sources to produce actionable intelligence.
 
-* [What Is Open Source Intelligence and How Is it Used?]()https://www.recordedfuture.com/open-source-intelligence-definition
+* [What Is Open Source Intelligence and How Is it Used?](https://www.recordedfuture.com/open-source-intelligence-definition)
 * [Open-Source Intelligence (OSINT) in 5 Hours - Full Course - Learn OSINT!](https://www.youtube.com/watch?v=qwA6MmbeGNo)
 * [Christian Murray OSINT Videos](https://www.youtube.com/@christianmurray1809)
 * [mgp25 / OSINT-Tools](https://github.com/mgp25/OSINT-Tools)
 
+
 # DNS Privacy
+
 * [DNS Privacy](https://www.youtube.com/watch?v=a2RjbvMES-0)
 * [Block Malicious and Adult Web Sites with DNS Filtering](https://austinmacworks.com/block-malicious-and-adult-web-sites-with-dns-filtering/)
 
 
+
+# What is zero trust?
+At its core, zero trust operates on a simple principle:
+“Never trust, always verify.”
+Unlike traditional security models that assume trust within a network perimeter,
+zero trust requires continuous verification of every user,
+device and application attempting to access a network,
+regardless of whether inside or outside the organization’s perimeter.
+Zero trust ensures that no entity is granted blanket access to network resources;
+instead, access is granted on a need-to-know basis.
+
+Zero trust security is built upon three foundational pillars:
+
+1. Continuous authentication and authorization:
+Every attempt to access a network resource must be authenticated and authorized.
+User identity, location, device health and other contextual factors are continually evaluated.
+2. Least privilege access:
+Users and devices are given the minimum level of access necessary to perform their functions.
+This minimizes the potential damage of compromised credentials or insider threats.
+3. Micro-segmentation and network segmentation:
+Zero trust networks are designed to limit lateral movement by segmenting the network into small zones,
+each protected by its access controls.
+Even if attackers breach one segment, they cannot move freely across the network.
 
 
 
@@ -82,24 +115,26 @@ With a zero trust approach, there is no network-based perimeter, and no implicit
 
 * [Zero Trust Authentication: 7 key principles of the new security concept](https://www.innovationnewsnetwork.com/zero-trust-authentication-7-key-principles-new-security-concept/37607/)
 
+
 # IoT Endpoint Security
+
 * [Unlocking IoT Endpoint Security in 2023: What You Need to Know](https://securityboulevard.com/2023/09/unlocking-iot-endpoint-security-in-2023-what-you-need-to-know/)
 
 
 
 
 
-https://www.symantec.com/page.jsp%3Fid%3D1024-bit-migration-faq
+<https://www.symantec.com/page.jsp%3Fid%3D1024-bit-migration-faq>
 
-https://en.wikipedia.org/wiki/Public_key_certificate
+<https://en.wikipedia.org/wiki/Public_key_certificate>
 
-http://tldp.org/HOWTO/SSL-Certificates-HOWTO/x64.html
+<http://tldp.org/HOWTO/SSL-Certificates-HOWTO/x64.html>
 
-https://www.us-cert.gov/ncas/tips/ST05-010
+<https://www.us-cert.gov/ncas/tips/ST05-010>
 
-https://www.instantssl.com/ssl-certificate-products/https.html
+<https://www.instantssl.com/ssl-certificate-products/https.html>
 
-https://www.thawte.com/resources/getting-started/how-ssl-works/
+<https://www.thawte.com/resources/getting-started/how-ssl-works/>
 
 Let’s say company A has a key pair and needs to publish his public key for public usage (aka ssl on his web site).
 
@@ -110,43 +145,51 @@ Let’s say company A has a key pair and needs to publish his public key for pub
 
 So company A's public key signed with a valid CA's private key is called company A's certificate.
 
-https://superuser.com/questions/620121/what-is-the-difference-between-a-certificate-and-a-key-with-respect-to-ssl
+<https://superuser.com/questions/620121/what-is-the-difference-between-a-certificate-and-a-key-with-respect-to-ssl>
 
-https://www.digicert.com/ssl-certificate/?gclid=Cj0KEQjwp83KBRC2kev0tZzExLkBEiQAYxYXOimJJaygIYOHcKr0nTk43LQMjprn2DFxPD8KvnrJlPYaAi4S8P8HAQ
+<https://www.digicert.com/ssl-certificate/?gclid=Cj0KEQjwp83KBRC2kev0tZzExLkBEiQAYxYXOimJJaygIYOHcKr0nTk43LQMjprn2DFxPD8KvnrJlPYaAi4S8P8HAQ>
 
-https://www.namecheap.com/security/ssl-certificates.aspx?gclid=CLHNpMLb4NQCFU-2wAodzQsMag
+<https://www.namecheap.com/security/ssl-certificates.aspx?gclid=CLHNpMLb4NQCFU-2wAodzQsMag>
 
 Linux
-https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate
-https://askubuntu.com/questions/645818/how-to-install-certificates-for-command-line
-https://help.ubuntu.com/lts/serverguide/certificates-and-security.html
-https://superuser.com/questions/437330/how-do-you-add-a-certificate-authority-ca-to-ubuntu
+<https://askubuntu.com/questions/73287/how-do-i-install-a-root-certificate>
+<https://askubuntu.com/questions/645818/how-to-install-certificates-for-command-line>
+<https://help.ubuntu.com/lts/serverguide/certificates-and-security.html>
+<https://superuser.com/questions/437330/how-do-you-add-a-certificate-authority-ca-to-ubuntu>
 
 
 * [How Passwordless Authentication Works](https://dzone.com/articles/how-passwordless-authentication-works?edition=305105&utm_source=weeklydigest&utm_medium=email&utm_campaign=wd2017-06-21)
 * [OAuth 2.0 Beginner's Guide](https://dzone.com/articles/oauth-20-beginners-guide?edition=298102&utm_source=weekly%20digest&utm_medium=email&utm_campaign=wd%202017-05-17)
 
+
 # Internet Security
+
 * [An introduction to cryptography and public key infrastructure](https://opensource.com/article/18/5/cryptography-pki)
 * [How internet security works: TLS, SSL, and CA](https://opensource.com/article/19/11/internet-security-tls-ssl-certificate-authority)
 * [Getting started with OpenSSL: Cryptography basics](https://opensource.com/article/19/6/cryptography-basics-openssl-part-1)
 * [How to use OpenSSL: Hashes, digital signatures, and more](https://opensource.com/article/19/6/cryptography-basics-openssl-part-2)
 
+
 # Understanding IoT Security
-How to Implement Secure Connectivity - https://medium.com/iotforall/securing-your-connectivity-5304c192bea3
+How to Implement Secure Connectivity - <https://medium.com/iotforall/securing-your-connectivity-5304c192bea3>
+
 * [Understanding IoT Security – Part 1 of 3: IoT Security Architecture on the Device and Communication Layers](https://iot-analytics.com/understanding-iot-security-part-1-iot-security-architecture/)
 * [Understanding IoT Security – Part 2 of 3: IoT Cyber Security for Cloud and Lifecycle Management](https://iot-analytics.com/understanding-iot-cyber-security-part-2/)
 * [Understanding IoT Security (Part 1 of 3): IoT Security Architecture on the Device and Communication Layers](https://dzone.com/articles/iot-security-part-1-of-3-architecture-on-the-device-and-communication-layers?edition=298148&utm_source=Spotlight&utm_medium=email&utm_campaign=iot%202017-05-23)
 
+
 # FIDO2
+
 * [FIDO2: The Dream Of Password-Free Authentication On The WWW](https://hackaday.com/2019/09/23/fido2-the-dream-of-password-free-authentication-on-the-www/)
 * [How FIDO2 Works And Would It Stop MFA Fatigue Attacks?](https://www.youtube.com/watch?v=F_E2LZK-bFk)
     * [MFA Fatigue: Hackers’ new favorite tactic in high-profile breaches](https://www.bleepingcomputer.com/news/security/mfa-fatigue-hackers-new-favorite-tactic-in-high-profile-breaches/)
 
+
 # Types of Digital Certificates
-https://www.ibm.com/support/knowledgecenter/en/ssw_i5_54/rzahu/rzahutypesofcerts.htm
-http://www.digi-sign.com/digital%20certificate/digital%20certificate%20types
-https://www.slideshare.net/sheetal28sv/digital-certificates-23737438
+<https://www.ibm.com/support/knowledgecenter/en/ssw_i5_54/rzahu/rzahutypesofcerts.htm>
+<http://www.digi-sign.com/digital%20certificate/digital%20certificate%20types>
+<https://www.slideshare.net/sheetal28sv/digital-certificates-23737438>
+
 
 # wolfSSL
 The [wolfSSL](https://www.wolfssl.com/wolfSSL/Home.html)
@@ -154,6 +197,7 @@ is an open source embedded SSL library (formerly CyaSSL) which is lightweight, p
 
 * [What You Need to Know About the TLS 1.3 Protocol and wolfSSL’s SSL/TLS Libraries](https://www.allaboutcircuits.com/news/what-you-need-to-know-about-the-tls-1.3-protocol-and-wolfssls-ssl-tls-libra)
 * [lwIP - A Lightweight TCP/IP stack](https://savannah.nongnu.org/projects/lwip/)
+
 
 # Simple Certificate Enrolment Protocol (SCEP)
 Simple Certificate Enrollment Protocol is a protocol designed to make
@@ -171,9 +215,11 @@ Its main characteristics are:
 * Requires the use of a challenge password field within the Certificate Signing Request (CSR),
 which must be shared only between the server and the requester
 
+
 # SSCEP
 SSCEP is a command line client for the SCEP protocol
-https://github.com/certnanny/sscep
+<https://github.com/certnanny/sscep>
+
 
 # openssl
 OpenSSL has got many commands. You can list them with `openssl list-standard-commands`.
@@ -192,17 +238,19 @@ Here is a brief description of some of the most important command:
 * `verify` - Checkings for X509.
 * `x509` - Data managing for X509
 
-https://dzone.com/articles/secure-communication-with-tls-and-the-mosquitto-broker
-https://geekflare.com/openssl-commands-certificates/
-https://www.madboa.com/geek/openssl/
-https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs
-https://www.sslshopper.com/article-most-common-openssl-commands.html
-https://spin.atomicobject.com/2014/05/12/openssl-commands/
-https://users.dcc.uchile.cl/~pcamacho/tutorial/crypto/openssl/openssl_intro.html
+<https://dzone.com/articles/secure-communication-with-tls-and-the-mosquitto-broker>
+<https://geekflare.com/openssl-commands-certificates/>
+<https://www.madboa.com/geek/openssl/>
+<https://www.digitalocean.com/community/tutorials/openssl-essentials-working-with-ssl-certificates-private-keys-and-csrs>
+<https://www.sslshopper.com/article-most-common-openssl-commands.html>
+<https://spin.atomicobject.com/2014/05/12/openssl-commands/>
+<https://users.dcc.uchile.cl/~pcamacho/tutorial/crypto/openssl/openssl_intro.html>
+
 
 # How to View Digital Certificates
-* On MS Windows - https://www.comodo.com/resources/small-business/digital-certificates7.php
-* How Do You View SSL Certificate Details in Google Chrome? - https://www.howtogeek.com/292076/how-do-you-view-ssl-certificate-details-in-google-chrome/
+
+* On MS Windows - <https://www.comodo.com/resources/small-business/digital-certificates7.php>
+* How Do You View SSL Certificate Details in Google Chrome? - <https://www.howtogeek.com/292076/how-do-you-view-ssl-certificate-details-in-google-chrome/>
 
 On Linux, certificates are stored `/etc/ssl/certs`.
 
@@ -342,17 +390,18 @@ is a key created by ssl-cert package post-install scripts.
 It's created for the snakeoil user and should not be deleted.
 It is used by the `ssl-cert` package
 which enables unattended installs of packages that need to create SSL certificates.
-https://askubuntu.com/questions/396120/what-is-the-purpose-of-the-ssl-cert-snakeoil-key
+<https://askubuntu.com/questions/396120/what-is-the-purpose-of-the-ssl-cert-snakeoil-key>
+
 
 # Microchip's ATECC508A
  many other MCUs) stores those private TLS credentials unprotected on its flash memory. Anybody who has physical access to the device can steal private keys and get access to the cloud.
 
-* CryptoAuth Xplained Pro - http://www.atmel.com/tools/cryptoauthxplainedpro.aspx
+* CryptoAuth Xplained Pro - <http://www.atmel.com/tools/cryptoauthxplainedpro.aspx>
 * [The two-dollar secure IoT solution: Mongoose OS + ESP8266 + ATECC508 + AWS IoT](https://mongoose-os.com/blog/mongoose-esp8266-atecc508-aws/)
-* http://www.cnx-software.com/2017/03/07/secure-iot-connectivity-with-nodemcu-esp8266-board-atecc508a-crypto-chip-mongoose-os-and-aws-iot/
+* <http://www.cnx-software.com/2017/03/07/secure-iot-connectivity-with-nodemcu-esp8266-board-atecc508a-crypto-chip-mongoose-os-and-aws-iot/>
 * [Security Module For Raspberry Pi](https://www.zymbit.com/zymkey/#Cryptosilicon)
-* https://www.youtube.com/watch?v=g1jB11wOQDg
-* http://embeddedblog.blogspot.com/2016/02/atmel-moves-iot-security-into-hardware.html
+* <https://www.youtube.com/watch?v=g1jB11wOQDg>
+* <http://embeddedblog.blogspot.com/2016/02/atmel-moves-iot-security-into-hardware.html>
 
 
 # Introduction to OAuth 2.0
@@ -370,11 +419,12 @@ it grants access to another person or application to perform actions on your beh
 * [OAuth 2.0 Beginner's Guide](https://dzone.com/articles/oauth-20-beginners-guide?edition=298102&utm_source=weekly%20digest&utm_medium=email&utm_campaign=wd%202017-05-17)
 * [Steps to Building Authentication and Authorization for RESTful APIs](https://dzone.com/articles/steps-to-building-authentication-and-authorization?edition=245486&utm_source=WeeklyDigest&utm_source=WeeklyDigest&utm_medium=email&utm_medium=email&utm_campaign=wd2017-02-08&utm_campaign=wd2017-02-08)
 
-Deep Dive into OAuth and OpenID Connect: http://nordicapis.com/api-security-oauth-openid-connect-depth/
-How To Control User Identity Within Microservices: http://nordicapis.com/how-to-control-user-identity-within-microservices/
-Equipping Your API With The Right Armor: http://nordicapis.com/api-security-equipping-your-api-with-the-right-armor/
-The Four Defenses of the API Stronghold: http://nordicapis.com/api-security-the-4-defenses-of-the-api-stronghold/
-Techniques and Technologies to Increase API Security: http://nordicapis.com/building-a-secure-api/
+Deep Dive into OAuth and OpenID Connect: <http://nordicapis.com/api-security-oauth-openid-connect-depth/>
+How To Control User Identity Within Microservices: <http://nordicapis.com/how-to-control-user-identity-within-microservices/>
+Equipping Your API With The Right Armor: <http://nordicapis.com/api-security-equipping-your-api-with-the-right-armor/>
+The Four Defenses of the API Stronghold: <http://nordicapis.com/api-security-the-4-defenses-of-the-api-stronghold/>
+Techniques and Technologies to Increase API Security: <http://nordicapis.com/building-a-secure-api/>
+
 
 # Glossory of Terms
 **Public Key Infrastructure (PKI)**
@@ -391,12 +441,13 @@ A typical PKI includes the following key elements:
 is an authority in a network that verifies user requests for a digital certificate and tells the certificate authority (CA) to issue it. RAs are part of a public key infrastructure (PKI), a networked system that enables companies and users to exchange information and money safely and securely. The digital certificate contains a public key that is used to encrypt and decrypt messages and digital signatures.
 
 for more
-http://searchsecurity.techtarget.com/definition/certificate-authority
+<http://searchsecurity.techtarget.com/definition/certificate-authority>
 
 
-What is an X.509 Certificate? - https://stormpath.com/blog/what-x509-certificate
-Simple Certificate Enrollment Protocol (SCEP) and Untrusted Devices - https://www.youtube.com/watch?v=SfMeKnch3YA
-SSL Certificate Explained - https://www.youtube.com/watch?v=SJJmoDZ3il8
+What is an X.509 Certificate? - <https://stormpath.com/blog/what-x509-certificate>
+Simple Certificate Enrollment Protocol (SCEP) and Untrusted Devices - <https://www.youtube.com/watch?v=SfMeKnch3YA>
+SSL Certificate Explained - <https://www.youtube.com/watch?v=SJJmoDZ3il8>
+
 
 # Definitions
 [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html)
@@ -548,12 +599,13 @@ where an unauthorized user (the "attacker") can try to enter data to
 or extract data from an environment.
 Keeping the attack surface as small as possible is a basic security measure.
 
+
 # Microchip's ATECC508A
  many other MCUs) stores those private TLS credentials unprotected on its flash memory. Anybody who has physical access to the device can steal private keys and get access to the cloud.
 
-* CryptoAuth Xplained Pro - http://www.atmel.com/tools/cryptoauthxplainedpro.aspx
+* CryptoAuth Xplained Pro - <http://www.atmel.com/tools/cryptoauthxplainedpro.aspx>
 * [The two-dollar secure IoT solution: Mongoose OS + ESP8266 + ATECC508 + AWS IoT](https://mongoose-os.com/blog/mongoose-esp8266-atecc508-aws/)
-* http://www.cnx-software.com/2017/03/07/secure-iot-connectivity-with-nodemcu-esp8266-board-atecc508a-crypto-chip-mongoose-os-and-aws-iot/
+* <http://www.cnx-software.com/2017/03/07/secure-iot-connectivity-with-nodemcu-esp8266-board-atecc508a-crypto-chip-mongoose-os-and-aws-iot/>
 * [Security Module For Raspberry Pi](https://www.zymbit.com/zymkey/#Cryptosilicon)
-* https://www.youtube.com/watch?v=g1jB11wOQDg
-* http://embeddedblog.blogspot.com/2016/02/atmel-moves-iot-security-into-hardware.html
+* <https://www.youtube.com/watch?v=g1jB11wOQDg>
+* <http://embeddedblog.blogspot.com/2016/02/atmel-moves-iot-security-into-hardware.html>
