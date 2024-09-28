@@ -50,20 +50,21 @@
 
 ---
 
-default: true                                                                   # default state for all rules
-MD001: false                                                                    # MD001/heading-increment : Heading levels should only increment by one level at a time : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md001.md
-MD007:                                                                          # MD007 - Unordered list indentation : List items should be indented by the configured number of spaces (default: 2) : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md007.md
-  indent: 4                                                                     # number of spaces for indent
-  start_indented: false                                                         # whether to indent the first level of the list
-  start_indent: 4                                                               # spaces for first level indent (when start_indented is set)
-MD012: false                                                                    # MD012/no-multiple-blanks : Multiple consecutive blank lines : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md012.md
-MD013:                                                                          # MD013/line-length : Line length needs to be limited : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md013.md
-  line_length: 300                                                              # number of characters allowed on a line
-MD022:                                                                          # MD022/blanks-around-headings : Headings should be surrounded by blank lines : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md022.md
-  lines_above: 2                                                                # number of blank lines allowed above heading
-  lines_below: 0                                                                # number of blank lines allowed below heading
-MD033: false                                                                    # MD033/no-inline-html : Inline HTML : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md033.md
-MD035:                                                                          # MD035/hr-style : Horizontal rule style : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md035.md
-  style: ---------------                                                        # horizontal rule style (i.e. 15 consecutive '-' characters)
-MD041: false                                                                    # MD041/first-line-heading/first-line-h1 : First line in a file should be a top-level heading : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md041.md
-MD045: false                                                                    # MD045/no-alt-text : Images should have alternate text (alt text) : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md045.md
+"default": true                                     # default state for all rules
+"MD001": false                                      # MD001/heading-increment : Heading levels should only increment by one level at a time : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md001.md
+"MD007":                                            # MD007 - Unordered list indentation : List items should be indented by the configured number of spaces (default: 2) : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md007.md
+  "indent": 4                                       # number of spaces for indent
+  "start_indented": false                           # whether to indent the first level of the list
+  "start_indent": 4                                 # spaces for first level indent (when start_indented is set)
+"MD012": false                                      # MD012/no-multiple-blanks : Multiple consecutive blank lines : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md012.md
+"MD013":                                            # MD013/line-length : Line length needs to be limited : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md013.md
+  "line_length": 300                                # number of characters allowed on a line
+"MD022":                                            # MD022/blanks-around-headings : Headings should be surrounded by blank lines : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md022.md
+  "lines_above": 2                                  # number of blank lines allowed above heading
+  "lines_below": 0                                  # number of blank lines allowed below heading
+"MD033": false                                      # MD033/no-inline-html : Inline HTML : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md033.md
+"MD035":                                            # MD035/hr-style : Horizontal rule style : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md035.md
+  "style": "---------------"                        # horizontal rule style (i.e. 15 consecutive '-' characters)
+"MD041": false                                      # MD041/first-line-heading/first-line-h1 : First line in a file should be a top-level heading : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md041.md
+"MD045": false                                      # MD045/no-alt-text : Images should have alternate text (alt text) : https://github.com/DavidAnson/markdownlint/blob/v0.34.0/doc/md045.md
+
