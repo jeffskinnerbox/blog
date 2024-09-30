@@ -2277,6 +2277,7 @@ making it a Uninterruptable Power Supply (UPS).
 
 * [ZoonMinder](https://zoneminder.com/)
 * [My ZoneMinder Surveillance Setup](https://hometechhacker.com/my-zoneminder-surveillance-setup/)
+* [I created a surveillance system on my Proxmox home lab - here's how I did it](https://www.xda-developers.com/proxmox-surveillance-system/)
 
 
 # Nabu Casa
