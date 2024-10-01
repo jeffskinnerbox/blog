@@ -108,6 +108,11 @@ A good remedy for this can be containerization of your Python development enviro
 * [Let’s create a Python Debugger together: PyData Talk](https://mostlynerdless.de/blog/2023/11/17/lets-create-a-python-debugger-together-pydata-talk/)
 
 
+# Mutable & Immutable Types
+
+* [Differences Between Python's Mutable and Immutable Types](https://realpython.com/courses/differences-mutable-immutable-types/)
+
+
 # Manhole
 Manhole is in-process service that will accept unix domain socket connections and present the stacktraces for all threads and an interactive prompt. It can either work as a python daemon thread waiting for connections at all times or a signal handler (stopping your application and waiting for a connection).
 
