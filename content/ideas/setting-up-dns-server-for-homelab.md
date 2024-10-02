@@ -9,7 +9,41 @@ Version:      0.0.0
 </div>
 
 
-------
+---------------
+
+
+Normally, your computer or router uses your ISP’s DNS resolver to query DNS names,
+so [why run your own DNS resolver][01]?
+
+* It can speed up DNS lookups
+* If you run a mail server
+* If you run your own VPN server on a VPS (Virtual Private Server)
+* If you don’t like your Internet browsing history being stored on a third-party server
+
+
+# Consider this
+
+
+## Bind9
+
+* [You want a real Name Server at home? // DNS](https://www.youtube.com/watch?v=syzwLwE3Xq4)
+* [BIND 9](https://www.isc.org/bind/)
+* [Bind 9 Documentation](https://bind9.readthedocs.io/en/latest/index.html)
+* [DockerHub: ubuntu/bind9](https://hub.docker.com/r/ubuntu/bind9)
+
+* [How To Install And Configure DNS Server In Linux](https://www.youtube.com/watch?v=VjZD3kkBzRE&t=1195s)
+* [How to Install and Configure a Private BIND DNS Server on Ubuntu 22.04?](https://www.cherryservers.com/blog/how-to-install-and-configure-a-private-bind-dns-server-on-ubuntu-22-04)
+* [How To Configure BIND as a Private Network DNS Server on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-configure-bind-as-a-private-network-dns-server-on-ubuntu-20-04)
+* [How to Set DNS Nameserver on Ubuntu](https://phoenixnap.com/kb/ubuntu-dns-nameservers)
+* [Set Up Local DNS Resolver on Ubuntu 24.04 with BIND9](https://www.linuxbabe.com/ubuntu/set-up-local-dns-resolver-ubuntu-18-04-16-04-bind9)
+
+
+## pfSense
+
+* [Expert Tips for DNS Optimization in pfSense](https://www.youtube.com/watch?v=syzwLwE3Xq4)
+
+
+
 
 
 # Candidate Tools
@@ -33,4 +67,10 @@ Squid & SquidGuard
 
 
 # Securing DNS
+
 * [Raspberry Pi DNS-Over-HTTPS (DoH) for Pi-Hole](https://pimylifeup.com/rapberry-pi-dns-over-https/)
+
+
+
+[01]:https://www.linuxbabe.com/ubuntu/set-up-local-dns-resolver-ubuntu-18-04-16-04-bind9
+

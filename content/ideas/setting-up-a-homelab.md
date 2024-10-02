@@ -238,7 +238,7 @@ SmartThings Gateway  DHCP
 
         Cluster of Raspberry Pi 4
 
-```
+```text
 ============= Target Architecture =============
 
   Internet
