@@ -389,6 +389,7 @@ Being numberless: The only words in their anumeric language that are somewhat qu
 
 
 # Space-Time Looks Doomed
+* [Space-Time: The Biggest Problem in Physics](https://www.youtube.com/watch?v=RIqVnFtOSr4)
 * [Why Space-Time Looks Doomed](https://www.linkedin.com/pulse/why-space-time-looks-doomed-quanta-magazine-osnoe/)
     * [The Unraveling of Space-Time](https://www.quantamagazine.org/the-unraveling-of-space-time-20240925/)
     * [What If Gravity is NOT A Fundamental Force? | Entropic Gravity](https://www.youtube.com/watch?v=qYSKEbd956M)
