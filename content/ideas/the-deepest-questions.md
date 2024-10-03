@@ -388,6 +388,13 @@ Being numberless: The only words in their anumeric language that are somewhat qu
 ---------------
 
 
+# Space-Time Looks Doomed
+* [Why Space-Time Looks Doomed](https://www.linkedin.com/pulse/why-space-time-looks-doomed-quanta-magazine-osnoe/)
+    * [The Unraveling of Space-Time](https://www.quantamagazine.org/the-unraveling-of-space-time-20240925/)
+    * [What If Gravity is NOT A Fundamental Force? | Entropic Gravity](https://www.youtube.com/watch?v=qYSKEbd956M)
+    * [John Wheeler Saw the Tear in Reality](https://www.quantamagazine.org/john-wheeler-saw-the-tear-in-reality-20240925/)
+
+
 # The Langland Program: A Grand Unified Theory of Mathematics
 
 An attempt to connect different "continents" of mathematics
