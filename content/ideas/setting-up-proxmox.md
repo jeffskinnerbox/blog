@@ -25,6 +25,8 @@ Version:      0.0.0
 * [Proxmox virtual machine *automation* in Terraform](https://www.youtube.com/watch?v=dvyeoDBUtsU)
 * [Eleven of the Best Open Source Hypervisor Technologies](https://informationsecuritybuzz.com/eleven-of-the-best-open-source-hypervisor-technologies/)
 
+* [I built a Proxmox home lab using my Raspberry Pi - here's how I did it](https://www.xda-developers.com/install-proxmox-on-raspberry-pi/)
+
 
 
 
