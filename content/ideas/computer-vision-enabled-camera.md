@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -19,7 +19,13 @@ Version:      0.0.0
 
 
 
+# Raspberry Pi AI Camera
+
+* [Raspberry Pi AI Camera with Sony IMX500](https://blog.adafruit.com/2024/10/02/new-product-raspberry-pi-ai-camera-with-sony-imx500/)
+
+
 # OpenCV Enabled
+
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
 * [OpenCV remote (web-based) stream processing](https://github.com/ECI-Robotics/opencv_remote_streaming_processing)
 * [Raspberry Pi Camera openCV rendering with low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.com/2016/06/raspberry-pi-camera-opencv-rendering.html)
@@ -31,13 +37,17 @@ Version:      0.0.0
 * [Live video streaming over network with OpenCV and ImageZMQ](https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/)
 * [Running a Raspberry Pi Webserver with Flask](https://raspberrypi-aa.github.io/session4/flask.html)
 
+
 ## OpenCV AI Kit (OAK)
+
 * [Introduction to OpenCV AI Kit (OAK)](https://pyimagesearch.com/2022/11/28/introduction-to-opencv-ai-kit-oak/)
 * [Arducam OAK Solutions](https://www.arducam.com/oak-opencv-ai-kit-camera/)
 * [Arducam Mega: SPI Camera for Any Microcontroller](https://www.kickstarter.com/projects/arducam/arducam-mega-spi-camera-for-any-microcontroller?ref=4vgsg1)
 * [Introduction to OAK-D and DepthAI](https://learnopencv.com/introduction-to-opencv-ai-kit-and-depthai/)
 
+
 # AI Enabled
+
 * [Compact Maple Syrup Raspberry Pi IoT smart camera](https://www.geeky-gadgets.com/maple-syrup-raspberry-pi-iot-smart-camera-16-08-2021/)
 * [Maple Syrup Pi Camera](https://www.hackster.io/ricardodeazambuja/maple-syrup-pi-camera-7962d9)
 * [Nicla Vision](https://www.sparkfun.com/products/19728)
