@@ -11,8 +11,10 @@ Version:      0.0.0
 
 ---------------
 
+
 # Fresh Install Of ProxMox
 * [5 Things I Would Do On Fresh Install Of ProxMox](https://www.youtube.com/watch?v=xD9Xyt2mdSI)
+* [7 things you should do to secure your Proxmox home lab](https://www.xda-developers.com/secure-proxmox-home-lab/)
 * [Never Lose Data AGAIN! Level Up with the Power of Proxmox Backups](https://www.youtube.com/watch?v=wyTuuMVA0Gs)
 * [Don’t run Proxmox without these settings!](https://www.youtube.com/watch?v=VAJWUZ3sTSI)
 * [The definitive guide to troubleshooting common network issues in Proxmox](https://www.xda-developers.com/troubleshoot-network-issues-in-proxmox/)
