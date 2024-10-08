@@ -30,6 +30,8 @@ Version:      0.0.0
 * [Will A.I. Steal All The Code And Take All The Jobs?](https://hackaday.com/2023/03/08/will-a-i-steal-all-the-code-and-take-all-the-jobs/)
 * [ChatGPT Rules the World… or, at Least, the Home](https://hackaday.com/2023/05/22/chatgpt-rules-the-world-or-at-least-the-home/)
 
+* [7 LLM Projects to Boost Your Machine Learning Portfolio](https://machinelearningmastery.com/7-llm-projects-to-boost-your-machine-learning-portfolio/)
+
 
 # MobileNet
 
