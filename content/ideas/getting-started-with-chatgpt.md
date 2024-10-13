@@ -12,8 +12,14 @@ Version:      0.0.0
 * Apple: [Apple Intelligence](https://www.apple.com/apple-intelligence/)
 * Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
 * Google: [Gemini](https://gemini.google.com/app)
-* OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
 * Anthropic: [Claude](https://claude.ai/login)
+* OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
+* AI like ChatGPT:
+    * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
+    * [Run New Llama 3.1 on Your Computer Privately in 10 minutes](https://www.youtube.com/watch?v=1xdneyn6zjw)
+
+
+
 
 * [Peering Into The Black Box of Large Language Models](https://hackaday.com/2024/07/03/peering-into-the-black-box-of-large-language-models/)
 * [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
