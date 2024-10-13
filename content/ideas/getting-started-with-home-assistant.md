@@ -40,6 +40,7 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 * [Find Missing Entities in Home Assistant](https://www.mostlychris.com/find-missing-entities-in-home-assistant/?ref=mostlychris-newsletter)
 
 
+* move from Node-RED to Home Assistant - [Node-RED vs Home Assistant Automations](https://www.mostlychris.com/node-red-vs-home-assistant-automations/)
 * [moving ALL of my Automations from Home Assistant to Node Red Ep1 - Presence Detection](https://www.youtube.com/watch?v=xvQr6n31A4s)
 
 
