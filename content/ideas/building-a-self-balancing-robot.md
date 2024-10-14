@@ -268,6 +268,7 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 * [Building a Digital Magnetic Levitation Platform!](https://www.youtube.com/watch?v=IhG_qHAvJd0&t=411s)
 * [Development Of Magnetic Locking Idea Shows Great Progress](https://hackaday.com/2021/11/09/development-of-magnetic-locking-idea-shows-great-progress/)
 * [Simple Magnetic Levitator](https://hackaday.com/2024/02/10/simple-magnetic-levitator/)
+* [Levitating Magnet In A Spherical Copper Cage](https://hackaday.com/2024/10/13/levitating-magnet-in-a-spherical-copper-cage/)
 
 
 ## Sonic Levitation
