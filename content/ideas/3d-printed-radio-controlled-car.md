@@ -292,7 +292,7 @@ and short term plan to entertain my grandson.
 So I believe my interest fall closer to basher than racer.
 
 
-----
+---------------
 
 
 # Components of the RC Car
@@ -498,6 +498,7 @@ The Hobbypower 60A SL V2 ESC is programmable with [HobbyWing LED Program Card][1
 * [Adam Drake explains how to clean and glue Pro-Line tires](https://www.youtube.com/watch?v=AseHzskElek)
 * [HOW TO BREAK IN TIRES || Tire prep methods explained](https://www.youtube.com/watch?v=BqxmfrW2KDM)
 
+* [3D Printed Tires, by the Numbers](https://hackaday.com/2024/10/24/3d-printed-tires-by-the-numbers/)
 * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
 
 
@@ -552,7 +553,7 @@ The heat created is from friction between clutch pads and a clutch hub.
 
 
 
-----
+---------------
 
 
 # RC Car Assembly and Configuration
@@ -758,14 +759,6 @@ I didn't bother with any of this.
 ## Step X
 
 
-## Step X
-
-
-## Step X
-
-
-
-
 
 
 # Telemetry
@@ -813,7 +806,7 @@ I didn't bother with any of this.
 * [What is the Open Source Framework for LiDAR?](https://www.dfrobot.com/blog-1647.html)
 * [FAQ about LiDAR](https://www.dfrobot.com/forum/topic/320253)
 
-----
+---------------
 
 
 # Similar Projects
