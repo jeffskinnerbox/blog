@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -22,14 +22,16 @@ Version:      0.0.0
 
 * [NanoVNA SAA2 Version 2 Vector Network Analyzer - Ham Radio Antenna Analyzer](https://www.youtube.com/watch?v=4pAuEQl4uoM)
 * [NanoVNA comparison measuring a duplexer - NanoVNA-H4 and SAA-2N](https://www.youtube.com/watch?v=GipCVEsiqXc)
-* loads of VNA videos from W2AEW - https://www.youtube.com/user/w2aew/search?query=vna
+* loads of VNA videos from W2AEW - <https://www.youtube.com/user/w2aew/search?query=vna>
 
 * [So. You Bought a VNA. Now What?](https://hackaday.com/2020/04/23/so-you-bought-a-vna-now-what/)
 * [Getting Started with the NanoVNA -part 1](https://hexandflex.com/2019/08/31/getting-started-with-the-nanovna-part-1/)
 * [Getting Started with the NanoVNA -part 2](https://hexandflex.com/2019/09/08/getting-started-with-the-nanovna-part-2/)
 * [Getting Started with the NanoVNA -Part 3 – PC Software](https://hexandflex.com/2019/09/15/getting-started-with-the-nanovna-part-3-pc-software/)
 
+
 # Getting Started
+
 * [Getting Started with the NanoVNA -part 1](https://hexandflex.com/2019/08/31/getting-started-with-the-nanovna-part-1/)
 * [Getting Started with the NanoVNA -part 2](https://hexandflex.com/2019/09/08/getting-started-with-the-nanovna-part-2/)
 * [Getting Started with the NanoVNA -Part 3 – PC Software](https://hexandflex.com/2019/09/15/getting-started-with-the-nanovna-part-3-pc-software/)
@@ -61,7 +63,7 @@ and comes in a metal case.
 
 
 
-------
+---------------
 
 
 
@@ -77,6 +79,7 @@ a Vector Network Analyser (VNA) is the test equipment you need to make the ampli
 measurments you require.
 A VNA is designed to inject a known frequency and amplitude source signal into a RF port
 and measure the relative amplitude and phase of this signal when received at one or more other (or same) port.
+
 
 ## RF Network Analysis
 Within RF network analysis, you provide a stimulus for the network and then monitors the response.
@@ -94,13 +97,16 @@ T-parameters or ABCD-parameters
 
 * Scattering parameters or S-parameters
 
+
 ## Transmission Lines
 
 Network Theory
+
 * [Electrical Engineering Circuit Analysis](https://www.youtube.com/playlist?list=PLX2gX-ftPVXWv1eWntPcZtztrmwYBiBQY)
 * [Network Theory](https://www.youtube.com/watch?v=NEhH6C7Fzw4&list=PLBlnK6fEyqRgLR-hMp7wem-bdVN1iEhsh&index=1)
 
 Electromagnetism
+
 * [Electrostatics](https://www.youtube.com/playlist?list=PLULkq8AIoZ7yrBBCcz7g7NNZeUf6Fwtz8)
 * [Magnetostatics](https://www.youtube.com/playlist?list=PLULkq8AIoZ7zDqmU3ccLU_T_u3xg65t25)
 Electromagnetic Waves
@@ -120,18 +126,26 @@ Antennas
 * [AT&T Archives: Similiarities of Wave Behavior](https://www.youtube.com/watch?v=DovunOxlY1k)
 * [Tektronix - Transmission Lines](https://www.youtube.com/watch?v=I9m2w4DgeVk)
 
+
 # Resistance, Reactance, Impedance
+
 * [#919 Resistance Reactance Impedance](https://www.youtube.com/watch?v=a4pfbDJIoQA)
+
 
 ## Complex Impedance
 impedance = resistance + reactance
 
 * [Say it with me: Input Impedance](https://hackaday.com/2015/07/29/say-it-with-me-input-impedance/)
 
+
 # S Parameters
+
 * [Understanding S Parameters](https://www.youtube.com/watch?v=-Pi0UbErHTY)
 * [Radio frequency networks are characterized using S (scattering) parameters](https://www.youtube.com/watch?v=-Pi0UbErHTY)
+
+
 # Voltage Standing Wave Ratio (VSWR)
+
 * [Transmission Line Terminations for Digital and RF signals - Intro/Tutorial](https://www.youtube.com/watch?v=g_jxh0Qe_FY)
 * [What is VSWR: Voltage Standing Wave Ratio](https://www.youtube.com/watch?v=BSa051lWB_c)
 * [Visualizing RF Standing Waves on Transmission Lines](https://www.youtube.com/watch?v=M1PgCOTDjvI)
@@ -139,13 +153,15 @@ impedance = resistance + reactance
 * [How not to damage your NanoVNA when measuring SWR](https://www.youtube.com/watch?v=totwu4IbavE)
 * [Visualizing RF Standing Waves](https://hackaday.com/2015/08/06/visualizing-rf-standing-waves/)
 
+
 # Directional Coupler
+
 * [Directional Coupler Basics & how to sweep SWR of an antenna | Return Loss | VSWR](https://www.youtube.com/watch?v=iBK9ZIx9YaY)
 * [How a Directional Coupler in an SWR meter works](https://www.youtube.com/watch?v=byF1FLdbUiA)
 
 
 
-------
+---------------
 
 
 
@@ -163,6 +179,7 @@ It will display amplitude and often phase information (frequency or power sweeps
 The key element of the vector network analyzer, VNA, is that it can measure both amplitude and phase
 measurement that includes phase as well as amplitude enables far more to be discovered about the device under test as phase is a critical element in network analysis. This is because a complete characterization of devices and networks involves measurement of phase as well as magnitude.
 Only with a knowledge of phase and magnitude from a VNA can circuit models be developed that will enable complete simulation to be undertaken. This will enable matching circuits to be designed based on conjugate matching techniques.
+
 
 ## Vector Network Analyzer (VNA): Concept of Operation
 When power enters a port of an RF network,
@@ -199,12 +216,14 @@ Sources:
 * [Vector Network Analyzer, VNA Specifications](https://www.electronics-notes.com/articles/test-methods/rf-vector-network-analyzer-vna/vna-specifications.php)
 * [How to calibrate a Vector Network Analyzer, VNA](https://www.electronics-notes.com/articles/test-methods/rf-vector-network-analyzer-vna/how-to-calibrate-vna.php)
 
+
 # Types of Measurements
-from - https://www.youtube.com/watch?v=o1eLK4EMpEQ&t=301s
+from - <https://www.youtube.com/watch?v=o1eLK4EMpEQ&t=301s>
 Measure antennas, duplexers, diplexers, filters, inductors, capacitors, amplifiers, splitters, baluns, chockes, phase networks, attenuators, etc.
 
 * [Test & Measurement Fundamentals](https://www.youtube.com/watch?v=-Pi0UbErHTY&list=PLKxVoO5jUTlvsVtDcqrVn0ybqBVlLj2z8)
 * [NANOVNA](https://www.youtube.com/playlist?list=PLXDK0MeyK4ZhPjgg6xkBzt6OVtc5leUgA)
+
 
 ## Reflection Measurements
 Single port measurements
@@ -215,6 +234,7 @@ Return Loss
 Input Impedance
 Feedline Length
 Distance to Fault
+
 
 ## Transmission Measurements
 Two port measurements
@@ -231,6 +251,7 @@ Insertion Phase / Group Delay
 
 
 Reviews
+
 * [Which NanoVNA Should I buy? - TheSmokinApe](https://www.youtube.com/watch?v=xNNtM_mUAqc)
 
 
@@ -239,9 +260,12 @@ Reviews
 
 
 # What is a VNA?
+
 * [Back to Basics: What is a VNA / Vector Network Analyzer](https://www.youtube.com/watch?v=Sb3q8f0NBZc)
 
+
 # NanoVNA V2 Vector Network Analyzer
+
 * [How to properly use a NanoVNA V2 Vector Network Analyzer & Smith Chart (Tutorial)]()
 
 
@@ -278,6 +302,7 @@ and verify network designs to make sure systems and their components work proper
 * [How to properly use a NanoVNA V2 Vector Network Analyzer (Tutorial)](https://www.youtube.com/watch?v=_pjcEKQY_Tk)
 * [Why 50 Ohms?](https://www.youtube.com/results?search_query=why+50+ohms)
 
+
 ## Vector Network Analyzer (VNA)
 Vector Network Analyzers are used to test component specifications
 and verify design simulations to make sure systems and their components work properly together.
@@ -292,6 +317,7 @@ and verify design simulations to make sure systems and their components work pro
 * [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
 * [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 
+
 # Vector Network Analyzer (VNA)
 Vector Network Analyzers are used to test component specifications
 and verify design simulations to make sure systems and their components work properly together.
@@ -305,28 +331,32 @@ and verify design simulations to make sure systems and their components work pro
 * [NanoVNA Tests Antenna Pattern](https://hackaday.com/2020/01/11/nanovna-tests-antenna-pattern/)
 * [NanoVNA V2 Case](https://hackaday.io/project/176512-nanovna-v2-case)
 
+
 # Vector Network Analyzer (VNA) Demystified
+
 * [NANOVNA Demystified](https://www.youtube.com/watch?v=yGKWBpgN8PU&t=0s)
 * [A Small, Simple, USB-Powered Vector Network Analyzer Covering 1 kHz to 1.3 GHz](https://www.sdr-kits.net/documents/Baier_VNWA2_QEX.pdf)
 * []()
 
 
 
-------
+---------------
 
 
 
 # NanoVNA Software
+
 * [NanoVNA V2 Users Group](https://groups.io/g/NanoVNAV2)
 * [NanoVNA-QT](https://github.com/nanovna-v2/NanoVNA-QT)
 * [NanoVNA Saver](https://github.com/zarath/nanovna-saver)
 * [NanoVNASaver](https://nanovna.com/?page_id=90)
 
+
 ## NanoVNA-QT
 
 
 
-------
+---------------
 
 
 
@@ -354,10 +384,11 @@ However, their value in visualizing the impedance of an antenna or a transmissio
 
 * [Smith Chart](https://www.printfreegraphpaper.com/gp/smith.pdf)
 
-* Smith Chart Hands-On - https://www.youtube.com/channel/UCFDM4s9QHMvPQlnW8KI6htw/search?query=smith
+* Smith Chart Hands-On - <https://www.youtube.com/channel/UCFDM4s9QHMvPQlnW8KI6htw/search?query=smith>
     * Introduction to the Smith Chart with Examples
     * Example 1: Finding Γ from Z and vice versa.
     * Impedance Matching with the Smith Chart
+
 
 # scikit-rf
 [`scikit-rf`](http://scikit-rf.org/about.html)
@@ -366,13 +397,15 @@ seeks to provides a modern, object-oriented library for network analysis and cal
 * [Quick Intro to scikit-rf, a python library for RF engineering](https://www.youtube.com/watch?v=9ZLocBIxOJY)
 
 
-------
+---------------
 
 
 
 # How to Properly Use a NanoVNA V2
+
 * [How to properly use a NanoVNA V2 Vector Network Analyzer & Smith Chart](https://www.youtube.com/watch?v=_pjcEKQY_Tk)
 * [Presentation recording: Intro to the VNA and NanoVNA for BayCon 2021](https://www.youtube.com/watch?v=o1eLK4EMpEQ&t=301s)
+
 
 # VNA Calibration
 For any VNA, you must always calibrate the instrument prior measuring your DUT
@@ -381,6 +414,7 @@ This is because the VNA itself has non-linearities,
 the measurement is heavily dependent on where you attach the DUT,
 and there is some crosstalk between the measurment ports on the VNA.
 Also remember, you must do a new calibration any time you change the VNA freqancy range applied to the DUT.
+
 
 ## Calibration Plane
 Most VNA measurement setups will NOT allow you to connect a device under test (DUT)
@@ -394,18 +428,23 @@ When you do this, the errors associated with the test setup
 (cables, test fixtures, and adapters used between the analyzer ports and the reference plane)
 are measured and removed in the calibration process.
 
+
 ## Electrical Delay
 If you use a port extension (aka adaptor), you change the calibration plane since you have introducted
 some delay in the signal propogation and you will need to compansate for it
 if you attached the extension after the calibation plan.
 The NanoVNA can compinsate for this delay within its calibration setup.
 
+
 ## Short Open Load (SOL) Calerbration
 To calibrate the VNA, you must apply short, open, load (typically 50 or 75 ohms) on the VNA's output port
 (Port1 or CH0 on the NanoVNA).
 The output port emits a signal and measures both the emitted signal and reflected signal from the DUT.
 
+
 ## Short Open Load Tip (SOLT) Calerbration
+
+
 ## Short Open Load Thru (SOLT) Calerbration
 The SOL calibration is suficient for measurments of DUT which do not require a thru measurment, such as antennas,
 but if your using the VNA to measure a filter, you'll also need to calibate with the VNA input port
@@ -420,35 +459,47 @@ The
 
 
 
-------
+---------------
 
 
 
 # Dip Meter
+
 * [Understand Your Tools: Finger Exercises](https://hackaday.com/2024/04/06/understand-your-tools-finger-exercises/)
 * [A nanoVNA as a Dip Meter](https://hackaday.com/2024/04/03/a-nanovna-as-a-dip-meter/)
 
+
 # Impedance Matching
+
 * [Impedance Matching with QUCS Studio and VNA](https://hexandflex.com/2020/01/11/impedance-matching-with-qucs-studio-and-vna/)
 * [Impedance Matching and Smith Chart Impedance](https://www.maximintegrated.com/en/design/technical-documents/tutorials/7/742.html)
 * [Smith Chart and Impedance Matching](https://www.antenna-theory.com/tutorial/smith/chart.php)
 * [Impedance Matching Revisited](https://hackaday.com/2022/01/13/impedance-matching-revisited/)
 
+
 # Measure Crystals
+
 * [Measuring Crystals with NanoVNA and other tools](https://www.youtube.com/watch?v=G9zZRNzhsEE)
 * [nanoVNA - Determining the Resonant Frequency of Crystals](https://www.youtube.com/watch?v=rVIHVi-7brs)
 
+
 # Measure Coaxial Cable Characteristic Impedance and Cable Loss
+
 * [NANOVNA Coax Loss Measurement](https://www.youtube.com/watch?v=mU71rGUKlBI)
 * [nanoVNA - Coaxial Cable Measurement Methods (Characteristic Impedance and Cable Loss)](https://www.youtube.com/watch?v=G66_iqOu-Bs)
 
+
 # Impedance Measurement
+
 * [Impedance Measurement Handbook: A Guide to Measurement Technology and Techniques](https://www.keysight.com/us/en/assets/7018-06840/application-notes/5950-3000.pdf)
 
+
 # Measuring RLC Components
+
 * [NanoVNA - Measuring RLC Components](https://www.youtube.com/watch?v=R0mRTigYzco)
 * [nanoVNA - Measuring Inductors and Capacitors](https://www.youtube.com/watch?v=iJ1qKE5O0bY)
 * [Capacitor's self-resonance](https://gusbertianalog.com/capacitor-self-resonance/)
+
 
 # Measuring Voltage Standing Wave Ratio (VSWR)
 VSWR = Return Loss
@@ -468,22 +519,32 @@ When this happens the voltages and currents of the forward and reflected waves i
 * [AppCAD Does Transmission Lines](https://hackaday.com/2021/07/20/appcad-does-transmission-lines/)
 
 * [What is VSWR: Voltage Standing Wave Ratio](https://www.electronics-notes.com/articles/antennas-propagation/vswr-return-loss/what-is-vswr.php)
-* [Using the NanoVNA to Measure Antenna SWR and Resonance](https://www.youtube.com/watch?v=_drx7ORUDWI)
 * [Smith chart basics part 2: finding VSWR](https://www.youtube.com/watch?v=YbZ9RBw7-js)
 * [Smith Chart: Z, VSWR, Reflection Coef and Transmission Line Effects](https://www.youtube.com/watch?v=ImNRca5ecF0&t=44s)
 
+* [Silent Antenna Tuning](https://hackaday.com/2024/10/23/silent-antenna-tuning/)
+* [Using the NanoVNA to Measure Antenna SWR and Resonance](https://www.youtube.com/watch?v=_drx7ORUDWI)
+
+
 # Reflection Coefficent
+
 * [Smith chart basics, part 3: finding reflection coefficient](https://www.youtube.com/watch?v=9KlIgae0ad8)
 * [Smith Chart: Z, VSWR, Reflection Coef and Transmission Line Effects](https://www.youtube.com/watch?v=ImNRca5ecF0&t=44s)
 
+
 # Lowpass, Bandpass Filter
+
 * [NANOVNA Measuring Various Bandpass Filters](https://www.youtube.com/watch?v=hf4grkMuql4)
 * [How to use the NanoVNA to measure a low-pass filter](https://www.youtube.com/watch?v=F17mN5uuzGY)
 
+
 # Measuring Aplifier
+
 * [NanoVNA and TinySA for Radio Design](https://www.youtube.com/watch?v=B7DFOq9rM_M)
 
+
 # Antenna Measurements
+
 * [NanoVNA for Antenna Analysis](https://www.youtube.com/watch?v=WxkC4ZSFiF0)
 * [Optimizing Antennas using a cheap N1201SA VNA (Vector Impedance Analyzer), LoRa, Review](https://www.youtube.com/watch?v=ZpKoLvqOWyc)
 * [NANOVNA 1/4Wave Vertical Antenna Measurement](https://www.youtube.com/watch?v=5uEz1KkHKas)
@@ -491,6 +552,8 @@ When this happens the voltages and currents of the forward and reflected waves i
 
 
 # Measurement of Coax Characteristics
+
+
 ## Why 50 and 75 Ohms
 There is a prevalence of 50 ohm coax.
 Sure, you sometimes see 75 ohm coax, but overwhelmingly, RF circuits work at 50 ohms.
@@ -512,6 +575,7 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 
 * [Why is Coax 50 Ohms?](https://www.youtube.com/watch?app=desktop&v=I-OnQZJv35I)
 
+
 ## Time Domain Reflectometer (TDR)
 A [time-domain reflectometer (TDR)][07] is an electronic instrument used to determine
 the characteristics of electrical lines by observing reflected waveforms.
@@ -519,22 +583,32 @@ the characteristics of electrical lines by observing reflected waveforms.
 * [Schmitt Trigger Oscillator / Tutorial / 74AC14 Inverter / squarewave generator](https://www.youtube.com/watch?v=NuXitMK3HSA)
 * [Cheap and simple TDR using an oscilloscope and 74AC14 Schmitt Trigger Inverter](https://www.youtube.com/watch?v=9cP6w2odGUc)
 
+
 ## Coax Impedance
+
 * [How to measure coax velocity factor VF and impedance Z](https://www.youtube.com/watch?v=TpIIftvQPFM)
 * [How to Measure the impedance of "unknown" coax using a NanoVNA](https://www.youtube.com/watch?v=hqKLFbNYRZc)
 
+
 ## Coax Velocity Factor
+
 * [How to measure coax velocity factor VF and impedance Z](https://www.youtube.com/watch?v=TpIIftvQPFM)
 * [NanoVNA measuring velocity factor and cable length](https://www.youtube.com/watch?v=aWvPB299U60)
 
+
 ## Measure Coax Length
+
 * [Use NanoVNA to measure coax length - BONUS Transmission Lines and Smith Charts, SWR and more](https://www.youtube.com/watch?v=9thbTC8-JtA)
 * [Use a scope to measure the length and impedance of coax](https://www.youtube.com/watch?v=Il_eju4D_TM)
 
+
 ## Terminations on Transmission Lines
+
 * [Transmission Line Terminations for Digital and RF signals - Intro/Tutorial](https://www.youtube.com/watch?v=g_jxh0Qe_FY)
 
+
 ## Measure Amplifier Input Impedance and Gain
+
 * [#337: Use a NanoVNA to measure input impedance and gain of a small-signal RF amplifier](https://www.youtube.com/watch?v=7TtKE39TWpI)
 
 
