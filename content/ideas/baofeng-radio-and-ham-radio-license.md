@@ -18,6 +18,8 @@ Version:      0.0.0
 
 
 
+
+
 * [TV GOING THE DISTANCE: PROPAGATION](http://hackaday.com/2015/11/18/tv-going-the-distance-propagation/)
 * How to Set-Up and Master Ham Radio Without Going Crazy:
 [Part 1](https://www.backdoorsurvival.com/how-to-set-up-a-ham-radio/)
@@ -772,12 +774,22 @@ was announced it was described as being designed for,
 * [Tracking Down Radio Frequency Noise Source, With Help From Mother Nature](https://hackaday.com/2020/09/25/tracking-down-radio-frequency-noise-source-with-help-from-mother-nature/)
 
 
-# Internet Radio
+
+---------------
+
+
+
+# Ham Radio In The Internet Age
+
+* [Ham Radio In The Internet Age](https://hackaday.com/2024/10/25/ham-radio-in-the-internet-age/)
+
+
+## Internet Radio
 
 * [World Radio Lets Your Fingers Do The Walking](https://hackaday.com/2020/09/12/world-radio-lets-your-fingers-do-the-walking/)
 
 
-# Raspberry Pi for Ham-Radio
+## Raspberry Pi for Ham-Radio
 
 * [Where to start? Raspberry pi for ham radio](https://www.youtube.com/watch?v=E1SEgPFQk4M)
 * [Setup Raspberry Pi for Ham-Radio](https://orari.or.id/index.php/2019/09/02/setup-raspberry-pi-for-ham-radio/)
