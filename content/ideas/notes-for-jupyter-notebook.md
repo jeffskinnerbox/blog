@@ -1,5 +1,5 @@
-<!--
-Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+<--
+Maintainer:   <jeffskinnerbox@yahoo.com> / <www.jeffskinnerbox.me>
 Version:      0.0.0
 -->
 
@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -47,12 +47,10 @@ Version:      0.0.0
 * [nbviewer](https://nbviewer.jupyter.org/)
 * [JupyterHub](https://jupyterhub.readthedocs.io/en/latest/)
 * [BinderHub](https://binderhub.readthedocs.io/en/latest/)
-* [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/#)
 
 * [Unofficial Jupyter Notebook Extensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/)
 * [Jupyter Notebook Extensions: How to get the most from the notebook environment](https://towardsdatascience.com/jupyter-notebook-extensions-517fa69d2231)
 * [Set Your Jupyter Notebook up Right with this Extension](https://towardsdatascience.com/set-your-jupyter-notebook-up-right-with-this-extension-24921838a332)
-* [Bring your Jupyter Notebook to life with interactive widgets](https://towardsdatascience.com/bring-your-jupyter-notebook-to-life-with-interactive-widgets-bc12e03f0916)
 * [Supercharging Jupyter Notebooks](https://towardsdatascience.com/supercharging-jupyter-notebooks-e22f5ad7ca18)
 
 * [The 7 most popular ways to plot data in Python](https://opensource.com/article/20/4/plot-data-python)
@@ -62,19 +60,38 @@ Version:      0.0.0
 
 
 
-----------
+---------------
+
+
+
+# Widgets & Wigglystuff
+
+* [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/#)
+* [Bring your Jupyter Notebook to life with interactive widgets](https://towardsdatascience.com/bring-your-jupyter-notebook-to-life-with-interactive-widgets-bc12e03f0916)
+* [ntroducing Wigglystuff - more widgets and reactivity](https://www.youtube.com/watch?v=n8VXyhx_7IM)
+
+
+# Marimo
+
+* [Reactive Notebooks with Marimo](https://calmcode.io/course/marimo/introduction)
+
+
+
+---------------
 
 
 # Jupyter as Integrated Development Environment (IDE)
+
 * [Jupyter has a perfect code editor](https://towardsdatascience.com/jupyter-has-a-perfect-code-editor-62147cb9bf21)
 
 
 
-----------
+---------------
 
 
 
 # Jupyter Lab
+
 * [Jupyter Lab: Evolution of the Jupyter Notebook](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
 * [5 Extensions That Will Make You Switch to Jupyter Lab](https://towardsdatascience.com/5-extensions-that-will-make-you-switch-to-jupyter-lab-32c6b66ac755)
 * [Upgrading to JupyterLab on Ubuntu](https://hackersandslackers.com/upgrading-to-jupyter-lab-on-ubuntu/)
@@ -83,29 +100,33 @@ Version:      0.0.0
 
 
 
-----------
+---------------
 
 
 
 # C On Jupyter
+
 * [Linux Fu: C On Jupyter](https://hackaday.com/2023/05/11/linux-fu-c-on-jupyter/)
 
+
 # MicroPython On Jupyter
+
 * [Jupyter MicroPython Kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel)
 
 
 
-----------
+---------------
 
 
 
 # The New Jupyter Book
+
 * [The New Jupyter Book](https://medium.com/swlh/the-new-jupyter-book-4028f054893f)
 * [Creating a solid Data Science development environment](https://towardsdatascience.com/creating-a-solid-data-science-development-environment-60df14ce3a34)
 
 
 
-----------
+---------------
 
 
 
@@ -119,7 +140,7 @@ In Python, these are specially-named methods: methods that the runtime interpret
 
 
 
-----------
+---------------
 
 
 
@@ -144,6 +165,7 @@ they can be created by using the [nbconvert][52] utility.
 Another nice fact is that Jupyter Notebook files
 (i.e. `*.ipynb`) will render automatically on GitHub/Gist ([example][53])
 giving you a public way to share or .
+
 
 ## Setting Up Python 3
 Most Linux versions ships with both Python 3 and Python 2 pre-installed.
@@ -188,6 +210,7 @@ in python3 it is baked in to the standard installation.
 
 I'm going to show leveraging the Linux system wide Python
 then show use the combination of `pip`, `pyenv`, and `pyenv-virtualenv`.
+
 
 ## Install Jupyter System Wide
 Installing Jupyter Notebook on your computer is documented [here][50].
@@ -257,15 +280,21 @@ You'll find a short video on how the spell checker works [here][65].
 It only does checking.
 You can use your browser to provide corrections.
 
+
 # Seaborn
+
 * [Intro to Seaborn](https://www.youtube.com/playlist?list=PLtPIclEQf-3cG31dxSMZ8KTcDG7zYng1j)
 
+
 ## Install Jupyter via pyenv and pyenv-virtualenv
+
 
 # Step 0: Install pyenv and pyenv-virtualenv
 See "cheatsheet-python-pip-pyenv-commands.md" on how to install pyenv and pyenv-virtualenv.
 
-# Step 1:
+
+# Step 1
+
 
 # Using Jupyter Notebook
 You can start the Jupyter Notebook via several ways:
@@ -353,6 +382,7 @@ You can publish your HTML presentations online by using available [online platfo
 or on your own website, or using [github pages][62].
 
 Example in a notebook:
+
 * [Create a slide deck using Jupyter Notebooks](https://opensource.com/article/20/9/presentation-jupyter-notebooks)
 * [How to Create a Slideshow using Jupyter+Markdown+Reveal.js](https://www.youtube.com/watch?v=EOpcxy0RA1A&feature=youtu.be)
 * [Presentation slides with Jupyter Notebook](http://echorand.me/presentation-slides-with-jupyter-notebook.html#.V19WnWJ96V4)
@@ -360,7 +390,7 @@ Example in a notebook:
 * [Messy Sensor Data: A Programmer's Cleaning Guide](https://github.com/Spaxe/pyconau2017-messy-sensor-data)
 * [Reveal.js - The HTML Presentation Framework](http://lab.hakim.se/reveal-js/#/)
 * [RISE: Reveal.js - Jupyter/IPython Slideshow Extension](http://bollwyvl.github.io/live_reveal/#/)
-    * https://github.com/damianavila/RISE
+    * <https://github.com/damianavila/RISE>
 * [Presenting Code Using Jupyter Notebook Slides](https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67)
 * [How to make polished Jupyter presentations with optional code visibility](http://chris-said.io/2016/02/13/how-to-make-polished-jupyter-presentations-with-optional-code-visibility/)
 * [Quick Tips: An Easy Way to Make Slideshows from Jupyter Notebooks](http://www.oliversherouse.com/2015/10/27/jupyter_slideshows.html)
