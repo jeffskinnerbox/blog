@@ -17,6 +17,9 @@ Version:      0.0.0
 * Internet-backed recording and playback device for two-way radios - [Boondock Echo](https://www.crowdsupply.com/boondock-technologies/boondock-echo)
 
 
+* [A New Chinese Radio Breaks Cover, is it Worth it?](https://hackaday.com/2024/10/26/a-new-chinese-radio-breaks-cover-is-it-worth-it/)
+
+
 
 
 
