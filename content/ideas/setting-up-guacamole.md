@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 * [How to use Apache Guacamole to create a VNC Connection](https://www.howtoforge.com/how-to-use-apache-guacamole-to-create-a-vnc-connection/)
@@ -20,20 +20,25 @@ Version:      0.0.0
 
 
 Try install Guacamole via Docker ...
+
+* TRY THIS - [Zero Trust Cloudflare Guacamole Instant Docker](https://github.com/RamboRogers/cloudflareguacamole)
 * [Installing Apache Guacamole through Docker](https://www.linode.com/docs/guides/installing-apache-guacamole-through-docker/)
 * [Using a Cloud Desktop on a Browser with Apache Guacamole](https://www.linode.com/docs/guides/remote-cloud-desktop-using-apache-guacamole/)
 * [Set Up Apache Guacamole Remote Desktop on Ubuntu 22.04/20.04 Server](https://www.linuxbabe.com/ubuntu/apache-guacamole-remote-desktop-ubuntu-20-04)
 
 About VNC...
+
 * [An Overview of VNC (Virtual Network Computing)](https://www.linode.com/docs/guides/what-is-virtual-network-computing/)
 
 Try following this for VNC ...
+
 * [Install VNC on Ubuntu 20.04](https://www.linode.com/docs/guides/install-vnc-on-ubuntu-20-04/)
 * [How to Install TightVNC to Access Remote Desktops in Linux](https://www.tecmint.com/install-tightvnc-access-remote-desktop-in-linux/)
 * [How to connect to a remote computer using VNC in Linux](https://www.redhat.com/sysadmin/vnc-screen-sharing-linux)
 * [How To Access Your PCs and Servers from Anywhere Using Guacamole and CloudFlare Tunnels](https://www.youtube.com/watch?v=tg1CbMEzCsc)
 
 for Raspberry Pi ....
+
 * [Raspberry Pi Now Has an Official Remote Desktop Client](https://www.howtogeek.com/raspberry-pi-connect-remote-access-desktop/)
 * [Raspberry Pi Solves Remote Headless Connection Headaches with the Browser-Based Raspberry Pi Connect](https://www.hackster.io/news/raspberry-pi-solves-remote-headless-connection-headaches-with-the-browser-based-raspberry-pi-connect-d65ca044f423)
 
@@ -46,9 +51,11 @@ for Raspberry Pi ....
 VNC will usually run at :1 which is a different session. To run at :0, use x11vnc. Display :0 is your currently running GUI session.
 
 Check out [x11vnc](https://github.com/LibVNC/x11vnc) if you want connect to a real X11 display (i.e. one attached to a physical monitor, keyboard, and mouse: a Workstation or a SunRay session) from far away. Maybe you want to close down an application cleanly rather than using kill, or want to work a bit in an already running application, or would like to help a distant colleague solve a problem with their desktop, or would just like to work out on the deck for a while. This is where x11vnc is useful.
+
 * [How to Setup x11vnc on Ubuntu 22.04](https://linuxopsys.com/topics/setup-x11vnc-on-ubuntu)
 
 Check out your document -  /home/jeff/blogging/content/articles/howto-using-xephyr-to-create-a-new-display-in-a-window.md
+
 
 # Guacamole vs AnyDesk
 AnyDesk is a popular remote desktop software for Linux, Windows, BSD, macOS, and mobile platforms.
@@ -59,7 +66,7 @@ or let someone else remotely access your system
 
 * [AnyDesk](https://anydesk.com/en)
 * [Install AnyDesk on Ubuntu Linux (GUI and Terminal Methods)](https://itsfoss.com/install-anydesk-ubuntu/)
-* [10 Best Remote Desktop Software Tools for Linux Users ](https://www.cendio.com/blog/10-best-remote-desktop-software-tools-for-linux-users)
+* [10 Best Remote Desktop Software Tools for Linux Users](https://www.cendio.com/blog/10-best-remote-desktop-software-tools-for-linux-users)
 
 
 
@@ -98,7 +105,9 @@ whether they be open source or proprietary.
     * [Using Cloudflare Tunnels For Hosting & Certificates Without Exposing Ports On Your Firewall](https://www.youtube.com/watch?v=eojWaJQvqiw&t=5s)
     * [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/)
 
+
 # How To Remove Docker Images, Containers, and Volumes
+
 * [How To Remove Docker Images, Containers, and Volumes](https://www.digitalocean.com/community/tutorials/how-to-remove-docker-images-containers-and-volumes)
 * [The Docker Ecosystem: An Introduction to Common Components](https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components)
 
@@ -109,6 +118,7 @@ sudo docker system prune
 To additionally remove any stopped containers and all unused images (not just dangling images), add the -a flag to the command:
 
 sudo docker system prune -a
+
 
 # Remove dangling volumes
 Since the point of volumes is to exist independent from containers, when a container is removed, a volume is not automatically removed at the same time. When a volume exists and is no longer connected to any containers, it’s called a dangling volume. To locate them to confirm you want to remove them, you can use the docker volume ls command with a filter to limit the results to dangling volumes. When you’re satisfied with the list, you can remove them all with docker volume prune:
@@ -121,6 +131,7 @@ Remove:
 
 sudo docker volume prune
 
+
 # Remove a container and its volume
 If you created an unnamed volume, it can be deleted at the same time as the container with the -v flag. Note that this only works with unnamed volumes. When the container is successfully removed, its ID is displayed. Note that no reference is made to the removal of the volume. If it is unnamed, it is silently removed from the system. If it is named, it silently stays present.
 
@@ -130,7 +141,7 @@ sudo docker rm -v container_name
 
 
 
------
+---------------
 
 
 
@@ -192,6 +203,7 @@ via `google-chrome 192.168.1.204:8194`
 (default username is `guacadmin` with password `guacadmin`)
 but we will first configure Cloudflare.
 
+
 #### Step 2 - Configure Cloudflare to Support Guacamole - DONE
 I'm using [Cloudflare as my DNS server][10] and [Cloudflare Tunnels][11] for incresed protection of my LAN.
 To configure Cloudflare to support my home LAN envirnment,
@@ -215,6 +227,7 @@ Select near the top, **Duplicate/Edit**
 Scroll down to **Command** and paste in the token and then select **Deploy the container**.
 The container should be restarted with the new token.
 
+
 #### Step 3: Create New Guacamole Admin login - DONE
 We are now done with Cloudflare and time to move back to Guacamole.
 
@@ -231,6 +244,7 @@ Goto the top right-hand menu and select **Settings** > **Users** > **New User**
 and select the `guacadmin` account and disable it.
 Now do all your administrative work for Guacamole via this new login.
 
+
 #### Step 4: Guacamole Two Factor Authentication (2FA) via Cloudflare Tunnels - DONE
 Guacamole, as currently implemented above,
 provides no secuirty protection other than login/password.
@@ -238,6 +252,7 @@ Given that I plan to used Guacamole outside my home LAN, this isn't very safe.
 Guacamole does provide extentions to support Two Factor Authentication (2FA)
 but I prefer to use Cloudflare's Access controls.
 This [video][08] provide a good tutoral on using Cloudflare Access to protect your Guacamole remote gatway.
+
 
 #### Step 5: Create a Guacamole Connection
 Goto the top right-hand menu and select **Settings** > **Connections**.
@@ -259,13 +274,13 @@ In this case, the VNC client must be running on the target machine
 and we'll install that next.
 
 
-------
+---------------
 
 
------
+---------------
 
 
------
+---------------
 
 
 
@@ -319,6 +334,7 @@ The
 I followed mainly the first source below:
 
 Sources:
+
 * VNC vs RDP
     * [VNC vs RDP: which remote desktop tool is the best?](https://www.realvnc.com/en/blog/vnc-vs-rdp-which-remote-desktop-tool-is-best/)
     * [VNC vs RDP: Similarities and Differences](https://www.parallels.com/blogs/ras/vnc-vs-rdp/)
@@ -332,6 +348,7 @@ Sources:
     * [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
     * [Install and Configure VNC server on Ubuntu 22.04](https://itnixpro.com/install-and-configure-vnc-server-on-ubuntu-22-04/)
     * [Install and Configure VNC Server on Ubuntu 22.04|20.04|18.04](https://computingforgeeks.com/how-to-install-vnc-server-on-ubuntu/)
+
 
 #### Step 0: Remove VNC From Your System - DONE
 During my installation of VNC,
@@ -369,6 +386,7 @@ sudo rm -r /etc/systemd/system/vncserver\@.service /etc/systemd/system/vncserver
 sudo systemctl daemon-reload
 ```
 
+
 #### Step 1: Check What is Already Install - DONE
 There are couple ways to [detect whether your Linux system has GUI installed][13].
 These method will not, however, help to identify if GUI is running or not.
@@ -399,6 +417,7 @@ ls ~/.vnc
 
 From the above output, my Ubuntu has the GNOME Desktop Environment installed and operational.
 The VNC server package appears to be loaded but not installed and not executable.
+
 
 #### Step 2: Install VNC on Ubuntu - DONE
 So I need to install the TigerVNC VNC client on Ubuntu,
@@ -473,6 +492,7 @@ Now make sure to terminate the VNC server before moving to the next step.
 vncserver -kill :*
 ```
 
+
 #### Step X: Preliminary Testing of VNC
 Let's do some testing of the VNC tools that have been installed to make sure
 they are working and to understand how they operate.
@@ -484,6 +504,7 @@ xclock -display :2 & ... fails since there is no :2 display
 
 Execute `lsl /tmp/.X*-lock` to see what displays have been created
 
+
 #####
 After you have installed a VNC Viewer, you should test that you can connect to your  on your local network. You should do this before setting up the tunnel for remote access, to check that everything is installed correctly.
 
@@ -494,8 +515,10 @@ vncviewer 192.168.1.200::5902
 vncviewer 192.168.1.200:2
 vncviewer desktop:2
 
+
 #####
 Applications > Accessories > Connections
+
 
 #####
 $ vncserver -geometry 800x600 -depth 24 :1
@@ -511,16 +534,18 @@ check the locks with `ls -l /tmp/.X*-lock`
     xclock -update 1 -hands red -display :2
 
 **How To Start VNC Session With Gnome Desktop?**
-* https://askubuntu.com/questions/1285420/how-to-properly-configure-xstartup-file-for-tightvnc-with-ubuntu-20-04-lts-gnome
-* https://askubuntu.com/questions/1311713/can-anyone-help-me-with-my-tigervnc-xstartup-script-for-ubuntu-18-04s-gnome-doc
-* https://askubuntu.com/questions/1318351/tigervnc-config-with-ubuntu-20-04-black-screen
-* https://askubuntu.com/questions/1278053/ubuntu-20-04-gray-screen-on-vnc
-* https://www.how2shout.com/linux/install-vnc-server-on-ubuntu-20-04-18-04-lts-to-access-gnome/
-* https://askubuntu.com/questions/694795/how-to-start-vnc-session-with-gnome-desktop
+
+* <https://askubuntu.com/questions/1285420/how-to-properly-configure-xstartup-file-for-tightvnc-with-ubuntu-20-04-lts-gnome>
+* <https://askubuntu.com/questions/1311713/can-anyone-help-me-with-my-tigervnc-xstartup-script-for-ubuntu-18-04s-gnome-doc>
+* <https://askubuntu.com/questions/1318351/tigervnc-config-with-ubuntu-20-04-black-screen>
+* <https://askubuntu.com/questions/1278053/ubuntu-20-04-gray-screen-on-vnc>
+* <https://www.how2shout.com/linux/install-vnc-server-on-ubuntu-20-04-18-04-lts-to-access-gnome/>
+* <https://askubuntu.com/questions/694795/how-to-start-vnc-session-with-gnome-desktop>
 
 What is the $DISPLAY environment variable? - https://askubuntu.com/questions/432255/what-is-the-display-environment-variable
-Is that normal that $DISPLAY environment variable value is 1? - https://stackoverflow.com/questions/71321131/is-that-normal-that-display-environment-variable-value-is-1
-Why is $DISPLAY sometimes :0 and sometimes :1 - https://stackoverflow.com/questions/14394974/why-is-display-sometimes-0-and-sometimes-1
+Is that normal that $DISPLAY environment variable value is 1? - <https://stackoverflow.com/questions/71321131/is-that-normal-that-display-environment-variable-value-is-1>
+Why is $DISPLAY sometimes :0 and sometimes :1 - <https://stackoverflow.com/questions/14394974/why-is-display-sometimes-0-and-sometimes-1>
+
 
 #### Step X: Setting Up a Firewall - ???
 Applications can register their profiles with UFW upon installation.
@@ -567,6 +592,7 @@ Apache (v6)                ALLOW       Anywhere (v6)
 sudo ufw allow 5900 8901
 ```
 
+
 #### Step X: Edit VNC Startup Script Settings - DONE
 The VNC server can be told what commands to perform when it starts up
 I want to configure VNC to launch the full desktop environment when it starts.
@@ -606,6 +632,7 @@ This port is called a display port, and is referred to by VNC as `:1`.
 VNC can launch multiple instances on other display ports, like `:2`, `:3`, etc.
 When working with VNC servers, remember that `:X` is a display port that refers to port 5900+X.
 
+
 #### Step X: Test the VNC Server & Client
 To run the VNC Server, you can use the following command:
 
@@ -627,6 +654,7 @@ You can configure the resolution and sharpness according to your taste.
 >or had permissions problems.
 >It also spit out a lengthy description of its problems with me executing it.
 >I ran it again, it was silent and appeared OK.
+
 
 #### Step X: Create VNC Start/Stop Script
 In an effort to make the use of VNC easy,
@@ -710,14 +738,15 @@ sudo systemctl daemon-reload
 ```
 
 
--------
+---------------
 
 
 # VNC Security
+
 * [Over 9,000 VNC servers exposed online without a passwor](https://www.bleepingcomputer.com/news/security/over-9-000-vnc-servers-exposed-online-without-a-password)
 
 
-----
+---------------
 
 
 
