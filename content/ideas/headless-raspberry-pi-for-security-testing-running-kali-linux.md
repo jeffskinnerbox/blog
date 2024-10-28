@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # Latest Kali
+
 * [Kali Linux 2021.2 released: Kaboxer, Kali-Tweaks, new tools, and more!](https://www.helpnetsecurity.com/2021/06/02/kali-linux-2021-2-released/)
 * [Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
 * [Hands-On: Kali Linux on the Raspberry Pi 4](https://www.zdnet.com/article/hands-on-kali-linux-on-the-raspberry-pi-4/)
@@ -23,28 +24,38 @@ Version:      0.0.0
 
 
 # Firewall Bypassing
+
 * [Firewall Basic Bypassing Techniques With Nmap and Hping3](https://dzone.com/articles/firewall-bypassing-techniques-with-nmap-and-hping3)
 
+
 # Hacking Lab
+
 * [create the ULTIMATE hacking lab in 5min!! (Docker Containers STREAMING Kali Linux to your browser)](https://www.youtube.com/watch?v=U7e-mcJdZok)
 * [how to build a HACKING lab (to become a hacker)](https://www.youtube.com/watch?v=mvsiuLzpx2E)
 * [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)](https://www.youtube.com/watch?v=wX75Z-4MEoM)
 * [Virtual Machines Pt. 2 (Proxmox install w/ Kali Linux)](https://www.youtube.com/watch?v=_u8qTN3cCnQ)
 * [VulnHub](https://www.vulnhub.com/)
 
+
 # Other Tools
+
 * [Scan your Linux security with Lynis](https://opensource.com/article/20/5/linux-security-lynis)
 * [Identify security properties on Linux using checksec](https://opensource.com/article/21/6/linux-checksec)
 
+
 # ESP8266 Tools
+
 * [Scan, Fake & Attack Wi-Fi Networks with the ESP8266-Based WiFi Deauther](https://null-byte.wonderhowto.com/how-to/scan-fake-attack-wi-fi-networks-with-esp8266-based-wifi-deauther-0193837/)
 * [Detect When a Device Is Nearby with the ESP8266 Friend Detector](https://null-byte.wonderhowto.com/how-to/detect-when-device-is-nearby-with-esp8266-friend-detector-0188642/)
 * [Detect & Classify Wi-Fi Jamming Packets with the NodeMCU](https://null-byte.wonderhowto.com/how-to/detect-classify-wi-fi-jamming-packets-with-nodemcu-0188668/)
 * [Inconspicuously Sniff Wi-Fi Data Packets Using an ESP8266](https://null-byte.wonderhowto.com/how-to/inconspicuously-sniff-wi-fi-data-packets-using-esp8266-0192829/)
 
+
 # Network Implant
+
 * [How to Set Up Network Implants with a Cheap SBC (Single-Board Computer)](https://medium.com/@NullByteWht/how-to-set-up-network-implants-with-a-cheap-sbc-single-board-computer-52247fcfccfc)
 * [Perform Network-Based Attacks with an SBC Implant](https://null-byte.wonderhowto.com/how-to/perform-network-based-attacks-with-sbc-implant-0196199/)
+
 
 # Flipper
 Designed by Pavel Zhovner, Flipper is a portable, practical pentesting platform pocket-tool.
@@ -63,13 +74,16 @@ What can it do ... see this [Flipper Zero: Truth or Hype?](https://www.youtube.c
 
 * [Automated Tools For WiFi Cracking](https://hackaday.com/2020/09/30/automated-tools-for-wifi-cracking/)
 
+
 ## CapybaraZero
 A cheap alternative to FlipperZero™ based on Espressif boards
+
 * [Forget Flipper, How About Capybara?](https://hackaday.com/2024/10/20/forget-flipper-how-about-capybara/)
 * [CapybaraZero](https://capibarazero.github.io/docs/)
 
 
 # NFC Tools
+
 * [What’s On Your Bank Card? Hacker Tool Teaches All About NFC And RFID](https://hackaday.com/2021/10/04/whats-on-your-bank-card-hacker-tool-teaches-all-about-nfc-and-rfid/)
 * [Hunt Down NFC Signals With This NFC Multi Tool](https://hackaday.com/2022/10/17/hunt-down-nfc-signals-with-this-nfc-multi-tool/)
     * [Huntercat NFC](https://github.com/ElectronicCats/HunterCatNFC)
@@ -88,13 +102,14 @@ such as [Tor][53],
 [VNC][39],
 [Kali LAZY script][48],
 
+
 # Hacking
 Good sources of hacking/cracking tools and knowledge:
-    * https://null-byte.wonderhowto.com/forum/
-    * https://www.hak5.org/
-    * [NULL BYTE](https://null-byte.wonderhowto.com/)
+    *<https://null-byte.wonderhowto.com/forum/>
+    * <https://www.hak5.org/>
+    *[NULL BYTE](https://null-byte.wonderhowto.com/)
     * [Hacking Tutorials](http://www.hackingtutorials.org/)
-    * [HaXF4RALL - Hackers Repository](https://haxf4rall.com/)
+    *[HaXF4RALL - Hackers Repository](https://haxf4rall.com/)
     * [DOCTOR CHAOS](https://www.drchaos.com/)
 
 
@@ -114,14 +129,18 @@ Hijacking Your Home IoT Appliance:
 [Part 1](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-part-1-8c2aabdf950d)
 and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-part-2-92cff7055540)
 
+
 # Passwork Hacking
+
 * [Password Cracking - Computerphile](https://www.youtube.com/watch?v=7U-RbOKanYs)
 * [How to Choose a Password - Computerphile](https://www.youtube.com/watch?v=3NjQ9b3pgIg)
 * [How NOT to Store Passwords! - Computerphile](https://www.youtube.com/watch?v=8ZtInClXe1Q)
 * [Is My Password Safe? Practices for People Who Know Better](http://hackaday.com/2017/04/07/is-my-password-safe/)
 * [How to Find Passwords Using Wireshark](http://www.instructables.com/id/How-to-Find-Passwords-Using-Wireshark/)
 
+
 # Kit-Cat Clock Build
+
 * [How to Build a Hacking Raspberry Pi](https://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
 
 * [Kit-Cat Klock](https://kit-cat.com/)
@@ -129,8 +148,10 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 * [Small Kit-Cat Clock in Black](https://www.amazon.com/Kitty-Cat-Klock-Classic-Black/dp/B00GNJ9I5K/ref=asc_df_B00GNJ9I5K/?tag=hyprod-20&linkCode=df0&hvadid=191970712264&hvpos=1o1&hvnetw=g&hvrand=12606860438882738637&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9007586&hvtargid=pla-300946248453&psc=1)
 * [This Clock's Eyes Follow You](https://www.youtube.com/watch?v=_Q_u6tILufY)
 
+
 # USB Attach Platform
 [Top 10 Gadgets Every White & Black Hat Hacker Use & Needs In Their Toolkit](https://www.youtube.com/watch?v=uVnMy1qtJWc)
+
 * [Bash Bunny](https://www.hak5.org/gear/bash-bunny)
     * [Build an Affordable Bash Bunny with a Raspberry Pi Zero W](https://blog.hackster.io/build-an-affordable-bash-bunny-with-a-raspberry-pi-zero-w-11a4abf7bde5)
 * [Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
@@ -138,10 +159,13 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 * [How to create a rubber ducky usb?](https://epn.org/how-to-create-a-rubber-ducky-usb/)
 * [BadUSB](https://opensource.srlabs.de/projects/badusb)
 * [PoisonTap](https://samy.pl/poisontap/)
+    * [PoisonTap - exploiting locked machines w/Raspberry Pi Zero](https://www.youtube.com/watch?v=Aatp5gCskvk)
+    * [Applied Hacking: Poison Tap](https://samy.pl/poisontap/)
 * [USBdriveby](http://samy.pl/usbdriveby/)
 * [USBHarpoon](https://www.bleepingcomputer.com/news/security/usbharpoon-is-a-badusb-attack-with-a-twist/)
 * [ESPloit](https://github.com/exploitagency/ESPloitV2)
 * [Google's Keystroke Injection Protection Test with P4wnP1](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https://pentestit.de/googles-keystroke-injection-schutz-test-mit-p4wnp1/&edit-text=&act=url)
+
 
 # Build a Hacking Raspberry Pi
 You find many articles about how to turn a Raspberry Pi into a hacking platform:
@@ -150,7 +174,9 @@ You find many articles about how to turn a Raspberry Pi into a hacking platform:
 * [Build a Beginner Hacking Kit with the Raspberry Pi 3 Model B+](https://null-byte.wonderhowto.com/how-to/build-beginner-hacking-kit-with-raspberry-pi-3-model-b-0184144/)
 * [Buy the Best Wireless Network Adapter for Wi-Fi Hacking in 2018](https://null-byte.wonderhowto.com/how-to/buy-best-wireless-network-adapter-for-wi-fi-hacking-2018-0178550/)
 
+
 # HoneyPot
+
 * [HoneyPi – an easy honeypot for a Raspberry Pi](https://trustfoundry.net/honeypi-easy-honeypot-raspberry-pi/)
 * [How I Setup My SSH Honeypot](https://medium.com/@rockprofile/how-i-setup-my-ssh-honeypot-b34b2bd3fba9)
 * [I Opened My Connection To SSH Attacks, And These Were The Requests I Saw](https://medium.com/@rockprofile/i-opened-my-connection-to-ssh-attacks-and-these-were-the-requests-i-saw-a5999d62e511)
@@ -160,11 +186,15 @@ You find many articles about how to turn a Raspberry Pi into a hacking platform:
 * [Honeypots with Modern Honey Network (MHN)](https://medium.com/@6c2e6e2e/honeypots-with-modern-honey-network-mhn-6acd1a04d4a9)
 * [StingBox Network Intrusion Detection and HoneyPot](https://www.youtube.com/watch?v=PoKddrA77YE)
 
+
 # IoT Security
+
 * [ZYMBIT - Security Module For Raspberry Pi](https://www.zymbit.com/zymkey/)
 * [Internet Of Things Security Play: ARM Acquires Offspark](http://www.crn.com/news/components-peripherals/300075688/internet-of-things-security-play-arm-acquires-offspark.htm)
 
+
 # NetPi – Raspberry Pi Network Analyzer
+
 * [NetPi – Raspberry Pi Network Analyzer](http://blamethenetwork.com/netpi-raspberry-pi-network-analyzer/)
 * [ESP to WireShark](http://hackaday.com/2017/07/06/esp-to-wireshark/)
 * [Wireshark · OUI Lookup Tool](https://www.wireshark.org/tools/oui-lookup.html)
@@ -172,12 +202,14 @@ You find many articles about how to turn a Raspberry Pi into a hacking platform:
 * [Deep Dive Packet Analysis with Wireshark](https://www.networkcomputing.com/sites/default/files/resources/nwc/Pennacchi__Deep_Dive_Packet_Analysis_Interop_2018.pdf)
 * [Navigating with Wireshark and ICMP, DNS, ping](https://www.youtube.com/watch?time_continue=1&v=FrXORv_yALQ)
 
+
 # SIFT Workstation
 The SIFT Workstation is a group of free open-source incident response
 and forensic tools designed to perform detailed digital forensic examinations
 in a variety of settings.
 
 * [Breach detection with Linux filesystem forensics](https://opensource.com/article/18/4/linux-filesystem-forensics)
+
 
 # Insomnia
 Insomnia is open source cross-platform REST API client desktop application and alternative to Postmen.
@@ -187,12 +219,14 @@ authentication helpers, code generation, and environment variables.
 
 * [Insomnia](https://insomnia.rest/)
 
+
 # Mitmproxy
 [mitmproxy][100] is an open source, interactive,
 SSL-capable intercepting proxy with a console interface
 used for debugging, testing, privacy measurements, and penetration testing.
 It can be used to intercept, inspect, modify and replay web traffic such as
 HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols.
+
 
 # TAILS
 The Amnesiac Incognito Live System (TAILS)
@@ -209,31 +243,42 @@ The operating system is free to use and live boots from a USB stick.
 * [Decrypt your HTTPS traffic with mitmproxy](https://www.darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/)
 * [Raspberry PI 3 + MITMProxy](https://www.adamengle.com/2016/12/08/raspberry-pi-3-mitmproxy/)
 
+
 # Pentesting Tools
+
 * [17 penetration testing tools the pros use](https://www.csoonline.com/article/2943524/network-security/17-penetration-testing-tools-the-pros-use.html)
 * [DIY Pi Zero Pentesting Tool Keeps it Cheap](https://hackaday.com/2018/05/15/diy-pi-zero-pentesting-tool-keeps-it-cheap/)
 * [ROGUE PI: A RPI PENTESTING DROPBOX](https://hackaday.com/2013/03/24/rogue-pi-a-rpi-pentesting-dropbox/)
 * [WiFi Penetration Testing With An ESP32](https://hackaday.com/2021/05/27/wifi-penetration-testing-with-an-esp32/)
 
+
 ## Pentesting in Action
 [DevOops](https://app.hackthebox.com/login) is a retired machine on [HackTheBox](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159). [This write-up](https://kaizoku.dev/htb-devoops) is a walk through the methodology that leads to root shell.
 
+
 # IoT Device Fingerprinting
+
 * [Free IoT security platform runs on OpenWrt routers and the Raspberry Pi](http://linuxgizmos.com/free-iot-security-platform-runs-on-openwrt-routers-and-the-raspberry-pi/)
 
 ################################################################################
 
 
 # Port Scanning Techniques
+
 * [Port Scanning Techniques: An Introduction](https://www.networkcomputing.com/network-security/port-scanning-techniques-introduction/1231255414)
 * [How to Detect CVEs Using Nmap Vulnerability Scan Scripts](https://securitytrails.com/blog/nmap-vulnerability-scan)
 
+
 ## Sniffing WiFi Activity
+
 * [Stealthfully Sniff Wi-Fi Activity Without Connecting to a Target Router](https://null-byte.wonderhowto.com/how-to/stealthfully-sniff-wi-fi-activity-without-connecting-target-router-0183444/)
 
+
 # Introduction to WiFi
+
 * [Introduction to Wi-Fi (802.11 or WiFi)](http://ccm.net/contents/802-introduction-to-wi-fi-802-11-or-wifi)
 * [Connect to a wireless network using command line nmcli](https://nullr0ute.com/2016/09/connect-to-a-wireless-network-using-command-line-nmcli/)
+
 
 ## WiFi Channels
 Selecting the proper WiFi channel can significantly improve your WiFi coverage and performance.
@@ -242,8 +287,9 @@ and many wireless routers automatically select the channel for you upon initial 
 where depending on your wireless environment,
 it could lead to slow WiFi speeds and interference.
 
+
 ## WiFi Scanning
-https://security.stackexchange.com/questions/152007/why-do-wifi-devices-broadcast
+<https://security.stackexchange.com/questions/152007/why-do-wifi-devices-broadcast>
 
 WiFi scanning is one of the basic functions in a wireless network.
 It is the mechanism by which a client device (e.g. computer)
@@ -289,6 +335,7 @@ WiFi scanners doing a passive scan would need to
 and extract additional information from specialized frame headers
 that are used by the WiFi driver to pass information to user-space applications.
 
+
 ## WiFi Modes
 A WiFi network device always operates in one
 (or for some special hardware, multiple modes as in AP+STA or WDS with AP Mode)
@@ -302,6 +349,7 @@ of the six modes that 802.11 wireless cards can operate in:
 1. Monitor - passively read packets, no packets are transmitted
 
 Strictly speaking, Infrastructure Mode is not a device mode but a concept.
+
 
 ## WiFi Monitor and Promiscuous Modes
 The Ethernet and WiFi data is broadcasted to all who wish to listen on a wire or in the air
@@ -362,6 +410,7 @@ sudo iwconfig wlan0 mode monitor
 sudo ifconfig wlan0 up
 ```
 
+
 ## Packet Injection
 It may also be possible to transmit packets in [monitor mode][05],
 which is known as [packet injection][60] (aka [RadioTap][61]).
@@ -376,6 +425,7 @@ If we can't inject packets into the AP (in Aircrack-ng, this is the function of 
 then it really limits what we do from a penetration testing prospective.
 
 ---------------
+
 
 # Kali Penetration Testing Tools
 A penetration test, aka pen test, is an authorized simulated cyberattack on a computer system,
@@ -394,6 +444,7 @@ operating system distribution in its own right.
 * [How to Build a Hacking Raspberry Pi](https://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
 * [Mastering Kali Linux for Advanced Penetration Testing](http://dl2.cbtnet.ir/Mastering-Kali-Linux-for-Advanced-Penetration-Testing-Beggs-Robert.pdf)
 
+
 ## Kali Platform Install
 Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing.
 The version I installed was version 2018.3 (i.e. [Kali Linux RPi - kali-linux-2018.3-rpi.img.xz][19]).
@@ -404,6 +455,7 @@ The version I installed was version 2018.3 (i.e. [Kali Linux RPi - kali-linux-20
 * [Kali Linux Tools Listing](https://tools.kali.org/tools-listing)
 * [An introduction to the Kismet packet sniffer](https://www.linux.com/news/introduction-kismet-packet-sniffer)
 * [Kali Linux Tutorial](https://www.tutorialspoint.com/kali_linux/index.htm)
+
 
 ### Step 1: Kali System Physical Design - DONE
 For my Kali Linux hardware platform,
@@ -444,6 +496,7 @@ Im using the [Edimax EW-7811Un is a Wireless-N dongle][08].
 The purpose of the C2 wireless dongle is to connect via WiFi to your access point,
 assuming you choose not to use a wired Ethernet connection.
 
+
 ### Step 2: Download Kali Image - DONE
 Before you can load a copy of the latest version of Kali on your Raspberry Pi,
 you must first download the official operating system from [here][06] and [here][07].
@@ -466,6 +519,7 @@ $ ls -l
 total 4237888
 -rw-rw-r-- 1 jeff jeff 4718592000 Sep  2 11:59 kali-linux-2018.3-rpi.img
 ```
+
 
 ### Step 3: Write Kali Image to SD Card - DONE
 Next using Linux, you have copied the Kali image onto the SD card mounted to your system.
@@ -566,6 +620,7 @@ rm  copy-from-sd-card.img
 sudo umount /dev/sdj
 ```
 
+
 ### Step 3: Installing SSH on Kali at First Boot - DONE
 I want to do a headless installation of Kali Linux on the Raspberry Pi.
 Why?  I don't have conveniently on-hand a spare monitor, keyboard, and mouse.
@@ -622,6 +677,7 @@ and to remove the line containing `dpkg-reconfigure openssh-server` previously a
 >For more about installing SSH on Kali,
 >checkout "[How to Enable and Start SSH on Kali Linux][25]".
 
+
 ### Step 4: Resize the Linux Partition - DONE
 I logged into my Kali/RPi and checked the filesystem:
 
@@ -657,7 +713,8 @@ Now start `gparted` and use this GUI tool to reclaim all the unused space on the
 of the partition update and install of the full Kali Linux.
 Now we'll install the full version of Kali Linux.
 
-###  Step 5: Installing Full Version of Kali Linux - DONE
+
+### Step 5: Installing Full Version of Kali Linux - DONE
 Now you will want to apply updates and upgrades to Kali
 and get access to it's full capabilities.
 During the installation of the full Version of Kali Linux on Raspberry Pi,
@@ -685,6 +742,7 @@ and consume about 9 Gigabytes of disk space.
 With the full version of Kali Linux installed,
 you have access to a large range of different tools and programs.
 We'll browse through some of them later.
+
 
 ### Step X: Wireless Command & Control (C2) Dongle - RAN INTO DRIVER ISSUES
 [How to resolve EW-7811Un built-in driver issues in Linux kernel v3.10 or higher](https://edimax.freshdesk.com/support/solutions/articles/14000035492-how-to-resolve-ew-7811un-built-in-driver-issues-in-linux-kernel-v3-10-or-higher)
@@ -802,9 +860,11 @@ To restart network interface, enter: `sudo /etc/init.d/networking restart`
 Now shutdown the RPi (via `shutdown -h now`), unplug your Ethernet connection,
 install the Edimax dongle into the RPi USB, and restart the RPi to make sure C2 WiFi is operational.
 
+
 ### Step X: Wireless Attack Dongle
 Our attack wireless dongle will be a Kali Linux-compatible WiFi adapter capable of packet injection.
 This wireless device will be our attack method onto a WiFi network.
+
 
 ### Step 5: Install WiFi Drivers
 For my WiFi radio,
@@ -839,6 +899,7 @@ This [video](https://www.youtube.com/watch?v=XJ0gcA778Ms) could help.
 > **NOTE:** The tried and true [Edimax EW-7811Un is a Wireless-N dongle][08]
 works very well with the Raspberry Pi and is supports the Kali suite of tools
 but doesn't have much gain / range as the Alfa AWUS036ACH.
+
 
 #### Step X: Remote Desktop into Kali
 I want to remote desktop into the Kali Linux so I can take full advantage of the Kali desktop GUI menu system.
@@ -878,6 +939,7 @@ In my user scenario for VNC,
 my Ubuntu desktop will be running the VNC client so it can run the Kali desktop in one of its window.
 Therefore, my Kali Linux will be configured as a VNC server.
 The VNCserver software is installed already on Kali but needs to be configured.
+
 
 ##### VNC Install on Ubuntu
 So I need to install the TightVNC VNC client on Ubuntu],
@@ -941,6 +1003,7 @@ When VNC is first set up, it launches a default server instance on port 5901.
 This port is called a display port, and is referred to by VNC as `:1`.
 VNC can launch multiple instances on other display ports, like :2, :3, etc.
 When working with VNC servers, remember that `:X` is a display port that refers to 5900+X.
+
 
 ##### VNC Install on Kali
 For VNC to work on the Kali Raspberry Pi,
@@ -1035,6 +1098,7 @@ vncserver -kill :1
 vncserver :1
 ```
 
+
 ##### Starting VNC on Kali at Boot Time and Making it More Secure
 You may want to enable the VNC when Kali boots up so I can VNC right into it for the GUI.
 Otherwise I'll need to first SSH in and turn on the VNC server, as done above.
@@ -1046,8 +1110,10 @@ to address these things.
 
 ---------------
 
+
 ## Personalize Kali Platform
 Need to install my personal tools to feel at home.
+
 
 ### Step X: Install Your Personal Tools
 Now that all the Linux packages have been loaded,
@@ -1093,6 +1159,7 @@ ln -s ~/.X/Xresources ~/.Xresources
 ln -s ~/.X/xsessionrc ~/.xsessionrc
 ```
 
+
 ### Step X: Installing Kali Lazy Script
 The [LAZY script][48] is for Kali Linux and
 automates many procedures for WiFi penetration and hacking.
@@ -1120,9 +1187,11 @@ cd ~/src//lscript
 rmdir -r /root/lscript
 ```
 
+
 ### Step X: Arpwatch Configuration
 check out
 cheatsheet-ip-networking-commands.md
+
 
 ### Step X: Post-Install
 These are the few things which you may want to perform
@@ -1131,7 +1200,8 @@ after installing a fresh version of Kali Linux.
 
 
 #### Step X: Privacy with Mozilla's Firefox and Tor Browser
-* https://www.makeuseof.com/tag/best-dark-web-websites/
+
+* <https://www.makeuseof.com/tag/best-dark-web-websites/>
 
 “Out of the box,” Mozilla’s Firefox browser is
 [widely regarded as the most privacy-friendly mainstream browser][57] available.
@@ -1144,6 +1214,7 @@ some security and privacy tweaks need to be done.
 [Tor Browser][58] lets you use Tor on Microsoft Windows, Apple MacOS, or GNU/Linux without needing to install any software. It can run off a USB flash drive, comes with a pre-configured web browser to protect your anonymity, and is self-contained (portable).
 
 [Become Anonymous on the Internet Using Tor](https://null-byte.wonderhowto.com/how-to/become-anonymous-internet-using-tor-0130391/)
+
 1. Download Tor.
 1. Install Tor.
 1. Navigate to the Data/Vidalia folder, and comment out the Browser line with "#" prefacing it.
@@ -1154,7 +1225,9 @@ some security and privacy tweaks need to be done.
 * [Settings for privacy, browsing history and do-not-track](https://support.mozilla.org/en-US/kb/settings-privacy-browsing-history-do-not-track)
 * [The Complete Firefox Privacy and Security Guide](https://www.bestvpn.com/firefox-privacy-security-guide/)
 
+
 #### Step X: Install Tor
+
 * [Tor 0day: Finding IP Addresses](https://www.hackerfactor.com/blog/index.php?/archives/896-Tor-0day-Finding-IP-Addresses.html)
 You can installing [Tor][53] on Kali Linux and it is available in the Kali repository.
 Tor helps hide your traffic from being analyzed by ISPs or the government
@@ -1192,6 +1265,7 @@ systemctl enable tor
 # browse via tor using proxychains
 proxychains iceweasel
 ```
+
 
 ### Step X: Check the Software and Hardware Version of a Raspberry Pi
 For the recorded, let print the hardware and software
@@ -1271,6 +1345,7 @@ echo "CPU => $((cpu/1000))'C"
 * []()
 * [How to find out Raspberry Pi GPU and ARM CPU temperature on Linux](https://www.cyberciti.biz/faq/linux-find-out-raspberry-pi-gpu-and-arm-cpu-temperature-command/)
 
+
 #### Add Standard User
 By default, Kali tools only run as the root user.
 It is not a good idea to run as root unless it is necessary,
@@ -1290,6 +1365,7 @@ usermod -a -G sudo pi
 chsh -s /bin/bash pi
 ```
 
+
 #### Filezilla
 Filezilla is one of the better FTP clients, so install Filezilla using the following command:
 
@@ -1298,6 +1374,7 @@ Filezilla is one of the better FTP clients, so install Filezilla using the follo
 # install the FTP client Filezilla
 apt-get install filezilla filezilla-common -y
 ```
+
 
 #### HTOP and NetHogs
 HTOP shows running process and memory used including many more details than the standard `top`.
@@ -1316,6 +1393,7 @@ nethogs wlan0
 
 * [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring)
 
+
 #### Recordmydesktop
 Recordmydesktop gives you the ability to record and make a video of your activities in Kali Linux.
 
@@ -1323,8 +1401,11 @@ Recordmydesktop gives you the ability to record and make a video of your activit
 apt-get install gtk-recordmydesktop recordmydesktop -y
 ```
 
+
 #### SDR and RTL-SDR
+
 * [Kali Linux 1.0.5 and Software Defined Radio](https://www.kali.org/news/kali-linux-software-defined-radio-support/)
+
 
 ### Step X: Install OpenVAS
 The Open Vulnerability Assessment System (OpenVAS) is a framework of several services
@@ -1332,24 +1413,31 @@ and tools offering a comprehensive and powerful vulnerability scanning and vulne
 
 * [OpenVAS](http://www.openvas.org/)
 
+
 ### Step X: Raspberry Pi Disk Encryption
+
 * [Raspberry Pi Disk Encryption](https://docs.kali.org/kali-dojo/04-raspberry-pi-with-luks-disk-encryption)
+
 
 ### Step X: Backup Kali Image via UrBackup
 UrBackup is an easy to setup open source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time. File and image backups are made while the system is running without interrupting current processes. UrBackup also continuously watches folders you want backed up in order to quickly find differences to previous backups. Because of that incremental file backups are really fast. Your files can be restored through the web interface or the Windows Explorer while the backups of drive volumes can be restored with a bootable CD or USB-Stick (bare metal restore). A web interface makes setting up your own backup server really easy.
 
-* Full PC Image Backup with Raspberry pi / UrBackup - https://www.youtube.com/watch?v=4Dtr-hPQ8Ro&index=3&list=PL846hFPMqg3iTKbgQryS6UNXM4Nf3KVFw
-* https://techblog.jeppson.org/2017/06/backup-systems-urbackup/
-* https://forums.freenas.org/index.php?threads/install-urbackup-in-a-jail.22117/
+* Full PC Image Backup with Raspberry pi / UrBackup - <https://www.youtube.com/watch?v=4Dtr-hPQ8Ro&index=3&list=PL846hFPMqg3iTKbgQryS6UNXM4Nf3KVFw>
+* <https://techblog.jeppson.org/2017/06/backup-systems-urbackup/>
+* <https://forums.freenas.org/index.php?threads/install-urbackup-in-a-jail.22117/>
 
 ---------------
 
+
 # Kali Linux VMware, and VirtualBox Image
+
 * [Download Kali Linux VMware and VirtualBox Images](https://www.offensive-security.com/kali-linux-vm-vmware-virtualbox-image-download/)
 * [Kali Linux VirtualBox Guest](https://docs.kali.org/general-use/kali-linux-virtual-box-guest)
 * [How To Install Kali Linux in VirtualBox](https://www.youtube.com/watch?v=FVmWMogGX4Q)
 
+
 # On Going Maintenance of Kali
+
 
 ## Keeping Kali Up to Date
 You can keep Kali up to date with [apt package management][49].
@@ -1386,9 +1474,12 @@ apt-get -y autoremove
 
 ---------------
 
+
 # Some Hacking Examples
+
 * [Why Every Hacker Should Know & Use Linux](https://null-byte.wonderhowto.com/forum/why-every-hacker-should-know-use-linux-0151287/)
 * [How to Use Null Byte to Study to Become a Professional Hacker](https://null-byte.wonderhowto.com/forum/use-null-byte-study-become-professional-hacker-0159816/)
+
 
 ## Evading Detection
 Whenever you visit a website or server over the Internet,
@@ -1416,9 +1507,12 @@ it is [not effective in anonymizing your traffic from law enforcement][59], espe
 * [Use Tor? Riffle promises to protect your privacy even better](http://www.computerworld.com/article/3095463/security/meet-riffle-the-anonymity-network-from-mit-that-promises-to-outdo-tor.html)
 
 ********************************************************************************
-**Problems with arwatch.  I couldn't get it to work** - https://bugs.launchpad.net/ubuntu/+source/arpwatch/+bug/1655131
+**Problems with arwatch.  I couldn't get it to work** - <https://bugs.launchpad.net/ubuntu/+source/arpwatch/+bug/1655131>
+
+
 ## IP/MAC Address Monitoring with with Arpwatch
-* https://www.youtube.com/watch?v=uqanawVLpSg
+
+* <https://www.youtube.com/watch?v=uqanawVLpSg>
 * [Arpwatch Tool to Monitor Ethernet Activity in Linux](https://www.tecmint.com/monitor-ethernet-activity-in-linux/)
 * [How To Monitor Ethernet Activity In Linux Using Arpwatch](http://www.linuxandubuntu.com/home/how-to-monitor-ethernet-activity-in-linux-using-arpwatch)
 * [Arpwatch Home Network Monitor](https://www.virtualizationhowto.com/2016/02/arpwatch-home-network-monitor/)
@@ -1460,16 +1554,19 @@ and check if the process is running:
 ps -aux | grep arpwatch
 ```
 
-**Problems with arwatch.  I couldn't get it to work** - https://bugs.launchpad.net/ubuntu/+source/arpwatch/+bug/1655131
+**Problems with arwatch.  I couldn't get it to work** - <https://bugs.launchpad.net/ubuntu/+source/arpwatch/+bug/1655131>
 ********************************************************************************
 
+
 ## IP/MAC Address Monitoring with with Arpwitch
+
 * [arpwitch - A modern arpwatch tool with JSON formatted oututs and easy options to exec commands when network changes are observed](https://github.com/verbnetworks/arpwitch)
-* https://verbnetworks.com/projects/tools-and-packages/
+* <https://verbnetworks.com/projects/tools-and-packages/>
 
 ```bash
 pip install arpwitch
 ```
+
 
 ## Shodan is the Search Engine for IoT
 [Shodan](https://www.shodan.io) is a search engine for Internet-connected devices. Google lets you search for websites, Shodan lets you search for devices. This library provides developers easy access to all of the data stored in Shodan in order to automate tasks and integrate into existing tools.
@@ -1479,22 +1576,31 @@ pip install arpwitch
 * [How to Find Any Router's Web Interface Using Shodan](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-any-routers-web-interface-using-shodan-0154660/)
 * [How to Find Vulnerable Webcams Across the Globe Using Shodan](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerable-webcams-across-globe-using-shodan-0154830/)
 
+
 ## Netcat Listener
+
 * [How to Build a Hacking Raspberry Pi](https://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
 * [How to Use Netcat, the Swiss Army Knife of Hacking Tools](https://null-byte.wonderhowto.com/how-to/hack-like-pro-use-netcat-swiss-army-knife-hacking-tools-0148657/)
 * [7 Fundamental Use Cases of Netcat](https://medium.com/100-days-of-linux/7-fundamental-use-cases-of-netcat-866364eb1742)
 * [Netcat vs Cryptcat – Remote Shell to Control Kali Linux from Windows machine](https://gbhackers.com/netcat-vs-cryptcat/)
 
+
 ## Set Wireless Interface to Monitor / Managed Modes
+
 * [Three ways to set wireless interface to Monitor mode and Managed mode](https://miloserdov.org/?p=126)
 * [How do I enable the WiFi monitoring mode in Kali Linux?](https://www.quora.com/How-do-I-enable-the-WiFi-monitoring-mode-in-Kali-Linux-Iwconfig-ipconfig-is-showing-command-not-found)
 * [How to Hack Your Own Network and Beef Up Its Security with Kali Linux](https://lifehacker.com/how-to-hack-your-own-network-and-beef-up-its-security-w-1649785071)
 
+
 ## Aircrack-ng
-* https://www.aircrack-ng.org/doku.php?id=airmon-ng
+
+* <https://www.aircrack-ng.org/doku.php?id=airmon-ng>
+
 
 ## AirGraph-ng
+
 * [Visualize WiFi Relationships with AirGraph-ng | HakByte](https://www.youtube.com/watch?v=wvRdeFGuHMc)
+
 
 ## Metasploit Framework
 The [Metasploit Project][50] is a computer security project that provides information
@@ -1524,24 +1630,31 @@ msfconsole
 db_status
 ```
 
+
 ## Open-Source Intelligence (OSINT)
 Open-source intelligence is the collection and analysis of data gathered from open sources to produce actionable intelligence.
 
-* [What Is Open Source Intelligence and How Is it Used?]()https://www.recordedfuture.com/open-source-intelligence-definition
+* [What Is Open Source Intelligence and How Is it Used?]()<https://www.recordedfuture.com/open-source-intelligence-definition>
 * [Open-Source Intelligence (OSINT) in 5 Hours - Full Course - Learn OSINT!](https://www.youtube.com/watch?v=qwA6MmbeGNo)
 * [Christian Murray OSINT Videos](https://www.youtube.com/@christianmurray1809)
 
+
 ## Maltego
 Maltego is am open-source forensics and intelligence gathering.
-* https://null-byte.wonderhowto.com/collection/maltego/
+
+* <https://null-byte.wonderhowto.com/collection/maltego/>
+
 
 ## WiFi Deauthentication Attack
 A [WiFi deauthentication attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack)
 is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.
+
 * [Pocket-Sized Deauther Could Definitely Get You In Trouble](https://hackaday.com/2019/04/04/pocket-sized-deauther-could-definitely-get-you-in-trouble/)
 * [Great Badge Concept: A “Geiger Counter” For WiFi Deauthentication Frames](https://hackaday.com/2020/06/20/great-badge-concept-a-geiger-counter-for-wifi-deauthentication-frames/)
 
+
 ## Air Gap Attaches
+
 * [6 Ingenious Ways Hackers Break Into the World’s Most Secure Computers](https://tomsmith585.medium.com/6-ingenious-ways-hackers-break-into-the-worlds-most-secure-computers-45d751376259)
 
 
@@ -1568,7 +1681,6 @@ is a type of denial-of-service attack that targets communication between a user 
 [19]:https://www.offensive-security.com/kali-linux-arm-images/
 [20]:https://raspberrypi.stackexchange.com/questions/60606/cant-ssh-in-kali-headless-setup-on-raspberry-pi3
 [21]:https://en.wikipedia.org/wiki/Medium-dependent_interface#Auto_MDI-X
-[22]:https://en.wikipedia.org/wiki/Ethernet_crossover_cable
 [23]:https://www.amazon.com/Cables-Unlimited-Cat6-Crossover-Adapter/dp/B00030BYJI
 [24]:https://dephace.com/installing-full-version-of-kali-linux-on-raspberry-pi-3/
 [25]:https://lmgsecurity.com/enable-start-ssh-kali-linux/
@@ -1577,7 +1689,6 @@ is a type of denial-of-service attack that targets communication between a user 
 [28]:https://github.com/astsam/rtl8812au
 [29]:http://raspberrypi.stackexchange.com/questions/11631/how-to-setup-multiple-wifi-networks
 [30]:https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=14226
-[31]:https://en.wikipedia.org/wiki/Comparison_of_remote_desktop_software
 [32]:https://en.wikipedia.org/wiki/Framebuffer
 [33]:https://nims11.wordpress.com/2012/06/24/nested-x-servers-with-xephyr/
 [34]:http://jeffskinnerbox.me/posts/2014/Apr/29/howto-using-xephyr-to-create-a-new-display-in-a-window/
