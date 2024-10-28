@@ -1746,6 +1746,15 @@ As to port `53`, it must remain open to support DNS services
 
 
 
+# Nested Virtualization
+* [A beginner’s guide to setting up nested virtualization on Proxmox](https://www.xda-developers.com/set-up-nested-virtualization-on-proxmox/)
+
+
+
+---------------
+
+
+
 
 # Proxmox Cluster
 * [How do I create a cluster?](https://faq.myloc.de/?action=faq&cat=23&id=271&artlang=en)
