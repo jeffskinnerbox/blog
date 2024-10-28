@@ -189,6 +189,8 @@ It’s 2019 and USB-C is still a mess - <https://www.androidauthority.com/state-
 [It's 2021 and USB-C is still a mess](https://www.androidauthority.com/state-of-usb-c-870996/)
 The Problem With Micro-USB Cables - <https://tekbotic.com/blogs/tekblog/how-to-fix-loose-micro-usb-cable>
 
+* [Ubiquitous Successful Bus: Version 2](https://hackaday.com/2024/10/17/ubiquitous-successful-bus-version-2/)
+
 * [USB-C Is Taking Over… When, Exactly?](https://hackaday.com/2020/06/23/usb-c-is-taking-over-when-exactly/)
 * [The Wonderful World Of USB Type-C](https://hackaday.com/2018/08/17/the-wonderful-world-of-usb-type-c/)
 * [Here is why USB Type-C is AWESOME and how you can use Power Delivery for your electronics!](https://www.youtube.com/watch?v=OwAZqJ4wpJg)
