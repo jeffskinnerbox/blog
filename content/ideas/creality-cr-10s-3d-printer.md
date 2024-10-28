@@ -1171,6 +1171,9 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 especially for recovering the exact positions of surface points.
 [Photogrammetry is not 3D scanning][38].
 
+* [Photogrammetry Explained: From Multi-View Stereo to Structure from Motion](https://pyimagesearch.com/2024/10/14/photogrammetry-explained-from-multi-view-stereo-to-structure-from-motion/)
+* [NeRFs Explained: Goodbye Photogrammetry?](https://pyimagesearch.com/2024/10/28/nerfs-explained-goodbye-photogrammetry/)
+
 * [Photogrammetry vs. "Real" 3D Scanner](https://www.youtube.com/watch?v=dGJ_XD-fCsI)
 
 * [This 3D Scanner Is Your Ticket To Photogrammetry](https://hackaday.com/2019/04/27/this-3d-scanner-is-your-ticket-to-photogrammetry/)
