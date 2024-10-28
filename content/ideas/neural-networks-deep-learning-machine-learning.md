@@ -479,6 +479,7 @@ There is also an open source initiative like this call [The Fido Project](http:/
 
 # Whisper Voice Recognition
 
+* [Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html?tracking=6719f16eac406)
 * [OpenAI Hears You Whisper](https://hackaday.com/2022/09/22/openai-hears-you-whisper/)
 * [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper)
 * [Here’s A Plain C/C++ Implementation Of AI Speech Recognition, So Get Hackin’](https://hackaday.com/2022/11/27/heres-a-plain-c-c-implementation-of-ai-speech-recognition-so-get-hackin/)

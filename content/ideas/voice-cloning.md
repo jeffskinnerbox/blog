@@ -69,6 +69,7 @@ Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, m
 
 # Voice Recognition
 
+* [Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html?tracking=6719f16eac406)
 * [OpenAI Hears You Whisper](https://hackaday.com/2022/09/22/openai-hears-you-whisper/)
 * [Open AI’s Whisper is Amazing!](https://www.youtube.com/watch?v=OCBZtgQGt1I)
 * [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://github.com/openai/whisper)

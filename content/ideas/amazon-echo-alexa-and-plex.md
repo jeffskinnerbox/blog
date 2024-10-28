@@ -35,6 +35,7 @@ Version:      0.0.0
 
 # Special Purpose Voice Recognition Module
 
+* [Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html?tracking=6719f16eac406)
 * [Voice Recognition Module - 254 Voice Commands + UART](https://www.youtube.com/watch?v=zCEYxSdYBcA)
 
     * <http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254>

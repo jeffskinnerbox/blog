@@ -8,7 +8,7 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
------
+---------------
 
 
 
@@ -33,7 +33,9 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 >“Imagine a cascading model of classifiers where you have a really low power model using barely any power to detect if there is a sound going on, then another model that takes more energy to run, which figures out if it’s human speech or not,” he explained. “Then a deeper network that only wakes up when these conditions are met, that uses more power and resources. By chaining these together, you only wake up the [energy intensive] one when you need to, so you can make big savings on energy efficiency.” - Daniel Situnayake, Google
 
+
 # TinyML Book
+
 * [TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers](https://tinymlbook.com/)
 * [TinyML Screencasts](https://www.youtube.com/playlist?list=PLtT1eAdRePYoovXJcDkV9RdabZ33H6Di0)
 
@@ -49,46 +51,70 @@ TinyML is a community of engineers focused on how best to implement machine lear
 
 * [Remoticon Video: How To Use Machine Learning With Microcontrollers](https://hackaday.com/2020/12/04/remoticon-video-how-to-use-machine-learning-with-microcontrollers/)
 
+
 # Microsoft Research
+
 * [Tiny Machine Learning On As Little As 2 KB Of RAM](https://hackaday.com/2023/02/24/tiny-machine-learning-on-as-little-as-2-kb-of-ram/)
 
+
 # Some Use Cases
+
 * [Embedded Machine Learning Applications with Proven ROI](https://www.edgeimpulse.com/blog/embedded-machine-learning-applications-with-proven-roi)
 
+
 # Himax WE-I Plus (Camera)
+
 * [Himax WE-I Plus](https://docs.edgeimpulse.com/docs/himax-we-i-plus)
 * [Himax WE-I Plus EVB Endpoint AI Development Board](https://www.sparkfun.com/products/17256)
 * [Himax Launches WiseEye WE-I Plus HX6537-A with Full Support for TensorFlow Lite for Microcontrollers](https://www.hackster.io/news/himax-launches-wiseeye-we-i-plus-hx6537-a-with-full-support-for-tensorflow-lite-for-microcontrollers-484c17737b73)
 
+
 # μTensor
+
 * [μTensor](https://utensor.github.io/website/)
 
+
 # Artificial Intelligence for Embedded Systems (AIfES)
+
 * [AIfES releases exciting new version of TinyML library for Arduino](https://www.blogdot.tv/aifes-releases-exciting-new-version-of-tinyml-library-for-arduino/)
 
+
 # SensiML
+
 * [SensiML](https://sensiml.com/)
 * [SensiML Introduces Free Community Edition of Analytics Toolkit](https://sensiml.com/plans/community-edition/)
 * [Getting Started with the QuickFeather Dev Kit and SensiML](https://www.hackster.io/gatoninja236/getting-started-with-the-quickfeather-dev-kit-and-sensiml-9881a3)
 
+
 # Weights & Biases
+
 * [Weights & Biases: Machine learning experiment tracking, dataset versioning, and model evaluation](https://wandb.ai/site)
 
+
 # Sony's Spresense
+
 * [Spresense](https://developer.sony.com/develop/spresense/)
 * [Edge Impulse Support of Sony's Spresense](https://docs.edgeimpulse.com/docs/sony-spresense)
 
+
 # TensorFlow Lite
+
 * [TensorFlow Lite](https://www.tensorflow.org/lite)
 
+
 # App Framework for ML
+
 * [Turn Python Scripts into Beautiful ML Tools](https://towardsdatascience.com/coding-ml-tools-like-you-code-ml-models-ddba3357eace)
 * [Streamlit](https://www.streamlit.io/)
 
+
 # Performance Benchnark Suite
+
 * [MLPerf™ Inference Benchmark Suite](https://github.com/mlcommons/inference)
 
+
 # TinyML Boards
+
 * [Easy TinyML on ESP32 and Arduino](https://www.hackster.io/news/easy-tinyml-on-esp32-and-arduino-a9dbc509f26c)
 * [TinyML: Machine Learning on ESP32 with MicroPython](https://dev.to/tkeyo/tinyml-machine-learning-on-esp32-with-micropython-38a6)
 * [Exploring Machine Learning with the new XIAO ESP32S3](https://www.hackster.io/mjrobot/exploring-machine-learning-with-the-new-xiao-esp32s3-6463e5)
@@ -105,27 +131,39 @@ TinyML is a community of engineers focused on how best to implement machine lear
 * [Arducam Mega: SPI Camera for Any Microcontroller](https://www.kickstarter.com/projects/arducam/arducam-mega-spi-camera-for-any-microcontroller?ref=4vgsg1)
 * [IoT gets a machine learning boost, from edge to cloud](https://www.raspberrypi.org/blog/iot-gets-a-machine-learning-boost-from-edge-to-cloud/)
 
+
 # ESP32 Cam
+
 * [ESP32 Cam and Edge Impulse](https://github.com/edgeimpulse/example-esp32-cam)
 * [Tristam R.'s ESP32-CAM-Powered Home Assistant Doorbell Keeps Guests' Privacy Preserved](https://www.hackster.io/news/tristam-r-s-esp32-cam-powered-home-assistant-doorbell-keeps-guests-privacy-preserved-32805b6a34e4)
 
+
 # TinyML Tools
+
 * [NanoEdge AI Studio](https://cartesiam.ai/)
 * [Audio Analytic](https://www.audioanalytic.com/)
 
+
 # ATtiny85
+
 * [Tiny Machine Learning on the ATtiny85](https://hackaday.com/2020/01/07/tiny-machine-learning-on-the-attiny85/)
 
+
 # K210 AI Accelerator
+
 * [K210 AI Accelerator](https://www.crowdsupply.com/xalogic/k210-ai-accelerator)
+
 
 # EON Tuner
 The EON Tuner helps you find and select the best embedded machine learning model for your application within the constraints of your target device. The EON Tuner analyzes your input data, potential signal processing blocks, and neural network architectures - and gives you an overview of possible model architectures that will fit your chosen device's latency and memory requirements.
 
 * [EON Tuner](https://docs.edgeimpulse.com/docs/eon-tuner)
 
+
 # Sensor Module vs. Camera Module
+
 * [Sensor module vs. camera module](https://www.youtube.com/watch?v=Oi4S7SwumGs)
+
 
 # Sensor Array / Synthetic Sensor
 The [Persistent Aquatic Living Sensors (PALS) program](https://www.darpa.mil/news-events/2018-02-02)
@@ -157,7 +195,9 @@ process and distill that information, and relay it to remote end users.
 
 * [Intro to TinyML Part 1: Training a Neural Network for Arduino in TensorFlow | Digi-Key Electronics](https://www.youtube.com/watch?v=BzzqYNYOcWc&t=329s)
 
+
 # AI at the Very, Very Edge
+
 * [AI at the Very, Very Edge](https://www.eetimes.com/ai-at-the-very-very-edge/)
 * [Why, Hello FPGA and AI — How Nice to See You Together!](https://www.eejournal.com/article/why-hello-fpga-and-ai-how-nice-to-see-you-together/)
 * [Machine Learning For a Few Dollars: Eta Compute’s ECM3532 Chip Brings Inference to the Edge](https://www.eejournal.com/article/machine-learning-for-a-few-dollars/)
@@ -168,6 +208,7 @@ process and distill that information, and relay it to remote end users.
 
 * [TinyML In Action—Creating a Voice Controlled Robotic Subsystem](https://www.allaboutcircuits.com/projects/tinyml-projects-creating-a-voice-controlled-robot-subsystems/)
 
+
 ## Syntiant NDP120
 [Syntiant's NDP120 Deep Learning Processor](https://www.hackster.io/news/arduino-puts-a-syntiant-ndp-machine-learning-chip-on-its-new-nicla-voice-tinyml-development-board-79b64fbc7fef?mc_cid=678a6aef20&mc_eid=9036129d51)
 for Audio and Sensor Applications in Battery-powered Devices
@@ -176,14 +217,19 @@ The NDP120 applies neural processing to run multiple applications simultaneously
 
 * [Syntiant Brings AI Development to Everyone, Everywhere with Introduction of TinyML Platform](https://www.syntiant.com/post/syntiant-brings-ai-development-to-everyone-everywhere-with-introduction-of-tinyml-platform)
 
+
 # Raspbery Pi 4
+
 * [Raspberry Pi 4 Gets Official Edge Impulse Machine Learning Support](https://www.tomshardware.com/news/raspberry-pi-4-supported-by-edge-impulse)
 * [Edge Impulse and TinyML on Raspberry Pi](https://www.raspberrypi.org/blog/edge-impulse-and-tinyml-on-raspberry-pi/)
 * [Edge Impulse: Raspberry Pi 4](https://docs.edgeimpulse.com/docs/raspberry-pi-4)
 
+
 # Silicon Labs Thunderboard Sense 2
+
 * [Silicon Labs Thunderboard Sense 2 // Hackster Spotlight](https://www.hackster.io/videos/894)
 * [Gesture Recognition with the Thunderboard Sense 2](https://www.hackster.io/gatoninja236/gesture-recognition-with-the-thunderboard-sense-2-d010ff)
+
 
 # Eta Compute's ECM3532 AI Sensor Board
 The ECM3532 is a dual-core (Arm Cortex-M3 plus NXP CoolFlux DSP) SoC which can support sensor fusion applications in the microwatt range for battery-powered or energy-harvesting designs. Always-on image processing and sensor applications can be achieved with a power budget of 100µW.
@@ -192,6 +238,7 @@ two PDM microphones, one pressure and temperature sensor, and one 6-axis MEMS ac
 makes it an ideal asset for IoT deployment and field testing application prototypes.
 The board also has expansion connector for add other RF interfaces.
 It claims to have low power design emabling to months of operartion on a single battery cell while performing machine learning algorithms.
+
 
 # Spiking Neural Networks
 Neuromorphic computing aims to build digital or analog computer systems that emulate or simulate the biological brain, in order to achieve high performance and low power consumption for intelligent information processing applications.
@@ -224,6 +271,7 @@ neuromorphic computing is a concept developed in the late 1980s, describing the 
 * [ECM3532 AI Sensor Board](https://etacompute.com/tensai-boards/)
 * [Edge Impulse: On your Eta Compute ECM3532](https://docs.edgeimpulse.com/docs/running-your-impulse-ecm3532)
 
+
 ## Continuous Voltage and Frequency Scaling Technology (CVFS)
 Dynamic frequency scaling (also known as CPU throttling) is a technique in computer architecture whereby the frequency of a microprocessor can be automatically adjusted "on the fly", either to conserve power or to reduce the amount of heat generated by the chip. Dynamic frequency scaling is commonly used in laptops and other mobile devices, where energy comes from a battery and thus is limited.
 
@@ -233,30 +281,45 @@ But in CVFS voltage and frequency can range over a continuum. An algorithm const
 
 * [Continuous Voltage & Frequency Scaling CVFS](https://www.youtube.com/watch?v=1Pw33mGZmwQ)
 
+
 # Edge Impulse
+
 * [Edge Impulse](https://edgeimpulse.com/)
 * [Edge Impulse Documentation](https://docs.edgeimpulse.com/)
 * [Building and audio recognition system](https://www.edgeimpulse.com/blog/train-a-tiny-ml-model/)
 
+
 ## Special Purpose Voice Recognition Module
+
+* [Offline Language Learning Voice Recognition Sensor](https://www.dfrobot.com/product-2665.html?tracking=6719f16eac406)
 * [Nicla Voice](https://www.sparkfun.com/products/21219)
 * [Voice Recognition Module - 254 Voice Commands + UART](https://www.youtube.com/watch?v=zCEYxSdYBcA)
-    * http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254
-    * https://www.amazon.com/Rakstore-Recognition-Compatible-Arduino-Accuracy/dp/B09D3WHHKN/
+    * <http://www.elechouse.com/elechouse/index.php?main_page=product_info&cPath&products_id=2254>
+    * <https://www.amazon.com/Rakstore-Recognition-Compatible-Arduino-Accuracy/dp/B09D3WHHKN/>
+
 
 # Edge Impulse Eon
 [Edge Impulse Eon](https://www.edgeimpulse.com/blog/introducing-eon)
 
+
 ## Seeed Wio Terminal
+
+
 ## ATSAMD51-based Microcontroller
+
 * [Wio Terminal is officially supported by Edge Impulse now](https://www.seeedstudio.com/blog/2020/07/23/wio-terminal-is-officially-supported-by-edge-impulse-now/)
 
+
 # Computer Vision
+
 * [Tiny computer vision for all embedded devices](https://edgeimpulse.com/blog/computer-vision/)
 * [Adding sight to your sensors](https://docs.edgeimpulse.com/docs/image-classification)
 
+
 # Synthetic Sensors
+
 * [Synthetic Sensors](http://www.gierad.com/projects/supersensor/)
+
 
 # TensorFlow Lite
 After building a model in TensorFlow, engineers can run it through the Tensor Flow Lite converter,
@@ -265,11 +328,15 @@ which makes it smaller and does things like quantisation, which allow you to red
 * [Official TensorFlow Lite Micro Support Comes to the ESP32](https://www.hackster.io/news/official-tensorflow-lite-micro-support-comes-to-the-esp32-9708fb6a760f)
 * [Announcing TensorFlow Lite Micro support on the ESP32](https://blog.tensorflow.org/2020/08/announcing-tensorflow-lite-micro-esp32.html)
 
+
 # Voice Classification
+
 * [Pindrop](https://www.pindrop.com/)
 * [Carnegie Mellon University](http://mlsp.cs.cmu.edu/people/rsingh/index.html)
 
+
 # Projects
+
 * [Autonomous embedded driving using computer vision](https://www.edgeimpulse.com/blog/autonomous-driving-using-computer-vision/)
 * [BABL: A Baby Monitor Powered by tinyML and Edge Impulse!](https://www.hackster.io/ishotjr/babl-a-baby-monitor-powered-by-tinyml-and-edge-impulse-f5045f)
 * [Cough Detection with TinyML on Arduino](https://www.hackster.io/edge-impulse/cough-detection-with-tinyml-on-arduino-417f37)
@@ -295,6 +362,7 @@ and a USB cable.
 >**NOTE:** You can also use a different FTDI cable,
 >but make sure that it outputs 3.3V as the AI Sensor is not 5V tolerant.
 
+
 # Setup for ECM3532 AI Sensor
 The ECM3532 AI Sensor ([$100 on Digi-Key][06])
 came with no instructions but the box's labeling did directed me to the
@@ -310,6 +378,7 @@ you will need to install the following software:
 * The Edge Impulse CLI version 1.7.0 or higher, and a serial monitor
 
 Install by opening a command prompt or terminal and run:
+
 
 ## Step X:  Setup Development Environment - DONE
 The Node.js tool [`nodeenv`][09] (node.js virtual environment) create isolated node.js environments.
@@ -396,6 +465,7 @@ and to upload and convert local files. The CLI consists of these tools:
 npm install -g edge-impulse-cli @serialport/terminal
 ```
 
+
 ## Step X: Connect Board to Your Computer - DONE
 The Eta Compute EC3532 AI Sensor comes with a [SparkFun FTDI Basic Breakout - 3.3V board][15] in the box.
 This breakout board is used to program the AI Sensor and to relay serial messages back to your computer.
@@ -419,6 +489,7 @@ Bus 003 Device 019: ID 0403:6001 Future Technology Devices International, Ltd FT
 $ ls /dev/ttyUSB*
 /dev/ttyUSB0
 ```
+
 
 ## Step X: Update the Board's Firmware - DONE
 The development board needs to be updated with the latest firmware.
@@ -456,6 +527,7 @@ Flashed your Eta Compute ECM3532 AI Sensor development board.
 To set up your development with Edge Impulse, run 'edge-impulse-daemon'
 ```
 
+
 ## Step X: Establish Edge Impulse Project
 Within your established development envirnenment,
 we'll start a wizard which will ask you to log in, and choose an Edge Impulse project.
@@ -488,21 +560,25 @@ Configuring remote management settings... OK
 
 ```
 
+
 ## Step X: Building a ML Model
 With everything set up you can now build your first machine learning model with these tutorials:
-https://docs.edgeimpulse.com/docs/eta-compute-ecm3532-ai-sensor#next-steps-building-a-machine-learning-model
+<https://docs.edgeimpulse.com/docs/eta-compute-ecm3532-ai-sensor#next-steps-building-a-machine-learning-model>
+
 
 ## Step X: xxx
+
 
 # Using Smartphone as Sensor
 
 
 
--------
+---------------
 
 
 
 # Sound Detector
+
 * [Sound Detector Hookup Guide](https://media.digikey.com/pdf/Data%20Sheets/Sparkfun%20PDFs/SoundDetector_HookupGuide.pdf)
 * [Toilet sensors warn of overflows, leaks](https://www.fierceelectronics.com/sensors/toilet-sensors-warn-overflows-leaks)
 * [Best water leak detectors for smart homes](https://www.techhive.com/article/3138905/best-water-leak-detectors-for-smart-homes.html)
