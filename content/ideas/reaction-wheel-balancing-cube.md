@@ -9,12 +9,11 @@ Version:      0.0.0
 </div>
 
 
------
-
-
+---------------
 
 
 # Reaction Wheel Balancing
+
 * [Balancing cube](https://willempennings.nl/balancing-cube/)
 * [Building Reaction Wheels With Python And LEGO](https://hackaday.com/2022/04/27/building-reaction-wheels-with-python-and-lego/)
 * [Balance Wheel](http://hackaday.io/project/4267-balance-wheel)
@@ -27,5 +26,10 @@ Version:      0.0.0
 * [One-Wheel Balancing Robot Using Reaction Wheels](https://www.hackster.io/H0meMadeGarbage/one-wheel-balancing-robot-using-reaction-wheels-8805b0)
 * [Biped Robot Using Reaction Wheels](https://www.hackster.io/H0meMadeGarbage/biped-robot-using-reaction-wheels-58cb8d)
 
+
 # DIY Reaction Wheel Balancing Cube
+
 * [Reaction wheel balancing cube](https://www.youtube.com/watch?v=sT9be_IoEw8)
+* [DIY 3D-Printed Arduino Self-Balancing Cube](https://hackaday.com/2024/10/13/diy-3d-printed-arduino-self-balancing-cube/)
+    * [Arduino 3D Printed self Balancing Cube](https://hackaday.io/project/198415-arduino-3d-printed-self-balancing-cube)
+
