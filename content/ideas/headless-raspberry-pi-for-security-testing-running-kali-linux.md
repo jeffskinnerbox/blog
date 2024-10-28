@@ -63,6 +63,12 @@ What can it do ... see this [Flipper Zero: Truth or Hype?](https://www.youtube.c
 
 * [Automated Tools For WiFi Cracking](https://hackaday.com/2020/09/30/automated-tools-for-wifi-cracking/)
 
+## CapybaraZero
+A cheap alternative to FlipperZero™ based on Espressif boards
+* [Forget Flipper, How About Capybara?](https://hackaday.com/2024/10/20/forget-flipper-how-about-capybara/)
+* [CapybaraZero](https://capibarazero.github.io/docs/)
+
+
 # NFC Tools
 * [What’s On Your Bank Card? Hacker Tool Teaches All About NFC And RFID](https://hackaday.com/2021/10/04/whats-on-your-bank-card-hacker-tool-teaches-all-about-nfc-and-rfid/)
 * [Hunt Down NFC Signals With This NFC Multi Tool](https://hackaday.com/2022/10/17/hunt-down-nfc-signals-with-this-nfc-multi-tool/)
