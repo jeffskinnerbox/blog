@@ -10,7 +10,7 @@ Version:      0.0.0
 
 
 
------
+---------------
 
 
 
@@ -202,10 +202,11 @@ Combining the GPS location information onto a video stream
 * [Create Your Own GPS-Tracker Using LoRa](https://dzone.com/articles/create-your-own-gps-tracker-using-lora)
 * [Wio terminal GPS](https://www.hackster.io/SeeedStudio/wio-terminal-gps-ad70e2)
 * [LoRa GPS Tracker with Wio Terminal](https://www.hackster.io/idreams/lora-gps-tracker-with-wio-terminal-5d8647)
+* [Tiny LoRa GPS Node Relies On ESP32](https://hackaday.com/2024/10/17/tiny-lora-gps-node-relies-on-esp32/)
 
 
 
------
+---------------
 
 
 
@@ -288,7 +289,7 @@ see https://ozzmak.com/wp-content/uploads/2016/08/NMEA-data1.png
 
 
 
-----
+---------------
 
 
 
@@ -365,7 +366,7 @@ and IMU allows higher precision and more accurate readings in between GNSS data 
 
 
 
------
+---------------
 
 
 
@@ -538,7 +539,7 @@ Now there are three civilian GPS frequencies: L1 at 1575.42 MHz, L2 at 1227.60 M
 
 
 
------
+---------------
 
 
 
@@ -781,7 +782,7 @@ braking distance, heading, slip angle, lap times, position, cornering forces and
 
 
 
-----
+---------------
 
 
 
@@ -796,7 +797,7 @@ braking distance, heading, slip angle, lap times, position, cornering forces and
 
 
 
-----
+---------------
 
 
 
@@ -824,7 +825,7 @@ GNSS high accuracy correction data between service providers and end users.
 * [SPARTN](https://www.spartnformat.org/)
 
 
-----
+---------------
 
 
 # u-blox Products
@@ -867,7 +868,7 @@ ZED-F9P Module
 
 
 
-----
+---------------
 
 
 
@@ -1456,7 +1457,7 @@ deactivate
 ```
 
 
-----
+---------------
 
 
 # Setup for OzzMaker's BerryGPS
@@ -1563,7 +1564,7 @@ On first power up, it can take your GPS module 10 minutes to get a fix in some s
 
 
 
--------
+---------------
 
 
 
@@ -1726,7 +1727,7 @@ sudo shutdown -r now
 
 
 
--------
+---------------
 
 
 
@@ -1778,7 +1779,7 @@ netcat -v 192.168.1.151 1499 | ./nmea-parser.py
 ```
 
 
-----
+---------------
 
 
 
@@ -1786,7 +1787,7 @@ netcat -v 192.168.1.151 1499 | ./nmea-parser.py
 
 
 
------
+---------------
 
 
 
@@ -1940,7 +1941,7 @@ you can use the same procedure (Steps 4 onward) used for the OzzMaker BerryGPS d
 * https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all#using-uart-instead-of-usb
 
 
-----
+---------------
 
 
 # WiFi Scan Mapping

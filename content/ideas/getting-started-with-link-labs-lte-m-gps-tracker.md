@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -25,7 +25,7 @@ taken from an eMail sent to Jeff Irland (dated January 17, 2018).
 
 * The device itself has a mini-USB port for charging and programming
 * Please charge the device completely before using. This should take ~1 hr
-* To change the settings you need to use Tera Term (https://osdn.net/projects/ttssh2/releases/)
+* To change the settings you need to use Tera Term (<https://osdn.net/projects/ttssh2/releases/>)
 * Connect GPS Tag to computer via USB (UART to USB)
 * Open Tera Term and connect via Serial (device will enumerate as a COM port)
     * **Note: You will not see your keystrokes on the terminal in Tera Term**
@@ -40,16 +40,16 @@ taken from an eMail sent to Jeff Irland (dated January 17, 2018).
 
 **UI Procedure**
 
-* Create a Conductor Account (if you don't already have one): http://docs.link-labs.com/m/72700/l/835334-create-a-conductor-account
+* Create a Conductor Account (if you don't already have one): <http://docs.link-labs.com/m/72700/l/835334-create-a-conductor-account>
 * Choose a plan
     * **Note: Current FW uses about 800 network bytes of data per GPS fix. Next FW release lowers this to ~100 bytes.**
-* Add an Application Token: http://docs.link-labs.com/m/72700/l/836107-networkassets
+* Add an Application Token: <http://docs.link-labs.com/m/72700/l/836107-networkassets>
 * Add an LTE-M Device by IMEI and ICCID under "Devices: LTE-M"
-* You should see the device status change from "Ready" to "Active" but you can also verify device status using this API Call: https://networkasset-conductor.link-labs.com/networkAsset/lte/admin/info/IMEI/
+* You should see the device status change from "Ready" to "Active" but you can also verify device status using this API Call: <https://networkasset-conductor.link-labs.com/networkAsset/lte/admin/info/IMEI/>
     * **Note: A browser with a JSON viewer extension installed is recommended**
     * **Note: The UI status may not accurately reflect the device status if the device has previously been deactivated - we are working to fix this error**
 * You can see the data flow on this screen. You can also query the data via API.
-    * **Note: All the LTE-M-specific Conductor API calls can be found here: https://networkasset-conductor.link-labs.com/networkAsset/docs.html#!/lte/ **
+    * **Note: All the LTE-M-specific Conductor API calls can be found here: <https://networkasset-conductor.link-labs.com/networkAsset/docs.html#!/lte/>**
 * Once you have a valid GPS fix, you can use the AirFinder UI. To create an AirFinder account (included with Conductor service), please send me the email address you would like associated with the account if it is different than this shipping email. Your shipping email should have already received an invitation.
 * Once in AirFinder Add a "Site Name". This could be as simple as "Test".
 * In the Admin portal, Add an Application using the Application Token from Conductor
@@ -69,12 +69,12 @@ taken from an eMail sent to Jeff Irland (dated January 17, 2018).
 * Current device does not support PSM/eDRX modes due to stability issues in PSM/eDRX modes. Battery life in PSM mode expected to be about 2X current performance. eDRX will vary by timer settings. A firmware update will be made available when these modes are supported.
 * If you have any issues, the best most common way to recover is to charge the device completely, verify transmission interval, hit the pin reset next to the two LEDs, and go outside to ensure a good GPS fix.
 
-For additional help, contact Link Labs Support (support@link-labs.com) or Glenn Schatz
-(eMail: glenn.schatz@link-labs.com, office: 202-524-1390 x95, mobile: 520-271-5528)
+For additional help, contact Link Labs Support (<support@link-labs.com>) or Glenn Schatz
+(eMail: <glenn.schatz@link-labs.com>, office: 202-524-1390 x95, mobile: 520-271-5528)
 ################################################################################
 
 ################################################################################
-From Ryan Zanski of Link Labs (ryan.zanski@link-labs.com)
+From Ryan Zanski of Link Labs (<ryan.zanski@link-labs.com>)
 
 When the device is plugged in via USB it will still perform its normal operation. To stop this, or at least slow the rate down, you will need to update the configuration settings of the device. If the LEDs are blinking at a set interval it may just be going through it's normal operation.
 
@@ -118,11 +118,12 @@ LEDs in case:
 ################################################################################
 
 ################################################################################
-See email dated Mon, Jun 11, 2018 11:14 am from jeffrey.irland (jeffrey.irland@verizon.com)
+See email dated Mon, Jun 11, 2018 11:14 am from jeffrey.irland (<jeffrey.irland@verizon.com>)
 This contains ifnroamtion about the LEDs and appears to be taken from the documentation.
 ################################################################################
 
 Reading list:
+
 * [Conductor](http://conductor.link-labs.com/LTE-M)
 * [Conductor - Data Platform](http://docs.link-labs.com/m/52182)
 * [Conductor - Data Platform: User Guide](http://docs.link-labs.com/m/52182/c/154990)
@@ -159,7 +160,7 @@ The GPS Tracker LED on the frount behavior is as follows:
     * Holding for extended period will put into bootloader mode
 
 The GPS Tracker LED in the case behave like this:
-    * Back top right red LED is the charge LED and will only illuminate if USB plugged in and battery charging.
+    *Back top right red LED is the charge LED and will only illuminate if USB plugged in and battery charging.
     * Back top left red LED is the Link Labs LTE-m module LED and will illuminate when module is not in sleep mode (RX, TX, processing)
 
 **Cloud Platform**
@@ -169,7 +170,7 @@ The GPS Tracker LED in the case behave like this:
 [Conductor][50] exposes REST-APIs giving access to your device,
 making it easy to build web-based applications to monitor and control the device.
 Your first step is to [create an account][51] via Conductor's web-based
-user interface (UI) at http://conductor.link-labs.com/ .
+user interface (UI) at <http://conductor.link-labs.com/> .
 Associated with an account is a [access control method][52] (aka Security Domain Model)
 defining the roles of accounts, user, acounts, user groups, etc.
 
@@ -258,7 +259,7 @@ The Client Edge API base URL (aka ClientEdgeBase) is
 `https://clientedge-conductor.link-labs.com/clientEdge`,
 and is referred to as `<ClientEdgeBase>` for short.
 Additional Swagger documentation of the Client Edge APIs is maintained at
-https://clientedge-conductor.link-labs.com/clientEdge/docs.html .
+<https://clientedge-conductor.link-labs.com/clientEdge/docs.html> .
 
 The Client Edge Data API allows clients to access data from Nodes
 (i.e., modules, repeaters and gateways) to which they have access given their granted authorities.
@@ -294,12 +295,14 @@ In general, the Client Edge Data API is organized by:
 [70]:
 ################################################################################
 
-----------
+---------------
+
 
 # Step 1: Charge the Tracker - DONE
 The Tracker device itself has a mini-USB port for charging and programming.
 Using a [USB 2.0 A-Male to Mini-B cable][06],
 make sure to charge the device completely before using (take about 1 hour).
+
 
 # Step 2: Find Device File Name for Tracker - DONE
 Using the same cable used to charge the Tracker,
@@ -311,7 +314,7 @@ you can deduce what the device file's name by do the following:
 1. Without the device plugged in a USB port,
 run this command `ls /dev > /tmp/step1`.
 2. Now plug the device into the Linux systems USB port, wait 30 seconds,
-and run this command ` ls /dev > /tmp/step2`.
+and run this command `ls /dev > /tmp/step2`.
 3. Now do this `diff /tmp/step1 /tmp/step2`.
 Pick the name with `tty` in it, and that is your device file.
 
@@ -328,6 +331,7 @@ directory.
 [The convention for microcontrollers][02], like the Link Lab's Tracker,
 should always end up with names such as `/dev/ttyACM0`
 and not `/dev/ttyUSB0` or `/dev/ttyS0` but you'll see strange things sometimes.
+
 
 # Step 3: Connecting With the Tracker - DONE
 Since we are working on Linux, your going to need an alternative to [Tera Term][05],
@@ -354,6 +358,7 @@ and you should see the following screen:
 ```
 
 Congratulations, you are now communicating with the Tracker microcontroller via its USB port.
+
 
 # Step 4: Change Trakers Configuration - DONE
 Now hit `2` `Enter` to get into Device Config Menu.
@@ -423,6 +428,7 @@ Transmit Interval: 60
 Mailbox Interval: 600
 ```
 
+
 # Step 5: Create Conductor Account - DONE
 Now create a Conductor Account by going to [Link Lab's Conductor Web UI][07]
 by using 'Sign Up' at the bottom
@@ -447,6 +453,7 @@ ICCID         89148000003711822101
 NODE ADDRESS  $303$0-0-0001450-2bf65e93d    (also called "Node ID")
 ################################################################################
 
+
 # Step 6: Add an Application Token - DONE
 Still within the Conductor Account screens,
 we need to add an application token for the Tracker devices.
@@ -459,14 +466,17 @@ Application Token    b789ab9cca224e1109b0
 ################################################################################
 
 ################################################################################
+
+
 # Step X: AirFinder Account
-https://app.airfinder.com/login
+<https://app.airfinder.com/login>
 Tag             $303$0-0-0001450-2bf65e93d
 Catagory        GPS Tag
 Brand           Link Labs
 Model No.       LL-LTE-M-VZN-GPS1
 Serial Number   357353080088893
 ################################################################################
+
 
 # Step 7: Add IMEI and ICCID
 Still within the Conductor Account screens,
@@ -478,14 +488,21 @@ Hit the 'ADD' button.
 
 Now you'll be back into the 'DEVICES' / 'LTE-M' screen where yoru device will show a status of 'Ready'.
 
-# Step 8:
 
-# Step X:
-# Step X:
-# Step X:
+# Step 8
+
+
+# Step X
+
+
+# Step X
+
+
+# Step X
+
 
 # Step X: Python Wrapper for Conductor API
-http://docs.link-labs.com/m/52182/l/478374-a-python-wrapper-of-the-conductor-api-conductor-py
+<http://docs.link-labs.com/m/52182/l/478374-a-python-wrapper-of-the-conductor-api-conductor-py>
 Set up your environment:
 
 ```bash
@@ -528,6 +545,7 @@ Grab some messages from Conductor:
 
 ################################################################################
 ################################ No Longer Works ###############################
+
 ```python
 import json
 import conductor
@@ -548,6 +566,7 @@ print(messages)
 #parsed = json.loads(messages)
 #print(json.dumps(parsed, indent=4, sort_keys=True))
 ```
+
 ################################################################################
 
 ```python
@@ -580,15 +599,18 @@ pyenv deactivate
 pyenv virtualenv-delete tracker
 ```
 
+
 # Step X: Send Command from Conductor to a Module
 A command-line utility to post a command from Conductor to a module. (Uses conductor.py)
 
 send_command_client_edge.py
-http://docs.link-labs.com/m/52182/l/478379-command-line-utility-to-send-downlink-messages-send_command_client_edge-py
+<http://docs.link-labs.com/m/52182/l/478379-command-line-utility-to-send-downlink-messages-send_command_client_edge-py>
+
 
 # Step X: REST API
 
 ################################################################################
+
 * [Authentication](http://docs.link-labs.com/m/52182/l/478054-authentication)
 * Help with examples: Derek Dernbach <derek.dernbach@link-labs.com>
 
@@ -598,11 +620,12 @@ clientSecret = 9f2f0b1d2dfa44aab51ab558ccde0075
 
 ################################################################################
 
+
 # Step XA: Request Access Token From Authorization Server
 Provide username-password and client credentials to the
 Conductor Authorization Server via a request of the following form:
 
-* **POST:** https://oauth2-conductor.link-labs.com/oauth/token
+* **POST:** <https://oauth2-conductor.link-labs.com/oauth/token>
 * **Content-Type:** application/x-www-form-urlencoded
 * **Request Body:** grant_type=password&username={user}&password={pass}&client_id={id}&client_secret={secret}
 
@@ -631,11 +654,12 @@ $ curl -s -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "grant
 }
 ```
 
+
 # Step XB: Refresh Access Token
 If a request fails and Conductor returns an Unauthorized 401 response, a new Access Token may be obtained by making a refresh request to the Conductor Authorization Server. The refresh request uses the Refresh Token provided in the initial response from the Authorization Server.
 That refreash request takes the form:
 
-* **POST:** https://oauth2-conductor.link-labs.com/oauth/token
+* **POST:** <https://oauth2-conductor.link-labs.com/oauth/token>
 * **Content-Type:** application/x-www-form-urlencoded
 * **Request Body:** grant_type=refresh_token&refresh_token={refresh_token}&client_id={id}&client_secret={secret}
 
@@ -656,25 +680,26 @@ Here is a working example:
 # refreash an access token
 ```
 
-# Step XC:
+
+# Step XC
 The "Basic" HTTP authentication scheme is defined in RFC 7617,
 which transmits credentials as user ID/password pairs, encoded using base64.
 As the user ID and password are passed over the network as clear text (it is base64 encoded, but base64 is a reversible encoding), the basic authentication scheme is not secure. HTTPS / TLS should be used in conjunction with basic authentication.
 
-* Encode to Base64 format - https://www.base64encode.org/
+* Encode to Base64 format - <https://www.base64encode.org/>
     * To get "amVmZi5pcmxhbmRAdmVyaXpvbi5uZXQ6MUAjWmlwcGl0eWRvMg==", base64 encoding of Conductor <login>:<password>
-* This isn't secure - https://stackoverflow.com/questions/28927051/curl-command-for-https-ssl
+* This isn't secure - <https://stackoverflow.com/questions/28927051/curl-command-for-https-ssl>
 
 
 These don't work
-    * curl -s -X GET https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2
-    * curl -s -X GET -H "Content-Type: application/x-www-form-urlencoded" https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2
-    * curl -s -X GET -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36" https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2
-    * curl -s -X GET 'https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2' -d "grant_type=password&username=jeff%2Eirland%40verizon%2Enet&password=1%40%23Zippitydo2&client_id=VerizonEnterprise&client_secret=9f2f0b1d2dfa44aab51ab558ccde0075" | jq -C '.'
+    *curl -s -X GET <https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2>
+    * curl -s -X GET -H "Content-Type: application/x-www-form-urlencoded" <https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2>
+    *curl -s -X GET -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36" <https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2>
+    * curl -s -X GET '<https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2>' -d "grant_type=password&username=jeff%2Eirland%40verizon%2Enet&password=1%40%23Zippitydo2&client_id=VerizonEnterprise&client_secret=9f2f0b1d2dfa44aab51ab558ccde0075" | jq -C '.'
 
 These do work
-    * curl -s -X GET 'https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2' -H 'Authorization: Basic amVmZi5pcmxhbmRAdmVyaXpvbi5uZXQ6MUAjWmlwcGl0eWRvMg==' -H 'Accept-Encoding: gzip, deflate, br' -H 'Accept-Language: en-US,en;q=0.9' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Cookie: _ga=GA1.2.302021072.1515200744; hubspotutk=b7b631623276d5c9e709b9535a5c3818; __cfduid=d491ebd47cca779c7bce732679d9ffe4b1517071976; __hssrc=1; LLCONDUCTOR_ClientEdge=23D8A8D344B792D044F65F12A9C404DB; _gid=GA1.2.367236142.1519694537; __hstc=81985929.b7b631623276d5c9e709b9535a5c3818.1515200746595.1519694538006.1519697398736.14; LLCONDUCTOR_NetworkAsset=138B2847AC16EAFC46EF1C5F000A0107' -H 'Connection: keep-alive' --compressed | jq -C '.'
-    * curl -s -X GET 'https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2' -H 'Authorization: Basic amVmZi5pcmxhbmRAdmVyaXpvbi5uZXQ6MUAjWmlwcGl0eWRvMg==' | jq -C '.'
+    *curl -s -X GET '<https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2>' -H 'Authorization: Basic amVmZi5pcmxhbmRAdmVyaXpvbi5uZXQ6MUAjWmlwcGl0eWRvMg==' -H 'Accept-Encoding: gzip, deflate, br' -H 'Accept-Language: en-US,en;q=0.9' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,_/_;q=0.8' -H 'Cache-Control: max-age=0' -H 'Cookie:_ga=GA1.2.302021072.1515200744; hubspotutk=b7b631623276d5c9e709b9535a5c3818; __cfduid=d491ebd47cca779c7bce732679d9ffe4b1517071976;__hssrc=1; LLCONDUCTOR_ClientEdge=23D8A8D344B792D044F65F12A9C404DB;_gid=GA1.2.367236142.1519694537; __hstc=81985929.b7b631623276d5c9e709b9535a5c3818.1515200746595.1519694538006.1519697398736.14; LLCONDUCTOR_NetworkAsset=138B2847AC16EAFC46EF1C5F000A0107' -H 'Connection: keep-alive' --compressed | jq -C '.'
+    * curl -s -X GET '<https://networkasset-conductor.link-labs.com/networkAsset/module/%24303%240-0-0001450-2bf65e93d?api_key=1bc11610-8f9e-494c-a17e-4390ccbb0ff2>' -H 'Authorization: Basic amVmZi5pcmxhbmRAdmVyaXpvbi5uZXQ6MUAjWmlwcGl0eWRvMg==' | jq -C '.'
 
 
 ```bash
@@ -720,7 +745,7 @@ $ curl -s -k -X GET 'https://networkasset-conductor.link-labs.com/networkAsset/m
 ```
 
 
-#####################################Client Edge APIs###########################################
+##################################### Client Edge APIs ###########################################
 The Client Edge Data API allows clients to access data from Nodes (i.e., modules, repeaters and gateways)
 
 Client Edge will send back data in chunks for each request.  If a request has more results that exist for the requested time range, 2 flags will be set in the returned result set --  moreRecordsExist and nextPageId.  If the moreRecordsExist flag is true, the nextPageId property will be populated with an Id to pass in for the next query, to get the next set of results as a query parameter of pageId.
