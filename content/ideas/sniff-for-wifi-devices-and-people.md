@@ -14,6 +14,8 @@ Version:      0.0.0
 
 
 
+* [How to build a CapibaraZero: Wifi scanning](https://capibarazero.github.io/docs/docs/wifi/scan_wifi)
+
 * [Dope Scope - A directional WiFi Sniffing device that fits in the palm of your hand](http://warcollar.com/products/dopescope.html)
 * [CatSniffer](https://github.com/ElectronicCats/CatSniffer)
 
