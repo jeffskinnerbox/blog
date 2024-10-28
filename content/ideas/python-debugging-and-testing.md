@@ -211,6 +211,7 @@ working with built-in data types, processing iterables of data, handling input a
     * [Unlocking your CPU cores in Python (multiprocessing)](https://www.youtube.com/watch?v=X7vBbelRXn0)
     * [The Fastest Way to Loop in Python - An Unfortunate Truth](https://www.youtube.com/watch?v=Qgevy75co8c)
     * [The Python Global Interpreter Lock - Explained](https://www.youtube.com/watch?v=XVcRQ6T9RHo)
+    * [Understanding Python's Global Interpreter Lock (GIL)](https://realpython.com/courses/understanding-global-interpreter-lock-gil/)
     * [Intro to async Python | Writing a Web Crawler](https://www.youtube.com/watch?v=ftmdDlwMwwQ)
 * Performance Profiling
     * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
