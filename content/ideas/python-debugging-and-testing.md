@@ -230,6 +230,12 @@ working with built-in data types, processing iterables of data, handling input a
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 
+
+## Asterisks in Python
+
+* [Asterisks in Python: what they are and how to use them](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/)
+
+
 ---------------
 
 
