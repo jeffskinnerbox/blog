@@ -12,6 +12,17 @@ Version:      0.0.0
 ---------------
 
 
+
+# NanoKVM
+* [A RISC-V Stick-on](https://www.youtube.com/watch?v=riDd6d0Vmy0)
+* [NanoKVM GitHub repo](https://github.com/sipeed/NanoKVM)
+* [Vs PiKVM V4 Plus](https://pikvm.org/buy/)
+
+
+
+---------------
+
+
 # Sipeed NanoKVM
 
 * [$20+ NanoKVM is a tiny low-power RISC-V KVM over IP solution](https://www.cnx-software.com/2024/07/08/20-nanokvm-is-a-tiny-low-power-risc-v-kvm-over-ip-solution/)
