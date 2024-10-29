@@ -23,7 +23,7 @@ Version:      0.0.0
 
 * [Live Streaming Goes Pro with a Hacked Backpack](https://hackaday.com/2018/09/03/live-streaming-goes-pro-with-a-hacked-backpack/)
 * [Hundreds ‘Rickrolled’ in Mysterious Campus Prank at Cornell](https://cornellsun.com/2017/11/10/hundreds-rickrolled-in-mysterious-campus-prank-at-cornell/)
-  * [An Oral History of Rickrolling](https://getpocket.com/explore/item/an-oral-history-of-rickrolling)
+    * [An Oral History of Rickrolling](https://getpocket.com/explore/item/an-oral-history-of-rickrolling)
 * [A Doorbell With Facial Recognition](https://medium.com/@mppise/a-doorbell-with-facial-recognition-3b132bf9605)
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
 * [Raspberry Pi Zero W Surveillance Camera](https://www.youtube.com/watch?v=rhIzfRmKHnQ)
@@ -31,10 +31,11 @@ Version:      0.0.0
 * [Video Sreaming Like Your Raspberry Pi Depended On It](https://hackaday.com/2017/09/12/video-streaming-like-your-raspberry-pi-depended-on-it/)
 
 * [Nicla Vision](https://www.sparkfun.com/products/19728)
-  * [Getting Started With Arduino Nicla Vision](https://www.okdo.com/getting-started/get-started-with-arduino-nicla-vision/)
-  * [Bringing Big AI to Tiny Devices](https://www.hackster.io/news/bringing-big-ai-to-tiny-devices-64a40641413c)
-  * [Nicla Voice](https://www.sparkfun.com/products/21219)
-  * [Nicla Sense ME](https://www.sparkfun.com/products/19727)
+    * [Getting Started With Arduino Nicla Vision](https://www.okdo.com/getting-started/get-started-with-arduino-nicla-vision/)
+    * [Bringing Big AI to Tiny Devices](https://www.hackster.io/news/bringing-big-ai-to-tiny-devices-64a40641413c)
+    * [Nicla Voice](https://www.sparkfun.com/products/21219)
+    * [Nicla Sense ME](https://www.sparkfun.com/products/19727)
+    * [Arduinos That See, Hear, Think: A Tour of the Avnet Arduino Pro Edge AI/ML Vision and Speech Kit](https://www.hackster.io/news/arduinos-that-see-hear-think-a-tour-of-the-avnet-arduino-pro-edge-ai-ml-vision-and-speech-kit-32ec122f05bc)
 
 
 
@@ -230,8 +231,8 @@ we will work around these and other limitations.
 * [ESP32 / 8266 WiFi instant Camera](https://hackaday.io/project/162256-esp32-8266-wifi-instant-camera)
 * [ESP8266 / ESP32 WiFi Powered Digital Camera](https://github.com/Heltec-Aaron-Lee/FS2) is a digital "Polaroid" that uploads the photo instantly to the cloud.
 * [Cheap ESP32 Webcam](https://hackaday.com/2019/02/02/cheap-esp32-webcam/)
-  * [A $9 Fully Open Source Streaming Webcam with No Soldering!](https://www.hackster.io/punkgeek/a-9-fully-open-source-streaming-webcam-with-no-soldering-c4b7c6)
-  * [How can I display an RTSP video stream in a web page](https://stackoverflow.com/questions/2245040/how-can-i-display-an-rtsp-video-stream-in-a-web-page)
+    * [A $9 Fully Open Source Streaming Webcam with No Soldering!](https://www.hackster.io/punkgeek/a-9-fully-open-source-streaming-webcam-with-no-soldering-c4b7c6)
+    * [How can I display an RTSP video stream in a web page](https://stackoverflow.com/questions/2245040/how-can-i-display-an-rtsp-video-stream-in-a-web-page)
 * [ESP32 with Camera and TFT Display](https://www.youtube.com/watch?v=v_8XifFcpaI&list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
 * [ESP-Eye: First Look (ESP32 Face Recognition)](https://www.youtube.com/watch?v=_JwMuvFVMsM&feature=youtu.be)
 * [#285 ESP32 Cameras: Comparison and Test (OV2640) and I2S MEMS microphone test](https://www.youtube.com/watch?v=5IhhyJjjCxo)
@@ -239,8 +240,8 @@ we will work around these and other limitations.
 * [ESP32 Camera Mini Series](https://www.youtube.com/playlist?list=PLjUbKCHhzPExyfSCF_d9oH97dmMvn3tBD)
 * [Grove - Vision AI Module with Himax HX6537-A processor, thumb-size AI-powered OV2640 camera sensor, support Yolo V5 and Edge Impulse, easy-to-use](https://www.seeedstudio.com/Grove-Vision-AI-Module-p-5457.html)
 * LEDWallCamera
-  * [Add-On Makes ESP32 Camera Board Easier To Program](https://hackaday.com/2020/01/09/add-on-board-makes-esp32-camera-board-easier-to-program/)
-  * [ESP32-Cam Programmer & LED Wall Effects](https://www.youtube.com/watch?v=ikhZ34WgObc)
+    * [Add-On Makes ESP32 Camera Board Easier To Program](https://hackaday.com/2020/01/09/add-on-board-makes-esp32-camera-board-easier-to-program/)
+    * [ESP32-Cam Programmer & LED Wall Effects](https://www.youtube.com/watch?v=ikhZ34WgObc)
 
 
 ---------------
@@ -249,7 +250,7 @@ we will work around these and other limitations.
 # Stealthy Microphone / Listening Device
 
 * [No Wires, No Batteries - Spying Changed FOREVER! - Can I make a working Bug for Hannah Fry?](https://www.youtube.com/watch?v=GyryQltyDwA)
-  * [Recreating One Of History’s Best Known Spy Gadgets](https://hackaday.com/2023/03/25/recreating-one-of-historys-best-known-spy-gadgets/)
+    * [Recreating One Of History’s Best Known Spy Gadgets](https://hackaday.com/2023/03/25/recreating-one-of-historys-best-known-spy-gadgets/)
 
 
 ---------------
@@ -420,8 +421,8 @@ and look for `wpa_state=COMPLETED`.
 # Auto-Connect to Public WiFi Network
 
 * [How to get free wifi on public networks](https://medium.freecodecamp.com/free-wifi-on-public-networks-daf716cebc80#.hesy8hhz6)
-  * [FreeWifi](https://github.com/kylemcdonald/FreeWifi)
-  * [SpoofMAC](https://github.com/feross/SpoofMAC)
+    * [FreeWifi](https://github.com/kylemcdonald/FreeWifi)
+    * [SpoofMAC](https://github.com/feross/SpoofMAC)
 
 
 ## Physical Web Space
@@ -459,7 +460,7 @@ It also acts as a captive portal, redirecting all (well, most) requests to the l
 ## Augment Reality
 
 * [AR.js: Efficient Augmented Reality for the Web](https://uploadvr.com/ar-js-efficient-augmented-reality-for-the-web/)
-  * [Efficient Augmented Reality for the Web - 60fps on mobile!](https://github.com/jeromeetienne/ar.js)
+    * [Efficient Augmented Reality for the Web - 60fps on mobile!](https://github.com/jeromeetienne/ar.js)
 
 
 # Camera Robot
