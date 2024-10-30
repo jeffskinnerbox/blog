@@ -184,6 +184,7 @@ working with built-in data types, processing iterables of data, handling input a
 
 * Magic Methods
     * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
+    * [Python's Magic Methods in Classes](https://realpython.com/courses/magic-methods-classes/)
     * [Understanding Python’s Iteration and Membership: A Guide to **contains** and **iter** Magic Methods](https://www.kdnuggets.com/understanding-pythons-iteration-and-membership-a-guide-to-__contains__-and-__iter__-magic-methods)
     * [Efficient Iterations With Python Iterators and Iterables](https://realpython.com/courses/efficient-iterations-iterators-iterables/)
     * [Asynchronous Iterators and Iterables in Python](https://realpython.com/python-async-iterators/)
