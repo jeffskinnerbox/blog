@@ -297,6 +297,7 @@ The default install of Proxmox does not contain the required packages for Open v
 
 
 * [Building a homelab with Proxmox](https://www.remotelycurious.net/post/homelab/)
+* [How I use Docker with Proxmox for the perfect home lab duo](https://www.xda-developers.com/use-docker-with-proxmox/)
 
 # Install Proxmox on Protectli Vault
 Proxmox VE has been successfully installed on the Protectli Vault with both Legacy and coreboot BIOS.
