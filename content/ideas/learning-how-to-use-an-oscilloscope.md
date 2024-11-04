@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -35,7 +35,7 @@ specifically the [Rigol DS1054Z][07] ([Rigol's site][08] and [Rigol DS1054Z User
 
 
 
--------
+---------------
 
 
 
@@ -108,7 +108,7 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 
 
---------
+---------------
 
 
 
@@ -159,13 +159,13 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 
 
---------
+---------------
 
 
 
 * [Building A Swiss Army Lab With Software Defined Instrumentation](https://hackaday.com/2022/04/29/building-a-swiss-army-lab-with-software-defined-instrumentation/)
-  * [Liquid Insruments](https://www.liquidinstruments.com/)
-  * [Moku:Go](https://www.liquidinstruments.com/products/hardware-platforms/mokugo/)
+    * [Liquid Insruments](https://www.liquidinstruments.com/)
+    * [Moku:Go](https://www.liquidinstruments.com/products/hardware-platforms/mokugo/)
 
 
 * [EEVblog Oscilloscope Tutorials](https://www.youtube.com/playlist?list=PLvOlSehNtuHsCTtj-T_vkpTTbBXW4sB51)
@@ -182,7 +182,7 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 * [LEAP: Little Electronic and Arduino Projects](https://leap.tardate.com/)
 * [How to Use an Oscilloscope](https://learn.sparkfun.com/tutorials/how-to-use-an-oscilloscope)
-  * [How to Use an Oscilloscope: The Video](https://www.youtube.com/watch?v=u4zyptPLlJI&app=desktop)
+    * [How to Use an Oscilloscope: The Video](https://www.youtube.com/watch?v=u4zyptPLlJI&app=desktop)
 
 * [Break Your Scope’s Bandwidth Barrier](https://hackaday.com/2019/01/24/break-your-scopes-bandwidth-barrier/)
 
@@ -202,7 +202,7 @@ Oscilloscope Analog Bandwidth
 Oscilloscope Sample Rate
 
 
--------
+---------------
 
 
 
@@ -333,8 +333,9 @@ The concept is similar in use to [vernier calipers][04] which have a primary sca
 # Transistor Curve Tracer
 
 * [Simple Transistor Curve Tracer for Oscilloscopes.](https://www.youtube.com/watch?v=V5UJiaRwV88)
-  * [Simple but effective Transistor Curve Tracer circuit](https://www.eddybergman.com/2017/06/simple-but-effective-transistor-curve.html#google_vignette)
-  * [Transistor Curve Tracer](https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-09/page/n37/mode/2up)
+    * [Simple but effective Transistor Curve Tracer circuit](https://www.eddybergman.com/2017/06/simple-but-effective-transistor-curve.html#google_vignette)
+    * [Transistor Curve Tracer](https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-09/page/n37/mode/2up)
+* [Don’t Forget Your Curve Tracer](https://hackaday.com/2024/11/02/dont-forget-your-curve-tracer/)
 
 
 # Oscilloscope Probes
@@ -418,7 +419,7 @@ Depending on the probe and the circuit, the probe loading may cause unwanted sid
 
 
 
---------
+---------------
 
 
 
@@ -428,7 +429,7 @@ Depending on the probe and the circuit, the probe loading may cause unwanted sid
 
 
 
---------
+---------------
 
 
 
@@ -464,7 +465,7 @@ leading some to declare it ["a paradigm for chaos"][05].
 Most dual channel oscilloscopes have an XY mode in which the timebase is replaced by the second channel, so instead of a constant sweep frequency the two inputs to be plotted relative to each other.
 
 * [STM32 Draws on Scope: Rendering 3D Graphics On An Oscilloscope](https://hackaday.com/2024/03/10/stm32-draws-on-scope/)
-  * [GetHub: Rendering 3D Graphics On An Oscilloscope](https://github.com/lowbyteproductions/3d-oscilloscope-renderer)
+    * [GetHub: Rendering 3D Graphics On An Oscilloscope](https://github.com/lowbyteproductions/3d-oscilloscope-renderer)
 
 * turned his oscilloscope into a vector display - [WATCH VIDEO ON A OSCILLOSCOPE WITH AN ESP32](https://hackaday.com/2017/12/23/watch-video-on-a-oscilloscope-with-an-esp32/)
 * [Scopetrex Is A Game Console… For Your Oscilloscope!](https://hackaday.com/2020/05/07/scopetrex-is-a-game-console-for-your-oscilloscope/)
@@ -479,7 +480,7 @@ Most dual channel oscilloscopes have an XY mode in which the timebase is replace
 
 
 
--------
+---------------
 
 
 
