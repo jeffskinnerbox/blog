@@ -13,7 +13,7 @@ Version:      0.0.0
 
 
 * [Site logo image Hackaday Stair Climbing Rover Gets Up With Rocker Bogies](https://hackaday.com/2023/02/18/stair-climbing-rover-gets-up-with-rocker-bogies/)
-  * [Stair Climbing Rover](https://www.printables.com/model/194299-stair-climbing-rover)
+    * [Stair Climbing Rover](https://www.printables.com/model/194299-stair-climbing-rover)
 
 
 # Omnidirectional Robots
@@ -23,4 +23,9 @@ Version:      0.0.0
 * [Modern Robotics: Mechanics, Planning, and Control](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
 * [How to use omni directional wheels](https://www.youtube.com/watch?v=wwQQnSWqB7A)
 * [Mobile (Omni-directional wheel drive) robot simulation](https://www.youtube.com/watch?v=s8YsxR-pQXU)
+
+
+# ESP32 WiFi Robot
+
+* [ESP32 WiFi Robot](https://hackaday.io/project/163542-esp32-wifi-robot)
 
