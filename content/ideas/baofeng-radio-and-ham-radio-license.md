@@ -398,6 +398,7 @@ See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.co
 * [Ham Antenna Fits Almost Anywhere](https://hackaday.com/2022/01/06/ham-antenna-fits-almost-anywhere/)
 * [Directional Antenna 3-Way](https://hackaday.com/2022/01/21/directional-antenna-3-way/)
 * [A Receive Antenna Switcher With An Espressif Brain](https://hackaday.com/2022/05/21/a-receive-antenna-switcher-with-an-espressif-brain/)
+* [Random Wire Antenna Uses No Wire](https://hackaday.com/2024/11/05/random-wire-antenna-uses-no-wire/)
 
 
 ## HOA Antenna
