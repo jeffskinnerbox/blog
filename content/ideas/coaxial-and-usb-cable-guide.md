@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -136,7 +136,7 @@ either from the other end of the cable or from some fault or defect along the wa
 
 
 
-----
+---------------
 
 
 <div align="center">
@@ -191,6 +191,8 @@ The Problem With Micro-USB Cables - <https://tekbotic.com/blogs/tekblog/how-to-f
 
 * [Ubiquitous Successful Bus: Version 2](https://hackaday.com/2024/10/17/ubiquitous-successful-bus-version-2/)
 
+* [Understanding USB Type C: Cable Types, Pitfalls and More](https://learn.adafruit.com/understanding-usb-type-c-cable-types-pitfalls-and-more)
+
 * [USB-C Is Taking Over… When, Exactly?](https://hackaday.com/2020/06/23/usb-c-is-taking-over-when-exactly/)
 * [The Wonderful World Of USB Type-C](https://hackaday.com/2018/08/17/the-wonderful-world-of-usb-type-c/)
 * [Here is why USB Type-C is AWESOME and how you can use Power Delivery for your electronics!](https://www.youtube.com/watch?v=OwAZqJ4wpJg)
@@ -212,7 +214,7 @@ The Problem With Micro-USB Cables - <https://tekbotic.com/blogs/tekblog/how-to-f
 
 
 
------
+---------------
 
 
 
@@ -291,7 +293,7 @@ If you live in a world of mixed devies, you’ll probably want a device that doe
 
 
 
-------
+---------------
 
 
 
