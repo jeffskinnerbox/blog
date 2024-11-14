@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -210,7 +210,7 @@ Should you use ESP32 or ESP8266 in your projects?
 * [ESP32 Development Boards Review and Comparison](https://makeradvisor.com/esp32-development-boards-review-comparison/)
 
 
---------
+---------------
 
 
 ## ESP-01
@@ -298,7 +298,7 @@ If you have an ESP-01 or other device without built-in USB, you will need to ena
 https://www.youtube.com/watch?v=5ovkcvEzohU
 
 
---------
+---------------
 
 
 
@@ -336,7 +336,7 @@ castellated pads with built-in ceramic antenna:
 * 12.2 mm W x 17.4 mm L
 
 
---------
+---------------
 
 
 ## ESP-01S
@@ -344,7 +344,7 @@ castellated pads with built-in ceramic antenna:
 https://www.amazon.com/DIYmall-ESP8266-ESP-01S-Serial-Transceiver/dp/B00O34AGSU
 
 
---------
+---------------
 
 
 ## ESP-12 / ESP-12E
@@ -374,7 +374,7 @@ For example, the ESP-01 has a total of eight pins connected to user-reachable he
 * TCP Connections - Max: 5 concurrent
 
 
---------
+---------------
 
 
 ## NodeMCU / ESP-12
@@ -396,13 +396,13 @@ where you basically just have the process and a WiFi antenna, without an operati
 This [bare metal environment][77] presents additional challeges.
 
 
---------
+---------------
 
 
 ## Adafruit Feather HUZZAH
 
 
---------
+---------------
 
 
 # Methods of Programming ESP8266
@@ -503,7 +503,7 @@ Also check out these sources:
 * https://github.com/esp8266/esp8266-wiki/wiki/Toolchain
 
 
-----
+---------------
 
 
 ## Arduino IDE
@@ -637,7 +637,7 @@ Arduino IDE Now Supports Building Software in the Command Line - http://lifehack
 ### Step X:
 
 
--------
+---------------
 
 
 ## FreeRTOS
@@ -667,8 +667,12 @@ A tick-less mode is provided for low power applications.
 * [Using FreeRTOS multi-tasking in Arduino](https://www.hackster.io/feilipu/using-freertos-multi-tasking-in-arduino-ebc3cc)
 * [Tiny $7 IoT module packs WiFi, BLE, and sensors, runs FreeRTOS](http://linuxgizmos.com/tiny-7-iot-module-packs-wifi-ble-and-sensors-runs-freertos/)
 
+# Picking The Right RTOS
+* [Real-Time OS Basics: Picking The Right RTOS When You Need One](https://hackaday.com/2021/02/24/real-time-os-basics-picking-the-right-rtos-when-you-need-one/)
+* [Making Sense Of Real-Time Operating Systems In 2024](https://hackaday.com/2024/11/13/making-sense-of-real-time-operating-systems-in-2024/)
 
--------
+
+---------------
 
 
 ## NodeMCU With eLua
@@ -719,7 +723,7 @@ luatool.py --port /dev/ttyUSB0 --src mqtt_client.lua --dest mqtt_client.lua
 luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 
 
--------
+---------------
 
 
 ## MicroPython
@@ -742,7 +746,7 @@ luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 * [MicroPython tutorial for ESP8266](https://docs.micropython.org/en/latest/esp8266/esp8266/tutorial/index.html)
 
 
--------
+---------------
 
 
 ## Mongoose OS
