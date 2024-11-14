@@ -29,3 +29,8 @@ Version:      0.0.0
 
 * [ESP32 WiFi Robot](https://hackaday.io/project/163542-esp32-wifi-robot)
 
+
+# Controller
+
+* [Qw/ST Pad (I2C Game Controller)](https://shop.pimoroni.com/products/qwst-pad?variant=53514400596347)
+
