@@ -12,8 +12,6 @@ Version:      0.0.0
 ---------------
 
 
-
-
 * [WisBlock Meshtastic Starter Kit](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit?variant=43683420438726)
 
 
@@ -109,6 +107,16 @@ Designed to make it easy to build a LoRa network with no gateways, LoRaMesher le
 * [RadioLib: Universal wireless communication library for embedded devices](https://github.com/jgromes/RadioLib/tree/master)
     * [RadioLib Documentation](https://jgromes.github.io/RadioLib/)
 
+
+
+---------------
+
+
+# SoftRF
+SoftRF is an open-source project that aims to provide collision avoidance solutions for general aviation, mainly for manned and unmanned aircraft. It supports multiple aviation protocols, including ADS-B (Automatic Dependent Surveillance Broadcast), FLARM, OGN (Open Glider Network), and FANET, among others, making it highly compatible in tracking and aircraft approach warning systems.
+
+* [GitHub: lyusupov/SoftRF](https://github.com/lyusupov/SoftRF)
+* [SenseCAP Card Tracker T1000-E for Meshtastic](https://www.seeedstudio.com/SenseCAP-Card-Tracker-T1000-E-for-Meshtastic-p-5913.html)
 
 
 [01]:https://www.meshtastic.org/
