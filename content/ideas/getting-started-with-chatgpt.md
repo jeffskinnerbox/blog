@@ -21,6 +21,8 @@ Version:      0.0.0
 
 
 
+* [You Don't Need Apple Intelligence, Anyone Can Use ChatGPT in Siri](https://www.howtogeek.com/you-dont-need-apple-intelligence-anyone-can-use-chatgpt-in-siri/)
+
 * [Peering Into The Black Box of Large Language Models](https://hackaday.com/2024/07/03/peering-into-the-black-box-of-large-language-models/)
 * [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
 
