@@ -214,6 +214,8 @@ working with built-in data types, processing iterables of data, handling input a
     * [The Python Global Interpreter Lock - Explained](https://www.youtube.com/watch?v=XVcRQ6T9RHo)
     * [Understanding Python's Global Interpreter Lock (GIL)](https://realpython.com/courses/understanding-global-interpreter-lock-gil/)
     * [Intro to async Python | Writing a Web Crawler](https://www.youtube.com/watch?v=ftmdDlwMwwQ)
+* Parallel Iteration
+    * [Using the Python zip() Function for Parallel Iteration](https://realpython.com/python-zip-function/)
 * Performance Profiling
     * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
 * Logging
