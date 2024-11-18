@@ -53,7 +53,7 @@ Faust (Functional Audio Stream) is a functional programming language for sound s
 A music sequencer (or audio sequencer or simply sequencer) is a device or application software that can record, edit, or play back music, by handling note and performance information in several forms, typically CV/Gate, MIDI, or Open Sound Control (OSC), and possibly audio and automation data for DAWs and plug-ins
 
 * [This $20 synthesizer sounds very nice indeed](https://www.youtube.com/watch?v=FjLcPNhzAwo)
-  * [Synthetech](https://www.youtube.com/channel/UCtlJGGQGuSFxayNWko_KhAg)
+    * [Synthetech](https://www.youtube.com/channel/UCtlJGGQGuSFxayNWko_KhAg)
 
 * [Adding MIDI To A Mini Synth Is Easy As Pi](https://hackaday.com/2020/09/21/adding-midi-to-a-mini-synth-is-easy-as-pi/)
 * [A Superstar Sequencer from Sixty Four Pixels!](https://blog.tindie.com/2020/09/a-superstar-sequencer-from-sixty-four-pixels/)
@@ -192,6 +192,8 @@ If you want to convert between different compressed audio formats, generally the
 * [Tom's Definitive Linux Software Roundup: Audio Apps][07]
 * [Convert Audio Files From Many Formats In Ubuntu Linux With Sound Converter][08]
 * [Wavbreake][09]
+
+* [How to Bulk-Convert Audio Files in the Linux Terminal](https://www.howtogeek.com/how-to-bulk-convert-audio-files-in-the-linux-terminal/)
 
 
 ## Direct-Digital Synthesis (DDS)
@@ -341,8 +343,8 @@ Doesn't seem to work???
 * [The Operational Amplifier - From Abstraction to Reality](https://www.youtube.com/playlist?list=PLu9wn21AYbaHVeWIdGNiLYFwbgOZsyjwK)
 * [Op-Amp (Operational Amplifier)](https://www.youtube.com/playlist?list=PLwjK_iyK4LLDBB1E9MFbxGCEnmMMOAXOH)
 * [Op-Amps – Analog Building Blocks](https://dronebotworkshop.com/op-amps/)
-  * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
-  * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
+    * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
+    * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
 * [Op-Amps - Using Operational Amplifiers](https://www.youtube.com/watch?v=_HHxV-7alwE)
 * [EEVBlog 1436 - The TOP 5 Jellybean OPAMP's](https://www.youtube.com/watch?v=uq1DMWtjL2U)
 * [Opamp](https://www.youtube.com/watch?v=Z8JDsvfZjL8&list=PLXDK0MeyK4ZgWkzd59wLkir7ZjI7fIsFn)
