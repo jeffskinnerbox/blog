@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -33,12 +33,14 @@ Most power supplies are designed in such a way that it is optimized for CV opera
 
 
 
------
+---------------
 
 
 
 # Voltage Regulators
+
 * [#183 How to select voltage regulators for small projects? (ESP8266, ESP32, Arduino)](https://www.youtube.com/watch?v=ffLU7PSuI5k)
+
 
 # Build Your Own USB-C Power Supply
 Good thing to have on the basement workbench.
@@ -50,8 +52,10 @@ It has increased the availability of simple, portable programmable DC power supp
 There are several different options for powering your project using USB-C Power Delivery,
 ranging from ready made solutions to ICs you might include on your PCB. USB-C Power Delivery (PD) is a standard that supports up to 100W of power.
 
-It’s 2019 and USB-C is still a mess - https://www.androidauthority.com/state-of-usb-c-870996/
-The Problem With Micro-USB Cables - https://tekbotic.com/blogs/tekblog/how-to-fix-loose-micro-usb-cable
+It’s 2019 and USB-C is still a mess - <https://www.androidauthority.com/state-of-usb-c-870996/>
+The Problem With Micro-USB Cables - <https://tekbotic.com/blogs/tekblog/how-to-fix-loose-micro-usb-cable>
+
+* [Power Supply With Benchtop Features Fits In Your Pocket](https://hackaday.com/2024/11/19/power-supply-with-benchtop-features-fits-in-your-pocket/)
 
 * [Bench Supplies Get Smaller Thanks To USB-C](https://hackaday.com/2020/10/19/bench-supplies-get-smaller-thanks-to-usb-c/)
 * [USB-C Programmable Power Supply For Any Project](https://hackaday.com/2021/01/16/usb-c-programmable-power-supply-for-any-project/)
