@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -21,12 +21,14 @@ Version:      0.0.0
 
 
 # Made To Spec: The Coming Age Of Prototyping As A Service
+
 * [Made To Spec: The Coming Age Of Prototyping As A Service](https://hackaday.com/2021/12/08/made-to-spec-the-coming-age-of-prototyping-as-a-service/)
 
 
 
 
 # What CAD Tool to Pick
+
 * [Ask Hackaday: Help Me Pick A CAD Package](https://hackaday.com/2019/01/11/ask-hackaday-help-me-pick-a-cad-package/)
 * [Top 3 FREE 3D Design Software 2019](https://www.youtube.com/watch?v=Cuqao90C76U&feature=youtu.be)
 
@@ -45,7 +47,8 @@ Version:      0.0.0
         * [LibrePCB](https://librepcb.org/)
 * Browser Based CAD
     * [Open Source CAM Software In The Browser](https://hackaday.com/2021/03/01/open-source-cam-software-in-the-browser/)
-    * [ Kiri:Moto](https://grid.space/kiri/)
+    * [Kiri:Moto](https://grid.space/kiri/)
+
 
 # Photo Rendering of 3D Models
 You may want a realistic photo renderings of your 3D CAD models.
@@ -55,15 +58,18 @@ You may want a realistic photo renderings of your 3D CAD models.
 * [REMOTICON VIDEO: KICAD TO BLENDER PCB RENDERS](https://hackaday.com/2020/12/23/remoticon-video-kicad-to-blender-pcb-renders/)
 * [From KiCad to Blender for a Stunning Render](https://hackaday.com/2024/01/03/from-kicad-to-blender-for-a-stunning-render/)
 
+
 # Electronics Design Automation (EDA)
 Electronic design automation (also referred to as electronic computer-aided design)
 is a category of software tools for designing electronic systems
 such as integrated circuits and printed circuit boards.
 
+
 ## The Art of Electronics
 None of these tools will be a substute for a mastering of the domain of electronics.
 To to that, you man not start here, but you should certainly finish here:
 [The Truth is in There: The Art of Electronics, the x-Chapters](https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters)
+
 
 ## Upverter
 [Upverter](https://upverter.com/) makes electronics design very easy.
@@ -71,26 +77,37 @@ Upverter is a modular, web-based tool that does it all — PCB design, schematic
 
 * [Create a PCB from Scratch with Upverter](https://www.hackster.io/Hulkco/create-a-pcb-from-scratch-with-upverter-63a944)
 
+
 ## EasyEDA
+
 * [EasyEDA](https://easyeda.com/)
 
+
 ### Convert EasyEDA Design to KiCad
+
 * [Introducing: EasyEDA 2 KiCad](https://urish.medium.com/introducing-easyeda-2-kicad-37489da1dfa7)
 * [Convert EasyEDA Files To KiCad EDA](https://wokwi.com/easyeda2kicad)
 * [Easyeda2KiCad: Never Draw a Footprint Again](https://hackaday.com/2023/08/08/easyeda2kicad-never-draw-a-footprint-again/)
 
+
 ## Flexable PCB
+
 * [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/Main/SiliconeDevices)
 * [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/uploads/Main/SiliconeDevices/SiliconeDevices.pdf)
 
+
 ## LibrePCB
+
 * [Review: LibrePCB Hits Version 1.0](https://hackaday.com/2023/10/03/review-librepcb-hits-version-1-0/)
 * [LibrePCB](https://librepcb.org/)
 * [Review: Testdriving LibrePCB Shows That It’s Growing Up Fast](https://hackaday.com/2020/01/22/review-testdriving-librepcb-shows-that-its-growing-up-fast/)
 * [Introduction to LibrePCB A new, powerful and intuitive EDA tool for everyone](https://www.youtube.com/watch?v=vu-h5y6tK34&t=10s)
 
+
 ## Surface Mount Technology (SMT) Assembly
+
 * [Learn Bil Herd’s DIY Surface Mount Assembly Process](https://hackaday.com/2021/02/02/learn-bil-herds-diy-surface-mount-assembly-process/)
+
 
 ## KiCad
 [KiCad][25] is a free software suite for
@@ -138,13 +155,17 @@ and their conversion to [PCB designs][46].
 
 * [Silkscreen Busy? Put Labels Inside Pads](https://hackaday.com/2023/04/04/silkscreen-busy-put-labels-inside-pads/)
 
+
 ## KiCad Viewer
 KiCanvas lets you view, embed, and explore KiCAD’s schematics, boards, footprints, and library symbols within your web browser. You don’t need to do any exporting, printing, or install any plugins as KiCanvas reads KiCAD files directly. KiCanvas is interactive- you can click symbols and footprints to view all the data assigned to those items in KiCAD.
 
 * [KiCanvas Helps Teach And Share KiCad Projects In Browsers](https://hackaday.com/2023/01/31/kicanvas-helps-teach-and-share-kicad-projects-in-browsers/)
 
+
 ## CircuitMaker
+
 * [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
+
 
 ## SPICE
 SPICE (Simulation Program with Integrated Circuit Emphasis) is a general-purpose,
@@ -164,7 +185,9 @@ to check the integrity of circuit designs and to predict circuit behavior.
 * [RF design guide](http://www.cdt21.com/resources/default.asp)
 * [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)
 
+
 ### LTSpice
+
 * [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
 * [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
 * [Phasors In LTSpice](https://hackaday.com/2021/03/17/phasors-in-ltspice/)
@@ -172,26 +195,39 @@ to check the integrity of circuit designs and to predict circuit behavior.
 * [LTspice tutorial](https://www.youtube.com/playlist?list=PLT84nve2j1g_wgGcm0Bv3K4RSl2Jdjsey)
 * [Adding Spice to Your Workbench](https://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
 
+
 ### MICRO-CAP 12
+
 * [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
 * [Commericial Circuit Simulator Goes Free](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
 
+
 ### PSpice
+
 * [TI And Cadence Make PSpice Free](https://hackaday.com/2020/09/20/ti-and-cadence-make-pspice-free/)
 * [PSpice for TI](https://e2e.ti.com/blogs_/b/analogwire/archive/2020/09/14/how-to-simulate-complex-analog-power-and-signal-chain-circuits-with-pspice-for-ti)
 
+
 ### QSpice
+
 * [Qorvo’s QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice/)
 
+
 ### Xyce
+
 * [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
 * [Xyce](https://xyce.sandia.gov/)
 
+
 ### QucsStudio
+
 * [QucsStudio](http://qucsstudio.de/)
 
+
 ### OpenSPICE
+
 * [OpenSPICE: A Portable Python Circuit Simulator](https://hackaday.com/2023/02/14/openspice-a-portable-python-circuit-simulator/)
+
 
 # CAD File Interchangeability
 Exchanging CAD files between CAD tools can be a big headache.
@@ -200,7 +236,9 @@ or commonly called [STEP file format][24],
 
 Your 3D printer's g-code is automatically generated by a slicing program such as Cura.is usually used to share 3D models between users with different CAD systems.
 
+
 ### AutoCAD
+
 
 ### Fusion 360
 [Autodesk's Fusion 360][13] is a platform of 3D [computer aided design (CAD)][10],
@@ -211,18 +249,24 @@ Fusion 360 [offers free use][14] to qualifying hobbyist makers and students.
 * []()
 * [Generative Optimization of a Wheel](https://www.adambender.info/post/generative-optimization)
 
+
 ### MeshLab
-http://www.meshlab.net/
+<http://www.meshlab.net/>
+
 
 ### SketchUp and AutoCAD
+
 * [SketchUp and Autocad](http://www.sketchupartists.org/spotlight/authors/daniel-tal-google-sketchup-for-site-design/sketchup-and-autocad/)
 
+
 ### Onshape
+
 
 ### OpenSCAD
 [!openscad-logo](https://reposcope.com/media/unknown/none/unknown/openscad.png)
 Complex CAD parts can have complex construction to get things like symmetry and parametric sizing to work correctly. It's much more involved than word processing, for example. If you watch an experienced CAD technician work, they will often wipe the entire part and start over so that the right operators are applied at the right part in the construction sequence.
 So CAD part design is a lot like programming, so why not use an actual programming language? That way you get the editing and version control of a programming language.
+
 
 ### FreeCAD
 [!freecad-logo](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/FreeCAD-logo.svg/1024px-FreeCAD-logo.svg.png)
@@ -238,12 +282,15 @@ This means you can make use of [constructive solid geometry (CSG)][01]
 techniques when modelling, as well as,
 import designs from other CAD software application for use or modification on your FreeCAD workspace.
 
+* [FreeCAD Version 1.0 Released](https://hackaday.com/2024/11/20/freecad-version-1-0-released/)
+
 * [CAD Battle - OpenSCAD vs. FreeCAD](https://www.youtube.com/watch?v=OP0zI0k9gOs)
 * [OpenSCAD vs. FreeCAD - Using FreeCAD to Export a printable STL of an OpenSCAD Model](https://www.youtube.com/watch?v=G66zAjnZpcc)
 * [FreeCAD Vs SolveSpace](https://hackaday.com/2020/07/16/freecad-vs-solvespace/)
 * [FreeCAD TechDraw Workbench Tutorial](https://hackaday.com/2019/12/03/freecad-techdraw-workbench-tutorial/)
 * [FreeCAD Parametrics Made Simple](https://hackaday.com/2020/10/09/freecad-parametrics-made-simple/)
 * [FreeCAD Foray: Shells For All Our PCBs](https://hackaday.com/2024/07/01/freecad-foray-shells-for-all-our-pcbs/)
+
 
 ### FreeCAD + CadQuery
 Like OpenSCAD, [FreeCAD][09] is a parametric modeler.
@@ -256,6 +303,7 @@ Give my limited rand of use, I choose the Ubuntu supported version:
 # install freecad
 sudo apt-get install freecad
 ```
+
 
 ### CadQuery
 [CadQuery][19] (inspired by [jQuery][23])
@@ -275,7 +323,7 @@ However, [CadQuery claims superiority][22] because:
 and then add parametric features to it
 * scripts require less code to create most objects,
 because it is possible to locate features based on the position of other features, workplanes, vertices, etc.
-*  CadQuery scripts can build STL, STEP, and AMF faster than OpenSCAD
+* CadQuery scripts can build STL, STEP, and AMF faster than OpenSCAD
 
 * [CadQuery Comes Of Age](https://hackaday.com/2022/02/04/cadquery-comes-of-age/)
 * [Getting Started with CadQuery Scripting](https://www.youtube.com/watch?v=lxhBNOE7GVs)
@@ -286,6 +334,7 @@ because it is possible to locate features based on the position of other feature
 
 
 # FreeCAD Workbenches To Consider
+
 * [Tools for running Slic3r from FreeCAD](https://github.com/limikael/freecad-slic3r-tools)
 * [Slic3r Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=36342)
 * [FreeCAD Takes Off With A Rocket Design Workbench](https://hackaday.com/2021/04/02/freecad-takes-off-with-a-rocket-design-workbench/)
@@ -293,7 +342,7 @@ because it is possible to locate features based on the position of other feature
 
 
 
-------
+---------------
 
 
 
@@ -323,6 +372,7 @@ and it read design parameters from [DXF files][04].
 Besides DXF files OpenSCAD,
 can read and create 3D models in the [STL file][05] and [OFF file][06] formats.
 
+
 ## OpenSCAD Workflow
 One of th emost appealing part of OpenSCAD is that it allows you
 to model physical objects as if you were writing software.
@@ -331,6 +381,7 @@ This power comes, for those with minimal coding and geometric skills, with the p
 
 * [Mastering OpenSCAD Workflow](https://hackaday.com/2018/11/14/mastering-openscad-workflow/)
 * [Designing 3D Printable Mechanisms in OpenSCAD](https://urish.medium.com/designing-3d-printable-mechanisms-in-openscad-5838dcb65b39)
+
 
 ## OpenSCAD Libraries
 OpenSCAD uses three library locations,
@@ -354,6 +405,7 @@ the directory of the library `.scad` file is the 'calling' file
 (i.e. when looking for libraries within a library,
 it does not check the directory of the top level `.scad` file).
 
+
 ### Special Variables in OpenSCAD
 Special variables provide an alternate means of passing arguments to modules and functions within OpenSCAD.
 All user, or OpenSCAD, defined variables starting with a '$' are special variables
@@ -365,8 +417,10 @@ The $fa, $fs and $fn special variables control the number of facets used to gene
 * **$fs is the minimum size of a fragment.** Because of this variable very small circles have a smaller number of fragments than specified using $fa. The default value is 2. The minimum allowed value is 0.01. Any attempt to set a lower value will cause a warning.
 * **$fn is usually 0.** When this variable has a value greater than zero, the other two variables are ignored and full circle is rendered using this number of fragments. The default value is 0.
 
+
 ## OpenSCAD Documentation & Tutorals
 Documentation
+
 * [Utility libraries for OpenSCAD](https://github.com/OskarLinde/scad-utils)
 * [dotSCAD - Helpful modules and functions when playing OpenSCAD](https://github.com/JustinSDK/dotSCAD)
 * [OpenSCAD User Manual](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual)
@@ -377,6 +431,7 @@ Documentation
 * [ScrewsMetric](https://github.com/More-Wrong/ScrewsMetric)
 
 Tutorials
+
 * [Languagelessness: OpenSCAD](https://openhome.cc/eGossip/OpenSCAD/)
     * [dotSCAD - Helpful modules and functions when playing OpenSCAD](https://github.com/JustinSDK/dotSCAD)
 * [Know only 10 things to be dangerous in OpenSCAD](https://cubehero.com/2013/11/19/know-only-10-things-to-be-dangerous-in-openscad/)
@@ -385,16 +440,21 @@ Tutorials
 * [Fillet Mounts](https://www.youtube.com/watch?v=xwHybCZK-6k&app=desktop)
 * [Cubehero Blog](https://cubehero.com/)
 
+
 ### OpenSCAD Animation
+
 * [Ball joint articulated arm](https://www.youtube.com/watch?v=c1B8hW3d830)
 * [How to animate models in OpenSCAD](https://blog.prusaprinters.org/how-to-animate-models-in-openscad/)
+
 
 ### GhostSCAD
 GhostSCAD is a piece of software that makes it easy to create CAD models using Go and compile them to the OpenSCAD language. It allows you to use the full power of a real programming language and use the rendering capabilities of OpenSCAD.
 
 * [GhostSCAD: Marrying OpenSCAD And Golang](https://hackaday.com/2023/02/12/ghostscad-marrying-openscad-and-golang/)
 
+
 ## Installing OpenSCAD and Setting Up Libraries
+
 * [Try NopSCADlib For Your Next OpenSCAD Project](https://hackaday.com/2019/06/15/try-nopscadlib-for-your-next-openscad-project/)
 
 **NOTE NOTE NOTE NOTE**
@@ -404,6 +464,7 @@ and install instructions are give [here](http://www.openscad.org/downloads.html)
 but [appear to be OpenSCAD version 2015.03-2](https://askubuntu.com/questions/1027731/how-to-install-openscad-in-ubuntu-18-04-18-10).
 
 So as of June 25, 2019, Ubuntu 18.10 support of OpenSCAD 2019.05 hasn't happen yet.
+
 
 ### Step 1: Installing OpenSCAD Executable - DONE
 On most Linux distributions,
@@ -452,7 +513,8 @@ $ openscad --version
 OpenSCAD version 2015.03-2
 ```
 
-### Step X:
+
+### Step X
 This Linux package install only brings in the the installation library
 (located at `/usr/share/openscad/libraries/MCAD/`).
 The [OpenSCAD MCAD Library][15] ([documentation][16])
@@ -460,13 +522,14 @@ contains components commonly used in designing and moching up mechanical designs
 
 Next we'll install some additional libraries.
 
+
 ### Step X: Installing OpenSCAD Libraries
 There are many other OpenSCAD libraries you could choose to install,
 many of which can be found [listed here][17] and [listed here][18].
 
 Others that I have come accross that may be of some general use are:
 
-* In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part design. - https://en.wikipedia.org/wiki/Fillet_(mechanics)   https://github.com/StephS/i2_xends/blob/master/inc/fillets.scad
+* In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part design. - <https://en.wikipedia.org/wiki/Fillet_(mechanics)>   <https://github.com/StephS/i2_xends/blob/master/inc/fillets.scad>
 * [Belfry OpenScad Library](https://github.com/revarbat/BOSL/wiki)
 
 
@@ -489,24 +552,34 @@ wget https://www.thingiverse.com/download:1525888 -O threads.scad
 wget https://www.thingiverse.com/download:1545313 -O nuts_and_bolts_v1.95.scad
 ```
 
-### Step X:
-### Step X:
-### Step X:
+
+### Step X
+
+
+### Step X
+
+
+### Step X
+
 
 # Gears and Threads in OpenSCAD
+
 * [Generating Nice Threads In OpenSCAD](https://hackaday.io/page/5252-generating-nice-threads-in-openscad)
 * [Studying The Finer Points Of 3D Printed Gears](https://hackaday.com/2024/06/12/studying-the-finer-points-of-3d-printed-gears/)
 
-------
+---------------
+
 
 # FreeCAD
+
 * [FreeCAD Wiki - Getting Started](https://www.freecadweb.org/wiki/Getting_started)
 * [FreeCAD Wiki - Tutorials](https://www.freecadweb.org/wiki/Tutorials)
 * [FreeCAD Video Tutorials by matcodeprint](https://www.youtube.com/watch?v=jlmd5_lnwXM&list=PLkRx3bM9e3yCPkg9NQmW1eM-ynKcjoGhh)
 * [FreeCAD Assembly Tutorial - The new a2+ Workbench has arrived](https://www.youtube.com/watch?v=mnkecA9S7kc)
 * [FreeCAD Video Tutorials by sliptonic](https://www.youtube.com/user/sliptonic/videos)
 
-* [Learn FreeCAD by ](https://www.youtube.com/watch?v=CG_czsNdUfs&list=PL2935W76vRNFvUGefQr3q9P9eezJZyj-u)
+* [Learn FreeCAD by](https://www.youtube.com/watch?v=CG_czsNdUfs&list=PL2935W76vRNFvUGefQr3q9P9eezJZyj-u)
+
 
 ## Workbenches
 The first key concept to understand about freecad is the notion of workbenches.
@@ -515,17 +588,21 @@ You can select a workbench through
 the drop down menu in the middle of the icon bar.
 For 3D printing, you will mostly use the **Part Design** and the **Part** workbenches.
 
-* https://folk.uio.no/jeanra/Teaching/MEK3230/Documents/GettingStartedFreeCAD.pdf
+* <https://folk.uio.no/jeanra/Teaching/MEK3230/Documents/GettingStartedFreeCAD.pdf>
 
 Internal Workbenches
-External Workbenches - https://www.freecadweb.org/wiki/External_workbenches
-All workbenches at a glance - https://www.freecadweb.org/wiki/Manual:All_workbenches_at_a_glance
+External Workbenches - <https://www.freecadweb.org/wiki/External_workbenches>
+All workbenches at a glance - <https://www.freecadweb.org/wiki/Manual:All_workbenches_at_a_glance>
+
 
 ### A2plus Workbench
 The A2plus workbench is an [external workbench][27] to assemble different parts in FreeCAD.
 
+
 ### Gear Workbench
+
 * [Home Made Gears Save This Shredder](https://hackaday.com/2019/06/23/home-made-gears-save-this-shredder/)
+
 
 ### Step 1: Install FreeCAD - DONE
 Installing via `apt-get` on Ubuntu gives you an older version of FreeCAD
@@ -573,6 +650,7 @@ The answer is "yes" to support desktop integration.
 >the desktop files remain in your system.
 >You may leave it as it is but it might be wiser to delete them manually.
 
+
 ### Step 2: Install the CadQuery Module for FreeCAD - DONE
 [CadQuery][43] is a Python based language for building parametric 3D CAD models.
 CadQuery can be used as a scripting language within FreeCAD.
@@ -582,8 +660,11 @@ and all of the required libraries are embedded with the workbench.
 To install CadQuery,
 run the FreeCAD Addon Manager by clicking **Tools** > **Addon manager** > **cadquery_module**.
 
-### Step X:
-### Step X:
+
+### Step X
+
+
+### Step X
 
 
 ### Step X: PartDesign Workbench
@@ -595,13 +676,20 @@ You can customize the tools included in each workbench,
 add tools from other workbenches or even self-created tools (called macros).
 Widely used starting points are the [Sketcher Workbench][37], [PartDesign Workbench][38].
 
-### Step X: Sketcher Workbench
-### Step X:
-### Step X:
-### Step X:
 
-Writen Tutorials - https://www.freecadweb.org/wiki/Tutorials
-Video Tutorials - https://www.youtube.com/results?search_query=freecad
+### Step X: Sketcher Workbench
+
+
+### Step X
+
+
+### Step X
+
+
+### Step X
+
+Writen Tutorials - <https://www.freecadweb.org/wiki/Tutorials>
+Video Tutorials - <https://www.youtube.com/results?search_query=freecad>
 
 
 
@@ -641,7 +729,6 @@ Video Tutorials - https://www.youtube.com/results?search_query=freecad
 [33]:https://techoverflow.net/2018/06/03/how-to-fix-freecad-no-module-named-webgui-on-ubuntu-18-04/
 [34]:https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=886538
 [35]:https://www.freecadweb.org/wiki/About_FreeCAD
-[36]:https://www.freecadweb.org/wiki/PartDesign_Workbench
 [37]:https://www.freecadweb.org/wiki/Sketcher_Workbench
 [38]:https://www.freecadweb.org/wiki/History
 [39]:https://freecadweb.org/downloads.php
