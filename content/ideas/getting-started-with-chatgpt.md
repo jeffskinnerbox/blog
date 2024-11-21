@@ -21,6 +21,8 @@ Version:      0.0.0
 
 
 
+* [An Animated Walkthrough Of How Large Language Models Work](https://hackaday.com/2024/11/20/an-animated-walkthrough-of-how-large-language-models-work/)
+
 * [You Don't Need Apple Intelligence, Anyone Can Use ChatGPT in Siri](https://www.howtogeek.com/you-dont-need-apple-intelligence-anyone-can-use-chatgpt-in-siri/)
 
 * [Peering Into The Black Box of Large Language Models](https://hackaday.com/2024/07/03/peering-into-the-black-box-of-large-language-models/)
