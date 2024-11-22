@@ -33,4 +33,5 @@ Version:      0.0.0
 # Controller
 
 * [Qw/ST Pad (I2C Game Controller)](https://shop.pimoroni.com/products/qwst-pad?variant=53514400596347)
+* [An Arduino-Based RC Transmitter Built to Control Robots](https://www.hackster.io/news/an-arduino-based-rc-transmitter-built-to-control-robots-c97079de2daa)
 
