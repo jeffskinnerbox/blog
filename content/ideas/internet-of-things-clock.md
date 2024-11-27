@@ -33,6 +33,12 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 
 
 
+
+# Clock / Battery Charger
+
+* [This elegant, retro Raspberry Pi Pico clock doubles as a battery charger](https://www.xda-developers.com/elegant-retro-raspberry-pi-pico-clock-doubles-battery-charger/)
+
+
 # Swiss Railway Clock Design
 
 * [Mondaine](https://mondaine.com/collections/clocks?gclid=CjwKCAjwvdajBhBEEiwAeMh1UxznimxNzUIkfqNSUaTJ0SsMbIYC5gH-rNjFsH64nMYZzc8P0R8jnxoCiUwQAvD_BwE)
