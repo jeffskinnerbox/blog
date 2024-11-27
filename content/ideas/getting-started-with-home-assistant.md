@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 
+
 * [Docker and Home Automation](https://www.youtube.com/playlist?list=PL4ed4sZb-R_8dJmakzfBywx1zL9HrFEOy)
 * [Top HACS Integrations for Home Assistant](https://www.mostlychris.com/top-hacs-add-ons-for-home-assistant/)
 * [The Evolution Of My Home Assistant Setup](https://hometechhacker.com/the-evolution-of-my-home-assistant-setup/)
@@ -42,6 +43,18 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 * move from Node-RED to Home Assistant - [Node-RED vs Home Assistant Automations](https://www.mostlychris.com/node-red-vs-home-assistant-automations/)
 * [moving ALL of my Automations from Home Assistant to Node Red Ep1 - Presence Detection](https://www.youtube.com/watch?v=xvQr6n31A4s)
+
+
+
+
+
+
+
+
+# Home Assistant Control Board
+
+* [I Control EVERYTHING with this Raspberry Pi](https://www.youtube.com/watch?v=gpyYCTgJO88)
+* [Raspberry Pi Touch Display 2](https://www.raspberrypi.com/products/touch-display-2/)
 
 
 # Picking Devices for Home Assistant Integration
