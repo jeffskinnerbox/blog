@@ -14,6 +14,10 @@ Version:      0.0.0
 
 
 
+
+
+
+
 * [Accelerating Fourier transforms using the Raspberry Pi's GPU](http://www.raspberrypi.org/archives/5934)
 * [HiFiBerry](http://www.hifiberry.com/)
 * [Audio Sensor Development Part 1: Microphone Math](http://www.macetech.com/blog/node/138)
@@ -25,7 +29,6 @@ Version:      0.0.0
 
 * [DeepSound overview](http://jpinsoft.net/DeepSound/)
 
-* [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
 
 * [OpAmp](https://www.youtube.com/playlist?list=PLXDK0MeyK4ZgWkzd59wLkir7ZjI7fIsFn)
 
@@ -37,10 +40,41 @@ Version:      0.0.0
 
 
 
-# Faust
+---------------
+
+
+
+# Audio Streaming
+
+
+## Gstreamer
+
+* [GStreamer is a framework for creating streaming media applications](https://gstreamer.freedesktop.org/)
+
+
+## Faust
 Faust (Functional Audio Stream) is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc. Faust targets high-performance signal processing applications and audio plug-ins for a variety of platforms and standards.
 
 * [Faust](https://faust.grame.fr/index.html)
+
+
+## Sound via Data Streaming to UART
+
+* [Digital Audio For Microcontrollers Doesn’t Come Much Simpler Than A WART](https://hackaday.com/2021/07/11/digital-audio-for-microcontrollers-doesnt-come-much-simpler-than-a-wart/)
+
+
+## PipeWire
+
+* [PipeWire](https://pipewire.org)
+* [GitHub: PipeWire/pipewire](https://github.com/PipeWire/pipewire)
+* [Linux Fu: Audio Network Pipes](https://hackaday.com/2024/11/26/linux-fu-audio-network-pipes/)
+* [PipeWire Guide](https://github.com/mikeroyal/PipeWire-Guide)
+
+
+
+
+---------------
+
 
 
 # VCV Rack
@@ -200,11 +234,6 @@ If you want to convert between different compressed audio formats, generally the
 [Direct-digital synthesis (DDS)](http://hackaday.com/2016/02/12/embed-with-elliot-audio-playback-with-direct-digital-synthesis/)
 is a sample-playback technique that is useful for adding a little bit of audio
 to your projects without additional hardware.
-
-
-## Sound via Data Streaming to UART
-
-* [Digital Audio For Microcontrollers Doesn’t Come Much Simpler Than A WART](https://hackaday.com/2021/07/11/digital-audio-for-microcontrollers-doesnt-come-much-simpler-than-a-wart/)
 
 
 # Audio Syntesizer
