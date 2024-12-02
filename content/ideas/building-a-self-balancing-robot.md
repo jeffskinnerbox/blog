@@ -377,6 +377,7 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
     * [Evolutionary optimization of PID parameters for empirically identified system](http://wemakethings.net/2013/12/01/pid_genetics/)
     * [DEMYSTIFYING PID CONTROL WITH A LOOK AT THE NEW ARDUINO PID LIBRARY](https://hackaday.com/2011/07/21/demystifying-pid-control-with-a-look-at-the-new-arduino-pid-library/)
     * [Improving the Beginner’s PID – Introduction](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/)
+    * [Implementing a PID Controller Algorithm in Python](https://www.digikey.com/en/maker/tutorials/2024/implementing-a-pid-controller-algorithm-in-python)
 
     * [An Introduction to Control Systems: Designing a PID Controller Using MATLAB’s SISO Tool](http://www.allaboutcircuits.com/technical-articles/an-introduction-to-control-systems-designing-a-pid-controller-using-matlabs/)
 
