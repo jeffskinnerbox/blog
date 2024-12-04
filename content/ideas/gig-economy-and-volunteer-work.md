@@ -9,11 +9,21 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
+
+
+
+* [Data Annotation Tech](https://www.dataannotation.tech/)
+    * [Trustpilot Revews: Data Annotation Tech](https://www.trustpilot.com/review/dataannotation.tech)
+
+
+
+---------------
 
 
 
 # Gig Economy
+
 * [Thriving in the Gig Economy](https://hbr.org/2018/03/thriving-in-the-gig-economy)
 * [Google’s Genius $49/mo Course Is About to Replace College Degrees](https://entrepreneurshandbook.co/googles-genius-49-mo-course-is-about-to-replace-college-degrees-340f459aaa9b)
 
@@ -41,22 +51,30 @@ Version:      0.0.0
 
 * [upwork](https://www.upwork.com/)
 
+
 # Side Hustle
+
 * [RoadToRetire](https://www.youtube.com/@RoadToRetire25)
 * [How To Turn A Side Hustle Into Your Dream Business](https://www.namecheap.com/blog/how-to-turn-a-side-hustle-into-your-dream-business/)
 
+
 # Volunteering
+
 * [VolunteerMatch](https://www.volunteermatch.org/)
 * [Loudoun Computer Science Initiative](http://loudouncodes.org/)
 * [Ask Hackaday: Repair Café Or Not?](https://hackaday.com/2022/05/03/ask-hackaday-repair-cafe-or-not/)
     * [Repair Cafe](https://www.repaircafe.org/en/)
 
+
 ## STEM Education
+
 * [Drones in School](https://www.dronesinschool.com/)
 * [Academies of Loudoun (AOL)](https://www.lcps.org/AOL)
     * [Clubs & Activities](https://www.lcps.org/site/Default.aspx?PageType=1&SiteID=18349&ChannelID=25532&DirectoryType=6)
 * [F1 in Schools](https://www.f1inschoolsna.org/)
 
+
 # Other Peoples Experiences
+
 * [My Third Year as a Solo Developer](https://mtlynch.io/solo-developer-year-3/)
 
