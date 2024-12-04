@@ -98,6 +98,11 @@ A good remedy for this can be containerization of your Python development enviro
 * [How to write code for your Raspberry Pi Pico in your web browser with ViperIDE](https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/how-to-write-code-for-your-raspberry-pi-pico-in-your-web-browser-with-viperide)
 
 
+# Error handling
+
+* [Handling or Preventing Errors in Python: LBYL vs EAFP](https://realpython.com/courses/handling-preventing-errors-lbyl-eafp/)
+
+
 # DIY Python Debugger
 
 * [Let’s create a Python Debugger together: Part 1](https://mostlynerdless.de/blog/2023/09/20/lets-create-a-python-debugger-together-part-1/)
