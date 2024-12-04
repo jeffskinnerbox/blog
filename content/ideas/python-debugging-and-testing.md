@@ -373,7 +373,14 @@ Example programs that make heavy use of Python's commandline utilities.
 * [Manage Your To-Do Lists Using Python and Django](https://realpython.com/django-todo-lists/)
 
 
-*--------------
+---------------
+
+
+# Basic Input / Output
+
+* [Basic Input and Output in Python](https://realpython.com/python-input-output/)
+
+---------------
 
 
 # Python Graphical User Interfaces (GUI)
