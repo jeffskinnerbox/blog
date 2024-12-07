@@ -481,6 +481,7 @@ The
 
 * [Measuring Crystals with NanoVNA and other tools](https://www.youtube.com/watch?v=G9zZRNzhsEE)
 * [nanoVNA - Determining the Resonant Frequency of Crystals](https://www.youtube.com/watch?v=rVIHVi-7brs)
+* [VNAs and Crystals](https://hackaday.com/2024/12/06/vnas-and-crystals/)
 
 
 # Measure Coaxial Cable Characteristic Impedance and Cable Loss
