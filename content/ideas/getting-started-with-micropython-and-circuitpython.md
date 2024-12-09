@@ -13,6 +13,14 @@ Version:      0.0.0
 
 
 
+# Python vs. MicroPython
+
+* [When to Transition from Python to MicroPython?](https://python.plainenglish.io/when-to-transition-from-python-to-micropython-b872289e5919)
+
+
+
+
+
 # MicroPython: The best bits
 
 * [MicroPython: The best bits!](https://pretalx.com/pycon-au-2024/talk/HFXFLZ/)
