@@ -164,14 +164,14 @@ and they're accurate without any calibration!
 
 * [WeatherCloud](https://weathercloud.net/site/about)
 * [National Weather Service](https://www.weather.gov/documentation/)
-  * [National Weather Service Weather Alerts](https://alerts.weather.gov/)
-  * [Weather Alert Light System](https://www.instructables.com/id/Weather-Alert-Light-System/)
+    * [National Weather Service Weather Alerts](https://alerts.weather.gov/)
+    * [Weather Alert Light System](https://www.instructables.com/id/Weather-Alert-Light-System/)
 * [OpenWeatherMap](http://openweathermap.org/)
-  * [Real-Time Weather with Raspberry Pi 4](https://www.hackster.io/gatoninja236/real-time-weather-with-raspberry-pi-4-ad621f)
-  * [Fetching real-time weather data and controlling the speed of a motor fan with Raspberry Pi on Raspbe](https://community.dfrobot.com/makelog-308300.html)
+    * [Real-Time Weather with Raspberry Pi 4](https://www.hackster.io/gatoninja236/real-time-weather-with-raspberry-pi-4-ad621f)
+    * [Fetching real-time weather data and controlling the speed of a motor fan with Raspberry Pi on Raspbe](https://community.dfrobot.com/makelog-308300.html)
 * [MetaWeather](https://www.metaweather.com/)
 * [Dark Sky API](https://darksky.net/dev/)
-  * [Dark Sky API PyPortal and Weather Dashboard](https://www.hackster.io/elizabethna/dark-sky-api-pyportal-and-weather-dashboard-9383ee)
+    * [Dark Sky API PyPortal and Weather Dashboard](https://www.hackster.io/elizabethna/dark-sky-api-pyportal-and-weather-dashboard-9383ee)
 * [Foreca](https://corporate.foreca.com/en/weather-data/weather-api)
 * [cli-weather](https://www.npmjs.com/package/cli-weather)
 * [Migrating a Project from Weather Underground to Open Weather Maps](https://www.sparkfun.com/news/2858)
@@ -205,10 +205,10 @@ This online service allows you to quickly define REST API or SOAP endpoints and 
 * [TRACKING RADIOSONDES WITH AN RTL-SDR AND RADIOSONDE_AUTO_RX](https://www.rtl-sdr.com/tracking-radiosondes-with-an-rtl-sdr-and-radiosonde_auto_rx/)
 * [RadioSonde Auto RX: How To Install Radiosonde_Auto_RX from a Prebuilt Image](https://rrc.org.au/2021/08/15/auto_rx-prebuilt-image/)
 * [STM32 Development Boards (literally) Falling From The Sky](https://www.youtube.com/watch?v=YBy-bXEWZeM&t=1s)
-  * [Global Wind Speed](https://earth.nullschool.net/)
-  * [sondehub](https://sondehub.org/)
-  * [tracker sondehub](https://sondehub.org/)
-  * [RS41 RADIOSONDE TRACKING SOFTWARE](https://www.rtl-sdr.com/rs41-radiosonde-tracking-software/)
+    * [Global Wind Speed](https://earth.nullschool.net/)
+    * [sondehub](https://sondehub.org/)
+    * [tracker sondehub](https://sondehub.org/)
+    * [RS41 RADIOSONDE TRACKING SOFTWARE](https://www.rtl-sdr.com/rs41-radiosonde-tracking-software/)
 
 
 # PLA Waterproofing
@@ -320,7 +320,7 @@ Open `server.js` and replace its content as follows:
 
 # Hardware Design
 
-* [E-Paper Weather Display Is A Great Base To Build From]()
+* [Build your own elegant e-paper weather display powered by an ESP32 microcontroller](https://www.xda-developers.com/build-elegant-e-paper-weather-display-esp32-microcontroller/)
 * [ESP8266 weather station with e-paper display](http://embedded-lab.com/blog/esp8266-weather-station-e-paper-display/)
 * [7.5inch Passive NFC-Powered e-Paper without Battery](https://www.seeedstudio.com/7-5inch-Passive-NFC-Powered-e-Paper-without-Battery-p-4494.html)
 * [ESP8266 Weather display](https://github.com/andrei7c4/weatherdisplay)
@@ -333,7 +333,7 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [Kindle Gets Downgraded to an Expensive Thermostat](http://hackaday.com/2014/05/29/kindle-paperwhite-gets-downgraded-to-an-expensive-thermostat/)
 * [Kindle weather and recycling display](http://hackaday.com/2013/04/01/kindle-weather-and-recycling-display/)
 * [Turning a Kindle into a weather display](http://hackaday.com/2012/09/17/turning-a-kindle-into-a-weather-display/)
-  * [Kindle hack adds value to the wallpaper](http://hackaday.com/2013/08/28/kindle-hack-ads-value-to-the-wallpaper/)
+    * [Kindle hack adds value to the wallpaper](http://hackaday.com/2013/08/28/kindle-hack-ads-value-to-the-wallpaper/)
 * [How to Jailbreak Your Kindle Paperwhite for Screensavers, Apps, and More](http://www.howtogeek.com/168844/how-to-jail-break-your-kindle-paperwhite-for-screensavers-apps-and-more/)
 * [Raspberry Pi and Kindle Together Again](http://hackaday.com/2015/04/30/raspberry-pi-and-kindle-together-again/)
 * [KindleBerry Pi](http://www.ponnuki.net/2012/09/kindleberry-pi/)
@@ -362,7 +362,7 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 * [The Electrifying Debate Around Where Lightning Comes From](https://hackaday.com/2022/02/17/the-electrifying-debate-around-where-lightning-comes-from/)
 
 * [An Introduction to Storm Detector Modules](https://hackaday.com/2018/03/22/an-introduction-to-storm-detector-modules/)
-  * [Storm Detector Modules: Dancing in the Rain](https://hackaday.com/2018/03/28/storm-detector-modules-dancing-in-the-rain/)
+    * [Storm Detector Modules: Dancing in the Rain](https://hackaday.com/2018/03/28/storm-detector-modules-dancing-in-the-rain/)
 * [Playing With Fusion, Inc](https://github.com/PlayingWithFusion)
 * [Lightning Analysis With Your SDR](https://hackaday.com/2020/08/07/lightning-analysis-with-your-sdr/)
 
@@ -458,7 +458,7 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 Compared with geophones, seismometers are more suitable for extremely small ground motion detection, as they cover a larger frequency band, including the frequency range below their natural frequency, normally from 0.01 to 50 Hz. For conventional geophones, the frequency band falls into the range of 1–15 Hz.
 
 * [DIY Geophone Build Performs Well](https://hackaday.com/2024/03/02/diy-geophone-build-performs-well/)
-  * [DIY Extremly Sensitive and cheap Geophone sensor](https://hackaday.io/project/194956-diy-extremly-sensitive-and-cheap-geophone-sensor)
+    * [DIY Extremly Sensitive and cheap Geophone sensor](https://hackaday.io/project/194956-diy-extremly-sensitive-and-cheap-geophone-sensor)
 
 
 # Sensing The Earth’s Wobble
@@ -518,7 +518,7 @@ that can send notifications within minutes of an earthquake.
 # Cosmic Ray Detector
 
 * [Cosmic Pi - a low cost distributed cosmic ray detector, based on Raspberry Pi](https://ohwr.org/project/cosmic-pi/-/wikis/home)
-  * [Cosmic Pi low cost cosmic ray detector project](https://github.com/CosmicPi)
+    * [Cosmic Pi low cost cosmic ray detector project](https://github.com/CosmicPi)
 
 
 # NOAA Weather Satellite Data
