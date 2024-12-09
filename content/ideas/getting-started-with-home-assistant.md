@@ -2467,6 +2467,7 @@ The Sonoff device is administered by the [eWeLink phone app][48].
 * [Shelly Button 1 Review (with Home Assistant)](https://hometechhacker.com/shelly-button-1-review-with-home-assistant/)
 * [A Smart Home Powered With Shelly Products](https://hometechhacker.com/a-smarthome-powered-with-shelly-products/)
 * [10 DIY Shelly Relay Projects You Should Try](https://hometechhacker.com/10-diy-shelly-relay-projects-you-should-try/)
+* [Mastering Shelly Products with Home Assistant: A Comprehensive Guide](https://hometechhacker.com/mastering-shelly-products-with-home-assistant-a-comprehensive-guide/)
 
 
 ## Shelly Alternative
