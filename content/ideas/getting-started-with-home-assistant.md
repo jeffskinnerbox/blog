@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 
+* [How to run a smart home hub (Home Assistant) on your Proxmox server](https://www.xda-developers.com/how-to-run-a-smart-home-hub-on-your-proxmox-server/)
 * [Docker and Home Automation](https://www.youtube.com/playlist?list=PL4ed4sZb-R_8dJmakzfBywx1zL9HrFEOy)
 * [Top HACS Integrations for Home Assistant](https://www.mostlychris.com/top-hacs-add-ons-for-home-assistant/)
 * [The Evolution Of My Home Assistant Setup](https://hometechhacker.com/the-evolution-of-my-home-assistant-setup/)
