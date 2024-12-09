@@ -1160,6 +1160,8 @@ why would this speed be any different based on the speed of the observer?
 And it was from this simple assumption,
 that he came up with the special theory of relativity in 1905 which changed our ideas about the nature of time.
 
+* [The Hidden Story Behind Maxwell’s Equations](https://www.youtube.com/watch?v=MNPwfQDrK5Q)
+* [How Maxwell's Equations (and Quaternions) Led to Vector Analysis](https://www.youtube.com/watch?v=M12CJIuX8D4)
 * [The Speed of Light has Absolutely Nothing to Do With Light](https://www.youtube.com/watch?v=UHKZMGdj7cI)
 * [Why is the speed of light what it is? Maxwell equations visualized](https://www.youtube.com/watch?v=FSEJ4YLXtt8)
 * [Why isn't the speed of light infinite? What if it was?](https://www.youtube.com/watch?v=392N-IYRepc)
