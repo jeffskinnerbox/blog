@@ -775,6 +775,7 @@ An international mobile subscriber identity (IMSI) is a unique number, usually f
 # Seeing WiFi
 
 * [Building a Camera That Can See Wifi | Part 3 SUCCESS!](https://www.youtube.com/watch?v=g3LT_b6K0Mc&t=154s)
+* [This Camera Can SEE WiFi](https://www.youtube.com/watch?v=zijQUOHOshY&t=765s)
 
 
 # Electronic Art / Sculpture
