@@ -343,6 +343,7 @@ There are many Python static analysis tools to choose from, but these are most h
     * [Looping in Python](https://www.pythonmorsels.com/screencasts/looping/)
     * [How to loop with indexes in Python](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
     * [The Iterator Protocol](https://www.pythonmorsels.com/iterator-protocol/)
+    * [Lazy Looping: The Next Iteration](https://treyhunner.com/lazy-looping/resources.html)
 
 * pathlib - Use for nearly all file-related code in Python, especially when you need to construct or deconstruct file paths or ask questions of file paths.
     * [Python's pathlib Module: Taming the File System](https://realpython.com/python-pathlib/)
