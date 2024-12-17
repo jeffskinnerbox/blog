@@ -123,6 +123,7 @@ Proxmox Training / Tutorials
     * [Proxmox VLAN Configuration: Linux Bridge Tagging, Management IP, and Virtual Machines](https://www.youtube.com/watch?v=stQzK0p59Fc)
     * [2020 Getting started with pfsense 2.4 Tutorial: Network Setup, VLANs, Features & Packages](https://www.youtube.com/watch?v=fsdm5uc_LsU)
     * [How to Virtualize Your Home Router / Firewall Using pfSense](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
+    * [You can virtualize your router and firewall - here's how](https://www.xda-developers.com/you-can-virtualize-your-router-and-firewall-heres-how/)
 
 # Linux Hypervisor Setup
 * [Linux Hypervisor Setup (libvirt/qemu/kvm)](https://www.youtube.com/watch?v=HfNKpT2jo7U)
