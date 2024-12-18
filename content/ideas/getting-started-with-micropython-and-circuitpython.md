@@ -28,6 +28,12 @@ Version:      0.0.0
     * [Slides available here](https://docs.google.com/presentation/d/e/2PACX-1vQDB-oMalkKqR1GNfWwSKGRDsSJGJQKIGu3GUbQWLuWMkMn3NOd9GjoYdhr6YLKU0U_9jtu5Q_xjyit/pub?slide=id.gc6f73a04f_0_0)
 
 
+# CircuitPython Library Updater (CircUp)
+
+* [Install and using CircUp (CircuitPython library updater) to install CircuitPython libraries](https://coxxect.blogspot.com/2024/12/install-and-using-circup-circuitpython.html)
+    * [GitHub: CircuitPython library updater](https://github.com/adafruit/circup)
+
+
 
 
 
