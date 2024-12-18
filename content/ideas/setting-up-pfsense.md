@@ -15,6 +15,11 @@ Version:      0.0.0
 # Home Network Best Practices
 
 
+## pfSense
+
+* [You can virtualize your router and firewall - here's how](https://www.xda-developers.com/you-can-virtualize-your-router-and-firewall-heres-how/)
+
+
 ## Best Practices for pfSense Firewall Rules
 
 * [Best Practices for pfSense Firewall Rules](https://hometechhacker.com/best-practices-for-pfsense-firewall-rules/)
@@ -35,6 +40,7 @@ Fios Router
 
 
 ### Network Segmentation
+
 | Device         | Group             |
 |----------------|-------------------|
 | Work PC        | Work              |
@@ -52,6 +58,7 @@ Fios Router
 
 
 ### Network VLANs
+
 | Network         | VLAN / Nickname | Group             | Connectivity | # of Devices |
 |-----------------|-----------------|-------------------|--------------|--------------|
 | 192.168.1.0/24  | 1 / Wired       | Personal-Wired    | Wired        |       4      |
