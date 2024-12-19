@@ -1234,6 +1234,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Entropy: How To Actually Measure Uncertainty](https://medium.com/street-science/entropy-how-to-actually-measure-uncertainty-dd1bd7d56235)
 
 * [Chaos In Perception: The Subjective Nature Of Entropy](https://streetscience.net/chaos-in-perception-the-subjective-nature-of-entropy/)
+* Excellent! --> [What Is Entropy? A Measure of Just How Little We Really Know.](https://www.quantamagazine.org/what-is-entropy-a-measure-of-just-how-little-we-really-know-20241213/)
 
 
 ## Entropy as Disorder (Not)
