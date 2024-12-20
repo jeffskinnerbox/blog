@@ -2030,6 +2030,10 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 
 ### Home Assistend Voice & Voice Commands
 
+* [YOU NEED THIS! The Home Assistant Voice Preview Edition Hardware for local voice control](https://www.youtube.com/watch?v=2VO-HM08EeA)
+    * [Product page](https://home-assistant.io/voice-pe)
+    * [Documentation](https://voice-pe.home-assistant.io)
+
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
     * [Piper](https://rhasspy.github.io/piper-samples/)
     * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
