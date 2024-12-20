@@ -660,6 +660,7 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 
 # A Mathematician's Lament
 
+* [A Mathematician's Lament: How School Cheats Us Out of Our Most Fascinating and Imaginative Art Form](https://www.amazon.com/Mathematicians-Lament-School-Fascinating-Imaginative/dp/1934137170)
 * [A Mathematician's Lament by Paul Lockhart](https://www.youtube.com/watch?v=mYGhwTy4B_M)
 * [A Mathematician's Lament by Paul Lockhart](http://worrydream.com/refs/Lockhart-MathematiciansLament.pdf)
 * [A Mathematician's Lament by Paul Lockhart](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf)
@@ -671,6 +672,11 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 * Messages from the trenches
     * [Math Education Rant](https://www.youtube.com/watch?v=bpi3Lk615GA)
     * [Just a rant: Math](https://www.youtube.com/watch?v=RFbuW7Z3HP0)
+
+## The Way Math Should be Taught
+* [The way math should be taught](https://www.youtube.com/watch?v=VElZBohyXW0)
+* [Measurement](https://www.amazon.com/Measurement-Paul-Lockhart/dp/0674284380) by Paul Lockhart
+    * [The World of Mathematical Reality – Paul Lockhart](https://www.youtube.com/watch?v=V1gT2f3Fe44)
 
 
 # Discontinuity in Physics
