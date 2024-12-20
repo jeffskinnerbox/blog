@@ -2033,6 +2033,8 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [YOU NEED THIS! The Home Assistant Voice Preview Edition Hardware for local voice control](https://www.youtube.com/watch?v=2VO-HM08EeA)
     * [Product page](https://home-assistant.io/voice-pe)
     * [Documentation](https://voice-pe.home-assistant.io)
+    * [Talking with Home Assistant - get your system up & running](https://www.home-assistant.io/voice_control/)
+    * [Voice Chapter 8 - Assist in the home today](https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home/)
 
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
     * [Piper](https://rhasspy.github.io/piper-samples/)
