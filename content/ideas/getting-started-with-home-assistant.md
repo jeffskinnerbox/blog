@@ -2036,6 +2036,8 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
     * [Talking with Home Assistant - get your system up & running](https://www.home-assistant.io/voice_control/)
     * [Voice Chapter 8 - Assist in the home today](https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home/)
 
+* [my local, AI Voice Assistant (I replaced Alexa!!)](https://www.youtube.com/watch?v=XvbVePuP7NY)
+
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
     * [Piper](https://rhasspy.github.io/piper-samples/)
     * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
