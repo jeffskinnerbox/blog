@@ -49,6 +49,13 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 
 
+# Node-Red vs. N8N
+
+* [The next Level of Node-Red is n8n. Useful for You?](https://www.youtube.com/watch?v=J_ciNKXosiY)
+* [Distributed Workflow Management in N8N: Architecture Upgrade and Performance Optimization Guide](https://medium.com/@ozanbozkurtt96/distributed-workflow-management-in-n8n-architecture-upgrade-and-performance-optimization-guide-c9436b02dd93)
+* [N8N](https://n8n.io/)
+
+
 
 
 
