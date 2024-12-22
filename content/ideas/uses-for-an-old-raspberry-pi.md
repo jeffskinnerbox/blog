@@ -174,6 +174,14 @@ TV programs from 1978 ...
     * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
 
 
+## The Simpson's TV
+
+* [I adore this Simpsons-styled Raspberry Pi mini TV, and you can make one too](https://www.xda-developers.com/simpsons-styled-raspberry-pi-mini-tv/)
+    * [The Simpsons TV with Touchscreen](https://www.reddit.com/r/raspberry_pi/comments/1hifkdg/the_simpsons_tv_with_touchscreen/)
+    * [The Simpsons TV!! Raspberry Pi Powered TV That Plays The Simpsons Episodes On Loop FOREVER!!](https://www.youtube.com/watch?app=desktop&v=-msN7Z1xl7A&t=554s)
+    * [Simpsons TV Build Guide - Waveshare Version](https://withrow.io/simpsons-tv-build-guide-waveshare)
+
+
 ## Connection Machine
 
 A Connection Machine (CM) is a member of a series of massively parallel supercomputers that grew out of doctoral research on alternatives to the traditional von Neumann architecture of computers by Danny Hillis at Massachusetts Institute of Technology (MIT) in the early 1980s.
