@@ -382,8 +382,8 @@ See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.co
 * [Super-Elastic Signal Stick](https://signalstuff.com/product/super-elastic-signal-stick/)
 * [Honest review of the Super Elastic Signal Stick by SignalStuff](https://www.youtube.com/watch?v=c-eJWCDuw8Y)
 * [DIY Flexible Antenna Build (AKA Signal Stick)](https://www.youtube.com/watch?v=9AgFX49exO4)
-* [Nagoya NA-771 Handheld Antenna](https://www.amazon.com/Authentic-NA-771-15-6-Inch-SMA-Female-BTECH/dp/B00KC4PWQQ?th=1)
 * [BaoFeng Antenna Side By Side Comparison](https://www.youtube.com/watch?v=YUG_LgQFF6w)
+* [Nagoya NA-771 Handheld Antenna](https://www.amazon.com/Authentic-NA-771-15-6-Inch-SMA-Female-BTECH/dp/B00KC4PWQQ?th=1)
 
 
 ## Custom Made Antenna
