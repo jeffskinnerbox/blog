@@ -14,6 +14,11 @@ Version:      0.0.0
 
 
 
+* [Let's Build a Practical Home Lab for Learning and Experimentation](https://hackernoon.com/lets-build-a-practical-home-lab-for-learning-and-experimentation)
+
+
+
+
 # Sept 8, 2024 - Info for FIOS TV One Service
 
 

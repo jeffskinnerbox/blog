@@ -13,6 +13,9 @@ Version:      0.0.0
 
 
 # Fresh Install Of ProxMox
+
+* [Let's Build a Practical Home Lab for Learning and Experimentation](https://hackernoon.com/lets-build-a-practical-home-lab-for-learning-and-experimentation)
+
 * [4 services you can host on Proxmox to secure your home network](https://www.xda-developers.com/services-you-can-host-on-proxmox-to-secure-your-home-network/)
 * [5 Things I Would Do On Fresh Install Of ProxMox](https://www.youtube.com/watch?v=xD9Xyt2mdSI)
 * [7 things you should do to secure your Proxmox home lab](https://www.xda-developers.com/secure-proxmox-home-lab/)
@@ -37,19 +40,22 @@ Version:      0.0.0
 
 
 # Upgrade from Proxmox 7 to 8
+
 * [Upgrade from 7 to 8](https://pve.proxmox.com/wiki/Upgrade_from_7_to_8)
 * [Proxmox VE 8.1 Brings SDN and More for its Popular Virtualization Platform](https://www.servethehome.com/proxmox-ve-8-1-brings-sdn-and-more-for-its-popular-virtualization-platform/)
 * [Proxmox VE 8.1 Brings Software-Defined Networking and Secure Boot](https://www.storagereview.com/news/proxmox-ve-8-1-brings-software-defined-networking-and-secure-boot)
 * [Upgrade Proxmox VE Version 7 to Version 8: The Complete Step-by-Step Guide](https://www.youtube.com/watch?v=i5cmx-mcUVA)
-* https://pve.proxmox.com/wiki/Upgrade_from_7_to_8
-* https://www.servethehome.com/proxmox-ve-8-0-is-out-upgrading-linux-and-more/
-* https://www.virtualizationhowto.com/2023/06/proxmox-8-new-features-and-home-lab-upgrade-instructions/
+* <https://pve.proxmox.com/wiki/Upgrade_from_7_to_8>
+* <https://www.servethehome.com/proxmox-ve-8-0-is-out-upgrading-linux-and-more/>
+* <https://www.virtualizationhowto.com/2023/06/proxmox-8-new-features-and-home-lab-upgrade-instructions/>
 * Proxmox Backup Server Version 3.0 Now Available
-    * https://www.storagereview.com/news/proxmox-backup-server-version-3-0-now-available
-    * https://www.proxmox.com/en/news/listid-1/mailid-200-proxmox-backup-server-3-0-available?tmpl=component&tmpl=component
+    * <https://www.storagereview.com/news/proxmox-backup-server-version-3-0-now-available>
+    * <https://www.proxmox.com/en/news/listid-1/mailid-200-proxmox-backup-server-3-0-available?tmpl=component&tmpl=component>
 * [Proxmox Backup Server 3.1 Released](https://www.storagereview.com/news/proxmox-backup-server-3-1-released)
 
+
 # New Proxmox Installs
+
 * [5 Things I Would Do On Fresh Install Of ProxMox](https://www.youtube.com/watch?v=xD9Xyt2mdSI)
 * [Proxmox 10 tweaks you need to know](https://www.youtube.com/watch?v=bo33EQk9CCM)
 * [Speed Up Your Proxmox Deployment With This Simple Trick](https://www.youtube.com/watch?v=WYmdoTPTusk)
@@ -75,13 +81,14 @@ You can manage virtual machines, containers, highly available clusters, storage 
 
 you can install Debian Buster with GUI and install
 [Proxmox VE on top of it](https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_Buster)
-or you can install Proxmox VE from ISO installer and install a desktop environment like Gnome on top of it. This way, you can access the web interface with just https://localhost:8006
+or you can install Proxmox VE from ISO installer and install a desktop environment like Gnome on top of it. This way, you can access the web interface with just <https://localhost:8006>
 
 I plan to use the Protectli/Proxmox server as a firewall in a SOHO network with a switch or a SOHO wireless network.
 This is my first instance of Proxmox (giving it the name `pve-1`) with the plan to
 install additional instances of Proxmox when I establish a cluster of Raspberry Pis.
-* https://protectli.com/kb/basic-soho-network-with-switch/
-* https://protectli.com/kb/basic-soho-wireless-network/
+
+* <https://protectli.com/kb/basic-soho-network-with-switch/>
+* <https://protectli.com/kb/basic-soho-wireless-network/>
 
 >**NOTE:** For home labs, a popular alternative to Proxmox is the free version of VMware ESXi.
 >ESXi is used in many enterprise environments, much more so than Proxmox.
@@ -90,6 +97,7 @@ install additional instances of Proxmox when I establish a cluster of Raspberry 
 >you can't use automation tools like Ansible with it.
 
 Virtualization
+
 * [What is Virtualization?](https://www.youtube.com/watch?v=L8A9PHeyRrY)
 * [vSphere, Hyper-V, and Proxmox - Which hypervisor is best?](https://www.youtube.com/watch?v=6XiWSnt3-9M)
 * [you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)](https://www.youtube.com/watch?v=wX75Z-4MEoM)
@@ -97,6 +105,7 @@ Virtualization
 * [Introduction to Linux interfaces for virtual networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking#)
 
 Proxmox Training / Tutorials
+
 * [Proxmox Full Course](https://www.youtube.com/watch?v=LCjuiIswXGs&list=PLT98CRl2KxKHnlbYhtABg6cF50bYa8Ulo)
 * [Virtualize Everything! - Proxmox Install Tutorial](https://www.youtube.com/watch?v=azORbxrItOo)
 * [STH Proxmox Articles](https://www.servethehome.com/?s=proxmox)
@@ -125,9 +134,12 @@ Proxmox Training / Tutorials
     * [How to Virtualize Your Home Router / Firewall Using pfSense](https://www.youtube.com/watch?v=hdoBQNI_Ab8)
     * [You can virtualize your router and firewall - here's how](https://www.xda-developers.com/you-can-virtualize-your-router-and-firewall-heres-how/)
 
+
 # Linux Hypervisor Setup
+
 * [Linux Hypervisor Setup (libvirt/qemu/kvm)](https://www.youtube.com/watch?v=HfNKpT2jo7U)
 * [Headless Virtual Machines, Headless Servers](https://www.youtube.com/watch?v=Q2OHR-uJMcU&list=PLJvGMqQH5qsmuTuDRAzX1Cy9MdSmf7hnu)
+
 
 ## KVM
 KVM (Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V).
@@ -135,6 +147,7 @@ KVM was added to the Linux Kernel (version 2.6.20) in February of 2007.
 
 * [QEMU/KVM for absolute beginners](https://www.youtube.com/watch?v=BgZHbCDFODk)
 * [Amazing Privacy Ideas with KVM Virtual Machines](https://www.youtube.com/watch?v=NIdu4haRWx0)
+
 
 ## QEMU
 [QEMU (Quick EMUlator][A1] calls itself a generic and open source machine emulator and virtualizer.
@@ -144,19 +157,23 @@ In that case it utilizes the virtualization technology of the hardware to virtua
 
 QEMU is a type 2 hypervisor that runs within user space and performs virtual hardware emulation, whereas KVM is a type 1 hypervisor that runs in kernel space, that allows a user space program access to the hardware virtualization features of various processors.
 
-Proxmox VE vs Qemu: What are the differences? - https://stackshare.io/stackups/proxmox-ve-vs-qemu
-Qemu/KVM Virtual Machines - https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines
+Proxmox VE vs Qemu: What are the differences? - <https://stackshare.io/stackups/proxmox-ve-vs-qemu>
+Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines>
 
 * [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
 * [Stop using Virtualbox, Here's how to use QEMU instead](https://www.youtube.com/watch?v=Kq849CpGd88)
 
 [A1]:https://www.qemu.org/
 
+
 # libvirt
 
+
 ## Virt-Manager
+
 * [Virt-Manager Is The Better Way To Manage VMs](https://www.youtube.com/watch?v=p1d_b_91YlU)
 * [Virtual Machine Manager: Virt-Manager](https://virt-manager.org/)
+
 
 ## Install Proxmox VE on Debian OS
 Installation of Proxmox on a native bare metal is recommended,
@@ -165,11 +182,13 @@ but it may be desirable to install Proxmox on an existing Debian OS or within a 
 >**Note:** Proxmox can only be installed on 64-bit hardware and a 64-bit operating system.
 
 Sources:
+
 * [Installing Proxmox on a Debian system](https://subscription.packtpub.com/book/virtualization-and-cloud/9781783980901/1/ch01lvl1sec13/installing-proxmox-on-a-debian-system)
 * [How To Install Proxmox VE 6 on Debian 10 (Buster)](https://computingforgeeks.com/how-to-install-proxmox-ve-on-debian/)
 * [Proxmox Virtual Environment Installation Guide (on Debien Server)](https://www.servermania.com/kb/articles/proxmox-virtual-environment/)
 * [How to Install Proxmox Virtual Environment on a Dedicated Server](https://www.linuxbabe.com/linux-server/install-proxmox-ve)
 * [Run Proxmox VE 6.0 using Vagrant](https://lunar.computer/posts/vagrant-proxmox-60/)
+
 
 ## Proxmox in VirtualBox
 [Testing Proxmox in virtualbox?](https://www.reddit.com/r/Proxmox/comments/idvz7m/testing_proxmox_in_virtualbox/)
@@ -180,8 +199,9 @@ to the point where I wont benefit from testing it out in virtualbox?
 As far as I understand Proxmox will have to run as a type 2 hypervisor within virtual box? If I've got that wrong I will fuck off back to the drawing board.
 
 As long as you enable VT-x/AMD-V, Proxmox should work fine in a Virtualbox VM.
-There's a wiki page for it, might be helpful: https://pve.proxmox.com/wiki/Proxmox_VE_inside_VirtualBox
+There's a wiki page for it, might be helpful: <https://pve.proxmox.com/wiki/Proxmox_VE_inside_VirtualBox>
 You can, you just won't be able to run VMs without nesting support in virtualbox. Containers should still work.
+
 
 ## VMware vs Proxmox
 Where organizations increasingly rely on virtualization and containerization,
@@ -195,10 +215,13 @@ Proxmox VE and VMware ESXi are two of the most popular virtualization solutions,
 * [What is Proxmox Virtualization?](https://www.youtube.com/watch?v=GMAvmHEWAMU)
 * [Proxmox vs. ESXi: Side-By-Side Comparison](https://www.wundertech.net/proxmox-vs-esxi/)
 
+
 # Protectli Vault
+
 * $450 (1.6GHz, Quad Core Celeron J3160, 8GB RAM, 120GB SSD, 4x Intel Gigabit Ethernet ports, AES-NI) - [Protectli Vault 4 Port, Firewall Micro Appliance/Mini PC](https://www.amazon.com/dp/B07G9NHRGQ?ref=ppx_yo2_dt_b_product_details&th=1)
 
 * [Proxmox 101](https://medium.com/devops-dudes/proxmox-101-8204eb154cd5)
+
 
 ## Coreboot
 The Protectli Vault comes with [Coreboot][24] which is a secure boot-firmware solution.
@@ -210,16 +233,19 @@ is integrated into the Protectli Vault processor.
 This improves the speed and security of applications performing encryption / decryption
 using Advanced Encryption Standard (AES).
 
+
 ## rEFInd Boot Manager
 [rEFInd][44] is a fork of the [rEFIt][45] boot manager for computers based on the [Extensible Firmware Interface (EFI) and Unified EFI (UEFI)][46]. Like rEFIt, rEFInd is a boot manager, meaning that it presents a menu of options to the user when the computer first starts up, as shown below. rEFInd is not a boot loader, which is a program that loads an OS kernel and hands off control to it. Many popular boot managers, such as the [Grand Unified Bootloader (GRUB)][47], are also boot loaders, which can blur the distinction in many users' minds. All EFI-capable OSes include boot loaders, so this limitation isn't a problem. If you're using Linux, you should be aware that several EFI boot loaders are available, so choosing between them can be a challenge.
 
 * [Linux Fu: UEFI Booting](https://hackaday.com/2023/01/19/linux-fu-uefi-booting/)
+
 
 # Bare Metal vs Virtualize vs Containerize
 When spinning up self-hosted services in your Homelab environment,
 when should I virtualize, containerize, or bare metal?
 
 * [Virtualize vs. Containerize (Which should I choose?)](https://www.youtube.com/watch?v=pxwUXJmAER4)
+
 
 # LastPass & Proxmox
 I found that I couldn't login to Proxmox at times.
@@ -239,10 +265,13 @@ The work around was to use Incognito mode in my Chrome browser.
 # Proxmox Networking
 A bridge is created in Proxmox to make the VMs on the host system accessible via an additional IP.
 
+
 ## Create Private Network Bridge
+
 
 ## Create Private Network Bridge with NAT
 create a private IP (NAT) setup for VMs
+
 
 ## Connect 2 Routers with Different Subnet
 I want to make the transition from my test configuration to my implementation
@@ -285,6 +314,7 @@ One for WAN and the other is for the LAN side of pfSense.
 * `sudo apt install ipcalc` - [IP Calculator](https://jodies.de/ipcalc)
 * [CIDR to IPv4 Conversion]()
 
+
 ## OpenVSwitch
 Open vSwitch is a virtual switch which enables you to create multiple virtual networks on a single physical host. In Proxmox, it’s a more flexible networking approach over the standard Linux Bridge method.
 The default install of Proxmox does not contain the required packages for Open vSwitch so you will have to install them manually.
@@ -301,6 +331,7 @@ The default install of Proxmox does not contain the required packages for Open v
 * [Building a homelab with Proxmox](https://www.remotelycurious.net/post/homelab/)
 * [How I use Docker with Proxmox for the perfect home lab duo](https://www.xda-developers.com/use-docker-with-proxmox/)
 
+
 # Install Proxmox on Protectli Vault
 Proxmox VE has been successfully installed on the Protectli Vault with both Legacy and coreboot BIOS.
 Protectli provides [instructions on how to install Proxmox VE on the Vault][03].
@@ -308,6 +339,7 @@ Protectli provides [instructions on how to install Proxmox VE on the Vault][03].
 * [Proxmox VE on the Vault][03]
 * [How to Install Proxmox VE][05]
 * [Proxmox 7.x Installation Guide][30]
+
 
 #### Step 1: Download Ventoy (Optional) - DONE
 [Ventoy][07] is an open source multiboot USB drive supporting ISO/WIM/IMG/VHD(x)/EFI files.
@@ -346,6 +378,7 @@ you get a menu of the images you can boot & install.
 * [How to Create a Multiboot USB with Ventoy Fast, Simple, and Easy Guide](https://www.youtube.com/watch?v=z1FyoCswwAc)
 * [Ventoy: How to Create a Multiboot USB Drive with Multiple ISO Files](https://linuxiac.com/ventoy-create-bootable-usb/)
 
+
 #### Step 2: Download Proxmox ISO Image - DONE
 The ISO image file is a [hybrid ISO image][12] of a disk.
 It is an ISO image file (ready to burn to a CD or DVD)
@@ -376,6 +409,7 @@ $ sudo dd bs=1M conv=fdatasync if=./proxmox-ve_7.1-2.iso of=/dev/sdf
 sudo umount /dev/sdf1
 ```
 
+
 #### Step 3: Boot Protectli Vault Using COM Port - DONE
 The Protectli Vault come with an external COM port that can be used to view the Vault’s console output.
 This COM port is simply a redirect from the Vault’s display output (whether HDMI or VGA).
@@ -400,6 +434,7 @@ On the desktop, execute the command `screen /dev/ttyUSB0 115200,cs8cls`.
 To access the Vault’s BIOS, once the boot starts on the Protectli Vault,
 repeatedly clicking the `DEL` key as the Vault boots.
 
+
 #### Step 4: Update Protectli's BIOS - DONE
 [Download the BIOS for FW4B][01] (Protectli Vault 4 Port Intel J3160).
 As of this writing, there is an August 31, 2021 download available (BIOS_ID BSW4L011)
@@ -407,6 +442,7 @@ which happens to be the same version currently install.
 
 * [BIOS Versions for the Vault][01]
 * [How to perform a BIOS update](https://protectli.com/kb/bios-update/)
+
 
 #### Step X: Boot Proxmox From USB - DONE
 Proxmox VE is based on Debian.
@@ -455,6 +491,7 @@ the WAN, Gateway, and DNS IP address.
 >**NOTE:** If for some reason you need to change your Proxmox IP address,
 >check out "[How to Change Primary Proxmox VE IP Address][02]".
 
+
 #### Step X: Prepare for Login / Configure Proxmox via GUI - DONE
 We will do the remaining tasks via the Proxmox web browser.
 
@@ -463,7 +500,7 @@ We will do the remaining tasks via the Proxmox web browser.
 * Plug an Ethernet cable on your home LAN and the other end to `OPT1` port of the Proxmox box
 (Your going to have a dedicate NIC for Proxmox's Management Browser GUI at the `OPT1` port).
 * Point your browser to the Proxmox Management Interface IP address at port 8006
-(i.e. URL https://192.168.1.202:8006).
+(i.e. URL <https://192.168.1.202:8006>).
 
 At this point, your `/etc/network/interfaces` file should look somrhting like this:
 
@@ -524,6 +561,7 @@ Now using the browser interface, move on to the next step.
 >so you can also get terminal access the Proxmox box via `ssh root@192.168.1.202`
 >but all configuration of Proxmox will mainly be done via its browser interface.
 
+
 #### Step X: Set Proxmox to No-Subscription Repository - DONE
 In its current configuration,
 refreshing the Proxmox repositories we get a message stating you not authorized to access a repository,
@@ -549,6 +587,7 @@ or via terminal using `ssh root@192.168.1.202` and enter the following:
 apt update
 apt -y upgrade
 ```
+
 
 #### Step X: Set Proxmox to No-Subscription Repository - DO NOT DO THIS
 In its current configuration,
@@ -602,6 +641,7 @@ Once you have done this commandline update procedure,
 you should be able to do future refreshes via
 the GUI **Datacenter** > **pve-1** > **Updates** > **Refresh**.
 
+
 #### Step X: Install SPICE on Client - DONE
 SPICE is a suite of tools for interfacing with desktop-oriented Virtual Machines.
 To use SPICE, you'll need the client running on your desktop computer.
@@ -627,11 +667,12 @@ noVNC isn't intended for everyday use, but for quick administration tasks. If yo
 * [Raspberry Pi THIN CLIENT for Proxmox VMs](https://www.youtube.com/watch?v=TuDrmq4RQzU)
 * [How to install and use SPICE for VMs in Debian, Ubuntu or Mint](https://velenux.wordpress.com/2016/12/30/how-to-install-and-use-spice-for-vms-in-debian-ubuntu-or-mint/)
 
+
 #### Step X: Remove the Nagging Subscription Message
 When you log into Proxmox, you get the pop-up
 
-_"You do not have a valid subscription for this server._
-_Please visit www.proxmox.com to get a list of available options."_
+*"You do not have a valid subscription for this server.*
+*Please visit <www.proxmox.com> to get a list of available options."*
 
 This banner pops up because Proxmox wants you to purchase a support license.
 To fix this, I followed the instruction provide in the video
@@ -667,6 +708,7 @@ systemctl status pveproxy.service
 
 Now go to the Proxmox GUI, logout, reload the webpage via the browser, and log back in.
 With this, you should no longer see the warning banner about having a subscription.
+
 
 #### Step X: Increase Disk Storage - DONE
 If you checkout how storage is allocated on `pve-1` via
@@ -706,6 +748,7 @@ goto **Datacenter** > **pve-1** > **local(pve-1)** > **Summary**.
 This reallocates disk space giving a total of 118G for use with virtual machines
 (increased from 31G)
 
+
 #### Step X: Set Type of Storage Objects Permitted - DONE
 Next, you need to specify what type of content allowed within the disk space storage.
 You'll want to include disk images and containers, at a minimum.
@@ -713,6 +756,7 @@ You'll want to include disk images and containers, at a minimum.
 When the form pops up,
 highlight **Disk image** and **Container** within the Content field,
 then click **OK**.
+
 
 #### Step X: Change to IP Address, Hostname, FQDN, and DNS - DONE
 Proxmox uses the `hostname` as a nodes name,
@@ -753,6 +797,7 @@ To make the update, follow the procedure below:
 * [Renaming a PVE node](https://pve.proxmox.com/wiki/Renaming_a_PVE_node)
 * [How to change hostname on Debian 10 Linux](https://www.cyberciti.biz/faq/how-to-change-hostname-on-debian-10-linux/)
 * [Change PVE's static IP address, hostname and domain](https://www.reddit.com/r/Proxmox/comments/k4e3dx/change_pves_static_ip_address_hostname_and_domain/)
+
 
 #### Step X: Download Some ISO Images - DONE
 To create virtual machines,
@@ -797,6 +842,7 @@ wget https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/20.04/releas
 
 Once an ISO has ben downloaded, to create a VM,
 simply click on **Create VM** and follow the prompts.
+
 
 #### Step X: Download Some LXC Containers - DONE
 Proxmox uses [Linux Containers (LXC)][32] as its underlying container technology.
@@ -862,6 +908,7 @@ A good set of container templates to experiment with are:
 Once downloaded, to create a container,
 simply click on **Create CT** and follow the prompts.
 
+
 #### Step X: Enable Root SSH into a Proxmox LXC Container
 By default a Proxmox LXC container allows root login only with public key authentication.
 To login to a container with username/password login to your Proxmox host
@@ -877,15 +924,20 @@ Source:
 
 * [SSH into a Proxmox LXC container](https://www.wissenschaft.com.ng/blog/ssh-into-a-proxmox-lxc-container/)
 
+
 #### Step X: Secure Proxmox With A SSL Certificate
+
 * [Secure Proxmox With A Proxmox SSL Certificate](https://blog.f2h.cloud/secure-proxmox-with-a-proxmox-ssl-certificate/)
+
 
 #### Step X: Setup DHCP to Assign IP to Guest VM
 Is this needed? Doesn't the Bridge do this?
 
 * [How To Setup A Proxmox DHCP Server To Assign IPs To Guests](https://blog.f2h.cloud/proxmox-dhcp-server/)
 
+
 #### Step X: Install Monitoring Tools - Netdata & Munin
+
 * [Better Monitoring For Proxmox - Easy, Free And Awesome!](https://www.youtube.com/watch?v=fYl5poBJtE4)
 
 
@@ -895,15 +947,21 @@ Is this needed? Doesn't the Bridge do this?
 
 # Create Your First VM in Proxmox
 
+
 ## Create pfSense VM in Proxmox
+
 * [Virtualizing with Proxmox VE](https://docs.netgate.com/pfsense/en/latest/recipes/virtualize-proxmox-ve.html)
 
+
 ## Create Windows 10 VM in Proxmox
+
 * [Launching a Windows VM in Proxmox](https://www.youtube.com/watch?v=eyNlGAzf-L4)
+
 
 #### Step X: Create a VM Using ISO Images
 Once an ISO has ben downloaded, to create a VM,
 simply click on **Create VM** and follow the prompts.
+
 
 #### Step X: Remove VM or CT from Proxmox
 To remove a VM from Poxmox, do the following:
@@ -971,7 +1029,9 @@ Sources:
 * [Running Docker under LXC Containers in ProxMox for Extra Granularization](https://www.youtube.com/watch?v=faoIeeZZ6ws)
 * [Home Server: Installing Docker, Portainer & Home-Assistant on Proxmox][39]
 
+
 ## Install Docker
+
 
 #### Step X: Using Docker Containers
 If you want to run application containers, for example, Docker images,
@@ -979,6 +1039,7 @@ Proxmox recommended that you run them inside a Proxmox Qemu VM.
 This will give you all the advantages of application containerization, while also providing the benefits that VMs offer, such as strong isolation from the host and the ability to live-migrate, which otherwise isn’t possible with containers.
 
 * [Install Proxmox and a Ubuntu VM with Portainer to manage docker containers](https://gist.github.com/zenxedo/626275e095f7f90898944a85d66b3be6)
+
 
 #### Step X: Create Turnkey Core LXC Container - DONE
 Select the Proxmox storage icon, **local (pre-1)**, on the lefthand menu.
@@ -1009,6 +1070,7 @@ Then reboot the container to make sure the features are applied.
 >because if the container security gets compromised and the intruder breaks out of the container,
 >they will find themselves as a nobody user with extremely limited privileges.
 
+
 #### Step X: Update the Containers OS - DONE
 Next we'll login to the LXC/docker container and update the OS.
 
@@ -1023,6 +1085,7 @@ Now enter the following at the console CLI:
 # update the os with latest software
 apt-get update && apt-get -y upgrade
 ```
+
 
 #### Step X: Install Docker and Docker Compose - DONE
 To install Docker we'll use the instructions for Debian provided by Docker Docs found [here][38].
@@ -1058,6 +1121,7 @@ docker ps -a -s
 >Run the following command and then try to update your repo again:
 >`sudo chmod a+r /etc/apt/keyrings/docker.gpg`.
 
+
 ## Install Portainer
 Adopting container orchestration platforms like Kubernetes can be hard.
 [Portainer][42] is a popular Docker UI that helps you visualise your
@@ -1075,6 +1139,7 @@ Sources:
 * [Deploying Portainer CE in Docker](https://documentation.portainer.io/v2.0/deploy/ceinstalldocker/)
 * [How to Install Portainer Docker UI Manager on Ubuntu 20.04 | 18.04 | 16.04](https://docs.fuga.cloud/how-to-install-portainer-docker-ui-manager-on-ubuntu-20.04-18.04-16.04)
 * [How to Install Portainer 2.0 on your Docker](https://www.letscloud.io/community/how-to-install-portainer)
+
 
 #### Step 1: Portainer Server Deployment - DONE
 Use the following Docker commands to deploy the Portainer Server.
@@ -1095,6 +1160,7 @@ I got the IP address via  running `ip address | grep "inet 192"`
 which was `192.168.1.69` in my case.
 on the Proxmox console for `docker-containers`.
 
+
 #### Step 2: Portainer Agent Deployment
 Use the following Docker commands to deploy the Portainer Agent.
 Agents are installed on Docker nodes being managed remotely by Portainer.
@@ -1105,6 +1171,7 @@ however it does provide additional functionality if used:
 # install the portainer agent container
 docker run -d -p 9001:9001 --name portainer-agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent
 ```
+
 
 #### Step 3: Manage Proxmox Docker Containers via Desktop Portainer
 We now want to connect the Proxmox based `docker-containers` so it can be monitored
@@ -1134,6 +1201,7 @@ Source:
 
 
 # Docker Container for Uptime Kuma
+
 * [GET NOTIFIED of an outage in your home lab or anywhere with Uptime Kuma and Home Assistant](https://www.youtube.com/watch?v=BNiWDNfqpc0)
 
 
@@ -1143,6 +1211,7 @@ Source:
 
 
 # Proxmox Upgrade
+
 * [Before you upgrade to Proxmox 7, please consider this...](https://www.youtube.com/watch?v=RCSp6gT7LWs)
 * [Updating Proxmox](https://www.youtube.com/watch?v=ICtiaW2ypT0&list=RDCMUC05NSijsZpNM_mbd0-qagLA&index=40)
 
@@ -1153,22 +1222,28 @@ Source:
 
 
 # Proxmox Security Features
+
 * [Proxmox VE 7.1 Security Deep Dive](https://www.storagereview.com/review/proxmox-ve-7-1-security-deep-dive)
+
 
 # Proxmox Cluster / Hyperconverged Storage
 A minimum of two nodes are required to form a Proxmox cluster.
 
 Using a bare metal cloud provider to create a cluster
+
 * [Building a 5-node Proxmox VE Cluster in 20 Minutes for a Dollar](https://www.servethehome.com/building-5-node-proxmox-ve-cluster-20-minutes-dollar-phoenixnap-intel-supermicro/)
 
 Illustrates how to run several Proxmox instances as a cluster with Ceph hyperconverged storage
+
 * [Proxmox Install - The Best Free Hypervisor of 2021](https://www.youtube.com/watch?v=FwD93E4Jijk)
 
 Complete guide on getting your cluster up and running
+
 * [Building a Proxmox VE Lab Part 1 Planning](https://www.servethehome.com/building-a-proxmox-ve-lab-part-1-planning/)
 * [Building a Proxmox VE Lab Part 2 Deploying](https://www.servethehome.com/building-a-proxmox-ve-lab-part-2-deploying/)
 * [LOW Power / HIGH Availability Proxmox Cluster ft. ZimaBoard](https://www.youtube.com/watch?v=JfZuZ6zE7AI)
 * [Setting Up My First Proxmox High Availability Cluster](https://www.youtube.com/watch?v=FZnVmt_DvUk)
+
 
 # Proxmox Backup Server
 Proxmox Backup Server is an enterprise backup solution that allows you to back up and restore virtual machines (VMs), containers, and physical hosts. Proxmox Backup Server supports incremental and deduplicated backups, which is a fancy way of saying that the storage space will be optimized and the same files won’t be stored twice. This helps to conserve hard drive space on the device running Proxmox Backup Server.
@@ -1185,11 +1260,15 @@ Proxmox Backup Server can be run in a Proxmox host, though it’s probably a goo
 * [Proxmox Backup Server: Full Getting Started Guide!](https://www.youtube.com/watch?v=33ubleU4OFc)
 * [Proxmox Backup Server Install Tutorial](https://www.youtube.com/watch?v=jLBNm0fNIog)
 
+
 ## Proxmox Backup Server on Synology
+
 * [Setting Up a Proxmox Backup Server](https://www.youtube.com/watch?v=n_JZ2aXMMmI)
 * [How to Backup Proxmox to a Synology NAS](https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/)
 
+
 # Proxmox VM Migration
+
 * [ProxMox - Migration, Backup, and Restoration Tutorial](https://www.youtube.com/watch?v=BkVi2vRB75Q)
 
 
@@ -1243,7 +1322,9 @@ you can create a private bridge network use NAT to access Internet for your VMs.
 * [Configuring Proxmox Basic Promox Network Settings](https://www.youtube.com/watch?v=acrZzXn6P8s)
 * [How to setup NAT on Proxmox](https://cyberpersons.com/2016/07/27/setup-nat-proxmox/)
 
+
 ## Types of Proxmox Networks
+
 * Linux Bridge – a method of connecting two Ethernet segments at the link layer, that is, without using higher-layer protocols such as IP. Since transmission is performed at the data link layer (layer 2 of the OSI model), all higher-layer protocols are transparently bridged.
 * Linux Bond – a method of aggregating several network interfaces into a single logical bonded interface. Thus, bond provides load balancing or hot standby for a specific scenario.
 * Linux VLAN – implementation on the Linux kernel of a virtual local computer network.
@@ -1255,6 +1336,7 @@ you can create a private bridge network use NAT to access Internet for your VMs.
 * [Proxmox VE (PVE) default network settings & autostart, bridge, bond, basics about PVE network etc.](https://dannyda.com/2021/10/29/proxmox-ve-pve-default-network-settings-autostart-bridge-bond-basics-about-pve-network-etc/)
 * [How to do Network setup in Proxmox](https://webilicious.xyz/how-to-do-network-setup-in-proxmox-webilicious/)
 * [How to: Create an internal only/isolated network for guest OS/Virtual Machines (VM) on Proxmox VE (PVE) like in VMware Workstation (Host-Only network but different)](https://dannyda.com/2020/06/01/how-to-create-an-internal-only-isolated-network-for-guest-os-virtual-machines-vm-on-proxmox-ve-pve-like-in-vmware-workstation-host-only-network-but-different/)
+
 
 ## linux Bridge vs OVS Bridge
 The Linux bridge is software that acts as a virtual Ethernet switch.
@@ -1279,20 +1361,30 @@ If you need these features, it makes sense to switch to Open vSwitch.
 * [Proxmox VE with Open vSwitch](https://www.networkshinobi.com/proxmox-ve-with-open-vswitch/)
 * [Virtualised pfSense on Proxmox with Open vSwitch](https://webworxshop.com/virtualised-pfsense-on-proxmox-with-open-vswitch/)
 
+
 ## Proxmox Private vs Public Networks
+
 * [How do I make my VMs accessible via a bridge?](https://faq.myloc.de/index.php?action=faq&cat=23&id=202&artlang=en)
 
+
 ### How To Configure A Proxmox Private Network
+
 * [How To Configure A Proxmox Private Network](https://blog.f2h.cloud/how-to-configure-a-proxmox-private-network/)
 * [How to: Create an internal only/isolated network for guest OS/Virtual Machines (VM) on Proxmox VE (PVE) like in VMware Workstation (Host-Only network but different)](https://dannyda.com/2020/06/01/how-to-create-an-internal-only-isolated-network-for-guest-os-virtual-machines-vm-on-proxmox-ve-pve-like-in-vmware-workstation-host-only-network-but-different/)
 
+
 ### How To Configure A Proxmox Public Network
+
 * [How to Connect a VM to the Internet Using Proxmox VE](https://support.us.ovhcloud.com/hc/en-us/articles/360002394324-How-to-Connect-a-VM-to-the-Internet-Using-Proxmox-VE)
 
+
 ## Proxmox with Single Public IP and Shared with VMs
+
 * [How to setup Proxmox with Single Public IP and share with VMs](https://www.youtube.com/watch?v=Q5l7VH6b5r4)
 
+
 ## How to Setup NAT on Proxmox
+
 * [PVE 6.2 Private VM (NAT) network configuration setup](https://forum.proxmox.com/threads/pve-6-2-private-vm-nat-network-configuration-setup.71038/)
 * [How to setup NAT on Proxmox](https://cyberpersons.com/2016/07/27/setup-nat-proxmox/)
 * [How do I make my vServer reachable via an additional IP or NAT?](https://faq.myloc.de/?action=faq&cat=23&id=205&artlang=en)
@@ -1307,6 +1399,7 @@ If you need these features, it makes sense to switch to Open vSwitch.
 # Proxmox Networking Best Practices
 [best practice][05]
 [Network Configuration][06]
+
 
 ## NAT & IP Masquerade
 Most private networks are connected to the Internet through a firewall.
@@ -1342,6 +1435,7 @@ to a port on a computer in the private network.
 * [Network Address Translation (NAT) and IP Masquerade][40].
 * [Linux Network Administrator's Guide, 2nd Edition: IP Masquerade and Network Address Translation](https://www.oreilly.com/openbook/linag2/book/ch11.html)
 
+
 ## Create a VM on Proxmox Private Network with Internet Access
 In the scenario here,
 we are using the Proxmox default public network (`vmbr0`)
@@ -1368,6 +1462,7 @@ There is a DHCP server running on 10.10.10.1 and we forward all connections from
 
 * [How To Configure A Proxmox Private Network](https://blog.f2h.cloud/how-to-configure-a-proxmox-private-network/)
 
+
 #### Step X: Create the Private Network
 Within Proxmox,
 Navigate to **Datacenter** > **pve-1** > **System** > **Network**.
@@ -1376,7 +1471,9 @@ We only need to enter the desired IPv4/CIDR, and Comment information.
 Enter the **IPv4/CIDR** `10.10.10.0/24`.
 
 Source:
+
 * [How to: Create an internal only/isolated network for guest OS/Virtual Machines (VM) on Proxmox VE (PVE)](https://dannyda.com/2020/06/01/how-to-create-an-internal-only-isolated-network-for-guest-os-virtual-machines-vm-on-proxmox-ve-pve-like-in-vmware-workstation-host-only-network-but-different/)
+
 
 #### Step X: Add DHCP to the Private Network
 First, do a `pveam update` in the Proxmox console to download the latest LXC template.
@@ -1475,11 +1572,17 @@ ping 10.10.10.1
 ```
 
 Source:
+
 * [How I configure a DHCP server on my personal network](https://opensource.com/article/22/7/configure-dhcp-server)
 * [How to: Create a VM Internal Only network with DHCP server on Proxmox VE (PVE) easily](https://dannyda.com/2020/06/06/how-to-create-a-vm-internal-only-network-with-dhcp-server-how-to-create-an-dhcp-server-on-proxmox-ve-pve-easily/)
 
+
 #### Step X: Add NAT to the Private Network
+
+
 ## Proxmox VM Access the Internet Without a Public IP address
+
+
 ## Proxmox as a Hosting Provider and Single Public IP Address
 You are likely to desire a Proxmox VM be able to ping/access Internet servers
 without having to assign a public IP to your VM.
@@ -1561,7 +1664,7 @@ but this give you additional security & protection of Proxmox.
 * bridge_ports none : Bridge ports here is set to none, since we are not connecting to outside world directly.
 * 192.168.1.0/24 : This will be the network we are going to use in our internal network, our usable ips in this network will be:
     * 192.168.1.2-192.168.1.254
-    * If you plan to use different network, you can use this site to get help. - https://jodies.de/ipcalchttps://jodies.de/ipcalc
+    * If you plan to use different network, you can use this site to get help. - <https://jodies.de/ipcalchttps://jodies.de/ipcalc>
 
 >**NOTE:** This is for my Protectli Vault / Proxmox settup,
 >make sure to adjust the names `vmbr0`, etc. properly for your needs.
@@ -1658,6 +1761,7 @@ I will attempt to mitigate these attacks using [Fail2ban][52]
 and [Cloudflare Web Application Firewall (WAF)][53].
 These security tools help shutdown malicious attacks on the website.
 
+
 # Cloudflare Web Application Firewall (WAF)
 Cloudflare runs one of the largest networks in the world
 and one of their key services is [Distributed Denial-Of-Services (DDOS)][54] attack mitigation
@@ -1676,6 +1780,7 @@ At this time, I have [addeded one custom rule][58]
 That rule will block IP addresses for 10 seconds that exceeding 150 requests within 10 seconds.
 You can add rules via the main menu by selecting
 **Security** > **WAF** and select from the tab **Rate limiting rules**.
+
 
 # Fail2Ban
 [Fail2ban][52] can also help protect a web server from brute force and Deny-Of-Services (DOS) attacks.
@@ -1750,6 +1855,7 @@ As to port `53`, it must remain open to support DNS services
 
 
 # Nested Virtualization
+
 * [A beginner’s guide to setting up nested virtualization on Proxmox](https://www.xda-developers.com/set-up-nested-virtualization-on-proxmox/)
 
 
@@ -1760,6 +1866,7 @@ As to port `53`, it must remain open to support DNS services
 
 
 # Proxmox Cluster
+
 * [How do I create a cluster?](https://faq.myloc.de/?action=faq&cat=23&id=271&artlang=en)
 
 
@@ -1804,6 +1911,7 @@ and inject configuration settings via Cloud-Init.
 
 
 # eMail Notification
+
 * [Proxmox VE E-mail Notifications are Important](https://www.servethehome.com/proxmox-ve-e-mail-notifications-are-important/)
 
 
@@ -1812,6 +1920,7 @@ and inject configuration settings via Cloud-Init.
 
 
 # How to Rollback a Proxmox Kernel Update
+
 * [How To Revert a Proxmox Kernel Update](https://engineerworkshop.com/blog/how-to-revert-a-proxmox-kernel-update/)
 
 
@@ -1819,6 +1928,7 @@ and inject configuration settings via Cloud-Init.
 
 
 # Move Proxmox Containers And VMs
+
 * [How To Move Proxmox Containers And VMs To Different Disk](https://ostechnix.com/move-proxmox-containers-vms-to-different-disk/)
 
 
@@ -1827,6 +1937,7 @@ and inject configuration settings via Cloud-Init.
 
 
 # Virtual GPU/OpenGL Support
+
 * [Virtual GPU Is Now Functional On Proxmox!](https://www.youtube.com/watch?v=gkzrAYQHtk4)
 
 
