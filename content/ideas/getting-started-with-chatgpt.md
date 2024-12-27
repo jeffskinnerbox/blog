@@ -43,6 +43,14 @@ Version:      0.0.0
 * [7 LLM Projects to Boost Your Machine Learning Portfolio](https://machinelearningmastery.com/7-llm-projects-to-boost-your-machine-learning-portfolio/)
 
 
+* [How to Select SBC (Lattepanda/Raspberry Pi) for Local LLM (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, etc.)](https://www.dfrobot.com/blog-13536.html?tracking=676d0b674d873)
+* [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, etc)](https://www.dfrobot.com/blog-13498.html?tracking=676d0b674d873)
+* [Run Small Language Models (Mathstral, phi 3, Llama 3.1, Gemma2 2b, Qwen) on Raspberry Pi 5](https://www.dfrobot.com/blog-14068.html?tracking=676d0b674d873)
+    * [Run phi3.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15782.html?tracking=676d0b674d873)
+    * [Run Qwen2.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15784.html?tracking=676d0b674d873)
+    * [Run Gemma2 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15783.html?tracking=676d0b674d873)
+
+
 # MobileNet
 
 * [Deploying MobileNet on Microcontrollers](https://www.hackster.io/news/deploying-mobilenet-on-microcontrollers-31f2623ab383)
