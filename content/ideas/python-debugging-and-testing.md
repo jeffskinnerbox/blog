@@ -177,6 +177,7 @@ working with built-in data types, processing iterables of data, handling input a
 
 * Being Pythonic
     * [You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+    * [Python Name-Main Idiom Quiz](https://realpython.com/quizzes/python-name-main-idiom/)
     * [5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
     * [A forbidden Python technique to put ANYTHING in a dict or set](https://www.youtube.com/watch?v=NpdNDTncxwA)
     * [**new** vs **init** in Python](https://www.youtube.com/watch?v=-zsV0_QrfTw)
@@ -203,6 +204,8 @@ working with built-in data types, processing iterables of data, handling input a
     * [8 things in Python you didn't realize are descriptors](https://www.youtube.com/watch?v=mMbVs17Vmo4)
 * Generators
     * [Python Generators](https://youtu.be/tmeKsb2Fras?si=h7bXVCyo8zEcs1jU)
+* Sets
+    * [Using Sets in Python](https://realpython.com/courses/sets-python/)
 * Decorators
 * Pointers
     * [unique_ptr: C++'s simplest smart pointer](https://www.youtube.com/watch?v=AmjoK55h68Y)
@@ -244,6 +247,14 @@ working with built-in data types, processing iterables of data, handling input a
 ## Asterisks in Python
 
 * [Asterisks in Python: what they are and how to use them](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/)
+
+
+---------------
+
+
+# Profiling / Timing Code
+
+* [Python Timer Functions: Three Ways to Monitor Your Code](https://realpython.com/python-timer/)
 
 
 ---------------
