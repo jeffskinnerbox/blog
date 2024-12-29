@@ -19,8 +19,6 @@ Version:      0.0.0
 
 
 
-
-
 # MicroPython: The best bits
 
 * [MicroPython: The best bits!](https://pretalx.com/pycon-au-2024/talk/HFXFLZ/)
@@ -1662,6 +1660,13 @@ with a MicroPython ESP8266 or ESP32 over its serial REPL.
 
 
 
+
+
+# CircuitPython Libraries on Linux and Raspberry Pi
+This guide describes using CircuitPython libraries on small Linux computers, running under regular Python.
+It is not about running the CircuitPython firmware itself on those boards.
+
+* [CircuitPython Libraries on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
 
 
 # Installing CircuitPython Libraries and Adafruit_Blinka
