@@ -12,7 +12,11 @@ Version:      0.0.0
 ---------------
 
 
-# Home Network Best Practices
+# pfSense System Dashboard
+A Grafana dashboard built to monitor pfSense that relies on influx and Telegraf.
+All artifacts and instructions are maintained in github [here](https://github.com/VictorRobellini/pfSense-Dashboard).
+
+* [pfSense System Dashboard](https://grafana.com/grafana/dashboards/12023-pfsense-system-dashboard/)
 
 
 ## pfSense
