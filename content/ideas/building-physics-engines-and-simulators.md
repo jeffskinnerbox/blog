@@ -34,4 +34,5 @@ With applications spanning robotics training, embodied AI research, gaming physi
 * [GitHub: Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis)
 * [Genesis: A Generative and Universal Physics Engine for Robotics and Beyond](https://genesis-embodied-ai.github.io/)
 * [Set Up Genesis Locally: Power Your Robotics and AI Simulations](https://www.youtube.com/watch?v=eEZp7yuup0U)
+* [Genesis: Documentation](https://genesis-world.readthedocs.io/en/latest/index.html)
 
