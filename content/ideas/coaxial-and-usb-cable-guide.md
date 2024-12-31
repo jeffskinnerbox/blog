@@ -14,6 +14,11 @@ Version:      0.0.0
 
 
 
+* [TWISTED: The dramatic history of twisted-pair Ethernet](https://www.youtube.com/watch?v=f8PP5IHsL8Y)
+
+
+
+
 # Coaxial Cable
 
 * [UHF SO-239](https://www.amazon.com/Female-Chassis-Flange-Solder-Connector/dp/B007Q8JH4Y)
@@ -52,6 +57,7 @@ Below is some of the typical cables you'll come across.
 
 | Cable Type | Outer Diameter | Center Conductor | Impedance | Typical Application | [Jonard Stripper][03] |
 |:----------:|:--------------:|:----------------:|:---------:|:-------------------:|:---------------------:|
+
      RG-6    |  0.270 inches  |      18 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |      UST-500
      RG-7    |  0.320 inches  |      18 AWG      |   75 Ω    | CATV/DBS/CCTV/HDTV  |      UST-500
      RG-8    |  0.405 inches  |      13 AWG      |   50 Ω    |          AR         |
