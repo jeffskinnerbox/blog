@@ -68,3 +68,4 @@ The Wyze Noise-Cancelling Headphones support voice assistants, including Alexa.
 To use Alexa with your Wyze Headphones,
 you'll need to set it up as your voice assistant in the Wyze app. Simply tap on your Wyze Headphones in the app, go to Settings, select Voice Assistant, and choose Amazon Alexa. This will allow you to use Alexa for various commands directly through your headphones.
 
+

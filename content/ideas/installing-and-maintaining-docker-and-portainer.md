@@ -9,6 +9,208 @@ Version:      0.0.0
 </div>
 
 
+
+---------------
+
+
+
+# Development Tools: Docker & Portainer
+**Docker** is a popular application that simplifies the process of managing application processes in containers.
+Containers let you run your applications in resource-isolated processes.
+They’re similar to virtual machines, but containers are more portable,
+more resource-friendly, and more dependent on the host operating system.
+
+For applications depending on several services,
+orchestrating all the containers to start up, communicate,
+and shut down together can quickly become unwieldy.
+**Docker Compose** is a tool that allows you to run multi-container
+application environments based on definitions set in a YAML file.
+It uses service definitions to build fully customizable environments
+with multiple containers that can share networks and data volumes.
+
+Adopting container orchestration platforms like Kubernetes can be hard.
+**[Portainer][39]** is a popular Docker UI that helps you visualise your
+containers, images, volumes and networks.
+Portainer helps you centrally configure, manage and secure containerized environments,
+regardless of where they are hosted.
+It helps you take control of the Docker resources on your machine, avoiding lengthy terminal commands.
+
+>**NOTE:** By default, the `docker` command can only be run the root user
+>or by a user in the `docker` group, which is automatically created during Docker’s installation process.
+
+Sources:
+
+* [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+* [Install the Compose plugin](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
+* [How to Install Portainer on Ubuntu](https://www.wundertech.net/portainer-on-ubuntu/)
+* [Install Portainer CE with Docker on Linux](https://docs.portainer.io/start/install-ce/server/docker/linux)
+
+For developing with Docker, consider these Sources:
+
+* [Develop with Docker](https://docs.docker.com/develop/)
+* [How to Deploy NGINX Reverse Proxy on Docker](https://phoenixnap.com/kb/docker-nginx-reverse-proxy)
+* [How to Deploy and Manage MongoDB with Docker](https://phoenixnap.com/kb/docker-mongodb)
+* [How to Containerize Legacy Applications](https://phoenixnap.com/kb/how-to-containerize-applications)
+* [Docker Volumes: How to Create & Get Started](https://phoenixnap.com/kb/docker-volumes)
+* [Docker and Running your self-hosted applications in a more secure way behind a reverse proxy.](https://www.youtube.com/watch?v=8T68pB_Fkm4)
+
+
+
+## Docker Engine & Docker Compose
+
+
+#### Step 1: Installing Docker
+Ubuntu is my go-to Linux OS and installing on Ubuntu is fairly straight-forward.
+I'll used the installation scripts below.
+This involves adding a new package source,
+adding the GPG key from Docker to ensure the downloads are valid,
+and then install the Docker package.
+
+While not the absolute latest Docker version,
+I’ll install Docker from the Dockers official Ubuntu repository,
+instead of Docker's generic repository.
+
+```bash
+# before you can install docker engine, you need to uninstall any previous installed conflicting packages
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt remove $pkg; done
+
+# clean up any existing docker related data
+rm /var/lib/docker/*
+
+# update your existing list of ubunutu packages
+sudo apt update
+
+# install a few prerequisite packages
+sudo apt install apt-transport-https ca-certificates curl gnupg software-properties-common
+
+# add docker's official gpg key
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+
+# add the docker repository to apt sources
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+
+# check to make sure you are about to install from docker repo or ubuntu repo
+apt-cache policy docker-ce
+```
+
+From the above last command,
+you'll see the installation will be from the Docker repository for what ever version of Ubuntu you are running.
+Now lets install Docker:
+
+```bash
+# install docker packages
+sudo apt install docker-ce
+
+# check to see if docker is running
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# docker should be running, but make sure
+sudo service docker start
+
+# verify that the docker engine installation is successful running
+sudo docker run hello-world
+```
+
+
+#### Step 2: Upgrade Docker
+Docker and Docker Compose will be automatically upgraded by Ubuntu from the official Ubuntu repository for Docker.
+
+
+#### Step 3: Install Docker Compose
+To ensure we get the latest version,
+we’ll install Docker Compose from the official Docker repository.
+To do that, we’ll add a new package source,
+add the GPG key from Docker to ensure the downloads are valid,
+and then install the package.
+
+```bash
+# download docker compose
+sudo apt update
+sudo apt install docker-compose-plugin
+
+# verify that the installation of docker compose was successful
+docker compose version
+```
+
+
+#### Step 4: Upgrade Docker Compose
+Docker Compose will be upgraded automatically by Ubuntu from the official Ubuntu repository for Docker.
+
+
+## Portainer
+Portainer gives users a way to manage their Docker containers,
+accross multiple sites, through a web interface.
+Portainer also gives you the ability to use stacks,
+which is an easy way to create new containers and allows them to be created using a docker-compose format.
+
+**NOTE:** Instructions below must be performed on Ubuntu 22.04 or greater.
+
+
+#### Step 1: Install Portainer
+Before you install Portainer on Ubuntu,
+you must ensure that you have Docker installed on Ubuntu first.
+
+```bash
+# create the volume for storing persistent data
+sudo docker volume create portainer_data
+
+# install the portainer container (ports 8000 is for agents and 9000 for web ui)
+sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+
+# check if portainer is running
+sudo docker ps -a -s
+
+# log into portainer and setup your password, etc.
+#google-chrome https://localhost:9443   # <-- for https access
+google-chrome https://localhost:9000   # <-- for https access
+```
+
+Now using your browser, log into portainer via this URL: `localhost:9000`.
+
+
+#### Step 2: Upgrading Portainer
+To [upgrade to the latest version of Portainer Server][40],
+you must do it from the commandline.
+Use the following commands to stop Portainer, then remove the old version,
+and finally do a new install of Portainer.
+
+```bash
+# stop and remove the portainer container
+sudo docker stop portainer
+sudo docker rm portainer
+
+# pull down the latest version of portainer
+sudo docker pull portainer/portainer-ce:latest
+
+# reinstall portainer
+sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+```
+
+You may want to also upgrade the Portainer Agent and this must be done separately:
+
+```bash
+# stop and remove the portainer agent container
+sudo docker stop portainer_agent
+sudo docker rm portainer_agent
+
+# pull nd start the updated version of the image
+sudo docker pull portainer/agent:latest
+sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
+```
+
+
+#### Step 3: Refresh Portainer Stacks
+Using your [GitHub repository for your HomeLab Portainer Stacks][61],
+redeploy your stacks to you `desktop` computer.
+
+
+
 ---------------
 
 
@@ -44,50 +246,30 @@ Source:
 docker --version
 
 # uninstall any old version of docker (called docker, docker.io, or docker-engine)
-sudo apt-get remove docker docker-engine docker.io containerd runc
+for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 
-# update the apt package index and install packages
-sudo apt-get update
-sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release
+# update the apt package index and install required packages
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release
 
 # add docker’s official gpg key
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 # set up the stable repository
- echo "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] \
-    https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" \
-    | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
 # install the latest version of docker engine
-sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io
-
-# install a specific version of docker engine, list the available versions in the repo
-$ apt-cache madison docker-ce
- docker-ce | 5:20.10.8~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.7~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.6~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.5~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.4~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.3~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.2~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.1~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:20.10.0~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:19.03.15~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:19.03.14~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:19.03.13~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:19.03.12~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:19.03.11~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:19.03.10~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
- docker-ce | 5:19.03.9~3-0~ubuntu-focal | https://download.docker.com/linux/ubuntu focal/stable amd64 Packages
-
-# install a specific version using the version string from the second column
-# sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
-sudo apt-get install docker-ce=5:20.10.8~3-0~ubuntu-focal docker-ce-cli=5:20.10.8~3-0~ubuntu-focal containerd.io
+sudo apt update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # check the currently install version of docker
 $ docker --version
-Docker version 20.10.8, build 3967b7d
+Docker version 27.4.1, build b9d17ea
 ```
 
 
@@ -158,6 +340,22 @@ sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> c
 ```
 
 
+### Step 4: Uninstall Docker Engine - DONE
+
+```bash
+# uninstall the docker engine, the cli, and containerd packages
+sudo apt-get purge docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-ce-rootless-extras
+
+# delete all images, containers, volumes, or custom configuration files
+sudo rm -rf /var/lib/docker
+sudo rm -rf /var/lib/containerd
+
+# delete source list and keyrings
+sudo rm /etc/apt/sources.list.d/docker.list
+sudo rm /etc/apt/keyrings/docker.asc
+```
+
+
 ### Step 4: Useful Docker Commands
 
 * [What is Docker?](https://phoenixnap.com/kb/what-is-docker)
@@ -174,35 +372,20 @@ sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> c
 sudo docker images
 ```
 
-
-### Step 5: Uninstall Docker Engine
-
-```bash
-# uninstall the docker engine, the cli, and containerd packages
-sudo apt-get purge docker-ce docker-ce-cli containerd.io
-
-# delete all images, containers, and volumes
-sudo rm -rf /var/lib/docker
-sudo rm -rf /var/lib/containerd
-
-# you must delete any edited configuration files manually
-```
-
-
-## Develop with Docker
-
-* [Develop with Docker](https://docs.docker.com/develop/)
-* [How to Deploy NGINX Reverse Proxy on Docker](https://phoenixnap.com/kb/docker-nginx-reverse-proxy)
-* [How to Deploy and Manage MongoDB with Docker](https://phoenixnap.com/kb/docker-mongodb)
-* [How to Containerize Legacy Applications](https://phoenixnap.com/kb/how-to-containerize-applications)
-* [Docker Volumes: How to Create & Get Started](https://phoenixnap.com/kb/docker-volumes)
-* [Docker and Running your self-hosted applications in a more secure way behind a reverse proxy.](https://www.youtube.com/watch?v=8T68pB_Fkm4)
+---------------
 
 
 ## Install Docker Compose
 [Docker Compose][62] is a tool for defining and running multi-container Docker applications.
 With Compose, you use a YAML file to configure your application’s services.
 Then, with a single command, you create and start all the services from your configuration.
+
+>**NOTE:** Docker recommends the best way to get Docker Compose is to install Docker Desktop.
+>Docker Desktop includes Docker Compose along with Docker Engine and Docker CLI which are Compose prerequisites.
+
+If you already have Docker Engine and Docker CLI installed (as done in the above steps),
+you can install the Docker Compose plugin from the command line, by either
+using Docker's repository or downloading and installing manually
 
 * [Docker-compose tutorial](https://www.youtube.com/watch?v=qH4ZKfwbO8w)
 * [Overview of Docker Compose](https://docs.docker.com/compose/)
@@ -211,50 +394,64 @@ Then, with a single command, you create and start all the services from your con
 * [How to Install Docker and Docker Compose on Linux](https://www.cloudsavvyit.com/10623/how-to-install-docker-and-docker-compose-on-linux/)
 
 
-### Step 1: Download the Latest Docker Compose Version
-`docker-compose` is a separate binarya from Docker,
-and it is best downloaded directly from the project’s GitHub releases.
-Head to [Docker Compose’s releases page][63] and take note of the latest version number.
-At the time of writing, it was `2.5.1`.
+### Step 1: Download the Docker Compose via Repository - DONE
+Following the instructions given [here][63],
+you can install Dockeer COmpose via the repository we just installed above:
 
 ```bash
-# download docker-compose binary
-#sudo curl -L "https://github.com/docker/compose/releases/download/2.5.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo apt install docker-compose
-
-# make the file executable
-#sudo chmod +x /usr/local/bin/docker-compose
+# update the package index, and install the latest version of docker compose
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
 
 # check docker-compose status
 docker-compose --version
 ```
 
 
-### Step 2: Creating a Simple Docker-Compose File
+### Step 3: Upgrade Docker Compose - DONE
+To upgrade Docker Compose, first run `sudo apt-get update`,
+then follow the installation instructions, choosing the new version you want to install:
+
+```bash
+sudo apt-get update
+sudo apt-get install docker-compose
+```
 
 
-### Step 3: Uninstall Docker Compose
+### Step 3: Uninstall Docker Compose - DONE
 Uninstalling Docker Compose from your Ubuntu system requires 3-step:
 
 ```bash
-# delete the docker-compose if you installed binary (as done above)
-sudo rm /usr/local/bin/docker-compose
-
-# remove software package if you used apt
+# remove software package if you used apt (as done above)
 sudo apt remove docker-compose
+
+# delete the docker-compose if you installed binary
+sudo rm /usr/local/bin/docker-compose
 
 # uninstall if you installed using pip
 pip uninstall docker-compose
+
+# uninstall if you installed using snap
+snap uninstall docker-compose
 ```
 
 
 ---------------
 
 
-## Install Portainer
-Adopting container orchestration platforms like Kubernetes can be hard.
-[Portainer][61] is a popular Docker UI that helps you visualise your
-containers, images, volumes and networks.
+## Install Portainer (or Docker Desktop?)
+While both [Docker Desktop][41] and [Portainer][39] are used to manage Docker containers,
+Docker Desktop is primarily a local development tool with a user-friendly interface for managing containers on your machine,
+while Portainer is a web-based platform designed to manage multiple Docker environments
+and clusters from a single dashboard, making it better suited for managing containers across different hosts or in production environments;
+essentially, Docker Desktop focuses on individual development,
+while Portainer is for centralized container management.
+Another option is [Kubernetes (aka K8s)][42]
+but adopting container orchestration platforms like Kubernetes
+can be hard since its engineered for enterprise networks.
+
+I have choosen [Portainer][61] as my Docker UI that helps you visualise my
+containers, images, volumes, and networks accross all my docker instances in my network.
 Portainer helps you centrally configure, manage and secure containerized environments,
 regardless of where they are hosted.
 It helps you take control of the Docker resources on your machine, avoiding lengthy terminal commands.
@@ -279,45 +476,30 @@ Sources:
 Use the following Docker commands to deploy the Portainer Server.
 
 ```bash
-# create the volume for storing persistent data
+# first, create the volume that Portainer Server will use to store its database
 sudo docker volume create portainer_data
 
 # install the portainer container (ports 8000 is for agents and 9000 for web ui)
-sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+sudo docker run -d -p 8000:8000 -p 9443:9443 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 
 # check if portainer is running
-sudo docker ps -a -s
+sudo docker ps -a -s | grep portainer
 ```
 
-Now using your browser, log into portainer via this URL: `localhost:9000`.
+Now using your browser, log into portainer via this URL: `localhost:9443`.
 
 
-### Step 2: Manage Multiple Hosts in Portainer
-
-* [How to manage multiple Hosts in Portainer?](https://www.youtube.com/watch?v=kKDoPohpiNk&list=RDCMUCZNhwA1B5YqiY1nLzmM0ZRg&index=4)
+### Step 2: Upgrading Portainer Server - And Keepig Your Data
 
 
-### Step 2: Portainer Agent Deployment
-Use the following Docker commands to deploy the Portainer Agent.
-Agents are installed on Docker nodes being managed remotely by Portainer.
-The agent is not needed on standalone hosts,
-however it does provide additional functionality if used:
+### Step 2A: Upgrading Portainer Server - Do Backups
+**Strongly recommend that you take a backup of your Portainer instance before updating.**
 
-```bash
-# install the portainer container
-sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
-```
+* [Portainer Backup](https://docs.portainer.io/2.25/admin/settings#backup-portainer)
+* [Backup Docker Data and Configs](https://wiki.opensourceisawesome.com/books/backing-up-docker/page/backup-docker-data-and-configs)
 
 
-# Install Some Containers
-
-* [How to Install Nextcloud on Ubuntu, Move Data Directory, Setup Free DDNS Domain & SSL Certificate](https://www.youtube.com/watch?v=g1mYxrxdJXM&t=0s)
-* [How to Install Nextcloud Hub 21 on Ubuntu 20.04 - Apache, MySQL, and PHP Configuration](https://www.youtube.com/watch?v=ZM1fL6ze4X8)
-* [Fix Nextcloud Cron Job not Running on NC 21.0.3 - Nextcloud Redis Setup](https://www.youtube.com/watch?v=8JVhRtArovg)
-* [How to Install Bitwarden on Ubuntu 20.04 - Self Hosting a Password Manager](https://www.youtube.com/watch?v=7bFuJCxWH6I)
-
-
-### Step X: Upgrading Portainer
+### Step 2B: Upgrading Portainer Server
 To [upgrade to the latest version of Portainer Server][64],
 you must do it from the commandline.
 Use the following commands to stop Portainer, then remove the old version,
@@ -330,7 +512,13 @@ and finally do a new install of Portainer.
 # stop and remove the portainer container
 sudo docker stop portainer
 sudo docker rm portainer
+```
 
+Now that you have stopped and removed the old version of Portainer,
+**you must ensure that you have the most up to date version of the image locally**.
+You can do this with a `docker pull` command:
+
+```bash
 # pull down the latest version of portainer
 sudo docker pull portainer/portainer-ce:latest
 
@@ -341,6 +529,12 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name=portainer --res
 sudo docker ps -a -s
 ```
 
+Sources:
+
+* [Updating on Docker Standalone](https://docs.portainer.io/2.25/start/upgrade/docker)
+
+
+### Step 2C: Upgrade Portainer Agents
 You may want to also upgrade the Portainer Agent and this must be done separately:
 
 ```bash
@@ -378,13 +572,75 @@ services:
 >for a script to do the above steps.
 
 
-### Step X: Update Your Docker Container
+### Step 3: Portainer Agent Deployment - DONE
+Use the following Docker commands to deploy the Portainer Agent.
+Agents are installed on Docker nodes being managed remotely by Portainer.
+The agent is not needed on standalone hosts,
+however it does provide additional functionality if used:
+
+```bash
+# stop and remove the portainer agent container
+sudo docker stop portainer_agent
+sudo docker rm portainer_agent
+
+# install the portainer container
+sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
+```
+
+Once the agent has been installed you are ready to add the environment to your Portainer Server installation.
+There are [multiple way of doing this][43],
+but I'm be using the [Agent method][44].
+
+* [Install Portainer Agent on Docker Standalone][44]
+* [How to manage multiple Hosts in Portainer?](https://www.youtube.com/watch?v=kKDoPohpiNk&list=RDCMUCZNhwA1B5YqiY1nLzmM0ZRg&index=4)
+
+
+#### Step 4: Manage Remote Docker Containers via Desktop Portainer - DONE
+We now want to connect the remote host Docker containers with my `desktop` portainer
+so all my containers can be managed from a single site.
+To do this, we must connect the Portainer Agent with Portainer.
+
+To connect your Docker container Portainer Agent, you do the following on your `desktop` Portainer.
+
+* Select **Environments** from the lefthand menu.
+* Select the **Add environment** button at top left.
+* Select **Dockert Standalone** and then **Start Wizard**.
+* Select the **Copy command** for "Linux & Windows WSL"
+* For the **Name** field, enter the name of host,
+for **Environment URL** enter `<ip-address>:9001`
+* Select **Connect** at the bottom left of the page.
+
+>**NOTE:** If you get a message sating the Portainer agent is already paired,
+>restart the remote host to clear the old pairing and attempt another **Connect**.
+
+Source:
+
+* [Installing Portainer and Portainer Agent - An update to show you an easier way to manage Docker](https://www.youtube.com/watch?v=-LPaWq1_GF0)
+* [Add ALL of your Docker Hosts to ONE Portainer Dashboard Using the Portainer Edge Agent](https://www.youtube.com/watch?v=8YmQoQ7gAg8)
+
+
+### Step 5: Upgrading Portainer Agent
+Since you install the Portainer Agent as a Docker container,
+you can maintian just like any other Docker container.
+For instrctions on how to do this, see below.
+
+
+---------------
+
+
+## Maintaining Your Docker Container
 You can update you Docker containers via the commandline,
 but Portainer provides a intuitive browser UI to do the same.
 Check out the videos below
 
 * [Use Portainer to update your Docker Containers while they are running. No command line needed.](https://www.youtube.com/watch?v=Eme2TlR7Z7E)
 * [How To Update Docker Container automatically with nearly zero downtime](https://www.youtube.com/watch?v=5lP_pdjcVMo)
+
+
+#### Step X: Refresh Portainer Stacks
+Using your [GitHub repository for your HomeLab Portainer Stacks][61],
+redeploy your stacks to you `desktop` computer.
+
 
 
 ---------------
@@ -447,12 +703,19 @@ But it might make more sense to include these volumes in something like this `/h
 
 
 
+[39]:https://www.portainer.io/
+[40]:https://docs.portainer.io/v/ce-2.9/admin/upgrade/docker
+[41]:https://www.docker.com/products/docker-desktop/
+[42]:https://kubernetes.io/
+[43]:https://docs.portainer.io/2.25/admin/environments/add/docker
+[44]:https://docs.portainer.io/2.25/admin/environments/add/docker/agent
+
 [58]:https://docs.docker.com/engine/install/
 [59]:https://www.youtube.com/watch?v=q3wKqk8qVS8&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=8
 [60]:https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 [61]:https://www.portainer.io/
 [62]:https://docs.docker.com/compose/
 [63]:https://github.com/docker/compose/releases
-[64]:https://docs.portainer.io/v/ce-2.9/admin/upgrade/docker
+[64]:https://docs.portainer.io/2.25/start/upgrade/docker
 [65]:https://containrrr.dev/watchtower/
 

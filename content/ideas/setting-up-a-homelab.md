@@ -223,9 +223,9 @@ Portainer Agent      192.168.1.204:9001
 Guacamole            192.168.1.204:8194
 
         Argon ONE Raspberry Pi 4 - 192.168.1.203 (static)
-home-assist          192.168.1.203
-Home Assistant       192.168.1.203:8123
-Portainer Agent      192.168.1.203:9001
+home-assist-test     192.168.1.xxx
+Home Assistant       192.168.1.xxx:8123
+Portainer Agent      192.168.1.xxx:9001
 
         Clear Case Raspberry Pi 3 - 192.168.1.205 (static)
 test-pi              192.168.1.205
@@ -239,6 +239,8 @@ WiFi6 Access Point   192.168.1.2:80       TP-Link EAP610
 WiFi Range Extender  192.168.1.3:80       TP-Link
 Ethernet Switch      192.168.1.4:80       TP-Link TL-SG116E - on TV & IoT network
 Ethernet Switch      192.168.1.5:80       TP-Link TL-SG108E - on personal network
+Proxmox              192.168.1.208:8123   hostname: pve-2.jeffskinnerbox.me / mgmt. interface: enp2s0
+Home Assistant       192.168.1.203        hostname: home-assist
 Philips Hue Gateway  DHCP
 SmartThings Gateway  DHCP
 
