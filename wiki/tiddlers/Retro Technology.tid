@@ -571,6 +571,8 @@ So at its foundation, even the wired world of Ethernet is based on a wireless te
 In 1979, learned about ALOHAnet in an advance communications course in graduate school at Purdue University.
 ALOHAnet was the first public demonstration of a wireless packet data network.
 It was used by the University of Hawaii to interconnect computers on multiple Hawaiian islands.
+The todays popular physical design for Ethernet is twisted-pair wire with RJ-45 connectors.
+This physical design has an iteresting [[connection with Bell Labs|https://www.youtube.com/watch?v=f8PP5IHsL8Y]].
 
 At the tender age of less than 12 years old, I made my first venture into the world of
 "[[Maker|https://en.wikipedia.org/wiki/Maker_culture]]"
