@@ -9,6 +9,20 @@ Version:      0.0.0
 
 ---------------
 
+
+
+# vPlayer (ESP32)
+
+* [VPlayer Puts Smart Display In Palm Of Your Hand](https://hackaday.com/2024/12/31/vplayer-puts-smart-display-in-palm-of-your-hand/)
+    * [vPlayer - ESP32 Smart Watch Display](https://www.tindie.com/products/kdcircuits/vplayer-esp32-smart-watch-display/)
+    * [vPlayer - Ultimate IoT Display](https://vplayer.readthedocs.io/en/latest/)
+    * [An ESP In Your Mini TV](https://hackaday.com/2023/06/28/an-esp-in-your-mini-tv/)
+
+
+
+
+
+
 See for more ideas ... `/home/jeff/blogging/content/ideas/person-and-presence-detection.md`
 ...................... `/home/jeff/cad/intel-286-pc/README.md`
 ...................... `/home/jeff/blogging/content/ideas/ozzmaker-berrygps-imu-v3-and-adafruit-ultimate-gps.md`
