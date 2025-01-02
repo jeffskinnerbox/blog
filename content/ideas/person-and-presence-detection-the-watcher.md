@@ -160,14 +160,25 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [Animatronic Alexa Gives Amazon’s Echo a Face](https://hackaday.com/2023/07/05/animatronic-alexa-gives-amazons-echo-a-face/)
 
 
-## Picture Frame Display
+## eInk Picture Frame Display
 Convert an IKEA RIBBA 5×7" picture frame into an ePaper dashboard for a Home Assistant smarthome.
 
 * [Nerdiy's 3D-Printed Framework Turns an IKEA RIBBA Into a Seeed XIAO ESP32C3-Powered ePaper Dashboard](https://www.hackster.io/news/nerdiy-s-3d-printed-framework-turns-an-ikea-ribba-into-a-seeed-xiao-esp32c3-powered-epaper-dashboard-3d09f96f7936)
+    * [You can customize this Raspberry Pi eInk display with tons of cool plugins](https://www.tomshardware.com/raspberry-pi/you-can-customize-this-raspberry-pi-eink-display-with-tons-of-cool-plugins)
     * [Ikea Ribba eInk frame insert for 5″x7″ picture frames - 3D printable - STL files](https://nerdiy.de/en/product-2/eink-frame-insert-suitable-for-ikea-ribba-5x7-picture-frame-3d-printable-stl-files/)
     * [eInk Frame Insert suitable for Ikea Ribba 5″x7″ picture frame](https://github.com/Nerdiyde/ESPHomeSnippets/tree/main/Snippets/eInk_frame_insert_ribba_5inchX7inch)
     * [RIBBA Frame 5x7"](https://www.ikea.com/us/en/p/ribba-frame-black-50378448/)
     * [Americanflat 5x7 Picture Frame in Black](https://www.amazon.com/Americanflat-Picture-Frame-Black-Built/dp/B0CMC9232L/)
+
+
+## Magic Storybook with ChatGPT
+This guide will show you how to create your own never-ending story book using a Raspberry Pi,
+a touch screen display, and ChatGPT.
+
+* [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
+* [This cool Raspberry Pi-powered storybook automatically generates stories on an eInk display](https://www.xda-developers.com/raspberry-pi-powered-storybook/)
+* M5Stack’s M5Dial – [An ESP32-S3 smart rotary knob with a touchscreen display](https://www.cnx-software.com/2023/10/08/m5dial-an-esp32-s3-smart-rotary-knob-with-a-touchscreen-display/)
+
 
 
 ## Make it Speak to Home Assistant
@@ -175,15 +186,6 @@ Convert an IKEA RIBBA 5×7" picture frame into an ePaper dashboard for a Home As
 * [More Voice More Voice More Voice (Local Control)](https://www.mostlychris.com/more-voice-more-voice-more-voice/)
     * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
-
-
-# Magic Storybook with ChatGPT
-This guide will show you how to create your own never-ending story book using a Raspberry Pi,
-a touch screen display, and ChatGPT.
-
-* [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
-* [This cool Raspberry Pi-powered storybook automatically generates stories on an eInk display](https://www.xda-developers.com/raspberry-pi-powered-storybook/)
-* M5Stack’s M5Dial – [An ESP32-S3 smart rotary knob with a touchscreen display](https://www.cnx-software.com/2023/10/08/m5dial-an-esp32-s3-smart-rotary-knob-with-a-touchscreen-display/)
 
 
 # AI Generated Text to Speech
