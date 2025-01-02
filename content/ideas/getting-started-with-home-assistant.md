@@ -2038,6 +2038,7 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 ### Home Assistend Voice & Voice Commands
 
 * [YOU NEED THIS! The Home Assistant Voice Preview Edition Hardware for local voice control](https://www.youtube.com/watch?v=2VO-HM08EeA)
+    * [Home Assistant made their own Alexa!!](https://www.youtube.com/watch?v=An4IapvutzM)
     * [Product page](https://home-assistant.io/voice-pe)
     * [Documentation](https://voice-pe.home-assistant.io)
     * [Talking with Home Assistant - get your system up & running](https://www.home-assistant.io/voice_control/)
