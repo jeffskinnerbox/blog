@@ -379,6 +379,7 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 
 ## Specialized IC Detector
 
+* [Raspberry Pi Lightning Detector](https://www.hackster.io/news/raspberry-pi-lightning-detector-f85780ffce0d)
 * [AMS AS3935 Franklin Lightning Sensor](https://esphome.io/components/sensor/as3935.html)
 * [SparkFun Lightning Detector - AS3935](https://www.sparkfun.com/products/15276)
 * [Lightning Sensor Breakout](https://www.playingwithfusion.com/productview.php?pdid=22&catid=1012)
