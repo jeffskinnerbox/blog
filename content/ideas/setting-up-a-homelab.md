@@ -207,6 +207,7 @@ My vision for the physical design will be
         Desktop - 192.168.1.200 (static)
 Blog                 192.168.1.200:80
 Homer                192.168.1.200:8001
+Netbox               192.168.1.200:8002
 Portainer            192.168.1.200:9000
 
         Synology - 192.168.1.201 (static)
