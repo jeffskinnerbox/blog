@@ -374,6 +374,15 @@ There are many Python static analysis tools to choose from, but these are most h
 * [virtualenv: intro](https://calmcode.io/course/virtualenv/intro)
 * [pip-tools: introduction](https://calmcode.io/course/pip-tools/introduction)
 
+
+---------------
+
+
+# Poetry
+
+* [How To Start A Python Project Professionally](https://www.youtube.com/playlist?list=PLJ5EMZcDPjGDSoqiGfZn3Z3ebDOq1Sn0x)
+
+
 ---------------
 
 
