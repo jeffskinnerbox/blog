@@ -267,6 +267,7 @@ sensitive to the setup of the problem.
 
 * [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
 
+
 ---------------
 
 
@@ -282,3 +283,33 @@ sensitive to the setup of the problem.
 ## Physics
 
 * [Dot Physics](https://www.youtube.com/@DotPhysics)
+
+
+---------------
+
+
+# Zero-Knowledge Proofs
+
+* [A Beginner's Guide to Zero Knowledge Proofs (ZK Proofs Explained)](https://www.youtube.com/watch?v=_MYpZQVZdiM)
+* [How Do You Prove a Secret?](https://www.quantamagazine.org/how-to-prove-you-know-a-secret-without-giving-it-away-20221011/)
+* [Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED](https://www.youtube.com/watch?v=fOGdb1CTu5c)
+* [How Do You Prove a Secret?](https://www.quantamagazine.org/how-to-prove-you-know-a-secret-without-giving-it-away-20221011/)
+
+
+## Knowledge and Information
+Knowledge is awareness, understanding, or skill that you get from experience or education.
+Information is the facts or details that are organized and processed to provide context and meaning.
+For example, knowing the capital of France is information.
+
+Here are some other differences between information and knowledge:
+
+* **Source** - Information comes from data, while knowledge comes from experience or education.
+* **Transferability** - Information is easily transferred using technology, but knowledge is more difficult to transfer because it's unarticulated and requires experience.
+* **Reproduction** - Information is easily reproduced at a lower cost, but knowledge is more difficult to reproduce.
+* **Predictability** - Information alone is not enough to make predictions, but knowledge can make predictions or inferences.
+* **Uniqueness** - Knowledge is unique to each individual.
+
+The relationship between data, information, and knowledge can be thought of as a process that's not uni-directional.
+For example, knowledge gained from analyzing information can reveal gaps in the data,
+which can lead to changes in how the data is collected or converted into information.
+
