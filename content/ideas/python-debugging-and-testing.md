@@ -380,7 +380,10 @@ There are many Python static analysis tools to choose from, but these are most h
 
 # Poetry
 
-* [How To Start A Python Project Professionally](https://www.youtube.com/playlist?list=PLJ5EMZcDPjGDSoqiGfZn3Z3ebDOq1Sn0x)
+* [Simplifying Python Dependency Management with Poetry](https://medium.com/@jdgb.projects/simplifying-python-dependency-management-with-poetry-e996738778bc)
+* [Poetry - Python dependency management and packaging made easy](https://python-poetry.org/)
+* [How to Use Poetry in Python to avoid Dependency Hell](https://www.youtube.com/watch?v=V5rKVrVhEh8)
+* [Stop Wasting Hours - Every Python Dev NEEDS to Master Poetry](https://www.youtube.com/watch?v=nrm8Lre-x_8)
 
 
 ---------------
