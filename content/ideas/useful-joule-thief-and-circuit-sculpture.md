@@ -96,6 +96,9 @@ However, an NPN will work best as you are performing switching work, rather than
 * [Wireless LEDs Aren’t Really Magic](https://hackaday.com/2021/11/29/wireless-leds-arent-really-magic/)
 
 
+---------------
+
+
 # Circuit Sculpture
 
 * [Cumin Lander](https://www.hackster.io/mohit/cumin-lander-9d9784)
@@ -106,6 +109,25 @@ However, an NPN will work best as you are performing switching work, rather than
     * [Mohit Bhoite's KT-15 Circuit Sculpture Is Ready for a Kitchen Landing with Its 4-Bit Timer](https://www.bhoite.com/sculptures/kt-15/)
 * [TWELVE CIRCUIT SCULPTURES WE CAN’T STOP LOOKING AT](https://hackaday.com/2019/01/15/twelve-circuit-sculptures-we-cant-stop-looking-at/)
 * [A little CSK satellite for a bright workstation](https://hackaday.io/project/190199-a-little-csk-satellite-for-a-bright-workstation)
+
+
+## Circuit Sculpture HowTo
+
+* [Mohit Bhoite - Building Free-Formed Circuit Sculptures](https://www.youtube.com/watch?v=LqVFxNFGNbc)
+* [Bend It Like Bhoite: Circuit Sculptures Shatter The Bounds Of Flatland](https://hackaday.com/2019/12/27/bend-it-like-bhoite-circuit-sculptures-shatter-the-bounds-of-flatland/)
+
+* [555 Lab - Introduction to the 555 Timer IC](https://www.allaboutcircuits.com/textbook/experiments/chpt-8/555-ic/)
+* [555 Timer Circuits](https://www.555-timer-circuits.com/)
+* [Learn to build electronics with Oyvind's Circuit Tips](https://www.build-electronic-circuits.com/)
+
+
+## Circuit Sculpture Supplies
+
+* [Ultra-Formable 260 Brass - 1 Foot Long Rod, 1/32" Diameter](https://www.mcmaster.com/8859K481/)
+* [433mhz RF Transmitter and Receiver Module Wireless 4 Channel Output](https://www.amazon.com/gp/product/B08SQDVY99/?th=1)
+
+
+---------------
 
 
 # RF Detector Circuits
