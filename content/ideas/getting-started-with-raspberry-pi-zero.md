@@ -9,7 +9,13 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
+
+
+
+The [LiFePO4wered/18650][89] is NOW DISCONTINUED, as of January 2024
+
+
 
 
 
@@ -24,6 +30,7 @@ the Zero uses a single-core 1GHz ARM
 You're essentially going to get the same performance as the RPi A+ or B+.
 If you're looking for something that can do some more serious processing,
 check out the RPi 2 or RPi 3.
+
 
 # Raspberry Pi Zero Tour
 ![rpi-zero-all-types](http://zdnet1.cbsistatic.com/hub/i/r/2017/05/07/b510bd4a-f8bd-4b80-8c94-9e0f8c331665/resize/770xauto/567ce41124a0f0c49315dd7013074fc1/imgp3772.jpg)
@@ -46,6 +53,7 @@ The standard USB ports and GPIO pins do not have that diode.
 The Pi Foundation recommends adding a blocking diode when powering a RPi through the GPIO ports.
 * You can power the RPi Zero thought the USB OTG port, but not recommended.
 
+
 ## RPi Zero v1.3 Camera Enabled
 [Raspberry Pi Zero version 1.3][06] comes with a frequently requested feature: a camera connector,
 but there is a small catch.
@@ -54,6 +62,7 @@ the usual camera cable they come with will not.
 The [Pi Zero’s camera cable connector][68] is a little smaller than the ones on the full-grown Pi,
 so it needs a special cable to interface the camera modules
 to the slightly smaller connector found on the Pi Zero.
+
 
 ## USB Gadget
 [!usb-go](https://upload.wikimedia.org/wikipedia/en/b/b6/USB_OTG_Logo.svg)
@@ -110,6 +119,7 @@ So when you plug the RPi Zero into a computer, it could start typing!
 
 * [enable the USB Gadget support on the Raspberry Pi Zero W](https://back7.co/home/weekend-project-portable-pi-zero-usb-gadget)
 
+
 ## Console Access to RPi Zero
 [!sereial-cable](https://cdn-shop.adafruit.com/970x728/954-02.jpg)
 A [USB to TTL serial cable][35] (aka console cable)
@@ -160,6 +170,7 @@ During the Raspberry Pi configuration using `sudo raspi-config`, select "Boot Op
 You will need a password to get console access,
 which gives you greater security, and allow console cables to work via [`screen`][66].
 
+
 # Raspberry Pi Zero Set Up
 The objective here is to get the RPi Zero up and running without the need for any
 USB keyboard, mouse, or HDMI monitor.
@@ -172,11 +183,13 @@ we'll use the `g_ether` driver creating a virtual Ethernet device
 The other USB Gadget drivers (beside `g_ether`)
 can be done after the first boot and we have the RPi Zero up and working.
 
+
 ## Step 0: Configuring the SD Card
 Download and install the latest Raspbian Jessie onto a suitably large SD card,
 and expand the root partition.
 This has been described in many place, including [my description (Steps 1 & 2)][03].
 Once you're done, plug the micro SD card into the Micro SD Card holder on the Zero.
+
 
 ## Step 1: Setting Up RPi Zero OTG
 On a non-Zero Raspberry Pi, like the RPi A,
@@ -215,6 +228,7 @@ dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 roo
 ```
 
 Eject the SD card from your computer.
+
 
 ## Step 2A: Connecting with it as USB Gadget (Ubuntu)
 To connect to the RPi Zero over USB,
@@ -399,6 +413,7 @@ My experimentation has shown me that removing NetworkManager could cause other p
 I (and many others) have had problems with NetworkManager before,
 so I suspect its the root of my troubles.
 
+
 ## Step 2B: Connecting with it as USB Gadget (Raspberry Pi)
 The Raspberry Pi Linux distribution doesn't use NetworkManager
 ([but some people have installed it][20]),
@@ -460,6 +475,7 @@ I'm going to assume another [private network][34] with addressing `10.0.1.x`.
 On this network, the RPi B host will have IP address `10.0.1.1`
 and the RPi Zero USB Gadget will have address `10.0.1.2`.
 **NOTE:** You'll see this addressing scheme being used below without any futher motivation.
+
 
 ## Step 3: Bridging Via Host PC to Allow Gadget to Reach the Internet
 Now we want to update the the RPi Zero with the latest software
@@ -552,7 +568,7 @@ sudo iptables -A FORWARD -j ACCEPT
 sudo iptables -A POSTROUTING -t nat -j MASQUERADE -s 10.0.1.0/25
 ```
 
-**IS THIS - The wrong way to masquerade - see this** - http://www.billauer.co.il/ipmasq-html.html
+**IS THIS - The wrong way to masquerade - see this** - <http://www.billauer.co.il/ipmasq-html.html>
 
 At this point, your route table should look something like this on the host:
 
@@ -678,6 +694,7 @@ To restore iptables rule that you may have saved
 sudo iptables-restore < $HOME/tmp/backup_rules.v4
 ```
 
+
 ## Step 4: Configuring the Raspberry Pi Zero
 With the above steps complete, you can follow the article
 ["HowTo: Set-Up the Raspberry Pi as a Headless Device"][03] to complete the install.
@@ -686,6 +703,7 @@ Specifically, make sure to do at least the following:
 * Step 5: Configure the Raspberry Pi
 * Step 6: OS Updates
 * Step 7: Updating Firmware for Raspberry Pi
+
 
 ## Step 5: Adding WiFi to the Zero
 If you determined to have WiFi for your RPi Zero, it can be done.
@@ -746,6 +764,7 @@ In fact, if you did this on the SD Card earlier in Step 1,
 you could skip the USB Gadget stuff all together ...
 but then you wouldn't have learned about all of the RPi Zero's USB Gadgetry!
 
+
 ## Step 5A: Free Some Disk Space
 If you are using an 8GB SD card,
 you may be using close to 50% of the available space,
@@ -760,6 +779,7 @@ sudo apt-get clean
 sudo apt-get autoremove
 ```
 
+
 ## Step 6: Zero Battery Supply (Optional)
 The size and power consumption of the Raspberry Pi Zero makes it possible to create battery powered
 solutions like a small stealthy spycam applications.
@@ -770,6 +790,7 @@ It has built-in load-sharing battery charger circuit.
 So it will automatically switch over to the USB power when available,
 instead of continuously charging/draining the battery,
 making it a Uninterruptible Power Supply (UPS).
+
 
 ## Step 7A: Battery Power Monitoring (Optional)
 If you're running off of a battery, your going to want to know when its running dry,
@@ -796,7 +817,9 @@ The following articles could be helpful:
 * [Adafruit INA219 Current Sensor Breakout](https://learn.adafruit.com/adafruit-ina219-current-sensor-breakout)
 * [Battery Life & Current Consumption](https://learn.adafruit.com/low-power-wifi-datalogging/battery-life-and-current-consumption)
 
+
 ## Step 7B: Battery Supply + Power Monitoring (UPS)
+
 * [LiFePO4wered/Pi3 Product Brief](https://lifepo4wered.com/files/LiFePO4wered-Pi3-Product-Brief.pdf)
 * [The PiWatcher](https://www.omzlo.com/articles/the-piwatcher)
 * [A Super UPS For The Pi](https://hackaday.com/2020/11/05/a-super-ups-for-the-pi/)
@@ -824,7 +847,7 @@ and automatically be started again after the wake timer expires.
 
 The LiFePO4wered/Pi works fine for the Raspberry Pi Zero and 1,
 but it could have difficulty maintaining a charge for a RPi 2 or 3 under load.
-The  latest version, the [LiFePO4wered/18650][89], can hand these heavy load conditions.
+The  latest version, the [LiFePO4wered/18650][89], can hand these heavy load conditions.  <-- NOW DISCONTINUED, as of January 2024
 You can even get a case with room for the RPi3 and the LiFePO4wered/Pi [on Tindie][90].
 **Note:** Adafruit has a similar solution to the LiFePO4wered/Pi
 doing a [hack of its PowerBoost 500 Charger][25].
@@ -889,6 +912,7 @@ lifepo4wered-cli set wake_time 60
 lifepo4wered­cli set auto_boot 1
 ```
 
+
 ## Shutdown Button
 The Raspberry Pi Zero features two pin holes,
 labeled RUN on the board along side the bank of GPIO pins.
@@ -934,7 +958,6 @@ any of the [Rev 2 RPis][121].
 [12]:https://learn.adafruit.com/bonjour-zeroconf-networking-for-windows-and-linux/overview
 [13]:http://www.zeroconf.org/
 [14]:http://linux-hotplug.sourceforge.net/?selected=net
-[15]:http://www.avahi.org/
 [16]:http://www.practicallynetworked.com/sharing/configure_and_use_avahi_and_linux.htm
 [17]:http://www.multicastdns.org/
 [18]:https://en.wikipedia.org/wiki/.local
