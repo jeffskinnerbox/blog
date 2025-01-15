@@ -2568,6 +2568,10 @@ All processing is performed locally on your own hardware, and your camera feeds 
 * [Frigate NVR with Docker and Home Assistant](https://www.mostlychris.com/frigate-nvr-with-docker-and-home-assistant/?ref=mostlychris-newsletter)
 * [Frigate NVR in Home Assistant for Automation and Notifications based on Object Detection](https://www.youtube.com/watch?v=43E5bxuaVj4)
 
+## Frigate GPU
+* [Raspberry Pi 5 with Hailo-8 AI Acceleration Module](https://www.seeedstudio.com/reComputer-AI-R2130-12-p-6368.html)
+    * [Hailo-8 M.2 AI Acceleration Module](https://hailo.ai/products/ai-accelerators/hailo-8-m2-ai-acceleration-module/#hailo8-m2-overview)
+
 
 # Scrypted
 
