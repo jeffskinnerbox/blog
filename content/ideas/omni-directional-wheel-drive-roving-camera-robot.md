@@ -35,3 +35,9 @@ Version:      0.0.0
 * [Qw/ST Pad (I2C Game Controller)](https://shop.pimoroni.com/products/qwst-pad?variant=53514400596347)
 * [An Arduino-Based RC Transmitter Built to Control Robots](https://www.hackster.io/news/an-arduino-based-rc-transmitter-built-to-control-robots-c97079de2daa)
 
+
+# Hub Motor Design
+
+* [ESP32-based Waveshare DDSM Driver HAT (B) for Raspberry Pi supports DDSM400 hub motors](https://www.cnx-software.com/2025/01/15/esp32-based-waveshare-ddsm-driver-hat-b-for-raspberry-pi-supports-ddsm400-hub-motors/)
+    * [Waveshape DDSM400 Direct Drive Servo Motor](https://www.waveshare.com/ddsm400.htm)
+    * [Direct Drive Servo Motor Driver Board](https://www.waveshare.com/product/ddsm-driver-hat-b.htm)
