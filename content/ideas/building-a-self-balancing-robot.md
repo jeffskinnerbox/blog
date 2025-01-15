@@ -123,6 +123,12 @@ making Dimebots some of the smallest robots in the world.
 * [Little Quadruped Has PCB Spine And No Wiring](https://hackaday.com/2024/10/29/little-quadruped-has-pcb-spine-and-no-wiring/)
 
 
+# Wheeled Walking Robot
+
+* [This Robot Glides Like an Ice Skater](https://www.youtube.com/watch?v=WIU8gnqQJJM)
+    * [Impulse](https://www.aaedmusa.com/projects/impulse)
+
+
 # Pet Robot
 
 * [3D Printed Robot Wants To Be Your Pet](https://hackaday.com/2023/09/21/3d-printed-robot-wants-to-be-your-pet/)
@@ -347,6 +353,11 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
 
 * [An Interesting Circular Stewart Platform](https://hackaday.com/2022/06/10/an-interesting-circular-stewart-platform/)
 * [Stewart Platform Keeps Its Eye on the Ball](https://hackaday.com/2023/01/04/stewart-platform-keeps-its-eye-on-the-ball/)
+
+
+#### Better Ball Balancer
+
+* [Ball Balancer](https://www.aaedmusa.com/projects/project-three-sng7y-gaslp)
 
 
 ---------------
