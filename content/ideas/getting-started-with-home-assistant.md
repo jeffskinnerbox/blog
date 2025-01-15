@@ -2474,7 +2474,7 @@ The Sonoff device is administered by the [eWeLink phone app][48].
 
 ## Shelly
 
-* <https://www.thesmarthomehookup.com/?s=shelly>
+* [The Hookup](https://www.thesmarthomehookup.com/?s=shelly)
 * [Shelly 1 Switch Tricks - True 3-Way, Long Press Actions, 2 switches, Automations w/ Tasmota Firmware](https://www.youtube.com/watch?v=mSENAY9_AlI)
 * [Smart Home Dimming with The Shelly Dimmer 2](https://hometechhacker.com/smart-home-dimming-with-the-shelly-dimmer-2/)
 * [Shelly Plus 1 Review: Better Than the Original?](https://hometechhacker.com/shelly-plus-1-review-better-than-the-original/)
@@ -2485,6 +2485,8 @@ The Sonoff device is administered by the [eWeLink phone app][48].
 * [A Smart Home Powered With Shelly Products](https://hometechhacker.com/a-smarthome-powered-with-shelly-products/)
 * [10 DIY Shelly Relay Projects You Should Try](https://hometechhacker.com/10-diy-shelly-relay-projects-you-should-try/)
 * [Mastering Shelly Products with Home Assistant: A Comprehensive Guide](https://hometechhacker.com/mastering-shelly-products-with-home-assistant-a-comprehensive-guide/)
+
+* [Shelly’s Gen 4 smart home devices take a different approach](https://www.pcworld.com/article/2573604/shellys-gen-4-smart-home-devices-take-a-different-approach.html)
 
 
 ## Shelly Alternative
