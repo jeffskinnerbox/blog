@@ -249,6 +249,16 @@ working with built-in data types, processing iterables of data, handling input a
 * [Asterisks in Python: what they are and how to use them](https://treyhunner.com/2018/10/asterisks-in-python-what-they-are-and-how-to-use-them/)
 
 
+## List & Dictionary Comprehension in Python
+List  & dictionary comprehension is a way to create these object using a concise syntax.
+It allows us to generate a new list/dictionaries by applying an expression to each item in an existing iterable (such as a list or range).
+This helps us to write cleaner, more readable code compared to traditional looping techniques.
+
+* [List Comprehension in Python](https://www.geeksforgeeks.org/python-list-comprehension/)
+* [Python Dictionary Comprehension](https://www.geeksforgeeks.org/python-dictionary-comprehension/)
+* [Building Dictionary Comprehensions in Python](https://realpython.com/courses/building-dictionary-comprehensions/)
+
+
 ---------------
 
 
