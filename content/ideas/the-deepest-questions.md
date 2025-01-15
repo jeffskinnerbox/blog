@@ -259,7 +259,7 @@ Also see some [quotes from John von Neumann][08] and [Paul Dirac's lecture on ma
 * [On the Usefulness of Mathematics: Feynman vs Dyson](https://www.cantorsparadise.com/on-the-usefulness-of-mathematics-feynman-vs-dyson-9f750e7c53e1)
 
 
-# Precision
+# How do You Make Precision Tools Without Using Precision Tools?
 
 [Joseph Whitworth](https://en.wikipedia.org/wiki/Joseph_Whitworth)
 popularised a method of producing accurate flat surfaces during the 1830s,
@@ -274,6 +274,9 @@ BBC Precision The Measure of All Things
 * [The Science Of Flatness](https://www.youtube.com/watch?v=OWa3F4bKJsE)
 * [The Science Of Roundness](https://www.youtube.com/watch?v=NjbvOTUSqdI)
 * [Retrotechtacular: The Tools And Dies That Made Mass Production Possible](https://hackaday.com/2024/07/03/retrotechtacular-the-tools-and-dies-which-made-mass-production-possible/)
+
+* [The Precision Upon Which Civilizations Are Built](https://hackaday.com/2018/01/23/the-precision-upon-which-civilizations-are-built/)
+
 
 ---------------
 
