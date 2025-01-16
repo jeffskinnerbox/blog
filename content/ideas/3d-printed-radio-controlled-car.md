@@ -19,6 +19,12 @@ Version:      0.0.0
 
 
 
+* [EdgeX 1/10 3D Printed Car Chassis Kit](https://cults3d.com/en/3d-model/game/edgex-1-10-3d-printed-car-chassis-kit-rabros)
+
+
+
+
+
 # Playcar
 
 * [An RC Car that's easy to build & fun to play with](https://comfyspace.tech/build/playcar/)
