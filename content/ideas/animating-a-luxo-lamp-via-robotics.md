@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -132,15 +132,19 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 
 
 #### Simple, Biologically Inspired Robots
-BEAM robotics (from biology, electronics, aesthetics and mechanics)
+BEAM robotics (from biology, electronics, aesthetics, and mechanics)
 is a style of robotics that primarily uses simple analogue circuits, such as comparators,
 instead of a microprocessor in order to produce an unusually simple design.
 
+* [What is a BEAM robot? lets build one](https://www.youtube.com/watch?v=j0loKgLs7fk)
 * [BEAM Robots](http://www.smfr.org/robots/)
 * [BEAM From the Ground Up](http://solarbotics.net/bftgu/default.htm)
 * [LIVING ROBOTS: REVISITING BEAM](https://hackaday.com/2021/05/29/living-robots-revisiting-beam/)
 * [Tiny BEAM Robot Smiles Big at the Sun](https://hackaday.com/2021/09/25/tiny-beam-robot-smiles-big-at-the-sun/)
 * [Light-Tracking BEAM Robot Head](https://www.instructables.com/Light-Tracking-BEAM-Robot-Head/)
+    * [How I made a solar-powered robot from old fashioned parts](https://hackspace.raspberrypi.com/articles/how-i-made-a-solar-powered-robot-from-old-fashioned-parts)
+* [A Modern Musical Take on BEAM Robotics](https://www.hackster.io/news/a-modern-musical-take-on-beam-robotics-22f4a10e62db)
+* [Beam Bot - Photopopper V2](https://www.youtube.com/watch?v=3RKTKfLhuPE)
 
 
 #### Other
