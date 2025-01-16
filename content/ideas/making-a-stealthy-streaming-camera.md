@@ -40,6 +40,11 @@ Version:      0.0.0
 
 
 
+# Stereoscopic Streaming Camera
+
+* [This genius made a stereoscopic streaming camera with a Raspberry Pi 5, and so can you](https://www.xda-developers.com/stereoscopic-streaming-camera-raspberry-pi-5/)
+
+
 # How Do CMOS Sensors Work
 
 * [Dawn of the First Digital Camera](https://hackaday.com/2018/08/13/dawn-of-the-first-digital-camera/)
