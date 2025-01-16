@@ -14,8 +14,6 @@ Version:      0.0.0
 
 * [WisBlock Meshtastic Starter Kit](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit?variant=43683420438726)
 
-* [Raspberry Pi powers this Meshtastic network BBS](https://www.tomshardware.com/raspberry-pi/raspberry-pi-powers-this-meshtastic-network-bbs)
-
 
 * [Meshtastic Native on the Raspberry Pi](https://www.youtube.com/watch?v=6UwWQSTCr_I)
     * [SX1262 LoRaWAN Node Module Expansion Board for Raspberry Pi](https://www.waveshare.com/sx1262-lorawan-hat.htm)
@@ -61,6 +59,12 @@ Reticulum is the cryptography-based networking stack for building local and wide
 * [LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU&feature=youtu.be)
 
 * [Garden Light Turned Mesh Network Node](https://hackaday.com/2024/01/21/garden-light-turned-mesh-network-node/)
+
+
+# Meshtastic Bulletin Board System (BBS)
+
+* [Raspberry Pi powers this Meshtastic network BBS](https://www.tomshardware.com/raspberry-pi/raspberry-pi-powers-this-meshtastic-network-bbs)
+* [Nick Farrow Uses a Raspberry Pi to Launch a Text-Based Meshtastic Bulletin Board System](https://www.hackster.io/news/nick-farrow-uses-a-raspberry-pi-to-launch-a-text-based-meshtastic-bulletin-board-system-b026e370390e)
 
 
 # Meshtastic Relay
