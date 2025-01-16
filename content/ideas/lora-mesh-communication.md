@@ -14,6 +14,8 @@ Version:      0.0.0
 
 * [WisBlock Meshtastic Starter Kit](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit?variant=43683420438726)
 
+* [Raspberry Pi powers this Meshtastic network BBS](https://www.tomshardware.com/raspberry-pi/raspberry-pi-powers-this-meshtastic-network-bbs)
+
 
 * [Meshtastic Native on the Raspberry Pi](https://www.youtube.com/watch?v=6UwWQSTCr_I)
     * [SX1262 LoRaWAN Node Module Expansion Board for Raspberry Pi](https://www.waveshare.com/sx1262-lorawan-hat.htm)
