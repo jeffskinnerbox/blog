@@ -147,6 +147,9 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 * [Organizing My Home Assistant Configuration Files](https://hometechhacker.com/organizing-my-home-assistant-configuration-files/)
 * [Share Your Home Assistant Configs on GitHub Automatically](https://www.youtube.com/watch?v=hhv-WqGUy_o)
 
+* [Finally! Serious Backups for Home Assistant](https://www.mostlychris.com/finally-serious-backups-for-home-assistant/)
+* [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
+
 
 # Nice New Features
 
