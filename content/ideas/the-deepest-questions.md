@@ -352,6 +352,7 @@ from a probability distribution from which direct sampling is difficult.
 Through the use of random processes, this algorithm offers an efficient way to
 stumble toward answers to problems that are too complicated to solve exactly.
 
+* [How Randomness Powers Physics & AI](https://www.youtube.com/watch?v=qsHkZI_Bf-s)
 * [The algorithm that (eventually) revolutionized statistics](https://www.youtube.com/watch?v=Jr1GdNI3Vfo)
 * [A Simple Solution for Really Hard Problems: Monte Carlo Simulation](https://www.youtube.com/watch?v=slbZ-SLpIgg)
 
