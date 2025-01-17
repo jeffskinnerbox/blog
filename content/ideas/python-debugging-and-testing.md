@@ -180,6 +180,7 @@ $ - Ending of an expression
 * [Working with Regular Expressions Using Python](https://www.opensourceforu.com/2025/01/working-with-regular-expressions-using-python/)
 * [Python RegEx](https://www.w3schools.com/python/python_regex.asp)
 * [Python RegEx](https://www.geeksforgeeks.org/regular-expression-python-examples/)
+* [10 Python Regular Expression Tricks You Need to Master](https://levelup.gitconnected.com/10-python-regular-expression-tricks-you-need-to-master-7ba83104cf1c)
 
 
 ---------------
