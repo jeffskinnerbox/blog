@@ -36,6 +36,32 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 
 
 
+---------------
+
+
+# Brandmeister Network
+The Brandmeister network is very large and popular DMR (digital mobile radio) ham network.
+You don’t need a license nor will you need to sign up for anything as long as you are content to just listen.
+Here’s how it works: Brandmeister operates a large number of servers worldwide
+that communicate with each other and provide calling services, including group calls.
+So, if we set up a talk group, interested people could connect to that talk group and have a conversation.
+
+The trick is how people get to talk to these networks. In general, there are three ways:
+
+1. The classic way is to use a digital radio to talk to a repeater that is connected to the network.
+The repeater may have one or more talk groups on all the time, or you might request access to one.
+2. Another way to connect your radio to a “hotspot” connected to the Internet.
+That is, more or less, a special form of repeater that is very low power,
+and you have complete control over it compared to a repeater on some faraway hill.
+3. If you don’t mind operating using just a computer, you don’t need a radio at all.
+You simply talk directly to the nearest server, and you are on the network
+Some of your audio will go to other computers,
+and it may go over the airwaves via someone else’s hotspot or repeater.
+
+* [No Ham License? Listen Anyway In Your Browser](https://hackaday.com/2025/01/15/no-ham-license-listen-anyway-in-your-browser/)
+
+
+---------------
 
 
 
@@ -474,7 +500,13 @@ However there are still some things you can listen to:
 
 
 
-# SDR Ham
+# Ham Software Defined Radio (SDR)
+
+
+## SDR Without the Hardware
+
+* [Virtual Software Defined Radio](https://hackaday.com/2020/08/07/virtual-software-defined-radio/#more-425787)
+* [Using Software Defined Radio Without SDR Hardware - WebSDR](https://www.youtube.com/watch?v=zfO5JeSe-dE)
 
 
 ## P25 Police Scanner via SDR

@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -26,6 +26,7 @@ Version:      0.0.0
 HF
 Digital Mode
 
+
 # Baofeng UV-5R+ 136-174 400-480 MHz FM Transceiver
 This is an inexpensive Chinese hand held 5 watt radio,
 capable of transmitting and receiving on the 2-meter and 70-cm bands.
@@ -36,13 +37,19 @@ Some examples of this are:
 * [Baofeng UV-5R Review and Set-Up](https://www.youtube.com/watch?v=56PvtAqacz8)
 * [Is Transmitting On FRS, GMRS & MURS With Ham Radios (Baofeng) Legal?](https://www.youtube.com/watch?app=desktop&v=Fb7w_TDpmtw)
 
+
 # Digital Mode
+
 * [Digirig Mobile](https://digirig.net/getting-started-with-digirig-mobile/)
 
+
 # Packet Radio
+
 * [Direwolf](https://packet-radio.net/direwolf/)
 
+
 # GMRS Radio
+
 * [How To Program A GMRS Radio To Use A Repeater - GMRS Repeater Channel Programming For GMRS Radios](https://www.youtube.com/watch?v=kEyBqTJIkY4)
     * [myGMRS.com - General Mobile Radio Service repeater directory and online community](https://mygmrs.com/)
 
