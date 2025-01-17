@@ -168,6 +168,18 @@ TV programs from 1978 ...
 * [Youtube search](https://www.youtube.com/results?search_query=tv+from+1978)
 
 
+## Using TV Tuner
+You can take several routes to get a Raspberry Pi to receive and stream over-the-air channels
+or cable subscription.
+All you nedd are the following:
+
+* Raspberry Pi (preferably a 4B or 5 with at least 4GB of RAM), Raspberry Pi OS, and Internet access
+* A USB TV tuner or Raspberry Pi TV HAT compatible with the broadcast standard in your region (e.g., DVB-T/T2 for Europe, ATSC for North America)
+* Antenna appropriate for your broadcast standard
+
+* [5 ways to watch live TV using Raspberry Pi and TV tuner hardware](https://www.xda-developers.com/ways-watch-live-tv-raspberry-pi-tv-tuner-hardware/)
+
+
 ### Streaming Video & Audio - ESP32 TV
 
 * [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
