@@ -51,6 +51,34 @@ Version:      0.0.0
     * [Run Gemma2 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15783.html?tracking=676d0b674d873)
 
 
+# RAG
+Retrieval Augmented Generation (RAG) is the de facto technique for giving LLMs the ability to interact with any document or dataset, regardless of its size.
+
+* [RAG from the Ground Up with Python and Ollama](https://www.youtube.com/watch?v=V1Mz8gMBDMo)
+
+
+# MSTY
+Msty is a desktop application that lets you do several things.
+First, it can let you chat with an AI engine either locally or remotely.
+It knows about many popular options and can take your keys for paid services.
+For local options, it can download, install, and run the engines of your choice.
+For services or engines that it doesn’t know about, you can do your own setup,
+which ranges from easy to moderately difficult, depending on what you are trying to do.
+
+* [This may be my favorite simple Ollama GUI](https://www.youtube.com/watch?v=cdAb5CigAgQ)
+* [How to Set Up MSTY LLM Locally: A Step-by-Step Guide](https://thedatascientist.com/how-to-set-up-msty-llm-locally-step-by-step/)
+* [Running AI Locally Without Spending All Day On Setup](https://hackaday.com/2025/01/08/running-ai-locally-without-spending-all-day-on-setup/)
+
+
+# Open WebUI
+Open WebUI is an extensible, self-hosted AI interface that adapts to your workflow, all while operating entirely offline.
+It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG, making it a powerful AI deployment solution.
+
+Open WebUI can be bundled with Ollama and deployed via Docker.
+
+* [Open WebUI](https://openwebui.com/)
+
+
 # MobileNet
 
 * [Deploying MobileNet on Microcontrollers](https://www.hackster.io/news/deploying-mobilenet-on-microcontrollers-31f2623ab383)
