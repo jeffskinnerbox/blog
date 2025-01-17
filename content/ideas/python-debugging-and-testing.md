@@ -154,6 +154,37 @@ Manhole is in-process service that will accept unix domain socket connections an
 ---------------
 
 
+# Regular Expressions Using Python
+A regex is a special sequence of characters that is used to extract part of a string, or detect a particular string pattern.
+Regular expressions have become an integral part of natural language processing (NLP) and are very useful in the fields of text processing, information extraction and more.
+
+There are some special characters in the field of regular expressions,
+which help us perform different tasks.
+These are:
+
+```text
+\ - drop special meaning of char
+[] - represents a character class/set of characters
+^ - Beginning of an expression
+$ - Ending of an expression
+. - Any character except the new line character (‘\n’)
+| - Means OR - Matches with characters that are separated by it
+? - Matches zero or One occurrence (Verifies whether the given character is there or not)
+* - If the given character occurred zero or more times
++ - If the given character occurred one or more times
+{}- The number occurrences of a preceding regex needed to match
+()- Used to enclose a group of Regex
+\ - To remove the special values of these characters
+```
+
+* [Working with Regular Expressions Using Python](https://www.opensourceforu.com/2025/01/working-with-regular-expressions-using-python/)
+* [Python RegEx](https://www.w3schools.com/python/python_regex.asp)
+* [Python RegEx](https://www.geeksforgeeks.org/regular-expression-python-examples/)
+
+
+---------------
+
+
 # Python Concurrency
 
 * [Deep Dive into Multithreading, Multiprocessing, and Asyncio](https://towardsdatascience.com/deep-dive-into-multithreading-multiprocessing-and-asyncio-94fdbe0c91f0)
