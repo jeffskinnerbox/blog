@@ -2179,11 +2179,20 @@ See - /home/jeff/src/vagrant-machines/homeassistant/README.md
 * [5 Home Assistant Built-In Integrations You Probably Should be Using](https://www.youtube.com/watch?v=QZB_o62AuV0)
 * [Top 11 Add-ons & Integrations for Home Assistant | Getting Started or Starting Over](https://www.youtube.com/watch?v=T0iX9_Yn-70)
 
+
 ## Cheap Room Temperature/Humidity LCD Sensors
 * [Custom firmware on cheap Chinese Bluetooth LCD temperature - humidity sensors for Home Assistant](https://www.youtube.com/watch?v=AD2KduDTjf8)
     * [BTHome](https://bthome.io/)
     * [BTHome THB1, THB2, THB3, BTH01, TH05 (HW: v1.3..1.6), TH05F](https://github.com/MakersFunDuck/humidity-temperature-sensor-TH05F)
     * [Enable Bluetooth Sensors for Home Automation: Bluetooth Proxy and Home Assistant (incl. Bermuda)](https://www.youtube.com/watch?v=yX_VqZ1NUa8)
+
+
+## Bluetooth Proxy
+* [Set up a Bluetooth proxy with ESP32 in Home Assistant](https://www.youtube.com/watch?v=pFXalO-JLHU)
+
+
+## SensorNode
+* [SensorNode - The Easy Way to Add Sensors to Home Assistant](https://www.youtube.com/watch?v=gVOg_U6mjH0)
 
 
 # Remote Home-Assistant
