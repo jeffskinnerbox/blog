@@ -7,7 +7,9 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+
 ---------------
+
 
 * [Python 10 minutes a day](https://python-10-minutes-a-day.rocks/)
 * [Real Python Learning Paths](https://realpython.com/learning-paths/)
@@ -19,6 +21,7 @@ Version:      0.0.0
 
 
 # Python Development Environment / Dev Containerized Environment
+
 If you have more than one Python project,
 your going to want to setup separate development environments.
 The very act of setting up these environments and maintaining them can be laborious,
@@ -53,6 +56,7 @@ A good remedy for this can be containerization of your Python development enviro
 * [Devcontainer support for Neovim](https://www.ensarsarajcic.com/blog/nvim-dev-container-intro/)
     * [Codeberg: esensar/nvim-dev-container](https://codeberg.org/esensar/nvim-dev-container)
 * [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
+
 
 ---------------
 
@@ -119,6 +123,7 @@ A good remedy for this can be containerization of your Python development enviro
 
 
 # Manhole
+
 Manhole is in-process service that will accept unix domain socket connections and present the stacktraces for all threads and an interactive prompt. It can either work as a python daemon thread waiting for connections at all times or a signal handler (stopping your application and waiting for a connection).
 
 * [Manhole](https://pypi.org/project/manhole/)
@@ -155,6 +160,7 @@ Manhole is in-process service that will accept unix domain socket connections an
 
 
 # Regular Expressions Using Python
+
 A regex is a special sequence of characters that is used to extract part of a string, or detect a particular string pattern.
 Regular expressions have become an integral part of natural language processing (NLP) and are very useful in the fields of text processing, information extraction and more.
 
@@ -181,6 +187,7 @@ $ - Ending of an expression
 * [Python RegEx](https://www.w3schools.com/python/python_regex.asp)
 * [Python RegEx](https://www.geeksforgeeks.org/regular-expression-python-examples/)
 * [10 Python Regular Expression Tricks You Need to Master](https://levelup.gitconnected.com/10-python-regular-expression-tricks-you-need-to-master-7ba83104cf1c)
+* [How to Replace a String in Python](https://realpython.com/replace-string-python/)
 
 
 ---------------
@@ -208,6 +215,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 
 
 ## Python's Built-in Functions
+
 Python has many built-in functions that you can use directly without importing anything.
 These functions cover a wide variety of common programming tasks that include performing math operations,
 working with built-in data types, processing iterables of data, handling input and output in your programs, working with scopes, and more.
@@ -249,6 +257,8 @@ working with built-in data types, processing iterables of data, handling input a
 * Sets
     * [Using Sets in Python](https://realpython.com/courses/sets-python/)
 * Decorators
+* Enumerations
+    * [Building Enumerations With Python's enum](https://realpython.com/courses/python-enum/)
 * Pointers
     * [unique_ptr: C++'s simplest smart pointer](https://www.youtube.com/watch?v=AmjoK55h68Y)
 * Strings
@@ -292,6 +302,7 @@ working with built-in data types, processing iterables of data, handling input a
 
 
 ## List & Dictionary Comprehension in Python
+
 List  & dictionary comprehension is a way to create these object using a concise syntax.
 It allows us to generate a new list/dictionaries by applying an expression to each item in an existing iterable (such as a list or range).
 This helps us to write cleaner, more readable code compared to traditional looping techniques.
@@ -357,6 +368,7 @@ window = tk.Tk()
 
 * [What Is the **pycache** Folder in Python?](https://realpython.com/python-pycache/)
 
+
 ---------------
 
 
@@ -418,6 +430,7 @@ There are many Python static analysis tools to choose from, but these are most h
 
 * [Role of Underscore(\_) in Python Tutorial](https://www.datacamp.com/tutorial/role-underscore-python)
 
+
 ---------------
 
 
@@ -442,6 +455,7 @@ There are many Python static analysis tools to choose from, but these are most h
 
 
 # Build a Python Command-Line App
+
 Example programs that make heavy use of Python's commandline utilities.
 
 * [Build a Command-Line App with Python in 7 Easy Steps](https://www.kdnuggets.com/build-a-command-line-app-with-python-in-7-easy-steps)
@@ -456,7 +470,6 @@ Example programs that make heavy use of Python's commandline utilities.
 # Basic Input / Output
 
 * [Basic Input and Output in Python](https://realpython.com/python-input-output/)
-
 
 
 ---------------
