@@ -14,6 +14,10 @@ Version:      0.0.0
 
 
 
+
+
+
+
 * [Let's Build a Practical Home Lab for Learning and Experimentation](https://hackernoon.com/lets-build-a-practical-home-lab-for-learning-and-experimentation)
 
 
@@ -171,6 +175,12 @@ Sources:
 * [Building a Homelab VM Server (2020 Edition)](https://mtlynch.io/building-a-vm-homelab/)
 * [The Homelab Wiki](https://thehomelab.wiki/)
 * [Which Server Rack Is Suitable For A Home Lab?](https://robots.net/tech/which-server-rack-is-suitable-for-a-home-lab/)
+
+
+## Mini-Rack
+
+* [Project MINI RACK](https://mini-rack.jeffgeerling.com/)
+* [Project MINI RACK - a Homelab Revolution!]
 
 
 ## Components of a Homelab
