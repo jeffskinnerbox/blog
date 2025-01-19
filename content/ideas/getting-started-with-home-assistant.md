@@ -2180,6 +2180,11 @@ See - /home/jeff/src/vagrant-machines/homeassistant/README.md
 * [Top 11 Add-ons & Integrations for Home Assistant | Getting Started or Starting Over](https://www.youtube.com/watch?v=T0iX9_Yn-70)
 
 
+## Integration with Obsidian
+* [You were RIGHT! The Best Smart Home Combo for 2025](https://www.youtube.com/watch?v=BCMyjJVtANs)
+* [GPT TOOK OVER MY HOME - I learned why it's SCARY | | Chapter 4](https://www.youtube.com/watch?v=4ZxUsLnDjTA)
+
+
 ## Cheap Room Temperature/Humidity LCD Sensors
 * [Custom firmware on cheap Chinese Bluetooth LCD temperature - humidity sensors for Home Assistant](https://www.youtube.com/watch?v=AD2KduDTjf8)
     * [BTHome](https://bthome.io/)
