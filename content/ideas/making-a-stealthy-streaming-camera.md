@@ -40,6 +40,12 @@ Version:      0.0.0
 
 
 
+
+# Video Streaming in Micro Python
+
+* [Esp32 S3 Sense Video Streaming in Micro Python](https://www.instructables.com/Esp32-S3-Sense-Video-Streaming-in-Micro-Python/)
+
+
 # Stereoscopic Streaming Camera
 
 * [This genius made a stereoscopic streaming camera with a Raspberry Pi 5, and so can you](https://www.xda-developers.com/stereoscopic-streaming-camera-raspberry-pi-5/)
