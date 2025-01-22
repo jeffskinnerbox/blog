@@ -12,8 +12,6 @@ Version:      0.0.0
 ---------------
 
 
-
-
 * [Smith Chart Basics + VNA Paperclip Test](https://www.youtube.com/watch?v=lUkPjqOoJQU)
 * [DIY VNA CALIBRATION STANDARDS](https://jmw.name/projects/vna-standards/)
 
@@ -248,6 +246,10 @@ Transmission Coefficient
 Insertion Phase / Group Delay
 
 
+## Clip-On Ferrite Beads
+
+* [Evaluating Clip-On Ferrite Beads with your nanoVNA (075)](https://www.youtube.com/watch?v=DC8WcPjBVk0)
+
 
 
 Reviews
@@ -267,6 +269,8 @@ Reviews
 # NanoVNA V2 Vector Network Analyzer
 
 * [How to properly use a NanoVNA V2 Vector Network Analyzer & Smith Chart (Tutorial)]()
+
+
 
 
 
