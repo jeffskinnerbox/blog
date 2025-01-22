@@ -9,20 +9,26 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
+
+
+
+
+* [How to set up a reverse proxy for your self-hosted apps](https://www.xda-developers.com/how-to-set-up-a-reverse-proxy-for-your-self-hosted-apps/)
 
 
 
 ehCo91x6GESrVvTtckjzbECgHUdEXO74tlnvTj8Z
 
 **NOTE:** During setup testing, make sure:
+
 * "Always Use HTTPS" feature of Cloudflare is "off"
 * Proxied is turned off
 Once tested via HTTP is solid, setup Nginx links with SSL certs.
 Only then, turn on Proxied and "Always Use HTTPS"
 
 
-```
+```text
 Home Router
             |   Desktop                                                           |
             |            |  Docker Container |   Vagrant VM                       |
@@ -57,11 +63,12 @@ Home Router
 
 
 
------------
+---------------
 
 
 
 # Traefik Hub
+
 * [Traefik Hub: How to Publish and Secure Your Containers Instantly // Traefik Labs](https://www.youtube.com/watch?v=zUiRAMjn1lo)
 * [Control your home automation remotely with Raspberry Pi and Traefik Hub](https://opensource.com/article/22/9/home-automation-traefik-raspberry-pi)
 
@@ -98,18 +105,19 @@ We'll examine three well established reverse proxies here:
 
 
 
-----
+---------------
 
 
 
 # Secure Web Application Gateway (SWAG)
+
 * [Introducing SWAG - Secure Web Application Gateway](https://www.linuxserver.io/blog/2020-08-21-introducing-swag)
 * [SWAG setup](https://docs.linuxserver.io/general/swag)
 * [linuxserver/swag](https://github.com/linuxserver/docker-swag)
 
 
 
-----
+---------------
 
 
 
@@ -127,6 +135,7 @@ Why?
 * [Additional Self-Hosted Security with Authelia on NGINX Proxy Manager](https://www.youtube.com/watch?v=4UKOh3ssQSU)
 
 Nginx Proxy Server
+
 * [How To Install Nginx Proxy Manager in Docker on Ubuntu 20.04](https://smarthomepursuits.com/how-to-install-nginx-proxy-manager-in-docker/)
 * [What is Nginx | easy way](https://www.youtube.com/watch?v=WuH0T9FHDZ4)
 * [NGINX Linux Server | Common Configurations](https://www.youtube.com/watch?v=MP3Wm9dtHSQ)
@@ -137,23 +146,26 @@ Nginx Proxy Server
 * [create short local URLs for your internal self-hosted services](https://www.youtube.com/watch?v=6aaSjwJhOog)
 * [Secure Your Self Hosting with Fail2Ban + Nginx Proxy Manager + CloudFlare](https://www.youtube.com/watch?v=Ha8NIAOsNvo)
 
+
 ## See ~/src/docker-containers/nginx-proxy-mgr
 
 
-----
+---------------
 
 
 
 # HAProxy
+
 * [How To Setup ACME, Let's Encrypt, and HAProxy HTTPS offloading on pfsense](https://www.youtube.com/watch?v=gVOEdt-BHDY)
 * [HAProxy Crash Course (TLS 1.3, HTTPS, HTTP/2 and more)](https://www.youtube.com/watch?v=qYnA2DFEELw)
 
 
-----
+---------------
 
 
 
 # Traefik
+
 * [Funky Penguin's Geek Cookbook: Traefik](https://geek-cookbook.funkypenguin.co.nz/docker-swarm/traefik/)
 
 * [How to Install and Setup Traefik with CloudFlare Using Your Own Domain](https://www.youtube.com/watch?v=b83S_N1kkJM)
@@ -167,23 +179,25 @@ Nginx Proxy Server
 * [Traefik v2.6+ | How to Install and Why You Should (plus Authelia, Traefik Pilot)](https://www.youtube.com/watch?v=pU7JvIrthxg)
     * [Traefik v2.6+](https://docs.ibracorp.io/traefik/)
 
+
 ## CrowdSec
+
 * [CrowdSec](https://www.crowdsec.net/)
 * [Blocking Malicious Connections With CrowdSec and SWAG](https://www.linuxserver.io/blog/blocking-malicious-connections-with-crowdsec-and-swag)
 * [Taking a look at CrowdSec: Installation & Example Scenario](https://www.youtube.com/watch?v=QK-Fkg-88rU)
 * [Boosting your Linux Server Security with CrowdSec](https://www.youtube.com/watch?v=WXHQY90Ms-g)
 * [Open Source & Collaborative Security with CrowdSec and Traefik - CrowdSec & Traefik Tutorial](https://www.youtube.com/watch?v=-GxUP6bNxF0)
 * [CrowdSec: Open Source Collaborative Community Security](https://www.youtube.com/watch?v=2Ec-FYmK4zg)
-* []()
 
 
 
-----
+---------------
 
 
 
 
 Nginx Proxy Server
+
 * [What is Nginx | easy way](https://www.youtube.com/watch?v=WuH0T9FHDZ4)
 * [NGINX Linux Server | Common Configurations](https://www.youtube.com/watch?v=MP3Wm9dtHSQ)
 * [Nginx Proxy Manager - How-To Installation and Configuration](https://www.youtube.com/watch?v=P3imFC7GSr0)
@@ -193,10 +207,12 @@ Nginx Proxy Server
 * [create short local URLs for your internal self-hosted services](https://www.youtube.com/watch?v=6aaSjwJhOog)
 
 Sources:
+
 * [Let's Install: Nginx Proxy Manager](https://www.youtube.com/watch?v=qXSrp_Q2pRY)
 * [Nginx Proxy Manager is a free, open source, GUI for the Nginx Reverse Proxy making it easy to use](https://www.youtube.com/watch?v=RBVcnxTiIL0)
 
 Nginx Proxy Server
+
 * [What is Nginx | easy way](https://www.youtube.com/watch?v=WuH0T9FHDZ4)
 * [NGINX Linux Server | Common Configurations](https://www.youtube.com/watch?v=MP3Wm9dtHSQ)
 * [Nginx Proxy Manager - How-To Installation and Configuration](https://www.youtube.com/watch?v=P3imFC7GSr0)
@@ -212,6 +228,7 @@ Nginx Proxy Server
 
 
 # Nginx Access Lists
+
 * [Nginx Proxy Manager - ACCESS LIST protection for internal services](https://www.youtube.com/watch?v=G9voYZejH48)
 
 
@@ -220,24 +237,24 @@ Nginx Proxy Server
 
 
 ### Step X: Securing NGinX Proxy Manager
+
 * [Securing NGinX Proxy Manager - follow up - securing your admin console for this Open Source Software](https://www.youtube.com/watch?v=UfCkwlPIozw)
 * [How To Harden OpenSSH Client on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-harden-openssh-client-on-ubuntu-20-04)
 
 
 #### Step X: Securing Your Containerized Applications with NGINX
 
+
 # Securing Your Connections
+
 * [What is DNS over TLS? Everything you need to know](https://www.thesslstore.com/blog/what-is-dns-over-tls/)
 * [What is HTTP Strict Transport Security (HSTS)?](https://www.thesslstore.com/blog/what-is-hypertext-strict-transport-security-hsts/)
 * [DNSSEC](https://support.dnsimple.com/articles/dnssec/)
 
 
 
-----
 
-
-
-----
+---------------
 
 
 
@@ -251,22 +268,31 @@ Using CloudFlare Tunnels allows us to create an encrypted connection between you
 * [Access Your Self Hosted Services WITHOUT Port Forwarding](https://www.youtube.com/watch?v=VrV0udRUi8A)
 * [Cloudflare Tunnel: Creating Tunnels via GUI - Bypass CG-NAT](https://www.youtube.com/watch?v=RUJy9fjoiy4)
 
+
 # Common Error: 502 Bad Gateway openresty
-This error happens when the reverse proxy can’t connect to the destination host, or doesn’t get a response. Most likely, in docker setups, the containers are not on the same network, or the destination is not correct. Make sure you’re accessing the correct IP/hostname and the NGINX proxy manager can reach this target.
+This error happens when the reverse proxy can’t connect to the destination host, or doesn’t get a response.
+Most likely, in docker setups, the containers are not on the same network, or the destination is not correct.
+Make sure you’re accessing the correct IP/hostname and the NGINX proxy manager can reach this target.
 
 * [What is a 502 Bad Gateway Error (And How Can I Fix It)?](https://www.howtogeek.com/356389/what-is-a-502-bad-gateway-error-and-how-can-i-fix-it/#autotoc_anchor_7)
 * [NGINX Proxy Manager – How-To Installation and Configuration](https://www.the-digital-life.com/nginx-proxy-manager/)
 * [How To Fix A 502 Bad Gateway Cloudflare Error (Fast)](https://webpop.io/cloudflare/502-bad-gateway-error/#How-to-Fix-a-502-Bad-Gateway-Cloudflare-Error)
 
+
 # Setting Up Your DNS on Cloudflare
+
 * [Cloudflare: A Complete Guide, Features & Walkthrough (2021)](https://www.youtube.com/watch?v=BlhbsHrmcDc&t=739s)
 * [How to Transfer a Domain from GoDaddy to Cloudflare (Use Cloudflare as Your Domain Registrar!)](https://www.youtube.com/watch?v=81LtL2ZvD38)
 * [How to set up DNS records for your domain in Cloudflare account](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-cloudflare-account/)
 
+
 # Installing NGINX Proxy Manager While Using CloudFlare DNS
+
 * [Secure Your Domain with NGINX Proxy Manager and CloudFlare (Including Uptime Kuma Demonstration)](https://www.youtube.com/watch?v=rj7DZdWMK2k)
 
+
 # Setting Up Let's Encript SSL Certs on Nginx Proxy Manager
+
 * [Self Hosting on your Home Server - Cloudflare + Nginx Proxy Manager - Easy SSL Setup](https://www.youtube.com/watch?v=GarMdDTAZJo)
 * [NGINX Proxy Manager – How-To Installation and Configuration](https://www.the-digital-life.com/nginx-proxy-manager/)
 * [Nginx Proxy Manager - SSL Wildcard Certs for your entire domain](https://www.youtube.com/watch?v=TBGOJA27m_0)
@@ -275,16 +301,8 @@ This error happens when the reverse proxy can’t connect to the destination hos
 
 
 
-----
 
-
-
-----
-
-
-
-
-----
+---------------
 
 
 
@@ -298,10 +316,13 @@ and select "Settings" at the bottom of the page.
 * [Anatomy of a Linux DNS Lookup – Part IV](https://zwischenzugs.com/2018/08/06/anatomy-of-a-linux-dns-lookup-part-iv/)
 * [Anatomy of a Linux DNS Lookup – Part V – Two Debug Nightmares](https://zwischenzugs.com/2018/09/13/anatomy-of-a-linux-dns-lookup-part-v-two-debug-nightmares/)
 
+
 ### dig
 To get DNS speed and IP adderss, use:
+
 * `dig @princess.ns.cloudflare.com google.com`
 * `dig @darwin.ns.cloudflare.com hub.tutsplus.com`
+
 
 ### nslookup
 `nslookup` examples
@@ -309,25 +330,25 @@ To get DNS speed and IP adderss, use:
 ```bash
 # find the domain name from its ip addess
 $ nslookup 162.159.38.17
-17.38.159.162.in-addr.arpa	name = princess.ns.cloudflare.com.
+17.38.159.162.in-addr.arpa name = princess.ns.cloudflare.com.
 
 # find the ip address from the domain name
 $ nslookup princess.ns.cloudflare.com
-Server:		127.0.0.53
-Address:	127.0.0.53#53
+Server:  127.0.0.53
+Address: 127.0.0.53#53
 
 Non-authoritative answer:
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 162.159.38.17
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 108.162.194.17
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 172.64.34.17
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 2a06:98c1:50::ac40:2211
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 2803:f800:50::6ca2:c211
-Name:	princess.ns.cloudflare.com
+Name: princess.ns.cloudflare.com
 Address: 2606:4700:50::a29f:2611
 ```
 
@@ -344,33 +365,33 @@ and `nslookup` will respond back with the name of the authoritative name server.
 ```bash
 # get soa record so you can get an authoritative response
 $ nslookup -type=soa jeffskinnerbox.me
-Server:		127.0.0.53
-Address:	127.0.0.53#53
+Server:  127.0.0.53
+Address: 127.0.0.53#53
 
 Non-authoritative answer:
 jeffskinnerbox.me
-	origin = darwin.ns.cloudflare.com
-	mail addr = dns.cloudflare.com
-	serial = 2264853868
-	refresh = 10000
-	retry = 2400
-	expire = 604800
-	minimum = 3600
+ origin = darwin.ns.cloudflare.com
+ mail addr = dns.cloudflare.com
+ serial = 2264853868
+ refresh = 10000
+ retry = 2400
+ expire = 604800
+ minimum = 3600
 
 Authoritative answers can be found from:
 
 # now query the authority (aka 'origin')
 $ nslookup jeffskinnerbox.me darwin.ns.cloudflare.com
-Server:		darwin.ns.cloudflare.com
-Address:	173.245.59.151#53
+Server:  darwin.ns.cloudflare.com
+Address: 173.245.59.151#53
 
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 104.21.61.243
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 172.67.217.38
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::ac43:d926
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::6815:3df3
 ```
 
@@ -381,20 +402,22 @@ To get the "real" A RECORD, you turn-off the [Cloudflare Proxied service][78].
 ```bash
 # now query the authority but with cloudflare proxied turned-off
 $ nslookup jeffskinnerbox.me darwin.ns.cloudflare.com
-Server:		darwin.ns.cloudflare.com
-Address:	172.64.33.151#53
+Server:  darwin.ns.cloudflare.com
+Address: 172.64.33.151#53
 
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 108.44.239.214
 ```
 
 Sources:
+
 * [Find IP Address of a Domain, Server or Website](https://www.site24x7.com/find-ip-address-of-web-site.html)
 * [Find DNS records for a domain name](https://www.nslookup.io/)
 * [How to use Nslookup to check DNS Records](https://activedirectorypro.com/use-nslookup-check-dns-records/#tips)
 * [How to use Nslookup to check DNS Records](https://activedirectorypro.com/use-nslookup-check-dns-records/)
 * [How to Use Nslookup Command with Examples](https://www.meridianoutpost.com/resources/articles/command-line/nslookup.php)
 * [How to Find DNS (Domain Name Server) Records on Linux Using the nslookup Command](https://www.2daygeek.com/nslookup-command-check-find-dns-records-lookup-linux/)
+
 
 ### Flush DNS Cashe
 It’s important to sometimes [flush the DNS server cache][86].
@@ -449,17 +472,17 @@ $ systemd-resolve --status | grep -1 'DNS Server'
 
 # note the address for dns data is 127.0.0.53
 $ nslookup jeffskinnerbox.me
-Server:		127.0.0.53
-Address:	127.0.0.53#53
+Server:  127.0.0.53
+Address: 127.0.0.53#53
 
 Non-authoritative answer:
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 172.67.217.38
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 104.21.61.243
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::6815:3df3
-Name:	jeffskinnerbox.me
+Name: jeffskinnerbox.me
 Address: 2606:4700:3030::ac43:d926
 
 # is the dns resolver running
@@ -507,24 +530,29 @@ rm -rf ./nginx/cache/*     # assumes the cache is accessable as a volume
 
 * [How to purge the Nginx cache](https://bluegrid.io/edu/how-to-purge-the-nginx-cache/)
 * [How to purge Nginx Proxy Cache in Linux CentOS](https://www.ryadel.com/en/nginx-purge-proxy-cache-delete-invalidate-linux-centos-7/)
-You can disable the caching via the Nginx Proxy Manager UI, but it appears to be broken - https://github.com/jc21/nginx-proxy-manager/issues/389
+You can disable the caching via the Nginx Proxy Manager UI, but it appears to be broken - <https://github.com/jc21/nginx-proxy-manager/issues/389>
 
 Source:
+
 * [How to Find Out What DNS Server Am I Using?](https://techwiser.com/check-your-dns-server/)
 * [How to Flush DNS Cache](https://www.hostinger.com/tutorials/how-to-flush-dns)
 * [How to flush the DNS cache on Linux](https://www.techrepublic.com/article/how-to-flush-the-dns-cache-on-linux/)
 * [Flush DNS: What It Is, How to Do It & Why You Should](https://blog.hubspot.com/website/flush-dns)
 * [How to Flush DNS Cache in Linux](https://beebom.com/how-flush-dns-cache-linux/)
 
+
 # SSL
+
 * [How to Fix the NET::ERR_CERT_AUTHORITY_INVALID Error](https://kinsta.com/knowledgebase/neterr-cert-authority-invalid/)
 
 
 
 Sources:
+
 * [Service and Version Detection](https://nmap.org/book/man-version-detection.html)
 * [Nmap — A Guide To The Greatest Scanning Tool Of All Time](https://www.manishmshiva.com/nmap-a-guide-to-the-greatest-scanning-tool-of-all-time/)
 * [Nmap](https://wiki.onap.org/display/DW/Nmap)
+
 
 #### Step X: Check if Port 80 & 443 are Blocked
 In the web world, port 80 is the default port for HTTP / HTTPS protocols.
@@ -546,6 +574,7 @@ Cloudflare has it own version of this Port 80 Redirect idea but they call it
 
 * [Port 80 Redirect - What is...](https://www.youtube.com/watch?v=pgrizFmTgvE)
 * [Cloudflare Page Rules - Redirect Domain Tutorial](https://www.youtube.com/watch?v=5NGJkHAHyjE)
+
 
 #### Step X: Unblock and Forward Ports on Home Router
 By default, Bitwarden will be served through ports 80 (http) and 443 (https) on the host machine.
@@ -613,6 +642,7 @@ you should get something like "Connection refused".
 >The `auto_correct` parameter will allow Vagrant to automatically assign another port
 >of the host machine in case of unavailability (and tell you about it, of course).
 
+
 #### Step X: XXX
 From in side my LAN,
 I used `google-chrome http://192.168.33.10:8080` and it gives me the Bitwarden login page.
@@ -630,8 +660,8 @@ It  it can remotely verify if a port is open or closed.
 It can be used to verify port forwarding
 and check to see if a server is running or a firewall or ISP is blocking certain ports.
 
-#### Step X:
-#### Step X:
+
+#### Step X
 
 
 ## Setup Domain Name and DNS
@@ -649,7 +679,7 @@ Cloudflare claims to be the world’s fastest
 and most reliable public DNS resolver
 with advanced security with built-in DDoS mitigation and DNSSEC.
 
-Cloudflare DOES works with yubikey & WebAuthn -  https://blog.cloudflare.com/cloudflare-now-supports-security-keys-with-web-authentication-webauthn/ and  https://blog.centminmod.com/2021/06/30/2401/how-to-setup-yubikey-5-nfc-security-key-for-cloudflare-account-logins/
+Cloudflare DOES works with yubikey & WebAuthn -  <https://blog.cloudflare.com/cloudflare-now-supports-security-keys-with-web-authentication-webauthn/> and  <https://blog.centminmod.com/2021/06/30/2401/how-to-setup-yubikey-5-nfc-security-key-for-cloudflare-account-logins/>
 
 
 #### Step X: Setup Domain Name Account on Namecheap
@@ -662,6 +692,7 @@ In addition to a solid [knowledge base][70], Namecheap offers 24/7 chat support.
 For information, here is a [review of Namecheap][69].
 To register a domain on Namecheap,
 just follow the registration process document [here][73].
+
 
 #### Step X: Adding Your Domain to Cloudflare
 Go to [Cloudflare](https://dash.cloudflare.com/sign-up)
@@ -680,20 +711,9 @@ When you add a new DNS record, it’s automatically set to “Proxied” but can
 The DNS proxied means it will be shown a Cloudflare IP, not your IP address, if you look it up. Thus all attacks at that domain will DDoS Cloudflare and not you host directly. Non proxied means all traffic goes directly to your own IP without Cloudflare being a safety net in front.
 
 
------
 
 
-
-----
-
-
-
-
-
-
-
-
-----
+---------------
 
 
 
@@ -722,19 +742,17 @@ Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
 
 
 
-----
-
-
-
-
-----
+---------------
 
 
 ## Docker and Firewalls
+
 * [Docker and Firewalls - Docker wants to punch holes in the local firewall, let's mitigate that issue](https://www.youtube.com/watch?v=bpWytcz4uMw)
 * [Docker and iptables](https://docs.docker.com/network/iptables/)
 
+
 # Monitor Docker Containers using Netdata
+
 * [How to monitor Docker containers using Netdata health and performance](https://www.youtube.com/watch?v=tMRHc9r2Jw4)
 
 
@@ -753,16 +771,8 @@ Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
 
 
 
-[50]:https://github.com/dani-garcia/vaultwarden/wiki/Enabling-WebSocket-notifications
-[51]:https://github.com/dani-garcia/vaultwarden/wiki/Enabling-admin-page
 [52]:https://www.namecheap.com/
-[53]:https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/
-[54]:https://www.youtube.com/watch?v=spVQex_qj_s
-[55]:https://en.wikipedia.org/wiki/DMZ_(computing)
 [56]:https://en.wikipedia.org/wiki/Reverse_proxy
-[58]:https://www.duckdns.org/
-[59]:https://wiki.debian.org/DDNS
-[60]:https://hackaday.com/2020/08/25/linux-fu-your-own-dynamic-dns/
 [61]:https://www.bluehost.com/resources/how-to-add-https-to-your-domain-and-install-an-ssl-certificate-to-protect-your-customers
 [62]:https://www.digicert.com/what-is-an-ssl-certificate
 [63]:https://www.ssl.com/faqs/what-is-a-certificate-authority/[64]:
@@ -772,7 +782,6 @@ Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
 [68]:https://certbot.eff.org/
 [69]:https://digital.com/best-web-hosting/namecheap/
 [70]:https://www.namecheap.com/support/knowledgebase/
-[71]:https://support.dnsimple.com/articles/differences-a-cname-records/
 [72]:https://www.youtube.com/watch?v=MoePjwotTUE
 [73]:https://www.namecheap.com/support/knowledgebase/subcategory/35/registrations/
 [74]:https://www.groovypost.com/howto/news/verizon-fios-blocks-inbound-port-80/
@@ -785,30 +794,8 @@ Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
 [81]:https://www.howtouselinux.com/post/dns-port
 [82]:https://www.noip.com/support/knowledgebase/port-80-redirect/
 [83]:https://www.noip.com/
-[84]:https://en.wikipedia.org/wiki/Cloudflare
-[85]:https://portforward.com/how-to-port-forward/
 [86]:https://www.dnsstuff.com/clear-flush-dns-server-cache-windows
-[87]:https://wiki.onap.org/display/DW/Nmap
 [88]:https://www.youtube.com/watch?v=eL-PBGDsARY
 [89]:https://www.avast.com/c-static-vs-dynamic-ip-addresses
-[90]:https://en.wikipedia.org/wiki/Firewall_(computing)
-[91]:http://www.netfilter.org/
-[92]:https://help.ubuntu.com/community/UFW
-[93]:https://help.ubuntu.com/community/Gufw
-[94]:https://www.linux.com/learn/tutorials/863701-an-introduction-to-uncomplicated-firewall-ufw
-[95]:https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server
-[96]:https://docs.docker.com/network/bridge/#use-the-default-bridge-network
-[97]:https://docs.docker.com/network/bridge/
-[98]:https://thehomelab.wiki/books/dns-reverse-proxy/page/create-domain-records-to-point-to-your-home-server-on-cloudflare-using-nginx-progy-manager
 [99]:https://www.youtube.com/watch?v=NV2eKYmQF6Q
 [100]:https://thehomelab.wiki/books/dns-reverse-proxy/page/create-domain-records-to-point-to-your-home-server-on-cloudflare-using-nginx-progy-manager
-[101]:
-[102]:
-[103]:
-[104]:
-[105]:
-[106]:
-[107]:
-[108]:
-[109]:
-[110]:
