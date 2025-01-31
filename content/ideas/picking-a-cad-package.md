@@ -154,6 +154,7 @@ and their conversion to [PCB designs][46].
 * [KiCad Plugin Gives Your PCBs That Handmade Look](https://hackaday.com/2022/04/17/kicad-plugin-gives-your-pcbs-that-handmade-look/)
 
 * [Silkscreen Busy? Put Labels Inside Pads](https://hackaday.com/2023/04/04/silkscreen-busy-put-labels-inside-pads/)
+* [Taking KiCad Silk Screen to the Next Level!](https://www.youtube.com/watch?v=KY3sjqqQqNo)
 
 
 ## KiCad Viewer
