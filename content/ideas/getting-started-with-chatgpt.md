@@ -9,14 +9,17 @@ Version:      0.0.0
 
 ---------------
 
-* Apple: [Apple Intelligence](https://www.apple.com/apple-intelligence/)
-* Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
-* Google: [Gemini](https://gemini.google.com/app)
-* Anthropic: [Claude](https://claude.ai/login)
-* OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
-* AI like ChatGPT:
-    * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
-    * [Run New Llama 3.1 on Your Computer Privately in 10 minutes](https://www.youtube.com/watch?v=1xdneyn6zjw)
+* USA
+    * Apple: [Apple Intelligence](https://www.apple.com/apple-intelligence/)
+    * Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
+    * Google: [Gemini](https://gemini.google.com/app)
+    * Anthropic: [Claude](https://claude.ai/login)
+    * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
+    * AI like ChatGPT:
+        * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
+        * [Run New Llama 3.1 on Your Computer Privately in 10 minutes](https://www.youtube.com/watch?v=1xdneyn6zjw)
+* China
+    * DeepSeek: [DeepSeek](https://www.howtogeek.com/china-deepseek-rivals-chatgpt/)
 
 
 
@@ -277,11 +280,6 @@ These guide will show you how to create:
 * [Plugins: A Massive Upgrade That Will Change ChatGPT Forever](https://frank-andrade.medium.com/plugins-a-massive-upgrade-that-will-change-chatgpt-forever-e8dcdc8a8da9)
 
 
-# Copilot (OpenAI Codex)
-
-* [GitHub Copilot is among the first real products based on large language models](https://bdtechtalks.com/2022/07/05/github-copilot-large-language-model-product-management/)
-* [GitHub Copilot](https://github.com/features/copilot)
-
 
 # Hugging Face
 
@@ -349,12 +347,20 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 ---------------
 
 
+# Copilot (OpenAI Codex)
+
+* [GitHub Copilot is among the first real products based on large language models](https://bdtechtalks.com/2022/07/05/github-copilot-large-language-model-product-management/)
+* [GitHub Copilot](https://github.com/features/copilot)
+* [Microsoft Copilot’s ‘Think Deeper’ Is Now Free](https://www.howtogeek.com/microsoft-copilot-think-deeper-now-free/)
+
+
 # GitHub Copilot
 
 * [GitHub Copilot is among the first real products based on large language models](https://bdtechtalks.com/2022/07/05/github-copilot-large-language-model-product-management/)
 * [GitHub Copilot X: The AI-powered developer experience](https://github.blog/2023-03-22-github-copilot-x-the-ai-powered-developer-experience/)
 
 * [Copilot](https://github.com/features/copilot/)
+
 
 ---------------
 
