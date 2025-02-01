@@ -32,6 +32,7 @@ A good remedy for this can be containerization of your Python development enviro
 
 * [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 
+* [Don’t Manage Your Python Environments, Just Use Docker Containers](https://www.kdnuggets.com/manage-python-environments-docker-containers)
 * [Setting Up a Great Python Dev Environment with Docker](https://dev.to/njoguu/setting-up-a-great-python-dev-environment-with-docker-2b01)
     * [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
 * [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
