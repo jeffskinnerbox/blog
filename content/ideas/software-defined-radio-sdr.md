@@ -20,6 +20,8 @@ Consider using the CaribouLite RPi HAT
 
 
 
+* [Alejandro Martín's Python-Powered RTL-SDR Signal Analyzer Can Warn of Active Jamming Attacks](https://www.hackster.io/news/alejandro-martin-s-python-powered-rtl-sdr-signal-analyzer-can-warn-of-active-jamming-attacks-1c0b221211a9)
+
 * [Roll Your Own SDR](https://hackaday.com/2023/12/16/roll-your-own-sdr/)
 
 * [2020 / 2021 SDR Guide](https://www.youtube.com/playlist?list=PLe5ZKeM2hRBJ2G_Gvt1JnBxqtjHMMej3q)
