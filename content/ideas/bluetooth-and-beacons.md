@@ -9,9 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
-
-
+---------------
 
 
 * [Nordic Thingy:53](https://webinars.nordicsemi.com/say-hello-to-thingy53-the)
@@ -2251,6 +2249,7 @@ can operate as a master or slave Bluetooth device.
     * Nordic-Thingy:52 iOS library and sample app
 * [Nordic Thingy:91](https://www.nordicsemi.com/Software-and-Tools/Prototyping-platforms/Nordic-Thingy-91)
 * [Nordic Thingy:91 Getting Started Guides](https://www.hackster.io/videos/753)
+* [First Steps with the Nordic Thingy:91 X - Hackster.io](https://www.hackster.io/news/first-steps-with-the-nordic-thingy-91-x-84d082996304)
 
 ### Nordic Bluetooth Tools
 * nrfjprog, pynrfjprog - Intro, Mac OS X & Linux now supported - https://devzone.nordicsemi.com/blogs/840/nrfjprog-pynrfjprog-intro-mac-os-x-linux-now-suppo/
