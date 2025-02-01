@@ -12,7 +12,7 @@ Version:      0.0.0
 ---------------
 
 
-
+* [How to Get Started Creating Interactive Notebooks in Jupyter](https://www.howtogeek.com/how-to-get-started-creating-interactive-notebooks-in-jupyter/)
 
 * [5 Things You Might Not Know about Jupyter-Notebooks](https://chifi.dev/5-things-you-might-not-know-about-jupyter-notebooks-5e1f74340b05)
 
