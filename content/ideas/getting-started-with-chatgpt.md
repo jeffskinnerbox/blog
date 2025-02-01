@@ -28,6 +28,14 @@ Version:      0.0.0
 ---------------
 
 
+# What About a GPU?
+
+* [eGPUs vs. eGPU Enclosures: Which Should You Choose?](https://www.howtogeek.com/egpus-vs-egpu-enclosures-which-should-you-choose/)
+
+
+---------------
+
+
 # Safely Execute LLM Models Locally
 
 * [the ONLY way to run Deepseek...](https://www.youtube.com/watch?v=7TR-FLWNVHY)
