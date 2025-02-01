@@ -103,6 +103,7 @@ This enables Arduino users to run both an Arduino sketch and a MicroPython progr
 the new, official lightweight package manager for MicroPython.
 
 * [How To Manage MicroPython Modules With Mip on Raspberry Pi Pico](https://www.tomshardware.com/how-to/raspberry-pi-pico-micropython-mip)
+* [Arduino Launches a MicroPython Package Manager for Easier Library Installation](https://www.hackster.io/news/arduino-launches-a-micropython-package-manager-for-easier-library-installation-f67cf7604048)
 
 
 # Hardware Options
