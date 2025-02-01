@@ -228,6 +228,8 @@ a touch screen display, and ChatGPT.
 
 # Radar Sensor
 
+* [ESP32 + Rd-03D: mmWave Radar Multi-Human Tracking with Distance, Speed & Positioning!](https://www.youtube.com/watch?v=cSI9vedf870)
+    * [Rd-03D mmWave Radar: Multi-Human Tracking with Distance, Speed & Positioning](https://www.electroniclinic.com/rd-03d-mmwave-radar-multi-human-tracking-with-distance-speed-positioning/#google_vignette)
 * [Best mmWave Presence Sensors for Home Assistant!](https://www.youtube.com/watch?v=Kt1FpRM8R18&t=2239s)
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
 * [mmWave Radar Alarm with Telegram Notifications](https://community.dfrobot.com/makelog-313113.html?tracking=64819a20b8a22)
