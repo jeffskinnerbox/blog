@@ -24,6 +24,23 @@ Version:      0.0.0
 
 
 
+
+---------------
+
+
+# Safely Execute LLM Models Locally
+
+* [the ONLY way to run Deepseek...](https://www.youtube.com/watch?v=7TR-FLWNVHY)
+    * [Using DeepSeek-R1 Locally](https://www.kdnuggets.com/using-deepseek-r1-locally)
+    * [AI Revolution: Design PID Controllers Using DeepSeek-R1 AI Model and Python Locally](https://www.youtube.com/watch?v=amWkFwqA79s)
+
+
+---------------
+
+
+
+
+
 * [An Animated Walkthrough Of How Large Language Models Work](https://hackaday.com/2024/11/20/an-animated-walkthrough-of-how-large-language-models-work/)
 
 * [You Don't Need Apple Intelligence, Anyone Can Use ChatGPT in Siri](https://www.howtogeek.com/you-dont-need-apple-intelligence-anyone-can-use-chatgpt-in-siri/)
