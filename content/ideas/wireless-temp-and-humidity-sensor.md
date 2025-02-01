@@ -22,4 +22,5 @@ Version:      0.0.0
     * [Home Asssistant Xiaomi Mijia LYWSD03MMC Temperature and Humidity Sensor Tutorial September 2022](https://community.home-assistant.io/t/home-asssistant-xiaomi-mijia-lywsd03mmc-temperature-and-humidity-sensor-tutorial-september-2022/456403)
 * [A Simple Web Configured BLE To GPIO Bridge](https://hackaday.com/2022/09/06/a-simple-web-configured-ble-to-gpio-bridge/)
 * [Telink Flasher for Xiaomi Mii Thermometer](https://pvvx.github.io/ATC_MiThermometer/TelinkMiFlasher.html)
+* [Xiaomi Temperature & Humidity Sensor Home Assistant Integration | HOW TO](https://www.youtube.com/watch?v=BHrEeooeuzI)
 
