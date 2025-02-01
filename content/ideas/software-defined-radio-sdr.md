@@ -7,10 +7,18 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+
 ---------------
 
 
 # Start Here ?
+Consider using the CaribouLite RPi HAT
+
+* [CaribouLite RPi HAT open-source SDR Raspberry Pi HAT tunes up to 6 GHz](https://www.cnx-software.com/2021/11/29/cariboulite-rpi-hat-open-source-sdr-raspberry-pi-hat-tunes-up-to-6-ghz/)
+* [Radio Hacking 101: Raspberry Pi SDR with a CaribouLite](https://www.youtube.com/watch?v=Hz2WqhWmjZE)
+
+
+
 
 * [Roll Your Own SDR](https://hackaday.com/2023/12/16/roll-your-own-sdr/)
 
@@ -22,6 +30,19 @@ Version:      0.0.0
 * [Selecting the right software defined radio solution for your application](https://www.embedded.com/selecting-the-right-software-defined-radio-solution-for-your-application/)
 
 * Lattest RTL-SDR Blog Dongle - [RTL-SDR Blog V4 dongle launched with Rafeal R828D tuner chip](https://www.cnx-software.com/2023/08/17/rtl-sdr-blog-v4-dongle-launched-with-rafeal-r828d-tuner-chip/)
+
+
+
+
+
+
+---------------
+
+
+# CaribyyouLite RPi HAT
+
+* [CaribouLite RPi HAT open-source SDR Raspberry Pi HAT tunes up to 6 GHz](https://www.cnx-software.com/2021/11/29/cariboulite-rpi-hat-open-source-sdr-raspberry-pi-hat-tunes-up-to-6-ghz/)
+* [Radio Hacking 101: Raspberry Pi SDR with a CaribouLite](https://www.youtube.com/watch?v=Hz2WqhWmjZE)
 
 
 # SDR Software Environment
@@ -109,10 +130,6 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 
 * [SigDigger - A free digital signal analyzer](https://batchdrake.github.io/SigDigger/)
 
-
-# CaribouLite RPi HAT
-
-* [CaribouLite RPi HAT open-source SDR Raspberry Pi HAT tunes up to 6 GHz](https://www.cnx-software.com/2021/11/29/cariboulite-rpi-hat-open-source-sdr-raspberry-pi-hat-tunes-up-to-6-ghz/)
 
 
 # Documentation and Tutorals
