@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -22,23 +22,28 @@ Version:      0.0.0
 * [The Little Things I Didn’t Know About Small DC Motors](http://hackaday.com/2016/10/17/the-little-things-i-didnt-know-about-small-dc-motors/)
 
 * [All About Stepper Motors](https://learn.adafruit.com/all-about-stepper-motors)
-* [Best Arduino Stepper Motors in 2019 ](https://all3dp.com/1/best-arduino-stepper-motors/)
+* [Best Arduino Stepper Motors in 2019](https://all3dp.com/1/best-arduino-stepper-motors/)
 * [How Accurate Is Microstepping Really?](http://hackaday.com/2016/08/29/how-accurate-is-microstepping-really/)
 * [A Command-Line Stepper Library with All the Frills](http://hackaday.com/2017/03/05/a-command-line-stepper-library-with-all-the-frills/)
 * [Giant Stepper Motor Gets You Up to Speed on Theory](http://hackaday.com/2015/08/20/giant-stepper-motor-gets-you-up-to-speed-on-theory/)
+* [Stepper Motor Operating Principle and Microstepping Explained](https://hackaday.com/2025/02/03/stepper-motor-operating-principle-and-microstepping-explained/)
 
 * [The New Tinymovr M5 Is a Cute Yet Powerful Brushless Motor Controller with Python, Arduino Support](https://www.hackster.io/news/the-new-tinymovr-m5-is-a-cute-yet-powerful-brushless-motor-controller-with-python-arduino-support-049180f31da9)
 
 
 
 # Faraday's Motor
+
 * [How did Michael Faraday invent? – with David Ricketts](https://www.youtube.com/watch?v=z1uOsg2-LTA)
 
+
 # Tpes of Motors
+
 * [Types Of Electric Motors - DC | AC | Synchronous | Brushless | Brushed | Stepper | Servo](https://www.youtube.com/watch?v=I2_-etus0KQ)
 
 * [DC & Brushless DC Motor + ESC](https://www.youtube.com/watch?v=UteZJ_7C4Mg)
 * [Brushed DC Motors and How to Drive Them](https://www.youtube.com/watch?v=yO9xIVv8ryc)
+
 
 # DC Brushed Motor
 ![motor](http://www.robotshop.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/p/o/pololu-30-1-micro-metal-gearmotor-mp.jpg "Micro Metal Gear Motor")
@@ -67,6 +72,7 @@ and can comfortably operate in the 3V to 9V range
 Rotation can start at voltages as low as 0.5V.
 Lower voltages might not be practical,
 and higher voltages could start negatively affecting the life of the motor.
+
 
 # Motor Controller
 ![controller](https://cdn-shop.adafruit.com/1200x900/3190-01.jpg "Adafruit DRV8871 DC Motor Driver")
@@ -101,6 +107,7 @@ you apply a PWM signal to **IN1**  to spin in one direction
 and a PWM to **IN2** to move in the opposite direction.
 Use up to 5.5V DC logic on the **IN1**/**IN2** pins.
 You can PWM the inputs up to 200KHz, but lower frequencies will be more efficient.
+
 
 # Testing
 Adafrut povides a [simple test program][08] for an Arduino.
@@ -160,7 +167,7 @@ void loop() {
 ```
 
 
------
+---------------
 
 
 # Servo Motor
@@ -179,21 +186,24 @@ often a dedicated module designed specifically for use with servomotors.
 * [Wrangling RC Servos Becoming a Hassle? Try Serial Bus Servos!](https://hackaday.com/2018/07/05/wrangling-rc-servos-becoming-a-hassle-try-serial-bus-servos/)
 * [Teaching A DC Servo Motor To Act Like A Stepper](https://hackaday.com/2022/01/01/teaching-a-dc-servo-motor-to-act-like-a-stepper/)
 
+
 # Precision Control of Servo Motor
+
 * [Vastly Improved Servo Control, Now Without Motor Surgery](https://hackaday.com/2024/03/21/vastly-improved-servo-control-now-without-motor-surgery/)
     * [GitHub: adamb314 / ServoProject](https://github.com/adamb314/ServoProject)
 
 
------
+---------------
 
 
 
 # Brushless DC (BLDC) Motors
+
 * [SimpleFOC Demystifies Precision BLDC Motor Control](https://hackaday.com/2021/07/07/simplefoc-demystifies-precision-bldc-motor-control/)
 
 
 
------
+---------------
 
 
 
@@ -206,21 +216,29 @@ as long as the motor is carefully sized to the application in respect to torque 
 
 * [Stepper Motors Quick And Simple](https://hackaday.com/2021/04/09/stepper-motors-quick-and-simple/)
 
+
 ## Stepper Motor Wiring
+
 * [Deducing Stepper Motor Wiring](https://hackaday.com/2019/07/25/deducing-stepper-motor-wiring/)
+
 
 # Switec Motors
 The Switec motor is an unassuming bit of plastic and metal that is found behind the dashboards of many American cars and trucks. It’s only a little over an inch in diameter, but it reliably swings tachometer, speedometer, and fuel gauge needles
-http://hackaday.com/2013/01/19/custom-gauges-with-a-stepper-motor-breakout-board/
-https://github.com/clearwater/SwitecX25
-http://guy.carpenter.id.au/gaugette/2012/01/05/what-is-gaugette/
+<http://hackaday.com/2013/01/19/custom-gauges-with-a-stepper-motor-breakout-board/>
+<https://github.com/clearwater/SwitecX25>
+<http://guy.carpenter.id.au/gaugette/2012/01/05/what-is-gaugette/>
+
 
 # Electonic Speed Control (ESC)
+
 * [An Open Source ESC For Brushless Motors](https://hackaday.com/2019/05/15/an-open-source-esc-for-brushless-motors/)
+
 
 # Variable Frequency Drives (VFD)
 
+
 # Motor Choke
+
 * [What is a motor choke and why is it used?](https://www.motioncontroltips.com/what-is-a-motor-choke-and-why-is-it-used/)
 * [A Practical Look At Chokes For EMI Control](https://hackaday.com/2020/03/15/a-practical-look-at-chokes-for-emi-control/)
 
