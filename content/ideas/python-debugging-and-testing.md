@@ -213,6 +213,7 @@ $ - Ending of an expression
 Pythonic describes code that doesn’t just get the syntax right but uses the language in the way it’s intended to be used. Here’s how to optimize your Python code.
 
 * [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
+* [Python for Loops: The Pythonic Way](https://realpython.com/python-for-loop/)
 
 
 ## Python's Built-in Functions
