@@ -47,6 +47,17 @@ Version:      0.0.0
 the [JetKVM](https://jetkvm.com/) is a fast, open-source KVM over IP solution for managing any computer, server, and workstations remotely.
 It handles boot failures, install new OSes, adjust BIOS settings or simply control the computer without needing to be physically present.
 
+Conbine this with a [AC/DC Control Relay](https://dlidirect.com/products/iot-power-relay) to get a truly complete solution.
+
+On Feburay 7, 2025 I backed the KickStarter and Estimated delivery in March 2025.
+
+* [JetKVM](https://jetkvm.com/)
+* [This tiny KVM controls your PC—anywhere!](https://www.youtube.com/watch?v=6pYfHedjjgw)
+* [The Smallest KVM-Over-IP, and it's CHEAP! - JetKVM Review](https://www.youtube.com/watch?v=6pYfHedjjgw)
+* [The Jet KVM is Pretty Useful!](https://www.youtube.com/watch?v=Lb7bz075Vw4)
+* [JetKVM: $69 KVM-Over-IP Device too Good to be True?](https://www.youtube.com/watch?v=L9Wyh1rKMkk)
+* [AC/DC Control Relay: IoT Relay](https://dlidirect.com/products/iot-power-relay)
+
 
 ---------------
 
