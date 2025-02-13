@@ -233,6 +233,8 @@ working with built-in data types, processing iterables of data, handling input a
     * [5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
     * [A forbidden Python technique to put ANYTHING in a dict or set](https://www.youtube.com/watch?v=NpdNDTncxwA)
     * [**new** vs **init** in Python](https://www.youtube.com/watch?v=-zsV0_QrfTw)
+* Python Keywords
+    * [Python Keywords: An Introduction](https://realpython.com/python-keywords/)
 * Newbe Bad Habits
     * [25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
     * [21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
