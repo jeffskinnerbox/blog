@@ -91,6 +91,8 @@ Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machi
 
 * [Launching Ubuntu instances with Multipass](https://www.youtube.com/watch?v=Z91l6ZdQjhI)
 * [Linux Fu: Easy VMs](https://hackaday.com/2022/11/01/linux-fu-easy-vms/)
+* [Multipass: Ubuntu VMs on demand for any workstation](https://canonical.com/multipass)
+* [How to create a VM with Multipass](https://ubuntu.com/server/docs/how-to-create-a-vm-with-multipass)
 
 ```bash
 # install multipass
