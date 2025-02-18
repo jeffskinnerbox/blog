@@ -9,7 +9,11 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
+
+
+
+* [5 advanced firewall rules to lock down your home lab](https://www.xda-developers.com/advanced-firewall-rules-to-lock-down-your-home-lab/)
 
 
 
@@ -31,7 +35,8 @@ pfBlockerNG provides advertisement and malicious content blocking along with geo
 * [Which one is better and the difference between Pi-Hole and pfBlockerNG](https://www.youtube.com/watch?v=6wToQrcvkF8)
 * [Wrangling DNS on Your Network, Part 4: Pi-hole vs. pfBlockerNG](https://blog.flippedbits.io/2020/07/wrangling-dns-on-your-network-part-4-pi-hole-vs.-pfblockerng/)
 
-* https://www.google.com/search?q=pfBlockerNG+vs+pi-hole&sxsrf=APq-WBuzoyfZq_rI-1gtiNroGx5b5RDSlA%3A1647566646921&ei=Nt8zYq_zN6O7ggf5u6jYBw&ved=0ahUKEwiv5u6FwM72AhWjneAKHfkdCnsQ4dUDCA4&uact=5&oq=pfBlockerNG+vs+pi-hole&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEKIEMgUIABCiBDIFCAAQogQ6BwgAEEcQsAM6BwgAELADEEM6BAgAEEM6BQgAEIAEOgYIABAWEB46BQghEKABSgQIQRgASgQIRhgAUM4GWMcmYIYoaAFwAXgAgAFbiAGoBZIBAjExmAEAoAEByAEKwAEB&sclient=gws-wiz
+* <https://www.google.com/search?q=pfBlockerNG+vs+pi-hole&sxsrf=APq-WBuzoyfZq_rI-1gtiNroGx5b5RDSlA%3A1647566646921&ei=Nt8zYq_zN6O7ggf5u6jYBw&ved=0ahUKEwiv5u6FwM72AhWjneAKHfkdCnsQ4dUDCA4&uact=5&oq=pfBlockerNG+vs+pi-hole&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEKIEMgUIABCiBDIFCAAQogQ6BwgAEEcQsAM6BwgAELADEEM6BAgAEEM6BQgAEIAEOgYIABAWEB46BQghEKABSgQIQRgASgQIRhgAUM4GWMcmYIYoaAFwAXgAgAFbiAGoBZIBAjExmAEAoAEByAEKwAEB&sclient=gws-wiz>
+
 
 # Setup Pi-Hole as a Recursive DNS Server
  With Pi-Hole you can also completely bypass 3rd party DNS servers like `8.8.8.8`, `1.1.1.1`, `208.67`, `222.222`, or the ones ran by your ISP.
@@ -59,12 +64,14 @@ When you install Unbound, you become your DNS provider. This ensures that your p
 
 * [Setting up Pihole on proxmox with pfsense](https://www.youtube.com/watch?v=lxbuK5HQlX4)
 
+
 # Using Pi-Hole as a Local DNS Server
 With Pi-Hole, you can create DNS Entries (A Records) for the clients on your network
 and also set up Aliases (pointers to A Records)
 so that you can start using DNS at home instead of relying on IP addresses.
 
 * [Using Pi-Hole for Local DNS - Fast, Simple, and Easy Guide](https://www.youtube.com/watch?v=kKsHo6r4_rc)
+
 
 # Setup Pi-Hole
 Pi-hole is a general purpose network-wide ad-blocker that protects your network from ads and trackers without requiring any setup on individual devices. It is able to block ads on any network device (e.g. smart appliances), and, unlike browser add-ons, Pi-hole blocks ads on any type of software.
@@ -86,12 +93,18 @@ It's inferior to browser extensions like Adblock or uBlock because those can col
 * [block ADULT sites and other BAD STUFF on your home network (EASY)](https://www.youtube.com/watch?v=BSplICgr7iU)
 * [BLOCK EVERYTHING w/ PiHole on Docker, OpenDNS and IFTTT](https://www.youtube.com/watch?v=dH3DdLy574M&t=0s)
 
+
 # Gravity Sync
-* https://github.com/vmstan/gravity-sync
+
+* <https://github.com/vmstan/gravity-sync>
+
 
 ### Stop Ads & Data Collection
+
 * [Stop your snooping smart TV — how to turn off data collection for every brand](https://www.tomsguide.com/how-to/stop-your-snooping-smart-tv-how-to-turn-off-data-collection-for-every-brand)
 
+
 ### Intrusion Detection
+
 * [Pi Alert - Open Source, Self Hosted, Network Device Change Notification and Intrusion Detection](https://www.youtube.com/watch?v=oKl3WFQloE4)
 

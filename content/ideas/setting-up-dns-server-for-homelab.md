@@ -12,6 +12,11 @@ Version:      0.0.0
 ---------------
 
 
+* [5 advanced firewall rules to lock down your home lab](https://www.xda-developers.com/advanced-firewall-rules-to-lock-down-your-home-lab/)
+
+
+
+
 Normally, your computer or router uses your ISP’s DNS resolver to query DNS names,
 so [why run your own DNS resolver][01]?
 
