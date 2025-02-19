@@ -710,6 +710,9 @@ A antenna tuner is a device used to match impedances between a transmitter and a
 
 ## Loop Antenna
 
+* [Alpha Antenna portable vhf/uhf/hf loop antenna](https://www.youtube.com/shorts/1zWDNKaLCRc)
+    * [Alpha Antenna: VHF UHF HF EmComm MagLoop](https://www.alphaantenna.com/product/vhf-uhf-hf-emcomm-magloop-magnetic-loop-100-watts-alpha-antenna/)
+
 * [Homebrew Loop Antenna Brings The Shortwave World To You](https://hackaday.com/2020/04/12/homebrew-loop-antenna-brings-the-shortwave-world-to-you/)
 * [THE YOULOOP PASSIVE LOOP ANTENNA REVIEWED ON HF RECEPTION](https://www.rtl-sdr.com/the-youloop-passive-loop-antenna-reviewed-on-hf-reception/)
 * [Antenna Pulls In AM Stations](https://hackaday.com/2020/08/19/antenna-pulls-in-am-stations/)
