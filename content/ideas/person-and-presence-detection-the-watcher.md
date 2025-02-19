@@ -12,6 +12,9 @@ Version:      0.0.0
 ---------------
 
 
+
+
+
 Your phone is constantly searching for all WiFi networks which you already connect in the past (unless you did remove as "saved"), saying to anyone who is listening for those public packets where you have been before, and of course, your unique device MAC address.
 
 Those public packets are named as "probe requests" and are used by smartphones to connect faster to wifi networks than if it waits for the network send a Beacon frame to announce the SSID.
@@ -148,6 +151,11 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 
 * [GitHub Copilot](https://openai.com/blog/openai-codex/)
 * [OpenAI Codex](https://openai.com/blog/openai-codex/)
+
+
+# Private AI Tool
+
+* [Venice](https://venice.ai/) is private and permissionless.  Venice doesn’t spy on you. Venice doesn’t censor the AI.
 
 
 # Make it Speak
