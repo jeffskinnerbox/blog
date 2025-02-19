@@ -26,7 +26,14 @@ so [why run your own DNS resolver][01]?
 * If you don’t like your Internet browsing history being stored on a third-party server
 
 
-# Consider this
+# Consider these DNS / Ad-Blockers
+
+
+## Technitium
+
+* [Technitium – A Powerful Privacy-Oriented DNS Server](https://www.fossery.com/app/technitium/)
+* [GitHub: TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer)
+* [Technitium DNS Server](https://technitium.com/dns/)
 
 
 ## Bind9
@@ -48,14 +55,10 @@ so [why run your own DNS resolver][01]?
 * [Expert Tips for DNS Optimization in pfSense](https://www.youtube.com/watch?v=syzwLwE3Xq4)
 
 
-
-
-
-# Candidate Tools
+## Candidate Tools
+Pi-Hole
 AdGuard Home
 Unbound
-PiHole
-Bind9
 PfBlockerNG
 Squid & SquidGuard
 
