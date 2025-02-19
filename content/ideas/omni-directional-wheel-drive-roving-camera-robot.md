@@ -19,6 +19,9 @@ Version:      0.0.0
 
 # Omnidirectional Robots
 
+* [Easy Robotics with a 3D Printer and Raspberry Pi](https://messyprogress.substack.com/p/easy-robotics-with-a-3d-printer-and)
+
+
 * [ESP32 based omnidirectional robots w/ camera | makermoekoe](https://www.youtube.com/watch?v=OIdMkZyhx7E&t=0s)
     * [ESP32-CAM](https://www.cnx-software.com/2025/02/11/build-a-four-wheel-rc-car-with-esp32-cam-board-and-off-the-shelf-parts/)
 * [Modern Robotics, Chapter 13.2: Omnidirectional Wheeled Mobile Robots (Part 1 of 2)](https://www.youtube.com/watch?v=NcOT9hOsceE)
