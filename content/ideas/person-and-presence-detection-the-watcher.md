@@ -141,6 +141,7 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
     * [GitHub: code2k13/GenAIPhotoFrame](https://github.com/code2k13/GenAIPhotoFrame)
 * [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
     * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
+* [Raspberry Pi Zero 2 W uses AI to make infinite flower paintings on an e-ink display](https://www.tomshardware.com/raspberry-pi/raspberry-pi-zero-2-w-uses-ai-to-make-infinite-flower-paintings-on-an-e-ink-display)
 
 
 # AI Generated Code
