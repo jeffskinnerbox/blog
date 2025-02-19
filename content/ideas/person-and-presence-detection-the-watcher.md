@@ -72,7 +72,12 @@ This can be done by making use of:
 * [The Watchman](https://www.hackster.io/taunoerik/the-watchman-dd1f4e)
 
 
-# Thermal Camera
+## ESP32-CAM
+
+* [Build a four-wheel RC car with ESP32-CAM board and off-the-shelf parts](https://www.cnx-software.com/2025/02/11/build-a-four-wheel-rc-car-with-esp32-cam-board-and-off-the-shelf-parts/)
+
+
+## Thermal Camera
 
 * [Making a DIY thermal camera based on a Raspberry Pi](https://habr.com/en/post/441050/)
 * [Mike Rankin's Compact Thermal Camera Packs a High-Performance Parallel Display in a Tiny Footprint](https://www.hackster.io/news/mike-rankin-s-compact-thermal-camera-packs-a-high-performance-parallel-display-in-a-tiny-footprint-1bb341d76bc7?mc_cid=d1f39994b8&mc_eid=9036129d51)
@@ -145,6 +150,7 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
     * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
 * [Raspberry Pi Zero 2 W uses AI to make infinite flower paintings on an e-ink display](https://www.tomshardware.com/raspberry-pi/raspberry-pi-zero-2-w-uses-ai-to-make-infinite-flower-paintings-on-an-e-ink-display)
+* [Possessed Portrait - Updated](https://www.hackster.io/dominick-marino/possessed-portrait-updated-32a7a6)
 
 
 # AI Generated Code
@@ -228,6 +234,7 @@ a touch screen display, and ChatGPT.
 * [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
 * [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
 * [How To Create Your Own Auto-GPT AI Agent](https://www.tomshardware.com/how-to/auto-gpt-ai-agent)
+* [Lumina - AI Art Generator (DALL-E 3) for Your TV](https://www.instructables.com/Lumina-AI-Art-Generator-DALL-E-3-for-Your-TV/)
 
 
 # ChatGPT on the Command-Line
