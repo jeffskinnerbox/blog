@@ -207,6 +207,7 @@ a touch screen display, and ChatGPT.
 
 * [Playing around with Spchcat/Speechcat](https://www.youtube.com/watch?v=c6c_bJIewUU)
     * [Spchcat](https://github.com/petewarden/spchcat)
+* [PicoVoice: On-device voice AI & local LLMs to build Speech Analytics Tools](https://picovoice.ai/)
 
 
 # ESP32 Voice Streaming
@@ -218,13 +219,14 @@ a touch screen display, and ChatGPT.
 
 * [Alexa and GPT-3](https://www.youtube.com/watch?v=4g_rY451bxM)
 * [ChatGPT & ESP 32 had a baby… this is the future!](https://www.youtube.com/watch?v=dv9cyqVv0CI&t=1s)
-* [How To Create Your Own Auto-GPT AI Agent]()
+* [How To Create Your Own Auto-GPT AI Agent](https://www.tomshardware.com/how-to/auto-gpt-ai-agent)
 
 
 # ChatGPT on the Command-Line
 
 * Simple yet effective command line client for chatting with ChatGPT using the official API - [GitHub: marcolardera/chatgpt-cli](https://github.com/marcolardera/chatgpt-cli)
 * A command line tool for interacting with DALL-E models - [GitHub: marcolardera/dall-e-cli](https://github.com/marcolardera/dall-e-cli)
+* [Lumina - AI Art Generator (DALL-E 3) for Your TV](https://www.instructables.com/Lumina-AI-Art-Generator-DALL-E-3-for-Your-TV/)
 
 
 # Radar Sensor
