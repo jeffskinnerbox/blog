@@ -377,6 +377,7 @@ Bias-T is nothing more than a simple diplexer.
 * [Easy Direction Finding Thanks To Quad SDRs](https://hackaday.com/2019/08/22/__trashed-3/)
 * [SDR Is At the Heart of This Soup-Can Doppler Radar Set](https://hackaday.com/2018/11/29/sdr-is-at-the-heart-of-this-soup-can-doppler-radar-set/)
 * [Bike-Mounted Synthetic-Aperture Radar Makes Detailed Images](https://hackaday.com/2019/08/15/bike-mounted-synthetic-aperture-radar-makes-detailed-images/)
+* [Budget-Minded Synthetic Aperture Radar Takes To The Skies](https://hackaday.com/2025/02/13/budget-minded-synthetic-aperture-radar-takes-to-the-skies/)
 * [SDR Spectrum Grabber](http://hackaday.com/2016/11/18/cache-shortwave-signals-for-later-with-this-sdr-spectrum-grabber/)
 
 * [sdrangelove - a Qt software defined radio application](http://osmocom.org/projects/sdr/wiki/sdrangelove)
