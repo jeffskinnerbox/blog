@@ -2545,7 +2545,7 @@ sudo apt-get install virtualbox-qt
 
 # what is the virtualbox version
 $ VBoxManage -version
-6.1.32_Ubuntur149290
+7.0.16_Ubuntur162802
 ```
 
 #### Step 2: Install VirtualBox Extension Pack
@@ -2556,6 +2556,12 @@ Make sure to use the latest version from the [Oracle website][23].
 ```bash
 # install the virtualbox extension pack
 sudo apt-get install virtualbox-ext-pack
+```
+
+#### Step 3: Test That VirtualBox is Working
+```bash
+# test virtualbox, you should see its window appear
+virtualbox
 ```
 
 
@@ -2572,17 +2578,17 @@ You can check the [Vagrant Download page][24] to see if a newer version is avail
 
 ```bash
 # download and install gpg keys for vagrant repository
-curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 
 # add the vagrant repository
-sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 
 # update ubuntu package index and install vagrant
 sudo apt-get update && sudo apt-get install vagrant
 
 # what is the vagrant version
 $ vagrant --version
-Vagrant 2.2.19
+Vagrant 2.4.3
 ```
 
 #### Step 2: Installing Vagrant's VirtualBox Guest Addition
