@@ -488,6 +488,13 @@ Example programs that make heavy use of Python's commandline utilities.
 * [My Example](https://github.com/jeffskinnerbox/ll-tracker/blob/master/tkrdecoder.py)
 
 
+# Gradio
+Gradio is an open-source Python library that simplifies the creation of
+user-friendly web interfaces for machine learning models, APIs, or any Python function.
+
+* [Introduction to Gradio for Building Interactive Applications](https://pyimagesearch.com/2025/02/03/introduction-to-gradio-for-building-interactive-applications/)
+
+
 ---------------
 
 
