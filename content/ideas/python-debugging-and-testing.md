@@ -214,6 +214,7 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 
 * [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
 * [Python for Loops: The Pythonic Way](https://realpython.com/python-for-loop/)
+* [Python Oddities That Might Surprise You](https://www.kdnuggets.com/python-oddities-might-surprise-you)
 
 
 ## Python's Built-in Functions
