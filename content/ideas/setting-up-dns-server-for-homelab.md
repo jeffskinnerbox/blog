@@ -12,6 +12,7 @@ Version:      0.0.0
 ---------------
 
 
+* 7 reasons you should a Local DNS servera - [7 reasons you should turn your Raspberry Pi into a DNS server](https://www.xda-developers.com/reasons-should-turn-raspberry-pi-dns-server/)
 * [5 advanced firewall rules to lock down your home lab](https://www.xda-developers.com/advanced-firewall-rules-to-lock-down-your-home-lab/)
 
 
