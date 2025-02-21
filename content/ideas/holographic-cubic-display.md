@@ -8,7 +8,9 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+
 ---------------
+
 
 July of 2024, I purchased something titled
 ["Arduino creative custom office wifi networking weather forecast weather cloud clock projection transparent small TV"][01].
@@ -23,6 +25,7 @@ Its an illusion of a 3D object, suspended in space, against a transparent backdr
 You'll find a great deal of information on the Web concerning the Pepper's Ghost Illusion.
 Here are some Pepper's Ghost history & DIY displays:
 
+* [Tiny Holo Cubic Display](https://www.youtube.com/watch?v=RQGz9suElo8)
 * [Creating my Holographic Waifu with an ESP32 and a Beam Splitter!!!](https://www.youtube.com/watch?v=jRoKbduqSvg)
 * [DIY Pepper's Ghost in a Jar](https://www.youtube.com/watch?v=Kd2lCnVWXQE)
 * [Pepper's Ghost Materials](https://www.youtube.com/watch?v=eB4kup3oKY0)
@@ -61,6 +64,12 @@ as opposed to the planar image of traditional screens that simulate depth throug
 * Adafruit QT Py ESP32 Pico - WiFi Dev Board with STEMMA QT - 8MB Flash 2MB PSRAM - <https://www.adafruit.com/product/5395>
 * Waveshare 1.3inch LCD Display Module IPS Screen 240x240 HD Resolution with Embedded Controller Communicating via SPI - <https://www.amazon.com/gp/product/B09QG49MG8/>
 * Adafruit EYESPI Breakout Board - 18 Pin FPC Connector - <https://www.adafruit.com/product/5613>
+
+
+---------------
+
+
+* [Holographic FlexLED](https://www.youtube.com/watch?v=wM_Byrv9iBI)
 
 
 

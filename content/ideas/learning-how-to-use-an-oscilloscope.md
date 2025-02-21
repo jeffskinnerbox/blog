@@ -129,6 +129,7 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 * [Tutorial: How to use an Oscilloscope #3 - How to capture a signal event / glitch / transient](https://www.youtube.com/watch?v=JsoZZM2Vc5Y)
 * [Beyond The Basics: Exploring Exotic Scope Trigger Modes](https://hackaday.com/2023/12/20/beyond-the-basics-exploring-exotic-scope-trigger-modes/)
+* [Demystifying Oscilloscope Triggering - what it does and how to use it](https://www.youtube.com/watch?v=N2novzfmVQ0)
 
 
 ## Signal Integrity
