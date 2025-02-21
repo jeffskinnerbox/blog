@@ -12,6 +12,9 @@ Version:      0.0.0
 ---------------
 
 
+
+* [DIY Yagi Antenna Sends LoRa Signals Farther](https://hackaday.com/2025/02/20/diy-yagi-antenna-sends-lora-signals-farther/)
+
 * [WisBlock Meshtastic Starter Kit](https://store.rakwireless.com/products/wisblock-meshtastic-starter-kit?variant=43683420438726)
 
 

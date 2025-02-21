@@ -9,7 +9,15 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
+
+
+
+
+
+* [DIY Yagi Antenna Sends LoRa Signals Farther](https://hackaday.com/2025/02/20/diy-yagi-antenna-sends-lora-signals-farther/)
+
+
 
 
 # LoLRa Project
@@ -22,7 +30,7 @@ The LoLRa Project is a firmware-only LoRa transmission open-source project that 
 
 
 
---------
+---------------
 
 
 
@@ -94,7 +102,7 @@ that does not rely on infrastructure like [The Things Network (TTN)](https://www
 
 
 
---------
+---------------
 
 
 
@@ -112,7 +120,7 @@ is a full-service Internet of Things provider, providing the required resources 
 
 
 
-----------
+---------------
 
 
 # Adafruit Products
@@ -432,7 +440,7 @@ by sharing knowledge and experience to guarantee interoperability between operat
 ![img](http://lora-alliance.org/portals/0/images/whatis/networkBW.png)
 
 
------
+---------------
 
 * [Reinier Van Der Lee - Building a Wireless Community Sensor Network with LoRa](https://www.youtube.com/watch?time_continue=62&v=pMGEhQ7q1qE&feature=emb_logo)
 * [LoRa crash course by Thomas Telkamp](https://www.youtube.com/watch?v=T3dGLqZrjIQ)
@@ -670,7 +678,7 @@ to the receiver in a telecommunication system.
 
 
 
-------
+---------------
 
 
 
@@ -774,7 +782,7 @@ to a main board computer or microcontroller.
 
 
 
------
+---------------
 
 
 
@@ -870,7 +878,7 @@ Combine this with a GPS tracker and a LCD display, and you got a full package
 
 
 
-------
+---------------
 
 
 
@@ -1437,7 +1445,7 @@ arduino-timer                	1.0.0     	sketchbook
 ## LoRa Node Setup
 * [ESP32 LoRaWAN Node using Arduino][41]
 
--------
+---------------
 
 
 # ESP Security

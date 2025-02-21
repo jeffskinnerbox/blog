@@ -9,10 +9,11 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
+* [DIY Yagi Antenna Sends LoRa Signals Farther](https://hackaday.com/2025/02/20/diy-yagi-antenna-sends-lora-signals-farther/)
 
 * [Thomas Telkamp (Lacuna Space) - LoRaWAN From Space](https://www.youtube.com/watch?v=vMHejtQEZf4)
 * [LoRa® based Connectivity Everywhere - Thomas Telkamp (Lacuna Space)](https://www.youtube.com/watch?v=3769Xc46eUY&t=814s)
@@ -28,6 +29,7 @@ This project is based on ESP32 boards and currently it is compatible with sx126x
 * [#302 build a 20 Dollars LoRa Satellite Ground Station and we follow the FossaSat-1 launch](https://www.youtube.com/watch?v=5k0aM-PJzo8)
 * [DIY Low-Cost LoRa Satellite Ground Station](https://hackaday.com/2022/07/07/diy-low-cost-lora-satellite-ground-station/)
 
+
 # FOSSASAT
 FOSSASAT 1 did not work.
 
@@ -36,12 +38,17 @@ FOSSASAT 1 did not work.
 
 * [Fossa Systems](https://fossa.systems/)
 
+
 # Lacuna Space
 LoRa Satellites start up
+
 * [Lacuna Space](https://lacuna.space/)
 
+
 # EchoStar Mobile
+
 * [New Satellite Platform Adds IoT Connectivity Across Europe](https://www.iotworldtoday.com/2022/07/08/new-satellite-platform-adds-iot-connectivity-across-europe/)
+
 
 # Swarm Technologies
 The Swarm is a tiny radio that can talk bi-directionally with small satellites in low Earth orbit.
@@ -55,12 +62,18 @@ It does, however, require a small antenna and maybe even a smaller antenna for i
 * [SpaceX is buying an Internet of Things smallsat company](https://www.engadget.com/spacex-buys-swarm-technologies-smallsat-company-160023968.html)
 * [Review: Hands On With The Swarm Satellite Network Eval Kit](https://hackaday.com/2021/09/07/review-hands-on-with-the-swarm-satellite-network-eval-kit/)
 
+
 # CubeSat / SatNOGS
+
 * [KRAKsat Space Systems - Polish CubeSat - PW-Sat2](https://alicja.space/)
 * [CubeSat For Under $1000?](https://hackaday.com/2021/04/28/cubesat-for-under-1000/)
 
+
 # ARGOS / IOTA
+
 * [SparkFun Launches IOTA Board for Low-Power, Global-Coverage ARGOS Satellite Communications](https://www.hackster.io/news/sparkfun-launches-iota-board-for-low-power-global-coverage-argos-satellite-communications-5f02b4c9e443)
 
+
 # Other Satellite Service for Internet
+
 * [SpaceX's Starlink Reviewed: How is it after 4 months?](https://www.youtube.com/watch?v=spD4FLfi2a4)

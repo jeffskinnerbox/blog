@@ -987,6 +987,7 @@ DSTAR, P25, Yaesu System Fusion (YSF), FCS & NXDN
 * [#1456 PCB Yagi antenna for 2.4GHz](https://www.youtube.com/watch?v=JusiGUt5Ovg)
 * [#1459 PCB Yagi antenna for 2.45GHz (part 1 of 2)](https://www.youtube.com/watch?v=I-5qf60oCKQ)
 * [Pocketable Yagi Antenna Really Shoots For Distance](https://hackaday.com/2023/11/02/pocketable-yagi-antenna-really-shoots-for-distance/)
+* [DIY Yagi Antenna Sends LoRa Signals Farther](https://hackaday.com/2025/02/20/diy-yagi-antenna-sends-lora-signals-farther/)
 
 
 ## International Space Station (ISS)

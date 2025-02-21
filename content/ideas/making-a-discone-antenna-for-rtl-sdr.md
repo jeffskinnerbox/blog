@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -80,7 +80,7 @@ with a discussion on the trade-offs and benefits of each design.
 
 
 
---------
+---------------
 
 
 
@@ -284,7 +284,7 @@ The concept of propagation refers to the various ways by which an electromagneti
 
 
 
---------
+---------------
 
 
 
@@ -402,7 +402,7 @@ A phased array antenna is an array antenna whose single radiators can be fed wit
 
 
 
--------
+---------------
 
 
 
@@ -513,7 +513,7 @@ gprMax is open source software that simulates electromagnetic wave propagation. 
 * [#292 Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A&t=647s)
 
 
--------
+---------------
 
 
 
@@ -657,7 +657,7 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 
 
 
----------
+---------------
 
 
 # Broadband Antenna
@@ -669,7 +669,7 @@ Vivaldi antennas are simple planar antennas that are very broadband.
 * [Vivaldi antennas](https://www.antenna-theory.com/antennas/aperture/vivaldi.php)
 
 
----------
+---------------
 
 
 # What Makes a Good Antenna?
@@ -722,6 +722,7 @@ A antenna tuner is a device used to match impedances between a transmitter and a
 
 ## Yagi Antenna
 
+* [DIY Yagi Antenna Sends LoRa Signals Farther](https://hackaday.com/2025/02/20/diy-yagi-antenna-sends-lora-signals-farther/)
 * [On Point: The Yagi Antenna](https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/)
 * [Lowering The Boom On Yagi Element Isolation](https://hackaday.com/2020/05/10/lowering-the-boom-on-yagi-element-isolation/)
 * [On Point: The Yagi Antenna](https://hackaday.com/2017/05/24/on-point-the-yagi-antenna/)
