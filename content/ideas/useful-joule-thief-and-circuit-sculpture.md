@@ -99,6 +99,15 @@ However, an NPN will work best as you are performing switching work, rather than
 ---------------
 
 
+# Supercapacitor Joule Thief
+
+* [Supercapacitor Joule Thief](https://www.youtube.com/watch?v=jq7cqmDtZDc)
+* [Electronic Basics](https://www.youtube.com/playlist?list=PLAROrg3NQn7cyu01HpOv5BWo217XWBZu0)
+
+
+---------------
+
+
 # Circuit Sculpture
 
 * [Cumin Lander](https://www.hackster.io/mohit/cumin-lander-9d9784)
@@ -125,6 +134,15 @@ However, an NPN will work best as you are performing switching work, rather than
 
 * [Ultra-Formable 260 Brass - 1 Foot Long Rod, 1/32" Diameter](https://www.mcmaster.com/8859K481/)
 * [433mhz RF Transmitter and Receiver Module Wireless 4 Channel Output](https://www.amazon.com/gp/product/B08SQDVY99/?th=1)
+
+
+---------------
+
+
+# Energy Harvesting from Electromagnetic Signals
+
+* [Intro to Energy Harvesting](https://www.youtube.com/watch?v=uY3x7Tycyps)
+* [Energy Harvesting from Electromagnetic Signals - Rectenna](https://www.youtube.com/watch?v=XpLCK88nVgU)
 
 
 ---------------
