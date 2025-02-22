@@ -405,6 +405,7 @@ Being numberless: The only words in their anumeric language that are somewhat qu
 An attempt to connect different "continents" of mathematics
 
 * [What Is the Langlands Program?](https://www.quantamagazine.org/what-is-the-langlands-program-20220601)
+* [One Step Closer to a 'Grand Unified Theory of Math': Geometric Langlands](https://www.youtube.com/watch?v=xuLCPv6smwo)
 * Foundations of Mathematics
     * [classical mathematics](https://en.wikipedia.org/wiki/Classical_mathematics)
     * [constructive mathematics](<https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)>)
