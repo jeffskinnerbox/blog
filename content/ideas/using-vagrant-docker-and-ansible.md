@@ -12,9 +12,12 @@ Version:      0.0.0
 * [i automated my home lab (and CLOUD) with Ansible](https://www.youtube.com/watch?v=6rpTjEpvUtc)
 * [Automate your Docker deployments with Ansible](https://www.youtube.com/watch?v=CQk9AOPh5pw)
 
+
 # Using Vagrant, Docker, and Ansible
 
+
 # Some Prerequisites
+
 
 # Ansible Semaphore
 
@@ -34,6 +37,7 @@ ansible semaphore designed for devops, has access controls to assure secure depl
 
 ---------------
 
+
 # KVM
 
 KVM (Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V).
@@ -41,6 +45,7 @@ KVM was added to the Linux Kernel (version 2.6.20) in February of 2007.
 
 * [QEMU/KVM for absolute beginners](https://www.youtube.com/watch?v=BgZHbCDFODk)
 * [Amazing Privacy Ideas with KVM Virtual Machines](https://www.youtube.com/watch?v=NIdu4haRWx0)
+
 
 # QEMU
 
@@ -59,12 +64,15 @@ Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machi
 
 [A1]:https://www.qemu.org/
 
+
 ## Virt-Manager
 
 * [Virt-Manager Is The Better Way To Manage VMs](https://www.youtube.com/watch?v=p1d_b_91YlU)
 * [Virtual Machine Manager: Virt-Manager](https://virt-manager.org/)
 
+
 ---------------
+
 
 # Multipass
 
@@ -199,6 +207,7 @@ No instances found.
 
 ---------------
 
+
 # VirtualBox
 
 [VirtualBox][09] is a [full virtualization][07] x86 / AMD64 / Intel64 hardware architecture
@@ -210,6 +219,7 @@ The VM runs as a process in a window on your current operating system.
 You can boot an operating system installer disc (or live CD) inside the virtual machine,
 and the operating system will be “tricked” into thinking it’s running on a real computer.
 It will install and run just as it would on a real, physical machine.
+
 
 ## VBoxManage
 
@@ -269,7 +279,9 @@ VBoxManage snapshot $VM take <name of snapshot>
 VBoxManage snapshot $VM restore <name of snapshot>
 ```
 
+
 ## Installing VirtualBox
+
 
 ### Step X: Installing VirtualBox
 
@@ -288,6 +300,7 @@ vagrant plugin update vagrant-vbguest
 # to repair your plugins if broken
 vagrant plugin repair vagrant-vbguest
 ```
+
 
 ### Step X: Removing VirtualBox
 
@@ -335,6 +348,7 @@ $ vagrant vbguest --status
 [default] GuestAdditions 6.0.14 running --- OK.
 ```
 
+
 ### Step X: Installing VirtualBox Guest Additions
 
 VirtualBox Guest Additions are a collection of device drivers
@@ -357,6 +371,7 @@ sudo apt-get install virtualbox-guest-additions-iso
 ```
 
 ---------------
+
 
 # Vagrant
 
@@ -412,6 +427,7 @@ The basic vagrant configuration is based in one file, the Vagrantfile. It shall 
 In this file you will define which base box you want - a box is, basically,
 a package with an operational system to be run in your virtual machine.
 
+
 ## Boxes
 
 [Boxes][12] are the package format for Vagrant environments.
@@ -426,9 +442,11 @@ provide a list of base boxes organizations / people have made publicly available
 
 Vagrant boxes are all provider-specific. A box for VirtualBox is incompatible with the VMware Fusion provider, or any other provider. A box must be installed for each provider, and can share the same name as other boxes as long as the providers differ. So you can have both a VirtualBox and VMware Fusion "precise64" box.
 
+
 ## Defining Multiple Machines
 
 * <https://www.vagrantup.com/docs/multi-machine/>
+
 
 ## What About Containers (e.g. Docker)
 
@@ -474,6 +492,7 @@ as long as a containerization system exists.
 * [How I build my personal website using containers with a Makefile](https://opensource.com/article/21/7/manage-containers-makefile)
 * [3 steps to start running containers today](https://opensource.com/article/22/2/start-running-containers)
 
+
 ## Docker vs Vagrant
 
 * [Docker Vs Vagrant](https://www.youtube.com/watch?v=9QGkJvbLpRA)
@@ -481,6 +500,7 @@ as long as a containerization system exists.
 * [Docker vs Vagrant: Which is Better for Development?](https://www.devteam.space/blog/docker-vs-vagrant-which-is-better-for-development/)
 * [Ansible and Docker: the Best Combination for an Efficient Software Product Management](https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90)
 * [Docker’s detached mode for beginners](https://www.freecodecamp.org/news/dockers-detached-mode-for-beginners-c53095193ee9/)
+
 
 ## Learning Vagrant
 
@@ -498,6 +518,7 @@ Here are some materials to learn more about Vagrant:
 
 * [Installing Vagrant and VirtualBox](https://www.youtube.com/watch?v=RhhF8Yh7OnE)
 * [Crash Course on Vagrant](https://sysadmincasts.com/episodes/42-crash-course-on-vagrant-revised)
+
 
 ## Vagrant Plugins
 
@@ -559,7 +580,9 @@ vagrant-vbguest (0.24.0, global)
   - Version Constraint: > 0
 ```
 
+
 ## Installing Vagrant
+
 
 ### Step X: Check Verisons of Installed Vagrant and VirtualBox
 
@@ -597,6 +620,7 @@ and Oracle provided a fix.
 See the article
 ["VirtualBox 6.1: No compatible version of Vagrant yet! (or is there?)"](https://oracle-base.com/blog/2020/01/01/virtualbox-6-1-no-compatible-version-of-vagrant-yet/).
 
+
 ### Step 1: Installing Vagrant and VirtualBox - DONE
 
 Its best to install both VirtualBox and Vagrant via their respective download pages,
@@ -608,6 +632,7 @@ Once you download the Vagrant deb file, click on it, and follow the instructions
 As a quick sanity check, make sure that we have the `vagrant` command in your path,
 check the version number with `vagrant -v`
 or `vagrant version` to check if your running the latest version.
+
 
 ### Step 2: Install Vagrant Hosts Updater Plugin - DONE
 
@@ -661,6 +686,7 @@ Cmnd_Alias VAGRANT_HOSTS_REMOVE = /usr/bin/sed -i -e /*/ d /etc/hosts
 For more information,
 checkout
 
+
 ### Step X: Install the vbguest Pluggin
 
 `vagrant-vbguest` is a Vagrant plugin which automatically installs the
@@ -701,6 +727,7 @@ Going on, assuming VBoxService is correct...
 [default] A Virtualbox Guest Additions installation was found but no tools to rebuild or start them.
 ```
 
+
 ### Step X: Install the Cashier Pluggin
 
 [speeds up Vagrant processing of packages](http://jeremybarthe.com/2015/02/02/speed-up-vagrant-environment-symfony2/)
@@ -740,6 +767,7 @@ E: The package lists or status file could not be parsed or opened.
 sudo rm -r -f /var/lib/apt
 sudo mkdir --parent /var/lib/apt/lists/partial
 ```
+
 
 ### Step X: Download a Vagrant Box and Build Virtual Machine
 
@@ -799,6 +827,7 @@ ubuntu/xenial64 (virtualbox, 20180706.0.0)
 vagrant box remove ubuntu/xenial64 --box-version=20180410.0.0
 ```
 
+
 ### Step 3A: Setup SSH Keys on Linux
 
 If you want to use your SSH credentials inside a Vagrant-powered VM,
@@ -820,6 +849,7 @@ Generally that won't happen, but erring on the side of caution.
 * [security - Vagrant insecure by default?](https://code-examples.net/en/q/e08b1e)
 * [Tips for a better Vagrant-based development workflow](https://www.jeffgeerling.com/blogs/jeff-geerling/better-vagrant-development-workflow)
 
+
 ### Step 3B: SSH Keys Inside Your VM - DONE
 
 If you want to use your SSH credentials inside a Vagrant VM,
@@ -836,9 +866,11 @@ config.ssh.forward_agent = true
 then usually you don't want to do this.
 Doing so your could be mistakenly give your keys away to someone using the VM.
 
+
 ### Step X: Vagrantfile Setup
 
 * [Vagrantfile Explained: Setting Up and Provisioning with Shell](https://www.sitepoint.com/vagrantfile-explained-setting-provisioning-shell/)
+
 
 ### Step X: Logging into Vagrant VM
 
@@ -880,11 +912,15 @@ Bringing machine 'default' up with 'virtualbox' provider...
 vagrant ssh
 ```
 
-### Step X
 
 ### Step X
 
+
 ### Step X
+
+
+### Step X
+
 
 ### Step X: Shutdown Vagrant Instance
 
@@ -902,9 +938,11 @@ the machine by running the guest OS shutdown mechanism.
 If this fails, or if the `--force` flag is specified,
 Vagrant will effectively just shut off power to the machine.
 
+
 # Add Public Key to Vagrant
 
 * [Add public key to Vagrant](https://medium.com/@Sohjiro/add-public-key-to-vagrant-4bd5424521bf)
+
 
 # Upload Private SSH Key to Vagrant Box on "vagrant up"
 
@@ -934,6 +972,7 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+
 # Development Workflow With Vagrant
 
 * [Managing virtual environments with Vagrant](https://opensource.com/article/18/4/vagrant-guide-get-started)
@@ -945,6 +984,7 @@ end
 * [How to create a Vagrant Virtual Machine](https://codewithintent.com/how-to-creat-a-vagrant-virtual-machine/)
 * <https://howtoprogram.xyz/2017/08/11/change-vagrant-virtual-machine-name/>
 * <https://howtoprogram.xyz/2016/07/11/basic-vagrant-commands/>
+
 
 ## Vagrant Command-Line Interface
 
@@ -992,6 +1032,7 @@ version         prints current and latest Vagrant version
 
 Check out [Vagrant's online documention][14] for adition information concurning Vagrant CLI.
 
+
 ### Step 1
 
 Before you run any of the `vagrant` commands,
@@ -1032,6 +1073,7 @@ vagrant box list
 # stop the vagrant machine
 vagrant halt
 ```
+
 
 ## Step X: Remove Old Boxes Plugin
 
@@ -1114,6 +1156,7 @@ Removing box 'ubuntu/xenial64' (v20180831.0.0) with provider 'virtualbox'...
 vagrant destroy ce0a38ee8cf347e1a125ea0cad47d28f
 ```
 
+
 ## Vagrant Tools
 
 Assuming you have only one box per provider,
@@ -1142,6 +1185,7 @@ ubuntu/xenial64 (virtualbox, 20180706.0.0)
 # remove the older ubuntu/xenial64 box
 vagrant box remove ubuntu/xenial64 --box-version=20180410.0.0
 ```
+
 
 ## Step X: Checking Status of Vagrant Boxes
 
@@ -1173,6 +1217,7 @@ vagrant box update
 The private_network is a network that is only between your host and the guest vm. If you want to make the guest vm available to others systems on the same network as your host you need to use the "public_network" setup in vagrant. This will allow your guest to get/use an IP address on the network that your host is on.
 ###############################################################################
 
+
 ## Creating a Vagrant Base Box From an Existing One
 
 * [Creating a Vagrant Base Box From an Existing One](https://scotch.io/tutorials/how-to-create-a-vagrant-base-box-from-an-existing-one)
@@ -1180,6 +1225,7 @@ The private_network is a network that is only between your host and the guest vm
 * [Creating a Custom Box from Scratch](https://www.skoblenick.com/vagrant/creating-a-custom-box-from-scratch/)
 
 ---------------
+
 
 ## Vagrant Package: Custom Vagrant Boxes by Creating Your Own Base Box
 
@@ -1191,6 +1237,7 @@ The private_network is a network that is only between your host and the guest vm
 * [Using Packer and Vagrant to Build Virtual Machines](https://blog.codeship.com/packer-vagrant-tutorial/)
 * [How to Install and use Packer on Ubuntu 18.04](https://computingforgeeks.com/how-to-install-and-use-packer/)
 * [Packer Tutorial For Beginners – Automate AMI Creation](https://devopscube.com/packer-tutorial-for-beginners/)
+
 
 # Packer
 
@@ -1216,6 +1263,7 @@ This makes it possible to use exactly the same system for development which you 
 >and installed software which is used to quickly create new running machines.
 >Machine image formats change for each platform.
 >Some examples include AMIs for an AWS EC2,VMDK/VMX files for VMware, OVF exports for VirtualBox, etc.
+
 
 ## Installing Packer
 
@@ -1250,6 +1298,7 @@ Available commands are:
     version     Prints the Packer version
 ```
 
+
 ## How to Use Packer
 
 Packer uses builders to generate images and create machines for various platforms from templates.
@@ -1276,6 +1325,7 @@ It then boots this image, runs provisioners on this new VM,
 and exports that VM to create the image.
 The imported machine is deleted prior to finishing the build.
 
+
 ### Step 1: what?
 
 Here is a basic build template
@@ -1283,6 +1333,7 @@ Here is a basic build template
 <https://devopscube.com/packer-tutorial-for-beginners/>
 
 ---------------
+
 
 # Docker
 
@@ -1313,10 +1364,12 @@ Here is a basic build template
 * [Docker for App Dev](https://www.youtube.com/watch?v=tfOqLM9HjRg&list=PL6aLoEodmDP-SwkMXsLPnD2soWE7_2fwl)
 * [Building container images with the ansible-bender tool](https://opensource.com/article/19/10/building-container-images-ansible)
 
+
 ## Docker Getting Started
 
 * [A Beginner’s Guide to Understanding and Building Docker Images](https://jfrog.com/knowledge-base/a-beginners-guide-to-understanding-and-building-docker-images/)
 * [Using Docker and Docker Compose for Local Development and Small Deployments](https://www.codementor.io/@jquacinella/docker-and-docker-compose-for-local-development-and-small-deployments-ph4p434gb)
+
 
 ## Docker Best Practices
 
@@ -1334,6 +1387,7 @@ Here is a basic build template
 * [Networking for Docker Containers Part II: Service Discovery for Traditional Apps and Microservices](https://d2iq.com/blog/networking-docker-containers-part-ii-service-discovery-traditional-apps-microservices)
 * [Networking for Docker Containers Part III: Architectural Patterns for Service Registration, Service Discovery, and Load Balancing](https://d2iq.com/blog/networking-docker-containers-part-iii-architectural-patterns-service-registration-service-discovery-load-balancing)
 
+
 ## Docker Volumes
 
 Files (and other data) stored within a Docker container does not persist if the container is deleted.
@@ -1344,6 +1398,7 @@ To overcome this, Docker volumes and bind mounts can be used.
 
 * [Understanding Docker Volumes](https://www.linode.com/docs/guides/understanding-docker-volumes/)
 
+
 ## Backup a Docker Container to Synology NAS
 
 This process is the same for all Docker containers but will be demoed on a Synology NAS as I feel that’s one of the easiest ways to display what’s actually happening. Summing up the process as easily as I can, when you create a docker container, you mount specific volumes (which are basically folders inside of the container) to a local storage location. On a Synology NAS, that’s generally the docker folder (where you store all your data), however, on other devices, it could be a local storage location. This folder contains all the important information for the container and is ultimately what you want to back up.
@@ -1351,6 +1406,7 @@ This process is the same for all Docker containers but will be demoed on a Synol
 In the event that you need to restore a docker container, you are NOT restoring a backup. You are restoring the folders that you backed up, recreating the container exactly as it was, then mounting the folder locations to ensure that the container reads your data.
 
 * [How to Back Up a Docker Container](https://www.wundertech.net/how-to-back-up-a-docker-container/)
+
 
 ## Snap
 
@@ -1367,13 +1423,14 @@ But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https:/
 
 ---------------
 
+
 # Learning Ansible
 
 Ansible 101 introduces Ansible for Linux server administration, based on the best-selling book, Ansible for DevOps.
 
 * [Ansible 101 - with Jeff Geerling](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)
-  * [Ansible for DevOps: Server and configuration management for humans](https://www.ansiblefordevops.com/)
-    * [Ansible for DevOps: Errata and Changes](https://www.ansiblefordevops.com/errata)
+    * [Ansible for DevOps: Server and configuration management for humans](https://www.ansiblefordevops.com/)
+        * [Ansible for DevOps: Errata and Changes](https://www.ansiblefordevops.com/errata)
 
 * [Ansible Documentation](https://docs.ansible.com/)
 * [Ansible GitHub](https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html)
@@ -1381,6 +1438,7 @@ Ansible 101 introduces Ansible for Linux server administration, based on the bes
 ---------------
 
 ##################### REPLACE WITH ~/src/ansible/README.md #####################
+
 
 # Ansible
 
@@ -1399,8 +1457,8 @@ The Ansible documentation has glossary that could prove to be helpful.
 * [Ansible Tutorial for Beginners](https://linuxhint.com/ansible-tutorial-beginners/)
 * [19 Minutes With Ansible (Part 1/4)](https://sysadmincasts.com/episodes/43-19-minutes-with-ansible-part-1-4)
 * [An Ansible2 Tutorial](https://serversforhackers.com/c/an-ansible2-tutorial)
-  * [Ansible: Using Vault](https://serversforhackers.com/c/ansible-using-vault)
-  * [Ansible: Roles](https://serversforhackers.com/c/ansible-roles)
+    * [Ansible: Using Vault](https://serversforhackers.com/c/ansible-using-vault)
+    * [Ansible: Roles](https://serversforhackers.com/c/ansible-roles)
 * [Vagrant Ansible Provision](https://deparkes.co.uk/2017/12/29/vagrant-ansible-provision/)
 * [Getting Started: Writing Your First Playbook](https://www.ansible.com/blog/getting-started-writing-your-first-playbook)
 * [Configuration Management 101: Writing Ansible Playbooks](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks)
@@ -1432,6 +1490,7 @@ That means you can run the same operation numerous times,
 and the output will remain consistent
 (i.e. it won't do something twice unless you ask it to).
 You can write Bash scripts this way, but it requires quite a bit more overhead.
+
 
 ## Definitions
 
@@ -1470,6 +1529,7 @@ These definitions and their relationships are depicted here:
 * **Handlers:**
 * **Variables:**
 
+
 ### Tasks vs Roles vs Handlers
 
 Creating and running tasks / playbooks /roles in Ansible can be done in different ways and this can be very confusing.
@@ -1484,13 +1544,16 @@ Source
 
 * [Ansible: Tasks vs Roles vs Handlers](https://roelofjanelsinga.com/articles/ansible-difference-between-tasks-and-roles/)
 
+
 ### How Do Ansible Playbooks Work?
 
 Ansible modules are executed within tasks. One or more Ansible tasks can be combined to make a play. Two or more plays can be combined to create an Ansible playbook. Ansible playbooks are lists of tasks that automatically execute against hosts. Groups of hosts form your Ansible inventory.
 
 Each module within an Ansible playbook performs a specific task. Each module contains metadata that determines when and where a task is executed, as well as which user executes it.
 
+
 #### Modules
+
 
 #### Tasks
 
@@ -1504,6 +1567,7 @@ Tasks are in the same file as the entire Playbook.
 This is nice for smaller Playbooks, but gets tough to understand when the Playbook gets longer.
 So you will see Tasks directories containing Task files,
 but this is where Roles might offer a better way.
+
 
 #### Roles
 
@@ -1521,6 +1585,7 @@ along with the information about which hosts to run on.
 You want it to be local to your project in case multiple projects need different versions of the same dependency.
 4. Roles play prime function in Ansible. They keep playbooks clean and readable.
 You can store the roles that you created in <https://galaxy.ansible.com/>, which is a public directory.
+
 
 #### Playbooks
 
@@ -1543,6 +1608,7 @@ You don’t need any other files to accomplish your task.
 5. So, the Playbook is a Master file, which is executable.
 The Role file, you cannot execute on its own.
 
+
 #### Handlers
 
 Handlers are Tasks, but they're executed at the very end of the Playbook.
@@ -1557,6 +1623,7 @@ A handler functions for the most part just like a task. However, it is not execu
 On a task definition, the keyword notify identifies the handlers the task wants to notify. If the task is executed and reports a changed state (not ok nor failed), then the handler will be marked for execution.
 
 After all roles and tasks have run, each notified handler will be executed, in the order they appear in the file.
+
 
 ### Playbook vs Role vs Host
 
@@ -1583,6 +1650,7 @@ Inside a playbook (e.g. `webservers.yml`) you have something like:
      - webservers
 ```
 
+
 ## Why Ansible?
 
 Unlike Puppet, Chef, and Salt:
@@ -1591,6 +1659,7 @@ Unlike Puppet, Chef, and Salt:
 * It’s writen in Python, a very mature and powerful scripting language.
 * It’s self-documenting with simple YAML files describing the playbooks and roles.
 * It’s feature-rich; often called "batteries included" hundreds of modules provided out of the box, and new ones are pretty easy to write.
+
 
 ## So what about Terraform?
 
@@ -1617,6 +1686,7 @@ For more information on the merits of Ansible, check out these sources:
 * [Ansible vs. Terraform: Fight!](https://linuxacademy.com/blog/tips/ansible-vs-terraform-fight/)
 * [Why use Terraform?](https://www.oreilly.com/learning/why-use-terraform)
 
+
 ## Ansible Roles
 
 One of the satated advantages of Ansible is that it is easy to learn and straightforward to use.
@@ -1631,6 +1701,7 @@ One of the reasons why roles are great is that they are **reusable**.
 At least they are meant to be.
 To creating reusable Ansible roles,
 you need to follow best practices, and is not as easy as it sounds.
+
 
 ## Ansible Playbook
 
@@ -1659,6 +1730,7 @@ If you want to develop your own modules, you can — the modules can be written 
 
 To run your playbook, use the command “sudo Ansible-playbook –i inventory.txt main.yml” and watch your playbook run.
 
+
 ## Creating A Role
 
 When creating a new role,
@@ -1670,6 +1742,7 @@ The tool is called `ansible-galaxy` and below is an example on how to use it:
 $ ansible-galaxy init levono.config
 lenovo.config was created successfully
 ```
+
 
 ## Inventory
 
@@ -1707,6 +1780,7 @@ find more details on [official Ansible docs on dynamic inventory][22].
 The Ansible host file can handle significantly more advanced functionality than what I am using.
 For more information, see the [Inventory documentation][40].
 
+
 ## Modules
 
 Inventory is what servers Ansible is connected to.
@@ -1732,6 +1806,7 @@ Running this module from command line can look similar to this:
 ```bash
 ansible -m copy -a "src=my_app.zip dest=/var/www/html"
 ```
+
 
 ## Tasks
 
@@ -1779,6 +1854,7 @@ In essence, the following command will be generated internally, and it will be e
 ```bash
 yum -y install mysql httpd php phpmyadmin
 ```
+
 
 ## Playbooks
 
@@ -1830,6 +1906,7 @@ Running the same playbook again is completely safe.
 * [Working With Playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html#working-with-playbooks)
 * [Ansible Playbook Structure](http://www.oznetnerd.com/ansible-playbook-structure/)
 
+
 ## Handlers
 
 During the configuration process,
@@ -1858,6 +1935,7 @@ Handlers are tasks with a few differences:
 Several tasks may trigger the same handler and it will run only once.
 This is a nice feature,
 since handlers are most commonly used to restart services or reboot servers.
+
 
 ## Variables
 
@@ -1913,6 +1991,7 @@ operating system version, hardware and network configuration and so on.
 This data is known as facts and they are cached for as long as the playbook is running
 and can be used just as variables are, with curly braces.
 
+
 ## YAML
 
 Ansible playbooks are written in [YAML][27]
@@ -1923,6 +2002,7 @@ with the addition of syntactically significant newlines and indentation, like Py
 Unlike Python, however, YAML doesn’t allow literal tab characters for indentation.
 
 * [YAML best practices for Ansible playbooks - tasks](https://www.jeffgeerling.com/blog/yaml-best-practices-ansible-playbooks-tasks)
+
 
 ### Lint Tools
 
@@ -1968,7 +2048,9 @@ rules:
     level: warning
 ```
 
+
 ## Key Ansible Files
+
 
 ### ansible.cfg File
 
@@ -1982,6 +2064,7 @@ File: ansible.cfg
 hostfile = hosts
 roles_path = galaxy:roles
 ```
+
 
 ### hosts File
 
@@ -1997,6 +2080,7 @@ File: hosts
 xxx.xxx.xxx.xxx ansible_ssh_user=bencer
 ```
 
+
 ### modules Directory
 
 If you need to download any 3rd party modules:
@@ -2006,6 +2090,7 @@ mkdir galaxy
 ansible-galaxy install --roles-path=./modules/roles jdauphant.NGINX
 ansible-galaxy install --roles-path=./modules/roles debops.php5
 ```
+
 
 ## Ansible Vault
 
@@ -2026,6 +2111,7 @@ ssh-copy-id root@remote-host
 * [How Ansible Vault Works](https://serversforhackers.com/c/how-ansible-vault-works)
 * [How To Use Vault to Protect Sensitive Ansible Data on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-use-vault-to-protect-sensitive-ansible-data-on-ubuntu-16-04)
 
+
 ## Ansible Galaxy Roles
 
 [Ansible Galaxy][33], is a free site for finding, downloading, and sharing community developed roles.
@@ -2045,6 +2131,7 @@ then download them onto your Ansible host using the command-line utility [`ansib
 
 * [How to Use Ansible Roles to Abstract your Infrastructure Environment](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-roles-to-abstract-your-infrastructure-environment)
 * [Excellent Galaxy Examples](https://galaxy.ansible.com/geerlingguy)
+
 
 ### Ansible Galaxy Useful Commands
 
@@ -2106,10 +2193,12 @@ ansible-galaxy list
 ansible-galaxy remove [role name]
 ```
 
+
 ### Getting Started and Best Practices with Ansible
 
 * [A developer's shortcut to getting started with Ansible](https://www.redhat.com/en/blog/developers-shortcut-getting-started-ansible)
 * [Ansible and Ansible Tower: best practices from the field](http://www.juliosblog.com/ansible-and-ansible-tower-best-practices-from-the-field/)
+
 
 #### Running Ad-Hoc Ansible Commands
 
@@ -2132,9 +2221,11 @@ This will result in Ansible attempting to log in via SSH to all of the servers i
 Check this out
 Ansible playbook "push_ssh_keys.yaml" - <https://opensource.com/article/17/7/automate-sysadmin-ansible>
 
+
 #### Testing Ansible Roles
 
 * [Testing Ansible roles with Molecule](https://opensource.com/article/18/12/testing-ansible-roles-molecule)
+
 
 #### Ansible and Executing Remote Commands
 
@@ -2172,6 +2263,7 @@ Sources:
 * [Getting Started With Ansible Ad Hoc Commands](https://ostechnix.com/ansible-ad-hoc-commands/)
 * [How to Run Remote Commands with Ansible Shell Module](https://www.cherryservers.com/blog/how-to-run-remote-commands-with-ansible-shell-module)
 
+
 #### Ansible and Gathering Facts
 
 Ansible facts are data gathered about target nodes (host nodes to be configured) and returned back to controller nodes.
@@ -2203,6 +2295,7 @@ Sources:
 * [Ansible Facts](https://www.educba.com/ansible-facts/)
 * [An introduction to Ansible facts](https://www.redhat.com/sysadmin/playing-ansible-facts)
 
+
 ## Install Ansible
 
 One of the beauties of Ansible is that it will not add a database,
@@ -2221,6 +2314,7 @@ We'll create an Ansible role to setup and configure Nginx web server.
 * [How to NGINX Reverse Proxy with Docker Compose](https://dzone.com/articles/how-to-nginx-reverse-proxy-with-docker-compose)
 
 Some good videos for learning Ansible can be found [here][37].
+
 
 ### Step 1: Installing Ansible - DONE
 
@@ -2300,6 +2394,7 @@ pip uninstall ansible
 >  python version = 2.7.14 (default, Sep 23 2017, 22:06:14) [GCC 7.2.0]
 >```
 
+
 ### Step 2: Install Docker Extension - DONE
 
 To manage Docker containers on remote machines,
@@ -2315,6 +2410,7 @@ docker/
 ```
 
 ####################### REMOVE TEXT BETWEEN THESE LINES ########################
+
 
 ### Step 2: Set Your Ansible Path
 
@@ -2333,10 +2429,12 @@ export ANSIBLE_ROLES_PATH="$HOME/src/ansible-roles"
 
 ####################### REMOVE TEXT BETWEEN THESE LINES ########################
 
+
 ### Step X: Installing Vim Plugin for Ansible
 
 The Vim plugin, `ansible-vim` is a syntax plugin for Ansible 2.x,
 it supports YAML playbooks, Jinja2 templates, and Ansible's hosts files.
+
 
 ### Step X: Clone Ansible Galaxy Roles
 
@@ -2350,6 +2448,7 @@ ansible-galaxy install geerlingguy.git
 # clone your desired ansible roles from galaxy to current directory
 ansible-galaxy install geerlingguy.dotfiles ---roles-path=./
 ```
+
 
 ### Step X: Create Your Remote Hosts - DONE
 
@@ -2378,6 +2477,7 @@ vagrant up
 vagrant ssh
 ```
 
+
 ### Step X: Set Up SSH Keys
 
 Ansible primarily communicates with client computers through SSH.
@@ -2389,12 +2489,14 @@ For our example here, where we are creating our Ansible hosts as Vagrant instanc
 this setup and exchange of SSH keys isn't necessary.
 It will be necessary if the Ansible host is remote.
 
+
 #### Copying Public Key Using ssh-copy-id
 
 A simpler method is to use the `ssh-copy-id` tool
 included by default in many operating systems.
 Launched from the Ansible server, the syntax is:
 `ssh-copy-id username@remote_host`.
+
 
 #### Copying Public Key Using SSH
 
@@ -2406,6 +2508,7 @@ you can upload your keys using a conventional SSH method:
 # copying public key using ssh
 cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && touch ~/.ssh/authorized_keys && chmod -R go= ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
+
 
 #### Copying Public Key Manually
 
@@ -2425,6 +2528,7 @@ and do the following:
 1. Switch to the client machine’s root user.
 1. As the root user, open the `authorized_keys` within the `~/.ssh` directory:
 1. In the file, paste your Ansible server user’s SSH key, then save the file.
+
 
 ### Step X: Create Vagrantfile and Ansible Playbook
 
@@ -2449,9 +2553,11 @@ vagrant up
 vagrant ssh
 ```
 
+
 ### Step X: Creating Ansible Nginx Role
 
 Ansible Galaxy
+
 
 ### Step X: Creating Ansible Nginx Playbook
 
@@ -2485,6 +2591,7 @@ to make use of the Ansible Playbook:
 ```bash
 ```
 
+
 ### Step X: Ansible Configuration Settings
 
 Ansible supports several sources for configuring its behavior (see [here](https://docs.ansible.com/ansible/latest/reference_appendices/config.html))
@@ -2510,6 +2617,7 @@ export ANSIBLE_CONFIG=$HOME/.ansible.cfg
 chmod go-rwx $HOME/.ansible.cfg
 ```
 
+
 ### Step X: Creating Hosts File
 
 Ansible needs to know your remote server names or IP address.
@@ -2519,11 +2627,13 @@ You can edit this one or create a new one in your `$HOME` directory,
 or better yet, place the `hosts` file in your projects directory reference it
 on the command-line when running ansible.
 
+
 ### Step X: Update and Reboot
 
 [Ansible reboot a Debian/Ubuntu Linux for kernel update and wait for it](https://www.cyberciti.biz/faq/ansible-reboot-debian-ubuntu-linux-for-kernel-update-waitforit/)
 
 ##################### REPLACE WITH ~/src/ansible/README.md #####################
+
 
 # Ansible Molecule
 
@@ -2534,6 +2644,7 @@ Molecule project is designed to aid in the development and testing of Ansible ro
 
 ---------------
 
+
 # Install Docker
 
 See my instruction on installing and maintaining Docker:
@@ -2541,12 +2652,14 @@ See my instruction on installing and maintaining Docker:
 
 ---------------
 
+
 ## Install Portainer
 
 See my instruction on installing and maintaining Portainer:
 `installing-and-maintaining-docker-and-portainer.md`.
 
 ---------------
+
 
 ## Install HashiCorp Vault
 
@@ -2561,9 +2674,11 @@ Sources:
 
 ---------------
 
+
 # Using Docker and Ansable
 
 ---------------
+
 
 # Using Vagrant and Ansible
 
@@ -2623,9 +2738,11 @@ Sometimes you may want to run Ansible manually against the machines.  - <https:/
 * [Using Vagrant and Ansible](https://docs.ansible.com/ansible/2.5/scenario_guides/guide_vagrant.html)
 * [Developing in a VM with Vagrant and Ansible](https://blog.jetbrains.com/pycharm/2017/12/developing-in-a-vm-with-vagrant-and-ansible/)
 
+
 ## Using ansible-playbook
 
 <https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html>
+
 
 ## Ansible Playbook Structure
 
@@ -2674,6 +2791,7 @@ Also see
 * [create-ansible-playbook-template.sh](https://gist.github.com/skamithi/11200462)
 * [ansible-roles-oneliner](https://gist.github.com/mralexjuarez/c4cfae2f6f4f23af1d1b)
 
+
 ### Creating a User Playbook
 
 You can't put a plaintext password into Ansible.
@@ -2708,6 +2826,7 @@ $6$j1kvmD5WQGrt8gv$/6ly6UjG0gGXfs0QtIPYWVcz31cUR1dRqFGZenlenuayf4KJF.Tgk4ZziygEZ
 Check the [Ansible documentation][28] for more information,
 such as creating an SSH key on the fly.
 
+
 ### Install Nginx
 
 * [Deploying NGINX with Ansible](https://blog.serverdensity.com/deploying-nginx-with-ansible/)
@@ -2725,9 +2844,11 @@ This will install Nginx on each server!
 * [How To Develop a Node.js TCP Server Application using PM2 and Nginx on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-develop-a-node-js-tcp-server-application-using-pm2-and-nginx-on-ubuntu-16-04)
 * [DigitalOcean Tutorals](https://www.digitalocean.com/community/tutorials)
 
+
 # Ansible Snippets
 
 <https://html5hive.org/ansible-quickies-useful-code-snippets/>
+
 
 # Ansible Callback Plugin
 
@@ -2746,6 +2867,7 @@ bin_ansible_callbacks = True
 
 * [Use Ansible's YAML callback plugin for a better CLI experience](https://www.jeffgeerling.com/blog/2018/use-ansibles-yaml-callback-plugin-better-cli-experience)
 * [Formatting stdout in a debug task of Ansible](https://stackoverflow.com/questions/50009505/formatting-stdout-in-a-debug-task-of-ansible)
+
 
 # Testing Ansible Roles
 
