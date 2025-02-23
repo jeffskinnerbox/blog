@@ -35,6 +35,7 @@ ansible semaphore designed for devops, has access controls to assure secure depl
 
 * [Ansible by Example](https://dzone.com/articles/ansible-boots-kubernetes)
 
+
 ---------------
 
 
@@ -62,7 +63,13 @@ Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machi
 * [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
 * [Stop using Virtualbox, Here's how to use QEMU instead](https://www.youtube.com/watch?v=Kq849CpGd88)
 
+[Quickemu][A2] can quickly create and run Windows, macOS and Linux virtual machines from the terminal on Linux and macOS.
+
+* [Quickemu](https://www.youtube.com/watch?v=87MCT3Ekjlo)
+* [Get Windows on Linux in 10 Minutes With These 2 Commands](https://www.howtogeek.com/get-windows-on-linux-in-10-minutes-with-quickemu/)
+
 [A1]:https://www.qemu.org/
+[A2]:https://github.com/quickemu-project
 
 
 ## Virt-Manager

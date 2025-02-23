@@ -9,7 +9,7 @@ Version:      0.0.1
 </div>
 
 
------
+---------------
 
 
 # What is Bottles?
@@ -29,6 +29,7 @@ and Bottles was developed to provide this in a GUI.
 In simple words, Bottles allows you to run different games and software in Linux
 by imitating the C drive to provide the Windows environment in Linux.
 You can also use Bottles GUI to tweaking options to change the system settings according to any specific program's requirements.
+
 
 ## How Do You Install Bottles?
 You can install Bottles through different package formats such as [DEB, Flatpak, AppImage, Snap, etc][10].
@@ -68,6 +69,7 @@ For some opinions on what package format to use, check out these websites:
 * [Snap vs. AppImage vs. Flatpak: What Is the Difference and Which Is Best for You?](https://www.makeuseof.com/snap-vs-appimage-vs-flatpak/)
 * [Run Windows Programs With Bottles in Linux](https://www.youtube.com/watch?v=o2HUNRPUDkU)
 
+
 ## I'll Use Flatpak
 I'll use Flatpak to install Bottles on my Ubuntu desktop
 (it's [Bottles recommended method][11]).
@@ -93,7 +95,7 @@ is, and is not.
 
 
 
-------
+---------------
 
 
 
@@ -111,6 +113,7 @@ I'll do it here for Ubuntu.
 Sources:
 
 * [Flatpak Tutorial - Setting up Flatpak and installing Packages](https://www.youtube.com/watch?v=31WRiI1nk8Q)
+
 
 #### Step 1: Install Flatpak - DONE
 To install Flatpak on Ubuntu 18.10 or late,
@@ -139,6 +142,7 @@ session is restarted.
 sudo shutdown -r now
 ```
 
+
 #### Step 2: Create Your First FlatPak Application - DONE
 To install Flatpak applications, you just go to [Flathub's download site][05].
 For my very first FlatPak application,
@@ -159,6 +163,7 @@ flatpak list
 # execute color picker
 flatpak run nl.hjdskes.gcolor3
 ```
+
 
 #### Step 3: Install the Bottles App - DONE
 In this case, I'm going to install [Bottles][08] so I can execute MS Windows software.
@@ -210,6 +215,7 @@ This goes quickly and then you click the **Start using Bottle** button.
 This gives you a Bottles environment with no bottles and no Libraries.
 We'll create some bottles in the next sub-section below.
 
+
 #### Step 4: List, Update, Search, Uninstall, etc. for Flatpak - DONE
 Some additional commands well worth knowing are:
 
@@ -256,7 +262,7 @@ sudo apt remove flatpak gnome-software-plugin-flatpak
 
 
 
-------
+---------------
 
 
 
@@ -283,6 +289,7 @@ Sources:
 * [How to run Windows apps on Linux with Bottles](https://www.youtube.com/watch?v=VqDgrHCPWG8)
 * [Easily Run Windows Apps On Linux With Bottles](https://www.youtube.com/watch?v=ttsGxu1o6pQ)
 
+
 #### Step 1: Create Your First Bottle
 Your first bottle will take a lengthy amount of time since many things will be
 loaded into your environment with the first bottle,
@@ -303,6 +310,14 @@ I got a message that .NET Framework 4.8 is already installed.
 If you need to mount the CD, see this [Mount an ISO image in Wine?](https://askubuntu.com/questions/278912/mount-an-iso-image-in-wine)
 
 
+---------------
+
+
+# Other Options for Windows on Linux
+[Quickemu][15] can quickly create and run Windows, macOS and Linux virtual machines from the terminal on Linux and macOS.
+
+* [Quickemu](https://www.youtube.com/watch?v=87MCT3Ekjlo)
+* [Get Windows on Linux in 10 Minutes With These 2 Commands](https://www.howtogeek.com/get-windows-on-linux-in-10-minutes-with-quickemu/)
 
 
 
@@ -314,13 +329,12 @@ If you need to mount the CD, see this [Mount an ISO image in Wine?](https://asku
 [06]:https://flathub.org/apps/details/com.usebottles.bottles
 [07]:https://www.winehq.org/
 [08]:https://usebottles.com/
-[09]:https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR&tab=subscription
 [10]:https://www.makeuseof.com/snap-vs-appimage-vs-flatpak/
 [11]:https://usebottles.com/download/
 [12]:https://flathub.org/apps/details/nl.hjdskes.gcolor3
 [13]:https://docs.usebottles.com/getting-started/first-run#your-first-bottle
 [14]:https://dotnet.microsoft.com/en-us/download/dotnet-framework/thank-you/net48-web-installer
-[15]:
+[15]:https://github.com/quickemu-project
 [16]:
 [17]:
 [18]:
