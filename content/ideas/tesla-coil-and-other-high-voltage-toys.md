@@ -261,6 +261,11 @@ The flyback transformer circuit was invented as a means of controlling the horiz
 * [Cockcroft-Walton Multiplier](https://www.youtube.com/watch?v=ep3D_LC2UzU)
 * [Let's build a voltage multiplier!](https://www.youtube.com/watch?v=4alV5LzHLE4&t=29s)
 
+**Cockroft-Walton Voltage Multiplier**
+
+* [High Voltage Power Supply for Marx Generator](https://www.instructables.com/High-Voltage-Power-Supply-For-Marx-Generator/)
+* [Build a Simple Marx Generator](https://www.instructables.com/Build-a-simple-Marx-Generator/)
+
 
 # Tesla Coil Build Guides
 

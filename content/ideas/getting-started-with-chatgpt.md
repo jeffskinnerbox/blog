@@ -79,10 +79,38 @@ Version:      0.0.0
     * [Run Gemma2 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15783.html?tracking=676d0b674d873)
 
 
+---------------
+
+
+# Large Language Models Explained
+
+* [How AI Learned to Think](https://www.youtube.com/watch?v=PvDaPeQjxOE)
+* [The Making of ChatGPT (35 Year History)](https://www.youtube.com/watch?v=OFS90-FX6pg)
+* [ChatGPT Explained Completely](https://www.youtube.com/watch?v=-4Oso9-9KTQ)
+* [The moment we stopped understanding AI](https://www.youtube.com/watch?v=UZDiGooFs54)
+
+* [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs&t=3s)
+* [Transformers (how LLMs work) explained visually](https://www.youtube.com/watch?v=wjZofJX0v4M&t=6s)
+* [How might LLMs store facts](https://www.youtube.com/watch?v=9-Jl0dxWQs8)
+
+
+# Does LLM Size Matter?
+Large Language Models (LLMs) are measured by the number of parameters they contain,
+i.e. the number of weights and biases within the neural network.
+More parameters mean a bigger, more complex model.
+Models that you can run on your PC are somewhere between 1 billion and 70 billion parameters.
+Does the size matter?
+What about quantization ... Should you run models at full 32-bit precision,
+or could 4-bit or 8-bit quantization suffice?
+
+* [Does LLM Size Matter? How Many Billions of Parameters do you REALLY Need?](https://www.youtube.com/watch?v=kgSMRmW2frA)
+
+
 # RAG
 Retrieval Augmented Generation (RAG) is the de facto technique for giving LLMs the ability to interact with any document or dataset, regardless of its size.
 
 * [RAG from the Ground Up with Python and Ollama](https://www.youtube.com/watch?v=V1Mz8gMBDMo)
+* [Chat with Graphic PDFs: Building an AI PDF Summarizer](https://pyimagesearch.com/2025/02/24/chat-with-graphic-pdfs-building-an-ai-pdf-summarizer/)
 
 
 # MSTY
