@@ -69,6 +69,16 @@ as opposed to the planar image of traditional screens that simulate depth throug
 ---------------
 
 
+# Classic Pepper's Ghost Effect
+
+* [This Raspberry Pi transparent display is made using a glass dome](https://www.tomshardware.com/raspberry-pi/this-raspberry-pi-transparent-display-is-made-using-a-glass-dome)
+    * [GitHub Files (All 3D models, code)](https://github.com/veebch/pepper)
+    * [Reflector Calculator](https://www.veeb.ch/projects/the-valley-beneath-the-pepper-dome)
+
+
+---------------
+
+
 * [Holographic FlexLED](https://www.youtube.com/watch?v=wM_Byrv9iBI)
 
 
