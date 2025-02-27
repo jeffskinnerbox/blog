@@ -14,6 +14,7 @@ Version:      0.0.0
     * Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
     * Google: [Gemini](https://gemini.google.com/app)
     * Anthropic: [Claude](https://claude.ai/login)
+    * Anthropic: [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet)
     * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
     * AI like ChatGPT:
         * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
