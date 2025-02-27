@@ -30,6 +30,8 @@ And if your sharing a project with teammates,
 you have to coordinate the environments across space & time.
 A good remedy for this can be containerization of your Python development environment.
 
+* [How to Manage Python Projects With pyproject.toml](https://realpython.com/python-pyproject-toml/)
+
 * [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 * [Don’t Manage Your Python Environments, Just Use Docker Containers](https://www.kdnuggets.com/manage-python-environments-docker-containers)
