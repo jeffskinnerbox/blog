@@ -383,6 +383,11 @@ any interface not listed there will remain under NetworkManager control.
     * [`blucat`](http://blucat.sourceforge.net/blucat/) is `netcat` for Bluetooth
     data across networks from the command line.
 
+* **Remote Desktop**
+    * [`rustdesk`][167] a self-hostable, open-source, cross-platform
+    remote desktop solution that lets you manage remote systems without relying
+    on third-party servers.
+
 * **Terminal Access**
     * [`telnet`][24] ([teletype network][85]) is a computer protocol that provides
     two-way interactive, unsecure communication used on the Internet
@@ -418,9 +423,9 @@ any interface not listed there will remain under NetworkManager control.
     * `script` command creates a typescript file from your terminal session by
     grabing the input & output of your terminal interactive session
     exactly as it's displayed in your terminal.
-    * [How to capture terminal sessions and output with the Linux script command](https://www.redhat.com/sysadmin/linux-script-command)
-    * [How to replay terminal sessions recorded with the Linux script command](https://www.redhat.com/sysadmin/playback-scriptreplay)
-    * [Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema)
+        * [How to capture terminal sessions and output with the Linux script command](https://www.redhat.com/sysadmin/linux-script-command)
+        * [How to replay terminal sessions recorded with the Linux script command](https://www.redhat.com/sysadmin/playback-scriptreplay)
+        * [Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema)
 
 ################################################################################
 
@@ -3218,7 +3223,7 @@ It can filter packets based on in-depth analysis at all layers of the [OSI model
 [164]:https://linuxhint.com/use-arping-command-linux/
 [165]:https://shownotes.opensourceisawesome.com/netdiscover/
 [166]:https://macaddress.io/
-[167]:
+[167]:https://www.youtube.com/watch?v=FIEcTNjFZNA
 [168]:
 [169]:
 [170]:
