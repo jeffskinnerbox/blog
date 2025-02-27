@@ -7,20 +7,26 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+
 ---------------
+
 
 * USA
     * Apple: [Apple Intelligence](https://www.apple.com/apple-intelligence/)
     * Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
     * Google: [Gemini](https://gemini.google.com/app)
+        * [6 things I had no idea Gemini could do](https://www.androidpolice.com/things-i-had-no-idea-gemini-could-do/)
     * Anthropic: [Claude](https://claude.ai/login)
     * Anthropic: [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet)
     * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
-    * AI like ChatGPT:
-        * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
-        * [Run New Llama 3.1 on Your Computer Privately in 10 minutes](https://www.youtube.com/watch?v=1xdneyn6zjw)
 * China
     * DeepSeek: [DeepSeek](https://www.howtogeek.com/china-deepseek-rivals-chatgpt/)
+* AI like ChatGPT:
+    * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
+    * [Run New Llama 3.1 on Your Computer Privately in 10 minutes](https://www.youtube.com/watch?v=1xdneyn6zjw)
+
+
+
 
 
 
