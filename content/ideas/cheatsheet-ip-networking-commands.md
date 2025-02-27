@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 READ THIS
@@ -499,7 +499,7 @@ http://linoxide.com/linux-command/use-ip-command-linux/
 
 
 
-------
+---------------
 
 
 
@@ -702,7 +702,7 @@ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
 
 
 
-------
+---------------
 
 
 
@@ -711,7 +711,7 @@ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
 
 
 
-------
+---------------
 
 
 
@@ -1037,7 +1037,7 @@ which gives you greater security, and allow console cables to work via
 [`screen`][101] or [`microcom`][104].
 
 
------
+---------------
 
 
 # Using wpa_cli and wpa_supplicant
@@ -1181,7 +1181,7 @@ This helps avoid confusion between names that are local Bonjour computer names
 ################################################################################
 
 
------
+---------------
 
 
 # Secure Shell (SSH)
@@ -1240,6 +1240,7 @@ Its an extremely simple means for a remote person to join a shared session you e
 
 ## tmate
 * [Share your Linux terminal with tmate](https://opensource.com/article/22/6/share-linux-terminal-tmate)
+* [Tmate – Share Your Terminal Instantly To Anyone From Anywhere](https://ostechnix.com/tmate-share-terminal-instantly-anyone-anywhere/)
 
 ## Temporary Allow SSH Logins (ssh-allow-friend)
 https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
@@ -1441,7 +1442,7 @@ iw wlan0 ibss leave
 
 
 
---------
+---------------
 
 
 
@@ -1747,7 +1748,7 @@ So `arp -a` can dump the candiate devices IP Addresses via this command:
 
 
 
-------
+---------------
 
 
 
@@ -1990,7 +1991,7 @@ sudo nmap --script vuln 192.168.1.200
 
 
 
---------
+---------------
 
 
 
@@ -2137,7 +2138,7 @@ If the connection fails, then you will get an error message of “failed: Connec
 
 
 
------
+---------------
 
 
 # Routing
@@ -2323,7 +2324,7 @@ To check your firewall rules, use the following:
 sudo /sbin/iptables -L
 ```
 
------
+---------------
 
 
 # Firewall
