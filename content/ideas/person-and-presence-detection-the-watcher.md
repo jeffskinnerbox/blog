@@ -193,6 +193,7 @@ a touch screen display, and ChatGPT.
 * [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
 * [This cool Raspberry Pi-powered storybook automatically generates stories on an eInk display](https://www.xda-developers.com/raspberry-pi-powered-storybook/)
 * M5Stack’s M5Dial – [An ESP32-S3 smart rotary knob with a touchscreen display](https://www.cnx-software.com/2023/10/08/m5dial-an-esp32-s3-smart-rotary-knob-with-a-touchscreen-display/)
+    * [Smart Controls Made Easy – M5Stack Dial with WiFi, Bluetooth & More!](https://www.youtube.com/watch?v=ra1kmkFDABk)
 
 
 
