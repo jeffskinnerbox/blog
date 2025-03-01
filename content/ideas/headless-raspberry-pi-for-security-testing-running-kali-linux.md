@@ -19,6 +19,7 @@ Version:      0.0.0
 * [Kali Linux 2020.1 Release](https://www.kali.org/releases/kali-linux-2020-1-release/)
 * [Hands-On: Kali Linux on the Raspberry Pi 4](https://www.zdnet.com/article/hands-on-kali-linux-on-the-raspberry-pi-4/)
 * [A Step-by-Step Guide to Install Kali Linux on Raspberry Pi 5](https://thesecmaster.com/a-step-by-step-guide-to-install-kali-linux-on-raspberry-pi-5/)
+* [Building a Portable Kali Box with Raspberry Pi and Touchscreen](https://www.mobile-hacker.com/2025/02/26/building-a-portable-kali-box-with-raspberry-pi-and-touchscreen/)
 
 
 
