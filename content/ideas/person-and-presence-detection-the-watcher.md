@@ -143,6 +143,12 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [The Infinite Conversation](https://infiniteconversation.com/)
 
 
+### ChatBots Communicating With Each Other
+
+* [Two AI chatbots speaking to each other in their own special language is the last thing we need](https://www.techradar.com/computing/artificial-intelligence/two-ai-chatbots-speaking-to-each-other-in-their-own-special-language-is-the-last-thing-we-need)
+    * [I made two AIs create a new language together](https://www.youtube.com/watch?v=lilk819dJQQ)
+
+
 # AI Generated Photographic Sense
 
 * [Level Up Your Desk with the Gen AI Photo Frame](https://ashishware.com/2024/02/10/gen_ai_photo_frame/)
