@@ -23,6 +23,8 @@ This program just listen for those "probe requests" and prints to serial port th
 
 * [The Eyes Have It: Stare Down Your Lighting](https://hackaday.com/2023/03/06/the-eyes-have-it-stare-down-your-lighting/)
 
+* [Adafruit 1.28" 240x240 Round TFT LCD Display](https://www.adafruit.com/product/6178)
+
 * [Make a homemade AI home assistant](https://www.raspberrypi.com/news/make-a-homemade-ai-home-assistant/)
     * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
     * [GPT Home](https://github.com/judahpaul16/gpt-home)
@@ -61,6 +63,10 @@ This can be done by making use of:
 * [This ChatGPT-powered robot koala bear is giving me serious Five Nights at Freddy's vibes](https://www.pcgamer.com/hardware/this-chatgpt-powered-robot-koala-bear-is-giving-me-serious-five-nights-at-freddys-vibes/)
 
 * [Eloquent Arduino: I help you integrate Machine Learning and Computer Vision into your processes and products.](https://eloquentarduino.com/)
+
+
+## Give Watcher a Face
+Prompt for ChatGPT: How would I taken an image and convert it to a polygon version of that image?  Can you give me a python code example?
 
 
 ## Seeed Studio: SenseCAP Watcher
