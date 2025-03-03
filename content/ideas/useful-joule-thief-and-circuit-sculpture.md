@@ -108,42 +108,6 @@ However, an NPN will work best as you are performing switching work, rather than
 ---------------
 
 
-# Circuit Sculptura (aka Freeform Electronics)
-
-* [Cumin Lander](https://www.hackster.io/mohit/cumin-lander-9d9784)
-* [Test Your Capacity for Circuit Sculpture with Flashing Lights](https://hackaday.com/2022/12/30/test-your-capacity-for-circuit-sculpture-with-flashing-lights/)
-* [Kinetic Sculpture Achieves Balance Through Machine Learning](https://hackaday.com/2018/10/26/kinetic-sculpture-achieves-balance-through-machine-learning/)
-* [The Eerie Sounds Of Ioalieia: An ESP32/Valve/Analog Hybrid Circuit Sculpture](https://hackaday.com/2022/01/15/the-eerie-sounds-of-ioalieia-an-esp32-valve-analog-hybrid-circuit-sculpture/)
-* [Mohit Bhoite's Sculptures](https://www.bhoite.com/sculptures/)
-    * [Mohit Bhoite's KT-15 Circuit Sculpture Is Ready for a Kitchen Landing with Its 4-Bit Timer](https://www.bhoite.com/sculptures/kt-15/)
-* [TWELVE CIRCUIT SCULPTURES WE CAN’T STOP LOOKING AT](https://hackaday.com/2019/01/15/twelve-circuit-sculptures-we-cant-stop-looking-at/)
-* [A little CSK satellite for a bright workstation](https://hackaday.io/project/190199-a-little-csk-satellite-for-a-bright-workstation)
-
-
-## Circuit Sculpture HowTo
-
-* [Building circuits the hard way. An introduction to freeform electronics](https://www.youtube.com/watch?v=UV9_SqKqZQ8)
-    * [ALTco](https://www.youtube.com/@ALTcorporation)
-    * [Eirik Brandal](https://www.youtube.com/c/EirikBrandalf)
-    * [MohitBhoite](https://www.youtube.com/user/mohitbhoite)
-
-* [Mohit Bhoite - Building Free-Formed Circuit Sculptures](https://www.youtube.com/watch?v=LqVFxNFGNbc)
-* [Bend It Like Bhoite: Circuit Sculptures Shatter The Bounds Of Flatland](https://hackaday.com/2019/12/27/bend-it-like-bhoite-circuit-sculptures-shatter-the-bounds-of-flatland/)
-
-* [555 Lab - Introduction to the 555 Timer IC](https://www.allaboutcircuits.com/textbook/experiments/chpt-8/555-ic/)
-* [555 Timer Circuits](https://www.555-timer-circuits.com/)
-* [Learn to build electronics with Oyvind's Circuit Tips](https://www.build-electronic-circuits.com/)
-
-
-## Circuit Sculpture Supplies
-
-* [Ultra-Formable 260 Brass - 1 Foot Long Rod, 1/32" Diameter](https://www.mcmaster.com/8859K481/)
-* [433mhz RF Transmitter and Receiver Module Wireless 4 Channel Output](https://www.amazon.com/gp/product/B08SQDVY99/?th=1)
-
-
----------------
-
-
 # Energy Harvesting from Electromagnetic Signals
 
 * [Intro to Energy Harvesting](https://www.youtube.com/watch?v=uY3x7Tycyps)

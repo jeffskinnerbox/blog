@@ -807,7 +807,7 @@ An international mobile subscriber identity (IMSI) is a unique number, usually f
 * [This Camera Can SEE WiFi](https://www.youtube.com/watch?v=zijQUOHOshY&t=765s)
 
 
-# Electronic Art / Sculpture
+# Electronic Art
 What if the presence detection said "hi" to the people entering the room or house?
 What if it took their picture or other action?
 

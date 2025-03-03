@@ -137,7 +137,6 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [Glacial Soundscapes with Evolving Drone Tones!](https://blog.tindie.com/2020/07/glacial-soundscapes-with-evolving-drone-tones/)
 * [MicroSynth Mixes All-Analog Fun With A Little Business](https://hackaday.com/2021/09/30/microsynth-mixes-all-analog-fun-with-a-little-business/)
 * [Exquisite Ray Gun Has Sound Effects](https://hackaday.com/2021/10/07/halloween-build-exquisite-ray-gun-has-sound-effects/)
-* [The Eerie Sounds Of Ioalieia: An ESP32/Valve/Analog Hybrid Circuit Sculpture](https://hackaday.com/2022/01/15/the-eerie-sounds-of-ioalieia-an-esp32-valve-analog-hybrid-circuit-sculpture/)
 
 
 # Sound Classification

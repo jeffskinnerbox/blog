@@ -9,7 +9,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 
@@ -26,22 +26,27 @@ _Chaos: When the present determines the future, but, the approximate present doe
 * [Analog Lorenz Attractor Computer](https://hackaday.io/project/191142-analog-lorenz-attractor-computer)
 * [Simulating Chaos Theory in Python || Lorenz Attractor & The butterfly effect!](https://www.youtube.com/watch?v=GdNjTJZnTmM)
 
+
 # 1st Example of Chaos
+
 * Henri Poincaré - In his research on the three-body problem, Poincaré became the first person to discover a chaotic deterministic system.
 * Edward Lorenz and the butterfly effect - He first observed the phenomenon as early as 1961
 * Gravitation - See Simon Tardivel 4 body animation of gravitation at the 54:26 time mark - [Chaos theory and geometry: can they predict our world?](https://www.youtube.com/watch?v=RkiEV47KPX4)
+
 
 # Jerk Circuit
 Jerk circuit are discribed by equation involves the third derivative of x (time derivative of acceleration).
 Such type of a differential equation is called a ‘jerk’ equation.
 
 * [Chaos from Jerk Circuit](https://www.ias.ac.in/article/fulltext/reso/015/03/0257-0267)
-* [This Lighthouse Sculpture Flickers in the Rhythm of Chaos](https://hackaday.com/2023/06/06/op-amp-contest-this-lighthouse-sculpture-flickers-in-the-rhythm-of-chaos/)
-    * [Sprott’s chaotic jerk circuit](https://sprott.physics.wisc.edu/pubs/paper352.htm)
+* [Sprott’s chaotic jerk circuit](https://sprott.physics.wisc.edu/pubs/paper352.htm)
 * [The Jerkster](http://ijfritz.byethost4.com/Chaos/ch_cir2.htm)
 
+
 # Chaos Theory for Synthesizers
+
 * [Chaos Theory for Synthesizers](http://ijfritz.byethost4.com/Chaos/ch_over.htm)
+
 
 # "Period Three Implies Chaos" Theory
 The theorem refers to period in the sense of function iterations,
@@ -72,6 +77,8 @@ That is, the periodic points are dense in the interval.
 * [Period Three Implies Chaos](https://www.its.caltech.edu/~matilde/LiYorke.pdf)
 * [Period three implies chaos](https://www.johndcook.com/blog/2021/04/09/period-three-implies-chaos/)
 
+
 # Chaos Control
+
 * [How Chaos Control Is Changing The World](https://www.youtube.com/watch?v=q1-cwamhwag)
 
