@@ -108,7 +108,7 @@ However, an NPN will work best as you are performing switching work, rather than
 ---------------
 
 
-# Circuit Sculpture
+# Circuit Sculptura (aka Freeform Electronics)
 
 * [Cumin Lander](https://www.hackster.io/mohit/cumin-lander-9d9784)
 * [Test Your Capacity for Circuit Sculpture with Flashing Lights](https://hackaday.com/2022/12/30/test-your-capacity-for-circuit-sculpture-with-flashing-lights/)
@@ -121,6 +121,11 @@ However, an NPN will work best as you are performing switching work, rather than
 
 
 ## Circuit Sculpture HowTo
+
+* [Building circuits the hard way. An introduction to freeform electronics](https://www.youtube.com/watch?v=UV9_SqKqZQ8)
+    * [ALTco](https://www.youtube.com/@ALTcorporation)
+    * [Eirik Brandal](https://www.youtube.com/c/EirikBrandalf)
+    * [MohitBhoite](https://www.youtube.com/user/mohitbhoite)
 
 * [Mohit Bhoite - Building Free-Formed Circuit Sculptures](https://www.youtube.com/watch?v=LqVFxNFGNbc)
 * [Bend It Like Bhoite: Circuit Sculptures Shatter The Bounds Of Flatland](https://hackaday.com/2019/12/27/bend-it-like-bhoite-circuit-sculptures-shatter-the-bounds-of-flatland/)
