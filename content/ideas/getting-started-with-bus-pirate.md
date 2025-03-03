@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 * [Hands On: Bus Pirate 5](https://hackaday.com/2024/02/12/hands-on-bus-pirate-5/)
+* [The Bus Pirate 5 Sure Can Glitch](https://hackaday.com/2025/03/01/the-bus-pirate-5-sure-can-glitch/)
 
 
 * [Hands-On: GreatFET Is An Embedded Tool That Does It All](https://hackaday.com/2019/07/02/hands-on-greatfet-is-an-embedded-tool-that-does-it-all/)
@@ -53,7 +54,9 @@ This posting documents my initial run at the Bus Pirate.
 My initial efforts where to run the self-testing, update the firmware, and study the documentation.
 Doesn't sound like much but this little board is packed with functionality.
 
+
 # Understanding UART and I2C
+
 * [Introduction to the I2C Bus](https://www.youtube.com/watch?v=oRTq8HI4UGs&feature=youtu.be)
 * [How to Communicate with UART](https://www.youtube.com/watch?v=e8uEKWpVf10&feature=youtu.be)
 * [Introduction to the I2C Bus](http://www.allaboutcircuits.com/technical-articles/introduction-to-the-i2c-bus/)
@@ -63,6 +66,7 @@ Doesn't sound like much but this little board is packed with functionality.
 * [Bus Pirate Commandeers I2C](http://hackaday.com/2017/02/07/bus-pirate-commandeers-i2c/)
 * [UART Transceiver for breadboard computer](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html)
 * [DIY I2C Tester](https://hackaday.com/2021/03/23/diy-i2c-tester/)
+
 
 ## Bus Pirate Self-Test
 To use Bus Pirate, you'll need to connect with it via a terminal emulator.
@@ -90,6 +94,7 @@ The test failed ... Specifically it failed the voltage test.  I suspected that 
 The moral of the story is that the Bus Pirate needs to be used with a powered hub on the RPi.  Also, its a
 [good practice][05] to power both the RPi and the device ( Bus Pirate, WiFi, etc.) from the same hub.
 
+
 ## Persistent Names for the Bus Pirate USB Devices
 Now that I must use a hub, I'm going to have to dance around to figure out what `ttyUSB*` the Bus Pirate is attached too.
 I'm growing tired of the dance so I'm going to make the [device name persistent][06].
@@ -115,6 +120,7 @@ SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{seria
 Now unplug and then plug back in the Bus Pirate.  If you do `ls -l /dev/buspirate` you'll see the device and its symbolic link.  No more USB port dancing to find the Bus Pirate!
 Repeat the Bus Pirate self-test with  `microcom -p /dev/buspirate` and you should have an error free run when attached to the USB hub.
 Note that depending on your permissions setting on your system, you might have to use `sudo microcom -p /dev/buspirate`.
+
 
 ## Bus Pirate Firmware Update
 While in the Bus Pirate (v3.6 as stated on the board),
@@ -151,6 +157,7 @@ http://dangerousprototypes.com
 
 You can also do a hardware [self-test][13] to further verify things are in working order.
 
+
 ## User Modes
 The Bus Pirate can be used directly via a user thought a terminal or can be driven
 via a script written in a verity of languages.
@@ -158,12 +165,14 @@ via a script written in a verity of languages.
 * **User Terminal Mode** - The Bus Pirate is accessed from a command line in a serial terminal.  The Bus Pirate always starts in high impedance mode (Hi-Z), a safe mode with all outputs disabled.  It's intended to protect any connected devices from conditions beyond their specifications.  From there, a bus mode can be selected to use the Bus Pirate with a specific protocol.  For more information, see [Bus Pirate user interface][19] and [Bus Pirate menu options guide][20].
 * **Binary Scripting Mode** - It is possible to automate the commands to the Bus Pirate using command chaining and scripting.  Scripting control examples are provided in the libraries like the [pyBusPirateLite][14] Python library.  See [Bus Pirate Scripting][18] in Python for more information.
 
+
 ## Bus Pirate Cable Pinouts
 Below is a reference cards for the [Bus Pirate probe cable pinout][16].
 Note that this is for the [Seeed Studio probe cable][15], and the color coding maybe different for other vendors.
 [![reference card](/img/posts/jekyll-posts/seeedstudio-bus-pirate-probe-cable-pinout.png "bus priate pinout reference card")](http://dangerousprototypes.com/docs/Common_Bus_Pirate_cable_pinouts)
 [![cable connector](/img/posts/jekyll-posts/seeedstudio-bus-pirate-probe-cable-connector.jpg "bus priate probe connector")](http://dangerousprototypes.com/docs/Common_Bus_Pirate_cable_pinouts)
 [![cable connector colors](/img/posts/jekyll-posts/seeedstudio-bus-pirate-probe-cable-connector-colors.jpg "bus priate probe connector wire colors")](http://dangerousprototypes.com/docs/Common_Bus_Pirate_cable_pinouts)
+
 
 ## Bus Pirate Documentation
 The Bus Pirate documentation is considerable but not easy to consume and master,
@@ -232,6 +241,7 @@ you'll need to work with the Bus Pirate and an attached device while reading the
 
 
 # FTDI
+
 * [Using FTDI Chips With Python](https://hackaday.com/2018/12/19/using-ftdi-chips-with-python/)
 
 
@@ -239,7 +249,6 @@ you'll need to work with the Bus Pirate and an attached device while reading the
 [01]:http://www.seeedstudio.com/depot/bus-pirate-v3-assembled-p-609.html?cPath=61_68
 [02]:http://dangerousprototypes.com/docs/Bus_Pirate
 [03]:http://manpages.ubuntu.com/manpages/lucid/man1/microcom.1.html
-[04]:http://dangerousprototypes.com/docs/Self-test_guide
 [05]:http://elinux.org/RPi_VerifiedPeripherals
 [06]:http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/
 [07]:http://linux.die.net/man/8/lsusb
