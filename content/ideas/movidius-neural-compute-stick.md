@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 # Version 2
+
 * [Neural Compute Stick 2 from Intel brings faster deep learning development to the edge](https://www.vision-systems.com/articles/2018/11/neural-compute-stick-2-from-intel-brings-faster-deep-learning-development-to-the-edge.html)
 * [Plugging in Intel’s Neural Compute Stick 2](https://www.electronicdesign.com/embedded-revolution/plugging-intel-s-neural-compute-stick-2)
 * [Intel to Discontinue First-Gen Movidius Neural Compute Stick](https://www.anandtech.com/show/14295/intel-to-discontinue-movidius-neural-compute-stick)
@@ -23,6 +24,7 @@ Version:      0.0.0
 
 
 # Google Rdge TPU
+
 * [Google’s AI Processor’s (TPU) Heart Throbbing Inspiration](https://medium.com/intuitionmachine/googles-ai-processor-is-inspired-by-the-heart-d0f01b72defe)
 * [Raspberry Pi gets supercharged for AI by Google's Edge TPU Accelerator](https://www.techrepublic.com/article/raspberry-pi-gets-supercharged-for-ai-by-googles-edge-tpu-accelerator/)
 * [Getting started with Google Coral’s TPU USB Accelerator](https://www.pyimagesearch.com/2019/04/22/getting-started-with-google-corals-tpu-usb-accelerator/)
@@ -39,7 +41,9 @@ Version:      0.0.0
 * [webrtcH4cKS: ~ AIY Vision Kit Part 1: TensorFlow Computer Vision on a Raspberry Pi Zero](https://webrtchacks.com/aiy-vision-kit-tensorflow-uv4l-webrtc/)
 * [webrtcH4cKS: ~ Part 2: Building a AIY Vision Kit Web Server with UV4L](https://webrtchacks.com/aiy-vision-kit-uv4l-web-server/)
 
+
 # Study Plan
+
 1. [Make Your Own Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G)
 1. [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 1. [Comparing Top Deep Learning Frameworks: Deeplearning4j, PyTorch, TensorFlow, Caffe, Keras, MxNet, Gluon & CNTK](https://deeplearning4j.org/compare-dl4j-tensorflow-pytorch#comparing-top-deep-learning-frameworks-deeplearning4j-pytorch-tensorflow-caffe-keras-mxnet-gluon--cntk)
@@ -52,9 +56,9 @@ Version:      0.0.0
 
 
 ################################################################################
-Synthetic Sensor - http://www.gierad.com/projects/supersensor/
-·         Roughly 30 percent of neurons in the brain's cortex are devoted to vision, compared with 8 percent for touch, and 2 percent for hearing - http://channel.nationalgeographic.com/brain-games/articles/brain-games-watch-this-perception-facts/
-·         Vision Is Our Dominant Sense - https://www.brainline.org/article/vision-our-dominant-sense
+Synthetic Sensor - <http://www.gierad.com/projects/supersensor/>
+·         Roughly 30 percent of neurons in the brain's cortex are devoted to vision, compared with 8 percent for touch, and 2 percent for hearing - <http://channel.nationalgeographic.com/brain-games/articles/brain-games-watch-this-perception-facts/>
+·         Vision Is Our Dominant Sense - <https://www.brainline.org/article/vision-our-dominant-sense>
 
 There was overwhelming interest for the Movidius Neural Compute Stick (see attachment) when it first came out and the first production batch was sold out in the first few days. Late October, a new batch hit the market and I purchased one.
 
@@ -153,6 +157,7 @@ and applications written for the Neural Compute Stick to the NCS community.
 
 ################################################################################
 Guidance on implementation:
+
 * [MobileNets on Intel® Movidius™ Neural Compute Stick and Raspberry Pi 3](https://software.intel.com/en-us/articles/mobilenets-on-intel-movidius-neural-compute-stick-and-raspberry-pi-3)
 * [Deploying MobileNet on Microcontrollers](https://www.hackster.io/news/deploying-mobilenet-on-microcontrollers-31f2623ab383)
 * [Getting started with the Intel Movidius Neural Compute Stick](https://www.pyimagesearch.com/2018/02/12/getting-started-with-the-intel-movidius-neural-compute-stick/)
@@ -169,10 +174,15 @@ Guidance on implementation:
 
 * [Raspberry Pi and Movidius NCS Face Recognition](https://www.pyimagesearch.com/2020/01/06/raspberry-pi-and-movidius-ncs-face-recognition/)
 
+
 # Faster Objects, More Objects (FOMO)
+
 * [FOMO is a TinyML neural network for real-time object detection](https://bdtechtalks.com/2022/04/18/fomo-tinyml-object-detection/)
 
+
 # You Only Look Once (YOLO)
+
+* [YOLO Object Detection on the Raspberry Pi AI HAT | Writing Python Scripts](https://www.youtube.com/watch?v=Zht2G1htFHA&t=20s)
 * [A Comprehensive and Detailed Introduction to YOLOv8](https://www.dfrobot.com/blog-13844.html?tracking=666ab8940c8ae)
 * [Object Tracking with YOLOv8 and Python](https://pyimagesearch.com/2024/06/17/object-tracking-with-yolov8-and-python/)
 * [Training the YOLOv8 Object Detector for OAK-D](https://pyimagesearch.com/2023/05/01/training-the-yolov8-object-detector-for-oak-d/)
@@ -185,7 +195,7 @@ Guidance on implementation:
 * [Gentle guide on how YOLO Object Localization works with Keras (Part 1)](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)
 * [Gentle guide on how YOLO Object Localization works with Keras (Part 2)](https://heartbeat.fritz.ai/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-2-65fe59ac12d)
 * [YOLO Object Detection](https://www.youtube.com/watch?v=4eIBisqx9_g)
-    * https://github.com/llSourcell/YOLO_Object_Detection
+    * <https://github.com/llSourcell/YOLO_Object_Detection>
 
 * [What’s new in YOLO v3?](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 * [YOLO for Intel/Movidius Neural Compute Stick (NCS)](https://github.com/gudovskiy/yoloNCS)
@@ -215,6 +225,7 @@ to unify these offerings for the application developer.
 * [OpenVINO Toolkit Accelerates Computer Vision Development across Intel® Platforms](https://software.intel.com/en-us/blogs/2018/05/16/openvino-toolkit-accelerates-cv-development-across-intel-platforms)
 * [OpenVINO Toolkit](https://software.intel.com/en-us/openvino-toolkit)
 * [OpenVINO](https://github.com/openvinotoolkit/openvino)
+
 
 # Step 1: Build Movidius NCS SDK
 To quickly get going, check out the [Movidius NCS Quick Start Guide][08].
