@@ -135,46 +135,6 @@ Proxmox Training / Tutorials
     * [You can virtualize your router and firewall - here's how](https://www.xda-developers.com/you-can-virtualize-your-router-and-firewall-heres-how/)
 
 
-# Linux Hypervisor Setup
-
-* [Linux Hypervisor Setup (libvirt/qemu/kvm)](https://www.youtube.com/watch?v=HfNKpT2jo7U)
-* [Headless Virtual Machines, Headless Servers](https://www.youtube.com/watch?v=Q2OHR-uJMcU&list=PLJvGMqQH5qsmuTuDRAzX1Cy9MdSmf7hnu)
-
-
-## KVM
-KVM (Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V).
-KVM was added to the Linux Kernel (version 2.6.20) in February of 2007.
-
-* [QEMU/KVM for absolute beginners](https://www.youtube.com/watch?v=BgZHbCDFODk)
-* [Amazing Privacy Ideas with KVM Virtual Machines](https://www.youtube.com/watch?v=NIdu4haRWx0)
-
-
-## QEMU
-[QEMU (Quick EMUlator][A1] calls itself a generic and open source machine emulator and virtualizer.
-A machine emulator that can run operating systems & programs for one machine on a different machine.
-Mostly QEMU is not used as emulator but as virtualizer in collaboration with KVM kernel components.
-In that case it utilizes the virtualization technology of the hardware to virtualize guests.
-
-QEMU is a type 2 hypervisor that runs within user space and performs virtual hardware emulation, whereas KVM is a type 1 hypervisor that runs in kernel space, that allows a user space program access to the hardware virtualization features of various processors.
-
-Proxmox VE vs Qemu: What are the differences? - <https://stackshare.io/stackups/proxmox-ve-vs-qemu>
-Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines>
-
-* [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
-* [Stop using Virtualbox, Here's how to use QEMU instead](https://www.youtube.com/watch?v=Kq849CpGd88)
-
-[A1]:https://www.qemu.org/
-
-
-# libvirt
-
-
-## Virt-Manager
-
-* [Virt-Manager Is The Better Way To Manage VMs](https://www.youtube.com/watch?v=p1d_b_91YlU)
-* [Virtual Machine Manager: Virt-Manager](https://virt-manager.org/)
-
-
 ## Install Proxmox VE on Debian OS
 Installation of Proxmox on a native bare metal is recommended,
 but it may be desirable to install Proxmox on an existing Debian OS or within a Debian vitural machine.
