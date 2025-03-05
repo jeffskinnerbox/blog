@@ -51,12 +51,17 @@ Conbine this with a [AC/DC Control Relay](https://dlidirect.com/products/iot-pow
 
 On Feburay 7, 2025 I backed the KickStarter and Estimated delivery in March 2025.
 
+How to self host the JetKVM Dloud feature - [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
+
 * [JetKVM](https://jetkvm.com/)
+* [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
 * [This tiny KVM controls your PC—anywhere!](https://www.youtube.com/watch?v=6pYfHedjjgw)
 * [The Smallest KVM-Over-IP, and it's CHEAP! - JetKVM Review](https://www.youtube.com/watch?v=6pYfHedjjgw)
 * [The Jet KVM is Pretty Useful!](https://www.youtube.com/watch?v=Lb7bz075Vw4)
 * [JetKVM: $69 KVM-Over-IP Device too Good to be True?](https://www.youtube.com/watch?v=L9Wyh1rKMkk)
+
 * [AC/DC Control Relay: IoT Relay](https://dlidirect.com/products/iot-power-relay)
+* [ezcoo hdmi kvm switch](https://www.amazon.com/Computer-Monitor-Keyboard-Printer-Windows/dp/B09ZKZK7ZB/)
 
 
 ---------------
