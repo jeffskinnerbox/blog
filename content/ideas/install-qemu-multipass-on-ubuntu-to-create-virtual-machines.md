@@ -1,6 +1,45 @@
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+</div>
 
 
 ---------------
+
+
+
+* [Setting Up Virtual Machines with QEMU, KVM, and Virt-Manager on Debian/Ubuntu](https://linuxconfig.org/setting-up-virtual-machines-with-qemu-kvm-and-virt-manager-on-debian-ubuntu)
+
+* [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
+* [The Ultimate System - QEMU and VM Setup](https://www.youtube.com/watch?v=K2gliga5Vwc)
+* [Stop using Virtualbox, Here's how to use QEMU instead](https://www.youtube.com/watch?v=Kq849CpGd88)
+* [Virtualisation with QEMU](https://documentation.ubuntu.com/server/how-to/virtualisation/qemu/index.html)
+* [Installing KVM / QEMU on Ubuntu 24.04 and fixing the NAT](https://blog.wirelessmoves.com/2024/10/installing-kvm-qemu-on-ubuntu-24-04-and-fixing-the-nat.html)
+* [Install and Use Qemu on Ubuntu](https://itsfoss.com/qemu-ubuntu/)
+* [How to Install QEMU/KVM on Ubuntu to Create Virtual Machines](https://www.tecmint.com/install-qemu-kvm-ubuntu-create-virtual-machines/)
+
+
+
+
+
+# My Virtualization Technology Life Style
+There is a wide verity of virtualization technology available for software development, testing, and deployment.
+It allows you to run multiple virtual machines (VMs) on a single physical machine, each with its own isolated operating system and resources.
+I have used Vagrant/VirtualBox for several years, and while it served me well,
+for many projects it can take considerable time to setup and get productive.
+I have also used Proxmox, which can be easier to set up, its main drawback for me is that you must dedicate the whole hardware box to Proxmox.
+(since its a type 1 hypervisor).
+And of course I have used Docker, mainly for installing standalone applications/tools but not for standalone operating system environments.
+
+I work mainly in Ubuntu, and I'm looking for something I can bring up quickly, and get to work.
+For example, I need to bring up Windows from time-to-time, and I would like to do this quickly without much delay.
+QEMU and Multipass seem more like what I'm looking for as my user experience.
+In this document, I plan to focus on the Debian or Ubuntu Linux distributions using QEMU, KVM (Kernel-based Virtual Machine), and Virt-Manager.
 
 
 # Linux Hypervisor Setup
@@ -28,15 +67,6 @@ QEMU is a type 2 hypervisor that runs within user space and performs virtual har
 Proxmox VE vs Qemu: What are the differences? - <https://stackshare.io/stackups/proxmox-ve-vs-qemu>
 Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines>
 
-* [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
-* [The Ultimate System - QEMU and VM Setup](https://www.youtube.com/watch?v=K2gliga5Vwc)
-* [Stop using Virtualbox, Here's how to use QEMU instead](https://www.youtube.com/watch?v=Kq849CpGd88)
-* [Virtualisation with QEMU](https://documentation.ubuntu.com/server/how-to/virtualisation/qemu/index.html)
-* [Installing KVM / QEMU on Ubuntu 24.04 and fixing the NAT](https://blog.wirelessmoves.com/2024/10/installing-kvm-qemu-on-ubuntu-24-04-and-fixing-the-nat.html)
-* [Install and Use Qemu on Ubuntu](https://itsfoss.com/qemu-ubuntu/)
-* [How to Install QEMU/KVM on Ubuntu to Create Virtual Machines](https://www.tecmint.com/install-qemu-kvm-ubuntu-create-virtual-machines/)
-
-[A1]:https://www.qemu.org/
 
 
 # libvirt
@@ -47,17 +77,6 @@ Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machi
 * [Virt-Manager Is The Better Way To Manage VMs](https://www.youtube.com/watch?v=p1d_b_91YlU)
 * [Virtual Machine Manager: Virt-Manager](https://virt-manager.org/)
 
-
----------------
-
-
-# KVM
-
-KVM (Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V).
-KVM was added to the Linux Kernel (version 2.6.20) in February of 2007.
-
-* [QEMU/KVM for absolute beginners](https://www.youtube.com/watch?v=BgZHbCDFODk)
-* [Amazing Privacy Ideas with KVM Virtual Machines](https://www.youtube.com/watch?v=NIdu4haRWx0)
 
 
 ---------------
@@ -380,17 +399,6 @@ Sources:
 * [Canonical Ubuntu Tutorials: Install and Configure Samba](https://ubuntu.com/tutorials/install-and-configure-samba#1-overview)
 
 
-
-[A2]:https://github.com/quickemu-project
-[A3]:https://github.com/quickemu-project/quickgui
-[A4]:https://github.com/quickemu-project/quickemu
-[A5]:https://www.spice-space.org/download.html
-[A6]:https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
-[A7]:https://github.com/quickemu-project/quickemu/blob/master/quickget
-[A8]:https://virt-manager.org/
-[A9]:https://libvirt.org/
-
-
 ---------------
 
 
@@ -528,4 +536,15 @@ No instances found.
 
 ---------------
 
+
+
+[A1]:https://www.qemu.org/
+[A2]:https://github.com/quickemu-project
+[A3]:https://github.com/quickemu-project/quickgui
+[A4]:https://github.com/quickemu-project/quickemu
+[A5]:https://www.spice-space.org/download.html
+[A6]:https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
+[A7]:https://github.com/quickemu-project/quickemu/blob/master/quickget
+[A8]:https://virt-manager.org/
+[A9]:https://libvirt.org/
 
