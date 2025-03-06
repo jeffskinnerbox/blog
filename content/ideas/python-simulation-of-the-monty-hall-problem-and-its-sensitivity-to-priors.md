@@ -146,6 +146,15 @@ Is it in your best interest to switch?
 ---------------
 
 
+# Bertrand's Box Paradox
+
+* [Ranking Paradoxes, From Least to Most Paradoxical](https://www.youtube.com/watch?v=1vJsWKg2o1w)
+
+
+
+---------------
+
+
 
 # The Prior
 
@@ -312,4 +321,11 @@ Here are some other differences between information and knowledge:
 The relationship between data, information, and knowledge can be thought of as a process that's not uni-directional.
 For example, knowledge gained from analyzing information can reveal gaps in the data,
 which can lead to changes in how the data is collected or converted into information.
+
+
+---------------
+
+
+# The Birthday Paradox
+* [Simple Explanation of the Birthday Paradox](https://www.youtube.com/watch?v=OcCRflNM-Xk)
 

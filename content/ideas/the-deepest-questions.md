@@ -324,6 +324,7 @@ Some have thought that logic will one day be completed and all its problems solv
 * [Logic at its Limit: The Grelling-Nelson Paradox](https://www.youtube.com/watch?v=U2l-Ty5yyU4)
 * [Berry's Paradox - An Algorithm For Truth](https://www.youtube.com/watch?v=FDXf1XxCXAk)
 * [Carneades.org](https://www.youtube.com/c/carneadesofcyrene/search?query=paradox)
+* [Ranking Paradoxes, From Least to Most Paradoxical](https://www.youtube.com/watch?v=1vJsWKg2o1w)
 
 
 ## Philosophy of Numbers
