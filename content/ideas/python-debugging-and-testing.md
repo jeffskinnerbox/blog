@@ -538,3 +538,32 @@ It supports the following types of projects:
 * [Make a 2D Side-Scroller Game With PyGame](https://realpython.com/courses/pygame-primer/)
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 * [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
+
+
+---------------
+
+
+# Making a Main Function
+In Python, there's a way to ask, are we being run from the command-line or being imported as a module?
+Or put another way, is our current Python module the entry point to our Python process?
+This question can be asked using the statements like this:
+
+```python
+def main():
+    .
+    .
+    .
+
+if __name__ == "__main__"
+    main()
+```
+
+If you need to make a single Python file that can both be **used as a module** (i.e. is being imported)
+and can be **run as a Python script** to do something,
+you can check the variable `__name__` in your module to see whether it's equal to the string `"__main__"`.
+
+* [Defining a main function in Python](https://www.pythonmorsels.com/making-main-function-python/)
+
+
+---------------
+
