@@ -18,7 +18,7 @@ Version:      0.0.0
         * [6 things I had no idea Gemini could do](https://www.androidpolice.com/things-i-had-no-idea-gemini-could-do/)
     * Anthropic: [Claude](https://claude.ai/login)
     * Anthropic: [Claude 3.7 Sonnet](https://www.anthropic.com/news/claude-3-7-sonnet)
-    * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/)
+    * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/), [You now have access to OpenAI o1 and OpenAI o3-mini](https://platform.openai.com/docs/models/compare)
 * China
     * DeepSeek: [DeepSeek](https://www.howtogeek.com/china-deepseek-rivals-chatgpt/)
 * AI like ChatGPT:
@@ -29,7 +29,12 @@ Version:      0.0.0
 
 
 
+---------------
 
+
+# Advice on Prompting
+
+* [Advice on prompting](https://platform.openai.com/docs/guides/reasoning#advice-on-prompting)
 
 
 ---------------
