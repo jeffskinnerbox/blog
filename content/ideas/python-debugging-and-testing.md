@@ -77,6 +77,8 @@ A good remedy for this can be containerization of your Python development enviro
 
 # Debugging Tools & Techniques
 
+* [30 Must-Know Tools for Python Development](https://www.kdnuggets.com/2025/02/nettresults/30-must-know-tools-for-python-development)
+
 * [breakpoint: debugging in Python](https://www.pythonmorsels.com/debugging-with-breakpoint/)
 * [Syntax Error #11: Debugging Python](https://www.syntaxerror.tech/syntax-error-11-debugging-python/)
 * [Debugging 101: Replace print() with icecream ic()](https://www.youtube.com/watch?v=JJ9zZ8cyaEk)
