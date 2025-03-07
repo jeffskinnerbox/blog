@@ -30,16 +30,76 @@ Version:      0.0.0
 # My Virtualization Technology Life Style
 There is a wide verity of virtualization technology available for software development, testing, and deployment.
 It allows you to run multiple virtual machines (VMs) on a single physical machine, each with its own isolated operating system and resources.
-I have used Vagrant/VirtualBox for several years, and while it served me well,
+I have used [Vagrant][15] and [VirtualBox][16] for several years
 for many projects it can take considerable time to setup and get productive.
-I have also used Proxmox, which can be easier to set up, its main drawback for me is that you must dedicate the whole hardware box to Proxmox.
+I have lately been used Proxmox, which can be easier to set up, its main drawback for me is that you must dedicate the whole hardware box to Proxmox.
 (since its a type 1 hypervisor).
 And of course I have used Docker, mainly for installing standalone applications/tools but not for standalone operating system environments.
+All these tools have served me well by giving me what I need but setup can be challeging.
+I have make use of [Ansible][17], which can be very helpful for building out a VM one created,
+but still doesn't address that initial set step that is getting im my way.
 
-I work mainly in Ubuntu, and I'm looking for something I can bring up quickly, and get to work.
-For example, I need to bring up Windows from time-to-time, and I would like to do this quickly without much delay.
-QEMU and Multipass seem more like what I'm looking for as my user experience.
-In this document, I plan to focus on the Debian or Ubuntu Linux distributions using QEMU, KVM (Kernel-based Virtual Machine), and Virt-Manager.
+I work mainly in Ubuntu, and I'm looking for something I can bring up VMs quickly,
+and get me productive with very little effort.
+For example, I need to bring up Windows from time-to-time (e.g. at tax time, Turbox).
+This is a once a year event to bring up the Windows OS, have Internet access, transfer from y host tax data into the VM,
+file my taxes, print a copy, transfer back to my host a copy my data, and be done until next year.
+I currently do this with Vagrant using Windows 10 but I need to move to Windows 11
+and I don't what to go through a lengthy / error prone setup process.
+
+
+## Using Quickemu / Multipass
+After a bit of on-line research, Quickemu or Multipass seem more like what I'm looking for as my user experience.
+In this document, I plan to focus on using a host with Debian or Ubuntu Linux distributions
+using Quickemu to creat my VMs.
+Never the less, I also plan to dive into Multipass, QEMU, KVM (Kernel-based Virtual Machine), and Virt-Manager.
+
+First, lets understand the roles of QEMU, KVM, Virt-Manager, Multipass, and Quickemu:
+
+* [QEMU][01] is an open-source machine emulator and virtualizer that allows you to run
+operating systems and software designed for a different hardware and OS architecture.
+* [KVM][11] is a virtualization module in the Linux kernel that allows the kernel to function as a [type 1 hypervisor][10].
+* [Virt-Manager][09] is a graphical interface for managing virtual machines through [libvirt][09].
+* [Multipass][12] is a tool for creating and managing Ubuntu virtual machines (VMs) on Linux, macOS, and Windows.
+* [Quickemu][02] is a wrapper around QEMU that automatically "does the right thing" when creating virtual machines.
+No requirement for exhaustive configuration options.
+You decide what operating system you want to run and Quickemu takes care of the rest.
+
+Launch instances of Ubuntu and [initialise them with cloud-init metadata][13]
+in the same way you would on AWS, Azure, Google, IBM and Oracle.
+So you can simulate your own cloud deployment on your workstation.
+On Linux, you can use QEMU and Virt-Manager with Multipass VMs
+because Multipass leverages the `libvirt` backend.
+Your allows to manage your Multipass instances through tools like Virt-Manager,
+essentially using QEMU as the underlying virtualization technology on Linux systems.
+Multipass on Windows will use Hyper-V or Virtualbox, and on macOS it can use QEMU or Virtualbox.
+
+**Key points About Multipass:**
+Multipass is designed to create and manage Ubuntu-based Linux virtual machines,
+meaning it only readily supports launching Ubuntu images by default;
+you cannot use it to run a Windows operating system directly within a Multipass VM.
+
+**Key Point About QEMU:**
+You can run a wide verity of operating systems within a QEMU VM.
+You can run a Windows ISO image within a QEMU VM,
+and run it just like you would on a physical computer.
+Although, you may need to install additional drivers like [VirtIO][14]
+to optimize performance within the virtual environment.
+
+**Key Point About Quickemu:**
+Quickemu has the ease of use benefits of Multipass
+and the OS arachitecture supported flexibility of QEMU.
+Quickemu can leverage all the tools QEMU can explote (e.g. Virt-Manager, etc.) when needed,
+but Quickemu make the setup as simple as possible,
+and does this for a wide range of guest operating system.
+
+
+
+
+
+
+
+
 
 
 # Linux Hypervisor Setup
@@ -57,7 +117,7 @@ KVM was added to the Linux Kernel (version 2.6.20) in February of 2007.
 
 
 ## QEMU
-[QEMU (Quick EMUlator][A1] calls itself a generic and open source machine emulator and virtualizer.
+[QEMU (Quick EMUlator][01] calls itself a generic and open source machine emulator and virtualizer.
 A machine emulator that can run operating systems & programs for one machine on a different machine.
 Mostly QEMU is not used as emulator but as virtualizer in collaboration with KVM kernel components.
 In that case it utilizes the virtualization technology of the hardware to virtualize guests.
@@ -94,7 +154,7 @@ Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machi
 
 # QEMU
 
-[QEMU (Quick EMUlator][A1] calls itself a generic and open source machine emulator and virtualizer.
+[QEMU (Quick EMUlator][01] calls itself a generic and open source machine emulator and virtualizer.
 A machine emulator that can run operating systems & programs for one machine on a different machine.
 Mostly QEMU is not used as emulator but as virtualizer in collaboration with KVM kernel components.
 In that case it utilizes the virtualization technology of the hardware to virtualize guests.
@@ -113,16 +173,16 @@ that allows a user space program access to the hardware virtualization features 
 
 
 ## Quickemu Project
-[Quickemu Project][A2] can quickly create and run Windows, macOS,
+[Quickemu Project][02] can quickly create and run Windows, macOS,
 and Linux virtual machines from the terminal on Linux and macOS.
 It consits of three primary subsystems:
 
-* [Quickget][A7] downloads the Quickemu Project's supported OS and creates the configuration file required by QEMU.
-* [Quickemu][A4] is a wrapper for the excellent QEMU that automatically
+* [Quickget][07] downloads the Quickemu Project's supported OS and creates the configuration file required by QEMU.
+* [Quickemu][04] is a wrapper for the excellent QEMU that automatically
 "does the right thing" when creating virtual machines.
 No requirement for exhaustive configuration options.
 You decide what operating system you want to run and Quickemu takes care of the rest.
-* [Quickgui][A3] is a graphical user interface for the Quickemu virtual machine manager.
+* [Quickgui][03] is a graphical user interface for the Quickemu virtual machine manager.
 Quickgui enables you to create and manage virtual machines from a simple and elegant interface.
 Nearly 1000 operating systems supported including Windows, macOS, BSDs, and 100s of Linux distros.
 All with automated downloads and configuration.
@@ -230,8 +290,8 @@ sudo apt install spice-client-gtk
 
 
 #### Step X: Install Virtual Machine Manager
-The [Virtual Machine Manager (`virt-manager`)][A8] provides a graphical user interface (GUI)
-for managing local and remote virtual machines via [`libvirt`][A9].
+The [Virtual Machine Manager (`virt-manager`)][08] provides a graphical user interface (GUI)
+for managing local and remote virtual machines via [`libvirt`][09].
 In addition to the `virt-manager` utility itself,
 the package also contains a collection of other helpful tools like `virt-install`, `virt-clone` and `virt-viewer`.
 
@@ -374,11 +434,11 @@ here is how you install the SPICE guest tools on the Windows guest:
 
 1. Start the Windows VM.
 2. Open your favorite browser, inside the Windows VM.
-3. Go to [SPICE Website Download Page][A5].
+3. Go to [SPICE Website Download Page][05].
 4. Scroll down to **Windows binaries**.
 5. In the first sentence you should see:
 "Windows SPICE Guest Tools (spice-guest-tools)"
-Click -> [**spice-guest-tools**][A6] to download it on the Guest VM.
+Click -> [**spice-guest-tools**][06] to download it on the Guest VM.
 6. Run through the installer. The defaults should be fine.
 7. Restart the Windows gusest VM.
 
@@ -538,13 +598,21 @@ No instances found.
 
 
 
-[A1]:https://www.qemu.org/
-[A2]:https://github.com/quickemu-project
-[A3]:https://github.com/quickemu-project/quickgui
-[A4]:https://github.com/quickemu-project/quickemu
-[A5]:https://www.spice-space.org/download.html
-[A6]:https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
-[A7]:https://github.com/quickemu-project/quickemu/blob/master/quickget
-[A8]:https://virt-manager.org/
-[A9]:https://libvirt.org/
+[01]:https://www.qemu.org/
+[02]:https://github.com/quickemu-project
+[03]:https://github.com/quickemu-project/quickgui
+[04]:https://github.com/quickemu-project/quickemu
+[05]:https://www.spice-space.org/download.html
+[06]:https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
+[07]:https://github.com/quickemu-project/quickemu/blob/master/quickget
+[08]:https://virt-manager.org/
+[09]:https://libvirt.org/
+[10]:https://ubuntu.com/blog/kvm-hyphervisor
+[11]:https://linux-kvm.org/page/Main_Page
+[12]:https://canonical.com/multipass
+[13]:https://ubuntu.com/blog/using-cloud-init-with-multipass
+[14]:https://wiki.osdev.org/Virtio
+[15]:https://www.vagrantup.com/
+[16]:https://www.virtualbox.org/
+[17]:https://docs.ansible.com/
 

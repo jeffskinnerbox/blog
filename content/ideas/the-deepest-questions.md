@@ -678,6 +678,7 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 * Messages from the trenches
     * [Math Education Rant](https://www.youtube.com/watch?v=bpi3Lk615GA)
     * [Just a rant: Math](https://www.youtube.com/watch?v=RFbuW7Z3HP0)
+    * [When Will I Ever Use Math? How to Actually Answer This Question](https://www.youtube.com/watch?v=RqQlXG__vGs)
 
 ## The Way Math Should be Taught
 * [The way math should be taught](https://www.youtube.com/watch?v=VElZBohyXW0)

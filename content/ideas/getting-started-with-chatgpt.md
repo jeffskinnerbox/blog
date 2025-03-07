@@ -19,8 +19,11 @@ Version:      0.0.0
     * Anthropic: [Claude](https://claude.ai/login)
         * [Claude 3.7 Sonnet and Claude Code](https://www.anthropic.com/news/claude-3-7-sonnet)
     * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/), [You now have access to OpenAI o1 and OpenAI o3-mini](https://platform.openai.com/docs/models/compare)
+* Hugging Face
+    * Cognitive Computations: [Dolphin](https://huggingface.co/cognitivecomputations)
 * China
     * DeepSeek: [DeepSeek](https://www.howtogeek.com/china-deepseek-rivals-chatgpt/)
+        * [Private & Uncensored Local LLMs in 5 minutes (DeepSeek and Dolphin)](https://www.youtube.com/watch?v=A2CqSfd5I4I)
 * AI like ChatGPT:
     * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
     * [Run New Llama 3.1 on Your Computer Privately in 10 minutes](https://www.youtube.com/watch?v=1xdneyn6zjw)
