@@ -224,6 +224,7 @@ Sources:
 
 # Raspberry Pi Docker Swarm Cluster
 
+* [Docker Swarm vs. Kubernetes: Battle of the container orchestration platforms](https://www.xda-developers.com/docker-swarm-vs-kubernetes/)
 * [A beginner's guide to Docker Swarm](https://www.xda-developers.com/docker-swarm-guide/)
 * [Docker Swarm](https://www.kevsrobots.com/blog/docker-swarm.html)
 * [DOCKER SWARM ON RASPBERRY PI 5](https://www.kevsrobots.com/learn/docker_swarm/)
