@@ -11,6 +11,10 @@ Version:      0.0.0
 ---------------
 
 
+* [5 Free APIs for Building AI Applications](https://machinelearningmastery.com/5-free-apis-building-ai-applications/)
+
+
+
 * USA
     * Apple: [Apple Intelligence](https://www.apple.com/apple-intelligence/)
     * Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
@@ -21,6 +25,7 @@ Version:      0.0.0
     * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/), [You now have access to OpenAI o1 and OpenAI o3-mini](https://platform.openai.com/docs/models/compare)
 * Hugging Face
     * Cognitive Computations: [Dolphin](https://huggingface.co/cognitivecomputations)
+    * [Building LLM Applications with Hugging Face Endpoints and FastAPI](https://machinelearningmastery.com/building-llm-applications-with-hugging-face-endpoints-and-fastapi/)
 * China
     * DeepSeek: [DeepSeek](https://www.howtogeek.com/china-deepseek-rivals-chatgpt/)
         * [Private & Uncensored Local LLMs in 5 minutes (DeepSeek and Dolphin)](https://www.youtube.com/watch?v=A2CqSfd5I4I)
