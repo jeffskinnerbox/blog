@@ -17,6 +17,7 @@ Version:      0.0.0
 
 
 
+* [Stuff a Pi-hole in your router because your browser is about to betray you](https://www.theregister.com/2025/03/08/pi_hole_6_flyby/)
 * [PiHole on Docker and Kubernetes (I almost gave up)](https://www.youtube.com/watch?v=NRe2-vye3ik)
 * [High Availability Pi-Hole? Yes please!](https://www.youtube.com/watch?v=IFVYe3riDRA&list=RDCMUCOk-gHyjcWZNj3Br4oxwh0A&index=8)
 * [Setting up a secondary Pi-Hole on my home network](https://www.dzombak.com/blog/2024/02/Setting-up-a-secondary-Pi-Hole-on-my-home-network.html)
