@@ -3,15 +3,21 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
-
 ---------------
 
-
+>**NOTE:** I could not get file sharing to work, or more accurately stated,
+>the effort required wasn't worth it.
+>As of Feb 2025, it appears that Quickemu has not advance enough to
+>include file shareing to make it easy to install.
+>I choose to wait and reexamine Quickemu at a future date.
+>
+>Why do I think this, see the "TBD" in the "File Sharing" section off
+>[05 Advanced quickemu configuration](https://github.com/quickemu-project/quickemu/wiki/05-Advanced-quickemu-configuration)
+>writen in on May 13, 2024
 
 * [Setting Up Virtual Machines with QEMU, KVM, and Virt-Manager on Debian/Ubuntu](https://linuxconfig.org/setting-up-virtual-machines-with-qemu-kvm-and-virt-manager-on-debian-ubuntu)
 
@@ -23,17 +29,14 @@ Version:      0.0.0
 * [Install and Use Qemu on Ubuntu](https://itsfoss.com/qemu-ubuntu/)
 * [How to Install QEMU/KVM on Ubuntu to Create Virtual Machines](https://www.tecmint.com/install-qemu-kvm-ubuntu-create-virtual-machines/)
 
-
-
-
-
 # My Virtualization Technology Life Style
-There is a wide verity of virtualization technology available for software development, testing, and deployment.
+
+There is a wide verity of [virtualization technology][18] available for software development, testing, and deployment.
 It allows you to run multiple virtual machines (VMs) on a single physical machine, each with its own isolated operating system and resources.
 I have used [Vagrant][15] and [VirtualBox][16] for several years
 for many projects it can take considerable time to setup and get productive.
 I have lately been used Proxmox, which can be easier to set up, its main drawback for me is that you must dedicate the whole hardware box to Proxmox.
-(since its a type 1 hypervisor).
+(since its a [type 1 hypervisor][19]).
 And of course I have used Docker, mainly for installing standalone applications/tools but not for standalone operating system environments.
 All these tools have served me well by giving me what I need but setup can be challeging.
 I have make use of [Ansible][17], which can be very helpful for building out a VM one created,
@@ -47,8 +50,8 @@ file my taxes, print a copy, transfer back to my host a copy my data, and be don
 I currently do this with Vagrant using Windows 10 but I need to move to Windows 11
 and I don't what to go through a lengthy / error prone setup process.
 
-
 ## Using Quickemu / Multipass
+
 After a bit of on-line research, Quickemu or Multipass seem more like what I'm looking for as my user experience.
 In this document, I plan to focus on using a host with Debian or Ubuntu Linux distributions
 using Quickemu to creat my VMs.
@@ -93,112 +96,218 @@ Quickemu can leverage all the tools QEMU can explote (e.g. Virt-Manager, etc.) w
 but Quickemu make the setup as simple as possible,
 and does this for a wide range of guest operating system.
 
+---------------
 
+# Install Foundational Tools
 
-
-
-
-
-
-
-
-# Linux Hypervisor Setup
-
-* [Linux Hypervisor Setup (libvirt/qemu/kvm)](https://www.youtube.com/watch?v=HfNKpT2jo7U)
-* [Headless Virtual Machines, Headless Servers](https://www.youtube.com/watch?v=Q2OHR-uJMcU&list=PLJvGMqQH5qsmuTuDRAzX1Cy9MdSmf7hnu)
-
-
-## KVM
-KVM (Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V).
-KVM was added to the Linux Kernel (version 2.6.20) in February of 2007.
-
-* [QEMU/KVM for absolute beginners](https://www.youtube.com/watch?v=BgZHbCDFODk)
-* [Amazing Privacy Ideas with KVM Virtual Machines](https://www.youtube.com/watch?v=NIdu4haRWx0)
-
+Before focusing in on Quickemu and Multipass,
+I want to provide a mini-introduction to QEMU / Virt-Manager and install them
+since they form the foundation of Quickemu.
+You will find these tools useful, if not necessary at time,
+to get what you need for your Quickemu implementation.
 
 ## QEMU
+
 [QEMU (Quick EMUlator][01] calls itself a generic and open source machine emulator and virtualizer.
 A machine emulator that can run operating systems & programs for one machine on a different machine.
-Mostly QEMU is not used as emulator but as virtualizer in collaboration with KVM kernel components.
-In that case it utilizes the virtualization technology of the hardware to virtualize guests.
+Mostly QEMU is not used as emulator but
+QEMU is a commandline application,
+type 2 hypervisor that runs within user space and performs virtual hardware emulation.
 
-QEMU is a type 2 hypervisor that runs within user space and performs virtual hardware emulation, whereas KVM is a type 1 hypervisor that runs in kernel space, that allows a user space program access to the hardware virtualization features of various processors.
+I don't want to do a deep dive on installing & using QEMU, but if you read/view the sources listed below,
+you will get some good insight into the workings of QEMU.
+Via these sources, hopefully you can see the power of QEMU but also the challenges of using it.
 
-Proxmox VE vs Qemu: What are the differences? - <https://stackshare.io/stackups/proxmox-ve-vs-qemu>
-Qemu/KVM Virtual Machines - <https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines>
+Sources:
 
+* [How to Use QEMU to Boot Another Operating System](https://www.howtogeek.com/devops/how-to-use-qemu-to-boot-another-os/)
+* [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
+* [Stop using Virtualbox, Here's how to use QEMU instead](https://www.youtube.com/watch?v=Kq849CpGd88)
+* [Setup Qemu in Debian Linux](https://christitus.com/vm-setup-in-linux/)
+* [Installing Qemu/KVM on Ubuntu 24.04](https://absprog.com/post/qemu-kvm-ubuntu-24-04)
 
+## Install QEMU & VirtManager on Ubuntu
 
-# libvirt
+* [How To install QEMU KVM & VirtManager on Ubuntu || Run Virtual Machines On Ubuntu][20]
+* [How to Install KVM on Ubuntu 24.04 Step-by-Step][21]
+* [Installing and using Virtual Machine Manager on Ubuntu](https://www.youtube.com/watch?v=PdfuzxJAOlo)
 
+#### Step 1: Check for Virtualization Support - DONE
 
-## Virt-Manager
+As your first installation step,
+make sure your host system is capable of supporting virtualization and support the creation of VMs.
 
+```bash
+# check if your hardware virtualization enabled
+$ lscpu | grep Virtualization
+Virtualization:                       VT-x
+
+# make sure you can use all your cpu cores by print the number available
+$ egrep -c '(vmx|svm)' /proc/cpuinfo
+32
+```
+
+When `lscpu` shows `Virtualization: VT-x`,
+it means your CPU supports Intel's Virtualization Technology (VT-x),
+which is a hardware feature that enables virtualization technologies like KVM and VMware.
+
+#### Step 2: Install QEMU and Virt-Manager - DONE
+
+Next we need to install the QEMU/KVM software to support virtualization.
+This includes [Virtual Machine Manager (`virt-manager`)][08] which provides a graphical user interface (GUI)
+for managing local and remote virtual machines via [`libvirt`][09].
+[Libvirt][09] is an open-source virtualization API that manages virtualization technologies like KVM, QEMU, and VMware ESXi.
+It's used to create, modify, monitor, and manage virtual machines.
+
+In addition to the `virt-manager` GUI utility itself,
+the package also contains a collection of other helpful tools like:
+
+* `virt-manager` - presents a summary view of running VM, their live performance & resource utilization statistics.
+ Wizards enable the creation of new VMs, and configuration & adjustment of a VM’s resource allocation & virtual hardware.
+ An embedded VNC and SPICE client viewer presents a full graphical console to the guest VMs.
+* `virt-install`
+* `virt-clone`
+* `virt-viewer`
+* `libvirt-daemon-system` - configuration file management
+* `libvirt-clients` - host client to manage/control VMs
+* `bridge-utils` - a tool to create/manage network bridege devices
+
+Its important to be aware of `virt-manager` as part of the `quickemu` ecosystem
+beacuse of its usefulness for extending the capabilities of `quickemu` installation and for debugging too.
+
+```bash
+# update your repository
+sudo apt update
+
+# install qemu, virt-manager, and all there tools
+sudo apt install qemu-kvm virt-manager libvirt-daemon-system virtinst libvirt-clients bridge-utils ssh-askpass
+
+# reboot to make sure it is all working
+sudo shutdown -r now
+
+# check the status of your install
+sudo systemctl status libvirtd
+
+# if its not running or inactive, do the following
+sudo systemctl enable libvirtd.service
+sudo systemctl start libvirtd.service
+```
+
+Sources:
+
+* [Installing and using Virtual Machine Manager on Ubuntu](https://www.youtube.com/watch?v=PdfuzxJAOlo)
 * [Virt-Manager Is The Better Way To Manage VMs](https://www.youtube.com/watch?v=p1d_b_91YlU)
-* [Virtual Machine Manager: Virt-Manager](https://virt-manager.org/)
+* [Virtual Machines Inside Linux - Virt-Manager](https://www.youtube.com/watch?v=rKH8XhPfJjE)
 
+#### Step 3: Update the libvirt Group - DONE
 
+Add the current user (or what eve users that need to manage QEMU VMs)
+to the appropriate groups to administer the virtual machines.
+
+```bash
+# list the groups you have on your system
+$ groups
+jeff adm cdrom sudo dip plugdev users lpadmin libvirt
+
+# add your current user to the libvirt group
+sudo useradd -g $USER libvirt
+sudo useradd -g $USER libvirt-kvm
+
+# check if curent user (i.e. jeff) has been added to the libvirt group
+$ groups jeff
+jeff : jeff adm cdrom sudo dip plugdev users lpadmin libvirt
+
+# test the virt-manager app and make sure you connect with no errors
+virt-manager
+```
+
+#### Step 4: Creating VM With QEMU & Virt-Manager - DONE
+
+For an example of how to create a VM just using QEMU & Virt-Manager (no Quickemu), check out the video
+"[How To install QEMU KVM & VirtManager on Ubuntu || Run Virtual Machines On Ubuntu][20]"
+Also checkout "[How to Install KVM on Ubuntu 24.04 Step-by-Step][21]" for another example.
+
+#### Step 5: Advanced Tips & Tricks with QEMU, KVM, and Virt-Manager - DONE
+
+The [**QEMU Guest Agent**][22] (`qeum-guest-agent`) facilitates improved communication between
+the host and the guest VMs, enabling functionalities such as file transfers,
+graceful shutdowns, and system information queries.
+To take advantage of these features, install the guest agent in your VMs:
+
+```bash
+# install qemu guest agent on linux guest
+sudo apt install qemu-guest-agent
+sudo systemctl enable --now qemu-guest-agent
+
+# install qemu guest agent on windows guest
+<see Sources listed below>
+```
+
+To **attach USB devices** directly to a VM,
+go to the VM’s hardware details in Virt-Manager, add a USB host device,
+and select the device you wish to attach.
+
+You can execute **command-line administration** of Virt-Manager GUI functionality,
+especially for remote administration or scripting.
+Here are some basic commands:
+
+```bash
+# list all running vm
+sudo virsh list --all
+
+# start a vm
+sudo virsh start vm_name
+
+# shutdown a vm
+sudo virsh shutdown vm_name
+
+# get vm information
+sudo virsh dominfo vm_name
+```
+
+Sources:
+
+* [Setting Up Virtual Machines with QEMU, KVM, and Virt-Manager on Debian/Ubuntu](https://linuxconfig.org/setting-up-virtual-machines-with-qemu-kvm-and-virt-manager-on-debian-ubuntu)
+* [Installing the QEMU guest agent on virtual machines](https://docs.openshift.com/container-platform/4.8/virt/virtual_machines/virt-installing-qemu-guest-agent.html)
 
 ---------------
 
->**NOTE:** I could not get file sharing to work, or more accurately stated,
->the effort required wasn't worth it.
->As of Feb 2025, it appears that Quickemu has not advance enough to
->include file shareing to make it easy to install.
->I choose to wait and reexamine Quickemu at a future date.
->
->Why do I think this, see the "TBD" in the "File Sharing" section off
->[05 Advanced quickemu configuration](https://github.com/quickemu-project/quickemu/wiki/05-Advanced-quickemu-configuration)
->writen in on May 13, 2024
+# Quickemu Project
 
-
-# QEMU
-
-[QEMU (Quick EMUlator][01] calls itself a generic and open source machine emulator and virtualizer.
-A machine emulator that can run operating systems & programs for one machine on a different machine.
-Mostly QEMU is not used as emulator but as virtualizer in collaboration with KVM kernel components.
-In that case it utilizes the virtualization technology of the hardware to virtualize guests.
-
-QEMU is a type 2 hypervisor that runs within user space and performs virtual hardware emulation.
-Whereas KVM is a type 1 hypervisor that runs in kernel space,
-that allows a user space program access to the hardware virtualization features of various processors.
-
-* [QEMU: A generic and open source machine emulator and virtualizer](https://www.qemu.org/)
-* [How to Use QEMU to Boot Another Operating System](https://www.howtogeek.com/devops/how-to-use-qemu-to-boot-another-os/)
-* [Proxmox VE vs Qemu: What are the differences?](https://stackshare.io/stackups/proxmox-ve-vs-qemu)
-* [Qemu/KVM Virtual Machines](https://pve.proxmox.com/wiki/Qemu/KVM_Virtual_Machines)
-* [QEMU: A proper guide!](https://www.youtube.com/watch?v=AAfFewePE7c)
-* [Stop using Virtualbox, Here's how to use QEMU instead](https://www.youtube.com/watch?v=Kq849CpGd88)
-    * [Setup Qemu in Debian Linux](https://christitus.com/vm-setup-in-linux/)
-
-
-## Quickemu Project
-[Quickemu Project][02] can quickly create and run Windows, macOS,
-and Linux virtual machines from the terminal on Linux and macOS.
+The [Quickemu Project][02] takes the QEMU / Virt-Manager functional
+and puts a wrapper around it further reduce the complexity of creating VMs.
+With Quickemu, you can quickly create and run Windows, macOS,
+and Linux virtual machines from the terminal on a Linux and macOS machine.
 It consits of three primary subsystems:
 
 * [Quickget][07] downloads the Quickemu Project's supported OS and creates the configuration file required by QEMU.
 * [Quickemu][04] is a wrapper for the excellent QEMU that automatically
 "does the right thing" when creating virtual machines.
 No requirement for exhaustive configuration options.
-You decide what operating system you want to run and Quickemu takes care of the rest.
+You decide what operating system you want to run and Quickemu takes care of the rest
+and creates a default configuration that works.
 * [Quickgui][03] is a graphical user interface for the Quickemu virtual machine manager.
 Quickgui enables you to create and manage virtual machines from a simple and elegant interface.
 Nearly 1000 operating systems supported including Windows, macOS, BSDs, and 100s of Linux distros.
 All with automated downloads and configuration.
 
-All Quickemu is doing is automating the installation and initialization.
+What Quickemu is doing is automating the installation and initialization.
 It configures everything for you;
-there's no need to worry about managing virtualized components.
+there's no need to worry about managing vitalized components.
 You just choose the operating system you want,
 and after the scripts do their job, you can start working in it.
 Quickemu automates the setup of hundreds of operating systems,
 including Windows Server, macOS, Ubuntu, Fedora, and FreeBSD.
 
+If you need to enhance the Quickemu configuration this it supplies
+(e.g. add networking, disk access, etc.) you can use the QEMU / Virt-Manager tools to do so.
+Some typical enhancements will be shown below.
 
 ## Install Quickemu on Ubuntu
+
 Quickemu is easiest to install when you're on Ubuntu or Debian.
 On Ubuntu and its derivatives, you can instead add the Quickemu PPA to your repositories.
+I assume that you have done the installation of QEMU & Virt-Manager as outline above.
 
 I'm most interested in running Window 11,
 so in the steps below,
@@ -209,10 +318,18 @@ Sources:
 * [Quickemu](https://github.com/quickemu-project/quickemu)
 * [Quickemu Installation](https://github.com/quickemu-project/quickemu/wiki/01-Installation)
 * [Get Windows on Linux in 10 Minutes With These 2 Commands](https://www.howtogeek.com/get-windows-on-linux-in-10-minutes-with-quickemu/)
-* [Installing Qemu/KVM on Ubuntu 24.04](https://absprog.com/post/qemu-kvm-ubuntu-24-04)
-
+* [How to create optimized virtual machines with Quickemu on Linux](https://linuxconfig.org/how-to-create-optimized-virtual-machines-with-quickemu-on-linux)
 
 #### Step 1: Install Quickemu Package - DONE
+
+To enable file sharing, copy & paste, and other functionson the host computer,
+you should install the following package (more about this later):
+
+```bash
+# install the spice client on the ubuntu host
+sudo apt install spice-client-gtk
+```
+
 Quickemu is available from a PPA for Ubuntu users.
 To install Quickemu and all the dependencies,
 run the following in a terminal:
@@ -225,127 +342,59 @@ sudo apt update
 # install quickemu
 sudo apt install quickemu quickgui
 
-# quick test
-$ quickemu --help
-             _      _
-  __ _ _   _(_) ___| | _____ _ __ ___  _   _
- / _' | | | | |/ __| |/ / _ \ '_ ' _ \| | | |
-| (_| | |_| | | (__|   <  __/ | | | | | |_| |
- \__, |\__,_|_|\___|_|\_\___|_| |_| |_|\__,_|
-    |_| v4.9.7, using qemu 8.2.2
---------------------------------------------------------------------------------
- Project - https://github.com/quickemu-project/quickemu
- Discord - https://wimpysworld.io/discord
---------------------------------------------------------------------------------
+# cheatsheet for quickemu
+quickemu --help
 
-Usage
-  quickemu --vm ubuntu.conf <arguments>
-
-Arguments
-  --access                          : Enable remote spice access support. 'local' (default), 'remote', 'clientipaddress'
-  --braille                         : Enable braille support. Requires SDL.
-  --delete-disk                     : Delete the disk image and EFI variables
-  --delete-vm                       : Delete the entire VM and its configuration
-  --display                         : Select display backend. 'sdl' (default), 'cocoa', 'gtk', 'none', 'spice' or 'spice-app'
-  --fullscreen                      : Starts VM in full screen mode (Ctl+Alt+f to exit)
-  --ignore-msrs-always              : Configure KVM to always ignore unhandled machine-specific registers
-  --kill                            : Kill the VM process if it is running
-  --offline                         : Override all network settings and start the VM offline
-  --shortcut                        : Create a desktop shortcut
-  --snapshot apply <tag>            : Apply/restore a snapshot.
-  --snapshot create <tag>           : Create a snapshot.
-  --snapshot delete <tag>           : Delete a snapshot.
-  --snapshot info                   : Show disk/snapshot info.
-  --status-quo                      : Do not commit any changes to disk/snapshot.
-  --viewer <viewer>                 : Choose an alternative viewer. @Options: 'spicy' (default), 'remote-viewer', 'none'
-  --width <width>                   : Set VM screen width; requires '--height'
-  --height <height>                 : Set VM screen height; requires '--width'
-  --ssh-port <port>                 : Set SSH port manually
-  --spice-port <port>               : Set SPICE port manually
-  --public-dir <path>               : Expose share directory. @Options: '' (default: xdg-user-dir PUBLICSHARE), '<directory>', 'none'
-  --monitor <type>                  : Set monitor connection type. @Options: 'socket' (default), 'telnet', 'none'
-  --monitor-telnet-host <ip/host>   : Set telnet host for monitor. (default: 'localhost')
-  --monitor-telnet-port <port>      : Set telnet port for monitor. (default: '4440')
-  --monitor-cmd <cmd>               : Send command to monitor if available. (Example: system_powerdown)
-  --serial <type>                   : Set serial connection type. @Options: 'socket' (default), 'telnet', 'none'
-  --serial-telnet-host <ip/host>    : Set telnet host for serial. (default: 'localhost')
-  --serial-telnet-port <port>       : Set telnet port for serial. (default: '6660')
-  --keyboard <type>                 : Set keyboard. @Options: 'usb' (default), 'ps2', 'virtio'
-  --keyboard_layout <layout>        : Set keyboard layout: 'en-us' (default)
-  --mouse <type>                    : Set mouse. @Options: 'tablet' (default), 'ps2', 'usb', 'virtio'
-  --usb-controller <type>           : Set usb-controller. @Options: 'ehci' (default), 'xhci', 'none'
-  --sound-card <type>               : Set sound card. @Options: 'intel-hda' (default), 'ac97', 'es1370', 'sb16', 'usb-audio', 'none'
-  --sound-duplex <type>             : Set sound card duplex. @Options: 'hda-micro' (default: speaker/mic), 'hda-duplex' (line-in/line-out), 'hda-output' (output-only)
-  --extra_args <arguments>          : Pass additional arguments to qemu
-  --version                         : Print version
+# cheatsheet for quickget
+quickget --help
 ```
 
-To enable file sharing, copy & paste, and other functions,
-you should also install the following package (more about this below):
+Here are some of trhe most basic options:
 
 ```bash
-# install the spice client on the ubuntu host
-sudo apt install spice-client-gtk
+# run a specific vm by referancing its configuration file
+quickemu --vm <path/to/vm.conf>
+
+# run a specific vm with a spice display
+quickemu --vm <path/to/vm.conf> --display spice
+
+# kill a running virtual machine
+quickemu --kill --vm <path/to/vm.conf>
+
+# delete a virtual machine, its configuration, and all related files / directories
+quickemu --delete-vm --vm <path/to/vm.conf>
 ```
-
-
-#### Step X: Install Virtual Machine Manager
-The [Virtual Machine Manager (`virt-manager`)][08] provides a graphical user interface (GUI)
-for managing local and remote virtual machines via [`libvirt`][09].
-In addition to the `virt-manager` utility itself,
-the package also contains a collection of other helpful tools like `virt-install`, `virt-clone` and `virt-viewer`.
-
- `virt-manager` presents a summary view of running VM,
- their live performance & resource utilization statistics.
- Wizards enable the creation of new VMs, and configuration & adjustment of a VM’s resource allocation & virtual hardware.
- An embedded VNC and SPICE client viewer presents a full graphical console to the guest VMs.
-
-I include `virt-manager` as part of the installation of `quickemu` beacuse of its
-usefulness as a debugging too.
-
-```bash
-# install virt-manager
-sudo apt install virt-manager
-
-# to use virt-manager, use the following
-sudo virt-manager
-```
-
-Sources:
-
-* [QEMU/KVM for absolute beginners](https://www.youtube.com/watch?v=BgZHbCDFODk)
-* [Installing and using Virtual Machine Manager on Ubuntu](https://www.youtube.com/watch?v=PdfuzxJAOlo)
-
 
 #### Step 2: Make Your Working Directory - DONE
+
 Since you will be downloading an ISO file, configuration file, etc.,
 create a working direct for you OS instance.
 
 ```bash
 # create your working directory
-mkdir -p ~/tmp/test-quickemu
+mkdir -p ~/src/virtual-machines/quickemu/windows-11
 ```
 
-It is here you will also be placing any working files you will like to load into the you OS.
+It is here in the `shared` directory you will place any working files you will like to load into the you OS.
 In my case, I'll be doing my taxes with TurboTax
 and so I'll place my last years tax filing in the following directory:
 
 ```
 # create directory for file sharing (aka working files)
-mkdir -p ~/tmp/test-quickemu/shared
+mkdir -p ~/src/virtual-machines/quickemu/windows-11/shared
 ```
 
 Now move any working files you wish to share with the OS into this directory.
 
-
 #### Step 3: Select and Install Your Target OS - DONE
+
 I want to install Windows 11.
 To get a list of supported operating systems,
 use the command below:
 
 ```bash
 # change to your working directory
-cd ~/tmp/test-quickemu
+cd ~/src/virtual-machines/quickemu/windows-11
 
 # list all the supported operating systems
 quickget --list
@@ -361,21 +410,19 @@ windows-server 2019 English (United States)
 windows-server 2022 English (United States)
 
 # down load your target operating system
-$ quickget windows 10 "English (United States)"
-Downloading Windows 10 (English (United States))
- - Parsing download page: https://www.microsoft.com/en-us/software-download/windows10ISO
- - Getting Product edition ID: 2618
- - Permit Session ID: 1aaed4f5-9698-4a04-b581-3d2c2250d66c
- - Getting language SKU ID: 16067
+$ quickget windows 11 "English (United States)"
+Downloading Windows 11 (English (United States))
+ - Parsing download page: https://www.microsoft.com/en-us/software-download/windows11
+ - Getting Product edition ID: 3113
+ - Permit Session ID: c28e4301-0bd0-40c7-825d-debc5a8498ba
+ - Getting language SKU ID: 18480
  - Getting ISO download link...
- - URL: https://software.download.prss.microsoft.com/dbazure/Win10_22H2_English_x64v1.iso
-################################################################################################################# 100.0%
+ - URL: https://software.download.prss.microsoft.com/dbazure/Win11_24H2_English_x64.iso
+################################################################################################################################# 100.0%
 Downloading VirtIO drivers...
-################################################################################################################# 100.0%
+################################################################################################################################# 100.0%
 Downloading Spice drivers...
-################################################################################################################# 100.0%
-################################################################################################################# 100.0%
-################################################################################################################# 100.0%
+################################################################################################################################# 100.0%
 Making unattended.iso
 Making windows-11-English-United-States.conf
  - Setting windows-11-English-United-States.conf executable
@@ -384,8 +431,18 @@ To start your Windows virtual machine run:
     quickemu --vm windows-11-English-United-States.conf
 ```
 
+```bash
+To start your Windows virtual machine run:
+ quickemu --vm windows-11-English-United-States.conf
+```
+
+**I GOT THIS ERROR:** [bug: win11 installation encountered an unexpected error. #1475](https://github.com/quickemu-project/quickemu/issues/1475)
+Now using:
+    `quickget windows 10 "English (United States)"`
+    `quickemu --vm windows-10-English-United-States.conf`
 
 #### Step 4: Bring Up the Quickemu Guest VM - DONE
+
 To launch your Quickemu virtual machine,
 all you need to know is the name of the configuration file (with a `.conf` extension) that Quickemu created:
 
@@ -394,75 +451,175 @@ all you need to know is the name of the configuration file (with a `.conf` exten
 quickemu --vm windows-11-English-United-States.conf --display spice --public-dir ./shared
 ```
 
-<!-- vvvvvvvvvvvv THIS DID NOT WORK, REMOVE AND USE SAMBA METHOD vvvvvvvvvvvv -->
-#### Step X: Enable File Sharing Between Quickemu Host & Guest
-To share files from a Quickemu host running Ubuntu
-with a Quickemu guest running Windows,
-there are two methods:
+#### Step 5: Enable File Sharing Between Quickemu Host & Guest
 
-1. For one, you can leverage the built-in Samba sharing functionality within Quickemu.
-This will allowing you to access a shared folder on the Ubuntu host
-directly from the Windows guest through a network path.
-To do this, you simply configure the shared folder on the Ubuntu host
-and then access it on the Windows guest using the provided network address in the Quickemu settings.
-2. A second method is to use SPICE.
-You enable the Quickemu SPICE functionality with the `--display spice` commandline flag,
-and then install the SPICE guest tools on the Windows guest.
-This allows you to access the host's shared folder directly within the Windows file explorer using the SPICE protocol.
-
-On the Ubuntu host,
-launch your Quickemu instance use the command with the commandline flag
-`--display spice` to activate SPICE.
-Also ensure you have the SPICE client installed on your host machine
-using the package `spice-client-gtk`.
-Using the following:
+Sharing data between guest and host system is necessary in many scenarios.
+If the guest is a Linux system,
+you can simply add a shared folder that will be automatically mounted.
+[However, this does not work if the guest is Windows][23].
+There are work arounds and I'm going to use one of them here.
 
 ```bash
-# install the spice client on the ubuntu host
-sudo apt install spice-client-gtk
-
-# change to your working directory
-cd ~/tmp/test-quickemu
-
-# bring up the virtual machine (aka guest)
-quickemu --vm windows-11-English-United-States.conf --display spice --public-dir ./shared
+quickemu --public-dir /home/jeff/src/virtual-machines/quickemu/windows-10/shared \
+         --viewer spicy --width 1400 --height 900 \
+         --vm windows-10-English-United-States.conf
 ```
-
-On the Windows guest, once the Windows guest is running,
-install the SPICE guest tools package to enable file sharing functionality.
-here is how you install the SPICE guest tools on the Windows guest:
-
-1. Start the Windows VM.
-2. Open your favorite browser, inside the Windows VM.
-3. Go to [SPICE Website Download Page][05].
-4. Scroll down to **Windows binaries**.
-5. In the first sentence you should see:
-"Windows SPICE Guest Tools (spice-guest-tools)"
-Click -> [**spice-guest-tools**][06] to download it on the Guest VM.
-6. Run through the installer. The defaults should be fine.
-7. Restart the Windows gusest VM.
-
-After installation, the shared folder on the host should be accessible directly
-within the Windows file explorer, mounted as a network drive.
 
 Sources:
 
-* [How-to install Windows SPICE Guest Tools on QEMU/KVM Virtual Machine Manager](https://dev.to/sonandrew/how-to-install-windows-spice-guest-tools-on-qemukvm-virtual-machine-manager-2e51)
-* [Enable WebDAV Publishing IIS in Windows 11](https://winsides.com/how-to-enable-webdav-publishing-iis-windows-11/)
-* [Simple and Effective Virtualization in Linux (QEMU + Quickemu)](https://www.youtube.com/watch?v=TXAh4pcpnMY)
-* [Sharing Folders Between Host and Guest in QEMU/KVM Using VirtioFS](https://absprog.com/post/qemu-kvm-shared-folder)
-<!-- ^^^^^^^^^^^^ THIS DID NOT WORK, REMOVE AND USE SAMBA METHOD ^^^^^^^^^^^^ -->
+* [Sharing a folder a windows guest under virt-manager](https://www.guyrutenberg.com/2018/10/25/sharing-a-folder-a-windows-guest-under-virt-manager/)
 
+#### Step 6: Set Up a Samba Server on Ubuntu Host
 
-#### Step X: Enable File Sharing Between Quickemu Host & Guest
+Having a Samba server on Ubuntu enables file and printer sharing across a network,
+particularly beneficial for mixed operating system environments,
+allowing Windows clients to access resources on Linux/Unix systems and vice versa.
 
-* [Canonical Ubuntu Tutorials: Install and Configure Samba](https://ubuntu.com/tutorials/install-and-configure-samba#1-overview)
+The first task is to install Samba:
 
+```bash
+# install samba
+sudo apt update
+sudo apt install samba
+```
+
+On the quickemu host, we first establish a user account for Samba
+(called `samba` wich is needed for security),
+create a Server Message Block (SMB) protocol password for the `samba` account,
+create a directory that will be shared by the `samba` account,
+changed the ownership of the shared directory to the `samba` account,
+establish the read/write permissions for the shared directory,
+update the Samba seervices configuration file,
+make sure your host firewall is open for Samba services,
+and restart Samba services to get everything working together.
+
+_I used my standard password for all._
+
+```bash
+# create user account and account password for samba
+sudo adduser samba
+
+# create a SMB password for the Samba account we created
+sudo smbpasswd -a samba
+
+# create the directory you wish to share
+cd ~/src/virtual-machines/quickemu/windows-10
+mkdir shared
+
+# change the ownership of the `shared/` directory to the Samba account
+sudo chown -R samba:samba shared
+
+# establish the read/write permission for the shared directory
+sudo chmod -R 0775 shared
+```
+
+Next we need to configure the Samba server via a configuration file in the `/etc/samba/` directory.
+Edit the `/etc/samba/smb.conf` and make these additions at the bottom of the file:
+
+```bash
+# Setup to support file sharing between quickemu host (ubuntu) and guest (windows).
+# Access will password protected.
+[share]
+   path = /home/jeff/src/virtual-machines/quickemu/windows-10/shared
+   browsable = yes
+   read only = no
+   guest ok = no
+```
+
+Make sure you Ubuntu host firewall is **not** blocking Samba networking:
+
+```bash
+# check your fire wall status
+$ sudo ufw status
+Status: active
+
+To                         Action      From
+--                         ------      ----
+22/tcp                     ALLOW       Anywhere
+22/tcp (v6)                ALLOW       Anywhere (v6)
+
+# allow samba sbm packet to flow
+sudo ufw allow Samba
+
+# check your fire wall status
+sudo ufw status
+```
+
+Now we will restart the Samba server to get sharing up and working:
+
+```bash
+# start samba service
+sudo systemctl restart smbd.service
+
+# check the status of the samba service
+sudo systemctl status smbd.service
+```
+
+Sources:
+
+* [Set Up a Samba Server on Ubuntu 24.04: Step-by-Step Guide for File Sharing](https://www.youtube.com/watch?v=2gW4rWhurUs)
+
+#### Step 7: Intialize & Test Samba Service With Guest Windows VM
+
+To connect to a Samba server from Windows 10,
+login to your Windows 10 guest VM and do the following:
+
+1. Open File Explorer
+2. Right-click on **This PC** (in the left pane of File Explorer) and pop-up a menu
+3. rSselect from the menu **Add a network location**
+4. Follow the wizard to connect to the Samba share site:
+    1. Select **Choose a custom network location**
+    2. For network address, enter `\\192.168.1.200` and click **Browse...**
+    3. Select **Share** from the pop-up window and click **Next** until finished
+5. You'll now find your shared directory in the left pane of File Explorer
+
+>**NOTE:** If you get prompted for credentials,
+>enter the Samba username & password we created in the earlier step.
+
+To disconnect the Windows guest VM from the Samba server:
+[How to Disconnect from a Server or File Share](https://kb.mlml.sjsu.edu/books/network-services/page/how-to-disconnect-from-a-server-or-file-share)
+
+Sources:
+
+* [Set Up a Samba Server on Ubuntu 24.04: Step-by-Step Guide for File Sharing](https://www.youtube.com/watch?v=2gW4rWhurUs)
+* [Setting up Simple Samba File Shares](https://www.youtube.com/watch?v=7Q0mnAT1MRg)
+* ChatGPT Prompt: "on windows 10, how do you connect with a samba server"
+* ChatGPT Prompt: "on windows 10, how do you disconnect from a samba server"
+
+#### Step 8: Enable Copy & Paste Between Ubuntu Host and Windows 10 Guest
+
+To enable copy & paste between a QuickEMU Ubuntu host and a Windows 10 guest,
+install the SPICE Windows guest tools on the guest VM and start QuickEMU with `--display spice`,
+and ensure a SPICE agent channel is defined in the VM's configuration.
+
+Install SPICE Guest Tools in the Windows VM by:
+    1. Start the Windows guest VM.
+    2. Download the `spice-guest-tools-latest.exe` file from the SPICE website:
+    <https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe>.
+    i3. Install the downloaded executable.
+
+To test copy & paste, use the follow to start the Windows 10 VM:
+
+```bash
+# start windows 10 vm with copy & paste enabled
+quickemu --display spice --width 1400 --height 1050 --vm windows-10-English-United-States.conf
+```
+
+Sources:
+* ChatGPT Prompt: "activate copy & paste between quickemu ubuntu host and windows guest"
 
 ---------------
 
+# Multipass - NOT COMPETED OR TESTED
 
-# Multipass
+Ubuntu Multipass is used to quicky launch & manage Linux virtual machines on Linux, MacOS and Windows.
+From a developer’s perspective, it is an interesting alternative to Docker or VirtualBox.
+It feels easier and simpler to use.
+
+* [Ubuntu VMs on demand for any workstation](https://canonical.com/multipass)
+* [Boost your development environment with Ubuntu Multipass](https://letsdebug.it/post/21-ubuntu-multipass/)
+* [Multipass: Ubuntu Virtual Machines Made Easy](https://dev.to/mattdark/multipass-ubuntu-virtual-machines-made-easy-3am9)
+* [A Comprehensive Guide to Multipass: Simplifying Virtual Machine Management](https://dev.to/adityapratapbh1/a-comprehensive-guide-to-multipass-simplifying-virtual-machine-management-b0c)
 
 * [Launching Ubuntu instances with Multipass](https://www.youtube.com/watch?v=Z91l6ZdQjhI)
 * [Linux Fu: Easy VMs](https://hackaday.com/2022/11/01/linux-fu-easy-vms/)
@@ -593,17 +750,10 @@ $ multipass list
 No instances found.
 ```
 
-
----------------
-
-
-
 [01]:https://www.qemu.org/
 [02]:https://github.com/quickemu-project
 [03]:https://github.com/quickemu-project/quickgui
 [04]:https://github.com/quickemu-project/quickemu
-[05]:https://www.spice-space.org/download.html
-[06]:https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe
 [07]:https://github.com/quickemu-project/quickemu/blob/master/quickget
 [08]:https://virt-manager.org/
 [09]:https://libvirt.org/
@@ -615,4 +765,9 @@ No instances found.
 [15]:https://www.vagrantup.com/
 [16]:https://www.virtualbox.org/
 [17]:https://docs.ansible.com/
-
+[18]:https://www.youtube.com/watch?v=E3azDp1K8X0
+[19]:https://www.youtube.com/watch?v=pUb8vVL5wo0
+[20]:https://www.youtube.com/watch?v=4m6eHhPypWI
+[21]:https://www.youtube.com/watch?v=qCUmf5gyOYY
+[22]:https://pve.proxmox.com/wiki/Qemu-guest-agent
+[23]:https://askubuntu.com/questions/899916/how-to-share-folder-with-windows-10-guest-using-virt-manager-kvm
