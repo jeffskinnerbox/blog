@@ -979,6 +979,18 @@ in sets of numbers, in collections of vertices and edges called graphs, and in o
 * [Chaos theory and geometry: can they predict our world?](https://www.youtube.com/watch?v=RkiEV47KPX4)
 
 
+# Undecidability
+In computability theory and computational complexity theory,
+an undecidable problem is a decision problem for which it is proved to be impossible
+to construct an algorithm that always leads to a correct yes-or-no answer.
+The halting problem is an example: it can be proven that there is no algorithm
+that correctly determines whether an arbitrary program eventually halts when run.
+
+* [Undecidability](https://www.cs.rochester.edu/u/nelson/courses/csc_173/computability/undecidable.html)
+* [Undecidable problem](https://en.wikipedia.org/wiki/Undecidable_problem)
+* [‘Next-Level’ Chaos Traces the True Limit of Predictability](https://www.quantamagazine.org/next-level-chaos-traces-the-true-limit-of-predictability-20250307/)
+
+
 # The Hidden Structure of the Universe
 
 * [The Standard Model: The Most Successful Scientific Theory Ever](https://www.youtube.com/watch?v=Unl1jXFnzgo&t=5s)
