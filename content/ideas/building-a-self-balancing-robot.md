@@ -223,6 +223,7 @@ making Dimebots some of the smallest robots in the world.
 
 # Balancing Bot
 
+* [Taming The Wobble: An Arduino Self-Balancing Bot](https://hackaday.com/2025/03/09/taming-the-wobble-an-arduino-self-balancing-bot/)
 * [Inside an Autonomous Self Balancing Robot](https://www.youtube.com/watch?v=s5m-DTn8jyw&list=PL3XBzmAj53RnO2fvVSaX-iTGfNFgcqSSu)
 * [PIDDYBOT – A Self Balancing Teaching Tool](http://hackaday.com/2014/01/17/piddybot-a-self-balancing-teaching-tool/#more-112629)
 * [PIDDYBOT - DIY Arduino Balancing Robot](https://www.hackster.io/seanhodgins/piddybot-diy-arduino-balancing-robot-14ce90)
