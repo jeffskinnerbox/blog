@@ -28,6 +28,7 @@ Here are some Pepper's Ghost history & DIY displays:
 * [Tiny Holo Cubic Display](https://www.youtube.com/watch?v=RQGz9suElo8)
 * [Creating my Holographic Waifu with an ESP32 and a Beam Splitter!!!](https://www.youtube.com/watch?v=jRoKbduqSvg)
 * [DIY Pepper's Ghost in a Jar](https://www.youtube.com/watch?v=Kd2lCnVWXQE)
+* [This Raspberry Pi project creates a floating image using a 150-year-old technique, and I love it](https://www.xda-developers.com/raspberry-pi-projects-illusions/)
 * [Pepper's Ghost Materials](https://www.youtube.com/watch?v=eB4kup3oKY0)
 * ["Peppers Ghost" Examples](https://www.youtube.com/watch?v=8a2id9JSX7w)
 * [Pepper's Cone: An Inexpensive Do-It-Yourself 3D Display](https://www.youtube.com/watch?v=dppCXj11I_Q)
