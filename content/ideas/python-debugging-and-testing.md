@@ -520,6 +520,15 @@ user-friendly web interfaces for machine learning models, APIs, or any Python fu
 ---------------
 
 
+# Pickle Module
+In Python, the `pickle` module lets you serialize and deserialize data.
+Essentially, this means that you can convert a Python object into a stream of bytes
+and then reconstruct it (including the object’s internal structure)
+later in a different process or environment by loading that stream of bytes.
+
+* [Exploiting Python pickles](https://davidhamann.de/2020/04/05/exploiting-python-pickle/)
+
+
 # Python Text Formatting
 
 Rich is a Python library for rich text and beautiful formatting in the terminal.
