@@ -250,6 +250,7 @@ working with built-in data types, processing iterables of data, handling input a
 * Magic Methods
     * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
     * [Python's Magic Methods in Classes](https://realpython.com/courses/magic-methods-classes/)
+    * [Magic Methods: The Secret to Elegant Python Code](https://thenewstack.io/magic-methods-the-secret-to-elegant-python-code/)
     * [Understanding Python’s Iteration and Membership: A Guide to **contains** and **iter** Magic Methods](https://www.kdnuggets.com/understanding-pythons-iteration-and-membership-a-guide-to-__contains__-and-__iter__-magic-methods)
     * [Efficient Iterations With Python Iterators and Iterables](https://realpython.com/courses/efficient-iterations-iterators-iterables/)
     * [Asynchronous Iterators and Iterables in Python](https://realpython.com/python-async-iterators/)
@@ -294,6 +295,7 @@ working with built-in data types, processing iterables of data, handling input a
     * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
     * [Eliot: Logging that tells you why it happened](https://eliot.readthedocs.io/en/stable/)
 * Unit Testing
+    * [unittest: Python’s Built-In Safety Net for Developers](https://thenewstack.io/unittest-pythons-built-in-safety-net-for-developers/)
     * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
     * [pytest Framework](https://docs.pytest.org/)
 * Infrastructure Testing
