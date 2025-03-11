@@ -11,6 +11,13 @@ Version: 0.0.0
 
 * [Wanna build a Raspberry Pi 5 cluster?](https://www.raspberrypi.com/news/wanna-build-a-raspberry-pi-5-cluster/)
 
+* [Raspberry Pi Cluster Episode 1 - Introduction to Clusters](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-1-introduction-clusters)
+* [Raspberry Pi Cluster Episode 2 - Setting up the Cluster](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-2-setting-cluster)
+* [Raspberry Pi Cluster Episode 3 - Installing K3s Kubernetes on the Turing Pi](https://www.jeffgeerling.com/blog/2020/installing-k3s-kubernetes-on-turing-pi-raspberry-pi-cluster-episode-3)
+* [Raspberry Pi Cluster Episode 4 - Minecraft, Pi-hole, Grafana and More!](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-4-minecraft-pi-hole-grafana-and-more)
+* [Raspberry Pi Cluster Episode 5 - Benchmarking the Turing Pi](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-5-benchmarking-turing-pi)
+* [Raspberry Pi Cluster Episode 6 - Turing Pi Review](https://www.jeffgeerling.com/blog/2020/raspberry-pi-cluster-episode-6-turing-pi-review)
+
 
 ## What is a Cluster
 

@@ -461,7 +461,7 @@ There are work arounds and I'm going to use one of them here.
 
 ```bash
 quickemu --public-dir /home/jeff/src/virtual-machines/quickemu/windows-10/shared \
-         --viewer spicy --width 1400 --height 900 \
+         --viewer spicy --width 1400 --height 1050 \
          --vm windows-10-English-United-States.conf
 ```
 
@@ -506,7 +506,10 @@ sudo smbpasswd -a samba
 cd ~/src/virtual-machines/quickemu/windows-10
 mkdir shared
 
-# change the ownership of the `shared/` directory to the Samba account
+# copy any external files you want windows to access to the `shared/` directory
+cp <file-needed-by-windows> shared/
+
+# change the ownership of the `shared/` directory and all it contents to the Samba account
 sudo chown -R samba:samba shared
 
 # establish the read/write permission for the shared directory
@@ -606,6 +609,7 @@ quickemu --display spice --width 1400 --height 1050 --vm windows-10-English-Unit
 ```
 
 Sources:
+
 * ChatGPT Prompt: "activate copy & paste between quickemu ubuntu host and windows guest"
 
 ---------------
