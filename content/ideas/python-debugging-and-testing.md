@@ -278,6 +278,20 @@ working with built-in data types, processing iterables of data, handling input a
     * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
 
 
+# Python Type Checking
+
+* [Python Type Checking (Guide)](https://realpython.com/python-type-checking/)
+
+
+## Duck Typing
+Python makes extensive use of a type system known as duck typing.
+The system is based on objects’ behaviors and interfaces.
+Many built-in classes and tools support this type system,
+which makes them pretty flexible and decoupled.
+
+* [Getting Started With Duck Typing (Overview)](https://realpython.com/videos/duck-typing-python-overview/)
+
+
 ## Python Best Practices
 
 * Speedup
