@@ -143,6 +143,7 @@ and **not** `$PYTHONPATH` set for you login.
 
 * [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 * [How to activate a Python virtual environment from a script file](https://www.a2hosting.com/kb/developer-corner/python/activating-a-python-virtual-environment-from-a-script-file)
+* [How to create a virtual environment in Python](https://www.techloy.com/how-to-create-a-virtual-environment-in-python/)
 
 
 ## Leave Your Native Python Alone
