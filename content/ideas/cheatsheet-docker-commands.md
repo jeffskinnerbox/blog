@@ -3,23 +3,16 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
-
----------------
-
-
+----
 
 * [Docker Series](https://earthly.dev/blog/series/docker/)
 * [Docker 101](https://nerdyarticles.com/docker-101/)
 * [Intro to Docker](https://hackaday.com/2018/09/05/intro-to-docker-why-and-how-to-use-containers-on-any-system/)
 * [Master Docker with This Essential Cheatsheet: Most Used Commands](https://levelup.gitconnected.com/docker-cheatsheet-thanks-me-later-37aa2cf638e3)
-
-
-
 
 # Sources
 
@@ -28,17 +21,16 @@ Version:      0.0.0
 
 * [Docker Commands You Should Know as a Beginner](https://dzone.com/articles/docker-commands-you-should-know-as-a-beginner)
 
-
 # Docker Cheat Sheet
-Typing just `docker` or `docker help` on the command line will display a list of all available commands.
 
+Typing just `docker` or `docker help` on the command line will display a list of all available commands.
 
 ## Docker Volumes
 
 * [Understanding Docker Volumes](https://earthly.dev/blog/docker-volumes/)
 
-
 ## Docker Management
+
 All commands below are called as options to the base `docker` command.
 Execute `docker <command> --help` for more information on a particular command.
 
@@ -59,7 +51,6 @@ Execute `docker <command> --help` for more information on a particular command.
 * `docker trust`       -- Manage trust on Docker images
 * `docker volume`      -- Manage volumes
 
-
 ## Build
 
 ```bash
@@ -73,7 +64,6 @@ docker image ls
 docker image rm alpine:3.4
 ```
 
-
 ## Share
 
 ```bash
@@ -86,7 +76,6 @@ docker tag myimage:1.0 myrepo/myimage:2.0
 # push an image to a registry
 docker push myrepo/myimage:2.0
 ```
-
 
 ## Run
 
@@ -112,7 +101,6 @@ docker container rm -f $(docker ps -aq)
 # print the last 100 lines of a container’s logs
 docker logs --tail 100 <container>
 ```
-
 
 ## Docker Networking
 
