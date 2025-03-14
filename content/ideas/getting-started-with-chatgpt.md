@@ -123,6 +123,7 @@ Retrieval Augmented Generation (RAG) is the de facto technique for giving LLMs t
 
 * [RAG from the Ground Up with Python and Ollama](https://www.youtube.com/watch?v=V1Mz8gMBDMo)
 * [Chat with Graphic PDFs: Building an AI PDF Summarizer](https://pyimagesearch.com/2025/02/24/chat-with-graphic-pdfs-building-an-ai-pdf-summarizer/)
+* [Understanding RAG Part VII: Vector Databases & Indexing Strategies](https://machinelearningmastery.com/understanding-rag-part-vii-vector-databases-indexing-strategies/)
 
 # MSTY
 
@@ -231,7 +232,9 @@ Tutorial
 * [Harnessing Power at the Edge: An Introduction to Local Large Language Models](https://pyimagesearch.com/2024/05/13/harnessing-power-at-the-edge-an-introduction-to-local-large-language-models/)
 * [Inside Look: Exploring Ollama for On-Device AI](https://pyimagesearch.com/2024/05/20/inside-look-exploring-ollama-for-on-device-ai/)
 
+* [The Beginner’s Guide to Language Models with Python](https://machinelearningmastery.com/the-beginners-guide-to-language-models-with-python/)
 * [Beginner’s Guide to Building LLM Apps with Python](https://www.kdnuggets.com/beginners-guide-to-building-llm-apps-with-python)
+
 * [LangChain](https://python.langchain.com/docs/get_started/introduction)
 * [Olama: The Future of Open Source Projects](https://eightify.app/summary/computer-science-and-technology/olama-the-future-of-open-source-projects)
 * [Private AI Revolution: Setting Up Ollama with WebUI on Raspberry Pi 5!](https://www.youtube.com/watch?v=jJKbYj8mIy8&t=53s)
