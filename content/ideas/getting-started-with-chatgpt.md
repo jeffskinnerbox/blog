@@ -1,73 +1,66 @@
-<!--
-Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
-Version:      0.0.0
--->
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
-</div>
+Some typical ideas to Personalize ChatGPT Responses:
 
+* You can use it to tailor response to match your skill level and and test your knowledge.
+A custom GPT lets you explain what you want to learn, where you're starting from, and what areas are your strengths or weaknesses.
+* Can ask ChatGPT to provide answers from multiple sources and identify those sources
+* You can add your preferences to ChatGPT's memory, and when you search,
+ChatGPT can use your preferences to give the types of results that you want and omit those that you don't.
+* You can upload files to a custom GPT to provide it with information that it may not otherwise have.
+For example, upload Home Assistant information that can be used when your having a problem with Home Assistant.
+* and more...
+
+By creating a custom GPT,
+you don't need to have to set things up each time you want to use your personalized ChatGPT.
+But there is a significant issue.
+Custom GPTs don't save your conversation history,
+so you can't stop in the middle of a conversation, you canot pick up from where you left off.
+If you want to be able to do so, you might want to create a **Project in ChatGPT** instead,
+which lets you apply custom instructions to multiple chats.
+
+Sources:
+
+* [How to Make a Custom GPT Bot With the ChatGPT Plus Bot Builder](https://www.howtogeek.com/make-a-custom-gpt-bot-with-chatgpt-plus-bot-builder/)
+* [How to Create ChatGPT Personas for Every Occasion](https://www.howtogeek.com/881659/how-to-create-chatgpt-personas-for-every-occasion/)
+* [7 Reasons I Use ChatGPT for Search Instead of Google](https://www.howtogeek.com/reasons-i-use-chatgpt-for-search-instead-of-google/)
+* [7 Ways I Use ChatGPT For Language Learning As a Non-Native](https://www.howtogeek.com/ways-i-use-chatgpt-for-language-learning-as-a-non-native/)
+* [ChatGPT Is Now a Search Engine](https://www.howtogeek.com/chatgpt-search-is-now-available/)
+* []
+
+# ChatGPT Models
+
+* [OpenAI Reveals Details About GPT-5 And The "Unified Model"](https://www.youtube.com/watch?v=KtwK3hBAjDY)
+
+# How Accurate are the AI Chat Models?
+
+* [Don’t Trust AI Search Engines–Study Finds They’re “Confidently Wrong” Up to 76% of the Time](https://www.howtogeek.com/dont-trust-ai-search-engines-confidently-wrong-up-to-76-of-the-time/)
+
+# Projects in ChatGPT
+
+* [How to Use Projects in ChatGPT](https://www.howtogeek.com/how-to-use-projects-in-chatgpt/)
 
 ---------------
-
-
-* [5 Free APIs for Building AI Applications](https://machinelearningmastery.com/5-free-apis-building-ai-applications/)
-
-
-
-* USA
-    * Apple: [Apple Intelligence](https://www.apple.com/apple-intelligence/)
-    * Microsoft: [Copilot](https://www.microsoft.com/en-us/microsoft-copilot)
-    * Google: [Gemini](https://gemini.google.com/app)
-        * [6 things I had no idea Gemini could do](https://www.androidpolice.com/things-i-had-no-idea-gemini-could-do/)
-    * Anthropic: [Claude](https://claude.ai/login)
-        * [Claude 3.7 Sonnet and Claude Code](https://www.anthropic.com/news/claude-3-7-sonnet)
-    * OpenAI: [ChatGPT](https://openai.com/index/chatgpt/), [You now have access to OpenAI o1 and OpenAI o3-mini](https://platform.openai.com/docs/models/compare)
-* Hugging Face
-    * Cognitive Computations: [Dolphin](https://huggingface.co/cognitivecomputations)
-    * [Building LLM Applications with Hugging Face Endpoints and FastAPI](https://machinelearningmastery.com/building-llm-applications-with-hugging-face-endpoints-and-fastapi/)
-* China
-    * DeepSeek: [DeepSeek](https://www.howtogeek.com/china-deepseek-rivals-chatgpt/)
-        * [Private & Uncensored Local LLMs in 5 minutes (DeepSeek and Dolphin)](https://www.youtube.com/watch?v=A2CqSfd5I4I)
-* AI like ChatGPT:
-    * [Set up a Local AI like ChatGPT on your own machine!](https://www.youtube.com/watch?v=DYhC7nFRL5I)
-    * [Run New Llama 3.1 on Your Computer Privately in 10 minutes](https://www.youtube.com/watch?v=1xdneyn6zjw)
-
-
-
-
-
----------------
-
 
 # Advice on Prompting
 
 * [Advice on prompting](https://platform.openai.com/docs/guides/reasoning#advice-on-prompting)
 
-
 ---------------
-
 
 # What About a GPU?
 
 * [eGPUs vs. eGPU Enclosures: Which Should You Choose?](https://www.howtogeek.com/egpus-vs-egpu-enclosures-which-should-you-choose/)
 
-
 ---------------
-
 
 # Safely Execute LLM Models Locally
 
+* [The Only Guide You Need to Fine-Tune Llama 3 or Any Other Open Source Model](https://www.unite.ai/the-only-guide-you-need-to-fine-tune-llama-3-or-any-other-open-source-model/)
 * [the ONLY way to run Deepseek...](https://www.youtube.com/watch?v=7TR-FLWNVHY)
-    * [Using DeepSeek-R1 Locally](https://www.kdnuggets.com/using-deepseek-r1-locally)
-    * [AI Revolution: Design PID Controllers Using DeepSeek-R1 AI Model and Python Locally](https://www.youtube.com/watch?v=amWkFwqA79s)
-
+  * [Using DeepSeek-R1 Locally](https://www.kdnuggets.com/using-deepseek-r1-locally)
+  * [AI Revolution: Design PID Controllers Using DeepSeek-R1 AI Model and Python Locally](https://www.youtube.com/watch?v=amWkFwqA79s)
 
 ---------------
-
-
-
-
 
 * [An Animated Walkthrough Of How Large Language Models Work](https://hackaday.com/2024/11/20/an-animated-walkthrough-of-how-large-language-models-work/)
 
@@ -76,7 +69,7 @@ Version:      0.0.0
 * [Peering Into The Black Box of Large Language Models](https://hackaday.com/2024/07/03/peering-into-the-black-box-of-large-language-models/)
 * [How LLMs Work, Explained Without Math](https://blog.miguelgrinberg.com/post/how-llms-work-explained-without-math)
 
-    * [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+  * [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
 * [Hopper Chat: Chatbot (LLM) based voice assistance and smart speaker](https://github.com/ShawnHymel/hopper-chat)
 
@@ -90,19 +83,18 @@ Version:      0.0.0
 
 * [7 LLM Projects to Boost Your Machine Learning Portfolio](https://machinelearningmastery.com/7-llm-projects-to-boost-your-machine-learning-portfolio/)
 
-
 * [How to Select SBC (Lattepanda/Raspberry Pi) for Local LLM (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, etc.)](https://www.dfrobot.com/blog-13536.html?tracking=676d0b674d873)
 * [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, etc)](https://www.dfrobot.com/blog-13498.html?tracking=676d0b674d873)
 * [Run Small Language Models (Mathstral, phi 3, Llama 3.1, Gemma2 2b, Qwen) on Raspberry Pi 5](https://www.dfrobot.com/blog-14068.html?tracking=676d0b674d873)
-    * [Run phi3.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15782.html?tracking=676d0b674d873)
-    * [Run Qwen2.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15784.html?tracking=676d0b674d873)
-    * [Run Gemma2 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15783.html?tracking=676d0b674d873)
-
+  * [Run phi3.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15782.html?tracking=676d0b674d873)
+  * [Run Qwen2.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15784.html?tracking=676d0b674d873)
+  * [Run Gemma2 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15783.html?tracking=676d0b674d873)
 
 ---------------
 
-
 # Large Language Models Explained
+
+* [Why Do Researchers Care About Small Language Models?](https://www.quantamagazine.org/why-do-researchers-care-about-small-language-models-20250310/)
 
 * [How AI Learned to Think](https://www.youtube.com/watch?v=PvDaPeQjxOE)
 * [The Making of ChatGPT (35 Year History)](https://www.youtube.com/watch?v=OFS90-FX6pg)
@@ -113,8 +105,8 @@ Version:      0.0.0
 * [Transformers (how LLMs work) explained visually](https://www.youtube.com/watch?v=wjZofJX0v4M&t=6s)
 * [How might LLMs store facts](https://www.youtube.com/watch?v=9-Jl0dxWQs8)
 
-
 # Does LLM Size Matter?
+
 Large Language Models (LLMs) are measured by the number of parameters they contain,
 i.e. the number of weights and biases within the neural network.
 More parameters mean a bigger, more complex model.
@@ -125,15 +117,15 @@ or could 4-bit or 8-bit quantization suffice?
 
 * [Does LLM Size Matter? How Many Billions of Parameters do you REALLY Need?](https://www.youtube.com/watch?v=kgSMRmW2frA)
 
-
 # RAG
+
 Retrieval Augmented Generation (RAG) is the de facto technique for giving LLMs the ability to interact with any document or dataset, regardless of its size.
 
 * [RAG from the Ground Up with Python and Ollama](https://www.youtube.com/watch?v=V1Mz8gMBDMo)
 * [Chat with Graphic PDFs: Building an AI PDF Summarizer](https://pyimagesearch.com/2025/02/24/chat-with-graphic-pdfs-building-an-ai-pdf-summarizer/)
 
-
 # MSTY
+
 Msty is a desktop application that lets you do several things.
 First, it can let you chat with an AI engine either locally or remotely.
 It knows about many popular options and can take your keys for paid services.
@@ -145,8 +137,8 @@ which ranges from easy to moderately difficult, depending on what you are trying
 * [How to Set Up MSTY LLM Locally: A Step-by-Step Guide](https://thedatascientist.com/how-to-set-up-msty-llm-locally-step-by-step/)
 * [Running AI Locally Without Spending All Day On Setup](https://hackaday.com/2025/01/08/running-ai-locally-without-spending-all-day-on-setup/)
 
-
 # Open WebUI
+
 Open WebUI is an extensible, self-hosted AI interface that adapts to your workflow, all while operating entirely offline.
 It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG, making it a powerful AI deployment solution.
 
@@ -154,24 +146,20 @@ Open WebUI can be bundled with Ollama and deployed via Docker.
 
 * [Open WebUI](https://openwebui.com/)
 
-
 # MobileNet
 
 * [Deploying MobileNet on Microcontrollers](https://www.hackster.io/news/deploying-mobilenet-on-microcontrollers-31f2623ab383)
 * [MobileNet for Microcontrollers](https://eloquentarduino.com/posts/micro-mobilenet)
 * [TensorFlow Lite for Microcontrollers](https://www.tensorflow.org/lite/microcontrollers)
 
-
 # LLaVA: Large Language and Vision Assistant
 
 * [Very small vision language model!!! (MoonDream V1)](https://www.youtube.com/watch?v=1b9erAtYr9A)
 * [100% Local Tiny AI Vision Language Model (1.6B) - Very Impressive!!](https://www.youtube.com/watch?v=oDGQrOlmC1s)
 
-
 # Local Low Latency Speech to Speech
 
 * [Local Low Latency Speech to Speech - Mistral 7B + OpenVoice / Whisper | Open Source AI](https://www.youtube.com/watch?v=0k8wUfU7n4Q)
-
 
 # VoiceGPT
 
@@ -183,19 +171,16 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 * [World's Easiest GPT-like Voice Assistant](https://www.youtube.com/watch?v=LTn2SPZw1mw)
 * [ChatGPT + Raspberry Pi - A ChatGPT powered Raspberry Pi chatbot](https://www.youtube.com/watch?v=lHxFFn04L10)
 
-
 # Speech Recognition, LLM, and Text-to-Speech
 
 * [Interactive Animatronic GLaDOS](https://www.hackster.io/davesarmoury/interactive-animatronic-glados-8b4238)
 * [How to install the best open source TTS (text to speech model) -- ChatTTS and fix tone solution](https://www.lattepanda.com/blog-323172.html?tracking=66614bd3d49b5)
 
-
 # Edge Impulse LLM / Low Latency & Low Cost
 
 * [GenAI for the Edge: Harness the Power of LLMs on Edge Devices](https://www.youtube.com/watch?v=DLMdk1oXNes)
 * [Bringing Large Language Models to the Edge with GPT-4o and NVIDIA TAO](https://www.edgeimpulse.com/blog/llm-knowledge-distillation-gpt-4o/)
-    * [Using GPT-4o to train a 2,000,000x smaller model (that runs directly on device)](https://www.youtube.com/watch?v=Jou0aRgGiis&t=4s)
-
+  * [Using GPT-4o to train a 2,000,000x smaller model (that runs directly on device)](https://www.youtube.com/watch?v=Jou0aRgGiis&t=4s)
 
 # ChatGPT on the Command-Line
 
@@ -203,7 +188,6 @@ VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to ans
 * [ChatGPT CLI: Transform Your Command-Line Interface Into ChatGPT](https://www.kdnuggets.com/2023/07/chatgpt-cli-transform-commandline-interface-chatgpt.html)
 * Simple yet effective command line client for chatting with ChatGPT using the official API - [GitHub: marcolardera/chatgpt-cli](https://github.com/marcolardera/chatgpt-cli)
 * A command line tool for interacting with DALL-E models - [GitHub: marcolardera/dall-e-cli](https://github.com/marcolardera/dall-e-cli)
-
 
 # LMStudio & AnythingLLM
 
@@ -215,12 +199,9 @@ powerful local LLM to replace ChatGPT
 * [AnythingLLM](https://useanything.com/)
 * [Large Language Models On Small Computers](https://hackaday.com/2024/09/07/large-language-models-on-small-computers/)
 
-
 ---------------
 
-
 # Other LLM Like ChatGPT
-
 
 ## Anthropic
 
@@ -228,14 +209,12 @@ powerful local LLM to replace ChatGPT
 
 ---------------
 
-
 # Making Movies
 
 * [What If The Matrix was Made in the 1950s?](https://hackaday.com/2024/06/09/what-if/)
-    * [How AI Makes New Movies That Look Old - 1950's Super Panavision 70 Tutorial](https://www.youtube.com/watch?v=VIBwC2rB3nA)
+  * [How AI Makes New Movies That Look Old - 1950's Super Panavision 70 Tutorial](https://www.youtube.com/watch?v=VIBwC2rB3nA)
 
 ---------------
-
 
 # Ollama
 
@@ -261,7 +240,6 @@ Tutorial
 * [Ollama - Self-Hosted AI Chat with Llama 2, Code Llama and More in Docker](https://noted.lol/ollama/)
 * [You can run LLMs locally on your Raspberry Pi using Ollama - here's how to do it](https://www.xda-developers.com/run-llms-on-raspberry-pi/)
 
-
 # Llamafile
 
 llamafile lets you distribute and run LLMs with a single file.
@@ -270,7 +248,6 @@ Our goal is to make open LLMs much more accessible to both developers and end us
 * [Llamafile, the easiest way of running a multimodal LLM locally on your PC](https://ashishware.com/2024/01/05/Llamafile/)
 
 ---------------
-
 
 # What is a Large Language Model (LLM)?
 
@@ -281,14 +258,12 @@ Our goal is to make open LLMs much more accessible to both developers and end us
 * [Get a Taste of LLMs from GPT4All](https://machinelearningmastery.com/get-a-taste-of-llms-from-gpt4all)
 * [What Are Zero-Shot Prompting and Few-Shot Prompting](https://machinelearningmastery.com/what-are-zero-shot-prompting-and-few-shot-prompting/)
 
-
 # ChatGPT With Custom Knowledge Base
 
 * [Using ChatGPT with YOUR OWN Data. This is magical. (LangChain OpenAI API)](https://www.youtube.com/watch?v=9AXP7tCI9PI)
 * [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
 * [Build an LLM RAG Chatbot With LangChain](https://realpython.com/build-llm-rag-chatbot-with-langchain/)
 * [How To Build Your Own Custom ChatGPT With Custom Knowledge Base](https://betterprogramming.pub/how-to-build-your-own-custom-chatgpt-with-custom-knowledge-base-4e61ad82427e)
-
 
 # ChatGPT Combined with Wolfram Alpha
 
@@ -297,12 +272,10 @@ well—to give it what we might think of as “computational superpowers”.
 
 * [Wolfram Alpha With ChatGPT Looks Like A Killer Combo](https://hackaday.com/2023/04/17/wolfram-alpha-with-chatgpt-looks-like-a-killer-combo/)
 
-
 # Generative Pre-trained Transformer (GPT)
 
 * [Generative Pre-trained Transformer (GPT)](https://en.wikipedia.org/wiki/GPT-2#Generative_Pre-trained_Transformer)
 * [Train A GPT-2 LLM, Using Only Pure C Code](https://hackaday.com/2024/04/28/train-a-gpt-2-llm-using-only-pure-c-code/)
-
 
 # ChatGPT
 
@@ -312,11 +285,9 @@ well—to give it what we might think of as “computational superpowers”.
 * [ChatGPT: 3 productivity tips for IT professionals](https://www.redhat.com/architect/chatgpt-programming-pros-cons)
 * [How To Create Your Own Auto-GPT AI Agent](https://www.tomshardware.com/how-to/auto-gpt-ai-agent)
 
-
 # Private ChatGPT
 
 * [How to create a private ChatGPT that interacts with your local documents](https://bdtechtalks.com/2023/06/01/create-privategpt-local-llm/)
-
 
 # simpleaichat
 
@@ -324,21 +295,19 @@ Python package for easily interfacing with chat apps like ChatGPT and GPT-4 with
 
 * [A Hacker-Friendly Software Package For Your Next AI Project](https://hackaday.com/2023/08/31/a-hacker-friendly-software-package-for-your-next-ai-project/)
 
-
 # Magic Storybook with ChatGPT
 
 These guide will show you how to create:
 
 * Your own never-ending story book using a Raspberry Pi, a touch screen display, and ChatGPT
-    * [Chat with ChatGPT through Arduino GIGA R1 Display Shield](https://www.hackster.io/shahizat/chat-with-chatgpt-through-arduino-giga-r1-display-shield-22e0ee)
+  * [Chat with ChatGPT through Arduino GIGA R1 Display Shield](https://www.hackster.io/shahizat/chat-with-chatgpt-through-arduino-giga-r1-display-shield-22e0ee)
 * harnesses the power of the Arduino platform to bridge the gap between human input and AI-powered responses.
-    * [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
+  * [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
 * [Make an AI device to tell you bedtime stories](https://www.raspberrypi.com/news/make-an-ai-device-to-tell-you-bedtime-stories/)
 
-    * [Fably Homepage](https://stefanom.github.io/fably/)
+  * [Fably Homepage](https://stefanom.github.io/fably/)
 
 * [LLM101n: Let's build a Storyteller](https://github.com/karpathy/LLM101n)
-
 
 ## GPT-4
 
@@ -347,19 +316,15 @@ These guide will show you how to create:
 * [GPT-4 is Amazing but Still Struggles at High School Math Competitions](https://www.cantorsparadise.com/gpt-4-is-amazing-but-still-struggles-at-high-school-math-competitions-cbc2e73738e)
 * [GPT-4 is here. An AI researcher’s take.](https://medium.com/@paul.k.pallaghy/gpt-4-is-here-its-incredible-4d161d4b34f5)
 
-
 # ChatGPT Plugins
 
 * [Plugins: A Massive Upgrade That Will Change ChatGPT Forever](https://frank-andrade.medium.com/plugins-a-massive-upgrade-that-will-change-chatgpt-forever-e8dcdc8a8da9)
-
-
 
 # Hugging Face
 
 [Hugging Face](https://huggingface.co/)
 is a collaboration platform, providing compute for AI,
 making it easy to seamlessly and scalably launch ML compute directly from the Hub.
-
 
 # Interfacing ChatGPT-3 with Microcomputers
 
@@ -369,10 +334,9 @@ making it easy to seamlessly and scalably launch ML compute directly from the Hu
 * [ESP32 Voice Assistant with ChatGPT: Your Personal AI Companion](https://www.youtube.com/watch?v=IvAAw93e-9E)
 * [AI Assistant Translates Your Every Request For The Command Line](https://hackaday.com/2023/08/30/ai-assistant-translates-your-every-request-for-the-command-line/)
 * [Make a homemade AI home assistant](https://www.raspberrypi.com/news/make-a-homemade-ai-home-assistant/)
-    * [AI Everywhere. Recent experiments with Generative AI at Home & Work](https://www.theshepreport.com/p/ai-everywhere-recent-experiments)
-    * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
-    * [GPT Home](https://github.com/judahpaul16/gpt-home)
-
+  * [AI Everywhere. Recent experiments with Generative AI at Home & Work](https://www.theshepreport.com/p/ai-everywhere-recent-experiments)
+  * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
+  * [GPT Home](https://github.com/judahpaul16/gpt-home)
 
 # LLaMA
 
@@ -391,7 +355,6 @@ Smaller, more performant models such as LLaMA enable others in the research comm
 * [Deploy and run LLM on Raspberry Pi 4B (LLaMA, Alpaca, LLaMA2, ChatGLM)](https://www.dfrobot.com/blog-13412.html)
 * [Easy way to run speedy Small Language Models on a Raspberry Pi](https://www.geeky-gadgets.com/easy-way-to-run-speedy-small-language-models-on-a-raspberry-pi/)
 
-
 # Jupyter AI
 
 It adds a native chat UI, magic commands to send prompts to ChatGPT, and generates entire notebooks from a text prompt.
@@ -399,7 +362,6 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 * [Jupyter AI: The AI Extension for Jupyter Lab](https://artificialcorner.com/jupyter-ai-the-ai-extension-for-jupyter-lab-c4c3be5444fe)
 
 ---------------
-
 
 # Rapid Advancement By Open Source Community
 
@@ -412,20 +374,17 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 
 ---------------
 
-
 # Brad is Google's Answer to ChatGPT
 
 [Brad](https://bard.google.com/)
 
 ---------------
 
-
 # Copilot (OpenAI Codex)
 
 * [GitHub Copilot is among the first real products based on large language models](https://bdtechtalks.com/2022/07/05/github-copilot-large-language-model-product-management/)
 * [GitHub Copilot](https://github.com/features/copilot)
 * [Microsoft Copilot’s ‘Think Deeper’ Is Now Free](https://www.howtogeek.com/microsoft-copilot-think-deeper-now-free/)
-
 
 # GitHub Copilot
 
@@ -434,9 +393,7 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 
 * [Copilot](https://github.com/features/copilot/)
 
-
 ---------------
-
 
 # Practical Uses of ChatGPT in Programming
 
@@ -444,13 +401,11 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 
 ---------------
 
-
 # AI Art
 
 * [Artificial ‘creativity’ is unstoppable. Grappling with its ethics is up to us](https://aeon.co/videos/artificial-creativity-is-unstoppable-grappling-with-its-ethics-is-up-to-us)
 
 ---------------
-
 
 # The Infinite Conversation
 
@@ -463,7 +418,6 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [Little Shop of Conversations: Talk to anything using AI](https://www.redpepper.land/blog/little-shop-of-conversations-talk-to-plants-using-ai)
 
 ---------------
-
 
 # GPT-4 Vision / Visual Language Models (VLM)
 
