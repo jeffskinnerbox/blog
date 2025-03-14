@@ -12,6 +12,10 @@ Version:      0.0.0
 ---------------
 
 
+* [Raspberry Pi Drives Holographic Anime Virtual Assistant](https://www.tomshardware.com/news/raspberry-pi-anime-holographic-assistant)
+
+
+
 July of 2024, I purchased something titled
 ["Arduino creative custom office wifi networking weather forecast weather cloud clock projection transparent small TV"][01].
 It was a very misleading description & picture
