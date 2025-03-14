@@ -101,6 +101,8 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 * [Wyoming Voice Satellite Tutorial](https://github.com/rhasspy/wyoming-satellite/blob/master/docs/tutorial_2mic.md)
 * [Wyoming Protocol](https://github.com/rhasspy/wyoming)
 
+* [This custom Raspberry Pi voice assistant is built around ChatGPT](https://www.msn.com/en-us/lifestyle/shopping/this-custom-raspberry-pi-voice-assistant-is-built-around-chatgpt/ar-AA1tU1xJ)
+
 
 # Mopidy
 

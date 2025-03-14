@@ -165,6 +165,7 @@ Open WebUI can be bundled with Ollama and deployed via Docker.
 
 VoiceGPT is a voice assistant that leverages the powerful ChatGPT chatbot to answer your questions. You speak the requests, and VoiceGPT responds with realistic, synthesized speech.
 
+* [This custom Raspberry Pi voice assistant is built around ChatGPT](https://www.msn.com/en-us/lifestyle/shopping/this-custom-raspberry-pi-voice-assistant-is-built-around-chatgpt/ar-AA1tU1xJ)
 * [VoiceGPT](https://www.voice-gpt.ai/)
 * [VoiceGPT](https://voicegpt.net/)
 * [GitHub: nickbild/voice_chatgpt](https://github.com/nickbild/voice_chatgpt)
