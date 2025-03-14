@@ -26,11 +26,11 @@ Version:      0.0.0
 * [Raspberry Pi 5 vs Intel N100 mini PC comparison – Features, Benchmarks, and Price](https://www.cnx-software.com/2024/04/29/raspberry-pi-5-intel-n100-mini-pc-comparison-features-benchmarks-price/)
 
 * [The Best Raspberry pi 5 Case Is here! Argon NEO 5 BRED Hands On](https://www.youtube.com/watch?v=4FQFgsnKvYM)
-    * [Argon NEO 5 BRED for Raspberry Pi 5](https://www.amazon.com/Argon-NEO-BRED-Raspberry-Pi/dp/B0CP3MGMTD)
+  * [Argon NEO 5 BRED for Raspberry Pi 5](https://www.amazon.com/Argon-NEO-BRED-Raspberry-Pi/dp/B0CP3MGMTD)
 * [Unleash the power of the Raspberry Pi 5 - 1TB NVME and Argon ONE NVME case](https://www.youtube.com/watch?v=kmgTrwNmZV8)
 
-    * [Argon ONE V3 M.2 NVME PCIE Case](https://argon40.com/products/argon-one-v3-m-2-nvme-case)
-    * [Argon NEO 5 M.2 NVME PCIE Case for Raspberry Pi 5](https://argon40.com/products/argon-neo-5-m-2-nvme-for-raspberry-pi-5)
+  * [Argon ONE V3 M.2 NVME PCIE Case](https://argon40.com/products/argon-one-v3-m-2-nvme-case)
+  * [Argon NEO 5 M.2 NVME PCIE Case for Raspberry Pi 5](https://argon40.com/products/argon-neo-5-m-2-nvme-for-raspberry-pi-5)
 
 * [Dual Edge TPU: Double Power, Same Slot](https://www.youtube.com/watch?v=W-LlUe_EXjg)
 * [AI on a Pi? Believe it!](https://www.youtube.com/watch?v=so8_h0EKPWU&t=634s)
@@ -48,16 +48,13 @@ Version:      0.0.0
 | | | |
 | | | |
 
-
 # How to Boot From USB
 
 * [How To Boot A Raspberry Pi From A USB Drive](https://www.slashgear.com/1588415/how-to-boot-raspberry-pi-from-usb-drive/)
 
-
 # How to Boot From SSD
 
 * [Testing Cytron MAKERDISK M.2 NVMe SSDs on Raspberry Pi 5 with GEEKWORM X1001 and Waveshare M.2 PCIe HAT+](https://www.cnx-software.com/2024/04/07/review-cytron-makerdisk-nvme-ssd-raspberry-pi-5-geekworm-x1001-waveshare-m2-pcie-hat/)
-
 
 # Coral Alternatives
 
@@ -65,14 +62,12 @@ Version:      0.0.0
 * [Raspberry Pi AI Kit Brings AI Inferencing to Single Board Computers](https://www.coolthings.com/raspberry-pi-ai-kit-machine-learning-add-on-vision-based-ai/)
 * [Raspberry Pi Embraces AI With Hailo Collaboration](https://www.techrepublic.com/article/raspberry-pi-ipo-hailo-ai/)
 
-
 * [My Raspberry Pi 5 is a delight, and I'm excited about all its future uses](https://www.pocket-lint.com/raspberry-pi-5-review/)
 * [Raspberry Pi 5 review: A huge upgrade for the tiny single-board computer](https://www.pcworld.com/article/2219346/raspberry-pi-5-review.html)
 * [Raspberry Pi 5 review: The first Pi that can truly serve as a desktop](https://www.expertreviews.co.uk/raspberry-pi-foundation/raspberry-pi-5-review)
 * [Raspberry Pi 5 vs N100 PC (featuring Ubuntu 23.10)](https://www.youtube.com/watch?v=hekzpSH25lk)
 
 * [A Step-by-Step Guide to Install Kali Linux on Raspberry Pi 5](https://thesecmaster.com/a-step-by-step-guide-to-install-kali-linux-on-raspberry-pi-5/)
-
 
 # Raspberry Pi Benchmark Tools
 
@@ -97,7 +92,6 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 .
 ```
 
-
 # Overclocking
 
 * [Raspberry Pi 5 hits world-record 3.4 GHz with thermoelectric cooling and firmware tweaks](https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-hits-world-record-34-ghz-with-thermoelectric-cooling-and-firmware-tweaks)
@@ -115,25 +109,21 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 * [Overclock Your Raspberry Pi The Right Way](https://hackaday.com/2018/01/16/__trashed-5/)
 * [How to Overclock Any Raspberry Pi](https://www.tomshardware.com/how-to/overclock-any-raspberry-pi)
 
-
 ## Raspberry Pi Approved Overclocking Tweaks
 
 * [A Free Speed Boost For Your Pi 5](https://hackaday.com/2024/12/02/a-free-speed-boost-for-your-pi-5/)
-    * [Raspberry Pi boosts Pi 5 performance with SDRAM tuning](https://www.jeffgeerling.com/blog/2024/raspberry-pi-boosts-pi-5-performance-sdram-tuning)
-
+  * [Raspberry Pi boosts Pi 5 performance with SDRAM tuning](https://www.jeffgeerling.com/blog/2024/raspberry-pi-boosts-pi-5-performance-sdram-tuning)
 
 # Proxmox Server
 
 * [Is the Raspberry Pi5 the better Proxmox Server?](https://www.youtube.com/watch?v=Qit-3upR6iA)
 
-
 # Large Language Model (LLM)
 
-* [he Only Guide You Need to Fine-Tune Llama 3 or Any Other Open Source Model](https://www.unite.ai/the-only-guide-you-need-to-fine-tune-llama-3-or-any-other-open-source-model/)
+* [The Only Guide You Need to Fine-Tune Llama 3 or Any Other Open Source Model](https://www.unite.ai/the-only-guide-you-need-to-fine-tune-llama-3-or-any-other-open-source-model/)
 * [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, mamba-gpt)](https://www.dfrobot.com/blog-13498.html?tracking=6594dccfd2dcd)
 * [I Ran Advanced LLMs on the Raspberry Pi 5!](https://www.youtube.com/watch?v=Y2ldwg8xsgE)
 * [Running a ChatGPT-Like LLM on the Raspberry Pi 5](https://www.hackster.io/shahizat/running-a-chatgpt-like-llm-on-the-raspberry-pi-5-fd67f9)
-
 
 # Tensor Processing Unit (TPU)
 
@@ -149,18 +139,15 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 
 * [Coral: Hardware & Software](https://coral.ai/)
 
-
 # NVMe SSD
 
 * [FINALLY! NVMe SSDs on the Raspberry Pi](https://www.youtube.com/watch?v=EXWu4SUsaY8)
 * [Raspberry Pi 5 M.2 HatDrive!](https://www.youtube.com/watch?v=B9OwWnAftb4)
 * [Raspberry Pi 5 with 2TB NVME SSD Geekworm Shield](https://www.youtube.com/watch?v=IUxP31rNRY4)
 
-
 # TensorFlow
 
 * [Install TensorFlow on Raspberry 64 OS](https://qengineering.eu/install-tensorflow-on-raspberry-64-os.html)
-
 
 <!-- for some reason this is being deleted, so for now, I'm protesting it within these comments
 [01]:https://www.raspberrypi.com/products/raspberry-pi-5/
@@ -172,4 +159,3 @@ sysbench --test=fileio --file-total-size=150G prepare    # create a test file th
 [07]:https://www.amazon.com/dp/B07S214S5Y
 [08]:https://www.amazon.com/dp/B08KTSGN7F/
 -->
-
