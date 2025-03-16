@@ -1,4 +1,8 @@
 
+[ChatGPT][01], OpenAI’s text-generating AI chatbot,
+was launch in November 2022 and has been steadly evolving ever since
+(see evolutionary timeline [here][02].
+
 Some typical ideas to Personalize ChatGPT Responses:
 
 * You can use it to tailor response to match your skill level and and test your knowledge.
@@ -429,3 +433,6 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [GitHub: haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA/tree/main)
 * [LLaVA: Large Language and Vision Assistant](https://llava-vl.github.io/)
 * [A Weekend AI Project: Making a Visual Assistant for People with Vision Impairments](https://towardsdatascience.com/a-weekend-ai-project-making-a-visual-assistant-for-people-with-vision-impairments-df0b9f0b8c23)
+
+[01]:https://chatgpt.com/
+[02]:https://techcrunch.com/2025/03/14/chatgpt-everything-to-know-about-the-ai-chatbot/
