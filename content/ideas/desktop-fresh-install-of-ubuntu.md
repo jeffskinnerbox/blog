@@ -3,16 +3,14 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
-
 ---------------
 
-
 # Background
+
 I first establish my Linux desktop environment in 2013 with Ubuntu 13.04.
 I repeatedly upgraded desktop, generally twice a year, with the latest release.
 When the year 2022 came around, Ubuntu 22.04 is available for another upgrade.
@@ -50,13 +48,10 @@ This 2024 upgrade has gone smoother the Ubuntu install spotted the RADI disks
 and made the appropriate OS modifications,
 making the reestablishment of the `/home` directory happen easily.
 
-
-
 ---------------
 
-
-
 # Install Ubuntu 23.10 - DONE
+
 First, [download Ubuntu from its website][01].
 Once you have got the ISO image, it’s time to [create a live USB][02] from it,
 and [perform the install][03].
@@ -75,13 +70,10 @@ press the `F1` key.
 BIOS setting, drive boot order, modification of suspend state, etc.,
 you can do this by pressing the `Del` (aka Delete key) during a reboot.
 
-
-
 ---------------
 
+# Establish Fail-Safe User Account - DONE
 
-
-#  Establish Fail-Safe User Account - DONE
 To assure I have a [fail-safe][41] measure to recover from human errors,
 I'll create a user account, with root privileges,
 just in case I screw-up the establishment of the `/home`
@@ -111,9 +103,11 @@ A quick and easy way to add a user is by invoke the command:
 >use the `--remove-home` flag: `sudo deluser --remove-home username>`.
 
 Source:
+
 * [How to Add and Delete Users on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-18-04)
 
 #### Step 1: Create User Account - DONE
+
 This fail-safe user account's home directory will reside on
 the disk where the operating system resides under the `/mnt` directory
 and be in the same group as my user account.
@@ -129,6 +123,7 @@ sudo usermod -aG sudo jeff-admin
 ```
 
 #### Step 2: Delete User Account
+
 Once this "fresh install" process is completed,
 there is little need for this special user account.
 At that time, you can delete this account via:
@@ -150,19 +145,17 @@ sudo visudo
 
 **Don't do this step now but return to it when all the work is completed.**
 
-
-
 ---------------
 
-
-
 # Install Your Favorate Tools
+
 As I work throught this installation process,
 I'm going to want to use all my firmular tools,
 tools like Gnome Terminal, Curl, Chrome browser, NeoVim, etc.
 Lets get these installed.
 
 #### Step 1: Supporting Packages - DONE
+
 ```bash
 # install packages for general use
 sudo apt -y install trash-cli gnome-terminal git jq vim tmux wmctrl curl stow xclip
@@ -233,6 +226,7 @@ sudo rmmod kvm-intel kvm
 ```
 
 #### Step 2: Install Your `.dotfiles` - DONE
+
 Within my GitHub, I maintain my dotfiles and the mainteance tool that I use is `stow`.
 Let's pull down the latest `.dotfiles` reposaitory and an install anything required:
 
@@ -258,6 +252,7 @@ stow --dir=$HOME/.dotfiles --target=$XDG_CONFIG_HOME --stow pkg-ansible-lint
 ```
 
 #### Step 3: Install Miniconda for Python Work - DONE
+
 [Python][67] is such a success in large part because of its very active community
 in which people share their awesome solutions.
 Unfortunately, there is a price.
@@ -274,7 +269,7 @@ Not only will Miniconda will be installed but your `bash` shell environment
 (specifically the files `.bashrc` or `.bash_profile`)
 will be updated to include Miniconda in the `$PATH`.
 Also, if the environment variable `$PYTHONPATH` is set, you will get a warning like
-"_please verify that your $PYTHONPATH only points to directories of packages that are compatible with the Python interpreter in Miniconda3_"
+"*please verify that your $PYTHONPATH only points to directories of packages that are compatible with the Python interpreter in Miniconda3*"
 
 ```bash
 # create a directory to install miniconda in
@@ -320,10 +315,12 @@ rm -rf ~/.condarc ~/.conda
 ```
 
 Sources:
+
 * [Install Miniconda on Linux from the command line in 5 steps](https://javedhassans.medium.com/install-miniconda-on-linux-from-the-command-line-in-5-steps-403912b3f378)
 * [How to Uninstall Miniconda on Linux: A Guide](https://saturncloud.io/blog/how-to-uninstall-miniconda-on-linux-a-guide/)
 
 #### Step 4: Google Chrome - DONE
+
 My go-to browser is Chrome and you can install it on Ubuntu from [here][50].
 
 ```bash
@@ -353,6 +350,7 @@ sudo apt purge google-chrome-stable
 ```
 
 #### Step 5: NeoVim - DONE
+
 There are several sources for [NeoVim][51],
 but I have found that [Snap][54] has one of the most up to date versions.
 I installed NeoVim via the Snap Store using this method:
@@ -413,6 +411,7 @@ sudo apt install ripgrep
 ```
 
 #### Step 6: Tmux - DONE
+
 The [Tmux Plugin Manager][77] (also known as `tpm`)
 is designed to automatically manage the `tmux` plugins
 and those plugins are [listed here][78].
@@ -447,12 +446,10 @@ trash $XDG_CONFIG_HOME/tmux/tmux.conf
 ln -s ~/.dotfiles/tmux-pkg/tmux.conf $XDG_CONFIG_HOME/tmux/tmux.conf
 ```
 
-
 ---------------
 
-
-
 # Setup Dual Monitor
+
 My installation of the new motherboard and Ubuntu had no problem supporting one of the two monitors I'm using.
 Now its time to bring the second monitor up and working.
 
@@ -466,6 +463,7 @@ Sources:
 * [xscreensaver - extensible screen saver and screen locking framework](https://manpages.ubuntu.com/manpages/xenial/man1/xscreensaver.1.html)
 
 ## Procedure Used in 2022 - DONE, NOT
+
 With my 2022 refresh of my Linux desktop computer,
 I upgrading to a dual monitor configuration.
 To do this,  I did the following:
@@ -478,6 +476,7 @@ To do this,  I did the following:
 5. Set the brightness, color setting, etc. on the two displays to be visually equivalent.
 
 #### Step 1: Wayland or X11 Display Manager - DONE, NOT
+
 I read on the web that Wayland doesn't work well with a dual monitor setup, at least at in 2022.
 I no long belive this is the case.
 In 2022, to avoid this challenge, I choose to continue to use X11.
@@ -496,6 +495,7 @@ The video "[How to Switch Between Xorg and Wayland in Ubuntu 20.04 18.04][21]"
 shows how this is done.
 
 Sources:
+
 * [36C3 ChaosWest: X11 and Wayland: A tale of two implementations](https://www.youtube.com/watch?v=b8OY4VtYx1s)
 * [WAYLAND: what is it, and is it ready for daily use?](https://www.youtube.com/watch?v=g1BoZnekkyM)
 * [Wayland Is The Future Of Linux, What About Now?](https://www.youtube.com/watch?v=lm2aireP-wc)
@@ -507,6 +507,7 @@ This change did appear to give me support problems with my MSI Geforce 210 graph
 I did the following to make X11 the default at boot time:
 
 #### Step 1A: Choosing X11 or Wayland - DONE
+
 **NOTES For 2024 Upgrade to Ubuntu 24.04**
 Wayland is not shown as an option on the login screen
 (or the cog icon of the login screen doesn't show at all).
@@ -517,9 +518,11 @@ I did the following to fix this:
 3. Reboot the system
 
 Source:
+
 * [NVIDIA Ubuntu Driver Guide](https://github.com/oddmario/NVIDIA-Ubuntu-Driver-Guide?tab=readme-ov-file#wayland-is-not-shown-as-an-option-on-the-login-screen-or-the-cog-icon-of-the-login-screen-doesnt-show-at-all)
 
 #### Step 1B: Replace Nvidia Drivers - DONE, NOT
+
 **NOTES For 2024 Upgrade to Ubuntu 24.04**
 An alternative to using X11, and there for use the Ubuntu 24.04 default of Wayland,
 is to install new Nvidia drivers.
@@ -532,11 +535,13 @@ but it is the default desktop session for NVIDIA users with the
 official NVIDIA Linux graphics driver in Ubuntu 24.10.
 
 Sources:
+
 * [How to Check NVIDIA Driver Version on Linux](https://linuxconfig.org/how-to-check-nvidia-driver-version-on-your-linux-system)
 * [How to install Nvidia drivers on Ubuntu](https://www.xda-developers.com/how-to-install-nvidia-drivers-on-ubuntu/)
 * [Ubuntu 24.10 Now Defaults To Wayland On NVIDIA](https://www.phoronix.com/news/Ubuntu-24.10-GDM-Wayland-NVIDIA)
 
 #### Step 2: Modify BIOS on Motherboard - DONE, NOT
+
 To enable multiple display, you first must enable it on the computer's motherboard.
 In my case with the Intel DZ77GA-70K motherboard, I had to goto
 **Advance Settings** > **Devices & Peripherals** > **Video**.
@@ -545,12 +550,14 @@ In my case with the Intel DZ77GA-70K motherboard, I had to goto
 * For **Primary Video Adaptor** set to **Int Graphics (IGD)**
 
 Sources:
+
 * [Intel DZ77GA-70K Visual BIOS Overview](https://www.youtube.com/watch?v=dpZr2khbPWQ)
 * [How To Enable Motherboard HDMI Port for Multiple Monitors - Use Graphics Card & Integrated Graphics](https://www.youtube.com/watch?v=_Ftk8jQhsqE)
 * [How to clear CMOS on DZ77Ga-70k?](https://community.intel.com/t5/Intel-Desktop-Boards/How-to-clear-CMOS-on-DZ77Ga-70k/m-p/199753)
 * [Bios Setup Configuration Jumper Settings - Intel DZ77GA-70K Specification](https://www.manualslib.com/manual/440805/Intel-Dz77ga-70k.html?page=64)
 
 #### Step 3: Install Monitors and Video Card - DONE, NOT
+
 I followed the install procedures that came with the devices.
 It was basically "plug & play".
 
@@ -561,6 +568,7 @@ Try using the video card without new drivers first;
 its likely good enough unless your a gamer.
 
 #### Step 4: Configure Ubuntu for Multiple Displays - DONE, NOT
+
 Within Ubuntu on the **Settings* > **Displays** app,
 you'll need to configure the two displays.
 This requires some playing around for what you prefers.
@@ -584,10 +592,12 @@ Sources:
 * [How To Configure Your Monitors With Xrandr in Linux](https://linuxconfig.org/how-to-configure-your-monitors-with-xrandr-in-linux)
 
 ## Procedure Used in 2024 - DONE
+
 In 2024, I have been using two moniors for sometime, with Wayland, and the video card works fine.
 All that needs to be done is set the motherboard and Ubuntu for dual monitors.
 
 #### Step 1: Modify BIOS on Motherboard - DONE
+
 My new motherboard is the [MSI PRO Z690-A ProSeries][55]
 and I continued to use the old video card ([MSI Geforce 210][26] / [N210-MD1G/D3][27])
 to drive the second monitor screen.
@@ -596,20 +606,20 @@ I set the BIOS of the motherboard to initial graphics adapter would be the CPUs 
 I found that multi-monitor support was activated by default, but enable this if not.
 
 Sources:
+
 * [MSI PRO Z690-A ProSeries: Manual & Documents][56]
 
 #### Step 2: Configure Ubuntu for Multiple Displays - DONE
+
 Within Ubuntu on the **Settings* > **Displays** app,
 you'll need to configure the two displays.
 This requires some playing around for what you prefers.
 It's easy to do but [this website][31] might help.
 
-
 ---------------
 
-
-
 # Set-Up Networking - DONE
+
 It appears the virtualization of network devices and applications,
 the world of Linux networking has evolved into a confusing mess.
 There is currently (at least) four approaches to networks in Linux:
@@ -654,6 +664,7 @@ Sources:
 * [How to Configure Netplan Network? – LAB Examples](https://getlabsdone.com/how-to-configure-netplan-network/)
 
 #### Step 1: Check How is Your Network Being Managed - DONE
+
 To see how your network is being managed,
 first you must know if you're system is initializing with `systemd`
 or the older `init` as it's first process.
@@ -721,6 +732,7 @@ Sources
 * [Am I running NetworkManager or networkd?](https://askubuntu.com/questions/1031439/am-i-running-networkmanager-or-networkd)
 
 #### Step 2: Configuring Your Ethernet Connection - DONE
+
 All of the above is a bit overwhelming.
 I just want to do some basic configuration of my networks.
 The install of Ubuntu defaulted to DHCP Ethernet connection with no WiFi.
@@ -742,6 +754,7 @@ DNS         192.168.1.1, 1.1.1.1, 1.0.0.1
 Make sure to reboot when completed and validate the change.
 
 #### Step X: Configuring Your WiFi Connection - DONE, NOT
+
 Again using the `Settings` app in the Ubuntu desktop toolbar,
 configure your WiFi for a DHCP connection.
 
@@ -803,6 +816,7 @@ network:
 ```
 
 #### Step X: Test and Apply Your Network Configuration - DONE, NOT
+
 * **`netplan try`** is used to try a configuration,
 and optionally roll it back if the user doesn’t confirm it after a certain amount of time.
 The default timeout is of 120 seconds but it can be changed using the --timeout option.
@@ -831,6 +845,7 @@ sudo netplan apply --debug
 ```
 
 #### Step X: Restart the Network Service - DONE, NOT
+
 Once all the configurations are successfully applied,
 restart the Network-Manager service by running the following command:
 
@@ -845,28 +860,28 @@ sudo systemctl restart system-networkd
 ip address
 ```
 
-
-
 ---------------
 
-
-
 # Mount NFS, SSDs, and RAID Drive - DONE
+
 First, you'll need to find what disks you have install,
 regardless if they are mounted or not.
 You can do this with the `fdisk` command and via the `/etc/fstab` file.
 
 Sources:
+
 * [How To Manage RAID Arrays with mdadm on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-manage-raid-arrays-with-mdadm-on-ubuntu-16-04)
 * [HOWTO: Repair a broken Ext4 Superblock in Ubuntu](https://linuxexpresso.wordpress.com/2010/03/31/repair-a-broken-ext4-superblock-in-ubuntu/)
 
 ## Procedure Used in 2024 - DONE
+
 The procedure I used in 2024 was much easier since the Ubuntu install script
 detected that I had some RAID disks and it condition the operating install to prepare for the RAID install.
 The steps below document how this RAD activation went so that my
 `/home` directory could be seamlessly ported to the new hardware.
 
 #### Step 1: Gather Data - DONE
+
 I want to mount my RAID drive and the Ubuntu install said that it sensed the RAID instance.
 less gather some more information:
 
@@ -890,6 +905,7 @@ Disk /dev/md0: 931.39 GiB, 1000069595136 bytes, 1953260928 sectors
 ```
 
 This tells us ...
+
 * `/dev/nvme0n1` - This is the 500G NVME M.2 SSD drive and used to boot my new computer, only 221G partision is being sensed and the other particions are not.
 * `/dev/sda` - This is one of the 1T RAID drives used for my old computers `/home/jeff`.
 * `/dev/sdb` - This is my old computer's Samsung SSD I used for booting my old computer
@@ -936,6 +952,7 @@ I/O size (minimum/optimal): 4096 bytes / 4096 bytes
 ```
 
 #### Step 2: Temporary Mount of RAID - DONE
+
 Sensing that everything was ready for the RAID to be mounted,
 I temporarily mounted the RAID with
 and measure the amount of data it contained just to see if all was well:
@@ -951,6 +968,7 @@ du -h /mnt/jeff-admin
 All seems well so next I will permanently mounting the RAID drive by updating the /`etc/fstab` file.
 
 #### Step 3: Mount RAID at Boot Time - DONE
+
 To make sure that the array is reassembled automatically at boot,
 I'm going to add the new filesystem mount options to the /`etc/fstab` file.
 
@@ -976,7 +994,7 @@ $ cat /etc/fstab
 /dev/disk/by-uuid/0bd118bd-c18f-4231-9184-29bebc0cbdca / ext4 defaults 0 1
 # /boot/efi was on /dev/nvme0n1p1 during curtin installation
 /dev/disk/by-uuid/0919-A14F /boot/efi vfat defaults 0 1
-/swap.img	none	swap	sw	0	0
+/swap.img none swap sw 0 0
 /dev/md0 /home ext4 defaults,nofail,discard 0 0
 ```
 
@@ -1079,6 +1097,7 @@ tmpfs           3.2G   96K  3.2G   1% /run/user/1000
 The above shows all is well now.
 
 #### Step 4: Set Up a NFS Mount - DONE
+
 NFS is a distributed file system protocol that allows you to mount remote directories on your server.
 This lets you manage storage space in a different location and write to that space from multiple clients.
 We have two servers in our architecture, with one sharing part of its filesystem (Synology NAS) with the other (`desktop`).
@@ -1158,6 +1177,7 @@ swap.img                                                    none                
 ```
 
 #### Step 5: Final Check of All Mounts - DONE
+
 Now test if the NFS link to the Synology NAS gets auto-mounted by doing a rebooting.
 
 ```bash
@@ -1237,17 +1257,15 @@ Consistency Policy : bitmap
 All looks good!
 
 Sources:
+
 * [How to check RAID configuration in Linux](https://www.cyberciti.biz/faq/how-to-check-raid-configuration-in-linux/)
 * [How To Set Up an NFS Mount on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
 * [How to Use NFS to Mount Synology to Linux as a Storage Space?](https://linuxhint.com/nfs-mount-synology-linux/)
 
-
-
 ---------------
 
-
-
 # Restart Rsnapshot Backup Processing - DONE
+
 To get your backup work again,
 you should read the document
 `/home/jeff/blogging/content/articles/network-backups-via-rsync-and-rsnapshot.md`.
@@ -1265,6 +1283,7 @@ In summary, the steps you need to perform, using the documentation above as your
 5. To get automated backups running, update the `crontab` file for the user `backup_user` and restart it.
 
 #### Step 1: Install Required Backup Software - DONE
+
 The installation of required software for backups has been already done early,
 but just  in case you missed it:
 
@@ -1274,10 +1293,12 @@ sudo apt install rsync grsync rsnapshot
 ```
 
 #### Step 2: Make Changes to `full-backup.sh` - DONE
+
 The environment variable `DESTINATION` in `/home/backup_user/bin/full-backup.sh`
 needs to be changed to `DESTINATION="/home2/nfs/synology-nas/desktop/full-backup/$DIR"`.
 
 #### Step 3: Make Changes to `nsnapshot.conf` - DONE
+
 You need to create a configuration file `/etc/nsnapshot.conf`.
 This configuration file should look like this:
 
@@ -1296,37 +1317,37 @@ This configuration file should look like this:
 # CONFIG FILE VERSION #
 #######################
 
-config_version	1.2
+config_version 1.2
 
 
 # location where backups will be stored
-snapshot_root	/home2/nfs/synology-nas/desktop
+snapshot_root /home2/nfs/synology-nas/desktop
 
 # rsync command executed on the remote system
-cmd_rsync	/usr/bin/rsync
+cmd_rsync /usr/bin/rsync
 
 # incremental backup rules
-retain		hourly	6
-retain		daily	7
-retain		weekly	4
-retain		monthly	3
+retain  hourly 6
+retain  daily 7
+retain  weekly 4
+retain  monthly 3
 
 # rsnapshot's log file
-logfile	/var/log/rsnapshot.log
+logfile /var/log/rsnapshot.log
 
 # All rsync commands have at least these options set.
-rsync_short_args	-aev
-rsync_long_args	--delete --numeric-ids --relative --delete-excluded
+rsync_short_args -aev
+rsync_long_args --delete --numeric-ids --relative --delete-excluded
 
 # ssh args passed
-ssh_args	-i /home/backup_user/.ssh/id_rsa
+ssh_args -i /home/backup_user/.ssh/id_rsa
 
 # systems to be backed up, what high level directory name is to be used
 # and the additional arguments to pass to rsync
-backup	/	desktop/	exclude_file=/home/backup_user/rsync-exclude-desktop
-#backup	backup_user@RedRPi:/	RedRPi/	exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
-#backup	backup_user@BlackRPi:/	BlackRPi/	exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
-#backup	Sara@SaraPC:/	SaraPC/	exclude_file=/home/backup_user/rsync-exclude-windows,+rsync_long_args=--fake-super
+backup / desktop/ exclude_file=/home/backup_user/rsync-exclude-desktop
+#backup backup_user@RedRPi:/ RedRPi/ exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
+#backup backup_user@BlackRPi:/ BlackRPi/ exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
+#backup Sara@SaraPC:/ SaraPC/ exclude_file=/home/backup_user/rsync-exclude-windows,+rsync_long_args=--fake-super
 ```
 
 >**NOTE:** The configuration file requires tabs between elements
@@ -1336,6 +1357,7 @@ backup	/	desktop/	exclude_file=/home/backup_user/rsync-exclude-desktop
 >This can be a source of great confusion and frustration!
 
 #### Step 4: Perform Some Manual Backups - DONE
+
 To validate that your `rsnapshot` and its configuration files are set-up properly,
 execute the commands `sudo /usr/bin/rsnapshot hourly`.
 Because its the first instance of making a backup,
@@ -1356,6 +1378,7 @@ sudo /home/backup_user/bin/full-backup.sh
 ```
 
 #### Step 5: Automating (Scheduling) Backups via `crontab` - DONE
+
 Linux [cron][57] is used to schedule commands to be executed periodically.
 You can setup commands or scripts, which will be repeatedly run at a set time.
 
@@ -1461,20 +1484,18 @@ sudo service cron restart
 ```
 
 Sources:
+
 * [CronHowTo][58]
 * [List Cron Jobs on Linux](https://www.linode.com/docs/guides/how-to-list-cron-jobs/)
 * [Cron Vs Anacron: How to Schedule Jobs Using Anacron on Linux](https://www.tecmint.com/cron-vs-anacron-schedule-jobs-using-anacron-on-linux/)
 * [Use anacron for a better crontab](https://opensource.com/article/21/2/linux-automation)
 
-
-
 ---------------
-
-
 
 # Get Printer Working - DONE
 
 Sources:
+
 * [Use a Raspberry PI Zero W as a Wireless Print Server](https://community.element14.com/products/raspberry-pi/raspberrypi_projects/b/blog/posts/use-a-raspberry-pi-zero-w-as-a-wireless-print-server)
 * [CUPS and Raspberry Pi AirPrinting](https://www.developer.com/mobile/cups-and-raspberry-pi-airprinting/)
 * [How to Turn a Printer into a Wireless Printer with Raspberry Pi](https://www.youtube.com/watch?v=hdwqQjDjMzU)
@@ -1483,6 +1504,7 @@ Sources:
 * [Turn USB Printer to WiFi Printer for $15 | Convert Any USB Printer Wireless](https://www.youtube.com/watch?v=P3XRi-CD1a0)
 
 #### Step 1: Install and Configure CUPS on Print Server - DONE
+
 On many Linux  installations,
 support for printers via CUPS is pre-configured and is an active service after a freash install.
 To check if CUPS is active, use the following command:
@@ -1506,6 +1528,7 @@ sudo apt install -y cups libcups2-dev libcupsimage2-dev
 ```
 
 #### Step 2: Configure CUPS - DONE
+
 Getting a printer working can involve the
 editing of the file `/etc/cups/cupsd.conf` and other such manual operations.
 The better approach for most any printer you have is to just plugin the printer
@@ -1517,13 +1540,10 @@ required (but nothing was required).
 >**NOTE:** If the print does not automatically sense the printer,
 >using the GUI go to  **Settings** > **Printers** > select the **Add Printer...** button.
 
-
-
 ---------------
 
-
-
 # Development Tools: Docker & Portainer - DONE
+
 **Docker** is a popular application that simplifies the process of managing application processes in containers.
 Containers let you run your applications in resource-isolated processes.
 They’re similar to virtual machines, but containers are more portable,
@@ -1557,6 +1577,7 @@ Sources:
 ## Docker Engine & Docker Compose
 
 #### Step 1: Install Docker - DONE
+
 Ubuntu is my go-to Linux OS and installing on Ubuntu is fairly straight-forward.
 I'll used the installation scripts below.
 This involves adding a new package source,
@@ -1615,9 +1636,11 @@ sudo docker run hello-world
 ```
 
 #### Step 2: Upgrade Docker - DONE
+
 Docker and Docker Compose will be automatically upgraded by Ubuntu from the official Ubuntu repository for Docker.
 
 #### Step 3: Install Docker Compose - DONE
+
 To ensure we get the latest version,
 we’ll install Docker Compose from the official Docker repository.
 To do that, we’ll add a new package source,
@@ -1634,9 +1657,11 @@ docker compose version
 ```
 
 #### Step 4: Upgrade Docker Compose - DONE
+
 Docker Compose will be automatically by Ubuntu from the official Ubuntu repository for Docker.
 
 ## Portainer
+
 Portainer gives users a way to manage their Docker containers,
 accross multiple sites, through a web interface.
 Portainer also gives you the ability to use stacks,
@@ -1645,6 +1670,7 @@ which is an easy way to create new containers and allows them to be created usin
 **NOTE:** Instructions below must be performed on Ubuntu 22.04 or greater.
 
 #### Step 1: Install Portainer - DONE
+
 Before you install Portainer on Ubuntu,
 you must ensure that you have Docker installed on Ubuntu first.
 
@@ -1666,6 +1692,7 @@ google-chrome https://localhost:9000   # <-- for https access
 Now using your browser, log into portainer via this URL: `localhost:9000`.
 
 #### Step 2: Upgrading Portainer - DONE, NOT
+
 To [upgrade to the latest version of Portainer Server][40],
 you must do it from the commandline.
 Use the following commands to stop Portainer, then remove the old version,
@@ -1696,24 +1723,24 @@ sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/
 ```
 
 #### Step 3: Refresh Portainer Stacks - DONE
+
 Using your [GitHub repository for your HomeLab Portainer Stacks][61],
 redeploy your stacks to you `desktop` computer.
 
-
-
 ---------------
 
-
-
 # 3D Printer Slicer - UltiMaker Cura
+
 [UltiMaker Cura][62] is free, very popular 3D printing software, a slicer, that can be fine-tune 400+ settings.
 3D printing slicer software essentially acts as the middleman between the 3D model and printer.
 
 Sources:
+
 * [UltiMaker Cura 5.7.0][62]
 * [How to Use Ultimaker Cura 5: A Beginner's Guide 2023][66]
 
 #### Step 1: Install Cura - DONE
+
 The installation method chosen by UltiMaker is the [AppImage][63] method.
 Not my favorite install method but [things are getting better][65], and most importantly,
 UltiMaker doesn't give you a choose if you want the latest version.
@@ -1747,20 +1774,20 @@ cura
 ```
 
 #### Step 2: Configure Cura - DONE
+
 To find your Cura configuration file, select the tab **Help** > **Show Configuration Folder**.
 It will display `~/.config/cura/5.7`.
 When you install Cura, it should find your old configuration file and use it.
 That is what happen whne I installed Cura, so there is nothing to do here.
 
-
 #### Step 3: Adding a Custom Cura Icon to the Side Bar (aka Desktop Entry Files)
+
 When using AppImage instead of Ubuntu's package management,
 the new application will not automatically integrate with the Ubuntu desktop.
 So there will not be any Cura Icon in the side bar.
 
 To remedy this, I'm going to manual create one.
 I followed the procedure outline in the Sources below.
-
 
 ```bash
 # applications desktop configuration is stored here
@@ -1804,6 +1831,7 @@ chmod a+x ~/.local/share/applications/cura.desktop
 ```
 
 Sources:
+
 * [Guide to Desktop Entry Files in Linux](https://www.baeldung.com/linux/desktop-entry-files)
 * [Creating a Custom Application Launcher in Ubuntu 22](https://www.dgendill.com/posts/technology/2023-04-23-ubuntu22-custom-shortcuts-appliation-launchers.html)
 * [How to create a desktop shortcut to a website](https://askubuntu.com/questions/1269788/how-to-create-a-desktop-shortcut-to-a-website)
@@ -1818,37 +1846,28 @@ Sources:
 Sources:
 
 This series if focused on showing you everything you need to know to allow you print perfect prints with your 3D printer using Ulitmaker Cura 5 software.
+
 * [Cura Slicer Tutorials](https://www.youtube.com/playlist?list=PLv65CP2QM2rFHMu6OGJVkwC3ictFhB00n)
 * [Ultimaker Cura 5 Tutorials](https://www.youtube.com/playlist?list=PLv65CP2QM2rG0eX2ZhAyA0_A8nbQV9V29)
-    * [How to Use Ultimaker Cura 5: A Beginner's Guide 2023][66]
-    * [3D Printing Perfection: Fine-Tune Top and Bottom Settings in Ultimaker Cura 5](https://www.youtube.com/watch?v=OygRJrpTNC8)
-    * [Getting the Right Flow: Ultimaker Cura 5 Flow Rate Settings](https://www.youtube.com/watch?v=ARsczJrNJb8)
-    * [Maximizing Bed Adhesion with Ultimaker Cura’s Skirts, Brims, and Rafts](https://www.youtube.com/watch?v=bruKY-L5eu8)
-    * [Cura 5 Quality Settings 101: The Ultimate Guide to Great 3D Prints!](https://www.youtube.com/watch?v=vkItGhXxDGw)
-    * [3D Printing Perfection: Things You Must Check Before Every Cura 5 Print](https://www.youtube.com/watch?v=HV5XA0oR9c4)
-
-
+  * [How to Use Ultimaker Cura 5: A Beginner's Guide 2023][66]
+  * [3D Printing Perfection: Fine-Tune Top and Bottom Settings in Ultimaker Cura 5](https://www.youtube.com/watch?v=OygRJrpTNC8)
+  * [Getting the Right Flow: Ultimaker Cura 5 Flow Rate Settings](https://www.youtube.com/watch?v=ARsczJrNJb8)
+  * [Maximizing Bed Adhesion with Ultimaker Cura’s Skirts, Brims, and Rafts](https://www.youtube.com/watch?v=bruKY-L5eu8)
+  * [Cura 5 Quality Settings 101: The Ultimate Guide to Great 3D Prints!](https://www.youtube.com/watch?v=vkItGhXxDGw)
+  * [3D Printing Perfection: Things You Must Check Before Every Cura 5 Print](https://www.youtube.com/watch?v=HV5XA0oR9c4)
 
 ---------------
-
-
 
 # Install
 
-
 ---------------
-
-
 
 # Setup Thunderbird
 
-
-
 ---------------
 
-
-
 # Setup Uninterruptible Power Supplies (UPS)
+
 I purchased a [uninterruptible power supply][67],
 specifically the [APC Back-UPS NS 1080][68],
 to smooth out the power dips that are far too frequent in my home.
@@ -1876,6 +1895,7 @@ If the utility power is restored before one of the these shutdown conditions is 
 [73]:http://www.apcupsd.com/manual/manual.html#apcupsd-status-logging
 
 ## UPS Installation
+
 For my UPS,
 the  `apcupsd` daemon will be communicating with the UPS via a USB connection.
 To make sure that your USB subsystem can see the UPS,
@@ -1889,6 +1909,7 @@ Bus 001 Device 007: ID 051d:0002 American Power Conversion Uninterruptible Power
 ```
 
 #### Step 1: Install `apcupsd` - DONE
+
 The `apcupsd` daemon is easy to install
 and is well documented at "[apcupsd - Official Ubuntu Documentation][71]".
 If you want to see the stats of the UPS through the browser,
@@ -1934,6 +1955,7 @@ ISCONFIGURED=yes
 ```
 
 #### Step 2: Starting Things Up - DONE
+
 To start/stop the `apcupsd` daemon manually, just execute this command:
 
 ```bash
@@ -2002,13 +2024,10 @@ These parameters say something about how the UPS is perfroming
 | HITRANS  | 142.0 V | The line voltage above which the UPS will switch to batteries. |
 | SELFTEST | NO | The results of the last self test, and may have the following values: OK - self test indicates good battery, BT - self test failed due to insufficient battery capacity, NG - self test failed due to overload, NO - No results (i.e. no self test performed in the last 5 minutes) |
 
-
-
 ---------------
 
-
-
 # MyMedia - Music Streaming to Echo
+
 I like to play music from my computer library stream it to my Amazon Echo (aka Alexa).
 To do this, I choose to use [My Media for Alexa][20].
 It cost only $5.50/year, and [My Media Alexa Skill](https://www.amazon.com/bizmodeller-My-Media/dp/B06XPP135L)
@@ -2022,21 +2041,20 @@ and the specific instructions for my installation can be found here:
 `~/src/docker-containers/mymeda`.
 
 # Plex - Music Streaming to Echo
+
 See `/home/jeff/blogging/content/ideas/desktop-fresh-install-of-ubuntu.md`.
-
-
 
 ---------------
 
-
-
 # Apache Web Server - Infrastructure to Support WebPages - DONE, NOT
+
 The Apache HTTP server is the most widely-used web server in the world.
 There are a variety of reasons may choose to install the Apache Web Server.
 You can use it for testing HTTP server for testing,
 or host your own blog or wiki using static web pages, as I plan to do.
 
 #### Step 1: Installing Apache - DONE, NOT
+
 ```bash
 # installing apache
 sudo apt update
@@ -2054,6 +2072,7 @@ $ hostname -I
 ```
 
 #### Step X: Adjust the Firewall - DONE, NOT
+
 Before using Apache as an external facing webserver,
 it’s necessary to modify the firewall settings to allow outside access to the default web ports.
 If you followed the installation process above,
@@ -2106,26 +2125,25 @@ Apache (v6)                ALLOW       Anywhere (v6)
 ```
 
 #### Step X: Setting Up Virtual Hosts - DONE, NOT
+
 Apache can run multiple websites on a single server,
 each of which can be customized and configured independently.
 The basic unit that describes a site or a domain is called a virtual host.
 This allows the administrator to use one server to host multiple domains or sites
 with a single interface or IP address by using a mechanism.
 
-https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04
-https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04
+<https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04>
+<https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04>
 
 Source:
+
 * [How To Install the Apache Web Server on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-22-04)
 * [How To Set Up Apache Virtual Hosts on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-16-04)
 
-
-
 ---------------
 
-
-
 # Establish Synology Backup Processing
+
 I'm using a Synology small office NAS to perfrom hourly backup of my Linux desktop system.
 Its a 2-bay [DiskStation DS220+][38] and much of its operation is not impacted by my
 refresh of the Ubuntu OS.
@@ -2135,6 +2153,7 @@ I was using a USB attached drive in the past but now moving to the Synology NAS 
 I'm not using Active Backup for Business since its not currently supported on my version of Ubuntu.
 
 Sources:
+
 * /home/jeff/blogging/content/articles/network-backups-via-rsync-and-rsnapshot.md
 * /home/jeff/src/synology-nas/backup-tool/README.md
 * [How I configured my Synology NAS and Linux to use rsync for backups](https://obsolete29.com/posts/2022/04/30/how-i-configured-my-synology-nas-and-linux-to-use-rsync-for-backups/)
@@ -2144,6 +2163,7 @@ Sources:
 * [Backup and Restore Your Linux System with rsync](https://averagelinuxuser.com/backup-and-restore-your-linux-system-with-rsync/)
 
 #### Step 1: Install Required Software - DONE
+
 Rsync should already be installed on most Linux system.
 You can install it, and the [grsync][04] & [rsnapshot][08] tools, using this command:
 
@@ -2177,6 +2197,7 @@ We'll configure the NFS envirnment and our backup tools in a later step.
 [JJ]:https://linuxhint.com/nfs-mount-synology-linux/
 
 #### Step 1: Create Backup User and Validate - DONE
+
 On the Linux desktop, you need to assure there is a `backup_user` login,
 with a UID of less that 500,
 which will run the rsync / rsnapshot utilities
@@ -2199,6 +2220,7 @@ cat /etc/passwd | grep backup_user
 ```
 
 #### Step 2: Create Backup User - DONE
+
 On the Linux desktop, you need to assure there is a `backup_user` login,
 that login has a UID of 400, and it has the approprate SSH keys and filesystem access.
 The `backup_user` is not root, and therefore, the utilities it uses for backups
@@ -2224,11 +2246,11 @@ Retype new password:
 passwd: password updated successfully
 Changing the user information for backup_user
 Enter the new value, or press ENTER for the default
-	Full Name []: backup_user
-	Room Number []:
-	Work Phone []:
-	Home Phone []:
-	Other []:
+ Full Name []: backup_user
+ Room Number []:
+ Work Phone []:
+ Home Phone []:
+ Other []:
 Is the information correct? [Y/n] Y
 info: Adding new user 'backup_user' to supplemental / extra groups 'users' ...
 info: Adding user 'backup_user' to group 'users' ...
@@ -2246,6 +2268,7 @@ exit
 ```
 
 #### Step 3: Add backup_user to sudo List - DONE
+
 The `backup_user` is not root, and therefore, the utilities it uses for backups
 (`rsync` and `rsnapshot`)
 can't freely move through the whole directory system , write files, and such.
@@ -2276,6 +2299,7 @@ $ ls -l /etc/sudoers.d/backup_user
 >Other distributions are using this layout as well.
 
 #### Step 4: Increased Security of backup_user Account - DONE
+
 The final step is to lock all this down.
 To increase the security of the overall scheme,
 on the remote systems and on the local system,
@@ -2288,15 +2312,12 @@ sudo passwd --delete backup_user
 sudo usermod -s /bin/false backup_user
 ```
 
-
-
 ---------------
-
-
 
 # Fix Desktop Environment
 
 #### Step 1: Re-Establish Desktop Layout - DONE
+
 Install GNOME Extensions, GNOME Tweaks tool, and other such things using the following commands:
 
 ```bash
@@ -2317,11 +2338,13 @@ Open Extensions, find **Desktop Icons NG (DING)** and turn it off.
 This will remove the folders on your desktop.
 
 Sources:
+
 * [Customize the Ubuntu Dock with dconf-editor](https://www.youtube.com/watch?v=uiAtZiYZao8)
 * [Gnome Tweaks 40 No Longer Manage Extensions, Use This Tool Instead](https://ubuntuhandbook.org/index.php/2021/05/gnome-tweaks-40-no-longer-manage-extensions/)
 * [How to Use GNOME Shell Extensions](https://itsfoss.com/gnome-shell-extensions/)
 
 #### Step 2: Disable Auto-Suspend in Linux - DONE
+
 I'm using a based `rsnapshot` script in `cron` to schedule frequent backups of my filesystem.
 These backups take place every 4 hours (12am, 4am, 8am, 12pm, 4pm, 8pm)
 with daily, weekly, and monthly summarizations of those backups taking place at diferent point of the day
@@ -2333,9 +2356,11 @@ Click on **Automatic Suspend** and toggle the two setting options so that your c
 does not automatically suspend when on battery power or plugged in.
 
 Sources:
+
 * [How to Disable Auto-Suspend in Linux](https://www.makeuseof.com/disable-auto-suspend-in-linux/)
 
 #### Step 3: Get Conky Working - DONE
+
 Conky is a light-weight system monitor for X Window that displays any information on your desktop.
 It is highly configurable as it is able to monitor literally any aspect of your system
 from hard-drive temperature through number of users logged in to currently played music song.
@@ -2426,6 +2451,7 @@ and edit this to include
 # conky startup script
 conky --pause=5 --config=/home/jeff/.conkyrc
 ```
+
 Make sure to comment out any conky related items in the `$HOME/.xsessionrc` file
 to avoid multiple instances of Conky.
 
@@ -2436,6 +2462,7 @@ Sources:
 * [How To: Configuring Conky](http://lusule.wordpress.com/2008/08/07/how-to-4/)
 
 #### Step 4: Downloading Video Files - DONE
+
 If your interested in capturing a YouTube video,
 there is a very easy approach give in this video: [How to Download youtube videos on Ubuntu linux][14].
 Unfortunately, appears YouTube has caught on, and this no longer works.
@@ -2479,6 +2506,7 @@ When the time comes to upgrade Youtube-dl use:
 >Check out ["How to Use YT-DLP: The Complete Guide (2024)"][48].
 
 #### Step 5: Install VLC Media Player - DONE
+
 The default video media player on Ubuntu appears to be poor.
 Lets replace with a better tool, the [VLC media player][08].
 
@@ -2497,6 +2525,7 @@ selecting **Default Applications** and update the **Video** menu.
 >and the option **Set as default** (bottom right).
 
 #### Step 6: Play Sound Initiated by Login - DONE
+
 My experiance with computers dates back to well before the use of
 [broadband connections][73], before the Internet, to [Arpanet][71].
 I remember well the sound of a successful login with a [dialup modem][72].
@@ -2518,24 +2547,23 @@ paplay /home/jeff/Sound/dialup-modem-handshake.ogg
 ```
 
 Sources:
+
 * [The sound of the dialup, pictured](https://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html)
 * [How to make application run at Startup in Ubuntu?](https://byteshiva.medium.com/how-to-make-application-run-at-startup-in-ubuntu-6fca4a459bc8)
 
-
-
 ---------------
 
-
-
 # Development Tools: VirtualBox
+
 I chose to installing VirtualBox from Oracle’s package repositories and
 used the website "[How to Install VirtualBox on Ubuntu][22]" as my guide.
 
 #### Step 1: Install VirtualBox
+
 Often the default Ubuntu repositories do not have the latest versions of the software,
 so instead, you chose to install from Oracle’s package repositories.
 Unfortunately, Virtualbox doesn't support Ubuntu 22.04 at this time and my efforts
-to _gerrymander_ it did not work.
+to *gerrymander* it did not work.
 So instead, I'll install VirtualBox is by using the official Ubuntu repositories.
 
 ```bash
@@ -2549,6 +2577,7 @@ $ VBoxManage -version
 ```
 
 #### Step 2: Install VirtualBox Extension Pack
+
 Now we'll install the VirtualBox Extension Pack.
 It adds additional tools like USB 2.0 and 3.0, Remote Desktop, and encryption.
 Make sure to use the latest version from the [Oracle website][23].
@@ -2559,19 +2588,18 @@ sudo apt-get install virtualbox-ext-pack
 ```
 
 #### Step 3: Test That VirtualBox is Working
+
 ```bash
 # test virtualbox, you should see its window appear
 virtualbox
 ```
 
-
 ---------------
-
-
 
 # Development Tools: Vagrant
 
 #### Step 1: Install Vagrant
+
 At the time of writing this post,
 the latest stable version of Vagrant is version 2.2.18.
 You can check the [Vagrant Download page][24] to see if a newer version is available to use instead.
@@ -2592,6 +2620,7 @@ Vagrant 2.4.3
 ```
 
 #### Step 2: Installing Vagrant's VirtualBox Guest Addition
+
 Along with the Vagrant install,
 it is essentially to installed and keep updated the Guest Addition package.
 Keeping the tools update is problematic enough,
@@ -2617,6 +2646,7 @@ Updated 'vagrant-scp' to version '0.5.9'!
 ```
 
 #### Step 3: Future Vagrant Upgrades
+
 In the future, as you upgrade vagrant,
 the guest additions will fall out of synch.
 Use these commands to update the vagrant.
@@ -2629,12 +2659,10 @@ vagrant plugin update vagrant-vbguest
 vagrant plugin repair vagrant-vbguest
 ```
 
-
 ---------------
 
-
-
 # Development Tools: Arduino
+
 For someone like myself, who is at home with Linux as my OS and Vim as my editor,
 using the [Arduino IDE][74] for Arduino coding is a step back into the stone age.
 If you are used to doing these things yourself and controlling the organization of your code
@@ -2650,6 +2678,7 @@ software development experance while still leveraging the popularity of the Ardu
 [76]:https://www.gnu.org/software/make/
 
 #### Step 1: Uninstall Old Arduino IDE - DONE
+
 If you upgrading your Arduino IDE,
 the first thing you want to do is uninstall the old version.
 The Arduino IDE package comes with an uninstall script but it doesn't do a complete removal
@@ -2661,6 +2690,7 @@ Copy any of your sketch and personal libraries you may wish to keep.
 Don't worry about public libraries since they can be reinstalled from sources.
 
 Sources
+
 * [Uninstall Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE)
 
 ```bash
@@ -2682,6 +2712,7 @@ trash ~/bin/arduino-cli ~/bin/arduino
 ```
 
 #### Step 2: Installing Arduino IDE - DONE
+
 You could install the Arduino IDE via the Ubuntu Software Center and search for Arduino,
 but likely to be an older Arduino IDE version.
 Alternatively, you can install as an AppImage file.
@@ -2720,9 +2751,11 @@ ln -s /home/jeff/bin/arduino-ide_2.3.2_Linux_64bit.AppImage /home/jeff/bin/ardui
 ```
 
 Source:
+
 * [Downloading and installing the Arduino IDE 2.0](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
 
 #### Step 3: Quick Test - DONE
+
 Lets do a quick check on the install:
 
 ```bash
@@ -2746,6 +2779,7 @@ the IDE via the command `arduino &>/dev/null &` or the desktop icon.
 >If you get this error, you need to [set serial port permission][75].
 
 #### Step 4: Setup Your Arduino IDE Preferences - DONE
+
 Normally, running the `arduino` command starts the IDE,
 optionally loading any `.ino` files specified on the commandline.
 Also, it normally puts all your Arduino sketches and project libraries within
@@ -2764,6 +2798,7 @@ Lets change this location:
 >but only edit when the Arduino IDE is **not** running.
 
 #### Step 5: Remove Old Sketch Directory - DONE
+
 When you create your fist sketch,
 the new `sketchbook` directory create above will have a subdirectory `libraries`.
 `$HOME/src/arduino/sketchbooks/libraries` is where all your libraries will go
@@ -2780,6 +2815,7 @@ rm -r -f ~/Arduino
 >Check out Adafruit's "[All About Arduino Libraries][18]" for their proper care and feeding.
 
 #### Step 6: Move Back Saved Sketches - DONE
+
 If you you saved any sketch from a previous install,
 you can simply copy them into the `$HOME/src/arduino/sketchbooks` directory.
 For example:
@@ -2789,14 +2825,10 @@ For example:
 cp -r ~/tmp/sketchbooks ~/src/arduino
 ```
 
-
-
-
 ---------------
 
-
-
 # Development Tools: Ansible
+
 One of the beauties of Ansible is that it will not add a database,
 and there will be no daemons to start or keep running.
 You only need to install it on one machine
@@ -2812,6 +2844,7 @@ or via a Pyhton's `pip` package management system (as done will be done here).
 Some good videos for learning Ansible can be found [here][37].
 
 #### Step 1: Installing Ansible
+
 I'm using the preferred method of Python Package Manager (`pip`)
 since it installs the most current version of Ansible:
 
@@ -2887,6 +2920,7 @@ pip uninstall ansible
 >```
 
 #### Step 2: Install Docker Extension
+
 To manage Docker containers on remote machines,
 you need to install the Docker Ansible-Galaxy extension for Ansible:
 
@@ -2899,6 +2933,7 @@ $ ls ~/.ansible/collections/ansible_collections/community
 ```
 
 #### Step 3: Set Your Ansible Path
+
 Now configure your environmental variable `ANSIBLE_ROLES_PATH`.
 This path is where Ansible Galaxy will save every role you install
 and where Ansible will look when resolving the imports from your playbook.
@@ -2915,10 +2950,12 @@ I put put the following in my `.bashrc` file:
 ```
 
 #### Step 4: Installing Vim Plugin for Ansible
+
 The Vim plugin, `ansible-vim` is a syntax plugin for Ansible 2.x,
 it supports YAML playbooks, Jinja2 templates, and Ansible's hosts files.
 
 #### Step 5: Clone Ansible Galaxy Roles - NOT DONE
+
 The `ansible-galaxy install ...` command clones the role repository found on Ansible Galaxy.
 These repositories are an excellent starting point for roles you may be interested in creating.
 
@@ -2931,7 +2968,9 @@ ansible-galaxy install geerlingguy.dotfiles ---roles-path=./
 ```
 
 ####################### REMOVE TEXT BETWEEN THESE LINES ########################
+
 #### Step 6: Create Your Remote Hosts
+
 The Ansible host computers could exist anywhere as long as they are reachable via SSH.
 For this exercise, I'm going to assume the host is on my Ansible server
 as Vagrant instances.
@@ -2956,9 +2995,11 @@ vagrant up
 # login to the machine to make sure its working
 vagrant ssh
 ```
+
 ####################### REMOVE TEXT BETWEEN THESE LINES ########################
 
 #### Step 6: Set Up SSH Keys
+
 Ansible primarily communicates with client computers through SSH.
 While it has the ability to handle password-based SSH authentication,
 using SSH keys can help to keep things simple.
@@ -2968,12 +3009,14 @@ this setup and exchange of SSH keys isn't necessary.
 It will be necessary if the Ansible host is remote.
 
 ##### Copying Public Key Using ssh-copy-id
+
 A simpler method is to use the `ssh-copy-id` tool
 included by default in many operating systems.
 Launched from the Ansible server, the syntax is:
 `ssh-copy-id username@remote_host`.
 
 ##### Copying Public Key Using SSH
+
 If you do not have `ssh-copy-id` available,
 but you have password-based SSH access to an account on your server,
 you can upload your keys using a conventional SSH method:
@@ -2984,6 +3027,7 @@ cat ~/.ssh/id_rsa.pub | ssh username@remote_host "mkdir -p ~/.ssh && touch ~/.ss
 ```
 
 ##### Copying Public Key Manually
+
 Assuming SSH is already established on your Ansible server,
 use the `cat` command to print the contents of your
 non-root user’s SSH public key file to the terminal’s output:
@@ -3001,19 +3045,13 @@ and do the following:
 1. As the root user, open the `authorized_keys` within the `~/.ssh` directory:
 1. In the file, paste your Ansible server user’s SSH key, then save the file.
 
-
-
-
 * [shelleg/ansible-role-portainer](https://github.com/shelleg/ansible-role-portainer)
 
 * [Ansible and Docker: the Best Combination for an Efficient Software Product Management](https://medium.com/@cabot_solutions/ansible-and-docker-the-best-combination-for-an-efficient-software-product-management-28c86cfebe90)
 * [ANSIBLE — DOCKER WITH PORTAINER ON UBUNTU SERVER INSTALLATION](https://medium.com/@dmarko484/ansible-docker-with-portainer-on-ubuntu-server-installation-45a69e07785c)
 * [Automate Docker with Ansible deployments - The Digital Life](https://www.the-digital-life.com/deploy-docker-with-ansible/)
 
-
-
 ---------------
-
 
 # Install Guacamole
 
@@ -3037,15 +3075,14 @@ To                         Action      From
 22/tcp (v6)                ALLOW IN    Anywhere (v6)
 ```
 
-
 ---------------
-
-
 
 # Development Tools: Install Docker Containers
 
 #### Install Homer
+
 Install the following
+
 * /home/jeff/src/homer-dashboard
 
 ```bash
@@ -3061,7 +3098,9 @@ google-chrome http://localhost:8080
 ```
 
 #### Install Netdata
+
 Install the following
+
 * /home/jeff/src/netdata
 
 ```bash
@@ -3085,12 +3124,10 @@ sudo docker run -d --name="netdata" \
 google-chrome http://localhost:19999
 ```
 
-
-
 ---------------
 
-
 # Setup Markdown to PDF / HTML Tools
+
 You can create a PDF or HTML file from a Markdown formatted text file
 using a single command line in Ubuntu
 
@@ -3110,18 +3147,16 @@ markdown file.md > file.html
 ```
 
 Source:
+
 * [Markdown to PDF – quick howto for linux users (Ubuntu)](https://blog.podkalicki.com/markdown-to-pdf-quick-howto-for-linux-ubuntu/)
-
-
 
 ---------------
 
 #### Rename Interface
+
 * [ubuntu 22.04 persistent network interface names](https://www.google.com/search?q=ubuntu+22.04+persistent+network+interface+names&sxsrf=ALiCzsYPpufekZV53gZk1KxELS1wlUxmRQ%3A1653143932949&ei=fPmIYu_KOYzWytMP2O-JwAQ&ved=0ahUKEwjv-IqH6fD3AhUMq3IEHdh3AkgQ4dUDCA4&uact=5&oq=ubuntu+22.04+persistent+network+interface+names&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgjELACECdKBAhBGABKBAhGGABQsQpYgh5g9iFoAnABeACAATyIAdoCkgEBN5gBAKABAcgBCMABAQ&sclient=gws-wiz)
 * [How to rename a network interface in 20.04](https://askubuntu.com/questions/1317036/how-to-rename-a-network-interface-in-20-04)
 * [A sysadmin's guide to network interface configuration files](https://opensource.com/article/22/8/network-configuration-files)
-
-
 
 [01]:https://ubuntu.com/download/desktop
 [02]:https://www.ventoy.net/en/index.html
@@ -3157,7 +3192,6 @@ Source:
 [32]:https://www.manualslib.com/manual/1905901/Lg-Ultragear-32gn500.html?page=6#manual
 [33]:http://mymediaalexa.com/
 [34]:https://www.youtube.com/watch?v=Pv4Aw5-ONy0
-[35]:http://mymediaalexa.com/#section-3
 [36]:https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-22-04
 [37]:https://serversforhackers.com/c/ansible-installation-and-basics
 [38]:https://www.synology.com/en-us/products/DS220+
@@ -3168,7 +3202,6 @@ Source:
 [43]:http://www.sudo.ws/sudo/sudoers.man.html
 [44]:http://www.sudo.ws/visudo.man.html
 [45]:http://www.cyberciti.biz/faq/howto-change-rename-user-name-id/
-[46]:https://www.amazon.com/bizmodeller-My-Media/dp/B06XPP135L
 [47]:https://ostechnix.com/virtualbox-guru-meditation-critical-error-in-linux/
 [48]:https://www.rapidseedbox.com/blog/yt-dlp-complete-guide
 [49]:https://github.com/yt-dlp/yt-dlp
@@ -3189,18 +3222,7 @@ Source:
 [64]:https://www.omgubuntu.co.uk/2023/04/appimages-libfuse2-ubuntu-23-04
 [65]:https://www.youtube.com/watch?v=jaYZqc7Luag
 [66]:https://www.youtube.com/watch?v=qHJSz4V7DJk
-[67]:https://www.python.org/
-[68]:https://pypi.org/
-[69]:https://www.anaconda.com/download
-[70]:https://docs.conda.io/projects/miniconda/en/latest/
-[71]:https://en.wikipedia.org/wiki/ARPANET
-[72]:https://en.wikipedia.org/wiki/Dial-up_Internet_access
-[73]:https://en.wikipedia.org/wiki/Broadband
-[74]:https://www.arduino.cc/en/software
-[75]:https://www.arduino.cc/en/Guide/Linux
-[76]:https://www.arduino.cc/en/hacking/preferences
 [77]:https://github.com/tmux-plugins/tpm
 [78]:https://github.com/tmux-plugins/list
 [79]:
 [80]:
-
