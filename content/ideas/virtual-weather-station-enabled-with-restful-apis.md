@@ -320,6 +320,8 @@ Open `server.js` and replace its content as follows:
 
 # Hardware Design
 
+* [This stunning Raspberry Pi e-ink weather dashboard gives you the forecast in style](https://www.xda-developers.com/raspberry-pi-e-ink-weather-dashboard/)
+
 * [Build your own elegant e-paper weather display powered by an ESP32 microcontroller](https://www.xda-developers.com/build-elegant-e-paper-weather-display-esp32-microcontroller/)
 * [ESP8266 weather station with e-paper display](http://embedded-lab.com/blog/esp8266-weather-station-e-paper-display/)
 * [7.5inch Passive NFC-Powered e-Paper without Battery](https://www.seeedstudio.com/7-5inch-Passive-NFC-Powered-e-Paper-without-Battery-p-4494.html)
