@@ -255,6 +255,7 @@ working with built-in data types, processing iterables of data, handling input a
     * [Efficient Iterations With Python Iterators and Iterables](https://realpython.com/courses/efficient-iterations-iterators-iterables/)
     * [Asynchronous Iterators and Iterables in Python](https://realpython.com/python-async-iterators/)
 * Classes
+    * [Python's Instance, Class, and Static Methods Demystified](https://realpython.com/instance-class-and-static-methods-demystified/)
     * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
     * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
     * [Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
