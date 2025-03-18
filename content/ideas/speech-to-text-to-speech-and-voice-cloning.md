@@ -25,10 +25,13 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 # Speech-to-Text
 
 * Use IBM's [Watson to turn speech to text](https://www.ibm.com/cloud/watson-speech-to-text)
+* [Whisper](https://openai.com/index/whisper/)
 * [Offline Speech-to-Text on Raspberry Pi 5](https://www.crowdsupply.com/anavi-technology/anavi-dev-mic/updates/video-tutorial-offline-speech-to-text-on-raspberry-pi-5-with-anavi-dev-mic)
   * [Offline Speech-to-Text on Raspberry Pi 5 with Python3 and OpenAI Whisper ASR](https://www.youtube.com/watch?v=XzCWIGtRq4g)
 
 * [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
+
+* [Speech Note Transcribes Voice to Text on Linux](https://www.omglinux.com/speech-note-transcribe-voice-to-text-on-linux/)
 
 # Text-to-Speech
 
@@ -37,6 +40,8 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 * [Add any voice to your Raspberry Pi project with TextyMcSpeechy](https://www.tomshardware.com/raspberry-pi/add-any-voice-to-your-raspberry-pi-project-with-textymcspeechy)
 
 ## Voice Cloning
+
+* Use the [Voice of Werner Herzog](https://www.youtube.com/watch?v=PuZi5iJbPTg)
 
 * [Text to Speech with Real-time Voice Cloning](https://medium.com/wavy-engineering/text-to-speech-with-real-time-voice-cloning-16346127742)
 * [Clone a Voice in Five Seconds With This AI Toolbox](https://medium.com/syncedreview/clone-a-voice-in-five-seconds-with-this-ai-toolbox-f3f116b11281)
