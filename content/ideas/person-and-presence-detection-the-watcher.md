@@ -178,6 +178,8 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 
 # Make it Speak
 
+* Use the [Voice of Werner Herzog](https://www.youtube.com/watch?v=PuZi5iJbPTg)
+
 * [ESP Audio DevKits](https://www.espressif.com/en/products/devkits/esp-audio-devkits)
 
 * [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaday.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
