@@ -276,6 +276,8 @@ working with built-in data types, processing iterables of data, handling input a
     * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
     * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
     * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
+* Structural Pattern Matching
+    * [Using Structural Pattern Matching in Python](https://realpython.com/courses/structural-pattern-matching/)
 
 
 # Python Type Checking
