@@ -22,8 +22,11 @@ Those public packets are named as "probe requests" and are used by smartphones t
 This program just listen for those "probe requests" and prints to serial port the information. For now only shows the RSSI (bigger values are near devices), the MAC address of the device and the SSID (if available) of the wifi network which is looking for.
 
 * [The Eyes Have It: Stare Down Your Lighting](https://hackaday.com/2023/03/06/the-eyes-have-it-stare-down-your-lighting/)
+* [Animatronic Eye Mechanism](https://www.instructables.com/Animatronic-Eye-Mechanism/)
+* [Adafruit Animated Eyes Bonnet for Raspberry Pi Pack](https://www.adafruit.com/product/3813)
 
 * [Adafruit 1.28" 240x240 Round TFT LCD Display](https://www.adafruit.com/product/6178)
+* [Double Eye Round LCD Display Module](https://www.amazon.com/0-71inch-Double-Eye-LCD-Module/dp/B0DPX5DYXB)
 
 * [Make a homemade AI home assistant](https://www.raspberrypi.com/news/make-a-homemade-ai-home-assistant/)
     * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)

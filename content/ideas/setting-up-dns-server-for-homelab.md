@@ -12,9 +12,11 @@ Version:      0.0.0
 ---------------
 
 
-* 7 reasons you should a Local DNS servera - [7 reasons you should turn your Raspberry Pi into a DNS server](https://www.xda-developers.com/reasons-should-turn-raspberry-pi-dns-server/)
+* 7 reasons you should a Local DNS server - [7 reasons you should turn your Raspberry Pi into a DNS server](https://www.xda-developers.com/reasons-should-turn-raspberry-pi-dns-server/)
 * [5 advanced firewall rules to lock down your home lab](https://www.xda-developers.com/advanced-firewall-rules-to-lock-down-your-home-lab/)
 * [Setting up a DNS caching server on your Raspberry Pi is easy - here's how it's done](https://www.xda-developers.com/dns-caching-server-on-raspberry-pi/)
+* [Why You Shouldn't Use Your ISP's Default DNS Server](https://www.howtogeek.com/664608/why-you-shouldnt-be-using-your-isps-default-dns-server/)
+* [How to Enable DNS Over HTTPS in Google Chrome](https://www.howtogeek.com/660088/how-to-enable-dns-over-https-in-google-chrome/)
 
 
 
