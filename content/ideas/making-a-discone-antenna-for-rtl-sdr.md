@@ -17,6 +17,10 @@ Version:      0.0.0
 
 * [Antenna Basics: Radiation Patterns, Permittivity, Directivity, and Gain](http://www.allaboutcircuits.com/technical-articles/antenna-basics-field-radiation-patterns-permittivity-directivity-gain/)
 * [Radio Antenna Mismatching: VSWR Explained](https://hackaday.com/2018/08/17/radio-antenna-mismatching-vswr-explained/)
+* [A Hacker’s Approach To All Things Antenna](https://hackaday.com/2025/03/16/a-hackers-approach-to-all-things-antenna/)
+    * [Tech 101: Antennas](https://www.youtube.com/watch?v=EFLLjtZUjuc)
+    * [Antenna Measurement In Theory And Practice](https://hackaday.com/2024/12/06/antenna-measurement-in-theory-and-practice/)
+    * [New Video Series: Learning Antenna Basics With Karen Rucker](https://hackaday.com/2021/07/15/new-video-series-learning-antenna-basics-with-karen-rucker/)
 
 * [Antennas](https://www.youtube.com/watch?v=rokAuaL2E74)
 * [The Physics Behind an Antennas](https://hackaday.com/2019/07/11/the-physics-behind-antennas/)
