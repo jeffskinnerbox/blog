@@ -629,7 +629,7 @@ and `ifup` / `ifdown` scripts to manage these interfaces.
 While this is an old approach, its well understood and works,
 but not well suited for the casual Linux user or complex configurations.
 Proxmox is an example where this method is used.
-2. After that came the network manager daemon (often written [NetworkManager][09])
+1. After that came the network manager daemon (often written [NetworkManager][09])
 which has GUI interfaces available.
 NetworkManager is a daemon that sits on top of Linux kernel
 and provides a mechanism to configuration the network interfaces.
@@ -637,10 +637,10 @@ It manages your network devices
 and attempts to keep network connectivity active when available.
 It manages Ethernet, WiFi, mobile broadband (WWAN), and PPPoE devices
 while also providing VPN integration with a variety of different VPN services.
-3. And most recently the `systemd-networkd` daemon
+1. And most recently the `systemd-networkd` daemon
 (often abbreviated just 'networkd')
 which is based on `systemd` unit files.
-4. Ubuntu has switched to [Netplan][12] for the configuration of network interfaces.
+1. Ubuntu has switched to [Netplan][12] for the configuration of network interfaces.
 Netplan uses a YAML-based configuration approach,
 with the aim of makes the configuration process simple.
 Netplan has replaced the old `/etc/network/interfaces` configuration file
