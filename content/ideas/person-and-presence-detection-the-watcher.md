@@ -40,7 +40,7 @@ To make people aware of the fragility of privacy and anonymity,
 create an electronic artwork that display personal information about people when they are nearby.
 
 As a person walks by,
-the artwork automatically collects from them mobile phone
+the artwork automatically collects from there mobile phone
 or other electronic device RF emissions (aka RF exhaust) from the person.
 
 This can be done by making use of:
