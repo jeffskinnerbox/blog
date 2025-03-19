@@ -320,14 +320,18 @@ Open `server.js` and replace its content as follows:
 
 # Hardware Design
 
+* [E-ink Weather Dashboard with a Raspberry Pi](https://www.youtube.com/watch?v=65sda565l9Y)
 * [This stunning Raspberry Pi e-ink weather dashboard gives you the forecast in style](https://www.xda-developers.com/raspberry-pi-e-ink-weather-dashboard/)
+    * [I built an AI Powered E-Ink Display](https://www.youtube.com/watch?v=ZsEpd-VwJCs)
+    * [Minimal E-Ink Clock with a Raspberry Pi (Tutorial)](https://www.youtube.com/watch?v=L5PvQj1vfC4)
 
 * [Build your own elegant e-paper weather display powered by an ESP32 microcontroller](https://www.xda-developers.com/build-elegant-e-paper-weather-display-esp32-microcontroller/)
 * [ESP8266 weather station with e-paper display](http://embedded-lab.com/blog/esp8266-weather-station-e-paper-display/)
 * [7.5inch Passive NFC-Powered e-Paper without Battery](https://www.seeedstudio.com/7-5inch-Passive-NFC-Powered-e-Paper-without-Battery-p-4494.html)
 * [ESP8266 Weather display](https://github.com/andrei7c4/weatherdisplay)
-* [Run a Linux Terminal on Cheap E-Ink Displays](https://hackaday.com/2018/08/14/run-a-linux-terminal-on-cheap-e-ink-displays/)
 * [How to Make Pocket Sized IoT Weather Station](https://www.instructables.com/id/How-to-Make-Pocket-Sized-IoT-Weather-Station/?linkId=71510722)
+
+* [Run a Linux Terminal on Cheap E-Ink Displays](https://hackaday.com/2018/08/14/run-a-linux-terminal-on-cheap-e-ink-displays/)
 
 As an alternative to buying general purpose e-paper solution, repurposing a Kindle.
 Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs price.
