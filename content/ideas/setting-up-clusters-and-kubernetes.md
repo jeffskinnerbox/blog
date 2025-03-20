@@ -120,6 +120,8 @@ For more information:
 
 * [So What Is A Supercomputer Anyway?](https://hackaday.com/2025/03/19/so-what-is-a-supercomputer-anyway/)
 
+* [How to build a Raspberry Pi cluster](https://www.raspberrypi.com/tutorials/cluster-raspberry-pi-tutorial/)
+
 * [Beowulf Project Overview](https://beowulf.org/overview/faq.html)
 * [Linux High Performance Computing Cluster -- Beowulf Cluster](https://www.programmersought.com/article/7646863911/).
 * [Building a Beowulf Cluster in just 13 steps](https://www.linux.com/training-tutorials/building-beowulf-cluster-just-13-steps/)
