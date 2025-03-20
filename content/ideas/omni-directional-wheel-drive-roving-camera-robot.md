@@ -20,6 +20,7 @@ Version:      0.0.0
 # Omnidirectional Robots
 
 * [Easy Robotics with a 3D Printer and Raspberry Pi](https://messyprogress.substack.com/p/easy-robotics-with-a-3d-printer-and)
+* [How to Build a Robot Using Omni Wheels](https://www.youtube.com/watch?v=fzZEWjjmYNM)
 
 
 * [ESP32 based omnidirectional robots w/ camera | makermoekoe](https://www.youtube.com/watch?v=OIdMkZyhx7E&t=0s)
