@@ -83,6 +83,7 @@ Prompt for ChatGPT: How would I taken an image and convert it to a polygon versi
 
 ## ESP32-CAM
 
+* [ESP32-S3 AI Camera Module (Edge Image Recognition, Night Vision, ChatGPT Voice Interaction)](https://www.dfrobot.com/product-2899.html?marketing=67dbfc48976a6)
 * [Build a four-wheel RC car with ESP32-CAM board and off-the-shelf parts](https://www.cnx-software.com/2025/02/11/build-a-four-wheel-rc-car-with-esp32-cam-board-and-off-the-shelf-parts/)
 
 
