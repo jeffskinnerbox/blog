@@ -31,6 +31,9 @@ Sources:
 * [ChatGPT Is Now a Search Engine](https://www.howtogeek.com/chatgpt-search-is-now-available/)
 * []
 
+# ChatGPT on Your SmartPhone
+* [How to Set ChatGPT as Your Default Voice Assistant on Android](https://www.howtogeek.com/set-chatgpt-default-voice-assistant-on-android/)
+
 # ChatGPT Models
 
 * [OpenAI Reveals Details About GPT-5 And The "Unified Model"](https://www.youtube.com/watch?v=KtwK3hBAjDY)
