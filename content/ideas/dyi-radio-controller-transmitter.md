@@ -10,7 +10,7 @@ Version:      0.0.0
 </div>
 
 
------
+---------------
 
 
 Very often, you need wireless control for the projects,
@@ -29,3 +29,13 @@ so built this multifunctional radio controller which can be used for pretty much
 * [ESP32 - RC Transmitter](https://www.thingiverse.com/thing:5757906)
 
 * Joystick & Buttons - [Adafruit Mini I2C Gamepad with seesaw - STEMMA QT / Qwiic](https://www.adafruit.com/product/5743)
+
+
+
+
+# Altoid Tin Gaming Controller
+* [A Cute Handheld Gaming Device That You Can Build In An Altoids Tin](https://hackaday.com/2025/03/21/a-cute-handheld-gaming-device-that-you-can-build-in-an-altoids-tin/)
+* [This Raspberry Pi handheld console fits in an Altoids tin, and it's seriously adorable](https://www.xda-developers.com/raspberry-pi-console-altoids-tin/)
+* [Pi Tin: New Raspberry Pi-based retro handheld fits in a mint tin](https://www.notebookcheck.net/Pi-Tin-New-Raspberry-Pi-based-retro-handheld-fits-in-a-mint-tin.984923.0.html)
+* [pi tin](https://jackw01.github.io/pi-tin/index)
+
