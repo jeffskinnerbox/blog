@@ -9,6 +9,12 @@ Version:      0.0.0
 
 ---------------
 
+* [Pi-hole v6 - Configuration and Overview](https://www.youtube.com/watch?v=mnry95ay0Bk) - with cloudflare and docker
+* [Pi-hole Syncing… But Smarter...](https://www.youtube.com/watch?v=OcSBggDyeJ4)
+* [Raspberry Pi DNS-Over-HTTPS (DoH) for Pi-Hole](https://pimylifeup.com/rapberry-pi-dns-over-https/)
+
+
+
 * [5 advanced firewall rules to lock down your home lab](https://www.xda-developers.com/advanced-firewall-rules-to-lock-down-your-home-lab/)
 * [I Took My Pi-Hole to the Next Level With This Custom Theme](https://www.howtogeek.com/took-pi-hole-to-next-level-with-custom-theme/)
 

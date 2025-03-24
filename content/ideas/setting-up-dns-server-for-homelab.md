@@ -81,6 +81,8 @@ Squid & SquidGuard
 
 # Securing DNS
 
+* [Pi-hole v6 - Configuration and Overview](https://www.youtube.com/watch?v=mnry95ay0Bk) - with cloudflare and docker
+* [Pi-hole Syncing… But Smarter...](https://www.youtube.com/watch?v=OcSBggDyeJ4)
 * [Raspberry Pi DNS-Over-HTTPS (DoH) for Pi-Hole](https://pimylifeup.com/rapberry-pi-dns-over-https/)
 
 
