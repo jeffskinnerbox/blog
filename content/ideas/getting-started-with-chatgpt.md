@@ -398,6 +398,7 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 # Brad is Google's Answer to ChatGPT
 
 * [Gemini's New Canvas Feature is The Ultimate Writing/Coding Buddy](https://www.howtogeek.com/gemini-new-canvas-feature/)
+* [Forget ChatGPT Canvas — I just tried Gemini Canvas and I'm floored by the difference](https://www.tomsguide.com/ai/forget-chatgpt-canvas-i-just-tried-gemini-canvas-and-im-floored-by-the-difference)
 * [Brad](https://bard.google.com/)
 
 ---------------
