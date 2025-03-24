@@ -642,6 +642,7 @@ and now even has a script to allow you to start it automatically.
 
 # Other SDR Tools
 
+* [RTL-SDR With Only A Browser](https://hackaday.com/2025/03/23/rtl-sdr-with-only-a-browser/)
 * [Global Radio Direction Finding in Your Browser](https://hackaday.com/2018/07/16/global-radio-direction-finding-in-your-browser/)
 * [Building An SDR Lab With Wheels](https://hackaday.com/2018/07/27/building-an-sdr-lab-with-wheels/)
 
