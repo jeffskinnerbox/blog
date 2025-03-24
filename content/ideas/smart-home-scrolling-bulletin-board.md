@@ -4,10 +4,28 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+        title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
+
+
+# Quiescent Display
+This is just an idea on what the display could be doing when there are no notifications to display.
+
+* [Raspberry Pi Pico brings a 'WOPR' of a feature to a server rack](https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico-brings-a-wopr-of-a-feature-to-a-server-rack)
+* [1U Rack mount WOPR LEDs Enclosure](https://www.printables.com/model/1167457-1u-rack-mount-wopr-leds-enclosure)
+* [WOPR Ambience sound from War Games 1983](https://www.youtube.com/watch?v=t4vWTzs_bp4)
+* [WOPR from Wargames is alive and talking! (with a bit of C code and Chat GPT AI).](https://www.youtube.com/watch?v=iU5XT0b7J9s)
+
+
+
+
+
+
+
+
 
 # Recorded Sound for Announcements
 
