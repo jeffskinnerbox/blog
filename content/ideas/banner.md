@@ -4,10 +4,13 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+        title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
----
+
+---------------
+
 
 Do you remember when computer graphics meet
 [ASCII characters on paper via a teletype terminal](http://hackaday.com/2016/06/28/retrotechtacular-ascii-art-in-the-19th-century/)?
@@ -35,7 +38,9 @@ You can even take [ASCII pictures on your smartphone](https://hackaday.com/2017/
 - [ASCII Art Generator](https://asciiart.club/)
 - [Figlet](https://www.patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
----
+
+---------------
+
 
 # Converts jpg Images to Colored ASCII
 
@@ -71,3 +76,15 @@ jp2a --colors --fill --color-depth=24 --size=175x55 The-Great-Wave-Off-Kanagawa.
 
 jp2a --colors --fill --color-depth=24 --size=130x50 kanagawa-logo.png
 ```
+
+
+---------------
+
+
+# ASCII Camera
+watch your webcam feed in a terminal window
+
+* [This cool Raspberry Pi project turns your webcam feed into ASCII art](https://www.xda-developers.com/raspberry-pi-project-webcam-ascii/)
+* [Maker builds Raspberry Pi ASCII camera, turning video frames into text-based imagery](https://www.tomshardware.com/raspberry-pi/maker-builds-raspberry-pi-ascii-camera-turning-video-frames-into-text-based-imagery)
+    * [I had only 3 days to build this Raspberry Pi Project (ASCII Video Camera)](https://www.youtube.com/watch?v=i9Zj2qN0uJ8)
+
