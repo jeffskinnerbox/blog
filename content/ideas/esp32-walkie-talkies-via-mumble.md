@@ -811,6 +811,7 @@ Its a free and open-source platform with end-to-end encryption to protect the da
 
 * [Mumble Server](https://www.turnkeylinux.org/mumble)
 * [Build your own Raspberry Pi Mumble Server](https://pimylifeup.com/raspberry-pi-mumble-server/)
+* [Create your own Raspberry Pi powered home VOIP service with Mumble](https://www.tomshardware.com/raspberry-pi/create-your-own-raspberry-pi-powered-home-voip-service-with-mumble)
 * [Tutorial: How to setup & use Mumble VoIP Client (Alt to Teamspeak & Ventrilo)](https://www.youtube.com/watch?v=t8VbE478kaw)
 * [talKKonnect - A Headless Mumble Client/Transceiver/Walkie Talkie/Intercom/Gateway for Single Board Computers, PCs or Virtual Environments (IP Radio/IP PTT)](https://github.com/talkkonnect/talkkonnect)
 
