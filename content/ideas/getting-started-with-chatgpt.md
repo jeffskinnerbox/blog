@@ -132,7 +132,15 @@ Retrieval Augmented Generation (RAG) is the de facto technique for giving LLMs t
 
 * [RAG from the Ground Up with Python and Ollama](https://www.youtube.com/watch?v=V1Mz8gMBDMo)
 * [Chat with Graphic PDFs: Building an AI PDF Summarizer](https://pyimagesearch.com/2025/02/24/chat-with-graphic-pdfs-building-an-ai-pdf-summarizer/)
+
+* Understanding RAG Part I: Why It’s Needed
+* Understanding RAG Part II: How Classic RAG Works
+* Understanding RAG Part III: Fusion Retrieval and Reranking
+* Understanding RAG Part IV: RAGAs & Other Evaluation Frameworks
+* Understanding RAG Part V: Managing Context Length
+* Understanding RAG Part VI: Effective Retrieval Optimization
 * [Understanding RAG Part VII: Vector Databases & Indexing Strategies](https://machinelearningmastery.com/understanding-rag-part-vii-vector-databases-indexing-strategies/)
+* [Understanding RAG Part VIII: Mitigating Hallucinations in RAG](https://machinelearningmastery.com/understanding-rag-part-viii-mitigating-hallucinations-in-rag/)
 
 # MSTY
 
