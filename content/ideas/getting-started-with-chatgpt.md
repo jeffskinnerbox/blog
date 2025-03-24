@@ -29,7 +29,9 @@ Sources:
 * [7 Reasons I Use ChatGPT for Search Instead of Google](https://www.howtogeek.com/reasons-i-use-chatgpt-for-search-instead-of-google/)
 * [7 Ways I Use ChatGPT For Language Learning As a Non-Native](https://www.howtogeek.com/ways-i-use-chatgpt-for-language-learning-as-a-non-native/)
 * [ChatGPT Is Now a Search Engine](https://www.howtogeek.com/chatgpt-search-is-now-available/)
-* []
+
+# OpenAI WebRTC Realtime API
+* [The Unofficial Guide to OpenAI Realtime WebRTC API](https://webrtchacks.com/the-unofficial-guide-to-openai-realtime-webrtc-api/)
 
 # ChatGPT on Your SmartPhone
 * [How to Set ChatGPT as Your Default Voice Assistant on Android](https://www.howtogeek.com/set-chatgpt-default-voice-assistant-on-android/)
@@ -387,7 +389,8 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 
 # Brad is Google's Answer to ChatGPT
 
-[Brad](https://bard.google.com/)
+* [Gemini's New Canvas Feature is The Ultimate Writing/Coding Buddy](https://www.howtogeek.com/gemini-new-canvas-feature/)
+* [Brad](https://bard.google.com/)
 
 ---------------
 
