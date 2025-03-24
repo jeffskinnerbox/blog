@@ -11,6 +11,8 @@ Version:      0.0.0
 ---------------
 
 
+* [Master the Art of Python Debugging With These Tips](https://thenewstack.io/master-the-art-of-python-debugging-with-these-tips/)
+
 * [Python 10 minutes a day](https://python-10-minutes-a-day.rocks/)
 * [Real Python Learning Paths](https://realpython.com/learning-paths/)
 * [Python Engineer](https://www.python-engineer.com/posts/)
