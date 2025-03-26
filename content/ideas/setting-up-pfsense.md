@@ -191,15 +191,6 @@ Sources:
 * [Pi-Hosted: Beginners Guide to WireGuard Docker and Installing Pi-OS 64bit](https://www.youtube.com/watch?v=yB_jAumIxOg&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=15)
 
 
-#### Tailscale
-Tailscale is an SaaS product that scales from individual users to entire enterprises, and it's based on the Wireguard VPN protocol.
-Instead of running a single VPN server that acts as an entry and exit point for your networks, Tailscale creates a decentralized mesh network known as a tailnet. This tailnet is coordinated by a central control server, hosted by Tailscale, which is responsible for peer discovery within a tailnet (such as sharing IP addresses and public keys).
-
-This decentralized mesh network allows your devices to effectively exist on their own private VPN, whether they're in your home or not. This means your phone, laptop, and home server can all easily connect to each other without having to run a dedicated VPN server in your home.
-
-* [How to set up a powerful home VPN with Tailscale](https://www.xda-developers.com/how-setup-powerful-tailscale/#what-is-tailscale)
-
-
 
 ---------------
 
