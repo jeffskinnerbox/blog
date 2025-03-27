@@ -49,6 +49,13 @@ and they will modify it fit with the business.
     * [NEW: Cursor Composer AI + Claude Sonnet 3.5 Is Insane! 🤖 Getting Started AI Coding Tutorial (Basics)](https://www.youtube.com/watch?v=1FgD0wlsheg&t=4s)
 
 
+---------------
+
+
+# So What is AI Engineering?
+* [AI Engineering in the real world](https://newsletter.pragmaticengineer.com/p/ai-engineering-in-the-real-world)
+
+
 
 [01]:https://blog.medium.com/a-definition-of-vibe-coding-or-how-ai-is-turning-everyone-into-a-software-developer-07346324b826
 [02]:https://en.wikipedia.org/wiki/Systems_engineering
