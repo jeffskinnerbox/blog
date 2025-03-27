@@ -325,6 +325,8 @@ which makes them pretty flexible and decoupled.
     * [Testinfra](https://testinfra.readthedocs.io/en/latest/)
 * Automated Testing
     * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
+* Code Quality
+    * [Python Code Quality: Best Practices and Tools](https://realpython.com/python-code-quality/)
 
 
 ## Asterisks in Python
