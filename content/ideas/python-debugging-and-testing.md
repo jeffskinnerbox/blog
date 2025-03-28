@@ -488,6 +488,13 @@ There are many Python static analysis tools to choose from, but these are most h
 ---------------
 
 
+# Build a Secure Python Script
+* [Executing commands safely from Python](https://supakeen.com/weblog/executing-commands-safely-from-python/)
+
+
+---------------
+
+
 # Build a Python Command-Line App
 
 Example programs that make heavy use of Python's commandline utilities.
