@@ -16,6 +16,11 @@ Version:      0.0.0
 
 
 
+# ESP32 Connectivity Issues
+* [ESP32 Connectivity Myths Unveiled](https://supakeen.com/weblog/esp32-wifi-superstitions/)
+
+
+
 # Choosing an ESP32
 
 * [ESP32 Guide 2024 | Choosing and Using an ESP32 Board](https://www.youtube.com/watch?v=u5unB24lhC4)
