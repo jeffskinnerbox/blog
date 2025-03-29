@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+        title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -47,3 +48,4 @@ Version:      0.0.0
 * [ESP32-based Waveshare DDSM Driver HAT (B) for Raspberry Pi supports DDSM400 hub motors](https://www.cnx-software.com/2025/01/15/esp32-based-waveshare-ddsm-driver-hat-b-for-raspberry-pi-supports-ddsm400-hub-motors/)
     * [Waveshape DDSM400 Direct Drive Servo Motor](https://www.waveshare.com/ddsm400.htm)
     * [Direct Drive Servo Motor Driver Board](https://www.waveshare.com/product/ddsm-driver-hat-b.htm)
+
