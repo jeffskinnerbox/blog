@@ -435,42 +435,5 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
 * [Augmented Arthropod Gets A Self-Balancing Ride](https://hackaday.com/2019/06/14/augmented-arthropod-gets-a-self-balancing-ride/)
 
 
-# Teensy 3.2 (72 MHz Cortex-M4)
-
-
-# Bill of Materials (BOM)
-Check this out: [Balboa 32U4 Balancing Robot Kit](https://www.pololu.com/product/3575)
-
-* [How to make a Balboa robot balance, part 5: popping up and driving around](https://www.pololu.com/blog/685/how-to-make-a-balboa-robot-balance-part-5-popping-up-and-driving-around)
-* [Pololu Balboa 32U4 Balancing Robot User’s Guide](https://www.pololu.com/docs/0J70)
-* [Resources: Build Instruction, software, etc.](https://www.pololu.com/product/3575/resources)
-* [Stability Conversion Kit for Balboa](https://www.pololu.com/product/3572)
-
-Piddy Bot
-|:---------:|:-------------:|:---------:|:-------------:|:-------------:|
-| Quanity | Item | Type  | Source | Unit Price | Notes |
-| 2 | Motor | Micro Metal Gearmotor COM-MOT-95:1 | <https://shop.pimoroni.com/>, <https://www.pololu.com/> | $9.50 | |
-| 1 | Pair Motor Bracket | Micro Metal Gearmotor Bracket Pair -  POLOLU1089 | https://www.pololu.com/ | $5.00 | |
-| 1 | Optical Encoder | Optical Encoder Pair Kit for Micro Metal Gearmotors, 3.3V -  POLOLU2591 | <https://www.pololu.com/> | $8.95 | |
-| 1 | Wheels | Pololu Wheel 60x8mm Pai - POLOLU 1420  | https://www.pololu.com/ | $5.00 | |
-
-| 4 | Rotory Potentiometer | | | | |
-| 1 | Microcontroller |  Teensy 3.2 (72 MHz Cortex-M4) | <https://www.adafruit.com/products/2756> |  $20 | |
-| 1 | 1A Dual Motor Driver Board | | | | |
-| 1 | 6 DOF IMU | | | | |
-| 2 | Battery Connectors | | | | |
-| 2 | Lithium Batteries 110mAh | | | | |
-| 4 | M2 Screws for Motor Mounting | | | | |
-| 2 | Female Jumper Cables | | | | |
-| 2 | SPDT Slide Switches | | | | |
-| 4 | Right angle Headers | | | | |
-|   | A bunch of Headers | | | | |
-
-
-# Similar to Balboa
-
-* [Bobble-Bot Teaches Modern Real-Time Robot Control](https://hackaday.com/2019/11/07/bobble-bot-teaches-modern-real-time-robot-control/)
-* [Bobble-Bot Is a Balancing Robot Designed for Teaching ROS on a Raspberry Pi](https://www.hackster.io/news/bobble-bot-is-a-balancing-robot-designed-for-teaching-ros-on-a-raspberry-pi-1840bc62cd36)
-    * [ROS Tutorials](https://www.clearpathrobotics.com/assets/guides/kinetic/ros/index.html)
 
 
