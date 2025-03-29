@@ -395,11 +395,14 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 
 ---------------
 
-# Brad is Google's Answer to ChatGPT
+# Gemini is Google's Answer to ChatGPT
 
+* [Google releases Gemini Code Assist, free for all developers](https://bdtechtalks.com/2025/02/27/google-gemini-code-assist/?utm_source=substack&utm_medium=email)
+    * [Get coding help from Gemini Code Assist — now for free](https://blog.google/technology/developers/gemini-code-assist-free/)
+    * [Gemini Code Assist for individuals at no cost](https://codeassist.google/products/individual)
 * [Gemini's New Canvas Feature is The Ultimate Writing/Coding Buddy](https://www.howtogeek.com/gemini-new-canvas-feature/)
 * [Forget ChatGPT Canvas — I just tried Gemini Canvas and I'm floored by the difference](https://www.tomsguide.com/ai/forget-chatgpt-canvas-i-just-tried-gemini-canvas-and-im-floored-by-the-difference)
-* [Brad](https://bard.google.com/)
+* [Gemini Code Assist vs. GitHub Copilot: Which AI Coding Tool is Right for You?](https://medium.com/netpremacy-global-services/gemini-code-assist-vs-github-copilot-which-ai-coding-tool-is-right-for-you-be609716aef6)
 
 ---------------
 
