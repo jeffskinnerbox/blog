@@ -10,4 +10,8 @@ Version:      0.0.0
 
 -----
 
-* [Gout Disease Education Video Series](https://www.hopkinsarthritis.org/arthritis-info/gout/gout-disease-education-video-series/)
+# Achilles Tendonitis
+
+* [Why do I Have a Lump in my Achilles Tendon?](https://www.youtube.com/watch?v=nAUrK0lRC6A)
+* [Exercises For Achilles Pain - Why They Help & What To Avoid](https://www.youtube.com/watch?v=2str9FtRTKc)
+* [Heal Your Achilles Tendonitis At Home! (Achilles Tendon Treatment)](https://www.youtube.com/watch?v=bjwAxxQYqwM)
