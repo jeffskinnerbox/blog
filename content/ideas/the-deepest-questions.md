@@ -10,6 +10,12 @@ Version:      0.0.0
 
 ---------------
 
+# Strangeness of Light
+* [Something Strange Happens When You Trust Quantum Mechanics](https://www.youtube.com/watch?v=qJZ1Ez28C-A)
+* [Why I stopped believing light is a particle (until now)](https://www.youtube.com/watch?v=W3Egv6iO3dI)
+
+---------------
+
 As [Bohr said](https://www.goodreads.com/quotes/1293013-physics-is-not-about-how-the-world-is-it-is),
 “Physics is not about how the world is; it is about what we can say about the world.”
 [Christopher Fuchs describes physics as](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
