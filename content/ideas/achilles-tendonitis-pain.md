@@ -15,3 +15,4 @@ Version:      0.0.0
 * [Why do I Have a Lump in my Achilles Tendon?](https://www.youtube.com/watch?v=nAUrK0lRC6A)
 * [Exercises For Achilles Pain - Why They Help & What To Avoid](https://www.youtube.com/watch?v=2str9FtRTKc)
 * [Heal Your Achilles Tendonitis At Home! (Achilles Tendon Treatment)](https://www.youtube.com/watch?v=bjwAxxQYqwM)
+* [Achilles Tendinitis - Exercises to Heal and Strengthen Your Tendon](https://www.youtube.com/watch?v=IEfyCfCtIJA)
