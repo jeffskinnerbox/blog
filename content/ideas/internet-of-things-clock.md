@@ -297,6 +297,7 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 ## Rotating Numbers Clock
 
 * [A Nested Gear Clock](https://hackaday.com/2021/12/12/a-nested-gear-clock/)
+* [Hybrid Mechanical Clock Shows It Both Ways](https://hackaday.com/2025/04/01/hybrid-mechanical-clock-shows-it-both-ways/)
 
 
 ## Projecting Time on Ceiling
