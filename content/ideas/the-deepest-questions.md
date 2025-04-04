@@ -5,7 +5,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+        title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
@@ -1333,6 +1334,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The Myth of the Monty Hall Problem](https://medium.com/@danielbier/the-myth-of-the-monty-hall-problem-8735fee7e2b1)
 * [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
 * [Don’t Switch! Why Mathematicians’ Answer to the Monty Hall Problem is Wrong](https://ima.org.uk/4552/dont-switch-mathematicians-answer-monty-hall-problem-wrong/)
+* [The Monty Hall problem but the host sucks at his job](https://www.youtube.com/watch?v=pqGmUB3yjrQ)
 
 
 ### The Boy or Girl Probability Paradox

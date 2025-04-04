@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+        title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
@@ -69,7 +70,6 @@ def monty_hall_simulation(num_simulations):
 monty_hall_simulation(10000)
 ```
 
-
 ### Monty Hall Problem
 
 * [The Monty Hall Problem: Dividing Statisticians since 1975](https://medium.com/@nahmed3536/the-monty-hall-problem-dividing-statisticians-since-1975-8f298875dcf)
@@ -78,18 +78,16 @@ monty_hall_simulation(10000)
 * [Don’t Switch! Why Mathematicians’ Answer to the Monty Hall Problem is Wrong](https://ima.org.uk/4552/dont-switch-mathematicians-answer-monty-hall-problem-wrong/)
 * [What Happened to the World’s Smartest Woman After She Solved a Math Question?](https://ali.medium.com/what-happened-to-the-worlds-smartest-woman-after-she-solved-a-math-question-019943967383)
 * [Marilyn vos Savant](https://en.wikipedia.org/wiki/Marilyn_vos_Savant)
-
+* [The Monty Hall problem but the host sucks at his job](https://www.youtube.com/watch?v=pqGmUB3yjrQ)
 
 ### Monty Hall Problem ... stated Differently
 
 * [This May Be The Most Counterintuitive Probability Paradox I've Ever Seen | Can you spot the error?](https://www.youtube.com/watch?v=bDZieLmya_I)
 
-
 # The Game's Actors
 
 Traditionally, the only actors are Monty & the contestant.
 What if the goats made a contribution by make noise and you have some probability to accurate locate the door which it is behind?
-
 
 # Game Formulation
 
@@ -100,7 +98,6 @@ What if all non-car doors didn't have a goats but something of substantial value
 
 * The game can be played with 3 to 100 doors.
 * The game can be played with something of substantial value and a single car (preferred)
-
 
 # Monty’s & Contestant's objectives and motivations
 
@@ -118,7 +115,6 @@ Monty is not likely to want to give away too many cars because of the cost to hi
 
 What if Monty randomly picked a door to open, including the door with a car?
 What if Monty only told you which door has a goat, did not show you, and Monty has some probability of lying?
-
 
 # The Monty Fall Problem
 
@@ -141,20 +137,13 @@ Is it in your best interest to switch?
 
 * [How to Solve the Monty Fall Problem](https://medium.com/street-science/how-to-solve-the-monty-fall-problem-ed68d78d8795)
 
-
-
 ---------------
-
 
 # Bertrand's Box Paradox
 
 * [Ranking Paradoxes, From Least to Most Paradoxical](https://www.youtube.com/watch?v=1vJsWKg2o1w)
 
-
-
 ---------------
-
-
 
 # The Prior
 
@@ -166,14 +155,11 @@ the current knowledge before an experiment is performed.
 * [Prior And Posterior - Intro to Statistics](https://www.youtube.com/watch?v=o2Tpws5C2Eg)
 * [How Bayes Theorem works](https://www.youtube.com/watch?v=5NMxiOGL39M)
 
-
 # Bayes Theorem
 
 * [Computational Physics with Python: Bayes Theorem](https://medium.com/@_monitsharma/computational-physics-with-python-bayes-theorem-fdeb3af01f7)
 
-
 # Two-Child Problem (aka Boy or Girl Paradox)
-
 
 Suppose a friend of yours has two children,
 but you cannot remember their genders.
@@ -198,17 +184,14 @@ What if you knew one of the children's day of week they where born?
 * [he Boy or Girl Probability Paradox Resolved | It was never really a paradox](https://www.youtube.com/watch?v=ElB350w8iJo)
 * [Boy or Girl paradox](https://en.wikipedia.org/wiki/Boy_or_Girl_paradox)
 
-
 # Boy or Girl Paradox With Cards or Coins
 
 * [Just 3 questions/puzzles that seem obvious but aren't](https://www.youtube.com/watch?v=YCRxwClpUGk)
-
 
 # Bertrand’s Box Paradox
 
 * [How To Make Sense Of Bertrand’s Box Paradox?](https://streetscience.net/how-to-make-sense-of-bertrands-box-paradox/)
 * [Probability Puzzle Paradox: Which Boxes To Take?](https://www.wmbriggs.com/post/54440/)
-
 
 # Coin Flipping Paradox
 
@@ -219,11 +202,9 @@ What if you knew one of the children's day of week they where born?
 * [Probability is just...really weird](https://www.youtube.com/watch?v=zczGnnM05TQ)
 * [The Coin Flip Game that Stumped Twitter: Alice HH vs Bob HT](https://www.youtube.com/watch?v=BAiuFOwhAWw)
 
-
 # The Friendship Paradox
 
 * [The Friendship Paradox](https://www.youtube.com/watch?v=GEjhO65FYks)
-
 
 # Sleeping Beauty Problem
 
@@ -232,7 +213,6 @@ What if you knew one of the children's day of week they where born?
 * [Self-locating belief and the Sleeping Beauty problem](https://www.princeton.edu/~adame/papers/sleeping/sleeping.pdf)
 * [The Most Controversial Problem in Philosophy](https://www.youtube.com/watch?v=XeSu9fBJ2sI)
 
-
 # Prisoner’s Puzzle
 
 * [A Fascinating Prisoner’s Puzzle](https://www.cantorsparadise.com/a-fascinating-prisoners-puzzle-be874032f43e)
@@ -240,8 +220,8 @@ What if you knew one of the children's day of week they where born?
 * [The almost impossible chessboard puzzle](https://www.youtube.com/watch?v=as7Gkm7Y7h4)
 * [What The Prisoner's Dilemma Reveals About Life, The Universe, and Everything](https://www.youtube.com/watch?v=mScpHTIi-kM)
 
-
 # Red & Green Ball / A Random Choice Gives You Information
+
 You are given an urn containing 100 balls; n of them are red, and 100-n are green,
 where n is chosen uniformly at random in [0, 100].
 You take a random ball out of the urn, it’s red and it is discard.
@@ -269,33 +249,26 @@ that suggests that your intuition has to be very
 sensitive to the setup of the problem.
 
 * [Perplexing the Web, One Probability Puzzle at a Time](https://www.quantamagazine.org/perplexing-the-web-one-probability-puzzle-at-a-time-20240829/)
-    * [Daniel Litt' Probibility Puzzle](https://x.com/littmath/status/1751648838501224790)
-
+  * [Daniel Litt' Probibility Puzzle](https://x.com/littmath/status/1751648838501224790)
 
 # P-Value
 
 * [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
 
-
 ---------------
 
-
 # Python Simulations
-
 
 ## 3D Animations
 
 * [Web VPython](https://www.glowscript.org/)
-    * [Web VPython Road Test](https://rjallain.medium.com/web-vpython-road-test-808a69cac916)
-
+  * [Web VPython Road Test](https://rjallain.medium.com/web-vpython-road-test-808a69cac916)
 
 ## Physics
 
 * [Dot Physics](https://www.youtube.com/@DotPhysics)
 
-
 ---------------
-
 
 # Zero-Knowledge Proofs
 
@@ -304,8 +277,8 @@ sensitive to the setup of the problem.
 * [Computer Scientist Explains One Concept in 5 Levels of Difficulty | WIRED](https://www.youtube.com/watch?v=fOGdb1CTu5c)
 * [How Do You Prove a Secret?](https://www.quantamagazine.org/how-to-prove-you-know-a-secret-without-giving-it-away-20221011/)
 
-
 ## Knowledge and Information
+
 Knowledge is awareness, understanding, or skill that you get from experience or education.
 Information is the facts or details that are organized and processed to provide context and meaning.
 For example, knowing the capital of France is information.
@@ -322,10 +295,8 @@ The relationship between data, information, and knowledge can be thought of as a
 For example, knowledge gained from analyzing information can reveal gaps in the data,
 which can lead to changes in how the data is collected or converted into information.
 
-
 ---------------
 
-
 # The Birthday Paradox
-* [Simple Explanation of the Birthday Paradox](https://www.youtube.com/watch?v=OcCRflNM-Xk)
 
+* [Simple Explanation of the Birthday Paradox](https://www.youtube.com/watch?v=OcCRflNM-Xk)
