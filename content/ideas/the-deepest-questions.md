@@ -1622,6 +1622,7 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
 # Pigeonhole Principle
 
 * [The astonishing power of the pigeonhole principle: the mathematician's Swiss army knife](https://aleph0.substack.com/p/the-astonishing-power-of-the-pigeonhole)
+* [How a Problem About Pigeons Powers Complexity Theory](https://www.quantamagazine.org/how-a-problem-about-pigeons-powers-complexity-theory-20250404/)
 
 
 # The Black-Scholes/Merton Equation
