@@ -3,37 +3,37 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
-
 -----
 
-
+* Monitor Your Smart Plugs On The Command Line - [WattWise: Terminal-Based Power Monitoring Using Smart Plugs](https://www.naveen.ing/cli-for-smartplugs/)
 
 # WeMo
+
 * [WeMo without a smartphone](http://hackaday.com/2013/02/23/wemo-without-a-smartphone/)
 * [WeMo API Hacking](http://www.issackelly.com/blog/2012/08/04/wemo-api-hacking/)
 
 # WeMo Commandline tool
+
 * [belkin-wemo-command-line-tools](https://www.npmjs.com/package/belkin-wemo-command-line-tools)
 
 # Hacking the Wemo
+
 * [Better Smart Plug](http://hackaday.com/2015/08/29/hackaday-prize-semifinalist-a-better-smart-plug/)
-* https://hackaday.io/project/6799-smartee-the-smart-plug
+* <https://hackaday.io/project/6799-smartee-the-smart-plug>
 
 # Roll Your Own
+
 * [Building a WiFi Outlet](http://nordness.net/posts/building-a-wifi-outlet/)
 
 # Rooting WeMo Insight Switch
+
 * [OpenWRT on a Belkin WeMo - The Easy Way](https://www.realmtech.net/2016-04/openwrt-on-a-belkin-wemo-easy-way)
 * [OpenWRT on a Belkin WeMo - The Hard Way](https://www.realmtech.net/2016-04/openwrt-on-a-belkin-wemo-hard-way)
 * OpenWRT for WEMO [Part 1 - Compiling firmware](http://sheldor.blogspot.com/2014/01/openwrt-for-wemo-part-1-compiling.html) and [Part 2 - Flashing Firmware](http://sheldor.blogspot.com/2014/01/openwrt-for-wemo-part-2-flashing.html)
-
-
-
 
 The [Belkin WeMo Insight Switch][40] ([different from the orginal Belkin's WeMo Switch][39])
 uses WiFi for connectivity and
@@ -71,33 +71,33 @@ like a garage door.
 * [Here is a script to control a local WeMo switch](https://forum.omz-software.com/topic/1427/here-is-a-script-to-control-a-local-wemo-switch/4)
 
 # WeMo Insight Switch Setup
+
 First review the web page "[WEMO Insight - Getting to know][01]".
 This will introduce to the physical design, so you understand the buttons,
 and the basic use of the smart phone app.
 
-https://hackaday.io/project/5093-belkin-wemo-insight-teardown
-https://hackaday.io/project/6799/logs
+<https://hackaday.io/project/5093-belkin-wemo-insight-teardown>
+<https://hackaday.io/project/6799/logs>
 
 To install WeMo Insight Switch, simply plug the Switch into an outlet in your home and then
 plug an electronic device or appliance into the switch.
 
-http://www.belkin.com/home-automation/setup/video.m4v
-http://www.belkin.com/us/support-article?articleNum=80142
+<http://www.belkin.com/home-automation/setup/video.m4v>
+<http://www.belkin.com/us/support-article?articleNum=80142>
 
 # Remote Access to WeMo Device
-http://www.belkin.com/us/support-article?articleNum=8227
+<http://www.belkin.com/us/support-article?articleNum=8227>
 
 # Firmware Update
+
 Once a day your WeMo reaches out to Belkin development server
 and compares the firmware version it is running to what is the newest on the server.
 If an update is available, the next time you open your WeMo smart phone app
 you may see a pop-up message letting you know that you can install this to your Wemo.
 
-http://www.belkin.com/us/support-article?articleNum=27353
+<http://www.belkin.com/us/support-article?articleNum=27353>
 
 # Connecting WeMo Insight Switch to Amazon Echo
-
-
 
 [01]:http://www.belkin.com/us/support-article?articleNum=42290
 [02]:
@@ -123,4 +123,3 @@ http://www.belkin.com/us/support-article?articleNum=27353
 [47]:https://www.npmjs.com/package/belkin-wemo-command-line-tools
 [48]:https://www.wired.com/2014/12/review-wemo-maker/
 [49]:http://hackaday.com/2015/11/17/belkin-wemo-teardown/
-

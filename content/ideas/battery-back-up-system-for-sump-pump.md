@@ -3,16 +3,13 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
-
 -----
 
-
-
+* Monitor Your Smart Plugs On The Command Line - [WattWise: Terminal-Based Power Monitoring Using Smart Plugs](https://www.naveen.ing/cli-for-smartplugs/)
 
 From: "Frank N. Pasquarello, Sr." <fpjazzman@verizon.net>
 Date: October 7, 2015 at 11:06:56 PM EDT
@@ -27,20 +24,18 @@ ordering online because most places want a battery core for replacement or
 the other thing is that the shipping is very expensive.  Amazon wants
 $175.00 shipping.
 
-
 Frank
 
-http://www.secamerica.com/products/backups/1622ps/
+<http://www.secamerica.com/products/backups/1622ps/>
 
-http://www.atbatt.com/trojan-t-1275-12v-deep-cycle-golf-cart-battery.asp
+<http://www.atbatt.com/trojan-t-1275-12v-deep-cycle-golf-cart-battery.asp>
 
-http://www.amazon.com/Trojan-T-1275-150Ah-Flooded-Battery/dp/B00NY7MI56
-
+<http://www.amazon.com/Trojan-T-1275-150Ah-Flooded-Battery/dp/B00NY7MI56>
 
 * [Pinging the Depths of a Rain Barrel](https://hackaday.com/2018/03/01/pinging-the-depths-of-a-rain-barrel/)
 
-
 # Inverter
+
 * [Inverters, How do they work?](https://www.youtube.com/watch?v=qVeERT4nyz8&feature=emb_rel_end)
 * [Power Inverters Explained](https://www.youtube.com/watch?v=iIqhAX0I7lI)
 
@@ -80,11 +75,9 @@ A [inverter][06] is an electronic device or circuitry
 that changes direct current (DC) to alternating current (AC).
 
 # Sensing Water Level
+
 * [Sump pump alert with Moteino & HC-SR04](https://lowpowerlab.com/2013/04/25/sump-pump-alert-with-moteino-hc-sr04/)
 * [SonarMote](https://lowpowerlab.com/guide/sonarmote/)
-
-
-
 
 [01]:https://en.wikipedia.org/wiki/Deep-cycle_battery
 [02]:https://en.wikipedia.org/wiki/Lead%E2%80%93acid_battery

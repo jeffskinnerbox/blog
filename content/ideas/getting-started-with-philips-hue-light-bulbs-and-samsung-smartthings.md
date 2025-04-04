@@ -3,20 +3,18 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
-
 -----
 
-
+* Monitor Your Smart Plugs On The Command Line - [WattWise: Terminal-Based Power Monitoring Using Smart Plugs](https://www.naveen.ing/cli-for-smartplugs/)
 
 * [CREATE CHEAP PHILIPS HUE COMPATIBLE DEVICES](http://hackaday.com/2017/03/01/create-cheap-philips-hue-compatible-devices/)
 
 * [The Best Smart Home Hub For You (2023)](https://hometechhacker.com/the-best-smart-home-hub-for-you-2022/)
-    * [Aeotec Smart Home Hub](https://www.amazon.com/dp/B08TWDNQ5Q)- Works as a SmartThings Hub, Z-Wave, Zigbee, Matter Gateway, Compatible with Alexa, Google Assistant, WiFi
+  * [Aeotec Smart Home Hub](https://www.amazon.com/dp/B08TWDNQ5Q)- Works as a SmartThings Hub, Z-Wave, Zigbee, Matter Gateway, Compatible with Alexa, Google Assistant, WiFi
 
 ----
 
@@ -25,7 +23,7 @@ Version:      0.0.0
 * [Part 2: Start Your DIY Smart Home - Smart Lighting + Home Automation + Amazon Echo](https://www.youtube.com/watch?v=e_2vb5IQ_y0)
 
 * [whereami](https://github.com/kootenpv/whereami)
-    * [wherearehue](https://github.com/DeastinY/wherearehue)
+  * [wherearehue](https://github.com/DeastinY/wherearehue)
 
 ----
 
@@ -47,14 +45,14 @@ and it can be a challenge to [understand the differences][14].
 The Hue Bridge also works with [non-Hue contollers][10] and [non-Hue light bulbs][18], such as:
 
 * non-Hum controllers
-    * [Google Home, Google Assistant, and Google OnHub][07]
-    * [Amazon Alexa][08]
-    * [If This Then That - IFTTT][09]
-    * [Logitech Harmony][11]
+  * [Google Home, Google Assistant, and Google OnHub][07]
+  * [Amazon Alexa][08]
+  * [If This Then That - IFTTT][09]
+  * [Logitech Harmony][11]
 * non-Hum light bulbs
-    * [GE Link][12]
-    * [Cree Connected][13]
-    * [Osram][15] appears to have some problems
+  * [GE Link][12]
+  * [Cree Connected][13]
+  * [Osram][15] appears to have some problems
 
 An even greater plus for Phillips Hue would be letting you
 control all of your ZigBee-based lights, regardless of their manufacturer.
@@ -77,17 +75,20 @@ You also find additional information at
 and ["Hue Tips"][35].
 
 # Open Source Alternative
+
 The [diyHue][83] project emulates a Philips Hue Bridge that is able to control ZigBee lights,
 Mi-Light bulbs, Neopixel strips and any cheap ESP8266 based bulbs.
 It is written in Python and will runs on the RaspberryPi.
 
 # Third Party LED Bulbs
+
 * [How to Add Third Party Smart Bulbs to Your Philips Hue System](https://www.howtogeek.com/216811/how-to-add-third-party-smart-bulbs-to-your-philips-hue-system/)
 * [Cree Connected LED Bulb](https://support.smartthings.com/hc/en-us/articles/204258280-Cree-Connected-LED-Bulb)
 * [PHILIPS HUE COMPATIBLE 3RD PARTY BULBS](https://huehomelighting.com/philips-hue-compatible-3rd-party-bulbs/)
 * [3rd Party Lights that Work with Hue](https://www.smarthomereviewer.com/3rd-party-lights-that-work-with-hue/)
 
 # Companion But Not Hue Bridge Compatible Device - Belkin WeMo
+
 There are [pros & cons of smart lights vs smart switches][43]
 but I think you may need both.
 The Phillips Hue product line doesn't offer a smart switch,
@@ -115,6 +116,7 @@ It claims to control nearly any low-voltage electronics device,
 like a garage door.
 
 # Initializing Your Hue Bridge and Bulbs
+
 Initializing the Hue Starter Kit is easy
 (instructions are posted [here][21]):
 
@@ -126,7 +128,7 @@ At this time, your likely to get an update for the Hue Bridge.
 The app sensed both bulbs in the kit, even when only one was powered.
 1. Thew phone app allows you to name the location of the bulbs,
 along with setting its status.
-1. Using the phone app, or via a browser at https://my.meethue.com/en-us/ ,
+1. Using the phone app, or via a browser at <https://my.meethue.com/en-us/> ,
 create a MyHue account.
 In your MyHue account, you can rename the bulbs, get access to network information,
 firmware versions, etc.
@@ -140,6 +142,7 @@ bridge they arrive with.
 If you buy additional bulbs, you need to use the procedure in the next section.
 
 # Adding Additional Hue Bulbs
+
 When you install a new Hue bulb you have to tell your Hue Bridge about it,
 so the bulb can join Hue Bridge Zigbee network.
 The procedure you use is:
@@ -158,7 +161,9 @@ If you have any difficulties, go to Hue Tips webpage
 ["How to Connect and Reconnect Hue bulbs"][65].
 
 # Hue Bridge Discovery
-Discovery broker for IoT devices - https://nupnp.com
+
+Discovery broker for IoT devices - <https://nupnp.com>
+
 * [UPnP, Vulnerability As A Feature That Just Won’t Die](https://hackaday.com/2019/01/14/upnp-vulnerability-as-a-feature-that-just-wont-die/)
 
 [There are several ways to discover a Hue bridge in a network][23].
@@ -188,6 +193,7 @@ The Touchlink option is currently only built into an IOS application,
 if you have an droid device you will have to use Lamp Finder on a PC or MAC.
 
 # API Access
+
 [Philips Hue provide considerable documentation on how to use the Hue APIs][18]
 and for building your own applications.
 (You'll also find some unoffical documentation [here][68].)
@@ -207,6 +213,7 @@ You will be given a username, which is used for all subsequent API calls.
 1. You may now place any API calls, using your username, against the Hue Bridge.
 
 ## API Access to Hue Bridge
+
 The Hue Bridge has a RESTful API interface,
 which behaves like a simple web service.
 Therefore, you can use all the standard tools useful for RESTful APIs, like [curl][67].
@@ -253,6 +260,7 @@ $ curl -s http://192.168.1.34/api/username/config | jq -C '.'
 Most queries require a username that has been posted in the bridges whitelist, but not for this command.
 
 ## Create a New User
+
 A hue resource web address will always start with the following
 RESTful root `http://<bridge IP address>/api`.
 In most of the commands (the exceptions being when you create a username)
@@ -373,6 +381,7 @@ $ curl -s -X DELETE  http://192.168.1.34/api/KXCmAVYhD-kyRZZf1gvj37TIjxaFBnZkv4j
 ```
 
 # Get Bridge Full Datastore
+
 This command is used to fetch the entire datastore from the device,
 including settings and state information for lights, groups, schedules and configuration.
 It should only be used sparingly as it is resource intensive for the bridge.
@@ -576,6 +585,7 @@ $ curl -s http://192.168.1.34/api/KXCmAVYhD-kyRZZf1gvj37TIjxaFBnZkv4jU0ItE | jq 
 ```
 
 ## API Access to Hue Bulbs
+
 The full datastore dump from above,
 we can now easily form queries for the individual bulbs:
 
@@ -652,6 +662,7 @@ $ curl -s -X PUT -d "{ \"bri\": 100 }" http://192.168.1.34/api/KXCmAVYhD-kyRZZf1
 ```
 
 # Hue React to External Events
+
 The Hue Bridge has the API hooks to react to external events,
 for example, your Hue bulbs flash if your garage door is opened.
 In fact, [Hue supports sensors and switches][25] like presences sensors and wall switches with this API.
@@ -690,10 +701,12 @@ $ curl -s http://192.168.1.34/api/KXCmAVYhD-kyRZZf1gvj37TIjxaFBnZkv4jU0ItE/rules
 ```
 
 # Zigbee OTA firmware updates
+
 * [Zigbee OTA firmware updates](https://support.smartthings.com/hc/en-us/articles/215394303-ZigBee-OTA-firmware-updates)
 
 # Hue Bridge Software Update
-* Is my Hub's firmware up to date? - https://support.smartthings.com/hc/en-us/articles/207316543-Is-my-Hub-s-firmware-up-to-date-
+
+* Is my Hub's firmware up to date? - <https://support.smartthings.com/hc/en-us/articles/207316543-Is-my-Hub-s-firmware-up-to-date->
 
 From your application it is possible to [update new firmware to your hue bridge][30].
 All the relevant parameters for updating the software
@@ -738,6 +751,7 @@ curl -s -X PUT -d "{\"swupdate\": {\"updatestate\":3}}" http://192.168.1.34/api/
 ```
 
 # Command-line Access to Hue Lights
+
 You could use the above `curl` commands or the hue mobile app
 to control Hue bulbs, but their are friendlier command-line tools.
 Two that I came accross are:
@@ -846,6 +860,7 @@ you are running the latest version 0.2.0
 ```
 
 # Connecting Philips Hue Lights to Amazon Echo
+
 One of the advertised features of the Phillips Hue Bridge (version 2 only)
 is that [Amazon Echo][36] [Alexa skills][51] have been developed for you to support a Smart Home.
 
@@ -894,20 +909,20 @@ With these task completed, I could speak to my Echo Alexa and command my office 
 * Alexa, set office to 20%
 * Alexa, set office lamps to 20%
 
-
-Hue Skills - https://www.amazon.com/Philips-Hue/dp/B01LWAGUG7/ref=sr_1_1?ie=UTF8&qid=1486953070&sr=8-1&keywords=hue+skills
-Alexa Support › Smart Home - https://www.amazon.com/gp/help/customer/display.html/ref=hp_bc_nav?ie=UTF8&nodeId=201749200
-How to Setup Hue with Amazon Alexa - http://huetips.com/tutorials/how-to-setup-hue-with-amazon-alexa/
-Alexa Hue - https://github.com/sarkonovich/Alexa-Hue
+Hue Skills - <https://www.amazon.com/Philips-Hue/dp/B01LWAGUG7/ref=sr_1_1?ie=UTF8&qid=1486953070&sr=8-1&keywords=hue+skills>
+Alexa Support › Smart Home - <https://www.amazon.com/gp/help/customer/display.html/ref=hp_bc_nav?ie=UTF8&nodeId=201749200>
+How to Setup Hue with Amazon Alexa - <http://huetips.com/tutorials/how-to-setup-hue-with-amazon-alexa/>
+Alexa Hue - <https://github.com/sarkonovich/Alexa-Hue>
 [Build your first custom skill in just 10 minutes](https://iot-for-all.com/alexa-whats-for-lunch-fb02062e54b9#.f11q7ts3k)
 
-http://www.tomsguide.com/us/connect-philips-hue-amazon-echo,review-3471.html
+<http://www.tomsguide.com/us/connect-philips-hue-amazon-echo,review-3471.html>
 
 ----
 
 **Samsung SmartThings**
 
 # Samsung SmartThings
+
 The [SmartThings Hub V2][69] is the brain for Samsung's wide range of smart devices and makes them work together.
 At the time of write this,
 there are [three generations of SmartThings hubs][70].
@@ -931,6 +946,7 @@ And in general, the apps instructions are crappy to non-existent.
 * [Samsung SmartThings still hasn’t earned my trust in the smart home](https://www.cnet.com/news/samsung-smartthings-still-hasnt-earned-my-trust-in-the-smart-home/)
 
 ## Direct Connected Devices SmartThings Platform
+
 Direct connected devices do not require a middle cloud or a hub.
 After flashing the firmware the device will use the SmartThings platform as its backend provider.
 Communication happens directly between the platform and the device over MQTT.
@@ -939,21 +955,26 @@ The SDK enables rapid development of these devices on a variety of low cost SOCs
 * [How to Build Direct Connected Devices](https://community.smartthings.com/t/how-to-build-direct-connected-devices/204055)
 
 ## SmartThings Developer Documentation
+
 * [SmartThings Developer Documentation](https://smartthings.developer.samsung.com/docs/index.html)
 
 ## SmartThings Edge Beta
+
 * [SmartThings Edge for Devices and Automations](https://developer.samsung.com/smartthings/blog/en-us/2021/08/19/new-smartthings-edge-for-devices-and-automations)
 * [SmartThings Edge Drivers](https://github.com/SmartThingsDevelopers/SampleDrivers)
 
 ### Sign-Up for SmartThings Accounts
+
 If you haven’t signed up for a Samsung Account,
 do so hear `https://account.samsung.com/membership/intro`.
 Also, sign up for the SmartThings Developer Portal here
 
 ### Generate a Personal Access Token
+
 Generate a personal access token for quick access to the SmartThings API
 
 ## Setup Samsung SmartThings Hub
+
 * [Samsung SmartThings first impressions and initial setup](https://rcmtech.wordpress.com/2015/10/13/samsung-smartthings-first-impressions-and-initial-setup/)
 * [How to Set Up and Use Your Samsung SmartThings System](https://www.makeuseof.com/tag/how-to-set-up-use-samsung-smartthings-system/)
 * [SmartThings Community](https://community.smartthings.com/)
@@ -963,6 +984,7 @@ Generate a personal access token for quick access to the SmartThings API
 * [SmartThings App](https://www.samsung.com/global/galaxy/apps/smartthings/)
 
 ### Step 1: Power Up Hub and SmartThing App
+
 Plug the hub into Ethernet port on your router and plug in the power cord.
 There should be nothing in the USB ports.
 Proceed to your mobile device and [download the SmartThings app][71] to continue the set up.
@@ -985,8 +1007,9 @@ I suspect it was somthing on Samsung's SmartThings Cloud that had to be cleared
 automatically to get me on.
 
 ### Step X: Connect and Configure New Devices
+
 You use this process to connect new ZigBee or Z-Wave devices to your SmartThings Hub.
-I followed the procedures [here][] https://support.smartthings.com/hc/en-us/articles/205956950-How-to-connect-and-configure-new-devices (using "SmartThings app" tab).
+I followed the procedures [here][] <https://support.smartthings.com/hc/en-us/articles/205956950-How-to-connect-and-configure-new-devices> (using "SmartThings app" tab).
 
 My first sensor was the [Fibaro System Flood Sensor][73],
 a Z-Wave water detector I [purchase on Amazon][74].
@@ -1012,6 +1035,7 @@ Reviews of the Fibaro System Flood Sensor and like products:
 * [Review of Shelly Flood. Will it save from flooding?](https://en.smartme.pl/shelly-flood-review-will-save-you-from-flooding/)
 
 ### Step X: Setup Samsung SmartThings Portals
+
 There are several websites your going to want access to,
 so log into the following and establish accounts (if not done already):
 
@@ -1021,16 +1045,21 @@ so log into the following and establish accounts (if not done already):
 * [SmartThings Groovy IDE](https://graph-na04-useast2.api.smartthings.com/)
 
 ### Step X: Edit Name of SmartThings Hub
-### Step X:
-### Step X:
+
+### Step X
+
+### Step X
 
 ## Samsung SmartThings Hub Vulnerabilities
+
 * [20 Samsung SmartThings Hub vulnerabilities jeopardized smart homes](https://www.digitaltrends.com/home/20-vulnernabilties-exposed-in-samsung-smartthings-hub/)
 
 # SmartThings REST API
+
 An active internet connection is always required to manually control your devices and Automations via the SmartThings mobile app. During an internet outage, the Hub will not be able to talk to the SmartThings cloud or mobile app; you will not be notified via the app of a local event until internet is restored.
 
 ## OAuth Integration
+
 [SmartThings uses OAuth2][84] for authentication.
 To integrate a third-party application with SmartThings,
 you must first [submit a request][85].
@@ -1063,10 +1092,12 @@ it could helpful to study these sources:
 * [Which OAuth 2.0 flow should I use?](https://auth0.com/docs/api-auth/which-oauth-flow-to-use)
 * [Understanding OAuth2 and Building a Basic Authorization Server of Your Own: A Beginner’s Guide](https://medium.com/google-cloud/understanding-oauth2-and-building-a-basic-authorization-server-of-your-own-a-beginners-guide-cf7451a16f66)
 
-# Step 0:
+# Step 0
+
 Start with reading the [SmartThings API (v1.0-PREVIEW)][88] documentation.
 
 # Step 1: Geneate Authorization Bearer Token
+
 All SmartThings resources are protected with OAuth 2.0 Bearer Tokens
 sent on the request as an `Authorization: Bearer <TOKEN>` header,
 and operations require specific OAuth scopes that specify the exact permissions authorized by the user.
@@ -1092,6 +1123,7 @@ If for some reason I wish to delete this token or generate a new token,
 return to the personal access tokens page `https://account.smartthings.com/tokens`.
 
 # Step 2: Retrieve App Credentials
+
 # Step 3: Retrieve App Access Token
 
 ```bash
@@ -1490,21 +1522,23 @@ curl -s -X GET -H "Content-Type: application/json" \
 * [SmartThings REST API](https://github.com/bradymholt/smartthings-rest-api)
 
 # Connecting Samsung SmartThings to Amazon Echo
+
 * [Connect Smart Home Devices to Your Echo with a Smart Home Hub](https://www.amazon.com/gp/help/customer/display.html?nodeId=G202189640&ref_=pe_2242090_353040100_SAP_AUCC_LR_HV_Trans_QSG_hub)
 
 # LANnouncer
+
 LANnouncer is a device driver for the Samsung SmartThings home automation hub, bringing audio alerts to the system through any connected Android device.
+
 * [LANnouncer](http://www.keybounce.com/lannouncer/)
 * [LANnouncer alerts in Home Assistant!!](https://www.youtube.com/watch?v=VMA9ZqgLNIA)
 
 # Bixby
+
 [Bixby](https://www.cnet.com/news/samsung-will-let-developers-make-apps-that-tap-into-bixby-add-more-languages-and-put-on-more-devices/)
 is Samsung's take on the pocket assistant, combining machine learning, voice assistance,
 visual help and more into an all-encompassing helper.
 
 * [Samsung Bixby: Everything you need to know!](https://www.androidcentral.com/bixby)
-
-
 
 [01]:http://www2.meethue.com/en-us/productdetail/philips-hue-white-sk-a19
 [02]:https://www.earthled.com/collections/a19-led-light-bulbs
