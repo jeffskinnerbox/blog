@@ -74,7 +74,27 @@ For example, they could be as short as the lifecycle of a CI/CD pipeline, or the
 Although Python applications can be made of a single file,
 usually they consist of a series of functions, objects (classes), handy tools and of course,
 variables spread across multiple file(s), placed inside modules.
-These modules together make up what is referred as a package.
+
+* Key Concepts
+  * **Modules:** Individual `.py` files containing functions, classes, and variables.
+  * **Packages:** Directories containing modules and an ``__init__.py`` file.
+  * **Libraries:** Collections of packages that provide a set of functionalities.
+  * **PyPI:** The Python Package Index, a repository of Python packages.
+  * **pip:** The package installer for Python, used to install and manage packages from PyPI.
+  * **Virtual Environments:** Isolated environments for Python projects, allowing different versions of packages to be used for different projects.
+* Creating a Package
+  * Create a directory for the package.
+  * Add Python files (modules) to the directory.
+  * Create an empty `__init__.py` file in the directory.
+  * Optionally, create subpackages (nested directories with their own `__init__.py` files).
+  * Create a `setup.py` or `pyproject.toml` file to define package metadata and dependencies.
+  * Build and distribute the package using tools like `setuptools` or `poetry`.
+* Installing and Using Packages
+  * Install `pip` if it's not already installed.
+  * Use `pip install package_name` to install a package from PyPI.
+  * Use `import package_name` or `from package_name import module_name` to use the package in your code.
+  * Manage packages using `pip list`, `pip show`, `pip upgrade`, and `pip uninstall`.
+  * Create virtual environments using `venv` or `conda` to isolate project dependencies.
 
 A Virtual Environment, oftern refered to as virtualenv,
 is an isolated working copy of Python which allows you to work on a specific project
@@ -174,7 +194,7 @@ and use Pip for package version management.
 
 Sources:
 
-* [Environments, Conda, Pip, aaaaah!: Managing Python environments without a headache](https://towardsdatascience.com/environments-conda-pip-aaaaah-d2503877884c)
+* [Enviroments, Conda, Pip, aaaaah!: Managing Python environments without a headache](https://towardsdatascience.com/environments-conda-pip-aaaaah-d2503877884c)
 
 # Installation of Your Python Environment - DONE
 
