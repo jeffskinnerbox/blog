@@ -31,9 +31,11 @@ Sources:
 * [ChatGPT Is Now a Search Engine](https://www.howtogeek.com/chatgpt-search-is-now-available/)
 
 # OpenAI WebRTC Realtime API
+
 * [The Unofficial Guide to OpenAI Realtime WebRTC API](https://webrtchacks.com/the-unofficial-guide-to-openai-realtime-webrtc-api/)
 
 # ChatGPT on Your SmartPhone
+
 * [How to Set ChatGPT as Your Default Voice Assistant on Android](https://www.howtogeek.com/set-chatgpt-default-voice-assistant-on-android/)
 
 # ChatGPT Models
@@ -241,6 +243,7 @@ Ollama is a streamlined tool for running open-source LLMs locally
 Olama is an offline AI that performs similarly to ChatGPT. Olama is designed to function entirely offline and locally, which implies you can engage in text-based conversations, share codes, photos or documents and receive an interactive responses without a grain of your data being compromised.
 
 * [Ollama](https://ollama.ai/)
+* [How to Run a ChatGPT-like AI on Your Own PC](https://www.howtogeek.com/881317/how-to-run-a-chatgpt-like-ai-on-your-own-pc/)
 
 Tutorial
 
@@ -398,8 +401,8 @@ It adds a native chat UI, magic commands to send prompts to ChatGPT, and generat
 # Gemini is Google's Answer to ChatGPT
 
 * [Google releases Gemini Code Assist, free for all developers](https://bdtechtalks.com/2025/02/27/google-gemini-code-assist/?utm_source=substack&utm_medium=email)
-    * [Get coding help from Gemini Code Assist — now for free](https://blog.google/technology/developers/gemini-code-assist-free/)
-    * [Gemini Code Assist for individuals at no cost](https://codeassist.google/products/individual)
+  * [Get coding help from Gemini Code Assist — now for free](https://blog.google/technology/developers/gemini-code-assist-free/)
+  * [Gemini Code Assist for individuals at no cost](https://codeassist.google/products/individual)
 * [Gemini's New Canvas Feature is The Ultimate Writing/Coding Buddy](https://www.howtogeek.com/gemini-new-canvas-feature/)
 * [Forget ChatGPT Canvas — I just tried Gemini Canvas and I'm floored by the difference](https://www.tomsguide.com/ai/forget-chatgpt-canvas-i-just-tried-gemini-canvas-and-im-floored-by-the-difference)
 * [Gemini Code Assist vs. GitHub Copilot: Which AI Coding Tool is Right for You?](https://medium.com/netpremacy-global-services/gemini-code-assist-vs-github-copilot-which-ai-coding-tool-is-right-for-you-be609716aef6)

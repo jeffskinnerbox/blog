@@ -120,6 +120,11 @@ A counterpoise is a conductor or system of conductors used an earth or ground su
 
 * [Is That An EMP Generator In Your Pocket Or Is My Calculator Just Broken?](https://hackaday.com/2021/06/17/is-that-an-emp-generator-in-your-pocket-or-is-my-calculator-just-broken/)
 
+# Flyback Transformer
+* [Pushing The Plasma Limits With A Custom Flyback Transformer](https://hackaday.com/2024/10/22/pushing-the-plasma-limits-with-a-custom-flyback-transformer/)
+    * [Custom Transformer Shatters All Voltage Records (ft. 3D Printing Nerd)](https://www.youtube.com/watch?v=DkhpuuPljS4)
+    * [Protecting Myself From Wildlife…With 280,000 Volts](https://www.youtube.com/watch?v=-Ng3fyUHoLA)
+
 
 
 
@@ -377,6 +382,7 @@ Voltage multipliers can be used to generate a few volts to millions of volts for
 * [Pour Yourself A Glass Of 100,000 Volts](https://hackaday.com/2020/08/05/pour-yourself-a-glass-of-100000-volts/)
 * [Lightning Generator Made Of Water (DIY Marx)](https://www.youtube.com/watch?v=WDfZFSay_1A&feature=youtu.be)
 * [Making 500,000 VOLT ARC with Marx Generator](https://www.youtube.com/watch?v=dje7uhyW23o&feature=youtu.be)
+* [Protecting Myself From Wildlife…With 280,000 Volts](https://www.youtube.com/watch?v=-Ng3fyUHoLA)
 
 
 ## Cockroft-Walton Multiplier
