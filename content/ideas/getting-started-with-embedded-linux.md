@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+     title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -70,6 +71,7 @@ Picolibc is library offering standard C library APIs that targets small embedded
 * [μClinux](https://en.wikipedia.org/wiki/%CE%9CClinux)
 * [Tiny Linux On A No-MMU RISC-V Microcontroller](https://hackaday.com/2023/10/11/tiny-linux-on-a-no-mmu-risc-v-microcontroller/)
     * [789 KB Linux Without MMU on RISC-V](https://popovicu.com/posts/789-kb-linux-without-mmu-riscv/)
+* [8 Pins For Linux](https://hackaday.com/2025/04/05/8-pins-for-linux/)
 
 ## X1501 Pico SoM
 * [X1501 Pico SoM – MIPS, Linux in a 16x16mm module](https://www.cnx-software.com/2022/06/06/x1501-pico-som-mips-linux-in-a-16x16mm-module/)
