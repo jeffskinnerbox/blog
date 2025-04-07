@@ -96,6 +96,7 @@ making Dimebots some of the smallest robots in the world.
 
 # Walking Robot
 
+* [Disney’s Bipedal, BDX-Series Droid Gets The DIY Treatment](https://hackaday.com/2025/04/05/disneys-bipedal-bdx-series-droid-gets-the-diy-treatment/)
 * [Tiny ESP32 Strider Walks The Walk](https://hackaday.com/2021/09/06/tiny-esp32-strider-walks-the-walk/)
 * [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
 * [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
