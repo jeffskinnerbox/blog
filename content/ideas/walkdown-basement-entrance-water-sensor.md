@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+     title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -29,6 +30,7 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 * [From Light to Insight: EdgeML powered by Indoor Solar Cells](https://www.hackster.io/507966/from-light-to-insight-edgeml-powered-by-indoor-solar-cells-df9cd3)
 
+* [Solar Power Manager](https://www.dfrobot.com/product-2000.html)
 * [Solar Powered WiFi Weather Station V1.0: 19 Steps](https://www.instructables.com/id/Solar-Powered-WiFi-Weather-Station/)
 * [Solar Wifi Weather Station (v2.0)](https://translate.google.com/translate?sl=auto&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=https%3A%2F%2Fwww.danilolarizza.com%2Fstazione-meteo-solare-wifi-v2-0%2F&edit-text=&act=url)
 * [Improved Outdoor Solar Harvester Now Handles All The Parts](https://hackaday.com/2019/11/19/improved-outdoor-solar-harvester-now-handles-all-the-parts/)
