@@ -547,6 +547,7 @@ Kalibrate-RTL
 * [TinySA Is A $49 Spectrum Analyzer](https://hackaday.com/2020/09/01/tinysa-is-a-49-spectrum-analyzer/)
 * [Product Review: The TinySA, A Shirt-Pocket Sized Spectrum Analyzer](https://hackaday.com/2020/11/09/product-review-the-tinysa-a-shirt-pocket-sized-spectrum-analyzer/)
 * [Pluto Spectrum Analyzer Uses Command Line](https://hackaday.com/2021/11/15/pluto-spectrum-analyzer-uses-command-line/)
+* [Pluto's Not A Planet, But It Is A Spectrum Analyzer](https://hackaday.com/2025/04/06/plutos-not-a-planet-but-it-is-a-spectrum-analyzer/)
 * [TRX-DUO is a Red Pitaya Clone for Software Defined Radio](https://www.youtube.com/watch?v=teks8v3u8F0)
 
 [HOW TO CALIBRATE RTL-SDR USING KALIBRATE-RTL ON LINUX][70]
