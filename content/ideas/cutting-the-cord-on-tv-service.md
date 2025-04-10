@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 -----
@@ -19,6 +20,12 @@ The answer to that question is surprisingly not clear.
 * [Cordcutting: My Journey To Cutting the Cable Cord](https://hometechhacker.com/cordcutting-cable-journey/)
 * [YouTube TV Review: Key Features And Limitations You Should Know](https://hometechhacker.com/youtube-tv-review/)
 * [Streaming Service Prices Increase: How to Find the Best Package](https://www.aarp.org/home-family/personal-technology/info-2022/streaming-services-need-to-know.html)
+
+## Home Theatre PC (HTPC)
+* [It’s Not Just Streaming Content, Your Smart TV Collects Data on Everything](https://www.howtogeek.com/its-not-just-streaming-content-your-smart-tv-collects-data-on-everything/)
+* [I Canceled All My Streaming Services and Rolled My Own, Here's How](https://www.howtogeek.com/i-canceled-my-streaming-services-and-rolled-my-own/)
+* [The Rise and Fall of the Home Theatre PC (HTPC)](https://www.howtogeek.com/the-rise-and-fall-of-the-home-theatre-pc/)
+* [How to Build an HTPC With Linux and a Mini PC](https://www.howtogeek.com/how-to-build-an-htpc-with-linux-and-a-mini-pc/)
 
 ## Your Next TV
 Your next TV will be a lot sharper. Referred to as “4K,” or sometimes ultra-high-definition TV (UHD TV), these televisions offer four times the resolution of a 1080p high-definition television (HDTV).
