@@ -1458,7 +1458,11 @@ that he came up with the special theory of relativity in 1905 which changed our 
 # Relativity
 
 * [General Relativity: How Einstein’s wrong ideas led to his greatest success](https://medium.com/the-infinite-universe/general-relativity-how-einsteins-wrong-ideas-led-to-his-greatest-success-dcfe085a417)
-
+* [The Biggest Misconception In Physics](https://www.youtube.com/watch?v=lcjdwSY2AzM)
+* [Differential Geometry is Impossible Without These 7 Things](https://www.youtube.com/watch?v=cd36dT3i-6A)
+* [Calculus without Coordinates! (Exploring the Exotic Exterior Derivative P.1)](https://www.youtube.com/watch?v=pOtgFhPgGTs)
+* [Calculus without Coordinates! (Exploring the Exotic Exterior Derivative P.2)](https://www.youtube.com/watch?v=yWvFoEOGpbE&t=364s)
+* [The derivative isn't what you think it is.](https://www.youtube.com/watch?v=2ptFnIj71SM)
 
 # Tensors
 
