@@ -811,6 +811,8 @@ I didn't bother with any of this.
 * [7 Real-World Applications of LiDAR Technology](https://www.dfrobot.com/blog-1644.html)
 * [What is the Open Source Framework for LiDAR?](https://www.dfrobot.com/blog-1647.html)
 * [FAQ about LiDAR](https://www.dfrobot.com/forum/topic/320253)
+* [A Pi-Based LiDAR Scanner](https://hackaday.com/2025/04/18/a-pi-based-lidar-scanner/)
+  * [GitHub: PiLiDAR/PiLiDAR](https://github.com/PiLiDAR/PiLiDAR)
 
 ---------------
 
