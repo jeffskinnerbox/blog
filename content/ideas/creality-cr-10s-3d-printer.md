@@ -37,6 +37,9 @@ Version:      0.0.0
 * [Never adjust your 3D Printer Z Offset again with Klipper and a plugin](https://www.youtube.com/watch?v=oQYHFecsTto)
 
 
+# Klipper vs Octoprint
+* [5 Octoprint alternatives you should be using](https://www.xda-developers.com/octoprint-alternatives-you-should-be-using/)
+
 # Klipper vs Marlin
 
 * [Klipper vs Marlin which one is right for you](https://www.youtube.com/watch?v=4cxgucVzjQg)
