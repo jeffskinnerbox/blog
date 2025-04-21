@@ -49,3 +49,7 @@ Build a complete LW, MW and SW (AM and SSB) radio with the SI4735 / SI4732 and A
 * [Si4735 SSB Receiver Controlled by Arduino](https://hackaday.io/project/170145-si4735-ssb-receiver-controlled-by-arduino)
 * [PU2CLR SI4735 Library for Arduino](https://github.com/pu2clr/SI4735)
 * [Mini SSB receiver ATS-25 (LW/MW/SW/FM)](https://www.youtube.com/watch?v=M6Hgx93mleA)
+
+# FM Transmitter
+* [Brush Up On Your Trade Craft With This Tiny FM Bug](https://hackaday.com/2025/04/11/brush-up-on-your-trade-craft-with-this-tiny-fm-bug/)
+  * [One Transistor FM Transmitter With 2N3904 - Spy Bug / Baby Monitor](https://www.youtube.com/watch?v=NxbeOI3g_Gc)
