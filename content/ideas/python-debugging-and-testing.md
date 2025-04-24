@@ -23,6 +23,14 @@ Version:      0.0.0
 * [Creating Great README Files for Your Python Projects](https://realpython.com/readme-python-project/)
 
 
+# Python IDLE
+Python IDLE is the default integrated development environment (IDE)
+that comes bundled with every Python installation,
+helping you to start coding right out of the box. 
+
+* [Getting Started With Python IDLE](https://realpython.com/python-idle/)
+
+
 # Python Development Environment / Dev Containerized Environment
 
 If you have more than one Python project,
