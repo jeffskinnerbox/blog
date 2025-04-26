@@ -259,6 +259,7 @@ working with built-in data types, processing iterables of data, handling input a
 ## Python Objects
 
 * Magic Methods
+    * [Please Master This MAGIC Python Feature...](https://www.youtube.com/watch?v=qqp6QN20CpE&t=23s)
     * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
     * [Python's Magic Methods in Classes](https://realpython.com/courses/magic-methods-classes/)
     * [Magic Methods: The Secret to Elegant Python Code](https://thenewstack.io/magic-methods-the-secret-to-elegant-python-code/)
