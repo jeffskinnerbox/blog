@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -238,6 +239,7 @@ A flyback transformer (FBT), also called a line output transformer (LOPT)
 was initially designed to generate high voltage sawtooth signals at a relatively high frequency.
 The flyback transformer circuit was invented as a means of controlling the horizontal movement of the electron beam in a cathode ray tube (CRT). Unlike conventional transformers, a flyback transformer is not fed with a signal of the same waveshape as the intended output current.
 
+* [Satisfy Your High-Voltage Urges With This Printable Flyback Transformer](https://hackaday.com/2025/04/13/satisfy-your-high-voltage-urges-with-this-printable-flyback-transformer/)
 * [DIY Plasma Physics Powersource (Mini 20,000v Flyback)](https://www.youtube.com/watch?v=qaGmNRZG-Yg&feature=youtu.be)
 * [A Guide to Flyback Transformers](https://www.coilcraft.com/en-us/edu/series/a-guide-to-flyback-transformers/)
 * [Flyback transformer tutorial: function and design](https://www.eetimes.com/flyback-transformer-tutorial-function-and-design/#)
