@@ -292,6 +292,8 @@ working with built-in data types, processing iterables of data, handling input a
     * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
 * Structural Pattern Matching
     * [Using Structural Pattern Matching in Python](https://realpython.com/courses/structural-pattern-matching/)
+* Copying of Python Objects
+    * [Shallow vs Deep Copying of Python Objects](https://realpython.com/python-copy/)
 
 
 # Python Type Checking
