@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
@@ -68,6 +69,10 @@ Piper is Open Source Text-to-Speech & Voice Cloning
 * [Voice style transfer with random CNN](https://github.com/mazzzystar/randomCNN-voice-transfer)
 
 ---------------
+
+# Real-Time Voice Agent 
+* [The Easiest Way to Create Real-Time AI Voice Agents](https://www.kdnuggets.com/the-easiest-way-to-create-real-time-ai-voice-agents)
+* [TEN-Framework: Voice AI Agent framework for building Conversational AI](https://theten.ai/)
 
 ---------------
 
