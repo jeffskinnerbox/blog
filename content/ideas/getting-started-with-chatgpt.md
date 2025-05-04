@@ -1,4 +1,17 @@
 
+<!--
+Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Version:      0.0.0
+-->
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+        title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+</div>
+
+---------------
+
+
 [ChatGPT][01], OpenAI’s text-generating AI chatbot,
 was launch in November 2022 and has been steadly evolving ever since
 (see evolutionary timeline [here][02].
@@ -24,6 +37,7 @@ which lets you apply custom instructions to multiple chats.
 
 Sources:
 
+* [Build a Python + ChatGPT-3.5 Chatbot in 10 Minutes](https://thenewstack.io/build-a-python-chatgpt-3-5-chatbot-in-10-minutes/)
 * [How to Make a Custom GPT Bot With the ChatGPT Plus Bot Builder](https://www.howtogeek.com/make-a-custom-gpt-bot-with-chatgpt-plus-bot-builder/)
 * [How to Create ChatGPT Personas for Every Occasion](https://www.howtogeek.com/881659/how-to-create-chatgpt-personas-for-every-occasion/)
 * [7 Reasons I Use ChatGPT for Search Instead of Google](https://www.howtogeek.com/reasons-i-use-chatgpt-for-search-instead-of-google/)
