@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -100,9 +101,16 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 * [Tulip is a Micropython Synth Workstation, in an ESP32](https://hackaday.com/2024/08/08/tulip-is-a-micropython-synth-workstation-in-an-esp32)
 
 
-## Sound Dubbing
+## Sound Dubbing / Dub Siren
+A dub siren is a type of synthesizer used predominantly in Dub.
+It is usually a relatively simple oscillator, housed in a box,
+often allowing for a variety of waveforms to be altered by turning potentiometers controlling pitch, rate and other parameters.
+Dub sirens are frequently activated by a button,
+sometimes able to be toggled between continuous synthesis with one button press,
+or sound emission only when the button is held.
 
 * [Classic Chip Line-Up Powers This Fun Dub Siren Synth](https://hackaday.com/2021/09/24/classic-chip-line-up-powers-this-fun-dub-siren-synth/)
+* [CircuitPython Synthio Tutorial](https://todbot.github.io/CircuitPython_Synthio_Tutorial/)
 
 
 # ADC and DAC
