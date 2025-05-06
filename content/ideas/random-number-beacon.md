@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
@@ -29,6 +30,7 @@ Can this clock be hacked so you can control its precision time source? - La Cros
 
 # Quantum Random Number Generator
 
+* [Quantum Random Number Generator Squirts Out Numbers Via MQTT](https://hackaday.com/2025/04/26/quantum-random-number-generator-squirts-out-numbers-via-mqtt/)
 * [Quantum Computer Generates Truly Random Number in Scientific First](https://www.sciencealert.com/quantum-computer-generates-truly-random-number-in-scientific-first)
 
 * [A true Quantum Random Number Generator](https://hackaday.io/project/180445-qrng)
