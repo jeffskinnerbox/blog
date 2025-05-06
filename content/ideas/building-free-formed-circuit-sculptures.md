@@ -42,9 +42,24 @@ Version:      0.0.0
 ## Circuit Sculpture Supplies
 
 * [Ultra-Formable 260 Brass - 1 Foot Long Rod, 1/32" Diameter](https://www.mcmaster.com/8859K481/)
+
+
+---------------
+
+
+# DIY Layout Creator
+DIYLC software for easy drawing PCB, vero and perfboard layouts
+
 * [How To Build Circuits On Stripboard or Veroboard](https://www.youtube.com/watch?v=GHtCEed583w)
+* [Design Circuits on Stripboard or Veroboard for FREE with DIY Layout Creator](https://www.youtube.com/watch?v=mzje3eHqi2E)
+* [Electronic Breadboard Circuit Design Tutorial With DIY Layout Creator](https://www.youtube.com/watch?v=HsvjIbQjvQs)
+* [DIY Layout Creator (DIYLC)](https://diy-fever.com/software/diylc/)
+  * [GitHub: bancika/diy-layout-creator](https://github.com/bancika/diy-layout-creator)
 
 * [433mhz RF Transmitter and Receiver Module Wireless 4 Channel Output](https://www.amazon.com/gp/product/B08SQDVY99/?th=1)
+
+
+---------------
 
 
 # Electronic Art / Sculpture
@@ -53,6 +68,9 @@ What if it took their picture or other action?
 
 * [This Dynamic Piece of Art Responds to Its Picture Being Taken](https://www.hackster.io/news/this-dynamic-piece-of-art-responds-to-its-picture-being-taken-fe22bf39e189)
 * [ARTWORK THAT KNOWS WHEN YOU ARE TAKING A PICTURE OF IT](https://taunoerik.art/2022/09/04/artwork-that-knows-when-you-are-taking-a-picture-of-it/)
+
+
+---------------
 
 
 # Jerk Circuit and Other Chaos
