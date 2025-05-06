@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -41,6 +42,8 @@ Version:      0.0.0
 ## Circuit Sculpture Supplies
 
 * [Ultra-Formable 260 Brass - 1 Foot Long Rod, 1/32" Diameter](https://www.mcmaster.com/8859K481/)
+* [How To Build Circuits On Stripboard or Veroboard](https://www.youtube.com/watch?v=GHtCEed583w)
+
 * [433mhz RF Transmitter and Receiver Module Wireless 4 Channel Output](https://www.amazon.com/gp/product/B08SQDVY99/?th=1)
 
 
