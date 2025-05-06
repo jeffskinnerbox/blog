@@ -85,6 +85,17 @@ A good remedy for this can be containerization of your Python development enviro
 
 * [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
 
+# Next-gen Python Tooling
+`uv` is a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.
+`ruff` can be used to replace Flake8 (plus dozens of plugins), Black, isort, pydocstyle, pyupgrade, autoflake, and more, all while executing tens or hundreds of times faster than any individual tool.
+
+* [Python, pip, pyenv, uv. Why do we need them?](https://www.youtube.com/watch?v=IYcTaZfjODg)
+* [UV and Ruff: Next-gen Python Tooling](https://www.youtube.com/watch?v=ifj-izwXKRA)
+* [Python Tutorial: UV - A Faster, All-in-One Package Manager to Replace Pip and Venv](https://www.youtube.com/watch?v=AMdG7IjgSPM)
+* [Managing Python Projects With uv: An All-in-One Solution](https://realpython.com/python-uv/)
+* [Next-gen Python Tooling](https://docs.astral.sh/)
+  * [uv](https://docs.astral.sh/uv/#uv)
+  * [Ruff](https://docs.astral.sh/ruff/#ruff)
 
 # Debugging Tools & Techniques
 
