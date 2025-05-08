@@ -334,6 +334,7 @@ which makes them pretty flexible and decoupled.
 * Performance Profiling
     * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
 * Logging
+    * [How to Use Loguru for Simpler Python Logging](https://realpython.com/python-loguru/)
     * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
     * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
     * [Eliot: Logging that tells you why it happened](https://eliot.readthedocs.io/en/stable/)
