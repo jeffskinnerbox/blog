@@ -349,10 +349,10 @@ quickemu --help
 quickget --help
 ```
 
-Here are some of trhe most basic options:
+Here are some of the most basic options:
 
 ```bash
-# run a specific vm by referancing its configuration file
+# run a specific vm by referencing its configuration file
 quickemu --vm <path/to/vm.conf>
 
 # run a specific vm with a spice display
@@ -562,7 +562,7 @@ Sources:
 
 * [Set Up a Samba Server on Ubuntu 24.04: Step-by-Step Guide for File Sharing](https://www.youtube.com/watch?v=2gW4rWhurUs)
 
-#### Step 7: Intialize & Test Samba Service With Guest Windows VM
+#### Step 7: Initialize & Test Samba Service With Guest Windows VM
 
 To connect to a Samba server from Windows 10,
 login to your Windows 10 guest VM and do the following:
