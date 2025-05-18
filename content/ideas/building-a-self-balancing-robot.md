@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -151,6 +152,7 @@ making Dimebots some of the smallest robots in the world.
 # Line Following Robot
 
 * [Line Following Robot Uses PID For Speed](https://hackaday.com/2021/09/18/line-following-robot-uses-pid-for-speed/)
+* [TinyEKF: Lightweight C/C++ Extended Kalman Filter with Python for prototyping](https://blog.adafruit.com/2025/05/14/tinyekf-lightweight-c-c-extended-kalman-filter-with-python-for-prototyping/)
 
 
 # Walking Hexapot Robot

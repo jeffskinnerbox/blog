@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -33,3 +34,4 @@ Version:      0.0.0
 * [DIY 3D-Printed Arduino Self-Balancing Cube](https://hackaday.com/2024/10/13/diy-3d-printed-arduino-self-balancing-cube/)
     * [Arduino 3D Printed self Balancing Cube](https://hackaday.io/project/198415-arduino-3d-printed-self-balancing-cube)
 
+* [TinyEKF: Lightweight C/C++ Extended Kalman Filter with Python for prototyping](https://blog.adafruit.com/2025/05/14/tinyekf-lightweight-c-c-extended-kalman-filter-with-python-for-prototyping/)
