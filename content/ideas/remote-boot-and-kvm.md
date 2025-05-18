@@ -5,12 +5,25 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
 ---------------
 
+
+A KVM enables users to remotely control a computer's keyboard, video, and mouse,
+allowing for remote administration and troubleshooting. 
+
+Use Cases:
+* Remote BIOS Settings: Adjust BIOS settings on a server from a remote location. 
+* OS Installation: Install a new operating system on a machine without physically connecting a monitor and keyboard. 
+* Remote Troubleshooting: Address boot failures and other issues remotely. 
+* Virtual Media: Mount virtual media (like ISO files) to a remote target computer. 
+
+JetKVM
+* [Why You Need This: The Jet KVM - Take Control of ANY PC!](https://www.youtube.com/watch?v=ZhruWAaHcgg)
 
 
 # NanoKVM
@@ -49,9 +62,11 @@ It handles boot failures, install new OSes, adjust BIOS settings or simply contr
 
 Conbine this with a [AC/DC Control Relay](https://dlidirect.com/products/iot-power-relay) to get a truly complete solution.
 
-On Feburay 7, 2025 I backed the KickStarter and Estimated delivery in March 2025.
+On Feburay 7, 2025 I backed the KickStarter and estimated delivery in March 2025.
+On April 29, 2025 the JetKVM arrived.
 
-How to self host the JetKVM Dloud feature - [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
+
+How to self host the JetKVM Cloud feature - [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
 
 * [JetKVM](https://jetkvm.com/)
 * [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
