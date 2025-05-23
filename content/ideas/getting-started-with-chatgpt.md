@@ -12,6 +12,13 @@ Version:      0.0.0
 ---------------
 
 
+* [When ChatGPT Broke an Entire Field: An Oral History](https://www.quantamagazine.org/when-chatgpt-broke-an-entire-field-an-oral-history-20250430/)
+
+
+
+
+
+
 [ChatGPT][01], OpenAI’s text-generating AI chatbot,
 was launch in November 2022 and has been steadly evolving ever since
 (see evolutionary timeline [here][02].
@@ -114,6 +121,7 @@ Sources:
   * [Run phi3.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15782.html?tracking=676d0b674d873)
   * [Run Qwen2.5 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15784.html?tracking=676d0b674d873)
   * [Run Gemma2 on Raspberry Pi 5 using Ollama](https://www.dfrobot.com/blog-15783.html?tracking=676d0b674d873)
+* [Microsoft's Phi4-Reasoning Model BLEW My Mind – It Runs on Anything From a Raspberry Pi Upwards!](https://www.youtube.com/watch?v=kbuObvYRnWc&t=57s)
 
 ---------------
 
