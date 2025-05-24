@@ -25,6 +25,8 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 
 * [SeitanClock - NTP clock based on ESP 12F (ESP8266)](https://github.com/Seitanas/SeitanClock)
 
+* [Create a Wireless NTP Server with ESP32 and GNSS (Wi-Fi & Ethernet)](https://www.youtube.com/watch?v=BGb2t5FT-zw)
+
 
 
 
