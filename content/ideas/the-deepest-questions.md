@@ -381,6 +381,8 @@ stumble toward answers to problems that are too complicated to solve exactly.
 ## What are number systems?
 
 * [What is a Number System?](https://web.ma.utexas.edu/users/mks/326K04/what.html)
+* [Every Number Set Explained](https://www.youtube.com/watch?v=RKvD3Jf5Xtk)
+* [Weird Number Sets Explained](https://www.youtube.com/watch?v=F0La_GsvsTs)
 * [Number Systems Invented to Solve the Hardest Problem - History of Rings | Ring Theory E0](https://www.youtube.com/watch?v=M-9_rZfVQVE)
 * [Straightedge and Compass Construction](https://en.wikipedia.org/wiki/Straightedge_and_compass_construction)
 
