@@ -5,11 +5,15 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
 ---------------
+
+
+* [Why Your Homelab Needs a Domain](https://www.howtogeek.com/why-your-homelab-needs-a-domain/)
 
 
 Zero Trust Architecture is the practice of designing systems based on the principle of never trust, always verify, as opposed to the traditional trust, but verify principle . It has become quite a popular buzz word of late, in light of all the recent successful cyber attacks, compromising vast amounts of user data.
