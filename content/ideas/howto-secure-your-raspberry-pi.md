@@ -101,11 +101,6 @@ This provides you a publicly accessible URL, that watch for calls on that URL,
 and then forwards those calls to your localhost server.
 You'll need to install some software
 
-################################################################################
-Up-and-coming reverse proxy is [Candy](https://caddyserver.com/)
-* [My Experience of Switching from NGINX to Caddy](https://medium.com/@torch2424/my-experience-of-switching-from-nginx-to-caddy-79bc8cd627c0)
-* [What Makes Caddy Different](https://caddyserver.com/blog/what-makes-caddy-different.html)
-################################################################################
 
 Now sign up to the ngrok public servier at `https://dashboard.ngrok.com/user/signup`.
 download ngrok, follow the [get strated page][114],

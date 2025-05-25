@@ -1718,16 +1718,6 @@ google-chrome http://127.0.0.1:8090/?action=stream
 * [NeoRouter](http://www.neorouter.com/products-nrfree)
 ################################################################################
 
-################################################################################
-Up-and-coming reverse proxy is [Candy](https://caddyserver.com/)
-* [My Experience of Switching from NGINX to Caddy](https://medium.com/@torch2424/my-experience-of-switching-from-nginx-to-caddy-79bc8cd627c0)
-* [What Makes Caddy Different](https://caddyserver.com/blog/what-makes-caddy-different.html)
-* [Setup Nginx as a reverse proxy](https://www.inpimation.com/setup-nginx-reverse-proxy/)
-* [nginx reverse proxy mopidy raspberry pi 2](https://www.inpimation.com/nginx-mopidy-raspberry-pi-2/)
-* [How To Develop a Node.js TCP Server Application using PM2 and Nginx on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-develop-a-node-js-tcp-server-application-using-pm2-and-nginx-on-ubuntu-16-04)
-################################################################################
-
-
 ## Step X: Streaming Camera to the Internet
 So far, using the Raspberry Pi camera module,
 I have streamed video on my local network

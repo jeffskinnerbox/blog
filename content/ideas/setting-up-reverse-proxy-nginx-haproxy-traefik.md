@@ -18,6 +18,17 @@ Version:      0.0.0
 * [What Is a Proxy Server and Should You Use One?](https://www.howtogeek.com/what-is-a-proxy-server-and-should-you-use-one/)
 * [How to set up a reverse proxy for your self-hosted apps](https://www.xda-developers.com/how-to-set-up-a-reverse-proxy-for-your-self-hosted-apps/)
 
+Up-and-coming reverse proxy is [Candy](https://caddyserver.com/)
+* [My Experience of Switching from NGINX to Caddy](https://medium.com/@torch2424/my-experience-of-switching-from-nginx-to-caddy-79bc8cd627c0)
+* [What Makes Caddy Different](https://caddyserver.com/blog/what-makes-caddy-different.html)
+* [Setup Nginx as a reverse proxy](https://www.inpimation.com/setup-nginx-reverse-proxy/)
+* [nginx reverse proxy mopidy raspberry pi 2](https://www.inpimation.com/nginx-mopidy-raspberry-pi-2/)
+* [How to NGINX Reverse Proxy with Docker Compose](https://dzone.com/articles/how-to-nginx-reverse-proxy-with-docker-compose)
+* [How To Develop a Node.js TCP Server Application using PM2 and Nginx on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-develop-a-node-js-tcp-server-application-using-pm2-and-nginx-on-ubuntu-16-04)
+* [I didn't know what all the fuss was about Caddy, so I took a look for myself](https://www.xda-developers.com/caddy-reverse-proxy-integrates-with-opnsense/)
+
+
+
 
 
 ehCo91x6GESrVvTtckjzbECgHUdEXO74tlnvTj8Z
