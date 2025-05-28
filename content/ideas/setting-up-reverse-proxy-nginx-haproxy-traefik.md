@@ -17,6 +17,12 @@ Version:      0.0.0
 
 * [Routing CloudFlare to your Proxy is AWESOME - Make sure you do THIS!](https://www.youtube.com/watch?v=TB2bnASgJV4)
 * [Better Than Cloudflare Tunnels? - Pangolin Guide](https://www.youtube.com/watch?v=8VdwOL7nYkY)
+* [Pangolin: Your Own Self-Hosted Cloudflare Tunnel Alternative](https://www.youtube.com/watch?v=a-a-Xk1hXBQ)
+
+
+
+
+
 
 
 
