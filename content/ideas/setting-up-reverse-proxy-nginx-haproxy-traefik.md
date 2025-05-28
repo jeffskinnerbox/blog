@@ -15,6 +15,11 @@ Version:      0.0.0
 
 
 
+* [Routing CloudFlare to your Proxy is AWESOME - Make sure you do THIS!](https://www.youtube.com/watch?v=TB2bnASgJV4)
+* [Better Than Cloudflare Tunnels? - Pangolin Guide](https://www.youtube.com/watch?v=8VdwOL7nYkY)
+
+
+
 * [What Is a Proxy Server and Should You Use One?](https://www.howtogeek.com/what-is-a-proxy-server-and-should-you-use-one/)
 * [How to set up a reverse proxy for your self-hosted apps](https://www.xda-developers.com/how-to-set-up-a-reverse-proxy-for-your-self-hosted-apps/)
 
