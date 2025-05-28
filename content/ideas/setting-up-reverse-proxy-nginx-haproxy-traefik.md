@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 
+* [Cloudflare Tunnels - Improving Security & Convenience]
 * [Routing CloudFlare to your Proxy is AWESOME - Make sure you do THIS!](https://www.youtube.com/watch?v=TB2bnASgJV4)
 * [Better Than Cloudflare Tunnels? - Pangolin Guide](https://www.youtube.com/watch?v=8VdwOL7nYkY)
 * [Pangolin: Your Own Self-Hosted Cloudflare Tunnel Alternative](https://www.youtube.com/watch?v=a-a-Xk1hXBQ)
@@ -73,6 +74,7 @@ Home Router
                                                                      Bitwarden
                                                    port 8080 -->     port 80                 Admin UI
                                                    port 3012 -->     port 3012               websocket traffic
+
 
                                                                      Authelia
 
@@ -800,7 +802,6 @@ Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.
 [61]:https://www.bluehost.com/resources/how-to-add-https-to-your-domain-and-install-an-ssl-certificate-to-protect-your-customers
 [62]:https://www.digicert.com/what-is-an-ssl-certificate
 [63]:https://www.ssl.com/faqs/what-is-a-certificate-authority/[64]:
-[65]:https://letsencrypt.org/
 [66]:https://www.keyfactor.com/blog/what-is-acme-protocol-and-how-does-it-work/
 [67]:https://aboutssl.org/what-is-domain-validated-ssl-certificate/
 [68]:https://certbot.eff.org/
