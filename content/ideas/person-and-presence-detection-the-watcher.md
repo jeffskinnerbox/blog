@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -265,7 +266,8 @@ a touch screen display, and ChatGPT.
 
 # Radar Sensor
 
-* [ESP32 + Rd-03D: mmWave Radar Multi-Human Tracking with Distance, Speed & Positioning!](https://www.youtube.com/watch?v=cSI9vedf870)
+* [Radar-Based Home Security System Using RD-03D and ESP32-C6](https://www.hackster.io/tech_nickk/radar-based-home-security-system-using-rd-03d-and-esp32-c6-72fd6e)
+    * [ESP32 + Rd-03D: mmWave Radar Multi-Human Tracking with Distance, Speed & Positioning!](https://www.youtube.com/watch?v=cSI9vedf870)
     * [Rd-03D mmWave Radar: Multi-Human Tracking with Distance, Speed & Positioning](https://www.electroniclinic.com/rd-03d-mmwave-radar-multi-human-tracking-with-distance-speed-positioning/#google_vignette)
 * [Best mmWave Presence Sensors for Home Assistant!](https://www.youtube.com/watch?v=Kt1FpRM8R18&t=2239s)
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
