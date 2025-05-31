@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -206,6 +207,10 @@ Oscilloscope Sample Rate
 ---------------
 
 
+
+# Oscilloscope Measurements Below The Noise Floor
+Finding hidden signals below the noise floor may be a challenge, but it needn’t be an insurmountable one.
+* [Supercon 2024: Using An Oscilloscope To Peek Below The Noise Floor](https://hackaday.com/2025/05/28/supercon-2024-using-an-oscilloscope-to-peek-below-the-noise-floor/)
 
 # Noise and EMI
 
