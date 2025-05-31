@@ -161,6 +161,9 @@ sudo systemctl status ssh
 sudo apt install ufw
 sudo ufw allow ssh
 sudo ufw enable
+
+# verify firewall configuration
+sudo ufw status
 ```
 
 #### Step 2: Install Some Basic Networking Tools - DONE
@@ -282,6 +285,8 @@ wslinfo --networking-mode
 
 # check the ip address of the wsl ubuntu, should output same ip address as the Window PC (192.168.1.155/24)
 ip address | grep eth0
+#OR
+ip address | grep eth1
 
 # finding IPs and identifying devices on your network, you should see everything on your lan
 sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
@@ -297,29 +302,54 @@ and that is you can't yet reach the WSL Ubuntu from any of the devices on the LA
 This can be seen from via the `ping 192.168.1.155`.
 Let fix this next.
 
-#### Step 3: Open Windows PC Firewall 
-**** Work in Progress **** Work in Progress **** Work in Progress **** Work in Progress ****
-
+#### Step 3: Open Windows PC Firewall - DONE
 We need to ensure that your Windows PC firewall (or any third-party firewall)
 is configured to allow incoming and outgoing connections
 for the services running in the WSL Ubuntu instance.
-Since WSL Ubuntu shares the host's IP, you'll need to manage firewall rules on the Windows side.
-In our case, we need to open port 22 for SSH services.
+Since WSL Ubuntu shares the host's IP, you'll need to manage firewall rules on both the Ubuntu and the Windows side.
+We addressed Ubuntu in the earlier step.
+Now we need to open port 22 for SSH services within Windows.
 
-```powershell 
-# in powershell, check the status of the port used by ssh (port 22)
+To do this, follow the procedure give in the video ["How to add a rule or port to a Windows 11 firewall"][10].
+You'll need to establish a inbound firewall rule for port 22
+(I could also create an outbound rule, but I did not).
+I applied the rule to, any IP address/users/services, all Profiles (Domain, Private, and Public),and **very importantly**,
+set the Action to "Allow all connections" and set the rule to "Allow edge traversal".
+Allowing all connections means it doesn't have to be a secure connection,
+and edge traversal allows NAT'ed unsolicited inbound packets.
+
+To test that your firewall is set properly, connect to the WSL Ubuntu instance on the Windows 11 PC 
+from an entirely seperate Linux box on your local network like this:
+
+```bash
+# from a separate linux box, login to the wsl ubuntu instance successfully with
+ssh jeff@192.168.1.155
 ```
 
+>**NOTE:** If you kill the WSL Ubuntu instance on Windows 11, you will no longer be able to SSH into Windows 11 or Ubuntu.
+>SSH is being established by the Ubuntu environment and not Windows 11.
+
 Sources:
-* [How to add a rule or port to a Windows 11 firewall](https://www.youtube.com/watch?v=GBUVyu69Qsk)
+* [How to add a rule or port to a Windows 11 firewall][10]
 * Gemini Prompt: I have successfully install WLS2 and Ubuntu 24.0 on a Windows 11 PC. I have successfully established Mirrored mode networking in WSL2 so that the Ubuntu instance is can communicate with other systems on my LAN. I now want to other systems on my LAN to communicate with my WSL Ubuntu instance via ssh. How can I do this?
+
+#### Step 4: Remote the X Application from WSL Ubuntu - DONE, NOT
+**** Work in Progress **** Work in Progress **** Work in Progress **** Work in Progress ****
+
+It appears that to remove the display of a X Window application running on WSL Ubuntu,
+you must install a X Server to handle the remote requests.
+It appears the integration of GWSL into the WLS install process only works when displaying on the Windows 11 display.
+
+Sources:
+* Gemini Prompt: I have Ubuntu running in WSL on Windows 11 and I can successfully SSH into the Ubuntu instance via SSH from a separate Ubuntu box on my LAN. I attempted to execute a X Window application from the separate Ubuntu box via "ssh -X" but nothing was displayed. What have I missed?
+* Gemini Prompt: Why do I need to install an X server? Doesn't WLS provide this functionality via GWSL?
+* Gemini Prompt: For the latest installation procedure for WSL, do I still have to manually install GWSL as an additional step?
+
 
 ---------------
 
 
-# Multicast DNS (mDNS)
-**** Work in Progress **** Work in Progress **** Work in Progress **** Work in Progress ****
-
+# Multicast DNS (mDNS) - DONE
 To make our WSL discoverable on a private network via the command `ssh login@hostname.local`,
 you need to ensure that your system can resolve `hostname.local`
 to the correct IP address of the target machine within your local network. 
@@ -348,43 +378,46 @@ Sources:
 ---------------
 
 
-# WSL Ubuntu GUI Desktop 
+# Access Windows 11 desktop From Ubuntu - DONE
 **** Work in Progress **** Work in Progress **** Work in Progress **** Work in Progress ****
 
-Limitations ...
-You cannot do a Windows Remote Desktop Connection directly to a Linux desktop environment.
-You need Windows 11 Pro to remote into Windows Home.
+To access a Windows 11 desktop from Ubuntu 24.04,
+you'll need to use the [Remote Desktop Protocol (RDP)][12].
+This requires enabling Remote Desktop on Windows 11
+and then connecting to it from your Ubuntu machine using a client like [Remmina][11] or [FreeRDP][13]. 
 
-Remote Desktop Protocol (RDP) is designed for connecting to Windows machines, not Linux.
-To access a Linux desktop remotely from Windows,
-you need to use a different protocol like VNC or xrdp (X Remote Desktop Protocol). 
+Sources:
+* [Access Windows 11 from Linux – Step-by-Step Remote Access Tutorial!](https://www.youtube.com/watch?v=fJCbn8aM3oU)
 
-Windows 11 Remote Desktop Connection
+## Prepare Windows 11 for Remote Desktop - DONE
+To enable Remote Desktop on Windows 11:
 
-## Using VNC
-* [How to Install a GUI on Ubuntu Server](https://www.youtube.com/watch?v=ODhGNe0s4lI)
+1. Open the Windows **Settings** app.
+2. Go to **System** > **Remote Desktop** and toggle the switch to turn it `On`.  Remote Desktop port is set to `3389`.
+3. You'll need to confirm the change by clicking the **Confirm** button. This allows you to connect to and access your Windows 11 PC remotely. 
 
-## Using Ubuntu GUI Within WSL
-* [How To Install Ubuntu 24.04 On Windows 11 Using WSL With GUI (NEW GUIDE)](https://www.youtube.com/watch?v=iXAWNVgOUrw)
-* [How to Install a Linux Desktop and GUI on Windows Subsystem for Linux - WSL in Windows](https://www.youtube.com/watch?v=EBRxSYv0ojg)
-
-## Apache Guacamole
-* [Secure Remote Access to SSH & RDP From Your Browser](https://www.youtube.com/watch?v=GX53C80c05k)
-
-## Rustdesk
-* [Rustdesk](https://rustdesk.com/)
-* [Your Remote Desktop SUCKS!! Try this instead (FREE + Open Source)](https://www.youtube.com/watch?v=EXL8mMUXs88)
-* [Open Source Self Hosted Teamviewer Replacement](https://www.youtube.com/watch?v=FIEcTNjFZNA)
-
-## Connect to Window 11 From Ubuntu
-[Connect to Windows 11 from Ubuntu Linux using RDP](https://www.youtube.com/watch?v=fH1QSCwl0qY)
-
-On your Ubuntu system, do the following:
+To validate all is well, open a Command Prompt terminal and execute the following:
 
 ```bash
-# update your software
-sudo apt update
+# list all ports listing, if port is 'listening' then it is open
+netstat -a -o
 
+# get the IP address of your box
+ipconfig
+```
+
+Look for an entry with TCP and port 3389.
+If the status is "Listening" and there's a process ID (PID), the port is open.
+If you don't see an entry, the port is likely closed. 
+
+Make note of the IP address of your Windows 11 machine, you'll need it later.
+
+## Prepare Ubuntu for Remmina Use - DONE
+You simple need to install Remmina on Ubuntu.
+To do this, open the Ubuntu Software Center (at top left corner of screen), search for **Remmina**, and install it via Snap. 
+Better yet, you can install Remmina using this method:
+
+```bash
 # install your remote desktop client gui application
 sudo apt install remmina 
 
@@ -392,16 +425,46 @@ sudo apt install remmina
 sudo apt install remmina-plugin-rdp
 ```
 
-## Connect to Ubuntu From Windows 11
-* [WSL2 Ubuntu GUI](https://www.youtube.com/watch?v=IL7Jd9rjgrM)
-* [How to install a desktop environment on Windows Subsystem for Linux (WSL with GUI)](https://www.youtube.com/watch?v=Ijw1Av9xrwY)
+With the install done, execute Remmina and set up your first connection to your Windows 11 with the steps below:
+
+1. Open Remmina.
+2. Click the **+** icon to add a new profile.
+3. Select **RDP** as the protocol.
+4. Enter the IP address of your Windows 11 machine in the **Server** field.
+5. Enter your Microsoft username and password.
+6. Set your Resolution to **Use initial window size**, Network connection type to **Auto-detect**.
+7. Click **Connect** 
+
+Sources:
+* [Remote Desktop from Ubuntu to Windows](https://www.youtube.com/watch?v=x6MbzH4CWXU)
+
+## Prepare Ubuntu for FreeRDP Use - DONE
+FreeRDP's `xfreerdp` is an X11 Remote Desktop Protocol (RDP) client which is part of the FreeRDP project.
+An RDP server is built-in to most editions of Microsoft Windows and the `xfreerdp` command line tool will make the connection. 
+The basic command structure is `xfreerdp /u:<username> /p:<password> /v:<ip_address>`. 
+
+Install the FreeRDP packages required:
+
+```bash
+# install rdp on ubuntu
+sudo apt install freerdp2-x11 freerdp2-wayland
+```
+
+To use the FreeRDP command line tool:
+
+```bash
+# to get some help integration
+
+# freerdp commandline
+xfreerdp /u:jeff.irland@verizon.net /p:xXt6ttYUzZRrfQ3 /v:192.168.1.155 /size:1600x900
+```
 
 
 ---------------
 
 
 # WSL Commands to Manage Linux Virtual Machines
-Below are some useful `wsl` commands, that you execute in a PowerShell terminal.
+Below are some useful `wsl` commands, that you execute in a PowerShell terminal:
 
 ```bash 
 # update wsl to the latest version
@@ -430,14 +493,51 @@ wsl --shutdown
 ```
 
 
+# UFW Commands to Manage Linux
+Below are some useful `ufw` commands, that you execute in a Bash terminal:
+
+```bash 
+# activates the firewall, and it will start automatically when the system boots
+sudo ufw enable
+
+# disables the firewall
+sudo ufw disable
+
+# displays the current firewall status, including whether it's active and the default policies for incoming and outgoing traffic
+sudo ufw status
+
+# provides a more detailed view of the firewall status, including a list of active rules 
+sudo ufw status verbose
+
+#  sets the default policy for incoming traffic to deny (block) all connections
+sudo ufw default deny incoming
+
+# sets the default policy for outgoing traffic to allow
+sudo ufw default allow outgoing
+
+# sets the default policy for outgoing traffic to deny
+sudo ufw default deny outgoing
+```
+
+Sources:
+* [How to Set Up a Firewall with UFW on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu)
+* [UFW Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
+
+
 
 [01]:https://learn.microsoft.com/en-us/windows/wsl/about
 [02]:https://opticos.github.io/gwsl/
-[03]:https://www.x.org/archive/X11R7.6/doc/man/man1/Xserver.1.xhtml
+[03]:https://www.x.org/archive/x11r7.6/doc/man/man1/xserver.1.xhtml
 [04]:https://www.x.org/wiki/
-[05]:https://www.x.org/releases/X11R7.7/doc/xproto/x11protocol.html
-[06]:https://www.youtube.com/watch?v=vH2rJs-9ntk
+[05]:https://www.x.org/releases/x11r7.7/doc/xproto/x11protocol.html
+[06]:https://www.youtube.com/watch?v=vh2rjs-9ntk
 [07]:https://docs.ros.org/en/jazzy/index.html
 [08]:https://www.gmktec.com/products/intel-alder-lake-n97-mini-pc-nucbox-g5
-[09]:https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-US&gl=US
+[09]:https://apps.microsoft.com/detail/9nl6kd1h33v3?hl=en-us&gl=us
+[10]:https://www.youtube.com/watch?v=gbuvyu69qsk
+[11]:https://remmina.org/
+[12]:https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c
+[13]:https://www.freerdp.com/
+
+
 
