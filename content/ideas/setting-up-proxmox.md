@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
@@ -52,6 +53,7 @@ Version:      0.0.0
 * [Docker on Proxmox LXC 🚀 Zero Bloat and Pure Performance!](https://www.youtube.com/watch?v=-ZSQdJ62r-Q)
 * [Software-Defined Network (SDN) Setup in Proxmox](https://www.youtube.com/watch?v=gYSxGCiLeto)
 * [The correct way to install Docker in Proxmox using a unique feature LXC Containers](https://www.youtube.com/watch?v=s_rm8mpSGcY)
+* [3 reasons I use VMs and Docker rather than Proxmox LXCs](https://www.xda-developers.com/reasons-use-vms-docker-rather-than-proxmox-lxcs/)
 
 # Proxmox
 
