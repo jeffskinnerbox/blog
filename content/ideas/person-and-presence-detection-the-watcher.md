@@ -223,6 +223,12 @@ a touch screen display, and ChatGPT.
 * [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
 
 
+# AI Generated Speech-to-Speech
+Realtime AI Speech powered by OpenAI Realtime API, ESP32, Secure WebSockets,
+and Deno Edge Functions for >10-minute uninterrupted global conversations
+
+* [ElatoAI: Realtime Speech AI Agents for ESP32](https://github.com/akdeb/ElatoAI)
+
 # AI Generated Text to Speech
 
 * [Coqui TTS](https://github.com/coqui-ai/TTS)
