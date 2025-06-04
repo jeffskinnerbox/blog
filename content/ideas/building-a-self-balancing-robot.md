@@ -71,6 +71,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Six Wheels Mars Rover](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
 * [Sonic The Hedgehog Self-Balancing Robot Can Bend At The Knees](https://hackaday.com/2020/01/31/sonic-the-hedgehog-self-balancing-robot-can-bend-at-the-knees/)
 * [Sonic The Self-Balancing Robot: Face-Plants And The Challenges Of Sensor Integration](https://hackaday.com/2020/02/26/sonic-the-self-balancing-robot-face-plants-and-the-challenges-of-sensor-integration/)
+* [3D Printed DIY Remote Controlled Tank With Operational Gun](https://hackaday.com/2025/06/03/3d-printed-tank-has-a-cannon-to-boot/)
 * [Autonomous 3D Rover With Tank Tracks Rules The Fields. Almost](https://hackaday.com/2020/04/02/autonomous3d-rover-with-tank-tracks-rules-the-fields-almost/)
 * [Scratch Built Tracked Robot Reporting For Duty](https://hackaday.com/2021/06/17/scratch-built-tracked-robot-reporting-for-duty/)
 * [OpenBot - Open Source Self-Driving Smartphone Robot](https://hackaday.com/2020/11/06/open-source-self-driving-smartphone-robot/)
