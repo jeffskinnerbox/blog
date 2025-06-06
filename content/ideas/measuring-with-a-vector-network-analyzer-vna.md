@@ -16,6 +16,7 @@ Version:      0.0.0
 * [DIY VNA CALIBRATION STANDARDS](https://jmw.name/projects/vna-standards/)
 
 * [Vector Network Analyzer Demo And Teardown](https://hackaday.com/2023/10/18/vector-network-analyzer-demo-and-teardown/)
+* [Turning the Pluto SDR into a Network Analyzer](https://hackaday.com/2025/06/05/turning-the-pluto-sdr-into-a-network-analyzer/)
 
 
 * [NanoVNA SAA2 Version 2 Vector Network Analyzer - Ham Radio Antenna Analyzer](https://www.youtube.com/watch?v=4pAuEQl4uoM)
