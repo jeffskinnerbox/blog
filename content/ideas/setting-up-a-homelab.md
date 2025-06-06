@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -13,6 +14,19 @@ Version:      0.0.0
 ---------------
 
 
+
+
+
+
+
+* [The home lab boom and what it really represents](https://www.xda-developers.com/homelab-boom-what-represents/)
+What defines a home lab?
+It’s not the hardware, it’s the intent.
+A home server plays a key role — even if it's just a Plex box, a NAS, maybe where you backup your photos.
+But it also matters if that system stays static or if it evolves.
+Curiosity and experimentation lead to change, and if a setup is just utilitarian, not many would consider it a home lab.
+In this context, self-education and experimentation aren’t optional — they're the defining trait.
+You don’t need to be a professional sysadmin, but you do need to be the kind of person who wants to learn how things work. 
 
 
 
