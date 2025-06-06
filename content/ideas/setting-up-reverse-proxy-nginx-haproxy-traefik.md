@@ -13,6 +13,30 @@ Version:      0.0.0
 ---------------
 
 
+Authelia is an open-source authentication and authorization server and portal fulfilling the identity and access management (IAM) role of information security in providing multi-factor authentication and single sign-on (SSO) for your applications via a web portal. Authelia is an OpenID Connect 1.0 Provider which is OpenID Certified™ allowing comprehensive integrations, and acts as a companion for common reverse proxies.
+
+Authentik is an open-source identity provider (IdP) that allows users to self-host user authentication, single sign-on (SSO), and access controls for their applications and services. It acts as a central authentication hub, enabling users to manage user credentials, access permissions, and various authentication protocols in a flexible and customizable way. 
+
+[Authentik Vs Authelia | Best Self-Hosted Open Source Identity Provider in 2025? (FULL REVIEW!)](https://www.youtube.com/watch?v=nMHK_rCqDJs)
+[Authentik Vs Keycloak Vs Authelia | Best Authentication Tool In 2025? (WHICH IS BETTER?)](https://www.youtube.com/watch?v=a5-br58rm3c)
+[Replace Authelia With Authentik Web Proxies And OAuth2](https://www.youtube.com/watch?v=1bTSOdYiIOQ)
+
+authentication
+[multi-factor authentication](https://www.authelia.com/overview/authentication/introduction/)
+[authorization (aka access control)](https://www.authelia.com/overview/authorization/access-control/)
+[common reverse proxies](https://www.authelia.com/overview/prologue/supported-proxies/)
+Identity and Access Management (IAM)
+[Certificate Authority (CA)](https://www.digitalocean.com/community/tutorial-collections/how-to-set-up-and-configure-a-certificate-authority-ca)
+[OpenID Certified™](https://www.authelia.com/integration/openid-connect/introduction/#openid-certified)
+
+[Simple Self-Hosted Security with Authelia](https://www.youtube.com/watch?v=-9Psb0ztMuI)
+[Authelia + Traefik Setup Guide](https://www.authelia.com/blog/authelia--traefik-setup-guide/)
+
+[Cloudflare Tunnels - Improving Security & Convenience](https://www.youtube.com/watch?v=U8hUNw2E1ZM)
+
+[Recommended Security Measures to Protect Your Servers](https://www.digitalocean.com/community/tutorials/recommended-security-measures-to-protect-your-servers)
+
+
 
 
 * [Cloudflare Tunnels - Improving Security & Convenience]

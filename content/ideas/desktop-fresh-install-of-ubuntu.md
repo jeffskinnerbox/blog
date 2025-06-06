@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
@@ -147,10 +148,10 @@ sudo visudo
 
 ---------------
 
-# Install Your Favorate Tools
+# Install Your Favorite Tools
 
-As I work throught this installation process,
-I'm going to want to use all my firmular tools,
+As I worked thought this installation process,
+I'm going to want to use all my familiar tools,
 tools like Gnome Terminal, Curl, Chrome browser, NeoVim, etc.
 Lets get these installed.
 
@@ -164,7 +165,7 @@ sudo apt -y install trash-cli gnome-terminal git jq vim tmux wmctrl curl stow xc
 sudo apt -y install net-tools nmap traceroute arp-scan netdiscover
 
 # packages which let apt get packages over HTTPS
-sudo apt -y install apt-trans port-https ca-certificates curl software-properties-common
+sudo apt -y install apt-transport-https ca-certificates curl software-properties-common
 
 # install packages for for creation of raid
 sudo apt -y install smartmontools mdadm
@@ -201,7 +202,7 @@ sudo apt install hwinfo
 #sudo apt-get install qemu-kvm virt-viewer
 ```
 
-You can't use Virtualbox alongside KVM,
+You can't use VirtualBox alongside KVM,
 choose one or the other, since they hypervisors fight over control.
 you can temporally disable KVM or VirtualBox modules and then re-enable them when you want.
 
@@ -227,8 +228,8 @@ sudo rmmod kvm-intel kvm
 
 #### Step 2: Install Your `.dotfiles` - DONE
 
-Within my GitHub, I maintain my dotfiles and the mainteance tool that I use is `stow`.
-Let's pull down the latest `.dotfiles` reposaitory and an install anything required:
+Within my GitHub, I maintain my dotfiles and the maintenance tool that I use is `stow`.
+Let's pull down the latest `.dotfiles` repository and an install anything required:
 
 ```bash
 # make sure you have install your version of the .dotfiles

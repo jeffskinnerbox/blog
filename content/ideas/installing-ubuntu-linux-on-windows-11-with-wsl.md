@@ -36,7 +36,7 @@ Basically, it does a lot of stuff you expect of an X Server but makes it easier!
 * It provides a simple UI for launching Linux apps, managing them graphical, and creating customized Windows shortcuts for them.
 * All this at the click of a button! No memorization of commands necessary. Easy!
 
->**NOTE:** The procedure documented below was tested on a [GMKtec Mini PC N97][08] for this project.
+>**NOTE:** The procedure documented below was tested on a [GMKtec NucBox G5][08] for this project.
 >This little box has the 12th Gen Intel Alder Lake N97 CPU (clocked up to 3.60GHz),
 >12GB DDR5 memory, a 256GB Hard Drive, and comes pre-installed with Microsoft Windows 11 Pro.
 
