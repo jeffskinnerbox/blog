@@ -5,17 +5,33 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/we-do-this-not-because-it-is-easy.jpg" title="U.S. President John F. Kennedy said this in his moon speech at Rice University in Houston, Texas, on September 12, 1962:
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/we-do-this-not-because-it-is-easy.jpg"
+    title="U.S. President John F. Kennedy said this in his moon speech at Rice University in Houston, Texas, on September 12, 1962:
  We choose to go to the moon.  We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too." align="center" width=500px height=375px>
 </div>
 
 
 
 ---------------
+
+
+# Lizard RC Car - A Better Build?
+* [3D Printing A Capable RC Car](https://hackaday.com/2025/06/02/3d-printing-a-capable-rc-car/)
+  * [Lizard: 3D printed RC race car](https://www.youtube.com/watch?v=EHu6LgQ-Yc8)
+  * [Lizard: 3D Printed RC Race Car](https://www.instructables.com/Lizard-3D-Printed-RC-Race-Car/)
+  * [GitHub: TRD-B/Lizard](https://github.com/TRD-B/Lizard)
+
+
+---------------
+
+
+
+
 
 
 
