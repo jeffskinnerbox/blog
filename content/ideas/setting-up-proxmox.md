@@ -12,6 +12,10 @@ Version:      0.0.0
 
 # Fresh Install Of ProxMox
 
+* [These 6 scripts are a godsend for my Proxmox home lab](https://www.xda-developers.com/these-6-scripts-are-a-godsend-for-my-proxmox-home-lab/)
+
+
+
 * [Let's Build a Practical Home Lab for Learning and Experimentation](https://hackernoon.com/lets-build-a-practical-home-lab-for-learning-and-experimentation)
 
 * [4 services you can host on Proxmox to secure your home network](https://www.xda-developers.com/services-you-can-host-on-proxmox-to-secure-your-home-network/)
