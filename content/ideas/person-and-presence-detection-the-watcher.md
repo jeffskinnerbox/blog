@@ -228,6 +228,7 @@ Realtime AI Speech powered by OpenAI Realtime API, ESP32, Secure WebSockets,
 and Deno Edge Functions for >10-minute uninterrupted global conversations
 
 * [ElatoAI: Realtime Speech AI Agents for ESP32](https://github.com/akdeb/ElatoAI)
+* [Portable AI Voice Assistant using ESP32 & Gemini AI](https://www.hackster.io/techiesms/portable-ai-voice-assistant-using-esp32-gemini-ai-c79b0f)
 
 # AI Generated Text to Speech
 
