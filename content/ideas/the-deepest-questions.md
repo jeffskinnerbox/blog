@@ -1235,6 +1235,10 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 # Information
 
+* [What Is Information? The Answer Is a Surprise.](https://www.linkedin.com/pulse/what-information-answer-surprise-quanta-magazine-mxa7e/)
+* [Information as Surprise - Harness Claude Shannon's Key Idea](https://tomtunguz.com/information-as-surprise/)
+* [Information is surprise](https://plus.maths.org/content/information-surprise)
+
 * [Nyquist - the amazing 1928 BREAKTHROUGH which showed every communication channel has a capacity](https://www.youtube.com/watch?v=BT_mWQjO-bo)
 * [Shannon-Nyquist Sampling Theorem](https://www.youtube.com/watch?v=FcXZ28BX-xE)
 * [Intro to Information Theory | Digital Communication | Information Technology](https://www.youtube.com/watch?v=_PG-jJKB_do)
