@@ -257,7 +257,6 @@ working with built-in data types, processing iterables of data, handling input a
 ## Python Idioms (Idiomatic Python)
 
 * Being Pythonic
-    * [You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
     * [Python Name-Main Idiom Quiz](https://realpython.com/quizzes/python-name-main-idiom/)
     * [5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
     * [A forbidden Python technique to put ANYTHING in a dict or set](https://www.youtube.com/watch?v=NpdNDTncxwA)
@@ -515,13 +514,6 @@ There are many Python static analysis tools to choose from, but these are most h
 ---------------
 
 
-# Build a Secure Python Script
-* [Executing commands safely from Python](https://supakeen.com/weblog/executing-commands-safely-from-python/)
-
-
----------------
-
-
 # Build a Python Command-Line App
 
 Example programs that make heavy use of Python's commandline utilities.
@@ -606,6 +598,16 @@ It supports the following types of projects:
 * [Make a 2D Side-Scroller Game With PyGame](https://realpython.com/courses/pygame-primer/)
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 * [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
+
+
+---------------
+
+
+# Build a Python Script
+* [How Can You Structure Your Python Script?](https://realpython.com/python-script-structure/)
+* [Executing commands safely from Python](https://supakeen.com/weblog/executing-commands-safely-from-python/)
+* [You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
+* [Execute Your Python Scripts With a Shebang](https://realpython.com/courses/execute-python-scripts-with-shebang/)
 
 
 ---------------
