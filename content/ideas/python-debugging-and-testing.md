@@ -266,7 +266,11 @@ If you need to make a single Python file that can both be **used as a module** (
 and can be **run as a Python script** to do something,
 you can check the variable `__name__` in your module to see whether it's equal to the string `"__main__"`.
 
+When ever we run a file, Python automatically creates `__name__`, `__main__`, `__file__`, `__doc__`, etc.
+These special variables are called "Dunders", which is short for double underscore.
+
 * [Defining a main function in Python](https://www.pythonmorsels.com/making-main-function-python/)
+* [Python if __name__ == '__main__': Visually Explained](https://www.youtube.com/watch?v=KZpYtNtGxSU)
 
 
 ## Python's Built-in Functions
