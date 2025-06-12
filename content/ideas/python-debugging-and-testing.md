@@ -99,6 +99,9 @@ A good remedy for this can be containerization of your Python development enviro
   * [uv](https://docs.astral.sh/uv/#uv)
   * [Ruff](https://docs.astral.sh/ruff/#ruff)
 
+# Python Continuous Integration
+* [Python Continuous Integration and Deployment Using GitHub Actions](https://realpython.com/courses/cicd-github-actions/)
+
 # Debugging Tools & Techniques
 
 * [30 Must-Know Tools for Python Development](https://www.kdnuggets.com/2025/02/nettresults/30-must-know-tools-for-python-development)
@@ -244,6 +247,27 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * [Python for Loops: The Pythonic Way](https://realpython.com/python-for-loop/)
 * [Python Oddities That Might Surprise You](https://www.kdnuggets.com/python-oddities-might-surprise-you)
 
+## Making a Main Function
+In Python, there's a way to ask, are we being run from the command-line or being imported as a module?
+Or put another way, is our current Python module the entry point to our Python process?
+This question can be asked using the statements like this:
+
+```python
+def main():
+    .
+    .
+    .
+
+if __name__ == "__main__"
+    main()
+```
+
+If you need to make a single Python file that can both be **used as a module** (i.e. is being imported)
+and can be **run as a Python script** to do something,
+you can check the variable `__name__` in your module to see whether it's equal to the string `"__main__"`.
+
+* [Defining a main function in Python](https://www.pythonmorsels.com/making-main-function-python/)
+
 
 ## Python's Built-in Functions
 
@@ -252,6 +276,10 @@ These functions cover a wide variety of common programming tasks that include pe
 working with built-in data types, processing iterables of data, handling input and output in your programs, working with scopes, and more.
 
 * [Python's Built-in Functions: A Complete Exploration](https://realpython.com/preview/python-built-in-functio/)
+
+
+## Building Your Own Functions
+* [Defining Your Own Python Function](https://realpython.com/defining-your-own-python-function/)
 
 
 ## Python Idioms (Idiomatic Python)
@@ -608,31 +636,6 @@ It supports the following types of projects:
 * [Executing commands safely from Python](https://supakeen.com/weblog/executing-commands-safely-from-python/)
 * [You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
 * [Execute Your Python Scripts With a Shebang](https://realpython.com/courses/execute-python-scripts-with-shebang/)
-
-
----------------
-
-
-# Making a Main Function
-In Python, there's a way to ask, are we being run from the command-line or being imported as a module?
-Or put another way, is our current Python module the entry point to our Python process?
-This question can be asked using the statements like this:
-
-```python
-def main():
-    .
-    .
-    .
-
-if __name__ == "__main__"
-    main()
-```
-
-If you need to make a single Python file that can both be **used as a module** (i.e. is being imported)
-and can be **run as a Python script** to do something,
-you can check the variable `__name__` in your module to see whether it's equal to the string `"__main__"`.
-
-* [Defining a main function in Python](https://www.pythonmorsels.com/making-main-function-python/)
 
 
 ---------------
