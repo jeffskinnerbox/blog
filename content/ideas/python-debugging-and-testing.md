@@ -81,6 +81,8 @@ A good remedy for this can be containerization of your Python development enviro
 
 * [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
 * [Python Morsels](https://www.pythonmorsels.com/)
+* [Python Tutorials 2025](https://www.youtube.com/playlist?list=PL4KX3oEgJcfd7I5KmEnUF7cTVqrvCPRDj)
+* [Python Tutorials 2024](https://www.youtube.com/playlist?list=PL4KX3oEgJcfeKzc-v2nD-KzTSELlNyafC)
 
 
 # Sometimes the Problem is Your Environment

@@ -249,7 +249,7 @@ that suggests that your intuition has to be very
 sensitive to the setup of the problem.
 
 * [Perplexing the Web, One Probability Puzzle at a Time](https://www.quantamagazine.org/perplexing-the-web-one-probability-puzzle-at-a-time-20240829/)
-  * [Daniel Litt' Probibility Puzzle](https://x.com/littmath/status/1751648838501224790)
+  * [Daniel Litt’s Probability Puzzle](https://arxiv.org/html/2409.08094v1)
 
 # P-Value
 
