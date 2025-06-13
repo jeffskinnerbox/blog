@@ -9,6 +9,7 @@ Version:      0.0.0
 
 ---------------
 
+* [I tried many Pi-hole tweaks, and here are the 5 that actually made a difference](https://www.xda-developers.com/pi-hole-tweaks-made-difference/)
 * [Pi-hole v6 - Configuration and Overview](https://www.youtube.com/watch?v=mnry95ay0Bk) - with cloudflare and docker
 * [Pi-hole Syncing… But Smarter...](https://www.youtube.com/watch?v=OcSBggDyeJ4)
 * [Raspberry Pi DNS-Over-HTTPS (DoH) for Pi-Hole](https://pimylifeup.com/rapberry-pi-dns-over-https/)
