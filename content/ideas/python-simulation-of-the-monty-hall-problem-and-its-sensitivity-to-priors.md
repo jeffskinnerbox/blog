@@ -268,6 +268,14 @@ sensitive to the setup of the problem.
 
 * [Dot Physics](https://www.youtube.com/@DotPhysics)
 
+## Manim
+Manim is an engine for precise animations, designed for creating explanatory math videos.
+
+* [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
+* [How to Create Mathematical Animations like 3Blue1Brown Using Python](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1)
+* [ManimCommunity](https://github.com/ManimCommunity)
+* [Manim Documentation](https://docs.manim.community/en/stable/index.html#)
+
 ---------------
 
 # Zero-Knowledge Proofs
