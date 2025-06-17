@@ -55,6 +55,8 @@ Version:      0.0.0
 
 * [Adafruit FT232H Breakout - General Purpose USB to GPIO+SPI+I2C](https://www.adafruit.com/products/2264)
 
+* [How to Use Tio — Connecting to Serial Devices with Linux](https://www.tomshardware.com/software/linux/how-to-use-tio-connecting-to-serial-devices-with-linux)
+
 
 HyperTerminal - HyperTerminal is the defacto terminal program for any Windows OS up to XP (you can find ports for other Windows versions).
 PuTTY
