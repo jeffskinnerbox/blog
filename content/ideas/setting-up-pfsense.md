@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -82,6 +83,7 @@ For pfSense, the specific RAM requirements can vary depending on the
 network size, usage, and additional services running on pfSense.
 The [minimum RAM requirements for pfSense on a home network is 2GB](https://robots.net/tech/how-much-ram-for-pfsense/).
 
+* [pfSense Firewall Config: My Settings Walkthrough](https://linuxblog.io/pfsense-firewall-config-settings/#Suricata_SID_Management)
 * [Configure pfsense w/Protectli](https://www.youtube.com/watch?v=a70fUC8ZHTA)
 * [How to Setup a Hardware Firewall Mini PC | pfSense 2.5 Beginners Guide](https://www.youtube.com/watch?v=qu7YR7e8xJA)
 
