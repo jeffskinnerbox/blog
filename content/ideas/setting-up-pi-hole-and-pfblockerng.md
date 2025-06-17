@@ -9,6 +9,7 @@ Version:      0.0.0
 
 ---------------
 
+* [7 Things I Wish I Knew Before Running a Pi-hole](https://www.howtogeek.com/things-i-wish-i-knew-before-running-a-pi-hole/)
 * [I now have two Pi-holes on my network instead of one, and if you have the spare resources, I highly recommend it](https://www.xda-developers.com/two-pi-holes-spare-resources-recommend/)
 * [I tried many Pi-hole tweaks, and here are the 5 that actually made a difference](https://www.xda-developers.com/pi-hole-tweaks-made-difference/)
 * [Pi-hole v6 - Configuration and Overview](https://www.youtube.com/watch?v=mnry95ay0Bk) - with cloudflare and docker
