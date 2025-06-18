@@ -423,6 +423,7 @@ but it has come to refer to any type of text terminal.
 
 ## Ncurses and Terminfo
 
+* [A Gentle Introduction To Ncurses For The Terminally Impatient](https://hackaday.com/2025/06/17/a-gentle-introduction-to-ncurses-for-the-terminally-impatient/)
 * [Linux Fu: Controlling the Terminal](https://hackaday.com/2018/11/28/linux-fu-controlling-the-terminal/#more-334438)
 
 
