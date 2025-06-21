@@ -606,6 +606,7 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 * [Computability and problems with Set theory](https://www.youtube.com/watch?v=Bo2w25fDLwY&list=PL55C7C83781CF4316&index=37)
 * [Insights into Mathematics](https://www.youtube.com/watch?v=WabHm1QWVCA&list=RDCMUCXl0Zbk8_rvjyLwAR-Xh9pQ&start_radio=1)
 * [Math Foundations](https://www.youtube.com/playlist?list=PL5A714C94D40392AB)
+* [Is Mathematics Mostly Chaos or Mostly Order?](https://www.quantamagazine.org/is-mathematics-mostly-chaos-or-mostly-order-20250620/)
 
 
 # Strange Converance
