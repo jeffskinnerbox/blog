@@ -15,7 +15,7 @@ Version:      0.0.0
 
 
 * [Data Annotation Tech](https://www.dataannotation.tech/)
-    * [Trustpilot Revews: Data Annotation Tech](https://www.trustpilot.com/review/dataannotation.tech)
+    * [Trustpilot Reviews: Data Annotation Tech](https://www.trustpilot.com/review/dataannotation.tech)
 
 
 
@@ -57,6 +57,12 @@ Version:      0.0.0
 
 * [RoadToRetire](https://www.youtube.com/@RoadToRetire25)
 * [How To Turn A Side Hustle Into Your Dream Business](https://www.namecheap.com/blog/how-to-turn-a-side-hustle-into-your-dream-business/)
+
+
+---------------
+
+
+I'm a retired electrical engineer, interested in volunteering my time teaching kids about robotics.
 
 
 # Volunteering
