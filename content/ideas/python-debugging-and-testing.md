@@ -105,6 +105,8 @@ A good remedy for this can be containerization of your Python development enviro
 * [Python Continuous Integration and Deployment Using GitHub Actions](https://realpython.com/courses/cicd-github-actions/)
 
 # Debugging Tools & Techniques
+[Debugging](https://en.wikipedia.org/wiki/Debugging) is the process of looking for the root causes of defects (aka bugs) in software after they’ve been discovered,
+as well as taking steps to fix them. 
 
 * [30 Must-Know Tools for Python Development](https://www.kdnuggets.com/2025/02/nettresults/30-must-know-tools-for-python-development)
 
@@ -112,6 +114,8 @@ A good remedy for this can be containerization of your Python development enviro
 * [Syntax Error #11: Debugging Python](https://www.syntaxerror.tech/syntax-error-11-debugging-python/)
 * [Debugging 101: Replace print() with icecream ic()](https://www.youtube.com/watch?v=JJ9zZ8cyaEk)
 * [Debug Your Python Code Efficiently with IceCream Package: 10 Advanced Examples to Replace Print Statements](https://medium.com/@danielwume/debug-your-python-code-efficiently-with-icecream-package-10-advanced-examples-to-replace-print-820fef801cb0)
+* [Your Guide to the Python print() Function](https://realpython.com/python-print/)
+
 * [Understanding the Python Mock Object Library](https://realpython.com/python-mock-library/)
 
 * [Testing with Python (part 1): the basics](https://www.bitecode.dev/p/testing-with-python-part-1-the-basics)
