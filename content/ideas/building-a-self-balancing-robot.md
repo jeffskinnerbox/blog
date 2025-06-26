@@ -62,6 +62,8 @@ perform regression testing, and train AI system using realistic scenarios.
 
 # Rolling Robot
 
+* [Building a Voice-Controlled Robot Using RDK X5 on ES02 and OpenAI Real-Time API (Fully Opensource)](https://www.youtube.com/watch?v=YUhkF7lPQ0k)
+
 * [Build a Spherical Self-balancing Robot with ESP32 Camera! (ESP-ROLL)](https://www.youtube.com/watch?v=VuBfRYNQgw0)
 * [Transparent Themed BB-8 Robot From Star Wars](https://www.instructables.com/Transparent-Themed-BB-8-Robot-From-Star-Wars/)
 * [I built a rover using a Raspberry Pi & Arduino](https://www.youtube.com/watch?v=IoCaTgmUSvc)
