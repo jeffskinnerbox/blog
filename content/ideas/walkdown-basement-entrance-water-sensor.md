@@ -143,6 +143,7 @@ combines the tecnologies of lithium-ion battery anode with the cathode of an ele
 * [Solar Harvesting into Supercapacitors](https://www.tindie.com/products/jaspersikken/solar-harvesting-into-supercapacitors/)
 * [Solar Harvesting into Li-ion Battery](https://hackaday.io/project/160376-solar-harvesting-into-li-ion-battery)
 * [Solar Harvesting into Lithium Ion Capacitor](https://hackaday.io/project/178177-solar-harvesting-into-lithium-ion-capacitor)
+* [Linear Solar Chargers For Lithium Capacitors](https://hackaday.com/2025/06/26/linear-solar-chargers-for-lithium-capacitors/)
 
 # Lead Acid Battery
 * [Raspberry Pi Battery Power](https://www.youtube.com/watch?v=lPyDtuzYE5s)
