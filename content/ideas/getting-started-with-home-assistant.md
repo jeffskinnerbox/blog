@@ -2586,6 +2586,7 @@ All processing is performed locally on your own hardware, and your camera feeds 
 
 * [Synology Surveillance Station](https://www.synology.com/en-global/surveillance)
 
+* [Installing Frigate NVR on Proxmox in an LXC Container](https://www.mostlychris.com/installing-frigate-nvr-on-proxmox-in-an-lxc-container/)
 * [Remote Frigate in Docker with Home Assistant Integration](https://www.youtube.com/watch?v=fu4nHA5veps)
 * [Frigate NVR Updates](https://www.mostlychris.com/frigate-nvr-updates/)
 
