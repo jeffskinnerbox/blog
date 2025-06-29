@@ -179,6 +179,7 @@ making Dimebots some of the smallest robots in the world.
     * [OpenDog Version 3 Is Ready To Go Walkies](https://hackaday.com/2021/12/18/opendog-version-3-is-ready-to-go-walkies/)
 * [OpenCat](https://www.hackster.io/petoi/opencat-845129)
     * [Petoi Nybble](https://www.hackster.io/RzLi/petoi-nybble-944867)
+* [Meet Cucumber, The Robot Dog](https://hackaday.com/2025/06/27/meet-cucumber-the-robot-dog/)
 * [SmallKat: An adorable dynamics oriented robot cat](https://hackaday.io/project/164727-smallkat-an-adorable-dynamics-oriented-robot-cat)
 * [Robot Cat Takes Inspiration From Nature](https://hackaday.com/2020/09/30/robot-cat-takes-inspiration-from-nature/)
 * [Sourino – the Best Toy for Cats and Kids](https://www.instructables.com/id/Sourino-the-Best-Toy-for-Cats-and-Kids/)
