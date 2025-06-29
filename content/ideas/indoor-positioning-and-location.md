@@ -5,12 +5,12 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
 -----
-
 
 
 * [Indoor Asset Tracking using Wi-Fi Triangulation](https://www.hackster.io/rob-lauer/indoor-asset-tracking-using-wi-fi-triangulation-5c5963)
@@ -144,6 +144,10 @@ Get access to all of your favourite positioning technologies through a single AP
 
 # Future Standards
 * [Wi-Fi Location Promises Precision](https://www.networkcomputing.com/wireless-infrastructure/wi-fi-location-promises-precision/161511044?_mc=NL_NWC_EDT_NWC_converations_20170228&cid=NL_NWC_EDT_NWC_converations_20170228&elqTrackId=0399ee69f7f8445994d04edf3aca163c&elq=a62a6a0594ae43c08183d4430c188267&elqaid=76994&elqat=1&elqCampaignId=25693)
+
+# Audio Localization
+Cheap acoustic camera that transforms sound delays into visual heatmaps, revealing where noises originate in real-time.
+* [Audio Localization Gear Built On The Cheap](https://hackaday.com/2025/06/27/audio-localization-gear-built-on-the-cheap/)
 
 # Other
 * [a monostatic active sonar using a piezo element and microphone](http://hackaday.com/2015/01/26/sonar-built-from-piezo-and-microphone/)
