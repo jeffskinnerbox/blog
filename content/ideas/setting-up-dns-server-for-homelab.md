@@ -30,6 +30,7 @@ so [why run your own DNS resolver][01]?
 ## Technitium
 
 * [Technitium – A Powerful Privacy-Oriented DNS Server](https://www.fossery.com/app/technitium/)
+* [Forget about Pi-hole, I switched to this more powerful self-hosted alternative](https://www.xda-developers.com/pihole-alternative-called-technitium/)
 * [GitHub: TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer)
 * [Technitium DNS Server](https://technitium.com/dns/)
 

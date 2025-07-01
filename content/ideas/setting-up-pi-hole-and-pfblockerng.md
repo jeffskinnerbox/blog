@@ -4,10 +4,17 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+
 ---------------
+
+
+* [Forget about Pi-hole, I switched to this more powerful self-hosted alternative](https://www.xda-developers.com/pihole-alternative-called-technitium/)
+
+
 
 * [7 Things I Wish I Knew Before Running a Pi-hole](https://www.howtogeek.com/things-i-wish-i-knew-before-running-a-pi-hole/)
 * [I now have two Pi-holes on my network instead of one, and if you have the spare resources, I highly recommend it](https://www.xda-developers.com/two-pi-holes-spare-resources-recommend/)
