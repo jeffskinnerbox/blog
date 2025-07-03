@@ -28,7 +28,7 @@ Version:      0.0.0
 # Python IDLE
 Python IDLE is the default integrated development environment (IDE)
 that comes bundled with every Python installation,
-helping you to start coding right out of the box. 
+helping you to start coding right out of the box.
 
 * [Getting Started With Python IDLE](https://realpython.com/python-idle/)
 
@@ -106,7 +106,7 @@ A good remedy for this can be containerization of your Python development enviro
 
 # Debugging Tools & Techniques
 [Debugging](https://en.wikipedia.org/wiki/Debugging) is the process of looking for the root causes of defects (aka bugs) in software after they’ve been discovered,
-as well as taking steps to fix them. 
+as well as taking steps to fix them.
 
 * [30 Must-Know Tools for Python Development](https://www.kdnuggets.com/2025/02/nettresults/30-must-know-tools-for-python-development)
 
@@ -340,6 +340,7 @@ working with built-in data types, processing iterables of data, handling input a
     * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
     * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
     * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
+    * [Python 3.14 Preview: Template Strings (T-Strings)](https://realpython.com/python-t-strings/)
 * Structural Pattern Matching
     * [Using Structural Pattern Matching in Python](https://realpython.com/courses/structural-pattern-matching/)
 * Copying of Python Objects
