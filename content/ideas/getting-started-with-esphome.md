@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -16,7 +17,9 @@ Version:      0.0.0
 
 # Starter Projects
 
+* [5 reasons I use ESPHome for my smart home devices](https://www.xda-developers.com/reasons-use-esphome-for-smart-home-devices/)
 * [How to get started with ESPHome and Sonoff](https://www.youtube.com/watch?v=soKuma8DJWQ)
+* [6 smart home devices anyone can build with a cheap ESP32 and an even cheaper sensor](https://www.xda-developers.com/smart-home-devices-anyone-build-cheap-esp32-sensor/)
 
 
 ## Home Assistant Bluetooth Proxies
