@@ -33,7 +33,7 @@ Version:      0.0.0
 
 
 
-
+* [Adding Automatic Emergency Braking To An RC Car](https://hackaday.com/2025/07/02/adding-automatic-emergency-braking-to-an-rc-car/)
 
 * [EdgeX 1/10 3D Printed Car Chassis Kit](https://cults3d.com/en/3d-model/game/edgex-1-10-3d-printed-car-chassis-kit-rabros)
 
