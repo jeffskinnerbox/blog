@@ -246,6 +246,7 @@ Wood fills.
 * [Hatchbox CARBON FIBER PLA FILAMENT - 1.75MM, 1KG SPOOL](https://www.hatchbox3d.com/products/3d-pla-1kg1-75-carbon)
 
 * [Carbon Fiber with 3D Printing](https://hackaday.com/2023/09/25/carbon-fiber-with-3d-printing/)
+  * [I Gotta Print More Cowbell](https://hackaday.com/2025/07/03/i-gotta-print-more-cowbell/)
 
 
 ## Transparent 3D Prints
