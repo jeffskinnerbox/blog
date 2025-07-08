@@ -15,6 +15,7 @@ Version:      0.0.0
 * [Python 3 Cheat Sheet](https://scouv.lisn.upsaclay.fr/python-memento/memento-python3-en-latest.pdf)
 
 * [Master the Art of Python Debugging With These Tips](https://thenewstack.io/master-the-art-of-python-debugging-with-these-tips/)
+* [7 Python Debugging Techniques Every Beginner Should Know](https://www.kdnuggets.com/7-python-debugging-techniques-every-beginner-should-know)
 
 * [Python 10 minutes a day](https://python-10-minutes-a-day.rocks/)
 * [Real Python Learning Paths](https://realpython.com/learning-paths/)
