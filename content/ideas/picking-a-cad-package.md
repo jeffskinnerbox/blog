@@ -115,6 +115,8 @@ Upverter is a modular, web-based tool that does it all — PCB design, schematic
 It facilitates the design of schematics for electronic circuits
 and their conversion to [PCB designs][46].
 
+* [KiCad 9.0 - Getting Started](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm)
+
 * [Let's make PCB design easier](https://www.youtube.com/shorts/fMRkuY0YkXc)
     * [PCB Design Analysis Software for Manufacturability](https://www.nextpcb.com/dfm)
 
