@@ -431,6 +431,7 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 
 # Open Source Seismometer
 
+* [AnyShake Explorer - A fully open-source, high-precision seismic monitoring system](https://www.crowdsupply.com/senseplex/anyshake-explorer)
 * [ASK HACKADAY: INCIDENTAL EARTHQUAKE DETECTION](https://hackaday.com/2023/02/09/ask-hackaday-incidental-earthquake-detection/)
 * [A SIMPLE SEISMOMETER YOU CAN BUILD YOURSELF](https://hackaday.com/2024/03/16/a-simple-seismometer-you-can-build-yourself/)
 * [Earthquake Detection On A Chip](https://hackaday.com/2019/07/06/earthquake-detection-on-a-chip/)
