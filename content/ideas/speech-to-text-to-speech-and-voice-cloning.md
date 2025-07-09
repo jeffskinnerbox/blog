@@ -42,6 +42,7 @@ Easily create Piper text-to-speech models in any voice. Make a text-to-speech mo
 * [Add any voice to your Raspberry Pi project with TextyMcSpeechy](https://www.tomshardware.com/raspberry-pi/add-any-voice-to-your-raspberry-pi-project-with-textymcspeechy)
 * [Raspberry Pi 5 brings Futurama's Bender to life as a ChatGPT powered personal assistant](https://www.tomshardware.com/raspberry-pi/raspberry-pi-5-brings-futuramas-bender-to-life-as-a-chatgpt-powered-personal-assistant)
 * [This custom Raspberry Pi voice assistant is built around ChatGPT](https://www.msn.com/en-au/lifestyle/shopping/this-custom-raspberry-pi-voice-assistant-is-built-around-chatgpt/ar-AA1tU8jL)
+* PageParrot - [Convert Any Book To A DIY Audiobook?](https://hackaday.com/2025/07/06/convert-any-book-to-a-diy-audiobook/)
 
 ## Voice Cloning
 
@@ -73,7 +74,7 @@ Piper is Open Source Text-to-Speech & Voice Cloning
 
 ---------------
 
-# Real-Time Voice Agent 
+# Real-Time Voice Agent
 * [The Easiest Way to Create Real-Time AI Voice Agents](https://www.kdnuggets.com/the-easiest-way-to-create-real-time-ai-voice-agents)
 * [TEN-Framework: Voice AI Agent framework for building Conversational AI](https://theten.ai/)
 
