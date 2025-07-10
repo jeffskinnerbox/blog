@@ -254,6 +254,9 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * [Python for Loops: The Pythonic Way](https://realpython.com/python-for-loop/)
 * [Python Oddities That Might Surprise You](https://www.kdnuggets.com/python-oddities-might-surprise-you)
 
+## What Is Python's `__init__.py` For?
+* [What Is Python's __init__.py For?](https://realpython.com/python-init-py/)
+
 ## Making a Main Function
 In Python, there's a way to ask, are we being run from the command-line or being imported as a module?
 Or put another way, is our current Python module the entry point to our Python process?
