@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---------------
@@ -567,7 +568,7 @@ Going on, assuming VBoxService is correct...
 vagrant plugin install vagrant-cachier
 ```
 
-Also recommened to clear this problem - <https://github.com/fgrehm/vagrant-cachier/issues/175>
+Also recommended to clear this problem - <https://github.com/fgrehm/vagrant-cachier/issues/175>
 
   if Vagrant.has_plugin?("vagrant-cachier")
     config.cache.scope = :machine

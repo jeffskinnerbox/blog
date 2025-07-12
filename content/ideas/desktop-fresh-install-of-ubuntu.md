@@ -97,7 +97,7 @@ A quick and easy way to add a user is by invoke the command:
 
 >**NOTE:** If you want the new user to be able to perform administrative tasks,
 >you need to add the user to the `sudo` group: `sudo usermod -aG sudo username`.
-
+>
 >**NOTE:** To delete the user, invoke the `deluser` command and pass the username
 >as the argument: `sudo deluser <username>`.
 >If you want to delete the user and its home directory and mail spool,
