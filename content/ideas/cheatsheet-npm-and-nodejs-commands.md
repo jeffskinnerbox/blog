@@ -29,6 +29,7 @@ If you have either of those installed, then you already have npm too.
 
 
 # Installing Node.js (node)
+
 Head to the [Node.js download page][12] and grab the version you need.
 For Linux, you can also install Node via the package manager,
 for example [installing on Node.js on Ubuntu 16.04][13].
@@ -58,6 +59,7 @@ nvm --version
 # to find out the versions of Node.js that are available for installation
 nvm ls-remote
 ```
+
 When you install Node.js using `nvm`, the executable is called `node` just like normal.
 You can see the version currently being used by doing the typical `node -v`.
 
@@ -101,6 +103,7 @@ $ npm --version
 ```
 
 ## Node Packaged Manager (npm)
+
 Node comes with package manager, called `npm`,
 already installed so you should have a version of `npm`.
 However, `npm` gets updated more frequently than Node does,
@@ -159,6 +162,7 @@ npm list --depth=0
 * [create a free Org](https://www.npmjs.com/features)
 
 ## Managing Package Dependencies
+
 The best way to manage locally installed npm packages
 and there dependencies on each otehr is to create a [`package.json` file][16].
 This can be created with the command `npm init`:
@@ -228,6 +232,7 @@ npm install underscores@0.0.1 --save
 
 
 # Node Package Manager (npm)
+
 * [A Beginner’s Guide to npm — the Node Package Manager](http://www.sitepoint.com/beginners-guide-node-package-manager/)
 * [npm cheat sheet](http://browsenpm.org/help)
 * [10 Cool Things You Probably Didn’t Realize npm Could Do](http://blog.izs.me/post/1675072029/10-cool-things-you-probably-didnt-realize-npm)
@@ -241,6 +246,7 @@ sudo apt-get install npm
 ```
 
 # Starting a Node.js Project
+
 [Getting a new node project started with npm][05]
 
 ```bash
@@ -294,6 +300,7 @@ npm outdated
 ```
 
 # nmp Rebuild
+
 Some Node packages contain native code that's written in C++,
 which require compilation.
 If you ever need to recompile them,
@@ -304,9 +311,10 @@ you must do the following
 npm rebuild
 ```
 
-http://tobyho.com/2012/02/09/tour-of-npm/
+<http://tobyho.com/2012/02/09/tour-of-npm/>
 
 # Properties of package.json
+
 The `package.json` file provides you several useful things:
 
 * It serves as documentation for what packages your project depends on.

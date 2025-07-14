@@ -26,6 +26,7 @@ Summary: abla bla bla
 * [Sniffing and decoding NRF24L01+ and Bluetooth LE packets for under $30](http://blog.cyberexplorer.me/2014/01/sniffing-and-decoding-nrf24l01-and.html)
 
 ## Installing  xbee-arduino Tools for the Arduino
+
 Now lets install the tool set for the Arduino development, [xbee-arduino][01],
 identified in my post [Selecting XBee Radios and Supporting Software Tools][02]".
 This environment will be on my PC since I haven't established a Arduino development environment on my RPi.
@@ -34,6 +35,7 @@ Download the xbee-arduino zip file from the site, unzip it, and move the created
 Your now ready for Arduino development, but first, lets get the XBee radios configured properly.  Back to the RPi which is where we'll perform the configuration.
 
 ## Setting-up a XBee Network End Device on the Arduino
+
 The first thing I want to set up is the End Device since it will be my sources of spontaneous XBee packets, and therefore, I can use it to validate the Coordinator's set-up.
 
 To wire the XBee radio to the Arduino, do the following:
@@ -61,6 +63,7 @@ The <a href="ftp://ftp1.digi.com/support/documentation/90000982_A.pdf">XBee's A
 This program bla bla bla
 
 ## Setting-up the XBee Network Coordinator on the RPi
+
 Using the python-xbee package installed earlier and the XBee radio reconfigured as a network coordinator, I'm ready to establish the coordinator node of my XBee network on the RPi.  I accomplish this via the following Python program:
 
 ``` python
@@ -72,6 +75,7 @@ This program bla bla bla
 enter watch mode: `echo -e "baudrate 9600\nserial /dev/ttyUSB0\nwatch\n" | python xbee-serial-terminal.py`
 
 ## Packets, Frames, and Protocols
+
 The terms frame and packet are not interchangeable, though many people often use them that way. Also, packets and frames, in themselves, do not full specify a protocol.
 
 * **What is a frame? -** A frame is simply a chunk of data with a pattern of bits at the start and possibly bits at the end. The bits at the start and end of the frame are often referred to as frame delimiters. Frames are created by hardware protocols and contain frame delimiters, hardware addresses, such as the source and destination MAC addresses, and data encapsulated from a higher layer protocol.
@@ -93,18 +97,18 @@ sliding window protocol
 Configuring the XBee Radios
 <ul>
 <ul>
-	<li style="padding-left:30px;"><a href="http://www.digi.com/support/kbase/kbaseresultdetl?id=2184">What is API (Application Programming Interface) Mode and how does it work?</a></li>
-	<li style="padding-left:30px;"><a href="http://docs.sensestage.eu/change-to-using-the-api-mode-of-the-xbees">Change to using the API mode of the XBees</a></li>
-	<li style="padding-left:30px;"><a href="http://www.instructables.com/id/Configuring-XBees-for-API-Mode/">Configuring XBees for API Mode</a></li>
-	<li style="padding-left:30px;"><a href="http://www.circuitsathome.com/mcu/playing-xbee-part-4-api">Playing Xbee. Part 4 – API</a></li>
-	<li style="padding-left:30px;"><a href="http://code.google.com/p/xbee-api/wiki/XBeeConfiguration">XBee Configuration</a></li>
+ <li style="padding-left:30px;"><a href="http://www.digi.com/support/kbase/kbaseresultdetl?id=2184">What is API (Application Programming Interface) Mode and how does it work?</a></li>
+ <li style="padding-left:30px;"><a href="http://docs.sensestage.eu/change-to-using-the-api-mode-of-the-xbees">Change to using the API mode of the XBees</a></li>
+ <li style="padding-left:30px;"><a href="http://www.instructables.com/id/Configuring-XBees-for-API-Mode/">Configuring XBees for API Mode</a></li>
+ <li style="padding-left:30px;"><a href="http://www.circuitsathome.com/mcu/playing-xbee-part-4-api">Playing Xbee. Part 4 – API</a></li>
+ <li style="padding-left:30px;"><a href="http://code.google.com/p/xbee-api/wiki/XBeeConfiguration">XBee Configuration</a></li>
 </ul>
 </ul>
 General Documentation
 <ul>
 <ul>
-	<li>XBee 802.15.4 (Series 1) Module <a href="http://www.digi.com/pdf/ds_xbeemultipointmodules.pdf">Datasheet</a>, <a href="ftp://ftp1.digi.com/support/documentation/90000982_A.pdf">Product Manual</a>,</li>
-	<li><a href="http://www.digi.com/support/kbase/kbaseresultdetl?id=3215">Digi API Frame Maker</a></li>
+ <li>XBee 802.15.4 (Series 1) Module <a href="http://www.digi.com/pdf/ds_xbeemultipointmodules.pdf">Datasheet</a>, <a href="ftp://ftp1.digi.com/support/documentation/90000982_A.pdf">Product Manual</a>,</li>
+ <li><a href="http://www.digi.com/support/kbase/kbaseresultdetl?id=3215">Digi API Frame Maker</a></li>
 </ul>
 </ul>
 -------------------------------------------------------------------------------
@@ -117,8 +121,8 @@ XBee 802.15.4 (Series 1) Module <a href="http://www.digi.com/pdf/ds_xbeemultipo
 
 State Machines
 <ul>
-	<li><a href="http://stackoverflow.com/questions/5492980/what-are-the-best-python-finite-state-machine-implementations">What are the best Python Finite State Machine implementations</a></li>
-	<li><a href="https://github.com/oxplot/fysom">Finite State Machine for Python</a></li>
+ <li><a href="http://stackoverflow.com/questions/5492980/what-are-the-best-python-finite-state-machine-implementations">What are the best Python Finite State Machine implementations</a></li>
+ <li><a href="https://github.com/oxplot/fysom">Finite State Machine for Python</a></li>
 </ul>
 
 [01]:http://code.google.com/p/xbee-arduino/

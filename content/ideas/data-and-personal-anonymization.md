@@ -18,9 +18,10 @@ Pseudonymization substitutes the identity of the data subject in such a way
 that additional information is required to re-identify the data subject.
 
 # Definitions
+
 Encryption – In Cipher systems messages are transformed through the use of a set of unchanging rules or steps called a Cryptographic algorithm and a set of variable Cryptographic keys.
 Tokenization – Code systems that rely on Codebooks to transform plaintext into code text.
-https://www.protegrity.com/difference-tokenization-encryption/
+<https://www.protegrity.com/difference-tokenization-encryption/>
 
 **Tokenization**, when applied to data security, is the process of substituting
 a sensitive data element with a non-sensitive equivalent, referred to as a token,
@@ -55,24 +56,29 @@ l-diversity is a form of group based anonymization that is used to preserve priv
 
 
 # Personal Anonymization on the Web
+
 * [How to be anonymous on the web? Tor, Dark net, Whonix, Tails, Linux](https://www.youtube.com/watch?v=_393maHbHWc)
 
 # Data Anonymization
-https://en.wikipedia.org/wiki/Data_anonymization
+
+<https://en.wikipedia.org/wiki/Data_anonymization>
 
 # De-Anonymization
+
 De-anonymization is a strategy in data mining in which anonymous data is cross-referenced
 with other sources of data to re-identify the anonymous data source.
 
-De-identification - https://en.wikipedia.org/wiki/De-identification
+De-identification - <https://en.wikipedia.org/wiki/De-identification>
 
 [How hard is it to 'de-anonymize' cellphone data?](https://news.mit.edu/2013/how-hard-it-de-anonymize-cellphone-data)
 
 # Oneway Hashing Functions
-Oneway hashing functions - https://en.wikipedia.org/wiki/Universal_one-way_hash_function
+
+Oneway hashing functions - <https://en.wikipedia.org/wiki/Universal_one-way_hash_function>
 
 # Data Hiding
-Data hiding - HIDE SECRET MESSAGES IN PLAIN SIGHT WITH ZERO-WIDTH CHARACTERS - https://hackaday.com/blog/page/4/
+
+Data hiding - HIDE SECRET MESSAGES IN PLAIN SIGHT WITH ZERO-WIDTH CHARACTERS - <https://hackaday.com/blog/page/4/>
 
 
 

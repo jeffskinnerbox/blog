@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Centralized Logging
+
 There are many merits for centralized logging;
 
 * you want to know when an unknown computer (hacker?) has connected to your network.
@@ -32,6 +33,7 @@ You can receive alerts when certain events occur or search through log history t
 * [Grafana Loki: Like Prometheus, But for logs. - Tom Wilkie, Grafana Labs](https://www.youtube.com/watch?v=CQiawXlgabQ)
 
 # Logspout
+
 Logspout is a Docker container that routes logs for Docker containers using the Docker API instead of a driver. It attaches to all containers running on the host and routes their logs as configured. Logspout can route logs from different containers to different locations. It can also route logs from the same container to multiple locations.
 
 With such rich, built in logging capabilities why would you use Logspout instead of a logging driver? Well, there are a few reasons:

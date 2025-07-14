@@ -23,9 +23,9 @@ We choose to go to the moon. We choose to go to the moon in this decade and do t
 * [SkyVector Aeronautical Sectional Charts](https://skyvector.com/)
 
 * FAA Part 107 Study Guide
-    * [Passing your Part 107 Remote Pilot Test in 2023](https://www.youtube.com/watch?v=hNUgetpo3Qg)
-    * [FAA Part 107 Study Guide | Remote Pilot Exam](https://www.youtube.com/playlist?list=PLnYtsynU6-5gkolpPFRDmjicgSWSYliBh)
-    * [FAA Part 107 Drone Course Tutorials](https://www.youtube.com/playlist?list=PLdQb_m5NpoKFu5gz6vkQar3ecouY_jlW7)
+  * [Passing your Part 107 Remote Pilot Test in 2023](https://www.youtube.com/watch?v=hNUgetpo3Qg)
+  * [FAA Part 107 Study Guide | Remote Pilot Exam](https://www.youtube.com/playlist?list=PLnYtsynU6-5gkolpPFRDmjicgSWSYliBh)
+  * [FAA Part 107 Drone Course Tutorials](https://www.youtube.com/playlist?list=PLdQb_m5NpoKFu5gz6vkQar3ecouY_jlW7)
 
 
 # Drones
@@ -343,8 +343,8 @@ Washington DC area and the National Capital Region Special Flight Rules Area (SF
 
 * [FAA Map of FRIA Sites](https://www.friamap.com/)
 * [Loudoun County Aeromodelers Association (LCAA)](https://lcaa.org/)
-    * [Loudoun County Aeromodelers Association (LCAA)](https://www.modelaircraft.org/club/loudoun-county-aeromodelers-association)
-    * [Loudoun County Aeromodelers Association - Banshee Reeks Nature Preserve](https://www.modelaircraft.org/site/loudoun-county-aeromodelers-association-banshee-reeks-nature-preserve)
+  * [Loudoun County Aeromodelers Association (LCAA)](https://www.modelaircraft.org/club/loudoun-county-aeromodelers-association)
+  * [Loudoun County Aeromodelers Association - Banshee Reeks Nature Preserve](https://www.modelaircraft.org/site/loudoun-county-aeromodelers-association-banshee-reeks-nature-preserve)
 * [Ida Lee Park, Leesburg VA](https://www.leesburgva.gov/departments/parks-recreation/town-parks/uas-and-rocket-flights)
 * [DCRC Club](https://www.modelaircraft.org/club/dcrc-club)
 * [Plane Crazy R/Cers](https://www.modelaircraft.org/club/plane-crazy-rcers)
@@ -457,9 +457,9 @@ Aerial Armor's Aeroscope drone detection system is potential view of what the fu
 ### Can I Build My Own Remote ID?
 
 * [How to add RemoteID to an FPV drone (it's simpler than I thought)](https://www.youtube.com/watch?v=dnkbGljGG10)
-    * [A RemoteID module. Made by RC pilots. For RC pilots // FLITE TEST EZ ID](https://www.youtube.com/watch?v=l-gT53DdNHE)
-    * [FliteTest EZ ID](https://www.youtube.com/watch?v=eh3p5s44vKE) - $109 and works with the [FliteTest app](https://www.youtube.com/watch?v=Eb07pHEhGDo&t=11s)
-    * [FT EZ ID](https://store.flitetest.com/ft-ez-id/)
+  * [A RemoteID module. Made by RC pilots. For RC pilots // FLITE TEST EZ ID](https://www.youtube.com/watch?v=l-gT53DdNHE)
+  * [FliteTest EZ ID](https://www.youtube.com/watch?v=eh3p5s44vKE) - $109 and works with the [FliteTest app](https://www.youtube.com/watch?v=Eb07pHEhGDo&t=11s)
+  * [FT EZ ID](https://store.flitetest.com/ft-ez-id/)
 * [RemoteID Cloaking Device How-To! Spoofer generates fake RemoteID signatures!](https://www.youtube.com/watch?v=Q8jn_6EmYxE)
 * [RIDS - Remote ID Spoofer](https://github.com/jjshoots/RemoteIDSpoofer)
 
@@ -515,9 +515,9 @@ Drone pilots should be familiar with:
 * **Restricted Areas** A restricted area is airspace within which the flight of aircraft, while not wholly prohibited, is subject to restriction. Restricted areas are designated when determined necessary to confine or segregate activities considered hazardous to nonparticipating aircraft.
 * **Temporary Flight Restrictions (TFRs)** TFRs are defined areas of airspace where the FAA limits aircraft operations because of:
 
-    * Temporary hazardous conditions, such as a wildfire, hurricane, or chemical spill.
-    * A security-related event, such as the United Nations General Assembly.
-    * Other special situations, like VIP movement.
+  * Temporary hazardous conditions, such as a wildfire, hurricane, or chemical spill.
+  * A security-related event, such as the United Nations General Assembly.
+  * Other special situations, like VIP movement.
 
 * [Operating Restrictions](https://www.faa.gov/uas/getting_started/where_can_i_fly/airspace_restrictions/tfr)
 * [Web App: B4UFLY by Aloft](https://b4ufly.aloft.ai)
@@ -660,7 +660,7 @@ Download the FAA's B4UFLY mobile app for more recreational drone flying resource
 
 * [FAA’s UAS Data Delivery System](https://udds-faa.opendata.arcgis.com/)
 * [See FAA UAS Data on a Map][25]
-    * UAS Flight Restrictions are shown as red polygons. UAS Flight Restrictions apply to all UAS flight operations, and remain in effect 24 hours a day, 7 days a week.
+  * UAS Flight Restrictions are shown as red polygons. UAS Flight Restrictions apply to all UAS flight operations, and remain in effect 24 hours a day, 7 days a week.
 
 Fly at or below 400 feet in Class G (uncontrolled) airspace.
 Note: Anyone flying a drone in the U.S. National Airspace System (NAS) is responsible for flying within the FAA guidelines and regulations. That means it is up to you as a drone pilot to know the rules: Where Can I Fly?

@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # pfSense System Dashboard
+
 A Grafana dashboard built to monitor pfSense that relies on influx and Telegraf.
 All artifacts and instructions are maintained in github [here](https://github.com/VictorRobellini/pfSense-Dashboard).
 
@@ -31,6 +32,7 @@ All artifacts and instructions are maintained in github [here](https://github.co
 
 
 ## HomeLab Network Setup - Double NAT
+
 In pfsense, turn off blocking under “Reserved Networks” under the WAN interface.
 [See this](https://docs.netgate.com/pfsense/en/latest/firewall/preventing-rfc1918-traffic-from-exiting-a-wan-interface.html)
 
@@ -118,6 +120,7 @@ The [minimum RAM requirements for pfSense on a home network is 2GB](https://robo
 
 
 ## pfSense
+
 Your average off-the-shelf router manufacturer don't have any incentives in patching software bugs,
 addressing performance problems or even serious security holes.
 On the other hand,
@@ -139,6 +142,7 @@ Even software updates can be run from the web UI.
 
 
 ## Major Features of pfSense
+
 When one thinks of pfSense, you typically focus on its firewall and router features,
 but it is often configured as DHCP server, DNS server, WiFi access point,
 VPN server, all running on the same hardware device.
@@ -205,6 +209,7 @@ Sources:
 
 
 # iptables and ufw
+
 Linux comes with a host based [firewall][90] called [`netfilter`][91]
 (or sometimes called `iptables` after the tool used to manage netfilter).
 `netfilter` is the framework in the Linux kernel,
@@ -242,6 +247,7 @@ Sources:
 
 
 # Install Google Chrome
+
  Installing Google Chrome via the Google repository so your system will
  automatically keep Google Chrome up to date.
 
@@ -266,6 +272,7 @@ google-chrome
 
 
 # Install pfSense
+
 Let's get pfSense running as a virtual machine using the hypervisor Proxmox Virtual Environment (VE)
 on the Protectli Vault FW4B J3160 hardware.
 
@@ -311,6 +318,7 @@ but you can find that information [here][AA].
 
 
 ## Pass-through PCIe NICs with Proxmox
+
 [PCI passthrough][31] gives virtual machines direct access to the hardware.
 This enables VMs on the same system to have isolated hardware access.
 This means performance is broadly identical to if you were using that hardware on bare metal.
@@ -323,6 +331,7 @@ such as SATA controllers, network interfaces and graphics cards.
 
 
 # Bridge Mode
+
 Bridge Mode is the perfect thing that you can get to enjoy networking over multiple devices. It disables the NAT feature and allows the router to work independently as the DHCP server.  This way, you can not only connect two routers, but the number gets unlimited.
 
 The IP Passthrough feature allows a single PC on the LAN to have the Router's public address assigned to it.
@@ -330,6 +339,7 @@ IP Passthrough mode shares or "passes" the Internet providers assigned IP addres
 
 
 # Double NAT
+
 If you use FIOS TV, you still need the G3100 to be doling out IPs to the set top boxes, so do NOT turn off DHCP. Yes, this means double NAT, but this is a small price to pay for working TV features. If you don't subscribe to FIOS TV, you can remove G3100 entirely from your setup.
 
  NAT manages the connectivity between the public Internet and your private network, and either UPnP or manual port forwarding ensures that incoming connections from the Internet (i.e. remote access requests) find their way through NAT to the appropriate private network PC or other device.
@@ -343,6 +353,7 @@ when NAT is being performed not just on your router but also on another device t
 
 
 ## Work Around for Double NAT
+
 The very first thing to do is to check if you have a Double NAT situation.
 To check for double NAT on your network, log into your router and look up the IP address of its WAN port. If you see an address in the 10.x.x.x or 192.168.x.x range (both of which are private) it means that the device your router’s WAN port connects to is doing NAT, and hence, you’re dealing with double NAT.
 
@@ -363,6 +374,7 @@ there are a options available to correct, or circumvent, a double NAT situation.
 
 
 # when Locked Out of pfSense
+
 What if you find yourself locked out of pfSense?
 This sounds like a nightmare give that pfSense is such a critical part of home network,
 but there are a number of ways to regain control.
@@ -376,6 +388,7 @@ Check out the Netgate documentation "[Troubleshooting Access when Locked Out of 
 
 
 ### Step 1: Physical Setup - DONE
+
 To get things started,
 I want to establish a temporary configuration which will enable me to experiment until
 I'm confident about how to install the Protectli Vault / Proxmox / pfSense
@@ -555,6 +568,7 @@ Sources
 
 
 #### Step 2: Download pfSense to Proxmox on Protectli Vault - DONE
+
 To create virtual machine contain pfSense,
 you'll need to have moved an ISO image to the Proxmox file system.
 You can do this via
@@ -564,6 +578,7 @@ You'll find the required URL for pfSense-CE Version 2.6.0 here:
 
 
 #### Step 3: Setup Proxmox Networking - DONE
+
 Now we will building the pfSense software on a virtual machine within Proxmox.
 We must create two Linux Bridges on Proxmox VE, which will be used for the WAN and LAN ports.
 
@@ -606,6 +621,7 @@ Do the reboot now just to make sure all is well.
 
 
 #### Step 4: Create VM for pfSense - DONE
+
 Within the **Server View** > **pve-1**,
 click **Create VM** from the top right section to display the new virtual machine wizard.
 Enter the following:
@@ -635,6 +651,7 @@ Set **Bridge** to `vmbr1` and **Model** to VirtIO (paravirtualized).
 
 
 #### Step 5: Start the VM and Install pfSense - DONE
+
 Navigate to **Datacenter** > **pve-1** > **pfSense**.
 Next click **Console** and click then **Start** button at the top menu bar.
 As the install proceeds, you should select these options:
@@ -659,6 +676,7 @@ and LAN as having vtnet1: "v4/DHCP4: 192.168.1.1/24".
 
 
 #### Step 6: pfSense Configuration Modification for Convenience - DONE
+
 At this this point,
 the pfSense web interface is accessible from the LAN network at
 `https://192.168.1.1` which happens to be the same as my home network FiOS router,
@@ -700,6 +718,7 @@ firefox google.com
 
 
 #### Step X: Disable `admin` for Increased Security
+
 The fact that that the administrative interface of pfSense is know as `admin` is a security issue.
 Best to provide a new name a make it a bit harder for hackers to compromise your system.
 
@@ -710,6 +729,7 @@ and disable the default `admin` user login.
 
 
 #### Step 7: Create Xubuntu VM for Testing - DONE
+
 We'll want to test the install of pfSense, and to do that,
 set up Xubuntu instances on the private network, aka the `vmbr1` bridge.
 
@@ -733,6 +753,7 @@ Can't do it at this moment since the pfSense router isn't configrued with DNS ye
 
 
 #### Step 8: Configure pfSense via Wizard - DONE
+
 From a web browser on the Xubuntu VM,
 visit `https://192.168.1.1` and you’ll get the invalid SSL Certificate page.
 Choose **Advanced**, accept the risk and continue,
@@ -782,6 +803,7 @@ sudo dhclient
 
 
 #### Step 9: Configure Xubuntu to Use SPICE - DONE
+
 Now lets make the Xubuntu environment a little more friendly for testing.
 For example, I prefer the Google Chrome browser and I would like to install it.
 A few simple (but lengthy) Shell commands can do the trick, but there is a problem.
@@ -853,6 +875,7 @@ sudo apt-get -y install net-tools arp-scan netdiscover
 
 
 # pfSense Configuration - DONE but you need to review these youtube links
+
 Now that we have completed the niital install of pfSense,
 we have a working / foundational version of pfSense operating.
 Now we'll configure it to our specific needs.
@@ -862,6 +885,7 @@ Now we'll configure it to our specific needs.
 
 
 #### Step 1: Upgrade pfSense - DONE
+
 You can upgrade your pfSense software from the **Status** > **Dashboard** screen.
 You find the button within the "System Information" widget in the "Version" section.
 
@@ -869,6 +893,7 @@ You find the button within the "System Information" widget in the "Version" sect
 
 
 #### Step 2: Add Widgets to Status / Dashboard - DONE
+
 You can customize the pfSense Dashboard display by adding (and deleting) the tiled widgets.
 You'll see a menu of all the widgets by clicking the red "+" on the **Availible Widgets** widget.
 
@@ -877,6 +902,7 @@ You'll see a menu of all the widgets by clicking the red "+" on the **Availible 
 
 
 #### Step 3: Enable Cryptographic Acceleration - DONE but Dashboard didn't update check your Proxmox VM seetings
+
 Cryptographic acceleration is available on the Protectli Vault platform,
 specifically Intel [Advanced Encryption Standard (AES) or New Instructions (AES-NI)][14].
 AES-NI is a new encryption instruction set,
@@ -909,6 +935,7 @@ shows you how to do this.
 
 
 #### Step 4: Disable Hardware Checksums - DONE
+
 When pfSense is virtualized on Proxmox,
 it is [strongly urged][32] to disable Hardware Checksum Offloading
 when using VirtIO interfaces in Proxmox.
@@ -924,6 +951,7 @@ Reboot the firewall from **Diagnostics** > **Reboot** or the console menu.
 
 
 #### Step X: Update pfSense OS - DONE
+
 You'll want to keep pfSense updated to the most current release.
 You can do an upgrade from the pfSense console screen (via menu item **13**)
 or via the browser interface (`192.168.2.1:80`).
@@ -939,6 +967,7 @@ or via the browser interface (`192.168.2.1:80`).
 
 
 # Configure WiFi Access Point For Home Network
+>
 >**NOTE:** You can also use WiFi as your WAN interface.
 >See the video "[pfsense Wireless WAN Setup][21]".
 
@@ -947,6 +976,7 @@ or via the browser interface (`192.168.2.1:80`).
 
 
 #### Step X: Install Ubuntu Container on Protectli Vault / Proxmox - DONE
+
 Requirements:
 
 * 64-bit Ubuntu 18.04 or later
@@ -1046,6 +1076,7 @@ Sources:
 
 
 #### Step X: Configure Omada Controller - DONE
+
 Now connect the EAP610 to the LAN network and power the device.
 Using the Omada Setup Wizard,
 make the following chooses:
@@ -1082,6 +1113,7 @@ Sources:
 
 
 # Configure VLANS for Home Network
+
 VLAN configuration will take plan in multiple places,
 specifically pfSense, TP-Link Switch, and on the TP-Link Access Point.
 
@@ -1118,6 +1150,7 @@ specifically pfSense, TP-Link Switch, and on the TP-Link Access Point.
 
 
 # Aliases
+
 Create aliases for your desktop Linux box,
 
 Alias Name     IP Address      Description
@@ -1133,6 +1166,7 @@ Desktop        192.168.1.200   Desktop Linux Box
 
 
 # Configure VLANs For Home Network
+
 What is a VLAN?
 It stands for virtual local area network,
 you can just think of it as a separate network, only virtual and not physically seperate.
@@ -1151,6 +1185,7 @@ That can all be done with pfSense and VLANs.
 
 
 # Configure Firewalls for WAN, LAN, and VLANs
+
 A best practices for firewall rules configuration:
 
 * Block all traffic by default (aka Block Any/Any Rule) and explicitly enable only specific traffic to known services.
@@ -1200,6 +1235,7 @@ Rules to be established on LAN (IoT)
 
 
 #### Step X: Create VLAN on pfSense
+
 Creation of a VLAN on pfSesne is easy to perfrom.
 
 Select **Interfaces** > **Assignments** >  **VLANs** > click **+ Add** button.
@@ -1234,6 +1270,7 @@ Select **Interfaces** > **Assignments** > click **+ Add** button.
 
 
 # Configure Port Forward
+
 When you port forward, you’re allowing access to a device on your local network. It’s important to understand that this allows for people and devices outside of your local network to access a specific device inside your local network.
 
 **Firewall** > **NAT** > **Port Forward**
@@ -1252,6 +1289,7 @@ When you port forward, you’re allowing access to a device on your local networ
 
 
 #### Step X: All Traffic Routed Over VPN
+
 If using WireGaurd, it needs to be install via Package Manager
 Private Internet Access (PIA) Virtual Private Network (VPN)
 
@@ -1259,6 +1297,7 @@ Private Internet Access (PIA) Virtual Private Network (VPN)
 
 
 #### Step X: Telegram / Slack / Pushover Notifications
+
 **System** > **Advanced** > **Notifications**
 
 
@@ -1268,6 +1307,7 @@ Private Internet Access (PIA) Virtual Private Network (VPN)
 
 
 # pfSense Packages
+
 **System** > **Package Manager**
 
 
@@ -1277,6 +1317,7 @@ Private Internet Access (PIA) Virtual Private Network (VPN)
 
 
 #### Step X: Cloudflare's 1.1.1.1 for Families
+
 Cloudflare claims its mission is to make a [more private and safe Internet experiance][26].
 Cloudflare's 1.1.1.1 DNS is designed for [private][25], security, and fast DNS resolution
 but not for blocking or filtering content.
@@ -1316,6 +1357,7 @@ You choose which setting you want depending on which IP address you configure.
 
 
 # NAT
+
 Network Address Translation (NAT) is the process of shuffling internet protocol traffic
 from several hosts through a single gateway IP address,
 just like your home router does by default.
@@ -1332,6 +1374,7 @@ when a response comes back the gateway forwards that back to the original host.
 
 
 # DHCP
+
 Dynamic Host Configuration Protocol (DHCP), hands out IP addresses to new hosts
 on a network so no manual configuration is required.
 Without DHCP, you would have to manually set a unique IP address,
@@ -1349,6 +1392,7 @@ The Dynamic Host Configuration Protocol (DHCP) provides a centralized and automa
 
 
 # Domain Name Services (DNS)
+
 Domain Name System (DNS), is a lookup service that translates a hostname
 like `google.com` for example, to an IP address.
 This is usually set to your modem or router’s IP address by default (same as the gateway address),
@@ -1379,6 +1423,7 @@ The DNS Resolver in pfSense® software utilizes unbound, which is a validating, 
 
 
 ## Dynamic DNS (DDNS)
+
 old ip = 108.44.239.214
 new ip = 71.171.98.206
 token = jhx0pStsQlLiWDPxToazLjUUj8lSGbvQdIJ4kId5
@@ -1403,6 +1448,7 @@ I used the steps below to set up DDNS on pfSense and using my DNS provider, Clou
 
 
 #### Step X
+
 Log in to Cloudflare and select **DNS** from the lefthand main menu.
 You need to create an **A** type DNS record for your domain name.
 Also, turn off Proxied for now and then hit **Save**.
@@ -1411,11 +1457,13 @@ Also, turn off Proxied for now and then hit **Save**.
 
 
 #### Step X: Get custom API Token
+
 We now need our API Token to use as our password in pfSense, which can be accessed in the API Tokens section of Cloudflare
 **Overview** > **Get your API token**
 
 
 #### Step X
+
 **Services** > **Dynamic DNS** > ckick **Add**
 
 
@@ -1429,6 +1477,7 @@ We now need our API Token to use as our password in pfSense, which can be access
 
 
 #### Step X: SSL Encryption and Reverse Proxy Setup
+
 I plan to exposing some websites or services to the Internet from my home network.
 Do this requires SSL which can be a can be a pain to setup and get it properly working.
 Using pfSense to manage SSL is a way to easily get this done in just a few steps.
@@ -1447,6 +1496,7 @@ It use HAProxy as a reverse proxy and ACME to manage the SSL certificates.
 
 
 #### Step X: pfSense Captive Portal
+
 Captive Portal in pfSense forces users on an interface to authenticate before granting access to the Internet.
 Where possible, the firewall automatically presents a login web page in which the user must enter credentials such as a username/password, a voucher code, or a simple click-through agreement.
 It is primarily used for wireless hot spots or for additional authentication before allowing access to internal networks from wireless clients.
@@ -1492,6 +1542,7 @@ It is primarily used for wireless hot spots or for additional authentication bef
 
 
 #### Step X: Segregated IoT Devices
+
 Unless you have done something explicitly to limit their access (VLAN, access control lists, a separate IOT WiFi network) they are probably members of your network like any other device.
 
 * [How I Protect My Network from IoT Device Hacking](https://hometechhacker.com/protect-network-iot-device-hacking/)
@@ -1499,10 +1550,12 @@ Unless you have done something explicitly to limit their access (VLAN, access co
 
 
 #### Step X: SNORT
+
 Snort is an Intrusion Detection System/Intrusion Prevention System (IDS/IPS) that uses sophisticated and regularly updated rules to detect and prevent attempts by hackers to penetrate your network.
 
 
 #### Step X: Automatic Backup of pfSense Configurations - DONE
+
 I would be in a world of hurt if I had to rebuild my pfSense configuration from scratch.
 So configuration backups are essential
 (and you should always do them before you upgrade pfSense).
@@ -1522,10 +1575,12 @@ To save your Status Dashboard layout, hit the floppy disk icon at the top right 
 
 
 #### Step X; Setup DNS and Add-Blockers
+
 Checkout setting-up-pi-hole.md
 
 
 #### Step X: OpenVPN for Secure Remote Access
+
 OpenVPN is an Open Source VPN client and server supported by many platforms, including pfSense.
 A great way for home users to use it is for secure remote access to their home networks.
 In many cases, it can more securely replace your port forwarding needs.
@@ -1538,12 +1593,14 @@ In many cases, it can more securely replace your port forwarding needs.
 
 
 #### Step X: Configure DHCP Server
+
 Static DHCP leases allow the computers on your network to always receive the same IP address when they connect (based on their MAC address). If you have devices on your network that are easier to use if they keep a constant IP and have a hostname associated with that IP then static DHCP leases are for you.
 
 [pfSense DHCP Server](https://docs.netgate.com/pfsense/en/latest/services/dhcp/ipv4.html)
 
 
 #### Step X: Lock down access to pfSense
+
 One of the main reasons I chose pfSense was for its security features.
 It is best to limit the number of device you normally use to access pfSense.
 
@@ -1553,10 +1610,11 @@ It is best to limit the number of device you normally use to access pfSense.
 #### Step X: Virtual Private Networks
 
 * [pfSense Documentation](https://docs.netgate.com/pfsense/en/latest/index.html)
-    * [Virtual Private Networks](https://docs.netgate.com/pfsense/en/latest/vpn/index.html)
+  * [Virtual Private Networks](https://docs.netgate.com/pfsense/en/latest/vpn/index.html)
 
 
 #### Step X: pfSense Router Packages
+
 Darkstat
 Sudo
 Squid
@@ -1621,6 +1679,7 @@ Packages
 
 
 ## Disable Pfsense Access from WAN - DONE
+
 By default, the pfSense administrative GUI **is not** exposed on the WAN interface
 and accessible to everyone.
 It is generally agreed, you enhance the security of LAN network

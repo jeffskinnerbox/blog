@@ -23,15 +23,15 @@ Version:      0.0.0
 * [Drone and High Voltage Spin Up This DIY Corona Motor](https://hackaday.com/2021/10/19/drone-and-high-voltage-spin-up-this-diy-corona-motor/)
 * [Building A Wirelessly Powered Corona Motor (DIY)](https://www.youtube.com/watch?v=_rsAxeYc-jk)
 * [Atmospheric High-Voltage Motor Makes Useful Power](https://hackaday.com/2022/07/26/atmospheric-high-voltage-motor-makes-useful-power/)
-    * [Mini AtmoMotor V2](https://lasersaber.org/projects/f/mini-atmomotor-v2)
+  * [Mini AtmoMotor V2](https://lasersaber.org/projects/f/mini-atmomotor-v2)
 
 
 
 # Build This?
 
 * [A candle that never runs out of wax](https://www.youtube.com/shorts/xQ6JpTucA6U)
-    * [Building a Wireless Power Plasma Candle ( Flame Discharge ft. Teslaundmehr)](https://www.youtube.com/watch?v=SyZuel2iaBk)
-    * [DIY Plasma flame Tesla Coil - Step by Step (ft.Plasma Channel)](https://www.youtube.com/watch?v=-AQmaAEyTic)
+  * [Building a Wireless Power Plasma Candle ( Flame Discharge ft. Teslaundmehr)](https://www.youtube.com/watch?v=SyZuel2iaBk)
+  * [DIY Plasma flame Tesla Coil - Step by Step (ft.Plasma Channel)](https://www.youtube.com/watch?v=-AQmaAEyTic)
 * [The World's Hottest Candle Can Actually Melt Steel—Plasma Candle](https://www.youtube.com/watch?v=3vtGktz8c1M)
 
 * [DIY 50,000 Volt Arc Lighter Powered Tesla Coil (ft. Integza)](https://www.youtube.com/watch?v=4GRyxuRIPPo)
@@ -61,6 +61,7 @@ Version:      0.0.0
 
 
 ## Bug Zapper Racket Fly Swatter
+
 I purchased a $4 [Electronic Fly Swatter from Harbor Freight Tools][01]
 for the sole purpose of repurposing its electronics.
 To keep it cheap and samll,
@@ -83,6 +84,7 @@ but some people have claimed to modification it to create [20,000V][03] and even
 
 
 # Tesla Coil
+
 Maybe I could even do some exploring of spectrum mysteries like
 [Number Stations][01] and [Tesla Spirit Radio][06]).
 
@@ -111,6 +113,7 @@ Maybe I could even do some exploring of spectrum mysteries like
 
 
 # Counterpoise
+
 A counterpoise is a conductor or system of conductors used an earth or ground substitute in antenna systems.
 
 * <https://www.w8ji.com/counterpoise_systems.htm>
@@ -122,9 +125,10 @@ A counterpoise is a conductor or system of conductors used an earth or ground su
 * [Is That An EMP Generator In Your Pocket Or Is My Calculator Just Broken?](https://hackaday.com/2021/06/17/is-that-an-emp-generator-in-your-pocket-or-is-my-calculator-just-broken/)
 
 # Flyback Transformer
+
 * [Pushing The Plasma Limits With A Custom Flyback Transformer](https://hackaday.com/2024/10/22/pushing-the-plasma-limits-with-a-custom-flyback-transformer/)
-    * [Custom Transformer Shatters All Voltage Records (ft. 3D Printing Nerd)](https://www.youtube.com/watch?v=DkhpuuPljS4)
-    * [Protecting Myself From Wildlife…With 280,000 Volts](https://www.youtube.com/watch?v=-Ng3fyUHoLA)
+  * [Custom Transformer Shatters All Voltage Records (ft. 3D Printing Nerd)](https://www.youtube.com/watch?v=DkhpuuPljS4)
+  * [Protecting Myself From Wildlife…With 280,000 Volts](https://www.youtube.com/watch?v=-Ng3fyUHoLA)
 
 
 
@@ -134,6 +138,7 @@ A counterpoise is a conductor or system of conductors used an earth or ground su
 
 
 # Electric Oscillator
+
 An electronic oscillator is an electronic circuit that produces a periodic, oscillating electronic signal, often a sine wave or a square wave.
 Oscillators convert direct current (DC) from a power supply to an alternating current (AC) signal.
 
@@ -147,11 +152,13 @@ Oscillators convert direct current (DC) from a power supply to an alternating cu
 
 
 ## Relaxation Oscillator
+
 A relaxation oscillator is a nonlinear electronic oscillator circuit that produces a non-sinusoidal repetitive output signal, such as a triangle wave or square wave.
 The circuit consists of a feedback loop containing a switching device such as a transistor, comparator, relay, op amp, or a negative resistance device like a tunnel diode, that repetitively charges a capacitor or inductor through a resistance until it reaches a threshold level, then discharges it again.
 
 
 ### Pearson–Anson Oscillator
+
 Maybe the simples relaxation oscillator is
 resistive/capacitive circuit relaxation oscillator with a neon lamp as the threshold device
 called a Pearson–Anson oscillator, neon lamp oscillator, or sawtooth oscillator.
@@ -205,6 +212,7 @@ is generally given credit for its discovery but Henri Poincare made observations
 
 
 ### Magnet Wire
+
 [Magnet wire][07] is a copper or aluminum wire coated with a very thin layer of insulation.
 It is used in the construction of transformers, inductors, motors, generators, speakers,
 electromagnets, and other applications that require tight coils of insulated wire.
@@ -223,6 +231,7 @@ Thin insulated material help to make more turns in a short area and capable for 
 
 
 # Electrical Resonant Transformer
+
 A resonant transformer is one of the [many transformer types][05], but in this case,
 one or both windings has a capacitor across it, causing it to functions as a tuned circuit.
 Used at radio frequencies, as in a Tesla coil,
@@ -235,6 +244,7 @@ and switching power supplies.
 
 
 ## Flyback Transformer
+
 A flyback transformer (FBT), also called a line output transformer (LOPT)
 was initially designed to generate high voltage sawtooth signals at a relatively high frequency.
 The flyback transformer circuit was invented as a means of controlling the horizontal movement of the electron beam in a cathode ray tube (CRT). Unlike conventional transformers, a flyback transformer is not fed with a signal of the same waveshape as the intended output current.
@@ -283,6 +293,7 @@ The flyback transformer circuit was invented as a means of controlling the horiz
 
 
 ## Tesla Coil
+
 A Tesla coil is an electrical resonant transformer circuit designed by inventor Nikola Tesla in 1891.
 t is used to produce high-voltage, low-current, high frequency alternating-current electricity.
 Tesla coil circuits were used commercially in [sparkgap radio transmitters][09] for wireless telegraphy until the 1920s.
@@ -323,6 +334,7 @@ Nikola Tesla wanted to beam power without wires.
 
 
 ## Slayer Exciter
+
 The Slayer Exciter is an air core transformer adapted to operating at low DC voltages. It has a primary and secondary, like a Tesla coil, but it uses low voltage components--diodes and transistors--instead of spark gaps and tank capacitors to induce resonant rise in the coil.
 
 * [A Tesla Coil From PCBs](https://hackaday.com/2019/04/25/a-tesla-coil-from-pcbs/)
@@ -365,6 +377,7 @@ The Slayer Exciter is an air core transformer adapted to operating at low DC vol
 
 
 # Kelvin Water Dropper
+
 Lord Kelvin who came up with a electrostatic generator back in 1867
 called the “Kelvin water dropper” or “Lord Kelvin’s Thunderstorm”.
 This machine is able to produce a high voltage charge from falling water without using any moving parts.
@@ -373,6 +386,7 @@ This machine is able to produce a high voltage charge from falling water without
 
 
 # Voltage Multiplier
+
 A voltage multiplier is an electrical circuit that converts AC electrical power from a lower voltage to a higher DC voltage, typically using a network of capacitors and diodes.
 
 Voltage multipliers can be used to generate a few volts to millions of volts for purposes such as high-energy physics experiments and lightning safety testing.
@@ -407,6 +421,7 @@ Voltage multipliers can be used to generate a few volts to millions of volts for
 
 
 # Open Air Laser
+
 A Transversely Excited Atmospheric (TEA) Laser is nitrogen laser that operates at standard pressure and temperature.
 In fact, many operate using normal air which is over 75% N2.
 Normal air has a property known as super radiance.
@@ -422,6 +437,7 @@ This means that air can produce a laser beam without bouncing light with mirrors
 
 
 # High Voltage Measurements
+
 * [Measuring SUPER HIGH VOLTAGE](https://www.youtube.com/watch?v=jqlqCIZ3Kfg)
 
 
@@ -436,6 +452,7 @@ This means that air can produce a laser beam without bouncing light with mirrors
 
 
 ## Breakdown Voltage
+
 The breakdown voltage of an insulator is the minimum voltage that causes a portion of an insulator
 to become electrically conductive.
 
@@ -463,6 +480,7 @@ as a function of pressure and gap length.
 
 
 ## Townsend Discharge
+
 The Townsend discharge or Townsend avalanche is a gas ionisation process where free electrons are accelerated by an electric field, collide with gas molecules, and consequently free additional electrons.
 
 

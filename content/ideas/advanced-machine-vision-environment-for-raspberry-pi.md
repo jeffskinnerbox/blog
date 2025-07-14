@@ -16,7 +16,7 @@ Version:      0.0.0
 
 * [How we made TensorFlow run on a Raspberry Pi using Rust](https://medium.com/snips-ai/how-we-made-tensorflow-run-on-a-raspberry-pi-using-rust-7478f7a31329)
 * [TensorFlow for Poets](https://petewarden.com/2016/02/28/tensorflow-for-poets/)
-    * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
+  * <https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0>
 * [Train your own image classifier with Inception in TensorFlow](https://research.googleblog.com/2016/03/train-your-own-image-classifier-with.html)
 * [How to Add a Power Button to Your Raspberry Pi](https://www.makeuseof.com/tag/add-power-button-raspberry-pi/)
 
@@ -25,6 +25,7 @@ Version:      0.0.0
 # Physical Design
 
 ## Active Cooling
+
 Implementing machine vision on a Raspberry Pi with tools like OpenCV and TensorFlow
 can be computationally very intensive, pushing the RPi CPU very hard,
 causing the processor to generate considerable heat.
@@ -43,6 +44,7 @@ and have it 3D printed at [shapeways][06], [ProtoLab][08] or other sites.
 To view the STL file, you can use [this site][05].
 
 ## Battery Supply + Power Monitoring
+
 The [LiFePO4wered/Pi3][85] (purchase on [Tindie][87])
 may be the best power solution for the Raspberry Pi 3.
 It combines both the UPS and power monitoring functions into a single solution.
@@ -131,6 +133,7 @@ lifepo4wered­cli set auto_boot 1
 ```
 
 ## Case
+
 With the addition of the UPS and fan to the Raspberry Pi 3 configuration,
 you'll need a suitable case to hold all the components.
 I found the case designed to hold LiFePO4wered/Pi3 works fine
@@ -139,18 +142,20 @@ and you can purchase it [on Tindie][90].
 # Software Configuration
 
 # Embedded Learning Library (ELL)
+
 The Microsoft's [Embedded Learning Library (ELL)][03]
 claims to help in the design and deployment of intelligent machine-learned models
 onto resource constrained platforms and small single-board computers,
 like Raspberry Pi, Arduino, and micro:bit.
 
-* http://www.zdnet.com/article/microsoft-wants-to-bring-ai-to-raspberry-pi-and-other-tiny-devices/
+* <http://www.zdnet.com/article/microsoft-wants-to-bring-ai-to-raspberry-pi-and-other-tiny-devices/>
 * [ELL Tutorials](https://microsoft.github.io/ELL/tutorials/)
 
 
 
 # Reading Processor Tempature and Clock Speed
-https://www.elinux.org/RPI_vcgencmd_usage
+
+<https://www.elinux.org/RPI_vcgencmd_usage>
 
 vcgencmd get_config int
 
@@ -172,9 +177,10 @@ frequency(1)=250000000
 
 
 # Performance and Speed Testing
+
 * To measure performance of threading, use `mpstat -P ALL 1`.
-* To measure the Internet speed, use https://fast.com/ or http://www.speedtest.net/
-* See https://github.com/sivel/speedtest-cli
+* To measure the Internet speed, use <https://fast.com/> or <http://www.speedtest.net/>
+* See <https://github.com/sivel/speedtest-cli>
 * at home using desktop, I'm getting 1ms to 10ms pings, 855Mbps upload, 847Mbps download
 * at home using BlueRpi, I'm getting
 
@@ -182,6 +188,7 @@ Also see /home/jeff/blogging/content/ideas/network-speed-testing.md
 
 
 # Streaming Latency
+
 The streaming latency has little to do with the encoding by the Pi,
 but mostly to do with the playing or receiving end.
 If the Pi weren’t capable of encoding a frame before the next frame arrived,

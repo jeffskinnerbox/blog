@@ -57,6 +57,7 @@ Sources:
 * [Thread](https://www.youtube.com/playlist?list=PLoKOKJqgqHs9AK8cMkH3Nqyybzfv0q23D)
 
 # What About My Home Devices?
+
 Matter Controller - it can control any Matter certified device
 Matter Bridges - it allows non-Matter devices to be controlled by a Matter Controller
 
@@ -72,6 +73,7 @@ Potential Matter Bridges
 * []()
 
 # Build a Matter Device
+
 * [Build a Smart Home Matter Device in 10 mins on ESP32](https://www.youtube.com/watch?v=nO45szofvOM)
 
 

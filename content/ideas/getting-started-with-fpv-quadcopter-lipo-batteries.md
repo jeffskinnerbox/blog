@@ -21,6 +21,7 @@ Review this again -  [LIPO BATTERY USER GUIDE](https://hobbytechtoys.com.au/page
 
 
 # Lithium-Ion vs Lithium Polymer Battery
+
 While [Lithium-ion batteries (Li-ion)][01] have remained traditionally in all your portable gadgets and smartphones,
 [lithium polymer battery (LiPo)][02] are the ones that get utilized in more advanced devices and modern flagship gadgets,
 but most of today's all-electric vehicles use Li-ion batteries (though the exact chemistry often varies from that of consumer electronics batteries).
@@ -58,6 +59,7 @@ Sources:
 
 
 ## How are LiPo Batteries Identified
+
 There are four main ratings that you need to be aware of on a LiPo battery.
 Lets say we have a battery that states its a 50C, 5000mAh, 3C Charge Rate, 2S 7.4V battery.
 What does all this mean:
@@ -90,6 +92,7 @@ The safest charge rate for our LiPo batteries is 3C, or 3 x capacity of battery 
 
 
 ### The Parameter's Practical Meaning
+
 **Voltage** directly influences the RPM of the electric motor (brushless motors are rated by kV, which means 'RPM per Volt').
 So if you have a brushless motor with a rating of 3,500kV,
 that motor will spin 3,500 RPM for every volt you apply to it.
@@ -115,6 +118,7 @@ Another safety precaution is to charge the LiPo in a fire-resistant container.
 
 
 ## How to Charge LiPo Battery
+
 Lithium polymer (LiPo) batteries are a wonder of the modern age
 and have revolutionized the hobby of flying RC planes.
 But LiPo batteries require specialized care and therefore a LiPo-compatable charger.
@@ -151,12 +155,14 @@ Sources:
 
 
 ### Balance Charger
+
 A balance charger (or balancer) does this by monitoring the individual cell voltages in a pack through a connector on the pack (called a balance connector) and adjusting their rate of charge accordingly. When such a balancer is built into a charger, the charger is known as a Balance Charger or Balancing Charger.
 
 * [The most over-looked lipo charger spec: Balance Current](https://www.youtube.com/watch?v=XEIWdZHXK1c)
 
 
 ### Battery Charger
+
 I purchased the [Tenergy TB-6B 50W Balancing Charger][50]
 for NiMH/NiCD/Li-PO/Li-Fe/SLA batteries.
 It can a 1S to 6S cell Li-Ion/Li-Po/LiFe pack with a maximum current of 5A
@@ -175,6 +181,7 @@ it can store up to 10 different battery charging profiles.
 
 
 ## Battery Charger
+
 For charging the LiPo battery,
 I purchased the [Tenergy TB6-B Balance Charger/Discharger][27],
 one of the [top of the line chargers][28].
@@ -196,6 +203,7 @@ consider the following videos:
 
 
 ## 1S Whoop Battery Charger
+
 ViFLY WhoopStor 3is a 6 port charger and dis-charger specifically for 1S whoop batteries.
 
 * It comes with a LCD status display, and can support both PH2.0 and BT2.0 connectors which are popular on Tiny Whoop quadcopters.
@@ -215,17 +223,17 @@ Make sure to charge a sutable 1S LiPo battery (regular or high voltage).
 I'm using [BetaFPV's BT2.0 550mAh 1S Batteries][33], a high voltage battery, on the Meteor75 Pro.
 
 * Specification for BetaFPV BT2.0 550mAh 1S Battery
-    * **Capacity:** 550mAh
-    * **Rate:** 40C (continuous) / 80C (burst)
-    * **Voltage:** 3.8V
-    * **Battery type：LiHv (3.8~4.35V)
-    * **Dimension:** 69.5*16.2*6.5mm
-    * **Connector:** BT2.0 connector
-    * **Weight:** 13.99g
+  * **Capacity:** 550mAh
+  * **Rate:** 40C (continuous) / 80C (burst)
+  * **Voltage:** 3.8V
+  * **Battery type：LiHv (3.8~4.35V)
+  * **Dimension:** 69.5*16.2*6.5mm
+  * **Connector:** BT2.0 connector
+  * **Weight:** 13.99g
 * Charging for BT2.0 550mAh 1S Battery
-    * **Charging Voltage & Current:** 4.35V at 0.5A
-    * **Fully Charged:** This battry is considered fully charged when its at 4.35V
-    * **Storage Charge:** When storing the battery, its voltage should be 3.85V
+  * **Charging Voltage & Current:** 4.35V at 0.5A
+  * **Fully Charged:** This battry is considered fully charged when its at 4.35V
+  * **Storage Charge:** When storing the battery, its voltage should be 3.85V
 
 I'm using the [VIFLY WhoopStor 3 1S LiPo Battery Storage Charger and Discharger][34].
 Setting that you should use are:
@@ -248,6 +256,7 @@ Sources:
 
 
 ## Measuring LiPo Charge Level
+
 Battery-powered projects require you to monitor your battery's life.
 Measuring battery voltage is not ideal, because the voltage doesn't drop linearly.
 Battery charge level, aka fuel gauges, are a better alternative.
@@ -360,11 +369,13 @@ LiPo batteries will be permanently damaged if the voltage of any cell drops belo
 
 
 ## Battery
+
 [Gens ace 5000mAh 11.1V 3S 50C 3 Cell LiPo Battery Pack][32] with XT60 and Deans Plug
 
 
 
 ## Electronic Speed Control (ESC)
+
 An [Electronic Speed Control (ESC)][10] is an electronic circuit that
 controls and regulates the speed of an electric motor.
 It may also provide reversing of the motor and [dynamic braking][09].
@@ -405,6 +416,7 @@ The voltage rating for each ESC is clearly stated in the specifications.
 
 
 ## Hobbypower 60A SL V2 ESC
+
 I used the recommended [Hobbypower 60A SL V2 ESC][12]
 which suports 2-3 cells LiPo
 with a continuous current 60A and burst current 380A.
@@ -415,19 +427,19 @@ It has a built in BEC who's output is 6V/1.5A to power the radio transmitter.
 >This ESC has a builtin BEC to deliver power to the radio system.
 
 * Racing Features
-    * It has three running modes: Racing mode (Forward), Forward/Backward mode, and Rock Crawler mode.
-    * Proportional ABS brake function with 4 steps of maximum brake force adjustment,
+  * It has three running modes: Racing mode (Forward), Forward/Backward mode, and Rock Crawler mode.
+  * Proportional ABS brake function with 4 steps of maximum brake force adjustment,
     8 steps of drag-brake force adjustment and 4 steps of initial brake force adjustment.
-    * It has 9 start modes (Also called "Punch" ) from "Soft" to "Very aggressive".
+  * It has 9 start modes (Also called "Punch" ) from "Soft" to "Very aggressive".
 
 * Protection Featues
-    * Multiple protection features: Low voltage cut-off protection for lithium or nickel battery,
+  * Multiple protection features: Low voltage cut-off protection for lithium or nickel battery,
     Over-heat protection, throttle signal loss protection, motor blocked protection.
 
 * Programming Feature
-    * With 8 steps of timing adjustment to get the best compatibility with various of motors.
-    * Easily program with only one button and compatible with pocket-sized program card.
-    * The ESC is USB supported. The firmware of the ESC can be updated through
+  * With 8 steps of timing adjustment to get the best compatibility with various of motors.
+  * Easily program with only one button and compatible with pocket-sized program card.
+  * The ESC is USB supported. The firmware of the ESC can be updated through
     an USB adapter on the Advanced LCD Program Box (Optional device).
 
 * [An Open Source ESC For Brushless Motors](https://hackaday.com/2019/05/15/an-open-source-esc-for-brushless-motors/)
@@ -445,6 +457,7 @@ The [Gens ace 5000mAh 11.1V 3S 50C 3 Cell LiPo Battery Pack][32]
 
 
 # Cold Environment - Lithium Iron Phosphate
+
 LiPo cells must not be charged in freezing temperatures (apart from certain special low temp products), else the cell can rapidly be destroyed due to lithium metal deposition at the anode. Also you need to be careful charging them, especially when they’re heavily discharged, as they are easily damaged without the proper treatment. LiPo cells operate based on chemical principles – lithium ions literally have to move around inside the structure, and eventually the battery will wear out.
 
 Supercapacitors have the advantage of very long life (but sometimes, they do leak) much more aggressive charging and discharging behaviours and will operate down to very low temperatures. This makes them very useful when a large amount of power is available sporadically (for super fast charge cycles) or in places where temperatures stay persistently very low, such as up a mountain were solar will work, albeit slowly, but LiPo batteries will definitely not be suitable.
@@ -461,6 +474,7 @@ Other battery chemistries are available, such as Lithium Iron Phosphate which ca
 
 
 ## Voltages
+
 Depending on the design and chemistry of your lithium cell,
 you may see them sold under different nominal voltages.
 Almost all lithium polymer batteries are 3.7V or 4.2V batteries.
@@ -484,6 +498,7 @@ can at the very least permanently damage your battery and at worst cause a fire!
 
 
 ## Protective Circuity
+
 Lithium ion/polymer batteries are extremely power dense.
 This makes them great for reducing size and weight of projects.
 However, they are not 'safe' batteries and require extra care.
@@ -516,6 +531,7 @@ This is very common for lipoly cells and generally provide the following protect
 
 
 ## Self Discharge
+
 Much attention can be paid to extending battery life through the use of
 low-power semiconductors, communication protocols,
 and minimizing the time a device spends in “active’ mode.
@@ -535,6 +551,7 @@ and an incredibly low annual self-discharge rate that permits up to 40-year batt
 
 
 # Smart Battery System
+
 Smart Battery System (SBS) is a specification for managing a smart battery, usually for a portable computer. It allows operating systems to perform power management operations via a smart battery charger based on remaining estimated run times by determining accurate state of charge readings.
 
 * [PackProbe Reports Laptop Battery Health](https://hackaday.com/2019/06/26/packprobe-reports-laptop-battery-health/)
@@ -543,6 +560,7 @@ Smart Battery System (SBS) is a specification for managing a smart battery, usua
 
 
 # Battery Degradation
+
 A useful why to think about a batterys degradation or age
 in terms of present capacity versus original (new) capacity.
 
@@ -552,6 +570,7 @@ A useful battery has predictable behavior; it can supply a constant amount of po
 
 
 ## Smoke Stopper / ShortSaver
+
 The [Flight XT30/ XT60 Smoke Stopper][51]
 short-circuit protection / safety inspector for 2S to 6S LiPo batteries.
 It can help avoid damage when you power on your quadcopter for the first time.
@@ -570,6 +589,7 @@ but the LED indicator turns off and starts beeping in abnormal situation (aka th
 
 
 # CellMeter
+
 I also purchased a [Cellmeter 8 Digital Battery Capacity Checker][13] from Amazon in October of 2023.
 This device support battery types LiPo, LiFe, Li-ion, NiCd, NiMH
 It measure battery cell voltages, total voltages, lowest cell voltage, highest cell voltage,

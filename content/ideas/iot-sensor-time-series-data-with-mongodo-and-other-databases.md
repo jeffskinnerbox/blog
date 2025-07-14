@@ -16,7 +16,7 @@ Version:      0.0.0
 
 * [Basic Time Series Manipulation with Pandas](https://towardsdatascience.com/basic-time-series-manipulation-with-pandas-4432afee64ea)
 
-* [MongoDB CRUD operations with Python (Pymongo)]()https://medium.com/@MicroPyramid/mongodb-crud-operations-with-python-pymongo-a26883af4d09
+* [MongoDB CRUD operations with Python (Pymongo)]()<https://medium.com/@MicroPyramid/mongodb-crud-operations-with-python-pymongo-a26883af4d09>
 
 * [Learn MongoDB With Me](https://dzone.com/articles/learn-mongodb-with-me)
 * [Learn MongoDB With Me (Part 2)](https://dzone.com/articles/learn-mongodb-with-me-part-2)
@@ -31,6 +31,7 @@ In general time series data has the following characteristics:
 
 1 Each data point in a time series is a `<timestamp, value>` pair
 which denotes the observation recorded at a point in time.
+
 1. Generally, data arrives in increasing timestamp order
 and just needs to be appended to the end of the time series,
 but sometimes data points may arrive out of order and need insertion in the middle.
@@ -44,12 +45,14 @@ which depends on the timestamp of the data point.
 * [System Properties Comparison HBase vs. OpenTSDB vs. Redis](https://db-engines.com/en/system/HBase%3BOpenTSDB%3BRedis)
 
 # MongoDB Atlas
+
 MongoDB Atlas offers the functionality of MongoDB in an automated cloud service.
 It enables you to deploy, operate, and grow your data layer in the cloud with a few clicks or an API call.
 
 * [MongoDB Atlas: Getting Started](https://docs.atlas.mongodb.com/getting-started/)
 
 # MongoDB
+
 [MongoDB][17] (from hu**mongo**us) is a [document-oriented database][11].
 Classified as a [NoSQL database][12],
 MongoDB isn't like a traditional table-based relational database structure in
@@ -115,10 +118,12 @@ Here are some brief getting started tutorials:
 * [Getting Started With MongoDB (Part 3)]()
 
 ## Install MongoDB
+
 Follow the offical installation procedures with [mongoDB Documentation][05]
 and see ["How to Install and Secure MongoDB 3.6 on Ubuntu 17.10"][06] for unquiness for Ubuntu 17.10.
 
 ### Step 1: Create a List File for MongoDB - DONE
+
 Create the `/etc/apt/sources.list.d/mongodb-org-3.6.list`
 list file using the command appropriate for your version of Ubuntu:
 
@@ -131,6 +136,7 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 ```
 
 ### Step 2: Install and Start the MongoDB Packages - DONE
+
 ```bash
 # reload the local package database sudo apt-get update
 
@@ -166,6 +172,7 @@ For example `sudo systemctl mongod stop` to stop the service
 or `sudo systemctl mongod start` to start it again.
 
 ### Step 3: Create a MongoDB Admin User and Secure It
+
 In its present configuration,
 when you login into mongodb with `mongo`,
 you don't need a user name or password and you get warning messages like this:
@@ -174,7 +181,7 @@ WARNING: Access control is not enabled for the database.
 Read and write access to data and configuration is unrestricted.
 
 To correct this,
-connect to your MongoDB again using the `mongo` command and after the `> `sign,
+connect to your MongoDB again using the `mongo` command and after the `>`sign,
 add these queries:
 
 ```
@@ -223,6 +230,7 @@ mongo -u “your-user-name” -p “your-password” --authenticationDatabase �
 ```
 
 ## To Remove a User from MongoDB
+
 To see what users you have, use the command
 
 ```
@@ -235,6 +243,7 @@ db.dropUser("myuser")
 ```
 
 ## To Remove MongoDB
+
 ```bash
 # stop the mongod process
 sudo service mongod stop
@@ -248,17 +257,20 @@ sudo rm -r /var/lib/mongodb
 ```
 
 ## The Mongo Shell
+
 The Mongo Shell is an interactive JavaScript interface to MongoDB.
 Once connected to MongoDB,
 you can use the Mongo Shell to query and update data as well as perform administrative operations.
 
-https://docs.mongodb.com/manual/mongo/
-https://docs.mongodb.com/tutorials/connect-to-mongodb-shell/
+<https://docs.mongodb.com/manual/mongo/>
+<https://docs.mongodb.com/tutorials/connect-to-mongodb-shell/>
 
 ## Connect to MongoDB via the Python Driver
+
 [PyMongo][07] is a Python distribution containing tools for working with MongoDB.
 
 ### Install PyMongo
+
 ```bash
 # install pymongo
 sudo pip3 install pymongo
@@ -266,6 +278,7 @@ sudo pip3 install pymongo
 
 
 # InfluxData
+
 InfluxData cliams to be a complete Time Series Platform built specifically for
 metrics, events, and other time-based data.
 InfuxData is realy a platfrom of tools consists of four compoents
@@ -280,12 +293,14 @@ InfuxData is realy a platfrom of tools consists of four compoents
 * [Playing With Docker, MQTT, Grafana, InfluxDB, Python, and Arduino](https://dzone.com/articles/playing-with-docker-mqtt-grafana-influxdb-python-a)
 
 # OpenTSDB
+
 [OpenTSDB][03] is a time-series database widely-used as a
 monitoring tool using [Apache HBase][04] as storage.
 
 * [15-min Getting Started Guide for OpenTSDB](https://medium.com/@zshao/15-min-getting-started-guide-for-opentsdb-44b81341f54e)
 
 # Redis
+
 [Redis][02] is an open source, in-memory data structure store,
 supporting a large number of data structures
 and is used as a database, cache, and message broker.
@@ -298,7 +313,7 @@ a simple program that allows to send commands to Redis,
 and read the replies sent by the server, directly from the terminal.
 
 Time series data can be modeled in Redis in a few ways,
-depending on the data and your desired access patterns.  - https://redislabs.com/redis-best-practices/time-series/
+depending on the data and your desired access patterns.  - <https://redislabs.com/redis-best-practices/time-series/>
 
 * [Build your first Redis Hello World application in Python](https://opensource.com/article/18/4/how-build-hello-redis-with-python)
 * [Redis Time Series - Time Series Data implemented directly in Redis with Lua](https://medium.com/@markuman/redis-time-series-63f3442bb09d)
@@ -318,14 +333,17 @@ depending on the data and your desired access patterns.  - https://redislabs.com
 * [How to Benchmark the Performance of a Redis Server on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-perform-redis-benchmark-tests)
 
 # YugaByte
+
 [Extending Redis API with a Native Time Series Data Type](https://blog.yugabyte.com/extending-redis-with-a-native-time-series-data-type-e5483c7116f8)
 
 # Declarative Visualization in Python
+
 [Altair](https://altair-viz.github.io/)
 is a declarative statistical visualization library for Python,
 based on [Vega](https://vega.github.io/vega/) and [Vega-Lite](https://vega.github.io/vega-lite/).
 
 # Round Robin Database Tool (RRDtool)
+
 <a href="http://oss.oetiker.ch/rrdtool/">
     <img class="img-rounded" style="margin: 0px 8px; float: left" title="RRDtool is the OpenSource industry standard, high performance data logging and graphing system for time series data. RRDtool can be easily integrated in shell scripts, perl, python, ruby, lua or tcl applications." alt="RRDtool Logo" src="{filename}/images/rrdtool-logo.jpg" width="250" height="250" />
 </a>
@@ -356,18 +374,22 @@ The steps to use RRDtool for data graphing
 * []()
 
 # Prometheus
-* https://prometheus.io/
+
+* <https://prometheus.io/>
 * [Getting started with Prometheus](https://opensource.com/article/18/12/introduction-prometheus)
 
 # Grafana
+
 Grafana is an open source software for time series analytics
 
 * [Using OpenTSDB in Grafana](http://docs.grafana.org/features/datasources/opentsdb/)
 
 # Tableau
+
 * [Tableau & MongoDB: Visual analytics on JSON at the speed of thought](https://www.tableau.com/about/blog/2015/6/tableau-mongodb-visual-analytics-json-speed-thought-39557)
 
 # Plotly
+
 * [Plotly for Python](https://plot.ly/d3-js-for-python-and-pandas-charts/)
 * [Python Plotly Tutorial](https://www.journaldev.com/19692/python-plotly-tutorial)
 * [An introduction to plotly.js — an open source graphing library](https://medium.freecodecamp.org/an-introduction-to-plotly-js-an-open-source-graphing-library-c036a1876e2e)

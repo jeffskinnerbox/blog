@@ -20,6 +20,7 @@ Started with the Free Personal Plan but plan to move to the Premium Plan ($10 bi
 
 
 # Migrating from LastPass to Bitwarden
+
 Easiest way to make your move to Bitwarden be to export from Lastpass,
 and then import that file into Bitwarden.
 The Bitwarden website has a [good guide on how to do this migration][03]
@@ -31,6 +32,7 @@ First export the Lastpass vault to CSV file. You can do this from the LP browser
 * [Import Data from LastPass][03]
 
 # Saving New Login to Bitwarden Vault
+
 Bitwarden has two methods for saving passwords:
 
 1. Manual entry before account creation
@@ -68,6 +70,7 @@ Bitwarden has two methods for saving passwords:
 
 
 # Docker Installation of Bitwarden
+
 * [Take Control of AND Secure Your Passwords Using Vaultwarden on Portainer](https://www.youtube.com/watch?v=fQOqqJv1zCI)
 * [How to Setup Self Hosted Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA&t=34s)
 * [How to Install Bitwarden on Docker using Portainer](https://www.youtube.com/watch?v=rvyzlmxloHY)
@@ -87,13 +90,14 @@ Bitwarden has two methods for saving passwords:
 
 
 * [How to Setup Self Hosted Bitwarden](https://www.youtube.com/watch?v=SSLGa0LjTrA)
-    * [Using Cloudflare Tunnels For Hosting & Certificates Without Exposing Ports On Your Firewall](https://www.youtube.com/watch?v=eojWaJQvqiw)
-    * [How To Create pfsense Let's Encrypt Wildcard Certificates using HAProxy](https://www.youtube.com/watch?v=jpyUm53we-Y)
-    * [Bitwarden install documentation](https://bitwarden.com/help/install-on-premise-linux/)
-    * [Bitwarden backup documentation](https://bitwarden.com/help/backup-on-premise/)
+  * [Using Cloudflare Tunnels For Hosting & Certificates Without Exposing Ports On Your Firewall](https://www.youtube.com/watch?v=eojWaJQvqiw)
+  * [How To Create pfsense Let's Encrypt Wildcard Certificates using HAProxy](https://www.youtube.com/watch?v=jpyUm53we-Y)
+  * [Bitwarden install documentation](https://bitwarden.com/help/install-on-premise-linux/)
+  * [Bitwarden backup documentation](https://bitwarden.com/help/backup-on-premise/)
 * [Self Host Bitwarden on a Raspberry Pi](https://www.wundertech.net/how-to-self-host-bitwarden-on-a-raspberry-pi/)
 
 # Extra Security for Your Bitwarden Passwords
+
 * [Double Blind Passwords (aka Horcruxing)](https://kaizoku.dev/double-blind-passwords-aka-horcruxing)
 
 
@@ -105,16 +109,19 @@ Bitwarden has two methods for saving passwords:
 * [Bitwarden Follow Up Review & Security Audit July 2020](https://www.youtube.com/watch?v=hMvwQ3kd-5I)
 
 # Installation Plan
+
 To do this, I followed the [Bitwarden installation documentation][05].
+
 * [Let's Install: Bitwarden on Docker and Nginx](https://www.youtube.com/watch?v=E80taMLM4C4)
 * [Putting it All Together - Docker, Docker-Compose, Nginx Proxy Manager, and Domain Routing - How To](https://www.youtube.com/watch?v=cjJVmAI1Do4)
 * [Nginx Proxy Manager is a free, open source, GUI for the Nginx Reverse Proxy making it easy to use](https://www.youtube.com/watch?v=RBVcnxTiIL0)
 * [Setting up a Private Bitwarden Password Vault in 5 Minutes with Docker](https://medium.com/swlh/set-up-your-own-personal-password-vault-313d76374046)
 * [Vaultwarden - Open Source, self hosted backend for the Bitwarden password manager](https://www.youtube.com/watch?v=mq7n_0Xs1Kg)
-    * https://shownotes.opensourceisawesome.com/vaultwarden/
+  * <https://shownotes.opensourceisawesome.com/vaultwarden/>
 * [How to Self-Host Bitwarden Password Manager on Raspberry Pi Zero](https://www.makeuseof.com/self-host-bitwarden-password-manager-raspberry-pi-zero/)
 
 # Deploying Bitwarden via Heroku & DigitalOcean
+
 * [bitwardenrs_heroku](https://elements.heroku.com/buttons/mutouxia/bitwardenrs_heroku)
 * [Vaultwarden on Heroku for Free!](https://github.com/davidjameshowell/vaultwarden_heroku)
 * [Bitwarden](https://marketplace.digitalocean.com/apps/bitwarden)

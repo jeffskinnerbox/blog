@@ -32,14 +32,17 @@ Version:      0.0.0
 
 
 # AD584LH High Precision 4-Channel Voltage Reference
+
 The [AD584 is an Analog Device's precision voltage reference][01] offering
 pin-programmable selection of four popular output voltages: 10.000V, 7.500V, 5.000V and 2.500V,
 requiring a input voltage between 4.5 and 30 volts.
 
 # PentaRef
-[PentaRef Multi-Output Referance][02] from VoltageStandard (www.voltagestandard.com)
+
+[PentaRef Multi-Output Referance][02] from VoltageStandard (<www.voltagestandard.com>)
 
 # DMMCheck Plus
+
 The [DMMCheck Plus][03] is a battery powered instrument that checks seven important functions on a DMM: AC and DC Voltage, AC and DC current, Resistance, Frequency, and Duty Cycle.  If you have a DVM or DMM that has questionable accuracy, the DMMCheck Plus can give you the confidence you need before relying on your test equipment.
 
 * [Voltage Standard Ref Tests - Digital Multimeter reference / accuracy check](https://www.youtube.com/watch?v=jXvGpFMKj5U)

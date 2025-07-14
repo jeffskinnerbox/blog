@@ -14,12 +14,14 @@ Version:      0.0.0
 
 
 # HC-SR04 Ultrasonic Sensor
+
 * [Ultrasonic Distance Sensors Arduino Tutorial and Comparison for HC-SR04, HY-SRF05, US-015](https://www.youtube.com/watch?v=aLkkAsrSibo)
 * [Making a better HC-SR04 Echo Locator](http://uglyduck.ath.cx/ep/archive/2014/01/Making_a_better_HC_SR04_Echo_Locator.html)
 * [Ultrasonic Trimount Brackets](https://blog.tindie.com/2020/08/ultrasonic-trimount-brackets/)
 * [](https://www.dfrobot.com/product-1033.html)
 
 # Other Ultrasonic Sensor
+
 * [JSN-SR04T Ultrasonic Distance Measuring Sensor Waterproof](https://www.amazon.com/Integrated-Ultrasonic-Transducer-Waterproof-Compatible/dp/B08GZ6NG4N)
 * [Panel Mount Ultrasonic (Sonar) Ranging Module with UART Output](https://www.adafruit.com/product/4665)
 * [Large Ultrasonic (Sonar) Sensor with Horn and UART Output](https://www.adafruit.com/product/4664)
@@ -27,19 +29,24 @@ Version:      0.0.0
 * [URM06 - PULSE Ultrasonic Sensor](https://www.dfrobot.com/product-1033.html)
 
 ## Sonar Sensor Array
+
 * [Building a sonar sensor array with Arduino and Python](https://towardsdatascience.com/building-a-sonar-sensor-array-with-arduino-and-python-c5b4cf30b945)
 
 # PIR
+
 * [How PIR modules work and using them to control LED strings.](https://www.youtube.com/watch?v=evZM2_RTvTU)
 * [PIR Sensors: Test and comparison of HC-SR501 and HC-SR505. Is the bigger better?](https://www.youtube.com/watch?v=0zgY5x9Zq3M)
 * [Presence detection using phone’s WiFi and Node-RED](https://harizanov.com/2014/03/presence-detection-using-phones-wifi-and-node-red/)
 
 # IR
+
 * [IR distance sensor includes cable (20cm-150cm)](https://www.adafruit.com/product/1031)
 
 # Time of Flight Distance Sensor
+
 ToF = time-of-flight
 dToF = direct time-of-flight
+
 * [ST’s newest time-of-flight sensor sounds almost like science fiction](https://electronics360.globalspec.com/article/19948/st-s-newest-time-of-flight-sensor-sounds-almost-like-science-fiction)
 * [SparkFun Qwiic Mini dToF Imager - TMF8820](https://www.sparkfun.com/products/19218)
 * [VL6180X ToF sensor](https://www.adafruit.com/product/3316)
@@ -48,26 +55,29 @@ dToF = direct time-of-flight
 * [SparkFun Qwiic dToF Imager - TMF8820](https://www.sparkfun.com/products/19036)
 * [SparkFun Qwiic dToF Imager - TMF8821](https://www.sparkfun.com/products/19037)
 * [STMicro Unveils the "Camera-Like" FlightSense VL53L7CX Distance Sensor, with 90 Degree FoV](https://www.hackster.io/news/stmicro-unveils-the-camera-like-flightsense-vl53l7cx-distance-sensor-with-90-degree-fov-0a70e0e93d37)
-    * [STM32duino VL53L7CX](https://reference.arduino.cc/reference/en/libraries/stm32duino-vl53l7cx/)
-    * [GitHub: stm32duino/VL53L7CX](https://github.com/stm32duino/VL53L7CX)
+  * [STM32duino VL53L7CX](https://reference.arduino.cc/reference/en/libraries/stm32duino-vl53l7cx/)
+  * [GitHub: stm32duino/VL53L7CX](https://github.com/stm32duino/VL53L7CX)
 * [RGB-D 3D ToF Sensor Camera (Supports ROS1 and ROS2)](https://www.dfrobot.com/product-2740.html?tracking=650189d06634f)
 
 * [Mini Laser Distance Range Sensor (4m, I2C, IP67)](https://www.dfrobot.com/product-2727.html)
 
 ## Getting More Out of Time of Flight Distance Sensors
+
 * [Unlocking the Performance of Proximity Sensors by Utilizing Transient Histograms](https://www.youtube.com/watch?v=vJdfpmd6OE0)
-    * [Unlocking the Performance of Proximity Sensors by Utilizing Transient Histograms](https://cpsiff.github.io/unlocking_proximity_sensors/index.html)
-    * [Github: uwgraphics/ProximityPlanarRecovery](https://github.com/uwgraphics/ProximityPlanarRecovery)
+  * [Unlocking the Performance of Proximity Sensors by Utilizing Transient Histograms](https://cpsiff.github.io/unlocking_proximity_sensors/index.html)
+  * [Github: uwgraphics/ProximityPlanarRecovery](https://github.com/uwgraphics/ProximityPlanarRecovery)
 
 # Walking Speed
+
 * [Measuring Walking Speed Wirelessly](http://hackaday.com/2017/05/10/measuring-walking-speed-wirelessly/)
 
 # Radar Sensors
+
 * [Recognizing Activities Using Radar](https://hackaday.com/2020/09/06/recognizing-activities-using-radar/)
 * [Robot Radar Module](https://hackaday.com/2018/05/03/robot-radar-module/)
-    * [SparkFun Pulsed Radar Breakout - A111](https://www.sparkfun.com/products/15577)
-    * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor/all)
-    * [Radar sensor introduction](https://acconeer-python-exploration.readthedocs.io/en/latest/sensor_introduction.html)
+  * [SparkFun Pulsed Radar Breakout - A111](https://www.sparkfun.com/products/15577)
+  * [Getting Started with the A111 Pulsed Radar Sensor](https://learn.sparkfun.com/tutorials/getting-started-with-the-a111-pulsed-radar-sensor/all)
+  * [Radar sensor introduction](https://acconeer-python-exploration.readthedocs.io/en/latest/sensor_introduction.html)
 * [Radar Sensors / Switches: Comparison and Tests](https://www.youtube.com/watch?v=9WiJJgIi3W0)
 * [Millimeter Wave Doppler Radar (SYH24A1) - 24GHz Transceiver](https://www.seeedstudio.com/Millimeter-wave-Doppler-radar-SYH24A-p-4392.html)
 * [Microwave Sensor - 24GHz Doppler Radar Motion Sensor - MW2401TR11](https://www.seeedstudio.com/Microwave-Sensor-24GHz-Doppler-Radar-Motion-Sensor-MW2401TR11-p-4690.html)
@@ -89,9 +99,11 @@ dToF = direct time-of-flight
 * [SparkFun Distance Sensor - 1.3 Meter, VL53L4CD (Qwiic) - SEN-18993](https://www.sparkfun.com/products/18993)
 
 # BLE Human Presence Detector
+
 * [BLE Human Presence Detector using an ESP32 (Tutorial, Arduino IDE)](https://www.youtube.com/watch?v=KNoFdKgvskU)
 
 # Sensor Array / Synthetic Sensor
+
 The [Persistent Aquatic Living Sensors (PALS) program](https://www.darpa.mil/news-events/2018-02-02)
 envisions using the natural sensing capabilities of marine organisms to detect
 the presence of underwater vehicles in strategic waters such as straits and littoral regions.

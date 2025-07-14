@@ -69,6 +69,7 @@ Doesn't sound like much but this little board is packed with functionality.
 
 
 ## Bus Pirate Self-Test
+
 To use Bus Pirate, you'll need to connect with it via a terminal emulator.
 Linux has a simple terminal called [microcom][03] that can do the trick.
 You can install it on on Ubuntu or the Raspberry Pi (RPi) via `sudo apt-get install microcom`.
@@ -96,6 +97,7 @@ The moral of the story is that the Bus Pirate needs to be used with a powered hu
 
 
 ## Persistent Names for the Bus Pirate USB Devices
+
 Now that I must use a hub, I'm going to have to dance around to figure out what `ttyUSB*` the Bus Pirate is attached too.
 I'm growing tired of the dance so I'm going to make the [device name persistent][06].
 I ran the command [lsusb][07] twice, once before plugging in the Bus Pirate to the USB hub, and then after. The results I got are listed below:
@@ -123,6 +125,7 @@ Note that depending on your permissions setting on your system, you might have t
 
 
 ## Bus Pirate Firmware Update
+
 While in the Bus Pirate (v3.6 as stated on the board),
 I ran the [command "i"][09] to list the firmware version
 and it didn't list the latest  firmware (i.e. v6.1).
@@ -159,6 +162,7 @@ You can also do a hardware [self-test][13] to further verify things are in worki
 
 
 ## User Modes
+
 The Bus Pirate can be used directly via a user thought a terminal or can be driven
 via a script written in a verity of languages.
 
@@ -167,6 +171,7 @@ via a script written in a verity of languages.
 
 
 ## Bus Pirate Cable Pinouts
+
 Below is a reference cards for the [Bus Pirate probe cable pinout][16].
 Note that this is for the [Seeed Studio probe cable][15], and the color coding maybe different for other vendors.
 [![reference card](/img/posts/jekyll-posts/seeedstudio-bus-pirate-probe-cable-pinout.png "bus priate pinout reference card")](http://dangerousprototypes.com/docs/Common_Bus_Pirate_cable_pinouts)
@@ -175,6 +180,7 @@ Note that this is for the [Seeed Studio probe cable][15], and the color coding m
 
 
 ## Bus Pirate Documentation
+
 The Bus Pirate documentation is considerable but not easy to consume and master,
 or for that matter, even figure out where to begin.
 The Bus Pirate “documentation” is a user community supported [wiki][22].
@@ -184,56 +190,56 @@ I discovered that studying these documents, in the order given below, should pro
 This is not [all of the documentation][21], but the parts that will help get you up and going.
 
 * Introduction to the Bus Pirate
-    * [Bus Pirate Online Manual](http://dangerousprototypes.com/docs/Bus_Pirate)
-    * [Hardware Overview](http://dangerousprototypes.com/docs/Hardware_overview)
-    * [Protocols, Features, and Applications supported by Bus Pirate](http://dangerousprototypes.com/docs/Features_overview)
+  * [Bus Pirate Online Manual](http://dangerousprototypes.com/docs/Bus_Pirate)
+  * [Hardware Overview](http://dangerousprototypes.com/docs/Hardware_overview)
+  * [Protocols, Features, and Applications supported by Bus Pirate](http://dangerousprototypes.com/docs/Features_overview)
 * Bus Pirate I/O Pins and Cabling
-    * [Bus Pirate I/O Pin Descriptions](http://dangerousprototypes.com/docs/Bus_Pirate_I/O_Pin_Descriptions)
-    * [Common Bus Pirate cable pinouts][16]
+  * [Bus Pirate I/O Pin Descriptions](http://dangerousprototypes.com/docs/Bus_Pirate_I/O_Pin_Descriptions)
+  * [Common Bus Pirate cable pinouts][16]
 * Bus Pirate Menu Options
-    * [Bus Pirate user interface][19]
-    * [Bus Pirate menu options guide][20]
+  * [Bus Pirate user interface][19]
+  * [Bus Pirate menu options guide][20]
 * Main Bus Pirate Modes
-    * [1-Wire (Dallas/Maxim 1-Wire Protocol)](http://dangerousprototypes.com/docs/1-Wire)
-    * [UART (Universal Asynchronous Receiver Transmitter)](http://dangerousprototypes.com/docs/UART)
-    * [I2C (Inter-Integrated Circuit or I-Squared-C](http://dangerousprototypes.com/docs/I2C)
-    * [SPI (Serial Peripheral Interface)](http://dangerousprototypes.com/docs/SPI)
-    * [Raw 2-Wire](http://dangerousprototypes.com/docs/Raw_2-wire)
-    * [Raw 3-Wire](http://dangerousprototypes.com/docs/Raw_3-wire)
-    * [HD44780 LCDs](http://dangerousprototypes.com/docs/HD44780_LCDs)
-    * [MIDI (Musical Instrument Digital Interface)](http://dangerousprototypes.com/docs/MIDI#MIDI)
+  * [1-Wire (Dallas/Maxim 1-Wire Protocol)](http://dangerousprototypes.com/docs/1-Wire)
+  * [UART (Universal Asynchronous Receiver Transmitter)](http://dangerousprototypes.com/docs/UART)
+  * [I2C (Inter-Integrated Circuit or I-Squared-C](http://dangerousprototypes.com/docs/I2C)
+  * [SPI (Serial Peripheral Interface)](http://dangerousprototypes.com/docs/SPI)
+  * [Raw 2-Wire](http://dangerousprototypes.com/docs/Raw_2-wire)
+  * [Raw 3-Wire](http://dangerousprototypes.com/docs/Raw_3-wire)
+  * [HD44780 LCDs](http://dangerousprototypes.com/docs/HD44780_LCDs)
+  * [MIDI (Musical Instrument Digital Interface)](http://dangerousprototypes.com/docs/MIDI#MIDI)
 * Bus Pirate Sub-Modes
-    * [Servo Mode (sub-mode of 1-Wire)](http://dangerousprototypes.com/docs/Bus_Pirate_servo_driver_documentation)
+  * [Servo Mode (sub-mode of 1-Wire)](http://dangerousprototypes.com/docs/Bus_Pirate_servo_driver_documentation)
 * Bonus Bus Pirate Modes (requires [bonus firmware](http://dangerousprototypes.com/docs/Bus_Pirate#Firmware_upgrades))
-    * [PC Keyboard](http://dangerousprototypes.com/docs/PC_keyboard)
-    * [DIO (Digital IO Mode)](http://dangerousprototypes.com/docs/Bus_Pirate:_DIO_mode)
-    * [JTAG (Joint Test Action Group)](http://dangerousprototypes.com/docs/JTAG)
+  * [PC Keyboard](http://dangerousprototypes.com/docs/PC_keyboard)
+  * [DIO (Digital IO Mode)](http://dangerousprototypes.com/docs/Bus_Pirate:_DIO_mode)
+  * [JTAG (Joint Test Action Group)](http://dangerousprototypes.com/docs/JTAG)
 * Bus Pirate Scripting
-    * [Binary Access Mode (used with software or scripts)](http://dangerousprototypes.com/docs/Bitbang)
-    * [Bus Pirate BASIC script reference](http://dangerousprototypes.com/docs/Bus_Pirate_BASIC_script_reference)
-    * [Bus Pirate Scripting in Python](http://dangerousprototypes.com/docs/Bus_Pirate_Scripting_in_Python)
+  * [Binary Access Mode (used with software or scripts)](http://dangerousprototypes.com/docs/Bitbang)
+  * [Bus Pirate BASIC script reference](http://dangerousprototypes.com/docs/Bus_Pirate_BASIC_script_reference)
+  * [Bus Pirate Scripting in Python](http://dangerousprototypes.com/docs/Bus_Pirate_Scripting_in_Python)
 * Bus Pirate Applications (there are many more)
-    * [Scan for I2C read and write addresses](http://dangerousprototypes.com/2009/09/07/scan-for-i2c-read-and-write-addresses/)
-    * [Logic Analyzer Mode](http://dangerousprototypes.com/docs/Logic_analyzer_mode)
-    * [Bus Pirate Oscilloscope](http://dangerousprototypes.com/2010/12/06/bus-pirate-piratescope/)
-    * [Bus Pirate AVR Programming](http://dangerousprototypes.com/docs/Bus_Pirate_AVR_Programming)
-    * [Bus Pirate Binary SPI Sniffer Utility](http://dangerousprototypes.com/docs/Bus_Pirate_binary_SPI_sniffer_utility)
+  * [Scan for I2C read and write addresses](http://dangerousprototypes.com/2009/09/07/scan-for-i2c-read-and-write-addresses/)
+  * [Logic Analyzer Mode](http://dangerousprototypes.com/docs/Logic_analyzer_mode)
+  * [Bus Pirate Oscilloscope](http://dangerousprototypes.com/2010/12/06/bus-pirate-piratescope/)
+  * [Bus Pirate AVR Programming](http://dangerousprototypes.com/docs/Bus_Pirate_AVR_Programming)
+  * [Bus Pirate Binary SPI Sniffer Utility](http://dangerousprototypes.com/docs/Bus_Pirate_binary_SPI_sniffer_utility)
 * Technical Details
-    * [Bus Pirate self-test guide](http://dangerousprototypes.com/docs/Bus_Pirate_self-test_guide)
-    * [HEX/DEC/BIN number entry and output display](http://dangerousprototypes.com/docs/HEX/DEC/BIN_number_entry_and_output_display)
-    * [Practical guide to Bus Pirate pull-up resistors](http://dangerousprototypes.com/docs/Practical_guide_to_Bus_Pirate_pull-up_resistors)
-    * [Pull-up resistors, high impedance pins, and open collector buses](http://dangerousprototypes.com/docs/Pull-up_resistors,_high_impedance_pins,_and_open_collector_buses)
+  * [Bus Pirate self-test guide](http://dangerousprototypes.com/docs/Bus_Pirate_self-test_guide)
+  * [HEX/DEC/BIN number entry and output display](http://dangerousprototypes.com/docs/HEX/DEC/BIN_number_entry_and_output_display)
+  * [Practical guide to Bus Pirate pull-up resistors](http://dangerousprototypes.com/docs/Practical_guide_to_Bus_Pirate_pull-up_resistors)
+  * [Pull-up resistors, high impedance pins, and open collector buses](http://dangerousprototypes.com/docs/Pull-up_resistors,_high_impedance_pins,_and_open_collector_buses)
 * Tutorials
-    * [Bus Pirate 101 tutorial](http://dangerousprototypes.com/docs/Bus_Pirate_101_tutorial)
-    * [Bus Pirate 102 tutorial](http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial)
-    * [Bus Pirate Edu kit partlist](http://dangerousprototypes.com/docs/Bus_Pirate_Edu_kit_partlist)
-    * [Sailing the I2Cs with the Bus Pirate](http://www.sharebrained.com/2013/02/26/sailing-the-i2cs-with-the-bus-pirate/)
-    * [Getting Started With an I2C LCD Using a Bus Pirate/](https://embeddedcode.wordpress.com/2014/12/06/getting-started-with-an-i2c-lcd-using-a-bus-pirate/)
+  * [Bus Pirate 101 tutorial](http://dangerousprototypes.com/docs/Bus_Pirate_101_tutorial)
+  * [Bus Pirate 102 tutorial](http://dangerousprototypes.com/docs/Bus_Pirate_102_tutorial)
+  * [Bus Pirate Edu kit partlist](http://dangerousprototypes.com/docs/Bus_Pirate_Edu_kit_partlist)
+  * [Sailing the I2Cs with the Bus Pirate](http://www.sharebrained.com/2013/02/26/sailing-the-i2cs-with-the-bus-pirate/)
+  * [Getting Started With an I2C LCD Using a Bus Pirate/](https://embeddedcode.wordpress.com/2014/12/06/getting-started-with-an-i2c-lcd-using-a-bus-pirate/)
 * Uses for the Bus Pirate
-    * [Bus Pirate Tips: Data Sniffer / Serial Bridge/ AVR & SPI Flash Programmer / JTAG](http://blog.allthingsgeek.com/article/index/index/id/26#.VNl1xdTN_MQ)
-    * [Using a Bus Pirate as a USB-TTL Serial Converter](http://haquesprojects.com/embedded-device-hacking/using-a-bus-pirate-as-a-usb-ttl-serial-converter/)
-    * [Bus Pirate as FTDI Cable](http://blog.zencoffee.org/2011/07/bus-pirate-as-ftdi-cable/)
-    * [Transparent UART bridge](http://dangerousprototypes.com/docs/UART#Transparent_UART_bridge)
+  * [Bus Pirate Tips: Data Sniffer / Serial Bridge/ AVR & SPI Flash Programmer / JTAG](http://blog.allthingsgeek.com/article/index/index/id/26#.VNl1xdTN_MQ)
+  * [Using a Bus Pirate as a USB-TTL Serial Converter](http://haquesprojects.com/embedded-device-hacking/using-a-bus-pirate-as-a-usb-ttl-serial-converter/)
+  * [Bus Pirate as FTDI Cable](http://blog.zencoffee.org/2011/07/bus-pirate-as-ftdi-cable/)
+  * [Transparent UART bridge](http://dangerousprototypes.com/docs/UART#Transparent_UART_bridge)
 
 It should be no surprise that to really understand (and maybe some day master) the Bus Pirate,
 you'll need to work with the Bus Pirate and an attached device while reading the documentation.

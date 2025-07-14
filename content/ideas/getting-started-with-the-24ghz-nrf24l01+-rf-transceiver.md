@@ -24,6 +24,7 @@ Image: DRAFT_stamp.png
 Summary: bla bla bla
 
 Check out
+
 * [RadioHead Packet Radio library for embedded microprocessors](http://www.airspayce.com/mikem/arduino/RadioHead/index.html)
 * [nRFIoT - Easy IoT Sensors](https://hackaday.io/project/2009-nrfiot-easy-iot-sensors)
 * [MySensors](http://www.mysensors.org/)
@@ -36,12 +37,13 @@ Check out
 * [The Development Of A Lightweight Wireless Protocol](http://hackaday.com/2014/06/12/the-development-of-a-lightweight-wireless-protocol/)
 * [A wireless door monitor based on the BANO framework](http://www.embeddedrelated.com/showarticle/605.php)
 * [RFToy](http://rayshobby.net/rftoy/)
-* [BLE advertising beacons using an nRF24L01+ module ](http://hackaday.com/2016/06/21/hackaday-prize-entry-ble-beacon-library/)
+* [BLE advertising beacons using an nRF24L01+ module](http://hackaday.com/2016/06/21/hackaday-prize-entry-ble-beacon-library/)
 * [Fixing your cheap nrf24l01+ pa/lna module](http://blog.blackoise.de/2016/02/fixing-your-cheap-nrf24l01-palna-module/#comment-7225)
 * [Building a LC-Filter for your nrf24l01+ pa/lna module](http://blog.blackoise.de/category/ugly-fix/)
 * [Optimizing your nRF24 range with a simple test rig](https://bitbanksoftware.blogspot.com/2018/12/optimizing-your-nrf24-range-with-simple.html)
 
 # Coms Over TCP/IP / Sound & Video Transmission
+
 * [Nerfnet Tunnels TCP/IP Over NRF24L01 Radios](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
 
 ![nRF24L01+](/img/posts/jekyll-posts/nRF24L01P+.jpg)
@@ -70,6 +72,7 @@ you can discover the following facts about this device:
 * Each radio can receive packets on up to six different addresses. This allows us to implement features such as selective packet broadcasting without sacrificing other functionality.
 
 ## Usage
+
 The Enhanced ShockBurst features enable significant improvements of power efficiency for
 bi-directional and uni-directional systems,
 without adding complexity on the host controller side.
@@ -133,6 +136,7 @@ Whenever an acknowledgement is received by an nRF24L01 it will consider the last
 It will then be cleared from the TX FIFO, and the TX_DS IRQ source will be set high.
 
 ## Documenation
+
 The nRF24l01+ transceiver is also simple to use, in part to its simple design philosophy,
 but also thanks to some great libraries:
 
@@ -144,13 +148,14 @@ And to top it off, the website [DIY embedded][09],
 which seems to specialize in the Nordic Semiconductor nRF24L01,
 and has multiple nRF24L01 tutorials on it home page.
 
-* [Tutorial 0: Everything You Need to Know about the nRF24L01 and MiRF-v2 ](http://www.diyembedded.com/tutorials/nrf24l01_0/nrf24l01_tutorial_0.pdf)
+* [Tutorial 0: Everything You Need to Know about the nRF24L01 and MiRF-v2](http://www.diyembedded.com/tutorials/nrf24l01_0/nrf24l01_tutorial_0.pdf)
 * [Tutorial 1: Getting a Simple Link Going with the nRF24L01 and the nRF24L01 C Library](http://read.pudn.com/downloads144/sourcecode/embed/626756/nrf24l01_tutorial_1_pic18.pdf)
 * [Tutorial 2: A Sweet Hardware Link Layer with Enhanced Shockburst](http://read.pudn.com/downloads144/sourcecode/embed/626770/nrf24l01_tutorial_2_pic18.pdf)
-* [Tutorial 3: Working with Multiple Pipes ](http://read.pudn.com/downloads164/sourcecode/book/750274/nrf24l01_tutorial_3.pdf)
+* [Tutorial 3: Working with Multiple Pipes](http://read.pudn.com/downloads164/sourcecode/book/750274/nrf24l01_tutorial_3.pdf)
 * [Tutorial 4: Cryptography with ARC4](http://www.diyembedded.com/tutorials/nrf24l01_4/nrf24l01_tutorial_4.pdf)
 
 ## Key Features
+
 Key features of the nRF24L01+ are (source: [nRF24L01+ data sheet][02]):
 
 * Worldwide 2.4GHz ISM band, GFSK modulation, 1 or 2MHz bandwidth
@@ -173,6 +178,7 @@ Below is the nRF24L01 Block Diagram (Source: Nordic Semiconductor Data Sheet [nR
 </center>
 
 ## Pin Connections
+
 On the board containing the nRF24L01+, you have eight pins to interface with,
 and these are Vcc, GND, IRQ, CE, and the four SPI-related pins (CSN, SCK, MISO, and MOSI).
 The boards pin out is illustrated below:
@@ -192,10 +198,12 @@ The boards pin out is illustrated below:
 8. **IRQ:** Optional Interrupt Request pin.  The interrupt pin is to signal your microcontroller that something interesting has happened. You can set interrupts for any combination of the following events: data received, data transmitted, and maximum number of transmit retries reached. If you’re not using interrupts, this pin isn’t required because you can poll the 24L01’s STATUS register over SPI to see if any interrupt has occurred, but it’s still faster (in general) to check the status of an IO pin than to send an SPI command and then wait for the response. NOTE: the IRQ pin is ACTIVE-LOW. It is normally high, but when an interrupt is asserted, the pin will go low.
 
 ## Bit and Byte Order
+
 The SPI needs to be configured to send the **Most Significant Bit First**. within a byte.
 For multiple data bytes, the **Least Significant Byte needs to be shifted first**.
 
 ## Establishing My Code Base
+
 I'm using the blog posting [Setup Nordic nRF24L01 RF modules to both Arduino UNO and Raspberry Pi][04]
 and [Migrated RF24 codes to github][08]
 for guiding me in the development of my wireless sensor network.
@@ -215,6 +223,7 @@ create the required libraries to support the Raspberry Pi or the Arduino.
 I'm attempting to make simpler the maintenance of a RPi/Arduino wireless network with a single code base.
 
 ### Arduino Hardware
+
 Arduino Uno connections to the nRF24L01 modules:
 
 | Arduino Uno | nRF24L01+ | Function |
@@ -237,6 +246,7 @@ Optional :- Connect a small buzzer to digital Pin 2 to hear a beep when the pack
 >>>**Note:** Resetting the Arduino doesn’t necessarily reset the radio, which can prevent the radio from initializing properly.  Neil's Log Book][16] states you can avoid this problem by wiring the radio’s Vcc pin to an Arduino digital output pin.  At program startup, set that pin low for 100 ms and then high before calling Radio_Init().  This will reset the radio, ensuring that it is ready to be reinitialized.
 
 ### Arduino Software
+
 Make sure the Arduino IDE is installed on the Ubuntu platfrom via `sudo apt-get install arduino arduino-core arduino-mk`.
 The program required for the Ardunio is within `~/src/RF24/examples/nRF24_sendto_hub`.
 From the directory `~/src/RF24`,
@@ -260,6 +270,7 @@ Compile and upload to the Arduino
 |       Gnd (Pin 25)      |   Pin 1   |   GND    |
 
 ### Raspberry Pi Software
+
 I downloaded the library and example files into `~/src`
 on my Raspberry Pi using `git clone https://github.com/stanleyseow/RF24.git`.
 I then proceeded to build the required libraries and executables doing the following:

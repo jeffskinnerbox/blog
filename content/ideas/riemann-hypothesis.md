@@ -35,6 +35,7 @@ Version:      0.0.0
 
 
 # Manim
+
 Manim is an engine for precise animations, designed for creating explanatory math videos.
 
 * [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
@@ -69,6 +70,7 @@ Manim is an engine for precise animations, designed for creating explanatory mat
 
 
 # The Unreasonable Effectiveness of Mathematics
+
 ["The Unreasonable Effectiveness of Mathematics in the Natural Sciences"](hhttps://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf)
 is the title of an article, published in 1960 by the physicist Eugene Wigner, that put me on this quest.
 
@@ -131,6 +133,7 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 
 
 # Primes and Cryptography
+
 The most popular example I know comes from Cryptography, where many systems rely on problems in number theory, where primes have an important role (since primes are in a sense the "building blocks" of numbers).
 
 Take for example the RSA encryption system: All arithmetic is done modulo n, with n=pq and p,q large primes. Decryption in this system relies on computing Euler's phi function, φ(n), which is hard to compute (hence the system is hard to break) unless you know the prime factorization of n (which is also hard to compute unless you know it upfront). Hence you need a method to generate primes (the Miller-Rabin primality checking algorithm is usually used here) and then you construct n by multiplying the primes you have found.
@@ -139,6 +142,7 @@ Take for example the RSA encryption system: All arithmetic is done modulo n, wit
 
 
 # What is the Riemann Hypothesis?
+
 The Riemann Hypothesis is one of the [Millennium Prize Problems](http://www.claymath.org/millennium-problems/millennium-prize-problems).
 
 Best explanation of the Riemann hypothesis
@@ -189,6 +193,7 @@ These include
 
 
 ## Physics
+
 Researchers have discovered a deep connection between the Riemann hypothesis and the physical
 
 * [Physicists Attack Math’s $1,000,000 Question](https://www.quantamagazine.org/quantum-physicists-attack-the-riemann-hypothesis-20170404)
@@ -200,6 +205,7 @@ Researchers have discovered a deep connection between the Riemann hypothesis and
 
 
 # Some Facts About Prime Numbers
+
 Univerisity of Tennessee hosts
 [The Prime Pages: prime number research, records, and resources](http://primes.utm.edu/)
 
@@ -233,6 +239,7 @@ A prime number is a positive whole number greater than one which is divisible on
 
 
 ## Fundamental theorem of Arithmetic
+
 The fundamental theorem of arithmetic (FTA),
 also called the unique factorization theorem or the unique-prime-factorization theorem
 states that every integer greater than  either is prime itself
@@ -243,6 +250,7 @@ or is the product of a unique combination of prime numbers.
 
 
 ## Prime Number Theorem
+
 Prime Number Theorm, sometimes called the Dirichlet prime number theorem,
 states that for any two positive coprime integers a and d, there are
 infinitely many primes of the form a + nd, where n is a non-negative integer.
@@ -258,10 +266,10 @@ infinitely many primes of the form a + nd, where n is a non-negative integer.
 * [Riemann Hypothesis - Numberphile](https://www.youtube.com/watch?v=d6c6uIyieoo)
 * [Ramanujan: Making sense of 1+2+3+... = -1/12 and Co.](https://www.youtube.com/watch?v=jcKRGpMiVTw&t=236s)
 * [ASTOUNDING: 1 + 2 + 3 + 4 + 5 + ... = -1/12](https://www.youtube.com/watch?v=w-I6XTVZXww)
-    * [Why -1/12 is a gold nugget](https://www.youtube.com/watch?v=0Oazb7IWzbA&app=desktop)
-    * [Numberphile v. Math: the truth about 1+2+3+...=-1/12](https://www.youtube.com/watch?v=YuIIjLr6vUA)
-    * [This blog probably won't help](http://www.bradyharanblog.com/blog/2015/1/11/this-blog-probably-wont-help)
-    * [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk)
+  * [Why -1/12 is a gold nugget](https://www.youtube.com/watch?v=0Oazb7IWzbA&app=desktop)
+  * [Numberphile v. Math: the truth about 1+2+3+...=-1/12](https://www.youtube.com/watch?v=YuIIjLr6vUA)
+  * [This blog probably won't help](http://www.bradyharanblog.com/blog/2015/1/11/this-blog-probably-wont-help)
+  * [Sum of Natural Numbers (second proof and extra footage)](https://www.youtube.com/watch?v=E-d9mgo8FGk)
 
 
 

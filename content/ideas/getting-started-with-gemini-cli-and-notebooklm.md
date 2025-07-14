@@ -14,7 +14,7 @@ Version:      0.0.0
 
 Claude Code appears to be superior to Gemini CLI - See [Gemini CLI vs Claude Code: Which is the Best AI Coding Tool Ever?](https://www.youtube.com/watch?v=5boXquA7hkk)
 Claude Code is a paid service but Gemini CLI is not
-I use [Claude Sonnet 4], a free service.  Will it do just as good as Claude Code (it uses Opus 4, among other things)? 
+I use [Claude Sonnet 4], a free service.  Will it do just as good as Claude Code (it uses Opus 4, among other things)?
 
 A well written prompt can be important
 
@@ -62,20 +62,24 @@ A well written prompt can be important
 * [How I Use NotebookLM With Obsidian - Practical Note-Taking + AI](https://www.youtube.com/watch?v=STIIO_qUyJs)
 
 ## What is NotbookLM?
+
 This Google AI research tool lets you upload PDFs, Google Docs, websites, videos, and more, then ask questions, generate summaries, and even create audio briefings based entirely on your sources. It’s built on Gemini 2.0 and supports a ton of formats.
 
 ## Why NotbookLM?
+
 * When compared toOpenAI, Anthropic, and Google itself, NotebookLM is one of the more eminently practical and accessible AI tools out there.
 * The Audio Overview feature is the standout. It turns dense reports into casual, listenable summaries
 * NotebookLM doesn’t use your data to train its models is also a big privacy win
 
 ## How NotbookLM?
-* You drop in your materials (reports, articles, meeting notes, transcripts, whatever) and NotebookLM turns them into a fully searchable, citeable mini knowledge base. 
+
+* You drop in your materials (reports, articles, meeting notes, transcripts, whatever) and NotebookLM turns them into a fully searchable, citeable mini knowledge base.
 * You can chat with your notebook, ask it to summarize specific documents, or even use a steering prompt to guide how it responds.
 * It takes your uploaded content and turns it into a surprisingly natural-sounding AI podcast, with two hosts who walk through the material like it’s a news segment.
 * It feels like magic the first time you throw in a 40-page whitepaper and hit play. Suddenly, you can do your research while taking your morning walk.
 
 ## What's the Price?
+
 * Free tier: Upload sources, chat with them, generate summaries and timelines, and create a few Audio Overviews.
 * Pro version: More everything—more sources, more queries, more Audio Overviews, plus team features, analytics, and customization.
 * No promo codes needed—just sign in with your Google account to start using it for free. Pro plans available via Google One, Google Workspace, or Google Cloud.

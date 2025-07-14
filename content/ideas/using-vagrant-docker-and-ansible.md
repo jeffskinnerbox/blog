@@ -92,7 +92,8 @@ VBoxManage showvminfo windows-10_Windows10BaseBox_1581212590774_74597
 ```bash
 # get the list of VMs that are running and their VM ID
 $ VBoxManage list runningvms
-"rsyslog-test_default_1581097326775_97773" {5bf0edd8-8fde-48fa-9532-f9cfdae98ae0}
+"rsyslog-test_defau
+lt_1581097326775_97773" {5bf0edd8-8fde-48fa-9532-f9cfdae98ae0}
 "windows-10_Windows10BaseBox_1581212590774_74597" {856f4ebb-3f51-4138-a51a-2091bf2ab296}
 
 # get the list of properties about the VM, so you can get the IDE controller name
@@ -310,6 +311,7 @@ just one, as they are designed to run on top of a machine.
 Then, you can run as many Docker containers as you like on that virtual machine,
 as long as you have enough processing power and RAM.
 If you can run Docker, you can run your application and it will work every time.
+
 
 Vagrant is a tool focused on providing a consistent development environment workflow
 across multiple operation systems.
@@ -736,7 +738,8 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: VirtualBox Version: 5.2
 ==> default: [vagrant-hostsupdater] Checking for host entries
 ==> default: Mounting shared folders...
-    default: /vagrant => /home/jeff/src/test-env/mongodb
+    default: /vagrant => /home/jeff/src/te
+st-env/mongodb
 ==> default: Machine already provisioned. Run `vagrant provision` or use the `--provision`
 ==> default: flag to force provisioning. Provisioners marked to run always will still run.
 
@@ -1171,7 +1174,8 @@ Here is a basic build template
 
 * [Docker Series](https://earthly.dev/blog/series/docker/)
 
-* [Docker Commands You Should Know as a Beginner](https://dzone.com/articles/docker-commands-you-should-know-as-a-beginner)
+* [Docker Commands You Should Know as a Beginner](https://
+dzone.com/articles/docker-commands-you-should-know-as-a-beginner)
 
 * [How To Install and Use Docker on Ubuntu 20.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
 * [How To Install and Use Docker on Debian 10](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
@@ -1261,8 +1265,8 @@ But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https:/
 Ansible 101 introduces Ansible for Linux server administration, based on the best-selling book, Ansible for DevOps.
 
 * [Ansible 101 - with Jeff Geerling](https://www.youtube.com/playlist?list=PL2_OBreMn7FqZkvMYt6ATmgC0KAGGJNAN)
-    * [Ansible for DevOps: Server and configuration management for humans](https://www.ansiblefordevops.com/)
-        * [Ansible for DevOps: Errata and Changes](https://www.ansiblefordevops.com/errata)
+  * [Ansible for DevOps: Server and configuration management for humans](https://www.ansiblefordevops.com/)
+    * [Ansible for DevOps: Errata and Changes](https://www.ansiblefordevops.com/errata)
 
 * [Ansible Documentation](https://docs.ansible.com/)
 * [Ansible GitHub](https://docs.ansible.com/ansible/latest/user_guide/sample_setup.html)
@@ -1289,8 +1293,8 @@ The Ansible documentation has glossary that could prove to be helpful.
 * [Ansible Tutorial for Beginners](https://linuxhint.com/ansible-tutorial-beginners/)
 * [19 Minutes With Ansible (Part 1/4)](https://sysadmincasts.com/episodes/43-19-minutes-with-ansible-part-1-4)
 * [An Ansible2 Tutorial](https://serversforhackers.com/c/an-ansible2-tutorial)
-    * [Ansible: Using Vault](https://serversforhackers.com/c/ansible-using-vault)
-    * [Ansible: Roles](https://serversforhackers.com/c/ansible-roles)
+  * [Ansible: Using Vault](https://serversforhackers.com/c/ansible-using-vault)
+  * [Ansible: Roles](https://serversforhackers.com/c/ansible-roles)
 * [Vagrant Ansible Provision](https://deparkes.co.uk/2017/12/29/vagrant-ansible-provision/)
 * [Getting Started: Writing Your First Playbook](https://www.ansible.com/blog/getting-started-writing-your-first-playbook)
 * [Configuration Management 101: Writing Ansible Playbooks](https://www.digitalocean.com/community/tutorials/configuration-management-101-writing-ansible-playbooks)
@@ -1576,7 +1580,9 @@ lenovo.config was created successfully
 ```
 
 
-## Inventory
+##
+
+Inventory
 
 In order to be able to set up the connection to servers Ansible is configuring,
 an [Inventory][31] file is needed.
@@ -2273,7 +2279,8 @@ it supports YAML playbooks, Jinja2 templates, and Ansible's hosts files.
 The `ansible-galaxy install ...` command clones the role repository found on Ansible Galaxy.
 These repositories are an excellent starting point for roles you may be interested in creating.
 
-```bash
+```
+bash
 # clone your desired ansible roles from galaxy to default directroy (~/.ansible/roles)
 ansible-galaxy install geerlingguy.git
 

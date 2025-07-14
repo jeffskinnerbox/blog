@@ -26,10 +26,12 @@ Version:      0.0.0
 * [5 commands to check if server is physical or virtual in Linux or Unix](https://www.golinuxcloud.com/check-if-server-is-physical-or-virtual/)
 
 Check out the file "sniff-for-wifi-devices-and-people.md"
+
 * [Great Badge Concept: A “Geiger Counter” For WiFi Deauthentication Frames](https://hackaday.com/2020/06/20/great-badge-concept-a-geiger-counter-for-wifi-deauthentication-frames/)
 
 
 # Fing & Firewalla
+
 * [Fingbox Review - How to manage and monitor your home network devices and users](https://www.youtube.com/watch?v=lkngAqevQ9s)
 * [How to install Fing on CentOS / Ubuntu / Debian Cloud Servers](https://www.layerstack.com/resources/tutorials/How-to-install-Fing-on-CentOS-Ubuntu-Debian-Cloud-Servers)
 * [Fing CLI User Guide](https://www.fing.com/images/uploads/general/Fing_CLI_User_Guide_1.2.pdf)
@@ -63,6 +65,7 @@ I want the script to tell me the IP address, Ethernet MAC address of the device,
 and provide some description of the device is.
 
 # Network Discovery
+
 Network discovery is the process that allows computers and devices to find one another when they are on the same network.
 Sometimes call topology discovery, network discovery is the initial step system administrators
 take when they want to map and monitor their network infrastructure.
@@ -78,6 +81,7 @@ These protocols will discover and collect information about:
 * The logical and physical relationships between network assets
 
 # Find all the networks
+
 ```bash
 $ route -n
 Kernel IP routing table
@@ -90,6 +94,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
 ```
 
 # nmap
+
 To do network discovery, you need nmap.
 Issue a command like: `nmap -sP 192.168.1.0/24`
 and it will do a network discovery on the subnet `192.168.1.0 - 192.168.1.255`
@@ -104,12 +109,13 @@ showing you names and IP addresses of all devices on that network.
 * [Nmap Referasnce Guide](http://www.bandwidthco.com/whitepapers/netforensics/recon/nmap/NMAP%20Reference%20Guide.pdf)
 * [NMAP - A Stealth Port Scanner](http://www.csc.villanova.edu/~nadi/csc8580/S11/nmap-tutorial.pdf)
 * [Nmap Tutorial: Host Discovery](https://www.networkcomputing.com/network-security/nmap-tutorial-host-discovery/1390582372)
-* http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
+* <http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/>
 
 * [`zenmap`][91] is the official GUI for Nmap It is not to replace Nmap, but to make Nmap more useful.
-[91]:https://nmap.org/book/zenmap.html#zenmap-purpose
+[91]:<https://nmap.org/book/zenmap.html#zenmap-purpose>
 
 # Address Resolution Protocol (ARP)
+
 The ARP protocol can provide a mapping between a device's permanent MAC address
 and their, often temporarily, assigned IP address.
 
@@ -124,29 +130,36 @@ sudo arp-scan -I wlan0 -l
 sudo nmap -sP 192.168.1.0/24
 sudo arp -vn
 ```
+
 # Zeroconf
+
 If all your devices support Zeroconf, you might be able to do a device discovery this way.
 
 # Avahi
+
 `avahi-browse -alr` provides this information for other devices in the
 local network on which avahi-daemon is running.
 
 
 # Finding a device IP Address
+
 **see the same section within "cheatsheet-ip-networking-commands.md"**
 
 * [Finding a device IP Address](http://www.cnx-software.com/2010/10/25/finding-a-device-ip-address/)
-* [ Who is on my wifi?](http://forum.backbox.org/general-support/who-is-on-my-wifi/)
+* [Who is on my wifi?](http://forum.backbox.org/general-support/who-is-on-my-wifi/)
 * [Find What Devices Are Connected to Network In Ubuntu](http://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/)
 
 
 # Finding a Duplicate IP Address
+
 **see the same section within "cheatsheet-ip-networking-commands.md"**
 
 # Finding Your Raspberry Pi
+
 **see the same section within "cheatsheet-ip-networking-commands.md"**
 
 # Is It a Physical Or Virtual Machine
+
 You might be wondering whether you are working on a physical or virtual machine
 but you may not have physical access.
 However, it is possible to check if your Linux system is physical or virtual machine using couple of Linux utilities:

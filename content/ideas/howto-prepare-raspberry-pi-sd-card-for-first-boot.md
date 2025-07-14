@@ -22,6 +22,7 @@ and data and configurations are kept away from their devices,
 so they are easier to back up regularly.
 
 # Raspberry Pi Setup
+
 I have set up nearly all my Raspberry Pi's as [headless devices][01];
 not monitor, keyboard, or mouse attached to the device.
 For one thing, I can run any X-Window application from my Linux desktop using its X Server.
@@ -40,10 +41,11 @@ With this in place, you just need to provision the RPi Zero
 like any Raspberry Pi for WiFi connectivity.
 
 # What Version of RPi DO I Have?
+
 * [Raspberry Pi OS "Bullseye" Launches, Brings Speed Boost to the Latest Raspberry Pi 4 Models](https://www.hackster.io/news/raspberry-pi-os-bullseye-launches-brings-speed-boost-to-the-latest-raspberry-pi-4-models-b86becec3ae6)
 * [How to know which Raspberry do you have](https://oastic.com/posts/how-to-know-which-raspberry-do-you-have/)
-    * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
-    * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
+  * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
+  * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
 
 
 
@@ -55,6 +57,7 @@ like any Raspberry Pi for WiFi connectivity.
 # Preparing the Raspberry Pi Image
 
 ## Choose Your OS
+
 * [Raspberry Pi OS][31]
 * [How to install Ubuntu Desktop on Raspberry Pi 4](https://ubuntu.com/tutorials/how-to-install-ubuntu-desktop-on-raspberry-pi-4#1-overview)
 * [How to install Ubuntu Server on your Raspberry Pi](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview)
@@ -63,6 +66,7 @@ like any Raspberry Pi for WiFi connectivity.
 * [How to Install Arch Linux on a Raspberry Pi 4](https://itsfoss.com/install-arch-raspberry-pi/)
 
 ### Step 1: Download Raspberry Pi Image - DONE
+
 Before you can load a copy of the latest Raspberry Pi image onto your micro SD Card,
 you must first download the official [Raspberry Pi 4][30] operating system, [Raspberry Pi OS][31]
 I'll download and install the Raspberry Pi OS Lite version.
@@ -106,6 +110,7 @@ rm 2021-05-07-raspios-buster-armhf-full.zip
 ```
 
 ### Step 2: Write Raspberry Pi Image to SD Card - DONE
+
 Next using Linux, you have to copied the Raspberry OS image onto the SD card mounted to your system.
 I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][32] to create my SD Card.
 Make sure to [choose a reputable SD Card][33] from [here][34], don't go cheap.
@@ -170,6 +175,7 @@ rm ~/Downloads/RPi-OS/copy-from-sd-card.img
 ```
 
 ### Step 3: Enable SSH on SD Card - DONE
+
 SSH can be enabled on first boot by placing a file named `ssh` (without any extension),
 onto the root directory of the boot partition on the SD-Card:
 
@@ -203,9 +209,10 @@ This will need to be fixed in a later step where we reclaim this abandoned stora
 >```
 >
 >Depending of the size of the drive, the process will take some time to complete.
->Once the disk is erased, the `dd `command will print “No space left on device”.
+>Once the disk is erased, the `dd`command will print “No space left on device”.
 
 ### Step 4: Set a Static IP Address - DONE
+
 If you’re using your Raspberry Pi as a server
 often need to access it remotely from another device,
 or provission it with with tools like Ansible,
@@ -239,9 +246,11 @@ sudo umount /dev/sdj1 /dev/sdj2
 ```
 
 Source:
+
 * [How Do I Set a Static IP Address on Raspberry Pi?](https://www.makeuseof.com/raspberry-pi-set-static-ip/)
 
 ### Step 5: Install Ansible SSH Key
+
 A common method for using Ansible is to set up passwordless
 SSH keys to facilitate ease of management and automation of multiple nodes from a single controller.
 My Ansible controller is my Linux desktop server
@@ -258,6 +267,7 @@ Sources:
 * [Say YES to Password-free SSH Access!](https://medium.com/100-days-of-linux/say-yes-to-password-free-ssh-access-c7a7fa315cd7)
 
 ### Step X: Booting From the SD-Card
+
 Install the SD Card created earlier and apply power.
 Once the RPi boots up,
 you can [find your Raspberry P on your network][35] using [`arp-scan`][36].
@@ -274,11 +284,11 @@ sudo arp-scan 192.168.1.0/24
 
 # scan for a raspberry pi
 $ sudo arp-scan 192.168.1.0/24 | grep -e dc:a6:32 -e b8:27:eb -e e4:5f:01
-192.168.1.69	dc:a6:32:a7:fe:98	Raspberry Pi Trading Ltd
+192.168.1.69 dc:a6:32:a7:fe:98 Raspberry Pi Trading Ltd
 
 # scan for a edimax wifi usb dongle
 $ sudo arp-scan 192.168.1.0/24 | grep -e 00:00:b4 -e 00:0e:2e -e 00:1f:1f -e 00:50:fc -e 08:be:ac -e 74:da:38 -e 80:1f:02
-192.168.1.26	74:da:38:70:1c:08	Edimax Technology Co. Ltd.
+192.168.1.26 74:da:38:70:1c:08 Edimax Technology Co. Ltd.
 ```
 
 Now using the IP address you found for the RPi,
@@ -329,6 +339,7 @@ Sources:
 # Post First Boot
 
 ### Ansible `apt update` All Packages
+
 You can update the base Raspberry Pi OS image using the
 `apt update && apt full-upgrade` equivalent apt module.
 The playbook would be:
@@ -361,9 +372,11 @@ The playbook would be:
 ```
 
 Source
+
 * [Ansible apt update all packages on Ubuntu / Debian Linux](https://www.cyberciti.biz/faq/ansible-apt-update-all-packages-on-ubuntu-debian-linux/)
 
 ### Ansible Install Docker
+
 * [How to install Docker with Ansible for Raspberry Pi server?](https://www.reddit.com/r/selfhosted/comments/jqiwvo/how_to_install_docker_with_ansible_for_raspberry/)
 * [How to install docker and docker-compose on your Raspberry Pi with Ansible](https://iotechonline.com/how-to-install-docker-and-docker-compose-on-your-raspberry-pi-with-ansible/)
 
@@ -371,6 +384,7 @@ Source
 ```
 
 Sourcs:
+
 * [How To Install and Use Docker on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-18-04)
 * [How to Use Ansible to Install and Set Up Docker on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-use-ansible-to-install-and-set-up-docker-on-ubuntu-18-04)
 

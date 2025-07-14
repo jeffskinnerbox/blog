@@ -39,10 +39,10 @@ I'm thinking its time to replace it.
 After much research, my replacement selection was the following:
 
 * [MSI PRO Z690-A ProSeries][09] motherboard with LGA 1700 CPU socket, DDR5 memory, and Intel Z690 Chipset - $246 November 2022 from [Amazon][13]
-    * [Manual & Document][14]
-    * [Drivers & Downloads: BIOS][15]
+  * [Manual & Document][14]
+  * [Drivers & Downloads: BIOS][15]
 * [12th Gen (Adler Lake) Cores i5-12600K][10] with Intel UHD 770 Graphics, 10 Cores (6P+4E) with 20M Cache, up to 4.9 GHz Unlocked, and LGA1700 600 Series Chipset 125W - $252 November 2022 from [Amazon][16]
-    * [Latest Drivers & Software][17]
+  * [Latest Drivers & Software][17]
 * [32GB (2x16GB) of Corsair DDR5 5200MHz (PC5-41600) RAM][11]
 * [Crucial P3 Plus 500GB PCIe 4.0 3D NAND NVMe M.2 SSD][18] - $143 November 2022 from [Amazon][19]
 * [Vetroo V5 CPU Air Cooler with 5 Heat Pipes 120mm PWM Processor Cooler for Intel LGA 1700/1200/115X][20] - $28 April 2024 from [Amazon][21]
@@ -74,6 +74,7 @@ Research Sources:
 
 
 # Benchmark Linux Desktop System
+
 Using the article "[How to Benchmark Your Linux System][01]" as my guide,
 I performed several performance benchmark test on my Linux Desktop for my
 old 2013 system and my new 2024 system
@@ -87,6 +88,7 @@ Geekbench 5, Cinebench R23, and PCMark 10 to synthetically push processors to th
 [9 Best Free Linux Benchmark Tools](https://www.linuxlinks.com/benchmarktools/)
 
 ## Temperature
+
 * [How To Check CPU Temperature On Linux](https://www.technewstoday.com/cpu-temperature-linux/)
 * [How to Check CPU Temperature on Linux](https://phoenixnap.com/kb/linux-cpu-temp)
 * [How to check CPU temperature on Ubuntu Linux](https://www.cyberciti.biz/faq/how-to-check-cpu-temperature-on-ubuntu-linux/)

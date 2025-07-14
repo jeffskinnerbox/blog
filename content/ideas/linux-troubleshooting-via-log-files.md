@@ -98,6 +98,7 @@ I'm going to be focus on system logs, as that is where the heart of Linux troubl
 And the key issue here is, how do you view and interperate these log files?
 
 # Rsyslog
+
 rsyslog is the default logging program in Debian and Red Hat.
 It is an extension of the original syslog protocol,
 with additional features such as flexible configuration,
@@ -114,9 +115,11 @@ from programs and servers and direct those messages to local log files, devices,
 # Tools for Viewing Logs
 
 ## less
+
 The one problem with this method is that syslog can grow fairly large; and, considering what you’re looking for will most likely be at or near the bottom, you might not want to spend the time scrolling line or page at a time to reach that end. Will syslog open in the less command, you could also hit the [Shift]+[g] combination to immediately go to the end of the log file. The end will be denoted by (END). You can then scroll up with the arrow keys or the scroll wheel to find exactly what you want.
 
 ## tail
+
  What tail does is output the last part of files.
  So, if you issue the command `tail /var/log/syslog`,
  it will print out only the last few lines of the `syslog` file.
@@ -131,10 +134,12 @@ This command would follow input to `syslog` and only print out the most recent f
 As soon as a new line is written to `syslog`, it would remove the oldest from the top.
 
 ## dmesg
+
 The dmesg command prints the kernel ring buffer.
 From the terminal window, if you issue the command `dmesg`, the entire kernel ring buffer will print out.
 
 # `/var/log`
+
 If you open a terminal window and issue the command `ls /var/log`,
 you'll see something like this:
 
@@ -172,11 +177,13 @@ alternatives.log.7.gz   dmesg.4.gz             mail.err.2.gz    syslog.2.gz
 ```
 
 # `/var/log/syslog`
+
 One of the most important logs `/var/log/syslog`.
 This particular log file logs everything except auth-related messages.
 Say you want to view the contents of that particular log file. To do that, you could quickly issue the command less /var/log/syslog. This command will open the syslog log file to the top. You can then use the arrow keys to scroll down one line at a time, the spacebar to scroll down one page at a time, or the mouse wheel to easily scroll through the file.
 
 # `/var/log/apcupcd`
+
 A bash command to filter the most interesting log messages is this:
 
 ```bash
@@ -188,16 +195,18 @@ grep -iv ': starting\|kernel: .*: Power Button\|watching system buttons\|Stopped
 # Improper Shutdown Troubleshooter
 
 # What Caused the Shutdown
+
 When your system stops for no apperent reason,
 you want a way to find out what caused the shutdown.
 Was a `shutdown` request run from console,
 or someone hit power button, over heated CPU, power hit, etc.?
 
 There are 4 commands to stop a Linux system properly:
-`shutdown`, `poweroff`, `halt`, and `reboot` - https://www.tecmint.com/shutdown-poweroff-halt-and-reboot-commands-in-linux/
+`shutdown`, `poweroff`, `halt`, and `reboot` - <https://www.tecmint.com/shutdown-poweroff-halt-and-reboot-commands-in-linux/>
 
 ## last
-Source - https://unix.stackexchange.com/questions/9819/how-to-find-out-from-the-logs-what-caused-system-shutdown
+
+Source - <https://unix.stackexchange.com/questions/9819/how-to-find-out-from-the-logs-what-caused-system-shutdown>
 
 >**NOTE:**
 >You can use the `who` command to print who is logged on,
@@ -270,12 +279,15 @@ rsyslogd: ... exiting on signal 15
 ```
 
 # Wireless Connection Troubleshooter
+
 Sources
+
 * [Wireless connection troubleshooter](https://help.ubuntu.com/stable/ubuntu-help/net-wireless-troubleshooting-hardware-check.html)
 * [How do I troubleshoot problems with my wireless connection?](https://askubuntu.com/questions/236119/how-do-i-troubleshoot-problems-with-my-wireless-connection)
 * []()
 
 ## Check the Wireless Adapter
+
 Even though the wireless adapter is connected to the computer,
 it may not have been recognized as a network device by the computer.
 First step, check whether the device was recognized properly:
@@ -329,6 +341,7 @@ $ sudo lshw -C network
 >you'll need to use other tools listed [here][01].
 
 ## Check the Signal Quality
+
 If you have no signal or your access point isn't recognized,
 you need to focus on the low-level stuff (hardware/drivers).
 Is the router on?
@@ -337,6 +350,7 @@ Is device too far away from the access point?
 Do you have the right driver for your WiFi card?
 
 ## Is the Network Connection Stable
+
 Since TCP/IP supports error-detection with retransmits,
 and congestion control, WiFi disconnects/reconnects are usually a result of a
 large number of errors to the point where TCP gives-up.
@@ -354,7 +368,8 @@ Install `sudo apt-get install mtr`
 ## Is the Network Connection Stable
 
 # Other
-Check Swap Usage Size and Utilization - https://www.cyberciti.biz/faq/linux-check-swap-usage-command/
+
+Check Swap Usage Size and Utilization - <https://www.cyberciti.biz/faq/linux-check-swap-usage-command/>
 
 
 

@@ -17,11 +17,13 @@ Version:      0.0.0
 **Computational Electromagnetics (CEM)**
 is the process of modeling the interaction of electromagnetic fields with physical objects and the environment.
 It typically involves using computationally efficient approximations to Maxwell's equations and is used to calculate antenna performance, electromagnetic compatibility, radar cross section and electromagnetic wave propagation.
-* https://en.wikipedia.org/wiki/Computational_electromagnetics
+
+* <https://en.wikipedia.org/wiki/Computational_electromagnetics>
 
 **Finite-Difference Time-Domain (FDTD)**
 is a numerical analysis technique used for modeling computational electrodynamics (finding approximate solutions to the associated system of differential equations). Since it is a time-domain method, FDTD solutions can cover a wide frequency range with a single simulation run, and treat nonlinear material properties in a natural way.
-* https://en.wikipedia.org/wiki/Finite-difference_time-domain_method
+
+* <https://en.wikipedia.org/wiki/Finite-difference_time-domain_method>
 
 
 
@@ -38,6 +40,7 @@ is a numerical analysis technique used for modeling computational electrodynamic
 
 
 # What is MEEP?
+
 The MIT Electromagnetic Equation Propagation (MEEP) is a free finite-difference time-domain (FDTD)
 simulation software package developed at MIT to model electromagnetic systems,
 along with our MPB eigenmode package
@@ -52,9 +55,10 @@ along with our MPB eigenmode package
 * [Development of Software for Antenna Analysis and Design using FTDT](https://fenix.tecnico.ulisboa.pt/downloadFile/395137440463/dissertacao.pdf)
 
 # Antenna Radiation Pattern
+
 In the field of antenna design the term radiation pattern
 (or antenna pattern or far-field pattern)
-refers to the directional (angular) dependence of the strength of the radio waves from the antenna. - https://en.wikipedia.org/wiki/Radiation_pattern
+refers to the directional (angular) dependence of the strength of the radio waves from the antenna. - <https://en.wikipedia.org/wiki/Radiation_pattern>
 
 * [An Introduction to Antenna Basics](https://www.allaboutcircuits.com/technical-articles/an-introduction-to-antenna-basics/)
 * [Antenna Basics: Radiation Patterns, Permittivity, Directivity, and Gain](https://www.allaboutcircuits.com/technical-articles/antenna-basics-field-radiation-patterns-permittivity-directivity-gain/)
@@ -71,6 +75,7 @@ refers to the directional (angular) dependence of the strength of the radio wave
 
 
 # What is openEMS?
+
 Welcome! openEMS is a free and open electromagnetic field solver using the FDTD method.
 Matlab or Octave are used as an easy and flexible scripting interface.
 

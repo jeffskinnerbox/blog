@@ -18,6 +18,7 @@ Version:      0.0.0
 
 
 # OpenWrt
+
 ![openwrt-logo](http://domoticx.com/wp-content/uploads/openwrt-logo.png)
 [OpenWrt][40] is a descendant of the firmware used for the classic [Linksys WRT54G][39] router
 (Named “WRT” after the first device that  prompted porting Linux to them, the “Linksys WRT45G”).
@@ -90,6 +91,7 @@ Remote Authentication Dial-In User Service (RADIUS) authentication,
 Dropbear Secure Shell (SSH) server, OpenVPN, among others.
 
 ## Linux Kernel
+
 There are so many Linux distributions out in the wild,
 but there is only one de facto thing that they have in common:
 the [Linux kernel][57].
@@ -112,6 +114,7 @@ and a [shell][63] for user interaction.
 These additional application  include util-linux, uClibc, and BusyBox discussed below.
 
 ## util-linux
+
 util-linux is a standard package of the Linux operating system.
 The [util-linux code repository][55] is used by all variants of Linux.
 This package contains a number of important utilities,
@@ -130,6 +133,7 @@ For example, utilities to manage the WiFi on the WRTnode will not be within util
 * [An introduction to the GNU Core Utilities](https://opensource.com/article/18/4/gnu-core-utilities)
 
 ## uClibc
+
 [uClibc][51] (aka µClibc/pronounced yew-see-lib-see)
 is a small C standard library intended for Linux kernel-based
 operating systems for embedded systems and mobile devices.
@@ -146,6 +150,7 @@ all built to produce binaries for your target system linked with uClibc.
 You can build your own native uClibc toolchain using the [uClibc buildroot system][54].
 
 ## BusyBox
+
 [BusyBox][11] is a tool loaded into the OpenWrt environment.
 BusyBox combines tiny versions of many common UNIX utilities into a single small executable.
 It provides minimalist replacements for most of the utilities you usually find
@@ -178,6 +183,7 @@ and many other of your favorate Linux commands
 ```
 
 ## WiFi Utilities
+
 Like in standard Linux, WiFi support, wireless in general,
 is fragmented.
 Wireless devices have an API different from that of Ethernet devices
@@ -207,6 +213,7 @@ for the up-link part of the router inside of WRTnode.
 [OpenWrt also support many WiFi modes][72] such as AP, Monitor, Ad-Hoc, [802.11s][73], and more.
 
 ## OPKG Package Manager
+
 The [`opkg`][25] utility is a lightweight package manager used to download
 and install OpenWrt packages from local package repositories
 or ones located in the Internet.
@@ -260,6 +267,7 @@ You can also upgrade a package or a group of packages using the following comman
 # upgrade a package or a group of packages
 opkg upgrade <packages>
 ```
+
 [As per the OpenWRT wiki, this is not recommended][36].
 For two main reasons:
 
@@ -269,6 +277,7 @@ For two main reasons:
 Instead of upgrading, it is recommended to reflash OpenWRT with the newer firmware image.
 
 ## Commands for Finding Hardware and Software Information
+
 You can check version of your OpenWrt
 and get basic information about the hardware via:
 
@@ -300,6 +309,7 @@ logread
 ```
 
 ## Bootloader
+
 The WRTnode inclduses a customized [uboot][29] which is a popular [bootloader][30] that
 supports multiple architectures (ARM, MIPS, AVR32, Nios, Microblaze, 68K and x86)
 and filesystems (FAT32, ext2, ext3, ext4 and Cramfs).
@@ -313,6 +323,7 @@ that the existence of a bootloader offers users and developers
 additional possibilities to [debrick][50] a device.
 
 ## Flashing Firmware
+
 When talking about "flashing OpenWrt" or "burning" onto a router,
 we're going to replace the original software on the router with OpenWrt.
 The word "flash" in this case comes from the fact that the storage space
@@ -325,6 +336,7 @@ Good starting points are the pages
 "[Download and Flash OpenWrt][08]" and "[Installing OpenWrt][09]".
 
 ## Router Reset
+
 If you are like myself, at some point you'll end up resetting the router out of desperation.
 This will cause OpenWrt to enter a built-in [failsafe mode][12].
 Failsafe mode bypasses all configuration located on the [JFFS2][11] partition
@@ -352,7 +364,7 @@ The router will not have the LuCI browser interface and no WiFi radio,
 so one of the way to get new firmware on the device is via Ethernet
 [`scp`][32] or [`telnet`][33].
 ###########
-try netcat to - http://stackoverflow.com/questions/15807122/telnet-file-transfer-between-two-linux-machines
+try netcat to - <http://stackoverflow.com/questions/15807122/telnet-file-transfer-between-two-linux-machines>
 ###########
 You'll need to connect another computer on `eth0` on the router.
 With this,the route and computer are on the same network.
@@ -383,11 +395,12 @@ mtd -r write openwrt-ar150-2.12.bin firmware
 ```
 
 sysupgrade -v openwrt-ar71xx-generic-linino-one-16M-squashfs-sysupgrade.bin
-https://wiki.openwrt.org/doc/howto/generic.uninstall
-https://forum.piratebox.cc/read.php?8,3747,4991
-https://wiki.openwrt.org/doc/howto/generic.sysupgrade
+<https://wiki.openwrt.org/doc/howto/generic.uninstall>
+<https://forum.piratebox.cc/read.php?8,3747,4991>
+<https://wiki.openwrt.org/doc/howto/generic.sysupgrade>
 
 # Gl-iNet GL-AR150 Router
+
 [!AR150](http://www.gl-inet.com/wordpress/wp-content/uploads/2015/09/ar150_marks_800.jpg)
 [!AR150](http://www.gl-inet.com/wordpress/wp-content/uploads/2015/08/700x500_p1.jpg)
 To help me write this document,
@@ -401,6 +414,7 @@ powered vi MicroUSB  port, Ethernet ports for WAN and LAN connections, USB 2.0 t
 ###########
 hardware toggle button for reset and On/Off switch, USB Power control via GPIO 6
 This tiny $25 devices has good [documentation][89] and even a [blog][90] for the hacker community.
+
 * [OpenWrt page for GL-AR150](https://wiki.openwrt.org/toh/gl-inet/gl-ar150)
 
 For the GL-AR150, you'll find details on how to use and configure the router
@@ -414,6 +428,7 @@ which covers topics like [building OpenWRT firmware][80],
 You can even see a teardown of the device [here][79].
 
 ## Flashing Firmware
+
 When talking about "flashing OpenWrt" or "burning" onto a router,
 we're going to replace the original software on the router with OpenWrt.
 The word "flash" in this case comes from the fact that the storage space
@@ -443,6 +458,7 @@ To install the downloaded firmware:
 to login and enter the root password.
 
 ## Router Reset
+
 If you are like myself, at some point you'll end up resetting the router out of desperation.
 You can do this with the GL-AR150 by [hold the reset button for more then 8 seconds][96].
 When this is done, the device defaults to GL-iNet's network domain of `192.168.8.0/24`,
@@ -454,6 +470,7 @@ it appears only the Ethernet port, not WiFi, is accessible after a reset.
 * [How-To: Clear OpenWRT config back to 'factory' settings](https://support.rbtechvt.com/knowledgebase/article/View/61/0/how-to-clear-openwrt-config-back-to-factory-settings)
 
 ## Unbricking Gl-iNet
+
 A bricked GL-iNet is a device that does not respond.
 In my case, I could ping the port but couldn't get in via `ssh`, `telnet`, or
 even via [console cable][98].
@@ -468,6 +485,7 @@ The procedures outline [here][99] have not bee verified,
 and in fact, [some claim this will do more harm than good][100].
 
 # Start Here
+
 First thing to do is review [this presentation][78],
 go to the [OpenWrt website][01],
 read the [OpenWrt New Comer's Guide][02]
@@ -485,6 +503,7 @@ by accessing the device via the Ethernet interface.
 
 
 ###########################
+
 * [What causes the 'Connection Refused' message?](http://serverfault.com/questions/725262/what-causes-the-connection-refused-message)
 * [What can be the reasons of connection refused errors?](http://stackoverflow.com/questions/2333400/what-can-be-the-reasons-of-connection-refused-errors)
 ###########################
@@ -513,6 +532,7 @@ If this fails, this removes any potential issues from your `ssh` application.
 Then you can conclude that the port is not open on the destination machine.
 
 # Step X: Internet Connectivity - DONE
+
 To set up the OpenWrt device,
 I could use it as a router and connect its WAN interface to my ISP
 and then put a Laptop on the Ethernet or WiFi port provide by the device.
@@ -545,6 +565,7 @@ over which the Laptop and the device can communicate.
 The Laptop can act as a bridge and support Internet connectivity for the OpenWrt device.
 
 ### Within Laptop
+
 But this doesn't happen automatically.
 The OpenWrt devices must be told that its LAN has Internet connectivity via the Laptop.
 First you need the IP address of the Laptop as seen by the OpenWrt devices LAN.
@@ -598,6 +619,7 @@ sudo iptables -t nat -F POSTROUTING
 ```
 
 ### Within OpenWrt
+
 Now `ssh root@192.168.8.1` into your OpenWrt device,
 and tell the OpenWrt device the Laptop should be its Internet Gateway.
 First, determine what interface device and IP address the OpenWrt router is using
@@ -857,6 +879,7 @@ because it is easier to set up and future firmware upgrade will still be written
 to the routers flash (instead of your USB storage device).
 
 # Step X: Install Web User Interface LuCI - DONE
+
 [LuCI][67] is an [extensible and easily maintainable web user interface][75] for OpenWrt.
 It uses the Lua programming language and
 splits the interface up into logical parts for easy maintenance and small size.
@@ -892,6 +915,7 @@ Now you should be able to connect to the web server serving LuCI at `http://192.
 Be aware that LuCI may requires several extentions that can be a resource hog.
 
 # Useful Software
+
 These software packages will come in handy down the line:
 
 ```bash
@@ -899,6 +923,7 @@ opkg update
 
 opkg install screen tcpdump
 ```
+
 # Step X: Change the Host Name
 
 # Step X: Change the Default DHCP Range
@@ -908,24 +933,31 @@ opkg install screen tcpdump
 # Step X: Configuring OpenWrt Router Functions
 
 # Step X: QoS for OpenWrt
+
 * [QoS for OpenWrt](http://www.rooot.net/en/geek-stuff/openwrt/1-qos-openwrt.html)
 
 # Step X: OpenWrt as a WiFi Client
+
 * [OpenWrt as a wifi client](http://www.rooot.net/en/geek-stuff/openwrt/8-openwrt-wifi-client.html)
 
 # step X: Binding IP Address and MAC Address
+
 [How to bind IP Address and MAC Address on TP-Link Router?](http://www.tp-link.com/en/faq-170.html)
 
 # Step X: Upgrading Firmware
+
 * [Upgrading Your Firmware Version](https://cucumberwifi.io/community/tutorials/openwrt-upgrading-firmware-version.html)
 
 # Step X: Scheduling Tasks
+
 * [Scheduling Tasks](https://cucumberwifi.io/community/tutorials/openwrt-schedueling-tasks.html)
 
 # Step X: IPv6 Networking
+
 * [IPv6 home networking with OpenWrt](http://bredsaal.dk/ipv6-home-networking-with-openwrt)
 
 # Step X: OpenWrt Packet Sniffer
+
 * [OpenWrt tcpdump packet captures for traffic evaluation](http://threatvectorsecurity.blogspot.com/2014/06/openwrt-tcpdump-packet-captures-for.html)
 * [Passive WiFi Tracking](http://edwardkeeble.com/2014/02/passive-wifi-tracking/)
 

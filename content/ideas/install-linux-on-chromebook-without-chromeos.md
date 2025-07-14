@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 # Install Xubuntu on Chromebook Without ChromeOS
+
 I have an [Acer Chromebook 14 CB3-431][01] which was manufactured & purchased in 2017 for $275 via Amazon.
 The Acer Chromebook 14 Acer comes with a Intel Celeron N3160 processor,
 4GB LPDDR3 RAM, 32GB of SSD storage, and a very stylish aluminum enclosure.
@@ -37,6 +38,7 @@ Sources:
 * [Lubuntu vs Xubuntu](https://www.educba.com/lubuntu-vs-xubuntu/)
 
 ## GalliumOS vs Lubuntu vs Xubuntu
+
 One of the key decision is what variant of Linux do I want to use?
 I'm a long time user of Ubuntu on my desktop,
 so some version of Linux on the Debian / Ubuntu tree would make most sense.
@@ -48,6 +50,7 @@ Much could be said about pros/cons of each of these Linux version (see Sources b
 but I came to Xubuntu as the best choice for me.
 
 ## Remote Access / Screen Sharing
+
 I want to set up the Chromebook's environment to support the lightweight GUI of Xubuntu,
 that being the [Xfce Desktop Environment][12].
 You may also want to setup the Chromebook with [Virtual Network Computing (VNC)][21].
@@ -66,6 +69,7 @@ The VNC Viewer will be installed on my Linux desktop which is booting Ubuntu.
 It is this machine that we want to view the Remote Server VNC graphical session.
 
 ## Multiple VNC Servers and Clients
+
 I found that setting up a VNC server on Linux can be very tedious and time-consuming.
 Ubuntu has created some utilities to make it easier but it is specifically for the Ubuntu platform.
 After some experimentation, I have a preference for [X11vnc][56]
@@ -87,6 +91,7 @@ see the companion file `install-vnc-on-linux-for-remote-access-and-screen-sharin
 
 
 # Installing Xubuntu on Chromebook
+
 I'll be installing Xubuntu on your Chromebook by completely replacing Chrome OS.
 You'll find the tutorial below in the Sources will give you everything you need.
 The basic installation steps to doing the ChromeOS replacement with Xubuntu are:
@@ -105,6 +110,7 @@ Sources:
 
 
 #### Step 1: Create USB Installer for Xubuntu Image - DONE
+
 [Ventoy][07] is an open source multiboot USB drive supporting ISO/WIM/IMG/VHD(x)/EFI files.
 With Ventoy, you don’t need to format the USB drive for each new installation,
 you just need to copy the ISO file to the USB drive, boot it,
@@ -147,10 +153,12 @@ Sources:
 * [Ventoy: How to Create a Multiboot USB Drive with Multiple ISO Files](https://linuxiac.com/ventoy-create-bootable-usb/)
 
 #### Step 2: Download Xubuntu Image to Flash Drive - DONE
+
 [Download the Xubuntu][10] ISO image and place it on your USB flash drive.
 In my case, I copied the ISO into the Ventoy USB drive I created earlier.
 
 #### Step 3: Disable Write Protection on Acer Chromebook 14 - DONE
+
 All Chromebooks come with physical write protection,
 which is an extra layer of security to stop anything from being installed that shouldn’t be.
 This include write protection of a new OS like ChromeOS Flex.
@@ -172,12 +180,13 @@ If for some reason I want to replace the screw, I have them on the inside for sa
 
 Sources:
 
-* [ Disabling FW Write Protection on Acer Chromebook 14 - tight screw](https://www.reddit.com/r/GalliumOS/comments/6qttgs/help_disabling_fw_write_protection_on_acer/)
+* [Disabling FW Write Protection on Acer Chromebook 14 - tight screw](https://www.reddit.com/r/GalliumOS/comments/6qttgs/help_disabling_fw_write_protection_on_acer/)
 * [Acer Chromebook 14 - How to Install GaliumOS + Product Review][11]
 * [Acer Chromebook 14 Teardown](https://www.ifixit.com/Teardown/Acer+Chromebook+14+Teardown/76353)
 * [Acer Chromebook 14 Teardown](https://ifixit-guide-pdfs.s3.amazonaws.com/pdf/ifixit/guide_76353_en.pdf)
 
 #### Step 4: Flash Chromebook with Coreboot Firmware - DONE
+
 Next we'll replace the Chromebook's BIOS firmware with [coreboot][18].
 [MrChromebox][17] provides coreboot firmware images for the vast majority of
 x86-based Chromebooks and Chromeboxes, providing a [modern UEFI bootloader][19].
@@ -229,6 +238,7 @@ Sources:
 * [MrChromebox.tech](https://mrchromebox.tech/#home)
 
 #### Step 5: Boot Chromebook into Xubuntu Using USB Flash Drive - DONE
+
 Now put the USB flash drive into the Chromebook and power up the system.
 The system will first boot into Ventoy where you will be given a list of images.
 Select the Xubuntu ISO, Xubuntu will be loaded, and then the image is loaded.
@@ -263,6 +273,7 @@ Sources:
 
 
 # Set-up Xubuntu on the Chromebook
+
 If you compare [Ubuntu desktop][15] with [Ubuntu server][16],
 the main difference will be the absence of GUI on the server edition.
 Ubuntu Server is basically a striped down version of Ubuntu desktop without the graphical modules.
@@ -309,6 +320,7 @@ Sources:
 * [How to Run Multiple Desktop Environments on one Linux PC](https://journalxtra.com/linux/desktop/multiple-desktops-on-one-linux-pc-now-thats-greedy/)
 
 #### Step 1: Install Tasksel - DONE
+
 [Tasksel][24] is a Debian/Ubuntu tool that installs multiple related packages
 as a coordinated "task" onto your system.
 This function is similar to that of meta-packages, and in fact,
@@ -344,6 +356,7 @@ Sources:
 * [How To Install And Configure VNC On Ubuntu 20.04?](https://www.imaginelinux.com/install-and-configure-vnc-on-ubuntu/)
 
 #### Step 2: Install Desktop Environment Using Tasksel - DONE
+
 `tasksel` will download and install all of the packages required for the desktop environment.
 Depending on which GUI is being installed,
 you may be prompted during installation on whether or not you wish to change
@@ -396,7 +409,6 @@ To do so execute: `sudo systemctl set-default graphical.target`.
 [20]:https://mrchromebox.tech/#fwscript
 [21]:https://www.tightvnc.com/
 [22]:https://www.reddit.com/r/GalliumOS/comments/8cydt1/howto_flash_full_rom_ie_coreboot_and_install/
-[23]:https://en.wikipedia.org/wiki/Framebuffer
 [24]:https://help.ubuntu.com/community/Tasksel
 [25]:https://wiki.debian.org/DisplayManager
 [26]:https://ubuntu.com/blog/whats-new-in-ubuntu-desktop-20-04-lts

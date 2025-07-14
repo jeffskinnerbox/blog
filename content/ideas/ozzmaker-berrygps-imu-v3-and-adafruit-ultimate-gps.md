@@ -20,6 +20,7 @@ Version:      0.0.0
 
 
 Read this for it good discription of GNSS & NMEA messages
+
 * [Global Positioning Basics](https://www.youtube.com/watch?v=kUUNY-gWT6U&list=PLxCxJVCmDz7oZ05xk2eG27APw5xmEeZaU)
 * [Global Positioning Basics - 6 NMEA Messaging Protocol](https://www.youtube.com/watch?v=2f96rrnE0FU)
 * [ANSI C Basic Lightweight NMEA Parser for GPS](https://www.beyondlogic.org/ansi-c-basic-lightweight-nmea-parser-for-gps/)
@@ -27,17 +28,19 @@ Read this for it good discription of GNSS & NMEA messages
 
 * [How To Make GPS Tracker](https://cellularnews.com/mobile-accessories/how-to-make-gps-tracker/)
 
+
 # Table of Contents
+
 * Background
-    * [Polynesian Wayfinding](https://hackaday.com/2024/02/01/polynesian-wayfinding-traditions-let-humans-roam-the-pacific-ocean/)
-    * [Navigation Technologies](#background-navigation-technologies)
-    * [GNSS Technologies](#global-navigation-satellite-systems-gnss)
+  * [Polynesian Wayfinding](https://hackaday.com/2024/02/01/polynesian-wayfinding-traditions-let-humans-roam-the-pacific-ocean/)
+  * [Navigation Technologies](#background-navigation-technologies)
+  * [GNSS Technologies](#global-navigation-satellite-systems-gnss)
 * BerryGPS Setup
-    * [Setup for Raspbery Pi Zero](#raspberry-pi-zero-setup)
-    * [Setup for OzzMaker's BerryGPS](#setup-for-ozzmakers-berrygps)
-    * [Setup for OzzMaker's IMU](#setup-for-ozzmakers-imu)
+  * [Setup for Raspbery Pi Zero](#raspberry-pi-zero-setup)
+  * [Setup for OzzMaker's BerryGPS](#setup-for-ozzmakers-berrygps)
+  * [Setup for OzzMaker's IMU](#setup-for-ozzmakers-imu)
 * Ultimate GPS Setup
-    * [Setup for Adafruit's Ultimate GPS](#setup-for-adafruits-ultimate-gps)
+  * [Setup for Adafruit's Ultimate GPS](#setup-for-adafruits-ultimate-gps)
 * GNSS Tools
 `xgps`, `xgpsspeed`, `cgps`, `lcdgps`, `gegps` via `man xgps`.
 pip install gps
@@ -48,12 +51,16 @@ You will find more information about `xgps`, `xgpsspeed`, `cgps`, `lcdgps`, `geg
 `xgps`, `cgps`, `gpsmon`, `gegps`, `gpsprof`, `gunplot`, `xgpsspeed`, `xgpx`
 `gpscat`,  `gpspipe`, `gpxlogger`
 
+
 # Linux GNSS Tools
+
 * [A Beginner’s Guide To Using gpsd (GPS Devices) In Linux](https://kickstartembedded.com/2022/07/23/a-beginners-guide-to-using-gpsd-in-linux/)
 * [Tutorial – gpsd](https://www.linux-magazine.com/Issues/2018/210/Tutorial-gpsd)
 * [Getting GPS to work on a Raspberry PI](https://area-51.blog/2012/06/18/getting-gps-to-work-on-a-raspberry-pi/)
 
+
 ## gpsd Daemon
+
 `gpsd` is a service daemon that monitors one or more Global Navigation Satellite Systems (GNSS)
 or Automatic Identification System (AIS) receivers
 attached to a host computer through serial or USB ports.
@@ -82,7 +89,9 @@ For `cgps`, the 3D FIX section tells you it has enough data for a 3D fix on your
 The Err lines tell you the error in your position.
 If you leave it running you should see the Err values change every second or so.
 
+
 # Generate NMEA Data
+
 A drawing tool for generating GPS logs in NMEA format.
 Also can inport NMEA files for displaying.
 
@@ -102,11 +111,11 @@ Also can inport NMEA files for displaying.
 
 * [Send Location & Make Call using SOS Button | IOT Projects | GPS Projects](https://www.youtube.com/watch?v=E-5vazIDznc)
 * [Getting Started with A9G Board | GSM + GPRS + GPS](https://www.youtube.com/watch?v=Yi5dgZBiq7g&list=RDCMUC7raRsx4ojx3cyXT3x9-PuQ&start_radio=1)
-    * [Ai Thinker A9G GSM/GPRS+GPS/BDS Development Board](https://www.amazon.com/Module-Development-Wireless-Transmission-Positioning/dp/B07QDR4ZP6)
-    * [A9G GSM/GPRS+GPS Module](https://www.dfrobot.com/product-2114.html)
-    * [A9G Module SKU TEL0134](https://wiki.dfrobot.com/A9G_Module_SKU_TEL0134)
-    * [A9G based GPS Tracker, SOS Button & Audio Spy Project | Multipurpose IoT Project | ESP32 Projects](https://www.youtube.com/watch?v=--gt-wCcEiM)
-    * [Find My Cat -- the GPS Tracker for Pets](https://www.instructables.com/Find-My-Cat-the-GPS-Tracker-for-Pets/)
+  * [Ai Thinker A9G GSM/GPRS+GPS/BDS Development Board](https://www.amazon.com/Module-Development-Wireless-Transmission-Positioning/dp/B07QDR4ZP6)
+  * [A9G GSM/GPRS+GPS Module](https://www.dfrobot.com/product-2114.html)
+  * [A9G Module SKU TEL0134](https://wiki.dfrobot.com/A9G_Module_SKU_TEL0134)
+  * [A9G based GPS Tracker, SOS Button & Audio Spy Project | Multipurpose IoT Project | ESP32 Projects](https://www.youtube.com/watch?v=--gt-wCcEiM)
+  * [Find My Cat -- the GPS Tracker for Pets](https://www.instructables.com/Find-My-Cat-the-GPS-Tracker-for-Pets/)
 
 * [https://github.com/features/copilot](https://www.seeedstudio.com/Grove-GPS-Air530-p-4584.html)
 
@@ -118,6 +127,7 @@ Also can inport NMEA files for displaying.
 
 
 # GPS / Map Display Servers
+
 * [Traccar](https://www.traccar.org/)
 * [Linxup GPS Fleet Tracker, Vehicle Tracker, and Monitoring System with Real-Time Location GPS Tracking Reports](https://www.amazon.com/dp/B006TZGJDC/ref=syn_sd_offsite_desktop_128)
 
@@ -129,7 +139,7 @@ Also can inport NMEA files for displaying.
 * [Building a GPS System](https://www.sparkfun.com/gps)
 * [Building A GPS With Bug Eyes And Ancient Wisdom](https://hackaday.com/2019/09/06/building-a-gps-with-bug-eyes-and-ancient-wisdom/)
 * [Building A GPS Receiver From The Ground Up](https://hackaday.com/2024/01/02/building-a-gps-receiver-from-the-ground-up/)
-    * [GitHub: leaningktower/Analog-GPS-data-receiver](https://github.com/leaningktower/Analog-GPS-data-receiver)
+  * [GitHub: leaningktower/Analog-GPS-data-receiver](https://github.com/leaningktower/Analog-GPS-data-receiver)
 
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [Product Showcase: SparkFun GNSS Receiver MAX-M10S](https://www.youtube.com/watch?v=Yh8pLKs7aaY)
@@ -153,13 +163,13 @@ Also can inport NMEA files for displaying.
 
 * [The xgps client](http://www.catb.org/gpsd/xgps-sample.html)
 * [gps, xgps, xgpsspeed, cgps, lcdgps, gegps - test clients for gpsd](http://manpages.ubuntu.com/manpages/zesty/man1/gps.1.html)
-* gpsd - https://github.com/biiont/gpsd
-* gpsd - https://wiki.openstreetmap.org/wiki/Gpsd
+* gpsd - <https://github.com/biiont/gpsd>
+* gpsd - <https://wiki.openstreetmap.org/wiki/Gpsd>
 * Detail documentation of gpsd - [gpsd — a GPS service daemon](http://www.catb.org/gpsd/)
 
-* check this out for more information - https://learn.adafruit.com/adafruit-ultimate-gps/resources
-    * Garmin GPS tutoral - http://www8.garmin.com/aboutGPS/
-    * Trimble GPS Tutoral - http://www.trimble.com/gps_tutorial/
+* check this out for more information - <https://learn.adafruit.com/adafruit-ultimate-gps/resources>
+  * Garmin GPS tutoral - <http://www8.garmin.com/aboutGPS/>
+  * Trimble GPS Tutoral - <http://www.trimble.com/gps_tutorial/>
 
 * [GPSBabel](https://www.gpsbabel.org/)
 lets you convert proprietary data formats from a hundred or so different GPS receivers into `.GPX` files that are then easy to work with.
@@ -172,15 +182,21 @@ From there, [using 200 lines of Python](https://github.com/bunnie/watchmap) ([he
 * [Autonomous Drone Dodges Obstacles Without GPS](https://hackaday.com/2021/11/03/autonomous-drone-dodges-obstacles-without-gps/)
 * [GPS Flight Modes](https://droneshopcanada.ca/blogs/drone-tips-and-tricks/124373447-dji-phantom-3-flight-modes)
 
+
 # Antenna Improvements
+
 * [NEW PI ZERO GAINS UNAPPROVED ANTENNAS YET AGAIN](https://hackaday.com/2021/12/13/new-pi-zero-gains-unapproved-antennas-yet-again/)
 * [GNSS Antenna Splitter (Power Divider) with DC Pass - SPX-21223 - SparkFun Electronics](https://www.sparkfun.com/products/21223)
 
+
 # Loko
+
 * [Low Power Mode for Custom GPS Tracker](https://hackaday.com/2022/03/28/low-power-mode-for-custom-gps-tracker/)
 * [Loko-the Tiniest GPS tracker with 270 days battery](https://hackaday.io/project/166619-loko-the-tiniest-gps-tracker-with-270-days-battery)
 
+
 # DashCam
+
 Combining the GPS location information onto a video stream
 
 * [Making a DashCam Using the Raspberry Pi Zero (pt.1)](https://www.hackster.io/BnBe_Club/making-a-dashcam-using-the-raspberry-pi-zero-pt-1-9dd3ad)
@@ -189,16 +205,22 @@ Combining the GPS location information onto a video stream
 * [Building A Dashcam With The Raspberry Pi Zero W](https://www.linuxjournal.com/content/building-dashcam-raspberry-pi-zero-w)
 * [DIY Dashcam: Build a Car Security Camera](https://www.technicallywizardry.com/diy-dashcam-raspberry-pi-zero-w-motion-eye/)
 
+
 # logging
+
 * [Use logzero for simple logging in Python](https://opensource.com/article/20/2/logzero-python)
 
+
 # GPS Jamming and Spoofing
+
 * [How to Fool a GPS](https://www.ted.com/talks/todd_humphreys_how_to_fool_a_gps?language=en)
 * [GPS Jamming and Spoofing: When Good Signals Go Bad](https://www.directionsmag.com/article/8107)
 * [Teardown: Mini GPS Jammer](https://hackaday.com/2020/09/08/teardown-mini-gps-jammer/)
 * [Knowing Your Place: The Implications Of GPS Spoofing And Jamming](https://hackaday.com/2022/05/23/knowing-your-place-the-implications-of-gps-spoofing-and-jamming/)
 
+
 # GPS-Tracker Using LoRa
+
 * [Create Your Own GPS-Tracker Using LoRa](https://dzone.com/articles/create-your-own-gps-tracker-using-lora)
 * [Wio terminal GPS](https://www.hackster.io/SeeedStudio/wio-terminal-gps-ad70e2)
 * [LoRa GPS Tracker with Wio Terminal](https://www.hackster.io/idreams/lora-gps-tracker-with-wio-terminal-5d8647)
@@ -211,8 +233,9 @@ Combining the GPS location information onto a video stream
 
 
 # Investigate This For Ideas
+
 * [unsurv offline - compact GNSS receiver with ESP32](https://www.crowdsupply.com/unsurv-technologies/unsurv-offline)
-    * [step_counting](https://github.com/unsurv/unsurv-offline/tree/master/software/examples/step_counting)
+  * [step_counting](https://github.com/unsurv/unsurv-offline/tree/master/software/examples/step_counting)
 
 
 
@@ -241,50 +264,65 @@ but also has [IMU sensor LSM9DS1][68] and [Barometric Sensor BMP280][69]
 |:--------------------------------|:----------------:|:----------------:|
 
 Sources:
+
 * [MT3339 All-in-One GNSS Datasheet](https://d86o2zu8ugzlg.cloudfront.net/mediatek-craft/documents/mt3339/MT3339_Datasheet.pdf)
 * [u-blox M8 Concurrent GNSS Antenna Modules](https://www.u-blox.com/sites/default/files/CAM-M8-FW3_DataSheet_%28UBX-15031574%29.pdf)
 
+
 # BerryGPS First Fix
+
 When you see most of the NMEA data is empty (repeated ',' present),
 the GPS is trying to obtain a fix.
 On first power up, it can take your GPS module awhile to get a fix.
 It could be longer than 10 minutes in some situations,
 it all depends on interference and if your GPS has clear access to the sky.
-see https://ozzmaker.com/wp-content/uploads/2016/08/NMEA-data0.png
+see <https://ozzmaker.com/wp-content/uploads/2016/08/NMEA-data0.png>
 
 When you GPS has been up and running for awhile and has a fix,
 all the GPS data is provided.
 Also, if your GPS has a fix, you would also see green flashing LED in the middle of the BerryGPS board.
-see https://ozzmak.com/wp-content/uploads/2016/08/NMEA-data1.png
+see <https://ozzmak.com/wp-content/uploads/2016/08/NMEA-data1.png>
+
 
 # Other GPS / GNSS Modules
+
 * [Gravity: GNSS Positioning Module - I2C&UART](https://www.dfrobot.com/product-2651.html?tracking=63da1e73804b0)
 * [GPS Module,Navigation Satellite Positioning NEO-6M](https://www.amazon.com/dp/B0B31NRSD2)
 
+
 # Data Logging
+
 * [The Pythonic Guide To Logging](https://timber.io/blog/the-pythonic-guide-to-logging/)
 * [logzero: Python logging made easy](https://logzero.readthedocs.io/en/latest/)
 * [Use logzero for simple logging in Python](https://opensource.com/article/20/2/logzero-python)
 * [OpenLog Data Logger](https://learn.sparkfun.com/tutorials/openlog-hookup-guide)
 
+
 ## Data Logging for NMEA Output
+
 * [Using PySerial, PyNMEA2, and Raspberry Pi to log NMEA output](https://fishandwhistle.net/post/2016/using-pyserial-pynmea2-and-raspberry-pi-to-log-nmea-output/)
 
+
 ## Plotting
+
 * [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 * [Geographic Data with Basemap](https://jakevdp.github.io/PythonDataScienceHandbook/04.13-geographic-data-with-basemap.html)
 * [OpenCPN Chart Plotter Navigation](https://opencpn.org/index.html)
 * [How to Transform a Reference Frame in Python Using NumPy](https://python.plainenglish.io/reference-frame-transformations-in-python-with-numpy-and-matplotlib-6adeb901e0b0)
 
+
 # Raspberry Pi Zero
+
 * [Raspberry Pi Zero Guide: Projects, Specs, GPIO, Getting Started](https://www.tomshardware.com/features/raspberry-pi-zero)
 * Adafruit LoRa Raspberry Pi Zero Bonnet - what about the LoRa version to support forwarding GPS / IMU data for pre-processing or post-processing
-    * [Single Channel LoRaWAN Gateway for Raspberry Pi](https://learn.adafruit.com/raspberry-pi-single-channel-lorawan-gateway)
-    * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
-    * [SX1308 Raspberry Pi Zero LoRa Gateway Board](https://www.tindie.com/products/will123321/sx1308-raspberry-pi-zero-lora-gateway-board/)
-    * [for case ideas, see this](https://learn.adafruit.com/raspberry-pi-wearable-time-lapse-camera/3d-printing)
+  * [Single Channel LoRaWAN Gateway for Raspberry Pi](https://learn.adafruit.com/raspberry-pi-single-channel-lorawan-gateway)
+  * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
+  * [SX1308 Raspberry Pi Zero LoRa Gateway Board](https://www.tindie.com/products/will123321/sx1308-raspberry-pi-zero-lora-gateway-board/)
+  * [for case ideas, see this](https://learn.adafruit.com/raspberry-pi-wearable-time-lapse-camera/3d-printing)
+
 
 ## UPS for Raspberry Pi Zero
+
 * [PiSugar S and PiSugar S Pro – Lower cost batteries for Raspberry Pi](https://www.cnx-software.com/2021/07/12/pisugar-s-and-pisugar-s-pro-lower-cost-batteries-for-raspberry-pi/)
 
 
@@ -294,6 +332,7 @@ see https://ozzmak.com/wp-content/uploads/2016/08/NMEA-data1.png
 
 
 # Background: Navigation Technologies
+
 When GPS was first released to consumers,
 it wasn’t even in the hands or understanding of most people.
 It was used for pretty unique and esoteric stuff, with a simple GPS receivers.
@@ -320,14 +359,20 @@ Modern GPS units are light, small, cheap, and use very little power.
 * [Can Maths Tell Us Where We Are?](https://www.youtube.com/watch?v=XJlVPlvkzdk)
 * [SPECIAL TOPICS 2 - GPS](https://www.youtube.com/watch?v=16xHIBmul_o&list=PLX2gX-ftPVXXGdn_8m2HCIJS7CfKMCwol)
 
-##  Maps & Coordinate Systems
+
+## Maps & Coordinate Systems
+
 * [Latitude, Longitude and Coordinate System Grids](https://gisgeography.com/latitude-longitude-coordinates/)
 * [Marble](https://marble.kde.org/index.php)
 
+
 ## Time and Navigation
+
 * [Time and Navigation](https://timeandnavigation.si.edu/)
 
+
 ## Dead Reckoning (DR)
+
 Dead Reckoning is the process of determining current position by
 combining previously determined positional data with speed and heading.
 This process can also be applied to determine future positions as well.
@@ -343,26 +388,40 @@ and IMU allows higher precision and more accurate readings in between GNSS data 
 * [Basics of 6DOF and 9DOF sensor fusion](https://www.embeddedcomputing.com/technology/analog-and-power/basics-of-6dof-and-9dof-sensor-fusion)
 * [ESP32 precision GPS receiver (incl. RTK-GPS Tutorial). How to earn money with it (DePIN)](https://www.youtube.com/watch?v=Oc1LBFDj2MA)
 
+
 ## Space Navigation
+
 * [Star Trackers: Telling Up From Down In Any Space](https://hackaday.com/2020/04/02/star-trackers-telling-up-from-down-in-any-space/)
 
+
 # Where Am I?
+
 * [The Longitude Problem - Improving Navigation with the Harrison Clocks](https://www.youtube.com/watch?v=zlRxWJ_kGEA)
 
+
 ## Direction Finding
+
 * [Where’s That Radio? A Brief History Of Direction Finding](https://hackaday.com/2021/08/19/wheres-that-radio-a-brief-history-of-direction-finding/)
 
+
 # Decoding GPS Signals
+
 * [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
 
+
 ## Search and Rescue Satellite Aided Tracking (SARSAT)
+
 * [The Voice of GPS](https://hackaday.com/2023/06/23/the-voice-of-gps/)
 * [Receiving voice transmissions from GPS satellites || Satellite reception pt.10](https://www.youtube.com/watch?v=U_pCHTeamn8)
 
+
 ## Automatic Identification System (AIS)
+
+
 ## Automatic Transmitter Identification System (ATIS)
-* https://en.wikipedia.org/wiki/Automatic_identification_system
-* https://en.wikipedia.org/wiki/Automatic_Transmitter_Identification_System_(marine)
+
+* <https://en.wikipedia.org/wiki/Automatic_identification_system>
+* <https://en.wikipedia.org/wiki/Automatic_Transmitter_Identification_System_(marine)>
 
 
 
@@ -371,6 +430,7 @@ and IMU allows higher precision and more accurate readings in between GNSS data 
 
 
 # Global Navigation Satellite Systems (GNSS)
+
 Global Navigation Satellite Systems (GNSS) is the acronym that encompasses
 those systems that allow users to compute their position based on
 signals transmitted by satellites, world-wide.
@@ -385,7 +445,9 @@ Four satellites are used for getting the precise position, this process is known
 
 GPS technology uses standalone receivers, where the location is directly calculated. This technique is prone to errors such as uncorrected satellite clock errors, orbital parameter satellite error, ionospheric and tropospheric delays, multipath errors, geometric errors and datum selection errors. To reduce these errors new technologies are evolved. GPS can gain nominal accuracy of 10-15 meters.
 
+
 ## Global Positioning System (GPS) Background Information
+
 The Global Positioning System (GPS) is a satellite-based radio navigation system
 started by the Department of Defense in 1973 and is operated today by the United States Space Force.
 GPS is available for free to anybody with a device that can receive transmissions from the many GPS satellites.
@@ -409,7 +471,9 @@ and the time that the transmission was received.
 GPS data is transmitted in a variety of formats,
 but essentially the information reports where and when you are on the planet.
 
+
 ### GPS Data Format
+
 location data is received by a listening GPS device from a GPS satellite as radio waves.
 The GPS listening device converts the binary stream into lines of text.
 Each line is comma-delimited to identify unique data items.
@@ -437,7 +501,9 @@ The more common GPS sentence formats are:
 * [GPGSA][84]: GPS receiver operating mode, satellites used in the position solution, and DOP values.
 * [GPGSV][85]: The number of GPS satellites in view, satellite ID numbers, elevation, azimuth, and SNR values.
 
+
 ### Beware of Data Format Misinterpretation
+
 When it comes to GPS, there are a few formats for reporting latitude and longitude.
 The difference in the formats will affect how you process incoming data.
 Maritime navigation typically uses earth location expressed in degrees / minutes /seconds.
@@ -462,7 +528,9 @@ The `mm.mmmm` digits indicate the minute and fraction of a minute.
 You need to be very careful in making the conversions
 and its best to use the standard conversion libraries provied by Python and other languages.
 
+
 ## What is GPS NMEA Data?
+
 [NMEA is a standard data format][34] supported by all GPS manufacturers,
 much like ASCII is the standard for digital computer characters in the computer world.
 NMEA stands for National Marine Electronics Association,
@@ -513,13 +581,19 @@ but the most common are
 >They develop specification that defines the interface between various pieces of marine electronic equipment.
 >[NMEA sets the standards for data format supported by all GPS manufacturers][56].
 
+
 ## Language of GPS
-Grid Square - http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%202005.pdf
+
+Grid Square - <http://www.gatorradio.org/Operating_Training_Aides/Ham_US_Grids%202005.pdf>
+
 
 ## Using Starlink Network
+
 * [GPS? With Starlink, We Don’t Need It Any More!](https://hackaday.com/2021/10/10/gps-with-starlink-we-dont-need-it-any-more/)
 
+
 ## What are GPS L1, L2, and L5 Frequencies?
+
 Global Positioning System (GPS) satellites circle the Earth twice a day in very precise orbits. They continuously transmit signals that allow GPS receivers on the ground to calculate their location, speed, and direction.
 
 GPS first began operations with two signals, L1 and L2. L1 operates at a frequency of 1575.42 MHz, whereas L2 operates at a frequency of 1227.60 MHz. These GPS signals include two ranging codes: P (Y) or Precision code and C/A (Carrier Acquisition) code. The first code is only for civilian usage, while the second is only for military use. These ranges codes are used to calculate the distance to the satellite as well as to uniquely identify the navigation message.
@@ -531,7 +605,9 @@ Now there are three civilian GPS frequencies: L1 at 1575.42 MHz, L2 at 1227.60 M
 * [Everything You Need To Know About GPS L1, L2, and L5 Frequencies](https://gisresources.com/everything-you-need-to-know-about-gps-l1-l2-and-l5-frequencies/)
 * [A Pure L5 Mobile Receiver](https://insidegnss.com/a-pure-l5-mobile-receiver/)
 
+
 ## What is Virtual Reference Station (VSR)?
+
 * [What is Virtual Reference Station?](https://gisresources.com/what-is-virtual-reference-station/)
 * [How VSR Works?](https://gisresources.com/how-vrs-work/)
 * [Challenges and Benefits of VRS](https://gisresources.com/challenges-and-benefits-of-vrs/)
@@ -544,28 +620,38 @@ Now there are three civilian GPS frequencies: L1 at 1575.42 MHz, L2 at 1227.60 M
 
 
 # Choosing GPS Technology
+
 * [How To Choose The Right GPS Module For Your Project](https://hackaday.com/2020/08/14/how-to-choose-the-right-gps-module-for-your-project/)
 * [Number Crunching GPS For The DIYer](https://hackaday.com/2020/07/02/number-crunching-gps-for-the-diyer/)
 
 
 ## GPS Technology
+
 * [Hackaday Dictionary: The Global Positioning System (GPS)](https://hackaday.com/2015/11/12/hackaday-dictionary-the-global-positioning-system-gps/)
 * [GPS for Dummies](https://books.google.com/books?id=Hbz4LYIrvuMC&pg=PA62&lpg=PA62&dq=comparison+of+gps+chips&source=bl&ots=HFGMKxCAOV&sig=C3wryIscPn01Nair4wJXMaKyEds&hl=en&sa=X&ved=0ahUKEwiSsZDgv57VAhXLej4KHenWBN44FBDoAQgzMAM#v=onepage&q=comparison%20of%20gps%20chips&f=false)
 * [Adding GPS to Your Electronic Product (and How to Scale Up)](http://makezine.com/2016/07/06/adding-gps-to-your-electronic-product-and-how-to-scale-up/)
 * [GPS Buying Guide](https://www.sparkfun.com/pages/GPS_Guide)
 * [Do Chipset Channels Matter?](http://www.gpsreview.net/gps-chipset-channels/)
-* http://www.furuno.com/en/gnss/technical/
+* <http://www.furuno.com/en/gnss/technical/>
 * [GPS Visualizer's coordinate calculators & distance tools](http://www.gpsvisualizer.com/calculators)
 
+
 ## GPS Assisatance
+
+
 ### P-GPS Mode
+
 Predicted GPS (P-GPS) is a form of assistance that reduces the Time to First Fix (TTFF), the time needed by a GNSS module to estimate its position.
 A form of assistance provided to devices trying to obtain a Global Navigation Satellite System (GNSS) fix, where the device can download up to two weeks of predicted satellite Ephemerides data. It enables devices to determine the exact orbital location of the satellite without connecting to the network every two hours with a trade-off of reduced accuracy of the calculated position over time. It is available through nRF Cloud.
 
+
 ### AGPS
+
 * [A-GPS vs. GPS](http://www.diffen.com/difference/A-GPS_vs_GPS)
 
+
 ## GNSS Correction
+
 Unaided, GNSS-based positioning is subject to a variety of errors
 that limit achievable accuracies to several meters.
 These errors are caused primarily by
@@ -582,13 +668,17 @@ to overcome these errors and achieve decimeter or even centimeter-level position
 * [u-blox using a Raspberry Pi to improve GNSS positioning services](https://blog.adafruit.com/2024/01/16/u-blox-using-a-raspberry-pi-to-improve-gnss-positioning-services/)
 * [Precise Point Positioning (PPP)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/precise-point-positioning-ppp/)
 
+
 ### GNSS + INS (Inertial Navigation System)
+
 GNSS/INS is the use of GNSS satellite signals to correct or calibrate a solution from an inertial navigation system (INS).
 The GPS gives an absolute drift-free position value that can be used to reset the INS solution or can be blended with it by use of a mathematical algorithm, such as a Kalman filter. The angular orientation of the unit can be inferred from the series of position updates from the GPS. The change in the error in position relative to the GPS can be used to estimate the unknown angle error.
 
 The benefits of using GPS with an INS are that the INS may be calibrated by the GPS signals and that the INS can provide position and angle updates at a quicker rate than GPS. For high dynamic vehicles, such as missiles and aircraft, INS fills in the gaps between GPS positions. Additionally, GPS may lose its signal and the INS can continue to compute the position and angle during the period of lost GPS signal. The two systems are complementary and are often employed together.
 
+
 ### Real-Time Kinematic (RTK) GNSS Correction Services
+
 Conventional Real-Time Kinematic (RTK) GNSS correction services
 determine the magnitude of the GNSS errors by observing the satellite signals
 from one or several fixed reference points called GNSS base stations.
@@ -599,7 +689,9 @@ RTK-based solutions require two-way communication between the GNSS receiver
 and the GNSS correction service provider and achieve centimeter-level positioning accuracy in ten to twenty seconds.
 Also, the GNSS rover must remain within a roughly 30 kilometer radius from the nearest base station.
 
+
 ### Precise Point Positioning (PPP) GNSS Correction Services
+
 PPP is a positioning technique that removes or models GNSS system errors,
 that remains valid across vast geographical expanses,
 to provide a high level of position accuracy from a single receiver.
@@ -616,7 +708,9 @@ to deliver a position estimate with below 10 centimeter accuracy,
 making it a viable solution for static applications, such as surveying,
 but a poor fit for more dynamic ones, such as drones, micromobility, precision agriculture, and others.
 
+
 ### State Space Representation (SSR) / PPP-RTK GNSS Correction Services
+
 Network based correction methods (GPS-RTK and GPS-PPP)
 can provide GPS fixes to centimeter level accuracy under ideal conditions.
 However, these solutions are very sensitive to the environment — such as bridges, trees, and buildings.
@@ -641,7 +735,9 @@ The benefits are:
 * Redundant IP and satellite-based communications increase the reliability and availability of the service
 * Continental coverage enables a seamless positioning experience
 
+
 ### Differential Global Positioning Systems (DGPS)
+
 [DGPS (Differential GPS)][35] is essentially a system to provide positional corrections to GPS signals.
 DGPS is designed to be more accurate than GPS.
 DGPS are enhancements to the GPS which provide improved location accuracy,
@@ -659,7 +755,9 @@ and ionosphere, troposphere and multipath conditions.
 * [How Not To Build Your Own DGPS Base Station](https://hackaday.com/2018/03/30/fail-of-the-week-how-not-to-build-your-own-dgps-base-station/)
 * [Differential GPS Explained](https://www.esri.com/news/arcuser/0103/differential1of2.html)
 
+
 ## DGNSS
+
 Differential Global Navigation Satellite System (DGNSS),
 is an enhancement to GNSS that was developed to correct these errors and inaccuracies in the GNSS system,
 allowing for more accurate positioning information.
@@ -668,13 +766,17 @@ The advantage of DGNSS is that it is useful over a longer baseline
 The technology required to achieve the higher accuracy of RTK performance
 makes the cost of an RTK-capable receiver higher than one that is DGNSS-capable only.
 
+
 ## GPS-PPK / Post Processing Kinematic (PPK)
+
 Post-Processed Kinetic (PPK) can be used with a traditional, non-RTK GPS chip
 and perfrom the after the positioning data has been collected.
 
 * [PPK Or RTK – Which is best?](https://coptrz.com/ppk-or-rtk-which-is-best/)
 
+
 ## GPS-RTK
+
 Real Time Kinematic (RTK)
 
 An excellent hands on introduction to GPS-RTK is [RTK Overview](http://rtkexplorer.com/rtk-overview/)
@@ -686,14 +788,15 @@ including the software tools [RTKLIB](https://www.rtklib.com/) and [RTKNAVI](htt
 * [Real-Time Kinematic (RTK)](https://www.novatel.com/an-introduction-to-gnss/chapter-5-resolving-errors/real-time-kinematic-rtk/)
 * [SparkFun GPS-RTK2 Board](https://www.sparkfun.com/products/15136)
 * [SparkFun GPS-RTK Board - NEO-M8P-2](https://www.sparkfun.com/products/15005)
-    * [What is GPS RTK?](https://learn.sparkfun.com/tutorials/what-is-gps-rtk)
-    * [GPS-RTK Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide)
+  * [What is GPS RTK?](https://learn.sparkfun.com/tutorials/what-is-gps-rtk)
+  * [GPS-RTK Hookup Guide](https://learn.sparkfun.com/tutorials/gps-rtk-hookup-guide)
 * [EYE ON NPI - u-blox C099-F9P Application Board for ZED-F9P GNSS RTK Module](https://www.youtube.com/watch?v=RXyBcWh85DM)
 * [SparkFun GPS-RTK Dead Reckoning ZED-F9R Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-gps-rtk-dead-reckoning-zed-f9r-hookup-guide)
 * [Crowd Supply: RTK Rover](https://www.crowdsupply.com/hyfix/rtk-rover)
 
 
 ### Networked Transport of RTCM via Internet Protocol (NTRIP)
+
 Networked Transport of RTCM via Internet Protocol (NTRIP)
 is a protocol used for streaming corrections over the Internet from a base station to a rover to achieve cm-level accuracy.
 
@@ -709,12 +812,16 @@ RTCM (aka RTCM SC-104) is a communication protocol for sending differential GPS 
 * [What Is NTRIP and How to Use It for RTK with Reach](https://blog.emlid.com/what-is-ntrip-and-how-to-use-it-for-rtk-with-reach/)
 * [Common issues with using NTRIP for differential corrections](https://support.oxts.com/hc/en-us/articles/360012992679-Common-issues-with-using-NTRIP-for-differential-corrections)
 
+
 ### The Correction Signal
+
 RTCM SC-104 is a standard that defines the data structure for differential correction information for a variety of differential correction applications. It was developed by the Radio Technical Commission for Maritime Services (RTCM) and has become an industry standard for communication of correction information.
 
-* https://www.e-education.psu.edu/geog862/node/1838
+* <https://www.e-education.psu.edu/geog862/node/1838>
+
 
 ### SNIP
+
 SNIP is a Networked Transport of RTCM via Internet Protocol (NTRIP) Caster application
 that combines user-friendly software with an active data-pushing feature to bring you all the benefits of NTRIP technology.
 
@@ -725,24 +832,32 @@ can be used for traditional RTK navigation and positioning.
 
 *[Using RTCM2 with uBlox GNSS](https://www.use-snip.com/kb/knowledge-base/using-rtcm2-with-ublox-gnss/)
 
+
 ## Real-Time Kinematic vs. Differential GPS
+
 * [Real-Time Kinematic and Differential GPS](https://www.e-education.psu.edu/geog862/node/1828)
 
 
 ## Pulse Per Second (PPS) Signal from the GPS
+
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
 * [Why do GPS receivers have a 1 PPS output?](https://electronics.stackexchange.com/questions/30750/why-do-gps-receivers-have-a-1-pps-output)
 * [Add GPS Time and Location to a Raspberry Pi Project](https://www.rs-online.com/designspark/add-gps-time-and-location-to-a-raspberry-pi-project)
 * [PPS (Pulse per Second) ...simple as that!](https://www.linkedin.com/pulse/pps-pulse-per-second-simple-deepak-kaira/)
 * [What’s More Accurate than a GPS Clock? The OpenPPS GPS Clock](https://hackaday.com/2019/05/11/whats-more-accurate-than-a-gps-clock-the-openppc-gps-clock/)
-    * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
+  * [OpenPPS](http://www.rocketmanrc.com/openpps.html)
+
 
 ### Ground Control Points (GCP)
+
 Ground Control Points (GCPs) are defined as points on the surface of the earth of known location used to geo-reference Landsat Level-1 data. GCPs are updated as needed to continually improve Landsat data. GCPs can be downloaded and used as reference data.
 
 * [Ground Control Points](https://www.usgs.gov/landsat-missions/ground-control-points)
+
+
 ## GPS Time Coordinate System
+
 The [World Geodetic System 1984][38] [(WGS84)][67]
 (also known as WGS 1984, EPSG:4326)
 is comprised of a terrestrial reference coordinate system, a geodetic datum
@@ -753,26 +868,36 @@ a standard coordinate system, altitude data and a [geoid][39].
 It uses the Earth’s center of mass as the coordinate origin.
 [Geodesists][40] believe the error is less than 2 centimeters
 
+
 ## Magnetic North vs Geographic (True) North
+
 * [Magnetic North vs Geographic (True) North Pole](https://gisgeography.com/magnetic-north-vs-geographic-true-pole/)
 
+
 ## GPS Position Accuracy
+
 [Dilution of precision](https://en.wikipedia.org/wiki/Dilution_of_precision_(navigation))
 is a term used in GPS navigation to specify the error
 in positional measurement precision resulting from sub-optimal satellite geometry.
 
 * [GPS Position accuracy and how to tell if you have a good fix?](https://ozzmaker.com/gps-position-accuracy-and-how-to-tell-if-you-have-a-good-fix/)
 
+
 ## Python Libraries for GIS and Mapping
+
 * [Python Libraries for GIS and Mapping](https://gisgeography.com/python-libraries-gis-mapping/)
 * [Python3 GPS Client Tools](https://confluence.clazzes.org/display/PYTOOLS/Python3+GPS+Client+Tools)
 * [The Heat Of The Moments – Location Visualization In Python](https://hackaday.com/2019/12/05/the-heat-of-the-moments-location-visualization-in-python/)
 * [WebGIS Development in 2023: A Guide to the Tools and Technologies I Use for Building Advanced Geospatial Applications](https://medium.com/@ramizsami/webgis-development-in-2023-a-guide-to-the-tools-and-technologies-i-use-for-building-advanced-9bd3277b10dd)
 
+
 ## GNSS-SDR
+
 [GNSS-SDR][64] is and open source Global Navigation Satellite Systems software-defined receiver.
 
+
 ## VBOX Automotive
+
 VBOX is a data acquisition systems by RACELOGIC used for measuring the speed and position of a moving vehicle.
 VBOX data loggers can record high accuracy GPS speed measurements, distance, acceleration,
 braking distance, heading, slip angle, lap times, position, cornering forces and more.
@@ -787,12 +912,13 @@ braking distance, heading, slip angle, lap times, position, cornering forces and
 
 
 # Sensor Fusion
+
 * [Understanding Sensor Fusion and Tracking](https://www.youtube.com/playlist?list=PLn8PRpmsu08ryYoBpEKzoMOveSTyS-h4a)
 * [Understanding Kalman Filters](https://www.mathworks.com/videos/series/understanding-kalman-filters.html)
 * [Control Engineering](https://engineeringmedia.com/)
 * [The Educational Resource Compendium](https://resourcium.org/)
 * [Control Systems Lectures](https://www.youtube.com/channel/UCq0imsn84ShAe9PBOFnoIrg)
-    * [and more](https://engineeringmedia.com/videos)
+  * [and more](https://engineeringmedia.com/videos)
 * [SPECIAL TOPICS 1 - THE KALMAN FILTER](https://www.youtube.com/watch?v=CaCcOwJPytQ&list=PLX2gX-ftPVXU3oUFNATxGXY90AULiqnWT)
 
 
@@ -802,10 +928,13 @@ braking distance, heading, slip angle, lap times, position, cornering forces and
 
 
 # GPS Data Formats
+
 * [The Ultimate List of GIS Formats and Geospatial File Extensions](https://gisgeography.com/gis-formats/)
 * [Vector vs Raster: What’s the Difference Between GIS Spatial Data Types?](https://gisgeography.com/spatial-data-types-vector-raster/)
 
+
 ## GPX File Format
+
 A GPX file is a GPS data file saved in the GPS Exchange format,
 which is an open standard XML format that can be freely used by GPS programs.
 It contains longitude and latitude location data that may include
@@ -818,7 +947,9 @@ GPX files store three types of data:
 * Route - Includes a list of track points, which are waypoints for turn or stage points, that lead to a destination.
 * Track - Includes a list of points that describe a path.
 
+
 ## SPARTN Data Format
+
 The Secure Position Augmentation for Real-Time Navigation (SPARTN) format is an industry-driven standard for communication of
 GNSS high accuracy correction data between service providers and end users.
 
@@ -829,6 +960,7 @@ GNSS high accuracy correction data between service providers and end users.
 
 
 # u-blox Products
+
 ZED-F9 is a family of multi-band GPS-RTK recievers, covering all four GNSS constellations (GPS, GLONASSS, Galileo, BeiDou),
 achieving centimeter accuracy with low energy consumption.
 These devices use u-blox's PointPerfect GNSS cloud-based correction data and derived from a local RTK base station or NTRIP remote base station.
@@ -853,11 +985,12 @@ which can reduce RTK initialization and fix solutions to a considerable degree,
 typical within a few seconds.
 
 ZED-F9P Module
+
 * ZED-F9P-02B: u-blox F9 high precision GNSS module with Satellite Based Augmentation System (SBAS) - $200 for unit 1 at DigiKey
 * ZED-F9P-04B: u-blox high precision GNSS module with Secure Position Augmentation for Real Time Navigation (SPARTN) and Centimetre-level Augmentation Services (CLAS) for Japan - $200 for unit 1 at DigiKey
 * ZED-F9P-15B: u-blox high precision GNSS module with L1/L5 (aka Multi-Band GNSS) - $129 for unit 1 at DigiKey
-    * https://gisresources.com/everything-you-need-to-know-about-gps-l1-l2-and-l5-frequencies/
-    * https://www.u-blox.com/en/press-releases/u-blox-announces-first-timing-solutions-based-l1-and-l5-gnss-signals
+  * <https://gisresources.com/everything-you-need-to-know-about-gps-l1-l2-and-l5-frequencies/>
+  * <https://www.u-blox.com/en/press-releases/u-blox-announces-first-timing-solutions-based-l1-and-l5-gnss-signals>
 * [ZED-F9P Use Cases](https://www.sparkfun.com/rtk)
 
 
@@ -873,6 +1006,7 @@ ZED-F9P Module
 
 
 # Raspberry Pi Zero Setup
+
 I have set up all my Raspberry Pi's as [headless devices][01].
 For one thing, I want to SSH into my devices so I don't want
 or need a monitor/keyboard.
@@ -898,7 +1032,9 @@ This helps create a setup that’s friendly for travel and requires very little 
 
 * [enable the USB Gadget support on the Raspberry Pi Zero W](https://back7.co/home/weekend-project-portable-pi-zero-usb-gadget)
 
+
 #### Step 1: Download Raspberry Pi Image - DONE
+
 Before you can load a copy of the latest Raspberry Pi image onto your micro SD Card,
 you must first download the official Raspberry Pi operating system, [Raspbian][13]
 (in my case, the version is [Stretch][11]).
@@ -926,7 +1062,9 @@ Archive:  2019-09-26-raspbian-buster-lite.zip
   inflating: 2019-09-26-raspbian-buster-lite.img
 ```
 
+
 #### Step 2: Write Raspberry Pi Image to SD Card - DONE
+
 Next using Linux, you have copied the Raspbian image onto the SD card mounted to your system.
 I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][14] to create my SD Card.
 Make sure to [choose a reputable SD Card][15] from [here][24], don't go cheap.
@@ -1042,7 +1180,9 @@ We’re going to set up the network interfaces next.
 >[Adafruit has good description on how to use a console cable][17]
 >and the how to [enable the UART for the console][18].
 
+
 #### Step 3: Setup Networking - DONE
+
 We now we need to setup
 the hostname and networking features for the Raspberry Pi.
 We do this by creating this file in
@@ -1134,7 +1274,9 @@ network={
 }
 ```
 
+
 #### Step 4: Setup Hostname - DONE
+
 If you want to change the hostname, do the following:
 
 ```bash
@@ -1142,7 +1284,9 @@ sudo sed -i 's/raspberrypi/berrygps/' /media/jeff/rootfs/etc/hosts
 sudo sed -i 's/raspberrypi/berrygps/' /media/jeff/rootfs/etc/hostname
 ```
 
+
 #### Step 5: Enable SSH on Raspberry Pi - DONE
+
 SSH is disabled by default in Raspberry Pi,
 hence you’ll have to enable it when you turn on the Pi after a fresh installation of Raspbian.
 SSH can be enabled by placing a file named `ssh`, without any extension,
@@ -1164,7 +1308,9 @@ Now unmount the SD Card and move to the next step.
 sudo umount /dev/sdf1 /dev/sdf2
 ```
 
+
 # Step 6: Finding Your Raspberry Pi IP Address - DONE
+
 Next we'll power up the RPi Zero, but first,
 lets check what IP address are being used on our WiFi network.
 Place the SD-Card into the Raspberry Pi, power it up,
@@ -1214,17 +1360,17 @@ A complete list of OUI assignments is compiled daily and is available [here][77]
 According to this list there is a single OUI/MA-L assignment for the Raspberry Pi Foundation:
 
 ```
-DC-A6-32   (hex)		Raspberry Pi Trading Ltd
-				        Maurice Wilkes Building, Cowley Road
-				        Cambridge    CB4 0DS
-				        GB
+DC-A6-32   (hex)  Raspberry Pi Trading Ltd
+            Maurice Wilkes Building, Cowley Road
+            Cambridge    CB4 0DS
+            GB
 ```
 
 But I also often use WiFi dongles from Edimax on my Raspberry Pis.
 A search of the [OUI/MA-L assignment list][19] provides:
 
 ```
-00-1F-1F   (hex)		Edimax Technology Co. Ltd.
+00-1F-1F   (hex)  Edimax Technology Co. Ltd.
 00-50-FC                No. 278, Xinhu 1st Road
 00-0E-2E                Taipei City  Neihu Dist  248
 00-00-B4                TW
@@ -1249,7 +1395,9 @@ $ arp -a | grep -e 00:1f:1f -e 00:50:fc -e 00:0e:2e -e 00:00:b4 -e 08:be:ac -e 7
 
 So, we can now log into the Raspberry Pi via `ssh -X pi@berrygps` or `ssh -X pi@b192.168.1.230`.
 
+
 #### Step 7: Update Linux Packages - DONE
+
 On the Raspberry Pi, update the Linux packages.
 
 ```bash
@@ -1260,7 +1408,9 @@ sudo apt-get -y update && sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
 ```
 
+
 #### Step 8: Configure the Raspberry Pi - DONE
+
 You could now run the `sudo raspi-config`
 (see [raspi-config documentation][10] and [here][08])
 This is an interactive script that allowing you to configured multiple devices settings.
@@ -1285,7 +1435,9 @@ sudo timedatectl set-timezone "America/New_York"
 sudo shutdown -r now
 ```
 
+
 #### Step 9: Updating Firmware for Raspberry Pi - DONE
+
 After a successful upgrade and reboot,
 use `hostnamectl` and `vcgencmd` if you wish to see your current Raspbian version
 and firmware version.
@@ -1342,7 +1494,9 @@ sudo BRANCH=next rpi-update
 sudo shutdown -r now
 ```
 
+
 #### Step 10: Development Package Installs - DONE
+
 While the Raspberry Pi comes with a fairly robust set of Linux packages,
 it could use some beefing up for most uses.
 For example, while the distribution is likely to already have some Python packages installed,
@@ -1389,7 +1543,9 @@ sudo apt-get -y install build-essential i2c-tools libssl-dev
 sudo apt-get -y install avahi-daemon
 ```
 
+
 #### Step 11: Load Personal Tools - DONE
+
 Now that all the Linux packages have been loaded,
 time to install my personal tools on the device.
 
@@ -1429,7 +1585,9 @@ xauth generate :0 . trusted
 xauth add ${HOST}:0 . `xxd -l 16 -p /dev/urandom`
 ```
 
+
 #### Step 12: Setup Python Development Environment - DONE
+
 Now create a Python Virtual Environment to support the Python tools that will be used.
 
 ```bash
@@ -1463,6 +1621,7 @@ deactivate
 # Setup for OzzMaker's BerryGPS
 
 Sources:
+
 * [BerryGPS setup Guide for Raspberry PI][23]
 * [BerryGPS and BerryGPS-IMU Quick Start Guide][22]
 
@@ -1481,33 +1640,37 @@ for a more complete description of the BerryGPS-IMU v3.
 The OzzMaker products website list several useful postings concerning the BerryGPS-IMU v3 board"
 
 * General
-    * [BerryGPS and BerryGPS-IMU Quick Start Guide][22]
-    * [BerryGPS setup Guide for Raspberry PI][23]
+  * [BerryGPS and BerryGPS-IMU Quick Start Guide][22]
+  * [BerryGPS setup Guide for Raspberry PI][23]
 * GPS
-    * [BerryGPS Data logger using a BerryGPS][29]
-    * [Navigating with Navit on the Raspberry Pi][33]
-    * [Use u-Center graphical interface to control GPS](http://ozzmaker.com/using-u-center-to-connect-to-a-raspberry-pi-with-an-attached-berrygps-imu-gsm/)
-    * [Getting Started with U-Center for u-blox](https://learn.sparkfun.com/tutorials/getting-started-with-u-center-for-u-blox/all)
-    * [Using python with a GPS receiver on a Raspberry Pi](http://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/)
-    * [Real-time GPS tracking with a Raspberry Pi](http://ozzmaker.com/real-time-gps-tracking-with-a-raspberry-pi/)
-    * [How to save GPS data to a file using Python](http://ozzmaker.com/how-to-save-gps-data-to-a-file-using-python/)
+  * [BerryGPS Data logger using a BerryGPS][29]
+  * [Navigating with Navit on the Raspberry Pi][33]
+  * [Use u-Center graphical interface to control GPS](http://ozzmaker.com/using-u-center-to-connect-to-a-raspberry-pi-with-an-attached-berrygps-imu-gsm/)
+  * [Getting Started with U-Center for u-blox](https://learn.sparkfun.com/tutorials/getting-started-with-u-center-for-u-blox/all)
+  * [Using python with a GPS receiver on a Raspberry Pi](http://ozzmaker.com/using-python-with-a-gps-receiver-on-a-raspberry-pi/)
+  * [Real-time GPS tracking with a Raspberry Pi](http://ozzmaker.com/real-time-gps-tracking-with-a-raspberry-pi/)
+  * [How to save GPS data to a file using Python](http://ozzmaker.com/how-to-save-gps-data-to-a-file-using-python/)
 * IMU
-    * [IMU Attitude Estimation](http://philsal.co.uk/projects/imu-attitude-estimation)
-    * [Guide to interfacing a Gyro and Accelerometer with a Raspberry Pi](http://ozzmaker.com/berryimu/)
-    * [Guide to interfacing a Gyro and Accelerometer with a Raspberry Pi - Kalman Filter](http://ozzmaker.com/guide-interfacing-gyro-accelerometer-raspberry-pi-kalman-filter/)
-    * [Create a Digital Compass with the Raspberry Pi – Part 1 – “The Basics”](http://ozzmaker.com/compass1/)
-    * [Create a Digital Compass with the Raspberry Pi – Part 2 – “Tilt Compensation”](http://ozzmaker.com/compass2/)
-    * [Create a Digital Compass with the Raspberry Pi – Part 3 – “Calibration”](http://ozzmaker.com/compass3/)
-    * [Create a Digital Compass with the Raspberry Pi – Part 4- “Smartphone Replica”](http://ozzmaker.com/compass04/)
-    * [Converting values from an Accelerometer to Gs – “ Proper Acceleration”](http://ozzmaker.com/accelerometer-to-g/)
-    * [How to Create an Inclinometer using a Raspberry Pi and an IMU](http://ozzmaker.com/inclinometer-using-raspberry-pi-imu/)
-    * [Raspberry Pi Digital Spirit Level]()
+  * [IMU Attitude Estimation](http://philsal.co.uk/projects/imu-attitude-estimation)
+  * [Guide to interfacing a Gyro and Accelerometer with a Raspberry Pi](http://ozzmaker.com/berryimu/)
+  * [Guide to interfacing a Gyro and Accelerometer with a Raspberry Pi - Kalman Filter](http://ozzmaker.com/guide-interfacing-gyro-accelerometer-raspberry-pi-kalman-filter/)
+  * [Create a Digital Compass with the Raspberry Pi – Part 1 – “The Basics”](http://ozzmaker.com/compass1/)
+  * [Create a Digital Compass with the Raspberry Pi – Part 2 – “Tilt Compensation”](http://ozzmaker.com/compass2/)
+  * [Create a Digital Compass with the Raspberry Pi – Part 3 – “Calibration”](http://ozzmaker.com/compass3/)
+  * [Create a Digital Compass with the Raspberry Pi – Part 4- “Smartphone Replica”](http://ozzmaker.com/compass04/)
+  * [Converting values from an Accelerometer to Gs – “ Proper Acceleration”](http://ozzmaker.com/accelerometer-to-g/)
+  * [How to Create an Inclinometer using a Raspberry Pi and an IMU](http://ozzmaker.com/inclinometer-using-raspberry-pi-imu/)
+  * [Raspberry Pi Digital Spirit Level]()
+
 
 #### Step 1: Physical Assembly of the BerryGPS-IMU - DONE
+
 Consult the post ["BerryGPS and BerryGPS-IMU Quick Start Guide"][22]
 to understand how to assemble the unit.
 
+
 #### Step 2: Disable Serial Console - DONE
+
 BerryGPS uses the serial port assigned to console on the Raspberry Pi,
 so we need to disable the console and make use of its pins for GPS NMEA messages.
 On RPi Zero, console is assign `/dev/ttyAMA0` and
@@ -1532,7 +1695,9 @@ $ cat /boot/cmdline.txt
 console=tty1 root=PARTUUID=6c586e13-02 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
 ```
 
+
 #### Step 3: Verify You Can View GPS Data - DONE
+
 Now it time to see if we got things working
 by looking raw GPS data, [NMEA sentences][02], from device `/dev/serial0`.
 NMEA sentences contain all the requered GPS data (e.g longatute, latitude, number of statilites, etc.).
@@ -1569,6 +1734,7 @@ On first power up, it can take your GPS module 10 minutes to get a fix in some s
 
 
 # Sharing GPS Data Locally & Over Network
+
 Many applications may wish to use location GPS data simultaneously.
 Another complicating factor is that there are several incompatible GNSS protocols for delivering location information,
 including flavors of NMEA-0183, Rockwell and SiRF binary protocols, AIS, and others.
@@ -1603,14 +1769,18 @@ It is claimed that you can do this natively with `gpsd`,
 but because I will **not** be using `gpsd` with automatic start,
 I'll show another way with `netcat`.
 
+
 ## Sharing GPS Data Locally
+
 There are a number of ways to configure the Raspbery Pi for reciveing GPS data
 (for example, see [here][23] and [here][102]).
 I'm going to install the `gpsd` daemon, make it manageble from `systemctl`
 but choose to disable it and invoke it manually.
 This way, I have the option to fall back to `systemctl` management and have `gpsd` start at boot time.
 
+
 #### Step X: Install `gpsd` Daemon and Tools - DONE DONE
+
 The Linux utility [`gpsd`][04] is a daemon that receives data from a GPS receiver,
 acts as a layer between your applications and the actual GPS hardware,
 parsing errors, and providing a more readable, well-defined interfaces to any GPS module.
@@ -1704,7 +1874,9 @@ gpscat /dev/serial0
 sudo killall gpsd
 ```
 
+
 #### Step X: Remove `gpsd` Daemon and Tools - DONE NOT DONE
+
 If for any reason you need to completely remove the `gpsd` daemon
 and its supporting packages, configuration file, etc.,
 do the following:
@@ -1732,9 +1904,12 @@ sudo shutdown -r now
 
 
 ## Share GPS Data Remotely
+
 See the article ["nc Command (Netcat) with Examples"][74] for insight on how this is done.
 
+
 #### Step X: Using gpsd to Supply NMEA to Remote Machine - DONE
+
 First establish the server and then connect the client to the server, as shown below:
 
 ```bash
@@ -1766,7 +1941,9 @@ netcat -v 192.168.1.151 1499        # executed on the client, 'desktop'
 netcat -v berrygps 1499             # executed on the client, 'desktop'
 ```
 
+
 #### Step X: Viewing GPS Data on Remote Machine
+
 Since the NMEA data supplied to the remote machine is **not** native `gpsd` output
 destine for gps-tools (i.e. its missing setup data),
 you can't use tools like `cgps`, `gpsmon`, etc.
@@ -1792,6 +1969,7 @@ netcat -v 192.168.1.151 1499 | ./nmea-parser.py
 
 
 # Setup for Adafruit's Ultimate GPS
+
 [!ultimate-gps](https://cdn-learn.adafruit.com/assets/assets/000/003/714/medium640/raspberry_pi_gps_pi_usbconnection2.jpg?1396801034)
 I also purchased [Adafruit's Ultimate GPS][41] which uses the [MediaTek MTK3339 chipset][42].
 This is a high-quality GPS module that can track up to 22 satellites concurrently,
@@ -1835,7 +2013,9 @@ Adafruit provides some excellent write-up on how to configure and use this devic
 * [Adafruit Ultimate GPS on the Raspberry Pi](https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all)
 * [Adafruit's GPS Library LOCUS](https://github.com/adafruit/Adafruit_GPS)
 
+
 ## External GPS Antenna
+
 With the module, I also purchase an external [active GPS antenna][43] that draws about 10mA
 and will give you an additional 28 dB of gain
 (but it has a 5 meter cable so may not see this gain).
@@ -1846,16 +2026,20 @@ A multiband antenna is unique from other GNSS/GPS antennas
 in that it is designed to receive both the classic L1 GPS band
 and the newly launched (started in 2005) L2 GPS band.
 
-For information about NMEA sentence that cover antenna status - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ultimate-gps.pdf
+For information about NMEA sentence that cover antenna status - <https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ultimate-gps.pdf>
+
 
 #### Step 1: GPS Module Pinouts - DONE
+
 [Adafruit's tutorial][45] provides an excellent description of the GPS module pins
 and how to connect the console cable and external antenna
 can be found in the tutorial "[Adafruit Ultimate GPS on the Raspberry Pi][47]".
 
 [!gps-module-pinout](https://cdn-learn.adafruit.com/assets/assets/000/003/713/medium640/raspberry_pi_UltimateGPS_bb.png?1396801027)
 
+
 #### Step 2: Setup Console Cable - DONE
+
 Once you plug the console cable into the RPi,
 the adapter should show up as a device file `/dev/ttyUSBX`
 (where the 'X' will be '0', '1', '2', etc. depending on what other `ttyUSB` adapters are present.
@@ -1914,7 +2098,9 @@ The module will automatically detect an external active antenna is attached and 
 >The are not engineered for for repeated connections/disconnections.
 >Once you attach a uFL adapter, it is best to just let remain on the module.
 
+
 #### Step 3: Installing the GPS Daemon (gpsd) - DONE
+
 The Raspberry Pi is successfully receiving the serial data that the GPS module provides
 but its very cryptic.
 There is a daemon that properly parsing the raw GPS data called `gpsd`.
@@ -1924,30 +2110,41 @@ parsing errors, and providing a more readable, well-defined interfaces to any GP
 At this point,
 you can use the same procedure (Steps 4 onward) used for the OzzMaker BerryGPS device.
 
+
 #### Step X: Changing Baud Rate of GPS Module
+
 * [How to change the baud rate and update rate of MTK GPS module](https://hobbyking.com/media/file/201626144X19082X53.pdf)
 * [MediaTek MTK33X9 GPS Chipset Command Generator](https://forum.micropython.org/viewtopic.php?t=726)
 * [MTK NMEA PROPRIETARY COMMAND](https://www.pitlab.com/autopitlot/doc/MTK_commands.pdf)
 * [PMTK command packet](http://www.pvelectronics.co.uk/PA6B/PA6B_commands.pdf)
 
+
 #### Step X: Battery Backup
-* https://learn.adafruit.com/adafruit-ultimate-gps/battery-backup
+
+* <https://learn.adafruit.com/adafruit-ultimate-gps/battery-backup>
 * [How to trade-off location accuracy against battery life in cellular IoT asset trackers](https://blog.nordicsemi.com/getconnected/how-to-trade-off-location-accuracy-against-battery-life-in-cellular-iot-asset-trackers)
 
+
 #### Step X: Built In Logging
-* https://learn.adafruit.com/adafruit-ultimate-gps/built-in-logging
+
+* <https://learn.adafruit.com/adafruit-ultimate-gps/built-in-logging>
+
 
 #### Step X: Using Raspberry Pi UART Instead of USB
-* https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all#using-uart-instead-of-usb
+
+* <https://learn.adafruit.com/adafruit-ultimate-gps-on-the-raspberry-pi?view=all#using-uart-instead-of-usb>
 
 
 ---------------
 
 
 # WiFi Scan Mapping
+
 * [Creepy Wireless Stalking Made Easy](https://hackaday.com/2016/12/04/creepy-wireless-stalking-made-easy/)
 
+
 # GPS Data Logger and Mapping
+
 The posts ["BerryGPS Data logger using a BerryGPS"][29]
 and [Navigating with Navit on the Raspberry Pi][33]
 explains how to log and map GPS data
@@ -1957,7 +2154,9 @@ from a BerryGPS-IMU and then how to plot this data onto [Google Maps][30] and ot
 * [What I love about OpenStreetMap](https://opensource.com/article/21/8/openstreetmap)
 * [Contribute to OpenStreetMap from your phone](https://opensource.com/article/21/8/streetcomplete-quests)
 
+
 # Using the Python GPS Library
+
 With the `gpsd` process running,
 execute the Python program below:
 
@@ -1971,30 +2170,36 @@ session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)
 while True:
     try:
         report = session.next()
-		# Wait for a 'TPV' report and display the current time
-		# To see all report data, uncomment the line below
-		# print report
+  # Wait for a 'TPV' report and display the current time
+  # To see all report data, uncomment the line below
+  # print report
         if report['class'] == 'TPV':
             if hasattr(report, 'time'):
                 print report.time
     except KeyError:
-		pass
+  pass
     except KeyboardInterrupt:
-		quit()
+  quit()
     except StopIteration:
-		session = None
-		print "GPSD has terminated"
+  session = None
+  print "GPSD has terminated"
 ```
 
+
 # Real-Time GPS Tracking
+
 * [Real-Time GPS Tracking](https://www.instructables.com/id/Real-Time-GPS-Tracking/)
 
+
 # Using the Node.js GPS Library
-* GPS.js is an extensible parser for NMEA sentences - https://www.npmjs.com/package/gps
-* wrapper to start and stop gpsd from your program - https://www.npmjs.com/package/node-gpsd
-* https://www.npmjs.com/browse/keyword/gps
+
+* GPS.js is an extensible parser for NMEA sentences - <https://www.npmjs.com/package/gps>
+* wrapper to start and stop gpsd from your program - <https://www.npmjs.com/package/node-gpsd>
+* <https://www.npmjs.com/browse/keyword/gps>
+
 
 # Serial Studio
+
 Serial Studio is a multi-platform, multi-purpose serial data visualization program. The goal of this project is to allow embedded developers & makers to easily visualize, present & analyze the data generated by their projects and devices, without the need of writing specialized computer software for each project.
 
 * [Serial Studio: Easily Visualise And Log Serial Data](https://hackaday.com/2021/01/31/serial-studio-easily-visualise-and-log-serial-data/)
@@ -2002,19 +2207,27 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 * [Serial Studio One Year On](https://hackaday.com/2022/01/15/serial-studio-one-year-on/)
 * [Serial-Studio](https://github.com/Serial-Studio/Serial-Studio)
 
+
 # Other Tools
-* http://www.visualgps.net/
+
+* <http://www.visualgps.net/>
 * [7 of the Best Free Linux GPS Tools](http://www.linuxlinks.com/article/20110522052357647/GPSTools.html)
 
+
 # Open Source GPS/GNSS Hardware
+
 * [New open-source wireless GPS/GNSS hardware for IoT and autonomous applications](https://www.geospatialworld.net/news/new-open-source-wireless-gps-gnss-hardware-for-iot-and-autonomous-applications/)
 
+
 # GPS Tracking Terminal
+
 * [LoRa GPS Tracker with Wio Terminal](https://www.hackster.io/idreams/lora-gps-tracker-with-wio-terminal-5d8647)
 * [Wio terminal GPS](https://www.hackster.io/SeeedStudio/wio-terminal-gps-ad70e2)
 * [S.O.S Enabled GPS Tracker](https://www.hackster.io/scottpowell69/s-o-s-enabled-gps-tracker-620407)
 
+
 # A Practical Guide Quaternions
+
 * [Today’s the Day You Finally Learn Quaternions](https://hackaday.com/2022/09/05/todays-the-day-you-finally-learn-quaternions/)
 * [Fantastic Quaternions - Numberphile](https://www.youtube.com/watch?v=3BR8tK-LuB0)
 * [Visualizing quaternions (4d numbers) with stereographic projection](https://www.youtube.com/watch?v=d4EgbgTm0Bg)
@@ -2127,9 +2340,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 [96]:https://gpsd.gitlab.io/gpsd/gpscat.html
 [97]:https://manpages.ubuntu.com/manpages/lunar/en/man1/gpspipe.1.html
 [98]:https://manpages.ubuntu.com/manpages/jammy/man1/gpxlogger.1.html
-[99]:https://gpsd.gitlab.io/gpsd/troubleshooting.html
 [100]:https://man.archlinux.org/man/gpsfake.1.en
-[101]:https://systemd.io/
 [102]:https://learn.adafruit.com/adafruit-ultimate-gps-hat-for-raspberry-pi/use-gpsd
 [103]:https://www.satsignal.eu/raspberry-pi/UpdatingGPSD.html#64
 [104]:https://forums.raspberrypi.com/viewtopic.php?t=138711

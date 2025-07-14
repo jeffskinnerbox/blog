@@ -14,7 +14,7 @@ Version:      0.0.0
 
 
 * [Using the ESP8266 to build the Internet of Things](https://www.youtube.com/watch?v=CjeDkmm0w_w&app=desktop)
-* http://www.pighixxx.com/test/wp-content/uploads/2015/06/ESP8266_11.pdf
+* <http://www.pighixxx.com/test/wp-content/uploads/2015/06/ESP8266_11.pdf>
 * [ESP Cookbook](https://hackaday.io/project/24993-esp-cookbook)
 
 * [ESP8266 Tips & Tricks](https://www.youtube.com/channel/UCqk4hT4XpzUVVUfsIDNzvPw)
@@ -23,6 +23,7 @@ Version:      0.0.0
 * [Wiring ESP8266 / ESP-01](https://learn.adafruit.com/esp8266-temperature-slash-humidity-webserver/wiring)
 
 # ESP Remote Debugging
+
 * [RemoteDebug for ESP Platforms](https://hackaday.com/2019/03/07/remotedebug-for-esp-platforms/)
 
 
@@ -34,6 +35,7 @@ Version:      0.0.0
 
 
 # Programming ESP8266 ESP-01
+
 I purchased the [Stemedu USB to ESP8266 ESP-01 programmer board][152]
 (similar to the cheaper and less functional [CH340G boards][39])
 to flash code to ESP-01 devices without the complexity of wiring.
@@ -141,6 +143,7 @@ The ESP8266 was already well on its way to becoming a popular DIY tool.
 It’s super cheap, and easy to work with, and easy to get your hands on.
 
 # What Came Next
+
 * [With the rollout of the ESP32-S2, learn the differences between it and the ESP32 and compare them to the ESP8266.](https://maker.pro/esp8266/tutorial/a-comparison-of-the-new-esp32-s2-to-the-esp32)
 Even though the ESP8266 has some limitations that could be overlooked, its huge success led to a bigger problem: security. There are literally hundreds of home appliances running on an ESP8266, from smart switches to smart light bulbs to LED drivers or even mosquito killers. And the ESP8266 does not provide any means to secure the code or the data it stores. Anyone with physical access to the device can read your more sensitive information, such as WiFi credentials.
 
@@ -149,6 +152,7 @@ Espressif released the ESP32 in September 2016. The ESP32 tries to address all t
 In March 2019, some pictures of a new chip labeled “Chip7 2-2-A” were leaked.  Speculations were put to rest last month when Espressif announced the ESP32-S2.
 
 # Different Types of ESP8266 PCB
+
 There are [several types of ESP8266 modules][29] floating around out there,
 so to properly wire things up, you have to determine which your working with.
 I have yet to find a good reference source to understand all the types but
@@ -201,6 +205,7 @@ When WiFi went active, there are large spikes.
 Below is what I have begain to use.
 
 # ESP32 vs ESP8266
+
 What’s the difference between ESP32 and ESP8266?
 Should you use ESP32 or ESP8266 in your projects?
 
@@ -214,6 +219,7 @@ Should you use ESP32 or ESP8266 in your projects?
 
 
 ## ESP-01
+
 <div style="float: left">
     <a href="http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#esp-01">
         <img class="img-rounded" style="margin: 0px 8px" title="This shows you the differance between the older and newer ESP-01 moduals" alt="ESP-01" src="http://www.xess.com/static/media/uploads/blog/devbisme/2014-10-09/V080_V090.png" width="200" height="200">
@@ -241,10 +247,11 @@ This appears to be the most common ESP8266 modual compatable with breadboarding:
 * [Get Started With ESP8266 Using AT Commands, NodeMCU, or Arduino (ESP-12E)](http://www.instructables.com/id/Get-Started-with-ESP8266-Using-AT-Commands-NodeMCU/)
 
 # ESP-01
+
 assuming at power up the Blue led flashed twice quickly and then flashes every second, this means it attempting to connect to your WiFi network. It should do this for about 30 seconds then if it can’t connect the flashing will stop and it will become it’s own access point on 192.168.4.1.
 
-* https://www.itead.cc/wiki/ESP8266_Serial_WIFI_Module
-* http://www.whatimade.today/esp8266-and-the-water-heater/
+* <https://www.itead.cc/wiki/ESP8266_Serial_WIFI_Module>
+* <http://www.whatimade.today/esp8266-and-the-water-heater/>
 
 * [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
 * [Update the Firmware in Your ESP8266 Wi-Fi Module](https://www.allaboutcircuits.com/projects/update-the-firmware-in-your-esp8266-wi-fi-module/)
@@ -252,6 +259,7 @@ assuming at power up the Blue led flashed twice quickly and then flashes every s
 * [ESP8266 WiFi Module Quick Start Guide](http://rancidbacon.com/files/kiwicon8/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf)
 
 ## Programming the ESP-01
+
 Programming the ESP-01 is no easy task.
 It takes a mess of wires, you must powering the ESP with proper voltage and sufficient current,
 you need to toggle it into flash mode, etc.
@@ -263,6 +271,7 @@ This board will ease the task of programming the ESP-01.
 
 
 # Working with ESP-01 or Similar Boards
+
 [!esp-01-512K-1M](https://cdn.instructables.com/ORIG/F4Q/KV0K/IO4JRAXC/F4QKV0KIO4JRAXC.jpg)
 This tiny ESP8266 WiFi Module is a self contained System on a Chip (SOC),
 with integrated TCP/IP protocol stack,
@@ -295,7 +304,7 @@ as the USB connection can pull GPIO-0 low.
 
 If you have an ESP-01 or other device without built-in USB, you will need to enable flashing yourself by pulling GPIO0 low or pressing a "flash" switch, while powering up or resetting the module.
 
-https://www.youtube.com/watch?v=5ovkcvEzohU
+<https://www.youtube.com/watch?v=5ovkcvEzohU>
 
 
 ---------------
@@ -303,6 +312,7 @@ https://www.youtube.com/watch?v=5ovkcvEzohU
 
 
 ## ESP-02
+
 <div style="float: left">
     <a href="http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#esp-02">
         <img class="img-rounded" style="margin: 0px 8px" title="This shows you the ESP-02 ESP8266 WiFi Module Pinout" alt="ESP-01" src="http://hackerspace.pbworks.com/f/1414572703/esp-02.jpg" width="200" height="200">
@@ -319,6 +329,7 @@ A less common module with antenna connector, that may be compatible with breadbo
 * 14.7 mm W x 14.2 mm L
 
 ## ESP-03
+
 <div style="float: left">
     <a href="http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#esp-03">
         <img class="img-rounded" style="margin: 0px 8px" title="This shows you the ESP-03 ESP8266 WiFi Module Pinout" alt="ESP-01" src="https://raw.githubusercontent.com/esp8266/esp8266-wiki/master/images/esp-03.jpg" width="200" height="200">
@@ -340,14 +351,16 @@ castellated pads with built-in ceramic antenna:
 
 
 ## ESP-01S
+
 1MB Flash Memory
-https://www.amazon.com/DIYmall-ESP8266-ESP-01S-Serial-Transceiver/dp/B00O34AGSU
+<https://www.amazon.com/DIYmall-ESP8266-ESP-01S-Serial-Transceiver/dp/B00O34AGSU>
 
 
 ---------------
 
 
 ## ESP-12 / ESP-12E
+
 <div style="float: left">
     <a href="http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#esp-12">
         <img class="img-rounded" style="margin: 0px 8px" title="This shows you the ESP-12 ESP8266 WiFi Module Pinout" alt="ESP-01" src="http://simba-os.readthedocs.io/en/latest/_images/esp12e-pinout.png" width="200" height="200">
@@ -378,6 +391,7 @@ For example, the ESP-01 has a total of eight pins connected to user-reachable he
 
 
 ## NodeMCU / ESP-12
+
 <div style="float: left">
     <a href="http://www.kloppenborg.net/blog/microcontrollers/2016/08/02/getting-started-with-the-esp8266">
         <img class="img-rounded" style="margin: 0px 8px" title="This shows you the ESP-12 ESP8266 WiFi Module Pinout" alt="ESP-01" src="https://raw.githubusercontent.com/nodemcu/nodemcu-devkit-v1.0/master/Documents/NODEMCU_DEVKIT_V1.0_PINMAP.png" width="200" height="200">
@@ -390,6 +404,7 @@ This maybe the most important of them all given inexpensive they have become
 (I have seen prices of $6) and the quantity of code being developed for it.
 
 # NodeMCU / ESP8266 Development Board
+
 The sections above take your through the use of an ESP8266 on some for of development board.
 But what do you do for a devices like the ESP-01
 where you basically just have the process and a WiFi antenna, without an operating system?
@@ -406,6 +421,7 @@ This [bare metal environment][77] presents additional challeges.
 
 
 # Methods of Programming ESP8266
+
 Software for the ESP8266 can be written in one of several languages:
 
 * C / C++
@@ -449,6 +465,7 @@ Some boards with built-in USB converters may use 9600 or 115,200 baud instead.
 Thus it is important to consult your board’s documentation.
 
 ## AT Commands
+
 [!at-command-logo](http://electronicsforu.com/wp-contents/uploads/2016/04/At_COMMAND.png)
 The default firmware on the ESP8266 makes it relatively easy to add WiFi to a project.
 The ESP8266 modules come with a pre-loaded firmware
@@ -475,6 +492,7 @@ Listed below are some documentation for the ESP8266 AT Commands:
 The [Hayes command style][100] is still used today, even though Hayes is long gone.
 
 ## ESP8266 SDK and Toolchain
+
 [!espressif-logo](http://www.signal.com.tr/img/temlogo/espressif-logo.png)
 The [ESP8266 SDK][43], sometimes call the "IoT SDK"
 is an IoT application development platform developed by Expressif
@@ -500,13 +518,14 @@ Also check out these sources:
 * [Setting up the ESP8266 Open SDK](https://www.penninkhof.com/2015/03/esp8266-open-sdk/)
 * [Install ESP8266 SDK toolchain on Linux](https://www.htlinux.com/install-esp8266-sdk-toolchain-on-linux-ubuntu-14-10-desktop/)
 * [ESP8266 Firmware ToolChain](http://www.electrodragon.com/w/Category:ESP8266_Firmware_ToolChain)
-* https://github.com/esp8266/esp8266-wiki/wiki/Toolchain
+* <https://github.com/esp8266/esp8266-wiki/wiki/Toolchain>
 
 
 ---------------
 
 
 ## Arduino IDE
+
 [!arduino-esp8266-logo](https://www.penninkhof.com/wp-content/uploads/2015/08/arduino-esp8266.png)
 There seems to be wide agreement (see [here][141], [here][142], [here][143], [here][144])
 that the Arduino IDE, using the C Languge,
@@ -533,7 +552,9 @@ Some sources are below:
 * [ESP8266 - Easiest way to program so far (Using Arduino IDE)](http://www.whatimade.today/esp8266-easiest-way-to-program-so-far/)
 
 ############################# REMOVE BETWEEN LINES #############################
+
 ### Step 1: Download and Install Arduino IDE - DONE
+
 You can download the Arduino IDE from the [Arduino software website][145].
 To get the latest release for Linux 64bit:
 
@@ -571,6 +592,7 @@ the IDE via the command `arduino &>/dev/null &`.
 >a new version if one is available.
 
 ### Step 2: Start Arduino IDE and Set Preferences - DONE
+
 Next well start the IDE and set our preferences:
 
 1. Start the Arduino Software IDE via the command `arduino &>/dev/null &`.
@@ -579,6 +601,7 @@ Go to **File** > **Preferences**
 3. On the pop-up, make your **Sketchbook location:** `/home/jeff/src/arduino-Nov-5-2018/sketch-folder`.
 
 ### Step 3: Load ESP Libraries - DONE
+
 The ESP8266 addon for the Arduino IDE
 is provided by the ESP8266 community.
 ([lead by Ivan Grokhotkov of Espressif][146]).
@@ -591,7 +614,7 @@ Here are the abbreviated installation steps:
 1. Start the Arduino Software IDE via the command `arduino &>/dev/null &`.
 2. Open the preferences window from the Arduino IDE.
 Go to **File** > **Preferences**
-3. Enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into
+3. Enter <http://arduino.esp8266.com/stable/package_esp8266com_index.json> into
 the **Additional Board Manager URLs** field as shown in the figure below. Then, click the **OK** button.
 (**NOTE:** If you already have a URL in there, and want to keep it,
 you can separate multiple URLs by placing a comma between them.)
@@ -599,7 +622,7 @@ you can separate multiple URLs by placing a comma between them.)
 There should be a couple new entries in addition to the standard Arduino boards.
 Look for ESP8266. Click on that entry, then select **Install**.
 5. While your at it, you should repeat steps 2,3 & 4 for the ESP32 (see [arduino-esp32 GitHub][150]).
-These libraries are located at https://dl.espressif.com/dl/package_esp32_index.json
+These libraries are located at <https://dl.espressif.com/dl/package_esp32_index.json>
 
 For the code below, we'll also need two additional libraries.
 You can do this via **Tools** > **Manage Libraries...** > enter "Adafruit Unified Sensors" and install.
@@ -607,6 +630,7 @@ Repeat with teh filter "DHT sensor" and select "DHT sensort by Adafruit".
 ############################# REMOVE BETWEEN LINES #############################
 
 ### Step 4: Wire-up a ESP8266 - DONE
+
 In my case, I'm using the [NodeMCU DevKit][34]
 (a popular version of the NodeMCU v1.0 / ESP-12E board)
 manufactured by [HiLetgo][27] and easily obtainable via
@@ -615,6 +639,7 @@ Follow the wiring diagram found on the Losant website,
 "[Getting Started with ESP8266 and DHT22 Sensor][151]".
 
 ### Step 5: Load ESP8266 with Software - DONE
+
 With the ESP8266 libraries installed,
 all that’s left to do is select your ESP8266 board from the **Tools** > **Board** menu.
 So my selection was: **Tools** > **Board** menu > **NodeMCU v1.0 (ESP-12E Module)**.
@@ -628,19 +653,24 @@ Typically, this will be `/dev/ttyUSB0`.
 3. Download the code to the ESP8266 via the arrow icon.
 4. Select the serial monitor icon on the top right to see the data
 
-### Step X:
-Arduino IDE Now Supports Building Software in the Command Line - http://lifehacker.com/arduino-ide-now-supports-building-software-in-the-comma-1740786363
+### Step X
 
-### Step X:
-### Step X:
-### Step X:
-### Step X:
+Arduino IDE Now Supports Building Software in the Command Line - <http://lifehacker.com/arduino-ide-now-supports-building-software-in-the-comma-1740786363>
+
+### Step X
+
+### Step X
+
+### Step X
+
+### Step X
 
 
 ---------------
 
 
 ## FreeRTOS
+
 [!freertos-logo](https://www.microsemi.com/images/soc/partners/solution/ip/FreeRTOSlogov1.jpg)
 The developer of the ESP8266, Espressif, has also created a ESP8266 SDK based on [FreeRTOS][63]
 called [ESP8266_RTOS_SDK][64].
@@ -668,6 +698,7 @@ A tick-less mode is provided for low power applications.
 * [Tiny $7 IoT module packs WiFi, BLE, and sensors, runs FreeRTOS](http://linuxgizmos.com/tiny-7-iot-module-packs-wifi-ble-and-sensors-runs-freertos/)
 
 # Picking The Right RTOS
+
 * [Real-Time OS Basics: Picking The Right RTOS When You Need One](https://hackaday.com/2021/02/24/real-time-os-basics-picking-the-right-rtos-when-you-need-one/)
 * [Making Sense Of Real-Time Operating Systems In 2024](https://hackaday.com/2024/11/13/making-sense-of-real-time-operating-systems-in-2024/)
 
@@ -676,6 +707,7 @@ A tick-less mode is provided for low power applications.
 
 
 ## NodeMCU With eLua
+
 [!lua-logo](http://www.lua.org/images/lua.gif)
 Lua is an interpreted programming languages (aka scripting language).
 and is popular in game development and
@@ -727,8 +759,9 @@ luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 
 
 ## MicroPython
+
 * [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266)
-* https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/overview
+* <https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/overview>
 * [Video overview of MicroPython on ESP8266](https://www.youtube.com/watch?v=D-CaWFMFCV0)
 * [Micro Python Now Runs on the ESP8266](http://hackaday.com/2014/11/29/micro-python-now-runs-on-the-esp8266-contributors-wanted-to-get-wifi-working/)
 * [MicroPython on the ESP8266: Kicking the Tires](http://hackaday.com/2016/07/21/micropython-on-the-esp8266-kicking-the-tires/)
@@ -736,7 +769,8 @@ luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 * [Python on ESP32 – Getting Started](https://www.zerynth.com/blog/python-on-esp32-getting-started/)
 
 ## MicroPython
-* https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/overview
+
+* <https://learn.adafruit.com/micropython-basics-how-to-load-micropython-on-a-board/overview>
 * [Video overview of MicroPython on ESP8266](https://www.youtube.com/watch?v=D-CaWFMFCV0)
 * [Building and Running MicroPython on the ESP8266](https://learn.adafruit.com/building-and-running-micropython-on-the-esp8266)
 * [Micro Python Now Runs on the ESP8266](http://hackaday.com/2014/11/29/micro-python-now-runs-on-the-esp8266-contributors-wanted-to-get-wifi-working/)
@@ -750,6 +784,7 @@ luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 
 
 ## Mongoose OS
+
 [!mongoos-os-logo](https://blog.cesanta.com/hubfs/logo_blue_MOS.png?t=1490439456366)
 Because of its vibrant community,
 JavaScript has made its way into hardware with projects like [Johnny-Five][119],
@@ -798,6 +833,7 @@ These articles proved instrumental for defining the steps below:
 * [Detecting Motion Using a PIR Sensor, ESP8266, and Mongoose OS](https://www.losant.com/blog/detecting-motion-using-a-pir-sensor-esp8266-and-mongoose-os)
 
 ### Step 1: Installing Mongoose OS - DONE
+
 The [installation is simple on Ubuntu Linux][125].
 This Mongoose OS install provides both a command line tool
 and a web interface is a full IDE and device configuration manager,
@@ -972,6 +1008,7 @@ mos update
 Finally, make sure to [register on the Mongoose OS forum][132].
 
 ### Step X: Flashing NodeMCU - DONE
+
 I chose to use a NodeMCU as my device and I have two ways to flash this device.
 I could execute `mos ui` or just `mos` and use the browser IDE on `http://127.0.0.1:1992/`
 (select "device setup" if it doesn't pop-up automatically).
@@ -1028,6 +1065,7 @@ Saving and rebooting...
 ```
 
 ### Step X: Explore What Inside
+
 Now go to your browser at the NodeMCU's IP address you'll see a simple web page
 that was created by the `index.html` file that Mongoos OS loaded.
 You can find the NodeMCU's IP address via `mos ui`
@@ -1059,6 +1097,7 @@ make changes via the command
 and the change will be added to `conf9.json`.
 
 ### Step X: Mongoose OS Remote Procedure Calls
+
 [Mongoose OS also supports some remote prodedure calls (MG-RPC)][138],
 and you can list them via:
 
@@ -1112,6 +1151,7 @@ mos --port ws://192.168.1.42/rpc get init.js > init.js
 mos --port ws://192.168.1.42/rpc call Sys.Reboot
 
 ### Step X: Wiring the NodeMCU
+
 Using the [NodeMCU PINout][135], [HC-SR501 PIR Motion Detctor PINout][136],
 and the [DHT22 temperature & humidity sensor PINout][139],
 I breadboard the device in the following fashion:
@@ -1131,25 +1171,29 @@ the Data Out pin, to act as a medium-strength pull up on the data line.
 
 * [Detecting Motion Using a PIR Sensor, ESP8266, and Mongoose OS](https://www.losant.com/blog/detecting-motion-using-a-pir-sensor-esp8266-and-mongoose-os)
 * [DHT Mongoose OS library](https://mongoose-os.com/docs/libraries/hardware/dht.html)
-* https://github.com/mongoose-os-apps/example-dht-c
+* <https://github.com/mongoose-os-apps/example-dht-c>
 
 ### Step X: Building an Application
-* http://www.mjoldfield.com/atelier/2017/07/mongoose.html
-* https://mongoose-os.com/docs/overview/apps.html
+
+* <http://www.mjoldfield.com/atelier/2017/07/mongoose.html>
+* <https://mongoose-os.com/docs/overview/apps.html>
 
 ### Step X: Over-The-Air Update (OTA)
+
 * [Library Makes ESP Over the Air Updates Easy](https://hackaday.com/2019/03/21/library-makes-esp-over-the-air-updates-easy/)
 * [ESP8266 - Pushing OTA Upgrades](http://smallbits.marshall-tribe.net/blog/2016/05/29/esp8266-pushing-ota-upgrades)
-* https://www.youtube.com/watch?v=o05sBDfaFO8&index=9&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE
-* https://mongoose-os.com/docs/libraries/remote_management/rpc-service-ota.html
+* <https://www.youtube.com/watch?v=o05sBDfaFO8&index=9&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE>
+* <https://mongoose-os.com/docs/libraries/remote_management/rpc-service-ota.html>
 
-mos --port ws://192.168.1.42/rpc call OTA.update '{ "url": "http://192.168.1.200:8080/fw.zip", "commit_timeout": 10 }'
+mos --port ws://192.168.1.42/rpc call OTA.update '{ "url": "<http://192.168.1.200:8080/fw.zip>", "commit_timeout": 10 }'
 
 
 ### Step X: Losant and Mongoose OS
+
 * [Getting Started with Mongoose OS, ESP8266, and Losant](https://www.losant.com/blog/getting-started-with-mongoose-os-esp8266-and-losant)
 
 ### Step X: AWS IoT and Mongoose OS
+
 AWS IoT has set the security bar very high, demanding [TLS client-side certificate authentication][140].
 Mongoose OS can connect an ESP8266 directly to the AWS IoT without any intermediate gateway.
 No other MCU solution can do this, at least that I'm aware of.
@@ -1158,23 +1202,25 @@ No other MCU solution can do this, at least that I'm aware of.
 * AWS IoT on Mongoose OS: [Part 1](https://aws.amazon.com/blogs/apn/aws-iot-on-mongoose-os-part-1/),
 [Part 2](https://aws.amazon.com/blogs/apn/aws-iot-on-mongoose-os-part-2/)
 * [The two-dollar secure IoT solution: Mongoose OS + ESP8266 + ATECC508 + AWS IoT](https://mongoose-os.com/blog/mongoose-esp8266-atecc508-aws/)
-* http://www.mjoldfield.com/atelier/2017/07/mongoose.html
-* https://www.youtube.com/watch?v=H8w0_pWu0ak&index=11&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE
-* https://www.youtube.com/watch?v=H8w0_pWu0ak&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE&index=11
-* https://www.youtube.com/playlist?list=PLNOffh-6mSoRxgGXYprODRQyqSa6DvQta
-* https://www.youtube.com/watch?v=v5jblypN28E&index=2&list=PLNOffh-6mSoSUjrfUJDhYIuEKxRT3b8Ep
-* https://www.youtube.com/watch?v=yZ8VAxJ2XpA&list=PLNOffh-6mSoSUjrfUJDhYIuEKxRT3b8Ep&index=8
-* https://www.youtube.com/watch?v=H8w0_pWu0ak
+* <http://www.mjoldfield.com/atelier/2017/07/mongoose.html>
+* <https://www.youtube.com/watch?v=H8w0_pWu0ak&index=11&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE>
+* <https://www.youtube.com/watch?v=H8w0_pWu0ak&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE&index=11>
+* <https://www.youtube.com/playlist?list=PLNOffh-6mSoRxgGXYprODRQyqSa6DvQta>
+* <https://www.youtube.com/watch?v=v5jblypN28E&index=2&list=PLNOffh-6mSoSUjrfUJDhYIuEKxRT3b8Ep>
+* <https://www.youtube.com/watch?v=yZ8VAxJ2XpA&list=PLNOffh-6mSoSUjrfUJDhYIuEKxRT3b8Ep&index=8>
+* <https://www.youtube.com/watch?v=H8w0_pWu0ak>
 
 # AWS IoT and Mongoose OS on ESP32
+
 * [Rapid Prototyping with AWS IoT and Mongoose OS on ESP32 Platform](https://www.slideshare.net/AmazonWebServices/rapid-prototyping-with-aws-iot-and-mongoose-os-on-esp32-platform)
-* https://www.youtube.com/watch?v=16jF0HUyedg&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE&index=12
+* <https://www.youtube.com/watch?v=16jF0HUyedg&list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE&index=12>
 
 
 -------
 
 
 ## PlatformIO
+
 [!platfromio-logo](http://cdn.platformio.org/images/platformio-logo.17fdc3bc.png)
 [PlatformIO][73] is an open source Integrated Development Environment (IDE) for IoT development
 and an alternative to the Arduino IDE.
@@ -1213,6 +1259,7 @@ as illustrated by the postings below:
 * [3/3: Continuous Deployment (OTA to ESP8266)](https://blog.openenergymonitor.org/2016/06/esp8266-ota-update/)
 
 # Working with ESP8266 on Development Board
+
 The ESP8266 like the ESP-01 is small, super-cheap, being installed everywhere,
 and creating all sorts of activity.
 But hacking a solution together can be a challenge if you working close the [bare metal][77].
@@ -1223,6 +1270,7 @@ If your just starting with the ESP8266,
 start with the developer board version.
 
 ## NodeMCU
+
 [!nodemcu-logo](https://avatars1.githubusercontent.com/u/9865736?v=3&s=400)
 While the ESP8266 chip has been very popular, its can also be very difficult to use.
 Most of the low cost modules (e.g. ESP-01) are a challege to program,
@@ -1244,6 +1292,7 @@ such as [lua-cjson][25] and [SPIFFS (SPI Flash File System)][26].
 * [Cool Tools: A Little Filesystem that Keeps Your Bits on Lock](https://hackaday.com/2019/01/24/cool-tools-a-little-filesystem-that-keeps-your-bits-on-lock/)
 
 Some good source materials for NodeMCU is:
+
 * [NodeMCU Home Page](http://www.nodemcu.com/index_en.html)
 * [NodeMCU Firmware](https://github.com/nodemcu/nodemcu-firmware)
 * [NodeMCU Flasher](https://github.com/nodemcu/nodemcu-flasher)
@@ -1278,6 +1327,7 @@ The third NodeMCU board is widely use,
 and is generally not delivered pre-flashed.
 
 ### NodeMCU v0.9, v1.0 and v2.0
+
 If you purchase a NodeMCU board it’s important to know there
 are [two official versions and a third less than offical][42]:
 
@@ -1297,11 +1347,12 @@ In the photo above. the NodeMCU v0.9 is left and v1.0 is on the right.
 
 You'll find the boards pin out below:
 
-ESP-12E Pin Out - http://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-pinout.png
-NodeMCU - http://www.kloppenborg.net/images/blog/esp8266/esp8266-node-mcu-pinout.png
+ESP-12E Pin Out - <http://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-pinout.png>
+NodeMCU - <http://www.kloppenborg.net/images/blog/esp8266/esp8266-node-mcu-pinout.png>
 (Images taken from [ESP8266 NodeMCU Arduino Killer](https://www.slideshare.net/roadster43/esp8266-nodemcu))
 
 ### Building NodeMCU Firmware - DONE
+
 The NodeMCU documentation discusses [three ways to build your NodeMCU firmware][84]:
 [cloud build service][86], [Docker images][81],
 or cross-compiler environments for building from source (via [NodeMCU GitHub site][79]).
@@ -1328,6 +1379,7 @@ total 820
 ```
 
 ### Flashing the NodeMCU - DONE
+
 Once you have your NodeMCU firmware built and downloaded,
 ideally via the [NodeMCU custom builds][86] cloud tool,
 you'll need a tool that can flash the firmware to the NodeMCU / ESP8266.
@@ -1366,6 +1418,7 @@ If you're upgrading from a previous version,
 you should carefully study the "[Upgrading Firmware][88]" instructions.
 
 #### Flashing NodeMCU With esptool.py - DONE
+
 The [`esptool.py`][40] is the preferred tool to do your firmware flashing.
 It is a Python-based, open source, platform independent,
 utility to communicate with the ROM bootloader in Espressif ESP8266.
@@ -1520,6 +1573,7 @@ Erase took 0.5 seconds
 ```
 
 ## Adafruit's HUZZAH ESP8266 Breakout - DONE
+
 [!huzzah-esp8266](https://cdn-learn.adafruit.com/guides/images/000/001/007/medium800/qt.jpg?1448302153)
 The advantage of the [$9.95 Adafruit HUZZAH ESP8266 Breakout][89]
 is that it comes with firmeware pre-installed
@@ -1543,6 +1597,7 @@ Of all the ESP8266-based boards available,
 this is one of the best in terms of intuitive setup and thorough [instructions and documentation][54].
 
 ### Accessing the Console on Adafruit's HUZZAH ESP8266 Breakout - DONE
+
 Using one of the cables referenced above,
 plug in the cable to the HUZZAH ESP8266 and your computer.
 You will see a blue LED (near the WiFi antenna),
@@ -1594,6 +1649,7 @@ When you get a `5` it means the connection is completed and DHCP successful.
 ```
 
 ### Uploading Lua Scripts - DONE
+
 The draw back of the examples above is that they all required you
 the get into the Lua interpreter environment and hand type in each line.
 Any large or complex script will require a better approach.
@@ -1715,13 +1771,13 @@ $ luatool.py --port /dev/ttyUSB0 --src init.lua --dest init.lua --dofile --echo
 ->file.close() -> ok
 ->dofile("init.lua") -> send without checkdofile("init.lua")
 >
-                SSID	BSSID			  RSSI		AUTHMODE	CHANNEL
-             hpsetup	00:1e:0b:55:65:40	  -88		0		6
-               74LL5	48:5d:36:2e:ee:08	  -27		3		1
-      Download Virus	90:72:40:1b:c4:c6	  -79		3		6
-             thefarm	4c:8b:30:9b:ea:01	  -91		3		6
-               SQLKL	18:1b:eb:b2:79:08	  -82		4		1
-         TRENDnet637	00:14:d1:c3:c0:6f	  -85		1		10
+                SSID BSSID     RSSI  AUTHMODE CHANNEL
+             hpsetup 00:1e:0b:55:65:40   -88  0  6
+               74LL5 48:5d:36:2e:ee:08   -27  3  1
+      Download Virus 90:72:40:1b:c4:c6   -79  3  6
+             thefarm 4c:8b:30:9b:ea:01   -91  3  6
+               SQLKL 18:1b:eb:b2:79:08   -82  4  1
+         TRENDnet637 00:14:d1:c3:c0:6f   -85  1  10
 
 ```
 
@@ -1735,6 +1791,7 @@ and the telnet server `telnet_srv.lua` is running.
 See typical telnet server `telnet_srv.lua` [here][60].
 
 ## NodeMCU DevKit Breakout - DONE
+
 For all pratical puposes,
 the NodeMCU DevKit Breakout and the Adafruit HUZZAH boards are equivalent.
 But there are differeance like the baud rate for the USB serial port
@@ -1796,6 +1853,7 @@ lua: cannot open init.lua
 ```
 
 # Lua Programming Examples - DONE
+
 While the esp8266 can be programmed in several languages,
 the NodeMCU is delivered with Lua installed, making Lua a popular choose.
 Lua is an interpreted programming languages (aka scripting language).
@@ -1822,6 +1880,7 @@ Check [NodeMCU Documentation][57] for the details on what functions are availabl
 as well as [Lua Org site][56] to learn more about the Lua scripting language.
 
 ## Access File System and other Commands - DONE
+
 NodeMCU has a set rudimentary Lua file system tools you can use.
 For example (see [here][62] for more information:
 
@@ -1879,6 +1938,7 @@ name:scanner.lua, size:500
 ```
 
 ## init.lua
+
 With `luatool` you can upload to any script on the NodeMCU,
 one that will be uploading most frequently is the file called [`init.lua`][58].
 If NodeMCU finds an `init.lua` in the root of the file system,
@@ -2044,7 +2104,8 @@ Accept-Language: en-US,en;q=0.8
 ```
 
 # ESP8266 Example Using MQTT
-read this for more background on mqtt - http://www.hivemq.com/blog/mqtt-essentials
+
+read this for more background on mqtt - <http://www.hivemq.com/blog/mqtt-essentials>
 
 A very commonly used protocol for IoT devices is Message Queuing Telemetry Transport (MQTT).
 This client/server publish/subscribe messaging transport protocol is light weight, open, and simple.
@@ -2073,6 +2134,7 @@ This build was helped and guided by the following blog posts:
 say something about MQTT and MQTT-SN
 
 ## Firmware Update for Adafruit Feather HUZZAH - DONE
+
 I flashed the Adafruit Feather HUZZAH with firmware to support the features/capabilities I listed above.
 Specifically, using the
 the ESP8266 [cloud build service][86] and [`esptool.py`][40],
@@ -2119,6 +2181,7 @@ lua: cannot open init.lua
 ```
 
 ## Enabling Deep Sleep
+
 There are four types of sleep modes for the ESP8266:
 No-sleep, Modem-sleep, Light-sleep, and Deep-sleep
 (details can be found [here][111] and a good description [here][113]):
@@ -2158,6 +2221,7 @@ which is about ~71 minutes.
 * [Building a battery powered WiFi IoT Sensor with ESP8266, MS-5611 (GY-63), nodemcu and MQTT](https://www.agocontrol.com/2015/03/building-a-battery-powered-wifi-iot-sensor-with-esp8266-ms-5611-gy-63-nodemcu-and-mqtt/)
 
 ## Test DHT22 Sensor
+
 [The DHT22 has 4 pins][115] (looking at the DHT22 front, from left to right)
 VCC (3V to 5V), Data Out, Not Connected, and Ground.
 
@@ -2168,9 +2232,10 @@ to act as a pull up on the data line (aka [pull-up resistor][114]).
 And also connect Data Out to `GPIO4` pin.
 
 * [ESP8266 NodeMCU – DHT22 humidity sensor with MQTT and deep sleep](https://odd-one-out.serek.eu/esp8266-nodemcu-dht22-mqtt-deep-sleep/)
-* https://odd-one-out.serek.eu/esp8266-nodemcu-dht22-custom-modules-firmware/
+* <https://odd-one-out.serek.eu/esp8266-nodemcu-dht22-custom-modules-firmware/>
 
 ## Test PIR Sensor
+
 * [HC-SR501][107] passive infrared (PIR) motion sensor
 * [ESP8266_PIRv2 - ESP8266 Huzzah Deep Sleep Mode PIR Motion Alarm using IFTTT](https://github.com/rgrokett/ESP8266_PIRv2)
 * [Passive infrared (PIR) sensor tutorial](https://hackaday.com/2009/08/21/passive-infrared-pir-sensor-tutorial/)
@@ -2183,26 +2248,28 @@ And also connect Data Out to `GPIO4` pin.
 * [How to Run Your ESP8266 for Years on a Battery](https://openhomeautomation.net/esp8266-battery/)
 
 ## MQTT Broker
+
 I'm choosing [CloudMQTT][94] as my [MQTT broker][95].
 I subscribed to a free account on AWS' MQTT service, [CloudMQTT][103].
 Within the [CloudMQTT's Console][116]:
 
 * I created a CloudMQTT instance (aka MQTT broker), which I called `AWS-MQTT`.
-    * Server: m11.cloudmqtt.com
-    * User: aqetczvf
-    * Password: l6G_2G4Sk785
-    * Port: 17370
-    * SSL Port: 27370
-    * Websockets Port (TLS only): 37370
-    * Connection limit: 10
+  * Server: m11.cloudmqtt.com
+  * User: aqetczvf
+  * Password: l6G_2G4Sk785
+  * Port: 17370
+  * SSL Port: 27370
+  * Websockets Port (TLS only): 37370
+  * Connection limit: 10
 * I created a Manage User (aka MQTT client) for the NodeMCU:
-    * User: nodemcu with Password: 123
-    * User: test with Password: 123
+  * User: nodemcu with Password: 123
+  * User: test with Password: 123
 * I created Access Control Lists (ACL):
-    * User: nodemcu write access to Topics: temperature & humidity, read access to Topics: control
-    * User: test read & write access to Topics: temperature & humidity & control
+  * User: nodemcu write access to Topics: temperature & humidity, read access to Topics: control
+  * User: test read & write access to Topics: temperature & humidity & control
 
 ## MQTT-Spy
+
 * [Spy on your MQTT devices for fun and profit with mqtt-spy](https://www.meetup.com/Virtual-IoT/events/228632951/)
 * [MQTT Toolbox – mqtt-spy](http://www.hivemq.com/blog/mqtt-toolbox-mqtt-spy)
 * [MQTT Toolbox – mqtt-spy-daemon](http://www.hivemq.com/blog/mqtt-toolbox-mqtt-spy-daemon)
@@ -2283,24 +2350,27 @@ There is a publically accessible sandbox server for the Eclipse IoT projects
 available at `iot.eclipse.org`, port `1883`.
 
 * [How to test the `Mosquitto` server?](http://stackoverflow.com/questions/26716279/how-to-test-the-mosquitto-server)
-    * [mqtt-spy](https://github.com/eclipse/paho.mqtt-spy/wiki)
-    * [How To Install Java with Apt-Get on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04)
+  * [mqtt-spy](https://github.com/eclipse/paho.mqtt-spy/wiki)
+  * [How To Install Java with Apt-Get on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04)
 
 ## MQTT Client
+
 [CloudMQTT's documentation][96] also includes code for a [Lua client for the NodeMCU][97],
 and you also find a [Lua client in the NodeMCU documentation][98],
 but the best example might be [Lua MQTT client on Adafruit][108].
 
-check out Adafruits - DIY ESP8266 Home Security with Lua and MQTT - https://learn.adafruit.com/diy-esp8266-home-security-with-lua-and-mqtt/programming-the-esp8266-with-lua
+check out Adafruits - DIY ESP8266 Home Security with Lua and MQTT - <https://learn.adafruit.com/diy-esp8266-home-security-with-lua-and-mqtt/programming-the-esp8266-with-lua>
 for ideas on the init.lua
 
 
 # Losant Builder Kit
+
 * [Losant Builder Kit Instructions](https://docs.losant.com/getting-started/losant-iot-dev-kits/builder-kit/)
 * [Getting Started With AWS IoT and Losant](https://www.losant.com/blog/getting-started-with-aws-iot-and-losant?utm_campaign=Newsletter&utm_source=hs_email&utm_medium=email&utm_content=53170071&_hsenc=p2ANqtz--KBYVWKDgv4UkpLXvIo5Ol9G509BaFTDpa27jlokHFX8n_GNOLGRy4k0F5bXcMjOVY3BA17IqpOEhW4hxjriop6ebTzA&_hsmi=53170071)
 * [How Devices Can Register Themselves in Losant](https://www.losant.com/blog/how-devices-can-register-themselves-in-losant?utm_campaign=Newsletter&utm_source=hs_email&utm_medium=email&utm_content=53170071&_hsenc=p2ANqtz-9BGzUWS-lEiRXbE8kG2LpzKAF-SbHpVVnQ38Qauk_FCtxnYDtKTTVnimoYjeWQbrCEZvyhUIUwg5NBXCO9eqPfUGp08Q&_hsmi=53170071)
 
 # ESP8266 Example Using OLED Display
+
 * [ESP8266 NodeMCU – OLED display using SPI](https://odd-one-out.serek.eu/esp8266-nodemcu-oled-display-spi/)
 * [Analog VU Meter - I2C OLED SH1106 - OLEDMeter Animation](https://forum.arduino.cc/index.php?PHPSESSID=u75qua3pd504eg6p24m9bcpal0&topic=403234.msg2773633#msg2773633)
 
@@ -2320,7 +2390,8 @@ for ideas on the init.lua
 
 
 # ESP8266 Security
-* NodeMCU custom builds https://nodemcu-build.com/index.php has a option for TLS/SSL support provided by mbed TLS: TLS 1.0 / 1.1 / 1.2 and most common cipher suites including DH/ECDH (ECDSA-based disabled by default).
+
+* NodeMCU custom builds <https://nodemcu-build.com/index.php> has a option for TLS/SSL support provided by mbed TLS: TLS 1.0 / 1.1 / 1.2 and most common cipher suites including DH/ECDH (ECDSA-based disabled by default).
 * [How to prevent WiFi Password from being leaked from Lua code?](http://stackoverflow.com/questions/34243734/how-to-prevent-wifi-password-from-being-leaked-from-lua-code)
 * [Don’t Toss That Bulb, It Knows Your Password](https://hackaday.com/2019/01/29/dont-toss-that-bulb-it-knows-your-password/)
 
@@ -2353,7 +2424,7 @@ but this is [not fool proof protection][102].
 * [Securing your esp8266 via TLS/SSL Reverse Proxy](https://jjssoftware.github.io/secure-your-esp8266/)
 * [The two-dollar secure IoT solution: Mongoose OS + ESP8266 + ATECC508 + AWS IoT](https://mongoose-os.com/blog/mongoose-esp8266-atecc508-aws/)
 * [Developing an IoT Security solution](https://thinginnovations.uk/developing-an-iot-security-solution)
-* https://www.zymbit.com/product/zymkey-3i-i2c-k52-4100/
+* <https://www.zymbit.com/product/zymkey-3i-i2c-k52-4100/>
 
 
 
@@ -2362,19 +2433,21 @@ but this is [not fool proof protection][102].
 
 
 # ESP8266 Surveillance Camera
+
 I have been exploring and experiment ways to make a simple spy camera
 that could be be battery powered and dropped almost anywhere.
 
 * ESP8266 Camera
-    * [JPEG camera + ESP8266](http://www.roboremo.com/jpeg-camera--esp8266.html)
-    * [Truly Versatile ESP8266 WiFi Webcam Platform](http://hackaday.com/2016/01/24/truly-versatile-esp8266-wifi-webcam-platform/)
-    * [ArduCAM now Supports ESP8266 Arduino Board with WIFI Websocket Camera Demo](http://www.arducam.com/arducam-supports-esp8266-arduino-board-wifi-websocket-camera-demo/)
-    * [The GotchaCAM Portable DIY Wifi Camera Based Travel and Home Security and Surveillance System](http://www.arducam.com/)
-    * [GitHub for ArduCAM](https://github.com/ArduCAM)
-    * http://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/
-        * [more information](https://www.youtube.com/watch?v=yCLb2eItDyE)
+  * [JPEG camera + ESP8266](http://www.roboremo.com/jpeg-camera--esp8266.html)
+  * [Truly Versatile ESP8266 WiFi Webcam Platform](http://hackaday.com/2016/01/24/truly-versatile-esp8266-wifi-webcam-platform/)
+  * [ArduCAM now Supports ESP8266 Arduino Board with WIFI Websocket Camera Demo](http://www.arducam.com/arducam-supports-esp8266-arduino-board-wifi-websocket-camera-demo/)
+  * [The GotchaCAM Portable DIY Wifi Camera Based Travel and Home Security and Surveillance System](http://www.arducam.com/)
+  * [GitHub for ArduCAM](https://github.com/ArduCAM)
+  * <http://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/>
+    * [more information](https://www.youtube.com/watch?v=yCLb2eItDyE)
 
 # Remote Control with Telegram
+
 * [Telegram Bot Library for ESP8266 on Arduino IDE](https://github.com/Gianbacchio/ESP8266-TelegramBot)
 * [Raspberry Remote Control With Telegram](http://www.instructables.com/id/Raspberry-remote-control-with-Telegram/)
 * [lua-telegram-bot](https://github.com/cosmonawt/lua-telegram-bot)
@@ -2387,11 +2460,13 @@ that could be be battery powered and dropped almost anywhere.
 * [Telegram: ESP32 Motion Detection with Notifications (Arduino IDE)](https://randomnerdtutorials.com/telegram-esp32-motion-detection-arduino)
 
 # Over-The-Air (OTA) Flashing of Firmware
+
 * [TRANSPARENT ESP8266 WIFI-TO-SERIAL BRIDGE](http://hackaday.com/2015/09/18/transparent-esp8266-wifi-to-serial-bridge/)
 * [ESP-LINK: Wifi-Serial Bridge w/REST&MQTT](https://github.com/jeelabs/esp-link)
 * [Hijacking the Sonoff OTA Mechanism](http://hackaday.com/2017/05/31/hijacking-the-sonoff-ota-mechanism/)
 
 # Upload Code Wirelessly
+
 * [ESP8266 Upload Code Wirelessly!](https://www.youtube.com/watch?v=bplYzg6-_i4)
 * [Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA)
 * [Internet of Things with ESP8266 #4: Upload Programs Over the Air (OTA)](https://www.youtube.com/watch?v=GoQXOLB50HA&t=52s)
@@ -2400,6 +2475,7 @@ that could be be battery powered and dropped almost anywhere.
 
 
 # Sonoff
+
 Sonoff is a very inexpensive box with an ESP8266, a power supply,
 and an AC relay along with a way to tap into a power cord.
 Very inexpensive means $5 or $6.
@@ -2415,198 +2491,204 @@ And of course, you can hack the stock firmware on the ESP8266 inside.
 bla bla bla
 
 # Sources
+
 * Early News Articles
-    * [New Chip Alert: The ESP8266 WiFi Module (It’s $5)](http://hackaday.com/2014/08/26/new-chip-alert-the-esp8266-wifi-module-its-5/)
-    * [The Current State of ESP8266 Development](http://hackaday.com/2014/09/06/the-current-state-of-esp8266-development/)
-    * [ESP8266 Distance Testing/](http://hackaday.com/2014/09/26/esp8266-distance-testing/)
-    * [ESP Gets FCC and CE](http://hackaday.com/2014/12/17/esp-gets-fcc-and-ce/)
+  * [New Chip Alert: The ESP8266 WiFi Module (It’s $5)](http://hackaday.com/2014/08/26/new-chip-alert-the-esp8266-wifi-module-its-5/)
+  * [The Current State of ESP8266 Development](http://hackaday.com/2014/09/06/the-current-state-of-esp8266-development/)
+  * [ESP8266 Distance Testing/](http://hackaday.com/2014/09/26/esp8266-distance-testing/)
+  * [ESP Gets FCC and CE](http://hackaday.com/2014/12/17/esp-gets-fcc-and-ce/)
 
 * Documentation
-    * [ESP8266 Reference](http://www.pighixxx.com/test/2015/06/esp8266-rev-1/)
-    * [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
-    * [Espressif Systems is the manufacter of the ESP8266](http://espressif.com/en/products/esp8266/)
-    * [ESP8266 Documentation and Datasheet](https://nurdspace.nl/ESP8266)
-    * [ESP8266 specifications](https://nurdspace.nl/images/e/e0/ESP8266_Specifications_English.pdf)
-    * [Datasheet](https://nurdspace.nl/File:ESP8266_Specifications_English.pdf)
-    * [ElectroDragon Wiki](http://www.electrodragon.com/w/Wi07c)
-    * [ESP8266 Serial WIFI Module](http://wiki.iteadstudio.com/ESP8266_Serial_WIFI_Module)
-    * [ESP8266 Community Forum](http://www.esp8266.com/)
-    * [Hackaday Dictionary: The ESP8266](http://hackaday.com/2015/09/24/hackaday-dictionary-the-esp8266/)
-    * [Ethernet Controller Discovered in the ESP8266](http://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
+  * [ESP8266 Reference](http://www.pighixxx.com/test/2015/06/esp8266-rev-1/)
+  * [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
+  * [Espressif Systems is the manufacter of the ESP8266](http://espressif.com/en/products/esp8266/)
+  * [ESP8266 Documentation and Datasheet](https://nurdspace.nl/ESP8266)
+  * [ESP8266 specifications](https://nurdspace.nl/images/e/e0/ESP8266_Specifications_English.pdf)
+  * [Datasheet](https://nurdspace.nl/File:ESP8266_Specifications_English.pdf)
+  * [ElectroDragon Wiki](http://www.electrodragon.com/w/Wi07c)
+  * [ESP8266 Serial WIFI Module](http://wiki.iteadstudio.com/ESP8266_Serial_WIFI_Module)
+  * [ESP8266 Community Forum](http://www.esp8266.com/)
+  * [Hackaday Dictionary: The ESP8266](http://hackaday.com/2015/09/24/hackaday-dictionary-the-esp8266/)
+  * [Ethernet Controller Discovered in the ESP8266](http://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
 
 * Toolchain and Development Boards
-    * [Continuous Delivery for Your ESP8266](http://hackaday.com/2016/06/08/continuous-delivery-for-your-esp8266/)
-    * [ESP8266: Continuous Delivery Pipeline – Push To Production](https://blog.squix.org/2016/06/esp8266-continuous-delivery-pipeline-push-to-production.html)
-    * [How to Directly Program an Inexpensive ESP8266 WiFi Module](http://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/)
-    * [Building the toolchain](https://github.com/EspressifSystems/low_power_voltage_measurement)
-    * [Update the Firmware in Your ESP8266 Wi-Fi Module](http://www.allaboutcircuits.com/projects/update-the-firmware-in-your-esp8266-wi-fi-module/)
-    * [Upgrading the firmware in the flash of an ESP8266 module](http://www.xess.com/blog/esp8266-reflash/)
-    * [Flashing New Firmware via UART](http://www.esp8266.com/viewtopic.php?f=6&t=33)
-    * [The esptool.py site that contains information about uploading programs to the ESP8266 and alternative wiring schemes that can help with flashing](https://github.com/themadinventor/esptool/)
-    * [Shows how to update the ESP8266 firmware](http://blog.electrodragon.com/cloud-updating-your-wi07c-esp8266-now/)
-    * [change the module firmware via Raspberry Pi](http://www.extragsm.com/blog/2014/12/16/use-esp8266-module-as-a-wireless-switcher/)
-    * [ESP8266 Basic](http://www.esp8266basic.com/)
-    * [Arduino IDE Support for the ESP8266](http://hackaday.com/2015/03/28/arduino-ide-support-for-the-esp8266/)
-    * [Seeed Studio's ESP8266 IoT SDK](http://www.seeedstudio.com/document/pdf/esp_iot_sdk_v0.6.zip)
-    * [Micro Python Now Runs on the ESP8266](http://hackaday.com/2014/11/29/micro-python-now-runs-on-the-esp8266-contributors-wanted-to-get-wifi-working/)
-    * [Compiling Your Own Programs for the ESP8266/](http://hackaday.com/2014/12/08/compiling-your-own-programs-for-the-esp8266/)
-    * [A Development Board for the ESP8266-03](http://www.limpkin.fr/index.php?post/2014/11/27/A-Development-Board-for-the-ESP8266-03)
-    * [Review: HUZZAH is the ESP8266 WiFi Setup You Need](http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/)
-    * Using the Lua Programming Language
-        * [Lua Programming Language](http://www.lua.org/)
-        * [The.Lua.Tutorial](http://luatut.com/)
-        * [eLua Project](http://www.eluaproject.net/)
-        * [NodeMcu](http://nodemcu.com/index_en.html)
-        * [NodeMcu - A Lua based firmware for wifi-soc esp8266](https://github.com/nodemcu/nodemcu-firmware)
-        * [Burning LuaFirmware](http://importhack.wordpress.com/2014/11/22/how-to-use-ep8266-esp-01-as-a-sensor-web-client/)
-        * [Flash tool for NodeMCU](https://github.com/nodemcu/nodemcu-firmware)
-        * [IoT With Lua and NodeMCU](https://dzone.com/articles/iot-with-lua)
-        * [A Small Collection of NodeMCU Lua Scripts](http://www.limpkin.fr/index.php?post/2016/04/17/A-Small-Collection-of-NodeMCU-Lua-Scripts-for-Data-Collection)
-        * [GitHub - nodemcu/nodemcu-flasher](https://github.com/nodemcu/nodemcu-flasher)
-        * [Command line interface for the ESP8266 module](https://www.npmjs.com/package/esp8266)
-        * ESP8266 based web configurable wifi general purpose control [Part 1](http://www.instructables.com/id/ESP8266-based-web-configurable-wifi-general-purpos/?ALLSTEPS) and [Part 2](http://www.instructables.com/id/ESP8266-based-web-configurable-wifi-general-purpos-1/?ALLSTEPS)
-    * [DIY ESP8266 Development Board](http://www.electro-labs.com/diy-esp8266-development-board/)
+  * [Continuous Delivery for Your ESP8266](http://hackaday.com/2016/06/08/continuous-delivery-for-your-esp8266/)
+  * [ESP8266: Continuous Delivery Pipeline – Push To Production](https://blog.squix.org/2016/06/esp8266-continuous-delivery-pipeline-push-to-production.html)
+  * [How to Directly Program an Inexpensive ESP8266 WiFi Module](http://hackaday.com/2015/03/18/how-to-directly-program-an-inexpensive-esp8266-wifi-module/)
+  * [Building the toolchain](https://github.com/EspressifSystems/low_power_voltage_measurement)
+  * [Update the Firmware in Your ESP8266 Wi-Fi Module](http://www.allaboutcircuits.com/projects/update-the-firmware-in-your-esp8266-wi-fi-module/)
+  * [Upgrading the firmware in the flash of an ESP8266 module](http://www.xess.com/blog/esp8266-reflash/)
+  * [Flashing New Firmware via UART](http://www.esp8266.com/viewtopic.php?f=6&t=33)
+  * [The esptool.py site that contains information about uploading programs to the ESP8266 and alternative wiring schemes that can help with flashing](https://github.com/themadinventor/esptool/)
+  * [Shows how to update the ESP8266 firmware](http://blog.electrodragon.com/cloud-updating-your-wi07c-esp8266-now/)
+  * [change the module firmware via Raspberry Pi](http://www.extragsm.com/blog/2014/12/16/use-esp8266-module-as-a-wireless-switcher/)
+  * [ESP8266 Basic](http://www.esp8266basic.com/)
+  * [Arduino IDE Support for the ESP8266](http://hackaday.com/2015/03/28/arduino-ide-support-for-the-esp8266/)
+  * [Seeed Studio's ESP8266 IoT SDK](http://www.seeedstudio.com/document/pdf/esp_iot_sdk_v0.6.zip)
+  * [Micro Python Now Runs on the ESP8266](http://hackaday.com/2014/11/29/micro-python-now-runs-on-the-esp8266-contributors-wanted-to-get-wifi-working/)
+  * [Compiling Your Own Programs for the ESP8266/](http://hackaday.com/2014/12/08/compiling-your-own-programs-for-the-esp8266/)
+  * [A Development Board for the ESP8266-03](http://www.limpkin.fr/index.php?post/2014/11/27/A-Development-Board-for-the-ESP8266-03)
+  * [Review: HUZZAH is the ESP8266 WiFi Setup You Need](http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/)
+  * Using the Lua Programming Language
+    * [Lua Programming Language](http://www.lua.org/)
+    * [The.Lua.Tutorial](http://luatut.com/)
+    * [eLua Project](http://www.eluaproject.net/)
+    * [NodeMcu](http://nodemcu.com/index_en.html)
+    * [NodeMcu - A Lua based firmware for wifi-soc esp8266](https://github.com/nodemcu/nodemcu-firmware)
+    * [Burning LuaFirmware](http://importhack.wordpress.com/2014/11/22/how-to-use-ep8266-esp-01-as-a-sensor-web-client/)
+    * [Flash tool for NodeMCU](https://github.com/nodemcu/nodemcu-firmware)
+    * [IoT With Lua and NodeMCU](https://dzone.com/articles/iot-with-lua)
+    * [A Small Collection of NodeMCU Lua Scripts](http://www.limpkin.fr/index.php?post/2016/04/17/A-Small-Collection-of-NodeMCU-Lua-Scripts-for-Data-Collection)
+    * [GitHub - nodemcu/nodemcu-flasher](https://github.com/nodemcu/nodemcu-flasher)
+    * [Command line interface for the ESP8266 module](https://www.npmjs.com/package/esp8266)
+    * ESP8266 based web configurable wifi general purpose control [Part 1](http://www.instructables.com/id/ESP8266-based-web-configurable-wifi-general-purpos/?ALLSTEPS) and [Part 2](http://www.instructables.com/id/ESP8266-based-web-configurable-wifi-general-purpos-1/?ALLSTEPS)
+  * [DIY ESP8266 Development Board](http://www.electro-labs.com/diy-esp8266-development-board/)
 
 # Tools and Libraries
+
 * [MQTT client library for ESP8266](https://github.com/tuanpmt/esp_mqtt)
 * [Squash Your ESP-8266 Bugs with ESP-gdbstub](http://hackaday.com/2015/12/12/squash-your-esp-8266-bugs-with-esp-gdbstub/)
 * [FreeRTOS-based framework for ESP8266 WiFi-enabled microcontrollers](https://github.com/SuperHouse/esp-open-rtos)
 * [Websocket Client and Server for ESP-8266](https://github.com/morrissinger/ESP8266-Websocket)
-    * [ESP8266+Websocket server RGB LED controller](http://www.instructables.com/id/Esp8266Websockets-RGB-LED-controller/?ALLSTEPS)
+  * [ESP8266+Websocket server RGB LED controller](http://www.instructables.com/id/Esp8266Websockets-RGB-LED-controller/?ALLSTEPS)
 
 * [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
 * [Zephyr 3.4: An RTOS of a Different Stripe](https://www.electronicdesign.com/technologies/embedded/software/article/21273429/electronic-design-zephyr-34-an-rtos-of-a-different-stripe)
 
 # Hacking the ESP8266
+
 * [Your ESP8266 Needs More Memory](http://hackaday.com/2016/07/16/your-esp8266-needs-more-memory/)
 * [Hacking a NRF24L01 Radio for Longer Range](http://hackaday.com/2015/08/15/hacking-a-nrf24l01-radio-for-longer-range/)
 
 * Quick Start
-    * [ESP8266 WiFi Module Quick Start Guide](http://rancidbacon.com/files/kiwicon8/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf)
-    * [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
+  * [ESP8266 WiFi Module Quick Start Guide](http://rancidbacon.com/files/kiwicon8/ESP8266_WiFi_Module_Quick_Start_Guide_v_1.0.4.pdf)
+  * [ESP8266 Quick Start](http://benlo.com/esp8266/esp8266QuickStart.html)
 
 * Tutorials
-    * Video: [Hari Wiguna's "$3 WiFi Modual" YouTube Series](https://www.youtube.com/playlist?list=PL-xZsBalytNAFgyiDI8_lwXyeVE3R4hpx)
-    * Video: Raspberry Pi + ESP8266
+  * Video: [Hari Wiguna's "$3 WiFi Modual" YouTube Series](https://www.youtube.com/playlist?list=PL-xZsBalytNAFgyiDI8_lwXyeVE3R4hpx)
+  * Video: Raspberry Pi + ESP8266
     [Demo](https://www.youtube.com/watch?v=ecnxMOie7PM),
-    * [Using the ESP8266 as a Web-enabled sensor](http://hackaday.com/2014/11/23/using-the-esp8266-as-a-web-enabled-sensor/)
+  * [Using the ESP8266 as a Web-enabled sensor](http://hackaday.com/2014/11/23/using-the-esp8266-as-a-web-enabled-sensor/)
     [Wiring](https://www.youtube.com/watch?v=TkLOAvP5G1A&feature=em-uploademail),
     [NodeMCU](https://www.youtube.com/watch?v=dBcDw-7uiS0&feature=em-uploademail),
     [NodeJS](https://www.youtube.com/watch?v=pAEfXKABbI0&feature=em-uploademail)
-    * Video: [5$ Arduino WiFi Module!? ESP8266 mini Tutorial/Review](https://www.youtube.com/watch?v=9QZkCQSHnko)
-    * Video: [Cheap and Easy WiFi (IoT) Tutorial Part 1 - ESP8266](https://www.youtube.com/watch?v=qU76yWHeQuw)
-    * Video: [ESP8266 AT Commands Tutorial (Wi-Fi Module)](https://www.youtube.com/watch?v=uznq8W9sOKQ)
-    * Video: [Talking to an ESP8266 module using an FTDI USB-to-serial cable](http://www.xess.com/blog/esp8266-is-alive/)
-    * [ESP32 Arduino Tutorial Overview](https://www.dfrobot.com/blog-964.html)
-    * [Introduction to the MQTT Protocol on NodeMCU](http://www.allaboutcircuits.com/projects/introduction-to-the-mqtt-protocol-on-nodemcu/)
-    * [Minimal MQTT: Networked Nodes](http://hackaday.com/2016/05/17/minimal-mqtt-networked-nodes/)
-    * [Tutorial for ESP8266 Serial WiFi Module](http://www.seeedstudio.com/wiki/WiFi_Serial_Transceiver_Module)
-    * [Using the ESP8266 as a Web-enabled sensor](http://hackaday.com/2014/11/23/using-the-esp8266-as-a-web-enabled-sensor/)
-    * [GitHub for ESP8266 Community Forum](https://github.com/esp8266)
-    * [ESP8266 WiFi Module Library](https://hackaday.io/project/2879-esp8266-wifi-module-library)
-    * [More AT Command Information Found](https://hackaday.io/project/2879/log/9300-more-at-command-information-found)
-    * [P8266 GCC SDK](http://www.electrodragon.com/w/ESP8266_GCC_SDK)
-    * [Using GCC to program the ESP8266](http://www.esp8266.com/viewtopic.php?f=9&t=19&sid=2bcffde786cfebbd3a1cfa422e7ffdbb)
-    * [An SDK for the ESP8266 WiFi Chip/](http://hackaday.com/2014/10/25/an-sdk-for-the-esp8266-wifi-chip/)
-    * [ESP8266 IoT SDK](http://www.seeedstudio.com/document/pdf/esp_iot_sdk_v0.6.zip)
-    * [GCC Toolchain](https://github.com/esp8266/esp8266-wiki/wiki)
-    * [Wi07c Documentation](http://www.electrodragon.com/w/Wi07c)
-    * [ESP8266 IoT](http://www.electrodragon.com/w/ESP8266_IoT)
-    * [ESP8266 - Easiest way to program so far (Using Arduino IDE)](http://www.whatimade.today/esp8266-easiest-way-to-program-so-far/)
-    * [Quick Start to Nodemcu (ESP8266) on Arduino IDE](http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/?ALLSTEPS#intro)
-    * [ESP8266 Now Working/Updated](http://scargill.wordpress.com/2014/10/05/esp8266-working/)
-    * [Connect ESP8266 to Raspberry Pi](http://www.extragsm.com/blog/2014/12/03/connect-esp8266-to-raspberry-pi/)
-    * [Connect the ESP8266 WiFi Chip to your Raspberry Pi](https://www.openhomeautomation.net/connect-esp8266-raspberry-pi/)
-    * [How to Make Two ESP8266 Talk](http://randomnerdtutorials.com/how-to-make-two-esp8266-talk/)
-    * [ESP8266 Web Server Tutorial](http://randomnerdtutorials.com/esp8266-web-server/)
+  * Video: [5$ Arduino WiFi Module!? ESP8266 mini Tutorial/Review](https://www.youtube.com/watch?v=9QZkCQSHnko)
+  * Video: [Cheap and Easy WiFi (IoT) Tutorial Part 1 - ESP8266](https://www.youtube.com/watch?v=qU76yWHeQuw)
+  * Video: [ESP8266 AT Commands Tutorial (Wi-Fi Module)](https://www.youtube.com/watch?v=uznq8W9sOKQ)
+  * Video: [Talking to an ESP8266 module using an FTDI USB-to-serial cable](http://www.xess.com/blog/esp8266-is-alive/)
+  * [ESP32 Arduino Tutorial Overview](https://www.dfrobot.com/blog-964.html)
+  * [Introduction to the MQTT Protocol on NodeMCU](http://www.allaboutcircuits.com/projects/introduction-to-the-mqtt-protocol-on-nodemcu/)
+  * [Minimal MQTT: Networked Nodes](http://hackaday.com/2016/05/17/minimal-mqtt-networked-nodes/)
+  * [Tutorial for ESP8266 Serial WiFi Module](http://www.seeedstudio.com/wiki/WiFi_Serial_Transceiver_Module)
+  * [Using the ESP8266 as a Web-enabled sensor](http://hackaday.com/2014/11/23/using-the-esp8266-as-a-web-enabled-sensor/)
+  * [GitHub for ESP8266 Community Forum](https://github.com/esp8266)
+  * [ESP8266 WiFi Module Library](https://hackaday.io/project/2879-esp8266-wifi-module-library)
+  * [More AT Command Information Found](https://hackaday.io/project/2879/log/9300-more-at-command-information-found)
+  * [P8266 GCC SDK](http://www.electrodragon.com/w/ESP8266_GCC_SDK)
+  * [Using GCC to program the ESP8266](http://www.esp8266.com/viewtopic.php?f=9&t=19&sid=2bcffde786cfebbd3a1cfa422e7ffdbb)
+  * [An SDK for the ESP8266 WiFi Chip/](http://hackaday.com/2014/10/25/an-sdk-for-the-esp8266-wifi-chip/)
+  * [ESP8266 IoT SDK](http://www.seeedstudio.com/document/pdf/esp_iot_sdk_v0.6.zip)
+  * [GCC Toolchain](https://github.com/esp8266/esp8266-wiki/wiki)
+  * [Wi07c Documentation](http://www.electrodragon.com/w/Wi07c)
+  * [ESP8266 IoT](http://www.electrodragon.com/w/ESP8266_IoT)
+  * [ESP8266 - Easiest way to program so far (Using Arduino IDE)](http://www.whatimade.today/esp8266-easiest-way-to-program-so-far/)
+  * [Quick Start to Nodemcu (ESP8266) on Arduino IDE](http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/?ALLSTEPS#intro)
+  * [ESP8266 Now Working/Updated](http://scargill.wordpress.com/2014/10/05/esp8266-working/)
+  * [Connect ESP8266 to Raspberry Pi](http://www.extragsm.com/blog/2014/12/03/connect-esp8266-to-raspberry-pi/)
+  * [Connect the ESP8266 WiFi Chip to your Raspberry Pi](https://www.openhomeautomation.net/connect-esp8266-raspberry-pi/)
+  * [How to Make Two ESP8266 Talk](http://randomnerdtutorials.com/how-to-make-two-esp8266-talk/)
+  * [ESP8266 Web Server Tutorial](http://randomnerdtutorials.com/esp8266-web-server/)
 
 
 * Projects Making Use of the ESP8266
-    * [Hunting Rogue Access Points with the ESP8266](https://hackaday.com/2017/12/28/antenna-alignment-and-hunting-rogue-access-points-with-the-esp8266/)
-    * [WarWalking With The ESP8266](http://hackaday.com/2016/10/23/warwalking-with-the-esp8266/)
-    * [Dope Scope - A directional WiFi Sniffing device that fits in the palm of your hand](http://warcollar.com/products/dopescope.html)
-    * [ESP8266 Sniffer](https://www.hackster.io/kosme/esp8266-sniffer-9e4770)
-    * [ESP8266 Friend Detector](https://www.hackster.io/ricardooliveira/esp8266-friend-detector-12542e)
-    * [Easy Alexa (or Echo) Control of your ESP8266 Huzzah](https://learn.adafruit.com/easy-alexa-or-echo-control-of-your-esp8266-huzzah)
-    * [Alexa, Make My ESP8266 Do Something](http://hackaday.com/2016/11/23/alexa-make-my-esp8266-do-something/)
-    * [ESP8266 weather station](http://dangerousprototypes.com/2015/11/30/esp8266-weather-station/)
-    * [NodeMCU Weather Widget](https://www.youtube.com/watch?v=NnS7sFmU-c4)
-    * Weather station - [Using the 4 pins of the ESP8266-01](https://arduinodiy.wordpress.com/2016/10/11/using-the-4-pins-of-the-esp8266-01/)
-    * [WiFi / Internet Controlled Relays using ESP8266 - Quick, 30 minutes IoT project](http://www.instructables.com/id/WiFi-Internet-Controlled-Relays-using-ESP8266-Quic/)
-    * [ESP8266 IFTTT Easy Button](https://www.hackster.io/noelportugal/esp8266-ifttt-easy-button)
-    * [Transparent ESP8266 WiFi-to-Serial Bridge](http://hackaday.com/2015/09/18/transparent-esp8266-wifi-to-serial-bridge/)
-    * [Building a ESP8266 Client/Server Application](https://arduino-board.com/tutorials/esp8266)
-    * [ESP8266 WiFi Access Point](https://arduino-board.com/tutorials/esp8266-ap)
-    * [ESP8266 as an Access Point](http://scargill.wordpress.com/2014/10/08/esp8266-as-an-access-point/)
-    * [ESP8266 for low power sensor applications](https://github.com/EspressifSystems/low_power_voltage_measurement)
-    * [Accessing a web site with an ESP8266 serial WiFi module and an Arduino Mega 2560](http://hackaday.io/project/3072/instructions)
-    * [Tutorial for ESP8266 Serial WiFi Module](https://www.zybuluo.com/kfihihc/note/31135)
-    * [802.11 WIFI enabled RGB LED Strips, using the ESP8266](http://hackaday.io/project/3250-cypress-psoc-4-esp8266-ws2812-rgb-xmas-lights)
-    * [Running a Web Server on the ESP8266](http://hackaday.com/2014/11/15/running-a-web-server-on-the-esp8266/)
-    * [ESP8266 Web Server Farm](http://hackaday.com/2015/09/05/esp8266-web-server-farm/)
-    * [Programming an Arduino remotely with the ESP8266 module](https://translate.google.com/translate?hl=en&sl=es&tl=en&u=http://www.sistemasorp.es/2014/11/11/programando-un-arduino-remotamente-con-el-modulo-esp8266/)
-    * [Temp sensor connected to ESP8266 and upload data using MQTT](https://www.hackster.io/mtashiro/temp-sensor-connected-to-esp8266-and-upload-data-using-mqtt-5e05c9?utm_source=Hackster.io+newsletter&utm_campaign=20569a30e7-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-20569a30e7-140225889)
-    * [Using the ESP8266 as a Web-enabled sensor](http://hackaday.com/2014/11/23/using-the-esp8266-as-a-web-enabled-sensor/)
-    * [A Breakout Board for the ESP8266-03](http://hackaday.com/2014/11/28/a-breakout-board-for-the-esp8266-03/)
-    * [Hacklet 25 – ESP8266 WiFi Module Projects](http://hackaday.com/2014/12/05/hacklet-25-esp8266-wifi-module-projects/)
-    * [Test Your Signal with the WiFi Cup/](http://hackaday.com/2014/11/11/test-your-signal-with-the-wifi-cup/)
-        * [Mapping WiFi Signals in 3 Dimensions](http://hackaday.com/2015/02/17/mapping-wifi-signals-in-3-dimensions/)
-    * [Checking eMail with the ESP8266/](http://hackaday.com/2014/11/03/checking-email-with-the-esp8266/)
-    * [An ESP8266 Based Smartmeter/](http://hackaday.com/2014/11/02/an-esp8266-based-smartmeter/)
-    * [Keep an Eye on Your Fermenting Beer with Brewmonitor/](http://hackaday.com/2014/10/11/keep-an-eye-on-your-fermenting-beer-with-brewmonitor/)
-    * [ESP8266 BASIC WiFi Thermostat is Child’s Play](http://hackaday.com/2015/11/28/basic-on-the-esp8266/)
-    * [Making Something Useful With The ESP8266](http://hackaday.com/2015/01/05/making-something-useful-with-the-esp8266/)
-    * [ESP8266 AND IOT: STREAMING SERIAL ACCELEROMETER DATA VIA MQTT](http://tinker.yeoman.com.au/2015/03/29/esp8266-and-iot-streaming-serial-accelerometer-data-via-mqtt/)
-    * [An Amazon Dash-Like Button For The ESP8266](http://hackaday.com/2015/05/13/an-amazon-dash-like-button-for-the-esp8266/)
-    * [Talking To A Lamp - Alexa Controlled ESP8266](http://hackaday.com/2017/07/22/talking-to-a-lamp/)
-    * [ESP8266 Keeps An Eye On Your Batteries](http://hackaday.com/2015/05/24/esp8266-keeps-and-eye-on-your-batteries/)
-    * [ESP8266 DIN 8-Channel Wifi Relay Controller](https://hackaday.io/project/6456-esp8266-din-8-channel-wifi-relay-controller)
-    * [momentary push button supplies power to a ESP8266](http://hackaday.com/2015/07/24/alarm-notifies-the-office-when-the-coffee-is-ready/)
-    * [Attiny85 DHT22 Temp/Humidity logger](http://www.esp8266.com/viewtopic.php?f=8&t=390)
-    * [Tiny wi-fi robot](https://hackaday.io/project/6695-tiny-wi-fi-robot)
-    * [Home Automation With the ESP8266: Build Home Automation Systems Using the Powerful and Cheap ESP8266 WiFi Chip Kindle Edition](http://www.amazon.com/Home-Automation-ESP8266-Systems-Powerful-ebook/dp/B00W9B3OOC/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1442795120&sr=1-1&keywords=home+automation+using+esp8266&tag=rnwap-20)
-    * [Primary IoT Make with NodeMcu ESP8266](http://www.seeedstudio.com/recipe/232-primary-iot-make-with-nodemcu-gt-esp8266-lt.html)
-    * [A WiFI-enabled cord switch with the ESP8266 in 10 minutes](https://www.hackster.io/alinan/a-wifi-enabled-cord-switch-with-the-esp8266-in-10-minutes-6fa700?ref=newsletter&utm_source=Hackster.io+newsletter&utm_campaign=7fdf5fdbea-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-7fdf5fdbea-140225889)
-    * [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
-    * [Truly Versatile ESP8266 WiFi Webcam Platform](http://hackaday.com/2016/01/24/truly-versatile-esp8266-wifi-webcam-platform/)
-    * [Webserver with NodeMCU/ESP8266 and DHT11](https://www.hackster.io/trimbitei/webserver-with-nodemcu-esp8266-and-dht11-5d4acf?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
-    * [How to Make an Interactive TCP Server with NodeMCU on the ESP8266](http://www.allaboutcircuits.com/projects/how-to-make-an-interactive-tcp-server-nodemcu-on-the-esp8266/)
-    * [ESP8266 IoT Energy Monitor](https://www.hackster.io/whatnick/esp8266-iot-energy-monitor-b199ed
-    * [GPS Tracker Using NEO 6M and ESP-12](https://www.kolkataonweb.com/code-bank/tag/ai-cloud-inside/)
-    * [ESP to WireShark](http://hackaday.com/2017/07/06/esp-to-wireshark/)
-    * [WiFi Packet-Monitor | ESP8266 + OLED](https://www.youtube.com/watch?v=RGkqemAGbjU)
-    * [Monitor Power Consumption of Low-Power Devices ](https://hackaday.com/2018/02/28/monitor-power-consumption-of-low-power-devices/)
+  * [Hunting Rogue Access Points with the ESP8266](https://hackaday.com/2017/12/28/antenna-alignment-and-hunting-rogue-access-points-with-the-esp8266/)
+  * [WarWalking With The ESP8266](http://hackaday.com/2016/10/23/warwalking-with-the-esp8266/)
+  * [Dope Scope - A directional WiFi Sniffing device that fits in the palm of your hand](http://warcollar.com/products/dopescope.html)
+  * [ESP8266 Sniffer](https://www.hackster.io/kosme/esp8266-sniffer-9e4770)
+  * [ESP8266 Friend Detector](https://www.hackster.io/ricardooliveira/esp8266-friend-detector-12542e)
+  * [Easy Alexa (or Echo) Control of your ESP8266 Huzzah](https://learn.adafruit.com/easy-alexa-or-echo-control-of-your-esp8266-huzzah)
+  * [Alexa, Make My ESP8266 Do Something](http://hackaday.com/2016/11/23/alexa-make-my-esp8266-do-something/)
+  * [ESP8266 weather station](http://dangerousprototypes.com/2015/11/30/esp8266-weather-station/)
+  * [NodeMCU Weather Widget](https://www.youtube.com/watch?v=NnS7sFmU-c4)
+  * Weather station - [Using the 4 pins of the ESP8266-01](https://arduinodiy.wordpress.com/2016/10/11/using-the-4-pins-of-the-esp8266-01/)
+  * [WiFi / Internet Controlled Relays using ESP8266 - Quick, 30 minutes IoT project](http://www.instructables.com/id/WiFi-Internet-Controlled-Relays-using-ESP8266-Quic/)
+  * [ESP8266 IFTTT Easy Button](https://www.hackster.io/noelportugal/esp8266-ifttt-easy-button)
+  * [Transparent ESP8266 WiFi-to-Serial Bridge](http://hackaday.com/2015/09/18/transparent-esp8266-wifi-to-serial-bridge/)
+  * [Building a ESP8266 Client/Server Application](https://arduino-board.com/tutorials/esp8266)
+  * [ESP8266 WiFi Access Point](https://arduino-board.com/tutorials/esp8266-ap)
+  * [ESP8266 as an Access Point](http://scargill.wordpress.com/2014/10/08/esp8266-as-an-access-point/)
+  * [ESP8266 for low power sensor applications](https://github.com/EspressifSystems/low_power_voltage_measurement)
+  * [Accessing a web site with an ESP8266 serial WiFi module and an Arduino Mega 2560](http://hackaday.io/project/3072/instructions)
+  * [Tutorial for ESP8266 Serial WiFi Module](https://www.zybuluo.com/kfihihc/note/31135)
+  * [802.11 WIFI enabled RGB LED Strips, using the ESP8266](http://hackaday.io/project/3250-cypress-psoc-4-esp8266-ws2812-rgb-xmas-lights)
+  * [Running a Web Server on the ESP8266](http://hackaday.com/2014/11/15/running-a-web-server-on-the-esp8266/)
+  * [ESP8266 Web Server Farm](http://hackaday.com/2015/09/05/esp8266-web-server-farm/)
+  * [Programming an Arduino remotely with the ESP8266 module](https://translate.google.com/translate?hl=en&sl=es&tl=en&u=http://www.sistemasorp.es/2014/11/11/programando-un-arduino-remotamente-con-el-modulo-esp8266/)
+  * [Temp sensor connected to ESP8266 and upload data using MQTT](https://www.hackster.io/mtashiro/temp-sensor-connected-to-esp8266-and-upload-data-using-mqtt-5e05c9?utm_source=Hackster.io+newsletter&utm_campaign=20569a30e7-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-20569a30e7-140225889)
+  * [Using the ESP8266 as a Web-enabled sensor](http://hackaday.com/2014/11/23/using-the-esp8266-as-a-web-enabled-sensor/)
+  * [A Breakout Board for the ESP8266-03](http://hackaday.com/2014/11/28/a-breakout-board-for-the-esp8266-03/)
+  * [Hacklet 25 – ESP8266 WiFi Module Projects](http://hackaday.com/2014/12/05/hacklet-25-esp8266-wifi-module-projects/)
+  * [Test Your Signal with the WiFi Cup/](http://hackaday.com/2014/11/11/test-your-signal-with-the-wifi-cup/)
+    * [Mapping WiFi Signals in 3 Dimensions](http://hackaday.com/2015/02/17/mapping-wifi-signals-in-3-dimensions/)
+  * [Checking eMail with the ESP8266/](http://hackaday.com/2014/11/03/checking-email-with-the-esp8266/)
+  * [An ESP8266 Based Smartmeter/](http://hackaday.com/2014/11/02/an-esp8266-based-smartmeter/)
+  * [Keep an Eye on Your Fermenting Beer with Brewmonitor/](http://hackaday.com/2014/10/11/keep-an-eye-on-your-fermenting-beer-with-brewmonitor/)
+  * [ESP8266 BASIC WiFi Thermostat is Child’s Play](http://hackaday.com/2015/11/28/basic-on-the-esp8266/)
+  * [Making Something Useful With The ESP8266](http://hackaday.com/2015/01/05/making-something-useful-with-the-esp8266/)
+  * [ESP8266 AND IOT: STREAMING SERIAL ACCELEROMETER DATA VIA MQTT](http://tinker.yeoman.com.au/2015/03/29/esp8266-and-iot-streaming-serial-accelerometer-data-via-mqtt/)
+  * [An Amazon Dash-Like Button For The ESP8266](http://hackaday.com/2015/05/13/an-amazon-dash-like-button-for-the-esp8266/)
+  * [Talking To A Lamp - Alexa Controlled ESP8266](http://hackaday.com/2017/07/22/talking-to-a-lamp/)
+  * [ESP8266 Keeps An Eye On Your Batteries](http://hackaday.com/2015/05/24/esp8266-keeps-and-eye-on-your-batteries/)
+  * [ESP8266 DIN 8-Channel Wifi Relay Controller](https://hackaday.io/project/6456-esp8266-din-8-channel-wifi-relay-controller)
+  * [momentary push button supplies power to a ESP8266](http://hackaday.com/2015/07/24/alarm-notifies-the-office-when-the-coffee-is-ready/)
+  * [Attiny85 DHT22 Temp/Humidity logger](http://www.esp8266.com/viewtopic.php?f=8&t=390)
+  * [Tiny wi-fi robot](https://hackaday.io/project/6695-tiny-wi-fi-robot)
+  * [Home Automation With the ESP8266: Build Home Automation Systems Using the Powerful and Cheap ESP8266 WiFi Chip Kindle Edition](http://www.amazon.com/Home-Automation-ESP8266-Systems-Powerful-ebook/dp/B00W9B3OOC/ref=sr_1_1?s=digital-text&ie=UTF8&qid=1442795120&sr=1-1&keywords=home+automation+using+esp8266&tag=rnwap-20)
+  * [Primary IoT Make with NodeMcu ESP8266](http://www.seeedstudio.com/recipe/232-primary-iot-make-with-nodemcu-gt-esp8266-lt.html)
+  * [A WiFI-enabled cord switch with the ESP8266 in 10 minutes](https://www.hackster.io/alinan/a-wifi-enabled-cord-switch-with-the-esp8266-in-10-minutes-6fa700?ref=newsletter&utm_source=Hackster.io+newsletter&utm_campaign=7fdf5fdbea-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-7fdf5fdbea-140225889)
+  * [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
+  * [Truly Versatile ESP8266 WiFi Webcam Platform](http://hackaday.com/2016/01/24/truly-versatile-esp8266-wifi-webcam-platform/)
+  * [Webserver with NodeMCU/ESP8266 and DHT11](https://www.hackster.io/trimbitei/webserver-with-nodemcu-esp8266-and-dht11-5d4acf?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
+  * [How to Make an Interactive TCP Server with NodeMCU on the ESP8266](http://www.allaboutcircuits.com/projects/how-to-make-an-interactive-tcp-server-nodemcu-on-the-esp8266/)
+  * [ESP8266 IoT Energy Monitor](<https://www.hackster.io/whatnick/esp8266-iot-energy-monitor-b199ed>
+  * [GPS Tracker Using NEO 6M and ESP-12](https://www.kolkataonweb.com/code-bank/tag/ai-cloud-inside/)
+  * [ESP to WireShark](http://hackaday.com/2017/07/06/esp-to-wireshark/)
+  * [WiFi Packet-Monitor | ESP8266 + OLED](https://www.youtube.com/watch?v=RGkqemAGbjU)
+  * [Monitor Power Consumption of Low-Power Devices](https://hackaday.com/2018/02/28/monitor-power-consumption-of-low-power-devices/)
 
 * ESP8266 Controlled Plug / Receptacle
-    * [First IoT device - Plug](https://myesp8266.blogspot.com/2015/04/first-iot-device.html?spref=pi)
-    * [WiFi Power Bar!](http://hackaday.com/2017/03/04/wifi-power-bar/)
-    * [Switch Mains Power with an ESP8266](http://hackaday.com/2015/04/19/switch-mains-power-with-an-esp8266/)
+  * [First IoT device - Plug](https://myesp8266.blogspot.com/2015/04/first-iot-device.html?spref=pi)
+  * [WiFi Power Bar!](http://hackaday.com/2017/03/04/wifi-power-bar/)
+  * [Switch Mains Power with an ESP8266](http://hackaday.com/2015/04/19/switch-mains-power-with-an-esp8266/)
 
 * Power Management
-    * [ESP8266: Turn Off WiFi - Reduce Current Big Time](https://www.hackster.io/rayburne/esp8266-turn-off-wifi-reduce-current-big-time-1df8ae?utm_source=Hackster.io+newsletter&utm_campaign=2f2ffd9fef-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-2f2ffd9fef-140225889&mc_cid=2f2ffd9fef&mc_eid=9036129d51)
-    * [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
-    * [REDUCING ESP8266 POWER CONSUMPTION USING DEEP SLEEP](http://tinker.yeoman.com.au/2015/03/08/reducing-esp8266-power-consumption-using-deep-sleep/)
-    * [Hack allows ESP-01 to go to Deep Sleep](http://hackaday.com/2015/02/08/hack-allows-esp-01-to-go-to-deep-sleep/)
-    * [Low Power ESP8266 – Sleeping at 78 micro Amps](http://tim.jagenberg.info/2015/01/18/low-power-esp8266/)
-    * [ESP8266 Lullaby](http://hackaday.com/2016/11/11/esp8266-lullaby/)
-    * [ESP8266_PIRv2 - ESP8266 Huzzah Deep Sleep Mode PIR Motion Alarm using IFTTT](https://github.com/rgrokett/ESP8266_PIRv2)
-        * [Passive infrared (PIR) sensor tutorial](https://hackaday.com/2009/08/21/passive-infrared-pir-sensor-tutorial/)
-    * [Making the ESP8266 Low-Powered With Deep Sleep](https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep)
-    * [ESP8266: Monitoring Power Consumption](https://thingpulse.com/esp8266-monitoring-power-consumption/)
-    * [Max deep sleep for ESP8266](https://thingpulse.com/max-deep-sleep-for-esp8266/)
-    * [5 Hacks to Prolong your ESPaper’s Battery Run-Time](https://thingpulse.com/5-hacks-prolong-espapers-battery-run-time/)
+  * [ESP8266: Turn Off WiFi - Reduce Current Big Time](https://www.hackster.io/rayburne/esp8266-turn-off-wifi-reduce-current-big-time-1df8ae?utm_source=Hackster.io+newsletter&utm_campaign=2f2ffd9fef-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-2f2ffd9fef-140225889&mc_cid=2f2ffd9fef&mc_eid=9036129d51)
+  * [ESP32 Deep Sleep with Arduino IDE and Wake Up Sources](https://randomnerdtutorials.com/esp32-deep-sleep-arduino-ide-wake-up-sources/)
+  * [REDUCING ESP8266 POWER CONSUMPTION USING DEEP SLEEP](http://tinker.yeoman.com.au/2015/03/08/reducing-esp8266-power-consumption-using-deep-sleep/)
+  * [Hack allows ESP-01 to go to Deep Sleep](http://hackaday.com/2015/02/08/hack-allows-esp-01-to-go-to-deep-sleep/)
+  * [Low Power ESP8266 – Sleeping at 78 micro Amps](http://tim.jagenberg.info/2015/01/18/low-power-esp8266/)
+  * [ESP8266 Lullaby](http://hackaday.com/2016/11/11/esp8266-lullaby/)
+  * [ESP8266_PIRv2 - ESP8266 Huzzah Deep Sleep Mode PIR Motion Alarm using IFTTT](https://github.com/rgrokett/ESP8266_PIRv2)
+    * [Passive infrared (PIR) sensor tutorial](https://hackaday.com/2009/08/21/passive-infrared-pir-sensor-tutorial/)
+  * [Making the ESP8266 Low-Powered With Deep Sleep](https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep)
+  * [ESP8266: Monitoring Power Consumption](https://thingpulse.com/esp8266-monitoring-power-consumption/)
+  * [Max deep sleep for ESP8266](https://thingpulse.com/max-deep-sleep-for-esp8266/)
+  * [5 Hacks to Prolong your ESPaper’s Battery Run-Time](https://thingpulse.com/5-hacks-prolong-espapers-battery-run-time/)
 
 ## Alternatives
+
 * [ESP8266 or MKR1000?](http://hackaday.com/2016/04/29/esp8266-or-mkr1000/)
 
 ## More
+
 * [The Pain of Connecting to WPA Wi-Fi on the Linux Command Line](http://www.sevenforge.com/2009/07/28/connecting-to-wpa-wifi-on-the-command-line/)
 * [NetworkConfigurationCommandLine/Automatic](https://help.ubuntu.com/community/NetworkConfigurationCommandLine/Automatic)
 * [Wired Networking For The ESP8266](http://hackaday.com/2016/07/01/wired-networking-for-the-esp8266/)
 * [Overhauling The ESP8266’s Flash Memory Handling](http://hackaday.com/2016/09/09/overhauling-the-esp8266s-flash-memory-handling/)
-* [WebSockets Embedded With The ESP8266 ](https://hackaday.com/2018/10/03/websockets-embedded-with-the-esp8266/)
+* [WebSockets Embedded With The ESP8266](https://hackaday.com/2018/10/03/websockets-embedded-with-the-esp8266/)
 
 ## Next Generation / Next Version
+
 * [The ESP32 Has Been Released](http://hackaday.com/2016/09/05/new-part-day-the-esp32-has-been-released/)
 * [ESP32 Tutorials](http://hackaday.com/2017/03/01/esp32-tutorials/)
 * [Tiny $7 IoT module packs WiFi, BLE, and sensors, runs FreeRTOS](http://hackerboards.com/tiny-7-iot-module-packs-wifi-ble-and-sensors-runs-freertos/)
@@ -2629,7 +2711,6 @@ bla bla bla
 [04]:http://hackaday.com/2014/08/26/new-chip-alert-the-esp8266-wifi-module-its-5/
 [05]:http://hackaday.com/2013/01/12/finally-ti-is-producing-simple-cheap-wifi-modules/
 [06]:http://www.electrodragon.com/product/esp8266-wi07c-wifi-module/
-[07]:http://www.electrodragon.com/w/Wi07c
 [08]:http://espressif.com/en/products/esp8266/
 [09]:https://www.google.com/search?q=ESP-07&oq=ESP-07&aqs=chrome..69i57j69i60l2.4990185j0j7&sourceid=chrome&es_sm=122&ie=UTF-8#tbm=shop&q=ESP8266+ESP
 [10]:http://compnetworking.about.com/cs/wireless80211/a/aa80211standard.htm
@@ -2638,143 +2719,143 @@ bla bla bla
 [13]:http://en.wikipedia.org/wiki/SoftAP
 [14]:http://wireless.kernel.org/en/users/Documentation/modes
 [15]:http://hackerspace.pbworks.com/w/page/88183850/ESP8266
-[16]:http://www.esp8266.com/viewtopic.php?f=5&t=28)
-[17]:https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions
-[18]:http://tminusarduino.blogspot.com/2014/09/experimenting-with-esp8266-5-wifi-module.html
-[19]:https://www.adafruit.com/datasheets/FT232_Model.pdf
-[20]:http://www.adafruit.com/datasheets/DS_FT232R.pdf
-[21]:http://www.seeedstudio.com/depot/WiFi-Serial-Transceiver-Module-w-ESP8266-p-1994.html
-[22]:http://nodemcu.com/index_en.html
-[23]:http://www.eluaproject.net/
-[24]:http://www.eluaproject.net/overview
-[25]:https://www.kyne.com.au/~mark/software/lua-cjson-manual.html
-[26]:https://github.com/pellepl/spiffs
-[27]:https://iprice.ph/hiletgo/
-[28]:https://www.amazon.com/gp/product/B010O1G1ES/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1
-[29]:http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#modules
-[30]:https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf
-[31]:http://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf
-[32]:http://www.embeddedinsights.com/epd/tensilica/tensilica-xtensalx3.php
-[33]:https://www.adafruit.com/product/2471
-[34]:https://www.amazon.com/HiLetgo-Version-NodeMCU-Internet-Development/dp/B010O1G1ES
-[35]:https://www.tindie.com/products/doit/espduinowifi-arduino-uno-r3/
-[36]:http://www.espressolite.com/
-[37]:https://www.sparkfun.com/products/13711
-[38]:https://www.adafruit.com/product/2821
-[39]:http://hackaday.com/2014/12/02/finding-a-cheaper-usb-to-serial-chips/
-[40]:https://github.com/espressif/esptool
-[41]:http://www.banggood.com/buy/esp8266-nodemcu-development-board.html?p=PT19151269030201502M
-[42]:https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/
-[43]:http://esp8266-re.foogod.com/wiki/IoT_SDK
-[44]:https://nodemcu.readthedocs.io/en/master/en/flash/#putting-device-into-flash-mode
-[45]:http://www.freertos.org/
-[46]:http://www.espressif.com/en/support/explore/get-started/esp8266/getting-started-guide
-[47]:http://nodemcu.readthedocs.io/en/dev/en/flash/
-[48]:https://github.com/nodemcu/nodemcu-flasher
-[49]:https://github.com/igrr/esptool-ck
-[50]:http://esp8266.github.io/Arduino/versions/2.0.0/doc/ota_updates/ota_updates.html
-[51]:https://www.youtube.com/watch?v=2rnfhwipFRI
-[52]:https://github.com/4refr0nt/luatool
-[53]:http://nodemcu.readthedocs.io/en/dev/
-[54]:https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-huzzah-esp8266.pdf
-[55]:https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-nodemcu-lua
-[56]:http://www.lua.org/home.html
-[57]:https://nodemcu.readthedocs.io/en/master/
-[58]:http://nodemcu.readthedocs.io/en/master/en/upload/#initlua
-[59]:http://nodemcu.readthedocs.io/en/master/en/lua-developer-faq/#how-do-i-avoid-a-panic-loop-in-initlua
-[60]:https://github.com/nodemcu/nodemcu-firmware/blob/dev/lua_examples/telnet.lua
-[61]:https://nodemcu.readthedocs.io/en/master/en/upload/
-[62]:http://nodemcu.readthedocs.io/en/master/en/modules/file/
-[63]:http://www.freertos.org/
-[64]:https://github.com/espressif/ESP8266_RTOS_SDK
-[65]:https://github.com/SuperHouse/esp-open-rtos
-[66]:http://www.superhouse.tv/
-[67]:https://en.wikipedia.org/wiki/FTDI
-[68]:http://www.kloppenborg.net/blog/microcontrollers/2016/08/02/getting-started-with-the-esp8266
-[69]:https://github.com/esp8266/Arduino
-[70]:http://www.esp8266.com/viewforum.php?f=25
-[71]:http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/
-[72]:https://en.wikipedia.org/wiki/Real-time_operating_system
-[73]:http://platformio.org/
-[74]:http://docs.platformio.org/en/latest/what-is-platformio.html
-[75]:https://pioplus.com/
-[76]:https://en.wikipedia.org/wiki/Microprocessor_development_board
-[77]:https://en.wikipedia.org/wiki/Bare_machine
-[78]:https://bigdanzblog.wordpress.com/2015/04/24/esp8266-nodemcu-interrupting-init-lua-during-boot/
-[79]:https://github.com/nodemcu?tab=repositories
-[80]:https://github.com/nodemcu/nodemcu-firmware/releases/download/0.9.6-dev_20150704/nodemcu_integer_0.9.6-dev_20150704.bin
-[81]:https://hub.docker.com/r/marcelstoer/nodemcu-build/
-[82]:https://www.howtoinstall.co/en/ubuntu/xenial/esptool
-[83]:http://manpages.ubuntu.com/manpages/xenial/man1/esptool.1.html
-[84]:http://nodemcu.readthedocs.io/en/master/en/build/
-[85]:https://github.com/nodemcu/nodemcu-firmware#select-modules
-[86]:https://nodemcu-build.com/index.php
-[87]:https://nodemcu.readthedocs.io/en/1.5.4.1-final/en/flash/
-[88]:https://nodemcu.readthedocs.io/en/1.5.4.1-final/en/flash/#upgrading-firmware
-[89]:https://www.adafruit.com/product/247
-[90]:https://www.adafruit.com/product/954
-[91]:https://www.adafruit.com/products/284
-[93]:https://www.adafruit.com/products/70
-[94]:https://www.cloudmqtt.com/
-[95]:http://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment
-[96]:https://www.cloudmqtt.com/docs.html
-[97]:https://www.cloudmqtt.com/docs-nodemcu.html
-[98]:http://nodemcu.readthedocs.io/en/latest/en/modules/mqtt/
-[99]:https://en.wikipedia.org/wiki/Hayes_Microcomputer_Products
-[100]:https://en.wikipedia.org/wiki/Hayes_command_set
-[101]:https://en.wikipedia.org/wiki/MAC_filtering
-[102]:https://www.howtogeek.com/204458/why-you-shouldn%E2%80%99t-use-mac-address-filtering-on-your-wi-fi-router/
-[103]:https://customer.cloudmqtt.com/login
-[104]:https://nodemcu.readthedocs.io/en/master/en/modules/dht/
-[105]:https://learn.adafruit.com/dht/overview
-[106]:https://www.adafruit.com/product/385
-[107]:http://www.datasheet-pdf.download/hc-sr501-pir-motion-sensor/
-[108]:https://learn.adafruit.com/diy-esp8266-home-security-with-lua-and-mqtt/programming-the-esp8266-with-lua
-[109]:https://github.com/eclipse/paho.mqtt-spy/wiki
-[110]:https://community.arubanetworks.com/t5/Controller-Based-WLANs/What-is-the-wireless-DTIM-And-how-do-we-use-it/ta-p/181608
-[111]:http://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf
-[112]:https://nodemcu.readthedocs.io/en/master/en/modules/wifi/#wifistasleeptype
-[113]:https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep
-[114]:https://learn.sparkfun.com/tutorials/pull-up-resistors
-[115]:https://cdn-learn.adafruit.com/downloads/pdf/dht.pdf
-[116]:https://api.cloudmqtt.com/sso/cloudmqtt/console
-[117]:https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04
-[118]:https://kamilfb.github.io/mqtt-spy/
-[119]:http://johnny-five.io/
-[120]:https://www.espruino.com/
-[121]:http://jerryscript.net/
-[122]:https://cesanta.com/
-[123]:https://mongoose-os.com/
-[124]:https://www.losant.com/
-[125]:https://mongoose-os.com/software.html
-[126]:https://mongoose-os.com/docs/quickstart/setup.html
-[127]:https://opensource.com/article/17/4/mjs-JavaScript-engine
-[128]:https://github.com/cesanta/mongoose-os/tree/master/mos
-[129]:https://cesanta.com/
-[130]:https://cesanta.com/case-studies.html
-[131]:https://opensource.com/article/17/3/mongoose-os-iot-development
-[132]:https://forum.mongoose-os.com/entry/register
-[133]:https://www.youtube.com/playlist?list=PLNOffh-6mSoSUjrfUJDhYIuEKxRT3b8Ep
-[134]:https://www.youtube.com/playlist?list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE
-[135]:https://iotbytes.wordpress.com/nodemcu-pinout/
-[136]:https://www.mpja.com/download/31227sc.pdf
-[137]:https://iot.eclipse.org/getting-started
-[138]:https://mongoose-os.com/docs/overview/rpc.html
-[139]:https://cdn-learn.adafruit.com/downloads/pdf/dht.pdf
-[140]:http://docs.aws.amazon.com/iot/latest/developerguide/iot-security-identity.html
-[141]:https://www.reddit.com/r/esp8266/comments/6no08g/arduino_vs_lua_for_nodemcu/
-[142]:https://www.foobarflies.io/reassessing-lua-on-nodemcu/
-[143]:https://www.esp8266.com/viewtopic.php?f=6&t=3433
-[144]:https://internetofhomethings.com/homethings/?p=424
-[145]:https://www.arduino.cc/en/Main/Software
-[146]:https://frightanic.com/iot/interview-ivan-grokhotkov-espressif/
-[147]:https://github.com/esp8266/Arduino
-[148]:https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon
-[149]:https://arduino-esp8266.readthedocs.io/en/2.4.2/#
-[150]:https://github.com/espressif/arduino-esp32
-[151]:https://www.losant.com/blog/getting-started-with-the-esp8266-and-dht22-sensor
-[152]:https://www.amazon.com/gp/product/B08QMMGZLB
-[153]:https://askubuntu.com/questions/1403705/dev-ttyusb0-not-present-in-ubuntu-22-04
+[16]:<http://www.esp8266.com/viewtopic.php?f=5&t=28>)
+[17]:<https://github.com/esp8266/esp8266-wiki/wiki/Hardware_versions>
+[18]:<http://tminusarduino.blogspot.com/2014/09/experimenting-with-esp8266-5-wifi-module.html>
+[19]:<https://www.adafruit.com/datasheets/FT232_Model.pdf>
+[20]:<http://www.adafruit.com/datasheets/DS_FT232R.pdf>
+[21]:<http://www.seeedstudio.com/depot/WiFi-Serial-Transceiver-Module-w-ESP8266-p-1994.html>
+[22]:<http://nodemcu.com/index_en.html>
+[23]:<http://www.eluaproject.net/>
+[24]:<http://www.eluaproject.net/overview>
+[25]:<https://www.kyne.com.au/~mark/software/lua-cjson-manual.html>
+[26]:<https://github.com/pellepl/spiffs>
+[27]:<https://iprice.ph/hiletgo/>
+[28]:<https://www.amazon.com/gp/product/B010O1G1ES/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1>
+[29]:<http://www.esp8266.com/wiki/doku.php?id=esp8266-module-family#modules>
+[30]:<https://cdn-shop.adafruit.com/product-files/2471/0A-ESP8266__Datasheet__EN_v4.3.pdf>
+[31]:<http://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf>
+[32]:<http://www.embeddedinsights.com/epd/tensilica/tensilica-xtensalx3.php>
+[33]:<https://www.adafruit.com/product/2471>
+[34]:<https://www.amazon.com/HiLetgo-Version-NodeMCU-Internet-Development/dp/B010O1G1ES>
+[35]:<https://www.tindie.com/products/doit/espduinowifi-arduino-uno-r3/>
+[36]:<http://www.espressolite.com/>
+[37]:<https://www.sparkfun.com/products/13711>
+[38]:<https://www.adafruit.com/product/2821>
+[39]:<http://hackaday.com/2014/12/02/finding-a-cheaper-usb-to-serial-chips/>
+[40]:<https://github.com/espressif/esptool>
+[41]:<http://www.banggood.com/buy/esp8266-nodemcu-development-board.html?p=PT19151269030201502M>
+[42]:<https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/>
+[43]:<http://esp8266-re.foogod.com/wiki/IoT_SDK>
+[44]:<https://nodemcu.readthedocs.io/en/master/en/flash/#putting-device-into-flash-mode>
+[45]:<http://www.freertos.org/>
+[46]:<http://www.espressif.com/en/support/explore/get-started/esp8266/getting-started-guide>
+[47]:<http://nodemcu.readthedocs.io/en/dev/en/flash/>
+[48]:<https://github.com/nodemcu/nodemcu-flasher>
+[49]:<https://github.com/igrr/esptool-ck>
+[50]:<http://esp8266.github.io/Arduino/versions/2.0.0/doc/ota_updates/ota_updates.html>
+[51]:<https://www.youtube.com/watch?v=2rnfhwipFRI>
+[52]:<https://github.com/4refr0nt/luatool>
+[53]:<http://nodemcu.readthedocs.io/en/dev/>
+[54]:<https://cdn-learn.adafruit.com/downloads/pdf/adafruit-feather-huzzah-esp8266.pdf>
+[55]:<https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-nodemcu-lua>
+[56]:<http://www.lua.org/home.html>
+[57]:<https://nodemcu.readthedocs.io/en/master/>
+[58]:<http://nodemcu.readthedocs.io/en/master/en/upload/#initlua>
+[59]:<http://nodemcu.readthedocs.io/en/master/en/lua-developer-faq/#how-do-i-avoid-a-panic-loop-in-initlua>
+[60]:<https://github.com/nodemcu/nodemcu-firmware/blob/dev/lua_examples/telnet.lua>
+[61]:<https://nodemcu.readthedocs.io/en/master/en/upload/>
+[62]:<http://nodemcu.readthedocs.io/en/master/en/modules/file/>
+[63]:<http://www.freertos.org/>
+[64]:<https://github.com/espressif/ESP8266_RTOS_SDK>
+[65]:<https://github.com/SuperHouse/esp-open-rtos>
+[66]:<http://www.superhouse.tv/>
+[67]:<https://en.wikipedia.org/wiki/FTDI>
+[68]:<http://www.kloppenborg.net/blog/microcontrollers/2016/08/02/getting-started-with-the-esp8266>
+[69]:<https://github.com/esp8266/Arduino>
+[70]:<http://www.esp8266.com/viewforum.php?f=25>
+[71]:<http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/>
+[72]:<https://en.wikipedia.org/wiki/Real-time_operating_system>
+[73]:<http://platformio.org/>
+[74]:<http://docs.platformio.org/en/latest/what-is-platformio.html>
+[75]:<https://pioplus.com/>
+[76]:<https://en.wikipedia.org/wiki/Microprocessor_development_board>
+[77]:<https://en.wikipedia.org/wiki/Bare_machine>
+[78]:<https://bigdanzblog.wordpress.com/2015/04/24/esp8266-nodemcu-interrupting-init-lua-during-boot/>
+[79]:<https://github.com/nodemcu?tab=repositories>
+[80]:<https://github.com/nodemcu/nodemcu-firmware/releases/download/0.9.6-dev_20150704/nodemcu_integer_0.9.6-dev_20150704.bin>
+[81]:<https://hub.docker.com/r/marcelstoer/nodemcu-build/>
+[82]:<https://www.howtoinstall.co/en/ubuntu/xenial/esptool>
+[83]:<http://manpages.ubuntu.com/manpages/xenial/man1/esptool.1.html>
+[84]:<http://nodemcu.readthedocs.io/en/master/en/build/>
+[85]:<https://github.com/nodemcu/nodemcu-firmware#select-modules>
+[86]:<https://nodemcu-build.com/index.php>
+[87]:<https://nodemcu.readthedocs.io/en/1.5.4.1-final/en/flash/>
+[88]:<https://nodemcu.readthedocs.io/en/1.5.4.1-final/en/flash/#upgrading-firmware>
+[89]:<https://www.adafruit.com/product/247>
+[90]:<https://www.adafruit.com/product/954>
+[91]:<https://www.adafruit.com/products/284>
+[93]:<https://www.adafruit.com/products/70>
+[94]:<https://www.cloudmqtt.com/>
+[95]:<http://www.hivemq.com/blog/mqtt-essentials-part-3-client-broker-connection-establishment>
+[96]:<https://www.cloudmqtt.com/docs.html>
+[97]:<https://www.cloudmqtt.com/docs-nodemcu.html>
+[98]:<http://nodemcu.readthedocs.io/en/latest/en/modules/mqtt/>
+[99]:<https://en.wikipedia.org/wiki/Hayes_Microcomputer_Products>
+[100]:<https://en.wikipedia.org/wiki/Hayes_command_set>
+[101]:<https://en.wikipedia.org/wiki/MAC_filtering>
+[102]:<https://www.howtogeek.com/204458/why-you-shouldn%E2%80%99t-use-mac-address-filtering-on-your-wi-fi-router/>
+[103]:<https://customer.cloudmqtt.com/login>
+[104]:<https://nodemcu.readthedocs.io/en/master/en/modules/dht/>
+[105]:<https://learn.adafruit.com/dht/overview>
+[106]:<https://www.adafruit.com/product/385>
+[107]:<http://www.datasheet-pdf.download/hc-sr501-pir-motion-sensor/>
+[108]:<https://learn.adafruit.com/diy-esp8266-home-security-with-lua-and-mqtt/programming-the-esp8266-with-lua>
+[109]:<https://github.com/eclipse/paho.mqtt-spy/wiki>
+[110]:<https://community.arubanetworks.com/t5/Controller-Based-WLANs/What-is-the-wireless-DTIM-And-how-do-we-use-it/ta-p/181608>
+[111]:<http://www.espressif.com/sites/default/files/9b-esp8266-low_power_solutions_en_0.pdf>
+[112]:<https://nodemcu.readthedocs.io/en/master/en/modules/wifi/#wifistasleeptype>
+[113]:<https://www.losant.com/blog/making-the-esp8266-low-powered-with-deep-sleep>
+[114]:<https://learn.sparkfun.com/tutorials/pull-up-resistors>
+[115]:<https://cdn-learn.adafruit.com/downloads/pdf/dht.pdf>
+[116]:<https://api.cloudmqtt.com/sso/cloudmqtt/console>
+[117]:<https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04>
+[118]:<https://kamilfb.github.io/mqtt-spy/>
+[119]:<http://johnny-five.io/>
+[120]:<https://www.espruino.com/>
+[121]:<http://jerryscript.net/>
+[122]:<https://cesanta.com/>
+[123]:<https://mongoose-os.com/>
+[124]:<https://www.losant.com/>
+[125]:<https://mongoose-os.com/software.html>
+[126]:<https://mongoose-os.com/docs/quickstart/setup.html>
+[127]:<https://opensource.com/article/17/4/mjs-JavaScript-engine>
+[128]:<https://github.com/cesanta/mongoose-os/tree/master/mos>
+[129]:<https://cesanta.com/>
+[130]:<https://cesanta.com/case-studies.html>
+[131]:<https://opensource.com/article/17/3/mongoose-os-iot-development>
+[132]:<https://forum.mongoose-os.com/entry/register>
+[133]:<https://www.youtube.com/playlist?list=PLNOffh-6mSoSUjrfUJDhYIuEKxRT3b8Ep>
+[134]:<https://www.youtube.com/playlist?list=PLNOffh-6mSoRfxD4wTvRziUDUiSLSyJKE>
+[135]:<https://iotbytes.wordpress.com/nodemcu-pinout/>
+[136]:<https://www.mpja.com/download/31227sc.pdf>
+[137]:<https://iot.eclipse.org/getting-started>
+[138]:<https://mongoose-os.com/docs/overview/rpc.html>
+[139]:<https://cdn-learn.adafruit.com/downloads/pdf/dht.pdf>
+[140]:<http://docs.aws.amazon.com/iot/latest/developerguide/iot-security-identity.html>
+[141]:<https://www.reddit.com/r/esp8266/comments/6no08g/arduino_vs_lua_for_nodemcu/>
+[142]:<https://www.foobarflies.io/reassessing-lua-on-nodemcu/>
+[143]:<https://www.esp8266.com/viewtopic.php?f=6&t=3433>
+[144]:<https://internetofhomethings.com/homethings/?p=424>
+[145]:<https://www.arduino.cc/en/Main/Software>
+[146]:<https://frightanic.com/iot/interview-ivan-grokhotkov-espressif/>
+[147]:<https://github.com/esp8266/Arduino>
+[148]:<https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon>
+[149]:<https://arduino-esp8266.readthedocs.io/en/2.4.2/#>
+[150]:<https://github.com/espressif/arduino-esp32>
+[151]:<https://www.losant.com/blog/getting-started-with-the-esp8266-and-dht22-sensor>
+[152]:<https://www.amazon.com/gp/product/B08QMMGZLB>
+[153]:<https://askubuntu.com/questions/1403705/dev-ttyusb0-not-present-in-ubuntu-22-04>
 [154]:
 [155]:
 [156]:

@@ -14,9 +14,9 @@ Version:      0.0.0
 # vPlayer (ESP32)
 
 * [VPlayer Puts Smart Display In Palm Of Your Hand](https://hackaday.com/2024/12/31/vplayer-puts-smart-display-in-palm-of-your-hand/)
-    * [vPlayer - ESP32 Smart Watch Display](https://www.tindie.com/products/kdcircuits/vplayer-esp32-smart-watch-display/)
-    * [vPlayer - Ultimate IoT Display](https://vplayer.readthedocs.io/en/latest/)
-    * [An ESP In Your Mini TV](https://hackaday.com/2023/06/28/an-esp-in-your-mini-tv/)
+  * [vPlayer - ESP32 Smart Watch Display](https://www.tindie.com/products/kdcircuits/vplayer-esp32-smart-watch-display/)
+  * [vPlayer - Ultimate IoT Display](https://vplayer.readthedocs.io/en/latest/)
+  * [An ESP In Your Mini TV](https://hackaday.com/2023/06/28/an-esp-in-your-mini-tv/)
 
 
 
@@ -69,8 +69,8 @@ What should I do with them?
 
 * [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 * [You can now generate AI art on your TV with a Raspberry Pi](https://www.xda-developers.com/raspberry-pi-generate-ai-art-for-tv/)
-    * [Lumina - AI Art Generator for Your TV](https://www.youtube.com/watch?v=_6vqaukuWoY&t=4s)
-    * [GitHub: DevMiser/Lumina](https://github.com/DevMiser/Lumina)
+  * [Lumina - AI Art Generator for Your TV](https://www.youtube.com/watch?v=_6vqaukuWoY&t=4s)
+  * [GitHub: DevMiser/Lumina](https://github.com/DevMiser/Lumina)
 
 
 # Streaming
@@ -92,21 +92,21 @@ What should I do with them?
 # GPS Pulse Per Second (PPS)
 
 * [Microsecond Accurate NTP using PPS signals from a $12 GPS](https://www.youtube.com/watch?v=YfgX7qPeiqQ)
-    * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+  * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
 
 * [Using GPS with PPS to synchronize clocks over the network](https://www.youtube.com/watch?v=7aTZ66ZL6Dk)
 * [Sync your project with GPS 1PPS](https://www.youtube.com/watch?v=GAtL5sFmlQg)
 
 * [NTP Server Gets Time From Space](https://hackaday.com/2022/01/20/ntp-server-gets-time-from-space/)
-    * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
-        * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
-        * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
-    * [Setup a Ubuntu NTP Server Using Chrony](https://www.youtube.com/watch?v=-xA__4G1tl8)
-    * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
-    * [Raspberry Pi NTP Server](https://www.youtube.com/watch?v=QQzYb5Jxhio)
-    * [How To Create NTP Server Using RaspberryPi](https://www.youtube.com/watch?v=V87_FMLLMWE)
-    * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
-    * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
+  * [Microsecond accurate NTP with a Raspberry Pi and PPS GPS](https://austinsnerdythings.com/2021/04/19/microsecond-accurate-ntp-with-a-raspberry-pi-and-pps-gps/)
+    * [Millisecond accurate Chrony NTP with a USB GPS for $12 USD](https://austinsnerdythings.com/2021/09/29/millisecond-accurate-chrony-ntp-with-a-usb-gps-for-12-usd/)
+    * [Millisecond Accurate NTP using Chrony and a USB GPS for $12 USD](https://www.youtube.com/watch?v=DVtmDFpWkEs)
+  * [Setup a Ubuntu NTP Server Using Chrony](https://www.youtube.com/watch?v=-xA__4G1tl8)
+  * [Manage NTP with Chrony](https://opensource.com/article/18/12/manage-ntp-chrony)
+  * [Raspberry Pi NTP Server](https://www.youtube.com/watch?v=QQzYb5Jxhio)
+  * [How To Create NTP Server Using RaspberryPi](https://www.youtube.com/watch?v=V87_FMLLMWE)
+  * [The Raspberry Pi as a Stratum-1 NTP Server](https://www.satsignal.eu/ntp/Raspberry-Pi-NTP.html)
+  * [How to NTP a Raspberry Pi 4 via GPS and PPS](https://wellnowweknow.com/index.php/2019/12/27/how-to-ntp-a-raspberry-pi-4-via-gps-and-pps/)
 
 
 # GPS Disciplined Oscillator (GPSDO) Project
@@ -169,6 +169,7 @@ TV programs from 1978 ...
 
 
 ## Using TV Tuner
+
 You can take several routes to get a Raspberry Pi to receive and stream over-the-air channels
 or cable subscription.
 All you nedd are the following:
@@ -183,30 +184,30 @@ All you nedd are the following:
 ### Streaming Video & Audio - ESP32 TV
 
 * [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
-    * [Adafruit PyPortal - CircuitPython Powered Internet Display](https://www.adafruit.com/product/4116)
-    * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
-    * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
-    * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
-    * [ESP32-TV Version 3](https://atomic14.substack.com/p/esp32-tv-version-3)
-    * [ESP32-TV Version 3 - Is it done?](https://www.youtube.com/watch?v=2NLblyCvJBU)
-    * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
-    * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
-    * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
+  * [Adafruit PyPortal - CircuitPython Powered Internet Display](https://www.adafruit.com/product/4116)
+  * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
+  * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
+  * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
+  * [ESP32-TV Version 3](https://atomic14.substack.com/p/esp32-tv-version-3)
+  * [ESP32-TV Version 3 - Is it done?](https://www.youtube.com/watch?v=2NLblyCvJBU)
+  * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
+  * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
+  * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
 * [Mini ESP32 TV](https://www.thingiverse.com/thing:6330378)
-    * [ESP32 Mini TV Tutorial Build](https://www.youtube.com/watch?v=0K-EbKkWLTA)
-    * []
+  * [ESP32 Mini TV Tutorial Build](https://www.youtube.com/watch?v=0K-EbKkWLTA)
+  * []
 * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
 * [The Most Adorable Little Raspberry Pi Computer You’ve Seen All Year](https://www.hackster.io/news/the-most-adorable-little-raspberry-pi-computer-you-ve-seen-all-year-b8501e237b53)
-    * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
-    * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
+  * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
+  * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
 
 
 ## The Simpson's TV
 
 * [I adore this Simpsons-styled Raspberry Pi mini TV, and you can make one too](https://www.xda-developers.com/simpsons-styled-raspberry-pi-mini-tv/)
-    * [The Simpsons TV with Touchscreen](https://www.reddit.com/r/raspberry_pi/comments/1hifkdg/the_simpsons_tv_with_touchscreen/)
-    * [The Simpsons TV!! Raspberry Pi Powered TV That Plays The Simpsons Episodes On Loop FOREVER!!](https://www.youtube.com/watch?app=desktop&v=-msN7Z1xl7A&t=554s)
-    * [Simpsons TV Build Guide - Waveshare Version](https://withrow.io/simpsons-tv-build-guide-waveshare)
+  * [The Simpsons TV with Touchscreen](https://www.reddit.com/r/raspberry_pi/comments/1hifkdg/the_simpsons_tv_with_touchscreen/)
+  * [The Simpsons TV!! Raspberry Pi Powered TV That Plays The Simpsons Episodes On Loop FOREVER!!](https://www.youtube.com/watch?app=desktop&v=-msN7Z1xl7A&t=554s)
+  * [Simpsons TV Build Guide - Waveshare Version](https://withrow.io/simpsons-tv-build-guide-waveshare)
 
 
 ## Connection Machine
@@ -217,14 +218,14 @@ A Connection Machine (CM) is a member of a series of massively parallel supercom
 * [Richard Feynman and The Connection Machine](https://longnow.org/essays/richard-feynman-and-connection-machine/)
 * [External design of CM-1 and CM-2 model](https://upload.wikimedia.org/wikipedia/commons/9/96/Computer_Museum_of_America_%2851%29.jpg)
 * [Little Desktop Connection Machine](https://learn.adafruit.com/little-connection-machine?embeds=allow)
-    * [3D Printing](https://learn.adafruit.com/little-connection-machine/3d-printing)
+  * [3D Printing](https://learn.adafruit.com/little-connection-machine/3d-printing)
 
 
 ## Macintosh Plus
 
 * [Updated Tiny Mac From a Raspberry Pi Zero](https://www.thingiverse.com/thing:5216238)
-    * [Making a Tiny Mac From a Raspberry Pi Zero](https://www.instructables.com/Making-a-Tiny-Mac-From-a-Raspberry-Pi-Zero/)
-    * [Emulate a Classic Macintosh Today! Basilisk II Tutorial!](https://www.youtube.com/watch?v=QSWWZ4hkvVk)
+  * [Making a Tiny Mac From a Raspberry Pi Zero](https://www.instructables.com/Making-a-Tiny-Mac-From-a-Raspberry-Pi-Zero/)
+  * [Emulate a Classic Macintosh Today! Basilisk II Tutorial!](https://www.youtube.com/watch?v=QSWWZ4hkvVk)
 
 * Full size Macintosh Plus !! - [Entirely accurate 3D-printed Mac Plus built in these 29 painstaking steps](https://arstechnica.com/gadgets/2024/03/3d-printed-mac-replica-is-a-maker-masterwork-inside-an-entirely-accurate-shell/)
 

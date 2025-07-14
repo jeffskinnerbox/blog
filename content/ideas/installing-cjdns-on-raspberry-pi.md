@@ -15,19 +15,19 @@ Version:      0.0.0
 
 
 Cjdns gives each node a unique uncensored and authenticated IP6, and end to end crypto.
-IPFS does for the web what Cjdns does for the internet.  https://ipfs.io/
+IPFS does for the web what Cjdns does for the internet.  <https://ipfs.io/>
 
 [I2P](https://geti2p.net/en/) is an anonymous overlay network - a network within a network.
 It is intended to protect communication from dragnet surveillance and monitoring by third parties such as ISPs.
 I2PBerry allows Raspberry Pi users to surf the I2P anonymously -
-https://www.element14.com/community/community/raspberry-pi/blog/2014/07/22/i2pberry-allows-raspberry-pi-users-to-surf-the-i2p-anonymously
+<https://www.element14.com/community/community/raspberry-pi/blog/2014/07/22/i2pberry-allows-raspberry-pi-users-to-surf-the-i2p-anonymously>
 
 
 IPFS is another essential building block for the neighborhood social app:
 a place to post publicly accessible objects (web pages, documents) that doesn't require a centralized server.
 
 * [Outernet](https://en.wikipedia.org/wiki/Outernet)
-    * [OUTERNET RADIO FOR THE INFORMATION AGE](https://outernet.is/)
+  * [OUTERNET RADIO FOR THE INFORMATION AGE](https://outernet.is/)
 * [CJDNS Adhoc node](http://www.instructables.com/id/CJDNS-Adhoc-Node/?ALLSTEPS)
 * [Hyperboria DNS solution](http://nxter.org/hyperboria-adopts-nxt-aliases-for-dns-solution/)
 * [CJDNS NAT Gateway](https://github.com/cjdelisle/cjdns/blob/master/doc/nat-gateway.md)
@@ -35,7 +35,7 @@ a place to post publicly accessible objects (web pages, documents) that doesn't 
 * [hyperboria/docs](https://github.com/hyperboria/docs)
 * [Managing DNS for moving devices with cjdns and consul](https://rickvandeloo.com/2016/01/31/managing-dns-for-moving-devices-with-cjdns-and-consul/)
 * [Decentralize common Fedora apps with Cjdns](https://fedoramagazine.org/decentralize-common-fedora-apps-cjdns/)
-    * [Novalug presentation on youtube](https://www.youtube.com/watch?v=nHC3Nx8-5Lo)
+  * [Novalug presentation on youtube](https://www.youtube.com/watch?v=nHC3Nx8-5Lo)
 
 * [ELI5 Why I don't seem to need port forwarding with CJDNS](https://www.reddit.com/r/darknetplan/comments/18umsp/eli5_why_i_dont_seem_to_need_port_forwarding_with/)
 * [Installing and Configuring CJDNS on Ubuntu Linux](https://brianturchyn.net/installing-and-configuring-cjdns-on-ubuntu-linux/)
@@ -136,15 +136,18 @@ file-syncronization, and end-to-end encryption.
 ###############################
 
 The general procedure for creating a mesh network with cjdns is:
+
 1. Install cjdns to create a node by following the [README file on Github][03].
 1. Make sure your node is configured correctly, which can be determined from the XXXXX Trouble Shooting guide.
 1. Locate your nearest Mesh Local, find a peer, and connect your node up with the network.
 
 # Purpose of cjdns
+
 * [Why](https://github.com/hyperboria/docs/blob/master/install/fedora.md)
-* http://208.113.152.107/meetings/2016/5/cjdns-ip6-mesh-vpn
+* <http://208.113.152.107/meetings/2016/5/cjdns-ip6-mesh-vpn>
 
 ## cjdns as a VPN
+
 Configuring a point to point VPN connection is fairly straightforward,
 as is configuring a centralized VPN server and clients.
 However, when every node in the VPN network needs to talk securely with many other nodes,
@@ -160,6 +163,7 @@ Peers are automatically discovered via the 0xFC00 layer 2 protocol.
 * [Neighbor Discovery Protocol (NDP)](https://en.wikipedia.org/wiki/Neighbor_Discovery_Protocol)
 
 # As a Darknet
+
 In a widespread VPN, address assignment must be coordinated by a central authority.
 The internet also uses centralized IP assignment,
 which means a government can take away your IP at any time.
@@ -173,15 +177,17 @@ There is no centralized routing.
 If a node is "blackholeing" packets for some reason - a sender simply doesn't route through that node anymore.
 
 # Step 1: Prepare the Raspberry Pi - DONE
+
 I have a post "XXX-howto-set-up-the-raspberry-pi-as-a-headless-device.md"
 that will initialize the Raspberry Pi.
 Start with this to get RPi ready for the next steps.
 
 # Step 2: Retrieve cjdns from GitHub and Build It - DONE
+
 Once you’ve gotten this far,
 the instructions on the [Github page of the cjdns source code][03]
 walk you through installation
-(i.e. README.md file), https://github.com/cjdelisle/cjdns/blob/master/README.md
+(i.e. README.md file), <https://github.com/cjdelisle/cjdns/blob/master/README.md>
 setup of cjdns,
 and connecting to friends on the mesh.
 What you see in this an following steps was derived, in large part,
@@ -218,6 +224,7 @@ you should back up `cjdroute.conf` to somewhere outside your source tree
 and run `sudo ./clean`.
 
 # Step X: Generate cjdns Configuration File - DONE
+
 The utility `cjdroute` is used to start up cjdns,
 but it is also used to create a configuration file.
 Using `sudo ./cjdroute --help` will give you some documentation
@@ -301,6 +308,7 @@ sudo jshint ./cjdroute.conf
 and may not display errors and warnings etc. in all cases.
 
 # Step X: Find a Peering Node - DONE
+
 cjdns's network operates on a [friend-of-a-friend model][28].
 This means, that to connect to the network you need to find nodes, called peers,
 which allow you to connect to the network.
@@ -312,7 +320,7 @@ or you can peer with public peers to get into the network right away.
 [To do the public peering][17],
 first get on the [#cjdns channel on the Efnet IRC Network][18][^B].
 Once in the channel, type ? public and you'll get links to public peers.
-I found this URL http://cjdns.ca/ provided a link to [public peers][20],
+I found this URL <http://cjdns.ca/> provided a link to [public peers][20],
 or this [list of public peers][26] in Hyperboria's GitHub,
 or this [widely known public node][25].
 Follow any link and get to the peer info or "creds",
@@ -370,6 +378,7 @@ but it I did, I would give `coyo@darkdna.net`
 1. His username: "William Jevons"
 
 # Step X: Peering with a Node - DONE
+
 If I was to use the information above concerning the public node,
 I would paste it into the `cjdroute.conf` file generated earlier.
 Instead, I'll be peering with someone I know and who has provide me their credentials:
@@ -546,6 +555,7 @@ To find out more about peering, check out these sources:
 * [Peers](https://github.com/hyperboria/peers)
 
 # Step X: Open-Up the firewall
+
 Within `/opt/cjdns/cjdroute.conf` look up the port being used to peer with other cjdns nodes.
 look for line "bind":"0.0.0.0:<PORT>" within the  "UDPInterface" section.
 In my case the port is 10848.
@@ -674,6 +684,7 @@ $
 >As such, many false positives can occur from UDP port scans.
 >When a generic UDP packet is sent to a UDP port of a remote host,
 >one of the following occurs:
+>
 >* If the UDP port is open, the packet is accepted, no response packet is sent. This might be interpreted as closed by the software tools.
 >* If the UDP port is closed, an ICMP packet is sent in response with the appropriate error code such as "Destination Unreachable".
 >[Scanning UDP ports is more inference-based][37], since it does not rely on
@@ -696,6 +707,7 @@ check to see if a server is running,
 or a firewall or ISP is blocking certain ports.
 
 # Step X: Starting Up cjdns
+
 With the updates to `/opt/cjdns/cjdroute.conf`
 and openning of the proper prots on your firewalls,
 your ready to start-up cjdns with the command[^C]:
@@ -745,6 +757,7 @@ sudo killall cjdroute
 ```
 
 # Step X: Check for Listening Services
+
 Once you start running cjdns, you become a IPv6 host.
 Linux may automatically reconfigure network services to use this new address.
 Unless you specifically desire this, you'll need to suppress Linux from making these network changes.
@@ -801,6 +814,7 @@ ListenAddress 192.168.1.1
 #################
 
 # Step X: Check for Packets
+
 A key feather of cjdns it request from Linux the generation of virtual network interfaces
 that do not connect to a wire but to a process that simulates the network.
 Often these devices are called [TUN or TAP][39].
@@ -828,6 +842,7 @@ to sniff for ethernet cjdns traffic
 #################
 
 # Step X: Check Your Connectivity to Hyperboria
+
 Given your running cjdns and peered with a public Hyperboria node,
 let’s check if you have access to any of the websites ONLY available Hyperboria.
 The websites `socialno.de`, `irc.cjdna.ca`, `forum.meshbits.io`, `hyperboria.name`, `rows.io`
@@ -850,9 +865,10 @@ in your cjdns configuration file `/opt/cjdns/cjdroute.conf`.
 
 /opt/cjdns/tools/peerStat
 
-http://meshbits.io/getting-started-with-meshnet-on-linux/
+<http://meshbits.io/getting-started-with-meshnet-on-linux/>
 
 # Step X: Peering with You Own Nodes
+
 Now you could also create your own network by creating one or more nodes,
 just like the one your creating now on a Raspberry Pi, and peer with them.
 
@@ -890,57 +906,71 @@ My firends login credentials will look something like this (with your IPv4 and p
 
 
 # Admin Interface
+
 [Admin Interface](https://github.com/hyperboria/cjdns#admin-interface)
 
 # Step X: Administrative Stuff
+
 * [Admin interface](https://github.com/cjdelisle/cjdns#admin-interface)
-* https://www.npmjs.com/package/cjdns-admin
+* <https://www.npmjs.com/package/cjdns-admin>
 * [cjdns-admin (0.1.1)](https://docs.omniref.com/js/npm/cjdns-admin/0.1.1)
 
 # Step X: Get in IRC
+
 [Get in IRC](https://github.com/hyperboria/cjdns#6-get-in-irc)
 
 # Step X: Secure Your System
+
 * [Self-check your network services](https://github.com/cjdelisle/cjdns/blob/master/doc/network-services.md)
 
 # Step X: Start Your cjdns Services
+
 * [Start it up!](https://github.com/cjdelisle/cjdns#5-start-it-up)
 * [Anatomy of a running cjdns](https://docs.meshwith.me/cjdns/anatomy.html)
 * [More Hyerboria Docs](https://docs.meshwith.me/)
 
 # Step X: Testing
+
 * [Testing the network](https://github.com/hyperboria/docs/blob/master/quickstart.md#step-4-testing-the-network)
 
 Most of you might have come across a service called Reddit and some of you might even be very active there. The source code for reddit is available for public. Similarly there is an service called UPPIT in Hyperboria which is a clone of Reddit that will be accessible only on Hyperboria network but not through the regular Internet.
 
-If you try connecting to http://uppit.us through regular internet,
+If you try connecting to <http://uppit.us> through regular internet,
 you cannot access the service, but once you started using cjdns & connected to Hyperboaria,
 only then you can get access to uppit.us service.
 
 # cjdns NAT Gateway
+
 * [CJDNS NAT Gateway](https://github.com/cjdelisle/cjdns/blob/master/doc/nat-gateway.md)
 
 # 3rd Party Tools for managing/working with cjdns
+
 * [cjdns Tools](https://github.com/hyperboria/docs/blob/master/ctrls.md)
 
 # Step X: Troubleshooting
+
 * [Troubleshooting](https://github.com/hyperboria/docs/blob/master/quickstart.md#troubleshooting)
 
 # Step X: Keep Peering Credentials Safe
-* https://docs.meshwith.me/cjdns/operator-guidelines.html
+
+* <https://docs.meshwith.me/cjdns/operator-guidelines.html>
 
 # Step X: enable the service and start it up
+
 The article
 [Running cjdns on Raspbian Jessie](http://mesh.philly2600.net/?p=54)
 show you how to use `systemctl` to run cjdns at start-up.
 
 # Step X: Configure cjdns as a NAT Gateway
+
 * [CJDNS NAT Gateway](https://github.com/cjdelisle/cjdns/blob/master/doc/nat-gateway.md)
 
 # Step X: Hyperboria Map
-* http://www.fc00.org/
+
+* <http://www.fc00.org/>
 
 # Step X: Discoverability
+
 * [nodeinfo.json](https://github.com/hyperboria/docs/blob/master/cjdns/nodeinfo-json.md)
 * [Adding your public node's credentials](https://github.com/hyperboria/peers)
 
@@ -952,6 +982,7 @@ Add `After=cjdns-wait-online.service` to `thttpd.service` to hold off starting
 the service until cjdns has the tunnel up and ready.
 
 # Step X: Clone the SD Card
+
 * [Backup, Restore, Customize and Clone your Raspberry Pi SD Cards (tutorial)](http://sysmatt.blogspot.com/2014/08/backup-restore-customize-and-clone-your.html)
 * [Duplicating Your Raspberry Pi’s SDHC Card](https://programmaticponderings.wordpress.com/2013/02/12/duplicating-your-raspberry-pis-sdhc-card/)
 * [CLONE AN SD CARD ON LINUX, UBUNTU 12.04](http://rricketts.com/clone-an-sd-card-on-linux-ubuntu-12-04/)
@@ -959,16 +990,19 @@ the service until cjdns has the tunnel up and ready.
 * [How to Clone Raspberry Pi SD Cards Using the Command Line in OS X](http://computers.tutsplus.com/articles/how-to-clone-raspberry-pi-sd-cards-using-the-command-line-in-os-x--mac-59911)
 
 # Heartbeat Services
+
 * [Getting Started with Heartbeat](http://www.linuxjournal.com/article/9838)
 * [Linux heartbeat installation](https://www.watters.ws/mediawiki/index.php/Linux_heartbeat_installation)
 * [Heartbeat Clustering in Linux](http://www.linuxnix.com/heartbeat-clustering/)
 * [The Linux-HA User’s Guide](http://www.linux-ha.org/doc/users-guide/users-guide.html)
 
 # Meshing Raspberry Pi
+
 * [Mesh networking with multiple Raspberry Pi boards](http://hackaday.com/2012/11/14/mesh-networking-with-multiple-raspberry-pi-boards/)
 * [Raspberry Pi Wireless Mesh: Scripts, Data, Plots – oh my!](http://lab.uchicago.edu/2013/09/27/raspberry-pi-wireless-mesh-scripts-data-plots-oh-my-part-1/)
 
 # Meshing Raspberry Pi with CJDNS
+
 * [Getting started with Hyperboria (cjdns), on Linux](http://meshbits.io/getting-started-with-meshnet-on-linux/)
 * [Running cjdns on Raspbian Jessie](http://mesh.philly2600.net/?p=54)
 * [Meshberry v0.2](https://nycmesh.net/meshberry/)
@@ -977,8 +1011,6 @@ the service until cjdns has the tunnel up and ready.
 
 
 
-[01]:http://hyperboria.net/
-[02]:https://projectmeshnet.wordpress.com/
 [03]:https://github.com/cjdelisle/cjdns
 [04]:http://makezine.com/2014/11/26/how-meshnets-are-changing-the-face-of-the-web/
 [05]:https://seattlemesh.net/about
@@ -987,7 +1019,6 @@ the service until cjdns has the tunnel up and ready.
 [08]:https://github.com/cjdelisle/cjdns/tree/master/doc/meshlocals/existing
 [09]:https://www.newscientist.com/article/mg21929294.500-meshnet-activists-rebuilding-the-internet-from-scratch
 [10]:https://en.wikipedia.org/wiki/Darknet
-[11]:https://www.youtube.com/watch?v=pSSiqlwzA3U
 [12]:https://en.wikipedia.org/wiki/Clearnet_(networking)
 [13]:https://github.com/cjdelisle/cjdns/blob/master/doc/projectGoals.md
 [14]:https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md
@@ -997,8 +1028,6 @@ the service until cjdns has the tunnel up and ready.
 [18]:http://chat.efnet.org/irc.cgi?chan=%23cjdns
 [19]:https://en.wikipedia.org/wiki/EFnet
 [20]:https://pad.meshwith.me/p/public
-[21]:https://en.wikipedia.org/wiki/End-to-end_encryption
-[22]:https://en.wikipedia.org/wiki/Network_layer
 [23]:https://github.com/hyperboria/cjdns/issues/6#issuecomment-162244016
 [24]:https://en.wikipedia.org/wiki/Hyperborea
 [25]:https://jointhe.hyperboria.network/

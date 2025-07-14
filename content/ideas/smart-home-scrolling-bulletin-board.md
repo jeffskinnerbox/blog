@@ -12,6 +12,7 @@ Version:      0.0.0
 
 
 # Quiescent Display
+
 This is just an idea on what the display could be doing when there are no notifications to display.
 
 * [Raspberry Pi Pico brings a 'WOPR' of a feature to a server rack](https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico-brings-a-wopr-of-a-feature-to-a-server-rack)

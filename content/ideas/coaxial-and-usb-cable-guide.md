@@ -36,6 +36,7 @@ Essentials of Connector Technology
 
 
 ## Coaxial Cable Types
+
 [Coaxial cable][02] (aka "coax") is a common type of shielded data transmission cable,
 which is made up of two conductors that are coaxially oriented,
 but separated by a layer of dielectric insulation.
@@ -76,6 +77,7 @@ Below is some of the typical cables you'll come across.
 
 
 ## Coaxial Cable Connectors
+
 Many [coaxial connector types][11] are available in the audio, video, digital, RF,
 and microwave industries.
 Each where designed for a specific purpose and application but their use has deversified.
@@ -93,6 +95,7 @@ Some of the widely used connector types are:
 
 
 ## Why 50 and 75 Ohms
+
 There is a prevalence of 50 ohm coax.
 Sure, you sometimes see 75 ohm coax, but overwhelmingly, RF circuits work at 50 ohms.
 Apparently in the 1930s,
@@ -134,6 +137,7 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 
 
 # Measuring Cable Length
+
 Time-Domain Reflectometry (TDR) is a way to measure the time between
 injecting a pulse into a cable and receiving its echo,
 either from the other end of the cable or from some fault or defect along the way.
@@ -152,6 +156,7 @@ either from the other end of the cable or from some fault or defect along the wa
 
 
 # USB Cables
+
 USB cables are used to transfer data, power devices, and often both.
 Sometimes, when selecting a random USB cable our devices do not work, charging is too slow, etc.
 Your not sure if a crappy USB cable is the reason.
@@ -175,6 +180,7 @@ What is a smart charging USB port? What's the difference between a smart one and
 
 
 ## USB Cable Types
+
 Your next phone or laptop will have a USB Type-C port for charging.
 Type-C cables will subject to greater loads, and therefore,
 will require higher levels of manufacturing tolerances.
@@ -191,6 +197,7 @@ USB 2.0 can only support anywhere from 500mA up to 2A.
 
 
 ### USB-C
+
 It’s 2019 and USB-C is still a mess - <https://www.androidauthority.com/state-of-usb-c-870996/>
 [It's 2021 and USB-C is still a mess](https://www.androidauthority.com/state-of-usb-c-870996/)
 The Problem With Micro-USB Cables - <https://tekbotic.com/blogs/tekblog/how-to-fix-loose-micro-usb-cable>
@@ -226,6 +233,7 @@ The Problem With Micro-USB Cables - <https://tekbotic.com/blogs/tekblog/how-to-f
 
 
 # USB-C Power Delivery
+
 USB Power Delivery (PD)
 USB PD Trigger
 USB PD Trigger Module
@@ -248,12 +256,14 @@ Programmable Power Supply (PPS) mode
 
 
 ## Programmable Power Supply (PPS)
+
 Programmable Power Supply (PPS) is a standard that refers to the advanced charging technology for USB-C® devices.  It can modify in real time the voltage and current by feeding maximum power based on a device's charging status.
 The USB Implementers Forum (USB-IF), a nonprofit group that supports the marketing and promotion of the Universal Serial Bus (USB), added PPS Fast Charging to the USB PD 3.0 standard in 2017.  This allows data to be exchanged every 10 seconds, making a dynamic adjustment to the output voltage and current based on the condition of the receiving device's specifications
 PPS' main advantage over other standards is its capability to lower conversion loss during charging.  This means that less heat is generated, which lengthens the device battery's lifespan.
 
 
 ## USB-C Power Delivery (PD)
+
 USB-C Power Delivery (PD) is a fast charging technology, supported by certain iOS/Apple® and Android™/Google™/Samsung® devices, that delivers much higher levels of power than standard charging.  With up to 100W of power available, USB-C PD can even charge larger devices, like tablets and laptops.  All you need is the right wall charger and USB-C cable – and leave those heavy laptop power cables at home.
 PPS and PD protocols work together where the former can renegotiate non-standard currents and voltages between the device and the charger.
 
@@ -261,6 +271,7 @@ PPS and PD protocols work together where the former can renegotiate non-standard
 
 
 # USB-C PD Sniffer
+
 USB-C cables need to actively tell both ends what their capabilities are, which turns an otherwise passive device into a hidden chip in a passive looking cable.
 This device "sniffs out" what are the power delivery (PD) capabilities of the USB-C cable.
 
@@ -268,17 +279,20 @@ This device "sniffs out" what are the power delivery (PD) capabilities of the US
 
 
 ## Quick Charge (QC)
+
 This technology powers your devices faster than conventional charging, allowing you to spend less time connected to outlets.  As one of the most widely used of the fast charging technologies, Quick Charge is already in many of your favorite smartphones.  If your smartphone is Quick Charge 3.0-compatible, you can charge up to 80% in just 35 minutes.
 Quick Charge 4+ is expected to work with USB Power Delivery, enabling Quick Charge accessories to fast charge a wider array of devices.  On the other hand, Quick Charge 5 is the latest in Quick Charge standards and can recharge smartphones up to 50% in just 5 minutes.
 
 
 ## USB PD 2.0 vs. USB PD 3.0
+
 USB-C Power Delivery 3.0 (PD3.0) introduces a new Programmable Power Supply (PPS) mode, which allows a device to negotiate any supply of 3.3-21 V in 20 mV steps, and up to 5 A of current in 50 mA steps.
 
 * [What's the Difference: USB PD 2.0 vs. USB PD 3.0](https://satechi.net/blogs/news/whats-the-difference-usb-pd-2-0-vs-usb-pd-3-0)
 
 
 ## What's the difference between PD and QC?
+
 [USB Power Delivery (PD) vs USB Quick Charge (QC) – What’s the Difference?][13]
 QC is a proprietary battery charging protocol developed by Qualcomm, used for managing power delivered over USB, mainly by communicating to the power supply and negotiating a voltage.
 PD is a fast charging technology that was developed by the USB Implementers Forum. Because it’s an official part of USB technology, it can be supported by any manufacturer.
@@ -305,6 +319,7 @@ If you live in a world of mixed devies, you’ll probably want a device that doe
 
 
 # My Chargers
+
 [Amazon Basics 30W One-Port USB-C Wall Charger](https://www.amazon.com/dp/B087MFL8DM?th=1)
 with Power Delivery PD for Tablets & Phones (iPhone 15/14/13/12/11/X, iPad, Samsung, and more)
 is **not** a PPS.
@@ -342,6 +357,7 @@ The ZY12PDN always outputs 5V first, then it sets whatever voltage it’s fixed 
 
 
 ## The Annoyances of USB Charging
+
 Most computers' USB ports can only charge smartphones slowly -- at 0.5 Amp max. Charge current, measured in Amp, indicates how fast it charges; e.g., 1.0 Amp means charging twice as fast as 0.5 Amp.
 
 Worse yet, most computers' USB ports can't charge iPad or other tablets because they require higher charge current (1.0 Amp or higher). Some can still be charged, but very slowly.
@@ -360,6 +376,7 @@ They stop fitting snug in your device. They get loose, they fall out and stop ch
 
 
 ## Standard USB
+
 Standard USB uses a master/slave architecture;
 a host acts as the master device (aka host) for the entire bus, and a USB device acts as a slave (aka peripheral).
 If implementing standard USB cable,
@@ -367,6 +384,7 @@ you must have one devices assume one the slave role, with computers generally se
 
 
 ## USB On-The-Go (OTG)
+
 How usb OTG works(master/slave) - <https://stackoverflow.com/questions/11338076/how-usb-otg-worksmaster-slave>
 
 [USB On-The-Go][20] (USB OTG or just OTG) is a specification that allows USB devices,
@@ -397,6 +415,7 @@ An important evolution is taking place now, and that is USB Dual Role.
 
 
 ## SuperSpeed USB (aka USB 3.X)
+
 USB 3.0 was also marketed as SuperSpeed USB.
 Most manufacturers use the SuperSpeed USB logo to let you know that you’re dealing with a USB 3.0 port.
 If you see the "SS" prefix in front the regular USB logo, you successfully identified the USB 3.0 port.

@@ -25,6 +25,7 @@ Version:      0.0.0
 
 
 # Genesis Simulation Framework
+
 The Genesis simulation framework is a high-performance tool designed to support robotics, embodied AI, and physical AI applications. It excels in speed. It can simulate over 43 million frames per second (FPS) for robotic systems. This is achieved through GPU-accelerated parallel computation and advanced optimization techniques. This speed significantly surpasses other simulators like Isaac Gym and Mujoco. Genesis offers a universal physics engine that can simulate diverse materials and phenomena, including rigid bodies, liquids, gases, and deformable objects, creating a unified platform for physics-based simulations.
 
 Genesis also features a user-friendly, pythonic interface that caters to developers and researchers with varying expertise levels. Its photo-realistic rendering system enables the creation of visually immersive simulations. Additionally, Genesis includes a generative data engine that can convert natural language descriptions into diverse datasets, streamlining the process of virtual environment creation and AI training data generation.

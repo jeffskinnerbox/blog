@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Download Family Tree From Ancestry.com
+
 To download a GEDCOM files (aka. `ged`) from Ancestry.com,
 
 * [How to Download Your Family Tree from Ancestry.com | Ancestry](https://www.youtube.com/watch?v=ut9_LdPYay0)
@@ -41,6 +42,7 @@ It's a good choice if you need a straightforward way to extract basic informatio
 
 
 # Ancestry 'How To'
+
 The following are things you should do ...
 
 * [Turning Matches On or Off](https://support.ancestry.com/s/article/Choosing-not-to-be-Listed-as-an-AncestryDNA-Match)

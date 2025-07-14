@@ -52,7 +52,9 @@ sudo modprobe uvcvideo
 
 
 
-# Check This Out!!
+# Check This Out
+
+
 * [Building a Raspberry Pi security camera with OpenCV](https://www.pyimagesearch.com/2019/03/25/building-a-raspberry-pi-security-camera-with-opencv/)
 * [OpenCV remote (web-based) stream processing](https://github.com/ECI-Robotics/opencv_remote_streaming_processing)
 * [Raspberry Pi Camera openCV rendering with low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.com/2016/06/raspberry-pi-camera-opencv-rendering.html)
@@ -65,10 +67,10 @@ sudo modprobe uvcvideo
 * [Running a Raspberry Pi Webserver with Flask](https://raspberrypi-aa.github.io/session4/flask.html)
 
 * [How to Create a Raspberry Pi Security Camera with Motion Alerts](https://www.tomshardware.com/how-to/raspberry-pi-security-camera-motion-sensor)
-* [Turning a Raspberry Pi into a portable streaming camera](https://opensource.com/life/15/9/turning-raspberry-pi-portable-streaming-camera)
-    * [RPi Cam Web Interface](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=63276)
-    * [RPi-Cam-Web-Interface](https://elinux.org/RPi-Cam-Web-Interface)
-    * [Web based interface for controlling the Raspberry Pi Camera](https://github.com/silvanmelchior/RPi_Cam_Web_Interface)
+[Turning a Raspberry Pi into a portable streaming camera](https://opensource.com/life/15/9/turning-raspberry-pi-portable-streaming-camera)
+* [RPi Cam Web Interface](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=63276)
+* [RPi-Cam-Web-Interface](https://elinux.org/RPi-Cam-Web-Interface)
+  * [Web based interface for controlling the Raspberry Pi Camera](https://github.com/silvanmelchior/RPi_Cam_Web_Interface)
 * [Enhancing my ordinary IP security cameras with AI](https://harizanov.com/2018/03/enhancing-my-ordinary-security-cameras-with-ai/)
 * [Realtime video object detection on Raspberry Pi](https://towardsdatascience.com/how-to-stream-video-with-real-time-object-detection-on-raspberry-pi-f6503c46c7f9)
 * [Low-cost Video Streaming With A Webcam And Raspberry Pi](https://hackaday.com/2016/11/25/low-cost-video-streaming-with-a-webcam-and-raspberry-pi/)
@@ -83,15 +85,21 @@ sudo modprobe uvcvideo
 * [Raspberry Pi Camera low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.hk/2016/06/raspberry-pi-camera-low-latency.html)
 * [Nvidia Hardware accelerated video Encoding/Decoding (nvcodec) — GStreamer](https://medium.com/@nareshkumarganesan/nvidia-hardware-accelerated-video-encoding-decoding-nvcodec-gstreamer-4b8eab662bf1)
 
+
 # Make a Minimal Rasperry Pi
+
+
 Set up my Raspberry Pi with the most minimal configuration to conserve precious system resources.
+
 * [Set up a minimal server on a Raspberry Pi](https://opensource.com/article/21/1/minimal-server-raspberry-pi)
 
 
 
 
 
+
 # Introduction
+
 The topic of computer vision and cameras is deep and complex.
 It involves a range of technologies from photography, teleivison,
 optical lens, the physics of light, and even how the brain + eye process color.
@@ -104,33 +112,41 @@ is the most popular but many others exist,
 making this topic even harder to fully understand.
 
 The original [5-megapixel model was released in 2013][07],
-and an [8-megapixel Camera Module v2 was released in 2016][08].
+and an [8-megapixel Camera<https://www.raspberrypi.org/documentation/hardware/camera/>
 For both iterations, there are visible light and infrared versions.
+< tps://picamera.readthedocs.io/en/release-1.13/fov.html>
 
-
-* explain all of this!! - https://www.raspberrypi.org/documentation/hardware/camera/
+* explain all of this!! - <https://www.raspberrypi.org/documentation/hardware/camera/>
 * [Vision Campus](https://www.youtube.com/playlist?list=PLULhsSsX_9ge4g9maUkFGGLaG5S8_CiAC)
-*  Camera Hardware - https://picamera.readthedocs.io/en/release-1.13/fov.html
+* Camera Hardware - <https://picamera.readthedocs.io/en/release-1.13/fov.html>
 
 ---------------
 
+
 # Cameras
 
+
 ## Camera Sensor
+
+
 * [Demystifying digital camera sensors once and for all](https://www.techhive.com/article/2052159/demystifying-digital-camera-sensors-once-and-for-all.html)
 
 ## Color
+
+<https://en.wikipedia.org/wiki/Color_space>
 gamma, brightness, contrast, hue, sturation
+
 * [Understanding Color Models Used in Digital Image Processing](https://www.allaboutcircuits.com/technical-articles/understanding-color-models-used-in-digital-image-processing/)
 * [Color Spaces: The Model at the End of the Rainbow](https://hackaday.com/2018/03/30/color-spaces-the-model-at-the-end-of-the-rainbow/)
 * [RGB LEDs: How to Master Gamma and Hue for Perfect Brightness](https://hackaday.com/2016/08/23/rgb-leds-how-to-master-gamma-and-hue-for-perfect-brightness/)
 * [List of color spaces and their uses](https://en.wikipedia.org/wiki/List_of_color_spaces_and_their_uses)
-color space - https://en.wikipedia.org/wiki/Color_space
+color space - <https://en.wikipedia.org/wiki/Color_space>
 * [A Beginner’s Guide to Understanding White Balance](https://www.makeuseof.com/tag/white-balance-guide/)
 
 * [23 open source audio-visual production tools](https://opensource.com/article/18/2/open-source-audio-visual-production-tools)
 * [color theory](https://en.wikipedia.org/wiki/Color_theory)
 * [The fundamentals of understanding color theory](https://99designs.com/blog/tips/the-7-step-guide-to-understanding-color-theory/)
+
 * [YUV Color Encoding](https://en.wikipedia.org/wiki/YUV)
 
 ---------------
@@ -138,6 +154,7 @@ color space - https://en.wikipedia.org/wiki/Color_space
 # Video on Linux and Raspberry Pi
 
 ## raspivid and raspvidyuv
+
 Three commandline utilities have been developed for the Raspberry Pi camera
 which are used to take photo's and control the settings.
 These are `raspistill` for taking still images,
@@ -145,19 +162,21 @@ These are `raspistill` for taking still images,
 These utilities are specifically intended for the Raspberry Pi camera, not a USB or Ethernet camera.
 
 * `raspbistill` images can be saved in jpeg, bmp, gif and png.
-Jpeg give a small file size and is hardware accelerated so it's the best option for timelapse capture.
-Jpg images uses adjustable compression so some detail of the image is lost. At 100% quality you will barely notice any loss but at 50% quality the image will be poor. BMP and PNG are lossless formats so the files will be bigger than jpg files but will have a better quality image. Gif is limited to 256 colours with a small file size.
-* `raspiyuv` has the same features as `raspistill` but it generates a raw image file (YUV color encoding). Raw images made from the data directly from the camera sensor that have not been processed, so contain more graphical information than a picture that has been converted to jpg, bmp or png. This is more useful if you want to use an image editor to make advanced changes to lighting, colour or use for special effects.
+Jp<https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md>on for timelapse capture.
+Jp<https://www.raspberrypi.org/documentation/raspbian/applications/camera.md> At 100% quality you will barely notice any loss but at 50% quality the image will be poor. BMP and PNG are lossless formats so the files will be bigger than jpg files but will have a better quality image. Gif is limited to 256 colours with a small file size.
+* <http://www.raspberryconnect.com/hardware-add-ons/item/137-raspberry-pi-camera-module>YUV color encoding). Raw images made from the data directly from the camera sensor that have not been processed, so contain more graphical information than a picture that has been converted to jpg, bmp or png. This is more useful if you want to use an image editor to make advanced changes to lighting, colour or use for special effects.
 * `raspivid` records video in HD 1080p (1920 x 1080) in the H264 Mpeg4 format which is the same video format used on Blu-Ray discs. Options allow you to alter the image size, frames per second, bitrate and view a preview.
 Reducing the bitrate creates a smaller file but lowers the quality of the video image.
+
 Frames per second can range between 2fps and 30fps
 
 
-* https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md
-* https://www.raspberrypi.org/documentation/raspbian/applications/camera.md
-* http://www.raspberryconnect.com/hardware-add-ons/item/137-raspberry-pi-camera-module
+* <https://www.raspberrypi.org/documentation/usage/camera/raspicam/raspivid.md>
+* <https://www.raspberrypi.org/documentation/raspbian/applications/camera.md>
+* <http://www.raspberryconnect.com/hardware-add-ons/item/137-raspberry-pi-camera-module>
 
 ## Xorg vs Wayland
+
 Linux and Ubuntu in particular will be moving away from [Xorg][26]
 and towards using [Wayland][27] as its display manager.
 You'll currently find both on Ubuntu 17.10, with Wayland being the default.
@@ -165,6 +184,7 @@ But there problem, [Ubuntu will be defaulting back to Xorg in 18.04][30].
 Many of the tools have varying degrees of problems with Wayland
 (most troublesome is that establish screen recording tools will not work,
 but [Green Recorder][29] does).
+
 
 To find out what display manager your running,
 open a terminal and enter the command: `echo $XDG_SESSION_TYPE`.
@@ -175,6 +195,8 @@ You can also set Xorg as your default display manager
 by uncommenting the line `#WaylandEnable=false` in the file `/etc/gdm3/custom.conf`.
 
 ## X Window Display and Screen
+
+
 The command `echo $DISPLAY` produces the output `:1` on my Linux box.
 The format of the `DISPLAY` environment variable is `[host]:<display>[.screen]`.
 `host` refers to a network host name,
@@ -184,6 +206,7 @@ Screens aren't used much anymore,
 with tools like xinerama and now xrandr combining multiple screens into a single logical screen.
 
 ## Video for Linux 2 (V4L2)
+
 v4l2 stands for Video For Linux 2, the second version of the V4L API and framework.
 As opposed to many driver implementations, the v4l2 framework is made an integral part of the Linux kernel code.
 This static integration has been criticised but the project continues.
@@ -208,40 +231,47 @@ An independent developer has now written a user space V4L driver for the Raspber
 If you hook your camera up to a Linux box,
 you can use `v4l2-ctld` to list the supported video formats.
 The [`v4l2-ctl` tool][11] is used to control [video4linux][10] devices,
-either video, vbi, radio or swradio, both input and output.
-This tool uses the [USB video device class (UVC)][09] to query the info from the camera.
-UVC is typically supported by recent webcams.
+ ither video, vbi, radio or swradio, both input and output.
+ his tool uses the [USB video device class (UVC)][09] to query the info from the camera.
+ VC is typically supported by recent webcams.
 
-```bash
-# install the v4l control tool
-sudo apt install v4l-utils
+ ``bash
+  install the v4l control tool
+ udo apt install v4l-utils
 
 # show the resolutions supported fo the MJPG pixel format
+
 $ v4l2-ctl --device /dev/video0 --list-framesizes=MJPG
 ioctl: VIDIOC_ENUM_FRAMESIZES
-	Size: Discrete 160x120
-	Size: Discrete 176x144
-	Size: Discrete 320x240
-	Size: Discrete 352x288
-	Size: Discrete 640x480
-	Size: Discrete 800x600
-	Size: Discrete 960x720
+
+ S<https://www.raspberrypi.org/forums/viewtopic.php?t=62364>
+ S<https://www.raspberrypi.org/documentation/usage/camera/raspicam/README.md>
+ S<http://www.home-automation-community.com/surveillance-with-raspberry-pi-noir-camera-howto/>
+ Size: Discrete 352x288
+ Size: Discrete 640x480<http://picamera.readthedocs.io/en/release-1.10/install3.html>
+ S<http://picamera.readthedocs.io/en/release-1.10/api.html>
+ Size: Discrete 960x720<http://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-to-a-network-stream>
 
 # show all the supported rsolutions
+
 v4l2-ctl --device /dev/video0 --list-formats-ext
+
 ```
-* https://www.raspberrypi.org/forums/viewtopic.php?t=62364
-* https://www.raspberrypi.org/documentation/usage/camera/raspicam/README.md
-* http://www.home-automation-community.com/surveillance-with-raspberry-pi-noir-camera-howto/
+
+
+* <https://www.raspberrypi.org/forums/viewtopic.php?t=62364>
+* <https://www.raspberrypi.org/documentation/usage/camera/raspicam/README.md>
+* <http://www.home-automation-community.com/surveillance-with-raspberry-pi-noir-camera-howto/>
 * [How to use V4L2 Cameras on the Raspberry Pi 3 with an Upstream Kernel](https://blogs.s-osg.org/use-v4l2-cameras-raspberry-pi-3-upstream-kernel/)
-* API - picamera Package - http://picamera.readthedocs.io/en/release-1.10/install3.html
-* http://picamera.readthedocs.io/en/release-1.10/api.html
-* Recording to a network stream - http://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-to-a-network-stream
+* API - picamera Package - <http://picamera.readthedocs.io/en/release-1.10/install3.html>
+* <http://picamera.readthedocs.io/en/release-1.10/api.html>
+* Recording to a network stream - <http://picamera.readthedocs.io/en/release-1.10/recipes1.html#recording-to-a-network-stream>
 * [How To Use Picamera2 to Take Photos With Raspberry Pi](https://www.tomshardware.com/how-to/use-picamera2-take-photos-with-raspberry-pi)
 * [How to Control your Raspberry Pi Camera using a web UI](https://www.tomshardware.com/raspberry-pi/how-to-control-your-raspberry-pi-camera-using-a-web-ui)
 * [How To Create a Bluetooth Raspberry Pi Camera Trigger](https://www.tomshardware.com/how-to/bluetooth-raspberry-pi-camera-trigger)
 
 ## Adding a Camera to the Raspberry Pi
+
 [camera!](http://raspi.tv/wp-content/uploads/2016/05/PiZero1.3_700.jpg)
 [camera!](http://cdn.slashgear.com/wp-content/uploads/2016/05/2016-05-15-16.32.19-800x420.jpg)
 [Raspberry Pi Zero version 1.3][06] has a camera connector,
@@ -302,63 +332,75 @@ mplayer -benchmark ~/tmp/video.h264
 mplayer -benchmark ~/tmp/test90fps.h264
 ```
 
-Other possibilities for your camera are things like [time lapse photography][65] or
-[`picamera`][55] which is a Python interface to the Raspberry Pi camera module
-(source code [here][56]).
-Or can do something more sophisticated like stream video to a web browser
-via the Python package [`pistreaming`][58]
+<https://www.linux-projects.org/>
+her <http://www.linux-projects.org/uv4l/>hings like [time lapse photography][65] or
+picamera`][55] which is a Python interface to the Raspberry Pi camera module<https://gist.github.com/rveitch/907a449fa6d4e12ca1d4d1ebf9b03a04>
+ource code [here][56]).
+ can do something more <https://www.linux-projects.org/uv4l/webrtc-extension/>
+vi<https://www.linux-projects.org/uv4l/tutorials/>
 or with [`OpenCV`][59], or via [`motion`][60].
 
----------------
+---------------<https://www.linux-projects.org/uv4l/>
+<https://www.raspberrypi.org/forums/viewtopic.php?t=169832>
 
 ## Video Frameworks
 
 ### Userspace Video4Linux (UV4L)
-* UV4L - User space Video4Linux - https://www.linux-projects.org/
-    * http://www.linux-projects.org/uv4l/
-    * How to install or upgrade UV4L on Raspbian Wheezy & Raspbian Jessie (for Raspberry Pi) - https://gist.github.com/rveitch/907a449fa6d4e12ca1d4d1ebf9b03a04
-    * [Video: Install UV4L on Raspberry Pi 3](https://www.youtube.com/watch?v=7WA_tBTJQrk)
-    * WebRTC extension - https://www.linux-projects.org/uv4l/webrtc-extension/
-* https://www.linux-projects.org/uv4l/tutorials/
-* [Quick installation instructions of UV4L for Ubuntu](https://www.linux-projects.org/uv4l/installation-ubuntu/)
+
+* UV4L - User space Video4Linux - <https://www.linux-projects.org/>
+  * <http://www.linux-projects.org/uv4l/>
+  * How to install or upgrade UV4L on Raspbian Wheezy & Raspbian Jessie (for Raspberry Pi) - <https://gist.github.com/rveitch/907a449fa6d4e12ca1d4d1ebf9b03a04>
+  * [Video: Install UV4L on Raspberry Pi 3](https://www.youtube.com/watch?v=7WA_tBTJQrk)
+
+  * WebRTC exten<https://learn.adafruit.com/raspberry-pi-video-looper/hello-video>
+* <https://www.linux-projects.org/uv4l/tutorials/>
+* [Quick insta<https://elinux.org/Omxplayer> for Ubuntu](https://www.linux-projects.org/uv4l/installation-ubuntu/)
 * [xscreen](https://www.linux-projects.org/documentation/uv4l-xscreen/) is a userspace Video4Linux driver module for virtual devices from X screens. Turn any portion of any X Screen into a virtual Video4Linux device.
-* UV4L - User space Video4Linux - https://www.linux-projects.org/uv4l/
-* Is UV4L the best way to steam to the web? - https://www.raspberrypi.org/forums/viewtopic.php?t=169832
-* [Use cases about the V4L2 driver for the Dual Raspberry Pi Camera Module](http://blog.csdn.net/hnllc2012/article/details/46226489)
-* [Installing UV4L on Raspberry Pi](http://www.linux-projects.org/uv4l/installation/)
+UV4L<https://wiki.videolan.org/Documentation:Streaming_HowTo/Command_Line_Examples/>
+Is UV4L the best way to steam to the web? - <https://www.raspberrypi.org/forums/viewtopic.php?t=169832>
+* [Use cases about the V4L2 driver for the Dual Ras<http://frozen.ca/rpi-camera-viewer-for-android/>nllc2012/article/details/46226489)
+[Installing UV4L on Raspberry Pi](http://www.linux-projects.org/uv4l/installation/)<https://raspberrypi.stackexchange.com/questions/22372/using-the-uv4l-driver-to-stream-video-from-the-raspberry-pi-camera-to-android-ph>
 * [Tutorials for Raspberry Pi](https://www.linux-projects.org/uv4l/tutorials/)
 * [Real-time HTTP/HTTPS Streaming Server with the native uv4l-server module](https://www.linux-projects.org/uv4l/tutorials/streaming-server/)
+
 
 ---------------
 
 ## Video Players
-* hello_video - https://learn.adafruit.com/raspberry-pi-video-looper/hello-video
+
+
+* hello_video - <https://learn.adafruit.com/raspberry-pi-video-looper/hello-video>
 * mplayer - `sudo apt-get install mplayer2`
-* omxplayer - https://elinux.org/Omxplayer
+* omxplayer - <https://elinux.org/Omxplayer>
+
 * vlc and cvlc - `sudo apt-get install vlc browser-plugin-vlc libavcodec-extra-53`
-    * https://wiki.videolan.org/Documentation:Streaming_HowTo/Command_Line_Examples/
-    * `vlc --longhelp --advanced` for a complete list of available options.
-* Android using the RPi Camera Viewer (RPiC) app - http://frozen.ca/rpi-camera-viewer-for-android/
-    * Using the UV4L driver to stream video from the raspberry pi camera to android phone - https://raspberrypi.stackexchange.com/questions/22372/using-the-uv4l-driver-to-stream-video-from-the-raspberry-pi-camera-to-android-ph
+  * <https://wiki.videolan.org/Documentation:Streaming_HowTo/Command_Line_Examples/>
+  * `vlc --longhelp --advanced` for a complete list of available options.
+* Android using the RPi Camera Viewer (RPiC) app - <http://frozen.ca/rpi-camera-viewer-for-android/>
+  * Using the UV4L driver to stream video from the raspberry pi camera to android phone - <https://raspberrypi.stackexchange.com/questions/22372/using-the-uv4l-driver-to-stream-video-from-the-raspberry-pi-camera-to-android-ph>
 
 ### omxplayer
-omxplayer is a great general purpose video player that offloads video decoding
+
+xpla<https://www.videolan.org/projects/multicat.html>t offloads video decoding
 to the Pi's GPU so it can render 720p and even 1080p video on the Raspberry Pi 1 and Pi 2.
 To use omxplayer you'll want to make sure your video is encoded with an H.264 codec and is in a file format like .avi, .mov, .mkv, .mp4, or .m4v.  If you have a video in a different format or that won't play you convert it into an H.264 video easily with some free tools.
 
 ### MPlayer
+
 See this [Streaming Video to PC running OpenCV](https://www.raspberrypi.org/forums/viewtopic.php?t=97739)
 
 ### VLC
+
+
 VLC is an open source media player supported on a wide number of computing platforms,
 including GNU/Linux, Windows, Mac OS X, BSD, iOS and Android.
 VLC can play most multimedia files, discs, streams, allows playback from devices,
 (mpeg, mpeg-2, mpeg-4, wmv, mp3, dvds, vcds, podcasts, ogg/vorbis, mov, divx, quicktime,
 and streaming from various online network sources like Youtube)
-It is also able to convert to or stream in various formats.
+ is <https://www.videolan.org/projects/multicat.html>rmats.
 
 * [Multicat](https://blog.duraffort.fr/post/2010/09/02/Multicat/)
-    * https://www.videolan.org/projects/multicat.html
+  * <https://www.videolan.org/projects/multicat.html>
 * [How to stream raspivid to Linux and OSX using GStreamer, VLC or Netcat?](https://raspberrypi.stackexchange.com/questions/27082/how-to-stream-raspivid-to-linux-and-osx-using-gstreamer-vlc-or-netcat)
 * [How to stream video from Raspberry Pi camera and watch it live](https://raspberrypi.stackexchange.com/questions/23182/how-to-stream-video-from-raspberry-pi-camera-and-watch-it-live)
 * [The Raspberry Pi Camera Module](https://www.ics.com/blog/raspberry-pi-camera-module#.VJFhbyvF-b8)
@@ -366,27 +408,33 @@ It is also able to convert to or stream in various formats.
 * [Documentation:Streaming HowTo New](https://wiki.videolan.org/Documentation:Streaming_HowTo_New/)
 * [Documentation:Streaming HowTo/Command Line Examples](https://wiki.videolan.org/Documentation:Streaming_HowTo/Command_Line_Examples/)
 
+
 # Multicast
-Sending traffic from one source to a single destination is called unicast.
+
+<https://imagenevp.com/top-10-video-formats/>
+Se<https://en.wikipedia.org/wiki/Video_file_format>nation is called unicast.
 Sending traffic from one source to everyone in the subnet is called a broadcast.
 Sending traffic from one (or multiple) sources to a group of receivers is called multicast.
 
 * [How to Stream Multicast Video Using VLC, Simple Tutorial](http://nerdynerdnerdz.com/3125/how-to-stream-multicast-video-using-vlc-simple-tutorial/)
 * [Multicat](https://blog.duraffort.fr/post/2010/09/02/Multicat/)
-    * https://www.videolan.org/projects/multicat.html
+  * <https://www.videolan.org/projects/multicat.html>
 * [Multicast Tutorial Slides](https://www.slideshare.net/RockyS11/multicast-tutorial-slides)
 * [Basics of Multicast technology](http://cpham.perso.univ-pau.fr/ENSEIGNEMENT/UERHD/Multicast.pdf)
 * [Multicast Explained](https://www.tldp.org/HOWTO/Multicast-HOWTO-2.html)
-* [UDP Unicast and Multicast Streaming Video using the Beaglebone Black](http://derekmolloy.ie/udp-video-streaming-beaglebone-black/)
+* [UDP<https://www.howtogeek.com/200736/what-is-an-mkv-file-and-how-do-you-play-them/>kmolloy.ie/udp-video-streaming-beaglebone-black/)
+<https://www.quora.com/How-do-I-play-mkv-files-on-Raspbian>
 
 ---------------
 
 # Video Formats
 
 ## What are Video Formats?
+
+
 * [Video Formats Explained](https://www.videomaker.com/article/c10/15362-video-formats-explained)
-* https://imagenevp.com/top-10-video-formats/
-* https://en.wikipedia.org/wiki/Video_file_format
+* <https://imagenevp.com/top-10-video-formats/>
+* <https://en.wikipedia.org/wiki/Video_file_format>
 * [The Complete List of Audio / Video File Formats for Developers](https://blog.filestack.com/thoughts-and-knowledge/complete-list-audio-video-file-formats/)
 
 H.264
@@ -396,25 +444,28 @@ FLV (Flash Video Format)
 WMV (Windows Media Video)
 MOV (Apple QuickTime Movie)
 MP4 (Moving Pictures Expert Group 4)
-MKV - https://www.howtogeek.com/200736/what-is-an-mkv-file-and-how-do-you-play-them/
-    * https://www.quora.com/How-do-I-play-mkv-files-on-Raspbian
+MKV - <https://www.howtogeek.com/200736/what-is-an-mkv-file-and-how-do-you-play-them/>
+    * <https://www.quora.com/How-do-I-play-mkv-files-on-Raspbian>
 
 * [Video Files](https://fileinfo.com/filetypes/video)
 * [What Is Video Format and Which Video Format to Choose?](https://filmora.wondershare.com/video-editing-tips/video-formats.html)
 
 ### Motion JPEG
+
 Some IP webcams do this by delivering [Motion JPEG or MJPEG][98] images.
 MJPEG just streams individual JPEG pictures, one after another.
 (In fact, some people have created streaming video solution
-using this concept of [streaming JPEG pictures][130].)
+<https://www.videolan.org/developers/x264.html>s][130].)
 Most [modern browsers][103] (think HTML5) can play MJPEG streams natively.
 The down side of MJPEG streams is that they are not as efficient as [H.264][116],
+
 which greatly improves quality and reduces size
-by encoding only the differences from one frame to the next.
+by encoding on<https://handbrake.fr/downloads.php>to the next.
 I'm willing to put up with the inefficiency to get the flexibility of browser support.
 
 This brings to what I choose to implement,
 [`mjpg-streamer`][96], a small open source MJPEG streaming server
+
 that has been ported to the Raspberry Pi.
 `mjpg-streamer` has a HTTP server streaming plugin,
 which starts a web server that that you can connect your browser to watch the video.
@@ -427,15 +478,19 @@ I prefer not to do this, and how to work around this will be shown in a subseque
 For now, we'll focus on how to get video streaming to a browser on your local LAN.
 
 ### H.264
-https://www.videolan.org/developers/x264.html
+
+<https://www.videolan.org/developers/x264.html>
 
 ### Converting Video Formats
+
 * convert a video with ffmpeg
-* HandBrake - https://handbrake.fr/downloads.php
+* HandBrake - <https://handbrake.fr/downloads.php>
 
 ---------------
 
 ## What is a Codec?
+
+
 Most of the video you'll come across is compressed,
 usually to make them smaller in size and more manageable,
 usually with some loss in video quality.
@@ -452,12 +507,14 @@ Some examples of codecs include:
 * XviD, an open source version of DivX, popular among movie pirates
 * x264, which compresses H.264 videos (Also known as MPEG-4 AVC), and is very popular for high definition videos
 
+
 There are a lot of different codecs out there, and it can get really confusing with all the different versions of MPEG standards.
 
 * [Comparison of video codecs](https://en.wikipedia.org/wiki/Comparison_of_video_codecs)
 * [Moving Picture Experts Group - MPEG](https://en.wikipedia.org/wiki/Moving_Picture_Experts_Group)
 
 ## What Is a Container?
+
 A container is, essentially, a bundle of files. Usually a container consists of a video codec and an audio codec, though it can also contain things like subtitles. Containers allow you to choose one codec for your video and one for your audio, which is nice—that way, you can choose to use the high-quality DTS audio, or compress your audio to something like MP3 for even more space savings. It just gives you a bit more control over how you record your videos or rip your movies. Popular containers include:
 
 * AVI
@@ -474,8 +531,10 @@ The main difference between different containers is not only the codecs they sup
 # Video Streaming
 
 ## What is Video Streaming?
+
 Streaming technology usually refers to sending large streams of data between systems.
 Because the data is too big to send in one go,
+
 it is cut in to smaller packets of data.
 These packets are then send sequentially,
 and in order to decrease the size of the data, it is often compressed.
@@ -501,8 +560,10 @@ Some tips on using FFmpeg and libx264 for streaming media:
 [FFmpeg and how to use it wrong](https://videoblerg.wordpress.com/2017/11/10/ffmpeg-and-how-to-use-it-wrong/)
 
 ## What is Video Compression?
+
 There are two methods of compressing video data.
 The first is "Inter-Frame" based compression.
+
 Think of this as saving every image in the video as a JPEG image.
 An example compression algorithm that works accordingly is Motion-JPEG.
 Other examples are DV and HuffYUV.
@@ -514,6 +575,7 @@ tracks the differences in the following frames.
 
 Some highly sophisticated algorithms have been developed over the years,
 of which the most used one is H.264.
+
 Other examples include Theora, Xvid and Divx.
 Compression algorithms for video are often referred to as a "codec".
 
@@ -529,9 +591,10 @@ The H.264 codec was designed for streaming.
 * [Video Compression Explainer — Like We’re Five-Year-Olds](https://hackaday.com/2020/08/28/video-compression-explainer-like-were-five-year-olds/)
 
 ## What are the Video Transport Protocols?
+
 To transport the stream of of video data packets,
-there are several protocals to pick from.
-In TCP/IP networks an UDP transport is the most simple solution.
+there are several protocals to pick f<https://fast.com/>peedtest.net/>
+In TCP<https://github.com/sivel/speedtest-cli>ost simple solution.
 The RTP protocol is a transport protocol on top of UDP.
 Nowadays HTTP is also often used as a transport for streaming video.
 
@@ -539,11 +602,14 @@ UDP doesn't assure that packets are recieved in order,
 but the RTP protocol provides this on top of UDP,
 making it better suited for transporting video streams.
 
+
 ## Streaming Latency
+
 The streaming latency has little to do with the encoding by the Pi,
 but mostly to do with the playing or receiving end.
 If the Pi weren’t capable of encoding a frame before the next frame arrived,
 it wouldn’t be capable of recording video at all
+
 since it buffers would rapidly become filled and stall.
 
 Players typically introduce several seconds worth of latency.
@@ -552,26 +618,30 @@ are optimized for playing streams over a network.
 Such players allocate a large (multi-second) buffer
 and only start playing once this is filled to guard against possible future packet loss.
 
-For additional information, see the following:
+r additional information, see the following:
 
 * Latency - [Understanding Video Latency: What is video latency and why do we care about it?](http://www.vision-systems.com/content/dam/VSD/solutionsinvision/Resources/Sensoray_video-latency_article_FINAL.pdf)
 * [Why is there so much latency when streaming video?](http://picamera.readthedocs.io/en/release-1.10/faq.html#why-is-there-so-much-latency-when-streaming-video)
 * To measure performance of threading, use `mpstat -P ALL 1`.
-* To measure the Internet speed, use https://fast.com/ or http://www.speedtest.net/
-* See https://github.com/sivel/speedtest-cli
+
+* To measure the Internet speed, use <https://fast.com/> or <http://www.speedtest.net/>
+* See <https://github.com/sivel/speedtest-cli>
 * at home using desktop, I'm getting 1ms to 10ms pings, 855Mbps upload, 847Mbps download
 * at home using BlueRpi, I'm getting
+
 * See /home/jeff/blogging/content/ideas/network-speed-testing.md
 
 ---------------
 
 ## Steaming / Broadcast Options for the Raspberry Pi
+
 * [Broadcast Raspberry Pi camera](https://djynet.net/?p=744)
 * [Raspberry Pi Streaming video](https://www.mjoldfield.com/atelier/2013/12/raspivid.html)
 * [Live video streaming with open source Video.js](https://opensource.com/article/20/2/video-streaming-tools)
 * [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server#obs)
 
 ### Restreamer
+
 An easy to use, Dockerized, open source video server
 with fancy user interface and FFmpeg API for free video streaming.
 
@@ -579,18 +649,21 @@ with fancy user interface and FFmpeg API for free video streaming.
 * Wizard helps to configurate for complex settings in everyday work.
 * Restreamer ist open-source software and free for private and commercial use.
 * [Use your Raspberry Pi as a streaming server](https://opensource.com/article/23/3/raspberry-pi-streaming-server)
-    * [datarhei](https://datarhei.com/)
-    * [Restreamer](docs.datarhei.com/restreamer/)
-    * [datarhei Core](https://docs.datarhei.com/core)
+  * [datarhei](https://datarhei.com/)
+  * [Restreamer](docs.datarhei.com/restreamer/)
+  * [datarhei Core](https://docs.datarhei.com/core)
 
 
 ### Open Broadcaster Software (OBS)
+
 * [Open source live streaming with Open Broadcaster Software](https://opensource.com/article/20/4/open-source-live-stream)
 * [How I stream video with OBS and WebSockets](https://opensource.com/article/20/6/obs-websockets-streaming)
 
 ## What Type of Streaming Do I Need?
+
 Use this this to help structure the content here:
 [What are the options - Broadcast Raspberry Pi camera](http://djynet.net/?p=744)
+
 
 An important requirement for my streaming camera needs
 are that you can view it with ease,
@@ -616,18 +689,21 @@ which is great except Chrome no longer supports either of these things.
 * [MPEG-DASH][123] is better though there is no native support in the desktop browsers
 yet but there are JavaScript implementations of it that allow its use via MSE.
 * [Fragmented MP4][122] is supported by Adobe and Microsoft, but requires browser plugins
-* [HTML5 video][125] is the new standard way to embed a video in a web page.
+* [HTML5 video][125] is the new standard way to embed a video <http://html5test.com/>
 
 Before HTML5, a video could only be played in a browser
 with a plug-in (like [Flash Video][32]),
 but supported only on HTML5 compatible browsers like Chrome and FoxFire.
 
+
 ## Streaming Video to Web Page
+
 The [introductory article about the camera module][99]
 in the Raspberry Pi blog shows a method to [stream video][104]
 from the Raspberry Pi to another computer.
 (See "How does video streaming work?", [Part 1][105], [Part 2][106], [Part 3][107].)
 This method essentially works as follows:
+
 
 * On the Pi the `raspivid` utility is used to [encode H.264 video][100] from the camera
 * The video stream is piped to the [netcat (`nc`)][101] utility,
@@ -635,10 +711,11 @@ which pushes it out to the network address where the video player is.
 * On the player computer `nc` receives the stream and pipes it into [`mplayer`][102] to play.
 
 This is an efficient method of streaming video from the RPi to another computer,
-but it has a few problems for my use:
+bu<http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-websockets-rtmp-adaptive-bitrate-streaming/>
 
 * The Raspberry Pi needs to know the address of the computer that is playing the video
 * The playing computer needs to have an advanced player that can play a raw H.264 video stream.
+
 * Since this system relies on a direct connection between the Pi and the player,
 it is impossible to have the player computer connect and/or disconnect from the stream,
 the connection needs to be on at all times.
@@ -648,12 +725,14 @@ This cannot be done with this method.
 So I want to live video stream broadcast (not just point-to-point)
 from my Raspberry Pi camera, to a web server where
 **any HTML5 compatible browser** can play it
-(see this site to test your browser for HTML5 compatibility - http://html5test.com/).
+(see this site to test your browser for HTML5 compatibility - <http://html5test.com/>).
 This has proven to be a taller order than I originally imagined.
 
 
 ## Real Time Streaming Protocol (RTSP)
+
 The Real Time Streaming Protocol (RTSP) is a network control protocol designed for use in entertainment and communications systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points.
+
 
 The Real-Time Streaming Protocol allows to control multimedia streams delivered, for example, via RTP. Control includes absolute positioning within the media stream, recording and possibly device control.
 
@@ -661,17 +740,20 @@ RTSP is a realtime streaming protocol. Meaning, you can stream whatever you want
 
 * [The Many Ways to Stream Video using RTP and RTSP](https://cardinalpeak.com/blog/the-many-ways-to-stream-video-using-rtp-and-rtsp/)
 
+
 ## Real Time Messaging Protocol (RTMP)
+
 RTMP was originally developed for streaming audio, video, and data over the Internet, between a server and a Flash player. It was created by Macromedia (now part of Adobe) and was later released as an open specification that’s commonly used for Flash and Flex/Air applications. The protocol supports AMF, SWF, FLV, and F4V file formats.
 
 Today, most people agree that the video support included within HTML5 will reduce the need for these file formats. However, because there is so much video out there, and much of it is not HTML5-compliant yet, these traditional formats still carry a lot of weight.
 
 Like WebSockets, RTMP creates persistent connections between a server and a client application written in Flash or Flex/Air. The technology is used to reduce the overhead involved in establishing and tearing down connections for low-latency or highly-interactive apps. Also like WebSockets, performance testing for RTMP is typically focused around the optimizing data that’s pushed from the server to the client.
 
-* http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-websockets-rtmp-adaptive-bitrate-streaming/
+* <http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-websockets-rtmp-adaptive-bitrate-streaming/>
 * [Android Streaming Live Camera Video to Web Page](http://www.androidhive.info/2014/06/android-streaming-live-camera-video-to-web-page/)
 
 ## FFmpeg
+
 * [FFmpeg for Screencasts and Recording](https://www.youtube.com/watch?v=VGRHzB8ANAo)
 * [How to Process Live Video Stream Using FFMPEG and OpenCV](http://blog.lemberg.co.uk/how-process-live-video-stream-using-ffmpeg-and-opencv)
 * [OTTVerse: FFmpeg](https://ottverse.com/tags/ffmpeg/)
@@ -679,6 +761,7 @@ Like WebSockets, RTMP creates persistent connections between a server and a clie
 * [Low-Latency Live Streaming your Desktop using ffmpeg](http://fomori.org/blog/?p=1213)
 * [Stream a file with original playing rate](http://superuser.com/questions/508560/ffmpeg-stream-a-file-with-original-playing-rate)
 * [RTP streaming with ffmpeg](http://lucabe72.blogspot.com/2010/04/rtp-streaming-with-ffmpeg.html)
+
 * [Using CVLC for streaming using RTP protocol under Linux](https://inogeni.com/knowledgebase/using-cvlc-for-streaming-using-rtp-protocol-under-linux/)
 * [How can I stream h264 files with FFmpeg over rtmp without reencoding?](http://forum.videohelp.com/threads/377436-How-can-I-stream-h264-files-with-FFmpeg-over-rtmp-without-reencoding)
 * [An ffmpeg and SDL Tutorial](http://dranger.com/ffmpeg/ffmpeg.html)
@@ -687,7 +770,9 @@ Like WebSockets, RTMP creates persistent connections between a server and a clie
 
 * [Explore FFmpeg From The Comfort Of Your Browser](https://hackaday.com/2023/08/27/explore-ffmpeg-from-the-comfort-of-your-browser/)
 
+
 ## Streaming RTMP with crtmpserver and ffmpeg
+
 `crtmpserver` is a high performance streaming platform
 
 * [crtmpserver + ffmpeg](https://telecom.altanai.com/2016/06/19/crtmpserver-ffmpeg/)
@@ -695,6 +780,7 @@ Like WebSockets, RTMP creates persistent connections between a server and a clie
 ---------------
 
 # Video Streaming Method
+
 In the subsequent sections, I plan to show several methods for streaming video.
 They will differ in there easy of use, in what tools are needed to create them,
 and how & where you access the resulting video stream.
@@ -715,6 +801,7 @@ Both are detailed below along with several other metods.
 GStreamer appears to provide the most stable, lag-free, and flexible solution to me.
 
 ## Streaming To Youtube
+
 Like most Internet streaming services,
 YouTube use a protocol called Real-Time Messaging Protocol (RTMP).
 So in order to stream to Youtube, we'll need the RTMP URL as well as a private key for our specific stream.
@@ -723,6 +810,7 @@ So in order to stream to Youtube, we'll need the RTMP URL as well as a private k
 * [Streaming To Youtube](https://learn.adafruit.com/ultimate-youtube-live-camera/streaming-to-youtube)
 
 ## Streaming with the VideoLAN Client (VLC)
+
 * [Raspberry Pi MJPEG at ~30fps](https://www.lewisroberts.com/2015/05/15/raspberry-pi-mjpeg-at-30fps/)
 
 [Streaming with VLC][12] from a Raspberry Pi is fairly straightforward.
@@ -782,6 +870,7 @@ clients could view the video (aka multicast streaming):
 
 ```bash
 # create video stream from raspberry pi
+
 raspivid -o - -t 0 -hf -b 1000000 -w 640 -h 480 -fps 24 | cvlc -vvv stream:///dev/stdin --sout '#transcode{vcodec=h264,vb=800,acodec=none}:rtp{dst=239.0.0.1,port=5000,mux=ts}'
 
 # one of the clients viewing the streaming video
@@ -822,6 +911,7 @@ vlc -vvv --network-caching 200 rtp://239.0.0.1:5000
 
 
 ## NetCat + MPlayer
+
 The concept here is simple.
 You use `netcat` to dump the camera data over a network pipe.
 
@@ -852,7 +942,7 @@ raspivid -n -t 0 -w 1280 -h 720 -fps 49 -o - | nc 192.168.1.200 5000
 [!gstreamer](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gstreamer-logo.svg/530px-Gstreamer-logo.svg.png)
 **NOTE: gstreamer doesn't appear to work very well on Wayland Display Manager.**
 [GStreamer][76] is a framework for creating streaming media applications.
-The GStreamer framework is designed to make it easy to write applications
+The GStreamer framework is designed to make it easy to write applications<https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2016/John%20Sadler%20-%20Smooth%20video%20on%20Raspberry%20Pi%20with%20gst-mmal%20(Lightning%20Talk).pdf>
 that handle audio or video or both.
 It isn't restricted to audio and video,
 and can process any kind of data flow.
@@ -893,7 +983,7 @@ gst-launch-1.0 videotestsrc ! autovideosink
 gst-launch-1.0 videotestsrc pattern=snow ! autovideosink
 ```
 
-* Smooth playback of adaptive video streams on Raspberry Pi with gst-mmal - https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2016/John%20Sadler%20-%20Smooth%20video%20on%20Raspberry%20Pi%20with%20gst-mmal%20(Lightning%20Talk).pdf
+* Smooth playback of adaptive video streams on Raspberry Pi with gst-mmal - <https://gstreamer.freedesktop.org/data/events/gstreamer-conference/2016/John%20Sadler%20-%20Smooth%20video%20on%20Raspberry%20Pi%20with%20gst-mmal%20(Lightning%20Talk).pdf>
 * [HackspaceHat part 1: WebRTC, Janus and Gstreamer](https://planb.nicecupoftea.org/2015/07/28/hackspacehat-part-1-webrtc-janus-and-gstreamer/)
 * [GStreamer WebRTC: A flexible solution to web-based media](https://opensource.com/article/19/1/gstreamer)
 * [WebRTC Plumbing with GStreamer](https://webrtchacks.com/webrtc-plumbing-with-gstreamer/)
@@ -903,9 +993,10 @@ Now using gst-launch-1.0 which promises less latancy
 * [Modern way to stream H.264 from the Raspberry Cam](https://raspberrypi.stackexchange.com/questions/26675/modern-way-to-stream-h-264-from-the-raspberry-cam)
 * [Low-Latency Live Streaming your Desktop using ffmpeg](http://fomori.org/blog/?p=1213)
 * [Raspberry Pi MJPG-Streamer low latency](https://stackoverflow.com/questions/20921541/raspberry-pi-mjpg-streamer-low-latency)
+
 * [Raspberry Pi Camera openCV rendering with low latency streaming with gstreamer via RTP](http://hopkinsdev.blogspot.com/2016/06/raspberry-pi-camera-opencv-rendering.html)
-* [Live Video Streaming with Raspberry Pi camera module](https://wiki.jmk.hu/wiki/Live_Video_Streaming_with_Raspberry_Pi_camera_module)
-* [Raspivid v Gst-rpicamsrc (Updated)](https://sparkyflight.wordpress.com/tag/gst-rpicamsrc/)
+[Live Video Streaming with Raspberry Pi camera module](https://wiki.jmk.hu/wiki/Live_Video_Streaming_with_Raspberry_Pi_camera_module)
+[Raspivid v Gst-rpicamsrc (Up<http://www.bogotobogo.com/VideoStreaming/ffmpeg_http_live_streaming_hls.php>
 * [Raspberry Pi Quadcopter](http://rpiquadcopter.blogspot.com/2014/06/raspberry-pi-camera-module-video.html)
 * [Raspberry pi Camera with Gstreamer-1.0](http://linuxembeddedworld.blogspot.com/2014/03/raspberry-pi-camera-with-gstreamer-10.html)
 
@@ -943,10 +1034,14 @@ gst-launch-1.0 -v udpsrc port=5000 caps='application/x-rtp, media=(string)video,
 ```
 
 
-###############################################################################
+<https://en.wikipedia.org/wiki/Netcat>
+
+## <https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/> ######
+
 * [Real-time MPEG-2 encoding with ffmpeg](http://www.smorgasbork.com/2009/12/03/real-time-mpeg-2-encoding-with-ffmpeg/)
-    * see comment by author - This article is pretty old and really doesn’t apply to current ffmpeg versions. You also wouldn’t use MPEG2 for a streaming application.  You want to encode to h264, and you probably want to stream via HLS, which is supported by almost all current browsers (either directly or with Javascript extensions) with the exception of MSIE 11 and below. For MSIE, you need to use RTMP streaming along with a flash-based player.
-    * check out this instead - http://www.bogotobogo.com/VideoStreaming/ffmpeg_http_live_streaming_hls.php
+
+  * see comment by author - This article is pretty old and really doesn’t apply to current ffmpeg versions. You also wouldn’t use MPEG2 for a streaming application.  You want to encode to h264, and you probably want to stream via HLS, which is supported by almost all current browsers (either directly or with Javascript extensions) with the exception of MSIE 11 and below. For MSIE, you need to use RTMP streaming along with a flash-based player.
+  * check out this instead - <http://www.bogotobogo.com/VideoStreaming/ffmpeg_http_live_streaming_hls.php>
 
 ffmpeg -i test.mp4 \
     -vcodec mpeg2video -pix_fmt yuv420p -me_method epzs -threads 4 \
@@ -955,6 +1050,7 @@ ffmpeg -i test.mp4 \
     -async 1  \
     -y \
     -f vob output.mpg
+
 
 ffmpeg -i /dev/video0 -vcodec mpeg2video -pix_fmt yuv420p -me_method epzs -threads 4 -r 29.97 -g 45 -bf 2 -trellis 2 -cmp 2 -subcmp 2 -s 704x396 -b 2500k -bt 300k -acodec mp2 -ac 2 -ab 192k -ar 44100 -async 1 -y -f vob output.mpg
 ###############################################################################
@@ -966,11 +1062,13 @@ ffmpeg -i /dev/video0 -vcodec mpeg2video -pix_fmt yuv420p -me_method epzs -threa
 
 On your computer running an X Server,
 you can grab the X11 display and send it to another computer for display.
-On the X Server compluter, start up the following:
-
-```bash
+<http://frozen.ca/streaming-raw-h-264-from-a-raspberry-pi/>
+<http://frozen.ca/rpi-camera-viewer-for-android/>
+<https://en.wikipedia.org/wiki/Netcat>
 ffmpeg -f x11grab -s 1280x720 -framerate 30 -i :0.0 -c:v mpeg2video -q:v 20 -pix_fmt yuv420p -g 1 -threads 2 -f mpegts - | nc 192.168.1.31 5000
+
 ```
+
 
 On the computer you wish to stream the video, do the following:
 
@@ -983,10 +1081,12 @@ nc -l -p 5000 | mplayer -cache 1024 -
 ---------------
 
 # A Tour of Video Stream Techniques Using Raspberry Pi
-* https://en.wikipedia.org/wiki/Netcat
-* https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/
+
+* <https://en.wikipedia.org/wiki/Netcat>
+* <https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/>
 
 ## Playing Video Continuously Locally
+
 **H.264 Encoding / Using Player / Viewable on RPi / One Viewer**
 The most basic type of video would be to play it locally
 on the Raspberry Pi which has the Pi Camera.
@@ -998,6 +1098,7 @@ raspivid -t 0 -w 640 -h 360 -fps 30 -o - | mplayer -
 ```
 
 ## Streaming Raw H.264 From A Raspberry Pi into a Player
+
 **H.264 Encoding / Using Player / Viewable on Local Network / One Viewer**
 
 Here I will explains how to generate a raw H.264 stream on a Raspberry Pi (RPi)
@@ -1008,17 +1109,19 @@ The stream can be played on:
 * Another Raspberry Pi using the standard hello_video demo program
 * Android using the RPi Camera Viewer (RPiC) app
 
-http://frozen.ca/streaming-raw-h-264-from-a-raspberry-pi/
-http://frozen.ca/rpi-camera-viewer-for-android/
-https://en.wikipedia.org/wiki/Netcat
+<http://frozen.ca/streaming-raw-h-264-from-a-raspberry-pi/>
+<http://frozen.ca/rpi-camera-viewer-for-android/>
+<https://en.wikipedia.org/wiki/Netcat>
 
 ### Step 1: Video Streamer
+
 The RPi's Pi Camera tool `raspivid` will be use to create the video.
 we'll use the following:
 
 ```bash
 # stream H.264 encode video from the pi camera
 raspivid -n -ih -t 0 -rot 0 -w 640 -h 360 -fps 15 -o -
+
 ```
 
 Where the parameters and options mean:
@@ -1028,7 +1131,7 @@ Where the parameters and options mean:
 * **-fps 15** - frames per second
 * **-n** - to not show the video on the Raspberry Pi display
 * **-ih** - to insert H.264 headers into the stream
-* **-t 0** - to keep streaming forever
+<https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/>
 * **-rot 0** - to not rotate the stream
 * **-o –** - to send the stream to stdout
 
@@ -1038,43 +1141,49 @@ We can use the following for `nc`:
 
 ```bash
 # netcat will listen to port 5001 for a connection
-nc -v -k -4 -l 5001
-```
-
-netcat can only handle one stream at a time.
-If you want to handle multiple network streams at the same time,
-you need to replace netcat with `ncat`,
+nc<https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/>
+``<http://frozen.ca/streaming-raw-h-264-from-a-raspberry-pi/>
+<https://www.raspberrypi.org/forums/viewtopic.php?t=178493>
+ne<http://www.raspberry-projects.com/pi/pi-hardware/raspberry-pi-camera/streaming-video-using-vlc-player>
+If<http://www.raspberry-projects.com/pi/pi-hardware/raspberry-pi-camera/streaming-video-using-vlc-player>
+yo<https://raspberrypi.stackexchange.com/questions/27082/how-to-stream-raspivid-to-linux-and-osx-using-gstreamer-vlc-or-netcat>
 which is part of the nmap package (install via `sudo apt-get install -y nmap`)
 
-Now just substitute `ncat` for `nc` in the above command
-and multiple devices will be able to view the stream simultaneously.
 
+No<https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=146597>
+an<https://raspberrypi.stackexchange.com/questions/23182/how-to-stream-video-from-raspberry-pi-camera-and-watch-it-live>
+<https://web.archive.org/web/20151012014829/http://www.videolan.org:80/doc/streaming-howto/en/ch03.html>
 The netcat parameters are:
+
 
 * **-l 5001** - listen on local port 5001
 * **-k** - to connect repeatedly
 * **-v** - to produce verbose error messages
-* **-4** - to use IPv4 addresses only
-
+* <http://blog.cudmore.io/post/2016/06/05/uv4l-on-Raspberry-Pi/>
+<http://www.instructables.com/id/Raspberry-Pi-Video-Streaming/>
 Putting this all together,
 on your RPi capturing the video, use the following command:
 
-```bash
+
+``<https://www.raspberrypi.org/forums/viewtopic.php?t=45178>
 # outbound stream of H.264 encode video from the pi camera to a port
 raspivid -n -ih -t 0 -rot 0 -w 640 -h 360 -fps 15 -o - | ncat -v -k -4 -l 5001
-```
 
-### Step 2: Video Player
+``<https://github.com/pimterry/raspivid-stream>
+<http://www.mjoldfield.com/atelier/2013/12/raspivid.html>
+##<https://raspberrypi.stackexchange.com/questions/7446/how-can-i-stream-h-264-video-from-the-raspberry-pi-camera-module-via-a-web-serve>
+<http://blog.cudmore.io/post/2016/06/05/uv4l-on-Raspberry-Pi/>
 On another system within your network,
 we need to take this stream of H.264 encode video
-and pipe into into a video decoder.
+
+an<https://lifehacker.com/set-up-a-raspberry-pi-as-a-live-streaming-camera-that-b-1790317509>
 `mplayer` can decode H264 video
 and we'll use netcat again to connect with the source.
 
 **NOTE:** If you have a firewall enabled
 on the machine that is to receive the video stream,
 you will also need to allow inbound UDP connections.
-https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/
+<https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/>
 
 ```bash
 nc 192.168.1.200 5001 | mplayer - -fps 15
@@ -1084,37 +1193,45 @@ nc -l -u -p 5001 192.168.1.208 | mplayer -
 
 
 
-* https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/
-* http://frozen.ca/streaming-raw-h-264-from-a-raspberry-pi/
-* https://www.raspberrypi.org/forums/viewtopic.php?t=178493
-* http://www.raspberry-projects.com/pi/pi-hardware/raspberry-pi-camera/streaming-video-using-vlc-player
-* http://www.raspberry-projects.com/pi/pi-hardware/raspberry-pi-camera/streaming-video-using-vlc-player
-* https://raspberrypi.stackexchange.com/questions/27082/how-to-stream-raspivid-to-linux-and-osx-using-gstreamer-vlc-or-netcat
+
+<https://mike632t.wordpress.com/2014/11/04/video-streaming-using-netcat/>
+
+* <http://frozen.ca/streaming-raw-h-264-from-a-raspberry-pi/>
+* <https://www.raspberrypi.org/forums/viewtopic.php?t=178493>
+* <http://www.raspberry-projects.com/pi/pi-hardware/raspberry-pi-camera/streaming-video-using-vlc-player>
+* <http://www.raspberry-projects.com/pi/pi-hardware/raspberry-pi-camera/streaming-video-using-vlc-player>
+* <https://raspberrypi.stackexchange.com/questions/27082/how-to-stream-raspivid-to-linux-and-osx-using-gstreamer-vlc-or-netcat>
 
 ## Streaming Raw H.264 From A Raspberry Pi but now using v4l2-ctl and cvlc
-* https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=146597
-* https://raspberrypi.stackexchange.com/questions/23182/how-to-stream-video-from-raspberry-pi-camera-and-watch-it-live
-* https://web.archive.org/web/20151012014829/http://www.videolan.org:80/doc/streaming-howto/en/ch03.html
+
+
+* <https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=146597>
+* <https://raspberrypi.stackexchange.com/questions/23182/how-to-stream-video-from-raspberry-pi-camera-and-watch-it-live>
+* <https://web.archive.org/web/20151012014829/http://www.videolan.org:80/doc/streaming-howto/en/ch03.html>
 
 ## uv4l on Raspberry Pi
+
 **Using Browser / Local Network / Multiple Viewers**
 how to stream a Raspicam to a web using a Raspberry Pi and the UV4L driver.
 
-* http://blog.cudmore.io/post/2016/06/05/uv4l-on-Raspberry-Pi/
-* http://www.instructables.com/id/Raspberry-Pi-Video-Streaming/
+* <http://blog.cudmore.io/post/2016/06/05/uv4l-on-Raspberry-Pi/>
+* <http://www.instructables.com/id/Raspberry-Pi-Video-Streaming/>
 * [uv4l-server](https://www.linux-projects.org/documentation/uv4l-server/)
 
 ## MJPG Streaming
-* https://www.raspberrypi.org/forums/viewtopic.php?t=45178
+
+* <https://www.raspberrypi.org/forums/viewtopic.php?t=45178>
 
 ## stream Sent straight to web clients
-* https://github.com/pimterry/raspivid-stream
-* http://www.mjoldfield.com/atelier/2013/12/raspivid.html
-* https://raspberrypi.stackexchange.com/questions/7446/how-can-i-stream-h-264-video-from-the-raspberry-pi-camera-module-via-a-web-serve
-* http://blog.cudmore.io/post/2016/06/05/uv4l-on-Raspberry-Pi/
+
+* <https://github.com/pimterry/raspivid-stream>
+* <http://www.mjoldfield.com/atelier/2013/12/raspivid.html>
+* <https://raspberrypi.stackexchange.com/questions/7446/how-can-i-stream-h-264-video-from-the-raspberry-pi-camera-module-via-a-web-serve>
+* <http://blog.cudmore.io/post/2016/06/05/uv4l-on-Raspberry-Pi/>
 
 ## Raspberry Pi as a Live Streaming Camera That Broadcasts to YouTube
-* https://lifehacker.com/set-up-a-raspberry-pi-as-a-live-streaming-camera-that-b-1790317509
+
+* <https://lifehacker.com/set-up-a-raspberry-pi-as-a-live-streaming-camera-that-b-1790317509>
 
 
 
@@ -1129,17 +1246,20 @@ how to stream a Raspicam to a web using a Raspberry Pi and the UV4L driver.
 
 
 
-## Streaming Video on Youtube
-* [Making It Easier to Go Live](https://youtube-creators.googleblog.com/2018/03/making-it-easier-to-go-live.html)
-    * [YouTube Does WebRTC – Here’s How](https://webrtchacks.com/youtube-does-webrtc-heres-how/)
-* [YouTube Live Events: Do it live!](https://www.youtube.com/my_live_events)
-* [Streaming Live to YouTube and Facebook using Raspberry Pi Camera](https://www.digikey.com/en/maker/blogs/streaming-live-to-youtube-and-facebook-using-raspberry-pi-camera/)
+# Streaming Video on Youtube
+
+  [Making It Easier to Go Live](https://youtube-creators.googleblog.com/2018/03/making-it-easier-to-go-live.html)
+
+* [YouTube Does WebRTC – Here’s How](https://webrtchacks.com/youtube-does-webrtc-heres-how/)
+  [YouTube Live Events: Do it live!](https://www.youtube.com/my_live_events)
+  [Streaming Live to YouTube and Facebook using Raspberry Pi Camera](https://www.digikey.com/en/maker/blogs/streaming-live-to-youtube-and-facebook-using-raspberry-pi-camera/)
 * [Live Stream to YouTube With a Raspberry Pi](http://www.makeuseof.com/tag/live-stream-youtube-raspberry-pi/)
 * [Youtube: Introduction to live streaming](https://support.google.com/youtube/answer/2474026?hl=en)
 * [Raspberry Pi IP Camera YouTube Live Video Streaming Server](http://videos.cctvcamerapros.com/raspberry-pi/ip-camera-raspberry-pi-youtube-live-video-streaming-server.html)
 
 
 ## Video File on HTML5 Browser
+
 In [modern browsers][131] (which loosely means a browser without workarounds
 and conforming to the latest Web/HTML standards, e.g. a HTML5 compliant browser),
 adding a video to your page is as easy as adding an image.
@@ -1149,6 +1269,7 @@ you can do it with a single element.
 For example,
 obtain any `mp4` video file (like `All-is-Full-of-Love-by-Bjork.mp4`
 created via `youtube-dl -k https://vimeo.com/43444347`) and
+
 put the HTML code below in file called `html5-video-example-1.html`
 in the same same directory as the `mp4` file.
 Then fire up a browser pointing to the HTML file; something like
@@ -1158,11 +1279,12 @@ Then fire up a browser pointing to the HTML file; something like
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML5 Video Example-1</title>
+ <title>HTML5 Video Example-1</title>
 </head>
 <body>
     <h1> HTML Video Example-1</h1>
     <video src="/home/jeff/tmp/All-is-Full-of-Love-by-Bjork.mp4" controls>
+
     </video>
 </body>
 </html>
@@ -1179,17 +1301,19 @@ containing subtitles, opening posters, etc. like this:
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML5 Video Example-2</title>
-	<style type="text/css">
-	       html, body {
-	           color: #FFFFFF;
-	           text-align: center;
-	           background-color: #111;
-	       }
-	</style>
+ <title>HTML5 Video Example-2</title>
+ <style type="text/css">
+        html, body {
+            color: #FFFFFF;
+            text-align: center;
+
+            background-color: #111;
+        }
+ </style>
 </head>
 <body>
     <h1> HTML Video Example-2</h1>
+
     <video controls style="width:640px;height:360px;" poster="https://thenewboston.com/images/forum/logos/145efe2aab7ca9959397d6344180b658.png">
         <source src="https://ia800201.us.archive.org/12/items/BigBuckBunny_328/BigBuckBunny_512kb.mp4"
             type="video/mp4">
@@ -1203,11 +1327,14 @@ containing subtitles, opening posters, etc. like this:
 ################################################################################
 
 # Video Streaming Server
+
 * [OpenCV – Stream video to web browser/HTML page](https://www.pyimagesearch.com/2019/09/02/opencv-stream-video-to-web-browser-html-page/)
 * [Live video streaming over network with OpenCV and ImageZMQ](https://www.pyimagesearch.com/2019/04/15/live-video-streaming-over-network-with-opencv-and-imagezmq/)
 * [Running a Raspberry Pi Webserver with Flask](https://raspberrypi-aa.github.io/session4/flask.html)
 * [Python Live Video Streaming Example](http://www.chioka.in/python-live-video-streaming-example/)
+
 * [Video Streaming with Flask](https://blog.miguelgrinberg.com/post/video-streaming-with-flask)
+
 * [Flask Video Streaming Revisited](https://blog.miguelgrinberg.com/post/flask-video-streaming-revisited)
 * [Series of Video Tutorals on Flask](https://www.youtube.com/playlist?list=PLLjmbh6XPGK4ISY747FUHXEl9lBxre4mM)
 * [Building a Microservice in Python](https://medium.com/@sonusharma.mnnit/building-a-microservice-in-python-ff009da83dac)
@@ -1217,6 +1344,7 @@ containing subtitles, opening posters, etc. like this:
 * [Live video streaming with open source Video.js](https://opensource.com/article/20/2/video-streaming-tools)
 
 ## Streaming Video Using Raspberry Pi Zero
+
 Despite the ease in which video files can be displayed within a HTML5 browser,
 as shown in the previous section,
 streaming to HTML5 in 2017 is still annoyingly hard.
@@ -1238,12 +1366,15 @@ To top it off, Dominic provde an [implementation for the Raspberry Pi][138].
 Procedures for this are in the following section.
 
 ### Step 0: Security via HTTPS
+
 Almost any website you visit today is protected by HTTPS.
 If yours isn’t yet, [it should be](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https).
 
 * [How to get HTTPS working on your local development environment in 5 minutes]()
 
+
 ### Step 0: Make Sure Camera is Working
+
 With all the moving parts on this approach,
 lets makes sure each component is working properly.
 The first and most fundamental component to check is the camera.
@@ -1262,7 +1393,9 @@ raspivid -o ~/tmp/video.h264 --timeout 5000 --width 1024 --height 768 --codec H2
 # play the video
 mplayer ~/tmp/video.h264
 ```
+
 ### Step 1: Streaming Using pistreaming
+
 First, lets try using a utility that the whole job for us.
 `pistreaming` claims low latency streaming of the Pi's camera module to any reasonably modern web browser.
 It make use of [JSMpeg][134], which is a Video Player written in JavaScript.
@@ -1282,6 +1415,7 @@ git clone https://github.com/waveform80/pistreaming.git
 # run the Python server script
 cd pistreaming
 python3 server.py
+
 ```
 
 Now fire up your favorite web-browser and point it at the Raspberry Pi where your
@@ -1299,6 +1433,7 @@ I think the dongle was drawing two much power (WiFi dongle gets hot to the touch
 
 
 ### Step 2: Install ffmpeg
+
 * [Stream video from camera using ffserver on Raspberry Pi?](https://superuser.com/questions/1048724/stream-video-from-camera-using-ffserver-on-raspberry-pi)
 
 [!ffmpeg](https://prupert.files.wordpress.com/2009/10/ffmpeg-logo.png)
@@ -1316,6 +1451,7 @@ This toolkit contains:
 Unfortunately, Debian Jessie and later [no longer include the ffmpeg package][140].
 To install it and make sure we have the latest and greatest ffmpeg,
 I choose to [install from source code][139].
+
 The procedure for this is below
 (Get some coffee, this will take over two hours on a Raspberry Pi Zero.):
 
@@ -1342,6 +1478,7 @@ sudo dpkg --install ffmpeg_*.deb
 ```
 
 ### Step 3: Install node, npm, and Web Server
+
 You need to install Node.js and npm, if not done already.
 Node is used to stream the video, via a websocket, to a HTML5 browser.
 
@@ -1361,6 +1498,7 @@ That's where you can use `nvm` to download, install, and use different versions 
 # remove any previously installed version of node.js
 sudo apt-get remove nodejs-legacy npm
 
+
 # install required packages
 sudo apt-get update
 sudo apt-get install build-essential libssl-dev
@@ -1374,9 +1512,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | b
 command -v nvm
 nvm --version
 
+
 # to find out the versions of Node.js that are available for installation
 nvm ls-remote
 ```
+
 When you install Node.js using `nvm`,
 the executable is called `node`.
 You can see the version currently being used by the shell by typing `node -v`.
@@ -1386,6 +1526,7 @@ You can see the version currently being used by the shell by typing `node -v`.
 nvm install stable
 
 # what version of node is currently being used
+
 node -v
 
 # list the multiple node.js versions installed
@@ -1400,6 +1541,7 @@ nvm alias default 6.0.0
 
 # can also switch to your default be using an alias
 nvm use default
+
 
 # to switch to and use another node.js version
 nvm use 4.2.6
@@ -1422,6 +1564,7 @@ $ which npm
 $ npm --version
 4.1.1
 ```
+
 For this streaming video solution using JSMpeg,
 you'll also need to install Node.js `http-server`.
 This web server will be use serve the static files
@@ -1430,12 +1573,14 @@ from which you can view the video in our browser.
 If you wanted to, any other web server would work as well (nginx, apache, etc.
 but `http-server` is very lightweight and simple to use.
 
+
 ```bash
 # install a node web server
 npm install -g http-server
 ```
 
 ### Step 4: Install JSMpeg
+
 Install the JSMpeg GitHub repository on the Raspberry Pi:
 
 ```bash
@@ -1448,11 +1593,14 @@ cd jsmpeg
 npm install ws
 ```
 
+
 ### Step 5: Start the Websocket Relay
+
 We'll now start things up and send our Raspberry Pi video to a web browser.
 First, you must start the Websocket relay.
 To do this, you must provide a password and a port for the incoming HTTP video stream from the camera.
 You also provide a Websocket port that can connect to with a browser to see the video.
+
 
 Within **one terminal window** on the Raspberry Pi, start up the Websocket relay:
 
@@ -1463,6 +1611,7 @@ $ node websocket-relay.js password 8081 8082
 Listening for incomming MPEG-TS Stream on http://127.0.0.1:8081/<secret>
 Awaiting WebSocket connections on ws://127.0.0.1:8082/
 ```
+
 Within a **second terminal window**, start your `http-server`
 so we can serve the `view-stream.html` to a browser:
 
@@ -1472,6 +1621,7 @@ cd ~/src/jsmpeg
 $ http-server
 Starting up http-server, serving ./
 Available on:
+
   http://127.0.0.1:8080
   http://192.168.1.27:8080
 Hit CTRL-C to stop the server
@@ -1494,6 +1644,7 @@ ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 -f mpegts -codec
 putting `modprobe bcm2835-v4l2` in `/etc/rc.local` so it runs on every boot automatically.
 
 ### Step 6: View Video in Browser
+
 Now, from anywhere on the _same network as the Raspberry Pi_
 (so still not fulfilling all my requirements stated above),
 fire up a browser to view the streaming video:
@@ -1511,7 +1662,9 @@ the WebSocket Relay (`websocket-relay.js`),
 and the web server to view the video (`http-server`)
 were all on the under powered Zero.
 
+
 ## Streaming Video But Distributing the Load
+
 My next task is to move some the work being done by the able, but weak Raspberry Pi Zero,
 to other more powerful processors.
 Ultimately, these other  processors will be entirely off the network where the RPi Zero resides.
@@ -1520,6 +1673,7 @@ since it must talk to the camera device driver,
 but the other processes do not.
 
 ### Step 1: Move WebSocket Relay and Web Server
+
 My plan is to us my beefer Linux box, `desktop`,
 and placed both the WebSocket Relay (`websocket-relay.js`),
 and the web server to view the video (`http-server`).
@@ -1539,6 +1693,8 @@ git clone https://github.com/phoboslab/jsmpeg.git
 ```
 
 ### Step 2: Startup WebSocket Relay and Web Server
+
+
 Like we did in the earlier,
 we'll get the relay and server running so they can support FFmpeg running on the RPi Zero.
 On `desktop` and within **one terminal window**, do the following:
@@ -1556,6 +1712,7 @@ Awaiting WebSocket connections on ws://127.0.0.1:8082/
 Still on `desktop`, within a **second terminal window**:
 
 ```bash
+
 # goto where  you keep the websocket relay
 cd ~/src/zetta-demo/tools/jspeg
 
@@ -1564,20 +1721,23 @@ $ http-server
 Starting up http-server, serving ./
 Available on:
   http://127.0.0.1:8080
-  http://192.168.1.200:8080
-  http://192.168.1.13:8080
+<http://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1>
+<http://weheart.digital/build-simple-live-streaming-solution/>
 Hit CTRL-C to stop the server
 ```
+
 
 Now on the Raspberry Pi Zero, within a **third terminal window**,
 I ran the following:
 
 ```bash
 # start ffmpeg to capture video and send it to the websocket relay
+
 ffmpeg -f v4l2 -framerate 25 -video_size 640x480 -i /dev/video0 -f mpegts -codec:v mpeg1video -s 640x480 -b:v 1000k -bf 0 http://desktop:8081/password
 ```
 
 ### Step 3: View Video in Browser
+
 Now, from anywhere on the _same network as the Raspberry Pi_
 (**but in principle**, my requirements can be meet since `desktop`
 doesn't have to be on the same LAN as the Raspberry Pi Zero),
@@ -1610,6 +1770,7 @@ Using `avconv` was slightly more demanding of CPU on the Raspberry Pi Zero
 but the latency was noticeable better.
 
 ### Step 4: Streaming from a File
+
 While the purpose of all this is to stream live video,
 as you can see here,
 you can easily do the same from a file.
@@ -1627,6 +1788,7 @@ google-chrome http://desktop:8080/view-stream.html
 
 
 ## Streaming Camera to a Public Web Page
+
 * [Secure Simple Remote Access for Camera Viewing](https://www.hackster.io/beame-io/secure-simple-remote-access-for-camera-viewing-64832e?utm_source=Hackster.io+newsletter&utm_campaign=b3faba5059-EMAIL_CAMPAIGN_2017_05_03&utm_medium=email&utm_term=0_6ff81e3e5b-b3faba5059-140225889&mc_cid=b3faba5059&mc_eid=9036129d51)
 
 
@@ -1635,16 +1797,21 @@ google-chrome http://desktop:8080/view-stream.html
 
 
 ### Stream Video from a Public Site via WebSocket
-http://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1
-http://weheart.digital/build-simple-live-streaming-solution/
+
+<http://www.earthcam.com/usa/newyork/timessquare/?cam=tsrobo1>
+
+<http://weheart.digital/build-simple-live-streaming-solution/>
 
 ### Hawkeye (web server streaming MJPEG)
+
 In short, Hawkeye is a simpler version of the MJPG-streamer but with HTTPS support.
 
 * [Hawkeye](https://igorpartola.com/projects/hawkeye/)
 * [Hawkeye](https://github.com/ipartola/hawkeye)
 
+
 ### MJPG-streamer
+
 * [How to build and run MJPG-Streamer on the Raspberry Pi](https://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi)
 * [Streaming OpenCV Output Through HTTP/Network with MJPEG](https://ariandy1.wordpress.com/2013/04/07/streaming-opencv-output-through-httpnetwork-with-mjpeg/)
 * [HOW TO STREAM THE PICAMERA TO YOUR BROWSER](https://desertbot.io/blog/how-to-stream-the-picamera)
@@ -1699,17 +1866,20 @@ By the way, `mjpg-streamer` can also be used on Ubuntu,
 just need to use another plugin.
 An example is given here:
 
+
 ```bash
 # change directories to where the plugins are located or provide path in environment
 LD_LIBRARY_PATH=/home/jeff/src/mjpg-streamer/mjpg-streamer-experimental ; mjpg_streamer -i "input_uvc.so -f 15 -r 1280x720" -o "output_http.so -w www -p 8090"
 
 LD_LIBRARY_PATH=/home/jeff/src/mjpg-streamer/mjpg-streamer-experimental ; mjpg_streamer -i "input_uvc.so -q 85 -f 15 -r 1280x960" -o "output_http.so -w www -p 8090"
 
+
 # streaming video in browser
 google-chrome http://127.0.0.1:8090/?action=stream
 ```
 
 ################################################################################
+
 * [LOCK UP YOUR RASPBERRY PI WITH GOOGLE AUTHENTICATOR](https://hackaday.com/2016/09/30/lock-up-your-raspberry-pi-with-help-from-google/)
 * [EXPOSE YOUR RASPBERRY PI ON ANY NETWORK](http://hackaday.com/2016/09/20/expose-your-raspberry-pi/)
 * [HOW TO RUN A PAGEKITE SERVER TO EXPOSE YOUR RASPBERRY PI](http://hackaday.com/2016/09/21/how-to-run-a-pagekite-server-to-expose-your-raspberry-pi/)
@@ -1717,8 +1887,10 @@ google-chrome http://127.0.0.1:8090/?action=stream
 * [Open Source PageKite](https://pagekite.net/wiki/OpenSource/)
 * [NeoRouter](http://www.neorouter.com/products-nrfree)
 ################################################################################
+<https://github.com/webrtcHacks>
 
 ## Step X: Streaming Camera to the Internet
+
 So far, using the Raspberry Pi camera module,
 I have streamed video on my local network
 but I wish to do this across the Internet.
@@ -1761,8 +1933,10 @@ Now fire up the camera and use `ngrok` to stream the camera's live video to a
 to the URL provided by `ngrok`:
 
 ```bash
+
 # start streaming the video on the raspberry pi zero
 LD_LIBRARY_PATH=/home/pi/src/mjpg-streamer/mjpg-streamer-experimental ; mjpg_streamer -i "input_raspicam.so -rot 90 -ex night -ifx none awb auto" -o "output_http.so -w www -p 8090"
+
 
 # forward the video to the internet via ngrok
 ngrok http 8090
@@ -1771,20 +1945,26 @@ ngrok http 8090
 google-chrome http://be4fac06.ngrok.io/?action=stream
 ```
 
-* [How to Remote Control Your Raspberry Pi Camera from the Web](https://www.tomshardware.com/how-to/raspberry-pi-remote-control-camera-from-web)
+<https://www.voip-info.org/wiki/view/WebRTC+vs+VoIP>from the Web](<https://www.tomshardware.com/how-to/raspberry-pi-remote-control-camera-from-web>)
+<https://temasys.io/difference-webrtc-voip/>
 
 ## Step X: Potential Alternates for Streaming Camera
+
 I did a considerable amount of research to identify `mjepg-streamer` as my solution.
 It does appear to be the right choose, given all my constraint / requirements.
 On the other hand, changing anyone of my assumtions could make it a poor choose.
-Some of the alternatives that I investigate are documented here.
+<https://blog.red5pro.com/rtmp-webrtc-which-protocol-live-streaming-app/>
 
 ### WebRTC
+
+<http://thevoipreport.com/article/skype-vs-webrtc/>
+
 * [Someone made a $30 Raspberry Pi live camera, and you can too](https://www.xda-developers.com/30-raspberry-pi-live-camera/)
 * [Tzu Huan Tai's WebRTC Camera Stack Turns a Raspberry Pi Zero 2 W Into a Low-Latency Streamer](https://www.hackster.io/news/tzu-huan-tai-s-webrtc-camera-stack-turns-a-raspberry-pi-zero-2-w-into-a-low-latency-streamer-30a49006f181)
-
+<https://getvoip.com/blog/2013/02/27/sip-webrtc-is-there-a-difference/>
 * [WebRTC — The technology that powers Google Meet/Hangout, Facebook Messenger and Discord](https://medium.com/swlh/webrtc-the-technology-that-powers-google-meet-hangout-facebook-messenger-and-discord-cb926973d786)
 * [All the ways to send a video file over WebRTC](https://webrtchacks.com/all-the-ways-to-send-a-video-file-over-webrtc/)
+
 * [WebRTC Fundementals](https://telecom.altanai.com/webrtc/)
 * [WebRTC Welcome, Overview, and Update](https://www.youtube.com/watch?v=b217XBGsiZ8&list=PL4_h-ulX5eNf-ZShwxvzd6jTyFagwjh0C&index=1)
 * [Building a Raspberry Pi 2 WebRTC camera](https://www.rs-online.com/designspark/building-a-raspberry-pi-2-webrtc-camera)
@@ -1794,7 +1974,7 @@ Some of the alternatives that I investigate are documented here.
 * [webrtcH4cKS: ~ AIY Vision Kit Part 1: TensorFlow Computer Vision on a Raspberry Pi Zero](https://webrtchacks.com/aiy-vision-kit-tensorflow-uv4l-webrtc/)
 * [webrtcH4cKS: ~ Part 2: Building a AIY Vision Kit Web Server with UV4L](https://webrtchacks.com/aiy-vision-kit-uv4l-web-server/)
 * [Tensorflow on edge, or — Building a “smart” security camera with a Raspberry Pi](https://towardsdatascience.com/tensorflow-on-edge-or-building-a-smart-security-camera-with-a-raspberry-pi-5bb2fc039b0f)
-* https://github.com/webrtcHacks
+* <https://github.com/webrtcHacks>
 * [Build a Webcam Communication App using WebRTC](https://blog.bitsrc.io/build-a-webcam-communication-app-using-webrtc-9737384e84be)
 * [Private Home Surveillance with the WebRTC DataChannel](https://webrtchacks.com/private-home-surveillance-with-the-webrtc-datachannel/)
 * [Accelerated Computer Vision inside a WebRTC Media Server with Intel OWT](https://webrtchacks.com/accelerated-computer-vision-inside-a-webrtc-media-server-with-intel-owt/)
@@ -1808,6 +1988,7 @@ The vision of WebRTC is a world where your phone, TV, and computer
 could all communicate on a common platform where it is
 easy to add video chat and peer-to-peer data sharing to your web application.
 WebRTC is available now in Google Chrome, Opera, and Firefox.
+
 A good place to see how simple video can be is to open
 `[apprtc.appspot.com](https://apprtc.appspot.com/)`
 or see the [WebRTC samples][74]
@@ -1824,24 +2005,30 @@ start with these videos that give introduction and motivation for WebRTC:
 * [WebRTC Demo - An Introduction to WebRTC](https://www.youtube.com/watch?v=g8fRAYOg6eg)
 * [WebRTC for Beginners](https://www.youtube.com/watch?v=RvJuMJUSw8U&t=123s)
 
+
 To see how this works, and really understand the power of the WebRTC protocol,
 spend some time with the multiple demos found on the [WebRTC samples][74] page.
 
 >**NOTE:** If you USB camera stops working or generally misbehaves while using WebRTC,
-a frustrating solution is to restart your Linux.
+
+a frustrating s<http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-websockets-rtmp-adaptive-bitrate-streaming/>
 As a simpler alternative,
 I have found that reloading the kernel drivers can clear most problems:
+
 >
 ```bash
 # reload the kernel video driver
 sudo rmmod uvcvideo
 sudo modprobe uvcvideo
+
 ```
 
 Let’s have some more fun with getUserMedia by creating a simple mirror application and determining its frame rate.
+
 * [webrtcH4cKS: ~ getUserMedia Mirrors and Frame Rates](https://webrtchacks.com/mirror-framerate/)
 
 #### WebRTC vs Websockets
+
 WebRTC is designed for high-performance, high quality communication of video, audio and arbitrary data. In other words, for apps exactly like what you describe.
 
 WebRTC apps need a service via which they can exchange network and media metadata, a process known as signaling. However, once signaling has taken place, video/audio/data is streamed directly between clients, avoiding the performance cost of streaming via an intermediary server.
@@ -1849,26 +2036,33 @@ WebRTC apps need a service via which they can exchange network and media metadat
 WebSocket on the other hand is designed for bi-directional communication between client and server. It is possible to stream audio and video over WebSocket (see here for example), but the technology and APIs are not inherently designed for efficient, robust streaming in the way that WebRTC is.
 
 #### WebRTC vs VoIP
-https://www.voip-info.org/wiki/view/WebRTC+vs+VoIP
-https://temasys.io/difference-webrtc-voip/
+
+<https://www.voip-info.org/wiki/view/WebRTC+vs+VoIP>
+<https://temasys.io/difference-webrtc-voip/><http://hackaday.com/2015/06/13/wifibroadcast-makes-wifi-fpv-video-more-like-analog/>
 WebRTC and V.VoIP are similar in that both aim to enhance the user experience and enable any consumer device (whether it be mobile phone, fax, internet etc.) to effortlessly connect from anywhere and on any network internationally.
 
 The primary difference between the two services is that VoIP uses a multitude of variants such as VoIP over DSL/cable modem, voice over Wi-Fi/3G (VoWiFi/3G), voice over LTE (VoLTE), and Rich Communication Suite (RCS), while WebRTC is solely focused on browser-based communications.
 
 #### WebRTC vs RTMP
-https://blog.red5pro.com/rtmp-webrtc-which-protocol-live-streaming-app/
+
+<https://blog.red5pro.com/rtmp-webrtc-which-protocol-live-streaming-app/>
 
 #### WebRTC vs Skype
-http://thevoipreport.com/article/skype-vs-webrtc/
+
+<h<https://dev.px4.io/en/wifibroadcast.html>-webrtc/>
+<https://github.com/svpcom/wifibroadcast>
 
 #### WebRTC vs SIP
-https://getvoip.com/blog/2013/02/27/sip-webrtc-is-there-a-difference/
+
+<https://getvoip.com/blog/2013/02/27/sip-webrtc-is-there-a-difference/>
 
 ### janus
+
 [!janus](https://janus.conf.meetecho.com/janus-logo.png)
 WebRTC has been conceived as a peer-to-peer solution:
 that is, while signalling goes through a web server/application,
 the media flow is peer-to-peer.
+
 Nothing needed in the middle and only two participants.
 Even in a simple peer-to-peer scenario,
 one of the two involved parties (or maybe even both) doesn’t need to be a browser,
@@ -1876,6 +2070,7 @@ and may very well be a non-browser application.
 So what if the application is "dumb" and doesn't know WebRTC?
 Such an application will required a WebRTC Gateway:
 one side talks WebRTC, while the other still WebRTC or something entirely different.
+
 (See the post "[What is a WebRTC Gateway anyway?][78]").
 A WebRTC Gateway is particularly useful for the many legacy infrastructures out there,
 that may benefit from a WebRTC-enabled kind of access.
@@ -1888,6 +2083,7 @@ More importantly, you could create a more powerful user experince.
 (See the presentation "[Janus: a general purpose WebRTC gateway][79]".)
 
 ### motion
+
 [!motion](http://www.lavrsen.dk/foswiki/pub/Motion/WebPreferences/motion-trans.gif)
 [`motion`][109] is a program that monitors the video signal from one or more cameras
 and is able to detect if a significant part of the picture has changed.
@@ -1904,18 +2100,23 @@ but the articles "[How to Operate Linux Spycams With Motion][118]" and
 * [motionEye in Docker for Home Assistant on Synology](https://www.youtube.com/watch?v=0JdnJj_dTL4&feature=youtu.be)
 
 ### Camera Human Recognition
+
 * [Building a Motion Activated Security Camera with the Raspberry Pi Zero](http://hackaday.com/2017/02/06/motion-detecting-camera-recognizes-humans-using-the-cloud/)
 * [Smarten up your Pi Zero Web Camera with Image Analysis and Amazon Web Services (Part 1)](https://utbrudd.bouvet.no/2017/01/10/smarten-up-your-pi-zero-web-camera-with-image-analysis-and-amazon-web-services-part-1/)
 
 ## WebSockets
-Nice writeup - http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-websockets-rtmp-adaptive-bitrate-streaming/
+
+
+Nice writeup - <http://www.neotys.com/blog/testing-tips-for-todays-tech-html5-websockets-rtmp-adaptive-bitrate-streaming/>
 
 # Real-Time Video Streaming Between Camera and Android Device
+
 * [3 Possible Ways for Real-Time Video Streaming Between Camera and Android Device](https://www.intorobotics.com/3-possible-ways-real-time-video-streaming-camera-android-device/)
 * [How to Turn An Old Android Phone into a Networked Security Camera](https://www.howtogeek.com/139373/how-to-turn-an-old-android-phone-into-a-networked-security-camera/)
-
+<https://time.gov/>
 
 # First Person View (FPV)
+
 Drones typically use old school analog video transmission
 for longer-range frist person viewing (FPV)
 as [early as the 1980s][33].
@@ -1932,7 +2133,7 @@ than it is to build antennas that must receive and transmit symmetrically.
 
 [Befinitiv] wrote wifibroadcast to give his WiFi FPV video system some of the virtues of analog broadcast.
 
-In particular, two Raspberry Pis combined with WiFi radios that can be put into monitor mode enable him to custom tailor the packets that get sent, allowing his rig to sidestep WiFi’s acknowledgment scheme, add in a custom retransmission routine that helps limit lost packets, and even allow multiple receivers to listen in to the same signal so that a diversity reception scheme could be implemented. - http://hackaday.com/2015/06/13/wifibroadcast-makes-wifi-fpv-video-more-like-analog/
+In particular, two Raspberry Pis combined with WiFi radios that can be put into monitor mode enable him to custom tailor the packets that get sent, allowing his rig to sidestep WiFi’s acknowledgment scheme, add in a custom retransmission routine that helps limit lost packets, and even allow multiple receivers to listen in to the same signal so that a diversity reception scheme could be implemented. - <http://hackaday.com/2015/06/13/wifibroadcast-makes-wifi-fpv-video-more-like-analog/>
 
 
 * [Wifibroadcast – Analog-like transmission of live video data](https://befinitiv.wordpress.com/wifibroadcast-analog-like-transmission-of-live-video-data/)
@@ -1941,8 +2142,8 @@ In contrast to a normal wifi connection wifibroadcast tries to mimic the advanta
 Note: Before using wifibroadcast you have to check if the regulatories of your country allow such a use of wifi hardware.
 * [(True) Unidirectional Wifi broadcasting of video data for FPV](https://befinitiv.wordpress.com/2015/01/25/true-unidirectional-wifi-broadcasting-of-video-data-for-fpv/)
 * [EZ-WifiBroadcast](https://github.com/bortek/EZ-WifiBroadcast/wiki)
-* https://dev.px4.io/en/wifibroadcast.html
-* https://github.com/svpcom/wifibroadcast
+* <https://dev.px4.io/en/wifibroadcast.html>
+* <https://github.com/svpcom/wifibroadcast>
 
 * [FPV for dummies. All you need to know about FPV Racing Drones](https://coastlinerobotics.com/blogs/fpv-racing-drones-tutorials/60037699-fpv-for-dummies-all-you-need-to-know-about-fpv-racing-drones)
 * [Drones and wireless video](http://www.datarespons.com/drones-wireless-video/)
@@ -1952,6 +2153,7 @@ Note: Before using wifibroadcast you have to check if the regulatories of your c
 * [UDP Live Image Streaming](https://github.com/chenxiaoqino/udp-image-streaming/)
 
 ## Streaming Oneway
+
 Sending arbitrary IEEE 802.11 frames can be useful in
 unidirectional long-distance communication or low-overhead data transmission.
 
@@ -1959,11 +2161,13 @@ unidirectional long-distance communication or low-overhead data transmission.
 * [unidirectional long-distance communication](https://github.com/Jeija/esp32free80211)
 
 # Low-Latency Live Streaming
+
 I want to stream 720p video (or any quality for that matter)
 from one computer to another using `ffmpeg`, `netcat` and other such tools,
 with a latency below 100ms, which is good enough for many games.
 Streaming low-latency live content is quite hard,
 because most video codecs are designed to achieve the best compression and not best latency.
+
 This makes sense, because most movies are encoded once and decoded often,
 so it is a good trade-off to use more time for the encoding than the decoding.
 
@@ -1983,6 +2187,7 @@ I found some blog posts that explain live-streaming in depth:
 
 * [Low Delay Video Streaming on the Internet of Things Using Raspberry Pi](https://www.mdpi.com/2079-9292/5/3/60/pdf)
 * [Latency analysis of the raspberry camera](https://befinitiv.wordpress.com/2015/09/10/latency-analysis-of-the-raspberry-camera/)
+
 * [Raspberry Pi Camera Latency Testing – Part 1](https://sparkyflight.wordpress.com/2014/02/22/raspberry-pi-camera-latency-testing-part-1/) and [Part 2](https://sparkyflight.wordpress.com/2014/02/22/raspberry-pi-camera-latency-testing-part-2/)
 * [Using Raspivid for low-latency Pi Zero W Video Streaming](https://dantheiotman.com/2017/08/23/using-raspivid-for-low-latency-pi-zero-w-video-streaming/)
 * [Low-Latency Live Streaming your Desktop using ffmpeg](http://fomori.org/blog/?p=1213)
@@ -1993,6 +2198,7 @@ I found some blog posts that explain live-streaming in depth:
 * [Modern way to stream H.264 from the Raspberry Cam](https://raspberrypi.stackexchange.com/questions/26675/modern-way-to-stream-h-264-from-the-raspberry-cam)
 
 ## Measuring Latency
+
 Here is a simple Python script that will output the current time
 in milliseconds to help measure the latency
 Using this script while you encode and decode the stream
@@ -2000,10 +2206,11 @@ in two different terminal windows but on the same your desktop.
 Making a screenshot of the desktop ([use `Prt Scrn` or `Print Screen` key][31]),
 take the differance of the two images,
 and it gives you the total system latency at one millisecond resolution.
-If you only need one second resolution, you could use https://time.gov/ .
+If you only need one second resolution, you could use <https://time.gov/> .
 
 ```python
 #!/usr/bin/python3
+
 
 '''
 Here is a simple Python script that will output the current time in milliseconds
@@ -2028,6 +2235,7 @@ NORMAL = '\033[0m'
 RED = '\033[91m'
 
 
+
 def signal_handler(signal, frame):
     print(NORMAL)
     os.system('setterm -cursor on')
@@ -2038,6 +2246,7 @@ signal.signal(signal.SIGINT, signal_handler)
 stime = int(time.time() * 1000)
 
 # clear terminal and hide the cursor so not to obscure millisecond counter
+
 os.system('clear')
 os.system('setterm -cursor off')
 
@@ -2051,12 +2260,15 @@ while True:
 
 This may not be totally accurate because a snapshot of the desktop
 might occur just before a new image is rendered by the X Window System,
+
 but should not be too far off.
 
 ## OK Latency
+
 This example use x264 encoding and requires 3Mbit/s of bandwidth.
 For further x264 options check out this [guide][13].
 If you want to change them for your scenario,
+
 you always have to make sure that your `vbv-bufsize = vbv-maxrate / framerate`.
 So in this scenario, for 3000 vbv-maxrate, I chose a vbv-bufsize of 100 at 30 FPS.
 
@@ -2073,15 +2285,18 @@ ffmpeg \
 # on the client
 nc <server_ip_address> 9000 | mplayer -benchmark -
 ```
+
 ffmpeg -f x11grab  -s 1280x720 -framerate 30 -i :1.0 -c:v libx264 -preset veryfast -tune zerolatency -pix_fmt yuv444p -x264-params crf=20:vbv-maxrate=3000:vbv-bufsize=100:intra-refresh=1:slice-max-size=1500:keyint=30:ref=1 -f mpegts - | nc -l -p 9000
 
 ffmpeg -f x11grab  -s 1280x720 -framerate 30 -i :1.0 -c:v libx264 -preset veryfast -tune zerolatency -pix_fmt yuv444p -f mpegts - | nc -l -p 9000
 
+
 Here is what the options are doing:
 
 * [`-f x11grab`][14] -  The `-f` option forces input (or output) file format. (Format is normally auto detected for input files and guessed from the file extension for output files) This device allows one to capture a region of an X11 display. Use `ffmepg -formats` to see all available formats.
+
 * [`-s 1280x720`][15] - Set the output frame size (width x height)
-* [`-framerate 30`][14] - Specifies the rate at which frames will be grabbed from the X11 display
+[`-framerate 30`][14] - Specifies the rate at which frames will be grabbed from the X11 display
 * [`-i :0.0`][16] - Input URL but in this case its a reference to the X11 display
 * [`-c:v libx264`][17] - This encoder the video stream (because of the `:v`) for the input (because its used before an output file)
 * [`-preset veryfast`][18] - Presets affect the encoding speed. Using a slower preset gives you better compression, whereas faster presets give you worse compression. Values can be `ultrafast`, `superfast`, `veryfast`, `faster`, `fast`, `medium` (default), `slow` and `veryslow`.
@@ -2096,6 +2311,7 @@ Always use the `-benchmark` flag on the client-side.
 You might find that `-framedrop` helps as well, especially on slower clients.
 
 ## Best Latency
+
 Using mpeg2video encoding, you can achieve almost no noticeable latency,
 but the bandwidth requirements go through the roof,
 so this is only an option when you have either very fast WiFi or a LAN.
@@ -2104,7 +2320,6 @@ Using `-q:v 20` gives you 100 to 150 milliseconds of latency.
 Increasing the `-q:v` setting will lower the quality and save some bandwidth and vice versa,
 setting it to a lower value will increase quality and bandwidth.
 Setting the quality to 2 gives excellent image, around 200 millisecond of latency,
-but uses something around 150Mbit/s!
 
 **NOTE: x11grab will not work with Wayland Display Manager.**
 
@@ -2118,6 +2333,7 @@ ffmpeg \
 # on the client
 nc <host_ip_address> 9000 | mplayer -benchmark -
 ```
+
 ffmpeg -f x11grab -s 1280x720 -framerate 30 -i :1.0 -c:v mpeg2video -q:v 20 -pix_fmt yuv420p -g 1 -threads 2 -f mpegts - | nc -l -p 9000
 
 Here is what the options are doing:
@@ -2129,6 +2345,7 @@ Here is what the options are doing:
 * [`-threads 2`][] -
 
 ## Screen Recording Using FFmpeg
+
 **NOTE: x11grab will not work with Wayland Display Manager.**
 
 You can test if your running with Wayland via `echo $XDG_SESSION_TYPE`.
@@ -2141,14 +2358,7 @@ ffmpeg -f alsa -ac 2 -i hw:0,0 -f x11grab -r 30 -s $(xwininfo -root | grep 'geom
 * [Green Recorder 2.0 Released, Lets You Screen Record Wayland](https://www.omgubuntu.co.uk/2017/03/green-recorder-wayland-screen-recorder)
 * [A simple screen recorder for Linux desktop. Supports Wayland & Xorg](https://github.com/foss-project/green-recorder)
 
-## Open Broadcast Studio (OBS)
-[Open Broadcaster Software (OBS)](https://obsproject.com/)
-is a free open source software suite that is used for recording and live streaming. OBS is used to capture and record your screen while also capturing audio.
 
-* [Create your own video streaming server with Linux](https://opensource.com/article/19/1/basic-live-video-streaming-server)
-* [How I stream video with OBS and WebSockets](https://opensource.com/article/20/6/obs-websockets-streaming)
-
-## WebEx Screen-Sharing Hack
 If you like me and use WebEx for desktop sharing on Windows,
 you will be disappointed to know that WebEx Linux versions do not support screen sharing.
 You might be able to solve this with a simple hack.
@@ -2169,12 +2379,11 @@ Got this idea from
 "[24 Things I’ve Learned As A Software Developer Living On Ubuntu For A Weekish](https://hackernoon.com/24-things-learned-as-software-developer-on-ubuntu-for-a-weekish-5b7b0da5d4b5)".
 
 # Smartphone Camera Viewer
-* [RPi Camera Viewer for Android](http://frozen.ca/rpi-camera-viewer-for-android/)
-* [RPi Camera Viewer for iOS](http://frozen.ca/rpi-camera-viewer-for-ios/)
 
 ## Augment Reality
+
 * [AR.js: Efficient Augmented Reality for the Web](https://uploadvr.com/ar-js-efficient-augmented-reality-for-the-web/)
-    * [Efficient Augmented Reality for the Web - 60fps on mobile!](https://github.com/jeromeetienne/ar.js)
+  * [Efficient Augmented Reality for the Web - 60fps on mobile!](https://github.com/jeromeetienne/ar.js)
 
 
 
@@ -2183,9 +2392,7 @@ Got this idea from
 [03]:http://www.autodidacts.io/convert-media-files-like-a-geek-a-guide-to-video-transcoding-with-avconv-ffmpeg/
 [04]:https://github.com/rg3/youtube-dl/issues/8622
 [05]:https://gstreamer.freedesktop.org/documentation/installing/on-linux.html
-[06]:https://www.raspberrypi.org/blog/zero-grows-camera-connector/
 [07]:https://www.raspberrypi.org/blog/camera-board-available-for-sale/
-[08]:https://www.raspberrypi.org/blog/new-8-megapixel-camera-board-sale-25/
 [09]:https://en.wikipedia.org/wiki/USB_video_device_class
 [10]:https://en.wikipedia.org/wiki/Video4Linux
 [11]:http://trac.gateworks.com/wiki/linux/v4l2
@@ -2196,9 +2403,7 @@ Got this idea from
 [16]:https://ffmpeg.org/ffmpeg.html#toc-Synopsis
 [17]:https://ffmpeg.org/ffmpeg.html#Main-options
 [18]:https://trac.ffmpeg.org/wiki/Encode/H.264#a2.Chooseapresetandtune
-[19]:https://superuser.com/questions/564402/explanation-of-x264-tune
 [20]:https://ffmpeg.org/ffmpeg.html#Advanced-Video-options
-[21]:https://ffmpeg.org/ffmpeg.html#Generic-options
 [22]:https://trac.ffmpeg.org/wiki/Encode/H.264#Overwritingdefaultpresetsettings
 [23]:http://help.encoding.com/knowledge-base/article/advanced-configuration-options-for-the-libx264-video-codec/
 [24]:https://stackoverflow.com/questions/11762464/what-is-difference-between-mp4-and-mpegts
@@ -2223,30 +2428,12 @@ Got this idea from
 [43]:
 [44]:
 [45]:http://petapixel.com/2016/04/25/raspberry-pi-camera-gets-first-ever-upgrade-now-8mp/
-[46]:https://www.raspberrypi.org/blog/new-8-megapixel-camera-board-sale-25/
-[48]:http://www.sony.net/Products/SC-HP/new_pro/april_2014/imx219_e.html
-[49]:http://www.sony.net/Products/SC-HP/IS/sensor1/technology/exmor-r.html
-[50]:https://en.wikipedia.org/wiki/1080p
-[51]:https://en.wikipedia.org/wiki/720p
 [52]:https://www.modmypi.com/download/raspicamdocs.odt
 [53]:http://www.modmypi.com/blog/raspberry-pi-camera-board-raspivid-command-list
 [54]:http://www.modmypi.com/blog/raspberry-pi-camera-board-raspistill-command-list
-[55]:http://picamera.readthedocs.io/en/release-1.12/
-[56]:https://github.com/waveform80/picamera
-[57]:https://www.raspberrypi.org/magpi-issues/MagPi45.pdf
 [58]:https://github.com/waveform80/pistreaming
-[59]:http://www.pyimagesearch.com/2015/03/30/accessing-the-raspberry-pi-camera-with-opencv-and-python/
 [60]:https://www.linux.com/learn/how-operate-linux-spycams-motion
-[61]:https://learn.adafruit.com/li-ion-and-lipoly-batteries
-[62]:https://www.adafruit.com/products/259
-[63]:http://www.oreilly.com/openbook/linag2/book/ch11.html
-[64]:http://hintshop.ludvig.co.nz/show/persistent-names-usb-serial-devices/
 [65]:http://www.mikestreety.co.uk/blog/raspberry-pi-timelapse
-[66]:http://www.computerhope.com/unix/screen.htm
-[67]:http://bglug.ca/articles/nat_and_ip_masquerade.pdf
-[68]:https://www.adafruit.com/products/3157
-[69]:https://www.amazon.com/Micro-USB-OTG-Adapter-Cable/dp/B00D8YZ2SA
-[70]:https://www.amazon.com/gp/product/B015GZOHKW/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1
 [71]:https://webrtc.org/
 [72]:https://webrtc.org/start/
 [73]:https://www.html5rocks.com/en/tutorials/webrtc/basics/
@@ -2267,10 +2454,6 @@ Got this idea from
 [88]:
 [89]:
 [90]:
-[91]:https://ffmpeg.org/ffprobe.html
-[92]:https://ffmpeg.org/ffplay.html
-[93]:https://ffmpeg.org/ffserver.html
-[94]:https://ffmpeg.org/ffmpeg.html
 [95]:https://ffmpeg.org/documentation.html
 [96]:https://github.com/jacksonliam/mjpg-streamer
 [97]:https://github.com/foosel/OctoPrint/wiki/MJPG-Streamer-configuration
@@ -2296,7 +2479,6 @@ Got this idea from
 [117]:http://www.onlinevideo.net/2011/09/what-video-formats-should-you-stream-heres-how-to-decide/
 [118]:https://www.linux.com/learn/how-operate-linux-spycams-motion
 [119]:https://www.maketecheasier.com/setup-motion-detection-webcam-ubuntu/
-[120]:http://www.mrhobbytronics.com/raspberry-pi-zero-reset-switch/
 [121]:
 [122]:http://www.pcmag.com/encyclopedia/term/65186/fragmented-mp4
 [123]:https://en.wikipedia.org/wiki/Dynamic_Adaptive_Streaming_over_HTTP

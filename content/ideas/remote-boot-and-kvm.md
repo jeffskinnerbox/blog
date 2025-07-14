@@ -14,15 +14,17 @@ Version:      0.0.0
 
 
 A KVM enables users to remotely control a computer's keyboard, video, and mouse,
-allowing for remote administration and troubleshooting. 
+allowing for remote administration and troubleshooting.
 
 Use Cases:
-* Remote BIOS Settings: Adjust BIOS settings on a server from a remote location. 
-* OS Installation: Install a new operating system on a machine without physically connecting a monitor and keyboard. 
-* Remote Troubleshooting: Address boot failures and other issues remotely. 
-* Virtual Media: Mount virtual media (like ISO files) to a remote target computer. 
+
+* Remote BIOS Settings: Adjust BIOS settings on a server from a remote location.
+* OS Installation: Install a new operating system on a machine without physically connecting a monitor and keyboard.
+* Remote Troubleshooting: Address boot failures and other issues remotely.
+* Virtual Media: Mount virtual media (like ISO files) to a remote target computer.
 
 JetKVM
+
 * [Why You Need This: The Jet KVM - Take Control of ANY PC!](https://www.youtube.com/watch?v=ZhruWAaHcgg)
 
 
@@ -56,6 +58,7 @@ JetKVM
 
 
 # JetKVM
+
 [This KickStarter project](https://www.kickstarter.com/projects/jetkvm/jetkvm),
 the [JetKVM](https://jetkvm.com/) is a fast, open-source KVM over IP solution for managing any computer, server, and workstations remotely.
 It handles boot failures, install new OSes, adjust BIOS settings or simply control the computer without needing to be physically present.
@@ -83,6 +86,7 @@ How to self host the JetKVM Cloud feature - [JetKVM: Promises Made, Promises Kep
 
 
 # TinyPilot
+
 A modern, open-source Keyboard, Video, Mouse (KVM) over IP.
 
 * [What's New in TinyPilot's September 2023 Update](https://tinypilotkvm.com/blog/whats-new-in-2023-09)

@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # find
+
 * [Linux find command](https://www.computerhope.com/unix/ufind.htm)
 * [How to use FIND in Linux](https://opensource.com/article/18/4/how-use-find-linux)
 
@@ -36,15 +37,19 @@ grep -Ril "text-to-find-here" .
 ```
 
 # locate
-https://www.computerhope.com/unix/ulocate.htm
+
+<https://www.computerhope.com/unix/ulocate.htm>
 
 # whereis
-https://www.computerhope.com/unix/uwhereis.htm
+
+<https://www.computerhope.com/unix/uwhereis.htm>
 
 # which
-https://www.computerhope.com/unix/uwhich.htm
+
+<https://www.computerhope.com/unix/uwhich.htm>
 
 # Fuzzy Finder - fzf
+
 * [Why you should be using fzf, the command line fuzzy finder](https://www.freecodecamp.org/news/fzf-a-command-line-fuzzy-finder-missing-demo-a7de312403ff/)
 * [A Quick Introduction To fzf (Interactive Command-Line Fuzzy Finder)](https://www.linuxuprising.com/2021/03/a-quick-introduction-to-fzf-interactive.html)
 * [Find anything you need with fzf, the Linux fuzzy finder tool](https://www.redhat.com/sysadmin/fzf-linux-fuzzy-finder)
@@ -78,6 +83,7 @@ find . -iname '*.html' -user www-data -exec chown www-data:www-data {} \;
 ```
 
 # GNU Parallel
+
 Sometimes we use find on deep and complex directory structures.
 Such searches can run for a long time.
 Can we speed up the find command?

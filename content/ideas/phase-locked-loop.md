@@ -36,6 +36,7 @@ with the phase of the input periodic signal, adjusting the oscillator to keep th
 [Hackaday: Phase Lock Loop](https://hackaday.com/tag/pll/)
 
 # 4046 PLL
+
 * [CD4046 circuit datasheet (phase-locked loop)](https://www.eleccircuit.com/cd4046-datasheet-phase-locked-loop/)
 * [Phase-Locked Loops for High-Frequency Receivers and Transmitters - Part 1](https://www.analog.com/en/analog-dialogue/articles/pll-for-high-frequency-receivers-and-transmitters-1.html#)
 * [Phase-Locked Loops for High-Frequency Receivers and Transmitters - Part 2](https://www.analog.com/en/analog-dialogue/articles/pll-for-high-frequency-receivers-and-transmitters-2.html)

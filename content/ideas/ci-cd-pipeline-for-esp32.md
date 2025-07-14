@@ -1,5 +1,5 @@
 !--
-Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Maintainer:   <jeffskinnerbox@yahoo.com> / <www.jeffskinnerbox.me>
 Version:      0.0.0
 -->
 
@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # CI/CD for Website (aka my blog)
+
 * [How to automatically deploy a Pelican blog with GitLab CI & Traefik](https://simonklug.de/ci-deploy-pelican)
 * [How I do automated accessibility testing for my website](https://opensource.com/article/23/2/automated-accessibility-testing)
 * [Example build pelican blogs with gitlab-ci](https://jugit.fz-juelich.de/docker-images/gitlabci-pelican)
@@ -59,6 +60,7 @@ Move to Hugo???
 * [no migration tools for Pelican on Hugo website ... what does that tell you](https://gohugo.io/tools/migrations/)
 
 ## Rundeck
+
 Rundeck is an open source software used to quickly automate manual tasks.
 Use it to create workflows consisting of commands, scripts, and APIs.
 These workflows might include software management, configurations, and scheduled events.
@@ -93,9 +95,11 @@ Rundeck logs these activities for transparency and troubleshooting.
 
 
 # CI/CD for Hardware (aka ESP8266 & ESP32)
+
 * [Hardware-in-the-Loop and Continuous Integration - how do they fit together?](https://www.elektormagazine.com/news/hardware-in-the-loop-and-continuous-integration-how-do-they-fit-together)
 
 # Earthly
+
 Earthly is a CI/CD framework that allows you to develop pipelines locally and run them anywhere. Earthly leverages containers for the execution of pipelines. This makes them self-contained, repeatable, portable, and parallel.
 
 * [Earthly](https://earthly.dev/)
@@ -104,15 +108,19 @@ Earthly is a CI/CD framework that allows you to develop pipelines locally and ru
 * []()
 
 # Codefresh
-https://codefresh.io/pricing/
+
+<https://codefresh.io/pricing/>
 
 # FlowForge
+
 * [FlowForge](https://flowforge.com/)
 
 # CircleCI
+
 * [CircleCI](https://circleci.com/)
 
 # GitOps
+
 * [Source Code Management for GitOps and CI/CD](https://dzone.com/articles/source-code-management-for-gitops-and-cicd)
 * [The Path to GitOps](/home/jeff/src/linux-tools/ci-cd/Path-to-GitOps-Red-Hat-Developer-e-book.pdf)
 
@@ -133,6 +141,7 @@ https://codefresh.io/pricing/
 * [Dockerized Arduino IDE for ESP32](https://github.com/vedantroy/arduino-docker-esp32)
 
 # What is CI/CD?
+
 Writing code is one thing.
 Testing and deploying that code into production is another.
 Continuous integration, delivery, and deployment are strategies designed to help increase the velocity of development and the release of well-tested, usable products. Continuous integration encourages development teams to test and integrate their changes to a shared codebase early to minimize integration conflicts. Continuous delivery builds off of this foundation by removing barriers on the way to deployment or release. Continuous deployment goes one step further by deploying every build that passes the test suite automatically.
@@ -155,6 +164,7 @@ So it is suitable to automate this CI/CD process and in most of the time it rema
 # Setup My Own Pipeline
 
 ## Concourse CI/CD
+
 [Concourse](https://concourse-ci.org/) is an open source automation system written in Go.
 It is most commonly used for CI/CD, and is built to scale to any kind of automation pipeline,
 from simple to complex.
@@ -167,7 +177,8 @@ idempotency, immutability, declarative config, stateless workers, and reproducib
 * [Concourse CI: Tutorials](https://concoursetutorial.com/)
 
 ## Install Concourse CI/CD
-* https://concoursetutorial.com/
+
+* <https://concoursetutorial.com/>
 * [Quick Start: Docker Compose Concourse](https://concourse-ci.org/quick-start.html)
 * [How to Install Concourse CI](https://vegastack.com/tutorials/how-to-install-concourse-ci/)
 * [Getting Started with Concourse CI](https://tanzu.vmware.com/developer/guides/concourse-gs/)

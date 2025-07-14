@@ -63,6 +63,7 @@ UniFi Dream Machine Pro from Ubiquiti [the UniFi Dream Machine Pro....the nerdie
 
 
 # Doxing
+
 Doxing is search for and publish private or identifying information about (a particular individual) on the internet, typically with malicious intent.
 
 * [Dox Anyone](https://null-byte.wonderhowto.com/how-to/dox-anyone-0160998/)
@@ -70,6 +71,7 @@ Doxing is search for and publish private or identifying information about (a par
 
 
 # Open-Source Intelligence (OSINT)
+
 Open-source intelligence is the collection and analysis of data gathered from open sources to produce actionable intelligence.
 
 * [What Is Open Source Intelligence and How Is it Used?](https://www.recordedfuture.com/open-source-intelligence-definition)
@@ -86,6 +88,7 @@ Open-source intelligence is the collection and analysis of data gathered from op
 
 
 # What is zero trust?
+
 At its core, zero trust operates on a simple principle:
 “Never trust, always verify.”
 Unlike traditional security models that assume trust within a network perimeter,
@@ -111,6 +114,7 @@ Even if attackers breach one segment, they cannot move freely across the network
 
 
 # About Zero Trust Authentication
+
 Zero Trust Authentication is a brand-new concept that seeks to revolutionise how we think about the relationship between authentication and security. It was developed in response to the failure of traditional authentication methods.
 
 The traditional approach to security was to establish a perimeter around the network and trust users and devices within that perimeter.
@@ -177,6 +181,7 @@ Linux
 
 
 # Understanding IoT Security
+
 How to Implement Secure Connectivity - <https://medium.com/iotforall/securing-your-connectivity-5304c192bea3>
 
 * [Understanding IoT Security – Part 1 of 3: IoT Security Architecture on the Device and Communication Layers](https://iot-analytics.com/understanding-iot-security-part-1-iot-security-architecture/)
@@ -188,16 +193,18 @@ How to Implement Secure Connectivity - <https://medium.com/iotforall/securing-yo
 
 * [FIDO2: The Dream Of Password-Free Authentication On The WWW](https://hackaday.com/2019/09/23/fido2-the-dream-of-password-free-authentication-on-the-www/)
 * [How FIDO2 Works And Would It Stop MFA Fatigue Attacks?](https://www.youtube.com/watch?v=F_E2LZK-bFk)
-    * [MFA Fatigue: Hackers’ new favorite tactic in high-profile breaches](https://www.bleepingcomputer.com/news/security/mfa-fatigue-hackers-new-favorite-tactic-in-high-profile-breaches/)
+  * [MFA Fatigue: Hackers’ new favorite tactic in high-profile breaches](https://www.bleepingcomputer.com/news/security/mfa-fatigue-hackers-new-favorite-tactic-in-high-profile-breaches/)
 
 
 # Types of Digital Certificates
+
 <https://www.ibm.com/support/knowledgecenter/en/ssw_i5_54/rzahu/rzahutypesofcerts.htm>
 <http://www.digi-sign.com/digital%20certificate/digital%20certificate%20types>
 <https://www.slideshare.net/sheetal28sv/digital-certificates-23737438>
 
 
 # wolfSSL
+
 The [wolfSSL](https://www.wolfssl.com/wolfSSL/Home.html)
 is an open source embedded SSL library (formerly CyaSSL) which is lightweight, portable, C-language-based SSL/TLS library targeted at IoT, embedded, and RTOS environments primarily because of its size, speed, and feature set. It works seamlessly in desktop, enterprise, and cloud environments as well. wolfSSL supports industry standards up to the current TLS 1.3 and DTLS 1.2, is up to 20 times smaller than OpenSSL, offers a simple API, an OpenSSL compatibility layer, OCSP and CRL support,
 
@@ -206,6 +213,7 @@ is an open source embedded SSL library (formerly CyaSSL) which is lightweight, p
 
 
 # Simple Certificate Enrolment Protocol (SCEP)
+
 Simple Certificate Enrollment Protocol is a protocol designed to make
 digital certificates issuance as scalable as possible.
 The use of SCEP allows any standard network device to request a digital certificate
@@ -223,11 +231,13 @@ which must be shared only between the server and the requester
 
 
 # SSCEP
+
 SSCEP is a command line client for the SCEP protocol
 <https://github.com/certnanny/sscep>
 
 
 # openssl
+
 OpenSSL has got many commands. You can list them with `openssl list-standard-commands`.
 Here is a brief description of some of the most important command:
 
@@ -400,6 +410,7 @@ which enables unattended installs of packages that need to create SSL certificat
 
 
 # Microchip's ATECC508A
+
  many other MCUs) stores those private TLS credentials unprotected on its flash memory. Anybody who has physical access to the device can steal private keys and get access to the cloud.
 
 * CryptoAuth Xplained Pro - <http://www.atmel.com/tools/cryptoauthxplainedpro.aspx>
@@ -411,6 +422,7 @@ which enables unattended installs of packages that need to create SSL certificat
 
 
 # Introduction to OAuth 2.0
+
 OAuth stands for Open Authorization.
 It’s a free and open protocol, that allows users to share their private resources
 with a third party while keeping their own credentials secret.
@@ -433,6 +445,7 @@ Techniques and Technologies to Increase API Security: <http://nordicapis.com/bui
 
 
 # Glossory of Terms
+
 **Public Key Infrastructure (PKI)**
 supports the distribution and identification of public encryption keys, enabling users and computers to both securely exchange data over networks such as the Internet and verify the identity of the other party.
 Without PKI, sensitive information can still be encrypted (ensuring confidentiality) and exchanged, but there would be no assurance of the identity (authentication) of the other party. Any form of sensitive data exchanged over the Internet is reliant on PKI for security.
@@ -456,6 +469,7 @@ SSL Certificate Explained - <https://www.youtube.com/watch?v=SJJmoDZ3il8>
 
 
 # Definitions
+
 [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html)
 
 * [**Information Security (InfoSec) or Data Security**]()
@@ -607,6 +621,7 @@ Keeping the attack surface as small as possible is a basic security measure.
 
 
 # Microchip's ATECC508A
+
  many other MCUs) stores those private TLS credentials unprotected on its flash memory. Anybody who has physical access to the device can steal private keys and get access to the cloud.
 
 * CryptoAuth Xplained Pro - <http://www.atmel.com/tools/cryptoauthxplainedpro.aspx>

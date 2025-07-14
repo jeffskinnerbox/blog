@@ -25,11 +25,13 @@ Version:      0.0.0
 
 
 # History of the Microprocessor
+
 * [The Complete History of the Home Microprocessor](https://www.youtube.com/watch?v=EJh4BIujpHA)
 
 
 # Jupiter Nano
- * [Jupiter Nano Packs a Linux Computer Into a Microcontroller Board Form Factor](https://www.hackster.io/news/jupiter-nano-packs-a-linux-computer-into-a-microcontroller-board-form-factor-536461c1ae6b)
+
+* [Jupiter Nano Packs a Linux Computer Into a Microcontroller Board Form Factor](https://www.hackster.io/news/jupiter-nano-packs-a-linux-computer-into-a-microcontroller-board-form-factor-536461c1ae6b)
 * [Jupiter Nano - Tiny, high-performance computer that runs Linux, or the NuttX real-time operating system](https://www.crowdsupply.com/starcat/jupiter-nano)
 
 
@@ -46,6 +48,7 @@ Is there no cheap and viable alternative for the little blue board
 that has captured your imagination?
 
 ## Microcontroller vs Microprocessor
+
 A microcontroller differs from a microprocessor in many ways.
 The first and most important difference is its functionality.
 In order that the microprocessor may be used,
@@ -75,9 +78,11 @@ controllers for battery management, and who knows what else.
 As a result, there could be multiple microcontrollers in a SoC.
 
 ## RISC & ARM
+
 * [RISC-V: How much is open source? Featuring the new ESP32-C3](https://www.youtube.com/watch?v=VdPsJW6AHqc)
 
 ## AVR / Atmel
+
 The [AVR][01] is a [modified Harvard architecture][05] 8-bit RISC single chip microcontroller
 which was developed by Atmel in 1996.
 The megaAVR chips became extremely popular after they were designed into the
@@ -87,6 +92,7 @@ The megaAVR chips became extremely popular after they were designed into the
 * [Minimal TinyAVR 0 Programming](https://hackaday.com/2020/10/05/minimal-tinyavr-0-programming/)
 
 ## PIC / Microchip Technology
+
 PIC or PICmicro is a family of modified Harvard architecture microcontrollers
 made by [Microchip Technology][04] but,
 originally developed by General Instrument's Microelectronics Division.
@@ -95,6 +101,7 @@ Given that there is nearly 2000 different models of PIC microcontrollers,
 Microchip provides a [Product Selector Tool][11].
 
 ## ARM / ARM Holding
+
 [ARM][03] is a family of instruction set architectures for computer processors based
 on a reduced instruction set computing (RISC)
 architecture developed by British company [ARM Holdings][02].
@@ -134,24 +141,29 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 * [Google’s Pigweed For ARM Development Is A Nice Surprise](https://hackaday.com/2020/03/21/googles-pigweed-for-arm-development-is-a-nice-surprise/)
 
 ## STM32
+
 * [Epic Guide To Bare-Metal STM32 Programming](https://hackaday.com/2022/12/05/epic-guide-to-bare-metal-stm32-programming/)
 
 ### STM32F1 (aka Blue Pill)
+
 * [Easy & Powerful Arduino Alternative? STM32 Beginner's Guide](https://www.youtube.com/watch?v=EaZuKRSvwdo&t=13s&app=desktop)
 * [Bare-Metal STM32: From Power-Up To Hello World](https://hackaday.com/2020/11/17/bare-metal-stm32-from-power-up-to-hello-world/)
 * [STM32 Clones: The Good, The Bad And The Ugly](https://hackaday.com/2020/10/22/stm32-clones-the-good-the-bad-and-the-ugly/)
 * [Blue Pill As A Nerdy Swiss Army Knife](https://hackaday.com/2020/11/22/blue-pill-as-a-nerdy-swiss-army-knife/)
 
 ### STM32F4 (aka Black Pill)
+
 * [BLUE PILL VS BLACK PILL: TRANSITIONING FROM STM32F103 TO STM32F411](https://hackaday.com/2021/01/20/blue-pill-vs-black-pill-transitioning-from-stm32f103-to-stm32f411/)
 
 ## Intel
+
 * [Intel Edison Module](http://www.intel.com/content/www/us/en/do-it-yourself/edison.html)
 * [How Apple Just Changed the Entire Industry](https://www.youtube.com/watch?v=OuF9weSkS68&feature=youtu.be)
 * [ntel - From Inventors of the CPU to Laughing Stock - Part 1](https://www.youtube.com/watch?v=JH2nXMv6yZI&feature=youtu.be)
 * []()
 
 ## Feescale
+
 * [UDOO](http://www.udoo.org/)
 * [Wandboard](http://www.wandboard.org/)
 * [RIoTboard](http://www.riotboard.org/)
@@ -159,6 +171,7 @@ The mbed OS is free, will be available to ARM’s partners and developers in 4Q1
 * [CuBox](http://www.solid-run.com/product/cubox-i2/)
 
 ## MIPS
+
 MIPS (originally an acronym for Microprocessor without Interlocked Pipeline Stages)
 is a reduced instruction set computer (RISC) instruction set (ISA)
 developed by MIPS Technologies.
@@ -175,6 +188,7 @@ The MT7620 also includes a selection of interfaces to support a variety of appli
 such as a USB port for accessing external storage.
 
 ## Other Processors
+
 * [pcDuino3](http://www.pcduino.com/pcduino-v3/) -
 Allwinner Technology is a China-based fabless semiconductor company that designs
 mixed-signal [SoC][06] and provides total system solution.
@@ -235,8 +249,8 @@ Wireless Enabled
 * [VoCore: A coin-sized Linux computer with wifi](https://www.indiegogo.com/projects/vocore-a-coin-sized-linux-computer-with-wifi#home)
 * [JeeNode](http://jeelabs.net/projects/hardware/wiki/JeeNode)
 * [ATmega128RFA1](https://www.sparkfun.com/products/11197)
-    * [ATmega128RFA1 Dev Board Hookup Guide](https://learn.sparkfun.com/tutorials/atmega128rfa1-dev-board-hookup-guide)
-    * [TinyOS](http://www.tinyos.net/)
+  * [ATmega128RFA1 Dev Board Hookup Guide](https://learn.sparkfun.com/tutorials/atmega128rfa1-dev-board-hookup-guide)
+  * [TinyOS](http://www.tinyos.net/)
 * [WiDo - Arduino Compatible + WiFI IoT Node](http://www.dfrobot.com/index.php?route=product/product&product_id=1159&utm_medium=email&utm_campaign=September+is+great%2C+here%27s+why&utm_source=YMLP&utm_term=image+576)
 * [Waspmote](http://www.cooking-hacks.com/documentation/tutorials/waspmote)
 * [Moteino](https://lowpowerlab.com/shop/index.php?_route_=Moteino-R4)

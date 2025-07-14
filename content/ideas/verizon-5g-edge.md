@@ -16,5 +16,6 @@ Version:      0.0.0
 
 
 # Edge Discovery Services (EDS)
+
 * [Introducing the Verizon Edge Discovery Service](https://verizon5gedgeblog.medium.com/introducing-verizon-edge-discovery-service-53e8354a667b)
 * [Verizon 5G Edge Developer Portal](https://www.verizon.com/business/5g-edge-portal)

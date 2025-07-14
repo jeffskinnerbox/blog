@@ -13,6 +13,7 @@ Version:      0.0.1
 
 
 # What is Bottles?
+
 Bottles is similar to [Wine][07] (a popular compatibility layer for Windows)
 but offers some advanced options.
 For one, Bottles allows you to install Windows software on Linux with ease.
@@ -32,6 +33,7 @@ You can also use Bottles GUI to tweaking options to change the system settings a
 
 
 ## How Do You Install Bottles?
+
 You can install Bottles through different package formats such as [DEB, Flatpak, AppImage, Snap, etc][10].
 However, there is a difference between Flatpak, AppImage, and Snap,
 so choose the one according to your needs.
@@ -71,6 +73,7 @@ For some opinions on what package format to use, check out these websites:
 
 
 ## I'll Use Flatpak
+
 I'll use Flatpak to install Bottles on my Ubuntu desktop
 (it's [Bottles recommended method][11]).
 [Flatpak][01], formerly known as xdg-app,
@@ -100,6 +103,7 @@ is, and is not.
 
 
 # Setting Up Flatpak
+
 Flatpak is a utility for software deployment and package management for Linux.
 It is advertised as offering a sandbox environment in which
 users can run application software in isolation from the rest of the system.
@@ -116,6 +120,7 @@ Sources:
 
 
 #### Step 1: Install Flatpak - DONE
+
 To install Flatpak on Ubuntu 18.10 or late,
 and the Flathub application repository, simply run:
 
@@ -144,6 +149,7 @@ sudo shutdown -r now
 
 
 #### Step 2: Create Your First FlatPak Application - DONE
+
 To install Flatpak applications, you just go to [Flathub's download site][05].
 For my very first FlatPak application,
 I'll install a ready built application called [Color Picker][12],
@@ -166,6 +172,7 @@ flatpak run nl.hjdskes.gcolor3
 
 
 #### Step 3: Install the Bottles App - DONE
+
 In this case, I'm going to install [Bottles][08] so I can execute MS Windows software.
 Bottles is a [Wine installer for Linux][07].
 It advoids the conflicts that can arise with Wine since Bottles create separate sandboxes for each Windows install.
@@ -217,6 +224,7 @@ We'll create some bottles in the next sub-section below.
 
 
 #### Step 4: List, Update, Search, Uninstall, etc. for Flatpak - DONE
+
 Some additional commands well worth knowing are:
 
 ```bash
@@ -267,6 +275,7 @@ sudo apt remove flatpak gnome-software-plugin-flatpak
 
 
 # Install Some Bottles Apps
+
 When everything is ready,
 you will see [a screen telling you that there is no bottles yet][13].
 To create your first bottle,
@@ -291,6 +300,7 @@ Sources:
 
 
 #### Step 1: Create Your First Bottle
+
 Your first bottle will take a lengthy amount of time since many things will be
 loaded into your environment with the first bottle,
 In my case, my first application will be TurboTax.
@@ -314,6 +324,7 @@ If you need to mount the CD, see this [Mount an ISO image in Wine?](https://asku
 
 
 # Other Options for Windows on Linux
+
 [Quickemu][15] can quickly create and run Windows, macOS and Linux virtual machines from the terminal on Linux and macOS.
 
 * [Quickemu](https://www.youtube.com/watch?v=87MCT3Ekjlo)

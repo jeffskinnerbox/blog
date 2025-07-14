@@ -27,6 +27,7 @@ Version:      0.0.0
 
 
 # Python IDLE
+
 Python IDLE is the default integrated development environment (IDE)
 that comes bundled with every Python installation,
 helping you to start coding right out of the box.
@@ -50,7 +51,7 @@ A good remedy for this can be containerization of your Python development enviro
 
 * [Don’t Manage Your Python Environments, Just Use Docker Containers](https://www.kdnuggets.com/manage-python-environments-docker-containers)
 * [Setting Up a Great Python Dev Environment with Docker](https://dev.to/njoguu/setting-up-a-great-python-dev-environment-with-docker-2b01)
-    * [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
+  * [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
 * [How to Create a Great Local Python Development Environment with Docker](https://www.youtube.com/watch?v=6OxqiEeCvMI)
 * [How To Use Docker To Make Local Development A Breeze](https://www.youtube.com/watch?v=zkMRWDQV4Tg)
 * [Setting A Dockerized Python Environment — The Elegant Way](https://towardsdatascience.com/setting-a-dockerized-python-environment-the-elegant-way-f716ef85571d)
@@ -61,17 +62,17 @@ A good remedy for this can be containerization of your Python development enviro
 * [Containerized Python Development – Part 3](https://www.docker.com/blog/containerized-python-development-part-3/)
 
 * [Development Containers](https://containers.dev/)
-    * [Dev Containers for shareable dev environments](https://www.youtube.com/watch?v=jTNP0UUMmfs)
-    * [Dev Containers Overview](https://www.youtube.com/playlist?list=PLj6YeMhvp2S7FFvNDj7ks7ndm0u69Ufrs)
+  * [Dev Containers for shareable dev environments](https://www.youtube.com/watch?v=jTNP0UUMmfs)
+  * [Dev Containers Overview](https://www.youtube.com/playlist?list=PLj6YeMhvp2S7FFvNDj7ks7ndm0u69Ufrs)
 
 
 # Nvim & Dev Contaner
 
 * [Using Devcontainers to set up your development environment](https://dev.to/caduribeiro/using-devcontainers-to-set-up-your-development-environment-5fbp)
-    * [Running Neovim with Devcontainers](https://dev.to/caduribeiro/running-neovim-with-devcontainers-2imn)
+  * [Running Neovim with Devcontainers](https://dev.to/caduribeiro/running-neovim-with-devcontainers-2imn)
 * [Devcontainer for Software Development (with NeoVim)](https://www.youtube.com/watch?v=FzINeQ92g3w)
 * [Devcontainer support for Neovim](https://www.ensarsarajcic.com/blog/nvim-dev-container-intro/)
-    * [Codeberg: esensar/nvim-dev-container](https://codeberg.org/esensar/nvim-dev-container)
+  * [Codeberg: esensar/nvim-dev-container](https://codeberg.org/esensar/nvim-dev-container)
 * [GitHub: jamestthompson3/nvim-remote-containers](https://github.com/jamestthompson3/nvim-remote-containers)
 
 
@@ -91,6 +92,7 @@ A good remedy for this can be containerization of your Python development enviro
 * [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
 
 # Next-gen Python Tooling
+
 `uv` is a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.
 `ruff` can be used to replace Flake8 (plus dozens of plugins), Black, isort, pydocstyle, pyupgrade, autoflake, and more, all while executing tens or hundreds of times faster than any individual tool.
 
@@ -103,9 +105,11 @@ A good remedy for this can be containerization of your Python development enviro
   * [Ruff](https://docs.astral.sh/ruff/#ruff)
 
 # Python Continuous Integration
+
 * [Python Continuous Integration and Deployment Using GitHub Actions](https://realpython.com/courses/cicd-github-actions/)
 
 # Debugging Tools & Techniques
+
 [Debugging](https://en.wikipedia.org/wiki/Debugging) is the process of looking for the root causes of defects (aka bugs) in software after they’ve been discovered,
 as well as taking steps to fix them.
 
@@ -255,9 +259,11 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * [Python Oddities That Might Surprise You](https://www.kdnuggets.com/python-oddities-might-surprise-you)
 
 ## What Is Python's `__init__.py` For?
-* [What Is Python's __init__.py For?](https://realpython.com/python-init-py/)
+
+* [What Is Python's **init**.py For?](https://realpython.com/python-init-py/)
 
 ## Making a Main Function
+
 In Python, there's a way to ask, are we being run from the command-line or being imported as a module?
 Or put another way, is our current Python module the entry point to our Python process?
 This question can be asked using the statements like this:
@@ -280,7 +286,7 @@ When ever we run a file, Python automatically creates `__name__`, `__main__`, `_
 These special variables are called "Dunders", which is short for double underscore.
 
 * [Defining a main function in Python](https://www.pythonmorsels.com/making-main-function-python/)
-* [Python if __name__ == '__main__': Visually Explained](https://www.youtube.com/watch?v=KZpYtNtGxSU)
+* [Python if **name** == '**main**': Visually Explained](https://www.youtube.com/watch?v=KZpYtNtGxSU)
 
 
 ## Python's Built-in Functions
@@ -293,62 +299,63 @@ working with built-in data types, processing iterables of data, handling input a
 
 
 ## Building Your Own Functions
+
 * [Defining Your Own Python Function](https://realpython.com/defining-your-own-python-function/)
 
 
 ## Python Idioms (Idiomatic Python)
 
 * Being Pythonic
-    * [Python Name-Main Idiom Quiz](https://realpython.com/quizzes/python-name-main-idiom/)
-    * [5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
-    * [A forbidden Python technique to put ANYTHING in a dict or set](https://www.youtube.com/watch?v=NpdNDTncxwA)
-    * [**new** vs **init** in Python](https://www.youtube.com/watch?v=-zsV0_QrfTw)
+  * [Python Name-Main Idiom Quiz](https://realpython.com/quizzes/python-name-main-idiom/)
+  * [5 Good Python Habits](https://www.youtube.com/watch?v=I72uD8ED73U)
+  * [A forbidden Python technique to put ANYTHING in a dict or set](https://www.youtube.com/watch?v=NpdNDTncxwA)
+  * [**new** vs **init** in Python](https://www.youtube.com/watch?v=-zsV0_QrfTw)
 * Python Keywords
-    * [Python Keywords: An Introduction](https://realpython.com/python-keywords/)
+  * [Python Keywords: An Introduction](https://realpython.com/python-keywords/)
 * Newbe Bad Habits
-    * [25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
-    * [21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
+  * [25 nooby Python habits you need to ditch](https://www.youtube.com/watch?v=qUeud6DvOWI)
+  * [21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 
 
 ## Python Objects
 
 * Magic Methods
-    * [Please Master This MAGIC Python Feature...](https://www.youtube.com/watch?v=qqp6QN20CpE&t=23s)
-    * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
-    * [Python's Magic Methods in Classes](https://realpython.com/courses/magic-methods-classes/)
-    * [Magic Methods: The Secret to Elegant Python Code](https://thenewstack.io/magic-methods-the-secret-to-elegant-python-code/)
-    * [Understanding Python’s Iteration and Membership: A Guide to **contains** and **iter** Magic Methods](https://www.kdnuggets.com/understanding-pythons-iteration-and-membership-a-guide-to-__contains__-and-__iter__-magic-methods)
-    * [Efficient Iterations With Python Iterators and Iterables](https://realpython.com/courses/efficient-iterations-iterators-iterables/)
-    * [Asynchronous Iterators and Iterables in Python](https://realpython.com/python-async-iterators/)
-    * [Using Python's .__dict__ to Work With Attributes](https://realpython.com/python-dict-attribute/)
+  * [Please Master This MAGIC Python Feature...](https://www.youtube.com/watch?v=qqp6QN20CpE&t=23s)
+  * [Magic Methods - Making Python builtins work with your classes](https://www.youtube.com/watch?v=Zl-Vb1OIhCk)
+  * [Python's Magic Methods in Classes](https://realpython.com/courses/magic-methods-classes/)
+  * [Magic Methods: The Secret to Elegant Python Code](https://thenewstack.io/magic-methods-the-secret-to-elegant-python-code/)
+  * [Understanding Python’s Iteration and Membership: A Guide to **contains** and **iter** Magic Methods](https://www.kdnuggets.com/understanding-pythons-iteration-and-membership-a-guide-to-__contains__-and-__iter__-magic-methods)
+  * [Efficient Iterations With Python Iterators and Iterables](https://realpython.com/courses/efficient-iterations-iterators-iterables/)
+  * [Asynchronous Iterators and Iterables in Python](https://realpython.com/python-async-iterators/)
+  * [Using Python's .**dict** to Work With Attributes](https://realpython.com/python-dict-attribute/)
 * Classes
-    * [Python's Instance, Class, and Static Methods Demystified](https://realpython.com/instance-class-and-static-methods-demystified/)
-    * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
-    * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
-    * [Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
-    * [Lists vs Tuples in Python](https://realpython.com/python-lists-tuples/)
-    * [Exploring Python's tuple Data Type With Examples](https://realpython.com/courses/exploring-tuple-data-type-examples/)
-    * [How to Remove Items From Lists in Python](https://realpython.com/remove-item-from-list-python/)
+  * [Python's Instance, Class, and Static Methods Demystified](https://realpython.com/instance-class-and-static-methods-demystified/)
+  * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
+  * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
+  * [Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
+  * [Lists vs Tuples in Python](https://realpython.com/python-lists-tuples/)
+  * [Exploring Python's tuple Data Type With Examples](https://realpython.com/courses/exploring-tuple-data-type-examples/)
+  * [How to Remove Items From Lists in Python](https://realpython.com/remove-item-from-list-python/)
 * Descriptors
-    * [8 things in Python you didn't realize are descriptors](https://www.youtube.com/watch?v=mMbVs17Vmo4)
+  * [8 things in Python you didn't realize are descriptors](https://www.youtube.com/watch?v=mMbVs17Vmo4)
 * Generators
-    * [Python Generators](https://youtu.be/tmeKsb2Fras?si=h7bXVCyo8zEcs1jU)
+  * [Python Generators](https://youtu.be/tmeKsb2Fras?si=h7bXVCyo8zEcs1jU)
 * Sets
-    * [Using Sets in Python](https://realpython.com/courses/sets-python/)
+  * [Using Sets in Python](https://realpython.com/courses/sets-python/)
 * Decorators
 * Enumerations
-    * [Building Enumerations With Python's enum](https://realpython.com/courses/python-enum/)
+  * [Building Enumerations With Python's enum](https://realpython.com/courses/python-enum/)
 * Pointers
-    * [unique_ptr: C++'s simplest smart pointer](https://www.youtube.com/watch?v=AmjoK55h68Y)
+  * [unique_ptr: C++'s simplest smart pointer](https://www.youtube.com/watch?v=AmjoK55h68Y)
 * Strings
-    * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
-    * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
-    * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
-    * [Python 3.14 Preview: Template Strings (T-Strings)](https://realpython.com/python-t-strings/)
+  * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
+  * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
+  * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
+  * [Python 3.14 Preview: Template Strings (T-Strings)](https://realpython.com/python-t-strings/)
 * Structural Pattern Matching
-    * [Using Structural Pattern Matching in Python](https://realpython.com/courses/structural-pattern-matching/)
+  * [Using Structural Pattern Matching in Python](https://realpython.com/courses/structural-pattern-matching/)
 * Copying of Python Objects
-    * [Shallow vs Deep Copying of Python Objects](https://realpython.com/python-copy/)
+  * [Shallow vs Deep Copying of Python Objects](https://realpython.com/python-copy/)
 
 
 # Python Type Checking
@@ -357,6 +364,7 @@ working with built-in data types, processing iterables of data, handling input a
 
 
 ## Duck Typing
+
 Python makes extensive use of a type system known as duck typing.
 The system is based on objects’ behaviors and interfaces.
 Many built-in classes and tools support this type system,
@@ -368,34 +376,34 @@ which makes them pretty flexible and decoupled.
 ## Python Best Practices
 
 * Speedup
-    * [Unlocking your CPU cores in Python (multiprocessing)](https://www.youtube.com/watch?v=X7vBbelRXn0)
-    * [The Fastest Way to Loop in Python - An Unfortunate Truth](https://www.youtube.com/watch?v=Qgevy75co8c)
-    * [The Python Global Interpreter Lock - Explained](https://www.youtube.com/watch?v=XVcRQ6T9RHo)
-    * [Understanding Python's Global Interpreter Lock (GIL)](https://realpython.com/courses/understanding-global-interpreter-lock-gil/)
-    * [Intro to async Python | Writing a Web Crawler](https://www.youtube.com/watch?v=ftmdDlwMwwQ)
+  * [Unlocking your CPU cores in Python (multiprocessing)](https://www.youtube.com/watch?v=X7vBbelRXn0)
+  * [The Fastest Way to Loop in Python - An Unfortunate Truth](https://www.youtube.com/watch?v=Qgevy75co8c)
+  * [The Python Global Interpreter Lock - Explained](https://www.youtube.com/watch?v=XVcRQ6T9RHo)
+  * [Understanding Python's Global Interpreter Lock (GIL)](https://realpython.com/courses/understanding-global-interpreter-lock-gil/)
+  * [Intro to async Python | Writing a Web Crawler](https://www.youtube.com/watch?v=ftmdDlwMwwQ)
 * Parallel Iteration
-    * [Using the Python zip() Function for Parallel Iteration](https://realpython.com/python-zip-function/)
+  * [Using the Python zip() Function for Parallel Iteration](https://realpython.com/python-zip-function/)
 * Performance Profiling
-    * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
+  * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
 * Logging
-    * [How to Use Loguru for Simpler Python Logging](https://realpython.com/python-loguru/)
-    * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
-    * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
-    * [Eliot: Logging that tells you why it happened](https://eliot.readthedocs.io/en/stable/)
+  * [How to Use Loguru for Simpler Python Logging](https://realpython.com/python-loguru/)
+  * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
+  * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
+  * [Eliot: Logging that tells you why it happened](https://eliot.readthedocs.io/en/stable/)
 * Unit Testing
-    * [unittest: Python’s Built-In Safety Net for Developers](https://thenewstack.io/unittest-pythons-built-in-safety-net-for-developers/)
-    * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
-    * [pytest Framework](https://docs.pytest.org/)
+  * [unittest: Python’s Built-In Safety Net for Developers](https://thenewstack.io/unittest-pythons-built-in-safety-net-for-developers/)
+  * [Python's unittest: Writing Unit Tests for Your Code](https://realpython.com/python-unittest/)
+  * [pytest Framework](https://docs.pytest.org/)
 * Infrastructure Testing
-    * [Infrastructure testing with Testinfra](https://philpep.org/blog/infrastructure-testing-with-testinfra/)
-    * [Using Testinfra with Ansible to verify server state](https://opensource.com/article/19/5/using-testinfra-ansible-verify-server-state)
-    * [testinfra/pytest delights](https://medium.com/@george.shuklin/testinfra-pytest-delights-3e0a7d5c84d2)
-    * [Choosing between testinfra and Ansible for tests](https://medium.com/opsops/choosing-between-testinfra-and-ansible-for-tests-e52a9329b3ec)
-    * [Testinfra](https://testinfra.readthedocs.io/en/latest/)
+  * [Infrastructure testing with Testinfra](https://philpep.org/blog/infrastructure-testing-with-testinfra/)
+  * [Using Testinfra with Ansible to verify server state](https://opensource.com/article/19/5/using-testinfra-ansible-verify-server-state)
+  * [testinfra/pytest delights](https://medium.com/@george.shuklin/testinfra-pytest-delights-3e0a7d5c84d2)
+  * [Choosing between testinfra and Ansible for tests](https://medium.com/opsops/choosing-between-testinfra-and-ansible-for-tests-e52a9329b3ec)
+  * [Testinfra](https://testinfra.readthedocs.io/en/latest/)
 * Automated Testing
-    * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
+  * [Automated Testing in Python with pytest, tox, and GitHub Actions](https://www.youtube.com/watch?v=DhUpxWjOhME)
 * Code Quality
-    * [Python Code Quality: Best Practices and Tools](https://realpython.com/python-code-quality/)
+  * [Python Code Quality: Best Practices and Tools](https://realpython.com/python-code-quality/)
 
 
 ## Asterisks in Python
@@ -514,18 +522,18 @@ There are many Python static analysis tools to choose from, but these are most h
 # Python Modules
 
 * Itertools - Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop. Such data structures are also known as iterables. This module incorporates functions that utilize computational resources efficiently.
-    * [itertools — Functions creating iterators for efficient looping](https://docs.python.org/3/library/itertools.html)
-    * [What are itertools in Python?](https://www.educative.io/answers/what-are-itertools-in-python)
-    * [Python Itertools](https://www.geeksforgeeks.org/python-itertools/)
-    * [The FULL Guide To Itertools For Python Developers](https://www.youtube.com/watch?v=baZpqVmR488)
-    * [Looping in Python](https://www.pythonmorsels.com/screencasts/looping/)
-    * [How to loop with indexes in Python](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
-    * [The Iterator Protocol](https://www.pythonmorsels.com/iterator-protocol/)
-    * [Lazy Looping: The Next Iteration](https://treyhunner.com/lazy-looping/resources.html)
+  * [itertools — Functions creating iterators for efficient looping](https://docs.python.org/3/library/itertools.html)
+  * [What are itertools in Python?](https://www.educative.io/answers/what-are-itertools-in-python)
+  * [Python Itertools](https://www.geeksforgeeks.org/python-itertools/)
+  * [The FULL Guide To Itertools For Python Developers](https://www.youtube.com/watch?v=baZpqVmR488)
+  * [Looping in Python](https://www.pythonmorsels.com/screencasts/looping/)
+  * [How to loop with indexes in Python](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
+  * [The Iterator Protocol](https://www.pythonmorsels.com/iterator-protocol/)
+  * [Lazy Looping: The Next Iteration](https://treyhunner.com/lazy-looping/resources.html)
 
 * pathlib - Use for nearly all file-related code in Python, especially when you need to construct or deconstruct file paths or ask questions of file paths.
-    * [Python's pathlib Module: Taming the File System](https://realpython.com/python-pathlib/)
-    * [Python's pathlib module](https://www.pythonmorsels.com/pathlib-module/)
+  * [Python's pathlib Module: Taming the File System](https://realpython.com/python-pathlib/)
+  * [Python's pathlib module](https://www.pythonmorsels.com/pathlib-module/)
 
 
 # Role of Underscore
@@ -587,6 +595,7 @@ Example programs that make heavy use of Python's commandline utilities.
 
 
 # Gradio
+
 Gradio is an open-source Python library that simplifies the creation of
 user-friendly web interfaces for machine learning models, APIs, or any Python function.
 
@@ -597,6 +606,7 @@ user-friendly web interfaces for machine learning models, APIs, or any Python fu
 
 
 # Pickle Module
+
 In Python, the `pickle` module lets you serialize and deserialize data.
 Essentially, this means that you can convert a Python object into a stream of bytes
 and then reconstruct it (including the object’s internal structure)
@@ -611,10 +621,10 @@ Rich is a Python library for rich text and beautiful formatting in the terminal.
 The Rich API makes it easy to add color and style to terminal output. Rich can also render pretty tables, progress bars, markdown, syntax highlighted source code, tracebacks, and more — out of the box.
 
 * [Rich’s documentation](https://rich.readthedocs.io/en/latest/#)
-    * [pip install rich](https://pypi.org/project/rich/)
-    * [GitHub: Textualize/rich](https://github.com/Textualize/rich)
-    * [Pretty terminal output with Python and Rich](https://calmcode.io/course/rich/introduction)
-    * [The Python Rich Package: Unleash the Power of Console Text](https://realpython.com/python-rich-package/)
+  * [pip install rich](https://pypi.org/project/rich/)
+  * [GitHub: Textualize/rich](https://github.com/Textualize/rich)
+  * [Pretty terminal output with Python and Rich](https://calmcode.io/course/rich/introduction)
+  * [The Python Rich Package: Unleash the Power of Console Text](https://realpython.com/python-rich-package/)
 
 
 ---------------
@@ -647,6 +657,7 @@ It supports the following types of projects:
 
 
 # Build a Python Script
+
 * [How Can You Structure Your Python Script?](https://realpython.com/python-script-structure/)
 * [Executing commands safely from Python](https://supakeen.com/weblog/executing-commands-safely-from-python/)
 * [You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)

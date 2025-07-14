@@ -21,7 +21,7 @@ compares Bluetooth low-energy, ANT, ANT+, ZigBee, ZigBee RF4CE, Wi-Fi, Nike+, Ir
 * [XBee]()
 * [nRF24L01+]()
 * [Another Radio Module for IoT fun – EMW3162](http://hackaday.com/2015/03/24/emw3162-wifi-120mhz-needs-attention/)
-    * [EMW3162 WiFi Module](https://www.seeedstudio.com/item_detail.html?p_id=2122)
+  * [EMW3162 WiFi Module](https://www.seeedstudio.com/item_detail.html?p_id=2122)
 * [RFM69W Wireless Transceiver 433Mhz - (HopeRF - RFM69W-433S2)](http://www.ebay.com/itm/RFM69W-Wireless-Transceiver-433Mhz-HopeRF-RFM69W-433S2-/181170697673)
 * [RFM12B-S2 Wireless Transceiver - 915MHz](https://www.sparkfun.com/products/12031)
 * [Introducing the $19 Photon](http://blog.spark.io/2014/11/12/introducing-the-19-dollar-photon/)
@@ -34,10 +34,10 @@ compares Bluetooth low-energy, ANT, ANT+, ZigBee, ZigBee RF4CE, Wi-Fi, Nike+, Ir
 * [Picking The Right WiFi Module](http://blog.upverter.com/picking-the-right-wifi-module)
 * [Picking The Right Bluetooth Module](http://blog.upverter.com/picking-the-right-bluetooth-module)
 * [ATmega128RFA1](https://www.sparkfun.com/products/11197)
-    * [ATmega128RFA1 Dev Board Hookup Guide](https://learn.sparkfun.com/tutorials/atmega128rfa1-dev-board-hookup-guide)
-    * [TinyOS](http://www.tinyos.net/)
+  * [ATmega128RFA1 Dev Board Hookup Guide](https://learn.sparkfun.com/tutorials/atmega128rfa1-dev-board-hookup-guide)
+  * [TinyOS](http://www.tinyos.net/)
 * [New Chip Alert: The ESP8266 WiFi Module (It’s $5)](http://hackaday.com/2014/08/26/new-chip-alert-the-esp8266-wifi-module-its-5/)
-    * [ESP8266 Distance Testing](http://hackaday.com/2014/09/26/esp8266-distance-testing/)
+  * [ESP8266 Distance Testing](http://hackaday.com/2014/09/26/esp8266-distance-testing/)
 * [First Impression on the ESP8266 Serial-to-WiFi Module](http://rayshobby.net/?p=9592)
 * []()
 
@@ -46,6 +46,7 @@ compares Bluetooth low-energy, ANT, ANT+, ZigBee, ZigBee RF4CE, Wi-Fi, Nike+, Ir
 * [Waspmote](http://www.cooking-hacks.com/documentation/tutorials/waspmote)
 
 # Cell Modems
+
 * [Choosing Cell Modems: The Drama Queen of Hardware Design](https://hackaday.com/2018/11/15/choosing-cell-modems-the-drama-queen-of-hardware-design/)
 * [Finding the Goldilocks Cell Module](https://hackaday.com/2019/01/04/finding-the-goldilocks-cell-module/)
 

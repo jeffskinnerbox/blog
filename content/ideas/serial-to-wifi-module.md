@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 # ESP8266 Serial-to-WiFi Module
+
 * [New Chip Alert: The ESP8266 WiFi Module (It’s $5)](http://hackaday.com/2014/08/26/new-chip-alert-the-esp8266-wifi-module-its-5/)
 * [First Impression on the ESP8266 Serial-to-WiFi Module](http://rayshobby.net/?p=9734)
 * [ESP8266 Distance Testing](http://openlab.com.au/esp8266-distance-testing/)
@@ -27,7 +28,8 @@ Version:      0.0.0
 * [ESP-LINK: Wifi-Serial Bridge w/REST&MQTT](https://github.com/jeelabs/esp-link)
 * [Review: HUZZAH is the ESP8266 WiFi Setup You Need](http://hackaday.com/2015/05/01/review-huzzah-is-the-esp8266-wifi-setup-you-need/)
 
-#  TI CC3000 WiFi Module
+# TI CC3000 WiFi Module
+
 * [Adafruit CC3000 WiFi Breakout with Onboard Ceramic Antenna](http://www.adafruit.com/products/1469)
 * [Texas Instruments CC3000](http://www.thingamafob.com/texas-instruments-cc3000/)
 * [SimpleLink WiFi SmartConfig Technology](http://www.ti.com/tool/smartconfig)
@@ -36,18 +38,21 @@ Version:      0.0.0
 * []()
 
 # WRTNode
+
 * [WRTnode](http://wrtnode.com/w/)
 * [Getting Started with WRTnode OpenWRT Development Board](http://www.cnx-software.com/2014/09/18/wrtnode-quick-start-guide/)
 * [WRTnode Wiki](http://wiki.wrtnode.com/index.php?title=Main_Page)
-    * [WRTnode Getting Started Guide](http://wiki.wrtnode.com/index.php?title=Starting)
-    * [Refresh the Firmware](http://wiki.wrtnode.com/index.php?title=Refresh_the_firmware)
+  * [WRTnode Getting Started Guide](http://wiki.wrtnode.com/index.php?title=Starting)
+  * [Refresh the Firmware](http://wiki.wrtnode.com/index.php?title=Refresh_the_firmware)
 
 # HLK-RM04 Serial-to-WiFi Module
+
 * [First Impression on HLK-RM04 Serial-to-WiFi Module](http://rayshobby.net/?p=9592)
 * [Hi-Link HLK-RM04 - OpenWrt Wiki](http://wiki.openwrt.org/toh/hilink/hlk-rm04)
 * []()
 
 # Wi-Fi Direct
+
 [Wi-Fi Direct](http://en.wikipedia.org/wiki/Wi-Fi_Direct),
 initially called Wi-Fi P2P,
 is a Wi-Fi standard that enables devices to connect easily with each other
@@ -59,14 +64,17 @@ typical Wi-Fi speeds for everything from file transfer to Internet connectivity.
 * []()
 
 # Cloud Platforms
+
 * [ThingSpeak](https://thingspeak.com/)
 * []()
 
 # Data Logging and Graphing
+
 * [RRDtool](http://www.mrtg.org/rrdtool/)
 * [RRD Weather Graphs](http://rrd-weather-graphs.wikispaces.com/)
 
 # Weather Data
+
 * [Weather Underground](http://www.wunderground.com/weather/api/)
 * [OpenWeatherMap](http://openweathermap.org/api)
 * [26 Weather APIs, 12 Support JSON](http://www.programmableweb.com/news/26-weather-apis-12-support-json/2012/01/11)

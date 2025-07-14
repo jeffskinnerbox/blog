@@ -25,6 +25,7 @@ Version:      0.0.0
 
 
 # Metrology
+
 Metrology is the scientific study of measurement
 
 * [Origins of Precision](https://www.youtube.com/watch?v=gNRnrn5DE58)
@@ -36,6 +37,7 @@ Metrology is the scientific study of measurement
 
 
 # Mili-Ohm Measurement
+
 Measuring low resistances with a standard multimeter is difficult and very inaccurate.
 
 * [Quick And Simple Milliohmmeter](https://hackaday.com/2020/11/04/quick-and-simple-milliohmmeter/)
@@ -44,6 +46,7 @@ Measuring low resistances with a standard multimeter is difficult and very inacc
 
 
 ## Kelvin Probes
+
 Kelvin probes are a special type of probe for making accurate resistance measurements using four wires and, in fact, the probe’s jaws are electrically isolated from each other.
 
  Why is this better than two probes? It all comes down to resistance in the test probes. Pulling supply current through the probe wires — which have some resistance — causes a voltage drop that affects the measurement. While the sense wire pair will also have resistance, the sensing current can be very small which means there will be correspondingly less error in the measurement.
@@ -67,6 +70,7 @@ Kelvin probes are a special type of probe for making accurate resistance measure
 
 
 # Time-Domain Reflectometry (TDR)
+
 A time-domain reflectometer (TDR) is an electronic instrument used to determine the characteristics of electrical lines by observing reflected waveforms.
 It can be used to characterize and locate faults in metallic cables  It can also be used to locate discontinuities in a connector, printed circuit board, or any other electrical path.
 

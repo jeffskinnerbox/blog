@@ -17,6 +17,7 @@ Version:      0.0.0
 
 
 # ESP32 Connectivity Issues
+
 * [ESP32 Connectivity Myths Unveiled](https://supakeen.com/weblog/esp32-wifi-superstitions/)
 
 
@@ -50,6 +51,7 @@ Version:      0.0.0
 
 
 # ESP-ZeroCode
+
 The first ESP-ZeroCode modules will be offered with either ESP32-C3 (aka ESP8685) or ESP32-C2 (aka ESP8684) WiFi & BLE RISC-V SoCs, or ESP32-H2 802.15.4 & BLE RISC-V microcontroller, and ships with a Matter compatible firmware that enables “near-zero investment in development”. Not it’s not entirely clear whether those are zero-code or just “little-code” (better known as low code) programming devices
 
 The Matter protocol is intended to solve the problem of interoperability for smart home devices. It securely and robustly connects various smart devices with each other across ecosystems, regardless of the manufacturer.
@@ -71,10 +73,12 @@ By using a common software stack, device manufacturers who build with Matter wil
 
 
 # ESP-EYE
+
 ESP-EYE is a development board for image recognition and audio processing
 
 
 # ESP32-H2
+
 The ESP32-H2 is a single-core 96MHz RISC-V with built-in IEEE 802.15.4
 to support ZigBee 3.x and Thread 1.x.
 
@@ -85,6 +89,7 @@ to support ZigBee 3.x and Thread 1.x.
 
 
 # ESP32-S2
+
 ESP32-S2 only has a single 32-bit Xtensa core, reduced RAM and ROM,
 and WiFi only (no Bluetooth) — compared to the traditional ESP32.
 These tradeoffs mean the S2 draws significantly less power consumption, especially while active.
@@ -99,6 +104,7 @@ These tradeoffs mean the S2 draws significantly less power consumption, especial
 
 
 # ESP32-S3
+
 The dual-core ESP32-S3 with a clock of 240 MHz is similar to the original and, unlike the S2, has Bluetooth 5 (LE) support. In addition, it has instructions specific to neural networks and signal processing which is helpful in edge machine learning applications.
 Other key differences between ESP32-S3 and ESP32 include support for larger capacity and higher-speed SPI flash and PSRAM chips, a few more I/O pints, more security features, a lack of Ethernet MAC, and support for Bluetooth LE 5.0 connectivity with long-range and 2Mbps transfer support.
 
@@ -110,6 +116,7 @@ Other key differences between ESP32-S3 and ESP32 include support for larger capa
 
 
 ## LILYGO T-Camera S3 / ESP32-S3
+
 The T-CAMERA S3 is a compact embedded module based on the low power ESP32-S3 SoC
 supporting dual-band WiFi and Bluetooth 5.2.
 The device is equipped with an OV2640 camera module,
@@ -137,6 +144,7 @@ and a few JST connectors for additional devices.
 
 
 # ESP32-C3
+
 When Esspresif introduced the ESP32-C3, it was their first SOM based entirely on the RISC-V architecture. It is a low-cost, single-core SOM with WiFi and Bluetooth support.
 
 The new “C3” variant has a single 160 MHz RISC-V core that out-performs the ESP8266, and at the same time includes most of the peripheral set of an ESP32. While RAM often ends up scarce on an ESP8266 with around 40 kB or so, the ESP32-C3 sports 400 kB of RAM, and manages to keep it all running while burning less power. Like the ESP32, it has Bluetooth LE 5.0 in addition to WiFi.
@@ -188,11 +196,12 @@ ESP32-C3 is a single-core WiFi and Bluetooth 5 (LE) microcontroller SoC, based o
 
 * [Face Detection and Recognition on the ESP32](https://blog.hackster.io/face-detection-and-recognition-on-the-esp32-3b4b9a35c765)
 * [Espressif IoT Development Framework (ESP-IDF)](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html)
-    * [Secure Boot](https://docs.espressif.com/projects/esp-idf/en/latest/security/secure-boot.html)
-    * [Flash Encryption](https://docs.espressif.com/projects/esp-idf/en/latest/security/flash-encryption.html)
+  * [Secure Boot](https://docs.espressif.com/projects/esp-idf/en/latest/security/secure-boot.html)
+  * [Flash Encryption](https://docs.espressif.com/projects/esp-idf/en/latest/security/flash-encryption.html)
 
 
 # ESP32-C5
+
 ESP32-C5 = dual-band WiFi 6 + BLE
 
 * [ESP32-C5 RISC-V IoT MCU supports dual-band WiFi 6, Bluetooth 5.0 LE](https://www.cnx-software.com/2022/06/22/esp32-c5-risc-v-iot-mcu-dual-band-wifi-6-bluetooth-le/)
@@ -200,6 +209,7 @@ ESP32-C5 = dual-band WiFi 6 + BLE
 
 
 # ESP32-C6
+
 ESP32-C6 = WiFi 6 + Bluetooth 5 LE
 
 * [Is the new Espressif ESP32-C6 a game changer?](https://www.youtube.com/watch?v=d0dkTFxa3io)
@@ -211,10 +221,12 @@ ESP32-C6 = WiFi 6 + Bluetooth 5 LE
 
 
 # ESP32-E
+
 ESP32-E, specially designed for IoT, is an ESP-WROOM-32E-based main controller board with dual-core chips.
 
 
 # ESP32-NOW
+
 <https://www.dfrobot.com/blog-1473.html?tracking=60adc151185b6>
 
 
@@ -225,6 +237,7 @@ ESP32-E, specially designed for IoT, is an ESP-WROOM-32E-based main controller b
 
 
 # ESP32-WROOM-DA
+
 The [ESP32-WROOM-DA](https://www.espressif.com/en/news/ESP32-WROOM-DA)
 resemblance to the ESP32-WROOM but can deliver better WiFi connectivity.
 The clever WiFi trick comes in the form of a pair of antennas at 90 degrees to each other,
@@ -234,6 +247,7 @@ allowing it to select whichever antenna gives the best signal at any one time.
 
 
 # ESP32-P4
+
 On board are dual-core 400 MHz and a single-core low power 40 MHz RISC-V processors, and an impressive array of hardware peripherals including display and camera interfaces and a hardware JPEG codec alongside the ones you’d expect from an ESP32 part. It’s got a whopping 768 KB of on-chip SRAM as well as 8 K of very fast cache RAM for intensive operations.
 
 * [Espressif Reveals ESP32-P4: A High-Performance MCU with Numerous IO-Connectivity and Security Features](https://www.espressif.com/en/news/ESP32-P4)
@@ -243,6 +257,7 @@ On board are dual-core 400 MHz and a single-core low power 40 MHz RISC-V process
 
 
 # Background
+
 The ESP32 is a low cost, low power microcontroller with integrated 2.4 GHz WiFi (up to 150Mbps)
 and dual-mode Bluetooth (classic and BLE),
 which employs a dual-core Tensilica Xtensa LX6 microprocessor.
@@ -253,54 +268,55 @@ This chip includes almost everything you’ll need to begin programming the WiFi
 and to create IoT applications.
 
 * ESP32 Key Features
-    * 240 MHz dual-core Tensilica LX6 microcontroller with performing at up to 600 DMIPS
-    * integrated 520 KB SRAM
-    * integrated 802.11/b/g/n HT40 WiFi transceiver,  baseband,  stack and LWIP
-    * integrated dual mode Bluetooth (classic and BLE)
-    * 16 MB Flash
-    * 2.2V to 3.6V operating voltage
-    * -40°C to +125°C operating temperature
-    * on-board PCB antenna / IPEX connector for external antenna
-    * supports sniffer, station, SoftAP and WiFi direct modes
+  * 240 MHz dual-core Tensilica LX6 microcontroller with performing at up to 600 DMIPS
+  * integrated 520 KB SRAM
+  * integrated 802.11/b/g/n HT40 WiFi transceiver,  baseband,  stack and LWIP
+  * integrated dual mode Bluetooth (classic and BLE)
+  * 16 MB Flash
+  * 2.2V to 3.6V operating voltage
+  * -40°C to +125°C operating temperature
+  * on-board PCB antenna / IPEX connector for external antenna
+  * supports sniffer, station, SoftAP and WiFi direct modes
 * ESP32 Peripheral Interfaces
-    * 12-bit ADC up to 18 channels
-    * 2x 8-bit DACs
-    * 10x capacitive touch interface
-    * Temperature sensor
-    * 3x SPI
-    * 2x I²S
-    * 2x I²C
-    * 3x UARTs, including hardware flow control
-    * SD/SDIO/MMC host
-    * SDIO master/slave 50 MHz
-    * Ethernet MAC interface with dedicated DMA and IEEE 1588 support
-    * CAN bus 2.0
-    * IR (TX/RX)
-    * PWM/timer input/output available on every GPIO pin
-    * Hall effect sensor
-    * Ultra low power and low noise analog amplifier
+  * 12-bit ADC up to 18 channels
+  * 2x 8-bit DACs
+  * 10x capacitive touch interface
+  * Temperature sensor
+  * 3x SPI
+  * 2x I²S
+  * 2x I²C
+  * 3x UARTs, including hardware flow control
+  * SD/SDIO/MMC host
+  * SDIO master/slave 50 MHz
+  * Ethernet MAC interface with dedicated DMA and IEEE 1588 support
+  * CAN bus 2.0
+  * IR (TX/RX)
+  * PWM/timer input/output available on every GPIO pin
+  * Hall effect sensor
+  * Ultra low power and low noise analog amplifier
 * ESP32 Security
-    * WEP, WPA/WPA2 PSK/Enterprise
-    * Hardware accelerated encryption: AES / SHA2 / Elliptical Curve Cryptography / RSA-4096
+  * WEP, WPA/WPA2 PSK/Enterprise
+  * Hardware accelerated encryption: AES / SHA2 / Elliptical Curve Cryptography / RSA-4096
 * ESP32 Performance
-    * Max data rate of 150 Mbps@11n HT40, 72 Mbps@11n HT20, 54 Mbps@11g, and 11 Mbps@11b
-    * Maximum transmit power of 19.5 dBm@11b, 16.5 dBm@11g, 15.5 dBm@11n
-    * Minimum receiver sensitivity of -98 dBm
-    * 135 Mbps UDP sustained throughput
-    * 2.5 μA deep sleep current
+  * Max data rate of 150 Mbps@11n HT40, 72 Mbps@11n HT20, 54 Mbps@11g, and 11 Mbps@11b
+  * Maximum transmit power of 19.5 dBm@11b, 16.5 dBm@11g, 15.5 dBm@11n
+  * Minimum receiver sensitivity of -98 dBm
+  * 135 Mbps UDP sustained throughput
+  * 2.5 μA deep sleep current
 * Resources
-    * [ESP32 Datasheet (PDF)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
-    * [ESP32 Technical Reference Manual](https://espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
-    * [ESP32 Pinout v1.0]()
-    * [ESP32 Pin List]()
-    * [ESP32 Hardware Design Guidelines](https://espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
-    * [ESP32 RTOS SDK API Reference](https://github.com/espressif/ESP31_RTOS_SDK/tree/master/documents)
-    * [ESP32 Other Resources (Espressif/Documentation)](https://espressif.com/en/products/hardware/esp32/resources)
-    * [ESP32 Other Resources (esp32.net)](http://esp32.net/)
-    * [ESP32 Used As Wireless CAN Bus Reader](https://hackaday.com/2023/11/22/esp32-used-as-wireless-can-bus-reader/)
+  * [ESP32 Datasheet (PDF)](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+  * [ESP32 Technical Reference Manual](https://espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
+  * [ESP32 Pinout v1.0]()
+  * [ESP32 Pin List]()
+  * [ESP32 Hardware Design Guidelines](https://espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
+  * [ESP32 RTOS SDK API Reference](https://github.com/espressif/ESP31_RTOS_SDK/tree/master/documents)
+  * [ESP32 Other Resources (Espressif/Documentation)](https://espressif.com/en/products/hardware/esp32/resources)
+  * [ESP32 Other Resources (esp32.net)](http://esp32.net/)
+  * [ESP32 Used As Wireless CAN Bus Reader](https://hackaday.com/2023/11/22/esp32-used-as-wireless-can-bus-reader/)
 
 
 # Toolchain
+
 The Espressif Internet Development Framework (ESP-IDF) is core development tool-chain for the ESP32 chip. It includes the compiler, programming tools and various software components that enable software development on the chip.
 
 * [How to Get Started with the ESP32](http://hackaday.com/2016/10/04/how-to-get-started-with-the-esp32/)
@@ -317,18 +333,19 @@ The Espressif Internet Development Framework (ESP-IDF) is core development tool-
 
 
 # AWS IoT with ESP32 and Mongoose OS
+
 See - <https://madcow-public.s3.amazonaws.com/iot_loft_guide.pdf>
 and - <https://www.slideshare.net/AmazonWebServices/rapid-prototyping-with-aws-iot-and-mongoose-os-on-esp8266-esp32-and-cc3200-platforms>
 
 Prerequisites
 
 * AWS CLI configured with valid credentials in the AWS account that you intend to use
-    * <http://docs.aws.amazon.com/cli/latest/userguide/installing.html>
+  * <http://docs.aws.amazon.com/cli/latest/userguide/installing.html>
 * ESP32 Dev board
-    * A (good!) USB cable to connect the ESP32 board to your computer
-    * mos – The Mongoose OS flashing tool. Download at <http://www.mongoose-os.com>
+  * A (good!) USB cable to connect the ESP32 board to your computer
+  * mos – The Mongoose OS flashing tool. Download at <http://www.mongoose-os.com>
 * git clone of the Mongoose OS repository from GitHub:
-    * git clone <https://github.com/>
+  * git clone <https://github.com/>
 
 
 # ESP Security
@@ -347,6 +364,7 @@ Prerequisites
 
 
 # Using Both ESP32 Cores
+
 The ESP32 comes with 2 Xtensa 32-bit LX6 microprocessors: core 0 and core 1.
 So, it is dual core.
 When we run code on Arduino IDE, by default, it runs on core 1.

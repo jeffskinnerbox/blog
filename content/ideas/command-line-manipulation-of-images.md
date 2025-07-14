@@ -22,6 +22,7 @@ Version:      0.0.0
 # Image Minipulation / Photo Editor
 
 ## Darktable
+
 [darktable](https://www.darktable.org/)
 is an open source photography lighttable and darkroom for photographers.
 It manages your digital negatives in a database,
@@ -32,12 +33,14 @@ and enables you to develop raw images and enhance them.
 * [Open source photo processing with Darktable](https://opensource.com/article/21/12/open-source-photo-processing-darktable)
 
 ## Krita
+
 [Krita](https://krita.org/en/)
 is best known as a digital painting application.
 
 * [5 surprising reasons I use Krita for photo editing on Linux](https://opensource.com/article/21/12/open-source-photo-editing-krita)
 
 ## Gwenview
+
 * [Crop and resize photos on Linux with Gwenview](https://opensource.com/article/22/2/crop-resize-photos-gwenview-kde)
 * [Install gwenview on Ubuntu](https://snapcraft.io/install/gwenview/ubuntu)
 
@@ -50,6 +53,7 @@ is best known as a digital painting application.
 # Image Conversion
 
 ## Display Characteristics
+
 Sometime you need to know the dimensions or pixel resolution
 of the monitor you are using.
 There happens to be a [website that can help][04]:
@@ -80,6 +84,7 @@ VIRTUAL1 disconnected (normal left inverted right x axis y axis)
 ```
 
 ## Image File Characteristics
+
 For some image formats you can just use the [`file`][06]
 or `convert` and `identify` from ImageMagick command:
 
@@ -101,30 +106,36 @@ For those you will have to use something like `convert`:
 $ convert Pictures/Wallpaper/White-Earth-Limb.jpg -print "Size: %wx%h\n" /dev/null
 Size: 1500x1487
 ```
+
 $ convert MyJpeg.jpg -print "Size: %wx%h\n" /dev/null
 Size: 380x380
 
 ## Converting Image File Format
+
 ```bash
 # convert image from JPG to PNG format
 convert jeffskinnerbox-300x300.jpeg jeffskinnerbox-300x300.png
 ```
 
 ## Image Optimization
+
 * [My favorite Linux commands for optimizing web images](https://opensource.com/article/21/12/optimize-web-images-linux)
 * [Drop PNG and JPG for your online images: Use WebP](https://opensource.com/article/20/4/webp-image-compression)
 
 ## Resize Image File
+
 ```bash
 # resize image to a 128 by 128 pexal picture
 convert jeffskinnerbox-300x300.png -resize 128x128 jeffskinnerbox-128x128.png
 ```
 
 ## Changing The Size of an Image
+
 * [HOWTO: Command line manipulation of images](http://discourse.criticalengineering.org/t/howto-command-line-manipulation-of-images/47)
 * [ImageMagick Command-Line Tools](http://www.imagemagick.org/script/command-line-tools.php)
 
 # How to Remove Image Background
+
 * [turn on gimp toolbox and layer menu](https://www.youtube.com/watch?v=k6qXqUq7lOc)
 * [How to Remove Image Background - 2021 GIMP Tutorial](https://www.youtube.com/watch?v=pZuPbRIBwrE&t=34s)
 

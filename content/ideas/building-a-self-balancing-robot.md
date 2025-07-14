@@ -35,11 +35,12 @@ Consider this for radio remote control - [Pi GRRL Zero Parts Kit - Includes Pi Z
 
 * [Self-Driving RC Truck is a Master’s Thesis in Cybernetics and Robotics](https://hackaday.com/2020/10/31/self-driving-rc-truck-is-a-masters-thesis-in-cybernetics-and-robotics/)
 * [Fast Indoor Robot Watches Ceiling Lights, Instead Of The Road](https://hackaday.com/2021/10/25/fast-indoor-robot-watches-ceiling-lights-instead-of-the-road/)
-    * [Fast indoor 2D localization using ceiling lights](https://www.a1k0n.net/2021/01/22/indoor-localization.html)
-    * [cycloid](https://github.com/a1k0n/cycloid/)
+  * [Fast indoor 2D localization using ceiling lights](https://www.a1k0n.net/2021/01/22/indoor-localization.html)
+  * [cycloid](https://github.com/a1k0n/cycloid/)
 
 
 # Let's Robot
+
 Still in the early stages of development,
 Let's Robot is a live-streaming telepresence platform for controlling robots
 and other devices through the internet.
@@ -49,6 +50,7 @@ and other devices through the internet.
 
 
 # Robot Simulation Environment
+
 A well-designed simulator makes it possible to rapidly test algorithms, design robots,
 perform regression testing, and train AI system using realistic scenarios.
 
@@ -67,8 +69,8 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Build a Spherical Self-balancing Robot with ESP32 Camera! (ESP-ROLL)](https://www.youtube.com/watch?v=VuBfRYNQgw0)
 * [Transparent Themed BB-8 Robot From Star Wars](https://www.instructables.com/Transparent-Themed-BB-8-Robot-From-Star-Wars/)
 * [I built a rover using a Raspberry Pi & Arduino](https://www.youtube.com/watch?v=IoCaTgmUSvc)
-    * [Stair Climbing Rover Assembly](https://www.youtube.com/watch?v=bXdt8hng2WM)
-    * [DTU RoboCup 2022 - Wild Willy - First run with onboard camera overlay](https://www.youtube.com/watch?v=GkBlQkr3NZU)
+  * [Stair Climbing Rover Assembly](https://www.youtube.com/watch?v=bXdt8hng2WM)
+  * [DTU RoboCup 2022 - Wild Willy - First run with onboard camera overlay](https://www.youtube.com/watch?v=GkBlQkr3NZU)
 * [Six Wheels (En)rolling: Mars Rovers Going To School](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
 * [AlphaBot2 robot building kit for Raspberry Pi 3 Model B](https://www.seeedstudio.com/AlphaBot2-robot-building-kit-for-Raspberry-Pi-3-Model-B-p-2937.html)
 * [Six Wheels Mars Rover](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
@@ -90,13 +92,14 @@ perform regression testing, and train AI system using realistic scenarios.
 
 
 # Dimebots
+
 Dimebots are a collection of autonomous and self-contained micro-robots
 that are as small as a dime and weigh less than a nickel,
 making Dimebots some of the smallest robots in the world.
 
 * [Meet the Dimebots: Self-Contained Micro-bots the Size of a Dime](https://www.hackster.io/news/meet-the-dimebots-self-contained-micro-bots-the-size-of-a-dime-4eafb608c0f9)
-    * [DimeBots](https://dimebots.pages.dev/)
-    * [GitHub: dimebots/dimebots](https://github.com/dimebots/dimebots)
+  * [DimeBots](https://dimebots.pages.dev/)
+  * [GitHub: dimebots/dimebots](https://github.com/dimebots/dimebots)
 
 
 # Walking Robot
@@ -133,14 +136,14 @@ making Dimebots some of the smallest robots in the world.
 # Wheeled Walking Robot
 
 * [This Robot Glides Like an Ice Skater](https://www.youtube.com/watch?v=WIU8gnqQJJM)
-    * [Impulse](https://www.aaedmusa.com/projects/impulse)
+  * [Impulse](https://www.aaedmusa.com/projects/impulse)
 
 
 # Pet Robot
 
 * [3D Printed Robot Wants To Be Your Pet](https://hackaday.com/2023/09/21/3d-printed-robot-wants-to-be-your-pet/)
-    * [Meet Snoopy the pet robot!](https://makerspet.com/blog/meet-snoopy-pet-robot-model/)
-    * [Kaia.ai](https://kaia.ai/)
+  * [Meet Snoopy the pet robot!](https://makerspet.com/blog/meet-snoopy-pet-robot-model/)
+  * [Kaia.ai](https://kaia.ai/)
 
 
 # Rope Walking Robot
@@ -162,7 +165,7 @@ making Dimebots some of the smallest robots in the world.
 # Walking Hexapot Robot
 
 * [Arduino Mega 2560 DIY hexapod robot](https://www.geeky-gadgets.com/hexapod-robot-18-04-2023/)
-    * [I Completely Scrapped My Hexapod's Code](https://www.youtube.com/watch?v=DKsyJYkdZ_o)
+  * [I Completely Scrapped My Hexapod's Code](https://www.youtube.com/watch?v=DKsyJYkdZ_o)
 * [Augie the Hexapod Robot - Hackster.io](https://www.hackster.io/james-harton/augie-the-hexapod-robot-8e5125)
 * [Capers II, a Hexapod Robot](https://www.instructables.com/id/Capers-II-a-Hexapod-Robot/)
 * [ZeroBug - DIY Hexapod Robot](https://hackaday.io/project/180534-zerobug-diy-hexapod-robot)
@@ -175,10 +178,11 @@ making Dimebots some of the smallest robots in the world.
 
 ## Dog & Cat Robots
 
+* [From Leash to Locomotion: CARA the Robotic Dog](https://hackaday.com/2025/07/13/from-leash-to-locomotion-cara-the-robotic-dog/)
 * [OpenDog Project](https://hackaday.com/2018/06/11/james-bruton-is-making-a-dog-opendog-project/)
-    * [OpenDog Version 3 Is Ready To Go Walkies](https://hackaday.com/2021/12/18/opendog-version-3-is-ready-to-go-walkies/)
+  * [OpenDog Version 3 Is Ready To Go Walkies](https://hackaday.com/2021/12/18/opendog-version-3-is-ready-to-go-walkies/)
 * [OpenCat](https://www.hackster.io/petoi/opencat-845129)
-    * [Petoi Nybble](https://www.hackster.io/RzLi/petoi-nybble-944867)
+  * [Petoi Nybble](https://www.hackster.io/RzLi/petoi-nybble-944867)
 * [Meet Cucumber, The Robot Dog](https://hackaday.com/2025/06/27/meet-cucumber-the-robot-dog/)
 * [SmallKat: An adorable dynamics oriented robot cat](https://hackaday.io/project/164727-smallkat-an-adorable-dynamics-oriented-robot-cat)
 * [Robot Cat Takes Inspiration From Nature](https://hackaday.com/2020/09/30/robot-cat-takes-inspiration-from-nature/)
@@ -196,16 +200,16 @@ making Dimebots some of the smallest robots in the world.
 ## Petoi Bittle Robot
 
 * [Petoi Bittle: A Palm-sized Robot Dog for STEM and Fun](https://www.kickstarter.com/projects/petoi/bittle)
-    * [sit(); Good Boy!](https://www.hackster.io/news/sit-good-boy-e0f259d88d44)
+  * [sit(); Good Boy!](https://www.hackster.io/news/sit-good-boy-e0f259d88d44)
 * [Petoi Bittle - Bionic Open Source Robot Dog](https://www.seeedstudio.com/CH-Bittle-p-4833.html)
 
 
 # Mecanum Wheel Robot
 
 * [Mecanum Wheel Robot Car with ESP-NOW Remote Control](https://dronebotworkshop.com/mecanum/)
-    * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
-    * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
-    * [Inside The Mecanum Wheel](https://hackaday.com/2024/08/11/inside-the-mecanum-wheel/)
+  * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
+  * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
+  * [Inside The Mecanum Wheel](https://hackaday.com/2024/08/11/inside-the-mecanum-wheel/)
 * [Unihiker Remote Control](https://community.dfrobot.com/makelog-314402.html)
 
 
@@ -272,6 +276,7 @@ making Dimebots some of the smallest robots in the world.
 
 
 # Levitator / Levitation
+
 idea - magnetically levitate a disk but enable the spinning of that disk.  As the disk turns it captures the air a whistles a tune.
 
 * [Sonic Spinner from MDI Australia](https://www.youtube.com/watch?v=h3h9Jnpd_OM)
@@ -358,6 +363,7 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 
 
 ### Stewart Platform
+
 A Stewart platform is a type of parallel manipulator that has six prismatic actuators.
 Devices placed on the top plate can be moved in the six degrees of freedom.
 
@@ -388,35 +394,35 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
 # Proportional Integral Derivative (PID) Controller
 
 * General
-    * [Classical Control Theory](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
-    * [PID Controllers Explained](https://www.youtube.com/watch?v=VVOi2dbtxC0&feature=youtu.be)
-    * [Control System Fundamentals by Video](https://hackaday.com/2017/10/17/control-system-fundamentals-by-video/)
-    * [PID Controller](https://en.wikipedia.org/wiki/PID_controller)
-    * [Proportional-Integral-Derivative (PID) Controller](https://nicisdigital.wordpress.com/2011/06/27/proportional-integral-derivative-pid-controller/)
-    * [PID Control with Arduino](https://hackaday.com/2018/04/14/pid-control-with-arduino/)
-    * [PID Controllers Deep Dive - Nice Layman Description](http://hackaday.com/2014/07/07/droning-on-pid-controllers-and-bullet-connectors/)
-    * [Control Theory Seminar](http://focus.ti.com/docs/training/catalog/events/event.jhtml?sku=OLT214002&sp_rid_pod4=NzQ0MDMwMzkzNTMS1&sp_mid_pod4=45597282)
-    * [Evolutionary optimization of PID parameters for empirically identified system](http://wemakethings.net/2013/12/01/pid_genetics/)
-    * [DEMYSTIFYING PID CONTROL WITH A LOOK AT THE NEW ARDUINO PID LIBRARY](https://hackaday.com/2011/07/21/demystifying-pid-control-with-a-look-at-the-new-arduino-pid-library/)
-    * [Improving the Beginner’s PID – Introduction](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/)
-    * [Implementing a PID Controller Algorithm in Python](https://www.digikey.com/en/maker/tutorials/2024/implementing-a-pid-controller-algorithm-in-python)
+  * [Classical Control Theory](https://www.youtube.com/playlist?list=PLUMWjy5jgHK1NC52DXXrriwihVrYZKqjk)
+  * [PID Controllers Explained](https://www.youtube.com/watch?v=VVOi2dbtxC0&feature=youtu.be)
+  * [Control System Fundamentals by Video](https://hackaday.com/2017/10/17/control-system-fundamentals-by-video/)
+  * [PID Controller](https://en.wikipedia.org/wiki/PID_controller)
+  * [Proportional-Integral-Derivative (PID) Controller](https://nicisdigital.wordpress.com/2011/06/27/proportional-integral-derivative-pid-controller/)
+  * [PID Control with Arduino](https://hackaday.com/2018/04/14/pid-control-with-arduino/)
+  * [PID Controllers Deep Dive - Nice Layman Description](http://hackaday.com/2014/07/07/droning-on-pid-controllers-and-bullet-connectors/)
+  * [Control Theory Seminar](http://focus.ti.com/docs/training/catalog/events/event.jhtml?sku=OLT214002&sp_rid_pod4=NzQ0MDMwMzkzNTMS1&sp_mid_pod4=45597282)
+  * [Evolutionary optimization of PID parameters for empirically identified system](http://wemakethings.net/2013/12/01/pid_genetics/)
+  * [DEMYSTIFYING PID CONTROL WITH A LOOK AT THE NEW ARDUINO PID LIBRARY](https://hackaday.com/2011/07/21/demystifying-pid-control-with-a-look-at-the-new-arduino-pid-library/)
+  * [Improving the Beginner’s PID – Introduction](http://brettbeauregard.com/blog/2011/04/improving-the-beginners-pid-introduction/)
+  * [Implementing a PID Controller Algorithm in Python](https://www.digikey.com/en/maker/tutorials/2024/implementing-a-pid-controller-algorithm-in-python)
 
-    * [An Introduction to Control Systems: Designing a PID Controller Using MATLAB’s SISO Tool](http://www.allaboutcircuits.com/technical-articles/an-introduction-to-control-systems-designing-a-pid-controller-using-matlabs/)
+  * [An Introduction to Control Systems: Designing a PID Controller Using MATLAB’s SISO Tool](http://www.allaboutcircuits.com/technical-articles/an-introduction-to-control-systems-designing-a-pid-controller-using-matlabs/)
 
 * Flying
-    * [Flying With Proportional – Integral – Derivative Control](https://hackaday.com/2016/05/18/flying-with-proportional-integral-derivative-control/)
+  * [Flying With Proportional – Integral – Derivative Control](https://hackaday.com/2016/05/18/flying-with-proportional-integral-derivative-control/)
 
 * Phase Locked Loop
-    * [Unlock the Phase Locked Loop](http://hackaday.com/2016/03/23/unlock-the-phase-locked-loop/)
-    * [Learn Something About Phase Locked Loops](https://hackaday.com/2018/06/20/learn-something-about-phase-locked-loops/)
+  * [Unlock the Phase Locked Loop](http://hackaday.com/2016/03/23/unlock-the-phase-locked-loop/)
+  * [Learn Something About Phase Locked Loops](https://hackaday.com/2018/06/20/learn-something-about-phase-locked-loops/)
 
 * Embedded Proportional Integral Derivative (PID) Temperature Controller
-    * [Part 1: The Circuit](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-1-the-circuit/)
-    * [Part 2: Board-Level Integration](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-2-board-level-integration/)
-    * [Part 3: Implementation and Visualization](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-3-implementation-and-visualization/)
-    * [Part 4: The Scilab GUI](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-4-the-scilab-gui/)
-    * [Part 5: Adjusting Gains](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-5-adjusting-gains/)
-    * [Part 6: Ziegler–Nichols Tuning](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-6-zieglernichols-tuning/)
+  * [Part 1: The Circuit](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-1-the-circuit/)
+  * [Part 2: Board-Level Integration](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-2-board-level-integration/)
+  * [Part 3: Implementation and Visualization](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-3-implementation-and-visualization/)
+  * [Part 4: The Scilab GUI](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-4-the-scilab-gui/)
+  * [Part 5: Adjusting Gains](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-5-adjusting-gains/)
+  * [Part 6: Ziegler–Nichols Tuning](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-6-zieglernichols-tuning/)
 
 * [Closed Loop Control, Remote Sensors and Remote UX on RPi3](https://www.hackster.io/windows-iot/closed-loop-control-remote-sensors-and-remote-ux-on-rpi3-ef3ed0?utm_source=Hackster.io+newsletter&utm_campaign=63517b436a-2015_4_17_Top_projects4_16_2015&utm_medium=email&utm_term=0_6ff81e3e5b-63517b436a-140225889&mc_cid=63517b436a&mc_eid=9036129d51)
 * [How do self driving cars drive? Part 1: Lane keeping assist](https://medium.com/@edersantana/how-do-self-driving-cars-drive-part-1-lane-keeping-assist-581f6ff50349)

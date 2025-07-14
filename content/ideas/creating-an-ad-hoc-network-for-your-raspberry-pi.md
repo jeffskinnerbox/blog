@@ -65,16 +65,17 @@ ad-hoc network into a mesh network in the future.
 I'm establishing here some scripts that I'll be reusing when I make my mesh network.
 
 # Background
+
 A WiFi network device always operates in one of six modes
 (or for some special hardware, multiple modes as in [AP+STA][52] or [WDS with AP Mode][53])
 that 802.11 wireless cards can operate in:
 
-1.  **Master / Access Point** - acting as an access point (AP)
-1.  **Managed / Station / STA / Access Point Client / Wireless Client / Client** - act as a client to an access point
-1.  **Ad-Hoc / Point-to-Point / Wireless Bridge** - directly connecting two or more computers without an access point
-1.  **Mesh / Point-to-Multipoint / Multi-point Bridge** - decentralized interconnection with other wireless access points
-1.  **Repeater / WDS** - wireless interconnection to other access points to form a single managed network
-1.  **Monitor** - passively read packets, no packets are transmitted
+1. **Master / Access Point** - acting as an access point (AP)
+1. **Managed / Station / STA / Access Point Client / Wireless Client / Client** - act as a client to an access point
+1. **Ad-Hoc / Point-to-Point / Wireless Bridge** - directly connecting two or more computers without an access point
+1. **Mesh / Point-to-Multipoint / Multi-point Bridge** - decentralized interconnection with other wireless access points
+1. **Repeater / WDS** - wireless interconnection to other access points to form a single managed network
+1. **Monitor** - passively read packets, no packets are transmitted
 
 You may also hear about Infrastructure Mode.
 Strictly speaking, Infrastructure Mode is not a device mode but a concept.
@@ -104,6 +105,7 @@ does not exist or where other network services
 (such as Internet access, printer access, etc.) are not required.
 
 ## WiFi Interface Adapter Must Support A-Hoc Networking
+
 Keep in mind that [not all Raspberry Pi WiFi adapters will support ad-hoc mode][04].
 The WiFi adapters I'm using are the popular and inexpensive
 [Edimax EW-7811Un][06] and [OURLINK WU110EC][05].
@@ -130,6 +132,7 @@ There’s not much you can do about this;
 you just have to use a network in infrastructure mode rather than ad-hoc mode.
 
 ## Limitations of Ad Hoc Mode Wireless Networking
+
 [Ad-Hoc networks suffer from several key limitations][54] that require special consideration.
 
 * **Security** - WiFi devices in ad-hoc mode offer minimal security
@@ -154,6 +157,7 @@ but there are things that can be done.
 For one thing, you can [set up an ad-hoc network using WPA security][56].
 
 ## NetworkManager
+
 * [RPi NetworkManager CLI](http://gary-dalton.github.io/RaspberryPi-projects/rpi_nmcli.html)
 * [Exploring NetworkManager, D-Bus, systemd, and Raspberry Pi](http://dev.iachieved.it/iachievedit/exploring-networkmanager-d-bus-systemd-and-raspberry-pi/)
 * According to [this article](https://raspberrypi.stackexchange.com/questions/48307/sharing-the-pis-wifi-connection-through-the-ethernet-port),
@@ -222,6 +226,7 @@ This the simplest, and lest disruptive way to get NetworkManager out of you way
 but let it continue to run for other purposes.
 
 ## Networking and WiFi Tools
+
 The Linux operating systems comes with various set of tools
 allowing you to manipulate network, the [Wireless Extensions][03] and monitor wireless networks.
 These tools can be used to find out network speed, bit rate,
@@ -406,6 +411,7 @@ Fo WAP encryption, the command `iw` will not do.
 You need `wpa_supplicant`.
 
 ## Console Access to Raspberry Pi
+
 [!sereial-cable](https://cdn-shop.adafruit.com/970x728/954-02.jpg)
 A [USB to TTL serial cable][65] (aka console cable)
 can be used to connect to [system console][66] on the Raspberry Pi A.
@@ -459,6 +465,7 @@ which gives you greater security, and allow console cables to work via
 [`screen`][71] or [`microcom`][72].
 
 ## Finding Your RPi
+
 If you placed your Raspberry Pi on your network but don't know its IP address,
 you may use the [Adafruit Pi Finder script][62] ([source is here][64]) to find it.
 
@@ -505,6 +512,7 @@ bla bla bla
 ###########################################
 
 ## Typical Network Interface and Security Setup
+
 First, lets review what your setings will be prior to making the changes
 to create your ad-hoc network.
 The file `/etc/network/interfaces` contains network interface configuration
@@ -627,11 +635,14 @@ configuration file can be reloaded be sending `SIGHUP` signal to `wpa_supplicant
 Similarly, reloading can be triggered with the `wpa_cli reconfigure` command.
 
 # Ah-Hoc Network Channel Sellection
+
 * [List of WiFi Channels](https://en.wikipedia.org/wiki/List_of_WLAN_channels)
 * [How to boost your Wi-Fi speed by choosing the right channel](http://www.extremetech.com/computing/179344-how-to-boost-your-wifi-speed-by-choosing-the-right-channel)
 
 ## Establishing Static Ad-Hoc WiFi Network
+
 ## Establishing Dynamic Ad-Hoc WiFi Network
+
 ## Establishing Fallback Ad-Hoc WiFi Network
 
 
@@ -652,6 +663,7 @@ is a small daemon that ensures connectivity for single-PCB devices such as the R
 
 
 ## Establishing Static Ad-Hoc WiFi Network
+
 Static IP addressing is being used since its assumed that the ad-hoc network
 doesn't have DHCP operating.
 We'll also assume WPA is being used but see the note below concerning WEP security.
@@ -668,6 +680,7 @@ I give them both here since I found `iw` doesn't always work
 and you must fall back to the old tools.
 
 ### Step 1A: Establish the Bridge Node (no encryption)
+
 Starting with the bridge node (`mesh01` in my case),
 we can establish the ad-hoc network without encryption
 No encryption is easier and quicker, but of course very insecure.
@@ -720,6 +733,7 @@ ping -I wlan0 192.168.100.1
 Now preceed to Step 2.
 
 ### Step 1B: Establish the Bridge Node (WAP encryption)
+
 The first thing to do is work on the bridge node (`mesh01` in my case).
 We are going to bypass the standard configuration file `/etc/wpa_supplicant/wpa_supplicant.conf`
 and create an ad-hoc WiFi enabling `/etc/wpa_supplicant/wpa_adhoc.conf`
@@ -921,6 +935,7 @@ IP address has been set.
 If so, your in business.
 
 ### Step 2: Establish the Standard Nodes
+
 For the standard nodes in your ad-hoc network,
 you follow the same proceed you applied above for the bridge node.
 There are only three differances:
@@ -959,6 +974,7 @@ sudo sh -c "echo 'nameserver 192.168.1.1' >> /etc/resolv.conf"
 You can also use [DNS Masquerading][79] to do this task.
 
 ### Step 3: Internet Connection Sharing via Bridge
+
 The next step is to give your ad-hoc network access to the Internet
 via the bridge node's Ethernet interface.
 This is done by [IP Masquerading, a form of Network Address Translation (NAT)][63]
@@ -984,7 +1000,7 @@ sudo iptables -t nat -A POSTROUTING -s 192.168.100.0 -o eth0 -j MASQUERADE
 ```
 
 ############ Remove ################
-**IS ABOVE - The wrong way to masquerade - see this** - http://www.billauer.co.il/ipmasq-html.html
+**IS ABOVE - The wrong way to masquerade - see this** - <http://www.billauer.co.il/ipmasq-html.html>
 
 sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/16 -o ppp0 -j MASQUERADE
 The above command assumes that your private address space is 192.168.0.0/16 and that your Internet-facing device is ppp0. The syntax is broken down as follows:
@@ -1027,6 +1043,7 @@ sudo iptables -t mangle -A PREROUTING -j TTL --ttl-inc 1
 ```
 
 ## Establishing Dynamic Ad-Hoc WiFi Network
+
 This is going to be very similar to the configuration
 of the Static Ad-Hoc WiFi Network proceedures.
 
@@ -1062,6 +1079,7 @@ ping hostname.local
 
 
 # Step XXX: Ad-Hoc Mode Using DHCP and WPA Security
+
 * [Wireless Communication Between Raspberry Pi and Your Computer](https://spin.atomicobject.com/2013/04/22/raspberry-pi-wireless-communication/)
 A better way to go for the Ad-Hoc WiFi is to use WPA2 (stronger security)
 
@@ -1109,6 +1127,7 @@ because it may not re-enable some interfaces.
 The solution, if you experience this, is to use `sudo reboot`, or do it the hard way.
 
 # Step XXX: Install and Configure DHCP Server
+
 * [Creating an Ad-hoc Wireless Network](https://wiki.gumstix.com/index.php/Creating_an_Ad-hoc_Wireless_Network)
 * [Wireless Communication Between Raspberry Pi and Your Computer](https://spin.atomicobject.com/2013/04/22/raspberry-pi-wireless-communication/)
 * [Setting up ad-hoc in Debian with DHCP?](http://unix.stackexchange.com/questions/44851/setting-up-ad-hoc-in-debian-with-dhcp)
@@ -1158,6 +1177,7 @@ sudo udhcpd /etc/udhcpd.conf
 
 
 # Step XXX: Finding a Quite WiFi Channel
+
 here is an easier way to find out which channels are congested. In the terminal, type:
 
 sudo iwlist wlan0 scan | grep Frequency | sort | uniq -c | sort -n
@@ -1269,6 +1289,7 @@ $ sudo iwlist wlan0 scan | grep Frequency | sort | uniq -c | sort -n
 
 
 # Step XXX: Internet Connection Sharing on Gateway
+
 The next step is to get access to the Internet.
 This is done by [IP Masquerading, a form of Network Address Translation (NAT)][63].
 On you devie that will serve as your Intenet gateway,
@@ -1283,7 +1304,7 @@ where ppp0 is the connection you want to share (PPPoE connection in this case)
 You also need to enable IP forwarding:
 
 ############################
-**IS ABOVE - The wrong way to masquerade - see this** - http://www.billauer.co.il/ipmasq-html.html
+**IS ABOVE - The wrong way to masquerade - see this** - <http://www.billauer.co.il/ipmasq-html.html>
 
 sudo iptables -t nat -A POSTROUTING -s 192.168.0.0/16 -o ppp0 -j MASQUERADE
 The above command assumes that your private address space is 192.168.0.0/16 and that your Internet-facing device is ppp0. The syntax is broken down as follows:
@@ -1312,6 +1333,7 @@ sudo iptables -t mangle -A PREROUTING -j TTL --ttl-inc 1
 ```
 
 # Step XXX: Using the Gateway's Intenet Connection
+
 Now to use the shared internet on another computer,
 set it to ad-hoc mode and assign IP address in the same subnet
 as described above and perform the following:
@@ -1338,10 +1360,13 @@ You can also use IP and DNS Masquerading to ease the task.
 * [Internet Connection Sharing in Linux over Ad-hoc Wireless](http://jwalanta.blogspot.com/2010/02/internet-connection-sharing-ics-in.html)
 
 # Step XXX: Ad-Hoc Secured with WEP
+
 # Step XXX: Ad-Hoc Secured with WAP
+
 [Setting up an Ad-Hoc Network – And securing it using WPA](http://techblog.aasisvinayak.com/setting-up-an-ad-hoc-network-and-securing-it-using-wpa/)
 
 # Optional Boot Time Ad-Hoc Network
+
 To access a Raspberry Pi, you need a display and some type of keyboard input.
 This option would be very simple to use,
 but it would requires the extra cost and bother of the display and keyboard.
@@ -1374,37 +1399,38 @@ joint the chantilly library network - sudo iwconfig wlan0 essid ffxlib
 ##############
 
 # Sources
+
 Much of what is explained here can be derived (with great difficulty) from the following sources:
 
 * Static Ad-Hoc WiFi Network
-    * [Setting up an Ad-Hoc Network – And securing it using WPA](http://techblog.aasisvinayak.com/setting-up-an-ad-hoc-network-and-securing-it-using-wpa/)
+  * [Setting up an Ad-Hoc Network – And securing it using WPA](http://techblog.aasisvinayak.com/setting-up-an-ad-hoc-network-and-securing-it-using-wpa/)
 * Dynamic Ad-Hoc WiFi Network
-    * [Creating an Ad-hoc network for your Raspberry Pi](http://slicepi.com/creating-an-ad-hoc-network-for-your-raspberry-pi/)
-    * [Creating an Ad-hoc Wireless Network](https://wiki.gumstix.com/index.php/Creating_an_Ad-hoc_Wireless_Network)
-    * [Wireless Communication Between Raspberry Pi and Your Computer](https://spin.atomicobject.com/2013/04/22/raspberry-pi-wireless-communication/)
-    * [Running DHCP Server on Ad-hoc Network](https://wiki.gumstix.com/index.php/Creating_an_Ad-hoc_Wireless_Network)
-    * [Setting up ad-hoc in Debian with DHCP?](http://unix.stackexchange.com/questions/44851/setting-up-ad-hoc-in-debian-with-dhcp)
+  * [Creating an Ad-hoc network for your Raspberry Pi](http://slicepi.com/creating-an-ad-hoc-network-for-your-raspberry-pi/)
+  * [Creating an Ad-hoc Wireless Network](https://wiki.gumstix.com/index.php/Creating_an_Ad-hoc_Wireless_Network)
+  * [Wireless Communication Between Raspberry Pi and Your Computer](https://spin.atomicobject.com/2013/04/22/raspberry-pi-wireless-communication/)
+  * [Running DHCP Server on Ad-hoc Network](https://wiki.gumstix.com/index.php/Creating_an_Ad-hoc_Wireless_Network)
+  * [Setting up ad-hoc in Debian with DHCP?](http://unix.stackexchange.com/questions/44851/setting-up-ad-hoc-in-debian-with-dhcp)
 * Fallback Ad-Hoc WiFi Network
-    * [WirelessAutoselect](https://wiki.ubuntu.com/WirawanPurwanto/WirelessAutoselect)
-    * [How to get a Raspberry Pi to set up a wireless ad-hoc network, but only if it is not already connected](http://www.novitiate.co.uk/?p=183)
-    * [Raspberry Pi Tutorial – Connect to WiFi or Create An Encrypted DHCP Enabled Ad-hoc Network as Fallback](http://lcdev.dk/2012/11/18/raspberry-pi-tutorial-connect-to-wifi-or-create-an-encrypted-dhcp-enabled-ad-hoc-network-as-fallback/)
+  * [WirelessAutoselect](https://wiki.ubuntu.com/WirawanPurwanto/WirelessAutoselect)
+  * [How to get a Raspberry Pi to set up a wireless ad-hoc network, but only if it is not already connected](http://www.novitiate.co.uk/?p=183)
+  * [Raspberry Pi Tutorial – Connect to WiFi or Create An Encrypted DHCP Enabled Ad-hoc Network as Fallback](http://lcdev.dk/2012/11/18/raspberry-pi-tutorial-connect-to-wifi-or-create-an-encrypted-dhcp-enabled-ad-hoc-network-as-fallback/)
 * Internet Connection
-    * [Internet Connection Sharing in Linux over Ad-hoc Wireless](http://jwalanta.blogspot.com/2010/02/internet-connection-sharing-ics-in.html)
-    * [IP Masquerading using iptables](http://www.billauer.co.il/ipmasq-html.html)
-    * [Ubuntu IP Masquerading](http://linux.about.com/od/ubusrv_doc/a/ubusg18t03.htm)
+  * [Internet Connection Sharing in Linux over Ad-hoc Wireless](http://jwalanta.blogspot.com/2010/02/internet-connection-sharing-ics-in.html)
+  * [IP Masquerading using iptables](http://www.billauer.co.il/ipmasq-html.html)
+  * [Ubuntu IP Masquerading](http://linux.about.com/od/ubusrv_doc/a/ubusg18t03.htm)
 * Handling Multiple Networks
-    * [How to setup multiple WiFi networks?](http://raspberrypi.stackexchange.com/questions/11631/how-to-setup-multiple-wifi-networks)
-    * [Use a Raspberry Pi with multiple WiFi networks](https://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks)
-    * [HowTo: Connect and roam wifi networks with wpasupplicant](http://crunchbang.org/forums/viewtopic.php?id=16624)
+  * [How to setup multiple WiFi networks?](http://raspberrypi.stackexchange.com/questions/11631/how-to-setup-multiple-wifi-networks)
+  * [Use a Raspberry Pi with multiple WiFi networks](https://www.mikestreety.co.uk/blog/use-a-raspberry-pi-with-multiple-wifi-networks)
+  * [HowTo: Connect and roam wifi networks with wpasupplicant](http://crunchbang.org/forums/viewtopic.php?id=16624)
 * General Information
-    * [Connect to WiFi network from command line in Linux](http://www.blackmoreops.com/2014/09/18/connect-to-wifi-network-from-command-line-in-linux/)
-    * [How do I connect to a WPA wifi network using the command line?](http://askubuntu.com/questions/138472/how-do-i-connect-to-a-wpa-wifi-network-using-the-command-line)
-    * [How to connect to a WPA/WPA2 WiFi network using Linux command line](http://linuxcommando.blogspot.com/2013/10/how-to-connect-to-wpawpa2-wifi-network.html)
-    * [Chapter 5. Network setup](https://www.debian.org/doc/manuals/debian-reference/ch05.en.html#_the_loopback_network_interface)
-    * [WifiDocs/Adhoc](https://help.ubuntu.com/community/WifiDocs/Adhoc)
-    * [Wi-Fi WLAN wireless home networking information](https://help.ubuntu.com/community/WifiDocs/WiFiHowTo)
-    * [Configuring a WLan ad-hoc network](http://www.mertl-research.at/ceon/doku.php?id=hardware:beaglebone_black:debian:configure_wlan_adhoc_network)
-    * [Setting up Wifi with the Command Line](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis)
+  * [Connect to WiFi network from command line in Linux](http://www.blackmoreops.com/2014/09/18/connect-to-wifi-network-from-command-line-in-linux/)
+  * [How do I connect to a WPA wifi network using the command line?](http://askubuntu.com/questions/138472/how-do-i-connect-to-a-wpa-wifi-network-using-the-command-line)
+  * [How to connect to a WPA/WPA2 WiFi network using Linux command line](http://linuxcommando.blogspot.com/2013/10/how-to-connect-to-wpawpa2-wifi-network.html)
+  * [Chapter 5. Network setup](https://www.debian.org/doc/manuals/debian-reference/ch05.en.html#_the_loopback_network_interface)
+  * [WifiDocs/Adhoc](https://help.ubuntu.com/community/WifiDocs/Adhoc)
+  * [Wi-Fi WLAN wireless home networking information](https://help.ubuntu.com/community/WifiDocs/WiFiHowTo)
+  * [Configuring a WLan ad-hoc network](http://www.mertl-research.at/ceon/doku.php?id=hardware:beaglebone_black:debian:configure_wlan_adhoc_network)
+  * [Setting up Wifi with the Command Line](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis)
 
 
 
@@ -1418,7 +1444,6 @@ Much of what is explained here can be derived (with great difficulty) from the f
 [08]:https://manpages.debian.org/cgi-bin/man.cgi?query=interfaces&apropos=0&sektion=0&manpath=Debian+7.0+wheezy&format=html&locale=en
 [09]:http://unix.stackexchange.com/questions/128439/good-detailed-explanation-of-etc-network-interfaces-syntax
 [10]:http://www.linux-tutorial.info/modules.php?name=ManPage&sec=8&manpage=ifup
-[11]:https://en.wikipedia.org/wiki/Supplicant_(computer)
 [12]:http://linux.die.net/man/5/wpa_supplicant.conf
 [13]:http://linux.die.net/man/8/wpa_supplicant
 [14]:https://wiki.debian.org/NetworkManager
@@ -1467,7 +1492,6 @@ Much of what is explained here can be derived (with great difficulty) from the f
 [57]:https://nims11.wordpress.com/2012/04/27/hostapd-the-linux-way-to-create-virtual-wifi-access-point/
 [58]:https://w1.fi/hostapd/
 [59]:http://linux.die.net/man/5/networkmanager.conf
-[60]:http://wireless.kernel.org/en/users/Documentation/iw
 [61]:http://www.howtogeek.com/178691/htg-explains-what-is-wi-fi-direct-and-how-does-it-work/
 [62]:https://github.com/adafruit/Adafruit-Pi-Finder
 [63]:http://www.oreilly.com/openbook/linag2/book/ch11.html

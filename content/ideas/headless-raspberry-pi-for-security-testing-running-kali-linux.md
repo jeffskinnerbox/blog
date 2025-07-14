@@ -59,6 +59,7 @@ Version:      0.0.0
 
 
 # Flipper
+
 Designed by Pavel Zhovner, Flipper is a portable, practical pentesting platform pocket-tool.
 It is able to operate in a number of tailored modes, giving you a range of application specific approaches
 to the walled gardens you are trying to gain access to.
@@ -77,6 +78,7 @@ What can it do ... see this [Flipper Zero: Truth or Hype?](https://www.youtube.c
 
 
 ## CapybaraZero
+
 A cheap alternative to FlipperZero™ based on Espressif boards
 
 * [Forget Flipper, How About Capybara?](https://hackaday.com/2024/10/20/forget-flipper-how-about-capybara/)
@@ -87,7 +89,7 @@ A cheap alternative to FlipperZero™ based on Espressif boards
 
 * [What’s On Your Bank Card? Hacker Tool Teaches All About NFC And RFID](https://hackaday.com/2021/10/04/whats-on-your-bank-card-hacker-tool-teaches-all-about-nfc-and-rfid/)
 * [Hunt Down NFC Signals With This NFC Multi Tool](https://hackaday.com/2022/10/17/hunt-down-nfc-signals-with-this-nfc-multi-tool/)
-    * [Huntercat NFC](https://github.com/ElectronicCats/HunterCatNFC)
+  * [Huntercat NFC](https://github.com/ElectronicCats/HunterCatNFC)
 * [Getting started: BomberCat](https://www.hackster.io/electronic-cats/getting-started-bombercat-fe8316)
 
 
@@ -105,6 +107,7 @@ such as [Tor][53],
 
 
 # Hacking
+
 Good sources of hacking/cracking tools and knowledge:
     *<https://null-byte.wonderhowto.com/forum/>
     * <https://www.hak5.org/>
@@ -151,17 +154,18 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 
 
 # USB Attach Platform
+
 [Top 10 Gadgets Every White & Black Hat Hacker Use & Needs In Their Toolkit](https://www.youtube.com/watch?v=uVnMy1qtJWc)
 
 * [Bash Bunny](https://www.hak5.org/gear/bash-bunny)
-    * [Build an Affordable Bash Bunny with a Raspberry Pi Zero W](https://blog.hackster.io/build-an-affordable-bash-bunny-with-a-raspberry-pi-zero-w-11a4abf7bde5)
+  * [Build an Affordable Bash Bunny with a Raspberry Pi Zero W](https://blog.hackster.io/build-an-affordable-bash-bunny-with-a-raspberry-pi-zero-w-11a4abf7bde5)
 * [Rubber Ducky](https://shop.hak5.org/products/usb-rubber-ducky-deluxe)
 * [Open Hardware Rubber Ducky](https://hackaday.com/2019/07/24/an-open-hardware-rubber-ducky/)
 * [How to create a rubber ducky usb?](https://epn.org/how-to-create-a-rubber-ducky-usb/)
 * [BadUSB](https://opensource.srlabs.de/projects/badusb)
 * [PoisonTap](https://samy.pl/poisontap/)
-    * [PoisonTap - exploiting locked machines w/Raspberry Pi Zero](https://www.youtube.com/watch?v=Aatp5gCskvk)
-    * [Applied Hacking: Poison Tap](https://samy.pl/poisontap/)
+  * [PoisonTap - exploiting locked machines w/Raspberry Pi Zero](https://www.youtube.com/watch?v=Aatp5gCskvk)
+  * [Applied Hacking: Poison Tap](https://samy.pl/poisontap/)
 * [USBdriveby](http://samy.pl/usbdriveby/)
 * [USBHarpoon](https://www.bleepingcomputer.com/news/security/usbharpoon-is-a-badusb-attack-with-a-twist/)
 * [ESPloit](https://github.com/exploitagency/ESPloitV2)
@@ -169,6 +173,7 @@ and [Part 2](https://medium.com/@alexharasic/hijacking-your-home-iot-appliance-p
 
 
 # Build a Hacking Raspberry Pi
+
 You find many articles about how to turn a Raspberry Pi into a hacking platform:
 
 * [How to Build a Hacking Raspberry Pi](https://null-byte.wonderhowto.com/how-to/hacks-mr-robot-build-hacking-raspberry-pi-0163143/)
@@ -205,6 +210,7 @@ You find many articles about how to turn a Raspberry Pi into a hacking platform:
 
 
 # SIFT Workstation
+
 The SIFT Workstation is a group of free open-source incident response
 and forensic tools designed to perform detailed digital forensic examinations
 in a variety of settings.
@@ -213,6 +219,7 @@ in a variety of settings.
 
 
 # Insomnia
+
 Insomnia is open source cross-platform REST API client desktop application and alternative to Postmen.
 It takes the pain out of interacting with HTTP-based APIs.
 Insomnia combines an easy-to-use interface with advanced functionality like
@@ -222,6 +229,7 @@ authentication helpers, code generation, and environment variables.
 
 
 # Mitmproxy
+
 [mitmproxy][100] is an open source, interactive,
 SSL-capable intercepting proxy with a console interface
 used for debugging, testing, privacy measurements, and penetration testing.
@@ -230,6 +238,7 @@ HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols.
 
 
 # TAILS
+
 The Amnesiac Incognito Live System (TAILS)
 is a Debian-based version of Linux that leaves no trace of any user activity,
 nor the operating system itself, on your computer.
@@ -254,6 +263,7 @@ The operating system is free to use and live boots from a USB stick.
 
 
 ## Pentesting in Action
+
 [DevOops](https://app.hackthebox.com/login) is a retired machine on [HackTheBox](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159). [This write-up](https://kaizoku.dev/htb-devoops) is a walk through the methodology that leads to root shell.
 
 
@@ -282,6 +292,7 @@ The operating system is free to use and live boots from a USB stick.
 
 
 ## WiFi Channels
+
 Selecting the proper WiFi channel can significantly improve your WiFi coverage and performance.
 In the 2.4 GHz band, [1, 6 and 11 are the only non-overlapping channels][01],
 and many wireless routers automatically select the channel for you upon initial setup.
@@ -290,6 +301,7 @@ it could lead to slow WiFi speeds and interference.
 
 
 ## WiFi Scanning
+
 <https://security.stackexchange.com/questions/152007/why-do-wifi-devices-broadcast>
 
 WiFi scanning is one of the basic functions in a wireless network.
@@ -338,6 +350,7 @@ that are used by the WiFi driver to pass information to user-space applications.
 
 
 ## WiFi Modes
+
 A WiFi network device always operates in one
 (or for some special hardware, multiple modes as in AP+STA or WDS with AP Mode)
 of the six modes that 802.11 wireless cards can operate in:
@@ -353,6 +366,7 @@ Strictly speaking, Infrastructure Mode is not a device mode but a concept.
 
 
 ## WiFi Monitor and Promiscuous Modes
+
 The Ethernet and WiFi data is broadcasted to all who wish to listen on a wire or in the air
 but only "marked" to be processed by the intended receiver.
 The packets sent are are not constrained to reach a specific device, unlike with switched LANs.
@@ -413,6 +427,7 @@ sudo ifconfig wlan0 up
 
 
 ## Packet Injection
+
 It may also be possible to transmit packets in [monitor mode][05],
 which is known as [packet injection][60] (aka [RadioTap][61]).
 Most wireless attacks require that you be able to inject packets into the AP while,
@@ -429,6 +444,7 @@ then it really limits what we do from a penetration testing prospective.
 
 
 # Kali Penetration Testing Tools
+
 A penetration test, aka pen test, is an authorized simulated cyberattack on a computer system,
 generally performed by security evaluation professional.
 There are some [popular tools][02] these professional hackers typically use,
@@ -447,6 +463,7 @@ operating system distribution in its own right.
 
 
 ## Kali Platform Install
+
 Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing.
 The version I installed was version 2018.3 (i.e. [Kali Linux RPi - kali-linux-2018.3-rpi.img.xz][19]).
 
@@ -459,6 +476,7 @@ The version I installed was version 2018.3 (i.e. [Kali Linux RPi - kali-linux-20
 
 
 ### Step 1: Kali System Physical Design - DONE
+
 For my Kali Linux hardware platform,
 I used a [Raspberry Pi 2 Model B][09] which has quad core ARMv7 processor, and 1 Gigabyte of RAM.
 This isn't the [most powerful Raspberry Pi][14],
@@ -499,6 +517,7 @@ assuming you choose not to use a wired Ethernet connection.
 
 
 ### Step 2: Download Kali Image - DONE
+
 Before you can load a copy of the latest version of Kali on your Raspberry Pi,
 you must first download the official operating system from [here][06] and [here][07].
 
@@ -523,6 +542,7 @@ total 4237888
 
 
 ### Step 3: Write Kali Image to SD Card - DONE
+
 Next using Linux, you have copied the Kali image onto the SD card mounted to your system.
 I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][11] to create my SD Card.
 Make sure to [choose a reputable SD Card][12] from [here][13], don't go cheap.
@@ -623,6 +643,7 @@ sudo umount /dev/sdj
 
 
 ### Step 3: Installing SSH on Kali at First Boot - DONE
+
 I want to do a headless installation of Kali Linux on the Raspberry Pi.
 Why?  I don't have conveniently on-hand a spare monitor, keyboard, and mouse.
 With the Raspberry Pi's standard Raspian OS,
@@ -680,6 +701,7 @@ and to remove the line containing `dpkg-reconfigure openssh-server` previously a
 
 
 ### Step 4: Resize the Linux Partition - DONE
+
 I logged into my Kali/RPi and checked the filesystem:
 
 ```bash
@@ -716,6 +738,7 @@ Now we'll install the full version of Kali Linux.
 
 
 ### Step 5: Installing Full Version of Kali Linux - DONE
+
 Now you will want to apply updates and upgrades to Kali
 and get access to it's full capabilities.
 During the installation of the full Version of Kali Linux on Raspberry Pi,
@@ -746,6 +769,7 @@ We'll browse through some of them later.
 
 
 ### Step X: Wireless Command & Control (C2) Dongle - RAN INTO DRIVER ISSUES
+
 [How to resolve EW-7811Un built-in driver issues in Linux kernel v3.10 or higher](https://edimax.freshdesk.com/support/solutions/articles/14000035492-how-to-resolve-ew-7811un-built-in-driver-issues-in-linux-kernel-v3-10-or-higher)
 
 The purpose of the C2 wireless dongle is to automatically connect the Pi
@@ -863,11 +887,13 @@ install the Edimax dongle into the RPi USB, and restart the RPi to make sure C2 
 
 
 ### Step X: Wireless Attack Dongle
+
 Our attack wireless dongle will be a Kali Linux-compatible WiFi adapter capable of packet injection.
 This wireless device will be our attack method onto a WiFi network.
 
 
 ### Step 5: Install WiFi Drivers
+
 For my WiFi radio,
 I choose the [Alfa AWUS036ACH][26] with its dual antennas and dual band technology
 (2.4 GHz 300 Mbps/5 GHz 867 Mbps) supports 802.11ac and a, b, g, n.
@@ -903,6 +929,7 @@ but doesn't have much gain / range as the Alfa AWUS036ACH.
 
 
 #### Step X: Remote Desktop into Kali
+
 I want to remote desktop into the Kali Linux so I can take full advantage of the Kali desktop GUI menu system.
 There are in fact [many remote desktop software packages][32] available to choose from,
 but only small number seem to have any following in the Linux world,
@@ -943,6 +970,7 @@ The VNCserver software is installed already on Kali but needs to be configured.
 
 
 ##### VNC Install on Ubuntu
+
 So I need to install the TightVNC VNC client on Ubuntu],
 but for completeness, I'll do both the client and server:
 
@@ -1007,6 +1035,7 @@ When working with VNC servers, remember that `:X` is a display port that refers 
 
 
 ##### VNC Install on Kali
+
 For VNC to work on the Kali Raspberry Pi,
 SSH server must be available and running as installed above.
 Now lets install [TightVNC][39]
@@ -1101,6 +1130,7 @@ vncserver :1
 
 
 ##### Starting VNC on Kali at Boot Time and Making it More Secure
+
 You may want to enable the VNC when Kali boots up so I can VNC right into it for the GUI.
 Otherwise I'll need to first SSH in and turn on the VNC server, as done above.
 Also you may be using your Kali outside of your local network
@@ -1113,10 +1143,12 @@ to address these things.
 
 
 ## Personalize Kali Platform
+
 Need to install my personal tools to feel at home.
 
 
 ### Step X: Install Your Personal Tools
+
 Now that all the Linux packages have been loaded,
 time to install my "personal tools" that Ihave learned to depend on.
 
@@ -1162,6 +1194,7 @@ ln -s ~/.X/xsessionrc ~/.xsessionrc
 
 
 ### Step X: Installing Kali Lazy Script
+
 The [LAZY script][48] is for Kali Linux and
 automates many procedures for WiFi penetration and hacking.
 
@@ -1190,11 +1223,13 @@ rmdir -r /root/lscript
 
 
 ### Step X: Arpwatch Configuration
+
 check out
 cheatsheet-ip-networking-commands.md
 
 
 ### Step X: Post-Install
+
 These are the few things which you may want to perform
 after installing a fresh version of Kali Linux.
 
@@ -1269,6 +1304,7 @@ proxychains iceweasel
 
 
 ### Step X: Check the Software and Hardware Version of a Raspberry Pi
+
 For the recorded, let print the hardware and software
 information we have for this Raspberry Pi + Kali setup:
 
@@ -1348,6 +1384,7 @@ echo "CPU => $((cpu/1000))'C"
 
 
 #### Add Standard User
+
 By default, Kali tools only run as the root user.
 It is not a good idea to run as root unless it is necessary,
 so next we are going to add a standard user account.
@@ -1368,6 +1405,7 @@ chsh -s /bin/bash pi
 
 
 #### Filezilla
+
 Filezilla is one of the better FTP clients, so install Filezilla using the following command:
 
 
@@ -1378,6 +1416,7 @@ apt-get install filezilla filezilla-common -y
 
 
 #### HTOP and NetHogs
+
 HTOP shows running process and memory used including many more details than the standard `top`.
 NetHogs shows traffic used by applications per interface.
 Install them using the following command:
@@ -1396,6 +1435,7 @@ nethogs wlan0
 
 
 #### Recordmydesktop
+
 Recordmydesktop gives you the ability to record and make a video of your activities in Kali Linux.
 
 ```bash
@@ -1409,6 +1449,7 @@ apt-get install gtk-recordmydesktop recordmydesktop -y
 
 
 ### Step X: Install OpenVAS
+
 The Open Vulnerability Assessment System (OpenVAS) is a framework of several services
 and tools offering a comprehensive and powerful vulnerability scanning and vulnerability management solution.
 
@@ -1421,6 +1462,7 @@ and tools offering a comprehensive and powerful vulnerability scanning and vulne
 
 
 ### Step X: Backup Kali Image via UrBackup
+
 UrBackup is an easy to setup open source client/server backup system, that through a combination of image and file backups accomplishes both data safety and a fast restoration time. File and image backups are made while the system is running without interrupting current processes. UrBackup also continuously watches folders you want backed up in order to quickly find differences to previous backups. Because of that incremental file backups are really fast. Your files can be restored through the web interface or the Windows Explorer while the backups of drive volumes can be restored with a bootable CD or USB-Stick (bare metal restore). A web interface makes setting up your own backup server really easy.
 
 * Full PC Image Backup with Raspberry pi / UrBackup - <https://www.youtube.com/watch?v=4Dtr-hPQ8Ro&index=3&list=PL846hFPMqg3iTKbgQryS6UNXM4Nf3KVFw>
@@ -1441,6 +1483,7 @@ UrBackup is an easy to setup open source client/server backup system, that throu
 
 
 ## Keeping Kali Up to Date
+
 You can keep Kali up to date with [apt package management][49].
 
 To remove any packages that aren't needed by the system:
@@ -1483,6 +1526,7 @@ apt-get -y autoremove
 
 
 ## Evading Detection
+
 Whenever you visit a website or server over the Internet,
 your unique Interpret Protocol (IP) address travels with you.
 It would then be very easy to trace the source of an attack by simply tracing the source IP address.
@@ -1570,6 +1614,7 @@ pip install arpwitch
 
 
 ## Shodan is the Search Engine for IoT
+
 [Shodan](https://www.shodan.io) is a search engine for Internet-connected devices. Google lets you search for websites, Shodan lets you search for devices. This library provides developers easy access to all of the data stored in Shodan in order to automate tasks and integrate into existing tools.
 
 * [How to Find Vulnerable Targets Using Shodan—The World's Most Dangerous Search Engine](https://null-byte.wonderhowto.com/how-to/hack-like-pro-find-vulnerable-targets-using-shodan-the-worlds-most-dangerous-search-engine-0154576/)
@@ -1604,6 +1649,7 @@ pip install arpwitch
 
 
 ## Metasploit Framework
+
 The [Metasploit Project][50] is a computer security project that provides information
 about security vulnerabilities and aids in penetration testing
 and Intrusion Detection System (ISD) signature development.
@@ -1633,6 +1679,7 @@ db_status
 
 
 ## Open-Source Intelligence (OSINT)
+
 Open-source intelligence is the collection and analysis of data gathered from open sources to produce actionable intelligence.
 
 * [What Is Open Source Intelligence and How Is it Used?]()<https://www.recordedfuture.com/open-source-intelligence-definition>
@@ -1641,12 +1688,14 @@ Open-source intelligence is the collection and analysis of data gathered from op
 
 
 ## Maltego
+
 Maltego is am open-source forensics and intelligence gathering.
 
 * <https://null-byte.wonderhowto.com/collection/maltego/>
 
 
 ## WiFi Deauthentication Attack
+
 A [WiFi deauthentication attack](https://en.wikipedia.org/wiki/Wi-Fi_deauthentication_attack)
 is a type of denial-of-service attack that targets communication between a user and a Wi-Fi wireless access point.
 

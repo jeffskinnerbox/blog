@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # WiFi Access Point
+
 WiFi access points (APs) don’t have the necessary routing function to form a network.
 Consequently, for this setup to work, you’ll need a router.
 In this case, a standard non-WiFi one will work and I choose pfSense in my solution.
@@ -44,6 +45,7 @@ the less busy the radio environment will be.
 >As a result, the 620 V3 might be more desirable.
 
 # WiFi 6 (802.11ax)
+
 Where previous generations of WiFi focused on increasing data rates and speed,
 [WiFi 6 and 6E][04] (also known as 802.11ax) is the new generation of
 WiFi technology with a new focus on efficiency and performance.
@@ -73,6 +75,7 @@ More information on WiFi 6:
 * [What is WiFi 6??? - Speed/Range Test vs WiFi 5 - AX vs AC](https://www.youtube.com/watch?v=T2LdR1K0xNo)
 
 # TP-Link EAP610 (AX1800 WiFi 6)
+
 The question of when to buy a new access point, as always, rests mainly on the cost of such equipment.
 The [TP-Link EAP610 (AX1800 WiFi 6)][16] is a budget version of a WiFi 6,
 with impressive [specifications][10],
@@ -86,6 +89,7 @@ to a self-hosted router + firewall + AP home network.
 * [TP-Link Omada - Complete Overview](https://www.youtube.com/watch?v=44gYQcHlCFk)
 
 # Omada Controller Software
+
 [Omada EAP][01] is a [Software Defined Networking (SDN)][02] platform
 that integrates network devices, including access points,
 switches and gateways, providing centralized management.
@@ -119,6 +123,7 @@ Ideally, for a business, you should have a controller running at all times. Howe
 
 
 # Setup TP-Link EAP610 WiFi 6 Access Point
+
 Omada EAPs support [two configuration modes][11]:
 
 * **Controller Mode** is the preferred method for centrally managing many EAPs in a large-scale wireless network.
@@ -142,6 +147,7 @@ Modify the wireless parameters and reconnect your wireless devices to the new wi
 * [TP-Link EAP610 Wireless Access Point Installation Guide](https://manuals.plus/tp-link/eap610-wireless-access-point-manual)
 
 #### Step X: Setup AP in Standalone Mode
+
 TP-Link provides a [website to you get started in Omada EAPs][17]
 and a [quick installation guide][19].
 Read the instructions and determine your optimal management method in your situation,
@@ -162,16 +168,20 @@ The Omada App is designed to help you quickly configure the common settings.
     * Launch a web browser and enter `http://tplinkeap.net` in the address bar.  Use `admin` for both Username and Password to log in.
 
 #### Step X: Install Controller Software
-* https://www.tp-link.com/us/support/download/eap610/#Controller_Software
+
+* <https://www.tp-link.com/us/support/download/eap610/#Controller_Software>
 
 #### Step X: EAP 610 setup with Omada SDN
+
 * [TP-Link EAP 610 Review: Adding Wi-Fi 6 to My Home](https://hometechhacker.com/tp-link-eap-610-review-adding-wi-fi-6-to-my-home/)
 
 #### Step X: Update the Firmware
-* https://www.tp-link.com/us/support/download/eap610/#Firmware
+
+* <https://www.tp-link.com/us/support/download/eap610/#Firmware>
 
 #### Step X: Speed Test
-* https://www.tp-link.com/us/support/faq/3105/
+
+* <https://www.tp-link.com/us/support/faq/3105/>
 
 
 

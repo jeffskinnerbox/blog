@@ -30,11 +30,11 @@ Google, the inventor of the highly popular TensorFlow,  is also in the hardware 
 New Algorithms and Solution Methodology. Create a new generation of algorithmic techniques, or solution deliver approaches, that reduce power and computational needs.
 
 
-Why is edge AI important? - https://www.experfy.com/blog/why-is-edge-ai-important
-Algorithms That Learn with Less Data Could Expand AI’s Power - https://www.technologyreview.com/s/601551/algorithms-that-learn-with-less-data-could-expand-ais-power/
-A Brief Guide to Intel Movidius Neural Compute Stick with Raspberry Pi 3 - https://medium.com/deep-learning-turkey/a-brief-guide-to-intel-movidius-neural-compute-stick-with-raspberry-pi-3-f60bf7683d40
-NVIDIA Jetson Nano is a $99 Raspberry Pi Rival for AI Development - https://itsfoss.com/nvidia-jetson-nano/
-Google's Edge TPU Machine Learning Chip Debuts in Raspberry Pi-Like Dev Board - https://www.tomshardware.com/news/google-edge-tpu-coral-dev-board-usb-accelerator,38750.html
+Why is edge AI important? - <https://www.experfy.com/blog/why-is-edge-ai-important>
+Algorithms That Learn with Less Data Could Expand AI’s Power - <https://www.technologyreview.com/s/601551/algorithms-that-learn-with-less-data-could-expand-ais-power/>
+A Brief Guide to Intel Movidius Neural Compute Stick with Raspberry Pi 3 - <https://medium.com/deep-learning-turkey/a-brief-guide-to-intel-movidius-neural-compute-stick-with-raspberry-pi-3-f60bf7683d40>
+NVIDIA Jetson Nano is a $99 Raspberry Pi Rival for AI Development - <https://itsfoss.com/nvidia-jetson-nano/>
+Google's Edge TPU Machine Learning Chip Debuts in Raspberry Pi-Like Dev Board - <https://www.tomshardware.com/news/google-edge-tpu-coral-dev-board-usb-accelerator,38750.html>
 
 
 
@@ -55,9 +55,11 @@ Google's Edge TPU Machine Learning Chip Debuts in Raspberry Pi-Like Dev Board - 
 >we perform to gain a deeper understanding that really matters.
 
 ## Life on the Network Edge
+
 * [Life on the Network Edge](https://www.networkcomputing.com/networking/life-edge/315272529)
 
 ## The IoT Edge
+
 The Industrial Internet Consortium (IIC) has published its latest dictionary of terms
 related to the IoT space.
 The IIC dictionary, called the ["Industrial Internet Vocabulary Report, version 2.1"][01],
@@ -75,12 +77,14 @@ until they try to summarize to a single sentence like: The 'edge' is a continuum
 ## Edge Data Center
 
 ## Multi-access Edge Computing (MEC)
-* https://www.sdxcentral.com/articles/contributed/enabling-sdn-based-multi-access-edge-computing-systems/2018/08/
-* https://www.etsi.org/technologies-clusters/technologies/multi-access-edge-computing
+
+* <https://www.sdxcentral.com/articles/contributed/enabling-sdn-based-multi-access-edge-computing-systems/2018/08/>
+* <https://www.etsi.org/technologies-clusters/technologies/multi-access-edge-computing>
 
 ## The Intelligent Edge
-* https://www.techopedia.com/definition/32559/intelligent-edge
-* https://www.hpe.com/us/en/insights/articles/the-intelligent-edge-what-it-is-what-its-not-and-why-its-useful-1704.html
+
+* <https://www.techopedia.com/definition/32559/intelligent-edge>
+* <https://www.hpe.com/us/en/insights/articles/the-intelligent-edge-what-it-is-what-its-not-and-why-its-useful-1704.html>
 
 [Microsoft says][04] the Intelligent Edge is the next evolution in computing:
 "The intelligent edge bridges the digital and real world—enabling
@@ -93,6 +97,7 @@ so they made an [animation][03].
 ## The Network Edge
 
 # Open Glossary of Edge Computing
+
 * [Open Glossary of Edge Computing](https://www.stateoftheedge.com/glossary)
 
 

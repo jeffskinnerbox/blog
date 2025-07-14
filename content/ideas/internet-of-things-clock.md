@@ -156,6 +156,7 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 
 
 ## Galileo Escapement Mechanism
+
 Galileo's escapement is a design for a clock escapement,
 invented around 1637 by Italian scientist Galileo Galilei (1564 - 1642).
 It was the earliest design of a pendulum clock.
@@ -172,6 +173,7 @@ It was the earliest design of a pendulum clock.
 
 
 ## Clepsydra Clock
+
 A water clock or clepsydra is any timepiece by which time is measured by
 the regulated flow of liquid into (inflow type) or out from (outflow type) a vessel,
 and where the amount is then measured.
@@ -185,6 +187,7 @@ and where the amount is then measured.
 
 
 # Weather Clock
+
 An digital analog clock but instead of showing the hours, the clock shows the weather at that hour of the day.
 So instead of showing 1, it will show the weather forecast for 1AM/PM.
 Click on the hour for more detailed information such as wind, precipitation and more.
@@ -212,6 +215,7 @@ Once in the detailed view, simply click the center again to return to the analog
 
 
 ## Pulse Per Second (PPS) Signal from the GPS
+
 A pulse per second (PPS or 1PPS) is an electrical signal that has a width of less than one second and a sharply rising or abruptly falling edge that accurately repeats once per second. PPS signals are output by radio beacons, frequency standards, other types of precision oscillators and some GPS receivers.
 
 * [Nanosecond clock sync with a Raspberry Pi](https://www.youtube.com/watch?v=RvnG-ywF6_s&feature=youtu.be)
@@ -283,6 +287,7 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 
 
 ## Big Display
+
 **Big**
 
 * [DIY Big Digital Clock](https://ivanmiranda.com/pages/diy-big-digital-clock)
@@ -303,6 +308,7 @@ A pulse per second (PPS or 1PPS) is an electrical signal that has a width of les
 
 
 ## Projecting Time on Ceiling
+
 Project of a clock (or other information) on ceiling in bedroom
 
 * [Pocket Projector Uses Raspberry Pi](https://hackaday.com/2018/06/06/pocket-projector-uses-raspberry-pi/)
@@ -344,6 +350,7 @@ Project of a clock (or other information) on ceiling in bedroom
 
 
 ## Cyclotron Clock
+
 The digits in this clock are based on a perpetual calendar dating back to the early 1900s.
 
 * [A Flipping, Perpetually-Rotating Clock](https://hackaday.com/2022/10/13/a-flipping-perpetually-rotating-clock/)
@@ -357,6 +364,7 @@ The digits in this clock are based on a perpetual calendar dating back to the ea
 
 
 ## Math Clock
+
 Make a Math Wall Clock using e-Paper - <https://www.google.com/search?q=math+wall+clock>
 
 
@@ -424,6 +432,7 @@ Make a Math Wall Clock using e-Paper - <https://www.google.com/search?q=math+wal
 
 
 # Security
+
 Hyper Text Transfer Protocol Secure (HTTPS) is the secure version of HTTP,
 the protocol over which data is sent between your browser and the website that you are connected to.
 The 'S' at the end of HTTPS stands for 'Secure'.
@@ -482,6 +491,7 @@ In this manner clients can synchronize to servers regardless of location and tim
 
 
 ## NTP Architecture
+
 NTP uses a hierarchical architecture.
 Each level in the hierarchy is known as a stratum.
 At the very top are high-precision timekeeping devices,
@@ -498,6 +508,7 @@ Stratum 3 ... 15: These computers synchronize with other computers that are clos
 
 
 ## How NTP Works?
+
 NTP can operate in a number of ways.
 The most common configuration is to operate in client-server mode.
 The basic working principle is as follows:
@@ -510,6 +521,7 @@ The basic working principle is as follows:
 
 
 ## NTP Server
+
 The NTP acronym stands for [Network Time Protocol][07],
 which is an Internet networking communication protocol for clock synchronization
 between network clients, operating since 1980’s.
@@ -597,6 +609,7 @@ I2C is a serial protocol for two-wire interface to connect low-speed devices.
 
 
 ## Internal Clock
+
 A lot of project site tell you to use an RTC for time related projects,
 but in this Internet connected age, I don't think they really add value.
 The [internal clock of a ESP8266 will drift only 1 or 2 seconds per day][52],
@@ -630,6 +643,7 @@ you get a very interesting platform.
 
 
 # Over-The-Air (OTA) Firmware Updates
+
 OTA updates are critically important to developers with connected devices.
 I'm going to list several best practices developers should keep in mind with implementing their OTA solution.
 
@@ -650,6 +664,7 @@ This sequence creates a Chain-Of-Trust which is needed and used by firmware OTA 
 
 
 ## Establish Arduino IDE Development Environment
+
 In this section, my objective is to get my coding environment,
 the Arduino IDE, up in running for my ESP8266 platform.
 I'll use a simple program (temperature + humidity sensor read via One-Wire)
@@ -657,6 +672,7 @@ to test things out.
 
 
 ### Step 1: Download and Install Arduino IDE - DONE
+
 You can download the Arduino IDE from the [Arduino software website][35].
 To get the latest release for Linux 64bit:
 
@@ -695,6 +711,7 @@ the IDE via the command `arduino &>/dev/null &`.
 
 
 ### Step 2: Start Arduino IDE and Set Preferences - DONE
+
 Next well start the IDE and set our preferences:
 
 1. Start the Arduino Software IDE via the command `arduino &>/dev/null &`.
@@ -704,6 +721,7 @@ Go to **File** > **Preferences**
 
 
 ### Step 3: Load Needed Libraries - DONE
+
 The ESP8266 addon for the Arduino IDE
 is provided by the ESP8266 community.
 ([lead by Ivan Grokhotkov of Espressif][36]).
@@ -732,6 +750,7 @@ Repeat with the filter "DHT sensor" and select "DHT sensor by Adafruit".
 
 
 ### Step 4: Wire-up a ESP8266 - DONE
+
 In my case, I'm using the [NodeMCU DevKit][34]
 (a popular version of the NodeMCU v1.0 / ESP-12E board)
 manufactured by [HiLetgo][27] and easily obtainable via
@@ -742,6 +761,7 @@ and you'll find more information at "[DHT11, DHT22 and AM2302 Sensors][33]".
 
 
 ### Step 5: Load ESP8266 with Software - DONE
+
 With the ESP8266 libraries installed,
 all that’s left to do is select your ESP8266 board from the **Tools** > **Board** menu.
 So my selection was: **Tools** > **Board** menu > **NodeMCU v1.0 (ESP-12E Module)**.
@@ -759,6 +779,7 @@ Typically, this will be `/dev/ttyUSB0`.
 
 
 # Establish ESP8266/ESP32/Arduino Makefile Development Environment
+
 One of the main reasons why the Arduino boards and the IDE are very popular
 with beginners is that it is completely self-contained which makes it very easy to use.
 But I'm no beginner and I wish to live with my fimilar tools.
@@ -810,6 +831,7 @@ chmod +x esp32-install.sh && ./esp32-install.sh
 
 
 ### Step 2: Test Your Install
+
 Now lets test the install.
 You should get 100% error free feedback from the tests below:
 
@@ -837,6 +859,7 @@ make clean
 
 
 ### Step 3: Usage of Esp8266-Arduino-Makefile
+
 You can now create your Makefile for your project.
 The approach is very similar to when using [Arduino-Makefile][65].
 In your project directory you'll place a Makefile that looks something like this:
@@ -891,6 +914,7 @@ Targets available:
 
 
 ## makeEspArduino
+
 To get what I needed, I ended up settling on on [makeEspArduino][64] as my Makefile.
 While not as simple as I wished,
 it does seem to be very functional and well supported.
@@ -902,6 +926,7 @@ Only materials I have found are:
 
 
 ### Step 1: Install makeEspArduino
+
 Follow the [README file for makeEspArduino][64] to install it on your Linux box.
 
 ```bash
@@ -1023,6 +1048,7 @@ make -f ~/src/makeEspArduino/makeEspArduino.mk flash_fs
 
 
 ### Step 2: Test the Installation
+
 Next we'll verify the installation with a quick test.
 Attach a ESP8266 or ESP32 board and execute the following commands:
 
@@ -1044,6 +1070,7 @@ and then flash the ESP via the `esptool`.
 
 
 ### Step X: Building a Project
+
 You can now use the makefile `~/src/makeEspArduino/makeEspArduino.mk`
 to build your own sketches or any of the examples in the ESP/Arduino environment.
 The makefile will automatically search for a sketch in the current directory and build it if found.
@@ -1095,11 +1122,13 @@ include /home/jeff/src/makeEspArduino/makeEspArduino.mk
 
 
 ## Get Clock Display Working
+
 Before creating the software logic for the clock,
 lets get the physical wiring established and test it.
 
 
 ### Step X: Load Needed Boards - DONE
+
 Within the Ardiuno IDE,
 navigate to the Board Manager by going to **Tools** > **Board** menu > **Boards Manager**.
 Look for "esp8266 by ESP8266 Community"
@@ -1111,6 +1140,7 @@ via the command: `arduino-cli core install esp8266:esp8266`
 
 
 ### Step 1: Load Needed Libraries - DONE
+
 As you did earlier when setting up your development envirnment, within the Ardiuno IDE,
 navigate to the Board Manager by going to **Tools** > **Manage Libraries...**.
 Look for "arduino-timer" "Adafruit GFX Library" "Adafruit LED Backpack Library" "Time" "Timezone"
@@ -1122,12 +1152,14 @@ Alternatively, you can use the Arduino command line tool,
 
 
 ### Step 2: Assembling 7-Segment Display - DONE
+
 I purchased a large 7-segment display from Adafruit ([display][32] + [backpack][31]) for the clock face.
 Adafruit provides [detail instructions][30] on how to do the assembly of the components.
 Follow these instructions for assembly.
 
 
 ### Step 3: Wiring the 7-Segment Display - DONE
+
 With the physical assembly done, its time to wire the display to the ESP8266.
 For this display, Adafruit provides a library writen for the Arduino
 but will work with the ESP8266 via its I2C pins.
@@ -1194,6 +1226,7 @@ void loop() {
 
 
 ## Get Clock Software Logic Working
+
 When using a real-time clock (RTC), you need to provide hardware and logic
 to allow manual adjustment of the time.
 But if you have Internet access,
@@ -1216,6 +1249,7 @@ Two libraries are key to make this happen:
 
 
 ### Step X: Installing Arduino Library from GitHub - DONE
+
 There are many Arduino libraries supported natively by the Arduino IDE.
 If you come across a library you may need on GitHub
 (like the Arduino Time Library and the Arduino Timezone Library),
@@ -1266,6 +1300,7 @@ Other ideas
 
 
 ## Get Timer Interrupt Drive Actions Working
+
 In the above section, we generated updates to the clock display by
 timing your loops and adding delay statements.
 To get the timing for the delay correct and doing other task is difficult and still keep correct time.
@@ -1281,6 +1316,7 @@ It supports millis, micros, time rollover, and compile time configurable number 
 
 
 ### Step X: Install arduino-timer
+
 For the code below, we'll also need an additional library.
 You can do this via **Tools** > **Manage Libraries...** > enter "arduino-timer" and install.
 
@@ -1330,6 +1366,7 @@ void loop() {
 
 
 ## Create the NTP Driven Clock
+
 Now its time to combine the code fragments for the clock display, NTP client, and interrupt timers
 to create the foundation for a ESP8266 driven clock.
 
@@ -1342,6 +1379,7 @@ to create the foundation for a ESP8266 driven clock.
 
 
 ## Step X: Install Required Arduino IDE Libraries - DONE
+
 For the code below, we'll also need an additional library.
 I want a well supported MQTT publish and subcribe client and [Nick O'Leary code][77] seems to fit the bill.
 You can do this via **Tools** > **Manage Libraries...** > enter "PubSubClient" and install.
@@ -1351,6 +1389,7 @@ Better yet, use the Arduino command line tool:
 
 
 ## Step X: Test Library Install and Your Broker
+
 Before proceeding to my ntp-clock code,
 I want to make sure the library is properly installed and working with my targeted MQTT broker.
 To do this, I used on of the examples that comes with the Adafruit MQTT Library.
@@ -1372,6 +1411,7 @@ I choose [this example code][78].
 
 
 # Adding Alarm Clock Feature
+
 I placed a [rotary encoder][83], specifically the [KY-040 Rotary Encoder][84],
 on the back of the case so I could create an alarm feature.
 A press of the encoder puts it into "Alarm Set Mode",
@@ -1402,6 +1442,7 @@ Finally, add a AM/PM indicator on the clock face.
 
 
 # SGP30 Air Quality Sensor
+
 This part will measure eCO2 (equivalent calculated carbon-dioxide) concentration within a range of 400 to 60,000 parts per million (ppm), and TVOC (Total Volatile Organic Compound) concentration within a range of 0 to 60,000 parts per billion (ppb).
 
 * <https://www.adafruit.com/product/3709>
@@ -1429,6 +1470,7 @@ This part will measure eCO2 (equivalent calculated carbon-dioxide) concentration
 
 
 # BME280 Temperature, Humidity, and Pressure Sensor
+
 I purchased the [Diymore BME280 Temperature Humidity Barometric Pressure Sensor Module][80].
 This [BME280][79], which will work with the [Adafruit BME280 library][81],
 is a low power, small size integrated environmental sensor.
@@ -1445,6 +1487,7 @@ you can also use it as an altimeter from 0ft to 30Kft (±1 meter accuracy)!
 
 
 ### Step 1: Load Needed Libraries - DONE
+
 As you did earlier when setting up your development envirnment, within the Ardiuno IDE,
 navigate to the Board Manager by going to **Tools** > **Manage Libraries...**.
 Look for " "Adafruit Unified Sensor" and "Adafruit BME280 Library"
@@ -1455,6 +1498,7 @@ Alternatively, you can use the Arduino command line tool,
 
 
 ### Step X: Wiring BME280 Sensor to ESP8266 NodeMCU
+
 The BME280 module has a two-wire I2C interface for communication.
 The default I2C address of the BME280 module is `0x76`
 (it can be changed to `0x77` with [this procedure][82]).
@@ -1477,6 +1521,7 @@ The operating voltage of the BME280 module is from 3.3V to 5V.
 
 
 ## SPIFFS Filesystem
+
 There are two ways to store data on ESP8266:
 
 * The first is using internal EEPROM which is of 512 Bytes
@@ -1556,6 +1601,7 @@ for my SPIFFS work.
 
 
 ### Step X: Install `mkspiffs` - DONE
+
 The tool [`esptool.py`][32] should have been already installed in an earlier step
 but we must now install [`mkspiffs`][85].
 
@@ -1641,6 +1687,7 @@ Where:
 
 
 ### Step X: Preparing Filesystem with `mkspiffs`
+
 `mkspiffs` is a tool to build and unpack SPIFFS images.
 The images can be built on you development computer and uploaded during flashing.
 `mkspiffs` is used to create image from a given folder.
@@ -1745,6 +1792,7 @@ rather than [PROGMEM][61] (compile time flash loading).
 
 
 ### Step X: SPIFFSReadServer Web Server
+
 [SPIFFSReadServer](http://ryandowning.net/SPIFFSReadServer/)
 is a SPI Flash File System (SPIFFS) server extension of the
 ESP8266 Web Server (aka [ESP8266WebServer][58]).
@@ -1754,6 +1802,7 @@ you just replace it with `SPIFFSReadServer server(80);`.
 
 
 ### Step X: WiFi Manager Library (PersWiFiManager)
+
 The [Persistent WiFi Manager (PersWiFiManager)][55]
 provides a WiFi web interface to capture settings for ESP8266-based microcontrollers.
 The manager auto-connect to the last used WiFi network, and then if unsuccessful,
@@ -1810,6 +1859,7 @@ arduino-cli lib install "DoubleResetDetect"
 
 
 ### Step X:OTA (Over the Air) Update
+
 OTA (Over the Air) update is the process of loading the firmware to ESP module using Wi-Fi connection rather that a serial port. Such functionality became extremely useful in case of limited or no physical access to the module.
 
 * [Library Makes ESP Over the Air Updates Easy](https://hackaday.com/2019/03/21/library-makes-esp-over-the-air-updates-easy/)
@@ -1876,6 +1926,7 @@ Primary sources:
 
 
 ## Power Consumption
+
 | Configuration                       | Current Draw | Power     |
 |:-----------------------------------:|:------------:|:---------:|
 | Raspberry Pi only | | |
@@ -1945,6 +1996,7 @@ uuid=c3cfceee-3949-5a7c-8756-83c9d73510e4
 
 
 ### Step 1: Wiring the RTC - DONE
+
 I2C can be used to connect up to 127 nodes via a bus has two data wires, called SCL and SDA.
 SCL is the clock line.
 It is used to synchronize all data transfers over the I2C bus.
@@ -1969,6 +2021,7 @@ Wiring the Adafruit DS1207 RTC to the RPi simple:
 
 
 ## Step 2: Set Up & Test I2C - DONE
+
 You'll need to set up the Raspberry Pi of I2C, and to do so,
 run `sudo raspi-config` and under "Advanced" select "I2C" and turn it on
 (see [here][11] for more details).
@@ -2042,6 +2095,7 @@ This is telling you that the RTC isn't setup yet.
 
 
 ### Step 3: Detect the RTC Device - DONE
+
 As stated above, the RTC isn't working with the Raspberry Pi yet.
 To add support for the RTC, you must adding a [device tree overlay][14]
 (also see [this article][15]).
@@ -2095,6 +2149,7 @@ Now the "RTC time:" line has a value, so we know the RTC time is being read by t
 
 
 ### Step 4: Disable the Fake Hardware Clock - DONE
+
 On Linux machines that don't have a RTC unit,
 `fake-hwclock` is a set of scripts to save the kernel's current clock periodically,
 including at shutdown.
@@ -2179,6 +2234,7 @@ $ ntpq -p
 
 
 ### Step 5: Enable the Hardware Clock - DONE
+
 Now with the fake-hwclock off,
 you can start the original 'hardware clock' script.
 
@@ -2243,6 +2299,7 @@ Fri 09 Nov 2018 03:49:46 UTC  -0.409448 seconds
 
 
 ### Step X: Set Your Time Zone
+
 The Raspberry Pi will default to the UTC time zone,
 as highlighted in the above output.
 Consistently using Universal Time can reduces confusion when your infrastructure spans multiple time zones.

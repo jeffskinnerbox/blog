@@ -17,6 +17,7 @@ for CSI, you can get the NEID in the file `/home/csiadmin/coolerCache/neid`.
 
 `inxi` is a command line system information tool that provides a wealth of
 information about your Linux computer, whether it's a laptop, desktop, or server.
+
 * [3 ways to use the Linux inxi command](https://opensource.com/article/22/9/linux-inxi-command)
 
 * Check out Ansible an its `ansible localhost -m setup` command.
@@ -25,6 +26,7 @@ information about your Linux computer, whether it's a laptop, desktop, or server
 * [How To Check If A Linux System Is Physical Or Virtual Machine](https://ostechnix.com/check-linux-system-physical-virtual-machine/)
 
 # Tools
+
 * [What's in the Box? Interrogate Your Linux Machine's Hardware](http://www.linuxjournal.com/content/whats-box-interrogate-your-linux-machines-hardware)
 * [Linux commands to display your hardware information](https://opensource.com/article/19/9/linux-commands-hardware-information)
 [Get Linux System and Hardware Details on the Command Line](https://vitux.com/get-linux-system-and-hardware-details-on-the-command-line/)
@@ -40,10 +42,12 @@ information about your Linux computer, whether it's a laptop, desktop, or server
 * [Recognize more devices on Linux with this USB ID Repository](https://opensource.com/article/20/8/usb-id-repository)
 
 # HDMI
+
 * [Automatically detect when HDMI is plugged in](https://stackoverflow.com/questions/47960344/automatically-detect-when-hdmi-is-plugged-in/47964800)
 * [Detecting HDMI cable whether it's plugged in or not](https://bbs.archlinux.org/viewtopic.php?id=133921)
 
 # JSON
+
 * [Converting CSV to JSON in bash](https://stackoverflow.com/questions/44780761/converting-csv-to-json-in-bash)
 * [Transform plain data into json file](https://unix.stackexchange.com/questions/370032/transform-plain-data-into-json-file)
 * [7 Command-Line Tools for Data Science](https://www.datascienceworkshops.com/blog/seven-command-line-tools-for-data-science/)
@@ -96,16 +100,19 @@ lsblk -f | grep -v loop
 ```
 
 # Firmware Configuration Data
+
 ```bash
 # list of all drivers (modules) loaded in the Linux Kernel
 lsmod
 ```
 
 # Software Configuration Data
+
 ```bash
 ```
 
 # More Linux Configuration Commands
+
 * [GET BIOS, FIRMWARE, HARDWARE AND DRIVERS DETAILS IN LINUX/UNIX](https://www.linuxnix.com/how-to-get-bios-firmware-and-installed-drivers-details/)
 * [How to check HP iLO Firmware version from Linux command line](https://www.2daygeek.com/how-to-check-hp-ilo-firmware-version-from-linux-command-line/)
 * [How to get the Network Interface Card (NIC) firmware version on Linux system](https://www.dell.com/support/article/en-us/how11978/how-to-get-the-network-interface-card-nic-firmware-version-on-linux-system?lang=en)
@@ -113,7 +120,8 @@ lsmod
 * [Obtain hard-drive firmware information using Linux and smartctl](https://linuxconfig.org/obtain-hard-drive-firmware-information-using-linux-and-smartctl)
 * [LVFS makes Linux firmware updates easier](https://opensource.com/article/17/11/firmware-updates-and-lvfs)
 
-#Configuration Comparison
+# Configuration Comparison
+
 [Using jq or alternative command line tools to compare JSON files](https://stackoverflow.com/questions/31930041/using-jq-or-alternative-command-line-tools-to-compare-json-files)
 
 ```bash

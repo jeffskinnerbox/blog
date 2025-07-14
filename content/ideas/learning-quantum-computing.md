@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 # The MindBbending Complexity of Quantum Computing
+
 _"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
 ... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
 
@@ -77,6 +78,7 @@ Barriers to getting your head around quantum computing:
 
 
 # Quantum Analogies
+
 The reason we like analogies is essentially because we don’t have to do work to build a model in our brain to understand something. A good analogy allows us to map something complex onto models we already did the work to build in our brain. This is great when it works.
 But, quantum mechanics just doesn’t map into anything in the normal human experience. It is a new concept that must be built up from zero for each person that learns it.
 
@@ -93,6 +95,7 @@ But, quantum mechanics just doesn’t map into anything in the normal human expe
 
 
 # The Born Rule
+
 The Born rule is a postulate of quantum mechanics,
 formulated and published by Max Born in July, 1926.
 In its simplest form, it states that the probability density of finding a system in a given state,
@@ -108,11 +111,11 @@ when measured, is proportional to the normalized square of the amplitude of the 
 * [The Limits of Quantum Computers, by Scott Aaronson](https://www.cs.virginia.edu/~robins/The_Limits_of_Quantum_Computers.pdf)
 * [Scott Aaronson | Quantum Computing: Dismantling the Hype | The Cartesian Cafe with Timothy Nguyen](https://youtu.be/qs0D9sdbKPU?si=PoNJvb6b0mhGfECe)
 * [The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/?s=The+Unexaggerated+Magic+Of+Quantum)
-    * [Guest Post: The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/2024/01/17/guest-post-the-unexaggerated-magic-of-quantum/)
-    * [Guest Post: The Unexaggerated Magic Of Quantum – Part II](https://thequantuminsider.com/2024/02/15/guest-post-the-unexaggerated-magic-of-quantum-part-ii/)
-    * [Guest Post: The Unexaggerated Magic Of Quantum – Part III](https://thequantuminsider.com/2024/03/13/guest-post-the-unexaggerated-magic-of-quantum-part-iii/)
-    * [Guest Post: The Unexaggerated Magic Of Quantum – Part IV](https://thequantuminsider.com/2024/04/24/guest-post-the-unexaggerated-magic-of-quantum-part-iv/)
-    * [Guest Post: The Unexaggerated Magic Of Quantum – Part V Special Quantum Artificial Intelligence Edition](https://thequantuminsider.com/2024/05/24/guest-post-the-unexaggerated-magic-of-quantum-part-v-special-quantum-artificial-intelligence-edition/)
+  * [Guest Post: The Unexaggerated Magic Of Quantum](https://thequantuminsider.com/2024/01/17/guest-post-the-unexaggerated-magic-of-quantum/)
+  * [Guest Post: The Unexaggerated Magic Of Quantum – Part II](https://thequantuminsider.com/2024/02/15/guest-post-the-unexaggerated-magic-of-quantum-part-ii/)
+  * [Guest Post: The Unexaggerated Magic Of Quantum – Part III](https://thequantuminsider.com/2024/03/13/guest-post-the-unexaggerated-magic-of-quantum-part-iii/)
+  * [Guest Post: The Unexaggerated Magic Of Quantum – Part IV](https://thequantuminsider.com/2024/04/24/guest-post-the-unexaggerated-magic-of-quantum-part-iv/)
+  * [Guest Post: The Unexaggerated Magic Of Quantum – Part V Special Quantum Artificial Intelligence Edition](https://thequantuminsider.com/2024/05/24/guest-post-the-unexaggerated-magic-of-quantum-part-v-special-quantum-artificial-intelligence-edition/)
 
 * [Quantum Computing in the NISQ era and beyond](https://quantum-journal.org/papers/q-2018-08-06-79/pdf/)
 
@@ -131,11 +134,11 @@ See ["The Design of the Connection Machine"](https://www.tamikothiel.com/theory/
 and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD-UYbm8Ksg&t=26s).
 
 * Richard Feynman
-    * [Simulating Physics with Computers](https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf)
-    * [Simulating Physics with Computers: Presented by Pinchas Birnbaum and Eran Tromer](https://www.wisdom.weizmann.ac.il/~naor/COURSE/feynman-simulating.pdf)
-    * [Quantum Machanical Computers](http://www.quantum-dynamic.eu/doc/feynman85_qmc_optics_letters.pdf)
-    * [Richard Feynman: Simulating Physics with Computers](https://www.researchgate.net/publication/254705307_RICHARD_FEYNMAN_SIMULATING_PHYSICS_WITH_COMPUTERS)
-    * [A Summary of Feynman's "Simulating Physics with Computers"](<https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Quantum_Tutorials_(Rioux)/08%3A_Quantum_Teleportation/8.42%3A_A_Summary_of_Feynman's_Simulating_Physics_with_Computers>)
+  * [Simulating Physics with Computers](https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf)
+  * [Simulating Physics with Computers: Presented by Pinchas Birnbaum and Eran Tromer](https://www.wisdom.weizmann.ac.il/~naor/COURSE/feynman-simulating.pdf)
+  * [Quantum Machanical Computers](http://www.quantum-dynamic.eu/doc/feynman85_qmc_optics_letters.pdf)
+  * [Richard Feynman: Simulating Physics with Computers](https://www.researchgate.net/publication/254705307_RICHARD_FEYNMAN_SIMULATING_PHYSICS_WITH_COMPUTERS)
+  * [A Summary of Feynman's "Simulating Physics with Computers"](<https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Quantum_Tutorials_(Rioux)/08%3A_Quantum_Teleportation/8.42%3A_A_Summary_of_Feynman's_Simulating_Physics_with_Computers>)
 
 
 # Port of Los Angeles Pier 300
@@ -148,9 +151,9 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
 
 * [A Vision to Compute like Nature: Thermodynamically](https://cacm.acm.org/opinion/a-vision-to-compute-like-nature/)
 * [Extropic](https://www.extropic.ai/future)
-    * [Thermodynamic Computing: Better than Quantum? | Guillaume Verdon and Trevor McCourt, Extropic](https://www.youtube.com/watch?v=OwDWOtFNsKQ)
-    * [The Next Era of Computing | Extropic](https://www.youtube.com/watch?v=fyVudfvYNKo)
-    * [Guillaume Verdon: Why Accelerate](https://www.youtube.com/watch?v=QjVOfM2EBnE)
+  * [Thermodynamic Computing: Better than Quantum? | Guillaume Verdon and Trevor McCourt, Extropic](https://www.youtube.com/watch?v=OwDWOtFNsKQ)
+  * [The Next Era of Computing | Extropic](https://www.youtube.com/watch?v=fyVudfvYNKo)
+  * [Guillaume Verdon: Why Accelerate](https://www.youtube.com/watch?v=QjVOfM2EBnE)
 
 
 ---------------
@@ -163,6 +166,7 @@ and ["Dan Bentley on The Connection Machine"](https://www.youtube.com/watch?v=zD
 
 
 # Hybrid Quantum Computing
+
 “Hybrid quantum computing” is the preferred industry term for a simple idea: a quantum computer and a classical computer working together to solve a problem.
 In a sense, this describes all of quantum computing: we rely on classical computers for almost every aspect of running a quantum computer.
 In practice, though, when we talk about “hybrid” computation, we mean an approach that takes the form of a back-and-forth collaboration where different aspects of a problem are passed between the quantum and classical tools best suited for each stage.
@@ -170,9 +174,9 @@ For example,  [Variational Quantum Eigensolver (VQE) algorithm](https://towardsd
 a hybrid algorithm useful in a variety of chemistry applications, as an example. VQE can be used to calculate the “ground state”—the most chemically stable configuration—of a molecule by iteratively calculating the energy of a given configuration and comparing it to previously calculated energies classically, changing the inputs until an optimal answer is achieved.
 
 * The Many Faces of Hybrid Classical-Quantum Computing
-    * [Part 1: Basics and Cloud Vendors](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing/)
-    * [Part 2: Colocation, High Performance Computers, and Co-Design](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing-part-2/)
-    * [Part 3: The primary algorithms VQA, VQE and QAOA](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing-part-3/)
+  * [Part 1: Basics and Cloud Vendors](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing/)
+  * [Part 2: Colocation, High Performance Computers, and Co-Design](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing-part-2/)
+  * [Part 3: The primary algorithms VQA, VQE and QAOA](https://quantumcomputingreport.com/the-many-faces-of-hybrid-classical-quantum-computing-part-3/)
 
 
 # Optical Computing / Photonic Computing
@@ -182,6 +186,7 @@ a hybrid algorithm useful in a variety of chemistry applications, as an example.
 
 
 # Linear Optical Quantum Computing
+
 Linear Optical Quantum Computing or linear optics quantum computation (LOQC), also photonic quantum computing (PQC), is a paradigm of quantum computation.
 
 
@@ -196,6 +201,7 @@ Linear Optical Quantum Computing or linear optics quantum computation (LOQC), al
 
 
 # Building a Visceral Understanding of Quantum Phenomena
+
 How does a person develop a viseral understanding of quantum computing?
 
 >Cambridge Dictionary definition: **Visceral** - based on deep feeling and emotional reactions rather than on reason or thought.
@@ -230,17 +236,17 @@ How does a person develop a viseral understanding of quantum computing?
 ### Coin Flip Game
 
 * [A beginner's guide to quantum computing | Shohini Ghose](https://www.youtube.com/watch?v=QuR969uMICM)
-    * [A beginner's guide to quantum computing | Shohini Ghose | Summary and Q&A](https://glasp.co/youtube/QuR969uMICM)
+  * [A beginner's guide to quantum computing | Shohini Ghose | Summary and Q&A](https://glasp.co/youtube/QuR969uMICM)
 * [Quantum Computing With an Example of Coin](https://www.youtube.com/watch?v=Rjx_11oHYT4)
 * [QEF06 - The Penny Flip Game](https://www.youtube.com/watch?v=oXdlpj2IrRU)
-    * [How can quantum computing win 97% of times in coin flipping experiment?](https://quantumcomputing.stackexchange.com/questions/5273/how-can-quantum-computing-win-97-of-times-in-coin-flipping-experiment/5277#5277)
-    * [Hello Quantum: Taking your first steps into quantum computation](https://medium.com/qiskit/hello-quantum-2c1c00fe830c)
-    * [Quantum Coding Tutorial | How To Win a Quantum Coin Flip](https://www.youtube.com/watch?v=9nHNHgGGivM)
-    * [Playing with a Quantum Computer](https://arxiv.org/pdf/2108.06271)
-    * [Quantum Coin Toss](https://www.maplesoft.com/applications/download.aspx?id=154938/Quantum_Coin_Toss.pdf)
-    * [QEF06 - The Penny Flip Game](https://www.youtube.com/watch?v=oXdlpj2IrRU)
-    * [I created a quantum mini-game!](https://medium.com/@PhilNadeau/i-created-a-quantum-mini-game-fc4299a75758)
-    * [Qiskit for Beginners: Create and Play A game of Quantum Coin Flip](https://medium.com/@v.tiwari/qiskit-for-beginners-create-and-play-a-game-of-quantum-coin-flip-ebcc4fb75711)
+  * [How can quantum computing win 97% of times in coin flipping experiment?](https://quantumcomputing.stackexchange.com/questions/5273/how-can-quantum-computing-win-97-of-times-in-coin-flipping-experiment/5277#5277)
+  * [Hello Quantum: Taking your first steps into quantum computation](https://medium.com/qiskit/hello-quantum-2c1c00fe830c)
+  * [Quantum Coding Tutorial | How To Win a Quantum Coin Flip](https://www.youtube.com/watch?v=9nHNHgGGivM)
+  * [Playing with a Quantum Computer](https://arxiv.org/pdf/2108.06271)
+  * [Quantum Coin Toss](https://www.maplesoft.com/applications/download.aspx?id=154938/Quantum_Coin_Toss.pdf)
+  * [QEF06 - The Penny Flip Game](https://www.youtube.com/watch?v=oXdlpj2IrRU)
+  * [I created a quantum mini-game!](https://medium.com/@PhilNadeau/i-created-a-quantum-mini-game-fc4299a75758)
+  * [Qiskit for Beginners: Create and Play A game of Quantum Coin Flip](https://medium.com/@v.tiwari/qiskit-for-beginners-create-and-play-a-game-of-quantum-coin-flip-ebcc4fb75711)
 
 
 ### Quantum Economics and Finance
@@ -256,9 +262,9 @@ How does a person develop a viseral understanding of quantum computing?
 ### Quantum Mechanics Toys / Pauli Cubes
 
 * [For Some Reason, These Quantum Mechanics Toys Didn’t Catch On](https://spectrum.ieee.org/for-some-reason-these-quantum-mechanics-toys-didnt-catch-on)
-    * [Playing with Quantum Toys: Julian Schwinger’s Measurement Algebra and the Material Culture of Quantum Mechanics Pedagogy at Harvard in the 1960s](https://link.springer.com/epdf/10.1007/s00016-018-0213-3?sharing_token=gXaCU8sTKZDz9CD74pHysve4RwlQNchNByi7wbcMAY6Qp8JObREiurDKlz9hr9xVlcI2yDj0ksf3Q2AQ4u_5cE3RbNMLJ_VW55jnhIIAUcXmDue2Id6rteXlgC8XR3pvN5K6jYRUbaMvjoQhkNb4heBvWeO1o3ArIWPDJfGmgGI%3D)
-    * [PLAYING WITH QUANTUM TOYS: Introducing the history of quantum mechanics with historical objects](https://agenda.centrofermi.it/event/17/contributions/47/attachments/29/30/Jean-Francois_Gauvin_-_Playing_Quantum_Toys_Rome_1.pdf)
-    * [Playing with Science History – Jean-François Gauvin](https://www.parsingscience.org/2018/10/30/jean-francois-gauvin/)
+  * [Playing with Quantum Toys: Julian Schwinger’s Measurement Algebra and the Material Culture of Quantum Mechanics Pedagogy at Harvard in the 1960s](https://link.springer.com/epdf/10.1007/s00016-018-0213-3?sharing_token=gXaCU8sTKZDz9CD74pHysve4RwlQNchNByi7wbcMAY6Qp8JObREiurDKlz9hr9xVlcI2yDj0ksf3Q2AQ4u_5cE3RbNMLJ_VW55jnhIIAUcXmDue2Id6rteXlgC8XR3pvN5K6jYRUbaMvjoQhkNb4heBvWeO1o3ArIWPDJfGmgGI%3D)
+  * [PLAYING WITH QUANTUM TOYS: Introducing the history of quantum mechanics with historical objects](https://agenda.centrofermi.it/event/17/contributions/47/attachments/29/30/Jean-Francois_Gauvin_-_Playing_Quantum_Toys_Rome_1.pdf)
+  * [Playing with Science History – Jean-François Gauvin](https://www.parsingscience.org/2018/10/30/jean-francois-gauvin/)
 
 The Pauli Cubes appear to be working with the same principles that this "Homemade Quantum Computer" is using.
 All you'll need is:
@@ -327,15 +333,15 @@ QEngine is our software library for quantum simulation and - optimization.
 ### Learning Quantum Computing Concepts
 
 * Quantum Information Science
-    * Quantum information science is a field that combines the principles of quantum mechanics with information theory to study the processing, analysis, and transmission of information. It covers both theoretical and experimental aspects of quantum physics, including the limits of what can be achieved with quantum information. The term quantum information theory is sometimes used, but it does not include experimental research and can be confused with a subfield of quantum information science that deals with the processing of quantum information.
+  * Quantum information science is a field that combines the principles of quantum mechanics with information theory to study the processing, analysis, and transmission of information. It covers both theoretical and experimental aspects of quantum physics, including the limits of what can be achieved with quantum information. The term quantum information theory is sometimes used, but it does not include experimental research and can be confused with a subfield of quantum information science that deals with the processing of quantum information.
 * Quantum Computing Concepts
-    * [Quantum Computing Report: Education](https://quantumcomputingreport.com/education/)
-    * [Quantum Computing Course – Math and Theory for Beginners](https://www.youtube.com/watch?v=tsbCSkvHhMo)
-    * [IBM Quantum Learning](https://learning.quantum.ibm.com/)
-    * [Black Opal](https://black.q-ctrl.com/)
+  * [Quantum Computing Report: Education](https://quantumcomputingreport.com/education/)
+  * [Quantum Computing Course – Math and Theory for Beginners](https://www.youtube.com/watch?v=tsbCSkvHhMo)
+  * [IBM Quantum Learning](https://learning.quantum.ibm.com/)
+  * [Black Opal](https://black.q-ctrl.com/)
 * Quantum Algorithms Development
-    * [IBM Quantum Documentation](https://docs.quantum.ibm.com/)
-    * [Penny Lane](https://pennylane.ai/qml/)
+  * [IBM Quantum Documentation](https://docs.quantum.ibm.com/)
+  * [Penny Lane](https://pennylane.ai/qml/)
 
 
 ---------------
@@ -344,57 +350,57 @@ QEngine is our software library for quantum simulation and - optimization.
 # Preparatory Mathematics and Quantum Mechanics for Quantum Computing
 
 * Mathematics (Linear Algebra, Tensors, Probability)
-    * [An Introduction to Differential Geometry](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKG7lkye7DQAmNB0cfWNgWG)
-    * [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=2)
-    * [Matrix Algebra for Engineers](https://www.youtube.com/playlist?list=PLkZjai-2Jcxlg-Z1roB0pUwFU-P58tvOx)
-    * [Linear algebra for Quantum Mechanics](https://www.youtube.com/watch?v=FF05fXg03A0)
-    * [Preliminary Mathematics for Quantum Computing](https://www.cs.tufts.edu/comp/150QCS/Premath.pdf)
-    * [The Geometric Tool That Solved Einstein’s Relativity Problem](https://www.quantamagazine.org/the-geometric-tool-that-solved-einsteins-relativity-problem-20240812/)
-    * [Why are tensors EVERYWHERE? | Tensors for beginners](https://www.youtube.com/watch?v=AJSHZkVnbXc)
-    * [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
-        * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
-    * [Tensor Calculus](https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_)
-    * [Tensors and Vectors - 2023](https://www.youtube.com/playlist?list=PL2n-gxsZ_8LBC0zhYvDjPF8eF8PvygM2T)
+  * [An Introduction to Differential Geometry](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKG7lkye7DQAmNB0cfWNgWG)
+  * [Essence of linear algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&index=2)
+  * [Matrix Algebra for Engineers](https://www.youtube.com/playlist?list=PLkZjai-2Jcxlg-Z1roB0pUwFU-P58tvOx)
+  * [Linear algebra for Quantum Mechanics](https://www.youtube.com/watch?v=FF05fXg03A0)
+  * [Preliminary Mathematics for Quantum Computing](https://www.cs.tufts.edu/comp/150QCS/Premath.pdf)
+  * [The Geometric Tool That Solved Einstein’s Relativity Problem](https://www.quantamagazine.org/the-geometric-tool-that-solved-einsteins-relativity-problem-20240812/)
+  * [Why are tensors EVERYWHERE? | Tensors for beginners](https://www.youtube.com/watch?v=AJSHZkVnbXc)
+  * [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
+    * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
+  * [Tensor Calculus](https://www.youtube.com/playlist?list=PLdgVBOaXkb9D6zw47gsrtE5XqLeRPh27_)
+  * [Tensors and Vectors - 2023](https://www.youtube.com/playlist?list=PL2n-gxsZ_8LBC0zhYvDjPF8eF8PvygM2T)
 * Mathematics of Quantum Mechanics
-    * Wave Mechanics
-        * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
-        * [Superposition without the superstition](https://muircheartblog.wpcomstaging.com/2021/10/26/superposition-without-the-superstition/)
-            * [Superposition in Quantum Computers - Computerphile](https://www.youtube.com/watch?v=kv-YXKRUheQ)
-        * [Quantum Sense](https://www.youtube.com/@quantumsensechannel)
-    * Matrix Mechanics
-* Mathematics of Quantum Computing
-    * [How Binary Works, and the Power of Abstraction](https://www.youtube.com/watch?v=PMpNhbMjDj0)
-    * [Quantum Computing](https://www.youtube.com/playlist?list=PLV4qsET9ZdOR-pf6ZMJZx2auIZScXhCaW)
-    * [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
-    * [Quantum Computing](https://www.youtube.com/playlist?list=PLxP0p--aBHmIe--9rczWe4AZmw03e2bz0)
-    * ["A Course in Quantum Computing (for the Community College)" by Michael Loceff](https://lapastillaroja.net/wp-content/uploads/2016/09/Intro_to_QC_Vol_1_Loceff.pdf)
-        * [Intro to Quantum Computing](https://www.youtube.com/playlist?list=PLMnoxczUtKqWpKZTwpRBHrif_y-xENTfx)
-    * [Quantum Computing as a High School Module](https://arxiv.org/abs/1905.00282)
-        * [Introduction to Quantum Computing with Google Quantum AI (For High School Students & Above)](https://www.qubitbyqubit.org/course-info)
-* Concept and Theories in Physical Science
-    * [Harvard Project Physics](https://archive.org/details/projectphysicscollection)
-* Quantum Physics
-    * DONE - [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
-    * [Quantum Physics](https://www.youtube.com/watch?v=qtIsYbYdzCI&list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
-    * [PHYS2001: The Quantum World (Autumn Semester)](https://www.youtube.com/playlist?list=PLvFIOQxlmteUlzUrXKWYL2HoRX6jKdb-J)
-        * [The Quantum World lecture notes](https://muircheartblog.wpcomstaging.com/wp-content/uploads/2020/11/QuantumWorldNotes_2020.pdf)
-        * [The Quantum World -- Supplementary](https://www.youtube.com/playlist?list=PLvFIOQxlmteUUyVslyRQB08SyqGik4t2T)
-* Quantum Mechanics
-    * [The Maths of Quantum Mechanics in 13 Minutes | Functional Operators and Fourier Transforms](https://www.youtube.com/watch?v=thRKIYr9LwQ&list=PL748m8SU9Q0cwbh4YDrZCgcNTXVZHwRBc&index=5)
-    * [The math trick that revolutionized physics](https://www.youtube.com/watch?v=gXeAp_lyj9s) - DONE
-    * [Fundamentals of Quantum Physics - Brant Carlson](https://www.youtube.com/playlist?list=PLNZRbvSM6olzbOKl-JtNSZdLiroAhhpE7) - IN PROGRESS
+  * Wave Mechanics
     * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
-    * [Quantum mechanics essentials: Everything you need for quantum computation](https://www.youtube.com/watch?v=28ABEInFxBQ)
-    * [Understanding Quantum Mechanics](https://www.youtube.com/watch?v=Wsjgtp9XZxo&list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL)
-    * [Quantum Physics Full Course | Quantum Mechanics Course](https://www.youtube.com/watch?v=hyctIDPRSqY)
+    * [Superposition without the superstition](https://muircheartblog.wpcomstaging.com/2021/10/26/superposition-without-the-superstition/)
+      * [Superposition in Quantum Computers - Computerphile](https://www.youtube.com/watch?v=kv-YXKRUheQ)
+    * [Quantum Sense](https://www.youtube.com/@quantumsensechannel)
+  * Matrix Mechanics
+* Mathematics of Quantum Computing
+  * [How Binary Works, and the Power of Abstraction](https://www.youtube.com/watch?v=PMpNhbMjDj0)
+  * [Quantum Computing](https://www.youtube.com/playlist?list=PLV4qsET9ZdOR-pf6ZMJZx2auIZScXhCaW)
+  * [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
+  * [Quantum Computing](https://www.youtube.com/playlist?list=PLxP0p--aBHmIe--9rczWe4AZmw03e2bz0)
+  * ["A Course in Quantum Computing (for the Community College)" by Michael Loceff](https://lapastillaroja.net/wp-content/uploads/2016/09/Intro_to_QC_Vol_1_Loceff.pdf)
+    * [Intro to Quantum Computing](https://www.youtube.com/playlist?list=PLMnoxczUtKqWpKZTwpRBHrif_y-xENTfx)
+  * [Quantum Computing as a High School Module](https://arxiv.org/abs/1905.00282)
+    * [Introduction to Quantum Computing with Google Quantum AI (For High School Students & Above)](https://www.qubitbyqubit.org/course-info)
+* Concept and Theories in Physical Science
+  * [Harvard Project Physics](https://archive.org/details/projectphysicscollection)
+* Quantum Physics
+  * DONE - [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
+  * [Quantum Physics](https://www.youtube.com/watch?v=qtIsYbYdzCI&list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
+  * [PHYS2001: The Quantum World (Autumn Semester)](https://www.youtube.com/playlist?list=PLvFIOQxlmteUlzUrXKWYL2HoRX6jKdb-J)
+    * [The Quantum World lecture notes](https://muircheartblog.wpcomstaging.com/wp-content/uploads/2020/11/QuantumWorldNotes_2020.pdf)
+    * [The Quantum World -- Supplementary](https://www.youtube.com/playlist?list=PLvFIOQxlmteUUyVslyRQB08SyqGik4t2T)
+* Quantum Mechanics
+  * [The Maths of Quantum Mechanics in 13 Minutes | Functional Operators and Fourier Transforms](https://www.youtube.com/watch?v=thRKIYr9LwQ&list=PL748m8SU9Q0cwbh4YDrZCgcNTXVZHwRBc&index=5)
+  * [The math trick that revolutionized physics](https://www.youtube.com/watch?v=gXeAp_lyj9s) - DONE
+  * [Fundamentals of Quantum Physics - Brant Carlson](https://www.youtube.com/playlist?list=PLNZRbvSM6olzbOKl-JtNSZdLiroAhhpE7) - IN PROGRESS
+  * [Maths of Quantum Mechanics](https://www.youtube.com/playlist?list=PL8ER5-vAoiHAWm1UcZsiauUGPlJChgNXC)
+  * [Quantum mechanics essentials: Everything you need for quantum computation](https://www.youtube.com/watch?v=28ABEInFxBQ)
+  * [Understanding Quantum Mechanics](https://www.youtube.com/watch?v=Wsjgtp9XZxo&list=PLwgQsqtH9H5djIfFhXE6We207beTgUnyL)
+  * [Quantum Physics Full Course | Quantum Mechanics Course](https://www.youtube.com/watch?v=hyctIDPRSqY)
 * Computer Science
-    * [Undergrad Complexity at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
-    * [Great Ideas in Theoretical Computer Science at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3aafQm568blS9blxtA_EWQv)
-    * [CS Theory Toolkit at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX)
+  * [Undergrad Complexity at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3YL5vLXpzOyJiLtqLp6dCW2)
+  * [Great Ideas in Theoretical Computer Science at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3aafQm568blS9blxtA_EWQv)
+  * [CS Theory Toolkit at CMU](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX)
 * Understanding Quantum Computing
-    * [Quantum Computing Book Recommendations](https://www.youtube.com/watch?v=xpSevVullcQ)
-    * [Quantum Book Recommendations Part 2!](https://www.youtube.com/watch?v=rbcNQB7VMtI)
-    * [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
+  * [Quantum Computing Book Recommendations](https://www.youtube.com/watch?v=xpSevVullcQ)
+  * [Quantum Book Recommendations Part 2!](https://www.youtube.com/watch?v=rbcNQB7VMtI)
+  * [How To Make a Quantum Bit](https://www.youtube.com/watch?v=zNzzGgr2mhk)
 
 
 # Skepticism
@@ -430,8 +436,8 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 * [Mechanical Implementation of a Turing Machine](http://rubens.ens-lyon.fr/)
 * [Lord Kelvin and His Analog Computer](https://spectrum.ieee.org/tide-predictions)
 * [Manchester Differerential Analyser](https://en.wikipedia.org/wiki/Differential_analyser)
-    * [Are Thinking Machines Possible?](https://medium.com/thought-thinkers/are-thinking-machines-possible-ea8e2e0f9dc1)
-    * [Machine Solves Mathematical Problems](https://meccano.us/documents/anon_1934b.pdf)
+  * [Are Thinking Machines Possible?](https://medium.com/thought-thinkers/are-thinking-machines-possible-ea8e2e0f9dc1)
+  * [Machine Solves Mathematical Problems](https://meccano.us/documents/anon_1934b.pdf)
 
 
 # What is Neuromorphic Computing?
@@ -450,10 +456,10 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
 ## Computable and Not-Computable
 
 * [The Boundary of Computation](https://www.youtube.com/watch?v=kmAc1nDizu0)
-    * [The Most Difficult Program to Compute? - Computerphile](https://www.youtube.com/watch?v=i7sm9dzFtEI)
-    * [Busy Beaver Turing Machines - Computerphile](https://www.youtube.com/watch?v=CE8UhcyJS0I)
-    * [With Fifth Busy Beaver, Researchers Approach Computation’s Limits](https://www.quantamagazine.org/amateur-mathematicians-find-fifth-busy-beaver-turing-machine-20240702/)
-        * [The Busy Beaver Challenge](https://bbchallenge.org/)
+  * [The Most Difficult Program to Compute? - Computerphile](https://www.youtube.com/watch?v=i7sm9dzFtEI)
+  * [Busy Beaver Turing Machines - Computerphile](https://www.youtube.com/watch?v=CE8UhcyJS0I)
+  * [With Fifth Busy Beaver, Researchers Approach Computation’s Limits](https://www.quantamagazine.org/amateur-mathematicians-find-fifth-busy-beaver-turing-machine-20240702/)
+    * [The Busy Beaver Challenge](https://bbchallenge.org/)
 
 
 # What is Quantum Computation?
@@ -461,14 +467,14 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
 * [The Quantum Computing Advantage](https://www.youtube.com/watch?v=PXQ-sh07eBw)
 * [Scott Aaronson on Computational Complexity Theory and Quantum Computers](https://www.youtube.com/watch?v=0jrybODBUpA)
 * Using Scratch: [Scratch Quantum Computer](https://scratch.mit.edu/projects/875118011/editor/)
-    * [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
-    * [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
+  * [This ONE Instruction Instantly Makes Scratch Into A Quantum Computer!!](https://www.youtube.com/watch?v=zw6C_UTDZEY)
+  * [The Math Behind Quantum Algorithms (in Scratch!)](https://www.youtube.com/watch?v=VuWklQM_3q8)
 
 
 ## Control Flow in Quantum Programming
 
 * [A blueprint for making quantum computers easier to program](https://news.mit.edu/2024/mit-researchers-propose-blueprint-how-make-quantum-computers-easier-program-0416)
-    * [Quantum Control Machine: The Limits of Control Flow in Quantum Programming](https://arxiv.org/pdf/2304.15000.pdf)
+  * [Quantum Control Machine: The Limits of Control Flow in Quantum Programming](https://arxiv.org/pdf/2304.15000.pdf)
 
 
 # What is Quantum Advantage?
@@ -504,7 +510,7 @@ In a quantum computation, we are not controlling probabilities but amplitudes, w
 # When Will Quantum Computing Be Useful
 
 * [Quantum computing: What leaders need to know now](https://mitsloan.mit.edu/ideas-made-to-matter/quantum-computing-what-leaders-need-to-know-now)
-    * [The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it won’t)](https://arxiv.org/pdf/2310.15505.pdf)
+  * [The Quantum Tortoise and the Classical Hare: A simple framework for understanding which problems quantum computing will accelerate (and which it won’t)](https://arxiv.org/pdf/2310.15505.pdf)
 * [Google launches $5m prize to find actual uses for quantum computers](https://www.newscientist.com/article/2420137-google-launches-5m-prize-to-find-actual-uses-for-quantum-computers/)
 
 * [Physicists Finally Find a Problem That Only Quantum Computers Can Do](https://www.quantamagazine.org/physicists-finally-find-a-problem-only-quantum-computers-can-do-20240312/)
@@ -640,11 +646,11 @@ Seems like it is no longer offered
 * [Learn More About the IBM Quantum Developer Certification — And How to Take it For Free](https://medium.com/qiskit/learn-more-about-the-ibm-quantum-developer-certification-and-how-to-take-it-for-free-d237f9765dc5)
 
 * [Quantum Computing for Dummies: New guide helps beginners run quantum algorithms on IBM’s quantum computers over the cloud](https://spectrum.ieee.org/quantum-computing-for-dummies)
-    * [Quantum Algorithm Implementations for Beginners](https://dl.acm.org/doi/10.1145/3517340)
-    * [GitHub: lanl/quantum_algorithms](https://github.com/lanl/quantum_algorithms)
-    * [Quantum Glasses](https://github.com/Jayshah25/Quantum-Glasses) package is a GUI app designed to help users visualize the effects of single-qubit quantum gates via interactive [Bloch Sphere](https://learn.qiskit.org/course/ch-states/representing-qubit-states#bloch-sphere) simulations.
-    * [Quantum Glasses (Member of IBM Qiskit Ecosystem) | Quantum Computing explained](https://www.youtube.com/watch?v=wCrdbL5taj0)
-    * [Quantum Computing Tutorials (Visual) for Beginners](https://www.youtube.com/playlist?list=PLJk_IGUjQllfCDHYmFNfaCoUgXImxmZIA)
+  * [Quantum Algorithm Implementations for Beginners](https://dl.acm.org/doi/10.1145/3517340)
+  * [GitHub: lanl/quantum_algorithms](https://github.com/lanl/quantum_algorithms)
+  * [Quantum Glasses](https://github.com/Jayshah25/Quantum-Glasses) package is a GUI app designed to help users visualize the effects of single-qubit quantum gates via interactive [Bloch Sphere](https://learn.qiskit.org/course/ch-states/representing-qubit-states#bloch-sphere) simulations.
+  * [Quantum Glasses (Member of IBM Qiskit Ecosystem) | Quantum Computing explained](https://www.youtube.com/watch?v=wCrdbL5taj0)
+  * [Quantum Computing Tutorials (Visual) for Beginners](https://www.youtube.com/playlist?list=PLJk_IGUjQllfCDHYmFNfaCoUgXImxmZIA)
 
 
 # History of Quantum Computing
@@ -731,7 +737,7 @@ you are operating with a 2-norm probability. In this case, we are generalize pro
 
 * [Can Probabilities Be Negative? – What this question teaches us about quantum theory](https://www.youtube.com/watch?v=std9EBbtOC0)
 * [Can Probability be Negative? | Quantum Mechanics | Quantum Computing](https://www.youtube.com/watch?v=ZCrjRCwjPbw)
-    * Quantum theory is about information, and about how probabilities behave when information is fundamentally inaccessible to observers.
+  * Quantum theory is about information, and about how probabilities behave when information is fundamentally inaccessible to observers.
 
 
 # Quantum Computing Categories
@@ -806,6 +812,7 @@ Train a quantum computer the same way as a neural network.
 
 
 # Quokka
+
 [Eigensystems](https://www.eigensystems.com.au/), a quantum computing educational startup
 (created by [Chris Ferrie](https://www.youtube.com/watch?v=3DhbSsoFc0g)),
 has created a quantum computer emulator, the Quokka.
@@ -868,14 +875,15 @@ Qiskit accelerates the development of quantum applications by providing the comp
 * [Programming for Quantum Computing Pt. 2: Qiskit](https://medium.com/quantum-untangled/programming-for-quantum-computing-pt-2-qiskit-53a4c05be281)
 
 * IBM Quantum Challenge: Spring 2023
-    * [Lab 1](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-1-fd80c4b5cda1)
-    * [Lab 2](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-2-d3b993807b61)
-    * [Lab 3](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-3-9b92e3152bfc)
-    * [Lab 4](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-4-541a7e0e6478)
-    * [Lab 5](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-5-6d932eb1922)
+  * [Lab 1](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-1-fd80c4b5cda1)
+  * [Lab 2](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-2-d3b993807b61)
+  * [Lab 3](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-3-9b92e3152bfc)
+  * [Lab 4](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-4-541a7e0e6478)
+  * [Lab 5](https://medium.com/@_monitsharma/ibm-quantum-challenge-spring-2023-lab-5-6d932eb1922)
 
 
 ### QWorld QEducation
+
 [QEducation](https://qworld.net/qeducation/) is the department of QWorld working on for educational and related activities
 and makes use of IBM's Qiskit.
 
@@ -883,12 +891,12 @@ and makes use of IBM's Qiskit.
 ### Qiskit + Raspberry Pi
 
 * Qrasp (Quantum RASPberry PI)
-    * [Qrasp — Quantum on a Raspberry Pi](https://medium.com/qiskit/qrasp-a-wee-quantum-computer-74ef7f927b1e)
-    * [GitHub: ordmoj/qrasp](https://github.com/ordmoj/qrasp)
+  * [Qrasp — Quantum on a Raspberry Pi](https://medium.com/qiskit/qrasp-a-wee-quantum-computer-74ef7f927b1e)
+  * [GitHub: ordmoj/qrasp](https://github.com/ordmoj/qrasp)
 * RasQberry
-    * [RasQberry: Quantum Computing is the Coolest Project for Raspberry Pi](https://medium.com/qiskit/rasqberry-quantum-computing-is-the-coolest-project-for-raspberry-pi-3f64bec5a133)
+  * [RasQberry: Quantum Computing is the Coolest Project for Raspberry Pi](https://medium.com/qiskit/rasqberry-quantum-computing-is-the-coolest-project-for-raspberry-pi-3f64bec5a133)
 * Other
-    * [GitHub: KPRoche/quantum-raspberry-tie](https://github.com/KPRoche/quantum-raspberry-tie)
+  * [GitHub: KPRoche/quantum-raspberry-tie](https://github.com/KPRoche/quantum-raspberry-tie)
 
 
 ### Qiskit Metal
@@ -953,13 +961,13 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 
 * [Qiskit Textbook](https://qiskit.org/learn/)
 
-    * [Understanding Quantum Information and Computation](https://www.youtube.com/watch?v=0Av89fZenSY&list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&index=2)
-    * [Getting started with Qiskit](https://www.youtube.com/watch?v=P5cGeDKOIP0&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
+  * [Understanding Quantum Information and Computation](https://www.youtube.com/watch?v=0Av89fZenSY&list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&index=2)
+  * [Getting started with Qiskit](https://www.youtube.com/watch?v=P5cGeDKOIP0&list=PLOFEBzvs-VvpHs84vFdRVIl3Wlg81j8_x)
 
 * [How does quantum computing work?](https://plus.maths.org/content/how-does-quantum-commuting-work)
 * [Quantum computing: Some (not so) gruesome details](https://plus.maths.org/content/really-how-do-quantum-computers-work)
 * [Quantum Computing as a High School Module](https://arxiv.org/pdf/1905.00282.pdf)
-    * [Fermilab scientists publish quantum computing course for high school students](https://news.fnal.gov/2020/06/fermilab-scientists-publish-quantum-computing-course-for-high-school-students/)
+  * [Fermilab scientists publish quantum computing course for high school students](https://news.fnal.gov/2020/06/fermilab-scientists-publish-quantum-computing-course-for-high-school-students/)
 * [A free Quantum Computing Tutorial](https://medium.com/@vinven7/a-free-quantum-computing-tutorial-d13a099c91ca)
 * [Learn Quantum Computing With These Seven Projects](https://medium.com/qiskit/learn-quantum-computing-with-these-seven-projects-7478d90d125a)
 * [Quantum Machine Learning](https://www.youtube.com/watch?v=xgA4Dx_7q34&list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
@@ -970,9 +978,9 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 * [Quantum Machine Learning: An Advanced End-to-End Project](https://medium.com/@SPX701/quantum-machine-learning-an-advanced-end-to-end-guide-3316c542226d)
 
 * [Introduction to Quantum Computing](https://csferrie.medium.com/introduction-to-quantum-computing-df9e1182a831)
-    * [Resources for Quantum Computing](https://csferrie.medium.com/introduction-to-quantum-computing-619068d48667)
-    * [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
-    * [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
+  * [Resources for Quantum Computing](https://csferrie.medium.com/introduction-to-quantum-computing-619068d48667)
+  * [Introduction to Quantum Computing](https://www.youtube.com/playlist?list=PLtvBHm6EzL47oFXGRB7Oe-kfcn_0ZnJE2)
+  * [A free introduction to quantum computing and quantum mechanics](https://quantum.country/)
 
 
 # IBM Q
@@ -985,8 +993,8 @@ QuTiP is open-source software for simulating the dynamics of open quantum system
 # Quantum Computing Simulation
 
 * [Quantum Simulation Explained in 9 Slides](https://www.youtube.com/watch?v=kD370qyxTyw)
-    * [Qiskit](https://www.youtube.com/qiskit)
-    * [The Variational Quantum Eigensolver — Programming on Quantum Computers — Coding with Qiskit S2E4](https://www.youtube.com/watch?v=Z-A6G0WVI9w)
+  * [Qiskit](https://www.youtube.com/qiskit)
+  * [The Variational Quantum Eigensolver — Programming on Quantum Computers — Coding with Qiskit S2E4](https://www.youtube.com/watch?v=Z-A6G0WVI9w)
 * [List of Quantum Computing Simulators](https://www.quantiki.org/wiki/list-qc-simulators)
 * [Taste the future -- try out a cloud-based quantum computer](http://betanews.com/2013/09/06/taste-the-future-try-out-a-cloud-based-quantum-computer/)
 * [jQuantum - Quantum Computer Simulator](http://jquantum.sourceforge.net/)
@@ -1033,18 +1041,18 @@ ZXW calculus is an extension of ZX calculus. ZXW calculus was developed by Quant
 * [Bob Coecke: From Quantum in Pictures to Quantum AI | QHack 2023](https://www.youtube.com/watch?v=5694S6hceJE)
 
 * [Quantum in Pictures](https://www.quantinuum.com/news/quantum-in-pictures)
-    * [Everyone can learn quantum now, even at a cutting-edge level…and we have the test scores to prove it!](https://medium.com/quantinuum/everyone-can-learn-quantum-now-even-at-a-cutting-edge-level-and-we-have-the-test-scores-to-prove-49e7fdc5c509)
-    * [Quantum in Pictures: A New Way to Understand the Quantum World](https://www.amazon.com/Quantum-Pictures-New-Understand-World/dp/1739214714/)
-    * [Picturing Quantum Processes](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X)
+  * [Everyone can learn quantum now, even at a cutting-edge level…and we have the test scores to prove it!](https://medium.com/quantinuum/everyone-can-learn-quantum-now-even-at-a-cutting-edge-level-and-we-have-the-test-scores-to-prove-49e7fdc5c509)
+  * [Quantum in Pictures: A New Way to Understand the Quantum World](https://www.amazon.com/Quantum-Pictures-New-Understand-World/dp/1739214714/)
+  * [Picturing Quantum Processes](https://www.amazon.com/Picturing-Quantum-Processes-Diagrammatic-Reasoning/dp/110710422X)
 * [The ZX-calculus](https://zxcalculus.com/)
-    * [How ZX-calculus reveals the logic and processes of quantum mechanics to everyone](https://medium.com/quantinuum/how-zx-calculus-reveals-the-logic-and-processes-of-quantum-mechanics-to-everyone-944fc3bbbb2c)
-    * [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX](https://www.amazon.com/ZX-Quantum-Py-beginners-Computing-ZX-Calculus/dp/B0B1RD2Z84/)
-    * [Categories for Quantum Theory](https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613)
-    * [pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
-    * [QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
-    * [Kindergarden quantum mechanics graduates ...or how I learned to stop gluing LEGO together and love the ZX-calculus](https://www.sciencedirect.com/science/article/abs/pii/S0304397521004308)
+  * [How ZX-calculus reveals the logic and processes of quantum mechanics to everyone](https://medium.com/quantinuum/how-zx-calculus-reveals-the-logic-and-processes-of-quantum-mechanics-to-everyone-944fc3bbbb2c)
+  * [ZX Quantum-Py: A beginner's guide to Quantum Computing and ZX-Calculus using PyZX](https://www.amazon.com/ZX-Quantum-Py-beginners-Computing-ZX-Calculus/dp/B0B1RD2Z84/)
+  * [Categories for Quantum Theory](https://www.amazon.com/Categories-Quantum-Theory-Introduction-Mathematics/dp/0198739613)
+  * [pyZX - quantum circuit optimisation with the ZX calculus](https://www.youtube.com/watch?v=iC-KVdB8pf0)
+  * [QNLP 2019: Working with PyZX - Aleks Kissinger](https://www.youtube.com/watch?v=JafI_LZts2g)
+  * [Kindergarden quantum mechanics graduates ...or how I learned to stop gluing LEGO together and love the ZX-calculus](https://www.sciencedirect.com/science/article/abs/pii/S0304397521004308)
 * Tools
-    * [ZXLive - An Interactive GUI for the ZX Calculus - Razin A. Shaikh](https://www.youtube.com/watch?v=J--c2q-KOc8)
+  * [ZXLive - An Interactive GUI for the ZX Calculus - Razin A. Shaikh](https://www.youtube.com/watch?v=J--c2q-KOc8)
 
 
 # Tensor Diagram / Tensor Networks
@@ -1057,6 +1065,6 @@ Tensor network theory is a branch of mathematics that deals with the representat
 ## Tensor Network Algorithm Out Perfroming Quantum Computer
 
 * [A Moving Target for Quantum Advantage](https://physics.aps.org/articles/v17/13)
-    * [Efficient Tensor Network Simulation of IBM’s Eagle Kicked Ising Experiment](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010308)
+  * [Efficient Tensor Network Simulation of IBM’s Eagle Kicked Ising Experiment](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.010308)
 
 

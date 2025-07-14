@@ -23,6 +23,7 @@ Version:      0.0.0
 
 
 # Will and Estate Planning
+
 [A simple checklist to plan for your old age, today](https://www.vox.com/even-better/23911624/elder-care-aging-power-of-attorney-will-estate-planning)
 
 Create a will & estate plan and Revocable Living Trusts
@@ -38,6 +39,7 @@ Create a will and estate plan - <https://workplaceservices.fidelity.com/mybenefi
 
 
 ## Up-to-Date Beneficiary Designations
+
 Beneficiaries are up to date on 401(k) retirement funds, insurance, etc.
 
 
@@ -54,6 +56,7 @@ Beneficiaries are up to date on 401(k) retirement funds, insurance, etc.
 
 
 ## Guardian for Your Children
+
 Not needed.
 
 

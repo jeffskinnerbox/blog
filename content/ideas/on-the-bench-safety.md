@@ -17,6 +17,7 @@ Version:      0.0.0
 * [The Unofficial Guide To (Avoiding) Electrocution](https://hackaday.com/2021/11/26/the-unofficial-guide-to-avoiding-electrocution/)
 
 # eFuse IC
+
 eFuse ICs offer a ton of protection features for a very small price tag.
 The included protection features are the following: undervoltage, overvoltage,
 reverse voltage, overcurrent and short circuit current.

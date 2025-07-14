@@ -54,6 +54,7 @@ Version:      0.0.0
 
 
 ## Faust
+
 Faust (Functional Audio Stream) is a functional programming language for sound synthesis and audio processing with a strong focus on the design of synthesizers, musical instruments, audio effects, etc. Faust targets high-performance signal processing applications and audio plug-ins for a variety of platforms and standards.
 
 * [Faust](https://faust.grame.fr/index.html)
@@ -85,10 +86,11 @@ Faust (Functional Audio Stream) is a functional programming language for sound s
 
 
 # Audio Sequencer
+
 A music sequencer (or audio sequencer or simply sequencer) is a device or application software that can record, edit, or play back music, by handling note and performance information in several forms, typically CV/Gate, MIDI, or Open Sound Control (OSC), and possibly audio and automation data for DAWs and plug-ins
 
 * [This $20 synthesizer sounds very nice indeed](https://www.youtube.com/watch?v=FjLcPNhzAwo)
-    * [Synthetech](https://www.youtube.com/channel/UCtlJGGQGuSFxayNWko_KhAg)
+  * [Synthetech](https://www.youtube.com/channel/UCtlJGGQGuSFxayNWko_KhAg)
 
 * [Adding MIDI To A Mini Synth Is Easy As Pi](https://hackaday.com/2020/09/21/adding-midi-to-a-mini-synth-is-easy-as-pi/)
 * [A Superstar Sequencer from Sixty Four Pixels!](https://blog.tindie.com/2020/09/a-superstar-sequencer-from-sixty-four-pixels/)
@@ -102,6 +104,7 @@ A music sequencer (or audio sequencer or simply sequencer) is a device or applic
 
 
 ## Sound Dubbing / Dub Siren
+
 A dub siren is a type of synthesizer used predominantly in Dub.
 It is usually a relatively simple oscillator, housed in a box,
 often allowing for a variety of waveforms to be altered by turning potentiometers controlling pitch, rate and other parameters.
@@ -153,6 +156,7 @@ or sound emission only when the button is held.
 
 
 ## Audio Codec
+
 An audio codec (or just [codec][17]) is a device or computer program capable of
 coding or decoding a digital data stream of audio.
 Codecs typically implementing an algorithm that compresses and decompresses the digitized audio signal
@@ -182,6 +186,7 @@ The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][2
 
 
 ## WAV vs. AIFF vs. MP3 File Formats
+
 | Filename Extension | Name | Format Type | Description | Encoding |
 | ------- | ------- | ------- | ------- | ------- |
 | PCM | Pulse-Code Modulation | Uncompressed | Also known a Linear PCM, it is the standard audio format for CDs. PCM audio is an uncompressed, lossless storage system. | |
@@ -207,6 +212,7 @@ The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][2
 
 
 ### Quadrature Signals
+
 Quadrature signals, also called IQ signals, IQ data or IQ samples, are often used in RF applications. They form the basis of complex RF signal modulation and demodulation, both in hardware and in software, as well as in complex signal analysis.
 
 A pair of periodic signals are said to be in “quadrature” when they differ in phase by 90 degrees. The “in-phase” or reference signal is referred to as “I,” and the signal that is shifted by 90 degrees (the signal in quadrature) is called “Q.” What does this mean and why do we care?
@@ -220,6 +226,7 @@ A pair of periodic signals are said to be in “quadrature” when they differ i
 
 
 ## Converting Formats
+
 A huge variety of file formats are used to store and distribute digital audio. The most commonly used for compressed audio is mp3, and the most common format for raw audio (uncompressed) is .wav.  But there are many other audio formats, and you likely want to be able to convert between the various formats.
 
 If you want to convert between different compressed audio formats, generally there is no way around decoding the original compressed format to raw audio (i.e. .wav) before re-encoding the file to another common format.
@@ -238,6 +245,7 @@ If you want to convert between different compressed audio formats, generally the
 
 
 ## Direct-Digital Synthesis (DDS)
+
 [Direct-digital synthesis (DDS)](http://hackaday.com/2016/02/12/embed-with-elliot-audio-playback-with-direct-digital-synthesis/)
 is a sample-playback technique that is useful for adding a little bit of audio
 to your projects without additional hardware.
@@ -273,6 +281,7 @@ to your projects without additional hardware.
 
 
 ## Waveform Viewer
+
 A waveform viewer is a software tool for viewing a signals waveform.
 <http://en.wikipedia.org/wiki/Waveform_viewer>
 [Browser-based audio waveform visualisation](http://waveform.prototyping.bbc.co.uk/)
@@ -284,6 +293,7 @@ A waveform viewer is a software tool for viewing a signals waveform.
 
 
 ## Capturing Still Images and Streamming Video from WebCam
+
 You can capture still images and videos with the webcam using `cheese` or `memcoder`.
 These work on Unbuntu:
 
@@ -295,6 +305,7 @@ These work on Unbuntu:
 
 
 ## Downloading Video Files
+
 If your interested in capturing a YouTube video,
 there is a very easy approach give in this video: [How to Download youtube videos on Ubuntu linux][14].
 Unfortanately, appears YouTube has caught on, and this no longer works.
@@ -348,6 +359,7 @@ youtube-dl -k -x --audio-format wav http://www.youtube.com/watch?v=nOMX3deeW6Q
 
 
 ## Ripping Audio From Video
+
 While `youtube-dl` can extract the audio from a video that is on the web,
 what if the file is already downloaded?
 
@@ -362,6 +374,7 @@ Doesn't seem to work???
 
 
 ## Capturing Audio and Video Using VoIP
+
 [Capture audio and video using VoIP](http://www.tuxradar.com/answers/614)
 [Weekend Project: Record From Skype Calls and Other Apps on Linux](https://www.linux.com/learn/tutorials/367395-weekend-project-record-from-skype-calls-and-other-apps-on-linux)
 
@@ -379,8 +392,8 @@ Doesn't seem to work???
 * [The Operational Amplifier - From Abstraction to Reality](https://www.youtube.com/playlist?list=PLu9wn21AYbaHVeWIdGNiLYFwbgOZsyjwK)
 * [Op-Amp (Operational Amplifier)](https://www.youtube.com/playlist?list=PLwjK_iyK4LLDBB1E9MFbxGCEnmMMOAXOH)
 * [Op-Amps – Analog Building Blocks](https://dronebotworkshop.com/op-amps/)
-    * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
-    * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
+  * [Opamps - Tutorials & Practicals](https://www.youtube.com/playlist?list=PLvOlSehNtuHu2FviAaZaiyXwN41G4b1Lf)
+  * [Opamp building blocks](https://hackaday.io/project/194774-opamp-building-blocks)
 * [Op-Amps - Using Operational Amplifiers](https://www.youtube.com/watch?v=_HHxV-7alwE)
 * [EEVBlog 1436 - The TOP 5 Jellybean OPAMP's](https://www.youtube.com/watch?v=uq1DMWtjL2U)
 * [Opamp](https://www.youtube.com/watch?v=Z8JDsvfZjL8&list=PLXDK0MeyK4ZgWkzd59wLkir7ZjI7fIsFn)
@@ -412,6 +425,7 @@ Doesn't seem to work???
 
 
 # Analog Computer
+
 An analog computer is a physical system configured so that it is governed by equations identical to the ones you want to solve. You impose initial conditions corresponding to those in the system you want to investigate and then allow the variables in the analog computer to evolve with time. This result provides the solution to the relevant equations.
 
 ![analog-computer](https://dzone.com/storage/temp/12682364-connection-netwok.jpg)

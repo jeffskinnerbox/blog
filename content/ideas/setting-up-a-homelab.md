@@ -26,7 +26,7 @@ A home server plays a key role — even if it's just a Plex box, a NAS, maybe wh
 But it also matters if that system stays static or if it evolves.
 Curiosity and experimentation lead to change, and if a setup is just utilitarian, not many would consider it a home lab.
 In this context, self-education and experimentation aren’t optional — they're the defining trait.
-You don’t need to be a professional sysadmin, but you do need to be the kind of person who wants to learn how things work. 
+You don’t need to be a professional sysadmin, but you do need to be the kind of person who wants to learn how things work.
 
 
 
@@ -78,6 +78,7 @@ View an estimate of your 10/12/24 bill here - <https://www.verizon.com/foryourho
 
 
 ## Double NAT or Not
+
 Enable DHCP with start address of `192.168.1.10` and final address of `192.168.1.199`.
 
 Sources
@@ -86,6 +87,7 @@ Sources
 
 
 ## Guest and IoT SSID/Networks
+
 Guest WiFi is not intended to be a security measure for guest on your network orIoT devices.
 It has little to do with security at all.
 A Guest WiFi network is a fancy name for a virtual SSID that's, by default,
@@ -132,8 +134,8 @@ Sources:
 
 * [Avoided the double-NAT](https://www.reddit.com/r/Fios/comments/1atvwpb/avoided_the_doublenat/)
 * [Removing Double NAT from FIOS Network](https://www.reddit.com/r/Fios/comments/k2tfr3/removing_double_nat_from_fios_network/)
-    * [What are the tradeoffs between the various router configurations](https://www.dslreports.com/faq/16077)
-    * [Replacing the Actiontec (part 4): LAN-to-LAN keeps all devices on one network](https://www.dslreports.com/faq/15993)
+  * [What are the tradeoffs between the various router configurations](https://www.dslreports.com/faq/16077)
+  * [Replacing the Actiontec (part 4): LAN-to-LAN keeps all devices on one network](https://www.dslreports.com/faq/15993)
 
 * [How To Add A Router to Verizon 5G Home Internet Gateway - ASK-NCQ1338 And Asus Aimesh RT-AC88U](https://www.youtube.com/watch?v=GKbBI38MML8)
 
@@ -163,6 +165,7 @@ Sources:
 
 
 # What is a Homelab?
+
 I, like many, want to experiment with different computer & networking technologies.
 This would include creating my own web server, NAS storage, private cloud services,
 experiment with networking techniques, have a server to create virtual machines or containers,
@@ -198,27 +201,29 @@ Sources:
 
 
 ## Components of a Homelab
+
 Every homelab is a different and very much reflects the
 interests, needs, and budget of the person using it.
 Here are the components I plan to establish.
 
 * Foundational Components
-    * Full Feature Router + Firewall
-    * Virtualization Server
-    * Virtual LAN (VLAN)
-    * Reverse Proxy
+  * Full Feature Router + Firewall
+  * Virtualization Server
+  * Virtual LAN (VLAN)
+  * Reverse Proxy
 * Add-on Components
-    * Enhansed Security
-    * Dashboard
+  * Enhansed Security
+  * Dashboard
 * Optional Components
-    * Disk Cloning and Backups
-    * eMail Spam Blocker
-    * Remote Access
-    * Kubernetes Cluster
-    * Infrastructure as Code (IaC)
+  * Disk Cloning and Backups
+  * eMail Spam Blocker
+  * Remote Access
+  * Kubernetes Cluster
+  * Infrastructure as Code (IaC)
 
 
 ## Domains
+
 Type    Name                IP Address
 A       jeffskinnerbox.me   72.86.37.26
 CNAME   www                 @
@@ -226,6 +231,7 @@ CNAME   bitwarden           @
 
 
 ## Physical Design & Network Addressing
+
 My vision for the physical design will be
 
         Desktop - 192.168.1.200 (static)
@@ -332,6 +338,7 @@ SmartThings Gateway  DHCP
 
 
 ### Full Feature Router + Firewall
+
 You already have a firewall built into your existing router,
 so is it necessary to buy a special purpose firewall for your home network?
 
@@ -384,6 +391,7 @@ so is it necessary to buy a special purpose firewall for your home network?
 
 
 #### Step X: Itrusion Protection System (IPS)
+
 CrowdSec is a free, open-source, and collaborative Itrusion Protection System (IPS).
 Analyze behaviors, respond to attacks & share signals across the community.
 
@@ -393,10 +401,12 @@ Analyze behaviors, respond to attacks & share signals across the community.
 
 
 #### Step X: Ad Blockine
+
 Clheckout setting-up-pi-hole.md
 
 
 #### Step X: Setting Up WireHole
+
 WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose project with the intent of enabling users to quickly and easily create and deploy a personally managed full or split-tunnel WireGuard VPN with ad blocking capabilities (via Pihole), and DNS caching with additional privacy options (via Unbound).
 
 * [WireHole: WireGuard, Pi-Hole and Unbound in Docker](https://www.youtube.com/watch?v=DOJ39lyx6Js)
@@ -423,6 +433,7 @@ WireHole is a combination of WireGuard, PiHole, and Unbound in a docker-compose 
 
 
 ### Homelab Dashboard with Homer
+
 Check out `$HOME/src/homer-dashboard`
 
 
@@ -443,6 +454,7 @@ Check out `$HOME/src/homer-dashboard`
 
 
 ### Clonezilla (Disk Cloning)
+
 Clonezilla is a partition and disk imaging/cloning program similar to True Image® or Norton Ghost®.
 It helps you to do system deployment, bare metal backup and recovery.
 
@@ -454,6 +466,7 @@ It helps you to do system deployment, bare metal backup and recovery.
 
 
 ### Duplicati
+
 Duplicati is a backup client that securely stores encrypted, incremental, compressed remote backups of local files on cloud storage services and remote file servers. Duplicati supports not only various online backup services like OneDrive,[1] Amazon S3, Backblaze, Rackspace Cloud Files, Tahoe LAFS, and Google Drive, but also any servers that support SSH/SFTP, WebDAV, or FTP.
 
 * [Duplicati a Set it and Forget it backup tool for local and remote backups of your system!](https://www.youtube.com/watch?v=N1NRvg4KaDE)
@@ -461,11 +474,12 @@ Duplicati is a backup client that securely stores encrypted, incremental, compre
 
 
 ### eMail Server
+
 By running your own email server, your data is in your own hands and on your own hardware, with no oversight from shadowy corporate entities.
 
 * [Make Your Own Raspberry Pi Email Server](https://www.makeuseof.com/make-your-own-raspberry-pi-email-server/)
 * [Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/edge/)
-    * [Mail Server](https://geek-cookbook.funkypenguin.co.nz/recipes/mail/)
+  * [Mail Server](https://geek-cookbook.funkypenguin.co.nz/recipes/mail/)
 * [12 Best Self-Hosted Email Server Platforms to Use](https://geekflare.com/self-hosted-email-server/)
 
 
@@ -494,6 +508,7 @@ By running your own email server, your data is in your own hands and on your own
 
 
 # FiOS Service
+
 Verizon FiOS (which stands for **Fi**ber **O**ptic **S**ervice)
 is a bundled Internet access, telephone, and television service
 that operates over a fiber-optic communications network.
@@ -502,12 +517,14 @@ that operates over a fiber-optic communications network.
 
 
 # FiOS Optical Network Terminal (ONT)
+
 At you house, the FiOS [Optical Network Terminal (ONT)][11] splits-out & converts
 the optical fiber connection to Ethernet for Internet service, twisted pair wiring for phone service,
 and coaxial cable for TV service.
 
 
 # What is MoCA?
+
 MoCA stands for Multimedia over Coaxial Alliance.
 [It provides a way to use coaxial cable as Ethernet cables][10].
 MoCA technology uses the existing TV cable wiring (coaxial cables) in your home to transmit data.
@@ -529,6 +546,7 @@ My service provider use the MoCA connection to route control messages to my cabl
 
 
 # Replacing My FiOS Router
+
 Much of what you see here was inspired by [NetworkChuck][05],
 and my end goal is to replace my Verizon FiOS wireless router
 ([G-1100 FiOS Quantum Gateway Router][01]) with my own router
@@ -560,6 +578,7 @@ Needless to say, I like a challenge and new things to learn.
 
 
 ## Cost & Value of Router Replacement
+
 The estimate cost of the replacement router configuration is:
 
 | Price | Hardware / Software       |
@@ -594,6 +613,7 @@ onto seperate virtual networks giving me additional security.
 
 
 ## First, Do a Proof of Concept
+
 The first question you have to ask,
 is all this possible, particularly can you not disrupt your phone & TV service?
 It is very clear to me everything else will work because its all open source tools and IP networking.
@@ -614,6 +634,7 @@ and had a configuration that was like my home.
 
 
 # Replace My Verizon FiOS Router
+
 So a complicating factor is that I'm using my FiOS service to also provide me TV and IP-telephone service.
 A concern is that FiOS provided wireless router is critical to the proper operation of the TV service and telephony.
 The G-1100 FiOS router has connections for Ethernet connection to the WAN and the TV coax cable,
@@ -668,6 +689,7 @@ Sources:
 
 
 #### Step X: Measure Internet Speed - DONE
+
 Lets baseline the speed of my current Internet connection.
 We can do this via the [speedtest.net][17] site  or
 use its command line tool [`speedtest-cli`][18] for testing internet bandwidth.
@@ -700,6 +722,7 @@ Sources:
 
 
 #### Step X: Gather Current Router Configuration - DONE
+
 Before starting, you need to collect information about how you home network is currently configured.
 Using my browser, I navigated to my FiOS Router via `https://192.168.1.1`
 I then created PDF snapshots of the multiple UI displays for firewall rules, port forwarding, etc.
@@ -813,6 +836,7 @@ $ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
 
 
 #### Step X: Change LAN IP TCP/IP Subnet - DONE
+
 My FiOS router is creating a home IP network using the private subnet `192.168.1.0`.
 When I establish my new router, I don't want to have to resent all my currently active devices.
 I want the new network to have the same WiFi SSID and use the private subnet `192.168.1.0`.
@@ -834,6 +858,7 @@ Now reboot pfSense to make sure changes take effect via **5) Reboot system**.
 
 
 #### Step X: Release DHCP Lease - DONE
+
 Prior to swapping out your FiOS router for the new one,
 you'll need to release the DHCP lease on the FiOS router.
 
@@ -848,6 +873,7 @@ Your new router should obtain a fresh DHCP lease and be connected immediately.
 
 
 #### Step X: Move Ethernet Connections to Switch - DONE
+
 Next, we have to perform some hardwire (aka Ethernet) re-configuration
 within the test confugration
 (Protectli Vault + Proxmox + pfSense + TP-Link Switch + TP-Link EAP610)
@@ -877,12 +903,13 @@ This will allow your hardwared home devices obtain their IP address from the pfS
 * [Virtualised pfSense on Proxmox with Open vSwitch](https://webworxshop.com/virtualised-pfsense-on-proxmox-with-open-vswitch/)
 * [How to Access Management GUI w/pfSense??](https://www.reddit.com/r/Proxmox/comments/ad27n3/how_to_access_management_gui_wpfsense/)
 * [Management interface to internal network (vmbrX)](https://www.reddit.com/r/Proxmox/comments/i2116w/management_interface_to_internal_network_vmbrx/)
-    * [Proxmox + pfSense on one public IP](https://blog.kton.me/post/152460845498/proxmox-pfsense-on-one-public-ip)
+  * [Proxmox + pfSense on one public IP](https://blog.kton.me/post/152460845498/proxmox-pfsense-on-one-public-ip)
 
 * [Physical or Virtual? A Silent 4x 2.5GbE Proxmox VE pfSense and OPNsense Box](https://www.youtube.com/watch?v=IJhlqb4iGn4)
 
 
 #### Step X: Measure Internet Speed
+
 Lets do another Internet speed test using `speedtest-cli`,
 but this time from desktop and Proxmox to see what we get.
 
@@ -904,6 +931,7 @@ Upload: 95.03 Mbit/s
 
 
 #### Step X: Checking Ethernet Cables
+
 For my Ethernet networking,
 I'm using a mixture of cables I have collected over the years,
 including Cat5, Cat5e, and Cat6.
@@ -930,6 +958,7 @@ but it might be worth it to future proof your network.
 
 
 #### Step X: Get TV Service Working
+
 If you have FiOS TV, your new router should be able to reach the Internet.
 However, you'll notice that your TV service will have some issues,
 such as the guide not working, and on demand not functioning either.
@@ -945,6 +974,7 @@ Reboot the set top boxes after the MoCA adapter has been connected and ensure th
 
 
 #### Step X: Return FiOS Router to Verizon
+
 Once you elect to go with your own router,
 you have 30 days to return your FiOS router to Verizon,
 or they will charge you a rental fee.
@@ -1006,6 +1036,7 @@ And get a receipt from the store confirming that your equipment has been returne
 
 
 # Setup Router
+
 I need to migrate some of the settings on my current router to the new router using pfSense.
 Typical things that need migrating from my old router are:
 DHCP Reservations Range, Static IP Addresses, DNS Resolvers, Firewall Rules, Port Forwards, Dynamic DNS Settings.
@@ -1018,12 +1049,14 @@ Sources:
 
 
 ## Install Proxmox on Protectli Vault
+
 Follow the procedures in `setting-up-proxmox.md`.
 
 * [Proxmox VE on the Vault](https://protectli.com/kb/proxmox-ve-on-the-vault/)
 
 
 ## Install pfSense
+
 Follow the procedures in `setting-up-pfsense.md`.
 
 * [your home router SUCKS!! (use pfSense instead)](https://www.youtube.com/watch?v=lUzSsX4T4WQ)
@@ -1032,6 +1065,7 @@ Follow the procedures in `setting-up-pfsense.md`.
 
 
 ## Configure Switch
+
 For my switch, I purchased the [TP-Link TL-SG108E Version 6.6][06].
 Download the user guide, configuration utility, and firmware update (none at the time of my purchase)
 at [TP-Link's download site][08].
@@ -1046,6 +1080,7 @@ at [TP-Link's download site][08].
 
 
 #### Step X: Configuring Optional Ports
+
 Here we will covers how to enable the Protectli Vault's optional ports in pfSense.
 The Optional Ports are labeled “OPTx” on the Vault.
 The LAN ports default private IP addressing scheme is `192.168.1.x`.

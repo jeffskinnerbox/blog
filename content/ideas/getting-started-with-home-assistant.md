@@ -85,6 +85,7 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 
 # rtl_433 Home Assistant add-ons
+
 "Raspberry Pi Pivot" offers step-by-step instructions to set up your Rasbian install with rtl_433.
 A follow on article show how to integrate this into Home Assistant.
 
@@ -95,6 +96,7 @@ A follow on article show how to integrate this into Home Assistant.
 
 
 # Wyoming Voice Satellite
+
 Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM audio).
 
 * [Build the Wyoming Voice Satellite With ChatGPT and a Raspberry Pi To Replace Alexa & Google FOREVER!](https://www.youtube.com/watch?v=eTKgc0YDCwE)
@@ -118,7 +120,7 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 * [Raspberry Pi IoT Server Tutorial: InfluxDB, MQTT, Grafana, Node-RED & Docker](https://www.youtube.com/watch?v=_DO2wHI6JWQ)
 * [Set up a minimal server on a Raspberry Pi](https://opensource.com/article/21/1/minimal-server-raspberry-pi)
 * [Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc.](https://www.youtube.com/watch?v=a6mjt8tWUws&feature=youtu.be)
-    * [IOTstack](https://sensorsiot.github.io/IOTstack/)
+  * [IOTstack](https://sensorsiot.github.io/IOTstack/)
 * [Raspberry Pi 4 8GB & USB Boot](https://www.youtube.com/watch?v=2zrwjGcyM5s)
 
 * [Node-RED Tutorials](https://www.youtube.com/playlist?list=PLKYvTRORAnx6a9tETvF95o35mykuysuOw)
@@ -160,6 +162,7 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 
 
 # Smart Home / IoT Server Software Platform
+
 I got plans for several standard home sensors (e.g. water sensors),
 not so standard sensors (e.g. people detecting via smart phone RF exhaust),
 and some novel status display methods (e.g. scrolling display critical events).
@@ -198,6 +201,7 @@ which are both an implementations of the ["Web of Things" standard from the W3C]
 
 
 # Smart Home / IoT Server Hardware Platform
+
 The next critical decision is what hardware do I use?
 After a bit of research,
 I concluded I want to use the most capable Raspberry Pi,
@@ -226,36 +230,37 @@ And to top it off, the GPIO pins are still easily accessible but smartly hidden.
 
 
 # Sources
+
 With wide span of control comes greater responsibility.
 Read these articles gave me the insight, pointers,
 and confidence in selecting Home Assistant as my platform of choose:
 
 * Pros/Cons of Home Assistant
-    * [5 Reasons Not to Build a Smart Home on home Assistant](https://www.youtube.com/watch?v=g48pwCIAQEk)
-    * [The realities of Home Assistant after using it for months](https://www.youtube.com/watch?v=RevpNnVWHlY)
-    * [3 Things No One Will Tell You About Home Assistant](https://www.youtube.com/watch?v=WGiFUpiYjEE&feature=youtu.be)
-    * [Home Assistant vs OpenHAB - Which one is better?](https://www.youtube.com/watch?v=A4jrE_MtRWc)
-    * [Why I use Home Assistant for open source home automation](https://opensource.com/article/20/11/home-assistant)
-    * [Cloud control vs local control: What to choose for your home automation](https://opensource.com/article/20/11/cloud-vs-local-home-automation)
-    * [How to choose a wireless protocol for home automation](https://opensource.com/article/20/11/wireless-protocol-home-automation)
-    * [Set up Home Assistant to manage your open source smart home](https://opensource.com/article/20/12/home-assistant)
-    * [Integrate devices and add-ons into your home automation setup](https://opensource.com/article/21/2/home-automation-addons)
-    * [How to set up custom sensors in Home Assistant](https://opensource.com/article/21/2/home-assistant-custom-sensors)
-    * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
-    * [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
+  * [5 Reasons Not to Build a Smart Home on home Assistant](https://www.youtube.com/watch?v=g48pwCIAQEk)
+  * [The realities of Home Assistant after using it for months](https://www.youtube.com/watch?v=RevpNnVWHlY)
+  * [3 Things No One Will Tell You About Home Assistant](https://www.youtube.com/watch?v=WGiFUpiYjEE&feature=youtu.be)
+  * [Home Assistant vs OpenHAB - Which one is better?](https://www.youtube.com/watch?v=A4jrE_MtRWc)
+  * [Why I use Home Assistant for open source home automation](https://opensource.com/article/20/11/home-assistant)
+  * [Cloud control vs local control: What to choose for your home automation](https://opensource.com/article/20/11/cloud-vs-local-home-automation)
+  * [How to choose a wireless protocol for home automation](https://opensource.com/article/20/11/wireless-protocol-home-automation)
+  * [Set up Home Assistant to manage your open source smart home](https://opensource.com/article/20/12/home-assistant)
+  * [Integrate devices and add-ons into your home automation setup](https://opensource.com/article/21/2/home-automation-addons)
+  * [How to set up custom sensors in Home Assistant](https://opensource.com/article/21/2/home-assistant-custom-sensors)
+  * [Home Assistant Demo](https://demo.home-assistant.io/#/lovelace/0)
+  * [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
 * Home Automation Ideas
-    * [My Top 5 Automations in Home Assistant](https://www.mostlychris.com/my-top-5-automations/)
-    * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
-    * [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
+  * [My Top 5 Automations in Home Assistant](https://www.mostlychris.com/my-top-5-automations/)
+  * [10 tips for DIY IoT home automation](https://opensource.com/life/16/9/iot-home-automation-projects?sc_cid=701600000012AJUAA2)
+  * [25 Smart Home Automation Ideas – How To Set Everything Up](https://smarthomesolver.com/reviews/smart-home-automation-ideas/)
     and it's companion: [video](https://www.youtube.com/watch?v=F-mEA5RN_yo)
-    * [25 Home Automation Ideas: Ultimate Smart Home Tour (volume 2)](https://smarthomesolver.com/reviews/25-smart-home-automation-ideas-volume-2/)
-    * [Ranking All My Smart Home Products and Projects. SMART HOME TOUR.](https://www.youtube.com/watch?v=n0dfuj60aaI&feature=youtu.be)
+  * [25 Home Automation Ideas: Ultimate Smart Home Tour (volume 2)](https://smarthomesolver.com/reviews/25-smart-home-automation-ideas-volume-2/)
+  * [Ranking All My Smart Home Products and Projects. SMART HOME TOUR.](https://www.youtube.com/watch?v=n0dfuj60aaI&feature=youtu.be)
     and it's companion: [video](https://www.youtube.com/watch?v=jDaRPsvvcz4)
 * Informative YouTubers focusing on home automation:
-    * [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ)
-    * [Everything Smart Home](https://www.youtube.com/channel/UCrVLgIniVg6jW38uVqDRIiQ)
-    * [SuperHouseTV](https://www.youtube.com/user/SuperHouseTV)
-    * [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw)
+  * [The Hook Up](https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ)
+  * [Everything Smart Home](https://www.youtube.com/channel/UCrVLgIniVg6jW38uVqDRIiQ)
+  * [SuperHouseTV](https://www.youtube.com/user/SuperHouseTV)
+  * [Smart Home Junkie](https://www.youtube.com/channel/UCVtQ4AOSmCFUuvixddYiSxw)
 
 
 
@@ -264,6 +269,7 @@ and confidence in selecting Home Assistant as my platform of choose:
 
 
 # Preparing the Raspberry Pi SD Card
+
 In this section, we will prepare SD-Card for first boot.
 This first boot will be from a SD Card on the Raspberry Pi,
 despite the fact that the [Argon ONE M.2 Case for Raspberry Pi 4][20]
@@ -271,6 +277,7 @@ with a M.2 SATA SSD is our ultimate target configuration.
 
 
 #### Step 1: Download Raspberry Pi Image - DONE
+
 Before you can load a copy of the latest Raspberry Pi image onto your micro SD Card,
 you must first download the official [Raspberry Pi 4][30] operating system, [Raspberry Pi OS][31].
 The download site also lists a check sum for the download file.
@@ -312,6 +319,7 @@ rm 2021-05-07-raspios-buster-armhf-full.zip
 
 
 #### Step 2: Write Raspberry Pi Image to SD Card - DONE
+
 Next using Linux, you have to copied the Raspberry OS image onto the SD card mounted to your system.
 I'll be using the [Rocketek 11-in-1 4 Slots USB 3.0 Memory Card Reader][32] to create my SD Card.
 Make sure to [choose a reputable SD Card][33] from [here][34], don't go cheap.
@@ -373,6 +381,7 @@ rm ~/Downloads/RPi-OS/copy-from-sd-card.img
 
 
 #### Step 3: Enable SSH on SD Card - DONE
+
 SSH can be enabled on first boot by placing a file named `ssh` (without any extension),
 onto the root directory of the boot partition on the SD-Card:
 
@@ -413,6 +422,7 @@ This is fine for me since Ethernet connectivitiy is what I want.
 
 
 # Prepare Argon ONE M.2 Case for Raspberry Pi 4
+
 If your searching how to best marry a Solid State Drive (SSD) with a Raspberry Pi,
 the [Argon ONE M.2 Case for Raspberry Pi 4][20] is the way to go.
 With this case, you get support for high speed [M.2 SATA SSDs][26],
@@ -423,6 +433,7 @@ more reliable and larger storage capacity compared to the traditional microSD Ca
 
 
 ### Step 1: Assemble the Argon ONE M.2 Case - DONE
+
 The physical assembly of the Argon ONE M.2 is easy,
 just follow the documentation that comes with the product and online information.
 For information about assembly & setup,
@@ -438,6 +449,7 @@ Sources:
 
 
 ### Step 2: Booting From the SD-Card - DONE
+
 Install the SD Card created earlier,
 apply power to the Argon ONE M.2 via a USB C charger for the Raspberry Pi 4,
 connect an Ethernet cable from you LAN,
@@ -504,6 +516,7 @@ Sources:
 
 
 ### Step 3: Prepare Bootloader - DONE
+
 Before editing the bootloader configuration so it uses the M.2 SATA SSD,
 make sure you have [updated your system][29] (as shown in previous step)
 to get the latest version of the [`rpi-eeprom` package][39].
@@ -581,6 +594,7 @@ Sources:
 
 
 ### Step 4: Clone SD Card to M.2 SSD - DONE
+
 Now I want to create a copy of my SD Card Raspberry Pi image, with all the data and programs,
 and place it on the M.2 SDD so it boots up from there.
 To do this, I choose a tool that allows me to clone a SD Card to a bootable USB drive or disk.
@@ -656,6 +670,7 @@ Sources:
 
 
 ### Step 5: Boot from M.2 SSD Drive - DONE
+
 Now halt the Raspberry Pi, remove the SD Card, and allow the Raspberry Pi
 to boot from the M.2 SSD drive within the Argon ONE.
 You should see the following:
@@ -686,6 +701,7 @@ Now we will prepare the SSD on the Raspberry Pi for future use.
 
 
 ### Step 6: Partition the SSD - DONE
+
 In the default partitioning given to us via `rpi-clone`,
 we have two partitions on the SSD.
 There is a partition for the `/boot` filesystem and `/` (aka root).
@@ -698,6 +714,7 @@ What about a `/swap` and `/home` partition / filesystem?
 
 
 #### /swap
+
 RPi generates a RAM size dependant swap **file** in at `/var/swap`,
 instead of using an fixed sized swap partition as in most Linux distributions.
 It also automatically regenerate the swap file if RAM size changes, to fit the new size.
@@ -746,6 +763,7 @@ So, I'm going with this new convention and not create a swap partition.
 
 
 #### /home
+
 I prefer to use a separate `/home` partition and not part of the `/` filesystem.
 RPi default partitioning doesn't do this.
 
@@ -853,6 +871,7 @@ Source:
 
 
 ### Step 7: Install Argon Script - DONE
+
 Now we'll install the Argon ONE M.2 Case software script to control
 the function of the power switch and the cooling fan.
 
@@ -860,10 +879,10 @@ The Argon ONE M.2 Case has a multi-function power button which operates as follo
 
 * If the power is currently OFF, a short press turns the power ON.
 * If the power is currently ON, there are these press options:
-    * double–tap for reboot
-    * <3 second, nothing happens
-    * >=3 seconds for soft shutdown and power cut
-    * >=5 seconds for forced shutdown
+  * double–tap for reboot
+  * <3 second, nothing happens
+  * >=3 seconds for soft shutdown and power cut
+  * >=5 seconds for forced shutdown
 
 The default software setting automatically assumes that after a power failure,
 you want the power to remain off.
@@ -923,6 +942,7 @@ Sources:
 
 
 ### Step X: Format and Partition the SSD
+
 Often on Linux, when you plug a USB thumb drive in, you're alerted that the drive exists.
 Sometimes, however, a drive isn't set-up/organized so it functions.
 This will be the case for the M.2 SSD.
@@ -1176,6 +1196,7 @@ Sources:
 
 
 ### Step 4: Load the Raspberry Pi OS Image on the SD Card
+
 We need to write the Raspberry Pi OS image onto the M.2 SDD,
 but for the next step, we'll copy the Raspberry Pi OS to the the SD Card.
 To install the OS image on the M.2 SATA SSD,
@@ -1217,6 +1238,7 @@ $ df -h | grep media
 
 
 ### Step 5: Load Raspberry Pi OS on the M.2 SATA SSD
+
 Often on Linux, when you plug a USB thumb drive in, you're alerted that the drive exists.
 Sometimes, however, a drive isn't set-up/organized so it functions.
 For those times, you may need to partition and format the device.
@@ -1429,6 +1451,7 @@ scp -rp /home/jeff/Downloads/RPi-OS/2020-12-02-raspios-buster-armhf-full.img pi@
 
 
 # validate file is uncorrupted via check of digital signature
+
 $ sha1sum /home/jeff/Downloads/RPi-OS/raspbian_latest.zip
 4c4ebc332ab2ed0e2e590adb2bf60f5cec95001f  /home/jeff/Downloads/RPi-OS/raspbian_latest.zip
 
@@ -1463,6 +1486,7 @@ rm raspbian_latest.zip
 
 
 ### Step X: Load Raspberry Pi OS on the M.2 SATA SSD
+
 Often on Linux, when you plug a USB thumb drive in, you're alerted that the drive exists.
 Sometimes, however, a drive isn't set-up/organized so it functions.
 For those times, you may need to partition and format the device.
@@ -1652,11 +1676,13 @@ Sources:
 
 
 ### Step X: Boot from the M.2 SATA SSD
+
 Now shutdown the Raspberry Pi and physically remove the SD-Card from the Argon ONE M.2 Case.
 Restart the RPi and you should now be booting off the M.2 SATA SSD.
 
 
 ### Step X: XXX
+
 Using the `blkid` command you can view attributes of block devices that are on your system.
 
 ```bash
@@ -1675,6 +1701,7 @@ findmnt -n -o SOURCE /
 
 
 ### Step 3: Booting From the M.2 SATA SSD
+
 By default, Raspberry Pi boots up and stores all of its programs on a microSD memory card,
 which has a maximum theoretical bandwidth of 50 MBps on the Raspberry Pi 4,
 but even the best microSD cards get no faster than about 38 MBps in sequential writes.
@@ -1738,6 +1765,7 @@ findmnt -n -o SOURCE /
 
 
 #### Step X: Set Up a Static IP Address - DONE
+
 By default, the Raspberry Pi will get a dynamically allocated IP-address
 To make it easier to connect and have a more stable connection,
 we'll give it a static IP address.
@@ -1789,6 +1817,7 @@ EOF
 
 
 #### Step X: Give the Raspberry Pi a Host Name - DONE
+
 Now lets give the Raspberry Pi a host name of `home-assist`,
 reboot, and check if the hostname and IP address have taken effect.
 
@@ -1817,6 +1846,7 @@ Sources:
 
 
 # Which Home Assistant install is right for you?
+
 Home Assistant has document [multiple installation procedures][46].
 Which installation method is best for you?
 For experieced users, you can do a manual install with
@@ -1840,6 +1870,7 @@ or Home Assistant Container running on Docker.
 
 
 #### Step X: Install Docker and Docker Compose - DONE
+
 To install Docker we'll use the instructions for Debian provided by Docker Docs found [here][45].
 
 ```bash
@@ -1875,6 +1906,7 @@ sudo docker ps -a -s
 
 
 #### Step X: Portainer Agent Deployment - DONE
+
 Use the following Docker commands to deploy the Portainer Agent.
 Agents are installed on Docker nodes being managed remotely by Portainer.
 The agent is not needed on standalone hosts,
@@ -1887,6 +1919,7 @@ sudo docker run -d -p 9001:9001 --name portainer-agent --restart=always -v /var/
 
 
 #### Step X: Manage Docker Containers via Desktop Portainer - DONE
+
 We now want to connect the Raspberry Pi so its Docker containers can be monitored
 and managed from my `desktop` Portainer.
 This is enabled by the Portainer Agent we install in the previous step.
@@ -1959,6 +1992,7 @@ From [How to build your own Raspberry Pi Kubernetes Cluster](https://www.youtube
 
 
 ## Supporting Argon ONE M.2 Case
+
 For my Raspberry Pi, I'm using the [Argon ONE M.2 Case for Raspberry Pi 4][03]
 
 * [Argon One installation script for Ubuntu 20.04](https://github.com/meuter/argon-one-case-ubuntu-20.04)
@@ -1980,6 +2014,7 @@ For my Raspberry Pi, I'm using the [Argon ONE M.2 Case for Raspberry Pi 4][03]
 
 
 ## Disable the Microsoft Repo
+
 the Raspberry Pi OS installed a Microsoft apt repository on all machines running Raspberry Pi OS without the person’s or admin’s knowledge. Every time a Raspbian device is updated by having this repo, it will ping a Microsoft server.
 
 * [Heads up: Microsoft repo secretly installed on all Raspberry Pi’s Linux OS](https://www.cyberciti.biz/linux-news/heads-up-microsoft-repo-secretly-installed-on-all-raspberry-pis-linux-os/)
@@ -1993,6 +2028,7 @@ the Raspberry Pi OS installed a Microsoft apt repository on all machines running
 
 
 # Smart Home / IoT Platform
+
 So what do I load onto my hardware platform to give me the full Smart Home / IoT Platform experiance?
 
 * [#295 Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc: IOTstack](https://www.youtube.com/watch?v=a6mjt8tWUws)
@@ -2044,27 +2080,27 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 ### Home Assistend Voice & Voice Commands
 
 * [YOU NEED THIS! The Home Assistant Voice Preview Edition Hardware for local voice control](https://www.youtube.com/watch?v=2VO-HM08EeA)
-    * [Home Assistant made their own Alexa!!](https://www.youtube.com/watch?v=An4IapvutzM)
-    * [Product page](https://home-assistant.io/voice-pe)
-    * [Documentation](https://voice-pe.home-assistant.io)
-    * [Talking with Home Assistant - get your system up & running](https://www.home-assistant.io/voice_control/)
-    * [Voice Chapter 8 - Assist in the home today](https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home/)
+  * [Home Assistant made their own Alexa!!](https://www.youtube.com/watch?v=An4IapvutzM)
+  * [Product page](https://home-assistant.io/voice-pe)
+  * [Documentation](https://voice-pe.home-assistant.io)
+  * [Talking with Home Assistant - get your system up & running](https://www.home-assistant.io/voice_control/)
+  * [Voice Chapter 8 - Assist in the home today](https://www.home-assistant.io/blog/2024/12/19/voice-chapter-8-assist-in-the-home/)
 
 * [my local, AI Voice Assistant (I replaced Alexa!!)](https://www.youtube.com/watch?v=XvbVePuP7NY)
 * [Koala Satellite](https://github.com/formatBCE/Koala-Satellite)
 
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
-    * [Piper](https://rhasspy.github.io/piper-samples/)
-    * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
+  * [Piper](https://rhasspy.github.io/piper-samples/)
+  * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
 * [Local Voice Control With Home Assistant Just Got Easier!](https://www.youtube.com/watch?v=BLJR_v3IFwk)
 * [Tested: Home Assistant integrations, remote access and voice commands](https://staceyoniot.com/home-assistant-integrations-remote-access-setup-review/)
 * [HAL 9000 Becomes a Helpful Voice Assistant](https://hackaday.com/2022/05/24/hal-9000-becomes-a-helpful-voice-assista/)
 * [How I added JARVIS to Home Assistant powered Smart Home](https://www.youtube.com/watch?v=Ys9xlo3Rq4E)
-    * [Time to Come Clean About Jarvis](https://www.youtube.com/watch?v=p2skApFQWGE)
+  * [Time to Come Clean About Jarvis](https://www.youtube.com/watch?v=p2skApFQWGE)
 
 * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [I turned my ATOM Echo into a Private Voice Assistant for Home Assistant](https://peyanski.com/atom-echo-as-private-voice-assistant/)
-    * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
+  * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
 * FLASHING THE ATOM ECHO - [$13 voice remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
 * [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
 * [Custom Voice Control Sentences in Home Assistant](https://www.mostlychris.com/custom-voice-control-sentences-in-home-assistant/)
@@ -2090,17 +2126,18 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 
 * Device
 * Entity
-    * ID
-    * Name
-    * Icon
-    * State
-    * Attribute
+  * ID
+  * Name
+  * Icon
+  * State
+  * Attribute
 * Service
 * Automation
 * [Home Assistant Concepts Explained Device, Entity, Service, Automation](https://www.youtube.com/watch?v=reQxGZfnewQ)
 
 
 # Awesome Home Assistant
+
 [Awesome Home Assistant](https://www.awesome-ha.com/)
 is a curated list of Home Assistant resources.
 It contains additional software, tutorials, custom integration, add-ons,
@@ -2109,6 +2146,7 @@ The list is divided into categories and can be found here: <https://www.awesome-
 
 
 ### Home Assistant Add-ons
+
 Add-ons are additional applications and services,
 that can be run alongside Home Assistant.
 The Home Assistant OS and Supervised installations types, provide the Supervisor,
@@ -2119,6 +2157,7 @@ which is capable of running and manage these add-ons.
 
 
 #### Lovelace
+
 Lovelace is the Home Assistant frontend/UI and can be customize to fit your needs or taste better.
 
 * **Themes** - It is all about the looks, apply some style.
@@ -2184,26 +2223,31 @@ See - /home/jeff/src/vagrant-machines/homeassistant/README.md
 
 
 ## Integration with Obsidian
+
 * [You were RIGHT! The Best Smart Home Combo for 2025](https://www.youtube.com/watch?v=BCMyjJVtANs)
 * [GPT TOOK OVER MY HOME - I learned why it's SCARY | | Chapter 4](https://www.youtube.com/watch?v=4ZxUsLnDjTA)
 
 
 ## Cheap Room Temperature/Humidity LCD Sensors
+
 * [Custom firmware on cheap Chinese Bluetooth LCD temperature - humidity sensors for Home Assistant](https://www.youtube.com/watch?v=AD2KduDTjf8)
-    * [BTHome](https://bthome.io/)
-    * [BTHome THB1, THB2, THB3, BTH01, TH05 (HW: v1.3..1.6), TH05F](https://github.com/MakersFunDuck/humidity-temperature-sensor-TH05F)
-    * [Enable Bluetooth Sensors for Home Automation: Bluetooth Proxy and Home Assistant (incl. Bermuda)](https://www.youtube.com/watch?v=yX_VqZ1NUa8)
+  * [BTHome](https://bthome.io/)
+  * [BTHome THB1, THB2, THB3, BTH01, TH05 (HW: v1.3..1.6), TH05F](https://github.com/MakersFunDuck/humidity-temperature-sensor-TH05F)
+  * [Enable Bluetooth Sensors for Home Automation: Bluetooth Proxy and Home Assistant (incl. Bermuda)](https://www.youtube.com/watch?v=yX_VqZ1NUa8)
 
 
 ## Bluetooth Proxy
+
 * [Set up a Bluetooth proxy with ESP32 in Home Assistant](https://www.youtube.com/watch?v=pFXalO-JLHU)
 
 
 ## SensorNode
+
 * [SensorNode - The Easy Way to Add Sensors to Home Assistant](https://www.youtube.com/watch?v=gVOg_U6mjH0)
 
 
 # Remote Home-Assistant
+
 There are a lot of guides out there on Setting Up Home Assistant,
 but what if you have multiple Home Assistant installations,
 and want to display and control them all from a single, central Home Assistant?
@@ -2217,8 +2261,8 @@ There Home Assistant add-on called [Remote Home Assistant][50] that makes this e
 
 * [Raspberry Pi OS "Bullseye" Launches, Brings Speed Boost to the Latest Raspberry Pi 4 Models](https://www.hackster.io/news/raspberry-pi-os-bullseye-launches-brings-speed-boost-to-the-latest-raspberry-pi-4-models-b86becec3ae6)
 * [How to know which Raspberry do you have](https://oastic.com/posts/how-to-know-which-raspberry-do-you-have/)
-    * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
-    * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
+  * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
+  * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
 
 
 # Alexa Button
@@ -2339,6 +2383,7 @@ making it a Uninterruptable Power Supply (UPS).
 
 
 # Nabu Casa
+
 Nabu Casa (built by the founder of Home Assistant),
 claims to be the missing cloud piece for Home Assistant.
 
@@ -2356,6 +2401,7 @@ claims to be the missing cloud piece for Home Assistant.
 
 
 ## Integrate Google Home/Google Assistant
+
 integrate Google Home/Google Assistant with Home Assistant which will allow you to control all of your Home Assistant connected devices with your Google Home or Nest speaker, all done for free without a cloud subscription.
 
 * [Google Home with Home Assistant Local for FREE Without Subscription](https://www.youtube.com/watch?v=RqGi_GI0ltU&feature=youtu.be)
@@ -2370,6 +2416,7 @@ integrate Google Home/Google Assistant with Home Assistant which will allow you 
 
 
 # Store Home Assistant History
+
 The standard recorder in Home Assistant sometimes gets corrupt and results in losing your history and Home Assistant not starting up again. You can solve this by using MariaDB to record the history of your sensors.
 
 * [No More History Loss In Home Assistant!](https://www.youtube.com/watch?v=0Nf70avId0w&feature=youtu.be)
@@ -2420,6 +2467,7 @@ The standard recorder in Home Assistant sometimes gets corrupt and results in lo
 
 
 # Presence Detection
+
 Passive Bluetooth presence detection of beacons, cell phones, and other Bluetooth devices. Useful for mqtt-based home automation, especially when the script runs on multiple devices, distributed throughout a property.
 
 * [How I Setup Presence Detection in Home Assistant](https://www.youtube.com/watch?v=1J776MtLuH4)
@@ -2439,6 +2487,7 @@ Passive Bluetooth presence detection of beacons, cell phones, and other Bluetoot
 
 
 # Installing Node Red
+
 *[Home Assistant Node-RED Install Plus Examples](https://www.youtube.com/watch?v=QLAe4H72Aq8)
 
 
@@ -2451,6 +2500,7 @@ Passive Bluetooth presence detection of beacons, cell phones, and other Bluetoot
 
 
 ## ESPHome
+
 Tasmota or ESPHome, together with Home Assistant are often seen together for home automation.
 Most of the focus is on flashing and integrating readily available devices and sensors.
 But which framework is better also for our do-it-yourself sensors and ESP32 boards.
@@ -2489,6 +2539,7 @@ Also: the server runs as a container, so its running on my Server network on nom
 
 
 ### Sonoff S40 Lite Zigbee Smart Plug
+
 I [purchased a SONOFF S40 Lite Zigbee Smart Plug][47]
 rated at 15A and claims to work with the Samsung SmartThings and Amazon Echo Plus (which is also a Zigbee hub).
 I purchased mainly to to provide another Zigbee node for my most remote Zigbee devices in my basement.
@@ -2519,7 +2570,7 @@ The Sonoff device is administered by the [eWeLink phone app][48].
 
 * [SmaHoo Is a Discreet Device to Make Your Wall Outlets Smart](https://www.hackster.io/news/smahoo-is-a-discreet-device-to-make-your-wall-outlets-smart-01050976af3f)
 * [Zooz ZEN55: Get Smart Alerts from Dumb Smoke/CO Detectors](https://www.mostlychris.com/get-smart-alerts-from-dumb-smoke-co-detectors/)
-    * [Zooz](https://www.getzooz.com/)
+  * [Zooz](https://www.getzooz.com/)
 
 
 
@@ -2539,6 +2590,7 @@ The Sonoff device is administered by the [eWeLink phone app][48].
 
 
 # Wyze Camera
+
 Bust you use the cloud service
 
 * [Wyze Cam V3 Review - Unboxing, Features, Setup, Installation, Testing, Video & Audio Quality](https://www.youtube.com/watch?v=WQZ_xExcwto)
@@ -2567,6 +2619,7 @@ Bust you use the cloud service
 
 
 # Frigate
+
 Frigate is an open source network video recorder (NVR) built around real-time AI object detection.
 All processing is performed locally on your own hardware, and your camera feeds never leave your home.
 
@@ -2598,8 +2651,9 @@ All processing is performed locally on your own hardware, and your camera feeds 
 * [Frigate NVR in Home Assistant for Automation and Notifications based on Object Detection](https://www.youtube.com/watch?v=43E5bxuaVj4)
 
 ## Frigate GPU
+
 * [Raspberry Pi 5 with Hailo-8 AI Acceleration Module](https://www.seeedstudio.com/reComputer-AI-R2130-12-p-6368.html)
-    * [Hailo-8 M.2 AI Acceleration Module](https://hailo.ai/products/ai-accelerators/hailo-8-m2-ai-acceleration-module/#hailo8-m2-overview)
+  * [Hailo-8 M.2 AI Acceleration Module](https://hailo.ai/products/ai-accelerators/hailo-8-m2-ai-acceleration-module/#hailo8-m2-overview)
 
 
 # Scrypted
@@ -2618,6 +2672,7 @@ All processing is performed locally on your own hardware, and your camera feeds 
 
 
 # DeepStack
+
 DeepStack is an AI server that makes it easily to build AI systems both on premise and in the cloud.
 DeepStack is device and language agnostic.
 DeepStack runs on the docker platform and can be used from any programming language.
@@ -2634,6 +2689,7 @@ DeepStack runs on the docker platform and can be used from any programming langu
 
 
 # DOODS
+
 Dedicated Open Object Detection Service (DOODS)
 is a REST service that detects objects in images or video streams.
 It's designed to be very easy to use, run as a container and available remotely.

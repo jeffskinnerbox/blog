@@ -33,6 +33,7 @@ This specifications ([PEP333][03]) concerning the communication between a web se
 
 
 # Building a Blog With Flask
+
 While many sources have been used for this document,
 For Flask Blog work I followed mainly the article ["How To Make a Web Application Using Flask in Python 3"][06] for development
 and ["How To Serve Flask Applications with Gunicorn and Nginx on Ubuntu 18.04"][08] for deployment.
@@ -61,6 +62,7 @@ Sources:
 * [How To Install Python 3 and Set Up a Programming Environment on an Ubuntu 22.04 Server](https://www.digitalocean.com/community/tutorials/how-to-install-python-3-and-set-up-a-programming-environment-on-an-ubuntu-22-04-server)
 
 #### Step 1: Setup Python 3 - DONE
+
 Ubuntu 22.04 and other versions of Debian Linux ship with Python 3 pre-installed.
 To make sure that your versions are up-to-date, update your local package index:
 
@@ -80,6 +82,7 @@ sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
 ```
 
 #### Step 2: Setting Up a Virtual Environment - DONE
+
 Virtual environments enable you to have an isolated space on your server for Python projects,
 ensuring that each of your projects can have its own set of dependencies
 that won’t disrupt any of your other projects.
@@ -104,6 +107,7 @@ bin/  include/  lib/  lib64@  pyvenv.cfg
 ```
 
 #### Step 3: Installing Flask and Creating Base Application - DONE
+
 Now install Python packages and isolate your project code away from the
 main Python system installation.
 
@@ -153,6 +157,7 @@ python app.py
 Now go to your browser and enter `localhost:5002` to see the webpage served up by Flask.
 
 #### Step 4: Using HTML Templates - DONE
+
 Web applications mainly use HTML to display information,
 so you’ll now work on incorporating HTML files in the app.
 Flask provides a `render_template()` helper function that allows use of the Jinja template engine.
@@ -290,6 +295,7 @@ python3 app.y
 ```
 
 #### Step 5: Setting up the Database - DONE
+
 In this step, I'll set up aSQLite  database to store data for the blog posts application.
 I’ll also populate the database with a few example entries.
 
@@ -344,6 +350,7 @@ python init_db.py
 ```
 
 #### Step 6: Displaying All Posts - DONE
+
 Now that I have set up your database, I'll modify the `index()`
 view function to display all the posts you have in your database.
 
@@ -402,6 +409,7 @@ python3 app.py
 ```
 
 #### Step 7: Displaying a Single Post - DONE
+
 In this step, you’ll create a new Flask route with a view function
 and a new HTML template to display an individual blog post by its ID.
 
@@ -502,6 +510,7 @@ Next, you’ll add the ability to create, edit, and delete blog posts to your ap
 #### Step 8: Modifying Posts for Create, Edit, Delete
 
 ##### Creating a New Post - DONE
+
 We are now going to add functionality to create a post.
 I’ll create a  template file called `create.html` and modifications to `app.py`
 to enable the creation of a post by providing its title and content.
@@ -653,6 +662,7 @@ python3 app.py
 ```
 
 ##### Editing a Post - DONE
+
 You’ll also want to edit your existing posts.
 I'll create an edit template called `edit.html`,
 add functionality to `index.html`.
@@ -685,6 +695,7 @@ python3 app.py
 ```
 
 ##### Deleting a Post
+
  In this step I will add the delete functionality to the application.
 
 Add functionality to the `app.py` file so that it looks like this:
@@ -722,6 +733,7 @@ deactivate
 
 
 # Building a Microservice With Flask
+
 Build a simple but real-world useable REST API
 Following REST and Microservice Arch Best Practices
 
@@ -738,6 +750,7 @@ Sources:
 * [Microservices in Python using Flask Framework | Dockerize and Deploy to Kubernetes with Helm](https://www.youtube.com/watch?v=SdTzwYmsgoU)
 
 #### Step 1: Setup Python 3 Virtual Environment - DONE
+
 Just like what was done, in detail, for the Flask Blog created above,
 set up your Python 3 virtual environment:
 
@@ -816,6 +829,7 @@ python app-1.py
 Now go to your browser and enter `localhost:5002` to see the webpage served up by Flask.
 
 #### Step 2: Setup the Application (`app-1.py`) - DONE
+
 First declare a List containing several Dictionaries, representing individual 'Book' elements
 and a Dictionary to determine the schema for the book object,
 as expected by the API.
@@ -977,8 +991,11 @@ $ curl -s -X GET http://localhost:5002/books | jq -C '.'
 ```
 
 #### Step 3: xxx
+
 #### Step 4: xxx
+
 #### Step 5: xxx
+
 #### Step 6: xxx
 
 

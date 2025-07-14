@@ -20,6 +20,7 @@ A **tarball** or **tarfile** is the name that describes a group or archive of fi
 that are bundled together using the `tar` command and usually have the `.tar` file extension.
 
 # How to Create a Tar GZip File
+
 For example, to compress a directories `.jpg` files only, you’d type:
 
 ```bash
@@ -47,6 +48,7 @@ You can run these as two separate commands if you really want to,
 or use `tar` command offers the `-z` flag which lets you automatically gzip the `tar` file.
 
 # How to Extract a Tar GZip File
+
 -x, --extract, --get
 extract files from an archive
 

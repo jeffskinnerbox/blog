@@ -28,6 +28,7 @@ which give me a free Ting device (a [$100 value][05])
 and 3 years of free service for the Ting device.
 
 # Installation
+
 The Ting device is very simple do-it-yourself (DYI) installation.
 You just need to download the [Ting Sensor Mobile App][08]
 plug in the Ting device into a normal 120V outlet
@@ -36,10 +37,12 @@ You find all the required installation steps in the [Ting User Manual][09]
 (also on the mobile app) and the ["Get Help"][10] website.
 
 # Ting MAC Address
+
 I found the MAC address prefix of Whisker Labs Ting product at [MAC Address Lookup][12].
 The Ting's MAC address prefix is `80:6A:10`.
 
 # Ting API Support
+
 At this time, it appears Whisker Labs has some Ting product API in a beta program
 (see [Whisker Labs API Reference][11]).
 The APIs are document & published on the Web but you cannot get an APIKey at this time.
@@ -49,7 +52,6 @@ The APIs are document & published on the Web but you cannot get an APIKey at thi
 [01]:https://www.tingfire.com/
 [02]:https://www.whiskerlabs.com/
 [03]:https://www.tingfire.com/get-ting/
-[04]:https://www.statefarm.com/insurance/home-and-property/ting-fire-safety
 [05]:https://www.tingfire.com/shop/ting-home-protection-service/
 [06]:https://newsroom.statefarm.com/state-farm-ting-electrical-fire/
 [07]:https://www.statefarm.com/insurance/home-and-property/ting-fire-safety

@@ -16,6 +16,7 @@ Version:      0.0.0
 
 
 # Power Supplies
+
 The output of a power supply can operate in either constant voltage (CV) or constant current (CC) mode depending on
 the voltage setting, current limit setting, and load resistance.
 
@@ -43,6 +44,7 @@ Most power supplies are designed in such a way that it is optimized for CV opera
 
 
 # Build Your Own USB-C Power Supply
+
 Good thing to have on the basement workbench.
 Powering your projects using USB-C Power Delivery
 

@@ -14,23 +14,23 @@ Version:      0.0.0
 
 
 * Flutter - Google’s portable UI toolkit for building natively-compiled applications for mobile, web, and desktop from a single codebase.
-    * [FlutterFlow](https://flutterflow.io/)
-    * [Flutter](https://flutter.dev/)
-    * [Google and Canonical bring Flutter apps to Ubuntu Linux](https://www.slashgear.com/google-and-canonical-bring-flutter-apps-to-ubuntu-linux-09628241/)
-    * [Canonical enables Linux desktop app support with Flutter](https://ubuntu.com/blog/canonical-enables-linux-desktop-app-support-with-flutter)
-    * [Flutter for Desktop: Create and Run a Desktop Application](https://medium.com/flutter-community/flutter-for-desktop-create-and-run-a-desktop-application-ebeb1604f1e0)
+  * [FlutterFlow](https://flutterflow.io/)
+  * [Flutter](https://flutter.dev/)
+  * [Google and Canonical bring Flutter apps to Ubuntu Linux](https://www.slashgear.com/google-and-canonical-bring-flutter-apps-to-ubuntu-linux-09628241/)
+  * [Canonical enables Linux desktop app support with Flutter](https://ubuntu.com/blog/canonical-enables-linux-desktop-app-support-with-flutter)
+  * [Flutter for Desktop: Create and Run a Desktop Application](https://medium.com/flutter-community/flutter-for-desktop-create-and-run-a-desktop-application-ebeb1604f1e0)
 * Ionic
-    * [Iconic Getting Started V2](http://ionicframework.com/docs/v2/setup/installation/)
-    * [Get started with Ionic Framework](http://ionicframework.com/getting-started/)
-    * [TutorialsPoint's Ionic Tutorial](https://www.tutorialspoint.com/ionic/index.htm)
-    * [Thinkster's Mastering the Ionic Framework: Learn to Build & Deploy Native Speed HTML5 Based Apps](https://thinkster.io/ionic-framework-tutorial)
-    * [Create Your First Mobile App with AngularJS and Ionic](https://scotch.io/tutorials/create-your-first-mobile-app-with-angularjs-and-ionic)
-    * [Build Your First Mobile App With The Ionic Framework](http://gonehybrid.com/build-your-first-mobile-app-with-the-ionic-framework-part-1/)
-    * [Icon's Blog: Tutorials](http://blog.ionic.io/tag/tutorials/)
+  * [Iconic Getting Started V2](http://ionicframework.com/docs/v2/setup/installation/)
+  * [Get started with Ionic Framework](http://ionicframework.com/getting-started/)
+  * [TutorialsPoint's Ionic Tutorial](https://www.tutorialspoint.com/ionic/index.htm)
+  * [Thinkster's Mastering the Ionic Framework: Learn to Build & Deploy Native Speed HTML5 Based Apps](https://thinkster.io/ionic-framework-tutorial)
+  * [Create Your First Mobile App with AngularJS and Ionic](https://scotch.io/tutorials/create-your-first-mobile-app-with-angularjs-and-ionic)
+  * [Build Your First Mobile App With The Ionic Framework](http://gonehybrid.com/build-your-first-mobile-app-with-the-ionic-framework-part-1/)
+  * [Icon's Blog: Tutorials](http://blog.ionic.io/tag/tutorials/)
 
 * Others
-    * [Cordova Frameworks: Ionic vs. Framework7](https://www.toptal.com/apache-cordova/frameworks-ionic-framework7)
-    * [Appcelerator](https://www.appcelerator.com/)
+  * [Cordova Frameworks: Ionic vs. Framework7](https://www.toptal.com/apache-cordova/frameworks-ionic-framework7)
+  * [Appcelerator](https://www.appcelerator.com/)
 
 * [4 ways to create cross-platforms apps using web technologies](https://www.davrous.com/2019/01/11/4-ways-to-create-cross-platforms-apps-using-web-technologies/)
 
@@ -50,6 +50,7 @@ Seems like every 12 year old know how to do web development, so why shouldn't I?
 
 
 # MIT App Inventor
+
 MIT App Inventor is an intuitive, visual programming environment that allows everyone
 – even children – to build fully functional apps for smartphones and tablets.
 
@@ -105,6 +106,7 @@ resources from this open source community.
 
 
 # Progressive Web Apps (PWA)
+
 Progressive Web Apps (PWA) represent the open web moving forward in its ability
 to deliver fully-functioning applications that can be
 delivered anywhere by anyone and be used on any platform.
@@ -128,6 +130,7 @@ So what does this mean to the developer and user?
 * If certain features are required for critical user actions but are not yet available due to a lack of cross-browser support, then a native mobile application might be the better option, guaranteeing the same experience for all users.
 
 ## What Makes a Website a Progressive Web App?
+
 Progressive Web Apps have the following [characteristics][22]:
 
 * **Progressive -** By definition, a progressive web app must work on any device and enhance progressively, taking advantage of any features available on the user’s device and browser.
@@ -148,6 +151,7 @@ Technically speaking, in order to call a Web App a PWA, it should have the follo
 * **[Manifest File -][25]** A JSON file that controls how your app appears to the user and ensures that progressive web apps are discoverable. It describes the name of the app, the start URL, icons, and all of the other details necessary to transform the website into an app-like format.
 
 Further reading:
+
 * [Youtube TV is another Chromebook PWA You can Install Directly from the Play Store](https://chromeunboxed.com/youtube-tv-chromebook-pwa-install-google-play-store/)
 * [Seriously, though. What is a progressive web app?](https://medium.com/@amberleyjohanna/seriously-though-what-is-a-progressive-web-app-56130600a093)
 * [Progressive Web Apps: Escaping Tabs Without Losing Our Soul](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/)
@@ -155,10 +159,12 @@ Further reading:
 * [A Beginner’s Guide To Progressive Web Apps](https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/)
 
 ## How Do You Build a PWA?
+
 * [How to build a PWA from scratch with HTML, CSS, and JavaScript](https://www.freecodecamp.org/news/build-a-pwa-from-scratch-with-html-css-and-javascript/)
 * [Learn how to build a PWA in 5 minutes](https://medium.com/dev-channel/learn-how-to-build-a-pwa-in-under-5-minutes-c860ad406ed)
 
 ## PWABuilder
+
 * [Publishing your PWA in the Play Store in a couple of minutes using PWA Builder](https://www.davrous.com/2020/02/07/publishing-your-pwa-in-the-play-store-in-a-couple-of-minutes-using-pwa-builder/)
 * [New PWABuilder release!](https://medium.com/pwabuilder/new-pwabuilder-release-b2932f4722a5)
 * [PWABuilder 2.0 and beyond!](https://medium.com/pwabuilder/pwabuilder-2-0-and-beyond-579ad2944fac)
@@ -169,6 +175,7 @@ Further reading:
 
 
 # Meteor
+
 Meteor is a great backend solution for Angular and Ionic apps.
 
 * [Ionic and Meteor: Two great things that go great together](http://blog.ionic.io/ionic-and-meteor/)
@@ -176,6 +183,7 @@ Meteor is a great backend solution for Angular and Ionic apps.
 
 
 # Ionic Development Tools
+
 * [Ionic View](https://play.google.com/store/apps/details?id=com.ionic.viewapp) allows you to quickly and easily load, view and test the apps you build with Ionic Framework on a device.
 * [Ionic Dashboard](https://apps.ionic.io/login) that makes it easy to build and share apps in your organization, as well as manage developers and users on your team.
 * Icon comes with a [rich set of icons, navigation, gesture, popups. etc. tools](http://ionicframework.com/docs/v2/components/#overview) high-level building blocks called components.
@@ -183,6 +191,7 @@ Meteor is a great backend solution for Angular and Ionic apps.
 * [Capacitor](https://capacitor.ionicframework.com/) Cross-platform runtime that makes it easy to build apps that run natively on iOS, Android, Electron, and the web - using HTML, JS, and CSS.
 
 # Setting Up Your Development Environment
+
 The development environment being defined here is for the [Ionic V2 Framework][08].
 Ionic V2 software has been in beta for nearly a year now
 ([alpha release was in October 2015][09]) and appears to be fairly stable.
@@ -210,6 +219,7 @@ sudo npm install -g cordova ionic
 ```
 
 # Creating First Ionic App
+
 This simple example follows fairly closely the tutorial example provide by Ionic
 under their "[Setup & Tutorial][18]"  icon within their [documentation page][17].
 You will find much more detail there.
@@ -255,21 +265,24 @@ you will notice the `ionic serve` process will recompile your app with the new c
 and reload the browser.
 
 # Devloping with Ionic Creator
+
 Drag and drop application development tools.
 
-http://docs.usecreator.com/docs/beautiful-side-menus
-http://ionicframework.com/getting-started/
-https://www.joshmorony.com/is-ionics-drag-drop-app-builder-any-good/
-https://www.producthunt.com/posts/ionic-creator-v2
-http://thejackalofjavascript.com/ionic-creator-beta/
+<http://docs.usecreator.com/docs/beautiful-side-menus>
+<http://ionicframework.com/getting-started/>
+<https://www.joshmorony.com/is-ionics-drag-drop-app-builder-any-good/>
+<https://www.producthunt.com/posts/ionic-creator-v2>
+<http://thejackalofjavascript.com/ionic-creator-beta/>
 
 # Adding a Plugin
+
 [Ionic Native][19] is a set of wrappers for [Cordova][21] / [PhoneGap][20] plugins
 that assist in adding native functionality you need to your Ionic mobile app.
 
-https://ionicframework.com/docs/v2/native/barcode-scanner/
+<https://ionicframework.com/docs/v2/native/barcode-scanner/>
 
 # Ionic Market
+
 [Proximi.io Ionic Starter App - Starter for all location-based apps - beacons, GPS, geofencing](http://market.ionic.io/starters/proximiio-ionic-demo-app)
     * [Proximi.io - Get access to all of your favourite positioning technologies through a single API: IndoorAtlas, iBeacon, Eddystone beacons, Wi-Fi, GPS and cellular geofencing.](https://proximi.io/)
 

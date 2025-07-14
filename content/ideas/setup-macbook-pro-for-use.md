@@ -19,7 +19,7 @@ Model Year: 2018
 16G of Memory
 
 * [My Mac sets up itself—with Ansible!](https://www.youtube.com/watch?v=1VhPVu5EK5o)
-    * [Mac setup and configuration via Ansible](https://github.com/geerlingguy/mac-dev-playbook)
+  * [Mac setup and configuration via Ansible](https://github.com/geerlingguy/mac-dev-playbook)
 
 * [macOS User Guide](https://support.apple.com/guide/mac-help/welcome/13.0/mac)
 
@@ -28,14 +28,17 @@ Model Year: 2018
 # MacBook Short-Cuts
 
 # Dock
+
 The Dock, located across the bottom (or along one side) of the screen,
 is a convenient place to keep apps, documents, or folders you want to access frequently.
 To change how the Dock appears, choose Apple menu > System Settings, then click Desktop & Dock in the sidebar. (You may need to scroll down.)
 
 # Mission Control
+
 Mission Control shows all of the windows open on the desktop, neatly arranged so it’s easy to find the one you need. Apps that are in full screen or Split View, and desktop spaces you created, are shown in the Spaces bar along the top edge of the screen.
 
 To enter Mission Control, do one of the following:
+
 * swipe up on the trackpad using three or four fingers
 * press the Mission Control key
 * press Control-Up Arrow
@@ -43,12 +46,15 @@ To enter Mission Control, do one of the following:
 # Delete a File
 
 # Copy & Paste
+
 * [How to copy and paste on Mac](https://support.apple.com/en-us/102553)
 
 # The Mouse
+
 * [Mouse Not Working on Your Mac? 10 Tips to Fix It](https://www.makeuseof.com/mouse-not-working-mac-fix/)
 
 # Spotlight Search Function
+
 You can locate the App Store using your computer’s Spotlight Search function, which you can pull up with the keyboard shortcut Command-Space.
 
 
@@ -58,6 +64,7 @@ You can locate the App Store using your computer’s Spotlight Search function, 
 
 
 # How to Install Apps
+
 There are all kinds of apps available for your Mac:
 from social media and games to password security and task management; the options are limitless.
 There are two main ways of downloading and installing apps on your computer:
@@ -70,6 +77,7 @@ Plus, the App Store combines downloading and installing an app into one easy ste
 * **Install apps on your Mac from the Web -**
 
 ## From Inside the Mac App Store
+
 The App Store combines downloading and installing an app into one easy step.
 
 1. The App Store icon is at the bottom of the screen.
@@ -81,12 +89,14 @@ That’s it! Your app should install quickly and be ready to use.
 You can find it in the Applications folder in Finder.
 
 ## From Outside the Mac App Store
+
 Downloading an app from the web is just a little more involved than using the App Store.
 
 * If the file you’ve downloaded ends with the extension `.zip`,
 double-click the file to unzip it. The files should be ready to use.
 
 * If the file ends with the extension `.dmg`, you’ll need to do the following:
+
 1. Open **Finder** from the bottom left of your Mac’s Dock.
 2. Go to your **Downloads** folder found on the left menu.
 3. Double-click the file you downloaded.
@@ -101,17 +111,20 @@ by clicking the eject (⏏) button next to the app’s name in **Finder**.
 You can add an application to your Dock by dragging its icon from the Applications folder in **Finder** to your Dock.
 
 Sources:
+
 * [How to install apps from outside the Mac App Store](https://www.cnet.com/videos/how-to-install-apps-from-outside-the-mac-app-store/)
 * [How to install apps on my Mac?](https://cleanmymac.com/faq/install-apps-mac)
 * [Install and uninstall apps from the internet or a disc on Mac](https://support.apple.com/guide/mac-help/install-and-uninstall-other-apps-mh35835/mac)
 
 ## How to Fix "The application ... can't be opened."
+
 One of these methods will aply to you specific case.
 
 * [If you can’t open an app on Mac](https://support.apple.com/guide/mac-help/if-you-cant-open-an-app-mchlp1519/mac)
 * [How to fix 'The application "..." can't be opened' on Mac?](https://superuser.com/questions/1345755/how-to-fix-the-application-cant-be-opened-on-mac)
 
 # How to Uninstall Apps
+
 * [How to uninstall programs on a Mac](https://macpaw.com/how-to/uninstall-apps-on-mac-os-x)
 * [Here’s how to delete programs on Mac](https://cleanmymac.com/blog/uninstall-programs-mac)
 

@@ -22,6 +22,7 @@ Version:      0.0.0
 
 
 # TinyGS
+
 TinyGS is an open network of Ground Stations distributed around the world to receive and operate LoRa satellites, weather probes and other flying objects, using cheap and versatile modules.
 This project is based on ESP32 boards and currently it is compatible with sx126x and sx127x LoRa módules but we plan to support more radio módules in the future.
 
@@ -31,6 +32,7 @@ This project is based on ESP32 boards and currently it is compatible with sx126x
 
 
 # FOSSASAT
+
 FOSSASAT 1 did not work.
 
 * [How to receive and track LoRa Satellites (TinyGS). Incl. innovative ideas for your projects](https://www.youtube.com/watch?v=ltJQjqm5bKA)
@@ -40,6 +42,7 @@ FOSSASAT 1 did not work.
 
 
 # Lacuna Space
+
 LoRa Satellites start up
 
 * [Lacuna Space](https://lacuna.space/)
@@ -51,6 +54,7 @@ LoRa Satellites start up
 
 
 # Swarm Technologies
+
 The Swarm is a tiny radio that can talk bi-directionally with small satellites in low Earth orbit.
 The little unit is made to mount on a PCB, can control its power consumption,
 and talks to your system via a standard 3.3V UART connection.

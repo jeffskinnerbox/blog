@@ -175,10 +175,10 @@ Streaming a USB camera and the Pi camera module are fundamentally different oper
 - [Pixy2 is Super Vision for Arduino or Raspberry Pi](https://hackaday.com/2018/11/09/pixy2-is-super-vision-for-arduino-or-raspberry-pi/)
 - [Pixy (CMUcam5): a fast, easy-to-use vision sensor](https://www.kickstarter.com/projects/254449872/pixy-cmucam5-a-fast-easy-to-use-vision-sensor)
 - [Pan/Tilt2 Servo Motor Kit for Pixy2 - Dual Axis Robotic Camera Mount](https://www.seeedstudio.com/Pan-Tilt2-Servo-Motor-Kit-for-Pixy2-Dual-Axis-Robotic-Camera-Mount-p-3161.html)
-    - [VMX: A Personal Computer Vision Server](https://vision.ai/purchase)
-    - [Purchase, Documentation, Blog for Pixy CMUcam5 Image Sensor](http://www.robotshop.com/en/pixy-cmucam5-image-sensor.html?gclid=CjwKEAjw4s2wBRDSnr2jwZenlkgSJABvFcwQ0n_E5O0wzL8XCC-tkLf5ijS3VCQqgGtUxnjqsU6ZKBoCPAfw_wcB)
-    - [Face Detector](http://www.cmucam.org/projects/cmucam3/wiki/Viola-jones)
-    - [vision.ai Github](https://github.com/VISIONAI)
+  - [VMX: A Personal Computer Vision Server](https://vision.ai/purchase)
+  - [Purchase, Documentation, Blog for Pixy CMUcam5 Image Sensor](http://www.robotshop.com/en/pixy-cmucam5-image-sensor.html?gclid=CjwKEAjw4s2wBRDSnr2jwZenlkgSJABvFcwQ0n_E5O0wzL8XCC-tkLf5ijS3VCQqgGtUxnjqsU6ZKBoCPAfw_wcB)
+  - [Face Detector](http://www.cmucam.org/projects/cmucam3/wiki/Viola-jones)
+  - [vision.ai Github](https://github.com/VISIONAI)
 
 
 # People Counting with OpenCV
@@ -562,7 +562,7 @@ and connecting it to a desktop or laptop computer.
 - [The GotchaCAM Portable DIY Wifi Camera Based Travel and Home Security and Surveillance System](http://www.arducam.com/)
 - [GitHub for ArduCAM](https://github.com/ArduCAM)
 - <http://hackaday.com/2017/04/11/esp32-wifi-hits-10km-with-a-little-help/>
-    - [more information](https://www.youtube.com/watch?v=yCLb2eItDyE)
+  - [more information](https://www.youtube.com/watch?v=yCLb2eItDyE)
 - [Arducam Pico4ML Board – TinyML on Raspberry Pi RP2040 with QVGA Camera & Display](https://www.cnx-software.com/2021/04/13/arducam-pico4ml-board-tinyml-on-raspberry-pi-rp2040-with-qvga-camera-display/)
 - [Eric N. Shows How OpenCV Can Squeeze Onto an Espressif ESP32, Using Joachim Burket's Shrunken Fork](https://www.hackster.io/news/eric-n-shows-how-opencv-can-squeeze-onto-an-espressif-esp32-using-joachim-burket-s-shrunken-fork-8c73520a6b81)
 - [Arducam Mega: SPI Camera for Any Microcontroller](https://www.kickstarter.com/projects/arducam/arducam-mega-spi-camera-for-any-microcontroller?ref=4vgsg1)

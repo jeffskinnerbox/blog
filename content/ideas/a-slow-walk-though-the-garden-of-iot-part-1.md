@@ -30,11 +30,12 @@ An alternative to Pushover is [Instapush](https://instapush.im/).
 
 [Face Recognition API to integrate facial recognition into any web service](https://www.keylemon.com/)
 
-Read more: http://www.programmableweb.com/api/keylemon#ixzz37atW6GGC
+Read more: <http://www.programmableweb.com/api/keylemon#ixzz37atW6GGC>
 Follow us: @ProgrammableWeb on Twitter | ProgrammableWeb on Facebook
 
 
 # IoT and Context
+
 Without context, IoT is just about harvisting data.
 Context is what give IoT technology its real value.
 The process of transforming IoT data into this thing of value can be called ‘contextualisation’.
@@ -45,6 +46,7 @@ The process of transforming IoT data into this thing of value can be called ‘c
 * [Today’s challenges are an opportunity for Governance, Risk and Compliance (GRC) platforms](https://transformainsights.com/research/reports/today-challenges-governance-risk-compliance)
 
 # AWS IoT
+
 * [Amazon Web Services](https://aws.amazon.com/)
 * [AWS IoT](http://aws.amazon.com/iot/)
 * [AWS IoT – Cloud Services for Connected Devices](https://aws.amazon.com/blogs/aws/aws-iot-cloud-services-for-connected-devices/?sc_campaign=launch&sc_category=iot&sc_channel=SM&sc_content=reInvent&sc_detail=std&sc_medium=aws&sc_publisher=tw_go&adbsc=social_launches_20151008_53682996&adbid=652168897924235264&adbpl=tw&adbpr=571241517)
@@ -55,14 +57,17 @@ The process of transforming IoT data into this thing of value can be called ‘c
 * [Build a connected maraca with AWS and Intel Edison](https://www.hackster.io/jinman/build-a-connected-maraca-with-aws-and-intel-edison-a4010e?ref=platform&ref_id=4851_trending___&offset=8)
 
 # AWS IoT Button
+
 * [AWS IoT Button](https://aws.amazon.com/iot/button/)
 * [Getting Started with AWS IoT](http://docs.aws.amazon.com/iot/latest/developerguide/iot-gs.html)
 
 # Waylay.io
-* Waylay - http://www.waylay.io/
-* http://waylayio.github.io/integration/2015/10/24/webscripts.html
+
+* Waylay - <http://www.waylay.io/>
+* <http://waylayio.github.io/integration/2015/10/24/webscripts.html>
 
 # Adafruit.io
+
 * [Getting Started With Adafruit IO](https://www.jeremymorgan.com/internet-of-things/how-to-adafruit-io/?utm_source=feedburner&utm_medium=email&utm_campaign=Feed%3A+JeremyMorganTutorials+%28Jeremy%27s+Tutorials%29)
 * you have access to [Adafruit.io Dashboard](https://io.adafruit.com/jirland) and its [tutorials](https://learn.adafruit.com/adafruit-io)
 * [adafruit.io IFTTT recipes](https://ifttt.com/recipes/search?q=adafruit)
@@ -135,6 +140,7 @@ HATEOAS is a good vision, and is the [most mature form of REST][50] and [solves 
 but it isn't applied often, but there are increasingly [examples HATOAS implementations][45].
 
 # Pushover
+
 * [PubNub - Deliver mobile push notifications to iOS and Android devices, even when an app is offline](https://www.pubnub.com/products/mobile-push/)
 
 <a href="https://pushover.net/">
@@ -261,6 +267,7 @@ it doesn't support any form of streaming or bulk data deliver,
 and most limiting is that it requires you to use the supplied Pushover client.
 
 # Bug Labs dweet.io and Freeboard
+
 <a href="http://buglabs.net/">
     <img class="img-rounded" style="margin: 0px 8px; float: left" title="Bub Labs Badge" alt="Bub Labs Badge" src="/images/buglabs-badge.png" width="75" height="75" />
 </a>
@@ -361,66 +368,69 @@ It's interesting that Bug Labs positions Freeboard as an open source alternative
 * [Freeboard's GitHub](https://github.com/Freeboard/freeboard)
 
 # OpenSensors.io
+
 [OpenSensors.io](https://www.opensensors.io/)
 
 # CloudMQTT
-CloudMQTT - https://www.cloudmqtt.com/
+
+CloudMQTT - <https://www.cloudmqtt.com/>
 On AWS -
 
 # MongoDB
-mLab (formally MongoDB) - https://mlab.com/
-On AWS - https://mlab.com/aws/
+
+mLab (formally MongoDB) - <https://mlab.com/>
+On AWS - <https://mlab.com/aws/>
 
 # IFTTT
+
 [IFTTT](https://ifttt.com/)
 
 # Where to Begin
+
 * Stating Points and Foundational Knowledge
-    * [RESTful Resources Required Reading][51]
-    * [RESTful Web APIs][06]
-    * [HTTP: The Definitive Guide][31]
+  * [RESTful Resources Required Reading][51]
+  * [RESTful Web APIs][06]
+  * [HTTP: The Definitive Guide][31]
 * Non-Technical Introductions
-    * [An Introduction to APIs][44]
-    * [API 101][11]
-    * [History of APIs][10]
-    * [Winning in the API Economy][09]
-    * [API Providers Guide­- API Design][13]
-    * [API Consumer Guide - API Discovery][12]
+  * [An Introduction to APIs][44]
+  * [API 101][11]
+  * [History of APIs][10]
+  * [Winning in the API Economy][09]
+  * [API Providers Guide­- API Design][13]
+  * [API Consumer Guide - API Discovery][12]
 * Tutorials
-    * [Web API Design - Crafting Interfaces that Developers Love][14]
-    * [API Facade Pattern - A Simple Interface to a Complex System][21]
-    * [Designing and Implementing Hypermedia APIs - Part 1][07]
-    * [Designing and Implementing Hypermedia APIs - Part 2][08]
-    * [Hypermedia APIs: The Benefits of HATEOAS][18]
-    * [The RESTful CookBook][19]
-    * [Richardson Maturity Model][20]
+  * [Web API Design - Crafting Interfaces that Developers Love][14]
+  * [API Facade Pattern - A Simple Interface to a Complex System][21]
+  * [Designing and Implementing Hypermedia APIs - Part 1][07]
+  * [Designing and Implementing Hypermedia APIs - Part 2][08]
+  * [Hypermedia APIs: The Benefits of HATEOAS][18]
+  * [The RESTful CookBook][19]
+  * [Richardson Maturity Model][20]
 * Directories / Tools for Finding APIs and IoT Devices
-    * [ProgrammableWeb - Web Services Directory][15]
-    * [Mashape API Platform & Marketplace][05]
-    * [Connect2.me](https://www.connect2.me/whatisc2m.aspx)
-    * [Thingful][30]
+  * [ProgrammableWeb - Web Services Directory][15]
+  * [Mashape API Platform & Marketplace][05]
+  * [Connect2.me](https://www.connect2.me/whatisc2m.aspx)
+  * [Thingful][30]
 * Candidate IoT Protocols
-    * [Exploring the Protocols of IoT](https://www.sparkfun.com/news/1705)
-    * [pubsubhubbub](http://readwrite.com/2009/09/28/real-time_web_protocol_pubsubhubbub_explained#awesm=~oDUkPl96eqUpe3)
-    * [Message Queuing Telemetry Transport (MQTT)](http://mqtt.org/)
-    * [Advanced Message Queuing Protocol (AMQP)]()
-    * [Simple/Streaming Text-Oriented Messaging Protocol (STOMP)]()
-    * [Constrained Application Protocol (CoAP)]()
-    * [Extensible Messaging and Presence Protocol (XMPP)]()
-    * [Choosing Your Messaging Protocol: AMQP, MQTT, or STOMP](http://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html)
-    * [MQTT and CoAP, IoT Protocols](http://www.eclipse.org/community/eclipse_newsletter/2014/february/article2.php)
-    * [IoT Protocol Wars: MQTT vs CoAP vs XMPP](http://www.iotprimer.com/2013/11/iot-protocol-wars-mqtt-vs-coap-vs-xmpp.html)
-    * [Minimal MQTT: Building a Broker](http://hackaday.com/2016/05/09/minimal-mqtt-building-a-broker/)
-    * [Introduction to the MQTT Protocol on NodeMCU](http://www.allaboutcircuits.com/projects/introduction-to-the-mqtt-protocol-on-nodemcu/)
-    * [MQTT Essentials: Part 1 – Introducing MQTT](http://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt)
-    * [muMQTT](https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en)
-    * [PubNub](https://www.pubnub.com/)
-    * [Pushover](https://pushover.net/)
+  * [Exploring the Protocols of IoT](https://www.sparkfun.com/news/1705)
+  * [pubsubhubbub](http://readwrite.com/2009/09/28/real-time_web_protocol_pubsubhubbub_explained#awesm=~oDUkPl96eqUpe3)
+  * [Message Queuing Telemetry Transport (MQTT)](http://mqtt.org/)
+  * [Advanced Message Queuing Protocol (AMQP)]()
+  * [Simple/Streaming Text-Oriented Messaging Protocol (STOMP)]()
+  * [Constrained Application Protocol (CoAP)]()
+  * [Extensible Messaging and Presence Protocol (XMPP)]()
+  * [Choosing Your Messaging Protocol: AMQP, MQTT, or STOMP](http://blogs.vmware.com/vfabric/2013/02/choosing-your-messaging-protocol-amqp-mqtt-or-stomp.html)
+  * [MQTT and CoAP, IoT Protocols](http://www.eclipse.org/community/eclipse_newsletter/2014/february/article2.php)
+  * [IoT Protocol Wars: MQTT vs CoAP vs XMPP](http://www.iotprimer.com/2013/11/iot-protocol-wars-mqtt-vs-coap-vs-xmpp.html)
+  * [Minimal MQTT: Building a Broker](http://hackaday.com/2016/05/09/minimal-mqtt-building-a-broker/)
+  * [Introduction to the MQTT Protocol on NodeMCU](http://www.allaboutcircuits.com/projects/introduction-to-the-mqtt-protocol-on-nodemcu/)
+  * [MQTT Essentials: Part 1 – Introducing MQTT](http://www.hivemq.com/blog/mqtt-essentials-part-1-introducing-mqtt)
+  * [muMQTT](https://play.google.com/store/apps/details?id=at.tripwire.mqtt.client&hl=en)
+  * [PubNub](https://www.pubnub.com/)
+  * [Pushover](https://pushover.net/)
 
 
 
-[01]:http://buglabs.net/
-[02]:http://buglabs.net/products/dweet.io
 [03]:http://buglabs.net/products/freeboard
 [04]:http://www.geckoboard.com/
 [05]:https://www.mashape.com/
@@ -440,7 +450,6 @@ On AWS - https://mlab.com/aws/
 [19]:http://restcookbook.com/
 [20]:http://martinfowler.com/articles/richardsonMaturityModel.html
 [21]:http://chrismaloney.org/notes/API%20Webinar%20Series_/api-facade-pattern-ebook-2012-06.pdf
-[22]:https://pushover.net/
 [23]:https://pushover.net/apps
 [24]:https://pushover.net/apps/build
 [25]:https://pushover.net/api
@@ -453,19 +462,13 @@ On AWS - https://mlab.com/aws/
 [32]:https://pushover.net/apps/build
 [33]:http://curl.haxx.se/
 [34]:http://www.eetimes.com/author.asp?section_id=36&doc_id=1319611&page_number=2
-[35]:http://internetofthingsphilosophy.com/
-[36]:http://en.wikipedia.org/wiki/Push_technology
-[37]:http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern
-[38]:https://dweet.io/locks
 [39]:https://github.com/jheising/HAPI
 [40]:https://dweet.io/play/
-[41]:http://features.techworld.com/networking/3516134/the-abcs-of-the-internet-of-things/?pn=1
 [42]:http://www.slideshare.net/trilancer/why-hateoas-1547275
 [43]:https://zapier.com/
 [44]:https://zapier.com/learn/apis/
 [45]:http://apievangelist.com/2014/04/15/what-are-some-good-examples-of-hypermedia-apis/
 [46]:http://www.itu.int/osg/spu/publications/internetofthings/
-[47]:http://en.wikipedia.org/wiki/Mark_Weiser
 [48]:http://www.pewinternet.org/2014/03/11/world-wide-web-timeline/
 [49]:http://www.w3schools.com/json/
 [50]:http://martinfowler.com/articles/richardsonMaturityModel.html

@@ -20,6 +20,7 @@ Netdata - `localhost:19999`
 
 
 # Real-Time Performance Monitoring with Netdata
+
 [Netdata][01] is a distributed, real-time, performance and health monitoring for systems and applications.
 It is a monitoring agent you install on all your systems and containers,
 telling you what is happening on the systems using interactive web dashboards.
@@ -29,13 +30,14 @@ Netdata data collection is extensible so you can monitor anything you can get a 
 * [Provisioning real-time performance monitoring with Netdata](https://appfleet.com/blog/provisioning-real-time-performance-monitoring-with-netdata-on-gcp/)
 
 ## Install Netdata
+
 By default, [Netdata collects anonymous usage information][02]
 from a monitoring agent and sends it to a Netdata analytics platform [PostHog][03].
 You can [opt-out of this][04] by creating a file by running
 `touch .opt-out-from-anonymous-statistics` within your Netdata configuration directory
 or when using Docker, set your `DO_NOT_TRACK` environment variable to `1`.
 
-https://learn.netdata.cloud/docs/agent/packaging/docker
+<https://learn.netdata.cloud/docs/agent/packaging/docker>
 
 ```bash
 # install the docker container for netdata
@@ -94,19 +96,20 @@ google-chrome http://localhost:19999
 ```
 
 # Netdata Cloud / Streaming and Replication
+
 * [Guides](https://learn.netdata.cloud/guides/)
 * [The step-by-step Netdata guide](https://learn.netdata.cloud/guides/step-by-step/step-00)
-* https://www.netdata.cloud/cloud/
-* https://learn.netdata.cloud/docs/agent/streaming
-* https://learn.netdata.cloud/docs/dashboard/how-dashboard-works
+* <https://www.netdata.cloud/cloud/>
+* <https://learn.netdata.cloud/docs/agent/streaming>
+* <https://learn.netdata.cloud/docs/dashboard/how-dashboard-works>
 
 * [Learn Netdata](https://learn.netdata.cloud)
-    * [Get started with Netdata](https://learn.netdata.cloud/docs/get-started)
-    * [Overview](https://learn.netdata.cloud/docs/visualize/overview-infrastructure)
-    * [Spaces](https://learn.netdata.cloud/docs/cloud/spaces)
-    * [Build new dashboards](https://learn.netdata.cloud/docs/cloud/visualize/dashboards)
-    * [Alert notifications](https://learn.netdata.cloud/docs/cloud/alerts-notifications/notifications)
-    * [Kubernetes visualizations](https://learn.netdata.cloud/docs/cloud/visualize/kubernetes)
+  * [Get started with Netdata](https://learn.netdata.cloud/docs/get-started)
+  * [Overview](https://learn.netdata.cloud/docs/visualize/overview-infrastructure)
+  * [Spaces](https://learn.netdata.cloud/docs/cloud/spaces)
+  * [Build new dashboards](https://learn.netdata.cloud/docs/cloud/visualize/dashboards)
+  * [Alert notifications](https://learn.netdata.cloud/docs/cloud/alerts-notifications/notifications)
+  * [Kubernetes visualizations](https://learn.netdata.cloud/docs/cloud/visualize/kubernetes)
 
 
 

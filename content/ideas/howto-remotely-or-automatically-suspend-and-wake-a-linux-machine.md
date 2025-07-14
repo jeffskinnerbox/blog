@@ -10,11 +10,12 @@ Version:      0.0.0
 
 
 # READ THIS
+
 * [Start PCs from remote (Wake on LAN, WOL) for Windows and Linux](https://www.youtube.com/watch?v=4Jf2T45tfEU)
 * [Linux Server, Wakey, Wakey](https://hackaday.com/2023/04/21/linux-server-wakey-wakey/)
-    * [Making a Linux home server sleep on idle and wake on demand — the simple way](https://dgross.ca/blog/linux-home-server-auto-sleep/)
+  * [Making a Linux home server sleep on idle and wake on demand — the simple way](https://dgross.ca/blog/linux-home-server-auto-sleep/)
 * [Proxmox Backup Auto-Shutdown](https://www.apalrd.net/posts/2024/pbs_hibernate/)
-    * [Wake On LAN (on Proxmox VE machine)](https://drive.google.com/file/d/1J6_nwx4Vq8mptJZknghhs8p9OPZ4NhGP/view)
+  * [Wake On LAN (on Proxmox VE machine)](https://drive.google.com/file/d/1J6_nwx4Vq8mptJZknghhs8p9OPZ4NhGP/view)
 
 
 
@@ -76,15 +77,18 @@ Sources:
 
 
 # How to Disable Auto-Suspend in Linux
+
 The easiest ways to disable auto-suspend on your computer is via the GUI Settings.
 In Ubuntu, and similar distributions, you just navigating to **Settings** > **Power**.
 Click on **Automatic Suspend** and toggle the two setting options so that your computer
 does not automatically suspend when on battery power or plugged in.
 
 Sources:
+
 * [How to Disable Auto-Suspend in Linux](https://www.makeuseof.com/disable-auto-suspend-in-linux/)
 
 # How to Automatically Suspend and Wake in Linux
+
 The [`rtcwake`][13] command can be used to automatically place Linux into sleep, hibernate, or shut down states,
 and then turn it back on at a specific time.
 It uses [ACPI][14] functions to control switching the computer on or off and replaces its predecessor,
@@ -94,9 +98,11 @@ For periodic implementation of suspend & wake,
 you can run `rtcwake` as a `cron` job every day or even specific days of a week or month.
 
 Sources:
+
 * [How to Automatically Suspend and Wake a Linux Machine](https://www.baeldung.com/linux/auto-suspend-wake)
 
 #### Step 1: Enabling Wake-on-LAN - DONE
+
 Ubuntu has a tool that can check to see if your machine supports WOL, and can enable it.
 Open up a terminal and install `ethtool` with the following command:
 
@@ -107,8 +113,8 @@ sudo apt install ethtool
 # check if you default network interface is wol enabled
 # note: your ethernet device may be named something our than 'eno1'
 $ sudo ethtool eno1 | grep Wake-on
-	Supports Wake-on: pumbg
-	Wake-on: g
+ Supports Wake-on: pumbg
+ Wake-on: g
 ```
 
 Look for the “Supports Wake-on” section.
@@ -139,6 +145,7 @@ a better alternative to the above would be to update you netplan file
 See [here][08] concerning what needs to be done.
 
 #### Step 2: Test Computer with Wake-on-LAN Magic Packets - DONE
+
 In order to wake up a remote machine machine up,
 you will need a tool that can send a wake on LAN packet to the remote machine.
 I prefer installing a command line tool (but GUI tools do exist),
@@ -189,6 +196,7 @@ sudo wakeonlan 00:22:4D:83:C1:C8 00:22:4D:83:C1:D7
 ```
 
 Sources:
+
 * [The Ultimate Guide to Wake on LAN for Windows, MacOS, and Linux][08]
 * [WoL.sh](https://github.com/leestevetk/WoL.sh)
 * [pm-suspend Manual Page](https://linux.die.net/man/8/pm-suspend)
@@ -196,6 +204,7 @@ Sources:
 * [Wake-on-LAN: suspend and resume machines from the network](https://a3nm.net/blog/wakeonlan.html)
 
 #### Step 3: Make WOL Enablement Persistent Using udev Rules - DONE
+
 Initially, enabling the WOL feature may not be enough,
 but appeared to be sufficient on my machine.
 The `wakeonlan` tool appeared to work reliably, even between reboots.
@@ -266,6 +275,7 @@ sudo udevadm trigger
 
 
 #### Step X: Create Docker Container for Wakeup Function
+
 At this point, all that needs to be done is to send out the following command to wake the machine:
 
 ```bash
@@ -312,15 +322,18 @@ RUN ["./usr/sbin/nginx"]
 # Other Tools to Wake Your Machine
 
 Sources:
+
 * [Alexa Wake on Lan (WoL)][04]
 * [Wake Up Your Computers Using Your Android Phone](https://www.howtogeek.com/94110/wake-up-your-computers-using-your-android-phone/)
 
 # From Within the Linux Machine
+
 Sources:
 
 * [How to Automatically Suspend and Wake a Linux Machine](https://www.baeldung.com/linux/auto-suspend-wake)
 
 ## Using `rtcwake`
+
 We can use the [`rtcwake`][01] command to automatically sleep, hibernate,
 or shut down a computer and then turn it back on at a specific time.
 It uses [Advanced Configuration and Power Interface (ACPI)][02] functions to control switching the computer on or off.
@@ -354,6 +367,7 @@ With `cron`, we can automate the `rtcwake` command to run every day
 or even specific days of a week or month.
 
 ## Using System Commands
+
 Many Linux distros have adopted [`systemd`][10] as their system and service manager.
 In systemd-managed systems, rebooting and shutting down the system are managed by `systemctl`.
 
@@ -372,6 +386,7 @@ Shutdown scheduled for Sun 2022-11-10 16:20:00 CEST, use 'shutdown -c' to cancel
 ```
 
 ## Wake-up to Support Nightly Backups
+
 Here is a sample shell script that will wake up my laptop (IP 192.168.2.25 and mac 48:2a:e3:5c:16:bc) from my rsnapshot Linux backup server:
 
 ```bash

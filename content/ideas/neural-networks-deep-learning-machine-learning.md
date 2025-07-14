@@ -48,6 +48,7 @@ but student resources like Python notebooks are also freely available.
 
 
 # Declarative Machine Learning Framewor
+
 Ludwig is a declarative machine learning framework that makes it easy to define
 machine learning pipelines using a simple and flexible data-driven configuration system.
 Ludwig is suitable for a wide variety of AI tasks, and is hosted by the Linux Foundation AI & Data.
@@ -59,6 +60,7 @@ Ludwig is suitable for a wide variety of AI tasks, and is hosted by the Linux Fo
 
 
 # Definitions
+
 <http://searchbusinessanalytics.techtarget.com/definition/deep-learning>
 
 
@@ -89,7 +91,7 @@ their performance based on experience, just as humans do.
 
 * **Data mining** is sorting through data to identify patterns and establish relationships.
 Data mining parameters include:
-    * Association - looking for patterns where one event is connected to another event
+  * Association - looking for patterns where one event is connected to another event
      *Sequence or path analysis - looking for patterns where one event leads to another later event
      *Classification - looking for new patterns (May result in a change in the way the data is organized but that's ok)
      *Clustering - finding and visually documenting groups of facts not previously known
@@ -132,13 +134,14 @@ can be used to forecast future probabilities with an acceptable level of reliabi
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html)
 * [Make Your Own Neural Network](https://www.amazon.com/Make-Your-Own-Neural-Network-ebook/dp/B01EER4Z4G/)
 * Applied Deep Learning
-    * [Applied Deep Learning - Part 1: Artificial Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
-    * [Applied Deep Learning - Part 2: Real World Case Studies](https://towardsdatascience.com/applied-deep-learning-part-2-real-world-case-studies-1bb4b142a585)
-    * [Applied Deep Learning - Part 3: Autoencoders](https://towardsdatascience.com/applied-deep-learning-part-3-autoencoders-1c083af4d798)
-    * [Applied Deep Learning - Part 4: Convolutional Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)
+  * [Applied Deep Learning - Part 1: Artificial Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
+  * [Applied Deep Learning - Part 2: Real World Case Studies](https://towardsdatascience.com/applied-deep-learning-part-2-real-world-case-studies-1bb4b142a585)
+  * [Applied Deep Learning - Part 3: Autoencoders](https://towardsdatascience.com/applied-deep-learning-part-3-autoencoders-1c083af4d798)
+  * [Applied Deep Learning - Part 4: Convolutional Neural Networks](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)
 
 
 # Liquid Neural Networks (LLN)
+
 Liquid neural networks are a class of AI algorithms that can learn to stay adaptable even after training.
 Liquid neural networks are inspired by how brain cells communicate with each other.
 They are robust to perturbations, they do not need to be large to generate interesting behavior
@@ -217,10 +220,10 @@ such as interpretability, accountability, fairness, and carbon footprint.
 * [Deep Learning - Software](http://deeplearning.net/software_links/)
 * [Caffe](http://caffe.berkeleyvision.org/)
 * [TensorFlow](https://www.tensorflow.org/) and [Google Cloud Machine Learning](https://cloud.google.com/ml/)
-    * [TensorFlow Lite](https://hackaday.com/2017/11/23/smarter-phones-in-your-hacks-with-tensorflow-lite/)
-    * [Awesome TensorFlow](https://github.com/jtoy/awesome-tensorflow)
-    * [OpenFace - Free and open source face recognition with deep neural networks](https://cmusatyalab.github.io/openface/)
-    * [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
+  * [TensorFlow Lite](https://hackaday.com/2017/11/23/smarter-phones-in-your-hacks-with-tensorflow-lite/)
+  * [Awesome TensorFlow](https://github.com/jtoy/awesome-tensorflow)
+  * [OpenFace - Free and open source face recognition with deep neural networks](https://cmusatyalab.github.io/openface/)
+  * [Image Completion with Deep Learning in TensorFlow](http://bamos.github.io/2016/08/09/deep-completion/)
 * [MXNet](https://mxnet.readthedocs.io/en/latest/)
 * [Neural Networks: You’ve Got It So Easy](http://hackaday.com/2017/04/24/neural-networks-youve-got-it-so-easy/)
 * [Uber Has Been Quietly Assembling One of the Most Impressive Open Source Deep Learning Stacks in the Market](https://towardsdatascience.com/uber-has-been-quietly-assembling-one-of-the-most-impressive-open-source-deep-learning-stacks-in-b645656ddddb)
@@ -269,7 +272,7 @@ such as interpretability, accountability, fairness, and carbon footprint.
 * [FaceForensics](http://niessnerlab.org/projects/roessler2018faceforensics.html)
 * [The LJ Speech Dataset](https://keithito.com/LJ-Speech-Dataset/)
 * [Labled Morse Code Transmissions](http://www.arrl.org/code-practice-files)
-    * [Training a Computer to Listen and Decode Morse Code](http://ag1le.blogspot.com/2019/02/training-computer-to-listen-and-decode.html)
+  * [Training a Computer to Listen and Decode Morse Code](http://ag1le.blogspot.com/2019/02/training-computer-to-listen-and-decode.html)
 
 
 # Data Set Format
@@ -339,15 +342,16 @@ such as interpretability, accountability, fairness, and carbon footprint.
 * [A Deep Learning Tutorial: From Perceptrons to Deep Networks](https://www.toptal.com/machine-learning/an-introduction-to-deep-learning-from-perceptrons-to-deep-networks)
 
 * Let’s code a Neural Network from Scratch -
-    * [Part 1](https://medium.com/typeme/lets-code-a-neural-network-from-scratch-part-1-24f0a30d7d62),
-    * [Part 2](https://medium.com/typeme/lets-code-a-neural-network-from-scratch-part-2-87e209661638),
-    * [Part 3](https://medium.com/typeme/lets-code-a-neural-network-from-scratch-part-3-87e23adbe4b6)
-    * [Neural Networks from Scratch with Python Code and Math in Detail— I](https://medium.com/towards-artificial-intelligence/building-neural-networks-from-scratch-with-python-code-and-math-in-detail-i-536fae5d7bbf)
-    * [Neural Network from Scratch in Python](https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65)
-    * [Neural Network from Scratch in Python](https://nnfs.io/)
+  * [Part 1](https://medium.com/typeme/lets-code-a-neural-network-from-scratch-part-1-24f0a30d7d62),
+  * [Part 2](https://medium.com/typeme/lets-code-a-neural-network-from-scratch-part-2-87e209661638),
+  * [Part 3](https://medium.com/typeme/lets-code-a-neural-network-from-scratch-part-3-87e23adbe4b6)
+  * [Neural Networks from Scratch with Python Code and Math in Detail— I](https://medium.com/towards-artificial-intelligence/building-neural-networks-from-scratch-with-python-code-and-math-in-detail-i-536fae5d7bbf)
+  * [Neural Network from Scratch in Python](https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65)
+  * [Neural Network from Scratch in Python](https://nnfs.io/)
 
 
 # Embedded Learning Library (ELL)
+
 Microsoft has released the [Embedded Learning Library (ELL)](https://github.com/Microsoft/ELL),
 offering developers a pre-trained image recognition model for Raspberry Pi and other developer boards.
 
@@ -390,15 +394,15 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [A Visual Introduction to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * [Matthew Stewart Tutorals](https://towardsdatascience.com/@matthew_stewart)
 * Honest Guide to Machine Learning
-    * [Part One](https://medium.com/axiomzenteam/an-honest-guide-to-machine-learning-2f6d7a6df60e#.fkg18yn6n)
-    * [Part Two - The Core of Machine Learning](https://medium.com/axiomzenteam/the-core-of-machine-learning-5319a57f2941#.2c5k99vaz)
-    * [Part Three: Natural Language Processing](https://medium.com/axiomzenteam/honest-guide-to-machine-learning-part-three-54a1c71a9d64#.96np3m5k1)
+  * [Part One](https://medium.com/axiomzenteam/an-honest-guide-to-machine-learning-2f6d7a6df60e#.fkg18yn6n)
+  * [Part Two - The Core of Machine Learning](https://medium.com/axiomzenteam/the-core-of-machine-learning-5319a57f2941#.2c5k99vaz)
+  * [Part Three: Natural Language Processing](https://medium.com/axiomzenteam/honest-guide-to-machine-learning-part-three-54a1c71a9d64#.96np3m5k1)
 * [Tinker With a Neural Network in Your Browser](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.56118&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 * [Approaching (Almost) Any Machine Learning Problem](http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/)
 * Recognize Handwritten Digits
-    * [Deep learning for complete beginners : Recognising handwritten digits by Cambridge Coding Academy](http://online.cambridgecoding.com/notebooks/cca_admin/deep-learning-for-complete-beginners-recognising-handwritten-digits)
-    * [ump into AI with a Neural Network of your Own](https://hackaday.com/2018/10/22/jump-into-ai-with-a-neural-network-of-your-own/)
-    * [TINY NEURAL NETWORK LIBRARY IN 200 LINES OF CODE](https://hackaday.com/2018/04/08/tiny-neural-network-library-in-200-lines-of-code/)
+  * [Deep learning for complete beginners : Recognising handwritten digits by Cambridge Coding Academy](http://online.cambridgecoding.com/notebooks/cca_admin/deep-learning-for-complete-beginners-recognising-handwritten-digits)
+  * [ump into AI with a Neural Network of your Own](https://hackaday.com/2018/10/22/jump-into-ai-with-a-neural-network-of-your-own/)
+  * [TINY NEURAL NETWORK LIBRARY IN 200 LINES OF CODE](https://hackaday.com/2018/04/08/tiny-neural-network-library-in-200-lines-of-code/)
 * [Deep Learning in a Nutshell: Core Concepts](https://devblogs.nvidia.com/parallelforall/deep-learning-nutshell-core-concepts/)
 * [The 10 Algorithms Machine Learning Engineers Need to Know](https://gab41.lab41.org/the-10-algorithms-machine-learning-engineers-need-to-know-f4bb63f5b2fa#.vysrf2spb)
 * [Layman’s Intro to #AI and Neural Networks](https://medium.com/autonomous-agents/laymans-intro-to-ai-and-neural-networks-ce074457d85a#.3sqbby7mm)
@@ -417,17 +421,17 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Deep Learning - Tutorials](http://deeplearning.net/reading-list/tutorials/)
 * [Deep Learning Tutorials](http://deeplearning.net/tutorial/)
 * Machine Learning is Fun!
-    * [Part 1](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.uvui41xio)
-    * [Part 2](https://medium.com/@ageitgey/machine-learning-is-fun-part-2-a26a10b68df3#.sqb1vzit7)
-    * [Part 3: Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.7rhn0vax4)
-    * [Part 4: Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/achine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78#.8m3756485)
-    * [Part 5: Language Translation with Deep Learning and the Magic of Sequences](https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa#.6h2b5br3b)
-    * [Part 6: How to do Speech Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a#.yv4ygtbro)
-    * [Part 7: Abusing Generative Adversarial Networks to Make 8-bit Pixel Art](https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7)
-    * [Part 8: How to Intentionally Trick Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196)
+  * [Part 1](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.uvui41xio)
+  * [Part 2](https://medium.com/@ageitgey/machine-learning-is-fun-part-2-a26a10b68df3#.sqb1vzit7)
+  * [Part 3: Deep Learning and Convolutional Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.7rhn0vax4)
+  * [Part 4: Modern Face Recognition with Deep Learning](https://medium.com/@ageitgey/achine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78#.8m3756485)
+  * [Part 5: Language Translation with Deep Learning and the Magic of Sequences](https://medium.com/@ageitgey/machine-learning-is-fun-part-5-language-translation-with-deep-learning-and-the-magic-of-sequences-2ace0acca0aa#.6h2b5br3b)
+  * [Part 6: How to do Speech Recognition with Deep Learning](https://medium.com/@ageitgey/machine-learning-is-fun-part-6-how-to-do-speech-recognition-with-deep-learning-28293c162f7a#.yv4ygtbro)
+  * [Part 7: Abusing Generative Adversarial Networks to Make 8-bit Pixel Art](https://medium.com/@ageitgey/abusing-generative-adversarial-networks-to-make-8-bit-pixel-art-e45d9b96cee7)
+  * [Part 8: How to Intentionally Trick Neural Networks](https://medium.com/@ageitgey/machine-learning-is-fun-part-8-how-to-intentionally-trick-neural-networks-b55da32b7196)
 * Up to Speed on Deep Learning
-    * [June Update](https://medium.com/the-mission/up-to-speed-on-deep-learning-june-update-bb0f17ccaf0b#.e0wr5tqwh)
-    * [July Update, Part 2](https://medium.com/the-mission/up-to-speed-on-deep-learning-july-update-part-2-baacc835d8ab#.yw03l0iax)
+  * [June Update](https://medium.com/the-mission/up-to-speed-on-deep-learning-june-update-bb0f17ccaf0b#.e0wr5tqwh)
+  * [July Update, Part 2](https://medium.com/the-mission/up-to-speed-on-deep-learning-july-update-part-2-baacc835d8ab#.yw03l0iax)
 * [An introduction to TensorFlow](https://opensource.com/article/17/11/intro-tensorflow?utm_medium=Email&utm_campaign=weekly&sc_cid=701f2000000tmCPAAY)
 * [9 Things You Should Know About TensorFlow](https://hackernoon.com/9-things-you-should-know-about-tensorflow-9cf0a05e4995)
 * [Getting Started with TensorFlow: A Machine Learning Tutorial](https://www.toptal.com/machine-learning/tensorflow-machine-learning-tutorial)
@@ -438,10 +442,10 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [TensorFlow: A proposal of good practices for files, folders and models architecture](https://blog.metaflow.fr/tensorflow-a-proposal-of-good-practices-for-files-folders-and-models-architecture-f23171501ae3)
 * [How to use Dataset in TensorFlow](https://towardsdatascience.com/how-to-use-dataset-in-tensorflow-c758ef9e4428)
 * TensorFlow in a Nutshell
-    * [GitHub](https://github.com/c0cky/TensorFlow-in-a-Nutshell)
-    * [Part One: Basics](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-one-basics-3f4403709c9d#.66dlxsbvd)
-    * [Part Two: Hybrid Learning](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-two-hybrid-learning-98c121d35392#.v1hlrqrcl)
-    * [Part Three: All the Models](https://www.linkedin.com/pulse/tensorflow-nutshell-part-three-all-models-camron-godbout)
+  * [GitHub](https://github.com/c0cky/TensorFlow-in-a-Nutshell)
+  * [Part One: Basics](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-one-basics-3f4403709c9d#.66dlxsbvd)
+  * [Part Two: Hybrid Learning](https://medium.com/@camrongodbout/tensorflow-in-a-nutshell-part-two-hybrid-learning-98c121d35392#.v1hlrqrcl)
+  * [Part Three: All the Models](https://www.linkedin.com/pulse/tensorflow-nutshell-part-three-all-models-camron-godbout)
 * [Big Picture Machine Learning: Classifying Text with Neural Networks and TensorFlow](https://medium.freecodecamp.org/big-picture-machine-learning-classifying-text-with-neural-networks-and-tensorflow-d94036ac2274)
 * [TensorFlow Playground](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.34995&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 * [TensorFLow for Poets](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/index.html?index=../../index#0)
@@ -469,12 +473,12 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [Real-Time TensorFlow Camera Analysis With Sensors](https://dzone.com/articles/real-time-tensorflow-camera-analysis-with-sensors?edition=325556&utm_source=Zone%20Newsletter&utm_medium=email&utm_campaign=iot%202017-09-26)
 * [Sound Classification with TensorFlow](https://medium.com/iotforall/sound-classification-with-tensorflow-8209bdb03dfb)
 * AI Agents
-    * [Self Learning AI-Agents Part I: Markov Decision Processes](https://towardsdatascience.com/self-learning-ia-agents-part-i-markov-decision-processes-baf6b8fc4c5f)
+  * [Self Learning AI-Agents Part I: Markov Decision Processes](https://towardsdatascience.com/self-learning-ia-agents-part-i-markov-decision-processes-baf6b8fc4c5f)
 * Mysteries of Neural Networks
-    * [A Gentle Introduction To Math Behind Neural Networks](https://medium.com/datadriveninvestor/a-gentle-introduction-to-math-behind-neural-networks-6c1900bb50e1)
-    * [Mysteries of Neural Networks Part I: Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba)
-    * [Mysteries of Neural Networks Part II: Preventing Deep Neural Network from Overfitting](https://towardsdatascience.com/preventing-deep-neural-network-from-overfitting-953458db800a)
-    * [Mysteries of Neural Networks Part III: Let’s code a Neural Network in plain NumPy](https://towardsdatascience.com/lets-code-a-neural-network-in-plain-numpy-ae7e74410795)
+  * [A Gentle Introduction To Math Behind Neural Networks](https://medium.com/datadriveninvestor/a-gentle-introduction-to-math-behind-neural-networks-6c1900bb50e1)
+  * [Mysteries of Neural Networks Part I: Deep Dive into Math Behind Deep Networks](https://towardsdatascience.com/https-medium-com-piotr-skalski92-deep-dive-into-deep-networks-math-17660bc376ba)
+  * [Mysteries of Neural Networks Part II: Preventing Deep Neural Network from Overfitting](https://towardsdatascience.com/preventing-deep-neural-network-from-overfitting-953458db800a)
+  * [Mysteries of Neural Networks Part III: Let’s code a Neural Network in plain NumPy](https://towardsdatascience.com/lets-code-a-neural-network-in-plain-numpy-ae7e74410795)
 
 
 # Whisper Voice Recognition
@@ -528,10 +532,10 @@ There is also an open source initiative like this call [The Fido Project](http:/
 * [The 9 Deep Learning Papers You Need To Know About (Understanding CNNs Part 3)](https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html?ref=mybridge.co?utm_source=mybridge&utm_medium=email&utm_campaign=read_more&_branch_match_id=243603234170444476)
 * [Detecting Objects in (almost) Real-time: FasterRCNN Explained with Code](https://towardsdatascience.com/fasterrcnn-explained-part-1-with-code-599c16568cff)
 * [A Year of Artificial Intelligence](https://ayearofai.com/)
-    * [#0: 2016 is the year I venture into Artificial Intelligence](https://ayearofai.com/0-2016-is-the-year-i-venture-into-artificial-intelligence-d702d65eb919)
-    * [Rohan & Lenny #2: Convolutional Neural Networks](https://ayearofai.com/rohan-lenny-2-convolutional-neural-networks-5f4cd480a60b#.9fa692g0c)
-    * [Rohan & Lenny #3: Recurrent Neural Networks & LSTMs](https://ayearofai.com/rohan-lenny-3-recurrent-neural-networks-10300100899b)
-    * [Illustrated Guide to LSTM’s and GRU’s: A step by step explanation](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
+  * [#0: 2016 is the year I venture into Artificial Intelligence](https://ayearofai.com/0-2016-is-the-year-i-venture-into-artificial-intelligence-d702d65eb919)
+  * [Rohan & Lenny #2: Convolutional Neural Networks](https://ayearofai.com/rohan-lenny-2-convolutional-neural-networks-5f4cd480a60b#.9fa692g0c)
+  * [Rohan & Lenny #3: Recurrent Neural Networks & LSTMs](https://ayearofai.com/rohan-lenny-3-recurrent-neural-networks-10300100899b)
+  * [Illustrated Guide to LSTM’s and GRU’s: A step by step explanation](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
 
 
 # Reinforcement Learning
@@ -588,6 +592,7 @@ There is also an open source initiative like this call [The Fido Project](http:/
 
 
 # Data Wrangling
+
 extract, transform and load
 exploratory data analysis
 pandas cookbook
@@ -596,7 +601,7 @@ pandas cookbook
 * [A comprehensive introduction to data wrangling](https://www.springboard.com/blog/data-wrangling/)
 * [Exploratory Data Analysis using Python — A Case Study](https://blog.jovian.ai/exploratory-data-analysis-using-python-a-case-study-78aa34e5922e)
 * [Advanced exploratory data analysis (EDA) with Python](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a)
-    * [Advanced exploratory data analysis (EDA)](https://miykael.github.io/blog/2022/advanced_eda/)
+  * [Advanced exploratory data analysis (EDA)](https://miykael.github.io/blog/2022/advanced_eda/)
 
 
 # AI Winter

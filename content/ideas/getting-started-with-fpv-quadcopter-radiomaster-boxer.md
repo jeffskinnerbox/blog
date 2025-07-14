@@ -50,6 +50,7 @@ I used the following articles and videos to help make the selection of the Radio
 
 
 ## Should I Use Mode 1 or Mode 2?
+
 Mode 1 or Mode 2 has only indirectly to do with your quadcopter,
 it is more about the radio.
 It tells you about the position of the throttle stick.
@@ -106,6 +107,7 @@ Sources:
 
 
 #### Step 0: Get Things Ready - DONE
+
 I installed the battery and charged it in the Boxer.
 I also found the latest user manuals for [RadioMaster][06], [EdgeTX][07], and [ExpressRLS][08].
 
@@ -125,6 +127,7 @@ Please check the voltage and condition of the battery regularly and never charge
 
 
 #### Step 1: Power Up the Boxer - DONE
+
 Press the power button and hold until all four boxes appear on the screen.
 If you get a throttle warning, move the throttle gimbal all the way down.
 If you get a switch warning, move all the swithced to the up position.
@@ -140,6 +143,7 @@ follow the procedure outlined in the video [RadioMaster Boxer Quick Start Guide 
 
 
 #### Step X: Radio Setup (3/7)
+
 The Boxer has a wide range of configurations.
 **SYS** > **Page Down** 2 times to page 3/7, Radio Setup
 
@@ -156,6 +160,7 @@ The Boxer has a wide range of configurations.
 
 
 #### Step X: Version (6/7)
+
 You go here to get your EdgeTX firmware version information.
 My Boxer arrived with EdgeTX version 2.8.0-factory (2022-11-30).
 
@@ -172,6 +177,7 @@ My Boxer arrived with EdgeTX version 2.8.0-factory (2022-11-30).
 
 
 ## Flash EdgeTX Firmware to RadioMaster Boxer
+
 There are several ways to install or update EdgeTX on your radio transmitter.
 You can use the online tool EdgeTX Buddy or manually install/update the bootloader and firmware using the bootloader method.
 I'm using the online tool.
@@ -220,6 +226,7 @@ Sources:
 
 
 #### Step 3: Calibrate Boxer Gimbals - DONE
+
 Calibration of your drone’s gimbal is important to ensure all gimbal motors are functioning properly and there is no restricted movement for the gimbal.
 Calibartion allows the gimbal processor to check the motion range of each axis, determine & set the correct offsets required to centre the sticks on each axis.
 
@@ -237,6 +244,7 @@ To get going, power on the Boxer and enter **SYS** > **Page Up** (6/7) to **HARD
 
 
 # Update ExpressLRS on Radiomaster Boxer
+
 The steps below are for installing ExpressLRS within the RadioMaster Boxer,
 both the Lua Script and the firmware.
 This is done with the aid of the `expresslrs-configurator` program.
@@ -252,6 +260,7 @@ Sources:
 
 
 ## Flash ExpressLRS Transmitter (RadioMaster Boxer)
+>
 >**NOTE:** The procedure below is for an Internal ExpressLRS module Boxer transmitter (ExpressRLS built into the radio),
 >**not** the External ExpressRLS Module (plugs into the back of the Boxer radio).
 
@@ -268,6 +277,7 @@ Other sources:
 
 
 #### Step 1: Download and Install ExpressLRS Configurator - DONE
+
 Download the latest [ExpressLRS Configuator][13], in my case it version 1.6.0.
 I'm using Linux, so my install goes as follows (install notes are [here][14]:
 
@@ -292,6 +302,7 @@ sudo dpkg -r expresslrs-configurator
 
 
 #### Step 2: Update ExpressLRS Lua Script - DONE
+
 This step makes sure your Boxer radio has the latest ExpressRLS Lua script installed.
 This script isn't expected to change frequently,
 but this may need to be updated at some point in the future, like major point releases.
@@ -305,6 +316,7 @@ This Lua file was called `elrsV3.lua`.
 
 
 #### Step 3: Update ExpressLRS Internal Module Fimware - DONE
+
 There are three methods to update the ExpressLRS firmware on the Boxer.
 For the Roadmaster Boxer, which has EdgeTX and an Internal ExpressLRS Module,
 you can use the EdgeTXPassthrough method.
@@ -353,7 +365,7 @@ Sources:
 # Binding Phrase
 
 * [How To Bind Any & ALL Whoop & Micro Drones To ELRS !! Your Complete Set-Up Guide !! ExpressLRS](https://www.youtube.com/watch?v=X4IzcO16Dxo)
-    * [ExpressLRS: SPI Receivers](https://www.expresslrs.org/hardware/spi-receivers/)
+  * [ExpressLRS: SPI Receivers](https://www.expresslrs.org/hardware/spi-receivers/)
 * go to 13:04 minutes - [Build an FPV drone in 2023 - Part 7 - Bind the ELRS Receiver](https://www.youtube.com/watch?v=Dz7bdXWKC1Q)
 
 
@@ -375,12 +387,14 @@ Sources:
 
 
 # Settings
+
 Boxer ELRS units are equipped with an internal ELRS module, capable of providing 25mW-1000mW RF
 output. In non-extreme circumstances, 100mW output at 500Hz update rate is recommended, as higher
 RF output and update rates may significantly reduce battery life and generate excessive heat.
 
 
 ## EdgeTX Companion
+
 EdgeTX Companion is a computer program that allows you to connect to your
 EdgeTx radio via USB and perform backups, modifications, etc. using your laptop/desktop.
 It has some great features that allow you to set up quadcopter, plane, etc.
@@ -398,6 +412,7 @@ Sources:
 
 
 #### Step X: Download EdgeTX Companion - DONE
+
 Download EdgeTX Companion for Linux can be done at [this site][20].
 
 ```bash
@@ -439,6 +454,7 @@ Comment=Perform EdgeTX backups, modifications, etc. using your laptop/desktop
 
 
 #### Step X: Create Backup of Boxer Configuration - DONE but did not work
+
 As you make changes to you EdgeTX configuration, keeping a backup of your EdgeTX firmware and settings is essential.
 You can use EdgeTX Companion to very easily save copies of EdgeTX radio settings and firmware.
 
@@ -475,6 +491,7 @@ Sources:
 
 
 #### Step X: Create Backup of Boxer Configuration - DONE
+
 As you make changes to you EdgeTX configuration, keeping a backup of your EdgeTX firmware and settings is essential.
 To do this, use this proceddure:
 
@@ -485,6 +502,7 @@ To do this, use this proceddure:
 
 
 #### Step X: Fillout EdgeTX Companion Profile
+
 Using the **Gear** (aka Settings), fillout the **Profile** tab in EdgeTX Companion.
 
 
@@ -494,29 +512,31 @@ Using the **Gear** (aka Settings), fillout the **Profile** tab in EdgeTX Compani
 
 
 # EdgeTX Snippets
+
 These short write-up and videos concerning "how-to" for some common needs on EdgeTx
 
 * [EdgeTX Snippets](https://www.youtube.com/playlist?list=PLy3TC1ILJYTjWBv9HIpj_Eb5yA_W9Neua)
 
 
 #### Step X: Create Audible Low Battery Alert
+
 Using one logical switch and one special function,
 you can implement an audio alert for low battery on the quadcopter.
 
 On the EdgeTX Conpanion Tool:
 
 * **Logical Switches** tab (I used `L01` logical switch)
-    * **Function** is `a<x`
-    * **V1** is `Batt`
-    * **V2** is `3.7V`
-    * **AND Switch** is `----`
-    * **Duration** is `0.0`
-    * **Delay** is `5.0`
+  * **Function** is `a<x`
+  * **V1** is `Batt`
+  * **V2** is `3.7V`
+  * **AND Switch** is `----`
+  * **Duration** is `0.0`
+  * **Delay** is `5.0`
 * **Special Functions** tab:
-    * **Switch** is `L01`
-    * **Action** is `Play Value`
-    * **Parameters** is`Batt`
-    * `Repeat 10s`
+  * **Switch** is `L01`
+  * **Action** is `Play Value`
+  * **Parameters** is`Batt`
+  * `Repeat 10s`
 
 Sources:
 
@@ -544,6 +564,7 @@ Sources:
 
 
 #### Step X: Using Trim Switches for Angle Mode
+
 In angle mode your quadcopter continuously drifts, it is likely that your gyroscope / acelarometer requires some trim.
 
 Sources:
@@ -559,6 +580,7 @@ Sources:
 
 
 ## Create a Model
+
 A model refers to a configuration or template used in a radio-controlled device,
 such as a model sailplane or drone.
 It includes various settings and options that define the behavior and characteristics of the device.
@@ -602,6 +624,7 @@ Sources:
 
 
 # Model selection and protocol selection (ELRS version)
+
 Boxer ELRS units are equipped with an internal ELRS module, capable of providing 25mW-1000mW RF
 output. In non-extreme circumstances, 100mW output at 500Hz update rate is recommended, as higher
 RF output and update rates may significantly reduce battery life and generate excessive heat.
@@ -623,6 +646,7 @@ TOOLS menu. Scroll down to [Bind] and press enter.
 
 
 ### Whats the Difference between ELRS vs 4-in-1 vs MPM CC2500?
+
 In the RadioMaster lineup, you can get 3 different modules: Ranger, Micro, Nano.
 The Ranger and Micro fit into a JR Bay.
 A Nano fits into a Nano Bay.
@@ -639,6 +663,7 @@ A Nano fits into a Nano Bay.
 
 
 ## Radio Control Operating Systems
+
 EdgeTX -
 OpenTX -
 EdgeTX - EdgeTX is an open-source firmware for remote control transmitters used in hobbyist RC (radio-controlled) flying and other activities. It is highly customizable, allowing users to configure their transmitters and adjust settings to suit their individual preferences and specific needs.
@@ -656,6 +681,7 @@ Sources:
 
 
 ### OpenTX
+
 OpenTX is open source firmware for RC radio transmitters. The firmware is highly configurable and brings much more features than found in traditional radios.
 
 Sources:
@@ -665,6 +691,7 @@ Sources:
 
 
 ## Anticipated Tuning and Modifications
+
 I got several ideas from these sources about changes I would like to consider:
 
 * [2023 Ultimate Guide to Tiny Whoops: Are you using the right stuff?](https://www.youtube.com/watch?v=lgeeR8TiuP0)

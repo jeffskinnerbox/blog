@@ -23,8 +23,8 @@ Author: Jeff Irland
 Image: cheat-sheet.jpg
 Summary: Chromebooks keyboard isn't your 101-key US traditional keyboard, so your old reliable tricks don't always work the same way.  Never the less, Chromebook does support shortcuts for a fastest way to power through tasks you perform multiple times per day.  This HowTo documents many of the useful shortcuts that are available on Chromebook using the Chrome Operating System.
 
-https://gigaom.com/2012/07/09/10-google-chromebook-tips-tricks-and-tweaks/
-https://www.shortcutworld.com/shortcuts.php?l=en&p=linux&application=Chrome
+<https://gigaom.com/2012/07/09/10-google-chromebook-tips-tricks-and-tweaks/>
+<https://www.shortcutworld.com/shortcuts.php?l=en&p=linux&application=Chrome>
 
 * [The Chrome OS Cheat Sheet: Every Chromebook Keyboard Shortcut](https://www.makeuseof.com/tag/chrome-os-cheat-sheet/)
 
@@ -35,6 +35,7 @@ There is also a number of keyboard shortcuts you’ll need to learn,
 and touchpad motions that are different from the average PC.
 
 # Keyboard Shortcuts
+
 Google's Chrome OS uses some familiar keyboard shortcuts as well as some unique ones.
 A few of these access Chrome OS settings
 and others take the place of missing physical keys on Chromebook keyboards
@@ -79,6 +80,7 @@ Press `Ctrl` + `Alt` + `?` to see a map of these shortcuts on your screen.
 | Alt+backspace        | Delete file(s) in file manager  |
 
 # Gesture Shortcuts
+
 You can use your Chromebook's touchpad to move the pointer,
 right-click items on the screen, and more. Here's how it works
 and [look here to change touchpad settings][02]:
@@ -100,6 +102,7 @@ and [look here to change touchpad settings][02]:
 | Two Finger Swipe     | Swipe left or right quickly using two fingers to swipe between open tabs. |
 
 # Crosh
+
 Crosh is a shell environment known as “chrome shell”
 that is provided with Chrome OS.
 Crosh allows users to run several commands directly from Chrome OS.

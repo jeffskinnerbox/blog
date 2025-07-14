@@ -18,6 +18,7 @@ Slug: cheatsheet-curl-commands
 Status: hidden
 
 See the following for more examples:
+
 * [Use the internet from the command line with curl](https://opensource.com/article/20/5/curl-cheat-sheet)
 * [Curl Cheat Sheet](https://opensource.com/sites/default/files/gated-content/curl-cheat-sheet.pdf)
 * [cURL your way to freedom](http://grahamnic.wordpress.com/2013/05/06/mac-os-curl-your-way-to-freedom/)
@@ -46,6 +47,7 @@ Like cURL, [Wget][16] is a networking command-line tool that lets you download f
 # Things to Learn
 
 ## Learning OAuth2
+
 * [Serious OAuth in 8 Steps](https://knpuniversity.com/screencast/oauth/intro)
 * [3 Legged OAuth 2 using Insomnia REST](https://forge.autodesk.com/blog/3-legged-oauth-2-using-insomnia-rest)
 * [GitHub API Authentication using OAuth 2.0](https://insomnia.rest/blog/oauth2-github-api/)
@@ -53,6 +55,7 @@ Like cURL, [Wget][16] is a networking command-line tool that lets you download f
 # Useful Tools
 
 ## Copy as cURL
+
 [Chrome has a feature][13] which allows you to copy a web request as a [cURL][03] request,
 so you see all the various elements of the request on the command line.
 To use this feature:
@@ -65,9 +68,11 @@ There you'll see listed your requests for the page itself and also each of the a
 1. Right-click on any of the entries there, and select **Copy** > **Copy as cURL**.
 
 ## Convert cURL Syntax to Python, Node.js, PHP
+
 Convert cURL syntax to native Python, Node.js, or PHP code using an [online converter][14].
 
 ## Insomnia
+
 Insomnia is open source cross-platform REST API client desktop application and alternative to Postmen.
 It takes the pain out of interacting with HTTP-based APIs.
 Insomnia combines an easy-to-use interface with advanced functionality like
@@ -76,6 +81,7 @@ authentication helpers, code generation, and environment variables.
 * [Insomnia](https://insomnia.rest/)
 
 ## Mitmproxy
+
 [mitmproxy][15] is an open source, interactive,
 SSL-capable intercepting proxy with a console interface
 used for debugging, testing, privacy measurements, and penetration testing.
@@ -87,6 +93,7 @@ HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols.
 * [Decrypt your HTTPS traffic with mitmproxy](https://www.darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/)
 
 ## Pretty print JSON On The Command Line
+
 * [JSON on the command line with jq](https://shapeshed.com/jq-json/)
 * [Discover how to use jq, a JSON manipulation command line, with GeoJSON](https://webgeodatavore.com/jq-json-manipulation-command-line-with-geojson.html)
 * [Parsing JSON with jq](http://www.compciv.org/recipes/cli/jq-for-parsing-json/)
@@ -156,6 +163,7 @@ The `-M` option will give you monochrome output.
 # Example Uses of cURL
 
 ## Download a Single File
+
 The following command will get the content of the URL and display it in the STDOUT (i.e on your terminal).
 
     curl http://www.centos.org
@@ -184,6 +192,7 @@ So using the above example again, you get no output (but you will see errors if 
     $ curl -sS http://www.centos.org > $HOME/tmp/junk.html
 
 ## Downloading Multiple Files
+
 We can download multiple files in a single shot by specifying the URLs on the command line.
 
     curl -O http://www.gnu.org/software/gettext/manual/html_node/index.html -O http://www.gnu.org/software/gettext/manual/gettext.html
@@ -192,6 +201,7 @@ This command will download both index.html and gettext.html
 and save it in the same name under the current directory.
 
 ## Follow HTTP Location Headers
+
 By default cURL doesn’t follow the [HTTP Location headers][05] (also called Redirect).
 When a requested web page is moved to another place,
 then an HTTP Location header will be sent as a Response and it will have where the actual web page is located.
@@ -211,6 +221,7 @@ To get the page, use the `--location` (or `-L`) option
     curl --location www.jeffskinnerbox.me
 
 # Doing HTTP Request Methods With cURL
+
 The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed,
 collaborative, [hypermedia][07] information systems.
 HTTP functions as a request-response protocol in the client-server computing model.
@@ -224,6 +235,7 @@ Its values can be GET, POST, DELETE, PUT, etc.
 If we don't specify this parameter, cURL will use the GET method by default.
 
 ## Make a GET Request Without Any Data
+
 We have already been doing this in the above examples.
 The following commands are equivalent:
 
@@ -274,6 +286,7 @@ The JSON formated output form this GET method is
     }
 
 ## Make a Request With Data
+
 In order to send data with the GET requests, we should use `--data` parameter.
 For example, you could send login data with POST request
 
@@ -284,6 +297,7 @@ Search for data
     curl --request GET 'http://www.youtube.com/results?search_query=my_keyword'
 
 ## Rake requests With Extra Headers
+
 Sometimes you need to add [HTTP headers][09] to your requests.
 This is done by `--header` (or `-H`) parameter.
 
@@ -292,6 +306,7 @@ This is done by `--header` (or `-H`) parameter.
 Notice that we are using semicolon(":") to separate header name from its value.
 
 ## Get Response With HTTP Headers
+
 Every time your web browser requests a page,
 the web server sends “headers” before it sends the actual page markup.
 These headers are normally invisible, although cURL will make them visible if you’re interested.
@@ -321,6 +336,7 @@ The `diff` produces the following:
     >
 
 ## See Complete Request And Response Headers with CURL
+
 Using verbose output in curl can help you see all headers
 (both request headers sent and response headers received).
 Using Verbose is done by simply passing `--verbose` (or `-v`).
@@ -421,6 +437,7 @@ curl --trace-ascii d.txt --trace-time http://example.com/
 ```
 
 ## Show Methods that are Supported on a Resource
+
 If you want to figure out which methods are supported on a resource,
 use the `OPTIONS` method for this.
 It will return an `ALLOW` header,
@@ -447,6 +464,7 @@ Keep in mind that many web services do not taking advantage of the `OPTIONS` met
 and as a result, its results could be erroneous.
 
 ## Show Only Response Headers
+
 Sometimes you only want to see the response headers returned by the server,
 without seeing the actual response content.
 In this case, use the `--head` (or `-I`) option.
@@ -461,6 +479,7 @@ In this case, use the `--head` (or `-I`) option.
     Connection: keep-alive
 
 ## Pass HTTP Authentication in cURL
+
 Sometime, websites will require a username and password to view the content.
 With the `--user` (or `-u`) option, we can pass those credentials from cURL
 to the web server as shown below.
@@ -470,6 +489,7 @@ to the web server as shown below.
 **NOTE:** The credentials are passed in the clear, unencrypted!
 
 ## Download Files from FTP Server
+
 cURL can also be used to download files from FTP servers.
 If the given FTP path is a directory,
 by default it will list the files under the specific directory.
@@ -485,6 +505,7 @@ Here, the given URL refers to a directory.
 So cURL will list all the files and directories under the given URL.
 
 ## Upload Files to FTP Server
+
 Curl can also be used to upload files to the FTP server with -T option.
 
     curl -u ftpuser:ftppass -T myfile.txt ftp://ftp.testserver.com
@@ -495,6 +516,7 @@ You can also upload multiple files at a same time using the range operations.
     curl -u ftpuser:ftppass -T "{file1,file2}" ftp://ftp.testserver.com
 
 ## Using a Proxy
+
 We can specify cURL to use proxy to do the specific operation by using `--proxy` (or `-x`) option.
 We need to specify the host and port of the proxy.
 For example
@@ -502,6 +524,7 @@ For example
     curl --proxy proxysever.test.com:3128 http://google.co.in
 
 ## Send Mail using SMTP Protocol
+
 cURL can also be used to send mail using the SMTP protocol.
 You should specify the from-address, to-address, and the mailserver ip-address as shown below.
 
@@ -513,12 +536,14 @@ Once you’ve composed your message, type "." (i.e. period) as the last line,
 which will send the email immediately.
 
 ## How to Look Up Geographic Location of an IP Address
+
 [ipinfo.io](http://ipinfo.io/)
 Unlike other services, ipinfo.io provides JSON-based geolocation API, so you can easily look up geolocation from the command line, using tools like curl.
 
     curl ipinfo.io/23.66.166.151
 
 ## Get Definition of a Word using DICT Protocol
+
 You can use cURL to get the definition for a word with the help of [DICT protocol][06].
 We need to pass a Dictionary Server URL to it.
 There are many dictionaries are available, but you can list all the dictionaries using
@@ -571,6 +596,7 @@ To query for the word "internet", you get the following:
     221 bye [d/m/c = 0/0/0; 0.000r 0.000u 0.000s]
 
 ## Sources and Additional Examples
+
 * [Using cURL to automate HTTP jobs](http://curl.haxx.se/docs/httpscripting.html)
 * [15 Practical Linux cURL Command Examples (cURL Download Examples)](http://www.thegeekstuff.com/2012/04/curl-examples/)
 * [curl tutorial with examples of usage](http://www.yilmazhuseyin.com/blog/dev/curl-tutorial-examples-usage/)

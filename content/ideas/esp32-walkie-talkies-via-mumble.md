@@ -35,7 +35,7 @@ Consider using and reading ...
 * [ESP32 Battery Life Tips](https://www.youtube.com/watch?v=4EZYYPmQnJY)
 
 * [DIY Walkie-Talkie Based on ESP-NOW](https://www.elektormagazine.com/articles/diy-walkie-talkie-based-on-esp-now)
-    * [Walkie-Talkie with ESP-NOW](https://www.elektormagazine.com/labs/walkie-talkie-with-esp-now)
+  * [Walkie-Talkie with ESP-NOW](https://www.elektormagazine.com/labs/walkie-talkie-with-esp-now)
 
 
 
@@ -72,7 +72,7 @@ Consider using and reading ...
 # Make it Speak to Home Assistant
 
 * [More Voice More Voice More Voice (Local Control)](https://www.mostlychris.com/more-voice-more-voice-more-voice/)
-    * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
+  * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
 
 
@@ -123,6 +123,7 @@ since the design is getting more complex.
 
 
 # My Walkie-Talkie Build Approach
+
 In atomic14's design, audio data is transmitted over either UDP broadcast or ESP-NOW.
 Since a major portion of my design objective is contained in atomic14 design,
 I'll start my build there and add the Mumble an OLED features in a subsequent step.
@@ -132,21 +133,21 @@ I used the following sources for this initial design:
 Sources:
 
 * Walkie-Talkie
-    * [An ESP32 Walkie-Talkie, For Those Spy Radio Moments][01]
-    * [ESP32 Walkie-Talkie using UDP Broadcast and ESP-NOW][42]
-    * [atomic14 / esp32-walkie-talkie][09]
-    * [atomic14 / esp32_audio][43]
-    * [ESP32 Walkie Talkie - Part 1 - Fusion 360 case design][48]
+  * [An ESP32 Walkie-Talkie, For Those Spy Radio Moments][01]
+  * [ESP32 Walkie-Talkie using UDP Broadcast and ESP-NOW][42]
+  * [atomic14 / esp32-walkie-talkie][09]
+  * [atomic14 / esp32_audio][43]
+  * [ESP32 Walkie Talkie - Part 1 - Fusion 360 case design][48]
 * Getting Sound Out of ESP32
-    * [ESP32 Sound - Working with I2S][44]
-    * [ESP32 Audio Output Using I2S and built-in Digital to Analogue Converters (DACs)][45]
-    * [ESP32 Audio][20]
+  * [ESP32 Sound - Working with I2S][44]
+  * [ESP32 Audio Output Using I2S and built-in Digital to Analogue Converters (DACs)][45]
+  * [ESP32 Audio][20]
 * Arduino Audio Tools
-    * [#419 ESP32 Audio Tutorial with lots of examples][50]
+  * [#419 ESP32 Audio Tutorial with lots of examples][50]
 * Using MicroPhyon
-    * [MicroPython I2S Audio with the ESP32][49]
+  * [MicroPython I2S Audio with the ESP32][49]
 * ESP-NOW
-    * [#172 Hidden: ESP32 and ESP8266 point-to-point (ESP-Now): Fast and efficient. Comparison with LoRa][46]
+  * [#172 Hidden: ESP32 and ESP8266 point-to-point (ESP-Now): Fast and efficient. Comparison with LoRa][46]
 
 Good sources for audio examples:
 
@@ -156,6 +157,7 @@ Good sources for audio examples:
 
 
 ## ESP32 Walkie-Talkie: Bill of Materials (BOM)
+
 To make and test two ESP32 Walkie-Talkie, I used the following materials:
 
 | Item | Quantity | Description |
@@ -175,6 +177,7 @@ To make and test two ESP32 Walkie-Talkie, I used the following materials:
 
 
 # ESP32-S2
+
 ESP32-S2 only has a single 32-bit Xtensa core, reduced RAM and ROM,
 and WiFi only (no Bluetooth) — compared to the traditional ESP32.
 These tradeoffs mean the S2 draws significantly less power consumption, especially while active.
@@ -189,6 +192,7 @@ These tradeoffs mean the S2 draws significantly less power consumption, especial
 
 
 ## TinyPICO
+
 TinyPICO is the world’s smallest, fully-featured ESP32 development board, designed to unlock the power of the ESP32’s dual-core 240MHz processor and internet connectivity, in a package smaller than your thumb!
 This development board supports MicroPython and C, and is available in both Micro-B and USB-C line power or LiPo battery LiPo battery management on the board.
 
@@ -220,14 +224,17 @@ Unexpected Maker have created some helper functions for you in our TinyPICO Micr
 
 
 ### TinyPICO V2
+
 It's size is 18mm x 32mm, ESP32 PICO D4, 32Bit Dual Core 240Mhz, 2.4GHz WiFi - 802.11b/g/n, Bluetooth BLE 4.2, 4MB SPI FLash, 4MB Extra PSRAM, 14x GPIO broken out.
 
 
 ### TinyPICO V3
+
 It's size is 18mm x 35mm, ESP32 PICO D4, 32Bit Dual Core 240Mhz, 2.4GHz WiFi - 802.11b/g/n, Bluetooth BLE 4.2, 4MB SPI FLash, 4MB Extra PSRAM, 14x GPIO broken out.
 
 
 ### TinyPICO V3 with u.FL Connector
+
 This TinyPICO V3 has no antenna but comes with a iu.FL connector instead
 so you can attach an external antenna of your choice.
 
@@ -237,6 +244,7 @@ so you can attach an external antenna of your choice.
 
 
 ## TinyS2
+
 This is the ESP32-S2 development board in the TinyPICO format!
 TinyS2 is 18mm wide and 35mm long.
 The [TinyS2 has very low power consumption][39], especially when sleeping.
@@ -254,6 +262,7 @@ So instead of initialising the SPI bus using the defaults, you have to instead e
 
 
 ### TinyS2 Pin Out
+
 There are at least 3 revisions (P1, P2, P3) of the [TinyS2 (ESP32-S2 Board)][06],
 resulting in [two slightly different default GPIO for the SPI pins][34].
 In my case, I had revision P5!
@@ -267,6 +276,7 @@ In my case, I had revision P5!
 
 
 ### NodeMCU-32S
+
 The instructions for the ESP32 Walkie Talkie calls for the use of the [TinyS2 (ESP32-S2 Board)][06].
 To start my initial development,
 I chose to use the [NodeMCU-32S][41] (aka NodeMCU ESP-WROOM-32) which is better documented.
@@ -278,6 +288,7 @@ I chose to use the [NodeMCU-32S][41] (aka NodeMCU ESP-WROOM-32) which is better 
 
 
 # Arduino Audio Tools
+
 I cam accross the Arduino Audio Tools project, specifiaclly via [this video][50],
 after I was deep into investigating the repurposing [atomic14's][04] [esp32 based walkie-talkie][01].
 I was impressed by the Audio Tools ease of use, use of Streams, large number of features, and [design goals][51].
@@ -294,6 +305,7 @@ Sources:
 
 
 ## What are C++ Streams?
+
 One of the standout features of C++ is its built-in support of streams.
 In C++, a stream refers to a sequence of characters that are transferred between
 the program and I/O devices.
@@ -320,6 +332,7 @@ Sources
 
 
 #### Step 1: Installation in Arduino IDE - DONE
+
 You can download the AudioTools library as a zip file,
 or you can `git clone` this project into the Arduino libraries folder:
 
@@ -334,6 +347,7 @@ version just by executing the `git pull` command in the project folder `~/Arduin
 
 
 #### Step X: Test AudioTools with Examples
+
 Within the above installed library you'll find many example implementation
 within `~/Arduino/libraries/arduino-audio-tools/examples`.
 I focused on the following examples:
@@ -381,6 +395,7 @@ make
 
 
 #### Step 1: Clone the esp32-walkie-talkie Repository - DONE
+
 Go to your [GitHub repository](https://github.com/jeffskinnerbox?tab=repositories)
 and click the **New** button at the top right of the page.
 Fill in the form to create your Github repository.
@@ -582,10 +597,12 @@ At this point, I'll set aside this code and focus on assembling and testing the 
 
 
 # Series of Test Builds
+
 referance the list of sites in the "# My Walkie-Talkie Build Approach" section above
 
 
 #### Step X: Breadboard the Microphone
+
 Would this be of interest:
 
 * [SparkFun Analog MEMS Microphone Breakout - VM2020](https://www.sparkfun.com/products/21537)
@@ -625,6 +642,7 @@ Sources:
 
 
 #### Step X: Breadboard the Class D Amplifier
+
 I purchased from Amazon the [Degraw DIY Speaker Kit][60].
 This kit contains a [Dual-Channel PAM8403 5 Volt Class D Digital Audio Stereo Amplifier][61] + two [4 Ohm 3 watt Speakers][62].
 This 30×22×16mm module can be powered by three AA batteries, or a USB Cell phone charger, or a rechargeable cell phone charge pack.
@@ -648,6 +666,7 @@ The description of this item makes it seem like it will work with a 3v3 microcon
 
 
 #### Step X: Breadboard the Microphone and Amplifier
+
 Next lets make sure we can get the I2S microphone and [class D amplifier][32] working together nicely.
 Generally we
 
@@ -663,11 +682,11 @@ Sources:
 Sources:
 
 * [I2S Audio general](https://www.youtube.com/playlist?list=PLpyo4J4M9YqJLh0B8YXNB0zza0uWIeguO)
-    * [ESP32 – Intro to I2S Part 1](https://www.xtronical.com/i2s-ep1/)
-    * [I2S on ESP3 – Part 2, WAV’s](https://www.xtronical.com/i2s-ep2/)
-    * [ESP32 I2S Part 3 – Playing Wavs from SD Cards](https://www.xtronical.com/i2s-ep3/)
-    * [I2S Player (Part 4) : Adding volume control](https://www.xtronical.com/i2s_ep4/)
-    * [Writing your own ESP32 I2S WAV Player – Part 5 – Mixing sounds](https://www.xtronical.com/i2s_ep5/)
+  * [ESP32 – Intro to I2S Part 1](https://www.xtronical.com/i2s-ep1/)
+  * [I2S on ESP3 – Part 2, WAV’s](https://www.xtronical.com/i2s-ep2/)
+  * [ESP32 I2S Part 3 – Playing Wavs from SD Cards](https://www.xtronical.com/i2s-ep3/)
+  * [I2S Player (Part 4) : Adding volume control](https://www.xtronical.com/i2s_ep4/)
+  * [Writing your own ESP32 I2S WAV Player – Part 5 – Mixing sounds](https://www.xtronical.com/i2s_ep5/)
 * [ESP32 Sound - Working with I2S](https://www.youtube.com/watch?v=m-MPBjScNRk)
 * [ESP32 Audio Input Using I2S and Internal ADC](https://www.youtube.com/watch?v=pPh3_ciEmzs&list=PL5vDt5AALlRfGVUv2x7riDMIOX34udtKD&index=16)
 * [Sound with ESP32 – I2S Protocol](https://dronebotworkshop.com/esp32-i2s/)
@@ -721,6 +740,7 @@ Sources:
 
 
 # Raspberry Pi Zero Walkie-Talkie
+
 The TalkiPi project is a headless mumble client for the Raspberry Pi,
 utilizing static config and GPIO for status LEDs and a button for push to talk
 
@@ -750,17 +770,18 @@ Setup instructions:
 
 
 # ESP32 Walkie-Talkie Using Mumble Server
+
 The idea is to extend the walkie-talkie's coverage to the enire Internet
 
 * [mumble-client · GitHub Topics](https://github.com/topics/mumble-client)
-    * [mumlib - simple Mumble client library](https://github.com/slomkowski/mumlib)
-    * [mumble-client](https://github.com/tf2pickup-org/mumble-client)
-    * [MumbleChannelESP](https://github.com/revilo196/MumbleChannelESP)
-    * [libmumble_client](https://github.com/janhenke/libmumble_client)
-    * [mumlib2 - simple Mumble client library](https://github.com/Mixaill/mumlib2)
+  * [mumlib - simple Mumble client library](https://github.com/slomkowski/mumlib)
+  * [mumble-client](https://github.com/tf2pickup-org/mumble-client)
+  * [MumbleChannelESP](https://github.com/revilo196/MumbleChannelESP)
+  * [libmumble_client](https://github.com/janhenke/libmumble_client)
+  * [mumlib2 - simple Mumble client library](https://github.com/Mixaill/mumlib2)
 * Mumble as an Intercom
-    * [Hearing Dinnercall While Gaming in the Basement (Raspberry Pi Home Intercom)](https://www.youtube.com/watch?v=zKLotxUrmRc)
-    * [Plumble - Mumble VOIP](https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient)
+  * [Hearing Dinnercall While Gaming in the Basement (Raspberry Pi Home Intercom)](https://www.youtube.com/watch?v=zKLotxUrmRc)
+  * [Plumble - Mumble VOIP](https://play.google.com/store/apps/details?id=com.morlunk.mumbleclient)
 
 
 ---------------
@@ -770,9 +791,9 @@ The idea is to extend the walkie-talkie's coverage to the enire Internet
 
 * [ESP32-S3 board features 2.8-inch display, Blackberry-like keyboard, and optional LoRaWAN connectivity](https://www.cnx-software.com/2023/06/30/esp32-s3-board-features-2-8-inch-display-blackberry-like-keyboard-lorawan/)
 * [LILYGO T-Deck Plus is a $70 handheld with GPS, LoRa, and a BlackBerry keyboard](https://liliputing.com/lilygo-t-deck-plus-is-a-70-handheld-with-gps-lora-and-a-blackberry-keyboard/)
-    * [LILYGO® T-Deck ESP32-S3 LoRa Module 2.8 inch LCD Development Board LoRaWAN Long Range 433MHz 868MHz 915MHz With WIFI Bluetooth](https://www.aliexpress.us/item/3256805505920840.html?aff_fcid=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&tt=CPS_NORMAL&aff_fsk=_Dd8eYNx&aff_platform=shareComponent-detail&sk=_Dd8eYNx&aff_trace_key=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&terminal_id=68305b5097854f1caa43b9878a24fa29&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt)
-    * [LilyGO T-Deck](https://github.com/Xinyuan-LilyGO/T-Deck/tree/master)
-    * [Lilygo TDeck Meshtastic Build - Battery, GPS, LoRa Antenna, 3D Printed Case](https://www.youtube.com/watch?v=2PB-nGgZSpQ)
+  * [LILYGO® T-Deck ESP32-S3 LoRa Module 2.8 inch LCD Development Board LoRaWAN Long Range 433MHz 868MHz 915MHz With WIFI Bluetooth](https://www.aliexpress.us/item/3256805505920840.html?aff_fcid=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&tt=CPS_NORMAL&aff_fsk=_Dd8eYNx&aff_platform=shareComponent-detail&sk=_Dd8eYNx&aff_trace_key=e658ccdc09654a24bb28026bcae6fe58-1688225477037-09206-_Dd8eYNx&terminal_id=68305b5097854f1caa43b9878a24fa29&afSmartRedirect=y&gatewayAdapt=glo2usa4itemAdapt)
+  * [LilyGO T-Deck](https://github.com/Xinyuan-LilyGO/T-Deck/tree/master)
+  * [Lilygo TDeck Meshtastic Build - Battery, GPS, LoRa Antenna, 3D Printed Case](https://www.youtube.com/watch?v=2PB-nGgZSpQ)
 
 
 
@@ -805,6 +826,7 @@ The idea is to extend the walkie-talkie's coverage to the enire Internet
 
 
 # Mumble
+
 This voice-over-internet protocol (VoIP) application available on Android, iOS, macOS, Windows and Linux.
 Mumble is considered among the best voice chat applications for gamers.
 Its a free and open-source platform with end-to-end encryption to protect the data across the servers.
@@ -824,6 +846,7 @@ Free Mumble Server (iMumble): <https://www.imumble.nl/>
 
 
 ## Mumble Server
+
 The `mumble` server is named `murmur`.
 
 

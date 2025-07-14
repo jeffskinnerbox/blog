@@ -15,25 +15,28 @@ Version:      0.0.0
 
 * [Differences between Iperf and SpeedTest](https://netbeez.net/blog/differences-between-iperf-and-speedtest/)
 * [7 Common Network Latency Culprits](https://www.networkcomputing.com/networking/7-common-network-latency-culprits/851316634)
- * [3 handy command-line internet speed tests](https://opensource.com/article/20/1/internet-speed-tests)
+* [3 handy command-line internet speed tests](https://opensource.com/article/20/1/internet-speed-tests)
 
 # LAN Test
-* https://www.linode.com/docs/networking/diagnostics/install-iperf-to-diagnose-network-speed-in-linux
-* https://linuxaria.com/article/tool-command-line-bandwidth-linux
-* https://www.linux.com/learn/five-funny-little-linux-network-testers-and-monitors
-* https://lifehacker.com/how-to-test-your-internet-speed-with-a-terminal-command-1364123567
-* http://deice.daug.net/netcat_speed.html
 
- # Internet Test
-* http://openspeedtest.com/
-* speedtest-cli - https://github.com/sivel/speedtest-cli
-* https://github.com/ddsol/speedtest.net
-* https://www.broadbandmap.gov/internet-service-providers/lessburg-va/lat=39.1156615/long=-77.5636015/
-* https://github.com/sanderjo/fast.com
-* https://github.com/sindresorhus/fast-cli
-* https://github.com/sanderjo/fast.com
+* <https://www.linode.com/docs/networking/diagnostics/install-iperf-to-diagnose-network-speed-in-linux>
+* <https://linuxaria.com/article/tool-command-line-bandwidth-linux>
+* <https://www.linux.com/learn/five-funny-little-linux-network-testers-and-monitors>
+* <https://lifehacker.com/how-to-test-your-internet-speed-with-a-terminal-command-1364123567>
+* <http://deice.daug.net/netcat_speed.html>
+
+# Internet Test
+
+* <http://openspeedtest.com/>
+* speedtest-cli - <https://github.com/sivel/speedtest-cli>
+* <https://github.com/ddsol/speedtest.net>
+* <https://www.broadbandmap.gov/internet-service-providers/lessburg-va/lat=39.1156615/long=-77.5636015/>
+* <https://github.com/sanderjo/fast.com>
+* <https://github.com/sindresorhus/fast-cli>
+* <https://github.com/sanderjo/fast.com>
 
 # Linux Performance
+
 * [Linux Performance Analysis in 60,000 Milliseconds](https://medium.com/netflix-techblog/linux-performance-analysis-in-60-000-milliseconds-accc10403c55)
 * [Linux Performance](http://www.brendangregg.com/linuxperf.html)
 * [CPU utilization is wrong](https://opensource.com/article/18/4/cpu-utilization-wrong)
@@ -41,6 +44,7 @@ Version:      0.0.0
 * [Netflix FlameScope](https://medium.com/netflix-techblog/netflix-flamescope-a57ca19d47bb)
 
 # What Is Throughput in Networking?
+
 * [What Is Throughput in Networking?](https://www.dnsstuff.com/network-throughput-bandwidth)
 
 
@@ -57,7 +61,7 @@ I wasn't sure of the problem was the limited bandwidth of the Raspberry Pi
 (As stated [here][03] and what I have measured,
 the Raspberry Pi has a 10/100 Mbps interface, with maximum traffic throughput of about 95 Mbps.)
 
-* Caveats of Traditional Network Tools – Part II: Iperf - https://blog.thousandeyes.com/caveats-of-traditional-network-tools-iperf/
+* Caveats of Traditional Network Tools – Part II: Iperf - <https://blog.thousandeyes.com/caveats-of-traditional-network-tools-iperf/>
 * [Install iPerf to Diagnose Network Speed in Linux](https://linode.com/docs/networking/diagnostics/install-iperf-to-diagnose-network-speed-in-linux/)
 * [Troubleshooting Client Speed using iPerf](https://documentation.meraki.com/zGeneral_Administration/Tools_and_Troubleshooting/Troubleshooting_Client_Speed_using_iPerf)
 * [IPERF: How to test network Speed,Performance,Bandwidth](https://www.slashroot.in/iperf-how-test-network-speedperformancebandwidth)
@@ -65,6 +69,7 @@ the Raspberry Pi has a 10/100 Mbps interface, with maximum traffic throughput of
 * [Video: iPerf3 Interoperability](https://www.youtube.com/watch?v=_K6uUOZwr40)
 
 # Measure Networked File Transfer Speed
+
 We can combine `nc` and `dd` to measure networked file transfer speeds.
 To do this, on the server machine, we again run `netcat` in “listen” mode,
 and on the client machine we use `dd` to pipe n bytes of zeroes over the connection:
@@ -83,6 +88,7 @@ The `-vv` argument to `nc` tells it to produce verbose output.
 * [Two Power Commands for Unix Ninjas](https://levelup.gitconnected.com/two-overlooked-commands-for-unix-ninjas-55b8bfc4dc84)
 
 # Network Performance Testing with wget
+
 If you want to test throughout and packet loss,
 iPerf or iPerf3 are the way to go since those tools run in memory.
 But if you want to measure the true performance of a web server,
@@ -92,6 +98,7 @@ In this case, you need to download a file from the server.
 * [Free Network Performance Test Tool: Wget](https://www.networkcomputing.com/networking/free-network-performance-test-tool-wget/863281230)
 
 # iPerf
+
 [iPerf][01] is a command-line tool used in the diagnostics of network speed issues.
 iPerf measures the maximum network throughput a server can handle.
 It is particularly useful when experiencing network speed issues,
@@ -114,6 +121,7 @@ The quality of a link can be tested as follows:
 Install iPerf via `sudo apt install iperf`.
 
 ## iPerf Usage Examples
+
 * **iperf -s** - runs iperf in the server mode.
 * **iperf -s -D** - runs iperf in the server mode as a continuously running daemon.
 * **iperf -c 10.1.1.1** - runs iperf in the client mode, where the server’s IP address is 10.1.1.1 (by default, only the bandwidth from the client to the server is measured).
@@ -130,6 +138,7 @@ Great reference manual that describes how to use these switches
 can be found at the [iPerf project site][01] and on the [iPerf man page][02].
 
 # Network Throughput Testing
+
 * **SpeedTest**: pushes traffic to an Internet server and measures latency,
 and upload and download speed.
 * **Iperf**: pushes TCP or UDP traffic between two hosts under your management
@@ -138,7 +147,8 @@ and can measure bandwidth, jitter, and packet loss. Mostly used in WAN testing.
 * [Measuring Web Latency in the Browser](https://hackaday.com/2018/07/21/measuring-web-latency-in-the-browser/)
 
 ## Internet Bandwidth Testing
-* speedtest-cli - https://github.com/sivel/speedtest-cli
+
+* speedtest-cli - <https://github.com/sivel/speedtest-cli>
 
 Install `speedtest-cli`:
 
@@ -197,6 +207,7 @@ $ speedtest-cli --json | python -m json.tool
 ```
 
 ## General Bandwidth Testing
+
 We want to measure the network perfromance from the `iperf` client to the `iperf` server.
 The fist thing you might want are the host names or IP address of the systems your
 performance testing.
@@ -261,11 +272,13 @@ This will start an `iperf` client:
 * **--time 30** - time in seconds to transmit for (default 10 secs)
 
 ## One-Way Ping (OWAMP)
+
 * [One-Way Ping (OWAMP)](http://software.internet2.edu/owamp/)
 
 ## Jitter & Packet Loss
 
 ## Permanently Running iPref
+
 You can set up an iPerf server to run permanently on a host
 (running as a deamon via `iperf -s -D`)
 and then target that host to get iPerf measurements from several locations.
@@ -276,6 +289,7 @@ the iPerf server wouldn’t respond and error messages appeared on the iPerf cli
 [How to Fix Bugs on a Permanent iPerf Server](https://netbeez.net/blog/fix-iperf-bug/)
 
 # PerfSonar
+
 * [How to test your network with PerfSONAR](https://opensource.com/article/18/11/how-test-your-network-perfsonar)
 
 

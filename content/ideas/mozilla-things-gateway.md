@@ -15,12 +15,14 @@ Version:      0.0.0
 
 
 ################################################################################
+
 * [Mozilla adds a voice assistant to its Things Gateway](https://www.gearbrain.com/mozilla-things-gateway-smart-assistant-2591942459.html)
 * [Mozilla launches home IoT platform designed for Raspberry Pi](https://futurefive.co.nz/story/mozilla-launches-home-iot-platform-designed-for-raspberry-pi)
 * [Mozilla WebThings Raspberry Pi home IoT platform launched](https://www.geeky-gadgets.com/mozilla-webthings-30-04-2019/)
 ################################################################################
 
 # Internet of Things (IoT)
+
 Many IoT devices today use proprietary vertical technology stacks,
 built around a cloud-based central point of control.
 Points of integration between these stacks are done per-vendor.
@@ -30,6 +32,7 @@ but the landscape is extremely complex and there’s still not yet a single domi
 ![iot-stack](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2017/06/iot_vertical_stacks.png)
 
 ## IoT Integration Pattern
+
 * **Direct Integration Pattern -**
 The simplest pattern is the direct integration pattern where a device exposes a API directly to the Internet.
 This is useful for relatively high powered devices which can support TCP/IP and HTTP
@@ -53,6 +56,7 @@ a wide geographic area which need to be centrally coordinated (e.g. LinkLabs Tra
 ![integration-patterns](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2017/06/wot_integration_patterns.png)
 
 # The Web of Things
+
 The Internet and the World Wide Web (WWW) are built on open standards which are decentralized by design,
 allowing anyone to connect to the Internet without the need for a central point of control.
 The “Internet of Things” (IoT) is a term to describe how physical objects are being connected
@@ -113,6 +117,7 @@ WoT is like what the World Wide Web was to the Internet.
 ![wot-stack](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2017/06/wot_horizontal_layers.png)
 
 # Project Things by Mozilla
+
 Companies like Apple, Google, Amazon and Samsung have all been working hard
 to create their own standard to control all the connected devices around your home.
 [Mozilla wants to create an open standard][08] with the W3C around the Web of Things.
@@ -149,6 +154,7 @@ REST + WebSockets Web Thing API, and [features][10] like rules engines, mock dev
 device protocal extentions, etc.
 
 ## Mozilla’s Things Gateway
+
 Mozilla have made available a [software to build a Things Gateway][06] using a Raspberry Pi.
 Its an early prototype so that people can get their hands on the source code
 (JavaScript with a NodeJS web server)
@@ -181,6 +187,7 @@ Some terminology:
 :   A Property is an individual property of a device, such as its on/off state, its energy usage, or its color.
 
 ## Installing Things Gateway
+
 To install the Mozilla Things Gateway,
 I basically followed the instruction on its [GitHub README.md file][18],
 but there will be gaps and challeges.
@@ -194,6 +201,7 @@ Key source materials I used are:
 * [Mozilla IoT Wiki](https://github.com/mozilla-iot/wiki/wiki)
 
 ### Step 1: Install Node.js and Other Dependencies - DONE
+
 Mozilla's Things Gateway uses Git/GitHub and is built with Node.js
 and the versioning of Node should be managed via `nvm`.
 Use `nvm` to install Long Term Support (LTS) version of node
@@ -243,6 +251,7 @@ sudo dpkg -i *openzwave*.deb
 Also see the utility `/home/pi/src/gateway/tools/compile-openzwave.sh`.
 
 ### Step 2: Download and Build Gateway - DONE
+
 Now lets install the and build the Mozilla Things Gateway:
 
 ```bash
@@ -256,6 +265,7 @@ yarn
 ```
 
 ### Step 3: Add SSL Certificate - DONE
+
 If you don't plan on using Mozilla's provided tunneling service to set up a `*.mozilla-iot.org domain`,
 you can use your own SSL certificate.
 The HTTPS server looks for `privatekey.pem` and `certificate.pem`.
@@ -269,8 +279,8 @@ cd ~/src/gateway
 
 This will allow you to access the gateway from your LAN but not the Internet.
 To access the gateway somewhere other than your LAN .............
-See https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/
-and https://letsencrypt.org/
+See <https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/>
+and <https://letsencrypt.org/>
 Could there be some utitilities in /home/pi/src/gateway/tools
 
 ### Step X: Starting Things Gateway
@@ -335,6 +345,7 @@ WARNING in ./src/addon-manager.js
 ```
 
 ### Step X: First Login to the Gateway
+
 If your using a browser running on the Raspberry Pi,
 enter `https://localhost:4443`, but generally,
 use the host name or IP address (e.g. `https://SynSen:4443`) since
@@ -391,12 +402,16 @@ certutil -D -d sql:$HOME/.pki/nssdb -n <name of certificate>
 certutil -d sql$HOME/.pki/nssdb -L
 ```
 
-### Step X:
-### Step X:
+### Step X
+
+### Step X
+
 ### Step X: Creating an Add-on for the Project Things Gateway
+
 [Creating an Add-on for the Project Things Gateway](https://hacks.mozilla.org/2018/02/creating-an-add-on-for-the-project-things-gateway/)
 
 ### Step X: Mozilla Thing Gateway’s Web Interface
+
 The Mozilla Thing Gateway’s web interface is a [Progressive Web App](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/)
 
 there is a Virtual Things add-on which allows you to experiment with different types of web things without needing to buy any real hardware. Click the “+” button at the bottom right of the screen to see a list of available add-ons.

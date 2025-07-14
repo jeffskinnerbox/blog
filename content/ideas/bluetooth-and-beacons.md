@@ -21,8 +21,8 @@ Version:      0.0.0
 
 
 View these
-Introduction to Bluetooth low energy and Bluetooth low energy development (video tutorial) - https://devzone.nordicsemi.com/tutorials/37/
-Tutorials - https://devzone.nordicsemi.com/tutorials/
+Introduction to Bluetooth low energy and Bluetooth low energy development (video tutorial) - <https://devzone.nordicsemi.com/tutorials/37/>
+Tutorials - <https://devzone.nordicsemi.com/tutorials/>
 
 * [Bluetooth Commands](http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/bluetooth/bluetooth-commands)
 * [Bluetooth Devices Can Now Be Controlled From The Web Through Node.js](https://arc.applause.com/2016/02/12/bluetooth-gateway-navible-node-js/)
@@ -43,11 +43,12 @@ Tutorials - https://devzone.nordicsemi.com/tutorials/
 
 
 Need to define BR/EDR some place
+
 * Bluetooth Basic Rate/Enhanced Data Rate (BR/EDR) -  is typically used for relatively short-range, continuous wireless connection such as streaming audio to headsets.
 * Bluetooth low energy (LE) - is designed to use short bursts of longer-range radio connection, making it ideal for Internet of Things (IoT) applications that don’t require continuous connection. These apps can often run on just one coin cell and still have a relatively long battery life.
-* https://electronics.stackexchange.com/questions/258836/bluetooth-dual-mode-br-edr-le
-* https://engineering.stackexchange.com/questions/12311/what-is-the-difference-between-bluetooth-low-energy-and-bluetooth-br-edr-in-park
-* http://www.skylabmodule.com/what-is-the-difference-between-bluetooth-br-edr-and-bluetooth-smart/
+* <https://electronics.stackexchange.com/questions/258836/bluetooth-dual-mode-br-edr-le>
+* <https://engineering.stackexchange.com/questions/12311/what-is-the-difference-between-bluetooth-low-energy-and-bluetooth-br-edr-in-park>
+* <http://www.skylabmodule.com/what-is-the-difference-between-bluetooth-br-edr-and-bluetooth-smart/>
 
 
 ###########################################################
@@ -60,28 +61,28 @@ but inevitably, your going to need additional sources to fully absorb the ins & 
 Bellow are some suggested documents and videos to study along with this write-up:
 
 * Initial reading list to get you grounded in Bluetooth concepts and capabilities:
-    * [Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
-    * [Why Bluetooth Smart is perfect for M2M: Part 1](https://www.ecnmag.com/blog/2014/12/why-bluetooth-smart-perfect-m2m)
-    * [How to use Bluetooth Smart in industrial lighting: Part 2](https://www.ecnmag.com/blog/2014/12/how-use-bluetooth-smart-industrial-lighting)
-    * [Connecting machinery to the IoT: Part 3](https://www.ecnmag.com/blog/2014/12/connecting-machinery-iot)
-    * [iBeacons Explained: 10 Things About iBeacons You Need to Know](https://www.youtube.com/watch?v=L44m7otNI7o&t=4s)
-    * [How you can replace wires with Bluetooth Smart: Part 4](https://www.ecnmag.com/blog/2014/12/how-you-can-replace-wires-bluetooth-smart)
-    * [Why Beacon is the next big thing in wireless: Part 5](https://www.ecnmag.com/blog/2014/12/why-beacon-next-big-thing-wireless)
-    * [The key to using Bluetooth Smart in asset tracking: Part 6](https://www.ecnmag.com/blog/2015/01/key-using-bluetooth-smart-asset-tracking)
+  * [Bluetooth Basics](https://learn.sparkfun.com/tutorials/bluetooth-basics/all)
+  * [Why Bluetooth Smart is perfect for M2M: Part 1](https://www.ecnmag.com/blog/2014/12/why-bluetooth-smart-perfect-m2m)
+  * [How to use Bluetooth Smart in industrial lighting: Part 2](https://www.ecnmag.com/blog/2014/12/how-use-bluetooth-smart-industrial-lighting)
+  * [Connecting machinery to the IoT: Part 3](https://www.ecnmag.com/blog/2014/12/connecting-machinery-iot)
+  * [iBeacons Explained: 10 Things About iBeacons You Need to Know](https://www.youtube.com/watch?v=L44m7otNI7o&t=4s)
+  * [How you can replace wires with Bluetooth Smart: Part 4](https://www.ecnmag.com/blog/2014/12/how-you-can-replace-wires-bluetooth-smart)
+  * [Why Beacon is the next big thing in wireless: Part 5](https://www.ecnmag.com/blog/2014/12/why-beacon-next-big-thing-wireless)
+  * [The key to using Bluetooth Smart in asset tracking: Part 6](https://www.ecnmag.com/blog/2015/01/key-using-bluetooth-smart-asset-tracking)
 * Some excellent technical level introduction to Bluetooth:
-    * [Introduction to Bluetooth Smart](https://www.csrsupport.com/download/49793/CS-327738-RP-2-Training%20and%20Tutorials%20-%20Introduction%20to%20Bluetooth%20Smart.pdf)
-    * [Bluetooth Training: Developer Resources](https://www.bluetooth.com/develop-with-bluetooth/developer-resources-tools/developer-training-videos)
-    * [Getting Started with Bluetooth Low Energy](https://www.youtube.com/watch?v=JpIooW_xHIU)
-    * [Advanced BLE System Design](https://tinkerer.us/qualifications/Cypress/Advanced_BLE_System_Design.pdf)
-    * [Introduction to Bluetooth low energy and Bluetooth low energy development (video tutorial)](https://devzone.nordicsemi.com/tutorials/37/)
-    * Raspberry Pi & Bluetooth LE with Tony D! @adafruit #LIVE
+  * [Introduction to Bluetooth Smart](https://www.csrsupport.com/download/49793/CS-327738-RP-2-Training%20and%20Tutorials%20-%20Introduction%20to%20Bluetooth%20Smart.pdf)
+  * [Bluetooth Training: Developer Resources](https://www.bluetooth.com/develop-with-bluetooth/developer-resources-tools/developer-training-videos)
+  * [Getting Started with Bluetooth Low Energy](https://www.youtube.com/watch?v=JpIooW_xHIU)
+  * [Advanced BLE System Design](https://tinkerer.us/qualifications/Cypress/Advanced_BLE_System_Design.pdf)
+  * [Introduction to Bluetooth low energy and Bluetooth low energy development (video tutorial)](https://devzone.nordicsemi.com/tutorials/37/)
+  * Raspberry Pi & Bluetooth LE with Tony D! @adafruit #LIVE
 [Part 1](https://www.youtube.com/watch?v=5fQR2PHMDWE),
 [Part 2](https://www.youtube.com/watch?v=sP0MjQDv2N4),
 [Part 3](https://www.youtube.com/watch?v=wKZaYKavJsQ)
-    * Application Oriented Introduction to Bluetooth Low Energy:
+  * Application Oriented Introduction to Bluetooth Low Energy:
 [Part 1](https://devzone.nordicsemi.com/tutorials/37/),
 [Part 2](https://devzone.nordicsemi.com/tutorials/37/).
-    * BLE v4.2: Creating Faster, More Secure, Power-Efficient Designs
+  * BLE v4.2: Creating Faster, More Secure, Power-Efficient Designs
 [Part 1](http://www.electronicdesign.com/communications/ble-v42-creating-faster-more-secure-power-efficient-designs-part-1),
 [Part 2](http://www.electronicdesign.com/communications/ble-v42-creating-faster-more-secure-power-efficient-designs-part-2),
 [Part 3](http://www.electronicdesign.com/communications/ble-v42-creating-faster-more-secure-power-efficient-designs-part-3),
@@ -89,6 +90,7 @@ Bellow are some suggested documents and videos to study along with this write-up
 [Part 5](http://www.electronicdesign.com/communications/ble-v42-creating-faster-more-secure-power-efficient-designs-part-5)
 
 # What is Bluetooth
+
 [!bluetooth-logo](http://cdn.makeuseof.com/wp-content/uploads/2015/06/bluetooth-combo-wordmark-640x300.png?x59455)
 It seems like where ever you turn some new product features Bluetooth technology,
 but what does that mean?
@@ -151,6 +153,7 @@ Remember Bluetooth shares the 2.4-GHz ISM band with Wi-Fi, ZigBee, and a bunch o
 so there’s a greater likelihood for interference. The new features detect and prevent interference at the band edges.
 
 ## Bluetooth Networking
+
 Bluetooth is more that just a radio.
 
 * Piconet: up to 7 devices can be actively connected to a master station
@@ -170,6 +173,7 @@ it appears that scatternet's have been mainly a research topic with few,
 if any, real world implementations.
 
 ## Bluetooth Protocols
+
 In many ways, the word "Bluetooth" is like the word "Internet"
 because it encompasses a wide range of subjects.
 Like the Internet's Ethernet or WiFi,
@@ -189,6 +193,7 @@ gives an overview of the core protocols and those adopted protocols that are wid
 is a low tech explanation of some protocols used to support popular use cases.
 
 ## Connecting, Paring, and Bonding
+
 It is important to understanding how connecting, pairing, and bonding are related in Bluetooth LE:
 
 * **Connecting** is the act of establishing a communication link.
@@ -218,6 +223,7 @@ To better understand this, [read this article][83] and [this][84].
 Also read the "Bluetooth Security / Privacy" section below.
 
 ## Connection Process
+
 Creating a Bluetooth connection between two devices involves three progressive states:
 
 1. **Inquiry** – If two Bluetooth devices know absolutely nothing about each other,
@@ -237,6 +243,7 @@ it can be put into a low power sleep mode.
     * **Park Mode** – Park is the deepest of sleep modes. A master can command a slave to “park”, and that slave will become inactive until the master tells it to wake back up.
 
 ## Pairing Bluetooth Devices with NFC
+
 Pairing sounds fairly simple, but the devil’s in the details.
 It takes time to discover devices.
 The device names are usually quite difficult to interpret
@@ -261,6 +268,7 @@ to produce an application document titled
 [NFC Forum Bluetooth Secure Simple Pairing Using NFC (NFCForum-AD-BTSSP_1_1)][47].
 
 ## Bluetooth Adaptor vs Device
+
 A Bluetooth Device Address (`BD_ADDR`)
 is a globally unique value assigned to each Bluetooth adapter by the manufacturer.
 The `BD_ADDR` is what popularly known as a static address,
@@ -270,10 +278,11 @@ and give that its unique, this keeps piconets from interfering with each other.
 
 The MAC address is created as per the IEEE 802-2001 standards.
 
-* http://bnap.opensecurityresearch.com/readme.html
-* https://macaddresschanger.com/what-is-bluetooth-address-BD_ADDR
+* <http://bnap.opensecurityresearch.com/readme.html>
+* <https://macaddresschanger.com/what-is-bluetooth-address-BD_ADDR>
 
 ## Bluetooth Power Classes
+
 The transmit power, and therefore range,
 of a Bluetooth module is defined by its power class.
 There are three defined classes of power,
@@ -288,9 +297,10 @@ while others can vary their transmit power.
 
 Bluetooth defines three main power classes used by the devices. Power control is used to keep the radiation within the limit so that system works efficiently without interfering with the neighbour bluetooth devices. The power control algorithm is designed between master and slave devices using link management protocol.
 
-* http://bluetoothinsight.blogspot.com/2008/01/bluetooth-power-classes.html
+* <http://bluetoothinsight.blogspot.com/2008/01/bluetooth-power-classes.html>
 
 ## BLE Modes of Operation
+
 There are three main software levels in the architecture of a BLE device:
 
 * **Application:** the application interfacing with the stack and implementing the specific user applications
@@ -317,6 +327,7 @@ Once a connection is established, the end device (the embedded device)
 can turn off the radio leading to a lower power consumption.
 
 ## Bluetooth Profiles
+
 Bluetooth [profiles][28] are additional protocols that build upon the basic Bluetooth
 standard to more clearly define what kind of data a Bluetooth module is transmitting.
 While Bluetooth specifications define how the technology *works*, profiles define how it’s *used*.
@@ -324,8 +335,8 @@ The Bluetotoh profiles can be characterized as:
 
 * **Generic profiles:** these are the generic profiles defined by the Bluetooth spec.
 They lay out the fundamentals for all BLE devices.
-    * GATT (Generic Attribute Profile): a basic data model that allows devices to discover, write, and read elements.
-    * GAP (Generic Access Profile): layer responsible for managing connections, advertisements, discovery and security features.
+  * GATT (Generic Attribute Profile): a basic data model that allows devices to discover, write, and read elements.
+  * GAP (Generic Access Profile): layer responsible for managing connections, advertisements, discovery and security features.
 * **Use-case profiles:** these are adopted by the Bluetooth SIG and defining common behavior
 to make implementation simple for specific use-cases.
 Examples: Glucose profile, Heart Rate Monitor profile, Proximity profile.
@@ -413,6 +424,7 @@ makes your Bluetooth enabled mice and keyboards work effortlessly.
 allows you to send images between devices (other phones, printers, even picture frames).
 
 ### GAP Address Types
+
 * **Public address** -
 This is a global, fixed address.
 It must be registered with the IEEE Registration Authority
@@ -430,13 +442,15 @@ can actually resolve that address, allowing them to identify the device.
 * **Private Non-Resolvable address** -
 Not very commonly used, a random number that you can change anytime.
 
-* https://devzone.nordicsemi.com/question/43670/how-to-distinguish-between-random-and-public-gap-addresses/
+* <https://devzone.nordicsemi.com/question/43670/how-to-distinguish-between-random-and-public-gap-addresses/>
 
 ## Sniffing Mode
+
 * [A Crash Course On Sniffing Bluetooth Low Energy](https://hackaday.com/2021/03/23/a-crash-course-on-sniffing-bluetooth-low-energy/)
 * [Troubleshooting Tools for Your Next Bluetooth LE Project: Ubertooth and the Nordic nRF Sniffer](https://www.allaboutcircuits.com/projects/troubleshooting-tools-bluetooth-LE-project-ubertooth-Nordic-nRF-sniffer)
 
 ## Bluetooth Security / Privacy
+
 In the 4.0, 4.1, and 4.2 Bluetooth specifications,
 noumorious security impovements were introduced.
 So, can Bluetooth be called secured.
@@ -460,13 +474,14 @@ check out the following articles:
 * [Security Considerations For Bluetooth Smart Devices](https://www.design-reuse.com/articles/39779/security-considerations-for-bluetooth-smart-devices.html)
 * [Bluetooth Low Energy Swiss-army knife](https://hackaday.com/2019/08/10/new-bluetooth-5-channel-hopping-reverse-engineered-for-jamming-and-hijacking/)
 
-* https://www.sans.org/reading-room/whitepapers/wireless/bluetooth-inherent-security-issues-945
-* http://www.lawtechnologytoday.org/2016/05/bluetooth-how-secure-is-it/
-* http://electronics.howstuffworks.com/bluetooth4.htm
-* http://www.radio-electronics.com/info/wireless/bluetooth/security.php
-* How to distinguish between random and public GAP addresses? - https://devzone.nordicsemi.com/question/43670/how-to-distinguish-between-random-and-public-gap-addresses/
+* <https://www.sans.org/reading-room/whitepapers/wireless/bluetooth-inherent-security-issues-945>
+* <http://www.lawtechnologytoday.org/2016/05/bluetooth-how-secure-is-it/>
+* <http://electronics.howstuffworks.com/bluetooth4.htm>
+* <http://www.radio-electronics.com/info/wireless/bluetooth/security.php>
+* How to distinguish between random and public GAP addresses? - <https://devzone.nordicsemi.com/question/43670/how-to-distinguish-between-random-and-public-gap-addresses/>
 
 ### Privacy
+
 At time, Bluetooth devices must advertise their MAC address
 but this can be used to track individual devices.
 To safeguard user privacy,
@@ -484,9 +499,11 @@ random MAC addresses which appear in the advertising packets from the second dev
 to the real MAC address in the second device.
 
 ### Data Signing
-* http://www.electronicdesign.com/communications/ble-v42-creating-faster-more-secure-power-efficient-designs-part-4
+
+* <http://www.electronicdesign.com/communications/ble-v42-creating-faster-more-secure-power-efficient-designs-part-4>
 
 ### White List
+
 BLE devices have the option of using a “White List” or Trusted Device Database (TDD)
 to limit communication access to the local device and lower overall power consumption.
 The White List is essentially a list of remote devices
@@ -496,6 +513,7 @@ connection requests, scan requests, and advertising packets as designated by the
 The whitelist can contain static MAC addresses and/or IRKs.
 
 ## Alternative to Bluetooth
+
 [WiFi Direct][46] is the chief competitor to Bluetooth.
 With WiFi Direct, you can now establish a direct,
 peer-to-peer wireless connection without the assistance of a router
@@ -528,6 +546,7 @@ but for single device-to-device connectivity it’s very comparable.
 
 
 ## Bluetooth Compatibility
+
 Bluetooth Low Energy was made part of the Bluetooth 4.0 specification back in 2010.
 But it originated in 2006 in Nokia as [Wibree][66],
 and is a different set of protocols than “classic” Bluetooth,
@@ -567,6 +586,7 @@ Bluetooth Smart accessories only work with Bluetooth Smart Ready smartphones,
 tablets and laptops.
 
 ## Classic Bluetooth (BR/EDR)
+
 There are essentially two strains of Bluetooth,
 the older legacy or classic strain that encompasses versions 1.0 through 3.0
 intended for continuous communications.
@@ -581,14 +601,14 @@ and uses a point-to-point device communications.
 Bluetooth BR/EDR audio streaming is ideal for wireless speakers, headsets and hands-free in-car systems.
 * **Bluetooth LE** enables short-burst wireless connections
 and uses multiple network topologies, including point-to-point, broadcast and mesh.
-    * **Point-to-point** is a network topology used to create one-to-one device communications.
+  * **Point-to-point** is a network topology used to create one-to-one device communications.
     Bluetooth LE P2P topology is ideal for data transfers and well suited for connected device products,
     such as fitness trackers and health monitors.
-    * **Broadcast** is a network topology that establishes one-to-many device communications.
+  * **Broadcast** is a network topology that establishes one-to-many device communications.
     Bluetooth LE broadcast topology optimizes localized information sharing,
     making it ideal for beacon solutions, such as point-of-interest information
     and item and way-finding services.
-    * **Mesh** is a network topology for many-to-many device communications.
+  * **Mesh** is a network topology for many-to-many device communications.
     Bluetooth LE mesh topology creates large-scale device networks tailor-made
     for building automation, sensor network, asset tracking
     and any solution where multiple devices need to reliably and securely communicate with one another.
@@ -611,7 +631,8 @@ the standard is optimized for long battery life
 (potentially, battery longevity increase by 5 to 10).
 
 ## Bluetooth Low Energy (BLE) / Bluetooth 4.0 / Bluetooth 4.2
-Bluetooth Low Energy (BLE), sometimes referred to as "Bluetooth Smart", is a light-weight subset of classic Bluetooth and was introduced as part of the Bluetooth 4.0 core specification. While there is some overlap with classic Bluetooth, BLE actually has a completely different lineage and was started by Nokia as an in-house project called 'Wibree' before being adopted by the Bluetooth SIG.  - https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction
+
+Bluetooth Low Energy (BLE), sometimes referred to as "Bluetooth Smart", is a light-weight subset of classic Bluetooth and was introduced as part of the Bluetooth 4.0 core specification. While there is some overlap with classic Bluetooth, BLE actually has a completely different lineage and was started by Nokia as an in-house project called 'Wibree' before being adopted by the Bluetooth SIG.  - <https://learn.adafruit.com/introduction-to-bluetooth-low-energy/introduction>
 
 Bluetooth 4, also known as Bluetooth Low Energy / Bluetooth LE / BLE / Bluetooth Smart,
 is the fourth version of the Bluetooth standard.
@@ -653,6 +674,7 @@ See [Mike Ryan's talk][18] on the subject (also [slides][19]).
 
 
 ## Difference Between Bluetooth Low Energy and Classic Bluetooth
+
 Classic Bluetooth & Bluetooth low energy - [what's the difference][31]?
 Also see this [video][30].
 The original Bluetooth, known as Bluetooth Classic, was designed as a short-range,
@@ -690,6 +712,7 @@ However, in Bluetooth low energy technology the number of slaves can be very lar
 how large depends on the implementation and available memory.
 
 ## Bluetooth 5
+
 Prior to Bluetooth 5, Bluetooth comes in two flavors: “Classic” and “Low Energy”.
 The former is the Bluetooth that enables our wireless keyboards and mice,
 along with wireless headsets and speakers.
@@ -766,6 +789,7 @@ To take an even deeper dive into Bluetooth 5, check out these references:
 * [Add Bluetooth 5 to Raspberry Pi 3 or create gadgets with this new chip](http://www.itworld.com/article/3172470/internet-of-things/add-bluetooth-5-to-raspberry-pi-3-or-create-gadgets-with-this-new-chip.html)
 
 ## Bluetooth Mesh
+
 The reason why Bluetooth Smart was never considered a serious contender for
 building automation purposes is because it was designed
 to support relatively simple hub-and-spoke networks.
@@ -792,15 +816,17 @@ To learn more about Bluetooth Mesh, check out the following:
 * [Bluetooth Mesh Developer Study Guide](https://blog.bluetooth.com/2018-top-5-developer-resources)
 
 Silicon Labs
-* https://sub.allaboutcircuits.com/white-papers/silicon-labs/Whitepaper_Bluetooth_Mesh_Technology.pdf
-* https://www.silabs.com/products/development-tools/software/bluetooth-low-energy/ble-mesh
-* https://www.silabs.com/products/wireless/bluetooth/bluetooth-mesh-introduction
-* https://www.silabs.com/products/development-tools/wireless/bluetooth/blue-gecko-bluetooth-low-energy-soc-starter-kit
-* https://www.silabs.com/products/development-tools/software/bluetooth-low-energy/mobile-apps/ble-mesh
-* https://www.silabs.com/products/wireless/learning-center/bluetooth/bluetooth-mesh
-* http://pages.silabs.com/BluetoothMesh.html?source=Event&detail=Webinar
+
+* <https://sub.allaboutcircuits.com/white-papers/silicon-labs/Whitepaper_Bluetooth_Mesh_Technology.pdf>
+* <https://www.silabs.com/products/development-tools/software/bluetooth-low-energy/ble-mesh>
+* <https://www.silabs.com/products/wireless/bluetooth/bluetooth-mesh-introduction>
+* <https://www.silabs.com/products/development-tools/wireless/bluetooth/blue-gecko-bluetooth-low-energy-soc-starter-kit>
+* <https://www.silabs.com/products/development-tools/software/bluetooth-low-energy/mobile-apps/ble-mesh>
+* <https://www.silabs.com/products/wireless/learning-center/bluetooth/bluetooth-mesh>
+* <http://pages.silabs.com/BluetoothMesh.html?source=Event&detail=Webinar>
 
 ### Estimote Mesh
+
 Estimote claims to have the first truly low-energy BLE mesh networking solution.
 
 **Estimote Proximity Beacons**
@@ -819,7 +845,7 @@ features: motion & temperature sensor, NFC
 * [Estimote LTE Beacons hit the market](https://appdevelopermagazine.com/estimote-lte-beacons-hit-the-market/)
 
 **Long Range Location Beacons**
-http://estimote.com/?gclid=CjwKEAjwhYLLBRDIjoCu0te4niASJAC0V4QPTjxonMHyLfHotmjcu32QrsWTfDSMMH4f3rl_xevcxBoCp1Xw_wcB
+<http://estimote.com/?gclid=CjwKEAjwhYLLBRDIjoCu0te4niASJAC0V4QPTjxonMHyLfHotmjcu32QrsWTfDSMMH4f3rl_xevcxBoCp1Xw_wcB>
 
 **Estimote Stickers**
 
@@ -832,12 +858,14 @@ The UWB Location Beacons support multi-packet advertising, mesh networking,
 have built-in sensors, and a range of 200m.
 
 [Cuseum](https://www.cuseum.com/)
+
 * [mobile engagement](https://www.cuseum.com/mobile-engagement/)
 supports curated tours, content management, perks and donations, notifications, indoor wayfinding.
 * [digital membership](http://membership.cuseum.com/)
 promotions & membership benefits, online purchasing, membership outreach
 
 ## Bluetooth Beacons
+
 BLE devices can operate in a non-connectable, [advertisement][70] only mode
 (where all the information is contained in the advertisement),
 but they can also allow connections (and usually do).
@@ -859,6 +887,7 @@ which provides more frame types (UUID, URL and telemetry).
 * [The Hitchhikers Guide to iBeacon Hardware: A Comprehensive Report by Aislelabs (2015)](http://www.aislelabs.com/reports/beacon-guide/)
 
 ### Apple iBeacon
+
 iBeacon has been around since 2013.
 Apple first announced the exciting new platform at the 2013 Worldwide Developers Conference,
 though its release went almost unnoticed in a number of ways.
@@ -882,6 +911,7 @@ When broadcasting iBeacon, an advertising packet consists of four main component
 * [iBeacon vs Eddystone – which is the better one for your business?](https://www.whatech.com/mobile-apps/blog/271289-ibeacon-vs-eddystone-which-is-the-better-one-for-your-business)
 
 ### Google Eddystone
+
 Eddystone is an open-source library built by Google as part of their
 Physical Web project for developers to leverage beacons in ways that
 make experiences more meaningful and substantial than a one-off application use.
@@ -951,6 +981,7 @@ but Eddystone have a great deal of untapped potential and will become a driving 
 * [DIY Google's "Physical Web" UriBeacons with the Bluefruit LE Friend](https://learn.adafruit.com/google-physical-web-uribeacon-with-the-bluefruit-le-friend/getting-started)
 
 ### AltBeacon
+
 Because there is no open and interoperable specification for proximity beacons,
 Radius Networks has authored the [AltBeacon][63]
 specification as a proposal for how to solve this problem.
@@ -966,6 +997,7 @@ iBeacons are closed source, Apple-branded, and widely used;
 AltBeacons are open source and provide more data fields to use, but few people use them yet.
 
 ### Differences Between iBeacon, Eddystone & AltBeacon
+
 [!edddystone-vs-physicalweb-ibeacon](https://s-media-cache-ak0.pinimg.com/564x/86/85/81/868581a34b99dca7267b753af596dfc7.jpg)
 The packet formats for each of these protocols is different.
 Which one to use, totally depends on the use case,
@@ -979,6 +1011,7 @@ because each protocol have their pros and cons.
 * [BLE beacons, Eddystone and Physical Web: an introduction](https://www.blueupbeacons.com/docs/WorkshopBeacons.pdf)
 
 ### Physical Web Beacons
+
 [!physical-web-logo](http://bkon.com/wp-content/uploads/2015/12/Physical-Web-Logo-Large-122915.png)
 [Google has launched][06] the concept of the [Physical Web][04] in [Chrome][04],
 on [Andriod phones][05],
@@ -1003,13 +1036,15 @@ Eddystone, iBeacon and Bluetooth certified
 * [The Physical Web](https://google.github.io/physical-web/)
 
 ### Google Beacon Platform
-* Google Beacon Platform - https://developers.google.com/beacons/
-* Code samples for Google's beacon platform - https://github.com/google/beacon-platform
-* Beacons 101-- Getting Started with the Google Beacon Platform - https://www.youtube.com/watch?v=0QeY9FueMow
 
-Beacon Tools lets you register your Bluetooth Low Energy (BLE) beacons with the Google Beacon Registry and create small attachments for them. - https://play.google.com/store/apps/details?id=com.google.android.apps.location.beacon.beacontools
+* Google Beacon Platform - <https://developers.google.com/beacons/>
+* Code samples for Google's beacon platform - <https://github.com/google/beacon-platform>
+* Beacons 101-- Getting Started with the Google Beacon Platform - <https://www.youtube.com/watch?v=0QeY9FueMow>
+
+Beacon Tools lets you register your Bluetooth Low Energy (BLE) beacons with the Google Beacon Registry and create small attachments for them. - <https://play.google.com/store/apps/details?id=com.google.android.apps.location.beacon.beacontools>
 
 ## Web Bluetooth
+
 Web Bluetooth is a specification for Bluetooth API to
 allow websites to communicate with BLE devices, using
 the Generic Attribute Profile (GATT), in a secure and
@@ -1044,27 +1079,31 @@ We use:
 
 
 ########################### BlueZ for Bluetooth Mesh ###########################
+
 * [How to Deploy BlueZ v5.48 on Raspberry Pi 3](https://blog.bluetooth.com/bluez-on-raspberry-pi)
 
 * [Using BlueZ v5.50 and the Raspberry Pi 4 Update to Create a Bluetooth Mesh Provisioner](https://www.bluetooth.com/blog/use-bluez-v5-50-andraspberry-pi-4-updateto-create-a-bluetoothmesh-provisioner/)
-    * [Deploying BlueZ v5.50 on Raspberry Pi, Part 1 - Deploying](https://www.bluetooth.com/bluetooth-resources/how-to-deploy-bluez-v5-49-on-raspberry-pi3-and-use-it-part-1/)
-    * [Deploying BlueZ v5.50 on Raspberry Pi 3, Part 2 — Provisioning](https://www.bluetooth.com/bluetooth-resources/how-to-deploy-bluez-v5-50-on-raspberry-pi-3-and-use-it-part-2-provisioning/)
+  * [Deploying BlueZ v5.50 on Raspberry Pi, Part 1 - Deploying](https://www.bluetooth.com/bluetooth-resources/how-to-deploy-bluez-v5-49-on-raspberry-pi3-and-use-it-part-1/)
+  * [Deploying BlueZ v5.50 on Raspberry Pi 3, Part 2 — Provisioning](https://www.bluetooth.com/bluetooth-resources/how-to-deploy-bluez-v5-50-on-raspberry-pi-3-and-use-it-part-2-provisioning/)
 ########################### BlueZ for Bluetooth Mesh ###########################
 
 ################################ Web Bluetooth #################################
+
 * [Intro to Web Bluetooth](https://www.bluetooth.com/bluetooth-resources/intro-to-web-bluetooth/)
 ################################ Web Bluetooth #################################
 
 # BLE iBeacon Scanning
+
 * [Use Node.js And A Raspberry Pi Zero W To Scan For BLE iBeacon Devices](https://www.youtube.com/watch?v=AFjYKEf7j2M)
 
 # Linux Bluetooth Tools
+
 BlueZ is an open source project and the official Linux Bluetooth protocol stack.
 
 * [How to setup bluetooth in Linux with bluez and hcitool](https://fixmynix.com/bluetooth-in-linux-with-bluez-and-hcitool/)
 * [Setup bluetooth in Linux part 2 – hcitool, bluez and rfcomm](https://fixmynix.com/bluetooth-linux-part-2/)
-* Low-level bluetooth utility - https://unix.stackexchange.com/questions/93625/low-level-bluetooth-utility
-* Using Bluetooth low energy in linux command line - https://stackoverflow.com/questions/17835469/using-bluetooth-low-energy-in-linux-command-line
+* Low-level bluetooth utility - <https://unix.stackexchange.com/questions/93625/low-level-bluetooth-utility>
+* Using Bluetooth low energy in linux command line - <https://stackoverflow.com/questions/17835469/using-bluetooth-low-energy-in-linux-command-line>
 * [rfkill](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Power_Management_Guide/RFKill.html)
 
 [Get started with BLE on Linux][79] requires understand several tools.
@@ -1077,6 +1116,7 @@ Also not that the Bluetooth version being used on the Raspberry Pi
 is Bluetooth 4.1 (use `hciconfig -a` to get this information).
 
 ## BlueZ - Linux Bluetooth Protocol Stack
+
 [BlueZ][34] is a Bluetooth stack for Linux kernel-based family of operating systems.
 Its goal is to program an implementation of the Bluetooth wireless standards specifications for Linux.
 It was initially developed by Qualcomm,
@@ -1108,12 +1148,13 @@ but I used the following as my guide:
 
 ############################################
 IMPORTANT - Do you need this???
+
 * [Controller AA:AA:AA:AA:AA:AA after updating Bluez](https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=178356)
 * [Update Bluez version PI 3](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=145364)
 * [Raspberry Pi 3 blues 5.42 installation script](https://gist.github.com/tongo/94338cebf4e6367d353439bca8d0a376)
 * [BCM43430 patches for BlueZ 5.43 (Raspbian Stretch)](https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=176348)
 * [Bluetooth problem encounted in Rasbian Jessie version July 2017](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=189871&p=1193566&hilit=BlueZ+5.46+Raspberry&sid=70ad8d4ecbd6b1f246c9da19d0aa9ce5#p1193566)
-* Do you need this patch - https://github.com/ukBaz/python-bluezero/issues/30#issuecomment-250594754
+* Do you need this patch - <https://github.com/ukBaz/python-bluezero/issues/30#issuecomment-250594754>
 
 $ /usr/bin/hciattach /dev/ttyAMA0 bcm43xx 921600 noflow -
 bcm43xx_init
@@ -1124,6 +1165,7 @@ Device setup complete
 
 
 ### Step X: Stop Legacy Bluez and Install Dependencies - DONE
+
 Raspberry Pi 3 comes with the BlueZ package installed but is typical old
 and many good features are missing.
 To get these latest features, you need to compile the latest source for BlueZ.
@@ -1137,11 +1179,11 @@ Version: 5.23-2+rpi2
 
 # bluetooth standard supported
 $ hciconfig -a hci0 version
-hci0:	Type: BR/EDR  Bus: UART
-	BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
-	HCI Version: 4.1 (0x7)  Revision: 0xb6
-	LMP Version: 4.1 (0x7)  Subversion: 0x2209
-	Manufacturer: Broadcom Corporation (15)
+hci0: Type: BR/EDR  Bus: UART
+ BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
+ HCI Version: 4.1 (0x7)  Revision: 0xb6
+ LMP Version: 4.1 (0x7)  Subversion: 0x2209
+ Manufacturer: Broadcom Corporation (15)
 
 # version of bluetooth agent
 $ bluetoothctl
@@ -1165,6 +1207,7 @@ sudo apt-get install libusb-dev libdbus-1-dev libglib2.0-dev libudev-dev libical
 ```
 
 ### Step X: Download BlueZ Source - DONE
+
 The most up to date Linux Bluetooth software will
 require your to build the package from source.
 
@@ -1180,6 +1223,7 @@ rm bluez-5.46.tar.xz
 ```
 
 ### Step X: Compile & Install BlueZ Source - DONE
+
 Now enter the BlueZ directory, configure the files,
 compile the source, and then install executables.
 For information about the options used by `./configure`,
@@ -1206,6 +1250,7 @@ sudo install -v -m644 src/main.conf /etc/bluetooth/main.conf
 ```
 
 ### Step X: Install BlueZ Deprecated gatttool Tool - DONE
+
 The BlueZ package comes with several deprecated tools,
 but if you set `configure` as shown above,
 These tools include the following:
@@ -1235,6 +1280,7 @@ sudo ln -svf ~/src/bluez-5.46/attrib/gatttool /usr/bin/
 ```
 
 ### Step X: Enable bluetoothd Daemon - DONE
+
 To enable BlueZ's experimental features,
 you need to modify the bluez service configuration
 where the daemon is identified for execution.
@@ -1315,15 +1361,17 @@ Discovery started
 ```
 
 ################################################################################
-Wihtin bluetoothctrl I get "Failed to start discovery: org.bluez.Error.NotReady" - https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/troubleshoot/faq
+Wihtin bluetoothctrl I get "Failed to start discovery: org.bluez.Error.NotReady" - <https://docs.ubuntu.com/core/en/stacks/bluetooth/bluez/docs/troubleshoot/faq>
 
 
 I get within bluetoothctl "Controller AA:AA:AA:AA:AA:AA"
-- https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=178356
-- https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=176348
+
+* <https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=178356>
+* <https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=176348>
 ################################################################################
 
-### Step X:
+### Step X
+
 Now `reboot` to make sure that the Bluetooth daemon is start
 when your Raspberry Pi is rebooted.
 
@@ -1351,13 +1399,15 @@ Aug 03 22:03:05 BlueRPi bluetoothd[677]: Starting SDP server
 Aug 03 22:03:05 BlueRPi bluetoothd[677]: Bluetooth management interface 1.14 initialized
 Aug 03 22:03:05 BlueRPi bluetoothd[677]: Failed to set privacy: Rejected (0x0b)
 ```
+
 To get a clean message, do the following:
 
 ```bash
 ```
 
 ### Step X: Test Bluetooth Daemon D-Bus
-This is from - https://gist.github.com/larsblumberg/2335c0ba97f805a2b996f1a7c3ac9571#file-gistfile1-txt-L36
+
+This is from - <https://gist.github.com/larsblumberg/2335c0ba97f805a2b996f1a7c3ac9571#file-gistfile1-txt-L36>
 
 ```bash
 # install dbus-python
@@ -1375,10 +1425,12 @@ sudo python test-discovery
 sudo apt-get install blueman
 ```
 
-### Step X:
-### Step X:
+### Step X
+
+### Step X
 
 ### Starting & Stopping Bluetooth
+
 BlueZ install a daemon called `bluetoothd`,
 which manages all the Bluetooth devices.
 You can find about the only documentation concerning this daemon
@@ -1399,13 +1451,15 @@ sudo hciconfig hci0 reset
 ```
 
 ## Install bluez-tools
+
 A set of tools to manage bluetooth devices for linux
 
-* https://code.google.com/archive/p/bluez-tools/
+* <https://code.google.com/archive/p/bluez-tools/>
 
 ## New Section
 
 ### HCI Device Configuration Utility (hciconfig)
+
 This tools is used to interrogate and control you local Bluetooth adaptor.
 It operates very similarly to `ifconfig` in Linux,
 except that it operates on the Bluetooth devices.
@@ -1415,53 +1469,53 @@ except that it operates on the Bluetooth devices.
 $ hciconfig --help
 hciconfig - HCI device configuration utility
 Usage:
-	hciconfig
-	hciconfig [-a] hciX [command ...]
+ hciconfig
+ hciconfig [-a] hciX [command ...]
 Commands:
-	up                 	Open and initialize HCI device
-	down               	Close HCI device
-	reset              	Reset HCI device
-	rstat              	Reset statistic counters
-	auth               	Enable Authentication
-	noauth             	Disable Authentication
-	encrypt            	Enable Encryption
-	noencrypt          	Disable Encryption
-	piscan             	Enable Page and Inquiry scan
-	noscan             	Disable scan
-	iscan              	Enable Inquiry scan
-	pscan              	Enable Page scan
-	ptype      [type]  	Get/Set default packet type
-	lm         [mode]  	Get/Set default link mode
-	lp         [policy]	Get/Set default link policy
-	name       [name]  	Get/Set local name
-	class      [class] 	Get/Set class of device
-	voice      [voice] 	Get/Set voice setting
-	iac        [iac]   	Get/Set inquiry access code
-	inqtpl     [level] 	Get/Set inquiry transmit power level
-	inqmode    [mode]  	Get/Set inquiry mode
-	inqdata    [data]  	Get/Set inquiry data
-	inqtype    [type]  	Get/Set inquiry scan type
-	inqparms   [win:int]	Get/Set inquiry scan window and interval
-	pageparms  [win:int]	Get/Set page scan window and interval
-	pageto     [to]    	Get/Set page timeout
-	afhmode    [mode]  	Get/Set AFH mode
-	sspmode    [mode]  	Get/Set Simple Pairing Mode
-	aclmtu     <mtu:pkt>	Set ACL MTU and number of packets
-	scomtu     <mtu:pkt>	Set SCO MTU and number of packets
-	delkey     <bdaddr>	Delete link key from the device
-	oobdata            	Get local OOB data
-	commands           	Display supported commands
-	features           	Display device features
-	version            	Display version information
-	revision           	Display revision information
-	block      <bdaddr>	Add a device to the blacklist
-	unblock    <bdaddr>	Remove a device from the blacklist
-	lerandaddr <bdaddr>	Set LE Random Address
-	leadv      [type]  	Enable LE advertising
-			0 - Connectable undirected advertising (default)
-			3 - Non connectable undirected advertising
-	noleadv            	Disable LE advertising
-	lestates           	Display the supported LE states
+ up                  Open and initialize HCI device
+ down                Close HCI device
+ reset               Reset HCI device
+ rstat               Reset statistic counters
+ auth                Enable Authentication
+ noauth              Disable Authentication
+ encrypt             Enable Encryption
+ noencrypt           Disable Encryption
+ piscan              Enable Page and Inquiry scan
+ noscan              Disable scan
+ iscan               Enable Inquiry scan
+ pscan               Enable Page scan
+ ptype      [type]   Get/Set default packet type
+ lm         [mode]   Get/Set default link mode
+ lp         [policy] Get/Set default link policy
+ name       [name]   Get/Set local name
+ class      [class]  Get/Set class of device
+ voice      [voice]  Get/Set voice setting
+ iac        [iac]    Get/Set inquiry access code
+ inqtpl     [level]  Get/Set inquiry transmit power level
+ inqmode    [mode]   Get/Set inquiry mode
+ inqdata    [data]   Get/Set inquiry data
+ inqtype    [type]   Get/Set inquiry scan type
+ inqparms   [win:int] Get/Set inquiry scan window and interval
+ pageparms  [win:int] Get/Set page scan window and interval
+ pageto     [to]     Get/Set page timeout
+ afhmode    [mode]   Get/Set AFH mode
+ sspmode    [mode]   Get/Set Simple Pairing Mode
+ aclmtu     <mtu:pkt> Set ACL MTU and number of packets
+ scomtu     <mtu:pkt> Set SCO MTU and number of packets
+ delkey     <bdaddr> Delete link key from the device
+ oobdata             Get local OOB data
+ commands            Display supported commands
+ features            Display device features
+ version             Display version information
+ revision            Display revision information
+ block      <bdaddr> Add a device to the blacklist
+ unblock    <bdaddr> Remove a device from the blacklist
+ lerandaddr <bdaddr> Set LE Random Address
+ leadv      [type]   Enable LE advertising
+   0 - Connectable undirected advertising (default)
+   3 - Non connectable undirected advertising
+ noleadv             Disable LE advertising
+ lestates            Display the supported LE states
 ```
 
 ```bash
@@ -1470,48 +1524,50 @@ sudo hciconfig hci0 up
 
 # list your bluetooth adaptors
 $ hciconfig hci0
-hci0:	Type: BR/EDR  Bus: UART
-	BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
-	UP RUNNING
-	RX bytes:143890 acl:0 sco:0 events:4019 errors:0
-	TX bytes:14750 acl:0 sco:0 commands:1495 errors:0
+hci0: Type: BR/EDR  Bus: UART
+ BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
+ UP RUNNING
+ RX bytes:143890 acl:0 sco:0 events:4019 errors:0
+ TX bytes:14750 acl:0 sco:0 commands:1495 errors:0
 
 # list all the information for your bluetooth adaptors
 $ hciconfig -a hci0
-hci0:	Type: BR/EDR  Bus: UART
-	BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
-	UP RUNNING
-	RX bytes:990 acl:0 sco:0 events:44 errors:0
-	TX bytes:1508 acl:0 sco:0 commands:44 errors:0
-	Features: 0xbf 0xfe 0xcf 0xfe 0xdb 0xff 0x7b 0x87
-	Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3
-	Link policy: RSWITCH SNIFF
-	Link mode: SLAVE ACCEPT
-	Name: 'BlueRPi'
-	Class: 0x000000
-	Service Classes: Unspecified
-	Device Class: Miscellaneous,
-	HCI Version: 4.1 (0x7)  Revision: 0xb6
-	LMP Version: 4.1 (0x7)  Subversion: 0x2209
-	Manufacturer: Broadcom Corporation (15)
+hci0: Type: BR/EDR  Bus: UART
+ BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
+ UP RUNNING
+ RX bytes:990 acl:0 sco:0 events:44 errors:0
+ TX bytes:1508 acl:0 sco:0 commands:44 errors:0
+ Features: 0xbf 0xfe 0xcf 0xfe 0xdb 0xff 0x7b 0x87
+ Packet type: DM1 DM3 DM5 DH1 DH3 DH5 HV1 HV2 HV3
+ Link policy: RSWITCH SNIFF
+ Link mode: SLAVE ACCEPT
+ Name: 'BlueRPi'
+ Class: 0x000000
+ Service Classes: Unspecified
+ Device Class: Miscellaneous,
+ HCI Version: 4.1 (0x7)  Revision: 0xb6
+ LMP Version: 4.1 (0x7)  Subversion: 0x2209
+ Manufacturer: Broadcom Corporation (15)
 
 # print just the bluetooth version information
 $ hciconfig -a hci0 version
-hci0:	Type: BR/EDR  Bus: UART
-	BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
-	HCI Version: 4.1 (0x7)  Revision: 0xb6
-	LMP Version: 4.1 (0x7)  Subversion: 0x2209
-	Manufacturer: Broadcom Corporation (15)
+hci0: Type: BR/EDR  Bus: UART
+ BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
+ HCI Version: 4.1 (0x7)  Revision: 0xb6
+ LMP Version: 4.1 (0x7)  Subversion: 0x2209
+ Manufacturer: Broadcom Corporation (15)
 
 # reset your bluetooth adaptor (good to do when things stop working)
 sudo hciconfig hci0 reset
 ```
 
 ### - HCI UART Driver Initialization Utility (hciattach)
+
 A simple utility that initializes a given serial port.
 Using this tool you can add/delete UART devices without restarting `hcid`.
 
 ### Host Controller Interface Tool (hcitool)
+
 [`hcitool`][77] is the host controller interface (HCI) tool
 used detect and connect to remote devices, to configure Bluetooth connections,
 and send some special command to Bluetooth devices.
@@ -1522,46 +1578,46 @@ Its sort of a swiss army knife for Bluetooth in Linux.
 $ sudo hcitool --help
 hcitool - HCI Tool ver 5.23
 Usage:
-	hcitool [options] <command> [command parameters]
+ hcitool [options] <command> [command parameters]
 Options:
-	--help	Display help
-	-i dev	HCI device
+ --help Display help
+ -i dev HCI device
 Commands:
-	dev 	Display local devices
-	inq 	Inquire remote devices
-	scan	Scan for remote devices
-	name	Get name from remote device
-	info	Get information from remote device
-	spinq	Start periodic inquiry
-	epinq	Exit periodic inquiry
-	cmd 	Submit arbitrary HCI commands
-	con 	Display active connections
-	cc  	Create connection to remote device
-	dc  	Disconnect from remote device
-	sr  	Switch master/slave role
-	cpt 	Change connection packet type
-	rssi	Display connection RSSI
-	lq  	Display link quality
-	tpl 	Display transmit power level
-	afh 	Display AFH channel map
-	lp  	Set/display link policy settings
-	lst 	Set/display link supervision timeout
-	auth	Request authentication
-	enc 	Set connection encryption
-	key 	Change connection link key
-	clkoff	Read clock offset
-	clock	Read local or remote clock
-	lescan	Start LE scan
-	lewladd	Add device to LE White List
-	lewlrm	Remove device from LE White List
-	lewlsz	Read size of LE White List
-	lewlclr	Clear LE White list
-	lecc	Create a LE Connection
-	ledc	Disconnect a LE Connection
-	lecup	LE Connection Update
+ dev  Display local devices
+ inq  Inquire remote devices
+ scan Scan for remote devices
+ name Get name from remote device
+ info Get information from remote device
+ spinq Start periodic inquiry
+ epinq Exit periodic inquiry
+ cmd  Submit arbitrary HCI commands
+ con  Display active connections
+ cc   Create connection to remote device
+ dc   Disconnect from remote device
+ sr   Switch master/slave role
+ cpt  Change connection packet type
+ rssi Display connection RSSI
+ lq   Display link quality
+ tpl  Display transmit power level
+ afh  Display AFH channel map
+ lp   Set/display link policy settings
+ lst  Set/display link supervision timeout
+ auth Request authentication
+ enc  Set connection encryption
+ key  Change connection link key
+ clkoff Read clock offset
+ clock Read local or remote clock
+ lescan Start LE scan
+ lewladd Add device to LE White List
+ lewlrm Remove device from LE White List
+ lewlsz Read size of LE White List
+ lewlclr Clear LE White list
+ lecc Create a LE Connection
+ ledc Disconnect a LE Connection
+ lecup LE Connection Update
 
 For more information on the usage of each command use:
-	hcitool <command> --help
+ hcitool <command> --help
 ```
 
 To find out what Bluetooth devices are install on your the Raspberry Pi:
@@ -1570,7 +1626,7 @@ To find out what Bluetooth devices are install on your the Raspberry Pi:
 # list bluetooth device
 $ sudo hcitool dev
 Devices:
-	hci0	B8:27:EB:F3:A4:64
+ hci0 B8:27:EB:F3:A4:64
 ```
 
 To scan for devices, you can use `sudo hcitool scan` but to focus on BLE device
@@ -1580,16 +1636,16 @@ you should `sudo hcitool lescan`.
 # get information on scaning for BLE devices
 $ sudo hcitool lescan --help
 Usage:
-	lescan [--privacy] enable privacy
-	lescan [--passive] set scan type passive (default active)
-	lescan [--whitelist] scan for address in the whitelist only
-	lescan [--discovery=g|l] enable general or limited discoveryprocedure
-	lescan [--duplicates] don't filter duplicates# scan for any BLE devices
+ lescan [--privacy] enable privacy
+ lescan [--passive] set scan type passive (default active)
+ lescan [--whitelist] scan for address in the whitelist only
+ lescan [--discovery=g|l] enable general or limited discoveryprocedure
+ lescan [--duplicates] don't filter duplicates# scan for any BLE devices
 
 # scan for non-BLE bluetooth devices
 hcitool -i hci0 scan
 Scanning ...
-	CC:6D:A0:BA:03:8C	Roku Player
+ CC:6D:A0:BA:03:8C Roku Player
 
 # scan for BLE devices but don't show duplicates
 $ sudo hcitool -i hci0 lescan
@@ -1633,13 +1689,13 @@ Now lets connect to the BLE device `Thingy:5`:
 # print some info about connecting with BLE device
 $ sudo hcitool lecc --help
 Usage:
-	lecc [--random] <bdaddr>
-	lecc --whitelist
+ lecc [--random] <bdaddr>
+ lecc --whitelist
 
 # print some info about disconnecting from a BLE device
 $ sudo hcitool ledc --help
 Usage:
-	ledc <handle> [reason]
+ ledc <handle> [reason]
 
 # connect with the BLE device
 # errors out because device doesn't have a public device address
@@ -1654,6 +1710,7 @@ sudo hcitool ledc 64
 ```
 
 ### Host Controller Interface Sniffer (hcidump)
+
 This tool enables us to sniff the Bluetooth communication.
 
 `hcidump` doesn't come pre-installed on the Raspberry Pi 3
@@ -1699,10 +1756,12 @@ device: hci0 snap_len: 1500 filter: 0xffffffff
 ```
 
 ### Bluetooth Service Discovery (sdptool)
-* Bluetooth Recon With BlueZ - http://blog.ice9.us/2014/02/bluetooth-recon-with-bluez.html
-* btclassify - https://github.com/mikeryan/btclassify
+
+* Bluetooth Recon With BlueZ - <http://blog.ice9.us/2014/02/bluetooth-recon-with-bluez.html>
+* btclassify - <https://github.com/mikeryan/btclassify>
 
 ### Bluetooth Service Discovery (sdptool)
+
 It is crucial to know what you can do with your Bluetooth enabled devices.
 You can do this with the `sdptool` command,
 which is used for performing SDP queries on Bluetooth devices.
@@ -1712,25 +1771,25 @@ which is used for performing SDP queries on Bluetooth devices.
 $ sdptool --help
 sdptool - SDP tool v5.23
 Usage:
-	sdptool [options] <command> [command parameters]
+ sdptool [options] <command> [command parameters]
 Options:
-	-h		Display help
-	-i		Specify source interface
+ -h  Display help
+ -i  Specify source interface
 Commands:
-	search		Search for a service
-	browse		Browse all available services
-	records		Request all records
-	add 		Add local service
-	del 		Delete local service
-	get 		Get local service
-	setattr		Set/Add attribute to a SDP record
-	setseq		Set/Add attribute sequence to a SDP record
+ search  Search for a service
+ browse  Browse all available services
+ records  Request all records
+ add   Add local service
+ del   Delete local service
+ get   Get local service
+ setattr  Set/Add attribute to a SDP record
+ setseq  Set/Add attribute sequence to a SDP record
 
 Services:
-	DID SP DUN LAN FAX OPUSH FTP PRINT HS HSAG HF HFAG SAP PBAP NAP
-	GN PANU HCRP HID KEYB WIIMOTE CIP CTP A2SRC A2SNK AVRCT AVRTG
-	UDIUE UDITE SEMCHLA SR1 SYNCML SYNCMLSERV ACTIVESYNC HOTSYNC
-	PALMOS NOKID PCSUITE NFTP NSYNCML NGAGE APPLE IAP ISYNC GATT
+ DID SP DUN LAN FAX OPUSH FTP PRINT HS HSAG HF HFAG SAP PBAP NAP
+ GN PANU HCRP HID KEYB WIIMOTE CIP CTP A2SRC A2SNK AVRCT AVRTG
+ UDIUE UDITE SEMCHLA SR1 SYNCML SYNCMLSERV ACTIVESYNC HOTSYNC
+ PALMOS NOKID PCSUITE NFTP NSYNCML NGAGE APPLE IAP ISYNC GATT
 ```
 
 ```bash
@@ -1743,6 +1802,7 @@ sdptool -i hci0 browse E8:C9:45:BC:BE:34
 ```
 
 ### L2CAP Ping (l2ping)
+
 `l2ping` sends a L2CAP echo request to a Bluetooth MAC address.
 This is agnologis to the TCP/IP `ping` command but for Bluetooth.
 
@@ -1757,10 +1817,10 @@ segmentation and reassembly operation, and group abstractions.
 $ l2ping
 l2ping - L2CAP ping
 Usage:
-	l2ping [-i device] [-s size] [-c count] [-t timeout] [-d delay] [-f] [-r] [-v] <bdaddr>
-	-f  Flood ping (delay = 0)
-	-r  Reverse ping
-	-v  Verify request and response payload
+ l2ping [-i device] [-s size] [-c count] [-t timeout] [-d delay] [-f] [-r] [-v] <bdaddr>
+ -f  Flood ping (delay = 0)
+ -r  Reverse ping
+ -v  Verify request and response payload
 ```
 
 ```bash
@@ -1774,6 +1834,7 @@ Can't connect: No route to host
 ### SCO Testing (scotest)
 
 ### Connecting & Pairing (rfcomm)
+
 Bluetooth Radio Frequency Communication (RFCOMM) is a simple set of transport protocols,
 made on top of the L2CAP protocol,
 providing emulated RS-232 serial ports.
@@ -1782,32 +1843,33 @@ providing emulated RS-232 serial ports.
 $ rfcomm -h
 RFCOMM configuration utility ver 5.23
 Usage:
-	rfcomm [options] <command> <dev>
+ rfcomm [options] <command> <dev>
 
 Options:
-	-i, --device [hciX|bdaddr]     Local HCI device or BD Address
-	-h, --help                     Display help
-	-r, --raw                      Switch TTY into raw mode
-	-A, --auth                     Enable authentication
-	-E, --encrypt                  Enable encryption
-	-S, --secure                   Secure connection
-	-M, --master                   Become the master of a piconet
-	-L, --linger [seconds]         Set linger timeout
-	-a                             Show all devices (default)
+ -i, --device [hciX|bdaddr]     Local HCI device or BD Address
+ -h, --help                     Display help
+ -r, --raw                      Switch TTY into raw mode
+ -A, --auth                     Enable authentication
+ -E, --encrypt                  Enable encryption
+ -S, --secure                   Secure connection
+ -M, --master                   Become the master of a piconet
+ -L, --linger [seconds]         Set linger timeout
+ -a                             Show all devices (default)
 
 Commands:
-	bind     <dev> <bdaddr> [channel]	Bind device
-	release  <dev>                   	Release device
-	show     <dev>                   	Show device
-	connect  <dev> <bdaddr> [channel]	Connect device
-	listen   <dev> [channel [cmd]]   	Listen
-	watch    <dev> [channel [cmd]]   	Watch
+ bind     <dev> <bdaddr> [channel] Bind device
+ release  <dev>                    Release device
+ show     <dev>                    Show device
+ connect  <dev> <bdaddr> [channel] Connect device
+ listen   <dev> [channel [cmd]]    Listen
+ watch    <dev> [channel [cmd]]    Watch
 ```
 
-* https://www.youtube.com/watch?v=DmtJBc229Rg
+* <https://www.youtube.com/watch?v=DmtJBc229Rg>
 * [How to pair a bluetooth device from command line on Linux](http://www.heatxsink.com/entry/how-to-pair-a-bluetooth-device-from-command-line-on-linux)
 
 ### Generic Attribute Profile Tool (gatttool)
+
 The gatttool utility can make connections to BLE devices and
 is used to access the [services][80] running on your bluetooth device.
 
@@ -1893,11 +1955,13 @@ gatttool -I -t random -b E8:C9:45:BC:BE:34
 ```
 
 ### btmon
+
 `btmon` is a useful tool to exam Bluetooth packets.
 
-https://stackoverflow.com/questions/23152592/bluetooth-sniffer-how-can-i-install-btmon-on-raspberry-pi
+<https://stackoverflow.com/questions/23152592/bluetooth-sniffer-how-can-i-install-btmon-on-raspberry-pi>
 
 ### Bluetooth Control Tool (blutoothctl)
+
 BlueZ comes with a tool called `bluetoothctl`
 which runs as a terminal session.
 Its intended to replace many of the tools discribed above.
@@ -1976,6 +2040,7 @@ provides source code of examples and libraries forming the base of your applicat
 * [Adafruit’s Feather nRF52840 Express Board and Developing with CircuitPython](https://blog.nordicsemi.com/getconnected/adafruits-feather-nrf52840-express-board-and-developing-with-circuitpython)
 
 ## Bluetooth LE with Python (bluepy)
+
 Using `gatttool` is very laborious for doing any useful work,
 so it's a good idea to use a programming language.
 The `bluepy` Python package is one way to use Bluetooth LE on the commandline.
@@ -1993,11 +2058,12 @@ sudo apt-get install python-pip libglib2.0-dev
 The `blescan` program performs a similar function to `hcitool lescan`
 but produces more information.
 
-* http://www.elinux.org/RPi_Bluetooth_LE
-* https://learn.adafruit.com/bluefruit-le-python-library/overview?gclid=CjwKEAjw16HLBRDF9L2UmOCH7U8SJAASVESoJma_G4MQgd_PV-pfXfLn6ldmofVhCDTCqoQrWLNDgBoCU4Hw_wcB
-* http://blog.kevindoran.co/bluetooth-programming-with-python-3/
+* <http://www.elinux.org/RPi_Bluetooth_LE>
+* <https://learn.adafruit.com/bluefruit-le-python-library/overview?gclid=CjwKEAjw16HLBRDF9L2UmOCH7U8SJAASVESoJma_G4MQgd_PV-pfXfLn6ldmofVhCDTCqoQrWLNDgBoCU4Hw_wcB>
+* <http://blog.kevindoran.co/bluetooth-programming-with-python-3/>
 
 ## Adafruit Bluetooth LE Friend
+
 The [Adafruit Bluetooth LE Friend][39] is a USB-to-BLE board that makes it easy
 to get your computer talking to your BLE enabled device using a standard serial/UART connection.
 It works on the same principle as a common USB/Serial adapter (e.g. [FTDI Friend][40]).
@@ -2039,17 +2105,19 @@ which contains a SoftDevice which is capable of running in either Central or Per
 The nRF518322 based products, Adafruit Bluetooth LE Friend, are not capable of running in Central mode.
 
 ### Adafruit Bluefruit LE Connect
+
 Via the [Adafruit Bluefruit LE Connect][43] mobile app,
 you can wirelessly connect your Android device to an Adafruit Bluefruit LE module
 for control & communication with your project
 (there is also a [iOS version][44]).
 
-https://learn.adafruit.com/bluefruit-le-connect-for-ios/settings
+<https://learn.adafruit.com/bluefruit-le-connect-for-ios/settings>
 
 > **NOTE:**
 [The Adafruit Bluefruit LE Connec tapp is compatible with several other BLE devices from Adafruit][45].
 
 ### Firmware Update
+
 You can update the Adafruit Bluetooth LE Friend firmware over-the-air but not over the USB/UART connection.
 To update the firmware, you use the Adafruit Bluefruit LE Connect phone app.
 
@@ -2057,6 +2125,7 @@ To update the firmware, you use the Adafruit Bluefruit LE Connect phone app.
 * [Bluefruit LE Python Library](https://learn.adafruit.com/bluefruit-le-python-library)
 
 ## Red Bear Lab BLE
+
 There are [three options][25] to program your [BLE Nano with MK20 USB board][24]:
 
 1. [Arduino Library for nRF51822](https://github.com/RedBear/nRF51822-Arduino)
@@ -2081,12 +2150,14 @@ designed for the Raspberry Pi Zero (other RPi boards with 40-pin header will als
 * [RedBearLab Discussion forum](http://discuss.redbear.cc/)
 
 ## Raspberry Pi
+
 The newest device from the Raspberry Pi Foundation, Raspberry Pi 3 Model B,
 comes with both built-in WiFi and Bluetooth 4.1.
 The ultimate goal of this section is to setup the Raspberry Pi to read/write data
 from connected BLE devices.
 
 ### Step 1: Turn on Bluetooth
+
 Both the Raspberry Pi 3 and the Raspberry Pi Zero W have Bluetooth
 pre-loaded and should working "out of the box".
 To validate that Bluetooth is operation,
@@ -2113,11 +2184,11 @@ $ systemctl status bluetooth
 
 # get the BD address of the raspberry pi
 $ hciconfig
-hci0:	Type: BR/EDR  Bus: UART
-	BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
-	UP RUNNING
-	RX bytes:717 acl:0 sco:0 events:42 errors:0
-	TX bytes:1532 acl:0 sco:0 commands:42 errors:0
+hci0: Type: BR/EDR  Bus: UART
+ BD Address: B8:27:EB:F3:A4:64  ACL MTU: 1021:8  SCO MTU: 64:1
+ UP RUNNING
+ RX bytes:717 acl:0 sco:0 events:42 errors:0
+ TX bytes:1532 acl:0 sco:0 commands:42 errors:0
 ```
 
 > **NOTE: If you get the error message: "Sap driver initialization failed."
@@ -2130,6 +2201,7 @@ you can enable this via `sudo systemctl enable bluetooth`
 or disable this via `sudo systemctl disable bluetooth`.
 
 ### Step X: Raspberry Pi 3 as a Beacon Scanner
+
 * [iBeacon Raspberry Pi Scanner in Python](http://www.switchdoc.com/2014/08/ibeacon-raspberry-pi-scanner-python/)
 * [Beacon tracking with Node.js and Raspberry Pi](https://blog.truthlabs.com/beacon-tracking-with-node-js-and-raspberry-pi-794afa880318#.dpvrsy7gb)
 * [Immersive Theatre via iBeacons with Dustin Freeman](http://hackaday.com/2015/12/18/immersive-theatre-via-ibeacons-with-dustin-freeman/)
@@ -2141,7 +2213,7 @@ and then for BLE devices:
 # get the BD address of the advertised classic devices in range
 $ hcitool scan
 Scanning ...
-	CC:6D:A0:BA:03:8C	Roku Player
+ CC:6D:A0:BA:03:8C Roku Player
 
 # get the BD address of the advertised BLE devices in range
 $ sudo hcitool lescan
@@ -2179,7 +2251,7 @@ Discovery started
 [NEW] Device CC:6D:A0:BA:03:8C Roku Player
 [CHG] Device C8:E6:0B:6F:24:D0 RSSI: -76
 [CHG] Device C8:E6:0B:6F:24:D0 UUIDs:
-	0000180f-0000-1000-8000-00805f9b34fb
+ 0000180f-0000-1000-8000-00805f9b34fb
 [NEW] Device C2:E4:47:7F:F9:95 EST
 [CHG] Device C2:E4:47:7F:F9:95 RSSI: -67
 [CHG] Device C2:E4:47:7F:F9:95 RSSI: -78
@@ -2190,6 +2262,7 @@ Discovery started
 With `bluetoothctl` running, you'll will see devices appear, change, delete, etc.
 
 ### Step X: Make The Raspberry Pi Discoverable
+
 To make the RPi scanable and found by other devices,
 you'll need to do the following:
 
@@ -2204,22 +2277,27 @@ sudo bluetooth-agent 1234
 The `1234` is the pairing code for it to use,
 but this will can be automatically overridden by a randomly selected code displayed on both devices.
 
-http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/bluetooth/bluetooth-commands
+<http://www.raspberry-projects.com/pi/pi-operating-systems/raspbian/bluetooth/bluetooth-commands>
 
 ### Step X: Control BLE Devices From a Raspberry Pi
-Control Bluetooth LE Devices From a Raspberry Pi - http://www.instructables.com/id/Control-Bluetooth-LE-Devices-From-A-Raspberry-Pi/
+
+Control Bluetooth LE Devices From a Raspberry Pi - <http://www.instructables.com/id/Control-Bluetooth-LE-Devices-From-A-Raspberry-Pi/>
 
 ### Step X: Raspberry Pi 3 as a iBeacon
+
 * [piBeacon - DIY Beacon with a Raspberry Pi](https://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/overview)
 * [Create an iBeacon Transmitter with the Raspberry Pi](http://www.wadewegner.com/2014/05/create-an-ibeacon-transmitter-with-the-raspberry-pi/)
 
 ### Step X: Raspberry Pi 3 as an Eddystone URL Beacon
+
 It is possible to configure a Raspberry Pi 3 to act as an Eddystone beacon.
+
 * [Turn Your RPi 3 Into a BLE Beacon](http://hackaday.com/2016/03/27/turn-your-rpi-3-into-a-ble-beacon/)
 * [What is Bluetooth 5 – Gary explains](http://www.androidauthority.com/bluetooth-5-gary-explains-703734/)
 
 
 ## Nordic Thingy:52
+
 Nordic Semiconductor has a single-board Bluetooth 5 development kit
 that can be configuration from smartphone apps and the cloud.
 It is intended to enables Makers and developers
@@ -2242,21 +2320,23 @@ can operate as a master or slave Bluetooth device.
 
 * [Create IoT Prototypes With Ease Using the Nordic Thing:52 Dev Kit](https://blog.hackster.io/create-iot-prototypes-with-ease-using-the-nordic-thing-52-dev-kit-824f7d384337)
 * [What is the Nordic Thingy:52? – Gary explains](http://www.androidauthority.com/nordic-thingy52-779773/)
-    * Nordic Thingy:52 Android SDK and sample app
-    * Nordic Thingy:52 Firmware
-    * Nordic Thingy:52 Web App
-    * Nordic Thingy:52 Nodejs
-    * Nordic-Thingy:52 iOS library and sample app
+  * Nordic Thingy:52 Android SDK and sample app
+  * Nordic Thingy:52 Firmware
+  * Nordic Thingy:52 Web App
+  * Nordic Thingy:52 Nodejs
+  * Nordic-Thingy:52 iOS library and sample app
 * [Nordic Thingy:91](https://www.nordicsemi.com/Software-and-Tools/Prototyping-platforms/Nordic-Thingy-91)
 * [Nordic Thingy:91 Getting Started Guides](https://www.hackster.io/videos/753)
 * [First Steps with the Nordic Thingy:91 X - Hackster.io](https://www.hackster.io/news/first-steps-with-the-nordic-thingy-91-x-84d082996304)
 
 ### Nordic Bluetooth Tools
-* nrfjprog, pynrfjprog - Intro, Mac OS X & Linux now supported - https://devzone.nordicsemi.com/blogs/840/nrfjprog-pynrfjprog-intro-mac-os-x-linux-now-suppo/
-* nRF5x-Tools and nRF5x-Pynrfjprog Includes Linux and Python 3 Support - https://devzone.nordicsemi.com/blogs/778/nrf5x-tools-and-nrf5x-pynrfjprog-includes-linux-an/
-* Bluefruit nRF52 Feather Learning Guide - https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader
+
+* nrfjprog, pynrfjprog - Intro, Mac OS X & Linux now supported - <https://devzone.nordicsemi.com/blogs/840/nrfjprog-pynrfjprog-intro-mac-os-x-linux-now-suppo/>
+* nRF5x-Tools and nRF5x-Pynrfjprog Includes Linux and Python 3 Support - <https://devzone.nordicsemi.com/blogs/778/nrf5x-tools-and-nrf5x-pynrfjprog-includes-linux-an/>
+* Bluefruit nRF52 Feather Learning Guide - <https://learn.adafruit.com/bluefruit-nrf52-feather-learning-guide/flashing-the-bootloader>
 
 ### Step 0: Getting Started with Nordic Thingy:52 IoT Sensor Kit - DONE
+
 Follow the procedures on [Nordic's Thingy:52 Gettting Started page][54].
 Using this, you learn how to charge the device,
 [download the phone app][55], and to interface with the Thingy:52
@@ -2271,6 +2351,7 @@ Once the device sits still for sometime, the blinking stops and so does the beac
 and you can nolonger connect with the device.
 
 ### Step X: Other Phone Apps From Nordic
+
 [nRF Connect][58] for mobile generic tool that allows you to scan and explore your
 Bluetooth low energy devices and communicate with them.
 nRF Connect for mobile supports a number of Bluetooth SIG adopted profiles,
@@ -2278,15 +2359,16 @@ as well as the Device Firmware Update profile (DFU) from Nordic Semiconductor or
 
 The [nRF Toolbox][59] is a container app that stores your Nordic Semiconductor apps for Bluetooth® low energy in one location.The nRF Toolbox works with a wide range of the most popular Bluetooth low energy accessories.It contains applications demonstrating the following profiles: Cycling Speed and Cadence, Running Speed and Cadence, Heart Rate Monitor, Blood Pressure Monitor, Health Thermometer Monitor, Glucose Monitor, Proximity Monitor and Nordic UART.The Device Firmware Update (DFU) app, which is also included, allows you to upload the application image Over-the-air (OTA). It is compatible with Nordic Semiconductor nRF5 Series devices that have the SoftDevice and bootloader enabled.
 
-nRF Beacon - https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfbeacon&hl=en
+nRF Beacon - <https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfbeacon&hl=en>
 
-Beacon Simulator - https://play.google.com/store/apps/details?id=net.alea.beaconsimulator&hl=en
+Beacon Simulator - <https://play.google.com/store/apps/details?id=net.alea.beaconsimulator&hl=en>
 
-Nordic UART - https://play.google.com/store/apps/details?id=com.nordicsemi.nrfUARTv2&hl=en
+Nordic UART - <https://play.google.com/store/apps/details?id=com.nordicsemi.nrfUARTv2&hl=en>
 
-Serial Bluetooth Terminal - https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en
+Serial Bluetooth Terminal - <https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=en>
 
-### Step X:
+### Step X
+
 Next, lets performing a BLE scanning, to get the MAC address of the Thingy:52 device,
 and then query it about its features:
 
@@ -2364,24 +2446,31 @@ handle: 0x0065, char properties: 0x18, char value handle: 0x0066, uuid: 8ec90001
 [E8:C9:45:BC:BE:34][LE]>
 ```
 
-### Step X:
-### Step X:
+### Step X
+
+### Step X
+
 ### Step X: Streaming Sound
-https://www.youtube.com/watch?v=itXVj17HxJg
+
+<https://www.youtube.com/watch?v=itXVj17HxJg>
 
 # Building BLE Devices
-BUILDING BLUETOOTH LE DEVICES - https://www.hardill.me.uk/wordpress/2015/07/28/building-bluetooth-le-devices/
-Slave - https://www.npmjs.com/package/bleno
-Master - https://github.com/sandeepmistry/noble
+
+BUILDING BLUETOOTH LE DEVICES - <https://www.hardill.me.uk/wordpress/2015/07/28/building-bluetooth-le-devices/>
+Slave - <https://www.npmjs.com/package/bleno>
+Master - <https://github.com/sandeepmistry/noble>
 
 # BLE Router
-https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.iotsdk.v0.9.0%2Fiot_sdk_user_guides_linux_commands.html
+
+<https://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.iotsdk.v0.9.0%2Fiot_sdk_user_guides_linux_commands.html>
 
 # BLE to MQTT Bridge
-A BLE to MQTT bridge - https://github.com/shmuelzon/ble2mqtt
-A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices - https://github.com/espruino/EspruinoHub
+
+A BLE to MQTT bridge - <https://github.com/shmuelzon/ble2mqtt>
+A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices - <https://github.com/espruino/EspruinoHub>
 
 # Bluetooth Primer
+
 * [Primer on Bluetooth Low Energy](http://hackaday.com/2013/08/29/primer-on-bluetooth-low-energy/)
 * [How do iBeacons work?](http://www.warski.org/blog/2014/01/how-ibeacons-work/)
 * [What is the iBeacon Bluetooth Profile](http://stackoverflow.com/questions/18906988/what-is-the-ibeacon-bluetooth-profile)
@@ -2390,20 +2479,25 @@ A BLE -> MQTT bridge for Raspberry Pi and other Embedded devices - https://githu
 * [The Physical Web vs. iBeacons vs. Eddystone vs. IoT](http://www.nanalyze.com/2016/03/the-physical-web-vs-ibeacons-vs-eddystone-vs-iot/)
 
 # Change your bluetooth device mac-address
-http://blog.petrilopia.net/linux/change-your-bluetooth-device-mac-address/
+
+<http://blog.petrilopia.net/linux/change-your-bluetooth-device-mac-address/>
 
 # Reverse Engineering IoT Devices
+
 * [Reverse Engineering IoT Devices](https://iayanpahwa.github.io/Reverse-Engineering-IoT-Devices/)
 
 # Bluetooth Programming Concepts
-* http://people.csail.mit.edu/rudolph/Teaching/Articles/BTBook.pdf
+
+* <http://people.csail.mit.edu/rudolph/Teaching/Articles/BTBook.pdf>
 
 # Node.js, Noble, Bleno
+
 * [Raspberry Pi BTLE Device](https://blog.cmgresearch.com/2014/05/18/raspberry-pi-btle-device.html)
 * [Bluetooth Devices Can Now Be Controlled From The Web Through Node.js](https://arc.applause.com/2016/02/12/bluetooth-gateway-navible-node-js/)
-* https://github.com/sandeepmistry/noble
+* <https://github.com/sandeepmistry/noble>
 
 # Bluetooth Secure Gateway Kit
+
 The Bluetooth SIG offers the [Secure Gateway Kit][93] so you can create
 a secure connection between Bluetooth low energy devices and a server or cloud computer
 without a smartphone or tablet as a go between.
@@ -2417,6 +2511,7 @@ You can download the Secure Gateway Kit [here][94] and find other developer tool
 * [What is…a GATT Service?](https://www.electronicsweekly.com/blogs/eyes-on-android/what-is/what-is-a-gatt-service-2013-08/)
 
 ## Step X: Establish Develop Environment
+
 First, lets establish the codes version control environment.
 
 ```bash
@@ -2446,6 +2541,7 @@ npm init
 ```
 
 ## Step X: Install Gateway Kit
+
 Now download the Secure Gateway Kit software and confiure it for operation.
 
 ```bash
@@ -2462,6 +2558,7 @@ git commit -m 'Initial download of Bluetooth Secure Gateway Kit'
 ```
 
 ## Step X: Running the Gateway
+
 ```bash
 cd gateway
 npm install
@@ -2536,7 +2633,6 @@ npm run start
 [64]:https://bkon.com/resources/physical-web-browsers/
 [65]:https://bkon.com/products/physical-web-platform/
 [66]:http://www.differencebetween.net/technology/difference-between-wibree-and-bluetooth/
-[67]:https://en.wikipedia.org/wiki/List_of_Bluetooth_profiles#Serial_Port_Profile_.28SPP.29
 [68]:https://learn.adafruit.com/introduction-to-bluetooth-low-energy/gatt#services
 [69]:https://learn.adafruit.com/introduction-to-bluetooth-low-energy/gatt#characteristics
 [70]:https://devzone.nordicsemi.com/tutorials/5/

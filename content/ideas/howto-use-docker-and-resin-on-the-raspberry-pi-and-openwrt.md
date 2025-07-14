@@ -16,6 +16,7 @@ Version:      0.0.0
 
 
 # What are Containers?
+
 * [Container Basics](https://www.sdxcentral.com/containers/definitions/containers-basics-update/)
 * [What's a Linux container?](https://www.redhat.com/en/topics/containers/whats-a-linux-container)
 * [What are container runtimes?](https://opensource.com/article/21/9/container-runtime)
@@ -25,11 +26,12 @@ Version:      0.0.0
 * [Containers vs. Virtual Machines (VMs): What’s the Difference?](https://blog.netapp.com/blogs/containers-vs-vms/)
 * [How Linux containers have evolved](https://opensource.com/article/17/7/how-linux-containers-evolved?sc_cid=70160000000h0P5AAI)
 * [8 best practices for building containerized applications](https://opensource.com/life/16/9/8-best-practices-building-containerized-applications?sc_cid=70160000000QyBpAAK)
- * [Why we need a different container purely for apps - Mark Shuttleworth (Canonical)](https://www.youtube.com/watch?v=0z3yusiCOCk)
+* [Why we need a different container purely for apps - Mark Shuttleworth (Canonical)](https://www.youtube.com/watch?v=0z3yusiCOCk)
 * [An Introduction To Snap Packages for Linux](https://www.youtube.com/watch?v=j40tNL3t4gw)
 * [What’s the Deal with SNAP Packages?](https://hackaday.com/2020/06/24/whats-the-deal-with-snap-packages/)
 
 ## What is chroot?
+
 A [`chroot`][25]  or "chroot jail" is an operation (orginating with the Unix operating system)
 that changes the apparent root directory for the current running process and its children
 A program that is run in such a modified environment cannot name
@@ -41,7 +43,8 @@ See examples of `chroot` use [here][25], [here][26], and [here][27].
 * [chroot — A Linux Wonder!](https://medium.com/100-days-of-linux/chroot-a-linux-wonder-fc36ed08087e)
 
 ## debootstrap
-debootstrap - Bootstrap a basic Debian system - http://manpages.ubuntu.com/manpages/trusty/man8/debootstrap.8.html
+
+debootstrap - Bootstrap a basic Debian system - <http://manpages.ubuntu.com/manpages/trusty/man8/debootstrap.8.html>
 
 
 While creating my my mesh network,
@@ -89,6 +92,7 @@ On this, you can load additiona docker-images,
 which may load other applications.
 
 # Linux Containers
+
 <a href="https://linuxcontainers.org/">
     <img class="img-rounded" style="margin: 0px 8px; float: left" title="linuxcontainers.org is the umbrella project behind LXC, LXD, LXCFS and CGManager.  The goal is to offer a distro and vendor neutral environment for the development of Linux container technologies.  Containers which offer an environment as close to possible as the one you'd get from a VM but without the overhead that comes with running a separate kernel and simulating all the hardware." alt="LinuxContainers.org-logo" src="{filename}/images/linuxcontainers-logo.png" width="318" height="293" />
 </a>
@@ -165,6 +169,7 @@ For additional general informationa about container technology, see these source
 * [Run containers through a simple, yet powerful graphical user interface](https://kitematic.com/)
 
 **HypriotOS**
+
 * [Getting started with Docker on your Raspberry Pi · Docker Pirates ARMed with explosive stuff](http://blog.hypriot.com/getting-started-with-docker-on-your-arm-device/)
 * [Releasing HypriotOS 1.0.0 "Blackbeard"](http://blog.hypriot.com/post/releasing-HypriotOS-1-0/)
 * [Run Docker on a Raspberry Pi 3 with onboard WiFi](http://blog.hypriot.com/post/run-docker-rpi3-with-wifi/)
@@ -176,6 +181,7 @@ For additional general informationa about container technology, see these source
 
 
 # Docker
+
 Docker is a very popular software container platform.
 Docker is more than just a container but an application that makes
 it simple and easy to run application processes in a container,
@@ -204,16 +210,19 @@ dockerfile tells Docker how to **create** a Docker image for your application
 * [Top 10 options for docker run — a quick reference guide for the CLI command](https://medium.com/the-code-review/top-10-docker-run-command-options-you-cant-live-without-a-reference-d256834e86c1)
 
 ## Moby
-* https://mobyproject.org/#moby-and-docker
+
+* <https://mobyproject.org/#moby-and-docker>
 
 ## Docker Swarm
 
 ## Get Started with Docker Engine
+
 Docker's documentation contains a good [introduction installing and using the Docker Engine][11].
 
 * [Docker Overview](https://docs.docker.com/engine/docker-overview/)
 
 ## Docker Hub
+
 The [Docker Hub][03] is a cloud-based registry service for
 building and distributing your docker-images.
 It provides a centralized resource for docker image discovery,
@@ -247,11 +256,13 @@ on [Docker's documentation site][05].
 # Embedded Device Containers
 
 ## Docker on OpenWrt
+
 * [Docker OpenWRT Image](https://wiki.openwrt.org/doc/howto/docker_openwrt_image)
 * [Building OpenWRT With Docker](https://noah.meyerhans.us/blog/2015/03/19/building-openwrt-with-docker/)
 * [Run docker on raspberry pi and openwrt](https://zhihuicao.wordpress.com/2015/10/17/run-docker-on-raspberry-pi-and-openwrt/)
 
 ## Docker on Raspberry Pi
+
 You can now install the Docker client on your Raspberry Pi with just one terminal command:
 
 ```bash
@@ -265,6 +276,7 @@ curl -sSL https://get.docker.com | sh
 * [Hands-on Docker for Raspberry Pi](https://blog.alexellis.io/hands-on-docker-raspberrypi/)
 
 ## HypriotOS
+
 Prior to 2015, Docker was not easily available for ARM-based devices
 but the folks at [Hypriot][13] have made [Docker on the RPi][14] easy.
 Hypriot built and released their own OS image, HypriotOS,
@@ -277,6 +289,7 @@ Just download, extract, flash to a SD Card, and boot your Raspberry Pi.
 Within minutes you have Docker up and running and you can instantly start using it.
 
 ## Resin.io
+
 In a nut shell,
 Resin.io/ResinOS alows you to run Docker containers on embedded devices.
 
@@ -293,11 +306,11 @@ It runs as an isolated process in userspace on the resinOS host.
 * **resinOS** is a simple operating system that brings standard Docker containers
 to embedded devices and works on a wide variety of device types and architectures.
 * Resin Application
-* **Resin Supervisor** is resin.io's agent that runs on devices. Its main role is to ensure your app is running, and keep communications with the Resin API server. - https://docs.resin.io/runtime/supervisor-api/
+* **Resin Supervisor** is resin.io's agent that runs on devices. Its main role is to ensure your app is running, and keep communications with the Resin API server. - <https://docs.resin.io/runtime/supervisor-api/>
 * **Local Mode** is the new experimental development mode for resin.io.
 It allows you to build and sync code to a single development device in your local network
 without having to go through the whole git push, build, deployment pipeline.
-It uses the docker daemon on the device to do the builds. - https://docs.resin.io/development/local-mode/
+It uses the docker daemon on the device to do the builds. - <https://docs.resin.io/development/local-mode/>
 and starts the container up in very much the same way as the resin-supervisor would.
 * **edge-node-manager** provides an API that allows the user
 to set the target status of the main process.
@@ -305,7 +318,7 @@ This is useful to free up the on-board radios
 allowing user code to interact directly with the dependent devices e.g. to collect sensor data.
 * **Dockerfile.template** is basically a recipe file on how to build and run our application container.
 * **Yocto** is an open source project that provides templates, tools, and methods
-to help you create custom Linux-based systems for embedded products regardless of the hardware architecture - https://www.yoctoproject.org/
+to help you create custom Linux-based systems for embedded products regardless of the hardware architecture - <https://www.yoctoproject.org/>
 
 * [Getting started with resin.io](https://www.youtube.com/watch?v=zQVnHCcwzrE)
 * Using resin.io [Part 1](https://www.youtube.com/watch?v=8zXWn4RNgJc), [Part 2]()
@@ -313,6 +326,7 @@ to help you create custom Linux-based systems for embedded products regardless o
 and the [slides from the video](https://www.slideshare.net/resin_io/introducing-resinos-an-operating-system-tailored-for-containers-and-built-for-the-embedded-world)
 
 ### Code Deployment
+
 [!how-deploy-works](https://docs.resin.io/img/common/how_deploy_works.jpg)
 
 * [Resin.io](https://resin.io/#)
@@ -325,6 +339,7 @@ and the [slides from the video](https://www.slideshare.net/resin_io/introducing-
 * [Getting Started With Raspberry Pi 3 and Node.js](https://docs.resin.io/raspberrypi3/nodejs/getting-started/)
 
 ### Step 0:  Sign-up for Resin.io - DONE
+
 If you don't already have a resin.io account, go to the sign-up page,
 during the sign up process you will be asked to set up an SSH key so you can securely push code.
 
@@ -336,6 +351,7 @@ I pasted its contents into Resin.io.
 and I created a new application.
 
 ### Step X: Download and Burn resinOS - DONE
+
 During your device setup, you'll be prompted to download the resinOS image.
 You can use the [latest development version of resinOS][19]
 but it is likely you want the production version that resides on the [Resin Dashboard][20].
@@ -383,6 +399,7 @@ Checksum: f8de38eb
 ```
 
 ### Step X: Adding Your Device - DONE
+
 Now you can eject the burnt SD card and insert into the Raspberry Pi 3.
 Connect your Raspberry Pi 3 to the Internet, then power it up.
 In less than 10 minutes, your device should appear as "online" on the [resin.io dashboard][20].
@@ -395,9 +412,11 @@ At this point, your devices has no code to run, and in fact your can't even logi
 via ssh but we can fix that.
 
 ### Step X: Provisioning a device using the CLI
-https://www.youtube.com/watch?v=xrmnkDqRGjk&list=PLT5WZl9m5WoPEU1tEM01SIlQnG2rNb6D0&index=7
+
+<https://www.youtube.com/watch?v=xrmnkDqRGjk&list=PLT5WZl9m5WoPEU1tEM01SIlQnG2rNb6D0&index=7>
 
 ### Step X: Deploy OpenSSH - DONE
+
 This container starts an `openssh` server on port 22.
 You can then ssh into the running container using
 `ssh root@<YOUR-DEVICE'S-IP>` the default password for `root` is `resin`.
@@ -435,12 +454,14 @@ ssh -X root@192.168.1.204
 ```
 
 ### Step X: Deploy Express.js Web Server
-https://docs.resin.io/raspberrypi/nodejs/getting-started/#deploying-code
+
+<https://docs.resin.io/raspberrypi/nodejs/getting-started/#deploying-code>
 
 ### Step X: Deploy Raspberry Pi 3 Bluetooth
+
 This container will enable the native Bluetooth capabilities of the Raspberry Pi.
 
-https://github.com/resin-io-projects/rpi3-bluetooth
+<https://github.com/resin-io-projects/rpi3-bluetooth>
 
 ```bash
 # go to a directory where you'll store all your resin applications packages
@@ -451,14 +472,15 @@ git clone https://github.com/resin-io-projects/rpi3-bluetooth.git
 ```
 
 ### Step X: Custom Base Images
-https://docs.resin.io/configuration/custom-docker-base-images/
+
+<https://docs.resin.io/configuration/custom-docker-base-images/>
 
 ### Step X: Building a Container
+
 [Building ARM containers on any x86 machine, even DockerHub](https://resin.io/blog/building-arm-containers-on-any-x86-machine-even-dockerhub/)
 
 
 
-[01]:https://www.docker.com/
 [02]:http://kubernetes.io/
 [03]:https://hub.docker.com/
 [04]:https://docs.docker.com/docker-hub/overview/

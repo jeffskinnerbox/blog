@@ -16,6 +16,7 @@ Version:      0.0.0
 
 
 # Basics of Oscilloscopes
+
 The modern oscilloscope is an invaluable tool.
 [What is an oscilloscope?  What is it useful for?  How is it used?][06]
 At its simplest level the oscilloscope allows users to visualize the behavior of a signal
@@ -41,12 +42,14 @@ specifically the [Rigol DS1054Z][07] ([Rigol's site][08] and [Rigol DS1054Z User
 
 
 # Update Rigol DS1054Z Firmware - DONE
+
 First thing to do is update you Rigol DS1054Z firmware.
 [Here's a step-by-step video on how to perform the firmware (FW) upgrade][09].
 The steps are as follows:
 
 
 ## Step 1: Format USB thumbdrive as Fat32 - DONE
+
 show your USB drive among all storage partitions and volumes on your computer use
 `dg -h` or `lsblk`.
 
@@ -60,6 +63,7 @@ sudo mkfs.vfat -F 32 -n 'THUMB-DRIVE' /dev/sdi1
 
 
 ## Step 2: Downloading the Firmware - DONE
+
 Download the zip file to you PC drive first and then load to the thumb dirve:
 
 ```bash
@@ -76,6 +80,7 @@ cp DS1000ZUpdate.GEL /media/jeff/THUMB-DRIVE/
 
 
 ## Step 3: Do Firmware Upgrade - DONE
+
 Now get your oscilloscopes firmware version
 by select buttons **System** > **System Info**.
 
@@ -92,6 +97,7 @@ Select buttons **Utility** > **Menu Down Arrow** > **Self-Cal** > **Start**
 
 
 # Expand Rigol DS1054Z Bandwidth to 100 MHz - DONE
+
 There is a simple hack for the Rigol DS1054Z Digital Oscilloscope
 in order to activate all the installed options, including its 100Mhz bandwidth.
 You'll find that hack in the video
@@ -166,8 +172,8 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 
 * [Building A Swiss Army Lab With Software Defined Instrumentation](https://hackaday.com/2022/04/29/building-a-swiss-army-lab-with-software-defined-instrumentation/)
-    * [Liquid Insruments](https://www.liquidinstruments.com/)
-    * [Moku:Go](https://www.liquidinstruments.com/products/hardware-platforms/mokugo/)
+  * [Liquid Insruments](https://www.liquidinstruments.com/)
+  * [Moku:Go](https://www.liquidinstruments.com/products/hardware-platforms/mokugo/)
 
 
 * [EEVblog Oscilloscope Tutorials](https://www.youtube.com/playlist?list=PLvOlSehNtuHsCTtj-T_vkpTTbBXW4sB51)
@@ -184,7 +190,7 @@ Software Key: RDJ9JBB-N3SWWUS-RZ4ERVJ-K543RMA
 
 * [LEAP: Little Electronic and Arduino Projects](https://leap.tardate.com/)
 * [How to Use an Oscilloscope](https://learn.sparkfun.com/tutorials/how-to-use-an-oscilloscope)
-    * [How to Use an Oscilloscope: The Video](https://www.youtube.com/watch?v=u4zyptPLlJI&app=desktop)
+  * [How to Use an Oscilloscope: The Video](https://www.youtube.com/watch?v=u4zyptPLlJI&app=desktop)
 
 * [Break Your Scope’s Bandwidth Barrier](https://hackaday.com/2019/01/24/break-your-scopes-bandwidth-barrier/)
 
@@ -209,7 +215,9 @@ Oscilloscope Sample Rate
 
 
 # Oscilloscope Measurements Below The Noise Floor
+
 Finding hidden signals below the noise floor may be a challenge, but it needn’t be an insurmountable one.
+
 * [Supercon 2024: Using An Oscilloscope To Peek Below The Noise Floor](https://hackaday.com/2025/05/28/supercon-2024-using-an-oscilloscope-to-peek-below-the-noise-floor/)
 
 # Noise and EMI
@@ -239,6 +247,7 @@ Finding hidden signals below the noise floor may be a challenge, but it needn’
 
 
 ## The Art of Electronics
+
 None of these tools will be a substitute for a mastering of the domain of electronics.
 To that, you man not start here, but you should certainly finish here:
 [The Truth is in There: The Art of Electronics, the x-Chapters](https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters)
@@ -276,6 +285,7 @@ To that, you man not start here, but you should certainly finish here:
 
 
 ## FFT Mode
+
 See 15:45 minutes into the video. Bottomline ... doesn't work well - [EEVblog #845 - Oscilloscope FFT Comparison](https://www.youtube.com/watch?v=07VkEUUd0eo&feature=youtu.be)
 
 
@@ -301,6 +311,7 @@ See 15:45 minutes into the video. Bottomline ... doesn't work well - [EEVblog #8
 
 
 # Vernier Controls
+
 The concept is similar in use to [vernier calipers][04] which have a primary scale for gross measurements, and a secondary scale for fine measurements.
 
 * [Get Better Accuracy On Your Oscilloscope](https://www.youtube.com/watch?v=8iE28oGtayQ)
@@ -339,12 +350,13 @@ The concept is similar in use to [vernier calipers][04] which have a primary sca
 # Transistor Curve Tracer
 
 * [Simple Transistor Curve Tracer for Oscilloscopes.](https://www.youtube.com/watch?v=V5UJiaRwV88)
-    * [Simple but effective Transistor Curve Tracer circuit](https://www.eddybergman.com/2017/06/simple-but-effective-transistor-curve.html#google_vignette)
-    * [Transistor Curve Tracer](https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-09/page/n37/mode/2up)
+  * [Simple but effective Transistor Curve Tracer circuit](https://www.eddybergman.com/2017/06/simple-but-effective-transistor-curve.html#google_vignette)
+  * [Transistor Curve Tracer](https://archive.org/details/ElektorMagazine/Elektor%5Bnonlinear.ir%5D%201980-09/page/n37/mode/2up)
 * [Don’t Forget Your Curve Tracer](https://hackaday.com/2024/11/02/dont-forget-your-curve-tracer/)
 
 
 # Oscilloscope Probes
+
 An ideal oscilloscope probe would provide an exact copy of the signal you are probing. But in the real world, your probe becomes a part of the circuit under test because the probes and accessories attached to your device under test cause probe loading to the circuit.
 Depending on the probe and the circuit, the probe loading may cause unwanted side effects such as overshooting, ringing, and DC offset problems in the time domain.
 
@@ -443,6 +455,7 @@ Depending on the probe and the circuit, the probe loading may cause unwanted sid
 
 
 ## Chaotic Circuits
+
 A Chua's circuit (also known as a Chua circuit)
 is a simple electronic circuit that exhibits classic chaotic behavior.
 It's ease of construction and a real-world example of a chaotic system,
@@ -468,10 +481,11 @@ leading some to declare it ["a paradigm for chaos"][05].
 
 
 ## Vector Display / X-Y Mode
+
 Most dual channel oscilloscopes have an XY mode in which the timebase is replaced by the second channel, so instead of a constant sweep frequency the two inputs to be plotted relative to each other.
 
 * [STM32 Draws on Scope: Rendering 3D Graphics On An Oscilloscope](https://hackaday.com/2024/03/10/stm32-draws-on-scope/)
-    * [GetHub: Rendering 3D Graphics On An Oscilloscope](https://github.com/lowbyteproductions/3d-oscilloscope-renderer)
+  * [GetHub: Rendering 3D Graphics On An Oscilloscope](https://github.com/lowbyteproductions/3d-oscilloscope-renderer)
 
 * turned his oscilloscope into a vector display - [WATCH VIDEO ON A OSCILLOSCOPE WITH AN ESP32](https://hackaday.com/2017/12/23/watch-video-on-a-oscilloscope-with-an-esp32/)
 * [Scopetrex Is A Game Console… For Your Oscilloscope!](https://hackaday.com/2020/05/07/scopetrex-is-a-game-console-for-your-oscilloscope/)
@@ -514,6 +528,7 @@ Most dual channel oscilloscopes have an XY mode in which the timebase is replace
 
 
 # LAN eXtensIons (LXI)
+
 LXI, or LAN eXtensions for Instrumentation is a modern control standard for connecting electronics instrumentation which supports ethernet. It replaces the older GPIB standard, giving much better performance and lower cost of implementation.
 
 * [Open Source LXI Tools Free Us From Vendor Bloat](https://hackaday.com/2022/02/18/open-source-lxi-tools-free-us-from-vendor-bloat/)

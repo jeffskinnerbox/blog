@@ -15,7 +15,7 @@ Version:      0.0.0
 
 * [Transparent Themed BB-8 Robot From Star Wars](https://www.instructables.com/Transparent-Themed-BB-8-Robot-From-Star-Wars/)
 * [Site logo image Hackaday Stair Climbing Rover Gets Up With Rocker Bogies](https://hackaday.com/2023/02/18/stair-climbing-rover-gets-up-with-rocker-bogies/)
-    * [Stair Climbing Rover](https://www.printables.com/model/194299-stair-climbing-rover)
+  * [Stair Climbing Rover](https://www.printables.com/model/194299-stair-climbing-rover)
 
 
 # Omnidirectional Robots
@@ -25,7 +25,7 @@ Version:      0.0.0
 
 
 * [ESP32 based omnidirectional robots w/ camera | makermoekoe](https://www.youtube.com/watch?v=OIdMkZyhx7E&t=0s)
-    * [ESP32-CAM](https://www.cnx-software.com/2025/02/11/build-a-four-wheel-rc-car-with-esp32-cam-board-and-off-the-shelf-parts/)
+  * [ESP32-CAM](https://www.cnx-software.com/2025/02/11/build-a-four-wheel-rc-car-with-esp32-cam-board-and-off-the-shelf-parts/)
 * [Modern Robotics, Chapter 13.2: Omnidirectional Wheeled Mobile Robots (Part 1 of 2)](https://www.youtube.com/watch?v=NcOT9hOsceE)
 * [Modern Robotics: Mechanics, Planning, and Control](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
 * [How to use omni directional wheels](https://www.youtube.com/watch?v=wwQQnSWqB7A)
@@ -46,6 +46,6 @@ Version:      0.0.0
 # Hub Motor Design
 
 * [ESP32-based Waveshare DDSM Driver HAT (B) for Raspberry Pi supports DDSM400 hub motors](https://www.cnx-software.com/2025/01/15/esp32-based-waveshare-ddsm-driver-hat-b-for-raspberry-pi-supports-ddsm400-hub-motors/)
-    * [Waveshape DDSM400 Direct Drive Servo Motor](https://www.waveshare.com/ddsm400.htm)
-    * [Direct Drive Servo Motor Driver Board](https://www.waveshare.com/product/ddsm-driver-hat-b.htm)
+  * [Waveshape DDSM400 Direct Drive Servo Motor](https://www.waveshare.com/ddsm400.htm)
+  * [Direct Drive Servo Motor Driver Board](https://www.waveshare.com/product/ddsm-driver-hat-b.htm)
 

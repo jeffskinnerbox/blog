@@ -109,7 +109,7 @@ Movidius Neural Compute SDK currently supports two Deep Learning frameworks:
 
 * [Caffe][07] - a deep learning framework from Berkeley Vision Labs
 * [TensorFlow][06] - a deep learning framework from Google
-    * [TensorFlow Lite](https://hackaday.com/2017/11/23/smarter-phones-in-your-hacks-with-tensorflow-lite/)
+  * [TensorFlow Lite](https://hackaday.com/2017/11/23/smarter-phones-in-your-hacks-with-tensorflow-lite/)
 
 What about other Deep Learning frameworks like
 [PyTorch](http://pytorch.org/),
@@ -195,7 +195,7 @@ Guidance on implementation:
 * [Gentle guide on how YOLO Object Localization works with Keras (Part 1)](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)
 * [Gentle guide on how YOLO Object Localization works with Keras (Part 2)](https://heartbeat.fritz.ai/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-2-65fe59ac12d)
 * [YOLO Object Detection](https://www.youtube.com/watch?v=4eIBisqx9_g)
-    * <https://github.com/llSourcell/YOLO_Object_Detection>
+  * <https://github.com/llSourcell/YOLO_Object_Detection>
 
 * [What’s new in YOLO v3?](https://towardsdatascience.com/yolo-v3-object-detection-53fb7d3bfe6b)
 * [YOLO for Intel/Movidius Neural Compute Stick (NCS)](https://github.com/gudovskiy/yoloNCS)
@@ -213,6 +213,7 @@ Guidance on implementation:
 
 
 # Intel OpenVINO
+
 Intel has acquired four companies to go after the AI market:
 Nervana, Movidius, MobileEye, and Altera.
 Intel has announced a software strategy,
@@ -228,6 +229,7 @@ to unify these offerings for the application developer.
 
 
 # Step 1: Build Movidius NCS SDK
+
 To quickly get going, check out the [Movidius NCS Quick Start Guide][08].
 (**NOTE:** A more complete guide can be found [here][11].)
 You find additional documentation [here][09].
@@ -291,6 +293,7 @@ git clone https://github.com/movidius/ncappzoo.git
 
 
 # Step X: Training Neural Network
+
 The training phase does not utilize the NCS hardware or SDK,
 while the subsequent phases of “profiling, tuning and compiling” and “prototyping”
 do require the NCS hardware and the accompanying Movidius™ Neural Compute SDK.

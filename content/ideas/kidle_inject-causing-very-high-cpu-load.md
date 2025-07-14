@@ -1,5 +1,5 @@
 !--
-Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
+Maintainer:   <jeffskinnerbox@yahoo.com> / <www.jeffskinnerbox.me>
 Version:      0.0.0
 -->
 
@@ -25,23 +25,28 @@ Whenever the process `kidle_inject` starts running on my Linux (Ubuntu 22.04.3,
 the CPU load shoots up nearly to 100% and the CPU temperature rises to 100ºC or more.
 
 # Fruitful searchs
-* https://www.google.com/search?q=chrome+kidle_inj&oq=chrome+kidle_inj&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigAdIBCTM4MjE4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1
-* https://www.google.com/search?q=chrome+kidle_inj&sca_esv=581821413&cs=1&sxsrf=AM9HkKlElaCY0OoiLXbRIy42dIAwGjYyDw:1699849885018&filter=0
+
+* <https://www.google.com/search?q=chrome+kidle_inj&oq=chrome+kidle_inj&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigAdIBCTM4MjE4ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#ip=1>
+* <https://www.google.com/search?q=chrome+kidle_inj&sca_esv=581821413&cs=1&sxsrf=AM9HkKlElaCY0OoiLXbRIy42dIAwGjYyDw:1699849885018&filter=0>
 
 # Helpful Sites
+
 * [Using the Chrome Task Manager to Find In-Browser Miners](https://www.bleepingcomputer.com/news/security/using-the-chrome-task-manager-to-find-in-browser-miners/)
 
 # Informative Sites
+
 * [kidle_inject uses cpu power without apparent reason](https://askubuntu.com/questions/482307/kidle-inject-uses-cpu-power-without-apparent-reason)
 
 # Bad Advice Sites
+
 * [kidle_inject causing very high load](https://askubuntu.com/questions/584636/kidle-inject-causing-very-high-load)
 
 # So, what is this kidle_inject?
 
 
 # What have I done so far?
+
 * Nov 13, 2023
-    * Removed a bunch of Extensions from Chrome Browser (**Menu** (aka top right-hand side, three vertical dots) > **Settings** >  **Extensions**)
-    * Cleared **all** Chrome browser data (**Menu** (aka top right-hand side, three vertical dots) > **More Tools** >  **Clear browsing data...** > **Advanced** tab and cleared for all time and all categories)
+  * Removed a bunch of Extensions from Chrome Browser (**Menu** (aka top right-hand side, three vertical dots) > **Settings** >  **Extensions**)
+  * Cleared **all** Chrome browser data (**Menu** (aka top right-hand side, three vertical dots) > **More Tools** >  **Clear browsing data...** > **Advanced** tab and cleared for all time and all categories)
 

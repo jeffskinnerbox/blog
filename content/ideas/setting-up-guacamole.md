@@ -58,6 +58,7 @@ Check out your document -  /home/jeff/blogging/content/articles/howto-using-xeph
 
 
 # Guacamole vs AnyDesk
+
 AnyDesk is a popular remote desktop software for Linux, Windows, BSD, macOS, and mobile platforms.
 With this tool, you can remotely access other computers using AnyDesk
 (you must provide a password for a secure connection)
@@ -76,6 +77,7 @@ or let someone else remotely access your system
 
 
 # Guacamole
+
 [Guacamole][01] is a free & open source application
 that allows you to access your computers from anywhere.
 It can be put behind a proxy server which allows you to access your servers from anywhere in the world.
@@ -92,18 +94,18 @@ These APIs allow Guacamole to be tightly integrated into other applications,
 whether they be open source or proprietary.
 
 * Install & Configure Guacamole
-    * [Apache Guacamole][01]
-    * [access EVERYTHING from your web browser!! (Linux and Windows Desktop, SSH) // Guacamole Install](https://www.youtube.com/watch?v=gsvS2M5knOw)
-    * [Meet Guacamole, Your Remote Access Gateway](https://www.youtube.com/watch?v=LWdxhZyHT_8)
-    * [Pi-Hosted : Manually Installing Guacamole on Portainer Part 3](https://www.youtube.com/watch?v=cKAhnf8X1lo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=3)
-    * [How To Access Your PCs and Servers from Anywhere Using Guacamole and CloudFlare Tunnels](https://www.youtube.com/watch?v=tg1CbMEzCsc)
-    * [Remote Access to ANY server - Guacamole WebApp Tutorial](https://www.youtube.com/watch?v=Sq-irDBauvo)
-    * [access EVERYTHING from your web browser!! (Linux and Windows Desktop, SSH) // Guacamole Install](https://www.youtube.com/watch?v=gsvS2M5knOw&t=1447s)
-    * [Guacamole Remote Desktop - Open Source, Self Hosted remote access to your machines in the browser!](https://www.youtube.com/watch?v=DGw6P5Lkj-U)
+  * [Apache Guacamole][01]
+  * [access EVERYTHING from your web browser!! (Linux and Windows Desktop, SSH) // Guacamole Install](https://www.youtube.com/watch?v=gsvS2M5knOw)
+  * [Meet Guacamole, Your Remote Access Gateway](https://www.youtube.com/watch?v=LWdxhZyHT_8)
+  * [Pi-Hosted : Manually Installing Guacamole on Portainer Part 3](https://www.youtube.com/watch?v=cKAhnf8X1lo&list=PL846hFPMqg3jwkxcScD1xw2bKXrJVvarc&index=3)
+  * [How To Access Your PCs and Servers from Anywhere Using Guacamole and CloudFlare Tunnels](https://www.youtube.com/watch?v=tg1CbMEzCsc)
+  * [Remote Access to ANY server - Guacamole WebApp Tutorial](https://www.youtube.com/watch?v=Sq-irDBauvo)
+  * [access EVERYTHING from your web browser!! (Linux and Windows Desktop, SSH) // Guacamole Install](https://www.youtube.com/watch?v=gsvS2M5knOw&t=1447s)
+  * [Guacamole Remote Desktop - Open Source, Self Hosted remote access to your machines in the browser!](https://www.youtube.com/watch?v=DGw6P5Lkj-U)
 * CloudFlare Tunnels
-    * [Remote Access: Getting Started with CloudFlare Tunnels (Domains, DNS, Tunnels)](https://www.youtube.com/watch?v=Q5dG8g4-Sx0)
-    * [Using Cloudflare Tunnels For Hosting & Certificates Without Exposing Ports On Your Firewall](https://www.youtube.com/watch?v=eojWaJQvqiw&t=5s)
-    * [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/)
+  * [Remote Access: Getting Started with CloudFlare Tunnels (Domains, DNS, Tunnels)](https://www.youtube.com/watch?v=Q5dG8g4-Sx0)
+  * [Using Cloudflare Tunnels For Hosting & Certificates Without Exposing Ports On Your Firewall](https://www.youtube.com/watch?v=eojWaJQvqiw&t=5s)
+  * [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/)
 
 
 # How To Remove Docker Images, Containers, and Volumes
@@ -121,6 +123,7 @@ sudo docker system prune -a
 
 
 # Remove dangling volumes
+
 Since the point of volumes is to exist independent from containers, when a container is removed, a volume is not automatically removed at the same time. When a volume exists and is no longer connected to any containers, it’s called a dangling volume. To locate them to confirm you want to remove them, you can use the docker volume ls command with a filter to limit the results to dangling volumes. When you’re satisfied with the list, you can remove them all with docker volume prune:
 
 List:
@@ -133,6 +136,7 @@ sudo docker volume prune
 
 
 # Remove a container and its volume
+
 If you created an unnamed volume, it can be deleted at the same time as the container with the -v flag. Note that this only works with unnamed volumes. When the container is successfully removed, its ID is displayed. Note that no reference is made to the removal of the volume. If it is unnamed, it is silently removed from the system. If it is named, it silently stays present.
 
 Remove:
@@ -146,6 +150,7 @@ sudo docker rm -v container_name
 
 
 #### Step 1: Install Guacamole & Start - DONE
+
 I'm getting my Docker container for Guacamole from the DockerHub repository [abesnier/guacamole][09].
 It is a self-contained Guacamole Docker container using the latest
 [tomcat][05], [postgresql][06], [s6overlay][07], and, [guacamole][01].
@@ -205,6 +210,7 @@ but we will first configure Cloudflare.
 
 
 #### Step 2 - Configure Cloudflare to Support Guacamole - DONE
+
 I'm using [Cloudflare as my DNS server][10] and [Cloudflare Tunnels][11] for incresed protection of my LAN.
 To configure Cloudflare to support my home LAN envirnment,
 [login to Cloudflare][12],
@@ -229,6 +235,7 @@ The container should be restarted with the new token.
 
 
 #### Step 3: Create New Guacamole Admin login - DONE
+
 We are now done with Cloudflare and time to move back to Guacamole.
 
 Make sure to remove the default username and password and create a new one.
@@ -246,6 +253,7 @@ Now do all your administrative work for Guacamole via this new login.
 
 
 #### Step 4: Guacamole Two Factor Authentication (2FA) via Cloudflare Tunnels - DONE
+
 Guacamole, as currently implemented above,
 provides no secuirty protection other than login/password.
 Given that I plan to used Guacamole outside my home LAN, this isn't very safe.
@@ -255,6 +263,7 @@ This [video][08] provide a good tutoral on using Cloudflare Access to protect yo
 
 
 #### Step 5: Create a Guacamole Connection
+
 Goto the top right-hand menu and select **Settings** > **Connections**.
 Click the button **New Connections**.
 Enter the following information
@@ -285,6 +294,7 @@ and we'll install that next.
 
 
 # Install Virtual Network Computing (VNC)
+
 I want to remote desktop into Linux so I can take full advantage of the the desktop GUI menu system.
 There are in fact [many remote desktop software packages][32] available to choose from,
 but only small number seem to have any following in the Linux world,
@@ -336,21 +346,22 @@ I followed mainly the first source below:
 Sources:
 
 * VNC vs RDP
-    * [VNC vs RDP: which remote desktop tool is the best?](https://www.realvnc.com/en/blog/vnc-vs-rdp-which-remote-desktop-tool-is-best/)
-    * [VNC vs RDP: Similarities and Differences](https://www.parallels.com/blogs/ras/vnc-vs-rdp/)
+  * [VNC vs RDP: which remote desktop tool is the best?](https://www.realvnc.com/en/blog/vnc-vs-rdp-which-remote-desktop-tool-is-best/)
+  * [VNC vs RDP: Similarities and Differences](https://www.parallels.com/blogs/ras/vnc-vs-rdp/)
 * TigerVNC
-    * [How to Install and Configure VNC on Ubuntu 22.04][14]
-    * [Install VNC Server with Gnome display on Ubuntu 18.04](https://www.teknotut.com/install-vnc-server-with-gnome-display-on-ubuntu-18-04/)
-    * [How to install and configure VNC on Ubuntu](https://linuxhint.com/install-configure-vnc-ubuntu/)
-    * [How To Install VNC Server on Ubuntu 22.04 LTS](https://idroot.us/install-vnc-server-ubuntu-22-04/)
+  * [How to Install and Configure VNC on Ubuntu 22.04][14]
+  * [Install VNC Server with Gnome display on Ubuntu 18.04](https://www.teknotut.com/install-vnc-server-with-gnome-display-on-ubuntu-18-04/)
+  * [How to install and configure VNC on Ubuntu](https://linuxhint.com/install-configure-vnc-ubuntu/)
+  * [How To Install VNC Server on Ubuntu 22.04 LTS](https://idroot.us/install-vnc-server-ubuntu-22-04/)
 * TightVNC
-    * [How to Install & Configure VNC Server on Ubuntu 22.04|20.04](https://bytexd.com/how-to-install-configure-vnc-server-on-ubuntu/)
-    * [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
-    * [Install and Configure VNC server on Ubuntu 22.04](https://itnixpro.com/install-and-configure-vnc-server-on-ubuntu-22-04/)
-    * [Install and Configure VNC Server on Ubuntu 22.04|20.04|18.04](https://computingforgeeks.com/how-to-install-vnc-server-on-ubuntu/)
+  * [How to Install & Configure VNC Server on Ubuntu 22.04|20.04](https://bytexd.com/how-to-install-configure-vnc-server-on-ubuntu/)
+  * [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
+  * [Install and Configure VNC server on Ubuntu 22.04](https://itnixpro.com/install-and-configure-vnc-server-on-ubuntu-22-04/)
+  * [Install and Configure VNC Server on Ubuntu 22.04|20.04|18.04](https://computingforgeeks.com/how-to-install-vnc-server-on-ubuntu/)
 
 
 #### Step 0: Remove VNC From Your System - DONE
+
 During my installation of VNC,
 I ran into problems, particularly with TigerVNC,
 and I had  to do some remove & re-install operations.
@@ -388,6 +399,7 @@ sudo systemctl daemon-reload
 
 
 #### Step 1: Check What is Already Install - DONE
+
 There are couple ways to [detect whether your Linux system has GUI installed][13].
 These method will not, however, help to identify if GUI is running or not.
 
@@ -420,6 +432,7 @@ The VNC server package appears to be loaded but not installed and not executable
 
 
 #### Step 2: Install VNC on Ubuntu - DONE
+
 So I need to install the TigerVNC VNC client on Ubuntu,
 but for completeness, I'll do both the client and server:
 
@@ -494,6 +507,7 @@ vncserver -kill :*
 
 
 #### Step X: Preliminary Testing of VNC
+
 Let's do some testing of the VNC tools that have been installed to make sure
 they are working and to understand how they operate.
 
@@ -506,6 +520,7 @@ Execute `lsl /tmp/.X*-lock` to see what displays have been created
 
 
 #####
+
 After you have installed a VNC Viewer, you should test that you can connect to your  on your local network. You should do this before setting up the tunnel for remote access, to check that everything is installed correctly.
 
 vncserver :2 -geometry 800x600 -depth 24
@@ -517,10 +532,12 @@ vncviewer desktop:2
 
 
 #####
+
 Applications > Accessories > Connections
 
 
 #####
+
 $ vncserver -geometry 800x600 -depth 24 :1
 Warning: desktop:1 is taken because of /tmp/.X1-lock
 Remove this file if there is no X server desktop:1
@@ -548,6 +565,7 @@ Why is $DISPLAY sometimes :0 and sometimes :1 - <https://stackoverflow.com/quest
 
 
 #### Step X: Setting Up a Firewall - ???
+
 Applications can register their profiles with UFW upon installation.
 These profiles allow UFW to manage these applications by name.
 Lets see if TigerVNC registered with UFW:
@@ -594,6 +612,7 @@ sudo ufw allow 5900 8901
 
 
 #### Step X: Edit VNC Startup Script Settings - DONE
+
 The VNC server can be told what commands to perform when it starts up
 I want to configure VNC to launch the full desktop environment when it starts.
 These commands are located in a configuration file `~/.vnc/xstartup`,
@@ -634,6 +653,7 @@ When working with VNC servers, remember that `:X` is a display port that refers 
 
 
 #### Step X: Test the VNC Server & Client
+
 To run the VNC Server, you can use the following command:
 
 ```bash
@@ -657,6 +677,7 @@ You can configure the resolution and sharpness according to your taste.
 
 
 #### Step X: Create VNC Start/Stop Script
+
 In an effort to make the use of VNC easy,
 we will create a script to start/stop the VNC server service.
 Also, with this script, we can make auto-start VNC servers when the computer is turned on.

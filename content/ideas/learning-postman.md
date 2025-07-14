@@ -87,16 +87,19 @@ There are several tools to choose from, but I have invested my time & efforts in
     and get insights for code optimization.
 
 # OAuth 2.0
+
 * [Using Postman Environment Variables & Auth Tokens](https://medium.com/@codebyjeff/using-postman-environment-variables-auth-tokens-ea9c4fe9d3d7#.ghq4nf8lp)
 * [Visualizing the OAuth 2.0 Client Flow](http://techblog.constantcontact.com/api/visualizing-the-oauth-2-0-client-flow/)
 * [Beer Locker: Building a RESTful API With Node - OAuth2 Server](http://scottksmith.com/blog/2014/07/02/beer-locker-building-a-restful-api-with-node-oauth2-server/)
 
 ## Learning OAuth2
+
 * [Serious OAuth in 8 Steps](https://knpuniversity.com/screencast/oauth/intro)
 * [3 Legged OAuth 2 using Insomnia REST](https://forge.autodesk.com/blog/3-legged-oauth-2-using-insomnia-rest)
 * [GitHub API Authentication using OAuth 2.0](https://insomnia.rest/blog/oauth2-github-api/)
 
 # Insomnia
+
 Insomnia is open source cross-platform REST API client desktop application and alternative to Postmen.
 It takes the pain out of interacting with HTTP-based APIs.
 Insomnia combines an easy-to-use interface with advanced functionality like
@@ -105,6 +108,7 @@ authentication helpers, code generation, and environment variables.
 * [Insomnia](https://insomnia.rest/)
 
 # Mitmproxy
+
 [mitmproxy][15] is an open source, interactive,
 SSL-capable intercepting proxy with a console interface
 used for debugging, testing, privacy measurements, and penetration testing.
@@ -116,6 +120,7 @@ HTTP/1, HTTP/2, WebSockets, or any other SSL/TLS-protected protocols.
 * [Decrypt your HTTPS traffic with mitmproxy](https://www.darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/)
 
 # Which Postman Application
+
 There is a [Postman Chrome browser application][09]
 and the preferred Windows/Linux/MacOS [Postman Native App][08]
 but **NOTE** that the [Postman Chrome browser app is being deprecated][12].
@@ -131,6 +136,7 @@ your running the native application.
 ## Installing Postman on Chrome OS
 
 ## Installing Postman on Ubuntu 18.04
+
 [Thanks to Snap][04], installing Postman on Ubuntu 18.04 should be made easier,
 no more manually downloading and extracting files.
 The problem is, it doesn't seem to work right (yet).
@@ -171,6 +177,7 @@ For me, this installed Postman for Linux Version 6.3.0 (linux 4.15.0-36-generic 
 This Postman's native apps will [notify you whenever a major update is available][05]
 
 # Postman Test Run
+
 Now lets take a test run with Postman interact with an API for both public and secure API endpoints.
 
 * [Linux users can now install Postman as a snap](http://blog.getpostman.com/2018/12/05/linux-users-can-now-install-postman-as-a-snap/)
@@ -180,22 +187,25 @@ Now lets take a test run with Postman interact with an API for both public and s
 * [Automating API’s testing with Postman and Newman](https://medium.com/@arthurgomesfaria/automating-apis-testing-with-postman-and-newman-a9a9ef0354d4)
 
 # API Documentation
+
 * [The Ultimate API Publisher’s Guide](https://www.youtube.com/watch?v=6Q3Cc1z-t5U)
 
 # cURL to Postman
-https://www.daniellittle.xyz/curl-to-postman/
+
+<https://www.daniellittle.xyz/curl-to-postman/>
 
 
 # Postman to cURL
-http://blog.getpostman.com/2016/02/03/curl-and-postman-work-wonderfully-together/
+
+<http://blog.getpostman.com/2016/02/03/curl-and-postman-work-wonderfully-together/>
 
 # API Testing
+
 * [API Testing With Postman](https://www.axelerant.com/resources/team-blog/topic/api-testing)
 
 
 
 [01]:https://www.getpostman.com/docs/introduction
-[02]:https://curl.haxx.se/
 [03]:http://linux.die.net/man/1/curl
 [04]:http://ubuntuhandbook.org/index.php/2018/09/install-postman-app-easily-via-snap-in-ubuntu-18-04/
 [05]:https://learning.getpostman.com/docs/postman/launching_postman/installation_and_updates#updating-postman

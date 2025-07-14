@@ -27,6 +27,7 @@ for non-cellular devices.
 # Background
 
 ## Thingspace Device Registration
+
 The International Mobile Equipment Identity (IMEI)
 is a 15 to 17-digit code that uniquely identifies mobile phone sets.
 The IMEI code can enable a GSM (Global System for Mobile communication) or UMTS (Universal Mobile Telecommunications Service) network to prevent a misplaced or stolen device from initiating calls.
@@ -34,6 +35,7 @@ The IMEI code can enable a GSM (Global System for Mobile communication) or UMTS 
 ---
 
 # Step 1: Downloading the SDK - DONE
+
 Check the README instructions within
 `https://github.com/verizonlabs/ts_sdk_c` and then clone the Thingspace SDK repository:
 
@@ -54,6 +56,7 @@ you will also need to update its submodules
 ```
 
 # Step X: Identify Your Raspberry Pi MAC Address - DONE
+
 To determine the MAC address of your Raspberry Pi,
 run the following in a terminal window:
 
@@ -86,10 +89,12 @@ The [Thingspace Device Management Portal: Developer Guide][05]
 takes you through the steps of getting you device working with Thingspace.
 
 ## Step X: Create an Account - DONE
-Go to the [Thingspace developer site][10] (aka https://core.thingspace.verizon.com/)
+
+Go to the [Thingspace developer site][10] (aka <https://core.thingspace.verizon.com/>)
 and create an account via the Sign In/Register button at the top right.
 
 ## Step X: Add a Device to Account - DONE
+
 The procedures for adding a device to Thingspace is document [here][13].
 I'll be following those procedures below.
 
@@ -117,6 +122,7 @@ You will check the "TS-SDK" box if you are adding a production device,
 which must be pre-registered with Thingspace.
 
 ## Step X: Obtaining Security Certificates - DONE
+
 Certificates are required to establish a secure connection
 between the Raspberry Pi client and the Thingspace server.
 
@@ -130,6 +136,7 @@ You'll need to install the certificate on your Raspberry Pi device.
 (ex. `scp ~/Downloads/ThingSpace/74DA386CD7AA.cert.pem pi@zero02:/home/pi/src/Thingspace_SDK`).
 
 ## Step X: Assigning Certificates to Applications - DONE
+
 Next we are going to associate the certificates with the sample application
 provided with the SDK (i.e. `~/src/Thingspace_SDK/examples/`).
 We do this via a script provide with the SDK:
@@ -140,6 +147,7 @@ We do this via a script provide with the SDK:
 ```
 
 ## Step X: Update Applications MAC Address Reference - DONE
+
 Next we need to change the sample application program's
 default MAC address to our `74DA386CD7AA`
 but first step is to find what the default MAC address is:
@@ -147,13 +155,14 @@ but first step is to find what the default MAC address is:
 ```bash
 # list the default mac address
 $ grep TS_DRIVER_MAX_ID_SIZE examples/platforms/ts_sdk_c_platforms_unix_raspberry-pi3/ts_driver_socket.c | grep "sock->_driver"
-	snprintf((char *) ( sock->_driver._spec_id ), TS_DRIVER_MAX_ID_SIZE, "%s", "B827EBA15910" );
+ snprintf((char *) ( sock->_driver._spec_id ), TS_DRIVER_MAX_ID_SIZE, "%s", "B827EBA15910" );
 
 # replace default mac address with yours
 sed -i 's/B827EBA15910/74DA386CD7AA/' examples/platforms/ts_sdk_c_platforms_unix_raspberry-pi3/ts_driver_socket.c
 ```
 
 ## Step X: Build the Applications - DONE
+
 Next we'll compile the applications in
 `~/src/Thingspace_SDK/examples/applications` folder
 and create binary application file in folder
@@ -187,6 +196,7 @@ before running cmake again (or just use a different directory name).
 
 
 ## Step X: Activate Device on Thingspace Portal
+
 We now need to start up the sample application we created, and while its running,
 activate the device on Thingspace.
 
@@ -248,9 +258,7 @@ should be received and viewable under Thingspace device history.
 [03]:https://core.thingspace.verizon.com/portal/ui/manage/devices/sdk-devices
 [04]:https://core.thingspace.verizon.com/portal/ui/resources/guides
 [05]:https://core.thingspace.verizon.com/portal/resources/guides/ts-portal
-[06]:https://core.thingspace.verizon.com/portal/ui/manage/credentials
 [07]:https://core.thingspace.verizon.com/portal/resources/guides/ts-portal
-[07]:https://help.ubuntu.com/community/SSH/TransferFiles
 [08]:https://github.com/verizonlabs/ts_sdk_c
 [09]:https://core.thingspace.verizon.com/portal/ui/manage/devices/sdk-devices/84715c37-e2eb-60e3-edc7-53ba65780978/history
 [10]:https://core.thingspace.verizon.com/portal/

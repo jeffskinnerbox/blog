@@ -14,13 +14,14 @@ Version:      0.0.0
 
 
 # ESP32C3-Powered ePaper Dashboard / Display
+
 Convert an IKEA RIBBA 5×7" picture frame into an ePaper dashboard for a Home Assistant smarthome.
 
 * [Nerdiy's 3D-Printed Framework Turns an IKEA RIBBA Into a Seeed XIAO ESP32C3-Powered ePaper Dashboard](https://www.hackster.io/news/nerdiy-s-3d-printed-framework-turns-an-ikea-ribba-into-a-seeed-xiao-esp32c3-powered-epaper-dashboard-3d09f96f7936)
-    * [Ikea Ribba eInk frame insert for 5″x7″ picture frames - 3D printable - STL files](https://nerdiy.de/en/product-2/eink-frame-insert-suitable-for-ikea-ribba-5x7-picture-frame-3d-printable-stl-files/)
-    * [eInk Frame Insert suitable for Ikea Ribba 5″x7″ picture frame](https://github.com/Nerdiyde/ESPHomeSnippets/tree/main/Snippets/eInk_frame_insert_ribba_5inchX7inch)
-    * [RIBBA Frame 5x7"](https://www.ikea.com/us/en/p/ribba-frame-black-50378448/)
-    * [Americanflat 5x7 Picture Frame in Black](https://www.amazon.com/Americanflat-Picture-Frame-Black-Built/dp/B0CMC9232L/)
+  * [Ikea Ribba eInk frame insert for 5″x7″ picture frames - 3D printable - STL files](https://nerdiy.de/en/product-2/eink-frame-insert-suitable-for-ikea-ribba-5x7-picture-frame-3d-printable-stl-files/)
+  * [eInk Frame Insert suitable for Ikea Ribba 5″x7″ picture frame](https://github.com/Nerdiyde/ESPHomeSnippets/tree/main/Snippets/eInk_frame_insert_ribba_5inchX7inch)
+  * [RIBBA Frame 5x7"](https://www.ikea.com/us/en/p/ribba-frame-black-50378448/)
+  * [Americanflat 5x7 Picture Frame in Black](https://www.amazon.com/Americanflat-Picture-Frame-Black-Built/dp/B0CMC9232L/)
 
 
 
@@ -37,6 +38,7 @@ Convert an IKEA RIBBA 5×7" picture frame into an ePaper dashboard for a Home As
 
 
 ## LED Matrix
+
 I choose one of the many versions of the [MAX7219 dot matrix module][08]
 8x8 dot matrix common cathode LED display modules for my display.
 I Choose this because of the because of its modest size
@@ -48,6 +50,7 @@ I specific used the MAX7219 Dot Matrix Module 4-in-1 Display
 
 
 ## OLED Display
+
 An organic light-emitting diode (OLED or Organic LED),
 also known as an organic EL (organic electroluminescent) diode,
 is a light-emitting diode (LED) containing an electroluminescent
@@ -72,6 +75,7 @@ In low ambient light conditions, an OLED screen can achieve a higher contrast ra
 
 
 ## OLED Display Emulator
+
 Arduino OLED display emulator shows graphics and text on your computer screen.
 
 * [OLED Display… on Your Monitor](https://www.hackster.io/news/oled-display-on-your-monitor-73abb411b4ed)
@@ -89,6 +93,7 @@ Arduino OLED display emulator shows graphics and text on your computer screen.
 
 
 ## E-Paper / E-Ink Display
+
 Electronic paper, as that display tech is known (E Ink is a trademarked term owned by the company named E Ink, the tech's leading purveyor), has always been associated primarily with the Kindle and its ilk.
 
 * [Raspberry Pi PaperPi App Offers Cool E-Ink Display Tools](https://www.tomshardware.com/news/raspberry-pi-paperpi-eink-tools)
@@ -133,6 +138,7 @@ You can find technical information at the [Waveshape Wiki](https://www.waveshare
 
 
 ## Wio Terminal
+
 The [Wio Terminal](https://www.seeedstudio.com/Wio-Terminal-p-4509.html)
 Compatible with Arduino and MicroPython, Wio Terminal is an ATSAMD51-based microcontroller with wireless connectivity supported by Realtek RTL8720DN. Its CPU speed runs at 120MHz (Boost up to 200MHz). Realtek RTL8720DN chip supports both Bluetooth and Wi-Fi providing the backbone for IoT projects. The Wio Terminal itself is equipped with a 2.4” LCD Screen, onboard IMU(LIS3DHTR), Microphone, Buzzer, microSD card slot, Light sensor, and Infrared Emitter(IR 940nm).
 
@@ -159,6 +165,7 @@ Compatible with Arduino and MicroPython, Wio Terminal is an ATSAMD51-based micro
 
 
 # Using MicroPython
+
 OLED screen demo on ESP32 with MicroPython - <https://gist.github.com/laurivosandi/1dcc68aa1e665336f4867a4d81ce64b7>
 
 

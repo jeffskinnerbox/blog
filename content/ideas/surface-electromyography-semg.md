@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Electromyography (EMG)
+
 Electromyography (EMG) measures the electrical activity produced by skeletal muscles.
 EMG is performed using an instrument called an electromyograph,
 to produce a record called an electromyogram.

@@ -42,24 +42,28 @@ In fact, the most successful connected devices should disappear from a user's mi
 That the devices are connected at all or even exist should simply be forgotten.
 
 #### How Will It Change Us
+
 [Benedict Evans said it well](http://ben-evans.com/benedictevans/2014/5/26/the-internet-of-things):
 > My grandfather could probably have told you how many electric motors he owned. There was one in the car, one in the fridge, one in his drill and so on.
 >My father, when I was a child, might have struggled to list all the motors he owned (how many, exactly, are in a car?) but could have told you how many devices were in the house that had a chip in it.
 >Today, I have no idea how many devices I own with a chip, but I could tell you how many have a network connection. And I doubt my children will know that, in their turn.
 
 We have a software defined tommarow.
-* http://www.skyfire.com/blog/skyfires-john-metzger-on-icap-architecture-and-the-path-to-virtualization/
-* http://www.huffingtonpost.com/bill-teuber/the-coming-of-the-second-machine-age_b_4648207.html
+
+* <http://www.skyfire.com/blog/skyfires-john-metzger-on-icap-architecture-and-the-path-to-virtualization/>
+* <http://www.huffingtonpost.com/bill-teuber/the-coming-of-the-second-machine-age_b_4648207.html>
 
 
 
 #### Core Ideas
+
 * Zero Marginal Cost
 * Community Commons
 * Machine Data
 * untethered, low/long power, cheap silicon
 
 #### What's Really New Here?
+
 Hobbyists have made custom things for a long time.
 Evidence is in ham radio, RC modelling, Heathkit.
 The first step in making a thing, even a non-physical thing, is visualizing it.
@@ -69,53 +73,61 @@ Internet can greatly aid that collaboration.
 Digital repositories are especially useful where data is used to directly reproduce objects and their derivatives.
 
 #### Local People
+
 * Phil Shapiro
-    * http://makezine.com/2014/01/15/inside-small-batch-assembly/
-    * http://www.his.com/~pshapiro/
+  * <http://makezine.com/2014/01/15/inside-small-batch-assembly/>
+  * <http://www.his.com/~pshapiro/>
 * Josh Ajima
-    * http://designmaketeach.com/
+  * <http://designmaketeach.com/>
 
 #### Educational Sites
+
 * [STEM Academy](http://www.element14.com/community/groups/stemacademy)
 * [The 10 Minute Robot](http://alphalem.com/pages/the-10-minute-robot)
 * [Maker Education Initiative](http://www.makered.org/)
 * []()
 
 #### Student Events
+
 * [StudentRND](http://studentrnd.org/)
 * [Meet the 7 startup teams in StudentRND’s summer incubator](http://www.geekwire.com/2012/meet-teams-student-rnd-summer-incubator/)
 * []()
 * []()
 
 #### Local Maker Spaces
+
 * [HacDC - The Capital's Hackerspace](http://www.hacdc.org/)
 * [Reverse Space](http://sphereroute.com/) - 13505 Dulles Technology Drive #3 Herndon, VA
 * [NOVA Labs](http://www.nova-labs.org/blog/) - 1881-F Metro Center Drive, Reston, VA
-    * [Hackaday Visits NOVA Labs And Small Batch Assembly](http://hackaday.com/2014/03/21/hackaday-visits-nova-labs-and-small-batch-assembly/)
+  * [Hackaday Visits NOVA Labs And Small Batch Assembly](http://hackaday.com/2014/03/21/hackaday-visits-nova-labs-and-small-batch-assembly/)
 * [HOT ROD MAKERTRUCK Project](http://hotrodbus.blogspot.com/) - Manassas, VA
 * [Club125 - The Greenbelt Community Makerspace](http://club125.com/) - Greenbelt, MD
 * [FredericksWerken](http://frederickswerken.org/) - Fredricksburg, VA
 * [Baltimore Node](http://www.baltimorenode.org/about/) - Baltimore, MD
 
 #### Local Maker Events
+
 * [NOVA Mini Maker Faire](http://makerfairenova.com/)
 * [ModevUX - Masters of Mobile UX](http://ux14.gomodev.com/)
 * [GE Garages](http://istrategylabs.com/2014/03/ge-garages-dc-opens-remake-the-capital-with-your-fellow-innovators/)
 * [Pilot - hands-on educational events for high school students](http://gopilot.org/)
 
 #### Online Tools
+
 * [Meetup](http://www.meetup.com/)
 * []()
 * []()
 * []()
 
 #### Examples
+
 * [123D Circuits](http://123d.circuits.io/)
 * []()
 * []()
 * []()
 
 #### Massive Open Online Courses (MOOC)
+
 * [Richard Baraniuk: The birth of the open-source learning revolution](http://www.ted.com/talks/richard_baraniuk_on_open_source_learning)
 * [Anant Agarwal: Why massive open online courses (still) matter](http://www.ted.com/talks/anant_agarwal_why_massively_open_online_courses_still_matter.html?utm_source=newsletter_weekly_2014-02-01&utm_campaign=newsletter_weekly&utm_medium=email&utm_content=talk_of_the_week_image)
 * [MOOC List](http://www.mooc-list.com/)
@@ -124,39 +136,45 @@ Digital repositories are especially useful where data is used to directly reprod
 * []()
 
 #### The Future
+
 * [Race Against the Machine: Andrew McAfee at TEDxBoston](http://www.youtube.com/watch?v=QfMGyCk3XTw)
 * [Race Against The Machine: How The Digital Revolution Is Accelerating Innovation, Driving Productivity, and Irreversibly Transforming Employment and The Economy](http://ebusiness.mit.edu/research/Briefs/Brynjolfsson_McAfee_Race_Against_the_Machine.pdf)
 
 #### Maker Movement People
+
 * Mark Hatch
-    * [The Maker Movement Manifesto](http://techshop.ws/TheMakerMovementManifesto.html)
+  * [The Maker Movement Manifesto](http://techshop.ws/TheMakerMovementManifesto.html)
 * Dale Dougherty
-    * [Inspiring a Maker Movement](http://www.youtube.com/watch?v=yYd25q9lMTI)
+  * [Inspiring a Maker Movement](http://www.youtube.com/watch?v=yYd25q9lMTI)
 * Nick Pinkston
-    * [What is the New Industrial Revolution?](http://makezine.com/2013/06/24/what-is-the-new-industrial-revolution/)
+  * [What is the New Industrial Revolution?](http://makezine.com/2013/06/24/what-is-the-new-industrial-revolution/)
 * Chris Anderson
-    * [Wired’s Chris Anderson: Today’s ‘Maker Movement’ Is The New Industrial Revolution](http://techcrunch.com/2012/10/09/wireds-chris-anderson-todays-maker-movement-is-the-new-industrial-revolution-tctv/)
-    * [Chris Anderson & Bre Pettis "From Maker Movement to New Industrial Revolution"](http://www.youtube.com/watch?v=qRkCXo_nbQg)
+  * [Wired’s Chris Anderson: Today’s ‘Maker Movement’ Is The New Industrial Revolution](http://techcrunch.com/2012/10/09/wireds-chris-anderson-todays-maker-movement-is-the-new-industrial-revolution-tctv/)
+  * [Chris Anderson & Bre Pettis "From Maker Movement to New Industrial Revolution"](http://www.youtube.com/watch?v=qRkCXo_nbQg)
 
 #### Maker Spaces as a Business
+
 * [REGION: Giving inventors a boost with ‘makerspace’](http://www.pe.com/local-news/local-news-headlines/20140209-region-giving-inventors-a-boost-with-makerspace.ece)
 * [TechShop](http://techshop.ws/)
-    * [Arlington TechShop](http://techshop.ws/arlington.html)
-    * [DARPA-funded TechShop location to open in Arlington, VA next year](http://www.engadget.com/2013/10/23/darpa-techshop-arlington/)
+  * [Arlington TechShop](http://techshop.ws/arlington.html)
+  * [DARPA-funded TechShop location to open in Arlington, VA next year](http://www.engadget.com/2013/10/23/darpa-techshop-arlington/)
 
 #### Is It A New Industral Revolution?
+
 * [What is the New Industrial Revolution?](http://makezine.com/2013/06/24/what-is-the-new-industrial-revolution/)
 * [Why the Maker Movement Is Important to America’s Future](http://time.com/104210/maker-faire-maker-movement/)
 * [The Third Industrial Revolution: How Lateral Power Is Transforming Energy, the Economy, and the World](http://www.amazon.com/dp/B005BOQBGW/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2TC29QWHAZ8X5&coliid=I2W43LRCIKLT7B)
 * [The Zero Marginal Cost Society: The Internet of Things, the Collaborative Commons, and the Eclipse of Capitalism](http://www.amazon.com/dp/1137278463/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2TC29QWHAZ8X5&coliid=I3RE17UVEQ24L5)
 
 #### MicroFactory (aka 3rd Industrial Revolution)
+
 * [Local Motors](https://localmotors.com/)
 * [Proto Labs](http://www.protolabs.com/)
 * [First Build](http://firstbuild.com/)
 * [GE Garages](http://www.gegarages.com/)
 
 #### Fun Examples
+
 [Mission Control Desk](http://www.youtube.com/watch?v=j6zseFi070E):
 This pretty much covers every aspect of what being a Maker is all about. Woodwork, electronics, programming, and fun!
 
@@ -164,6 +182,7 @@ This pretty much covers every aspect of what being a Maker is all about. Woodwor
 From flats and rooms to treehouses and boats: stay in unique spaces in 192 countries.
 
 Internet of Things (IoT)
+
 * [Are the Internet of Things (IoT) & Internet of Everything (IoE) the Same Thing?](http://viodi.com/2014/05/23/are-the-internet-of-things-iot-internet-of-everything-iot-the-same-thing/)
 * [The Internet of Things is all about business transformation](http://www.computing.co.uk/ctg/news/2346588/intel-forget-internet-connected-fridges-the-internet-of-things-is-all-about-business-transformation)
 * [RFID Stakeholders Need to Prepare for the Internet of Things](http://www.rfidjournal.com/articles/view?11806)
@@ -174,5 +193,6 @@ Internet of Things (IoT)
 * [Bezos: People Don’t Want Gadgets, They Want Services](http://allthingsd.com/20120906/bezos-people-dont-want-gadgets-they-want-services/)
 
 Videos
+
 * [Jeremy Rifkin on the Fall of Capitalism and the Internet of Things](https://www.youtube.com/watch?v=3xOK2aJ-0Js)
 * [Splunk Videos](http://www.splunk.com/view/SP-CAAAH7S)

@@ -28,8 +28,8 @@ Summary: bla bla bla
 * [Obtaining a SIM](https://learn.adafruit.com/adafruit-fona-mini-gsm-gprs-cellular-phone-module/obtaining-a-sim)
 * [IHU is a Voice over IP (VoIP)](http://ihu.sourceforge.net/) application for Linux (using Qt), that creates an audio stream between two computers easily and with the minimal traffic on the network.
 * [The True Meaning of the VoiceEnabled Web](http://res.sys-con.com/session/2207/Keith_McFarlane.pdf)
-    * [WebRTC](http://en.wikipedia.org/wiki/WebRTC)
-    * [WebRTC](http://www.webrtc.org/)
+  * [WebRTC](http://en.wikipedia.org/wiki/WebRTC)
+  * [WebRTC](http://www.webrtc.org/)
 * [DIY Baby Monitor](https://antibore.wordpress.com/2016/11/10/diy-baby-monitor/)
 * [HackspaceHat part 1: WebRTC, Janus and Gstreamer](https://planb.nicecupoftea.org/2015/07/28/hackspacehat-part-1-webrtc-janus-and-gstreamer/)
 * [Building a Raspberry Pi 2 WebRTC camera](https://www.rs-online.com/designspark/building-a-raspberry-pi-2-webrtc-camera)
@@ -55,6 +55,7 @@ In this article, I will first show how to leverage a SIP Service Provider
 to support your voice/multimedia application.
 
 ## Establishing a SIP Account With Service Provider
+
 I'm using SIP2SIP as my service provider ([wiki here][03] and [registration here][04]).
 SIP2SIP supports audio, video, presence, chat, file transfer, and multiparty conferencing
 based on SIP signaling and related media protocols (RTP, MSRP and XCAP).
@@ -65,9 +66,12 @@ Registering with SIP2SIP is simple to do and requires no instructions here.
 I established multiple SIP accounts so that I could test conferancing.
 
 ## Installing SIP Client
+
 As an initial test, I'll install a SIP client on my Linux desktop and
 another client on
+
 #### Blink
+
 There are many [SIP clients][^A] that I could choose from.
 SIP2SIP recommends [Blink][05] for its client.
 The [Linux version of Blink][06] comes in executable and source code[^B]
@@ -112,6 +116,7 @@ sudo apt-get install blink
 ```
 
 #### Getting Linphone Operational
+
 On the Unbuntu Linux systems `desktop`
 
 * **Install WebCam -** Using a Logitech QuickCam Sphere MP (aka QuickCam Orbit MP). This device has a microphone but no speaker.
@@ -147,8 +152,9 @@ mplayer ~/tmp/webcam_test.mp4
 * **Standalone Linphone Test -**
 
 ## Zeroconf plugin for sipwitch
+
 This plugin activates zeroconf network services for sipwitch and publishes sipwitch as a sip service. In theory zeroconf aware SIP user agents should then be able to automatically connect to sipwitch without configuration.
-http://packages.ubuntu.com/lucid/sipwitch-plugin-zeroconf
+<http://packages.ubuntu.com/lucid/sipwitch-plugin-zeroconf>
 
 [01]:http://en.wikipedia.org/wiki/Session_Initiation_Protocol
 [02]:http://en.wikipedia.org/wiki/SIP_provider

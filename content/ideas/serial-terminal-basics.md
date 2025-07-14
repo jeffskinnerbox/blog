@@ -74,6 +74,7 @@ tio - <https://github.com/tio/tio>
 
 
 # TTY
+
 The `tty` command gets its name from a device from the late 1800s known as
 [teleprinters (aka teletypewriter, Teletype, or TTY)](https://en.wikipedia.org/wiki/Teleprinter)
 It appeared in Unix in 1971, and is part of Linux and Unix-like operating systems to this day.
@@ -92,6 +93,7 @@ It appeared in Unix in 1971, and is part of Linux and Unix-like operating system
 
 
 # Computer Terminal
+
 A computer terminal is an electronic or electromechanical hardware device that is used for entering data into, and displaying data from, a computer or a computing system.
 Early user terminals connected to computers were electromechanical teleprinters/teletypewriters (TeleTYpewriter, TTY), such as the Teletype Model 33 ASR, originally used for telegraphy or the Friden Flexowriter.
 
@@ -113,6 +115,7 @@ They are called pseudo-teletypes, which is shortened to pts.
 
 
 # Types of Serial Port
+
 serial port lines (CTS, RTS, DTR, DSR, RI, CD)
 
 
@@ -126,6 +129,7 @@ serial port lines (CTS, RTS, DTR, DSR, RI, CD)
 
 
 # Serial Interface
+
 Along with the parallel port, the COM port, or serial port,
 is one of the traditional computer I/O interfaces which can still be found on
 POS systems, some medical equipment, lab instruments, and other older hardware.
@@ -155,6 +159,7 @@ Then there’s Ethernet and USB and other higher-speed serial interfaces like Fi
 
 
 # RS-232 and RS-485
+
 Two of the oldest serial interfaces are RS-232 and RS-485.
 These legacy interfaces aren’t obsolete or discontinued, though.
 Both are still alive and well in many applications.
@@ -168,6 +173,7 @@ Both are still alive and well in many applications.
 
 
 ## Modbus vs RS485
+
 RS485 is a serial data transmission standard widely used in industrial implementations. The Modbus protocol is commonly used when implementing RS485 communication.
 
 * [Modbus vs RS485](https://www.virtual-serial-port.org/articles/modbus-vs-rs485/#:~:text=RS485%20is%20a%20serial%20data,by%20transmitting%20with%20ASCII%20characters)
@@ -179,6 +185,7 @@ RS485 is a serial data transmission standard widely used in industrial implement
 
 
 # Change Terminal Characteristics With stty
+
 The stty utility shall set or report on terminal I/O characteristics for the device.
 
 Whenever you enable a terminal,
@@ -207,6 +214,7 @@ See - <https://www.cyberciti.biz/tips/bash-fix-the-display.html>
 
 
 # Screen
+
 GNU Screen is a terminal multiplexer, a software application that can be used to multiplex several virtual consoles, allowing a user to access multiple separate login sessions inside a single terminal window, or detach and reattach sessions from a terminal.
 Each virtual terminal provides the functions of the DEC VT100 terminal and, in addition, several control functions from the ISO 6429 and ISO 2022 standards.
 
@@ -228,6 +236,7 @@ This can be a pain but `minicom` is an alternative that can provide local echo.
 
 
 # Minicom
+
 Minicom is a terminal program, intended for use with a modem, that
 works well as an intermediary to any remote system connect through a
 serial port.
@@ -266,6 +275,7 @@ For example cisco, now every time you would like to use the same configuration j
 
 
 ## Local Echo
+>
 >Local echo is a computer modem feature and terminal option that allows the modem to display keyboard commands and transmitted data on the screen as it is being entered into the computer or received by the modem.
 
 For some situations you will not have local echo of characters you type in.
@@ -286,6 +296,7 @@ You will see the minicom configuration utility ... <http://processors.wiki.ti.co
 
 
 ## st - Simple Terminal
+
 st is a simple terminal implementation for X.
 
 * [st - simple terminal](https://st.suckless.org/)
@@ -353,6 +364,7 @@ This post shows in detailed steps how to open a serial connection to an embedded
 
 
 # Universal Serial Bus (USB)
+
 USB (universal serial bus) is an industry standard covering cables, connectors and protocols;
 and is pretty ubiquitous among tech products these days.
 
@@ -363,6 +375,7 @@ and is pretty ubiquitous among tech products these days.
 
 
 # Bit Banging
+
 In circuit designing,
 [bit banging][04] is slang for various techniques in which serial communications
 use software instead of dedicated hardware (such as a modem, UART, or shift register)
@@ -384,10 +397,12 @@ or no hardware changes required.
 
 
 # What is the Tx and Rx?
+
 TX and RX are abbreviations for Transmit and Receive, respectively. Note that these metrics are referenced to the server being monitored; Transmit FROM this server, and Receive TO this server.
 
 
 # Modems
+
 The term "AT Commands" come from Hayes modem control commands that were used by the Hayes smart modems.
 The Hayes commands started with AT (abreviation of the word "attention")
 to gain the attention from the MODEM.
@@ -403,6 +418,7 @@ along with other extended AT commands.
 
 
 # Terminal
+
 Back when computers where big, bulky, and took up entire rooms,
 you would generally interact with them via punch cards and paper tape.
 But there was also another device first used by the computer operator,
@@ -428,6 +444,7 @@ but it has come to refer to any type of text terminal.
 
 
 # What is a Console?
+
 The device `/dev/console` is used to send messages to the console.
 The console where system messages appear is described as the "logical console",
 which can also be the keyboard and monitor that are attached to the system.
@@ -436,6 +453,7 @@ which can also be the keyboard and monitor that are attached to the system.
 
 
 ## Why Use a Serial Console?
+
 The advantages of a serial USB cable are that you won’t need extra keyboards,
 mouse or external displays attached.
 You don’t even need an extra power supply.
@@ -445,6 +463,7 @@ You don’t even need an extra power supply.
 
 
 ## Console Access to Raspberry Pi
+
 [!sereial-cable](https://cdn-shop.adafruit.com/970x728/954-02.jpg)
 A [USB to TTL serial cable][65] (aka console cable)
 can be used to connect to [system console][66] on the Raspberry Pi A.
@@ -572,10 +591,12 @@ for additional insights.
 
 
 # Bus Pirate
+
 <http://dangerousprototypes.com/docs/Bus_Pirate>
 
 
 # μArt
+
 <https://www.crowdsupply.com/pylo/muart>
 
 
@@ -593,6 +614,7 @@ for additional insights.
 
 
 # Adam74
+
 Adam74 is a small ASCII terminal intended for hobbyist 8-bit computers.
 
 * [Adam74](https://www.engineersneedart.com/adam74/adam74.html)
@@ -600,6 +622,7 @@ Adam74 is a small ASCII terminal intended for hobbyist 8-bit computers.
 
 
 # Serial Line Sniffer
+
 If you wanted to snoop on a piece of serial gear, you attachment a scope or logic analyzer,
 but what if you want a software-only solution?
 

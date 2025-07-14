@@ -35,6 +35,7 @@ technology to generate accurate, stable, clean, low distortion signals.
 * Button-help makes information getting easier.
 
 # Direct Digital Synthesizers (DDSs)
+
 [Direct digital synthesis (DDS)][01] is a technique to produce an analog waveform
 (square, triangular, or sinusoidal)
 by generating a digital time varying signal using an external clock

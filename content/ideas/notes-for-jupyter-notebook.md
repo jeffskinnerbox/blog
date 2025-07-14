@@ -131,6 +131,7 @@ Version:      0.0.0
 
 
 # Python Magic Methods
+
 Python was not initially built on OOP principles, but evolved into it, and is dynamically typed.
 In a true OOP languagea (e.g. Smalltalk), you need cross-cutting features on unrelated objects.
 In Python, these are specially-named methods: methods that the runtime interprets in a certain way but that you need to know about. You can call them magic methods.
@@ -145,6 +146,7 @@ In Python, these are specially-named methods: methods that the runtime interpret
 
 
 # Installing Jupyter Notebook
+
 I want a interactive and feature rich environment for doing my OpenCV work,
 and I found that in [Jupyter Notebook][55].
 Like the OpenCV package, giving a proper introduction to Jupyter Notebook
@@ -168,6 +170,7 @@ giving you a public way to share or .
 
 
 ## Setting Up Python 3
+
 Most Linux versions ships with both Python 3 and Python 2 pre-installed.
 To make sure that our versions are up-to-date, let’s update and upgrade the system
 
@@ -213,6 +216,7 @@ then show use the combination of `pip`, `pyenv`, and `pyenv-virtualenv`.
 
 
 ## Install Jupyter System Wide
+
 Installing Jupyter Notebook on your computer is documented [here][50].
 For new users, they highly recommend installing it via [Anaconda][51],
 but as an existing Python user, you can do the following:
@@ -290,6 +294,7 @@ You can use your browser to provide corrections.
 
 
 # Step 0: Install pyenv and pyenv-virtualenv
+
 See "cheatsheet-python-pip-pyenv-commands.md" on how to install pyenv and pyenv-virtualenv.
 
 
@@ -297,6 +302,7 @@ See "cheatsheet-python-pip-pyenv-commands.md" on how to install pyenv and pyenv-
 
 
 # Using Jupyter Notebook
+
 You can start the Jupyter Notebook via several ways:
 
 ```bash
@@ -357,6 +363,7 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 
 
 # Jupyter Slide Show
+
 [Reveal.js][56] is an open-source tool to create HTML presentations
 which will be displayed in an Internet browser.
 This has a some advantage.
@@ -390,7 +397,7 @@ Example in a notebook:
 * [Messy Sensor Data: A Programmer's Cleaning Guide](https://github.com/Spaxe/pyconau2017-messy-sensor-data)
 * [Reveal.js - The HTML Presentation Framework](http://lab.hakim.se/reveal-js/#/)
 * [RISE: Reveal.js - Jupyter/IPython Slideshow Extension](http://bollwyvl.github.io/live_reveal/#/)
-    * <https://github.com/damianavila/RISE>
+  * <https://github.com/damianavila/RISE>
 * [Presenting Code Using Jupyter Notebook Slides](https://medium.com/@mjspeck/presenting-code-using-jupyter-notebook-slides-a8a3c3b59d67)
 * [How to make polished Jupyter presentations with optional code visibility](http://chris-said.io/2016/02/13/how-to-make-polished-jupyter-presentations-with-optional-code-visibility/)
 * [Quick Tips: An Easy Way to Make Slideshows from Jupyter Notebooks](http://www.oliversherouse.com/2015/10/27/jupyter_slideshows.html)

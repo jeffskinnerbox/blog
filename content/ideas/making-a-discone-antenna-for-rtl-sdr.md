@@ -18,9 +18,9 @@ Version:      0.0.0
 * [Antenna Basics: Radiation Patterns, Permittivity, Directivity, and Gain](http://www.allaboutcircuits.com/technical-articles/antenna-basics-field-radiation-patterns-permittivity-directivity-gain/)
 * [Radio Antenna Mismatching: VSWR Explained](https://hackaday.com/2018/08/17/radio-antenna-mismatching-vswr-explained/)
 * [A Hacker’s Approach To All Things Antenna](https://hackaday.com/2025/03/16/a-hackers-approach-to-all-things-antenna/)
-    * [Tech 101: Antennas](https://www.youtube.com/watch?v=EFLLjtZUjuc)
-    * [Antenna Measurement In Theory And Practice](https://hackaday.com/2024/12/06/antenna-measurement-in-theory-and-practice/)
-    * [New Video Series: Learning Antenna Basics With Karen Rucker](https://hackaday.com/2021/07/15/new-video-series-learning-antenna-basics-with-karen-rucker/)
+  * [Tech 101: Antennas](https://www.youtube.com/watch?v=EFLLjtZUjuc)
+  * [Antenna Measurement In Theory And Practice](https://hackaday.com/2024/12/06/antenna-measurement-in-theory-and-practice/)
+  * [New Video Series: Learning Antenna Basics With Karen Rucker](https://hackaday.com/2021/07/15/new-video-series-learning-antenna-basics-with-karen-rucker/)
 
 * [Antennas](https://www.youtube.com/watch?v=rokAuaL2E74)
 * [The Physics Behind an Antennas](https://hackaday.com/2019/07/11/the-physics-behind-antennas/)
@@ -35,6 +35,7 @@ Version:      0.0.0
 
 
 # RTL-SDR on Mac OS
+
 Nice starter project.
 This project talks though the signal processing behind the GNU Radio flowgraph for receiving and demodulating FM radio broadcast signals.
 
@@ -114,6 +115,7 @@ related to antenna design and build up to the analysis and my antennas final phy
 
 
 # The Electromagnetic Spectrum
+
 [Radio frequency (RF)][01] or [radio spectrum][02] refers to the part of the [electromagnetic spectrum][03] frequencies lower than around 300 GHz (or, equivalently, wavelengths longer than about 1 mm).
 Electromagnetic waves in this frequency range, called [radio waves][04], can travel through the earths atmosphere with ease and are used for [radio communication][05] and various other technologies.
 Above 300 GHz, the absorption of electromagnetic radiation by Earth's atmosphere is so great that the atmosphere is effectively opaque, until it becomes transparent again in the near-infrared and optical window frequency ranges.
@@ -145,6 +147,7 @@ Electromagnetic Spectrum
 
 
 ## The Radio Spectrum
+
 It is within the Radio and Microwave sections of the electromagnetic spectrum,
 where the absorption by the atmosphere is minimal,
 mankind has discoved how it can be uses for [radio or wireless][05] transmission of signals.
@@ -214,6 +217,7 @@ The FCC's database can be found [here][56] and the NTIA's database is [here][55]
 
 
 ## Creation of Radio Waves
+
 While there are multiple source of [naturally occurring radio waves][49],
 conveniently, radio frequency waves are invariably created by changing an electrical current in a wire.
 This creates an [electromagnetic field][13] (also EMF or EM field)
@@ -241,6 +245,7 @@ We aimed at 110 Mhz, as 115 Mhz+ is where planes and other air traffic services 
 
 
 ## Electromagnetic Field
+
 An [electromagnetic field][13] (also EMF or EM field) is a [physical field][51] produced by electrically charged objects.
 The EMF affects the behavior of charged objects in the vicinity of the field.
 The field can be viewed as the combination of an electric field and a magnetic field and cut across one another at right angles.
@@ -268,6 +273,7 @@ For more on electromagnetic near fields and far fields, see:
 
 
 ## Guided Wave and a Free-Space Wave
+
 A [waveguide](https://en.wikipedia.org/wiki/Waveguide) is a structure that guides waves
 
 an antenna is a transition device, or transducer, between a guided wave and a free space wave or vice versa. The antenna is a device which interfaces a circuit and space.
@@ -293,6 +299,7 @@ The concept of propagation refers to the various ways by which an electromagneti
 
 
 # What is an Antenna?
+
 An antenna acts as an interface between a guided wave and a free-space wave.
 
 The wire antennas are made of thin, conducting,
@@ -335,6 +342,7 @@ Below this frequency the SWR will increase rapidly.
 
 
 ### Driving the Antenna
+
 When transmitting (or receiving) a radio signal via an antenna, you often have to consider
 the wave nature of the radio signal because multiple wave cycles will be present within the body
 of the current caring wire, called a [transmission line][22].
@@ -345,6 +353,7 @@ Transmission lines must be used when the frequency is high enough that the wavel
 
 
 ### Fundamental Antenna Parameters
+
 Antennas are characterized by a number of performance measures which a user would be concerned with in selecting or designing an antenna for a particular application.
 To establish the key figures of merit for an antenna, you first must establish a reference point from which all antennas can be compared.
 That reference point is the [isotopic antenna][23].
@@ -399,6 +408,7 @@ independently of its uses as a transmitter or receiver.
 
 
 ### Phased Array Antenna
+
 A phased array antenna is an array antenna whose single radiators can be fed with different phase shifts. As a result, the common antenna pattern can be steered electronically. The electronic steering is much more flexible and requires less maintenance than the mechanical steering of the antenna.
 
 * [VISUALIZATION OF A PHASED ARRAY ANTENNA SYSTEM](https://hackaday.com/2017/01/05/visualization-of-a-phased-array-antenna-system/)
@@ -418,6 +428,7 @@ A phased array antenna is an array antenna whose single radiators can be fed wit
 
 
 # Electromagntic Numerical Analysis
+
 Because of its popularity and [respect amoung the Ham Radio community][33] and others,
 I have focused on the [Numerical Electromagnetic Code (NEC)][31] family of tools.
 It is based on a numerical solution of electromagnetic ﬁeld integrals for thin,
@@ -447,6 +458,7 @@ This package also includes many example input files and you can get more at [Ste
 
 
 ## NEC2, 4NEC2, NEC2++, XNEC2C, ... Electromagnetic Simulation Software
+
 The Numerical Electromagnetics Code (NEC-2) is a comprehensive package for the analysis of the electromagnetic properties of structures. It can analyse radiating properties i.e. antenna gain, as well as scattering properties (radar cross section) of structures. NEC-2 was originally written in FORTRAN.
 
 4NEC2 (Numerical Electric Code) is a simulation method for wire antennas, developed by the Lawrence Livermore Laboratory in
@@ -468,6 +480,7 @@ NEC2++ is an extensive rewrite of NEC-2 in C++ by Tim Molteno. This work was hel
 
 
 ## necpp
+
 This module allows you to do antenna simulations in Python using the nec2++ antenna simulation package.
 
 * [python-necpp: Antenna simulation in python](https://pypi.org/project/necpp/)
@@ -488,6 +501,7 @@ This module allows you to do antenna simulations in Python using the nec2++ ante
 
 
 ## gprMax
+
 gprMax is open source software that simulates electromagnetic wave propagation. It solves Maxwell’s equations in 3D using the Finite-Difference Time-Domain (FDTD) method. gprMax was designed for modelling Ground Penetrating Radar (GPR) but can also be used to model electromagnetic wave propagation for many other applications.
 
 * [What is gprMax](http://docs.gprmax.com/en/latest/include_readme.html)
@@ -502,6 +516,7 @@ gprMax is open source software that simulates electromagnetic wave propagation. 
 
 
 ## Write Your Own Electromagntic Numerical Analysis
+
 [Antenna Design, Analysis and Simulation](https://www.microwavejournal.com/articles/29437-antenna-design-analysis-and-simulation)
 
 [Meep](https://meep.readthedocs.io/en/latest/) is a free and open-source software package for electromagnetics simulation via the finite-difference time-domain (FDTD) method spanning a broad range of applications.
@@ -523,6 +538,7 @@ gprMax is open source software that simulates electromagnetic wave propagation. 
 
 
 # Discone Antenna Design
+
 A discone antenna is a version of a [biconical antenna][19] is typically a wired structure,
 its usually mounted vertically, with the disc at the top and the cone beneath.
 The open litature discribes it as omnidirectional,
@@ -545,6 +561,7 @@ and perturb our parameters based on a more complete analysis.
 
 
 ## Discone Antenna Initial Design
+
 I'll use the [Discone Antenna Calculator][45] to establish our baseline design.
 Using this tool, I get the following results:
 
@@ -553,6 +570,7 @@ Using this tool, I get the following results:
 
 
 ## Discone Antenna Electromagntic Numerical Analysis
+
 We would like to solve [Maxwell's equations][28] for the discone antenna design to discover its radiation pattern, etc.
 Solving these equations as a [closed-form expression][29] is hopeless except for the simplest types of antenna structures.
 So we'll need to leverage [numerical methods][30] to perform the analysis of the discone antenna.
@@ -627,6 +645,7 @@ Check out these sources:
 
 
 ## Cabling For Antenna
+
 Connectors on Devices:
 
 * SDR device - Female [micro coaxial (MCX)][57] connector (intended for a mono-pole antenna using a flexible small diameter [50 Ohm RG-174 cable][61]) and male [Universal Serial Bus (USB) A-Type][58]
@@ -639,6 +658,7 @@ Cabling Require:
 
 
 ## Why is Coax 50 Ohm?
+
 There is a prevalence of 50 ohm coax.
 Sure, you sometimes see 75 ohm coax, but overwhelmingly, RF circuits work at 50 ohms.
 Apparently in the 1930s,
@@ -665,6 +685,7 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 
 
 # Broadband Antenna
+
 Vivaldi antennas are simple planar antennas that are very broadband.
 
 * [Making an Ultra-wideband Antenna – Part 1 (UWB Antenna Options)](https://hexandflex.com/2017/12/03/making-an-ultrawideband-antenna-pt1/)
@@ -677,18 +698,20 @@ Vivaldi antennas are simple planar antennas that are very broadband.
 
 
 # What Makes a Good Antenna?
+
 It sometimes seems as though antennas and RF design are portrayed as something of a Black Art, the exclusive preserve of an initiated group of RF mystics and beyond the reach of mere mortals.
 
 NanoVNA as a useful tool in the antenna builder’s arsenal, one which gives a revolutionary window on performance compared to the trial-and-error of previous times.
 
 
 # Antenna Tuner
+
 A antenna tuner is a device used to match impedances between a transmitter and an antenna.
 
 * [Manual Antenna Tuner Shows How Homebrewing Is Done](https://hackaday.com/2021/01/15/manual-antenna-tuner-shows-how-homebrewing-is-done/)
-    * [End Fed Half Wave Antenna Tuner: Part 1 - Initial Build](https://www.youtube.com/watch?v=XKzWSsTBjCo&feature=emb_logo)
-    * [End Fed Half Wave Antenna Tuner: Part 2 - Final Configuration](End Fed Half Wave Antenna Tuner: Part 2 - Final Configuration)
-    * [End Fed Half Wave Antenna Tuner: Part 3 - Field Demonstration](https://www.youtube.com/watch?v=t9HAvY6n2gw)
+  * [End Fed Half Wave Antenna Tuner: Part 1 - Initial Build](https://www.youtube.com/watch?v=XKzWSsTBjCo&feature=emb_logo)
+  * [End Fed Half Wave Antenna Tuner: Part 2 - Final Configuration](End Fed Half Wave Antenna Tuner: Part 2 - Final Configuration)
+  * [End Fed Half Wave Antenna Tuner: Part 3 - Field Demonstration](https://www.youtube.com/watch?v=t9HAvY6n2gw)
 
 
 ## Tin Can DIY WiFi Antenna (Cantenna)
@@ -715,7 +738,7 @@ A antenna tuner is a device used to match impedances between a transmitter and a
 ## Loop Antenna
 
 * [Alpha Antenna portable vhf/uhf/hf loop antenna](https://www.youtube.com/shorts/1zWDNKaLCRc)
-    * [Alpha Antenna: VHF UHF HF EmComm MagLoop](https://www.alphaantenna.com/product/vhf-uhf-hf-emcomm-magloop-magnetic-loop-100-watts-alpha-antenna/)
+  * [Alpha Antenna: VHF UHF HF EmComm MagLoop](https://www.alphaantenna.com/product/vhf-uhf-hf-emcomm-magloop-magnetic-loop-100-watts-alpha-antenna/)
 
 * [Homebrew Loop Antenna Brings The Shortwave World To You](https://hackaday.com/2020/04/12/homebrew-loop-antenna-brings-the-shortwave-world-to-you/)
 * [THE YOULOOP PASSIVE LOOP ANTENNA REVIEWED ON HF RECEPTION](https://www.rtl-sdr.com/the-youloop-passive-loop-antenna-reviewed-on-hf-reception/)
@@ -737,15 +760,16 @@ A antenna tuner is a device used to match impedances between a transmitter and a
 
 
 ## Helical Antenna
+
 A helical antenna is an antenna in which a conductor connected to ground plane, is wound into a helical shape. The
 helix is the simplest antenna which generates circular polarized waves.
 
 * [Handheld Satellite Dish Is 3D Printed](https://hackaday.com/2024/12/23/handheld-satellite-dish-is-3d-printed/)
 * [No Dish? Try A Portable Weave Helix Antenna](https://hackaday.com/2024/01/28/no-dish-try-a-portable-weave-helix-antenna/)
 * [Building a 2.4 GHz WiFi helical antenna](https://www.youtube.com/watch?v=xp6B3nVEFCI)
-    * [Helical antenna calculator](https://sgcderek.github.io/tools/helix-calc.html)
-    * [helix-antenna-scaffold](https://github.com/sgcderek/helix-antenna-scaffold)
-    * [Field Testing a Home Made WiFi antenna](https://hackaday.com/2023/06/28/field-testing-a-home-made-wifi-antenna/)
+  * [Helical antenna calculator](https://sgcderek.github.io/tools/helix-calc.html)
+  * [helix-antenna-scaffold](https://github.com/sgcderek/helix-antenna-scaffold)
+  * [Field Testing a Home Made WiFi antenna](https://hackaday.com/2023/06/28/field-testing-a-home-made-wifi-antenna/)
 
 
 ## Extending WiFi Range
@@ -766,6 +790,7 @@ smart phone app, web browser, or router WPS button:
 
 
 ## Antenna Balun
+
 Balun definition:
 A balun balanced to unbalanced is an electrical device that converts between a balanced signal and an unbalanced signal, or feed line. A balun can take many forms and may include devices that also transform impedances but need not do so.
 

@@ -13,11 +13,12 @@ Version:      0.0.0
 
 
 # SPO256-AL2 Vintage Speech Synthesis Chip
+
 vintage speech synthesis chip, the SPO256-AL2 (Also commonly known as the SP0256-AL2)
 
 * [Arduino + Vintage Speech Chip](https://www.instructables.com/Arduino-Vintage-Speech-Chip/)
 * [RPi Python Library Has Retro Chiptunes And Speech Covered](https://hackaday.com/2021/09/09/rpi-python-library-has-retro-chiptunes-and-speech-covered/)
-    * [GitHub: nickbild/gi-pi](https://github.com/nickbild/gi-pi)
+  * [GitHub: nickbild/gi-pi](https://github.com/nickbild/gi-pi)
 
 
 Control the classic General Instrument SP0256-AL2 speech chip and AY-3-8910 sound generator with a Raspberry Pi and this Python library.

@@ -28,5 +28,6 @@ commandlinefu.com is the place to record those command-line gems that you return
 * [Linux Fu: Shell Script File Embedding](https://hackaday.com/2021/04/09/linux-fu-shell-script-file-embedding/)
 
 # Writing Good Scripts
+
 * [Better Bash Scripts](https://hackaday.com/2017/07/21/linux-fu-better-bash-scripting/)
 * [Lint for Shell Scripts](https://hackaday.com/2017/03/29/lint-for-shell-scripters/)

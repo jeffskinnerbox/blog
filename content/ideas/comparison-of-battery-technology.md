@@ -111,6 +111,7 @@ All About Batteries
 
 
 # Measuring LiPo Charge Level
+
 Battery-powered projects require you to monitor your battery's life.
 Measuring battery voltage is not ideal, because the voltage doesn't drop linearly.
 Battery charge level, aka fuel gauges, are a better alternative.
@@ -155,6 +156,7 @@ C-Rating - <http://batteryuniversity.com/learn/article/what_is_the_c_rate>
 
 
 # Alkaline Batteries
+
 [Alkaline batteries][05] are a type of primary cell and highly popular for everyday home and indurtial use.
 
 * The amount of current an alkaline battery can deliver is roughly proportional to its physical size.
@@ -166,6 +168,7 @@ varying from 1.1 to 1.3 V.
 
 
 # Rechargeable Alkaline Batteries
+
 [Rechargeable Alkaline battery (RAM)][02] are available.
 Their main advantage over other rechargeable batteries is their ability to hold a charge
 and the fact that they are less expensive.
@@ -176,6 +179,7 @@ particularly if they undergo a deep discharge.
 
 
 # Nickel-Metal Hydride Batteries
+
 A [Nickel–Metal Hydride battery (NiMH or Ni–MH)][01], is a type of rechargeable battery.
 
 * Shelf Life: self-discharge rate is over 30% per month for common NiMH batteries
@@ -217,6 +221,7 @@ They often weigh a little less and come in smaller capacity.
 
 
 # Cold Environment - Lithium Iron Phosphate
+
 LiPo cells must not be charged in freezing temperatures (apart from certain special low temp products), else the cell can rapidly be destroyed due to lithium metal deposition at the anode. Also you need to be careful charging them, especially when they’re heavily discharged, as they are easily damaged without the proper treatment. LiPo cells operate based on chemical principles – lithium ions literally have to move around inside the structure, and eventually the battery will wear out.
 
 Supercapacitors have the advantage of very long life (but sometimes, they do leak) much more aggressive charging and discharging behaviours and will operate down to very low temperatures. This makes them very useful when a large amount of power is available sporadically (for super fast charge cycles) or in places where temperatures stay persistently very low, such as up a mountain were solar will work, albeit slowly, but LiPo batteries will definitely not be suitable.
@@ -233,6 +238,7 @@ Other battery chemistries are available, such as Lithium Iron Phosphate which ca
 
 
 ## Voltages
+
 Depending on the design and chemistry of your lithium cell,
 you may see them sold under different nominal voltages.
 Almost all lithium polymer batteries are 3.7V or 4.2V batteries.
@@ -256,6 +262,7 @@ can at the very least permanently damage your battery and at worst cause a fire!
 
 
 ## Protective Circuity
+
 Lithium ion/polymer batteries are extremely power dense.
 This makes them great for reducing size and weight of projects.
 However, they are not 'safe' batteries and require extra care.
@@ -290,11 +297,13 @@ This is not often not an issue as long as the charge rate is reasonable.
 
 
 ## Power Capability
+
 <https://www.youtube.com/watch?v=R8hTQXqURB4>
 <https://learn.adafruit.com/all-about-batteries/power-capacity-and-power-capability>
 
 
 ## RC Type Batteries
+
 The about discription is for regular/normal lithium ion batteries
 are what you find in your ipod, camcorder, phone etc.
 They are meant to last for over 500 charges, stay safe,
@@ -314,6 +323,7 @@ They are often less expensive because there is no protection circuitry.
 
 
 ## LiIon/LiPoly Charging
+
 <http://www.instructables.com/id/Li-ion-battery-charging/>
 <http://www.powerstream.com/li.htm>
 <https://www.adafruit.com/products/259>
@@ -348,6 +358,7 @@ For LiPo battery packs with cells connected in series, a specialised charger may
 
 
 ## Repurposing Lithium Ion Cells
+
 You may want to reuse lithium-ion batteries from discarded equipment.
 These cells are often charged inside the equipment
 and there is no separate charger that can be reused.
@@ -357,6 +368,7 @@ and Maxim has app note 5681 on this topic:
 
 
 # DC/DC Boost Converter
+
 A [boost converter][18] (step-up converter) is a DC-to-DC power converter steps up voltage
 from its input (supply) to its output (load).
 It is a class of [switched-mode power supply (SMPS)][16]
@@ -369,6 +381,7 @@ and at least one energy storage element, a capacitor, inductor, or the two in co
 
 
 # DC/DC Buck Converter
+
 A [buck converter][17] (step-down converter) is a DC-to-DC power converter
 which steps down voltage (while stepping up current) from its input (supply) to its output (load).
 
@@ -376,6 +389,7 @@ which steps down voltage (while stepping up current) from its input (supply) to 
 
 
 # Uninterruptable Power Supply (UPS)
+
 Adafruit's [PowerBoost 1000C Charger][19] is a DC/DC boost converter module
 that can be powered by any 3.7V LiIon/LiPoly battery,
 and convert the battery output to 5.2V DC for running your 5V projects.
@@ -397,6 +411,7 @@ making it a Uninterruptable Power Supply (UPS).
 
 
 ## Self Discharge
+
 Much attention can be paid to extending battery life through the use of
 low-power semiconductors, communication protocols,
 and minimizing the time a device spends in “active’ mode.
@@ -416,6 +431,7 @@ and an incredibly low annual self-discharge rate that permits up to 40-year batt
 
 
 # Smart Battery System
+
 Smart Battery System (SBS) is a specification for managing a smart battery, usually for a portable computer. It allows operating systems to perform power management operations via a smart battery charger based on remaining estimated run times by determining accurate state of charge readings.
 
 * [PackProbe Reports Laptop Battery Health](https://hackaday.com/2019/06/26/packprobe-reports-laptop-battery-health/)
@@ -424,6 +440,7 @@ Smart Battery System (SBS) is a specification for managing a smart battery, usua
 
 
 # Battery Degradation
+
 A useful why to think about a batterys degradation or age
 in terms of present capacity versus original (new) capacity.
 
@@ -440,6 +457,7 @@ A useful battery has predictable behavior; it can supply a constant amount of po
 
 
 # Supercapacitors
+
 Supercapacitors are definitely not the same as batteries, we all know that. They tend to have a very low operating voltage, and due to their operating principle of storing charge on parallel plates, their discharge curve is quite unfriendly for modern microcontroller devices. Energy storage efficiency per unit volume is also low compared with modern lithium polymer (LiPo) batteries so all in all they don’t look all that useful for many of our projects. However, as [Andreas Spiess’] latest video demonstrates, they do have some redeeming features that might make them useful for certain embedded applications.
 
 * [SuperCapacitors Vs Batteries Again](https://hackaday.com/2021/12/01/supercapacitors-vs-batteries-again/)

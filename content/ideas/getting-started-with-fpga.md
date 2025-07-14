@@ -30,19 +30,22 @@ Version:      0.0.0
 
 
 Next stop, ULX3S
-* http://radiona.org/ulx3s/
-* https://www.crowdsupply.com/radiona/ulx3s
+
+* <http://radiona.org/ulx3s/>
+* <https://www.crowdsupply.com/radiona/ulx3s>
 * [ULX3S: AN OPEN-SOURCE LATTICE ECP5 FPGA PCB](https://hackaday.com/2019/01/14/ulx3s-an-open-source-lattice-ecp5-fpga-pcb/)
 
 Next Stop, Upduino
-* https://blog.idorobots.org/entries/upduino-fpga-tutorial.html
-* https://tinyvision.ai/
+
+* <https://blog.idorobots.org/entries/upduino-fpga-tutorial.html>
+* <https://tinyvision.ai/>
 
 Next Stop, iCEBreaker
-https://www.youtube.com/watch?v=u5HRhCOaTkw
+<https://www.youtube.com/watch?v=u5HRhCOaTkw>
 
 More Challenging Projects (Lattice iCEstick)
-* https://hackaday.com/2016/12/13/compiling-a-22-analyzer/
+
+* <https://hackaday.com/2016/12/13/compiling-a-22-analyzer/>
 
 
 * [Introduction to FPGA and its Architecture](https://towardsdatascience.com/introduction-to-fpga-and-its-architecture-20a62c14421c)
@@ -51,12 +54,14 @@ More Challenging Projects (Lattice iCEstick)
 
 
 # Digital Logic vs Computer Logic
+
 [Computer logical](https://www.tutorialspoint.com/computer_logical_organization/index.htm)
 refers to the level of abstraction above the
 [digital logic](https://www.electronics-tutorials.ws/logic/logic_1.html) level,
 but below the operating system level. At this level, the major components are functional units or subsystems that correspond to specific pieces of hardware built from the lower level building blocks.
 
 # Register Transfer Level (RTL) Design vs Sequential Logic Design
+
 Register-transfer level (RTL) is a design abstraction which models a synchronous digital circuit in terms of the flow of digital signals (data) between hardware registers, and the logical operations performed on those signals.
 
 In simple terms RTL design or Register Transfer Level design is a method in which we can transfer data from one register to another.
@@ -64,10 +69,11 @@ In simple terms RTL design or Register Transfer Level design is a method in whic
 Constructing a digital design using [combinational circuits][29] and [sequential circuits][30]
 in HDL like Verilog or VHDL which can model logical and hardware operation.
 
-https://www.geeksforgeeks.org/rtl-register-transfer-level-design-vs-sequential-logic-design/
-https://www.doulos.com/knowhow/verilog_designers_guide/rtl_verilog/
+<https://www.geeksforgeeks.org/rtl-register-transfer-level-design-vs-sequential-logic-design/>
+<https://www.doulos.com/knowhow/verilog_designers_guide/rtl_verilog/>
 
 # What is VHDL?
+
 [VHDL][31] (or VHSIC-HDL) is the Very High Speed Integrated Circuit (VHSIC) Hardware Description Language.
 It can describe the behaviour and structure of digital and mixed-signal electronic systems,
 but is particularly suited as a language to describe the
@@ -84,6 +90,7 @@ and behavior described in terms of occurrences of events and waveforms on signal
 * [Simulation and synthesis are complementary processes][32]
 
 # VHDL vs Verilog vs SystemVerilog
+
 [What’s the Difference Between VHDL, Verilog, and SystemVerilog?][34]
 Verilog, standardized as IEEE 1364, is also a hardware description language (HDL) used to model electronic systems.
 It is most commonly used in the design and verification of digital circuits,
@@ -100,18 +107,22 @@ and the world appear to be moving towards Verilog.
 * [VHDL vs Verilog](https://blog.digilentinc.com/battle-over-the-fpga-vhdl-vs-verilog-who-is-the-true-champ/)
 
 # Verilog Testbench
+
 * [An Example Verilog Test Bench](https://www.youtube.com/watch?v=TtqZ-DwUYk4)
 * [Writing a Verilog Testbench](https://www.youtube.com/watch?v=sGQoBnFcmwc)
 
 # Chisel
+
 * [Chisel Away at FPGA Development](https://hackaday.com/2019/10/28/chisel-away-at-fpga-development/)
 * [Chisel](https://www.chisel-lang.org/)
 
 # PipelineC
+
 * [Write In PipelineC For FPGAs](https://hackaday.com/2020/08/16/write-in-pipelinec-for-fpgas/)
 * [PipelineC](https://github.com/JulianKemmerer/PipelineC)
 
 ## FPGA Synthesis
+
 Traditionally, to create an FPGA design, the application is described using a Hardware
 Description Language (HDL) like Verilog or VHDL, and then multiple steps are carried out
 until an FPGA bitstream is created and loaded into the FPGA. First, the hardware description is synthesized into a netlist.
@@ -133,30 +144,37 @@ can reach up to 8 hours, while for the larger Arria 10 device it is typically 8 
 take over a day for very large designs that suffer from severe routing congestion.
 
 ## ASIC
+
 An application-specific integrated circuit (ASIC /ˈeɪsɪk/) is an integrated circuit (IC) chip customized for a particular use, rather than intended for general-purpose use. For example, a chip designed to run in a digital voice recorder or a high-efficiency bitcoin miner is an ASIC.
 
 ### Open Source ASIC
+
 * [Your Own Open Source ASIC: SkyWater-PDF Plans First 130 Nm Wafer In 2020](https://hackaday.com/2020/06/30/your-own-open-source-asic-skywater-pdf-plans-first-130-nm-wafer-in-2020/)
 
 ### Luos
+
 * [With Luos Rapid Embedded Deployment Is Simplified](https://hackaday.com/2021/10/10/with-luos-rapid-embedded-deployment-is-simplified/)
 * [Luos](https://www.luos.io/)
 
-###  ChibiOS
+### ChibiOS
+
 * [GETTING STARTED WITH FREERTOS AND CHIBIOS](https://hackaday.com/2021/03/18/getting-started-with-freertos-and-chibios/)
 
 
 
 # FPGA Basics
+
 * [FPGA Fundementals](https://www.ni.com/en-us/innovations/white-papers/08/fpga-fundamentals.html)
 * [Comparing an FPGA to a Microcontroller, Microprocessor or an ASIC](https://www.element14.com/community/groups/fpga-group/blog/2018/02/22/comparing-an-fpga-to-a-microcontroller-microprocessor-or-an-asic)
 * [FPGA Basics: Architecture, Applications and Uses](https://www.arrow.com/en/research-and-events/articles/fpga-basics-architecture-applications-and-uses)
 * [Reverse-engineering the first FPGA chip, the XC2064](http://www.righto.com/2020/09/reverse-engineering-first-fpga-chip.html)
 
 ## RISC & ARM
+
 * [RISC-V: How much is open source? Featuring the new ESP32-C3](https://www.youtube.com/watch?v=VdPsJW6AHqc)
 
 # Embedded FPGA (eFPGA)
+
 a range of new startups provide embedded FPGA (eFPGA)
 
 an FPGA chip is a core (the “fabric”) which is surrounded by various kinds of I/O including SERDES, DDR PHYs, USB, PCI-Express and GPIO, among others.
@@ -171,27 +189,32 @@ An eFPGA is just the core, without the analog I/O, which can be integrated into 
 * [SparkFun QuickLogic Thing Plus - EOS S3](https://www.sparkfun.com/products/17273)
 
 # Why use an FPGA instead of a CPU or GPU?
+
 * [Why use an FPGA instead of a CPU or GPU?](https://blog.esciencecenter.nl/why-use-an-fpga-instead-of-a-cpu-or-gpu-b234cd4f309c)
 
 # FPGA SoftCore
+
 * [SoftCore CPU Comparison](https://hackaday.com/2020/07/12/softcore-cpu-comparison/)
 * [A Scratch-Built RISC-V CPU in an FPGA](https://hackaday.com/2019/11/19/emulating-risc-v-on-an-fpga/)
 * [Indian RISC-V Chip is Team’s Third Successful Chip](https://hackaday.com/2020/10/03/indian-risc-v-chip-is-teams-third-successful-chip/)
 
 # Building a CPU on an FPGA
+
 * [Building a CPU on an FPGA](https://www.youtube.com/watch?v=2fNBkUCjhcE&list=PLEeZWGE3PwbZ44SUf1-vA-UuX9_J_pifB)
 * [The Z-Machine Standards Document](http://inform-fiction.org/zmachine/standards/z1point1/index.html)
 
 # Verilog Tutorials
+
 * [FPGA design for Software Engineers](https://www.walknsqualk.com/post/014-tiny-fpga-bx/)
 * [FPGA design for Software Engineers, part 2](https://www.walknsqualk.com/post/015_fpga_design_p2/)
 * [FPGA design for Software Engineers, part 3](https://www.walknsqualk.com/post/016_fpga_design_p3/)
 
 # Verilog Tutorials and Examples
+
 * [Verilog, Formal Verification and Verilator Beginner's Tutorial](https://zipcpu.com/tutorial/)
 * [nandland: FPGA Fundamentals](https://www.nandland.com/articles/fpga-101-fpgas-for-beginners.html)
 * [nandland: Verilog Tutorials and Examples](https://www.nandland.com/verilog/tutorials/index.html)
-* [ FPGA 4 Fun](https://www.fpga4fun.com/)
+* [FPGA 4 Fun](https://www.fpga4fun.com/)
 * [FPGAwars](http://fpgawars.github.io/)
 * [Asic World: Verilog Tutorial](http://asic-world.com/verilog/veritut.html)
 * [Learning FPGA, yosys, nextpnr, and RISC-V](https://github.com/BrunoLevy/learn-fpga)
@@ -207,15 +230,18 @@ An eFPGA is just the core, without the analog I/O, which can be integrated into 
 * [FPGA tutorials](https://hackaday.io/list/160076-fpga-tutorials)
 * [Why use an FPGA instead of a CPU or GPU?](https://blog.esciencecenter.nl/why-use-an-fpga-instead-of-a-cpu-or-gpu-b234cd4f309c)
 
- * [KnowHow - Technical Resource for Hardware Design and Verification Languages](https://www.doulos.com/knowhow/)
+* [KnowHow - Technical Resource for Hardware Design and Verification Languages](https://www.doulos.com/knowhow/)
 
 # cocotb
+
 [cocotb](https://www.cocotb.org/) is an open source coroutine-based cosimulation testbench environment for verifying VHDL and SystemVerilog RTL using Python.
+
 * [Make Verification Fun Again with Python and cocotb](https://www.youtube.com/watch?v=8bnlovlUpGo)
 * [Getting Started with Cocotb for absolute idiots](https://hardwareteams.com/docs/fpga-asic/cocotb/getting-started/)
 * [learncocotb.com](https://learncocotb.com/)
 
 # Other
+
 * [Bringing FPGA Development To The Masses](https://hackaday.com/2019/07/05/bringing-fpga-development-to-the-masses/)
 * [Cheap FPGA Board Roundup](https://hackaday.com/2018/08/20/cheap-fpga-board-roundup/)
 * [Arduino MKR Vidor 4000](https://www.sparkfun.com/products/14870)
@@ -229,22 +255,26 @@ An eFPGA is just the core, without the analog I/O, which can be integrated into 
 * [A Scratch-built RISC-V CPU In An FPGA](https://hackaday.com/2019/11/19/emulating-risc-v-on-an-fpga/)
 * [FPGA 6800 Uses Python Toolbox](https://hackaday.com/2019/12/27/fpga-6800-uses-python-toolbox/)
 * [Timothy Ansell - Xilinx Series 7 FPGAs Now Have a Fully Open Source Toolchain!](https://www.youtube.com/watch?v=EHePto95qoE)
-    * [SymbiFlow](https://symbiflow.github.io/)
+  * [SymbiFlow](https://symbiflow.github.io/)
 
 * [OrangeCrab: A Formidable Feature-Packed FPGA Feather](https://www.hackster.io/news/orangecrab-a-formidable-feature-packed-fpga-feather-04fd6c99eb0f)
 
 # Lattice MachXO2 FPGA
+
 * [An FPGA And A Few Components Can Make A Radio](https://hackaday.com/2020/04/18/an-fpga-and-a-few-components-can-make-a-radio/)
 * [ULX3S: An Open-Source Lattice ECP5 FPGA PCB](https://hackaday.com/2019/01/14/ulx3s-an-open-source-lattice-ecp5-fpga-pcb/)
 * [Adding IceZero To The Raspberry Pi](https://hackaday.com/2017/02/08/adding-icezero-to-the-raspberry-pi/)
 * [iCEBreaker FPGA](https://www.crowdsupply.com/1bitsquared/icebreaker-fpga)
 
 # Avnet Ultra96-V2
+
 The Ultra96-V2 is an Arm-based, Xilinx Zynq UltraScale+ ™ MPSoC development board based on the Linaro 96Boards Consumer Edition (CE) specification.
 multiprocessor system on a chip = MPSoC
+
 * [Ultra96 SDR Part One: Simple RF Spectrogram Web Application](https://www.hackster.io/whitney-knitter/ultra96-sdr-part-one-simple-rf-spectrogram-web-application-aae29e)
 
 # CORDIC (Coordinate Rotation Digital Computer)
+
 CORDIC (Coordinate Rotation Digital Computer), also sometimes known as Volder’s algorithm,
 is a standard way to compute hyperbolic and trigonometric functions.
 What’s nice is that the algorithm only requires addition, subtraction, bit shifts,
@@ -261,6 +291,7 @@ This is perfect for simple CPUs and FPGAs.
 
 
 # Background Information
+
 A field programmable gate array (FPGA) is an integrated circuit that contains a large number of configurable logic blocks (CLB) that can be wired together to create custom digital circuits. FPGAs, depending on their size, can accommodate very large and complex designs.
 
 Hardware description languages (HDL), such as Verilog or VHDL, are used to design your custom digital logic using high level programming constructs. These programs are then compiled into synthesized netlists containing primitives such as AND and OR gates. The netlists are then compiled further into FPGA specific bitstreams that are uploaded to FPGA boards to run your custom digital logic designs in actual hardware.
@@ -271,6 +302,7 @@ TinyFPGA is a family of low cost, open source FPGA development boards designed a
 * [FPGA for Dummies](https://www.intel.com/content/dam/www/programmable/us/en/pdfs/literature/misc/fpgas_for_dummies_ebook.pdf)
 
 ## Build 8-Bit Computer / TTL Computer
+
 * [Full 8-Bit Computer On Breadboards](https://hackaday.com/2020/11/23/full-8-bit-computer-on-breadboards/)
 * [Ben Eater's: Build an 8-bit computer from scratch](https://eater.net/8bit/)
 * [8-Bit Computer: UART Transceiver for breadboard computer](https://shepherdingelectrons.blogspot.com/2020/07/uart-transceiver-for-breadboard-computer.html)
@@ -278,10 +310,12 @@ TinyFPGA is a family of low cost, open source FPGA development boards designed a
 
 
 ## iCE FPGA
+
 The TinyFPGA BX has a [ICE40LP8K][06] by Lattice
-https://en.wikipedia.org/wiki/ICE_(FPGA)
+<https://en.wikipedia.org/wiki/ICE_(FPGA)>
 
 # Open Source FPGA
+
 Most of the players in FPGA land have their own proprietary tools for creating bitstream files,
 and synthesizing the HDL.
 Using any of these FPGA tools usually means agreeing to terms and conditions that nobody reads.
@@ -291,16 +325,19 @@ Using any of these FPGA tools usually means agreeing to terms and conditions tha
 
 
 ## Lattice
+
 * Lattice iCE40 devices supported by Project IceStorm
 * Lattice ECP5 devices supported by Project Trellis
 * [LATTICE SEMICONDUCTOR TARGETS BITSTREAM REVERSE ENGINEERING IN LATEST PROPEL SDK LICENSE](https://hackaday.com/2020/06/05/lattice-semiconductor-targets-bitstream-reverse-engineering-in-latest-propel-sdk-license/)
 * [LATTICE DROPS EULA CLAUSE FORBIDDING FPGA BITSTREAM REVERSE ENGINEERING](https://hackaday.com/2020/06/06/lattice-drops-eula-clause-forbidding-fpga-bitstream-reverse-engineering/)
 
 ## Project IceStorm
+
 Project IceStorm aims at documenting the bitstream format of Lattice iCE40 FPGAs and providing simple tools for analyzing and creating bitstream files.
-http://www.clifford.at/icestorm/
+<http://www.clifford.at/icestorm/>
 
 ## OpenCL
+
 OpenCL is an open-source and royalty-free standard for programming heterogeneous
 systems in a host/device fashion. An OpenCL-based application can be split into two separate
 parts: one is the host code that executes on the host CPU and can be written in any programing
@@ -330,6 +367,7 @@ NDRange.
 ## ECP5
 
 # Tools Required
+
 * Verilator: Handles compiling our code for simulation
 * Yosys: The synthesis tool that will build our design
 * NextPNR: Place-and-route tool that will figure out how to fit things into our FPGA
@@ -339,6 +377,7 @@ NDRange.
 * SymbiFlow:
 
 ## Verilator
+
 Verilator is a free and open-source software tool which converts Verilog hardware description language
 to a model in C++ or SystemC.
 It is restricted to modeling the synthesizable subset of Verilog and the generated models
@@ -354,22 +393,27 @@ You can parallelize the Verilator build (`make -jN`) to cut down on this.
 * [Verilog, Formal Verification and Verilator Beginner's Tutorial](https://zipcpu.com/tutorial/)
 
 ## Icarus Verilog (iverilog)
+
 Like Verilator, iverilog is a compiler that translates Verilog source code into executable programs for simulation.
 
-* https://iverilog.fandom.com/wiki/Main_Page
+* <https://iverilog.fandom.com/wiki/Main_Page>
 
 ## SymbiFlow
+
 SymbiFlow is a fully open source toolchain for the development of FPGAs of multiple vendors. Currently, it targets the Xilinx 7-Series, Lattice iCE40 and Lattice ECP5 FPGAs, and is gradually being expanded to provide a comprehensive end-to-end FPGA synthesis flow.
 
 ## Project Trellis
+
 * [Project Trellis](https://github.com/SymbiFlow/prjtrellis)
 
 ## Bitstreams
+
 * [Lattice Drops EULA Clause Forbidding FPGA Bitstream Reverse Engineering](https://hackaday.com/2020/06/06/lattice-drops-eula-clause-forbidding-fpga-bitstream-reverse-engineering/)
 
 ## yosys – Yosys Open SYnthesis Suite
 
 ## nextpnr -- a portable FPGA place and route tool
+
 * [nextpnr portable FPGA place and route tool](https://github.com/YosysHQ/nextpnr)
 
 
@@ -405,6 +449,7 @@ Before I could jump onto this FPGA board,
 I spent significant amount of time getting to know this technology.
 
 # Getting Smarter about FPGA
+
 I'm accustom to microcomputers & microcontroller,
 but frankly only have a basic idea as to what an FPGA is and what it does.
 If you press me to explain,
@@ -414,29 +459,29 @@ THe world of digital logic design, which FPGA is all about, can be a little inti
 To get more insight and calm my fears, I used the following artical to educate myself:
 
 * FPGAs For MCU Guys and Gals
-    * [The MCU guy’s introduction to FPGAs: The Hardware](https://www.embedded.com/the-mcu-guys-introduction-to-fpgas-the-hardware/)
-    * [The MCU guy’s introduction to FPGAs: The Software](https://www.embedded.com/the-mcu-guys-introduction-to-fpgas-the-software/)
-    * [The MCU guy’s introduction to FPGAs: Configuration Techniques & Technologies](https://www.embedded.com/the-mcu-guys-introduction-to-fpgas-configuration-techniques-technologies/)
+  * [The MCU guy’s introduction to FPGAs: The Hardware](https://www.embedded.com/the-mcu-guys-introduction-to-fpgas-the-hardware/)
+  * [The MCU guy’s introduction to FPGAs: The Software](https://www.embedded.com/the-mcu-guys-introduction-to-fpgas-the-software/)
+  * [The MCU guy’s introduction to FPGAs: Configuration Techniques & Technologies](https://www.embedded.com/the-mcu-guys-introduction-to-fpgas-configuration-techniques-technologies/)
 * FPGA Bootcamp
-    * [Bootcamp 0 - Covers basic digital logic concepts with simulations](https://hackaday.io/project/159720-fpga-bootcamp-0)
-    * [Bootcamp 1 - Introduction to FPGA coding and simulation with combinatorial logic](https://hackaday.io/project/159191-fpga-bootcamp-1)
-    * [Bootcamp 2 - More FPGA coding and simulation with flip flops (sequential logic)](https://hackaday.io/project/159216-fpga-bootcamp-2)
-    * [Bootcamp 3 - Working with actual FPGA hardware](https://hackaday.io/project/159692-fpga-bootcamp-3)
-    * [Bootcamp 4 - Most FPGA projects will have at least one state machine. Learn how to create these little dedicated CPUs](https://hackaday.io/project/161493-fpga-boot-camp-4-state-machines)
+  * [Bootcamp 0 - Covers basic digital logic concepts with simulations](https://hackaday.io/project/159720-fpga-bootcamp-0)
+  * [Bootcamp 1 - Introduction to FPGA coding and simulation with combinatorial logic](https://hackaday.io/project/159191-fpga-bootcamp-1)
+  * [Bootcamp 2 - More FPGA coding and simulation with flip flops (sequential logic)](https://hackaday.io/project/159216-fpga-bootcamp-2)
+  * [Bootcamp 3 - Working with actual FPGA hardware](https://hackaday.io/project/159692-fpga-bootcamp-3)
+  * [Bootcamp 4 - Most FPGA projects will have at least one state machine. Learn how to create these little dedicated CPUs](https://hackaday.io/project/161493-fpga-boot-camp-4-state-machines)
 * Avoiding FPGA Hell
-    * [FPGA Hell](https://zipcpu.com/blog/2017/05/19/fpga-hell.html)
+  * [FPGA Hell](https://zipcpu.com/blog/2017/05/19/fpga-hell.html)
 * FPGA Design Process
-    * [The Actual FPGA Design Process](http://zipcpu.com/blog/2017/06/02/design-process.html)
+  * [The Actual FPGA Design Process](http://zipcpu.com/blog/2017/06/02/design-process.html)
 * First Projects Ideas
-    * [Blinky](https://zipcpu.com/blog/2017/05/19/blinky.html)
-    * [fpga4fun](https://www.fpga4fun.com/)
-    * [Gisselquist Technology's Projects List](http://zipcpu.com/projects.html)
-    * [Driving a VGA Display?! Getting started with an FPGA! (TinyFPGA)](https://www.youtube.com/watch?v=ZNunxg7o8l0)
-    * [A simple GPU on a TinyFPGA BX](https://github.com/matt-kimball/toygpu)
-    * [FPGA Ethernet Cores](https://www.fpga-cores.com/)
-    * [Building a Simple Logic PLL](https://zipcpu.com/dsp/2017/12/14/logic-pll.html)
-    * [TinyFPGA BX Mandelbrot Generator](https://github.com/martin2250/tinyfpga-mandelbrot)
-        * [The Quest to Decode the Mandelbrot Set, Math’s Famed Fractal](https://www.quantamagazine.org/the-quest-to-decode-the-mandelbrot-set-maths-famed-fractal-20240126/)
+  * [Blinky](https://zipcpu.com/blog/2017/05/19/blinky.html)
+  * [fpga4fun](https://www.fpga4fun.com/)
+  * [Gisselquist Technology's Projects List](http://zipcpu.com/projects.html)
+  * [Driving a VGA Display?! Getting started with an FPGA! (TinyFPGA)](https://www.youtube.com/watch?v=ZNunxg7o8l0)
+  * [A simple GPU on a TinyFPGA BX](https://github.com/matt-kimball/toygpu)
+  * [FPGA Ethernet Cores](https://www.fpga-cores.com/)
+  * [Building a Simple Logic PLL](https://zipcpu.com/dsp/2017/12/14/logic-pll.html)
+  * [TinyFPGA BX Mandelbrot Generator](https://github.com/martin2250/tinyfpga-mandelbrot)
+    * [The Quest to Decode the Mandelbrot Set, Math’s Famed Fractal](https://www.quantamagazine.org/the-quest-to-decode-the-mandelbrot-set-maths-famed-fractal-20240126/)
 
 
 * [FPGA tutorials](https://hackaday.io/list/160076-fpga-tutorials)
@@ -446,6 +491,7 @@ To get more insight and calm my fears, I used the following artical to educate m
 * [Taking a look at the TinyFPGA BX](https://zipcpu.com/blog/2018/10/05/tinyfpga.html)
 
 # What Is a Field-Programmable Gate Array?
+
 [What Is a Field-Programmable Gate Array (FPGA)][01]?
 An FPGA is a pool of logic gates that can be configured by a device developer.
 In reality, FPGA is much more than just gates.
@@ -485,6 +531,7 @@ that uses text to introduce components and create interconnections.
 * [FPGA on All About Circuits](https://www.allaboutcircuits.com/search?q=fpga)
 
 # ICE40 FPGA from Lattice
+
 The ICE40 FPGA from Lattice for two major things going for it:
 there are cheap development boards available and there are open source tools
 to get you started developing low-cost, low-power FPGA designs.
@@ -503,6 +550,7 @@ to get you started developing low-cost, low-power FPGA designs.
 # Key Resources
 
 ## TinyFPGA BX
+
 The [TinyFPGA AX & BX boards][04] are a new series of low-cost, open-source FPGA boards in a tiny form factor,
 with solder on pins for use in a breadboard by [TinyFPGA][05].
 TinyFPGA comes in two different families: [A-Series use Lattice Semiconductor’s MachXO2 FPGAs][02]
@@ -523,6 +571,7 @@ Sources:
 * [TinyFPGA BX GitHub](https://github.com/tinyfpga/TinyFPGA-BX)
 
 ## TinyFPGA's Onboard Bootloader
+
 As the [TinyFPGA getting started guide][03] tells you,
 the onboard bootloader behaves differently depending on what is connected to the USB port:
 
@@ -536,6 +585,7 @@ the bootloader will timeout after one second and load the existing user image fr
 but it will only stay in the bootloader if its plugged into a USB host.
 
 ## APIO Toolset
+
 Apio (pronounced [ˈa.pjo]) is a multiplatform toolbox, with static pre-built packages,
 project configuration tools and easy command interface to verify, synthesize,
 simulate, and upload your Verilog designs.
@@ -570,6 +620,7 @@ Click the GTKWave link above and follow the instructions to install the appropri
 >Nether of these ID are discovered via the VM's USB, no matter what I tried.
 
 ## Step 1: Install Atom - DONE
+
 Atom is a free, open-source, modern (i.e. using web technologies based on [Electron][15])
 source code editor for macOS, Linux, and Microsoft Windows.
 It supports plug-ins written in Node.js and embedded Git "hooks" and
@@ -610,6 +661,7 @@ any additional packages the Atom request you to do.
 After this, terminal `atom` and move to the next step.
 
 ## Step 2: Install APIO Toolset - DONE
+
 We must update the Bootloader on the TinyFPGA board,
 but first we must get `tinyprog` installed as shown below:
 
@@ -657,7 +709,9 @@ optional arguments:
 # update the tinyprog (make sure tinyfpga board is plugged into usb port)
 pip install --upgrade --no-cache-dir tinyprog
 ```
+
 ## Step X: Install Verilator & GTKWave - DONE
+
 GTKWave is an analysis tool used to perform debugging on Verilog or VHDL simulation models,
 such as Icarus Verilog.
 With the exception of interactive Value Change Dump (VCD) viewing,
@@ -678,6 +732,7 @@ Documentation:
 * [Taking a New Look at Verilator](https://zipcpu.com/blog/2017/06/21/looking-at-verilator.html)
 
 ## Step X: Update TinyFPGA's Onboard Bootloader - DONE
+
 Now that `tinyprog` is installed, lets update the bootloader,
 but make sure to first connect to the TinyFPGA board via USB:
 
@@ -759,12 +814,14 @@ ls /dev/ttyACM*
 
 
 # Examples Below
+
 * blink - The simplest example in the batch. This will show the basic steps outline in the TinyFBGA documentation.  It simply blinks an LED on the TinyFBGA board. Makes use of apio but nothing more. No simulation.
 * counter - Doesn't make use of apio but shows how to use Verilator and TestBench.
 * blinky
 * comparator
 
 # Blink, Test Drive of TinyFPGA - DONE
+
 This first exercise is a Verilog based APIO project for the TinyFPGA BX that blinks the on-board LED.
 We will not do any details of designing and implementing digital logic circuits in general,
 but show the setting up a simple project, written Verilog, and programming the board with the project.
@@ -773,10 +830,12 @@ We'll use `atom` here on this simple example.
 In a subsequent examples, we'll do everything via the command line.
 
 Sources:
+
 * [TinyFPGA BX User Guide][03]
 * [Getting Started With The TinyFPGA BX][19]
 
 ## Step 1: Get Your Files - DONE
+
 Using the ['TinyFPGA BX User Guide'][03] as your plan for this 'test drive',
 copy the [apio_template project][11] from the [TinyFPGA BX repository][12]:
 
@@ -806,6 +865,7 @@ will be used as an input and output respectively in our design.
 The `--warn-no-port` flags print warnings during the build if that particular pin is not used.
 
 ## Step 2: Flash the TinyFPGA Board - DONE
+
 Now lets use Atom to create the FPGA code to load the SPI flash on the board:
 
 1. Plug the TinyFPGA board into a USB port, execute Atom: `atom ~/src/tinyfpga/blink`.
@@ -844,6 +904,7 @@ The intermediate form is called [vvp][23] assembly used for simulation, and FPGA
 
 
 # Counter, Now Using Verilator
+
 This is another "Hello World" of FPGA electronics, a circuit the simply counts.
 This example is basically taken from "[Experimenting with Verilator (counter)][25]".
 Copied the verilog code from the website and created a file named `counter.v`
@@ -863,9 +924,11 @@ but instead we'll do everything on the commandline.
 It will look something like this:
 
 Sources:
+
 * [Experimenting with Verilator (counter)](https://www.walknsqualk.com/post/014-tiny-fpga-bx/)
 
 ## Step 1: Prepare Project Directory
+
 Create your project directory, go into the new directory,
 and initialize the project like we did previously project.
 
@@ -903,6 +966,7 @@ $ verilator --lint-only -Wall counter.v
 ```
 
 ## Step 2: Create the Testbench - DONE
+
 Next we write a C++ testbench for the above Verilog code.
 C++ is used for the bench since non-synthesizable Verilog features
 would be needed to write a proper Verilog bench.
@@ -915,6 +979,7 @@ Create the `testbench.cpp` file coping it from
 `http://rattus-pubis.blogspot.com/2011/02/experimenting-with-verilator-counter.html`.
 
 ## Step 3: Run Verilator - DONE
+
 To create your simulation, your run `verilator` on the top level Verilog file.
 In our case, this is `counter.v`.
 
@@ -937,6 +1002,7 @@ Another file in that directory, `obj_dir/Vcounter.mk`,
 and you use this to “make” these files into the library that you will need to link your C++ driver program to.
 
 ## Step 4: Run the Simulator - DONE
+
 Now we execute the simulator win the `obj_dir` directory, `Vcounter`.
 This will create a `counter.vcd` file in your current directory.
 This new file can then be analyized via the `gtkwave` program.
@@ -968,6 +1034,7 @@ rm -rf obj_dir counter.vcd hardware.blif counter.sav hardware.out
 
 
 # Blinky, Now using Testbench
+
 In this example, we are building a very similar module as the one above,
 but this time, illustrating a simple development process.
 We will not be using Atom,
@@ -985,9 +1052,11 @@ apio clean                       # delete all apio files (except apio.ini)
 ```
 
 Sources:
+
 * [FPGA design for Software Engineers](https://www.walknsqualk.com/post/014-tiny-fpga-bx/)
 
 ## Step X: Prepare Project Directory
+
 Create your project directory, go into the new directory,
 and initialize the project like we did previously project.
 
@@ -1007,6 +1076,7 @@ apio init --board TinyFPGA-BX
 This will create the `apio.ini` file in the current directory.
 
 ## Step X: Create Blinky Code
+
 This is another "Hello World" of electronics, a blinking LED.
 This example is basically the template from the [TinyFPGA-BX User Guide][03].
 The difference is that we’ll simulate with Verilator first
@@ -1045,6 +1115,7 @@ for simulation, or other [netlist formats][21] for further processing.
 The intermediate form is called [vvp][23] assembly used for simulation, and FPGA for synthesis.
 
 ## Step X: Run Verilator
+
 To create your simulation, your run `verilator` on the top level Verilog file.
 In our case, this is `top.v`.
 
@@ -1106,6 +1177,7 @@ make -C obj_dir -f Vtop.mk
 ```
 
 ## Step X: Create the Testbench Code
+
 It is always a good idea to test your design before implementation.
 When dealing with an FPGA this isn't as critical as when fabricating a chip in silicon.
 
@@ -1145,6 +1217,7 @@ $ apio sim
 
 
 # Using the Testbench
+
 In this example, we are building a comparator that will compare two input numbers
 and provide output signals as to whether the first number is
 less than, equal to, or greater than the second number.
@@ -1166,6 +1239,7 @@ apio clean                       # delete all apio files (except apio.ini)
 ```
 
 Sources:
+
 * [Getting Started With The TinyFPGA BX][19]
 
 * [FPGA design for Software Engineers](https://www.walknsqualk.com/post/014-tiny-fpga-bx/)
@@ -1173,6 +1247,7 @@ Sources:
 * [FPGA design for Software Engineers, part 3](https://www.walknsqualk.com/post/016_fpga_design_p3/)
 
 ## Step X: Prepare Project Directory
+
 Create your project directory, go into the new directory,
 and initialize the project like we did previously project.
 
@@ -1192,6 +1267,7 @@ apio init --board TinyFPGA-BX
 This will create the `apio.ini` file in the current directory.
 
 ## Step X: Create Comparator Code
+
 Using verilog code, create a new file named `comparator.v`
 that implements the comparator function.
 You'll also need to create the `pins.pcf` file
@@ -1233,6 +1309,7 @@ for simulation, or other [netlist formats][21] for further processing.
 The intermediate form is called [vvp][23] assembly used for simulation, and FPGA for synthesis.
 
 ## Step X: Create the Testbench Code
+
 It is always a good idea to test your design before implementation.
 When dealing with an FPGA this isn't as critical as when fabricating a chip in silicon.
 
@@ -1296,6 +1373,7 @@ GTKWave Analyzer v3.3.101 (w)1999-2019 BSI
 
 
 # Getting Started: "Hello World"
+
 * [Getting Started With The TinyFPGA BX][19]
 * [Getting Started with FPGAs: The Development Environment and “Hello World”](https://www.allaboutcircuits.com/technical-articles/fpga-tutorial-step-1-the-development-environment-and-hello-world/)
 
@@ -1322,7 +1400,6 @@ GTKWave Analyzer v3.3.101 (w)1999-2019 BSI
 [19]:https://www.woolseyworkshop.com/2019/08/30/getting-started-with-the-tinyfpga-bx/
 [20]:https://iverilog.fandom.com/wiki/Main_Page
 [21]:https://en.wikipedia.org/wiki/Netlist
-[22]:https://www.systutorials.com/docs/linux/man/1-vvp/
 [23]:https://linux.die.net/man/1/vvp
 [24]:https://www.woolseyworkshop.com/2019/08/30/getting-started-with-the-tinyfpga-bx/#TestingTheComparator
 [25]:http://rattus-pubis.blogspot.com/2011/02/experimenting-with-verilator-counter.html

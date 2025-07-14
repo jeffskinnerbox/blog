@@ -15,7 +15,7 @@ Version:      0.0.0
 
 Authelia is an open-source authentication and authorization server and portal fulfilling the identity and access management (IAM) role of information security in providing multi-factor authentication and single sign-on (SSO) for your applications via a web portal. Authelia is an OpenID Connect 1.0 Provider which is OpenID Certified™ allowing comprehensive integrations, and acts as a companion for common reverse proxies.
 
-Authentik is an open-source identity provider (IdP) that allows users to self-host user authentication, single sign-on (SSO), and access controls for their applications and services. It acts as a central authentication hub, enabling users to manage user credentials, access permissions, and various authentication protocols in a flexible and customizable way. 
+Authentik is an open-source identity provider (IdP) that allows users to self-host user authentication, single sign-on (SSO), and access controls for their applications and services. It acts as a central authentication hub, enabling users to manage user credentials, access permissions, and various authentication protocols in a flexible and customizable way.
 
 [Authentik Vs Authelia | Best Self-Hosted Open Source Identity Provider in 2025? (FULL REVIEW!)](https://www.youtube.com/watch?v=nMHK_rCqDJs)
 [Authentik Vs Keycloak Vs Authelia | Best Authentication Tool In 2025? (WHICH IS BETTER?)](https://www.youtube.com/watch?v=a5-br58rm3c)
@@ -55,6 +55,7 @@ Identity and Access Management (IAM)
 * [How to set up a reverse proxy for your self-hosted apps](https://www.xda-developers.com/how-to-set-up-a-reverse-proxy-for-your-self-hosted-apps/)
 
 Up-and-coming reverse proxy is [Candy](https://caddyserver.com/)
+
 * [My Experience of Switching from NGINX to Caddy](https://medium.com/@torch2424/my-experience-of-switching-from-nginx-to-caddy-79bc8cd627c0)
 * [What Makes Caddy Different](https://caddyserver.com/blog/what-makes-caddy-different.html)
 * [Setup Nginx as a reverse proxy](https://www.inpimation.com/setup-nginx-reverse-proxy/)
@@ -124,6 +125,7 @@ Home Router
 
 
 # Establish Your Internet Access Environment
+
 For proper operation of any Internet facing service,
 enabling [HTTPS (Hypertext Transfer Protocol Secure)][04] is required.
 Many services recommend (required in many cases) the enablement of HTTPS
@@ -172,6 +174,7 @@ We'll examine three well established reverse proxies here:
 
 
 # Nginx Proxy Manager
+
 [Nginx Proxy Manager][01] is the go-to tool to establish a reverse proxy.
 Using Docker, I'm going to describe how to install Nginx as a proxy manager.
 Alternatively, you can use a already established reverse proxy if it exists.
@@ -227,7 +230,7 @@ Nginx Proxy Server
 * [How To Use Traefik as a Reverse Proxy for Docker Containers (One Docker Host) 2021](https://www.youtube.com/watch?v=JYZDzcurX3I)
 
 * [Traefik v2.6+ | How to Install and Why You Should (plus Authelia, Traefik Pilot)](https://www.youtube.com/watch?v=pU7JvIrthxg)
-    * [Traefik v2.6+](https://docs.ibracorp.io/traefik/)
+  * [Traefik v2.6+](https://docs.ibracorp.io/traefik/)
 
 
 ## CrowdSec
@@ -312,6 +315,7 @@ Nginx Proxy Server
 
 
 # CloudFlare Tunnels
+
 Using CloudFlare Tunnels allows us to create an encrypted connection between your server(s) and CloudFlare without the need to forward any ports.
 
 * [Cloudflare: How to Set up Cloudflare Argo Tunnel FREE on Unraid - Bypass CGNAT](https://www.youtube.com/watch?v=RQ-6dActAr8)
@@ -320,6 +324,7 @@ Using CloudFlare Tunnels allows us to create an encrypted connection between you
 
 
 # Common Error: 502 Bad Gateway openresty
+
 This error happens when the reverse proxy can’t connect to the destination host, or doesn’t get a response.
 Most likely, in docker setups, the containers are not on the same network, or the destination is not correct.
 Make sure you’re accessing the correct IP/hostname and the NGINX proxy manager can reach this target.
@@ -357,6 +362,7 @@ Make sure you’re accessing the correct IP/hostname and the NGINX proxy manager
 
 
 ## DNS
+
 To change your home routers DNS, go to `https://192.168.1.1/#/network/connections/1`
 and select "Settings" at the bottom of the page.
 
@@ -368,6 +374,7 @@ and select "Settings" at the bottom of the page.
 
 
 ### dig
+
 To get DNS speed and IP adderss, use:
 
 * `dig @princess.ns.cloudflare.com google.com`
@@ -375,6 +382,7 @@ To get DNS speed and IP adderss, use:
 
 
 ### nslookup
+
 `nslookup` examples
 
 ```bash
@@ -470,6 +478,7 @@ Sources:
 
 
 ### Flush DNS Cashe
+
 It’s important to sometimes [flush the DNS server cache][86].
 When you type a domain name into a browser,
 a DNS servers perform this a name to IP address conversion, and vice versa.
@@ -605,6 +614,7 @@ Sources:
 
 
 #### Step X: Check if Port 80 & 443 are Blocked
+
 In the web world, port 80 is the default port for HTTP / HTTPS protocols.
 At the same time, it is very common for Internet Service Providers (ISP) to block
 all inbound data to this port (not outbound data).
@@ -627,6 +637,7 @@ Cloudflare has it own version of this Port 80 Redirect idea but they call it
 
 
 #### Step X: Unblock and Forward Ports on Home Router
+
 By default, Bitwarden will be served through ports 80 (http) and 443 (https) on the host machine.
 Open these ports and modify your firewall
 so that Bitwarden can be accessed from within and/or outside of the network.
@@ -694,6 +705,7 @@ you should get something like "Connection refused".
 
 
 #### Step X: XXX
+
 From in side my LAN,
 I used `google-chrome http://192.168.33.10:8080` and it gives me the Bitwarden login page.
 So Bitwarden is reachable on my LAN from behind the Nginx Proxy Manager, as you would expect.
@@ -733,6 +745,7 @@ Cloudflare DOES works with yubikey & WebAuthn -  <https://blog.cloudflare.com/cl
 
 
 #### Step X: Setup Domain Name Account on Namecheap
+
 I have [purchased my domain name at Namecheap][72].
 Most people know of [Namecheap][52] as a domain registration and management service,
 but they also offer web hosting services.
@@ -745,6 +758,7 @@ just follow the registration process document [here][73].
 
 
 #### Step X: Adding Your Domain to Cloudflare
+
 Go to [Cloudflare](https://dash.cloudflare.com/sign-up)
 and create an account.
 When you start your account,
@@ -768,6 +782,7 @@ The DNS proxied means it will be shown a Cloudflare IP, not your IP address, if 
 
 
 # Establish Your SSL Certificates
+
 To enable [HTTPS on your website][61],
 you need to get a [Secure Sockets Layer (SSL) certificate][62] from a [Certificate Authority (CA)][63].
 In order to get a certificate for your website’s domain from aCA

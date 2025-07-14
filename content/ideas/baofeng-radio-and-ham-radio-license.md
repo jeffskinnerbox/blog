@@ -40,6 +40,7 @@ and [Part 2](https://www.bridgecomsystems.com/blogs/bridgecom-tx-rx-blog/9826157
 
 
 # Brandmeister Network
+
 The Brandmeister network is very large and popular DMR (digital mobile radio) ham network.
 You don’t need a license nor will you need to sign up for anything as long as you are content to just listen.
 Here’s how it works: Brandmeister operates a large number of servers worldwide
@@ -68,7 +69,7 @@ and it may go over the airwaves via someone else’s hotspot or repeater.
 # Baofeng RF Module: SA818
 
 * [Getting to the Heart of a Baofeng](https://hackaday.com/2022/11/15/getting-to-the-heart-of-a-baofeng/)
-    * [We use Baofeng's "heart" for Our Projects (SA818, DRA818)](https://www.youtube.com/watch?v=CIeT4SWneeo)
+  * [We use Baofeng's "heart" for Our Projects (SA818, DRA818)](https://www.youtube.com/watch?v=CIeT4SWneeo)
 
 
 # Quansheng UV K5 Radio
@@ -108,6 +109,7 @@ If you needs some additional motivation for taking the test, check out these sit
 
 
 # Baofeng UV-5R+ 136-174 400-480 MHz FM Transceiver
+
 This is an inexpensive Chinese hand held 5 watt radio,
 capable of transmitting and receiving on the 2-meter and 70-cm bands.
 Additionally, it can receive on standard commercial FM frequencies as well as weather band!
@@ -123,6 +125,7 @@ Some examples of this are:
 
 
 ## Limitations of the Baofeng UV-5R and the GT-5R
+
 Compared with the Baofeng UV-R5, the GT-5R
 is a 100% compliant with FCC transmit range and spurious emission requirements (aka legal version),
 complies with FCC Equipment Rule Part15B and Part90. FCC ID: ①ZP5BF-5 RA(TX) ②2AJGM-UV5 R (RX).
@@ -162,6 +165,7 @@ Go with this legal version, beginners would never worry about goofing with autho
 
 
 ### Weather Frequwencies
+
 List of NOAA Frequencies:
 162.400
 162.425
@@ -190,6 +194,7 @@ To search for radio frequencies used by fire, police, schools, etc, in your area
 
 
 #### Step X: Unlock GMRS Frequencies - ???
+
 The advertised frequency range of Baofeng UV-5R is
 Rx-only on 65-108 MHz (commercial FM radio),
 Tx & Rx on 136-174 MHz (VHF 2 meter band),
@@ -214,6 +219,7 @@ Sources:
 
 
 #### Step 1: Adding the Chirp tool - DONE
+
 The [official CHIRP website][13] also supports a [PPA repository for the CHIRP program][14]
 but its only supported on Ubuntu 20.04 Focal.
 I desided to [install CHIRP via Snap package][15] instead.
@@ -255,6 +261,7 @@ sudo snap remove chirp-snap
 
 
 #### Step X: Connect the Cable to the Computer - DONE
+
 When plugging the cable into your computers USB port,
 you expect `ls /dev/ttyUSB*` command will give you the device file for the cable.
 Also, when you execute the [`lsusb`][18] command with the cable plugged in,
@@ -287,6 +294,7 @@ That device name will be of this pattern: `/dev/ttyUSB*`.
 
 
 #### Step X: Permission Issue When Connecting With Radio - DONE
+
 But before going any further,
 I wanted to heed the [warning with the CHIRP wiki about permissions][17].
 Make sure your login's group includes `dialout`.
@@ -304,6 +312,7 @@ sudo gpasswd --add ${USER} dialout
 
 
 #### Step X: Start CHIRP and Download Contents from the Radio
+
 The [CHIRP wiki lists all the radios supported][16] and you find the Baofeng UV-5R among the many.
 
 Before you begin to use CHIRP with your radio,
@@ -331,15 +340,17 @@ If you want to store the memories in a file, you must export them to a `.csv` or
 Source:
 
 * [CHIRP Wiki: Beginners Guide](https://chirp.danplanet.com/projects/chirp/wiki/Beginners_Guide)
-    * [How To Use CHIRP Software To Program A Baofeng UV-5R. Using CHIRP for HAM, GMRS, and FRS Radios](https://www.youtube.com/watch?v=XQ_JzivmjyI)
-    * [How To Program a Baofeng Ham Radio Easy and FAST With CHIRP](https://www.youtube.com/watch?v=MEpBo5lixsw)
+  * [How To Use CHIRP Software To Program A Baofeng UV-5R. Using CHIRP for HAM, GMRS, and FRS Radios](https://www.youtube.com/watch?v=XQ_JzivmjyI)
+  * [How To Program a Baofeng Ham Radio Easy and FAST With CHIRP](https://www.youtube.com/watch?v=MEpBo5lixsw)
 
 
 #### Step X: Make Changes
+
 Once you have the radio contents displayed in the memory editor, you can proceed to make your changes. This may include manual edits or importing memories from other sources. If you are using a clone-mode radio, you may wish to save a .img file of your radio as and after you make your changes. Live mode radio users will have their changes immediately take effect in the radio and do not need to proceed to Step 3.
 
 
 #### Step X: Upload Changes Back to the Radio
+
 **For clone-mode radios only,**
 once you have made all the edits you need to make,
 you should upload your image back to the radio.
@@ -348,6 +359,7 @@ The Vendor and Model are already known, so all you need to do is choose a serial
 
 
 #### Step X: Setup Channel Scanning
+
 See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.com/watch?v=x-TdmS0rLX4) at 1:32 minute
 
 
@@ -380,6 +392,7 @@ See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.co
 
 
 ## What About the FCC?
+
  What is the FCC's track-record of going after
  (ie; issuing a fine or putting in jail)
  people  that talk on a ham radio without a ham radio license, talk on GMRS without a license,
@@ -428,10 +441,11 @@ See [Baofeng UV-5R Quick Programming & Scanning Tutorial](https://www.youtube.co
 
 
 ## HOA Antenna
+
 Home Ownner Association (HOA) Antenna
 
 * [Hidden Gutter Antenna Keeps HOA Happy](https://hackaday.com/2024/08/27/hidden-gutter-antenna-keeps-hoa-happy/)
-    * [Is That Antenna Allowed? The Real Deal on the FCCs OTARD Rule](https://hackaday.com/2024/08/30/is-that-antenna-allowed-the-real-deal-on-the-fccs-otard-rule/)
+  * [Is That Antenna Allowed? The Real Deal on the FCCs OTARD Rule](https://hackaday.com/2024/08/30/is-that-antenna-allowed-the-real-deal-on-the-fccs-otard-rule/)
 
 
 ## Tape Measure Antenna
@@ -443,6 +457,7 @@ Home Ownner Association (HOA) Antenna
 
 
 ## Antenna Loss
+
 Want to know if all your energy is flowing to your antenna?
 Use an RF current meter.
 
@@ -480,6 +495,7 @@ Common Mode Current outside the Coax
 
 
 ## Baofeng UV-5R+ as a Police Scanner
+
 Almost all public services (Police, Fire, EMS, works, etc)
 chatter is now trunked and encrypted
 (trunking system in 700 or 800 MHz)
@@ -517,6 +533,7 @@ However there are still some things you can listen to:
 
 
 ## OpenMHz
+
 Using a cheap Software Defined Radio (SDR) and platforms like GNURadio,
 it is possible capture all Police / Fire / EMS transmisions over trunked radio systems.
 The OpenMHz Project invites you to record a local radio system and share it with the world.
@@ -537,6 +554,7 @@ The OpenMHz Project invites you to record a local radio system and share it with
 
 
 # History of Ham
+
 The origin of the term "Ham" is not clear but the prevailing theory is the following.
 In the early part of the 20th Century,
 Radio was proving its usefulness and electronic experimenters would homebrew their own radio stations,
@@ -608,6 +626,7 @@ and it's better than the $50 fee that the FCC was originally proposing.
 
 
 # Unlicensed Experimental Radio
+
 LowFER (Low-Frequency Experimental Radio) refers to experimental radio communication practiced by hobbyists
 on frequencies between 160 kHz and 190 kHz
 (sometimes referred to as the 1750-meter band and in the past as the 1875 Meters band)
@@ -620,6 +639,7 @@ By current U.S. and Canadian regulations, LowFER transmitters may not use antenn
 
 
 # HamSCI
+
 HamSCI is a group of amateur radio operators and scientists working together to study the ionosphere
 and further the amateur radio hobby.
 
@@ -627,6 +647,7 @@ and further the amateur radio hobby.
 
 
 ## Digital RF
+
 The Digital RF project encompasses a standardized HDF5 format for reading and writing of radio frequency data and the software for doing so. The format is designed to be self-documenting for data archive and to allow rapid random access for data processing.
 
  The software implements a data recording format for scientific radio frequency (RF) instrumentation using the HDF5 scientific data format. The implementation is designed for the management of highly time-dependent data from a large number of radio sensors. Applications include radio science (e.g., radio astronomy, geospace radar) and any project requiring the capture and use of RF data as raw digital samples.
@@ -636,6 +657,7 @@ The Digital RF project encompasses a standardized HDF5 format for reading and wr
 
 
 # Low-Frequency Experimental Radio
+
 LowFER (Low-Frequency Experimental Radio) refers to experimental radio communication practiced by hobbyists on frequencies below 300 kHz, a part of the radio spectrum known as low frequency. The practitioners are known as "LowFERs"
 
 * [The Low-Down on Long-Wave: Unlicensed Experimental Radio](https://hackaday.com/2021/10/19/the-low-down-on-long-wave-unlicensed-experimental-radio/)
@@ -653,6 +675,7 @@ LowFER (Low-Frequency Experimental Radio) refers to experimental radio communica
 
 
 # Emergency Communications
+
 SHTF = shit hits the fan
 
 * [An Introduction to Radios and Emergency Communication](https://www.youtube.com/watch?v=nzDj0u1HhvE)
@@ -691,10 +714,11 @@ Contrast with
 * [The New (2017) FRS and GMRS Radio Frequencies](https://codegreenprep.com/category/social/comms/)
 * [How To Get A GMRS License – Easy Guide To GMRS Licensing On The FCC Website](https://www.notarubicon.com/how-to-get-a-gmrs-license-easy-guide-to-gmrs-licensing-on-the-fcc-website/)
 * [How To Program A GMRS Radio To Use A Repeater - GMRS Repeater Channel Programming For GMRS Radios](https://www.youtube.com/watch?v=kEyBqTJIkY4)
-    * [myGMRS.com - General Mobile Radio Service repeater directory and online community](https://mygmrs.com/)
+  * [myGMRS.com - General Mobile Radio Service repeater directory and online community](https://mygmrs.com/)
 
 
 ## How To Get A GMRS License
+
 It can be harder to find and fill out the forms for a GMRS license
 than it is to take the HAM-Radio Operators License Exam!
 The FCC website is used for many things, obtaining other licenses, etc.
@@ -728,6 +752,7 @@ To check the status of your license or to view/update your licensee information,
 
 
 ## What GMRS Radio to Buy?
+
 Baofeng UV-9G GMRS
 BTECH GMRS-V2 - Baofeng (UV82) inside but assembled & supported in USA
 **Wouxun KG-UV9G PRO GMRS Two-Way Radio**
@@ -747,7 +772,7 @@ Nagoya NA-771G Handheld GMRS Antenna (15.3 Inch)
 * [Wouxun KG-935G GMRS HT vs The Wouxun KG-UV9G Pro GMRS Hand Held Radio - Which GMRS HT Is The Best?](https://www.youtube.com/watch?v=Tk5yd7aTYTY)
 * [Wouxun KG-UV9GX GMRS Review - Overview Of The New GMRS Handheld HT Walkie Talkie Radio From Wouxun](https://www.youtube.com/watch?v=y6SYTO1QJhc)
 * [Baofeng UV-9G GMRS UPDATE - The Good, The Bad, & The Ugly Of The Baofeng UV9G GMRS HT](https://www.youtube.com/watch?v=3RgV4OB80ko)
-    * [Baofeng Responds! Baofeng Will FIX The UV-9G GMRS Radio - To Make It The Sexy Redhead Of GMRS Radios](https://www.youtube.com/watch?v=oYOh5NSA_II)
+  * [Baofeng Responds! Baofeng Will FIX The UV-9G GMRS Radio - To Make It The Sexy Redhead Of GMRS Radios](https://www.youtube.com/watch?v=oYOh5NSA_II)
 
 Only Wouxun distributors in the USA
 
@@ -768,9 +793,9 @@ Only Wouxun distributors in the USA
 * [How Is A GMRS Repeater Channel Different From Standard Channels & Why Are Repeater Channels Shared?](https://www.youtube.com/watch?v=3PBZYCjNAoc)
 
 * [Homemade GMRS SHTF Repeater - Two Wouxun KG-1000G GMRS Radios - How Far Can It Transmit?](https://www.youtube.com/watch?v=ouVYpwWwlw4)
-    * [Building a GMRS Repeater For Personal or SHTF PART1 - Repeater Build with Two Wouxun KG-1000G Radios](https://www.youtube.com/watch?v=exAdO2898wI)
-    * [How To Build A GMRS Repeater - Part II - Antenna, Duplexer, Coax, Grounding, & Idiots On Youtube](https://www.youtube.com/watch?v=0C6gKmgVXn8)
-    * [How To Build A GMRS Repeater Part 2.5 - First Issues, How To Configure The KG-1000G, and Tom Hanks](https://www.youtube.com/watch?v=o6xmJoBsRhg)
+  * [Building a GMRS Repeater For Personal or SHTF PART1 - Repeater Build with Two Wouxun KG-1000G Radios](https://www.youtube.com/watch?v=exAdO2898wI)
+  * [How To Build A GMRS Repeater - Part II - Antenna, Duplexer, Coax, Grounding, & Idiots On Youtube](https://www.youtube.com/watch?v=0C6gKmgVXn8)
+  * [How To Build A GMRS Repeater Part 2.5 - First Issues, How To Configure The KG-1000G, and Tom Hanks](https://www.youtube.com/watch?v=o6xmJoBsRhg)
 
 
 ## What Are the Repeaters in My Area
@@ -784,6 +809,7 @@ Only Wouxun distributors in the USA
 
 
 ## Microwave Frequencies
+
  In amateur radio, generally the frequencies above 902 MHz are call microwave frequencies.
 
 * [North Texas Microwave Society](http://ntms.org/)
@@ -797,6 +823,7 @@ Only Wouxun distributors in the USA
 
 
 # Amateur Radio Weak Signal Communication
+
 The FT8 digital mode is the latest in a series of weak signal applications for amateur radio.
 Conceived originally for enhancing esoteric propagaint modes such as high speed meteor scatter and moonbounce,
 Joe Taylor (K1JT) developed a series of applications including FSK144, JT6M, JT65, and JT9.
@@ -834,17 +861,17 @@ was announced it was described as being designed for,
 * [HamPi, formerly known as W3DJS Raspberry Pi for Ham Radio](https://github.com/dslotter/HamPi/)
 
 * Raspberry Pi for HAM Radio
-    * [Part 1](https://hamprojects.files.wordpress.com/2020/09/rpi-part-1-v1.2.pdf)
-    * [Part 2](https://hamprojects.files.wordpress.com/2020/09/rpi-part-2-v1.1.pdf)
-    * [Part 3](https://hamprojects.files.wordpress.com/2020/09/rpi-part-3-v1.3.pdf)
-    * [Part 4](https://hamprojects.files.wordpress.com/2020/09/rpi-part-4-v1.0.pdf)
-    * [Part 5](https://hamprojects.files.wordpress.com/2020/09/rpi-part-5-v1.0.pdf)
-    * [Part 6](https://hamprojects.files.wordpress.com/2020/09/rpi-part-6-v3.pdf)
-    * [Part 7](https://hamprojects.files.wordpress.com/2020/09/rpi-part-7-v1.0.pdf)
-    * [Part 8](https://hamprojects.files.wordpress.com/2020/09/rpi-part-8-v1.0.pdf)
-    * [Part 9](https://hamprojects.files.wordpress.com/2020/09/rpi-part-9-v1.0.pdf)
-    * [Part 10](https://hamprojects.files.wordpress.com/2020/09/rpi-part-10-v1.0.pdf)
-    * [Part 11](https://hamprojects.files.wordpress.com/2020/09/rpi-part-11-v1.0.pdf)
+  * [Part 1](https://hamprojects.files.wordpress.com/2020/09/rpi-part-1-v1.2.pdf)
+  * [Part 2](https://hamprojects.files.wordpress.com/2020/09/rpi-part-2-v1.1.pdf)
+  * [Part 3](https://hamprojects.files.wordpress.com/2020/09/rpi-part-3-v1.3.pdf)
+  * [Part 4](https://hamprojects.files.wordpress.com/2020/09/rpi-part-4-v1.0.pdf)
+  * [Part 5](https://hamprojects.files.wordpress.com/2020/09/rpi-part-5-v1.0.pdf)
+  * [Part 6](https://hamprojects.files.wordpress.com/2020/09/rpi-part-6-v3.pdf)
+  * [Part 7](https://hamprojects.files.wordpress.com/2020/09/rpi-part-7-v1.0.pdf)
+  * [Part 8](https://hamprojects.files.wordpress.com/2020/09/rpi-part-8-v1.0.pdf)
+  * [Part 9](https://hamprojects.files.wordpress.com/2020/09/rpi-part-9-v1.0.pdf)
+  * [Part 10](https://hamprojects.files.wordpress.com/2020/09/rpi-part-10-v1.0.pdf)
+  * [Part 11](https://hamprojects.files.wordpress.com/2020/09/rpi-part-11-v1.0.pdf)
 
 Pat Winlink - <https://youtu.be/UdpKZ4SZli8>
 Propagation predection - <https://youtu.be/jye6JkIPYY0>
@@ -868,6 +895,7 @@ Chirp - <https://youtu.be/RQ8eEsU1b1c>
 
 
 ## Automatic Packet Reporting System (ARPS)
+
 The [APRS (Automatic Packet Reporting System)][10] is a worldwide digital communications network for amateur radio, providing a single national channel where people can monitor what is happening in the surrounding area.
 
 * [ham radio text messaging via APRS - no phone needed](https://www.youtube.com/watch?v=L6XBVf_HbVA)
@@ -889,6 +917,7 @@ The [APRS (Automatic Packet Reporting System)][10] is a worldwide digital commun
 
 
 ### Digital Repeater
+
 "Digipeater" is short for "Digital Repeater"; a repeater for packet data rather than voice. Unlike the standard voice repeater that receives on one frequency and retransmits what it hears simultaneously on another frequency, the usual digipeater is a single frequency device. It receives a packet of data, stores it in internal memory and then a moment later retransmits it on the SAME frequency.
 
 APRS is also relatively slow, running at 1200 baud, so video, audio and pictures would be better suited for another protocol.
@@ -911,6 +940,7 @@ and has been around for 25 years.
 
 
 ## Packet Radio
+
 Introduction to Packet Radio - <https://www.tapr.org/pr_intro.html>
 
 * [New Packet Radio](https://hackaday.com/2019/03/30/bidirectional-ip-with-new-packet-radio/)
@@ -934,6 +964,7 @@ Echolink can be used by simply installing some software on a phone or PC. It is 
 
 
 ## Echolink
+
 [EchoLink](http://www.echolink.org/)
 software allows licensed Amateur Radio stations to communicate with one another over the Internet, using streaming-audio technology.  The program allows worldwide connections to be made between stations, or from computer to station, greatly enhancing Amateur Radio's communications capabilities.  There are more than 350,000 validated users worldwide — in 159 of the world's 193 nations — with about 6,000 online at any given time.
 
@@ -941,6 +972,7 @@ software allows licensed Amateur Radio stations to communicate with one another 
 
 
 ## AllStarLink
+
 [AllStarLink](https://allstarlink.org/)
 is a network of Amateur Radio repeaters, remote base stations and hot spots accessible to each other via Voice over Internet Protocol. AllStarLink runs on a dedicated computer (including the Rasperry Pi) that you host at your home, radio site or computer center. It is based on the open source Asterisk PBX running our app_rpt application. App_rpt makes Asterisk a powerful system capable of controlling one or more radios. It provides linking of these radio "nodes" to other systems of similar construction anywhere in the world via VoIP.
 AllStarLink has 26K users and 25K nodes.
@@ -949,6 +981,7 @@ AllStarLink's primary use is as a dedicated computer node wired to your repeater
 
 
 ## Digital Mobile Radio (DMR)
+
 An open source TDMA digital radio
 
 * [What is DMR (Digital Mobile Radio)](https://www.youtube.com/watch?v=YwT5xR-mW5c)
@@ -956,6 +989,7 @@ An open source TDMA digital radio
 
 
 ## Other Digial Voice (DV) Modes
+
 DSTAR, P25, Yaesu System Fusion (YSF), FCS & NXDN
 
 * [Ham Radio Digital Modes Comparison - DMR, DSTAR or YSF? P25 or NXDN?](https://www.youtube.com/watch?v=oBYjPkXJFa8)
@@ -996,7 +1030,7 @@ DSTAR, P25, Yaesu System Fusion (YSF), FCS & NXDN
 * [Open Notify: International Space Station Current Location](http://open-notify.org/Open-Notify-API/ISS-Location-Now/)
 * [ISS Ham Radio Repeater](https://hackaday.com/2020/09/10/iss-ham-radio-repeater/)
 * [Listening to Astronauts ON THE ISS with a Baofeng UV-5R](https://www.youtube.com/watch?v=3sNwzBC6Rbk)
-    * ISS (International Space Station) -reciever frequency - 145.8MHz
+  * ISS (International Space Station) -reciever frequency - 145.8MHz
 * [A perfect python project for beginners. Find the ISS!](https://www.youtube.com/watch?v=R6CCTuHast0&t=125s)
 * [Add ISS Packet Operation to Your Satellite Activity](http://www.ariss.org/uploads/1/9/6/8/19681527/k9jkm_2012_symposium_ver2.pdf)
 
@@ -1023,12 +1057,14 @@ DSTAR, P25, Yaesu System Fusion (YSF), FCS & NXDN
 
 
 # Short Wave Audio Archives
+
 The Shortwave Radio Audio Archive (SRAA) is a collection of shortwave radio recordings that you can download or listen.
 
 * [The Short Wave Audio Archives](https://shortwavearchive.com/)
 
 
 # Power Meter
+
 wanted to measure the exact RF power output from your QRP rig, programmable oscillator, HamShield, 900MHz Explorer Hat, LoRa, WiFi, Bluetooth module, or cable distribution system? How much RF power output does your drone or camera module output? In a simple-to-read output on any computer? Now you can.
 
 * [Measuring HamShield Power Output](https://inductivetwig.com/blogs/news/measuring-hamshield-power-output)
@@ -1036,6 +1072,7 @@ wanted to measure the exact RF power output from your QRP rig, programmable osci
 
 
 # Radio Garden
+
 Radio Garden is a non-profit Dutch radio and digital research project developed from 2013 to 2016, by the Netherlands Institute for Sound and Vision
 
 * [Radio Garden](http://radio.garden)
@@ -1048,6 +1085,7 @@ Radio Garden is a non-profit Dutch radio and digital research project developed 
 
 
 # WinLink
+
 email over RF
 
 * [Winlink Email Over HF/VHF Using Mobilinkd Bluetooth TNC](https://www.youtube.com/watch?v=gJMCIoSt5nY)
@@ -1062,6 +1100,7 @@ email over RF
 
 
 ## Citizens Broadband Radio Service (CBRS)
+
 Citizens Broadband Radio Service (CBRS) is shared wireless spectrum in the 3.5GHz band that could have big implications for building private LTE networks and for extending public 4G and 5G services.
 
 CBRS is a band of radio-frequency spectrum from 3.5GHz to 3.7GHz that the Federal Communications Commission has designated for sharing among three tiers of users: incumbent users, priority licensees and generally authorized, which is lightly licensed.

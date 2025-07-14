@@ -31,10 +31,12 @@ Version:      0.0.0
 ################################################################################
 
 # Jetson Modules
+
 * [Jetson Modules](https://developer.nvidia.com/embedded/jetson-modules)
 * [NVIDIA Announces $59 Jetson Nano 2GB, A Single Board Computer With Makers In Mind](https://hackaday.com/2020/10/05/nvidia-announces-59-jetson-nano-2gb-a-single-board-computer-with-makers-in-mind/)
 
 # NVIDIA Jetson TX1
+
 The "Nvidia Jetson" is a brand name for a series of computation processor boards from Nvidia.
 The Jetson [TK1][14], [TX1 and TX2][13] models all are carrying a [Tegra][12] processor from Nvidia.
 I have heard of the NVIDIA Jetson TX1 but was put off by its $600 price tag.
@@ -54,6 +56,7 @@ the Jetson TX1 wants you to have a desktop machine with 64-bit Ubuntu running on
 This makes things simpler for loading the many [software installations supported by the Jetson][20].
 
 ## How does the Jetson TX1 Compare
+
 The [numbers supplied by NVIDIA report][04] that the Jetson TX1 performance beats
 out an Intel Core i7 6700K Skylake CPU when it comes to deep learning,
 but where it really excels is power efficiency.
@@ -82,6 +85,7 @@ $10K can buy you two [Nvidia Titan V GPUs][49] and a [Intel i7 8700K][50], [cran
 [understanding supercomputer performance][09]
 [What makes a computer "super"?][11]
 [floating point operations per second (FLOPS)][08]
+
 * [Everything You Need To Know About The NVIDIA Jetson TX1 Performance](https://www.phoronix.com/scan.php?page=article&item=nvidia-jtx1-perf&num=1)
 * [The NVIDIA Jetson TX1 Developer Kit: A Tiny, Low Power, Ultra Fast Computer](https://www.linux.com/learn/nvidia-jetson-tx1-developer-kit-tiny-low-power-ultra-fast-computer)
 * [Nvidia Jetson Nano Review](https://www.arnabkumardas.com/platforms/nvidia/nvidia-jetson-nano-review-and-benchmark/)
@@ -94,7 +98,7 @@ $10K can buy you two [Nvidia Titan V GPUs][49] and a [Intel i7 8700K][50], [cran
 
 
 
-* https://www.phoronix.com/scan.php?page=search&q=Jetson+TX1
+* <https://www.phoronix.com/scan.php?page=search&q=Jetson+TX1>
 * [NVIDIA Doubles TX1 Deep Learning Speed & Efficiency With Software Upgrade](https://www.phoronix.com/scan.php?page=news_item&px=NVIDIA-JetPack-2.3)
 * [NVIDIA JTX1: Finally An Exciting 64-bit ARM Board!](https://www.phoronix.com/scan.php?page=article&item=nvidia-tegra-jtx1&num=1)
 
@@ -103,6 +107,7 @@ $10K can buy you two [Nvidia Titan V GPUs][49] and a [Intel i7 8700K][50], [cran
 * [Hands On With Nvidia's New Jetson Nano](https://www.extremetech.com/computing/288153-hands-on-with-nvidias-new-jetson-nano)
 
 # Google Coral
+
 * [Google accepting pre-orders for first single board computer](https://electronics360.globalspec.com/article/19285/google-accepting-pre-orders-for-first-single-board-computer)
 * [Google Coral Edge TPU vs NVIDIA Jetson Nano: A quick deep dive into EdgeAI performance](https://blog.usejournal.com/google-coral-edge-tpu-vs-nvidia-jetson-nano-a-quick-deep-dive-into-edgeai-performance-bc7860b8d87a)
 * [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
@@ -111,6 +116,7 @@ $10K can buy you two [Nvidia Titan V GPUs][49] and a [Intel i7 8700K][50], [cran
 
 
 # Jetson TX1 Enclosure
+
 For a developer kit enclosure,
 I purchased the [JIANGRUI Acrylic TXShell](https://www.amazon.com/gp/product/B072VXYCRZ/)
 off of Amazon.
@@ -124,22 +130,25 @@ and in the end, it met my most important needs at a reasonable price.
 * [3D Printering: Making A Thing With OpenSCAD](https://hackaday.com/2013/12/11/3d-printering-making-a-thing-with-openscad/)
 
 * [JETSON-TX1-case - A 3D Printed case for Nvidia Jetson TX1](https://github.com/yxftju/JETSON-TX1-case)
-    * Imported into [Onshape](https://www.onshape.com/open-source)
+  * Imported into [Onshape](https://www.onshape.com/open-source)
 
 
 ## Jetson TX2
+
 * [NVIDIA Jetson TX1 and TX2 Comparison](https://www.youtube.com/watch?v=hz9000u5pw0)
 * [NVIDIA Jetson TX2 Delivers Twice the Intelligence to the Edge](https://devblogs.nvidia.com/jetson-tx2-delivers-twice-intelligence-edge/)
 
 ## Jetson Nano
 
 ## Jetson Xavier NX
+
 The Jetson Xavier NX delivers up to 21 Trillions Operations per Second (TOPS) while using up to 15 watts of power.
 
 
 * [Nvidia Jetson Xavier NX review: Redefining GPU accelerated machine learning](https://www.androidauthority.com/jetson-xavier-nx-dev-kit-review-1117930/)
 
 ## Boot Options
+
 [Boot off of SD Card](https://jkjung-avt.github.io/sd-rootfs-on-tx1/)
 [Boot off of eMMC]()
 [Boot off of SSD]()
@@ -148,11 +157,12 @@ The Jetson Xavier NX delivers up to 21 Trillions Operations per Second (TOPS) wh
 ################################################################################
 
 
-Flash Jetpack on Jetson TX2 Dev Kit with Ubuntu Virtualbox VM - https://scratchrobotics.com/2019/06/11/flash-jetpack-on-jetson-tx2-dev-kit-with-ubuntu-virtualbox-vm/
+Flash Jetpack on Jetson TX2 Dev Kit with Ubuntu Virtualbox VM - <https://scratchrobotics.com/2019/06/11/flash-jetpack-on-jetson-tx2-dev-kit-with-ubuntu-virtualbox-vm/>
 
 
 
 # Physical Assembly - DONE
+
 There is no physcial assembly for the Jetson TX1.
 The develoment kit is ready to be powered up and loaded with software,
 but I also purchased an enclosure and [SSD drive][32] for the device.
@@ -163,6 +173,7 @@ To make Serial Console access easy,
 purchase an Adafruit [USB to TTL Serial Cable – Debug / Console Cable for Raspberry Pi][24].
 
 ## Step 1: Load Jetson TX1 on the Enclosure - DONE
+
 I purchased from Amazon an enclosure for the Nvidia Jetson TX1 Developer Kit
 called the [JIANGRUI Acrylic TXShell][21].
 This open enclosure comes with a SATA power/data extension cable
@@ -170,6 +181,7 @@ that lets you expand Jetson TX1 storage with a SSD drive.
 The enclosure assembly is very simple but tedious.
 
 ## Step 2: Installing SSD Drive - DONE
+
 The on-board 16GB of [eMMC storage][18] is more than enough room for Linux and a large application,
 but that amount can easily be overrun if a lot of data storage is needed.
 To get more storage and [better perfromance][22],
@@ -187,6 +199,7 @@ To do the SSD installation, view the videos "[Develop on SSD - NVIDIA Jetson TX 
 and "[Install Samsung SSD on NVIDIA Jetson TX1][31]".
 
 ## Step 3: Establish Serial Console Access - DONE
+
 A Serial Console is a ubiquitous tool when the development kit has issues
 but I'm going to use it to avoid the need for a monitor.
 In my case, I'm are going to connect a Ubuntu PC up to the
@@ -207,6 +220,7 @@ and connection speed is 115200, with 8 bits, no parity, and 1 stop bit (115200 8
 5. Then plug the USB connector into the host machine
 
 ## Step X: Power Up / First Boot from eMMC - DONE
+
 Plug the power adapter into the the Jetson board and then into the power outlet.
 The board might powers on,
 but more likely you need to press and release the power button on the device
@@ -290,6 +304,7 @@ Now shutdown the OS (via `sudo shutdown -h now`) or it may appear to hang.
 In any event, remove the power.
 
 ## Step X: Prepare for JetPack Install (Force USB Recovery Mode)
+
 To update your system, you must be in Force USB Recovery Mode (RCM)
 so that you can transfer system software to the Jetson TX1.
 When in Force USB Recovery Mode,
@@ -324,6 +339,7 @@ follow the procedure listed below ([check out this video][30]):
 * [Getting Started with NVIDIA Jetson Nano Devkit: Inference using Images, RTSP Video Stream](https://www.cnx-software.com/2019/12/07/getting-started-with-nvidia-jetson-nano-devkit-inference-using-images-rtsp-video-stream/)
 
 # Establish Host and JetPack Ready for Flashing Jetson TX1 - DONE
+
 The Jetson TX1 Dev board needs to be updated with Nvidia's JetPack SDK
 but the dev board is not directly flashable via a USB stick.
 You need a host machine (with Ubuntu OS)
@@ -347,6 +363,7 @@ It also includes samples, documentation, and developer tools for both host compu
 and supports higher level SDKs such as DeepStream for streaming video analytics and Isaac for robotics.
 
 ## My Flashing Configuration
+
 The installation of the JetPack platform on the Jetson TX1 is a bit involved.
 For one thing, it requires a separate Ubuntu 16.04 (aka host) where JetPack will be downloaded
 and built for the Jetson TX1 (aka target).
@@ -375,6 +392,7 @@ As long as the percentages continue to increase (which appears to slow when reac
 you are making progress.
 
 Sources:
+
 * [Updating a Nvidia Jetson TX1 Through Windows via VirtualBox with Jetpack](https://medium.com/@connerfritz/installing-the-latest-jetpack-on-a-nvidia-jetson-tx1-on-windows-through-virtualbox-8adef92e7171)
 * [Install Jetson TX1 Jetpack using VM (VirtualBox on macOS)](http://qml.610t.org/FreeBSD/TX1_Jetpack_VM.html)
 * [Flash Jetpack on Jetson TX2 Dev Kit with Ubuntu Virtualbox VM](https://scratchrobotics.com/2019/06/11/flash-jetpack-on-jetson-tx2-dev-kit-with-ubuntu-virtualbox-vm/)
@@ -387,6 +405,7 @@ Sources:
 * [Jetson TX2 Developer Kits User Guide (December 17, 2019)](https://developer.download.nvidia.com/embedded/L4T/r28_Release_v1.0/Docs/Jetson_TX1_and_TX2_Developer_Kits_User_Guide.pdf)
 
 ## Step 1: Create an Ubuntu Host - DONE
+
 Nvidia has a very odd installation procedure where you must run the Jetpack SDK
 on a separate Linux computer while the Jetson TX1 is connected via USB and the Jetson TX1 is in Recovery Mode.
 Since I didn't have a spare computer and monitor laying around,
@@ -396,7 +415,9 @@ The [Vagrantfile I used to set this up on GitHub][35], but using a Ubuntu 16.04 
 see "[Updating a Nvidia Jetson TX1 Through Windows via VirtualBox with Jetpack][36]".)
 
 ######################## NOT USED ?? ###########################################
+
 ## Step X: Hardware Setup for Jetson TX1 and Ubvuntu Host
+
 To flash the Jetson TX1 with software,
 you need to connect the TX1, using a USB cord to the host machine,
 connect your TX1 via ethernet port to a LAN (where the Host is connected to),
@@ -413,6 +434,7 @@ Press enter, once you are ready. Most probably everything will install smoothly,
 ######################## NOT USED ?? ###########################################
 
 ## Step X: Download JetPack to Ubuntu Host - DONE
+
 Nvidia offers a software development kit (SDK),
 which contains all of the software needed for building computer vision and deep learning applications,
 along with the target OS to flash the development board.
@@ -508,9 +530,10 @@ Jetson (hubv2-24fd5b0000036206) = 192.168.1.231
 ############################# REMOVE AFTER TESTING #############################
 
 ## OTG USB Not Working
-JTX1_USB_as device - https://forums.developer.nvidia.com/t/jtx1-usb-as-device/44028
-Making your own OTG cable - https://www.youtube.com/watch?v=YxFemTqSA4I or https://www.youtube.com/watch?v=_Kv5lJKJhDg
-How usb OTG works(master/slave) - https://stackoverflow.com/questions/11338076/how-usb-otg-worksmaster-slave
+
+JTX1_USB_as device - <https://forums.developer.nvidia.com/t/jtx1-usb-as-device/44028>
+Making your own OTG cable - <https://www.youtube.com/watch?v=YxFemTqSA4I> or <https://www.youtube.com/watch?v=_Kv5lJKJhDg>
+How usb OTG works(master/slave) - <https://stackoverflow.com/questions/11338076/how-usb-otg-worksmaster-slave>
 
 USB OTG introduces the concept of a device performing both master and slave roles – whenever two USB devices are connected and one of them is a USB OTG device, they establish a communication link. The device controlling the link is called the master or host, while the other is called the slave or peripheral.
 
@@ -526,6 +549,7 @@ For OTG cable to work your phone must have an operating system that supports OTG
 
 
 ## Step X: Set-up USB for Vagrant/Virtualbox
+
 * [How to set up USB for Virtualbox?](https://askubuntu.com/questions/25596/how-to-set-up-usb-for-virtualbox)
 * [what are the proper values for usb device in virtual box](https://askubuntu.com/questions/682550/what-are-the-proper-values-for-usb-device-in-virtual-box)
 * [How to set up USB for Virtualbox?](https://askubuntu.com/questions/25596/how-to-set-up-usb-for-virtualbox)
@@ -546,6 +570,7 @@ NVIDIA DRIVE: A minimum of 40GB and up to 120GB (during flash) free disk space o
 
 
 ## Step X: Test JetPack Setup
+
 The JetPack installation, comes with its own car detection sample.
 You can see it in action, and also test your setup, by running:
 
@@ -563,6 +588,7 @@ $ ~/tegra_multimedia_api/samples/backend/backend 1 \
 
 
 # Load the SSD
+
 Jetson TX1 comes with a built in RAM capacity of 16GB via onboard eMMC,
 out of which, the above installation of JetPack will takes about >8 GB.
 This leaves us with very little space to work with.
@@ -574,11 +600,13 @@ apart from speed and size is the fact that the entire installation is intact on 
 In case of issues, you can disconnect the SSD and try it again.
 
 Sources:
+
 * [Setting up Nvidia TX1 Dev board with JetPack 3.2 and SSD with a bonus](https://blog.gauravagarwalr.com/posts/2018-04-10-setting-up-nvidia-tx1/)
 * [Develop on SSD - NVIDIA Jetson TX Dev Kits][23]
 * [Install Samsung SSD on NVIDIA Jetson TX1][31]
 
 # Step X: Format SSD and Copy Files to SSD
+
 After you have physically connected your SSD,
 you should see the SSD show up when you boot the Dev Board.
 The first thing you should do is format it, using the Disks utility.
@@ -597,6 +625,7 @@ This would take a while, depending on your SSD speed.
 It took me ~3 minutes.
 
 # Step X: Edit `bootconfig` to Boot from SSD
+
 To use the SSD as our boot drive,
 I will need to edit the `bootconfig` file in `/boot/extlinux`.
 
@@ -648,6 +677,7 @@ I renamed primary to emmc, and added another block for satassd.
 And edited it accordingly.
 
 ## Step X: Boot from the SSD
+
 Once this is done, Reboot.
 You should now see an "SD Icon" instead of the SSD.
 That is the internal eMMC.
@@ -658,6 +688,7 @@ Test the installation and you are good to go!
 
 
 # Jetson/TX1 Cloning
+
 * [Jetson/TX1 Cloning](https://elinux.org/Jetson/TX1_Cloning)
 
 
@@ -665,6 +696,7 @@ Test the installation and you are good to go!
 
 
 # Installing TensorFlow, TensoRT, and OpenCV
+
 * [Object Detection on NVIDIA Jetson TX2](https://medium.com/datadriveninvestor/object-detection-on-nvidia-jetson-tx2-6090dc3e0595)
 
 
@@ -672,9 +704,11 @@ Test the installation and you are good to go!
 
 
 ## Step X: Setup Docker
-https://blog.gauravagarwalr.com/posts/2018-04-10-setting-up-nvidia-tx1/#bonus-setup-docker
+
+<https://blog.gauravagarwalr.com/posts/2018-04-10-setting-up-nvidia-tx1/#bonus-setup-docker>
 
 ## Step X: Jetson TX1 Swap File
+
 * [Jetson TX1 Swap File and Development Preparation](https://www.jetsonhacks.com/2016/12/21/jetson-tx1-swap-file-and-development-preparation/)
 
 
@@ -682,6 +716,7 @@ https://blog.gauravagarwalr.com/posts/2018-04-10-setting-up-nvidia-tx1/#bonus-se
 
 
 # Testing the Jetson TX1
+
 * [The NVIDIA Jetson TX1 Developer Kit: A Tiny, Low Power, Ultra Fast Computer](https://www.linux.com/learn/nvidia-jetson-tx1-developer-kit-tiny-low-power-ultra-fast-computer)
 
 
@@ -689,10 +724,12 @@ https://blog.gauravagarwalr.com/posts/2018-04-10-setting-up-nvidia-tx1/#bonus-se
 
 
 # Testing
+
 [Object Detection on NVIDIA Jetson TX2](https://medium.com/datadriveninvestor/object-detection-on-nvidia-jetson-tx2-6090dc3e0595)
 
 
 # Getting Started with the Jetson TX1: NVIDIA Developer Program
+
 * [NVIDIA Developer Program](https://developer.nvidia.com/)
 * [Jetson Inference](https://github.com/dusty-nv/jetson-inference)
 * [Jetson TX1 Wiki](https://elinux.org/Jetson_TX1)
@@ -702,6 +739,7 @@ https://blog.gauravagarwalr.com/posts/2018-04-10-setting-up-nvidia-tx1/#bonus-se
 
 
 # Snap
+
 Canonical has deployed Snappy Ubuntu Core,
 a tiny Linux-based operating system for large-scale cloud container deployments,
 IoT devices, mobile phones, and anything that needs transitional updates and tiny footprint.
@@ -714,25 +752,29 @@ But as the article "[Canonical’s Snap: The Good, the Bad and the Ugly](https:/
 
 
 # FloydHub is Heroku for Deep Learning
-https://www.floydhub.com/  -   It never ceases to amaze me how what I once considered difficult or requiring special skills can become easy or common almost overnight!!
+
+<https://www.floydhub.com/>  -   It never ceases to amaze me how what I once considered difficult or requiring special skills can become easy or common almost overnight!!
 
 
 
 
 * [Measuring Machine Learning](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
-    * [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
-    * [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
+  * [Hands on with the Coral Dev Board](https://medium.com/@aallan/hands-on-with-the-coral-dev-board-adbcc317b6af)
+  * [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://towardsdatascience.com/measuring-machine-learning-945a47bd3750)
 
 
 # Benchmarks
+
 * [Raspberry Pi 3 Benchmarks vs. Eight Other ARM Linux Boards](https://www.phoronix.com/scan.php?page=article&item=raspberry-pi-3&num=1)
 * [Benchmarks Of Many ARM Boards From The Raspberry Pi To NVIDIA Jetson TX2](https://www.phoronix.com/scan.php?page=article&item=march-2017-arm&num=1)
 
 # TensorRT
+
 * [AI at the Edge: TensorFlow to TensorRT on Jetson: Video](https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?&eventid=1602941&sessionid=1&username=&partnerref=&format=fhaudio&mobile=false&flashsupportedmobiledevice=false&helpcenter=false&key=1DB3FD8783438A48604E2864BA3C51E5&text_language_id=en&playerwidth=1000&playerheight=650&overwritelobby=y&eventuserid=196030285&contenttype=A&mediametricsessionid=160639597&mediametricid=2297202&usercd=196030285&mode=launch)
 * [AI at the Edge: TensorFlow to TensorRT on Jetson: Slides](http://developer.download.nvidia.com/embedded/webinars/TF-TRT-Jetson-WebinarPresentation.pdf?XmLXnRYjIKOfwcPrf2i4ej-CjLgKf8UCd0FiPvZTlrafDoPGeINpeQ3VG4MAwu5Zluk1esb-CordxTnAVYqSGH_Eug8jIIfP93wnN6R7GGn9_EfATJkU0p18_1QG2qfHFQcN6Hl_F2pKmmNZugU9RpX61vReXw)
 
 # MIT RACECAR
+
 [RACECAR/J][01] is derived from the open source [MIT RACECAR][02],
 an “open-source powerful platform for robotics research and education”.
 The RACECAR/J Chassis is based on the [TRAXXAS Slash 4×4 Platinum Truck][03],
@@ -744,19 +786,22 @@ and pieces such as C-hubs, steering blocks, rear hub carriers and axle nuts.
 * [Nvidia Jetson Robots Get A Head Start With Isaac Software Tools](https://hackaday.com/2019/06/01/nvidia-jetson-robots-get-a-head-start-with-isaac-software-tools/)
 
 # Software
+
 [JetPack 3.2 SDK for NVIDIA Jetson](https://developer.nvidia.com/embedded/jetpack?ncid=em-ded-jk32-33601)
 [JetPack 4.3 SDK for NVIDIA Jetson](https://www.seeedstudio.com/blog/2019/12/19/jetpack-4-3-released-for-your-jetson-modules)
 bundles the complete Jetson platform software—including
 TensorRT, cuDNN, CUDA Toolkit, NVIDIA VisionWorks™, GStreamer,
 and OpenCV—all built on top of L4T with LTS Linux kernel.
 
-Development - https://developer.nvidia.com/embedded/jetpack
-Jetson Software - https://developer.nvidia.com/embedded/develop/software
-* JetPack - https://developer.nvidia.com/embedded/jetpack
-* Linux For Tegra (L4T) - https://developer.nvidia.com/embedded/linux-tegra-archive
-* DeepStream SDK on Jetson - https://developer.nvidia.com/deepstream-jetson
+Development - <https://developer.nvidia.com/embedded/jetpack>
+Jetson Software - <https://developer.nvidia.com/embedded/develop/software>
+
+* JetPack - <https://developer.nvidia.com/embedded/jetpack>
+* Linux For Tegra (L4T) - <https://developer.nvidia.com/embedded/linux-tegra-archive>
+* DeepStream SDK on Jetson - <https://developer.nvidia.com/deepstream-jetson>
 
 NVIDIA Software -
+
 * [NVIDIA Deep Learning GPU Training System (DIGITS)](https://developer.nvidia.com/digits)
 * CUDA and cuDNN
 * [CUDA Is Like Owning A Supercomputer](https://hackaday.com/2018/03/19/cuda-is-like-owning-a-supercomputer/)
@@ -771,30 +816,36 @@ NVIDIA Software -
 
 
 ## Board Dimensions
+
 You can download the Jetson TX1 board design files [here][15].
 You'll file the board drawing on page one on the PDF `P2597_B04_PCB_assembly_drawing.pdf`.
 The dimensions of the board are 170.18mm x 170.18mm (6.7in x 6.7in  or  6 45/64 inch x 6 45/64 inch).
 
 
 # Machine Learning Applied to RF
+
 * [Making Sense of Signals](http://on-demand.gputechconf.com/gtc/2018/video/S8375/)
 * [Deepwave Digital’s  AIR-T (Artificial Intelligence Radio — Transceiver)](http://linuxgizmos.com/linux-on-jetson-sdr-board-gets-major-software-upgrade/)
 * [cuFFT on the AIR-T with GNU Radio](https://deepwavedigital.com/blog/cufft-on-the-air-t-with-gnu-radio/)
 
 # GStreamer
+
 * [Nvidia Hardware accelerated video Encoding/Decoding (nvcodec) — GStreamer](https://medium.com/@nareshkumarganesan/nvidia-hardware-accelerated-video-encoding-decoding-nvcodec-gstreamer-4b8eab662bf1)
 
 # OS Upgrade
+
 * [Porting Ubuntu Core 18 on Nvidia Jetson TX1 Developer Kit](https://ubuntu.com/blog/porting-ubuntu-core-18-to-nvidia-jetson-tx1-developer-kit)
 
 # Project for the Jetson TX1
+
 * [Open Data Cam Combines Camera, GPU, and Neural Network in an Artisanal DIY Cereal Box](https://hackaday.com/2018/10/29/open-data-cam-combines-camera-gpu-and-neural-network-in-an-artisanal-diy-cereal-box/)
 * [How One NVIDIAN Uses Deep Learning to Keep Cats from Pooping on His Lawn](https://blogs.nvidia.com/blog/2016/07/07/deep-learning-cats-lawn/)
 * [Neural Network Learns SDR Ham Radio](https://hackaday.com/2017/12/16/neural-network-learns-sdr-ham-radio/)
-* [ Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
+* [Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
 * [SDR meets AI in a mash-up of Jetson TX2, Artix-7, and 2x2 MIMO](http://linuxgizmos.com/sdr-meets-ai-in-a-mash-up-of-jetson-tx2-artix-7-and-2x2-mimo/)
 
 # Building Your Development Environment
+
 * [Building a Digits Dev Machine on Ubuntu 16.04](https://blog.kickview.com/building-a-digits-dev-machine-on-ubuntu-16-04/)
 * [How to use OpenCV’s “dnn” module with NVIDIA GPUs, CUDA, and cuDNN](https://www.pyimagesearch.com/2020/02/03/how-to-use-opencvs-dnn-module-with-nvidia-gpus-cuda-and-cudnn/)
 
@@ -828,7 +879,6 @@ The dimensions of the board are 170.18mm x 170.18mm (6.7in x 6.7in  or  6 45/64 
 [26]:https://www.jetsonhacks.com/2015/12/01/serial-console-nvidia-jetson-tx1/
 [27]:https://developer.nvidia.com/embedded/jetson-tx1-developer-kit
 [28]:https://developer.nvidia.com/embedded/develop/software
-[29]:http://images.nvidia.com/content/tegra/embedded-systems/pdf/JTX1-DevKit-Product-sheet.pdf?ncid=pa-blo-ftrs27-3860
 [30]:https://www.youtube.com/watch?v=4JUWS9i_FCQ
 [31]:https://www.youtube.com/watch?v=6nzWt42mzqk
 [32]:https://en.wikipedia.org/wiki/Solid-state_drive
@@ -840,7 +890,6 @@ The dimensions of the board are 170.18mm x 170.18mm (6.7in x 6.7in  or  6 45/64 
 [38]:https://developer.nvidia.com/embedded/jetpack
 [39]:https://developer.nvidia.com/jetpack-43-archive
 [40]:https://developer.nvidia.com/embedded/dlc/nv-sdk-manager
-[41]:https://developer.download.nvidia.com/embedded/L4T/r28_Release_v1.0/Docs/Jetson_TX1_and_TX2_Developer_Kits_User_Guide.pdf
 [42]:https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html
 [43]:https://docs.nvidia.com/sdk-manager/download-run-sdkm/index.html#login
 [44]:https://images-eu.ssl-images-amazon.com/images/I/81Q7ee4BDAS.pdf

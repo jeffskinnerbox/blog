@@ -269,6 +269,7 @@ sensitive to the setup of the problem.
 * [Dot Physics](https://www.youtube.com/@DotPhysics)
 
 ## Manim
+
 Manim is an engine for precise animations, designed for creating explanatory math videos.
 
 * [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)

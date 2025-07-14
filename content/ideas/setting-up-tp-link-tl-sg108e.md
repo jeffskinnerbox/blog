@@ -25,6 +25,7 @@ I latter replace the 8-port [TP-Link TL-SG108E][06] (MAC Address 5C:A6:E6:17:38:
 
 
 # Managed & Unmanged Smart Switch
+
 Unmanaged switches are plug and play.
 You connect one of the ports to your existing LAN via Ethernet to receive
 additional physical Ethernet port connectivity via the switch.
@@ -56,6 +57,7 @@ It comes with [TP-Link browser-based management software][01] so you can:
 
 
 #### Step 1: Power Up and Access the Switch - DONE
+
 To find out the IP address of the switch (and all the other device on your LAN),
 power up the switch, connected it to you LAN, and use the following to find the IP address:
 
@@ -110,10 +112,12 @@ point your browser at the IP address captured with the above scripts.
 The default login / password is `admin` / `admin`.
 
 #### Step X: Update Switch Firmware - DONE
+
 To update the firmware,
 goto the [TP-Link offical download page][10].
 
 #### Step X: Setting Up VLANs
+
 * [What are VLANs? -- the simplest explanation](https://www.youtube.com/watch?v=MmwF1oHOvmg)
 * [VLAN vs Subnet: What Are Their Differences?](https://www.fiber-optic-transceiver-module.com/vlan-vs-subnet.html)
 * [Native VLAN - the DEFINITIVE illustration](https://www.youtube.com/watch?v=Fmq1E1Qr2W4)

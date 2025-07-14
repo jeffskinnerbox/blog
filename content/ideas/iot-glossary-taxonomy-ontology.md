@@ -28,6 +28,7 @@ See [here](https://www.radio-electronics.com/info/cellulartelecomms/lte-long-ter
 [here](https://www.leverege.com/blogpost/cellular-iot-explained-nb-iot-vs-lte-m),
 [here](https://halberdbastion.com/technology/iot/iot-protocols/emtc-lte-cat-m1),
 and others for Cat-4 vs Cat-0 vs Cat-1 vs Cat-M1 vs eMTC vs NB-IoT … don’t you just love standards!
+
 * [Wio LTE Cat M1/NB-IoT Tracker](http://wiki.seeedstudio.com/Wio_LTE_Cat_M1_NB-IoT_Tracker/)
 
 
@@ -40,6 +41,7 @@ This rambling list of acronyms and phrases is the producton of my preperation.
     and a tool like [protégé][07], but that would require more time than I have!
 
 The importance of this job area:
+
 * [The Best Jobs Of 2014: Lots Of Math, Data And Code](http://readwrite.com/2014/04/28/best-jobs-2014-math-big-data-code-programming#awesm=~oD26OeAU8DImbd)
 * [The Best Jobs of 2014](http://www.careercast.com/jobs-rated/best-jobs-2014)
 
@@ -48,6 +50,7 @@ The importance of this job area:
 
 
 # 5G
+
 * [Global update on spectrum for 4G & 5G](https://www.qualcomm.com/media/documents/files/spectrum-for-4g-and-5g.pdf)
 * [What’s in the future of 5G millimeter wave?](https://www.qualcomm.com/news/onq/2021/01/14/whats-future-5g-millimeter-wave)
 * [20 radio access network (RAN) terms to know](https://www.redhat.com/architect/ran-radio-access-network-definitions)
@@ -60,6 +63,7 @@ The importance of this job area:
 
 
 ## Software Defined Networking and Network Function Virtualization
+
 **Software Defined Networking (SDN)**
 :   The idea of separating the control plane of a network from the data plane that forwards network traffic.
     The goal of this disaggregation is to create a network that is centrally managed and programmable.
@@ -83,6 +87,7 @@ The importance of this job area:
     with the ability to spin them up down on demand.
 
 ## Industrial Control System
+
 Industrial control system (ICS) is a general term that encompasses several types of
 control systems and associated instrumentation used for industrial process control.
 
@@ -97,7 +102,7 @@ control systems and associated instrumentation used for industrial process contr
     and other HVAC components that can be adjusted.
 
 **Distributed Control Systems (DCS)**
-https://en.wikipedia.org/wiki/Distributed_control_system
+<https://en.wikipedia.org/wiki/Distributed_control_system>
 
 **Supervisory Control and Data Acquisition (SCADA)**
 :   A control system architecture that uses computers, networked data communications,
@@ -106,6 +111,7 @@ https://en.wikipedia.org/wiki/Distributed_control_system
     to interface to the process plant or machinery.
 
 ## Web Services
+
 The term Web services describes a standardized way of integrating Web-based applications
 using the JSON, XML, SOAP, WSDL, RDF and UDDI open standards over an Internet protocol backbone.
 Unlike traditional client/server models, such as a Web server/Web page system,
@@ -174,6 +180,7 @@ through a programmatic interface across a network.
     [Bobo Framework](http://bobo.digicool.com/en/latest/contents.html)
 
 ## RESTful Programming
+
 [RESTful Programming][04] uses the concept of REST,
 which stands for Representational State Transfer (It is sometimes spelled "ReST").
 Its's an architecture style for designing networked applications
@@ -222,13 +229,13 @@ HATEOAS, an abbreviation for Hypermedia as the Engine of Application State
 **REST vs. SOAP**
 :   Multiple factors need to be considered when choosing a particular type of Web service,
     that is between REST and SOAP.
-    * The RESTful Web services are completely stateless.
+    *The RESTful Web services are completely stateless.
     * Restful services provide a good caching infrastructure over HTTP GET method (for most servers).
-    * REST is particularly useful for restricted-profile devices such as mobile and PDAs.
+    *REST is particularly useful for restricted-profile devices such as mobile and PDAs.
     * REST services are easy to integrate with the existing websites and are exposed with XML so the HTML pages can consume the same with ease.
-    * The Web Services Description Language (WSDL) contains and describes the common set of rules to define the messages, bindings, operations and location of the Web service.
+    *The Web Services Description Language (WSDL) contains and describes the common set of rules to define the messages, bindings, operations and location of the Web service.
     * SOAP requires less plumbing code than REST services design, (i.e., transactions, security, coordination, addressing, trust, etc.)
-    * SOAP Web services (such as JAX-WS) are useful in handling asynchronous processing and invocation.
+    *SOAP Web services (such as JAX-WS) are useful in handling asynchronous processing and invocation.
     * SOAP supports several protocols and technologies, including WSDL, XSDs, SOAP, WS-Addressing
 
 **ROA vs. SOA**
@@ -288,9 +295,9 @@ HTML5 - [brief introduction to HTML5][18]
     With Ajax, web applications can send data to, and retrieve data from, a server asynchronously
     (in the background) without interfering with the display and behavior of the existing page.
     Ajax is not a single technology, but a group of technologies.
-    * HTML (or XHTML) and CSS for presentation
+    *HTML (or XHTML) and CSS for presentation
     * The Document Object Model (DOM) for dynamic display of and interaction with data
-    * XML for the interchange of data, and XSLT for its manipulation
+    *XML for the interchange of data, and XSLT for its manipulation
     * The XMLHttpRequest object for asynchronous communication
     * JavaScript to bring these technologies together
 
@@ -303,6 +310,7 @@ HTML5 - [brief introduction to HTML5][18]
 
 
 ## Authentication
+
 Authentication is the process of determining whether someone or something is,
 in fact, who or what it is declared to be.
 In private and public computer networks (including the Internet),
@@ -335,7 +343,7 @@ to perform authentication on the Internet.
 
 **Node.js**
 :   Node.js is a software platform for scalable server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on Windows, Mac OS X, and Linux with no changes.  Node.js applications are designed to maximize throughput and efficiency, using non-blocking I/O and asynchronous events. Node.js applications run single-threaded, although Node.js uses multiple threads for file and network events.
-[ What You Need To Know About Node.js](http://readwrite.com/2013/11/07/what-you-need-to-know-about-nodejs#feed=/hack&awesm=~oD2cgDlOnKEfSp)
+[What You Need To Know About Node.js](http://readwrite.com/2013/11/07/what-you-need-to-know-about-nodejs#feed=/hack&awesm=~oD2cgDlOnKEfSp)
 
 [Flask is a microframework for Python based on Werkzeug, Jinja 2](http://flask.pocoo.org/)
 
@@ -353,10 +361,11 @@ to perform authentication on the Internet.
     and desktop statistics and visualization packages.
     It typically requires instead parallel software running on tens, hundreds, or even thousands of servers.
 
-http://shop.oreilly.com/product/0636920025054.do?code=DEAL&imm_mid=0ba076&cmp=em-strata-books-videos-product-dod_agile_data_science_deal
+<http://shop.oreilly.com/product/0636920025054.do?code=DEAL&imm_mid=0ba076&cmp=em-strata-books-videos-product-dod_agile_data_science_deal>
 [EMC Academic Alliance](https://www.youtube.com/user/EMCAcademics)
 
 ## Cloud Computing
+
 Cloud computing means storing and accessing data and programs over the Internet instead of your computer's hard drive.
 Cloud computing is **not about** having a dedicated hardware server or stored data in residence on a local computer or network.
 
@@ -420,6 +429,7 @@ Hadoop MapReduce – a programming model for large scale data processing.
 Beyond HDFS, YARN and MapReduce, the entire Apache Hadoop “platform” is now commonly considered to consist of a number of related projects as well – Apache Pig, Apache Hive, Apache HBase, Apache Spark, and others.
 
 ## Web Site
+
 A web page (or webpage) is a web document that is suitable for the World Wide Web and the web browser.
 A web browser displays a web page on a monitor or mobile device.
 
@@ -468,12 +478,13 @@ known as a Uniform Resource Locator (URL).
     high-availability heavy-duty dynamic web sites,
     and capable of serving tens of thousands of requests simultaneously.
     The meaning of the LAMP acronym depends on which specific components are used as part of the actual bundle:
-    * **L**inux, the operating system (i.e. not just the Linux kernel, but also glibc and some other essential components of an operating system)
+    ***L**inux, the operating system (i.e. not just the Linux kernel, but also glibc and some other essential components of an operating system)
     * **A**pache HTTP Server, the web server
-    * **M**ySQL, MariaDB or MongoDB, the database management system
+    ***M**ySQL, MariaDB or MongoDB, the database management system
     * **P**HP, Perl, or Python, scripting languages used for dynamic web pages and web development.
 
 ## Content Management
+
 Content management, or CM, is the set of processes and technologies that support the collection,
 managing, and publishing of information in any form or medium.
 When stored and accessed via computers, this information has come to be referred to,
@@ -535,10 +546,12 @@ Agile
 ["Pigs and Chickens"](http://searchsoftwarequality.techtarget.com/definition/pigs-and-chickens)
 
 ## Wireless Technologies for Wearables
+
 * [6 wireless technologies for wearables](https://blog.nordicsemi.com/getconnected/wireless-technologies-for-wearables)
 
 ## What is PAN, BAN, WAN and LPWAN
-* https://blog.nordicsemi.com/getconnected/what-is-pan-ban-wan-lpwan-types-of-networks
+
+* <https://blog.nordicsemi.com/getconnected/what-is-pan-ban-wan-lpwan-types-of-networks>
 
 * [LPWA matchup | LoRaWAN vs Sigfox vs NB-IoT vs LTE-M: Part 1](https://enterpriseiotinsights.com/20190814/channels/news/lpwa-matchup-round-one)
 * [LPWA matchup | LoRaWAN vs Sigfox vs NB-IoT vs LTE-M: Part 2](https://enterpriseiotinsights.com/20190820/channels/news/lpwa-matchup-round-two)
@@ -549,6 +562,7 @@ Agile
 ## Knowledge Management
 
 ## Internet Communications
+
 **IRC**
 :   Internet Relay Chat (IRC) is a system that facilitates transfer of messages in the form of text.
     The chat process works on a client/server model of networking.
@@ -557,6 +571,7 @@ Agile
     but also allows one-to-one communication via private message, data transfer, and file sharing.
 
 ## Internet Protocol Suite
+
 [Internet Protocol Suite](http://en.wikipedia.org/wiki/Internet_protocol_suite)
 Application layer
 BGP DHCP * DHCPv6 DNS FTP HTTP IMAP IRC LDAP MGCP NNTP NTP POP RPC RTP RTSP RIP SIP SMTP SNMP SOCKS SSH Telnet TLS/SSL XMPP more...
@@ -570,7 +585,7 @@ IP IPv4 IPv6 ICMP ICMPv6 ECN IGMP IPsec more...
 Link layer
 ARP/InARP NDP OSPF Tunnels L2TP PTPP Media access control Ethernet DSL ISDN FDDI DOCSIS more...
 
-ISO Transport on top of TCP (ITOT) - http://tools.ietf.org/html/rfc2126
+ISO Transport on top of TCP (ITOT) - <http://tools.ietf.org/html/rfc2126>
 
 **Cyber-Physical Systems (CPS)**
 :   A cyber-physical system (CPS) is a system of collaborating computational elements controlling physical entities.
@@ -591,24 +606,26 @@ ISO Transport on top of TCP (ITOT) - http://tools.ietf.org/html/rfc2126
     known as white spaces, be made available for public use and IoT.
 
 ## IoT Networking
+
 * White Space
-    * [NuRAN Wireless ](http://www.digitaljournal.com/pr/1991582)
-    * [Neul](http://www.neul.com/neul/)
-    * [Weightless](http://www.weightless.org/)
-    * [Sigfox](http://www.sigfox.com/en/)
+  * [NuRAN Wireless](http://www.digitaljournal.com/pr/1991582)
+  * [Neul](http://www.neul.com/neul/)
+  * [Weightless](http://www.weightless.org/)
+  * [Sigfox](http://www.sigfox.com/en/)
 * Cellular
-    * [Colibri LTE](http://www.sequans.com/press-release/sequans-introduces-colibri-lte-platform-internet-things/)
+  * [Colibri LTE](http://www.sequans.com/press-release/sequans-introduces-colibri-lte-platform-internet-things/)
 * Satellite
-    * [Iridium](https://www.iridium.com/blog/what-is-satellite-iot-and-how-is-it-used/)
-    * [Orbcomm](https://www.orbcomm.com/en/partners/connectivity/iot-data-plans)
-    * [Inmarsat](https://www.inmarsat.com/en/news/latest-news/enterprise/2022/new-iot-spectrum-leasing-growth-iot-solution-providers.html)
-    * [Sateliot](https://sateliot.space/en/)
-    * [Lacuna Space](https://lacuna.space/about/)
-    * [Swarm](https://spectrum.ieee.org/swarm-takes-lora-skyhigh)
-    * [Globalstar](https://www.globalstar.com/en-us/products/iot)
-    * [CubeSat](https://spectrum.ieee.org/cubesat)
+  * [Iridium](https://www.iridium.com/blog/what-is-satellite-iot-and-how-is-it-used/)
+  * [Orbcomm](https://www.orbcomm.com/en/partners/connectivity/iot-data-plans)
+  * [Inmarsat](https://www.inmarsat.com/en/news/latest-news/enterprise/2022/new-iot-spectrum-leasing-growth-iot-solution-providers.html)
+  * [Sateliot](https://sateliot.space/en/)
+  * [Lacuna Space](https://lacuna.space/about/)
+  * [Swarm](https://spectrum.ieee.org/swarm-takes-lora-skyhigh)
+  * [Globalstar](https://www.globalstar.com/en-us/products/iot)
+  * [CubeSat](https://spectrum.ieee.org/cubesat)
 
 ## Internet of Things (IoT)
+
 The concept of the “Internet of things” first emerged in the late 1990s.
 It proposed that physical objects not normally thought of as “computers”—like boxes
 in a warehouse or appliances in a home—could be networked together using small,
@@ -628,6 +645,7 @@ Also see [The Internet of Things? What's that? (A relative explanation)](http://
 [What the Internet of Things (IoT) Needs to Become a Reality](http://www.freescale.com/files/32bit/doc/white_paper/INTOTHNGSWP.pdf)
 
 ## IoT Market Trends
+
 * [Intel focusing more on the IoT according to latest revenue report](http://www.element14.com/community/groups/internet-of-things/blog/2014/04/22/intel-focusing-more-on-the-iot-according-to-latest-revenue-report?CMP=SOM-IOT-CABE-INTEL)
 * [The Internet of Things Business Index: A quiet revolution gathers pace](http://www.arm.com/about/newsroom/75-percent-of-global-business-leaders-are-exploring-the-economic-opportunities-created-by-the.php) ([summary](http://www.itproportal.com/2013/12/05/internet-things-quiet-revolution-gathers-pace/))
 * [America's Coming Manufacturing Revolution](http://www.theatlantic.com/business/archive/2014/04/americas-coming-manufacturing-revolution/360931/)
@@ -635,6 +653,7 @@ Also see [The Internet of Things? What's that? (A relative explanation)](http://
 * []()
 
 ## IoT Devices, Wireless Connectivity, and IoT Application
+
 * [Intel's Quark SoC]()
 * [Texas Instruments: Wireless Connectivity](http://www.ti.com/lit/sg/slab056c/slab056c.pdf)
 * []()
@@ -669,10 +688,12 @@ Also see [The Internet of Things? What's that? (A relative explanation)](http://
 
 
 **Processor Boards for IoT**
+
 * [Processor Boards for IoT](https://iotdc.hackpad.com/Processor-Boards-for-IoT-jBHdtN5BRrZ)
 
 
 ## Accenture
+
 **[Industrial Internet][08]**
 :   Industrial Internet refers to the integration of complex physical machinery
     with networked sensors and software.
@@ -729,13 +750,13 @@ Also see [The Internet of Things? What's that? (A relative explanation)](http://
     about the future, which instead is the main characteristic of the Advanced Analytics.
 
 **Accenture Strategic Initative in the Industral Internet**
-:   * [Taleris](http://www.taleris.com/) - Taleris is a joint venture established by GE and Accenture to provide airlines and cargo carriers around the world with intelligent operations services, focused on improving efficiency by leveraging aircraft performance data, prognostics, recovery and planning optimization solutions that include assets and capabilities from both Accenture and GE.
+:   *[Taleris](http://www.taleris.com/) - Taleris is a joint venture established by GE and Accenture to provide airlines and cargo carriers around the world with intelligent operations services, focused on improving efficiency by leveraging aircraft performance data, prognostics, recovery and planning optimization solutions that include assets and capabilities from both Accenture and GE.
     * [Omnetric Group](http://www.omnetricgroup.com/) - Omnetric Group is a Siemens and Accenture joint venture in the smart grid field to develop solutions and services that allow utilities to improve efficiency and achieve greater supply security.  Omnetric Group will focus on solutions and services for system integration and management of the growing volume of data created as part of power grid operation. These offerings will enable utilities to integrate operational technologies (OT), such as real-time grid management, with information technologies (IT) like smart metering.
-    * [2lemetry](http://2lemetry.com/)
+    *[2lemetry](http://2lemetry.com/)
     * [apigee](https://apigee.com/about/)
 
 **Accenture Buze Words**
-:   * Advanced Case Management (ACM), also known as dynamic or adaptive case management,refers to the coordination of a service request in finance, health, legal, citizen or human resources-related matters, on behalf of a subject such as a customer, a citizen, or an employee. The concept of ACM has been embraced by large corporations such as IBM, and is most simply defined as a comprehensive strategy that approaches cases from every possible angle, simultaneously emphasizing the importance of integration in meeting the needs of a client – also known as management from 360 degrees.
+:   *Advanced Case Management (ACM), also known as dynamic or adaptive case management,refers to the coordination of a service request in finance, health, legal, citizen or human resources-related matters, on behalf of a subject such as a customer, a citizen, or an employee. The concept of ACM has been embraced by large corporations such as IBM, and is most simply defined as a comprehensive strategy that approaches cases from every possible angle, simultaneously emphasizing the importance of integration in meeting the needs of a client – also known as management from 360 degrees.
     * Process-centric business process management (BPM) refers to an approach focusing on processes themselves, rather than on people, documents, contents or other components. Process-centric BPM often involves three main stages: discovery, implementation and maintenance. Discovery is widely viewed as the most important and time-consuming stage. Contract this with a Data-centric driven business (aka Artifact-centric Business Process Model).
 
 
@@ -777,6 +798,7 @@ Also see [The Internet of Things? What's that? (A relative explanation)](http://
 
 
 # The Wireless Challenge
+
 An unspoken aspect of the Internet of Things (IoT)
 is how these "things" are most often expected to be untethered.
 That is, these things
@@ -940,6 +962,7 @@ the IoT solution your attempting to create.
 
 
 # White Paper
+
 An often unspoken aspect of the Internet of Things (IoT)
 is how these "things" are most often expected to be untethered.
 That is, these things
@@ -979,6 +1002,7 @@ and the problems they attempt to solve.
 I will use some simple design pattern ....
 
 # The Wireless Challenges
+
 While wireless can provides clear advantages in cost and flexibility
 over a fixed wired solution,
 it also brings along a host of challenges.
@@ -1004,6 +1028,7 @@ There are other challenge, which are not failures at all, but cause distinct lim
 * the electrical power consumed by a device can limit its use and we'll call this Power Management
 
 ## RF Interference
+
 The small portion of the electromagnetic spectrum devoted to
 general-purpose wireless communication devices is crowded with traffic from WiFi
 networks, cordless telephones, bar-code scanners, and innumerable other
@@ -1022,6 +1047,7 @@ but there are limits on what can be done.
 When it gets very crowed, no one can communicate.
 
 ## Multipath Fading
+
 A second highly varying phenomenon called multipath fading can prevent successful
 transmission even when the line-of-sight link margin is expected to be sufficient.
 This occurs when multiple copies of the transmission bounce off objects in the environment
@@ -1042,6 +1068,7 @@ or transmit simultaneously on multiple frequency bands.
 For small devices, with low power requirements, this just may not be possible.
 
 ## Path Loss
+
 When a network is first deployed, wireless paths are established
 between devices based on the immediate RF environment and available neighbors.
 Unlike wired networks, these variables often change;
@@ -1052,6 +1079,7 @@ few weeks after installation, requires continually working around these blockage
 in a transparent, automatic fashion.
 
 ## Node Loss
+
 Node loss is an important issue to consider with wireless sensor networks.
 While node failure because of semiconductor or hardware malfunction
 is rare, nodes may be damaged, destroyed or removed during the life of the network.
@@ -1063,12 +1091,14 @@ End-to-end reliability may requires the networking intelligence
 that routes around the loss of any single node.
 
 ## Propagation Characteristics
+
 The atmosphere as the medium over which the signals are "carried" from the transmitter to the receiver.
 As a result, the quality of the communications is dependent on the physical factors
 that influence the propagation of electromagnetic (EM) signals in this medium.
-https://transition.fcc.gov/pshs/techtopics/techtopics17.html
+<https://transition.fcc.gov/pshs/techtopics/techtopics17.html>
 
 ## Spectrum Management
+
 [Spectrum management][21] is the process of regulating the use of radio frequencies
 to promote efficient use and gain a net social benefit.
 Optimal spectrum management depends on the application
@@ -1103,10 +1133,12 @@ are the 433MHz, 900MHz, 2.4GHz, and 5GHz bands.
 Power and time limitation for Low Power Radio
 
 ## Power Management
+
 Power Management is a feature of some radio device that turns off the power
 or switches the system to a low-power state when inactive.
 
 # IoT Communications Solution Patterns
+
 An additional challege for wireless is what I call here the
 Communication Solution Pattern.
 These are architectual patterns imposed on the IoT solution
@@ -1118,20 +1150,24 @@ which are dictated by the physical envirnment,
 these challeges come about because how we must solve the business problem we a addressing.
 
 ## Data Patterns
+
 * Sparse
 * Voluminous
 
 ## Network Patterns
+
 * Hub
 * Mesh
 * Long Range
 
 ## Power Management Pattern
+
 * Line Powered
 * Rechargeable Battery
 * Long Life Battery
 
 # Sigfox
+
 SIGFOX is a cellular style network operator that provides a tailor-made solution
 for low-throughput Internet of Things and M2M applications to connect
 using ultra-narrow band, UNB technology in the unlicensed ISM radio bands.
@@ -1150,25 +1186,27 @@ The team has announced a slew of new partnerships with startups like Blynk, SODA
 * [SIGFOX for M2M & IoT][11]
 
 ## Sigfox in the News
+
 * [Silicon Valley to Get a Cellular Network, Just for Things][03]
 
-* [IoT startup Sigfox launching 902 MHz network nationwide in U.S. ][04]
-    * French startup Sigfox is rolling out its slow-speed Internet of Things wireless network in San Francisco today, and hopes to cover 90 percent of the U.S. population with the network within the next three years.
-    * Sigfox has already conducted several pilot projects of its network technology in various locations across the United States.
-    * The company's network technology runs in the unlicensed 902 MHz band in the United States
+* [IoT startup Sigfox launching 902 MHz network nationwide in U.S.][04]
+  * French startup Sigfox is rolling out its slow-speed Internet of Things wireless network in San Francisco today, and hopes to cover 90 percent of the U.S. population with the network within the next three years.
+  * Sigfox has already conducted several pilot projects of its network technology in various locations across the United States.
+  * The company's network technology runs in the unlicensed 902 MHz band in the United States
 (or the 868 MHz band in Europe) and therefore doesn't require Sigfox to purchase spectrum licenses.
 And the company's base stations (which require a fiber or DSL connection, a power supply and a rooftop)
 and its devices (which cost generally just a few dollars and can run on a few AA batteries for years)
 can communicate over dozens of miles. The result is a simple,
 low-power network that can be deployed at a fraction of the cost of a traditional cellular network
-    * Sigfox's deployment partner in Spain spent $5 million to deploy the company's network across the country in seven months.
-    * Due to power-emission regulations in the unlicensed band, Sigfox customers can only receive 140 messages per day from their devices, and those messages can only contain around 100 characters. Customers can send only four messages per day to their devices. The messages are relatively prompt though, arriving in a few seconds.
-    * service plans start at roughly $8 a year, a price that slides down as customers purchase more connections.
-    * The company currently counts around 300,000 devices currently connected to its networks in Europe, and its customers have pledged to increase that number to 8 million over the next two years.
-    * Sigfox doesn't directly build its network. The company typically contracts with local companies to handle the relatively simple deployment of its rooftop antennas, and then those local partners often resell Sigfox's services.
+  * Sigfox's deployment partner in Spain spent $5 million to deploy the company's network across the country in seven months.
+  * Due to power-emission regulations in the unlicensed band, Sigfox customers can only receive 140 messages per day from their devices, and those messages can only contain around 100 characters. Customers can send only four messages per day to their devices. The messages are relatively prompt though, arriving in a few seconds.
+  * service plans start at roughly $8 a year, a price that slides down as customers purchase more connections.
+  * The company currently counts around 300,000 devices currently connected to its networks in Europe, and its customers have pledged to increase that number to 8 million over the next two years.
+  * Sigfox doesn't directly build its network. The company typically contracts with local companies to handle the relatively simple deployment of its rooftop antennas, and then those local partners often resell Sigfox's services.
 
 
 # low-power, long-range networks
+
 Rules and spectrum allocations vary across the world,
 but these lower frequencies gets inside buildings better and the use of ultra-narrowband
 helps manage signal-to-noise problems at long range, allowing very low-power devices.
@@ -1181,6 +1219,7 @@ but nonetheless, the technology is an interesting alternative for long-range, lo
 SIGFOX, LoRa, OnRamp, Link Labs, Weightless, SemtechNWave,  M2Communication, Coroni
 
 # Weightless
+
 Weightless has decided to pursue ultra-narrow-band (UNB) communication in the free-to-use ISM bands,
 rather than ‘white space’ radio for its physical layer.
 Around the world, agreements, legislation and infrastructure required to use white space radio
@@ -1193,6 +1232,7 @@ are not coming along quickly enough, and Weightless changes its strategy.
 * [Ultra Narrow Band Modulation Textbook][13]
 
 # LoRa
+
 One of the major issues for machine to machine (M2M) communications
 used for applications like the Internet of Things (IoT)
 is to enable communications over long ranges using very low power levels.
@@ -1235,21 +1275,25 @@ by sharing knowledge and experience to guarantee interoperability between operat
 ![img](http://lora-alliance.org/portals/0/images/whatis/networkBW.png)
 
 # Cellular
-* Sierra Wireless - http://www.sierrawireless.com/
+
+* Sierra Wireless - <http://www.sierrawireless.com/>
 * [Cellular IoT Explained: NB-IoT vs. LTE-M vs. 5G and More](https://medium.com/iotforall/cellular-iot-explained-nb-iot-vs-lte-m-vs-5g-and-more-8f26496df5d4)
 * [An Overview of Narrowband IoT (NB-IoT)](https://www.link-labs.com/blog/overview-of-narrowband-iot)
 
 ## 2G
+
 The bulk of IoT connections today are on 2G networks, although some are migrating to 3G.
 Although 70 percent of IoT links are 2G-based,
 cellular carriers are sunsetting these older networks so they can focus their resources on new 4G LTE networks.
 
 ## 4.5G
+
 4.5G, an upgraded version of LTE, to be available commercially next year,
 offering greater capacity, speeds in excess of 1Gbps and low latency that
 can support next generation mobile applications.
 
 ## 5G
+
 5G (5th generation mobile networks or 5th generation wireless systems)
 denotes the next major phase of mobile telecommunications standards beyond the current 4G/IMT-Advanced standards.
 NGMN Alliance or Next Generation Mobile Networks Alliance define 5G network requirements as:
@@ -1262,23 +1306,25 @@ NGMN Alliance or Next Generation Mobile Networks Alliance define 5G network requ
 * Signalling efficiency enhanced.
 * Latency should be significantly reduced compared to LTE
 
-* https://www.androidauthority.com/5g-one-wireless-technology-to-rule-them-all-638150/
-* http://techgenix.com/5g-internet-of-things/
-* https://www.theinternetofallthings.com/why-5g-is-the-way-to-go-for-the-internet-of-things-1252016/
-* https://academicjournals.org/journal/IJPS/article-full-text-pdf/B6145A861166
-* https://www.qualcomm.com/media/documents/files/5g-vision-use-cases.pdf (Unifying Connectivity Fabric)
-* https://www.sdxcentral.com/5g/definitions/top-5g-use-cases/
-* https://www.ecnmag.com/article/2018/10/building-fabric-trust-5g-future
-* https://arxiv.org/pdf/1804.00710.pdf
-* https://www.webpronews.com/5g-affirmed/
-* https://www.rcrwireless.com/20161026/qualcomm_5g/qualcomm_5g_use_cases/5g-new-radio-nr-will-create-a-unified-air-interface
+* <https://www.androidauthority.com/5g-one-wireless-technology-to-rule-them-all-638150/>
+* <http://techgenix.com/5g-internet-of-things/>
+* <https://www.theinternetofallthings.com/why-5g-is-the-way-to-go-for-the-internet-of-things-1252016/>
+* <https://academicjournals.org/journal/IJPS/article-full-text-pdf/B6145A861166>
+* <https://www.qualcomm.com/media/documents/files/5g-vision-use-cases.pdf> (Unifying Connectivity Fabric)
+* <https://www.sdxcentral.com/5g/definitions/top-5g-use-cases/>
+* <https://www.ecnmag.com/article/2018/10/building-fabric-trust-5g-future>
+* <https://arxiv.org/pdf/1804.00710.pdf>
+* <https://www.webpronews.com/5g-affirmed/>
+* <https://www.rcrwireless.com/20161026/qualcomm_5g/qualcomm_5g_use_cases/5g-new-radio-nr-will-create-a-unified-air-interface>
 
 ### DECT-2020 NR / DECT NR+
+
 While 4G provided a platform for cellular IoT, 5G is the first radio standard defined with truly massive IoT in mind. DECT New Radio (NR)+ (originally called ‘DECT-2020 NR’) is the world’s first non-cellular wireless technology to become a full 5G standard (under ITU’s 2020 International Mobile Telecoms 5G document).
 
 * [Massive IoT – doing 10 times more with 10 times less](https://www.rcrwireless.com/20230829/internet-of-things/massive-iot-doing-10-times-more-with-10-times-less-reader-forum)
 
 ## Category 0 LTE (LTE Cat-0)
+
 M2M had been talked about as a possible application for LTE,
 but there was a major issue with the complexity of the system.
 As M2M communications typically require
@@ -1309,9 +1355,11 @@ No one else in the industry has a true Cat-1 or Cat-0 LTE chipset
 * [Making LTE lighter, cheaper (and slower) for the Internet of Things][16]
 
 ## Private-LTE
+
 * [Demystifying Private Cellular for the Enterprise](https://www.networkcomputing.com/wireless-infrastructure/demystifying-private-cellular-enterprise)
 
 # Altair Semiconductor
+
 Altair Semiconductor has come out with LTE-only chipsets that they claim is a better match for a variety of
 business and consumer IoT applications than any other available long-range connectivity options.
 Altair also claims a more comprehensive level of power management
@@ -1323,6 +1371,7 @@ to run for up to 10 years on a single battery.
 [The Wait Is Over: Altair Brings Affordable, Low Power, Robust LTE Connectivity to IoT](http://www.iotevolutionmagazine.com/features/articles/404696-wait-over-altair-brings-affordable-low-power-robust.htm)
 
 # Helium Systems
+
 Helium is a complete platform for smart machines.
 It's based on simple device connectivity, and stresses security, low power,
 low cost, ease of development, and much more.
@@ -1331,6 +1380,7 @@ Innovative protocols allow every device on the network to have a true Internet p
 Helium support the unlicensed ISM bands including 902-928MHz (US), 863-870MHz (EU), 779 - 787MHz (China WPAN) and 2.4GHz (worldwide). The Atom dynamically switches between 2.4 Ghz and the other bands to trade off speed, power, and coverage.
 
 # IEEE 802.15.4
+
 The IEEE 802.15.4 standard defines a physical layer (PHY)
 and Medium Access Control (MAC) layer for short-range,
 low-power operation, ideal for WSNs.
@@ -1341,6 +1391,7 @@ and WirelessHART time-synchronised multichannel networks.
 # IEEE 802.15.4e
 
 # IEEE 802.11
+
 IEEE 802.11 is a set of media access control (MAC) and physical layer (PHY)
 specifications for implementing wireless local area network (WLAN)
 computer communication in the 2.4, 3.6, 5, and 60 GHz frequency bands
@@ -1348,6 +1399,7 @@ computer communication in the 2.4, 3.6, 5, and 60 GHz frequency bands
 and 45/60 GHz for IEEE 802.11aj and IEEE 802.11ay).
 
 ## IEEE 802.11ah = WiFi HaLow
+
 IEEE 802.11ah is a wireless networking protocol that is an amendment of the
 IEEE 802.11-2007 wireless networking standard.
 It utilizes sub 1 GHz license-exempt bands to provide extended range WiFi networks,
@@ -1358,10 +1410,11 @@ supporting the concept of the Internet of Things.
 The standard is expected to be finalized and arrive in 2016,
 with chips and systems based on 802.11ah hitting the market as early as 2015.
 
-Source: https://en.wikipedia.org/wiki/IEEE_802.11ah
-Needs Updating With: https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-halow
+Source: <https://en.wikipedia.org/wiki/IEEE_802.11ah>
+Needs Updating With: <https://www.wi-fi.org/discover-wi-fi/wi-fi-certified-halow>
 
 ## WiFi HaLow
+
 The WiFi Alliance  says the new standard [WiFi HaLow][22] (pronounced halo)
 will doubles the distance and cuts the power consumption of traditional WiFi.
 The Alliance would like to see WiFi become a standard in smart cities
@@ -1380,12 +1433,14 @@ The standard won’t be official until 2018, but devices will be out late 2016.
 * [Quectel Takes on Terrestrial and Satellite Communications Alike with New IoT-Focused Modules](https://www.hackster.io/news/quectel-takes-on-terrestrial-and-satellite-communications-alike-with-new-iot-focused-modules-6cc77d0c90b7)
 
 ## IEEE 802.11af
+
 In 2014, the WiFi alliance introduced 802.11af,
 a networking protocol operating in unused TV whitespace spectrum between 54 and 790 MHz.
 802.11af has a similar range as 802.11ah – about one kilometer – but products
 and chips utilizing 802.11af have been rare and hard to find.
 
 ## IEEE 802.11ax
+
 IEEE 802.11ax is the successor to 802.11ac, and will increase the efficiency of WLAN networks.
 Currently at a very early stage of development this project has the goal
 of providing 4x the throughput of 802.11ac.
@@ -1393,16 +1448,19 @@ of providing 4x the throughput of 802.11ac.
 ## WiFi 6
 
 ## WiFi 6E
+
 * [Wi-Fi 6E becomes official—the FCC will vote on rules this month](https://arstechnica.com/gadgets/2020/04/fcc-will-vote-on-rules-for-1-2ghz-of-new-wi-fi-6e-spectrum-on-april-23/)
 * [What Is Wi-Fi 6E?](https://uk.pcmag.com/networking/131082/what-is-wi-fi-6e)
 
 ## WiFi 7
+
 WiFi 7 is the upcoming WiFi standard, also known as IEEE 802.11be Extremely High Throughput (EHT). It works across all three bands (2.4 GHz, 5 GHz, and 6 GHz) to fully utilize spectrum resources.
 WiFi 7 brings extreme data speeds, lower latencies, and increased network capacity thanks to new capabilities designed to support large numbers of users and devices in bandwidth-intensive environments.
 
-https://www.tp-link.com/us/wifi7/
+<https://www.tp-link.com/us/wifi7/>
 
 # Wi-SUN
+
 * [Wi-SUN: the New Wireless Standard Rivaling LoRaWAN and NB-IoT in Smart Cities](https://www.allaboutcircuits.com/news/wisun-new-wireless-standard-rivaling-lorawan-nb-iot-smart-cities/)
 
 # WirePas
@@ -1410,11 +1468,13 @@ https://www.tp-link.com/us/wifi7/
 # WirelessHART
 
 # WiGig
-* https://www.wi-fi.org/sites/default/files/public/images/Wi-Fi_HaLow_frequency_band_graphic.png
-* http://www.wi-fi.org/discover-wi-fi/wigig-certified
+
+* <https://www.wi-fi.org/sites/default/files/public/images/Wi-Fi_HaLow_frequency_band_graphic.png>
+* <http://www.wi-fi.org/discover-wi-fi/wigig-certified>
 * [Terragraph](https://code.facebook.com/posts/1072680049445290/introducing-facebook-s-new-terrestrial-connectivity-systems-terragraph-and-project-aries/) is a 60GHz wireless system consists of radios that are based on the WiGig standard and are designed for consumer electronics, which allowed us to create nodes that are inexpensive relative to traditional telecom infrastructure.
 
 # Smart WiFi
+
 [Wi-Fi dreams and reality][24]
 
 * [Qualcomm WiFi SON][23] is aimed at simplifying WiFi networking in the home
@@ -1424,16 +1484,19 @@ and office while optimizing end-to-end performance and offering the best user ex
 * [eero](https://www.eero.com/)
 
 # Amazon Sidewalk
+
 * [Getting Started with Amazon Sidewalk](https://www.silabs.com/support/training/getting-started-with-amazon-sidewalk)
-    * [Getting Started with Amazon Sidewalk Presentation Slides](https://www.silabs.com/documents/login/presentations/tech-talks-getting-started-with-amazon-sidewalk.pdf)
+  * [Getting Started with Amazon Sidewalk Presentation Slides](https://www.silabs.com/documents/login/presentations/tech-talks-getting-started-with-amazon-sidewalk.pdf)
 
 # Wireless Sensor Networks (WSN)
+
 Several mesh protocols are available for sensor networking:
 802.11s for WiFi, various ad-hoc routing protocols such as those used in ZigBee,
 and Linear Technology’s Time Synchronised Mesh Protocol,
 which forms the basis of the WirelessHART and 802.15.4e standards.
 
 # Time Synchronized Mesh Protocol (TSMP)
+
 [Time Synchronized Mesh Protocol (TSMP)][18],
 was developed by Dust Networks as a communications protocol for
 low-power, self-organizing networks of wireless devices called motes.
@@ -1455,6 +1518,7 @@ and the International Society of Automation ISA100 standard.
 # Cognitive Radio
 
 # Dynamic Spectrum Alliance (DSA)
+
 The Dynamic Spectrum Alliance is a global organization advocating for laws and regulations
 that will lead to more efficient and effective spectrum utilization.
 Dynamic spectrum access refers to a set of technologies which allow users to share access to spectrum.
@@ -1464,6 +1528,7 @@ maximise spectrum usage efficiency and facilitate innovation;
 and protect incumbent services from harmful interference.
 
 # WM-Bus (Wireless M-Bus)
+
 The Wireless Meter Bus is a variant of the M-Bus or Meter-Bus
 which is a European standard defined under EN 13757.
 The Wireless Meter Bus or Wireless M-Bus is aimed at remote reading of gas or electricity meters
@@ -1473,6 +1538,7 @@ The Wireless M-Bus is defined under specification EN 13757-4.
 * [Wireless Meter Bus, WM-Bus Technology][10]
 
 # ZigBee
+
 ZigBee is a wireless networking standard that is aimed at remote control and sensor applications
 which is suitable for operation in harsh radio environments and in isolated locations.
 ZigBee technology builds on IEEE standard 802.15.4 which defines the physical and MAC layers.
@@ -1483,11 +1549,13 @@ In this way ZigBee is a superset of the 802.15.4 specification.
 * [ZigBee Technology Tutorial][08]
 
 # EnOcean
+
 EnOcean wireless technology uses a combination of energy harvesting and
 very low power wireless communications to enable virtually indefinite communications
 to be maintained without the need for recharging.
 
 # 6LoWPAN
+
 The 6LoWPAN system is used for a variety of applications including wireless sensor networks.
 This form of wireless sensor network sends data as packets
 and using IPv6 over Low power Wireless Personal Area Networks.
@@ -1498,13 +1566,15 @@ and with the possible explosion of devices with allocated IP addresses,
 In this way, 6LoWPAN adopts a different approach to the other low power wireless sensor network solutions.
 
 * [6LoWPAN basics tutorial][09]
-* http://www.ti.com/lsds/ti/wireless_connectivity/6lowpan/overview.page
-* http://www.link-labs.com/6lowpan-vs-zigbee/
+* <http://www.ti.com/lsds/ti/wireless_connectivity/6lowpan/overview.page>
+* <http://www.link-labs.com/6lowpan-vs-zigbee/>
 
 # IPv6 over BLE
+
 * [Why run IPV6 over Bluetooth low energy?](https://blog.nordicsemi.com/getconnected/why-run-ipv6-over-bluetooth-low-energy)
 
 # IEEE P2413
+
 IEEE P2413 aims to form a framework for interoperability among connected devices
 and related applications in home automation, industrial systems, telematics
 and other sectors that are expected to use IoT in the coming years.
@@ -1512,6 +1582,7 @@ While it doesn't replace existing IoT standard groups,
 it aims to create a standard architecture so IoT systems for all industries can work together,
 
 # Iotera
+
 Iotera claims its is a new wireless technology that uses free wireless spectrum with a range of up to 4 miles.
 As a first application, they are building the Iota.
 In addition to being the world's smallest GPS tracking device,
@@ -1525,18 +1596,22 @@ used with our web and mobile applications to monitor and track anything that's i
 [Iotera](http://www.iotera.com/)
 
 # Telensa
-http://www.telensa.com/
-http://m2mworldnews.com/2015/06/10/31594-telensa-passes-9-million-internet-of-things-device-milestone/
+
+<http://www.telensa.com/>
+<http://m2mworldnews.com/2015/06/10/31594-telensa-passes-9-million-internet-of-things-device-milestone/>
 
 # Traqueur
-Traqueur Nano - http://www.gpsbusinessnews.com/Traqueur-Nano-GPS-Sigfox-VHF-with-Multi-Year-Battery-Life_a5396.html
+
+Traqueur Nano - <http://www.gpsbusinessnews.com/Traqueur-Nano-GPS-Sigfox-VHF-with-Multi-Year-Battery-Life_a5396.html>
 
 # NWave
-http://m2mworldnews.com/2014/11/04/71004-nwave-joins-weightless-sig-to-create-open-standard-for-the-iot/
+
+<http://m2mworldnews.com/2014/11/04/71004-nwave-joins-weightless-sig-to-create-open-standard-for-the-iot/>
 
 # HyperCat
 
 # Cognitive Radio
+
 Cognitive radio (CR) is one of the new long term developments taking place and radio receiver and radio communications technology. After the Software Defined Radio (SDR) which is slowly becoming more of a reality, cognitive radio (CR) and cognitive radio technology will be the next major step forward enabling more effective radio communications systems to be developed.
 
 The idea for cognitive radio has come out of the need to utilise the radio spectrum more efficiently, and to be able to maintain the most efficient form of communication for the prevailing conditions. By using the levels of processing that are available today, it is possible to develop a radio that is able to look at the spectrum, detect which frequencies are clear, and then implement the best form of communication for the required conditions. In this way cognitive radio technology is able to select the frequency band, the type of modulation, and power levels most suited to the requirements, prevailing conditions and the geographic regulatory requirements.
@@ -1547,10 +1622,11 @@ The idea for cognitive radio has come out of the need to utilise the radio spect
 
 * Chip Manufacture
 ** Semtech
-*** [LoRa Product Family](http://www.semtech.com/wireless-rf/lora.html)
+***[LoRa Product Family](http://www.semtech.com/wireless-rf/lora.html)
 *** [Semtech Internet of Things](http://www.semtech.com/wireless-rf/iot.html)
 
 # XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 Weightless and SigFox fit in a market niche where use cases required very long life battery operation
 (can be multiple years), infrequent data delivery
 (once/twice a day but could be more frequent if willing to consume battery life),
@@ -1591,6 +1667,7 @@ to focus on specific industry’s needs.
 ######################################################################################################################
 
 # What is 3G?
+
 When 3G networks started rolling out,
 they replaced the 2G system, a network protocol that only allowed the most basic
 of what we would now call smartphone functionality.
@@ -1603,6 +1680,7 @@ By 2G standards, the new protocol was speedy,
 but still didn’t come anywhere close to replacing a home broadband connection.
 
 # What is 4G?
+
 The International Telecommunications Union-Radio (ITU-R)
 is the United Nations official agency for all manner of information and communication technologies,
 which decided on the specifications for the 4G standard in March 2008.
@@ -1620,6 +1698,7 @@ not just in the sense that new broadcasting methods have found their way into pr
 but the previously-established 3G networks have been improved to the point that they can be classified as 4G.
 
 ## What is LTE?
+
 [4G vs LTE: What's the difference?](http://www.techadvisor.co.uk/feature/mobile-phone/4g-vs-lte-whats-the-difference-3605656/)
 LTE stands for Long Term Evolution,
 and isn’t as much a technology as it is the path followed to achieve 4G speeds.
@@ -1656,6 +1735,7 @@ we can head towards a new standard: LTE Advanced.
 This is also known as LTE-A or 'true' 4G.
 
 ## LTE UE Category & Class Definitions
+
 LTE utilises User Equipment (UE) categories
 or classes to define the performance specifications an enable base stations
 to be able to communicate effectively with them knowing their performance levels.
@@ -1679,6 +1759,7 @@ LTE category 1, for example does not support MIMO, but LTE UE category 5 support
 * [LTE Long Term Evolution Tutorial & Basics](http://www.radio-electronics.com/info/cellulartelecomms/lte-long-term-evolution/3g-lte-basics.php)
 
 # What is 5G?
+
 Carriers are already testing the fifth generation of mobile broadband connectivity, 5G,
 but there’s a lot still to work out.
 There’s no agreed upon standard as yet,
@@ -1710,24 +1791,24 @@ and that business applications for the technology will start to appear in 2022/2
 It could take another two to three years for consumer access to the tech.
 
 
-http://www.pcmag.com/article/345387/what-is-5g
-http://www.rcrwireless.com/20170124/carriers/verizon-testing-5g-in-10-locations-could-expand-beyond-fiber-footprint-tag2
+<http://www.pcmag.com/article/345387/what-is-5g>
+<http://www.rcrwireless.com/20170124/carriers/verizon-testing-5g-in-10-locations-could-expand-beyond-fiber-footprint-tag2>
 
 
 * [A network of networks: How will carriers handle the evolution to 5G?](https://dupress.deloitte.com/content/dam/dup-us-en/articles/3795_network-of-networks/DUP_Network-of-networks.pdf)
 
 Here are a couple sources about the phenomenon of 5g becoming a “fabric”. The idea is that devices that previously couldn’t exist on cellular due to various reasons (eg. high energy consumption per unit data) can now exist on 5g by virtue of network efficiency ( Literal energy efficieny as well as efficient allotment of bandwidth). It is still a topic of debate as to whether 5g will actually replace Bluetooth,wifi,LoRa, NFC, and similar technologies in practice. Part of this is due to the current abundance of devices that would be deemed deprecated. Thus, it may be more of a gradual reduction in devices using other wireless tech rather than a complete takeover by 5g. The ideal scenario is well represented by the QUALCOMM source wherein illustrations highlight a connected city use case demonstrating previously obscured devices existing on the 5g space.
 
-* https://www.androidauthority.com/5g-one-wireless-technology-to-rule-them-all-638150/
-* http://techgenix.com/5g-internet-of-things/
-* https://www.theinternetofallthings.com/why-5g-is-the-way-to-go-for-the-internet-of-things-1252016/
-* https://academicjournals.org/journal/IJPS/article-full-text-pdf/B6145A861166
-* https://www.qualcomm.com/media/documents/files/5g-vision-use-cases.pdf (Unifying Connectivity Fabric)
-* https://www.sdxcentral.com/5g/definitions/top-5g-use-cases/
-* https://www.ecnmag.com/article/2018/10/building-fabric-trust-5g-future
-* https://arxiv.org/pdf/1804.00710.pdf
-* https://www.webpronews.com/5g-affirmed/
-* https://www.rcrwireless.com/20161026/qualcomm_5g/qualcomm_5g_use_cases/5g-new-radio-nr-will-create-a-unified-air-interface
+* <https://www.androidauthority.com/5g-one-wireless-technology-to-rule-them-all-638150/>
+* <http://techgenix.com/5g-internet-of-things/>
+* <https://www.theinternetofallthings.com/why-5g-is-the-way-to-go-for-the-internet-of-things-1252016/>
+* <https://academicjournals.org/journal/IJPS/article-full-text-pdf/B6145A861166>
+* <https://www.qualcomm.com/media/documents/files/5g-vision-use-cases.pdf> (Unifying Connectivity Fabric)
+* <https://www.sdxcentral.com/5g/definitions/top-5g-use-cases/>
+* <https://www.ecnmag.com/article/2018/10/building-fabric-trust-5g-future>
+* <https://arxiv.org/pdf/1804.00710.pdf>
+* <https://www.webpronews.com/5g-affirmed/>
+* <https://www.rcrwireless.com/20161026/qualcomm_5g/qualcomm_5g_use_cases/5g-new-radio-nr-will-create-a-unified-air-interface>
 
 
 
@@ -1737,29 +1818,8 @@ Here are a couple sources about the phenomenon of 5g becoming a “fabric”. Th
 
 
 
-[01]:http://www.orange-business.com/en/press/veolia-water-and-orange-launch-m2o-city-a-smart-metering-operator
-[02]:https://www.rudebaguette.com/2013/07/09/orange-smartcities/
-[03]:http://www.technologyreview.com/news/527376/silicon-valley-to-get-a-cellular-network-just-for-things/
-[04]:http://www.fiercewireless.com/tech/story/iot-startup-sigfox-launching-902-mhz-network-nationwide-us/2015-03-03
-[05]:http://www.m2ocity.com/en/
-[06]:http://lora-alliance.org/
-[07]:http://www.radio-electronics.com/info/wireless/lora/basics-tutorial.php
-[08]:http://www.radio-electronics.com/info/wireless/zigbee/zigbee.php
-[09]:http://www.radio-electronics.com/info/wireless/6lowpan/basics-tutorial.php
-[10]:http://www.radio-electronics.com/info/wireless/wireless-m-bus/basics-tutorial.php
-[11]:http://www.radio-electronics.com/info/wireless/sigfox/basics-tutorial.php
-[12]:http://mwrf.com/markets/understanding-ultra-narrowband-modulation
-[13]:http://www.vmsk.org/Textbook.pdf
-[14]:http://telecoms.com/opinion/opening-up-lte-for-iot/
-[15]:http://www.radio-electronics.com/news/cellular-telecoms/lte-cat-0-opens-m2m-door-5173
-[16]:http://www.fiercewireless.com/story/making-lte-lighter-cheaper-and-slower-internet-things/2015-03-02
-[17]:http://www.radio-electronics.com/info/rf-technology-design/cognitive-radio-cr/technology-tutorial.php
-[18]:http://cds.linear.com/docs/en/white-paper/TSMP_Whitepaper.pdf
-[19]:http://blog.atmel.com/2015/01/20/airboard-is-a-thumb-sized-mcu-for-rapid-iot-prototyping/
 [20]:https://en.wikipedia.org/wiki/ISM_band
-[21]:https://en.wikipedia.org/wiki/Spectrum_management
 [22]:http://www.wi-fi.org/discover-wi-fi/wi-fi-halow
-[23]:https://www.qualcomm.com/news/releases/2016/01/05/qualcomm-launches-wi-fi-son-self-organizing-network-solutions-simplify-wi
 [24]:http://www.rcrwireless.com/20160420/network-infrastructure/wifinow-2016-wi-fi-dreams-reality
 [25]:
 [26]:

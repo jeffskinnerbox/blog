@@ -28,6 +28,7 @@ Digital Mode
 
 
 # Baofeng UV-5R+ 136-174 400-480 MHz FM Transceiver
+
 This is an inexpensive Chinese hand held 5 watt radio,
 capable of transmitting and receiving on the 2-meter and 70-cm bands.
 Additionally, it can receive on standard commercial FM frequencies as well as weather band!
@@ -51,5 +52,5 @@ Some examples of this are:
 # GMRS Radio
 
 * [How To Program A GMRS Radio To Use A Repeater - GMRS Repeater Channel Programming For GMRS Radios](https://www.youtube.com/watch?v=kEyBqTJIkY4)
-    * [myGMRS.com - General Mobile Radio Service repeater directory and online community](https://mygmrs.com/)
+  * [myGMRS.com - General Mobile Radio Service repeater directory and online community](https://mygmrs.com/)
 

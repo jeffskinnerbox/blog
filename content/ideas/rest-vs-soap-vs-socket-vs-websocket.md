@@ -21,12 +21,12 @@ Version:      0.0.0
 * [API Gateways to Direct Microservices Architecture](http://nordicapis.com/api-gateways-direct-microservices-architecture/)
 * [Designing Evolvable APIs for the Web](http://nordicapis.com/designing-evolvable-apis-for-the-web-formats/)
 
-http://restcookbook.com/
+<http://restcookbook.com/>
 
 
 
 ## Webhook
-[!webhook_logo]:http://blog.formstack.com/wp-content/uploads/2010/08/webhooks_logo-150x150.png
+
 A webhook is a method of augmenting or altering the behavior of a web page,
 or web application, with custom [callbacks][01].
 So a webhooks are "[user-defined HTTP callbacks][03]" or "[real-time service][02]".
@@ -35,7 +35,8 @@ When that event occurs, the source site makes an HTTP request to the URI configu
 Users can configure them to cause events on one site to invoke behavior on another.
 
 ## Webscript
-http://www.britannica.com/topic/Web-script
+
+<http://www.britannica.com/topic/Web-script>
 Web script, a computer programming language for adding dynamic capabilities to World Wide Web pages.
 Web scripting can add information to a page as a reader uses it or
 let the reader enter information.
@@ -45,22 +46,23 @@ let the reader enter information.
 * [Webscripts are short scripts, written in Lua, that run on our servers. They can respond to HTTP requests or run as cron jobs.](https://www.webscript.io/)
 
 ## Chunked HTTP
+
 * [Chunked HTTP transfer encoding](http://martin.swende.se/blog/HTTPChunked.html)
-* http://tpierrain.blogspot.com/2013/09/some-web-mechanical-sympathy-lets.html
-* https://sharovatov.wordpress.com/2009/11/05/http-persistent-connections-pipelining-and-chunked-encoding/
-* https://gist.github.com/CMCDragonkai/6bfade6431e9ffb7fe88
+* <http://tpierrain.blogspot.com/2013/09/some-web-mechanical-sympathy-lets.html>
+* <https://sharovatov.wordpress.com/2009/11/05/http-persistent-connections-pipelining-and-chunked-encoding/>
+* <https://gist.github.com/CMCDragonkai/6bfade6431e9ffb7fe88>
 
 
 ## WebSocket
-[!websocket_logo]:http://www.appelsiini.net/demo/websocket/img/HTML5_Connectivity_512.png
-* http://stackoverflow.com/questions/23172760/differences-between-webhook-and-websocket
-* Moving Data over the Web: AJAX vs. WebSockets vs. Webhooks - https://blog.safe.com/2014/08/websockets-ajax-webhooks-comparison/
-* What Are WebSockets? - https://www.pubnub.com/blog/2013-09-11-what-are-websockets/
-* Comparisons between WebHooks, WebSockets, and server-sent events - https://www.safaribooksonline.com/library/view/restful-java-patterns/9781783287963/ch06s05.html
+
+* <http://stackoverflow.com/questions/23172760/differences-between-webhook-and-websocket>
+* Moving Data over the Web: AJAX vs. WebSockets vs. Webhooks - <https://blog.safe.com/2014/08/websockets-ajax-webhooks-comparison/>
+* What Are WebSockets? - <https://www.pubnub.com/blog/2013-09-11-what-are-websockets/>
+* Comparisons between WebHooks, WebSockets, and server-sent events - <https://www.safaribooksonline.com/library/view/restful-java-patterns/9781783287963/ch06s05.html>
 * [Simple WebSocket Client](https://chrome.google.com/webstore/detail/simple-websocket-client/pfdhoblngboilpfeibdedpjgfnlcodoo?hl=en)
 
 ## Rest-API
-[!rest_api_logo]:http://static1.squarespace.com/static/5269a9bce4b07233cf8781fe/544eb6abe4b053b088f7237a/55770f60e4b09224e9c7619a/1433866080885/rest-api.png
+
 A common theme within IoT is the use of the TCP/IP and HTTP protocols using
 APIs adopting the Roy Fielding's [REST architectural style][16] (so-called “RESTful” APIs).
 Nonetheless, a key constraint that Fielding proposed is not always adopted.
@@ -72,7 +74,7 @@ is a simple configurable service to mock out RESTful API or SOAP web-services.
 This online service allows you to quickly define REST API or SOAP endpoints and have them return JSON or XML data.
 
 ## IFTTT
-[!ifttt_logo]:http://marketingland.com/wp-content/ml-loads/2012/09/ifttt-logo.jpg
+
 IFTTT.com (short for “If This Then That”)
 is a popular service which lets you trigger actions
 based on certain events that occur around the Internet.

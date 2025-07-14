@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 # Development Tools: Docker & Portainer
+
 **Docker** is a popular application that simplifies the process of managing application processes in containers.
 Containers let you run your applications in resource-isolated processes.
 They’re similar to virtual machines, but containers are more portable,
@@ -60,6 +61,7 @@ For developing with Docker, consider these Sources:
 
 
 #### Step 1: Installing Docker
+
 Ubuntu is my go-to Linux OS and installing on Ubuntu is fairly straight-forward.
 I'll used the installation scripts below.
 This involves adding a new package source,
@@ -119,10 +121,12 @@ sudo docker run hello-world
 
 
 #### Step 2: Upgrade Docker
+
 Docker and Docker Compose will be automatically upgraded by Ubuntu from the official Ubuntu repository for Docker.
 
 
 #### Step 3: Install Docker Compose
+
 To ensure we get the latest version,
 we’ll install Docker Compose from the official Docker repository.
 To do that, we’ll add a new package source,
@@ -140,10 +144,12 @@ docker compose version
 
 
 #### Step 4: Upgrade Docker Compose
+
 Docker Compose will be upgraded automatically by Ubuntu from the official Ubuntu repository for Docker.
 
 
 ## Portainer
+
 Portainer gives users a way to manage their Docker containers,
 accross multiple sites, through a web interface.
 Portainer also gives you the ability to use stacks,
@@ -153,6 +159,7 @@ which is an easy way to create new containers and allows them to be created usin
 
 
 #### Step 1: Install Portainer
+
 Before you install Portainer on Ubuntu,
 you must ensure that you have Docker installed on Ubuntu first.
 
@@ -175,6 +182,7 @@ Now using your browser, log into portainer via this URL: `localhost:9000`.
 
 
 #### Step 2: Upgrading Portainer
+
 To [upgrade to the latest version of Portainer Server][40],
 you must do it from the commandline.
 Use the following commands to stop Portainer, then remove the old version,
@@ -206,6 +214,7 @@ sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/
 
 
 #### Step 3: Refresh Portainer Stacks
+
 Using your [GitHub repository for your HomeLab Portainer Stacks][61],
 redeploy your stacks to you `desktop` computer.
 
@@ -233,6 +242,7 @@ redeploy your stacks to you `desktop` computer.
 
 
 ### Step 1: Installing Docker - DONE
+
 To install Docker manually, go to the [Docker installation page][58].
 There are multiple methods but I'm using the recommend method using [Docker’s repositories][60].
 
@@ -274,6 +284,7 @@ Docker version 27.4.1, build b9d17ea
 
 
 ### Step 2: Verify Docker Installation - DONE
+
 Next we'll verify that Docker Engine is installed correctly by running the `hello-world` image.
 This command downloads a test image and runs it in a container.
 When the container runs, it prints a message and exits.
@@ -330,6 +341,7 @@ CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                 
 
 
 ### Step 3: Upgrade Docker Engine - DONE
+
 To upgrade Docker Engine, first run `sudo apt-get update`,
 then follow the installation instructions, choosing the new version you want to install:
 
@@ -376,6 +388,7 @@ sudo docker images
 
 
 ## Install Docker Compose
+
 [Docker Compose][62] is a tool for defining and running multi-container Docker applications.
 With Compose, you use a YAML file to configure your application’s services.
 Then, with a single command, you create and start all the services from your configuration.
@@ -395,6 +408,7 @@ using Docker's repository or downloading and installing manually
 
 
 ### Step 1: Download the Docker Compose via Repository - DONE
+
 Following the instructions given [here][63],
 you can install Dockeer COmpose via the repository we just installed above:
 
@@ -409,6 +423,7 @@ docker-compose --version
 
 
 ### Step 3: Upgrade Docker Compose - DONE
+
 To upgrade Docker Compose, first run `sudo apt-get update`,
 then follow the installation instructions, choosing the new version you want to install:
 
@@ -419,6 +434,7 @@ sudo apt-get install docker-compose
 
 
 ### Step 3: Uninstall Docker Compose - DONE
+
 Uninstalling Docker Compose from your Ubuntu system requires 3-step:
 
 ```bash
@@ -440,6 +456,7 @@ snap uninstall docker-compose
 
 
 ## Install Portainer (or Docker Desktop?)
+
 While both [Docker Desktop][41] and [Portainer][39] are used to manage Docker containers,
 Docker Desktop is primarily a local development tool with a user-friendly interface for managing containers on your machine,
 while Portainer is a web-based platform designed to manage multiple Docker environments
@@ -473,6 +490,7 @@ Sources:
 
 
 ### Step 1: Portainer Server Deployment - DONE
+
 Use the following Docker commands to deploy the Portainer Server.
 
 ```bash
@@ -493,6 +511,7 @@ Now using your browser, log into portainer via this URL: `localhost:9443`.
 
 
 ### Step 2A: Upgrading Portainer Server - Do Backups
+
 **Strongly recommend that you take a backup of your Portainer instance before updating.**
 
 * [Portainer Backup](https://docs.portainer.io/2.25/admin/settings#backup-portainer)
@@ -500,6 +519,7 @@ Now using your browser, log into portainer via this URL: `localhost:9443`.
 
 
 ### Step 2B: Upgrading Portainer Server
+
 To [upgrade to the latest version of Portainer Server][64],
 you must do it from the commandline.
 Use the following commands to stop Portainer, then remove the old version,
@@ -535,6 +555,7 @@ Sources:
 
 
 ### Step 2C: Upgrade Portainer Agents
+
 You may want to also upgrade the Portainer Agent and this must be done separately:
 
 ```bash
@@ -573,6 +594,7 @@ services:
 
 
 ### Step 3: Portainer Agent Deployment - DONE
+
 Use the following Docker commands to deploy the Portainer Agent.
 Agents are installed on Docker nodes being managed remotely by Portainer.
 The agent is not needed on standalone hosts,
@@ -596,6 +618,7 @@ but I'm be using the [Agent method][44].
 
 
 #### Step 4: Manage Remote Docker Containers via Desktop Portainer - DONE
+
 We now want to connect the remote host Docker containers with my `desktop` portainer
 so all my containers can be managed from a single site.
 To do this, we must connect the Portainer Agent with Portainer.
@@ -620,6 +643,7 @@ Source:
 
 
 ### Step 5: Upgrading Portainer Agent
+
 Since you install the Portainer Agent as a Docker container,
 you can maintian just like any other Docker container.
 For instrctions on how to do this, see below.
@@ -629,6 +653,7 @@ For instrctions on how to do this, see below.
 
 
 ## Maintaining Your Docker Container
+
 You can update you Docker containers via the commandline,
 but Portainer provides a intuitive browser UI to do the same.
 Check out the videos below
@@ -638,6 +663,7 @@ Check out the videos below
 
 
 #### Step X: Refresh Portainer Stacks
+
 Using your [GitHub repository for your HomeLab Portainer Stacks][61],
 redeploy your stacks to you `desktop` computer.
 
@@ -649,6 +675,7 @@ redeploy your stacks to you `desktop` computer.
 
 
 ## Install Watchtower
+
 With [Watchtower][65] you can automate the updating of your running containerized apps.
 Watchtower will pull down your new image,
 gracefully shut down your existing container,
@@ -659,7 +686,7 @@ Sources:
 
 * [Watchtower Documentation][65]
 * [How To Update Docker Container automatically with nearly zero downtime](https://www.youtube.com/watch?v=5lP_pdjcVMo)
-    * [How To Update Docker Container automatically with nearly zero downtime](https://github.com/christianlempa/videos/tree/main/watchtower-tutorial)
+  * [How To Update Docker Container automatically with nearly zero downtime](https://github.com/christianlempa/videos/tree/main/watchtower-tutorial)
 * [Watchtower: The Docker Container That Automatically Updates Your Images](https://www.youtube.com/watch?v=DNfMuDLDq7k)
 * [How to Update Docker Containers using Watchtower with Portainer](https://www.youtube.com/watch?v=mS0ylPhwQDU)
 
@@ -668,6 +695,7 @@ Sources:
 
 
 ## Thoughts on Better Docker Volume Management
+
 Volumes are a mechanism for storing data outside containers. All volumes are managed by Docker and stored in a dedicated directory on your host, usually /var/lib/docker/volumes for Linux systems.
 
 I have been wondering if there is any kind of best practice for structuring the volumes for the containers

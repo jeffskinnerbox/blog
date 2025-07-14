@@ -34,6 +34,7 @@ Version:      0.0.0
 
 
 ## Physical Presense Sensor
+
 Black or lock comperter display if person isn't present
 
 ```bash
@@ -48,6 +49,7 @@ gnome-screensaver-command -l
 
 
 # ESPHome
+
 Tasmota or ESPHome, together with Home Assistant are often seen together for home automation.
 Most of the focus is on flashing and integrating readily available devices and sensors.
 But which framework is better also for our do-it-yourself sensors and ESP32 boards.

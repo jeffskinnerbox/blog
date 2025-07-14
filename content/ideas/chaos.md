@@ -35,6 +35,7 @@ _Chaos: When the present determines the future, but, the approximate present doe
 
 
 # Jerk Circuit
+
 Jerk circuit are discribed by equation involves the third derivative of x (time derivative of acceleration).
 Such type of a differential equation is called a ‘jerk’ equation.
 
@@ -49,6 +50,7 @@ Such type of a differential equation is called a ‘jerk’ equation.
 
 
 # "Period Three Implies Chaos" Theory
+
 The theorem refers to period in the sense of function iterations,
 **not** in the sense of translation like sin(x) = sin(x + 2*pi).
 It applies to particular points, not to the function as a whole.

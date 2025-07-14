@@ -24,6 +24,7 @@ Version:      0.0.0
 
 
 # Drama in Statistics & Science
+
 Most people encounter Bayesian statistics after learning classical, aka Frequentist, statistics.
 Bayesian concepts and models are handle as a subset of the Frequentist interpretation.
 The result is confusion and lack of appreciation of the Bayesian approach.
@@ -54,6 +55,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 
 
 # Bayesian Statistics
+
 Bayesian statistics is a theory in the field of statistics based on the Bayesian interpretation of probability where probability expresses a degree of belief in an event. The degree of belief may be based on prior knowledge about the event, such as the results of previous experiments, or on personal beliefs about the event. This differs from a number of other interpretations of probability, such as the frequentist interpretation that views probability as the limit of the relative frequency of an event after many trials.
 
 * [Are you Bayesian or Frequentist?](https://www.youtube.com/watch?v=GEFxFVESQXc)
@@ -111,8 +113,8 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 # Jaynes
 
 * [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
-    * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
-    * [Bertrand's Paradox - Probability | WIRELESS PHILOSOPHY](https://www.youtube.com/watch?v=xy6xXEhbGa0)
+  * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
+  * [Bertrand's Paradox - Probability | WIRELESS PHILOSOPHY](https://www.youtube.com/watch?v=xy6xXEhbGa0)
 * [Probability Theory: The Logic of Science, by E. T. Jaynes](https://bayes.wustl.edu/etj/prob/book.pdf)
 
 

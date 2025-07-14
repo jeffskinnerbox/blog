@@ -12,6 +12,7 @@ Version:      0.0.0
 ---------------
 
 # Strangeness of Light
+
 * [Something Strange Happens When You Trust Quantum Mechanics](https://www.youtube.com/watch?v=qJZ1Ez28C-A)
 * [Why I stopped believing light is a particle (until now)](https://www.youtube.com/watch?v=W3Egv6iO3dI)
 
@@ -45,6 +46,7 @@ The way I would put it .... The sciences are the stories we tell ourselves to or
 
 
 # Self Study Topics
+
 * [How to self study pure math - a step-by-step guide](https://www.youtube.com/watch?v=byNaO_zn2fI)
 * [How to self-study topology on your own!](https://aleph0.substack.com/p/how-to-self-study-topology-on-your)
 
@@ -85,7 +87,7 @@ All we know is they can’t simultaneously be true.
 * [Bell’s Theorem: The End of Hidden Variables?](https://medium.com/quantum-untangled/bells-theorem-the-end-of-hidden-variables-43defb2fe0b9)
 * [Bell's Theorem: The Quantum Venn Diagram Paradox](https://www.youtube.com/watch?v=zcqZHYo7ONs)
 * [Bell's Inequality: The weirdest theorem in the world | Nobel Prize 2022](https://www.youtube.com/watch?v=9OM0jSTeeBg)
-    * [Demonstrate the violation of the CHSH inequality with the Estimator primitive](https://qiskit.org/ecosystem/ibm-runtime/tutorials/chsh_with_estimator.html)
+  * [Demonstrate the violation of the CHSH inequality with the Estimator primitive](https://qiskit.org/ecosystem/ibm-runtime/tutorials/chsh_with_estimator.html)
 * [Why Did Quantum Entanglement Win the Nobel Prize in Physics?](https://www.youtube.com/watch?v=US7fEkBsy4A)
 * [Why is quantum mechanics non-local? (I wish someone had told me this 20 years ago)](https://www.youtube.com/watch?v=hpkgPJo_z6Y)
 * [Quantum Entanglement Explained - How does it really work?](https://www.youtube.com/watch?v=unb_yoj1Usk)
@@ -100,44 +102,45 @@ All we know is they can’t simultaneously be true.
 
 
 ## Quantum Physics Confusion: How to Learn This Stuff
+
 It is often said, nobody understands quantum physics ... not true.
 The problem is, nobody understands quantum **physicists** muddled description of the topic.
 
 * Summary
-    * [Introduction to Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
-    * [Physical Principles Underpinning Quantum Computing](https://www.eetimes.eu/physical-principles-underpinning-quantum-computing/)
-    * [From Bits to Qubits: Mathematical Representation of Quantum Gates](https://www.eetimes.eu/from-bits-to-qubits-mathematical-representation-of-quantum-gates/)
+  * [Introduction to Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
+  * [Physical Principles Underpinning Quantum Computing](https://www.eetimes.eu/physical-principles-underpinning-quantum-computing/)
+  * [From Bits to Qubits: Mathematical Representation of Quantum Gates](https://www.eetimes.eu/from-bits-to-qubits-mathematical-representation-of-quantum-gates/)
 * History of Modern Physics
-    * DONE - [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
-    * [History for Physics: Quantum Foundations](https://www.youtube.com/playlist?list=PLtIs3eEC6pzLiBewygZYyvrkplX5iXoiG)
-    * [Adam Becker on the Curious History of Quantum Mechanics](https://www.youtube.com/watch?v=em7dkYZTetE)
-    * [Adam Becker, "The Trouble with Quantum Physics, and Why It Matters"](https://www.youtube.com/watch?v=HUEDWhYaESw)
-    * [Adam Becker - "'Not Merely False, but Foolish': The History of Bell’s Two Theorems"](https://www.youtube.com/watch?v=TUyp2uC6VJc)
-    * [‘Metaphysical Experiments’ Probe Our Hidden Assumptions About Reality](https://www.quantamagazine.org/metaphysical-experiments-test-hidden-assumptions-about-reality-20240730/)
+  * DONE - [MIT STS.042J Einstein, Oppenheimer, Feynman: Physics in the 20th Century](https://www.youtube.com/playlist?list=PLUl4u3cNGP63bAfjGas3TuA4ZCPUtN6Xf)
+  * [History for Physics: Quantum Foundations](https://www.youtube.com/playlist?list=PLtIs3eEC6pzLiBewygZYyvrkplX5iXoiG)
+  * [Adam Becker on the Curious History of Quantum Mechanics](https://www.youtube.com/watch?v=em7dkYZTetE)
+  * [Adam Becker, "The Trouble with Quantum Physics, and Why It Matters"](https://www.youtube.com/watch?v=HUEDWhYaESw)
+  * [Adam Becker - "'Not Merely False, but Foolish': The History of Bell’s Two Theorems"](https://www.youtube.com/watch?v=TUyp2uC6VJc)
+  * [‘Metaphysical Experiments’ Probe Our Hidden Assumptions About Reality](https://www.quantamagazine.org/metaphysical-experiments-test-hidden-assumptions-about-reality-20240730/)
 * Quantum Physics
-    * [Sample of a First Year 'Quantum Ideas' short option lecture](https://www.youtube.com/watch?v=JOlOWyVMTxs)
-    * [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
-    * [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
-    * [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
-    * [What Is (Almost) Everything Made Of?](https://www.youtube.com/watch?v=UYW1lKNVI90)
-    * [Quantum Physics](https://www.youtube.com/playlist?list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
+  * [Sample of a First Year 'Quantum Ideas' short option lecture](https://www.youtube.com/watch?v=JOlOWyVMTxs)
+  * [Nobody understands quantum physicists](https://csferrie.medium.com/nobody-understands-quantum-physicists-bdf1b9180dac)
+  * [Everything you’ve heard about quantum entanglement is wrong](https://csferrie.medium.com/everything-youve-heard-about-quantum-entanglement-is-wrong-21ba7c867f05)
+  * [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
+  * [What Is (Almost) Everything Made Of?](https://www.youtube.com/watch?v=UYW1lKNVI90)
+  * [Quantum Physics](https://www.youtube.com/playlist?list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
 * Quantum Mechanics
-    * [Bra-Ket Notation and How to Use It](https://www.youtube.com/watch?v=mAZSmzv_asU&t=72s)
-    * [Lecture: Mathematics for Physicists](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKTnpE0yhCcXyQrHu5KtGeX)
-    * [Lecture: Electrodynamics](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLrAOWX3F3oNXQUEAyWEIIF)
-    * [Lecture: Quantum Mechanics I](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLMZ-I4YRwIQK0FbCkztJbZ)
-    * [Lecture: Quantum Mechanics II](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKVPjPv_aV3XMITKaRuB7bf)
-    * [MIT 8.04 Quantum Physics I, Spring 2016](https://www.youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G)
+  * [Bra-Ket Notation and How to Use It](https://www.youtube.com/watch?v=mAZSmzv_asU&t=72s)
+  * [Lecture: Mathematics for Physicists](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKTnpE0yhCcXyQrHu5KtGeX)
+  * [Lecture: Electrodynamics](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLrAOWX3F3oNXQUEAyWEIIF)
+  * [Lecture: Quantum Mechanics I](https://www.youtube.com/playlist?list=PLTjLwQcqQzNLMZ-I4YRwIQK0FbCkztJbZ)
+  * [Lecture: Quantum Mechanics II](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKVPjPv_aV3XMITKaRuB7bf)
+  * [MIT 8.04 Quantum Physics I, Spring 2016](https://www.youtube.com/playlist?list=PLUl4u3cNGP60cspQn3N9dYRPiyVWDd80G)
 * Computational Quantum Physics
-    * [A Computational Introduction to Quantum Physics](https://www.amazon.com/Computational-Introduction-Quantum-Physics/dp/1009389637)
-        * [Preview](https://www.google.com/books/edition/A_Computational_Introduction_to_Quantum/Kv_5EAAAQBAJ?hl=en&gbpv=1&printsec=frontcover)
-    * [An Awesome List of Quantum Computational Related Things](https://github.com/hsavit1/Awesome-Quantum-Computation)
-    * [An Interactive Introduction To Quantum Computing](https://davidbkemp.github.io/QuantumComputingArticle/)
+  * [A Computational Introduction to Quantum Physics](https://www.amazon.com/Computational-Introduction-Quantum-Physics/dp/1009389637)
+    * [Preview](https://www.google.com/books/edition/A_Computational_Introduction_to_Quantum/Kv_5EAAAQBAJ?hl=en&gbpv=1&printsec=frontcover)
+  * [An Awesome List of Quantum Computational Related Things](https://github.com/hsavit1/Awesome-Quantum-Computation)
+  * [An Interactive Introduction To Quantum Computing](https://davidbkemp.github.io/QuantumComputingArticle/)
 * Quantum Computing
-    * [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
-    * [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
-    * [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
-    * [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
+  * [A lay understanding of quantum computers](https://csferrie.medium.com/a-lay-understanding-of-quantum-computers-d4e0b5f7d8e7)
+  * [Do we create the very reality that we observe?](https://csferrie.medium.com/do-we-create-the-very-reality-that-we-observe-1162d1fab93b)
+  * [What Could Make Quantum Computing Easy to Explain?](https://csferrie.medium.com/what-could-make-quantum-computing-easy-to-explain-647599468c4c)
+  * [Here’s why superposition and entanglement have nothing to do with understanding quantum computers](https://csferrie.medium.com/heres-why-superposition-and-entanglement-have-nothing-to-do-with-understanding-quantum-computers-b2557ed7b5a2)
 
 
 # Stern-Gerlach Experiment
@@ -171,7 +174,7 @@ This achievement intensifies the question: **What truly separates the quantum fr
 
 * [This Experiment is weirder than Double Slit](https://www.youtube.com/watch?v=DNKp4QWc0Ys)
 * [Why is quantum mechanics weird? The bomb experiment](https://www.youtube.com/watch?v=RhIf3Q_m0FQ)
-    * [Sabine Hossenfelder on the Elitzur-Vaidman bomb tester thought experiment](https://www.reddit.com/r/QuantumPhysics/comments/1b74hog/sabine_hossenfelder_on_the_elitzurvaidman_bomb/)
+  * [Sabine Hossenfelder on the Elitzur-Vaidman bomb tester thought experiment](https://www.reddit.com/r/QuantumPhysics/comments/1b74hog/sabine_hossenfelder_on_the_elitzurvaidman_bomb/)
 
 
 # Epistemology
@@ -190,15 +193,16 @@ Epistemology is the philosophical study of the nature, origin, and limits of hum
 generally fall into two categories: psi-ontological and psi-epistemic.
 
 * **Psi-ontological interpretation (aka ontic interpretation)** view the quantum state as real and existing independently of the observer.
-    - Many Worlds Interpretation (MWI)
+  * Many Worlds Interpretation (MWI)
 * **Psi-epistemic interpretations (aka epistemic interpretation)** view the quantum state as descriptive of our knowledge and interactions with the world.
-    - Copenhagen Interpretation
-    - QBism
+  * Copenhagen Interpretation
+  * QBism
 
 No matter which interpretation you choose, there is a philosophical price to be paid.
 
 
 ## QBism (Quantum Bayesianism)
+
 QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechanics, emphasizing the role of the observer and measurements, contrary to classical physics' objective worldview.
 
 * [QBism: The New Theory That Shatters Our View of Reality](https://www.youtube.com/watch?v=yABPvDJ6Zgs)
@@ -208,40 +212,40 @@ QBism, or Quantum Bayesianism, offers a radical interpretation of quantum mechan
 ## History of Quantum Mechanics
 
 * [A brief history of quantum mechanics](https://bigthink.com/collections/brief-history-quantum-mechanics/)
-    - Early Days
-        * [Classical Mechanics and Relativity lecture playlist](https://www.youtube.com/playlist?list=PLotxEOxVaaoKDo2GFPZsg04p3OnlwYBkR)
-        * [Ancient physics: How Democritus predicted the atom](https://bigthink.com/hard-science/ancient-physics-democritus-predicted-atom/)
-        * No. 1 - [Max Planck and how the dramatic birth of quantum physics changed the world](https://bigthink.com/13-8/max-planck-birth-quantum-physics/)
-        * No. 2 -[Quantum jumps: How Niels Bohr’s idea changed the world](https://bigthink.com/13-8/quantum-jumps-niels-bohr-atom/)
-        * [The Einstein-Bohr legacy: can we ever figure out what quantum theory means?](https://bigthink.com/13-8/einstein-bohr-weirdness-quantum-mechanics/)
-        * [The Overlooked Experiment That Revealed the Quantum World](https://nautil.us/the-overlooked-experiment-that-revealed-the-quantum-world-482910/)
-    - Particles and Waves
-        * No. 3 - [The paradox of light goes beyond wave-particle duality](https://bigthink.com/13-8/quantum-nature-of-light/)
-        * No. 4 - [Not just light: Everything is a wave, including you](https://bigthink.com/13-8/wave-particle-duality-matter/)
-    - Quantum Reality
-        * No. 5 - [Our language is inadequate to describe quantum reality](https://bigthink.com/13-8/quantum-uncertainty-language/)
-        * No. 6 - [Quantum superposition begs us to ask, “What is real?”](https://bigthink.com/13-8/quantum-superposition/)
-        * No. 7 - [Quantum mystery: Do things only exist once we interact with them? interpretation of quantum mechanics](https://bigthink.com/13-8/quantum-mystery-interaction/)
-    - Hidden Variables
-        * No. 8 - [Einstein’s quantum ghost is here to stay](https://bigthink.com/13-8/einstein-quantum-ghost/)
-        * No. 9 - [Could a hidden variable explain the weirdness of quantum physics?](https://bigthink.com/13-8/quantum-entanglement-hidden-variable/)
-        * No. 10 -[The weirdness of quantum mechanics forces scientists to confront philosophy](https://bigthink.com/13-8/quantum-mechanics-philosophy/)
-    - Quantum Fields, Etc.
-        * [Why we need quantum fields, not just quantum particles](https://bigthink.com/starts-with-a-bang/quantum-fields-quantum-particles/)
-        * [10 quantum myths that need to be busted](https://bigthink.com/starts-with-a-bang/10-quantum-myths/)
-    - QBism / Quantum Bayesianism
-        * [A Private View of Quantum Reality](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
-        * [QBism and the Philosophers](https://www.youtube.com/watch?v=I2w-BtI01sA)
-        * [Chris Timpson - "QBism, Ontology, and Explanation"](https://www.youtube.com/watch?v=6g96Yly67mg)
-        * [What reality does quantum theory describe? QBism has a radical answer](https://bigthink.com/13-8/qbism-quantum-reality/)
-        * [The “blind spot” in science that’s fueling a crisis of meaning](https://bigthink.com/13-8/why-science-must-contend-with-human-experience/)
-        * [“QBism”: The most radical interpretation of quantum mechanics ever](https://bigthink.com/13-8/qbism-quantum-physics/)
-        * [QBism and the philosophical crisis of quantum mechanics](https://bigthink.com/13-8/qbism-philosophical-crisis-quantum-mechanics/)
-        * [QBism: The simplest interpretation of quantum physics](https://bigthink.com/13-8/qbism-simplest-explanation-of-quantum-physics/)
-        * [QuEn 2023: QBism/Enactivism with Chris Fuchs, Ezequiel Di Paolo and Hanne De Jaegher](https://www.youtube.com/watch?v=eOUYKj4xFkM)
-    - What Is Wrong With Physics?
-        * [The Biggest Question Physicists Aren’t Asking](https://www.youtube.com/watch?v=iVyl8pGd44I)
-            * [Inductica.org](https://inductica.org/)
+  * Early Days
+    * [Classical Mechanics and Relativity lecture playlist](https://www.youtube.com/playlist?list=PLotxEOxVaaoKDo2GFPZsg04p3OnlwYBkR)
+    * [Ancient physics: How Democritus predicted the atom](https://bigthink.com/hard-science/ancient-physics-democritus-predicted-atom/)
+    * No. 1 - [Max Planck and how the dramatic birth of quantum physics changed the world](https://bigthink.com/13-8/max-planck-birth-quantum-physics/)
+    * No. 2 -[Quantum jumps: How Niels Bohr’s idea changed the world](https://bigthink.com/13-8/quantum-jumps-niels-bohr-atom/)
+    * [The Einstein-Bohr legacy: can we ever figure out what quantum theory means?](https://bigthink.com/13-8/einstein-bohr-weirdness-quantum-mechanics/)
+    * [The Overlooked Experiment That Revealed the Quantum World](https://nautil.us/the-overlooked-experiment-that-revealed-the-quantum-world-482910/)
+  * Particles and Waves
+    * No. 3 - [The paradox of light goes beyond wave-particle duality](https://bigthink.com/13-8/quantum-nature-of-light/)
+    * No. 4 - [Not just light: Everything is a wave, including you](https://bigthink.com/13-8/wave-particle-duality-matter/)
+  * Quantum Reality
+    * No. 5 - [Our language is inadequate to describe quantum reality](https://bigthink.com/13-8/quantum-uncertainty-language/)
+    * No. 6 - [Quantum superposition begs us to ask, “What is real?”](https://bigthink.com/13-8/quantum-superposition/)
+    * No. 7 - [Quantum mystery: Do things only exist once we interact with them? interpretation of quantum mechanics](https://bigthink.com/13-8/quantum-mystery-interaction/)
+  * Hidden Variables
+    * No. 8 - [Einstein’s quantum ghost is here to stay](https://bigthink.com/13-8/einstein-quantum-ghost/)
+    * No. 9 - [Could a hidden variable explain the weirdness of quantum physics?](https://bigthink.com/13-8/quantum-entanglement-hidden-variable/)
+    * No. 10 -[The weirdness of quantum mechanics forces scientists to confront philosophy](https://bigthink.com/13-8/quantum-mechanics-philosophy/)
+  * Quantum Fields, Etc.
+    * [Why we need quantum fields, not just quantum particles](https://bigthink.com/starts-with-a-bang/quantum-fields-quantum-particles/)
+    * [10 quantum myths that need to be busted](https://bigthink.com/starts-with-a-bang/10-quantum-myths/)
+  * QBism / Quantum Bayesianism
+    * [A Private View of Quantum Reality](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
+    * [QBism and the Philosophers](https://www.youtube.com/watch?v=I2w-BtI01sA)
+    * [Chris Timpson - "QBism, Ontology, and Explanation"](https://www.youtube.com/watch?v=6g96Yly67mg)
+    * [What reality does quantum theory describe? QBism has a radical answer](https://bigthink.com/13-8/qbism-quantum-reality/)
+    * [The “blind spot” in science that’s fueling a crisis of meaning](https://bigthink.com/13-8/why-science-must-contend-with-human-experience/)
+    * [“QBism”: The most radical interpretation of quantum mechanics ever](https://bigthink.com/13-8/qbism-quantum-physics/)
+    * [QBism and the philosophical crisis of quantum mechanics](https://bigthink.com/13-8/qbism-philosophical-crisis-quantum-mechanics/)
+    * [QBism: The simplest interpretation of quantum physics](https://bigthink.com/13-8/qbism-simplest-explanation-of-quantum-physics/)
+    * [QuEn 2023: QBism/Enactivism with Chris Fuchs, Ezequiel Di Paolo and Hanne De Jaegher](https://www.youtube.com/watch?v=eOUYKj4xFkM)
+  * What Is Wrong With Physics?
+    * [The Biggest Question Physicists Aren’t Asking](https://www.youtube.com/watch?v=iVyl8pGd44I)
+      * [Inductica.org](https://inductica.org/)
 
 Fundamental Theorem of Arithmetic
 Arithmetic is another name for Number Theory
@@ -403,11 +407,12 @@ Being numberless: The only words in their anumeric language that are somewhat qu
 
 
 # Space-Time Looks Doomed
+
 * [Space-Time: The Biggest Problem in Physics](https://www.youtube.com/watch?v=RIqVnFtOSr4)
 * [Why Space-Time Looks Doomed](https://www.linkedin.com/pulse/why-space-time-looks-doomed-quanta-magazine-osnoe/)
-    * [The Unraveling of Space-Time](https://www.quantamagazine.org/the-unraveling-of-space-time-20240925/)
-    * [What If Gravity is NOT A Fundamental Force? | Entropic Gravity](https://www.youtube.com/watch?v=qYSKEbd956M)
-    * [John Wheeler Saw the Tear in Reality](https://www.quantamagazine.org/john-wheeler-saw-the-tear-in-reality-20240925/)
+  * [The Unraveling of Space-Time](https://www.quantamagazine.org/the-unraveling-of-space-time-20240925/)
+  * [What If Gravity is NOT A Fundamental Force? | Entropic Gravity](https://www.youtube.com/watch?v=qYSKEbd956M)
+  * [John Wheeler Saw the Tear in Reality](https://www.quantamagazine.org/john-wheeler-saw-the-tear-in-reality-20240925/)
 
 
 # The Langland Program: A Grand Unified Theory of Mathematics
@@ -417,9 +422,9 @@ An attempt to connect different "continents" of mathematics
 * [What Is the Langlands Program?](https://www.quantamagazine.org/what-is-the-langlands-program-20220601)
 * [One Step Closer to a 'Grand Unified Theory of Math': Geometric Langlands](https://www.youtube.com/watch?v=xuLCPv6smwo)
 * Foundations of Mathematics
-    * [classical mathematics](https://en.wikipedia.org/wiki/Classical_mathematics)
-    * [constructive mathematics](<https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)>)
-    * [predicative mathematics]()
+  * [classical mathematics](https://en.wikipedia.org/wiki/Classical_mathematics)
+  * [constructive mathematics](<https://en.wikipedia.org/wiki/Constructivism_(philosophy_of_mathematics)>)
+  * [predicative mathematics]()
 * [Masterclass - Edward Frenkel: Mathematics, The Language of Nature](https://www.youtube.com/playlist?list=PL0ocSIkChBRG74s9WyYPE_ouKy20jORFo)
 
 
@@ -686,14 +691,15 @@ Euler Gamma Function <--> Trigonometric Functions <--> Riemann Zeta Function <--
 * [One Man's Mission to Unveil Math's Beauty](https://www.youtube.com/watch?v=TL7XhfrLF4k)
 * [Calculus at a Fifth Grade Level](https://www.youtube.com/watch?v=TzDhdvVg9_c)
 * Messages from the trenches
-    * [Math Education Rant](https://www.youtube.com/watch?v=bpi3Lk615GA)
-    * [Just a rant: Math](https://www.youtube.com/watch?v=RFbuW7Z3HP0)
-    * [When Will I Ever Use Math? How to Actually Answer This Question](https://www.youtube.com/watch?v=RqQlXG__vGs)
+  * [Math Education Rant](https://www.youtube.com/watch?v=bpi3Lk615GA)
+  * [Just a rant: Math](https://www.youtube.com/watch?v=RFbuW7Z3HP0)
+  * [When Will I Ever Use Math? How to Actually Answer This Question](https://www.youtube.com/watch?v=RqQlXG__vGs)
 
 ## The Way Math Should be Taught
+
 * [The way math should be taught](https://www.youtube.com/watch?v=VElZBohyXW0)
 * [Measurement](https://www.amazon.com/Measurement-Paul-Lockhart/dp/0674284380) by Paul Lockhart
-    * [The World of Mathematical Reality – Paul Lockhart](https://www.youtube.com/watch?v=V1gT2f3Fe44)
+  * [The World of Mathematical Reality – Paul Lockhart](https://www.youtube.com/watch?v=V1gT2f3Fe44)
 
 
 # Discontinuity in Physics
@@ -901,8 +907,8 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 * [Random Numbers - Numberphile](https://www.youtube.com/watch?v=SxP30euw3-0)
 * [When Science and Philosophy meet Randomness, Determinism, and Chaos](https://towardsdatascience.com/when-science-and-philosophy-meet-randomness-determinism-and-chaos-abdb825c3114)
 * [Is it Possible to Predict Randomness? The Double Pendulum Experiment](https://www.youtube.com/watch?v=4xViPStT5II)
-    * [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
-    * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
+  * [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
+  * [Modeling a Double Pendulum with Python and Sympy](https://rjallain.medium.com/modeling-a-double-pendulum-with-python-and-sympy-c4f83a2032e0)
 * [Random Sequences: Human vs Coin](https://www.youtube.com/watch?v=H2lJLXS3AYM)
 * [Random Means "Unknown Cause"](https://www.wmbriggs.com/wp-content/uploads/2023/01/What-Are-All-The-Uses-For-So-Called-Random-Numbers_.mp3)
 * [Deconstructing Randomness as Chaos and Entanglement in Disguise](https://medium.com/intuitionmachine/there-is-no-randomness-only-chaos-and-complexity-c92f6dccd7ab)
@@ -924,8 +930,8 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 
 * [How Randomness Improves Algorithms](https://www.quantamagazine.org/how-randomness-improves-algorithms-20230403/)
 * [Is the Future of Linear Algebra.. Random?](https://www.youtube.com/watch?v=6htbyY3rH1w)
-    * [Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software](https://arxiv.org/abs/2302.11474)
-    * [Randomized Numerical Linear Algebra](https://truetheta.io/concepts/linear-algebra/randomized-numerical-linear-algebra/)
+  * [Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software](https://arxiv.org/abs/2302.11474)
+  * [Randomized Numerical Linear Algebra](https://truetheta.io/concepts/linear-algebra/randomized-numerical-linear-algebra/)
 * [Computer Scientists Invent an Efficient New Way to Count](https://www.quantamagazine.org/computer-scientists-invent-an-efficient-new-way-to-count-20240516/?mc_cid=eaa82367f0&mc_eid=a88c5dceda)
 
 * [The Strategic Benefits of Randomized Decision-Making](https://hbr.org/2023/09/the-strategic-benefits-of-randomized-decision-making)
@@ -943,11 +949,11 @@ A distribution is sometimes also called a "generalized function" or "ideal funct
 * [We may now know what life is](https://medium.com/the-infinite-universe/we-may-now-know-what-life-is-9326d34a14e8)
 * [Elegant Six-Page Proof Reveals the Emergence of Random Structure](https://www.quantamagazine.org/elegant-six-page-proof-reveals-the-emergence-of-random-structure-20220425)
 * [But what is the Central Limit Theorem?](https://www.youtube.com/watch?v=zeJD6dqJ5lo)
-    * [Proof of the Central Limit Theorem](https://medium.com/@oguo/proof-of-the-central-limit-theorem-214813be6e2c)
+  * [Proof of the Central Limit Theorem](https://medium.com/@oguo/proof-of-the-central-limit-theorem-214813be6e2c)
 * [Law of Large Numbers](https://www.probabilitycourse.com/chapter7/7_1_1_law_of_large_numbers.php)
-    * [What The Law Of Large Numbers Really Means](https://www.wmbriggs.com/post/47269/)
-    * [Unraveling the Law of Large Numbers](https://towardsdatascience.com/unraveling-the-law-of-large-numbers-e36a3219acb2)
-    * [The Law of Large Numbers - Explained](https://www.youtube.com/watch?v=ycuPP72_DVU&t=69s)
+  * [What The Law Of Large Numbers Really Means](https://www.wmbriggs.com/post/47269/)
+  * [Unraveling the Law of Large Numbers](https://towardsdatascience.com/unraveling-the-law-of-large-numbers-e36a3219acb2)
+  * [The Law of Large Numbers - Explained](https://www.youtube.com/watch?v=ycuPP72_DVU&t=69s)
 
 
 ## Ramsey Theory
@@ -980,7 +986,7 @@ in sets of numbers, in collections of vertices and edges called graphs, and in o
 * [Lyapunov's Fractal (that Lyapunov knew nothing about)](https://www.youtube.com/watch?v=yGwy2WyQCQE)
 * [The Coolest Mathematical Constant You’ve Never Heard Of](https://medium.com/@mustafaefeguzel/the-coolest-mathematical-constant-youve-never-heard-of-c7bbabed5e44)
 
-    * [The Feigenbaum Constant (4.669) - Numberphile](https://www.youtube.com/watch?v=ETrYE4MdoLQ)
+  * [The Feigenbaum Constant (4.669) - Numberphile](https://www.youtube.com/watch?v=ETrYE4MdoLQ)
 
 * [This Animal’s Behavior Is Mechanically Programmed](https://www.quantamagazine.org/before-brains-mechanics-may-have-ruled-animal-behavior-20220316?mc_cid=80d950ddd6&mc_eid=a88c5dceda)
 
@@ -990,6 +996,7 @@ in sets of numbers, in collections of vertices and edges called graphs, and in o
 
 
 # Undecidability
+
 In computability theory and computational complexity theory,
 an undecidable problem is a decision problem for which it is proved to be impossible
 to construct an algorithm that always leads to a correct yes-or-no answer.
@@ -1073,9 +1080,9 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 # Foundational Quantum Mechanics Experiments & Theories
 
 * [History of Quantum Mechanics](https://en.wikipedia.org/wiki/History_of_quantum_mechanics)
-    * [Old Quantum Theory](https://en.wikipedia.org/wiki/Old_quantum_theory)
-    * [The (Often) Overlooked Experiment That Revealed the Quantum World](https://www.quantamagazine.org/the-often-overlooked-experiment-that-revealed-the-quantum-world-20231205)
-    * [Stern–Gerlach Experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)
+  * [Old Quantum Theory](https://en.wikipedia.org/wiki/Old_quantum_theory)
+  * [The (Often) Overlooked Experiment That Revealed the Quantum World](https://www.quantamagazine.org/the-often-overlooked-experiment-that-revealed-the-quantum-world-20231205)
+  * [Stern–Gerlach Experiment](https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment)
 
 
 # Delayed Choice Quantum Eraser Experiment
@@ -1106,7 +1113,7 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 * [How Bell’s Theorem Proved ‘Spooky Action at a Distance’ Is Real](https://www.quantamagazine.org/how-bells-theorem-proved-spooky-action-at-a-distance-is-real-20210720/)
 * [Gamification of Bell's Theorem](https://www.youtube.com/watch?v=v7jctqKsUMA)
 * [Scientists make historic breakthrough in quantum entanglement](https://thredmedia.medium.com/scientists-make-historic-breakthrough-in-quantum-entanglement-f5928a2516c3)
-    * [How Physicists Proved The Universe Isn't Locally Real - Nobel Prize in Physics 2022 EXPLAINED](https://www.youtube.com/watch?v=txlCvCSefYQ)
+  * [How Physicists Proved The Universe Isn't Locally Real - Nobel Prize in Physics 2022 EXPLAINED](https://www.youtube.com/watch?v=txlCvCSefYQ)
 * [How the illusion of an objective reality creates time travel paradoxes](https://medium.com/the-infinite-universe/how-the-illusion-of-an-objective-reality-creates-time-travel-paradoxes-f0af35e661c9)
 
 
@@ -1315,11 +1322,11 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Probability: A Philosophical Perspective, Part I](https://medium.com/thesociablesolipsist/probability-a-philosophical-perspective-part-i-accb35315900)
 * [Law of truly large numbers](https://en.wikipedia.org/wiki/Law_of_truly_large_numbers)
 * [The Universe in Your Hand](https://ngoeke.medium.com/the-universe-in-your-hand-9a88ce045e37)
-    * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
-    * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
-    * [The Humanly Infinite](https://www.youtube.com/watch?v=RdnVhjYFr7w)
-    * [The Incomprehensible Scale of 52!](https://www.youtube.com/watch?v=hoeIllSxpEU)
-    * [Expert reveals the fascinating link between math and card shuffling](https://phys.org/news/2023-04-expert-reveals-fascinating-link-math.html)
+  * [Tim Urban Instagram](https://www.instagram.com/p/CDkKjBHnBF2/)
+  * [52 Factorial: It Starts with a Simple Deck of Playing Cards](https://czep.net/weblog/52cards.html)
+  * [The Humanly Infinite](https://www.youtube.com/watch?v=RdnVhjYFr7w)
+  * [The Incomprehensible Scale of 52!](https://www.youtube.com/watch?v=hoeIllSxpEU)
+  * [Expert reveals the fascinating link between math and card shuffling](https://phys.org/news/2023-04-expert-reveals-fascinating-link-math.html)
 * [How To Perfectly Predict Improbable Events](https://streetscience.net/how-to-perfectly-predict-improbable-events/)
 * [Predicting catastrophic events with Didier Sornette](https://www.youtube.com/watch?v=J_vtfxJaRBg)
 
@@ -1329,9 +1336,9 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [The Two Envelopes Paradox](https://routsiddharth.medium.com/the-two-envelopes-paradox-e6fed49c9170)
 * [Five Tricky Statistics and Probability Riddles That 90% of People Fail](https://towardsdatascience.com/five-tricky-statistics-and-probability-riddles-that-90-of-people-fail-77db1eda2e15)
 * [The unresolved probability paradox that goes to the heart of scientific objectivity](https://aeon.co/videos/the-unresolved-probability-paradox-that-goes-to-the-heart-of-scientific-objectivity)
-    * [The Puzzle of Grue](https://www.youtube.com/watch?v=1rUCyg4Ppso)
+  * [The Puzzle of Grue](https://www.youtube.com/watch?v=1rUCyg4Ppso)
 * [Bertrand's Paradox](https://www.youtube.com/watch?v=mZBwsm6B280)
-    * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
+  * [More on Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
 * [Five Paradoxes With Probabilities That Will Puzzle You](https://towardsdatascience.com/five-paradoxes-with-probabilities-that-will-puzzle-you-2f71201d6ee8)
 
 
@@ -1403,8 +1410,8 @@ that he came up with the special theory of relativity in 1905 which changed our 
 # Math & Physics: Renormalization
 
 * [Renormalization: The Art of Erasing Infinity](https://www.youtube.com/watch?v=0OQ7BhlfAJY)
-    * [Feynman Diagrams and Perturbation Theory: Calculating in Particle Physics](https://www.youtube.com/watch?v=BCBDclSOuxU)
-    * [How to Tame the Endless Infinities Hiding in the Heart of Particle Physics](https://www.quantamagazine.org/alien-calculus-could-save-particle-physics-from-infinities-20230406/)
+  * [Feynman Diagrams and Perturbation Theory: Calculating in Particle Physics](https://www.youtube.com/watch?v=BCBDclSOuxU)
+  * [How to Tame the Endless Infinities Hiding in the Heart of Particle Physics](https://www.quantamagazine.org/alien-calculus-could-save-particle-physics-from-infinities-20230406/)
 * [In the End, It All Adds Up to – 1/12](https://www.nytimes.com/2014/02/04/science/in-the-end-it-all-adds-up-to.html)
 * [Infinity or -1/12?](https://plus.maths.org/content/infinity-or-just-112?nl=0)
 * [How physicists solved the problem of infinity](https://www.youtube.com/watch?v=dkYL6G0JHtY)
@@ -1484,7 +1491,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 * [Tensors and Vectors - 2023](https://www.youtube.com/playlist?list=PL2n-gxsZ_8LBC0zhYvDjPF8eF8PvygM2T)
 
 * [An Introduction to Tensor Calculus](https://grinfeld.org/books/An-Introduction-To-Tensor-Calculus/)
-    * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
+  * [Introduction to Tensor Calculus](https://www.youtube.com/playlist?list=PLlXfTHzgMRULkodlIEqfgTS-H1AY_bNtq)
 * [A Tensor Description of Surfaces and Curves](https://grinfeld.org/books/A-Tensor-Description-Of-Surfaces-And-Curves/)
 
 
@@ -1494,6 +1501,7 @@ that he came up with the special theory of relativity in 1905 which changed our 
 
 
 # The Big Misconception About Electricity
+
 Maxwell's great paper of 1865 , ["A Dynamical Theory of the Electromagnetic Field"](https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field)
 was stated in 20 equations that we rarely see today.
 
@@ -1558,7 +1566,7 @@ was stated in 20 equations that we rarely see today.
 # What Does Computing Mean?
 
 * [Liquid Computer Made From DNA Comprises Billions of Circuits](https://www.sciencealert.com/liquid-computer-made-from-dna-comprises-billions-of-circuits)
-    * [DNA computing](https://en.wikipedia.org/wiki/DNA_computing)
+  * [DNA computing](https://en.wikipedia.org/wiki/DNA_computing)
 
 
 # Computation - P vs NP vs NP-Complete vs NP-Hard
@@ -1600,10 +1608,10 @@ In physics, magnetism of everyday materials emerges from the spontaneous alignme
 
 * [Think Complexity](https://greenteapress.com/complexity/thinkcomplexity.pdf)
 * [Complexity: A Guided Tour](https://www.amazon.com/Complexity-Guided-Tour-Melanie-Mitchell/dp/0199798109)
-    * [Complexity a Guided Tour](https://www.youtube.com/watch?v=GYChwJq0310&list=RDLVGYChwJq0310&start_radio=1)
-    * [Introduction To Complexity](https://www.youtube.com/watch?v=Eo5oQ9Psmg8&list=PLF0b3ThojznRyDQlitfUTzXEXwLNNE-mI)
+  * [Complexity a Guided Tour](https://www.youtube.com/watch?v=GYChwJq0310&list=RDLVGYChwJq0310&start_radio=1)
+  * [Introduction To Complexity](https://www.youtube.com/watch?v=Eo5oQ9Psmg8&list=PLF0b3ThojznRyDQlitfUTzXEXwLNNE-mI)
 * [Complexity Explorer](https://www.complexityexplorer.org/)
-    * [Complexity Explorer](https://www.youtube.com/@ComplexityExplorer/featured)
+  * [Complexity Explorer](https://www.youtube.com/@ComplexityExplorer/featured)
 
 
 ## Computational Complexity Theory
@@ -1628,7 +1636,7 @@ hence giving a definition of computation as "anything we can reduce to a Turing 
 * [Agents.jl](https://juliadynamics.github.io/Agents.jl/stable/)
 * [MASON]()
 * [NetLogo](https://www.netlogoweb.org/) - one of the places where Logo's turtle went to live
-    * [Agent-based Coding in NetLogo](https://www.youtube.com/playlist?list=PLyAqVr5CJPzsCIyapaXKw8z-UyeQ_ctNa)
+  * [Agent-based Coding in NetLogo](https://www.youtube.com/playlist?list=PLyAqVr5CJPzsCIyapaXKw8z-UyeQ_ctNa)
 * [Mesa](https://mesa.readthedocs.io/en/stable/)
 
 

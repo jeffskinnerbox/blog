@@ -94,6 +94,7 @@ Also, it gives me an excuse to [learn more about Node.js][^B]!
     running over the standard port 80.
 
 ## Installation
+
 Install Node.js via `apt-get`.
 Because of a conflict with another package (amateur radio node package,
 the executable from the Ubuntu repositories is called `nodejs` instead of `node`.
@@ -126,6 +127,7 @@ sudo npm update -g tiddlywiki
 ```
 
 ## Creating a Wiki
+
 At this point, you should be ready to create a test wiki.
 
 * change directory to where you want the wiki to be stored
@@ -137,6 +139,7 @@ At this point, you should be ready to create a test wiki.
 Check the [TiddlyWiki website documentation][02] to find out more about the capabilities of TiddlyWiki.
 
 ## Configuring TiddlyWiki
+
 * **Setting a Favicon** - Following the instructions outline in the [TiddlyWiki tiddler][23],
 create a tiddler called `$:/favicon.ico` provide your [favicon][25].
 (First you [import the image][24] to create a tiddler and then rename that tiddler to `$:/favicon.ico`.)
@@ -147,6 +150,7 @@ in the text type menu at the bottom of the tiddler when editing it.
 * [CodeMirror](http://tiddlywiki.com/plugins/tiddlywiki/codemirror/)
 
 ## Creation of Wiki for Blog
+
 Create the wiki via
 
 * change directories into blogging and execute `tiddlywiki wiki --init server`.
@@ -163,6 +167,7 @@ MENUITEMS = (('About Me', '/pages/about-me.html'),
 * `tiddlywiki wiki --server` to start TiddlyWiki server
 
 ## Hosting TiddlyWiki
+
 TiddlyWiki recommends some methods for
 [hosting your TiddlyWiki on the web](http://tiddlywiki.com/#TiddlyWiki%20in%20the%20Sky%20for%20TiddlyWeb).
 
@@ -172,6 +177,7 @@ So node.js applications won't run on GitHub Pages.
 Never the less, I wanted the easy deployment strategy I get with GitHub Pages.
 
 ### Hosting TiddlyWiki on Heroku
+
 After establishing a free Heroku account,
 you are taken to "[Getting Started with Node.js on Heroku][16]".
 This provides an excellent tutorial on how to get a demo Node.js app running.
@@ -304,7 +310,7 @@ FINISH FINISH FINISH FINISH
 * Using the `npm install` command,
 you can install the dependencies that you declared in your `package.json` file.
 The use `foreman` to test it out locally using a
-browser with the URL ` http://localhost:5000/`.
+browser with the URL `http://localhost:5000/`.
 
 ```bash
 # build the app
@@ -423,16 +429,17 @@ heroku login
 git push heroku master
 ```
 
-Unfortunately the only problem with running TW5 on Heroku is that they use what they call an ephemeral filesystem. That is, any time the dyno spins down (usually from being idle) and then spins up, all file system changes will be gone and it will only have what's in the git repo. - https://groups.google.com/forum/#!topic/tiddlywiki/XDFW_tcSbf0
+Unfortunately the only problem with running TW5 on Heroku is that they use what they call an ephemeral filesystem. That is, any time the dyno spins down (usually from being idle) and then spins up, all file system changes will be gone and it will only have what's in the git repo. - <https://groups.google.com/forum/#!topic/tiddlywiki/XDFW_tcSbf0>
 
-Having only a single web dyno running will result in the dyno going to sleep after one hour of inactivity. This causes a delay of a few seconds for the first request upon waking. Subsequent requests will perform normally. - https://devcenter.heroku.com/articles/getting-started-with-nodejs#scale-the-app
+Having only a single web dyno running will result in the dyno going to sleep after one hour of inactivity. This causes a delay of a few seconds for the first request upon waking. Subsequent requests will perform normally. - <https://devcenter.heroku.com/articles/getting-started-with-nodejs#scale-the-app>
 Signup for a free [Pingdom](https://www.pingdom.com/free/) account and have it ping your instance on Heroku. This should help keep your Heroku instance awake and watching the world for you.
 
 * [Avoid Heroku idling with New Relic pings](https://coderwall.com/p/u0x3nw/avoid-heroku-idling-with-new-relic-pings)
 
 ### Hosting TiddlyWiki on OpenShift
+
 * [OpenShift](https://www.openshift.com/)
-** [Setup a personal TiddlyWiki on OpenShift](http://ericmiao.github.io/blog/2014/04/05/setup-personal-tiddlywiki-on-openshift/)
+**[Setup a personal TiddlyWiki on OpenShift](http://ericmiao.github.io/blog/2014/04/05/setup-personal-tiddlywiki-on-openshift/)
 ** [10 Reasons OpenShift is the Best Place for Node.js Apps](https://blog.openshift.com/10-reasons-openshift-is-the-best-place-to-host-your-nodejs-app/)
 
 #####################
@@ -452,11 +459,14 @@ To delete an application: heroku apps:destroy --app <the-application>
 * [What is Heroku? Explained through Analogy - YouTube](https://www.youtube.com/watch?v=J9dWpxLdeko)
 
 ## Learning TiddlyWiki
+
 * [Tiddler Toddler: an absolute beginner's guide to TiddlyWiki](http://tiddlertoddler.tiddlyspot.com/)
 * [Get started and organized with TiddlyWiki](https://opensource.com/article/19/2/tiddlywiki)
 
 ## Quickly Building a Prototype
+
 This show you a simple way to get your project setup so that you can talk to it and control it via the interwebs.
+
 * [Anatomy of a web application using node.js, ExpressJS, MongoDB & Backbone.js](http://www.amazon.com/gp/product/B00HRME7NA/ref=kinw_myk_ro_title)
 * [µCast #16: Pi + Express + Bootstrap + Angular FTW!](http://blog.microcasts.tv/2014/04/14/pi_express_bootstrap_angular/)
 * [µCast #17: Control Hardware Remotely With Socket.IO](http://blog.microcasts.tv/2014/06/21/using-socket-io-to-control-the-raspberry-pi-remotely/)
@@ -471,7 +481,6 @@ This show you a simple way to get your project setup so that you can talk to it 
 [06]:http://nodejs.org/
 [07]:http://en.wikipedia.org/wiki/V8_(JavaScript_engine)
 [08]:http://readwrite.com/2013/11/07/what-you-need-to-know-about-nodejs#feed=%2Fhack&awesm=~oD2cgDlOnKEfSp
-[09]:http://www.appdynamics.com/blog/nodejs/what-is-node-js-and-why-should-i-care-an-operations-guy-searches-for-answers/
 [10]:http://www.nearform.com/nodecrunch/node-js-becoming-go-technology-enterprise/
 [11]:http://www.makeuseof.com/tag/what-is-node-js-and-why-should-i-care-web-development/
 [12]:http://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js

@@ -12,6 +12,7 @@ Version:      0.0.0
 
 
 # Start Here ?
+
 Consider using the CaribouLite RPi HAT
 
 * [CaribouLite RPi HAT open-source SDR Raspberry Pi HAT tunes up to 6 GHz](https://www.cnx-software.com/2021/11/29/cariboulite-rpi-hat-open-source-sdr-raspberry-pi-hat-tunes-up-to-6-ghz/)
@@ -57,12 +58,12 @@ Consider using the CaribouLite RPi HAT
 # Demystifying SDR Hacking
 
 * [Demystifying SDR Hacking: A Deep Dive into Wireless Protocols](https://kishoreramk.medium.com/)
-    * [Part 1](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-1-db748b9171ca)
-    * [Part 2](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-2-72dd42e9a92f)
-    * [Part 3](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-3-4f66413c71d2)
-    * [Part 4](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-4-0eac58db6a58)
-    * [Part 5](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-5-778259475ece)
-    * [Part 6](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-6-296a84d18ba7)
+  * [Part 1](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-1-db748b9171ca)
+  * [Part 2](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-2-72dd42e9a92f)
+  * [Part 3](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-3-4f66413c71d2)
+  * [Part 4](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-4-0eac58db6a58)
+  * [Part 5](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-5-778259475ece)
+  * [Part 6](https://medium.com/radio-hackers/demystifying-sdr-hacking-a-deep-dive-into-wireless-protocols-part-6-296a84d18ba7)
 
 
 # SDRConnect
@@ -87,8 +88,8 @@ Here is a RTL SDR Scanner project which allows full bandwidth recording using ei
 And its packed in a Docker container.
 
 * [SDR Scanner Listens To Everything](https://hackaday.com/2023/02/06/sdr-scanner-listens-to-everything/)
-    * [RTL SDR Scanner - FULL Bandwidth Recording With WEB UI](https://www.youtube.com/watch?v=YzQ2N0VkKvE)
-    * [shajen / rtl-sdr-scanner-cpp](https://github.com/shajen/rtl-sdr-scanner-cpp)
+  * [RTL SDR Scanner - FULL Bandwidth Recording With WEB UI](https://www.youtube.com/watch?v=YzQ2N0VkKvE)
+  * [shajen / rtl-sdr-scanner-cpp](https://github.com/shajen/rtl-sdr-scanner-cpp)
 
 
 # PiSDR
@@ -164,12 +165,12 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 # Cross-Platform & Open-Source SDR
 
 * SDRPlusPlus (SDR++)
-    * [SDR++ Multi-Platform SERVER](https://www.youtube.com/watch?v=Umr8OA62AKA)
-    * [GitHub: AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus)
+  * [SDR++ Multi-Platform SERVER](https://www.youtube.com/watch?v=Umr8OA62AKA)
+  * [GitHub: AlexandreRouma/SDRPlusPlus](https://github.com/AlexandreRouma/SDRPlusPlus)
 * CubicSDR
-    * [CubicSDR](https://cubicsdr.com/)
+  * [CubicSDR](https://cubicsdr.com/)
 * Gqrx SDR
-    * [Gqrx SDR](https://gqrx.dk/)
+  * [Gqrx SDR](https://gqrx.dk/)
 
 ################################################################################
 
@@ -191,9 +192,9 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 
 * [SOFTWARE DEFINED RADIO FOR ENGINEERS: FREE UNIVERSITY LEVEL TEXT BOOK WITH PLUTOSDR EXAMPLES](https://www.rtl-sdr.com/software-defined-radio-for-engineers-free-university-level-text-book-with-plutosdr-examples/)
 
-    * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
-    * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
-    * [The Scientist & Engineer's Guide to Digital Signal Processing](http://www.analog.com/en/education/education-library/scientist_engineers_guide.html)
+  * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
+  * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
+  * [The Scientist & Engineer's Guide to Digital Signal Processing](http://www.analog.com/en/education/education-library/scientist_engineers_guide.html)
 
 * [Signals Everywhere](https://signalseverywhere.com/)
 * [Strange Signals? Sigidwiki!](https://hackaday.com/2015/09/11/strange-signals-sigidwiki/)
@@ -294,7 +295,7 @@ A waveform viewer is a software tool for viewing a signals waveform.
 YARD Stick One is a sub-1 GHz wireless test tool controlled by your computer from Great Scott Gadgets
 
 * [Review of the YARD Stick One Radio Dongle](https://hackaday.com/2023/03/05/review-of-the-yard-stick-one-radio-dongle/)
-    * [Review: YARD Stick One Sub-1 GHz Wireless Test Tool](https://www.elektormagazine.com/news/yard-stick-one-great-scott-gadgets-sub-1-ghz-wireless-test-tool)
+  * [Review: YARD Stick One Sub-1 GHz Wireless Test Tool](https://www.elektormagazine.com/news/yard-stick-one-great-scott-gadgets-sub-1-ghz-wireless-test-tool)
 * [Hak5 1908 – How to begin hacking with the YARD Stick One](https://www.hak5.org/episodes/hak5-1908-how-to-begin-hacking-with-the-yard-stick-one)
 * [Go Play in the YARD](https://www.sparkfun.com/news/2726)
 * [Executing A Vehicle Keyless Entry Attack](https://hackaday.com/2019/03/30/executing-a-vehicle-keyless-entry-attack/)
@@ -417,9 +418,9 @@ Check out [Listen to the Globe](http://hackaday.com/2017/01/02/listen-to-the-glo
 
 * [SOFTWARE DEFINED RADIO FOR ENGINEERS: FREE UNIVERSITY LEVEL TEXT BOOK WITH PLUTOSDR EXAMPLES](https://www.rtl-sdr.com/software-defined-radio-for-engineers-free-university-level-text-book-with-plutosdr-examples/)
 
-    * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
-    * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
-    * [The Scientist & Engineer's Guide to Digital Signal Processing](http://www.analog.com/en/education/education-library/scientist_engineers_guide.html)
+  * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
+  * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
+  * [The Scientist & Engineer's Guide to Digital Signal Processing](http://www.analog.com/en/education/education-library/scientist_engineers_guide.html)
 
 * [hardware devices for cheap SDR receivers](https://github.com/IgrikXD/Easy-SDR)
 
@@ -464,12 +465,12 @@ Another excellent source is [Radio for Everyone][60].
 
 * [60 RTL-SDR Dongles Reviewed](https://hackaday.com/2017/09/05/19-rtl-sdr-dongles-reviewed/)
 * [The Libre Space Foundation Reviews Software Defined Radios](https://hackaday.com/2020/04/08/the-esa-reviews-software-defined-radios/)
-    * [Libre Spacew Foundation](https://libre.space/)
+  * [Libre Spacew Foundation](https://libre.space/)
 * [An Introductory Project for Software Defined Radio](https://www.allaboutcircuits.com/projects/an-introductory-project-for-software-defined-radio/?utm_source=All+About+Circuits+Members&utm_campaign=e01676fafa-EMAIL_CAMPAIGN_2017_02_08&utm_medium=email&utm_term=0_2565529c4b-e01676fafa-270523833/)
 * [Buy RTL-SDR Dongles](http://www.rtl-sdr.com/buy-rtl-sdr-dvb-t-dongles/)
 * [Getting Started with RTL-SDR and SDR-Sharp](https://cdn-learn.adafruit.com/downloads/pdf/getting-started-with-rtl-sdr-and-sdr-sharp.pdf)
 * [CubicSDR](https://cubicsdr.com/)
-    * [SDR For Beginners - Listening To GMRS Or Ham On SDR & Basic Overview Of SDR Using CubicSDR Software](https://www.youtube.com/watch?v=9PzvGyBWeHM)
+  * [SDR For Beginners - Listening To GMRS Or Ham On SDR & Basic Overview Of SDR Using CubicSDR Software](https://www.youtube.com/watch?v=9PzvGyBWeHM)
 * [RTLSDR4Everyone: The best RTL-SDR setup for $60](http://www.rtl-sdr.com/rtlsdr4everyone-the-best-rtl-sdr-set-up-for-60/)
 * [RTL_SDR Blog V3 Dongles User Guide](http://www.rtl-sdr.com/rtl-sdr-blog-v-3-dongles-user-guide/)
 * [The Hobbyist's Guide to the RTL-SDR: Really Cheap Software Defined Radio](https://www.amazon.com/gp/product/B00KCDF1QI/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00KCDF1QI&linkCode=as2&tag=book0674-20&linkId=RSP53QLYXP4IS32X)
@@ -618,8 +619,8 @@ and now even has a script to allow you to start it automatically.
 * [Building A LoRa PHY With SDR](http://hackaday.com/2016/11/18/building-a-lora-phy-with-sdr/)
 * [WSPR reception setup using RTL-SDR dongle V3](https://docs.google.com/document/d/10_xEGW_tdC7LhA-5_UE7ZmgMfPv4ySvz6DQrv02X4ek/mobilebasic)
 * GPS
-    * [RTL-SDR Tutorial: GPS Decoding and Plotting](http://www.rtl-sdr.com/rtl-sdr-tutorial-gps-decoding-plotting/)
-    * [Writing A GPS Receiver From Scratch](https://hackaday.com/2025/03/18/writing-a-gps-receiver-from-scratch/)
+  * [RTL-SDR Tutorial: GPS Decoding and Plotting](http://www.rtl-sdr.com/rtl-sdr-tutorial-gps-decoding-plotting/)
+  * [Writing A GPS Receiver From Scratch](https://hackaday.com/2025/03/18/writing-a-gps-receiver-from-scratch/)
 
 
 # Radio Telescope
@@ -627,10 +628,10 @@ and now even has a script to allow you to start it automatically.
 * [Listen to the Sun, Saturn, and the Milky Way with Your Own Radio Telescope](https://hackaday.com/2016/09/28/listen-to-the-sun-saturn-and-the-milky-way-with-your-own-radio-telescope/)
 * [Radio Telescopes Horn In With GNU Radio](https://hackaday.com/2019/01/20/radio-telescopes-horn-in-with-gnu-radio/)
 * DYI Radio Telescope
-    * [DIY Radio Telescope Version 2: Wifi vision - Part 1](https://www.youtube.com/watch?v=o6WHhqDHSQ4)
-    * [DIY Radio Telescope V2: Wifi Vision - Part 2](https://www.youtube.com/watch?v=VABeN4uv03s)
-    * [Building a Camera That Can See Wifi | Radio Telescope V2 - Part 3 SUCCESS!](https://www.youtube.com/watch?v=g3LT_b6K0Mc&feature=youtu.be)
-    * [This Camera Can SEE WiFi](https://www.youtube.com/watch?v=zijQUOHOshY&t=765s)
+  * [DIY Radio Telescope Version 2: Wifi vision - Part 1](https://www.youtube.com/watch?v=o6WHhqDHSQ4)
+  * [DIY Radio Telescope V2: Wifi Vision - Part 2](https://www.youtube.com/watch?v=VABeN4uv03s)
+  * [Building a Camera That Can See Wifi | Radio Telescope V2 - Part 3 SUCCESS!](https://www.youtube.com/watch?v=g3LT_b6K0Mc&feature=youtu.be)
+  * [This Camera Can SEE WiFi](https://www.youtube.com/watch?v=zijQUOHOshY&t=765s)
 * [The Tiny Radio Telescope](https://hackaday.com/2016/07/31/the-tiny-radio-telescope/)
 * [Probe The Galaxy On A Shoestring With This DIY Hydrogen-Line Telescope](https://hackaday.com/2019/09/29/probe-the-galaxy-on-a-shoestring-with-this-diy-hydrogen-line-telescope/)
 * [A Miniature Radio Telescope In Every Backyard](https://hackaday.com/2019/10/22/a-miniature-radio-telescope-in-every-backyard/)
@@ -665,10 +666,10 @@ Transmit radio signals using just a serial port
 * [RadioSonde Auto RX: How To Install Radiosonde_Auto_RX from a Prebuilt Image](https://rrc.org.au/2021/08/15/auto_rx-prebuilt-image/)
 * [STM32 Development Boards (literally) Falling From The Sky](https://www.youtube.com/watch?v=YBy-bXEWZeM&t=1s)
 
-    * [Global Wind Speed](https://earth.nullschool.net/)
-    * [sondehub](https://sondehub.org/)
-    * [tracker sondehub](https://sondehub.org/)
-    * [RS41 RADIOSONDE TRACKING SOFTWARE](https://www.rtl-sdr.com/rs41-radiosonde-tracking-software/)
+  * [Global Wind Speed](https://earth.nullschool.net/)
+  * [sondehub](https://sondehub.org/)
+  * [tracker sondehub](https://sondehub.org/)
+  * [RS41 RADIOSONDE TRACKING SOFTWARE](https://www.rtl-sdr.com/rs41-radiosonde-tracking-software/)
 
 * [quicky intro to sdr](http://hackaday.com/2016/05/30/hackaday-dictionary-software-defined-radio-sdr/)
 * [Open source SDR board teams up with Snappy Ubuntu](http://linuxgizmos.com/open-source-sdr-sbc-runs-snappy-ubuntu-on-cyclone-v/)
@@ -677,9 +678,9 @@ Transmit radio signals using just a serial port
 
 * [Pluto Might Not Be A Planet, But It Is An SDR Transceiver](https://hackaday.com/2020/04/14/pluto-might-not-be-a-planet-but-it-is-an-sdr-transceiver/)
 * [SOFTWARE DEFINED RADIO FOR ENGINEERS: FREE UNIVERSITY LEVEL TEXT BOOK WITH PLUTOSDR EXAMPLES](https://www.rtl-sdr.com/software-defined-radio-for-engineers-free-university-level-text-book-with-plutosdr-examples/)
-    * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
-    * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
-    * [The Scientist & Engineer's Guide to Digital Signal Processing](http://www.analog.com/en/education/education-library/scientist_engineers_guide.html)
+  * [Software-Defined Radio for Engineers](http://www.analog.com/en/education/education-library/software-defined-radio-for-engineers.html)
+  * [Software Defined Radio for Engineers: A practical guide to the wireless physical layer](https://sdrforengineers.github.io)
+  * [The Scientist & Engineer's Guide to Digital Signal Processing](http://www.analog.com/en/education/education-library/scientist_engineers_guide.html)
 * [Cyberspectrum SDR Meetup](https://kb.ettus.com/Cyberspectrum)
 * [Gqrx SDR](http://gqrx.dk/)
 * [csdr - build DSP processing chains by shell pipes](https://github.com/simonyiszk/csdr)
@@ -1035,7 +1036,7 @@ from the [2012 ARRL TAPR DCC](https://www.tapr.org/conf_dcc2012.html).
 * [SDR and GNU Radio for Microwave](http://ntms.org/files/CowtownHamfestJan2019/CowtownHamfest_Jan2019_SDR_GNU_Radio_BobN5BRG.pdf)
 
 * [FM radio RDS data extraction with RFtap and Wireshark](https://blog.adafruit.com/2024/07/16/fm-radio-rds-data-extraction-with-rftap-and-wireshark/)
-    * [What is RFtap?](https://rftap.github.io/)
+  * [What is RFtap?](https://rftap.github.io/)
 
 So rich example of GNURadio being used"
 

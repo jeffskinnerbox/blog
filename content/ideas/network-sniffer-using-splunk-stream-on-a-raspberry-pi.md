@@ -23,6 +23,7 @@ Version:      0.0.0
 
 
 # What is Splunk? Splunking?
+
 What do you do when you need information about the state of a machine, devices, or software?
 You look at its log files ... Splunk is Google for log files.
 It does a lot more but log processing is still at the product’s core.
@@ -43,6 +44,7 @@ Documentation:
 * [Splunk Documentation](http://docs.splunk.com/Documentation)
 
 ## Open Source Alternative: ELK Stack
+
 Splunk was the first log analysis software, and market leader,
 but there is an open-source alternative called [ELK Stack][08].
 ELK stands for [Elasticsearch][11], [Logstash][12], and [Kibana][13]
@@ -56,14 +58,17 @@ but the value extraction is easier at the end.
 Check out the article: ["Splunk and the ELK Stack: A Side-by-Side Comparison"][15].
 
 ## Splunk Tutorial Data
-https://docs.splunk.com/Documentation/Splunk/6.5.2/PivotTutorial/GetthetutorialdataintoSplunk
+
+<https://docs.splunk.com/Documentation/Splunk/6.5.2/PivotTutorial/GetthetutorialdataintoSplunk>
 
 ## Splunk Datasets
+
 * [About Datasets](http://docs.splunk.com/Documentation/Splunk/7.1.0/Knowledge/Aboutdatasets)
 * [Using Datasets in Splunk](https://www.function1.com/2017/04/using-datasets-in-splunk)
 * [Splunk Datasets Add-on](https://splunkbase.splunk.com/app/3245/#/overview)
 
 ## Splunk Indexer
+
 Splunk indexer is one of the most important splunk component.
 As the name suggests, indexer collects logs and process those for creating searchable data.
 Same as any book index, it create index for all data items from your environment.
@@ -80,6 +85,7 @@ For aditional information, check out:
 * [Indexes, indexers, and indexer clusters](http://docs.splunk.com/Documentation/Splunk/7.1.0/Indexer/Aboutindexesandindexers)
 
 ## Splunk's Search Processing Language (SPL)
+
 The Search & Reporting App is the primary interface for using the Splunk
 software to run searches, save reports, and create dashboards.
 For searching, you can just use simple search terms, like a username,
@@ -88,7 +94,7 @@ But Splunk’s Search Processing Language (SPL) offers a lot more.
 SPL is a powerful tool for sifting through vast amounts of data
 and performing statistical operations on what is relevant in a specific context.
 
-* http://docs.splunk.com/Documentation/Splunk/7.1.0/SearchTutorial/WelcometotheSearchTutorial
+* <http://docs.splunk.com/Documentation/Splunk/7.1.0/SearchTutorial/WelcometotheSearchTutorial>
 * [SPL: Search Processing Language](https://intellipaat.com/tutorial/splunk-tutorial/spl-search-processing-language/)
 * [Search command quick reference table](http://docs.splunk.com/Documentation/Splunk/latest/SearchReference/ListOfSearchCommands)
 * [Machine Learning Toolkit quick referance table](https://www.splunk.com/pdfs/solution-guides/machine-learning-quick-ref-guide.pdf)
@@ -102,6 +108,7 @@ and performing statistical operations on what is relevant in a specific context.
 ```
 
 # Splunk Stream
+
 Splunk Stream captures real-time streaming network data
 and performs packet analysis at layer 4 (TCP, UDP)
 as well as many layer 7 applications (HTTP, DNS, etc.).
@@ -118,49 +125,57 @@ Unfortunately, it does not support the breadth of other applications as with Int
 * [How to Stream Internet of Things Data into Splunk in Ten Easy Steps!](https://www.splunk.com/blog/2014/01/22/connect-splunk-to-the-internet-of-things-in-ten-easy-steps.html)
 
 # Splunk IoT
-* https://www.splunk.com/view/SP-CAAAH5T
+
+* <https://www.splunk.com/view/SP-CAAAH5T>
 
 # Splunk Platform
-https://www.splunk.com/en_us/download.html
+
+<https://www.splunk.com/en_us/download.html>
 
 ## Splunk Universal Forwarder
 
 
 ## Splunk HTTP Event Collector (HEC)
+
 * [Introduction to Splunk HTTP Event Collector](http://dev.splunk.com/view/event-collector/SP-CAAAE6M)
 * [HTTP Event Collector, your DIRECT event pipe to Splunk 6.3](https://www.splunk.com/blog/2015/10/06/http-event-collector-your-direct-event-pipe-to-splunk-6-3.html)
 * [Ingest Data with One Tool from Twitter to OPC, Node-RED](https://www.splunk.com/blog/2017/12/04/ingest-data-with-one-tool-from-twitter-to-opc-node-red.html)
 
 ## Splunk Insights for Infrastructure
-https://www.splunk.com/en_us/resources/video.40bW03ZjE6PdKzdcgiuT8bCr8mjvtuzS.html
+
+<https://www.splunk.com/en_us/resources/video.40bW03ZjE6PdKzdcgiuT8bCr8mjvtuzS.html>
 
 ## Splunk Apps and Add-Ons
+
 Splunk supports over 1000 apps and add-ons that can extend the Splunk platform.
 To get these Apps & Add-On, goto [SplunkBase][02] and browse.
 
 Apps are dashboards and search scripts to address specific need.
 
-* https://www.splunk.com/en_us/products/apps-and-add-ons.html
+* <https://www.splunk.com/en_us/products/apps-and-add-ons.html>
 * [Splunk Dashboard Examples](https://splunkbase.splunk.com/app/1603/)
 * [Splunk Datasets Add-on](https://splunkbase.splunk.com/app/3245/#/overview)
 
 ## Splunk Machine Learning
+
 * [Introducing the Splunk Machine Learning Toolkit Version 3.3](https://www.splunk.com/content/splunk-blogs/en/2018/06/20/introducing-the-splunk-machine-learning-toolkit-version-3-3.html)
 * [Machine Learning Toolkit quick referance table](https://www.splunk.com/pdfs/solution-guides/machine-learning-quick-ref-guide.pdf)
 
 ### Splunk Stream
+
 Splunk Stream is the purpose-built wire data collection and analytic solution from Splunk. Passively capture packets, dynamically detect application, parse the protocol, and send metadata back to your Indexer for over 30 protocols. Detection only for over 300 commercial protocols, even if encrypted.
 
 Targeted full packet capture to NAS for forensic investigation of raw packets. Aggregate data using familiar SPL aggregation methods to reduce the volume of data indexed. Capture Flow-type records, including NetFlow v5, v9, jFlow, and sFlow, and IPFIX, and send Flow Records directly into your Indexers, with optional filtering and aggregation.
 
 Ingest PCAP files in real-time or on-demand. Create MD5 hashes of file attachments for Threat Intelligence correlations using Splunk ES, and extract and store those reassembled files for forensic or DLP purposes. Parse SQL statements to help understand user intent. Understand IP client-server connections with patent-pending visualization.
 
-* https://www.splunk.com/view/splunk-introduces-the-splunk-app-for-stream/SP-CAAANBR
+* <https://www.splunk.com/view/splunk-introduces-the-splunk-app-for-stream/SP-CAAANBR>
 * [Splunk App for Stream](https://splunkbase.splunk.com/app/1809/)
 * [Splunk App for Stream: How Can You Use Ephemeral Streams?](https://www.splunk.com/blog/2015/02/13/splunk-app-for-stream-how-can-you-use-ephemeral-streams.html)
 
 # Sharktap
-I'd suggest using a Netgear ProSAFE GS105Ev2 switch instead of the Sharktap. Amongst other things the Netgear supports port mirroring, has gigabit and is way cheaper (price, not quality). I have both the Sharktap and the Netgear here and the Sharktap is just gathering dust on a a shelf (it's basically just a Micro 100Mbit Switch Chip with 3 ports and hardwired port mirroring). - https://www.reddit.com/r/raspberry_pi/comments/4461gv/deep_packet_inspection_with_splunk_stream_on_a/
+
+I'd suggest using a Netgear ProSAFE GS105Ev2 switch instead of the Sharktap. Amongst other things the Netgear supports port mirroring, has gigabit and is way cheaper (price, not quality). I have both the Sharktap and the Netgear here and the Sharktap is just gathering dust on a a shelf (it's basically just a Micro 100Mbit Switch Chip with 3 ports and hardwired port mirroring). - <https://www.reddit.com/r/raspberry_pi/comments/4461gv/deep_packet_inspection_with_splunk_stream_on_a/>
 
 * [Throwing Star LAN Tap Pro](https://hakshop.com/products/throwing-star-lan-tap-pro)
 * [Turning a NetGear GS105E into a network monitoring device](https://www.youtube.com/watch?v=G8uAhSZnSnA)
@@ -172,18 +187,20 @@ More precisely, wire data is the information that is communicated in each layer 
 are used to establish connections and do not communicate information).
 
 # Splunk Home Monitor
+
 * [It’s a Family Affair…What’s up with the Family?](https://www.splunk.com/blog/2016/09/25/its-a-family-affair-whats-up-with-the-family.html)
 * [Kamilo Amir on Google+](https://plus.google.com/+KamiloAmir)
 * [Splunk Apps by Kam](http://amiracle19.blogspot.com/)
 * [Splunk app for home | monitor >](https://github.com/amiracle/homemonitor)
 * [“How To Guide”: Splunk Home Monitor for FIOS Routers](https://4dd0p3r470r.wordpress.com/2015/01/31/how-to-splunk-home-monitor-for-fios-routers/)
 * [Setting up Verizon FiOS Router for Home Monitor **UDPATED**](http://amiracle19.blogspot.com/p/setting-up-verizon-fios-router-for-home.html)
-* https://plus.google.com/+KamiloAmir
-* https://github.com/amiracle/homemonitor
-* http://amiracle19.blogspot.com/2015/09/troubleshooting-home-monitor-app.html
+* <https://plus.google.com/+KamiloAmir>
+* <https://github.com/amiracle/homemonitor>
+* <http://amiracle19.blogspot.com/2015/09/troubleshooting-home-monitor-app.html>
 * [Troubleshooting home | monitor > app](http://amiracle19.blogspot.com/2015/09/troubleshooting-home-monitor-app.html)
 
 This video takes you through the setup and configuration of your Verizon FiOS router and an instance of Splunk.
+
 * [Splunk Connected Home Demo](https://www.youtube.com/watch?v=Mm2--RJR56Y)
 * [Network Monitor in 10 minutes with Splunk](https://www.youtube.com/watch?v=HPVlHQjnxYs)
 * [Home Monitor powered by Splunk](https://www.youtube.com/watch?v=pgJ4dtIn5wo)
@@ -191,6 +208,7 @@ This video takes you through the setup and configuration of your Verizon FiOS ro
 * [Home Monitor App for Splunk Explained](https://www.youtube.com/watch?v=cnKQsI-NMfo)
 
 # Learning Splunk
+
 * [Splunk Getting Started](https://www.splunk.com/en_us/resources/getting-started.html)
 * [Splunk Education Videos](https://www.splunk.com/en_us/training/videos/all-videos.html)
 * [Splunk Search Tutorial](http://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/WelcometotheSearchTutorial)
@@ -198,13 +216,15 @@ This video takes you through the setup and configuration of your Verizon FiOS ro
 * [Splunk Apps](https://splunkbase.splunk.com/)
 * [Splunk Quick Reference Guide](https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf)
 
-* https://www.learnsplunk.com/
+* <https://www.learnsplunk.com/>
 
 # Basic Installation and Setup of Splunk
+
 * [Splunk Enterprise Admin Manual](http://docs.splunk.com/Documentation/Splunk/7.1.0/Admin/Howtousethismanual)
 * [Splunk Enterprise Installation Manual](http://docs.splunk.com/Documentation/Splunk/latest/Installation/Whatsinthismanual)
 
 ## Step 1: Installing Splunk Enterprise - DONE
+
 [This video][01] demonstrates the process to installing Splunk Enterprise on Linux.
 I specifically followed these steps:
 
@@ -274,7 +294,7 @@ Welcome to Splunk's Command Line Interface (CLI).
 
 Syntax:
 
-	[command] [object] [-parameter <value> | <value>]... [-uri][-auth]
+ [command] [object] [-parameter <value> | <value>]... [-uri][-auth]
 
       app        specify the app or namespace to run the command; for search, defaults to
                  the Search app
@@ -297,6 +317,7 @@ Syntax:
 ```
 
 ## Step 2: Go to Splunk's Web UI - DONE
+
 Now we need to go to Splunk's browser based UI and
 getting data into Splunk.
 [This video][03] tells you the basics of what needs to be done.
@@ -305,6 +326,7 @@ Within your browser, log into the Splunk UI at `http://desktop:8000`.
 Use the `admin` login and the password you created during the install.
 
 ################################################################################
+
 ```bash
 # check what group we are targetting (answer: adm)
 $ lsl /var/log/auth.log
@@ -320,9 +342,11 @@ splunk : splunk adm
 # to remove splunk user from adm group
 gpasswd -d splunk adm
 ```
+
 ################################################################################
 
 ## Step 3: Validate Splunk is Working (Splunk Log Files) - DONE
+
 You don’t have any data at this point,
 but you can verify that search is working by running a search in the internal index.
 You can do this as follows: Do a search with `index=_internal`.
@@ -337,6 +361,7 @@ Search for errors and warnings by typing: `index=_internal (log_level=error OR l
 >**NOTE**: The underscore in front of internal is how Splunk identifies all of its internal indexes
 
 ## Step 4: Log File Monitoring (aka Data Inputs) - DONE
+
 A core capability of Splunk is its ability to monitor [log files][04]
 and create reports and alerts based on events being logged.
 On Ubuntu Linux, nearly all operating system log files
@@ -355,6 +380,7 @@ where Splunk was installed (`/opt/splunk` in my case).
 Make sure your `.profile` or `.bashrc` file set and exports `SPLUNK_HOME` environmental variable.
 
 ## Step 5: Searching & Reporting - DONE
+
 Splunk comes with the "Searching & Reporting" App pre-installed.
 Go to `splunk>enteprise`  –> `Searching & Reporting`
 (aka `http://desktop:8000/en-US/app/search/search`)
@@ -365,6 +391,7 @@ For more information,
 check out the video "[Basic Search in Splunk Enterprise][06]".
 
 ## Step X: Splunking SSH Bruteforce Login Attempts
+
 I'm most interested in monitoring failed SSH login attempts
 which is logged the file `/var/log/auth.log`.
 Not only do I want to see a list of these events,
@@ -397,6 +424,7 @@ so
 * [How do I keep track of failed SSH log-in attempts?](https://askubuntu.com/questions/178016/how-do-i-keep-track-of-failed-ssh-log-in-attempts)
 
 ## Step X: Install Splunk Add-on for Linux App
+
 Go to `splunk>enterprise` –> `+ Find More Apps`,
 search for "Splunk Add-on for Linux" and then click on "Install".
 Use the login and password you use for the Splunk website,
@@ -405,28 +433,34 @@ and then restart Splunk.
 Now go to `Settings` –> `User interface` –> `Prebuilt panels`
 
 ## Step X: Creating Alerts in Splunk
+
 * [Demo: Creating Alerts in Splunk Light](https://www.splunk.com/en_us/resources/video.dkYmhkdDp_LyfIUJfiSSq4yF8HocSp1d.html)
 
 ## Step X: Dashboards & Visualizations
-https://www.splunk.com/en_us/training/videos/create-dashboard-in-splunk-enterprise.html
+
+<https://www.splunk.com/en_us/training/videos/create-dashboard-in-splunk-enterprise.html>
 
 * [Dashboard Digest Series – Episode 1](https://www.splunk.com/blog/2016/08/29/dashboard-digest-series-episode-1.html)
 * [Dashboard Digest Series: Episode 7 – Iron Splunk](https://www.splunk.com/content/splunk-blogs/en/2018/06/13/dashboard-digest-series-episode-7-iron-splunk.html)
 
 ## Step X: Splunk Health Check
-* http://127.0.0.1:8000/en-US/app/splunk_monitoring_console/monitoringconsole_check
+
+* <http://127.0.0.1:8000/en-US/app/splunk_monitoring_console/monitoringconsole_check>
 
 Search for Splunk errors and warnings by typing: `index=_internal (log_level=error OR log_level=warn*)`.
 
 # Step X: Splunk IoT Example
+
 * [The Coffee Report: Splunk, IoT, and… Coffee?](https://www.hurricanelabs.com/blog/the-coffee-report-splunk-iot-and-coffee)
 
 # Advanced Setup of Splunk
 
 # Step X: Packet Capture File (PCAP)
+
 * [Security Analytics: having fun with Splunk and a packet capture file](https://www.sans.org/reading-room/whitepapers/detection/security-analytics-fun-splunk-packet-capture-file-pcap-34580)
 
 # Step X: Raspberry Pi as a Universal Forwarder / Network Sniffer
+
 * [How do I configure a Splunk Forwarder on Linux?](http://www.laurentmarot.fr/wordpress/?m=20170918)
 * [Raspberry Pi as a Splunk Universal Forwarder to Store-and-Foward Logs](https://stichintime.wordpress.com/category/raspberry-pi/)
 * [Splunk Universal Forwarder for Raspberry Pi](https://www.splunk.com/blog/2013/10/11/introducing-the-splunk-universal-forwarder-for-raspberry-pi.html)

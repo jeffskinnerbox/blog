@@ -28,6 +28,7 @@ check out  ["How To: Install Ubuntu on Chromebook and REMOVE ChromeOS"](https://
 
 
 # Background
+
 <a href="http://www.pcmag.com/article2/0,2817,2470486,00.asp">
     <img class="img-rounded" style="margin: 0px 8px; float: left" title="This Chromebook 2 is thin and light, which is pretty impressive, considering it has a 13.6-inch HD display. The plastic chassis measures just 0.76 by 12.76 by 8.4 inches (HWD) and weighs only 2.95 pounds." alt="chromebook picture" src="{filename}/images/toshiba-chromebook-linux.jpg" width="250" height="250" />
 </a>
@@ -84,6 +85,7 @@ In this case, you have two operating systems concurrently operating.
 1. And maybe the best answer is [Crostini][10]. Think of this as a more secure and Google supported version of Crouton.
 
 ### Crouton
+
 [Crouton][103] appears to be the first well received & supported way of running another OS on top of Chrome OS.
 Crouton [chroot environment][75] to run both Chrome OS and Ubuntu at the same time.
 Chroot is an operation that changes the apparent root directory
@@ -97,6 +99,7 @@ comes with a [rich set of options][51].
 via [ARC Welder][54].)
 
 ### Crostini
+
 [Project Crostini][104] appears to be Google's response the
 grass root community of Chromebook user's effort to support Linux, such as Crouton.
 In May of 2018, [Google announced Chrome OS is getting Linux support][97].
@@ -116,6 +119,7 @@ was support without the need for a hack like Crouton
 which makes the Chromebook no longer the “secure” machine that it was designed to be).
 
 # Quick Chromebook Introduction
+
 You can find thousands of apps for the Chromebook on the web
 to do things like create documents, edit photos, and listen to music in the browser.
 Google has provided a recommendation list at the sites like
@@ -131,6 +135,7 @@ And the there many handy features/capabilities like
 "[How To Run Android Apps on Your Chromebook][87]".
 
 ## Chromebook as a Development Environment
+
 I'm not the first to consider the Chromebook as an alternative development environment.
 In fact, Martin Malinda's posting
 Ultimate guide for Web Development on Chromebook —
@@ -147,6 +152,7 @@ I will not cover that here, but you can learn more about it at
 DevTools can also optimize your workflow and make life easier.
 
 ## Working with Chromebook / Chrome Browser
+
 Switching from a PC to a Chromebook comes with a few adjustments.
 For one, you’ll need to have access to a WiFi signal for most Chrome apps to function.
 Also, the Chromebook doesn't have a standard PC keyboard (e.g. no Page Up / Down keys).
@@ -163,6 +169,7 @@ put "`about:about`" in the Chrome browsers commandline.
 There is even [experimental features][28] offered by Chrome via `chrome://flags`.
 
 ## Working With Chrome OS
+
 Chromebooks are foundationally different from traditional PCs,
 and there are a [lot of misconceptions][66]
 about how they work and what they can and cannot do.
@@ -181,6 +188,7 @@ check out the following:
 * [11 tips to get the most out of your Chromebook][50]
 
 ## Crosh
+
 [Crosh][89] is a shell environment known as “Chrome Shell”
 that is provided with Chrome OS.
 Crosh allows users to run [several commands][65] directly from Chrome OS.
@@ -233,6 +241,7 @@ When clicked, this app opens a new crosh window without any chrome browser,
 but pressing `Ctrl`+`Alt`+`T` still brings up crosh in the Chrome browser.
 
 # How to Lock Your Chromebook
+
 The long battery life on a Chromebook means you can close the lid,
 put it to one side, return a few days later, open and resume.
 You don’t even have to log back in,
@@ -242,11 +251,13 @@ But the benefit of this is outweighed by good security/privacy practice.
 * [How To Make Your Chromebook Ask for Password on Wake](https://www.omgchrome.com/make-chromebook-lock-lid-closed/)
 
 ## Chromebook Screen Lock
+
 Chromebook Screen Lock option
 
 * [Unlock your Chromebook with your Android phone](https://support.google.com/chromebook/answer/6070209?hl=en)
 
 ## Chromebook Smart Lock
+
 You can use the [Smart Lock feature][116] on your Android phone
 to enable Smart Lock on your Chromebook.
 With this feature turned on,
@@ -259,10 +270,12 @@ so they can communicate through your Google account.
 * [How to unlock your Chromebook using your Android phone with Smart Lock](https://www.androidcentral.com/unlock-your-chromebook-using-your-android-phone-smart-lock)
 
 ## Google Assistant on a Chromebook
+
 * [How to enable Google Assistant on a Chromebook](https://www.xda-developers.com/enable-google-assistant-chromebook-chrome-os/)
 * [Google Assistant Arrives In Chrome OS Dev Update](https://chromeunboxed.com/news/chromebook-developer-channel-google-assistant)
 
 ## ChromeOS Containers
+
 * [Getting Started with ChromeOS Containers via Project Crostini](https://kmyers.me/blog/chromeos/getting-started-with-chromeos-containers-via-project-crostini/)
 
 -----
@@ -272,6 +285,7 @@ so they can communicate through your Google account.
 * [Tutorial: Backup your Chrome OS Crostini Container to a remote server](https://kmyers.me/blog/chromeos/tutorial-backup-your-chrome-os-crostini-container-to-a-remote-server/)
 
 # Crostini
+
 Take a close look at Google's [Crostini project][104],
 and it reveals that [Crostini runs a Linux VM (virtual machine) on Chrome OS][102].
 So to run the current version of Crostini requires a
@@ -290,6 +304,7 @@ Check out these sources to find out more about Crostini:
 * [Reddit Crostini Wiki](https://www.reddit.com/r/Crostini/wiki/index)
 
 ## The Linux Install with Crostini
+
 Crostini allows a full Linux virtual machine environment to run in safe,
 sandboxed containers within Chrome OS.
 There’s no need to use the less secure Developer Mode, with Crouton, for this.
@@ -322,6 +337,7 @@ Check out these sources to find out more details on installing Crostini and runn
 * [How to Get Access to Experimental Features in Chrome (and on Chromebooks)](https://www.howtogeek.com/179070/how-to-get-access-to-experimental-features-on-your-chromebook-or-just-in-chrome/)
 
 ### Step 0: Checking Compatibility - DONE
+
 [Linux support, via Crostini, is available in the latest stable version of Chrome OS][105],
 including my [Acer Chromebook 14 CB3-431][1010].
 Google doesn’t seem to have published a definitive list of supported Chromebooks,
@@ -336,6 +352,7 @@ If not, hit the **Check for updates** button, let the image download
 (I updated to verison 70.0.3538.58) and reboot as required.
 
 ### Step 1: Modify Chromebook Channel and Settings - DONE
+
 Next we switch Chromebook channels and enable experimental features.
 Google and others provides documetnation on how to [switch between Stable/Beta/Dev channels][106]
 and [experimental features][108].
@@ -368,6 +385,7 @@ Open Chrome OS' built-in shell, crosh; then run this shell command `vmc start te
 (yes, leave the 'l' off on the word "terminal").
 
 ### Step X: Install Packages
+
 With the prep work done, it's finally time to install Linux applications.
 
 ```bash
@@ -496,28 +514,35 @@ pyenv rehash
 ```
 
 ## Step X: Download Anaconda
+
 Anaconda is an open source package that will let us run Python. Go to the website and download the Linux version.
 
 Make sure to click the button for the 64-BIT INSTALLER so we can install Python 3.7. This might take a while to download depending on your internet connection.
 
-* https://wsvincent.com/install-python3-chromebook/
+* <https://wsvincent.com/install-python3-chromebook/>
 
-### Step X:
-* https://www.reddit.com/r/Crostini/wiki/index#wiki_how-to_pages
-* https://www.reddit.com/r/Crostini/wiki/getstarted/crostini-setup-guide
+### Step X
 
-### Step X:
+* <https://www.reddit.com/r/Crostini/wiki/index#wiki_how-to_pages>
+* <https://www.reddit.com/r/Crostini/wiki/getstarted/crostini-setup-guide>
+
+### Step X
+
 ### Step X: Restarting Crostini Terminal
+
 * [Crostini Terminal app doesn't work after rebooting](https://bugs.chromium.org/p/chromium/issues/detail?id=840151)
 
 ### Step X: How to Reset Everything
+
 * [How to reset everything](https://www.reddit.com/r/Crostini/comments/8ddx2l/question_how_to_reset_everything/)
 
 ### Step X: Backup your Chrome OS Crostini Containers
+
 * [Tutorial : Backup your Chrome OS Crostini Container to a remote server](https://kmyers.me/blog/chromeos/tutorial-backup-your-chrome-os-crostini-container-to-a-remote-server/)
 
 ### Step X: How to Install and Use the Gnome Software Center on Chrome OS
-* https://www.howtogeek.com/363331/how-to-set-up-and-use-linux-apps-on-chrome-os/
+
+* <https://www.howtogeek.com/363331/how-to-set-up-and-use-linux-apps-on-chrome-os/>
 
 Installing the Gnome Software Center
 is no different than installing any other app with `apt-get`.
@@ -530,21 +555,26 @@ sudo apt-get install gnome-software gnome-packagekit
 
 Again, hit “Y” when prompted to install the software. It will download all the necessary files to install the Software Center, which will then show up as “Software” in the app drawer.
 
-### Step X:
-### Step X:
-### Step X:
+### Step X
+
+### Step X
+
+### Step X
 
 ### Step X: Startup After Shutdown
 
 ### Step X: How To Reset Crostini to Default
-* https://www.reddit.com/r/Crostini/wiki/getstarted/crostini-setup-guide
+
+* <https://www.reddit.com/r/Crostini/wiki/getstarted/crostini-setup-guide>
 
 ### Folder Sharing
+
 * [Google Will Improve Linux in Chrome OS with Folder Sharing and More](https://www.extremetech.com/computing/279219-google-will-improve-linux-in-chrome-os-with-folder-sharing-and-more)
 
 -----
 
 # Chrome OS v69 stable introduces Linux app compatibility
+
 Starting with version 69, Chrome OS users can use Linux applications. This is a game changer for Chrome OS, as it opens a massive catalog of available software.
 Chrome OS 69 hit the stable channel around mid-September 2018.
 
@@ -557,6 +587,7 @@ Chrome OS 69 hit the stable channel around mid-September 2018.
 -----
 
 # Crouton
+
 The Crouton script allows you to install components of some Linux distributions,
 right inside Chrome OS — no need for dual-booting here.
 Crouton stands for Chromium OS Universal Chroot Environment
@@ -584,18 +615,19 @@ at the Linux command line (more about this below).
 Check out these sources to find out more about Crouton:
 
 * What is Crouton
-    * [Crouton]( https://chromebook.guide/crouton/)
-    * [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
-    * [Chromebook basic tweaks and tips for Crouton](https://fuyuko.net/chromebook-basic-tweaks-and-tips-for-crouton/)
+  * [Crouton]( https://chromebook.guide/crouton/)
+  * [Crouton Command Cheat Sheet](https://github.com/dnschneid/crouton/wiki/Crouton-Command-Cheat-Sheet)
+  * [Chromebook basic tweaks and tips for Crouton](https://fuyuko.net/chromebook-basic-tweaks-and-tips-for-crouton/)
 * Installing Crouton and Linux
-    * [Tutorial: Install Ubuntu on a Chromebook](https://insights.ubuntu.com/2018/01/30/tutorial-install-ubuntu-on-a-chromebook)
-    * [How to Install and Run Linux on a Chromebook](https://www.lifewire.com/install-linux-on-chromebook-4125253)
-    * [How to install Linux on a Chromebook (and why you should)][103]
+  * [Tutorial: Install Ubuntu on a Chromebook](https://insights.ubuntu.com/2018/01/30/tutorial-install-ubuntu-on-a-chromebook)
+  * [How to Install and Run Linux on a Chromebook](https://www.lifewire.com/install-linux-on-chromebook-4125253)
+  * [How to install Linux on a Chromebook (and why you should)][103]
 * Crouton Extensions
-    * [Crouton Integration](https://chrome.google.com/webstore/detail/crouton-integration/gcpneefbbnfalgjniomfjknbcgkbijom)
-    * [Crouton Clipboard]( https://chrome.google.com/webstore/detail/crouton-clipboard/jipofmbanedhjnpooojdeeddanhfljif)
+  * [Crouton Integration](https://chrome.google.com/webstore/detail/crouton-integration/gcpneefbbnfalgjniomfjknbcgkbijom)
+  * [Crouton Clipboard]( https://chrome.google.com/webstore/detail/crouton-clipboard/jipofmbanedhjnpooojdeeddanhfljif)
 
 ## Update a Crouton Chroot
+
 When a new version of Crouton comes out,
 the software in your chroot will be outdated.
 It won’t automatically update itself, but you can update it fairly quickly.
@@ -609,6 +641,7 @@ sudo sh ~/Downloads/crouton -u -n xenial
 ```
 
 ## Managing Crouton
+
 Unlike the Chromebook itself,
 whe a new version of Crouton comes out,
 the software in your chroot will not automatically update itself.
@@ -643,11 +676,13 @@ It covers things like backing up the chroot, creating multiple chroots,
 deleting a chroot, etc.
 
 ## Switching Between Crouton and ChromeOS
+
 You can switch between your Crouton session and ChromeOS by using four keys:
 `CTRL`+`ALT`+`SHIFT`+`→` (the left or right arrow key on the top row of your keyboard).
 Left or right arrow will toggle you between Crouton / ChromeOS session.
 
 ## Printing with Chromebook
+
 So how do you print on a Chromebook?
 You use [Google Cloud Print][59].
 Some new printers support Google Cloud Print,
@@ -658,6 +693,7 @@ accessible to Google Cloud Print.
 Don’t try to plug your printer directly into your Chromebook, though — that won’t work.
 
 ## Chromebook Backup
+
 The [Github Wiki for Crouton][49] provides a very complete description of making backups.
 The command below should get started quickly on do a Crouton chroot backup,
 but its wise to read the wiki.
@@ -681,9 +717,9 @@ and make sure no other chroot intances are running.
 *[How to sync Google Drive from the command line on Linux](http://xmodulo.com/how-to-sync-google-drive-from-the-command-line-on-linux.html)
 
 Push the file to Google Drive
-http://www.howtogeek.com/196635/an-official-google-drive-for-linux-is-here-sort-of-maybe-this-is-all-well-ever-get/
+<http://www.howtogeek.com/196635/an-official-google-drive-for-linux-is-here-sort-of-maybe-this-is-all-well-ever-get/>
 
-https://developers.google.com/drive/v2/reference/files/insert
+<https://developers.google.com/drive/v2/reference/files/insert>
 
 ```bash
 # move to the directory where you want the backup saved
@@ -716,6 +752,7 @@ sudo sh ~/Downloads/crouton -f backupfile.tar.gz
 ```
 
 # The Linux Install with Crouton
+
 I choose to use the [Crouton method][03], which is a set of scripts,
 to use the Linux command chroot ([Change Root][13]) to simultaneously
 run a Linux operating system alongside Chrome OS.
@@ -734,7 +771,7 @@ I'm also going to install two different X window managers,
 While both are not necessary, they are very different and suited for different needs.
 You have a command line choose for which one you wish to start with Linux.
 
-If you need to know what Crostini can and can't do for developing before purchasing, see the open-source Chromium project page on containers and Crostini, which should answer all the questions you may have on this subject. - https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md
+If you need to know what Crostini can and can't do for developing before purchasing, see the open-source Chromium project page on containers and Crostini, which should answer all the questions you may have on this subject. - <https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md>
 
 * The **offical** Ubuntu on Chromebook - [How to install Ubuntu Linux on a Chromebook: An official Canonical tutorial](https://betanews.com/2018/01/30/install-ubuntu-chromebook/)
 * [Running Linux on a Chromebook: How to Install & Get the Best of Both Worlds](https://www.techspot.com/guides/1509-how-to-run-linux-chromebook/)
@@ -742,6 +779,7 @@ If you need to know what Crostini can and can't do for developing before purchas
 * [Chrome OS Stable Channel Gets Linux Apps](https://www.linuxjournal.com/content/chrome-os-stable-channel-gets-linux-apps)
 
 ## Step 0: Inttialize Your Chromebook - DONE
+
 If your dealing with a new Chromebook or an established Chromebook,
 make sure to do the following:
 
@@ -764,6 +802,7 @@ Open the app and follow the instructions to create the recovery drive.
 All you need is working Internet and a USB drive with at least 4GB space.
 
 ## Step 1: Putting the Chromebook into Developer Mode - DONE
+
 Putting Chromebook into “[Developer Mode][19]” will give you full root access,
 including the ability to modify your Chromebook’s system files.
 [Entering Developer Mode is a little different depending on the manufacturer][16].
@@ -793,8 +832,9 @@ You’ll have to log into it with your Google account again, but everything will
 be back to its normal, locked-down state.
 
 ## Step 2: Download and Install Crouton - DONE
+
 Per the Crouton Github repository,
-you can grab the latest Crouton release from https://goo.gl/fd3zc.
+you can grab the latest Crouton release from <https://goo.gl/fd3zc>.
 Crouton is a set of scripts that bundle up the installation of
 Ubuntu or Debian OS for the Chromebook.
 All the best documentation is maintained on Github's
@@ -813,6 +853,7 @@ provides much improved integration with Chromium OS
 by putting X11 in a native window.
 
 ## Step 3: Choose a Linux Target, Options, and Install - DONE
+
 While still in the shell from the previous step,
 install you Linux OS onto the Chromebook by
 following the procedures  outline in Step 4 of the article
@@ -940,6 +981,7 @@ and you may want a [Unity desktop][93] experiance, so use this
 # install your Ubuntu Unity Desktop and targets (NOTE: chroot drive not encripted via option -e)
 sudo sh ~/Downloads/crouton -r xenial -t gtk-extra,audio,unity,unity-desktop,x11,xiwi,keyboard,extension,core,cli-extra,chrome
 ```
+
 The above crouton command will download and install Ubuntu from the internet,
 so depending on your internet speeds it may take a while (15 to 25 minutes).
 During the installation, you will prompted for a user name and password for your Ubuntu installation.
@@ -960,6 +1002,7 @@ sudo sh ~/Downloads/crouton -e -r xenial -t gtk-extra,audio,unity,unity-desktop,
 ```
 
 ## Step 4: Test It Out - DONE
+
 While still in the shell from the previous step,
 you can now test out your Ubuntu instance by
 entering your chroot in command-line mode via:
@@ -989,6 +1032,7 @@ concurrently within the Chrome browser tab too!
 > There appeases to be an [issue][77] or maybe [more][78].
 
 ## Step 5: Install Crosh Window - DONE
+
 The [Crosh Window][79] (aka [Chromium OS shell][80]) can be found in the Chrome Web Store.
 Install it on the Chromebook via this [link][79].
 This will give you `chroot` access outside of the Chrome browser tab.
@@ -998,6 +1042,7 @@ run your Ubuntu Unity.
 # Things To Configure and Install Within Ubuntu
 
 ## Step X: Startup Unity Desktop - DONE
+
 Now lets completely back out of the terminal by repeatedly entering `exit`
 until the Chome tabs closes, and we are back to a know state.
 Find the Crosh Window applcation you just installed and fire it up.
@@ -1023,6 +1068,7 @@ or hitting `Ctrl`+`Alt`+`Shift`+`Forward`
 (`Back` and `Forward` are the arrow keys at the top of the Chromebook keyboard).
 
 ## Step X: Establish a Better Terminal and Browser - DONE
+
 After the installation, follow the prompts and set up your Unix account.
 After that, you will be logged into Ubuntu!
 You can start using your favourite OS now, but there were some issues I need to fix.
@@ -1055,6 +1101,7 @@ sudo dpkg-reconfigure locales
 ```
 
 ## Step X: Changing Host Name - DONE
+
 The Linux instance host name will default to `localhost`.
 Change the name of the Linux system to something memerable.
 [This can be changed][64] to something more appropriate, like `chromebook`, via
@@ -1065,6 +1112,7 @@ sudo bash -c "echo 'chromebook' > /etc/hostname"
 ```
 
 ## Step X: Configure My Personal Environment - DONE
+
 I next installed tools and configuration parameter for my login environment:
 
 ```bash
@@ -1110,6 +1158,7 @@ ln -s $HOME/.X/xsessionrc $HOME/.xsessionrc
 >and support for scripting with Lua, Perl, Python, Ruby, and Tcl.
 
 ## Step X: Ubuntu Environment Improvements - DONE
+
 The Ubuntu installed via provides just a few apps
 (file manager, Xterm and a couple more) so let's install some extra applications.
 Open `gnome-terminal` and install them using the following commands:
@@ -1153,6 +1202,7 @@ sudo apt-get install jq hashalot
 ```
 
 ## Step X: Install i3 (Optional) - DONE
+
 * [Running a window manager (i3wm) on stock Chrome OS](https://www.reddit.com/r/Crostini/comments/ean9du/running_a_window_manager_i3wm_on_stock_chrome_os/)
 
 [i3][44] is a [tilling window manager][45] that is configurable, fast, well documented,
@@ -1210,11 +1260,12 @@ to create a window or navigate.
 No worries ... the [i3 window manager is very well documented][96].
 
 ## Step X: Updating the chroot
+
 Ubuntu may stop working after a Chrome OS update. If that's the case,
 update all the installed targets using the following command
 (in Chrome OS, open a terminal using `Ctrl`+`Alt`+`T`, then type "shell"):
 
-http://www.webupd8.org/2013/12/things-to-do-after-installing-ubuntu-on.html
+<http://www.webupd8.org/2013/12/things-to-do-after-installing-ubuntu-on.html>
 
 ```bash
 sudo sh -e ~/Downloads/crouton -u -n xenial
@@ -1223,7 +1274,9 @@ sudo sh -e ~/Downloads/crouton -u -n xenial
 ## Step X: Push Backup to Google Drive
 
 ################################################################################
+
 ## Step X: Install Drop Box
+
 You'll inevitably need to move files into this new environment,
 and you can use `scp` but you may like to use Dropbox.
 The only way I know of getting Dropbox install on an Ubuntu instance is via the
@@ -1232,7 +1285,8 @@ Via the browser,  click on the download button and follow the procedures.
 ################################################################################
 
 # Starting Up Linux and Linux Apps
-crouton in a Chromium OS window (xiwi) - https://github.com/dnschneid/crouton/wiki/crouton-in-a-Chromium-OS-window-(xiwi)
+
+crouton in a Chromium OS window (xiwi) - <https://github.com/dnschneid/crouton/wiki/crouton-in-a-Chromium-OS-window-(xiwi)>
 
 There are several ways to start up your Linux instance on the Chromebook,
 but they all start from the crosh shell.
@@ -1306,10 +1360,11 @@ sudo startxiwi -f xterm
 xiwi -f xterm
 ```
 
-https://support.google.com/chromebook/answer/1047367?hl=en&ref_topic=2589149
-http://blog.laptopmag.com/how-to-right-click-on-a-chromebook
+<https://support.google.com/chromebook/answer/1047367?hl=en&ref_topic=2589149>
+<http://blog.laptopmag.com/how-to-right-click-on-a-chromebook>
 
 ## Xhost / Xauth
+
 The X server will not accept connections from just anywhere.
 You don't want everyone to be able to display windows on your screen or read what you type
 (Someone with access to your display can read and write your screens, read your keystrokes, and read your mouse actions).
@@ -1323,12 +1378,13 @@ If you wish to use remote X on a Debian system, you should re-enable this by alt
 
 finish finish finish finish
 
-http://www.tldp.org/HOWTO/Remote-X-Apps-6.html
-http://users.stat.umn.edu/~geyer/secure.html
-http://serverfault.com/questions/51005/how-to-use-xauth-to-run-graphical-application-via-other-user-on-linux
-http://www.tldp.org/HOWTO/Remote-X-Apps-6.html
+<http://www.tldp.org/HOWTO/Remote-X-Apps-6.html>
+<http://users.stat.umn.edu/~geyer/secure.html>
+<http://serverfault.com/questions/51005/how-to-use-xauth-to-run-graphical-application-via-other-user-on-linux>
+<http://www.tldp.org/HOWTO/Remote-X-Apps-6.html>
 
 ## Aliases
+
 To make this all easier to remember, you could create some aliases'.
 Aliases have to be stored in `~/.bashrc` to persist indefinitely
 (Note `~` is `home/chronos/user`.  Make sure to do `cd` when you enter the shell).
@@ -1367,12 +1423,15 @@ I putting the following in my  `~/.bashrc` file:
 >NOTE: You do your edits of `~/.bashrc` from inside your crosh/shell, edit, not chroot.
 
 ## Linux in a Chromium OS Window
-https://github.com/dnschneid/crouton/wiki/crouton-in-a-Chromium-OS-window-(xiwi)
+
+<https://github.com/dnschneid/crouton/wiki/crouton-in-a-Chromium-OS-window-(xiwi)>
 
 ## Markdown
-https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd
+
+<https://chrome.google.com/webstore/detail/markdown-preview/jmchmkecamhbiokiopfpnfgbidieafmd>
 
 #### Ssh Tunnelling on Chrome OS
+
 To use [ssh tunnelling on Chrome OS][20],
 open the crosh shell by pressing `Ctrl`+`Alt`+`T` anywhere in Chrome OS.
 The shell will open in a browser tab.
@@ -1389,23 +1448,28 @@ I have run had problem getting access to devices running OpenWrt,
 bu there are some [apps you can install that give more full features][73].
 
 ### Linux
+
 Xfce tweaks
 
-* Turn on X11 Forwarding - http://www.webupd8.org/2013/12/things-to-do-after-installing-ubuntu-on.html
+* Turn on X11 Forwarding - <http://www.webupd8.org/2013/12/things-to-do-after-installing-ubuntu-on.html>
 * Make sure the TERM varable is set to the same value as the remote system your logging into (XTERM=xterm-256color)
 * download your .bash, .vim, etc.
 
 
 ## Getting to a Command Prompt
-https://www.chromium.org/chromium-os/poking-around-your-chrome-os-device
+
+<https://www.chromium.org/chromium-os/poking-around-your-chrome-os-device>
 
 ## Chromebook Factory Reset
-http://www.cnet.com/how-to/what-does-it-mean-to-powerwash-a-chromebook/
+
+<http://www.cnet.com/how-to/what-does-it-mean-to-powerwash-a-chromebook/>
 
 ## Run Linux Desktop in Browser Tab
-http://www.howtogeek.com/208368/how-to-run-a-full-linux-desktop-in-a-browser-tab-on-your-chromebook/
+
+<http://www.howtogeek.com/208368/how-to-run-a-full-linux-desktop-in-a-browser-tab-on-your-chromebook/>
 
 ## When Linux Stops Working
+
 Linux may stop working after a Chrome OS update.
 If that's the case, update all the installed targets using the following command
 (in Chrome OS, open a terminal using `Ctrl`+`Alt`+`T`, then type "shell"):
@@ -1421,6 +1485,7 @@ The default chroot name is the codename for the Ubuntu version you've installed
 For example, if you've installed Ubuntu 12.04 Precise, the default chrootname is "precise"
 
 ## Sharing Files Between Chrome OS and Ubuntu Environments
+
 There is not much to do to share the files.
 The folder `Downloads` in each environment contain the same content.
 
@@ -1429,6 +1494,7 @@ The folder `Downloads` in each environment contain the same content.
 – it’s under `/home/username/downloads` using File Manager.
 
 ## Developing on a Chromebook
+
 * [Developing on a Chromebook - Part 1: The Chromebook](http://blog.tomtasche.at/2011/11/developing-on-chromebook-part-1.html)
 * [Developing on a Chromebook - Part 2: Cloud, it's not me, it's you.](http://blog.tomtasche.at/2011/11/developing-on-chromebook-part-2-cloud.html)
 * [Developing on a Chromebook - Part 3: X-Forwarding, or "Eclipse on a Chromebook"](http://blog.tomtasche.at/2012/01/developing-on-chromebook-part-3-x.html)
@@ -1441,6 +1507,7 @@ The folder `Downloads` in each environment contain the same content.
 
 
 # Connecting Chromebook to Ethernet
+
 Wireless internet is great,
 but sometimes you might find yourself in a situation where only
 a physical Ethernet Internet connection will do.
@@ -1451,23 +1518,28 @@ I got the [Rankie SuperSpeed USB 3.0 to RJ45 Gigabit Ethernet Network Adapter - 
 It works fine with my Chomebook's USB 3.0 port and it was just plug and play.
 
 # Chrome Apps to Install
+
 * Ultimate guide for Web Development on Chromebook — [Part 1: Crouton][55] and [Part 2: ChromeOS tricks and workflows][56]
 
 * [Postman][60] is a great utility for testing REST based APIs.
 * [GistBox][81] can access and store code snippets (or "Gists", in their terms) for easy access them from everywhere.
 
 ### Dropbox
-* https://github.com/dnschneid/crouton/wiki/Dropbox
+
+* <https://github.com/dnschneid/crouton/wiki/Dropbox>
 * [How to enable Dropbox integration into the file manager on your Chromebook](http://www.androidcentral.com/how-enable-dropbox-integration-file-manager-your-chromebook?utm_source=related&utm_medium=module&utm_campaign=next)
 
 ### Chrome Remote Desktop
-* http://computers.tutsplus.com/tutorials/use-chrome-remote-desktop-to-access-your-computer-anywhere--cms-21227
+
+* <http://computers.tutsplus.com/tutorials/use-chrome-remote-desktop-to-access-your-computer-anywhere--cms-21227>
 * [Chrome Remote Desktop: The easy way to access a remote computer](https://www.computerworld.com/article/3230909/enterprise-applications/chrome-remote-desktop-access-remote-computer-easily.html)
 
 ### Microsoft Apps
-http://www.omgchrome.com/microsoft-brings-office-online-chrome-web-store/
+
+<http://www.omgchrome.com/microsoft-brings-office-online-chrome-web-store/>
 
 # Run Android App On Chromebook
+
 Eventually, Google hopes, you’ll be able to run potentially millions of Android apps
 within Chrome or Chrome OS once they’re formally ported over.
 But you can get make that vision start to happen today—with a new Google tool called ARC Welder.
@@ -1509,8 +1581,6 @@ But you can get make that vision start to happen today—with a new Google tool 
 [28]:http://beebom.com/2015/10/chrome-flags-guide-to-enhance-web-browsing
 [29]:http://www.pocket-lint.com/news/129107-chromebook-tips-and-tricks-getting-the-most-out-of-your-chrome-os-machine
 [30]:http://www.cnet.com/how-to/15-essential-chrome-os-keyboard-shortcuts/
-[31]:http://www.zdnet.com/article/few-business-takers-yet-but-chromebook-sales-to-grow-7-3-million-this-year/
-[32]:http://www.zdnet.com/article/top-3-holiday-computers-on-amazon-were-chromebooks/
 [33]:https://chrome.google.com/webstore/detail/crosh-window/nhbmpbdladcchdhkemlojfjdknjadhmh?hl=en-US
 [34]:https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo
 [35]:http://www.chromestory.com/Getting_Started_With_Your_Chromebook.pdf
@@ -1539,7 +1609,6 @@ But you can get make that vision start to happen today—with a new Google tool 
 [58]:https://sites.google.com/site/chromeoswikisite/home/what-s-new-in-dev-and-beta/developer-mode
 [59]:http://www.cnet.com/how-to/how-to-print-from-a-chromebook/
 [60]:https://www.getpostman.com/
-[61]:https://chrome.google.com/webstore/detail/gistbox-desktop/pdjgfbgklbmmigkmmdbbhfchdldngkml
 [62]:https://developers.google.com/web/tools/chrome-devtools/
 [63]:https://www.codeschool.com/courses/discover-devtools
 [64]:http://www.ducea.com/2006/08/07/how-to-change-the-hostname-of-a-linux-system/

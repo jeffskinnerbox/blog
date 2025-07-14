@@ -48,6 +48,7 @@ To start, checkout some of the sections with [HowTo: Set-Up the Raspberry Pi as 
 * [HOW TO RUN A PAGEKITE SERVER TO EXPOSE YOUR RASPBERRY PI](https://hackaday.com/2016/09/21/how-to-run-a-pagekite-server-to-expose-your-raspberry-pi/)
 
 # wolfSSL
+
 The [wolfSSL](https://www.wolfssl.com/wolfSSL/Home.html)
 is an open source embedded SSL library (formerly CyaSSL) which is lightweight, portable, C-language-based SSL/TLS library targeted at IoT, embedded, and RTOS environments primarily because of its size, speed, and feature set. It works seamlessly in desktop, enterprise, and cloud environments as well. wolfSSL supports industry standards up to the current TLS 1.3 and DTLS 1.2, is up to 20 times smaller than OpenSSL, offers a simple API, an OpenSSL compatibility layer, OCSP and CRL support,
 
@@ -56,9 +57,11 @@ is an open source embedded SSL library (formerly CyaSSL) which is lightweight, p
 * [Secure Communication With TLS and the Mosquitto Broker](https://dzone.com/articles/secure-communication-with-tls-and-the-mosquitto-broker)
 
 # Web TLS/SSL
+
 * [How To Secure Your Rancher Web App with Let's Encrypt on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-secure-your-rancher-web-app-with-let-s-encrypt-on-ubuntu-16-04)
 
 # Reverse SSH Tunnel – when you cannot SSH to your host
+
 You may be in a restricted network situation (company, hotel, hospital)
 where you have a "server" which you want to access from outside that network.
 You cannot forward ports to access that machine,
@@ -89,6 +92,7 @@ and restart the tunnel if it drops or stops responding.
 * [Autossh Startup Script for Multiple Tunnels](https://surniaulula.com/2012/12/10/autossh-startup-script-for-multiple-tunnels/)
 
 ## Step X: Streaming Camera to the Internet - DONE
+
 So far, using the Raspberry Pi camera module,
 I have streamed video on my local network
 but I wish to do this across the Internet.
@@ -153,21 +157,22 @@ google-chrome http://be4fac06.ngrok.io/?action=stream
 * [How an Attacker Could Crack Your Wireless Network Security](https://www.howtogeek.com/191482/how-an-attacker-could-crack-your-wireless-network-security/)
 
 # Microchip's ATECC508A
+
  many other MCUs) stores those private TLS credentials unprotected on its flash memory. Anybody who has physical access to the device can steal private keys and get access to the cloud.
 
-* CryptoAuth Xplained Pro - http://www.atmel.com/tools/cryptoauthxplainedpro.aspx
+* CryptoAuth Xplained Pro - <http://www.atmel.com/tools/cryptoauthxplainedpro.aspx>
 * [The two-dollar secure IoT solution: Mongoose OS + ESP8266 + ATECC508 + AWS IoT](https://mongoose-os.com/blog/mongoose-esp8266-atecc508-aws/)
-* http://www.cnx-software.com/2017/03/07/secure-iot-connectivity-with-nodemcu-esp8266-board-atecc508a-crypto-chip-mongoose-os-and-aws-iot/
+* <http://www.cnx-software.com/2017/03/07/secure-iot-connectivity-with-nodemcu-esp8266-board-atecc508a-crypto-chip-mongoose-os-and-aws-iot/>
 * [Security Module For Raspberry Pi](https://www.zymbit.com/zymkey/#Cryptosilicon)
-* https://www.youtube.com/watch?v=g1jB11wOQDg
-* http://embeddedblog.blogspot.com/2016/02/atmel-moves-iot-security-into-hardware.html
+* <https://www.youtube.com/watch?v=g1jB11wOQDg>
+* <http://embeddedblog.blogspot.com/2016/02/atmel-moves-iot-security-into-hardware.html>
 
 # Maxim DS28C36
+
 * [MAXAUTHDEMO1 Kit: Demonstrating Cryptographic Hash, Signatures, and Authentication](https://www.maximintegrated.com/en/products/digital/memory-products/MAXAUTHDEMO.html)
 
 
 
-[110]:https://www.theodo.fr/blog/2016/06/expose-your-local-environment-to-the-world-with-ngrok/
 [111]:https://www.sitepoint.com/accessing-localhost-from-anywhere/
 [112]:https://en.wikipedia.org/wiki/Tunneling_protocol
 [113]:https://ngrok.com/docs/2

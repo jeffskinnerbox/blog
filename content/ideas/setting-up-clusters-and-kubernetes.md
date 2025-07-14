@@ -226,10 +226,10 @@ Sources:
 # Project to Test the Cluster: Enigma Machine Brute Force Decryption
 
 * [The Ultimate Hack: Using a Raspberry Pi 5 Cluster to Break the Enigma Code](https://www.youtube.com/watch?v=cIq2AEbYotA)
-    * [py-enigma 0.1](https://pypi.org/project/py-enigma/)
-    * [PyEnigma Documentation](https://py-enigma.readthedocs.io/en/latest/reference.html)
-    * [OctaPi: brute-force Enigma](https://projects.raspberrypi.org/en/projects/octapi-brute-force-enigma/6)
-    * [Breaking the Enigma Code in Python with MCMC (Marvel themed)](https://towardsdatascience.com/breaking-the-enigma-code-in-python-with-mcmc-marvel-themed-9ceb358dd8ae)
+  * [py-enigma 0.1](https://pypi.org/project/py-enigma/)
+  * [PyEnigma Documentation](https://py-enigma.readthedocs.io/en/latest/reference.html)
+  * [OctaPi: brute-force Enigma](https://projects.raspberrypi.org/en/projects/octapi-brute-force-enigma/6)
+  * [Breaking the Enigma Code in Python with MCMC (Marvel themed)](https://towardsdatascience.com/breaking-the-enigma-code-in-python-with-mcmc-marvel-themed-9ceb358dd8ae)
 * [Parallel Examples](https://hpc.llnl.gov/documentation/tutorials/introduction-parallel-computing-tutorial##Examples)
 
 
@@ -298,8 +298,8 @@ Sources:
 
 * [Raspberry Pi OS "Bullseye" Launches, Brings Speed Boost to the Latest Raspberry Pi 4 Models](https://www.hackster.io/news/raspberry-pi-os-bullseye-launches-brings-speed-boost-to-the-latest-raspberry-pi-4-models-b86becec3ae6)
 * [How to know which Raspberry do you have](https://oastic.com/posts/how-to-know-which-raspberry-do-you-have/)
-    * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
-    * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
+  * [Which Pi Do I Have? Includes Pi 4](https://support.pishop.us/article/69-which-pi-do-i-have-includes-pi-4)
+  * [Raspberry Pi 4 Model B - Board Revisions](https://core-electronics.com.au/tutorials/Versions-Raspberry-Pi.html)
 
 
 ## Using Raspberry Pi Zero for Hadoop Cluster
@@ -420,7 +420,7 @@ Sources of inspiration:
 * [Ansible 101 - on a Cluster of Raspberry Pi 2s](https://www.jeffgeerling.com/blog/ansible-101-cluster-raspberry-pi-2s)
 * [A Raspberry Pi based ‘Bramble’ Cluster for Docker Swarm](https://glasstty.com/a-raspberry-pi-based-bramble-cluster-for-docker-swarm/)
 
-    * [A Raspberry Pi based Cluster for use with ipyparallel and MPI](https://glasstty.com/a-raspberry-pi-based-cluster-for-use-with-ipyparallel-and-mpi/)
+  * [A Raspberry Pi based Cluster for use with ipyparallel and MPI](https://glasstty.com/a-raspberry-pi-based-cluster-for-use-with-ipyparallel-and-mpi/)
 
 * [Building a Raspberry Pi cluster with MicroK8s](https://ubuntu.com/blog/building-a-raspberry-pi-cluster-with-microk8s)
 * [How to build a Raspberry Pi Kubernetes cluster using MicroK8s](https://ubuntu.com/tutorials/how-to-kubernetes-cluster-on-raspberry-pi#1-overview)
@@ -534,8 +534,8 @@ One of the advantages of Munin is its vast plugin eco-system. There are several 
 Once data is collected from nodes, it is processed by the master and various graphs are made available on the dashboard. One of the components is – Munin-limits – which monitors the values between configured “ok”, “warn” and “crit” levels and can create a notification for the administrators.
 
 * [Munin](https://munin-monitoring.org/)
-    * [So, what is Munin?](https://subscription.packtpub.com/book/networking_and_servers/9781849696746/1/ch01lvl1sec03/so-what-is-munin)
-    * [Live Demo](http://demo.munin-monitoring.org/)
+  * [So, what is Munin?](https://subscription.packtpub.com/book/networking_and_servers/9781849696746/1/ch01lvl1sec03/so-what-is-munin)
+  * [Live Demo](http://demo.munin-monitoring.org/)
 * [Ansible Role: Munin](https://github.com/geerlingguy/ansible-role-munin)
 * [Ansible Role: Munin Node](https://github.com/geerlingguy/ansible-role-munin-node)
 

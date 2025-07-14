@@ -86,8 +86,8 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 #### Distance Sensor
 
 * [Make A Super Cute LiDAR Measurement Module](https://hackaday.com/2024/06/02/make-a-super-cute-lidar-measurement-module/)
-    * [Ultra Compact LiDAR Distance Meter/Range Finder](https://www.instructables.com/Tiny-LiDAR-Laser-Range-Finder/)
-    * [Inside a VL53L0X](https://hackaday.io/project/25571-mappydot/log/63298-inside-a-vl53l0x)
+  * [Ultra Compact LiDAR Distance Meter/Range Finder](https://www.instructables.com/Tiny-LiDAR-Laser-Range-Finder/)
+  * [Inside a VL53L0X](https://hackaday.io/project/25571-mappydot/log/63298-inside-a-vl53l0x)
 
 * [An Explainer on the Different Types of LiDAR Devices](https://www.crowdsupply.com/onion/tau-lidar-camera/updates/an-explainer-on-the-different-types-of-lidar-devices)
 * [best distance sensor for robots](http://www.teraranger.com/products/teraranger-one/)
@@ -95,9 +95,9 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [RPLIDAR A1M8 - 360 Degree Laser Scanner Development Kit](https://www.dfrobot.com/product-1125.html)
 * [Xaxxon OpenLIDAR Sensor offers open hardware and software](https://www.geeky-gadgets.com/xaxxon-openlidar-sensor-16-10-2019/)
 * [Make Your Own LIDAR Sensor](https://dzone.com/articles/make-your-own-lidar-sensor)
-    * <https://www.adafruit.com/product/3316>
-    * <https://www.adafruit.com/product/3317>
-    * [TF-Luna (ToF) Micro Single-point Ranging LiDAR](https://www.dfrobot.com/product-1995.html?tracking=5e72005d37725)
+  * <https://www.adafruit.com/product/3316>
+  * <https://www.adafruit.com/product/3317>
+  * [TF-Luna (ToF) Micro Single-point Ranging LiDAR](https://www.dfrobot.com/product-1995.html?tracking=5e72005d37725)
 * [Steering Self Driving Car without LIDAR](https://medium.com/towards-data-science/steering-self-driving-car-without-lidar-a6b0a4d2e2f1)
 * [Lidar House Looks Good, Looks All Around](https://hackaday.com/2020/12/20/lidar-house-looks-good-looks-all-around/)
 * [LIDAR Built On Familiar Platform](https://hackaday.com/2020/04/11/lidar-built-on-familiar-platform/)
@@ -132,6 +132,7 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 
 
 #### Simple, Biologically Inspired Robots
+
 BEAM robotics (from biology, electronics, aesthetics, and mechanics)
 is a style of robotics that primarily uses simple analogue circuits, such as comparators,
 instead of a microprocessor in order to produce an unusually simple design.
@@ -142,7 +143,7 @@ instead of a microprocessor in order to produce an unusually simple design.
 * [LIVING ROBOTS: REVISITING BEAM](https://hackaday.com/2021/05/29/living-robots-revisiting-beam/)
 * [Tiny BEAM Robot Smiles Big at the Sun](https://hackaday.com/2021/09/25/tiny-beam-robot-smiles-big-at-the-sun/)
 * [Light-Tracking BEAM Robot Head](https://www.instructables.com/Light-Tracking-BEAM-Robot-Head/)
-    * [How I made a solar-powered robot from old fashioned parts](https://hackspace.raspberrypi.com/articles/how-i-made-a-solar-powered-robot-from-old-fashioned-parts)
+  * [How I made a solar-powered robot from old fashioned parts](https://hackspace.raspberrypi.com/articles/how-i-made-a-solar-powered-robot-from-old-fashioned-parts)
 * [A Modern Musical Take on BEAM Robotics](https://www.hackster.io/news/a-modern-musical-take-on-beam-robotics-22f4a10e62db)
 * [Beam Bot - Photopopper V2](https://www.youtube.com/watch?v=3RKTKfLhuPE)
 
@@ -150,7 +151,7 @@ instead of a microprocessor in order to produce an unusually simple design.
 #### Other
 
 * [This Friendly Robot Could One Day Be Your Family’s Personal Assistant](http://www.wired.com/2014/07/jibo-family-robot/)
-    * [Jimbo](http://www.myjibo.com/)
+  * [Jimbo](http://www.myjibo.com/)
 * [uArm - Desktop Robotic Arm](https://www.sparkfun.com/products/13663?utm_source=SparkFun+Customer+Newsletter&utm_campaign=2ca58c52dd-July_17thNewsletter&utm_medium=email&utm_term=0_fa5287abaf-2ca58c52dd-7212537)
 * [Cardboard Robot Deathmatch](http://hackaday.com/2015/09/29/cardboard-robot-deathmatch/#more-171371)
 * [ZeroBot is as Simple as it Gets](http://hackaday.com/2017/05/31/zerobot-is-as-simple-as-it-gets/)
@@ -205,6 +206,7 @@ instead of a microprocessor in order to produce an unusually simple design.
 
 
 #### Heavy Duty Servo
+
 Stall torque is the maximum instantaneous and static torque.
 Stable motions are possible with robots designed for loads with 1/5 or less of the stall torque.
 <http://support.robotis.com/en/techsupport_eng.htm#product/dynamixel/ax_series/dxl_ax_actuator.htm>
@@ -217,6 +219,7 @@ Stable motions are possible with robots designed for loads with 1/5 or less of t
 
 
 # Let's Robot / Telepresence
+
 Still in the early stages of development,
 Let's Robot is a live-streaming telepresence platform for controlling robots
 and other devices through the internet.

@@ -54,7 +54,7 @@ Version:      0.0.0
 * [Threaded Inserts in 3D Prints - How strong are they?](https://www.youtube.com/watch?v=iR6OBlSzp7I)
 * [Threaded Inserts for 3D Prints - Cheap VS Expensive](https://www.youtube.com/watch?v=G-UF4tv3Hvc)
 * [Threading 3D Printed Parts: How To Use Heat-Set Inserts](https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/)
-    * [Four Ways to Tackle Threaded Inserts for Plastics](https://www.ptonline.com/articles/four-ways-to-tackle-threaded-inserts-for-plastics)
-    * [Using Heat Set Inserts](https://markforged.com/blog/heat-set-inserts/)
+  * [Four Ways to Tackle Threaded Inserts for Plastics](https://www.ptonline.com/articles/four-ways-to-tackle-threaded-inserts-for-plastics)
+  * [Using Heat Set Inserts](https://markforged.com/blog/heat-set-inserts/)
 
 

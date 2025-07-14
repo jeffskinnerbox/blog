@@ -13,17 +13,20 @@ Version:      0.0.0
 
 
 # Installing New Arduino-cli
+
 * [Install Arduino CLI on Ubuntu 20.04](https://lindevs.com/install-arduino-cli-on-ubuntu)
 * [Arduino CLI](https://arduino.github.io/arduino-cli/latest/installation)
 * [Arduino CLI: Getting started](https://arduino.github.io/arduino-cli/latest/getting-started/)
 
-* [Cheatsheet: Arduino Command Line ](https://www.woolseyworkshop.com/wp-content/uploads/WoolseyWorkshop_Cheatsheet_ArduinoCommandLine_v1.4.pdf)
+* [Cheatsheet: Arduino Command Line](https://www.woolseyworkshop.com/wp-content/uploads/WoolseyWorkshop_Cheatsheet_ArduinoCommandLine_v1.4.pdf)
 * [Arduino-cli: compile, upload and manage libraries, cores, and boards](https://www.pcbway.com/blog/Activities/Arduino_cli__compile__upload_and_manage_libraries__cores__and_boards.html)
 
 # Using Makefile
+
 * [Arduino With Makefiles For Linux Command Line Programmers](https://blog.robertelder.org/arduino-make-file-command-line/)
 
 # Creating Arduino Library
+
 * [Create Your Own Arduino Library](https://roboticsbackend.com/arduino-create-library/)
 * [How To Create Custom Arduino Library Using C++](https://www.geeksforgeeks.org/how-to-create-custom-arduino-library-using-c/)
 * [All About Arduino Libraries](https://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use/arduino-libraries)
@@ -36,6 +39,7 @@ Version:      0.0.0
 
 
 # Arduino On The Command Line
+
 For someone like myself, who is at home with Linux as my OS and Vim as my editor,
 using the [Arduino IDE][03] for Arduino coding is a step back into the stone age.
 If you are used to doing these things yourself and controlling the organization of your code
@@ -110,6 +114,7 @@ software development experance while still leveraging the popularity of the Ardu
 
 
 # Installing the Arduino IDE
+
 [Arduino][11] is an open-source platform used for building electronics projects.
 Arduino consists of both a physical programmable circuit board (often referred to as a microcontroller)
 and a piece of software, or IDE (Integrated Development Environment) that runs on your computer,
@@ -118,6 +123,7 @@ There is [Linux build of the Arduino IDE][09],
 as well as [alternatives to the standard Arduino IDE][10].
 
 #### Step 1: Uninstall Old Arduino IDE - DONE
+
 If you upgrading your Arduino IDE,
 the first thing you want to do is uninstall the old version.
 The Arduino IDE package comes with an uninstall script but it doesn't do a complete removal
@@ -129,6 +135,7 @@ Copy any of your sketch and personal libraries you may wish to keep.
 Don't worry about public libraries since they can be reinstalled from sources.
 
 Sources
+
 * [Uninstall Arduino IDE](https://support.arduino.cc/hc/en-us/articles/360021325733-Uninstall-Arduino-IDE)
 
 ```bash
@@ -155,10 +162,12 @@ rm -r -f ~/bin/arduino-ide*.AppImage
 ```
 
 #### Step 2: Installing Arduino IDE - DONE
+
 You could install the Arduino IDE via the Ubuntu Software Center and search for Arduino.
 Alternatively, you can install via the command line by running the following:
 
 Source:
+
 * [Downloading and installing the Arduino IDE 2.0](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing)
 
 ```bash
@@ -202,6 +211,7 @@ ln -s /home/jeff/bin/arduino-ide_2.2.1_Linux_64bit.AppImage /home/jeff/bin/ardui
 ```
 
 #### Step 3: Quick Test - DONE
+
 Lets do a quick check on the install:
 
 ```bash
@@ -224,6 +234,7 @@ the IDE via the command `arduino &>/dev/null &` or the desktop icon.
 >If you get this error, you need to [set serial port permission][23].
 
 #### Step 4: Setup Your Arduino IDE Preferences - DONE
+
 Normally, running the `arduino` command starts the IDE,
 optionally loading any `.ino` files specified on the commandline.
 Also, it normally puts all your Arduino sketches and project libraries within
@@ -242,6 +253,7 @@ Lets change this location:
 >but only edit when the Arduino IDE is **not** running.
 
 #### Step 5: Remove Old Sketch Directory - DONE
+
 When you create your fist sketch,
 the new `sketchbook` directory create above will have a subdirectory `libraries`.
 `$HOME/src/arduino/sketchbooks/libraries` is where all your libraries will go
@@ -258,6 +270,7 @@ rm -r -f ~/Arduino
 >Check out Adafruit's "[All About Arduino Libraries][18]" for their proper care and feeding.
 
 #### Step 6: Move Back Saved Sketches - DONE
+
 If you you saved any sketch from a previous install,
 you can simply copy them into the `$HOME/src/arduino/sketchbooks` directory.
 For example:
@@ -272,6 +285,7 @@ cp -r ~/tmp/sketchbooks ~/src/arduino
 
 
 # Installing the Arduino Commond Line Interface - `arduino-cli`
+
 [Arduino has released a command line interface (CLI)][13], called `arduino-cli`,
 that performs most of the features present in the Arduino IDE.
 The CLI will allow you to Install new libraries, create new projects,
@@ -304,6 +318,7 @@ I also found these sites useful:
 >API and UI must be considered unstable until we release version 1.0.0."
 
 #### Step 0: Uninstall arduino-cli - DONE
+
 You may have installed `arduino-cli` in the past and it will be wise to remove
 any other version that may be in your `$PATH`.
 
@@ -319,6 +334,7 @@ sudo rm -rf ~/bin/arduino-cli /usr/bin/arduino-cli /usr/local/bin/arduino-cli
 ```
 
 #### Step 1: Install arduino-cli - DONE
+
 You can install `arduino-cli` via:
 
 ```bash
@@ -388,6 +404,7 @@ Use "arduino-cli [command] --help" for more information about a command.
 ```
 
 #### Step 2: List arduino-cli Board Support - DONE
+
 If you are running a fresh install of the `arduino-cli`,
 you probably need to update the platform indexes by running:
 
@@ -439,6 +456,7 @@ Linino One                       arduino:avr:one
 ```
 
 #### Step 3: Install New Core's for arduino-cli - DONE
+
 The list above only include Arduino microcontrollers.
 What if you wanted support for [SAM D MCUs][16]
 In this case, you would install the `arduino:samd`
@@ -486,7 +504,7 @@ Next, Follow these steps in your Arduino IDE:
 * execute `arduino` on the commandline
 * Goto **File** > **Preferences**
 * Enter the following into the **Additional Board Manager URLs** field:
-    * `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json,
+  * `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json,
     http://arduino.esp8266.com/stable/package_esp8266com_index.json`
 * Save your work
 * Open the Boards Manager by going to **Tools** > **Board** > **Boards Manager…**
@@ -505,11 +523,13 @@ esp8266:esp8266 3.0.2     3.0.2  esp8266
 ```
 
 Source:
+
 * [ESP32: Using arduino-cli][35]
 * [Getting Started with arduino-cli](https://create.arduino.cc/projecthub/B45i/getting-started-with-arduino-cli-7652a5)
 * [Installing the ESP32 Board in Arduino IDE (Windows, Mac OS X, Linux)](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
 #### Step 4: Fix the `esptool`
+
 I had to do a "fix" the [`esptool.py` tool][24] (ROM bootloader for ESP8266 & ESP32)
 since its not within my $PATH
 The fix is the following:
@@ -540,11 +560,13 @@ esptool: error: too few arguments
 
 
 # Using the arduino-cli With ESP Processor
+
 In this section,
 I'll walkthrough how to make use of `arduino-cli` to build projects.
 I'll be using examples from [ntp-clock.ino][20].
 
 #### Step 1: Load Needed Libraries
+
 The example I'm doing, the [ntp-clock.ino][20] sketch,
 requires several additional libraries which are not
 pre-installed in the Arduino IDE or the `arduino-cli`.
@@ -663,6 +685,7 @@ To remove all these libraries, just use the following command:
 `arduino-cli lib uninstall Adafruit_GFX_Library Adafruit_LED_Backpack_Library arduino-timer Time Timezone`.
 
 #### Step 2: Find the Board's FQBN (Fully Qualified Board Name)
+
 First step is understand what type of board your dealing.
 To do this, just connect your device to your PC via a USB,
 in my case a ESP8266/NodeMCU board,
@@ -684,10 +707,10 @@ Let's list available cores matching 'nodemcu':
 ```bash
 # list all boards matching 'nodemcu'
 $ arduino-cli board listall nodemcu
-Board Name                  	FQBN
-NodeMCU 0.9 (ESP-12 Module) 	esp8266:esp8266:nodemcu
-NodeMCU 1.0 (ESP-12E Module)	esp8266:esp8266:nodemcuv2
-NodeMCU-32S                 	esp32:esp32:nodemcu-32s
+Board Name                   FQBN
+NodeMCU 0.9 (ESP-12 Module)  esp8266:esp8266:nodemcu
+NodeMCU 1.0 (ESP-12E Module) esp8266:esp8266:nodemcuv2
+NodeMCU-32S                  esp32:esp32:nodemcu-32s
 ```
 
 My board is the "NodeMCU 1.0 (ESP-12E Module)", and so,
@@ -696,6 +719,7 @@ of `esp8266:esp8266:nodemcuv2`.
 This gives us the needed information to complile the sketch.
 
 #### Step 3: Compiling the Sketch
+
 The `arduino-cli` tool also supports compiling and loading of the sketch.
 hear is more information on compiling:
 
@@ -756,6 +780,7 @@ The `.elf` file is a executable and linkable format (elf)
 formated file used when object file linking is required.
 
 #### Step 4: UpLoad the Sketch
+
 We can now upload the sketch to the ESP8266 board
 and see the board in operation.
 
@@ -820,6 +845,7 @@ To validate, execute `screen /dev/ttyUSB0 9600,cs8` in a terminal and push the r
 
 
 # Using Makefile
+
 You'll find Makefile template for the [Arduino board family][26],
 the [Atmel (now Microchip) AVR family][25],
 [Espressif Systems ESP family][17] ([there is more than one][27]), and others.
@@ -845,6 +871,7 @@ Only materials I have found are:
 * [makeEspArduino: A makefile for ESP8266 and ESP32 Arduino projects](https://libraries.io/github/plerup/makeEspArduino)
 
 #### Step 1: Create the Makefile - DONE
+
 You'll find that the simple Makefile below
 will support our example sketch [ntp-clock.ino][20] when using `arduino-cli`.
 It is capable of supporting not only the `*.ino` file but additional C++ files (i.e. `*.cpp`).
@@ -964,52 +991,53 @@ all: build upload                               # build and then upload via usb
 all-ota: build upload-ota                       # build and then upload via ota
 
 help:
-	@echo ' '
-	@echo 'Makefile for ntp-clock'
-	@echo ' '
-	@echo 'Usage:'
-	@echo '   make              create all files and flash device via usb'
-	@echo '   make all          create all files and flash device via usb'
-	@echo '   make all-ota      create all files and flash device via ota'
-	@echo '   make build        compile the code and create the *.elf file'
-	@echo '   make upload       create the *.bin file and flash device via usb'
-	@echo '   make upload-ota   create the *.bin file and flash device via ota'
-	@echo '   make erase        erease the entire flash from the device and exit'
-	@echo '   make size         print the flash size within the device and exit'
-	@echo '   make clean        delete *.bin, *.elf, *.hex files'
-	@echo '   make help         print this help message and exit'
-	@echo ' '
-	@echo 'Pass the option "--debug" to enable trace messaging (e.g. make --debug build)'
-	@echo ' '
+ @echo ' '
+ @echo 'Makefile for ntp-clock'
+ @echo ' '
+ @echo 'Usage:'
+ @echo '   make              create all files and flash device via usb'
+ @echo '   make all          create all files and flash device via usb'
+ @echo '   make all-ota      create all files and flash device via ota'
+ @echo '   make build        compile the code and create the *.elf file'
+ @echo '   make upload       create the *.bin file and flash device via usb'
+ @echo '   make upload-ota   create the *.bin file and flash device via ota'
+ @echo '   make erase        erease the entire flash from the device and exit'
+ @echo '   make size         print the flash size within the device and exit'
+ @echo '   make clean        delete *.bin, *.elf, *.hex files'
+ @echo '   make help         print this help message and exit'
+ @echo ' '
+ @echo 'Pass the option "--debug" to enable trace messaging (e.g. make --debug build)'
+ @echo ' '
 
 build:                                          # build the binary executable
-	$(CC) $(CC_FLAGS) $(CURDIR)
+ $(CC) $(CC_FLAGS) $(CURDIR)
 
 upload:                                         # flash the binary executable via usb
-	$(UPLOAD_USB) $(UPLOAD_USB_FLAGS) $(CURDIR)
+ $(UPLOAD_USB) $(UPLOAD_USB_FLAGS) $(CURDIR)
 
 upload-ota:                                     # flash the binary executable via ota
-	@echo VAR = $(VAR)
-	@echo OTAIP = $(OTAIP)
-	@echo OTAPASS = $(OTAPASS)
-	@echo OTAPORT = $(OTAPORT)
-	@echo OTAHOSTNAME = $(OTAHOSTNAME)
-	@echo UPLOAD_OTA_FLAGS = $(UPLOAD_OTA_FLAGS)
-	$(CURDIR)/answerbot $(OTAIP) 23             # using telnet, reboot the device to do OTA
-	sleep 10                                    # wait until device is ready for OTA start
-	$(UPLOAD_OTA) $(UPLOAD_OTA_FLAGS)
+ @echo VAR = $(VAR)
+ @echo OTAIP = $(OTAIP)
+ @echo OTAPASS = $(OTAPASS)
+ @echo OTAPORT = $(OTAPORT)
+ @echo OTAHOSTNAME = $(OTAHOSTNAME)
+ @echo UPLOAD_OTA_FLAGS = $(UPLOAD_OTA_FLAGS)
+ $(CURDIR)/answerbot $(OTAIP) 23             # using telnet, reboot the device to do OTA
+ sleep 10                                    # wait until device is ready for OTA start
+ $(UPLOAD_OTA) $(UPLOAD_OTA_FLAGS)
 
 erase:                                          # erase the entire flash
-	$(ESPTOOL) erase_flash --port $(PORT)
+ $(ESPTOOL) erase_flash --port $(PORT)
 
 size:                                           # determine the flash size
-	$(ESPTOOL) flash_id --port $(PORT)
+ $(ESPTOOL) flash_id --port $(PORT)
 
 clean:                                          # delete all binaries and object files
-	rm -r --force $(BUILD) *.bin *.elf *.hex
+ rm -r --force $(BUILD) *.bin *.elf *.hex
 ```
 
 #### Step 2: Compile & Upload Sketch - DONE
+
 With the Makefile encoding all the details of how to build your sketch,
 you have a simple process to build and upload your firmware to the NodeMCU board:
 
@@ -1055,10 +1083,6 @@ make upload
 [25]:https://flyingcarsandstuff.com/2017/11/make-building-avr-and-arduino-firmware-on-the-command-line/
 [26]:https://hackaday.com/2015/10/01/arduino-development-theres-a-makefile-for-that/
 [27]:https://github.com/plerup/makeEspArduino/blob/master/README.md
-[28]:https://github.com/plerup/makeEspArduino
-[29]:https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc
-[30]:https://medium.com/rungo/working-in-go-workspace-3b0576e0534a
-[31]:https://golang.org/
 [32]:https://github.com/esp8266/Arduino
 [33]:https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon
 [34]:https://arduino-esp8266.readthedocs.io/en/2.4.2/#

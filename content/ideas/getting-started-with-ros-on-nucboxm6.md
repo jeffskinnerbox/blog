@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Robot Operating System (ROS)
+
 [Robot Operating System (ROS)][03] is a framework consisting of a huge number of libraries and tools specifically for developing robots.
 It’s open source, supported by a large community,
 and designed to support real-time performance and multi-robot systems.
@@ -28,6 +29,7 @@ and validate robot designs in complex environments, offering realistic physics a
 visualize sensor data, robot models, and environment maps, aiding in debugging and monitoring robot behavior.
 
 The following tasks will be performed:
+
 * Install Ubuntu Desktop OS
 * Install Your User Environment
 * Install Docker
@@ -40,6 +42,7 @@ The following tasks will be performed:
 
 
 # Install Ubuntu Desktop OS
+
 [GMKTec M6][02]
 Ryzen 6600H ARM processor
 Dual NIC LAN 2.5G
@@ -73,6 +76,7 @@ Sources:
 * [Download Ubuntu Desktop](https://ubuntu.com/download/desktop)
 
 #### Step 1: Download Ubuntu 24.04 - DONE
+
 At this time, the latest long-term support version of Ubuntu,
 for desktop PCs and laptops, is Ubuntu 24.04.2 LTS.
 I download the [AMD 64-bit architecture version][01] to my hard drive.
@@ -80,6 +84,7 @@ The location of the download was `/home/jeff/Downloads/ubuntu-24.04.2-desktop-am
 
 
 #### Step 2: Create Bootable USB Stick - DONE
+
 First, identify what USB device your USB Stick is plugged into and then move the
 Ubuntu ISO file onto the USB Stick.
 
@@ -128,6 +133,7 @@ You can now unplug your USB Stick.
 
 
 #### Step 3: Booting the GMKTec M6 from the USB Stick - DONE
+
 Start with this step with the GMKTec M6 in the powered-off state.
 Wire up a monitor, keyboard, and ideally a mouse to the GMKTec M6.
 Do the following steps:
@@ -141,6 +147,7 @@ I gave GMKTec NucBox M6 the hostname of `NucBoxM6` and my login is `jeff` using 
 
 
 #### Step 4: Install OpenSSH - DONE
+
 Before I removed the monitor / keyboard / mouse, I did the following:
 
 1. I checked to make sure `ssh` was working by via `ssh jeff@NucBoxM6.local` but this failed to find `NucBoxM6`.
@@ -176,6 +183,7 @@ and all command-line and GUI / X-Windows program should work over this connectio
 
 
 #### Step 5: Check if X Windows is Running - DONE
+
 I want to run a X Window System (X11) application on my server (the GMKTec with Ubuntu 224.04)
 but display its graphical output on a remote client (my `desktop` with Ubuntu) which is also running X Window.
 To do this, you need to use [SSH with X11 forwarding][09].
@@ -210,6 +218,7 @@ Sources:
 
 
 #### 6: Using Microsoft Windows as X11 Client
+
 If you want to use Microsoft Windows as your client,
 see the following: [How to Use X11 Forwarding on Windows or Linux](https://www.youtube.com/watch?v=FlHVuA_98SA)
 
@@ -218,6 +227,7 @@ see the following: [How to Use X11 Forwarding on Windows or Linux](https://www.y
 
 
 # Install Your User Environment
+
 Here I will establish my login environment that I'm accustom to using.
 I'm going to want to use all my familiar tools,
 tools like Gnome Terminal, Curl, Chrome browser, NeoVim, Dotfiles, etc.
@@ -254,7 +264,8 @@ sudo apt update && sudo apt upgrade
 
 
 #### Step 2: Install Your `.dotfiles` - DONE
-Within my GitHub, I maintain my `.dotfiles`` and the maintenance tool that I use is `stow`.
+
+Within my GitHub, I maintain my `.dotfiles`` and the maintenance tool that I use is`stow`.
 Let's pull down the latest`.dotfiles` repository and an install anything required:
 
 ```bash
@@ -279,6 +290,7 @@ stow --dir=$HOME/.dotfiles --target=$XDG_CONFIG_HOME --stow pkg-ansible-lint
 
 
 #### Step 3: Install Miniconda for Python and NVM Version of Node.js - DONE
+
 [Python][67] is such a success in large part because of its very active community
 in which people share their awesome solutions.
 Unfortunately, there is a price.
@@ -359,6 +371,7 @@ $ npm -v
 
 
 #### Step 3B: If You Wish to Uninstall Miniconda - DONE-NOT
+
 To uninstall Miniconda, you follow these steps:
 
 ```bash
@@ -384,6 +397,7 @@ Sources:
 
 
 #### Step 4: Install Google Chrome - DONE
+
 My go-to browser is Chrome and you can install it on Ubuntu from [here][50].
 
 ```bash
@@ -412,6 +426,7 @@ google-chrome &
 
 
 #### Step 4B: Uninstall Google Chrome - DONE-NOT
+
 If you decide that you’d like to remove Chrome from your system in the future,
 use the following command to uninstall the web browser.
 
@@ -422,6 +437,7 @@ sudo apt purge google-chrome-stable
 
 
 #### Step 5: Install Nerd Fonts - DONE
+
 Ubuntu bundled its own fonts,
 and they are all Free Libre Open Source Software licensed (FLOSS).
 The fonts included by default in Ubuntu are of course different to other operating systems.
@@ -518,16 +534,18 @@ Sources:
 * [Add Icons to your Fonts with Nerd Fonts](https://www.youtube.com/watch?v=fR4ThXzhQYI)
 * [Neovim 101 — Fonts](https://alpha2phi.medium.com/neovim-101-fonts-da575bd4eda9)
 * [Installing system nerd-fonts with ansible](https://waylonwalker.com/ansible-install-fonts/)
-    * [No More Missing Fonts | ansible-playbook](https://www.youtube.com/watch?v=2MEmsinxRK4)
+  * [No More Missing Fonts | ansible-playbook](https://www.youtube.com/watch?v=2MEmsinxRK4)
 
 
 #### Step 5B: Uninstall Nerd Fonts - DONE, NOT
+
 To remove fonts installed on User directory:
 Go to `~/.local/share/fonts/` and delete the files with `.ttf` or `.otf` extensions.
 Repeat this step for each of the targeted fonts.
 
 
 #### Step 6: Install Favorite Text Editor: NeoVim - DONE
+
 There are several sources for [NeoVim][51],
 but I have found that [Snap][54] has one of the most up to date versions.
 I installed NeoVim via the [Snap Store][59] using this method:
@@ -612,6 +630,7 @@ sudo apt install perl
 
 
 # Enable Screen Sharing
+
 At times, I want to remote desktop into NucBoxM6 so I can take full advantage of the desktop GUI menu system,
 and not be relegated to a command-line interface you get from Secure Shell (SSH).
 There are in fact [many remote desktop software packages][46] available to choose from,
@@ -624,12 +643,14 @@ and there is an easy to configure Gnome specific screen sharing solution.
 * [How use Remote Desktop Address when desktop sharing on Ubuntu 22.04](https://askubuntu.com/questions/1501258/how-use-remote-desktop-address-when-desktop-sharing-on-ubuntu-22-04)
 * [How to remote desktop into Ubuntu](https://www.itpro.com/mobile/remote-access/368102/how-to-remote-desktop-into-ubuntu)
 * [Screen sharing (Remote Desktop) in Ubuntu 24.04.1 LTS?](https://www.reddit.com/r/Ubuntu/comments/1g42tyb/screen_sharing_remote_desktop_in_ubuntu_24041_lts/)
+
 #### Step X: Install Some Screen Sharing Tool - DONE, NOT
 
 --------------
 
 
 # Install Docker
+
 **Docker** is a popular application that simplifies the process of managing application processes in containers.
 Containers let you run your applications in resource-isolated processes.
 They’re similar to virtual machines, but containers are more portable,
@@ -644,6 +665,7 @@ Sources:
 * [Install the Compose Plugin](https://docs.docker.com/compose/install/linux/#install-using-the-repository)
 
 ## Docker Engine & Docker Compose
+
 Ubuntu is my go-to Linux OS and installing on Ubuntu is fairly straight-forward.
 I'll used the installation scripts below.
 This involves adding a new package source,
@@ -652,6 +674,7 @@ and then install the Docker package.
 
 
 #### Step 1: Install Docker - DONE
+
 While not the absolute latest Docker version,
 I’ll install Docker from the Dockers official Ubuntu repository,
 instead of Docker's generic repository.
@@ -702,6 +725,7 @@ sudo docker run hello-world
 ```
 
 Source:
+
 * [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 
 #### Step 2: Install Docker Compose - DONE
@@ -722,6 +746,7 @@ docker compose version
 ```
 
 #### Step 4: Upgrade Docker & Docker Compose - DONE
+
 Docker & Docker Compose will be automatically by Ubuntu from the official Ubuntu repository for Docker.
 
 
@@ -729,6 +754,7 @@ Docker & Docker Compose will be automatically by Ubuntu from the official Ubuntu
 
 
 # Devices in Linux & Docker
+
 * [Devices in Docker - Not so simple! (Docker for Robotics #4)](https://www.youtube.com/watch?v=uf4zOigzTFo)
 * [Logitech F310 Gamepad Review On Linux](https://www.gamingonlinux.com/2015/05/logitech-f310-gamepad-review-on-linux/)
 
@@ -738,6 +764,7 @@ It's a USB wired controller that typically works directly when plugged into a PC
 The F310 has both [D-Input (DirectInput) and X-Input (XInput) modes](https://www.howtogeek.com/792984/directinput-vs.-xinput-for-game-controllers-whats-the-difference/), which are widely supported by Linux games.
 
 Some Linux programs for testing devices:
+
 * The [`evtest`](https://manpages.ubuntu.com/manpages/noble/man1/evtest.1.html) tool in Linux is used to monitor and query events generated by input devices, such as keyboards, mice, joystick, and touchpad. It helps in debugging issues with input devices and understanding the events they generate.
 You can use `evtest` to see what events are generated when you press a specific key on your keyboard or click a mouse button.
 It allows users to monitor the raw data coming from keyboards, mice, touchscreens, joysticks, and other input peripherals.
@@ -753,6 +780,7 @@ If you run the program without parameters, you will get a window showing all the
 
 
 # Install Robot Operating System (ROS)
+
 ROS is released as distributions, with more than one ROS distribution supported at a time.
 Some releases come with long term support (LTS),
 meaning they are more stable and have undergone extensive testing.
@@ -765,6 +793,7 @@ I'm using this course as my guide for this "getting started with ROS" document.
 I'll be following the courses setup and ROS exercises.
 
 Beyond the courseware, I'll be using these sources:
+
 * [ROS Package Documentation](https://docs.ros.org/): On this site you can find the core tutorials and documentation for the project as well as generated API documentation for individual packages.
 * [Robotics Stack Exchange](https://robotics.stackexchange.com/): It is likely that the ROS developer community has posted questions similar to yours; if your question isn’t already asked, post a new one.
 * [ROS Index](https://index.ros.org/): When you want to find out information about a specific package the index is the best place to start.
@@ -773,11 +802,13 @@ Beyond the courseware, I'll be using these sources:
 ## Running ROS 2 Jazzy Jalisco on Ubuntu Linux
 
 Sources:
+
 * [Install ROS2 Jazzy and Ubuntu Linux on Raspberry Pi + Optimize the Performance -Everything Explained](https://www.youtube.com/watch?v=saoBiYCi3Uo)
 * [How to install ROS2 Jazzy on Raspberry Pi 5 and Linux Ubuntu](https://aleksandarhaber.com/how-to-install-ros2-jazzy-on-raspberry-pi-5-and-linux-ubuntu/#google_vignette)
 * [ROS 2 Documentation: Installation - Ubuntu (deb packages)](https://docs.ros.org/en/jazzy/Installation.html)
 
 #### Step 1: Check Character Encoding Standard - DONE
+
 Make sure you using the [UTF-8](https://en.wikipedia.org/wiki/UTF-8) [character encoding](https://en.wikipedia.org/wiki/Character_encoding) standard.
 Most likely you are.
 
@@ -803,6 +834,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 ```
 
 #### Step 3: Install ROS 2 - DONE
+
 * `ros-dev-tools` are a suite of command-line tools and libraries used to manage, introspect,
 and interact with the ROS 2 system.
 These tools provide functionality for tasks like managing nodes, topics, services
@@ -833,6 +865,7 @@ sudo apt install ros-jazzy-desktop
 ```
 
 #### Step 4: Setup ROS Environment and Verify
+
 With `ros-jazzy-ros-base` and `ros-jazzy-desktop` installed,
 you can do a simple ROS2 implementation to verify things are working.
 
@@ -856,6 +889,7 @@ You should see the `talker` saying that it’s Publishing messages and the `list
 This verifies both the C++ and Python APIs are working properly.
 
 #### Step 5: Uninstall ROS2 - DONE, NOT
+
 If you need to uninstall ROS 2 or switch to a source-based install
 once you have already installed from binaries, run the following command:
 
@@ -871,6 +905,7 @@ sudo apt upgrade            # consider upgrading for packages previously shadowe
 ```
 
 #### Step 6: Install `turtlesim`
+
 `turtlesim` is a ROS way of paying homage to the late 1960's educational programming language
 [Logo](https://en.wikipedia.org/wiki/Logo_(programming_language)) and [Turtle graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
 created by Seymour Papert.
@@ -938,6 +973,7 @@ rqt
 
 
 # Install ROS on Windows Subsystem for Linux (WSL)
+
 * [Install ROS2 Jazzy on Windows Subsystem for Linux and Windows 11 and 10](https://www.youtube.com/watch?v=cLpVG51EImQ)
 
 
@@ -945,6 +981,7 @@ rqt
 
 
 ## Running ROS 2 Jazzy Jalisco in Docker Container
+
 One of the ROS courses on the Web is ["Robotics and ROS 2 Essentials"][13],
 which is a beginner-friendly introduction to robotics and ROS 2,
 and it has a focus on learning by doing and experimenting through exercises.
@@ -957,6 +994,7 @@ requiring no manual installation of ROS 2, simulation, packages, and dependencie
 All you need is an Ubuntu Operating System and Docker installed, and you are all set!
 
 ### Setup for Dockerized ROS
+
 Despite it simplicity, there are some challenges to get it working within my configuration
 where I wish to running a X Window System (X11) application on my server (the GMKTec with Ubuntu 24.04)
 but display its graphical output on a remote client (my `desktop` with Ubuntu with X Window).
@@ -969,6 +1007,7 @@ So that is documented below.
 >requiring no manual installation of ROS 2, simulation, packages, and dependencies
 
 #### Step 0: Install ROS Docker Container
+
 [Exercises 0 - Setup](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/0-setup)
 
 ```bash
@@ -1010,10 +1049,13 @@ ros2 launch andino_gz andino_gz.launch.py
 ```
 
 Sources:
+
 * [Robotics and ROS 2 Essentials: Exercises 0 - Setup](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/0-setup)
 * [GUI apps within a Docker container](https://medium.com/@paliwalsamriddhi/gui-apps-within-a-docker-container-971681838fda)
 * [X11 forwarding from a docker container in remote server](https://unix.stackexchange.com/questions/403424/x11-forwarding-from-a-docker-container-in-remote-server)
+
 #### Step 1: Exercises 1 - ROS 2 Introduction
+
 In this [Exercises 1 - ROS 2 Introduction](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/1-ros_2_introduction#basic-concepts),
 **ROS 2 Topics** are the first to be explore.
 ROS 2 Topics are a core communication mechanism in ROS 2 that enable
@@ -1100,6 +1142,7 @@ for tasks like mapping and obstacle detection,
 providing a reference for where the sensor is located in relation to other frames.
 
 TF frames in RViz
+
 * **fixed frame** - The fixed frame is used to determine from which frame's perspective you are visualizing the data.
 This is an important feature to know about,
 as sometimes the data you are looking to visualize might not be available if you are visualizing a wrong frame.
@@ -1115,6 +1158,7 @@ It essentially tells, with a tree-like structure,
 what is the child-frame's position in relation to the parent frame.
 
 #### Step 2: Exercises 2 - SLAM and Navigation Demo
+
 In this [Exercises 2 - SLAM and Navigation Demo](https://github.com/henki-robotics/robotics_essentials_ros2/blob/main/2-slam_and_navigation_demo/README.md),
 we'll use the robot to build a new 2D map of the simulated environment and autonomously navigate on it.
 The packages that will be used perform these tasks are:
@@ -1170,12 +1214,15 @@ ros2 launch andino_gz andino_gz.launch.py nav2:=True
 In this [Exercises 3 - Create Your First Ros 2 Package](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/3-create_ros_2_package)
 
 #### Step 4: Exercises 4 - Robot Odometry
+
 In this [Exercises 4 - Robot Odometry](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/4-robot_odometry)
 
 #### Step 5: Exercises 5 - Path Planning
-In this [Exercises 5 - Path Planning ](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/5-path_planning)
+
+In this [Exercises 5 - Path Planning](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/5-path_planning)
 
 #### Step 6: Remove All Stopped Containers
+
 To clean up all the Docker object created by this course,
 execute the following:
 

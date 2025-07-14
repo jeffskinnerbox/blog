@@ -31,25 +31,27 @@ Review this again - [Betaflight 4.3 Complete Walkthrough](https://www.youtube.co
 
 
 # What is a Flight Controller?
+
 Flight controllers (FC) are circuit boards that have an array of environmental sensors,
 such as gyroscopes, accelerometers, barometer, compass, GPS, etc.
 along with signals from the pilot, within a [PID feedback control loop][14] to help you fly your quadcopter.
 
 
 # FC Software
+
 Betaflight, Cleanflight, Raceflight, KISS are just some of the major flight control firmware’s widely used in flying quadcopters.
 Each firmware is optimized for a particular function.
 Betaflight is the most widely used and the default supported nearly all FC providers.
 
 * Quadcopter Freestyle and Racing
-    * [Betaflight](https://betaflight.com/) is the most popular option with its easy GUI (graphical user interface) and under constant development by its developers. Betaflight is flexible and a powerful flight controller firmware perfect for a beginner which requires little to no coding experience. Another major advantage that Betaflight has is that it supports a large number of flight controllers.
-    * [Cleanflight](https://cleanflight.com/) can be used on multirotor aircraft and fixed-wing aircraft. It supports a variety for shapes and motor counts, not limited to quadcopters, hexacopters, octocopters, tricopters and planes.
-    * [Raceflight](https://github.com/rs2k/raceflight) focus entirely for acrobatic and racing drones. Raceflight stands out by deleting non-essential codes (like GPS). By deleting these codes Raceflight freed up processing power which can be used to do other useful functions like running faster looptimes for example.
-    * [KISS](http://kiss.flyduino.net/) is a closed source firmware developed by FlyDuino. KISS products are powerful and up to date with the current trends on the market and runs on proprietary boards from KISS.
-    * [Emuflight](https://emuflight.github.io/) differs from Betaflight in flight code, methodology and purpose. Hardware support and general setup between EmuFlight and Betaflight continues to be near identical. EmuFlight stays up to date with the latest Betaflight merging almost all code changes, the main differences being related to flight code.  Due to the small development team of EmuFlight we don’t have the development resources that Betaflight does, and as a result we share most our code and will improve as Betaflight improves. At some point in the future EmuFlight may deviate from Betaflight to a larger extent. See the ["Emuflight vs Betaflight"](https://www.youtube.com/watch?v=Ad_di2L5PM8) video.
+  * [Betaflight](https://betaflight.com/) is the most popular option with its easy GUI (graphical user interface) and under constant development by its developers. Betaflight is flexible and a powerful flight controller firmware perfect for a beginner which requires little to no coding experience. Another major advantage that Betaflight has is that it supports a large number of flight controllers.
+  * [Cleanflight](https://cleanflight.com/) can be used on multirotor aircraft and fixed-wing aircraft. It supports a variety for shapes and motor counts, not limited to quadcopters, hexacopters, octocopters, tricopters and planes.
+  * [Raceflight](https://github.com/rs2k/raceflight) focus entirely for acrobatic and racing drones. Raceflight stands out by deleting non-essential codes (like GPS). By deleting these codes Raceflight freed up processing power which can be used to do other useful functions like running faster looptimes for example.
+  * [KISS](http://kiss.flyduino.net/) is a closed source firmware developed by FlyDuino. KISS products are powerful and up to date with the current trends on the market and runs on proprietary boards from KISS.
+  * [Emuflight](https://emuflight.github.io/) differs from Betaflight in flight code, methodology and purpose. Hardware support and general setup between EmuFlight and Betaflight continues to be near identical. EmuFlight stays up to date with the latest Betaflight merging almost all code changes, the main differences being related to flight code.  Due to the small development team of EmuFlight we don’t have the development resources that Betaflight does, and as a result we share most our code and will improve as Betaflight improves. At some point in the future EmuFlight may deviate from Betaflight to a larger extent. See the ["Emuflight vs Betaflight"](https://www.youtube.com/watch?v=Ad_di2L5PM8) video.
 * Quadcopter Autonomous Flying
-    * [INAV](https://github.com/inavFlight/inav/wiki) is a navigation-enabled flight control softwares being actively developed.  It currently supports RTH (Return To Home) with a predefined climb height, position hold, waypoints, "follow-me" and many more features.
-    * [ArduPilot](https://ardupilot.org/) is used to "pilot" many thing, including multi-copters, traditional helicopters, fixed wing aircraft, rovers, submarines and antenna trackers. The ‘Ardu’ part of the ArduPilot name comes from Arduino used in some of its early development environment.
+  * [INAV](https://github.com/inavFlight/inav/wiki) is a navigation-enabled flight control softwares being actively developed.  It currently supports RTH (Return To Home) with a predefined climb height, position hold, waypoints, "follow-me" and many more features.
+  * [ArduPilot](https://ardupilot.org/) is used to "pilot" many thing, including multi-copters, traditional helicopters, fixed wing aircraft, rovers, submarines and antenna trackers. The ‘Ardu’ part of the ArduPilot name comes from Arduino used in some of its early development environment.
 
 See [this article][15] for a larger list of FCs and more complete description.
 
@@ -59,6 +61,7 @@ See [this article][15] for a larger list of FCs and more complete description.
 
 
 # What are F4, F7 and H7 Flight Controllers?
+
 FC have evolved over time, so you will find
 
 * mutiple physical sizes (45mmx45mm, 30mmx30mm, 20mmx20mm, 16mmx16mm),
@@ -96,6 +99,7 @@ Sources:
 
 
 # Build or Buy Flight Controller (FC)
+
 ArduPilot is a open source autopilot system supporting many vehicle types:
 multi-copters, traditional helicopters, fixed wing aircraft, boats, submarines, rovers and more.
 The source code is developed by a large community of professionals and enthusiasts.
@@ -103,7 +107,7 @@ The source code is developed by a large community of professionals and enthusias
 * [Six Degrees Of Freedom Omnicopter With Ardupilot](https://hackaday.com/2021/01/09/six-degrees-of-freedom-omnicopter-with-ardupilot/)
 * [ArduPilot](https://ardupilot.org/)
 * [Cube Pilot](https://cubepilot.org/)
-    * [What is CubePilot?](https://docs.cubepilot.org/user-guides/#what-is-cubepilot)
+  * [What is CubePilot?](https://docs.cubepilot.org/user-guides/#what-is-cubepilot)
 
 
 # SmartAudio for VTX Control
@@ -120,6 +124,7 @@ The source code is developed by a large community of professionals and enthusias
 
 
 ## What is Betaflight?
+
 [Betaflight][01] is the name of a flight control software, used for flying multi-rotor radio controlled aircraft.
 Betaflight has its origins in the [Baseflight][02] and [Cleanflight][03] open source projects.
 The intent of the Betaflight project was to create a high performance 'beta' testbed.
@@ -134,24 +139,25 @@ and the flight controller was the [F4 1S 5A AIO Brushless Flight Controller (aka
 Sources:
 
 * Betaflight 4.3
-    * [NEW Betaflight 4.3 - Full Setup & Walkthrough](https://www.youtube.com/watch?v=udOHBCORSrE)
-    * [Betaflight 4.3 Complete Walkthrough](https://www.youtube.com/watch?v=LkBWRiEGKTI&list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE)
-    * [BF4.3 Complete Tuning Guide](https://www.youtube.com/watch?v=Ro4YMCLJ1dU&list=PLFPBjpbd5xKRnjNpYMep7MxovfhMBIzxP)
-    * [Betaflight 4.3 Rates Tuning: Rates are even more important than PIDs for flight feel in 4.3](https://www.youtube.com/watch?v=_WqKaJ79HGU)
-    * [Betaflight 4.3.x Release](https://www.youtube.com/playlist?list=PLcYNkvInloJHTrzHe5vaucUEOL41Raqcl)
-    * [Betaflight 4.3 Setup for Whoops](https://www.youtube.com/watch?v=xdcPO6NIUnc)
+  * [NEW Betaflight 4.3 - Full Setup & Walkthrough](https://www.youtube.com/watch?v=udOHBCORSrE)
+  * [Betaflight 4.3 Complete Walkthrough](https://www.youtube.com/watch?v=LkBWRiEGKTI&list=PLwoDb7WF6c8nT4jjsE4VENEmwu9x8zDiE)
+  * [BF4.3 Complete Tuning Guide](https://www.youtube.com/watch?v=Ro4YMCLJ1dU&list=PLFPBjpbd5xKRnjNpYMep7MxovfhMBIzxP)
+  * [Betaflight 4.3 Rates Tuning: Rates are even more important than PIDs for flight feel in 4.3](https://www.youtube.com/watch?v=_WqKaJ79HGU)
+  * [Betaflight 4.3.x Release](https://www.youtube.com/playlist?list=PLcYNkvInloJHTrzHe5vaucUEOL41Raqcl)
+  * [Betaflight 4.3 Setup for Whoops](https://www.youtube.com/watch?v=xdcPO6NIUnc)
 * Betaflight 4.4
-    * [Betaflight 4.4 Tuning Guide + Tips and Tricks for the BEST tune!](https://www.youtube.com/watch?v=sNAV4gx_gBY)
-    * [New Betaflight 4.4 features I'm actually excited about (get it yourself today!)](https://www.youtube.com/watch?v=YzE0V4GFzTw)
-    * [Betaflight 4.4 Features DISAPPEAR ... because of Cloud Build?](https://www.youtube.com/watch?v=YmTq68M-NkU)
-    * [Why Betaflight 4.4 GPS Sucks, and How To Fix It](https://www.youtube.com/watch?v=5fBDqeAoqvI)
+  * [Betaflight 4.4 Tuning Guide + Tips and Tricks for the BEST tune!](https://www.youtube.com/watch?v=sNAV4gx_gBY)
+  * [New Betaflight 4.4 features I'm actually excited about (get it yourself today!)](https://www.youtube.com/watch?v=YzE0V4GFzTw)
+  * [Betaflight 4.4 Features DISAPPEAR ... because of Cloud Build?](https://www.youtube.com/watch?v=YmTq68M-NkU)
+  * [Why Betaflight 4.4 GPS Sucks, and How To Fix It](https://www.youtube.com/watch?v=5fBDqeAoqvI)
 * Betaflight 4.5
-    * [These Betaflight 4.5 Features Are Worth Upgrading For!](https://www.youtube.com/watch?v=FMbBfef_R-g)
+  * [These Betaflight 4.5 Features Are Worth Upgrading For!](https://www.youtube.com/watch?v=FMbBfef_R-g)
 * General
-    * [Calibrate & Trim Betaflight Tiny Whoop Accelerometer | HOW TO FIX ANGLE MODE](https://www.youtube.com/watch?v=otJNzZrE-yk)
+  * [Calibrate & Trim Betaflight Tiny Whoop Accelerometer | HOW TO FIX ANGLE MODE](https://www.youtube.com/watch?v=otJNzZrE-yk)
 
 
 ### Betaflight Configurator
+
 [Betaflight Configurator][06] is a crossplatform (i.e. Windows, Mac, Linux) configuration tool for the Betaflight flight control system.
 It runs as an application under different operating systems and allows you to configure the Betaflight software running on any supported Betaflight target. Downloads are available in Releases.
 Various types of aircraft are supported by the tool and by Betaflight, e.g. quadcopters, hexacopters, octocopters and fixed-wing aircraft.
@@ -170,17 +176,20 @@ Various types of aircraft are supported by the tool and by Betaflight, e.g. quad
 
 
 ## What is BLHeli_S?
+
 BLHeli_S probably does not need an introduction - the wildly popular ESC firmware used on almost every EFM8 based ESC in the quadcopter hobby.
 Tried and tested, supports every analog and digital protocol out there.
 
 
 ## What is BLHeli_32?
+
 <https://www.youtube.com/watch?v=BJQoXRqmCtE>
 <https://github.com/blheli-configurator/blheli-configurator>
 <https://play.google.com/store/apps/details?id=org.blheli.BLHeli_32&hl=en&gl=US>
 
 
 ## What is ESC Configurator?
+
 <https://esc-configurator.com/>
 
 
@@ -190,6 +199,7 @@ Tried and tested, supports every analog and digital protocol out there.
 
 
 # Betaflight Flight Modes
+
 One of the features of Betaflight is the ability to configure multiple flight modes.
 Flight modes allow the pilot to switch between different settings for the flight controller,
 which can dramatically affect the behaviour of the quadcopter.
@@ -201,7 +211,7 @@ I'm listing below some of the flight modes and event triggers / features.
 See the "Sources" for more adetails.
 
 * **Flight Modes**
-    * **ACRO Mode** is the default mode (sometimes called manual mode and rate mode)
+  * **ACRO Mode** is the default mode (sometimes called manual mode and rate mode)
     is an aggressive flying style, where the word stands for “acrobatics”.
     The drone is flying without any assistance from the flight controller.
     Every movement will require direct command input from the pilot.
@@ -212,31 +222,31 @@ See the "Sources" for more adetails.
     the drone will continue to rotate at a constant rate,
     instead of just remaining at an angle like it would in self-level mode.
     To return to its level position, you would have to move the stick to the opposition direction.
-    * **ACRO TRAINER** s designed for beginners to safely learn to fly in acro mode.
+  * **ACRO TRAINER** s designed for beginners to safely learn to fly in acro mode.
     It’s basically ACRO mode with a tilt angle limit that prevents your drone from flipping over leading to crashes.
-    * **ANGLE Mode** self-levels the quadcopter when the sticks are released to the cantered position.
+  * **ANGLE Mode** self-levels the quadcopter when the sticks are released to the cantered position.
     It limits the maximum angle the drone can tilt and so it won’t get out of control.
     It behaves like an assisted/stabilized quadcopter, making it easier for beginners to fly.
-    * **HORIZON Mode** mode is basically Angle mode with the ability to do flips & rolls when the stick pass a certain threshold.
+  * **HORIZON Mode** mode is basically Angle mode with the ability to do flips & rolls when the stick pass a certain threshold.
     When you move the sticks back to center the drone will self-level.
 * **Event Triggers / Features**
-    * **ARM** is a safty feature used to enable the quadcopter for flight.
+  * **ARM** is a safty feature used to enable the quadcopter for flight.
     Once it’s armed, the motors will spin. If you have the **MOTOR STOP** option enabled
     the motors will not spin when the drone is armed until you increase throttle.
-    * **GPS RESCUE** requires a working GPS module in your quadcopter.
+  * **GPS RESCUE** requires a working GPS module in your quadcopter.
     You can [configure GPS Rescue mode][08], when it’s activated, your drone should fly back to where it took off.
-    * **FAILSAFE** will simulate a radio link loss. This is used for testing the quadcopter’s behaviour in failsafe.
+  * **FAILSAFE** will simulate a radio link loss. This is used for testing the quadcopter’s behaviour in failsafe.
     This is great if you are testing things like GPS rescue mode.
-    * **AIRMODE** (aka Air Mode) is not really a flight mode, but a feature.
+  * **AIRMODE** (aka Air Mode) is not really a flight mode, but a feature.
     You will not see this in the **Modes** tab but available in the Betaflight **Configuration** tab.
     It basically allows better control at zero throttle. This is particularly useful for freestyle and acrobatic flying.
-    * **ANTI-GRAVITY** reduces dips (sudden pitch-down) on rapid throttle changes, [see this post for detailed explanation][09].
+  * **ANTI-GRAVITY** reduces dips (sudden pitch-down) on rapid throttle changes, [see this post for detailed explanation][09].
     Same as Airmode, if you have turn-on “Anti-Gravity – Permanently enabled” in the **PID Controller** tab,
     you won’t see this in the **Modes** tab.
-    * **BEEPERON**, previously known as BEEPER.
+  * **BEEPERON**, previously known as BEEPER.
     It’s for activating the buzzer in the drone (if available), useful for locating a crashed drone.
-    * **BLACKBOX** is for starting and stopping [Blackbox logging][10].
-    * **FLIP OVER AFTER CRASH**, also know as Turtle mode, is used when you’ve crashed and stuck up-side down,
+  * **BLACKBOX** is for starting and stopping [Blackbox logging][10].
+  * **FLIP OVER AFTER CRASH**, also know as Turtle mode, is used when you’ve crashed and stuck up-side down,
     you can use this mode to “flip” your quadcopter over and hopefully take off again,
     so you don’t have to walk all the way over to pick it up.
     It does it by spinning one side of the motors in the opposite direction
@@ -246,13 +256,13 @@ and most drones come equipped with them: the self-level mode and the acro mode.
 To sum up the differences:
 
 * Acro Mode (aka Rate & Manual Modes):
-    * It uses only the Gyro sensor
-    * Requires stick input to manually return to level
-    * Pitch and roll inputs determine how **fast** the craft rotates around the axis
+  * It uses only the Gyro sensor
+  * Requires stick input to manually return to level
+  * Pitch and roll inputs determine how **fast** the craft rotates around the axis
 * Self-level Mode (aka Angle & Horizon Modes):
-    * Uses both Gyro and Accelerometer sensors
-    * Remains level without stick input
-    * Pitch and roll inputs determine how **far** the craft will rotate on the given axis
+  * Uses both Gyro and Accelerometer sensors
+  * Remains level without stick input
+  * Pitch and roll inputs determine how **far** the craft will rotate on the given axis
 
 >**NOTE:** Acro Trainer, Angle, and Horizon modes require the accelerometer and gyroscope to work.
 >If these modes are missing in the Betaflight **Modes** tab,
@@ -269,6 +279,7 @@ Sources:
 
 
 ## Two Main Flight Modes: Self-Level & Acro
+
 The flight modes assist with how the flight controller (the computer chip that controls the drone's motors) helps the pilot with flying the drone.
 
 In Self- level mode, the flight controller can take over as soon as the pilot takes their hands off the transmitter's sticks and keeps the drone level - this is why it is particularly recommended for beginners.
@@ -277,10 +288,12 @@ On the other hand, in Acro-mode, if the pilot takes their hands off the transmit
 
 
 ## Self-Leveling Modes: Angle & Horizon
+
 These are self-stabilization mode (Self-Leveling Modes) that  means the drone returns to horizon again after every stick input. So, unfortunately, no looping or flip is possible because there is always a maximum tilt angle.
 
 
 ### Angle Mode
+
 Angle mode is a self-level mode that has to do with the tilt of your drone. Here, you need to learn how to properly move your roll/pitch stick to its top position.
 
 So that you can still fly flips and loops with self-stabilization, there is an interim solution, the Horizon Mode.
@@ -291,6 +304,7 @@ As the stick reaches the centre once again, your drone will return to its initia
 
 
 ## Acro Mode
+
 Here's where things get a bit more complicated. As it is fully manual, Acro mode is the "ultimate flight mode" for freestyle flying and drone racing.
 
 Levelling the aircraft falls entirely in your hands because letting go of the stick means its roll and pitch position remains the same. Constant adjustments are needed to keep the drone from crashing.
@@ -312,6 +326,7 @@ this is the only way to fly loops and flips and the like in one fluid movement. 
 
 
 ### Horizon Mode
+
 The Horizon Mode (or Stability Mode) allows me to have the drone roll or yaw more than the maximum angle of inclination. This means that as long as I can move the stick forwards or sideways hold down the drone keeps turning. As soon as I let go of the stick, the drone starts to raise itself again.
 
 Unlike Angle mode, you can do flips and rolls when the stick is at full deflection in Horizon mode. Though, when the pilot's hand leaves the controller, the craft level remains the same.
@@ -324,6 +339,7 @@ Disabling ACC will save some workload on the processor. There is a checkbox to e
 
 
 ### Should I Fly Acro Mode?
+
 For beginners, Self-Leveling or Horizon Mode may sound quite seductive.
 But the self-stabilization causes an extremely unsteady behavior when you attempt any loops or acrbatic flying.
 It may sound a bit strange for beginners, but the Acro Mode flies (as soon as you master it)
@@ -338,6 +354,7 @@ where the flight controller changes the flight path of the drone with the help o
 
 
 #### Step 1: Download Betaflight Configurator - DONE
+
 The location of the latest Betaflight Configurator is located on [its GitHub page][30].
 You find the link on the right within the "Releases" block.
 In my case, the Betaflight Configurator version was 10.9.0.
@@ -383,6 +400,7 @@ Sources:
 
 
 #### Step 2: Configure/Setup the Betaflight Configurator - DONE
+
 Start the Betaflight Configurator (as describe in the earlier step),
 and select the **Gear** on the left side menu column.
 Select the following options:
@@ -420,6 +438,7 @@ Sources:
 
 
 #### Step 1: Screen Shot of Ports
+
 Assuming you got a pre-configured flight controller for your quadcopter that works,
 it is wise to record your port settings.
 You do this so that when things don't work after you flash the firmware, you have it for your referance.
@@ -433,6 +452,7 @@ Sources:
 
 
 #### Step 2: Backup Flight Controller Configuration - DONE
+
 It’s important to always back up your Betaflight config before updating
 Flight Controller firmware because it can erase your previous settings.
 
@@ -452,6 +472,7 @@ Sources:
 
 
 #### Step 3: Calibration of Accelerometer & Magnetometer - DONE
+
 Now go to the **Setup** (Wrench icon) tab to calibrate the accelerometer.
 To do this, set the quadcopter on a level surface and click the **Calibration Accelerometer** button.
 
@@ -471,6 +492,7 @@ Now do this -
 
 
 #### Step 4: Check Motor Order - DONE
+
 Go to the **Motors** tab to make sure the motors are properly ordered and spin in the right direction.
 See 3:44 minutes of the video ["Betaflight 4.3 EASY Setup Guide -- PRESETS FAST!"](https://www.youtube.com/watch?v=znyiaN5dSxc)
 and 16:22 minutes of the video ["How I REALLY configure my own quadcopter"](https://www.youtube.com/watch?v=fC_EbT2J_m8)
@@ -478,6 +500,7 @@ for instruction on what must be done.
 
 
 #### Step 5: Check and Change Motor Direction
+
 You have to make sure the quadcopter's motors are spinning the correct direction
 before putting propellers on for the first flight.
 If one or multiple motors are spinning the wrong direction,
@@ -504,6 +527,7 @@ Sources:
 
 
 #### Step 6: Flight Controller Orientation - DONE
+
 Go to the **Setup** tab to make sure the  FC orientation (aka heading, pitch, and roll) are proerply set.
 See 7:02 minutes of the video ["Betaflight 4.3 EASY Setup Guide -- PRESETS FAST!"](https://www.youtube.com/watch?v=znyiaN5dSxc)
 for instruction on what must be done.
@@ -515,6 +539,7 @@ for instruction on what must be done.
 
 
 #### Step X: Setup Turtle Mode (Flip Over After Crash) - DONE
+
 Turtle mode (now called “Flip Over After Crash” in Betaflight) allows a user to attempt to flip the quadcopter upright, if inverted,
 by reversing the direction of adjacent pairs of motors
 and producing thrust to un-invert the vehicle after a crash.
@@ -573,6 +598,7 @@ Sources:
 
 
 #### Step X: Making Custom Voice Tracks & Sounds
+
 I'm going to use [Audacity][16] to record the sound files that we'll install in EdgeTX.
 I'll use a text-to-speech website called [TTS Demo][17] to create the spoken words that I need.
 
@@ -608,10 +634,12 @@ Sources:
 
 
 #### Step X: 3-Position Switch for Acro / Angle / Horizon Modes
+
 [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
 
 
 #### Step X: Set AirMode On or Off?
+
 While called a "mode", its not really a flight mode, its a feature.
 
 You'll find the AirMode feature in Betaflight's **Configuration** tab in hte **Other Features** section.
@@ -629,16 +657,16 @@ An alternative approach is given here - [Betaflight Air Mode is bad for Whoops. 
 Sources:
 
 * What is Air Mode?
-    * [Simple Explanation of Airmode](https://www.youtube.com/watch?v=hHl-83FSyD8)
-    * [AIR MODE Flight Demo FPV - What is Air Mode? Air Mode VS Acro?? Airmode Explained](https://www.youtube.com/watch?v=HQ3ceM5LTEA)
-    * [Betaflight Airmode](https://oscarliang.com/betaflight-airmode/)
+  * [Simple Explanation of Airmode](https://www.youtube.com/watch?v=hHl-83FSyD8)
+  * [AIR MODE Flight Demo FPV - What is Air Mode? Air Mode VS Acro?? Airmode Explained](https://www.youtube.com/watch?v=HQ3ceM5LTEA)
+  * [Betaflight Airmode](https://oscarliang.com/betaflight-airmode/)
 * Stop Bouncing Landings & Sticking to the Wall
-    * [Why does my quadcopter bounce around on landing?](https://www.youtube.com/watch?v=5NIQguIzO94)
-    * [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4)
-    * [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
+  * [Why does my quadcopter bounce around on landing?](https://www.youtube.com/watch?v=5NIQguIzO94)
+  * [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4)
+  * [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
 * AirMode vs Idle Up
-    * [What is Airmode? | BETAFLIGHT WITH AIR MODE EXPLAINED](https://www.youtube.com/watch?v=d2nRrVENEYM)
-    * [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4)
+  * [What is Airmode? | BETAFLIGHT WITH AIR MODE EXPLAINED](https://www.youtube.com/watch?v=d2nRrVENEYM)
+  * [How To Land In Air Mode | BETAFLIGHT CLEANFLIGHT](https://www.youtube.com/watch?v=Y9FPOy8C6I4)
 
 
 * [Betaflight Air Mode is bad for Whoops. Until now. Maybe.](https://www.youtube.com/watch?v=tCTI2J0QCwc&t=225s)
@@ -648,6 +676,7 @@ Sources:
 
 
 ## AirMode vs Idle Up
+
 Idle Up proceeded Air Mode in Betaflight.
 
 Idle Up is set up in the transmitter to asure that the throttle is down at zero level is not completely stopping the motors so you retain flight control.
@@ -669,6 +698,7 @@ Air Mode is set in the flight controller (Betaflight) increases command authorit
 
 
 ## Dynamic Idle (aka Dynamic Notch ??) Bug
+
 [Propwash][12] is the airflow generated by an aircraft's propeller,
 which can have significant effects on the performance of the aircraft, particularly during takeoff and landing.
 
@@ -718,6 +748,7 @@ When I started out with Acro mode (after breaking some props), i just practiced 
 
 
 # Betaflight Tuning
+
 Tuning an FPV quadcopter means adjusting settings in the flight controller software to make it fly the way we want.
 Not just PID gains, there are many settings in Betaflight that affect flight characteristics,
 including Feedforward, filters, rates and expo etc.
@@ -750,6 +781,7 @@ Your objects are:
 
 
 ## Acro Mode vs Angle Mode
+
 Angle mode uses a earth coordinate system.
 
 * [Betaflight Angle Mode is about to get AWESOME! You can try it TODAY](https://www.youtube.com/watch?v=ILeLo1lWjBk)
@@ -787,6 +819,7 @@ and [Learning to Fly](https://intofpv.com/t-learning-to-fly) says the following:
 
 
 ## How to use Blackbox in Betaflight
+
 It’s recommended to use “Blackbox” to tune your drone. Blackbox is a powerful tool that records flight data during your drone’s flight, providing valuable insights for tuning. By analyzing the data, you can fine-tune your drone’s PID settings and filters to achieve better performance..
 
 * [How to use Blackbox in Betaflight FPV Drones][10]
@@ -797,6 +830,7 @@ It’s recommended to use “Blackbox” to tune your drone. Blackbox is a power
 
 
 ### How to use PIDToolBox and Blackbox Explorer
+
 PIDtoolbox is a set of graphical tools for analyzing Blackbox log data.
 Blackbox Explorer is an interactive log viewer for flight logs recorded with Blackbox.
 
@@ -810,6 +844,7 @@ Blackbox Explorer is an interactive log viewer for flight logs recorded with Bla
 
 
 #### Step X: Minimize Drone Drifting
+
 There are a few common culprits of quadcopters not hovering inplace and drift about.
 Here are the seven that could be causing this issue:
 
@@ -828,6 +863,7 @@ Here are the seven that could be causing this issue:
 
 
 #### Step X: PID Tuning / Rate Profile Settings
+
 **Important** ...
 
 * [Find YOUR perfect rates! With science!](https://www.youtube.com/watch?v=Ql62iRkLX3s)
@@ -841,6 +877,7 @@ Rate profile name: Indoor
 Rate Type: Actual
 
 These are Betaflight defaults rates for the :
+
 | Stick | Center Sensityity | Max Rate | Expo |
 |:------|:-----------------:|:--------:|:----:|
 | Roll  |        70         |    670   | 0.00 |
@@ -848,6 +885,7 @@ These are Betaflight defaults rates for the :
 | Yaw   |        70         |    670   | 0.00 |
 
 These are my latest Betaflight rates:
+
 | Stick | Center Sensityity | Max Rate | Expo |
 |:------|:-----------------:|:--------:|:----:|
 | Roll  |        70         |    620   | 0.50 |
@@ -857,6 +895,7 @@ These are my latest Betaflight rates:
 **Try this** at 1:36 minute - [These Actual Rates are Actually Butter: Finding the Right Actual Rates For You](https://www.youtube.com/watch?v=_aBU--FWH94)
 
 These will give me more sensitivity in the throttle:
+
 | Throttle Setting | My Value | Default |
 |:-----------------|:--------:|:-------:|
 | Throttle Limit   |   SCALE  |   OFF   |
@@ -890,6 +929,7 @@ Sources:
 
 
 ## Backup Flight Control Configuration
+
 Within Betaflight, go to the **Presets** tab.
 
 Source:

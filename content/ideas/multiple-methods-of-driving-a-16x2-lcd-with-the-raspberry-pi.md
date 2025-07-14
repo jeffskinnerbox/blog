@@ -26,6 +26,7 @@ Summary: bla bla bla
 In this post, I will describe two ways to drive this popular LCD display via the Raspberry Pi GPIO pins.
 
 ## The 16x2 LCD Display
+
 [Cheap character crystal display (LCD) based on the HD44780 chipset][01]
 come in a variety of sizes: 2x16, 4x20, etc. These displays have two standard interface modes,
 4 bit and 8 bit parallel. 8 bit requires a total of 11 data lines, 4 bit requires 7 (6 for write-only).
@@ -35,6 +36,7 @@ Hitachi developed the microcontroller specifically to drive alphanumeric LCD dis
 with a simple interface that could be connected to a general purpose microcontroller or microprocessor.
 
 ## Method 1 / 6 Lines
+
 The HD44780 LCD can be fully controlled as a display with 6 digital lines
 (12 lines if you include power, ground, back-light, contrast lighting control, etc.).
 Adafruit has an excellent [tutorial][03], making use of [Python scripts][04],
@@ -45,6 +47,7 @@ and thereby reduce the number of GPIO pins required.
 This is Method #2 outlined next.
 
 ## Method 2 / 2 Lines
+
 The way you can reduce the GPIO pins required is to leverage a [I2C and SPI input/output Expander][06]
 or [I2C Controlled + Keypad Arduino Shield Kit][07] designed for the LCD.
 The Expander is more general purpose since it isn't designed just for the Arduino.
@@ -61,6 +64,7 @@ So maybe a better approach would be to leverage the Python scripts used in Metho
 Of course, the big difference here is the use of I2C as the serial bus, and not the 6 line approach in Method #1.
 
 ## Method 3 / USB
+
 [USB + Serial Backpack Kit with 16x2 RGB backlight positive LCD](http://www.adafruit.com/products/782)
 
 ------

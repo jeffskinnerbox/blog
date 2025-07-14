@@ -22,6 +22,7 @@ Version:      0.0.0
 * [Data Sheet: XR-2206 Monolithic Function Generator](https://www.sparkfun.com/datasheets/Kits/XR2206_104_020808.pdf)
 
 # Direct Digital Synthesizers (DDSs)
+
 [Direct digital synthesis (DDS)][01] is a technique to produce an analog waveform
 (square, triangular, or sinusoidal)
 by generating a digital time varying signal using an external clock
@@ -42,6 +43,7 @@ as they offer high stability and signal purity.
 * [Finally, Tame The Si5351!](https://hackaday.com/2021/11/26/finally-tame-the-si5351/)
 
 # Arbitrary Function Generation
+
 * [Create Arbitrary Waveforms from an Oscilloscope](https://www.youtube.com/watch?v=wPjX7Ahvs9M)
 
 

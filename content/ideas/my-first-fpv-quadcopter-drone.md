@@ -123,6 +123,7 @@ More sources of inspiration:
 
 
 ## What does PNP, BNF, RTF, and ARF Mean?
+
 When you start shopping for FPV quadcopter equipment (e.x. Banggood, Amazon),
 you will sometime encounter these abbreviations next to the product: PNP, BNF, RTF, ARF.
 What this means and what exactly it means will be clarified here.
@@ -146,6 +147,7 @@ Sources:
 
 
 ## My Quadcopter Selection
+
 Tiny whoop's are often operated indoors,
 and it is generally agreed that a 65mm tiny whoop is the best for indoor use.
 Its crash resistant and least likely to break anything in your house.
@@ -178,6 +180,7 @@ whoop quadcopter kit from [BetaFPV](https://betafpv.com/).
 
 
 ## Additional Equipment
+
 To make my tiny whoop Meteor75 Pro quadcopter usable,
 I need additional equipment and tools.
 Primarily, this includes:
@@ -203,6 +206,7 @@ but in any event, I'm taking the time to make sure I fell good about what how I'
 
 
 ## Anticipated Tuning and Modifications
+
 Learn how to fly before doing Betaflight tuning.  The default values in Betaflight should be good enough for initial learnings about flying.
 
 I got several ideas from these sources about changes I would like to consider:
@@ -233,6 +237,7 @@ Specific ideas I want to try:
 
 
 # Prepare Quadcopter for First Flight
+
 The [BetaFPV 80mm Meteor75 Pro 1S][24] comes with a [QR code link][30] to website to get you going for your first flight.
 BetaFPV also provides on the [F4 1S 5A AIO Brushless Flight Controller (aka BETAFPVF411)][25] a great deal of information to get you started.
 
@@ -241,6 +246,7 @@ BetaFPV also provides on the [F4 1S 5A AIO Brushless Flight Controller (aka BETA
 
 
 ## Backup Everything
+
 In this section, I will outline how to do a complete backup to protect yourself from a catastrophic data or software lose of
 your radio controller, flight controller, electronic speed controller, or your goggles.
 In reality, only theses things you have created/configure in the radio controller and flight controller will be saved.
@@ -248,6 +254,7 @@ Any platform level software can always be download from the cloud.
 
 
 #### Step 1: Backup Transmitter (RadioMaster Boxer) - DONE
+
 My [RadioMaster Boxer][26] transmitter has a [EdgeTX][27] operating system with a [ExpressLRS][28] radio.
 [EdgeTX Companion][29] is a computer program that allows you to connect to your
 EdgeTx radio via USB and perform backups, modifications, etc. using your laptop/desktop.
@@ -272,6 +279,7 @@ Sources:
 
 
 #### Step 2: Backup Flight Controller (FC) - DONE
+
 [Betaflight Configurator][14] can help with the backup of the flight controllers (FC) firmware and settings.
 
 1. Via a USB cable, connect your flight controller to you desktop computer.
@@ -305,6 +313,7 @@ Sources:
 
 
 #### Step 3: Backup Quadcopter Radio (ExpressLRS) - DONE
+
 There is really **no way to backup the ExpressLRS radio software** on the quadcopter.
 The best you can do is reflash it with the version you have installed.
 So **what is shown here is the reflashing process**.
@@ -332,6 +341,7 @@ Sources:
 
 
 #### Step 4: Backup RadioMaster Boxer Radio (ExpressLRS) - DONE (sort-of)
+
 Like the quadcopter,
 there is really **no way to backup the ExpressLRS radio software** on the RadioMaster Boxer radio.
 You'll use the same reflashing proceedure outline above except you'll be using
@@ -339,6 +349,7 @@ You'll use the same reflashing proceedure outline above except you'll be using
 
 
 #### Step 5: Backup Electronic Speed Controller (ESC) - DONE (sort-of)
+
 Like the ExpressLRS examples, there is really **no way to backup the ECS software** on the quadcopter.
 The best you can do is reflash the ESC with the [ESC-Configurator][33].
 
@@ -352,6 +363,7 @@ The best you can do is reflash the ESC with the [ESC-Configurator][33].
 
 
 #### Step X: Charge Batteries - DONE
+
 Make sure to charge a sutable 1S LiPo battery (regular or high voltage).
 I'm using [BetaFPV's BT2.0 550mAh 1S Batteries][31], a high voltage battery, on the Meteor75 Pro.
 
@@ -388,14 +400,17 @@ Sources:
 
 
 #### Step X: Prepare Radio Transmitter (RadioMaster Boxer)
+
 See `getting-started-with-radiomaster-boxer.md`
 
 
 #### Step X: Prepare Flight Controller
+
 see `getting-started-with-betaflight.md`
 
 
 #### Step X: Updating & Binding ELRS Reciver to RadioMaster Transmitter
+
 The flight controller Come with a built-in ExpressLRS 2.4G receiver,
 which can be updated via WiFi or Betaflight serial passthrough.
 It use Crossfire serial protocol (CRSF protocol) to communicate between the receiver and the flight controller board.
@@ -445,6 +460,7 @@ Sources:
 
 
 # Next Quadcopter ... I'll Build It
+
 Check out how to do a build
 
 * [2023 Freestyle FPV Drone Build For Total Beginners](https://www.youtube.com/playlist?list=PLwoDb7WF6c8l24IM83wIS94XzhuMVC2gx)
@@ -472,6 +488,7 @@ Check out where to buying
 
 
 ## Cinewhoop
+
 [What is a CineWhoop?](https://www.youtube.com/watch?v=lXhyc_qYT2Y)
 Cinewhoops are drones specifically designed for capturing chrisp, stable, high-definition video that DJI drones can’t capture. They are small, stable and much safer than your 5” FPV drone. They usually run 3” propellers that are protected in ducts that give them more lift
 
@@ -542,6 +559,7 @@ Raspberry Pi
 
 
 ## 5" Racer
+
 FPV Multi-Rotor Racing Classes:
 
 * Micro/150mm Class (measured as the farthest diagonal distance between two motorshafts)
@@ -584,6 +602,7 @@ This is the “standard size” for FPV racing drones.
 
 
 # What FPV Stores for Parts?
+
 GetFPV
 Pyrodrone
 RaceDayQuads
@@ -593,6 +612,7 @@ OscarLiang
 
 
 # Radio Transmitter / Controller
+
 Sometimes called a radio transmitter, or just radio, or just transmitter, or just controller.
 RadioMaster Boxer - $160
 RadioMaster - RadioMaster TX16S - $200 / RadioMaster TX12 - $100
@@ -611,6 +631,7 @@ RadioMaster - RadioMaster TX16S - $200 / RadioMaster TX12 - $100
 
 
 # Optical Flow LIDAR Sensor
+
 This is a sensor to enable position hold and altitude hold on a drone.
 What Is Optical Flow? Optical flow is the distribution of the apparent velocities of objects in an image. By estimating optical flow between video frames, you can measure the velocities of objects in the video.
 
@@ -619,6 +640,7 @@ What Is Optical Flow? Optical flow is the distribution of the apparent velocitie
 
 
 # Radio Controller
+
 Protocols in FPV can be divided into 3 groups:
 
 ```
@@ -641,6 +663,7 @@ Goggles ----------------- Reciever --------------------- Transmitter -----------
 
 
 ## Radio Control Link Protocols
+
 What are all the common radio control (RC) protocols in FPV,
 and how they fit into the communication system in an FPV drone,
 and what their differences are.
@@ -664,6 +687,7 @@ Sources:
 
 
 ### ExpressLRS
+
 [ExpressLRS (ELRS)](https://www.expresslrs.org/) is an open source project focusing on developing a radio control (RC) link. The link is primarly designed for first-person view (FPV) crafts (e.g Multicopters, Planes). ELRS aims to provide the best completely open source, high refresh radio control link, minimising latency while maximising range. A vast range of hardware in both 900 Mhz and 2.4 GHz frequencies is available.
 
 ExpressLRS vs FrSky
@@ -686,6 +710,7 @@ ExpressLRS is an open source,  high performance, low latency long range link.
 
 
 ### Whats the Differance between ELRS vs 4-in-1 vs MPM CC2500?
+
 In the RadioMaster lineup, you can get 3 different modules: Ranger, Micro, Nano.
 The Ranger and Micro fit into a JR Bay.
 A Nano fits into a Nano Bay.
@@ -702,6 +727,7 @@ A Nano fits into a Nano Bay.
 
 
 ## Radio Control Operating Systems
+
 EdgeTX -
 OpenTX -
 
@@ -718,6 +744,7 @@ Sources:
 
 
 ### OpenTX
+
 OpenTX is open source firmware for RC radio transmitters. The firmware is highly configurable and brings much more features than found in traditional radios.
 
 Sources:
@@ -728,6 +755,7 @@ Sources:
 
 
 # Drones
+
 Drones are defined as "an unmanned aircraft or ship guided by remote control or onboard computers",
 and have been around for over [100 hundred years][01].
 These remote-controlled flying crafts have become an increasingly popular project to work on,
@@ -737,11 +765,13 @@ The Drone Racing League was created in 2015 and features racing with custom-buil
 
 
 ## Should I Build or Buy?
+
 For me, there is an obvious choose.
 I want to build my drone for the challenge, learning opportunity, and maximum flexibility of design.
 
 
 ## What is Your Mission?
+
 I have no specific task I want my drone to perform,
 at least not this version.
 I just want the challenge and learn some new things.
@@ -763,16 +793,19 @@ Some thoughts:
 
 
 ### What Size Drone?
+
 Mini / Micro -  EMAX Tiny Hawk - <https://emax-usa.com/collections/tinyhawk-series>
 Tiny Whoop
 3" (aka 3 inch) VS. 5" (aka 5 inch) - [3" vs 5" Freestyle](https://www.youtube.com/watch?v=sMsWprbCPUg&t=199s)
 
 
 ### Work or Play?
+
 This is all play, but in time, maybe what I create could be useful for me or to others.
 
 
 ### What Size Drone?
+
 Some people decide that buying a Whoop class drone ( something small enough to fit in the palm of your hand) is the best way to get started due to their size, ability to survive crashes, and can be flown indoors.
 
 * [Building a Tiny Whoop Micro Drone](https://oscarliang.com/building-tiny-whoop-micro-drone/)
@@ -799,6 +832,7 @@ Others prefer to jump right in to the 5" FPV racing quadcopters class and build 
 
 
 ### What Are Cinewhoops?
+
 [What is a CineWhoop?](https://www.youtube.com/watch?v=lXhyc_qYT2Y)
 Cinewhoops are drones specifically designed for capturing chrisp, stable, high-definition video that DJI drones can’t capture. They are small, stable and much safer than your 5” FPV drone. They usually run 3” propellers that are protected in ducts that give them more lift
 
@@ -827,6 +861,7 @@ Cinewhoops are drones specifically designed for capturing chrisp, stable, high-d
 
 
 ### Indoor or Outside?
+
 What Is Optical Flow? Optical flow is the distribution of the apparent velocities of objects in an image. By estimating optical flow between video frames, you can measure the velocities of objects in the video.
 
 * [How to Fly a Drone Indoors](https://dojofordrones.com/optical-flow-project/)
@@ -834,6 +869,7 @@ What Is Optical Flow? Optical flow is the distribution of the apparent velocitie
 
 
 ### What is a Topothpick Drone?
+
 Toothpick drones are essentially brushless tiny whoops on stretched out frames. They come in a variety of shapes and sizes but in general, they are 100-125 mm in size.
 Toothpick class quads are ultra-light weights that have an AUW of under 100g.
 
@@ -864,6 +900,7 @@ Toothpick class quads are ultra-light weights that have an AUW of under 100g.
 
 
 ### My Choose
+
 Raspberry Pi drone or
 Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and drone enthusiasts.
 
@@ -898,6 +935,7 @@ Teensy-controlled, Arduino-programmable quadcopter! For hobbyist, engineers and 
 
 
 ## Quadcopter Build Videos
+
 Seeing how a quadcopter is built and understanding why its built that way, can be very instructive.
 Below you will find several video that do just this.
 
@@ -907,6 +945,7 @@ Below you will find several video that do just this.
 
 
 ## Components of a Drone Build
+
 What is required to construct a drone, support the building process, and the use of the drone?
 And since building and using something should not be done without insight
 into the principles on which it operates (aka [theory of operation][03]),
@@ -1033,6 +1072,7 @@ what topic / skills do you need to master before or during the build?
 
 
 ## Removing Propellers
+
 The [PropPopper](https://www.tinywhoop.com/products/prop-popper)
 is a tiny tapered fork that gently slides between the prop and the motor bell.
 A lot of the time this is enough to loosen the prop from the shaft,
@@ -1046,6 +1086,7 @@ you can use the tiny plunger to push the motor shaft down and pop the prop right
 
 
 ## Propeller Propwash
+
 [Propwash][34] is the airflow generated by an aircraft's propeller,
 which can have significant effects on the performance of the aircraft, particularly during takeoff and landing.
 
@@ -1157,6 +1198,7 @@ which can have significant effects on the performance of the aircraft, particula
 
 
 # Flight Controller
+
 A flight controller, or “FC”, is like the brain of an FPV drone.
 It’s a circuit board equipped with sensors that detect the drone’s movements and user commands.
 With this information, the FC adjusts the speed of the motors to move the drone in the desired direction.
@@ -1185,12 +1227,14 @@ It’s responsible for stabilizing the aircraft, ensuring precise flight manoeuv
 
 
 ## All In One (AIO) Flight Controllers
+
 All-in-one (AIO) boards combines your FC with ESCs into a single board to simplify your already complex builds.
 
 * [AIO Flight Controller (NOT JUST FOR WHOOPS ANYMORE!)](https://www.youtube.com/watch?v=ZwDiDDKH4D4)
 
 
 # ESC Configuration
+
 ESC - Configurator, a utility designed to simplify updating and configuring of your ESCs.
 
 * [ESC - Configurator](https://esc-configurator.com/)
@@ -1204,6 +1248,7 @@ ESC - Configurator, a utility designed to simplify updating and configuring of y
 
 
 ## Autonomous Flight and Obstacle Avoidance
+
 Predicted GPS (P-GPS) is a form of assistance that reduces the Time to First Fix (TTFF), the time needed by a GNSS module to estimate its position.
 A form of assistance provided to devices trying to obtain a Global Navigation Satellite System (GNSS) fix, where the device can download up to two weeks of predicted satellite Ephemerides data. It enables devices to determine the exact orbital location of the satellite without connecting to the network every two hours with a trade-off of reduced accuracy of the calculated position over time. It is available through nRF Cloud.
 
@@ -1214,6 +1259,7 @@ A form of assistance provided to devices trying to obtain a Global Navigation Sa
 
 
 # Serial Studio
+
 Serial Studio is a multi-platform, multi-purpose serial data visualization program. The goal of this project is to allow embedded developers & makers to easily visualize, present & analyze the data generated by their projects and devices, without the need of writing specialized computer software for each project.
 
 * [Serial Studio: Easily Visualise And Log Serial Data](https://hackaday.com/2021/01/31/serial-studio-easily-visualise-and-log-serial-data/)

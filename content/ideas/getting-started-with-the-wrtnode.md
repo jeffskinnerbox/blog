@@ -24,7 +24,7 @@ Version:      0.0.0
 * [My complete OpenWrt Setup Guide](http://www.jauu.net/2015/03/03/complete-openwrt-guide/)
 
 
-![WRTnode](http://photos-h.ak.instagram.com/hphotos-ak-xap1/10802493_381146012045023_126183938_n.jpg =100x100 "In early November 2014, I got from Seeed Studio the WRTnode. WRTnode is based on WiFi WiFi Access Point System on a Chip, is an open source development board hardware using the Mediatek MT7620n chip.")
+![WRTnode](<http://photos-h.ak.instagram.com/hphotos-ak-xap1/10802493_381146012045023_126183938_n.jpg> =100x100 "In early November 2014, I got from Seeed Studio the WRTnode. WRTnode is based on WiFi WiFi Access Point System on a Chip, is an open source development board hardware using the Mediatek MT7620n chip.")
 In early November 2014, I got from [Seeed Studio][21] the [WRTnode][22].
 WRTnode is based on WiFi Access Point System on a Chip (SoC),
 is an open source development board hardware using the [Mediatek][23] [MT7620n chip][24].
@@ -42,7 +42,7 @@ four-port Ethernet hub, WAN port, some general-purpose GPIO, and serial console 
 In total, there 78 pins GPIO, and from the picture below (take from the [WRTnode Wiki][04]),
 we can see the pinout each and every one of them.
 
-![WRTnode Pin Out](/images/WRTnode_pin_out_v0.2.png =570x374 "Pin out for WRTnode board")(http://wiki.wrtnode.com/images/0/0b/Saving3.png)
+![WRTnode Pin Out](/images/WRTnode_pin_out_v0.2.png =570x374 "Pin out for WRTnode board")(<http://wiki.wrtnode.com/images/0/0b/Saving3.png>)
 
 > **Note:** In this diagram, WRTnode is photographed showing the side where the pins arre soldered,
 so when making connections, you must reverse the pinout.
@@ -66,6 +66,7 @@ hardware toggle button for reset and On/Off switch, USB Power control via GPIO 6
 It has good [documentation][12] and even a [blog][13] for the hacker community.
 
 # Components that Make Up WRTnode
+
 WRTnode is a high performance CPU, low power consuming, cheap,
 and small development board that can run OpenWRT, and  therefore,
 also easy to port open source software of Linux.
@@ -73,6 +74,7 @@ also easy to port open source software of Linux.
 **Replace this with a referance to getting-started-with-openwrt.md**
 
 ## WRTnode Hardware
+
 ![wrtnode](http://www.cnx-software.com/wp-content/uploads/2014/09/WRTnode_large.jpg)
 With a built-in [Mediatek MT7620n][75] chip,
 WRTnode is an open source development board hardware based on WiFi AP System on a Chip (SOC).
@@ -86,6 +88,7 @@ After a layer of A/D converter, it could directly interact with all kinds of sen
 For more on the WRTnode hardware, check out [this wiki][74].
 
 ## WiFi Utilities
+
 Like in standard Linux, WiFi support on WRTNode is fragmented.
 Wireless devices have an API different from that of Ethernet devices
 because the specifications of IEEE 802.11 covers the whole communications process.
@@ -114,6 +117,7 @@ for the up-link part of the router inside of WRTnode.
 [OpenWrt also support many WiFi modes][72] such as AP, Monitor, Ad-Hoc, [802.11s][73], and more.
 
 ### Bootloader
+
 The WRTnode incldues a customized [uboot][29] which is a popular [bootloader][30] that
 supports multiple architectures (ARM, MIPS, AVR32, Nios, Microblaze, 68K and x86)
 and filesystems (FAT32, ext2, ext3, ext4 and Cramfs).
@@ -127,6 +131,7 @@ that the existence of a bootloader offers users and developers
 additional possibilities to [debrick][50] a device.
 
 # Step 1: Getting Connected to WRTnode
+
 First thing to do is go to the [OpenWrt website][14],
 read the [OpenWrt New Comer's Guide][67]
 and then read [Advice on getting started with OpenWRT][15].
@@ -137,6 +142,7 @@ OpenWrt, while a Linux instances, is fundementally a router.
 As such, OpenWrt default configurtion is a [WiFi access point][16].
 
 ## Getting Connected to WRTnode Via WiFi
+
 The easiest way to get connected with WRTnode/OpenWrt on Ubuntu is via
 the [network menu in the menu bar][08].
 We know from the [WRTnode documentation][04]
@@ -156,6 +162,7 @@ If I had a separate laptop or other WiFi enabled computer,
 I could have been successful.
 
 ## Getting Connected to WRTnode Via Serial Console
+
 We do have an alternative to WiFi connectivity to WRTnode,
 that is, via the serial console port on the WRTnode board,
 and thus access via a terminal.
@@ -166,6 +173,7 @@ I will make this console connection using an [Adafruit FTDI Friend][32]
 This will allow me to connect my Linux box to the WRTnode via a USB port and a terminal emulator.
 
 ### Make the USB Device Persistent (Optional)
+
 The first thing I want to do is make this USB device have a [persistent device name][36].
 If this isn't done, the Linux kernel will automatically assign it a device name
 and you need to dance around to find the device.
@@ -213,6 +221,7 @@ sudo screen /dev/ftdifriend33v 115200,cs8
 ```
 
 ### Pin Connections to Access Console
+
 [This web post][33] will provide some insight on
 what pins to connect to on the WRTnode and access the console via the FTDI Friend.
 My diagram for pin connections are given below:
@@ -229,6 +238,7 @@ It should be very responsive and you will not be clashing with
 your Linux boxes attempt to manage WiFi, as referenced earlier.
 
 # Step 2: First Time Login to OpenWrt (via WiFi)
+
 The [first time you connect to OpenWrt][01] via WiFi,
 (none of this applies to login via console),
 you will do so via `telnet` in order to set the root password and start using `ssh`.
@@ -255,6 +265,7 @@ accessible via a browser via URL `192.168.8.1`.
 You'll login as root using the password created for the establishment of `ssh`.
 
 # WRTnode Commands and Helpful Tools
+
 These commands are part of Busybox or OpenWrt,
 and can be very useful:
 
@@ -273,9 +284,10 @@ Using this, you can exploit the file system to see some of the contents of OpenW
 
 ![openwrt bin dir](/images/openwrt-file-system.jpg "Some of OpenWrt's filesystem")
 
-check out http://wiki.openwrt.org/doc/howto/snippets
+check out <http://wiki.openwrt.org/doc/howto/snippets>
 
 ## Scanning for Other Access Points
+
 `aps` is a WRTnode customized command which scans for the WiFi SSIDs available.
 Scan for Access Points that WRTnode's can reach.
 
@@ -303,6 +315,7 @@ Ch  SSID                             BSSID               Security               
 ```
 
 ## Connecting with the Internet
+
 To connect to the Internet,
 WRTnode must configuring the up-link part of the router inside of WRTnode.
 This is equivalent to the Ethernet WAN interface of your home router,
@@ -415,50 +428,55 @@ So now the WRTnode board is connected to the Internet through our home router.
 You can connect to the Internet start configure our WRTnode board.
 
 ## Helpful Tools
+
 As I begain to play with the WRTnode, I ran into several problems,
 most of my own making.
 To monitor what is going on with the WRTnode, I found the following tools useful
 
 * Tools for Monitoring WiFi
-    * [`wavemon`][02] is a ncurses-based monitoring application for wireless network devices.
+  * [`wavemon`][02] is a ncurses-based monitoring application for wireless network devices.
     It displays continuously updated information about signal levels, as well as,
     wireless-specific and general network information.
     **Example Usage:** `wavemon wlan0`
-    * [`iwevent`][05] is another command line tool that displays wireless events
+  * [`iwevent`][05] is another command line tool that displays wireless events
     received through the [RTNetlink socket][06].
     Each line displays the specific wireless event which describes
     what has happened on the specified wireless interface.
     **Example Usage:** `iwevent`
 * Tools for Monitoring NIC
-    * [`netstat`][10] (network statistics) is a command-line tool that displays
+  * [`netstat`][10] (network statistics) is a command-line tool that displays
     network connections for TCP (both incoming and outgoing),
     routing tables, and a number of network interface and network protocol statistics.
     **Example Usage:** `netstat -ie`
-    * [`nicstat`][09] prints network traffic, packets or Kb/s read and written.
+  * [`nicstat`][09] prints network traffic, packets or Kb/s read and written.
     Its a utility like `top` for network interface card (NIC).
     It displays information and statistics about all your network card such as packets,
     kilobytes per second, average packet sizes and more.
     **Example Usage:** `nicstat -i wlan0 1`
 * OpenWrt Console Connection
-    * [`telnet`][31] is a protocol which is part of the TCP/IP suite and used on the
+  * [`telnet`][31] is a protocol which is part of the TCP/IP suite and used on the
     Internet or local area networks to provide a bidirectional interactive
     text-oriented communication facility using a virtual terminal connection.
     **Example Usage:** `telnet 192.168.8.1`
 
 # Other Things
+
 So now that your logged into the WRTnode, now what?
 The [WRTnode Wiki][19] does give some good ideas.
 For starters, your going to want to connect with the Internet to load OpenWrt packages,
 update firmware, etc.
 
 ## Update OpenWrt Software Repository
-http://wiki.wrtnode.com/index.php?title=Starting#WRTnode_software_repository
+
+<http://wiki.wrtnode.com/index.php?title=Starting#WRTnode_software_repository>
 
 ## Restore Factory Settings
-http://wiki.wrtnode.com/index.php?title=Starting#Restore_Factory_Settings
+
+<http://wiki.wrtnode.com/index.php?title=Starting#Restore_Factory_Settings>
 
 ## More
-http://wiki.wrtnode.com/index.php?title=Main_Page
+
+<http://wiki.wrtnode.com/index.php?title=Main_Page>
 [The Pain of Connecting to WPA Wi-Fi on the Linux Command Line](http://www.sevenforge.com/2009/07/28/connecting-to-wpa-wifi-on-the-command-line/)
 [NetworkConfigurationCommandLine/Automatic](https://help.ubuntu.com/community/NetworkConfigurationCommandLine/Automatic)
 [OpenWrt Debricking Guide](http://wiki.openwrt.org/doc/howto/generic.debrick)
@@ -484,12 +502,13 @@ The arp command displays a table of translated hardware addresses in the cache.
 
 
 # WRTnode
+
 * [WRTnode](http://wrtnode.com/w/)
 * [wrthelp – a demo app for the WRTnode](http://blog.thestateofme.com/2014/09/21/wrthelp/)
 * [Getting Started with WRTnode OpenWrt Development Board](http://www.cnx-software.com/2014/09/18/wrtnode-quick-start-guide/)
 * [WRTnode Wiki](http://wiki.wrtnode.com/index.php?title=Main_Page)
-    * [WRTnode Getting Started Guide](http://wiki.wrtnode.com/index.php?title=Starting)
-    * [Refresh the Firmware](http://wiki.wrtnode.com/index.php?title=Refresh_the_firmware)
+  * [WRTnode Getting Started Guide](http://wiki.wrtnode.com/index.php?title=Starting)
+  * [Refresh the Firmware](http://wiki.wrtnode.com/index.php?title=Refresh_the_firmware)
 * [Become your own router with WRTNode - Controlling WRTNode through the serial console](http://www.peatonet.com/en/hazte-tu-propio-router-con-wrtnode-controlando-wrtnode-a-traves-del-puerto-serie-de-consola/)
 * [Become your own router with WRTNode - Adding four LAN ports and one WAN port](http://www.peatonet.com/en/hazte-tu-propio-router-con-wrtnode-anadiendo-cuatro-puertos-lan-y-un-puerto-wan/)
 
@@ -532,7 +551,6 @@ The arp command displays a table of translated hardware addresses in the cache.
 [25]:http://en.wikipedia.org/wiki/Media_Independent_Interface#Reduced_Media_Independent_Interface
 [26]:
 [27]:
-[28]:http://linux.die.net/man/1/busybox
 [29]:http://www.linuxjournal.com/content/handy-u-boot-trick
 [30]:http://www.addictivetips.com/mobile/what-is-bootloader-and-how-to-unlock-bootloader-on-android-phones-complete-guide/
 [31]:http://linux.die.net/man/1/telnet

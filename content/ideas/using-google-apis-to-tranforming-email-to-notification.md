@@ -18,25 +18,31 @@ In the city I live,
 they offer
 
 # Testing
+
 * [Getting started with HTTPie for API testing](https://opensource.com/article/19/8/getting-started-httpie)
 
 # Hacking eMail
+
 * [Hack Your Gmail: A Quick Start for Google App Scripting](https://hackaday.com/2019/01/17/hack-your-gmail-a-quick-start-for-google-app-scripting/)
 
 # eMail Server
+
 By running your own email server, your data is in your own hands and on your own hardware, with no oversight from shadowy corporate entities.
+
 * [Make Your Own Raspberry Pi Email Server](https://www.makeuseof.com/make-your-own-raspberry-pi-email-server/)
 * [Docker Mailserver](https://docker-mailserver.github.io/docker-mailserver/edge/)
-    * [Mail Server](https://geek-cookbook.funkypenguin.co.nz/recipes/mail/)
+  * [Mail Server](https://geek-cookbook.funkypenguin.co.nz/recipes/mail/)
 * [12 Best Self-Hosted Email Server Platforms to Use](https://geekflare.com/self-hosted-email-server/)
 
 ## Should You Host Your Own eMail Server?
+
 * [Why You May Not Want To Run Your Own Mail Server](https://www.digitalocean.com/community/tutorials/why-you-may-not-want-to-run-your-own-mail-server)
 * [Why you shouldn’t try to host your own email](https://www.geekwire.com/2015/why-you-shouldnt-try-to-host-your-own-email/)
 * [Let's Talk About Self-Hosting Email](https://www.youtube.com/watch?v=minBgbUi9Vo)
 * [you should NOT host your own email server! (and here is why)](https://www.youtube.com/watch?v=Nj8tTAGrUKE)
 
 ## Gmail With Your Domain Name
+
 * [How to Use Gmail](https://themeisle.com/blog/use-gmail-with-your-own-domain-name/#free)
 
 
@@ -45,10 +51,11 @@ By running your own email server, your data is in your own hands and on your own
 
 
 # Creating APIs
+
 * [How to set-up a powerful API with Nodejs, GraphQL, MongoDB, Hapi, and Swagger](https://medium.freecodecamp.org/how-to-setup-a-powerful-api-with-nodejs-graphql-mongodb-hapi-and-swagger-e251ac189649)
 
 ## IFTTT
-[!ifttt_logo]:http://marketingland.com/wp-content/ml-loads/2012/09/ifttt-logo.jpg
+
 IFTTT.com (short for “If This Then That”)
 is a popular service which lets you trigger actions
 based on certain events that occur around the Internet.
@@ -88,6 +95,7 @@ IFTTT may say that it's not using any of your data,
 but you can't be that sure about hackers.
 
 ## Pushover
+
 An alternative to Pushover is [Instapush](https://instapush.im/).
 [20 Free and Secure Alternatives to the Parse Push Service](https://dzone.com/articles/20-free-amp-secure-alternatives-to-the-parse-push?edition=252682&utm_source=DailyDigest&utm_medium=email&utm_campaign=dd2016-12-11)
 
@@ -109,6 +117,7 @@ including a title of up to 100 characters.
 * [PubNub - Deliver mobile push notifications to iOS and Android devices, even when an app is offline](https://www.pubnub.com/products/mobile-push/)
 
 ## Parsing eMail
+
 IFTTT has many channels for handling email,
 [most specifically for Gmail][12]
 but there other [tools to help connect with any email service][14].
@@ -134,6 +143,7 @@ This proved too crud for my taste, but is generic and could work for any
 I want to take advantage of Gmail's APIs to get a more eligent approch.
 
 # Gmail API
+
 The [Gmail API][20] is a RESTful API that can be used to access Gmail mailboxes and send mail.
 All you need to use the Gmail API is the [client library][21]
 for your choice of language and an [app that can authenticate][23] as a Gmail user.
@@ -153,7 +163,7 @@ like [installed applications, mobile apps][42], and even [headless devices][43].
 Also, checkout the posting
 "[API Security: Deep Dive into OAuth and OpenID Connect][49]".
 
-See these slides - https://docs.google.com/presentation/d/1KqevSqe6ygWVj4U-wlarKU7-SVR79x-vjpR4gEc4A9Q/edit#slide=id.g1697c74a_1_30
+See these slides - <https://docs.google.com/presentation/d/1KqevSqe6ygWVj4U-wlarKU7-SVR79x-vjpR4gEc4A9Q/edit#slide=id.g1697c74a_1_30>
 
 **These are the flow for installed application or a device**
 
@@ -170,10 +180,12 @@ See these slides - https://docs.google.com/presentation/d/1KqevSqe6ygWVj4U-wlarK
 </div>
 
 # eMail Acount for Water Usage
+
 I set up a Gmail account to recieve water usage reports
 `waterusagejirland@gmail.com`.
 
 # Introduction to OAuth 2.0
+
 OAuth stands for Open Authorization.
 It’s a free and open protocol, that allows users to share their private resources
 with a third party while keeping their own credentials secret.
@@ -187,6 +199,7 @@ it grants access to another person or application to perform actions on your beh
 * [OAuth 2.0 Beginner's Guide](https://dzone.com/articles/oauth-20-beginners-guide)
 
 # Gmail API Quickstart
+
 To create an application that makes requests to the Gmail API,
 I choose to use the [Python Quickstart tool][44] provided by Google API.
 This is a simple Python command-line application that uses
@@ -197,9 +210,11 @@ your Client ID to make request to the Gmail API.
 * [Send Email programmatically with Gmail, Python, and Flask – Twilio Cloud Communications Blog](https://www.twilio.com/blog/2018/03/send-email-programmatically-with-gmail-python-and-flask.html)
 
 ## Step 1: Turn on the Gmail API
+
 ## Step 2: Install the Google Client Library
 
 ## OAuth 2.0 client IDs (Authentication and Authorization)
+
 Like other Google REST APIs,
 the Gmail API uses [Google's Identity Platform][26] (based on [OAuth 2.0][27])
 to handle authentication and authorization.
@@ -209,6 +224,7 @@ The Gmail API supports a number of fine-grained [authorization scopes][28]
 to allow only the level of access required.
 
 ## API Key
+
 When calling an API that does not access private user data,
 you can use a simple [API key][34].
 This key is used to authenticate your application for accounting purposes.
@@ -236,6 +252,7 @@ then there is no need to generate an API key as well.
 Google ignores passed API keys if a passed OAuth 2.0 access token is already associated with the corresponding project.
 
 ### Create a Project (Application)
+
 You need to identify your personal gmail account
 (i.e. your personal identify) with the specified project or application.
 You need to also to associate this project with a client (i.e. a program)
@@ -264,13 +281,14 @@ These credentials can be check by the API  provider to assure
 you have in fact give permission to the client to access the API.
 
 ### Create a Client ID and Client Secret (OAuth 2.0 Client ID)
+
 Next you must create some credentials for the project.
 Going back to the [Google Developer Console for credential creation][31],
 select your project, create OAuth 2.0 client ID credentials,
 select "Other" for Application Type with "water-usage-logging" as its name.
 This gave me (with an option to down load this to JSON file for safe keeping):
 
-See - https://support.google.com/cloud/answer/6158857?hl=en
+See - <https://support.google.com/cloud/answer/6158857?hl=en>
 
 ```
 Client Name
@@ -306,6 +324,7 @@ Your client's/application's client IDs are now listed.
 Take note of the Client ID as you'll need to add it to your code later.
 
 ### Exchange the Authorization Code for an Access Token
+
 Here, Google APIs get a bit more complex than many other API providers.
 Google API documents what is a computer method, not human method,
 for getting access tokens.
@@ -374,6 +393,7 @@ The `gmail-label.py` utility also creates the file `gmail-python-quickstart.json
 
 
 # Using Google's API Management Toods to Manually Creating OAuth Tokens
+
 You can [generating OAuth tokens with Google's OAuth 2.0 Playground][45].
 The [OAuth 2.0 Playground][46],
 in conjunction with the [Google Developers Console][29],
@@ -382,6 +402,7 @@ The OAuth 2.0 Playground guides you through a three step process
 and allows you to test the OAuth process.
 
 # Managing Your APIs
+
 If you wish to manage the API,
 go to the [API Manager site][47] and turn on the monitoring  for your API.
 API Management consist of monitoring the use of the API,
@@ -389,6 +410,7 @@ setting limits on the usage,
 enabling/disabling the API, etc.
 
 # MongoDB
+
 [MongoDB][17] (from hu**mongo**us) is a [document-oriented database][02].
 Classified as a [NoSQL database][03],
 MongoDB isn't like a traditional table-based relational database structure in
@@ -396,6 +418,7 @@ favor of JSON-like documents with dynamic schemas (MongoDB calls the format [BSO
 making the integration of data in certain types of applications easier and faster.
 
 # Redis
+
 [Redis][50] is an open source, in-memory data structure store,
 supporting a large number of data structures
 and is used as a database, cache, and message broker.
@@ -413,6 +436,7 @@ Redis also supports asynchronous replication.
 * [Lelylan breaks up the Internet of Things complexity defining small, independent microservices.](http://www.lelylan.com/)
 
 # Round Robin Database Tool (RRDtool)
+
 <a href="http://oss.oetiker.ch/rrdtool/">
     <img class="img-rounded" style="margin: 0px 8px; float: left" title="RRDtool is the OpenSource industry standard, high performance data logging and graphing system for time series data. RRDtool can be easily integrated in shell scripts, perl, python, ruby, lua or tcl applications." alt="RRDtool Logo" src="{filename}/images/rrdtool-logo.jpg" width="250" height="250" />
 </a>
@@ -463,9 +487,7 @@ The steps to use RRDtool for data graphing
 [19]:http://mitchtech.net/connect-raspberry-pi-to-gmail-facebook-twitter-more/
 [20]:https://developers.google.com/gmail/api/
 [21]:https://developers.google.com/gmail/api/downloads
-[22]:https://pushover.net/
 [23]:https://developers.google.com/gmail/api/auth/about-auth
-[24]:http://en.wikipedia.org/wiki/Push_technology
 [25]:https://developers.google.com/gmail/api/v1/reference/users/messages
 [26]:https://developers.google.com/identity/
 [27]:https://developers.google.com/identity/protocols/OAuth2
@@ -473,13 +495,11 @@ The steps to use RRDtool for data graphing
 [29]:https://console.developers.google.com/start
 [30]:https://console.developers.google.com/home/dashboard?project=home-water-usage
 [31]:https://console.developers.google.com/projectselector/apis/credentials
-[32]:http://oauth.net/
 [33]:http://oauth.net/documentation/getting-started/
 [34]:https://developers.google.com/api-client-library/python/guide/aaa_apikeys
 [35]:https://developers.google.com/console/help/new/
 [36]:https://github.com/burnash/gspread/wiki/How-to-get-OAuth-access-token-in-console%3F
 [37]:https://github.com/joestump/python-oauth2
-[38]:https://developers.google.com/api-client-library/python/guide/aaa_oauth
 [39]:https://developers.google.com/gmail/api/auth/web-server
 [40]:http://google-api-python-client.googlecode.com/hg/docs/epy/oauth2client-module.html
 [41]:https://github.com/google/oauth2client

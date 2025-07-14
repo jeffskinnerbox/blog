@@ -17,6 +17,7 @@ Version:      0.0.0
 # Where is My Stuff?  Is My Stuff OK?
 
 ## Introduction
+
 Many companies are creating the raw sensors to capture data.
 Many companies are creating **IoT SaaS data analytic tools**.
 Many companies are creating **IoT solution** for specific business problems.
@@ -50,6 +51,7 @@ So what is Visibility?
 >to answer the questions “Where is my stuff” … “Is my stuff OK”.
 
 ## Enabling Technologies
+
 1. Location:
 2. Specificity:
 3. State:
@@ -57,7 +59,7 @@ So what is Visibility?
 5. Integrity:
 6. Authenticity:
 
-https://www.airfinder.com/blog/rtls-technologies/what-is-rtls-technology?utm_campaign=AirFinder&utm_source=hs_email&utm_medium=email&utm_content=51835809&_hsenc=p2ANqtz-_bvf85qQ0gD2RFB42cEiFBKrRxuiE_deUFnGafm-3zhJQOvnMc_gvrWqTP9jWaVavuVlhYF3L51urvgRt1IsuaW9O022xbWGD6ur4kArLSEAqrK3w&_hsmi=51835809
+<https://www.airfinder.com/blog/rtls-technologies/what-is-rtls-technology?utm_campaign=AirFinder&utm_source=hs_email&utm_medium=email&utm_content=51835809&_hsenc=p2ANqtz-_bvf85qQ0gD2RFB42cEiFBKrRxuiE_deUFnGafm-3zhJQOvnMc_gvrWqTP9jWaVavuVlhYF3L51urvgRt1IsuaW9O022xbWGD6ur4kArLSEAqrK3w&_hsmi=51835809>
 There are a number of different RTLS technologies and solutions to be aware of:
 
 Infrared RTLS works the same way as your television remote. An infrared tag (i.e., a remote) placed on an asset flashes a unique infrared ID at a fixed interval, which is picked up by a ceiling-mounted infrared reader (i.e., a TV).

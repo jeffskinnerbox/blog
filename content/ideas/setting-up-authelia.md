@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # Authelia
+
 [Authelia](https://www.authelia.com/)
 is an open source authentication and authorization server protecting
 web applications by collaborating with reverse proxies such as Nginx.

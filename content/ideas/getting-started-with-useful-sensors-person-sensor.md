@@ -20,8 +20,8 @@ Version:      0.0.0
 * [mmWave Human Detection Sensor](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
 
 * [Useful Sensors' Tiny Code Reader Is a Privacy-Centric Low-Cost Scanner for 2D QR Codes](https://www.hackster.io/news/useful-sensors-tiny-code-reader-is-a-privacy-centric-low-cost-scanner-for-2d-qr-codes-104d9229e8c7)
-    * [Tiny Code Reader from Useful Sensors](https://www.adafruit.com/product/5744)
-    * [Useful Sensors Tiny Code Reader](https://www.sparkfun.com/products/23352)
+  * [Tiny Code Reader from Useful Sensors](https://www.adafruit.com/product/5744)
+  * [Useful Sensors Tiny Code Reader](https://www.sparkfun.com/products/23352)
 
 
 
@@ -50,6 +50,7 @@ mute a microphone when nobody is present,
 and even recognize different people to personalize their experiences.
 
 #### Step X: Wiring the Person Sensor to a ESP32
+
 Before you start trying to read information from the sensor,
 a good first step is to power it up and make sure it seems to be working correctly.
 To do this, at a minimum you need to connect the GND and 3.3V lines from your microcontroller (MCU) to the sensor.
@@ -62,6 +63,7 @@ With the sensor powered, try moving it around so the camera is pointed at your f
 You should see the LED light up green.
 
 #### Step x: Read Data From the Person Sensor
+
 With the person sensor connected, you can start reading information from it.
 The code needed will depend on the platform you’re using for the main controller device,
 but [here is some example code][08].
@@ -72,9 +74,13 @@ I choose to use Circuit Python / MicroPython / C++ on Linux.
 > >making the 8-bit peripheral address 0xC4.
 
 #### Step x: xxx
+
 #### Step x: xxx
+
 #### Step x: xxx
+
 #### Step x: xxx
+
 #### Step x: xxx
 
 

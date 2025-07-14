@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # M5Stack
+
 M5Stack, with an eye on IoT solutions, provides flexible, quick & easy development components and tools.
 They offer stackable hardware modules and friendly programming platform, to multiple markets like
 industrial IoT, smart agriculture, smart retail, STEM education.
@@ -34,18 +35,21 @@ Key steps include:
 * [Step-by-Step Guide: How to Program ESP32 with Arduino IDE?](https://shop.m5stack.com/blogs/news/step-by-step-guide-how-to-program-esp32-with-arduino-ide)
 
 # M5Stack Atom Echo
+
 * [ATOM Echo Smart Speaker Development Kit](https://shop.m5stack.com/products/atom-echo-smart-speaker-dev-kit)
 * [ATOM Echo Documentation](https://docs.m5stack.com/en/atom/atomecho)
 
 # Home Assistant Integration
+
 * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [I turned my ATOM Echo into a Private Voice Assistant for Home Assistant](https://peyanski.com/atom-echo-as-private-voice-assistant/)
-    * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
+  * [ATOM Echo as Voice Assistant for Smart Home](https://www.youtube.com/watch?v=H12dX5oTBGg)
 * FLASHING THE ATOM ECHO - [$13 voice remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
 * [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
 * [Hands-Free Control with Wake Words](https://www.mostlychris.com/hands-free-control-with-wake-words/)
 
 # Battern Version of "ATOM Echo"
+
 * Adafruit Feather v2 ESP32 board
 * 3.7V / 500mA/hr battery
 * I2S Microphone - [Adafruit SPH0645LM4H][01] I2S MEMS Microphone Breakout (potential alternative is [DAOKI INMP441][02])
@@ -61,6 +65,7 @@ Key steps include:
 
 
 #### Step 1: Quick Testing
+
 The [factory default firmware][10] (compiled on the ESP-IDF platform) on the Atom Echo is a Bluetooth speaker,
 which uses the A2DP protocol to transmit audio data（call reception is not supported).
 After power on, the red LED is displayed.
@@ -76,9 +81,11 @@ The LED turns red when the device disconnects.
 If this doesn't work, it might be beacuse the M5Aton Echo needs factory firmware.
 
 Sources:
+
 * [M5Atom Echo - Unboxing & Testing](https://www.youtube.com/watch?v=ZMFTXzuPBqQ)
 
 #### Step 2: xxx
+
 Now lets test the Atom Echo with some example files provided by M5Stack.
 We'll get these example programs when we load into our development envirnment
 the Atom Echo libraries.

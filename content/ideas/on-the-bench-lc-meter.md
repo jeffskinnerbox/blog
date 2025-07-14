@@ -18,6 +18,7 @@ Version:      0.0.0
 * [Build-It-Yourself LC Meter](https://www.youtube.com/watch?v=mpgAVE4UwFw)
 
 # Ideas for Meter Face
+
 * [Digital VU Meter with Analog Physics](https://hackaday.io/project/181004-digital-vu-meter-with-analog-physics)
 * [Improving OLED VU Meters With A Little Physics](https://hackaday.com/2021/08/09/improving-oled-vu-meters-with-a-little-physics/)
 * [Analog VU Meter - I2C OLED SH1106 - OLEDMeter Animation](https://forum.arduino.cc/index.php)

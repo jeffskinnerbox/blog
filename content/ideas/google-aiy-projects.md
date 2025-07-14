@@ -26,6 +26,7 @@ and to kick this off,
 they have created the [do-it-yourself artificial intelligence, or AIY program][10].
 
 # Google AIY Vision Kit
+
 ![vision-kit](https://hackadaycom.files.wordpress.com/2017/12/google_aiy_vision-kit_th.png?w=600&h=600)
 Google's Vision Kit is a smart camera kit you can build using a Pi Zero W, Pi Camera,
 and a custom vision processing board with the
@@ -48,9 +49,10 @@ but it may be wise to read this article
 ["Teething Troubles for the New AIY Projects Vision Kit?"][37] before assembling the kit.
 
 Google's Vision Kit is loosely similar to Google Clips
-https://design.google/library/ux-ai/
+<https://design.google/library/ux-ai/>
 
 ## Step 1: Voice Kit Physical Assemble - DONE
+
 The physical assembly of the kit is easy but is a delicate operation.
 Followed the steps outline [here][36].
 
@@ -60,12 +62,14 @@ Also, there are  missed labled cables on some kits.
 Follow the instructions carefully.
 
 ## Step 2: Download the Operating System - DONE
+
 First download the Vision Kit SD image and write it to the SD card.
 The instructions for this can be found [here][34],
 but I basically followed the SD-Card burning procedures outlined for
 ["HowTo: Set-Up the Raspberry Pi as a Headless Device"][35].
 
 ## Step 3: Update WiFi, Ethernet, and Hostname Configuration Files - DONE
+
 Before installing the SD Card in the Raspberry Pi,
 I updated the files used for WiFi/Ethernet and host name configuration files
 to reflect my LAN environment and my personal needs.
@@ -79,6 +83,7 @@ By doing this, I will be able to `ssh` right into my Raspberry Pi as a headless 
 The instructions provide by Google assume you have a monitor, keyboard, etc.
 
 ## Step 4: Turn It On for the First Time - DONE
+
 Instructions can be found [here][40].
 Insert your SD card with the Vision Kit SD image,
 and plug in your micro-USB to USB cable with a power source.
@@ -109,6 +114,7 @@ sad faces are blue, joyful faces are red.
 And if your joy score exceeds 85%, an 8-bit sound will play.
 
 ## Step X: ???
+
 * [Creating a Linux service with systemd](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
 
 if you’re attempting to run any of the demo software provided with the Video Kit,
@@ -140,13 +146,17 @@ sudo rmmod gpio_aiy_io
 sudo rmmod aiy_io_i2c
 
 ## Step X: ???
+
 ## Step X: ???
+
 ## Step X: ???
+
 ```bash
 # take picture and store in image.jpg
 raspistill -o ~/tmp/image.jpg --width 1024 --height 768
 
 ```
+
 ```bash
 # update your linux packages and OS
 sudo apt-get update && sudo apt-get dist-upgrade
@@ -168,12 +178,14 @@ raspivid -n -t 0 -w 1280 -h 720 -fps 49 -o - | mplayer -cache 1024 -
 * [Amazon buys smart camera and doorbell startup Blink](https://www.theverge.com/circuitbreaker/2017/12/22/16810516/amazon-blink-acquisition-smart-camera-doorbell-company)
 
 ## BerryNet
+
 * [The 3 trendiest AI kits in 2017 — A quick guide of Google Vision kit, DeepLens & BerryNet](https://becominghuman.ai/which-ai-kit-fits-your-needs-the-best-google-aiy-vision-kit-deeplens-berrynet-16aea8bfbe33)
-    * [Run Object Detection using Deep Learning on Raspberry Pi 3 (1)](https://medium.com/dt42/run-object-detection-using-deep-learning-on-raspberry-pi-3-1-55027eac26c3)
-    * [Run Object Detection using Deep Learning on Raspberry Pi 3 (2)](https://medium.com/dt42/run-object-detection-using-deep-learning-on-raspberry-pi-3-2-66f43609bc85)
-    * [Christmas Gift：BerryNet 2.0 Available now](https://medium.com/dt42/christmas-gift-berrynet-2-0-available-now-c5fbff0ce5fc)
+  * [Run Object Detection using Deep Learning on Raspberry Pi 3 (1)](https://medium.com/dt42/run-object-detection-using-deep-learning-on-raspberry-pi-3-1-55027eac26c3)
+  * [Run Object Detection using Deep Learning on Raspberry Pi 3 (2)](https://medium.com/dt42/run-object-detection-using-deep-learning-on-raspberry-pi-3-2-66f43609bc85)
+  * [Christmas Gift：BerryNet 2.0 Available now](https://medium.com/dt42/christmas-gift-berrynet-2-0-available-now-c5fbff0ce5fc)
 
 # Google AIY Voice Kit
+
 ![voice-kit](https://www.raspberrypi.org/app/uploads/2017/05/AIY-Projects.jpg)
 The first [Google AIY Projects][03] kit arrived free on the [cover of issue 57 of the MagPi][29],
 enabling you to add voice interaction to your Raspberry Pi projects using Google’s Voice Assistant.
@@ -191,6 +203,7 @@ Check out this article:
 [A Magic Mirror with Added TensorFlow](https://medium.com/@aallan/a-magic-mirror-with-added-tensorflow-b8fcc5528a6)
 
 ## Google Assistant
+
 ![google-assistant-logo](https://upload.wikimedia.org/wikipedia/commons/5/5a/Google_Assistant_logo.png)
 [Google Home][12] enables users to speak voice commands to interact with [Google Assistant][13].
 Google Assistant is an intelligent personal assistant.
@@ -238,11 +251,13 @@ open phone apps, and [more][20].
 * [Google Assistant on Raspberry Pi-The Easy Way](https://www.hackster.io/Shailesh-Coder/google-assistant-on-raspberry-pi-the-easy-way-eee782)
 
 ## Step 1: Voice Kit Physical Assemble - DONE
+
 Follow the [AIY Projects][03] website's instructions for
 physically assembling the [Google Assistant Voice Kit][01] or
 you can [checkout this video][07] for some detail help.
 
 ## Step 2: Install Operating System - DONE
+
 Next we have to install the operating system image for this hardware kit.
 Google provides a [pre-configured SD Card image][04] for the kit
 (named `aiyprojects-2017-09-11.img` in my case),
@@ -295,6 +310,7 @@ sudo raspi-config nonint do_ssh 0
 ```
 
 ## Step 3: Test Voice Kit Software - DONE
+
 The [Voice Kit github software][06]
 contains the required drivers to use with the special speaker and microphone hardware,
 along with some testing and install tools.
@@ -315,6 +331,7 @@ Run the following scripts:
 ```
 
 ## Step 4: Configure a Google Developer Project - DONE
+
 Next we setup a Google Developer Project which
 will give us access to the Google Assistant API.
 Using your Google Assistant device,
@@ -327,6 +344,7 @@ I downloaded the JSON file containing the client secret
 I place it in `/home/pi/assistant.json`.
 
 ## Step 5: Turn It On for the First Time - DONE
+
 For the device to begin acting as your Google Assistant, much like Google Home,
 there is a demo app.
 We'll do some convoluted steps here to pattern our commandline activity
@@ -355,6 +373,7 @@ You still be in the dev_terminal at this point and you'll
 need to enter `exit` to terminate the dev_terminal.
 
 ## Step 6: Testing The Button - DONE
+
 The button on top of the Voice Kit can also be talk with Google Assistant.
 Test this out with the following:
 
@@ -369,6 +388,7 @@ src/assistant_grpc_demo.py
 Now press the button and ask a question.
 
 ## Step 7: Setup the Cloud Speech API - DONE
+
 The Cloud Speech API allows you to control device,
 such as the LED button on the Voice Kit, via voice control.
 There is a fee for this, after the first 60 minutes of use.
@@ -385,19 +405,23 @@ and you can execute the script below to test it out.
 # run the button command test
 src/cloud_speech_demo.py
 ```
+
 ## Step X: Adjust the Playback and Recording Volume
 
 alsamixer
 
-https://developers.google.com/assistant/sdk/develop/grpc/hardware/audio
+<https://developers.google.com/assistant/sdk/develop/grpc/hardware/audio>
 
 ## Step X: Run Examples
-https://developers.google.com/assistant/sdk/develop/python/run-sample
+
+<https://developers.google.com/assistant/sdk/develop/python/run-sample>
 
 ## Step X:Customize Interacts with the Assistant
-https://developers.google.com/assistant/sdk/develop/python/next-steps
+
+<https://developers.google.com/assistant/sdk/develop/python/next-steps>
 
 ## Step X: Voice-Controlled Objects via the Voice Kit
+
 * [Building Voice-Controlled Objects with Google’s AIY Projects Voice Kit](https://blog.hackster.io/building-voice-controlled-objects-with-googles-aiy-projects-voice-kit-352d3272cede)
 
 ## Adding a Camera

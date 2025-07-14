@@ -18,6 +18,7 @@ Slug: cheatsheet-nerd-commenter-commands
 Status: hidden
 
 ## Command
+
 | NERD Commenter Command | Action |
 |:----:|:------|
 | [count]<leader>cc | |

@@ -40,7 +40,6 @@ Additional evidence of Fitbit rich eco-system:
 
 
 [01]:https://ifttt.com/fitbit
-[02]:https://www.fitbit.com/store
 [03]:https://dev.fitbit.com/docs/
 [04]:https://apigee.com/me3/embed/console/fitbit
 [05]:https://dev.fitbit.com/docs/basics/

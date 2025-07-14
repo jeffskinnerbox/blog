@@ -20,7 +20,7 @@ The are illustrative of how we human beings can be so very wrong,
 or as in the quote relevant now, we can be so amazingly insightful:
 
 **I wish to God these calculations had been executed by steam**
-Charles Babbage - http://www.azquotes.com/quote/653911
+Charles Babbage - <http://www.azquotes.com/quote/653911>
 
 We live in an analog world.
 There are an infinite amount of colors to paint an object
@@ -34,24 +34,28 @@ meaning there is a limited set of values they can be.
 How can this possibly be better?
 
 # Analog
+
 [!bob-widlar](https://hackadaycom.files.wordpress.com/2017/03/widlarposterfordigitalguys-www.jpg)
+
 * [Bob Widlar cherry-bombs the intercom speaker](http://www.edn.com/electronics-blogs/anablog/4311277/Bob-Widlar-cherry-bombs-the-intercom-speaker-item-2)
 * [HEROES OF HARDWARE REVOLUTION: BOB WIDLAR](http://hackaday.com/2014/04/08/heroes-of-hardware-revolution-bob-widlar/)
 * [The First Linear IC The µA702 Operational Amplifier](http://smithsonianchips.si.edu/augarten/p16.htm)
 
 # Digital Disruption
+
 Companies today are rushing headlong to become more digital.
 But what does digital really mean?
 
-http://www.mckinsey.com/global-themes/digital-disruption
-http://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/raising-your-digital-quotient
+<http://www.mckinsey.com/global-themes/digital-disruption>
+<http://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/raising-your-digital-quotient>
 
 # Digitization
+
 Digitization is the process of converting information into a digital format.
 In this format, information is organized into discrete units of data (called bits)
 that can be separately addressed (usually in multiple-bit groups called bytes).
 This is the binary data that computers and many devices with computing capacity
-Source: http://whatis.techtarget.com/definition/digitization
+Source: <http://whatis.techtarget.com/definition/digitization>
 
 Audio and video digitization uses one of many analog-to-digital conversion processes
 in which a continuously variable (analog) signal is changed,

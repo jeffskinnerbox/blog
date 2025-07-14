@@ -21,7 +21,8 @@ Version:      0.0.0
 
 
 # EdgeX Foundry
-Much of the EdgeX detail is on the public site at https://www.edgexfoundry.org/ plus its technical wiki https://wiki.edgexfoundry.org/
+
+Much of the EdgeX detail is on the public site at <https://www.edgexfoundry.org/> plus its technical wiki <https://wiki.edgexfoundry.org/>
 
 To get hands on with the code and connected with community,
 go to [here](https://www.edgexfoundry.org/community/#HowToGetStarted)

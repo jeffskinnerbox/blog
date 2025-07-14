@@ -9,6 +9,7 @@ Version:      0.0.0
 
 ---
 
+
 # a Docker Image for Conda Application
 
 When you’re building a Docker image for a Conda-based application, you’ll need to activate a Conda environment.
@@ -24,13 +25,16 @@ So how do you activate a Conda environment in a Dockerfile?
 
 * [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
+
 # What is pipx?
 
 * [Why You Should Install Python Apps With pipx (and How to Get Started)](https://www.howtogeek.com/install-python-apps-with-pipx/)
 
+
 # What About Pip?
 
 * [Python Basics Exercises: Installing Packages With pip](https://realpython.com/courses/basics-exercises-install-packages-with-pip/)
+
 
 # What is the Difference Between Miniconda and Anaconda?
 
@@ -55,9 +59,11 @@ Miniconda is lightweight and quick to install, making it a great choice if you�
 * [Installing anaconda over existing python system?](https://stackoverflow.com/questions/34906338/installing-anaconda-over-existing-python-system)
 * [Jupyter Standalone Might Just Be Better Than Anaconda](https://towardsdatascience.com/jupyter-standalone-might-just-be-better-than-anaconda-53104da05eee)
 
+
 # What About Anaconda and Raspberry Pi?
 
 * [Installing Anaconda Python Distribution on Raspberry Pi](https://www.youtube.com/watch?v=fYPr43YhTMM&t=185s)
+
 
 # Ephemeral Environments
 
@@ -119,9 +125,11 @@ Packages can conflict with each other and be dependent on specific version of Py
 From the [official documents][05]:
 "A virtual environment (also called a venv) is a Python environment such that the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments, and (by default) any libraries installed in a “system” Python, i.e. one which is installed as part of your operating system."
 
+
 ## What is an Environment
 
 In the world of Python, an environment is a folder (directory) which contains everything that a Python project (application) needs in order to run in an organised, isolated fashion. When it is initiated, it automatically comes with its own Python interpreter - a copy of the one used to create it - alongside its very own pip.
+
 
 ## Virtual Environments
 
@@ -139,6 +147,7 @@ containing the Python interpreter and a copy of pip.
 Afterwards, in order to work with it, we need to either specify the location of that interpreter
 or us its `activate` command.
 
+
 ## Virtualenv and Shebang
 
 It is important to use [shebang][11] `#!/usr/bin/env python` within Python executable scripts.
@@ -149,6 +158,7 @@ and **not** `$PYTHONPATH` set for you login.
 * [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 * [How to activate a Python virtual environment from a script file](https://www.a2hosting.com/kb/developer-corner/python/activating-a-python-virtual-environment-from-a-script-file)
 * [How to create a virtual environment in Python](https://www.techloy.com/how-to-create-a-virtual-environment-in-python/)
+
 
 ## Leave Your Native Python Alone
 
@@ -195,6 +205,7 @@ and use Pip for package version management.
 Sources:
 
 * [Enviroments, Conda, Pip, aaaaah!: Managing Python environments without a headache](https://towardsdatascience.com/environments-conda-pip-aaaaah-d2503877884c)
+
 
 # Installation of Your Python Environment - DONE
 
@@ -259,7 +270,9 @@ Sources:
 * [Install Miniconda on Linux from the command line in 5 steps](https://javedhassans.medium.com/install-miniconda-on-linux-from-the-command-line-in-5-steps-403912b3f378)
 * [How to Uninstall Miniconda on Linux: A Guide](https://saturncloud.io/blog/how-to-uninstall-miniconda-on-linux-a-guide/)
 
+
 # Typical Workflow
+
 
 #### Step 1: Create and Activate Environment
 
@@ -304,12 +317,14 @@ To deactivate an active environment, do the following
 conda deactivate
 ```
 
+
 #### Step X: Install Desired Packages
 
 ```bash
 # pip should already be installed but lets make sure
 conda install pip
 ```
+
 
 #### Step X: Transfer a Conda Environment to Another Device
 
@@ -327,6 +342,7 @@ conda env create -f environment.yml
 
 pyder
 This will create a new environment with the same name and packages as the original.
+
 
 #### Step X: Remove/Delete Conda Environment
 

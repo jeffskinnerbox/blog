@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Install Lazygit
+
 Lazygit is a terminal based UI tool for Git commands. This tool allows to view commit history, pull or push changes, resolve merge conflicts, checkout recent branches, and more.
 
 * [Install and Use lazygit – A simple terminal UI for git commands](https://computingforgeeks.com/how-to-install-and-use-lazygit-a-simple-terminal-ui-for-git-commands/)
@@ -25,6 +26,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 
 
 ## Create and Clone
+
 | Git Command | Action |
 |:----:|:------|
 | git init | create new repository |
@@ -32,6 +34,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 | git clone _username@host:/path/to/repository_ | clone remote repository |
 
 ## Add and Remove
+
 | Git Command | Action |
 |:----:|:------|
 | git add _filename_ | add changes to INDEX |
@@ -39,6 +42,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 | git remove _filename_ | remove / delete |
 
 ## Commit and Synchronize
+
 | Git Command | Action |
 |:----:|:------|
 | git commit -m "_commit message_" | commit changes |
@@ -47,6 +51,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 | git pull | update local repository with the remote changes |
 
 ## Branch
+
 | Git Command | Action |
 |:----:|:------|
 | git checkout -b _branch_ | create new branch |
@@ -55,23 +60,27 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 | git push origin _branch_ | push branch to remote repository |
 
 ## Merge
+
 | Git Command | Action |
 |:----:|:------|
 | git merge _branch_ | merge changes from another branch |
 | git diff _source-branch_ _target-branch_ | view changes between two branches |
 
 ## Tag
+
 | Git Command | Action |
 |:----:|:------|
 | git _tag_ _commit-ID_ | create tag |
 | git log | get commit IDs |
 
 ## Restore
+
 | Git Command | Action |
 |:----:|:------|
 | git checkout -- _filename_ | replace working copy with latest from HEAD |
 
 ## Stash
+
 | Git Command | Action |
 |:----:|:------|
 | git stash | saves files on a stack of unfinished changes that you can reapply at any time |
@@ -79,6 +88,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 | git stash list | see which stashes you’ve stored |
 
 # Loading the GitHub Repository for the First Time
+
 Within the ~.bash directory, use git to load the files to GitHub
 
     cd ~/.bash
@@ -86,6 +96,7 @@ Within the ~.bash directory, use git to load the files to GitHub
     git push -u origin master
 
 # Updating the Local Git Repository
+
 Within the .vim directory, do a "get status" to see what will be included in the commit,
 add files (or remove) that are required, and then do the commit to the local git repository.
 
@@ -95,6 +106,7 @@ add files (or remove) that are required, and then do the commit to the local git
     git commit -m <comment>
 
 # Updating the Remote Repository (i.e. GitHub)
+
 To which shows you the URL that Git has stored for the shortname for
 the remote repository (i.e. GitHub):
 
@@ -105,6 +117,7 @@ Now to push your files to the GitHub repository
     git push -u origin master
 
 # Retrieving Update From Remote Repository (i.e. GitHub)
+
 To retrieve these updates on another system, use
 
     git pull origin master
@@ -121,6 +134,7 @@ If you have any files that are _not_ tracked by Git,
 these files will not be affected.
 
 # Contribute to Someone's Repository
+
 See NOTE.md for ThingSpace Demo (tsdemo)
 
 * [How to Contribute to Someone's GitHub Repository](https://www.youtube.com/watch?v=yr6IzOGoMsQ)
@@ -130,12 +144,14 @@ See NOTE.md for ThingSpace Demo (tsdemo)
 * [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
 ## Sources
+
 These are the sources for the commands documented above in the tables.
 
 * [git cheat sheet](http://rogerdudler.github.io/git-guide/files/git_cheat_sheet.pdf)
 * [The most useful git commands](https://orga.cat/posts/most-useful-git-commands)
 
 ## Requires More Research
+
 These links should be explored to see it additional information
 could be gathered for this cheat sheet.
 

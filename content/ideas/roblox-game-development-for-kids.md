@@ -18,11 +18,12 @@ Gemini Prompt: Which is more exciting for a 8 to 12 year old? Minecraft or Roblo
 ---------------
 
 
-# Minecraft 
+# Minecraft
+
 Minecraft does not have a direct equivalent of Roblox Studio.
 While Minecraft allows for significant customization and modding,
 it doesn't offer a dedicated, user-friendly development environment like Roblox Studio for creating
-and publishing full games within the Minecraft ecosystem. 
+and publishing full games within the Minecraft ecosystem.
 
 The Mindcraft game has a recommended PEGI rating of 7 and an ESRB rating of Everyone 10+.
 
@@ -42,19 +43,19 @@ The Mindcraft game has a recommended PEGI rating of 7 and an ESRB rating of Ever
 * [Roblox Logo and the Company’s History](https://blog.logomyway.com/roblox-logo/)
 * [What Parents Need To Know About Roblox](https://www.esrb.org/blog/what-parents-need-to-know-about-roblox-2/)
 
-Roblox has an ESRB rating of T for Teen (suitable for ages 13+) and a PEGI rating of "Parental Guidance Recommended" due to its user-generated content. 
+Roblox has an ESRB rating of T for Teen (suitable for ages 13+) and a PEGI rating of "Parental Guidance Recommended" due to its user-generated content.
 
 While children of various ages use Roblox, Roblox itself recommends Roblox Studio,
-the platform for scripting and development, for ages 10 and up. 
+the platform for scripting and development, for ages 10 and up.
 
 * Some younger students may be able to start earlier, especially those who are comfortable with reading and typing.
 * Lua scripting, the language used in Roblox Studio, typically clicks around 10-12 years old,
   especially for those with experience in other coding languages.
 * Younger students might initially focus on building and design within Roblox Studio before diving into scripting.
 * Block coding platforms like [Scratch][01], [Code.org][02], and [Tynker][03] are good starting points for younger children (7-10)
-  before transitioning to typed code like Lua. 
+  before transitioning to typed code like Lua.
 
-Roblox Coding - https://www.codewizardshq.com/roblox-coding/
+Roblox Coding - <https://www.codewizardshq.com/roblox-coding/>
 
 Scripting: Roblox Studio uses Lua scripting language to enable users to add interactivity and functionality to their games. Users can write scripts to control gameplay mechanics, create custom user interfaces, handle player input, and more.
 
@@ -68,10 +69,12 @@ Scripting: Roblox Studio uses Lua scripting language to enable users to add inte
 
 
 ## Get Roblox Account
-https://www.roblox.com/
+
+<https://www.roblox.com/>
 
 ## Install Roblox Studio
-https://create.roblox.com/landing
+
+<https://create.roblox.com/landing>
 
 
 

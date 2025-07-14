@@ -21,6 +21,7 @@ so built this multifunctional radio controller which can be used for pretty much
 * [DIY Arduino based RC Hovercraft](https://howtomechatronics.com/projects/diy-arduino-based-rc-hovercraft/)
 
 # Radio Controller
+
 * [DIY Arduino RC Transmitter](https://howtomechatronics.com/projects/diy-arduino-rc-transmitter/)
 * [DIY Arduino RC Receiver | Radio Control for RC Models and Arduino Projects](https://www.youtube.com/watch?v=tzNROquPEHQ)
 * [iNap Malinka](https://www.hackster.io/leonek/inap-malinka-1ea718)
@@ -34,6 +35,7 @@ so built this multifunctional radio controller which can be used for pretty much
 
 
 # Altoid Tin Gaming Controller
+
 * [A Cute Handheld Gaming Device That You Can Build In An Altoids Tin](https://hackaday.com/2025/03/21/a-cute-handheld-gaming-device-that-you-can-build-in-an-altoids-tin/)
 * [This Raspberry Pi handheld console fits in an Altoids tin, and it's seriously adorable](https://www.xda-developers.com/raspberry-pi-console-altoids-tin/)
 * [Pi Tin: New Raspberry Pi-based retro handheld fits in a mint tin](https://www.notebookcheck.net/Pi-Tin-New-Raspberry-Pi-based-retro-handheld-fits-in-a-mint-tin.984923.0.html)

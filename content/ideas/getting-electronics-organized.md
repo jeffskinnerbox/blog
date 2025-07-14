@@ -11,8 +11,8 @@ Version:      0.0.0
 
 
 * [Updating organization at the Adabench for the New Year](https://www.youtube.com/watch?v=PRxr8liq9FU)
-    * [Compartment Storage Box](https://www.adafruit.com/product/2938)
-    * [Tiny Modular Snap Boxes - SMD](https://www.adafruit.com/product/427)
-    * [Drawer unit on casters](https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-gray-turquoise-50483449/)
-    * [Gridfinity](https://gridfinity.xyz/)
+  * [Compartment Storage Box](https://www.adafruit.com/product/2938)
+  * [Tiny Modular Snap Boxes - SMD](https://www.adafruit.com/product/427)
+  * [Drawer unit on casters](https://www.ikea.com/us/en/p/alex-drawer-unit-on-casters-gray-turquoise-50483449/)
+  * [Gridfinity](https://gridfinity.xyz/)
 

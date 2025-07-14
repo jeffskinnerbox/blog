@@ -18,22 +18,25 @@ Version:      0.0.0
 
 
 # Raspberry Pi IoT Server
+
 * [Raspberry Pi IoT Server Tutorial: InfluxDB, MQTT, Grafana, Node-RED & Docker](https://www.youtube.com/watch?v=_DO2wHI6JWQ)
 * [#295 Raspberry Pi Server based on Docker, with VPN, Dropbox backup, Influx, Grafana, etc: IOTstack](https://www.youtube.com/watch?v=a6mjt8tWUws)
 
 
 * [The definitive Node.js handbook](https://medium.freecodecamp.org/the-definitive-node-js-handbook-6912378afc6e)
 * [What's new in Node-RED 2.0](https://www.youtube.com/watch?v=eTEbqZcumz4)
-    * [Version 2.0 released](https://nodered.org/blog/2021/07/20/version-2-0-released)
-    * [Node-RED](https://nodered.org/)
+  * [Version 2.0 released](https://nodered.org/blog/2021/07/20/version-2-0-released)
+  * [Node-RED](https://nodered.org/)
 
 
 # FlowForge / FlowFuse
+
 FlowForge is changing its name to FlowFuse
+
 * [FlowForge](https://www.youtube.com/watch?v=K4xw09DbSdI)
 * [FlowForge](https://flowfuse.com/)
 * [Installing the FlowFuse Edge Agent on the Raspberry Pi 5 for Node-RED](https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/installing-the-flowfuse-edge-agent-on-the-raspberry-pi-5-for-node-red-2023-11/)
-    * [Install the FlowFuse Edge Agent on the Raspberry Pi 5](https://flowfuse.com/blog/2023/11/raspberry-pi-5-flowfuse-edge-agent/)
+  * [Install the FlowFuse Edge Agent on the Raspberry Pi 5](https://flowfuse.com/blog/2023/11/raspberry-pi-5-flowfuse-edge-agent/)
 
 
 
@@ -54,6 +57,7 @@ Then there are an increasing number of API providers, particularly commercial bu
 who offer offer access to their services or data via APIs.
 
 # What is IoT?
+
 The trouble with the Internet of Things is that the things
 don’t really talk to each other.
 Devices like the Nest thermostat, the Dropcam camera, etc.
@@ -117,6 +121,7 @@ and the orchestration of a user experience,
 while honoring the implied tenets, should be our mission.
 
 # Proposal
+
 I propose here the use of REST + Hypermedia
 (aka HATEOAS, an abbreviation for "Hypermedia As The Engine Of Application State"
 or [Hypermedia APIs][32])
@@ -157,7 +162,9 @@ They need to be addressable just like any web API.
 My proposal is that we allow for this.
 
 # Background
+
 ## REST
+
 Much as been written about REST APIs,
 [so browse the web to get the painful details][31],
 but I like the following description:
@@ -170,6 +177,7 @@ While this doesn't truly describe REST,
 it does say why its used as an architectural style.
 
 ## Hypermedia
+
 Hypermedia, an extension of the term hypertext,
 is a random access medium of information which includes graphics, audio, video, plain text, and hyperlinks.
 Hypermedia is a subset of multimedia,
@@ -199,6 +207,7 @@ and links for client navigation:
 * [Hypermedia: The Good, the Bad, and the Ugly](http://www.slideshare.net/mikestowe/hypermedia-the-good-the-bad-and-the-ugly)
 
 # Node.js
+
 [!node-logo](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png)
 Node.js is good for apps where the server side is serving web services being called by many clients
 or web applications employing push technology over websockets.
@@ -217,11 +226,13 @@ it's the whole stack that has to be able support high volume of web service requ
 Node.js is a piece of it.
 
 Reading list:
+
 * [Why The Hell Would I Use Node.js? A Case-by-Case Tutorial](http://www.toptal.com/nodejs/why-the-hell-would-i-use-node-js)
 * [Node.js Embedded Development on the Raspberry Pi](https://learn.adafruit.com/node-embedded-development/why-node-dot-js)
 * [A Beginner’s Guide to npm — the Node Package Manager](https://www.sitepoint.com/beginners-guide-node-package-manager/#managingdependencies)
 
 ## Installing Node.js
+
 Head to the [Node.js download page][12] and grab the version you need.
 For Linux, you can also install Node via the package manager,
 for example [installing on Node.js on Ubuntu 16.04][13].
@@ -248,6 +259,7 @@ nvm --version
 # to find out the versions of Node.js that are available for installation
 nvm ls-remote
 ```
+
 When you install Node.js using `nvm`,
 the executable is called `node`.
 You can see the version currently being used by the shell by typing `node -v`.
@@ -292,6 +304,7 @@ $ npm --version
 ```
 
 ## Node Packaged Modules
+
 `npm` can install packages in local or global locations.
 In local mode it installs the package in a node_modules folder in your parent working directory. This location is owned by the current user.
 
@@ -334,9 +347,11 @@ npm list --depth=0
 * [create a free Org](https://www.npmjs.com/features)
 
 ## console.log
+
 * [Colorful Console Message](https://medium.com/@samanthaming/colorful-console-message-2e8203786838)
 
 ## Managing Package Dependencies
+
 The best way to manage locally installed npm packages
 and there dependencies on each otehr is to create a [`package.json` file][16].
 This can be created with the command `npm init`:
@@ -404,6 +419,7 @@ npm install underscores@0.0.1 --save
 ```
 
 # Process Object
+
 The process object is a global that provides information about,
 and control over, the current `node.js` process.
 As a global, it is always available to `node.js` applications without using `require()`.
@@ -423,16 +439,19 @@ var PORT = process.env.PORT || 2000;
 ```
 
 # Node.js Based IoT Platforms
+
 * [Raspberry pi, a Buzzer and Node.js – An IoT Doorbell](http://thejackalofjavascript.com/rpi-buzzer-node-iot-doorbell/)
 * [Home Monitoring with Raspberry Pi and Node.js](https://www.hackster.io/andreioros/home-monitoring-with-raspberry-pi-and-node-js-8ec795)
 * [Video: Node.JS Appliances on Embedded Linux Devices](https://www.youtube.com/watch?v=92Zh8b4W570)
 
 # Apigee
+
 * [Apigee-127: A Toolkit for Building Awesome APIs](http://apigee.com/about/blog/developer/apigee-127-toolkit-building-awesome-apis)
 * [A127: Introduction And Getting Started](https://www.youtube.com/watch?v=KL1kAH2ipBw)
 * [Build APIs in Node.js and Swagger 2.0 with Apigee-127](https://www.youtube.com/watch?v=Fw43z14Y1Xw)
 
 # Zetta
+
 [!zetta-logo](https://camo.githubusercontent.com/7988230f7b222a8e743a3d09ed61f40cc7d70c17/687474703a2f2f7777772e7a657474616a732e6f72672f696d616765732f6c6f676f732f7a657474612d6c6f676f2e737667)
 The amazing thing about the web is the fact that clients (browsers) and servers
 can interact in complex ways without the client knowing anything beforehand
@@ -464,20 +483,21 @@ Zetta models physical devices as state machines and then assists in the orchestr
 
 There are several tutorials and examples to help you learn how to make use of Zetta.
 T
+
 * Documentation
-    * [Zetta website](http://www.zettajs.org/)
-    * [Zetta's Wiki - Introduction to Zetta](https://github.com/zettajs/zetta/wiki)
-    * [Zetta Projects Directory](http://www.zettajs.org/projects/)
+  * [Zetta website](http://www.zettajs.org/)
+  * [Zetta's Wiki - Introduction to Zetta](https://github.com/zettajs/zetta/wiki)
+  * [Zetta Projects Directory](http://www.zettajs.org/projects/)
 * Code Examples
-    * [Zetta Tutorials](https://github.com/zettajs/zetta-tutorials)
-    * [Zetta Coding Examples](https://github.com/kevinswiber?tab=repositories)
-    * [Building a Zetta Security System](https://github.com/zettajs/zetta-security-system)
+  * [Zetta Tutorials](https://github.com/zettajs/zetta-tutorials)
+  * [Zetta Coding Examples](https://github.com/kevinswiber?tab=repositories)
+  * [Building a Zetta Security System](https://github.com/zettajs/zetta-security-system)
 * Slideware
-    * [Zetta: An API First Platform](http://www.slideshare.net/apijp/zetta-an-api-first-platform)
-    * [Zetta js Hands on IoT](http://www.slideshare.net/anilsagar/zetta-js-hands-on-iot?qid=3863ecca-1807-4cb0-95f3-692b7653d168&v=&b=&from_search=2)
-    * [Designing an API for the Internet of Things](http://www.slideshare.net/kswiber/designing-an-api-for-the-internet-of-things?qid=3863ecca-1807-4cb0-95f3-692b7653d168&v=&b=&from_search=39)
+  * [Zetta: An API First Platform](http://www.slideshare.net/apijp/zetta-an-api-first-platform)
+  * [Zetta js Hands on IoT](http://www.slideshare.net/anilsagar/zetta-js-hands-on-iot?qid=3863ecca-1807-4cb0-95f3-692b7653d168&v=&b=&from_search=2)
+  * [Designing an API for the Internet of Things](http://www.slideshare.net/kswiber/designing-an-api-for-the-internet-of-things?qid=3863ecca-1807-4cb0-95f3-692b7653d168&v=&b=&from_search=39)
 * Videos
-    * Zetta training by Matthew Dobson (Software Engineer at Apigee)
+  * Zetta training by Matthew Dobson (Software Engineer at Apigee)
 "JavaScript with featured guest Zetta:
 [Part 1](https://www.youtube.com/watch?v=zXaM7eO_EoQ),
 [Part 2](https://www.youtube.com/watch?v=WYbvt8ODACY),
@@ -486,6 +506,7 @@ T
 hese include:
 
 ## Zetta Device
+
 Class: Zetta.Device
 
 This is a zetta device modeled in software.
@@ -504,6 +525,7 @@ A device in Zetta has three different pieces of information attached to it in th
 1. `links` are different pieces of context around the object. They can be websocket links leading to sensor readings or links back to the parent server of where the object lives.
 
 ## Zetta Scout
+
 A Scout is a Zetta class that finds devices connected to a Zetta server.
 When the Zetta server starts up,
 it's possible that not all of its devices are online.
@@ -520,15 +542,18 @@ It's used by `require('zetta-scout');` or `require('zetta').Scout;`.
 You must inherit from the Scout class when building custom Zetta modules.
 
 ## Zetta Auto Scout
+
 Zetta Auto Scout is a way to initiate a zetta device driver without having to build a generic scout that looks for only a device type.
 This will only initialize one led driver, zetta thinks that it already exists. You can get around this with adding separate args for each device.
 
-https://github.com/zettajs/zetta-auto-scout
+<https://github.com/zettajs/zetta-auto-scout>
 
 ## Zetta App
+
 Apps let you query for devices and create interactions between them in JavaScript.
 
 ## Zetta Server
+
 The Zetta server communicates and coordinates with physical devices on a network
 and generates REST APIs that you can use to interact with those devices over HTTP.
 The Zetta API is a built-in, out-of-the-box feature of Zetta.
@@ -543,21 +568,25 @@ where hyperlinks lead you to related web content.
 ## Zetta Streams
 
 ## Node Moduals Supporting Zetta
+
 ZettaJS is powered by different node modules. Let's go through them and understand why zetta uses these modules.
-https://community.apigee.com/articles/4272/decoding-node-modules-used-by-zettajs.html
+<https://community.apigee.com/articles/4272/decoding-node-modules-used-by-zettajs.html>
 
 ## Siren Hypermedia Specification
+
 ZettaJS - Introduction to Siren - Hypermedia Specification
-https://community.apigee.com/articles/4330/zettajs-introduction-to-siren-hypermedia-specifica.html
+<https://community.apigee.com/articles/4330/zettajs-introduction-to-siren-hypermedia-specifica.html>
 
 ## Zetta Browser Client
+
 You can interact with Zetta APIs using the [Zetta Browser Client][37].
 With this browser, you can controlling device transitions
 and the client app provides a wealth of information about your Zetta instance.
 
-http://browser.zettajs.io/#/overview?url=http://127.0.0.1:1337
+<http://browser.zettajs.io/#/overview?url=http://127.0.0.1:1337>
 
 # Node-RED
+
 * [Wiring The Internet of Things With NODE RED](https://www.youtube.com/watch?v=j9H3t3l1En0)
 * [HOW TO NODE-RED!](http://bitluni.net/how-to-node-red/)
 * [A Guide to Rules Engines for IoT: Flow Processing Engines](https://dzone.com/articles/a-guide-to-rules-engines-for-iot-flow-processing-e)
@@ -602,6 +631,7 @@ It does have a [Node-RED Programming Guide][17]
 which appears to provide better introductory documentation.
 
 # Losant
+
 A alternative and more advance version of Node-RED is [Losant](https://www.losant.com/)
 
 * [Experiences](https://docs.losant.com/experiences/overview/)
@@ -615,24 +645,26 @@ as well as [Losant Forums](https://forums.losant.com/)
 Below is documentation on getting the Verizon/Losant Edge Agent setup on a Linux based gateway that supports Docker.
 
 * [Docker installation](https://docs.losant.com/edge-compute/edge-agent-installation/) (can also use Docker's website for this)
-    * this is only needed if the gateway does not come with Docker
-    * if it does not come with Docker, then you can use the Losant docs linked above, Docker's website, and/or work directly with the OEM of the gateway to get it installed.
+  * this is only needed if the gateway does not come with Docker
+  * if it does not come with Docker, then you can use the Losant docs linked above, Docker's website, and/or work directly with the OEM of the gateway to get it installed.
 * [Install/Pull the Losant Edge Agent](https://docs.losant.com/edge-compute/edge-agent-installation/#get-the-losant-edge-agent)
 * [Create Storage Area on the Gateway](https://docs.losant.com/edge-compute/edge-agent-usage/#creating-storage-area)
 * Create a Configuration File and then Run the Losant Edge Agent
-    * Information needed for this step is shown below (do the steps below before you do this last step of creating the config file and running the Losant Edge Agent)
-        * [Create a Losant Edge Compute Device](https://docs.losant.com/devices/edge-compute/)
-        * [Generate an Access Key and Secret](https://docs.losant.com/applications/access-keys/)
+  * Information needed for this step is shown below (do the steps below before you do this last step of creating the config file and running the Losant Edge Agent)
+    * [Create a Losant Edge Compute Device](https://docs.losant.com/devices/edge-compute/)
+    * [Generate an Access Key and Secret](https://docs.losant.com/applications/access-keys/)
 
 
 
 ###############################
 doing HTTP requests
+
 * [Running OpenWhisk Actions From Node-RED](http://ryanjbaxter.com/cloud/bluemix/2016/03/24/running-whisk-actions-from-node-red.html)
 * [How do I send form-data in HTTP Request Node with POST in Node-Red?](https://developer.ibm.com/answers/questions/276380/how-do-i-send-form-data-in-http-request-node-with.html)
 ###############################
 
 # Getting Started
+
 The content here is lift for these sources:
 
 * [Getting started with Node-RED](https://opensource.com/life/16/5/getting-started-node-red)
@@ -649,6 +681,7 @@ The content here is lift for these sources:
 * [Developing Node-RED custom nodes helping notes](https://tzapu.com/help-developing-node-red-custom-nodes/)
 
 ## Installing Node-RED
+
 The easiest way to install Node-RED is to use node’s package manager, npm.
 Installing it as a global module adds the command node-red to your system path:
 
@@ -687,6 +720,7 @@ For installing on Raspberry Pi.
 Check out [Node-RED's documentation][07] and [Adafruit's Tutorial][08].
 
 # Running Node-RED
+
 Check out [Node-RED Getting Started page][04] for full instructions on getting started.
 Basic steps once its install is the following:
 
@@ -712,6 +746,7 @@ If you find it necessary to pass arguments to the underlying node.js process,
 see the [Node-RED Running documentation][09].
 
 ## Installing Additional Node Modules
+
 Next we need to install some required Node-RED node modules.
 A subtlety (bug?)  with the [Node-RED implementation on the Raspberry Pi][22]
 is that you must do installs while within the users Node-RED configuration directory.
@@ -741,7 +776,9 @@ sudo npm install thethingbox-node-timestamp
 # install tools to get operating system information
 sudo npm install node-red-contrib-os
 ```
+
 ## Adding Nodes
+
 Node-RED comes with a core set of useful nodes,
 but there are a growing number of additional nodes available for installing.
 You can search for available nodes in the [Node-RED library][10] or on the [npm repository][11].
@@ -778,22 +815,25 @@ sudo npm install -g node-red-node-mongodb
 ```
 
 ## Editing Nodes
+
 copy a node - ctrl-c
 paste a node - ctrl-v
 delete a node - delete or backspace
 
 ## Importing Flows
+
 You can imported flows straight into the editor by pasting the JSON
 representing the flow into the Import dialog
 (`Ctrl-i` or via the dropdown menu within Node-RED).
 
 ## Exporting Flows
+
 Use `Ctrl-a` to select all the flows on the tab and `Ctrl-e` to popup the flow.
 From there, you can do copy the flow to your clipboard.
 
 * [Node-RED, wiring the Raspberry Pi to the IoT](http://www.networkworld.com/article/3075329/internet-of-things/node-red-wiring-the-raspberry-pi-to-the-iot.html)
 * [IOT made real – Using TI SensorTag data with Logentries and NodeRed](https://blog.logentries.com/2016/02/iot-made-real-using-ti-sensortag-data-with-logentries/)
-    * [Raspberry Pi, Logs and Iot – Sending Pi Log and Sensor Data to Logentries](https://dzone.com/articles/raspberry-pi-logs-and-iot-sending-pi-log-and-senso)
+  * [Raspberry Pi, Logs and Iot – Sending Pi Log and Sensor Data to Logentries](https://dzone.com/articles/raspberry-pi-logs-and-iot-sending-pi-log-and-senso)
 * [Connecting it All Together – PubNub and Node-RED](http://www.internetoflego.com/connecting-it-all-together-pubnub-and-node-red/)
 * [Node-Red Websockets Page : Scargill's Tech Blog](http://tech.scargill.net/a-node-red-websockets-web-page/)
 * [Node-Red Scheduler](http://tech.scargill.net/node-red-scheduler/)
@@ -811,6 +851,7 @@ From there, you can do copy the flow to your clipboard.
 * [node-red-contrib-freeboard](https://www.npmjs.com/package/node-red-contrib-freeboard)
 
 # Forever, PM2, Monit, Prometheus, Supervisor
+
 * [forever - Node.js app with forever running as a service daemon](http://www.slidequest.com/q/70ang)
 * [pm2 - Advanced, production process manager for Node.js](http://pm2.keymetrics.io/)
 * [Monit](https://mmonit.com/monit/) is a free, open source process supervision tool for Unix and Linux. With Monit, system status can be viewed directly from the command line, or via the native HTTP web server.
@@ -820,6 +861,7 @@ From there, you can do copy the flow to your clipboard.
 * [Supervisor: A Process Control System for UNIX-like operating systems](http://supervisord.org/)
 
 # Sources
+
 * [Hypermedia APIs: The Benefits of HATEOAS](https://www.programmableweb.com/news/hypermedia-apis-benefits-hateoas/how-to/2014/02/27)
 * [Why Hypermedia Makes Sense](http://clarify.io/blog/why-hypermedia-makes-sense/)
 * [ZettaJS - Introduction to Siren - Hypermedia Specification](https://community.apigee.com/articles/4330/zettajs-introduction-to-siren-hypermedia-specifica.html)
@@ -830,7 +872,6 @@ From there, you can do copy the flow to your clipboard.
 [02]:https://developer.ibm.com/open/node-red/
 [03]:http://nodered.org/
 [04]:http://nodered.org/docs/getting-started/upgrading.html
-[05]:http://nodered.org/docs/getting-started/
 [06]:http://nodered.org/docs/getting-started/installation.html
 [07]:http://nodered.org/docs/hardware/raspberrypi.html#starting-node-red
 [08]:https://learn.adafruit.com/raspberry-pi-hosting-node-red?view=all#what-is-node-red

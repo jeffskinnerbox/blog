@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # Teensy 3.2
+
 The [Teensy 3.2][06] is a microcontroller development system,
 using the ARM Cortex processors,
 where all programming is done via a USB port.
@@ -45,6 +46,7 @@ free software development tools including Teensy Loader application
 
 
 ## ARM Cortex-M4
+
 The ARM Cortex-M is a group of [32-bit RISC ARM][03] processor cores licensed by [ARM Holdings][02].
 The cores are intended for microcontroller use, and consist of
 the [ultra-low-power Cortex-M0+ to the top-of-the-range, high-performance Cortex-M7][05].
@@ -53,6 +55,7 @@ for a broad range of Digital Signal Processing (DSP) and embedded controller mar
 
 
 ## Additional Features
+
 The Teensy 3.2 is a step up from previous version of the Teensy family:
 
 * 64K of RAM, 256K of flash memory, and 2K EEPROM
@@ -74,6 +77,7 @@ the analog-only pins (A10-A14), AREF, Program and Reset are 3.3V only.
 
 
 # Loading MicroPython Firmware
+
 [MicroPython][01]
 [What is MicroPython][02]
 

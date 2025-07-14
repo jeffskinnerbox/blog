@@ -19,11 +19,13 @@ Version:      0.0.0
 
 
 Canon
+
 * [Canon Hack Development Kit (CHDK)](https://chdk.fandom.com/wiki/CHDK)
 * [Magic Lantern](https://www.magiclantern.fm/)
 
 
 # Types of Cameras
+
 electronic viewfinder (EVF) Camera
 liquid crystal display (LCD) Camera
 point-and-shoot Camera

@@ -10,11 +10,13 @@ Version:      0.0.0
 
 
 # Linux Server Setup
+
 * [Linux Server Setup – Part 1: A Beginner’s Guide](https://linuxblog.io/linux-server-setup/)
 * [Linux Server Setup – Part 2: What’s Next After Installation](https://linuxblog.io/linux-server-after-installation/)
 * [Linux Server Setup – Part 3: How to Automate Linux Server Maintenance](https://linuxblog.io/automate-linux-server-maintenance/)
 
 # Linux Admin Command & Tools
+
 * [Guide to Network Troubleshooting in Linux](https://linuxblog.io/guide-to-network-troubleshooting-in-linux/)
 * [60 Linux Networking commands and scripts](https://linuxblog.io/linux-networking-commands-scripts/)
 * [90 Linux Commands frequently used by Linux Sysadmins (updated to 100+)](https://linuxblog.io/90-linux-commands-frequently-used-by-linux-sysadmins/)
@@ -25,6 +27,7 @@ Version:      0.0.0
 
 
 READ THIS
+
 * [An Introduction to Networking Terminology, Interfaces, and Protocols](https://www.digitalocean.com/community/tutorials/an-introduction-to-networking-terminology-interfaces-and-protocols)
 * [Introduction to Linux interfaces for virtual networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/)
 * [Understanding Sockets](https://www.digitalocean.com/community/tutorials/understanding-sockets)
@@ -66,11 +69,13 @@ READ THIS
 * [Monitor your Linux firewall with nftwatch](https://opensource.com/article/22/7/nftwatch-linux-firewall)
 
 # mitmproxy
+
 * [mitmproxy - Tools for Analysising and Inspecting HTTP Traffic](https://mitmproxy.org/)
 * [How To: Use mitmproxy to read and modify HTTPS traffic](https://blog.heckel.xyz/2013/07/01/how-to-use-mitmproxy-to-read-and-modify-https-traffic-of-your-phone/)
 * [Decrypt your HTTPS traffic with mitmproxy](http://www.darkcoding.net/software/decrypt-your-https-traffic-with-mitmproxy/)
 
 # Universal Serial Bus (USB)
+
 Universal Serial Bus (USB) is an industry standard that establishes specifications for cables and connectors and protocols for connection, communication and power supply (interfacing) between computers, peripherals and other computers.
 
 * [Recognize more devices on Linux with this USB ID Repository](https://opensource.com/article/20/8/usb-id-repository)
@@ -82,6 +87,7 @@ Universal Serial Bus (USB) is an industry standard that establishes specificatio
 
 
 # Background
+
 * [Networking tutorial](https://www.youtube.com/watch?v=XaGXPObx2Gs&list=PLowKtXNTBypH19whXTVoG3oKSuOcw_XeW)
 Practical Networking
 * [OSI Model](https://www.practicalnetworking.net/series/packet-traveling/osi-model/)
@@ -97,6 +103,7 @@ Practical Networking
 * [Cryptography](https://www.practicalnetworking.net/series/cryptography/cryptography/)
 
 # Computer Networking
+
 TCP/IP has become the global protocol for computer networking.
 
 * [OSI: The Internet That Wasn’t](http://spectrum.ieee.org/computing/networks/osi-the-internet-that-wasnt)
@@ -118,12 +125,13 @@ what about ethtool, netifd, nm-tool, nm-online, [nmcli](https://fedoraproject.or
 
 * [ip COMMAND CHEAT SHEET](https://access.redhat.com/sites/default/files/attachments/rh_ip_command_cheatsheet_1214_jcs_print.pdf)
 * [Linux tools: How to use the ss command](https://www.redhat.com/sysadmin/ss-command)
-* Why nm-tool is no longer available in Ubuntu 15.04? - http://askubuntu.com/questions/617067/why-nm-tool-is-no-longer-available-in-ubuntu-15-04
-* 9 Linux ethtool Examples to Manipulate Ethernet Card (NIC Card) - http://www.thegeekstuff.com/2010/10/ethtool-command/
-* Fun with ethtool - http://www.linuxjournal.com/content/fun-ethtool
-*  Stop using telnet to test network connectivity - http://scotte.github.io/2015/03/stop-using-telnet/
+* Why nm-tool is no longer available in Ubuntu 15.04? - <http://askubuntu.com/questions/617067/why-nm-tool-is-no-longer-available-in-ubuntu-15-04>
+* 9 Linux ethtool Examples to Manipulate Ethernet Card (NIC Card) - <http://www.thegeekstuff.com/2010/10/ethtool-command/>
+* Fun with ethtool - <http://www.linuxjournal.com/content/fun-ethtool>
+* Stop using telnet to test network connectivity - <http://scotte.github.io/2015/03/stop-using-telnet/>
 
 # Linux Traffic Control
+
 Traffic control (tc) is a very useful Linux utility that gives you the ability to configure the kernel packet scheduler.
 On Debian Linux, tc comes bundled with iproute, so in order to install it you have to run `apt-get install iproute`.
 
@@ -133,9 +141,11 @@ On Debian Linux, tc comes bundled with iproute, so in order to install it you ha
 * [Traffic Shaping, Bandwidth Shaping, Packet Shaping with Linux tc htb](https://www.iplocation.net/traffic-control)
 
 # How to Configure Networking in Linux
+
 * [How to configure networking in Linux](https://opensource.com/life/16/6/how-configure-networking-linux?sc_cid=701600000011yI7AAI)
 
 # NetworkManager
+
 * [Manage network connections from the Linux command line with nmcli](https://opensource.com/article/20/7/nmcli)
 * [Connect to a wireless network using command line nmcli](https://nullr0ute.com/2016/09/connect-to-a-wireless-network-using-command-line-nmcli/)
 
@@ -202,242 +212,243 @@ Since this will only affect interfaces listed in the `/etc/network/interfaces` f
 any interface not listed there will remain under NetworkManager control.
 
 ####################
+
 * also see
-    * [10 basic examples of linux netstat command](http://www.binarytides.com/linux-netstat-command-examples/)
-    * [View your Linux server's network connections with netstat](https://opensource.com/article/22/2/linux-network-security-netstat)
-    * [tshark - Monitor network traffic tutorial](http://www.linuxuser.co.uk/tutorials/monitor-network-traffic-tutorial)
-    * [10 Free Server & Network Monitoring Tools that Kick Ass](http://sixrevisions.com/tools/10-free-server-network-monitoring-tools-that-kick-ass/)
-    * [Raspberry Pi – control your network traffic with Nagios](https://developer-blog.net/en/hardware-2/raspberry-pi-control-your-network-traffic-with-nagios/)
-    * [Raspberry Pi and Distributed Network Monitoring: Iperf](https://netbeez.net/2014/08/19/raspberry-pi-and-distributed-network-monitoring-iperf/)
-    * [How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux](http://lifehacker.com/how-to-build-a-portable-hacking-station-with-a-raspberr-1739297918)
-    * [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
+  * [10 basic examples of linux netstat command](http://www.binarytides.com/linux-netstat-command-examples/)
+  * [View your Linux server's network connections with netstat](https://opensource.com/article/22/2/linux-network-security-netstat)
+  * [tshark - Monitor network traffic tutorial](http://www.linuxuser.co.uk/tutorials/monitor-network-traffic-tutorial)
+  * [10 Free Server & Network Monitoring Tools that Kick Ass](http://sixrevisions.com/tools/10-free-server-network-monitoring-tools-that-kick-ass/)
+  * [Raspberry Pi – control your network traffic with Nagios](https://developer-blog.net/en/hardware-2/raspberry-pi-control-your-network-traffic-with-nagios/)
+  * [Raspberry Pi and Distributed Network Monitoring: Iperf](https://netbeez.net/2014/08/19/raspberry-pi-and-distributed-network-monitoring-iperf/)
+  * [How to Build a Portable Hacking Station with a Raspberry Pi and Kali Linux](http://lifehacker.com/how-to-build-a-portable-hacking-station-with-a-raspberr-1739297918)
+  * [A tcpdump Primer with Examples](https://danielmiessler.com/study/tcpdump/)
 ####################
 
 * **Tools to Query about Your or Other IP Addresses**
-    * [What is my IP Address][41]- Your IP address and location can be found using this tool.
-    * [Lookup IP Address Location][42] - If you can find out the IP address of an Internet user, you can get an idea what part of the country or world they're in by using our IP Lookup tool.
-    * [Find Email Address Source][43] - how to find and copy an email header and paste it into the Trace Email Analyzer to get the sender's IP address and track the source.
-    * [How to Hide Your IP Address][44] - Borrow a different IP address to go anywhere online and stay hidden.
+  * [What is my IP Address][41]- Your IP address and location can be found using this tool.
+  * [Lookup IP Address Location][42] - If you can find out the IP address of an Internet user, you can get an idea what part of the country or world they're in by using our IP Lookup tool.
+  * [Find Email Address Source][43] - how to find and copy an email header and paste it into the Trace Email Analyzer to get the sender's IP address and track the source.
+  * [How to Hide Your IP Address][44] - Borrow a different IP address to go anywhere online and stay hidden.
 
 * **Tools for Querying / Configuring IP Network**
-    * [`ip`][17] shows and manipulates routing, devices, policy routing, and tunnels
-    * [`ifconfig`][16] is a network interface configuration, control, and query tool.
+  * [`ip`][17] shows and manipulates routing, devices, policy routing, and tunnels
+  * [`ifconfig`][16] is a network interface configuration, control, and query tool.
     The `ifconfig` command is deprecated and you can replace `ifconfig` by `ip link`.
-    * [`tc`][19] (traffic control) configures and controls the Linux kernel's
+  * [`tc`][19] (traffic control) configures and controls the Linux kernel's
     network scheduler to show and manipulate network traffic control settings
-    * [`ifrename`][13] allows to rename wireless network interfaces based on various
+  * [`ifrename`][13] allows to rename wireless network interfaces based on various
     static criteria to assign a consistent name to each interface.
-    * [`arp`][20] (address resolution protocol) is used to translate Internet protocol addresses to
+  * [`arp`][20] (address resolution protocol) is used to translate Internet protocol addresses to
     hardware interface addresses.
     The `arp` command is deprecated and you can replace `arp -na` by `ip neigh`.
-    * [`arp-scan`][65] is a very fast ARP packet scanner that shows every active IPv4 device on your Subnet
+  * [`arp-scan`][65] is a very fast ARP packet scanner that shows every active IPv4 device on your Subnet
     ([Arp-scan User Guide][66])
-    * [`arping`][164]
-    * [`arpwatch`][74] as the name implies, watches the MAC to IP pairings of devices on the network.
+  * [`arping`][164]
+  * [`arpwatch`][74] as the name implies, watches the MAC to IP pairings of devices on the network.
     If these change, then arpwatch will log and send an email to alert.
     In addition to changes, it will alert with new MAC to IP pairings.
-    * [`netdiscover`][165] is a network address discovering tool,
+  * [`netdiscover`][165] is a network address discovering tool,
     developed mainly for those wireless networks without DHCP server,
     it also works on hub/switched networks.
     Its based on arp packets, it will send arp requests and sniff for replies.
-    * [`route`][27] command is used to show/manipulate the IP routing table.
+  * [`route`][27] command is used to show/manipulate the IP routing table.
     It is primarily used to setup static routes to specific host or networks via an interface.
-    * [`nslookup`][28] is a tool for querying the Domain Name System (DNS) to obtain domain name
+  * [`nslookup`][28] is a tool for querying the Domain Name System (DNS) to obtain domain name
     or IP address mapping or for any other specific DNS record.
 
 * **Tools for Querying / Configuring WiFi**
-    * [`iw`][02] show / manipulate wireless devices and their configuration.
+  * [`iw`][02] show / manipulate wireless devices and their configuration.
     It is also used in the system startup scripts of many operating systems.
-    * [`iwconfig`][18] is used to display and change the parameters of the
+  * [`iwconfig`][18] is used to display and change the parameters of the
     wireless network interface (e.g. interface name, frequency, SSID).
     It may also be used to display the wireless statistics (extracted from `/proc/net/wireless`).
     Note that `iwconfig` is depreciated, you should use `iw` instead.
-    * [`iwpriv`][34] is the companion tool to `iwconfig`. `iwpriv` deals with
+  * [`iwpriv`][34] is the companion tool to `iwconfig`. `iwpriv` deals with
     parameters and setting specific to each driver (as opposed to `iwconfig`
     which deals with generic ones).
-    * [`iwgetid`][63] - reports ESSID, NWID or AP/Cell Address of wireless networks
-    * [`iwlist`][12] allow to initiate scanning and list frequencies, bit-rates, encryption keys, etc.
+  * [`iwgetid`][63] - reports ESSID, NWID or AP/Cell Address of wireless networks
+  * [`iwlist`][12] allow to initiate scanning and list frequencies, bit-rates, encryption keys, etc.
     **Example Usage:** `iwlist wlan0 scan`
-    * [`wpa_supplicant`][03]
+  * [`wpa_supplicant`][03]
 
 * **Tools for Monitoring / Controlling Network Time**
 
 * **Tools for Monitoring Filesystem, Disk IO, Linux in General**
-    * [`iotop`][97] shows you the total and current disk read and write numbers for the file system
+  * [`iotop`][97] shows you the total and current disk read and write numbers for the file system
     and also shows you who is eating up the most disk I/O.
-    * [`iostat`][98] is used for monitoring system input/output statistics for devices and partitions.
+  * [`iostat`][98] is used for monitoring system input/output statistics for devices and partitions.
     It monitors system input/output by observing the time the devices are active
     in relation to their average transfer rates.
-    * [`lsof`][139] is short for "list open files", and reports all open files and the processes that opened them.
-    * [`atop`][140], [similar to `top` and `htop`][141],
+  * [`lsof`][139] is short for "list open files", and reports all open files and the processes that opened them.
+  * [`atop`][140], [similar to `top` and `htop`][141],
     is an interactive monitor and shows hardware resources cpu, memory, disk and network status.
-    * [`nmon`][142]
-    * [`collectl`][143]
-    * [`glances`][144] - nice!
+  * [`nmon`][142]
+  * [`collectl`][143]
+  * [`glances`][144] - nice!
 
 * **Tools for Monitoring / Scanning IP Network**
-    * [`nmap`][29] (network mapper) is a security tool for network exploration,
+  * [`nmap`][29] (network mapper) is a security tool for network exploration,
     q security scanning, and auditing.
     `nmap` sends specially crafted packets to discover hosts and services on a computer network,
     thus creating a "map" of the network.
-    * [`zenmap`][91] is the official GUI for Nmap
+  * [`zenmap`][91] is the official GUI for Nmap
     It is not to replace Nmap, but to make Nmap more useful.
-    * [(`ipscan`)][75] (Angry IP Scanner) is an open-source and cross-platform
+  * [(`ipscan`)][75] (Angry IP Scanner) is an open-source and cross-platform
     network scanner designed to be fast and simple to use.
     It scans IP addresses and ports as well as has many other features.
-    * [`ettercap`][30] is a network security tool for man-in-the-middle attacks on LAN.
+  * [`ettercap`][30] is a network security tool for man-in-the-middle attacks on LAN.
     It is capable of intercepting traffic on a network segment, capturing passwords,
     and conducting active eavesdropping against a number of common protocols.
-    * [`bettercap`][90] is like `ettercap`, but claims to be better.
-    * [`netstat`][09] (network statistics) is a command-line tool that displays
+  * [`bettercap`][90] is like `ettercap`, but claims to be better.
+  * [`netstat`][09] (network statistics) is a command-line tool that displays
     network connections for TCP (both incoming and outgoing),
     routing tables, and a number of network interface and network protocol statistics.
     The `netstat` command is deprecated and you can replace with `ss`.
     **Example Usage:** `netstat -ie`
-    * [`ss`][99] is a tool used to dump socket statistics and displays information
+  * [`ss`][99] is a tool used to dump socket statistics and displays information
     for PACKET, TCP, UDP, DCCP, RAW, and Unix domain sockets,
     in similar fashion (although simpler and faster) to netstat.
-    * [`nethogs`][71] is a small "net top" tool. Instead of breaking the traffic down per protocol or per subnet,
+  * [`nethogs`][71] is a small "net top" tool. Instead of breaking the traffic down per protocol or per subnet,
     like most tools do, it groups bandwidth by process.
-    * [`iptraf-ng`][72]  is a console-based network statistics utility for Linux.
+  * [`iptraf-ng`][72]  is a console-based network statistics utility for Linux.
     It gathers a variety of figures such as TCP connection packet and byte counts,
     interface statistics and activity indicators, TCP/UDP traffic breakdowns,
     and LAN station packet and byte counts.
-    * [`nicstat`][10] prints network traffic, packets or Kb/s read and written.
+  * [`nicstat`][10] prints network traffic, packets or Kb/s read and written.
     Its a utility like `top` for network interface card (NIC).
     It displays information and statistics about all your network card such as packets,
     kilobytes per second, average packet sizes and more.
     **Example Usage:** `nicstat -i wlan0 1`
 
 * **Tools for Monitoring / Scanning WiFi**
-    * [`wavemon`][07] is a ncurses-based monitoring application for wireless network devices.
+  * [`wavemon`][07] is a ncurses-based monitoring application for wireless network devices.
     It displays continuously updated information about signal levels, as well as,
     wireless-specific and general network information.
     **Example Usage:** `wavemon wlan0`
-    * [`iwevent`][08] is another command line tool that displays wireless events
+  * [`iwevent`][08] is another command line tool that displays wireless events
     received through the [RTNetlink socket][06].
     Each line displays the specific wireless event which describes
     what has happened on the specified wireless interface.
     **Example Usage:** `iwevent`
-    * [`iwspy`][33] is used to set a list of addresses to monitor in a
+  * [`iwspy`][33] is used to set a list of addresses to monitor in a
     wireless network interface and to read back quality of link information for each of those.
-    * [`rfkill`][61] - tool for enabling and disabling wireless devices
+  * [`rfkill`][61] - tool for enabling and disabling wireless devices
 
 * **IP Network Packet Analysis**
-    * [`tcpdump`][31] is a common packet analyzer that runs under the command line.
+  * [`tcpdump`][31] is a common packet analyzer that runs under the command line.
     It allows the user to display TCP/IP and other packets being transmitted or
     received over a network to which the computer is attached.
-    * [`dumpcap`][73] is a network traffic dump tool.
-    * [`ngrep`][153] stands for “network grep,” and focuses on parsing text,
+  * [`dumpcap`][73] is a network traffic dump tool.
+  * [`ngrep`][153] stands for “network grep,” and focuses on parsing text,
     but in network packets. ngrep parses network traffic text using regular expressions,
     but to also present the output in a human-friendly way.
     It lets you capture packet data from a live network and write the packets to a file.
-    * [`wireshark`][32] (originally called `ethereal`) is the world's de facto
+  * [`wireshark`][32] (originally called `ethereal`) is the world's de facto
     network protocol analyzer letting you do deep inspection of hundreds of protocols,
     live capture, and offline analysis.
-    * [`tshark`][35] the command-line version of Wireshark.
+  * [`tshark`][35] the command-line version of Wireshark.
     The main advantage of tshark is that it can be used in scripts.
     Its main disadvantage is that it does not have a GUI.
 
 * **IP Traffic Replay**
-    * [`tcpreplay`][145] replays pcap files at arbitrary speeds onto a network.
+  * [`tcpreplay`][145] replays pcap files at arbitrary speeds onto a network.
     [Tcpreplay][152] is a suite of utilities for editing and replaying previously captured network traffic.
     Originally designed to replay malicious traffic patterns to Intrusion Detection/Prevention Systems,
     it has seen many evolutions including capabilities to replay to web servers.
-    * [`tcprewrite`][146] edits pcap files and creates a new pcap file
-    * [`tcpreplay-edit`][147] edits pcap files and replays onto a network
-    * [`tcpprep`][148] creates client/server definition cache files used by tcpreplay/tcprewrite
-    * [`tcpbridge`][149] bridge two network segments with the power of tcprewrite
-    * [`tcpliveplay`][150] replay a TCP pcap file in a manner that a server will recognize
-    * [`tcpcapinfo`][151] raw pcap file decoder and debugger
+  * [`tcprewrite`][146] edits pcap files and creates a new pcap file
+  * [`tcpreplay-edit`][147] edits pcap files and replays onto a network
+  * [`tcpprep`][148] creates client/server definition cache files used by tcpreplay/tcprewrite
+  * [`tcpbridge`][149] bridge two network segments with the power of tcprewrite
+  * [`tcpliveplay`][150] replay a TCP pcap file in a manner that a server will recognize
+  * [`tcpcapinfo`][151] raw pcap file decoder and debugger
 
 * **Linux Performance Monitoring**
-    * [`vmstat`][89] is a tool that collects and reports data about your system’s memory, swap,
+  * [`vmstat`][89] is a tool that collects and reports data about your system’s memory, swap,
     and processor resource utilization in real time.
     It can be used to determine the root cause of performance and issues related to memory use.
-    * [`iftop`][95] is a network analyzing tool to view the bandwidth related stats.
+  * [`iftop`][95] is a network analyzing tool to view the bandwidth related stats.
     It shows a quick overview of the networking activities on an interface usaed as a diagnostics tool.
-    * [`nethogs`][96] is a command line program, similar to Linux top command,
+  * [`nethogs`][96] is a command line program, similar to Linux top command,
     that is used for monitor real time network traffic bandwidth used by each process or application.
 
 * **IP Performance**
-    * [iPerf3][56] is a tool for active measurements of the maximum achievable bandwidth on IP networks.
+  * [iPerf3][56] is a tool for active measurements of the maximum achievable bandwidth on IP networks.
     It supports tuning of various parameters related to timing, bandwidth, loss, and other parameters.
 
 * **IP Networking Utilities**
-    * [`ping`][25] (Packet Internet Gropper) is like a sonar pulse sent to detect another IP address.
+  * [`ping`][25] (Packet Internet Gropper) is like a sonar pulse sent to detect another IP address.
     It is used to test the connection and latency between two network connections.
-    * [prettyping](http://denilson.sa.nom.br/prettyping/)
+  * [prettyping](http://denilson.sa.nom.br/prettyping/)
     runs the standard `ping` in background and parses its output,
     showing ping responses in a colorful, graphical, easier to read way at the terminal.
-    * [`traceroute`][26] (trace route) is a diagnostic tool for displaying the route
+  * [`traceroute`][26] (trace route) is a diagnostic tool for displaying the route
     (path) and measuring transit delays of packets across an IP network.
-    * [`mtr` aka My TraceRoute or Matt's TraceRoute][70] combines the functions of the traceroute
+  * [`mtr` aka My TraceRoute or Matt's TraceRoute][70] combines the functions of the traceroute
     and ping programs in one network diagnostic tool.
     The Windows equivalent is [`pingpath`][84].
-    * [`cryping`][69] is a `ping` like command line utility that extends the functionality
+  * [`cryping`][69] is a `ping` like command line utility that extends the functionality
     of the traditional `ping` command to include ping individual specific ports,
     ping HTTP, SMTP, POP3 or NNTP services, time stamps, audible alarms, etc.
-    * [`dig`][59] (domain information groper) is a flexible tool for interrogating DNS name servers.
+  * [`dig`][59] (domain information groper) is a flexible tool for interrogating DNS name servers.
     It performs DNS lookups and displays the answers that are returned from the name server(s) that were queried.
-    * [`netcat` or `nc`][22] is a [highly functional][21] Unix utility which reads and writes data
+  * [`netcat` or `nc`][22] is a [highly functional][21] Unix utility which reads and writes data
     across network connections, using TCP or UDP protocol.
     It is designed to be a reliable "back-end" tool that can
     be used directly or easily driven by other programs and scripts.
-    * [`ncat`][23] is a feature-packed networking utility which reads and writes data
+  * [`ncat`][23] is a feature-packed networking utility which reads and writes data
     across network connections, a much-improved re-implementation of`netcat`, with two big improvement.
     `ncat` will work with IPv4 & IPv6, and allows for multiple simultaneous connections.
-    * [`socat`][67] is as the cat command which transfers data between two locations rather
+  * [`socat`][67] is as the cat command which transfers data between two locations rather
     than from a file to standard output.  You can grab data from a network socket, named pipe,
     or even setup a general virtual network interface as one end point.
-    * [`wscat`][68] allows you to connect directly to a websocket server
+  * [`wscat`][68] allows you to connect directly to a websocket server
     and receive/send data in a terminal like environment.
-    * [`blucat`](http://blucat.sourceforge.net/blucat/) is `netcat` for Bluetooth
+  * [`blucat`](http://blucat.sourceforge.net/blucat/) is `netcat` for Bluetooth
     data across networks from the command line.
 
 * **Remote Desktop**
-    * [`rustdesk`][167] a self-hostable, open-source, cross-platform
+  * [`rustdesk`][167] a self-hostable, open-source, cross-platform
     remote desktop solution that lets you manage remote systems without relying
     on third-party servers.
 
 * **Terminal Access**
-    * [`telnet`][24] ([teletype network][85]) is a computer protocol that provides
+  * [`telnet`][24] ([teletype network][85]) is a computer protocol that provides
     two-way interactive, unsecure communication used on the Internet
     or local area network to provide text-oriented
     communication facility using a virtual terminal connection.
     **Example Usage:** `telnet 192.168.8.1`
-    * [`ssh`][94] is a software package that enables secure system administration
+  * [`ssh`][94] is a software package that enables secure system administration
     and file transfers over insecure networks.
     It is used in nearly every data center and in every large enterprise.
-    * [`tmux`][88] is a terminal multiplexer that allows us to create multiple sessions
+  * [`tmux`][88] is a terminal multiplexer that allows us to create multiple sessions
     that act roughly like terminal windows, create windows that act like tabs,
     and create panes that let us split `tmux` windows horizontally and vertically.
-    * [`screen`][157] is a terminal mukltiplexer like `tmux` but is most useful
+  * [`screen`][157] is a terminal mukltiplexer like `tmux` but is most useful
     for for serial terminal communication to a [serial port][158].
     While modern computers almost always come with USB ports,
     many mictrocontrolers require serial ports (e.g.RS232, RS422, and RS485)
 
 * **Browser Based Terminal Access**
-    * [Xterm.js](https://xtermjs.org/)
+  * [Xterm.js](https://xtermjs.org/)
 
 * **Shared Terminal Access**
-    * [`tty-share`][86] is a command line tool that you could use to share your
+  * [`tty-share`][86] is a command line tool that you could use to share your
     remote access terminal session with somebody. To make the setup easy,
     your session is in a terminal but a browser is used for the remote end.
-    * [`tmate`][87] is built on top of `tmux` and is very similar to `tty-share`
+  * [`tmate`][87] is built on top of `tmux` and is very similar to `tty-share`
     but requires a `ssh` terminal session on the remote end.
-    * [`streamhut`][93]  allows you to stream (pipe) realtime data from your
+  * [`streamhut`][93]  allows you to stream (pipe) realtime data from your
     terminal stdout/stderr to a web xterm UI or even to another terminal.
-    * [`upterm`][134] is an open-sourced solution for sharing terminal sessions
+  * [`upterm`][134] is an open-sourced solution for sharing terminal sessions
     instantly over the public internet via SSH tunnels.
 
 * **Captue Terminal Session**
-    * `script` command creates a typescript file from your terminal session by
+  * `script` command creates a typescript file from your terminal session by
     grabing the input & output of your terminal interactive session
     exactly as it's displayed in your terminal.
-        * [How to capture terminal sessions and output with the Linux script command](https://www.redhat.com/sysadmin/linux-script-command)
-        * [How to replay terminal sessions recorded with the Linux script command](https://www.redhat.com/sysadmin/playback-scriptreplay)
-        * [Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema)
+    * [How to capture terminal sessions and output with the Linux script command](https://www.redhat.com/sysadmin/linux-script-command)
+    * [How to replay terminal sessions recorded with the Linux script command](https://www.redhat.com/sysadmin/playback-scriptreplay)
+    * [Record your terminal session with Asciinema](https://opensource.com/article/22/1/record-terminal-session-asciinema)
 
 ################################################################################
 
@@ -446,9 +457,11 @@ fprobe is a tools that listens to an interface, collects network traffic data, a
 
 Cacti
 With Cacti, networking pros can graph SNMP values over time. It's handy for utilization, UPS statistics, and work with most any SNMP-managed device. Devices can be added and monitored over long periods of time, and can track not only interface utilization, but availability and response time.
+
 * [How To Install and Configure an SNMP Daemon and Client on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-an-snmp-daemon-and-client-on-ubuntu-18-04)
 
 Ping
+
 * [Diagnose connectivity issues with the Linux ping command](https://opensource.com/article/21/10/linux-ping-command)
 
 SmokePing
@@ -481,6 +494,7 @@ The open source ELK stack enables data collection and search. Logstash collects 
 ################################################################################
 
 # Network Bandwidth Monitoring
+
 * [18 commands to monitor network bandwidth on Linux server](https://www.binarytides.com/linux-commands-monitor-network/)
 * [Best Tools To Monitor Network Bandwidth On A Linux Server](https://phoenixnap.com/kb/linux-network-bandwidth-monitor-traffic)
 * [How to display network traffic in the terminal?](https://askubuntu.com/questions/257263/how-to-display-network-traffic-in-the-terminal)
@@ -490,25 +504,25 @@ The open source ELK stack enables data collection and search. Logstash collects 
 [Howto Check Wireless link quality in Ubuntu Linux](http://www.ubuntugeek.com/howto-check-wireless-link-quality-in-ubuntu-linux.html)
 [A tcpdump Tutorial and Primer](https://danielmiessler.com/study/tcpdump/)
 [An introduction to using tcpdump at the Linux command line](https://opensource.com/article/18/10/introduction-tcpdump)
-http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/
-http://www.thegeekstuff.com/2010/08/tcpdump-command-examples/
-http://technet.microsoft.com/en-us/library/cc786759(v=ws.10).aspx
-http://www.tecmint.com/ip-command-examples/
-http://www.computerhope.com/unix/unslooku.htm
-http://www.computerhope.com/unix/route.htm
-http://www.thegeekstuff.com/2012/04/route-examples/
-http://pcsupport.about.com/od/commandlinereference/p/tracert-command.htm
-http://www.cyberciti.biz/faq/unix-ping-command-examples/
-http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/
-http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/
-http://www.sanfoundry.com/10-ping-command-usage-examples-linux/
-http://www.computerhope.com/unix/arp.htm
-http://www.cyberciti.biz/faq/linux-traffic-shaping-using-tc-to-control-http-traffic/
-http://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/
-https://www.digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps
+<http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/>
+<http://www.thegeekstuff.com/2010/08/tcpdump-command-examples/>
+<http://technet.microsoft.com/en-us/library/cc786759(v=ws.10).aspx>
+<http://www.tecmint.com/ip-command-examples/>
+<http://www.computerhope.com/unix/unslooku.htm>
+<http://www.computerhope.com/unix/route.htm>
+<http://www.thegeekstuff.com/2012/04/route-examples/>
+<http://pcsupport.about.com/od/commandlinereference/p/tracert-command.htm>
+<http://www.cyberciti.biz/faq/unix-ping-command-examples/>
+<http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/>
+<http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/>
+<http://www.sanfoundry.com/10-ping-command-usage-examples-linux/>
+<http://www.computerhope.com/unix/arp.htm>
+<http://www.cyberciti.biz/faq/linux-traffic-shaping-using-tc-to-control-http-traffic/>
+<http://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/>
+<https://www.digitalocean.com/community/tutorials/how-to-use-iproute2-tools-to-manage-network-configuration-on-a-linux-vps>
 [iproute2 cheatsheet](http://baturin.org/docs/iproute2/)
-http://www.computerhope.com/unix/ip.htm
-http://linoxide.com/linux-command/use-ip-command-linux/
+<http://www.computerhope.com/unix/ip.htm>
+<http://linoxide.com/linux-command/use-ip-command-linux/>
 [Wireless Tools for Linux / Wireless Applications for Linux](http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html#links)
 [Cheat Sheets](http://packetlife.net/library/cheat-sheets/)
 
@@ -521,6 +535,7 @@ http://linoxide.com/linux-command/use-ip-command-linux/
 
 
 # How To Inspect Your Local Network
+
 Home network, all networks for that matter,
 increasingly grow complex and "out of control" overtime.
 Device are added, router, firewalls, servers, etc. are added that change how you network supports your needs.
@@ -543,6 +558,7 @@ or on a network other than your own
 * [How To Inspect Your Local Network](https://medium.com/swlh/how-to-inspect-your-local-network-4187d7ae3b10)
 
 ## Do We Have a Network Connection?
+
 To get a list of currently active and inactive network connections,
 we can use the `ip` command.
 (**Note:** `ip` has been replacing the `ifconfig` command since `iproute2` tools became available).
@@ -626,6 +642,7 @@ vboxnet3
 ```
 
 ## Find All Your Network Devices - Netdiscover
+
 There are some tools out there for finding IPs and identifying devices on your network.
 For example `arp-scan` and others but they done easily format the data,
 don't give you options of passve vs active scanning, etc.
@@ -724,6 +741,7 @@ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
 
 
 # Understanding Sockets
+
 * [Understanding Sockets](https://www.digitalocean.com/community/tutorials/understanding-sockets)
 
 
@@ -734,6 +752,7 @@ sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24
 
 
 ## Network Time Protocol (NTP)
+
 One problem with logging events over a network is that differences in system clocks
 can make correlating events on different systems very difficult.
 It is not unusual for the clock on a system to have drifted considerably.
@@ -803,6 +822,7 @@ ntpd: time set -0.272817s
 ```
 
 ### Verify NTP is Working Or Not
+
 You can use any one of the following program to verify ntp client configuration:
 
 * `ntpq` – standard NTP query program
@@ -860,9 +880,11 @@ NTP synchronized: yes
 
 
 ## Port Scanning Techniques
+
 * [Port Scanning Techniques: An Introduction](https://www.networkcomputing.com/network-security/port-scanning-techniques-introduction/1231255414)
 
 ## Networking and WiFi Tools
+
 The Linux operating systems comes with various set of tools
 allowing you to manipulate network, the [Wireless Extensions][103] and monitor wireless networks.
 These tools can be used to find out network speed, bit rate,
@@ -1058,6 +1080,7 @@ which gives you greater security, and allow console cables to work via
 
 
 # Using wpa_cli and wpa_supplicant
+
 * [Configuring wifi in Linux with wpa_supplicant](https://shapeshed.com/linux-wifi/)
 * [Tutorial: Associating to a new AP (wifi) via wpa_cli](https://discourse.trueos.org/t/tutorial-associating-to-a-new-ap-wifi-via-wpa-cli/373)
 * [How can one use wpa_cli to connect to a WPA network without a password?](https://askubuntu.com/questions/541704/how-can-one-use-wpa-cli-to-connect-to-a-wpa-network-without-a-password)
@@ -1113,12 +1136,12 @@ OK
 <3>CTRL-EVENT-SCAN-RESULTS
 > scan_results
 bssid / frequency / signal level / flags / ssid
-48:5d:36:2e:ee:08	2412	-45	[WPA2-PSK-CCMP][WPS][ESS]	74LL5
-fe:a6:67:ff:f0:13	2412	-58	[WPA2-PSK-CCMP][WPS][ESS][P2P]	\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
-6a:54:fd:84:98:e3	2412	-61	[WPA2-PSK-CCMP][WPS][ESS][P2P]	\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
-18:1b:eb:b2:79:08	2462	-74	[WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS]	SQLKL
-ac:e2:d3:e2:a2:f9	2462	-90	[WPA2-PSK-CCMP][WPS][ESS]	DIRECT-F8-HP OfficeJet Pro 6970
-fa:8f:ca:66:9a:6d	2412	-71	[ESS]
+48:5d:36:2e:ee:08 2412 -45 [WPA2-PSK-CCMP][WPS][ESS] 74LL5
+fe:a6:67:ff:f0:13 2412 -58 [WPA2-PSK-CCMP][WPS][ESS][P2P] \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+6a:54:fd:84:98:e3 2412 -61 [WPA2-PSK-CCMP][WPS][ESS][P2P] \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+18:1b:eb:b2:79:08 2462 -74 [WPA-PSK-CCMP][WPA2-PSK-CCMP][WPS][ESS] SQLKL
+ac:e2:d3:e2:a2:f9 2462 -90 [WPA2-PSK-CCMP][WPS][ESS] DIRECT-F8-HP OfficeJet Pro 6970
+fa:8f:ca:66:9a:6d 2412 -71 [ESS]
 > quit
 ```
 
@@ -1130,6 +1153,7 @@ fa:8f:ca:66:9a:6d	2412	-71	[ESS]
 
 
 WiFi Configuration Via Command Line
+
 * [Step-by-step: Connect to WiFi network from command line in Linux](http://www.blackmoreops.com/2014/09/18/connect-to-wifi-network-from-command-line-in-linux/)
 * [wireless on the command line](http://substack.net/wireless_from_the_command_line_in_linux)
 * [The Pain of Connecting to WPA Wi-Fi on the Linux Command Line](http://www.sevenforge.com/2009/07/28/connecting-to-wpa-wifi-on-the-command-line/)
@@ -1142,6 +1166,7 @@ WiFi Configuration Via Command Line
 ################################################################################
 
 # MAC Address and OUI Lookup
+
 * [OUI (MAC address) lookup script](http://www.backtrack-linux.org/forums/showthread.php?t=29819)
 * [Resolving MAC Address from IP Address](http://unix.stackexchange.com/questions/120153/resolving-mac-address-from-ip-address-in-linux)
 * [Change mac address with macchanger Linux command](http://linuxconfig.org/change-mac-address-with-macchanger-linux-command)
@@ -1156,19 +1181,20 @@ WiFi Configuration Via Command Line
 ################################################################################
 Subnet and IP Calculator
 IP Subnet Calculator for IPv4/v6
-http://www.gestioip.net/cgi-bin/subnet_calculator.cgi
-http://www.subnetonline.com/pages/subnet-calculators/ipv6-subnet-calculator.php
-http://www.tunnelsup.com/subnet-calculator
-http://www.ipv6calculator.net/
+<http://www.gestioip.net/cgi-bin/subnet_calculator.cgi>
+<http://www.subnetonline.com/pages/subnet-calculators/ipv6-subnet-calculator.php>
+<http://www.tunnelsup.com/subnet-calculator>
+<http://www.ipv6calculator.net/>
 ################################################################################
 
 ################################################################################
 
 # DHCP
+
 * [How I configure a DHCP server on my personal network](https://opensource.com/article/22/7/configure-dhcp-server)
 
 Multicast Domain Name System (mDNS)
-(http://www.multicastdns.org/) is one of the features of Bonjour, included in Mac OS X 10.2 or later,
+(<http://www.multicastdns.org/>) is one of the features of Bonjour, included in Mac OS X 10.2 or later,
 and the linux equivalent called [Avahi][57].
 mDNS resolves host names to IP addresses within small networks that do not include a local name server.
 It is a zero-configuration service,
@@ -1202,6 +1228,7 @@ This helps avoid confusion between names that are local Bonjour computer names
 
 
 # Secure Shell (SSH)
+
 Secure Shell (SSH) is a cryptographic network protocol for operating network services
 securely over an unsecured network.
 Typical applications include remote command-line, login, and remote command execution,
@@ -1220,16 +1247,19 @@ but any network service can be secured with SSH.
 * [How to set up SSH dynamic port forwarding on Linux](https://www.redhat.com/sysadmin/ssh-dynamic-port-forwarding)
 
 ## Eliminate SSH Keys and use a GPG Keys Instead
+
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 * [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
 
 ## SSH - Remote Unix Work
+
 * [Tips for remote Unix work: SSH, screen, and VNC](http://shebang.brandonmintern.com/tips-for-remote-unix-work-ssh-screen-and-vnc/)
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 * [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
 * [Tools for SSH key management](https://opensource.com/article/20/2/ssh-tools)
 
 ## The'Connection Refused' Message
+
 * [What causes the 'Connection Refused' message?](http://serverfault.com/questions/725262/what-causes-the-connection-refused-message)
 * [What can be the reasons of connection refused errors?](http://stackoverflow.com/questions/2333400/what-can-be-the-reasons-of-connection-refused-errors)
 
@@ -1252,26 +1282,32 @@ Then you can conclude that the port is not open on the destination machine.
 # Share Terminal Access
 
 ## tty-share
+
 tty-share enables you to do terminal sharing over the Internet.
 Its an extremely simple means for a remote person to join a shared session you establish.
 
 ## tmate
+
 * [Share your Linux terminal with tmate](https://opensource.com/article/22/6/share-linux-terminal-tmate)
 * [Tmate – Share Your Terminal Instantly To Anyone From Anywhere](https://ostechnix.com/tmate-share-terminal-instantly-anyone-anywhere/)
 
 ## Temporary Allow SSH Logins (ssh-allow-friend)
-https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
+
+<https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/>
 
 ## Teleconsole
+
 * [Teleconsole - Share Your Linux Terminal with Your Friends](https://www.tecmint.com/teleconsole-share-linux-terminal-session-with-friends/)
 * [How to Share a Terminal Session with Friends](https://www.maketecheasier.com/share-terminal-session-with-friends/)
 
 # Recording Terminal Session
+
 * [How To Record and Share Terminal Sessions Using Terminalizer on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-record-and-share-terminal-sessions-using-terminalizer-on-ubuntu-18-04)
 * [Terminalizer](https://terminalizer.com/)
 * [termtosvg](https://github.com/nbedos/termtosvg)
 
 # Measure Networked File Transfer Speed
+
 We can combine `nc` and `dd` to measure networked file transfer speeds.
 To do this, on the server machine, we again run `netcat` in “listen” mode,
 and on the client machine we use `dd` to pipe n bytes of zeroes over the connection:
@@ -1290,6 +1326,7 @@ The `-vv` argument to `nc` tells it to produce verbose output.
 * [Two Power Commands for Unix Ninjas](https://levelup.gitconnected.com/two-overlooked-commands-for-unix-ninjas-55b8bfc4dc84)
 
 # Establishing a Connection
+
 You can use `iw` to connect to an AP directly if and only if the AP has:
 
 * No encryption
@@ -1311,6 +1348,7 @@ iw wlan0 connect foo keys 0:abcde d:1:0011223344
 ```
 
 # WiFi Status and Configuration
+
 All WiFi dongles are not the same.
 They differ in performance based upon the chip set used in their design.
 You can assess details about the capability of your WiFi dongle via [`iw`][02].
@@ -1373,28 +1411,29 @@ iw dev wlan0 link
 ```
 
 # Getting Station Statistics
+
 To get station statistic information such as the amount of tx/rx bytes,
 the last TX bit rate (including [MCS values][05]) you can do:
 
 ```bash
 $ iw dev wlan0 station dump
 Station 00:1f:90:b4:8a:80 (on wlan0)
-	inactive time:	7976 ms
-	rx bytes:	29886939
-	rx packets:	419177
-	tx bytes:	49091
-	tx packets:	1535
-	tx retries:	18
-	tx failed:	0
-	signal:  	-43 dBm
-	signal avg:	-43 dBm
-	tx bitrate:	48.0 MBit/s
-	authorized:	yes
-	authenticated:	yes
-	preamble:	long
-	WMM/WME:	no
-	MFP:		no
-	TDLS peer:		no
+ inactive time: 7976 ms
+ rx bytes: 29886939
+ rx packets: 419177
+ tx bytes: 49091
+ tx packets: 1535
+ tx retries: 18
+ tx failed: 0
+ signal:   -43 dBm
+ signal avg: -43 dBm
+ tx bitrate: 48.0 MBit/s
+ authorized: yes
+ authenticated: yes
+ preamble: long
+ WMM/WME: no
+ MFP:  no
+ TDLS peer:  no
 ```
 
 * **TDLS**, or Tunneled Direct Link Setup is a technology that enables devices to
@@ -1439,6 +1478,7 @@ iw dev wlan0 get power_save
 ```
 
 # Setting Frequency or Channel
+
 ```bash
 # set frequency
 iw dev wlan0 set freq 2412 [HT20|HT40+|HT40-]
@@ -1448,6 +1488,7 @@ iw dev wlan0 set channel 1 [HT20|HT40+|HT40-]
 ```
 
 # IBSS / Ad-Hoc Networks
+
 ```bash
 # join an IBSS / ad-hoc network
 iw wlan0 set type ibss
@@ -1467,6 +1508,7 @@ iw wlan0 ibss leave
 
 
 # Finding a Device's IP Address, MAC Adress, and FQDN
+
 * [ARP Scan versus Ping Sweep](https://netscantools.blogspot.com/2009/06/arp-scan-versus-ping-sweep.html)
 * [Using ARP for Network Recon](https://www.linux-magazine.com/Online/Features/Using-ARP-for-Network-Recon)
 
@@ -1612,7 +1654,7 @@ $ nmap -sP 192.168.1.0/24 > /dev/null ; arp -na | grep "at 00:17:88"
 ```
 
 If you cannot find your device,
-it may be configured to ignore `ping `broadcast (in order to avoid denial-of-service attack).
+it may be configured to ignore `ping`broadcast (in order to avoid denial-of-service attack).
 To enable it, make sure `/proc` file system is mounted and type:
 
 ```bash
@@ -1620,7 +1662,7 @@ To enable it, make sure `/proc` file system is mounted and type:
 echo 0 > /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts
 ```
 
-Read more: http://www.cnx-software.com/2010/10/25/finding-a-device-ip-address/#ixzz3zFsxCdUW
+Read more: <http://www.cnx-software.com/2010/10/25/finding-a-device-ip-address/#ixzz3zFsxCdUW>
 
 Here is Bash script to do a ping sweep,
 without using nmap but using `ping` & `arp` instead,
@@ -1650,6 +1692,7 @@ wait
 ```
 
 ## Finding a Duplicate IP Address
+
 You use `arp-scan` for is in finding duplicate IP addresses.
 This is a great feature for locating a device with a duplicate IP address
 if you have a mixed static and DHCP network like many of us do.
@@ -1660,39 +1703,40 @@ You can easily find duplicates by filtering a scan with:
 $ sudo arp-scan -I wlan0 -I eth0 192.168.1.0/24
 Interface: eth0, type: EN10MB, MAC: 00:22:4d:83:c1:c8, IPv4: 192.168.1.200
 Starting arp-scan 1.9.7 with 256 hosts (https://github.com/royhills/arp-scan)
-192.168.1.1 	48:5d:36:2e:ee:06	Verizon
-192.168.1.34	00:17:88:4a:15:15	Philips Lighting BV
-192.168.1.9 	cc:9e:a2:17:b8:d8	Amazon Technologies Inc.
-192.168.1.36	00:04:20:fb:bd:d7	Slim Devices, Inc.
-192.168.1.105	2c:58:4f:b1:0a:42	ARRIS Group, Inc.
-192.168.1.106	2c:58:4f:b0:e0:53	ARRIS Group, Inc.
-192.168.1.108	8c:61:a3:97:8e:1f	ARRIS Group, Inc.
-192.168.1.61	04:c2:9b:83:1a:9b	(Unknown)
-192.168.1.89	7c:78:b2:29:c8:be	(Unknown)
-192.168.1.95	f4:f5:d8:4d:34:da	Google, Inc.
-192.168.1.87	ce:72:d8:27:ab:cc	(Unknown: locally administered)
-192.168.1.191	24:fd:5b:03:61:dd	SmartThings, Inc.
-192.168.1.201	90:09:d0:00:4e:29	(Unknown)
-192.168.1.185	24:4c:e3:36:9e:ad	Amazon Technologies Inc.
-192.168.1.190	68:54:fd:84:18:e3	Amazon Technologies Inc.
-192.168.1.196	9e:da:c4:7d:09:63	(Unknown: locally administered)
-192.168.1.184	50:e0:85:42:b8:32	Intel Corporate
-192.168.1.192	5c:cf:7f:d5:e6:27	Espressif Inc.
-192.168.1.196	9e:da:c4:7d:09:63	(Unknown: locally administered) (DUP: 2)
-192.168.1.198	f8:77:b8:b7:a2:26	Samsung Electronics Co.,Ltd
+192.168.1.1  48:5d:36:2e:ee:06 Verizon
+192.168.1.34 00:17:88:4a:15:15 Philips Lighting BV
+192.168.1.9  cc:9e:a2:17:b8:d8 Amazon Technologies Inc.
+192.168.1.36 00:04:20:fb:bd:d7 Slim Devices, Inc.
+192.168.1.105 2c:58:4f:b1:0a:42 ARRIS Group, Inc.
+192.168.1.106 2c:58:4f:b0:e0:53 ARRIS Group, Inc.
+192.168.1.108 8c:61:a3:97:8e:1f ARRIS Group, Inc.
+192.168.1.61 04:c2:9b:83:1a:9b (Unknown)
+192.168.1.89 7c:78:b2:29:c8:be (Unknown)
+192.168.1.95 f4:f5:d8:4d:34:da Google, Inc.
+192.168.1.87 ce:72:d8:27:ab:cc (Unknown: locally administered)
+192.168.1.191 24:fd:5b:03:61:dd SmartThings, Inc.
+192.168.1.201 90:09:d0:00:4e:29 (Unknown)
+192.168.1.185 24:4c:e3:36:9e:ad Amazon Technologies Inc.
+192.168.1.190 68:54:fd:84:18:e3 Amazon Technologies Inc.
+192.168.1.196 9e:da:c4:7d:09:63 (Unknown: locally administered)
+192.168.1.184 50:e0:85:42:b8:32 Intel Corporate
+192.168.1.192 5c:cf:7f:d5:e6:27 Espressif Inc.
+192.168.1.196 9e:da:c4:7d:09:63 (Unknown: locally administered) (DUP: 2)
+192.168.1.198 f8:77:b8:b7:a2:26 Samsung Electronics Co.,Ltd
 
 20 packets received by filter, 0 packets dropped by kernel
 Ending arp-scan 1.9.7: 256 hosts scanned in 1.974 seconds (129.69 hosts/sec). 20 responded
 
 # find duplicate use of ip addresses
 $ sudo arp-scan -I wlan0 -I eth0 192.168.1.0/24 | grep -i dup
-192.168.1.196	9e:da:c4:7d:09:63	(Unknown: locally administered) (DUP: 2)
+192.168.1.196 9e:da:c4:7d:09:63 (Unknown: locally administered) (DUP: 2)
 ```
 
 By using the MAC address, you can check your switches to find the device
 with the duplicate IP address and fix the problem.
 
 ## Finding Your Raspberry Pi
+
 I typical run my Raspberry Pis headless,
 and that can make login into them via `ssh` a challenge.
 A typical interaction is this:
@@ -1731,22 +1775,22 @@ A complete list of OUI assignments is compiled daily and is available [here][77]
 According to this list there is a single OUI/MA-L assignment for the Raspberry Pi Foundation:
 
 ```
-B8-27-EB   (hex)		Raspberry Pi Foundation
-B827EB     (base 16)	Raspberry Pi Foundation
-			        	Mitchell Wood House
-				        Caldecote  Cambridgeshire  CB23 7NU
-				        US
+B8-27-EB   (hex)  Raspberry Pi Foundation
+B827EB     (base 16) Raspberry Pi Foundation
+            Mitchell Wood House
+            Caldecote  Cambridgeshire  CB23 7NU
+            US
 ```
 
 But I also often use WiFi dongles from Edimax on my Raspberry Pis.
 A search of the OUI/MA-L assignment list provides:
 
 ```
-74-DA-38   (hex)		Edimax Technology Co. Ltd.
-74DA38     (base 16)	Edimax Technology Co. Ltd.
-				        No. 278, Xinhu 1st Road
-				        Taipei City  Neihu Dist  248
-				        TW
+74-DA-38   (hex)  Edimax Technology Co. Ltd.
+74DA38     (base 16) Edimax Technology Co. Ltd.
+            No. 278, Xinhu 1st Road
+            Taipei City  Neihu Dist  248
+            TW
 ```
 
 So `arp -a` can dump the candiate devices IP Addresses via this command:
@@ -1770,6 +1814,7 @@ So `arp -a` can dump the candiate devices IP Addresses via this command:
 
 
 # Port Scanning
+
 Port Scanning is the name for the technique used to identify open ports and services available on a network host. It is sometimes utilized by security technicians to audit computers for vulnerabilities, however, it is also used by hackers to target victims. It can be used to send requests to connect to the targeted computers, and then keep track of the ports which appear to be opened, or those that respond to the request.
 
 Port sweeping is regarded by certain systems experts to be different from port scanning. They point out that port scanning is executed through the searching of a single host for open ports. However, they state that port sweeping is executed through the searching of multiple hosts in order to target just one specific open port. While Port scanning and sweeping have legitimate uses with regard to network management, unfortunately, they are used almost as frequently for the purpose of criminal activity.
@@ -1779,12 +1824,14 @@ Port sweeping is regarded by certain systems experts to be different from port s
 * [Advanced NMap Techniques - Hak5 2415](https://www.youtube.com/watch?v=7XMIFTRiAGA)
 
 ## Testing Site
+
 The site `http://scanme.nmap.org/` is provided by the [Nmap Security Scanner Project][29]
 and [Insecure.Org][92] to help folks learn about Nmap and also to test
 and make sure that their Nmap installation (or Internet connection) is working properly.
 It is OK to scan this machine with Nmap or other port scanners, just don't hammer it too hard.
 
 ## Scan a host
+
 Do a `nmap` scan of a single host.
 
 ```bash
@@ -1993,6 +2040,7 @@ Nmap done: 1 IP address (1 host up) scanned in 28.16 seconds
 # waits for all pings to complete and returns ip, mac address, interface
 (echo -e "IP Address\tMAC Address\t\tInterface" ; prefix="192.168.1" && for i in `seq 254`; do (sleep 0.5 && ping -c1 -w1 $prefix.$i &> /dev/null && arp -n | awk ' /'$prefix'.'$i' / { print $1 "\t" $3 "\t" $5 } ') & done; wait)
 ```
+
 `nmap` is widely used for port mapping capabilities but lesser known
 as a lightweight vulnerability scanner.
 `nmap` can scan for CVE, which stands for [Common Vulnerabilities and Exposures][154].
@@ -2016,7 +2064,8 @@ sudo nmap --script vuln 192.168.1.200
 # What Devices Are Connected to Your Network
 
 ## IP/MAC Address Monitoring with with Arpwatch
-* https://www.youtube.com/watch?v=uqanawVLpSg
+
+* <https://www.youtube.com/watch?v=uqanawVLpSg>
 * [Arpwatch Tool to Monitor Ethernet Activity in Linux](https://www.tecmint.com/monitor-ethernet-activity-in-linux/)
 * [How To Monitor Ethernet Activity In Linux Using Arpwatch](http://www.linuxandubuntu.com/home/how-to-monitor-ethernet-activity-in-linux-using-arpwatch)
 * [Arpwatch Home Network Monitor](https://www.virtualizationhowto.com/2016/02/arpwatch-home-network-monitor/)
@@ -2048,6 +2097,7 @@ Open `/etc/sysconfig/arpwatch` and edit the file with this
 
 
 ## IP/MAC Address Monitoring with with nmap
+
 An easy way to scan your network to see what device are connected is to use [`nmap`][01].
 With this you can find out if some unknown or unwanted device is connected to it.
 
@@ -2079,6 +2129,7 @@ sudo nmap -sV 192.168.1.1
 
 
 ## IP/MAC Address Monitoring with with Zenmap
+
 Zenmap is just a GUI form which can be used by novice users. It completely uses nmap command line tool. So they do not have similarities or differencies. They just completes each other.
 
 * [Zenmap](http://nmap.org/zenmap/)
@@ -2089,12 +2140,14 @@ Zenmap is just a GUI form which can be used by novice users. It completely uses 
 * [How to Use Zenmap to Discover Your Network Devices](https://www.youtube.com/watch?v=wt_xMols4Ww&t=823s)
 
 # netcat
+
 Hacking with Netcat
 [Part 1: The Basics](http://www.hackingtutorials.org/networking/hacking-with-netcat-part-1-the-basics/)
 [Part 2: Bind and Reverse shells](http://www.hackingtutorials.org/networking/hacking-netcat-part-2-bind-reverse-shells/)
 [Part 3: Advanced Netcat techniques](http://www.hackingtutorials.org/networking/hacking-with-netcat-part-3-advanced-techniques/)
 
 # nslookup
+
 * [10 Linux nslookup Command Examples for DNS Lookup](http://www.thegeekstuff.com/2012/07/nslookup-examples/)
 * [nslookup command examples to check DNS Records](http://www.2daygeek.com/nslookup-command-examples-to-check-dns-records/#)
 
@@ -2103,11 +2156,11 @@ Hacking with Netcat
 ```bash
 # DNS host name lookup
 $ nslookup redhat.com
-Server:		192.168.1.1
-Address:	192.168.1.1#53
+Server:  192.168.1.1
+Address: 192.168.1.1#53
 
 Non-authoritative answer:
-Name:	redhat.com
+Name: redhat.com
 Address: 209.132.183.105
 ```
 
@@ -2124,14 +2177,15 @@ You can also do the reverse DNS look-up by providing the IP Address as argument 
 ```bash
 # reverse DNS lookup
 $ nslookup desktop
-Server:		192.168.1.1
-Address:	192.168.1.1#53
+Server:  192.168.1.1
+Address: 192.168.1.1#53
 
-Name:	desktop.fios-router.home
+Name: desktop.fios-router.home
 Address: 192.168.1.13
 ```
 
 ## Check for Open Port on a Remote System
+
 ```bash
 # find the external ip address of you router/firewall
 $ my_ip
@@ -2159,6 +2213,7 @@ If the connection fails, then you will get an error message of “failed: Connec
 
 
 # Routing
+
 _Routing_ is a [means of sending an IP packet from one point to another][64].
 In computer networking, a _router_ is a device responsible for forwarding network traffic.
 On Linux and UNIX systems,
@@ -2204,6 +2259,7 @@ For further information and education, see
 * [Introduction to Linux IP Routing Fundamentals (Part 1)](http://www.thegeekstuff.com/2012/04/ip-routing-intro/)
 
 ## Display the Routing Table
+
 Each entry is nothing but an entry in the routing table (Linux kernel routing table).
 
 ```bash
@@ -2242,24 +2298,29 @@ default via 192.168.1.1 dev eth1  proto static
 ```
 
 ## Diagnosing Routing Problems
-http://www.coyotepoint.com/files/downloads/StaticRoutes.pdf
+
+<http://www.coyotepoint.com/files/downloads/StaticRoutes.pdf>
 
 ## Using, Ping Traceroute, and MTR to Diagnose Network Issues
-http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/
+
+<http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/>
+
 * [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
 * [How to use the Linux mtr command](https://www.redhat.com/sysadmin/linux-mtr-command)
 * [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
 * [How to use the Linux mtr (My Traceroute) command](https://vitux.com/how-to-use-the-linux-mtr-command/)
 
 ### `ping`
-http://www.cyberciti.biz/faq/unix-ping-command-examples/
-http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/
-http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/
-http://www.sanfoundry.com/10-ping-command-usage-examples-linux/
-http://www.computerhope.com/unix/arp.htm
-http://www.cyberciti.biz/faq/linux-traffic-shaping-using-tc-to-control-http-traffic/
+
+<http://www.cyberciti.biz/faq/unix-ping-command-examples/>
+<http://www.linux.org/threads/tcp-ip-utilities-ping-and-traceroute.4848/>
+<http://www.thegeekstuff.com/2009/11/ping-tutorial-13-effective-ping-command-examples/>
+<http://www.sanfoundry.com/10-ping-command-usage-examples-linux/>
+<http://www.computerhope.com/unix/arp.htm>
+<http://www.cyberciti.biz/faq/linux-traffic-shaping-using-tc-to-control-http-traffic/>
 
 ### `traceroute`
+
 `traceroute` attempts to trace the route an IP packet would follow to some Internet host
 by launching probe packets with a small TTL (time to live)
 then listening for an ICMP "time exceeded" reply from a gateway.
@@ -2279,6 +2340,7 @@ then listening for an ICMP "time exceeded" reply from a gateway.
 * [traceroute command in Linux with Examples](https://www.geeksforgeeks.org/traceroute-command-in-linux-with-examples/)
 
 ### `mtr`
+
 * [How to use the Linux mtr (My Traceroute) command](https://vitux.com/how-to-use-the-linux-mtr-command/)
 * [Diagnosing Network Issues with MTR](https://www.linode.com/docs/networking/diagnostics/diagnosing-network-issues-with-mtr)
 * [How To Use Traceroute and MTR to Diagnose Network Issues](https://www.digitalocean.com/community/tutorials/how-to-use-traceroute-and-mtr-to-diagnose-network-issues)
@@ -2313,9 +2375,11 @@ mtr -b -c 5 --report-wide google.com
 
 
 # Network Address Translation (NAT)
+
 * [Network Address Translation (NAT) Tutorial](http://www.karlrupp.net/en/computer/nat_tutorial)
 
 # Checking Port Status and Open Ports
+
 good ways to find out what ports are listenting:
 
 ```bash
@@ -2345,6 +2409,7 @@ sudo /sbin/iptables -L
 
 
 # Firewall
+
 * [The Linux Firewall](http://code.tutsplus.com/tutorials/the-linux-firewall--net-31748)
 * [Secure your Linux network with firewall-cmd](https://www.redhat.com/sysadmin/secure-linux-network-firewall-cmd)
 * [Five Firewall Configuration Mistakes You Need to Avoid](https://www.networkcomputing.com/network-security/five-firewall-configuration-mistakes-you-need-avoid)
@@ -2393,6 +2458,7 @@ By default `ufw` is disabled.
 * [Make Linux stronger with firewalls](https://opensource.com/article/19/7/make-linux-stronger-firewalls)
 
 ## Understanding Firewall Chains
+
 [![iptables diagram](http://static.thegeekstuff.com/wp-content/uploads/2011/01/iptables-table-chain-rule-structure.png "iptables firewall is used to manage packet filtering and NAT rules. IPTables comes with all Linux distributions. Understanding how to setup and configure iptables will help you manage your Linux firewall effectively.")](http://www.thegeekstuff.com/2011/01/iptables-fundamentals/)
 [![iptables flow](https://danielmiessler.com/images/DM_NF2.png "how traffic moves through netfilter")](https://danielmiessler.com/study/iptables/)
 Managed via `iptables`, there are total of 4 default tables established for `netfilter`.
@@ -2434,6 +2500,7 @@ so both the input and output chains will need to be configured properly.
 SSH is a common protocol that people forget to allow on both chains.
 
 ### Default Chain Policy
+
 Before going in and configuring specific rules,
 you need to understand the default behavior of the three chains.
 That is, what does `iptables` do if the connection doesn’t match any existing rules?
@@ -2469,6 +2536,7 @@ sudo iptables --policy FORWARD DROP
 ```
 
 ### Connection Responses
+
 With your default chain policies configured,
 you can start adding rules to `iptables` so it knows what to do when it
 encounters a connection from or to a particular IP address or port.
@@ -2497,6 +2565,7 @@ configured for each one of these settings.
 ![iptable reject]({filename}/images/iptables-target-reject.jpg "ping response when the connection is blocked or connecting improperly (REJECT)")
 
 ## Displaying the Status of Firewall
+
 To inspect firewall with line numbers, enter:
 
 ```bash
@@ -2520,9 +2589,11 @@ The rules in the `iptables –list` command output contains the following fields
 * **destination** - Destination ip-address for the packet
 
 ## Status / Stop / Restart Iptables Firewall Service
+
 [Ubuntu: Stat / Stop / Restart Iptables Firewall Service](http://www.cyberciti.biz/faq/ubuntu-start-stop-iptables-service/)
 
 ## Logging Firewall Activity
+
 * [How to Log Linux IPTables Firewall Dropped Packets to a Log File](http://www.thegeekstuff.com/2012/08/iptables-log-packets/)
 * [Force iptables to log messages to a different log file](http://www.cyberciti.biz/tips/force-iptables-to-log-messages-to-a-different-log-file.html)
 * [How can I configure syslog.conf file, to log iptables messages in a separate file?](http://unix.stackexchange.com/questions/96484/how-can-i-configure-syslog-conf-file-to-log-iptables-messages-in-a-separate-fil)
@@ -2532,6 +2603,7 @@ iptables logs = /var/log/syslog
 Do note, however, that logging every single packet marked for dropping is liable to fill up your log filesystem really, really fast
 
 ## Block All Network Traffic
+
 This will block all incoming and outgoing traffic including Internet.
 
 ```bash
@@ -2544,7 +2616,7 @@ iptables -P FORWARD DROP
 
 **Do not enter above command over remote ssh login session.**
 
-If you want to block all incoming traffic to your system __except__
+If you want to block all incoming traffic to your system **except**
 ssh connection under Linux,
 do the following:
 
@@ -2584,9 +2656,10 @@ Outgoing ssh connection state can be established only.
 By default this script allows everyone to ssh in by rule -s 0/0.
 If you want this access limited by IP or network address then replace -s 0/0 with IP address.
 
-Source: http://www.cyberciti.biz/tips/linux-iptables-4-block-all-incoming-traffic-but-allow-ssh.html
+Source: <http://www.cyberciti.biz/tips/linux-iptables-4-block-all-incoming-traffic-but-allow-ssh.html>
 
 ## Blocking All Traffic from a Specific IP
+
 * [Iptables Drop IP Address](http://www.cyberciti.biz/faq/linux-iptables-drop/)
 
 ```bash
@@ -2607,9 +2680,10 @@ iptables -A INPUT -s 11.22.33.44 -j LOG --log-prefix "blocking all traffic"
 iptables -A INPUT -s 11.22.33.44 -j DROP
 ```
 
-Source: https://www.garron.me/en/linux/iptables-manual.html
+Source: <https://www.garron.me/en/linux/iptables-manual.html>
 
 ## Stopping a Brute Force Attacks
+
 You can also use `iptables` to stop brute force attacks to your server.
 For example: Allow only three attempts to log through `ssh` before banning the IP for 15 minutes,
 this should let legitimate users to log to the servers, but bots will not be able.
@@ -2626,9 +2700,10 @@ iptables -I INPUT -p tcp --dport 22 -i eth0 -m state --state NEW -m recent --upd
 iptables -P INPUT DROP
 ```
 
-Source: https://www.garron.me/en/linux/iptables-manual.html
+Source: <https://www.garron.me/en/linux/iptables-manual.html>
 
 ## Edit Firewall Rules
+
 * [How to edit iptables rules](https://fedoraproject.org/wiki/How_to_edit_iptables_rules)
 * [How do you PREPEND an iptables rather than APPEND?](http://serverfault.com/questions/374993/how-do-you-prepend-an-iptables-rather-than-append)
 * [Insert an iptables rule on a specific line number with a comment, and restore all rules after reboot](https://snipt.net/johan_adriaans/insert-an-iptables-rule-on-a-specific-line-number-with-a-comment-and-restore-all-rules-after-reboot/)
@@ -2673,6 +2748,7 @@ num  target     prot opt source               destination
 ```
 
 ## Delete Firewall Rules
+
 To display line number along with other information for existing rules, enter:
 
 ```bash
@@ -2701,12 +2777,15 @@ Where,
 * **-D** : Delete one or more rules from the selected chain
 
 ## Deleting / Editing Rules
+
 * [How To List and Delete Iptables Firewall Rules](https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules)
 
 ## Show and Clear Packet Counts
+
 * [How To List and Delete Iptables Firewall Rules](https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules)
 
 ## Saving Rules
+
 If you change the `iptables` rules and restart the computer,
 it will restart with the previous set of rules.
 To preserver your rules, first check that you have made changes correctly using `sudo iptables -L`
@@ -2736,6 +2815,7 @@ sudo ip6tables-restore < /etc/iptables/backup_rules.v6
 ```
 
 ## Drop or Accept Traffic From Mac Address
+
 Use the following syntax:
 
 ```bash
@@ -2747,6 +2827,7 @@ sudo iptables -A INPUT -p tcp --destination-port 22 -m mac --mac-source 00:0F:EA
 ```
 
 ## Open Range of Ports or IP Addresses
+
 Use the following syntax to open a range of ports:
 
 ```bash
@@ -2765,6 +2846,7 @@ iptables -t nat -A POSTROUTING -j SNAT --to-source 192.168.1.20-192.168.1.25
 ```
 
 ## Restrict the Number of Parallel Connections To a Server Per Client IP
+
 You can use connlimit module to put such restrictions.
 To allow 3 ssh connections per client host,
 or restric HTTP requests, enter:
@@ -2784,6 +2866,7 @@ Where,
 this must be a number between (including) 0 and 32.
 
 ## Testing Your Firewall
+
 Find out if ports are open or not, enter:
 
 ```bash
@@ -2801,10 +2884,12 @@ service httpd start
 ```
 
 ## Adding Comments to iptables Rules
+
 * [Adding comments to iptables rules](https://major.io/2010/07/26/adding-comments-to-iptables-rules/)
 * [commenting iptables rules](http://www.twam.info/software/linux/gentoo/commenting-iptables-rules)
 
 ## Saving iptables Rules
+
 If you were to reboot your machine right after modifing your firewall,
 your iptables configuration would disappear.
 Rather than type this each time you reboot, however, you can save the configuration,
@@ -2823,6 +2908,7 @@ sudo iptables-save > /etc/iptables/rules.v4
 # restore iptable rules from file
 sudo iptables-restore < /etc/iptables/rules.v4
 ```
+
 For Ubuntu, to load the `iptables` rules files on boot up,
 there is a package with the name `iptables-persistent`
 which does the task of automatic loading of the saved `iptables` rules.
@@ -2836,6 +2922,7 @@ sudo apt-get install iptables-persistent
 ```
 
 ## Logging Traffic
+
 If you would like to log dropped packets to syslog,
 this would be the quickest way:
 
@@ -2844,12 +2931,14 @@ sudo iptables -I INPUT 5 -m limit --limit 5/min -j LOG --log-prefix "iptables de
 ```
 
 ## Port Forwarding
+
 * [Port Forwarding Using iptables](http://www.systutorials.com/816/port-forwarding-using-iptables/)
 * [Iptables Forward Multiple Ports](https://ndtri128.wordpress.com/2014/05/19/iptables-forward-multiple-ports/)
 * [Setting Up Gateway Using iptables and route on Linux](http://www.systutorials.com/1372/setting-up-gateway-using-iptables-and-route-on-linux/)
 * [SSH Port Forwarding on Linux](http://www.systutorials.com/39648/port-forwarding-using-ssh-tunnel/)
 
 ## Flush / Remove All iptables Rules
+
 Create the script `/root/fw.stop` using text editor:
 
 ```bash
@@ -2886,11 +2975,12 @@ You can verify that firewall rules are flushed out via:
 `iptables -L -v`
 which should show that all chains will "ACCEPT" packets.
 
-## Protect Your Network from Spamming, Scanning, etc.
+## Protect Your Network from Spamming, Scanning, etc
+
 [DROP (Don't Route Or Peer)][40] is an advisory "drop all traffic" list,
 consisting of stolen 'zombie' netblocks and netblocks controlled entirely by professional spammers.
 
-http://www.cyberciti.biz/tips/block-spamming-scanning-with-iptables.html
+<http://www.cyberciti.biz/tips/block-spamming-scanning-with-iptables.html>
 
 ###############################
 The firewall of Linux is in the hands of `iptables`
@@ -2903,6 +2993,7 @@ gives a good introductory tutorial on how to use `ufw`.
 ###############################
 
 # WiFi Definitions and Concepts
+
 All components that can connect into a wireless medium in a network are referred to as **stations**.
 All stations are equipped with wireless network interface controllers (WNICs).
 Wireless stations fall into one of two categories: wireless access points, and clients.
@@ -2939,6 +3030,7 @@ Access points in an ESS are connected by a distribution system.
 Each ESS has an ID called the **SSID** which is a 32-byte (maximum) character string.
 
 ### Types of Wireless LANs
+
 The IEEE 802.11 has two basic modes of operation: ad hoc mode and infrastructure mode.
 
 * In **ad hoc mode**, mobile units transmit directly peer-to-peer.
@@ -2971,15 +3063,17 @@ It allows a wireless network to be expanded using multiple access points without
 traditional requirement for a wired backbone to link them.
 
 # Traffic Shaping
+
 Traffic Shaping (a.k.a Bandwidth Shaping or Packet Shaping)
 is an attempt to control network traffic by prioritizing network resources
 and guarantee certain bandwidth based on predefined policy rules.
 Traffic shaping uses concepts of traffic classification, policy rules,
 queue disciplines and quality of service (QoS).
 
-http://www.iplocation.net/tools/traffic-control.php
+<http://www.iplocation.net/tools/traffic-control.php>
 
 # Test for Internet Speed
+
 You determine your Internet download speed right from a terminal window
 by using the `wget` command to pull a file from a remote server.
 The speed is displayed in the terminal when the file download has completed
@@ -3005,6 +3099,7 @@ $
 See [Fast.com](https://fast.com/)
 
 # Script for Wireless Stations Monitoring
+
 Here is a [script][11] that provides live stats monitor of wireless stations' link quality
 and some additional useful information regarding the
 bit rate, Tx/Rx packets, wireless signal strength, etc.
@@ -3015,17 +3110,19 @@ bit rate, Tx/Rx packets, wireless signal strength, etc.
 <!-- --------- End: Gist Code Snippet ------------ -->
 
 ## Sources
+
 These are the major sources for the information and commands documented in this post.
 
 * [Official Linux Wireless Wiki](http://wireless.kernel.org/en/users/Documentation)
 * [Wireless Tools for Linux](http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.htmlq)
 
 ## Requires More Research
+
 These links should be explored to see what additional information
 could be gathered for this cheat sheet.
 
 * [Finding a device IP Address](http://www.cnx-software.com/2010/10/25/finding-a-device-ip-address/)
-* [ Who is on my wifi?](http://forum.backbox.org/general-support/who-is-on-my-wifi/)
+* [Who is on my wifi?](http://forum.backbox.org/general-support/who-is-on-my-wifi/)
 * [Find What Devices Are Connected to Network In Ubuntu](http://itsfoss.com/how-to-find-what-devices-are-connected-to-network-in-ubuntu/)
 * [Wi-Fi on the Command Line](http://www.linuxjournal.com/content/wi-fi-command-line)
 * [WiFinder is a Python Driven Roommate Warning System](http://hackaday.com/2014/06/28/wifinder-is-a-python-driven-roommate-warning-system/)
@@ -3034,10 +3131,12 @@ could be gathered for this cheat sheet.
 * [First Linux Release of Wi-Fi app inSSIDer Available to Download](http://www.omgubuntu.co.uk/2011/01/wi-fi-app-inssider-2-linux-alpha-released)
 
 # Route
+
 * [Linux route Add Command Examples](http://www.cyberciti.biz/faq/linux-route-add/)
 * [The Linux ip Command – An Ostensive Overview](http://packetpushers.net/linux-ip-command-ostensive-definition/)
 
 # Nmap
+
 * [Beginner's Guide to Nmap](http://www.linux.com/learn/tutorials/290879-beginners-guide-to-nmap)
 * [Top 30 Nmap Command Examples For Sys/Network Admins](http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/)
 * [Nmap Cheat Sheet](https://blogs.sans.org/pen-testing/files/2013/10/NmapCheatSheetv1.0.pdf)
@@ -3051,9 +3150,11 @@ could be gathered for this cheat sheet.
 
 
 # Kismet
+
 * [How to use Kismet: A free Wi-Fi network-monitoring tool](http://searchsecurity.techtarget.com/video/How-to-use-Kismet-A-free-Wi-Fi-network-monitoring-tool?videoId=8eb0fc2d1aa26410VgnVCM1000000d01c80aRCRD)
 
 # Arbitrary Network Packets
+
 * [Getting started with socat, a multipurpose relay tool for Linux](https://www.redhat.com/sysadmin/getting-started-socat)
 * [HOWTO: Crafting arbitrary network packets with socat](http://discourse.criticalengineering.org/t/howto-crafting-arbitrary-network-packets-with-socat/51/last)
 * [socat: Linux / UNIX TCP Port Forwarder](http://www.cyberciti.biz/faq/linux-unix-tcp-port-forwarding/)
@@ -3064,6 +3165,7 @@ could be gathered for this cheat sheet.
 * [Linux Fu: Serial Untethered](https://hackaday.com/2021/02/11/linux-fu-serial-untethered/)
 
 # Deep Packet Inspection
+
 [Deep Packet Inspection (DPI)][156] is a method to examine the contents of network traffic.
 It can filter packets based on in-depth analysis at all layers of the [OSI model][155].
 
@@ -3191,7 +3293,6 @@ It can filter packets based on in-depth analysis at all layers of the [OSI model
 [120]:http://linux.die.net/man/8/ifconfig
 [121]:http://linux.die.net/man/8/ip
 [122]:http://linux.die.net/man/8/iwconfig
-[123]:http://jwalanta.blogspot.com/2010/02/internet-connection-sharing-ics-in.html
 [124]:http://linux.die.net/man/8/iw
 [125]:https://wireless.wiki.kernel.org/en/users/Documentation/iw
 [126]:https://wireless.wiki.kernel.org/en/developers/documentation/nl80211

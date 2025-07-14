@@ -17,6 +17,7 @@ Version:      0.0.0
 
 
 # Wyze Camera V2
+
 Wyze's tiny $25 security camera is surprisingly [awesome][02].
 The Wyze Cam v2 delivers fast, clear, live stream footage directly
 to your smartphone via the Wyze App (iOS and Android), day or night.
@@ -51,12 +52,14 @@ and is designed for indoor use (it is not weatherproof).
 
 
 # Wyze Camera V3 Pro
+
 2K Home Security with a built in spotlight and Edge AI.
 
 * [Wyze Cam v3 Pro](https://www.wyze.com/products/wyze-cam-pro)
 
 
 # Wyze Camera Cabling
+
 Extension power cable keeps your indoor or outdoor Wireless Security Camera
 connected over a much greater distance.
 Compatible with WyzeCam.
@@ -104,6 +107,7 @@ Compatible with WyzeCam.
 
 
 # Wyze Video Doorbell
+
 The Wyze doorbell camera is surprisingly compact, measuring just 3.25 x 1.5 x 0.625 inches (HxWxD).
 It comes with a WiFi connected indoor chime,
 and you can put in multiple chimes to cover your whole house.
@@ -128,6 +132,7 @@ Reviews:
 
 
 # Wyze Camera Setup
+
 The [Wyze website provides an excellent setup guide][01];
 just follow those instructions.
 
@@ -152,6 +157,7 @@ Sources:
 
 
 # Home Surveillance Using Wyze Cams
+
 Sources:
 
 * [Turn any Wyze Cam into IP cam with Docker](https://www.youtube.com/watch?v=l2S6XIj0iE0)
@@ -163,6 +169,7 @@ Sources:
 
 
 ## How to install the RTSP Firmware
+
 Real Time Streaming Protocol (RTSP) is a standard network protocol designed to establish and control media sessions between endpoints.
 
 Installation procedures are documented [here][05].
@@ -208,6 +215,7 @@ Sources:
 
 
 ### What is RTSP?
+
 Real Time Streaming Protocol (RTSP) is a standard network protocol designed to
 establish and control media sessions between endpoints.
 Due to hardware limitation, RTSP could only be achieved as a separate firmware version
@@ -224,6 +232,7 @@ for both Wyze Cam v2 and Wyze Cam Pan.
 
 
 ### Real Time Streaming Protocol (RTSP)
+
 The Real Time Streaming Protocol (RTSP) is a network control protocol designed for use in entertainment and communications systems to control streaming media servers. The protocol is used for establishing and controlling media sessions between end points.
 
 The Real-Time Streaming Protocol allows to control multimedia streams delivered, for example, via RTP. Control includes absolute positioning within the media stream, recording and possibly device control.
@@ -242,6 +251,7 @@ AI and other Cam Plus-related features may be unstable for cameras using this fi
 
 
 ### What does do for me?
+
 RTSP make a cheap Wyze into an expensive IP Cam.
 
 
@@ -288,6 +298,7 @@ RTSP make a cheap Wyze into an expensive IP Cam.
 
 
 ## Echo Show 5
+
 Set up
 
 * Plug your Echo Show 5 into an outlet. In about a minute, the display will turn on and Alexa will greet you.
@@ -297,9 +308,9 @@ Set up
 * Swipe down from the top of your Echo Show 5 screen to access Settings. Swipe left from the right side of the screen for shortcuts to music, smart home, tips on using Alexa, and more.
 * [Download](https://www.amazon.com/b?node=18354642011) or update the Amazon Alexa app on your smartphone to get more out of your Echo Show 5.
 * visit the [Alexa Privacy Hub](https://www.amazon.com/b/?node=19149155011) or ask, "Alexa, how do I review my privacy settings?
-    * “Alexa, why did you do that?”
-    * “Alexa, how do I delete my voice recordings?”
-    * “Alexa, how do I turn off the microphones?”
+  * “Alexa, why did you do that?”
+  * “Alexa, how do I delete my voice recordings?”
+  * “Alexa, how do I turn off the microphones?”
 * Manage Your Alexa Data - <https://www.amazon.com/alexa-privacy/apd/myad>
 * Chat help page - <https://www.amazon.com/hz/contact-us/csp>
 * Support for Echo Show - <https://www.amazon.com/gp/help/customer/display.html?nodeId=202138870>

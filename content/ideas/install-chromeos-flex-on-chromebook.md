@@ -30,6 +30,7 @@ Check out ["Google Confirms 5 New ‘High’ Level Security Flaws In Chrome"][25
 >**NEWS FLASH:** On Sept 14, 2023, Google announced that "[Chromebooks will get 10 years of automatic updates][26]"
 
 # ChromeOS Flex Installation
+
 I purchased in 2015 for $300 via Amazon a [Toshiba CB35-B3340 13.3-Inch Chromebook 2][06].
 It has 64-bit Intel Celeron N2840 Processor (with Intel HD Graphics for Intel Atom® Processor Z3700),
 4GB of DDR3L SDRAM memory, and 16GB SSD disk.
@@ -103,6 +104,7 @@ as I will do below.
 
 
 ## Install of ChromeOS Flex
+
 The procedure below is basically following the methodology outline in
 ["How to install ChromeOS Flex on a Chromebook"][15].
 To get a good review on how we'll proceed,
@@ -116,6 +118,7 @@ via the “Chromebook Recovery Utility“.
 The website ["ChromeOS is Missing or Damaged Fixed!"][21] can help you with this.
 
 #### Step 1: Create USB Installer ChromeOS Flex Image - DONE
+
 You could use the method outline in ["ChromeOS Flex Installation Guide: Create the USB installer"][12]
 to create you installer USB drive.
 This should be done on your Chromebook, via the Chrome browser,
@@ -139,6 +142,7 @@ sudo dd if=chromeos_15117.112.0_reven_recovery_stable-channel_mp-v2.bin of=/dev/
 ```
 
 #### Step 2: Disable Write Protection on Toshiba CB35-B3340 - DONE
+
 All Chromebooks come with physical write protection,
 which is an extra layer of security to stop anything from being installed that shouldn’t be.
 This include write protection of a new OS like ChromeOS Flex.
@@ -159,10 +163,12 @@ cover up where you scraped the sticker off with a piece of electrical tape (aka 
 * Reassemble the Chromebook.
 
 Sources:
+
 * [Disable write protect on Toshiba Chromebook 2][16]
 * [HOW TO Disable write-protect on Toshiba Chromebook 2 (CB35-3340)](https://www.reddit.com/r/chromeos/comments/2ljid3/how_to_disable_writeprotect_on_toshiba_chromebook/)
 
 #### Step 3: Flash Chromebook with Coreboot Firmware - DONE
+
 Next we'll replace the Chromebook's BIOS firmware with [coreboot][18].
 [MrChromebox][17] provides coreboot firmware images for the vast majority of
 x86-based Chromebooks and Chromeboxes, providing a [modern UEFI bootloader][19].
@@ -208,10 +214,12 @@ After explicitly saying I wanted to proceed, the script will proceeded to downlo
 chose "P" on the menu to power off.
 
 Sources:
+
 * [HOWTO: Flash full ROM (i.e. coreboot) and install GalliumOS on Dell Chromebook 11 Candy (3120)][22]
 * [MrChromebox.tech](https://mrchromebox.tech/#home)
 
 #### Step 4: Boot Chromebook Using USB Installer - DONE
+
 Next we want to boot the Chromebook from the USB drive.
 To do this, you must enable take advantage of the Coreboot bootloader we just installed.
 The procedure is as follows:

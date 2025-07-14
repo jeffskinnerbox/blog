@@ -14,7 +14,9 @@ Version:      0.0.0
 
 
 ################################################################################
+
 # ThingSpace Core
+
 To get a app token
 
 ```bash
@@ -33,21 +35,24 @@ curl -s -X POST -d "grant_type=client_credentials" \
 ################################################################################
 
 # API Console
+
 [ThingSpace API Console][07]
 [API referance documentation][08]
 
 # ThingSpace Manage
+
 ThingSpace Manage is a self-service portal where you can manage the connectivity
 of IoT devices on the Verizon Wireless Network.
 You must sign in at the bottom of [this page][04].
 
-http://www.verizonenterprise.com/resources/thingspace_solutions_brief_en_xg.pdf
+<http://www.verizonenterprise.com/resources/thingspace_solutions_brief_en_xg.pdf>
 
 # Main Body
-Use a POST request to send data from a device or application to ThingSpace.io, with the data in the body of the request.
-https://thingspace.verizon.com/develop/apis/dweet/v1/API%20Reference/Send%20Data%20with%20POST.html
 
-ThingSpace Demo GitHub - https://github.com/kidbug/tsdemo
+Use a POST request to send data from a device or application to ThingSpace.io, with the data in the body of the request.
+<https://thingspace.verizon.com/develop/apis/dweet/v1/API%20Reference/Send%20Data%20with%20POST.html>
+
+ThingSpace Demo GitHub - <https://github.com/kidbug/tsdemo>
 
 
 An API token is a unique identifier of an application requesting access to a service.
@@ -71,6 +76,7 @@ The artcle "[The Ins and Outs of Token Based Authentication][10]"
 give a good introduction to token based authentication.
 
 # Step 1: Retrieve App Credentials
+
 First thing to be done is to read "[Getting Credentials to use the API][09]"
 and [obtain tokens on the ThingSpace website][06].
 This will establish your trial account and associated keys.
@@ -81,6 +87,7 @@ which can be seen [here][02].
 My Test Token
 89ba225e1438e95bd05c3cc288d3591
 ```
+
 If you follow the documentation referanced above,
 you'll establish a trial account [here][01] get your full key set
 (Key, Secret, Token - you can supply an App Name and Callback URL).
@@ -101,12 +108,14 @@ and send a POST request to obtain an API token.
 This will be done in the next step.
 
 # Step 2: Retrieve App Access Token
+
 [ThingSpace Connectivity Management API][05]
 allows you to add and activate devices, check their status, monitor their usage,
 and perform other device connectivity management tasks through a RESTful API.
 To do this, your application must send an API token in the header of every API request.
 
 ## Obtaining a ThingSpace Token Programmatically
+
 ThingSpace use the OAuth2 "client credentials" grant type,
 and requires the concatenate of the key and the secret, with a colon between them.
 This string is then [encode in Base64 format][11]:
@@ -147,18 +156,20 @@ of all Connectivity Management API requests.
 The token will expire and that expire time is given in seconds.
 
 ## Obtaining a ThingSpace Token Via Website
+
 You can also make the request to generate a new token via the [API Key site][02].
 If you select ["My Keys" on the Develop page][03],
 that will bring you to [webpage for your account's keys][02].
 On that page is a refreash button next to "Token" where you can generate another application token.
 
 # Step 3
+
 For example, a `sar` disk i/o transfer rate report generates data in tabular form:
 
 ```bash
 # print current i/o trasfer rates
 $ sar -b  1 1
-Linux 4.4.0-53-generic (desktop) 	12/22/2016 	_x86_64_	(4 CPU)
+Linux 4.4.0-53-generic (desktop)  12/22/2016  _x86_64_ (4 CPU)
 
 12:30:26 PM       tps      rtps      wtps   bread/s   bwrtn/s
 12:30:27 PM     23.00      3.00     20.00     24.00    306.00
@@ -194,13 +205,15 @@ $ sar -b  1 1 | awk  '$1="" ; END{print}' | sed '1,$s/ //'
 ```
 
 # more stuff
+
 Get data from thingspace
-curl -s -X GET --header "Accept: application/json" "https://thingspace.io/get/dweets/for/node-red-test" | jq -C '.'
+curl -s -X GET --header "Accept: application/json" "<https://thingspace.io/get/dweets/for/node-red-test>" | jq -C '.'
 
 Post data on thingspace
-curl -s -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d "{ \"test\": \"test\" }" "https://thingspace.io/dweet/for/node-red-test" | jq -C '.'
+curl -s -X POST --header "Content-Type: application/json" --header "Accept: application/json" -d "{ \"test\": \"test\" }" "<https://thingspace.io/dweet/for/node-red-test>" | jq -C '.'
 
 # Step X: Streaming Camera to Freeboard
+
 [Freeboard][84], by [Bug Labs][85],
 is a simple Web-based dashboard that tracks different Web-connected devices in real time.
 Bug Labs likens Freeboard's to [Dropbox][87] in the world of cloud storage,
@@ -227,15 +240,18 @@ aka [HAPI][88] web API.
 
 
 # Step X: Controlling the Camera (Optional)
+
 * [My Internet of Things and MobileFirst adventure – Part 4: Adding in the camera](https://dennisschultz.wordpress.com/2015/06/29/my-internet-of-things-and-mobilefirst-adventure-part-5-adding-in-the-camera/)
 * [node-red-contrib-camerapi](http://flows.nodered.org/node/node-red-contrib-camerapi)
 * [node-red-contrib-webcam](http://flows.nodered.org/node/node-red-contrib-webcam)
 
 # Video Storage
+
 * [Cloudinary](http://cloudinary.com/)
 * [example use of Cloudinary](https://openhomeautomation.net/internet-of-things-project-raspberry-pi-2/)
 
 # POST System Status
+
 The utility `sar`, part of the `sysstat` package,
 you can monitor performance of various Linux subsystems (CPU, memory, I/O..) in real time.
 Also, `sar` you can also collect all performance data on an on-going basis,

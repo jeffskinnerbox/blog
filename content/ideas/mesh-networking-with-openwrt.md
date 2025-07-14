@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 What a Mesh!
+
 * [Part 1-The Ins and Outs Of Mesh Networking](http://www.sensorsmag.com/networking-communications/wireless-sensor/what-a-mesh-part-1-the-ins-and-outs-of-mesh-networking-1530)
 * [Part 2-Networking Architectures and Protocols](http://www.sensorsmag.com/networking-communications/wireless-sensor/what-a-mesh-part-2-networking-architectures-and-protocols-1544)
 * [Introduction to wireless mesh routing protocols](http://www.sensorsmag.com/networking-communications/wireless-sensor/what-a-mesh-part-2-networking-architectures-and-protocols-1544)
@@ -35,24 +36,29 @@ What a Mesh!
 * [Batman on OpenWRT](https://wiki.reseaulibre.ca/guides/openwrt+batman/)
 
 * [Outernet](https://en.wikipedia.org/wiki/Outernet)
-    * [OUTERNET RADIO FOR THE INFORMATION AGE](https://outernet.is/)
+  * [OUTERNET RADIO FOR THE INFORMATION AGE](https://outernet.is/)
 
 Chantilly MESH
+
 * [Chantilly MESH](https://gathman.org/meshdoc/)
 
 PIC Mesh
+
 * [PIC Mesh](http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/f2016/bac239_aw528_rk534/bac239_aw528_rk534/bac239_aw528_rk534/index.html)
 
 * [Finding the Best Mesh for the IoT](https://www.eetimes.com/author.asp?section_id=36&doc_id=1332775)
 
 Mesh Bee
+
 * [Mesh Bee](http://wiki.seeedstudio.com/wiki/Zig_Bee)
 
 Maxwell Mesh WiFi
+
 * [Mesh Wi-Fi for nerds](https://www.crowdsupply.com/andy-haas/maxwell)
 * [Maxwell Mesh Wifi Documentation](https://docs.google.com/document/d/1TnzFl1mKHkWIbcUVCAEKZYzHnerIYOiiUq8j5ZDTStQ/edit#heading=h.h6za53wq6dff)
 
 ESP8266 Mesh Networking
+
 * [ESP8266 Mesh User Guide](http://www.espressif.com/sites/default/files/30a-esp8266_mesh_user_guide_en.pdf)
 * [ESP-Mesh](https://espressif.com/en/products/software/esp-mesh/overview)
 
@@ -70,10 +76,12 @@ support for general purpose Internet access requiring low latency and significan
 or special purpose like sensor networks where latency and bandwidth a lesser concern.
 
 # OSI Model
+
 Nice break down of the OSI model
 [![osi-model](https://s-media-cache-ak0.pinimg.com/736x/21/0c/f0/210cf024379729cbda41099e84dcb4d0.jpg "")](https://en.wikipedia.org/wiki/OSI_model)
 
 # Four Setup Options for the Router
+
 A router is a separating network element.
 It separates two networks and allows certain traffic to cross.
 Sometimes this is necessary in a network setup but for most home networks
@@ -113,12 +121,14 @@ Router Operating Mode - Connect the WAN port of the qMp Router to the LAN port o
     If you have such a Home Router, this option will not work since the qMp Router will
     not be able to reach the Internet.
 Router Operating in DMZ
-:   * [What are the tradeoffs between the various router configurations](http://www.dslreports.com/faq/16077)
+:   *[What are the tradeoffs between the various router configurations](http://www.dslreports.com/faq/16077)
     * [3.0 Networking](http://www.dslreports.com/faq/verizonfios/3.0_Networking#12506)
-    * [How to Configure Verizon FiOS Router to Give Network Control to Airport Extreme](http://www.podfeet.com/blog/tutorials-5/how-to-configure-verizon-fios-router-to-give-network-control-to-airport-extreme/)
+    *[How to Configure Verizon FiOS Router to Give Network Control to Airport Extreme](http://www.podfeet.com/blog/tutorials-5/how-to-configure-verizon-fios-router-to-give-network-control-to-airport-extreme/)
     * [Two routers on your home network?](http://www.suggest-a-fix.com/index.php?/topic/44-two-routers-on-your-home-network/)
+
 # Types of Networks
-https://wellness.wikispaces.com/Network+Architectures
+
+<https://wellness.wikispaces.com/Network+Architectures>
 Ad-Hoc Network
 :   Within wireless networking, Ad-Hoc is one of the modes of operation for an 802.11 radio.
     It happens at OSI layer 1, the physical layer,
@@ -143,7 +153,7 @@ Peer-to-Peer (P2P) Network
     of clients-to-client communication, just at different layers of the OSI model.
 
 Multipeer Connectivity
-:   https://developer.apple.com/library/ios/documentation/MultipeerConnectivity/Reference/MultipeerConnectivityFramework/
+:   <https://developer.apple.com/library/ios/documentation/MultipeerConnectivity/Reference/MultipeerConnectivityFramework/>
 
 Wireless Mesh Network
 :   A Wireless Mesh Network (WMN) is a communications network made up of
@@ -207,7 +217,7 @@ Switched Mesh Network
 
 IEEE 802.11s
 :   IEEE 802.11s is an IEEE 802.11 amendment for mesh networking, defining how wireless devices can interconnect to create a WLAN mesh network, which may be used for static topologies and ad hoc networks.
-https://en.wikipedia.org/wiki/IEEE_802.11s
+<https://en.wikipedia.org/wiki/IEEE_802.11s>
 
 Overlay Network
 :   An overlay network is a computer network that is built on top of another network.
@@ -257,7 +267,8 @@ The Meshnet
     currently known as Hyperboria.
 
 # Communities Experiment with Mesh Networks
-![BattlemeshV9](http://www.olsr.org/mediawiki/images/c/c5/BattleMeshV9.png =100x100 "The Wireless Battle of the Mesh is an event that aims to bring together people from across the globe to test the performance of different routing protocols for ad-hoc networks, like Babel, B.A.T.M.A.N, BMX, OLSR, and 802.11s.")(http://battlemesh.org/)
+
+![BattlemeshV9](<http://www.olsr.org/mediawiki/images/c/c5/BattleMeshV9.png> =100x100 "The Wireless Battle of the Mesh is an event that aims to bring together people from across the globe to test the performance of different routing protocols for ad-hoc networks, like Babel, B.A.T.M.A.N, BMX, OLSR, and 802.11s.")(<http://battlemesh.org/>)
 Some of the interest in mesh networking is about getting around traditional ISPs,
 or as an emergency backup network in the event of a disaster,gg
 or providing [true secrecy][04] / privacy / anonymity from the paring eyes of governments,
@@ -293,6 +304,7 @@ prevent monitoring, orprevent jamming but some make some
     a shared network medium (usually Ad-Hoc WiFi, aka IBSS),
     the [Optimized Link State Routing Protocol (OLSR)](http://www.olsr.org/mediawiki/index.php/Projects#olsrd2),
     and the [Commotion Architecture](https://wiki.commotionwireless.net/doku.php?id=commotion_architecture:start).
+
 * [Commotion Pi: Build an RPi MESH Node](https://commotionwireless.net/blog/2014/06/12/commotion-pi-build-rpi-mesh-node/)
 
 [People's Open Network](http://peoplesopen.net/)
@@ -307,6 +319,7 @@ prevent monitoring, orprevent jamming but some make some
     with at least one 802.11 a/b/g/n wireless interface.
     It uses the OLSR protocal for routing and
     has been [intergrated with packet-radio](http://project-byzantium.org/byzantium-linux-v0-4b-now-with-packet-radio-support-and-distributed-messaging/).
+
 * [Meshing Pis with Project Byzantium](https://getpocket.com/a/read/909311497)
 
 [Broadband-Hamnet / HSMM-Mesh](http://www.broadband-hamnet.org/)
@@ -341,6 +354,7 @@ prevent monitoring, orprevent jamming but some make some
     Although these protocols are very similar to routing protocols, but bear in mind,
     that in case of IEEE 802.11s these use MAC addresses for "routing", instead of IP addresses.
     Therefore, we use the term "path" instead of "route" and thus "path selection" instead of "routing""
+
 * [1. Introduction To HSMM-MESH Or Broadband-Hamnet](https://www.youtube.com/watch?v=hUeW2ju-RZk&list=PLvgZ_9wT_LNfPHrOWLGG3T_mHWql86afr)
 * [2. Setting up a MESH Node for Amateur Radio - WRT54G firmware install](https://www.youtube.com/watch?v=pryc8jIl6Xo)
 * [3. HSMM-MESH Update Firmware on a Remote Node](https://www.youtube.com/watch?v=vvFjK-Ihk9c)
@@ -348,6 +362,7 @@ prevent monitoring, orprevent jamming but some make some
 
 [Quick Mesh Project (qMp)]()
 :   xxx
+
 * [Quick deployment network using MANET](http://upcommons.upc.edu/pfc/bitstream/2099.1/14103/1/77789.pdf)
 * [Quick Mesh Project](http://qmp.cat/Experimenting_with_the_WRTnode)
 * [Quick deployment network using MANET](http://upcommons.upc.edu/pfc/bitstream/2099.1/14103/1/77789.pdf)
@@ -357,8 +372,8 @@ prevent monitoring, orprevent jamming but some make some
 * [Integration of Mesh networks with qMp in the Guifi·net community - Presentation](http://dev.qmp.cat/attachments/download/144/PFC_qMp-Guifi_presentation.pdf)
 * [qMp wireless mesh network monitoring](https://github.com/pedro-nonfree/qmpsantsupc)
 * Community Networks
-    * [Starting, Contributing and Empowering Community Networks in cities Experiences in Barcelona](http://repositori.upf.edu/bitstream/handle/10230/22884/VilchesBlanco_2014.pdf?sequence=1)
-    * [Experimental research on testbeds for community networks (year 3)](https://bscw.pangea.org/pub/bscw.cgi/d332070/D4.3.pdf)
+  * [Starting, Contributing and Empowering Community Networks in cities Experiences in Barcelona](http://repositori.upf.edu/bitstream/handle/10230/22884/VilchesBlanco_2014.pdf?sequence=1)
+  * [Experimental research on testbeds for community networks (year 3)](https://bscw.pangea.org/pub/bscw.cgi/d332070/D4.3.pdf)
 
 [Project Meshnet / Hyperboria](http://hyperboria.net/)
 :   Hyperboria is based on the cjdns routing protocol and formerly known as Project Meshnet.
@@ -393,30 +408,34 @@ prevent monitoring, orprevent jamming but some make some
     so other users can’t read them, even if the message is stored on a device
     while trying to find a way to deliver the message.
     [Why a messaging app meant for festivals became massively popular during Hong Kong protests](http://www.theverge.com/2014/10/16/6981127/firechat-messaging-app-accidental-protest-app-hong-kong)
+
 * [How FireChat is using an obscure iOS feature to change messaging](http://www.pcworld.com/article/2137265/how-firechat-is-using-an-obscure-ios-feature-to-change-messaging.html)
 * [Thali](http://thaliproject.org/)
-* http://venturebeat.com/2015/10/20/open-garden-uses-firechat-in-tahiti-to-create-a-cell-phone-network-that-eliminates-need-for-carriers/
-* https://play.google.com/store/apps/details?id=com.opengarden.firechat&referrer=utm_source%3Dfirechat.opengarden.com%26utm_medium%3Dweb%26utm_campaign%3Dbutton
-* https://firechat.firebaseapp.com/
-* https://www.npmjs.com/package/firechat
+* <http://venturebeat.com/2015/10/20/open-garden-uses-firechat-in-tahiti-to-create-a-cell-phone-network-that-eliminates-need-for-carriers/>
+* <https://play.google.com/store/apps/details?id=com.opengarden.firechat&referrer=utm_source%3Dfirechat.opengarden.com%26utm_medium%3Dweb%26utm_campaign%3Dbutton>
+* <https://firechat.firebaseapp.com/>
+* <https://www.npmjs.com/package/firechat>
 * [firechat and nearby communication](http://breizh-entropy.org/~nameless/random/posts/firechat_and_nearby_communication/)
-* https://news.ycombinator.com/item?id=7941163
+* <https://news.ycombinator.com/item?id=7941163>
 * [How FireChat Works, Unpacking Bluetooth](https://cctp2p.wordpress.com/2015/04/12/how-firechat-works/)
 * [Cross-Platform Firechat: a possible explanation](http://blog.moritzhaarmann.de/blog/2014/06/25/firechat/)
 
 # Routing Protocols
+
 There are more than 70 competing schemes for routing packets across mesh networks.
 Scalable Source Routing (SSR) is a routing protocol for unstructured networks
 such as mobile ad hoc networks, mesh networks, or sensor networks.
-https://en.wikipedia.org/wiki/Wireless_mesh_network#Routing_protocols
-https://en.wikipedia.org/wiki/List_of_ad_hoc_routing_protocols
-http://www.utilitynetworks.co.uk/site/content/introduction-wireless-mesh-routing-protocols-alan-holt
+<https://en.wikipedia.org/wiki/Wireless_mesh_network#Routing_protocols>
+<https://en.wikipedia.org/wiki/List_of_ad_hoc_routing_protocols>
+<http://www.utilitynetworks.co.uk/site/content/introduction-wireless-mesh-routing-protocols-alan-holt>
 
 ## OLSR Routing Protocol
+
 Old and well-documented routing protocol
-Mesh Networking With OLSR](http://www.dd-wrt.com/wiki/index.php/Mesh_Networking_with_OLSR)
+Mesh Networking With OLSR](<http://www.dd-wrt.com/wiki/index.php/Mesh_Networking_with_OLSR>)
 
 ## B.A.T.M.A.N. Mesh
+
 Developed by Freifunk to replace OLSR
 primarily use case is where a significant number of nodes move around a lot within the mesh area (vehicle based nodes for instance).
 [B.A.T.M.A.N. Mesh Video Playlist](https://www.youtube.com/playlist?list=PLvgZ_9wT_LNdq7SdqJ6VSWspU3vlnEuV9)
@@ -427,6 +446,7 @@ primarily use case is where a significant number of nodes move around a lot with
 [BATMAN on OpenWRT](https://wiki.reseaulibre.ca/guides/openwrt+batman/)
 
 ## CJDNS
+
 The vision of [cjdns](https://github.com/cjdelisle/cjdns)
 ([video](https://www.youtube.com/watch?v=NRhMY-gdXDw) and [whitepaper](https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md#the-router))
 is an Internet where every packet is cryptographically protected
@@ -441,17 +461,21 @@ CJDNS operates at layer 2 locally, and it can peer with other distant meshnets v
 CJDNS implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing.
 
 ## Telehash
+
 [TMesh](https://github.com/telehash/TMesh/blob/master/TMesh.md)
 
 ## Babel
+
 Babel, a level-2 protocal,
 is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4 with fast convergence properties.
 [Babel — a loop-avoiding distance-vector routing protocol](http://www.pps.univ-paris-diderot.fr/~jch/software/babel/)
 
 # FreeMesh
+
 * [How to set up your own fast, private open source mesh network](https://opensource.com/article/20/2/mesh-network-freemesh)
 
 # Meshing Raspberry Pi
+
 * [How to Install OpenWrt on Raspberry Pi](https://www.all4os.com/router/how-to-install-openwrt-on-raspberry-pi.html)
 * [Mesh networking with multiple Raspberry Pi boards](http://hackaday.com/2012/11/14/mesh-networking-with-multiple-raspberry-pi-boards/)
 * [Raspberry Pi Wireless Mesh: Scripts, Data, Plots – oh my!](http://lab.uchicago.edu/2013/09/27/raspberry-pi-wireless-mesh-scripts-data-plots-oh-my-part-1/)
@@ -459,16 +483,19 @@ is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4 with fast 
 * [How Meshnets Are Changing The Face Of The Web](http://makezine.com/2014/11/26/how-meshnets-are-changing-the-face-of-the-web/)
 
 ## OpenWRT
+
 * [My complete OpenWrt Setup Guide](http://www.jauu.net/2015/03/03/complete-openwrt-guide/)
 * [Creating a basic Batman-adv mesh](http://www.radiusdesk.com/technical_discussions/batman_basic)
 * [Hosting Two WiFi Networks on One OpenWrt Router](https://www.smallbusinesstech.net/more-complicated-instructions/openwrt/hosting-two-wifi-networks-on-one-openwrt-router)
 * [How to connect OpenWRT behind another router](https://forum.openwrt.org/viewtopic.php?id=44660)
 
 # Tools
+
 * [Horst is a diagnostic tool that displays Layer 1 information about the link](http://br1.einfach.org/tech/horst/)
 * [MTR (My Traceroute) is a tool that continuously runs traceroutes and shows the latency at each hop of the path.](http://www.bitwizard.nl/mtr/)
 
 # Other
+
 * [Thread - New wireless mesh standard hatches from Google's Nest](http://linuxgizmos.com/new-wireless-mesh-standard-hatches-from-googles-nest/)
 * [Mesh Network Key to Winning IoT Race](http://www.eetimes.com/document.asp?doc_id=1323606)
 * [Wireless 802.11s Mesh Networks,a Techno Commercial](http://www.calsoftlabs.com/downloads/wireless-mesh-networks.pdf)

@@ -15,12 +15,14 @@ Version:      0.0.0
 
 
 Names for the wireless sensor network:
+
 * sensor
 * sennet - sensor network
 * wsn - wireless sensor network
 * sensorem - latin for sensor
 
 From Stuart Gathman
+
 * ESSID: chantilly-mesh
 * Chan: 1
 * Mode: Ad-hoc
@@ -87,6 +89,7 @@ Also, with this project you'll find tools like
 * [Raspberry Pi WiFi Mesh Network](https://www.raspberrypi.org/forums/viewtopic.php?f=36&t=14835)
 
 # B.A.T.M.A.N. Mesh
+
 Developed by [Freifunk][07] to replace [Optimized Link State Routing Protocol (OLSR)][06]
 primarily use case is where a significant number of nodes move around a lot within the mesh area
 (vehicle based nodes for instance).
@@ -122,9 +125,10 @@ and built into the [Linux kernel][11] for greater efficiency.
 BATMAN has an extensive history with several branches.
 That [history and branching is outlined on the Open-Mesh website][19].
 bla bla bla
-BATMAN branches explained - https://www.open-mesh.org/projects/open-mesh/wiki/BranchesExplained
+BATMAN branches explained - <https://www.open-mesh.org/projects/open-mesh/wiki/BranchesExplained>
 
 ## Layer 2 vs. Layer 3
+
 Most layer 3 routing protocols operate by sending UDP packets to other routers
 and manipulate the kernel routing table to effect their routing decision.
 As packets are retransmitted they must be brought up from layer 2 to layer 3 on each node
@@ -134,6 +138,7 @@ A BATMAN-Adv network of nodes can be imagined as a large distributed switch
 where each node has a single switch port to which any other bridge or switch can be connected.
 
 ## Packet Routing and Transmission
+
 The [virtual Ethernet interface][45] ([tap][46]) is used to emulate the switch.
 This switch sends and receives the packets.
 The packet is retransmitted by each node at layer 2 only;
@@ -146,6 +151,7 @@ These [Ethernet-Frames][49] are sent to find the routing information.
 Each data traffic Ethernet-Frame is encapsulated in a 0x0842 Ethernet frame.
 
 ## Node Identification
+
 In Layer 3 routing protocols, for the node to join a network, it must have a unique IP address.
 However, before joining the network, how can the node know which IPs are unique?
 BATMAN-Adv overcomes this problem.
@@ -155,6 +161,7 @@ The BATMAN algorithm decides the best neighbour to receive the packet being sent
 by looking it up in the MAC [translation table][15].
 
 ## Bridging Interfaces
+
 BATMAN-Adv's use of MAC addresses allows multiple other interfaces to be bridged
 in easily using bridge tools.
 The MAC of each participant behind the bridge is collected and
@@ -162,6 +169,7 @@ transmitted as a list via [HNA-messages][52] to all the BATMAN-Adv nodes.
 This makes integration of non-meshed clients very easy and allows the non-meshed clients to roam.
 
 ## Packet Loss and Encryption
+
 Similarly to Ethernet, BATMAN-Adv leaves re-transmission of packets
 to higher layer mechanisms such as TCP.
 As BATMAN-Adv works at layer 2, it is network-layer agnostic.
@@ -170,6 +178,7 @@ BATMAN-Adv does not perform any encryption at layer 2,
 encryption must be performed at a higher layer.
 
 ## User Space Daemon vs. Kernel Module
+
 [User space][55] daemon `batmand` only handles the exchange of routing information.
 In user space, packet forwarding usually takes place as follows:
 
@@ -189,6 +198,7 @@ Kernel functions can be made asynchronous and pre-emptive so asynchronous packet
 By implementing BATMAN-Adv as a kernel module packet processing becomes almost negligible.
 
 ## BATMAN-Adv Kernel Modules
+
 BATMAN-Adv is build as a kernel module to maximize it performance
 (an improvement over the original BATMAN protocol which was implemented in user space).
 Kernel modules, or loadable kernel module (LKM),
@@ -209,6 +219,7 @@ If you want to build BATMAN-Adv from source,
 check out [this site for some instructions][53].
 
 ## BATMAN Deamon - IS THIS PART OF BATMAN OR BATMAN-ADV????
+
 The [`batmand` deamon][31] can be run in 2 different ways:
 
 1. Start the daemon with `batmand [options] interface`, this is called daemon mode
@@ -226,9 +237,10 @@ The default value is 1000 ms (1 second).
 In a mobile network, you may want to detect network changes very quickly (ex. 500 ms).
 In a static network, you can save bandwidth by using a higher value.
 
-https://www.open-mesh.org/projects/batmand/wiki
+<https://www.open-mesh.org/projects/batmand/wiki>
 
 ## BATMAN Configuration Tools
+
 BATMAN-Adv has one primary configuration utility, `batctl`,
 whcih offers a convenient way to configure the BATMAN-Adv kernel module
 as well as displaying debug information such as originator tables,
@@ -244,7 +256,7 @@ but modified to layer 2 behaviour or using the BATMAN-Adv protocol.
 
 These functions change BATMAN-Adv configurations through `batctl`:
 `batctl` is the configuration and debugging tool.
-https://downloads.open-mesh.org/batman/manpages/batctl.8.html
+<https://downloads.open-mesh.org/batman/manpages/batctl.8.html>
 
 Some of the many `batctl` options (see all of them [here][44]):
 
@@ -294,6 +306,7 @@ or replace MAC addresses in debug output and logs.
 Host names are much easier to remember than MAC addresses.
 
 # What Are We Creating: Basic Mesh Network
+
 When everything is complete we will have a mesh with the following characteristics:
 
 * One node which serve as an entry point for other non-meshing WiFi devices.
@@ -321,6 +334,7 @@ Not covered here
 * [Creating a basic Batman-adv mesh](http://www.radiusdesk.com/technical_discussions/batman_basic)
 
 # Step 1: Prepare the Raspberry Pi - DONE
+
 I have a post ["HowTo: Set-Up the Raspberry Pi as a Headless Device"][28]
 that will initialize the Raspberry Pi.
 Your going to need two devices to create a minimal network.
@@ -332,6 +346,7 @@ To do this, you don't using `ssh` to connect with the Raspberry Pi,
 but just using a terminal, say with [screen][29] using a [console cable][30].
 
 # Step 2: Setting up Ad-Hoc Wireless Networking
+
 The next step is to get wireless networking working properly on the Pi’s.
 The steps above gives you a managed wireless connection,
 the typically one where the device connects to a router.
@@ -359,6 +374,7 @@ $ sudo nmap -sP 192.168.1.0/24 | grep mesh
 Nmap scan report for mesh03.fios-router.home (192.168.1.23)
 Nmap scan report for mesh03.fios-router.home (192.168.1.190)
 ```
+
 One of these IP addresses is the interface `wlan0` and the other is `eth0`.
 Take a guess on which is the Ethernet interface and us it to login.
 Once logged in, run the command `sudo iwconfig wlan0 | grep Access`
@@ -404,11 +420,12 @@ Add the same to `mesh02` and `mesh03` except give them another IP addresses
 
 [WiFi Ad-hoc Network](https://wiki.debian.org/WiFi/AdHoc)
 [Setting up an ad-hoc network on boot](http://unix.stackexchange.com/questions/77530/setting-up-an-ad-hoc-network-on-boot)
-[Setup ad-Hoc network](https://wiki.hacdc.org/index.php/BATMAN-Advanced_Setup#Setup ad-Hoc network)
+[Setup ad-Hoc network](<https://wiki.hacdc.org/index.php/BATMAN-Advanced_Setup#Setup> ad-Hoc network)
 [Limitations of Ad Hoc Mode Wireless Networking](http://compnetworking.about.com/od/wirelessfaqs/f/adhoclimitation.htm)
 [Understanding Ad Hoc Mode](http://www.wi-fiplanet.com/tutorials/article.php/1451421/Understanding-Ad-Hoc-Mode.htm)
 
 # Step X: Installing BATMAN-Adv - DONE
+
 You could download and compiled BATMAN-Adv kernel,
 but BATMAN-Adv is installable as a Linux Kernel module
 and is [now part of the mainline Linux development stream][27].
@@ -423,6 +440,7 @@ sudo apt-get install batctl bridge-utils
 # add a loadable kernel module to the Linux kernel
 sudo modprobe batman-adv
 ```
+
 To see the version of BATMAN-Adv your running, use the command `batctl -v`:
 
 ```bash
@@ -456,6 +474,7 @@ You'll find links to the latest stable code posted at [Download B.A.T.M.A.N.][17
 * [Enabling mesh (ad-hoc) network on multiple Raspberry Pi’s](http://scalabilly.com/2015/08/mesh-ad-hoc-network-on-multiple-raspberry-pis/)
 
 # Step X: Install Alfred
+
 [A.L.F.R.E.D - Almighty Lightweight Fact Remote Exchange Daemon](https://www.open-mesh.org/projects/alfred/wiki#Getting-started)
 [How do I install alfred-json on Ubuntu?](http://askubuntu.com/questions/426302/how-do-i-install-alfred-json-on-ubuntu)
 [How do I install alfred-json on Ubuntu?](http://www.ceus-now.com/how-do-i-install-alfred-json-on-ubuntu/)
@@ -469,6 +488,7 @@ You may distribute hostnames, administration information, DNS information, etc.
 but can use neighborhood information from BATMAN-Adv when available.
 
 # Step X: batctl
+
 When BATMAN was moved from layer 3 to layer 2 to become BATMAN-Adv operating within the kernel,
 a handy tool to manage the module and debug the network became necessary.
 The `batctl` tool was created to fill that gap.
@@ -485,30 +505,29 @@ and `batctl` is merely a convenient interface to this.
 
 
 # Step X: BATMAN Deamon
-https://www.open-mesh.org/projects/batmand/wiki
+
+<https://www.open-mesh.org/projects/batmand/wiki>
 
 # Step X: XXX
 
 # Step X: Mixing non-BATMAN Systems with BATMAN-Adv
+
 If you have a couple of computers that you don't want to run BATMAN-Adv on
 but you still want make use of the mesh network,
 you will need to configure an entry point for them on a node running BATMAN-Adv.
 Any device running Linux can be setup to work as a mesh entry point.
 
-* https://www.open-mesh.org/projects/batman-adv/wiki/Quick-start-guide#Mixing-non-BATMAN-systems-with-batman-adv
+* <https://www.open-mesh.org/projects/batman-adv/wiki/Quick-start-guide#Mixing-non-BATMAN-systems-with-batman-adv>
 
 
 
 [01]:http://support.linksys.com/en-us/support/routers/WRT54G
-[02]:http://bmx6.net/projects/bmx6
-[03]:http://www.gl-inet.com/ar150/
 [04]:https://www.open-mesh.org/projects/open-mesh/wiki
 [05]:https://www.open-mesh.org/projects/batman-adv/wiki/Doc-overview
 [06]:https://en.wikipedia.org/wiki/Optimized_Link_State_Routing_Protocol
 [07]:http://freifunk.net/en/what-is-it-about/
 [08]:https://www.open-mesh.org/projects/open-mesh/wiki/BATMANConcept
 [09]:http://qmp.cat/Home
-[10]:https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md
 [11]:https://en.wikipedia.org/wiki/Linux_kernel
 [12]:https://en.wikipedia.org/wiki/Data_link_layer
 [13]:https://en.wikipedia.org/wiki/Network_layer
@@ -518,13 +537,7 @@ Any device running Linux can be setup to work as a mesh entry point.
 [17]:https://www.open-mesh.org/projects/open-mesh/wiki/Download
 [18]:http://qmp.cat/Supported_devices
 [19]:https://www.open-mesh.org/projects/open-mesh/wiki/BranchesExplained
-[20]:http://www.openhab.org/
-[21]:http://www.raspberrypi.org/
-[22]:https://openwrt.org/
-[23]:http://en.wikipedia.org/wiki/Mesh_networking
 [24]:http://en.wikipedia.org/wiki/Mobile_ad_hoc_network
-[25]:http://wrtnode.com/
-[26]:http://www.wdc.com/wdproducts/library/UM/ENG/4779-705072.pdf
 [27]:https://www.open-mesh.org/projects/open-mesh/wiki/2009-10-23-batman-goes-mainline
 [28]:http://jeffskinnerbox.me/posts/2016/Apr/27/howto-set-up-the-raspberry-pi-as-a-headless-device/
 [29]:http://aperiodic.net/screen/start

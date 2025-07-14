@@ -81,11 +81,13 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [5 Hacks to Prolong your ESPaper’s Battery Run-Time](https://thingpulse.com/5-hacks-prolong-espapers-battery-run-time/)
 
 # Solar Powered Raspberry Pi Zero
+
 * [PhotonPower Zero For Effortless Solar Pi Zero Projects](https://hackaday.com/2024/04/02/photonpower-zero-for-effortless-solar-pi-zero-projects/)
 
 
 
 # Design Guide for Energy Harvesting
+
 * [A Powerful Design Guide](https://www.hackster.io/news/a-powerful-design-guide-42ac9054e9af)
 * [Self-powered sensor automatically harvests magnetic energy](https://news.mit.edu/2024/self-powered-sensor-harvests-magnetic-energy-0118)
 * [An Energy Management Design Guide for Self-Powered Sensors](https://ieeexplore.ieee.org/document/10341273)
@@ -93,9 +95,10 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 
 
 # Solar Power
+
 * [Charging Batteries from Solar Energy](https://www.elektormagazine.com/news/charging-batteries-from-solar)
-    * [Charging Batteries from Solar](https://mu.microchip.com/charging-batteries-from-solar)
-    * [Display charge and discharge current wide range](https://www.elektormagazine.com/labs/display-charge-and-discharge-current-wide-range)
+  * [Charging Batteries from Solar](https://mu.microchip.com/charging-batteries-from-solar)
+  * [Display charge and discharge current wide range](https://www.elektormagazine.com/labs/display-charge-and-discharge-current-wide-range)
 
 * [Run your Raspberry Pi off-grid with solar power. Here's what you need](https://www.zdnet.com/home-and-office/run-your-raspberry-pi-off-grid-with-solar-power-heres-what-you-need/)
 
@@ -103,12 +106,15 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [Solar Power Manager 5V](https://www.dfrobot.com/product-1712.html)
 
 # Wind Power
+
 * [3D PRINTED PORTABLE WIND TURBINE](https://hackaday.io/project/185070-3d-printed-portable-wind-turbine)
 
 # Microbial Fuel Cell
+
 * [Moss Microbial Fuel Cell](https://hackaday.io/project/185108-moss-microbial-fuel-cell)
 
 # Solar Irradiance ... Got Enough?
+
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
 * [Dave Young -- Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
 * [The Cult Of Really Low-Power Circuits: Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
@@ -129,10 +135,12 @@ when the microcontroller is asleep to avoid very small but impactful currents th
 * [Solar Harvesting Is Better With Big Capacitors](https://hackaday.com/2022/03/30/solar-harvesting-is-better-with-big-capacitors/)
 
 # Solar Powered: Pro & Con
+
 * [Is Solar Right For You? Find Out!](https://hackaday.com/2019/09/07/is-solar-right-for-you-find-out/)
 * [The Dark Side Of Solar Power](https://hackaday.com/2020/12/02/the-dark-side-of-solar-power/#more-429117)
 
 # Hybrid Super Capacitors
+
 [Lithium Ion Capacitors (LICs)][] combine many advantages of Li-ion batteries and supercapacitors
 making it a perfect choice for batteryless IoT applications.
 A lithium-ion capacitor is a hybrid electrochemical energy storage device which
@@ -146,17 +154,20 @@ combines the tecnologies of lithium-ion battery anode with the cathode of an ele
 * [Linear Solar Chargers For Lithium Capacitors](https://hackaday.com/2025/06/26/linear-solar-chargers-for-lithium-capacitors/)
 
 # Lead Acid Battery
+
 * [Raspberry Pi Battery Power](https://www.youtube.com/watch?v=lPyDtuzYE5s)
 * [Should you choose a lead acid battery for solar storage?](https://www.solarreviews.com/blog/lead-acid-batteries-for-solar-storage)
 * [How To Recharge Lead Acid Battery Through Solar Panel](https://www.edgefxkits.com/blog/how-to-recharge-lead-acid-battery-through-solar-panel/)
 
 # LiFePO Batteries
+
 * [#64 What is the Ideal Battery Technology to Power 3.3V Devices like the ESP8266?](https://www.youtube.com/watch?v=heD1zw3bMhw)
 * [#65 How to use Lifepo4 Batteries (Tutorial)](https://www.youtube.com/watch?v=DicVZfW5YL0)
 * [Are LiFePO Batteries better? How to Use them For Small Projects](https://www.youtube.com/watch?v=eiyBavjQ1Rk)
 * [#400 The Best Power Source for ESP32/ ESP8266 Projects](https://www.youtube.com/watch?v=FrCgQgahzsI)
 
 # USB Power Meter
+
 * [A tale of 3 USB Testers: Ruideng UM25C, UM34C and a fake](https://www.youtube.com/watch?v=wuASLuor9Fs)
 * [YZXStudio ZY1276 vs RuiDeng UM25C USB Power Monitor](https://www.youtube.com/watch?v=fsLuqGJGyCk)
 
@@ -164,7 +175,7 @@ combines the tecnologies of lithium-ion battery anode with the cathode of an ele
 
 * [Review and tear-down of the Ruideng UM34C USB Tester](https://www.youtube.com/watch?v=3yhHX96h-jg&t=55s)
 * [UM34C](https://www.amazon.com/gp/product/B07DMNDT96/)
-* Guide Video: https://www.youtube.com/watch?v=3yhHX96h-jg User manual and Android APP download link: http://www.mediafire.com/folder/5c877rc21tp1p/UM34
+* Guide Video: <https://www.youtube.com/watch?v=3yhHX96h-jg> User manual and Android APP download link: <http://www.mediafire.com/folder/5c877rc21tp1p/UM34>
 * [UM34C USB Meter Review and How I Got Faster Phone Charging](https://www.youtube.com/watch?v=W7Mm2RvVQ6c)
 * [Measuring USB cable resistance using USB testers](https://www.youtube.com/watch?v=9IG9wSS3F9w)
 
@@ -173,6 +184,7 @@ combines the tecnologies of lithium-ion battery anode with the cathode of an ele
 * [Make your own Power Meter/Logger](https://www.youtube.com/watch?v=lrugreN2K4w&t=0s)
 
 # Implementing Power Management
+
 Usually, we can model an device power consumption using three different areas:
 microcontroller, radio operations, sensors and actuators.
 The easiest way to comtrol power consumption by an application using
@@ -199,6 +211,7 @@ This is the most the most efficient mode.
 The deep-sleep mode can be used in scenarios where the device should send data at specific intervals.
 
 ## ATtiny13 Sensor Reader
+
 uses an ATtiny13 to actually read the sensor values. The chip doesn’t run continuously, its watchdog is set at 1 Hz, ensuring that the device is woken up often enough so that it has time to power up the sensor
 
 * [The Right Tools For The Job](https://hackaday.com/2021/02/06/the-right-tools-for-the-job/)
@@ -207,9 +220,11 @@ uses an ATtiny13 to actually read the sensor values. The chip doesn’t run cont
 * [ESP32 TRAIL CAMERA GOES THE DISTANCE ON AA BATTERIES](https://hackaday.com/2020/05/18/esp32-trail-camera-goes-the-distance-on-aa-batteries/)
 
 ## ESP32 Ultra-Low Power Mode
+
 * [ESP32 Soil Monitors Tap Into Ultra-Low Power Mode](https://hackaday.com/2021/01/14/esp32-soil-monitors-tap-into-ultra-low-power-mode/)
 
 ## Burden Voltage
+
 In-circuit current measurement requires that the circuit-under-test be opened
 and the measurement instrument leads placed in series.
 Ideally, the test instrument would appear to the circuit as a dead short.
@@ -220,12 +235,14 @@ The burden voltage is the voltage drop that occurs across the instrument as a re
 Burden voltage is the voltage drop caused by current flowing through a current measuring device.
 A large burden voltage can affect the circuit being measured, corrupting the measurement.
 
-* http://zone.ni.com/reference/en-XX/help/370384V-01/dmm/burden_voltage/
+* <http://zone.ni.com/reference/en-XX/help/370384V-01/dmm/burden_voltage/>
 
 # Ultra-Low Power Design
+
 * [Hardware and Firmware Issues in Using Ultra-Low Power MCUs, by Jack Ganssle](http://www.ganssle.com/reports/ultra-low-power-design.html)
 
 # Amperes vs Power vs Energy
+
 Power consumption measured in watts (usually in milliwatt, mW)
 is the correct term for low power applications
 but all too often the current consumption, measured in amperes (usually milliamperes, mA),
@@ -255,14 +272,16 @@ Peak power consumption will not be an issue for applications where there is enou
 * [Selecting the best lithium primary batteries for your LoRaWAN node](https://www.thethingsnetwork.org/article/selecting-the-best-lithium-primary-batteries-for-your-lorawan-node)
 
 # Measuring Supply Voltage Quality
+
 * [Measuring LED Flicker, With Phototransistor And Audio App](https://hackaday.com/2021/09/01/measuring-led-flicker-with-phototransistor-and-audio-app/)
 
 ## Measurment Tools for Ultra-Low-Power
-* Otii Arc (Qoitech) - https://www.qoitech.com/buy/
-* µCurrent Meter (EEVblog) - https://www.adafruit.com/product/882
-* CurrentRanger (LowPowerLab) - https://lowpowerlab.com/shop/product/152
-* USB Isolator (Adafruit) - https://www.adafruit.com/product/2107
-* Power Profiler Kit (Nordic) - https://www.nordicsemi.com/Software-and-tools/Development-Tools/Power-Profiler-Kit-2
+
+* Otii Arc (Qoitech) - <https://www.qoitech.com/buy/>
+* µCurrent Meter (EEVblog) - <https://www.adafruit.com/product/882>
+* CurrentRanger (LowPowerLab) - <https://lowpowerlab.com/shop/product/152>
+* USB Isolator (Adafruit) - <https://www.adafruit.com/product/2107>
+* Power Profiler Kit (Nordic) - <https://www.nordicsemi.com/Software-and-tools/Development-Tools/Power-Profiler-Kit-2>
 * [simple calculator for estimating a (LiPo) battery's life](https://of-things.de/battery-life-calculator.php)
 
 * [How to measure low Currents for ESP/Arduino? Power Profiler Kit, Otii, µCurrent Gold, Joulescope](https://www.youtube.com/watch?v=LUB8RWzzLWc)
@@ -272,15 +291,18 @@ Peak power consumption will not be an issue for applications where there is enou
 * [uCurrent Videos](https://www.youtube.com/results?search_query=uCurrent)
 
 ## Lock-in Amplifiers
+
 * [Basic Fundamentals of Lock-In Amplifiers](https://www.allaboutcircuits.com/technical-articles/basic-fundamentals-of-lock-in-amplifiers/)
 * [Understanding Types of Lock-In Amplifiers and Related Noise Sources](https://www.allaboutcircuits.com/technical-articles/understanding-types-lock-in-amplifiers-noise-sources/)
 
 
 
 # PLA Waterproofing
+
 * [Truck Bed Liners Improve 3D Prints](https://hackaday.com/2021/02/14/truck-bed-liners-improve-3d-prints/)
 
 # Water Detection
+
 * [Water Leak Detector](https://www.seeedstudio.com/Water-Leak-Detector-p-4620.html)
 
 * [LWL02 LoRaWAN Water Leak Sensor](https://www.seeedstudio.com/LoRaWAN-Water-Leak-Sensor-EU868-p-5300.html)
@@ -303,9 +325,11 @@ Peak power consumption will not be an issue for applications where there is enou
 * [Detecting Water With And Without Headaches](https://hackaday.com/2016/12/15/detecting-water-with-and-without-headaches/)
 
 # Detecting Low Battery Voltages
+
 * [Adding a Battery Gauge to a Project with Zero Parts](https://hackaday.com/2014/11/08/adding-a-battery-gauge-to-a-project-with-zero-parts/)
 
 # Distance Sensor
+
 It has a range of 28 cm to 750 cm with a **read resolution of 1mm**
 (precision isn't specified, but its probably about 5-10 mm).
 
@@ -316,6 +340,7 @@ it's best used when you know that the object you're sensing is at least 30 cm fr
 * [Large Ultrasonic (Sonar) Sensor with Horn and UART Output](https://www.adafruit.com/product/4664)
 
 # Water Sensor
+
 * [Soil Moisture Sensors, How Do They Work?](https://hackaday.com/2021/05/17/soil-moisture-sensors-how-do-they-work/)
 * [A Capacitive Soil Sensor Hack For Lower Voltage Supplies](https://hackaday.com/2019/07/27/a-capacitive-soil-sensor-hack-for-lower-voltage-supplies/)
 * [Occam’s Razor: Gardening Edition (soil moisture monitoring via load cell)](https://hackaday.com/2021/08/21/occams-razor-gardening-edition/)

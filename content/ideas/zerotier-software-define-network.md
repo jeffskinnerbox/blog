@@ -19,6 +19,7 @@ Version:      0.0.0
 * [Best Browser Privacy? Edge vs Chrome vs Firefox vs Brave in Wireshark](https://www.youtube.com/watch?v=_JNg4Ox2Hvc)
 
 ## What is Librewolf?
+
 Librewolf is an independent fork of Firefox that puts "user privacy, security, and user freedom first."
 Librewolf has removed Mozilla dependencies, services and telemetry from the browser
 and it comes with a many already tweaked/configured settings that enhance user privacy and security.
@@ -45,6 +46,7 @@ Here's what LibreWolf does:
 * Disables search and form history.
 
 ## External Repository Manager
+
 External repositories are additional software package repositories
 that are not maintained by your Linux provider (aka Ubuntu/Debian).
 These external repositories will require you to download and execute an (unsigned) shell script as root,
@@ -65,6 +67,7 @@ allowing unsigned scripts to be replaced by a simple `extrepo enable <your-exter
 * [Man Page: Extrepo](https://manpages.ubuntu.com/manpages/oracular/man1/extrepo.1p.html)
 
 #### Step 1: Install LibreWolf - DONE
+
 To install [LibreWolf](https://librewolf.net/) on Ubuntu,
 run the following commands:
 
@@ -85,6 +88,7 @@ sudo extrepo disable librewolf
 ```
 
 #### Step 2: Firefox Security Features Warning - DONE
+
 I did not make any changes concerning this warning.
 
 Sources:
@@ -93,6 +97,7 @@ Sources:
 * [Firefox security features warning on Linux](https://support.mozilla.org/en-US/kb/linux-security-warning)
 
 #### Step 3: Import Bookmarks - DONE
+
 To import bookmarks from Firefox to LibreWolf,
 you can use the built-in function in Firefox to export your bookmarks to a file,
 then use the "Import" option in LibreWolf to bring them in.
@@ -107,6 +112,7 @@ then use the "Import" option in LibreWolf to bring them in.
 
 
 # VPN
+
 * [Why I no longer use a VPN (most of the time) and nor should you](https://www.youtube.com/watch?v=pp-INfssWBo)
 * [STOP using VPN, embrace Zero-Trust networking!](https://www.youtube.com/watch?v=iKq15WXdN88)
 The truth about your current internet security (without a VPN)
@@ -124,16 +130,21 @@ It also encrypt your data, including your you DNS requests
 * What are the things that a VPN CANNOT do?
 
 # Overlay VPN
+
 An overlay VPN (Virtual Private Network) creates a secure, encrypted tunnel over an existing network (such as the internet) to connect remote users or networks. However, traditional VPNs often rely on implicit trust—once a user is authenticated, they may have broad access to internal resources.
 
 # Zero-Trust Networking
+
 A zero-trust network (ZTN) operates on the principle of "never trust, always verify." Every request for access is continuously verified, regardless of whether it originates inside or outside the network. This includes identity-based access controls, least privilege enforcement, and micro-segmentation.
 
 # Is an Overlay VPN an Example of a Zero-Trust Network?
+
 Not necessarily. While an overlay VPN provides encryption and secure connectivity, it does not inherently follow zero-trust principles. A VPN typically grants access to an entire network or subnet once authenticated, whereas a zero-trust network enforces granular, per-request verification.
 
 # When Can a VPN Be Part of a Zero-Trust Network?
+
 A VPN can be integrated into a zero-trust model if:
+
 * Access is restricted using identity-based policies (e.g., Multi-Factor Authentication, device posture checks).
 * Micro-segmentation limits access to only necessary resources.
 * Continuous authentication is enforced, verifying users and devices dynamically.
@@ -147,6 +158,7 @@ However, many modern zero-trust implementations replace VPNs with software-defin
 
 
 # ZeroTier
+
 [ZeroTier][01] creates secure networks between on-premise, cloud, desktop, and mobile devices.
 
 * [Networking with ZeroTier: Creating software-defined networks with Ease](https://www.learnlinux.tv/networking-with-zerotier-creating-software-defined-networks-with-ease/)
@@ -158,6 +170,7 @@ However, many modern zero-trust implementations replace VPNs with software-defin
 * [How Does ZeroTier Actually Work?](https://www.youtube.com/watch?v=Lao9T_RQTak)
 
 # Tailscale
+
 Tailscale is an SaaS product that scales from individual users to entire enterprises, and it's based on the Wireguard VPN protocol.
 Instead of running a single VPN server that acts as an entry and exit point for your networks, Tailscale creates a decentralized mesh network known as a tailnet. This tailnet is coordinated by a central control server, hosted by Tailscale, which is responsible for peer discovery within a tailnet (such as sharing IP addresses and public keys).
 
@@ -170,6 +183,7 @@ This decentralized mesh network allows your devices to effectively exist on thei
 
 
 # Nebula
+
 Nebula is an overlay networking tool designed to be fast, secure, and scalable.
 Connect any number of hosts with on-demand,
 encrypted tunnels that work across any IP networks and without opening firewall ports.
@@ -194,28 +208,33 @@ encrypted tunnels that work across any IP networks and without opening firewall 
 # Vagrant Networks
 
 # Docker Networks
+
 * [Docker Networking Overview](https://docs.docker.com/network/)
 * Networking overview[Docker Networking Tutorial // ALL Network Types explained!](https://www.youtube.com/watch?v=5grbXvV_DSk)
 * [Netshoot](https://github.com/nicolaka/netshoot)
 
 # ZeroTier
+
 ZeroTier combines the capabilities of VPN and SD-WAN, simplifying network management.
+
 * [ZeroTier](https://www.zerotier.com/)
 
 
 
 
 READ THIS
+
 * [Introduction to Linux interfaces for virtual networking](https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking/)
 
-* SDX Central - https://www.sdxcentral.com/
-* David Bombal - https://www.youtube.com/user/ConfigTerm/search?query=ryu
+* SDX Central - <https://www.sdxcentral.com/>
+* David Bombal - <https://www.youtube.com/user/ConfigTerm/search?query=ryu>
 
 * [What is SDN? How software-defined networking changed everything](https://www.grotto-networking.com/SDNfun.html#a-graph-with-attributes-and-json-export)
-* https://web.archive.org/web/20130116072451/http://www.stanford.edu/~brandonh/ONS/OpenFlowTutorial_ONS_Heller.pdf
-* https://www.sdxcentral.com/
+* <https://web.archive.org/web/20130116072451/http://www.stanford.edu/~brandonh/ONS/OpenFlowTutorial_ONS_Heller.pdf>
+* <https://www.sdxcentral.com/>
 
 # Verizon Themes
+
 * **5G**
 * [Everything You Need to Know About 5G](https://www.youtube.com/watch?v=GEx_d0SjvS0)
 * [5G Definitions](https://www.sdxcentral.com/5g/definitions/)
@@ -228,12 +247,13 @@ Ultra-reliable low-latency communications (uRLLC)
 Massive MIMO
 Edge-computing and cloudification
 Network slicing
+
 * **SDN**
 * **Security**
 * **One Fiber**
-    * [Verizon's Boston Smart Cities Pilot Begins](https://www.lightreading.com/gigabit/gigabit-cities/verizons-boston-smart-cities-pilot-begins/d/d-id/728893)
-    * [Verizon's One Fiber initiative in Boston](https://www.lightreading.com/smart-cities/verizon-takes-one-fiber-to-more-cities/d/d-id/733901)
-    * [Verizon Takes 'One Fiber' to More Cities](https://www.lightreading.com/smart-cities/verizon-takes-one-fiber-to-more-cities/d/d-id/733901)
+  * [Verizon's Boston Smart Cities Pilot Begins](https://www.lightreading.com/gigabit/gigabit-cities/verizons-boston-smart-cities-pilot-begins/d/d-id/728893)
+  * [Verizon's One Fiber initiative in Boston](https://www.lightreading.com/smart-cities/verizon-takes-one-fiber-to-more-cities/d/d-id/733901)
+  * [Verizon Takes 'One Fiber' to More Cities](https://www.lightreading.com/smart-cities/verizon-takes-one-fiber-to-more-cities/d/d-id/733901)
 * **Advance Communicationas and Collaboration**
 
 ---------------
@@ -257,13 +277,15 @@ and arbitrary destination tree based forwarding tables for Ethernet switches.
 Program all those virtual switches based on calculated forwarding tables and see the effects of different routing policies via round trip delays (ping) and throughput (iperf) in Mininet.
 
 * [Introduction to Mininet](https://www.youtube.com/watch?v=jmlgXaocwiE)
-* https://www.grotto-networking.com/SDNfun.html#a-graph-with-attributes-and-json-export
+* <https://www.grotto-networking.com/SDNfun.html#a-graph-with-attributes-and-json-export>
 
 # Virtual Private Network (VPN)
+
 * [How to Create a VPN Server With Raspberry Pi](https://medium.com/pcmag-access/how-to-create-a-vpn-server-with-raspberry-pi-989b8831b9c8)
 
 # Definitions
-https://www.zdnet.com/article/software-defined-networking-101-what-sdn-is-and-where-its-going/
+
+<https://www.zdnet.com/article/software-defined-networking-101-what-sdn-is-and-where-its-going/>
 
 * [What is Network Virtualization](https://www.sdxcentral.com/cloud/devops/definitions/programmability-network-automation-sdn-networks/)
 * [What is Network Functions Virtualization](https://www.sdxcentral.com/nfv/definitions/whats-network-functions-virtualization-nfv/)
@@ -286,10 +308,10 @@ to a different physical location.
 that facilitates network management and enables programmatically network configuration
 in order to improve network performance and monitoring.
 SDN is meant to address:
-    * the fact that the static architecture of traditional networks is decentralized and complex
-    * while current networks require more flexibility and easy troubleshooting.
-    * SDN suggests to centralize network intelligence in one network component by disassociating the forwarding process of network packets (data plane) from the routing process (control plane).
-    * The control plane consists of one or more controllers which are considered as the brain of SDN network where the whole intelligence is incorporated.
+  * the fact that the static architecture of traditional networks is decentralized and complex
+  * while current networks require more flexibility and easy troubleshooting.
+  * SDN suggests to centralize network intelligence in one network component by disassociating the forwarding process of network packets (data plane) from the routing process (control plane).
+  * The control plane consists of one or more controllers which are considered as the brain of SDN network where the whole intelligence is incorporated.
 
 * **OpenFlow** is a communications protocol that gives access to the forwarding plane
 of a network switch or router over the network.
@@ -321,10 +343,12 @@ China Unicom and NTT Communications are already supporting CORD.
 There are two CORD profiles, [R-CORD][04] (broadband residential services)
 and [M-CORD][05] (5G mobile wireless networks).
 
-* CORD running on your laptop - https://guide.opencord.org/
+* CORD running on your laptop - <https://guide.opencord.org/>
 
 # Background
+
 Networking Basics
+
 * [OSI Model](https://www.practicalnetworking.net/series/packet-traveling/osi-model/)
 * [Key Network Elements](https://www.practicalnetworking.net/series/packet-traveling/key-players/)
 * [Host to Host communication](https://www.practicalnetworking.net/series/packet-traveling/host-to-host/)
@@ -352,6 +376,7 @@ SDN, NFV, and OpenFlow
 * [SDN, NFV and OpenFlow for Skeptics: 7 Part Series](https://www.youtube.com/watch?v=6h5xa2mmjjw&list=PLWJf584cuAlT9qbZuTy5E85EaDfp_lNz-) - start with Part 2 to avoid the marketing
 
 # NetDevOps
+
 [NetDevOps Live!](https://developer.cisco.com/netdevops/live/)
 is a weekly webinar series from [Cisco DevNet](https://developer.cisco.com/)
 where anything related to network automation, programmability, and NetDevOps
@@ -360,9 +385,11 @@ is the topic of discussion.
 * [Building a NetDevOps CI/CD Pipeline](https://www.youtube.com/watch?v=LinGy8DGIJ8)
 
 # Programable Networking
+
 * [P4: Programming the Network's Forwarding Plane](https://www.networkcomputing.com/networking/p4-programming-networks-forwarding-plane/799175661?_mc=nl_x_nwcr_edt_aud_nwc_x_x-updates-20180915)
 
 # Mininet
+
 Mininet creates a realistic virtual network, running real kernel,
 switch and application code, on a single machine
 Use Mininet to experiment with Openflow and SDN systems.
@@ -375,10 +402,11 @@ Use Mininet to experiment with Openflow and SDN systems.
 * [How to use Kytos with Mininet](https://tutorials.kytos.io/napps/how_to_use_kytos_with_mininet/)
 * [Mininet: An Instant Virtual Network on your Laptop (or other PC)](http://mininet.org/)
 
-* https://www.packetdesign.com/blog/quick-start-mpls-fundamentals/
-* https://www.packetdesign.com/blog/a-guide-to-mpls-vpn-fundamentals/
+* <https://www.packetdesign.com/blog/quick-start-mpls-fundamentals/>
+* <https://www.packetdesign.com/blog/a-guide-to-mpls-vpn-fundamentals/>
 
 # Introduction to SDN
+
 * [Introduction to SDN (Software-defined Networking)](https://www.youtube.com/watch?v=DiChnu_PAzA)
 * [SDN Abstractions](https://www.slideshare.net/martin_casado/sdn-abstractions)
 * [SDN Hub](http://sdnhub.org/)
@@ -389,28 +417,33 @@ Statistic Service
 Host Tracking
 
 ## South Bound Interface
+
 OpenFlow
 OVSDB
 NETCONF
 SNMP
 
 ## Applicaton Interface
+
 Java API
 Norhtbound (RESTConf)
 
 ## Network Applications
 
 # Introduction to OpenFlow
+
 * [Introduction to OpenFlow](https://www.youtube.com/watch?v=l25Ukkmk6Sk)
 * [OpenFlow Tutorial](https://web.archive.org/web/20130116072451/http://www.stanford.edu/~brandonh/ONS/OpenFlowTutorial_ONS_Heller.pdf)
 
 # Introduction to Open vSwitch
-* https://www.openvswitch.org/
+
+* <https://www.openvswitch.org/>
 * [Introduction to Open vSwitch (OVS)](https://www.youtube.com/watch?v=rYW7kQRyUvA)
 * [OpenFlow flow entries on Open vSwitch (OVS)](https://www.youtube.com/watch?v=FyV4MoQ3T0I)
 * [OpenFlow with multiple Flow Tables](https://www.youtube.com/watch?v=TD5wmoD7XOE)
 
 # SDN and NFS
+
 * [SDN & NFV Use Cases Defined](https://www.sdxcentral.com/sdn-nfv-use-cases/)
 * [What is Network Functions Virtualization?](https://thenewstack.io/de-ossify-the-network-with-function-virtualization/)
 * [SDN & NFV APIs and SDKs](https://www.sdxcentral.com/directory/nfv-sdn/comprehensive-list-of-sdn-apis/)
@@ -419,10 +452,12 @@ Norhtbound (RESTConf)
 * [NFV/SDN Essentials for Service Providers](https://www.youtube.com/watch?v=4MOphSlwwiY)
 
 # SDN: What It Is, Why It Matters, and How to Do It
+
 * [SDN 101: What It Is, Why It Matters, and How to Do It](https://blogs.cisco.com/ciscoit/sdn-101-what-it-is-why-it-matters-and-how-to-do-it)
 * [7 Advantages of Software Defined Networking](http://www.ingrammicroadvisor.com/data-center/7-advantages-of-software-defined-networking)
 
 # Open Source SDN and NFS
+
 open source software defined network (SDN) and network functions virtualization (NFV) software platform
 
 * [OpenDaylight](https://www.opendaylight.org/)
@@ -431,34 +466,40 @@ open source software defined network (SDN) and network functions virtualization 
 * [POX Controller](https://noxrepo.github.io/pox-doc/html/#)
 
 # Ryu
+
 Ryu is a component-based software defined networking framework.
 Ryu provides software components with well defined API that make it easy for developers
 to create new network management and control applications.
 Ryu supports various protocols for managing network devices, such as OpenFlow, Netconf, OF-config, etc.
 
-* http://osrg.github.io/ryu/
-* https://www.sdxcentral.com/sdn/definitions/sdn-controllers/open-source-sdn-controllers/what-is-ryu-controller/
+* <http://osrg.github.io/ryu/>
+* <https://www.sdxcentral.com/sdn/definitions/sdn-controllers/open-source-sdn-controllers/what-is-ryu-controller/>
 
 # Network Service Chaining
+
 [What is Network Service Chaining? Definition](https://www.sdxcentral.com/sdn/network-virtualization/definitions/what-is-network-service-chaining/)
 
 # Getting Hands on With SDN
+
 * [Tutorial&1: SDN for Engineers](https://web.archive.org/web/20130116072451/http://www.stanford.edu/~brandonh/ONS/OpenFlowTutorial_ONS_Heller.pdf)
 * [Grotto Networking: SDN Fun](https://www.grotto-networking.com/SDNfun.html#a-graph-with-attributes-and-json-export)
 * [Ryu SDN and other related things](https://www.youtube.com/user/ConfigTerm/search?query=ryu)
 * [Create a SDN on Linux with open source](https://opensource.com/article/20/4/quagga-linux)
 
 # Quagga
+
 [Quagga](https://www.quagga.net/) is a routing software suite,
 providing implementations of OSPFv2, OSPFv3, RIP v1 and v2,
 RIPng and BGP-4 for Unix platforms, particularly FreeBSD, Linux, Solaris and NetBSD.
 
 # Network Simulation
+
 [GNS3][06] is an open source network simulator to emulate, configure, test and troubleshoot virtual and real networks.
 GNS3 allows you to run a small topology consisting of only a few devices on your laptop,
 to those that have many devices hosted on multiple servers or even hosted in the cloud.
 
 # Virtual Networking Lab
+
 When you work with virtualized environments,
 you will sooner or later realize that a large part of the complexity of such environments
 originates in the non-trivial endeavor of networking.
@@ -481,6 +522,7 @@ this series aims at introducing some of the more commonly used techniques using 
 * [Creating a Bridge and Shared Network on Docker](https://qiita.com/kojiwell/items/f16757c1f0cc86ff225b)
 
 # Containers vs VMs
+
 Containers host a single, stripped-down operating system (OS).
 This OS is specialized in one application, which is made up of microservices.
 VMs allow for a server’s processor to run different OSs on one compute node.

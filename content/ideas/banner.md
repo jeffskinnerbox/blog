@@ -82,9 +82,10 @@ jp2a --colors --fill --color-depth=24 --size=130x50 kanagawa-logo.png
 
 
 # ASCII Camera
+
 watch your webcam feed in a terminal window
 
-* [This cool Raspberry Pi project turns your webcam feed into ASCII art](https://www.xda-developers.com/raspberry-pi-project-webcam-ascii/)
-* [Maker builds Raspberry Pi ASCII camera, turning video frames into text-based imagery](https://www.tomshardware.com/raspberry-pi/maker-builds-raspberry-pi-ascii-camera-turning-video-frames-into-text-based-imagery)
-    * [I had only 3 days to build this Raspberry Pi Project (ASCII Video Camera)](https://www.youtube.com/watch?v=i9Zj2qN0uJ8)
+- [This cool Raspberry Pi project turns your webcam feed into ASCII art](https://www.xda-developers.com/raspberry-pi-project-webcam-ascii/)
+- [Maker builds Raspberry Pi ASCII camera, turning video frames into text-based imagery](https://www.tomshardware.com/raspberry-pi/maker-builds-raspberry-pi-ascii-camera-turning-video-frames-into-text-based-imagery)
+  - [I had only 3 days to build this Raspberry Pi Project (ASCII Video Camera)](https://www.youtube.com/watch?v=i9Zj2qN0uJ8)
 

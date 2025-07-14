@@ -43,17 +43,21 @@ Version:      0.0.0
 
 
 # Privacy
+
 * [How to encrypt your entire life in less than an hour](https://medium.freecodecamp.org/tor-signal-and-beyond-a-law-abiding-citizens-guide-to-privacy-1a593f2104c3)
 * [Are you ready? Here's all the data Facebook and Google have on you](https://www.theguardian.com/commentisfree/2018/mar/28/all-the-data-facebook-google-has-on-you-privacy)
 * [The Birth And Death Of Privacy: 3,000 Years of History Told Through 46 Images](https://medium.com/the-ferenstein-wire/the-birth-and-death-of-privacy-3-000-years-of-history-in-50-images-614c26059e)
 
 
-#  Elliptic Curve Cryptography
+# Elliptic Curve Cryptography
+
 * [Understanding Elliptic Curve Cryptography And Embedded Security](https://hackaday.com/2019/07/04/understanding-elliptic-curve-cryptography-and-embedded-security/)
 
 
 ################################################################################
+
 # Internet Security
+
 * [An introduction to cryptography and public key infrastructure](https://opensource.com/article/18/5/cryptography-pki)
 * [How internet security works: TLS, SSL, and CA](https://opensource.com/article/19/11/internet-security-tls-ssl-certificate-authority)
 * [Getting started with OpenSSL: Cryptography basics](https://opensource.com/article/19/6/cryptography-basics-openssl-part-1)
@@ -150,6 +154,7 @@ and [encryption tools][03] like gpg.
  and gpg is a solution for block encryption (files, things of fixed length).
 
 # How Public Key Encryption Works
+
 How do you validate the identity of the party they are talking to
 and do you communicate securely with them once validated[^A]?
 Many schemes that attempt to answer this question require,
@@ -173,6 +178,7 @@ If both of the parties create public/private key pairs and give each other their
 they can both encrypt messages to each other.
 
 # Someone Sends Their Encryption Key
+
 * [Encrypting and decrypting documents](https://www.gnupg.org/gph/en/manual/x110.html)
 * [Is it possible to use a gpg public key to encrypt a message without importing the key?](http://serverfault.com/questions/696178/is-it-possible-to-use-a-gpg-public-key-to-encrypt-a-message-without-importing-th)
 
@@ -199,6 +205,7 @@ gpg --output jeff-irland-connection-credentrials.gpg --encrypt jeff-irland-conne
 ```
 
 # Key Server or Key Ring
+
 In computer security, a key server is a computer that receives and then serves existing cryptographic keys to users or other programs. The users' programs can be working on the same network as the key server or on another networked computer.
 keyserver = ~/.gnupg
 
@@ -207,6 +214,7 @@ keyserver = ~/.gnupg
 
 
 # Generate Your GPG Keys
+
 GPG is often installed by default on Linux, but it is not,
 you can install it with: `sudo apt-get install gnupg`.
 
@@ -293,6 +301,7 @@ they will be unable to use it without your passphrase.
 Do not choose a passphrase that someone else might easily guess.
 
 # Sharing Your Public Key
+
 If you want to give or send a file copy of your key to someone,
 use this command to write it to an ASCII text file:
 `gpg --export --armor jeff.irland@verizon.net > jeff-irland-pubkey.txt`.
@@ -359,9 +368,11 @@ $
 ```
 
 # Make Your Public Key Highly Available
-https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps
+
+<https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps>
 
 # Generating a Revocation Certificate
+
 You need to have a way of invalidating your key pair in case there is a security breach,
 or in case you lose your secret key.
 This revocation key must be generated ahead of time and kept in a secure,
@@ -428,6 +439,7 @@ As long as you still have access to the private key,
 messages received previously may still be decrypted.
 
 # Revoking a Key
+
 When you want to implement your revocation certificate,
 you must import it into your local keyserver as follows:
 
@@ -450,6 +462,7 @@ For KEYNAME, substitute either the key ID of your primary keypair
 or any part of a user ID that identifies your keypair.
 
 # How To Import Other Users' Public Keys
+
 You can import someone's public key in a variety of ways.
 If you've obtained a public key from someone in a text file,
 GPG can import it with the following command:
@@ -475,6 +488,7 @@ gpg --search-keys 'myfriend@his.isp.com' --keyserver hkp://subkeys.pgp.net
 ```
 
 # Verify the Other Person's Identity
+
 How do you know that the person giving you the public key is who they say they are?
 You may not know the other party personally, or you may be separated by physical distance. If you never want to communicate over insecure channels, verification of the public key could be problematic.
 Instead of verifying the entire public keys of both parties,
@@ -500,10 +514,13 @@ or someone else who has access to that person.
 * [How to check your SSH key fingerprint (verify the authenticity of the remote host)](https://bitlaunch.io/blog/how-to-check-your-ssh-key-fingerprint/)
 
 # Sign Other People's Key
-https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps
+
+<https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps>
 
 # Encrypt and Decrypt Messages with GPG
+
 ## Encryption
+
 You can encrypt messages using the `--encrypt` flag for GPG.
 The basic syntax would be:
 
@@ -521,6 +538,7 @@ This is because the message will be encrypted with each person's public key,
 and will only be able to be decrypted with the associated private key.
 
 ## Decryption
+
 To decrypt a message, you simply receive the complete message
 and then call GPG on the message file with no flags: `gpg file_name`.
 The software will prompt you as necessary.
@@ -563,13 +581,16 @@ gpg --decrypt foo.txt.gpg --output foo.txt
 ```
 
 # Detached Signatures
-https://www.madboa.com/geek/gpg-quickstart/
+
+<https://www.madboa.com/geek/gpg-quickstart/>
 
 # Refreshing Your Keys
-https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps
+
+<https://www.digitalocean.com/community/tutorials/how-to-use-gpg-to-encrypt-and-sign-messages-on-an-ubuntu-12-04-vps>
 
 
 # List Your Keys
+
 ```bash
 # list the keys in your public key ring
 gpg --list-keys
@@ -579,6 +600,7 @@ gpg --list-secret-keys
 ```
 
 # Deleting Your Keys
+
 ```bash
 # delete a private key from your private key ring
 gpg --delete-secret-key "User Name"
@@ -596,6 +618,7 @@ You must delete your private key for this key pair from your private key ring fi
 
 
 # Recoverable Secrets
+
 Just about the worst thing you can do is use the same password across several services,
 meaning that an attack on one gives entry to multiple accounts.
 The challenge is to generate a unique and secure password for each and every application.
@@ -612,35 +635,42 @@ ensuring your core secret is never exposed, thus maintaining security.
 * [HashDice - strong passwords that are easy to recover](https://stebanoid.blogspot.com/2019/03/hashdice.html)
 
 # Secure Shell (SSH)
+
 Secure Shell (SSH) is a cryptographic network protocol for operating network services
 securely over an unsecured network.
 Typical applications include remote command-line, login, and remote command execution,
 but any network service can be secured with SSH.
 
 ## Eliminate SSH Keys and use a GPG Keys Instead
+
 * [How to enable SSH access using a GPG key for authentication](https://opensource.com/article/19/4/gpg-subkeys-ssh)
 * [How to manage multiple SSH key pairs](https://www.redhat.com/sysadmin/manage-multiple-ssh-key-pairs)
 * [How to SSH Properly](https://gravitational.com/blog/how-to-ssh-properly)
 
 ## Share Terminal Access (tty-share)
+
 [tty-share][06] enables you to do terminal sharing over the Internet.
 Its an extremely simple means for a remote person to join a shared session you establish.
 
 ## Temporary Allow SSH Logins (ssh-allow-friend)
-https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
+
+<https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/>
 
 ## Rendezvous Server
+
 A rendezvous protocol is a computer network protocol that enables resources or P2P network peers to find each other.
 
 * [Rendezvous Server Protocol](https://magic-wormhole.readthedocs.io/en/latest/server-protocol.html)
 
 ## Securely Send Files
+
 [Magic Wormhole][07] is a simple and free utility that help users to send a files from one computer to another computer anywhere in the world.
 
 * [Magic Wormhole – A Simple And Secure Way To Send Files From Linux Command Line](https://www.2daygeek.com/wormhole-securely-share-files-from-linux-command-line/)
 * [Brian Warner - Magic Wormhole- Simple Secure File Transfer](https://www.youtube.com/watch?v=oFrTqQw0_3c&feature=youtu.be)
 
 # Git-Secret
+
 What if your application needs WiFi credentials to operate,
 so how do I store them out on GitHub without exposing my home WiFi to Internet riffraff?
 The tool [`git-secret`][08] (GitHub repository [here][09]) helps solve this problem.

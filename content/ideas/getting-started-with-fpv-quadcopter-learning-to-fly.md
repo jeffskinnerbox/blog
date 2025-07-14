@@ -102,20 +102,21 @@ Before you start:
 
 
 # FPV Simulators
+
 If you play sims, you MUST be using EdgeTX 2.6 or later!
 This version fixes a latance bug.
 
 * [5 Best FPV Simulators (With Quick Reviews)](https://www.youtube.com/watch?v=Q288X0I-jIo)
 * [Best PC FPV Simulator // WE TRIED THEM ALL](https://www.youtube.com/watch?v=I7lUTEJM62g)
-    * [Orqa FPV.SkyDive](https://skydive.orqafpv.com/) - best of the free simulators, available on Windows & OSX & Stream
-    * [VelociDrone](https://www.velocidrone.com/) - best FPV racing multi-player simulator, excellent physics (changes for battery, prop, etc changes), available on Windows & OSX
-    * [Uncrashed](https://store.steampowered.com/app/1682970/Uncrashed__FPV_Drone_Simulator/) - best free-style simulator (no multi-player mode), available on Windows & OSX
-    * [FPV FreeRider](https://fpv-freerider.itch.io/fpv-freerider) - best for minimal graphics / low spec PC's
-    * [DRL Simulator](https://www.drl.io/drlsim) - best overall value, good onboarding for new pilots, available on Windows & OSX
-    * Best Simulators for Micro-Quads
-        * [VelociDrone](https://www.velocidrone.com/) - best overall, available on Windows & OSX
-        * [Tiny Whoop Go](https://tinywhoopgo.com/) - best free, available on Windows & OSX
-        * [LiftOff Micro-Drones](https://www.liftoff-game.com/our-products/liftoff-micro-drones) - models Joshua Bardwell flying yard, good training for indoor flying, available on Windows & OSX & Steam
+  * [Orqa FPV.SkyDive](https://skydive.orqafpv.com/) - best of the free simulators, available on Windows & OSX & Stream
+  * [VelociDrone](https://www.velocidrone.com/) - best FPV racing multi-player simulator, excellent physics (changes for battery, prop, etc changes), available on Windows & OSX
+  * [Uncrashed](https://store.steampowered.com/app/1682970/Uncrashed__FPV_Drone_Simulator/) - best free-style simulator (no multi-player mode), available on Windows & OSX
+  * [FPV FreeRider](https://fpv-freerider.itch.io/fpv-freerider) - best for minimal graphics / low spec PC's
+  * [DRL Simulator](https://www.drl.io/drlsim) - best overall value, good onboarding for new pilots, available on Windows & OSX
+  * Best Simulators for Micro-Quads
+    * [VelociDrone](https://www.velocidrone.com/) - best overall, available on Windows & OSX
+    * [Tiny Whoop Go](https://tinywhoopgo.com/) - best free, available on Windows & OSX
+    * [LiftOff Micro-Drones](https://www.liftoff-game.com/our-products/liftoff-micro-drones) - models Joshua Bardwell flying yard, good training for indoor flying, available on Windows & OSX & Steam
 
 * [The Best FPV Drone Simulators Round-up](https://oscarliang.com/fpv-simulator/#tldr-Herere-My-Favourites)
 * [Linux FPV drone simulators](https://www.swalladge.net/archives/2019/11/15/fpv-drone-simulators-linux/)
@@ -125,6 +126,7 @@ This version fixes a latance bug.
 
 
 ## What is Steam?
+
 [Steam][20] is an online platform where you can download and play thousands of games on Linux,
 and also discuss them with the community.
 Steam can also use [Proton to play Windows games on Linux][21].
@@ -140,6 +142,7 @@ and a modern system to play games unstoppably.
 
 
 #### Step X: Install Steam - DONE ... NOT
+
 First, go to the [Stream cloud store][20] and create an account.
 You can do this via the login button at the top right.
 
@@ -180,6 +183,7 @@ For MacOS, do this:
 
 
 #### Step 1: Install VelociDrone - DONE
+
 Go to [Velocidrone's Shopping site](https://www.velocidrone.com/shop) register yourself.
 Once you are completely registed, you can purchase the VelociDrone License and Micro Class Quads packages.
 At the completion of the purchase, you can go to the [Download tab](https://www.velocidrone.com/account/my_licenses)

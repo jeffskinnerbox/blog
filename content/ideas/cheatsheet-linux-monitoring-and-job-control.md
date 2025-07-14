@@ -20,6 +20,7 @@ Version:      0.0.0
 * [Monitor your Linux system in your terminal with procps-ng](https://opensource.com/article/21/8/linux-procps-ng)
 
 # File Magic
+
 A "[shebang][13]" is the character sequence consisting of the characters number sign and exclamation mark (`#!`)
 at the beginning of a script.
 The `#!` syntax used in scripts to indicate an interpreter for execution under UNIX / Linux operating systems.
@@ -29,10 +30,13 @@ Therefore many Linux shell and perl / python script starts with the following li
 * [Linux Fu: Shell Scripts In C, C++, And Others](https://hackaday.com/2019/09/17/linux-fu-shell-scripts-in-c-c-and-others/)
 
 # Namespaces
+
 You can creat isolated namespace within your Linux shell.
+
 * [Linux Fu: Don’t Share Well With Others](https://hackaday.com/2021/12/28/linux-fu-dont-share-well-with-others/)
 
 # Named Pipes
+
 a named pipe (also known as a FIFO for its behavior)
 is an extension to the traditional pipe concept on Unix.
 A traditional pipe is "unnamed" and lasts only as long as the process.
@@ -44,11 +48,13 @@ Usually a named pipe appears as a file, and generally processes attach to it for
 * [Linux Fu: Simple Pipes](https://hackaday.com/2022/03/16/linux-fu-simple-pipes/)
 
 # Linux System Monitoring
+
 * [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring?sc_cid=70160000000lcFhAAI)
 * [How To Monitor Your Ubuntu 16.04 System with Sysdig](https://www.digitalocean.com/community/tutorials/how-to-monitor-your-ubuntu-16-04-system-with-sysdig)
 * [Uptime Monitor - monitors your websites every 5 minutes and alerts you if your sites are down](https://uptimerobot.com/)
 
 # What is a Process?
+
 A process is nothing but a task or a program in execution in Linux Server/Operating System. It is a running instance of a program. It is made up of program instruction, data read from files, other programs or input from a system user.
 There are two types of process:
 foreground processes (user interactive, initialized and controlled through a terminal session)
@@ -98,17 +104,20 @@ Daemon
     waiting to be activated by the occurrence of a specific event or condition.
 
 # Watch
+
 The watch command periodically runs a command and shows its output.
 It has some text-terminal niceties, so only the latest output is on the screen.
 
 * [Watch commands and tasks with the Linux watch command](https://opensource.com/article/21/9/linux-watch-command)
 
 # Sessions and Process Groups
+
 * [Linux-Fu: Keeping Things Running](http://hackaday.com/2017/03/10/linux-fu-keeping-things-running/#more-246002)
 * [The Process Model of Linux Application Development](http://www.informit.com/articles/article.aspx?p=397655&seqNum=6)
 * [8 Linux commands for effective process management](https://opensource.com/article/18/9/linux-commands-process-management)
 
 # Job Control
+
 job control refers to control of jobs by a shell, especially interactively,
 where a "job" is a shell's representation for a process group.
 Basic job control features are the suspending, resuming, or terminating of all processes in the job/process group; more advanced features can be performed by sending signals to the job. Job control is of particular interest in Unix due to its multiprocessing, and should be distinguished from job control generally, which is frequently applied to sequential execution (batch processing).
@@ -120,6 +129,7 @@ and is used by the operating system to control the execution of the system using
 * a process is the instance of a computer program that is being executed by one or many threads
 
 # Job Control Commands
+
 * [Job Control Commands](http://tldp.org/LDP/abs/html/x9644.html)
 
 * ps - list the processes running on the system
@@ -143,6 +153,7 @@ and is used by the operating system to control the execution of the system using
 `setsid` is useful when you want to start a new session, because you have started to be connected to a new terminal -- such as when starting a shell inside a terminal emulator -- or you want a daemon (which you don't want to be associated with a controlling terminal).
 
 # sudo
+
 According to the [sudo website][12]:
 "Sudo allows a system administrator to delegate authority by giving certain users
 the ability to run some commands as root or another user while providing an
@@ -157,19 +168,22 @@ audit trail of the commands and their arguments."
 * [5 new sudo features sysadmins need to know in 2022](https://opensource.com/article/22/2/new-sudo-features-2022)
 
 # Cron and Anacron
+
 * [4 alternatives to cron in Linux](https://opensource.com/article/21/7/alternatives-cron-linux)
 * [How to use the Linux anacron command](https://opensource.com/article/21/2/linux-automation)
 * [My favorite open source tool for using crontab](https://opensource.com/article/22/5/cron-crontab-ui)
 
 # Nohup vs. Screen vs. Setid
+
 One thing must be clarified, using [screen][06] and nohup, you can return and check the output of the running commands, with screen because you can attach a screen session, and with nohup, because you can check the output file.
 
 Using setsid that is not possible, so only use it, when the output is not important for you.
 setsid creates a new session id for the command you run using it, so it does not deppend on your shell session, therefore if that shell session is closed the other command will stay running.
 
-http://go2linux.garron.me/linux/2010/12/setsid-how-execute-commands-after-you-exit-shell-prompt-866/
+<http://go2linux.garron.me/linux/2010/12/setsid-how-execute-commands-after-you-exit-shell-prompt-866/>
 
 # ps
+
 xxx
 
 ```bash
@@ -218,6 +232,7 @@ PROCESS STATE CODES
 ```
 
 # top and htop
+
 `top` is a traditional command-line tool for monitoring real-time processes in a Unix/Linux systems.
 It’s comes preinstalled on most if not all Linux distributions
 and shows a useful summary of system information including
@@ -233,9 +248,11 @@ and uses ncurses to implement a text-graphical interface, and allows for output 
 * [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring)
 
 # Memory Usage via smem
+
 * [Get memory use statistics with this Linux command-line tool](https://opensource.com/article/21/10/memory-stats-linux-smem)
 
 # Kill
+
 While the kill command is used to "kill" processes,
 its real purpose is to send signals to processes.
 Most of the time the signal is intended to tell the process to go away,
@@ -251,18 +268,18 @@ Typing `kill -l` will give you a list of the signals it supports:
 
 ```bash
 $ kill -l
- 1) SIGHUP	      2) SIGINT        3) SIGQUIT	     4) SIGILL	     5) SIGTRAP
- 6) SIGABRT	      7) SIGBUS  	   8) SIGFPE	     9) SIGKILL     10) SIGUSR1
-11) SIGSEGV	     12) SIGUSR2      13) SIGPIPE       14) SIGALRM     15) SIGTERM
-16) SIGSTKFLT	 17) SIGCHLD      18) SIGCONT       19) SIGSTOP     20) SIGTSTP
+ 1) SIGHUP       2) SIGINT        3) SIGQUIT      4) SIGILL      5) SIGTRAP
+ 6) SIGABRT       7) SIGBUS      8) SIGFPE      9) SIGKILL     10) SIGUSR1
+11) SIGSEGV      12) SIGUSR2      13) SIGPIPE       14) SIGALRM     15) SIGTERM
+16) SIGSTKFLT  17) SIGCHLD      18) SIGCONT       19) SIGSTOP     20) SIGTSTP
 21) SIGTTIN      22) SIGTTOU      23) SIGURG        24) SIGXCPU     25) SIGXFSZ
-26) SIGVTALRM    27) SIGPROF      28) SIGWINCH  	29) SIGIO       30) SIGPWR
-31) SIGSYS       34) SIGRTMIN     35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
-38) SIGRTMIN+4   39) SIGRTMIN+5   40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
-43) SIGRTMIN+9   44) SIGRTMIN+10  45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
-48) SIGRTMIN+14  49) SIGRTMIN+15  50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
-53) SIGRTMAX-11  54) SIGRTMAX-10  55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
-58) SIGRTMAX-6   59) SIGRTMAX-5   60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+26) SIGVTALRM    27) SIGPROF      28) SIGWINCH   29) SIGIO       30) SIGPWR
+31) SIGSYS       34) SIGRTMIN     35) SIGRTMIN+1 36) SIGRTMIN+2 37) SIGRTMIN+3
+38) SIGRTMIN+4   39) SIGRTMIN+5   40) SIGRTMIN+6 41) SIGRTMIN+7 42) SIGRTMIN+8
+43) SIGRTMIN+9   44) SIGRTMIN+10  45) SIGRTMIN+11 46) SIGRTMIN+12 47) SIGRTMIN+13
+48) SIGRTMIN+14  49) SIGRTMIN+15  50) SIGRTMAX-14 51) SIGRTMAX-13 52) SIGRTMAX-12
+53) SIGRTMAX-11  54) SIGRTMAX-10  55) SIGRTMAX-9 56) SIGRTMAX-8 57) SIGRTMAX-7
+58) SIGRTMAX-6   59) SIGRTMAX-5   60) SIGRTMAX-4 61) SIGRTMAX-3 62) SIGRTMAX-2
 63) SIGRTMAX-1   64) SIGRTMAX
 ```
 
@@ -277,6 +294,7 @@ Most are rather obscure, but a few should be committed to memory:
 * [Linux Fu: It’s A Trap!](https://hackaday.com/2019/08/26/linux-fu-its-a-trap/)
 
 # Systemd
+
 systemd init system, which has nowadays been adopted by the majority of Linux distributions as replacement for its oldschool, Unix-style init-system predecessors, essentially changing everything we knew about the system boot process.
 
 * [Pack Your Bags – Systemd Is Taking You To A New Home](https://hackaday.com/2019/10/16/pack-your-bags-systemd-is-taking-you-to-a-new-home/)
@@ -285,24 +303,29 @@ systemd init system, which has nowadays been adopted by the majority of Linux di
 * [Use systemd timers instead of cronjobs](https://opensource.com/article/20/7/systemd-timers)
 
 # Pathological Processes
+
 _You describe a person or their behaviour as pathological when they behave in an extreme and unacceptable way, and have very powerful feelings which they cannot control._
 
 ## Orphan Process - When a process become a daemon without intending so
+
 * [Orphan Process](http://www.geekride.com/orphan-zombie-process/)
 * [Cause a process to become a daemon](http://www.microhowto.info/howto/cause_a_process_to_become_a_daemon.html)
 * [daemonizing bash](http://blog.n01se.net/blog-n01se-net-p-145.html)
 
 ## Zombie Process - When a process is dead but lives in the process table
+
 * [Zombie Process](http://www.geekride.com/zombie-process-defunct-linux/)
 * [How to kill a zombie process on Linux](https://opensource.com/article/21/10/linux-zombie-process)
 * [How to find that zombie process?](https://askubuntu.com/questions/111422/how-to-find-zombie-process)
 * [What Are Zombie Processes in Linux and How to Kill Them](https://www.makeuseof.com/what-are-zombie-processes-in-linux-and-how-to-kill-them/)
 
 ## Fork Bomb - When a process endlessly reproduces itself
+
 * [Fork Bomb](http://www.geekride.com/fork-bomb-linux/)
 * [Forking vs Threading](http://www.geekride.com/fork-forking-vs-threading-thread-linux-kernel/)
 
 # SSH
+
 * [4 SSH tricks that every sysadmin should know](https://www.redhat.com/sysadmin/ways-use-ssh)
 * [6 essential SSH guides for sysadmins](https://www.redhat.com/sysadmin/ssh-guides-2020)
 * [How to set up SSH dynamic port forwarding on Linux](https://www.redhat.com/sysadmin/ssh-dynamic-port-forwarding)
@@ -310,18 +333,22 @@ _You describe a person or their behaviour as pathological when they behave in an
 # Share Terminal Access
 
 ## tty-share
+
 tty-share enables you to do terminal sharing over the Internet.
 Its an extremely simple means for a remote person to join a shared session you establish.
 
 ## Temporary Allow SSH Logins (ssh-allow-friend)
-https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/
+
+<https://hackaday.com/2017/02/05/grant-anyone-temporary-permissions-to-your-computer-with-ssh/>
 
 ## Teleconsole
+
 * [Teleconsole - Share Your Linux Terminal with Your Friends](https://www.tecmint.com/teleconsole-share-linux-terminal-session-with-friends/)
 * [How to Share a Terminal Session with Friends](https://www.maketecheasier.com/share-terminal-session-with-friends/)
 
 
 # Screen
+
 ![vt-100](https://en.wikipedia.org/wiki/VT100#/media/File:DEC_VT100_terminal.jpg)
 Most of the time on remote Linux system,
 you login over `sh` and start to work,
@@ -467,7 +494,7 @@ To kill a detached screen session, do the following:
 # list the running screen processes
 $ screen -list
 There is a screen on:
-	14877.pts-18.desktop	(03/17/2017 11:09:20 PM)	(Detached)
+ 14877.pts-18.desktop (03/17/2017 11:09:20 PM) (Detached)
 1 Socket in /var/run/screen/S-jeff.
 
 # kill the screen process
@@ -479,6 +506,7 @@ No Sockets found in /var/run/screen/S-jeff.
 ```
 
 ## The .screenrc File
+
 When `screen` is invoked, it executes initialization commands from the files
 `/etc/screenrc` and `$HOME/.screenrc`.
 These are the "programmer's defaults" that can be overridden by the
@@ -500,6 +528,7 @@ environment variable `$SYSSCREENRC`
 
 
 [How do I Use Multiple Screens on One Terminal over ssh session?](http://www.cyberciti.biz/tips/linux-screen-command-howto.html)
+
 * [How can I close a terminal without killing the command running in it?](http://unix.stackexchange.com/questions/4004/how-can-i-close-a-terminal-without-killing-the-command-running-in-it)
 * [Difference between nohup, disown and &](http://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and)
 * [Disown a Running Shell Process and Reattach It to a New Screen](https://www.shell-tips.com/2014/09/09/disown-a-running-shell-process-and-reattach-it-to-a-new-screen/)
@@ -510,13 +539,14 @@ environment variable `$SYSSCREENRC`
 
 * [GNU screen screenrc tweaks - windows and titles](http://scottn.us/2011/02/gnu-screen-screenrc-tweaks-windows-and-titles/)
 * [Understanding GNU Screen’s hardstatus strings](http://www.kilobitspersecond.com/2014/02/10/understanding-gnu-screens-hardstatus-strings/)
-* [ Post your .screenrc with screenshots!](https://bbs.archlinux.org/viewtopic.php?id=55618)
+* [Post your .screenrc with screenshots!](https://bbs.archlinux.org/viewtopic.php?id=55618)
 * [A killer GNU Screen Config](https://gist.github.com/joaopizani/2718397)
 * [A nice default screenrc](https://gist.github.com/ChrisWills/1337178)
 * [Another Example of .screenrc](http://ftp.twaren.net/local-distfiles/pigfoot/gentoo-portage/app-misc/screen/files/screenrc)
 * []()
 
 # Tmux
+
 Like `screen`, `tmux` is a terminal multiplexer.
 While technically screen and tmux serve the same purpose,
 their functionality and quality differ.
@@ -540,6 +570,7 @@ picking up existing and field-tested features, and is actively being developed.
 * [Learn X in Y minutes](https://learnxinyminutes.com/docs/tmux/)
 
 # Nohup and Disown
+
 * [Detaching a process from terminal - exec(), system(), setsid() and nohup](http://mihids.blogspot.com/2015/02/detaching-process-from-terminal-exec.html)
 * [Detach Processes With Disown and Nohup](http://www.serverwatch.com/tutorials/article.php/3935306/Detach-Processes-With-Disown-and-Nohup.htm)
 * [HOW TO DETACH PROCESS FROM THE TERMINAL IN LINUX](http://www.lostsaloon.com/technology/how-to-detach-process-from-the-terminal-in-linux/)

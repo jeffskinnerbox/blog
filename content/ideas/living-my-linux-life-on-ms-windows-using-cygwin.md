@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 Check out this ....
+
 * [wsl: Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/about)
 * [Linux Fu: The Windows X11 Connection](https://hackaday.com/2021/08/05/linux-fu-the-windows-x11-connection/)
 
@@ -23,6 +24,7 @@ Check out this ....
 
 
 # What is Cygwin?
+
 [!pic](http://i1-news.softpedia-static.com/images/news2/Linux-Will-Probably-Force-Microsoft-to-Offer-Future-Windows-OSes-for-Free-423014-2.jpg)
 Cygwin is a Linux-like environment for MS Windows.
 You can read more about it on [Cygwin's home page][02]
@@ -35,6 +37,7 @@ If your a Unix / Linux lover,
 Cygwin can provide you a small island of bliss in the miserable world of MS Windows.
 
 ## Basic Installation - DONE
+
 Download the Cygwin `setup.exe` via
 [`http://cygwin.com/setup-x86.exe`](http://cygwin.com/setup-x86.exe)
 for the 32 bit version or
@@ -67,6 +70,7 @@ Lets add some useful packages using this method
 ```
 
 ## Installing Package Manager within Cygwin - DONE
+
 [`apt-cyg`][01] is a Cygwin package manager.
 It includes a command-line installer for Cygwin which cooperates with Cygwin Setup
 and uses the same repository.
@@ -99,6 +103,7 @@ and you are looking for a convenient way to install additional software from the
 `apt-cyg` may be just what you need.
 
 ## Complete the Install - DONE
+
 Now within a Cygwin terminal at the bash prompt,
 you can install some additional useful utilities using `apt-cyg`:
 
@@ -116,10 +121,12 @@ cyg-apt install aspell-en ctags ncurses
 ```
 
 ## Configuring Cygwin Envirnment
+
 * [How to Use Linux Commands in Windows with Cygwin](http://www.howtogeek.com/howto/41382/how-to-use-linux-commands-in-windows-with-cygwin/)
 * [How To Get SSH Command-Line Access to Windows 7 Using Cygwin](http://www.howtogeek.com/howto/41560/how-to-get-ssh-command-line-access-to-windows-7-using-cygwin/)
 
 ## Installing My Tools
+
 I have my own versions of the resource files for `vim`, `bash`, `X`, etc.
 These too need to need to be installed to make me feel fully at home within Microsoft Windows.
 
@@ -150,6 +157,7 @@ ln -s ~/.vim/gvimrc ~/.gvimrc
 ```
 
 # Using Cygwin
+
 [Cygwin/X User's Guide][06]
 [Automatically starting a cygwin X Window Server](http://www.trueblade.com/knowledge/automatically-starting-a-cygwin-x-server)
 
@@ -186,9 +194,11 @@ Again, my objectives are to keep things simple and clean, so I will be using th
 ## Starting and Stopping the Cygwin X Server
 
 # Node.js
+
 [Step by step instructions to install NodeJS on Windows](http://boxysystems.com/index.php/step-by-step-instructions-to-install-nodejs-on-windows/)
 
 # Installing TiddlyWiki
+
 I find myself with a multitude of ancillary information
 and I need a place to adequately organize and store it.
 May of the topic are interrelated and should be searchable and cross-linked.
@@ -219,6 +229,7 @@ In addition, individual tiddlers are stored in separate files,
 instead of a single HTML file, so you can organise them as you wish across multiple wiki.
 
 # Installing Vim Under Windows
+
 While you can use `vim` within the Cygwin environment,
 I often find that I just want edit a text fill
 and moving to Cygwin just doesn't make sense.
@@ -227,6 +238,7 @@ I have captured some excellent instructions on installing `vim` on Windows,
 an article called ["Simple Steps to Help You Install gVim on Windows 7"][14].
 
 ### Download and install Vim - DONE
+
 You can install `vim` from [Vim the Editor][15] download page.
 Install it in your home directory
 (unless you want other users to have access to `vim` _and_
@@ -241,6 +253,7 @@ Cut & paste that folder under `vimfiles` so that it now has only the `autoload` 
 Next, create another folder in `vimfiles` called `bundle`.
 
 ### Install Git Under Windows
+
 Since the `vim` plug-ins, resource file, etc. that I'm using are all stored
 out on GitHub, installing [Git][16] is a must.
 [Download the Windows version of git][17] and install it in my home directory

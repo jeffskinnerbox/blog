@@ -31,6 +31,7 @@ Infrastructure as a service (IaaS) are online services that provide high-level A
 
 
 # Why Heroku & DigitalOcean
+
 Why Heroku or DigitalOcean? Maybe a better question is why not AWS or Azure or Google?
 Heroku is a PaaS, letting you run apps on their platform the Heroku way.
 Digital Ocean is an IaaS, which gives you raw servers to compose as you want to run your app.
@@ -52,6 +53,7 @@ whereas AWS is a secure cloud services platform providing IaaS, PaaS and SaaS.
 
 
 # Heroku
+
 [Heroku positions itself as a Platform as a Service (PaaS)][01]
 based on a managed container system, with integrated data services and a powerful ecosystem, for deploying and running modern apps. The Heroku developer experience is an app-centric approach for software delivery, integrated with today’s most popular developer tools and workflows.
 
@@ -64,6 +66,7 @@ based on a managed container system, with integrated data services and a powerfu
 
 
 # DigitalOcean
+
 DigitalOcean doesn’t boast a huge market share, and instead,
 the company focuses on smaller companies, startups, and individuals, allowing itself to fine-tune its product.
 DigitalOcean calls its virtual private servers “droplets”
@@ -82,6 +85,7 @@ The end result is your own, single-host version of Heroku.
 
 
 # Dokku
+
 Dokku can can assist the DigitalOcean IaaS platform with PaaS with "Heroku-like" features.
 You can think of Dokku as a private Heroku that you manage.
 Dokku refers to itself as a “Docker powered mini-Heroku.”

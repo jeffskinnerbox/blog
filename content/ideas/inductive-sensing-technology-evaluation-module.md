@@ -28,14 +28,17 @@ the MSP430 microcontroller to interface the device to a host computer.
 * [Data Sheet: LDC1612, LDC1614 Multi-Channel 28-Bit Inductance to Digital Converter (LDC) for Inductive Sensing](http://www.ti.com/lit/ds/symlink/ldc1614.pdf)
 
 # Software
+
 * [EMV Software]()
 * [LDC1000-Library-for-Arduino](https://github.com/BroncoTc/LDC1000-Library-for-Arduino)
 * [LDC1000 Library](https://developer.mbed.org/components/LDC1000/)
 
 # Online Tools
+
 * [WEBENCH® Inductive Sensing Designer](http://www.ti.com/lsds/ti/analog/webench/inductive-sensing.page?DCMP=sva-psp-ssp-ldc1000-en&HQS=sva-psp-ssp-ldc1000-pr-webench-en)
 
 # Videos
+
 * [Getting Started with the LDC1000 EVM](https://www.youtube.com/watch?v=lSAUzTcujRg&ebc=ANyPxKoipcLCiy81mcUIyYHuFoGnE8zwmE0CRxe3Yf3Pq6bEbEih3df_Km7oiF6--o-3NFPU7oYrIGCSAfVD1YMe2ucqDG-wKQ)
 * [Interfacing Different Sensor Coils with the LDC1000EVM](https://www.youtube.com/watch?v=5-Vg-ppdRGs)
 * [WPI LDC1000 Linear Position Sensing Inductance-to-Digital Converter IMG 2961](https://www.youtube.com/watch?v=pAT8pPp4EbE)

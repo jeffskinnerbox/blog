@@ -33,11 +33,11 @@ Version:      0.0.0
 
 
 * Something to emulate
-    * [Daniel Miessler's Blog](https://danielmiessler.com/)
-    * [Pelican Themes](http://pelicanthemes.com/)
-    * [Migrating To Pelican](http://theoryandpractice.org/2014/03/Testing-Pelican-Migration/#.V0CU_nUrLMT)
-    * [Setting up Pelican for blogging](https://www.4thinker.com/blogging-on-commandline.html)
-    * [Pelican Themes](http://pelicanthemes.com/)
+  * [Daniel Miessler's Blog](https://danielmiessler.com/)
+  * [Pelican Themes](http://pelicanthemes.com/)
+  * [Migrating To Pelican](http://theoryandpractice.org/2014/03/Testing-Pelican-Migration/#.V0CU_nUrLMT)
+  * [Setting up Pelican for blogging](https://www.4thinker.com/blogging-on-commandline.html)
+  * [Pelican Themes](http://pelicanthemes.com/)
 
 Status: draft
 Title: Building My New Blog Using Jekyll...Scratch That...Pelican
@@ -51,9 +51,9 @@ Summary: This article give a "how I setup Pelican" outline from start to finish.
 
 Consider following the layout of [Building a Website with Jekyll](http://nordness.net/posts/how-i-made-this-site/).
 Consider replacing some of your document with references like this - [Creating your blog with Pelican](http://chdoig.github.io/create-pelican-blog.html)
-Checkout - https://github.com/DandyDev/pelican-bootstrap3
+Checkout - <https://github.com/DandyDev/pelican-bootstrap3>
 
-http://crunk.io/post/introduction-to-pelican/
+<http://crunk.io/post/introduction-to-pelican/>
 [How I built this website, using Pelican: Part 1 - Setup](http://duncanlock.net/blog/2013/05/17/how-i-built-this-website-using-pelican-part-1-setup/)
 [How I upgraded this website to Pelican 3.3](http://duncanlock.net/blog/2013/10/18/how-i-upgraded-this-website-to-pelican-33/)
 
@@ -113,6 +113,7 @@ You can find the latest Pelican code, along with its [themes and plugins on GitH
 You might find more information on [Pelican's GetHub][23] and [Pelican's Tips & Tricks][24].
 
 ##### Installing Pelican and Creating a Python Virtualenv
+
 To install Pelican and its dependancies
 
 ```bash
@@ -149,6 +150,7 @@ otherwise you'll end up installing them globally,
 which defeats the purpose of using virtual environments.
 
 #### Run Quickstart Pelican
+
 Pelican comes with a quickstart command that will create a skeleton directory structure for your project.
 When running the command will ask you a series of questions.
 See the posting [How I setup Pelican][18] for recommendations on how to answer the questions.
@@ -174,6 +176,7 @@ Nothing much will be there since not content has been created but you see the sh
 your `notmyidea` themed blog.
 
 #### Fork & Clone Pelican Themes and Plugins
+
 I wanted to leverage the official [Pelican themes][12] and [Pelican plugins][13],
 and have them under version control,
 so I performed the standard procedure of [forking/cloning the GitHub][14].
@@ -195,6 +198,7 @@ git fetch upstream
 ```
 
 #### Set Up Git
+
 With what has been done so far,
 you have the beginings of a project structure and you should initiate a Git repository to control it.
 Do the `git init` and create a rudimentary `.gitignore` file:
@@ -214,6 +218,7 @@ XXXX FINISH THIS XXXX
 I have posted a final and more complete version of `.gitignore` [on Gist][51].
 
 #### Pelican Configuration File
+
 Pelican is configurable via setting is a Python module called `pelicanconf.py`.
 The settings you define in this configuration file will be used within the Pelican
 templates that are part of the themes and to control Pelican processing.
@@ -242,6 +247,7 @@ The specifics of what variables are supported and what they mean are documented
 in the `README.md` file.
 
 ### Creating the Pelican Theme
+
 Pelican Themes allow you to seperate the contents of your blog from its look-and-feel.
 You can find images of the available themes at [Pelican Themes][26].
 This is accomplished in part via use of [Jinja][15] template engine to render Pelican pages and articles.
@@ -260,6 +266,7 @@ I used the Bootswatch Bootstrap theme called [flatly][53]
 I then made modifications as required to create my web site style.
 
 # Customizing Bootstrap/Bootwatch via custom.css
+
 Dispite all the careful selection of a Bootstrap and Pelicanthemes,
 your going to want to make some modifications.
 In my case, I wanted to change how tables are displayed, the formatting of tag clouds,
@@ -272,6 +279,7 @@ You can use `pelicanconf.py` variable `CUSTOM_CSS` to point to your `custom.css`
 The specfics for this topic can be found in the `README.md` file.
 
 #### Pelican's Markdown
+
 Pelican will support [Markdown][19], [reStructuredText][20], and [AsciiDoc][21]
 for the creation of content.
 I plan to only use Markdown to write my blog posts.
@@ -280,6 +288,7 @@ I especially like using the footnotes and Pygments extension.
 The specifics on how to make this happen are in the `README.md` file.
 
 #### Creating Content
+
 Pelican considers “articles” to be chronological content, such as posts on a blog,
 and thus associated with a date (e.g. a web posting about some project underway).
 Pelican also supports “pages” that are usually not temporal in nature
@@ -312,6 +321,7 @@ The are formated by Pelican as pages and I have created a root page
 called "Open Notebook" accessable on the navigation bar.
 
 #### Processing Content
+
 Pelican support several automation tools for the processing of content and publishing.
 It supports [make][09] and [fabric][08] build tools, but I'll only cover make here.
 Make can be used to automate the creation, editing, and processing of content.
@@ -328,6 +338,7 @@ the processing of Pelican content involves these steps:
 5. Once yoru happy with how the content is formated, you push the content to you GitHub hosted web site.
 
 ##### Pelican's File Structure
+
 Jekyll expects your website directory to be laid out like so:
 
     # not correct .... XXXX FINISH THIS XXXX
@@ -368,6 +379,7 @@ tag.html
     : This template will be processed for each tag, with corresponding .html files saved as output/tag/tag_name.html.
 
 XXXX FINISH THIS XXXX
+
 ```
 ├── static
 │   ├── css
@@ -387,6 +399,7 @@ XXXX FINISH THIS XXXX
 ```
 
 XXXX FINISH THIS XXXX
+
 ```
 ├── AUTHORS.md
 ├── LICENSE
@@ -403,6 +416,7 @@ XXXX FINISH THIS XXXX
 ```
 
 ### Basic Workflow With Pelican
+
 The workflow required to mange the blog is simple, fully under your control,
 and very natural for anyone who is accustom to software development
 since you'll be using your development tools.
@@ -422,9 +436,11 @@ Deploying the Website
     : If you use GitHub Pages for your website, here again, you can use some very farmilar tools.  You simply need to push the code to GitHub.
 
 #### Search Function
-Check out what this Pelican web site might have used: http://terriyu.info/blog/search.html
+
+Check out what this Pelican web site might have used: <http://terriyu.info/blog/search.html>
 
 #### Atom and RSS Feeds
+
 Web [content syndication][40] is the process of pushing your blog, site, or
 video content out into third-party sites, either as a full article, snippet, link, or thumbnail.
 Two popular syndication XML-based file format are [Atom][42], which was
@@ -433,6 +449,7 @@ When you put content into RSS or Atom and send that content to other people or w
 it's called a [feed][43].
 
 #### Web Robots.txt and Sitemap Files
+
 Some obsure [Pelican documentation][46] gives a bit of guidance on Web Robots and Sitemaps.
 [Web Robots][45] (also known as Web Crawlers or Web Spiders),
 are programs that traverse the Web automatically.
@@ -464,6 +481,7 @@ for a site along with additional metadata about each URL
 relative to other URLs in the site) so that search engines can more intelligently crawl the site.
 
 #### Setting Up Error Pages
+
 Pelican's documentation does not provide much insight on implement we [error pages][36],
 but I did fine the posting "[How to setup error pages with Pelican][37]".
 This involves the creation of a `.htaccess` file in the root directory of you web site.
@@ -475,6 +493,7 @@ to move them to there proper destination for publishing
 (see `EXTRA_PATH_METADATA` in the `pelicancong.py` file).
 
 #### Setting Up Google Analytics and Disqus
+
 * [Setup Google Analytics/Piwik and Disqus](http://terriyu.info/blog/posts/2013/07/pelican-setup/#fn:2)
 * [54 Google Analytics Resources – The 2013 Edition](http://blog.kissmetrics.com/google-analytics-resources-2013/)
 
@@ -492,6 +511,7 @@ git remote add origin https://github.com/jeffskinnerbox/jeffskinnerbox.github.io
 ```
 
 #### Publishing to GitHub Page
+
 [GitHub can create a websites from a repository][29] and this is call GitHub Pages.
 There are [two types of GitHub Pages][30]: Project Pages and User Pages.
 We are using User Pages here.
@@ -543,8 +563,9 @@ If you're having trouble getting Github to publish your site,
 go to Settings for your repository and make sure that the `master` branch is the default branch.
 
 ##### Custom Domain Name
+
 To use a custom domain with GitHub Pages,
-you need to put the domain of your site (e.g., www.jeffskinnerbox.me)
+you need to put the domain of your site (e.g., <www.jeffskinnerbox.me>)
 inside a `CNAME` file at the root of your site.
 To do this, add the `CNAME` file to the `content/extras/`.
 Then use the configuration variable `STATIC_PATHS` setting to tell Pelican
@@ -556,6 +577,7 @@ EXTRA_PATH_METADATA = { 'extra/CNAME': { 'path': 'CNAME' }, }
 ```
 
 #### Set Up for Your Domain Name Provider
+
 An importiant issue for me was my domain name.
 I didn't want my URL changing to `jeffskinnerbox.github.io`.
 I have purchased the domain name `www.jeffskinnerbox.me` [Namecheap][57] and I want to make use of it.
@@ -593,6 +615,7 @@ github.map.fastly.net.    8     IN  A       199.27.76.133
 ```
 
 #### Upgrading Packages
+
 If you installed a stable Pelican, Markdown, or other package release via pip or easy_install
 and wish to upgrade to the latest stable release,
 you can do so by adding `--upgrade` to the relevant command.
@@ -607,6 +630,7 @@ To upgrade Bootstrap, Bootwatch, .....
 
 
 # LinkChecker
+
 * [LinkChecker - Check websites for broken links](http://wummel.github.io/linkchecker/)
 * [LinkChecker Manual Page](http://wummel.github.io/linkchecker/man1/linkchecker.1.html)
 * [Checkout examples](https://github.com/wummel/linkchecker/tree/master/doc/examples)
@@ -647,8 +671,6 @@ sudo apt-get install linkchecker
 [28]:http://getbootstrap.com/
 [29]:http://pages.github.com/
 [30]:https://help.github.com/articles/user-organization-and-project-pages
-[31]:https://pypi.python.org/pypi/ghp-import
-[32]:http://docs.getpelican.com/en/3.3.0/tips.html
 [33]:http://www.thinkful.com/learn/a-guide-to-using-github-pages/
 [34]:http://www.onextrapixel.com/2012/11/12/how-to-use-twitter-bootstrap-to-create-a-responsive-website-design/
 [35]:http://bootswatch.com/
@@ -668,14 +690,12 @@ sudo apt-get install linkchecker
 [49]:http://www.virtualenv.org/en/latest/
 [50]:http://pelican.readthedocs.org/en/3.5.0/quickstart.html
 [51]:https://gist.github.com/jeffskinnerbox/9612119
-[52]:https://github.com/DandyDev/pelican-bootstrap3
 [53]:http://bootswatch.com/flatly/
 [54]:http://stackoverflow.com/questions/8596794/customizing-bootstrap-css-template
 [55]:http://ipython.org/ipython-doc/rel-1.0.0/interactive/nbconvert.html
 [56]:http://ipython.org/
 [57]:https://www.namecheap.com/
 [58]:https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages
-[59]:http://www.madboa.com/geek/dig/
 [60]:
 [61]:
 [62]:

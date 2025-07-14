@@ -20,5 +20,6 @@ In a nutshell, there is really no single ingredient that sets a cinema camera ap
 * [What Is a Cinema Camera and How Does It Differ from Other Cameras?](https://www.bestbuy.com/discover-learn/what-is-a-cinema-camera-and-how-does-it-differ-from-other-cameras/pcmcat1658863770758)
 
 # CinePi
+
 * [CinePi is an Open-Source Raspberry Pi-powered Cinema Camera](https://petapixel.com/2023/11/22/cinepi-is-an-open-source-raspberry-pi-powered-cinema-camera/)
 

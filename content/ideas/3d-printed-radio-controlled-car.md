@@ -21,6 +21,7 @@ Version:      0.0.0
 
 
 # Lizard RC Car - A Better Build?
+
 * [3D Printing A Capable RC Car](https://hackaday.com/2025/06/02/3d-printing-a-capable-rc-car/)
   * [Lizard: 3D printed RC race car](https://www.youtube.com/watch?v=EHu6LgQ-Yc8)
   * [Lizard: 3D Printed RC Race Car](https://www.instructables.com/Lizard-3D-Printed-RC-Race-Car/)
@@ -62,9 +63,9 @@ Version:      0.0.0
 # Mecanum Wheel Robot
 
 * [Mecanum Wheel Robot Car with ESP-NOW Remote Control](https://dronebotworkshop.com/mecanum/)
-    * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
-    * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
-    * [Inside The Mecanum Wheel](https://hackaday.com/2024/08/11/inside-the-mecanum-wheel/)
+  * [3D Printed Mecanum Wheels For Hoverboard Motors](https://hackaday.com/2021/06/25/3d-printed-mecanum-wheels-for-hoverboard-motors/)
+  * [Mecanum Wheel](https://grabcad.com/library/mecanum-wheel-gobilda-inspired-model-1q)
+  * [Inside The Mecanum Wheel](https://hackaday.com/2024/08/11/inside-the-mecanum-wheel/)
 * [Unihiker Remote Control](https://community.dfrobot.com/makelog-314402.html)
 
 
@@ -82,7 +83,7 @@ Version:      0.0.0
 # Latest Version
 
 * [The Evolution of a 3D Printed Off-Road R/C Car](https://hackaday.com/2020/04/09/the-evolution-of-a-3d-printed-off-road-r-c-car/)
-    * [Tarmo4 RC Project](https://docs.google.com/document/d/1hfrpDU1DQm6QKrioJsxxcMdq8ormYTlwAHaiswDuSHI/edit#heading=h.flrf7kcrqwuu)
+  * [Tarmo4 RC Project](https://docs.google.com/document/d/1hfrpDU1DQm6QKrioJsxxcMdq8ormYTlwAHaiswDuSHI/edit#heading=h.flrf7kcrqwuu)
 
 This guy appears to have used Tarmo as a base and improved it
 
@@ -109,11 +110,11 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 ## Tarmo5
 
 * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
-    * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
-    * [Tarmo5 Build, First Run and Initial Impressions](https://www.youtube.com/watch?v=heEsQMkIaAc)
+  * [Tarmo5 | 3D Printed RC Car](https://www.youtube.com/watch?v=r2UDc4A8huY)
+  * [Tarmo5 Build, First Run and Initial Impressions](https://www.youtube.com/watch?v=heEsQMkIaAc)
 * Based on the Tarmo5 - But Maybe Better!
-    * [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
-    * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
+  * [I PRINTED an RC Car... How FAST can it go??](https://www.youtube.com/watch?v=-pxNIrBaDrA)
+  * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
 
 
 ## Tormo4
@@ -128,10 +129,10 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 
 * [Excellent 3D-Printed RC Car Features Variety of Drivetrain Options](https://blog.hackster.io/excellent-3d-printed-car-features-variety-of-drivetrain-options-d8c1c552b285)
 * [Nearly Entirely 3D Printed RC Car Is 4WD Fun](https://hackaday.com/2019/04/09/nearly-entirely-3d-printed-rc-car-is-4wd-fun/)
-    * [3D Printed RC Car V3 -- Tarmo3 -- Front Parts](https://www.thingiverse.com/thing:3546277)
-    * [3D Printed RC Car V3 -- Tarmo3 -- Drivetrain](https://www.thingiverse.com/thing:3547058)
-    * [3D Printed RC Car v3 -- Tarmo3 -- Rear Parts](https://www.thingiverse.com/thing:3545173)
-    * [BOM](https://docs.google.com/spreadsheets/d/10gS0H6_ADVWPt2O_ZIXLfmCgJAxFySBps5DkU6ocSow/edit#gid=0)
+  * [3D Printed RC Car V3 -- Tarmo3 -- Front Parts](https://www.thingiverse.com/thing:3546277)
+  * [3D Printed RC Car V3 -- Tarmo3 -- Drivetrain](https://www.thingiverse.com/thing:3547058)
+  * [3D Printed RC Car v3 -- Tarmo3 -- Rear Parts](https://www.thingiverse.com/thing:3545173)
+  * [BOM](https://docs.google.com/spreadsheets/d/10gS0H6_ADVWPt2O_ZIXLfmCgJAxFySBps5DkU6ocSow/edit#gid=0)
 
 
 # Robak
@@ -161,12 +162,14 @@ Video Channel about Radio Control Printed Cars - [RC Printer](https://www.youtub
 
 
 # Importing Tarmo3 Into FreeCAD For Assemble
+
 I want to bring the 3D printer ready STL files in Thingiverse into FreeCAD.
 This will allow me to further refine the design, if I so desire,
 and I can create a FreeCAD assembly of the Tarmo3.
 
 
 ## Covert Files From STL to STEP
+
 The first step in doing this, is to convert the Thingiverse STL files into STEP files.
 
 >**NOTE: Since STLs are meshes, the resulting model won't be as
@@ -204,6 +207,7 @@ The first step in doing this, is to convert the Thingiverse STL files into STEP 
 
 
 ## Battery
+
 Lithium polymer (LiPo) batteries are a wonder of the modern age
 and have revolutionized the hobby of flying RC planes.
 
@@ -212,6 +216,7 @@ and have revolutionized the hobby of flying RC planes.
 
 
 ## Balance Charger
+
 A balance charger (or balancer) does this by monitoring the individual cell voltages in a pack through a connector on the pack (called a balance connector) and adjusting their rate of charge accordingly. When such a balancer is built into a charger, the charger is known as a Balance Charger or Balancing Charger.
 
 [Tenergy TB-6B 50W Balancing Charger][50]
@@ -230,6 +235,7 @@ it can store up to 10 different battery charging profiles.
 
 
 ## Brushless Motor
+
 BLDC motor
 
 * [Types Of Electric Motors - DC | AC | Synchronous | Brushless | Brushed | Stepper | Servo](https://www.youtube.com/watch?v=I2_-etus0KQ)
@@ -292,6 +298,7 @@ so I decide to make my own.
 
 
 # The RC Car World
+
 The term "R/C" has been used to mean both "remote controlled" and "radio controlled",
 where "remote controlled" includes vehicles that are connected to their controller by a wire,
 but common use of "R/C" today usually refers to vehicles controlled by a radio-frequency link.
@@ -318,6 +325,7 @@ So I believe my interest fall closer to basher than racer.
 
 
 # Components of the RC Car
+
 A complete bill of materials, minus the 3D printed components,
 can be found in the Excel spreadsheet `3d-car-bom.xlsx`.
 My sources for the components include:
@@ -330,6 +338,7 @@ My sources for the components include:
 
 
 ## 3D Printed Car Body
+
 The car body comes from a [write-up on Hackaday][21]
 and the car body is almost entirely printed on a 3D printer.
 The only exceptions are the wheels & tires, suspension spring & shock absorber,
@@ -339,6 +348,7 @@ All the printable parts are list on [Thingiverse][18].
 
 
 ## Radio Controller
+
 The [remote controller, transmitter, radio controller][45], whatever you call them
 come in pistol grip transmitter (typically used with RC cars)
 and stick transmitter (typically used with aircraft).
@@ -372,10 +382,12 @@ DumboRC X6 2.4G 6CH Transmitter documentation can be found
 
 
 ## Battery
+
 [Gens ace 5000mAh 11.1V 3S 50C 3 Cell LiPo Battery Pack][32] with XT60 and Deans Plug
 
 
 ## Battery Charger
+
 For charging the LiPo battery,
 I purchased the [Tenergy TB6-B Balance Charger/Discharger][27],
 one of the [top of the line chargers][28].
@@ -407,6 +419,7 @@ consider the following videos:
 
 
 # Motor & ESC
+
 Choosing a motor and electronic speed controller(ESC) can be challenging
 and its not always clear what is the best for you.
 I I just went with what my [source][21] used.
@@ -419,6 +432,7 @@ and maybe my choose is good for a newbie like me.
 
 
 ## Motor
+
 You will not find much information online about the
 [EMAX Toolcool GT2215-09 1180KV Outrunner Brushless Motor][37]
 I purchased for this RC car.
@@ -427,6 +441,7 @@ although it appears to be primarily designed for quadcopters.
 
 
 ## Electronic Speed Control (ESC)
+
 An [Electronic Speed Control (ESC)][10] is an electronic circuit that
 controls and regulates the speed of an electric motor.
 It may also provide reversing of the motor and [dynamic braking][09].
@@ -467,6 +482,7 @@ The voltage rating for each ESC is clearly stated in the specifications.
 
 
 ## Hobbypower 60A SL V2 ESC
+
 I used the recommended [Hobbypower 60A SL V2 ESC][12]
 which suports 2-3 cells LiPo
 with a continuous current 60A and burst current 380A.
@@ -477,19 +493,19 @@ It has a built in BEC who's output is 6V/1.5A to power the radio transmitter.
 >This ESC has a builtin BEC to deliver power to the radio system.
 
 * Racing Features
-    * It has three running modes: Racing mode (Forward), Forward/Backward mode, and Rock Crawler mode.
-    * Proportional ABS brake function with 4 steps of maximum brake force adjustment,
+  * It has three running modes: Racing mode (Forward), Forward/Backward mode, and Rock Crawler mode.
+  * Proportional ABS brake function with 4 steps of maximum brake force adjustment,
     8 steps of drag-brake force adjustment and 4 steps of initial brake force adjustment.
-    * It has 9 start modes (Also called "Punch" ) from "Soft" to "Very aggressive".
+  * It has 9 start modes (Also called "Punch" ) from "Soft" to "Very aggressive".
 
 * Protection Featues
-    * Multiple protection features: Low voltage cut-off protection for lithium or nickel battery,
+  * Multiple protection features: Low voltage cut-off protection for lithium or nickel battery,
     Over-heat protection, throttle signal loss protection, motor blocked protection.
 
 * Programming Feature
-    * With 8 steps of timing adjustment to get the best compatibility with various of motors.
-    * Easily program with only one button and compatible with pocket-sized program card.
-    * The ESC is USB supported. The firmware of the ESC can be updated through
+  * With 8 steps of timing adjustment to get the best compatibility with various of motors.
+  * Easily program with only one button and compatible with pocket-sized program card.
+  * The ESC is USB supported. The firmware of the ESC can be updated through
     an USB adapter on the Advanced LCD Program Box (Optional device).
 
 * [An Open Source ESC For Brushless Motors](https://hackaday.com/2019/05/15/an-open-source-esc-for-brushless-motors/)
@@ -501,6 +517,7 @@ Hobbypower 60A SL V2 Brushless Speed Controller ESC - <https://www.amazon.com/gp
 
 
 ## ESC Programming Card
+
 The Hobbypower 60A SL V2 ESC is programmable with [HobbyWing LED Program Card][11].
 
 * [How To Program HobbyWing ESC](https://www.youtube.com/watch?v=OxKaE6xs-Kc)
@@ -536,6 +553,7 @@ The Hobbypower 60A SL V2 ESC is programmable with [HobbyWing LED Program Card][1
 
 
 # Open vs Locked Differential
+
 A [differential][06] (aka open differential)
 is a gear train with three shafts that has the property
 that the rotational speed of one shaft is the average of the speeds of the others,
@@ -562,6 +580,7 @@ output gears (2)/ spider gears (2)/ spider gear shaft/ diff carrier support
 
 
 # Torsion Spring
+
 A [torsion spring][08] is a spring that works by twisting its end along its axis.
 So its flexible elastic object that stores mechanical energy when it is twisted.
 When it is twisted, it exerts a twisting force (aka torque) in the opposite direction,
@@ -579,6 +598,7 @@ The heat created is from friction between clutch pads and a clutch hub.
 
 
 # RC Car Assembly and Configuration
+
 While the assembly and configuration of this car took much more time than I anticipated,
 I didn't hit any major problems.
 I suspect the difficulty for me was this was the very first RC car I have ever encountered
@@ -587,6 +607,7 @@ What follows should correct that later point.
 
 
 ## Step 1: Print the Body - DONE
+
 Leveraging the [STL file's][48] from [Thingiverse][23],
 I printed the RC car parts using a [Creality CR-10 3D-Printer][46]
 and Ultimaker's [Cura][47] slicer.
@@ -596,6 +617,7 @@ since they had a tendency to brake under load.
 
 
 ## Step 2: Pre-Assemble the Printed Body Parts - DONE
+
 Once all the body parts were successfully printed,
 I pre-assembled the body using a limited number of nuts & bolts
 just to make sure all the part fit properly.
@@ -607,6 +629,7 @@ and there would be no problems during final assembly.
 
 
 ## Step 3: Prepare and Charge the Battery - DONE
+
 The [Gens ace 5000mAh 11.1V 3S 50C 3 Cell LiPo Battery Pack][32]
 comes with XT60 and Deans Plug (not soldered on).
 I had to install a male [Tamiya connector][13] on the battery
@@ -618,6 +641,7 @@ and did a balance charge on the battery.
 
 
 ## Step 4: Assembled the Whole Car - DONE
+
 Next I finished the physical assembly of the RC car by including a bolts
 and tight them down as required.  I also greased all gear boxes along the drive train.
 I also install the electrical components: battery, ESC, radio receiver.
@@ -633,6 +657,7 @@ the white wire should be facing towards the receiver's antenna.
 
 
 ## Step 5: Binding the Transmitter with the Radio Receiver - DONE
+
 To bind the DumboRC X6 transmitter with its X6FG receiver,
 first power up the transmitter and then the RC car via the switch on the ESC.
 Press the very small button on the receiver.
@@ -643,6 +668,7 @@ See the [DumboRC X6 2.4G 6CH Transmitter documentation][33] for more information
 
 
 ## Step 6: Transmitter Adjustments - DONE
+
 Transmitters typically feature adjustment controls
 that alter the receiver controls.
 These refinements allow the driver to remotely alter things like the steering dead point
@@ -650,6 +676,7 @@ and how sensitive the steering or throttle controls are.
 
 
 ### Step 6A: Calibrating the ESC
+
 ESC calibration is about telling you ESC what your transmitter's
 full throttle point, full brake point, and neutral point is.
 I following the [Hobbypower 60A SL V2 ESC user manual][43] to perform this task.
@@ -685,6 +712,7 @@ For more information, check out these videos:
 
 
 # Step 6B: Slow Down the RC Car
+
 You may want to slowing down your remote control car (I did!)
 because your new to the RC car game or kids are using the controls.
 You do this by adjusting the right-side second row trim pot to much less tha 100%.
@@ -695,6 +723,7 @@ For more information, check out these videos:
 
 
 ### Step 6C: Adjust Steering Trim and Dual Rate
+
 **Steering Trim** is the way the radio helps the car track perfectly straight,
 and generally, should be checked/adjusted before every run.
 To set your steering trim, it’s easiest to be behind the vehicle and have the vehicle drive away from you.
@@ -719,6 +748,7 @@ For more information, check out these videos:
 
 
 ## Step 7: Programming the ESC
+
 ESC's are programmable,
 usually through a [programming card][11],
 or through the reciever / transmitter.
@@ -762,6 +792,7 @@ check out the following for using Programming Card:
 
 
 ## Step X: Program Receiver Gyro Mode
+
 You can see the difference with the gyro off and on in [this video][44].
 
 see "Receiver with Gyro function" in <https://www.banggood.com/DumboRC-X6-2_4G-6CH-Transmitter-with-X6FG-Receiver-for-JJRC-Q65-MN-90-Rc-Car-Boat-Tank-Model-Parts-p-1454329.html?ID=229&cur_warehouse=USA>
@@ -770,6 +801,7 @@ see "Receiver with Gyro function" in <https://www.banggood.com/DumboRC-X6-2_4G-6
 
 
 ## Step X: Tire Preparation - DONE
+
 I didn't realize the amount of effort serious RC car racers put into preparing tires!
 I didn't bother with any of this.
 
@@ -834,10 +866,12 @@ I didn't bother with any of this.
 
 
 # Similar Projects
+
 These project can be a source of inspiration and code for the work above.
 
 
 ## Donkey Car
+
 Donkey Car is a An open source DIY self driving platform for small RC scale cars.
 It is developed for hobbyists and students with a focus on allowing
 fast experimentation and easy community contributions.
@@ -872,18 +906,18 @@ Self Driving Cars
 * [Self Driving Cars S1E3 AI Failure?](https://www.youtube.com/watch?v=yaYER2M8dcs)
 * [Self Driving Cars S1E4 RALPH](https://www.youtube.com/watch?v=DIAKL0s4Mzs)
 * [I RACED My Self-Driving RC Car](https://www.youtube.com/watch?v=zuyOdaQ2xuw)
-    * [I Made a Self Driving FPV RC Car](https://www.youtube.com/watch?v=k1tdeXjaJpk)
-    * [Building the FASTEST Self Driving RC Car](https://www.youtube.com/watch?v=R87Qlq_wSY8)
+  * [I Made a Self Driving FPV RC Car](https://www.youtube.com/watch?v=k1tdeXjaJpk)
+  * [Building the FASTEST Self Driving RC Car](https://www.youtube.com/watch?v=R87Qlq_wSY8)
 
 
 # DeepPiCar
 
 * [DeepPiCar — Part 1: How to Build a Deep Learning, Self Driving Robotic Car on a Shoestring Budget](https://towardsdatascience.com/deeppicar-part-1-102e03c83f2c)
-    * Part 2: Raspberry Pi Setup and PiCar Assembly
-    * Part 3: Make PiCar See and Think
-    * Part 4: Autonomous Lane Navigation via OpenCV
-    * Part 5: Autonomous Lane Navigation via Deep Learning
-    * Part 6: Traffic Sign and Pedestrian Detection and Handling
+  * Part 2: Raspberry Pi Setup and PiCar Assembly
+  * Part 3: Make PiCar See and Think
+  * Part 4: Autonomous Lane Navigation via OpenCV
+  * Part 5: Autonomous Lane Navigation via Deep Learning
+  * Part 6: Traffic Sign and Pedestrian Detection and Handling
 
 
 # Tiny Car
@@ -904,6 +938,7 @@ Self Driving Cars
 
 
 ## MIT RACECAR - Jetson RACECAR - RACECAR/J
+
 [RACECAR/J][01] is derived from the open source [MIT RACECAR][02],
 an “open-source powerful platform for robotics research and education”.
 The RACECAR/J Chassis is based on the [TRAXXAS Slash 4×4 Platinum Truck][03],
@@ -921,10 +956,11 @@ and pieces such as C-hubs, steering blocks, rear hub carriers and axle nuts.
 ## Course Work
 
 * [MIT 6.S094: Deep Learning for Self-Driving Cars](https://selfdrivingcars.mit.edu/)
-    * <https://github.com/marcotav/deepcars>
+  * <https://github.com/marcotav/deepcars>
 
 
 ## Autonomous RC Car
+
 The general idea that Steven Daniluk has is to take an RC car,
 attach a small computer and some sensors to it,
 and enable it to drive around a track without any human controls.
@@ -941,11 +977,13 @@ and enable it to drive around a track without any human controls.
 
 
 ## OpenPilot
+
 [openpilot](https://github.com/commaai/openpilot)
 is open source software built to improve upon the existing driver assistance in most new cars on the road today. Tesla Autopilot like functionality for your Toyota, Honda, and more.
 
 
 ## Remote Racing Car
+
 This projects objective is to competitively a race RC cars over the internet,
 in live races against other human opponents.
 It makes use of a GoPro with special low-latency streaming software,
@@ -956,6 +994,7 @@ and automatic charging stations to help keep the cars juiced up for hours of pla
 
 
 ## 4G Rover - TKIRV
+
 TKIRV (TK Internet Remote Vehicle) is a project idea to build a vehicle that
 can be remotely controlled over the internet and can operate
 indefinitely in the field through the use of solar power.
@@ -981,6 +1020,7 @@ a [A 4G Rover and the Benefits of a Shakedown Mission](https://hackaday.com/2019
 
 
 ## Future Controller
+
 I would like to have a simple, very protable controller / telemetry device for the RC Car.
 Something as simple as this:
 
@@ -989,12 +1029,14 @@ Something as simple as this:
 
 
 ## Active Aerodynamics
+
 Active aerodynamics employs self-adjusting front and rear spoilers, open and shut vents, and in-motion height adjustments to keep vehicles firmly planted on the road while maintaining optimum efficiency – whether in terms of speed, downforce or fuel consumption.
 
 * [Active Aero For A Radio Control Car](https://hackaday.com/2021/01/03/active-aero-for-a-radio-control-car/)
 
 
 # Serial Studio
+
 Serial Studio is a multi-platform, multi-purpose serial data visualization program. The goal of this project is to allow embedded developers & makers to easily visualize, present & analyze the data generated by their projects and devices, without the need of writing specialized computer software for each project.
 
 * [Serial Studio: Easily Visualise And Log Serial Data](https://hackaday.com/2021/01/31/serial-studio-easily-visualise-and-log-serial-data/)

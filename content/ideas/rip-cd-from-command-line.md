@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # RipperX
+
 [RipperX][30] is a GTK program to rip CD audio tracks and encode them to the Ogg, MP3, or FLAC formats. It's goal is to be easy to use, requiring only a few mouse clicks to convert an entire album. It supports CDDB lookups for album and track information.
 
 ```bash
@@ -46,6 +47,7 @@ Click the **Config** button, then the **CDDB** tab, and enter the [following inf
 * [How I digitized my CD collection with open source tools](https://opensource.com/article/21/4/digitize-cd-open-source-tools)
 
 # Google Play Music Manager
+
 Google Play Music
 Google's Music Manager can be used to upload your songs
 from your computer to your Google Play library.
@@ -74,6 +76,7 @@ and since the process is the same for any CD, it could be scripted,
 at least in large part.
 
 ## Linux Music Players
+
 There are loads of music players for Linux.
 My goto player is the Gnome project's default player [Rhythmbox][19].
 It has a X Window graphical UI but also can work on the command line:
@@ -87,6 +90,7 @@ So what does one do if you are not running a GUI (aka X Windows)?
 There are several music players avalable, just see ["3 command-line music players for Linux"][20].
 
 ## Basic Procedure for Ripping
+
 In this great multi-part video tutorial,
 "[Command Line: CD Ripping and Encoding][01]"
 the author explain how to rip the audio tracks off a music CD,
@@ -107,6 +111,7 @@ sudo apt-get install cdparanoia sox cd-discid abcde ripit
 ```
 
 ### Query the CD for Content
+
 You can see what is on the CD by querying and printing the table of contents with
 the compact disc ripper [`cdparanoia`][15]
 
@@ -116,6 +121,7 @@ cdparanoia -d /dev/cdrom --query
 ```
 
 ### Rip the CD to Disk
+
 To begin the ripping process, do the following:
 
 ```bash
@@ -136,6 +142,7 @@ play track01.cdda.wav
 ```
 
 ### Encoding to Desired Format
+
 To encode the WAV files in OGG format from [Vorbis][03], use the following command:
 
 ```bash
@@ -178,6 +185,7 @@ To convert one sound format to another,
 You can use the utility [`ffmpeg`][16].
 
 ### Getting Tags
+
 This is great script, but you still need to manual provide the track titles, artist, etc.
 You may have observed that if you putting your CD into an Internet-enabled device,
 the computer is accessing an online database
@@ -217,10 +225,12 @@ cddb-tool read $SERVER 5 $USER $HOST $GENRE $CDDB_ID | grep TTITLE0 | sed 's/TTI
 ```
 
 ## Automating the Process
+
 I could take all of he above and create my own script.
 Luckily, this has already been done for me.
 
 ### Ripit to the Rescue
+
 [`ripit`][14] is a command line audio CD ripper that puts all the above steps into a nice script,
 and you can find a short tutorials at
 "[Rip Your CDs At The Command Line][17]" and "[Ripping Audio CDs at the Command Line][18]".
@@ -264,6 +274,7 @@ produce a set of mp3/ogg/flac/m4a/mpc/wv/... files without any user-intervention
 * *Optional:* detection of Various Artists style and tagging according the level of detection.
 
 # Sound Juicer
+
 GNOME now has it own ([not always been true][22]) audio CD extractor calle [Sound Juicer][21].
 While not always been part of GNOME,
 Sound Juicer is an old program and has been available on most Linux distributions.
@@ -280,6 +291,7 @@ to detect and automatically assign metadata to what it thinks the album is
 * [Rip Audio CDs in Linux with Sound Juicer](https://www.howtogeek.com/howto/20126/rip-audio-cds-with-sound-juicer/)
 
 ## Other Useful Tools
+
 [`id3`][] is an ID3 v1.1 tag editor.
 ID3 tags are traditionally put at the end of compressed streamed audio files to denote information about the audio contents.
 
@@ -287,13 +299,14 @@ ID3 tags are traditionally put at the end of compressed streamed audio files to 
 ID3 tags are traditionally put at the end of compressed streamed audio files to denote information about the audio contents. Using this command line software you can add/modify/delete id3v2 tags and optionally convert id3v1 tags to id3v2.
 
 ## Sources
+
 * [HOWTO: Convert music CDs to MP3 using the Command Line](http://ubuntuforums.org/showthread.php?t=535950)
 * [Rip Your CDs At The Command Line](http://www.maketecheasier.com/rip-cds-at-command-line/)
 * [CD ripping and burning from the command prompt Howto](http://linuxreviews.org/howtos/cdrecording/#toc4)
 * [HowTo: Linux Rip and Encode Audio CDs](http://www.cyberciti.biz/faq/linux-ripping-and-encoding-audio-files/)
 
-http://www.linuxquestions.org/questions/linux-general-1/how-to-do-a-freedb-query-220956/
-http://gadgetweb.de/linux/cd-ripping-with-lame-cdda2wav-and-cddb-data.html
+<http://www.linuxquestions.org/questions/linux-general-1/how-to-do-a-freedb-query-220956/>
+<http://gadgetweb.de/linux/cd-ripping-with-lame-cdda2wav-and-cddb-data.html>
 
 
 

@@ -27,6 +27,7 @@ Version:      0.0.0
 * [Taking a Close Look at Parallel Plate Capacitors](https://hackaday.com/2022/04/16/taking-a-close-look-at-parallel-plate-capacitors/)
 
 # Background
+
 [Faraday's law of induction][01] (generally called Faraday's law)
 is a basic law of electromagnetism predicting how a magnetic field will interact
 with an electric circuit to produce an [electromotive force (EMF)][03]
@@ -50,19 +51,23 @@ An inductor coil can stop one current so a different one is able to flow.
 * [Kirchhoff’s Voltage Law versus Faraday’s Law: the Conclusion](https://www.youtube.com/watch?v=Q9LuVBfwvzA&feature=youtu.be)
 
 # What is an Inductor?
+
 If a time varying current flowing through a coil there is an [electromotive force (EMF)][03] induced in it.
 The induced EMF across the coil is directly proportional to the rate of change of current with respect to time.
 Due to the property inducing EMF, all types of electrical coil can be referred as inductor.
 An inductor is an energy storage device which stores energy in form of magnetic field.
 
 # Making Inductors
+
 * [Winding Your Own Small Coils](https://hackaday.com/2022/02/22/winding-your-own-small-coils/)
 * [Beautiful Inductors, Now Not Such A Lost Art](https://hackaday.com/2022/07/17/beautiful-inductors-now-not-such-a-lost-art/)
 
 ## Variable Inductor
+
 * [Make Your Own Variable Inductor](https://hackaday.com/2021/04/22/make-your-own-variable-inductor/)
 
 # Inductor Parasitic Properties
+
 In electrical circuits, a [parasitic element][05] is a circuit element
 (resistance, inductance or capacitance)
 that is possessed by the electrical component but which it is not desirable for it to have for its intended purpose.
@@ -72,15 +77,19 @@ Component designers will strive to minimise parasitic elements, but they are una
 The main and most dominant parameter of a resistor, capacitor or coil can be easily determinated by a single measurement. However, if one needs a complete picture of the main and parasitic properties, then a single measurement is not sufficient.
 
 # Making Capacitors
+
 * [HOMEBREW DOORKNOB CAPS FOR HIGH-VOLTAGE FUN](https://hackaday.com/2021/02/19/homebrew-doorknob-caps-for-high-voltage-fun/)
 
 ## Variable Capacitors
+
 * [A Variable Capacitor For Not A Lot](https://hackaday.com/2022/03/07/a-variable-capacitor-for-not-a-lot/)
 
 # Calculation
+
 * [Circuit Impedance Calculations Without Cumbersome Simulations](https://hackaday.com/2021/03/02/circuit-impedance-calculations-without-cumbersome-simulations/)
 
 # Measurement
+
 Inductance is usually measured in units called millihenrys or microhenrys. It is commonly measured by using a frequency generator and an oscilloscope or an LCM multimeter. It can also be calculated through a voltage-current slope measuring the change in the electrical current passing through the coil.
 
 * [How to Measure Inductance](https://www.wikihow.com/Measure-Inductance)
@@ -99,11 +108,13 @@ Inductance is usually measured in units called millihenrys or microhenrys. It is
 * [How to measure a capacitor with an oscilloscope](https://www.youtube.com/watch?v=VylC8JFoiBo)
 
 # Metal Detector
+
 * [Metal detector](https://en.wikipedia.org/wiki/Metal_detector)
 * [Simple Sensitive IB Metal Detector with 2xNE555](https://hackaday.io/project/182607-simple-sensitive-ib-metal-detector-with-2xne555)
 * [Induction Balance Metal Detector](https://www.yumpu.com/en/document/read/11524600/induction-balance-metal-detector-geotech)
 
 # Decoupling Capacitors
+
 * [Proper Decoupling Capacitors](https://hackaday.com/2023/07/12/proper-decoupling-capacitors/)
 * [Decoupling Capacitors Are Crucial in PCB Design](https://www.engineering.com/story/decoupling-capacitors-are-crucial-in-pcb-design)
 

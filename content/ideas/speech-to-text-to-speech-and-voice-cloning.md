@@ -37,6 +37,8 @@ I have toyed with the idea of a microphone that would take a singing voice of an
 # Text-to-Speech
 
 ## TextyMcSpeechy
+
+
 Easily create Piper text-to-speech models in any voice. Make a text-to-speech model with your own voice recordings, or use thousands of RVC voices. Works offline on a Raspberry pi. Rapidly record custom datasets for any metadata.csv file and listen to your model as it is training.
 
 * [Add any voice to your Raspberry Pi project with TextyMcSpeechy](https://www.tomshardware.com/raspberry-pi/add-any-voice-to-your-raspberry-pi-project-with-textymcspeechy)
@@ -74,7 +76,9 @@ Piper is Open Source Text-to-Speech & Voice Cloning
 
 ---------------
 
+
 # Real-Time Voice Agent
+
 * [The Easiest Way to Create Real-Time AI Voice Agents](https://www.kdnuggets.com/the-easiest-way-to-create-real-time-ai-voice-agents)
 * [TEN-Framework: Voice AI Agent framework for building Conversational AI](https://theten.ai/)
 

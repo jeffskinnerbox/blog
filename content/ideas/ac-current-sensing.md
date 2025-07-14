@@ -37,12 +37,14 @@ Learn something about current clamp sensitivity - [Using Homebrew Coils To Measu
 
 
 # Higher Precision
+
 * [Voltage Measurement HAT for Raspberry Pi offers 16-bit analog inputs](https://www.cnx-software.com/2021/01/17/voltage-measurement-hat-for-raspberry-pi-offers-16-bit-analog-inputs/)
 
 
 
 
 # Current Sensing
+
 There are three common techniques for measuring current, typically using an oscilloscope.
 The first is using a resistor (sometimes called a current shunt) in series with the current being measured.
 The second is to use a current transformer.
@@ -52,10 +54,12 @@ Since all three methods require that the current being measured pass through the
 [Current Sensing Theory][10]
 
 ## Oscilloscope Current Probe
+
 * [Understanding, Selecting, and Effectively Using Current Probes](https://www.digikey.com/en/articles/understanding-selecting-effectively-using-current-probes)
 * [Micsig CP2100A Best Affordable Current Probe](https://www.youtube.com/watch?v=8zW4j0euN8A)
 
 ## Hall Effect Current Sensing
+
 A [Hall effect sensor][03] is a device that is used to measure the magnitude of a magnetic field.
 Its output voltage is directly proportional to the magnetic field strength through it.
 Hall effect sensors are used for proximity sensing, positioning, speed detection,
@@ -66,6 +70,7 @@ We are interested here in the Hall effect current sensor which be used for AC or
 * [Practical Sensors: The Hall Effect](https://hackaday.com/2021/05/20/practical-sensors-the-hall-effect/)
 
 ## Current Sensing Transformer
+
 A [current transformer][01] is a type of transformer that is used to reduce
 or multiply an alternating current (AC).
 A current transformer is designed to maintain an accurate ratio between the currents in its primary
@@ -85,6 +90,7 @@ If it is a voltage output CT you can skip this step and leave out the burden res
 as the burden resistor is built into the CT.
 
 ## Split Core Current Transformer
+
 A [split-core current transformer][01] is a current transformer with
 either have a two-part core or a core with a removable section.
 This allows the transformer to be placed around a conductor without having to disconnect or sever it.
@@ -97,9 +103,11 @@ By reading the amount of current being produced by the secondary wire wound arou
 you can calculate how much current is passing through the primary conductor.
 
 # Safety
+
 The secondary of a current transformer should not be disconnected from its burden while current is in the primary, as the secondary will attempt to continue driving current into an effective infinite impedance up to its insulation break-down voltage and thus compromise operator safety. For certain current transformers, this voltage may reach several kilovolts and may cause arcing. Exceeding the secondary voltage may also degrade the accuracy of the transformer or destroy it. Energizing a current transformer with an open circuit secondary is equivalent to energizing a voltage transformer (normal type) with a short circuit secondary. In the first case the secondary tries to produce an infinite voltage and in the second case the secondary tries to produce an infinite current. Both scenarios can be dangerous and damage the transformer.
 
 # Solution
+>
 >**WARNING:** To connect a "current output" type CT sensor to an Arduino or any MCU,
 >the output signal from the CT sensor needs to be conditioned
 >so it meets the input requirements of the MCU analog inputs,
@@ -127,12 +135,14 @@ Also the Gravity: Analog 20A Current Sensor provide you with an internal burden 
 saving you the steps of designing and setting up this additional circuitry.
 
 # Example Setup
+
 * [Using a Split Core Current Transformer](https://www.youtube.com/watch?v=-3DRaMcHf5w)
-* https://wiki.dfrobot.com/Gravity_Analog_AC_Current_Sensor__SKU_SEN0211_
+* <https://wiki.dfrobot.com/Gravity_Analog_AC_Current_Sensor__SKU_SEN0211>_
 
 # Example Code
-* https://wiki.dfrobot.com/Gravity_Analog_AC_Current_Sensor__SKU_SEN0211_
-* https://learn.sparkfun.com/tutorials/environmental-monitoring-with-the-tessel-2
+
+* <https://wiki.dfrobot.com/Gravity_Analog_AC_Current_Sensor__SKU_SEN0211>_
+* <https://learn.sparkfun.com/tutorials/environmental-monitoring-with-the-tessel-2>
 
 
 
@@ -147,6 +157,7 @@ You'll find technical discription of the use of the current sensor and
 signal conversion module on the [DFROBOT website][12].
 
 The signal conversion module provides:
+
 * additional electrical isolation
 
 * [CT sensors - An Introduction](https://learn.openenergymonitor.org/electricity-monitoring/ct-sensors/introduction)
@@ -160,6 +171,7 @@ The signal conversion module provides:
 
 
 # Data Converters
+
 TI Precision Labs: Training & Videos for
 
 ADC noise - [Introduction to noise in ADC systems](https://training.ti.com/ti-precision-labs-introduction-to-adc-noise)

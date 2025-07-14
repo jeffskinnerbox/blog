@@ -33,6 +33,7 @@ check out the RPi 2 or RPi 3.
 
 
 # Raspberry Pi Zero Tour
+
 ![rpi-zero-all-types](http://zdnet1.cbsistatic.com/hub/i/r/2017/05/07/b510bd4a-f8bd-4b80-8c94-9e0f8c331665/resize/770xauto/567ce41124a0f0c49315dd7013074fc1/imgp3772.jpg)
 ![rpi-zero](http://livedoor.blogimg.jp/victory7com/imgs/1/2/1237de17.jpg)
 [Adafruit][05] gives a nice [tour of the RPi Zero][04].
@@ -55,6 +56,7 @@ The Pi Foundation recommends adding a blocking diode when powering a RPi through
 
 
 ## RPi Zero v1.3 Camera Enabled
+
 [Raspberry Pi Zero version 1.3][06] comes with a frequently requested feature: a camera connector,
 but there is a small catch.
 While the Raspberry Pi camera modules themselves will work just fine on the Pi Zero,
@@ -65,6 +67,7 @@ to the slightly smaller connector found on the Pi Zero.
 
 
 ## USB Gadget
+
 [!usb-go](https://upload.wikimedia.org/wikipedia/en/b/b6/USB_OTG_Logo.svg)
 The Raspberry Pi Zero (and model A and A+) support [USB On The Go][01].
 USB On-The-Go is an extension of the USB 2.0 specification
@@ -121,6 +124,7 @@ So when you plug the RPi Zero into a computer, it could start typing!
 
 
 ## Console Access to RPi Zero
+
 [!sereial-cable](https://cdn-shop.adafruit.com/970x728/954-02.jpg)
 A [USB to TTL serial cable][35] (aka console cable)
 can be used to connect to [system console][36] on the Raspberry Pi Zero.
@@ -172,6 +176,7 @@ which gives you greater security, and allow console cables to work via [`screen`
 
 
 # Raspberry Pi Zero Set Up
+
 The objective here is to get the RPi Zero up and running without the need for any
 USB keyboard, mouse, or HDMI monitor.
 Set it up as a [headless device][03], and to do so,
@@ -185,6 +190,7 @@ can be done after the first boot and we have the RPi Zero up and working.
 
 
 ## Step 0: Configuring the SD Card
+
 Download and install the latest Raspbian Jessie onto a suitably large SD card,
 and expand the root partition.
 This has been described in many place, including [my description (Steps 1 & 2)][03].
@@ -192,6 +198,7 @@ Once you're done, plug the micro SD card into the Micro SD Card holder on the Ze
 
 
 ## Step 1: Setting Up RPi Zero OTG
+
 On a non-Zero Raspberry Pi, like the RPi A,
 the next step would be to configure the WiFi on the SD Card so you can log in,
 or on the RPi B model, just plug in an Ethernet cable.
@@ -231,6 +238,7 @@ Eject the SD card from your computer.
 
 
 ## Step 2A: Connecting with it as USB Gadget (Ubuntu)
+
 To connect to the RPi Zero over USB,
 you’ll need [Bonjour][12], or the Linux [Avahi Daemon][12] or similar
 [zero configuration discovery service][13] on your host computer.
@@ -415,6 +423,7 @@ so I suspect its the root of my troubles.
 
 
 ## Step 2B: Connecting with it as USB Gadget (Raspberry Pi)
+
 The Raspberry Pi Linux distribution doesn't use NetworkManager
 ([but some people have installed it][20]),
 so I connected the RPi Zero into a RPi B USB port and it work immediately!
@@ -478,6 +487,7 @@ and the RPi Zero USB Gadget will have address `10.0.1.2`.
 
 
 ## Step 3: Bridging Via Host PC to Allow Gadget to Reach the Internet
+
 Now we want to update the the RPi Zero with the latest software
 and that will require Internet access.
 If you now login into the RPi Zero and `ping` a know host on the Internet,
@@ -696,6 +706,7 @@ sudo iptables-restore < $HOME/tmp/backup_rules.v4
 
 
 ## Step 4: Configuring the Raspberry Pi Zero
+
 With the above steps complete, you can follow the article
 ["HowTo: Set-Up the Raspberry Pi as a Headless Device"][03] to complete the install.
 Specifically, make sure to do at least the following:
@@ -706,6 +717,7 @@ Specifically, make sure to do at least the following:
 
 
 ## Step 5: Adding WiFi to the Zero
+
 If you determined to have WiFi for your RPi Zero, it can be done.
 You could [try using an ESP8266][42].
 But the ESP8266 is a WiFi (aka wireless Ethernet) to serial device
@@ -766,6 +778,7 @@ but then you wouldn't have learned about all of the RPi Zero's USB Gadgetry!
 
 
 ## Step 5A: Free Some Disk Space
+
 If you are using an 8GB SD card,
 you may be using close to 50% of the available space,
 so one simple thing to do is to delete both
@@ -781,6 +794,7 @@ sudo apt-get autoremove
 
 
 ## Step 6: Zero Battery Supply (Optional)
+
 The size and power consumption of the Raspberry Pi Zero makes it possible to create battery powered
 solutions like a small stealthy spycam applications.
 You can replacing the micro USB wall charger, and start powering with batteries.
@@ -793,6 +807,7 @@ making it a Uninterruptible Power Supply (UPS).
 
 
 ## Step 7A: Battery Power Monitoring (Optional)
+
 If you're running off of a battery, your going to want to know when its running dry,
 and gracefully shutdown the Raspberry Pi.
 How long your project will run on batteries can be estimated by knowing
@@ -914,6 +929,7 @@ lifepo4wered­cli set auto_boot 1
 
 
 ## Shutdown Button
+
 The Raspberry Pi Zero features two pin holes,
 labeled RUN on the board along side the bank of GPIO pins.
 You cant shutdown your RPi from these pins but you can do a hard reset

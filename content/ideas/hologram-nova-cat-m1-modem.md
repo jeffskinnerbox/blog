@@ -15,8 +15,8 @@ Version:      0.0.0
 
 ################################################################################
 The "easiest" thing for us to get you for the demo would be our modem and existing dev board, which is an expansion board for the Atmel Xplained Pro:
-http://www.atmel.com/products/microcontrollers/avr/xplained.aspx
-https://www.digikey.com/catalog/en/partgroup/sam-l21-xplained-pro-evaluation-kit/54571?mpart=ATSAML21-XPRO-B&vendor=150.
+<http://www.atmel.com/products/microcontrollers/avr/xplained.aspx>
+<https://www.digikey.com/catalog/en/partgroup/sam-l21-xplained-pro-evaluation-kit/54571?mpart=ATSAML21-XPRO-B&vendor=150>.
 This is something we can ship right away. There is a BLE expansion board for this kit, as well as a number of other expansion board options. There is also a BLE-based Xplained board, though we haven't used it before (to my knowledge). It uses a Cortex-M0 based MCU. This would be the closest to what we are actually doing for a dev board, so would likely be easiest for us to support.
 
 There is another board (SAMD20) that has a GPS reference design as well
@@ -31,7 +31,7 @@ LTE-M DEVELOPMENT KIT (LL-LTE-M-VZN-DEV) - $ 249.00
 
 Hi Jeff,
 Link Labs will now be accepting pre-orders for our LTE-M development kits.
-https://cdn.shopify.com/s/files/1/0714/7123/products/lte-m1-with-dev-board_small_large.jpg?v=1505235116
+<https://cdn.shopify.com/s/files/1/0714/7123/products/lte-m1-with-dev-board_small_large.jpg?v=1505235116>
 Included in the development kits are:
 Link Labs LTE-M module for the Verizon network (LL-LTE-M-VZN-SE)
 LL-LTE-M-VZN-SE Expansion board for Atmel Xplained Pro (LL-LTE-M-VZN-XP)
@@ -78,6 +78,7 @@ operate over all four the 850/900/1900/2100Mhz bands, and connect using a standa
 * [Hologram Nova User Manual](https://hologram.io/docs/reference/nova/user-manual/)
 
 # Nova Communication Patterns
+
 There are several communication patterns supported by the Hologram Nova device
 and are described below:
 
@@ -136,6 +137,7 @@ To read inbound SMSes on the device, use AT commands to request them from the mo
 | Circuit-Switched SMS     | Yes        | Yes        | Outbound: Per message, Inbound: Buy phone number| Inbound Only |
 
 # Nova Data Metering
+
 Per-MB data pricing and per-message SMS pricing depends on your zone and billing plan.
 See [Hologram IoT Cellular Platform Plans][08] for details.
 
@@ -150,6 +152,7 @@ with no contract or roaming charges within USA:
 | Outbound SMS (sent from device) | $0.19 / Message |
 
 # Step X: Create a Hologram Account
+
 Following the procedures outlined [here][02],
 you'll need to [create a Hologram account][01] to manage your devices and billing.
 From the Hologram Dashboard, click the Activate SIM button in the top-right corner.
@@ -159,6 +162,7 @@ insert the Hologram SIM Card into your device.
 We'll power on the device in a latter step.
 
 # Step X: Install Hologram SDK and Command Line Tools
+
 The Hologram [Python SDK][04] and [command line (CLI)][05]
 tools are both open source and on [Github][06].
 These tools are downloadable via `curl` from your terminal.
@@ -216,6 +220,7 @@ subcommands:
 ```
 
 # Step X: Install Raspberry Pi Drivers
+
 Since the Cat-M1 Nova relies on a different chipset vendor than the 3G/2G Nova
 (underneath the hood of the u-blox),
 there is a different driver required for the `hologram` CLI tool.
@@ -236,7 +241,8 @@ ERROR: Unable to detect a usable serial port
 This kernel module will work until the next reboot.
 You may want to make this module permanent, and to do this, use the folllowing:
 
-** DOESN'T WORK **
+**DOESN'T WORK**
+
 ```bash
 # to make this permanent
 sudo sh -c 'echo option >> /etc/modules'
@@ -246,13 +252,15 @@ sudo reboot
 # after reboot, run this to check if module is now permanent
 lsmod | grep option
 ```
+
 must find a way to do this permanently:
 `sudo sh -c 'echo -n 05c6 90b2 > /sys/bus/usb-serial/drivers/option1/new_id'`
-** DOESN'T WORK **
+**DOESN'T WORK**
 
 You can find further documentation [here][26], [here][27], and [here][28].
 
 # Step X: Basic Configure and Testing
+
 Follow the instructions [here][07] to install the devices antenna,
 make sure the SIM is installed, and then plug in the devices USB
 into your computer where you installed the Hologram SDK / CLI.
@@ -315,6 +323,7 @@ sudo hologram connect
 ```
 
 # Step X: Hologram Cloud Messaging
+
 The [Hologram Socket API][16] provides a outbound low-level TCP socket interface for embedded devices
 to communicate with the Hologram Cloud.
 The inbound [Hologram REST API][17] offers much of the same functionality,
@@ -352,9 +361,11 @@ For example, a response of `[0,0]` indicates success,
 and a response of `[3,0]` indicates invalid authentication.
 
 # Step X: Connect Raspberry Pi to Cat-M1 Network
-https://projects.hologram.io/hologram/add-cellular-to-a-raspberry-pi-with-hologram-nova-ea5926?ref=channel&ref_id=19412_trending___&offset=3
 
-# Step X:
+<https://projects.hologram.io/hologram/add-cellular-to-a-raspberry-pi-with-hologram-nova-ea5926?ref=channel&ref_id=19412_trending___&offset=3>
+
+# Step X
+
 Next, you do the [Access Point Name (APN) settings][03].
 I used the following APN settings:
 
@@ -367,6 +378,7 @@ I used the following APN settings:
 Your device should now be connected to the Hologram cellular network.
 
 # Device File Name for Nova
+
 ```
 $ sudo hologram modem connect -v
 INFO: Detected modem NovaM_R404

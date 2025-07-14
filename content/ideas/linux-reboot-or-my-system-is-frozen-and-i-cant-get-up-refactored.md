@@ -17,6 +17,7 @@ Version:      0.0.0
 
 
 # Display Server Freeze
+
 [Gnome Shell, aka `gnome-shell`][25], (GNOME is acronym for GNU Network Object Model Environment)
 provides core interface functions like switching windows,
 launching applications, see your notifications, change the icon, themes, fonts, etc.
@@ -89,6 +90,7 @@ The golden nugget here is actually at the end of this posting, that is the Ma
 This gem can get you out of most any freeze but I provide more here since the alternatives might be less intrusive.
 
 ## Stopping a Running Process
+
 While this post's focus is on how to reboot Linux,
 keep in mind that sometimes the problem that your attempting to solve may be handled via a simpler approach.
 Specifically, maybe you just need to kill a running process.
@@ -119,6 +121,7 @@ To use it, execute `xkill`, and once it's running,
 you simply click on the window you wish to kill, and it performs a `kill -9`.
 
 ## When Kill -9 Does Not Work
+
 You are supposed to be able to kill any process with `kill -9 pid`,
 but you may come across a process that just will not die.
 Usually this happens when you are trying to kill a
@@ -153,6 +156,7 @@ They do not become zombie processes;
 instead, they are adopted by `init` (process ID 1), which waits on its children.
 
 ## Standard Reboot Commands
+
 The vast majority of your system shut downs or reboots will follow one of these two forms.
 The first will halt the system so you can power it off and the second will reboot the system:
 
@@ -176,6 +180,7 @@ It isn't quite that simple.
 Linux can operate in several states called runlevels.
 
 ## Linux Runlevels
+
 [runlevel][09] is a preset operating state for the Linux operating system.
 A system can be booted into  any of several runlevels,
 each of which is represented by a single digit integer.
@@ -230,6 +235,7 @@ For more, check out this [Managing Services in Ubuntu, Part I: An Introduction t
 and [Part II][13].
 
 ## Getting a Login From a Frozen GUI Screen
+
 A not so common problem is when a frozen,
 full screen X application takes control over your mouse and keyboard
 and it seems that the only way to regain access to the system is to force a shutdown.
@@ -255,6 +261,7 @@ e.g. starting with `ALtGR`, and ending with the `K`(ill) key).
 You can turn back on the `Ctrl`+`Alt`+`Backspace` by following the instructions [here][14].
 
 ## Magic SysRq Key
+
 If the system is completely locked up,
 or [your filesystem fails][17], there are still alternatives.
 The [magic SysRq key][15] provides a way to send commands directly to the kernel

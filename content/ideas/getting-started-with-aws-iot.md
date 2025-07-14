@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 # trigBoard
+
 The trigBoard is an IoT project that does one thing -
 it pushes you a notification triggered by a digital input.
 
@@ -94,6 +95,7 @@ and I followed the [AWS IoT getting started tutoral][02] developed by Amazon Web
 and posts like ["How to set up an AWS IoT button"][24].
 
 # Setting Up Your AWS Account
+
 When you sign up for Amazon Web Services (AWS),
 your AWS account is automatically signed up for all services in AWS, including AWS IoT.
 To get you going, you'll need to [sign up for AWS][25],
@@ -101,6 +103,7 @@ To get you going, you'll need to [sign up for AWS][25],
 and then setup the [AWS Command Line Interface][27].
 
 ## Step 1: Create an AWS Account - DONE
+
 All AWS services are available on demand, pay-as-you-go pricing,
 and require no long term contracts and have no complex licensing dependencies.
 First you must create an AWS account (assuming you don't have one already).
@@ -115,6 +118,7 @@ Also check out the [getting stated documentation][09],
 [getting started with AWS IoT][10], and [Self-Paced Labs][11].
 
 ## Step 2: Log into the AWS Management Console - DONE
+
 With your account established,
 you can navigate to the [AWS Console][07] and login to [AWS Console][03].
 The AWS Console is a landing page where you can being to establish and access the whole
@@ -126,6 +130,7 @@ To learn more about the AWS Management Console, check out:
 * [Getting Started with the AWS Management Console.](http://docs.aws.amazon.com/awsconsolehelpdocs/latest/gsg/getting-started.html)
 
 ## Step 3: Install AWS Command Line Interface
+
 The [AWS Command Line Interface][12] is a tool to manage your AWS services.
 Once this tools is downloaded and configured,
 you can control multiple AWS services from the command line and automate them through scripts.
@@ -259,6 +264,7 @@ and [Part 2](https://www.linux.com/blog/introduction-aws-command-line-tool-part-
 * [15 Essential Amazon AWS EC2 CLI Command Examples](http://www.thegeekstuff.com/2016/04/aws-ec2-cli-examples/)
 
 ## Step 4: Identity and Access Management (IAM)
+
 When you first set up your AWS account,
 you are the root user and were given access keys
 (an access key ID and secret access key) to make programmatic requests to AWS.
@@ -272,13 +278,14 @@ and don't give your credentials to anyone else.
 Instead, create individual users for anyone who needs access to your AWS account.
 
 # Working with the AWS IoT Button
+
 AWS IoT Buttons are available for purchase on [Amazon.com][06].
 
 configure the button
 
 * Press and hold the button for five seconds until the LED starts flashing blue.
 * Use your phone or computer to connect to the Button ConfigureMe - XXXX WiFi network. Use the last 8 digits of the serial number of your device as the WPA2-PSK password.
-* In a browser, navigate to http://192.168.0.1/index.html.
+* In a browser, navigate to <http://192.168.0.1/index.html>.
 * Select the network (SSID) you want the button to connect to and enter its password.
 
 The button will work wherever there is WiFi (2.4 Ghz).
@@ -314,6 +321,7 @@ There is a multi-color LED on the AWS IoT Button to provide status:
 
 
 # Simple AWS IoT Application
+
 In essence, [AWS IoT provides cloud services for connected devices][28].
 It provides a secure, bi-directional communication
 between Internet-connected things (such as sensors, actuators, embedded devices, or smart appliances)
@@ -324,13 +332,16 @@ and the AWS cloud to collect data from multiple devices and store / analyze the 
 * [Network Monitoring with AWS IoT](https://www.hackster.io/phantom-formula-e97912/network-monitoring-with-aws-iot-b8b57c?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
 
 # Hacking a Dash Button and Using it on AWS IoT
+
 * [ARP Probing](https://thepacketgeek.com/scapy-p-07-monitoring-arp/)
 
 # Environmental Monitoring with AWS IoT
+
 * [Smart Environmental Monitoring](https://www.hackster.io/alapisco/smart-environmental-monitoring-2552bb?utm_source=hackster&utm_medium=email&utm_campaign=new_projects)
 * [AWS Lambda@Edge](http://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html)
 
 # Why I stopped hacking the Amazon Dash button and learned to solder
+
 * [Why I stopped hacking the Amazon Dash button and learned to solder](https://news.ycombinator.com/item?id=12199058)
 * [In case you decide to go with a Dash button anyways, I made it easier](https://github.com/ipartola/amadash)
 * [Using an Amazon Dash Button for Emergency Notifications](https://east.fm/posts/using-an-amazon-dash-button-for-emergency-notifications/index.html)
@@ -338,15 +349,18 @@ and the AWS cloud to collect data from multiple devices and store / analyze the 
 
 
 # Create a Device in the Thing Registry
-AWS IoT Button Quickstart- http://docs.aws.amazon.com/iot/latest/developerguide/iot-button-lambda.html
+
+AWS IoT Button Quickstart- <http://docs.aws.amazon.com/iot/latest/developerguide/iot-button-lambda.html>
 
 # AWS IoT Device SDK
+
 The [AWS IoT Device SDK](https://aws.amazon.com/iot/sdk/)
 (C, JavaScript, and Arduino Yún) runs on the device.
 The [AWS SDKs](https://aws.amazon.com/tools/) give you access to AWS from your web or mobile app.
 [Sample Code & Libraries](https://aws.amazon.com/code/)
 
 # Understanding the AWS IoT Security Model
+
 [Understanding the AWS IoT Security Model](https://aws.amazon.com/blogs/iot/understanding-the-aws-iot-security-model/)
 
 # Create and Activate a Device Certificate
@@ -364,12 +378,14 @@ The [AWS SDKs](https://aws.amazon.com/tools/) give you access to AWS from your w
 # Configure and Test Rules
 
 # AWS Greengrass
-* https://medium.com/iotforall/aws-greengrass-announcement-ca75ce1f7940
+
+* <https://medium.com/iotforall/aws-greengrass-announcement-ca75ce1f7940>
 * [How to think about AWS Greengrass and the internet of things](https://staceyoniot.com/how-to-think-about-aws-greengrass-and-the-internet-of-things/)
 * [Here's what your hardware needs for the AWS Greengrass IoT service](http://www.networkworld.com/article/3146248/cloud-computing/heres-what-your-hardware-needs-for-the-aws-greengrass-iot-service.html)
 
 # IoT for Non-IP Devices
-* https://aws.amazon.com/blogs/iot/iot-for-non-ip-devices-2/
+
+* <https://aws.amazon.com/blogs/iot/iot-for-non-ip-devices-2/>
 
 
 

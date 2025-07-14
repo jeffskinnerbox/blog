@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # PyTorch
+
 * [PyTorch VS TensorFlow In 2022](https://medium.com/mlearning-ai/pytorch-vs-tensorflow-in-2022-9a7106b1f606)
 * [Python Deep Learning: PyTorch vs Tensorflow](https://realpython.com/courses/deep-learning-pytorch-tensorflow/)
 * [PyTorch vs TensorFlow for Your Python Deep Learning Project](https://realpython.com/pytorch-vs-tensorflow/)
@@ -24,8 +25,9 @@ Version:      0.0.0
 
 
 # TensorFlow
+
 * [TensorFlow for Poets](https://petewarden.com/2016/02/28/tensorflow-for-poets/)
-    * https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0
+  * <https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0>
 * [Train your own image classifier with Inception in TensorFlow](https://research.googleblog.com/2016/03/train-your-own-image-classifier-with.html)
 * [TensorFlow on Mobile: Tutorial](https://towardsdatascience.com/tensorflow-on-mobile-tutorial-1-744703297267)
 
@@ -37,7 +39,7 @@ Version:      0.0.0
 
 * [FloydHub is Heroku for Deep Learning](https://www.floydhub.com/)
 
-* [ Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
+* [Artificial Intelligence Radio - Transceiver (AIR-T)](https://www.crowdsupply.com/deepwave-digital/air-t)
 * [Deepwave Digital: Making Sense of Signals](http://on-demand.gputechconf.com/gtc/2018/video/S8375/)
 
 * [Installing Keras with TensorFlow backend](https://www.pyimagesearch.com/2016/11/14/installing-keras-with-tensorflow-backend/)
@@ -49,9 +51,11 @@ Version:      0.0.0
 Check this out - [Building a Digits Dev Machine on Ubuntu 16.04](https://blog.kickview.com/building-a-digits-dev-machine-on-ubuntu-16-04/)
 
 # TensorFlow
+
 * [TesnorFlow 2.0](https://hackernoon.com/tensorflow-is-dead-long-live-tensorflow-49d3e975cf04)
 
 # Tensorflow Lite
+
 * [Official TensorFlow Lite Micro Support Comes to the ESP32](https://www.hackster.io/news/official-tensorflow-lite-micro-support-comes-to-the-esp32-9708fb6a760f)
 * [Announcing TensorFlow Lite Micro support on the ESP32](https://blog.tensorflow.org/2020/08/announcing-tensorflow-lite-micro-esp32.html)
 
@@ -62,6 +66,7 @@ Check this out - [Building a Digits Dev Machine on Ubuntu 16.04](https://blog.ki
 * [Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/)
 
 # uTensor, PlaidML, and Edge Computing
+
 * [Why the Future of Machine Learning is Tiny](https://petewarden.com/2018/06/11/why-the-future-of-machine-learning-is-tiny/)
 * [Why Machine Learning on The Edge?](https://towardsdatascience.com/why-machine-learning-on-the-edge-92fac32105e6)
 
@@ -74,20 +79,22 @@ Check this out - [Building a Digits Dev Machine on Ubuntu 16.04](https://blog.ki
 * [Tensor Compilers: Comparing PlaidML, Tensor Comprehensions, and TVM](https://hk.saowen.com/a/f043773450ca86e46acf0ba6e6e38da45e575ddd362bbc4bc49e06eef06bdd90)
 
 # TensorBoard
+
 [TensorBoard][01] helps you visualizing what is going on within TensorFlow
 by make it easier to understand, debug, and optimize TensorFlow programs.
 
 ################################################################################
 Does the below install TensorFlow and TesorBoard?
 
-* https://www.tensorflow.org/install/
-* https://github.com/tensorflow
-* https://github.com/tensorflow/tensorboard
+* <https://www.tensorflow.org/install/>
+* <https://github.com/tensorflow>
+* <https://github.com/tensorflow/tensorboard>
 * [Tensorboard Explained in 5 Min](https://www.youtube.com/watch?v=3bownM3L5zM&feature=youtu.be)
 ################################################################################
 
 # Installing TensorFlow on Ubuntu, Raspberry Pi, and the Nvidia Jetson TX1
-* http://tflearn.org/
+
+* <http://tflearn.org/>
 * [Installing Tflearn on Raspberry Pi 3](http://www.instructables.com/id/Installing-Tflearn-on-Raspberry-Pi-3/)
 * [Five Steps to TensorFlow on the Raspberry Pi](https://hackaday.com/2018/05/18/five-steps-to-tensorflow-on-the-raspberry-pi/)
 
@@ -96,6 +103,7 @@ Does the below install TensorFlow and TesorBoard?
 
 
 ## Install TensorFlow on Ubuntu
+
 * [How to install TensorFlow 2.0 on Ubuntu](https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-ubuntu/)
 * [Install Tensorflow 1.13 on Ubuntu 18.04 with GPU support](https://medium.com/better-programming/install-tensorflow-1-13-on-ubuntu-18-04-with-gpu-support-239b36d29070)
 * [Ubuntu 18.04: Install TensorFlow and Keras for Deep Learning](https://www.pyimagesearch.com/2019/01/30/ubuntu-18-04-install-tensorflow-and-keras-for-deep-learning/)
@@ -137,6 +145,7 @@ but all new features and implementations will be inside `tf.keras`.
 
 
 ## Install TensorFlow on Raspberry Pi
+
 * [Raspberry Pi now officially supports Google's TensorFlow software](https://www.theinquirer.net/inquirer/news/3037047/tensorflow-is-now-officially-supported-by-the-raspberry-pi)
 
 I choose to do the install from the Python repository,
@@ -191,21 +200,25 @@ tensorflow-tensorboard 0.1.8
 
 
 ## Install TensorFlow on Nvidia Jetson TX1
+
 * [Setup a Python Environment for Machine Learning and Deep Learning](https://towardsdatascience.com/setup-an-environment-for-machine-learning-and-deep-learning-with-anaconda-in-windows-5d7134a3db10)
 * [Install TensorFlow on NVIDIA Jetson TX1 Development Kit](http://www.jetsonhacks.com/2016/12/30/install-tensorflow-on-nvidia-jetson-tx1-development-kit/)
 * [Install TensorFlow for Python – NVIDIA Jetson TX Dev Kits](http://www.jetsonhacks.com/2017/09/22/install-tensorflow-python-nvidia-jetson-tx-dev-kits/)
 * [How to Install GPU Tensorflow from Sources – Ubuntu 14.04](https://alliseesolutions.wordpress.com/2016/07/05/how-to-install-gpu-tensorflow-0-9-from-sources-ubuntu-14-04/)
 
 ## Install OpenAI Gym
+
 * [OpenAI Gym - toolkit for developing and comparing reinforcement learning algorithms](https://gym.openai.com/)
 
 ## Open Vision Computer (OVC)
+
 * [Open Source Robotics Foundation's robot stereo camera system](https://github.com/osrf/ovc)
 * [Etron Stereo Camera - EX8029](https://www.sparkfun.com/products/14726)
 * [Open Robotics](https://www.openrobotics.org/)
-* https://docs.google.com/presentation/d/1NCimNJTRP6g3ESWhmaqi4t3dOprq7Yvne_JLeCTt3io/edit#slide=id.p
+* <https://docs.google.com/presentation/d/1NCimNJTRP6g3ESWhmaqi4t3dOprq7Yvne_JLeCTt3io/edit#slide=id.p>
 
 # Let's Robot
+
 Still in the early stages of development,
 Let's Robot is a live-streaming telepresence platform for controlling robots
 and other devices through the internet.
@@ -214,6 +227,7 @@ and other devices through the internet.
 * [Open Robot Control Code For Connecting to LetsRobot.tv](https://github.com/runmyrobot/runmyrobot)
 
 # NVIDIA Jetson Projects
+
 * [Tracking Ants And Zapping Them With Lasers](https://hackaday.com/2019/10/05/tracking-ants-and-zapping-them-with-lasers/)
 
 
@@ -221,6 +235,7 @@ and other devices through the internet.
 
 
 ## Install TensorFlow on MacOS
+
 * [How to install TensorFlow 2.0 on macOS](https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-macos/)
 
 
@@ -246,7 +261,6 @@ and other devices through the internet.
 [19]:
 [20]:https://www.tensorflow.org/
 [21]:https://www.tensorflow.org/install/install_linux
-[22]:https://www.tensorflow.org/install/install_linux#InstallingNativePip
 [23]:
 [24]:
 [25]:
@@ -257,7 +271,6 @@ and other devices through the internet.
 [30]:https://gradle.org/
 [31]:https://maven.apache.org/what-is-maven.html
 [32]:https://www.gnu.org/software/make/
-[33]:http://opencv.org
 [34]:
 [35]:https://www.tensorflow.org/install/install_sources
 [36]:

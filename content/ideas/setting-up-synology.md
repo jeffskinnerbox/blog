@@ -13,6 +13,7 @@ Version:      0.0.0
 -----
 
 # My Synology NAS
+
 Sign in to DSM and go to Control Panel > Info Center > General to check DSM version
 
 * Model Name: DS220+
@@ -33,6 +34,7 @@ Sign in to DSM and go to Control Panel > Info Center > General to check DSM vers
 
 
 # Proxmox Backup Server on Synology
+
 * [Setting Up a Proxmox Backup Server](https://www.youtube.com/watch?v=n_JZ2aXMMmI)
 * [How to Backup Proxmox to a Synology NAS](https://www.wundertech.net/how-to-backup-proxmox-to-a-synology-nas/)
 * [ProxMox - Migration, Backup, and Restoration Tutorial](https://www.youtube.com/watch?v=BkVi2vRB75Q)
@@ -44,6 +46,7 @@ Sign in to DSM and go to Control Panel > Info Center > General to check DSM vers
 
 
 # Backup Strategy
+
 I need to implement the [3-2-1 backup rule][18]:
 you should have 3 copies of your data,
 you should be using at least 2 different medias,
@@ -60,6 +63,7 @@ and 1 copy should be offsite.
 
 
 # Synology Cloud Sync
+
 Cloud Sync enables you to connect your local Synology NAS to public cloud services or on-premise storage through Amazon S3 API, OpenStack Swift, or WebDAV protocols.
 Connect your Synology NAS to public cloud services, such as BackBlaze B2, Dropbox, Google Cloud Storage, Microsoft Azure, OpenStack Swift, and more.
 
@@ -72,6 +76,7 @@ Connect your Synology NAS to public cloud services, such as BackBlaze B2, Dropbo
 
 
 # Syncthing (File Synchronization)
+
 [Syncthing][10] is a continuous file synchronization program.
 It synchronizes files between two or more computers in real time
 Syncthing replaces proprietary sync and cloud services with something
@@ -100,12 +105,14 @@ and how it’s transmitted over the Internet.
 
 
 # How to Clone Your Linux Hard Drive
+
 By cloning your Linux hard disk drive,
 you create an exact disk image that can be restored later.
 But how do you clone your Linux hard drive?
 The webpage ["How to Clone Your Linux Hard Drive: 4 Methods"][38] can provide some insights.
 
 # Clonezilla (Disk Cloning)
+
 [Clonezilla][12] is a partition and disk imaging/cloning program
 similar to [Acronis True Image][13] or [Norton Ghost][14].
 It can be used to do system deployment or a bare metal backup / recovery.
@@ -161,9 +168,11 @@ I'll also need to know my NAS IP address, a user with access rights, and that us
 * [How to back up hard drives for disaster recovery with Clonezilla]( https://www.xmodulo.com/how-to-back-up-hard-drives-for-disaster-recovery-with-clonezilla.html)
 
 ## Boot to Clonezilla via USB Drive
+
 * [Bare metal backup and restore with Clonezilla](https://www.technorabilia.com/bare-metal-backup-and-restore-with-clonezilla/)
 
 #### Step 1: Enable SFTP in Synology - DONE
+
 You need to make sure that SFTP is enabled on Synology.
 Within the Synology DMS, goto
 **Control Planel** >  **File Services** > **FTP** tab > **SFTP** section.
@@ -175,6 +184,7 @@ Make sure to hit the **Apply** button at the bottom of the screen.
 >See "[I can SSH into a remote host but get "Connection reset by peer" with SSHFS, what do I miss?][06]".
 
 #### Step 2: Download Ventoy (Optional) - DONE
+
 [Ventoy][07] is an open source multiboot USB drive supporting ISO/WIM/IMG/VHD(x)/EFI files.
 With Ventoy, you don’t need to format the USB drive for each new installation,
 you just need to copy the ISO file to the USB drive, boot it,
@@ -215,6 +225,7 @@ you get a menu of the images you can boot & install.
 * [Ventoy: How to Create a Multiboot USB Drive with Multiple ISO Files](https://linuxiac.com/ventoy-create-bootable-usb/)
 
 #### Step 3: Download Clonezilla Live to Flash Drive - DONE
+
 [Download the Clonezilla Live][05] ISO image and place it on your USB flash drive.
 In my case, I copied the ISO into the Ventoy USB drive I created earlier.
 
@@ -224,6 +235,7 @@ In my case, I copied the ISO into the Ventoy USB drive I created earlier.
 > Only then could I assure the USB would boot.
 
 #### Step 4: Boot Target System Using Flash Drive - DONE
+
 Now put the flash drive into the target machine and boot the system.
 The system will first boot into Ventoy where you will be given a list of images.
 Select the Clonezilla ISO, Clonezilla will be loaded, and then executed.
@@ -260,6 +272,7 @@ My answer to those questions are as follow:
 #### Step 5: Restoration
 
 ## Boot Directly into Clonezilla
+
 You don't have to boot into Clonezilla from a USB drive.
 You can boot into it from within your running running Linux system.
 
@@ -273,14 +286,17 @@ There are two config files in the syslinux directory in Clonezilla live. If boot
 Syslinux is a boot loader for the Linux operating system which operates off an MS- DOS/Windows FAT filesystem. It is intended to simplify first-time installation of Linux, and for creation of rescue and other special-purpose boot disks.
 
 Check out
-* http://www.diskimagingreview.com/clonezilla/
+
+* <http://www.diskimagingreview.com/clonezilla/>
 
 Sources:
+
 * [How to install and use Clonezilla on Ubuntu 20.04](https://nextgentips.com/2021/12/06/how-to-install-and-use-clonezilla-on-ubuntu-20-04/)
 * [How to Use Clonezilla Live to Back Up Your Hard Drive](https://www.linuxhowto.net/how-to-use-clonezilla-live-to-back-up-your-hard-drive/)
 * [How to save a Clonezilla full disk image to a server/NAS over SSH](https://danielrosehill.medium.com/how-to-save-a-clonezilla-full-disk-image-to-an-nas-over-ssh-771beb37f08b)
 
 #### Step X: Install Clonezilla
+
 Update your package repositories in order to get the latest package information,
 and then do the Clonezilla install:
 
@@ -292,7 +308,8 @@ sudo apt update && sudo apt -y upgrade
 sudo apt -y install clonezilla
 ```
 
-#### Step X:
+#### Step X
+
 You can launch Clonezilla from terminal by running clonezilla command:
 `sudo clonezilla`.
 Once launched, it will ask to select from
@@ -300,6 +317,7 @@ same screen menus you navigated when booting into Clonezilla via a USB drive
 (documented above).
 
 ## Automated Clonezilla Backup/Restore
+
 * [Preseed options to do job after booting](https://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/05_Preseed_options_to_do_job_after_booting)
 
 So far, all of the above are manual ISO backups using Clonezilla.
@@ -317,6 +335,7 @@ You can automate Clonezilla backup with the following:
 * Using crontab, schedule you backups.
 
 #### Step X: Install Clonezilla ISO
+
 Create a directory on the root of your drive called `isos`
 and copy Clonezilla there from its [download site][37]
 (in my case this was stable-3.0.0-26).
@@ -330,6 +349,7 @@ wget https://osdn.net/frs/redir.php?m=rwthaachen&f=clonezilla%2F77349%2Fclonezil
 ```
 
 Sources
+
 * [Preseed options to do job after booting](https://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/05_Preseed_options_to_do_job_after_booting)
 * [Create Automated Backup with Clonezilla or Easier Alternative](https://www.ubackup.com/backup-restore/clonezilla-automated-backup-1021.html)
 * [AUTOMATED CLONEZILLA BACKUP/RESTORE](https://whatthefdidido.wordpress.com/2016/05/04/automated-clonezilla-backuprestore/)
@@ -344,11 +364,13 @@ Sources
 * [Synology NAS Setup & Configuration Guide!](https://www.wundertech.net/synology-nas-initial-setup-ultimate-guide/)
 
 # Duplicati
+
 Duplicati is a backup client that securely stores encrypted, incremental, compressed remote backups of local files on cloud storage services and remote file servers. Duplicati supports not only various online backup services like OneDrive, Amazon S3, Backblaze, Rackspace Cloud Files, Tahoe LAFS, and Google Drive, but also any servers that support SSH/SFTP, WebDAV, or FTP.
 With Duplicati, you have backup software that not only can backup to a network drive,
 but you can do this with mapping a network drive via WebDAV.
 
 ## WebDAV
+
 Web Distributed Authoring and Versioning (WebDAV) is an extension of the Hypertext Transfer Protocol(HTTP)
 that allows clients to perform remote Web content authoring operations.
 For users who need to publish a lot of content,
@@ -365,6 +387,7 @@ WebDav reduces the dependency on CMS systems and makes uploading/downloading eas
 * [Different ways to make a Duplicati backup](https://blog.files.fm/different-ways-to-make-a-duplicati-backup/)
 
 #### Step X: Enable WebDAV on your Synology - DONE
+
 We'll first setup WebDAV on the Synology.
 
 * Go to **Package Center** search for "Web" and to install **WebDAV Server**.
@@ -378,6 +401,7 @@ Now lets establish a user for the WebDAV feature:
 * Select the **Applications** tab and give the user access to WebDAV by ticking **Allow** and the hit **Save**.
 
 #### Step X: Create Synology Folder for Backup - DONE
+
 Now we need to create the folder where the backups will be stored.
 I'm going to create a root folder for Duplicati
 and subfolders for the computers that will be using Duplicati for backups.
@@ -390,6 +414,7 @@ Here you give user "jeff" **Read/Write** access and hit **Apply**.
 for the computer the backup will be coming from.
 
 #### Step X: Configure Duplicati
+
 Assuming you have Duplicati installed on your source computer,
 now we'll configure Duplicati to stream its backup to the Synology WebDAV agent.
 
@@ -405,6 +430,7 @@ After that, hit **Test connection**.
 Run the backup manually until your confident that you have the setup right.
 
 Sources:
+
 * [How to Enable WebDav Service On Synology NAS?](https://www.multcloud.com/help/enable-webdav-service-on-synology-nas.html)
 * [How do I access files on Synology NAS with WebDAV?](https://kb.synology.com/en-me/DSM/tutorial/How_to_access_files_on_Synology_NAS_with_WebDAV)
 
@@ -414,11 +440,13 @@ Sources:
 
 
 ## Linux Distro
+
 * [Best Linux Distro for Server, my favorite ones](https://www.youtube.com/watch?v=E6Jyj6whge4)
 
 
 
 # Network Attached Storage (NAS) Related Stuff
+
 * [How to build your own Raspberry Pi NAS](https://www.techradar.com/how-to/computing/how-to-build-your-own-raspberry-pi-nas-1315968)
 * [Create a hardened Raspberry Pi NAS](https://blog.alexellis.io/hardened-raspberry-pi-nas/)
 * [OpenMediaVault](https://www.openmediavault.org/)
@@ -436,12 +464,14 @@ Sources:
 # Network Attached Storage (NAS)
 
 ## NAS vs SAN
+
 Network Attached Storage (NAS)
 Storage Area Network (SAN)
 
 * [NAS vs SAN - Network Attached Storage vs Storage Area Network](https://www.youtube.com/watch?v=3yZDDr0JKVc)
 
 ## Build or Buy?
+
 * [Should you build your own NAS or buy one? Unraid vs. TrueNAS vs. Synology](https://9to5toys.com/2021/06/04/unraid-vs-synology-vs-truenas/)
 * [Synology vs TrueNAS - What NAS is right for you?](https://www.youtube.com/watch?v=O0FIBbMYoM0)
 * [What Synology Should You Buy? | Everything You Need To Know!](https://www.youtube.com/watch?v=-RbAiqWf-mQ)
@@ -451,6 +481,7 @@ Storage Area Network (SAN)
 * [Synology](https://www.synology.com/en-us)
 
 ## Synology DiskStation DS220+ vs. DS220j
+
 Synology has a wide variety of options for a home or small office NAS.
 Synology has a highly respected web-based operating system, DiskStation Manager.
 In the 2-bay category, [DiskStation DS220+][01] is the most powerful option available,
@@ -461,6 +492,7 @@ better ability to support applications.
 Also, its appears to me that the DS220j is reaching its end-of-life and will be replace with the DS220+.
 
 Sources:
+
 * [Synology DS220+ vs DS220j NAS Comparison](https://www.youtube.com/watch?v=-5a58pxXqMQ)
 * [Synology DiskStation DS220+ vs. DS220j: Which should you buy?](https://www.androidcentral.com/synology-diskstation-ds220-plus-vs-diskstation-ds220j)
 * [Synology DiskStation DS220+ vs. DS220j: Which NAS is better?](https://www.windowscentral.com/synology-diskstation-ds220-vs-ds220j)
@@ -468,10 +500,12 @@ Sources:
 * [Spec Comparison](https://www.synology.com/en-us/products/compare/DS218play/DS220+/DS220j/DS720+)
 
 # Security Firewall and VPN Router
+
 * $190 - [Synology 2 bay NAS DiskStation DS220j](https://www.amazon.com/dp/B0855LMP81)
 * $300 - [Synology 2 Bay NAS DiskStation DS220+](https://www.amazon.com/Synology-Bay-DiskStation-DS220-Diskless/dp/B087ZCBWFH)
 
 ## Nextcloud vs Synology vs FreedomBox
+
 All of them provide self-hosting your own cloud.
 You can host Nextcloud on Synology, but you can't host Synology on Nextcloud.
 
@@ -502,7 +536,9 @@ Only in that both provide different ways of storing files and provide access to 
 * [How to Self-host the Password Manager Bitwarden on a Synology NAS!](https://www.wundertech.net/how-to-self-host-the-password-manager-bitwarden-on-a-synology-nas/)
 
 # Synology NAS Encryption
+
 Synology encryption is bad??
+
 * [Synology NAS Encryption: Forensic Analysis of Synology NAS Devices](https://blog.elcomsoft.com/2019/11/synology-nas-encryption-forensic-analysis-of-synology-nas-devices/)
 
 
@@ -515,6 +551,7 @@ Synology encryption is bad??
 # Selecting Disk Drives
 
 ## CMR vs SMR Hard Drives
+
 When it comes to hard drives, its more than access speed and cost.
 Another thing to consider is Shingled Magnetic Recording (SMR) or Conventional Magnetic Recording (CMR).
 Because the different recording methods behave differently,
@@ -526,6 +563,7 @@ or particularly large amounts of data.
 This includes a large number of activities from music streaming and image processing to use for NAS servers.
 
 Sources:
+
 * [CMR vs SMR Hard Drives in Network Attached Storage (NAS)](https://www.buffalotech.com/blog/cmr-vs-smr-hard-drives-in-network-attached-storage-nas)
 * [SMR? CMR? Which Hard Drive is best for which purpose?](https://www.reichelt.com/magazin/en/smr-cmr-which-hard-drive-is-best-for-which-purpose/)
 * [WD Red SMR vs CMR Tested Avoid Red SMR](https://www.servethehome.com/wd-red-smr-vs-cmr-tested-avoid-red-smr/)
@@ -538,11 +576,13 @@ Sources:
 
 
 # Selection
+
 * [Synology DiskStation DS220+][01]
 
 ## DSM7
 
 ## Btrfs
+
  Btrfs, short for "B-Tree File System" (and frequently pronounced "butter" or "butter eff ess") is a computer storage format that combines a file system based on the copy-on-write (COW) principle with a logical volume manager (not to be confused with Linux's LVM), developed together.
 
 Synology has implemented Btrfs on its NAS solutions.
@@ -553,24 +593,30 @@ high frequency data snapshots, self-service data recovery, etc.
 * [Examining btrfs, Linux’s perpetually half-finished filesystem](https://arstechnica.com/gadgets/2021/09/examining-btrfs-linuxs-perpetually-half-finished-filesystem/)
 
 ## Raspberry Pi Backup to Synology
+
 * [How do I back up a Linux device to my Synology NAS?](https://kb.synology.com/en-my/DSM/tutorial/How_to_back_up_Linux_computer_to_Synology_NAS)
 * [Automatic backups for Raspberry Pis to a Synology NFS share](https://florianmuller.com/automatic-backups-for-raspberry-pis-to-a-synology-nfs-share)
 
 ## Apps to Install on Synology NAS
+
 * [How to Install Netdata on Your Synology NAS](https://mariushosting.com/how-to-install-netdata-on-your-synology-nas/)
 
 ## Synology Surveillance Station
+
 * [Synology Surveillance Station in 2021: (Still) the Best DIY Security Cam System](https://dongknows.com/synology-surveillance-station-review/)
 
 ## Synology NAS Security
+
 * [How to Secure your Synology NAS](https://www.youtube.com/watch?v=qCULKjaLf08)
 * [PROTECT YOUR FILES - How to Protect your Synology NAS from Ransomware / Crypto ATTACK](https://www.youtube.com/watch?v=uausl6HeFjg)
 * [Ransomware Protection — Synology Webinar](https://www.youtube.com/watch?v=DUwUnyr9Om8)
 
 # NAS Drives
+
 * [Seagate IronWolf HDD Review - Happy Drives, Happy Life](https://www.youtube.com/watch?v=uKQhTgsYsM4)
 
 # NAS Backup
+
 * [Hyper Backup](https://www.synology.com/en-us/dsm/feature/hyper_backup)
 * [YOU NEED TO BACKUP YOUR NAS - Backing up a Synology NAS for home users](https://www.youtube.com/watch?v=ETUwV4dS7Z8)
 * [Backblaze](https://www.backblaze.com/cloud-backup.html)
@@ -578,17 +624,20 @@ high frequency data snapshots, self-service data recovery, etc.
 * [Backup Your Synology NAS to the BackBlaze Cloud with HyperBackup!](https://www.youtube.com/watch?v=apOX1rBu_Fg)
 
 # Synology NAS Wake On LAN
+
 Wake-on-LAN (WOL) is an Ethernet standard that allows a machine to be turned on by a network message. The idea is to send from a server of your network (for example, a Raspberry Pi) a magic message to the Synology NAS in order to wake it up.
 
 * [How to Wake up a Synology NAS from an Ubuntu server](https://oastic.com/posts/how-to-wake-up-a-synology-nas-from-an-ubuntu-server/)
 * [How To Turn On PC Remotely](https://www.technewstoday.com/turn-on-pc-remotely/)
 
 # Synology Photos
+
 * [I Switched To Synology Photos](https://www.youtube.com/watch?v=J9QuS_ePxAQ)
 * [How to Setup the New Synology DSM7 Photos & Can it Replace Google Photos?](https://www.youtube.com/watch?v=5rQnQOJ3hLs)
 * [How to setup Synology DSM7 photos for Sharing with Family](https://www.youtube.com/watch?v=o4ivCKrh_ik)
 
 # VPN Server
+
 * [Create VPN Server on Synology NAS](https://www.youtube.com/watch?v=1aaqqw3eQac)
 
 # SMB
@@ -600,6 +649,7 @@ Wake-on-LAN (WOL) is an Ethernet standard that allows a machine to be turned on 
 
 
 # DiskStation Manager (DSM) 7.0
+
 * [DiskStation Manager (DSM) 7.0](https://www.synology.com/en-us/DSM70)
 
 ```bash
@@ -610,6 +660,7 @@ google-chrome https://192.168.1.201:5001
 ```
 
 # Setup of Synology NAS
+
 * [How to Setup a Synology NAS for the first time in DSM 7 (Complete Guide for 2021+)][20]
 
 * [Synology NAS Setup Guide 2022 #1 - DSM 7, RAID, VOLUMES, SHARES, MAPPED DRIVES](https://youtu.be/pRRcGoXhLLQ)
@@ -627,10 +678,12 @@ google-chrome https://192.168.1.201:5001
 * [Top 8 Synology Features for Home Users (DSM7)](https://www.youtube.com/watch?v=apE6eyQzHdg)
 
 ## Setup of Synology NAS: Foundational
+
 This covers setting up a Synology NAS for the very first time
 [Synology's Diskstation Manager (DSM) Verizon 7](https://www.synology.com/en-us/DSM70).
 
-#### Step 0: Power On/Off, Restart, etc.
+#### Step 0: Power On/Off, Restart, etc
+
 Here are two ways you can restart and shutdown your Synology NAS:
 
 1. From the web user interface (`http://192.168.1.201:5000`), click the "Options" icon at the top right.
@@ -642,6 +695,7 @@ To start the NAS up again, simply press the power button once again.
 * [How To Restart or Shutdown Your Synology NAS](https://www.youtube.com/watch?v=ICs8xnCMUM0)
 
 #### Step 1: Assemble, Power-Up, and Initial DSM Install - DONE
+
 I just followed the instruction that came in the box
 ([Hardware Installation Guide][39],
 [Synology DS220+ NAS Setup: Synology Admin, Quick Connect and Creating Volume][40]) for the DS220+.
@@ -672,6 +726,7 @@ Your going to need it for some of the latter steps to follow.
 >This process took about 8 hours for my 8 terabyte drives.
 
 #### Step 2: Assign a Static IP Address to the NAS - DONE
+
 The quick and easy way to get the NAS up and working is to allow the IP address to be assigned via DHCP
 To deal with the changing IP address that could occur with DHCP,
 Synology DMS software does have a [DDNS (Dynamic Domain Name System) feature][22].
@@ -690,6 +745,7 @@ I used the procedure outline in sources below to update the NAS IP address.
 * [Synology: How to Assign Static IP to Your NAS](https://mariushosting.com/synology-how-to-assign-static-ip-to-your-nas/)
 
 #### Step 3: Eanble SSH Access to NAS - DONE
+
 The Synology NAS will allow Telnet and SSH access if the login is within the administrators group.
 Enable SSH terminal via **Control Panel** > **Terminal & SNMP** > **Eanble SSH service**.
 
@@ -697,6 +753,7 @@ Test it our via `ssh admin-jeff@192.168.1.201`
 and use the password for `admin-jeff` entered during the NAS setup.
 
 #### Step X: Enabling SMB to Access NAS Files
+
 Linux (UNIX) machines can also browse and mount SMB shares. Note that this can be done whether the server is a Windows machine or a Samba server!
 
 An SMB client program for UNIX machines is included with the Samba distribution. It provides an ftp-like interface on the command line. You can use this utility to transfer files between a Windows 'server' and a Linux client.
@@ -715,6 +772,7 @@ sudo apt install smbclient
 * [Samba/CIFS to Synology NAS not working: no write access after upgrade from 16.04 to 20.04](https://askubuntu.com/questions/1287681/samba-cifs-to-synology-nas-not-working-no-write-access-after-upgrade-from-16-04)
 
 #### Step 4: Enabling NFS to Access NAS Files
+
 So far, the only way I can access files on my NAS is via the Sonology DSM browser.
 I want to use my Linux desktop computer to access they NAS within my home local network.
 I can do this via the [Network File System (NFS)][24] or SMB
@@ -753,8 +811,8 @@ Within the Nautilus file manager,
 create a new bookmark on the left hand menu window for the NAS folder.
 
 **NOTE:** See the following about doing the `mount` within `fstab` -
-https://www.mjwebs.com/blog/configure-nfs-mount-with-synology-nas-on-ubuntu-18-04
-https://maestropandy.wordpress.com/2019/07/17/how-to-set-up-an-nfs-mount-on-ubuntu-16-04/
+<https://www.mjwebs.com/blog/configure-nfs-mount-with-synology-nas-on-ubuntu-18-04>
+<https://maestropandy.wordpress.com/2019/07/17/how-to-set-up-an-nfs-mount-on-ubuntu-16-04/>
 
 
 ----
@@ -762,6 +820,7 @@ https://maestropandy.wordpress.com/2019/07/17/how-to-set-up-an-nfs-mount-on-ubun
 
 
 ## Setup of Synology NAS: Replications & Backups
+
 Data **Backup** involves making a copy or copies of data
 and storing them off-site, with assured safety, in case the original is lost or damaged.
 It done in case of a major outage, it minimizes but doesn't prevent some data loss,
@@ -781,6 +840,7 @@ I'll be use [Active Backup for Business][30] for data replication.
 I'll use [Hyperbackup][33] for data backup.
 
 #### Step X: Backup Synology NAS Configuration - DONE
+
 You can set up the system to automatically save NAS configuration files to your
 [Synology Account][04] (latest backup, no versioning)
 or manually export them to a local computer.
@@ -793,6 +853,7 @@ to establish a regular backup of my NAS / DMS configuration for emergency restor
 >I include here for completeness in this "Replications & Backups" section.
 
 #### Step X: Install Active Backup for Business - DONE
+
 Synology's [Active Backup for Business][30] does replication tasks for physical and virtual computer environments.
 It a new feature in 2021, making [Synology's legacy backup methodologies][31] obsolte.
 I followed the procedures outlined in the articles
@@ -832,6 +893,7 @@ sudo dpkg -r synosnap                                        # to uninstall the 
 ```
 
 #### Step X: Do a Bare-Metal Backup - DONE
+
 I created a task within Active Backup for Business using the type "Entire device".
 I believe this is a [bare metal backup][35] but it appeared to fail
 and completed with the status "Partially complete".
@@ -842,6 +904,7 @@ He states that currently, not all system types are supported.
 So it appears Synology has more work to do on Active Backup for Business!
 
 #### Step X: Do a File Backup
+
 PC and physical server backup tasks only support bare-metal and volume-based backup,
 which does not allow the backup of only a specific file.
 
@@ -853,21 +916,23 @@ For detailed instructions on this process, see the article
 
 `backup_user` needs to have a password
 I created this account via `sudo adduser backup_user --disabled-password -u 400`.
-https://unix.stackexchange.com/questions/597946/how-to-add-password-to-an-account-that-was-created-using-disabled-password
+<https://unix.stackexchange.com/questions/597946/how-to-add-password-to-an-account-that-was-created-using-disabled-password>
 password = ek3N9#4s94*
 
-check this out "Enabling Rsync Accounts" - https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/file_rsync?version=6
+check this out "Enabling Rsync Accounts" - <https://kb.synology.com/en-us/DSM/help/DSM/AdminCenter/file_rsync?version=6>
 
 `backup_user` must have read access to all files to do a complete backup.
 Only root level access can read all files, so [`rsync` needs a passwordless `sudo`](https://askubuntu.com/questions/719439/using-rsync-with-sudo-on-the-destination-machine).
 
 The logic goes like this:
+
 * `rsync` should be run as `root` on the destination machine.
 * You can't login as `root` via SSH, since that's disabled for security purposes.
 * The user on the destination machine must use `sudo`
 but the automation can't respond to the password prompt that is typical with the use of `sudo`.
 
 The resolution:
+
 * Edit the `/etc/sudoers` file via `sudo visudo` ([why visudo?](https://askubuntu.com/questions/625821/must-use-visudo))
 * Then, on the source machine, specify that `sudo rsync` shall be used:
 `rsync ... --rsync-path="sudo rsync" ...`.
@@ -881,13 +946,15 @@ This way, the destination machine `sudo` request will not prompt for a password.
 * [How to Use Rsync to Create a Backup on Ubuntu 20.04](https://serverspace.us/support/help/use-rsync-to-create-a-backup-on-ubuntu/)
 
 #### Step X: Install Hyperbackup
+
 [Synology Hyperbackup][33]
 
 * [The Complete Hyper Backup Guide For Synology NAS (YOU NEED TO BACKUP YOUR NAS)](https://www.youtube.com/watch?v=7Retrqnr9eM)
 
 #### Step X: Schedule Some Snapshot Replication
+
 * [Never Lose Data Again! - Taking Snapshots with Synology DSM](https://www.youtube.com/watch?v=b4z1yH5pq80)
-https://global.download.synology.com/download/Document/Software/WhitePaper/Firmware/DSM/All/enu/Synology_Data_Protection_White_Paper.pdf?_ga=2.168680097.1472444522.1635091279-406340359.1631583788
+<https://global.download.synology.com/download/Document/Software/WhitePaper/Firmware/DSM/All/enu/Synology_Data_Protection_White_Paper.pdf?_ga=2.168680097.1472444522.1635091279-406340359.1631583788>
 
 
 
@@ -896,6 +963,7 @@ https://global.download.synology.com/download/Document/Software/WhitePaper/Firmw
 
 
 # Backup a Linux PC to a Synology NAS Using Rsync
+
 * [How I configured my Synology NAS and Linux to use rsync for backups](https://obsolete29.com/posts/2022/04/30/how-i-configured-my-synology-nas-and-linux-to-use-rsync-for-backups/)
 * [How do I back up data from a Linux device to my Synology NAS via rsync?](https://kb.synology.com/en-global/DSM/tutorial/How_to_back_up_Linux_computer_to_Synology_NAS)
 * [Backup a Linux PC to a Synology NAS using Rsync!](https://www.wundertech.net/how-to-backup-a-linux-pc-to-a-synology-nas-using-rsync/)
@@ -909,6 +977,7 @@ https://global.download.synology.com/download/Document/Software/WhitePaper/Firmw
 
 
 # Synology iPerf3 Speed Test
+
 * [How to Run a Speed Test on a Synology NAS with iPerf3](https://www.wundertech.net/run-a-speed-test-on-a-synology-nas-with-iperf3/)
 
 

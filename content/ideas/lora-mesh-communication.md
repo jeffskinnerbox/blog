@@ -19,13 +19,13 @@ Version:      0.0.0
 
 
 * [Meshtastic Native on the Raspberry Pi](https://www.youtube.com/watch?v=6UwWQSTCr_I)
-    * [SX1262 LoRaWAN Node Module Expansion Board for Raspberry Pi](https://www.waveshare.com/sx1262-lorawan-hat.htm)
+  * [SX1262 LoRaWAN Node Module Expansion Board for Raspberry Pi](https://www.waveshare.com/sx1262-lorawan-hat.htm)
 * [MESHTASTIC JUST KEEPS BLOWING MY MIND!!!](https://www.youtube.com/watch?v=-9PXRBBqfxU)
 * [Getting Started with Meshtastic](https://www.youtube.com/playlist?list=PLshzThxhw4O5JTOACGHzYSSd3soDhoXKK)
 * [DECODING MESHTASTIC WITH GNU RADIO](https://hackaday.com/2024/06/26/decoding-meshtastic-with-gnu-radio/)
 
 * [Cell Phone Replacement?](https://blog.adafruit.com/2024/08/18/cell-phone-replacement/)
-    * [LoRa v32 from Heltec Everything You Need to Know](https://medium.com/@timothydmoody/lora-v32-from-heltec-everything-you-need-to-know-def4d36fdfaf)
+  * [LoRa v32 from Heltec Everything You Need to Know](https://medium.com/@timothydmoody/lora-v32-from-heltec-everything-you-need-to-know-def4d36fdfaf)
 
 
 
@@ -39,6 +39,7 @@ Version:      0.0.0
 
 
 # Reticulum
+
 Reticulum is the cryptography-based networking stack for building local and wide-area networks with readily available hardware. Reticulum can continue to operate even in adverse conditions with very high latency and extremely low bandwidth.
 
 * [RNODE: A Portable Unrestricted Digital Radio](https://hackaday.com/2024/03/18/rnode-a-portable-unrestricted-digital-radio/)
@@ -46,13 +47,14 @@ Reticulum is the cryptography-based networking stack for building local and wide
 
 
 # Meshtastic
+
 [Meshtastic][01] is a project that lets you use inexpensive ($30 ish) GPS radios as an extensible, long battery life, secure, mesh GPS communicator. These radios are great for hiking, skiing, paragliding - essentially any hobby where you don’t have reliable internet access. Each member of your private mesh can always see the location and distance of all other members and any text messages sent to your group chat.
 
 * [Custom Library Rescues Good LoRa Hardware from Bad Firmware](https://hackaday.com/2024/03/13/custom-library-rescues-good-lora-hardware-from-bad-firmware/)
 
 * [How to setup, join and use a Meshtastic network](https://www.geeky-gadgets.com/how-use-meshtastic/)
 * [A New Live Global Meshtastic Node Map - Meshmap.net](https://www.youtube.com/watch?v=5JZrCD4bqmk)
-    * [Meshmap](https://meshmap.net/)
+  * [Meshmap](https://meshmap.net/)
 
 * [#337 LoRa Mesh Communication without Infrastructure: The Meshtastic Project (ESP32, BLE, GPS)](https://www.youtube.com/watch?v=TY6m6fS8bxU)
 * [We build a Global LoRa Mesh Network (MeshCom, Meshtastic)](https://www.youtube.com/watch?v=7OYDr4HPGgo)
@@ -77,14 +79,15 @@ Reticulum is the cryptography-based networking stack for building local and wide
 
 
 # Meshtastic Tracking
+
 setting up an Owntracks service, and then tying it to Meshtastic for off-Internet usability. The backbone that makes this work is MQTT.
 
 * [Meshtastic And Owntracks To Kick Your Google Habit](https://hackaday.com/2023/10/11/meshtastic-and-owntracks-to-kick-your-google-habit/)
-    * [GitHub: jp-bennett/owntracks-meshtastic](https://github.com/jp-bennett/owntracks-meshtastic)
-    * [Meshtastic](https://meshtastic.org/)
-    * [Owntracks](https://owntracks.org/)
-    * [Owntracks Reorder](https://github.com/owntracks/recorder)
-    * [Owntracks Frontend](https://github.com/owntracks/frontend)
+  * [GitHub: jp-bennett/owntracks-meshtastic](https://github.com/jp-bennett/owntracks-meshtastic)
+  * [Meshtastic](https://meshtastic.org/)
+  * [Owntracks](https://owntracks.org/)
+  * [Owntracks Reorder](https://github.com/owntracks/recorder)
+  * [Owntracks Frontend](https://github.com/owntracks/frontend)
 
 
 # Austin Mesh
@@ -104,6 +107,7 @@ setting up an Owntracks service, and then tying it to Meshtastic for off-Interne
 
 
 # LoRaMesher
+
 Designed to make it easy to build a LoRa network with no gateways, LoRaMesher lets nodes route traffic automatically.
 
 * [Joan Miquel Solé's LoRaMesher Builds LoRa Mesh Networks on Espressif ESP32 Microcontrollers](https://www.hackster.io/news/joan-miquel-sole-s-loramesher-builds-lora-mesh-networks-on-espressif-esp32-microcontrollers-b546e249bcd8)
@@ -114,7 +118,7 @@ Designed to make it easy to build a LoRa network with no gateways, LoRaMesher le
 
 * [RadioChat is a Simple LoRa Interface Over WiFi](https://hackaday.com/2023/12/25/radiochat-is-a-simple-lora-interface-over-wifi/)
 * [RadioLib: Universal wireless communication library for embedded devices](https://github.com/jgromes/RadioLib/tree/master)
-    * [RadioLib Documentation](https://jgromes.github.io/RadioLib/)
+  * [RadioLib Documentation](https://jgromes.github.io/RadioLib/)
 
 
 
@@ -122,6 +126,7 @@ Designed to make it easy to build a LoRa network with no gateways, LoRaMesher le
 
 
 # SoftRF
+
 SoftRF is an open-source project that aims to provide collision avoidance solutions for general aviation, mainly for manned and unmanned aircraft. It supports multiple aviation protocols, including ADS-B (Automatic Dependent Surveillance Broadcast), FLARM, OGN (Open Glider Network), and FANET, among others, making it highly compatible in tracking and aircraft approach warning systems.
 
 * [GitHub: lyusupov/SoftRF](https://github.com/lyusupov/SoftRF)

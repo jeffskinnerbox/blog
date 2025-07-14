@@ -24,6 +24,7 @@ including the subtasks of video screen capture, video recording, video editing, 
 # Screen Capture
 
 # Phone Screen Capture
+
 * [Cast your Android device with a Raspberry Pi](https://opensource.com/article/21/3/android-raspberry-pi)
 
 # Video Editing

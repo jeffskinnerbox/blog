@@ -26,6 +26,7 @@ I **do not** want to destroy the array and any data written to it and
 I **do not** want to remove the RAID array (e.g. `sudo mdadm --remove /dev/md0`).
 
 # Background
+
 I quickly fond some good sources on how to replace the bad drive.
 What proved more challenging was:
 
@@ -36,6 +37,7 @@ What proved more challenging was:
 In the subsections, I'll review some important things I learned.
 
 ## SMART (Self-Monitoring, Analysis, and Reporting Technology)
+
 [SMART (Self-Monitoring, Analysis, and Reporting Technology)][01] data on modern hard disk and solid-state drives.
 It allows you to inspect the drive's SMART data to determine its health, as well as run various tests on it.
 `smartctl` is the primary tool for querying and controlling SMART.
@@ -85,6 +87,7 @@ Key sources include:
 * [Diagnose and Replace a Defective Hard Drive (Linux Dedicated Server with Software RAID)](https://www.ionos.com/help/server-cloud-infrastructure/server-administration-dedicated-servers/diagnose-and-replace-a-defective-hard-drive-linux-dedicated-server-with-software-raid/)
 
 ## CMR vs SMR Hard Drives
+
 When it comes to hard drives, its more than access speed and cost.
 Another thing to consider is Shingled Magnetic Recording (SMR) or Conventional Magnetic Recording (CMR).
 Because the different recording methods behave differently,
@@ -96,6 +99,7 @@ or particularly large amounts of data.
 This includes a large number of activities from music streaming and image processing to use for NAS servers.
 
 Sources:
+
 * [CMR vs SMR Hard Drives in Network Attached Storage (NAS)](https://www.buffalotech.com/blog/cmr-vs-smr-hard-drives-in-network-attached-storage-nas)
 * [SMR? CMR? Which Hard Drive is best for which purpose?](https://www.reichelt.com/magazin/en/smr-cmr-which-hard-drive-is-best-for-which-purpose/)
 * [WD Red SMR vs CMR Tested Avoid Red SMR](https://www.servethehome.com/wd-red-smr-vs-cmr-tested-avoid-red-smr/)
@@ -105,6 +109,7 @@ Sources:
 
 
 # Repairing Damage RAID 1
+
 There are many websites that write about RAID 1 repair but very few
 give the level of detail deserving of this critical task.
 The sites that I found most helpful, yet not completely to my satisfaction,
@@ -118,6 +123,7 @@ are listed below.
 * [How to wipe a signature from a disk device on Linux with wipefs command](https://www.cyberciti.biz/faq/howto-use-wipefs-to-wipe-a-signature-from-disk-on-linux/)
 
 ### Step 1: Evaluate the Good Disk Drives
+
 Assess the overall health of of the non-RAID disk drive.
 In my case, there are two:
 One  is `/dev/sda` which happens to be a [SATA][12] [SSD][11]
@@ -151,6 +157,7 @@ sudo smartctl -l selftest /dev/sda
 ```
 
 ### Step 2: Validate There is a Failed Disk
+
 [A hard drive can fail, or perform poorly, for many reasons][05].
 In my case, one of my [RAID 1][06] drives failed completely, or was no longer communicating,
 at least that was what Netdata appeared to be telling me.
@@ -221,6 +228,7 @@ but in my case, there were no "candidate" drives.
 All where accounted for.
 
 ### Step 3: Identify the Failed Disk and Get Its Serial Number
+
 The above report shows that the RAID has an active drive with device file `/dev/sdd1`.
 Let's use `smartctl` to find the identify of this drive:
 
@@ -242,14 +250,15 @@ and the fail disk is the one who serial number **is not** `Z1D3N7RY`.
 Sources:
 
 * Basic Linux Utilities
-    * [how to list all hard disks in linux from command line](6 Different Ways to List Hard Drives in Linux)
-    * [6 Different Ways to List Hard Drives in Linux](https://linuxhandbook.com/linux-list-disks/)
-    * [How do I find out what hard disks are in the system?](https://unix.stackexchange.com/questions/4561/how-do-i-find-out-what-hard-disks-are-in-the-system)
+  * [how to list all hard disks in linux from command line](6 Different Ways to List Hard Drives in Linux)
+  * [6 Different Ways to List Hard Drives in Linux](https://linuxhandbook.com/linux-list-disks/)
+  * [How do I find out what hard disks are in the system?](https://unix.stackexchange.com/questions/4561/how-do-i-find-out-what-hard-disks-are-in-the-system)
 * SMART and mdadm Utilities
-    * [Hard Drive SMART Stats](https://www.backblaze.com/blog/hard-drive-smart-stats/)
-    * [Diagnose and Replace a Defective Hard Drive (Linux Dedicated Server with Software RAID)](https://www.ionos.com/help/server-cloud-infrastructure/server-administration-dedicated-servers/diagnose-and-replace-a-defective-hard-drive-linux-dedicated-server-with-software-raid/)
+  * [Hard Drive SMART Stats](https://www.backblaze.com/blog/hard-drive-smart-stats/)
+  * [Diagnose and Replace a Defective Hard Drive (Linux Dedicated Server with Software RAID)](https://www.ionos.com/help/server-cloud-infrastructure/server-administration-dedicated-servers/diagnose-and-replace-a-defective-hard-drive-linux-dedicated-server-with-software-raid/)
 
 ### Step 4: Do a Backup
+
 Before proceeding with a fix,
 it is always a good idea to backup the original disk.
 In my case, this will be done via:
@@ -272,6 +281,7 @@ Check for the completion of the backup via `ps aux | grep backup.sh`.
 When the backup is complete, move to the next step.
 
 ### Step 5: Remove the Disk From RAID
+
 With the disk completely backed up to another drive,
 do another `sync` and mark your failed/failing drive as failed
 (assuming its operational at all):
@@ -322,6 +332,7 @@ Consistency Policy : resync
 ```
 
 ### Step 6: Replace the Disk
+
 Now power down the computer but don't replace the disk drive yet.
 First try re-seating the SCCI connection
 (the disk drive that does **not** have the serial number `Z1D3N7RY`),
@@ -333,6 +344,7 @@ If the above doesn't work, power down the computer so you can replace the disk
 Physically replace the drive and restart the computer.
 
 ### Step 7: Copy Partition Table to New Disk
+
 First thing you need to do is find the new loaded disk,
 which most likely will not mount (so `df -h` doesn't help you).
 Your looking for something new, so use the disk partitioning tool `fdisk`:
@@ -418,6 +430,7 @@ sudo fdisk -l /dev/sdc /dev/sdb
 ```
 
 ### Step 8: Create New RAID and Verify
+
 Next we add `/dev/sdb` to the `/dev/md0` RAID array.
 
 ```bash
@@ -514,6 +527,7 @@ Consistency Policy : resync
 ```
 
 ### Step 9: Assess General Health of the RAID Drives
+
 I choose to replace failed drive with the exact same brand & model
 as the good drive: 1TB Seagate Barracuda
 
@@ -544,7 +558,6 @@ I should expect it to will fail sometime in the near future.
 [05]:https://www.youtube.com/watch?v=hr57KHDgaFs
 [06]:https://en.wikipedia.org/wiki/Standard_RAID_levels
 [07]:https://www.howtoforge.com/community/threads/raid1-state-clean-degraded.66744/
-[08]:https://www.ducea.com/2009/03/08/mdadm-cheat-sheet/
 [09]:https://www.securedatarecovery.com/blog/choosing-cmr-smr-technology-hard-drives
 [10]:https://raid.wiki.kernel.org/index.php/A_guide_to_mdadm
 [11]:https://en.wikipedia.org/wiki/Solid-state_drive

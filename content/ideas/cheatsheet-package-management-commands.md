@@ -108,6 +108,7 @@ wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key a
 ```
 
 # Purge
+
 When you remove a package (e.g. `sudo apt remove php5.5-cgi`),
 all files added by the package will be deleted except
 for user configuration files that were modified.

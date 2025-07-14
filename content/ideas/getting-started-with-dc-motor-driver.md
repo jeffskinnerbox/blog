@@ -46,6 +46,7 @@ Version:      0.0.0
 
 
 # DC Brushed Motor
+
 ![motor](http://www.robotshop.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/p/o/pololu-30-1-micro-metal-gearmotor-mp.jpg "Micro Metal Gear Motor")
 There are many types of motors.
 They vary in size, strength, speed, precision of movement.
@@ -75,6 +76,7 @@ and higher voltages could start negatively affecting the life of the motor.
 
 
 # Motor Controller
+
 ![controller](https://cdn-shop.adafruit.com/1200x900/3190-01.jpg "Adafruit DRV8871 DC Motor Driver")
 I'm using the [Adafruit DRV8871 DC Motor Driver][01].
 The [Texas Instrument DRV8871 chip][02] is a brushed-DC motor driver for small machines.
@@ -110,6 +112,7 @@ You can PWM the inputs up to 200KHz, but lower frequencies will be more efficien
 
 
 # Testing
+
 Adafrut povides a [simple test program][08] for an Arduino.
 This program just repeatly ramps up the motor speed in one direction,
 ramps down, and then changes direction.
@@ -171,6 +174,7 @@ void loop() {
 
 
 # Servo Motor
+
 A servomotor is a closed-loop servomechanism that allows for
 precise control of angular or linear position, velocity and acceleration.
 It consists of a suitable motor coupled to a sensor for position feedback.
@@ -190,7 +194,7 @@ often a dedicated module designed specifically for use with servomotors.
 # Precision Control of Servo Motor
 
 * [Vastly Improved Servo Control, Now Without Motor Surgery](https://hackaday.com/2024/03/21/vastly-improved-servo-control-now-without-motor-surgery/)
-    * [GitHub: adamb314 / ServoProject](https://github.com/adamb314/ServoProject)
+  * [GitHub: adamb314 / ServoProject](https://github.com/adamb314/ServoProject)
 
 
 ---------------
@@ -208,6 +212,7 @@ often a dedicated module designed specifically for use with servomotors.
 
 
 # Stepper Motor
+
 A stepper motor, also known as step motor or stepping motor,
 is a brushless DC electric motor that divides a full rotation into a number of equal steps.
 The motor's position can then be commanded to move and hold at one of these steps
@@ -223,6 +228,7 @@ as long as the motor is carefully sized to the application in respect to torque 
 
 
 # Switec Motors
+
 The Switec motor is an unassuming bit of plastic and metal that is found behind the dashboards of many American cars and trucks. It’s only a little over an inch in diameter, but it reliably swings tachometer, speedometer, and fuel gauge needles
 <http://hackaday.com/2013/01/19/custom-gauges-with-a-stepper-motor-breakout-board/>
 <https://github.com/clearwater/SwitecX25>

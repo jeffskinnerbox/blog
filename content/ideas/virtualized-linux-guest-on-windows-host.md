@@ -30,6 +30,7 @@ Version:      0.0.0
 
 
 # Important
+
 * [Windows Subsystem for Linux (WSL): what can't I do with the Ubuntu application for Microsoft Windows?](https://askubuntu.com/questions/1051525/windows-subsystem-for-linux-wsl-what-cant-i-do-with-the-ubuntu-application-f)
 
 
@@ -37,10 +38,12 @@ Version:      0.0.0
 
 
 # Install Windows Subsystem for Linux (WSL)
+
 Enabling WSL (Windows Subsystem for Linux) allows you to run an Ubuntu instance on top of Windows OS.
 You will install the necessary development tools into the Ubuntu WSL environment and do your development there.
 
 Sources:
+
 * [How to install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 * [Manual installation steps for older versions of WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
 * [Basic commands for WSL](https://learn.microsoft.com/en-us/windows/wsl/basic-commands)
@@ -48,17 +51,20 @@ Sources:
 * [Install Windows Subsystem for Linux (WSL)](https://www.youtube.com/watch?v=gTf32sX9ci0)
 
 #### Step 1: Check Windows Version
+
 You must be running Windows 10 version 2004 and higher (Build 19041 and higher)
 or Windows 11 to use the commands below.
 If you are on earlier versions please see the [manual install page](https://learn.microsoft.com/en-us/windows/wsl/install-manual).
 
 #### Step 2: Enable WSL Windows Feature
+
 1. Type **features** into the start bar and open the Control panel to **Turn Windows features on or off**.
 2. In the panel, find the checkbox **Windows Subsystem for Linux**.
 Check the box, and click **OK**.
 Wait for it to complete the requested changes and then restart your computer when prompted.
 
 #### Step 3: Install Ubuntu 24.04
+
 Open PowerShell or Windows Command Prompt and enter the commands below:
 
 ```bash
@@ -85,6 +91,7 @@ powershell.exe "wsl --list --verbose"
 ```
 
 #### Step 4: Accessing WSL files from Windows
+
 It is important to recognize that WSL hosts its own file system.
 The files you access within the WSL terminal are separate from your regular Windows file system.
 You can access the WSL files in the Windows File Explorer by changing to a particular directory in the WSL terminal and run the command below:

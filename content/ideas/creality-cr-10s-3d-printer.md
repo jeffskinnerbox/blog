@@ -38,6 +38,7 @@ Version:      0.0.0
 
 
 # Klipper vs Octoprint
+
 * [5 Octoprint alternatives you should be using](https://www.xda-developers.com/octoprint-alternatives-you-should-be-using/)
 
 # Klipper vs Marlin
@@ -50,9 +51,9 @@ Version:      0.0.0
 # Klipper 3D
 
 * [3D Printing: Speed is so Hot Right Now](https://hackaday.com/2024/01/29/3d-printering-speed-is-so-hot-right-now/)
-    * [Marlin Firmware](https://marlinfw.org/)
-    * [Klipper](https://www.klipper3d.org)
-    * [Fluidd](https://docs.fluidd.xyz/)
+  * [Marlin Firmware](https://marlinfw.org/)
+  * [Klipper](https://www.klipper3d.org)
+  * [Fluidd](https://docs.fluidd.xyz/)
 * [How To Install Klipper 3D Printing Firmware On Raspberry Pi](https://www.slashgear.com/1512011/how-to-install-flipper-3d-printing-firmware-raspberry-pi/)
 * [Klipper on Ender 3 V3 SE: How to Install It](https://all3dp.com/2/install-ender-3-v3-se-klipper/)
 * [Review of BIGTREETECH Pad 7 Klipper pad with Creality Ender-3 Pro S1 3D printer](https://www.cnx-software.com/2023/05/29/review-of-bigtreetech-pad-7-klipper-pad-with-creality-ender-3-pro-s1-3d-printer/)
@@ -70,6 +71,7 @@ Version:      0.0.0
 
 
 ## Creality Sonic Pad
+
 A 3D Printing Pad Based On Klipper, compatible with most FDM printers
 
 * [Creality Sonic Pad](https://store.creality.com/products/creality-sonic-pad?official-website-blog)
@@ -78,8 +80,8 @@ A 3D Printing Pad Based On Klipper, compatible with most FDM printers
 * [Which 3D Printer Is Compatible with the Creality Sonic Pad?](https://all3dp.com/2/creality-sonic-pad-compatibility-3d-printer/)
 
 * [Creality Sonic Pad Review - 3D Print Faster & Easier With Klipper](https://www.youtube.com/watch?v=aGXms4tMFwU)
-    * [Sonic Pad Basics](https://www.youtube.com/playlist?list=PLC4bOo0vesmLWWEeBWwv6oR4QzhP-0ctf)
-    * [Sonic Pad Intermediate]()
+  * [Sonic Pad Basics](https://www.youtube.com/playlist?list=PLC4bOo0vesmLWWEeBWwv6oR4QzhP-0ctf)
+  * [Sonic Pad Intermediate]()
 
 Creality Sonic Pad **does not** seem to support their Creality CR-10S printer (my sources:
 [here](https://forum.creality.com/t/very-bad-experience-with-creality-customer-service-cr-10s-non-functional-after-connecting-to-sonic-pad/10678)
@@ -167,6 +169,7 @@ The following reviews helped me make this choose:
 
 
 # 3D vs. 2.5D Printing
+
 3D printers by in large print in a planer fashion,
 that is, printing in a series of 2D planes stacked up to form a 3D shape.
 True 3D printing is a non-planar technique creates geometry with true 3D tool paths
@@ -182,6 +185,7 @@ that can eliminate the steps often seen on shallow surfaces.
 
 
 # Barriers to Entry
+
 One of the biggest reasons there isn’t a 3D printer in every home yet has nothing to do with price or availability.
 It’s the fact that if you want to design and print your own objects,
 you need to know how to use relatively complex 3D modelling software.
@@ -191,6 +195,7 @@ you need to know how to use relatively complex 3D modelling software.
 
 
 # Filament
+
 Which filament to use can be an important decisions you make.
 I choose [Hatchbox][44] because of its availability on Amazon, reasonable price, wide color verity,
 but mainly [it get great reviews][43].
@@ -275,6 +280,7 @@ Wood fills.
 
 
 # CR-10S Software
+
 There is a fair deal of versatility in terms of software compatibility as well. Just like its preceding model, the CR-10S too leaves a lot of room to experiment with different 3D printing software. Some of the top choices for this 3D printer can be the:
 
 Repetier Host
@@ -285,6 +291,7 @@ Cura Software
 
 
 # 3D Printer Projects Downloads
+
 Free and for fee STL files from community of Makers and Designers.
 
 Of course, its always perferable to produce your own design to your exacting specifications,
@@ -294,6 +301,7 @@ and [good serach tools really don't exist yet][66].
 
 
 ## For Fee 3D Models
+
 There are [quite a few different ways 3D models get sold online][65],
 and typically your paying for a license to use the model rather than purchasing it outright.
 
@@ -324,6 +332,7 @@ and typically your paying for a license to use the model rather than purchasing 
 
 
 # Slicers
+
 3D printing is comprised of a few essential tools.
 Obviously, you have the 3D model and the 3D printer,
 but there’s an instrumental piece to the puzzle right in between those two points.
@@ -334,6 +343,7 @@ There is a [large number of slicing software out there][45], many of which are f
 
 
 ## Cura
+
 The very first slicer I used was Ultimaker's [Cura][47],
 and still is the primary slicer I use.
 Its a good tool to start with since its free and not overly intimidating for a beginner.
@@ -359,6 +369,7 @@ Installation is very simple, just follow the [online install instructions][47].
 
 
 ### Step X: Install and Configure Cura - DONE
+
 Cura is an open source 3D printer slicing application.
 
 * [Ultimaker Cura](https://ultimaker.com/en/products/ultimaker-cura-software)
@@ -385,12 +396,13 @@ I selected **Other** > **Creality 10**.
 
 
 ### Step X: Cura Settings for Creality CR-10S
+
 Try this profile
 
 * [Improved Cura 4.4 Profiles for Creality Ender 3](https://www.youtube.com/watch?v=CUpKUHUeteY)
 * [Manage Cura profiles](https://ultimaker.com/en/resources/52032-manage-profiles)
-    * [exporting cura profile]()
-    * [importing cura profile]()
+  * [exporting cura profile]()
+  * [importing cura profile]()
 
 * [Sunhokey reprap Prusa i3 3D Printer: Cura slicer software](https://www.youtube.com/watch?v=fVpn4KjHT80)
 * [A hidden feature in Cura](https://www.youtube.com/watch?v=j2WWWSpnrlE)
@@ -406,10 +418,12 @@ Check here for tuned setting for CR-10 on github
 
 
 ### Step X: First Layer Print
+
 [Cura Slicer Secret for Perfect 1st Layer Prints](https://www.youtube.com/watch?v=pAFDEn3wGYo)
 
 
 ### Step X: Skirts, Brims, Rafts and Supports
+
 A raft is a platform printed under a print to ad print bed adhesion.i
 A brim is printed on the sides on the print.
 A skirt is printed away from the print to start the flow of filament.
@@ -430,6 +444,7 @@ Support Enforcers and Blockers
 
 
 ### Step X: Customizing Supports
+
 Install Custom Supports plugin by selecting the **Marketplace** button at the top right on Cura.
 
 * [Customizing Supports in Ultimaker Cura](https://www.youtube.com/watch?v=6TPFbqZqmWA)
@@ -442,6 +457,7 @@ Install Custom Supports plugin by selecting the **Marketplace** button at the to
 
 
 ### Step X: Operating Cura
+
 These videos will go over some basic features that will help you to use the Cura program better.
 
 * [Cura Setup For Creality Cr-10 & Cr-10S](https://www.youtube.com/watch?v=omSYmte-aNU)
@@ -449,6 +465,7 @@ These videos will go over some basic features that will help you to use the Cura
 
 
 ## Step X: Selecting Your Test Print - DONE
+
 I'm going to use [3DBenchy][04] as my first test print.
 This popular "first print" is designed to offer a large array of
 [challenging geometrical features for 3D printers][05],
@@ -480,6 +497,7 @@ and the forth was a [parametric butt hinge][54].
 
 
 ## Step X: Removing Cura Package and the PPA
+
 I installed Cura via a PPA and is expected to have the latest and greatest version of Cura.
 But this PPA, like many PPAs, is managed by a single developer for personal or limited use.
 Over the time, these PPAs might not be updated with latest version of operating system.
@@ -525,6 +543,7 @@ sudo ppa-purge ppa:thopiekar/cura
 
 
 ## Calibration Cube
+
 Calibration cubes are simple geometric shapes (usually cubes, hence the name)
 that help you fine-tune your 3D printer’s settings. They enable you to achieve maximum precision and accuracy in your prints.
 
@@ -538,6 +557,7 @@ that help you fine-tune your 3D printer’s settings. They enable you to achieve
 
 
 ## 3D Print Trouble Shooting
+
 Its a certainty that your prints will have some imperfections
 and you'll want to improve the quality of your 3D printed parts.
 
@@ -557,6 +577,7 @@ and you'll want to improve the quality of your 3D printed parts.
 
 
 ## Slic3r
+
 [Slic3r][46] is one of the most widely used open source slicers.
 It's best suited for the more advanced users with its large number of features and options.
 
@@ -565,6 +586,7 @@ It's best suited for the more advanced users with its large number of features a
 
 
 #### Step X: Installing Slic3r
+
 If you installed Slic3r via the Ubuntu package manager,
 you'll get code that dates back to 2015 but classified as "stable".
 I chose to install the most [recent official release][48] that was available
@@ -617,6 +639,7 @@ cura is upgraded several times a year.
 
 
 #### Step X: Removing Unneeded Support Materials
+
 Support Enforcers and Blockers
 
 * [Slic3r PE: Custom Supports aka Support Enforcers and Blockers](https://www.youtube.com/watch?v=740FkDGpuOI)
@@ -650,6 +673,7 @@ Support Enforcers and Blockers
 
 
 # Bed Leveling
+
 You need to level the bed to assure your hotend is equidistant every where it travels on the bed.
 This is done via the four wheels (aka tramming wheels) on the bottom of the bed.
 
@@ -710,6 +734,7 @@ push in the fillement an then pull it out
 
 
 ## Stereolithography (STL) File
+
 [STL is a file format][06]
 widely used within CAD software.
 STL is an abbreviation of "[stereolithography][07]".
@@ -721,6 +746,7 @@ An STL file describes a raw, unstructured triangulated surface.
 
 
 ## 3D Manufacturing Format (3MF) File
+
 The STL file format doesn’t contain any scale, color or material information.
 There is no validation, it’s just a bunch of triangles,
 so it doesn’t stop you from creating holes, non-manifold edges,
@@ -735,6 +761,7 @@ It’s good enough most of the time, but isn’t there a better file format?
 
 
 # G-code File
+
 [G-code][42] is a language
 used mainly in
 computer-aided manufacturing and control automated machine tools
@@ -746,6 +773,7 @@ the g-code can be hundreds of pages long.
 
 
 # Bed Adhesive
+
 Getting the first layer to adhere to the 3D print bed is critically important.
 [Kapton tape][21], [gluestick][22], [painter’s tape][23], and [Aqua Net hairspray][24]
 are all used as bed adhesives on FDM (fused deposition modeling) 3D printers.
@@ -797,6 +825,7 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 
 
 # Gluing PLA
+
 [Locally Sourced: PLA Adhesive](https://hackaday.com/2018/02/07/locally-sourced-pla-adhesive/)
 
 
@@ -809,6 +838,7 @@ Check out "[Sugar As A Bed Adhesive For 3D Printing][26]" for more information.
 
 
 # Add-Ons, Modification, and Upgrades
+
 The Creality CR-10S comes with some of the upgrades suggested for the orginal CR-10.
 This includes filament run out sensor/protection, resume printing function,
 improvements to stabilize the hotend temperature,
@@ -835,6 +865,7 @@ Sources:
 
 
 ## Upgrades
+
 Like many 3d printers, my glass bed is not perfectly flat
 and might warrant replacing with flatter glass (such as a mirror).
 A nice to have, and a potential fix to a not-so-perfect bed,
@@ -867,6 +898,7 @@ The [T8 Anti-Backlash Spring Loaded Nut][31] is one such device.
 
 
 ## Add-Ons
+
 The Creality CR-10S can be noisy, which is annoying in its own way,
 but noise is also a symptom of vibration which can impact your print.
 [May have been pleased][32] by replacing the feet on the CR-10 with [CR-10 Squash Feet][33],
@@ -884,6 +916,7 @@ You can improve this by using [stepper motor vibration dampers][36].
 
 
 ## Replacing Bowden Tube and Nozzle
+
 On January 26, 2024, I replaced the orginal Bowden Tube and Nozzle with the
 [Creality Upgrade 3D Printer Kit with Capricorn Premium XS Bowden Tubing](https://www.amazon.com/dp/B08G8MGLBX).
 
@@ -894,6 +927,7 @@ On January 26, 2024, I replaced the orginal Bowden Tube and Nozzle with the
 
 
 # Monitoring Your Print
+
 Why monitor your 3D printer .... <https://hackaday.com/2018/03/18/3d-printer-halts-and-catches-fire-analysis-finds-a-surprising-culprit/>
 
 * [Test For 3D Printer Runaway](https://hackaday.com/2021/09/01/test-for-3d-printer-runaway/)
@@ -905,7 +939,7 @@ Why monitor your 3D printer .... <https://hackaday.com/2018/03/18/3d-printer-hal
 * [The Spaghetti Detective](https://thespaghettidetective.com)
 * [Finding Plastic Spaghetti with Machine Learning](https://hackaday.com/2019/03/29/finding-plastic-spaghetti-with-machine-learning/)
 * [Spaghetti Detective](https://www.thespaghettidetective.com/)
-    * [Spaghetti Detective Users Boiled By Security Gaffe](https://hackaday.com/2021/08/20/spaghetti-detective-users-boiled-by-security-gaffe__trashed/)
+  * [Spaghetti Detective Users Boiled By Security Gaffe](https://hackaday.com/2021/08/20/spaghetti-detective-users-boiled-by-security-gaffe__trashed/)
 
 
 ## OctoPrint
@@ -919,8 +953,8 @@ Why monitor your 3D printer .... <https://hackaday.com/2018/03/18/3d-printer-hal
 * [How to set up OctoPrint on your Raspberry Pi](https://www.blogdot.tv/how-to-set-up-octoprint-on-your-raspberry-pi/)
 * [Upgrading a 3D Printer with OctoPrint](https://hackaday.com/2018/01/03/upgrading-a-3d-printer-with-octoprint/)
 * [OctoPrint](https://octoprint.org/)
-    * [OctoPrint Blog](https://octoprint.org/blog/)
-    * [OctoPrint Wiki](https://github.com/foosel/OctoPrint/wiki)
+  * [OctoPrint Blog](https://octoprint.org/blog/)
+  * [OctoPrint Wiki](https://github.com/foosel/OctoPrint/wiki)
 * [How to Set Up OctoPrint on Raspberry Pi 3 B+ – 3 Easy Steps](https://all3dp.com/2/how-to-set-up-octoprint-on-raspberry-pi-3-b-easy-steps/)
 * [THE THREE BEST 3D PRINTER WIRELESS HOST SOFTWARE – OCTOPRINT VS. ASTROPRINT VS. REPETIER SERVER](http://3dprinterpower.com/best-3d-printer-wireless-host-software/)
 * [OctoPrint](https://octoprint.org/)
@@ -954,6 +988,7 @@ Why monitor your 3D printer .... <https://hackaday.com/2018/03/18/3d-printer-hal
 
 
 ## Creality WiFi Box
+
 Creality WiFi Box is there answer to OctoPrint.
 
 * [Creality WiFi Takes On Octoprint](https://hackaday.com/2020/12/13/creality-wifi-takes-on-octoprint/)
@@ -978,7 +1013,7 @@ Creality WiFi Box is there answer to OctoPrint.
 * [PrintRite Uses TensorFlow To Avoid Printing Catastrophies](https://hackaday.com/2019/03/03/printrite-uses-tensorflow-to-avoid-printing-catastrophies/)
 
 * [3D Printer Streaming Solution Unlocks Webcam Features](https://hackaday.com/2024/04/20/3d-printer-streaming-solution-unlocks-webcam-features/)
-    * [Making the Ideal 3d Printer Montioring Live-Stream](https://reticulated.net/posts/making-the-ideal-3d-printer-montioring-live-stream/)
+  * [Making the Ideal 3d Printer Montioring Live-Stream](https://reticulated.net/posts/making-the-ideal-3d-printer-montioring-live-stream/)
 
 
 # Creality CR-10 Calibration, Settings, and First Print
@@ -1003,6 +1038,7 @@ Also checkout for ideas: [3d-printed-things/my-cr10s/](https://github.com/jantma
 
 
 # My Modifications to the Creality CR-10S
+
 I found a great list of modifications for the Creality CR-10S.
 You can see them in the video [Creality CR-10S Mods and Review][57]
 and you can use the CR-10S to print these mods using the
@@ -1109,6 +1145,7 @@ candidates for the list above
 
 
 # Enclosure for Printer
+
 Often times an enclosure is necessary to keep the ambient heat around the printer stable (please reference How To Build An Enclosure For Your 3D Printer).
 
 * [How To Build An Enclosure For Your 3D Printer](https://www.matterhackers.com/news/how-to-build-a-3d-printer-enclosure)
@@ -1170,8 +1207,8 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 * [Threaded Inserts in 3D Prints - How strong are they?](https://www.youtube.com/watch?v=iR6OBlSzp7I)
 * [Threaded Inserts for 3D Prints - Cheap VS Expensive](https://www.youtube.com/watch?v=G-UF4tv3Hvc)
 * [Threading 3D Printed Parts: How To Use Heat-Set Inserts](https://hackaday.com/2019/02/28/threading-3d-printed-parts-how-to-use-heat-set-inserts/)
-    * [Four Ways to Tackle Threaded Inserts for Plastics](https://www.ptonline.com/articles/four-ways-to-tackle-threaded-inserts-for-plastics)
-    * [Using Heat Set Inserts](https://markforged.com/blog/heat-set-inserts/)
+  * [Four Ways to Tackle Threaded Inserts for Plastics](https://www.ptonline.com/articles/four-ways-to-tackle-threaded-inserts-for-plastics)
+  * [Using Heat Set Inserts](https://markforged.com/blog/heat-set-inserts/)
 
 
 ---------------
@@ -1183,6 +1220,7 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 
 
 # 3D Prints from Photogrammetry
+
 [Photogrammetry][37] is the art and science of making measurements from photographs,
 especially for recovering the exact positions of surface points.
 [Photogrammetry is not 3D scanning][38].
@@ -1212,6 +1250,7 @@ built on top of an underlying framework called [AliceVision][40].
 
 
 # Photo Rendering of 3D Models
+
 You may want a realistic photo renderings of your 3D CAD models.
 
 * [Photorender Your 3D Models](https://hackaday.com/2021/03/15/photorender-your-3d-models/)
@@ -1224,6 +1263,7 @@ You may want a realistic photo renderings of your 3D CAD models.
 
 
 # 3D Lithophane
+
 A lithophane is an etched or molded artwork in very thin translucent porcelain
 that can be seen clearly only when back lit with a light source.
 
@@ -1232,6 +1272,7 @@ that can be seen clearly only when back lit with a light source.
 
 
 # Super Size Print
+
 [LuBan][55] is a software tool used to split giant 3D models into manageable chunks that could be printed.
 
 * [LuBan: Easy Way To Make Large 3D Prints!](https://www.inov3d.net/luban)

@@ -34,9 +34,11 @@ is a rsync-like program to sync files between a computer and an Android device.
 
 
 ## Install screen copy (`scrcpy`)
+
 #### Step X: xxx
 
 ## Install better-adb-sync (`adbsync`)
+
 #### Step X: xxx
 
 

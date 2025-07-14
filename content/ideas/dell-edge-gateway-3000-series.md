@@ -20,6 +20,7 @@ Version:      0.0.0
 * []()
 
 # Step 1: Physical Setup - DONE
+
 Follow the procedures in the
 "[Setting up your Edge Gateway][01]" section
 of the "Dell Edge Gateway 3002 Installation and Operation Manual".
@@ -31,6 +32,7 @@ plug in the [Gigabit PoE+ Injector][03] into your LAN, the Edge Gateway, and wal
 This will boot up the Dell Edge Gateway.
 
 # Step 2: Setting Up the Operating System - DONE
+
 "[Setting up the operating system][04]" section
 of the "Dell Edge Gateway 3002 Installation and Operation Manual".
 The Dell Edge Gateway's were ordered with [Ubuntu Core 16][05] pre-installed.
@@ -100,6 +102,7 @@ admin@1RPRB02:~$
 ```
 
 # Step 3: Update the Operating System - DONE
+
 Follow the procedures in the
 "[Updating operating system and applications][09]" section
 of the "Dell Edge Gateway 3002 Installation and Operation Manual".
@@ -156,32 +159,39 @@ sudo timedatectl set-timezone America/New_York
 ```
 
 # Step X: Activate the Mobile Broadband Service
+
 Follow the procedures in the
 "[Activating your mobile broadband service][02]" section
 of the "Dell Edge Gateway 3002 Installation and Operation Manual".
 
 # Step X: Other Network Interfaces
-* http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/network-communication-interfaces?guid=guid-f7cabf2e-ec9f-485f-b2b7-39dd026a8dae&lang=en-us
-* http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/additional-communication-interfaces?guid=guid-056b2156-c8f6-4a21-8d83-be8f4167ddfd&lang=en-us
+
+* <http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/network-communication-interfaces?guid=guid-f7cabf2e-ec9f-485f-b2b7-39dd026a8dae&lang=en-us>
+* <http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/additional-communication-interfaces?guid=guid-056b2156-c8f6-4a21-8d83-be8f4167ddfd&lang=en-us>
 
 # Step X: Setting up the ZigBee Dongle
+
 Follow the procedures in the
 "[Setting up the ZigBee dongle][16]" section
 of the "Dell Edge Gateway 3002 Installation and Operation Manual".
 
 # Step X: Installing Dell Command | Monitor
-* http://en.community.dell.com/techcenter/enterprise-client/w/wiki/7777.dell-command-monitor-faq
-* http://www.dell.com/support/manuals/us/en/19/dell-command-monitor-v9.2/dcm_ig_9.2/installing-dell-command--monitor-on-dell-edge-gateway-systems-using-snap-package?guid=guid-ec14efa4-1c5d-45e2-a43a-8812b7175e44&lang=en-us
-* http://www.dell.com/support/manuals/us/en/19/dell-command-monitor-v9.2/dcm_ig_9.2/upgrading-dell-command--monitor-version-91-or-912-using-snap-package?guid=guid-8977a88f-9fb7-4e83-9318-67b78aed40a7&lang=en-us
+
+* <http://en.community.dell.com/techcenter/enterprise-client/w/wiki/7777.dell-command-monitor-faq>
+* <http://www.dell.com/support/manuals/us/en/19/dell-command-monitor-v9.2/dcm_ig_9.2/installing-dell-command--monitor-on-dell-edge-gateway-systems-using-snap-package?guid=guid-ec14efa4-1c5d-45e2-a43a-8812b7175e44&lang=en-us>
+* <http://www.dell.com/support/manuals/us/en/19/dell-command-monitor-v9.2/dcm_ig_9.2/upgrading-dell-command--monitor-version-91-or-912-using-snap-package?guid=guid-8977a88f-9fb7-4e83-9318-67b78aed40a7&lang=en-us>
 
 # Step X: Trusted Platform Module (TPM)
-* http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/security?guid=guid-a4bb7fee-5ac8-4828-9f97-521d017946f1&lang=en-us
+
+* <http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/security?guid=guid-a4bb7fee-5ac8-4828-9f97-521d017946f1&lang=en-us>
 
 # Step X: Watchdog Timer (WDT)
-* http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/watchdog-timer-(wdt)?guid=guid-4a9f1588-6cf2-4ca2-addc-a59c2cefd300&lang=en-us
+
+* <http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/watchdog-timer-(wdt)?guid=guid-4a9f1588-6cf2-4ca2-addc-a59c2cefd300&lang=en-us>
 * [Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers)
 
 # Step X: NetworkManager
+
 The Dell Edge Gateway appears to be using [NetworkManager][13] (aka [`nmcli`][12])
 (originally developed by Red Hat and now is hosted by the GNOME project)
 to manage its wired and wireless connections.
@@ -249,32 +259,37 @@ sudo service NetworkManager status
 ```
 
 # Step X: Restoring Ubuntu Core 16
-* http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/restoring-ubuntu-core-16?guid=guid-315dbb94-ebbc-4f4c-a57f-75564a239c27&lang=en-us
+
+* <http://www.dell.com/support/manuals/us/en/19/dell-edge-gateway-3000-series/dell-edge_gateway-3002-install_manual/restoring-ubuntu-core-16?guid=guid-315dbb94-ebbc-4f4c-a57f-75564a239c27&lang=en-us>
 
 # Step X: locationd
+
 `locationd` is a daemon that centralizes location from positioning subsystems
 available via hardware and software.
 It provides a client API offering positioning capabilities to applications
 and other system components,
 abstracting away the details of individual positioning solutions.
 
-* http://locationd.readthedocs.io/en/latest/index.html
-* https://docs.ubuntu.com/core/en/stacks/location/location-service/docs/reference/configuration
+* <http://locationd.readthedocs.io/en/latest/index.html>
+* <https://docs.ubuntu.com/core/en/stacks/location/location-service/docs/reference/configuration>
 
 # Snaps
-* https://build.snapcraft.io/
+
+* <https://build.snapcraft.io/>
 * [Getting Started with Watson IoT Edge Analytics on a Dell Edge Gateway 3000](https://developer.ibm.com/recipes/tutorials/getting-started-with-watson-iot-edge-analytics-on-a-dell-edge-gateway-3000/)
 
 ## Gadget Snap
+
 The gadget snap is responsible for defining and manipulating the system properties which are specific to a devices.
 For example, the gadget snap will describe the bootloader to be used by the device.
 
-* https://developer.ubuntu.com/core/examples/gadget-snaps
-* https://docs.ubuntu.com/core/en/guides/build-device/gadget
+* <https://developer.ubuntu.com/core/examples/gadget-snaps>
+* <https://docs.ubuntu.com/core/en/guides/build-device/gadget>
 * [What’s the Deal with SNAP Packages?](https://hackaday.com/2020/06/24/whats-the-deal-with-snap-packages/)
 
 # EdgeX Foundry
-Much of the EdgeX detail is on the public site at https://www.edgexfoundry.org/ plus its technical wiki https://wiki.edgexfoundry.org/
+
+Much of the EdgeX detail is on the public site at <https://www.edgexfoundry.org/> plus its technical wiki <https://wiki.edgexfoundry.org/>
 
 To get hands on with the code and connected with community,
 go to [here](https://www.edgexfoundry.org/community/#HowToGetStarted)

@@ -33,6 +33,6 @@ Version:      0.0.0
 * [Cube Teeter Totter: One Motor, Many Lessons](https://hackaday.com/2025/06/16/cube-teeter-totter-one-motor-many-lessons/)
 * [Reaction wheel balancing cube](https://www.youtube.com/watch?v=sT9be_IoEw8)
 * [DIY 3D-Printed Arduino Self-Balancing Cube](https://hackaday.com/2024/10/13/diy-3d-printed-arduino-self-balancing-cube/)
-    * [Arduino 3D Printed self Balancing Cube](https://hackaday.io/project/198415-arduino-3d-printed-self-balancing-cube)
+  * [Arduino 3D Printed self Balancing Cube](https://hackaday.io/project/198415-arduino-3d-printed-self-balancing-cube)
 
 * [TinyEKF: Lightweight C/C++ Extended Kalman Filter with Python for prototyping](https://blog.adafruit.com/2025/05/14/tinyekf-lightweight-c-c-extended-kalman-filter-with-python-for-prototyping/)

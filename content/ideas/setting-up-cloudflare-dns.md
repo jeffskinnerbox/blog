@@ -48,6 +48,7 @@ A DNS lookup of an unproxied (grey-clouded) Cloudflare subdomain returns the IP 
 
 
 # Cloudflare Tunnels
+
 Cloudflare Tunnel exposes applications running on your local network without
 requiring you to forward your applications port to your firewall and exposing it to the Internet.
 With Cloudflare Tunnel, a lightweight daemon in your infrastructure (called `cloudflared`)
@@ -78,10 +79,11 @@ Why do this, see "[How I survived a DDoS attack][11]".
 * [Access Your Self Hosted Services WITHOUT Port Forwarding](https://www.youtube.com/watch?v=VrV0udRUi8A)
 * [Restrict Access to Your CloudFlare Tunnel Applications](https://www.youtube.com/watch?v=65FdHRs0axE)
 * [Home Assistant Remote Access with Cloudflare Argo Tunnel](https://www.mostlychris.com/home-assistant-remote-access-with-cloudflare-argo-tunnel/)
-    * [Using the Cloudflared Add-On](https://www.mostlychris.com/using-the-cloudflared-add-on/?ref=mostlychris-newsletter)
+  * [Using the Cloudflared Add-On](https://www.mostlychris.com/using-the-cloudflared-add-on/?ref=mostlychris-newsletter)
 
 
 ## XXX
+
 Cloudflare Tunnel exposes applications running on your local web server on any network with an internet connection without manually adding DNS records or configuring a firewall or router.
 
 Cloudflare Tunnel provides you with a secure way to connect your resources to Cloudflare without a publicly routable IP address. With Tunnel, you do not send traffic to an external IP — instead, a lightweight daemon in your infrastructure (cloudflared) creates outbound-only connections to Cloudflare’s edge.
@@ -99,6 +101,7 @@ Cloudflare Tunnel provides you with a secure way to connect your resources to Cl
 
 
 # Domain Name Services (DNS)
+
 Domain Name System (DNS), is a lookup service that translates a hostname
 like `google.com` for example, to an IP address.
 This is usually set to your modem or router’s IP address by default (same as the gateway address),
@@ -132,6 +135,7 @@ The DNS Resolver in pfSense® software utilizes unbound, which is a validating, 
 
 
 # DDNS
+
 If you have a static external IP address,
 DDNS will provide little to no value for you.
 However, if you have a dynamic IP address (like most residental IP services provider give you),
@@ -175,6 +179,7 @@ I used the steps below to set up DDNS on pfSense and using my DNS provider, Clou
 
 
 ## DNS
+
 To change your home routers DNS, go to `https://192.168.1.1/#/network/connections/1`
 and select "Settings" at the bottom of the page.
 
@@ -186,6 +191,7 @@ and select "Settings" at the bottom of the page.
 
 
 ### dig
+
 To get DNS speed and IP adderss, use:
 
 * `dig @princess.ns.cloudflare.com google.com`
@@ -193,6 +199,7 @@ To get DNS speed and IP adderss, use:
 
 
 ### nslookup
+
 `nslookup` examples
 
 ```bash
@@ -288,6 +295,7 @@ Sources:
 
 
 ### Flush DNS Cashe
+
 It’s important to sometimes [flush the DNS server cache][86].
 When you type a domain name into a browser,
 a DNS servers perform this a name to IP address conversion, and vice versa.
@@ -414,6 +422,7 @@ Source:
 
 
 ## Setup Domain Name and DNS / DDNS
+
 Ultimately, I had to abandoned using Namecheap as my DNS because it didn't really support Let's Encrypt,
 at least in the automated way that Nginx Proxy Manager expects it to.
 With some effort, [you can get Let's Encript certificates to work on Namecheap](https://www.youtube.com/watch?v=bVbGW037fYk)
@@ -429,6 +438,7 @@ with advanced security with built-in DDoS mitigation and DNSSEC.
 
 
 #### Step 1: Setup Domain Name Account on Namecheap - DONE
+
 I have [purchased my domain name at Namecheap][72].
 Most people know of [Namecheap][52] as a domain registration and management service,
 but they also offer web hosting services.
@@ -441,6 +451,7 @@ just follow the registration process document [here][73].
 
 
 #### Step 2: Adding Your Domain to Cloudflare - DONE
+
 Go to [Cloudflare and create an account][21].
 When you start your account,
 you'll be given an opportunity to register any domain you wish.
@@ -466,6 +477,7 @@ Sources:
 
 
 #### Step X: Setup Dynamic DNS (DDNS)
+
 If you have a static external IP address,
 DDNS will provide little to no value for you.
 However, if you have a dynamic IP address (like most residental IP services provider give you),
@@ -509,6 +521,7 @@ I used the steps below to set up DDNS on pfSense and using my DNS provider, Clou
 
 
 #### Step X: Configure Cloudflare DNS With Subdomains
+
 It is not always necessary to register a new domain name if you already have one (as I do via Namecheap).
 Using your existing domain name, you can establish subdomains.
 Rather than registering a new domain name,
@@ -532,6 +545,7 @@ check our [DNS Checker][12].
 
 
 #### Step X: eMail Routing
+
 Some self hosted apps, like Bitwarden, require email settings.
 
 * [Cloudflare Email Setup (Free Professional Custom Email Setup)](https://www.youtube.com/watch?v=nNGcvz1Sc_8)
@@ -547,6 +561,7 @@ Some self hosted apps, like Bitwarden, require email settings.
 
 
 #### Step X: Cloudflare Restricted Access
+
 Cloudflare can leverage a 3rd party identity providers for restricting access to your CloudFlare Tunnels.
 We'll look at both GitHub and Google.
 
@@ -563,6 +578,7 @@ In a future video we make take a look at Authelia as well, but not in this video
 
 
 # Deploy Website with Cloudflare Pages & GitHub
+
 Cloudflare Pages is a JAMstack platform for frontend developers to collaborate and deploy websites.
 You can deploy a dynamic front-end website that is fast and deployed directly from your Git provider.
 
@@ -579,6 +595,7 @@ You can deploy a dynamic front-end website that is fast and deployed directly fr
 
 
 # Install Cloudflare Tunnels
+
 Cloudflare Tunnel provides you with a secure way to connect your servers to Cloudflare
 without a publicly routable IP address.
 With Cloudflare Tunnels, you do not send traffic to an external IP — instead,
@@ -604,6 +621,7 @@ Sources:
 
 
 #### Step 1: Create Cloudflare Tunnel - DONE
+
 The first step is establish a tunnel on Cloudflare.
 I'm going to create one tunnel from Cloudflare to `firewall-router`
 on my domain `jeffskinnerbox.me`.
@@ -636,6 +654,7 @@ I choose **Docker** and it provide me the Docker Shell script to load the daemon
 
 
 #### Step 2: Create the Public Hostname - DONE
+
 Next, we'll identify the subdomain (aka public hostname) and associate it with the appropriate URL.
 
 * Under the **Public Hostname** tab,
@@ -659,6 +678,7 @@ In my case, that is the following:
 
 
 #### Step 3: Install the Cloudflare Daemon - DONE
+
 We now  that we have the tunnel and subdomains provisioned on Cloudflare,
 we must now establish the Cloudflare daemon (`cloudflared`) on the target machine
 (i.e. `firewall-router`) as a Docker container.
@@ -709,6 +729,7 @@ and your can move on to routing your first service to it via the **Next** button
 
 
 #### Step 4: Check the DNS Records and Test - DONE
+
 Cloudflare needs to add the relevant `CNAME` records for your subdomain.
 This is done automatically.
 If you check Cloudflare's DNS Records
@@ -728,6 +749,7 @@ google-chrome blog.jeffskinnerbox.me
 
 
 #### Step 5: Close All Ports - DONE
+
 One of the major benefits of Cloudflare Tunnels is that you have a secure (aka encripted)
 tunnel established between your home router and the Cloudflare edge proxy.
 There is no long any need to have any open ports on your router to the Internet.
@@ -792,6 +814,7 @@ I don't want router (aka pfSense) exposing its UI to the Internet!
 
 
 # How Effective is Cloudflare?
+
 Using [Open-Source Intelligence (OSINT)][76] techniques,
 there are ways to identify the IP addresses and hosting arrangements hidden behind Cloudflare
 proxy services.
@@ -803,6 +826,7 @@ proxy services.
 
 
 # Cloudflare Authentication
+
 At this point, your servers supported by Cloudflare Tunnels now have
 forced usage of HTTPS security (so no one can view your data traveling over the Internet),
 encrypted connections from Cloudflare to you server (so you can use HTTP locally on your LAN securely),
@@ -815,6 +839,7 @@ but here too, Cloudflare has something to offer.
 
 
 # Cloudflare Access vs Authelia
+
 Some would say
 authelia is rather pointless with cloudflare access. If you are using cloudflare tunnels, you might as well use Access which will give you the 'login' like page similar to authelia's portal page. And also no reason to use a reverse proxy too like traefik That is what tunnels is.. Either use traefik and authelia together OR use cloudflare tunnels with access.
 
@@ -832,6 +857,7 @@ authelia is rather pointless with cloudflare access. If you are using cloudflare
 
 
 #### Step X: Cloudflare's 1.1.1.1 for Families
+
 Cloudflare claims its mission is to make a [more private and safe Internet experiance][26].
 Cloudflare's 1.1.1.1 DNS is designed for [private][23], security, and fast DNS resolution
 but not for blocking or filtering content.
@@ -864,7 +890,7 @@ Check out the following on Cloudflare:
 * [Cloudflare Products](https://developers.cloudflare.com/products/)
 * [Cloudflare Zero Trust](https://one.dash.cloudflare.com/2dbf9ab9f674a117b229f8c02d0cd234/home/quick-start)
 * [Cloudflare Pages](https://developers.cloudflare.com/pages/)
-    * [Deploy a Pelican site](https://developers.cloudflare.com/pages/framework-guides/deploy-a-pelican-site/)
+  * [Deploy a Pelican site](https://developers.cloudflare.com/pages/framework-guides/deploy-a-pelican-site/)
 * [Cloudflare Radar](https://radar.cloudflare.com/)
 * [Cloudflare Speed Test](https://speed.cloudflare.com/)
 * [Cloudflare Workers](https://workers.cloudflare.com/)

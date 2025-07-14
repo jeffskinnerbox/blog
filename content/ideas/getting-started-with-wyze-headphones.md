@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Wyze Noise-Cancelling Headphones
+
 Some Features:
 
 * **Hybrid Active Noise Cancellation:** Reduces outside noise by up to 40 dB.
@@ -24,6 +25,7 @@ Some Features:
 
 
 ## Left vs Right
+
 To determine the left from the right ear cup on your Wyze Noise-Cancelling Headphones,
 look for the "L" and "R" markings inside the ear cups.
 Equvalently, note that the over-the-head brace of the headphone fold behind the ear.
@@ -31,6 +33,7 @@ Additionally, the power button and touch controls are located on the right ear c
 
 
 ## Power On/Off Headphones
+
 To turn on the headphones,
 press the power button located on the right ear cup once.
 You'll know the headphones are powered on when the status light shows a solid blue light,
@@ -41,6 +44,7 @@ press the button again and then the status light turns red and goes off.
 
 
 ## Noise-Cancelling Modes
+
 You can switch between different noise cancellation modes via a button on the left earcup or through the Wyze app.
 Using the button on the left earcup to toggle between High Active Noise Cancellation (ANC), Low ANC, and Transparency Mode.
 
@@ -55,6 +59,7 @@ like listening for announcements or having a quick conversation.
 
 
 ## Setting Up Headphones
+
 To set up headphones, you'll need to follow these steps:
 
 1. Open the Wyze app on your mobile device and tap on your Wyze Headphones.
@@ -64,6 +69,7 @@ To set up headphones, you'll need to follow these steps:
 
 
 ## Suports Alexa
+
 The Wyze Noise-Cancelling Headphones support voice assistants, including Alexa.
 To use Alexa with your Wyze Headphones,
 you'll need to set it up as your voice assistant in the Wyze app. Simply tap on your Wyze Headphones in the app, go to Settings, select Voice Assistant, and choose Amazon Alexa. This will allow you to use Alexa for various commands directly through your headphones.

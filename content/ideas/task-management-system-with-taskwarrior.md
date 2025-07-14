@@ -12,6 +12,7 @@ Version:      0.0.0
 
 
 # TaskWorrior
+
 I wanted a way to manage my project tasks within my NeoVim terminal.
 I don't need a tight integration, just a way manage my project task with easy;
 I'm thinking just a popup window.
@@ -48,6 +49,7 @@ Sources:
 
 
 # Installation & Configuration of TaskWarrior
+
 Ubuntu's version of Taskwarrior seem quite old ([dating back to October 2021][02]).
 I checked the version via the code block below:
 
@@ -69,6 +71,7 @@ to get the latest stable release.
 
 
 #### Step 1: Download and Build Taskwarrior - DONE
+
 Build the `task` program according to the directions in the `INSTALL` file
 
 ```bash
@@ -116,6 +119,7 @@ $ task --version
 
 
 # Simple Note Taking
+
 `kiwi.nvim` is a stripped down VimWiki for Neovim.
 Kiwi, the lean personal wiki for Neovim!
 
@@ -158,6 +162,7 @@ Source:
 
 
 # Terminal Interface
+
 There are several terminal user interface for taskwarrior.
 
 * [taskwarrior-tui](https://kdheepak.com/taskwarrior-tui/)

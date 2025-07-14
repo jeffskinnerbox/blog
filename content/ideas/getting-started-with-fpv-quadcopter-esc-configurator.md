@@ -34,6 +34,7 @@ Currently the following firmware are supported:
 
 
 ## So What is an ESC?
+
 Electronic Speed Controllers (ESC) are responsible for controlling the speed of motors in an FPV drone.
 The ESC receives throttle signals from the flight controller and drives the brushless motor at the desired speed.
 They’re powered by direct current (DC) from your LiPo battery
@@ -59,6 +60,7 @@ It truly brings the performance to the level of the more expensive BLHeli_32 ESC
 
 
 # Install ESC-Configurator
+
 [ESC-Configurator][01] is a website but I want to also execute it from the Ubuntu/Gnome launcher.
 to do this,
 

@@ -15,7 +15,7 @@ Version:      0.0.0
 
 
 * [Data Annotation Tech](https://www.dataannotation.tech/)
-    * [Trustpilot Reviews: Data Annotation Tech](https://www.trustpilot.com/review/dataannotation.tech)
+  * [Trustpilot Reviews: Data Annotation Tech](https://www.trustpilot.com/review/dataannotation.tech)
 
 
 
@@ -71,14 +71,14 @@ I'm a retired electrical engineer, interested in volunteering my time teaching k
   * [Leesburg: Embark Center](https://embarkcenter.org/)
 * [Loudoun Computer Science Initiative](http://loudouncodes.org/)
 * [Ask Hackaday: Repair Café Or Not?](https://hackaday.com/2022/05/03/ask-hackaday-repair-cafe-or-not/)
-    * [Repair Cafe](https://www.repaircafe.org/en/)
+  * [Repair Cafe](https://www.repaircafe.org/en/)
 
 
 ## STEM Education
 
 * [Drones in School](https://www.dronesinschool.com/)
 * [Academies of Loudoun (AOL)](https://www.lcps.org/AOL)
-    * [Clubs & Activities](https://www.lcps.org/site/Default.aspx?PageType=1&SiteID=18349&ChannelID=25532&DirectoryType=6)
+  * [Clubs & Activities](https://www.lcps.org/site/Default.aspx?PageType=1&SiteID=18349&ChannelID=25532&DirectoryType=6)
 * [F1 in Schools](https://www.f1inschoolsna.org/)
 
 

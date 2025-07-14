@@ -56,6 +56,7 @@ I narrowed my search further by focusing on something free or at least very ine
 I settled on the last bullet for my solution.  It fully open, made with familiar components, and inexpensive.  I ordered the FreakLabs Freakduino Chibi Wireless Arduino Compatible Board and got to work.
 
 ## FreakLabs Freakduino Chibi Wireless Arduino Compatible Board
+
 Followed the [assembly  instructions][09] the FreakLabs website and instructions provided in the [Chibi Datasheet][10].
 As outlined in the Datasheet,  validate the broads is functional via running the "Blink" sketch.
 The next thing you'll want to do is to load the Chibi protocol stack, example sketches, etc. into the Arduino IDE.
@@ -64,6 +65,7 @@ You can now load the "chibi_ex4_cmdline" sketch as outlined in the assembly inst
 To learn more about how to use the Chibi protocol stack, check out the [HOWTO guide][12].
 
 ## Connecting Freakduino and WireShark
+
 The next step is to get  the Freakduino connected to WireShark.
 As the post "[Turning the Freakduino into a Realtime Wireless Protocol Analyzer with Wireshark][13]" states,
 this can be done via a Linux pipe.
@@ -72,6 +74,7 @@ A step-by-step tutorial to get things working can be found at the bottom of t
 I'll paraphrase the process here:
 
 ### Step 1: Install Wireshark
+
 [Wireshark][16] is a free and open-source packet analyzer.
 A network packet analyzer will try to capture network packets and tries to display that packet data as detailed as possible.
 You could think of a network packet analyzer as a voltmeter or oscilloscope used by a technician to examine with is going on in a electronic device.
@@ -100,6 +103,7 @@ This can be established with the following:
 You can do `cat /etc/group | grep wireshark` to show you that a group "wireshark" now exists and it has one user member called "pi".  Now when you run Wireshark, you see a list of one or more interface you can use for capturing packets.
 
 ### Step 2: Install Arduino IDE on Raspberry Pi
+
 Next install the [Linux version of the Arduino][24]  [integrated development environment][25] (IDE) on the Raspberry Pi.  The IDE is needed to make minor changes to the chibi protocol stack to support promiscuous mode.
 To do the installation, execute `sudo apt-get install arduino`.
 Next, we need to install the chibi protocol stack library as part of the Arduino's sketch library.
@@ -108,11 +112,13 @@ I down [loaded the files][26] to my [Dropbox][27] and then moved them to the RP
 (By the way, to run the Arduino IDE, simple type the following on the RPi command line: `arduino &`)
 
 ### Step 3: Modifying chibi protocol stack to support promiscuous mode
+
 Changing the chibi protocol stack to support promiscuous mode is very easy.  It's a one  line change:
 `sudo vi /usr/share/arduino/libraries/chibiArduino/chibiUsrCfg.h`
 and set the  promiscuous mode parameter to one: `#define CHIBI_PROMISCUOUS 1`
 
 ### Step 4: Persistent Name for the Freakdunio Devices
+
 I want to plug the Freakduino Chibi Wireless Arduino into the RPi via its USB connection.
 I have a hub on my RPi since I have several USB devices hooked to it.
 I'm going to have to dance around to figure out what `ttyUSB*` the  Freakdunio is attached too.
@@ -147,6 +153,7 @@ SUBSYSTEM=="tty", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", ATTRS{seria
 Now unplug and then plug back in the  Freakduino.  If you do `ls -l /dev/freakduino` you'll see the device and its symbolic link.  No more USB port dancing to find the  Freakduino!
 
 ### Step 5: Preparing the Freakduino Sketch
+
 Now its time to establish the sketch with the  Freakduino that will perform the packet sniffing.
 The required sketch (found in the IDE: File > Examples > Chibi > chibi_ex9_wsbridge)
 is identified in the [FreakLab tutorial][32].
@@ -158,6 +165,7 @@ Download this onto the RPi to `$HOME/src`.
 Compile it with the `Makefile`, and place the `wsbridge` executable in `$HOME/bin`.
 
 ### Step 6: Fire Up the Packet Sniffer
+
 Now all the components are in place to make the sniffer operational.
 You'll need to read the [tutorial][34] from top to bottom to get a full understanding.
 WireShark has undergone some updates since the writing of the tutorial (I'm using version 1.8.2) and those changes are reflected in the steps below:
@@ -173,6 +181,7 @@ To simplify the initialization of wsbridge and WireShark, you can use the comman
 `(wsbridge /dev/freakduino &) && wireshark -k -i /tmp/wireshark &`.
 
 ### Step 7: Creating 802.15.4 Traffic
+
 First we need to configure some XBee radios and drive them to create traffic that can be sensed by the packet sniffer.
 To configure the XBee radios, I used the `XBeeTerm.py` utility I posted in my earlier blog titled
 [Configuration Utilities for XBee Radios][35].
@@ -187,13 +196,14 @@ I chose to connect both XBee's to a single RPi.
 Also, I can write a single program in Python and not have to write another program in C++ for an Arduino to drive the other XBee (I happen to have two RPi's, but I like the idea of using one RPi).
 
 ### Step 8: xxx
+
 xxx
 
 <a href="http://www.adafruit.com/blog/2012/07/16/digi-xbee-examples-guides-step-by-step-tutorials-for-implementing-xbee-wireless-modules-in-electronics-projects/">Digi XBee Examples &amp; Guides | Step-by-step Tutorials for Implementing XBee Wireless Modules in Electronics Projects</a>
 
 <a href="http://pastebin.com/6Ltt5xfe">XBee Discovery demo for Digi devices</a>
 
-https://github.com/tomstrummer/python-xbee/blob/master/examples/led_adc_example.py
+<https://github.com/tomstrummer/python-xbee/blob/master/examples/led_adc_example.py>
 
 --------------------------------------------
 
@@ -205,24 +215,24 @@ I did get the the error message <code>Gtk-WARNING **: cannot open display</code
 
 <a href="http://www.ladyada.net/make/tweetawatt/index.html">Tweet-a-Watt</a>
 
-http://www.wireshark.org/lists/wireshark-users/200712/msg00102.html
+<http://www.wireshark.org/lists/wireshark-users/200712/msg00102.html>
 
 --------------------------------------------------------
 
 From here, you should check out some the many videos, websites, and even books that can educate you on the use of Wireshark.  Is includes:
 <ul>
-	<li><a href="http://www.howtogeek.com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/">How to Use Wireshark to Capture, Filter and Inspect Packets</a></li>
-	<li><a href="http://www.howtogeek.com/107945/how-to-identify-network-abuse-with-wireshark/">How to Identify Network Abuse with Wireshark</a></li>
-	<li><a href="http://www.howtogeek.com/106191/5-killer-tricks-to-get-the-most-out-of-wireshark/">5 Killer Tricks to Get the Most Out of Wireshark</a></li>
+ <li><a href="http://www.howtogeek.com/104278/how-to-use-wireshark-to-capture-filter-and-inspect-packets/">How to Use Wireshark to Capture, Filter and Inspect Packets</a></li>
+ <li><a href="http://www.howtogeek.com/107945/how-to-identify-network-abuse-with-wireshark/">How to Identify Network Abuse with Wireshark</a></li>
+ <li><a href="http://www.howtogeek.com/106191/5-killer-tricks-to-get-the-most-out-of-wireshark/">5 Killer Tricks to Get the Most Out of Wireshark</a></li>
 </ul>
 --------------------------------------------------------------
 <ul>
-	<li><a href="http://ask.wireshark.org/questions/10993/wireshark-to-analyze-802154-packet">Wireshark to analyze 802.15.4 packet</a></li>
-	<li><a href="http://freaklabs.org/index.php/Tutorials/Software/Feeding-the-Shark-Turning-the-Freakduino-into-a-Realtime-Wireless-Protocol-Analyzer-with-Wireshark.html">Feeding the Shark - Turning the Freakduino into a Realtime Wireless Protocol Analyzer with Wireshark</a></li>
-	<li><a href="http://berardi.us/WRLSS/wireshark.html">Wireshark as a network analyzer for Xbee</a></li>
-	<li><a href="http://www.desert-home.com/2012/10/monitoring-my-xbee-network.html">Monitoring My XBee Network</a></li>
-	<li><a href="http://arduino.cc/forum/index.php?topic=128942.0">Clogged up my XBee network</a></li>
-	<li><a href="http://www.desert-home.com/2012/10/more-about-xbee-broadcast.html">More About XBee Broadcast</a></li>
+ <li><a href="http://ask.wireshark.org/questions/10993/wireshark-to-analyze-802154-packet">Wireshark to analyze 802.15.4 packet</a></li>
+ <li><a href="http://freaklabs.org/index.php/Tutorials/Software/Feeding-the-Shark-Turning-the-Freakduino-into-a-Realtime-Wireless-Protocol-Analyzer-with-Wireshark.html">Feeding the Shark - Turning the Freakduino into a Realtime Wireless Protocol Analyzer with Wireshark</a></li>
+ <li><a href="http://berardi.us/WRLSS/wireshark.html">Wireshark as a network analyzer for Xbee</a></li>
+ <li><a href="http://www.desert-home.com/2012/10/monitoring-my-xbee-network.html">Monitoring My XBee Network</a></li>
+ <li><a href="http://arduino.cc/forum/index.php?topic=128942.0">Clogged up my XBee network</a></li>
+ <li><a href="http://www.desert-home.com/2012/10/more-about-xbee-broadcast.html">More About XBee Broadcast</a></li>
 </ul>
 <a href="http://www.libelium.com/forum/viewtopic.php?f=17&amp;t=760">
 </a>

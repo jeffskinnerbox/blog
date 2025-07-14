@@ -24,8 +24,8 @@ is the process of recording the movement of objects or people.
 Indoor positioning is one of the application for optical motion capture systems.
 
 * [Drone Motion Capture, The Open Source Way](https://hackaday.com/2023/11/23/drone-motion-capture-the-open-source-way/)
-    * [Open Source Motion Capture for Autonomous Drones](https://joshuabird.com/blog/post/mocap-drones)
-    * [GitHub: jyjblrd/Mocap-Drones](https://github.com/jyjblrd/Mocap-Drones)
+  * [Open Source Motion Capture for Autonomous Drones](https://joshuabird.com/blog/post/mocap-drones)
+  * [GitHub: jyjblrd/Mocap-Drones](https://github.com/jyjblrd/Mocap-Drones)
 
 * [You can build autonomous drones with computer vision, deep learning, and OpenCV](https://pyimagesearch.com/autonomous-drones-with-computer-vision-and-opencv/)
 

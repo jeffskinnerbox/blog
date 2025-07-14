@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 # Remote Desktop
+
 while away from my home LAN,
 I want to remote desktop into Linux so I can take full advantage of the desktop GUI menu system,
 and not be relegated to a commandline interface you get from Secure Shell (SSH).
@@ -69,22 +70,23 @@ I followed mainly the following sources below:
 Sources:
 
 * TigerVNC
-    * [How to Install and Configure VNC on Ubuntu 22.04][14]
-    * [Install VNC Server with Gnome display on Ubuntu 18.04](https://www.teknotut.com/install-vnc-server-with-gnome-display-on-ubuntu-18-04/)
-    * [How to install and configure VNC on Ubuntu](https://linuxhint.com/install-configure-vnc-ubuntu/)
-    * [How To Install VNC Server on Ubuntu 22.04 LTS](https://idroot.us/install-vnc-server-ubuntu-22-04/)
+  * [How to Install and Configure VNC on Ubuntu 22.04][14]
+  * [Install VNC Server with Gnome display on Ubuntu 18.04](https://www.teknotut.com/install-vnc-server-with-gnome-display-on-ubuntu-18-04/)
+  * [How to install and configure VNC on Ubuntu](https://linuxhint.com/install-configure-vnc-ubuntu/)
+  * [How To Install VNC Server on Ubuntu 22.04 LTS](https://idroot.us/install-vnc-server-ubuntu-22-04/)
 * TightVNC
-    * [How to Install & Configure VNC Server on Ubuntu 22.04|20.04](https://bytexd.com/how-to-install-configure-vnc-server-on-ubuntu/)
-    * [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
-    * [Install and Configure VNC server on Ubuntu 22.04](https://itnixpro.com/install-and-configure-vnc-server-on-ubuntu-22-04/)
-    * [Install and Configure VNC Server on Ubuntu 22.04|20.04|18.04](https://computingforgeeks.com/how-to-install-vnc-server-on-ubuntu/)
+  * [How to Install & Configure VNC Server on Ubuntu 22.04|20.04](https://bytexd.com/how-to-install-configure-vnc-server-on-ubuntu/)
+  * [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
+  * [Install and Configure VNC server on Ubuntu 22.04](https://itnixpro.com/install-and-configure-vnc-server-on-ubuntu-22-04/)
+  * [Install and Configure VNC Server on Ubuntu 22.04|20.04|18.04](https://computingforgeeks.com/how-to-install-vnc-server-on-ubuntu/)
 * X11vnc
-    * [XXFCE: Remote Desktop via X11vnc Through an SSH Tunnel][56]
-    * [How to install x11vnc vnc server as a service on Ubuntu 20.04, for remote access or screen sharing][64]
-    * [How to Install and Run a VNC Server on Ubuntu Linux][67]
+  * [XXFCE: Remote Desktop via X11vnc Through an SSH Tunnel][56]
+  * [How to install x11vnc vnc server as a service on Ubuntu 20.04, for remote access or screen sharing][64]
+  * [How to Install and Run a VNC Server on Ubuntu Linux][67]
 
 
 ## Remote Access vs. Screen Sharing
+
 You'll often find that the terms **Remote Access** and **Screen Sharing** are used interchangeably,
 I'm going to consider them very different here.
 My definitions are:
@@ -112,6 +114,7 @@ For X Windows, this means a single X `$DISPLAY` is being shared among users.
 
 
 ## Candidate Solutions
+
 TigerVNC provides remote access by creating a new GUI session.
 It creates another user session in addition to any other GUI sessions.
 In fact, it doesn't have to be the same desktop experience that might be currently running elsewhere on the server.
@@ -135,6 +138,7 @@ and streaming it out via the VNC protocol to a VNC Viewer.
 
 
 ## Screen Sharing on GNOME
+
 I found that setting up a VNC server on Linux can be very tedious and time-consuming
 (mainly because there is to many possibilities, inconsistent nomenclature, and incompatibilities).
 Ubuntu agree, and as a result, have a “screen sharing” feature,
@@ -156,6 +160,7 @@ This is also a modern browser implementation but isn't restricted to Ubuntu's sc
 
 
 ## Screen Sharing via X11vnc & noVNC
+
 [X11vnc][56] is a VNC Server program, but operates differently than most VNC servers.
 It it captures the X Window session on the remote by continuously polling the X server's frame buffer for changes.
 This approach  allows the user to control the remote X11 desktop (any ... KDE, GNOME, Xfce, etc.)
@@ -181,6 +186,7 @@ that runs well in any modern browser, including mobile browsers (iOS and Android
 
 
 ## Quick & Dirty Demonstration of X11vnc & noVNC
+
 This is not a production ready installation but a quick test
 demonstration of X11vnc and noVNC within you local LAN environment.
 Manually starting the appropriate process terminals
@@ -197,6 +203,7 @@ doing this to validate the installation of the tools needed.
 
 
 #### Step 1: Install Software, Configure, and Start X11vnc - DONE
+
 The web article ["XFCE: Remote Desktop via X11vnc Through an SSH Tunnel"][56]
 shows how easy this can be done.
 I tried it and it works!.
@@ -290,6 +297,7 @@ Sources:
 
 
 #### Step 2: Start noVNC for Screen Sharing or Remote Server - DONE
+
 Now on the local client, within a different terminal,
 start the `novnc` VNC client
 and go to your browser to see the VNC connection
@@ -339,6 +347,7 @@ kill 3365
 
 
 ## Production Ready Method for X11vnc & noVNC
+
 Unlike the demonstration above,
 this is intended to be a permanent installation so that my desktop Linux environment, `desktop`,
 can act as a remote server.
@@ -360,6 +369,7 @@ Also need to use `lightdm` for its display manager (can't use the `gdm3`, GNOME 
 
 
 #### Step 1: Install Software and Configure X11vnc - DONE
+
 First, we want to setup the firewall rules to support the VNC server.
 In a typical installation, VNC service request will be coming into ports `5901` thru `5910`.
 
@@ -434,6 +444,7 @@ sudo reboot
 
 
 #### Step 2: Install noVNC Software - DONE
+
 Now on the local client, install the noVNC software
 you will use to access the remote server via VNC:
 
@@ -444,6 +455,7 @@ sudo snap install novnc
 
 
 #### Step 3: Test the Configuration Manually - DONE
+
 Before we move to the next step,
 lets manually test this configuration so far:
 
@@ -465,6 +477,7 @@ You should now be able to see the remote server GUI via
 
 
 #### Step 4: Configure X11vnc Within systemd - DONE
+
 We need to create the appropriate files so [`systemd`][71] can manage X11vnc.
 To make this happen, on the remove server, create the file
 `/lib/systemd/system/x11vnc.service` with the following content:
@@ -544,12 +557,13 @@ Sources:
 * [ArchLinux: X11vnc](https://wiki.archlinux.org/title/x11vnc)
 * [How to Install and Run a VNC Server on Ubuntu Linux][67]
 * [How to install x11vnc vnc server as a service on Ubuntu 20.04, for remote access or screen sharing][64]
-    * [How to install x11vnc vnc server on ubuntu 20.04, for remote access or screen sharing](https://www.youtube.com/watch?v=bLGLwGToFCg)
-    * [How to stop x11vnc vnc server on ubuntu 20.04 crashing, for remote access or screen sharing](https://www.youtube.com/watch?v=-jAiRyBLTPM)
+  * [How to install x11vnc vnc server on ubuntu 20.04, for remote access or screen sharing](https://www.youtube.com/watch?v=bLGLwGToFCg)
+  * [How to stop x11vnc vnc server on ubuntu 20.04 crashing, for remote access or screen sharing](https://www.youtube.com/watch?v=-jAiRyBLTPM)
 * [Understanding Systemd Units and Unit Files](https://www.digitalocean.com/community/tutorials/understanding-systemd-units-and-unit-files)
 
 
 #### Step 5: (Optional) Disable Suspend / Hibernation Modes - NOT DONE
+
 If you are sure the remote computer is connected to the Internet but you see something like:
 _VNC Server is not currently listening for Cloud connections_
 ... when attempting to connect,
@@ -621,6 +635,7 @@ Source:
 
 
 #### Step 6: Remove GNOME Screen Lock - DONE
+
 There is a conflict with the GNOME screen lock, such that,
 you will not be able to VNC after the screen locks.
 You'll need to [turn-off the GNOME screen lock][64],
@@ -650,6 +665,7 @@ sudo reboot
 
 
 #### Step 7: Setup the XScreensaver - DONE
+
 Open the [Startup Applications][69] utility either by locating it in the Applications list
 or simply by searching for it through the system Application Launcher
 or executing `gnome-session-properties` in a terminal.
@@ -673,6 +689,7 @@ The `nosplash` flag mean that the application would run without the UI being dis
 
 
 #### Step 8: Configure the XScreensaver - DONE
+
 In order to configure the screen-saver through the Xscreensaver utility,
 open the application either through the Application Launcher
 or via commandline:
@@ -724,6 +741,7 @@ sleep 1 && sset -display :0.0 dpms force off
 
 
 # Securing VNC Remote Access With Guacamole
+
 **Issue:** Incorrect VNC sessions screen size - <https://leo.leung.xyz/wiki/Guacamole>
 
 I encountered an issue with x11vnc where the screen size is about 10-15 times taller than it should be. The contents of the extraneous areas appear to be bits and pieces of other windows and overlays. The cause of this was that x11vnc was started with the ncache option which is used to expand the framebuffer for caching windows and window contents. This however requires a VNC client that supports this option which Guacamole's proxy (`guacd`) doesn't seem to support.
@@ -743,6 +761,7 @@ Review the documentation at <https://guacamole.apache.org/doc/gug/using-guacamol
 
 
 #### Step 1: Install VNC Server Using Tasksel - DONE
+
 The Ubuntu `apt` repositories contains TigerVNC server package (among others).
 You can install it by just running the following command:
 
@@ -798,6 +817,7 @@ Sources:
 
 
 #### Step 2: Configure TigerVNC Server - DONE
+
 While the VNC Server not running (terminate via `vncserver -kill :1`),
 we are going to make some configuration changes to TigerVNC start script.
 
@@ -839,6 +859,7 @@ sudo chmod 777 ~/.vnc/xstartup
 
 
 #### Step 3: Connect to a VNC Server ... Securely - DONE
+
 By default, VNC does not use secure protocols when connecting.
 In my case, since I will be using VNC within [Guacamole][38],
 a SSH tunnel will be provided by Guacamole.
@@ -860,6 +881,7 @@ and then start the VNC server on the Remote Server (aka Chromebook).
 
 
 ##### Step 3A: On the Remote Server (aka Chromebook) - DONE
+
 Now on the Remote Server, do the following:
 
 ```bash
@@ -893,6 +915,7 @@ $ vncserver -list
 
 
 ##### Step 3B: Now on the Local Client (aka Linux desktop) - DONE
+
 On the Local Client, install the viewer software, validate that SSH is working,
 start a SSH Tunnel session, and then start the VNC Viewer:
 
@@ -967,6 +990,7 @@ Sources:
 
 
 #### Step 4: Configure VNC to Start at Boot Time
+
 The VNC server software we are using does not have a `systemctl` compatible service,
 so we will need to write our own.
 To create our service file,
@@ -1046,6 +1070,7 @@ Sources
 
 
 #### Step X: How Switch GUI Boot Target
+
 Sources:
 
 * [How to switch boot target to text or GUI in systemd Linux](https://www.cyberciti.biz/faq/switch-boot-target-to-text-gui-in-systemd-linux/)
@@ -1136,6 +1161,7 @@ apt install vim vim-gtk3
 
 
 ## To Remove GUI from Ubuntu Server
+
 If you realize that the desktop environment is taking too much computing resources, you may remove the packages you installed previously.
 Please keep in mind that it may cause dependency issues in some cases so please make a backup of your important data or create a system snapshot.
 
@@ -1153,10 +1179,12 @@ sudo apt autoremove
 
 
 ## Start GUI from command line
+
 sudo systemctl isolate graphical
 
 
 ## Connecting to Raspberry Pi via VNC
+
 Appears the Raspberry Pi community has settled on RealVNC as their goto platform for VNC Server.
 
 * [Connecting to your Raspberry Pi via VNC](https://raspberrypi-guide.github.io/networking/connecting-via-VNC)

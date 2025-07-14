@@ -35,14 +35,17 @@ OpenPLC is mainly used on industrial and home automation, internet of things and
 * [Video: Free PLC Simulation | openPLC | Proteus 8.1](https://www.youtube.com/watch?v=WSCU0faw9-Y)
 
 # Industrial PC (IPC)
+
 [Revolution Pi](https://revolution.kunbus.com/)
 is an Open Source IPC based on Raspberry Pi
 
 # PLC or Arduino?
+
 * [Video: Let's Learn PLC - PLC or Arduino?](https://www.youtube.com/watch?v=J4pMD-XfYlo)
 * [PLC P1AM-100 Controller Compatible with Arduino](https://news.thomasnet.com/fullstory/new-p1am-100-controller-compatible-with-arduino-mkr-format-shields-40033353)
 
 # SCADA
+
 In large industrial structures, it is impractical or even impossible to control the individual parts of the system because, in most installations, the parts are often located very far from each other. Thus the need arises to monitor and control them with SCADA and HMI. The main difference between SCADA and HMI is their scope. HMI is actually just a part of the larger SCADA system. Without SCADA, the HMI would be pretty much useless.
 
 SCADA stands for “Supervisory Control and Data Acquisition,”
@@ -64,16 +67,20 @@ as well as the occurrence of faults.
 The controls send the instructions to the PLC, which in turn control the machine.
 
 # Modbus
+
 * [Video: Understanding Modbus Serial and TCP/IP](https://www.youtube.com/watch?v=k993tAFRLSE)
 
 # Inductive Automation
+
 * [Inductive Automation](https://inductiveautomation.com/)
 * [Inductive Automation Documentation](https://docs.inductiveautomation.com/)
 
 # Cirrus Link Solutions
+
 [Cirrus Link Solutions](https://www.cirrus-link.com/)
 
 ### Step X: Download a Vagrant Box and Build Virtual Machine
+
 establish a vagrant environment
 
 ```bash
@@ -118,4 +125,5 @@ sudo service lightdm start
 ```
 
 # Create You Own Box
+
 * [Steps to create a Vagrant Base Box with Ubuntu 14.04 Desktop (GUI) and VirtualBox](http://aruizca.com/steps-to-create-a-vagrant-base-box-with-ubuntu-14-04-desktop-gui-and-virtualbox/)

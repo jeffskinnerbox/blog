@@ -43,6 +43,7 @@ This makes it so that your RPi accessible and secure
 even though it’s buried behind a NAT or a firewall!
 
 ## Reverse Shells
+
 Reverse shell meaning:
 A shell initiated from the target host back to the attack box
 which is in a listening state to pick up the shell.
@@ -56,6 +57,7 @@ Reverse shells have the listener running on the attacker and the target connects
 * [Simple SSH Tweaks for Remote Developers](https://medium.com/better-programming/simple-ssh-tweaks-for-remote-developers-4392a1409c33)
 
 ## Bind Shell
+
 Bind shell meaning:
 A bind shell is set up on the target host and binds to a specific port to listen
 for an incoming connection from the attack box.
@@ -64,14 +66,16 @@ Bind shells have the listener running on the target and the attacker connect to 
 * [Reverse Shell VS Bind Shell](https://www.linkedin.com/pulse/reverse-shell-vs-bind-krishanu-chakraborty/)
 
 ## Shell Shoveling
+
 Shell shoveling meaning:
 The redirection of the shell to a remote service so that input can be entered
 and output received without being physically present.
 
 * [Post Compromise Shell Shoveling](http://www.madirish.net/207)
-    * [Shell Shovel](https://github.com/clayball/shell-shovel-demo)
+  * [Shell Shovel](https://github.com/clayball/shell-shovel-demo)
 
 ## Encrypted Shells
+
 Encrypted shell meaning:
 Both bind and reverse shells communicate in plaintext.
 Encrypted shells encrypt the communication,
@@ -81,29 +85,35 @@ thereby disallowing intermediary sniffers to decipher what we are trying to acco
 * [sbd Package Description](https://tools.kali.org/maintaining-access/sbd)
 
 # How Is This Done?
+
 1. You will need a virtual machine (VM) somewhere on the Internet.
 Any cheap Linux VM will do.
 1. On this VM you will need SSH running, a user login for the RPi to connect,
 and this user use will have ssh keys to login.
 
 # Step X: Test Reverse Tunnel from Server
+
 Now that we know the SSH connection works,
 we want to test that the server allows us to create a reverse tunnel.
 
 # Step X: Install Agent on RPi
+
 Now we want to copy over the `agent` we created to the RPi
 and make it into a service which runs automatically.
 
 # Step X: Creating a systemd Service
+
 `systemd` is an `init` system which is used on many GNU/Linux distributions,
 including Raspbian and HypriotOS.
 
 * [Pack Your Bags – Systemd Is Taking You To A New Home](https://hackaday.com/2019/10/16/pack-your-bags-systemd-is-taking-you-to-a-new-home/)
 
 # Step X: xxx
+
 # Step X: xxx
 
 # Step X: Power Saving
+
 If your RPi is running on battery power
 or has a very limited connection times,
 you might want to restrict the time it keeps the tunnel open.
@@ -116,7 +126,8 @@ add the -e timeout parameter so that the Agent automatically closes the tunnel a
 Note that any ongoing connection will not forcefully be closed.
 
 # Step X: Adding Security
-This from - https://rpi.sh/post/agent/
+
+This from - <https://rpi.sh/post/agent/>
 
 The Agent above is listening on the interface 0.0.0.0 on the remote ssh server, meaning that it will accept connections from the public internet.
 
@@ -155,6 +166,7 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 ###############################################################################
 
 # Dynamic DNS (DDNS)
+
 * [How To Easily Access Your Home Network From Anywhere With Dynamic DNS](https://www.howtogeek.com/66438/how-to-easily-access-your-home-network-from-anywhere-with-ddns/)
 * [Dynamic DNS (DDNS)? -How it Works and Why Use It?](https://stevessmarthomeguide.com/dynamic-dns/)
 * [Linux-Fu: Your Own Dynamic DNS](https://hackaday.com/2020/08/25/linux-fu-your-own-dynamic-dns/)
@@ -162,6 +174,7 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 
 
 # DNS Tunneling
+
 * [How DNS Tunneling Works](http://inside-out.xyz/technology/how-dns-tunneling-works.html)
 * [DNS Tunneling: Getting The Data Out Over Other Peoples’ WiFi](http://hackaday.com/2016/08/07/getting-the-data-out-over-other-peoples-wifi/)
 * [TOWL - Telemetry over Opportunistic WiFi Links](http://www.phreakmonkey.com/2016/08/towl-telemetry-over-opportunistic-wifi.html)
@@ -177,6 +190,7 @@ Now enter `localhost:8888` in your favorite browser to use the remote Jupyter No
 
 
 # Reverse SSH Tunnel – when you cannot SSH to your host
+
 * [SSH Tunneling, a Guide](https://medium.com/the-kickstarter/ssh-tunneling-a-guide-79075d52ed43)
 * [Persistent reverse (NAT bypassing) SSH tunnel access with autossh](https://raymii.org/s/tutorials/Autossh_persistent_tunnels.html)
 
@@ -212,6 +226,7 @@ and restart the tunnel if it drops or stops responding.
 
 
 ## Step X: Streaming Camera to the Internet - DONE
+
 So far, using the Raspberry Pi camera module,
 I have streamed video on my local network
 but I wish to do this across the Internet.
@@ -283,9 +298,11 @@ google-chrome http://be4fac06.ngrok.io/?action=stream
 ###############################################################################
 
 # Web TLS/SSL
+
 * [How To Secure Your Rancher Web App with Let's Encrypt on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-secure-your-rancher-web-app-with-let-s-encrypt-on-ubuntu-16-04)
 
 # Reverse SSH Tunnel – when you cannot SSH to your host
+
 You may be in a restricted network situation (company, hotel, hospital)
 where you have a "server" which you want to access from outside that network.
 You cannot forward ports to access that machine,
@@ -316,6 +333,7 @@ and restart the tunnel if it drops or stops responding.
 * [Autossh Startup Script for Multiple Tunnels](https://surniaulula.com/2012/12/10/autossh-startup-script-for-multiple-tunnels/)
 
 ## Step X: Streaming Camera to the Internet - DONE
+
 So far, using the Raspberry Pi camera module,
 I have streamed video on my local network
 but I wish to do this across the Internet.
@@ -380,6 +398,7 @@ google-chrome http://be4fac06.ngrok.io/?action=stream
 
 
 # Auto-Connect to Open WiFi Network
+
 [!open-wifi](http://true-random.com/homepage/projects/wifi/free_wifi.jpg)
 I would like this project to auto-connect to any open WiFi network automatically;
 Without knowing the SSID beforehand or involving any human intervention.
@@ -463,16 +482,19 @@ Execute `sudo ifconfig wlan0 down && sudo ifconfig wlan0 up && sudo wpa_cli -i w
 and look for `wpa_state=COMPLETED`.
 
 # Auto-Connect to Public WiFi Network
+
 * [How to get free wifi on public networks](https://medium.freecodecamp.com/free-wifi-on-public-networks-daf716cebc80#.hesy8hhz6)
-    * [FreeWifi](https://github.com/kylemcdonald/FreeWifi)
-    * [SpoofMAC](https://github.com/feross/SpoofMAC)
+  * [FreeWifi](https://github.com/kylemcdonald/FreeWifi)
+  * [SpoofMAC](https://github.com/feross/SpoofMAC)
 
 ## Domain Name Server (DNS)
+
 * [Introduction to the Domain Name System (DNS)](https://opensource.com/article/17/4/introduction-domain-name-system-dns)
 * [Build your own DNS name server on Linux](https://opensource.com/article/17/4/build-your-own-name-server)
 * [dnsd: DNS encoder, decoder, and server](https://github.com/ansuz/modern-dnsd)
 
 ## Telemetry over Opportunistic WiFi Links
+
 * [How DNS Tunneling Works](http://inside-out.xyz/technology/how-dns-tunneling-works.html)
 * [DNS Tunneling: Getting The Data Out Over Other Peoples’ WiFi](http://hackaday.com/2016/08/07/getting-the-data-out-over-other-peoples-wifi/)
 * [TOWL - Telemetry over Opportunistic WiFi Links](http://www.phreakmonkey.com/2016/08/towl-telemetry-over-opportunistic-wifi.html)

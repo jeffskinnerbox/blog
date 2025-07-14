@@ -21,11 +21,12 @@ Version:      0.0.0
 
 
 # LoLRa Project
+
 The LoLRa Project is a firmware-only LoRa transmission open-source project that works without a Semtech radio and instead relies on an I2S or SPI interface (so not exactly bit-banging) to transmit data with microcontrollers such as WCH CH32V003, or Espressif Systems ESP8266 and ESP32-S2 microcontrollers.
 
 * [LoLRa project – Transmitting LoRa packets without radio using CH32V003, ESP8266, or ESP32-S2 MCU](https://www.cnx-software.com/2024/03/28/lolra-project-transmitting-lora-packet-without-radio-using-ch32v003-esp8266-or-esp32-s2-mcu/)
-    * [How I broadcast LoRa packets WITHOUT a radio](https://www.youtube.com/watch?v=eIdHBDSQHyw)
-    * [GitHub: cnlohr/lolra](https://github.com/cnlohr/lolra)
+  * [How I broadcast LoRa packets WITHOUT a radio](https://www.youtube.com/watch?v=eIdHBDSQHyw)
+  * [GitHub: cnlohr/lolra](https://github.com/cnlohr/lolra)
 
 
 
@@ -36,10 +37,11 @@ The LoLRa Project is a firmware-only LoRa transmission open-source project that 
 
 * [LoRa and The Things Network](https://mjoldfield.com/atelier/2022/07/lora-ttn.html)
 * [Building Global IoT Coverage with Semtech IC](https://www.rfidjournal.com/building-global-iot-coverage-with-semtech-ic)
-    * [LoRa Edge LR1120](https://www.semtech.com/products/wireless-rf/lora-edge/lr1120)
+  * [LoRa Edge LR1120](https://www.semtech.com/products/wireless-rf/lora-edge/lr1120)
 
 
 # Getting Started with LoRaWAN
+
 * [LoRaWAN with STM32 Getting Started Sries](https://www.youtube.com/watch?v=vuc6914B0KM&list=PLnMKNibPkDnHZyJtMRpWSs41CWhPouRwq)
 * [GLAMOS' Walker Is a Pocket-Sized Tool for Mapping Out LoRaWAN Network Coverage](https://www.hackster.io/news/glamos-walker-is-a-pocket-sized-tool-for-mapping-out-lorawan-network-coverage-ecfa2a56017e)
 * [Getting Started with LoRaWAN](https://www.dfrobot.com/blog-1656.html?tracking=64659bc71d293)
@@ -48,6 +50,7 @@ The LoLRa Project is a firmware-only LoRa transmission open-source project that 
 
 
 # How does NB-IOT and CAT-M1 / LTE-M compare to LoRaWAN?
+
 * [How does NB-IOT and CAT-M1 / LTE-M compare to LoRaWAN (Tutorial)?](https://www.youtube.com/watch?v=6PLnpPH8_Ic)
 
 
@@ -57,6 +60,7 @@ The LoLRa Project is a firmware-only LoRa transmission open-source project that 
 
 
 # Farm Data Relay System
+
 The Farm Data Relay System (FDRS) is a network using LoRa and ESPnow
 that does not rely on infrastructure like [The Things Network (TTN)](https://www.thethingsnetwork.org/).
 
@@ -71,6 +75,7 @@ that does not rely on infrastructure like [The Things Network (TTN)](https://www
 
 
 # LoRaWAN V3
+
 * [How to Build or Migrate Sensors and Gateways on TTN LoRaWAN V3](https://www.youtube.com/watch?v=mFprG2UuHrA)
 
 
@@ -96,7 +101,8 @@ that does not rely on infrastructure like [The Things Network (TTN)](https://www
 
 * [LoRa and LoRaWAN for IoT](https://itnext.io/lora-for-iot-1f91085c5917)
 
-## 	LoRaWAN Local Network
+## LoRaWAN Local Network
+
 * [Building A Local Network With LoRaWAN](https://hackaday.com/2022/10/22/building-a-local-network-with-lorawan/)
 * [ChirpStack, open-source LoRaWAN® Network Server](https://www.chirpstack.io/)
 
@@ -124,8 +130,9 @@ is a full-service Internet of Things provider, providing the required resources 
 
 
 # Adafruit Products
+
 * [RadioFruit 915MHz RP2040 with RFM95 LoRa](https://www.geeky-gadgets.com/radiofruit-04-04-2023/)
-    * [Adafruit's "RadioFruit" Feather RP2040 RFM95 Offers a Low-Cost, Low-Power LoRa Radio Project Base](https://www.hackster.io/news/adafruit-s-radiofruit-feather-rp2040-rfm95-offers-a-low-cost-low-power-lora-radio-project-base-36e8d4c5e39a)
+  * [Adafruit's "RadioFruit" Feather RP2040 RFM95 Offers a Low-Cost, Low-Power LoRa Radio Project Base](https://www.hackster.io/news/adafruit-s-radiofruit-feather-rp2040-rfm95-offers-a-low-cost-low-power-lora-radio-project-base-36e8d4c5e39a)
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
 * [Adafruit RFM69HCW and RFM9X LoRa Packet Radio Breakouts](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/overview)
 * [RFM9X Test](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/rfm9x-test)
@@ -136,56 +143,69 @@ is a full-service Internet of Things provider, providing the required resources 
 * [Adafruit RFM69 Radio with CircuitPython](https://www.hackster.io/whitney-knitter/pi-os-for-zynqberry-adafruit-rfm69-radio-with-circuitpython-1ae658)
 
 # SmartFun
+
 * [SparkFun LoRa Thing Plus - ExpLoRaBLE](https://www.sparkfun.com/products/17506)
 
 # ESP32-based LoRaWan Gateway
+
 * [ESP32-based LoRaWan Gateway Module with 1.8” LCD](https://linuxgizmos.com/esp32-based-lorawan-gateway-module-with-1-8-lcd/)
 
 # Long Range Mode for ESP32
+
 * [External antennas and ESP32 Long-Range mode](https://www.youtube.com/watch?v=2rujjTOPIRU&app=desktop)
 * [Wi-Fi Antennas with Gain and ESP32 Long-Range Mode (part2)](https://www.youtube.com/watch?v=PUppoaePi3A)
 * [LoRa: Field Testing Antennas](https://www.sparkfun.com/news/5497)
 
 # ESP32-S2
+
 * [The new ESP32-S2: How relevant is it for the Makers? First tests](https://www.youtube.com/watch?time_continue=51&v=L6IoSVdKwNM&feature=emb_logo)
 * [EYE on NPI - Espressif ESP32-S2 SoC](https://www.youtube.com/watch?v=4F25y-P8krM)
 
 # Comcast / MachineQ
+
 * [Starter Kit](https://machineq.com/iot-starter-kit/)
 
 # Low Power Solutions
+
 * [Moteino M0](https://lowpowerlab.com/shop/product/184)
 * [The Cult Of Really Low-Power Circuits: Scrounging, Sipping, And Seeing Power](https://hackaday.com/2020/02/03/the-cult-of-really-low-power-circuits-scrounging-sipping-and-seeing-power/)
 
 # PyCom
+
 * [Wireless IoT modules from Pycom](https://www.elektormagazine.com/news/review-wireless-modules-from-pycom)
 * [Pycom FIPy](https://opendevelopment.verizonwireless.com/device-showcase/device/6326)
 
 # Semtech
+
 * [LoRa Gets Open Source Software](https://www.eetimes.com/document.asp?doc_id=1334628#)
 * [Free software to get LoRa metro range IoT wireless up and running](https://www.electronicsweekly.com/news/products/software-products/free-software-get-lora-metro-range-iot-wireless-running-2019-04/)
 
 # SparkFun Products
+
 * [SparkX SAMD21 Pro RF 1W LoRa](https://www.sparkfun.com/products/15034)
 * [SparkFun Pro RF - LoRa, 915MHz (SAMD21)](https://www.sparkfun.com/products/14916)
 * [RFM69 Breakout](https://www.sparkfun.com/products/12775?utm_source=SparkFun+Customer+Newsletter&utm_campaign=4b8fa30c6c-April_29thNewsletter&utm_medium=email&utm_term=0_fa5287abaf-4b8fa30c6c-7212537)
-    * [RFM69HCW Hookup Guide](https://learn.sparkfun.com/tutorials/rfm69hcw-hookup-guide?_ga=1.180264161.499251857.1461895311)
-    * [LowPowerLab Hook Library](https://github.com/LowPowerLab/RFM69)
-    * [Radiohead Library](http://www.airspayce.com/mikem/arduino/RadioHead/)
+  * [RFM69HCW Hookup Guide](https://learn.sparkfun.com/tutorials/rfm69hcw-hookup-guide?_ga=1.180264161.499251857.1461895311)
+  * [LowPowerLab Hook Library](https://github.com/LowPowerLab/RFM69)
+  * [Radiohead Library](http://www.airspayce.com/mikem/arduino/RadioHead/)
 
 # Seeed
+
 * [HC-12 Wireless Serial Port Communication Module](http://www.instructables.com/id/Long-Range-18km-Arduino-to-Arduino-Wireless-Commun/?ALLSTEPS)
 
 # XBee / ZigBee Projects
+
 * [KappaIO - Open Source ZigBee Gateway Framework](https://kappa.io/)
-    * [Quick Start Guide](https://kappa.io/quickstart)
-    * [CC2531 USB Evaluation Module Kit](http://www.ti.com/tool/cc2531emk)
+  * [Quick Start Guide](https://kappa.io/quickstart)
+  * [CC2531 USB Evaluation Module Kit](http://www.ti.com/tool/cc2531emk)
 
 # RadioHead
+
 * [SparkFun RadioHead Arduino Library](https://github.com/sparkfun/SparkFun_RadioHead_Arduino_Library)
 * [RadioHead Packet Radio library for embedded microprocessors](http://www.airspayce.com/mikem/arduino/RadioHead/index.html)
 
 # LoRa With The ESP32
+
 * [ESP32 with LoRa using Arduino IDE – Getting Started](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
 * [LoRa With The ESP32](https://hackaday.com/2018/06/24/lora-with-the-esp32/)
 * [ESP32 Lora Boards](ESP32 Lora Boards: What you need to know before you buy )
@@ -195,53 +215,64 @@ is a full-service Internet of Things provider, providing the required resources 
 * [GPS Mapper for The Things Network (TTN) - LoRaWAN](https://www.hackster.io/fablabeu/gps-mapper-for-the-things-network-ttn-lorawan-584ed7)
 
 ## Case for ESP32 LoRa
+
 * [TTGO-T-Beam 3D Printed Case](https://www.thingiverse.com/thing:3773717)
 * [Heltec ESP32 3D Printed Case](https://www.thingiverse.com/thing:3125854)
 * [Heltec ESP32+LoRa+OLED case](https://www.thingiverse.com/thing:3125854)
 * [TTGO LoRa Mesh Radio Case](https://www.thingiverse.com/thing:3865750)
 
 # H2020 WAZIUP & WAZIHUB projects
-* https://github.com/CongducPham/tutorials
+
+* <https://github.com/CongducPham/tutorials>
 * [Low-cost LoRa IoT & gateway with SX1272/76, Raspberry and Arduino](https://github.com/CongducPham/LowCostLoRaGw)
 * [A DIY low-cost LoRa gateway](http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html)
 
 # LoStik
+
 * [LoStik](https://www.crowdsupply.com/third-venture/lostik)
 * [Build a LoRa Gateway with n-fuse mPCIe card](https://www.hackster.io/fewi/build-a-lora-gateway-with-n-fuse-mpcie-card-71f0e1)
 
 # TTN Mapper
+
 * [The Things Network Node for TTNmapper.org](https://www.hackster.io/Amedee/the-things-network-node-for-ttnmapper-org-a8bcd4)
 * [The Things Network Node For TTNmapper With GPS](https://www.hackster.io/Amedee/the-things-network-node-for-ttnmapper-with-gps-231ea1)
 * [GPS Mapper for The Things Network (TTN) - LoRaWAN](https://www.hackster.io/fablabeu/gps-mapper-for-the-things-network-ttn-lorawan-584ed7)
 
 # LoRa Management Platforms
+
 * [OpenChirp](https://openchirp.io/)
 * [TheThings.io](https://thethings.io/lora-iot-platform-dashboard/)
 * [LoRa Server, open-source LoRaWAN network-server](https://www.loraserver.io/)
 
 # WAZIUP / WAZIHUB
+
 * [A DIY low-cost LoRa gateway](http://cpham.perso.univ-pau.fr/LORA/RPIgateway.html)
 * [Low-cost LoRa IoT framework developed in the EU H2020 WAZIUP/WAZIHUB projects](https://github.com/CongducPham/LowCostLoRaGw)
 
 # MicroPython and LoRa
+
 * [LoRa with MicroPython on the ESP8266 and ESP32](https://medium.com/gowombat/iot-lora-with-micropython-on-the-esp8266-and-esp32-59d1a4b507ca)
 * [SX127x_driver_for_MicroPython_on_ESP8266](https://github.com/Wei1234c/SX127x_driver_for_MicroPython_on_ESP8266)
 * [uPyLora - ESP32 using MicroPython meets lora](https://github.com/lemariva/uPyLora)
 
 # Mimi LoRa Gateway - 8 Channel
+
 * [Mini IOT Lora gateway LoraWan SX1301 sx1255/57 lora 8 channel](https://www.aliexpress.com/i/32904456899.html)
 
 # RakWireless RAK831 Solution
+
 * [Configuring a LoRaWAN Gateway for The Things Network](https://www.hackster.io/nootropicdesign/configuring-a-lorawan-gateway-for-the-things-network-b3b1f2)
 * [Using LoRaWAN End Devices on The Things Network](https://www.hackster.io/nootropicdesign/using-lorawan-end-devices-on-the-things-network-206a86)
 * [RAK831 LoRaWAN Gateway](https://www.pocketmagic.net/rak831-lorawan-gateway/)
 * [WisGate Connect Raspberry Pi CM4 gateway supports 2.5GbE, WiFi 6, BLE, LoRaWAN, 4G, 5G, and more](https://www.cnx-software.com/2022/10/21/wisgate-connect-raspberry-pi-cm4-gateway-2-5gbe-wifi-5-ble-lorawan-4g-5g/)
 
 # WM1302 LoRaWAN Gateway Module
+
 * [WM1302 LoRaWAN Gateway Module (SPI) - US915, based on SX1302](https://www.seeedstudio.com/WM1302-LoRaWAN-Gateway-Module-SPI-US915-p-4890.html)
 * [WM1302 Raspberry Pi Hat](https://www.seeedstudio.com/WM1302-Pi-Hat-p-4897.html)
 
 # Odd Applications
+
 * [ZOMBIES ATE YOUR NEIGHBORS? TELL EVERYONE THROUGH LORA!](https://hackaday.com/2019/12/04/zombies-ate-your-neighbors-tell-everyone-through-lora/)
 * [LoRa Mesh Chat](https://www.hackster.io/scottpowell69/lora-mesh-chat-5267d9)
 * [TTGO LoRa Mesh Chat Device](https://www.hackster.io/scottpowell69/ttgo-lora-mesh-chat-device-37913c)
@@ -250,6 +281,7 @@ is a full-service Internet of Things provider, providing the required resources 
 * [Join Your Own Private LoRa Mesh Network](https://hackaday.com/2020/07/30/join-your-own-private-lora-mesh-network/)
 
 # LoRaWAN Security
+
 * [LoRaWAN networks are spreading but security researchers say beware](https://www.zdnet.com/article/lorawan-networks-are-spreading-but-security-researchers-say-beware/)
 * [LoRaWAN Encryption Keys Easy to Crack, Jeopardizing Security of IoT Networks](https://threatpost.com/lorawan-encryption-keys-easy-to-crack-jeopardizing-security-of-iot-networks/152276/)
 * [How to detect and prevent issues with vulnerable LoRaWAN networks](https://www.helpnetsecurity.com/2020/01/28/vulnerable-lorawan-networks/)
@@ -267,6 +299,7 @@ is a full-service Internet of Things provider, providing the required resources 
 * [Getting to Know LoRa Basics™ Station](https://www.thethingsindustries.com/article/getting-to-know-lora-basics-station/)
 
 # What is LoRa and LoRaWAN?
+
 LoRa is the network protocol that resides at layer 1 of the Open Systems Interconnection Model (or OSI model) of computer networking.
 This layer defines the means of transmitting raw bits over a physical data link between network nodes.
 LoRa utilizes sub-gigahertz RF bands, including 433MHz, 868MHz (for Europe), 915MHz (for Australia and North America), and 923MHz (for Asia).
@@ -287,6 +320,7 @@ In an urban setting, you might be lucky to get any more than 2-3 km.
 In a rural setting, however, range increases dramatically.
 
 # What is LPWAN?
+
 Long life cycles, extremely low cost connectivity requirements,
 and ability to connect to devices in difcult to reach places are typical requirements for IoT.
 Things like utility meters have historically been challaging to connect,
@@ -311,6 +345,7 @@ devices previously thought impossible to reach,
 and do so in a cost-efective way that provides the necessary ROI.
 
 ## Technical Atributes
+
 * **Long Range:** The operating range of LPWAN technology varies from
 a few kilometers in urban areas to over 10 km in rural settings.
 It can also enable data communication in challeging indoor and underground locations.
@@ -324,26 +359,28 @@ at which the receiver can detect an RF signal and demodulate data.
 Sensitivity is purely a receiver specification and is independent of the transmitter.
 
 Continue with information from
-* https://en.wikipedia.org/wiki/LPWAN
-* https://arxiv.org/pdf/1802.04222.pdf
+
+* <https://en.wikipedia.org/wiki/LPWAN>
+* <https://arxiv.org/pdf/1802.04222.pdf>
 * [Meet the LPWAN clan: The Internet of Things' low power contenders](https://www.theregister.co.uk/2018/08/15/lpwan_runners_and_riders/)
 * [The Guide to Low-Power Wide Area Networks](https://www.engineering.com/IOT/ArticleID/16869/The-Guide-to-Low-Power-Wide-Area-Networks.aspx)
 * [Low Power Wide Area Networks: The new backbone for the Internet of Things](https://www.theiet.org/sectors/information-communications/topics/ubiquitous-computing/articles/lpwan.cfm)
 
 ## Popular LPWAN Radios
-ADF7010 - https://www.analog.com/media/en/technical-documentation/data-sheets/adf7010.pdf
-SX1276 - https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V5.pdf
-CC1101 - http://www.ti.com/lit/ds/symlink/cc1101.pdf
-SI4463 - https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf
-SI4432 - https://www.silabs.com/documents/public/data-sheets/Si4430-31-32.pdf
-RFM12B - https://cdn.sparkfun.com/datasheets/Wireless/General/RFM12B.pdf
-RFM22B - https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf
+
+ADF7010 - <https://www.analog.com/media/en/technical-documentation/data-sheets/adf7010.pdf>
+SX1276 - <https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V5.pdf>
+CC1101 - <http://www.ti.com/lit/ds/symlink/cc1101.pdf>
+SI4463 - <https://www.silabs.com/documents/public/data-sheets/Si4464-63-61-60.pdf>
+SI4432 - <https://www.silabs.com/documents/public/data-sheets/Si4430-31-32.pdf>
+RFM12B - <https://cdn.sparkfun.com/datasheets/Wireless/General/RFM12B.pdf>
+RFM22B - <https://www.sparkfun.com/datasheets/Wireless/General/RFM22B.pdf>
 
 * [RFM69 & LoRa Transceiver How-To Guide & Best Practices](https://www.youtube.com/watch?v=soaE5X6_aRk)
 RFM95
-RFM95W - https://cdn.sparkfun.com/assets/a/e/7/e/b/RFM95_96_97_98W.pdf
-RFM69 - https://cdn.sparkfun.com/assets/a/e/7/e/b/RFM95_96_97_98W.pdf
-RFM69HCW - https://cdn.sparkfun.com/datasheets/Wireless/General/RFM69HCW-V1.1.pdf
+RFM95W - <https://cdn.sparkfun.com/assets/a/e/7/e/b/RFM95_96_97_98W.pdf>
+RFM69 - <https://cdn.sparkfun.com/assets/a/e/7/e/b/RFM95_96_97_98W.pdf>
+RFM69HCW - <https://cdn.sparkfun.com/datasheets/Wireless/General/RFM69HCW-V1.1.pdf>
 
 The Hope RFM95 are Semtech SX127x LoRa based modules with a range of approximately 2K meters.
 The Hope RFM65W are equivalent to the RFM65 but have a different pin out.
@@ -353,6 +390,7 @@ The Hope RFM69HCW and RFM69W are equivalent to the RFM69 but have a different pi
 * [Adafruit RFM69HCW and RFM9X LoRa Packet Radio Breakouts](https://learn.adafruit.com/adafruit-rfm69hcw-and-rfm96-rfm95-rfm98-lora-packet-padio-breakouts/overview)
 
 ## LPWA Networking Standards
+
 Rules and spectrum allocations vary across the world,
 but these lower frequencies gets inside buildings better and the use of ultra-narrowband
 helps manage signal-to-noise problems at long range, allowing very low-power devices.
@@ -370,9 +408,11 @@ but SigFox uses it BPSK modulation for signal locking.
 SIGFOX, LoRa, OnRamp, Link Labs, Weightless, SemtechNWave, M2Communication, Coroni
 
 ## Battery Life
+
 * [LoRa on batteries: How long does it last?](https://www.youtube.com/watch?v=7nzej8lzwsY&feature=youtu.be)
 
 # Weightless
+
 Weightless has decided to pursue ultra-narrow-band (UNB) communication in the free-to-use ISM bands,
 rather than ‘white space’ radio for its physical layer.
 Around the world, agreements, legislation and infrastructure required to use white space radio
@@ -385,6 +425,7 @@ are not coming along quickly enough, and Weightless changes its strategy.
 * [Ultra Narrow Band Modulation Textbook][13]
 
 # Sigfox
+
 SIGFOX is a cellular style network operator that provides a tailor-made solution
 for low-throughput Internet of Things and M2M applications to connect
 using ultra-narrow band, UNB technology in the unlicensed ISM radio bands.
@@ -398,6 +439,7 @@ while still being able to maintain a robust data connection.
 * The density of the cells in the SIGFOX network is based on an average range of about 30-50km in rural areas and in urban areas where there are usually more obstructions and noise is greater the range may be reduced to between 3 and 10km. Distances can be much higher for outdoor nodes where SIGFOX states line of sight messages could travel over 1000km.
 
 # LoRa
+
 One of the major issues for machine to machine (M2M) communications
 used for applications like the Internet of Things (IoT)
 is to enable communications over long ranges using very low power levels.
@@ -448,6 +490,7 @@ by sharing knowledge and experience to guarantee interoperability between operat
 * [CongducPham/tutorials](https://github.com/CongducPham/tutorials)
 
 # What is LoRa?
+
 LoRa is a **Lo**ng **Ra**nge radio technology [developed by Cycleo and acquired by Semtech in 2012][02].
 LoRa uses license-free sub-gigahertz radio in the [ISM frequency bands][03]
 169 MHz, 433 MHz, 868 MHz (Europe) and 915 MHz (North America).
@@ -499,11 +542,13 @@ and dense urban area or indoor scenarios, the maximum range is about 2kms (1.2 m
 * [How Spreading Factor affects LoRaWAN device battery life](https://www.thethingsnetwork.org/article/how-spreading-factor-affects-lorawan-device-battery-life)
 
 # Some LoRa History
-* https://www.instructables.com/id/Introducing-LoRa-/
-* https://www.iotforall.com/history-of-lpwan-look-future-of-lpwan/
+
+* <https://www.instructables.com/id/Introducing-LoRa-/>
+* <https://www.iotforall.com/history-of-lpwan-look-future-of-lpwan/>
 
 # What is LoRaWAN?
-* https://lora-alliance.org/about-lorawan
+
+* <https://lora-alliance.org/about-lorawan>
 
 [LoRaWAN][01] (Long Range Wide Area Network) is a Low Power Wide Area Network (LPWAN)
 specification intended for wireless battery operated Things in regional, national or global network.
@@ -511,7 +556,7 @@ It is a media access control (MAC) protocol for long range network
 based on [LoRa][01] (Long Range) radio modulation technique.
 In the OSI Reference Model, LoRa represent layer 1 (PHY), and LoRaWAN roughly maps to layers 2 and 3.
 LoRaWAN networks use a star-of-stars topology in which gateways forward messages between nodes and applications in the backend. Nodes use a single-hop wireless connection to one or more gateways.
-http://staging.thethingsnetwork.org/wiki/LoRaWAN/Overview
+<http://staging.thethingsnetwork.org/wiki/LoRaWAN/Overview>
 
 Building a complete LoRa network or system requires significant development.
 LoRa provides the OSI PHY Layer 1 function
@@ -540,11 +585,13 @@ To get started with LoRa and leverage some of the LoRaWAN concepts
 you could try the [development kit form Multi-Tech Systems][08].
 
 ## About DevEUIs
+
 LoRa devices have a unique identifier (DevEUI) that is assigned to the device by the chip manufacturer.
 This identifier is used to uniquely identify the device on the network.
 
 
 ## Device Classes
+
 The LoRaWAN specification defines three device types.
 All LoRaWAN devices must implement Class A,
 whereas Class B and Class C are extensions to the specification of Class A devices
@@ -564,6 +611,7 @@ This allows for low-latency communication but is many times more energy consumin
 ## Modulation and Data Rate
 
 ## LoRaWAN Architecture
+
 A typical LoRaWAN solution is about enabling low power devices (typically called nodes in the LoRa world)
 communicating with a gateway (sometimes called a concentrator that then connects with other gateways
 or to a network server to exchange data with application server.
@@ -600,21 +648,23 @@ Where the network server doesn't look at the packet data,
 the application server specifical takes actions based on the packet contents.
 
 # LoRa Tools
-* Calculate the air time of your LoRa frame - https://www.loratools.nl/#/airtime
-* lora link budget tools - https://www.google.com/search?ei=k1R0XN-oFq-c_QaZ5Y6wCw&q=lora+link+budget+tools&oq=lora+link+budget+tools&gs_l=psy-ab.3...8809.13461..14146...2.0..0.127.739.11j1......0....1..gws-wiz.......0i71j0i13.hbYUAwJFGig
-* Link Budget Calculator - https://www.everythingrf.com/rf-calculators/link-budget-calculator
-* The Best LoRa Settings for Range and Reliability - https://medium.com/home-wireless/testing-lora-radios-with-the-limesdr-mini-part-2-37fa481217ff
-* LoRaWAN range, part 1: The most important factors for a good LoRaWAN signal range - https://smartmakers.io/en/lorawan-range-part-1-the-most-important-factors-for-a-good-lorawan-signal-range/
-* Optimizing LoRa radio performance for embedded devices - https://www.embedded.com/design/connectivity/4459179/Optimizing-LoRa-radio-performance-for-embedded-devices
-* Long Range Embedded Systems - https://medium.com/home-wireless/long-range-embedded-systems-848eb6df3ea
-* Long Range Embedded Systems — Part 2 - https://medium.com/home-wireless/long-range-embedded-systems-part-2-dc37a920961b
-* LoRa Modulation Basics - https://www.semtech.com/uploads/documents/an1200.22.pdf
-* LoRa/LoRaWAN tutorial 8: Link Budget and Link Margin - https://www.youtube.com/watch?v=jMFa3AiDbcI
-* Exploring LoRa and LoRaWAN - http://publications.lib.chalmers.se/records/fulltext/252610/252610.pdf
-* LoRaWAN simply explained - http://jensd.be/755/network/lorawan-simply-explained
-* LoRa modem with LimeSDR - https://myriadrf.org/news/lora-modem-limesdr/
+
+* Calculate the air time of your LoRa frame - <https://www.loratools.nl/#/airtime>
+* lora link budget tools - <https://www.google.com/search?ei=k1R0XN-oFq-c_QaZ5Y6wCw&q=lora+link+budget+tools&oq=lora+link+budget+tools&gs_l=psy-ab.3...8809.13461..14146...2.0..0.127.739.11j1......0....1..gws-wiz.......0i71j0i13.hbYUAwJFGig>
+* Link Budget Calculator - <https://www.everythingrf.com/rf-calculators/link-budget-calculator>
+* The Best LoRa Settings for Range and Reliability - <https://medium.com/home-wireless/testing-lora-radios-with-the-limesdr-mini-part-2-37fa481217ff>
+* LoRaWAN range, part 1: The most important factors for a good LoRaWAN signal range - <https://smartmakers.io/en/lorawan-range-part-1-the-most-important-factors-for-a-good-lorawan-signal-range/>
+* Optimizing LoRa radio performance for embedded devices - <https://www.embedded.com/design/connectivity/4459179/Optimizing-LoRa-radio-performance-for-embedded-devices>
+* Long Range Embedded Systems - <https://medium.com/home-wireless/long-range-embedded-systems-848eb6df3ea>
+* Long Range Embedded Systems — Part 2 - <https://medium.com/home-wireless/long-range-embedded-systems-part-2-dc37a920961b>
+* LoRa Modulation Basics - <https://www.semtech.com/uploads/documents/an1200.22.pdf>
+* LoRa/LoRaWAN tutorial 8: Link Budget and Link Margin - <https://www.youtube.com/watch?v=jMFa3AiDbcI>
+* Exploring LoRa and LoRaWAN - <http://publications.lib.chalmers.se/records/fulltext/252610/252610.pdf>
+* LoRaWAN simply explained - <http://jensd.be/755/network/lorawan-simply-explained>
+* LoRa modem with LimeSDR - <https://myriadrf.org/news/lora-modem-limesdr/>
 
 # LoRa Geolocation / Localization
+
 * [LoRa Geolocation](https://www.youtube.com/watch?v=WEqLESKW6N8)
 * [Multilateration](https://www.bresslergroup.com/blog/the-latest-on-lora-enabling-the-internet-of-things-to-get-real/)
 * [LoRa Localization](https://www.link-labs.com/blog/lora-localization)
@@ -622,10 +672,12 @@ the application server specifical takes actions based on the packet contents.
 * [Investigation of the Performance of TDoA-Based Localization Over LoRaWAN in Theory and Practice](https://res.mdpi.com/d_attachment/sensors/sensors-20-05464/article_deploy/sensors-20-05464.pdf)
 
 ## LoRa Cloud Locator
+
 * [Introducing LoRa Cloud Locator](https://www.youtube.com/watch?v=SVpGjOby02Y)
 * [LoRa Cloud Locator](https://locator.loracloud.com/)
 
 # MultiConnect Conduit
+
  [MultiTech has created a portfolio][09] of gateways
 and embedded end nodes that enable your IoT applications.
 
@@ -633,6 +685,7 @@ and embedded end nodes that enable your IoT applications.
 like [The Things Network][14], [scriptr;][11].
 
 # GNU Radio LoRa Reciver
+
 * [gr-lora: GNU Radio blocks for receiving LoRa modulated radio messages using SDR](https://github.com/rpp0/gr-lora)
 
 ################################################################################
@@ -642,17 +695,19 @@ like [The Things Network][14], [scriptr;][11].
 * [LoRa Devloper Portal](https://lora-developers.semtech.com/)
 
 # The Things Network
+
 ![img](http://thethingsnetwork.org/static/ttn/media/The%20Things%20Uitlijning.svg)
 
 * [The Things Stack](https://thethingsindustries.com/docs/getting-started/)
 * [LoRaWAN with ProRF and The Things Network](https://learn.sparkfun.com/tutorials/lorawan-with-prorf-and-the-things-network/all)
-* https://www.thethingsnetwork.org/docs/
+* <https://www.thethingsnetwork.org/docs/>
 * [The Things Network](http://thethingsnetwork.org/)
 * [The Things Network Calderdale](http://www.rs-online.com/designspark/electronics/eng/blog/the-things-network-calderdale)
 * [Washington DC Region Things Network community](http://thethingsnetwork.org/c/washington/)
 * [Building a Raspberry Pi Powered LoRaWAN Gateway](http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway)
 
 ## TTN Mapper
+
 The TTN Mapper allows you to upload coverage information
 (location, RSSI, SNR) to TTN Mapper directly from the TTN backend.
 The goal of TTN Mapper is to provide a map of the actual coverage of the TTN gateways.
@@ -660,19 +715,21 @@ You, as a contributor to TTN Mapper,
 measure the performance of gateways in your vicinity
 and upload this information to the TTN Mapper website.
 
-* https://www.thethingsnetwork.org/docs/applications/ttnmapper/
+* <https://www.thethingsnetwork.org/docs/applications/ttnmapper/>
 
 # Link Budget
+
 A link budget is an accounting of all of the gains and losses from the transmitter,
 through the medium (free space, cable, waveguide, fiber, etc.)
 to the receiver in a telecommunication system.
 
-* https://en.wikipedia.org/wiki/Link_budget
-* https://www.pasternack.com/t-calculator-link-budget.aspx
+* <https://en.wikipedia.org/wiki/Link_budget>
+* <https://www.pasternack.com/t-calculator-link-budget.aspx>
 
 * [RF Line of Sight](http://pathrf.com/company/news/112-online-applications-news/rf-radio-app-news/122-rf-line-of-sight-released)
 
 # Packet Broker
+
 * [Packet Broker - What is it?](https://www.thethingsindustries.com/docs/getting-started/packet-broker/)
 * [Improve your LoRaWAN® coverage and network performance with Packet Broker](https://www.thethingsindustries.com/news/improve-your-lorawan-coverage-and-network-performance-with-packet-broker/)
 
@@ -683,27 +740,39 @@ to the receiver in a telecommunication system.
 
 
 # LoRa Build and Buy Options
+
 * [LoRa Add-on Boards for Makers](https://www.eetindia.co.in/news/article/LoRa-Add-on-Boards-for-Makers)
 
 ## LoRaWAN
+
 * [LoRaServer - The LoRa Server Project](https://www.loraserver.io/)
-* https://github.com/brocaar/loraserver
+* <https://github.com/brocaar/loraserver>
 * [The state and future of LoRa Server](https://medium.com/@brocaar/the-state-and-future-of-lora-server-b95425eea73c)
 * [How to setup LoRa Server](http://www.ihamvic.com/2018/08/31/how-to-setup-lora-server/)
+
 ## LoRa Node
+
 ### Feather M0 with RFM95
+
 * [Adafruit Feather M0 with RFM95 LoRa Radio](https://www.adafruit.com/product/3178)
+
 ### LoRa32u4
+
 The only disadvantage is the memory of 32KB,
 but for higher demands you can choose the Feather M0 LoRa with 256KB memory installed.
+
 * [USING ADAFRUIT FEATHER 32U4 RFM95 AS AN TTN NODE](https://www.thethingsnetwork.org/labs/story/using-adafruit-feather-32u4-rfm95-as-an-ttn-node)
 * [Adafruit Feather as LoRaWAN node](https://wolfgangklenk.wordpress.com/2017/04/15/adafruit-feather-as-lorawan-node/)
 * [Got Adafruit Feather 32u4 LoRa Radio to work and here is how](https://www.thethingsnetwork.org/forum/t/got-adafruit-feather-32u4-lora-radio-to-work-and-here-is-how/6863)
 
 ## LoRa Gateway
+
 * [Deploy a Basics Station LoRa gateway with TTN and balena](https://www.balena.io/blog/deploy-a-basics-station-lora-gateway-with-ttn-and-balena/)
+
 ### Single Channel Gateway
+
 ### Roll Your Own
+
 * [Raspberry Pi friendly LoRaWAN Module for long-range wireless comms](https://www.electronicsweekly.com/blogs/gadget-master/raspberry-pi-gadget-master/raspberry-pi-friendly-lorawan-module-for-long-range-wireless-comms-2024-01/)
 * [Elecrow launches LoRaWAN Gateway module for Raspberry Pi](https://linuxgizmos.com/elecrow-launches-lorawan-module-for-raspberry-pi/)
 * [Sparklines For Your ESP32 Projects](https://hackaday.com/2020/06/06/sparklines-for-your-esp32-projects/)
@@ -713,21 +782,26 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 * [Single Channel LoRaWAN Gateway for Raspberry Pi](https://learn.adafruit.com/raspberry-pi-single-channel-lorawan-gateway)
 * [Building a Raspberry Pi Powered LoRaWAN Gateway](http://www.rs-online.com/designspark/electronics/eng/blog/building-a-raspberry-pi-powered-lorawan-gateway)
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
+
 #### Dragino HAT
+
 * [Dragino 10 channels - LoRaWAN GPS Concentrator for Raspberry Pi](https://www.seeedstudio.com/Dragino-10-channels-LoRaWAN-GPS-Concentrator-for-Raspberry-Pi-p-4481.html)
 * [Cheap LoRa Gateway: Tutorial on how to Build with one with Raspberry Pi and Dragino](https://www.youtube.com/watch?v=Ya-QlEaonLU)
 * [Dragino Lora/GPS HAT](http://wiki.dragino.com/index.php?title=Lora/GPS_HAT)
-    * [Dragino LoRa GPS HAT 915Mhz for Raspberry Pi 2 Model B/Raspberry Pi 3, Built-in Temperature Sensor LNA, Support DGPS SBAS SDK Command RFW95W](https://www.amazon.com/Dragino-Raspberry-Temperature-Support-Command/dp/B07HCZMHKZ/ref=sr_1_1)
-    * [Getting started with LoraWAN, TheThingsNetwork and PlatformIO](https://www.thingforward.io/techblog/2017-09-27-getting-started-with-lorawan-thethingsnetwork-and-platformio.html)
-    * [LoRaWAN Single Channel Gateway](https://wolfgangklenk.wordpress.com/2017/02/05/lorawan-single-channel-gateway/)
-    * [The Things Network dual-channel up&downlink gateway](https://hansboksem.wordpress.com/2017/01/23/the-things-network-dual-channel-updownlink-gateway/)
+  * [Dragino LoRa GPS HAT 915Mhz for Raspberry Pi 2 Model B/Raspberry Pi 3, Built-in Temperature Sensor LNA, Support DGPS SBAS SDK Command RFW95W](https://www.amazon.com/Dragino-Raspberry-Temperature-Support-Command/dp/B07HCZMHKZ/ref=sr_1_1)
+  * [Getting started with LoraWAN, TheThingsNetwork and PlatformIO](https://www.thingforward.io/techblog/2017-09-27-getting-started-with-lorawan-thethingsnetwork-and-platformio.html)
+  * [LoRaWAN Single Channel Gateway](https://wolfgangklenk.wordpress.com/2017/02/05/lorawan-single-channel-gateway/)
+  * [The Things Network dual-channel up&downlink gateway](https://hansboksem.wordpress.com/2017/01/23/the-things-network-dual-channel-updownlink-gateway/)
+
 #### HelTec
+
 * [HelTec ESP32 plus Lora Transceiver SX1278 with 0.96inch OLED display](https://www.amazon.com/gp/product/B076CLVD8Y/ref=ox_sc_act_title_2?smid=A1NYZTXAOG1XW3&psc=1)
 * [Heltec ESP32 + LoRaWAN Tutorial Published](https://www.thethingsnetwork.org/community/birmingham-al/post/heltec-esp32-lorawan-tutorial-published)
 * [HELTEC-LORAWAN-GPS QUICK START](https://www.thethingsnetwork.org/labs/story/heltec-lorawan-gps-quick-start)
 * [LoraWan working example from network search : Single Channel Gateway using Heltec WiFi LoRa 32 OLED and code for device](http://ldsrc.blogspot.com/2018/01/lorawan-working-example-from-network.html)
 
 #### Adafruit LoRa Raspberry Pi Zero Bonnet
+
 * [Single Channel LoRaWAN Gateway for Raspberry Pi](https://learn.adafruit.com/raspberry-pi-single-channel-lorawan-gateway)
 * [Adafruit LoRa Radio Bonnet with OLED - RFM95W @ 915MHz - RadioFruit](https://www.adafruit.com/product/4074)
 * [SX1308 Raspberry Pi Zero LoRa Gateway Board](https://www.tindie.com/products/will123321/sx1308-raspberry-pi-zero-lora-gateway-board/)
@@ -735,26 +809,34 @@ but for higher demands you can choose the Feather M0 LoRa with 256KB memory inst
 
 
 ### Multi-Channel Gateway
+
 * [The Things Indoor LoRaWAN WiFi Gateway Based on SX1308 – US915](https://www.amazon.com/dp/B08L6BWNJR)
+
 #### Basic Station
-* https://github.com/lorabasics/basicstation
-* https://doc.sm.tc/station/
+
+* <https://github.com/lorabasics/basicstation>
+* <https://doc.sm.tc/station/>
 
 #### balenaFin
+
 * [Build a TTN LoRa Gateway with balenaFin and balenaCloud](https://www.hackster.io/chriscw/build-a-ttn-lora-gateway-with-balenafin-and-balenacloud-e06f7d)
 
 #### Semtech Referance Design
+
 * [Semtech LoRa multi-channel RF receiver](https://github.com/Lora-net/packet_forwarder/wiki/Use-with-Raspberry-Pi)
 
 #### iMST iC880a Board
+
 * [Build your own gateway](https://www.thethingsnetwork.org/docs/gateways/start/build.html)
 
 #### RAK2245
+
 * [Using the LoRaWAN Gateway with a Raspberry Pi 4](https://www.hackster.io/bluetiger9/lorawan-gateway-with-rak2245-pi-hat-and-raspberry-pi-4-3d2407)
 * [Aluminium Case for RAK2245 Gateway](https://www.amazon.com/Gateway-Aluminium-RAK2245-Raspberry-Radiator/dp/B07SGCGL9T)
 * [RAK Lora Development Board RAK2245](https://www.amazon.com/Development-RAK2245-Raspberry-Concentrator-Connector/dp/B085W5ZL4F)
 
 #### RAK 831
+
 * [$99 RAK7246 LoRaWAN Developer Gateway Features Raspberry Pi Zero W SBC](https://www.cnx-software.com/2020/02/18/rak7246-lorawan-developer-gateway-features-raspberry-pi-zero-w-sbc/)
 * [Raspberry Pi 4 based LoRaWAN gateway has GPS and optional LTE](http://linuxgizmos.com/raspberry-pi-4-based-lorawan-gateway-has-gps-and-optional-lte/)
 * [RAK7244 LoRaWAN Developer Gateway](https://store.rakwireless.com/products/rak7244-developer-lorawan-gateway)
@@ -778,6 +860,7 @@ to a main board computer or microcontroller.
 
 
 #### The Things Gateway
+
 * [The Things Gateway](https://www.adafruit.com/product/3943)
 
 
@@ -786,13 +869,14 @@ to a main board computer or microcontroller.
 
 
 
-* [LoRa Tutorials For The DIY Masses ](https://hackaday.com/2020/02/25/lora-tutorials-for-the-diy-masses/)
+* [LoRa Tutorials For The DIY Masses](https://hackaday.com/2020/02/25/lora-tutorials-for-the-diy-masses/)
 * [LoRa/LoRaWAN tutorials](https://www.youtube.com/playlist?list=PLmL13yqb6OxdeOi97EvI8QeO8o-PqeQ0g)
 * [ESP32](https://www.youtube.com/playlist?list=PL3XBzmAj53RnZPeWe799F-uoXERBldhn9)
 * [ESP8266](https://www.youtube.com/playlist?list=PL3XBzmAj53Rlu3Byy_GkqG6b-nwEpWku0)
 * [LoRa on ESP Tutorials](https://github.com/xreef/LoRa_E32_Series_Library)
 
 # HelTec WiFi LoRa 32
+
 For my first foray into the world of LoRa radios is with the
 [HelTec WiFi LoRa 32 (V2)][30] using The Thing Network.
 My main driver for selecting this device over others was
@@ -820,6 +904,7 @@ as LoRaWAN nodes and with the [HelTec HT-M01 LoRa Gateway][33]
 (about $170 on [Amazon][34]).
 
 ## Background
+
 To fully appreciate all the subtleties of setting up the HelTec devices,
 your really should have a rather deep & broad understanding
 of radios, radio link engineering, LoRa, LoRaWAN, and all the tools you'll be using.
@@ -830,28 +915,29 @@ These video will provide most everything you'll need:
 * [LoRa/LoRaWAN Tutorials](https://www.youtube.com/playlist?list=PLmL13yqb6OxdeOi97EvI8QeO8o-PqeQ0g)
 
 ## Documentation
+
 The documentation for the HelTec WiFi LoRa 32 (V2) product is a heavy lift
 if your new to Arduino IDE, ESP, LoRa.
 Some of the documentation referenced below is for an earlier version of the HelTec WiFi LoRA 32.
 Much of it remains valid for the version I'm using (v2), but be careful:
 
 * **Amazon**
-    * [OLED Code and Pin Outs](https://www.adrive.com/public/drzr3P/datasheet%20F000905.rar)
-    * [source codes and toolchain made by HelTec](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
+  * [OLED Code and Pin Outs](https://www.adrive.com/public/drzr3P/datasheet%20F000905.rar)
+  * [source codes and toolchain made by HelTec](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
 * **HelTec Website**
-    * [HelTec WiFi LoRa 32 (V2)](http://www.heltec.cn/project/wifi-lora-32/?lang=en) (version 2)
+  * [HelTec WiFi LoRa 32 (V2)](http://www.heltec.cn/project/wifi-lora-32/?lang=en) (version 2)
 * **LoRa/LoRaWAN Tutorials**
-    * [LoRa/LoRaWAN tutorial 20: LoRa End Node Libraries](https://www.youtube.com/watch?v=0dnnqToK28A&index=20)
+  * [LoRa/LoRaWAN tutorial 20: LoRa End Node Libraries](https://www.youtube.com/watch?v=0dnnqToK28A&index=20)
 * **The Things Network**
-    * [BIG ESP32 / SX127x topic part 1](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247) (version 1)
-    * [Big ESP32 + SX127x topic part 2](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-2/11973) (version 1)
-    * [Big ESP32 + SX127x topic part 3](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-3/18436) (version 1)
+  * [BIG ESP32 / SX127x topic part 1](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247) (version 1)
+  * [Big ESP32 + SX127x topic part 2](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-2/11973) (version 1)
+  * [Big ESP32 + SX127x topic part 3](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-3/18436) (version 1)
 * **Hackaday**
-    * [ESP32 Board - WiFi LoRa 32](https://hackaday.io/project/26991-esp32-board-wifi-lora-32) (version 1)
+  * [ESP32 Board - WiFi LoRa 32](https://hackaday.io/project/26991-esp32-board-wifi-lora-32) (version 1)
 
 * [SemTech LoRaMAC-Node Library](https://github.com/Lora-net/LoRaMac-node)
-    * [API Documentation](http://stackforce.github.io/LoRaMac-doc/)
-    * [Porting Guide](http://stackforce.github.io/LoRaMac-doc/_p_o_r_t_i_n_g__g_u_i_d_e.html)
+  * [API Documentation](http://stackforce.github.io/LoRaMac-doc/)
+  * [Porting Guide](http://stackforce.github.io/LoRaMac-doc/_p_o_r_t_i_n_g__g_u_i_d_e.html)
 * [Arduino LMIC (LoraMAC-in-C) Library](https://github.com/mcci-catena/arduino-lmic)
 * [RadioHead Library]()
 
@@ -866,6 +952,7 @@ Much of it remains valid for the version I'm using (v2), but be careful:
 
 
 # LoRa Range Testing
+
 See this video by SmartFun about how they tested the range of their device.
 The use of two device sees like a simple idea that could be mssed.
 Combine this with a GPS tracker and a LCD display, and you got a full package
@@ -883,6 +970,7 @@ Combine this with a GPS tracker and a LCD display, and you got a full package
 
 
 # HelTec WiFi LoRa 32 + LoRaWAN
+
 Andreas Spiess has an excellent [introduction to the HelTec WiFi LoRa 32][37].
 He makes the point that the board + antenna is not well engineered
 (he prefers the [Hope RFM95][38] and the antennas provided are crap).
@@ -915,12 +1003,14 @@ well create a LoRa Node and Single-Channel LoRaWAN Gateway
 
 
 # Heltec ESP32
+
 Verizon 2 so many bugs were fixed and more stable
 better impedance matching
 flash size of 8Mbytes
 voltage limit less than 7V
 
 ## Heltec ESP32 LoRa Point-to-Point
+
 There are a few tutorials on how to set LoRa up in a point-to-point configuration.
 
 * [LoRa Is the Network](https://hackaday.com/2017/10/24/lora-is-the-network/)
@@ -928,6 +1018,7 @@ There are a few tutorials on how to set LoRa up in a point-to-point configuratio
 * [ESP32 - LoRa - OLED Module](https://hackaday.io/project/27791-esp32-lora-oled-module)
 
 ### Step 1: Attach an Antenna
+
 Make sure to attach an antenna to the HelTec WiFi LoRa 32.
 
 >**WARNING:** Never apply power to the HelTec WiFi LoRa 32
@@ -935,6 +1026,7 @@ Make sure to attach an antenna to the HelTec WiFi LoRa 32.
 >Doing so will likely **burn out** the radio chip!
 
 ### Step X: Make Terminal Connection - DONE
+
 The HelTec WiFi LoRa 32 (V2) comes with some pre-installed software,
 and I believe it's the [source codes and toolchain made by HelTec][22].
 If you plug-in a USB connection between the device your Linux box, it will power up,
@@ -963,6 +1055,7 @@ While this shows potential,
 I want to start simple and with better documentation.
 
 ### Step X: LoRa Sender and Reciever
+
 Instead of using [HelTec's coding examples][22],
 I'll follow design patterns found in
 [Robot Zero One][23], the [Random Nerd Tutorals][25], and [Fernando Koyanagi][26].
@@ -974,6 +1067,7 @@ An introduction to this library can be found at "[ESP32 Arduino: Interacting wit
 
 
 ### Step X: Get OLED Display Working
+
 The HelTec WiFi LoRA 32 has a built-in
 monochrome 0.96" 128x64 pixel OLED graphic display.
 It can be addressed like a serial console,
@@ -988,21 +1082,28 @@ via the command:
 # install the U8g2 and LoRa libraries
 arduino-cli lib install "U8g2" "LoRa"
 ```
+
 * [Making Bitmaps for display on OLED Screens Using Arduino](https://www.youtube.com/watch?v=WEUeXwTc_JE)
 * [ESP32 Board - WiFi LoRa 32](https://hackaday.io/project/26991-esp32-board-wifi-lora-32)
 
-### Step X:
+### Step X
+
 arduino-cli compile -b esp32:esp32:heltec_wifi_lora_32
 
-### Step X:
-### Step X:
-### Step X:
-### Step X:
-### Step X:
+### Step X
+
+### Step X
+
+### Step X
+
+### Step X
+
+### Step X
 
 
 
 ## Heltec ESP32 + LoRaWAN (Single Channel Gateway)
+
 In this section, we will construct a LoRa Node and Single-Channel LoRaWAN Gateway
 (aka 1-Channel LoRa Gateway) that works with the [The Things Network (TTN)][14].
 We'll create a LoRa node will connect to the gateway and
@@ -1048,6 +1149,7 @@ tutorial on the Web that could also be helpful:
 ## Load LoRa Gateway Firmware
 
 ### Step 1: Attach an Antenna - DONE
+
 Before you do anything,
 make sure to attach an antenna to the HelTec WiFi LoRa 32
 so you don't mistakenly burn out your radio.
@@ -1058,6 +1160,7 @@ so you don't mistakenly burn out your radio.
 >Doing so will likely **burn out** the radio chip!
 
 ### Step X: Clone and Install Things4U Code - DONE
+
 Next I download the [code from Things4U][53] from GiHub.
 This repository comes with its own set of libraries it expects you to install with the Arduino IDE.
 I want to move away from the quirkiness of the Arduino IDE to a Makefile,
@@ -1121,31 +1224,32 @@ arduino-cli lib install "ESP8266 and ESP32 Oled Driver for SSD1306 display"
 
 # list the libraries you have installed in the Arduino IDE
 $ arduino-cli lib list
-Name                                             	Installed	Location
-Adafruit_GFX_Library                             	1.3.6    	sketchbook
-Adafruit_LED_Backpack_Library                    	1.1.6    	sketchbook
-ArduinoJson                                      	5.13.4   	sketchbook
-DoubleResetDetect                                	1.0.0    	sketchbook
-ESP32WebServer                                   	1.0      	sketchbook
-ESP8266_and_ESP32_Oled_Driver_for_SSD1306_display	4.0.0    	sketchbook
-LoRa                                             	0.5.0    	sketchbook
-LoRaCode                                         	         	sketchbook
-MCCI_LoRaWAN_LMIC_library                        	2.3.1    	sketchbook
-PersWiFiManager                                  	4.0.0    	sketchbook
-SPIFFSReadServer                                 	0.0.4    	sketchbook
-Streaming                                        	5.0.0    	sketchbook
-Time                                             	1.5      	sketchbook
-Timezone                                         	1.2.2    	sketchbook
-U8g2                                             	2.24.3   	sketchbook
-WiFiEsp                                          	2.2.2    	sketchbook
-WiFiManager                                      	0.14     	sketchbook
-aes                                              	         	sketchbook
-arduino-timer                                    	1.0.0    	sketchbook
-esp32-http-update                                	2.1.145  	sketchbook
-gBase64                                          	1.0.0    	sketchbook
+Name                                              Installed Location
+Adafruit_GFX_Library                              1.3.6     sketchbook
+Adafruit_LED_Backpack_Library                     1.1.6     sketchbook
+ArduinoJson                                       5.13.4    sketchbook
+DoubleResetDetect                                 1.0.0     sketchbook
+ESP32WebServer                                    1.0       sketchbook
+ESP8266_and_ESP32_Oled_Driver_for_SSD1306_display 4.0.0     sketchbook
+LoRa                                              0.5.0     sketchbook
+LoRaCode                                                    sketchbook
+MCCI_LoRaWAN_LMIC_library                         2.3.1     sketchbook
+PersWiFiManager                                   4.0.0     sketchbook
+SPIFFSReadServer                                  0.0.4     sketchbook
+Streaming                                         5.0.0     sketchbook
+Time                                              1.5       sketchbook
+Timezone                                          1.2.2     sketchbook
+U8g2                                              2.24.3    sketchbook
+WiFiEsp                                           2.2.2     sketchbook
+WiFiManager                                       0.14      sketchbook
+aes                                                         sketchbook
+arduino-timer                                     1.0.0     sketchbook
+esp32-http-update                                 2.1.145   sketchbook
+gBase64                                           1.0.0     sketchbook
 ```
 
 ### Step X: Test Compile the Gateway Code - DONE
+
 Without further modifications,
 I was able to successfully compile the code
 using the Arduino IDE and the `arduino-cli` tools:
@@ -1157,6 +1261,7 @@ arduino-cli compile -b esp32:esp32:heltec_wifi_lora_32
 ```
 
 ### Step X: Configure the LoRa Radio - DONE
+
 Before loading the ESP32 with the binaries,
 I want to make sure the LoRa radio and other things are properly configured
 for my radio spectrum and the specifics of the HelTec WiFi LoRa 32 (V2) board.
@@ -1165,6 +1270,7 @@ see the references to online documentation and videos at the top of this section
 Particularly important are the instructions in the GitHub [README.md file][55].
 
 #### Update `loraModem.h`
+
 I need to add pinout information for the [HelTec WiFi LoRa 32 (V2)][30].
 To support the LoRa radio pinout,
 I added the following code to the file `loraModem.h`:
@@ -1198,16 +1304,17 @@ I added the following code to the file `loraModem.h`:
 #define SS     18
 
 struct pins {
-	uint8_t dio0 = 26;		// GPIO 26 / Dio0 used for one frequency and one SF
-	uint8_t dio1 = 33;		// GPIO 26 / Used for CAD, may or not be shared with DIO0
-	uint8_t dio2 = 32;		// GPIO 26 / Used for frequency hopping, don't care
-	uint8_t ss =   SS;		// GPIO 18 / Dx. Select pin connected to GPIO18
-	uint8_t rst =  RST;     // GPIO  0 / D3. Reset pin not used
+ uint8_t dio0 = 26;  // GPIO 26 / Dio0 used for one frequency and one SF
+ uint8_t dio1 = 33;  // GPIO 26 / Used for CAD, may or not be shared with DIO0
+ uint8_t dio2 = 32;  // GPIO 26 / Used for frequency hopping, don't care
+ uint8_t ss =   SS;  // GPIO 18 / Dx. Select pin connected to GPIO18
+ uint8_t rst =  RST;     // GPIO  0 / D3. Reset pin not used
 } pins;
 
 ```
 
 #### Update `oLED.h`
+
 And I added the following code to the `oLED.h` file to support the OLED:
 
 ```cpp
@@ -1221,6 +1328,7 @@ And I added the following code to the `oLED.h` file to support the OLED:
 ```
 
 #### Update `ESP-sc-gway.h`
+
 Within the `ESP-sc-gway.h` file,
 make sure the following pre-processor varables are set:
 
@@ -1235,17 +1343,17 @@ make sure the following pre-processor varables are set:
 #define OLED 2          // what type of OLED display
 
 // The Things Network (TTN) parameters
-#define _LOCUDPPORT 1700		        	// UDP port of gateway! Often 1700 or 1701 is used for upstream comms
+#define _LOCUDPPORT 1700           // UDP port of gateway! Often 1700 or 1701 is used for upstream comms
 #define _TTNSERVER "ttn-router-us-west"     // ID of the router your gateway will connect to
 //#define _TTNSERVER "router.us.thethings.network"     // ID of the router your gateway will connect to
 
 // gateway ident definitions
-#define _DESCRIPTION "test-gway-1-jirland"	   	// name of the gateway
-#define _EMAIL "jeffskinnerbox@yahoo.com"    	// owner email
+#define _DESCRIPTION "test-gway-1-jirland"     // name of the gateway
+#define _EMAIL "jeffskinnerbox@yahoo.com"     // owner email
 #define _PLATFORM "HelTec WiFi LoRa 32"         // board used for gateway
 #define _LAT 39.095852                          // 39°05'45.1"N
 #define _LON -77.586528                         // 77°35'11.6"W
-#define _ALT 115						    	// altitude in meters
+#define _ALT 115           // altitude in meters
 
 #define GATEWAYNODE 0                           // 1 if gateway has sensor, 0 otherwise
 #define _CHECK_MIC 0                            // 1 if gateway has sensors, 0 otherwise
@@ -1263,8 +1371,8 @@ make sure the following pre-processor varables are set:
 #endif
 
 // ntp time server
-#define NTP_TIMESERVER "us.pool.ntp.org"	// Country and region specific
-#define NTP_TIMEZONES	5					// How far is our Timezone from UTC (excl daylight saving/summer time)
+#define NTP_TIMESERVER "us.pool.ntp.org" // Country and region specific
+#define NTP_TIMEZONES 5     // How far is our Timezone from UTC (excl daylight saving/summer time)
 
 // define the radio type that you are using
 #define CFG_sx1276_radio
@@ -1277,13 +1385,14 @@ Then updated your WiFi credentials in the `ESP-sc-gway.h` file as so:
 
 ```cpp
 wpas wpa[] = {
-	{ "" , "" },		           // reserved for WiFi Manager
-	{ "my-ssid", "my-password" },  // home wifi
-	{ "", "" }                     // do not use
+ { "" , "" },             // reserved for WiFi Manager
+ { "my-ssid", "my-password" },  // home wifi
+ { "", "" }                     // do not use
 };
 ```
 
 ### Step X: Semtech vs. TTN Packet Forwarder - DONE
+
 A [packet forwarder][61] is a program running on the LoRa gateway
 and forwards RF packets received to a server through a IP/UDP link.
 It also receives packets form the server and sends RF packets to the nodes.
@@ -1291,6 +1400,7 @@ It can also send a network-wide GPS-synchronous beacon signal
 used for coordinating all nodes of the network.
 
 There are three readily available packet forwarders that TTN supports:
+
 1. [The Things Network Packet Forwarder][70] ([Github][71])
 2. [Semtech Packet Forwarder][72] ([Github][73])
 3. [The Things Network Multi Protocol Packet Forwarder][74] ([Github][75])
@@ -1302,6 +1412,7 @@ The [code from Things4U][53] uses the Semtech forwarder and you might want to
 consider replacing it with one of the others.
 
 ### Step X: Test Load the HelTec WiFi LoRa 32 - DONE
+
 ```bash
 # compile the program
 arduino-cli compile --fqbn esp32:esp32:heltec_wifi_lora_32
@@ -1311,20 +1422,21 @@ arduino-cli upload --fqbn esp32:esp32:heltec_wifi_lora_32 --port /dev/ttyUSB0 ~/
 ```
 
 ## Establish Your Gateway on The Things Network (TTN)
+
 Next we need to provision our gateway on to The Things Network (TTN).
 We have already prepared our device for connecting with TTN
 by setting the parameters in the `ESP-sc-gway.h`,
 as shown above in Step X.
 
 * [LoRaWAN with ProRF and The Things Network](https://learn.sparkfun.com/tutorials/lorawan-with-prorf-and-the-things-network/all)
-* https://www.thethingsnetwork.org/docs/
+* <https://www.thethingsnetwork.org/docs/>
 * [The Things Network](http://thethingsnetwork.org/)
 * [The Things Network Calderdale](http://www.rs-online.com/designspark/electronics/eng/blog/the-things-network-calderdale)
 * [The Things Network dual-channel up&downlink gateway](https://hansboksem.wordpress.com/2017/01/23/the-things-network-dual-channel-updownlink-gateway/)
 * **The Things Network**
-    * [BIG ESP32 / SX127x topic part 1](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247) (version 1)
-    * [Big ESP32 + SX127x topic part 2](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-2/11973) (version 1)
-    * [Big ESP32 + SX127x topic part 3](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-3/18436) (version 1)
+  * [BIG ESP32 / SX127x topic part 1](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-1/10247) (version 1)
+  * [Big ESP32 + SX127x topic part 2](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-2/11973) (version 1)
+  * [Big ESP32 + SX127x topic part 3](https://www.thethingsnetwork.org/forum/t/big-esp32-sx127x-topic-part-3/18436) (version 1)
 * [SparkFun LoRa Gateway 1-Channel Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-lora-gateway-1-channel-hookup-guide/all)
 
 Introduction to LoRa and The Things Network
@@ -1336,6 +1448,7 @@ Introduction to LoRa and The Things Network
 * [Introduction to LoRa](https://www.youtube.com/watch?v=8Oxcp9wQQnk&feature=youtu.be)
 
 ### Step X: Register Your Application and Gateway - DONE
+
 The first step is to [signed up for a TTN account][57],
 which will give you access to the [TTN Console][58].
 Once you've logged into the console,
@@ -1375,6 +1488,7 @@ Next we register the [gateway][59], giving me the following information:
 ## Enabling Build with a Makefile
 
 ### Step X: Enabling Makefile
+
 As stated earlier,
 this repository comes with its own set of libraries it expects you to install with the Arduino IDE.
 I want to move away from the quirkiness of the Arduino IDE to a Makefile.
@@ -1403,6 +1517,7 @@ Compiled with Arduino IDE, make using makeEspArdunio,
 and `arduino-cli compile -b esp32:esp32:heltec_wifi_lora_32`.
 
 ### Step X: Install Your Libraries - DONE
+
 You need to install library for the OLED display and the LoRaWAN.
 
 ```bash
@@ -1419,39 +1534,48 @@ arduino-cli lib install "U8g2@2.24.3" "MCCI LoRaWAN LMIC library@2.3.1"
 
 # list the libraries you have installed in the Arduino IDE
 $ arduino-cli lib list
-Name                         	Installed 	Location
-Adafruit_GFX_Library         	1.3.6     	sketchbook
-Adafruit_LED_Backpack_Library	1.1.6     	sketchbook
-ArduinoJson                  	6.7.0-beta	sketchbook
-DoubleResetDetect            	1.0.0     	sketchbook
-LoRa                         	0.5.0     	sketchbook
-MCCI_LoRaWAN_LMIC_library    	2.3.1     	sketchbook
-PersWiFiManager              	4.0.0     	sketchbook
-SPIFFSReadServer             	0.0.4     	sketchbook
-Time                         	1.5       	sketchbook
-Timezone                     	1.2.2     	sketchbook
-U8g2                         	2.24.3    	sketchbook
-arduino-timer                	1.0.0     	sketchbook
+Name                          Installed  Location
+Adafruit_GFX_Library          1.3.6      sketchbook
+Adafruit_LED_Backpack_Library 1.1.6      sketchbook
+ArduinoJson                   6.7.0-beta sketchbook
+DoubleResetDetect             1.0.0      sketchbook
+LoRa                          0.5.0      sketchbook
+MCCI_LoRaWAN_LMIC_library     2.3.1      sketchbook
+PersWiFiManager               4.0.0      sketchbook
+SPIFFSReadServer              0.0.4      sketchbook
+Time                          1.5        sketchbook
+Timezone                      1.2.2      sketchbook
+U8g2                          2.24.3     sketchbook
+arduino-timer                 1.0.0      sketchbook
 ```
+
 ################################ REMOVE ########################################
 
-### Step X:
-### Step X:
-### Step X:
-### Step X:
-### Step X:
-### Step X:
+### Step X
+
+### Step X
+
+### Step X
+
+### Step X
+
+### Step X
+
+### Step X
 
 ## LoRa Node Setup
+
 * [ESP32 LoRaWAN Node using Arduino][41]
 
 ---------------
 
 
 # ESP Security
+
 * [Don’t Toss That Bulb, It Knows Your Password](https://hackaday.com/2019/01/29/dont-toss-that-bulb-it-knows-your-password/)
 
 # ESP32 Ultra Low Power (ULP) Core
+
 * [ESP32 Ultra Low Power (ULP) core made easy in the Arduino IDE](https://www.youtube.com/watch?v=-QIcUTBB7Ww)
 * [How to Run Your ESP8266 for Years on a Battery](https://openhomeautomation.net/esp8266-battery)
 * [ESP32 #51: Battery Monitor](https://www.youtube.com/watch?v=-j04T_uVu8U)
@@ -1460,6 +1584,7 @@ arduino-timer                	1.0.0     	sketchbook
 * [Battery Life Estimator](https://www.thethingsnetwork.org/article/battery-lifetime-estimation-of-lorawan-devices)
 
 # Watchdog Time
+
 * [BASICS OF REMOTE CELLULAR ACCESS: WATCHDOGS](https://hackaday.com/2021/10/14/basics-of-remote-cellular-access-watchdogs/)
 * [Preventing Embedded Fails with Watchdogs](https://hackaday.com/2019/01/12/preventing-embedded-fails-with-watchdogs/)
 * [ESP32 Technical Tutorials: Watchdog Processing](https://www.youtube.com/watch?v=C2xF3O6qkbg)
@@ -1467,16 +1592,19 @@ arduino-timer                	1.0.0     	sketchbook
 * [Watchdog Timers in Microcontrollers](https://www.allaboutcircuits.com/technical-articles/watchdog-timers-microcontroller-timers)
 
 # ESP32-CAM
+
 * [ESP32-CAM Video Streaming and Face Recognition with Arduino IDE](https://www.youtube.com/watch?v=MicAM_A0_lU)
 * [Wireless Security Camera in a matchbox](https://www.hackster.io/akarsh98/wireless-security-camera-in-a-matchbox-42f8d6)
 * [Tristam R.'s ESP32-CAM-Powered Home Assistant Doorbell Keeps Guests' Privacy Preserved](https://www.hackster.io/news/tristam-r-s-esp32-cam-powered-home-assistant-doorbell-keeps-guests-privacy-preserved-32805b6a34e4)
 
 # ESP32-EYE
+
 * [SP-WHO is a face detection and recognition development framework designed for AIoT applications](https://www.espressif.com/en/products/hardware/esp-eye/overview)
 * [ESP-WHO is a face detection and recognition platform that is currently based on Espressif Systems' ESP32 chip](https://github.com/espressif/esp-who)
 * [ESP32 camera: face detection](https://techtutorialsx.com/2020/06/13/esp32-camera-face-detection/)
 
 # Using Both ESP32 Cores
+
 The ESP32 comes with 2 Xtensa 32-bit LX6 microprocessors: core 0 and core 1.
 So, it is dual core.
 When we run code on Arduino IDE, by default, it runs on core 1.
@@ -1504,7 +1632,6 @@ and make your ESP32 multitasking?
 [13]:http://www.vmsk.org/Textbook.pdf
 [14]:https://www.thethingsnetwork.org/
 [15]:https://en.wikipedia.org/wiki/Chirp_spread_spectrum
-[16]:https://pubs.gnuradio.org/index.php/grcon/article/download/8/7
 [17]:https://twtg.io/twtg-proved-that-nb-iot-and-lora-wan-can-connect-up-to-40cm-underground/
 [18]:https://www.youtube.com/watch?v=jNnPTxWRNxs
 [19]:https://learn.sparkfun.com/tutorials/lorawan-with-prorf-and-the-things-network/all

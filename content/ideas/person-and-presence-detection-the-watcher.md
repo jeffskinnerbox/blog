@@ -13,7 +13,7 @@ Version:      0.0.0
 ---------------
 
 
-* [Wav2Lip: Accurately Lip-syncing Videos and OpenVINO](https://github.com/openvinotoolkit/openvino_notebooks/tree/latest/notebooks/wav2lip) 
+* [Wav2Lip: Accurately Lip-syncing Videos and OpenVINO](https://github.com/openvinotoolkit/openvino_notebooks/tree/latest/notebooks/wav2lip)
 
 
 Your phone is constantly searching for all WiFi networks which you already connect in the past (unless you did remove as "saved"), saying to anyone who is listening for those public packets where you have been before, and of course, your unique device MAC address.
@@ -30,12 +30,14 @@ This program just listen for those "probe requests" and prints to serial port th
 * [Double Eye Round LCD Display Module](https://www.amazon.com/0-71inch-Double-Eye-LCD-Module/dp/B0DPX5DYXB)
 
 * [Make a homemade AI home assistant](https://www.raspberrypi.com/news/make-a-homemade-ai-home-assistant/)
-    * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
-    * [GPT Home](https://github.com/judahpaul16/gpt-home)
+* [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
+* [GPT Home](https://github.com/judahpaul16/gpt-home)
 
 
 
 # "The Watcher"
+
+
 The concept is this:
 To make people aware of the fragility of privacy and anonymity,
 create an electronic artwork that display personal information about people when they are nearby.
@@ -58,9 +60,9 @@ This can be done by making use of:
 * [The Watcher](https://en.wikipedia.org/wiki/The_Watcher_(2022_TV_series))
 
 * [Virtual Peephole](https://www.hackster.io/carolinebuttet/virtual-peephole-355c1c)
-* [Virtual Peephole](https://projecthub.arduino.cc/carolinebuttet/848e2c2e-bbe4-4bee-aa08-9e84c9c7c05e)
-    * [Insecam](http://www.insecam.org/)
-    * [EarthCam](https://www.earthcam.com/)
+[Virtual Peephole](https://projecthub.arduino.cc/carolinebuttet/848e2c2e-bbe4-4bee-aa08-9e84c9c7c05e)
+* [Insecam](http://www.insecam.org/)
+  * [EarthCam](https://www.earthcam.com/)
 * [Door Viewer Peephole](https://www.amazon.com/Viewer-Peephole-220-degree-Rotating-Privacy/dp/B07DVT97QW)
 
 * [Robotic AI Bear using ChatGPT](https://learn.adafruit.com/robotic-ai-bear-using-chatgpt)
@@ -69,16 +71,19 @@ This can be done by making use of:
 * [Eloquent Arduino: I help you integrate Machine Learning and Computer Vision into your processes and products.](https://eloquentarduino.com/)
 
 
+
 ## Give Watcher a Face
+
 Prompt for ChatGPT: How would I taken an image and convert it to a polygon version of that image?  Can you give me a python code example?
 
 
 ## Seeed Studio: SenseCAP Watcher
 
-* [Seeed Studio: Watcher](https://www.seeedstudio.com/watcher)
-    * [Getting Started with Watcher Series](https://wiki.seeedstudio.com/getting_started_with_watcher_main_page/)
-    * [As a Grove sensor](https://wiki.seeedstudio.com/watcher_as_grove/)
-    * [SenseCAP Watcher Wiki Center](https://wiki.seeedstudio.com/watcher/)
+[Seeed Studio: Watcher](https://www.seeedstudio.com/watcher)
+
+* [Getting Started with Watcher Series](https://wiki.seeedstudio.com/getting_started_with_watcher_main_page/)
+  * [As a Grove sensor](https://wiki.seeedstudio.com/watcher_as_grove/)
+  * [SenseCAP Watcher Wiki Center](https://wiki.seeedstudio.com/watcher/)
 * [The Watchman](https://www.hackster.io/taunoerik/the-watchman-dd1f4e)
 
 
@@ -103,7 +108,7 @@ Prompt for ChatGPT: How would I taken an image and convert it to a polygon versi
 * [GPS Module GPS NEO-6M](https://www.amazon.com/Microcontroller-Compatible-Sensitivity-Navigation-Positioning/dp/B07P8YMVNT)
 
 * [DNS DriveBy: Stealthy GPS Tracking & Reconnaissance through Open WiFi](https://dnsdriveby.com/)
-    * [DNSDriveBy Anonymously Track GPS Locations](https://www.youtube.com/watch?v=UExRw2dLHnc)
+  * [DNSDriveBy Anonymously Track GPS Locations](https://www.youtube.com/watch?v=UExRw2dLHnc)
 
 
 # CreepDetector
@@ -115,26 +120,27 @@ Prompt for ChatGPT: How would I taken an image and convert it to a polygon versi
 # Describe Images
 
 * [A New Vision for Voice Assistants](https://www.hackster.io/news/a-new-vision-for-voice-assistants-d4afd776a9fe)
-    * [GitHub: nkasmanoff/pi-card](https://github.com/nkasmanoff/pi-card)
+  * [GitHub: nkasmanoff/pi-card](https://github.com/nkasmanoff/pi-card)
 
 
 # Streaming Video & Audio - ESP32 TV
 
-* [Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
-    * [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
-    * [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
-    * [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
-    * [ESP32-TV Version 3](https://atomic14.substack.com/p/esp32-tv-version-3)
-    * [ESP32-TV Version 3 - Is it done?](https://www.youtube.com/watch?v=2NLblyCvJBU)
-    * [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
-    * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
-    * [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
+[Sound And Vision! ESP32 Streaming Video and Audio](https://www.youtube.com/watch?v=G6MROvlLeKE)
+
+* [A Faster ESP32 JPEG Decoder?](https://www.youtube.com/watch?v=OyoN1ypBSrQ)
+* [ESP32 SD Card Video Streaming](https://www.youtube.com/watch?v=dWgjsJtlbpA)
+* [GitHub: atomic14/esp32-tv](https://github.com/atomic14/esp32-tv/tree/main)
+* [ESP32-TV Version 3](https://atomic14.substack.com/p/esp32-tv-version-3)
+* [ESP32-TV Version 3 - Is it done?](https://www.youtube.com/watch?v=2NLblyCvJBU)
+* [SD Card Shenanigans - Using the ESP32-S3 in USBMSC](https://atomic14.substack.com/p/sd-card-shenanigans-using-the-esp32)
+  * [Streaming Video and Audio over WiFi with the ESP32](https://www.youtube.com/watch?v=G6MROvlLeKE)
+* [Streaming Video From an SD Card on the ESP32](https://www.youtube.com/watch?v=dWgjsJtlbpA)
 * [Mini ESP32 TV](https://www.thingiverse.com/thing:6330378)
-    * [ESP32 Mini TV Tutorial Build](https://www.youtube.com/watch?v=0K-EbKkWLTA)
-* [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
-* [The Most Adorable Little Raspberry Pi Computer You’ve Seen All Year](https://www.hackster.io/news/the-most-adorable-little-raspberry-pi-computer-you-ve-seen-all-year-b8501e237b53)
-    * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
-    * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
+  * [ESP32 Mini TV Tutorial Build](https://www.youtube.com/watch?v=0K-EbKkWLTA)
+[Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
+[The Most Adorable Little Raspberry Pi Computer You’ve Seen All Year](https://www.hackster.io/news/the-most-adorable-little-raspberry-pi-computer-you-ve-seen-all-year-b8501e237b53)
+  * [Retro Desktop PC Raspberry Pi case V2](https://www.printables.com/model/694802-retro-desktop-pc-raspberry-pi-case-v2)
+  * [Booting a Raspberry Pi to DOSBox](https://www.hypn.za.net/blog/2020/05/03/booting-a-raspberry-pi-to-dosbox/)
 
 
 ## Other Ideas
@@ -146,7 +152,9 @@ Prompt for ChatGPT: How would I taken an image and convert it to a polygon versi
 * [Why we should worry less about ‘sentient’ AIs and more about what we’re teaching them](https://aeon.co/videos/why-we-should-worry-less-about-sentient-ais-and-more-about-what-were-teaching-them)
 
 
+
 ### The Infinite Conversation
+
 Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqui-ai/TTS)
 
 * [What an Endless Conversation with Werner Herzog Can Teach Us about AI](https://www.scientificamerican.com/article/what-an-endless-conversation-with-werner-herzog-can-teach-us-about-ai/)
@@ -154,18 +162,19 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 * [The Infinite Conversation](https://infiniteconversation.com/)
 
 
-### ChatBots Communicating With Each Other
+# ChatBots Communicating With Each Other
 
 * [Two AI chatbots speaking to each other in their own special language is the last thing we need](https://www.techradar.com/computing/artificial-intelligence/two-ai-chatbots-speaking-to-each-other-in-their-own-special-language-is-the-last-thing-we-need)
-    * [I made two AIs create a new language together](https://www.youtube.com/watch?v=lilk819dJQQ)
+  * [I made two AIs create a new language together](https://www.youtube.com/watch?v=lilk819dJQQ)
 
 
-# AI Generated Photographic Sense
+AI Generated Photographic Sense
 
-* [Level Up Your Desk with the Gen AI Photo Frame](https://ashishware.com/2024/02/10/gen_ai_photo_frame/)
-    * [GitHub: code2k13/GenAIPhotoFrame](https://github.com/code2k13/GenAIPhotoFrame)
+[Level Up Your Desk with the Gen AI Photo Frame](https://ashishware.com/2024/02/10/gen_ai_photo_frame/)
+
+* [GitHub: code2k13/GenAIPhotoFrame](https://github.com/code2k13/GenAIPhotoFrame)
 * [This Camera Produces A Picture, Using The Scene Before It](https://hackaday.com/2023/02/25/this-camera-produces-a-picture-using-the-scene-before-it/)
-    * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
+  * [Check Out Other Creations From Jasper von Loenen](https://jaspervanloenen.com/black-box-camera/)
 * [Raspberry Pi Zero 2 W uses AI to make infinite flower paintings on an e-ink display](https://www.tomshardware.com/raspberry-pi/raspberry-pi-zero-2-w-uses-ai-to-make-infinite-flower-paintings-on-an-e-ink-display)
 * [Possessed Portrait - Updated](https://www.hackster.io/dominick-marino/possessed-portrait-updated-32a7a6)
 
@@ -187,43 +196,51 @@ Makes use of speech-synthesis program called [Coqui TTS](https://github.com/coqu
 
 * [ESP Audio DevKits](https://www.espressif.com/en/products/devkits/esp-audio-devkits)
 
-* [Make Your ESP32 Talk Like It’s the 80s Again](https://hackaday.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
+[Make Your ESP32 Talk Like It’s the 80s Again](https://hackaday.com/2023/04/25/make-your-esp32-talk-like-its-the-80s-again/)
+
 * [LOCAL Voice control! Use your VOIP phone to control your smart home with Home Assistant](https://www.youtube.com/watch?v=mVAwd_0Fheg)
-    * [Piper](https://rhasspy.github.io/piper-samples/)
-    * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
+  * [Piper](https://rhasspy.github.io/piper-samples/)
+  * [faster-whisper](https://github.com/guillaumekln/faster-whisper/)
 * [Animatronic Alexa Gives Amazon’s Echo a Face](https://hackaday.com/2023/07/05/animatronic-alexa-gives-amazons-echo-a-face/)
 
 
-## eInk Picture Frame Display
-Convert an IKEA RIBBA 5×7" picture frame into an ePaper dashboard for a Home Assistant smarthome.
 
-* [Nerdiy's 3D-Printed Framework Turns an IKEA RIBBA Into a Seeed XIAO ESP32C3-Powered ePaper Dashboard](https://www.hackster.io/news/nerdiy-s-3d-printed-framework-turns-an-ikea-ribba-into-a-seeed-xiao-esp32c3-powered-epaper-dashboard-3d09f96f7936)
-    * [You can customize this Raspberry Pi eInk display with tons of cool plugins](https://www.tomshardware.com/raspberry-pi/you-can-customize-this-raspberry-pi-eink-display-with-tons-of-cool-plugins)
-    * [Ikea Ribba eInk frame insert for 5″x7″ picture frames - 3D printable - STL files](https://nerdiy.de/en/product-2/eink-frame-insert-suitable-for-ikea-ribba-5x7-picture-frame-3d-printable-stl-files/)
-    * [eInk Frame Insert suitable for Ikea Ribba 5″x7″ picture frame](https://github.com/Nerdiyde/ESPHomeSnippets/tree/main/Snippets/eInk_frame_insert_ribba_5inchX7inch)
-    * [RIBBA Frame 5x7"](https://www.ikea.com/us/en/p/ribba-frame-black-50378448/)
-    * [Americanflat 5x7 Picture Frame in Black](https://www.amazon.com/Americanflat-Picture-Frame-Black-Built/dp/B0CMC9232L/)
+## eInk Picture Frame Display
+
+nvert an IKEA RIBBA 5×7" picture frame into an ePaper dashboard for a Home Assistant smarthome.
+
+[Nerdiy's 3D-Printed Framework Turns an IKEA RIBBA Into a Seeed XIAO ESP32C3-Powered ePaper Dashboard](https://www.hackster.io/news/nerdiy-s-3d-printed-framework-turns-an-ikea-ribba-into-a-seeed-xiao-esp32c3-powered-epaper-dashboard-3d09f96f7936)
+
+* [You can customize this Raspberry Pi eInk display with tons of cool plugins](https://www.tomshardware.com/raspberry-pi/you-can-customize-this-raspberry-pi-eink-display-with-tons-of-cool-plugins)
+  * [Ikea Ribba eInk frame insert for 5″x7″ picture frames - 3D printable - STL files](https://nerdiy.de/en/product-2/eink-frame-insert-suitable-for-ikea-ribba-5x7-picture-frame-3d-printable-stl-files/)
+  * [eInk Frame Insert suitable for Ikea Ribba 5″x7″ picture frame](https://github.com/Nerdiyde/ESPHomeSnippets/tree/main/Snippets/eInk_frame_insert_ribba_5inchX7inch)
+  * [RIBBA Frame 5x7"](https://www.ikea.com/us/en/p/ribba-frame-black-50378448/)
+
+  * [Americanflat 5x7 Picture Frame in Black](https://www.amazon.com/Americanflat-Picture-Frame-Black-Built/dp/B0CMC9232L/)
 
 
 ## Magic Storybook with ChatGPT
+
 This guide will show you how to create your own never-ending story book using a Raspberry Pi,
-a touch screen display, and ChatGPT.
+touch screen display, and ChatGPT.
 
 * [Magic Storybook with ChatGPT](https://learn.adafruit.com/magic-storybook-with-chatgpt/overview)
 * [This cool Raspberry Pi-powered storybook automatically generates stories on an eInk display](https://www.xda-developers.com/raspberry-pi-powered-storybook/)
 * M5Stack’s M5Dial – [An ESP32-S3 smart rotary knob with a touchscreen display](https://www.cnx-software.com/2023/10/08/m5dial-an-esp32-s3-smart-rotary-knob-with-a-touchscreen-display/)
-    * [Smart Controls Made Easy – M5Stack Dial with WiFi, Bluetooth & More!](https://www.youtube.com/watch?v=ra1kmkFDABk)
+  * [Smart Controls Made Easy – M5Stack Dial with WiFi, Bluetooth & More!](https://www.youtube.com/watch?v=ra1kmkFDABk)
 
 
 
 ## Make it Speak to Home Assistant
 
 * [More Voice More Voice More Voice (Local Control)](https://www.mostlychris.com/more-voice-more-voice-more-voice/)
-    * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
+
+  * [LOCAL VOICE CONTROL of Home Assistant with the M5Stack Atom Echo](https://www.youtube.com/watch?v=U2rykdQlSgA)
 * [Using Your VOIP Phone to Control Your House](https://www.mostlychris.com/using-your-voip-phone-to-control-your-house/?ref=mostlychris-newsletter)
 
 
 # AI Generated Speech-to-Speech
+
 Realtime AI Speech powered by OpenAI Realtime API, ESP32, Secure WebSockets,
 and Deno Edge Functions for >10-minute uninterrupted global conversations
 
@@ -241,13 +258,13 @@ and Deno Edge Functions for >10-minute uninterrupted global conversations
 # AI Generated Text to Voice
 
 * [Voice Cloning](/home/jeff/blogging/content/ideas/voice-cloning.md)
-* [myvox.ai - AI artist voice model](https://myvox.ai/)
+[myvox.ai - AI artist voice model](https://myvox.ai/)
 
 
 # AI Generate Text from Speech
 
 * [Playing around with Spchcat/Speechcat](https://www.youtube.com/watch?v=c6c_bJIewUU)
-    * [Spchcat](https://github.com/petewarden/spchcat)
+  * [Spchcat](https://github.com/petewarden/spchcat)
 * [PicoVoice: On-device voice AI & local LLMs to build Speech Analytics Tools](https://picovoice.ai/)
 
 
@@ -268,39 +285,42 @@ and Deno Edge Functions for >10-minute uninterrupted global conversations
 
 * Simple yet effective command line client for chatting with ChatGPT using the official API - [GitHub: marcolardera/chatgpt-cli](https://github.com/marcolardera/chatgpt-cli)
 * A command line tool for interacting with DALL-E models - [GitHub: marcolardera/dall-e-cli](https://github.com/marcolardera/dall-e-cli)
-* [Lumina - AI Art Generator (DALL-E 3) for Your TV](https://www.instructables.com/Lumina-AI-Art-Generator-DALL-E-3-for-Your-TV/)
+[Lumina - AI Art Generator (DALL-E 3) for Your TV](https://www.instructables.com/Lumina-AI-Art-Generator-DALL-E-3-for-Your-TV/)
 
 
 # Radar Sensor
 
 * [Radar-Based Home Security System Using RD-03D and ESP32-C6](https://www.hackster.io/tech_nickk/radar-based-home-security-system-using-rd-03d-and-esp32-c6-72fd6e)
-    * [ESP32 + Rd-03D: mmWave Radar Multi-Human Tracking with Distance, Speed & Positioning!](https://www.youtube.com/watch?v=cSI9vedf870)
-    * [Rd-03D mmWave Radar: Multi-Human Tracking with Distance, Speed & Positioning](https://www.electroniclinic.com/rd-03d-mmwave-radar-multi-human-tracking-with-distance-speed-positioning/#google_vignette)
+  * [ESP32 + Rd-03D: mmWave Radar Multi-Human Tracking with Distance, Speed & Positioning!](https://www.youtube.com/watch?v=cSI9vedf870)
+* [Rd-03D mmWave Radar: Multi-Human Tracking with Distance, Speed & Positioning](https://www.electroniclinic.com/rd-03d-mmwave-radar-multi-human-tracking-with-distance-speed-positioning/#google_vignette)
 * [Best mmWave Presence Sensors for Home Assistant!](https://www.youtube.com/watch?v=Kt1FpRM8R18&t=2239s)
 * [ULTIMATE ESP board and NEW mmWave sensor](https://www.youtube.com/watch?v=KMopR2zANDc)
 * [mmWave Radar Alarm with Telegram Notifications](https://community.dfrobot.com/makelog-313113.html?tracking=64819a20b8a22)
 * [Working with MR24HPC1](https://www.hackster.io/mithun-das/working-with-mr24hpc1-281d88)
 * [Seeed Studio mmWave sensor kit – Part 1: unboxing and first impression with ESPHome and Home Assistant](https://www.cnx-software.com/2023/12/19/seeed-studio-mmwave-sensor-kit-unboxing-esphome-home-assistant/)
-    * [Seeed Studio mmWave Human Detection Sensor Kit](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
+* [Seeed Studio mmWave Human Detection Sensor Kit](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
 
 
 # Tiny Motion Detection Alarm
 
 * [Tiny Motion Detection Alarm Does The Trick](https://hackaday.com/2024/02/24/tiny-motion-detection-alarm-does-the-trick/)
-    * [Tiny Motion Detection Alarm](https://www.instructables.com/Tiny-Motion-Detection-Alarm/)
+  * [Tiny Motion Detection Alarm](https://www.instructables.com/Tiny-Motion-Detection-Alarm/)
 
 
 ---------------
+
 
 
 # Capturing the Data
 
 
 ## Access Point Mapping
+
 Access point mapping, also called [war driving][AA], is the act of locating, typically using GPS, characterizing,
 and possibly exploiting connections to wireless local area networks while driving around a city or elsewhere.
 Typically when doing war driving, you need a vehicle, a laptop computer,
 a wireless Ethernet card set to work in [promiscuous mode][AB],
+
 and some kind of antenna that can work at long range.
 The objective is to capture the location of WiFi access point, its open or password protection status,
 and other technical parameters.
@@ -308,6 +328,7 @@ In the case of war driving, the access point may also be exploited / hacked.
 
 
 ## Active and Passive Scanning
+
 There are two ways to discover WiFi networks:
 
 * **Passively** waiting and listening for announcements (beacon frames) from access points.
@@ -337,6 +358,7 @@ the access point can become overwhelmed and the network get clogged.
 If this isn't enough, you could collect the SSID from a received probe request from a client,
 open a new WiFi network with the same SSID, and wait for a probe response from the client.
 The client who sent the request will then automatically connect to that network, thinking it knows it.
+
 But really, it could be a malicious network that's sniffing all your traffic.
 (**NOTE:** This is actually a feature oin the [WiFi Pineapple from Hak5][AH].)
 There are limits to this type of attack.
@@ -344,13 +366,16 @@ You must use the right type of encryption
 and the client may not switch if it already has a stronger network signal.
 
 
+
 ## Access Point Beacon Frames
+
 Becon Frames are transmitted periodically (~100ms) by access-points to announce the presence of a wireless LAN and to synchronise the members (Hi. I’m Mr. AccessPoint. My SSID is XYZ and I’m alive!).
 Becon Frames broadcast out to tell any listening devices that this SSID is available and has particular features / capabilities.
 Client devices depend upon these beacon frames to discover what networks are available (passive scanning), and to ensure that the networks that they are associated with are actually still present and available.
 
 
 ## WiFi Probe Request Sniffing
+
 You might believe your access points is always broadcasting to make themselves visible to devices,
 and you think the device's see a familiar SSID and they join.
 Not always!
@@ -363,6 +388,7 @@ connect network devices to the wireless access points (APs) that they have previ
 
 Not only can you 'fingerprint' someone by their unique list of 'advertised'
 saved networks their device progressively iterates through broadcasting,
+
 you can see where they've been in the real world.
 If you believe you know someone's phone via MAC Address,
 you can see their past advertised networks and use a tool like Wigle
@@ -372,7 +398,9 @@ to see where that network has been recorded in the real world.
 * [Capturing Beacons and Probe Requests of Public WiFi Access Points - The Why, How, and Stats](https://blog.samcater.com/capturing-beacons-and-probe-requests-of-public-wifi-access-points-the-why-how-and-stats/)
 
 
+
 ## MAC Randomization
+
 Some WiFi client (Apple phones for one) will sometime attempt to protect themselves
 from being tracked via MAC randomization.
 s is where a WiFi clients returns a randomized MAC addresses when responding to a probe requests.
@@ -381,7 +409,9 @@ You can easily get the impression that there are more devices around than there 
 
 
 ## Open WiFi
+
 If your out of your home and looking to get an Internet connection,
+
 you could potentially use any open, unsecured wireless network access point you find.
 You only barrier for easy automated access is the [captive portal][AK]
 that an open WiFi network typically have installed.
@@ -394,12 +424,14 @@ it could potentially block the data.
 
 
 ### Open WiFi Security Risk
+
 Before you connect with an open WiFi, however, you should know the risks of using open WiFi networks.
 In an open WiFi network all information is sent unsecured, without [network layer encryption][AD],
 aka plain text.
 Open WiFi networks are not using [WiFi protected Access (WPA)][AC],
 [WPA2][AC] or [WPA3][AE] security.
 Plain text can be intercept, read, and even manipulate to cause you havoc.
+
 So use of a open WiFi network does present risks.
 For more on this, see ["Is It Safe to Use an Open Wireless Network?"][AF].
 
@@ -413,6 +445,7 @@ For more on this, see ["Is It Safe to Use an Open Wireless Network?"][AF].
 
 
 ## DNS Data Exfiltration
+
 DNS is a protocol that lends itself to abuse because it’s largely unmonitored and unrestricted.
 DNS is core fuction of the Internet, and as a result, its communication must be supported.
 This fact leaves room its explotation.
@@ -476,36 +509,37 @@ To understand how DNS data exfiltration works, check out the following:
 
 
 * [LILYGO Launches ESP32-S3-Based T-Camera S3 for TinyML Computer Vision Projects](https://www.hackster.io/news/lilygo-launches-esp32-s3-based-t-camera-s3-for-tinyml-computer-vision-projects-47d1a46249ec)
-* [T-Camera S3 – An ESP32-S3 board with camera, display, PIR motion sensor, and microphone](https://www.cnx-software.com/2022/12/20/t-camera-s3-an-esp32-s3-board-with-camera-display-pir-motion-sensor-and-microphone/)
+[T-Camera S3 – An ESP32-S3 board with camera, display, PIR motion sensor, and microphone](https://www.cnx-software.com/2022/12/20/t-camera-s3-an-esp32-s3-board-with-camera-display-pir-motion-sensor-and-microphone/)
 
 
-The objective is to detect the presence of a person by multiple sensory clues
-such as their image but also via motion, heat, sound, or RF exhaust then may make.
+e objective is to detect the presence of a person by multiple sensory clues
+ch as their image but also via motion, heat, sound, or RF exhaust then may make.
 
 * [Human Here? My First Presence Sensor](https://www.mostlychris.com/am-i-here-my-first-presence-sensor/)
-    * [Linptech Presence Sensor ES1](https://www.amazon.com/Linptech-Presence-Automation-Compatible-Assistant/dp/B0C7C6L66J)
+  * [Linptech Presence Sensor ES1](https://www.amazon.com/Linptech-Presence-Automation-Compatible-Assistant/dp/B0C7C6L66J)
 
 * [Presence Detection In Home Assistant Using ESPHome And ESP32](https://www.youtube.com/watch?v=endqy0G6Dks)
-* [Multisensor For Home Assistant](https://apolloautomation.com/products/multisensor-mk1)
-* [Apollo Automation MSR-1 Presence and More Sensor](https://www.mostlychris.com/apollo-automation-msr-1-presence-and-more-sensor/)
+[Multisensor For Home Assistant](https://apolloautomation.com/products/multisensor-mk1)
+[Apollo Automation MSR-1 Presence and More Sensor](https://www.mostlychris.com/apollo-automation-msr-1-presence-and-more-sensor/)
 
-* [Building My Perfect Smart Home Presence Detection Sensor!](https://www.youtube.com/watch?v=Viqvx7hMMJs)
-    * [I Built My Own Presence Detection Sensor!](https://www.youtube.com/watch?v=VEqWlOeJ2YA)
-    * [This New Sensor Is A GAME CHANGER For Your Smart Home!](https://www.youtube.com/watch?v=Leru0rCS8b0)
-    * [4 EASY Presence Detection Setups in Home Assistant](https://www.youtube.com/watch?v=Lu0hunynWJY)
-    * [mmWave Radar - Human Presence Detection (9m)](https://www.dfrobot.com/product-2282.html)
-    * [mmWave Human Detection Sensor](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
-    * [I'm Making My Own Smart Home Motion Sensor!?](https://www.youtube.com/watch?v=boWsjJlgzag)
+[Building My Perfect Smart Home Presence Detection Sensor!](https://www.youtube.com/watch?v=Viqvx7hMMJs)
+
+* [I Built My Own Presence Detection Sensor!](https://www.youtube.com/watch?v=VEqWlOeJ2YA)
+* [This New Sensor Is A GAME CHANGER For Your Smart Home!](https://www.youtube.com/watch?v=Leru0rCS8b0)
+  * [4 EASY Presence Detection Setups in Home Assistant](https://www.youtube.com/watch?v=Lu0hunynWJY)
+  * [mmWave Radar - Human Presence Detection (9m)](https://www.dfrobot.com/product-2282.html)
+  * [mmWave Human Detection Sensor](https://www.seeedstudio.com/mmWave-Human-Detection-Sensor-Kit-p-5773.html)
+  * [I'm Making My Own Smart Home Motion Sensor!?](https://www.youtube.com/watch?v=boWsjJlgzag)
 
 * [The BEST Smart Home Room Presence Detection I've Tried!](https://www.youtube.com/watch?v=p7C2QvmsM8M)
 
 * [Everything Presence One](https://shop.everythingsmart.io/en-us)
-    * [Everything Presence One](https://github.com/EverythingSmartHome/everything-presence-one)
-    * [Everything Presence One - Official Case](https://www.printables.com/model/302846-everything-presence-one-official-case)
-    * [My Smart Home Presence Sensor Is Finally Here!](https://www.youtube.com/watch?v=cH5sJFk_2wo&t=6s)
-    * [This Smart Home Sensor Blew My Mind! 🤯 mmWave](https://www.youtube.com/watch?v=jVjrgQSWlLI)
-    * [I Made A More Affordable Smart Home Presence Sensor](https://www.youtube.com/watch?v=wCwMNSeLRcw)
-    * [Diy Presence Sensor](https://www.youtube.com/watch?v=P8RO9gjs_h4)
+  * [Everything Presence One](https://github.com/EverythingSmartHome/everything-presence-one)
+  * [Everything Presence One - Official Case](https://www.printables.com/model/302846-everything-presence-one-official-case)
+  * [My Smart Home Presence Sensor Is Finally Here!](https://www.youtube.com/watch?v=cH5sJFk_2wo&t=6s)
+* [This Smart Home Sensor Blew My Mind! 🤯 mmWave](https://www.youtube.com/watch?v=jVjrgQSWlLI)
+  * [I Made A More Affordable Smart Home Presence Sensor](https://www.youtube.com/watch?v=wCwMNSeLRcw)
+  * [Diy Presence Sensor](https://www.youtube.com/watch?v=P8RO9gjs_h4)
 
 
 * [Person Detection with TensorFlow and Arduino](https://www.hackster.io/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
@@ -516,8 +550,9 @@ such as their image but also via motion, heat, sound, or RF exhaust then may mak
 # LD2410B Radar Sensor
 
 * [Set up Human Presence detection with LD2410B and Home Assistant in minutes](https://www.youtube.com/watch?v=G6IEc2XYzbc)
+
 * [Adding Human Detection To Home Automation](https://hackaday.com/2024/08/29/adding-human-detection-to-home-automation/)
-    * [mmWave Human Presence Sensor: LD2410B](https://www.youtube.com/watch?v=yFOymsoxdIg)
+  * [mmWave Human Presence Sensor: LD2410B](https://www.youtube.com/watch?v=yFOymsoxdIg)
 
 
 # Motion
@@ -525,11 +560,13 @@ such as their image but also via motion, heat, sound, or RF exhaust then may mak
 
 # Heat
 
+
 * [Grid-EYE](https://www.sparkfun.com/products/14607)
 * [SparkFun Human Presence Sensor Breakout - AK9753](https://www.sparkfun.com/products/14349)
 
 
 # Radar
+
 distance-and-proximity-measurement-sensors.md
 
 
@@ -539,10 +576,12 @@ distance-and-proximity-measurement-sensors.md
 
 
 ## Volume Unit (VU) Meter
+
 A volume unit (VU) meter or standard volume indicator (SVI) is a device displaying a representation of the signal level in audio equipment.
 
 * [The VU Meter And How It Got That Way](https://hackaday.com/2018/08/09/the-vu-meter-and-how-it-got-that-way/)
 * [Round LCDs Put To Work In Rack Mount Gauge Cluster](https://hackaday.com/2022/05/13/round-lcds-put-to-work-in-rack-mount-gauge-cluster/)
+
 * [Building A Top-Notch Electret Microphone](https://hackaday.com/2020/11/02/building-a-top-notch-electret-microphone/)
 * [Remoticon Video: Making Microphones And Finding Sound](https://hackaday.com/2020/12/08/remoticon-video-making-microphones-and-finding-sound/)
 * [MEMS Microphone](https://www.sparkfun.com/products/18011)
@@ -559,12 +598,14 @@ A volume unit (VU) meter or standard volume indicator (SVI) is a device displayi
 
 
 # Bluetooth Beacon Detection - ESPresence
+
 An ESP32 based presence detection node for use with the Home Assistant mqtt_room component for localized device presence detection.
 
 * [ESPresence](https://espresense.com/)
 * [ESPresence](https://github.com/ESPresense/ESPresense)
 * [I put this in EVERY room! Smart room detection](https://www.youtube.com/watch?v=s7kyqpq4Ev4)
 * [Home Assistant Integration](https://espresense.com/home_assistant)
+
 
 
 
@@ -585,11 +626,13 @@ See [Skyhook Wireless Developer Site](http://www.skyhookwireless.com/developers)
 
 
 # Kali
+
 Kali Linux is a Debian-derived Linux distribution designed for digital forensics and penetration testing.
 
 * [Kali Linux 2017.3 hands-on: The best alternative to Raspbian for your Raspberry Pi](https://www.zdnet.com/article/kali-linux-2017-3-hands-on-the-best-alternative-to-raspbian-for-raspberry-pi/)
 * [Wifi Autoscaning w/ Raspberry Pi and Kali Linux](http://cdf123x.blogspot.com/2013/04/wifi-autoscaning-w-raspberry-pi-and.html)
 * [Kali Linux Tools Listing](https://tools.kali.org/tools-listing)
+
 * [An introduction to the Kismet packet sniffer](https://www.linux.com/news/introduction-kismet-packet-sniffer)
 * [Kali Linux Tutorial](https://www.tutorialspoint.com/kali_linux/index.htm)
 
@@ -599,41 +642,44 @@ Kali Linux is a Debian-derived Linux distribution designed for digital forensics
 # Presence and Identity
 
 
+
 ## Sound
 
 * [LASER MIC MAKES EAVESDROPPING REMARKABLY SIMPLE](https://hackaday.com/2010/09/25/laser-mic-makes-eavesdropping-remarkably-simple/)
-* [Building A Top-Notch Electret Microphone](https://hackaday.com/2020/11/02/building-a-top-notch-electret-microphone/)
-* [Remoticon Video: Making Microphones And Finding Sound](https://hackaday.com/2020/12/08/remoticon-video-making-microphones-and-finding-sound/)
-* Coms Over TCP/IP / Sound & Video Transmission - [Nerfnet Tunnels TCP/IP Over NRF24L01 Radios](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
+[Building A Top-Notch Electret Microphone](https://hackaday.com/2020/11/02/building-a-top-notch-electret-microphone/)
+emoticon Video: Making Microphones And Finding Sound](<https://hackaday.com/2020/12/08/remoticon-video-making-microphones-and-finding-sound/>)
+ms Over TCP/IP / Sound & Video Transmission - [Nerfnet Tunnels TCP/IP Over NRF24L01 Radios](https://hackaday.com/2020/12/04/nerfnet-tunnels-tcp-ip-over-nrf24l01-radios/)
 
 
-## Motion
+otion
+
 Mimic Go is a portable security device that can be affixed to surfaces or standalone items and sound an alarm when it detects any movement. This means the Mimic Go can be used to monitor fixed locations, like a table or couch, or individual items, like a laptop or purse. The device does not use cameras, microphones or GPS; instead, it relies on an accelerometer, magnetometer, temperature sensor and motion sensor to detect changes in surroundings.
 
 * [Mimic Go](https://smartmimic.com/mimic-go/)
 * [Mimic Track](https://smartmimic.com/mimic-track/)
 
 
-## Video
+ Video
+
 The Person Sensor includes a camera and microcontroller in a tiny package, and comes pre-loaded with an ML algorithm that can detect people.
 
 * [The Whole Package](https://www.hackster.io/news/the-whole-package-301ee0887def)
 * [Sensing a Shift in Edge ML](https://www.hackster.io/news/sensing-a-shift-in-edge-ml-b7761fa3bf5f)
 * [Former Googler creates Tiny ML sensor startup](https://staceyoniot.com/former-googler-creates-tiny-ml-sensor-startup/)
-    * [Meet the Person Sensor from Useful Sensors!](https://www.sparkfun.com/news/5468)
-        * [The Person Sensor](https://usefulsensors.com/person-sensor/)
-        * [Person Sensor Developer Guide](https://github.com/usefulsensors/person_sensor_docs)
-        * [Auto-Lock your Screen with a Person Sensor](https://www.youtube.com/watch?v=YYvKbOyhNNk&t=1s)
-        * [usefulsensors/person_sensor_docs](https://github.com/usefulsensors/person_sensor_docs)
-        * [dupontgu/person-sensor-circuitpython](https://github.com/dupontgu/person-sensor-circuitpython)
+  * [Meet the Person Sensor from Useful Sensors!](https://www.sparkfun.com/news/5468)
+    * [The Person Sensor](https://usefulsensors.com/person-sensor/)
+    * [Person Sensor Developer Guide](https://github.com/usefulsensors/person_sensor_docs)
+    * [Auto-Lock your Screen with a Person Sensor](https://www.youtube.com/watch?v=YYvKbOyhNNk&t=1s)
+    * [usefulsensors/person_sensor_docs](https://github.com/usefulsensors/person_sensor_docs)
+    * [dupontgu/person-sensor-circuitpython](https://github.com/dupontgu/person-sensor-circuitpython)
 
 
 ## Create Images
 
 * [How Image-Generating AI of Stable Diffusion Works](https://hackaday.com/2022/10/24/how-the-art-generating-ai-of-stable-diffusion-works/)
 * [Building the Worlds First Etch-a-Sketch Camera!](https://www.youtube.com/watch?v=iQhhutAanu0)
-    * [Etch-A-Sketch Camera Is Open Source](https://hackaday.com/2024/05/20/etch-a-sketch-camera-is-open-source/)
-    * [Every Flavor Etch-A-Sketch Camera](https://hackaday.io/project/196151-every-flavor-etch-a-sketch-camera)
+  * [Etch-A-Sketch Camera Is Open Source](https://hackaday.com/2024/05/20/etch-a-sketch-camera-is-open-source/)
+  * [Every Flavor Etch-A-Sketch Camera](https://hackaday.io/project/196151-every-flavor-etch-a-sketch-camera)
 
 
 ## Sensing WiFi and BLE Devices
@@ -648,7 +694,7 @@ The Person Sensor includes a camera and microcontroller in a tiny package, and c
 Detects all Beacons and their mac addresses within range, Detects All AP's in range, Gets GPS Lat/Long positioning,
 Gets GPS UTC Time, Logs all this to SD card and displays the information
 
-* [RESQ Hunts For Lost Hikers From The Air](https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/)
+[RESQ Hunts For Lost Hikers From The Air](https://hackaday.com/2020/08/12/resq-hunts-for-lost-hikers-from-the-air/)
 
 
 ## Using ESP8266
@@ -667,11 +713,12 @@ Gets GPS UTC Time, Logs all this to SD card and displays the information
 * [ESP8266 Friend Detector](https://www.hackster.io/ricardooliveira/esp8266-friend-detector-12542e)
 * [Wi-Fi Sniffer as Sensor for Humans](https://www.youtube.com/watch?v=fmhjtzmLrg8)
 * [Remote Wifi Sniffing Station with an ESP8266](https://www.youtube.com/watch?v=_GQMZg_5FPE)
-    * [ETHERNET CONTROLLER DISCOVERED IN THE ESP8266](https://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
-    * [espthernet](https://github.com/cnlohr/espthernet)
-    * <https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0>
+  * [ETHERNET CONTROLLER DISCOVERED IN THE ESP8266](https://hackaday.com/2016/04/01/ethernet-controller-discovered-in-the-esp8266/)
+  * [espthernet](https://github.com/cnlohr/espthernet)
+  * <https://www.amazon.com/HiLetgo-ENC28J60-Ethernet-Network-Arduino/dp/B00WX1NRO0>
 
 ---------------
+
 
 
 # Location
@@ -684,7 +731,7 @@ Gets GPS UTC Time, Logs all this to SD card and displays the information
 * [Reverse geocoding](https://unwiredlabs.com/docs/#reverse-geocoding) is the process of converting geographic coordinates into a human-readable address.
 * [Obtain Nearest Address to a Longitude-latitude Point](https://dzone.com/articles/obtain-nearest-address-to-a-longitude-latitude-poi)
 * [A Plan To Replace Geographic Coordinates on Earth With Unique Strings of Three Words](https://www.smithsonianmag.com/science-nature/plan-replace-geographic-coordinates-earth-unique-strings-three-words-180949946/)
-* [3 Word Address](http://what3words.com/)
+[3 Word Address](http://what3words.com/)
 * [Plus Code](https://plus.codes/)
 
 
@@ -693,7 +740,9 @@ Gets GPS UTC Time, Logs all this to SD card and displays the information
 * [What the ZIP in ZIP Code Really Means](https://medium.com/knowledge-stew/what-the-zip-in-zip-code-really-means-4342492a4f1b)
 
 
+
 ## Location Platforms
+
 Use Skyhook Precision Location on a Raspberry Pi device running Raspbian Linux.
 The device will continuously record its location, even when disconnected from the internet or not.
 
@@ -704,7 +753,7 @@ The device will continuously record its location, even when disconnected from th
 
 * [Location using ESP8266 | Geolocation Without GPS Module](https://electronicsforu.com/electronics-projects/gps-geolocation-using-esp8266-projects)
 * A consolidated location and information of wireless networks world-wide to a central database: [Wireless Geographic Logging Engine (WiGLE)](https://en.wikipedia.org/wiki/WiGLE)
-    * [WiGLE.net](https://wigle.net/)
+  * [WiGLE.net](https://wigle.net/)
 
 
 # Bluetooth
@@ -713,16 +762,17 @@ The device will continuously record its location, even when disconnected from th
 
 
 # WiFi and Cell ID Positioning
+
 Wi-Fi “sniffing” is a great way to do rough location processing.
 A sensor reads the MAC ID and signal strength of WiFi Access Points nearby,
 sends that data to the cloud.
 A WiFi MAC ID database,
 like [Google](https://developers.google.com/maps/documentation/geolocation/intro#wifi_access_point_object),
-[Wigle](https://wigle.net/),
+igle](<https://wigle.net/>),
 [SkyHook](http://www.skyhookwireless.com/submit-access-point),
-or a cell site ID with [Polet](https://www.polte.com/),
-[OpenCellid](https://opencellid.org/),
-[Mozilla Location Service (MLS)](https://location.services.mozilla.com/)
+ a cell site ID with [Polet](https://www.polte.com/),
+penCellid](<https://opencellid.org/>),
+ozilla Location Service (MLS)](<https://location.services.mozilla.com/>)
 calculates location.
 
 Traditionally, getting WiFi information required a fairly expensive Wi-Fi module,
@@ -740,18 +790,19 @@ This chip includes a GPS processor, WiFi scanner, and a Lora radio
 
 * [WiFinder](https://github.com/mpescimoro/wi-finder)
 * [whereami](https://github.com/kootenpv/whereami)
-    * [wherearehue](https://github.com/DeastinY/wherearehue)
+  * [wherearehue](https://github.com/DeastinY/wherearehue)
 * multiple object tracker projects on github
-    * <https://github.com/search?q=topic%3Agps-tracker&type=Repositories>
-    * <https://github.com/search?q=topic%3Awifi-fingerprints&type=Repositories>
-    * <https://github.com/search?q=topic%3Alocation-services&type=Repositories>
+
+  * <https://github.com/search?q=topic%3Agps-tracker&type=Repositories>
+  * <https://github.com/search?q=topic%3Awifi-fingerprints&type=Repositories>
+  * <https://github.com/search?q=topic%3Alocation-services&type=Repositories>
 
 
 ### Framework for Internal Navigation and Discovery (FIND)
 
 * [Framework for Internal Navigation and Discovery (FIND)](https://www.internalpositioning.com/)
 * [FIND FAQ](https://www.internalpositioning.com/faq/)
-* [Offical version writen in Go - FIND GitHub](https://github.com/schollz/find3)
+[Offical version writen in Go - FIND GitHub](https://github.com/schollz/find3)
 * [Python version - FIND GitHub](https://github.com/kootenpv/find)
 * [find-lf - extension of FIND, the Framework for Internal Navigation and Discovery](https://github.com/schollz/find-lf)
 * [Track Wi-Fi Devices In Your Home](https://hackaday.com/2016/12/25/track-wi-fi-devices-in-your-home/)
@@ -764,6 +815,7 @@ This chip includes a GPS processor, WiFi scanner, and a Lora radio
 
 
 ## Probe Requests Sniffing
+
 First, you use this as a “presence detection” mechanism.
 You can track the presence of people in a specific area.
 Being at home, I could detect when my neighbor is back at home and uses his laptop.
@@ -773,7 +825,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 
 * [Show me your SSID’s, I’ll Tell Who You Are!](https://blog.rootshell.be/2012/01/12/show-me-your-ssids-ill-tell-who-you-are/)
 * Build movement-aware applications: [HyperTrack](https://www.hypertrack.com/)
-    * [HyperTrack Documentation](https://docs.hypertrack.com/)
+  * [HyperTrack Documentation](https://docs.hypertrack.com/)
 
 ---------------
 
@@ -793,6 +845,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 * [Beacon Stuffing Beacon Frames and Injection](https://www.youtube.com/watch?v=SPY3W_Kmq8U)
 
 
+
 ## DNS Tunneling
 
 * [How DNS Tunneling Works](http://inside-out.xyz/technology/how-dns-tunneling-works.html)
@@ -806,6 +859,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 * [PowerShell DNS Command & Control with dnscat2-powershell](http://www.blackhillsinfosec.com/?p=5578)
 
 
+
 ### Domain Name Server (DNS)
 
 * [Introduction to the Domain Name System (DNS)](https://opensource.com/article/17/4/introduction-domain-name-system-dns)
@@ -816,6 +870,7 @@ You can learn about the habits (and later to perform social engineering). hotel 
 
 
 # Capturing Cellphone IMSI
+
 An international mobile subscriber identity (IMSI) is a unique number, usually fifteen digits, associated with Global System for Mobile Communications (GSM) and Universal Mobile Telecommunications System (UMTS) network mobile phone users. The IMSI is a unique number identifying a GSM subscriber.
 
 * [You Can Easily Get Into Anybody’s Smartphone with this Tool](https://www.techtimes.com/articles/246754/20200103/you-can-easily-get-into-anybody-s-smartphone-with-this-tool.htm)
@@ -829,6 +884,7 @@ An international mobile subscriber identity (IMSI) is a unique number, usually f
 
 
 # Electronic Art
+
 What if the presence detection said "hi" to the people entering the room or house?
 What if it took their picture or other action?
 

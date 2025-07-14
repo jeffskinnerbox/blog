@@ -67,6 +67,7 @@ and comes in a metal case.
 
 
 # Background
+
 When working with radio frequencies,
 it’s relatively easy to measure amplitudes,
 but it can be challenging to measure phase and impedance,
@@ -81,6 +82,7 @@ and measure the relative amplitude and phase of this signal when received at one
 
 
 ## RF Network Analysis
+
 Within RF network analysis, you provide a stimulus for the network and then monitors the response.
 In this way the operation and performance can be seen and assessed for its suitability.
 There are various types of instrument which can be used for RF networtk analysis.
@@ -132,6 +134,7 @@ Antennas
 
 
 ## Complex Impedance
+
 impedance = resistance + reactance
 
 * [Say it with me: Input Impedance](https://hackaday.com/2015/07/29/say-it-with-me-input-impedance/)
@@ -165,6 +168,7 @@ impedance = resistance + reactance
 
 
 ## RF Network Analyzers vs. Spectrum Analyzers
+
 While there are similarities between RF network analyzers and spectrum analyzers,
 there major differences, especially in the types of measurements that are made.
 A spectrum analyzer is intended for analysing the nature of signals that are fed into RF Networks.
@@ -181,6 +185,7 @@ Only with a knowledge of phase and magnitude from a VNA can circuit models be de
 
 
 ## Vector Network Analyzer (VNA): Concept of Operation
+
 When power enters a port of an RF network,
 some power enters the network, but dependent upon the impedance match,
 some of the power is reflected back to the source.
@@ -217,6 +222,7 @@ Sources:
 
 
 # Types of Measurements
+
 from - <https://www.youtube.com/watch?v=o1eLK4EMpEQ&t=301s>
 Measure antennas, duplexers, diplexers, filters, inductors, capacitors, amplifiers, splitters, baluns, chockes, phase networks, attenuators, etc.
 
@@ -225,6 +231,7 @@ Measure antennas, duplexers, diplexers, filters, inductors, capacitors, amplifie
 
 
 ## Reflection Measurements
+
 Single port measurements
 
 VSWR
@@ -236,6 +243,7 @@ Distance to Fault
 
 
 ## Transmission Measurements
+
 Two port measurements
 
 Filter Shape (gain & frequency response)
@@ -280,6 +288,7 @@ Reviews
 
 
 # Vector Network Analyzer (VNA)
+
 Vector Network Analyzers are used to test component specifications
 and verify network designs to make sure systems and their components work properly together.
 
@@ -309,6 +318,7 @@ and verify network designs to make sure systems and their components work proper
 
 
 ## Vector Network Analyzer (VNA)
+
 Vector Network Analyzers are used to test component specifications
 and verify design simulations to make sure systems and their components work properly together.
 
@@ -324,6 +334,7 @@ and verify design simulations to make sure systems and their components work pro
 
 
 # Vector Network Analyzer (VNA)
+
 Vector Network Analyzers are used to test component specifications
 and verify design simulations to make sure systems and their components work properly together.
 
@@ -366,6 +377,7 @@ and verify design simulations to make sure systems and their components work pro
 
 
 # Smith Chart
+
 The Smith Chart is a tool for visualizing the impedance of a transmission line and antenna
 system as a function of frequency, showing  how they behave from an impedance viewpoint.
 Smith Charts are also extremely helpful for impedance matching.
@@ -390,12 +402,13 @@ However, their value in visualizing the impedance of an antenna or a transmissio
 * [Smith Chart](https://www.printfreegraphpaper.com/gp/smith.pdf)
 
 * Smith Chart Hands-On - <https://www.youtube.com/channel/UCFDM4s9QHMvPQlnW8KI6htw/search?query=smith>
-    * Introduction to the Smith Chart with Examples
-    * Example 1: Finding Γ from Z and vice versa.
-    * Impedance Matching with the Smith Chart
+  * Introduction to the Smith Chart with Examples
+  * Example 1: Finding Γ from Z and vice versa.
+  * Impedance Matching with the Smith Chart
 
 
 # scikit-rf
+
 [`scikit-rf`](http://scikit-rf.org/about.html)
 seeks to provides a modern, object-oriented library for network analysis and calibration aimed at being flexible and scalable.
 
@@ -413,6 +426,7 @@ seeks to provides a modern, object-oriented library for network analysis and cal
 
 
 # VNA Calibration
+
 For any VNA, you must always calibrate the instrument prior measuring your DUT
 (and use [calibration devices of proper quality][06]).
 This is because the VNA itself has non-linearities,
@@ -422,6 +436,7 @@ Also remember, you must do a new calibration any time you change the VNA freqanc
 
 
 ## Calibration Plane
+
 Most VNA measurement setups will NOT allow you to connect a device under test (DUT)
 directly to the analyzer front panel test ports.
 More likely, you would connect your device to test fixtures, adapters, or cables that are connected to the analyzer.
@@ -435,6 +450,7 @@ are measured and removed in the calibration process.
 
 
 ## Electrical Delay
+
 If you use a port extension (aka adaptor), you change the calibration plane since you have introducted
 some delay in the signal propogation and you will need to compansate for it
 if you attached the extension after the calibation plan.
@@ -442,6 +458,7 @@ The NanoVNA can compinsate for this delay within its calibration setup.
 
 
 ## Short Open Load (SOL) Calerbration
+
 To calibrate the VNA, you must apply short, open, load (typically 50 or 75 ohms) on the VNA's output port
 (Port1 or CH0 on the NanoVNA).
 The output port emits a signal and measures both the emitted signal and reflected signal from the DUT.
@@ -451,6 +468,7 @@ The output port emits a signal and measures both the emitted signal and reflecte
 
 
 ## Short Open Load Thru (SOLT) Calerbration
+
 The SOL calibration is suficient for measurments of DUT which do not require a thru measurment, such as antennas,
 but if your using the VNA to measure a filter, you'll also need to calibate with the VNA input port
 (Port2 or CH1 on the NanoVNA).
@@ -508,6 +526,7 @@ The
 
 
 # Measuring Voltage Standing Wave Ratio (VSWR)
+
 VSWR = Return Loss
 
 When looking at systems that include transmission lines it is necessary to understand that sources, transmission lines / feeders and loads all have a characteristic impedance. 50Ω is a very common standard for RF applications although other impedances may occasionally be seen in some systems.
@@ -561,6 +580,7 @@ When this happens the voltages and currents of the forward and reflected waves i
 
 
 ## Why 50 and 75 Ohms
+
 There is a prevalence of 50 ohm coax.
 Sure, you sometimes see 75 ohm coax, but overwhelmingly, RF circuits work at 50 ohms.
 Apparently in the 1930s,
@@ -583,6 +603,7 @@ an impedance 75 ohms probably was a compromise between low loss and cable flexib
 
 
 ## Time Domain Reflectometer (TDR)
+
 A [time-domain reflectometer (TDR)][07] is an electronic instrument used to determine
 the characteristics of electrical lines by observing reflected waveforms.
 

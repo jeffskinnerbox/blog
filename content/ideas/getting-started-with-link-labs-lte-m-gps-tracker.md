@@ -28,28 +28,28 @@ taken from an eMail sent to Jeff Irland (dated January 17, 2018).
 * To change the settings you need to use Tera Term (<https://osdn.net/projects/ttssh2/releases/>)
 * Connect GPS Tag to computer via USB (UART to USB)
 * Open Tera Term and connect via Serial (device will enumerate as a COM port)
-    * **Note: You will not see your keystrokes on the terminal in Tera Term**
+  * **Note: You will not see your keystrokes on the terminal in Tera Term**
 * Hit Enter to bring up the GPS Tracker Menu
 * Hit 2 Enter to get into Device Config Menu
 * To change the Transmit interval hit 1 Enter and input the GPS Fix interval in seconds
 * Hit 5 Enter to verify settings
 * Hit Enter to return to Device Config Menu
 * Hit 6 to go back to the Main Menu Hit 4 to Reset Device
-    * **Note: Device settings will not be changed until AFTER a reset**
+  * **Note: Device settings will not be changed until AFTER a reset**
 * There are other settings that can be adjusted, but most of these are reserved for future use
 
 **UI Procedure**
 
 * Create a Conductor Account (if you don't already have one): <http://docs.link-labs.com/m/72700/l/835334-create-a-conductor-account>
 * Choose a plan
-    * **Note: Current FW uses about 800 network bytes of data per GPS fix. Next FW release lowers this to ~100 bytes.**
+  * **Note: Current FW uses about 800 network bytes of data per GPS fix. Next FW release lowers this to ~100 bytes.**
 * Add an Application Token: <http://docs.link-labs.com/m/72700/l/836107-networkassets>
 * Add an LTE-M Device by IMEI and ICCID under "Devices: LTE-M"
 * You should see the device status change from "Ready" to "Active" but you can also verify device status using this API Call: <https://networkasset-conductor.link-labs.com/networkAsset/lte/admin/info/IMEI/>
-    * **Note: A browser with a JSON viewer extension installed is recommended**
-    * **Note: The UI status may not accurately reflect the device status if the device has previously been deactivated - we are working to fix this error**
+  * **Note: A browser with a JSON viewer extension installed is recommended**
+  * **Note: The UI status may not accurately reflect the device status if the device has previously been deactivated - we are working to fix this error**
 * You can see the data flow on this screen. You can also query the data via API.
-    * **Note: All the LTE-M-specific Conductor API calls can be found here: <https://networkasset-conductor.link-labs.com/networkAsset/docs.html#!/lte/>**
+  * **Note: All the LTE-M-specific Conductor API calls can be found here: <https://networkasset-conductor.link-labs.com/networkAsset/docs.html#!/lte/>**
 * Once you have a valid GPS fix, you can use the AirFinder UI. To create an AirFinder account (included with Conductor service), please send me the email address you would like associated with the account if it is different than this shipping email. Your shipping email should have already received an invitation.
 * Once in AirFinder Add a "Site Name". This could be as simple as "Test".
 * In the Admin portal, Add an Application using the Application Token from Conductor
@@ -62,10 +62,10 @@ taken from an eMail sent to Jeff Irland (dated January 17, 2018).
 **Other Notes**
 
 * Expected battery life for the rechargeable 500 mAh battery:
-    * 1 TX/day=3 months
-    * 1 TX/hr=9 days
-    * 1 TX/30 min=4.5 days
-    * 1TX /5 min=18 hours
+  * 1 TX/day=3 months
+  * 1 TX/hr=9 days
+  * 1 TX/30 min=4.5 days
+  * 1TX /5 min=18 hours
 * Current device does not support PSM/eDRX modes due to stability issues in PSM/eDRX modes. Battery life in PSM mode expected to be about 2X current performance. eDRX will vary by timer settings. A firmware update will be made available when these modes are supported.
 * If you have any issues, the best most common way to recover is to charge the device completely, verify transmission interval, hit the pin reset next to the two LEDs, and go outside to ensure a good GPS fix.
 
@@ -145,19 +145,19 @@ The GPS Tracker LED on the frount behavior is as follows:
 
 * Startup/reset - LEDs on frount blink 5 time
 * Normal Operation - cycles every X minutes depending on TX/update interval
-    * GPS scan - LEDs on front are solid 30 sec to 4 min
-    * GPS scan successful - LEDs on front flash Yellow 2 times
-    * GPS scan failed - LEDs on front flash Yellow 1 times (timeout reached)
-    * Both LEDs turn off then LTE-m uplink message TX
+  * GPS scan - LEDs on front are solid 30 sec to 4 min
+  * GPS scan successful - LEDs on front flash Yellow 2 times
+  * GPS scan failed - LEDs on front flash Yellow 1 times (timeout reached)
+  * Both LEDs turn off then LTE-m uplink message TX
 * Button Press
-    * Battery level indicator
-        * High Battery - LEDs blink 4 times
-        * Medium Battery - LEDs blink 3 times
-        * Low Battery - LEDs blink 2 times
-        * Empty Battery - LEDs blink 1 times
-        * NOTE - Battery voltage is provided in the message payload so higher accuracy results can be found using message
-    * Button Hold (3-5 sec)- Device Reset
-    * Holding for extended period will put into bootloader mode
+  * Battery level indicator
+    * High Battery - LEDs blink 4 times
+    * Medium Battery - LEDs blink 3 times
+    * Low Battery - LEDs blink 2 times
+    * Empty Battery - LEDs blink 1 times
+    * NOTE - Battery voltage is provided in the message payload so higher accuracy results can be found using message
+  * Button Hold (3-5 sec)- Device Reset
+  * Holding for extended period will put into bootloader mode
 
 The GPS Tracker LED in the case behave like this:
     *Back top right red LED is the charge LED and will only illuminate if USB plugged in and battery charging.
@@ -299,12 +299,14 @@ In general, the Client Edge Data API is organized by:
 
 
 # Step 1: Charge the Tracker - DONE
+
 The Tracker device itself has a mini-USB port for charging and programming.
 Using a [USB 2.0 A-Male to Mini-B cable][06],
 make sure to charge the device completely before using (take about 1 hour).
 
 
 # Step 2: Find Device File Name for Tracker - DONE
+
 Using the same cable used to charge the Tracker,
 plug the device into you Linux computer.
 Most likely, your Tracker's device named is `/dev/ttyAMC0`,
@@ -334,6 +336,7 @@ and not `/dev/ttyUSB0` or `/dev/ttyS0` but you'll see strange things sometimes.
 
 
 # Step 3: Connecting With the Tracker - DONE
+
 Since we are working on Linux, your going to need an alternative to [Tera Term][05],
 which is _yet another_ DEC VT100 terminal emulator for the Microsoft Windows OS.
 The obvious Linux alternatives are PuTTY and screen,
@@ -361,6 +364,7 @@ Congratulations, you are now communicating with the Tracker microcontroller via 
 
 
 # Step 4: Change Trakers Configuration - DONE
+
 Now hit `2` `Enter` to get into Device Config Menu.
 You'll see the following new lines:
 
@@ -430,6 +434,7 @@ Mailbox Interval: 600
 
 
 # Step 5: Create Conductor Account - DONE
+
 Now create a Conductor Account by going to [Link Lab's Conductor Web UI][07]
 by using 'Sign Up' at the bottom
 (You'll find some documentation [here][08]).
@@ -455,6 +460,7 @@ NODE ADDRESS  $303$0-0-0001450-2bf65e93d    (also called "Node ID")
 
 
 # Step 6: Add an Application Token - DONE
+
 Still within the Conductor Account screens,
 we need to add an application token for the Tracker devices.
 Select 'DATA' and then 'APPLICATION' from the side menu within Conductor.
@@ -469,6 +475,7 @@ Application Token    b789ab9cca224e1109b0
 
 
 # Step X: AirFinder Account
+
 <https://app.airfinder.com/login>
 Tag             $303$0-0-0001450-2bf65e93d
 Catagory        GPS Tag
@@ -479,6 +486,7 @@ Serial Number   357353080088893
 
 
 # Step 7: Add IMEI and ICCID
+
 Still within the Conductor Account screens,
 we will now .............
 Select 'DEVICES' and 'LTE_M' from the side menu within Conductor.
@@ -502,6 +510,7 @@ Now you'll be back into the 'DEVICES' / 'LTE-M' screen where yoru device will sh
 
 
 # Step X: Python Wrapper for Conductor API
+
 <http://docs.link-labs.com/m/52182/l/478374-a-python-wrapper-of-the-conductor-api-conductor-py>
 Set up your environment:
 
@@ -601,6 +610,7 @@ pyenv virtualenv-delete tracker
 
 
 # Step X: Send Command from Conductor to a Module
+
 A command-line utility to post a command from Conductor to a module. (Uses conductor.py)
 
 send_command_client_edge.py
@@ -622,6 +632,7 @@ clientSecret = 9f2f0b1d2dfa44aab51ab558ccde0075
 
 
 # Step XA: Request Access Token From Authorization Server
+
 Provide username-password and client credentials to the
 Conductor Authorization Server via a request of the following form:
 
@@ -656,6 +667,7 @@ $ curl -s -X POST -H "Content-Type: application/x-www-form-urlencoded" -d "grant
 
 
 # Step XB: Refresh Access Token
+
 If a request fails and Conductor returns an Unauthorized 401 response, a new Access Token may be obtained by making a refresh request to the Conductor Authorization Server. The refresh request uses the Refresh Token provided in the initial response from the Authorization Server.
 That refreash request takes the form:
 
@@ -682,12 +694,13 @@ Here is a working example:
 
 
 # Step XC
+
 The "Basic" HTTP authentication scheme is defined in RFC 7617,
 which transmits credentials as user ID/password pairs, encoded using base64.
 As the user ID and password are passed over the network as clear text (it is base64 encoded, but base64 is a reversible encoding), the basic authentication scheme is not secure. HTTPS / TLS should be used in conjunction with basic authentication.
 
 * Encode to Base64 format - <https://www.base64encode.org/>
-    * To get "amVmZi5pcmxhbmRAdmVyaXpvbi5uZXQ6MUAjWmlwcGl0eWRvMg==", base64 encoding of Conductor <login>:<password>
+  * To get "amVmZi5pcmxhbmRAdmVyaXpvbi5uZXQ6MUAjWmlwcGl0eWRvMg==", base64 encoding of Conductor <login>:<password>
 * This isn't secure - <https://stackoverflow.com/questions/28927051/curl-command-for-https-ssl>
 
 

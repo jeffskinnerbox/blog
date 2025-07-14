@@ -16,6 +16,7 @@ Version:      0.0.0
 
 
 # Siglent Digital Multimeter 3055 (SDM3055)
+
 Siglent doesn't have the same brand recognition or reputation as Keysight or Fluke in the test and measurement space
 This relatively new entrant into the test and measurement industry got its start back in 2002 by researching and developing low cost, highly capable digital oscilloscopes (Siglent Technologies SDS1202X-E 200 mhz Digital Oscilloscope 2 Channels).
 Siglent prides itself in being the ["best value in test and measurement."](https://siglentna.com/about/)
@@ -23,12 +24,13 @@ Siglent prides itself in being the ["best value in test and measurement."](https
 [Siglent Technologies SDM3055 5½ Digit Digital Multimeter](https://siglentna.com/digital-multimeters/sdm3055-5-%C2%BD-digits-dual-display-digital-multimeters/)
 
 
-Good Description - https://www.circuitspecialists.com/siglent_sdm3055_digital_multimeter.html
-Good Comments in Reviews - https://www.amazon.com/Siglent-Technologies-SDM3055-Digital-Multimeter/dp/B00QT3RTV0
-Documentation - https://siglentna.com/resources/documents/digital-multimeter/
+Good Description - <https://www.circuitspecialists.com/siglent_sdm3055_digital_multimeter.html>
+Good Comments in Reviews - <https://www.amazon.com/Siglent-Technologies-SDM3055-Digital-Multimeter/dp/B00QT3RTV0>
+Documentation - <https://siglentna.com/resources/documents/digital-multimeter/>
 [User Manual: SDM3055 Digital Multimeter](https://siglentna.com/wp-content/uploads/dlm_uploads/2017/10/SDM3055x_UserManual_UM06035-E02A.pdf)
 
 # Reviews, Demonstration, and Teardowns
+
 There are several reviews / demonstration / teardowns on the web worth reviewing.
 Here are some of them:
 
@@ -40,6 +42,7 @@ Here are some of them:
 >This has been reported corrected with a firmware update] and verified on my SDM3055.
 
 # Firmware Update
+
 To check the version of the SDM3055's firmware,
 do the following:
 **Shift** > **Utility** > **System Setup** > **System Info**.
@@ -59,7 +62,6 @@ Sources:
 
 
 
-[01]:https://www.eevblog.com/forum/testgear/faster-siglent-sdm3055-dmm-firmware/5/?wap2
 [02]:
 [03]:
 [04]:

@@ -25,19 +25,21 @@ Version:      0.0.0
 * []()
 
 # Contacts for Asset Tracker and ThingSpace
-ThingSpace Manage and SDK Support Team - TSMSDK.Support@Verizon.com
-Michael Menkes (ThingSpace Manage and SDK Support Team) - michael.e.menkes@g.verizon.com
-Gabor Illes - gabor.illes@one.verizon.com
-Matt Threefoot - matthew.j.threefoot@one.verizon.com
-Darshan Gupta - darshan.gupta@one.verizon.com
-Quentin Robinson - quentin.robinson@verizonwireless.com
-Rizwan Mohammed - rizwan.khan.mohammed@one.verizon.com
-Sravan Semmema - sravan.kumar.semmema@one.verizon.com
+
+ThingSpace Manage and SDK Support Team - <TSMSDK.Support@Verizon.com>
+Michael Menkes (ThingSpace Manage and SDK Support Team) - <michael.e.menkes@g.verizon.com>
+Gabor Illes - <gabor.illes@one.verizon.com>
+Matt Threefoot - <matthew.j.threefoot@one.verizon.com>
+Darshan Gupta - <darshan.gupta@one.verizon.com>
+Quentin Robinson - <quentin.robinson@verizonwireless.com>
+Rizwan Mohammed - <rizwan.khan.mohammed@one.verizon.com>
+Sravan Semmema - <sravan.kumar.semmema@one.verizon.com>
 
 
 ################################################################################
 
 # Notes From Device Fails to Activate eMail
+
 All,
 This sounds like the following:
 
@@ -60,6 +62,7 @@ Powering on
 
 If that doesn’t change the LED behavior, then need to continue to address network connectivity issue.
 Not relevant for activation
+
 * Power light is also blinking and the device is connected to a USB charger.
 * Green short, fast blinks..................................................... 40% - 100% battery charge
 * Yellow short, fast blinks.....................................................20% - 40% battery charge
@@ -67,13 +70,14 @@ Not relevant for activation
 When FOTA update is complete, LED returns to charging-only sequence.
 
 GPS light is also blinking
+
 * Short blinks........................................................................ acquiring GPS location
 * goes solid when I bring the device outdoors.
 * Solid......................................................................................location acquired
 
 Sincerely,
 ThingSpace Manage and SDK Support Team
-TSMSDK.Support@Verizon.com
+<TSMSDK.Support@Verizon.com>
 
 ################################################################################
 
@@ -82,6 +86,7 @@ Hi Jeff,
 Could you please add and activate the device on ThingSpace.
 
 Steps to follow:
+
 1. Connect device to charger for 10 minutes, you will see light starts blinking on the device for couple of sec. As a result, the device will exit factory mode, self-provision, and set the default sensor configuration
 2. After 15 min of 10 min charging(Total 25 min Charging) you will see again lights starts blinking on the device.
 3. Go to ThingSpace  and try to register and activate the device when you see lights blinking on the device.
@@ -100,28 +105,29 @@ Sravan
 
 
 # About the Device
+
 The Verizon LTE (Cat-M1) Asset Tracker device doesn't have any markings,
 not even a logo, but it does have the following features:
 
 * Dimensions are 4.5in. x 3.0in x 0.88in.
 * On the front
-    * three green LED labeled Power, Data, GPS
-    * transparent plastic portal for what is likely a light sensor
-    * a small perforated half-inch circle for what is likely temperature and humidity sensor
-    * a half-inch indentation for what appears to be a [capacitive button][22]
+  * three green LED labeled Power, Data, GPS
+  * transparent plastic portal for what is likely a light sensor
+  * a small perforated half-inch circle for what is likely temperature and humidity sensor
+  * a half-inch indentation for what appears to be a [capacitive button][22]
 * On the back
-    * six screws to hold the casing together
-    * Device Name: LTE Asset Tracker
-    * sticker with the following:
-        * Model: VZASSET-CM1-001
-        * ICCID: 89148000004197461018
-        * IMEI: 864508030149261
-        * S/N: VZ1833000111
-        * Date Code: 08/16/2018
+  * six screws to hold the casing together
+  * Device Name: LTE Asset Tracker
+  * sticker with the following:
+    * Model: VZASSET-CM1-001
+    * ICCID: 89148000004197461018
+    * IMEI: 864508030149261
+    * S/N: VZ1833000111
+    * Date Code: 08/16/2018
 * On the side
-    * Micro-USB charging port
+  * Micro-USB charging port
 * What's missing
-    * **NO** pin hole for reset button
+  * **NO** pin hole for reset button
 
 >**NOTE:** Plugging the micro-USB charging port into Linux
 >and running `lsusb` produces nothing interesting.
@@ -136,6 +142,7 @@ not even a logo, but it does have the following features:
 >ICCIDs are stored in the SIM cards and are also engraved or printed on the SIM card body.
 
 ## Check a IMEI Number
+
 The [International Mobile station Equipment Identity number (IMEI)][08]
 is a number used to identify a device that uses terrestrial cellular networks.
 IMEI numbers are hard-coded into device hardware,
@@ -165,6 +172,7 @@ Using this IMEI checker websites you find the following information:
 >(this works for Android phones).
 
 # OAuth 2.0
+
 OAuth 2.0 is an open standard framework for [access delegation][20] and is used by ThingSpace.
 OAuth 2.0 is commonly used as a way for a user
 ( **Resource Owner:** the owner of the ThingSpace device )
@@ -193,6 +201,7 @@ Since no HTTP redirect is involved, the POST method is used and other parameters
 (such as different Grant Types).
 
 OAuth 2.0 Grant Types:
+
 * **Client Credentials** is used only by Confidential Clients.
 * **Resource Owner Credentials (aka Username-Password Authentication)** -
 
@@ -200,6 +209,7 @@ OAuth 2.0 Grant Types:
 The first step of OAuth 2 is to get authorization from the user.
 OAuth 2 provides four methods but ThingSpace appears to only support one
 ( **Grant Type:** )
+
 * **Implicit** was previously recommended for clients without a secret, but has been superseded by using the Authorization Code grant with no secret.
 * **Authorization Code** for apps running on a web server, browser-based and mobile apps
 * **Resource Owner Credentials**
@@ -233,10 +243,12 @@ it could helpful to study these sources:
 * [A Guide To OAuth 2.0 Grants](https://alexbilbie.com/guide-to-oauth-2-grants/)
 
 # Chrome Feature: Copy as cURL
+
 * [Chrome Feature: Copy as cURL](https://lornajane.net/posts/2013/chrome-feature-copy-as-curl)
-* https://ec.haxx.se/usingcurl-copyas.html
+* <https://ec.haxx.se/usingcurl-copyas.html>
 
 # ThingSpace and Device Activation
+
 The [ThingSpace Guides][04] section (specifically [ThingSpace Portal User Guide][07])
 provides information on how to active both your ThingSpace account and the device.
 The [ThingSpace Device Management Portal: Developer Guide][05]
@@ -244,10 +256,12 @@ takes you through the steps of getting you device working with ThingSpace.
 What is provided below generally follows this guide.
 
 ## Step 1: Create an Account - DONE
-Go to the [ThingSpace developer site][01] (aka https://core.thingspace.verizon.com/)
+
+Go to the [ThingSpace developer site][01] (aka <https://core.thingspace.verizon.com/>)
 and create an account via the Sign In/Register button at the top right.
 
 ## Step 2: Add a Device to Account - DONE
+
 1. Login into the site and click on the "[Devices][02]" button at the top of the site.
 1. This brings you to a screen titled "Manage Devices"
 and click on the button "[Mange Devices"][03] mid-page on the left.
@@ -268,7 +282,7 @@ you'll see your vice listed.
 Click on your divices UID,
 and you get the following device information:
 
-* **Device Name:** jeffrey.irland@verizon.com **.... this appear to be wrong, aka ThingSpace Error**
+* **Device Name:** <jeffrey.irland@verizon.com> **.... this appear to be wrong, aka ThingSpace Error**
 * **UID:** e421ecae-89b4-6f8f-e7eb-d4e27a99d7a0
 * **Device Identifier:** 864508030149261 (IMEI)
 * **Created On:** 2018-10-05T17:03:31.048Z
@@ -278,6 +292,7 @@ and you get the following device information:
 * **Device Model:** ts.device.cHeAssetTracker
 
 ## Step 3: Device Activation on ThingSpace - DONE
+
 We now need to activate the device on ThingSpace
 and check that its sending data
 by viewing the data under ThingSpace device history.
@@ -289,6 +304,7 @@ To do this:
 you'll see temperature and other such data (It may take a few minutes to appear).
 
 ## Step 4: Establish an Application on ThingSpace - DONE
+
 So if all has gone as outlined above,
 the device is on the Verizon network and actively sending data to ThingSpace.
 But don't want to interact with this device via the ThingSpace UI.
@@ -298,7 +314,7 @@ Once at this page,
 select "New Application" and supply the following information:
 
 * **App Name:** Asset-Tracker-2-App
-* **Callback URL:** https://www.getpostman.com/oauth2/callback
+* **Callback URL:** <https://www.getpostman.com/oauth2/callback>
 * **Account:** Verizon-PS
 
 Now select the "Update App" icon at the upper right corner and you will get the following:
@@ -309,26 +325,27 @@ Now select the "Update App" icon at the upper right corner and you will get the 
 * **Client ID:** 6ec0fc72-e605-46d1-b3b1-a4b80b3e51f6
 * **Client Secret:** 7b190299-aa18-437c-bf83-234a03f1fad5
 * **Scopes:** ts.alert,ts.alert.ro,ts.device,ts.device.ro,ts.event.ro,ts.place,ts.schedule,ts.schedule.ro,ts.subscription,ts.tag,ts.tag.ro,ts.target,ts.target.ro,ts.trigger,ts.trigger.ro,ts.user.ro
-* **Callback URL:** https://www.getpostman.com/oauth2/callback
+* **Callback URL:** <https://www.getpostman.com/oauth2/callback>
 * **Account:** Verizon-PS
 
 Now you have your applications Client ID and Client Secret
 which are required to ultimately get a Bearer Token for the ThingSpace APIs.
 
->**NOTE:** The **Callback URL** “https://www.getpostman.com/oauth2/callback”
+>**NOTE:** The **Callback URL** “<https://www.getpostman.com/oauth2/callback”>
 >(called by OAuth 2.0 a [Redirect URI][23])
 >is specifically intended for users of [Postman][17] but is also should work for anyone,
 >even if you don't have Postman installed.
 
 ## Step X: Obtaining Authorization Code and Bearer Token - DONE
+
 Next we will go to ThingSpace's main menu and select
 "[Resources][14]" > "[Cloud & Network API References][15]".
 Here you will find documentation concerning ThingSpace APIs that let you connect,
 activate, and control devices your device.
 
 >**NOTE:** Some of the documentation links referenced above point to an earlier version of
->ThingSpace (aka https://thingspace.verizon.com) but we must use URL end-points where the APIs reside.
->(aka https://core.thingspace.verizon.com).
+>ThingSpace (aka <https://thingspace.verizon.com>) but we must use URL end-points where the APIs reside.
+>(aka <https://core.thingspace.verizon.com>).
 >That is why you see a different API end-point reference below.
 
 You application needs first an Authorization Code (aka Authorization Code).
@@ -371,6 +388,7 @@ https://app.getpostman.com/oauth2/callback?code=ODM0MWQ2YmQtOTQ5Yy00MGI3LThhZGIt
 Giving you an authorization code of `ODM0MWQ2YmQtOTQ5Yy00MGI3LThhZGItZmFkMzYxNzNiMzRj`.
 
 #################### EXPERIMENT - DID NOT WORK #################################
+
 ```bash
 # qurey what type of toke this is
 curl -s -X GET  https://core.thingspace.verizon.com/oauth2/token/info?access_token=ODM0MWQ2YmQtOTQ5Yy00MGI3LThhZGItZmFkMzYxNzNiMzRj | jq -C '.'
@@ -391,6 +409,7 @@ $ curl -s -X GET -H "Content-Type: application/json" \
   "cause": "Requested service failed due to internal error"
 }
 ```
+
 #################### EXPERIMENT - DID NOT WORK #################################
 
 **3-Legged Flow**
@@ -398,6 +417,7 @@ $ curl -s -X GET -H "Content-Type: application/json" \
 Now we can request the Bearer Token that will be used within the Client to call the API:
 
 #################### EXPERIMENT - DID NOT WORK #################################
+
 ```bash
 # request the access token (i.e. bearer token)
 $ curl -s -X GET --user 6ec0fc72-e605-46d1-b3b1-a4b80b3e51f6:7b190299-aa18-437c-bf83-234a03f1fad5 \
@@ -408,12 +428,12 @@ $ curl -s -X GET --user 6ec0fc72-e605-46d1-b3b1-a4b80b3e51f6:7b190299-aa18-437c-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-	<head>
-		<title>400 - Bad Request</title>
-	</head>
-	<body>
-		<h1>400 - Bad Request</h1>
-	</body>
+ <head>
+  <title>400 - Bad Request</title>
+ </head>
+ <body>
+  <h1>400 - Bad Request</h1>
+ </body>
 </html>
 
 # request the access token (i.e. bearer token)
@@ -426,6 +446,7 @@ $ curl -s -X POST --user 6ec0fc72-e605-46d1-b3b1-a4b80b3e51f6:7b190299-aa18-437c
   "error_description": "The provided authorization grant (e.g., authorization code, resource owner credentials) or refresh token is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client."
 }
 ```
+
 #################### EXPERIMENT - DID NOT WORK #################################
 
 
@@ -484,6 +505,7 @@ $ curl -s -X GET  https://core.thingspace.verizon.com/oauth2/token/info?access_t
 **NOTE: Worked but no Scope is defined.  So using it in an API returns nothing.**
 
 #################### EXPERIMENT - DID NOT WORK #################################
+
 ```bash
 $ curl -s -X POST --data "grant_type=client_credentials&scope=ts.device" \
     -H "Content-Type: application/x-www-form-urlencoded" \
@@ -507,6 +529,7 @@ $ curl -s -X POST -d "grant_type=client_credentials" \
   "error_description": "The requested scope is invalid, unknown, malformed, or exceeds the scope granted by the resource owner."
 }
 ```
+
 #################### EXPERIMENT - DID NOT WORK #################################
 
 
@@ -554,13 +577,18 @@ curl -v --user 6ec0fc72-e605-46d1-b3b1-a4b80b3e51f6:7b190299-aa18-437c-bf83-234a
 
 **Method 4:**
 
-## Step X:
-## Step X:
-## Step X:
-## Step X:
+## Step X
+
+## Step X
+
+## Step X
+
+## Step X
 
 # Token Management
+
 ## Refresh a Token
+
 To refresh an access token, you must
 
 ```bash
@@ -568,15 +596,17 @@ To refresh an access token, you must
 ```
 
 ## Streaming API Example from Monique
+
 #################### EXPERIMENT - DID NOT WORK #################################
-curl -X POST https://core.thingspace.verizon.com/api/v2/schedules \
+curl -X POST <https://core.thingspace.verizon.com/api/v2/schedules> \
     -H 'authorization: Bearer ZTBmOGM3MGQtMDdkNy00NTAzLWJjZTctODc1YzEwYWRjNzFh' \
     -H 'cache-control: no-cache' \
     -H 'content-type: application/json' \
-    -d '"kind": "ts.target||ts.subscription||ts.device", "version": "1.0", "addressscheme": "streamrest", "address": "https://ec2-34-238-247-200.compute-1.amazonaws.com", "key1": "Bearer M2I3MzZmZGMtODJmMy00NDNmLTg5N2ItYWE5MGVlZDBkNmUz"'
+    -d '"kind": "ts.target||ts.subscription||ts.device", "version": "1.0", "addressscheme": "streamrest", "address": "<https://ec2-34-238-247-200.compute-1.amazonaws.com>", "key1": "Bearer M2I3MzZmZGMtODJmMy00NDNmLTg5N2ItYWE5MGVlZDBkNmUz"'
 #################### EXPERIMENT - DID NOT WORK #################################
 
 ## Request Device Data
+
 ```bash
 # query information about an access token
 $ curl -s -X GET  https://core.thingspace.verizon.com/oauth2/token/info?access_token=Y2IwYmQwOWItM2VjZi00NzlhLTg0N2EtN2I0YTQ5MmFkODZh | jq -C '.'
@@ -770,6 +800,7 @@ $ curl -s -X GET -H "Content-Type: application/json" \
 ```
 
 ## Query a Token
+
 To query for information about an existing access token, do the following:
 
 ```bash
@@ -787,6 +818,7 @@ $ curl -s -X GET  https://core.thingspace.verizon.com/oauth2/token/info?access_t
 ```
 
 ## Revoke a Token
+
 You can also revoke a token with:
 
 ```bash
@@ -838,7 +870,6 @@ The response contains the revoked token in the header; there is no response body
 [03]:https://core.thingspace.verizon.com/portal/ui/manage/devices/sdk-devices
 [04]:https://core.thingspace.verizon.com/portal/ui/resources/guides
 [05]:https://core.thingspace.verizon.com/portal/resources/guides/ts-portal
-[06]:https://core.thingspace.verizon.com/portal/ui/manage/credentials
 [07]:https://core.thingspace.verizon.com/portal/resources/guides/ts-portal
 [08]:https://www.maketecheasier.com/imei-number/
 [09]:https://searchsecurity.techtarget.com/definition/LUHN-formula

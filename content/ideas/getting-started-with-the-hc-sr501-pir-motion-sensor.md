@@ -13,12 +13,13 @@ Version:      0.0.0
 
 
 
-Image for summary - https://i1.wp.com/henrysbench.capnfatz.com/wp-content/uploads/2016/02/HC-SR501.jpg
+Image for summary - <https://i1.wp.com/henrysbench.capnfatz.com/wp-content/uploads/2016/02/HC-SR501.jpg>
 
 * [Microwave Sensor - 5.8GHz Doppler Radar Motion Sensor](https://www.seeedstudio.com/MW0581TR11-5-8GHz-Microwave-Doppler-Radar-Motion-Sensor-p-4366.html)
 * [Microwave vs PIR Sensor](https://www.seeedstudio.com/blog/2019/12/13/which-arduino-motion-sensor-to-use-microwave-or-pir-sensor)
 
 # HC-SR501 Passive Infrared (PIR) motion Sensor
+
 [!hr-sr501](https://www.squirrel-labs.net/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/i/r/irmodule_3.jpg)
 The [HC-SR501 Passive Infrared (PIR) motion sensor][01]
 will detect infrared changes, which can often be interpreted as motion.
@@ -60,20 +61,22 @@ a long with wiring diagrams, code examples, and project ideas are:
 * [Instructables: PIR Motion Sensor Tutorial](http://www.instructables.com/id/PIR-Motion-Sensor-Tutorial/?ALLSTEPS)
 * [Adafruit: PIR Motion Sensor](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/overview)
 
-https://www.adafruit.com/products/189
-https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/
-http://www.instructables.com/id/PIR-Motion-Sensor-Tutorial/
-https://www.mysensors.org/build/motion
-http://blog.roman-mueller.ch/index.php/2013/01/26/hc-sr501-passive-infrared-sensor-with-arduino/
+<https://www.adafruit.com/products/189>
+<https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/>
+<http://www.instructables.com/id/PIR-Motion-Sensor-Tutorial/>
+<https://www.mysensors.org/build/motion>
+<http://blog.roman-mueller.ch/index.php/2013/01/26/hc-sr501-passive-infrared-sensor-with-arduino/>
 
 * [ESP8266_PIRv2 - ESP8266 Huzzah Deep Sleep Mode PIR Motion Alarm using IFTTT](https://github.com/rgrokett/ESP8266_PIRv2)
 * [Passive infrared (PIR) sensor tutorial](https://hackaday.com/2009/08/21/passive-infrared-pir-sensor-tutorial/)
 
 # Microwave Doppler Radar Motion Sensor
+
 * [Microwave Sensor - 5.8GHz Doppler Radar Motion Sensor](https://www.seeedstudio.com/MW0581TR11-5-8GHz-Microwave-Doppler-Radar-Motion-Sensor-p-4366.html)
 * [Microwave vis PIR Sensors](https://www.seeedstudio.com/blog/2019/12/13/which-arduino-motion-sensor-to-use-microwave-or-pir-sensor/)
 
 # MLX90614 Infrared Thermometer
+
 * [SparkFun IR Thermometer Evaluation Board - MLX90614](https://www.sparkfun.com/products/10740)
 * [SparkFun PIR Breakout - 1uA (EKMB1107112)](https://www.sparkfun.com/products/17373)
 * [SparkFun PIR Breakout - 170uA (EKMC4607112K)](https://www.sparkfun.com/products/17372)
