@@ -367,6 +367,7 @@ Kindle 4 (eInk) or Kindle PaperWhite seems like the best pick for features vs pr
 # Lightning Storm Alerts
 
 * [LIGHTNING ALERTS and DASHBOARDS using Weather Integrations in Home Assistant](https://www.youtube.com/watch?v=dvNkmBxKPEk)
+* [A Collection Of Lightning Detectors](https://hackaday.com/2025/07/15/a-collection-of-lightning-detectors/)
 
 
 # Lightning Storm Detector

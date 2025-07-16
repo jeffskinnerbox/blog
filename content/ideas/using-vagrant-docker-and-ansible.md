@@ -93,6 +93,8 @@ VBoxManage showvminfo windows-10_Windows10BaseBox_1581212590774_74597
 # get the list of VMs that are running and their VM ID
 $ VBoxManage list runningvms
 "rsyslog-test_defau
+
+
 lt_1581097326775_97773" {5bf0edd8-8fde-48fa-9532-f9cfdae98ae0}
 "windows-10_Windows10BaseBox_1581212590774_74597" {856f4ebb-3f51-4138-a51a-2091bf2ab296}
 
@@ -187,7 +189,8 @@ $ vagrant vbguest --status
 VirtualBox Guest Additions are a collection of device drivers
 and system applications designed to achieve closer integration
 between the host and guest operating systems.
-VirtualBox lets you download an image ISO file called “VBoxGuestAdditions.iso” containing Guest Additions.
+VirtualBox lets you download an image ISO file called “VBoxGuestAdditions.iso”
+containing Guest Additions.
 This file is located on the host machine
 and can be mounted on the guest system using the VirtualBox GUI manager.
 Once mounted, the guest additions installer can be used to install the guest additions on the guest system.
@@ -636,7 +639,8 @@ ubuntu/xenial64 (virtualbox, 20180706.0.0)
 To update the version of a box:
 
 ```bash
-# check if there are updates available for all boxes
+# check if there are updates available for all bo
+xes
 $ vagrant box outdated --global
 * 'ubuntu/xenial64' for 'virtualbox' (v20180706.0.0) is up to date
 * 'ubuntu/trusty64' for 'virtualbox' is outdated! Current: 20180227.0.1. Latest: 20180627.0.1

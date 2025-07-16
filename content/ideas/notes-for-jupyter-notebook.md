@@ -73,7 +73,9 @@ Version:      0.0.0
 
 # Marimo
 
+* [Marimo](https://marimo.io/) - The future of Python notebooks
 * [Reactive Notebooks with Marimo](https://calmcode.io/course/marimo/introduction)
+* [Getting Started With marimo Notebooks](https://realpython.com/courses/getting-started-with-marimo-notebooks/)
 
 
 
