@@ -16,6 +16,7 @@ Version:      0.0.0
 
 * [Master the Art of Python Debugging With These Tips](https://thenewstack.io/master-the-art-of-python-debugging-with-these-tips/)
 * [7 Python Debugging Techniques Every Beginner Should Know](https://www.kdnuggets.com/7-python-debugging-techniques-every-beginner-should-know)
+* [How to Debug Common Python Errors](https://realpython.com/debug-python-errors/)
 
 * [Python 10 minutes a day](https://python-10-minutes-a-day.rocks/)
 * [Real Python Learning Paths](https://realpython.com/learning-paths/)
@@ -527,7 +528,6 @@ There are many Python static analysis tools to choose from, but these are most h
   * [Python Itertools](https://www.geeksforgeeks.org/python-itertools/)
   * [The FULL Guide To Itertools For Python Developers](https://www.youtube.com/watch?v=baZpqVmR488)
   * [Looping in Python](https://www.pythonmorsels.com/screencasts/looping/)
-  * [How to loop with indexes in Python](https://treyhunner.com/2016/04/how-to-loop-with-indexes-in-python/)
   * [The Iterator Protocol](https://www.pythonmorsels.com/iterator-protocol/)
   * [Lazy Looping: The Next Iteration](https://treyhunner.com/lazy-looping/resources.html)
 
