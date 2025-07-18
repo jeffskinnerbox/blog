@@ -318,6 +318,13 @@ working with built-in data types, processing iterables of data, handling input a
   * [21 MORE nooby Python habits](https://www.youtube.com/watch?v=E8NijUYfyus)
 
 
+## Python Scope
+In programming, the scope of a name defines the region of a program where you can unambiguously access that name, which could identify a variable, constant, function, class, or any other object.
+Nearly all programming languages use the concept of scope to avoid name collisions and unpredictable behavior.
+Python resolves names using what’s known as the **LEGB rule**, which defines the order in which the interpreter searches through distinct scopes. The letters in this acronym stand for Local, Enclosing, Global, and Built-in.
+
+* [Python Scope and the LEGB Rule: Resolving Names in Your Code](https://realpython.com/python-scope-legb-rule/)
+
 ## Python Objects
 
 * Magic Methods

@@ -62,7 +62,8 @@ Miniconda is lightweight and quick to install, making it a great choice if youâ€
 
 # What About Anaconda and Raspberry Pi?
 
-* [Installing Anaconda Python Distribution on Raspberry Pi](https://www.youtube.com/watch?v=fYPr43YhTMM&t=185s)
+* [Installing Anaconda Python Distributi
+on on Raspberry Pi](https://www.youtube.com/watch?v=fYPr43YhTMM&t=185s)
 
 
 # Ephemeral Environments
