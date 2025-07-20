@@ -541,6 +541,7 @@ ch as their image but also via motion, heat, sound, or RF exhaust then may make.
   * [I Made A More Affordable Smart Home Presence Sensor](https://www.youtube.com/watch?v=wCwMNSeLRcw)
   * [Diy Presence Sensor](https://www.youtube.com/watch?v=P8RO9gjs_h4)
 
+* [I built an ESP32-powered presence sensor using only Bluetooth, here's how it works](https://www.xda-developers.com/built-esp32-powered-presence-sensor-bluetooth/)
 
 * [Person Detection with TensorFlow and Arduino](https://www.hackster.io/little_lookout/person-detection-with-tensorflow-and-arduino-47ae01)
 * [TensorFlow Object Detection with Home-Assistant](https://www.hackster.io/robin-cole/tensorflow-object-detection-with-home-assistant-7cc04b)
@@ -605,6 +606,7 @@ An ESP32 based presence detection node for use with the Home Assistant mqtt_room
 * [ESPresence](https://github.com/ESPresense/ESPresense)
 * [I put this in EVERY room! Smart room detection](https://www.youtube.com/watch?v=s7kyqpq4Ev4)
 * [Home Assistant Integration](https://espresense.com/home_assistant)
+* [I built an ESP32-powered presence sensor using only Bluetooth, here's how it works](https://www.xda-developers.com/built-esp32-powered-presence-sensor-bluetooth/)
 
 
 
