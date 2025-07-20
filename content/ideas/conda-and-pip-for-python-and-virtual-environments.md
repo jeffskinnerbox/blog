@@ -4,7 +4,8 @@ Version:      0.0.0
 -->
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 ---
@@ -206,6 +207,7 @@ and use Pip for package version management.
 Sources:
 
 * [Enviroments, Conda, Pip, aaaaah!: Managing Python environments without a headache](https://towardsdatascience.com/environments-conda-pip-aaaaah-d2503877884c)
+* [This Conda Alternative Gave Me the Perfect Linux Dev Environment](https://www.howtogeek.com/how-to-set-up-a-development-environment-with-mamba/)
 
 
 # Installation of Your Python Environment - DONE
