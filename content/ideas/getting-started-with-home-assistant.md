@@ -2104,6 +2104,7 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * FLASHING THE ATOM ECHO - [$13 voice remote for Home Assistant](https://www.home-assistant.io/voice_control/thirteen-usd-voice-remote/)
 * [LOCAL Voice and Hearing for your Home Assistant Assist!!!](https://www.youtube.com/watch?v=MOJQU5zyoIY)
 * [Custom Voice Control Sentences in Home Assistant](https://www.mostlychris.com/custom-voice-control-sentences-in-home-assistant/)
+* [Local Conversations with Home Assistant Voice Assist](https://www.mostlychris.com/local-conversations-with-home-assistant-voice-assist/)
 
 * [Your Voice Assistant Doesn’t Have To Be Cloudy](https://hackaday.com/2024/03/21/your-voice-assistant-doesnt-have-to-be-cloudy/)
 * [Offline & Hybrid Voice Control for Home Assistant](https://www.crowdsupply.com/saraai/sarakit/updates/offline-and-hybrid-voice-control-for-home-assistant)
