@@ -87,6 +87,9 @@ Sources:
 
 # Safely Execute LLM Models Locally
 
+* [Your First Local LLM API Project in Python Step-By-Step](https://machinelearningmastery.com/your-first-local-llm-api-project-in-python-step-by-step/)
+* [Your First OpenAI API Project in Python Step-By-Step](https://machinelearningmastery.com/your-first-openai-api-project-in-python-step-by-step/)
+
 * [The Only Guide You Need to Fine-Tune Llama 3 or Any Other Open Source Model](https://www.unite.ai/the-only-guide-you-need-to-fine-tune-llama-3-or-any-other-open-source-model/)
 * [the ONLY way to run Deepseek...](https://www.youtube.com/watch?v=7TR-FLWNVHY)
   * [Using DeepSeek-R1 Locally](https://www.kdnuggets.com/using-deepseek-r1-locally)
