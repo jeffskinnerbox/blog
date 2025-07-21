@@ -151,6 +151,23 @@ as well as taking steps to fix them.
 * [Handling or Preventing Errors in Python: LBYL vs EAFP](https://realpython.com/courses/handling-preventing-errors-lbyl-eafp/)
 
 
+# IPython & Jupyter & JupyterLab
+
+[IPython](https://ipython.org/) is an alternative interactive interpreter to the standard Python interpreter that ships with the language.
+The standard interpreter is useful for testing out small snippets of code and learning the language, but its functionality is basic. IPython adds a lot of features that are useful if you make much more extensive use of interactive Python.
+
+IPython enhances Python's interactive mode with syntax highlighting and magic commands.
+It offers built-in help, tab completion, and the ability to run system commands within Python.
+You can log sessions for review, further enhancing IPython's functionality.
+
+One of IPython's spinoffs is the popular notebook interface [Jupyter](https://jupyter.org/), which is popular in scientific computing.
+Jupyter is available in two flavors: the standard Jupyter Notebook and JupyterLab. The latter is intended to be a fuller-featured version, similar to an IDE. The Jupyter project even deprecated the older Jupyter and put it into maintenance mode, but eventually pulled the original Jupyter out of mothballs and maintains both simultaneously due to its continuing popularity.
+
+* [Why IPython is Better Than the Standard Python Interpreter](https://www.howtogeek.com/why-ipython-is-better-than-the-standard-python-interpreter/)
+* [How to Get Started Creating Interactive Notebooks in Jupyter](https://www.howtogeek.com/how-to-get-started-creating-interactive-notebooks-in-jupyter/)
+* [JupyterLab Documentation](https://jupyterlab.readthedocs.io/en/latest/#)
+
+
 # DIY Python Debugger
 
 * [Let’s create a Python Debugger together: Part 1](https://mostlynerdless.de/blog/2023/09/20/lets-create-a-python-debugger-together-part-1/)
