@@ -1,0 +1,452 @@
+<!DOCTYPE html>         <!-- This is the HTML5 doctype -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>Two-Factor Authentication via Google Authenticator - Jeff's Skinner Box</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="../../../../../favicon.ico" rel="icon">
+
+    <!-- Open Graph tags -->
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="Two-Factor Authentication via Google Authenticator"/>
+            <meta property="og:url" content="../../../../../posts/2015/Nov/28/two-factor-authentication-via-google-authenticator/"/>
+            <meta property="og:description" content="I want to set up a secure connection to my home computer while on the road. The obvious thing to do is open the SSH port on my router, forward it to my SSH port on my computer, and it should be good to go. Yes, but I'm paranoid, so I'm using Two-Factor Authentication."/>
+
+    <!-- Bootstrap -->
+        <link href="../../../../../theme/css/bootstrap.flatly.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Font Awesome and Google Fonts -->
+    <link href="../../../../../theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
+
+    <link href="../../../../../theme/css/pygments/default.css" rel="stylesheet">
+    <link href="../../../../../theme/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../../../../../static/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="box-shadow: 5px 5px 10px #888888;">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../../../../" style="font-family: Knewave, cursive; font-size: 48px; color: #FFFFFF">
+Jeff's Skinner Box&nbsp;            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="/pages/about-me/">About Me</a></li>
+                    <li><a href="http://127.0.0.1:8080">MicroContent</a></li>
+                    <li><a href="/pages/open-notebook/">Open Notebook</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="../../../../../archives.html">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+  <!-- GitHub Ribbon - https://github.com/blog/273-github-ribbons -->
+<!-- GitHub Ribbon - https://github.com/blog/273-github-ribbons -->
+    <a href="https://github.com/jeffskinnerbox/jeffskinnerbox.github.io/tree/source" target="_blank">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a>
+</div> <!-- /.navbar -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="../../../../../posts/2015/Nov/28/two-factor-authentication-via-google-authenticator/"
+                       rel="bookmark"
+                       title="Permalink to Two-Factor Authentication via Google Authenticator">
+                        Two-Factor Authentication via Google Authenticator
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-11-28T10:16:00-05:00"> Saturday&nbsp;&nbsp;&nbsp;&nbsp;November 28, 2015</time>
+    </span>
+
+
+
+&nbsp;&nbsp;&nbsp;
+<i class="fa fa-tags fa-lg"></i>
+    <a class="btn btn-default btn-xs" href="../../../../../tag/security/">Security</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/two-factor-authentication/">Two-Factor Authentication</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/google-authenticator/">Google Authenticator</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <h1>Two-Factor Authentication</h1>
+<p><div style="float: left">
+    <a href="http://security.stackexchange.com/questions/41939/two-step-vs-two-factor-authentication-is-there-a-difference">
+        <img class="img-rounded" style="margin: 0px 8px; width: 247px; height: 111px" title="Strictly speaking, Google Authenticator is a Two STEP Authentication methodology. Never the less, it is close too it.  This implementation pragmatically require the phone, the 2nd factor." alt="2FA-Picture" src="../../../../../images/two-factor-authentication.png" />
+    </a>
+</div>
+I want additional security for my SSH login exposed to the Internet,
+specifically <a href="http://www.cnet.com/news/two-factor-authentication-what-you-need-to-know-faq/">Two-Factor Authentication (2FA)</a>.
+<a href="https://twofactorauth.org/">Increasingly, websites are being built to support 2FA natively</a>
+and you can <a href="http://lifehacker.com/5938565/heres-everywhere-you-should-enable-two-factor-authentication-right-now?disableinsets=on&amp;utm_expid=66866090-49.VYy4WCNHSyuP6EmjnM93MQ.2&amp;utm_referrer=https%3A%2F%2Fwww.google.com%2F">take advantage of 2FA at these sites</a>,
+but it <a href="http://www.cnet.com/how-to/how-to-enable-two-factor-authentication-on-popular-sites/">typically requires you to enable 2FA</a> for those sites only.
+I want to <a href="http://www.howtogeek.com/121650/how-to-secure-ssh-with-google-authenticators-two-factor-authentication/">implement 2FA on my Ubuntu SSH connections</a>
+use an offering called <a href="http://www.google.com/landing/2step/">Google Authenticator</a>.
+This Google <a href="https://github.com/google/google-authenticator">web service is open sources</a> and can be used with a companion smart phone app.</p>
+<p>Google Authenticator implements <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm">Time-based One-time Password Algorithm (TOTP)</a>
+security tokens from <a href="https://tools.ietf.org/html/rfc6238">RFC6238</a> in mobile apps made by Google.
+The Authenticator provides a six digit one-time password users must provide
+in addition to their username and password to log into Google services or other sites.
+Google Authenticator doesn’t call Google — all the work happens on your SSH server and your phone.
+See "<a href="https://medium.com/@n.moretto/two-factor-authentication-with-totp-ccc5f828b6df">Two-factor authentication with TOTP</a>" for a gentle introduction.</p>
+<blockquote>
+<p><strong>NOTE:</strong> There are alternatives to Google Authenticator.
+Check out <a href="https://www.makeuseof.com/tag/5-best-alternatives-google-authenticator/">"The 5 Best Alternatives to Google Authenticator"</a>.</p>
+</blockquote>
+<h3>Step 1</h3>
+<p>To access my home PC from out side my home via SSH,
+I need to configure port forwarding on your router (external interface)
+to my home PC's SSH server.
+I can either use the standard port (22) or any alternative port (something above 1024).
+(<strong>NOTE:</strong> For the webserver you will need to set the port forwarding from port 80
+on the external interface to your server and maybe port 443 if you want to include SSL/TLS connections.)
+I did this via the router's configuration page.
+Many modern routers have presets for configuring several applications, including SSH.
+If you need to forward the port manually, though,
+set it so that any incoming connections through port 22
+will be routed to the local IP of your home computer.</p>
+<p>Also, on some routers,
+you'll need to configure you home PC with a static IP address,
+otherwise DHCP could move your assigned IP address around,
+effectively disabling the forwarding.</p>
+<h3>Step 2</h3>
+<p>Download the Google Authenticator app for your Apple or Android device.
+In my case, I used the <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2">Android App</a>.</p>
+<h3>Step 3</h3>
+<p>Next you need to install the Google Authenticator<a href="http://tldp.org/HOWTO/User-Authentication-HOWTO/x115.html">PAM module</a>.
+To install the package on Ubuntu, run the following command:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo apt-get install libpam-google-authenticator
+</pre></div>
+
+
+<p>Now log in as the user you’ll be logging in with remotely
+and run the comand <code>google-authenticator</code> to create a secret key.</p>
+<p>Allow the command to update your Google Authenticator file by typing <code>y</code>.
+You’ll then be prompted with several questions that will allow you to
+restrict uses of the same temporary security token,
+increase the time window that tokens can be used for,
+and limit allowed acces attempts to hinder brute-force cracking attempts.</p>
+<p>Finally, Google Authenticator will present you with a secret key
+and several “emergency scratch codes.”
+Write down the emergency scratch codes somewhere safe,
+they can only be used one time each,
+and they’re intended for use if you lose your phone.</p>
+<h3>Step 4</h3>
+<p>Enter the secret key in the Google Authenticator app on your phone,
+or you can also use the scan barcode feature (i.e. scan a QR code with your phone’s camera).</p>
+<p>Now you’ll now have a constantly changing verification code on your phone.
+(<strong>NOTE:</strong> If you want to log in remotely as multiple users,
+run this command for each user.
+Each user will have their own secret key and their own codes.)</p>
+<h3>Step 5</h3>
+<p>Next you need to activate Google Authenticator on the home PC
+and require Google Authenticator for SSH logins.
+You's do this by making modification to the <a href="http://tldp.org/HOWTO/User-Authentication-HOWTO/x115.html">Pluggable Authentication Modules (PAM)</a>
+for Linux.
+To do so, open the <code>/etc/pam.d/sshd</code> file on your system
+and add the following line to the file:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>auth required pam_google_authenticator.so
+</pre></div>
+
+
+<p>Next, open the <code>/etc/ssh/sshd_config</code> file,
+locate the <code>ChallengeResponseAuthentication</code> line,
+and change it to read as follows:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>ChallengeResponseAuthentication yes
+</pre></div>
+
+
+<p>(<strong>NOTE:</strong> If the <code>ChallengeResponseAuthentication</code> line doesn’t already exist,
+add the above line to the file.)</p>
+<p>Finally, restart the SSH server, so your changes will take effect, via ths command:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo service ssh restart
+</pre></div>
+
+
+<h3>Step 6</h3>
+<p>At this point, when using SSH from my local network,
+I would need to provide the verification code.
+I don’t want to enter the verification code on my local network,
+because I trust my local network.
+When I SSH from remote, a verification code is required.
+One way to avoid this is to always login with certificates.</p>
+<p>Luckily, there is another way to arrange this using the <code>pam_access.so</code> module
+This modification will allow skipping two-factor authentication
+when the connection originates from certain sources.
+This is natively already supported by PAM.
+The <code>pam_access.so</code> module can be used to check the source against local subnets:</p>
+<p>make sure you have the following in <code>/etc/pam.d/sshd</code>:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># use Google Authenticator</span>
+<span style="color: #0099FF; font-style: italic"># The ‘nullok’ option tells PAM whenever no config for 2-factor authentication is found,</span>
+<span style="color: #0099FF; font-style: italic"># it should just ignore it. This will prevent you from being locked out.</span>
+auth <span style="color: #555555">[</span><span style="color: #003333">success</span><span style="color: #555555">=</span><span style="color: #FF6600">1</span> <span style="color: #003333">default</span><span style="color: #555555">=</span>ignore<span style="color: #555555">]</span> pam_access.so <span style="color: #003333">accessfile</span><span style="color: #555555">=</span>/etc/security/access-local.conf
+auth required pam_google_authenticator.so nullok
+</pre></div>
+
+
+<p>Add create the file <code>/etc/security/access-local.conf</code> with the following contents:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># skip one-time password if logging in from the local network</span>
+<span style="color: #0099FF; font-style: italic"># only allow from local IP range</span>
++ : ALL : 192.168.1.0/24
++ : ALL : LOCAL
+- : ALL : ALL
+</pre></div>
+
+
+<h3>Step 7</h3>
+<p>Test it out.
+You’ll be prompted for both your password and
+Google Authenticator code whenever you attempt to log in via SSH externally.
+On the other hand, when using SSH on your local network,
+you should not be required to enter the Google Authenticator code.</p>
+<h1>Sources</h1>
+<p>Key articles that I found helpful:</p>
+<ul>
+<li><a href="https://www.blogdot.tv/setting-up-two-factor-authentication-on-your-raspberry-pi/">Setting up two-factor authentication on your Raspberry Pi</a></li>
+<li><a href="http://kb.mailchimp.com/integrations/other-integrations/set-up-google-authenticator">Set Up Google Authenticator</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-two-factor-authentication">How To Protect SSH With Two-Factor Authentication</a></li>
+<li><a href="https://www.linux.com/community/blogs/133-general-linux/783135-securing-ssh-with-two-factor-authentication-using-google-authenticator">Securing SSH with two factor authentication using Google Authenticator</a></li>
+<li><a href="http://wiki.vps.net/vps-net-features/cloud-servers/configuring-two-factor-authentication-in-ubuntu-14-04-using-google-authenticator/">Configuring two-factor authentication in Ubuntu 14.04 using Google Authenticator</a></li>
+<li><a href="http://blog.remibergsma.com/2013/06/08/playing-with-two-facor-authentication-in-linux-using-google-authenticator/">Playing with two-factor authentication in Linux using Google Authenticator</a></li>
+<li><a href="http://serverfault.com/questions/518802/two-factor-ssh-authentication-on-external-address-only">Two Factor SSH Authentication on external address only</a></li>
+<li><a href="http://blog.nowherelan.com/2014/01/04/two-step-authentication-for-ssh-on-centos-6-using-google-authenticator/">Two Step Authentication for SSH on Centos 6 Using Google Authenticator</a></li>
+</ul>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3 well well-sm" id="sidebar" style="box-shadow: 5px 5px 10px #888888;">
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <div style="text-align: center;">
+                    <h3><a href="../../../../../pages/about-me/" style="font-family: Knewave, cursive; font-size: 18;">My Electronics Projects And Other Diversions</a>
+                    <a href="../../../../../pages/about-me/">
+                        <img class="img-rounded" src="../../../../../extra/frustrated-engineer.jpg" alt="Side Bar Picture" height="100%" width="100%">
+                    </a>
+                </div>
+
+            <font color=#990000>
+                <li class="list-group-item"><a href="../../../../../pages/"><h4><i class="fa fa-exclamation-triangle fa-lg"></i><span class="icon-label">Testing Zone</span></h4></a>
+                </li>
+
+                <li class="list-group-item"><a href="../../../../../drafts/"><h4><i class="fa fa-edit fa-lg"></i><span class="icon-label">Draft Articles</span></h4></a>
+                </li>
+            </font>
+
+            <li class="list-group-item"><a href="../../../../../categories.html"><h4><i class="fa fa-folder-open fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../index.html"><h4><i class="fa fa-clock-o fa-lg"></i><span class="icon-label">Recent Posts</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../pages/open-notebook/index.html"><h4><i class="fa fa-book fa-lg"></i><span class="icon-label">Open Notebook</span></h4></a>
+
+<li class="list-group-item"><h4><i class="fa fa-file-text fa-lg"></i><span class="icon-label">Site Pages</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="/pages/linux-and-python-packages-for-my-raspberry-pi/index.html" target="_blank">
+                RPi Packages
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="/tag/how-to/index.html" target="_blank">
+                How To
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="/tag/cheat-sheet/index.html" target="_blank">
+                Cheat Sheets
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-puzzle-piece fa-lg"></i><span class="icon-label">MicroContent</span></h4>
+    <ul class="list-group" id="wiki">
+        <li class="list-group-item">
+            <a href="http://127.0.0.1:8080/#Potential Projects" target="_blank">
+                Project Ideas
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://127.0.0.1:8080/#Topics for Study" target="_blank">
+                Things to Study
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-link fa-lg"></i><span class="icon-label">External Links</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://tiddlywiki.com/" target="_blank">
+                TiddlyWiki
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-group fa-lg"></i><span class="icon-label">Social Media</span></h4>
+    <ul class="list-group" id="social">
+        <li class="list-group-item"><a href="https://github.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-github"></i> Github
+        </a></li>
+        <li class="list-group-item"><a href="https://hackaday.io/jeffskinnerbox" target="_blank">
+            <i class="fa fa-hacker-news"></i> Hackaday
+        </a></li>
+        <li class="list-group-item"><a href="https://twitter.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-twitter"></i> Twitter
+        </a></li>
+        <li class="list-group-item"><a href="https://www.flickr.com/photos/104241758@N03/" target="_blank">
+            <i class="fa fa-flickr"></i> Flickr
+        </a></li>
+        <li class="list-group-item"><a href="https://delicious.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-delicious"></i> Delicious
+        </a></li>
+        <li class="list-group-item"><a href="https://www.pinterest.com/jeffskinnerbox/my-electronics-projects-and-other-diversions/" target="_blank">
+            <i class="fa fa-pinterest"></i> Pinterest
+        </a></li>
+        <li class="list-group-item"><a href="http://getpocket.com/a/queue/" target="_blank">
+            <i class="fa fa-chevron-circle-down"></i> Pocket
+        </a></li>
+        <li class="list-group-item"><a href="http://jeffskinnerbox.tumblr.com/" target="_blank">
+            <i class="fa fa-tumblr"></i> Tumblr
+        </a></li>
+        <li class="list-group-item"><a href="http://instagram.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-instagram"></i> Instagram
+        </a></li>
+        <li class="list-group-item"><a href="https://www.facebook.com/jeff.irland" target="_blank">
+            <i class="fa fa-facebook"></i> Facebook
+        </a></li>
+        <li class="list-group-item"><a href="https://linkedin.com/in/jeffreyirland" target="_blank">
+            <i class="fa fa-linkedin"></i> Linkedin
+        </a></li>
+        <li class="list-group-item"><a href="http://www.commandlinefu.com/commands/by/jeffskinnerbox" target="_blank">
+            <i class="fa fa-terminal"></i> CommandLineFu
+        </a></li>
+        <li class="list-group-item"><a href="https://disqus.com/by/jeffskinnerbox/" target="_blank">
+            <i class="fa fa-comment"></i> DISQUS
+        </a></li>
+    </ul>
+</li> 
+
+<li class="list-group-item"><h4><i class="fa fa-thumbs-up fa-lg"></i><span class="icon-label">Reposted At</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://www.eeweb.com/websites/jeffs-skinner-box" target="_blank">
+                EEWeb.com
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-gears fa-lg"></i><span class="icon-label">Admin</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="https://www.google.com/analytics/web/?hl=en#report/visitors-overview/a43272292w73270397p83408137/" target="_blank">
+                Google Analytics
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/jeffskinnerbox/jeffskinnerbox.github.io" target="_blank">
+                Web Site Source Code
+            </a>
+        </li>
+    </ul>
+</li>
+            <li class="list-group-item"><a href="../../../../../pages/this-blog-is-powered-by/index.html"><h4><i class="fa fa-rocket fa-lg"></i><span class="icon-label">This Blog Powered By</span></h4></a>
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">This Blog Powered By 
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://tiddlywiki.com/" target="_blank">TiddlyWiki</a>,
+            <a href="http://ipython.org/notebook.html" target="_blank">Python Notebook</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, And
+            <a href="/pages/this-blog-is-powered-by/index.html" target="_blank">Other Things</a>.
+            <p>
+            <a href="http://opensource.org/">
+                <img src="/images/logos/open_source_logo.png" alt="Open Source Logo" title="The Open Source Initiative (OSI) is a non-profit corporation with global scope formed to educate about and advocate for the benefits of open source, and to build bridges among different constituencies in the open source community. The OSI maintains the Open Source Definition and the list of Open Source Initiative-approved licenses." height="40px" width="40px">
+            </a>
+            <a href="http://www.oshwa.org/">
+                <img src="/images/logos/open-soruce-hardware-logo-800-px.png" alt="Open Source Hardware Logo" title="The Open Source Hardware Association aims to be the voice of the open hardware community, ensuring that technological knowledge is accessible to everyone, and encouraging the collaborative development of technology that serves education, environmental sustainability, and human welfare." height="40px" width="40px">
+            </a>
+            <small>
+                All my work on this blog is
+                <a href="http://opensource.org/licenses/MIT/" target="_blank">MIT Licensed, open, and free</a>,
+                except where indicated otherwise.
+            </small>
+            </p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../../../../theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="../../../../../theme/js/respond.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '../../../../../theme/js/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+            }
+
+            github.showRepos({
+                user: 'jeffskinnerbox',
+                count: 5,
+                skip_forks: false,
+                target: '#gh_repos'
+            });
+        });
+    </script>
+    <script src="../../../../../theme/js/github.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,964 @@
+<!DOCTYPE html>         <!-- This is the HTML5 doctype -->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <title>HowTo: Linux Maintenance and Filesystem Hygiene - Jeff's Skinner Box</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="../../../../../favicon.ico" rel="icon">
+
+    <!-- Open Graph tags -->
+            <meta property="og:type" content="article"/>
+            <meta property="og:title" content="HowTo: Linux Maintenance and Filesystem Hygiene"/>
+            <meta property="og:url" content="../../../../../posts/2014/Mar/31/howto-linux-maintenance-and-filesystem-hygiene/"/>
+            <meta property="og:description" content="This article reviews the kinds of maintenance activities required by Ubuntu / Debian / Raspberry Pi Linux distributions to keep them running as they should. It covers topics like OS and applications updates, disk / filesystems integrity, and cleaning up filesystem clutter."/>
+
+    <!-- Bootstrap -->
+        <link href="../../../../../theme/css/bootstrap.flatly.min.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Font Awesome and Google Fonts -->
+    <link href="../../../../../theme/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Knewave' rel='stylesheet' type='text/css'>
+
+    <link href="../../../../../theme/css/pygments/default.css" rel="stylesheet">
+    <link href="../../../../../theme/css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="../../../../../static/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="box-shadow: 5px 5px 10px #888888;">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../../../../" style="font-family: Knewave, cursive; font-size: 48px; color: #FFFFFF">
+Jeff's Skinner Box&nbsp;            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                    <li><a href="/pages/about-me/">About Me</a></li>
+                    <li><a href="http://127.0.0.1:8080">MicroContent</a></li>
+                    <li><a href="/pages/open-notebook/">Open Notebook</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li><a href="../../../../../archives.html">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+  <!-- GitHub Ribbon - https://github.com/blog/273-github-ribbons -->
+<!-- GitHub Ribbon - https://github.com/blog/273-github-ribbons -->
+    <a href="https://github.com/jeffskinnerbox/jeffskinnerbox.github.io/tree/source" target="_blank">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a>
+</div> <!-- /.navbar -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="../../../../../posts/2014/Mar/31/howto-linux-maintenance-and-filesystem-hygiene/"
+                       rel="bookmark"
+                       title="Permalink to HowTo: Linux Maintenance and Filesystem Hygiene">
+                        HowTo: Linux Maintenance and Filesystem Hygiene
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2014-03-31T21:23:00-04:00"> Monday&nbsp;&nbsp;&nbsp;&nbsp;March 31, 2014</time>
+    </span>
+
+
+
+&nbsp;&nbsp;&nbsp;
+<i class="fa fa-tags fa-lg"></i>
+    <a class="btn btn-default btn-xs" href="../../../../../tag/how-to/">How To</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/linux/">Linux</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/raspberry-pi/">Raspberry Pi</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/filesystem/">Filesystem</a>
+        &nbsp;
+    <a class="btn btn-default btn-xs" href="../../../../../tag/hygiene/">Hygiene</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>What kind of maintenance does one need to do on an Ubuntu / Debian / Raspberry Pi Linux distributions?
+Defrag the drive, clean your registry, update antivirus, etc. just like you need to in Windows?
+None of this is needed in Linux but there is some recommend filesystem hygiene you should be doing.</p>
+<h2>Gather Information</h2>
+<p>For starters, lets gather some information.
+Some of the maintenance activities listed here, you're going to need some basic information.
+This next section shows you how to get that information.</p>
+<h4>Distribution Name and Version</h4>
+<p>To determine which Linux version / build / release / distribution you are running:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># kernel name and release</span>
+uname -sr
+
+<span style="color: #0099FF; font-style: italic"># kernel version</span>
+uname -v
+
+<span style="color: #0099FF; font-style: italic"># Linux distribution</span>
+cat /etc/*-release
+lsb_release -a
+</pre></div>
+
+
+<p>Use one of the following command to get a listing of all the physical hard drives
+(and virutal drives) on the system:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># terminal commandline utilities to list disk drives</span>
+hwinfo --disk --short
+sudo lshw -class disk -class storage -short
+
+<span style="color: #0099FF; font-style: italic"># GTK+ graphical user interface version of lshw</span>
+sudo lshw-gtk &amp;
+</pre></div>
+
+
+<p>For the Raspberry Pi, you can list the installed firmware version via:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># list the Raspberry Pi&#39;s firmware version</span>
+/opt/vc/bin/vcgencmd version
+</pre></div>
+
+
+<p>To get a broader, and potentially more detailed look at your system,
+consider the commands <a href="http://www.thegeekstuff.com/2008/12/how-to-get-hardware-specs-of-your-system-using-lshw-hardware-lister/"><code>lshw</code></a>
+and the graphical tools <a href="http://www.webupd8.org/2011/07/how-to-get-hardware-information-in.html"><code>lshw-gtk</code></a> and <a href="http://www.webupd8.org/2011/07/how-to-get-hardware-information-in.html"><code>sysinfo</code></a>.</p>
+<h2>OS and Application Maintenance</h2>
+<p>You should periodically update your Linux operating system (OS)
+and its applications.</p>
+<h4>Install Operating System and Application Patches/Updates</h4>
+<p>This will patch the Linux operating system and all its GPL applications</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># commandline utility for applications upgrade</span>
+sudo apt-get update; sudo apt-get dist-upgrade
+
+<span style="color: #0099FF; font-style: italic"># graphics utility for applications upgrade</span>
+update-manager -c
+</pre></div>
+
+
+<h4>Updating Firmware for Raspberry Pi</h4>
+<p>In the case of the Raspberry Pi (RPi), you will want to also upgrade the firmware regularly.
+<a href="http://www.raspbian.org/">Raspbian</a> is the standard Linux operating system distribution for the RPi,
+but it doesn't include firmware.
+Never the less, tools for updating the firmware are included in the Raspbian distribution of Linux.
+That tool is <code>sudo apt-get install rpi-update</code>.
+I'm using the <a href="http://learn.adafruit.com/adafruit-raspberry-pi-educational-linux-distro/overview">Adafruit's Occidentalis distribution</a>, so this requires a
+<a href="https://github.com/Hexxeh/rpi-update">slightly different update tool</a> (<code>git</code> needs to be installed):</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># install tools to upgrade Raspberry Pi&#39;s firmware</span>
+sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update
+sudo chmod +x /usr/bin/rpi-update
+</pre></div>
+
+
+<p>Once the tool has been installed, periodically you can update the firmware via these commands:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># check for and install any required Raspberry Pi firmware upgrades</span>
+sudo <span style="color: #003333">BRANCH</span><span style="color: #555555">=</span>next rpi-update
+sudo reboot
+</pre></div>
+
+
+<p>Note that once the firmware has been successfully updated,
+you'll need to reboot to load the new firmware.</p>
+<h2>Filesystem Maintenance</h2>
+<p>Filesystems and disks should be check to make sure they are not running low on resources
+and are not showing any signs of pending failure.</p>
+<h4>Check Storage and Inode Usage</h4>
+<p>If you let some directories get really full, like above 95% full, you will see some serious system problems.
+Check on the status of directory systems storage space and inode usage:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>df
+df -i
+</pre></div>
+
+
+<h4>Disk and Filesystems Integrity</h4>
+<p><a href="http://sourceforge.net/apps/trac/smartmontools/wiki">Smartmontools</a> is a set of applications that can test hard drives
+and read their hardware SMART statistics (install with <code>sudo apt-get install smartmontools</code>).
+To ensure that your drive supports <a href="http://en.wikipedia.org/wiki/S.M.A.R.T.">SMART</a>, type the following for each physical drive:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo smartctl -i /dev/sda
+</pre></div>
+
+
+<p>If <code>smartctl</code> can access the drive, you should turn on some SMART features.
+I ran the following command on my three drives (example for the <code>/dev/sda</code> drive):</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo smartctl -s on -o on -S on /dev/sda
+</pre></div>
+
+
+<p>Check the disk's overall health:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo smartctl -H /dev/sda
+</pre></div>
+
+
+<p>If it doesn’t return PASSED, you should immediately backup all your data.
+A short, but more extensive test is</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo smartctl -t short /dev/sda
+</pre></div>
+
+
+<p>You can do a long self-test, but this can take a significant amount of time.
+You might want to run it overnight and check for the results in the morning.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo smartctl -t long /dev/sda
+</pre></div>
+
+
+<p>To check results, run the following:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo smartctl -l selftest /dev/sda
+</pre></div>
+
+
+<p>Unfortunately, there’s no way to check progress, so just keep running that command until the results show up.
+ If either test fails, you should immediately backup all your data.
+Depending on the error, your drive might be close to death or it may still have a long life ahead.
+Consult the <a href="http://sourceforge.net/apps/trac/smartmontools/wiki/FAQ">smartmontools FAQ</a>.</p>
+<p>We’ve now enabled some features and run the basic tests.
+Instead of repeating the previous section daily, we can setup <code>smartd</code> to do it all automatically.
+Via the demon, you can run Smartmontools in the background,
+have it check drives, and email you when there are issues.
+See the Sources below to figure out what needs to be done to setup the <code>smartd</code> demon.</p>
+<h4>Filesystem Checks and Repair</h4>
+<p>The Linux filesystem can be damaged under various circumstances, e.g., system crash,
+power loss, disconnected disk, accidentally overwritten i-node, etc.
+Thus it is a good idea to check the integrity of the filesystem regularly
+to minimize the risk of filesystem corruption.
+The tool used to <a href="https://www.tecmint.com/fsck-repair-file-system-errors-in-linux/">do filesystem checks and repairs is <code>fsck</code></a>.
+You can check out the article to understand
+"<a href="https://linuxconfig.org/how-to-force-fsck-to-check-filesystem-after-system-reboot-on-linux">How to force fsck to check filesystem after system reboot on Linux</a>"</p>
+<p>Typically, you should run <code>fsck</code> periodically,
+but there are scenarios when you will immediately want to run <code>fsck</code>.
+Typical examples are:</p>
+<ul>
+<li>The system fails to boot</li>
+<li>Files on the system become corrupt (often you may see input/output error)</li>
+<li>Attached drive (including flash drives/SD cards) is not working as expected</li>
+</ul>
+<blockquote>
+<p><strong>NOTE:</strong> A filesystem check can run for many minutes, if not hours,
+depending on the size of the filesystem.
+You'll want to schedule the check for an appropriate time.</p>
+</blockquote>
+<p>Using the utility <code>tune2fs</code> we can get information
+related to filesystem health and status.
+The example below for the filesystem <code>/dev/sda</code>,
+you get the:</p>
+<ul>
+<li>number of times the filesystem has been mounted since the last <code>fsck</code> checkup,</li>
+<li>number of mounts before a filesystem check is forced to happen,</li>
+<li>and the date/time of the last <code>fsck</code> check:</li>
+</ul>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># what is the status of the /dev/sda filesystem</span>
+$ sudo tune2fs -l /dev/md0 | grep -e <span style="color: #CC3300">&quot;Last checked&quot;</span> -e Max -e Mount
+Mount count:              490
+Maximum mount count:      -1
+Last checked:             Mon May <span style="color: #FF6600">27</span> 14:57:13 2013
+</pre></div>
+
+
+<p>Generally, your going to want <code>fsck</code> to automatically attempt to correct errors it finds.
+This can be done with <code>sudo umount /dev/sdb &amp;&amp; sudo fsck -y /dev/sdb</code>.
+The <code>-y</code> flag, automatically “yes” to any prompts from <code>fsck</code> to correct an error.</p>
+<h5>Forced Root Filesystem Check</h5>
+<p>You can do force a one-time filesystem check on the root file system
+(aka <code>/</code>) on the next reboot by doing the following:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo touch /forcefsck
+</pre></div>
+
+
+<p>Once you create an empty file named <code>forcefsck</code> in the root directory,
+it will force filesystem check the next time you boot up (only on the root filesystem).
+After successful booting, <code>/forcefsck</code> will automatically be removed.</p>
+<h5>Forced Non-Root Filesystem Check</h5>
+<p>Unlike the root filesystem,
+there is no equivalent to <code>/forcefsck</code> file for non-root filesystems.
+The only way to force <code>fsck</code> on all other non-root partitions
+is to manipulate the filesystem's "Maximum mount count" parameter
+within the <code>/etc/fstab</code> configuration file.
+To force filesystem <code>fsck</code> check on non-root partition's to every 10th mount:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># force a filesystem check with fsck every 10 mount</span>
+sudo tune2fs -c <span style="color: #FF6600">10</span> /dev/sdb
+
+<span style="color: #0099FF; font-style: italic"># to disable this automatic check</span>
+sudo tune2fs -c <span style="color: #FF6600">0</span> /dev/sdb
+<span style="color: #0099FF; font-style: italic"># or</span>
+sudo tune2fs -c -1 /dev/sdb
+</pre></div>
+
+
+<h2>Periodic Filesystem Hygiene</h2>
+<p>Linux will leave some clutter around in the filesystem.
+While generally not a problem, it can eat-up disk space,
+and can become a problem for the <code>/boot</code> directory.</p>
+<h4>Clean-Up Temporary Files</h4>
+<p>Some editors (like vim) may leave files ending with a ‘~' character laying around.
+You can clean them up under your <code>$HOME</code> as a normal user
+(You can do it for the entire system as root, but that can be extremely dangerous.)
+Use the command below to get a list of candidates:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>find $HOME -type f -name &quot;*~&quot; -print
+</pre></div>
+
+
+<p>After that appears to do what you want, add the -exec part.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>find $HOME -type f -name &quot;*~&quot; -print -exec rm {} \;
+</pre></div>
+
+
+<p>Kernel crashes, when they happen, write the core dump files under <code>/var</code>.
+Assuming you aren't saving them for debugging, you can do this to get a listing:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo find /var -type f -name &quot;core&quot; -print
+</pre></div>
+
+
+<p>Some applications create temporary files in their own directories:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>rm -rf ${HOME}/.macromedia/* ${HOME}/.adobe/*
+</pre></div>
+
+
+<h4>Clean-Up Old Log Files</h4>
+<p>You can also remove old compress log files from the system with</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo rm -v /var/log/*.gz
+</pre></div>
+
+
+<h4>Clean-Up Installation Packages</h4>
+<p>To remove partial packages, clean the cache, remove unused dependencies use:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># For software packages remove partial packages, clean the cache, remove unused dependencies</span>
+sudo apt-get autoclean
+sudo apt-get clean
+sudo apt-get autoremove
+</pre></div>
+
+
+<h4>Clean-Up Old Kernel Packages</h4>
+<p>You also need to do something similar for kernel installations.
+You'll find the amount of space being used by the current kernel
+and old kernel installation packages in <code>/boot</code> by running:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>df -h /boot
+</pre></div>
+
+
+<p>The current Linux kernel installation (and the one you most definitely must keep)
+can be identified via:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>uname -r
+</pre></div>
+
+
+<p>Run the following command to list all packages that you no longer need:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># list all the kernel packages installed on the system</span>
+dpkg -l <span style="color: #CC3300">&#39;linux-*&#39;</span>
+
+<span style="color: #0099FF; font-style: italic"># print the currently active kernel version</span>
+uname -r | sed <span style="color: #CC3300">&quot;s/\(.*\)-\([^0-9]\+\)/\1/&quot;</span>
+
+<span style="color: #0099FF; font-style: italic"># list all the currently loaded old kernel packages, that is other than the active one</span>
+dpkg -l <span style="color: #CC3300">&#39;linux-*&#39;</span> | sed <span style="color: #CC3300">&#39;/^ii/!d;/&#39;&quot;</span><span style="color: #006699; font-weight: bold">$(</span>uname -r | sed <span style="color: #CC3300">&quot;s/\(.*\)-\([^0-9]\+\)/\1/&quot;</span><span style="color: #006699; font-weight: bold">)</span><span style="color: #CC3300">&quot;&#39;/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d&#39;</span>
+</pre></div>
+
+
+<p>You can use the above command to permanently delete <strong>ALL</strong> older kernels:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># USE WITH CAUTION: perminately delete old kernel packages</span>
+sudo apt-get remove --purge <span style="color: #006699; font-weight: bold">$(</span>dpkg -l <span style="color: #CC3300">&#39;linux-*&#39;</span> | sed <span style="color: #CC3300">&#39;/^ii/!d;/&#39;&quot;</span><span style="color: #006699; font-weight: bold">$(</span>uname -r | sed <span style="color: #CC3300">&quot;s/\(.*\)-\([^0-9]\+\)/\1/&quot;</span><span style="color: #006699; font-weight: bold">)</span><span style="color: #CC3300">&quot;&#39;/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d&#39;</span><span style="color: #006699; font-weight: bold">)</span>
+</pre></div>
+
+
+<p>However this <strong>may not be wise</strong>, as you should <strong>always</strong>
+have an old kernel or two to fall back to
+(just in case the new one doesn't work with your system).
+At the very least, if you've just upgraded the kernel,
+reboot before deleting the older versions.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># USE WITH CAUTION: to remove a specific kernel package, in this case 3.13.0-49</span>
+sudo apt-get remove --purge <span style="color: #006699; font-weight: bold">$(</span>dpkg -l <span style="color: #CC3300">&#39;linux-*&#39;</span> | sed <span style="color: #CC3300">&#39;/^ii/!d;/&#39;&quot;</span><span style="color: #006699; font-weight: bold">$(</span>uname -r | sed <span style="color: #CC3300">&quot;s/\(.*\)-\([^0-9]\+\)/\1/&quot;</span><span style="color: #006699; font-weight: bold">)</span><span style="color: #CC3300">&quot;&#39;/d;s/^[^ ]* [^ ]* \([^ ]*\).*/\1/;/[0-9]/!d&#39;</span> | grep 3.13.0-49<span style="color: #006699; font-weight: bold">)</span>
+</pre></div>
+
+
+<p>And if you happen to blow away all the kernel images (as I have done more than once),
+get your current kernel version back by executing <code>uname -r</code> and then reinstall it with:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo apt-get install linux-image-x.x.x-xx
+</pre></div>
+
+
+<p>where <code>x.x.x-xx</code> is the kernel version number give by the <code>uname -r</code> command.</p>
+<h4>SSD TRIM</h4>
+<p>Solid-state drives (SSD) have brought about a new way of managing storage.
+SSDs have benefits like silent and cooler operation and a faster interface spec,
+compared to hard drives but brings with it new methods of maintenance and management.
+SSDs have a feature called TRIM.
+This is essentially a method for reclaiming unused blocks on the device,
+which may have been previously written, but no longer contain valid data and therefore,
+can be returned to the general storage pool for reuse.</p>
+<p>Ubuntu Linux executes TRIM services via systemd timer service.
+To check the existence and current status,
+run <code>sudo systemctl list-timers --all</code>:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># verify TRIM services are enabled</span>
+$ sudo systemctl list-timers --all
+NEXT                         LEFT                LAST                         PASSED             UNIT
+Sat 2020-03-21 22:33:01 EDT  3min 10s left       Sat 2020-03-21 21:33:27 EDT  56min ago          anacron.timer
+Sun 2020-03-22 00:00:00 EDT  1h 30min left       Sat 2020-03-21 00:00:01 EDT  22h ago            logrotate.timer
+Sun 2020-03-22 00:00:00 EDT  1h 30min left       Sat 2020-03-21 00:00:01 EDT  22h ago            man-db.timer
+Sun 2020-03-22 00:10:05 EDT  1h 40min left       Sat 2020-03-21 12:40:56 EDT  9h ago             apt-daily.timer
+Sun 2020-03-22 03:10:22 EDT  4h 40min left       Sun 2020-03-15 03:10:28 EDT  <span style="color: #FF6600">6</span> days ago         e2scrub_all.timer
+Sun 2020-03-22 06:35:01 EDT  8h left             Sat 2020-03-21 06:19:49 EDT  16h ago            apt-daily-upgrade.timer
+Sun 2020-03-22 08:23:14 EDT  9h left             Sat 2020-03-21 14:38:27 EDT  7h ago             motd-news.timer
+Sun 2020-03-22 08:35:00 EDT  10h left            Sat 2020-03-21 20:09:27 EDT  2h 20min ago       mdmonitor-oneshot.timer
+Sun 2020-03-22 18:07:19 EDT  19h left            Sat 2020-03-21 18:07:19 EDT  4h 22min ago       systemd-tmpfiles-clean.
+Mon 2020-03-23 00:00:00 EDT  <span style="color: #FF6600">1</span> day 1h left       Mon 2020-03-16 00:00:01 EDT  <span style="color: #FF6600">5</span> days ago         fstrim.timer
+Sun 2020-04-05 11:39:18 EDT  <span style="color: #FF6600">2</span> weeks <span style="color: #FF6600">0</span> days left Sun 2020-03-01 11:52:26 EST  <span style="color: #FF6600">2</span> weeks <span style="color: #FF6600">6</span> days ago mdcheck_start.timer
+n/a                          n/a                 n/a                          n/a                mdcheck_continue.timer
+n/a                          n/a                 n/a                          n/a                snap-repair.timer
+n/a                          n/a                 n/a                          n/a                snapd.refresh.timer
+n/a                          n/a                 n/a                          n/a                snapd.snap-repair.timer
+
+<span style="color: #FF6600">15</span> timers listed.
+</pre></div>
+
+
+<p>For additional information, check out:</p>
+<ul>
+<li><a href="https://opensource.com/article/17/1/solid-state-drives-linux-enabling-trim-ssds">Solid state drives in Linux: Enabling TRIM for SSDs</a></li>
+<li><a href="https://opensource.com/article/20/2/trim-solid-state-storage-linux">Extend the life of your SSD drive with fstrim</a></li>
+</ul>
+<h2>When the Hard Disk Goes South</h2>
+<p>For basic disk errors, you could try letting Linux heal itself with <code>fsck</code> at boot up.
+To do this, shut down the system with the -F option like this:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo shutdown -r -F now
+</pre></div>
+
+
+<p>Linux reboots immediately and looks for disk errors with the <a href="http://linux.die.net/man/8/fsck"><code>fsck</code></a> command.
+Confirm fixing disk errors by pressing "y" and "Enter" if prompted.</p>
+<p>If this fails, read these articles "<a href="http://www.linuxjournal.com/article/193?page=0,0">Disk Maintenance under Linux (Disk Recovery</a>",
+<a href="http://www.dedoimedo.com/computers/linux-data-recovery.html">How to recover partitions and data using Linux - Tutorial</a>,
+and then follow the instructions carefully!</p>
+<h2>Cleaning Up After a System Crash</h2>
+<p>At some point your system will crash and
+you'll need to perform a manual repair of your filesystem.
+When this happens, you'll reboot, the system stops, and
+then indicates you must perform a manual repair of the filesystem.</p>
+<h3>Check &amp; Repair Filesystem</h3>
+<p><code>fsck</code> (filesystem consistency check) is a command used to check filesystem
+for consistency errors and repair them on Linux filesystems.
+This tool is important for maintaining data integrity.
+It should be run regularly,
+especially after an unforeseen reboot (e.g. crash, power-outage).</p>
+<blockquote>
+<p><em><strong>NOTE:</strong> You need to be "root" to use <code>fsck</code> and
+it is very important to unmount the filesystem before running it.</em></p>
+</blockquote>
+<p>First take the system to <a href="http://www.cyberciti.biz/tips/linux-changing-run-levels.html">runlevel one (single user mode)</a>.
+Unmount the filesystem, and then run <code>fsck</code>.
+For example, if the filesystem in question is <code>/home</code> (or its device named <code>/dev/sdh</code>) then type command:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>umount /home
+<span style="color: #0099FF; font-style: italic"># or</span>
+umount /dev/sdh
+</pre></div>
+
+
+<p>Once <code>fsck</code> finished, remount the filesystem:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>mount /home
+</pre></div>
+
+
+<p>Now start the check/repair via the command</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>fsck -y /dev/sdh
+</pre></div>
+
+
+<p><code>fsck</code> will check the filesystem and ask which problems should be
+fixed or corrected you don not use the <code>-y</code> option.
+Any files that are recovered are placed in
+the <code>/home/lost+found</code> directory by <code>fsck</code> command.</p>
+<p>Once fsck finished, remount the filesystem:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>mount /home
+</pre></div>
+
+
+<h3>Superblock Corruption</h3>
+<p>It is possible that <code>fsck</code> will fail with a message telling you that
+your filesystem has a bad <a href="http://www.cyberciti.biz/tips/understanding-unixlinux-filesystem-superblock.html">superblock</a>.
+The filesystem's superblock contains information about the filesystems type, size, structure, etc.
+This very important information, and if totally lost, its catastrophic.
+Luckily, redundant superblock information is maintained,
+and therefore, <a href="http://linuxexpresso.wordpress.com/2010/03/31/repair-a-broken-ext4-superblock-in-ubuntu/">this too can be repaired</a>.
+You can find the location of the superblocks via</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># find the location of superblocks</span>
+sudo umount /dev/sdh
+sudo dumpe2fs /dev/sdh | grep -i superblock
+</pre></div>
+
+
+<p>The superblock labeled as "Primary" is the culprit, so you choose another to take its place.
+Pick another superblock number and use it as the <code>-b</code> options parameter.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo e2fsck -y -b 32768 /dev/sdh
+</pre></div>
+
+
+<p>Effectively, your running a filesystem check but using an alternate superblock.
+This could run for a very long time (like hours).
+After it completes, corruption should be removed and the primary superblock restored.</p>
+<h2>When the Filesystem is Full</h2>
+<p>Sometimes after a system crash,
+you'll get a message like "The volume filesystem root has only 0 bytes disk space remaining".
+If you run the <code>df -h</code> command, you will in fact see it.
+This is almost certainly due to being actually out of space on the root filesystem,
+and not some erroneous message by Linux, so you must dig to find the source of the problem.</p>
+<blockquote>
+<p><em><strong>NOTE:</strong> A deceptive source of filling your root filesystem
+is when there is a failure/corruption of a disk drive mount on <a href="http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/mnt.html"><code>/mnt</code></a>.
+The disk maybe unmounted, but never the less,
+programs can still successfully write to <code>/mnt</code> directory structure.
+In my case, I had my backup system using <code>/mnt/backup</code> and it appear everything was find,
+but in reality, data wasn't going to the external drive
+but instead to the root filesystem under <code>/mnt</code>, filling up the root filesystem.</em></p>
+<p><em>To check for this, <code>umount</code> any hard drives mounted to <code>/mnt</code>.
+This should remove the filesystem.
+Now look for the filesystem, and if parts of it are still there,
+this could very well be the source of your file space problem.</em></p>
+</blockquote>
+<p>A useful command for finding what's eating up all the space is the <a href="http://linoxide.com/linux-command/linux-du-command/">"disk usage" command, <code>du</code></a>.
+Running the following command:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># 20 largest contributors to storage consumption</span>
+$ sudo du -ahx / | sort -rh | head -n 20
+
+103G    /
+73G /var
+48G /var/log
+46G /var/log/uvcdynctrl-udev.log
+21G /usr
+13G /var/lib
+11G /var/var
+11G /var/lib/mlocate
+9.2G    /var/var/lib
+9.1G    /usr/usr
+8.7G    /var/var/lib/mlocate
+5.1G    /usr/lib
+4.0G    /Dropbox
+3.9G    /Dropbox/Dropbox
+3.7G    /usr/usr/lib
+3.6G    /opt
+3.0G    /var/var/lib/mlocate/mlocate.db
+2.9G    /usr/usr/local
+2.9G    /usr/local
+2.8G    /usr/usr/local/lib
+</pre></div>
+
+
+<p>This will give you the total amount of space used (<code>-a</code>)
+for all files not just directories,
+without looking at other filesystems (<code>-x</code>),
+in human-readable numbers like "124M" (<code>-h</code>),
+and sort with the largest contributors.
+Don't worry if it takes a while to complete, it could take on the order of minutes.</p>
+<p>Don't delete files without first knowing what they are, of course.
+But, in general, you won't break your system if you delete files in the following directories:</p>
+<ul>
+<li><code>/tmp</code> &ensp;&ensp;user temp data -- these are commonly all deleted every reboot anyway</li>
+<li><code>/var/tmp</code> &ensp;&ensp;print spools, and other system temporary data</li>
+<li><code>/var/cache/*</code> &ensp;&ensp;this one can be dangerous, research first!</li>
+<li><code>/root</code> &ensp;&ensp;the root user's home directory</li>
+</ul>
+<p>In addition to the locations above, the following locations are common culprits:</p>
+<ul>
+<li><code>/opt</code> &ensp;&ensp;many third-party apps install here, and don't clean up after themselves</li>
+<li><code>/var/log</code> &ensp;&ensp;log files can eat up a lot of space if there are repetitive errors</li>
+</ul>
+<h4>Very Large Log Files</h4>
+<p>Linux log files found in <code>/var/log</code> can be a source of your filesystem full.
+These log files will quickly fill if there are problems within the system.</p>
+<p>To investigate further what may be the source your filesystem full,
+find the top ten largest files and directories in  <code>/var/log</code>:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># print number of bytes in the 10 largest files and directories in /var/log</span>
+$ sudo du -ahx /var/log/ | sort -rh | head -n 10
+
+48G /var/log/
+46G /var/log/uvcdynctrl-udev.log
+1.9G    /var/log/journal/00f23270d58ed942283218b055d9d601
+1.9G    /var/log/journal
+121M    /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-000000000003a46a-00059d7019fadab5.journal
+105M    /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000091ce3-00059d74a2fe9ea9.journal
+105M    /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000075a69-00059d73c160def7.journal
+89M /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000060b47-00059d72b9ef1167.journal
+81M /var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-000000000004987b-0005a1c99c09dd09.journal
+81M /var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-0000000000032c53-0005a03b276009d1.journal
+</pre></div>
+
+
+<p>Its very clear that we have a very bad actor in the file
+<code>/var/log/uvcdynctrl-udev.log</code> which is 46G in size!
+In fact, this is a <a href="https://askubuntu.com/questions/177312/filesystem-filling-up-due-to-large-uvcydnctrl-udev-log-file">know problem</a>, and judging from the files contents,
+the problem was brought about due to my webcam (an old Logitech QuickCam Orbit/Sphere AF).</p>
+<blockquote>
+<p><strong>NOTE:</strong> We site referance above states
+"This package not only creates this HUGE log files,
+but it also causes Cheese and other web-cam apps to crash or work very badly
+(Can't capture video at full resolution with Cheese or Guvcview?
+REMOVE THIS PACKAGE AND IT WORKS AS IT SHOULD!)"
+Recommended package removal is <code>sudo apt-get remove uvcdynctrl-udev</code>.</p>
+</blockquote>
+<p>To clean up this offending log file,
+we can use the <code>: &gt;</code> operation to truncate the file to zero bytes.
+For example, this will reduce the <code>syslog</code> and <code>kern.log</code> files to zero bytes:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># check the size of uvcdynctrl-udev.log</span>
+$ ls -lh /var/log/uvcdynctrl-udev.log
+-rw-r--r-- <span style="color: #FF6600">1</span> root root 46G May <span style="color: #FF6600">22</span> 10:39 /var/log/uvcdynctrl-udev.log
+
+<span style="color: #0099FF; font-style: italic"># reduce the file uvcdynctrl-udev.log to zero bites</span>
+sudo su
+<span style="color: #336666">cd</span> /var/log
+: &gt; uvcdynctrl-udev.log
+<span style="color: #336666">exit</span>
+
+<span style="color: #0099FF; font-style: italic"># recheck the size of uvcdynctrl-udev.log</span>
+$ ls -lh /var/log/uvcdynctrl-udev.log
+-rw-r--r-- <span style="color: #FF6600">1</span> root root <span style="color: #FF6600">0</span> May <span style="color: #FF6600">22</span> 21:29 /var/log/uvcdynctrl-udev.log
+</pre></div>
+
+
+<h4>Deleted But Open Files</h4>
+<p>Another potential source of a full filesystem are large
+<a href="http://dustymabe.com/2012/01/22/recover-space-by-finding-deleted-files-that-are-still-held-open/">files left open but have been deleted</a>.
+On Linux, a file may be deleted (removed/unlinked) while a process has it open.
+When this happens, the file is essentially invisible to other processes,
+but it still takes on physical space on the drive.
+Tools like <code>du</code> will not see it.</p>
+<p>To find these deleted but open files, run the utility <a href="http://www.thegeekstuff.com/2012/08/lsof-command-examples/">lsof</a></p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># list open but deleted files</span>
+sudo lsof -nP | grep <span style="color: #CC3300">&#39;(deleted)&#39;</span>
+</pre></div>
+
+
+<p>To find out how much space is taken up by these deleted but open files, run:</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># total space used by open but deleted files</span>
+sudo lsof -nP | awk <span style="color: #CC3300">&#39;/deleted/ { sum+=$8 } END { print sum }&#39;</span>
+</pre></div>
+
+
+<p><code>lsof</code> will list all open files,
+<code>awk</code> then searches for the deleted files, and sums up the file sizes (in bytes).</p>
+<p>To get a list of process ID (PID) that own these file that are not redundant, use</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># process IDs of open but deleted files</span>
+sudo lsof -nP | grep <span style="color: #CC3300">&#39;(deleted)&#39;</span> | awk <span style="color: #CC3300">&#39;{ print $2 }&#39;</span> | sort | uniq
+</pre></div>
+
+
+<p>It's up to the filesystem driver to actually free the allocated space,
+and that will usually happen only once all file descriptors referring to that file are released.
+So you can't really reclaim the space, unless you make the application close the file.
+The challenge is that the responsible applications are long gone due to the system crash.
+How does one "delete" a file that the operating system believes has already been deleted?</p>
+<p>Actually we cannot remove the file as long as the file is still in use by a process.
+But what we can do is: Getting the size down to 0 via Linux' <a href="http://www.linuxjournal.com/article/8381"><code>/proc</code></a> filesystem.
+<code>/proc</code> is very special in that it is also a virtual filesystem.
+It's sometimes referred to as a process information pseudo-file system.
+It doesn't contain 'real' files but runtime system information
+(e.g. system memory, devices mounted, hardware configuration, etc).
+<a href="http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/proc.html">Within <code>/proc</code>, each of the numbered directories corresponds to an actual process ID</a>.
+Looking at the process table, you can match running processes with the associated process ID.
+Or at least that what should be happening absent a system crash.
+When the system crashed, the process is gone but the deleted but open file remains.</p>
+<p><a href="http://www.unixwerk.eu/linux/deleted_files.html">To fix this problem</a>, our strategy is to <a href="http://www.cyberciti.biz/faq/truncate-large-text-file-in-unix-linux/">truncate</a> these deleted but open files.
+Your can truncate text file and make the size to zero using <a href="http://bash.cyberciti.biz/guide/Redirection_of_standard_output">redirection</a>:
+For example, if <code>2746</code> is the process ID with in <code>/proc</code> with a deleted but open file,
+the coresponding file must be truncate zero bytes.
+This can be done by switching to full root mode, find the effected files, and truncate them.
+For an example with a PID of <code>2746</code></p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>sudo -s
+cd /proc/2746/fd
+ls -l | grep &#39;(deleted)&#39; | awk &#39;{ print $9 }&#39;
+</pre></div>
+
+
+<p>The numbers produced by the last command is the file to be truncate.
+For example, if one of the numbers produce is <code>12</code>, then use this operation
+to truncate the file to zero bytes</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span>:&gt; /proc/2746/fd/12
+</pre></div>
+
+
+<p>You could automate all of the above with this command line</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># for all open but deleted files associated with process 2746, trunctate the file to 0 bytes</span>
+<span style="color: #003333">PID</span><span style="color: #555555">=</span><span style="color: #FF6600">2746</span> ; <span style="color: #336666">cd</span> /proc/<span style="color: #003333">$PID</span>/fd ; ls -l | grep <span style="color: #CC3300">&#39;(deleted)&#39;</span> | awk <span style="color: #CC3300">&#39;{ print $9 }&#39;</span> | <span style="color: #006699; font-weight: bold">while</span> <span style="color: #336666">read</span> FILE; <span style="color: #006699; font-weight: bold">do</span> :&gt; /proc/<span style="color: #003333">$PID</span>/fd/<span style="color: #003333">$FILE</span>; <span style="color: #006699; font-weight: bold">done</span>
+</pre></div>
+
+
+<p>Finally, it's a good idea to do a <a href="http://www.cyberciti.biz/faq/linux-force-fsck-on-the-next-reboot-or-boot-sequence/">forced full file system check</a> on the next reboot.</p>
+<div class="codehilite" style="background: #f0f3f3"><pre style="line-height: 125%"><span></span><span style="color: #0099FF; font-style: italic"># file system check on next reboot</span>
+sudo touch /forcefsck
+
+<span style="color: #0099FF; font-style: italic"># or</span>
+
+<span style="color: #0099FF; font-style: italic"># shutdown and do a file system check now</span>
+shutdown -rF now
+</pre></div>
+
+
+<h2>Sources</h2>
+<p>I primarily consulted the following sources to create this posting:</p>
+<ul>
+<li><a href="http://askubuntu.com/questions/194651/why-use-apt-get-upgrade-instead-of-apt-get-dist-upgrade">Why use apt-get upgrade instead of apt-get dist-upgrade?</a></li>
+<li><a href="http://lifehacker.com/5817282/what-kind-of-maintenance-do-i-need-to-do-on-my-linux-pc">What Kind of Maintenance Do I Need to Do On My Linux PC?</a></li>
+<li><a href="http://askubuntu.com/questions/81042/is-system-cleanup-optimization-needed">Is system cleanup/optimization needed</a></li>
+<li><a href="http://www.linuxjournal.com/article/193?page=0,0">Disk Maintenance under Linux (Disk Recovery)</a></li>
+<li><a href="https://help.ubuntu.com/community/Smartmontools">Smartmontools</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/S.M.A.R.T.">S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology)</a></li>
+<li><a href="http://blog.shadypixel.com/monitoring-hard-drive-health-on-linux-with-smartmontools/">Monitoring Hard Drive Health on Linux with smartmontools</a></li>
+<li><a href="http://askubuntu.com/questions/2793/how-do-i-remove-or-hide-old-kernel-versions-to-clean-up-the-boot-menu-or-free-sp">How do I remove or hide old kernel versions to clean up the boot menu or free space?</a></li>
+<li><a href="http://www.unixwerk.eu/linux/deleted_files.html">How to Get Rid of Deleted Open Files</a></li>
+</ul><script type= "text/javascript">
+    if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+        var mathjaxscript = document.createElement('script');
+        mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+        mathjaxscript.type = 'text/javascript';
+        mathjaxscript.src = 'https:' == document.location.protocol
+		? 'https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js'
+		: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+        mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+            "MathJax.Hub.Config({" +
+            "    config: ['MMLorHTML.js']," +
+            "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+            "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+            "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+            "    displayAlign: 'center'," +
+            "    displayIndent: '0em'," +
+            "    showMathMenu: true," +
+            "    tex2jax: { " +
+            "        inlineMath: [ ['$','$'] ], " +
+            "        displayMath: [ ['$$','$$'] ]," +
+            "        processEscapes: true," +
+            "        preview: 'TeX'," +
+            "    }, " +
+            "    'HTML-CSS': { " +
+            "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+            "    } " +
+            "}); ";
+        (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+    }
+</script>
+
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3 well well-sm" id="sidebar" style="box-shadow: 5px 5px 10px #888888;">
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+                <div style="text-align: center;">
+                    <h3><a href="../../../../../pages/about-me/" style="font-family: Knewave, cursive; font-size: 18;">My Electronics Projects And Other Diversions</a>
+                    <a href="../../../../../pages/about-me/">
+                        <img class="img-rounded" src="../../../../../extra/frustrated-engineer.jpg" alt="Side Bar Picture" height="100%" width="100%">
+                    </a>
+                </div>
+
+            <font color=#990000>
+                <li class="list-group-item"><a href="../../../../../pages/"><h4><i class="fa fa-exclamation-triangle fa-lg"></i><span class="icon-label">Testing Zone</span></h4></a>
+                </li>
+
+                <li class="list-group-item"><a href="../../../../../drafts/"><h4><i class="fa fa-edit fa-lg"></i><span class="icon-label">Draft Articles</span></h4></a>
+                </li>
+            </font>
+
+            <li class="list-group-item"><a href="../../../../../categories.html"><h4><i class="fa fa-folder-open fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../tags.html"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../index.html"><h4><i class="fa fa-clock-o fa-lg"></i><span class="icon-label">Recent Posts</span></h4></a>
+            </li>
+
+            <li class="list-group-item"><a href="../../../../../pages/open-notebook/index.html"><h4><i class="fa fa-book fa-lg"></i><span class="icon-label">Open Notebook</span></h4></a>
+
+<li class="list-group-item"><h4><i class="fa fa-file-text fa-lg"></i><span class="icon-label">Site Pages</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="/pages/linux-and-python-packages-for-my-raspberry-pi/index.html" target="_blank">
+                RPi Packages
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="/tag/how-to/index.html" target="_blank">
+                How To
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="/tag/cheat-sheet/index.html" target="_blank">
+                Cheat Sheets
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-puzzle-piece fa-lg"></i><span class="icon-label">MicroContent</span></h4>
+    <ul class="list-group" id="wiki">
+        <li class="list-group-item">
+            <a href="http://127.0.0.1:8080/#Potential Projects" target="_blank">
+                Project Ideas
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://127.0.0.1:8080/#Topics for Study" target="_blank">
+                Things to Study
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-link fa-lg"></i><span class="icon-label">External Links</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://tiddlywiki.com/" target="_blank">
+                TiddlyWiki
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-group fa-lg"></i><span class="icon-label">Social Media</span></h4>
+    <ul class="list-group" id="social">
+        <li class="list-group-item"><a href="https://github.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-github"></i> Github
+        </a></li>
+        <li class="list-group-item"><a href="https://hackaday.io/jeffskinnerbox" target="_blank">
+            <i class="fa fa-hacker-news"></i> Hackaday
+        </a></li>
+        <li class="list-group-item"><a href="https://twitter.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-twitter"></i> Twitter
+        </a></li>
+        <li class="list-group-item"><a href="https://www.flickr.com/photos/104241758@N03/" target="_blank">
+            <i class="fa fa-flickr"></i> Flickr
+        </a></li>
+        <li class="list-group-item"><a href="https://delicious.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-delicious"></i> Delicious
+        </a></li>
+        <li class="list-group-item"><a href="https://www.pinterest.com/jeffskinnerbox/my-electronics-projects-and-other-diversions/" target="_blank">
+            <i class="fa fa-pinterest"></i> Pinterest
+        </a></li>
+        <li class="list-group-item"><a href="http://getpocket.com/a/queue/" target="_blank">
+            <i class="fa fa-chevron-circle-down"></i> Pocket
+        </a></li>
+        <li class="list-group-item"><a href="http://jeffskinnerbox.tumblr.com/" target="_blank">
+            <i class="fa fa-tumblr"></i> Tumblr
+        </a></li>
+        <li class="list-group-item"><a href="http://instagram.com/jeffskinnerbox" target="_blank">
+            <i class="fa fa-instagram"></i> Instagram
+        </a></li>
+        <li class="list-group-item"><a href="https://www.facebook.com/jeff.irland" target="_blank">
+            <i class="fa fa-facebook"></i> Facebook
+        </a></li>
+        <li class="list-group-item"><a href="https://linkedin.com/in/jeffreyirland" target="_blank">
+            <i class="fa fa-linkedin"></i> Linkedin
+        </a></li>
+        <li class="list-group-item"><a href="http://www.commandlinefu.com/commands/by/jeffskinnerbox" target="_blank">
+            <i class="fa fa-terminal"></i> CommandLineFu
+        </a></li>
+        <li class="list-group-item"><a href="https://disqus.com/by/jeffskinnerbox/" target="_blank">
+            <i class="fa fa-comment"></i> DISQUS
+        </a></li>
+    </ul>
+</li> 
+
+<li class="list-group-item"><h4><i class="fa fa-thumbs-up fa-lg"></i><span class="icon-label">Reposted At</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://www.eeweb.com/websites/jeffs-skinner-box" target="_blank">
+                EEWeb.com
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="list-group-item"><h4><i class="fa fa-gears fa-lg"></i><span class="icon-label">Admin</span></h4>
+    <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="https://www.google.com/analytics/web/?hl=en#report/visitors-overview/a43272292w73270397p83408137/" target="_blank">
+                Google Analytics
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="https://github.com/jeffskinnerbox/jeffskinnerbox.github.io" target="_blank">
+                Web Site Source Code
+            </a>
+        </li>
+    </ul>
+</li>
+            <li class="list-group-item"><a href="../../../../../pages/this-blog-is-powered-by/index.html"><h4><i class="fa fa-rocket fa-lg"></i><span class="icon-label">This Blog Powered By</span></h4></a>
+
+        </ul>
+    </section>
+
+</aside>        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">This Blog Powered By 
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://tiddlywiki.com/" target="_blank">TiddlyWiki</a>,
+            <a href="http://ipython.org/notebook.html" target="_blank">Python Notebook</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, And
+            <a href="/pages/this-blog-is-powered-by/index.html" target="_blank">Other Things</a>.
+            <p>
+            <a href="http://opensource.org/">
+                <img src="/images/logos/open_source_logo.png" alt="Open Source Logo" title="The Open Source Initiative (OSI) is a non-profit corporation with global scope formed to educate about and advocate for the benefits of open source, and to build bridges among different constituencies in the open source community. The OSI maintains the Open Source Definition and the list of Open Source Initiative-approved licenses." height="40px" width="40px">
+            </a>
+            <a href="http://www.oshwa.org/">
+                <img src="/images/logos/open-soruce-hardware-logo-800-px.png" alt="Open Source Hardware Logo" title="The Open Source Hardware Association aims to be the voice of the open hardware community, ensuring that technological knowledge is accessible to everyone, and encouraging the collaborative development of technology that serves education, environmental sustainability, and human welfare." height="40px" width="40px">
+            </a>
+            <small>
+                All my work on this blog is
+                <a href="http://opensource.org/licenses/MIT/" target="_blank">MIT Licensed, open, and free</a>,
+                except where indicated otherwise.
+            </small>
+            </p>
+         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../../../../../theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="../../../../../theme/js/respond.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            if (!window.jXHR) {
+                var jxhr = document.createElement('script');
+                jxhr.type = 'text/javascript';
+                jxhr.src = '../../../../../theme/js/jXHR.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(jxhr, s);
+            }
+
+            github.showRepos({
+                user: 'jeffskinnerbox',
+                count: 5,
+                skip_forks: false,
+                target: '#gh_repos'
+            });
+        });
+    </script>
+    <script src="../../../../../theme/js/github.js" type="text/javascript"></script>
+</body>
+</html>
