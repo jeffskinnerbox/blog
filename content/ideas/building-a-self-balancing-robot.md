@@ -383,6 +383,7 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
 #### Better Ball Balancer
 
 * [Ball Balancer](https://www.aaedmusa.com/projects/project-three-sng7y-gaslp)
+* [Robot Balances Ball On A Plate](https://hackaday.com/2025/09/22/robot-balances-ball-on-a-plate/)
 
 
 ---------------
@@ -420,6 +421,9 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
   * [Implementing a PID Controller Algorithm in Python](https://www.digikey.com/en/maker/tutorials/2024/implementing-a-pid-controller-algorithm-in-python)
 
   * [An Introduction to Control Systems: Designing a PID Controller Using MATLAB’s SISO Tool](http://www.allaboutcircuits.com/technical-articles/an-introduction-to-control-systems-designing-a-pid-controller-using-matlabs/)
+  * [Flying With Proportional – Integral – Derivative Control](https://hackaday.com/2016/05/18/flying-with-proportional-integral-derivative-control/)
+  * [Arduino-PID-Library online Trainer](https://codinglab.blogspot.com/2016/04/online-pdi-trainer.html)
+
 
 * Flying
   * [Flying With Proportional – Integral – Derivative Control](https://hackaday.com/2016/05/18/flying-with-proportional-integral-derivative-control/)

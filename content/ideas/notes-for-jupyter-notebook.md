@@ -290,6 +290,7 @@ You can use your browser to provide corrections.
 # Seaborn
 
 * [Intro to Seaborn](https://www.youtube.com/playlist?list=PLtPIclEQf-3cG31dxSMZ8KTcDG7zYng1j)
+* [A Complete Guide to Seaborn](https://www.kdnuggets.com/a-complete-guide-to-seaborn)
 
 
 ## Install Jupyter via pyenv and pyenv-virtualenv

@@ -181,7 +181,6 @@ instead of a microprocessor in order to produce an unusually simple design.
 
 
 # Self Balancing Robots
-
 * [PID Controllers Deep Dive - Nice Layman Description](http://hackaday.com/2014/07/07/droning-on-pid-controllers-and-bullet-connectors/)
 * [PIDDYBOT – A Self Balancing Teaching Tool](http://hackaday.com/2014/01/17/piddybot-a-self-balancing-teaching-tool/#more-112629)
 * [Self-balancing Arduino does it without an IMU](http://hackaday.com/2013/09/26/self-balancing-arduino-does-it-without-an-imu/)
@@ -196,7 +195,6 @@ instead of a microprocessor in order to produce an unusually simple design.
 
 
 ## Embedded Proportional Integral Derivative (PID) Temperature Controller
-
 * [Part 1: The Circuit](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-1-the-circuit/)
 * [Part 2: Board-Level Integration](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-2-board-level-integration/)
 * [Part 3: Implementation and Visualization](http://www.allaboutcircuits.com/projects/embedded-pid-temperature-control-part-3-implementation-and-visualization/)

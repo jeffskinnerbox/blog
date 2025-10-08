@@ -22,8 +22,20 @@ combining triggers, language models (LLMs), and external tools.
 * [How to Run n8n Locally (Full On-Premise Setup Tutorial)](https://www.youtube.com/watch?v=-ErfsM2TYsM)
 * [Only 1% of n8n Builders Know This Node Exists (LangChain Code Node)](https://www.youtube.com/watch?v=4o0AJYBEiBo)
 
+* [You NEED to Use n8n RIGHT NOW!! (Free, Local, Private)](https://www.youtube.com/watch?v=ONgECvZNI3o)
+* [How to Run n8n Locally (Full On-Premise Setup Tutorial)](https://www.youtube.com/watch?v=-ErfsM2TYsM)
+* [n8n Now Runs My ENTIRE Homelab](https://www.youtube.com/watch?v=budTmdQfXYU)
+* [Master 80% of n8n by Learning Just These 17 Nodes](https://www.youtube.com/watch?v=tf1mnCVWJkQ)
+* [Build Anything with MCP in n8n, Here's How!](https://www.youtube.com/watch?v=Hs89msXJiIc)
+
+* [Intro to Agent Builder](https://www.youtube.com/watch?v=44eFf-tRiSg)
+* [I Tested OpenAI's Agent Builder... Should n8n Be Worried?](https://www.youtube.com/watch?v=BFrGu2cGv7Y)
+
 * [Using Agentic AI to create smarter solutions with multiple LLMs (step-by-step process)](https://www.youtube.com/watch?v=O0GNrvO7wD0)
 * [Agentic AI Engineering: Complete 4-Hour Workshop feat. MCP, CrewAI and OpenAI Agents SDK](https://www.youtube.com/watch?v=LSk5KaEGVk4)
+* [Agentic Design Methodology: How to Build Reliable and Human-Like AI Agents using Parlant](https://www.marktechpost.com/2025/10/05/agentic-design-methodology-how-to-build-reliable-and-human-like-ai-agents-using-parlant/)
+  * [Parlant](https://www.parlant.io/)
+  * [Run Parlant with Ollama Locally - Control Your AI Agents](https://www.youtube.com/watch?v=W_3my3yCvZ4)
 
 
 

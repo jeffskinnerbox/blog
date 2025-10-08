@@ -343,6 +343,9 @@ Lets get these installed.
 #### Step 1: Install Packages for Frequently Used Linux Tools - DONE
 
 ```bash
+# update the packages on your system
+sudo apt update && sudo apt upgrade
+
 # install packages for general use
 sudo apt -y install trash-cli gnome gnome-session gnome-terminal git jq vim tmux wmctrl curl stow xclip
 
@@ -363,9 +366,6 @@ sudo snap install alacritty --classic
 sudo snap install nvim --classic
 sudo apt install wl-clipboard     # if your using X Window's Wayland protocol (other wise install 'xset')
 sudo apt install ripgrep          # ripgrep (executable is called `rg`) is need by for telescope
-
-# update the packages on your system
-sudo apt update && sudo apt upgrade
 ```
 
 

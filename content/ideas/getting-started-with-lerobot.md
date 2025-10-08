@@ -32,6 +32,8 @@ Version:      0.0.0
 * [Running LeRobot SO-101 arm kit using NVIDIA Jetson AGX Orin](https://www.hackster.io/shahizat/running-lerobot-so-101-arm-kit-using-nvidia-jetson-agx-orin-19b8a4)
 * [Running AI robotics experiments at home with LeRobot and SO-ARM100](https://www.youtube.com/watch?v=DeBLc2D6bvg)
 
+* [A Coding Guide to End-to-End Robotics Learning with LeRobot: Training, Evaluating, and Visualizing Behavior Cloning Policies on PushT](https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/)
+
 
 
 [01]:https://huggingface.co/

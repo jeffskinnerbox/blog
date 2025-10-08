@@ -12,6 +12,7 @@ Version:      0.0.0
 -----
 
 
+VIEW THIS FIRST - [The Harsh Truth about FPGAs (You Should Avoid Them?!)](https://www.youtube.com/watch?v=l3d8uFKsJiY)
 
 
 * [Getting Started With The TinyFPGA BX](https://www.woolseyworkshop.com/2019/08/30/getting-started-with-the-tinyfpga-bx/)

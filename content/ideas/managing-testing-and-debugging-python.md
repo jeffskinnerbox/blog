@@ -11,6 +11,531 @@ Version:      0.0.0
 
 ---------------
 
+<h1 style="text-align: center;">SUMMARY</h1>
+
+```bash
+# Sources:
+#   Python Virtual Environments: A Primer - https://realpython.com/python-virtual-environments-a-primer/
+#   Managing Multiple Python Versions With pyenv - https://realpython.com/intro-to-pyenv/
+#   Managing Python Projects With uv: An All-in-One Solution - https://realpython.com/python-uv/
+#   Python and TOML: New Best Friends - https://realpython.com/python-toml/
+#   How to Manage Python Projects With pyproject.toml - https://realpython.com/python-pyproject-toml/
+
+
+# --------------------------- typical installation when using uv / pyenv --------------------------
+
+# supply all needed dependencies
+sudo apt update
+sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
+     curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+# install uv on your system using the recommended installer
+curl -LsSf <https://astral.sh/uv/install.sh> | sh
+
+# install pyenv on your system using the recommended installer
+curl -fsSL <https://pyenv.run> | bash
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
+exec "$SHELL"     # reload your shell or alternatively you can restart your terminal
+
+
+# ---------------------- create your development environment with uv / pyenv -----------------------
+
+# determine the python version you want for your development
+pyenv install --list | grep -E ' 3\.([1-9][0-9]+)'
+
+# create your virtual environment for python development
+cd <project-directory>
+pyenv install 3.13.7                 # released on August 14, 2025
+pyenv local 3.13.7
+uv init
+uv run main.py
+source .venv/bin/activate
+
+# install you standard development tools
+uv pip install flask ruff
+
+# install the stubs for circuitpython libraries (this installs stubs for ALL boards)
+uv pip install circuitpython-stubs
+
+# -OR- if your reproducing an existing project
+uv pip install -r requirements.txt
+
+
+# ---------------------- typical development workflow when using uv / pyenv -----------------------
+
+# supply all needed dependencies (vim & nvim not included)
+sudo apt install tio
+sudo usermod -a -G dialout <your-username>
+
+# load vim or nvim with your program on your pc and make your edits
+vim <path-to-file>/code.py
+
+# within vim or nvim, save your edits to your pc at the same file location
+:w
+
+# within vim or nvim, copy you program to the microprocessor's copy.py file
+:!cp % /media/jeff/CIRCUITPY/code.py
+
+# find the path to your device
+tio -L
+
+# open a terminal outside of vim or nvim and control & monitor python REPL
+tio /dev/ttyACM0
+
+# press `Ctrl+C` then `Ctrl+D` in the terminal window to restart your board
+# enter `Ctrl-t q` to exit serial terminal `tio`
+
+
+# ----------------------- typical close-out workflow when using uv / pyenv ------------------------
+
+# to save your project for later use
+pip freeze > requirements.txt
+```
+
+
+---------------
+
+
+# Next-gen Python Tooling
+Over the years, legacy Python has created multiple tools & procedures to manage the Python interpreter,
+the software project using Python code, the modules/libraries used by Python,
+and the command-line tool used to format/lint/validate/build/document/publish Python code.
+Not all these tools work well together and they also over lap in their functional role.
+This can cause even an experience Python developer confusion & difficulties.
+This challenge has stimulated the effort to create a more unified tool, called `uv`, to address this problem.
+
+[`uv`][01] is a single tool who's mission is to replace
+[`pip`][02], [`pipx`][03], [`pip-tools`][04], [`poetry`][05], [`pyenv`][06], [`twine`][07], [`virtualenv`][08], and more.
+[`ruff`][09] can be used to replace [Flake8][10] (plus dozens of plugins), [Black][11], [`isort`][12], [`pydocstyle`][13], [`pyupgrade`][14], [`autoflake`][15], and more,
+all while executing tens or hundreds of times faster than any individual tool.
+
+**Question:**
+* I'm using existing Python environments and I'm pleased with what I can do.
+  So, the questions becomes: Does the value provided by `uv` justify having another tool installed on my system?
+  Why not just stick with Python tooling and accept `pip` or `venv` will be slightly slower?
+  What am I missing here?
+
+**Answer:**
+* Do you build images regularly? `uv` is phenomenal in that context.
+* Do you try and share you code with other people, who have different computers than you? Again, `uv` shines.
+* Do you want global access to python-based tools across different projects,
+  without the headache of managing tool-specific virtual environments? `uv` is for you.
+* `uv` actually resolves your python version.
+  We often get devs who last interacted with a service 1+ minor versions of python ago.
+  A lot of libraries and `stdlib` stuff doesn't work right with pinned packages on an older version.
+  The troubleshooting can take some time and is an easy solve, but is annoying.
+  The fact that `uv` resolves the python versioning via [`uv sync`][18] is miles ahead of pip tools.
+
+This last point cannot be overstated.
+The fact that `uv` can, on the fly, download the correct version of Python modules,
+compatible with the target OS and architecture,
+is a game changer and takes it from a handy tool to indispensable.
+Sure, that could be managed in different ways,
+but the simplicity of setting up your entire environment from scratch with `uv sync` is just marvelous.
+
+## Python Version vs Python Project Management
+Your going to be using two primary tools:
+
+* [`pyenv`][06] manages your Python versions
+* [`uv`][01] manages your project's virtual environment and packages
+
+`uv` cannot perform the same core tasks as `pyenv`.
+They don't conflict; they complement each other.
+`uv` will use the Python version that `pyenv` has made active for your project.
+Think of it like this: `pyenv` manages the workshop (i.e. manages Python versions),
+and `uv` manages the project on the workbench (i.e. manages virtual environments & project packages).
+
+Here is the standard workflow that shows how `uv` and `pyenv` interact seamlessly.
+
+1. Create Your Project Directory -
+In an effort to organize and isolate your project,
+you need to create a project directory, initialized properly via `pyenv` and `uv`.
+
+```bash
+# create your new project directory called "my-project"
+uv init my-project
+```
+
+2. Select Your Python Version with `pyenv` -
+First, you tell `pyenv` which version of Python you want to use for your project.
+This is usually done on a per-project basis.
+
+```bash
+# navigate to your project directory
+cd my-project
+
+# tell pyenv to use Python 3.11.8 for this directory specifically
+pyenv local 3.11.8
+
+# check that you python version has been update
+cat .python-version
+# or
+pyenv version
+```
+
+3. Activate and Use Your Environment -
+Now you can activate the environment and use `uv` to install packages and build your project
+
+```bash
+# run the project’s entry-point script
+uv run main.py
+
+# activate the environment
+cd my-project
+source .venv/bin/activate
+
+# use uv to install packages into the active environment
+uv pip install flask ruff
+```
+
+Sources:
+* [Next-gen Python Tooling](https://docs.astral.sh/)
+* [uv Official Documentation](https://docs.astral.sh/uv/getting-started/installation/)
+* [UV and Ruff: Next-gen Python Tooling](https://www.youtube.com/watch?v=ifj-izwXKRA)
+* [Python, pip, pyenv, uv. Why do we need them?](https://www.youtube.com/watch?v=IYcTaZfjODg)
+* [Managing Python Projects With uv: An All-in-One Solution](https://realpython.com/python-uv/)
+* [Python Tutorial: UV - A Faster, All-in-One Package Manager to Replace Pip and Venv](https://www.youtube.com/watch?v=AMdG7IjgSPM)
+
+---------------
+
+## Complete Python Project Development Workflow
+With `uv`, you can install and manage multiple Python versions, create virtual environments,
+efficiently handle project dependencies, reproduce working environments, and even build and publish a project.
+These capabilities make `uv` an all-in-one tool for Python project management.
+
+* `uv` is a Python package and project manager that integrates multiple functionalities into one tool,
+  offering a comprehensive solution for managing Python projects.
+* `uv` is used for fast dependency installation, virtual environment management, Python version management,
+  and project initialization, enhancing productivity and efficiency.
+* `uv` can build and publish Python packages to package repositories like PyPI,
+  supporting a streamlined process from development to distribution.
+* `uv` automatically handles virtual environments, creating and managing them as needed to ensure clean
+  and isolated project dependencies.
+
+### Installing / Updating / Uninstalling `uv` & `pyenv`
+
+#### Step 1: Install uv & pyenv
+`uv` provides a standalone installer to download and install `uv`.
+This places `uv` files in your `~/.local` directory:
+
+```bash
+# install uv & pyenv on your system using the recommended installer
+curl -LsSf https://astral.sh/uv/install.sh | sh
+curl -L https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyenv-installer | bash
+
+# check your uv install
+$ whereis uv
+uv: /usr/include/uv /home/jeff/.local/bin/uv
+
+$ uv --version
+uv 0.8.18
+
+# check your pyenv install
+$ whereis pyenv
+pyenv: /home/jeff/.pyenv/bin/pyenv
+
+$ pyenv --version
+pyenv 2.6.8
+```
+
+#### Step 2: Upgrading to the Latest uv Version
+The `uv` project is currently under active development, which means that new versions are released regularly.
+If you’ve installed `uv` using the standalone installer (as we did here)
+and would like to be up to date with the latest version, then you can run the following command:
+
+```bash
+# upgrade uv
+uv self update
+
+# upgrade pyenv
+pyenv update
+```
+
+#### Step 3: Uninstall uv & pyenv
+If you wish to uninstall `uv`, not that the
+`uv` installer script (`curl -LsSf https://astral.sh/uv/install.sh | sh`)
+puts `uv` into your home directory under `~/.local/bin/uv`.
+So to uninstall uv, you can simply delete the binary and any cached files:
+
+```bash
+# remove the binary uv & pyenv
+rm -f ~/.local/bin/uv
+rm -rf $(pyenv root)
+
+# remove uv cache, config, data
+rm -rf ~/.cache/uv
+rm -rf ~/.local/share/uv
+rm -rf ~/.config/uv
+```
+
+### Creating Python Project
+
+#### Step 1: Create Python Project
+To create and initialize a Python project with `uv`,
+navigate to the directory where you want to store the project.
+Once there, you can run the following command to create and initialize the project:
+
+```bash
+# create your project directory and initialize it as project "my-project"
+uv init my-project
+
+# if you have already created a project directory for your new project called "my-project"
+cd my-project
+uv init
+
+# the resulting project structure created
+$ tree -a --filesfirst $HOME/..../my-project/
+
+$HOME/..../my-project/
+├── .gitignore
+├── main.py
+├── pyproject.toml
+├── .python-version
+├── README.md
+└── .git
+```
+
+>**NOTE:** If you want to start managing an existing project with `uv`,
+>then navigate to the project directory and run the following command: `uv init`.
+>This command will create the `uv` project structure for you.
+>It won’t overwrite the `main.py` file if you have one, but it’ll create the file if it’s missing.
+>It neither modifies your Git repository nor your `README.md` file.
+>
+>However, this command won’t work if you already have a `pyproject.toml` file in place.
+>If that’s the case, then you can move the file to another location and run the `uv init` command.
+>Finally, you can update the new file with any relevant configuration from your old `pyproject.toml`.
+
+#### Step 2: Run the Project’s Entry-Point Script
+Once you’ve created the project, you can use `uv` to run the entry-point script,
+which is the `main.py` file by default.
+This action will automatically create for you a virtual environment via a `.venv` directory.
+To run the script, go ahead and execute the following command:
+
+```bash
+# run the project’s entry-point script
+$ uv run main.py
+Using CPython 3.12.3 interpreter at: /usr/bin/python3.12
+Creating virtual environment at: .venv
+Hello from my-project!
+```
+
+>**Note:** You can change the entry-point script’s name and location at any time.
+>Naming it `main.py` isn’t mandatory.
+
+#### Step 3: Install Desired Python Version
+Before Step 2 (aka before creating the `.venv`), or now,
+you are free to change the version of Python you will be operating under.
+If you want to change to Python version 3.13.7, do this as follows:
+
+```bash
+# change you python version to 3.13.7 in you virtual environment
+pyenv local 3.13.7
+
+# check that you python version has been update
+cat .python-version
+# or
+pyenv version
+```
+
+
+
+
+
+
+### Syncing Your Environment
+The `uv sync` command is designed to keep your virtual environment aligned with your project's dependency requirements.
+When you run `vu sync`, `uv` compares the current state of your environment against the
+dependencies specified in your `requirements.txt` or `pyproject.toml` files.
+
+So if you have a `venv`, `pyproject.toml` and `uv.lock` managed project,
+the `uv sync` command installs / updates all dependencies specified in the `pyproject.toml` and `uv.lock` files.
+It performs the following actions:
+
+* **Installation**: Installs any missing dependencies that are listed in your requirements but not yet present in your environment.
+* **Upgrades/Downgrades**: Adjusts the versions of existing packages to match the versions specified in your requirements.
+  This ensures that your environment is using the exact versions you’ve defined,
+  which is crucial for avoiding unexpected behavior due to version mismatches.
+* **Uninstallation**: Removes any packages that are installed in the environment but not listed in your requirements,
+  keeping the environment clean and free from unnecessary bloat.
+
+
+
+
+
+
+
+
+Use these sources to finish text below:
+* [uv: Towards a unified vision for Python tooling](https://thedataquarry.com/blog/towards-a-unified-python-toolchain/)
+* [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
+* [uv vs pip: Managing Python Packages and Dependencies](https://realpython.com/uv-vs-pip/)
+* [Managing Python Projects With uv: An All-in-One Solution](https://realpython.com/python-uv/)
+* [A Comprehensive Guide to Python Project Management and Packaging: Concepts Illustrated with uv – Part I](https://reinforcedknowledge.com/a-comprehensive-guide-to-python-project-management-and-packaging-concepts-illustrated-with-uv-part-i/)
+* [A Comprehensive Guide to Python Project Management and Packaging: Concepts Illustrated with uv – Part II](https://reinforcedknowledge.com/a-comprehensive-guide-to-python-project-management-and-packaging-concepts-illustrated-with-uv-part-2/)
+* [Python UV: The Ultimate Guide to the Fastest Python Package Manager](https://www.datacamp.com/tutorial/python-uv)
+* [uv Package Manager for Python](https://medium.com/@nimritakoul01/uv-package-manager-for-python-f92c5a760a1c)
+* [Mastering Python Project Management with uv](https://dev.to/thomas_bury_b1a50c1156cbf)
+
+
+### Running Your Project
+
+### Python Dependency Management
+`uv` give you a cleaner workflow for project dependencies.
+This workflow allows you to lock your project’s dependencies so that other developers can reproduce your environment exactly
+and contribute to your code without much setup effort.
+
+#### Step X: Adding Dependencies With `uv`
+#### Step X: Removing Dependencies With `uv`
+
+
+### Python Version Management with `pyenv`
+
+### Installing Packages: Pip, Pipx, Pip-Tools - no longer needed
+[`pip`][02]
+[`pipx`][03]
+[`pip-tools`][04]
+* [pip-tools: introduction](https://calmcode.io/course/pip-tools/introduction)
+* [Using Python's pip to Manage Your Projects' Dependencies](https://realpython.com/what-is-pip/)
+* [uv vs pip: Managing Python Packages and Dependencies](https://realpython.com/uv-vs-pip/)
+
+## Managing Python Build Environments
+### Building Packages With `uv`
+### Creating Packageable Apps With `uv`
+### Uploading Packages With `uv`
+* [`twine`][07]
+* [How to Publish an Open-Source Python Package to PyPI](https://realpython.com/pypi-publish-python-package/)
+
+## Managing Python Packages and Dependencies
+### Python Package Dependency Management
+* [`poetry`][05]
+* [Simplifying Python Dependency Management with Poetry](https://medium.com/@jdgb.projects/simplifying-python-dependency-management-with-poetry-e996738778bc)
+* [Poetry - Python dependency management and packaging made easy](https://python-poetry.org/)
+* [How to Use Poetry in Python to avoid Dependency Hell](https://www.youtube.com/watch?v=V5rKVrVhEh8)
+* [Stop Wasting Hours - Every Python Dev NEEDS to Master Poetry](https://www.youtube.com/watch?v=nrm8Lre-x_8)
+
+## Managing Python Version
+## Managing Python Version Changes
+* `uv sync`
+### Managing Python Version
+* [`pyenv`][06]
+* [`pyupgrade`][14]
+* [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
+
+### Python Virtual Environments
+[`virtualenv`][08]
+[`venv`][16]
+* [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
+* [virtualenv: intro](https://calmcode.io/course/virtualenv/intro)
+* [How to Create a Python Virtual Environment(Step-by-Step Guide)](https://www.geeksforgeeks.org/python/create-virtual-environment-using-venv-python/)
+
+### Python Code Formatting & Linting
+* [`ruff`][09]
+* [Flake8][10]
+* [Black][11]
+* [`autoflake`][15]
+* [`isort`][12]
+* [`pydocstyle`][13]
+* [Ruff: A Modern Python Linter for Error-Free and Maintainable Code](https://realpython.com/preview/ruff-python/)
+* [A Guide to Popular Python Static Analysis Tools](https://blog.codacy.com/python-static-analysis-tools)
+* [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
+* [Python Linter Comparison 2022: Pylint vs Pyflakes vs Flake8 vs autopep8 vs Bandit vs Prospector vs Pylama vs Pyroma vs Black vs Mypy vs Radon vs mccabe](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)
+* [Why Pylint is both useful and unusable, and how you can use it](https://pythonspeed.com/articles/pylint/)
+* [Goodbye to Flake8 and PyLint: faster linting with Ruff](https://pythonspeed.com/articles/pylint-flake8-ruff/)
+
+### Python Command-line Utilities
+* [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
+
+### Python Code Documentation
+* [`pydoc`][17]
+* Sphinx
+* [How to Write Docstrings in Python](https://realpython.com/how-to-write-docstrings-in-python/)
+* [Quick Tip: Documenting CircuitPython Programs On Your Computer](https://www.woolseyworkshop.com/2023/04/19/quick-tip-documenting-circuitpython-programs-on-your-computer/)
+Build your documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided by [Read the Docs](https://about.readthedocs.com/)
+
+## Managing Python Testing
+### Python Testing
+
+## Managing Python Debugging
+### Python Debugging
+
+
+
+
+
+
+
+
+
+
+
+# Python Static Analysis Tools
+
+As projects grow in complexity, ensuring code quality and security becomes paramount.
+There are many Python static analysis tools to choose from, but these are most helpful:
+
+* [`black`](https://pypi.org/project/black/) uncompromising Python code formatter.
+  It saves you from the minutiae of hand-formatting and freedom from nagging about formatting.
+  Install `black` with `pip install black`.
+  (**NOTE:** If you want to format Jupyter Notebooks, install with `pip install "black[jupyter]"`.)
+* [`mypy`](https://mypy-lang.org/) is a static type checking tool.
+  You can freely mix static and dynamic typing within a program,
+  within a module or within an expression.
+  No need to give up dynamic typing — use static typing when it makes sense.
+  Install `mypy` with `pip install mypy`.
+* [`ty`](https://realpython.com/python-ty/) is a static type checking tool.
+  This new tool delivers a lightning-fast static type-checking experience in Python
+  At the time of writing, `ty` is available as an early preview release.
+  If you’d like to get familiar with a new, robust, and promising type checker in your personal projects, then by all means give ty a try!
+* [`flake8`](https://pypi.org/project/flake8/) is a bundle of
+  [`pyflakes`](https://pypi.org/project/pyflakes/), [`pycodestyle`](https://pypi.org/project/pycodestyle/),
+  and [`mccabe`](https://pypi.org/project/mccabe/).
+  It is faster than Pylint largely because Flake8 only examines the syntax tree of each file individually.
+  Install `flake8` with `pip install flake8`.
+* [`pylint`](https://www.pylint.org/) is a static code analyzer for Python 2 or 3.
+  Pylint analyses your code without actually running it.
+  It checks for errors, enforces a coding standard, looks for [code smells](https://en.wikipedia.org/wiki/Code_smell),
+  and can make suggestions about how the code could be refactored.
+  Its follows the [PEP 8 style guide for Python code](https://peps.python.org/pep-0008/)
+  Install `pylint` with `pip install pylint`.
+* [`ruff`](https://docs.astral.sh/ruff/) aims to be orders of magnitude faster than
+  alternative tools while integrating more functionality behind a single, common interface.
+  Its objective is to replace `black`, `flake8`, `pylint`, and more.
+  Install `ruff` with `pip install ruff`.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------
+
 
 * [Python 3 Cheat Sheet](https://scouv.lisn.upsaclay.fr/python-memento/memento-python3-en-latest.pdf)
 
@@ -22,7 +547,6 @@ Version:      0.0.0
 * [Real Python Learning Paths](https://realpython.com/learning-paths/)
 * [Python Engineer](https://www.python-engineer.com/posts/)
 * [mCoding](https://www.youtube.com/@mCoding)
-* [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
 
 * [Creating Great README Files for Your Python Projects](https://realpython.com/readme-python-project/)
 
@@ -91,9 +615,6 @@ In short, the "->" notation indicates a function’s return type in Python.
 
 ---------------
 
-# Documenting Python Code
-* [How to Write Docstrings in Python](https://realpython.com/how-to-write-docstrings-in-python/)
-* [Quick Tip: Documenting CircuitPython Programs On Your Computer](https://www.woolseyworkshop.com/2023/04/19/quick-tip-documenting-circuitpython-programs-on-your-computer/)
 
 ## The `.__doc__` Attribute
 ## The `help()` Function
@@ -113,44 +634,6 @@ In short, the "->" notation indicates a function’s return type in Python.
 
 * [Linux Crisis Tools](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
 
-# Next-gen Python Tooling
-
-`uv` is a single tool to replace pip, pip-tools, pipx, poetry, pyenv, twine, virtualenv, and more.
-`ruff` can be used to replace Flake8 (plus dozens of plugins), Black, isort, pydocstyle, pyupgrade, autoflake, and more, all while executing tens or hundreds of times faster than any individual tool.
-
-Your using existing Python environments and I'm pleased with what I can do.
-So, the questions becomes: Does the value provided by `uv` justify having another tool installed on my system?
-Why not just stick with Python tooling and accept `pip` or `venv` will be slightly slower?
-What am I missing here?
-
-Answer:
-* Do you build images regularly? `uv` is phenomenal in that context.
-* Do you try and share you code with other people, who have different computers than you? Again, `uv` shines.
-* Do you want global access to python-based tools across different projects, without the headache of managing tool-specific virtual environments? `uv` is for you.
-* `uv` actually resolves your python version.
-  We often get devs who last interacted with a service 1+ minor versions of python ago.
-  A lot of libraries and std lib stuff doesn't work right with pinned packages on an older version.
-  The troubleshooting can take some time and is an easy solve, but is annoying.
-  The fact that `uv` resolves the python version is miles ahead of pip tools.
-
-This last point cannot be overstated.
-The fact that `uv` can, on the fly, download the correct version of python, compatible with the target OS and architecture,
-is a game changer and takes it from a handy tool to indispensable.
-Sure, that could be managed in different ways,
-but the simplicity of setting up your entire environment from scratch with `uv sync` is just marvelous.
-
-
-* [Managing Multiple Python Versions With pyenv](https://realpython.com/intro-to-pyenv/)
-
-* [uv vs pip: Managing Python Packages and Dependencies](https://realpython.com/uv-vs-pip/)
-* [Python, pip, pyenv, uv. Why do we need them?](https://www.youtube.com/watch?v=IYcTaZfjODg)
-* [UV and Ruff: Next-gen Python Tooling](https://www.youtube.com/watch?v=ifj-izwXKRA)
-* [Python Tutorial: UV - A Faster, All-in-One Package Manager to Replace Pip and Venv](https://www.youtube.com/watch?v=AMdG7IjgSPM)
-* [Managing Python Projects With uv: An All-in-One Solution](https://realpython.com/python-uv/)
-* [Next-gen Python Tooling](https://docs.astral.sh/)
-  * [uv](https://docs.astral.sh/uv/#uv)
-  * [Ruff](https://docs.astral.sh/ruff/#ruff)
-
 # Python Continuous Integration
 
 * [Python Continuous Integration and Deployment Using GitHub Actions](https://realpython.com/courses/cicd-github-actions/)
@@ -168,6 +651,7 @@ as well as taking steps to fix them.
 * [Syntax Error #11: Debugging Python](https://www.syntaxerror.tech/syntax-error-11-debugging-python/)
 * [Debugging 101: Replace print() with icecream ic()](https://www.youtube.com/watch?v=JJ9zZ8cyaEk)
 * [Debug Your Python Code Efficiently with IceCream Package: 10 Advanced Examples to Replace Print Statements](https://medium.com/@danielwume/debug-your-python-code-efficiently-with-icecream-package-10-advanced-examples-to-replace-print-820fef801cb0)
+* [Debugging with ice cream in Python](https://www.geeksforgeeks.org/python/debugging-with-ice-cream-in-python/)
 * [Your Guide to the Python print() Function](https://realpython.com/python-print/)
 
 * [Understanding the Python Mock Object Library](https://realpython.com/python-mock-library/)
@@ -336,15 +820,17 @@ Pythonic describes code that doesn’t just get the syntax right but uses the la
 * [Working With Python's .**dict** Attribute](https://realpython.com/courses/working-dict-attributes/)
 
 ## What Is Python's `__slot__` For?
-
 What if there is a way to make your Python code faster?
 `__slots__` in Python can improve the performance of your code while reducing the memory usage.
 
 * [What Does Python’s **slots** Actually Do?](https://www.kdnuggets.com/what-does-pythons-__slots__-actually-do)
 
 ## What Is Python's `__init__.py` For?
-
 * [What Is Python's **init**.py For?](https://realpython.com/python-init-py/)
+
+## What Is Python's `__repr__.py` For?
+Weekly Python tip: always implement `__repr__` in your classes
+* [Python's 2 different string representations](https://www.pythonmorsels.com/pythons-two-different-string-representations/)
 
 ## Making a Main Function
 
@@ -582,45 +1068,6 @@ window = tk.Tk()
 
 ---------------
 
-
-# Python Static Analysis Tools
-
-As projects grow in complexity, ensuring code quality and security becomes paramount.
-There are many Python static analysis tools to choose from, but these are most helpful:
-
-* [`black`](https://pypi.org/project/black/) uncompromising Python code formatter.
-  It saves you from the minutiae of hand-formatting and freedom from nagging about formatting.
-  Install `black` with `pip install black`.
-  (**NOTE:** If you want to format Jupyter Notebooks, install with `pip install "black[jupyter]"`.)
-* [`mypy`](https://mypy-lang.org/) is a a static type checking tool.
-  You can freely mix static and dynamic typing within a program,
-  within a module or within an expression.
-  No need to give up dynamic typing — use static typing when it makes sense.
-  Install `mypy` with `pip install mypy`.
-* [`flake8`](https://pypi.org/project/flake8/) is a bundle of
-  [`pyflakes`](https://pypi.org/project/pyflakes/), [`pycodestyle`](https://pypi.org/project/pycodestyle/),
-  and [`mccabe`](https://pypi.org/project/mccabe/).
-  It is faster than Pylint largely because Flake8 only examines the syntax tree of each file individually.
-  Install `flake8` with `pip install flake8`.
-* [`pylint`](https://www.pylint.org/) is a static code analyzer for Python 2 or 3.
-  Pylint analyses your code without actually running it.
-  It checks for errors, enforces a coding standard, looks for [code smells](https://en.wikipedia.org/wiki/Code_smell),
-  and can make suggestions about how the code could be refactored.
-  Its follows the [PEP 8 style guide for Python code](https://peps.python.org/pep-0008/)
-  Install `pylint` with `pip install pylint`.
-* [`ruff`](https://docs.astral.sh/ruff/) aims to be orders of magnitude faster than
-  alternative tools while integrating more functionality behind a single, common interface.
-  Its objective is to replace `black`, `flake8`, `pylint`, and more.
-  Install `ruff` with `pip install ruff`.
-
-* [A Guide to Popular Python Static Analysis Tools](https://blog.codacy.com/python-static-analysis-tools)
-* [How to Write Beautiful Python Code With PEP 8](https://realpython.com/python-pep8/)
-* [Python Linter Comparison 2022: Pylint vs Pyflakes vs Flake8 vs autopep8 vs Bandit vs Prospector vs Pylama vs Pyroma vs Black vs Mypy vs Radon vs mccabe](https://inventwithpython.com/blog/2022/11/19/python-linter-comparison-2022-pylint-vs-pyflakes-vs-flake8-vs-autopep8-vs-bandit-vs-prospector-vs-pylama-vs-pyroma-vs-black-vs-mypy-vs-radon-vs-mccabe/)
-* [Why Pylint is both useful and unusable, and how you can use it](https://pythonspeed.com/articles/pylint/)
-* [Goodbye to Flake8 and PyLint: faster linting with Ruff](https://pythonspeed.com/articles/pylint-flake8-ruff/)
-* [Ruff: A Modern Python Linter for Error-Free and Maintainable Code](https://realpython.com/preview/ruff-python/)
-
-
 # Python Modules
 
 * Itertools - Itertools is a module in python, it is used to iterate over data structures that can be stepped over using a for-loop. Such data structures are also known as iterables. This module incorporates functions that utilize computational resources efficiently.
@@ -645,22 +1092,31 @@ There are many Python static analysis tools to choose from, but these are most h
 
 ---------------
 
+# TOML Files
+TOML stands for Tom's Obvious, Minimal Language.
+Its human-readable syntax makes TOML convenient to parse into data structures across various programming languages.
+In Python, you can use the built-in `tomllib` module to work with TOML files.
+TOML plays an essential role in the Python ecosystem.
 
-# Python Versioning
+## pyproject.toml
+`pyproject.toml` is crucial for package configuration and specifies the build system and dependencies. Modern Python projects use pyproject.toml files to describe a project's metadata, dependencies, and other valuable attributes.
 
-* [virtualenv: intro](https://calmcode.io/course/virtualenv/intro)
-* [pip-tools: introduction](https://calmcode.io/course/pip-tools/introduction)
+## settings.toml
+`settings.toml` file serves as a dedicated location for storing configuration variables and sensitive information, particularly for network-connected devices. This method **does not** make them secure. It only separates them from the code.
 
+* [Python and TOML: New Best Friends](https://realpython.com/python-toml/)
+* [How to Manage Python Projects With pyproject.toml](https://realpython.com/python-pyproject-toml/)
+* [Adafruit CircuitPython: Environment Variables](https://docs.circuitpython.org/en/latest/docs/environment.html)
+* [TOML: A config file format for humans](https://toml.io/en/)
 
 ---------------
 
 
-# Poetry
+# Python Versioning
 
-* [Simplifying Python Dependency Management with Poetry](https://medium.com/@jdgb.projects/simplifying-python-dependency-management-with-poetry-e996738778bc)
-* [Poetry - Python dependency management and packaging made easy](https://python-poetry.org/)
-* [How to Use Poetry in Python to avoid Dependency Hell](https://www.youtube.com/watch?v=V5rKVrVhEh8)
-* [Stop Wasting Hours - Every Python Dev NEEDS to Master Poetry](https://www.youtube.com/watch?v=nrm8Lre-x_8)
+
+
+---------------
 
 
 ---------------
@@ -771,4 +1227,25 @@ It supports the following types of projects:
 
 
 ---------------
+
+
+
+[01]:https://realpython.com/python-uv/
+[02]:https://realpython.com/what-is-pip/
+[03]:https://realpython.com/python-pipx/
+[04]:https://pypi.org/project/pip-tools/2.0.1/
+[05]:https://realpython.com/dependency-management-python-poetry/
+[06]:https://realpython.com/intro-to-pyenv/
+[07]:https://realpython.com/pypi-publish-python-package/
+[08]:https://realpython.com/python-virtual-environments-a-primer/
+[09]:https://realpython.com/ruff-python/
+[10]:https://realpython.com/python-pep8/
+[11]:https://black.readthedocs.io/en/stable/
+[12]:https://trunk.io/formatters/python/isort
+[13]:https://www.pydocstyle.org/en/stable/
+[14]:https://medium.com/top-python-libraries/pyupgrade-easily-upgrade-your-code-to-the-latest-python-syntax-0b42fdf8122f
+[15]:https://www.packetcoders.io/production-pimping-your-python-code-with-autoflake/
+[16]:https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
+[17]:https://dennisokeeffe.medium.com/how-pydoc-helps-your-python-development-df0b186ad96e
+[18]:https://realpython.com/python-uv/#locking-and-syncing-the-environment
 

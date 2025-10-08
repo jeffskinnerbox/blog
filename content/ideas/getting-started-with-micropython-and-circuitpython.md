@@ -272,6 +272,9 @@ Sources:
 * [Setting up Web Workflow](https://learn.adafruit.com/circuitpython-with-esp32-quick-start/setting-up-web-workflow)
 
 #### Step X: CircuitPython Supported Bootloads
+
+[Using the OPEN INSTALLER Button on circuitpython.org](https://learn.adafruit.com/using-open-installer-on-circuitpython-org)
+
 A bootloader is an application whose primary purpose is to allow the systems software
 that has to be updated without using any specialized hardware such as a JTAG programmer.
 The bootloader:
@@ -311,9 +314,8 @@ mkdir mu-editor
 cd mu-editor
 wget https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-Linux-1.2.0-x86_64.tar
 
-# make sure you have the right permissions ... you in the dialout group
-$ groups jeff
-jeff : jeff adm dialout cdrom sudo dip plugdev lpadmin lxd sambashare vboxusers
+# make sure you have the right permissions ... you need to be in the dialout group
+sudo usermod -aG dialout jeff
 
 # untar the AppImage
 tar -xf MuEditor-Linux-1.2.0-x86_64.tar
@@ -338,7 +340,7 @@ Now explore how to use Mu by following the following video:
 
 ##### Install Thonny
 
-Thonny is a more porwerful than Mu in that its an IDE.
+Thonny is a more powerful than Mu in that its an IDE.
 
 ```bash
 #install thonny
@@ -398,6 +400,12 @@ Because of this, the process for getting things setup on the ESP32 is different 
 For boards lacking native USB, like the ESP32 and ESP32-C3, no folder will show up after pressing reset. If CircuitPython firmware was loaded, the REPL can be accessed over a serial COM port.
 
 For other boards, like ESP32-S2, -S3, etc., a BOOT folder should show up. A CircuitPython UF2 file can now be copied over to the BOOT folder, after which the CIRCUITPY folder should then show up.
+
+.UF2 vs .BIN Files - I'm attempting to load CircutPython on to the  Seeed Studio XIAO ESP32S3 Sense.  When should I load the .UF2 file vs the BIN file?
+For the Seeed Studio XIAO ESP32S3 Sense, you should use the .BIN file, not the .UF2 file.
+Here's why:
+UF2 files are designed for boards with a built-in UF2 bootloader that allows you to drag-and-drop firmware files onto a drive that appears when you connect the board. This is common on boards like Raspberry Pi Pico or some SAMD-based boards.
+BIN files are used for ESP32 boards because they don't have a UF2 bootloader.
 
 
 

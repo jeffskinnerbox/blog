@@ -24,6 +24,7 @@ If the cell is full, the oscillating circuit gets saturated faster and less ener
 [How to Build a Joule Thief & Steal Battery Power](https://www.arrow.com/en/research-and-events/articles/how-to-build-a-joule-thief-and-steal-battery-power)
 
 * [Easy Joule Thief Circuit](https://www.instructables.com/Easy-Joule-Thief-Circuit/)
+* [High Voltage Coin Cell](https://atomic14.substack.com/p/high-voltage-coin-cell)
 * [Easy Joule Thief Soldering Project](https://www.instructables.com/Easy-Joule-Thief-Soldering-Project-1/)
 * [19 Projects tagged with "Joule thief"](https://hackaday.io/projects?tag=Joule%20thief)
 
