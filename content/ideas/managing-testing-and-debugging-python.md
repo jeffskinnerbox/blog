@@ -30,10 +30,10 @@ sudo apt install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadli
      curl git libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 
 # install uv on your system using the recommended installer
-curl -LsSf <https://astral.sh/uv/install.sh> | sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # install pyenv on your system using the recommended installer
-curl -fsSL <https://pyenv.run> | bash
+curl -fsSL https://pyenv.run | bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
@@ -97,6 +97,8 @@ pip freeze > requirements.txt
 
 ---------------
 
+
+* [Python 3.14 and the End of the GIL](https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/)
 
 # Next-gen Python Tooling
 Over the years, legacy Python has created multiple tools & procedures to manage the Python interpreter,
@@ -624,6 +626,8 @@ In short, the "->" notation indicates a function’s return type in Python.
 
 # Learning Python
 
+* [What Can I Do With Python?](https://realpython.com/what-can-i-do-with-python/)
+* [How to Use Python: Your First Steps](https://realpython.com/python-first-steps/)
 * [The Ultimate List of Python YouTube Channels](https://realpython.com/python-youtube-channels/)
 * [Python Morsels](https://www.pythonmorsels.com/)
 * [Python Tutorials 2025](https://www.youtube.com/playlist?list=PL4KX3oEgJcfd7I5KmEnUF7cTVqrvCPRDj)
@@ -871,6 +875,7 @@ working with built-in data types, processing iterables of data, handling input a
 ## Building Your Own Functions
 
 * [Defining Your Own Python Function](https://realpython.com/defining-your-own-python-function/)
+* [Using Python Optional Arguments When Defining Functions](https://realpython.com/python-optional-arguments/)
 
 
 ## Python Idioms (Idiomatic Python)
@@ -965,6 +970,7 @@ which makes them pretty flexible and decoupled.
 * Performance Profiling
   * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
 * Logging
+  * [Logging in Python](https://realpython.com/python-logging/)
   * [How to Use Loguru for Simpler Python Logging](https://realpython.com/python-loguru/)
   * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
   * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)

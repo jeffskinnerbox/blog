@@ -138,7 +138,7 @@ just follow those instructions.
 
 Your going to want to install a microSD card if you want view/playback past video & sound recording.
 You should put in a 8G to 32G microSD card ([stores 2 to 4 days of continious recording][04])
-and format it using the proceedures outlined [here][03].
+and format it using the procedures outlined [here][03].
 
 Sources:
 
@@ -162,6 +162,7 @@ Sources:
 
 * [Turn any Wyze Cam into IP cam with Docker](https://www.youtube.com/watch?v=l2S6XIj0iE0)
 * [Easily Get Wyze Cam Into Any App // Wyze Docker Bridge](https://www.youtube.com/watch?v=YZVJ1yvdobE)
+* [WebRTC/RTSP/RTMP/LL-HLS bridge for Wyze cams in a docker container](https://github.com/mrlt8/docker-wyze-bridge)
 * [Wyze RTSP Via Docker ! How to set it up on Synology - No Hacks Subscription or Firmware Required!](https://www.youtube.com/watch?v=lFJyWpa1bo0)
 
 * [Home Surveillance Using Wyze Cams (Part 1)](https://www.youtube.com/watch?v=0tHQq2uiUO0)

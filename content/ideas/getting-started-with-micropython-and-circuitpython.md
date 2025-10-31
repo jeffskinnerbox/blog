@@ -21,6 +21,7 @@ Version:      0.0.0
 
 # MicroPython: The best bits
 
+* [Setup and Using MicroPython for Beginners](https://learn.sparkfun.com/tutorials/setup-and-using-micropython-for-beginners)
 * [MicroPython: The best bits!](https://pretalx.com/pycon-au-2024/talk/HFXFLZ/)
   * ["MicroPython: The best bits!" - Matt Trentini (Pycon AU 2024)](https://www.youtube.com/watch?v=EVRDuu-Sez0)
   * [Slides available here](https://docs.google.com/presentation/d/e/2PACX-1vQDB-oMalkKqR1GNfWwSKGRDsSJGJQKIGu3GUbQWLuWMkMn3NOd9GjoYdhr6YLKU0U_9jtu5Q_xjyit/pub?slide=id.gc6f73a04f_0_0)
@@ -339,7 +340,7 @@ Now explore how to use Mu by following the following video:
 
 
 ##### Install Thonny
-
+* [Getting Started with Thonny MicroPython (Python) IDE for ESP32 and ESP8266](https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/)
 Thonny is a more powerful than Mu in that its an IDE.
 
 ```bash

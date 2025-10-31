@@ -13,6 +13,9 @@ Version:      0.0.0
 ---------------
 
 
+* [Stop believing these 4 network myths — they make your home lab less secure](https://www.xda-developers.com/stop-believing-these-network-myths/)
+
+
 Authelia is an open-source authentication and authorization server and portal fulfilling the identity and access management (IAM) role of information security in providing multi-factor authentication and single sign-on (SSO) for your applications via a web portal. Authelia is an OpenID Connect 1.0 Provider which is OpenID Certified™ allowing comprehensive integrations, and acts as a companion for common reverse proxies.
 
 Authentik is an open-source identity provider (IdP) that allows users to self-host user authentication, single sign-on (SSO), and access controls for their applications and services. It acts as a central authentication hub, enabling users to manage user credentials, access permissions, and various authentication protocols in a flexible and customizable way.

@@ -851,17 +851,6 @@ I didn't bother with any of this.
 * [RC USB Adapter](https://www.tindie.com/products/phatdadracing/rc-usb-adapter/)
 
 
-# A Quick Guide to LiDAR
-
-* [A Quick Guide to LiDAR: Part 1 - Theory](https://medium.com/mlearning-ai/a-quick-guide-to-lidar-part-1-theory-7c8ff48af0b9)
-* [A Quick Guide to LiDAR: Part 2](https://medium.com/mlearning-ai/a-quick-guide-to-lidar-part-2-cd2dcd2e60fd)
-* [Lidar Types and How They Work](https://www.dfrobot.com/blog-1643.html)
-* [7 Real-World Applications of LiDAR Technology](https://www.dfrobot.com/blog-1644.html)
-* [What is the Open Source Framework for LiDAR?](https://www.dfrobot.com/blog-1647.html)
-* [FAQ about LiDAR](https://www.dfrobot.com/forum/topic/320253)
-* [A Pi-Based LiDAR Scanner](https://hackaday.com/2025/04/18/a-pi-based-lidar-scanner/)
-  * [GitHub: PiLiDAR/PiLiDAR](https://github.com/PiLiDAR/PiLiDAR)
-
 ---------------
 
 
@@ -970,11 +959,6 @@ and enable it to drive around a track without any human controls.
 * [Ghost III — Dead Reckoning Navigation](https://medium.com/hackernoon/ghost-iii-dead-reckoning-navigation-ffd6fd4de1cf)
 * [Ghost IV — Sensor Fusion: Encoders + IM](https://medium.com/hackernoon/ghost-iv-sensor-fusion-encoders-imu-c099dd40a7b)
 * [NAVIT](https://www.navit-project.org/)
-
-* [An Explainer on the Different Types of LiDAR Devices](https://www.crowdsupply.com/onion/tau-lidar-camera/updates/an-explainer-on-the-different-types-of-lidar-devices)
-* [TFmini Plus - ToF LIDAR Range Finder](https://www.seeedstudio.com/TFmini-Plus-LIDAR-Range-Finder-based-on-ToF-p-3222.html)
-* [Homemade Lidar: OpenTOFLidar](https://hackaday.com/2020/03/24/lidar-system-isnt-just-a-rangefinder-anymore/)
-
 
 ## OpenPilot
 

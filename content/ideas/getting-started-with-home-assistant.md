@@ -2404,6 +2404,7 @@ claims to be the missing cloud piece for Home Assistant.
 * Text to Speech is part of your subscription. This allows you to turn any text into natural sounding audio clips to be played on any speaker that Home Assistant supports.
 
 * [Home Assistant - Nabu Casa vs DIY (Costs & Benefits Compared)](https://www.youtube.com/watch?v=PNRlCPBSNGc&feature=youtu.be)
+* [Meet Nabu, the Open-Source Alexa Alternative](https://www.howtogeek.com/meet-nabu-the-open-source-alexa-alternative/)
 
 
 ## Integrate Amazon Echo

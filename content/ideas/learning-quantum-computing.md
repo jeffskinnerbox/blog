@@ -430,6 +430,7 @@ What is a recipe? - An algorithm. This is a (1) sequence of simple steps, (2) fl
 
 # Examples of Computing Machines
 
+* [The Physical Origin of Universal Computing](https://www.quantamagazine.org/the-physical-origin-of-universal-computing-20151027/)
 * [The Babbage Engine](https://www.computerhistory.org/babbage/)
 * [Digi-Comp I](https://mindsontoys.com/kits.htm?dc1_main.htm)
 * [Lego Mechanical Computer](https://www.drmoron.org/posts/mechanical-computer/)
@@ -459,8 +460,9 @@ Spiking Neural Networks are neural networks that replicate the neuronal-firing m
   * [The Most Difficult Program to Compute? - Computerphile](https://www.youtube.com/watch?v=i7sm9dzFtEI)
   * [Busy Beaver Turing Machines - Computerphile](https://www.youtube.com/watch?v=CE8UhcyJS0I)
   * [With Fifth Busy Beaver, Researchers Approach Computation’s Limits](https://www.quantamagazine.org/amateur-mathematicians-find-fifth-busy-beaver-turing-machine-20240702/)
-    * [The Busy Beaver Challenge](<https://bbchallenge.org/>
+    * [The Busy Beaver Challenge](https://bbchallenge.org/)
   * [Busy Beaver Hunters Reach Numbers That Overwhelm Ordinary Math](https://www.quantamagazine.org/busy-beaver-hunters-reach-numbers-that-overwhelm-ordinary-math-20250822/)
+* [How to Build an Origami Computer](https://www.quantamagazine.org/how-to-build-an-origami-computer-20240130/)
 
 
 # What is Quantum Computation?

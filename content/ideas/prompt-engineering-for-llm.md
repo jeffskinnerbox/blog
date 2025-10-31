@@ -44,4 +44,10 @@ Asking the model to show how it arrives at the results adds further depth.
 * [Enhancing LLM Reasoning: Unveiling Chain of Code Prompting](https://www.kdnuggets.com/enhancing-llm-reasoning-unveiling-chain-of-code-prompting)
   * Chain of Code Prompting
 
+## How Do Tokens Work
+* [Most devs don't understand how LLM tokens work](https://www.youtube.com/watch?v=nKSk_TiR8YA)
+* [Top 4 Decoding Strategies In LLMs Explained Simply](https://intoai.pub/p/decoding-strategies-in-llms)
+
+## Reasoning Models
+* [Tiny Recursive Model (TRM): A Deep Dive](https://intoai.pub/p/tiny-recursive-model)
 

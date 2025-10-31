@@ -180,7 +180,7 @@ TV programs from 1978 ...
 
 You can take several routes to get a Raspberry Pi to receive and stream over-the-air channels
 or cable subscription.
-All you nedd are the following:
+All you need are the following:
 
 * Raspberry Pi (preferably a 4B or 5 with at least 4GB of RAM), Raspberry Pi OS, and Internet access
 * A USB TV tuner or Raspberry Pi TV HAT compatible with the broadcast standard in your region (e.g., DVB-T/T2 for Europe, ATSC for North America)

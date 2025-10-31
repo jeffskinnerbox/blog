@@ -1032,6 +1032,7 @@ that correctly determines whether an arbitrary program eventually halts when run
 * [Undecidability](https://www.cs.rochester.edu/u/nelson/courses/csc_173/computability/undecidable.html)
 * [Undecidable problem](https://en.wikipedia.org/wiki/Undecidable_problem)
 * [‘Next-Level’ Chaos Traces the True Limit of Predictability](https://www.quantamagazine.org/next-level-chaos-traces-the-true-limit-of-predictability-20250307/)
+* [The Unsolvable Problem](https://www.scientificamerican.com/article/the-unsolvable-problem/)
 
 
 # The Hidden Structure of the Universe

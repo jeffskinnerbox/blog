@@ -395,6 +395,7 @@ Devices placed on the top plate can be moved in the six degrees of freedom.
 * [ERGO JR](https://www.poppy-project.org/en/robots/poppy-ergo-jr)
 * [Reachy The Open Source Robot Says Bonjour](https://hackaday.com/2021/01/14/reachy-the-open-source-robot-says-bonjour/)
 * [Tonybot educational humanoid robot is programmable with Arduino, Scratch, and Python](https://www.cnx-software.com/2025/08/01/tonybot-educational-humanoid-robot-is-programmable-with-arduino-scratch-and-python/)
+* [ROS 2 Pick-and-Kick with Particle Tachyon and Edge Impulse](https://www.hackster.io/naveenbskumar/ros-2-pick-and-kick-with-particle-tachyon-and-edge-impulse-299221)
 * [$5,900 Unitree R1 is an ultra-lightweight, customizable humanoid robot](https://www.cnx-software.com/2025/07/30/5900-unitree-r1-is-an-ultra-lightweight-customizable-humanoid-robot/)
 * [PiMecha Humanoid Robot Based on Raspberry Pi Sells for about $500](https://www.cnx-software.com/2018/08/24/pimecha-humanoid-robot-raspberry-pi/)
 
