@@ -18,7 +18,10 @@ Version:      0.0.0
 * [Ultrasonic Distance Sensors Arduino Tutorial and Comparison for HC-SR04, HY-SRF05, US-015](https://www.youtube.com/watch?v=aLkkAsrSibo)
 * [Making a better HC-SR04 Echo Locator](http://uglyduck.ath.cx/ep/archive/2014/01/Making_a_better_HC_SR04_Echo_Locator.html)
 * [Ultrasonic Trimount Brackets](https://blog.tindie.com/2020/08/ultrasonic-trimount-brackets/)
-* [](https://www.dfrobot.com/product-1033.html)
+* [The Simplest Ultrasound Sensor Module, Minus The Module](https://hackaday.com/2025/11/16/the-simplest-ultrasound-sensor-module-minus-the-module/)
+  * [Raspberry Pi Pico Ultrasonic Sensor with no additional parts](https://martin.pittermann.eu/posts/2025-11-14-rp-pico-ultrasonic-sensor/)
+  * [Fundamentals Of FMCW Radar Help You Understand Your Car’s Point Of View](https://hackaday.com/2024/10/19/fundamentals-of-fmcw-helps-you-understand-your-cars-point-of-view/)
+* [URM06 - Narrow Beam Ultrasonic Distance Sensor (20～1000cm, PULSE)](https://www.dfrobot.com/product-1033.html)
 
 # Other Ultrasonic Sensor
 

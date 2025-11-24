@@ -19,6 +19,20 @@ We choose to go to the moon.  We choose to go to the moon in this decade and do 
 
 
 
+
+# Centauri
+Centauri is a complete, end‑to‑end custom quadcopter ecosystem.
+From the airframe to the pilot’s controller,
+from the communication platform to the analysis tools, every piece has been designed and built from scratch.
+The Centauri Flight Controller is a custom MicroPython‑based flight controller running efficiently on a low‑power Raspberry Pi Pico.
+
+* [Centauri Test Flight - Two Perspectives Snippet](https://www.youtube.com/watch?v=-Kj5vSNrLSk)
+* [Centauri: a new fully custom quadcopter system built with MicroPython](https://blog.adafruit.com/2025/11/17/centauri-a-new-fully-custom-quadcopter-system-built-with-micropython/)
+* [GitHub: TimHanewich/centauri](https://github.com/TimHanewich/centauri)
+
+
+
+
 * [FPV Jargon Buster - Acronyms and Slang Explained](https://www.dronetrest.com/t/fpv-jargon-buster-acronyms-and-slang-explained/9867)
 
 
@@ -1380,6 +1394,7 @@ Serial Studio is a multi-platform, multi-purpose serial data visualization progr
 ### Quadrotor BBplane VTOL
 
 * [QBIT: VTOL Tailsitter Flies With Quadcopter Control Software](https://hackaday.com/2021/08/02/vtol-tailsitter-flies-with-quadcopter-control-software/)
+* [EVTOL For Everyone](https://hackaday.com/2025/11/15/evtol-for-everyone/)
 
 
 

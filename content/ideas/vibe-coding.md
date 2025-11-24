@@ -49,6 +49,7 @@ and they will modify it fit with the business.
 # What are the Risks?
 
 * [What Is Vibe Coding and Why Is It Risky?](https://www.howtogeek.com/what-is-vibe-coding-and-why-is-it-risky/)
+* [Vibe Coding, Six Months Later: The Honeymoon’s Over](https://thenewstack.io/vibe-coding-six-months-later-the-honeymoons-over/)
 
 ---------------
 

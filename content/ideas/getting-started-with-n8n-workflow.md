@@ -11,6 +11,12 @@ Version:      0.0.0
 ---------------
 
 
+* [Building a Gmail Inbox Management Agent in n8n](https://www.kdnuggets.com/building-a-gmail-inbox-management-agent-in-n8n)
+* [Deploy Your AI Assistant to Monitor and Debug n8n Workflows Using Claude and MCP](https://towardsdatascience.com/deploy-your-ai-assistant-to-monitor-and-debug-n8n-workflows-using-claude-and-mcp/)
+
+
+
+* [Automating Your Digital Life with n8n](https://hackers-arise.com/automating-your-digital-life-with-n8n/)
 * [Self-Host Your Own Automation Platform with n8n + Docker](https://www.youtube.com/watch?v=gyn8bcOLdcA)
 * [How to Run n8n Locally (Full On-Premise Setup Tutorial)](https://www.youtube.com/watch?v=-ErfsM2TYsM)
 * [You NEED to Use n8n RIGHT NOW!! (Free, Local, Private)](https://www.youtube.com/watch?v=ONgECvZNI3o)
@@ -26,6 +32,7 @@ while offering developers a powerful and scalable way to design automations.
 It's one of the most popular platforms for deploying AI agents,
 combining triggers, language models (LLMs), and external tools.
 
+* [A Beginner’s Guide to Automation with n8n](https://www.freecodecamp.org/news/a-beginners-guide-to-automation-with-n8n/)
 * [GitHub: n8n-io/n8n](https://github.com/n8n-io/n8n)
 * [Self-Host Your Own Automation Platform with n8n + Docker](https://www.youtube.com/watch?v=gyn8bcOLdcA)
 * [Make n8n Public — Free Production Setup with Docker + Ngrok (No Domain, No Cost!)](https://www.youtube.com/watch?v=RvAD2__YYjg)

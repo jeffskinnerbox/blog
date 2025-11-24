@@ -8,8 +8,91 @@ Version:      0.0.0
         title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+
 ---------------
 
+**Intrusive thoughts** are unwanted, persistent, and distressing thoughts that repeatedly enter a person's mind.
+They can be vivid, vivid, or even terrifying, and they can cause significant anxiety and distress.
+
+**Introspective awareness** is the ability to observe and understand your own mental and emotional states, such as your thoughts, feelings, and behaviors.
+It involves self-reflection, where you pause to examine and gain clarity on your inner workings, which can lead to greater self-awareness,
+emotional regulation, and a better alignment of your actions with your values
+
+* [What Are Intrusive Thoughts?](https://health.clevelandclinic.org/intrusive-thoughts)
+* [Introspection and How It Is Used In Psychology](https://www.verywellmind.com/what-is-introspection-2795252)
+* [Claude can identify its ‘intrusive thoughts’](https://www.transformernews.ai/p/claude-can-identify-its-intrusive-ai-introspection)
+
+
+
+
+
+## Step 1
+I read the following documents and viewed these videos:
+* [Claude Code Explained for Beginners](https://www.youtube.com/watch?v=sxp-VXbXZU4)
+* [Claude Code best practices | Code w/ Claude](https://www.youtube.com/watch?v=gv0WHhKelSE&t=6s)
+* [How I use Claude Code for real engineering](https://www.youtube.com/watch?v=kZ-zzHVUrO4&t=149s)
+* [Mastering Claude Code in 30 minutes](https://www.youtube.com/watch?v=6eBSHbLKuN0)
+* [Get ANY Claude Skill You Want in Minutes (Live demo)](https://www.youtube.com/watch?v=MJ3F1-bfaVY)
+
+I followed the video and applied what I learned to an existing project.
+My goal is to have Claude instruct me on how to replace the Adafruit KB2040 microcontroller
+with a Raspberry Pi Pico W. I need the extra GPIO pin to implement additional functionality.
+
+```bash
+# prepare your project
+mkdir ~/tmp/claude-code
+cp -r ~/src/projects/omnidirectional-robot/omni_robot_1/iteration_2 .
+cd omni_robot_1
+rm -r -f iteration_1/ iteration_3/ pictures/
+
+# have Claude do an analysis of the project and write a report
+claude "Explain what this project does and how it is structured" > project-analysis.txt
+
+# time to use a CLAUDE.md file, make updates & edits where you can
+claude "For this project, write me a CLAUDE.md file that I'll use for Python and CircuitPython coding."
+```
+
+Now I'm going to create a prompt for a major change that I plan to introduce into the code.
+Specifically, the replacement of the Adafruit KB2040 microcontroller with a Raspberry Pi Pico W.
+I want to make sure give Claude instruction on what I want created to make this move easy for me.
+
+Here is my prompt:
+
+```text
+My Goal: To modify the openloop-wheel-control-v1-i2.py code to read the encoders on the N20 motors
+to measure directly the speed and direction of each wheel.  I will then used a PID (proportional-integral-derivative)
+feedback control mechanism to calculate continuously error value
+and applies a corrections so the wheel speed matches it target value.
+
+The Challenge: The Adafruit KB2040 microcontroller lacks sufficient pinouts to read the encoders on the three N20 motors.
+
+My Solution: I want to replace the Adafruit KB2040 microcontroller with a Raspberry Pi Pico W which has more pinouts.
+
+Your Task #1: I want you to instruct me on how to replace the Adafruit KB2040 microcontroller with a Raspberry Pi Pico W.
+You instructions should provide a table which maps the KB2040 pin currently used,
+to the Raspberry Pi Pico W pins you have selected, so I can rewire the microprocessor, motors, and motor drivers.
+Also, modify the openloop-wheel-control-v1-i2.py code to reflect your change and the use of the Raspberry Pi Pico W.
+
+Your Task #2: Give me a plan for implementing Task #1. Explain to me how to calibrate and tune this solution,
+using the existing RadioMaster Boxer controller / ER4 ExpressLRS (ELRS) PWM receiver architecture.
+Provide test cases to validate the solution.
+```
+
+Future Tasks: In a subsequent steps, which you should considered in your planning, but not execute at this time:
+* Create the PID controller, calibrate and tune this solution, using the existing RadioMaster Boxer controller
+  / ER4 ExpressLRS (ELRS) PWM receiver architecture. Provide test cases to validate the solution.
+* Convert this solution so it operates the Robot Operating System 2 (ROS2) framework and no longer uses the
+  RadioMaster Boxer controller / ER4 ExpressLRS (ELRS) PWM receiver architecture.
+* Create testing process where I can read in test case, written in CircuitPython, to automate testing of the solution
+  using the ROS2 RViz and Gazebo tools.
+
+
+
+
+
+
+
+* [What is Claude Computer Use and How Do I Use It (Beginner's Tutorial)](https://www.youtube.com/watch?v=8xRNlhkHBU0&t=10s)
 
 * [Start with Anthropic's Claude Large Language Model - One of the Strongest OpenAI ChatGPT Competitor](https://www.youtube.com/watch?v=eYBwofyE0Pk&list=PLO89phzZmnHjp4UrbZFbnV2DUZ7owBIre&index=2)
 * [You're Using AI WRONG (Terminal vs ChatGPT)](https://www.youtube.com/watch?v=MsQACpcuTkU)
@@ -22,7 +105,93 @@ Version:      0.0.0
 * [Claude Docs: Claude Code Overview](https://docs.claude.com/en/docs/claude-code/overview)
 * [Claude Code Setup Guide: Clearing Up Common Myths (FULL DEMO)](https://www.youtube.com/watch?v=0F_jW4XC1NM)
 * [6 Months of Claude Code Lessons in 27 Minutes](https://www.youtube.com/watch?v=rfDvkSkelhg)
-* [Claude Docs: Claude Code](https://docs.claude.com/en/docs/claude-code/quickstart)
+* [Claude Docs: Claude Code Quickstart](https://docs.claude.com/en/docs/claude-code/quickstart)
+
+
+
+## Prompt Engineering
+Anthropic defines prompt engineering as the process of crafting and structuring prompts to
+guide large language models (LLMs) like Claude toward producing desired outputs.
+It involves carefully designing input text to steer the model's tone, style, and behavior for specific use cases,
+and is seen as a subset of the broader concept of context engineering.
+This technique can be used to improve accuracy, align with brand voice,
+and enhance the model's ability to perform specific tasks without retraining the model itself.
+* [Prompting Best Practices](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices)
+* [Anthropic Prompt Engineering Overview](https://jimmysong.io/en/ai/anthropic-prompt-engineering/)
+
+## Context Engineering
+Anthropic defines context engineering as the set of strategies for curating
+and maintaining the optimal set of information (tokens) during LLM inference,
+extending beyond traditional prompt engineering to manage the entire information ecosystem surrounding the AI agent.
+* [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+* [How to Perform Effective Agentic Context Engineering](https://towardsdatascience.com/how-to-perform-effective-agentic-context-engineering/)
+
+## Anthropic’s “Prompt Improver”
+Anthropic launched the “[Prompt Improver][01]” makes AI-assisted prompt writing a reality.
+This tool can transform your simple prompt into an optimized, more efficient version in just one minute.
+To use it, just visit the [Anthropic Console][02] and get started
+
+Sources:
+* [Anthropic Launches Claude Smart Improver: “One-Click Optimization” for Your AI Prompts!][01]
+* [Anthropic's Prompt Optimizer Tool](https://www.youtube.com/shorts/BGJMGy0NRak)
+* [Generate better prompts in the developer console](https://claude.com/blog/prompt-generator)
+
+## MCP vs. SKILL.md
+Why would I use a GitHub MCP instead of creating a GiutHub `SKILL.md` document?
+This gets at an important distinction between MCPs and Skills.
+Here are the key differences:
+
+* GitHub MCP (Model Context Protocol)
+  * Live data access: Can read your actual current repositories, issues, PRs in real-time
+  * Two-way interactions: Can create issues, make commits, open PRs, not just read
+  * Dynamic: Always has the latest state of your repos
+  * Authentication: Works with your specific GitHub account and permissions
+  * Requires setup: Needs installation and configuration outside of Claude
+* GitHub SKILL.md Document
+  * Static instructions: Contains best practices, workflows, and procedures for working with GitHub
+  * Knowledge transfer: Teaches Claude how to use GitHub APIs, what conventions to follow, code review practices, etc.
+  * No live access: Can't actually see your repos or make changes (unless combined with other tools)
+  * Portable: Works immediately in any conversation without setup
+  * Educational: Great for standardizing workflows, coding standards, PR templates, etc.
+* Best Use Cases
+  * Use MCP when you want to:
+    * "Show me all open issues in my repo"
+    * "Create a PR from this branch"
+    * "Search my codebase for function X"
+  * Use a SKILL.md when you want to:
+    * Define your team's PR review checklist
+    * Document your branching strategy
+    * Establish coding standards and commit message conventions
+    * Teach Claude your organization's GitHub workflows
+  * Use BOTH together when:
+    * You want Claude to access your GitHub repos (MCP) while following your team's specific practices and standards (SKILL)
+
+
+
+[01]:https://medium.com/ai-disruption/anthropic-launches-claude-smart-improver-one-click-optimization-for-your-ai-prompts-66b6e935f95b
+[02]:https://console.anthropic.com/dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -114,15 +283,22 @@ allowing AI models to seamlessly access and utilize information from diverse sys
 
 * [Model Context Protocol (MCP), clearly explained (why it matters)](https://www.youtube.com/watch?v=7j_NE6Pjv-E)
 * [Why MCP really is a big deal | Model Context Protocol with Tim Berglund](https://www.youtube.com/watch?v=FLpS7OfD5-s)
+* [How to Build Your First MCP Server using FastMCP](https://medium.com/data-science-collective/how-to-build-your-first-mcp-server-using-fastmcp-170873fb7f1e)
+* [The Complete Guide to Model Context Protocol](https://machinelearningmastery.com/the-complete-guide-to-model-context-protocol/)
 * [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol)
 * [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction)
 * [GitHub: modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
+* Tutorial: [MCP Servers](https://www.youtube.com/playlist?list=PLMVV8yyL2GN_bCpeCPYG40rs7ySxu3gna)
 
 ### MCP Server Example Code
-* FastMCP - [GitHub: jlowin/fastmcp](https://github.com/jlowin/fastmcp)
+* [How I Built My First Python MCP Server (And Made AI More Useful)](https://python.plainenglish.io/how-i-built-my-first-python-mcp-server-and-made-ai-more-useful-880db4ed23a8)
+* [Build a Python MCP Client to Test Servers From Your Terminal](https://realpython.com/python-mcp-client/)
+* [FastMCP Quickstart: Build Remote MCP Servers w/ Python](https://www.youtube.com/watch?v=bOYkbXP-GGo)
+  * FastMCP - [GitHub: jlowin/fastmcp](https://github.com/jlowin/fastmcp)
 * [Model Context Protocol Isn't Confusing If You Understand It This Way](https://intoai.pub/p/model-context-protocol)
 * [Building Your First AI Agent (That Will Actually Improve You As An AI Engineer)](https://intoai.pub/p/building-your-first-ai-agent)
 * [List of Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers)
+* [This is my favorite MCP server to use with my local LLM](https://www.xda-developers.com/favorite-mcp-server-use-local-llm/)
 
 ## Claude Code
 [Claude Code][01] is an agentic coding tool that lives in your terminal, understands your codebase,
@@ -252,8 +428,18 @@ Source:
 
 
 
-[01]:https://www.claude.com/product/claude-code
-[02]:https://docs.claude.com/en/docs/claude-code/quickstart
 [03]:https://github.com/greggh/claude-code.nvim
 [04]:https://github.com/coder/claudecode.nvim
 
+
+---------------
+
+
+## Claude Code Tutorial
+* [Claude Code Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY)
+* [Engineering at Anthropic](https://www.anthropic.com/engineering)
+* [Claude Code: Best practices for agentic coding](https://www.anthropic.com/engineering/claude-code-best-practices)
+
+## Slash Commands & Prompt Systems for Claude Code
+* [Stop Telling Claude Code What To Do](https://www.youtube.com/watch?v=8_7Sq6Vu0S4)
+  * [GitHub: glittercowboy/taches-cc-prompts](https://github.com/glittercowboy/taches-cc-prompts)

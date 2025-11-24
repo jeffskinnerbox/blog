@@ -13,7 +13,9 @@ Version:      0.0.0
 
 
 
+* [An Introduction To DC Motor Technology](https://hackaday.com/2025/11/16/an-introduction-to-dc-motor-technology/)
 * [Introduction to AC Motors](http://www.allaboutcircuits.com/textbook/alternating-current/chpt-13/introduction-ac-motors/)
+
 * [Balancing Robot Needs Innovative Controller and Motor](http://hackaday.com/2017/05/18/balancing-robot-needs-innovative-controller-and-motor/)
 * [Smooth Moves from Cheap Motors](https://hackaday.com/2018/11/16/smooth-moves-from-cheap-motors/)
 

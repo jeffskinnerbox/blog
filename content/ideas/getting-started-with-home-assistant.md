@@ -16,6 +16,7 @@ Version:      0.0.0
 
 
 * [Build a Complete Smart Home Monitoring System](https://thenewstack.io/build-a-complete-smart-home-monitoring-system/)
+* [These 5 obscure Docker containers help solve my biggest smart home problems](https://www.xda-developers.com/obscure-docker-containers-solve-smart-home-problems/)
 
 * [How to run a smart home hub (Home Assistant) on your Proxmox server](https://www.xda-developers.com/how-to-run-a-smart-home-hub-on-your-proxmox-server/)
 * [Docker and Home Automation](https://www.youtube.com/playlist?list=PL4ed4sZb-R_8dJmakzfBywx1zL9HrFEOy)
@@ -61,7 +62,7 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 
 
 # Node-Red vs. N8N
-
+* [n8n Home Assistant Add-On Turns Chaos Into Clarity](https://www.geeky-gadgets.com/n8n-home-assistant-automation/)
 * [The next Level of Node-Red is n8n. Useful for You?](https://www.youtube.com/watch?v=J_ciNKXosiY)
 * [Distributed Workflow Management in N8N: Architecture Upgrade and Performance Optimization Guide](https://medium.com/@ozanbozkurtt96/distributed-workflow-management-in-n8n-architecture-upgrade-and-performance-optimization-guide-c9436b02dd93)
 * [N8N](https://n8n.io/)
@@ -163,6 +164,7 @@ Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM a
 * [Organizing My Home Assistant Configuration Files](https://hometechhacker.com/organizing-my-home-assistant-configuration-files/)
 * [Share Your Home Assistant Configs on GitHub Automatically](https://www.youtube.com/watch?v=hhv-WqGUy_o)
 
+* [Not having a Home Assistant backup is an emergency, fix it now](https://www.howtogeek.com/not-having-a-home-assistant-backup-is-an-emergency-fix-it-now/)
 * [Finally! Serious Backups for Home Assistant](https://www.mostlychris.com/finally-serious-backups-for-home-assistant/)
 * [Protect your Home Assistant with these backups](https://opensource.com/article/21/2/home-assistant-backups)
 

@@ -21,7 +21,6 @@ Gemini Prompt: Which is more exciting for a 8 to 12 year old? Minecraft or Roblo
 
 
 # Minecraft
-
 Minecraft does not have a direct equivalent of Roblox Studio.
 While Minecraft allows for significant customization and modding,
 it doesn't offer a dedicated, user-friendly development environment like Roblox Studio for creating
@@ -40,7 +39,6 @@ The Mindcraft game has a recommended PEGI rating of 7 and an ESRB rating of Ever
 
 
 # Roblox
-
 * [The complete history of Roblox: when and how it was made](https://www.exitlag.com/blog/when-was-roblox-made/)
 * [Roblox Logo and the Company’s History](https://blog.logomyway.com/roblox-logo/)
 * [What Parents Need To Know About Roblox](https://www.esrb.org/blog/what-parents-need-to-know-about-roblox-2/)
@@ -54,7 +52,7 @@ the platform for scripting and development, for ages 10 and up.
 * Lua scripting, the language used in Roblox Studio, typically clicks around 10-12 years old,
   especially for those with experience in other coding languages.
 * Younger students might initially focus on building and design within Roblox Studio before diving into scripting.
-* Block coding platforms like [Scratch][01], [Code.org][02], and [Tynker][03] are good starting points for younger children (7-10)
+* Block coding platforms like [Scratch][01], [Mind+][04], [Code.org][02], [MakeCode][05] and [Tynker][03] are good starting points for younger children (7-10)
   before transitioning to typed code like Lua.
 
 Roblox Coding - <https://www.codewizardshq.com/roblox-coding/>
@@ -80,7 +78,9 @@ Scripting: Roblox Studio uses Lua scripting language to enable users to add inte
 
 
 
-  [01]:https://scratch.mit.edu/
-  [02]:https://code.org/
-  [03]:https://www.tynker.com/
+[01]:https://scratch.mit.edu/
+[02]:https://code.org/
+[03]:https://www.tynker.com/
+[04]:https://mindplus.cc/en.html
+[05]:https://makecode.microbit.org/
 

@@ -11,6 +11,28 @@ Version:      0.0.0
 ---------------
 
 
+## Natural Language Processing (NLP)
+* [5 Fun NLP Projects for Absolute Beginners](https://www.kdnuggets.com/5-fun-nlp-projects-for-absolute-beginners)
+
+
+
+
+## What “Thinking” and “Reasoning” Really Mean in AI and LLMs
+* [Water Cooler Small Talk, Ep. 9: What “Thinking” and “Reasoning” Really Mean in AI and LLMs](https://towardsdatascience.com/water-cooler-small-talk-ep-9-what-thinking-and-reasoning-really-mean-in-ai-and-llms/)
+* [Why language models hallucinate](https://openai.com/index/why-language-models-hallucinate/)
+
+
+## Deep Reinforcement Learning
+* [Deep Reinforcement Learning: 0 to 100](https://towardsdatascience.com/deep-reinforcement-learning-for-dummies/)
+
+---------------
+
+
+
+
+
+
+
 * [When ChatGPT Broke an Entire Field: An Oral History](https://www.quantamagazine.org/when-chatgpt-broke-an-entire-field-an-oral-history-20250430/)
 * [New Theory Suggests Chatbots Can Understand Text](https://www.quantamagazine.org/new-theory-suggests-chatbots-can-understand-text-20240122/)
 
@@ -374,8 +396,13 @@ These guide will show you how to create:
 # Hugging Face
 
 [Hugging Face](https://huggingface.co/)
-is a collaboration platform, providing compute for AI,
+Hugging Face is a company focused on machine learning development by building a platform
+that allows easy access for sharing and contributing to the community.
+The platform is called Hugging Face Hub.
+It is a collaboration platform, providing compute for AI,
 making it easy to seamlessly and scalably launch ML compute directly from the Hub.
+
+* [Everything You Need to Know About the Hugging Face Model Hub and Community](https://machinelearningmastery.com/everything-you-need-to-know-about-the-hugging-face-model-hub-and-community/)
 
 # Interfacing ChatGPT-3 with Microcomputers
 

@@ -32,11 +32,19 @@ Asking the model to show how it arrives at the results adds further depth.
 
 ## Prompt Engineering
 * [5 LLM Prompting Techniques Every Developer Should Know](https://www.kdnuggets.com/5-llm-prompting-techniques-every-developer-should-know)
-  * Zero-Shot Prompting
-  * Few-Shot Prompting
-  * Chain-of-Thought Prompting
-  * Tree-of-Thought Prompting
-  * Role Prompting
+  1. Zero-Shot Prompting
+  1. Few-Shot Prompting
+  1. Chain-of-Thought Prompting
+  1. Tree-of-Thought Prompting
+  1. Role Prompting
+* [7 Prompt Engineering Tricks to Mitigate Hallucinations in LLMs](https://machinelearningmastery.com/7-prompt-engineering-tricks-to-mitigate-hallucinations-in-llms/)
+  1. Encourage Abstention and “I Don’t Know” Responses
+  1. Structured, Chain-of-Thought Reasoning
+  1. Grounding with “According To”
+  1. RAG with Explicit Instruction and Context
+  1. Output Constraints and Limiting Scope
+  1. RAG-based Correction Loops: Chain-of-Verification
+  1. Domain-Specific Prompts, Disclaimers, and Safety Guardrails
 * [3 Research-Driven Advanced Prompting Techniques for LLM Efficiency and Speed Optimization](https://www.kdnuggets.com/3-research-driven-advanced-prompting-techniques-for-llm-efficiency-and-speed-optimization)
   * Emotional Persuasion Prompting
   * Chain-of-Thought Prompting

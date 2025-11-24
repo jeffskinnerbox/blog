@@ -16,6 +16,8 @@ Version:      0.0.0
 
 
 
+* [I Built a Synth for My Daughter](https://bitsnpieces.dev/posts/a-synth-for-my-daughter/)
+
 
 
 

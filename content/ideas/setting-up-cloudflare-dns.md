@@ -102,6 +102,8 @@ Cloudflare Tunnel provides you with a secure way to connect your resources to Cl
 
 # Domain Name Services (DNS)
 
+* [Troubleshooting DNS with dig, 10 June 2020](https://www.youtube.com/watch?v=cFmy2wNw9RQ)
+
 Domain Name System (DNS), is a lookup service that translates a hostname
 like `google.com` for example, to an IP address.
 This is usually set to your modem or router’s IP address by default (same as the gateway address),

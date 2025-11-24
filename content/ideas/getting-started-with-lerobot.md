@@ -35,6 +35,12 @@ Version:      0.0.0
 * [A Coding Guide to End-to-End Robotics Learning with LeRobot: Training, Evaluating, and Visualizing Behavior Cloning Policies on PushT](https://www.marktechpost.com/2025/09/20/a-coding-guide-to-end-to-end-robotics-learning-with-lerobot-training-evaluating-and-visualizing-behavior-cloning-policies-on-pusht/)
 
 
+# XLeRobot
+* [Dual-Arm Mobile Bot Built On IKEA Cart Costs Hundreds, Not Thousands](https://hackaday.com/2025/11/03/dual-arm-mobile-bot-built-on-ikea-cart-costs-hundreds-not-thousands/)
+  * [XLeRobot](https://xlerobot.readthedocs.io/en/latest/)
+  * [XLeRobot Assembly Guide](https://www.youtube.com/watch?v=upB1CEFeOlk&t=11s)
+
+
 
 [01]:https://huggingface.co/
 [02]:https://huggingface.co/lerobot

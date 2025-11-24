@@ -27,12 +27,18 @@ Version:      0.0.0
   * [Lizard: 3D Printed RC Race Car](https://www.instructables.com/Lizard-3D-Printed-RC-Race-Car/)
   * [GitHub: TRD-B/Lizard](https://github.com/TRD-B/Lizard)
 
+# Hummer H1 RC Car - A Better Build?
+* [Hummer H1 / HMMWV (Military)](https://www.mfactory33.com/store/rc-car-bodies/hummer-h1-hmc-hummwv-hummvee-military-body-kit-stl-file/)
+  * [3D printed RC car Hummer - DIY](https://www.youtube.com/watch?v=QpayRHudCc0)
+
 
 ---------------
 
 
 
 
+* [How does an RC car work? Hobby Electronics Explained for Beginners!](https://www.youtube.com/watch?v=TZ_I9gQHgv4)
+* [RC Car Electronics 101: Master the Basics & Install Like a Pro!](https://www.youtube.com/watch?v=IW7c2_Ugpt4)
 
 * [Adding Automatic Emergency Braking To An RC Car](https://hackaday.com/2025/07/02/adding-automatic-emergency-braking-to-an-rc-car/)
 
@@ -296,6 +302,7 @@ I was impress with everything I saw,
 since it appeared to be superior to all the other 3D printed RC cars out there,
 so I decide to make my own.
 
+* [How does an RC car work? Hobby Electronics Explained for Beginners!](https://www.youtube.com/watch?v=TZ_I9gQHgv4)
 
 # The RC Car World
 
@@ -539,6 +546,7 @@ The Hobbypower 60A SL V2 ESC is programmable with [HobbyWing LED Program Card][1
 
 * [3D Printed Tires, by the Numbers](https://hackaday.com/2024/10/24/3d-printed-tires-by-the-numbers/)
 * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
+* [Does 3D-Printed Foam Make Good Custom Tires?](https://hackaday.com/2025/11/02/does-3d-printed-foam-make-good-custom-tires/)
 
 
 # RC Suspension Tuning

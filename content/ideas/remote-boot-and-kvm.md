@@ -23,9 +23,35 @@ Use Cases:
 * Remote Troubleshooting: Address boot failures and other issues remotely.
 * Virtual Media: Mount virtual media (like ISO files) to a remote target computer.
 
-JetKVM
+# JetKVM
+[This KickStarter project](https://www.kickstarter.com/projects/jetkvm/jetkvm), the [JetKVM](https://jetkvm.com/) is a fast,
+open-source KVM over IP solution for managing any computer, server, and workstations remotely.
+It handles boot failures, install new OSes, adjust BIOS settings or simply control the computer without needing to be physically present.
+
+Conbine this with a [AC/DC Control Relay](https://dlidirect.com/products/iot-power-relay) to get a truly complete solution.
+
+On Feburay 7, 2025 I backed the KickStarter and estimated delivery in March 2025.
+On April 29, 2025 the JetKVM arrived.
+
+
+How to self host the JetKVM Cloud feature - [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
 
 * [Why You Need This: The Jet KVM - Take Control of ANY PC!](https://www.youtube.com/watch?v=ZhruWAaHcgg)
+* [JetKVM](https://jetkvm.com/)
+* [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
+* [This tiny KVM controls your PC—anywhere!](https://www.youtube.com/watch?v=6pYfHedjjgw)
+* [The Smallest KVM-Over-IP, and it's CHEAP! - JetKVM Review](https://www.youtube.com/watch?v=6pYfHedjjgw)
+* [The Jet KVM is Pretty Useful!](https://www.youtube.com/watch?v=Lb7bz075Vw4)
+* [JetKVM: $69 KVM-Over-IP Device too Good to be True?](https://www.youtube.com/watch?v=L9Wyh1rKMkk)
+
+* [AC/DC Control Relay: IoT Relay](https://dlidirect.com/products/iot-power-relay)
+* [ezcoo hdmi kvm switch](https://www.amazon.com/Computer-Monitor-Keyboard-Printer-Windows/dp/B09ZKZK7ZB/)
+
+* [GitHub: jetkvm/kvm](https://github.com/jetkvm/kvm)
+* [Discord: JetKVM](https://discord.com/invite/Ky9v3tF7e5)
+
+
+---------------
 
 
 # NanoKVM
@@ -56,33 +82,6 @@ JetKVM
 
 ---------------
 
-
-# JetKVM
-
-[This KickStarter project](https://www.kickstarter.com/projects/jetkvm/jetkvm),
-the [JetKVM](https://jetkvm.com/) is a fast, open-source KVM over IP solution for managing any computer, server, and workstations remotely.
-It handles boot failures, install new OSes, adjust BIOS settings or simply control the computer without needing to be physically present.
-
-Conbine this with a [AC/DC Control Relay](https://dlidirect.com/products/iot-power-relay) to get a truly complete solution.
-
-On Feburay 7, 2025 I backed the KickStarter and estimated delivery in March 2025.
-On April 29, 2025 the JetKVM arrived.
-
-
-How to self host the JetKVM Cloud feature - [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
-
-* [JetKVM](https://jetkvm.com/)
-* [JetKVM: Promises Made, Promises Kept?](https://www.youtube.com/watch?v=jaQAfVP0Yq8)
-* [This tiny KVM controls your PC—anywhere!](https://www.youtube.com/watch?v=6pYfHedjjgw)
-* [The Smallest KVM-Over-IP, and it's CHEAP! - JetKVM Review](https://www.youtube.com/watch?v=6pYfHedjjgw)
-* [The Jet KVM is Pretty Useful!](https://www.youtube.com/watch?v=Lb7bz075Vw4)
-* [JetKVM: $69 KVM-Over-IP Device too Good to be True?](https://www.youtube.com/watch?v=L9Wyh1rKMkk)
-
-* [AC/DC Control Relay: IoT Relay](https://dlidirect.com/products/iot-power-relay)
-* [ezcoo hdmi kvm switch](https://www.amazon.com/Computer-Monitor-Keyboard-Printer-Windows/dp/B09ZKZK7ZB/)
-
-
----------------
 
 
 # TinyPilot

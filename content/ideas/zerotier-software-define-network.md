@@ -180,6 +180,12 @@ This decentralized mesh network allows your devices to effectively exist on thei
 * [Comparing Top Overlay VPN Networks: Tailscale, Netbird, Netmaker, Zerotier](https://www.youtube.com/watch?v=eCXl09h7lqo)
 * [How to set up a powerful home VPN with Tailscale](https://www.xda-developers.com/how-setup-powerful-tailscale/#what-is-tailscale)
 * [Tailscale VS Zerotier](https://www.youtube.com/watch?v=lAhD2JDVG08)
+* [5 ways I'm using Tailscale for more than just remote access](https://www.xda-developers.com/ways-tailscale-is-more-than-just-remote-access/)
+
+
+
+
+
 
 
 # Nebula

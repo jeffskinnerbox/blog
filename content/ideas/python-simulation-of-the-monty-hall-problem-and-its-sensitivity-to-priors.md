@@ -77,10 +77,15 @@ monty_hall_simulation(10000)
 * [Why most explanations of the Monty Hall problem are (partially) wrong](https://medium.com/@analog_cs/why-most-explanations-of-the-monty-hall-problem-are-partially-wrong-e9216ec4d747)
 * [Don’t Switch! Why Mathematicians’ Answer to the Monty Hall Problem is Wrong](https://ima.org.uk/4552/dont-switch-mathematicians-answer-monty-hall-problem-wrong/)
 * [What Happened to the World’s Smartest Woman After She Solved a Math Question?](https://ali.medium.com/what-happened-to-the-worlds-smartest-woman-after-she-solved-a-math-question-019943967383)
+* [Water Cooler Small Talk: Why Does the Monty Hall Problem Still Bother Us?](https://towardsdatascience.com/water-cooler-small-talk-why-does-the-monty-hall-problem-still-bother-us-cc50d906522c/)
 * [Marilyn vos Savant](https://en.wikipedia.org/wiki/Marilyn_vos_Savant)
 * [The Monty Hall problem but the host sucks at his job](https://www.youtube.com/watch?v=pqGmUB3yjrQ)
 
-### Monty Hall Problem ... stated Differently
+#### Pigeons Do Better
+Pigeons do better at the Monty Hall Problem than humans.
+* [Are Birds Smarter Than Mathematicians? Pigeons (Columba livia) Perform Optimally on a Version of the Monty Hall Dilemma](https://pmc.ncbi.nlm.nih.gov/articles/PMC3086893/)
+
+### Monty Hall Problem ... Stated Differently
 
 * [This May Be The Most Counterintuitive Probability Paradox I've Ever Seen | Can you spot the error?](https://www.youtube.com/watch?v=bDZieLmya_I)
 
@@ -136,6 +141,9 @@ would you like to switch to door 3?”
 Is it in your best interest to switch?
 
 * [How to Solve the Monty Fall Problem](https://medium.com/street-science/how-to-solve-the-monty-fall-problem-ed68d78d8795)
+
+# Deal, No Deal Problem
+* [Water Cooler Small Talk: Why Does the Monty Hall Problem Still Bother Us?](https://towardsdatascience.com/water-cooler-small-talk-why-does-the-monty-hall-problem-still-bother-us-cc50d906522c/)
 
 ---------------
 
@@ -309,3 +317,4 @@ which can lead to changes in how the data is collected or converted into informa
 # The Birthday Paradox
 
 * [Simple Explanation of the Birthday Paradox](https://www.youtube.com/watch?v=OcCRflNM-Xk)
+* [Water Cooler Small Talk: The Birthday Paradox](https://towardsdatascience.com/water-cooler-small-talk-the-birthday-paradox-94ea294502c7/)
