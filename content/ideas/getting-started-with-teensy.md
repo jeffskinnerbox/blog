@@ -100,6 +100,7 @@ the analog-only pins (A10-A14), AREF, Program and Reset are 3.3V only.
 * [What is the NuttX RTOS and why should you care?](https://www.embedded.com/electronics-blogs/say-what-/4458729/What-is-the-NuttX-RTOS-and-why-should-you-care-)
 * [New Verizon Developer Toolkit Makes IoT Projects Easy for Amazon Web Services Users](https://iotbusinessnews.com/2018/11/30/27014-new-verizon-developer-toolkit-makes-iot-projects-easy-for-amazon-web-services-users/)
 
+* [Zephyr vs FreeRTOS: How to Choose the Right RTOS for Your Embedded Project](https://shawnhymel.com/3106/zephyr-vs-freertos-how-to-choose-the-right-rtos-for-your-embedded-project/)
 * [Shawn Hymel Presents: Introduction to RTOS](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ4hAPU1cJED6t3DU0h34bz)
 
 * [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)

@@ -245,7 +245,7 @@ Adifruit's 3-DOF
 - [HMC5883L][09] - 3-axis digital magnetometer designed for low-field magnetic sensing. The sensor has a full-scale range of ±8 Guass and a resolution of up to 5 milli-Gauss.
 
 What about [Adafruit 9-DOF Absolute Orientation IMU Fusion Breakout - BNO055](https://www.adafruit.com/product/2472)
-
+Series of Tutorials - [9-Axis Inertial Measurement Unit (IMU)](https://toptechboy.com/arduino-based-9-axis-inertial-measurement-unit-imu-based-on-bno055-sensor/)
 
 # SparkFun
 

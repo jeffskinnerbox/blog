@@ -98,6 +98,7 @@ The ones I leverage are:
 * [Everything You Need to Know About Rooting Your Android Phone](http://lifehacker.com/5789397/the-always-up-to-date-guide-to-rooting-any-android-phone)
 * [How to Flash a ROM to Your Android Phone](http://lifehacker.com/how-to-flash-a-rom-to-your-android-phone-30885281)
 * [Five Best Android ROMs](http://lifehacker.com/5915093/five-best-android-roms)
+* [How I turned my old Samsung phone into a smart home sensor](https://www.howtogeek.com/samsung-galaxy-phone-smart-home-sensor/)
 
 Given that I no longer have cellular service, I cannot install Apps via [Over-the-air programming (OTA)][11]
 using the [Google Play][12] App on the phone.

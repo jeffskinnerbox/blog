@@ -18,6 +18,7 @@ I purchased on 11/8/25 (5 week delivery) from DFRobot the RPLiDAR S2L - ToF LiDA
 * [RPLIDAR S2 Key parameters](https://www.slamtec.com/en/S2/Spec)
 
 * [RoomMapper: Room Measurement with RPLidar and Raspberry Pi](https://www.hackster.io/aula-jazmati/roommapper-room-measurement-with-rplidar-and-raspberry-pi-7bf728)
+* [Using the Slamtec RPLIDAR on a Raspberry Pi](https://learn.adafruit.com/slamtec-rplidar-on-pi)
 
 
 

@@ -20,7 +20,7 @@ Your reducing the gap between someone with an idea for a software system and the
 
 This puts a premium on people with great ideas, elegant, and skilled execution.
 It is like difference between an Uncle Fred taking your wedding pictures and a professional photographer.
-Both use photographic equipment but the professionals work is allway judged better.
+Both use photographic equipment but the professionals work is always judged better.
 When anyone (even non-engineers, non-developers) can rapidly generate a working prototype,
 tech jobs will profoundly change.
 [Harris Sockel say it well][01]:
@@ -37,7 +37,7 @@ more low level, small, well defined operational components that can be connected
 They will re-engineer what the product manager/designer/marketer/executive has proposed,
 and they will modify it fit with the business.
 
-# Vibe Coding tools
+# Vibe Coding Tools
 
 * App Builderes
   * [Vercel](https://vercel.com/) - Vercel provides the developer tools and cloud infrastructure to build, scale, and secure a faster, more personalized web.
@@ -48,6 +48,7 @@ and they will modify it fit with the business.
 
 # What are the Risks?
 
+* [Finding Meaningful Work in the Age of Vibe Coding](https://www.kdnuggets.com/finding-meaningful-work-in-the-age-of-vibe-coding)
 * [What Is Vibe Coding and Why Is It Risky?](https://www.howtogeek.com/what-is-vibe-coding-and-why-is-it-risky/)
 * [Vibe Coding, Six Months Later: The Honeymoon’s Over](https://thenewstack.io/vibe-coding-six-months-later-the-honeymoons-over/)
 

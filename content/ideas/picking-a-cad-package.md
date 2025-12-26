@@ -14,16 +14,17 @@ Version:      0.0.0
 
 
 
-* [CircutHub](https://circuithub.com/)
-* [ScreamingCircuits](https://www.screamingcircuits.com/)
 * [Comparing hobby PCB vendors](https://lcamtuf.substack.com/p/comparing-hobby-pcb-vendors)
 
 
 
 
 # Made To Spec: The Coming Age Of Prototyping As A Service
+Rapid, low cost manufacturing for fast moving robotics companies
 
 * [Made To Spec: The Coming Age Of Prototyping As A Service](https://hackaday.com/2021/12/08/made-to-spec-the-coming-age-of-prototyping-as-a-service/)
+* [CircutHub](https://circuithub.com/)
+* [ScreamingCircuits](https://www.screamingcircuits.com/)
 
 
 
@@ -42,6 +43,7 @@ Version:      0.0.0
   * [TINKERCAD](https://www.tinkercad.com/)
   * [Onshape](https://www.onshape.com/open-source)
   * [CadQuery](http://dcowden.github.io/cadquery/) which is built on top of FreeCAD
+  * [Microcad (or µcad)](https://microcad.xyz/)
   * Electronics Design Automation (EDA)
     * [KiCad](http://www.kicad-pcb.org/)
     * [Flux.ai: Online PCB Design](https://www.hackster.io/videos/1372)
@@ -70,7 +72,7 @@ such as integrated circuits and printed circuit boards.
 
 ## The Art of Electronics
 
-None of these tools will be a substute for a mastering of the domain of electronics.
+None of these tools will be a substitute for a mastering of the domain of electronics.
 To to that, you man not start here, but you should certainly finish here:
 [The Truth is in There: The Art of Electronics, the x-Chapters](https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters)
 
@@ -113,15 +115,39 @@ Upverter is a modular, web-based tool that does it all — PCB design, schematic
 
 * [Learn Bil Herd’s DIY Surface Mount Assembly Process](https://hackaday.com/2021/02/02/learn-bil-herds-diy-surface-mount-assembly-process/)
 
+---------------
 
 ## KiCad
-
 [KiCad][25] is a free software suite for
 [electronic design automation (EDA), aka electronic computer-aided design (ECAD)][26].
 It facilitates the design of schematics for electronic circuits
-and their conversion to [PCB designs][46].
+and their conversion to [PCB (Printed Circuit Board) designs][46].
+At their core, PCBs are multi-layer platforms that secure and interconnect electronic components to form functional circuits.
 
-* [KiCad 9.0 - Getting Started](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm)
+* Introduction to PCB
+  * [How to Create Your First PCB](https://www.digikey.com/en/maker/tutorials/2025/how-to-create-your-first-pcb)
+  * [What is a PCB (Printed Circuit Board)? - Another Teaching Moment | DigiKey](https://www.youtube.com/watch?v=OHmgWkgaSrM)
+  * [Electronics with Becky Stern](https://www.youtube.com/playlist?list=PLEBQazB0HUyTF7kB7v1S77F9QK0gT--Kt)
+* Your First PCB
+  * [KICAD TUTORIAL: Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/)
+  * [The Five Most Important PCB Design Basics Every Maker Must Know](https://www.digikey.com/en/maker/tutorials/2024/the-five-most-important-pcb-design-basics-every-maker-must-know)
+* Learning KiCad
+  * [Introduction to KiCad and FreeCAD](https://hackaday.io/course/172360-introduction-to-kicad-and-freecad)
+  * [Intro to KiCad](https://www.youtube.com/playlist?list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
+  * [KiCad 9.0 - Getting Started](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm)
+  * [KiCad Docs](https://docs.kicad.org/9.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
+* Next Level Design
+  * [How To Take a PCB Design to the Next Level](https://www.digikey.com/en/maker/blogs/2023/how-to-take-a-pcb-design-to-the-next-level)
+  * [The Beauty of Four Layer PCBs](https://www.digikey.com/en/maker/blogs/2019/the-beauty-of-four-layer-pcbs)
+* Customization
+  * [PCB Art - Byte Sized Engineering](https://www.digikey.com/en/maker/blogs/2022/pcb-art-byte-sized-engineering)
+* KiCad Schematics
+  * [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
+    * [CircuitSnips](https://www.circuitsnips.com/)
+
+
+
+
 
 * [Let's make PCB design easier](https://www.youtube.com/shorts/fMRkuY0YkXc)
   * [PCB Design Analysis Software for Manufacturability](https://www.nextpcb.com/dfm)
@@ -169,6 +195,64 @@ and their conversion to [PCB designs][46].
 * [Silkscreen Busy? Put Labels Inside Pads](https://hackaday.com/2023/04/04/silkscreen-busy-put-labels-inside-pads/)
 * [Taking KiCad Silk Screen to the Next Level!](https://www.youtube.com/watch?v=KY3sjqqQqNo)
 
+* [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
+
+### KiCad Installation
+
+#### Step 1: Install KiCad
+For [KiCad install on Ubuntu Linux](https://www.kicad.org/download/linux/), KiCad recommends to install its PPA.
+The PPA is more up to date than the base Ubuntu repository.
+
+```bash
+# install the official and most resent stable version of kicad
+sudo add-apt-repository ppa:kicad/kicad-9.0-releases
+sudo apt update
+sudo apt install kicad
+```
+
+#### Step 2: Configuring KiCad
+For a freshly install KiCad,
+your start of KiCad will put you into a series of screens where you'll do your initial configuration.
+
+1. On the command line, enter `kicad`
+1. At the opening pop-up screen, select **Start with default settings**.
+1. Have KiCad automatically check for updates at startup
+
+This is all that is required to establish KiCad for your use.
+
+#### Step 3: Draw Schematics
+Next, you will initialize your project file and draw you schematics.
+Follow the outlined steps provided here:
+* [KICAD TUTORIAL: Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/)
+
+In preparation, have a list of components (aka BOM) you plan to use (example below):
+
+**Bill of Materials (BOM)**
+
+| Quantity | Item  | PinOut | Source | Notes |
+|:--------:|:-----:|:------:|:------:|:-----:|
+| 1 | Raspberry Pi Pico W | [Design File][aa] | Amazon | [Driving A DC Motor With CircuitPython][bb] |
+| 2 | TB6612 1.2A DC/Stepper Motor Driver | - | [Adafruit][cc] | [Assembly Documentation][dd] |
+| 1 | MP1584EN 5V Buck Converter Board | - | [Amazon][ee] | - |
+| 1 | [RadioMaster Boxer Radio Controller (ELRS)][ff] | - | - | [Boxer Radio User Manual][gg] |
+| 1 | [RadioMaster ER4 2.4GHz ELRS PWM Receiver][hh] | - | - | [ER4 Receiver User Manual][ii] |
+| 3 | N20 Motor + Encoder | - | [Sparkfun][jj] | - |
+| 3 | 48mm Omni-Directional Wheels | - | [Amazon][kk] | - |
+| 1 | 3S Lipo Battery (850mAh 80C 11.1V) | - | [Amazon][ll] | - |
+
+[aa]:https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
+[bb]:https://www.woolseyworkshop.com/2022/07/25/driving-a-dc-motor-with-circuitpython/
+[cc]:https://www.adafruit.com/product/2448
+[dd]:https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/pinouts
+[ee]:https://www.amazon.com/MTDELE-Regulator-Converter-Compatible-Electronic/dp/B0D95Z539V
+[ff]:https://radiomasterrc.com/products/boxer-radio-controller-m2
+[gg]:https://cdn.shopify.com/s/files/1/0609/8324/7079/files/BOXER_1.pdf?v=1736839329
+[hh]:https://radiomasterrc.com/products/er4-2-4ghz-elrs-pwm-receiver
+[ii]:https://cdn.shopify.com/s/files/1/0609/8324/7079/files/ER4_User_Manual.pdf?v=1722224113
+[jj]:https://www.sparkfun.com/n20-motor-with-encoder-and-cable-pair.html
+[kk]:https://www.amazon.com/dp/B0DYDW239W
+[ll]:https://www.amazon.com/dp/B09CTSCWYM
+
 
 ## KiCad Viewer
 
@@ -176,11 +260,12 @@ KiCanvas lets you view, embed, and explore KiCAD’s schematics, boards, footpri
 
 * [KiCanvas Helps Teach And Share KiCad Projects In Browsers](https://hackaday.com/2023/01/31/kicanvas-helps-teach-and-share-kicad-projects-in-browsers/)
 
+---------------
 
 ## CircuitMaker
 
 * [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
-
+---------------
 
 ## SPICE
 
@@ -194,7 +279,7 @@ to check the integrity of circuit designs and to predict circuit behavior.
   * [Transforming Spice](http://hackaday.com/2016/03/02/transforming-spice/)
   * [Spice Power](https://hackaday.com/2016/02/29/spice-power/)
   * [Transforming Spice](https://hackaday.com/2016/03/02/transforming-spice/)
-  * [A Spicy Regenerative Reciever](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
+  * [A Spicy Regenerative Receiver](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
   * [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
 
 * [All About Circuts](http://www.allaboutcircuits.com/education/)
@@ -264,7 +349,6 @@ Your 3D printer's g-code is automatically generated by a slicing program such as
 and [computer aided engineering (CAE)][12] tools.
 Fusion 360 [offers free use][14] to qualifying hobbyist makers and students.
 
-* []()
 * [Generative Optimization of a Wheel](https://www.adambender.info/post/generative-optimization)
 
 
@@ -280,6 +364,10 @@ Fusion 360 [offers free use][14] to qualifying hobbyist makers and students.
 
 ### Onshape
 
+
+### Iteration3D
+* [Iteration3D Is Parametric Python In The Cloud](https://hackaday.com/2025/12/11/iteration3d-is-parametric-python-in-the-cloud/)
+* [iteration3d](https://www.iteration3d.fr/en/)
 
 ### OpenSCAD
 
@@ -306,6 +394,7 @@ import designs from other CAD software application for use or modification on yo
 * [FreeCAD Version 1.0 Released](https://hackaday.com/2024/11/20/freecad-version-1-0-released/)
 
 * [CAD Battle - OpenSCAD vs. FreeCAD](https://www.youtube.com/watch?v=OP0zI0k9gOs)
+* [Reverse Engineering STL Files With FreeCAD](https://hackaday.com/2025/10/21/reverse-engineering-stl-files-with-freecad/)
 * [OpenSCAD vs. FreeCAD - Using FreeCAD to Export a printable STL of an OpenSCAD Model](https://www.youtube.com/watch?v=G66zAjnZpcc)
 * [FreeCAD Vs SolveSpace](https://hackaday.com/2020/07/16/freecad-vs-solvespace/)
 * [FreeCAD TechDraw Workbench Tutorial](https://hackaday.com/2019/12/03/freecad-techdraw-workbench-tutorial/)
@@ -446,7 +535,7 @@ The $fa, $fs and $fn special variables control the number of facets used to gene
 * **$fn is usually 0.** When this variable has a value greater than zero, the other two variables are ignored and full circle is rendered using this number of fragments. The default value is 0.
 
 
-## OpenSCAD Documentation & Tutorals
+## OpenSCAD Documentation & Tutorials
 
 Documentation
 

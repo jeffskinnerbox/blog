@@ -11,11 +11,13 @@ Version:      0.0.0
 ---------------
 
 
+* [Crypto Price Alert Telegram Bot (Free n8n Template)](https://www.coingecko.com/learn/crypto-price-alert-telegram-bot-free-n8n-template)
 * [Building a Gmail Inbox Management Agent in n8n](https://www.kdnuggets.com/building-a-gmail-inbox-management-agent-in-n8n)
 * [Deploy Your AI Assistant to Monitor and Debug n8n Workflows Using Claude and MCP](https://towardsdatascience.com/deploy-your-ai-assistant-to-monitor-and-debug-n8n-workflows-using-claude-and-mcp/)
 
 
 
+* [I'll never use n8n the same......](https://www.youtube.com/watch?v=s96JeuuwLzc) - n8n + Claude Code
 * [Automating Your Digital Life with n8n](https://hackers-arise.com/automating-your-digital-life-with-n8n/)
 * [Self-Host Your Own Automation Platform with n8n + Docker](https://www.youtube.com/watch?v=gyn8bcOLdcA)
 * [How to Run n8n Locally (Full On-Premise Setup Tutorial)](https://www.youtube.com/watch?v=-ErfsM2TYsM)

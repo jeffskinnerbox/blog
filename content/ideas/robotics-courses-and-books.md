@@ -2,6 +2,7 @@
 
 # Hugging Face Tutorials & Courses
 
+
 ## What is Hugging Face
 * [Hugging Face Tutorial for Beginners](https://www.youtube.com/watch?v=3xLTD5wSBEs)
 * [Hugging Face Tutorial for Beginners: Tricks You Need to Know](https://www.youtube.com/watch?v=82Bt4K4YdHg)
@@ -28,6 +29,12 @@ Here, we are attempting to distill the tutorial into a more accessible format fo
 
 ## Hugging Face Computer Vision Course
 * [Community Computer Vision Course][14]
+
+
+# Udemy Courses
+* [Udemy Robotics Courses](https://www.udemy.com/topic/robotics/)
+* [ROS SLAM Navigation Stack and Custom Robot](https://www.udemy.com/course/robotics-with-ros-build-custom-robots-from-scratch/)
+* [ROS 2 - Hardware and ros2_control, Step by Step](https://www.udemy.com/course/ros2_control/)
 
 
 

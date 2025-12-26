@@ -28,7 +28,7 @@ As [Bohr said](https://www.goodreads.com/quotes/1293013-physics-is-not-about-how
 “Physics is not about how the world is; it is about what we can say about the world.”
 [Christopher Fuchs describes physics as](https://www.quantamagazine.org/quantum-bayesianism-explained-by-its-founder-20150604/)
 “a dynamic interplay between storytelling and equation writing. Neither one stands alone, not even at the end of the day.”
-The way I would put it .... The sciences are the stories we tell ourselves to orient us and structure our understanding of the world. It's a mythos.
+The way I would put it .... The sciences are the stories we tell ourselves to orient us and structure our understanding of the world. It's a [mythos](https://en.wiktionary.org/wiki/mythos).
 
 
 # Some Interesting Websites
@@ -314,7 +314,7 @@ BBC Precision The Measure of All Things
 # Logic & Philosophy of Mathematics
 
 
-## What is Mathmatics?
+## What is Mathematics?
 
 * [Mathematical Concepts that All Should Understand](https://medium.com/intuition/mathematical-concepts-that-all-should-understand-bfe42d9e4af0)
 * [Mathematical Thinking: What is Mathematics](https://medium.com/@rimshaparvaiz5/mathematical-thinking-what-is-mathematics-845b1161dea0)
@@ -578,7 +578,7 @@ German mathematician Martin Eichler said
 * [The Jagged, Monstrous Function That Broke Calculus](https://www.quantamagazine.org/the-jagged-monstrous-function-that-broke-calculus-20250123/)
 
 
-# Discrete Calculas
+# Discrete Calculus
 
 * [The Beauty and Power of Discrete Calculus](https://www.cantorsparadise.com/the-beauty-and-power-of-discrete-calculus-87931daa074)
 * [Quantum Calculus](https://www.quantumcalculus.org/)
@@ -653,6 +653,7 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 # Prime Numbers
 
 * [Lehmer Factor Stencils: A paper factoring machine before computers](https://www.youtube.com/watch?v=QzohwKT6TNA)
+* [Physicists Attack Math’s $1,000,000 Question](https://www.quantamagazine.org/quantum-physicists-attack-the-riemann-hypothesis-20170404/)
 
 
 # Euler’s Number
@@ -1062,6 +1063,7 @@ that correctly determines whether an arbitrary program eventually halts when run
 
 * [Quantum Physics Explained | Wondrium Perspectives](https://www.youtube.com/watch?v=rf1Ye87GhZU)
 * [Why we need quantum fields, not just quantum particles](https://medium.com/starts-with-a-bang/why-we-need-quantum-fields-not-just-quantum-particles-c05e2260c594)
+* [The cat that wouldn’t die](https://aeon.co/essays/no-schrodingers-cat-is-not-alive-and-dead-at-the-same-time)
 * [Who killed Schrödinger's cat?](https://plus.maths.org/content/deadandalive)
 * [The Schrödinger Equation — 1, 2](https://medium.com/quantafy/solving-the-schr%C3%B6dinger-equation-1-2-848a5150eb05)
 * [Schrödinger’s Equation: Explained](https://medium.com/quantafy/the-most-important-equation-of-quantum-physics-33a630ce9a0d)

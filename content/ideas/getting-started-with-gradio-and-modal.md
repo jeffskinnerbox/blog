@@ -74,6 +74,7 @@ Think of it as a GitHub for AI, making it easier for both beginners and experien
 to build, train, and deploy machine learning models.
 
 * [What is Hugging Face AI and How to Use It?](https://pintu.co.id/en/news/219414-what-is-hugging-face-ai-and-how-to-use-it)
+* [Get Started With NLP Using Hugging Face and Python](https://thenewstack.io/get-started-with-nlp-using-hugging-face-and-python/)
 * [Say hello to `hf`: a faster, friendlier Hugging Face CLI](https://huggingface.co/blog/hf-cli)
 
 ### Hugging Face Models

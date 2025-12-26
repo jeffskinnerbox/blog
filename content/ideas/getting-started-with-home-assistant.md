@@ -15,6 +15,7 @@ Version:      0.0.0
 
 
 
+* [There’s now a better way to build Home Assistant automations, but you’ll need to enable it first](https://www.howtogeek.com/theres-now-a-better-way-to-build-home-assistant-automations-but-youll-need-to-enable-it-first/)
 * [Build a Complete Smart Home Monitoring System](https://thenewstack.io/build-a-complete-smart-home-monitoring-system/)
 * [These 5 obscure Docker containers help solve my biggest smart home problems](https://www.xda-developers.com/obscure-docker-containers-solve-smart-home-problems/)
 

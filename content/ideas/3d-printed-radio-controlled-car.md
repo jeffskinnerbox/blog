@@ -544,6 +544,7 @@ The Hobbypower 60A SL V2 ESC is programmable with [HobbyWing LED Program Card][1
 * [Adam Drake explains how to clean and glue Pro-Line tires](https://www.youtube.com/watch?v=AseHzskElek)
 * [HOW TO BREAK IN TIRES || Tire prep methods explained](https://www.youtube.com/watch?v=BqxmfrW2KDM)
 
+* [Make Your Own Tires For RC Cars](https://hackaday.com/2025/12/16/make-your-own-tires-for-rc-cars/)
 * [3D Printed Tires, by the Numbers](https://hackaday.com/2024/10/24/3d-printed-tires-by-the-numbers/)
 * [3D Printing RC Car Tires To Go Fast](https://hackaday.com/2023/08/30/3d-printing-rc-car-tires-to-go-fast/)
 * [Does 3D-Printed Foam Make Good Custom Tires?](https://hackaday.com/2025/11/02/does-3d-printed-foam-make-good-custom-tires/)
@@ -905,6 +906,14 @@ Self Driving Cars
 * [I RACED My Self-Driving RC Car](https://www.youtube.com/watch?v=zuyOdaQ2xuw)
   * [I Made a Self Driving FPV RC Car](https://www.youtube.com/watch?v=k1tdeXjaJpk)
   * [Building the FASTEST Self Driving RC Car](https://www.youtube.com/watch?v=R87Qlq_wSY8)
+
+* [Self-Driving RC Cars with TensorFlow; Raspberry Pi or MacBook Onboard](http://hackaday.com/2017/06/06/self-driving-rc-cars-with-tensorflow-raspberry-pi-or-macbook-onboard/#more-260888)
+* [Autonomous Driving AI for Donkey Car Garbage Collector](https://www.hackster.io/dhq/autonomous-driving-ai-for-donkey-car-garbage-collector-846c11)
+* [Stereo Vision and LiDAR Powered Donkey Car](https://www.hackster.io/bluetiger9/stereo-vision-and-lidar-powered-donkey-car-575769)
+* [Comma.ai Releases a Dataset](https://medium.com/self-driving-cars/comma-ai-releases-a-dataset-10ede8bec74b)
+* [Modular Robotics Made Easier With ROS](https://hackaday.com/2018/05/31/modular-robotics-made-easier-with-ros/)
+* [Buy Or Build An Autonomous Race Car To Take The Checkered Flag](https://hackaday.com/2018/11/30/buy-or-build-an-autonomous-race-car-to-take-the-checkered-flag/)
+
 
 
 # DeepPiCar

@@ -7,6 +7,7 @@ Version:      0.0.0
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+* [Quantum Computing Basics With Qiskit](https://realpython.com/quantum-computing-basics/)
 * [Quantum Computing with Andrea Morello](https://www.youtube.com/watch?v=jDW9bWSepB0&t=0s)
 * [Inside a Quantum Computer! with Andrea Morello (Part 1 of 2)](https://www.youtube.com/watch?v=k_QeSOIDiEM)
 * [UNSW Quantum Computer Lab Visit - Part 2](https://www.youtube.com/watch?v=yT0Znr0Et4w)
@@ -14,7 +15,7 @@ Version:      0.0.0
 ---------------
 
 
-# The MindBbending Complexity of Quantum Computing
+# The Mind Bending Complexity of Quantum Computing
 
 _"I cannot forecast to you the action of Russia. It is a riddle wrapped in a mystery inside an enigma, but perhaps there is a key. That key is Russian national interest."_
 ... Sir Winston Churchill in 1939 about what role the Soviet Union might play in World War II
@@ -334,6 +335,8 @@ QEngine is our software library for quantum simulation and - optimization.
 
 * Quantum Information Science
   * Quantum information science is a field that combines the principles of quantum mechanics with information theory to study the processing, analysis, and transmission of information. It covers both theoretical and experimental aspects of quantum physics, including the limits of what can be achieved with quantum information. The term quantum information theory is sometimes used, but it does not include experimental research and can be confused with a subfield of quantum information science that deals with the processing of quantum information.
+* Hands-On Quantum Programming
+  * [Your First Hands-on Guide To Quantum Programming With Qiskit](https://levelup.gitconnected.com/your-first-hands-on-guide-to-quantum-programming-with-qiskit-902c62e266fd)
 * Quantum Computing Concepts
   * [Quantum Computing Report: Education](https://quantumcomputingreport.com/education/)
   * [Quantum Computing Course – Math and Theory for Beginners](https://www.youtube.com/watch?v=tsbCSkvHhMo)

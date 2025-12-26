@@ -434,7 +434,7 @@ There are pros and cons for each language,
 and if you’re unsure and or new to programming in general,
 I’d suggest you start with either Arduino or Lua.
 
-There are a variety operating envirnments
+There are a variety operating environments
 and development tool to program the ESP8266 including:
 
 * [ESP8266 AT Commands](https://cdn.sparkfun.com/assets/learn_tutorials/4/0/3/4A-ESP8266__AT_Instruction_Set__EN_v0.30.pdf)
@@ -2552,8 +2552,6 @@ bla bla bla
 * [Websocket Client and Server for ESP-8266](https://github.com/morrissinger/ESP8266-Websocket)
   * [ESP8266+Websocket server RGB LED controller](http://www.instructables.com/id/Esp8266Websockets-RGB-LED-controller/?ALLSTEPS)
 
-* [Zephyr is an open source real-time operating system (RTOS)](https://hackaday.com/2018/04/11/zephyr-adds-features-platforms-and-windows/)
-* [Zephyr 3.4: An RTOS of a Different Stripe](https://www.electronicdesign.com/technologies/embedded/software/article/21273429/electronic-design-zephyr-34-an-rtos-of-a-different-stripe)
 
 # Hacking the ESP8266
 

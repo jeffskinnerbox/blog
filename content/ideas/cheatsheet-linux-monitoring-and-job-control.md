@@ -49,6 +49,7 @@ Usually a named pipe appears as a file, and generally processes attach to it for
 
 # Linux System Monitoring
 
+* [These 6 Linux apps let you monitor system resources in style](https://www.howtogeek.com/these-linux-apps-let-you-monitor-system-resources-in-style/)
 * [4 open source tools for Linux system monitoring](https://opensource.com/life/16/2/open-source-tools-system-monitoring?sc_cid=70160000000lcFhAAI)
 * [How To Monitor Your Ubuntu 16.04 System with Sysdig](https://www.digitalocean.com/community/tutorials/how-to-monitor-your-ubuntu-16-04-system-with-sysdig)
 * [Uptime Monitor - monitors your websites every 5 minutes and alerts you if your sites are down](https://uptimerobot.com/)

@@ -82,17 +82,6 @@ This iconic lamp is still a staple at places like [Ikea][03] and [Staples][04].
 * [Project Sentry Gun](http://psg.rudolphlabs.com/)
 * [Robot Car Follows Wherever You Go](http://hackaday.com/2017/07/20/robot-car-follows-wherever-you-go/)
 
-#### Self Driving Car
-
-* [Self-Driving RC Cars with TensorFlow; Raspberry Pi or MacBook Onboard](http://hackaday.com/2017/06/06/self-driving-rc-cars-with-tensorflow-raspberry-pi-or-macbook-onboard/#more-260888)
-* [Donkey Car](http://www.donkeycar.com/)
-* [Autonomous Driving AI for Donkey Car Garbage Collector](https://www.hackster.io/dhq/autonomous-driving-ai-for-donkey-car-garbage-collector-846c11)
-* [Stereo Vision and LiDAR Powered Donkey Car](https://www.hackster.io/bluetiger9/stereo-vision-and-lidar-powered-donkey-car-575769)
-* [Comma.ai Releases a Dataset](https://medium.com/self-driving-cars/comma-ai-releases-a-dataset-10ede8bec74b)
-* [Modular Robotics Made Easier With ROS](https://hackaday.com/2018/05/31/modular-robotics-made-easier-with-ros/)
-* [Buy Or Build An Autonomous Race Car To Take The Checkered Flag](https://hackaday.com/2018/11/30/buy-or-build-an-autonomous-race-car-to-take-the-checkered-flag/)
-
-
 #### TurtleBot
 
 * [Ubuntu-driven TurtleBot gets a major rev with a Pi or Joule in the driver’s seat](http://linuxgizmos.com/ubuntu-driven-turtlebot-gets-a-major-rev-with-a-pi-or-joule-in-the-drivers-seat/)

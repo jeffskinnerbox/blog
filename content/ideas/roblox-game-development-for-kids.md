@@ -30,6 +30,7 @@ The Mindcraft game has a recommended PEGI rating of 7 and an ESRB rating of Ever
 
 
 
+* [How to Make a Minecraft Server on Raspberry Pi](https://www.tomshardware.com/how-to/raspberry-pi-minecraft-server)
 * [Beginner's Guide to Minecraft Bedrock Scripting](https://www.youtube.com/watch?v=-34dn_mKkMA)
 * [Docker Minecraft Server](https://hub.docker.com/r/itzg/minecraft-server)
 * [Docker Minecraft Bedrock Server](https://hub.docker.com/r/itzg/minecraft-bedrock-server)

@@ -99,6 +99,7 @@ pip freeze > requirements.txt
 
 
 * [Python 3.14 and the End of the GIL](https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/)
+* [Pixi: A Smarter Way to Manage Python Environments](https://www.kdnuggets.com/pixi-a-smarter-way-to-manage-python-environments)
 
 # Next-gen Python Tooling
 Over the years, legacy Python has created multiple tools & procedures to manage the Python interpreter,
@@ -624,6 +625,20 @@ In short, the "->" notation indicates a function’s return type in Python.
 
 ---------------
 
+## Python Decorators
+* [Primer on Python Decorators](https://realpython.com/primer-on-python-decorators/)
+
+## Python Inner Functions
+It’s possible to define functions inside other functions. Such functions are called inner functions.
+Python inner functions are those you define inside other functions to access non-local names and bundle logic with its surrounding state.
+
+* [Python Inner Functions: What Are They Good For?](https://realpython.com/inner-functions-what-are-they-good-for/)
+
+## Recursion in Python
+* [Recursion in Python: An Introduction](https://realpython.com/python-recursion/)
+
+---------------
+
 # Learning Python
 
 * [What Can I Do With Python?](https://realpython.com/what-can-i-do-with-python/)
@@ -683,6 +698,36 @@ as well as taking steps to fix them.
 
 
 # Error / Exception Handling
+* `SyntaxError` A syntax error occurs when you write code that doesn’t follow the rules of Python.
+  As such, it cannot be parsed, and your program grinds to a halt.
+  Common causes of syntax errors are: Spelling mistakes, Incorrect symbols, Incorrect placement of punctuation, keywords, operators, and delimiters.
+* `NameError` A name error occurs when you try to use a variable or function that you have not defined in the program.
+  As you know, you have to define all variables beforehand. If you don’t, then you will get name errors or other weird behavior.
+* `TypeError` A Type Error is a typical rookie mistake.
+  It occurs when the programmer tries to use an operation (such as addition or subtraction) on a data type that is not compatible with it.
+  For example, strings and integers can’t be “added” to each other.
+  Either both have to be strings or both have to be integers
+* `ValueError` A value error occurs when you try to assign the wrong type of value to a variable.
+  For example, if you define an integer variable, but then you try to assign a string to it, you will get a value error.
+  Here’s an example: `number = int('hello')  # Cannot convert non-numeric string to integer`
+* `ImportError` / `ModuleNotFoundError` Import errors occur when you try to use a library or module that you didn’t install on your system.
+  For example, if you want to use `numpy` to do mathematical operations, you need to ensure that you have installed it using PIP.
+  Then you also need to initialize it in your code. If the installation has failed or is incorrect, you will get the import error.
+  It is also possible to get an import error due to incorrect spelling.
+* `ConnectionError` / `HTTPError` (API-related) If you are using Python to write scripts or use APIs,
+  then you might have run into a connection error or an HTTP error.
+  This often occurs during external API communication and can happen due to several reasons.
+  Incorrect spelling of the API domain The domain is down or otherwise inaccessible The solution for the first one is to check your spelling,
+  and the solution for the second reason is to do a DNS lookup for the API domain to see if it’s working or not.
+* `AttributeError` An attribute error occurs when you mistakenly try to access
+  a method or an attribute for an object, but the attribute/method doesn’t exist.
+  There are plenty of data types in Python, and they all work with specific methods and attributes.
+  You cannot switch their attributes or methods between them.
+* `KeyError` When dealing with data structures, specifically a dictionary, you can get a key error if you try to access a non-existent key.
+  In the example below, we have a dictionary called person with only one key-value pair, which is “Name: Alice”.
+  There are no other keys or values. If you were to try to access the Person dictionary and try to call a key like “age”, you would get the key error.
+
+* [Understanding Python Error Messages: Why They’re Not as Scary as You Think](https://programminginsider.com/understanding-python-error-messages-why-theyre-not-as-scary-as-you-think/)
 * [Python Exceptions: An Introduction](https://realpython.com/python-exceptions/)
 * [Python's raise: Effectively Raising Exceptions in Your Code](https://realpython.com/python-exceptions/)
 * [Handling or Preventing Errors in Python: LBYL vs EAFP](https://realpython.com/courses/handling-preventing-errors-lbyl-eafp/)
@@ -916,6 +961,7 @@ Python resolves names using what’s known as the **LEGB rule**, which defines t
   * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
   * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
   * [Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
+  * [How to Write Efficient Python Data Classes](https://www.kdnuggets.com/how-to-write-efficient-python-data-classes)
   * [What Are Mixin Classes in Python?](https://realpython.com/python-mixin/)
   * [Lists vs Tuples in Python](https://realpython.com/python-lists-tuples/)
   * [Exploring Python's tuple Data Type With Examples](https://realpython.com/courses/exploring-tuple-data-type-examples/)
@@ -934,6 +980,7 @@ Python resolves names using what’s known as the **LEGB rule**, which defines t
 * Strings
   * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
   * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
+  * [How to Convert Bytes to Strings in Python](https://realpython.com/convert-python-bytes-to-strings/)
   * [String Interpolation in Python: Exploring Available Tools](https://realpython.com/python-string-interpolation/)
   * [Python 3.14 Preview: Template Strings (T-Strings)](https://realpython.com/python-t-strings/)
 * Structural Pattern Matching
@@ -969,6 +1016,8 @@ which makes them pretty flexible and decoupled.
   * [Using the Python zip() Function for Parallel Iteration](https://realpython.com/python-zip-function/)
 * Performance Profiling
   * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
+  * [Profiling in Python: How to Find Performance Bottlenecks](https://realpython.com/python-profiling/)
+  * [line_profiler](https://realpython.com/ref/tools/line-profiler/)
 * Logging
   * [Logging in Python](https://realpython.com/python-logging/)
   * [How to Use Loguru for Simpler Python Logging](https://realpython.com/python-loguru/)

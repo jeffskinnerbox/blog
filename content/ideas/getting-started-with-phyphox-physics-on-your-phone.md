@@ -1,5 +1,6 @@
 
 
+# Phyphox
 The open-source project [Phyphox][01] provides easy access to your phone’s sensors.
 
 * [Smartphone Sensors Unlocked: Turn Your Phone Into A Physics Lab](https://hackaday.com/2025/09/07/smartphone-sensors-unlocked-turn-your-phone-into-a-physics-lab/)
@@ -9,7 +10,11 @@ The open-source project [Phyphox][01] provides easy access to your phone’s sen
 * [Use phyphox to plot sensor data from your Microcontroller](https://github.com/phyphox/phyphox-arduino)
 
 * [phyphox Youtube](https://www.youtube.com/@phyphox)
+
   * [Measuring Roller Coaster Acceleration with a Phone (en)](https://www.youtube.com/watch?v=VBNgNMhrT0Q)
+
+## Other
+* [6 surprising things you can measure with your Android phone](https://www.howtogeek.com/things-you-can-measure-with-android-phone/)
 
 
 

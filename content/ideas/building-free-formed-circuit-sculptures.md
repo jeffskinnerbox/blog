@@ -22,7 +22,9 @@ Version:      0.0.0
   * [Mohit Bhoite's KT-15 Circuit Sculpture Is Ready for a Kitchen Landing with Its 4-Bit Timer](https://www.bhoite.com/sculptures/kt-15/)
 * [TWELVE CIRCUIT SCULPTURES WE CAN’T STOP LOOKING AT](https://hackaday.com/2019/01/15/twelve-circuit-sculptures-we-cant-stop-looking-at/)
 * [A little CSK satellite for a bright workstation](https://hackaday.io/project/190199-a-little-csk-satellite-for-a-bright-workstation)
-
+* [Windmill Desk Lamp Is Beautifully Soothing](https://hackaday.com/2025/12/19/windmill-desk-lamp-is-beautifully-soothing/)
+* [Edison-Style Lamp from Copper Wire](https://www.youtube.com/shorts/zWnCUYSH7tE)
+* [DIY Minimalist Decor Light | Copper Wire Cube Lamp](https://www.youtube.com/watch?v=zocqV4TZ4qI)
 
 ## Circuit Sculpture HowTo
 

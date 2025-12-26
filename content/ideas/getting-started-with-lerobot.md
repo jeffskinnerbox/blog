@@ -23,11 +23,20 @@ Version:      0.0.0
 
 * [LeRobot – Lowering the entry barrier to AI for robotics](https://www.youtube.com/watch?v=L0uxfZMlkag)
 * [Bridging AI & Robotics: Exploring the LeRobot Library - Ilia Larchenko | FOSSASIA Summit 2025](https://www.youtube.com/watch?v=Tt8zDpZJyrM)
+* [What Is Reinforcement Learning? Practical Steps Included](https://www.hackster.io/HiwonderRobot/what-is-reinforcement-learning-practical-steps-included-0954ef)
+* [LeRobot - Getting Started Guide for Tria Vision AI-KIT 6490](https://www.hackster.io/AlbertaBeef/lerobot-getting-started-guide-for-tria-vision-ai-kit-6490-0ec4f5)
+  * [Tria Technologies Vision AI Kit 6490](https://www.tria-technologies.com/product/vision-ai-kit-6490/)
+  * [Getting Started with Vision AI Kit 6490 / AI Demo](https://www.hackster.io/533453/getting-started-with-vision-ai-kit-6490-ai-demo-4d9bca)
+* [Hand-Controlled Robotic Arm](https://www.hackster.io/AlbertaBeef/hand-controlled-robotic-arm-29a93b)
 
 * [LeRobot Tutorials](https://www.youtube.com/playlist?list=PLo2EIpI_JMQu5zrDHe4NchRyumF2ynaUN)
 * [HugginFace LeRobot Videos](https://www.youtube.com/@HuggingFace/search?query=LeRobot)
 
+# Lekiwi
 * [LeKiwi - Low-Cost Mobile Manipulator](https://github.com/SIGRobotics-UIUC/LeKiwi/tree/main)
+* [LeKiwi Kit(12V Version) Mobile Base with 3D Printed Parts and Battery](https://www.seeedstudio.com/Lekiwi-Kit-p-6501.html)
+* [LeKiwi: 3D-Printed Mobile Manipulator Robot | Teleoperate, Train Policies, and Control with AI](https://www.youtube.com/watch?v=lJ6PH--el54&t=22s)
+* [A Sound Follow Robot Powered by reSpeaker and Lekiwi](https://www.youtube.com/watch?v=uI_leYm_m-w)
 
 * [Running LeRobot SO-101 arm kit using NVIDIA Jetson AGX Orin](https://www.hackster.io/shahizat/running-lerobot-so-101-arm-kit-using-nvidia-jetson-agx-orin-19b8a4)
 * [Running AI robotics experiments at home with LeRobot and SO-ARM100](https://www.youtube.com/watch?v=DeBLc2D6bvg)
