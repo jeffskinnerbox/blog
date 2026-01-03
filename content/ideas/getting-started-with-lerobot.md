@@ -21,6 +21,7 @@ Version:      0.0.0
 * LeRobot already provides a set of pretrained models, datasets with human collected demonstrations, and simulated environments so that everyone can get started.
 * LeRobot hosts pretrained models and datasets on the LeRobot HuggingFace page.
 
+* [Exploring the SO-ARM101: A Hardware-Optimized Platform](https://www.hackster.io/HiwonderRobot/exploring-the-so-arm101-a-hardware-optimized-platform-de637e)
 * [LeRobot – Lowering the entry barrier to AI for robotics](https://www.youtube.com/watch?v=L0uxfZMlkag)
 * [Bridging AI & Robotics: Exploring the LeRobot Library - Ilia Larchenko | FOSSASIA Summit 2025](https://www.youtube.com/watch?v=Tt8zDpZJyrM)
 * [What Is Reinforcement Learning? Practical Steps Included](https://www.hackster.io/HiwonderRobot/what-is-reinforcement-learning-practical-steps-included-0954ef)

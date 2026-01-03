@@ -1130,6 +1130,7 @@ establish Firewall rules, and other features you would expect of a router.
 
 * [The BEST Home Server Uptime Monitoring!](https://www.youtube.com/watch?v=tIazVdhsSqQ)
 * [Monitor Self-Hosted Websites and Projects on Raspberry Pi With Uptime Kuma](https://www.makeuseof.com/raspberry-pi-monitor-self-hosted-websites-projects-uptime-kuma/)
+* [Monitor Your Servers With Free Uptime Kuma Container](https://thenewstack.io/monitor-your-servers-with-free-uptime-kuma-container/)
 
 
 

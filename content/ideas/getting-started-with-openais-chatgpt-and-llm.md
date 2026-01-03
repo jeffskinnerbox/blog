@@ -42,7 +42,7 @@ Large language models (LLMs) are increasingly being recognized for their potenti
 
 
 [ChatGPT][01], OpenAI’s text-generating AI chatbot,
-was launch in November 2022 and has been steadly evolving ever since
+was launch in November 2022 and has been steadily evolving ever since
 (see evolutionary timeline [here][02].
 
 Some typical ideas to Personalize ChatGPT Responses:
@@ -141,6 +141,8 @@ Sources:
 
 * [7 LLM Projects to Boost Your Machine Learning Portfolio](https://machinelearningmastery.com/7-llm-projects-to-boost-your-machine-learning-portfolio/)
 
+* [Build a Fast Offline AI Assistant on a Raspberry Pi 5](https://www.geeky-gadgets.com/whisper-qwen3-mellotts/)
+  * [How I Built an INSANELY Fast OFFLINE AI Chatbot (Pi5 + Whisplay + LLM8850)](https://www.youtube.com/watch?v=IuTD5OMaVVU)
 * [How to Select SBC (Lattepanda/Raspberry Pi) for Local LLM (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, etc.)](https://www.dfrobot.com/blog-13536.html?tracking=676d0b674d873)
 * [Deploy and run LLM on Raspberry Pi 5 vs Raspberry Pi 4B (LLaMA, LLaMA2, Phi-2, Mixtral-MOE, etc)](https://www.dfrobot.com/blog-13498.html?tracking=676d0b674d873)
 * [Run Small Language Models (Mathstral, phi 3, Llama 3.1, Gemma2 2b, Qwen) on Raspberry Pi 5](https://www.dfrobot.com/blog-14068.html?tracking=676d0b674d873)
