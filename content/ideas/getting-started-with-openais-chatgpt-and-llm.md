@@ -305,6 +305,8 @@ Tutorial
 
 * [The Beginner’s Guide to Language Models with Python](https://machinelearningmastery.com/the-beginners-guide-to-language-models-with-python/)
 * [Beginner’s Guide to Building LLM Apps with Python](https://www.kdnuggets.com/beginners-guide-to-building-llm-apps-with-python)
+* [How to Integrate ChatGPT's API With Python Projects](https://realpython.com/chatgpt-api-python/)
+* [How to Integrate Local LLMs With Ollama and Python](https://realpython.com/ollama-python/)
 
 * [LangChain](https://python.langchain.com/docs/get_started/introduction)
 * [Olama: The Future of Open Source Projects](https://eightify.app/summary/computer-science-and-technology/olama-the-future-of-open-source-projects)

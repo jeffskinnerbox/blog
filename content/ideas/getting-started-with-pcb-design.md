@@ -9,6 +9,8 @@
 * DIY Macropad -  [Reddit](https://www.reddit.com/r/adafruit/comments/1poa48f/first_diy_macropad_opensource/), [GitHub](https://github.com/Galahad5818/Custom-Macropad-KB2040-3x3), and [Printables](https://www.printables.com/model/1516121-custom-macropad-kb2040-3x3-encodeur-pcb-maison).
 
 
+* [A Deep Dive Into Inductors](https://hackaday.com/2026/02/05/a-deep-dive-into-inductors/)
+* [Inductance In PCB Layout: The Good, The Bad, And The Fugly](https://hackaday.com/2018/09/28/inductance-in-pcb-layout-the-good-the-bad-and-the-fugly/)
 
 
 ---------------

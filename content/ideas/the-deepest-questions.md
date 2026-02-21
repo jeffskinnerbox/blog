@@ -1122,6 +1122,7 @@ Is the mysteries of quantum physics like the "Necktie Paradox"?
 
 ## Second Law of Quantum Complexity
 
+* [A New Complexity Theory for the Quantum Age](https://www.quantamagazine.org/a-new-complexity-theory-for-the-quantum-age-20260217/)
 * [Can a New Law of Physics Explain a Black Hole Paradox?](https://www.youtube.com/watch?v=yLOHdW7dLug)
 
 

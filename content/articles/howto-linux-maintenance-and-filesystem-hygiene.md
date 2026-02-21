@@ -7,16 +7,21 @@ Author: Jeff Irland
 Image: how-to.jpg
 Summary: This article reviews the kinds of maintenance activities required by Ubuntu / Debian / Raspberry Pi Linux distributions to keep them running as they should.  It covers topics like OS and applications updates, disk / filesystems integrity, and cleaning up filesystem clutter.
 
+* [Your SSD backups might vanish in 1 year: Set this reminder now](https://www.howtogeek.com/have-ssds-or-hard-drives-for-backups-you-should-set-this-up-now/)
+* [How to Check Your Hard Drive or SSD's Health With S.M.A.R.T.](https://www.howtogeek.com/134735/check-ssd-or-hdd-health-with-smart/)
+
 What kind of maintenance does one need to do on an Ubuntu / Debian / Raspberry Pi Linux distributions?
 Defrag the drive, clean your registry, update antivirus, etc. just like you need to in Windows?
 None of this is needed in Linux but there is some recommend filesystem hygiene you should be doing.
 
 ## Gather Information
+
 For starters, lets gather some information.
 Some of the maintenance activities listed here, you're going to need some basic information.
 This next section shows you how to get that information.
 
 #### Distribution Name and Version
+
 To determine which Linux version / build / release / distribution you are running:
 
 ```bash
@@ -55,10 +60,12 @@ consider the commands [`lshw`][11]
 and the graphical tools [`lshw-gtk`][12] and [`sysinfo`][12].
 
 ## OS and Application Maintenance
+
 You should periodically update your Linux operating system (OS)
 and its applications.
 
 #### Install Operating System and Application Patches/Updates
+
 This will patch the Linux operating system and all its GPL applications
 
 ```bash
@@ -70,6 +77,7 @@ update-manager -c
 ```
 
 #### Updating Firmware for Raspberry Pi
+
 In the case of the Raspberry Pi (RPi), you will want to also upgrade the firmware regularly.
 [Raspbian][07] is the standard Linux operating system distribution for the RPi,
 but it doesn't include firmware.
@@ -96,11 +104,12 @@ Note that once the firmware has been successfully updated,
 you'll need to reboot to load the new firmware.
 
 ## Filesystem Maintenance
+
 Filesystems and disks should be check to make sure they are not running low on resources
 and are not showing any signs of pending failure.
 
-
 #### Check Storage and Inode Usage
+
 If you let some directories get really full, like above 95% full, you will see some serious system problems.
 Check on the status of directory systems storage space and inode usage:
 
@@ -166,10 +175,10 @@ sorts them from largest to smallest, and prints their size in a human-readable f
 ```bash
 # sort size of sub-directories
 du -hs /home/jeff/src/a*
-224M	/home/jeff/src/ai-sensor
-4.9M	/home/jeff/src/ansible
-647M	/home/jeff/src/arduino
-8.0K	/home/jeff/src/autogluon
+224M /home/jeff/src/ai-sensor
+4.9M /home/jeff/src/ansible
+647M /home/jeff/src/arduino
+8.0K /home/jeff/src/autogluon
 
 # searches for large files over the specified size (50MB in my case) and prints them
 $ find /home/jeff/src/a* -type f -size +50M -exec ls -lh {} \;
@@ -180,6 +189,7 @@ $ find /home/jeff/src/a* -type f -size +50M -exec ls -lh {} \;
 ```
 
 #### Disk and Filesystems Integrity
+
 [Smartmontools][02] is a set of applications that can test hard drives
 and read their hardware SMART statistics (install with `sudo apt-get install smartmontools`).
 To ensure that your drive supports [SMART][03], type the following for each physical drive:
@@ -221,6 +231,7 @@ have it check drives, and email you when there are issues.
 See the Sources below to figure out what needs to be done to setup the `smartd` demon.
 
 #### Filesystem Checks and Repair
+
 The Linux filesystem can be damaged under various circumstances, e.g., system crash,
 power loss, disconnected disk, accidentally overwritten i-node, etc.
 Thus it is a good idea to check the integrity of the filesystem regularly
@@ -263,6 +274,7 @@ This can be done with `sudo umount /dev/sdb && sudo fsck -y /dev/sdb`.
 The `-y` flag, automatically “yes” to any prompts from `fsck` to correct an error.
 
 ##### Forced Root Filesystem Check
+
 You can do force a one-time filesystem check on the root file system
 (aka `/`) on the next reboot by doing the following:
 
@@ -273,6 +285,7 @@ it will force filesystem check the next time you boot up (only on the root files
 After successful booting, `/forcefsck` will automatically be removed.
 
 ##### Forced Non-Root Filesystem Check
+
 Unlike the root filesystem,
 there is no equivalent to `/forcefsck` file for non-root filesystems.
 The only way to force `fsck` on all other non-root partitions
@@ -291,11 +304,13 @@ sudo tune2fs -c -1 /dev/sdb
 ```
 
 ## Periodic Filesystem Hygiene
+
 Linux will leave some clutter around in the filesystem.
 While generally not a problem, it can eat-up disk space,
 and can become a problem for the `/boot` directory.
 
 #### Clean-Up Temporary Files
+
 Some editors (like vim) may leave files ending with a ‘~' character laying around.
 You can clean them up under your `$HOME` as a normal user
 (You can do it for the entire system as root, but that can be extremely dangerous.)
@@ -317,11 +332,13 @@ Some applications create temporary files in their own directories:
     rm -rf ${HOME}/.macromedia/* ${HOME}/.adobe/*
 
 #### Clean-Up Old Log Files
+
 You can also remove old compress log files from the system with
 
     sudo rm -v /var/log/*.gz
 
 #### Clean-Up Installation Packages
+
 To remove partial packages, clean the cache, remove unused dependencies use:
 
 ```bash
@@ -332,6 +349,7 @@ sudo apt-get autoremove
 ```
 
 #### Clean-Up Old Kernel Packages
+
 You also need to do something similar for kernel installations.
 You'll find the amount of space being used by the current kernel
 and old kernel installation packages in `/boot` by running:
@@ -382,6 +400,7 @@ get your current kernel version back by executing `uname -r` and then reinstall 
 where `x.x.x-xx` is the kernel version number give by the `uname -r` command.
 
 #### SSD TRIM
+
 Solid-state drives (SSD) have brought about a new way of managing storage.
 SSDs have benefits like silent and cooler operation and a faster interface spec,
 compared to hard drives but brings with it new methods of maintenance and management.
@@ -423,6 +442,7 @@ For additional information, check out:
 * [Extend the life of your SSD drive with fstrim](https://opensource.com/article/20/2/trim-solid-state-storage-linux)
 
 ## When the Hard Disk Goes South
+
 For basic disk errors, you could try letting Linux heal itself with `fsck` at boot up.
 To do this, shut down the system with the -F option like this:
 
@@ -436,12 +456,14 @@ If this fails, read these articles "[Disk Maintenance under Linux (Disk Recovery
 and then follow the instructions carefully!
 
 ## Cleaning Up After a System Crash
+
 At some point your system will crash and
 you'll need to perform a manual repair of your filesystem.
 When this happens, you'll reboot, the system stops, and
 then indicates you must perform a manual repair of the filesystem.
 
 ### Check & Repair Filesystem
+
 `fsck` (filesystem consistency check) is a command used to check filesystem
 for consistency errors and repair them on Linux filesystems.
 This tool is important for maintaining data integrity.
@@ -479,6 +501,7 @@ Once fsck finished, remount the filesystem:
     mount /home
 
 ### Superblock Corruption
+
 It is possible that `fsck` will fail with a message telling you that
 your filesystem has a bad [superblock][21].
 The filesystem's superblock contains information about the filesystems type, size, structure, etc.
@@ -503,6 +526,7 @@ This could run for a very long time (like hours).
 After it completes, corruption should be removed and the primary superblock restored.
 
 ## When the Filesystem is Full
+
 Sometimes after a system crash,
 you'll get a message like "The volume filesystem root has only 0 bytes disk space remaining".
 If you run the `df -h` command, you will in fact see it.
@@ -529,26 +553,26 @@ Running the following command:
 # 20 largest contributors to storage consumption
 $ sudo du -ahx / | sort -rh | head -n 20
 
-103G	/
-73G	/var
-48G	/var/log
-46G	/var/log/uvcdynctrl-udev.log
-21G	/usr
-13G	/var/lib
-11G	/var/var
-11G	/var/lib/mlocate
-9.2G	/var/var/lib
-9.1G	/usr/usr
-8.7G	/var/var/lib/mlocate
-5.1G	/usr/lib
-4.0G	/Dropbox
-3.9G	/Dropbox/Dropbox
-3.7G	/usr/usr/lib
-3.6G	/opt
-3.0G	/var/var/lib/mlocate/mlocate.db
-2.9G	/usr/usr/local
-2.9G	/usr/local
-2.8G	/usr/usr/local/lib
+103G /
+73G /var
+48G /var/log
+46G /var/log/uvcdynctrl-udev.log
+21G /usr
+13G /var/lib
+11G /var/var
+11G /var/lib/mlocate
+9.2G /var/var/lib
+9.1G /usr/usr
+8.7G /var/var/lib/mlocate
+5.1G /usr/lib
+4.0G /Dropbox
+3.9G /Dropbox/Dropbox
+3.7G /usr/usr/lib
+3.6G /opt
+3.0G /var/var/lib/mlocate/mlocate.db
+2.9G /usr/usr/local
+2.9G /usr/local
+2.8G /usr/usr/local/lib
 ```
 
 This will give you the total amount of space used (`-a`)
@@ -572,6 +596,7 @@ In addition to the locations above, the following locations are common culprits:
 * `/var/log` &ensp;&ensp;log files can eat up a lot of space if there are repetitive errors
 
 #### Very Large Log Files
+
 Linux log files found in `/var/log` can be a source of your filesystem full.
 These log files will quickly fill if there are problems within the system.
 
@@ -582,16 +607,16 @@ find the top ten largest files and directories in  `/var/log`:
 # print number of bytes in the 10 largest files and directories in /var/log
 $ sudo du -ahx /var/log/ | sort -rh | head -n 10
 
-48G	/var/log/
-46G	/var/log/uvcdynctrl-udev.log
-1.9G	/var/log/journal/00f23270d58ed942283218b055d9d601
-1.9G	/var/log/journal
-121M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-000000000003a46a-00059d7019fadab5.journal
-105M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000091ce3-00059d74a2fe9ea9.journal
-105M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000075a69-00059d73c160def7.journal
-89M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000060b47-00059d72b9ef1167.journal
-81M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-000000000004987b-0005a1c99c09dd09.journal
-81M	/var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-0000000000032c53-0005a03b276009d1.journal
+48G /var/log/
+46G /var/log/uvcdynctrl-udev.log
+1.9G /var/log/journal/00f23270d58ed942283218b055d9d601
+1.9G /var/log/journal
+121M /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-000000000003a46a-00059d7019fadab5.journal
+105M /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000091ce3-00059d74a2fe9ea9.journal
+105M /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000075a69-00059d73c160def7.journal
+89M /var/log/journal/00f23270d58ed942283218b055d9d601/system@f8acccb9260a4855b984823647bc1539-0000000000060b47-00059d72b9ef1167.journal
+81M /var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-000000000004987b-0005a1c99c09dd09.journal
+81M /var/log/journal/00f23270d58ed942283218b055d9d601/system@bf6951c9e0384a0b8c9b5aa044c06ddd-0000000000032c53-0005a03b276009d1.journal
 ```
 
 Its very clear that we have a very bad actor in the file
@@ -627,6 +652,7 @@ $ ls -lh /var/log/uvcdynctrl-udev.log
 ```
 
 #### Deleted But Open Files
+
 Another potential source of a full filesystem are large
 [files left open but have been deleted][13].
 On Linux, a file may be deleted (removed/unlinked) while a process has it open.
@@ -712,6 +738,7 @@ shutdown -rF now
 ```
 
 ## Sources
+
 I primarily consulted the following sources to create this posting:
 
 * [Why use apt-get upgrade instead of apt-get dist-upgrade?](http://askubuntu.com/questions/194651/why-use-apt-get-upgrade-instead-of-apt-get-dist-upgrade)
@@ -723,8 +750,6 @@ I primarily consulted the following sources to create this posting:
 * [Monitoring Hard Drive Health on Linux with smartmontools](http://blog.shadypixel.com/monitoring-hard-drive-health-on-linux-with-smartmontools/)
 * [How do I remove or hide old kernel versions to clean up the boot menu or free space?](http://askubuntu.com/questions/2793/how-do-i-remove-or-hide-old-kernel-versions-to-clean-up-the-boot-menu-or-free-sp)
 * [How to Get Rid of Deleted Open Files](http://www.unixwerk.eu/linux/deleted_files.html)
-
-
 
 [01]:http://www.linuxjournal.com/article/193?page=0,0
 [02]:http://sourceforge.net/apps/trac/smartmontools/wiki

@@ -80,7 +80,7 @@ Now do the following in **Command Prompt**:
 # see if wsl is Pre-installed
 wsl
 
-# install wsl 
+# install wsl
 wsl --update
 
 # install ubuntu 24.04 linux distribution
@@ -121,7 +121,7 @@ such as the `xclock`, `xcalc`, `xclipboard` for cut & paste, `xev` for event tes
 Let install them and launch an app to validate that WSL's Ubuntu can in fact supports graphical applications:
 
 ```bash
-# install some graphics apps 
+# install some graphics apps
 sudo apt install x11-apps
 
 # test some graphical applications
@@ -192,13 +192,13 @@ validate / troubleshot the procedure below, if needed:
 
 ```bash
 # list all the network interfaces (aka adapters) used by wsl ubuntu
-ifconfig 
-# or 
+ifconfig
+# or
 nmcli
 
 # list all ip address' used by wsl ubuntu
 ip address
-# or 
+# or
 nmcli device show
 
 # finding IPs and identifying devices on your network
@@ -262,7 +262,7 @@ You need to create or edit the `.wslconfig` file in your profile directory.
 cd $env:USERPROFILE
 
 # check if a .wslconfig file exists (it should not)
-dir -Force 
+dir -Force
 ```
 
 If the file doesn't exist, create it, or edit the existing one using a text editor like Notepad:
@@ -448,7 +448,7 @@ Better yet, you can install Remmina using this method:
 
 ```bash
 # install your remote desktop client gui application
-sudo apt install remmina 
+sudo apt install remmina
 
 # install the remmina plugin for the remote desktop protocol (rdp)
 sudo apt install remmina-plugin-rdp
@@ -505,7 +505,7 @@ wsl --update
 # what version of wsl is install
 wsl --version
 
-# list installed Linux distributions 
+# list installed Linux distributions
 wsl --list --verbose
 
 # list Linux distributions available
@@ -517,7 +517,7 @@ wsl --install -d Ubuntu-24.04
 # execute a specific version of linux
 wsl -d Ubuntu-24.04
 
-# what is the status/version of wsl, windows, etc. 
+# what is the status/version of wsl, windows, etc.
 wsl --status
 
 # shutdown all running wsl instances
@@ -539,7 +539,7 @@ sudo ufw disable
 # displays the current firewall status, including whether it's active and the default policies for incoming and outgoing traffic
 sudo ufw status
 
-# provides a more detailed view of the firewall status, including a list of active rules 
+# provides a more detailed view of the firewall status, including a list of active rules
 sudo ufw status verbose
 
 #  sets the default policy for incoming traffic to deny (block) all connections
@@ -558,6 +558,56 @@ Sources:
 * [UFW Essentials: Common Firewall Rules and Commands](https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands)
 
 
+---------------
+
+
+# Install Docker on Windows 11
+It appears there is noway to install **just** [Docker Engine][16] on Windows 11.
+To install Docker on Windows 11, you need to install two things: Windows Subsystem for Linux (WSL) and [Docker Desktop][14].
+You’ll be able to run docker containers using either Docker Desktop or the docker command from the PowerShell terminal.
+
+Once you have WSL installed and working,
+and from you newly installed Windows 11 environment,
+go to the [Docker website][15] and download the install package for the x86_64 processor architecture (also known as x64, AMD64, or Intel 64).
+Next execute the installer, select **Yes**, **Do Not** select install Windows containers, and let the install proceed for a few minutes.
+Finally, click **Close and log out**.
+
+To install the Portainer Agent, execute the following in the Windows PowerShell:    <-------- CANNOT GET THIS TO WORK
+
+```bash
+#  install the portainer agent via the command line via WSL terminal (e.g., Ubuntu, Debian)
+docker run -d \
+  -p 9001:9001 \
+  --name portainer_agent \
+  --restart always \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v /var/lib/docker/volumes:/var/lib/docker/volumes \
+  portainer/agent:2.19.4 --host=tcp://192.168.1.200:9001
+```
+
+```powershell
+docker stop portainer_agent
+docker rm portainer_agent
+docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes portainer/agent:latest
+```
+
+Docker Desktop isn't forwarding the port from WSL2 to Windows. This is a known issue with Docker Desktop's networking.
+
+Claude Prompt:
+My Windows 11 system is at IP address 192.168.1.203 and
+I can attach to it from my Ubuntu system (at IP address 192.168.1.200) via the Remmina Desktop Client.
+At the same time, a ping to my Windows system from my Ubuntu system fails to respond,
+but I can successfully pin my Ubuntu system from my Windows system.
+Also, Portainer running on my Ubuntu system,
+fails to connect with the Portainer agent running on the Windows 11 system.
+What could be causing this inconsistency and what are the steps I can take to correct it?
+
+
+Source:
+* [How to Install Docker on Windows 11](https://www.youtube.com/watch?v=iLwK6XnMna4)
+* [Docker on Windows 11: Correctly Install Docker Desktop on Windows 11 and Configure Docker Desktop](https://www.youtube.com/watch?v=zy0wR_WmO5g)
+
+
 
 [01]:https://learn.microsoft.com/en-us/windows/wsl/about
 [02]:https://opticos.github.io/gwsl/
@@ -571,6 +621,8 @@ Sources:
 [11]:https://remmina.org/
 [12]:https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c
 [13]:https://www.freerdp.com/
-
+[14]:https://docs.docker.com/desktop/setup/install/windows-install/
+[15]:https://www.docker.com/
+[16]:https://docs.docker.com/engine/
 
 

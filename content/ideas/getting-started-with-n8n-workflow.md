@@ -19,6 +19,7 @@ Version:      0.0.0
 
 * [I'll never use n8n the same......](https://www.youtube.com/watch?v=s96JeuuwLzc) - n8n + Claude Code
 * [Automating Your Digital Life with n8n](https://hackers-arise.com/automating-your-digital-life-with-n8n/)
+* [How to Self-Host n8n on Docker in 5 Simple Steps](https://www.kdnuggets.com/how-to-self-host-n8n-on-docker-in-5-simple-steps)
 * [Self-Host Your Own Automation Platform with n8n + Docker](https://www.youtube.com/watch?v=gyn8bcOLdcA)
 * [How to Run n8n Locally (Full On-Premise Setup Tutorial)](https://www.youtube.com/watch?v=-ErfsM2TYsM)
 * [You NEED to Use n8n RIGHT NOW!! (Free, Local, Private)](https://www.youtube.com/watch?v=ONgECvZNI3o)
@@ -36,7 +37,6 @@ combining triggers, language models (LLMs), and external tools.
 
 * [A Beginner’s Guide to Automation with n8n](https://www.freecodecamp.org/news/a-beginners-guide-to-automation-with-n8n/)
 * [GitHub: n8n-io/n8n](https://github.com/n8n-io/n8n)
-* [Self-Host Your Own Automation Platform with n8n + Docker](https://www.youtube.com/watch?v=gyn8bcOLdcA)
 * [Make n8n Public — Free Production Setup with Docker + Ngrok (No Domain, No Cost!)](https://www.youtube.com/watch?v=RvAD2__YYjg)
 * [How to Run n8n Locally (Full On-Premise Setup Tutorial)](https://www.youtube.com/watch?v=-ErfsM2TYsM)
 * [Only 1% of n8n Builders Know This Node Exists (LangChain Code Node)](https://www.youtube.com/watch?v=4o0AJYBEiBo)

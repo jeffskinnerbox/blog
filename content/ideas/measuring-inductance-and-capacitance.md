@@ -14,6 +14,10 @@ Version:      0.0.0
 
 
 
+
+* [A Deep Dive Into Inductors](https://hackaday.com/2026/02/05/a-deep-dive-into-inductors/)
+* [Inductance In PCB Layout: The Good, The Bad, And The Fugly](https://hackaday.com/2018/09/28/inductance-in-pcb-layout-the-good-the-bad-and-the-fugly/)
+
 * [Tips For Homebrewing Inductors](https://hackaday.com/2025/09/04/tips-for-homebrewing-inductors/)
 
 * [How to Measure Inductance](https://www.wikihow.com/Measure-Inductance)

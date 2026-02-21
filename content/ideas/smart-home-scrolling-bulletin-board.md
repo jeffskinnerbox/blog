@@ -240,6 +240,7 @@ Text sprites Examples
 
 ## Rotary Encoder Control
 
+* [Working with the Adafruit I2C Rotary Encoder](https://dronebotworkshop.com/i2c-rotary-encoders/)
 * [ESP8266 Peripherals: KY-040 Rotary Encoder](https://blog.squix.org/2016/05/esp8266-peripherals-ky-040-rotary-encoder.html)
 * [ESPRotary](https://github.com/LennartHennigs/ESPRotary)
 

@@ -13,6 +13,15 @@ Version:      0.0.0
 ---------------
 
 
+
+
+* [`circfirm`: A CLI tool for updating the firmware for CircuitPython boards](https://github.com/tekktrik/circfirm)
+* [`circfirm` Documentation](https://circfirm.readthedocs.io/en/latest/)
+
+
+
+
+
 # CircuitPython Development Workflow with NeoVim/LazyVim
 Using LazyVim for CircuitPython development gives you a modern, feature-rich editing experience,
 but we must make NeoVim's language server aware of the specific CircuitPython libraries since they are not in the standard Python environment.
@@ -29,9 +38,9 @@ This makes coding very fast because you save, and it re-runs.
 >
 >The REPL operates in a continuous cycle:
 > * **Read:** It reads the Python command you input.
-> * **>Eval (Evaluate):** It evaluates the command to determine its meaning and execute it.
-> * **>Print:** It prints the result of the command to the screen.
-> * **>Loop:** It then loops back to the beginning, waiting for your next command.
+> * **Eval (Evaluate):** It evaluates the command to determine its meaning and execute it.
+> * **Print:** It prints the result of the command to the screen.
+> * **Loop:** It then loops back to the beginning, waiting for your next command.
 
 I'll cover here the following topics:
 

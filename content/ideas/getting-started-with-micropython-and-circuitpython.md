@@ -13,6 +13,16 @@ Version:      0.0.0
 
 
 
+
+
+
+* [`circfirm`: A CLI tool for updating the firmware for CircuitPython boards](https://github.com/tekktrik/circfirm)
+* [`circfirm` Documentation](https://circfirm.readthedocs.io/en/latest/)
+
+
+
+
+
 # Python vs. MicroPython
 
 * [When to Transition from Python to MicroPython?](https://python.plainenglish.io/when-to-transition-from-python-to-micropython-b872289e5919)
@@ -21,6 +31,7 @@ Version:      0.0.0
 
 # MicroPython: The best bits
 
+* [MicroPython: An Intro to Programming Hardware in Python](https://realpython.com/micropython/)
 * [Setup and Using MicroPython for Beginners](https://learn.sparkfun.com/tutorials/setup-and-using-micropython-for-beginners)
 * [MicroPython: The best bits!](https://pretalx.com/pycon-au-2024/talk/HFXFLZ/)
   * ["MicroPython: The best bits!" - Matt Trentini (Pycon AU 2024)](https://www.youtube.com/watch?v=EVRDuu-Sez0)

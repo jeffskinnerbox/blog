@@ -36,6 +36,7 @@ Consider using and reading ...
 
 * [DIY Walkie-Talkie Based on ESP-NOW](https://www.elektormagazine.com/articles/diy-walkie-talkie-based-on-esp-now)
   * [Walkie-Talkie with ESP-NOW](https://www.elektormagazine.com/labs/walkie-talkie-with-esp-now)
+* [These Ultra-Cute, Handsfree Walkie-Talkies Are Built For Cycling](https://hackaday.com/2026/01/29/these-ultra-cute-handsfree-walkie-talkies-are-built-for-cycling/)
 
 
 

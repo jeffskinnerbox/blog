@@ -9,6 +9,13 @@ Version:      0.0.0
 </div>
 
 
+* [Anthropic Academy](https://www.anthropic.com/learn)
+* [Claude Code: A Highly Agentic Coding Assistant](https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/)
+* [Claude Code Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY)
+* [Claude Opus 4 with Claude Code: A Guide With Demo Project](https://www.datacamp.com/tutorial/claude-opus-4-claude-code)
+* [Claude Code: A Guide With Practical Examples](https://www.datacamp.com/tutorial/claude-code)
+
+
 ---------------
 
 Large language models (LLMs) are increasingly being recognized for their potential to act as curators of
@@ -26,6 +33,19 @@ For more information, see these sources:
 * [What Are Intrusive Thoughts?](https://health.clevelandclinic.org/intrusive-thoughts)
 * [Introspection and How It Is Used In Psychology](https://www.verywellmind.com/what-is-introspection-2795252)
 * [Claude can identify its ‘intrusive thoughts’](https://www.transformernews.ai/p/claude-can-identify-its-intrusive-ai-introspection)
+
+I used to very sceptical of vibe coding.
+I believed I could write better code, design cleaner systems, and make more thoughtful architectural decisions on my own.
+For a long time, that was probably true.
+Over time, things changed. AI agents improved significantly.
+MCP servers, Claude skills, agent workflows, planning-first execution,
+and long-horizon coding tools turned vibe coding from a gimmick into a practical way to build real systems.
+
+The real problem most people face with vibe coding is not writing code.
+It is choosing the right tech stack.
+Frontend, backend, authentication, databases, storage, email, payments, and deployment all come with countless options.
+Without a clear stack, even strong AI coding agents struggle to make good decisions.
+When an agent is given a well-defined and opinionated tech stack, it can reliably build an end-to-end application with far less friction.
 
 ---------------
 
@@ -50,6 +70,7 @@ Assumes basic Linux/Bash familiarity.
   * [Using `claude --help`](#using-claude---help)
   * [Built-in Commands](#built-in-commands)
   * [Slash Commands Inside Claude](#slash-commands-inside-claude)
+* [Everything Claude Code](#everything-claude-code)
 * [Learning Claude Code](#learning-claude-code)
   * [Example Project](#example-project)
 * [Key Concepts](#key-concepts)
@@ -66,6 +87,33 @@ Before starting, ensure you have:
 * **Ubuntu version**: 20.04 or newer
 * **RAM**: at least 4 GB
 * **Internet connection**: required for installation and usage
+
+### Core Workflow
+The core workflow: explore, plan, code, commit.
+This workflow may feels counter-intuitive at first.
+Before writing any code, you should spend time in Plan Mode.
+Plan Mode restricts Claude from making changes.
+It can only read files and think. This sounds limiting. But it’s actually the highest-value phase of any task.
+
+Here’s the full workflow:
+* **Explore (Plan Mode):** Point Claude at relevant code.
+  Ask it to understand the architecture, find similar patterns, identify where changes need to happen.
+  Let it read without acting.
+  Key ways to activate Plan Mode are:
+  * **Keyboard Shortcut:** Press `Shift+Tab` twice.
+  * **Command Line:** Start a new session using `claude --permission-mode` plan.
+  * **Toggle Modes:** Cycle through modes using `Shift+Tab` until Plan Mode is active.
+* **Plan (Plan Mode):** Once Claude understands the codebase, ask it to propose an approach.
+  Review the plan. Poke holes in it. Ask about edge cases. This is cheap.
+  Fixing a bad plan in conversation costs nothing.
+  Fixing bad code costs time.
+* **Implement (Normal Mode):** Only now do you let Claude write code.
+  With a solid plan and relevant context loaded, implementation becomes almost mechanical.
+* **Commit:** Use Claude’s git integration to create meaningful commits.
+  The `/commit` command generates commit messages based on actual changes, not your vague description of what you asked for.
+
+The key insight: planning is cheap and implementation is expensive.
+Every minute spent in Plan Mode saves multiple minutes of debugging, reverting, and re-explaining.
 
 ### Step 1: Open a Terminal
 Press `Ctrl + Alt + T` to open a terminal window.
@@ -134,6 +182,26 @@ Validate that Claude doesn't sense that it has any problems with the installatio
 claude doctor
 ```
 
+### Claude Code Power Tips
+1. **Specify Your Broad Architectural Goals:** The real problem most people face with coding is not writing code, It is choosing the right tech stack. AI does no better.
+   Frontend, backend, authentication, databases, storage, email, payments, and deployment all come with countless options.
+   Without a clear stack, even strong AI coding agents struggle to make good decisions.
+1. **Make use of Plan Mode for complex tasks:** Before making changes to multiple files, like refactoring a data processing pipeline, activate Plan Mode.
+   Claude will analyze your code and propose a step-by-step plan.
+   Review and refine this plan before any code is executed, preventing missteps in complex projects.
+1. **Use the @ symbol for context:** One of most powerful features is file referencing.
+   Type `@` in the chat and select your data file;
+   it can be `customer_data.csv` or a script, e.g. `model_training.py`, to give Claude its full content.
+   For directories, `@src/` provides a file listing. This ensures Claude's advice is based on your actual data and code.
+1. **Enable extended thinking:** For challenging problems like optimizing a slow data transformation
+   or debugging a model accuracy issue, ensure Claude's "thinking" is enabled.
+   This allows it to reason through complex logic step-by-step before giving you a final, well-considered answer.
+1. **Rapid data profiling:** After uploading a comma-separated values (CSV) file using `@`, ask Claude for a summary.
+   A prompt like, "Analyze @customer_data.csv. Provide summary statistics, check for missing values, and identify potential outliers in numerical columns"
+   gives you an instant diagnostic report.
+1. **Automating cleaning steps:** Describe the issue and let Claude write the pandas code.
+   For example, if a "Duration" column has impossible values — like a 450-minute workout — you can ask Claude to cap or remove outliers.
+
 ### Troubleshooting
 Here are some typical troubles you might have with the installation:
 
@@ -169,11 +237,11 @@ This displays a full list of flags you can use. Here are the most useful ones fo
 
 | Option | What it does |
 |--------|--------------|
-| `-h, --help` | Show all available options |
-| `-v, --version` | Show the version number |
-| `-c, --continue` | Continue your most recent conversation |
-| `-r, --resume` | Resume a specific past conversation |
-| `-p, --print` | Get a single response and exit (good for scripts), ex. `claude -p "What does this error mean: ENOENT?"` |
+| `-h`, `--help` | Show all available options |
+| `-v`, `--version` | Show the version number |
+| `-c`, `--continue` | Continue your most recent conversation |
+| `-r`, `--resume` | Resume a specific past conversation |
+| `-p`, `--print` | Get a single response and exit (good for scripts), ex. `claude -p "What does this error mean: ENOENT?"` |
 | `--model <model>` | Choose a different Claude model (e.g., `sonnet`, `opus`) |
 
 
@@ -268,6 +336,19 @@ These are the commands you'll use most often:
 
 ---------------
 
+## Everything Claude Code
+Everything Claude Code is a GitHub repo from the final winner (Affaan Mustafa and his teammate)
+of a September 2025 Anthropic Claude Code hackathon that happened recently.
+The complete collection of Claude Code configs from an Anthropic hackathon winner.
+Production-ready agents, skills, hooks, commands, rules, and MCP configurations evolved over 10+ months of intensive daily use building real products.
+
+* [Everything Claude Code: The Repo That Won Anthropic Hackathon (Here’s a Breakdown)](https://medium.com/@joe.njenga/everything-claude-code-the-repo-that-won-anthropic-hackathon-33b040ba62f3)
+* [The Shorthand Guide to Everything Claude Code](https://x.com/affaanmustafa/status/2012378465664745795)
+* [The Longform Guide to Everything Claude Code](https://x.com/affaanmustafa/status/2014040193557471352)
+  * [GitHub: affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)
+
+---------------
+
 ## Learning Claude Code
 I recommend that you read the following documents and viewed these videos:
 * [Claude Code Explained for Beginners](https://www.youtube.com/watch?v=sxp-VXbXZU4)
@@ -348,6 +429,53 @@ Future Tasks: In a subsequent steps, which you should considered in your plannin
 
 ## Key Concepts
 
+### Common Failure Patterns
+There are at least five failure patterns that trip up even experienced users.
+Recognising these in your own work is half the battle.
+
+* **The kitchen sink session:** You start with one task, finish it, then pivot to something unrelated without clearing context.
+  Now Claude has context from Task A polluting its work on Task B.
+  **Solution:** Use `/clear` between unrelated tasks, or just start a new session.
+
+* **The correction spiral:** Claude makes a mistake. You correct it. It tries again, fails differently. You correct again.
+  Now your context is full of failed approaches, and Claude keeps referencing them. Ugh.
+  **Solution:** If you’ve corrected the same issue twice, run `/clear` or `/compact` and restate the problem fresh.
+
+* **The over-specified CLAUDE.md:** Your `CLAUDE.md` is 500 lines of detailed instructions.
+  Claude can’t find the important bits in all the noise.
+  **Solution:** Cut ruthlessly. If a rule isn’t preventing actual mistakes, delete it.
+
+* **The trust-then-verify gap:** You let Claude work for 20 minutes, then discover it went in the wrong direction 18 minutes ago.
+  **Solution:** Check in frequently. Ask Claude to explain its approach before implementing. Use Plan Mode.
+
+* **Infinite exploration:** You ask Claude to understand the codebase, and it reads 200 files trying to be thorough.
+  Your context is now full of irrelevant code.
+  **Solution:** Be specific about what to read. Point Claude at specific directories or files.
+  Use subagents for investigation tasks that shouldn’t pollute your main context.
+
+### Verification
+Include tests, screenshots, or expected outputs so Claude can check itself.
+Verification changes everything.
+Without it, you’re the verification layer.
+You read every line of generated code.
+You manually test every change.
+You catch Claude’s mistakes through vigilance.
+
+There are several recommended verification approaches:
+* **Tests:** The obvious one. If you have a test suite, tell Claude to run it.
+  Better yet, have Claude write tests first, then implementation. Tests become the specification.
+* **Type checking:** For TypeScript projects, `tsc --noEmit` catches a huge class of errors instantly.
+  Claude can run this after every change.
+* **Linting:** ESLint, Prettier, whatever your project uses.
+  Automated style enforcement means Claude’s code matches your codebase.
+* **Screenshots:** For frontend work, Claude can take screenshots and visually verify its changes.
+  This sounds gimmicky but actually works.
+* **Expected outputs:** For data processing or API work, provide example inputs and expected outputs.
+  Claude can verify its implementation produces the right results.
+
+The pattern here is making verification automatic and fast.
+Every verification mechanism you add is one less thing you need to manually check.
+
 ### Prompt Engineering
 Anthropic defines prompt engineering as the process of crafting and structuring prompts to
 guide large language models (LLMs) like Claude toward producing desired outputs.
@@ -359,11 +487,64 @@ and enhance the model's ability to perform specific tasks without retraining the
 * [Anthropic Prompt Engineering Overview](https://jimmysong.io/en/ai/anthropic-prompt-engineering/)
 
 ### Context Engineering
+Claude’s context window fills up fast, and performance degrades as it fills.
+Context windows aren’t just about fitting more text.
+They’re about signal-to-noise ratio.
+A 200K token window stuffed with irrelevant file contents, failed attempts,
+and meandering conversation history performs worse than a 50K window with focused, relevant information.
+
+This explains why experienced Claude Code users obsess over context hygiene.
+They use `/clear` between unrelated tasks.
+They run `/compact` when conversations get long.
+They start fresh sessions rather than trying to pivot a polluted one.
+
 Anthropic defines context engineering as the set of strategies for curating
 and maintaining the optimal set of information (tokens) during LLM inference,
 extending beyond traditional prompt engineering to manage the entire information ecosystem surrounding the AI agent.
+
 * [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 * [How to Perform Effective Agentic Context Engineering](https://towardsdatascience.com/how-to-perform-effective-agentic-context-engineering/)
+* [Context is the new skill: lessons from the Claude Code best practices guide](https://blog.devgenius.io/context-is-the-new-skill-lessons-from-the-claude-code-best-practices-guide-3d27c2b2f1d8)
+
+#### CLAUDE.md as Context Engineering
+Claude Code reads a file called `CLAUDE.md` from your project root on every session start.
+This is your persistent context. Your accumulated wisdom about how this specific codebase works.
+For each line, ask: **Would removing this cause Claude to make mistakes?** If not, cut it.
+
+But here’s where most people go wrong.
+They treat `CLAUDE.md` like documentation.
+They dump everything they know about the project into it. Architecture decisions. Coding standards. Historical context. Team preferences.
+
+For each line, ask: Would removing this cause Claude to make mistakes? If not, cut it.
+A good `CLAUDE.md` is short. Maybe 20–50 lines.
+It contains only the information that, if missing, would lead Claude astray.
+Here’s what belongs:
+
+```text
+# CLAUDE.md
+
+## Build commands
+- `npm run dev` - Start development server
+- `npm test` - Run tests (required before commits)
+- `npm run lint` - Check code style
+
+## Architecture
+- API routes in /src/api, each file is one endpoint
+- Database queries use the repository pattern in /src/repos
+- All dates stored as UTC, converted to local only in UI
+
+## Conventions
+- Use named exports, not default exports
+- Error handling: throw AppError with error code, never raw Error
+- Tests go next to source files as *.test.ts
+```
+
+Notice what’s **NOT** here. No explanation of what the app does. No history of why decisions were made.
+No aspirational coding standards that the team doesn’t actually follow.
+Just the minimum context Claude needs to avoid common mistakes.
+
+You can also have nested `CLAUDE.md` files in subdirectories for area-specific context.
+A `CLAUDE.md` in `/src/api` might contain API-specific conventions that don't apply elsewhere.
 
 ### Anthropic’s “Prompt Improver”
 Anthropic launched the “[Prompt Improver][01]” makes AI-assisted prompt writing a reality.

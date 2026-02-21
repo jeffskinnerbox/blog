@@ -197,7 +197,7 @@ sudo docker rm portainer
 sudo docker pull portainer/portainer-ce:latest
 
 # reinstall portainer
-sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+ go this error -- sudo docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
 
 You may want to also upgrade the Portainer Agent and this must be done separately:

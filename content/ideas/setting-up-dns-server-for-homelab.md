@@ -11,6 +11,7 @@ Version:      0.0.0
 ---------------
 
 * [How To Get DNS Right: A Guide to Common Failure Modes](https://thenewstack.io/how-to-get-dns-right-a-guide-to-common-failure-modes/)
+* [Here's how your ISP tracks every website you visit, and one tool that stops it](https://www.howtogeek.com/why-dns-betrays-your-privacy-and-how-dnscrypt-stops-it/)
 
 
 

@@ -74,6 +74,7 @@ perform regression testing, and train AI system using realistic scenarios.
 * [Six Wheels (En)rolling: Mars Rovers Going To School](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
 * [AlphaBot2 robot building kit for Raspberry Pi 3 Model B](https://www.seeedstudio.com/AlphaBot2-robot-building-kit-for-Raspberry-Pi-3-Model-B-p-2937.html)
 * [Six Wheels Mars Rover](https://hackaday.com/2018/08/03/now-enrolling-mars-rovers-going-to-school/)
+* [Papaya Pathfinder: Open Source ESP32 Rover - NASA-style Rocker-Bogie suspension](https://hackaday.io/project/204911-papaya-pathfinder-open-source-esp32-rover)
 * [Sonic The Hedgehog Self-Balancing Robot Can Bend At The Knees](https://hackaday.com/2020/01/31/sonic-the-hedgehog-self-balancing-robot-can-bend-at-the-knees/)
 * [Sonic The Self-Balancing Robot: Face-Plants And The Challenges Of Sensor Integration](https://hackaday.com/2020/02/26/sonic-the-self-balancing-robot-face-plants-and-the-challenges-of-sensor-integration/)
 * [3D Printed DIY Remote Controlled Tank With Operational Gun](https://hackaday.com/2025/06/03/3d-printed-tank-has-a-cannon-to-boot/)
@@ -109,20 +110,16 @@ making Dimebots some of the smallest robots in the world.
 
 * [Disney’s Bipedal, BDX-Series Droid Gets The DIY Treatment](https://hackaday.com/2025/04/05/disneys-bipedal-bdx-series-droid-gets-the-diy-treatment/)
 * [Tiny ESP32 Strider Walks The Walk](https://hackaday.com/2021/09/06/tiny-esp32-strider-walks-the-walk/)
-* [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
 * [Robotic Biped Walks On Inverse Kinematics](https://hackaday.com/2020/07/03/robotic-biped-walks-on-inverse-kinematics/)
 * [Train Your Robot to Walk with a Neural Network](https://hackaday.com/2016/12/11/train-your-robot-to-walk-with-a-neural-network/)
-* [Watch the Snappy, Insect-like Moves of this DIY Quadruped Robot](https://hackaday.com/2018/09/30/watch-the-snappy-insect-like-moves-of-this-diy-quadruped-robot/)
 * [Walbi, the Walking Biped](https://www.hackster.io/the-inner-geek/walbi-the-walking-biped-8feacd)
 * [Welcome Our New Insect Overlords With Arduino-Powered Ant Bot](https://hackaday.com/2018/12/17/welcome-our-new-insect-overlords-with-arduino-powered-ant-bot/)
-* [Raspberry Pi Powered Quadruped](https://www.hackster.io/yasaspeiris/raspberry-pi-powered-quadruped-bbb68b)
 * [A Pet Robot, Just Like Boston Dynamics Makes](https://hackaday.com/2019/03/30/a-pet-robot-just-like-boston-dynamics-makes/)
 * [One-Legged Robot Does the Hop](https://hackaday.com/2019/05/25/one-legged-robot-does-the-hop/)
 * [Robotic Cheetah Teaches a Motors Class](https://hackaday.com/2019/05/29/robotic-cheetah-teaches-a-motors-class/)
 * [Mech Warfare: Like Driving a Building-Sized Robot Through a Busy City](https://hackaday.com/2019/06/07/mech-warfare-like-driving-a-building-sized-robot-through-a-busy-city/)
 * [A Better Motor For Chickenwalkers](https://hackaday.com/2019/06/24/a-better-motor-for-chickenwalkers/)
 * ["StrandMaus” 8-legged walker](https://www.embedded-computing.com/home-page/clearcrawler-moves-with-the-help-of-capacitors-and-nrf24l01-control)
-* [Amazing Open Source Quadruped Capable Of Dynamic Motion](https://hackaday.com/2019/10/03/amazing-open-source-quadruped-capable-of-dynamic-motion/)
 * [SmallKat: An Adorable And Dynamic Robot](https://hackaday.com/2019/11/03/smallkat-an-adorable-and-dynamic-robot/)
 * [Landbeest, A Single Servo Walking Robot](https://hackaday.com/2019/11/29/landbeest-a-single-servo-walking-robot/)
 * [Mini Raspberry Pi Boston Dynamics–inspired robot](https://www.blogdot.tv/mini-raspberry-pi-boston-dynamics-inspired-robot/)
@@ -131,6 +128,11 @@ making Dimebots some of the smallest robots in the world.
 * [DIY hobby servos quadruped robot](https://hackaday.io/project/171456-diy-hobby-servos-quadruped-robot)
 * [Spherical Quadruped Arduino Robot](https://hackaday.com/2020/05/21/spherical-quadruped-arduino-robot/)
 * [Little Quadruped Has PCB Spine And No Wiring](https://hackaday.com/2024/10/29/little-quadruped-has-pcb-spine-and-no-wiring/)
+* [Kame, ESP8266 based quadruped](https://hackaday.io/project/9334-kame-esp8266-based-quadruped)
+* [Watch the Snappy, Insect-like Moves of this DIY Quadruped Robot](https://hackaday.com/2018/09/30/watch-the-snappy-insect-like-moves-of-this-diy-quadruped-robot/)
+* [Raspberry Pi Powered Quadruped](https://www.hackster.io/yasaspeiris/raspberry-pi-powered-quadruped-bbb68b)
+* [Amazing Open Source Quadruped Capable Of Dynamic Motion](https://hackaday.com/2019/10/03/amazing-open-source-quadruped-capable-of-dynamic-motion/)
+* [Building A Little Quadruped Robot](https://hackaday.com/2026/01/24/building-a-little-quadruped-robot/)
 
 ## Robotic Spider
 * [Building a robotic spider](https://medium.com/@mr_koz/building-a-robotic-spider-4253bdae4b10)
@@ -163,12 +165,6 @@ making Dimebots some of the smallest robots in the world.
 # Hopping Robot
 
 * [LEONARDO: The Hopping, Flying Bipedal Robot](https://hackaday.com/2021/10/07/leonardo-the-hopping-flying-bipedal-robot/)
-
-
-# Line Following Robot
-
-* [Line Following Robot Uses PID For Speed](https://hackaday.com/2021/09/18/line-following-robot-uses-pid-for-speed/)
-* [TinyEKF: Lightweight C/C++ Extended Kalman Filter with Python for prototyping](https://blog.adafruit.com/2025/05/14/tinyekf-lightweight-c-c-extended-kalman-filter-with-python-for-prototyping/)
 
 
 # Walking Hexapot Robot

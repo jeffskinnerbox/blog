@@ -240,38 +240,44 @@ Homer                192.168.1.200:8001
 Netbox               192.168.1.200:8002
 Portainer            192.168.1.200:9000
 
-        Synology - 192.168.1.201 (static)
+        Synology - 192.168.1.201 (static) - NAS Storage
 Synology NAS         192.168.1.201:5000
 Portainer Agent      192.168.1.201:9001
 
-        Protectli Vault - 192.168.1.1 (static)
-                          192.168.1.202 (static)
-                          192.168.1.204 (static)
-pfSense              192.168.1.1:80
-Proxmox              192.168.1.202:8006
-docker-containers    192.168.1.204
-Portainer Agent      192.168.1.204:9001
-Guacamole            192.168.1.204:8194
+        NucBoxM6 - 192.168.1.202 (static) - ROS2 Development
+Portainer Agent      192.168.1.202:9001
 
-        Argon ONE Raspberry Pi 4 - 192.168.1.203 (static)
+        NucBoxG5 - 192.168.1.203 (static) - Windows 11
+Portainer Agent      192.168.1.203:9001
+
+        Protectli Vault - 192.168.1.1 (static)
+                          192.168.1.20X (static)
+                          192.168.1.20X (static)
+pfSense              192.168.1.1:80
+Proxmox              192.168.1.20X:8006
+docker-containers    192.168.1.20X
+Portainer Agent      192.168.1.20X:9001
+Guacamole            192.168.1.20X:8194
+
+        Argon ONE Raspberry Pi 4 - 192.168.1.20X (static)
 home-assist-test     192.168.1.xxx
 Home Assistant       192.168.1.xxx:8123
 Portainer Agent      192.168.1.xxx:9001
 
-        Clear Case Raspberry Pi 3 - 192.168.1.205 (static)
-test-pi              192.168.1.205
-Home Assistant       192.168.1.205:8123
-Portainer Agent      192.168.1.205:900or 1
+        Clear Case Raspberry Pi 3 - 192.168.1.20X (static)
+test-pi              192.168.1.20X
+Home Assistant       192.168.1.20X:8123
+Portainer Agent      192.168.1.20X:900or 1
 
         Other Boxes
-NTP Server           192.168.1.206        Raspberry Pi 2 Model B Rev 1.1
-Wireless Print Server 192.168.1.207       Raspberry Pi Zero W 2
+NTP Server           192.168.1.20X        Raspberry Pi 2 Model B Rev 1.1
+Wireless Print Server 192.168.1.20X       Raspberry Pi Zero W 2
 WiFi6 Access Point   192.168.1.2:80       TP-Link EAP610
 WiFi Range Extender  192.168.1.3:80       TP-Link
 Ethernet Switch      192.168.1.4:80       TP-Link TL-SG116E - on TV & IoT network
 Ethernet Switch      192.168.1.5:80       TP-Link TL-SG108E - on personal network
-Proxmox              192.168.1.208:8123   hostname: pve-2.jeffskinnerbox.me / mgmt. interface: enp2s0
-Home Assistant       192.168.1.203        hostname: home-assist
+Proxmox              192.168.1.20X:8123   hostname: pve-2.jeffskinnerbox.me / mgmt. interface: enp2s0
+Home Assistant       192.168.1.20X        hostname: home-assist
 Philips Hue Gateway  DHCP
 SmartThings Gateway  DHCP
 

@@ -5,7 +5,8 @@ Version:      0.0.0
 
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg" title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
+<img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
+    title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
 
@@ -14,6 +15,7 @@ Version:      0.0.0
 
 
 * [RP2040 vs STM32 vs ESP32 vs ESP8266](https://socialcompare.com/en/comparison/rp2040-vs-stm32-vs-esp32-vs-esp8266)
+* [STM32 vs ESP32: Common Microcontroller Mistakes That Cause IoT Product Failures](https://medium.com/@digital.auckam/stm32-vs-esp32-common-microcontroller-mistakes-that-cause-iot-product-failures-82a150a6c60f)
 * [ESP8266 vs ESP32 vs ESP32-S2 vs ESP32-C3](https://socialcompare.com/en/comparison/esp8266-vs-esp32-vs-esp32-s2)
 * [10 Best Microcontrollers on the Market for 2021](https://www.eetasia.com/10-best-microcontrollers-on-the-market-for-2021/)
 

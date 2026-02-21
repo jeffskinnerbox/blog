@@ -13,7 +13,7 @@ Version:      0.0.0
 ---------------
 
 
-large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/docs/grandmaster-clock-for-your-home-gps-stratum-1-server.md`.
+A large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/docs/grandmaster-clock-for-your-home-gps-stratum-1-server.md`.
 
 
 
@@ -21,6 +21,10 @@ large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/do
 # Can You Simplify With This Approach?
 
 * [Atomic Clock Sync: ESP32 NTP Magic in Just 2 Lines of Code!](https://www.youtube.com/watch?v=K7HHSdpa9t0)
+* [On-demand Sync Clock (OSC)](https://www.instructables.com/On-demand-Sync-Clock-OSC/) - On-Demand Sync Clock (OSC), a smart table clock that calibrates itself with one touch of a button.
+
+
+
 * [Arduino Nano ESP32 LED matrix precision clock](https://www.hackster.io/marcozonca/arduino-nano-esp32-led-matrix-precision-clock-fd1b6)
 * [Self-Setting Big Clock Build with Nano ESP32 and MicroPython](https://www.hackster.io/doug-domke/self-setting-big-clock-build-with-nano-esp32-and-micropython-45153e)
 
@@ -328,6 +332,11 @@ Project of a clock (or other information) on ceiling in bedroom
 
 ## Split-Flap Display (aka flip-clock)
 
+* The Best ... Maybe - [This DIY Split-Flap Display Does Both Time And Weather](https://hackaday.com/2021/04/29/this-diy-split-flap-display-does-both-time-and-weather/)
+  * [GitHub: barlowtj48/flipclock](https://github.com/barlowtj48/flipclock)
+* Or this - [Split Flap Clock](https://www.thingiverse.com/thing:5964202)
+* Perfect Motors - [Geared Stepper Motor](https://www.amazon.com/gp/product/B015RQ97W8/)
+
 * [Split Flap Clock](https://www.thingiverse.com/thing:5964202)
 * [How a Split-Flap Display Works](https://www.youtube.com/watch?v=UAQJJAQSg_g)
 * [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
@@ -341,7 +350,6 @@ Project of a clock (or other information) on ceiling in bedroom
 * [3D Printed Flip Clock Is Worth A Second Look](https://hackaday.com/2020/02/12/3d-printed-flip-clock-is-worth-a-second-look/)
 * [Split flap-things - Search](https://www.thingiverse.com/search?q=Split+flap&type=things&sort=relevant)
 * [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
-* [This DIY Split-Flap Display Does Both Time And Weather](https://hackaday.com/2021/04/29/this-diy-split-flap-display-does-both-time-and-weather/)
 * [Recreating an old-school mechanical split-flap display with Arduino](https://www.blogdot.tv/recreating-an-old-school-mechanical-split-flap-display-with-arduino/)
 * [Steppers And ESP32 Make This Retro-Modern Flip-Clock Tick](https://hackaday.com/2021/10/02/steppers-and-esp32-make-this-retro-modern-flip-clock-tick/)
 * [Split Flap Display Tells Us The Word](https://hackaday.com/2022/03/02/split-flap-display-tells-us-the-word/)
@@ -349,6 +357,10 @@ Project of a clock (or other information) on ceiling in bedroom
 
 * [A Flip Clock That Flips Up, Not Down](https://hackaday.com/2021/11/24/a-flip-clock-that-flips-up-not-down/)
 * [Non-Split-Flap Clock Does It With Fewer Flaps](https://hackaday.com/2024/05/16/non-split-flap-clock-does-it-with-fewer-flaps/)
+* [Printable Filament Spool Hub Skips the Bearings](https://hackaday.com/2019/03/16/printable-filament-spool-hub-skips-the-bearings/)
+  * GitHub: barlowtj48
+/
+flipclock
 
 
 ## Cyclotron Clock
@@ -1421,6 +1433,7 @@ turn the knob to set the alarm time, and another press put it back into "Clock" 
 You'll also need a speaker to make some noise and a button to turn it off.
 Finally, add a AM/PM indicator on the clock face.
 
+* [Working with the Adafruit I2C Rotary Encoder](https://dronebotworkshop.com/i2c-rotary-encoders/)
 * [ESP8266 Peripherals: KY-040 Rotary Encoder](https://blog.squix.org/2016/05/esp8266-peripherals-ky-040-rotary-encoder.html)
 
 

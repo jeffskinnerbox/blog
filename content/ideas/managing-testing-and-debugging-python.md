@@ -45,16 +45,28 @@ exec "$SHELL"     # reload your shell or alternatively you can restart your term
 # determine the python version you want for your development
 pyenv install --list | grep -E ' 3\.([1-9][0-9]+)'
 
-# create your virtual environment for python development
+# enter your project directory
 cd <project-directory>
+
+# select the version of python you will use
 pyenv install 3.13.7                 # released on August 14, 2025
 pyenv local 3.13.7
-uv init
-uv run main.py
+
+# create your virtual environment for python development
+uv init                              # creates pyproject.toml and other starter files
+uv sync                              # creates .venv based on pyproject.toml
+
+# activate virtual environment
 source .venv/bin/activate
 
 # install you standard development tools
 uv pip install flask ruff
+
+ # run your python code
+ python code.py
+
+# to deactivate your vertical environment session
+deactivate
 
 # install the stubs for circuitpython libraries (this installs stubs for ALL boards)
 uv pip install circuitpython-stubs
@@ -91,15 +103,20 @@ tio /dev/ttyACM0
 # ----------------------- typical close-out workflow when using uv / pyenv ------------------------
 
 # to save your project for later use
-pip freeze > requirements.txt
+uv pip freeze > requirements.txt
 ```
 
 
 ---------------
 
 
+* [How to Install Python on Your System: A Guide](https://realpython.com/installing-python/)
+
 * [Python 3.14 and the End of the GIL](https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/)
 * [Pixi: A Smarter Way to Manage Python Environments](https://www.kdnuggets.com/pixi-a-smarter-way-to-manage-python-environments)
+
+# Managing Secrets and API Keys
+* [Managing Secrets and API Keys in Python Projects (.env Guide)](https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide)
 
 # Next-gen Python Tooling
 Over the years, legacy Python has created multiple tools & procedures to manage the Python interpreter,
@@ -688,6 +705,8 @@ as well as taking steps to fix them.
 
 * [Python Debugging With pdb: Overview](https://realpython.com/lessons/python-debugging-pdb-overview/)
 * [Python Debugging With pdb](https://realpython.com/courses/python-debugging-pdb/)
+* [The new pdbp (Pdb+) Python debugger!](https://dev.to/mintzworld/the-new-pdbp-pdb-python-debugger-2blc)
+  * [GitHub: mdmintz/pdbp](https://github.com/mdmintz/pdbp)
 
 
 # ViperIDE
@@ -1120,7 +1139,6 @@ window = tk.Tk()
 
 * [What Is the **pycache** Folder in Python?](https://realpython.com/python-pycache/)
 
-
 ---------------
 
 # Python Modules
@@ -1144,7 +1162,6 @@ window = tk.Tk()
 * [Role of Underscore(\_) in Python Tutorial](https://www.datacamp.com/tutorial/role-underscore-python)
 * [Single and Double Underscore Naming Conventions in Python](https://realpython.com/courses/single-double-underscore-naming-conventions/)
 
-
 ---------------
 
 # TOML Files
@@ -1166,16 +1183,9 @@ TOML plays an essential role in the Python ecosystem.
 
 ---------------
 
-
 # Python Versioning
 
-
-
 ---------------
-
-
----------------
-
 
 # Build a Python Command-Line App
 
@@ -1186,17 +1196,13 @@ Example programs that make heavy use of Python's commandline utilities.
 * [Build a Command-Line To-Do App With Python and Typer](https://realpython.com/python-typer-cli/)
 * [Manage Your To-Do Lists Using Python and Django](https://realpython.com/django-todo-lists/)
 
-
 ---------------
-
 
 # Basic Input / Output
 
 * [Basic Input and Output in Python](https://realpython.com/python-input-output/)
 
-
 ---------------
-
 
 # Python Graphical User Interfaces (GUI)
 * [Python GUI's With TKinter](https://www.youtube.com/playlist?list=PLCC34OHNcOtoC6GglhF3ncJ5rLwQrLGnV)
@@ -1217,10 +1223,7 @@ The lean application framework for Python. Build sophisticated user interfaces w
 * [Textual](https://www.textualize.io/)
   * [GitHub: Textualize/textual](https://github.com/Textualize/textual)
 
-
-
 ---------------
-
 
 # Pickle Module
 
@@ -1243,17 +1246,13 @@ Rich can also render pretty tables, progress bars, markdown, syntax highlighted 
   * [Pretty terminal output with Python and Rich](https://calmcode.io/course/rich/introduction)
   * [The Python Rich Package: Unleash the Power of Console Text](https://realpython.com/python-rich-package/)
 
-
 ---------------
-
 
 # Web Scraping With Scrapy and MongoDB
 
 * [Web Scraping With Scrapy and MongoDB](https://realpython.com/web-scraping-with-scrapy-and-mongodb/)
 
-
 ---------------
-
 
 # Check for Issues with Dependencies
 
@@ -1269,9 +1268,7 @@ It supports the following types of projects:
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 * [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
 
-
 ---------------
-
 
 # Build a Python Script
 
@@ -1280,8 +1277,10 @@ It supports the following types of projects:
 * [You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)
 * [Execute Your Python Scripts With a Shebang](https://realpython.com/courses/execute-python-scripts-with-shebang/)
 
-
 ---------------
+
+# Geospatial Data in Python
+* [GeoPandas Basics: Maps, Projections, and Spatial Joins](https://realpython.com/geopandas/)
 
 
 

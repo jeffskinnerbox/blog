@@ -35,6 +35,8 @@ Animatronic Eye Mechanism
 * [Building a SMART Home Assistant with ChatGPT and a Raspberry Pi](https://www.youtube.com/watch?v=1lATPsPnCrc)
 * [GPT Home](https://github.com/judahpaul16/gpt-home)
 
+* [Make Your Own ESP32-Based Person Sensor, No Special Hardware Needed](https://hackaday.com/2026/01/28/make-your-own-esp32-based-person-sensor-no-special-hardware-needed/)
+
 
 
 # "The Watcher"

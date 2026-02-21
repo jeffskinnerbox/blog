@@ -27,6 +27,13 @@ Rapid, low cost manufacturing for fast moving robotics companies
 * [ScreamingCircuits](https://www.screamingcircuits.com/)
 
 
+| Parametric Modeling | Direct Modeling |
+|:-------------------:|:---------------:|
+| Parametric uses rules and dimensions  | Direct edits the shape freely |
+| Parametric updates the whole model automatically  | Direct changes only what you touch |
+| Parametric keeps a feature history tree  | Direct has little or no history |
+| Parametric is precise and planne | Direct is fast and flexible |
+|Parametric suits complex, repeatable designs | Direct suits quick fixes and concept edits |
 
 
 # What CAD Tool to Pick
@@ -702,6 +709,7 @@ wget https://www.thingiverse.com/download:1545313 -O nuts_and_bolts_v1.95.scad
 * [FreeCAD Video Tutorials by sliptonic](https://www.youtube.com/user/sliptonic/videos)
 
 * [Learn FreeCAD by](https://www.youtube.com/watch?v=CG_czsNdUfs&list=PL2935W76vRNFvUGefQr3q9P9eezJZyj-u)
+* [STL Editing With FreeCAD](https://hackaday.com/2026/01/22/stl-editing-with-freecad/)
 
 
 ## Workbenches

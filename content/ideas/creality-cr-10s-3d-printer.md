@@ -12,6 +12,13 @@ Version:      0.0.0
 ---------------
 
 
+# 3D Printing ... Where It All Begins to Grow Big
+* [Mini Documentary on Dr Adrian Bowyer, with bonus FreeCAD appearances!](https://blog.freecad.org/2026/01/05/mini-documentary-on-dr-adrian-bowyer-with-bonus-freecad-appearances/)
+  * [How 3D printing started: About Rep-rap and open-source with Adrian Bowyer](https://blog.prusa3d.com/adrian-bowyer_127066/)
+  * [RepRap Project](https://reprap.org/wiki/RepRap)
+  * [RepRap Ltd](https://reprapltd.com/)
+  * [About Rep-rap and open-source with Adrian Bowyer](https://www.youtube.com/watch?v=tKq33qlHenM)
+
 # Hackaday Series by: Al Williams
 
 * [3D Printering: Klipper, The Free 3D Printer Upgrade](https://hackaday.com/2024/08/29/3d-printering-klipper-the-free-3d-printer-upgrade/)
@@ -1165,19 +1172,6 @@ Often times an enclosure is necessary to keep the ambient heat around the printe
 
 
 # Projects
-
-
-## Split-Flap Display
-
-* [Custom Split-Flap Display Is a Unique Way to Show the Weather](https://hackaday.com/2018/08/18/custom-split-flap-display-is-a-unique-way-to-show-the-weather/)
-* [Splitflap](https://scottbez1.github.io/splitflap/)
-* [SPLIT FLAP DISPLAY](https://www.instructables.com/id/Split-Flap-Display/)
-* [Split-flap display - A 3d printed split-flap display using a 28byj-48 stepper motor](https://hackaday.io/project/163725-split-flap-display)
-* [Easy, Modular Alphanumeeric Display are full of Flappy Goodness](https://hackaday.com/2018/02/20/easy-modular-alphanumeric-displays-are-full-of-flappy-goodness/)
-* [Printable Filament Spool Hub Skips the Bearings](https://hackaday.com/2019/03/16/printable-filament-spool-hub-skips-the-bearings/)
-* [Split flap-things - Search](https://www.thingiverse.com/search?q=Split+flap&type=things&sort=relevant)
-* [IoT Split-flap Weather Forecast Powered by XOD](https://www.instructables.com/id/IoT-Split-flap-Weather-Forecast-Powered-by-XOD/)
-* [This DIY Split-Flap Display Does Both Time And Weather](https://hackaday.com/2021/04/29/this-diy-split-flap-display-does-both-time-and-weather/)
 
 
 ## Radio Controlled Car

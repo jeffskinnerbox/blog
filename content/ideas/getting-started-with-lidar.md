@@ -11,14 +11,24 @@ Version:      0.0.0
 
 ---------------
 
-I purchased on 11/8/25 (5 week delivery) from DFRobot the RPLiDAR S2L - ToF LiDAR 360° Laser Range Scanner - [RPLiDAR S2L](https://www.dfrobot.com/product-2617.html)
-* <https://www.amazon.com/dp/B0BGXXTXSB>
-* [10 Best Slamtec Rplidar Lidar Slam of 2025](https://reviews.oneclearwinner.com/product/slamtec-rplidar-lidar-slam/)
-* [RPlidar S2](https://www.slamtec.com/en/S2)
-* [RPLIDAR S2 Key parameters](https://www.slamtec.com/en/S2/Spec)
 
-* [RoomMapper: Room Measurement with RPLidar and Raspberry Pi](https://www.hackster.io/aula-jazmati/roommapper-room-measurement-with-rplidar-and-raspberry-pi-7bf728)
-* [Using the Slamtec RPLIDAR on a Raspberry Pi](https://learn.adafruit.com/slamtec-rplidar-on-pi)
+
+
+* [Turn a Time-of-Flight Sensor into a 3D Scanner](https://www.youtube.com/watch?v=s32OUzhjf4U)
+
+
+
+I purchased on 11/8/25 (and delivery to me on 01/05/2026) from DFRobot
+the RPLiDAR S2L - ToF LiDAR 360° Laser Range Scanner - [RPLiDAR S2L](https://www.dfrobot.com/product-2617.html)
+
+* <https://www.amazon.com/dp/B0BGXXTXSB>
+* [10 Best Slamtec RPLiDAR Lidar Slam of 2025](https://reviews.oneclearwinner.com/product/slamtec-rplidar-lidar-slam/)
+* [RPLiDAR S2](https://www.slamtec.com/en/S2)
+* [RPLiDAR S2: DOcuments, 3D Models, SDK/Firmware, Application Note](https://www.slamtec.com/en/Support#rplidar-s2)
+* [RPLiDAR S2 Key parameters](https://www.slamtec.com/en/S2/Spec)
+
+* [RoomMapper: Room Measurement with RPLiDAR and Raspberry Pi](https://www.hackster.io/aula-jazmati/roommapper-room-measurement-with-rplidar-and-raspberry-pi-7bf728)
+* [Using the Slamtec RPLiDAR on a Raspberry Pi](https://learn.adafruit.com/slamtec-rplidar-on-pi)
 
 
 
@@ -64,14 +74,14 @@ I want the information to be summarized and organized as follows:
 
 
 
-# SLAMTEC RPLIDAR Product Analysis
+# SLAMTEC RPLiDAR Product Analysis
 ## Comprehensive Evaluation for Robotic Vehicle Design
 
 ---------------
 
 ## Product Specifications Comparison Table
 
-| **Specification** | **RPLIDAR A1** | **RPLIDAR A2** | **RPLIDAR A3** | **RPLIDAR C1** | **RPLIDAR S2** | **RPLIDAR S3** |
+| **Specification** | **RPLiDAR A1** | **RPLiDAR A2** | **RPLiDAR A3** | **RPLiDAR C1** | **RPLiDAR S2** | **RPLiDAR S3** |
 |---|---|---|---|---|---|---|
 | **Technology** | Triangulation | Triangulation | Triangulation | Fusion DTOF | DTOF (TOF) | DTOF (TOF) |
 | **Price (USD)** | $99-117 | $229-258 | $584-599 | $65-81 | $399-537 | $549 |
@@ -98,7 +108,7 @@ I want the information to be summarized and organized as follows:
 ---------------
 
 ## Detailed Product Summaries
-### RPLIDAR A1 (A1M8-R6)
+### RPLiDAR A1 (A1M8-R6)
 
 **Typical Use Case:** Entry-level robotics education, hobbyist projects, small indoor mobile robots, educational SLAM implementations,
 and cost-sensitive applications requiring basic 360° scanning.
@@ -118,7 +128,7 @@ The triangulation-based measurement provides consistent accuracy in typical indo
 While not the highest resolution option, it delivers reliable performance for loop closure detection and map building in controlled indoor spaces.
 
 **Popularity:**
-The RPLIDAR A1 is arguably the most popular and widely deployed low-cost LiDAR in the robotics community.
+The RPLiDAR A1 is arguably the most popular and widely deployed low-cost LiDAR in the robotics community.
 Extensive ROS/ROS2 support, abundant tutorials, and a large user base make it the default choice for educational robotics and DIY projects.
 Available through major distributors globally with strong ecosystem support.
 
@@ -138,7 +148,7 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ---------------
 
-### RPLIDAR A2 (A2M12)
+### RPLiDAR A2 (A2M12)
 
 **Typical Use Case:** Commercial service robots, industrial AGVs, educational robotics requiring longer range, upgraded indoor mobile platforms, and applications demanding improved reliability and lifespan over the A1.
 
@@ -162,12 +172,12 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ---------------
 
-### RPLIDAR A3 (A3M1)
+### RPLiDAR A3 (A3M1)
 
 **Typical Use Case:** Professional service robots, outdoor/indoor hybrid applications, large-scale mapping projects, advanced research platforms, commercial delivery robots, and applications requiring maximum triangulation-based range and performance.
 
 **Most Noteworthy Features:**
-* Longest range of triangulation-based RPLIDAR series at 25 meters
+* Longest range of triangulation-based RPLiDAR series at 25 meters
 * Dual operating modes: Enhanced (indoor) and Outdoor (sunlight resistance)
 * Highest sampling rate in A-series at 16,000 Hz
 * Superior angular resolution of 0.225°
@@ -187,7 +197,7 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ---------------
 
-### RPLIDAR C1
+### RPLiDAR C1
 
 **Typical Use Case:** Budget-conscious consumer robotics, home service robots, robot vacuums, compact mobile platforms, hobbyist projects requiring better close-range performance than triangulation sensors, and educational SLAM with modern TOF technology.
 
@@ -212,7 +222,7 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ---------------
 
-### RPLIDAR S2 (S2/S2L/S2E variants)
+### RPLiDAR S2 (S2/S2L/S2E variants)
 
 **Typical Use Case:** Commercial service robots, industrial AMRs, outdoor/indoor navigation, warehouse automation, parking lot navigation, delivery robots, agricultural robots, and applications requiring IP65 protection with long-range capability.
 
@@ -227,7 +237,7 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 * Dual communication interfaces: UART and Ethernet
 * Backward compatible with A-series interfaces
 
-**Applicability to SLAM Algorithms:** The S2 represents professional-grade SLAM capability. The 32K sampling frequency provides the highest point density in the RPLIDAR lineup, enabling precise feature extraction and robust data association. The 30m range enables SLAM in outdoor and large industrial spaces. The DTOF technology's immunity to ambient light allows consistent SLAM operation in variable lighting, including direct sunlight - previously impossible with triangulation sensors. The high sampling density improves loop closure detection and reduces drift in long-term mapping. Ethernet connectivity enables efficient large-scale point cloud transmission. Ideal for production-grade autonomous systems requiring 24/7 operation.
+**Applicability to SLAM Algorithms:** The S2 represents professional-grade SLAM capability. The 32K sampling frequency provides the highest point density in the RPLiDAR lineup, enabling precise feature extraction and robust data association. The 30m range enables SLAM in outdoor and large industrial spaces. The DTOF technology's immunity to ambient light allows consistent SLAM operation in variable lighting, including direct sunlight - previously impossible with triangulation sensors. The high sampling density improves loop closure detection and reduces drift in long-term mapping. Ethernet connectivity enables efficient large-scale point cloud transmission. Ideal for production-grade autonomous systems requiring 24/7 operation.
 
 **Popularity:** Standard choice for commercial and industrial robotics. Widely deployed in logistics automation, commercial cleaning robots, and autonomous delivery platforms. Strong presence in agricultural robotics market. Professional pricing limits hobbyist adoption but extensive industry validation.
 
@@ -238,12 +248,12 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ---------------
 
-### RPLIDAR S3
+### RPLiDAR S3
 
 **Typical Use Case:** Premium service robots, advanced outdoor navigation, drone/UAV obstacle avoidance, security robots, autonomous vehicles (campus shuttles), long-range mapping applications, and systems requiring maximum performance in compact form factor.
 
 **Most Noteworthy Features:**
-* Longest range in RPLIDAR lineup at 40m (70% reflectivity)
+* Longest range in RPLiDAR lineup at 40m (70% reflectivity)
 * Ultra-compact at only 40mm total height
 * Highest angular resolution at 0.1125° (smallest LiDAR from SLAMTEC)
 * 32,000 Hz sampling frequency
@@ -268,7 +278,7 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ### Primary Recommendations (Prioritized)
 
-1. **RPLIDAR C1** ($65-81) - **BEST VALUE CHOICE**
+1. **RPLiDAR C1** ($65-81) - **BEST VALUE CHOICE**
    * Excellent price-to-performance ratio
    * Superior close-range detection (0.05m blind zone) crucial for rapid turns
    * DTOF technology provides consistent measurements during rotation
@@ -276,14 +286,14 @@ limited outdoor capability without direct sunlight, and lower angular resolution
    * Lightest option, minimal impact on robot dynamics
    * Modern technology with strong future support
 
-2. **RPLIDAR A1** ($99-117) - **PROVEN & RELIABLE**
+2. **RPLiDAR A1** ($99-117) - **PROVEN & RELIABLE**
    * Most established product with largest community support
    * Extensive tutorials and troubleshooting resources
    * Proven performance in countless DIY robots
    * Low power consumption
    * Slightly larger blind zone (0.15m) but adequate for most applications
 
-3. **RPLIDAR A2M12** ($229-258) - **PROFESSIONAL UPGRADE**
+3. **RPLiDAR A2M12** ($229-258) - **PROFESSIONAL UPGRADE**
    * Best choice if budget allows for quality-of-life improvements
    * Ultra-thin 40mm profile ideal for compact robots
    * 16m extended range for larger spaces
@@ -292,9 +302,9 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ### Conditional Recommendations
 
-4. **RPLIDAR S2** ($399-537) - If outdoor operation or IP65 protection needed
-5. **RPLIDAR A3** ($584-599) - If maximum precision or outdoor mode required
-6. **RPLIDAR S3** ($549) - Only if future outdoor expansion or flagship performance justified
+4. **RPLiDAR S2** ($399-537) - If outdoor operation or IP65 protection needed
+5. **RPLiDAR A3** ($584-599) - If maximum precision or outdoor mode required
+6. **RPLiDAR S3** ($549) - Only if future outdoor expansion or flagship performance justified
 
 ### Not Recommended
 None - all SLAMTEC products are viable, but S2/A3/S3 are over-specified for basic 1 m/s indoor applications.
@@ -303,7 +313,7 @@ None - all SLAMTEC products are viable, but S2/A3/S3 are over-specified for basi
 
 ## Technical Integration Notes
 
-All RPLIDAR products interface cleanly with Raspberry Pi 5:
+All RPLiDAR products interface cleanly with Raspberry Pi 5:
 * **Communication**: UART (3.3V TTL) directly compatible with Pi 5 GPIO, or use included USB adapter
 * **Power**: All run on 5V (2-4W), can be powered from Pi 5 or separate regulated supply
 * **Software**: Mature ROS/ROS2 drivers, Python libraries, and C++ SDKs available
@@ -324,7 +334,7 @@ All RPLIDAR products interface cleanly with Raspberry Pi 5:
 
 ## Conclusion
 
-For a Raspberry Pi 5-based robot operating at 1 m/s with rapid turn capability, the **RPLIDAR C1** offers the best combination of value, performance, and modern features. Its DTOF technology and minimal blind zone address the key challenges of compact robot navigation. The **RPLIDAR A1** remains an excellent choice for budget-conscious builds with proven reliability. For professional or long-term projects where budget allows, the **RPLIDAR A2M12** provides meaningful improvements in range, resolution, and longevity that justify the incremental cost.
+For a Raspberry Pi 5-based robot operating at 1 m/s with rapid turn capability, the **RPLiDAR C1** offers the best combination of value, performance, and modern features. Its DTOF technology and minimal blind zone address the key challenges of compact robot navigation. The **RPLiDAR A1** remains an excellent choice for budget-conscious builds with proven reliability. For professional or long-term projects where budget allows, the **RPLiDAR A2M12** provides meaningful improvements in range, resolution, and longevity that justify the incremental cost.
 
 The higher-end S2, A3, and S3 models deliver exceptional performance but are optimized for applications (outdoor navigation, 30m+ range, industrial environments) that exceed your stated requirements. Reserve these for future platform upgrades or if specific capabilities (outdoor operation, IP65 rating, maximum range) are mission-critical.
 
@@ -357,7 +367,7 @@ high-precision tasks like those in industrial robotics, but is slower and less a
 Sources:
 * [Do you know how to choose lidar ?](https://www.youtube.com/watch?v=mUuI32JQolo&t=1s)
 * [7 Tips for Choosing a Lidar](https://www.youtube.com/watch?v=Yf1SRjS1Rxg)
-* [SLAM Lidar RPLIDAR A1 A2 A3 S1 S2 MapperM2 support Mapping navigation for ROS robot](https://www.youtube.com/watch?v=3j2vGMQMyH8)
+* [SLAM Lidar RPLiDAR A1 A2 A3 S1 S2 MapperM2 support Mapping navigation for ROS robot](https://www.youtube.com/watch?v=3j2vGMQMyH8)
 
 ### FAST-LIO, Navigation2
 * [Robust Odometry and Fully Autonomous Driving Robot | ATCrawler x FAST-LIO x Navigation2](https://www.youtube.com/watch?v=0oBHPxRycTk&t=101s)
@@ -407,7 +417,7 @@ Sources:
 * [An Explainer on the Different Types of LiDAR Devices](https://www.crowdsupply.com/onion/tau-lidar-camera/updates/an-explainer-on-the-different-types-of-lidar-devices)
 * [best distance sensor for robots](http://www.teraranger.com/products/teraranger-one/)
 * [Linear Array Solid LiDAR (25-300mm)](https://www.dfrobot.com/product-2645.html)
-* [RPLIDAR A1M8 - 360 Degree Laser Scanner Development Kit](https://www.dfrobot.com/product-1125.html)
+* [RPLiDAR A1M8 - 360 Degree Laser Scanner Development Kit](https://www.dfrobot.com/product-1125.html)
 * [Xaxxon OpenLIDAR Sensor offers open hardware and software](https://www.geeky-gadgets.com/xaxxon-openlidar-sensor-16-10-2019/)
 * [Make Your Own LIDAR Sensor](https://dzone.com/articles/make-your-own-lidar-sensor)
   * <https://www.adafruit.com/product/3316>

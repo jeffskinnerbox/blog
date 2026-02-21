@@ -15,6 +15,7 @@ Version:      0.0.0
 
 * [RP2040 vs STM32 vs ESP32 vs ESP8266](https://socialcompare.com/en/comparison/rp2040-vs-stm32-vs-esp32-vs-esp8266)
 * [Getting Started with CircuitPython on XIAO RP2040](https://www.youtube.com/watch?v=KDb5SQzsGb0)
+* [The Raspberry Pi Pico's RP2040 has been certified for 200 MHz clock speeds, up from 133 MHz](https://www.msn.com/en-us/lifestyle/shopping/the-raspberry-pi-picos-rp2040-has-been-certified-for-200-mhz-clock-speeds-up-from-133-mhz/ar-AA1znPeu)
 
 
 * [Raspberry Pi Pico Lectures 2025](https://www.youtube.com/playlist?list=PLDqMkB5cbBA4GisLzRSqw5x5G38M4zlkr)

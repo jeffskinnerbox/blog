@@ -120,7 +120,8 @@ Here are the top recommendations:
    Niryo (makers of the Ned2 industrial-style arm) offers one of the most mature paths from blocks to ROS2.
    Their software is built entirely on ROS2 and is designed for the precise transition you described.
   * **How it works:** You program in Niryo Studio, which uses a Blockly interface. One click allows you to see the generated Python code.
-  * **ROS2 Integration:** Because the arm runs a ROS2 stack internally, the blocks correspond directly to ROS2 actions and services. Advanced students can SSH into the robot and run the same Python scripts they saw in the Blockly interface as native ROS2 nodes.
+  * **ROS2 Integration:** Because the arm runs a ROS2 stack internally, the blocks correspond directly to ROS2 actions and services.
+    Advanced students can SSH into the robot and run the same Python scripts they saw in the Blockly interface as native ROS2 nodes.
   * **Target Field:** Industrial Automation & Collaborative Robotics.
 * **[Robobo](https://theroboboproject.com/en/) (The Robobo Project)**
 Robobo is an educational robot that uses a smartphone as its "brain."
@@ -188,6 +189,12 @@ While viewing the [Simple Subscriber][05] video, follow these steps:
 At the top right on the ROS Blocky how screen,
 try out TurtleSim, Joint State Publisher, RVis2, ROS 2 Topics
 
+# XRPCode Development Environment
+The XRPCode Development Environment is a web-based integrated development environment (IDE) used to program the Experiential Robotics Platform (XRP) robot, supporting both Blockly (visual) and Python (text-based) languages. It runs in Chromium-based browsers like Google Chrome or Microsoft Edge, requiring no installation on your computer.
+
+* [XRP Code Editor](https://xrpcode.wpi.edu/)
+* [Documentation: XRP (Experiential Robotics Platform)](https://xrpusersguide.readthedocs.io/en/latest/course/introduction.html)
+* [XRPCode Integrated Development Environment](https://xrpusersguide.readthedocs.io/es/latest/course/XRPCode.html)
 
 
 [01]:https://scratch.mit.edu/

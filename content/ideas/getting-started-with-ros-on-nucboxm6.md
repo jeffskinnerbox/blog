@@ -13,7 +13,6 @@ Version:      0.0.0
 
 
 # Getting Started with Robot Operating System 2 (ROS 2)
-
 The [Robot Operating System (ROS)][17] is not an operating system in the traditional sense,
 but a "glue" or middleware that holds your robotic system together.
 It enables different robot components, running as separate processes within multiple physical locations.
@@ -24,13 +23,11 @@ ROS allows various parts of the robot system (sensors, actuators, decision-makin
 to work cooperatively to fulfill its mission.
 
 ## Robotics
-
 What is a robot? What is robotics?
 
 ## Installing ROS2
 
 ## The Tech Stack
-
 Robot
 Robotics
 Process
@@ -48,7 +45,6 @@ Physics Engine - realistic interactions with physical properties such as momentu
 Modelling - refers to the process of creating a digital representation of a physical object
 
 ## Robot Modelling and Visualisation
-
 A critical aspect of designing and simulating robots is the creation of
 accurate and visually / dynamically representative models of the robot.
 These models are blueprints for capturing the geometric properties and mechanical mobility of the robot.
@@ -73,7 +69,6 @@ An accurate visual model assists in simulating and predicting how sensors (such 
 interact with the environment and assist the robot in it mission.
 
 ### Components of a URDF Visual Model
-
 The components that make up URDF Visual Model are intended to inform the robots internal controls
 how the robot can configure itself in physical space.
 When operated, or simulated, you want to know how the robot is positioned,
@@ -101,13 +96,11 @@ enabling you to accurately model complex robot structures.
 contributing to the realism of the model.
 
 ### Tools for Working with URDF
-
 Creating and manipulating URDF files can be accomplished with various tools,
 such as ROS packages like `urdfdom` for parsing URDF XML statements and `Rviz` for visualization,
 or modeling software like Blender or CAD tools.
 
 ## Sources
-
 * [Getting Started with Robot Operating System 2 (ROS 2)](https://medium.com/@thebinayak/getting-started-with-robot-operating-system-2-ros-2-ef56d2ac29f0)
 * [An Introduction to Understanding Visual Robot Models with URDF](https://www.linkedin.com/pulse/introduction-understanding-visual-robot-models-urdf-kangal/)
 * [Robot Modelling and Visualisation in ROS 2: A Practical Guide](https://medium.com/@thebinayak/robot-modelling-and-visualisation-in-ros-2-a-practical-guide-fa666160011d)
@@ -119,7 +112,6 @@ or modeling software like Blender or CAD tools.
 
 
 # Robot Operating System (ROS)
-
 [Robot Operating System (ROS)][03] is a framework consisting of a huge number of libraries and tools specifically for developing robots.
 It’s open source, supported by a large community,
 and designed to support real-time performance and multi-robot systems.
@@ -135,13 +127,11 @@ and validate robot designs in complex environments, offering realistic physics a
 visualize sensor data, robot models, and environment maps, aiding in debugging and monitoring robot behavior.
 
 The following tasks will be performed:
-
 * Install Ubuntu Desktop OS
 * Install Your User Environment
-* Install Docker
 * Install Robot Operating System (ROS)
 * Enable ROS Screen Sharing
-* Running ROS in Docker Container
+* Install Docker
 
 
 ---------------
@@ -258,7 +248,7 @@ Before I removed the monitor / keyboard / mouse, I did the following:
 
 1. I checked to make sure `ssh` was working by via `ssh jeff@NucBoxM6.local` but this failed to find `NucBoxM6`.
 2. I executed on my network the command `sudo netdiscover -c 3 -s 10 -L -N -r 192.168.1.0/24` and I found a new device with IP address of `192.168.1.154`.
-3. The command `ssh jeff@92.168.1.154` did not work so I need to configure SSH via the Ubuntu environment just installed.
+3. The command `ssh jeff@192.168.1.154` did not work so I need to configure SSH via the Ubuntu environment just installed.
 
 To fix this ssh problem, I did the following:
 
@@ -286,6 +276,85 @@ I can now remove the  monitor / keyboard / mouse from the GMKTec M6
 and put it on my network via an Ethernet cable.
 Going forward, I'll use a terminal to log into my ROS environment
 and all command-line and GUI / X-Windows program should work over this connection.
+
+#### Step 4B: Configuring a Static IP Address
+Configuring a static IP address on Ubuntu 24.04 can be done using the command-line interface (CLI) via Netplan,
+which is standard for both server and desktop editions,
+or through the graphical user interface (GUI) on the desktop edition.
+
+Open a terminal and list your network interfaces to find the correct name (e.g., `eth0`, `ens33`, `enp0s3`).
+Since we know the current IP address (i.e. `192.168.1.154`), we'll search for that to fine the network interface:
+
+```bash
+# list your network interfaces to find the correct name
+$ ip a
+    .
+    .
+    .
+    inet6 ::1/128 scope host noprefixroute
+       valid_lft forever preferred_lft forever
+2: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 84:47:09:44:e2:12 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.154/24 brd 192.168.1.255 scope global dynamic noprefixroute enp2s0
+       valid_lft 81594sec preferred_lft 81594sec
+    inet6 2600:4040:4034:ff00:7834:7852:dd10:58da/64 scope global temporary dynamic
+       valid_lft 7073sec preferred_lft 7073sec
+    .
+    .
+    .
+```
+
+So the network interface we are using is `enp2s0`.
+
+```bash
+# check that the IP address
+$ ip a show enp2s0
+2: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 84:47:09:44:e2:12 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.154/24 brd 192.168.1.255 scope global dynamic noprefixroute enp2s0
+       valid_lft 80675sec preferred_lft 80675sec
+    inet6 2600:4040:4034:ff00:7834:7852:dd10:58da/64 scope global temporary dynamic
+       valid_lft 6933sec preferred_lft 6933sec
+    inet6 2600:4040:4034:ff00:1618:af65:e526:c7cd/64 scope global temporary deprecated dynamic
+       valid_lft 6933sec preferred_lft 0sec
+    inet6 2600:4040:4034:ff00:8647:9ff:fe44:e212/64 scope global dynamic mngtmpaddr
+       valid_lft 6933sec preferred_lft 6933sec
+    inet6 fe80::8647:9ff:fe44:e212/64 scope link
+       valid_lft forever preferred_lft forever
+```
+
+With this information, we need to update the Netplan configuration files are located in the `/etc/netplan/` directory.
+The filename may vary (e.g., `00-installer-config.yaml`, `50-cloud-init.yaml`).
+Open the appropriate file with an editor, in my case `nvim 50-cloud-init.yaml`
+It should look like this when completed:
+
+```yaml
+network:
+  version: 2
+  ethernets:
+    enp2s0:
+      addresses:
+        [192.168.1.202/24]
+      dhcp4: false
+      dhcp6: false
+```
+
+You can use `sudo netplan try` first to test the configuration and automatically roll back if connectivity is lost.
+
+```bash
+# try the new ip address for 30 seconds
+sudo netplan try --timeout 30
+
+# check that the static IP address has been applied successfully
+ping 192.168.1.202
+
+# apply the new configuration
+sudo netplan apply
+
+# check that the IP address
+ip a show enp2s0
+```
+
 
 
 #### Step 5: Check if X Windows is Running - DONE
@@ -752,7 +821,7 @@ and there is an easy to configure Gnome specific screen sharing solution.
 
 #### Step X: Install Some Screen Sharing Tool - DONE, NOT
 
---------------
+---------------
 
 
 # Install Docker
@@ -1076,269 +1145,156 @@ rqt
 ```
 
 
---------------
+---------------
+
+
+# Building Existing ROS Robot
+[Bumperbot][18] is an open-source 3D printed self-driving robot powered by ROS 2.
+Its simple design and low cost make it an excellent learning platform
+and featured in some of [Learn by Doing!][19] cou/[gui-apps-within-a-docker-container-971681838fdanrses.
+In this section, the Bumperbot code will be built, without the hardware, but we can run it in the RViz simulator.
+
+#### Step 1: Clone Bumperbot into ROS Workspace - DONE
+Fist we must create the directory system used to build Bumperbot.
+
+```bash
+# create ros workspace
+mkdir -p ~/bumperbot_ws/src
+
+# clone bumperbot
+cd ~/bumperbot_ws/src
+git clone https://github.com/AntoBrandi/Bumper-Bot.git
+```
+
+#### Step 2: Install the Dependencies - DONE
+The ROS 2 utility [`rosdep`][20] is a command-line tool that automatically identifies
+and installs system-level dependencies (libraries, tools) required to build or run ROS packages.
+It simplifying the setup development environments across different Linux distributions (like Ubuntu, Debian) and platforms.
+
+```bash
+# configures your current terminal session's environment to
+# locate and use the ROS 2 Jazzy installation, called the underlay
+source /opt/ros/jazzy/setup.bash
+
+# identifies and installs system-level dependencies (libraries, tools)
+# required to build or run ROS packages
+cd ~/bumperbot_ws
+rosdep install --from-paths src --ignore-src -i -y
+```
+
+* **How it works**
+  1. **Scans for dependencies:** `rosdep` looks at your ROS packages (either a single one or a whole workspace) for `package.xml` files.
+  1. **Reads `rosdep` keys:** Inside `package.xml`, it finds `<depend>`, `<build_depend>`, `<exec_depend>`, etc.,
+     which are abstract "rosdep keys" (e.g., `boost`, `opencv`).
+  1. **Consults the index:** It cross-references these keys with a central index (the [rosdistro][26])
+     to find the specific system package name for your operating system.
+  1. **Installs:** It then uses your system's package manager (like apt on Ubuntu) to install the necessary packages, often with `sudo`.
+* **When to use it**
+  1. **`rosdep install --from-paths src --ignore-src -r -y`:** When setting up a new ROS workspace from source to get all needed system libraries before building.
+  1. **`sudo apt install <ros-package>`:** When installing pre-built ROS packages from your system's repositories,
+     `apt` might use `rosdep` internally to fetch missing system dependencies first.
+  1. **Before building:** As a safety check to ensure all prerequisites are met for building from source.
+
+The `rosdistro` utility (and associated repository) provides the
+central index and metadata for all ROS distributions, defining packages,
+their versions, repositories, and dependencies, acting as a crucial input for tools like `rosdep`
+to manage installation and build requirements across different ROS releases (like Humble, Iron, etc.).
+
+#### Step 3: Build the Workspace - DONE
+The `colcon build` utility in ROS 2 compiles and builds all packages within your ROS workspace,
+handling dependencies and ordering, placing compiled outputs into an `install` directory,
+making your ROS nodes, libraries, and executables ready to run after sourcing the workspace's `setup.bash` file.
+It automates the complex process of building multiple packages together,
+creating `build`, `install`, and `log` folders in your workspace.
+
+```bash
+# compiles and builds all packages within your ROS workspace
+cd ~/bumperbot_ws
+colcon build
+```
+
+>NOTE: `bumperbot_firmware` will have a `stderr` output but this doesn't seem to be a problem.
+
+* **Key Functions & Process:**
+  * **Builds Source Code:** It takes the source code from your src directory (containing ROS packages) and compiles it.
+  * **Manages Dependencies:** It identifies and helps manage dependencies between packages, ensuring they are built in the correct order.
+  * **Creates Build Artifacts:**
+    * **build/:** Stores intermediate build files (like CMake objects).
+    * **install/:** Contains the final built executables, libraries, and Python scripts.
+    * **log/:** Stores logs from the build process.
+  * **Automates Workflows:** Replaces older tools like `catkin_make` and simplifies building entire ROS 2 workspaces with a single command.
+  * **Enables Quick Iteration (with `--symlink-install`):** Using `colcon build --symlink-install` creates symbolic links for Python files,
+    allowing you to edit them directly in `src` without a full rebuild.
+* **How to Use:**
+  1. **Navigate** to the root of your ROS 2 workspace (where the `src` folder is).
+  1. **Run** `colcon build`.
+  1. **Source** the environment to use your built packages: `source install/setup.bash` (or `setup.sh` / `setup.bat` depending on your shell)
+     in the workspace's install directory.
+
+#### Step 5: Source Your ROS Workspace - DONE
+In a new terminal, source the ROS Workspace for the underlay and the overlay
+
+>**NOTE:** Use this command in a separate terminal from the one you used to build the workspace.
+
+```bash
+# in a new terminal, not where you doing the build of your workspace
+cd ~/bumperbot_ws
+source /opt/ros/jazzy/setup.bash
+
+# source the ros workspace, called the overlay
+. install/setup.bash
+```
+
+ROS 2 relies on the notion of combining workspaces using the shell environment.
+“Workspace” is a ROS term for the location on your system where you’re developing with ROS 2.
+The core ROS 2 workspace is called the underlay.
+Subsequent local workspaces are called overlays.
+When developing with ROS 2, you will typically have several workspaces active concurrently.
+
+Combining workspaces makes developing against different versions of ROS 2,
+or against different sets of packages, easier.
+It also allows the installation of several ROS 2 distributions (or “distros”, e.g. Jazzy and Eloquent)
+on the same computer and switching between them.
+
+This is accomplished by sourcing setup files every time you open a new shell,
+or by adding the source command to your shell startup script once.
+Without sourcing the setup files, you won’t be able to access ROS 2 commands, or find or use ROS 2 packages.
+In other words, you won’t be able to use ROS 2.
+
+The ROS 2 command `. install/setup.bash` is used to configure your current shell environment
+to locate and use the ROS 2 installation and any packages built within your local workspace.
+When you run this command (often referred to as "sourcing" the setup file),
+it performs the following essential tasks:
+
+* **Sets Environment Variables:** It defines and updates necessary environment variables,
+  such as `ROS_DISTRO`, `AMENT_PREFIX_PATH`, and `LD_LIBRARY_PATH`, so that your system knows
+  where to find ROS 2 executables, libraries, configuration files, and packages.
+* **Enables ROS 2 Commands:** Without sourcing this file,
+  you won't be able to use any ROS 2 command-line tools
+  (e.g., `ros2 run`, `ros2 topic list`, `colcon build`) in that terminal session.
+* **Combines Workspaces (Overlay/Underlay):** In a development scenario, it integrates your local workspace
+  (where you build custom packages) with the main, system-wide ROS 2 installation (the "underlay").
+  This allows the shell to use both your newly built packages and existing ROS 2 core packages seamlessly.
+
+This command is usually run every time a new terminal session is opened or, more commonly,
+added to your shell's startup script (like `~/.bashrc`) so that ROS 2 is automatically set up for every new shell.
+For more details, you can refer to the official [ROS 2 documentation on configuring the environment][21].
+
+#### Step 6: Launch Simulation
+aunch all the functionalities for the simulated robot
+
+```bash
+# launch simulation
+ros2 launch bumperbot_bringup simulated_robot.launch.py
+```
+
+
+---------------
 
 
 # Install ROS on Windows Subsystem for Linux (WSL)
 
 * [Install ROS2 Jazzy on Windows Subsystem for Linux and Windows 11 and 10](https://www.youtube.com/watch?v=cLpVG51EImQ)
-
-
---------------
-
-
-## Running ROS 2 Jazzy Jalisco in Docker Container
-
-One of the ROS courses on the Web is ["Robotics and ROS 2 Essentials"][13],
-which is a beginner-friendly introduction to robotics and ROS 2,
-and it has a focus on learning by doing and experimenting through exercises.
-The practical exercises that accompany the theoretical content are
-based on a Gazebo simulation with the [simulated Andino robot from Ekumen][14].
-
-One of the nice things about this course is that ROS doesn't need to be installed on your system.
-Instead, the course uses Docker to provide all the course exercises in a containerized environment,
-requiring no manual installation of ROS 2, simulation, packages, and dependencies.
-All you need is an Ubuntu Operating System and Docker installed, and you are all set!
-
-### Setup for Dockerized ROS
-
-Despite it simplicity, there are some challenges to get it working within my configuration
-where I wish to running a X Window System (X11) application on my server (the GMKTec with Ubuntu 24.04)
-but display its graphical output on a remote client (my `desktop` with Ubuntu with X Window).
-**This will not work for me.**
-Appears the Docker container was built to support everything working on the server.
-So that is documented below.
-
->**NOTE:** No preliminary ROS 2 installation is required.
->Instead, the course uses Docker to provide all the course exercises in a containerized environment,
->requiring no manual installation of ROS 2, simulation, packages, and dependencies
-
-#### Step 0: Install ROS Docker Container
-
-[Exercises 0 - Setup](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/0-setup)
-
-```bash
-# clone the repository containing ros2 and gazebo simulator
-cd ~/src
-git clone https://github.com/henki-robotics/robotics_essentials_ros2.git
-
-# create a new workspace for your exercises, this will be automatically mounted and available from the docker container
-mkdir -p $HOME/exercises_ws/src
-```
-
-Before bring up the Docker container, run the following command.
-This will give permissions to your containers to send their display to the containers host system.
-
-```bash
-# give permissions to your containers to send their display to the containers host system.
-xhost +
-
-# use docker compose to build and run the Docker container
-cd ~/src/robotics_essentials_ros2/docker/
-sudo docker compose up
-```
-
-Now open a new terminal (e.g. via `CTRL+ALT+T` and run this command to start a new terminal inside the Docker container.
-The `docker exec` command opens a new terminal inside this Docker container,
-allowing you to interact with it.
-
-```bash
-# get terminal access to the inside of the docker container
-sudo docker exec -it robotics_essentials_ros2 bash
-```
-
-Now while in the terminal inside the Docker container, we perform a test to make sure everything is working correctly:
-
-```bash
-# while inside the docker container
-# perform a test to make sure everything is working correctly
-ros2 launch andino_gz andino_gz.launch.py
-```
-
-Sources:
-
-* [Robotics and ROS 2 Essentials: Exercises 0 - Setup](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/0-setup)
-* [GUI apps within a Docker container](https://medium.com/@paliwalsamriddhi/gui-apps-within-a-docker-container-971681838fda)
-* [X11 forwarding from a docker container in remote server](https://unix.stackexchange.com/questions/403424/x11-forwarding-from-a-docker-container-in-remote-server)
-
-#### Step 1: Exercises 1 - ROS 2 Introduction
-
-In this [Exercises 1 - ROS 2 Introduction](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/1-ros_2_introduction#basic-concepts),
-**ROS 2 Topics** are the first to be explore.
-ROS 2 Topics are a core communication mechanism in ROS 2 that enable
-data exchange in a publish/subscribe model.
-Publishers send messages to a named topic,
-while subscribers listen to that topic to receive relevant data.
-
-In another terminal, execute these commands:
-
-```bash
-# in another terminal, gain access to ros
-sudo docker exec -it robotics_essentials_ros2 bash
-
-# list all the available ROS 2 topics
-$ ros2 topic list
-/camera_info
-/clicked_point
-/clock
-/cmd_vel
-/goal_pose
-/image_raw
-/initialpose
-/joint_states
-/odom
-/parameter_events
-/robot_description
-/rosout
-/scan
-/scan/points
-/tf
-/tf_static
-
-# get more info about the /camera_info topic to learn the message type
-$ ros2 topic info /camera_info
-Type: sensor_msgs/msg/CameraInfo
-Publisher count: 1
-Subscription count: 0
-
-# get more info about the /scan topic to learn the message type
-$ ros2 topic info /scan
-Type: sensor_msgs/msg/LaserScan
-Publisher count: 1
-Subscription count: 1
-
-# read the sensor data from the laser scanner (press CTRL+C to stop)
-ros2 topic echo /scan
-
-# move the robot by publishing to /cmd_vel topic
-ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.2}}"
-
-# send zero velocity command to stop the robot
-ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.0}}"
-
-# rotate the robot with this command
-ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{angular: {z: 0.5}}"
-
-# to stop the rotation, do the following
-ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{angular: {z: 0.0}}"
-```
-
-**RViz** is a useful visualization tool that allows us to display data from ROS 2 topics.
-The robot is constantly publishing images from the simulated camera.
-Let's see how those images look like!
-
-In ROS 2, **Coordinate Transforms (TF)**
-are used to describe the spatial relationships between different coordinate frames in a robotic system.
-They sit at the center of the robot, at the center of sensors, at joints,
-and there are so the "Map" and "Odometry" frames.
-
-Commonly used coordinate frames are as follows:
-
-* **map** - The map frame provides a global reference point for the robot's environment,
-allowing it to understand its position within a larger context.
-Typically, the coordinates in the map frame present the robot's coordinates on a 2D map.
-* **odom** - The odom frame represents the robot's position based on its odometry data.
-It tracks the robot's movement from its starting point, being subject to drift and inaccuracies.
-* **base_footprint** - The base_footprint frame is a 2D representation of the robot's footprint on the ground,
-typically used for planning and movement calculations without considering the robot's height.
-* **base_link** - The base_link frame represents the robot's main body
-and is used as a reference for other components, such as sensors and arms.
-* **laser_link** - The laser_link frame denotes the position of a laser sensor on the robot.
-It is essential for interpreting the data collected by the laser
-for tasks like mapping and obstacle detection,
-providing a reference for where the sensor is located in relation to other frames.
-
-TF frames in RViz
-
-* **fixed frame** - The fixed frame is used to determine from which frame's perspective you are visualizing the data.
-This is an important feature to know about,
-as sometimes the data you are looking to visualize might not be available if you are visualizing a wrong frame.
-
-TFs allow you to convert positions and orientations from one frame to another,
-and basically keep track of how each part of your robot moves in relation to the other parts of the robot.
-This is crucial for tasks like navigation, sensor fusion, and manipulation.
-By using transforms, robots can effectively understand their position in the world and how their sensors
-and motors are located in relation to their body.
-
-The relationship between these coordinate frames is determined with **tf-tree**.
-It essentially tells, with a tree-like structure,
-what is the child-frame's position in relation to the parent frame.
-
-#### Step 2: Exercises 2 - SLAM and Navigation Demo
-
-In this [Exercises 2 - SLAM and Navigation Demo](https://github.com/henki-robotics/robotics_essentials_ros2/blob/main/2-slam_and_navigation_demo/README.md),
-we'll use the robot to build a new 2D map of the simulated environment and autonomously navigate on it.
-The packages that will be used perform these tasks are:
-
-* [Slam-toolbox](https://github.com/SteveMacenski/slam_toolbox/tree/ros2) is an advanced 2D SLAM (Simultaneous Localization and Mapping)
-solution for ROS 2.
-* [Nav2, aka Navigation2](https://github.com/ros-navigation/navigation2), is a framework for ROS 2 that enables robots to navigate autonomously.
-* [AMCL](https://github.com/ros-navigation/navigation2/tree/main/nav2_amcl) (stands for [Adaptive Monte Carlo Localization](https://roboticsknowledgebase.com/wiki/state-estimation/adaptive-monte-carlo-localization/)) is a probabilistic localization system used in ROS 2, and is part of the Nav2 stack.
-It enables robots to determine their position within a known map using particle filters.
-AMCL uses sensor data, typically from a LiDAR, to refine the estimated pose of the robot as it navigates.
-
-To get ROS2 up & running, execute these commands in a terminal:
-
-```bash
-# give permissions to your containers to send their display to the containers host system.
-xhost +
-
-# use docker compose to build and run the Docker container
-cd ~/src/robotics_essentials_ros2/docker/
-sudo docker compose up
-```
-
-In another terminal, gain access to ROS within the container
-and run the simulator:
-
-```bash
-# in a terminal, gain access to ros
-sudo docker exec -it robotics_essentials_ros2 bash
-ros2 launch andino_gz andino_gz.launch.py
-
-# run slam-toolbox
-sudo docker exec -it robotics_essentials_ros2 bash
-ros2 launch andino_gz slam_toolbox_online_async.launch.py
-```
-
-In RViz, subscribe to /map topic to view the map that is being built
-Use Gazebo teleop to drive the robot around in the simulation and map the area.
-
-Once you are satisfied with the map,
-open a new terminal inside the Docker container and run this command to save it:
-
-```bash
-# in another terminal, gain access to ros
-sudo docker exec -it robotics_essentials_ros2 bash
-
-# launch the Andino simulation with Nav2
-ros2 launch andino_gz andino_gz.launch.py nav2:=True
-```
-
-#### Step 3: Exercises 3 - Create Your First Ros 2 Package
-
-
-In this [Exercises 3 - Create Your First Ros 2 Package](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/3-create_ros_2_package)
-
-#### Step 4: Exercises 4 - Robot Odometry
-
-In this [Exercises 4 - Robot Odometry](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/4-robot_odometry)
-
-#### Step 5: Exercises 5 - Path Planning
-
-In this [Exercises 5 - Path Planning](https://github.com/henki-robotics/robotics_essentials_ros2/tree/main/5-path_planning)
-
-#### Step 6: Remove All Stopped Containers
-
-To clean up all the Docker object created by this course,
-execute the following:
-
-```bash
-# stop and remove all of parts of the 'robotics_essentials_ros2' container
-sudo docker stop robotics_essentials_ros2
-sudo docker rm robotics_essentials_ros2
-sudo docker rmi --force robotics_essentials_ros2
-```
 
 
 
@@ -1353,11 +1309,13 @@ sudo docker rmi --force robotics_essentials_ros2
 [10]:https://hackaday.com/2018/05/31/modular-robotics-made-easier-with-ros/
 [11]:https://docs.ros.org/en/jazzy/Installation.html
 [12]:https://hub.docker.com/_/ros/
-[13]:https://henkirobotics.com/robotics-and-ros-2-essentials-course-announcement/
-[14]:https://github.com/Ekumen-OS/andino_gz/tree/humble
+
 [15]:https://www.linkedin.com/pulse/introduction-understanding-visual-robot-models-urdf-kangal/
 [16]:https://en.wikipedia.org/wiki/Willow_Garage
 [17]:https://en.wikipedia.org/wiki/Robot_Operating_System
+
+[20]:https://docs.ros.org/en/jazzy/Tutorials/Intermediate/Rosdep.html
+[21]:https://docs.ros.org/en/jazzy/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html
 
 [45]:https://en.wikipedia.org/wiki/VNC
 [46]:https://en.wikipedia.org/wiki/Framebuffer
@@ -1379,6 +1337,8 @@ sudo docker rmi --force robotics_essentials_ros2
 [68]:https://pypi.org/
 [69]:https://www.anaconda.com/
 [70]:https://www.anaconda.com/docs/getting-started/miniconda/main
+
+
 
 
 
