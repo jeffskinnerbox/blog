@@ -13,6 +13,7 @@ Version:      0.0.0
 ---------------
 
 
+* [Don't set up Nginx Proxy Manager—use this instead for your Homelab](https://www.howtogeek.com/dont-set-up-nginx-proxy-manager-do-this-instead/)
 * [Stop believing these 4 network myths — they make your home lab less secure](https://www.xda-developers.com/stop-believing-these-network-myths/)
 
 

@@ -1272,6 +1272,7 @@ It supports the following types of projects:
 
 # Build a Python Script
 
+* [How to Run Your Python Scripts and Code](https://realpython.com/run-python-scripts/)
 * [How Can You Structure Your Python Script?](https://realpython.com/python-script-structure/)
 * [Executing commands safely from Python](https://supakeen.com/weblog/executing-commands-safely-from-python/)
 * [You should put this in all your Python scripts | if **name** == '**main**': ...](https://www.youtube.com/watch?v=g_wlZ9IhbTs)

@@ -16,6 +16,11 @@ Version:      0.0.0
 A large fraction of this document has been move to `/home/jeff/cad/intel-286-pc/docs/grandmaster-clock-for-your-home-gps-stratum-1-server.md`.
 
 
+# Analog Clock
+Uses an ESP8266 module and an Arduino sketch to display the local time on a inexpensive analog quartz clock.
+
+* [GitHub: jim11662418/ESP8266_WiFi_Analog_Clock](https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock?tab=readme-ov-file)
+* [Mainstays Basic Indoor 8.78-inch Black Analog Round Wall Clock](https://www.walmart.com/ip/Mainstays-Basic-Indoor-8-78-Black-Analog-Round-Modern-Wall-Clock/761592027)
 
 
 # Can You Simplify With This Approach?

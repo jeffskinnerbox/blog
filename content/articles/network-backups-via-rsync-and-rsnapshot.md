@@ -7,7 +7,12 @@ Author: Jeff Irland
 Image: backup-vault.png
 Summary: Using a external hard drive, and rsync / rsnapshot as a remote filesystem backup utility, I create scheduled incremental backups of my Linux & Windows file systems. This light-weight and efficient scheme allows me to create increment backups every 4 hours and keep backups up to three months.
 
+You can use this system restore utility to create snapshots at regular intervals and, if anything goes wrong, revert the system to that timestamped snapshot.
+
+* [How to rescue a "broken" Linux PC from the command line](https://www.howtogeek.com/how-to-use-timeshift-to-create-reliable-linux-snapshots-and-rollbacks/)
+
 ## Rsync and Rsnapshot
+
 <a href="http://thewirecutter.com/reviews/the-best-external-desktop-hard-drive/">
 <img class="img-rounded floatLeft" style="margin: 0px 8px; float: left" title="Seagate Backup Plus" alt="{{ site.author.name }}" src="/images/seagate-backup-plus-4-tb.jpg" width="30%" height="30%" /></a>
 I got a 4 Terabyte [Seagate Backup Plus][05] hard drive as a Christmas present and
@@ -57,8 +62,8 @@ and [rsnapshot][08] to create scheduled incremental backups, if so desired.
     Unlike [symlinks][34] there isn't a file and a pointer to the file, but rather two links to the same file.
     If you delete either entry the other will remain and will still contain the data.
 
-
 ## Install the Hard Drive
+
 The physical install of the external [Seagate Backup Plus][05] drive was simple, just plug it in.
 The only caveat is to use a [USB 3.0][06] port on the Linux box to make sure you
 get the fill speed out of the drive.
@@ -87,6 +92,7 @@ UUID=c484e1d5-5e9d-4f95-bca9-de500fa3d44e  /mnt/backup     ext3    defaults     
 ```
 
 ## Install rsync, grsync, and rsnapshot
+
 Rsync should already be installed on most Linux system.
 You can install it, and the [grsync][04] & [rsnapshot][08] tools, using this command:
 
@@ -95,6 +101,7 @@ sudo apt-get install rsync grsync rsnapshot
 ```
 
 ## Select Backup Storage Location
+
 I want to create directory for the backups that are readable by all users, but writable by only root.
 To do this, do the following:
 
@@ -105,9 +112,11 @@ sudo chmod o-w /mnt/backup
 ```
 
 ## Getting Familiar with rsync and Preparatory Work
+
 In this section, we'll learn about some of rsync's features and get some foundational stuff done.
 
 ### Dry Running a rsync Command
+
 Rsync has the potential of really messing up things
 and then doing an undo can be a tedious job.
 Rsync can be run in a "dry run" mode to show you the output of the command.
@@ -121,6 +130,7 @@ If the output shows exactly what you want to do,
 then you can remove `–dry-run` option from your command and re-run it for real.
 
 ### Test rsync on Local System
+
 In an effort to try out rsync in the raw,
 I'll create some ad hoc backups of my desktop's home directory.
 I want to preserves file timestamp, symbolic links, permissions, and owner/group.
@@ -146,6 +156,7 @@ The second does the same but the files and directories go within a directory cal
 This is an important subtlety to remember!
 
 ### Testing rsync on a Remote System
+
 In this case, my Linux desktop machine is the local system and RPi is the remote machine.
 The Linux desktop has the external drive used for backups.
 
@@ -207,6 +218,7 @@ You should no longer be promoted for a password, except by the first `sudo`.
 (Once rsync is run under a root login, this `sudo` will no longer be required).
 
 ### Exclude Files / Directories from rsync
+
 In a typical backup situation,
 you might want to exclude one or more files (or directories) from the backup.
 You might also want to exclude a specific file type from rsync.
@@ -225,6 +237,7 @@ sudo rsync -azv --exclude-from 'exclude-list.txt' pi@RedRPi:/home/pi/ /mnt/backu
 ```
 
 ### Running rsync as Root
+
 The above examples works fine as long as the source login (in this case `pi` on the `RedRPi` system)
 has the appropriate permissions.
 For example, this will fail:
@@ -271,6 +284,7 @@ That is, on the remote machine, rsync is being run as root!
 This all requires the proper set-up of ssh with password-less access, discussed earlier.
 
 ### Configuration of ssh to Eliminate Password Prompt and Warning Messages
+
 Proper configuration of ssh will be needed to assure routine warning messages[^D]
 don't disrupt the smooth operation of rsync / rsnapshot.
 
@@ -366,8 +380,8 @@ This should run without requesting passwords, it will run on the remote as the r
 and warning messages about differing "ECDSA host key" should not get in your way.
 It will run without user intervention; just what we need for automated backups!
 
-
 ### Creating Backup Users on Remote Servers
+
 On all the remote systems (i.e. RedRPi and BlackRPi) you need to create the login
 and establish its ssh authentication keys.
 
@@ -438,6 +452,7 @@ backup_user    ALL=NOPASSWD:    /usr/bin/rsync
 ```
 
 ### Creating Backup Users for Backup Server
+
 On the host server (i.e. desktop) you need to create the login
 (with a UID of less that 500[^G])
 which will run the rsync / rsnapshot utilities
@@ -478,6 +493,7 @@ backup_user    ALL=NOPASSWD:    /usr/bin/rsnapshot
 ```
 
 ## Configuring rsnapshot for Incremental Backups
+
 Our mission here is to use rsnapshot to create backups of both normal
 and protected/restricted files from one server to another over `ssh`
 without enabling remote root access to either server while
@@ -575,33 +591,33 @@ This can be a source of great confusion and frustration!
 
 ```bash
 # location where backups will be stored
-snapshot_root	/mnt/backup/
+snapshot_root /mnt/backup/
 
 # rsync command executed on the remote system
-cmd_rsync	/usr/bin/rsync
+cmd_rsync /usr/bin/rsync
 
 # incremental backup rules
-retain		hourly	6
-retain		daily	7
-retain		weekly	4
-retain		monthly	3
+retain  hourly 6
+retain  daily 7
+retain  weekly 4
+retain  monthly 3
 
 # rsnapshot's log file
-logfile	/var/log/rsnapshot.log
+logfile /var/log/rsnapshot.log
 
 # All rsync commands have at least these options set.
-rsync_short_args	-aev
-rsync_long_args	--delete --numeric-ids --relative --delete-excluded
+rsync_short_args -aev
+rsync_long_args --delete --numeric-ids --relative --delete-excluded
 
 # ssh args passed
-ssh_args	-i /home/backup_user/.ssh/id_rsa
+ssh_args -i /home/backup_user/.ssh/id_rsa
 
 # systems to be backed up, what high level directory name is to be used
 # and the additional arguments to pass to rsync
-backup	/	desktop/	exclude_file=/home/backup_user/rsync-exclude-desktop
-backup	backup_user@RedRPi:/	RedRPi/	exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
-backup	backup_user@BlackRPi:/	BlackRPi/	exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
-backup	Sara@SaraPC:/	SaraPC/	exclude_file=/home/backup_user/rsync-exclude-windows,+rsync_long_args=--fake-super
+backup / desktop/ exclude_file=/home/backup_user/rsync-exclude-desktop
+backup backup_user@RedRPi:/ RedRPi/ exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
+backup backup_user@BlackRPi:/ BlackRPi/ exclude_file=/home/backup_user/rsync-exclude-RPi,+rsync_long_args=--rsync-path=/home/backup_user/bin/rsync-wrapper.sh
+backup Sara@SaraPC:/ SaraPC/ exclude_file=/home/backup_user/rsync-exclude-windows,+rsync_long_args=--fake-super
 ```
 
 In my backup scheme, I have several remote systems (i.e. RedRPi, BlackRPi, and SaraPC),
@@ -616,6 +632,7 @@ and it tell rsnapshot to use additional parameters when calling rsync.
 This all required to maintain the security of the remote systems, and was discussed in the text above.
 
 ## Testing rsnapshot
+
 rsnapshot provides an easy way to check that your configuration file doesn't contain any syntax errors.
 Simply type:
 
@@ -640,6 +657,7 @@ If all is well, then remove the `-t` and run it for real to create the initial b
 This initial run is likely to run a long time, and shouldn't be done via cron as discussed below.
 
 ## Scheduling (Automating) Backups in crontab
+
 Linux [cron][15][^J] is used to schedule commands to be executed periodically.
 You can setup commands or scripts, which will be repeatedly run at a set time.
 
@@ -790,7 +808,6 @@ You can use `sudo crontab -l` to list the contents of crontab.
 To update it, use `crontab -e` and enter the following
 (Also, restart cron with `sudo service cron restart` to make sure the changes are in effect):
 
-
 ```bash
 # Each task to run has to be defined through a single line
 # indicating with different fields when the task will be run
@@ -900,6 +917,7 @@ fi
 ```
 
 ## Increased Security
+
 The final step is to lock all this down.
 To increase the security of the overall scheme,
 on the remote systems and on the local system,
@@ -913,6 +931,7 @@ sudo usermod -s /bin/false backup_user
 ```
 
 ## Monitoring rsnapshot
+
 Monitoring and testing is an essential part of any backup procedure.
 There's nothing worse than finding out
 that your backup hasn't been working for six months on the day that your system crashes.
@@ -922,6 +941,7 @@ Inspect this log regularly to make sure your backup jobs are running smoothly.
 You can increase or decrease the level of logging detail in the configuration file `/etc/rsnapshot.conf`.
 
 ## Backup from Windows Machines to Linux
+
 Backing up Windows systems has its own special challenges, but utilities exist to help.
 [Cygwin][27] is a a collection of tools that provide a Linux look and feel environment for Windows.
 If you install it, you can use linux commands and services on your Windows.
@@ -935,12 +955,14 @@ you'll follow a similar design pattern used above for the Linux boxes.
 Follow this procedure:
 
 ### Install Cygwin Tools
+
 * From the [cygwin site][27], download and run the setup program.  (Make sure to keep the setup program, since it is used to install additional Cygwin packages, if you so desire.)
 * Run your cygwin `setup.exe` and expand the categories to find "rsync" and "ssh".  You'll find them under the "Net" packages.
 * When the install is complete, the `rsync` and `ssh` programs (and many more) will be located in `C:\cygwin64\bin`. (This is equivalent to `/bin` when your running a `bash` shell in cygwin.)
 * In Windows, open a [Command Prompt (Admin) window][28].  Within this window, get a bash shell via the command `C:\cygwin64\bin\bash`.  Next execute `export Path=/bin:$PATH`.
 
 ### Get ssh Operational
+
 * Now make a home directory for the cygwin user, in my case this was `mkdir /home/Sara` and then `cd /home/Sara`.
 * Create a `ssh` public/private keys with the following command: `ssh-keygen -t rsa`.
 * Now start up the `ssh` services by following the instructions of "[Geek to Live: Set up a personal, home SSH server][26]".
@@ -950,12 +972,14 @@ Follow this procedure:
 * Make sure that in the files `/etc/ssh/sshd_config` and `/etc/ssh/ssh_config` that you have `RSAAuthentication yes` and `PubKeyAuthentication yes`.
 
 ### Test ssh and rsync
+
 * On the Linux Backup server, login as the `backup_user` user.
 * Test the connection via `ssh Sara@SaraPC` in a terminal window on the Linux box (note to self: Case is important!).  You should login without a password.
 * Test rsync via the command `sudo rsync -azv --fake-super Sara@SaraPC:/home/Sara /mnt/backup/rsync-test9`. You'll want to use the `--fake-super` option to suppress some i[issues with group ids][36].
 * Test the `/etc/rsnapshot.conf` given earlier by running `rsnapshot hourly`.
 
 ## Restore Files with rsnapshot
+
 Restoring files are an no brainier because the backups are plain directories.
 You can open a file browser or a terminal, enter a snapshot from a few hours/days/weeks/months ago,
 find a working directory where your files are store, and copy them to where their needed.
@@ -964,9 +988,11 @@ No need to “revert” or “restore” files from backup, or run any special s
 This is mighty convenient, intuitive, and fool proof.
 
 ## Sources
+
 I found these articles useful for writing this post and setting up my rsych / rsnapshot backup scheme.
 
 ### rsync
+
 * [How to Backup Linux? 15 rsync Command Examples](http://www.thegeekstuff.com/2010/09/rsync-command-examples/)
 * [Rsync (Remote Sync): 10 Practical Examples of Rsync Command in Linux](http://www.tecmint.com/rsync-local-remote-file-synchronization-commands/)
 * [6 rsync Examples to Exclude Multiple Files and Directories using exclude-from](http://www.thegeekstuff.com/2011/01/rsync-exclude-files-and-folders/)
@@ -975,6 +1001,7 @@ I found these articles useful for writing this post and setting up my rsych / rs
 * [Full System Backup with rsync](https://wiki.archlinux.org/index.php/Full_System_Backup_with_rsync)
 
 ### rsnapshot
+
 * [How to install and setup Rsnapshot incremental remote backup](https://kamaradski.com/1245/how-to-install-and-setup-rsnapshot-incremental-remote-backup)
 * [Debian / Ubuntu Linux Install and Configure Remote Filesystem Snapshot with rsnapshot Incremental Backup Utility](http://www.cyberciti.biz/faq/linux-rsnapshot-backup-howto/)
 * [Rsnapshot (Rsync Based) – A Local/Remote File System Backup Utility for Linux](http://www.tecmint.com/rsnapshot-a-file-system-backup-utility-for-linux/)
@@ -984,22 +1011,22 @@ I found these articles useful for writing this post and setting up my rsych / rs
 * [Implementing Redundant Backups with rsnapshot](http://www.evbackup.com/support-misc-redundant-backups-with-rsnapshot/)
 
 ### rsnapshot with root access
+
 * [Root, Sudo, and Rsnapshot](http://technokracy.net/2011/01/07/root_sudo_rsnapshot/)
 * [Backup remote Linux hosts without root access, using rsnapshot](http://dev.kprod.net/?q=linux-backup-rsnapshot-no-root)
 * [Backing Up Multiple Servers with Rsnapshot](http://derek.simkowiak.net/backing-up-multiple-servers-with-rsnapshot/)
 
 ### rsync and rsnapshot with Windows
+
 * [Backup from Windows to Linux with Rsync and SSH](http://www.smellems.com/tiki-read_article.php?articleId=14)
 * [Installing ssh and rsync on a Windows machine: minimalist approach](http://optics.ph.unimelb.edu.au/help/rsync/rsync_pc1.html)
 * [Using rsync and cygwin to Sync Files from a Linux Server to a Windows Notebook PC](http://www.trueblade.com/knowledge/using-rsync-and-cygwin-to-sync-files-from-a-linux-server-to-a-windows-notebook-pc)
 * [Rsync from Windows](http://terokarvinen.com/rsync_from_windows.html)
 
 ### SSH
+
 * [SSH Host Key Protection](http://www.symantec.com/connect/articles/ssh-host-key-protection)
 * [How to disable SSH host key checking](http://linuxcommando.blogspot.com/2008/10/how-to-disable-ssh-host-key-checking.html)
-
-
-
 
 [01]:http://www.techrepublic.com/blog/10-things/10-outstanding-linux-backup-utilities/
 [02]:http://rsync.samba.org/
@@ -1039,5 +1066,4 @@ I found these articles useful for writing this post and setting up my rsych / rs
 [36]:https://digitaldj.net/blog/2011/04/07/rsync-3-0-8-windows-and-chown/
 [37]:http://security.stackexchange.com/questions/10532/ecdsa-keys-changed-ssh-insecure-now
 [38]:https://pushover.net/
-[39]:http://rsnapshot.org/
 [40]:https://en.wikipedia.org/wiki/Man-in-the-middle_attack
