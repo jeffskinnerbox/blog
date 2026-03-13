@@ -510,6 +510,8 @@ German mathematician Martin Eichler said
 * [Infinities and Skepticism in Mathematics: Steve Patterson interviews N J Wildberger](https://www.youtube.com/watch?v=E_dGqavx5AU)
 * [The Father of Infinity and Modern Mathematics: Georg Cantor](https://ali.medium.com/the-father-of-infinity-and-modern-mathematics-georg-cantor-93beb245756e)
 * [Cantor’s Approach to Mathematical Infinity](https://medium.com/however-mathematics/cantors-approach-to-mathematical-infinity-ca0119e18894)
+* [The Man Who Stole Infinity](https://www.quantamagazine.org/the-man-who-stole-infinity-20260225/)
+* [How Can Infinity Come in Many Sizes?](https://www.quantamagazine.org/how-can-infinity-come-in-many-sizes-20260223/)
 * [Cardinal Numbers](https://medium.com/@joshuagammage/cardinal-numbers-661a1a6c224d)
 * [What is infinity and how many of them are there?](https://medium.com/@tivadar.danka/what-is-infinity-and-how-many-of-them-are-there-c4912322b5ad)
 * [Infinities are not made equal](https://towardsdatascience.com/infinities-are-not-made-equal-7f707e055efa)

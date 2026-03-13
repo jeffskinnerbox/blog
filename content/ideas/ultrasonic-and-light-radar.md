@@ -24,6 +24,8 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 
 * [RoomSense IQ](https://www.crowdsupply.com/roomsense-labs/roomsense-iq)
 
+* [Fermion: C4002 mmWave Human Presence Sensor - Static & Motion Detection (10m)](https://www.dfrobot.com/product-3081.html?marketing=69b2985864084)
+
 
 
 

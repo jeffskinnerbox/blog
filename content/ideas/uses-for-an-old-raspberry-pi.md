@@ -216,6 +216,7 @@ All you need are the following:
   * [The Simpsons TV with Touchscreen](https://www.reddit.com/r/raspberry_pi/comments/1hifkdg/the_simpsons_tv_with_touchscreen/)
   * [The Simpsons TV!! Raspberry Pi Powered TV That Plays The Simpsons Episodes On Loop FOREVER!!](https://www.youtube.com/watch?app=desktop&v=-msN7Z1xl7A&t=554s)
   * [Simpsons TV Build Guide - Waveshare Version](https://withrow.io/simpsons-tv-build-guide-waveshare)
+* [Someone made a functional tiny Simpsons TV using a 3D printer and a Raspberry Pi 4B 2G](https://www.xda-developers.com/someone-made-a-functional-tiny-simpsons-tv-using-a-3d-printer-and-a-raspberry-pi-4b-2g/)
 
 
 ## Connection Machine

@@ -187,6 +187,7 @@ Why?
 
 * [Proxy vs. Reverse Proxy (Explained by Example)](https://www.youtube.com/watch?v=ozhe__GdWC8)
 * [How to Setup a Reverse Proxy on Home Network](https://www.youtube.com/watch?v=QcnAqN_Ihqk)
+* [This simple Docker tool finally fixed my reverse proxy headache](https://www.xda-developers.com/this-simple-docker-tool-finally-fixed-my-reverse-proxy-headache/)
 * [Docker and Running your self-hosted applications in a more secure way behind a reverse proxy.](https://www.youtube.com/watch?v=8T68pB_Fkm4)
 * [Nginx Proxy Manager - How-To Installation and Configuration](https://www.youtube.com/watch?v=P3imFC7GSr0&t=129s)
 * [Additional Self-Hosted Security with Authelia on NGINX Proxy Manager](https://www.youtube.com/watch?v=4UKOh3ssQSU)

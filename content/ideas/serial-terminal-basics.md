@@ -590,6 +590,16 @@ Consult the websites [RPi Serial Connection][73] and
 for additional insights.
 
 
+# Blooper USB Looper
+The Blooper USB Looper, a modern null-modem style tool for UART debugging,
+device emulation and file transfer without a network.
+See how it logs serial data, enables full-duplex chat between computers, and safely connects two USB hosts.
+
+* [This USB Gadget Lets You Hack Serial Like It’s 1999](https://www.youtube.com/watch?v=TqhYRmpYBO0)
+* [“Blooper” Is a Null Modem Cable for the Modern USB Era](https://www.hackster.io/news/blooper-is-a-null-modem-cable-for-the-modern-usb-era-9c2dbd740279)
+* [Build Your Own USB Looper for Serial Debugging and File Transfer -- Episode 702](https://community.element14.com/challenges-projects/element14-presents/project-videos/w/documents/72033/build-your-own-usb-looper-for-serial-debugging-and-file-transfer----episode-702?CMP=SOM-YOUTUBE-PRG-E14PRESENTS-EP702-DESCRIPTION-COMM)
+
+
 # Bus Pirate
 
 <http://dangerousprototypes.com/docs/Bus_Pirate>

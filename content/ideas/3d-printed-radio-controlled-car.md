@@ -59,6 +59,9 @@ Version:      0.0.0
 * [Street Wheels for Longboard](https://www.thingiverse.com/thing:2939320)
 
 
+# Tiny RC Airplane
+* [Making Nano sized RC Airplanes!](https://www.youtube.com/watch?v=IZxwH8ZDc1s)
+
 # Tiny FPV RC Cars
 
 * [Hot Wheel Car Becomes 1/64 Scale Micro RC Car, Complete With Camera](https://hackaday.com/2023/11/13/hot-wheel-car-becomes-1-64-scale-micro-rc-car-complete-with-camera/)
