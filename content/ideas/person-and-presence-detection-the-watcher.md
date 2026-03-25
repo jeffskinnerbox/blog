@@ -25,6 +25,7 @@ This program just listen for those "probe requests" and prints to serial port th
 Animatronic Eye Mechanism
 * [Animatronic Eye Mechanism](https://www.instructables.com/Animatronic-Eye-Mechanism/)
 * [Simple Animatronic Eyes](https://makezine.com/projects/simple-animatronic-eyes/)
+* [You have to build this eyemech](https://www.youtube.com/watch?v=XpKnyTx_1mQ)
 
 * [The Eyes Have It: Stare Down Your Lighting](https://hackaday.com/2023/03/06/the-eyes-have-it-stare-down-your-lighting/)
 * [Adafruit Animated Eyes Bonnet for Raspberry Pi Pack](https://www.adafruit.com/product/3813)

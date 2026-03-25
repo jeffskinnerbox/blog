@@ -16,6 +16,7 @@ Version:      0.0.0
 
 Lazygit is a terminal based UI tool for Git commands. This tool allows to view commit history, pull or push changes, resolve merge conflicts, checkout recent branches, and more.
 
+* [How to Use Git: A Beginner's Guide](https://realpython.com/how-to-use-git/)
 * [Install and Use lazygit – A simple terminal UI for git commands](https://computingforgeeks.com/how-to-install-and-use-lazygit-a-simple-terminal-ui-for-git-commands/)
 * [Install Lazygit on Ubuntu 20.04](https://lindevs.com/install-lazygit-on-ubuntu)
 * [How to Install LazyGit on Ubuntu](https://tipsonunix.com/2023/02/06/how-to-install-lazygit-on-ubuntu/)

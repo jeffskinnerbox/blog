@@ -32,6 +32,9 @@ Version:      0.0.0
 
 # Build This?
 
+* [A plasma toroid for the modern era.](https://www.youtube.com/watch?v=Bl3zHuih_CY)
+* [Plasma Toroid (sky-guided PCB edition)](https://hackaday.io/project/194683-plasma-toroid-sky-guided-pcb-edition)
+
 * [A candle that never runs out of wax](https://www.youtube.com/shorts/xQ6JpTucA6U)
   * [Building a Wireless Power Plasma Candle ( Flame Discharge ft. Teslaundmehr)](https://www.youtube.com/watch?v=SyZuel2iaBk)
   * [DIY Plasma flame Tesla Coil - Step by Step (ft.Plasma Channel)](https://www.youtube.com/watch?v=-AQmaAEyTic)

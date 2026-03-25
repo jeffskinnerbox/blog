@@ -289,7 +289,7 @@ to check the integrity of circuit designs and to predict circuit behavior.
   * [A Spicy Regenerative Receiver](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
   * [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
 
-* [All About Circuts](http://www.allaboutcircuits.com/education/)
+* [All About Circuits](http://www.allaboutcircuits.com/education/)
 * [RF design guide](http://www.cdt21.com/resources/default.asp)
 * [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)
 
@@ -326,6 +326,33 @@ to check the integrity of circuit designs and to predict circuit behavior.
 * [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
 * [Xyce](https://xyce.sandia.gov/)
 
+### CircuitLab
+Build and simulate circuits right in your browser. Design with our easy-to-use schematic editor. Analog & digital circuit simulations in seconds.
+Online circuit simulator and electronic schematic editor.
+CircuitLab makes it easier for electrical engineers, students, and electronics hobbyists to design, analyze, build, and share electronic circuits.
+
+CircuitLab offers a limited free tier but requires a paid subscription for full access — currently around $79/year for individuals.
+LTSpice is completely free, providing powerful circuit simulation tools without any financial investment.
+
+
+| Feature / Capability | CircuitLab | LTSpicea |
+|:------------|:------------|:------------|
+| Best | forStudents, educators, quick prototyping | Professional engineers, power electronics, complex analog design |
+| Cost | Free tier + paid subscription | Completely free |
+| Platform | Web browser | Desktop (Windows/macOS) |
+| Learning curve | Low | Moderate to steep |
+| Simulation depth | Moderate | High |
+| Component model support | Limited for advanced ICs | Extensive, including 3rd-party SPICE models |
+
+
+**Bottom line:** If you want something fast to pick up, accessible anywhere, and good for learning or moderately complex circuits, CircuitLab is the better choice.
+If you need professional-grade simulation depth, broad component model support, and raw speed — and don't mind a steeper learning curve —
+LTSpice is the industry standard and hard to beat, especially since it's free.
+
+* [CircuitLab](https://www.circuitlab.com/)
+  * [Interactive Electronics Textbook](https://ultimateelectronicsbook.com/)
+  * [CircuitLab Youtube Videos](https://www.youtube.com/@CircuitLabInc/videos)
+  * [CircuitLab (Circuit Simulator) Video Tutorials](https://www.youtube.com/playlist?list=PL-pbIBjpFfqBBYQEry-K-fHfqY7DPW9T3)
 
 ### QucsStudio
 
@@ -565,6 +592,7 @@ Tutorials
 * [Fillet Mounts](https://www.youtube.com/watch?v=xwHybCZK-6k&app=desktop)
 * [Cubehero Blog](https://cubehero.com/)
 
+* [GitHub: BelfrySCAD/BOSL2](https://github.com/BelfrySCAD/BOSL2/tree/master) - library of shapes, masks, and manipulators to make working with OpenSCAD easier.
 
 ### OpenSCAD Animation
 

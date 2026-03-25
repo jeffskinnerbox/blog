@@ -40,6 +40,10 @@ Gemini Response: Yes, absolutely. This is one of the most powerful features of P
 
 ---------------
 
+* [How to deploy Pi-Hole with Docker and stop ads on every device on your LAN](https://thenewstack.io/pihole-docker-network-adblocking/)
+
+
+
 * [How I use Pi-hole and Tailscale for whole-network ad blocking](https://www.xda-developers.com/how-i-use-pi-hole-and-tailscale-for-whole-network-ad-blocking/)
 * [I use Tailscale for everything now, and it's the most boring but incredible software I run](https://www.xda-developers.com/use-tailscale-for-everything-its-boring-but-incredible/)
 * [5 ways I'm using Tailscale for more than just remote access](https://www.xda-developers.com/ways-tailscale-is-more-than-just-remote-access/)
