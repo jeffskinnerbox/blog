@@ -9,19 +9,31 @@ Version:      0.0.0
 
 ---------------
 
+
+Great article - [Joule Thief Circuit: A Low-Power Voltage Booster](https://circuitdigest.com/electronic-circuits/simple-joule-thief-circuit-voltage-booster)
+
+
+A Joule Thief Circuit is a minimalist boost converter circuit designed to extract and reuse energy from very low-voltage sources — such as almost-dead batteries — by stepping up their voltage to light an LED or power other small loads. This clever circuit achieves voltage boosting through rapid switching and magnetic energy conversion.
+
+Unlike traditional power supplies, the Joule Thief doesn’t require complex controllers: it oscillates automatically using just a few basic components. This simplicity makes it ideal for electronics enthusiasts, students, and makers who want to explore energy harvesting, inductive switching, and efficient circuit design.
 A Joule Thief is a simple circuit that takes advantage of the inductive kickback produced by an inductive element (a wound toroid in this case) to step up the voltage.
 
 The joule thief can operate with very low voltages, this means it can work with batteries which would normally be considered "dead", taking energy from them in a seemingly impossible way, hence it's name.
 
 The Joule Thief Circuit is a voltage booster circuit which converts a constant low voltage input into a periodic output of a higher voltage.
 
-A joule thief is nothing but a primitive switching regulator. There is nothing about it's design that restricts it to a single 1.5V cell. Most use a 1.5V cell for size reasons. And because a single 1.5V cell, at 1V, can easily be boosted to 3+ volts to power a white or other 3+ Vf leds.
-I've used a joule thief self osscilating circuit with 2 AA to power an LED for months without issues, with a random ferrite ring and Telco wire. Nothing optimized.
+A joule thief is nothing but a primitive switching regulator. There is nothing about it's design that restricts it to a single 1.5V cell. Most use a 1.5V cell for size reasons. And because a single 1.5V cell, at 1V, can easily be boosted to 3+ volts to power a white LEDs (LED with a forward voltage drop of 3 Volts or higher).
+I've used a joule thief self oscillating circuit with 2 AA to power an LED for months without issues, with a random ferrite ring and Telco wire. Nothing optimized.
 If the cell is full, the oscillating circuit gets saturated faster and less energy is needed to boost it to saturation. It will simply last longer.
-[Joule thief - Why only single celled?](https://electronics.stackexchange.com/questions/319797/joule-thief-why-only-single-celled)
 
+[Joule thief - Why only single celled?](https://electronics.stackexchange.com/questions/319797/joule-thief-why-only-single-celled)
 [two versions of the joule thief](https://blog.zakkemble.net/joule-thief/)
 [How to Build a Joule Thief & Steal Battery Power](https://www.arrow.com/en/research-and-events/articles/how-to-build-a-joule-thief-and-steal-battery-power)
+
+SUPER Joule Thief
+* [Make a SUPER Joule Thief Light!](https://www.instructables.com/Make-a-SUPER-Joule-Thief-Light/)
+
+----
 
 * [Easy Joule Thief Circuit](https://www.instructables.com/Easy-Joule-Thief-Circuit/)
 * [High Voltage Coin Cell](https://atomic14.substack.com/p/high-voltage-coin-cell)

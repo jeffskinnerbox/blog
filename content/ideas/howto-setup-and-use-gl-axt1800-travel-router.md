@@ -43,6 +43,18 @@ It supports:
 * SSID: GL-AXT1800-306
 * Key: RKETJQY3DN
 
+
+## Benefits of a Travel Router
+1. WiFi access is often limited to a single device but the router allows multiple devices to share that line.
+1. All you need to do is attach the travel router to the WiFi, then connect every single other device to the travel router instead.
+   That saves you the trouble of setting up a mess of nested tethered connections.
+1. Even if you don’t have to contend with paying per device, or a limited number of Wi-Fi slots, setting up the Wi-Fi connection on each device tends to be annoying. This is especially the case if you have to work through a janky captive portal each time—those pages that require you to agree to their terms and conditions before you can connect to the WiFi.
+1. If you use public Wi-fi with any regularity, you’ve probably had your phone or laptop warn you about the lax security settings on at least one occasion.
+   Travel routers let you encrypt all of your internet traffic before it ever touches whatever Wi-Fi network you’re connected to, which reduces the odds of your data being compromised to as close to zero as is reasonably possible.
+1. Local storage is extremely convenient
+Though not all portable routers offer it, many can function like a miniature NAS. Just pop in a microSD card or attach a USB drive (either a flash drive or portable SSD) to the USB port, and boom. You can access the files using the app.
+
+
 #### Step 1: Configuring the Travel Router
 The very first thing to do is to follow these steps:
 1. Power the travel router with a USB-C 5V/4A source. (**NOTE:** Must be rated 4A or above when delivering 5V)

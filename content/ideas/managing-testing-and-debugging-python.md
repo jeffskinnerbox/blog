@@ -1041,6 +1041,7 @@ which makes them pretty flexible and decoupled.
 * Logging
   * [Logging in Python](https://realpython.com/python-logging/)
   * [How to Use Loguru for Simpler Python Logging](https://realpython.com/python-loguru/)
+  * [Using Loguru to Simplify Python Logging](https://realpython.com/courses/using-loguru-to-simplify-python-logging/)
   * [Modern Python logging](https://www.youtube.com/watch?v=9L77QExPmI0)
   * [Logging in Python: A Developer’s Guide](https://blog.sentry.io/logging-in-python-a-developers-guide/)
   * [Eliot: Logging that tells you why it happened](https://eliot.readthedocs.io/en/stable/)
@@ -1071,6 +1072,7 @@ List  & dictionary comprehension is a way to create these object using a concise
 It allows us to generate a new list/dictionaries by applying an expression to each item in an existing iterable (such as a list or range).
 This helps us to write cleaner, more readable code compared to traditional looping techniques.
 
+* [Dictionaries in Python](https://realpython.com/python-dicts/)
 * [List Comprehension in Python](https://www.geeksforgeeks.org/python-list-comprehension/)
 * [Python Dictionary Comprehension](https://www.geeksforgeeks.org/python-dictionary-comprehension/)
 * [Building Dictionary Comprehensions in Python](https://realpython.com/courses/building-dictionary-comprehensions/)

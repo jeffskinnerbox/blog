@@ -13,6 +13,9 @@ Version:      0.0.0
 ---------------
 
 
+* [Microsoft quietly announced upcoming WSL upgrades, including a "more streamlined first-time setup and onboarding"](https://www.windowscentral.com/microsoft/windows-11/microsoft-quietly-announced-upcoming-wsl-upgrades-including-a-more-streamlined-first-time-setup-and-onboarding)
+
+
 Linux can be used on a MS Windows computer in several ways.
 It can be done via virtual machine (VM) software such as VirtualBox or VMware,
 or set up a dual-boot configuration,or via the [Windows Subsystem for Linux (WSL)][01]

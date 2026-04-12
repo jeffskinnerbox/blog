@@ -376,9 +376,12 @@ Bias-T is nothing more than a simple diplexer.
 
 * [Michael Ossmann & Kate Temkin - Software-Defined Everything](https://www.youtube.com/watch?v=-5TAfdYpC44)
 * [RFTap: A Bridge Between GNURadio and Wireshark](http://www.rtl-sdr.com/rftap-a-bridge-between-gnuradio-and-wireshark/)
+
 * [SDRDue: New Software for Passive Radar with Two Coherent RTL-SDR Dongles](http://www.rtl-sdr.com/sdrdue-new-software-for-passive-radar-with-two-coherent-rtl-sdr-dongles/)
 * [KerberosSDR - A 4x Phase Coherent RTL-SDR for Passive Radar, Direction Finding and More!](https://www.indiegogo.com/projects/kerberossdr-4x-coherent-rtl-sdr#/)
 * [DIY Passive Radar System Verifies ADS-B Transmissions](https://hackaday.com/2024/04/29/diy-passive-radar-system-verifies-ads-b-transmissions/)
+* [Passive Radar Explained](https://hackaday.com/2026/04/12/passive-radar-explained/)
+
 * [Easy Direction Finding Thanks To Quad SDRs](https://hackaday.com/2019/08/22/__trashed-3/)
 * [SDR Is At the Heart of This Soup-Can Doppler Radar Set](https://hackaday.com/2018/11/29/sdr-is-at-the-heart-of-this-soup-can-doppler-radar-set/)
 * [Bike-Mounted Synthetic-Aperture Radar Makes Detailed Images](https://hackaday.com/2019/08/15/bike-mounted-synthetic-aperture-radar-makes-detailed-images/)

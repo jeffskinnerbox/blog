@@ -11,6 +11,14 @@ Version:      0.0.0
 
 ---------------
 
+
+
+
+* [Windows 11 has hidden power-user tools that Microsoft refuses to tell you about](https://www.xda-developers.com/windows-11-keeps-adding-great-power-user-features-but-microsoft-buries-every-one-of-them/)
+
+
+
+
 # Windows 11
 
 ## Install Windows 11

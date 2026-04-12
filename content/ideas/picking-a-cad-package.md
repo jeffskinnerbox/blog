@@ -3,72 +3,62 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
     title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+---
 
----------------
-
-
-
-* [Comparing hobby PCB vendors](https://lcamtuf.substack.com/p/comparing-hobby-pcb-vendors)
-
-
-
+- [Comparing hobby PCB vendors](https://lcamtuf.substack.com/p/comparing-hobby-pcb-vendors)
 
 # Made To Spec: The Coming Age Of Prototyping As A Service
+
 Rapid, low cost manufacturing for fast moving robotics companies
 
-* [Made To Spec: The Coming Age Of Prototyping As A Service](https://hackaday.com/2021/12/08/made-to-spec-the-coming-age-of-prototyping-as-a-service/)
-* [CircutHub](https://circuithub.com/)
-* [ScreamingCircuits](https://www.screamingcircuits.com/)
+- [Made To Spec: The Coming Age Of Prototyping As A Service](https://hackaday.com/2021/12/08/made-to-spec-the-coming-age-of-prototyping-as-a-service/)
+- [CircutHub](https://circuithub.com/)
+- [ScreamingCircuits](https://www.screamingcircuits.com/)
 
-
-| Parametric Modeling | Direct Modeling |
-|:-------------------:|:---------------:|
-| Parametric uses rules and dimensions  | Direct edits the shape freely |
-| Parametric updates the whole model automatically  | Direct changes only what you touch |
-| Parametric keeps a feature history tree  | Direct has little or no history |
-| Parametric is precise and planne | Direct is fast and flexible |
-|Parametric suits complex, repeatable designs | Direct suits quick fixes and concept edits |
-
+|               Parametric Modeling                |              Direct Modeling               |
+| :----------------------------------------------: | :----------------------------------------: |
+|       Parametric uses rules and dimensions       |       Direct edits the shape freely        |
+| Parametric updates the whole model automatically |     Direct changes only what you touch     |
+|     Parametric keeps a feature history tree      |      Direct has little or no history       |
+|         Parametric is precise and planne         |        Direct is fast and flexible         |
+|   Parametric suits complex, repeatable designs   | Direct suits quick fixes and concept edits |
 
 # What CAD Tool to Pick
 
-* [Ask Hackaday: Help Me Pick A CAD Package](https://hackaday.com/2019/01/11/ask-hackaday-help-me-pick-a-cad-package/)
-* [Top 3 FREE 3D Design Software 2019](https://www.youtube.com/watch?v=Cuqao90C76U&feature=youtu.be)
+- [Ask Hackaday: Help Me Pick A CAD Package](https://hackaday.com/2019/01/11/ask-hackaday-help-me-pick-a-cad-package/)
+- [Top 3 FREE 3D Design Software 2019](https://www.youtube.com/watch?v=Cuqao90C76U&feature=youtu.be)
 
-* [3 open source alternatives to AutoCAD](https://opensource.com/alternatives/autocad)
-  * [BRL-CAD](http://brlcad.org/)
-  * [OpenSCAD](http://www.openscad.org/)
-  * [FreeCAD](https://www.freecadweb.org/)
-  * [SolveSpace](http://solvespace.com/index.pl)
-  * [OpenCascade / CascadeStudio](https://hackaday.com/2020/09/30/hyper-links-and-hyperfunctional-text-cad/)
-  * [TINKERCAD](https://www.tinkercad.com/)
-  * [Onshape](https://www.onshape.com/open-source)
-  * [CadQuery](http://dcowden.github.io/cadquery/) which is built on top of FreeCAD
-  * [Microcad (or µcad)](https://microcad.xyz/)
-  * Electronics Design Automation (EDA)
-    * [KiCad](http://www.kicad-pcb.org/)
-    * [Flux.ai: Online PCB Design](https://www.hackster.io/videos/1372)
-    * [LibrePCB](https://librepcb.org/)
-* Browser Based CAD
-  * [Open Source CAM Software In The Browser](https://hackaday.com/2021/03/01/open-source-cam-software-in-the-browser/)
-  * [Kiri:Moto](https://grid.space/kiri/)
-
+- [3 open source alternatives to AutoCAD](https://opensource.com/alternatives/autocad)
+  - [BRL-CAD](http://brlcad.org/)
+  - [OpenSCAD](http://www.openscad.org/)
+  - [FreeCAD](https://www.freecadweb.org/)
+  - [SolveSpace](http://solvespace.com/index.pl)
+  - [OpenCascade / CascadeStudio](https://hackaday.com/2020/09/30/hyper-links-and-hyperfunctional-text-cad/)
+  - [TINKERCAD](https://www.tinkercad.com/)
+  - [Onshape](https://www.onshape.com/open-source)
+  - [CadQuery](http://dcowden.github.io/cadquery/) which is built on top of FreeCAD
+  - [Microcad (or µcad)](https://microcad.xyz/)
+  - Electronics Design Automation (EDA)
+    - [KiCad](http://www.kicad-pcb.org/)
+    - [Flux.ai: Online PCB Design](https://www.hackster.io/videos/1372)
+    - [LibrePCB](https://librepcb.org/)
+- Browser Based CAD
+  - [Open Source CAM Software In The Browser](https://hackaday.com/2021/03/01/open-source-cam-software-in-the-browser/)
+  - [Kiri:Moto](https://grid.space/kiri/)
 
 # Photo Rendering of 3D Models
 
 You may want a realistic photo renderings of your 3D CAD models.
 
-* [Photorender Your 3D Models](https://hackaday.com/2021/03/15/photorender-your-3d-models/)
-* [THIS IS NOT REAL: LIFELIKE RENDERINGS FROM EAGLE FILES](https://hackaday.com/2012/06/05/this-is-not-real-lifelike-renderings-from-eagle-files/)
-* [REMOTICON VIDEO: KICAD TO BLENDER PCB RENDERS](https://hackaday.com/2020/12/23/remoticon-video-kicad-to-blender-pcb-renders/)
-* [From KiCad to Blender for a Stunning Render](https://hackaday.com/2024/01/03/from-kicad-to-blender-for-a-stunning-render/)
-
+- [Photorender Your 3D Models](https://hackaday.com/2021/03/15/photorender-your-3d-models/)
+- [THIS IS NOT REAL: LIFELIKE RENDERINGS FROM EAGLE FILES](https://hackaday.com/2012/06/05/this-is-not-real-lifelike-renderings-from-eagle-files/)
+- [REMOTICON VIDEO: KICAD TO BLENDER PCB RENDERS](https://hackaday.com/2020/12/23/remoticon-video-kicad-to-blender-pcb-renders/)
+- [From KiCad to Blender for a Stunning Render](https://hackaday.com/2024/01/03/from-kicad-to-blender-for-a-stunning-render/)
 
 # Electronics Design Automation (EDA)
 
@@ -76,137 +66,128 @@ Electronic design automation (also referred to as electronic computer-aided desi
 is a category of software tools for designing electronic systems
 such as integrated circuits and printed circuit boards.
 
-
 ## The Art of Electronics
 
 None of these tools will be a substitute for a mastering of the domain of electronics.
 To to that, you man not start here, but you should certainly finish here:
 [The Truth is in There: The Art of Electronics, the x-Chapters](https://hackaday.com/2020/01/23/the-truth-is-in-there-the-art-of-electronics-the-x-chapters)
 
-
 ## Upverter
 
 [Upverter](https://upverter.com/) makes electronics design very easy.
 Upverter is a modular, web-based tool that does it all — PCB design, schematics, automated routing, 3D preview, and order boards built to your exact specifications.
 
-* [Create a PCB from Scratch with Upverter](https://www.hackster.io/Hulkco/create-a-pcb-from-scratch-with-upverter-63a944)
-
+- [Create a PCB from Scratch with Upverter](https://www.hackster.io/Hulkco/create-a-pcb-from-scratch-with-upverter-63a944)
 
 ## EasyEDA
 
-* [EasyEDA](https://easyeda.com/)
-
+- [EasyEDA](https://easyeda.com/)
 
 ### Convert EasyEDA Design to KiCad
 
-* [Introducing: EasyEDA 2 KiCad](https://urish.medium.com/introducing-easyeda-2-kicad-37489da1dfa7)
-* [Convert EasyEDA Files To KiCad EDA](https://wokwi.com/easyeda2kicad)
-* [Easyeda2KiCad: Never Draw a Footprint Again](https://hackaday.com/2023/08/08/easyeda2kicad-never-draw-a-footprint-again/)
-
+- [Introducing: EasyEDA 2 KiCad](https://urish.medium.com/introducing-easyeda-2-kicad-37489da1dfa7)
+- [Convert EasyEDA Files To KiCad EDA](https://wokwi.com/easyeda2kicad)
+- [Easyeda2KiCad: Never Draw a Footprint Again](https://hackaday.com/2023/08/08/easyeda2kicad-never-draw-a-footprint-again/)
 
 ## Flexable PCB
 
-* [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/Main/SiliconeDevices)
-* [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/uploads/Main/SiliconeDevices/SiliconeDevices.pdf)
-
+- [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/Main/SiliconeDevices)
+- [Silicone Devices: A Scalable DIY Approach for Fabricating Self-Contained Multi-Layered Soft Circuits using Microfluidics](http://www.raframakers.net/wiki/uploads/Main/SiliconeDevices/SiliconeDevices.pdf)
 
 ## LibrePCB
 
-* [Review: LibrePCB Hits Version 1.0](https://hackaday.com/2023/10/03/review-librepcb-hits-version-1-0/)
-* [LibrePCB](https://librepcb.org/)
-* [Review: Testdriving LibrePCB Shows That It’s Growing Up Fast](https://hackaday.com/2020/01/22/review-testdriving-librepcb-shows-that-its-growing-up-fast/)
-* [Introduction to LibrePCB A new, powerful and intuitive EDA tool for everyone](https://www.youtube.com/watch?v=vu-h5y6tK34&t=10s)
-
+- [Review: LibrePCB Hits Version 1.0](https://hackaday.com/2023/10/03/review-librepcb-hits-version-1-0/)
+- [LibrePCB](https://librepcb.org/)
+- [Review: Testdriving LibrePCB Shows That It’s Growing Up Fast](https://hackaday.com/2020/01/22/review-testdriving-librepcb-shows-that-its-growing-up-fast/)
+- [Introduction to LibrePCB A new, powerful and intuitive EDA tool for everyone](https://www.youtube.com/watch?v=vu-h5y6tK34&t=10s)
 
 ## Surface Mount Technology (SMT) Assembly
 
-* [Learn Bil Herd’s DIY Surface Mount Assembly Process](https://hackaday.com/2021/02/02/learn-bil-herds-diy-surface-mount-assembly-process/)
+- [Learn Bil Herd’s DIY Surface Mount Assembly Process](https://hackaday.com/2021/02/02/learn-bil-herds-diy-surface-mount-assembly-process/)
 
----------------
+---
 
 ## KiCad
+
 [KiCad][25] is a free software suite for
 [electronic design automation (EDA), aka electronic computer-aided design (ECAD)][26].
 It facilitates the design of schematics for electronic circuits
 and their conversion to [PCB (Printed Circuit Board) designs][46].
 At their core, PCBs are multi-layer platforms that secure and interconnect electronic components to form functional circuits.
 
-* Introduction to PCB
-  * [How to Create Your First PCB](https://www.digikey.com/en/maker/tutorials/2025/how-to-create-your-first-pcb)
-  * [What is a PCB (Printed Circuit Board)? - Another Teaching Moment | DigiKey](https://www.youtube.com/watch?v=OHmgWkgaSrM)
-  * [Electronics with Becky Stern](https://www.youtube.com/playlist?list=PLEBQazB0HUyTF7kB7v1S77F9QK0gT--Kt)
-* Your First PCB
-  * [KICAD TUTORIAL: Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/)
-  * [The Five Most Important PCB Design Basics Every Maker Must Know](https://www.digikey.com/en/maker/tutorials/2024/the-five-most-important-pcb-design-basics-every-maker-must-know)
-* Learning KiCad
-  * [Introduction to KiCad and FreeCAD](https://hackaday.io/course/172360-introduction-to-kicad-and-freecad)
-  * [Intro to KiCad](https://www.youtube.com/playlist?list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
-  * [KiCad 9.0 - Getting Started](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm)
-  * [KiCad Docs](https://docs.kicad.org/9.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
-* Next Level Design
-  * [How To Take a PCB Design to the Next Level](https://www.digikey.com/en/maker/blogs/2023/how-to-take-a-pcb-design-to-the-next-level)
-  * [The Beauty of Four Layer PCBs](https://www.digikey.com/en/maker/blogs/2019/the-beauty-of-four-layer-pcbs)
-* Customization
-  * [PCB Art - Byte Sized Engineering](https://www.digikey.com/en/maker/blogs/2022/pcb-art-byte-sized-engineering)
-* KiCad Schematics
-  * [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
-    * [CircuitSnips](https://www.circuitsnips.com/)
+- Introduction to PCB
+  - [How to Create Your First PCB](https://www.digikey.com/en/maker/tutorials/2025/how-to-create-your-first-pcb)
+  - [What is a PCB (Printed Circuit Board)? - Another Teaching Moment | DigiKey](https://www.youtube.com/watch?v=OHmgWkgaSrM)
+  - [Electronics with Becky Stern](https://www.youtube.com/playlist?list=PLEBQazB0HUyTF7kB7v1S77F9QK0gT--Kt)
+- Your First PCB
+  - [KICAD TUTORIAL: Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/)
+  - [The Five Most Important PCB Design Basics Every Maker Must Know](https://www.digikey.com/en/maker/tutorials/2024/the-five-most-important-pcb-design-basics-every-maker-must-know)
+- Learning KiCad
+  - [Introduction to KiCad and FreeCAD](https://hackaday.io/course/172360-introduction-to-kicad-and-freecad)
+  - [Intro to KiCad](https://www.youtube.com/playlist?list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)
+  - [KiCad 9.0 - Getting Started](https://www.youtube.com/playlist?list=PLEBQazB0HUyQ5YJSdCBb79orXaR3Uk5vm)
+  - [KiCad Docs](https://docs.kicad.org/9.0/en/getting_started_in_kicad/getting_started_in_kicad.html)
+- Next Level Design
+  - [How To Take a PCB Design to the Next Level](https://www.digikey.com/en/maker/blogs/2023/how-to-take-a-pcb-design-to-the-next-level)
+  - [The Beauty of Four Layer PCBs](https://www.digikey.com/en/maker/blogs/2019/the-beauty-of-four-layer-pcbs)
+- Customization
+  - [PCB Art - Byte Sized Engineering](https://www.digikey.com/en/maker/blogs/2022/pcb-art-byte-sized-engineering)
+- KiCad Schematics
+  - [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
+    - [CircuitSnips](https://www.circuitsnips.com/)
 
+- [Let's make PCB design easier](https://www.youtube.com/shorts/fMRkuY0YkXc)
+  - [PCB Design Analysis Software for Manufacturability](https://www.nextpcb.com/dfm)
 
+- [PCB Design Full Tutorial with KiCad 8](https://www.youtube.com/watch?v=NpqO1U52hpY)
 
+- [Easy - KiCad Symbol, Footprint and 3D Model!](https://atomic14.substack.com/p/easy-kicad-symbol-footprint-and-3d)
+  - [Easy - KiCad Symbol, Footprint and 3D Model!](https://www.youtube.com/watch?v=inf5ETqLLGA)
+- [Kicad schematics and PCB Python scripting](https://www.youtube.com/watch?v=EP1GtsZ2VfM)
+- [Share Your Projects: KiCad Automations And Pretty Renders](https://hackaday.com/2024/03/11/share-your-projects-kicad-automations-and-pretty-renders/)
 
+- [KiCad 7.0.0 Download Now Available!](https://www.hackster.io/news/kicad-7-0-0-download-now-available-4b4257f4e9a9)
+- [Feeling the KiCad 6 Electricity](https://hackaday.com/2021/02/04/feeling-the-kicad-6-electricity/)
+- [KiCad 6.0.0 Brings a New Look, New Features, and a Much Improved 3D Viewer for Your PCB Designs](https://www.hackster.io/news/kicad-6-0-0-brings-a-new-look-new-features-and-a-much-improved-3d-viewer-for-your-pcb-designs-fa0b1d278a68)
 
-* [Let's make PCB design easier](https://www.youtube.com/shorts/fMRkuY0YkXc)
-  * [PCB Design Analysis Software for Manufacturability](https://www.nextpcb.com/dfm)
+- [Kicad Beginner Tutorial- A Traffic Light for Arduino](https://www.youtube.com/watch?v=EPH23zhPg50)
+- [First KiCad board from an EasyEDA user](https://www.youtube.com/watch?v=RMPezTH0cck)
+- [Beginner's Guide to KiCad](https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all)
+- [Byte Sized Pieces Help The KiCad Go Down](https://hackaday.com/2019/04/18/byte-sized-pieces-help-the-kicad-go-down/)
+- [Mechanical Integration With KiCad](https://hackaday.com/2019/04/22/mechanical-integration-with-kicad/)
+- [Contextual Electronics - many KiCad videos](https://www.youtube.com/user/contextualelectronic/playlists)
+- [A New KiCAD Tutorial Hits The Scene](https://hackaday.com/2019/07/29/a-new-kicad-tutorial-hits-the-scene/)
+- [Shine On You Crazy KiCad](https://contextualelectronics.com/courses/shine-on-you-crazy-kicad/)
+- [KiCad Action Plugins](https://hackaday.com/2019/11/19/kicad-action-plugins/)
+- [Getting to Blinky 4.0](https://contextualelectronics.com/courses/getting-to-blinky/)
+- [What’s The Deal With Square Traces On PCBs](https://hackaday.com/2019/06/26/whats-the-deal-with-square-traces-on-pcbs/)
+- [A Complete Desktop PCB Etching Station](https://hackaday.com/2019/07/07/a-complete-desktop-pcb-etching-station/)
+- [Add An Ant To Your Desk For Some Compact PCB Manufacturing](https://hackaday.com/2019/07/27/add-an-ant-to-your-desk-for-some-compact-pcb-manufacturing/)
+- [KiCad Panelization Made Easy](https://hackaday.com/2020/04/25/kicad-panelization-made-easy/)
+- [Circuit Simulations with KiCad](https://www.woolseyworkshop.com/2019/07/01/performing-a-circuit-simulation-in-kicad/)
+- [Let KiCad And Python Make Your Coils](https://hackaday.com/2020/10/19/let-kicad-and-python-make-your-coils/)
+- [Advanced PCB Graphics With KiCAD 6 And Inkscape](https://hackaday.com/2022/01/08/advanced-pcb-graphics-with-kicad-6-and-inkscape/)
 
-* [PCB Design Full Tutorial with KiCad 8](https://www.youtube.com/watch?v=NpqO1U52hpY)
+- [EEVblog #1259 - PCB Manufacturing Options EXPLAINED](https://www.youtube.com/watch?v=mT2Vp3HcIP4&)
+- [EEVblog #990 - Getting The PCB Manufactured](https://www.youtube.com/watch?v=JCXgRyA_-Is)
+- [PCB Design & Manufacture - video playlist](https://www.youtube.com/playlist?list=PL8D3B363139B67FF3)
+- [PCB Checklist](https://github.com/grosdode/PCB-design/blob/main/PCB_Checklist/pcb_checklist.md)
 
-* [Easy - KiCad Symbol, Footprint and 3D Model!](https://atomic14.substack.com/p/easy-kicad-symbol-footprint-and-3d)
-  * [Easy - KiCad Symbol, Footprint and 3D Model!](https://www.youtube.com/watch?v=inf5ETqLLGA)
-* [Kicad schematics and PCB Python scripting](https://www.youtube.com/watch?v=EP1GtsZ2VfM)
-* [Share Your Projects: KiCad Automations And Pretty Renders](https://hackaday.com/2024/03/11/share-your-projects-kicad-automations-and-pretty-renders/)
+- [An Anti-Tamper Mesh Plugin For KiCad](https://hackaday.com/2021/03/14/an-anti-tamper-mesh-plugin-for-kicad/)
 
-* [KiCad 7.0.0 Download Now Available!](https://www.hackster.io/news/kicad-7-0-0-download-now-available-4b4257f4e9a9)
-* [Feeling the KiCad 6 Electricity](https://hackaday.com/2021/02/04/feeling-the-kicad-6-electricity/)
-* [KiCad 6.0.0 Brings a New Look, New Features, and a Much Improved 3D Viewer for Your PCB Designs](https://www.hackster.io/news/kicad-6-0-0-brings-a-new-look-new-features-and-a-much-improved-3d-viewer-for-your-pcb-designs-fa0b1d278a68)
+- [Critiquing My Own PCB Designs - Phil's Lab #43](https://www.youtube.com/watch?v=eQYJLRH4WPs)
 
-* [Kicad Beginner Tutorial- A Traffic Light for Arduino](https://www.youtube.com/watch?v=EPH23zhPg50)
-* [First KiCad board from an EasyEDA user](https://www.youtube.com/watch?v=RMPezTH0cck)
-* [Beginner's Guide to KiCad](https://learn.sparkfun.com/tutorials/beginners-guide-to-kicad/all)
-* [Byte Sized Pieces Help The KiCad Go Down](https://hackaday.com/2019/04/18/byte-sized-pieces-help-the-kicad-go-down/)
-* [Mechanical Integration With KiCad](https://hackaday.com/2019/04/22/mechanical-integration-with-kicad/)
-* [Contextual Electronics - many KiCad videos](https://www.youtube.com/user/contextualelectronic/playlists)
-* [A New KiCAD Tutorial Hits The Scene](https://hackaday.com/2019/07/29/a-new-kicad-tutorial-hits-the-scene/)
-* [Shine On You Crazy KiCad](https://contextualelectronics.com/courses/shine-on-you-crazy-kicad/)
-* [KiCad Action Plugins](https://hackaday.com/2019/11/19/kicad-action-plugins/)
-* [Getting to Blinky 4.0](https://contextualelectronics.com/courses/getting-to-blinky/)
-* [What’s The Deal With Square Traces On PCBs](https://hackaday.com/2019/06/26/whats-the-deal-with-square-traces-on-pcbs/)
-* [A Complete Desktop PCB Etching Station](https://hackaday.com/2019/07/07/a-complete-desktop-pcb-etching-station/)
-* [Add An Ant To Your Desk For Some Compact PCB Manufacturing](https://hackaday.com/2019/07/27/add-an-ant-to-your-desk-for-some-compact-pcb-manufacturing/)
-* [KiCad Panelization Made Easy](https://hackaday.com/2020/04/25/kicad-panelization-made-easy/)
-* [Circuit Simulations with KiCad](https://www.woolseyworkshop.com/2019/07/01/performing-a-circuit-simulation-in-kicad/)
-* [Let KiCad And Python Make Your Coils](https://hackaday.com/2020/10/19/let-kicad-and-python-make-your-coils/)
-* [Advanced PCB Graphics With KiCAD 6 And Inkscape](https://hackaday.com/2022/01/08/advanced-pcb-graphics-with-kicad-6-and-inkscape/)
+- [KiCad Plugin Gives Your PCBs That Handmade Look](https://hackaday.com/2022/04/17/kicad-plugin-gives-your-pcbs-that-handmade-look/)
 
-* [EEVblog #1259 - PCB Manufacturing Options EXPLAINED](https://www.youtube.com/watch?v=mT2Vp3HcIP4&)
-* [EEVblog #990 - Getting The PCB Manufactured](https://www.youtube.com/watch?v=JCXgRyA_-Is)
-* [PCB Design & Manufacture - video playlist](https://www.youtube.com/playlist?list=PL8D3B363139B67FF3)
-* [PCB Checklist](https://github.com/grosdode/PCB-design/blob/main/PCB_Checklist/pcb_checklist.md)
+- [Silkscreen Busy? Put Labels Inside Pads](https://hackaday.com/2023/04/04/silkscreen-busy-put-labels-inside-pads/)
+- [Taking KiCad Silk Screen to the Next Level!](https://www.youtube.com/watch?v=KY3sjqqQqNo)
 
-* [An Anti-Tamper Mesh Plugin For KiCad](https://hackaday.com/2021/03/14/an-anti-tamper-mesh-plugin-for-kicad/)
-
-* [Critiquing My Own PCB Designs - Phil's Lab #43](https://www.youtube.com/watch?v=eQYJLRH4WPs)
-
-* [KiCad Plugin Gives Your PCBs That Handmade Look](https://hackaday.com/2022/04/17/kicad-plugin-gives-your-pcbs-that-handmade-look/)
-
-* [Silkscreen Busy? Put Labels Inside Pads](https://hackaday.com/2023/04/04/silkscreen-busy-put-labels-inside-pads/)
-* [Taking KiCad Silk Screen to the Next Level!](https://www.youtube.com/watch?v=KY3sjqqQqNo)
-
-* [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
+- [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
 
 ### KiCad Installation
 
 #### Step 1: Install KiCad
+
 For [KiCad install on Ubuntu Linux](https://www.kicad.org/download/linux/), KiCad recommends to install its PPA.
 The PPA is more up to date than the base Ubuntu repository.
 
@@ -218,6 +199,7 @@ sudo apt install kicad
 ```
 
 #### Step 2: Configuring KiCad
+
 For a freshly install KiCad,
 your start of KiCad will put you into a series of screens where you'll do your initial configuration.
 
@@ -228,51 +210,53 @@ your start of KiCad will put you into a series of screens where you'll do your i
 This is all that is required to establish KiCad for your use.
 
 #### Step 3: Draw Schematics
+
 Next, you will initialize your project file and draw you schematics.
 Follow the outlined steps provided here:
-* [KICAD TUTORIAL: Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/)
+
+- [KICAD TUTORIAL: Make Your First Printed Circuit Board](https://www.build-electronic-circuits.com/kicad-tutorial/)
 
 In preparation, have a list of components (aka BOM) you plan to use (example below):
 
 **Bill of Materials (BOM)**
 
-| Quantity | Item  | PinOut | Source | Notes |
-|:--------:|:-----:|:------:|:------:|:-----:|
-| 1 | Raspberry Pi Pico W | [Design File][aa] | Amazon | [Driving A DC Motor With CircuitPython][bb] |
-| 2 | TB6612 1.2A DC/Stepper Motor Driver | - | [Adafruit][cc] | [Assembly Documentation][dd] |
-| 1 | MP1584EN 5V Buck Converter Board | - | [Amazon][ee] | - |
-| 1 | [RadioMaster Boxer Radio Controller (ELRS)][ff] | - | - | [Boxer Radio User Manual][gg] |
-| 1 | [RadioMaster ER4 2.4GHz ELRS PWM Receiver][hh] | - | - | [ER4 Receiver User Manual][ii] |
-| 3 | N20 Motor + Encoder | - | [Sparkfun][jj] | - |
-| 3 | 48mm Omni-Directional Wheels | - | [Amazon][kk] | - |
-| 1 | 3S Lipo Battery (850mAh 80C 11.1V) | - | [Amazon][ll] | - |
+| Quantity |                      Item                       |      PinOut       |     Source     |                    Notes                    |
+| :------: | :---------------------------------------------: | :---------------: | :------------: | :-----------------------------------------: |
+|    1     |               Raspberry Pi Pico W               | [Design File][aa] |     Amazon     | [Driving A DC Motor With CircuitPython][bb] |
+|    2     |       TB6612 1.2A DC/Stepper Motor Driver       |         -         | [Adafruit][cc] |        [Assembly Documentation][dd]         |
+|    1     |        MP1584EN 5V Buck Converter Board         |         -         |  [Amazon][ee]  |                      -                      |
+|    1     | [RadioMaster Boxer Radio Controller (ELRS)][ff] |         -         |       -        |        [Boxer Radio User Manual][gg]        |
+|    1     | [RadioMaster ER4 2.4GHz ELRS PWM Receiver][hh]  |         -         |       -        |       [ER4 Receiver User Manual][ii]        |
+|    3     |               N20 Motor + Encoder               |         -         | [Sparkfun][jj] |                      -                      |
+|    3     |          48mm Omni-Directional Wheels           |         -         |  [Amazon][kk]  |                      -                      |
+|    1     |       3S Lipo Battery (850mAh 80C 11.1V)        |         -         |  [Amazon][ll]  |                      -                      |
 
-[aa]:https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
-[bb]:https://www.woolseyworkshop.com/2022/07/25/driving-a-dc-motor-with-circuitpython/
-[cc]:https://www.adafruit.com/product/2448
-[dd]:https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/pinouts
-[ee]:https://www.amazon.com/MTDELE-Regulator-Converter-Compatible-Electronic/dp/B0D95Z539V
-[ff]:https://radiomasterrc.com/products/boxer-radio-controller-m2
-[gg]:https://cdn.shopify.com/s/files/1/0609/8324/7079/files/BOXER_1.pdf?v=1736839329
-[hh]:https://radiomasterrc.com/products/er4-2-4ghz-elrs-pwm-receiver
-[ii]:https://cdn.shopify.com/s/files/1/0609/8324/7079/files/ER4_User_Manual.pdf?v=1722224113
-[jj]:https://www.sparkfun.com/n20-motor-with-encoder-and-cable-pair.html
-[kk]:https://www.amazon.com/dp/B0DYDW239W
-[ll]:https://www.amazon.com/dp/B09CTSCWYM
-
+[aa]: https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
+[bb]: https://www.woolseyworkshop.com/2022/07/25/driving-a-dc-motor-with-circuitpython/
+[cc]: https://www.adafruit.com/product/2448
+[dd]: https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout/pinouts
+[ee]: https://www.amazon.com/MTDELE-Regulator-Converter-Compatible-Electronic/dp/B0D95Z539V
+[ff]: https://radiomasterrc.com/products/boxer-radio-controller-m2
+[gg]: https://cdn.shopify.com/s/files/1/0609/8324/7079/files/BOXER_1.pdf?v=1736839329
+[hh]: https://radiomasterrc.com/products/er4-2-4ghz-elrs-pwm-receiver
+[ii]: https://cdn.shopify.com/s/files/1/0609/8324/7079/files/ER4_User_Manual.pdf?v=1722224113
+[jj]: https://www.sparkfun.com/n20-motor-with-encoder-and-cable-pair.html
+[kk]: https://www.amazon.com/dp/B0DYDW239W
+[ll]: https://www.amazon.com/dp/B09CTSCWYM
 
 ## KiCad Viewer
 
 KiCanvas lets you view, embed, and explore KiCAD’s schematics, boards, footprints, and library symbols within your web browser. You don’t need to do any exporting, printing, or install any plugins as KiCanvas reads KiCAD files directly. KiCanvas is interactive- you can click symbols and footprints to view all the data assigned to those items in KiCAD.
 
-* [KiCanvas Helps Teach And Share KiCad Projects In Browsers](https://hackaday.com/2023/01/31/kicanvas-helps-teach-and-share-kicad-projects-in-browsers/)
+- [KiCanvas Helps Teach And Share KiCad Projects In Browsers](https://hackaday.com/2023/01/31/kicanvas-helps-teach-and-share-kicad-projects-in-browsers/)
 
----------------
+---
 
 ## CircuitMaker
 
-* [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
----------------
+- [Altium Gives Away The Farm With New Circuit Maker Software](http://hackaday.com/2015/06/20/altium-gives-away-the-farm-with-new-circuit-maker-software/)
+
+---
 
 ## SPICE
 
@@ -281,52 +265,48 @@ open-source analog electronic circuit simulator.
 It is a program used in integrated circuit and board-level design
 to check the integrity of circuit designs and to predict circuit behavior.
 
-* [Hackaday Spice](http://hackaday.com/tag/spice/)
-  * [Adding Spice to Your Workbench](http://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
-  * [Transforming Spice](http://hackaday.com/2016/03/02/transforming-spice/)
-  * [Spice Power](https://hackaday.com/2016/02/29/spice-power/)
-  * [Transforming Spice](https://hackaday.com/2016/03/02/transforming-spice/)
-  * [A Spicy Regenerative Receiver](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
-  * [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
+- [Hackaday Spice](http://hackaday.com/tag/spice/)
+  - [Adding Spice to Your Workbench](http://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
+  - [Transforming Spice](http://hackaday.com/2016/03/02/transforming-spice/)
+  - [Spice Power](https://hackaday.com/2016/02/29/spice-power/)
+  - [Transforming Spice](https://hackaday.com/2016/03/02/transforming-spice/)
+  - [A Spicy Regenerative Receiver](https://hackaday.com/2016/03/02/a-spicy-regenerative-reciever/)
+  - [Circuit Simulation in Python](https://hackaday.com/2019/11/30/circuit-simulation-in-python/)
 
-* [All About Circuits](http://www.allaboutcircuits.com/education/)
-* [RF design guide](http://www.cdt21.com/resources/default.asp)
-* [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)
-
+- [All About Circuits](http://www.allaboutcircuits.com/education/)
+- [RF design guide](http://www.cdt21.com/resources/default.asp)
+- [Endless Electronic Problems For Solving](https://hackaday.com/2019/10/15/endless-electronic-problems-for-solving/)
 
 ### LTSpice
 
-* [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
-* [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
-* [Phasors In LTSpice](https://hackaday.com/2021/03/17/phasors-in-ltspice/)
-* [Getting Started with LTspice](https://learn.sparkfun.com/tutorials/getting-started-with-ltspice)
-* [LTspice tutorial](https://www.youtube.com/playlist?list=PLT84nve2j1g_wgGcm0Bv3K4RSl2Jdjsey)
-* [Adding Spice to Your Workbench](https://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
-
+- [LTSpice for Radio Amateurs (and Others)](http://hackaday.com/2017/02/15/ltspice-for-radio-amateurs-and-others/)
+- [Getting Started With LTspice For Mac](https://www.woolseyworkshop.com/2019/10/04/getting-started-with-ltspice-for-mac/)
+- [Phasors In LTSpice](https://hackaday.com/2021/03/17/phasors-in-ltspice/)
+- [Getting Started with LTspice](https://learn.sparkfun.com/tutorials/getting-started-with-ltspice)
+- [LTspice tutorial](https://www.youtube.com/playlist?list=PLT84nve2j1g_wgGcm0Bv3K4RSl2Jdjsey)
+- [Adding Spice to Your Workbench](https://hackaday.com/2016/02/26/adding-spice-to-your-workbench/)
 
 ### MICRO-CAP 12
 
-* [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
-* [Commericial Circuit Simulator Goes Free](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
-
+- [MICRO-CAP 12 Analog/Digital Simulator](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
+- [Commericial Circuit Simulator Goes Free](https://hackaday.com/2020/01/08/commercial-circuit-simulator-goes-free/)
 
 ### PSpice
 
-* [TI And Cadence Make PSpice Free](https://hackaday.com/2020/09/20/ti-and-cadence-make-pspice-free/)
-* [PSpice for TI](https://e2e.ti.com/blogs_/b/analogwire/archive/2020/09/14/how-to-simulate-complex-analog-power-and-signal-chain-circuits-with-pspice-for-ti)
-
+- [TI And Cadence Make PSpice Free](https://hackaday.com/2020/09/20/ti-and-cadence-make-pspice-free/)
+- [PSpice for TI](https://e2e.ti.com/blogs_/b/analogwire/archive/2020/09/14/how-to-simulate-complex-analog-power-and-signal-chain-circuits-with-pspice-for-ti)
 
 ### QSpice
 
-* [Qorvo’s QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice/)
-
+- [Qorvo’s QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice/)
 
 ### Xyce
 
-* [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
-* [Xyce](https://xyce.sandia.gov/)
+- [What Rhymes With Spice And Simulates Huge Circuits?](https://hackaday.com/2020/05/28/what-rhymes-with-spice-and-simulates-huge-circuits/#more-414688)
+- [Xyce](https://xyce.sandia.gov/)
 
 ### CircuitLab
+
 Build and simulate circuits right in your browser. Design with our easy-to-use schematic editor. Analog & digital circuit simulations in seconds.
 Online circuit simulator and electronic schematic editor.
 CircuitLab makes it easier for electrical engineers, students, and electronics hobbyists to design, analyze, build, and share electronic circuits.
@@ -334,35 +314,31 @@ CircuitLab makes it easier for electrical engineers, students, and electronics h
 CircuitLab offers a limited free tier but requires a paid subscription for full access — currently around $79/year for individuals.
 LTSpice is completely free, providing powerful circuit simulation tools without any financial investment.
 
-
-| Feature / Capability | CircuitLab | LTSpicea |
-|:------------|:------------|:------------|
-| Best | forStudents, educators, quick prototyping | Professional engineers, power electronics, complex analog design |
-| Cost | Free tier + paid subscription | Completely free |
-| Platform | Web browser | Desktop (Windows/macOS) |
-| Learning curve | Low | Moderate to steep |
-| Simulation depth | Moderate | High |
-| Component model support | Limited for advanced ICs | Extensive, including 3rd-party SPICE models |
-
+| Feature / Capability    | CircuitLab                                | LTSpicea                                                         |
+| :---------------------- | :---------------------------------------- | :--------------------------------------------------------------- |
+| Best                    | forStudents, educators, quick prototyping | Professional engineers, power electronics, complex analog design |
+| Cost                    | Free tier + paid subscription             | Completely free                                                  |
+| Platform                | Web browser                               | Desktop (Windows/macOS)                                          |
+| Learning curve          | Low                                       | Moderate to steep                                                |
+| Simulation depth        | Moderate                                  | High                                                             |
+| Component model support | Limited for advanced ICs                  | Extensive, including 3rd-party SPICE models                      |
 
 **Bottom line:** If you want something fast to pick up, accessible anywhere, and good for learning or moderately complex circuits, CircuitLab is the better choice.
 If you need professional-grade simulation depth, broad component model support, and raw speed — and don't mind a steeper learning curve —
 LTSpice is the industry standard and hard to beat, especially since it's free.
 
-* [CircuitLab](https://www.circuitlab.com/)
-  * [Interactive Electronics Textbook](https://ultimateelectronicsbook.com/)
-  * [CircuitLab Youtube Videos](https://www.youtube.com/@CircuitLabInc/videos)
-  * [CircuitLab (Circuit Simulator) Video Tutorials](https://www.youtube.com/playlist?list=PL-pbIBjpFfqBBYQEry-K-fHfqY7DPW9T3)
+- [CircuitLab](https://www.circuitlab.com/)
+  - [Interactive Electronics Textbook](https://ultimateelectronicsbook.com/)
+  - [CircuitLab Youtube Videos](https://www.youtube.com/@CircuitLabInc/videos)
+  - [CircuitLab (Circuit Simulator) Video Tutorials](https://www.youtube.com/playlist?list=PL-pbIBjpFfqBBYQEry-K-fHfqY7DPW9T3)
 
 ### QucsStudio
 
-* [QucsStudio](http://qucsstudio.de/)
-
+- [QucsStudio](http://qucsstudio.de/)
 
 ### OpenSPICE
 
-* [OpenSPICE: A Portable Python Circuit Simulator](https://hackaday.com/2023/02/14/openspice-a-portable-python-circuit-simulator/)
-
+- [OpenSPICE: A Portable Python Circuit Simulator](https://hackaday.com/2023/02/14/openspice-a-portable-python-circuit-simulator/)
 
 # CAD File Interchangeability
 
@@ -372,9 +348,7 @@ or commonly called [STEP file format][24],
 
 Your 3D printer's g-code is automatically generated by a slicing program such as Cura.is usually used to share 3D models between users with different CAD systems.
 
-
 ### AutoCAD
-
 
 ### Fusion 360
 
@@ -383,32 +357,30 @@ Your 3D printer's g-code is automatically generated by a slicing program such as
 and [computer aided engineering (CAE)][12] tools.
 Fusion 360 [offers free use][14] to qualifying hobbyist makers and students.
 
-* [Generative Optimization of a Wheel](https://www.adambender.info/post/generative-optimization)
-
+- [Generative Optimization of a Wheel](https://www.adambender.info/post/generative-optimization)
+- [Product Design Online](https://www.youtube.com/channel/UCooViVfi0DaWk_eqxIXXiOQ) - good site to learn Fusion 360
+  - [How to Get Autodesk Fusion for Free](https://www.youtube.com/playlist?list=PLrZ2zKOtC_-AsEVLfQXCjroQJrdfLjBo8)
 
 ### MeshLab
 
 <http://www.meshlab.net/>
 
-
 ### SketchUp and AutoCAD
 
-* [SketchUp and Autocad](http://www.sketchupartists.org/spotlight/authors/daniel-tal-google-sketchup-for-site-design/sketchup-and-autocad/)
-
+- [SketchUp and Autocad](http://www.sketchupartists.org/spotlight/authors/daniel-tal-google-sketchup-for-site-design/sketchup-and-autocad/)
 
 ### Onshape
 
-
 ### Iteration3D
-* [Iteration3D Is Parametric Python In The Cloud](https://hackaday.com/2025/12/11/iteration3d-is-parametric-python-in-the-cloud/)
-* [iteration3d](https://www.iteration3d.fr/en/)
+
+- [Iteration3D Is Parametric Python In The Cloud](https://hackaday.com/2025/12/11/iteration3d-is-parametric-python-in-the-cloud/)
+- [iteration3d](https://www.iteration3d.fr/en/)
 
 ### OpenSCAD
 
 [!openscad-logo](https://reposcope.com/media/unknown/none/unknown/openscad.png)
 Complex CAD parts can have complex construction to get things like symmetry and parametric sizing to work correctly. It's much more involved than word processing, for example. If you watch an experienced CAD technician work, they will often wipe the entire part and start over so that the right operators are applied at the right part in the construction sequence.
 So CAD part design is a lot like programming, so why not use an actual programming language? That way you get the editing and version control of a programming language.
-
 
 ### FreeCAD
 
@@ -425,16 +397,16 @@ This means you can make use of [constructive solid geometry (CSG)][01]
 techniques when modelling, as well as,
 import designs from other CAD software application for use or modification on your FreeCAD workspace.
 
-* [FreeCAD Version 1.0 Released](https://hackaday.com/2024/11/20/freecad-version-1-0-released/)
+- [FreeCAD Version 1.0 Released](https://hackaday.com/2024/11/20/freecad-version-1-0-released/)
+- [Tutorial: Importing and Using Scaled Reference Images](https://blog.freecad.org/2026/04/12/tutorial-importing-and-using-scaled-reference-images/)
 
-* [CAD Battle - OpenSCAD vs. FreeCAD](https://www.youtube.com/watch?v=OP0zI0k9gOs)
-* [Reverse Engineering STL Files With FreeCAD](https://hackaday.com/2025/10/21/reverse-engineering-stl-files-with-freecad/)
-* [OpenSCAD vs. FreeCAD - Using FreeCAD to Export a printable STL of an OpenSCAD Model](https://www.youtube.com/watch?v=G66zAjnZpcc)
-* [FreeCAD Vs SolveSpace](https://hackaday.com/2020/07/16/freecad-vs-solvespace/)
-* [FreeCAD TechDraw Workbench Tutorial](https://hackaday.com/2019/12/03/freecad-techdraw-workbench-tutorial/)
-* [FreeCAD Parametrics Made Simple](https://hackaday.com/2020/10/09/freecad-parametrics-made-simple/)
-* [FreeCAD Foray: Shells For All Our PCBs](https://hackaday.com/2024/07/01/freecad-foray-shells-for-all-our-pcbs/)
-
+- [CAD Battle - OpenSCAD vs. FreeCAD](https://www.youtube.com/watch?v=OP0zI0k9gOs)
+- [Reverse Engineering STL Files With FreeCAD](https://hackaday.com/2025/10/21/reverse-engineering-stl-files-with-freecad/)
+- [OpenSCAD vs. FreeCAD - Using FreeCAD to Export a printable STL of an OpenSCAD Model](https://www.youtube.com/watch?v=G66zAjnZpcc)
+- [FreeCAD Vs SolveSpace](https://hackaday.com/2020/07/16/freecad-vs-solvespace/)
+- [FreeCAD TechDraw Workbench Tutorial](https://hackaday.com/2019/12/03/freecad-techdraw-workbench-tutorial/)
+- [FreeCAD Parametrics Made Simple](https://hackaday.com/2020/10/09/freecad-parametrics-made-simple/)
+- [FreeCAD Foray: Shells For All Our PCBs](https://hackaday.com/2024/07/01/freecad-foray-shells-for-all-our-pcbs/)
 
 ### FreeCAD + CadQuery
 
@@ -449,7 +421,6 @@ Give my limited rand of use, I choose the Ubuntu supported version:
 sudo apt-get install freecad
 ```
 
-
 ### CadQuery
 
 [CadQuery][19] (inspired by [jQuery][23])
@@ -463,31 +434,26 @@ With it, you can build fully parametric models with a very small amount of code.
 Like OpenSCAD, CadQuery is an open-source, script based, parametric model generator.
 However, [CadQuery claims superiority][22] because:
 
-* it's a more standard scripting language (i.e. Python)
-* many more discriptive language featues
-* the ability to begin with an existing STEP model, created in a CAD package,
-and then add parametric features to it
-* scripts require less code to create most objects,
-because it is possible to locate features based on the position of other features, workplanes, vertices, etc.
-* CadQuery scripts can build STL, STEP, and AMF faster than OpenSCAD
+- it's a more standard scripting language (i.e. Python)
+- many more discriptive language featues
+- the ability to begin with an existing STEP model, created in a CAD package,
+  and then add parametric features to it
+- scripts require less code to create most objects,
+  because it is possible to locate features based on the position of other features, workplanes, vertices, etc.
+- CadQuery scripts can build STL, STEP, and AMF faster than OpenSCAD
 
-* [CadQuery Comes Of Age](https://hackaday.com/2022/02/04/cadquery-comes-of-age/)
-* [Getting Started with CadQuery Scripting](https://www.youtube.com/watch?v=lxhBNOE7GVs)
-* [The CadQuery Module for FreeCAD][20]
-* [CadQuery Documentation](https://dcowden.github.io/cadquery/index.html)
-
-
-
+- [CadQuery Comes Of Age](https://hackaday.com/2022/02/04/cadquery-comes-of-age/)
+- [Getting Started with CadQuery Scripting](https://www.youtube.com/watch?v=lxhBNOE7GVs)
+- [The CadQuery Module for FreeCAD][20]
+- [CadQuery Documentation](https://dcowden.github.io/cadquery/index.html)
 
 # FreeCAD Workbenches To Consider
 
-* [Tools for running Slic3r from FreeCAD](https://github.com/limikael/freecad-slic3r-tools)
-* [Slic3r Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=36342)
-* [FreeCAD Takes Off With A Rocket Design Workbench](https://hackaday.com/2021/04/02/freecad-takes-off-with-a-rocket-design-workbench/)
+- [Tools for running Slic3r from FreeCAD](https://github.com/limikael/freecad-slic3r-tools)
+- [Slic3r Workbench](https://forum.freecadweb.org/viewtopic.php?f=9&t=36342)
+- [FreeCAD Takes Off With A Rocket Design Workbench](https://hackaday.com/2021/04/02/freecad-takes-off-with-a-rocket-design-workbench/)
 
-
----------------
-
+---
 
 # OpenSCAD
 
@@ -516,7 +482,6 @@ and it read design parameters from [DXF files][04].
 Besides DXF files OpenSCAD,
 can read and create 3D models in the [STL file][05] and [OFF file][06] formats.
 
-
 ## OpenSCAD Workflow
 
 One of th emost appealing part of OpenSCAD is that it allows you
@@ -525,12 +490,12 @@ CAD models are expressed in code, in plain text source files that can be managed
 This power comes, for those with minimal coding and geometric skills, with the price of a significant learning curve.
 
 ## OpenSCAD Advance Modeling
-* [Mastering OpenSCAD Workflow](https://hackaday.com/2018/11/14/mastering-openscad-workflow/)
-* [Designing 3D Printable Mechanisms in OpenSCAD](https://urish.medium.com/designing-3d-printable-mechanisms-in-openscad-5838dcb65b39)
-* [OpenSCAD Basic 3D Modelling Episode 030](https://www.youtube.com/watch?v=PayRuYikclc)
-* [OpenSCAD Intermediate 3D Modelling Episode 031](https://www.youtube.com/watch?v=R-gRqGRss1k)
-* [OpenSCAD Advanced 3D Modelling Episode 032](https://www.youtube.com/watch?v=yHKB6R48vXQ)
 
+- [Mastering OpenSCAD Workflow](https://hackaday.com/2018/11/14/mastering-openscad-workflow/)
+- [Designing 3D Printable Mechanisms in OpenSCAD](https://urish.medium.com/designing-3d-printable-mechanisms-in-openscad-5838dcb65b39)
+- [OpenSCAD Basic 3D Modelling Episode 030](https://www.youtube.com/watch?v=PayRuYikclc)
+- [OpenSCAD Intermediate 3D Modelling Episode 031](https://www.youtube.com/watch?v=R-gRqGRss1k)
+- [OpenSCAD Advanced 3D Modelling Episode 032](https://www.youtube.com/watch?v=yHKB6R48vXQ)
 
 ## OpenSCAD Libraries
 
@@ -545,16 +510,15 @@ When you specify a non-fully qualified path and file name in the
 OpenSCAD statements `use <...>` or `include <...>`,
 OpenSCAD looks for the file in the following directories in the following order:
 
-* the directory of the calling `.scad` file
-* the User-Defined library paths (i.e. `OPENSCADPATH`)
-* the Built-In library
-* the Installation library
+- the directory of the calling `.scad` file
+- the User-Defined library paths (i.e. `OPENSCADPATH`)
+- the Built-In library
+- the Installation library
 
 In the case of a library file themself's making use of the statements `use <...>` or `include <...>`,
 the directory of the library `.scad` file is the 'calling' file
 (i.e. when looking for libraries within a library,
 it does not check the directory of the top level `.scad` file).
-
 
 ### Special Variables in OpenSCAD
 
@@ -564,52 +528,49 @@ All user, or OpenSCAD, defined variables starting with a '$' are special variabl
 
 The $fa, $fs and $fn special variables control the number of facets used to generate an arc:
 
-* **$fa is the minimum angle for a fragment.** Even a huge circle does not have more fragments than 360 divided by this number. The default value is 12 (i.e. 30 fragments for a full circle). The minimum allowed value is 0.01. Any attempt to set a lower value will cause a warning.
-* **$fs is the minimum size of a fragment.** Because of this variable very small circles have a smaller number of fragments than specified using $fa. The default value is 2. The minimum allowed value is 0.01. Any attempt to set a lower value will cause a warning.
-* **$fn is usually 0.** When this variable has a value greater than zero, the other two variables are ignored and full circle is rendered using this number of fragments. The default value is 0.
-
+- **$fa is the minimum angle for a fragment.** Even a huge circle does not have more fragments than 360 divided by this number. The default value is 12 (i.e. 30 fragments for a full circle). The minimum allowed value is 0.01. Any attempt to set a lower value will cause a warning.
+- **$fs is the minimum size of a fragment.** Because of this variable very small circles have a smaller number of fragments than specified using $fa. The default value is 2. The minimum allowed value is 0.01. Any attempt to set a lower value will cause a warning.
+- **$fn is usually 0.** When this variable has a value greater than zero, the other two variables are ignored and full circle is rendered using this number of fragments. The default value is 0.
 
 ## OpenSCAD Documentation & Tutorials
 
 Documentation
 
-* [Utility libraries for OpenSCAD](https://github.com/OskarLinde/scad-utils)
-* [dotSCAD - Helpful modules and functions when playing OpenSCAD](https://github.com/JustinSDK/dotSCAD)
-* [OpenSCAD User Manual](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual)
-* [ShimonBox is an OpenSCAD project aiming at providing semi-automatically generated 3D printable cases for development boards.](https://github.com/ubitux/shimonbox)
-* [OpenSCAD General Library of Relativity](https://github.com/davidson16807/relativity.scad)
-* [Raspberry-PI-OpenSCAD-Model](https://github.com/TomHodson/Raspberry-Pi-OpenSCAD-Model)
-* [nutsnbolts](https://github.com/JohK/nutsnbolts)
-* [ScrewsMetric](https://github.com/More-Wrong/ScrewsMetric)
+- [Utility libraries for OpenSCAD](https://github.com/OskarLinde/scad-utils)
+- [dotSCAD - Helpful modules and functions when playing OpenSCAD](https://github.com/JustinSDK/dotSCAD)
+- [OpenSCAD User Manual](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual)
+- [ShimonBox is an OpenSCAD project aiming at providing semi-automatically generated 3D printable cases for development boards.](https://github.com/ubitux/shimonbox)
+- [OpenSCAD General Library of Relativity](https://github.com/davidson16807/relativity.scad)
+- [Raspberry-PI-OpenSCAD-Model](https://github.com/TomHodson/Raspberry-Pi-OpenSCAD-Model)
+- [nutsnbolts](https://github.com/JohK/nutsnbolts)
+- [ScrewsMetric](https://github.com/More-Wrong/ScrewsMetric)
 
 Tutorials
 
-* [Languagelessness: OpenSCAD](https://openhome.cc/eGossip/OpenSCAD/)
-  * [dotSCAD - Helpful modules and functions when playing OpenSCAD](https://github.com/JustinSDK/dotSCAD)
-* [Know only 10 things to be dangerous in OpenSCAD](https://cubehero.com/2013/11/19/know-only-10-things-to-be-dangerous-in-openscad/)
-* [3D modeling a real world object in OpenSCAD](https://raymii.org/s/articles/3D_modelling_a_real_world_object_in_OpenSCAD.html)
-* [Openscad : how to do a chamfered hole](https://www.youtube.com/watch?v=EuzOxNo2fe0&app=desktop)
-* [Fillet Mounts](https://www.youtube.com/watch?v=xwHybCZK-6k&app=desktop)
-* [Cubehero Blog](https://cubehero.com/)
+- [Languagelessness: OpenSCAD](https://openhome.cc/eGossip/OpenSCAD/)
+  - [dotSCAD - Helpful modules and functions when playing OpenSCAD](https://github.com/JustinSDK/dotSCAD)
+- [Know only 10 things to be dangerous in OpenSCAD](https://cubehero.com/2013/11/19/know-only-10-things-to-be-dangerous-in-openscad/)
+- [3D modeling a real world object in OpenSCAD](https://raymii.org/s/articles/3D_modelling_a_real_world_object_in_OpenSCAD.html)
+- [Openscad : how to do a chamfered hole](https://www.youtube.com/watch?v=EuzOxNo2fe0&app=desktop)
+- [Fillet Mounts](https://www.youtube.com/watch?v=xwHybCZK-6k&app=desktop)
+- [Cubehero Blog](https://cubehero.com/)
 
-* [GitHub: BelfrySCAD/BOSL2](https://github.com/BelfrySCAD/BOSL2/tree/master) - library of shapes, masks, and manipulators to make working with OpenSCAD easier.
+- [GitHub: BelfrySCAD/BOSL2](https://github.com/BelfrySCAD/BOSL2/tree/master) - library of shapes, masks, and manipulators to make working with OpenSCAD easier.
 
 ### OpenSCAD Animation
 
-* [Ball joint articulated arm](https://www.youtube.com/watch?v=c1B8hW3d830)
-* [How to animate models in OpenSCAD](https://blog.prusaprinters.org/how-to-animate-models-in-openscad/)
-
+- [Ball joint articulated arm](https://www.youtube.com/watch?v=c1B8hW3d830)
+- [How to animate models in OpenSCAD](https://blog.prusaprinters.org/how-to-animate-models-in-openscad/)
 
 ### GhostSCAD
 
 GhostSCAD is a piece of software that makes it easy to create CAD models using Go and compile them to the OpenSCAD language. It allows you to use the full power of a real programming language and use the rendering capabilities of OpenSCAD.
 
-* [GhostSCAD: Marrying OpenSCAD And Golang](https://hackaday.com/2023/02/12/ghostscad-marrying-openscad-and-golang/)
-
+- [GhostSCAD: Marrying OpenSCAD And Golang](https://hackaday.com/2023/02/12/ghostscad-marrying-openscad-and-golang/)
 
 ## Installing OpenSCAD and Setting Up Libraries
 
-* [Try NopSCADlib For Your Next OpenSCAD Project](https://hackaday.com/2019/06/15/try-nopscadlib-for-your-next-openscad-project/)
+- [Try NopSCADlib For Your Next OpenSCAD Project](https://hackaday.com/2019/06/15/try-nopscadlib-for-your-next-openscad-project/)
 
 **NOTE NOTE NOTE NOTE**
 
@@ -618,7 +579,6 @@ and install instructions are give [here](http://www.openscad.org/downloads.html)
 but [appear to be OpenSCAD version 2015.03-2](https://askubuntu.com/questions/1027731/how-to-install-openscad-in-ubuntu-18-04-18-10).
 
 So as of June 25, 2019, Ubuntu 18.10 support of OpenSCAD 2019.05 hasn't happen yet.
-
 
 ### Step 1: Installing OpenSCAD Executable - DONE
 
@@ -640,16 +600,16 @@ use `grep openscad /etc/apt/sources.list /etc/apt/sources.list.d/*`.
 One thing you might notice when looking at the listing above is the use of the terms
 restricted, universe, and multiverse. These terms identify some important distinctions:
 
-* **Main –** officially supported, open-source software.
-Canonical provides official support for these packages.
-Every open-source software package included in the default installation is included
-along with some other important packages.
-* **Restricted –** officially supported, closed-source software – e.g.,
-hardware drivers -- supported for the length of the release.
-* **Universe –** community-maintained, open-source.
-The majority of the Ubuntu software comes from this repository.
-Canonical does not provide official support or updates.
-* **Multiverse –** unsupported, closed-source and patent-encumbered software.
+- **Main –** officially supported, open-source software.
+  Canonical provides official support for these packages.
+  Every open-source software package included in the default installation is included
+  along with some other important packages.
+- **Restricted –** officially supported, closed-source software – e.g.,
+  hardware drivers -- supported for the length of the release.
+- **Universe –** community-maintained, open-source.
+  The majority of the Ubuntu software comes from this repository.
+  Canonical does not provide official support or updates.
+- **Multiverse –** unsupported, closed-source and patent-encumbered software.
 
 To [install OpenSCAD in Ubuntu 18.10][45]:
 
@@ -668,7 +628,6 @@ $ openscad --version
 OpenSCAD version 2015.03-2
 ```
 
-
 ### Step X
 
 This Linux package install only brings in the the installation library
@@ -678,7 +637,6 @@ contains components commonly used in designing and moching up mechanical designs
 
 Next we'll install some additional libraries.
 
-
 ### Step X: Installing OpenSCAD Libraries
 
 There are many other OpenSCAD libraries you could choose to install,
@@ -686,9 +644,8 @@ many of which can be found [listed here][17] and [listed here][18].
 
 Others that I have come accross that may be of some general use are:
 
-* In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part design. - <https://en.wikipedia.org/wiki/Fillet_(mechanics)>   <https://github.com/StephS/i2_xends/blob/master/inc/fillets.scad>
-* [Belfry OpenScad Library](https://github.com/revarbat/BOSL/wiki)
-
+- In mechanical engineering, a fillet is a rounding of an interior or exterior corner of a part design. - <https://en.wikipedia.org/wiki/Fillet_(mechanics)> <https://github.com/StephS/i2_xends/blob/master/inc/fillets.scad>
+- [Belfry OpenScad Library](https://github.com/revarbat/BOSL/wiki)
 
 In all cases, the best pratice is to install them on the
 User-Defined library path (i.e. `OPENSCADPATH`).
@@ -709,36 +666,29 @@ wget https://www.thingiverse.com/download:1525888 -O threads.scad
 wget https://www.thingiverse.com/download:1545313 -O nuts_and_bolts_v1.95.scad
 ```
 
+### Step X
 
 ### Step X
 
-
 ### Step X
-
-
-### Step X
-
 
 # Gears and Threads in OpenSCAD
 
-* [Generating Nice Threads In OpenSCAD](https://hackaday.io/page/5252-generating-nice-threads-in-openscad)
-* [Studying The Finer Points Of 3D Printed Gears](https://hackaday.com/2024/06/12/studying-the-finer-points-of-3d-printed-gears/)
+- [Generating Nice Threads In OpenSCAD](https://hackaday.io/page/5252-generating-nice-threads-in-openscad)
+- [Studying The Finer Points Of 3D Printed Gears](https://hackaday.com/2024/06/12/studying-the-finer-points-of-3d-printed-gears/)
 
-
----------------
-
+---
 
 # FreeCAD
 
-* [FreeCAD Wiki - Getting Started](https://www.freecadweb.org/wiki/Getting_started)
-* [FreeCAD Wiki - Tutorials](https://www.freecadweb.org/wiki/Tutorials)
-* [FreeCAD Video Tutorials by matcodeprint](https://www.youtube.com/watch?v=jlmd5_lnwXM&list=PLkRx3bM9e3yCPkg9NQmW1eM-ynKcjoGhh)
-* [FreeCAD Assembly Tutorial - The new a2+ Workbench has arrived](https://www.youtube.com/watch?v=mnkecA9S7kc)
-* [FreeCAD Video Tutorials by sliptonic](https://www.youtube.com/user/sliptonic/videos)
+- [FreeCAD Wiki - Getting Started](https://www.freecadweb.org/wiki/Getting_started)
+- [FreeCAD Wiki - Tutorials](https://www.freecadweb.org/wiki/Tutorials)
+- [FreeCAD Video Tutorials by matcodeprint](https://www.youtube.com/watch?v=jlmd5_lnwXM&list=PLkRx3bM9e3yCPkg9NQmW1eM-ynKcjoGhh)
+- [FreeCAD Assembly Tutorial - The new a2+ Workbench has arrived](https://www.youtube.com/watch?v=mnkecA9S7kc)
+- [FreeCAD Video Tutorials by sliptonic](https://www.youtube.com/user/sliptonic/videos)
 
-* [Learn FreeCAD by](https://www.youtube.com/watch?v=CG_czsNdUfs&list=PL2935W76vRNFvUGefQr3q9P9eezJZyj-u)
-* [STL Editing With FreeCAD](https://hackaday.com/2026/01/22/stl-editing-with-freecad/)
-
+- [Learn FreeCAD by](https://www.youtube.com/watch?v=CG_czsNdUfs&list=PL2935W76vRNFvUGefQr3q9P9eezJZyj-u)
+- [STL Editing With FreeCAD](https://hackaday.com/2026/01/22/stl-editing-with-freecad/)
 
 ## Workbenches
 
@@ -748,22 +698,19 @@ You can select a workbench through
 the drop down menu in the middle of the icon bar.
 For 3D printing, you will mostly use the **Part Design** and the **Part** workbenches.
 
-* <https://folk.uio.no/jeanra/Teaching/MEK3230/Documents/GettingStartedFreeCAD.pdf>
+- <https://folk.uio.no/jeanra/Teaching/MEK3230/Documents/GettingStartedFreeCAD.pdf>
 
 Internal Workbenches
 External Workbenches - <https://www.freecadweb.org/wiki/External_workbenches>
 All workbenches at a glance - <https://www.freecadweb.org/wiki/Manual:All_workbenches_at_a_glance>
 
-
 ### A2plus Workbench
 
 The A2plus workbench is an [external workbench][27] to assemble different parts in FreeCAD.
 
-
 ### Gear Workbench
 
-* [Home Made Gears Save This Shredder](https://hackaday.com/2019/06/23/home-made-gears-save-this-shredder/)
-
+- [Home Made Gears Save This Shredder](https://hackaday.com/2019/06/23/home-made-gears-save-this-shredder/)
 
 ### Step 1: Install FreeCAD - DONE
 
@@ -774,13 +721,13 @@ for a stable releases of FreeCAD
 that more up to date than those found on the Ubuntu repositories.
 Unfortanately, I had problems using this.
 
->**NOTE:** When installing FreeCAD with `sudo apt-get install freecad`,
->on startup, FreeCAD displays the error message "No module named WebGui"
->and shows little except a grey screen and a menu bar.
->It doesn't look anything like its [start screen][31]
->as [advertised in the documentation][32].
->There appears to be a [kludgy fix][33] but the [official work around][34]
->is to select **View** > **Workbench** > **Complete**.
+> **NOTE:** When installing FreeCAD with `sudo apt-get install freecad`,
+> on startup, FreeCAD displays the error message "No module named WebGui"
+> and shows little except a grey screen and a menu bar.
+> It doesn't look anything like its [start screen][31]
+> as [advertised in the documentation][32].
+> There appears to be a [kludgy fix][33] but the [official work around][34]
+> is to select **View** > **Workbench** > **Complete**.
 
 The [FreeCAD download page][39] recommends an alternative,
 that being an [AppImage][40].
@@ -803,15 +750,14 @@ When you start FreeCAD for the first time via the commandline,
 you'll be asked if you want to integrate it into your system.
 The answer is "yes" to support desktop integration.
 
->**NOTE:** Wehn I first started FreeCAD, I got the error message
->"Gtk-Message: 10:19:29.865: Failed to load module 'overlay-scrollbar'".
->I [fixed this][42] with
->`sudo apt-get install --reinstall overlay-scrollbar overlay-scrollbar-gtk2`.
+> **NOTE:** Wehn I first started FreeCAD, I got the error message
+> "Gtk-Message: 10:19:29.865: Failed to load module 'overlay-scrollbar'".
+> I [fixed this][42] with
+> `sudo apt-get install --reinstall overlay-scrollbar overlay-scrollbar-gtk2`.
 
->**NOTE:** If you choose to [delete the AppImage file][41],
->the desktop files remain in your system.
->You may leave it as it is but it might be wiser to delete them manually.
-
+> **NOTE:** If you choose to [delete the AppImage file][41],
+> the desktop files remain in your system.
+> You may leave it as it is but it might be wiser to delete them manually.
 
 ### Step 2: Install the CadQuery Module for FreeCAD - DONE
 
@@ -823,12 +769,9 @@ and all of the required libraries are embedded with the workbench.
 To install CadQuery,
 run the FreeCAD Addon Manager by clicking **Tools** > **Addon manager** > **cadquery_module**.
 
-
 ### Step X
 
-
 ### Step X
-
 
 ### Step X: PartDesign Workbench
 
@@ -840,86 +783,80 @@ You can customize the tools included in each workbench,
 add tools from other workbenches or even self-created tools (called macros).
 Widely used starting points are the [Sketcher Workbench][37], [PartDesign Workbench][38].
 
-
 ### Step X: Sketcher Workbench
 
-
 ### Step X
 
-
 ### Step X
-
 
 ### Step X
 
 Writen Tutorials - <https://www.freecadweb.org/wiki/Tutorials>
 Video Tutorials - <https://www.youtube.com/results?search_query=freecad>
 
-
----------------
-
+---
 
 # 3D Paper Modeling
-* [3D Modeling With Paper As An Alternative To 3D Printing](https://hackaday.com/2025/09/13/3d-modeling-with-paper-as-an-alternative-to-3d-printing/)
-  * [3D Modeling with Paper](https://www.arvinpoddar.com/blog/3d-modeling-with-paper)
-  * [Pepakura Designer](https://pepakura.tamasoft.co.jp/pepakura_designer/index.html)
+
+- [3D Modeling With Paper As An Alternative To 3D Printing](https://hackaday.com/2025/09/13/3d-modeling-with-paper-as-an-alternative-to-3d-printing/)
+  - [3D Modeling with Paper](https://www.arvinpoddar.com/blog/3d-modeling-with-paper)
+  - [Pepakura Designer](https://pepakura.tamasoft.co.jp/pepakura_designer/index.html)
 
 ## Mesh Decimation
+
 Sometimes, you can find a high-resolution mesh of your desired object, but not a low-poly one.
 In this case, there are tools available to reduce the polygon count while preserving the overall shape.
 This is called "mesh simplification" or "mesh decimation."
 
-* [Create Faceted Papercraft-objects](https://www.instructables.com/Create-faceted-paper-objects/)
-* [MeshLab](https://www.meshlab.net/)
+- [Create Faceted Papercraft-objects](https://www.instructables.com/Create-faceted-paper-objects/)
+- [MeshLab](https://www.meshlab.net/)
 
+[01]: https://en.wikipedia.org/wiki/Constructive_solid_geometry
+[02]: http://www.openscad.org/
+[03]: https://en.wikipedia.org/wiki/Minkowski_addition
+[04]: https://en.wikipedia.org/wiki/AutoCAD_DXF
+[05]: https://en.wikipedia.org/wiki/STL_(file_format)
+[06]: https://en.wikipedia.org/wiki/OFF_(file_format)
+[07]: https://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/16587/Whats-the-Difference-Between-Parametric-and-Direct-Modeling.aspx
+[08]: https://www.sculpteo.com/blog/2018/03/07/top-8-of-the-best-parametric-modeling-software/
+[09]: https://www.freecadweb.org/
+[10]: https://en.wikipedia.org/wiki/Computer-aided_engineering
+[11]: https://en.wikipedia.org/wiki/Computer-aided_manufacturing
+[12]: https://en.wikipedia.org/wiki/Computer-aided_design
+[13]: https://www.autodesk.com/products/fusion-360/overview
+[14]: https://www.autodesk.com/campaigns/fusion-360-for-hobbyists
+[15]: https://github.com/openscad/MCAD
+[16]: https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/MCAD
+[17]: https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries#Other_Libraries
+[18]: https://github.com/openscad/openscad/wiki/Libraries
+[19]: https://dcowden.github.io/cadquery/intro.html
+[20]: https://github.com/jmwright/cadquery-freecad-module
+[21]: https://www.youtube.com/watch?v=LEZaXumMpv4
+[22]: https://dcowden.github.io/cadquery/intro.html#why-cadquery-instead-of-openscad
+[23]: http://jquery.com/
+[24]: http://www.pcb-3d.com/tutorials/step-file-faq/
+[25]: http://kicad-pcb.org/
+[26]: https://en.wikipedia.org/wiki/Electronic_design_automation
+[27]: https://www.freecadweb.org/wiki/External_workbenches
+[28]: http://www.openscad.org/downloads.html
+[29]: https://www.freecadweb.org/
+[30]: https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable
+[31]: https://www.freecadweb.org/wiki/File:Startcenter.jpg
+[32]: https://www.freecadweb.org/wiki/Getting_started
+[33]: https://techoverflow.net/2018/06/03/how-to-fix-freecad-no-module-named-webgui-on-ubuntu-18-04/
+[34]: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=886538
+[35]: https://www.freecadweb.org/wiki/About_FreeCAD
+[37]: https://www.freecadweb.org/wiki/Sketcher_Workbench
+[38]: https://www.freecadweb.org/wiki/History
+[39]: https://freecadweb.org/downloads.php
+[40]: https://appimage.org/
+[41]: https://itsfoss.com/use-appimage-linux/
+[42]: https://askubuntu.com/questions/984556/gtk-message-failed-to-load-module-overlay-scrollbar-ubuntu-17-10
+[43]: https://github.com/dcowden/cadquery
+[44]: https://github.com/jmwright/cadquery-freecad-module
+[45]: http://ubuntuhandbook.org/index.php/2019/01/install-openscad-ubuntu-18-10-18-04/
+[46]: https://www.youtube.com/watch?v=Z2LgmIGE2nI
 
-
-
-[01]:https://en.wikipedia.org/wiki/Constructive_solid_geometry
-[02]:http://www.openscad.org/
-[03]:https://en.wikipedia.org/wiki/Minkowski_addition
-[04]:https://en.wikipedia.org/wiki/AutoCAD_DXF
-[05]:https://en.wikipedia.org/wiki/STL_(file_format)
-[06]:https://en.wikipedia.org/wiki/OFF_(file_format)
-[07]:https://www.engineering.com/DesignSoftware/DesignSoftwareArticles/ArticleID/16587/Whats-the-Difference-Between-Parametric-and-Direct-Modeling.aspx
-[08]:https://www.sculpteo.com/blog/2018/03/07/top-8-of-the-best-parametric-modeling-software/
-[09]:https://www.freecadweb.org/
-[10]:https://en.wikipedia.org/wiki/Computer-aided_engineering
-[11]:https://en.wikipedia.org/wiki/Computer-aided_manufacturing
-[12]:https://en.wikipedia.org/wiki/Computer-aided_design
-[13]:https://www.autodesk.com/products/fusion-360/overview
-[14]:https://www.autodesk.com/campaigns/fusion-360-for-hobbyists
-[15]:https://github.com/openscad/MCAD
-[16]:https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/MCAD
-[17]:https://en.wikibooks.org/wiki/OpenSCAD_User_Manual/Libraries#Other_Libraries
-[18]:https://github.com/openscad/openscad/wiki/Libraries
-[19]:https://dcowden.github.io/cadquery/intro.html
-[20]:https://github.com/jmwright/cadquery-freecad-module
-[21]:https://www.youtube.com/watch?v=LEZaXumMpv4
-[22]:https://dcowden.github.io/cadquery/intro.html#why-cadquery-instead-of-openscad
-[23]:http://jquery.com/
-[24]:http://www.pcb-3d.com/tutorials/step-file-faq/
-[25]:http://kicad-pcb.org/
-[26]:https://en.wikipedia.org/wiki/Electronic_design_automation
-[27]:https://www.freecadweb.org/wiki/External_workbenches
-[28]:http://www.openscad.org/downloads.html
-[29]:https://www.freecadweb.org/
-[30]:https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable
-[31]:https://www.freecadweb.org/wiki/File:Startcenter.jpg
-[32]:https://www.freecadweb.org/wiki/Getting_started
-[33]:https://techoverflow.net/2018/06/03/how-to-fix-freecad-no-module-named-webgui-on-ubuntu-18-04/
-[34]:https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=886538
-[35]:https://www.freecadweb.org/wiki/About_FreeCAD
-[37]:https://www.freecadweb.org/wiki/Sketcher_Workbench
-[38]:https://www.freecadweb.org/wiki/History
-[39]:https://freecadweb.org/downloads.php
-[40]:https://appimage.org/
-[41]:https://itsfoss.com/use-appimage-linux/
-[42]:https://askubuntu.com/questions/984556/gtk-message-failed-to-load-module-overlay-scrollbar-ubuntu-17-10
-[43]:https://github.com/dcowden/cadquery
-[44]:https://github.com/jmwright/cadquery-freecad-module
-[45]:http://ubuntuhandbook.org/index.php/2019/01/install-openscad-ubuntu-18-10-18-04/
-[46]:https://www.youtube.com/watch?v=Z2LgmIGE2nI
 [47]:
 [48]:
 [49]:

@@ -13,6 +13,10 @@ Version:      0.0.0
 
 
 
+* [Got a Raspberry Pi AIY Voice Bonnet Gathering Dust? This Software Update Gets It Working Again](https://www.hackster.io/news/got-a-raspberry-pi-aiy-voice-bonnet-gathering-dust-this-software-update-gets-it-working-again-c77e04764daf)
+
+
+
 * [Installing Alexa Voice Service to Raspberry Pi](https://www.youtube.com/watch?v=frH9HaQTFL8)
 * [Do It Yourself Artificial Intelligence](https://medium.com/@aallan/do-it-yourself-artificial-intelligence-569b718207)
 
