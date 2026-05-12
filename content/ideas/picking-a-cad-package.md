@@ -108,7 +108,7 @@ Upverter is a modular, web-based tool that does it all — PCB design, schematic
 ---
 
 ## KiCad
-
+![Alt text](https://home.cern/wp-content/uploads/2026/05/KiCad.png)
 [KiCad][25] is a free software suite for
 [electronic design automation (EDA), aka electronic computer-aided design (ECAD)][26].
 It facilitates the design of schematics for electronic circuits
@@ -135,6 +135,8 @@ At their core, PCBs are multi-layer platforms that secure and interconnect elect
 - KiCad Schematics
   - [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
     - [CircuitSnips](https://www.circuitsnips.com/)
+- KiCad Breadboarding
+  - [This KiCAD Plugin Enables Breadboarding](https://hackaday.com/2026/04/23/this-kicad-plugin-enables-breadboarding/)
 
 - [Let's make PCB design easier](https://www.youtube.com/shorts/fMRkuY0YkXc)
   - [PCB Design Analysis Software for Manufacturability](https://www.nextpcb.com/dfm)

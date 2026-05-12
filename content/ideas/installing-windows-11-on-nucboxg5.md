@@ -41,4 +41,5 @@ I purchased a computer with windows 11 pre installed. How do I get the product k
 * [4 Windows 11 startup apps I disabled to instantly speed up my PC](https://www.xda-developers.com/4-windows-11-startup-apps-i-disabled-to-instantly-speed-up-my-pc/)
 * [If you're still debloating Windows manually, this one tool does it better](https://www.xda-developers.com/one-tool-to-debloat-windows-chris-titus-windows-utility/)
 * [Your Windows install is full of bloatware, and most of it can be removed with one PowerShell command](https://www.xda-developers.com/your-windows-install-is-full-of-bloatware-and-most-of-it-can-be-removed-with-one-powershell-command/)
+* [The de-bloating PowerShell command I run on every Windows install](https://www.howtogeek.com/the-de-bloating-powershell-command-i-run-on-every-windows-install/)
 

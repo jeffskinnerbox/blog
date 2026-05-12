@@ -17,6 +17,9 @@ Version:      0.0.0
 
 
 * [I Built a Synth for My Daughter](https://bitsnpieces.dev/posts/a-synth-for-my-daughter/)
+* [This Handy Synth Packs An ESP32](https://hackaday.com/2026/05/02/this-handy-synth-packs-an-esp32/)
+  * [Spark - a portable open-source ESP32-based synth running the AMY synth engine](https://github.com/povle/spark-synth)
+  * [AMY - A high-performance fixed-point Music synthesizer librarY for microcontrollers](https://shorepine.github.io/amy/)
 
 
 
@@ -261,6 +264,7 @@ to your projects without additional hardware.
 * <https://hackaday.com/2015/08/07/logic-noise-4046-voltage-controlled-oscillator-part-one/>
 * [Autonomous Electro-musical Devices](https://hackaday.com/2016/04/27/autonomous-electro-musical-devices/)
 * [ESP32 IS THE BRAINS BEHIND THIS ART INSTALLATION](https://hackaday.com/2021/08/22/esp32-is-the-brains-behind-this-art-installation/)
+* [ESP32Synth : An Audio Synthesis Library For The ESP32](https://hackaday.com/2026/04/23/esp32synth-an-audio-synthesis-library-for-the-esp32/)
 
 * [This Simple Light-Controlled Synth Has A Surprisingly Rich Sound](https://hackaday.com/2022/09/15/this-simple-light-controlled-synth-has-a-surprisingly-rich-sound/)
 

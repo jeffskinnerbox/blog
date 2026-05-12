@@ -31,6 +31,12 @@ _"If you think you understand quantum mechanics, then you don’t understand qua
 _"...the gyroscope that I bought when I was eight ... seems mysterious or paradoxical in the context of common experience that excludes gyroscopes ... a paradox may remain if the intuition cannot reach out to connect with it."_
 [What is Entanglement? Stretching Your Mind to Understand Quantum Entanglement](https://thequantuminsider.com/2024/08/22/what-is-entanglement-stretching-your-mind-to-understand-quantum-entanglement-a-guest-post-by-carl-kocher/)
 
+* [5 GitHub Repositories to Learn Quantum Machine Learning](https://www.kdnuggets.com/5-github-repositories-to-learn-quantum-machine-learning)
+  * [GitHub: krishnakumarsekar/awesome-quantum-machine-learning](https://github.com/krishnakumarsekar/awesome-quantum-machine-learning)
+  * [GitHub: artix41/awesome-quantum-ml](https://github.com/artix41/awesome-quantum-ml)
+  * [GitHub: quantum-machine-learning/Hands-On-Quantum-Machine-Learning-With-Python-Vol-1](https://github.com/quantum-machine-learning/Hands-On-Quantum-Machine-Learning-With-Python-Vol-1)
+  * [GitHub: MonitSharma/Quantum-Machine-Learning-on-Near-Term-Quantum-Devices](https://github.com/MonitSharma/Quantum-Machine-Learning-on-Near-Term-Quantum-Devices)
+  * [GitHub: qiskit-community/qiskit-machine-learning](https://github.com/qiskit-community/qiskit-machine-learning)
 
 
 * [Quantum Computing Since Democritus, by Scott Aaronson](https://www.amazon.com/dp/0521199565) - DONE

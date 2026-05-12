@@ -15,6 +15,9 @@ Version:      0.0.0
 
 * [Why Your Homelab Needs a Domain](https://www.howtogeek.com/why-your-homelab-needs-a-domain/)
 
+* [I ditched Cloudflare DNS—its replacement exposed what my devices were secretly doing in the background](https://www.howtogeek.com/stopped-using-cloudflare-switched-more-powerful-alternative/)
+  * [NextDNS](https://nextdns.io/)
+
 
 Zero Trust Architecture is the practice of designing systems based on the principle of never trust, always verify, as opposed to the traditional trust, but verify principle . It has become quite a popular buzz word of late, in light of all the recent successful cyber attacks, compromising vast amounts of user data.
 

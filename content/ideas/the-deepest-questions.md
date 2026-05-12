@@ -46,6 +46,7 @@ The way I would put it .... The sciences are the stories we tell ourselves to or
 * [Scott Aaronson "On the Nature of Proof"](https://www.youtube.com/watch?v=tpOHKaocMuM)
 * [The story of mathematical proof – with John Stillwell](https://www.youtube.com/watch?v=S1AEWuCFq6A)
 * [How the Square Root of 2 Became a Number](https://www.quantamagazine.org/how-the-square-root-of-2-became-a-number-20240621/)
+* [In Math, Rigor Is Vital. But Are Digitized Proofs Taking It Too Far?](https://www.quantamagazine.org/in-math-rigor-is-vital-but-are-digitized-proofs-taking-it-too-far-20260325/)
 
 
 ---------------
@@ -401,6 +402,7 @@ stumble toward answers to problems that are too complicated to solve exactly.
 * [Russell's Paradox - A Ripple in the Foundations of Mathematics](https://www.youtube.com/watch?v=xauCQpnbNAM)
 * [Russell's Paradox - a simple explanation of a profound problem](https://www.youtube.com/watch?v=ymGt7I4Yn3k)
 * Axiom of Choice: [The most controversial axiom in mathematics and its paradoxes](https://nseverkar.medium.com/the-most-controversial-axiom-in-mathematics-and-its-paradoxes-2c0cdfd725cb)
+* [Why Math’s Final Axiom Proved So Controversial](https://www.quantamagazine.org/why-maths-final-axiom-proved-so-controversial-20260429/)
 
 
 ## What are number systems?
@@ -552,6 +554,12 @@ German mathematician Martin Eichler said
 
 * [Rethinking the real line](https://www.youtube.com/watch?v=uFWJuZQLKJs)
 
+## Ultrafinitism
+Ultrafinitism, a philosophy that rejects the infinite,
+has long been dismissed as mathematical heresy.
+But it is also producing new insights in math and beyond.
+
+* [What Can We Gain by Losing Infinity?](https://www.quantamagazine.org/what-can-we-gain-by-losing-infinity-20260429/)
 
 ## Counting to Infinity
 

@@ -13,7 +13,6 @@ Version:      0.0.0
 
 
 
-
 * [The Emergence of Calculus: A Mathematical Journey of Human Thought](https://medium.com/however-mathematics/the-emergence-of-calculus-a-mathematical-journey-of-human-thought-303dd0839b0a)
 * [A Critical Introduction to Mathematical Structuralism](https://medium.com/cantors-paradise/a-critical-introduction-to-mathematical-structuralism-3cb039427647)
 
@@ -96,6 +95,7 @@ is the title of an article, published in 1960 by the physicist Eugene Wigner, th
 * [Bernhard Riemann's Habilitation Dissertation](http://lymcanada.org/wp-content/uploads/sites/2/2015/01/Riemann_Habilitation-Dissertation.pdf)
 * [Bernhard Riemann 1826-1866: Turning Points in the Conception of Mathematics](https://uberty.org/wp-content/uploads/2015/11/Detlef_Laugwitz_Bernhard_Riemann.pdf)
 * [Analytic Number Theory](https://www.youtube.com/playlist?list=PLbaA3qJlbE93DiTYMzl0XKnLn5df_QWqY)
+* [The Pattern Nobody Can Prove (But Everyone Believes)](https://www.youtube.com/watch?v=pyEGbhwYOeo&t=2124s)
 
 
 # Imaginary Numbers are Real

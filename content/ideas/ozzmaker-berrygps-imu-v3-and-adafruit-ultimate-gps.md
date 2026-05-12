@@ -14,6 +14,7 @@ Version:      0.0.0
 
 
 
+* [There’s More To Global Positioning Than Just GPS](https://hackaday.com/2026/05/07/theres-more-to-global-positioning-than-just-gps/)
 * [SparkFun VR IMU Breakout - BNO086 (Qwiic)](https://www.sparkfun.com/products/22857)
 
 
@@ -21,6 +22,7 @@ Version:      0.0.0
 
 Read this for it good description of GNSS & NMEA messages
 
+* [The Physics Of GPS](https://perthirtysix.com/how-does-gps-work)
 * [Building A GPS System](https://www.sparkfun.com/gps)
 * [Global Positioning Basics](https://www.youtube.com/watch?v=kUUNY-gWT6U&list=PLxCxJVCmDz7oZ05xk2eG27APw5xmEeZaU)
 * [Global Positioning Basics - 6 NMEA Messaging Protocol](https://www.youtube.com/watch?v=2f96rrnE0FU)
@@ -341,6 +343,8 @@ It was used for pretty unique and esoteric stuff, with a simple GPS receivers.
 They were pretty much just displayed current coordinates including latitude, longitude, and altitude - not much else.
 These old units are big, heavy, slow, and use a ton of power for what they do.
 Modern GPS units are light, small, cheap, and use very little power.
+
+* [The GPS III Rollout Is Almost Complete, But What Is It?](https://hackaday.com/2026/04/28/the-gps-iii-rollout-is-almost-complete-but-what-is-it/)
 
 * [Navigation: Maryland School of Sailing](https://www.youtube.com/playlist?list=PLDjZqs-Y1cMyCX3cZ5FfkXdyhywllJeJw)
 

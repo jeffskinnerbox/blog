@@ -34,6 +34,17 @@ Version:      0.0.0
 * [ESP8285 SMT Module - ESP8266 with 1MB FLASH - ESP-M2](https://www.adafruit.com/product/4065)
 
 
+
+
+
+
+# KernelESP for the ESP8266
+ESP8266 UNIX-like control system with serial shell, web UI, automation, mail alerts and diagnostics
+* [The ESP8266 Gets An OS, And It’s Familiar](https://hackaday.com/2026/05/08/the-esp8266-gets-an-os-and-its-familiar/)
+* [GitHib: hery-torrado/KernelESP](https://github.com/hery-torrado/KernelESP)
+
+
+
 # Programming ESP8266 ESP-01
 
 I purchased the [Stemedu USB to ESP8266 ESP-01 programmer board][152]

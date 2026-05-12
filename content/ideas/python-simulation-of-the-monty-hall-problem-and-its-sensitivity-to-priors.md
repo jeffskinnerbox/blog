@@ -15,7 +15,7 @@ Version:      0.0.0
 * [collider bias](https://www.google.com/search?q=collider+bias&oq=collider+bias&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCjM2MjI1MWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#ip=1)
 * [Causality: What is Causality?](https://www.youtube.com/playlist?list=PLcTBLulJV_AKmUTH-nUsxxFyRQoWnUzxU)
 
-So what is probibility and what does it mean to be random?
+So what is probability and what does it mean to be random?
 I want to explain and demonstrate these seemingly simple concepts to show how they are not so simple,
 and how they are a source of much confusion & deception.
 
@@ -144,6 +144,10 @@ Is it in your best interest to switch?
 
 # Deal, No Deal Problem
 * [Water Cooler Small Talk: Why Does the Monty Hall Problem Still Bother Us?](https://towardsdatascience.com/water-cooler-small-talk-why-does-the-monty-hall-problem-still-bother-us-cc50d906522c/)
+----
+
+# Red-Blue Button Dilemma
+* [The Red-Blue Button Dilemma & Its Surprising Answer](https://www.youtube.com/watch?v=W7mwT9XaZ0E)
 
 ---------------
 
