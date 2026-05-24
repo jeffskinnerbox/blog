@@ -934,7 +934,7 @@ Python has many built-in functions that you can use directly without importing a
 These functions cover a wide variety of common programming tasks that include performing math operations,
 working with built-in data types, processing iterables of data, handling input and output in your programs, working with scopes, and more.
 
-* [Python's Built-in Functions: A Complete Exploration](https://realpython.com/preview/python-built-in-functio/)
+* [Python Built-in Functions: A Complete Guide](https://realpython.com/python-built-in-functions/)
 
 
 ## Building Your Own Functions

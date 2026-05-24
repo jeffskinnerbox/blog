@@ -33,16 +33,6 @@ Version:      0.0.0
 * [The Mind-Boggling Properties of the Alternating Harmonic Series](https://medium.com/cantors-paradise/the-mind-boggling-properties-of-the-alternating-harmonic-series-d5e91a53dcfa)
 
 
-# Manim
-
-Manim is an engine for precise animations, designed for creating explanatory math videos.
-
-* [3Blue1Brown Animation Engine for Explanatory Math Videos](https://github.com/3b1b/manim)
-* [How to Create Mathematical Animations like 3Blue1Brown Using Python](https://towardsdatascience.com/how-to-create-mathematical-animations-like-3blue1brown-using-python-f571fb9da3d1)
-* [ManimCommunity](https://github.com/ManimCommunity)
-* [Manim Documentation](https://docs.manim.community/en/stable/index.html#)
-
-
 # Prime Number Types & Theories
 
 * [A Primer on Prime Numbers](https://www2.palomar.edu/pages/math/files/2018/02/A-Primer-on-Prime-Numbers.pdf)

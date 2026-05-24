@@ -265,6 +265,8 @@ to your projects without additional hardware.
 * [Autonomous Electro-musical Devices](https://hackaday.com/2016/04/27/autonomous-electro-musical-devices/)
 * [ESP32 IS THE BRAINS BEHIND THIS ART INSTALLATION](https://hackaday.com/2021/08/22/esp32-is-the-brains-behind-this-art-installation/)
 * [ESP32Synth : An Audio Synthesis Library For The ESP32](https://hackaday.com/2026/04/23/esp32synth-an-audio-synthesis-library-for-the-esp32/)
+* [A simple Synthesizer that you can build yourself! (ESP32 + Mozzi)](https://www.youtube.com/watch?v=AfLHgAreUpU)
+  * [Mozzi](https://sensorium.github.io/Mozzi/)
 
 * [This Simple Light-Controlled Synth Has A Surprisingly Rich Sound](https://hackaday.com/2022/09/15/this-simple-light-controlled-synth-has-a-surprisingly-rich-sound/)
 

@@ -331,8 +331,10 @@ BBC Precision The Measure of All Things
 ## Gödel’s Incompleteness Theorems
 
 * [The paradox at the heart of mathematics: Gödel's Incompleteness Theorem](https://www.youtube.com/watch?v=I4pQbo5MQOs)
+* [What Do Gödel’s Incompleteness Theorems Truly Mean?](https://www.quantamagazine.org/what-do-godels-incompleteness-theorems-truly-mean-20260518/?mc_cid=5fee93d645&mc_eid=a88c5dceda)
 * [Math Has a Fatal Flaw](https://www.youtube.com/watch?v=HeQX2HjkcNo)
 * [Gödel’s Incompleteness Theorem, The Inherent Limitation Of Mathematics](https://www.cantorsparadise.com/g%C3%B6dels-incompleteness-theorem-the-inherent-limitation-of-mathematics-479b3ebef926)
+* [New Proofs Probe the Limits of Mathematical Truth](https://www.quantamagazine.org/new-proofs-probe-the-limits-of-mathematical-truth-20250203/)
 * [There's a Hole at the Bottom of Math](https://www.youtube.com/watch?v=HeQX2HjkcNo)
 * [Gödel’s First Incompleteness Theorem](https://medium.com/@laurgao/g%C3%B6dels-first-incompleteness-theorem-d41516ccd37d)
 * [How Gödel’s Proof Works](https://www.quantamagazine.org/how-godels-incompleteness-theorems-work-20200714/)
@@ -391,7 +393,7 @@ stumble toward answers to problems that are too complicated to solve exactly.
 * [A Simple Solution for Really Hard Problems: Monte Carlo Simulation](https://www.youtube.com/watch?v=slbZ-SLpIgg)
 
 
-## What is the Foundation of Mathmatics?
+## What is the Foundation of Mathematics?
 
 * [The Map of Mathematics](https://www.quantamagazine.org/the-map-of-mathematics-20200213/)
 * [Crisis in the Foundation of Mathematics](https://www.youtube.com/watch?v=KTUVdXI2vng)
@@ -403,6 +405,8 @@ stumble toward answers to problems that are too complicated to solve exactly.
 * [Russell's Paradox - a simple explanation of a profound problem](https://www.youtube.com/watch?v=ymGt7I4Yn3k)
 * Axiom of Choice: [The most controversial axiom in mathematics and its paradoxes](https://nseverkar.medium.com/the-most-controversial-axiom-in-mathematics-and-its-paradoxes-2c0cdfd725cb)
 * [Why Math’s Final Axiom Proved So Controversial](https://www.quantamagazine.org/why-maths-final-axiom-proved-so-controversial-20260429/)
+* [Two Researchers Are Rebuilding Mathematics From the Ground Up](https://www.quantamagazine.org/two-researchers-are-rebuilding-mathematics-from-the-ground-up-20260520/)
+* [Epic Effort to Ground Physics in Math Opens Up the Secrets of Time](https://www.quantamagazine.org/epic-effort-to-ground-physics-in-math-opens-up-the-secrets-of-time-20250611/)
 
 
 ## What are number systems?

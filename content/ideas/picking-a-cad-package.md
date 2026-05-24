@@ -132,6 +132,9 @@ At their core, PCBs are multi-layer platforms that secure and interconnect elect
   - [The Beauty of Four Layer PCBs](https://www.digikey.com/en/maker/blogs/2019/the-beauty-of-four-layer-pcbs)
 - Customization
   - [PCB Art - Byte Sized Engineering](https://www.digikey.com/en/maker/blogs/2022/pcb-art-byte-sized-engineering)
+  - [Another Gift To The World From CERN: Their Entire Set Of KiCad Libraries](https://hackaday.com/2026/05/12/another-gift-to-the-world-from-cern-their-entire-set-of-kicad-libraries/)
+    - [CERN’s KiCad component library now open source](https://home.cern/cerns-kicad-component-library-now-open-source/)
+    - [CERN KiCad Libraries](https://gitlab.com/ohwr/cern-kicad-libs)
 - KiCad Schematics
   - [An Online Repository For KiCad Schematics](https://hackaday.com/2025/11/28/an-online-repository-for-kicad-schematics/)
     - [CircuitSnips](https://www.circuitsnips.com/)
@@ -682,6 +685,8 @@ wget https://www.thingiverse.com/download:1545313 -O nuts_and_bolts_v1.95.scad
 ---
 
 # FreeCAD
+
+- [New to FreeCAD? Start HERE (Ultimate Beginner Tutorial)](https://www.youtube.com/watch?v=KmtqNaGPiiQ)
 
 - [FreeCAD Wiki - Getting Started](https://www.freecadweb.org/wiki/Getting_started)
 - [FreeCAD Wiki - Tutorials](https://www.freecadweb.org/wiki/Tutorials)

@@ -14,6 +14,9 @@ Version:      0.0.0
 
 
 
+* [The Dumb Reason Smart Homes Got Stuck in 2014](https://www.youtube.com/watch?v=dVM3fzPavMg&t=3s)
+
+
 
 * [There’s now a better way to build Home Assistant automations, but you’ll need to enable it first](https://www.howtogeek.com/theres-now-a-better-way-to-build-home-assistant-automations-but-youll-need-to-enable-it-first/)
 * [Build a Complete Smart Home Monitoring System](https://thenewstack.io/build-a-complete-smart-home-monitoring-system/)
