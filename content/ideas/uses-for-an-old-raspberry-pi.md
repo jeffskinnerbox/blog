@@ -134,6 +134,7 @@ In the Apple TV+ series "Severance," the MDR (Macrodata Refinement) computer is 
 **Getting a GPS Stratum 1 Server in Your Home (Grandmaster Clock)**
 Grandmaster clocks receive UTC-based time information from an external time reference, most commonly a GNSS satellite source. The GNSS-receiver and a PTP engine deliver a PTP service over Ethernet ports. This is then distributed downstream to other clocks.
 
+* [Got the Time? Ben Leikin Does, Thanks to a Stratum-1 Time Server Built From a Raspberry Pi](https://www.hackster.io/news/got-the-time-ben-leikin-does-thanks-to-a-stratum-1-time-server-built-from-a-raspberry-pi-755764618216)
 * [Stratum 1 Grandmaster Time Server On A Budget](https://hackaday.com/2022/07/15/stratum-1-grandmaster-time-server-on-a-budget/)
 * [Building a Stratum 1 Time Server for 16 bit DOS](https://www.brutman.com/DOS_Time_Server/DOS_Time_Server.html)
 

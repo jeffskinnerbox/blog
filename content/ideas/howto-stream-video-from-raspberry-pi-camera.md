@@ -14,6 +14,9 @@ Version:      0.0.0
 
 
 
+* [Linux Fu: Fake Webcams Have Many Uses](https://hackaday.com/2026/05/28/linux-fu-fake-webcams-have-many-uses/)
+* [Linux Fu: Fake Webcams, GUI Edition](https://hackaday.com/2026/06/03/linux-fu-fake-webcams-gui-edition/)
+
 * [Raspberry Pi Streaming Camera](https://www.hardill.me.uk/wordpress/2020/05/18/raspberry-pi-streaming-camera/)
 * [Raspberry Pi Zero Gadgets](https://www.hardill.me.uk/wordpress/2017/01/23/raspberry-pi-zero-gadgets/)
 * [Pi4 USB-C Gadget](https://www.hardill.me.uk/wordpress/2019/11/02/pi4-usb-c-gadget/)

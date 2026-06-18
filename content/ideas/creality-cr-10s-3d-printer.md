@@ -12,6 +12,12 @@ Version:      0.0.0
 ---------------
 
 
+
+[OrcaSlicer](https://www.orcaslicer.com/)
+
+
+
+
 # 3D Printing ... Where It All Begins to Grow Big
 * [Mini Documentary on Dr Adrian Bowyer, with bonus FreeCAD appearances!](https://blog.freecad.org/2026/01/05/mini-documentary-on-dr-adrian-bowyer-with-bonus-freecad-appearances/)
   * [How 3D printing started: About Rep-rap and open-source with Adrian Bowyer](https://blog.prusa3d.com/adrian-bowyer_127066/)

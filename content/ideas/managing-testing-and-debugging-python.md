@@ -1142,6 +1142,12 @@ window = tk.Tk()
 
 * [What Is the **pycache** Folder in Python?](https://realpython.com/python-pycache/)
 
+# Python `sleep()`
+Python has built-in support for making your program wait.
+The time module has a `sleep()` function that you can use to add a delay by suspending execution of the calling thread for the number of seconds you specify.
+
+* [Python sleep(): How to Add Time Delays to Your Code](https://realpython.com/python-sleep/)
+
 ---------------
 
 # Python Modules

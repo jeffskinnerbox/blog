@@ -55,6 +55,7 @@ dToF = direct time-of-flight
 * [VL6180X ToF sensor](https://www.adafruit.com/product/3316)
 * [VL53L0X ToF sensor](https://www.adafruit.com/product/3317)
 * [VL53L5CX 8x8 Time of Flight (ToF) Array Sensor Breakout](https://shop.pimoroni.com/products/vl53l5cx-time-of-flight-tof-sensor-breakout?variant=39972903059539)
+* [This Tiny Sensor Sees the World in 3D](https://www.youtube.com/watch?v=FyJQ0Z0wMtk)
 * [SparkFun Qwiic dToF Imager - TMF8820](https://www.sparkfun.com/products/19036)
 * [SparkFun Qwiic dToF Imager - TMF8821](https://www.sparkfun.com/products/19037)
 * [STMicro Unveils the "Camera-Like" FlightSense VL53L7CX Distance Sensor, with 90 Degree FoV](https://www.hackster.io/news/stmicro-unveils-the-camera-like-flightsense-vl53l7cx-distance-sensor-with-90-degree-fov-0a70e0e93d37)

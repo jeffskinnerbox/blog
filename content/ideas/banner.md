@@ -12,6 +12,9 @@ Version:      0.0.0
 ---------------
 
 
+[ASCII art](https://en.wikipedia.org/wiki/ASCII_art) is old, but still entertaining in the geek world.
+It’s about displaying images that are not composed of pixels but of ASCII characters, in other words composed of plain old text characters.
+
 Do you remember when computer graphics meet
 [ASCII characters on paper via a teletype terminal](http://hackaday.com/2016/06/28/retrotechtacular-ascii-art-in-the-19th-century/)?
 Well you can still find it in Linux .... [check out asciiview](http://manpages.ubuntu.com/manpages/precise/man1/aview.1.html).
@@ -71,12 +74,26 @@ $ identify kanagawa-logo.png
 kanagawa-logo.png PNG 1200x1200 1200x1200+0+0 8-bit sRGB 840286B 0.000u 0:00.000
 ```
 
+### Converts JPG Images to ASCII
+`jp2a` is a simple JPEG to ASCII converter.
+
+* [GitHub: Talinx/jp2a](https://github.com/Talinx/jp2a)
+* [GitHub: cslarsen/jp2a](https://github.com/cslarsen/jp2a)
+* [Homebrew Formulae](https://formulae.brew.sh/formula/jp2a)
+* [Convert Images to ASCII Art in Linux Terminal - jp2a](https://www.youtube.com/watch?v=O0xpTtdPD4w)
+
 ```bash
 sudo apt install jp2a
+
+jp2a --help
 
 jp2a --colors --fill --color-depth=24 --size=175x55 The-Great-Wave-Off-Kanagawa.jpg
 
 jp2a --colors --fill --color-depth=24 --size=130x50 kanagawa-logo.png
+
+jp2a --colors --fill --color-depth=8 --term-height Tsunami_by_hokusai_19th_century.jpg
+
+jp2a --colors --color-depth=8 --term-height Tsunami_by_hokusai_19th_century.jpg
 ```
 
 
@@ -85,9 +102,38 @@ jp2a --colors --fill --color-depth=24 --size=130x50 kanagawa-logo.png
 
 # ASCII Camera
 
-watch your webcam feed in a terminal window
+Watch your webcam feed in a terminal window
 
 * [This cool Raspberry Pi project turns your webcam feed into ASCII art](https://www.xda-developers.com/raspberry-pi-project-webcam-ascii/)
 * [Maker builds Raspberry Pi ASCII camera, turning video frames into text-based imagery](https://www.tomshardware.com/raspberry-pi/maker-builds-raspberry-pi-ascii-camera-turning-video-frames-into-text-based-imagery)
   * [I had only 3 days to build this Raspberry Pi Project (ASCII Video Camera)](https://www.youtube.com/watch?v=i9Zj2qN0uJ8)
 
+* [Doing networked video ASCII art in Python](https://mina-pecheux.medium.com/doing-networked-video-ascii-art-in-python-4725b3ee552b)
+* [From Pixels to Characters: Creating ASCII Videos with OpenCV (Including YouTube Playback)](https://medium.com/@yasirulaki04/from-pixels-to-characters-creating-ascii-videos-with-opencv-including-youtube-playback-00d077409f3a)
+
+* [GitHub: joelibaceta/video-to-ascii](https://github.com/joelibaceta/video-to-ascii) - It is a simple python package to play videos in the terminal using characters as pixels
+
+* [Turn Videos Into ASCII Art Videos](https://www.instructables.com/Turn-Videos-Into-ASCII-Art-Videos/)
+
+## AlexEidt
+* [Achieving Real-Time Color ASCII Rendering in Python](https://www.youtube.com/watch?v=SzqKClkCi_0)
+  * [GitHub: AlexEidt/ASCII-Video](https://github.com/AlexEidt/ASCII-Video)
+  * [GitHub: AlexEidt/ASCII-Vision](https://github.com/AlexEidt/ASCII-Vision)
+
+
+```bash
+mpv --quiet -vo=caca https://www.youtube.com/watch?v=dQw4w9WgXcQ
+```
+
+---------------
+
+# Pencil Sketch Renderer
+* [GitHub: AlexEidt/Pencil](https://github.com/AlexEidt/Pencil)
+
+---------------
+
+# Etch-A-Sketch Camera
+Teka-sketch, an Etch-a-Sketch that renders actual video!
+
+* [Etch-A-Sketch Projects](https://blog.adafruit.com/page/2/?s=Etch-A-Sketch)
+* [This Etch-A-Sketch Camera Now Draws Movies](https://www.youtube.com/watch?v=jYDcix_bceI)

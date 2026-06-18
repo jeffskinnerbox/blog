@@ -31,7 +31,7 @@ Therefore many Linux shell and perl / python script starts with the following li
 
 # Namespaces
 
-You can creat isolated namespace within your Linux shell.
+You can create isolated namespace within your Linux shell.
 
 * [Linux Fu: Don’t Share Well With Others](https://hackaday.com/2021/12/28/linux-fu-dont-share-well-with-others/)
 
@@ -116,6 +116,13 @@ It has some text-terminal niceties, so only the latest output is on the screen.
 * [Linux-Fu: Keeping Things Running](http://hackaday.com/2017/03/10/linux-fu-keeping-things-running/#more-246002)
 * [The Process Model of Linux Application Development](http://www.informit.com/articles/article.aspx?p=397655&seqNum=6)
 * [8 Linux commands for effective process management](https://opensource.com/article/18/9/linux-commands-process-management)
+
+# Tracing System Calls
+`strace-tui` is a terminal user interface (TUI) for visualizing and exploring strace output - [GitHub: Rodrigodd/strace-tui](https://github.com/Rodrigodd/strace-tui)
+`strace_ui` is a Bonsai_term application for interactively viewing strace output - [GitHub: janestreet/strace_ui](https://github.com/janestreet/strace_ui)
+
+* [Linux Fu: Tracing System Calls](https://hackaday.com/2020/04/07/linux-fu-tracing-system-calls/)
+* [Linux Fu: Taming Strace](https://hackaday.com/2026/06/02/linux-fu-taming-strace/)
 
 # Job Control
 

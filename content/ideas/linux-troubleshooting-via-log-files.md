@@ -17,7 +17,7 @@ Version:      0.0.0
 ################################################################################
 The document was quite old ... but Linux is linux right? :) how often are core commands and logging structures changed?  I also found:
 
-----------
+-----
 
 2) Regarding the logs in /var/log/
 A bash command to filter the most interesting log messages is this:
@@ -50,7 +50,7 @@ On Wed, Feb 19, 2020 at 1:38 PM Lawrence, Chris <chris.lawrence@verizon.com> wro
 
 Vinny - I stumbled across the following, which you might already have found or known for determining a cold/dirty shutdown:
 
---------------------------
+-----
 
 
 
@@ -78,6 +78,7 @@ runlevel (to lvl 3)   3.10.0-693.21.1. Sun Jun 17 15:40 - 09:51  (18:11)
 ################################################################################
 
 
+* [Linux Log Files: Guide to Reading, Searching, and Managing Logs](https://linuxblog.io/linux-log-files-guide/)
 * [Troubleshooting with Linux Logs](https://www.loggly.com/ultimate-guide/troubleshooting-with-linux-logs/)
 * [What are Linux Logs? How to View Them, Most Important Directories, and More](https://stackify.com/linux-logs/)
 
@@ -374,12 +375,4 @@ Check Swap Usage Size and Utilization - <https://www.cyberciti.biz/faq/linux-che
 
 
 [01]:https://help.ubuntu.com/stable/ubuntu-help/net-wireless-troubleshooting-hardware-check.html
-[02]:
-[03]:
-[04]:
-[05]:
-[06]:
-[07]:
-[08]:
-[09]:
-[10]:
+

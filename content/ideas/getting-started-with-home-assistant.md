@@ -14,6 +14,13 @@ Version:      0.0.0
 
 
 
+* [Home Assistant + Claude via MCP](https://www.mostlychris.com/home-assistant-claude-via-mcp/)
+  * [BUILD, MAINTAIN, and TROUBLESHOOT Home Assistant with ha-mcp and your favorite AI.](https://www.youtube.com/watch?v=WduLaBVz208)
+  * [GitHub: homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp)
+  * [Building My Smart Home from Scratch with Claude Code + Home Assistant](https://community.home-assistant.io/t/building-my-smart-home-from-scratch-with-claude-code-home-assistant/994464)
+
+
+
 * [The Dumb Reason Smart Homes Got Stuck in 2014](https://www.youtube.com/watch?v=dVM3fzPavMg&t=3s)
 
 

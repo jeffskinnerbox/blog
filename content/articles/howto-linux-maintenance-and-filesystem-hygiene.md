@@ -108,6 +108,20 @@ you'll need to reboot to load the new firmware.
 Filesystems and disks should be check to make sure they are not running low on resources
 and are not showing any signs of pending failure.
 
+#### Disk Usage Analyzer
+
+The first thing you'll want to do is install a tool called Disk Usage Analyzer.
+The package name is `baobab`.
+You can install it on Debian, Ubuntu, and their distro derivations with this command:
+`sudo apt install baobab`.
+
+The main screen will show you a list of your storage drives,
+alongside their total and available storage.
+On the right side, you'll see a visual representation of your directories.
+The bigger the block, the more space it takes up. You can switch between ring chart and treemap views.
+On the left pane, you'll see a list of directories and their details.
+Which folders are taking up the most space, how many items, they have, and the percentage points for each directory, etc.
+
 #### Check Storage and Inode Usage
 
 If you let some directories get really full, like above 95% full, you will see some serious system problems.
