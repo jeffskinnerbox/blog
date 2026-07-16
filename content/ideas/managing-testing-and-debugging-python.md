@@ -155,6 +155,9 @@ is a game changer and takes it from a handy tool to indispensable.
 Sure, that could be managed in different ways,
 but the simplicity of setting up your entire environment from scratch with `uv sync` is just marvelous.
 
+## How to Use GitHub
+* [How to Use GitHub](https://realpython.com/how-to-use-github/)
+
 ## Python Version vs Python Project Management
 Your going to be using two primary tools:
 
@@ -1076,6 +1079,7 @@ This helps us to write cleaner, more readable code compared to traditional loopi
 * [List Comprehension in Python](https://www.geeksforgeeks.org/python-list-comprehension/)
 * [Python Dictionary Comprehension](https://www.geeksforgeeks.org/python-dictionary-comprehension/)
 * [Building Dictionary Comprehensions in Python](https://realpython.com/courses/building-dictionary-comprehensions/)
+* [Python Dictionary Tips and Tricks You Should Always Remember](https://www.kdnuggets.com/python-dictionary-tips-and-tricks-you-should-always-remember)
 
 
 ---------------

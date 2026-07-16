@@ -12,6 +12,7 @@ Version:      0.0.0
 
 * [How To Get DNS Right: A Guide to Common Failure Modes](https://thenewstack.io/how-to-get-dns-right-a-guide-to-common-failure-modes/)
 * [Here's how your ISP tracks every website you visit, and one tool that stops it](https://www.howtogeek.com/why-dns-betrays-your-privacy-and-how-dnscrypt-stops-it/)
+* [Stop using the same DNS for every device (do this instead to block ads and boost speeds)](https://www.howtogeek.com/stop-using-the-same-dns-for-every-device-in-your-house/)
 
 
 
@@ -32,6 +33,7 @@ so [why run your own DNS resolver][01]?
 * If you don’t like your Internet browsing history being stored on a third-party server
 
 # Consider these DNS / Ad-Blockers
+e [Your ISP is tracking everything you do online: Change this one setting right now](https://www.howtogeek.com/your-isp-is-logging-every-website-you-visitheres-the-one-minute-fix/)
 
 ## Technitium
 

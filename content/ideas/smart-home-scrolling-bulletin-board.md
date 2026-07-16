@@ -22,6 +22,11 @@ This is just an idea on what the display could be doing when there are no notifi
 
 
 
+* [Tiny LED WiFi Companion Cube](https://learn.adafruit.com/tiny-led-wifi-cube)
+* [RGB LED Matrix Cube with 25,000 LEDs](https://learn.adafruit.com/rgb-led-matrix-cube-for-pi)
+
+
+
 
 
 

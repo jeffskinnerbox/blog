@@ -343,6 +343,7 @@ Washington DC area and the National Capital Region Special Flight Rules Area (SF
 
 * [FAA Map of FRIA Sites](https://www.friamap.com/)
 * [Loudoun County Aeromodelers Association (LCAA)](https://lcaa.org/)
+  * [LCAA RC Flying Field](https://www.google.com/maps/place/LCAA+RC+Flying+Field/@39.0339299,-77.6040364,14z/data=!4m6!3m5!1s0x89b615a7e3f079a1:0x5ee96f0d6f246f9c!8m2!3d39.030446!4d-77.5960047!16s%2Fg%2F11fyl9c1x4!5m2!1e4!1e1!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYyMy4wIKXMDSoASAFQAw%3D%3D)
   * [Loudoun County Aeromodelers Association (LCAA)](https://www.modelaircraft.org/club/loudoun-county-aeromodelers-association)
   * [Loudoun County Aeromodelers Association - Banshee Reeks Nature Preserve](https://www.modelaircraft.org/site/loudoun-county-aeromodelers-association-banshee-reeks-nature-preserve)
 * [Ida Lee Park, Leesburg VA](https://www.leesburgva.gov/departments/parks-recreation/town-parks/uas-and-rocket-flights)

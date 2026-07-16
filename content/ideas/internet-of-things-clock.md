@@ -1298,6 +1298,9 @@ Then perform step 3 & 4 above.
 ### Step X: Install NTP Client and Test - DONE
 
 * [Tricks to get local NTP time for the ESP32 and the ESP8266 incl. Summer- and Daylight Saving time](https://www.youtube.com/watch?v=r2UAmBLBBRM&t=86s)
+* [ESP32 NTP Digital Clock with Timezone and Daylight Saving Time](https://randomnerdtutorials.com/esp32-ntp-digital-clock-timezone/)
+* [ESP32 NTP Time – Setting Up Timezones and Daylight Saving Time](https://randomnerdtutorials.com/esp32-ntp-timezones-daylight-saving/)
+* [ESP32 with TM1637 4-Digit LED 7-Segment Display (Arduino IDE)](https://randomnerdtutorials.com/esp32-tm1637-4-digit-7-segment-display-arduino/)
 
 Following the article ["ESP8266 - NTP Client and Daylight Saving Time"][48] as a guide,
 test out these libraries by installing the ESP8266 the NTP Client found [here][29].
@@ -1448,6 +1451,7 @@ Finally, add a AM/PM indicator on the clock face.
 
 # Over The Air (OTA) Programming
 
+* [A GUI Solution For ESP32 Web Development](https://hackaday.com/2026/06/26/a-gui-solution-for-esp32-web-development/)
 * [ESP8266 Over The Air (OTA) Programming Without Reset Using Arduino IDE (Mac OSX and Windows)](https://www.youtube.com/watch?v=3aB85PuOQhY&t=20s)
 * [OTA ESP32 GUI Makes Updates Simple](https://hackaday.com/2020/06/23/ota-esp32-gui-makes-updates-simple/)
 * [Library Makes ESP Over the Air Updates Easy](https://hackaday.com/2019/03/21/library-makes-esp-over-the-air-updates-easy/)

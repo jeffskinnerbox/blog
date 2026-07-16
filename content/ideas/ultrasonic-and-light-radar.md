@@ -25,12 +25,16 @@ The term RADAR was coined in 1940 by the United States Navy as an acronym for "R
 * [RoomSense IQ](https://www.crowdsupply.com/roomsense-labs/roomsense-iq)
 
 * [Fermion: C4002 mmWave Human Presence Sensor - Static & Motion Detection (10m)](https://www.dfrobot.com/product-3081.html?marketing=69b2985864084)
+* [Human Presence Detection with mmWave C4002](https://www.makerguides.com/human-presence-detection-with-mmwave-c4002/)
+
+* [How I built a mmWave material classification radar](https://gauthier-lechevalier.com/radar)
 
 
 
 
 
-# # Type of Radar Sensors
+
+# Type of Radar Sensors
 
 * [LiDAR, Radar, and PCR: What's The Difference?](https://www.sparkfun.com/news/10536)
 * [How to choose Radar Sensors (Tutorial). Incl. PIR and LIDAR](https://www.youtube.com/watch?v=PNbAM9IhfBE)

@@ -20,6 +20,9 @@ Version:      0.0.0
 * [SparkFun VR IMU Breakout - BNO086 (Qwiic)](https://www.sparkfun.com/products/22857)
 
 
+* [Terra: DIY Land-Based GPS](https://www.terra-rnt.com/index.html)
+  * [Positioning Without Satellites Or Base Stations](https://hackaday.com/2026/07/01/positioning-without-satellites-or-base-stations/)
+
 
 
 Read this for it good description of GNSS & NMEA messages

@@ -13,6 +13,7 @@ Version:      0.0.0
 
 
 * [Raspberry Pi Drives Holographic Anime Virtual Assistant](https://www.tomshardware.com/news/raspberry-pi-anime-holographic-assistant)
+* [Building A 2-Way Holographic Display](https://hackaday.com/2026/06/18/building-a-2-way-holographic-display/)
 
 
 

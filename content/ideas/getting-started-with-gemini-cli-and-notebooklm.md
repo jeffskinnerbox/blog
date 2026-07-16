@@ -84,3 +84,11 @@ This Google AI research tool lets you upload PDFs, Google Docs, websites, videos
 * Pro version: More everything—more sources, more queries, more Audio Overviews, plus team features, analytics, and customization.
 * No promo codes needed—just sign in with your Google account to start using it for free. Pro plans available via Google One, Google Workspace, or Google Cloud.
 
+# Obsidian
+* [Obsidian CLI](https:// bsidian.md/cli)
+* [clin](https://terminaltrove.com/clin/)  -  Terminal UI note management app inspired by Obsidian
+  * [GitHub: reekta92/clin-rs](https://github.com/reekta92/clin-rs)
+
+
+
+
