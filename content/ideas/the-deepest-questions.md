@@ -512,6 +512,7 @@ German mathematician Martin Eichler said
 
 # The Infinite and Infinitesimal
 
+* [The Largest Tweetable Number — Lectures on Infinity](https://www.youtube.com/watch?v=3n115MgLFz0)
 * [Things get weird at infinity](https://www.youtube.com/watch?v=6HybPBUNzz8)
 * [Infinities and Skepticism in Mathematics: Steve Patterson interviews N J Wildberger](https://www.youtube.com/watch?v=E_dGqavx5AU)
 * [The Father of Infinity and Modern Mathematics: Georg Cantor](https://ali.medium.com/the-father-of-infinity-and-modern-mathematics-georg-cantor-93beb245756e)
@@ -1663,6 +1664,8 @@ In physics, magnetism of everyday materials emerges from the spontaneous alignme
 * [Complexity Explorer](https://www.complexityexplorer.org/)
   * [Complexity Explorer](https://www.youtube.com/@ComplexityExplorer/featured)
 
+## Theory of Fluids
+* [Theory of Fluids Enters the 21st Century](https://www.quantamagazine.org/theory-of-fluids-enters-the-21st-century-20260817/)
 
 ## Computational Complexity Theory
 

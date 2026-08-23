@@ -15,6 +15,12 @@ Version:      0.0.0
 
 
 
+* [AMYboard](https://www.amyboard.com/) is a complete audio synthesizer for US $29.90
+  that can be at least three things: a Synthesizer, Dev Board, and Eurorack module.
+  It’s open source, has a STEMMA QT/qwiic port for expansion, and ships with MicroPython firmware.
+
+
+
 
 * [I Built a Synth for My Daughter](https://bitsnpieces.dev/posts/a-synth-for-my-daughter/)
 * [This Handy Synth Packs An ESP32](https://hackaday.com/2026/05/02/this-handy-synth-packs-an-esp32/)
@@ -438,7 +444,10 @@ Doesn't seem to work???
 
 An analog computer is a physical system configured so that it is governed by equations identical to the ones you want to solve. You impose initial conditions corresponding to those in the system you want to investigate and then allow the variables in the analog computer to evolve with time. This result provides the solution to the relevant equations.
 
+
 ![analog-computer](https://dzone.com/storage/temp/12682364-connection-netwok.jpg)
+
+* [Future Computers Will Be Radically Different (Analog Computing)](https://www.youtube.com/watch?v=GVsUOuSjvcg)
 
 * [Try This Brand New Analog Computer](https://spectrum.ieee.org/try-this-new-analog-computer)
 * [NOT YOUR FATHER’S ANALOG COMPUTER](https://spectrum.ieee.org/not-your-fathers-analog-computer)
@@ -476,6 +485,27 @@ If we get more than 100 orders (we already have about 15 orders in our queue) ad
 * [The Mechanical Integrator - a machine that does calculus](https://www.youtube.com/watch?v=s-y_lnzWQjk)
 * [Difference Engines: Mechanical Brains, Analog Computers - STEMpunk](https://www.youtube.com/watch?v=JXhHOiZcINQ)
 * [An Old Mechanical Computer: The Harmonic Analyzer](https://www.youtube.com/watch?v=GyYflzRVu6M)
+
+
+
+
+
+# Analog Computing: Matrix Multiplication with Analog Components
+Analog matrix multiplication performs mathematical computations directly using the physical properties of circuits rather than digital logic gates.
+It relies on Ohm’s Law to multiply values and Kirchhoff's Current Law to sum them,
+enabling massive parallelism and extreme power efficiency for artificial intelligence and signal processing tasks.
+
+* [Ohms Law for analog matrix multiplication?](https://www.reddit.com/r/ElectricalEngineering/comments/14pzl52/ohms_law_for_analog_matrix_multiplication/)
+* [Analog AI Is Back, But Can It Survive Its Own Noise?](https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/)
+* [Analog Computation of Linear Algebra: Theory and Implementation](https://medium.com/intuition/analog-computation-of-linear-algebra-theory-and-implementation-b52209c49c1c#44db)
+  * [GitHub: aemuzzin/analog_computing_of_linear_algebra](https://github.com/jaemuzzin/analog_computing_of_linear_algebra)
+* [Analog Computation of Sine and Cosine](https://medium.com/intuition/analog-computation-of-sine-and-cosine-d73f64e3c105)
+  * [GitHub: jaemuzzin/sin_cos_solving_circuit](https://github.com/jaemuzzin/sin_cos_solving_circuit)
+* [Analog Circuit That Solves Pythagorean Theorem](https://medium.com/intuition/analog-circuit-that-solves-pythagorean-theorem-648d7be412ec)
+  * [GitHub: jaemuzzin/pythagorean_solving_circuit](https://github.com/jaemuzzin/pythagorean_solving_circuit)
+* [Analog Computers — A General Computing Equation for 3 Types Of Physical Systems](https://medium.com/intuition/analog-computers-a-general-computing-equation-for-3-types-of-physical-systems-c88b11cda30a)
+* [Analog Computers — The Mechanical Integrator Explained](https://medium.com/intuition/mechanical-integrator-the-analog-computer-explained-2bba00e1b0a8)
+
 
 
 # History

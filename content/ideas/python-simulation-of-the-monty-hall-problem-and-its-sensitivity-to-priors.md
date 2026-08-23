@@ -266,6 +266,9 @@ sensitive to the setup of the problem.
 # P-Value
 
 * [P-Value: An Intuitive Explanation for Non-Statisticians](https://towardsdatascience.com/how-to-interpret-p-value-with-covid-19-data-edc19e8483b)
+* [The True Meaning of p-Value](https://towardsdatascience.com/th-true-meaning-of-p-value-2225b04510c/)
+* [Stop Calling the First Significant Day a Win](https://towardsdatascience.com/stop-calling-the-first-significant-day-a-win/)
+* [The Wee P Boogie: The Song That's Sweeping the Nation!](https://www.youtube.com/watch?v=PnW39ywWotc)
 
 ---------------
 

@@ -109,7 +109,6 @@ uv pip freeze > requirements.txt
 
 ---------------
 
-
 * [How to Install Python on Your System: A Guide](https://realpython.com/installing-python/)
 
 * [Python 3.14 and the End of the GIL](https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/)
@@ -117,6 +116,10 @@ uv pip freeze > requirements.txt
 
 # Managing Secrets and API Keys
 * [Managing Secrets and API Keys in Python Projects (.env Guide)](https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide)
+
+# Using AI Agents / Claude Code
+* [How to Use Claude Code to Write and Debug Python](https://realpython.com/how-to-use-claude-code/)
+* [How to Debug Python Code With an AI Agent](https://realpython.com/ai-debugging/)
 
 # Next-gen Python Tooling
 Over the years, legacy Python has created multiple tools & procedures to manage the Python interpreter,
@@ -989,6 +992,7 @@ Python resolves names using what’s known as the **LEGB rule**, which defines t
   * [Lists vs Tuples in Python](https://realpython.com/python-lists-tuples/)
   * [Exploring Python's tuple Data Type With Examples](https://realpython.com/courses/exploring-tuple-data-type-examples/)
   * [How to Remove Items From Lists in Python](https://realpython.com/remove-item-from-list-python/)
+    * [Working With Python's deque](https://realpython.com/courses/working-with-pythons-deque/)
 * Descriptors
   * [8 things in Python you didn't realize are descriptors](https://www.youtube.com/watch?v=mMbVs17Vmo4)
 * Generators
@@ -1222,6 +1226,9 @@ Example programs that make heavy use of Python's commandline utilities.
 * [Building a Python GUI Application With Tkinter](https://realpython.com/courses/building-gui-application-tkinter/)
 * [Modern Tkinter Design With CustomTkinter](https://www.youtube.com/playlist?list=PLfZw_tZWahjxJl81b1S-vYQwHs_9ZT77f)
 * [My Example](https://github.com/jeffskinnerbox/ll-tracker/blob/master/tkrdecoder.py)
+
+# GUIs for PyQt Applications
+* [Qt Designer and Python: Build Your GUI Applications Faster](https://realpython.com/qt-designer-python/)
 
 
 # Gradio

@@ -27,6 +27,7 @@ Version:      0.0.0
 * [Understanding Terminal and Shell](https://alpha2phi.medium.com/understanding-terminal-and-shell-a306ec0aee65)
 * [A Brief Introduction to termios](https://blog.nelhage.com/2009/12/a-brief-introduction-to-termios/)
 
+* [Get A Remote Terminal With One Binary, One URL, And Zero Config](https://hackaday.com/2026/08/03/get-a-remote-terminal-with-one-binary-one-url-and-zero-config/)
 
 
 

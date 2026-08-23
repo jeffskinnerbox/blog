@@ -40,6 +40,18 @@ Gemini Response: Yes, absolutely. This is one of the most powerful features of P
 
 ---------------
 
+# NextDNS
+NextDNS protects you from all kinds of security threats,
+blocks ads and trackers on websites and in apps and provides a safe and supervised Internet for kids — on all devices and on all networks.
+* [You don’t need to build a Pi-hole anymore—this cloud tool does it without hardware](https://www.howtogeek.com/dont-need-to-run-a-pi-hole-ttool-gives-most-of-the-same-benefits/)
+* [NextDNS](https://nextdns.io/)
+
+---------------
+
+
+* [I learned the hard way why a single Pi-hole is never enough](https://www.howtogeek.com/single-pi-hole-is-never-enough/)
+
+
 * [How to deploy Pi-Hole with Docker and stop ads on every device on your LAN](https://thenewstack.io/pihole-docker-network-adblocking/)
 
 

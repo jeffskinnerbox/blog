@@ -12,6 +12,7 @@ Version:      0.0.0
 -----
 
 
+* [Easy Theremin Uses ESP32](https://hackaday.com/2026/08/02/easy-theremin-uses-esp32/)
 * [Theremin as a Capacitive Sensing Device](https://web.archive.org/web/20211204203658/http://interface.khm.de/index.php/lab/interfaces-advanced/theremin-as-a-capacitive-sensing-device/index.html)
 * [DIY Theremin Kit](https://www.makershed.com/products/diy-theremin)
 * [Theremin in Detail](https://hackaday.com/2017/09/09/theremin-in-detail/)

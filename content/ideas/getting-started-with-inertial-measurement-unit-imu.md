@@ -68,8 +68,18 @@ Version:      0.0.0
 - [Particle Filter : A hero in the world of Non-Linearity and Non-Gaussian](https://towardsdatascience.com/particle-filter-a-hero-in-the-world-of-non-linearity-and-non-gaussian-6d8947f4a3dc)
 
 
-# Extended Kalman Filter
+# Madgwick Filter
+- [Madgwick vs Kalman filter for sensor fusion](https://qsense-motion.com/qsense-imu-motion-sensor/madgwick-filter-sensor-fusion/)
+- [IMU Madgwick filter explanation](https://medium.com/@k66115704/imu-madgwick-filter-explanation-556fbe7f02e3)
+- [GitHub: bjohnsonfl/Madgwick_Filter](https://github.com/bjohnsonfl/Madgwick_Filter)
+- [Madgwick Orientation Filter](https://ahrs.readthedocs.io/en/latest/filters/madgwick.html)
 
+- [AHRS: Attitude and Heading Reference Systems](https://ahrs.readthedocs.io/en/latest/index.html) - open source Python toolbox for attitude estimation using the most known algorithms, methods and resources.
+
+
+
+
+# Extended Kalman Filter
 - [Extended Kalman Filter: Why do we need an Extended Version?](https://towardsdatascience.com/extended-kalman-filter-43e52b16757d)
 - [Kalman Filter Interview](https://towardsdatascience.com/kalman-filter-interview-bdc39f3e6cf3)
 - [Robot localization with Kalman-Filters and landmarks](https://medium.com/@jannik.zuern/robot-localization-with-kalman-filters-and-landmarks-cf97fa44e80b)
