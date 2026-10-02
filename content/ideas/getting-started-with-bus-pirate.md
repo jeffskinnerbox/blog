@@ -13,6 +13,9 @@ Version:      0.0.0
 -----
 
 
+* [The ESP32 Bus Expander Gives Geo TP's ESP32 Bit Pirate a Wealth of New IoT Capabilities](https://www.hackster.io/news/the-esp32-bus-expander-gives-geo-tp-s-esp32-bit-pirate-a-wealth-of-new-iot-capabilities-ced4815db82d)
+
+
 
 * [Hands On: Bus Pirate 5](https://hackaday.com/2024/02/12/hands-on-bus-pirate-5/)
 * [The Bus Pirate 5 Sure Can Glitch](https://hackaday.com/2025/03/01/the-bus-pirate-5-sure-can-glitch/)

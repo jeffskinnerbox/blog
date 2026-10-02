@@ -1,5 +1,11 @@
 
 
+# Guided Robot Course
+* [Code The Robot](https://codetherobot.com/) - A quiet, practical route from a clean Ubuntu installation to C++, ROS 2 Lyrical Luth and guided, simulation-first industrial robot exercises.
+
+
+
+
 # Hugging Face Tutorials & Courses
 
 

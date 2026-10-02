@@ -116,6 +116,7 @@ making Dimebots some of the smallest robots in the world.
 * [Welcome Our New Insect Overlords With Arduino-Powered Ant Bot](https://hackaday.com/2018/12/17/welcome-our-new-insect-overlords-with-arduino-powered-ant-bot/)
 * [A Pet Robot, Just Like Boston Dynamics Makes](https://hackaday.com/2019/03/30/a-pet-robot-just-like-boston-dynamics-makes/)
 * [One-Legged Robot Does the Hop](https://hackaday.com/2019/05/25/one-legged-robot-does-the-hop/)
+* [Pogo-Bot Goes All Terrain With Compliant Foot](https://hackaday.com/2026/09/30/pogo-bot-goes-all-terrain-with-compliant-foot/)
 * [Robotic Cheetah Teaches a Motors Class](https://hackaday.com/2019/05/29/robotic-cheetah-teaches-a-motors-class/)
 * [Mech Warfare: Like Driving a Building-Sized Robot Through a Busy City](https://hackaday.com/2019/06/07/mech-warfare-like-driving-a-building-sized-robot-through-a-busy-city/)
 * [A Better Motor For Chickenwalkers](https://hackaday.com/2019/06/24/a-better-motor-for-chickenwalkers/)

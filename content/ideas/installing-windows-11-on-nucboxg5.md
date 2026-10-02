@@ -43,3 +43,6 @@ I purchased a computer with windows 11 pre installed. How do I get the product k
 * [Your Windows install is full of bloatware, and most of it can be removed with one PowerShell command](https://www.xda-developers.com/your-windows-install-is-full-of-bloatware-and-most-of-it-can-be-removed-with-one-powershell-command/)
 * [The de-bloating PowerShell command I run on every Windows install](https://www.howtogeek.com/the-de-bloating-powershell-command-i-run-on-every-windows-install/)
 
+* [Windows 11 is running hidden tasks that drain your laptop battery—here's how to stop them](https://www.howtogeek.com/windows-11-running-hidden-tasks-drain-laptop-battery-how-to-stop-them/)
+* [How I use WinGet commands to keep Windows bloat-free from day one](https://www.howtogeek.com/how-i-use-winget-commands-to-keep-windows-bloat-free-from-day-one/)
+

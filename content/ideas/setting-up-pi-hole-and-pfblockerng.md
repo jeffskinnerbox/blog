@@ -10,6 +10,11 @@ Version:      0.0.0
 
 ---------------
 
+* [ntopng](https://www.ntop.org/products/traffic-analysis/ntopng/) - [I built a Raspberry Pi "Black Box" that records everything on my home network](https://www.howtogeek.com/built-raspberry-pi-black-box-that-records-everything-on-my-home-network/)
+* [How to Set Up Pi-hole: 12 Steps, 45 Minutes - 2026](https://tech-insider.org/pihole-setup-guide-2026/)
+
+---------------
+
 Gemini Prompt:
 
 ```text

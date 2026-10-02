@@ -350,6 +350,13 @@ By following these steps, you have configured LazyVim to be a first-class Circui
 
 ---------------
 
+## CircuitPython Turbo
+* [Documentation: CircuitPython Turbo: Go Blinka!](https://learn.adafruit.com/circuitpython-turbo)
+  * [CircuitPython - Playing with CircuitPython Turbo](https://www.youtube.com/watch?v=h_OkQ2a8N6o)
+  * [GitHub: mikeysklar/turbo](https://github.com/mikeysklar/turbo)
+
+---------------
+
 
 [01]:https://gemini.google.com/app
 [02]:https://github.com/tio/tio

@@ -136,6 +136,7 @@ The problem is, nobody understands quantum **physicists** muddled description of
   * [How to think about quantum entanglement](https://csferrie.medium.com/how-to-think-about-quantum-entanglement-4ce7a76be4c7)
   * [What Is (Almost) Everything Made Of?](https://www.youtube.com/watch?v=UYW1lKNVI90)
   * [Quantum Physics](https://www.youtube.com/playlist?list=PLjH5ujQJt_IeW2qFkDRIBrZpIgx4ZX4AR)
+  * [Where Does the Quantum World End and Ours Begin?](https://www.quantamagazine.org/where-does-the-quantum-world-end-and-ours-begin-20260917/)
 * Quantum Mechanics
   * [Bra-Ket Notation and How to Use It](https://www.youtube.com/watch?v=mAZSmzv_asU&t=72s)
   * [Lecture: Mathematics for Physicists](https://www.youtube.com/playlist?list=PLTjLwQcqQzNKTnpE0yhCcXyQrHu5KtGeX)

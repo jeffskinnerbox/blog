@@ -118,18 +118,6 @@ A follow on article show how to integrate this into Home Assistant.
 * [GitHub: pbkhrv/rtl_433-hass-addons](https://github.com/pbkhrv/rtl_433-hass-addons)
 
 
-# Wyoming Voice Satellite
-
-Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM audio).
-
-* [Build the Wyoming Voice Satellite With ChatGPT and a Raspberry Pi To Replace Alexa & Google FOREVER!](https://www.youtube.com/watch?v=eTKgc0YDCwE)
-* [Wyoming Voice Satellite Tutorial](https://github.com/rhasspy/wyoming-satellite/blob/master/docs/tutorial_2mic.md)
-* [Wyoming Protocol](https://github.com/rhasspy/wyoming)
-
-* [This custom Raspberry Pi voice assistant is built around ChatGPT](https://www.msn.com/en-us/lifestyle/shopping/this-custom-raspberry-pi-voice-assistant-is-built-around-chatgpt/ar-AA1tU1xJ)
-* [I turned my Raspberry Pi into a voice assistant: here’s how](https://www.xda-developers.com/raspberry-pi-voice-assistant-how/)
-
-
 # Mopidy
 
 * [Smart Home Whole Audio Part 1](https://www.youtube.com/watch?v=0YnSwYFpzDA)
@@ -2100,6 +2088,11 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [Integrating Snips with Home Assistant](https://medium.com/snips-ai/integrating-snips-with-home-assistant-314723645c77)
 * [Home Automation Covers Everything](https://hackaday.com/2020/07/13/home-automation-covers-everything/)
 
+### Voice Pipeline in Home Assistant
+* Claims that a [GEEKOM A5 2027 Ryzen 5 7430U](https://www.amazon.com/s?k=GEEKOM+A5+2027+Ryzen+5+7430U) can do the job.
+  [My smart home finally answers me without the internet, and the model doing it runs on a mini PC](https://www.xda-developers.com/smart-home-answers-me-without-internet-model-doing-it-runs-on-mini-pc/)
+* [I set up the perfect voice pipeline in Home Assistant, and here's how I did it](https://www.xda-developers.com/set-up-perfect-voice-pipeline-home-assistant/)
+* [Building a local smart home is easy until you try to replace the speaker](https://www.xda-developers.com/built-local-only-smart-home-hardest-device-to-replace-was-the-speaker/)
 
 ### Home Assistend Voice & Voice Commands
 
@@ -2139,6 +2132,20 @@ So what do I load onto my hardware platform to give me the full Smart Home / IoT
 * [Piper is our new voice for the Open Home](https://building.open-home.io/piper-is-our-new-voice-for-the-open-home/)
 * [Raspberry Pi | Local TTS | High Quality | Faster Realtime with Piper TTS](https://www.youtube.com/watch?v=rjq5eZoWWSo)
 * [Create your AI digital voice clone locally with Piper TTS | Tutorial](https://www.youtube.com/watch?v=b_we_jma220)
+
+
+### Wyoming Voice Satellite
+
+Wyoming is a peer-to-peer protocol for voice assistants (basically JSONL + PCM audio).
+
+* [Build the Wyoming Voice Satellite With ChatGPT and a Raspberry Pi To Replace Alexa & Google FOREVER!](https://www.youtube.com/watch?v=eTKgc0YDCwE)
+* [Wyoming Voice Satellite Tutorial](https://github.com/rhasspy/wyoming-satellite/blob/master/docs/tutorial_2mic.md)
+* [Wyoming Protocol](https://github.com/rhasspy/wyoming)
+
+* [This custom Raspberry Pi voice assistant is built around ChatGPT](https://www.msn.com/en-us/lifestyle/shopping/this-custom-raspberry-pi-voice-assistant-is-built-around-chatgpt/ar-AA1tU1xJ)
+* [I turned my Raspberry Pi into a voice assistant: here’s how](https://www.xda-developers.com/raspberry-pi-voice-assistant-how/)
+
+
 
 
 #### Home Assistant Tutorials

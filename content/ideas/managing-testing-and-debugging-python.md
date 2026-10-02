@@ -773,6 +773,8 @@ Jupyter is available in two flavors: the standard Jupyter Notebook and JupyterLa
 * [Why IPython is Better Than the Standard Python Interpreter](https://www.howtogeek.com/why-ipython-is-better-than-the-standard-python-interpreter/)
 * [How to Get Started Creating Interactive Notebooks in Jupyter](https://www.howtogeek.com/how-to-get-started-creating-interactive-notebooks-in-jupyter/)
 * [JupyterLab Documentation](https://jupyterlab.readthedocs.io/en/latest/#)
+* [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/)
+* [Jupyter Notebook Debugging](https://realpython.com/lessons/jupyter-debugging/)
 
 
 # DIY Python Debugger
@@ -805,7 +807,6 @@ Manhole is in-process service that will accept unix domain socket connections an
 
 * [Python unittest Module](https://realpython.com/ref/stdlib/unittest/)
 * [Debugging](https://realpython.com/lessons/debugging/)
-* [Jupyter Notebook Debugging](https://realpython.com/lessons/jupyter-debugging/)
 * [Simpler Debugging With F-Strings](https://realpython.com/lessons/simpler-debugging-f-strings/)
 * [Python's assert: Debug and Test Your Code Like a Pro](https://realpython.com/python-assert-statement/)
 * [4 Techniques for Testing Python Command-Line (CLI) Apps](https://realpython.com/python-cli-testing/)
@@ -869,10 +870,13 @@ $ - Ending of an expression
 
 # Python Concurrency
 
+* [Async Programming in Python: From Generators to asyncio](https://realpython.com/python-async-features/)
 * [Python's asyncio: A Hands-On Walkthrough](https://realpython.com/async-io-python/)
 * [Deep Dive into Multithreading, Multiprocessing, and Asyncio](https://towardsdatascience.com/deep-dive-into-multithreading-multiprocessing-and-asyncio-94fdbe0c91f0)
 * [Getting Started with Python Async Programming](https://www.kdnuggets.com/getting-started-with-python-async-programming)
 * [Python Concurrency: Threads, Processes, and asyncio Explained](https://newvick.com/python-concurrency/)
+* [Asynchronous Iterators and Iterables in Python](https://realpython.com/python-async-iterators/)
+* [Intro to async Python | Writing a Web Crawler](https://www.youtube.com/watch?v=ftmdDlwMwwQ)
 
 
 ---------------
@@ -985,6 +989,7 @@ Python resolves names using what’s known as the **LEGB rule**, which defines t
 * Classes
   * [Python's Instance, Class, and Static Methods Demystified](https://realpython.com/instance-class-and-static-methods-demystified/)
   * [Metaclasses in Python](https://www.youtube.com/watch?v=yWzMiaqnpkI)
+  * [Python Data Classes Beyond the Boilerplate](https://www.kdnuggets.com/python-dataclasses-beyond-the-boilerplate)
   * [Python dataclasses will save you HOURS, also featuring attrs](https://www.youtube.com/watch?v=vBH6GRJ1REM)
   * [Which Python @dataclass is best? Feat. Pydantic, NamedTuple, attrs...](https://www.youtube.com/watch?v=vCLetdhswMg)
   * [How to Write Efficient Python Data Classes](https://www.kdnuggets.com/how-to-write-efficient-python-data-classes)
@@ -1045,6 +1050,7 @@ which makes them pretty flexible and decoupled.
   * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
   * [Profiling in Python: How to Find Performance Bottlenecks](https://realpython.com/python-profiling/)
   * [line_profiler](https://realpython.com/ref/tools/line-profiler/)
+  * [Python 3.15 Preview: Sampling Profiler](https://realpython.com/python315-sampling-profiler/)
 * Logging
   * [Logging in Python](https://realpython.com/python-logging/)
   * [How to Use Loguru for Simpler Python Logging](https://realpython.com/python-loguru/)
@@ -1284,9 +1290,16 @@ It supports the following types of projects:
 * Projects that use any package manager that strictly follows [PEP 621](https://peps.python.org/pep-0621/) dependency specification
 * Projects that use a `requirements.txt` file according to the [pip](https://pip.pypa.io/en/stable/user_guide/) standards
 
+# PyGame
+`pygame` is a Python wrapper for the [SDL library](https://www.libsdl.org/), which stands for **Simple DirectMedia Layer**.
+SDL provides cross-platform access to your system’s underlying multimedia hardware components, such as sound, video, mouse, keyboard, and joystick.
+`pygame` started life as a replacement for the stalled [PySDL project](https://www.pygame.org/docs/tut/PygameIntro.html).
+The cross-platform nature of both SDL and `pygame` means you can write games and rich multimedia Python programs for every platform that supports them!
+
 * [Make a 2D Side-Scroller Game With PyGame](https://realpython.com/courses/pygame-primer/)
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
 * [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
+* [Pygame: A Primer on Game Programming in Python](https://realpython.com/pygame-a-primer/)
 
 ---------------
 

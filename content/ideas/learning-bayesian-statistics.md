@@ -48,6 +48,7 @@ This may seem like a completely wild idea. Loose, even. But so long as you’re 
 * [Frequentism and Bayesianism: What's the Big Deal?](https://www.youtube.com/watch?v=KhAUfqhLakw)
 * [Understanding Bayesian Statistics Without Frequentist Language -- Richard McElreath (MPI)](https://www.youtube.com/watch?v=oHWNexYPFTY)
 * [Everything wrong with statistics (and how to fix it)](https://www.youtube.com/watch?v=be2wuOaglFY)
+* [Why You Think Like a Bayesian but Were Taught Like a Frequentist](https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/)
 
 
 
@@ -89,6 +90,20 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 
 * [Why we don't teach, and why we should and could teach, Bayesian methods -- Mark Andrews (NTU)](https://www.youtube.com/watch?v=PtLGnNvMC2o)
 
+## Metropolis–Hastings Algorithm
+
+In statistics and statistical physics, the Metropolis–Hastings algorithm is a
+Markov chain Monte Carlo (MCMC) method for obtaining a sequence of random samples
+from a probability distribution from which direct sampling is difficult.
+
+Through the use of random processes, this algorithm offers an efficient way to
+stumble toward answers to problems that are too complicated to solve exactly.
+
+* [How Randomness Powers Physics & AI](https://www.youtube.com/watch?v=qsHkZI_Bf-s)
+* [The algorithm that (eventually) revolutionized statistics](https://www.youtube.com/watch?v=Jr1GdNI3Vfo)
+* [A Simple Solution for Really Hard Problems: Monte Carlo Simulation](https://www.youtube.com/watch?v=slbZ-SLpIgg)
+
+
 
 ## Visualizing Bayes Theorem
 
@@ -121,4 +136,5 @@ Bayesian statistics is a theory in the field of statistics based on the Bayesian
 # Markov Chain Monte Carlo (MCMC)
 
 * [Why do we need MCMC and how does it work? -- Ben Lambert (Oxford)](https://www.youtube.com/watch?v=7H7IvSSty0k)
+* [Why You Think Like a Bayesian but Were Taught Like a Frequentist](https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/)
 

@@ -413,6 +413,11 @@ import designs from other CAD software application for use or modification on yo
 - [FreeCAD Parametrics Made Simple](https://hackaday.com/2020/10/09/freecad-parametrics-made-simple/)
 - [FreeCAD Foray: Shells For All Our PCBs](https://hackaday.com/2024/07/01/freecad-foray-shells-for-all-our-pcbs/)
 
+### AI & FreeCAD
+- [Claude pilots FreeCAD: will AI replace the 3D designer?](https://www.youtube.com/watch?v=WJXi0vb_nNY&t=179s)
+- [I Connected Claude AI to FreeCAD (And It Models Parts Like an Engineer)](https://www.youtube.com/watch?v=6trAkQY5_kc&t=156s)
+- [I Tested Claude AI on Real Engineering: Parametric Skadis Pegboard](https://www.youtube.com/watch?v=33H-3WURC80&t=77s)
+
 ### FreeCAD + CadQuery
 
 Like OpenSCAD, [FreeCAD][09] is a parametric modeler.

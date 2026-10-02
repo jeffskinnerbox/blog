@@ -142,7 +142,10 @@ The Universal Radio Hacker (URH) is a complete suite for wireless protocol inves
 
 # Documentation and Tutorals
 
+# PySDR & GNU Radio Companion
 * [How To Make Your Own SDR Software With GNU Radio Companion](https://www.youtube.com/watch?v=XDkOhlztMLs&list=RDCMUC9a8Z6Sp6eb2s3O79pX5Zvg&start_radio=1)
+* [It’s GNU Radio Companion, But In The Browser](https://hackaday.com/2026/09/09/its-gnu-radio-companion-but-in-the-browser/)
+  * [GNURadio World](https://gnuradioworld.com/)
 
 * [PySDR: A Guide to SDR and DSP using Python](https://pysdr.org/index.html)
 * [SDR for the Radio Amateur](https://www.g0kla.com/sdr/index.php)
