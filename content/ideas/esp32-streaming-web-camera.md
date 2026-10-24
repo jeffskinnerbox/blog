@@ -252,7 +252,7 @@ Follow these steps:
 * Connect your Seeed Studio XIAO ESP32S3 Sense to your computer.
 * It should appear as a new disk drive named CIRCUITPY.
 * Copy the `adafruit_httpserver` folder from the unzipped bundle's lib directory to the `lib` folder on your `CIRCUITPY` drive.
-3. Start coding
+1. Start coding
 * Once the library files are copied, you can use import `adafruit_httpserver` in your `code.py` file to start using the web server functionality.
 
 

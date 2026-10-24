@@ -666,6 +666,9 @@ A paradox usually involves contradictory-yet-interrelated elements that exist si
 * [Mandelbulb: Three Dimensional Fractals](https://medium.com/cantors-paradise/mandelbulb-three-dimensional-fractals-d74c0317b76d)
 * [The Journey to Define Dimension](https://www.quantamagazine.org/a-mathematicians-guided-tour-through-high-dimensions-20210913/)
 * [Newton's Fractal (which Newton knew nothing about)](https://www.youtube.com/watch?v=-RdOwhmqP5s)
+* [The Fractal Structure of the Double Compound Pendulum](https://medium.com/@mathcube7/the-fractal-structure-of-the-double-compound-pendulum-4ccaa1b3e471)
+* [Lyapunov's Fractal (that Lyapunov knew nothing about)](https://www.youtube.com/watch?v=yGwy2WyQCQE)
+* [Graduate Student Proves a Quantum Uncertainty Principle for Fractals](https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/)
 
 
 # Prime Numbers

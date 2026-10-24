@@ -250,7 +250,7 @@ sudo systemctl start docker
 ### Comparison: What Changes?
 
 | Aspect | Docker Engine | Docker Desktop |
-|--------|--------------|----------------|
+| -------- | -------------- | ---------------- |
 | Docker daemon | Runs natively on host | Runs in a VM |
 | GUI | None | Included |
 | Resource limits | System-wide | Configurable via GUI |

@@ -446,46 +446,46 @@ Common `screen` commands
 "[How to Install and Use Screen on an Ubuntu Cloud Server][09]",
 and "[Linux and Unix screen command][10]"):
 
-| Screen Command  |     Task     |
-|:---------------:|:-------------|
-|          | **Getting In** |
+| Screen Command | Task |
+| :---------------: | :------------- |
+| | **Getting In** |
 | screen -S <name> | start a new screen session with session name <name> |
 | screen -x | attached to a running session |
 | screen -r <name> | attached to a running session with name <name> |
 | screen -list | list running sessions/screens |
-|          | **Getting Out** |
+| | **Getting Out** |
 | Ctrl-a d | detach from window |
 | Ctrl-a D D | detach and logout (quick exit) |
-|          | **Screen Status** |
+| | **Screen Status** |
 | Ctrl-a ? | Display help screen i.e. display a list of commands |
 | Ctrl-a v | Print version information about screen |
 | Ctrl-a i | List port status |
-|          | **Window Management** |
+| | **Window Management** |
 | Ctrl-a c | Create new window and the old window is still active |
-| Ctrl-a n | switches you to the next window in list|
-| Ctrl-a p | switches you to the previous window in list|
+| Ctrl-a n | switches you to the next window in list |
+| Ctrl-a p | switches you to the previous window in list |
 | Ctrl-a Ctrl-a | Toggle / switch between the current and previous window |
-| C-a "    | list of windows (allows you to select a window to change to) |
+| C-a " | list of windows (allows you to select a window to change to) |
 | Ctrl-a 0-9 | Go to a window numbered 0 9, use Ctrl-a w to see number |
 | Ctrl-a :fit | Fit screen size to new terminal size. You can also hit Ctrl-a F for the the same task |
 | Ctrl-a :remove | Remove / delete region. You can also hit Ctrl-a X for the same tasks |
 | Ctrl-a tab | Move to next region |
 | Ctrl-a :resize | Resize region |
-|          | **Screen Splitting** |
+| | **Screen Splitting** |
 | Ctrl-a S | Split terminal horizontally into regions and press Ctrl-a c to create new window there |
 | Ctrl-a V | Split terminal vertically into regions and press Ctrl-a c to create new window there |
 | Ctrl-a tab | junp to next display region |
 | Ctrl-a X | remove current region |
 | Ctrl-a Q | remove all regions but the current one |
-|          | **Window Monitoring** |
+| | **Window Monitoring** |
 | Ctrl-a M | Toggles monitoring of the current window |
 | Ctrl-a _ | Start/stop monitoring the current window for inactivity |
-|          | **Window Termination** |
+| | **Window Termination** |
 | Ctrl-a k | Kill the current window / session |
 | Ctrl-a D (Shift-d) | Power detach and logout |
 | Ctrl-a d | Detach but keep shell window open |
 | Ctrl-a Ctrl-\ | Quit screen and kill all of your windows |
-|          | **Misc** |
+| | **Misc** |
 | Ctrl-a m | monitor window for activity |
 | Ctrl-a _ | monitor window for silence |
 | Ctrl-a H | enable logging in the screen session |

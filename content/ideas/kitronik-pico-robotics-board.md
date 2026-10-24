@@ -15,7 +15,7 @@
 ## Pico Simply Robotics Board
 
 | Attribute | Value |
-|:-------|:---------|
+| :------- | :--------- |
 | Supply Voltage | 3 - 12V |
 | Number of Servo Channels | 8 |
 | Number of Motor Channels | 4 DC / 2 Stepper |
@@ -34,7 +34,7 @@
 ## Pico Robotics Board
 
 | Attribute | Value |
-|:-------|:---------|
+| :------- | :--------- |
 | Supply Voltage | 3 - 10.8V |
 | Number of Servo Channels | 8 |
 | Number of Motor Channels | 4 DC / 2 Stepper |

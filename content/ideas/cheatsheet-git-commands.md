@@ -29,7 +29,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 ## Create and Clone
 
 | Git Command | Action |
-|:----:|:------|
+| :----: | :------ |
 | git init | create new repository |
 | git clone _/path/to/repository_ | clone local repository |
 | git clone _username@host:/path/to/repository_ | clone remote repository |
@@ -37,7 +37,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 ## Add and Remove
 
 | Git Command | Action |
-|:----:|:------|
+| :----: | :------ |
 | git add _filename_ | add changes to INDEX |
 | git add * | add all changes to INDEX |
 | git remove _filename_ | remove / delete |
@@ -45,7 +45,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 ## Commit and Synchronize
 
 | Git Command | Action |
-|:----:|:------|
+| :----: | :------ |
 | git commit -m "_commit message_" | commit changes |
 | git push origin master | | push changes to remote repository |
 | git remote add origin _server_ | connect local repository to remote repository |
@@ -54,7 +54,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 ## Branch
 
 | Git Command | Action |
-|:----:|:------|
+| :----: | :------ |
 | git checkout -b _branch_ | create new branch |
 | git checkout master | switch to master branch |
 | git branch -d _branch_ | delete branch |
@@ -63,14 +63,14 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 ## Merge
 
 | Git Command | Action |
-|:----:|:------|
+| :----: | :------ |
 | git merge _branch_ | merge changes from another branch |
 | git diff _source-branch_ _target-branch_ | view changes between two branches |
 
 ## Tag
 
 | Git Command | Action |
-|:----:|:------|
+| :----: | :------ |
 | git _tag_ _commit-ID_ | create tag |
 | git log | get commit IDs |
 
@@ -83,7 +83,7 @@ Lazygit is a terminal based UI tool for Git commands. This tool allows to view c
 ## Stash
 
 | Git Command | Action |
-|:----:|:------|
+| :----: | :------ |
 | git stash | saves files on a stack of unfinished changes that you can reapply at any time |
 | git stash applied | reapply the one you just stashed |
 | git stash list | see which stashes you’ve stored |

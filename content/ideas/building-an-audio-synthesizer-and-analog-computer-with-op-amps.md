@@ -205,7 +205,7 @@ The minimum sampling rate, as dictated by [Nyquist–Shannon sampling theorem][2
 | AIFF | Audio Interchange File Format | Uncompressed | AIFF and WAV formats are fairly interchangeable.  Like WAV, the AIFF format is an uncompressed PCM (pulse-code modulation). Apple/Macintosh equivalent of WAV files, though both Windows PCs and Apple Macs will recognize either format. | |
 | MP3 | MPEG-2 Audio Layer III | Lossy Compressed | MPEG stands for Moving Pictures Experts Group, an organization that develops standards for coded audio and video programs. MP3 is a lossy audio format and bit rates for MP3 music files range from a low of 32kbits/s up to 320kbits/s. | |
 | WMA | Window Media Audio | Lossless Compressed | WMA was developed by Microsoft as a competitor to MP3 files and is a lossless compressed audio format. | |
-| AAC | Advanced Audio Coding | Lossy Compressed | format used in the Apple iPod, iPhone and iTunes music store  | |
+| AAC | Advanced Audio Coding | Lossy Compressed | format used in the Apple iPod, iPhone and iTunes music store | |
 | FLAC | Free Lossless Audio Codec | Lossless Compressed | One of its advantages is that it reduces the file size of an audio program from 30 to 40% (the amount of storage space it takes on a disc or other device) without sacrificing audio quality. | |
 
 * [Differences Between PCM/ADPCM Wave Files Explained][12]

@@ -81,7 +81,7 @@ for block ads and access to websites fall into two main categories:
 Here is a quick comparison to help you choose:
 
 | Feature | Pi-hole | AdGuard Home | Squid |
-|:-----------:|:-----------:|:-----------:|:-----------:|
+| :-----------: | :-----------: | :-----------: | :-----------: |
 | Method | DNS Sinkhole | DNS Sinkhole | Web Proxy |
 | Blocks... | Entire Domains | Entire Domains | Domains, URLs, paths |
 | Setup (Guest Network) | Easy (via DHCP) | Easy (via DHCP) | Complex (Requires transparent proxy) |

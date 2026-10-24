@@ -2012,24 +2012,24 @@ END APC  : 2024-04-26 12:57:46 -0400
 This shows that the UPS daemon is configured to do the following thing:
 
 | Parameter | Value | Description |
-|:----------------- |:--------------:|:--------------- |
+| :----------------- | :--------------: | :--------------- |
 | MBATTCHG | 5% | If the battery charge percentage (BCHARGE) drops below this value, apcupsd will shutdown your system. Value is set in the configuration file (BATTERYLEVEL). |
 | MINTIMEL | 3 Min | apcupsd will shutdown your system if the remaining runtime equals or is below this point.  Value is set in the configuration file (MINUTES). |
-| MAXTIME  | 0 Sec | apcupsd will shutdown your system if the time on batteries exceeds this value.  A value of zero disables the feature. Value is set in the configuration file (TIMEOUT). |
+| MAXTIME | 0 Sec | apcupsd will shutdown your system if the time on batteries exceeds this value.  A value of zero disables the feature. Value is set in the configuration file (TIMEOUT). |
 
 These parameters say something about how the UPS is perfroming
 (see [apcupsd Status Logging][73] section in the apcupsd User Manual):
 
 | Parameter | Value | Description |
-|:----------------- |:--------------:|:--------------- |
+| :----------------- | :--------------: | :--------------- |
 | STARTTIME | time stamp | The time/date that `apcupsd` was started (ex. 2015-02-07 10:59:39 -0500). |
-| STATUS   | ONLINE | The current status of the UPS (ONLINE, ONBATT, etc.) |
-| LINEV    | 121.0 V | The current line voltage as returned by the UPS. |
-| LOADPCT  |  20.0% | The percentage of load capacity as estimated by the UPS. |
-| BCHARGE  | 100.0% | The percentage charge on the batteries. |
-| TIMELEFT |  36.1 | The remaining runtime left, in minutes on batteries as estimated by the UPS. |
-| LOTRANS  | 088.0 V | The line voltage below which the UPS will switch to batteries. |
-| HITRANS  | 142.0 V | The line voltage above which the UPS will switch to batteries. |
+| STATUS | ONLINE | The current status of the UPS (ONLINE, ONBATT, etc.) |
+| LINEV | 121.0 V | The current line voltage as returned by the UPS. |
+| LOADPCT | 20.0% | The percentage of load capacity as estimated by the UPS. |
+| BCHARGE | 100.0% | The percentage charge on the batteries. |
+| TIMELEFT | 36.1 | The remaining runtime left, in minutes on batteries as estimated by the UPS. |
+| LOTRANS | 088.0 V | The line voltage below which the UPS will switch to batteries. |
+| HITRANS | 142.0 V | The line voltage above which the UPS will switch to batteries. |
 | SELFTEST | NO | The results of the last self test, and may have the following values: OK - self test indicates good battery, BT - self test failed due to insufficient battery capacity, NG - self test failed due to overload, NO - No results (i.e. no self test performed in the last 5 minutes) |
 
 ---------------

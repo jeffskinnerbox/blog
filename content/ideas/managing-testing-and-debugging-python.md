@@ -39,6 +39,10 @@ echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bas
 echo 'eval "$(pyenv init - bash)"' >> ~/.bashrc
 exec "$SHELL"     # reload your shell or alternatively you can restart your terminal
 
+# --------------------------- if already using using uv then update it ----------------------------
+
+# if you have uv installed, first update uv so it knows about the latest Python releases
+uv self update
 
 # ---------------------- create your development environment with uv / pyenv -----------------------
 
@@ -109,6 +113,21 @@ uv pip freeze > requirements.txt
 
 ---------------
 
+## Python Project Structure
+Your Python project structure, also known as your project layout,
+is the arrangement of files and directories that determines how your code gets imported, tested, and packaged.
+Choosing between a flat and a `src/` layout depends on the type of project you’re building and the trade-offs you accept.
+
+* [Python Project Structure: How to Choose the Right Layout](https://realpython.com/python-application-layouts/)
+  * [Python Project Structure: How to Choose the Right Layout](https://static.realpython.com/guides/python-project-structure-cheatsheet.pdf)
+
+---------------
+
+## Object-Oriented Programming (OOP) in Python
+* [Object-Oriented Programming (OOP) in Python](https://realpython.com/python3-object-oriented-programming/)
+
+---------------
+
 * [How to Install Python on Your System: A Guide](https://realpython.com/installing-python/)
 
 * [Python 3.14 and the End of the GIL](https://towardsdatascience.com/python-3-14-and-the-end-of-the-gil/)
@@ -118,8 +137,10 @@ uv pip freeze > requirements.txt
 * [Managing Secrets and API Keys in Python Projects (.env Guide)](https://www.kdnuggets.com/managing-secrets-and-api-keys-in-python-projects-env-guide)
 
 # Using AI Agents / Claude Code
+* [How to Set Up a Python Project for Agentic Coding](https://realpython.com/preview/python-project-for-agentic-coding/)
 * [How to Use Claude Code to Write and Debug Python](https://realpython.com/how-to-use-claude-code/)
 * [How to Debug Python Code With an AI Agent](https://realpython.com/ai-debugging/)
+* [Hugging Face Transformers: Leverage Open-Source AI in Python](https://realpython.com/huggingface-transformers/)
 
 # Next-gen Python Tooling
 Over the years, legacy Python has created multiple tools & procedures to manage the Python interpreter,
@@ -184,7 +205,7 @@ you need to create a project directory, initialized properly via `pyenv` and `uv
 uv init my-project
 ```
 
-2. Select Your Python Version with `pyenv` -
+1. Select Your Python Version with `pyenv` -
 First, you tell `pyenv` which version of Python you want to use for your project.
 This is usually done on a per-project basis.
 
@@ -201,7 +222,7 @@ cat .python-version
 pyenv version
 ```
 
-3. Activate and Use Your Environment -
+1. Activate and Use Your Environment -
 Now you can activate the environment and use `uv` to install packages and build your project
 
 ```bash
@@ -407,6 +428,9 @@ Use these sources to finish text below:
 
 ### Running Your Project
 
+### Python Data Types
+* [Basic Data Types in Python: A Quick Exploration](https://realpython.com/python-data-types/)
+
 ### Python Dependency Management
 `uv` give you a cleaner workflow for project dependencies.
 This workflow allows you to lock your project’s dependencies so that other developers can reproduce your environment exactly
@@ -487,8 +511,18 @@ Build your documentation with [Sphinx](https://www.sphinx-doc.org/en/master/) us
 ### Python Debugging
 
 
+---------------
 
+## Web Automation with Python
+Selenium is a web automation tool that allows you to use Python to programmatically interact with dynamic, JavaScript-generated web pages.
+Your Python Selenium code drives a real browser that you can instruct to fill out forms,
+click buttons, scrape dynamically generated data, or write automated tests for web applications.
+By implementing the Page Object Model (POM) design pattern,
+you can create clean and scalable automation scripts that are straightforward to read and maintain
 
+* [Modern Web Automation With Python and Selenium](https://realpython.com/modern-web-automation-with-python-and-selenium/)
+
+---------------
 
 
 
@@ -660,6 +694,9 @@ Python inner functions are those you define inside other functions to access non
 ## Recursion in Python
 * [Recursion in Python: An Introduction](https://realpython.com/python-recursion/)
 
+## How to Round Numbers in Python
+* [How to Round Numbers in Python](https://realpython.com/python-rounding/)
+
 ---------------
 
 # Learning Python
@@ -720,6 +757,7 @@ as well as taking steps to fix them.
 * An Innovative MicroPython / CircuitPython IDE for Web and Mobile - [GitHub: vshymanskyy/ViperIDE](https://github.com/vshymanskyy/ViperIDE)
 
 * [How to write code for your Raspberry Pi Pico in your web browser with ViperIDE](https://www.tomshardware.com/raspberry-pi/raspberry-pi-pico/how-to-write-code-for-your-raspberry-pi-pico-in-your-web-browser-with-viperide)
+* [The Best IDEs and Code Editors for Python (Guide)](https://realpython.com/python-ides-code-editors-guide/)
 
 
 # Error / Exception Handling
@@ -770,6 +808,7 @@ You can log sessions for review, further enhancing IPython's functionality.
 One of IPython's spinoffs is the popular notebook interface [Jupyter](https://jupyter.org/), which is popular in scientific computing.
 Jupyter is available in two flavors: the standard Jupyter Notebook and JupyterLab. The latter is intended to be a fuller-featured version, similar to an IDE. The Jupyter project even deprecated the older Jupyter and put it into maintenance mode, but eventually pulled the original Jupyter out of mothballs and maintains both simultaneously due to its continuing popularity.
 
+* [Jupyter Notebook: An Introduction](https://realpython.com/jupyter-notebook-introduction/)
 * [Why IPython is Better Than the Standard Python Interpreter](https://www.howtogeek.com/why-ipython-is-better-than-the-standard-python-interpreter/)
 * [How to Get Started Creating Interactive Notebooks in Jupyter](https://www.howtogeek.com/how-to-get-started-creating-interactive-notebooks-in-jupyter/)
 * [JupyterLab Documentation](https://jupyterlab.readthedocs.io/en/latest/#)
@@ -791,7 +830,7 @@ Jupyter is available in two flavors: the standard Jupyter Notebook and JupyterLa
 
 # Mutable & Immutable Types
 
-* [Differences Between Python's Mutable and Immutable Types](https://realpython.com/courses/differences-mutable-immutable-types/)
+* [Python's Mutable vs Immutable Types: What's the Difference?](https://realpython.com/python-mutable-vs-immutable-types/)
 
 
 # Manhole
@@ -892,6 +931,7 @@ $ - Ending of an expression
 Pythonic describes code that doesn’t just get the syntax right but uses the language in the way it’s intended to be used. Here’s how to optimize your Python code.
 
 * [How to Write Pythonic Code](https://builtin.com/data-science/pythonic)
+* [Namespaces in Python](https://realpython.com/python-namespace/)
 * [Python for Loops: The Pythonic Way](https://realpython.com/python-for-loop/)
 * [Python Oddities That Might Surprise You](https://www.kdnuggets.com/python-oddities-might-surprise-you)
 
@@ -1010,6 +1050,7 @@ Python resolves names using what’s known as the **LEGB rule**, which defines t
 * Pointers
   * [unique_ptr: C++'s simplest smart pointer](https://www.youtube.com/watch?v=AmjoK55h68Y)
 * Strings
+  * [Strings and Character Data in Python](https://realpython.com/python-strings/)
   * [Python f-strings can do more than you thought. f'{val=}', f'{val!r}', f'{dt:%Y-%m-%d}'](https://www.youtube.com/watch?v=BxUxX1Ku1EQ)
   * [str vs bytes in Python](https://www.youtube.com/watch?v=EimoZHDcQMA)
   * [How to Convert Bytes to Strings in Python](https://realpython.com/convert-python-bytes-to-strings/)
@@ -1047,6 +1088,7 @@ which makes them pretty flexible and decoupled.
 * Parallel Iteration
   * [Using the Python zip() Function for Parallel Iteration](https://realpython.com/python-zip-function/)
 * Performance Profiling
+  * [Python Performance Optimization: A Practical Guide](https://realpython.com/python-performance-optimization-guide/)
   * [Diagnose slow Python code. (Feat. async/await)](https://www.youtube.com/watch?v=m_a0fN48Alw)
   * [Profiling in Python: How to Find Performance Bottlenecks](https://realpython.com/python-profiling/)
   * [line_profiler](https://realpython.com/ref/tools/line-profiler/)
@@ -1091,29 +1133,20 @@ This helps us to write cleaner, more readable code compared to traditional loopi
 * [Building Dictionary Comprehensions in Python](https://realpython.com/courses/building-dictionary-comprehensions/)
 * [Python Dictionary Tips and Tricks You Should Always Remember](https://www.kdnuggets.com/python-dictionary-tips-and-tricks-you-should-always-remember)
 
-
 ---------------
-
 
 # Profiling / Timing Code
 
 * [Python Timer Functions: Three Ways to Monitor Your Code](https://realpython.com/python-timer/)
 
-
 ---------------
 
-
-
-# Bitwise Operators in Python
+# Operator and Function Overloading
 * [Bitwise Operators in Python](https://realpython.com/python-bitwise-operators/)
-
-
+* [Operator and Function Overloading in Custom Python Classes](https://realpython.com/operator-function-overloading/)
+* [The Walrus Operator: Python's Assignment Expressions](https://realpython.com/python-walrus-operator/)
 
 ---------------
-
-# Python's Walrus Operator
-
-* [The Walrus Operator: Python's Assignment Expressions](https://realpython.com/python-walrus-operator/)
 
 
 # Python's Import Statement
@@ -1298,6 +1331,7 @@ The cross-platform nature of both SDL and `pygame` means you can write games and
 
 * [Make a 2D Side-Scroller Game With PyGame](https://realpython.com/courses/pygame-primer/)
 * [Build Conway's Game of Life With Python](https://realpython.com/conway-game-of-life-python/)
+* [The Beginner's Guide to Python Turtle](https://realpython.com/beginners-guide-python-turtle/)
 * [Build a Python Turtle Game: Space Invaders Clone](https://realpython.com/preview/build-python-turtle-game-space-invaders-clone/)
 * [Pygame: A Primer on Game Programming in Python](https://realpython.com/pygame-a-primer/)
 

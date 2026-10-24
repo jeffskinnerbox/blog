@@ -1951,15 +1951,15 @@ Primary sources:
 
 ## Power Consumption
 
-| Configuration                       | Current Draw | Power     |
-|:-----------------------------------:|:------------:|:---------:|
+| Configuration | Current Draw | Power |
+| :-----------------------------------: | :------------: | :---------: |
 | Raspberry Pi only | | |
 | Raspberry Pi + WiFi | | |
 | Raspberry Pi + RTC | 0.14A (max 0.29A) | |
 | RPi + RTC + 1.2" 7-Segment Display | | |
 | | | | |
 | ESP8266 only | | |
-| ESP8266 + 1.2" 7-Segment Display   | | |
+| ESP8266 + 1.2" 7-Segment Display | | |
 
 
 # Raspberry Pi Low Power Operation

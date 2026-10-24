@@ -57,7 +57,7 @@ Blockly is a **developer tool** used to build specialized coding interfaces for 
 
 
 | Feature | Scratch | Blockly |
-|:--------|:--------:|:---------:|
+| :-------- | :--------: | :---------: |
 | Primary Goal | Creative expression (stories, games) | Practical application and tool building |
 | End User | Children/Students (Ages 8–16) | Developers & Advanced Students |
 | Code Output | Runs only within the Scratch environment | Generates Python, JavaScript, PHP, etc. |
@@ -146,7 +146,7 @@ the ATL Robotics IDE is a dedicated project to modernize block-based coding for 
 Comparison for Your Curriculum:
 
 | Platform | Best For... | ROS2 Depth | Ease of Use |
-|:----------|:----------|:----------|:----------|
+| :---------- | :---------- | :---------- | :---------- |
 | Niryo | Industrial / Pro Skills | High (Native) | Excellent |
 | Robobo | AI / Mobile Robotics | High (Node-based) | Good |
 | Robotics-Academy | Self-Driving / Drones | Very High | Moderate (Technical) |

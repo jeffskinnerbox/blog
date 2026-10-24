@@ -236,7 +236,7 @@ claude --help
 This displays a full list of flags you can use. Here are the most useful ones for beginners:
 
 | Option | What it does |
-|--------|--------------|
+| -------- | -------------- |
 | `-h`, `--help` | Show all available options |
 | `-v`, `--version` | Show the version number |
 | `-c`, `--continue` | Continue your most recent conversation |
@@ -250,7 +250,7 @@ This displays a full list of flags you can use. Here are the most useful ones fo
 Claude --help also shows these subcommands:
 
 | Command | What it does |
-|---------|--------------|
+| --------- | -------------- |
 | `claude doctor` | Check installation health |
 | `claude update` | Check for and install updates |
 | `claude mcp` | Configure MCP servers (advanced) |
@@ -266,7 +266,7 @@ These are the commands you'll use most often:
 **Linux Command Line**
 
 | Command | Description |
-|---------|-------------|
+| --------- | ------------- |
 | `claude` | Start Claude Code in current directory |
 | `claude doctor` | Check installation status |
 | `claude --help` | Show all available options |
@@ -275,7 +275,7 @@ These are the commands you'll use most often:
 **Essential Slash Commands**
 
 | Command | What it does |
-|---------|--------------|
+| --------- | -------------- |
 | `/help` | Show all available slash commands |
 | `/clear` | Clear conversation history and start fresh |
 | `/exit` | Exit Claude Code |
@@ -287,7 +287,7 @@ These are the commands you'll use most often:
 **Session Management**
 
 | Command | What it does |
-|---------|--------------|
+| --------- | -------------- |
 | `/resume` | Resume a previous conversation |
 | `/rename <name>` | Give your current session a name ex. `/rename refactoring-auth-module` |
 | `/export` | Save conversation to a file ex. `/export my-session.md` |
@@ -296,7 +296,7 @@ These are the commands you'll use most often:
 **Project & Configuration**
 
 | Command | What it does |
-|---------|--------------|
+| --------- | -------------- |
 | `/init` | Create a CLAUDE.md file for your project |
 | `/memory` | Edit your project's CLAUDE.md file |
 | `/config` | Open settings |
@@ -306,7 +306,7 @@ These are the commands you'll use most often:
 **Account & Status**
 
 | Command | What it does |
-|---------|--------------|
+| --------- | -------------- |
 | `/status` | Check version, model, and account info |
 | `/login` | Switch to a different account |
 | `/logout` | Sign out |
@@ -317,7 +317,7 @@ These are the commands you'll use most often:
 **Code Review & Development**
 
 | Command | What it does |
-|---------|--------------|
+| --------- | -------------- |
 | `/review` | Ask Claude to review your code |
 | `/todos` | Show your current task list |
 | `/pr-comments` | View GitHub pull request comments |
@@ -326,7 +326,7 @@ These are the commands you'll use most often:
 **Advanced Commands**
 
 | Command | What it does |
-|---------|--------------|
+| --------- | -------------- |
 | `/mcp` | Manage MCP server connections |
 | `/hooks` | Configure automation hooks |
 | `/ide` | Manage VS Code/JetBrains integration |

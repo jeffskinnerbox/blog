@@ -38,6 +38,7 @@ I purchased a computer with windows 11 pre installed. How do I get the product k
 ## After You Install Windows 11
 
 ### Debloat Windows 11
+* [How to debloat Windows without installing suspicious tools or ISOs](https://www.howtogeek.com/how-to-de-bloat-windows-without-installing-suspicious-tools-or-isos/)
 * [4 Windows 11 startup apps I disabled to instantly speed up my PC](https://www.xda-developers.com/4-windows-11-startup-apps-i-disabled-to-instantly-speed-up-my-pc/)
 * [If you're still debloating Windows manually, this one tool does it better](https://www.xda-developers.com/one-tool-to-debloat-windows-chris-titus-windows-utility/)
 * [Your Windows install is full of bloatware, and most of it can be removed with one PowerShell command](https://www.xda-developers.com/your-windows-install-is-full-of-bloatware-and-most-of-it-can-be-removed-with-one-powershell-command/)

@@ -873,11 +873,11 @@ Now lets use Atom to create the FPGA code to load the SPI flash on the board:
 2. From the “Apio” menu, select “Verify”.  The projects verilog code in the `top.v` file will be verified.
 This could also be done on the commandline via `apio verify`.
 This also creates a shell script `hardware.out`.
-2. From the “Apio” menu, select “Upload”.  The project will automatically be built and uploaded to the TinyFPGA BX board. You can now close Atom.  This could also be done on the commandline via `apio load` or via `apio build` followed by `apio load`. `apio build` will synthesize the design and generate the bitstream file that will be uploaded to the FPGA.
-3. If everything is working as it should, you should see the user LED on the board blinking a “SOS” in Morse Code.
-4. If you unplug & re-plug-in the board on the USB port, you will see the blinking LED return to its state of blinking.
-5. If you now execute `tinyfpga -b`, the SPI flash on th board will be reloaded and the "SOS" blinking will return.
-6. When you’re satisfied that your design is working properly, you can remove all of the temporary build files by either clicking the "Clean" menu item within the APIO toolbar or running `apio clean`
+3. From the “Apio” menu, select “Upload”.  The project will automatically be built and uploaded to the TinyFPGA BX board. You can now close Atom.  This could also be done on the commandline via `apio load` or via `apio build` followed by `apio load`. `apio build` will synthesize the design and generate the bitstream file that will be uploaded to the FPGA.
+4. If everything is working as it should, you should see the user LED on the board blinking a “SOS” in Morse Code.
+5. If you unplug & re-plug-in the board on the USB port, you will see the blinking LED return to its state of blinking.
+6. If you now execute `tinyfpga -b`, the SPI flash on th board will be reloaded and the "SOS" blinking will return.
+7. When you’re satisfied that your design is working properly, you can remove all of the temporary build files by either clicking the "Clean" menu item within the APIO toolbar or running `apio clean`
 
 If you choose too, you could do this on the command line via
 

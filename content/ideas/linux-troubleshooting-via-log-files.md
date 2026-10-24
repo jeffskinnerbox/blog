@@ -19,7 +19,7 @@ The document was quite old ... but Linux is linux right? :) how often are core c
 
 -----
 
-2) Regarding the logs in /var/log/
+1) Regarding the logs in /var/log/
 A bash command to filter the most interesting log messages is this:
 
 grep -iv ': starting\|kernel: .*: Power Button\|watching system buttons\|Stopped Cleaning Up\|Started Crash recovery kernel' \

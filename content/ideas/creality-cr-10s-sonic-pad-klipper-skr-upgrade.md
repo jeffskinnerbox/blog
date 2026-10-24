@@ -227,7 +227,7 @@ setups.
 ## Nice-to-Have Additions
 
 | Upgrade | Benefit |
-|---|---|
+| --- | --- |
 | PEI spring steel sheet | Replaces glass bed; far better adhesion, prints pop off when cool |
 | Capricorn PTFE tubing | Tighter 1.9mm ID (vs 2.0mm stock) reduces Bowden play, improves retraction |
 | USB webcam | Remote monitoring beyond what the Sonic Pad offers (Pad handles most of this already) |

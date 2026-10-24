@@ -82,7 +82,7 @@ I want the information to be summarized and organized as follows:
 ## Product Specifications Comparison Table
 
 | **Specification** | **RPLiDAR A1** | **RPLiDAR A2** | **RPLiDAR A3** | **RPLiDAR C1** | **RPLiDAR S2** | **RPLiDAR S3** |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | **Technology** | Triangulation | Triangulation | Triangulation | Fusion DTOF | DTOF (TOF) | DTOF (TOF) |
 | **Price (USD)** | $99-117 | $229-258 | $584-599 | $65-81 | $399-537 | $549 |
 | **Measuring Range** | 0.15m - 12m | 0.15m - 12m (A2M8)<br>0.15m - 16m (A2M12) | 0.2m - 25m (Enhanced)<br>0.2m - 20m (Outdoor) | 0.05m - 12m | 0.05m - 30m (S2)<br>0.05m - 18m (S2L) | 0.05m - 40m (70% reflect)<br>0.05m - 15m (10% reflect) |
@@ -302,9 +302,9 @@ limited outdoor capability without direct sunlight, and lower angular resolution
 
 ### Conditional Recommendations
 
-4. **RPLiDAR S2** ($399-537) - If outdoor operation or IP65 protection needed
-5. **RPLiDAR A3** ($584-599) - If maximum precision or outdoor mode required
-6. **RPLiDAR S3** ($549) - Only if future outdoor expansion or flagship performance justified
+1. **RPLiDAR S2** ($399-537) - If outdoor operation or IP65 protection needed
+2. **RPLiDAR A3** ($584-599) - If maximum precision or outdoor mode required
+3. **RPLiDAR S3** ($549) - Only if future outdoor expansion or flagship performance justified
 
 ### Not Recommended
 None - all SLAMTEC products are viable, but S2/A3/S3 are over-specified for basic 1 m/s indoor applications.

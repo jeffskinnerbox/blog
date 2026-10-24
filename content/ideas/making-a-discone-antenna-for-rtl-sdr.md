@@ -132,7 +132,7 @@ The Earth's atmosphere stops most types of electromagnetic radiation from space 
 Electromagnetic Spectrum
 
 | Name | Wavelength | Frequency (Hz) | Photon Energy (eV) |
-|:----:|:----------:|:--------------:|:------------------:|
+| :----: | :----------: | :--------------: | :------------------: |
 | Gamma Ray | less than 0.01 nm | more than 30 EHz | 124 keV – 300+ GeV |
 | X-Ray | 0.01 nm – 10 nm | 30 EHz – 30 PHz | 124 eV – 124 keV |
 | Ultraviolet | 10 nm – 380 nm | 30 PHz – 790 THz | 3.3 eV – 124 eV |
@@ -174,7 +174,7 @@ where a bands or small section of the spectrum of radio communication frequencie
 Each of these bands has a basic [bandplan][07] which dictates how it is to be used and shared, to avoid interference and to set protocol for the compatibility of transmitters and receivers.
 
 | Band Name | Abbreviation | ITU Band | Frequency / Wavelength | Example Uses |
-|:---------:|:------------:|:--------:|:----------------------:|:------------:|
+| :---------: | :------------: | :--------: | :----------------------: | :------------: |
 | Tremendously low frequency | TLF | NA | less than 3 Hz / greater than 100,000 km | Natural and artificial electromagnetic noise |
 | Extremely low frequency | ELF | NA | 3–30 Hz / 100,000 km – 10,000 km | Communication with submarines |
 | Super low frequency | SLF | NA | 30–300 Hz / 10,000 km – 1000 km | Communication with submarines |

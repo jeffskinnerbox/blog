@@ -1129,8 +1129,8 @@ and as a result, the procedure is a little different (procedure taken from [here
 
 1. Plug board into a USB port on your computer using a data/sync cable
 2. Double-click the small RST (reset) button, and you will see the NeoPixel RGB LED turn green.
-4. You will see a new disk drive appear called `QTPY_BOOT`.
-5. Drag the `adafruit-circuitpython-qtpy_m0-en_US-8.2.9.uf2` file to the `QTPY_BOOT` drive.
+3. You will see a new disk drive appear called `QTPY_BOOT`.
+4. Drag the `adafruit-circuitpython-qtpy_m0-en_US-8.2.9.uf2` file to the `QTPY_BOOT` drive.
 
 The file will be upload, the board will reboot, and the `CIRCUTPY` drive will appear ready to go!
 **NOTE:** You may need to power cycle the board to get it operating properly.

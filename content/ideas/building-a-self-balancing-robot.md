@@ -170,6 +170,7 @@ making Dimebots some of the smallest robots in the world.
 
 # Walking Hexapot Robot
 
+* [How I Made This Tiny Walking Robot From Scratch](https://www.youtube.com/watch?v=1UDsWkcQZhc)
 * [Arduino Mega 2560 DIY hexapod robot](https://www.geeky-gadgets.com/hexapod-robot-18-04-2023/)
   * [I Completely Scrapped My Hexapod's Code](https://www.youtube.com/watch?v=DKsyJYkdZ_o)
 * [Augie the Hexapod Robot - Hackster.io](https://www.hackster.io/james-harton/augie-the-hexapod-robot-8e5125)
@@ -348,6 +349,7 @@ idea - magnetically levitate a disk but enable the spinning of that disk.  As th
 
 ## Ball Bouncing
 
+* [The Hexa-Bouncer](https://www.electrondust.com/2026/10/05/the-hexa-bouncer/)
 * [Robotic Ball-Bouncing Platform Learns New Tricks](https://hackaday.com/2021/06/30/robotic-ball-bouncing-platform-learns-new-tricks/)
 * [Robotic Ball Bouncer Uses Machine Vision To Stay On Target](https://hackaday.com/2020/03/05/robotic-ball-bouncer-uses-machine-vision-to-stay-on-target/)
 * [Juggling Machine Listens to the Bounce to Keep Ball in the Air](https://hackaday.com/2018/07/25/juggling-machine-listens-to-the-bounce-to-keep-ball-in-the-air/)

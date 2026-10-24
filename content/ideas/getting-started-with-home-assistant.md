@@ -79,7 +79,14 @@ which helps you draw the plan of your house, arrange furniture on it and visit t
 * [N8N](https://n8n.io/)
 
 
+# Kiosk Satellite
+Kiosk Satellite turns your Android device into a dedicated Home Assistant kiosk with local voice control,
+synchronized music, photo screensavers and plenty more built in, all running locally.
+Kiosk Satellite is open source and free for personal use.
 
+* [Kiosk Satellite](https://kiosksatellite.com/)
+* [Kiosk Satellite now fully supports the Echo Dot 2nd generation!](https://www.reddit.com/r/homeassistant/comments/1x89cjm/kiosk_satellite_now_fully_supports_the_echo_dot/)
+* [Kiosk Satellite: The Dashboard App Built for Home Assistant](https://www.youtube.com/watch?v=Z0FBUc8DMDw)
 
 
 # Home Assistant Control Board

@@ -12,17 +12,17 @@ Anibal P. Lopez
 
 
 | Quantity | Item | Brand | Model | Price | Notes |
-|:-------:|:-------:|:-------:|:-----:|:------:|:------:|
+| :-------: | :-------: | :-------: | :-----: | :------: | :------: |
 | 20 | rotor heads | Rain Bird | [5004 Plus Series 4"][01] | see below | |
 | 20 | sprayer heads | Rain Bird | [1804 Pop-up Spray 4"][02] | see below | |
-| 7 | zones | |1" PVC pipe main lines, 3/4" zones | see below | |
+| 7 | zones | | 1" PVC pipe main lines, 3/4" zones | see below | |
 | 1 | 1" backflow preventer | | [Wilkins 3/4 in. 375XL][03] | see below | outside on side of house |
 | | valves | | [100DVMB - 1 in. Irrigation Valve][06] | see below | in underground housing in lawn |
 | 1 | rain sensor | | [RSDBEX Wired Rain Sensor][04] | see below | on roof away from trees |
-| | electrical wiring | | | see below |  for valves, sensor, and controller |
+| | electrical wiring | | | see below | for valves, sensor, and controller |
 | | drip irrigation | | | | not requested |
-| 1 | control panel | Rain Bird |[ESP-TM2 8 Station WiFi Enabled][05] |$5250 | inside of garage |
-| 1 | inside plumbing | | 1" copper pipe main to outside |$550 | |
+| 1 | control panel | Rain Bird | [ESP-TM2 8 Station WiFi Enabled][05] | $5250 | inside of garage |
+| 1 | inside plumbing | | 1" copper pipe main to outside | $550 | |
 
 
 **Total Estimate Price: $5800**

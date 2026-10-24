@@ -283,7 +283,7 @@ via the **Save** button the the top menu with an identifiable name (e.g. `EdgeTX
 5.Using the EdgeTX Companion, select the button in the left-hand menu that is titled **Read Firmware From Radio**.
 Save the firmware on your computer via the **Save** button with an identifiable name (e.g. `EdgeTX-firmware-backup-10-30-2023.bin`)
 **Doesn't Work Because of `dfu-util` Problem** - May not be needed if you copy the SD-Card as shown below.
-6. As an extra measure, using your file management tool, copy the entire SD-card from the Boxer to you backup folder.
+5. As an extra measure, using your file management tool, copy the entire SD-card from the Boxer to you backup folder.
 
 Sources:
 
@@ -299,8 +299,8 @@ Sources:
 1. Via a USB cable, connect your flight controller to you desktop computer.
 2. Start Betaflight Configurator via icon in the lanucher (or on the commandline via `/opt/betaflight/betaflight-configurator/`).
 3. Click on the large **Connect** button on the top right.
-3. On the left side menu column of Betaflight Configurator, select the **Presets** icon, which, looks like a magic wand.
-4. To backup the FC configuration, go to the **Presets** tab.
+4. On the left side menu column of Betaflight Configurator, select the **Presets** icon, which, looks like a magic wand.
+5. To backup the FC configuration, go to the **Presets** tab.
 There you have the button **Save backup**.
 Press this button and place the backup file in `~/FPV-Flying/Backups/Meteor75-Pro/`.
 (**NOTE:** The result is the same as entering `diff all` in **CLI**).
@@ -342,12 +342,12 @@ Instant execute the ExpressLRS Configurator via icon in the lanucher (or on the 
 **NOTE: The both your quadcopter and the controller radio must be using the same version.**
 4. Within **TARGET** **Device category** select "BETAFPV 2.4GHz" from the menu.
 5. Within **TARGET** **Device** select "BETAFPV 2.4GHz AIO RX" from the menu.
-1. Within **Flashing Method** section, use the **BetaflightPassthrough** option in ExpressLRS Configurator.
-1. Within the **Device options** section, select **Standard mode**.
+6. Within **Flashing Method** section, use the **BetaflightPassthrough** option in ExpressLRS Configurator.
+7. Within the **Device options** section, select **Standard mode**.
 Check **REGULATORY_DOMAIN_ISM_2400**, **BINDING_PHRASE** (I use my name as the binding phrase), and **LOCK_ON_FIRST_CONNECTION**.
 **NOTE: The both your quadcopter and the controller radio must be using the same binding phrase.**
-1. Within the **Actions** section, select the serial device driver that your quadcopter has been assigned (typically `/dev/ttyACM0`).
-1. Click the **FLASH** button.
+8. Within the **Actions** section, select the serial device driver that your quadcopter has been assigned (typically `/dev/ttyACM0`).
+9. Click the **FLASH** button.
 
 Sources:
 
