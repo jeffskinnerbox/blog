@@ -3,26 +3,18 @@ Maintainer:   jeffskinnerbox@yahoo.com / www.jeffskinnerbox.me
 Version:      0.0.0
 -->
 
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/jeffskinnerbox/blog/main/content/images/banners-bkgrds/work-in-progress.jpg"
         title="These materials require additional work and are not ready for general use." align="center" width=420px height=219px>
 </div>
 
+---
 
----------------
-
-
-
-
-* [`circfirm`: A CLI tool for updating the firmware for CircuitPython boards](https://github.com/tekktrik/circfirm)
-* [`circfirm` Documentation](https://circfirm.readthedocs.io/en/latest/)
-
-
-
-
+- [`circfirm`: A CLI tool for updating the firmware for CircuitPython boards](https://github.com/tekktrik/circfirm)
+- [`circfirm` Documentation](https://circfirm.readthedocs.io/en/latest/)
 
 # CircuitPython Development Workflow with NeoVim/LazyVim
+
 Using LazyVim for CircuitPython development gives you a modern, feature-rich editing experience,
 but we must make NeoVim's language server aware of the specific CircuitPython libraries since they are not in the standard Python environment.
 We must also assure that NeoVim/LazyVim honors CircuitPython's REPL strategy,
@@ -31,26 +23,29 @@ A nice feature of the REPL is that CircuitPython detects when the files are chan
 and will automatically re-start your code.
 This makes coding very fast because you save, and it re-runs.
 
->**NOTE:** The [Python REPL][07] (Read-Eval-Print Loop) is an interactive environment in the Python interpreter
->that allows you to type Python commands, see their immediate results, and experiment with code snippets.
->To access it, open your terminal or command prompt and type `python` or `python3`,
->then you will see a `>>>` prompt where you can enter and execute code.
+> **NOTE:** The [Python REPL][07] (Read-Eval-Print Loop) is an interactive environment in the Python interpreter
+> that allows you to type Python commands, see their immediate results, and experiment with code snippets.
+> To access it, open your terminal or command prompt and type `python` or `python3`,
+> then you will see a `>>>` prompt where you can enter and execute code.
 >
->The REPL operates in a continuous cycle:
-> * **Read:** It reads the Python command you input.
-> * **Eval (Evaluate):** It evaluates the command to determine its meaning and execute it.
-> * **Print:** It prints the result of the command to the screen.
-> * **Loop:** It then loops back to the beginning, waiting for your next command.
+> The REPL operates in a continuous cycle:
+>
+> - **Read:** It reads the Python command you input.
+> - **Eval (Evaluate):** It evaluates the command to determine its meaning and execute it.
+> - **Print:** It prints the result of the command to the screen.
+> - **Loop:** It then loops back to the beginning, waiting for your next command.
 
 I'll cover here the following topics:
 
-* Installing CircuitPython on your target microprocessor/microcontroller
+- Installing CircuitPython on your target microprocessor/microcontroller
 
 Sources:
-* [Using the Python REPL][07]
-* [CircuitPython on ESP32 Quick Start](https://learn.adafruit.com/circuitpython-with-esp32-quick-start)
+
+- [Using the Python REPL][07]
+- [CircuitPython on ESP32 Quick Start](https://learn.adafruit.com/circuitpython-with-esp32-quick-start)
 
 ## Installing CircuitPython on Target Microprocessor (non-ESP32)
+
 The very first step is to install CircuitPython on the target microprocessor, in my case the [Adafruit KB2040][03].
 I followed the tutorial in the video
 "[How to Install CircuitPython on a KB2040 board (OR ANY OTHER!)][04]".
@@ -71,17 +66,19 @@ Below is a summary of the installation steps:
    CircuitPython is loaded!
 5. The file called `code.py` is where you will load your software but it currently contains
    a simple "Hello World" test program so you can validate all is well.
-   You can do do that validation by executing in a terminal the command  `tio /dev/ttyACM0` or `tio /dev/ttyUSB0` on Linux or you can find it via `tio -L`,
+   You can do do that validation by executing in a terminal the command `tio /dev/ttyACM0` or `tio /dev/ttyUSB0` on Linux or you can find it via `tio -L`,
    enter `Ctrl-D` to reload and observer "Hello World!" as the output.
 6. Enter `Ctrl-t q` to exit serial terminal `tio`.
 
->**NOTE:** For ESP boards, and some others, the process is different because it requires a `.BIN` file and possibly other steps.
->Consult [`circuitpython.org` site][08], find your board, and follow the details found there.
+> **NOTE:** For ESP boards, and some others, the process is different because it requires a `.BIN` file and possibly other steps.
+> Consult [`circuitpython.org` site][08], find your board, and follow the details found there.
 
 Sources:
-* [tio - a serial device I/O tool](https://github.com/tio/tio)
+
+- [tio - a serial device I/O tool](https://github.com/tio/tio)
 
 ## Installing CircuitPython on ESP32 Microprocessor
+
 The Espressif ESP is a very popular and worth while microprocessor used in may places,
 but some of them lack a native USB,
 and CircuitPython, and its development workflow work best with a native USB.
@@ -96,13 +93,16 @@ So what does one do?
 Consult [`circuitpython.org` site][08], find your board, and follow the details found there.
 
 Sources
-* [Dude, Where's My COM Port?](https://learn.adafruit.com/dude-where-s-my-com-port/overview)
+
+- [Dude, Where's My COM Port?](https://learn.adafruit.com/dude-where-s-my-com-port/overview)
 
 ## Creating TOML File (aka `settings.toml`)
+
 You will find a file named `settings.toml` is added to the root folder of the CircuitPython file system (aka `CIRCUITPI`).
 This file contains local wifi info and other settings.
 
 ## Using NeoVim with CircuitPython
+
 To get a handle on how I should used NeoVim/LazyVim to develop code with CircuitPython,
 I queried [Google's Gemini 2.5][01] with the following prompt:
 
@@ -119,12 +119,14 @@ The core of a CircuitPython workflow involves three main tasks:
 Outlined below is how to set up NeoVim for an efficient CircuitPython workflow,
 for a [Basic Setup](/basic-setup:-neovim-+-a-serial-nonitor) and a [Advanced Setup](/advanced-setup:-lsp,-file-management,-and-automation) with more automation.
 
----------------
+---
 
 ### Basic Setup: NeoVim + A Serial Monitor
+
 It is very simple, you just need NeoVim and a command-line tool to view the serial output.
 
 #### Step 1: Install a Serial Monitor Tool - DONE
+
 Your CircuitPython board provides a serial console (the REPL) over USB.
 You need a tool to connect to it.
 A great, modern choice is [`tio`][02], instead of the older `screen`.
@@ -154,16 +156,17 @@ sudo usermod -aG dialout jeff
 ```
 
 Sources:
-* [How to Use Tio — Connecting to Serial Devices with Linux](https://www.tomshardware.com/software/linux/how-to-use-tio-connecting-to-serial-devices-with-linux)
+
+- [How to Use Tio — Connecting to Serial Devices with Linux](https://www.tomshardware.com/software/linux/how-to-use-tio-connecting-to-serial-devices-with-linux)
 
 #### Step 2: The Workflow
 
 1. Mount the Board: Plug in your CircuitPython board. It will mount as a USB drive named `CIRCUITPY`.
 2. Edit Your Code: Open or create your `code.py` file in NeoVim (`nvim <path-to-your-project>/code.py`).
 3. Use NeoVim's Built-in Terminal: You don't need a separate terminal window. Open a terminal split inside NeoVim.
-    * In Normal mode, type `:split` followed by `:terminal` to open a horizontal terminal.
-    * Or, use the combined command `:term` to open it in a new tab.
-    * Or, open a terminal outside of `nvim` using  `tio /dev/ttyACM0` or `tio /dev/ttyUSB0` on Linux or you can find it via `tio -L`.
+   - In Normal mode, type `:split` followed by `:terminal` to open a horizontal terminal.
+   - Or, use the combined command `:term` to open it in a new tab.
+   - Or, open a terminal outside of `nvim` using `tio /dev/ttyACM0` or `tio /dev/ttyUSB0` on Linux or you can find it via `tio -L`.
 4. Connect to the REPL: In the new NeoVim terminal pane, start `tio` with: `tio <path-to-device>`
    (typically `tio /dev/ttyACM0` or `tio /dev/ttyUSB0` on Linux or you can find it via `tio -L`)
    You will now see the serial output from your board right inside NeoVim! Use `Ctrl-t q` to quit `tio`.
@@ -190,43 +193,46 @@ tio -L
 tio /dev/ttyACM0
 ```
 
----------------
+---
 
 ### Advanced Setup: LSP, File Management, and Automation
+
 You can improve this workflow with plugins and language server support.
 This example uses LazyVim for plugin management and Lua for configuration.
 
 #### Step 1: Create a Project and Install CircuitPython Stubs
+
 For each of your CircuitPython projects, it's best practice to have a dedicated virtual environment.
 This environment will hold the stubs that match the version of CircuitPython and the specific board you are using.
 
 1. Create a Project Directory:
 
-    ```bash
-    mkdir my-circuitpython-project
-    cd my-circuitpython-project
-    ```
+   ```bash
+   mkdir my-circuitpython-project
+   cd my-circuitpython-project
+   ```
 
 2. Create and Activate a Python Virtual Environment:
 
-    ```bash
-    # create and activate a virtual environment
-    python3 -m venv .venv
-    source .venv/bin/activate
-    ```
+   ```bash
+   # create and activate a virtual environment
+   python3 -m venv .venv
+   source .venv/bin/activate
+   ```
 
 3. Install Stubs: The easiest way to get the correct stubs is using `adafruit-circuitpython-stubs` (or `circup`).
 
-    ```bash
-    # install the stubs (this installs stubs for ALL boards)
-    # this is the cleanest way to manage stubs on a per-project basis
-    pip install adafruit-circuitpython-stubs
-    # OR
-    # This will install stubs for all boards running 8.x
-    circup install --path ./.venv/lib/python*/site-packages/ adafruit-circuitpython-stubs
-    ```
+   ```bash
+   # install the stubs (this installs stubs for ALL boards)
+   # this is the cleanest way to manage stubs on a per-project basis
+   pip install adafruit-circuitpython-stubs
+   # OR
+   # This will install stubs for all boards running 8.x
+   circup install --path ./.venv/lib/python*/site-packages/ adafruit-circuitpython-stubs
+   ```
 
 #### Step 2: Configure LazyVim for CircuitPython
+
 LazyVim is designed to be extended easily.
 We will create a new plugin specification file to configure the Python language server (`pyright`) to recognize our stubs.
 
@@ -237,8 +243,9 @@ We will create a new plugin specification file to configure the Python language 
 2. Add the Configuration:
    Paste the following Lua code into your new `circuitpython.lua` file.
    This code does two main things:
-* Tells `pyright` (the Python LSP) to look for types and modules in the stubs directory we created.
-* Adds a convenient command (`:CpREPL`) to open the CircuitPython REPL directly inside NeoVim.
+
+- Tells `pyright` (the Python LSP) to look for types and modules in the stubs directory we created.
+- Adds a convenient command (`:CpREPL`) to open the CircuitPython REPL directly inside NeoVim.
 
 ```bash
 -- ~/.config/nvim/lua/plugins/circuitpython.lua
@@ -309,22 +316,22 @@ return {
 ```
 
 #### Step 3: The Workflow
+
 You have an integrated workflow.
 
 1. Connect Your Device: Plug your CircuitPython board into your computer. It should mount as a drive named `CIRCUITPY`.
 2. Start NeoVim: Navigate to your project directory and start Neovim.
 
-    ```bash
-    cd my-circuitpython-project
-    source .venv/bin/activate      # Important for command-line tools
-    nvim
-    ```
+   ```bash
+   cd my-circuitpython-project
+   source .venv/bin/activate      # Important for command-line tools
+   nvim
+   ```
 
 3. Edit Your Code:
-      * Open your `code.py` file from the `CIRCUITPY` drive.
-  You can use Telescope (`<leader>ff`) to find it or open it directly: `nvim /Volumes/CIRCUITPY/code.py`.
-      * As you type, you will now get autocompletion for `board`, `digitalio`, `time`, and any other CircuitPython core modules!
-      * You will also get type checking and linting, helping you catch errors before you even save the file.
+   _Open your `code.py` file from the `CIRCUITPY` drive.
+   You can use Telescope (`<leader>ff`) to find it or open it directly: `nvim /Volumes/CIRCUITPY/code.py`.
+   _ As you type, you will now get autocompletion for `board`, `digitalio`, `time`, and any other CircuitPython core modules! \* You will also get type checking and linting, helping you catch errors before you even save the file.
 
 4. Upload Your Code:
    This is now very simple.
@@ -333,37 +340,37 @@ You have an integrated workflow.
 5. Open the REPL:
    To see program output (`print()` statements) or interact with your code live,
    open the REPL using the command or keymap we created:
-      * Type `:CpREPL` and press Enter.
-      * Or, press `<Space>cr` (assuming your leader key is Space).
-This will open your serial monitor in a new vertical split right inside NeoVim.
-You can press `Ctrl+C` and `Ctrl+D` in the terminal window to restart your board and see the boot-up messages and code output.
+   _Type `:CpREPL` and press Enter.
+   _ Or, press `<Space>cr` (assuming your leader key is Space).
+   This will open your serial monitor in a new vertical split right inside NeoVim.
+   You can press `Ctrl+C` and `Ctrl+D` in the terminal window to restart your board and see the boot-up messages and code output.
 
 #### Summary of Benefits
+
 By following these steps, you have configured LazyVim to be a first-class CircuitPython IDE with:
 
-* Intelligent Autocompletion: For all CircuitPython-specific modules.
-* Static Analysis & Error Checking: `pyright` will warn you about incorrect types or function calls.
-* Integrated REPL: No need to leave your editor to see serial output or interact with your device.
-* Seamless "Upload": Your code runs as soon as you save the file.
-* All LazyVim Features: You still have access to Telescope, Git integration, and all the other powerful features LazyVim provides.
+- Intelligent Autocompletion: For all CircuitPython-specific modules.
+- Static Analysis & Error Checking: `pyright` will warn you about incorrect types or function calls.
+- Integrated REPL: No need to leave your editor to see serial output or interact with your device.
+- Seamless "Upload": Your code runs as soon as you save the file.
+- All LazyVim Features: You still have access to Telescope, Git integration, and all the other powerful features LazyVim provides.
 
-
----------------
+---
 
 ## CircuitPython Turbo
-* [Documentation: CircuitPython Turbo: Go Blinka!](https://learn.adafruit.com/circuitpython-turbo)
-  * [CircuitPython - Playing with CircuitPython Turbo](https://www.youtube.com/watch?v=h_OkQ2a8N6o)
-  * [GitHub: mikeysklar/turbo](https://github.com/mikeysklar/turbo)
 
----------------
+- [Documentation: CircuitPython Turbo: Go Blinka!](https://learn.adafruit.com/circuitpython-turbo)
+  - [CircuitPython - Playing with CircuitPython Turbo](https://www.youtube.com/watch?v=h_OkQ2a8N6o)
+  - [Computer Graphics Turbo Demos](https://learn.adafruit.com/computer-graphics-turbo-demos)
+  - [GitHub: mikeysklar/turbo](https://github.com/mikeysklar/turbo)
 
+---
 
-[01]:https://gemini.google.com/app
-[02]:https://github.com/tio/tio
-[03]:https://www.adafruit.com/product/5302
-[04]:https://www.youtube.com/watch?v=BYDmXIYNKs0
-[05]:https://learn.adafruit.com/adafruit-kb2040/circuitpython
-[06]:https://circuitpython.org/board/adafruit_kb2040/
-[07]:https://www.pythonmorsels.com/using-the-python-repl/
-[08]:https://circuitpython.org/downloads
-
+[01]: https://gemini.google.com/app
+[02]: https://github.com/tio/tio
+[03]: https://www.adafruit.com/product/5302
+[04]: https://www.youtube.com/watch?v=BYDmXIYNKs0
+[05]: https://learn.adafruit.com/adafruit-kb2040/circuitpython
+[06]: https://circuitpython.org/board/adafruit_kb2040/
+[07]: https://www.pythonmorsels.com/using-the-python-repl/
+[08]: https://circuitpython.org/downloads
